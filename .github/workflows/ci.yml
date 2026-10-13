@@ -1,0 +1,30 @@
+name: Testy
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Daty stron pochodzą z historii gita — płytki klon by je zafałszował
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Testy integralności
+        run: npm test
+      - name: Build artefaktu
+        run: npm run build
+      - name: Podsumowanie
+        run: |
+          echo "Zbudowano dist/index.html: $(du -h dist/index.html | cut -f1)"
+          echo "Stron w bazie: $(ls -1 content/*/*.md | grep -v README | wc -l)"

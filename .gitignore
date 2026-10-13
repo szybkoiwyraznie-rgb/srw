@@ -1,0 +1,16 @@
+# Produkt buildu — generowany, nadpisywany, nie commitowany (ADR 0001)
+dist/
+
+# Zależności (silnik witryny ich nie ma — ADR 0002)
+node_modules/
+
+# Duże ilustracje trzymamy poza gitem; do repo wchodzą tylko miniatury
+# i manifest w media/ (ADR 0004 / AGENTS.md §6)
+media/orig/
+
+# Systemy i edytory
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
