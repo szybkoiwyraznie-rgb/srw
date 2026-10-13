@@ -1,0 +1,16 @@
+{
+  "name": "srw-database",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SRW Database — prywatny dziennik rozgrywki i baza wiedzy o seriach Super Robot Wars",
+  "scripts": {
+    "test": "node tools/run-tests.mjs",
+    "build": "node tools/build.mjs",
+    "serve": "node tools/serve.mjs",
+    "start": "node tools/serve.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

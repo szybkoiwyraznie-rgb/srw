@@ -1,0 +1,81 @@
+/**
+ * Punkt startowy witryny: montuje router i renderery.
+ * Po każdym renderze domyka interakcje wymagające DOM.
+ */
+
+import { uruchomRouter } from './router.js';
+import { rama, tytulStrony, nieZnalesc, nazwaTypu } from './render.js';
+import { renderGlowna } from './render-home.js';
+import { renderEncja } from './render-entity.js';
+import { renderEpizod } from './render-episode.js';
+import { renderListe, renderTagi, renderTag } from './render-lists.js';
+import { renderSzukanie } from './render-search.js';
+import { renderCoNowego } from './render-whatsnew.js';
+import { renderOBazie } from './render-about.js';
+
+/** Mapa tras list ↔ tras encji (dla podświetlenia nawigacji). */
+const LISTA_TRAS = {
+  gra: 'gry', epizod: 'epizody', postac: 'postacie',
+  mech: 'mechy', bron: 'bronie', seria: 'serie',
+};
+
+function renderuj(trasa) {
+  const app = globalThis.document?.getElementById('app');
+  if (!app) return;
+
+  let aktywna = trasa.nazwa;
+  let tytul = 'SRW Database';
+  let html;
+
+  switch (trasa.nazwa) {
+    case 'glowna':
+      html = renderGlowna(); tytul = 'Baza'; aktywna = 'glowna'; break;
+
+    case 'gra':
+      html = renderEncja(trasa.param); tytul = trasa.param ?? 'Gra'; aktywna = 'gry'; break;
+    case 'epizod':
+      html = renderEpizod(trasa.param); tytul = trasa.param ?? 'Epizod'; aktywna = 'epizody'; break;
+    case 'postac':
+    case 'mech':
+    case 'bron':
+    case 'seria':
+      html = renderEncja(trasa.param);
+      tytul = trasa.param ?? nazwaTypu(trasa.nazwa);
+      aktywna = LISTA_TRAS[trasa.nazwa];
+      break;
+
+    case 'gry':
+    case 'epizody':
+    case 'postacie':
+    case 'mechy':
+    case 'bronie':
+    case 'serie': {
+      const typ = Object.keys(LISTA_TRAS).find((t) => LISTA_TRAS[t] === trasa.nazwa);
+      html = renderListe(typ, trasa.query);
+      tytul = nazwaTypu(typ, 'wiele');
+      break;
+    }
+
+    case 'tagi': html = renderTagi(); tytul = 'Tagi'; break;
+    case 'tag': html = renderTag(trasa.param); tytul = `Tag: ${trasa.param ?? ''}`; aktywna = 'tagi'; break;
+    case 'szukaj': html = renderSzukanie(trasa.query.q); tytul = 'Szukaj'; break;
+    case 'co-nowego': html = renderCoNowego(); tytul = 'Co nowego'; break;
+    case 'o-bazie': html = renderOBazie(); tytul = 'O bazie'; break;
+
+    default: html = nieZnalesc(trasa.param ?? 'strona'); tytul = 'Nie znaleziono'; break;
+  }
+
+  app.innerHTML = rama(aktywna, tytul, html);
+  tytulStrony(tytul);
+  domknijInterakcje(app);
+}
+
+/** Detale panelu skryptu mają pamiętać stan w obrębie sesji przeglądarki. */
+function domknijInterakcje(app) {
+  globalThis.scrollTo?.(0, 0);
+  const tresc = app.querySelector('.tresc');
+  if (tresc) tresc.scrollTop = 0;
+}
+
+const stop = uruchomRouter(renderuj);
+if (globalThis.__SRW_TEST__) globalThis.__SRW_STOP__ = stop;
