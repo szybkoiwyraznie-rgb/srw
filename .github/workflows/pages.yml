@@ -32,6 +32,12 @@ jobs:
       - name: Build
         run: npm run build
       - uses: actions/configure-pages@v5
+        with:
+          # Repozytorium nie ma jeszcze włączonego Pages — akcja włącza je sama
+          # (build_type: workflow), żeby pierwsza publikacja nie wymagała
+          # klikania w ustawieniach. Jeśli GitHub odmówi, włącz ręcznie:
+          # Settings → Pages → Source: GitHub Actions.
+          enablement: true
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
