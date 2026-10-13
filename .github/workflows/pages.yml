@@ -21,25 +21,25 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: '22'
       - name: Testy przed publikacją
         run: npm test
       - name: Build
         run: npm run build
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
         with:
           # Repozytorium nie ma jeszcze włączonego Pages — akcja włącza je sama
           # (build_type: workflow), żeby pierwsza publikacja nie wymagała
           # klikania w ustawieniach. Jeśli GitHub odmówi, włącz ręcznie:
           # Settings → Pages → Source: GitHub Actions.
           enablement: true
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: dist
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
