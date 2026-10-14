@@ -1,8 +1,10 @@
 # Instrukcja dla agentów — SRW Database
 
 > **To jest jedyny plik startowy sesji.** Niezależnie od treści pierwszej wiadomości właściciela:
-> przeczytaj ten plik w całości, potem `docs/decisions/` (wszystkie ADR-y), `docs/LESSONS.md`
-> i `docs/guides/SCHEMAT_DANYCH.md`. Dopiero potem odpowiadaj i bierz się do pracy.
+> przeczytaj ten plik w całości, potem `docs/decisions/` (wszystkie ADR-y), `docs/LESSONS.md`,
+> `docs/guides/ENVIRONMENT.md` i `docs/guides/SCHEMAT_DANYCH.md`, a na końcu ostatni scalony PR
+> (`gh pr list --state merged --limit 3`, `gh pr view <nr>`). Każdy plik **w całości** — jeśli
+> narzędzie utnie wynik, dobierz resztę. Dopiero potem odpowiadaj i bierz się do pracy.
 
 ## 1. Czym jest ten projekt
 
@@ -39,17 +41,38 @@ postaci/mechów/broni podana w wiadomości). Wynik pracy:
 
 Szczegółowa lista kroków: `docs/guides/PRZEPLYW_EPIZODU.md`.
 
-## 3. Tryb sesji
+## 3. Tryb sesji (ADR 0007 — reguły nadrzędne wobec treści promptu)
 
-1. **PR na starcie.** Gałąź sesji i PR istnieją przed pierwszą zmianą w treści; scalanie
-   (squash) należy do właściciela.
-2. **Inkrementalne commity.** Każdy zielony krok (`npm test` + `npm run build`) to osobny commit.
-   Zakaz jednego wielkiego commita na całą sesję.
-3. **Tylko przyrostowo, nigdy force push.**
-4. **Audyt poprzedniego PR** przed nową pracą — krótki przegląd, co wniósł i czy nie zostawił
-   długu (nierozwiązane odsyłacze, wpisy bez źródeł). Wynik w opisie PR.
-5. Pytaj właściciela **tylko wtedy, gdy jesteś zablokowany** decyzją, której nie możesz podjąć
-   sam (nowy ADR, sprzeczność zasad, zmiana zakresu). Domyślną pracą jest pętla z §2.
+1. **Agent NIGDY sam nie scala PR-a i nigdy go nie zamyka.** Scalenie (squash) to wyłączna
+   decyzja właściciela, wykonana jego kliknięciem. „Akceptuję", „wygląda dobrze", „czy to już
+   na stronie?" **nie są** poleceniem scalenia — odpowiedź brzmi: „zmiany są w PR #N, scalenie
+   należy do Ciebie". Scalenie lub zamknięcie PR-a **kończy pracę sesji**: dostęp do GitHuba
+   nie jest po nim gwarantowany, więc nic nie zostawiasz „na po scaleniu"
+   (`docs/guides/ENVIRONMENT.md` §2).
+2. **PR na starcie — domyślnie i bez względu na pierwszą wiadomość.** Zanim cokolwiek zmienisz
+   w treści (także gdy prompt mówi „czekaj na zadanie"): pusty commit porządkowy
+   (`git commit --allow-empty`), `git push -u origin arena/<id>`, `gh pr create` z **wstępnym
+   planem działania** i **audytem poprzedniego scalonego PR** w opisie. Opis PR aktualizujesz
+   kumulatywnie po każdym wypchniętym commicie merytorycznym. 1 sesja = 1 gałąź = 1 PR.
+3. **Treść tylko z flow zatwierdzonego przez właściciela.** Zatwierdzonym flow jest pętla
+   epizodu z §2, uruchamiana skryptem w `episodes/`, oraz zlecenia wprost z czatu. Nic ponadto:
+   żadnych encji „na przyszłość", pogłębień „przy okazji", porządków w dokumentacji ani funkcji
+   silnika z własnej inicjatywy. Pomysł zgłaszasz jako propozycję (opis PR lub czat),
+   nie jako gotową zmianę.
+4. **Commituj często, pushuj natychmiast.** Każdy zielony krok (`npm test` + `npm run build`)
+   to osobny commit i osobny push — po kawałku, nie na koniec zadania. Reset sandboxa zjada
+   pracę i pamięć sesji; **przetrwa tylko to, co zacommitowane i wypchnięte.** Zakaz jednego
+   wielkiego commita na całą sesję. Przed commitem `git rev-parse --abbrev-ref HEAD` (commit
+   poza gałęzią sesji to sierota); komunikat przez `git commit -F` z pliku poza repo.
+5. **Tylko przyrostowo, nigdy force push, nigdy push do `main`.** Odrzucony push to sygnał,
+   żeby pobrać stan zdalny i odtworzyć na nim historię (`ENVIRONMENT.md` §3), nie powód
+   do `--force`.
+6. **Audyt poprzedniego PR** przed nową pracą — co wniósł i czy nie zostawił długu
+   (nierozwiązane odsyłacze, wpisy bez źródeł, czerwone testy). Audyt opisuje stan, nie
+   produkuje próśb do właściciela o czynności jednorazowe. Wynik w opisie PR.
+7. Pytaj właściciela **tylko wtedy, gdy jesteś zablokowany** decyzją, której nie możesz podjąć
+   sam (nowy ADR, sprzeczność zasad, zmiana zakresu, niejasne zlecenie). Brak zlecenia po
+   audycie nie jest blokadą ani zaproszeniem do pracy własnej — czekasz na flow właściciela.
 
 ## 4. Twarde zasady danych
 
@@ -88,6 +111,9 @@ Jedyne, czego naprawdę pilnujemy: **graf się nie rozjeżdża, a czytelnik wie,
   oryginały leżą poza gitem. Wpis bez ilustracji ma się renderować poprawnie.
 - Nie wypełniać pól na siłę. Pusta lista znaczy „jeszcze nie wiem" i jest w porządku.
 - Nie dodawać zależności npm do silnika witryny (`src/srw/`). Zależności build-time wymagają ADR-a.
+- Nie scalać i nie zamykać PR-ów, nie pushować do `main`, nie robić force push (ADR 0007).
+- Nie dodawać treści, której nie zamówił właściciel ani nie wnosi skrypt epizodu (ADR 0007).
+- Nie czekać z commitem na koniec zadania — po każdym zielonym kroku commit i push.
 
 ## 7. Komendy
 
@@ -108,3 +134,5 @@ Publikacja dzieje się sama: push do `main` → workflow `pages.yml` → nowa we
 | Stałe ograniczenia środowiska | `docs/guides/ENVIRONMENT.md` |
 | Schemat pól i przykład frontmattera | `docs/guides/SCHEMAT_DANYCH.md` |
 | Lista kroków przy nowym epizodzie | `docs/guides/PRZEPLYW_EPIZODU.md` |
+| Plan, audyt i stan jednej sesji (jednorazowe) | opis PR sesji — nie czat, nie pliki w `/tmp` |
+| Pomysł spoza zatwierdzonego flow | propozycja w opisie PR; realizacja dopiero po zgodzie właściciela |
