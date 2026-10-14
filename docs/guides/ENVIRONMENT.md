@@ -105,8 +105,10 @@ sierota — nie wejdzie do PR-a i przepadnie).
   zwraca kod wyjścia `tail`, nie testów — commit poszedłby z czerwonym testem.
   Uruchamiaj `npm test` jako samodzielne polecenie i patrz na kod wyjścia
   (albo `npm test >/tmp/t.log 2>&1 && …`, log oglądaj osobno).
-- `gh pr edit` bywa odrzucane błędem GraphQL; obejście:
-  `gh api -X PATCH repos/szybkoiwyraznie-rgb/srw/pulls/<nr> -F body=@/tmp/pr-body.md`.
+- **`gh pr edit` nie działa** (potwierdzone 2026-10-14: błąd GraphQL
+  `Projects (classic) is being deprecated … projectCards`). Opis PR aktualizuj przez
+  `gh api -X PATCH repos/szybkoiwyraznie-rgb/srw/pulls/<nr> -F body=@/tmp/pr-body.md`
+  (plik z opisem trzymaj poza repo i dopisuj do niego kumulatywnie).
 - `git checkout <plik>` cofa niezacommitowane zmiany w tym pliku — commituj,
   zanim sięgniesz po takie operacje.
 - Praca wyłącznie na gałęzi `arena/<id>`; nigdy push do `main`; nigdy `--force`;
