@@ -17,6 +17,7 @@ import {
   nieZnalesc, numerEpizodu, stopkaCzasu, odmiana,
 } from './render.js';
 import { sekcjaPowiazan } from './render-entity.js';
+import { sekcjaScen } from './render-scene.js';
 
 export function renderEpizod(slug) {
   const e = dajStrone(slug);
@@ -55,6 +56,7 @@ ${e.skryptTekst ? `
 <div class="uklad-encja">
   <div class="tresc-encja">
     ${e.html}
+    ${sekcjaScen(e.slug)}
     ${sekcjaPowiazan('W tym epizodzie', grupy, {})}
     ${sekcjaPrzypisow(e)}
     ${stopkaCzasu(e.czas)}

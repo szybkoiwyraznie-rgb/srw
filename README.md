@@ -36,7 +36,8 @@ działa po stronie przeglądarki, zero zależności runtime.
 |---|---|
 | `episodes/` | surowe skrypty epizodów — **jedyny** materiał pisany przez właściciela, read-only |
 | `content/gry/` | tytuły gier |
-| `content/epizody/` | rozegrane epizody: streszczenie, sceny, wątki anime, komentarz |
+| `content/epizody/` | rozegrane epizody: streszczenie, wątki anime, komentarz (sceny agregowane) |
+| `content/sceny/` | sceny epizodów: dosłowna treść z skryptu i analiza (ADR 0008) |
 | `content/postacie/`, `content/mechy/`, `content/bronie/` | encje występujące w epizodach |
 | `content/serie/` | serie anime/manga, z których pochodzi wszystko powyższe |
 | `content/co-nowego.md` | dziennik zmian widoczny w witrynie |

@@ -8,6 +8,7 @@ import { rama, tytulStrony, nieZnalesc, nazwaTypu } from './render.js';
 import { renderGlowna } from './render-home.js';
 import { renderEncja } from './render-entity.js';
 import { renderEpizod } from './render-episode.js';
+import { renderScena } from './render-scene.js';
 import { renderListe, renderTagi, renderTag } from './render-lists.js';
 import { renderSzukanie } from './render-search.js';
 import { renderCoNowego } from './render-whatsnew.js';
@@ -35,6 +36,8 @@ function renderuj(trasa) {
       html = renderEncja(trasa.param); tytul = trasa.param ?? 'Gra'; aktywna = 'gry'; break;
     case 'epizod':
       html = renderEpizod(trasa.param); tytul = trasa.param ?? 'Epizod'; aktywna = 'epizody'; break;
+    case 'scena':
+      html = renderScena(trasa.param); tytul = trasa.param ?? 'Scena'; aktywna = 'epizody'; break;
     case 'postac':
     case 'mech':
     case 'bron':

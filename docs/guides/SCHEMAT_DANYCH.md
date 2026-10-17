@@ -8,7 +8,7 @@ co opisane jako **wymagane** i **pilnowane**.
 
 | Pole | Wymagane | Wartość | Uwagi |
 |---|---|---|---|
-| `typ` | tak | `gra` / `epizod` / `postac` / `mech` / `bron` / `seria` | musi zgadzać się z katalogiem |
+| `typ` | tak | `gra` / `epizod` / `scena` / `postac` / `mech` / `bron` / `seria` | musi zgadzać się z katalogiem |
 | `slug` | tak | małe litery, cyfry, myślniki | **niezmienny** — patrz ADR 0003 |
 | `tytul` | tak | string | tytuł widoczny w witrynie; może być polski lub oryginalny |
 | `tytul_ja`, `tytul_en` | nie | string | zapisy oryginalne — ułatwiają późniejsze wyszukiwanie |
@@ -31,6 +31,7 @@ pracę, jeśli odsyłacz jest martwy albo prowadzi do złego typu.
 | `mechy` | `mech` | epizod, postać, bron |
 | `bronie` | `bron` | epizod, mech |
 | `serie` | `seria` | epizod |
+| `epizod` | `epizod` | scena |
 | `gry` | `gra` | postać, mech |
 | `piloci` | `postac` | mech |
 
@@ -56,6 +57,11 @@ mieć swój wpis epizodu.
 `wsparcie`), `mechy`. Klasa opisuje **mechanizm działania**, nie świat pochodzenia — broń
 promieniowa z Mazingera i z Gundama mają tę samą klasę.
 
+**scena** (ADR 0008): `epizod` (wymagane, slug epizodu), `numer_sceny` (wymagane, tekst `1`, `1-2`,
+`2-2-1` — kolejność po segmentach liczbowo), `streszczenie` (opcjonalne, pokazywane na liście scen
+w epizodzie), opcjonalnie `postacie`, `mechy`, `bronie`. Slug sceny: `<epizod>-s<numer>`, np.
+`demo-ep001-s1-2`. Plik: `content/sceny/<slug>.md`.
+
 **seria**: `rodzaj` (`tv` / `ova` / `film` / `manga` / `gra` / `powiesc` / `inne`), `rok`, `odcinki`.
 
 Nowa klasa broni albo rola postaci wymaga dopisania wartości do `src/srw/registry.js` —
@@ -66,7 +72,11 @@ to jedno miejsce, celowo wąskie.
 | Typ | Sekcje wymagane | Typowy zestaw |
 |---|---|---|
 | encje | `## Opis` | `## Rola w drużynie`, `## Warianty`, `## Ciekawostki`, `## Źródła` |
-| epizod | `## Streszczenie` | `## Sceny`, `## Wątki anime`, `## Komentarz`, `## Źródła` |
+| scena | `## Treść sceny`, `## Analiza` | `## Źródła` |
+| epizod | `## Streszczenie` | `## Wątki anime`, `## Komentarz`, `## Źródła` (sekcja „Sceny" powstaje sama z wpisów scen) |
+
+**Treść sceny** to dosłowny blok `:::skrypt … :::` z tekstem sceny. Build sprawdza, czy jest
+fragmentem skryptu epizodu (różnice w odstępach nie liczą się). Przeredagowana scena nie przechodzi.
 
 Poza tym lista sekcji jest **wolna** (ADR 0006). Sekcja `## Wątki anime` w epizodzie prowadzi
 się jako tabelę:

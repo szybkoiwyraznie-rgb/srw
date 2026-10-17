@@ -31,14 +31,6 @@ seria *Super Robot Wars*. Epizod pełni rolę wprowadzenia: przedstawia trzech p
 ([[rx-78-2-gundam|Gundam]], [[mazinger-z|Mazinger]], [[getter-1|Getter-1]]) oraz różnice między
 nimi, zanim dojdzie do pierwszego starcia.
 
-## Sceny
-
-1. **Prolog narracyjny** — opis nieba i horyzontu; narrator zapowiada, że światy się przenikają.
-2. **Rozpoznanie** — Amuro nie ufa obcym maszynom, Kōji wita je jak sojuszników, Ryōma nie
-   wita ich wcale.
-3. **Krótkie starcie** — trzy uderzenia pokazane po kolei, każde inną bronią.
-4. **Zawieszenie broni** — decyzja o wspólnym działaniu bez słowa „drużyna".
-
 ## Wątki anime
 
 | Motyw w epizodzie | Źródło | Odcinek / wersja | Typ | Różnice |

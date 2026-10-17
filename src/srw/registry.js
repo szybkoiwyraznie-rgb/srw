@@ -14,7 +14,7 @@
 
 import { SLUG_RE, hrefDlaSlug, slugify } from './links.js';
 
-export const TYPY_STRON = ['gra', 'epizod', 'postac', 'mech', 'bron', 'seria'];
+export const TYPY_STRON = ['gra', 'epizod', 'scena', 'postac', 'mech', 'bron', 'seria'];
 
 /** Typy encji odnoszące się do serii anime/mangi. */
 export const TYPY_Z_SERIA = ['postac', 'mech'];
@@ -37,6 +37,7 @@ export const ROLE_POSTACI = ['pilot', 'wsparcie', 'dowodztwo', 'antagonista', 'p
 export const SEKCJE_WYMAGANE = {
   gra: [],
   epizod: ['Streszczenie'],
+  scena: ['Treść sceny', 'Analiza'],
   postac: ['Opis'],
   mech: ['Opis'],
   bron: ['Opis'],
@@ -56,9 +57,11 @@ export const POLA_RELACJI = {
   serie: { typ: 'seria', wiele: true },
   gry: { typ: 'gra', wiele: true },
   piloci: { typ: 'postac', wiele: true },
+  epizod: { typ: 'epizod', wiele: false },
 };
 
 const DATA_RE = /^\d{4}-\d{2}-\d{2}$/;
+const NUMER_SCENY_RE = /^\d+(?:-\d+)*$/;
 
 /** Wyciąga tytuły sekcji h2 z ciała markdown. */
 export function wytnijSekcje(body) {
@@ -132,6 +135,18 @@ export function walidujStrone(strona, ctx) {
     if (bronie !== undefined && !Array.isArray(bronie)) p.push(`${gdzie}: "bronie" musi być tablicą`);
   }
 
+  if (strona.typ === 'scena') {
+    if (typeof strona.epizod !== 'string' || strona.epizod === '') {
+      p.push(`${gdzie}: scena wymaga pola "epizod" (slug epizodu)`);
+    }
+    if (typeof strona.numer_sceny !== 'string' || !NUMER_SCENY_RE.test(strona.numer_sceny)) {
+      p.push(`${gdzie}: "numer_sceny" musi mieć postać 1, 1-2, 2-2-1 (jest: ${JSON.stringify(strona.numer_sceny)})`);
+    }
+    if (strona.streszczenie !== undefined && typeof strona.streszczenie !== 'string') {
+      p.push(`${gdzie}: "streszczenie" musi być tekstem`);
+    }
+  }
+
   if (strona.typ === 'gra') {
     if (strona.status !== undefined && !STATUSY_GRY.includes(strona.status)) {
       p.push(`${gdzie}: status "${strona.status}" poza ${STATUSY_GRY.join('/')}`);
@@ -164,6 +179,45 @@ export function walidujStrone(strona, ctx) {
   }
 
   return p;
+}
+
+/** Wycina treść bloku `:::…:::` z ciała strony (pierwszy blok). */
+export function wytnijBlokSkryptu(body) {
+  const m = String(body ?? '').match(/^:::[^\n]*\n([\s\S]*?)^:::[ \t]*$/m);
+  return m ? m[1].replace(/\n$/, '') : null;
+}
+
+/** Normalizacja do porównania wierności: wszystkie białe znaki → pojedyncza spacja. */
+export const normalizujTekst = (t) => String(t ?? '').replace(/\s+/g, ' ').trim();
+
+/**
+ * Wierność sceny (ADR 0008): treść z `## Treść sceny` musi być dosłownym
+ * fragmentem skryptu epizodu. `skryptEpizodu` to surowy tekst skryptu (lub null).
+ */
+export function sprawdzWiernoscSceny(strona, skryptEpizodu) {
+  if (strona.typ !== 'scena') return [];
+  const gdzie = strona.slug;
+  if (skryptEpizodu == null) return [`${gdzie}: brak skryptu epizodu, nie da się sprawdzić wierności sceny`];
+  const blok = wytnijBlokSkryptu(strona.body);
+  if (blok == null) return [`${gdzie}: brak bloku :::skrypt z treścią sceny`];
+  if (normalizujTekst(blok) === '') return [`${gdzie}: blok :::skrypt jest pusty`];
+  if (!normalizujTekst(skryptEpizodu).includes(normalizujTekst(blok))) {
+    return [`${gdzie}: treść sceny nie jest dosłownym fragmentem skryptu epizodu (przeredagowano lub pomylono wiersze)`];
+  }
+  return [];
+}
+
+/** Sceny epizodu w kolejności numerycznej (1-2 przed 1-10; 2 przed 2-1). */
+export function sortujSceny(sceny) {
+  const klucz = (n) => String(n ?? '').split('-').map((x) => Number(x));
+  return [...sceny].sort((a, b) => {
+    const ka = klucz(a.numer_sceny); const kb = klucz(b.numer_sceny);
+    for (let i = 0; i < Math.max(ka.length, kb.length); i += 1) {
+      const d = (ka[i] ?? -1) - (kb[i] ?? -1);
+      if (d !== 0) return d;
+    }
+    return 0;
+  });
 }
 
 /** Buduje rejestr slug→strona; wykrywa duplikaty (jedna przestrzeń nazw). */
@@ -214,7 +268,7 @@ export function policzTagi(strony) {
 
 /** Agregaty widoczne na stronie głównej i w stopce. */
 export function policzStatystyki(strony) {
-  const s = { gra: 0, epizod: 0, postac: 0, mech: 0, bron: 0, seria: 0, relacje: 0 };
+  const s = { gra: 0, epizod: 0, scena: 0, postac: 0, mech: 0, bron: 0, seria: 0, relacje: 0 };
   for (const p of strony) {
     if (Object.prototype.hasOwnProperty.call(s, p.typ)) s[p.typ] += 1;
     s.relacje += odsylaczeStrony(p).length;

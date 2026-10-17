@@ -20,3 +20,4 @@ Zasady:
 | [0005](0005-proces-petla-epizodu.md) | Proces: pętla epizodu, dziennik zmian, publikacja |
 | [0006](0006-swoboda-formy.md) | Swoboda formy: brak zamkniętych list sekcji i tagów |
 | [0007](0007-model-sesji-pr-zakres-commity.md) | Model sesji: PR na starcie, zakaz scalania, zakres z zatwierdzonego flow, commity przyrostowe |
+| [0008](0008-sceny-jako-osobny-typ.md) | Sceny jako osobny typ strony; epizod agreguje sceny |

@@ -17,14 +17,20 @@ bo każdy krok korzysta z poprzedniego.
 `content/gry/<slug>.md` — platforma, rok, status `w-toku`, krótki opis. Jeśli to pierwszy
 epizod nowej gry, dopisz też zdanie o tym, że baza rusza z tym tytułem.
 
-## 2. Wpis epizodu
+## 1a. Sceny (ADR 0008)
+
+Najpierw sceny, bo są nośnikiem treści: `content/sceny/<gra>-epNNN-s<numer>.md` — po jednym pliku na
+scenę skryptu. Treść sceny to dosłowny fragment skryptu w bloku `:::skrypt`, a `## Analiza` opisuje
+wątki i nawiązania. Numery scen zapisuj tak, jak w skrypcie (`1-1`, `2-2-1`).
+
+## 2. Wpis epizodu (agregacja scen)
 
 `content/epizody/<gra>-ep<NNN>.md` — frontmatter: `gra`, `numer`, `rozegrano` (data rozegrania,
 nie data commita), `skrypt`, listy `postacie` / `mechy` / `bronie` / `serie`, `pochodzenie: skrypt`,
 tagi. Treść:
 
 - `## Streszczenie` — co się stało, bez streszczania każdej kwestii,
-- `## Sceny` — punkty zwrotne w kolejności,
+- sekcji „Sceny” nie piszesz ręcznie — lista powstaje z wpisów `scena` (ADR 0008),
 - `## Wątki anime` — tabela proweniencji (seria, odcinek, typ, różnice),
 - `## Komentarz` — kontekst: co epizod robi z materiałem źródłowym, co pomija, co zmienia.
 

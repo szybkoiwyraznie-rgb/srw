@@ -12,6 +12,7 @@ import { statystyki, dajDane } from './data.js';
 export const NAZWY_TYPOW = {
   gra: { jeden: 'Gra', wiele: 'Gry', ikona: '🎮' },
   epizod: { jeden: 'Epizod', wiele: 'Epizody', ikona: '🎬' },
+  scena: { jeden: 'Scena', wiele: 'Sceny', ikona: '🎞️' },
   postac: { jeden: 'Postać', wiele: 'Postacie', ikona: '👤' },
   mech: { jeden: 'Mech', wiele: 'Mechy', ikona: '🤖' },
   bron: { jeden: 'Broń', wiele: 'Bronie', ikona: '⚔️' },

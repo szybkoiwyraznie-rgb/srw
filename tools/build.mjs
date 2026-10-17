@@ -23,13 +23,14 @@ import { renderMarkdown } from '../src/srw/markdown.js';
 import { parseWikilinks } from '../src/srw/links.js';
 import {
   zbudujRejestr, resolverLinkow, walidujStrone, policzBacklinki, policzTagi, policzStatystyki,
+  sprawdzWiernoscSceny,
 } from '../src/srw/registry.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ENTRY = 'src/srw/main.js';
 
 /** Pola frontmattera, które są odsyłaczami (liczą się do grafu i backlinków). */
-const POLA_ODSYLACZY = ['gra', 'seria', 'postacie', 'mechy', 'bronie', 'serie', 'gry', 'piloci'];
+const POLA_ODSYLACZY = ['gra', 'seria', 'epizod', 'postacie', 'mechy', 'bronie', 'serie', 'gry', 'piloci'];
 
 // ── Metadane czasu stron z historii gita ───────────────────────────
 let ostrzezonoPlytki = false;
@@ -88,6 +89,7 @@ export async function zbudujDane({ root = ROOT } = {}) {
   const strony = suroweStrony.filter((s) => !s.problem);
 
   const skrypty = wczytajSkrypty({ root });
+
   const coNowegoSurowe = wczytajCoNowego({ root });
 
   const { bySlug, duplikaty } = zbudujRejestr(strony);
@@ -95,6 +97,14 @@ export async function zbudujDane({ root = ROOT } = {}) {
 
   const ctx = { bySlug };
   for (const s of strony) problemy.push(...walidujStrone(s, ctx));
+
+  // Wierność scen (ADR 0008): treść sceny = dosłowny fragment skryptu jej epizodu.
+  for (const s of strony) {
+    if (s.typ !== 'scena') continue;
+    const ep = bySlug.get(s.epizod);
+    const tekst = ep?.skrypt ? skrypty.get(ep.skrypt) ?? null : null;
+    problemy.push(...sprawdzWiernoscSceny(s, tekst));
+  }
 
   // ── 2. Render markdown + odsyłacze ──────────────────────────────
   const resolver = resolverLinkow(bySlug);
