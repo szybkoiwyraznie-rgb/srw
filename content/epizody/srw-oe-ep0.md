@@ -58,8 +58,6 @@ Connect Force jako nowa osoba. Na końcu, w hangarze, Seishiro uczy ją wysłani
 }}
 {{wiedza
 
-## Wiedza modelu (niesprawdzona)
-
 - Muge Empire z prologu prawdopodobnie odpowiada Muge Zorbados Empire z *Dancougi*. Źródło sprawdzone (zob. hasła).
 - Universal Century to oś czasu serii Gundam. Źródło sprawdzone (zob. hasła).
 - Pozostałe wrogie frakcje z prologu (Jaku, Mechanization, Evil God Drago, Daimakai) mają źródła w hasłach. Ich dopasowanie do SRW OE pozostaje niepotwierdzone.

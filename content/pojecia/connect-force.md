@@ -23,16 +23,12 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0
 }}
 {{zrodlo
 
-## Dane z zewnętrznych źródeł
-
 - Connect Force to specjalna jednostka bojowa cywilnej firmy handlowej Connect ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
 - Ojciec Seishiro, dowódca Connect Force, zginął w walce z Mucus, gdy Seishiro był młody ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
 - Vasage to obca forma życia, która steruje Warp Gate używaną przez Connect Force. Himari rozumie jej myśli ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
 - Japońska Wikipedia opisuje Connect jako firmę handlową, a Connect Force jako jej jednostkę bojową ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend)).
 }}
 {{wiedza
-
-## Wiedza modelu (niesprawdzona)
 
 - Connect Force i Connect to jedna organizacja zgodnie z ustaleniem właściciela; źródła mówią o jednostce bojowej firmy.
 }}
