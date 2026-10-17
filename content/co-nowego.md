@@ -3,7 +3,12 @@
 Dziennik zmian widoczny w witrynie pod `#/co-nowego`. Prowadzi go agent przy każdym PR:
 dopisuje nowy wpis na górze, z datą i godziną publikacji (czas Europa/Warszawa, moment commita).
 
-Konwencja: `## 2026-10-18 00:22
+Konwencja: `## 2026-10-18 00:25
+
+- Deweloperem Super Robot Wars OE jest Banpresto (z LaunchBox). Wpis GameFAQs o sazanami usunięty z bazy.
+- Strona główna: usunięta sekcja „Rozgrywka” z kartą gry.
+
+## 2026-10-18 00:22
 
 - Dr. Hell przeniesiony z sekcji „Postacie” do haseł: to postać z innej serii (*Mazinger Z*), a nie postać gry. Zasada zapisana w ADR 0013.
 

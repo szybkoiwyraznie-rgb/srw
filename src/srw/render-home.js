@@ -6,12 +6,11 @@
 
 import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefListy } from './links.js';
-import { statystyki, listaStron, listaPosortowana, listaEpizodow, dajDane } from './data.js';
-import { nazwaTypu, numerEpizodu, odmiana } from './render.js';
+import { statystyki, listaStron, listaEpizodow, dajDane } from './data.js';
+import { nazwaTypu, numerEpizodu } from './render.js';
 
 export function renderGlowna() {
   const s = statystyki();
-  const gry = listaPosortowana('gra');
   const epizody = listaEpizodow();
 
   return `
@@ -26,13 +25,6 @@ export function renderGlowna() {
     ${kafelek('postac', s.postac, '#/postacie')}
     ${kafelek('mech', s.mech, '#/mechy')}
   </div>
-</section>
-
-<section class="blok">
-  <h2>Rozgrywka</h2>
-  ${gry.length === 0
-    ? `<p class="pusto">Żadna gra nie jest jeszcze w bazie.</p>`
-    : `<div class="karty-gier">${gry.map(kartaGry).join('')}</div>`}
 </section>
 
 <section class="blok dwie-kolumny">
@@ -67,21 +59,6 @@ function kafelek(typ, liczba, href) {
     <span class="kafelek-liczba">${liczba}</span>
     <span class="kafelek-etykieta">${nazwaTypu(typ, 'wiele')}</span>
   </a>`;
-}
-
-function kartaGry(gra) {
-  const epizody = listaStron('epizod').filter((e) => e.gra === gra.slug);
-  const status = {
-    'planowana': 'planowana',
-    'w-toku': 'w toku',
-    'ukończona': 'ukończona',
-    'porzucona': 'porzucona',
-  }[gra.status] ?? '—';
-  return `<article class="karta-gry">
-    <h3><a href="${hrefDlaSlug(gra.slug, 'gra')}">${escapeHtml(gra.tytul)}</a></h3>
-    <p class="meta">${gra.platforma ? escapeHtml(gra.platforma) : ''}${gra.rok ? ` · ${gra.rok}` : ''} · ${status}</p>
-    <p class="meta">${epizody.length} ${odmiana(epizody.length, ['epizod', 'epizody', 'epizodów'])} w bazie${epizody.length ? ` · ostatni: ${numerEpizodu(Math.max(...epizody.map((e) => e.numer ?? 0)))}` : ''}</p>
-  </article>`;
 }
 
 function listaOstatnich() {
