@@ -3,7 +3,11 @@
 Dziennik zmian widoczny w witrynie pod `#/co-nowego`. Prowadzi go agent przy każdym PR:
 dopisuje nowy wpis na górze, z datą i godziną publikacji (czas Europa/Warszawa, moment commita).
 
-Konwencja: `## 2026-10-18 00:13
+Konwencja: `## 2026-10-18 00:22
+
+- Dr. Hell przeniesiony z sekcji „Postacie” do haseł: to postać z innej serii (*Mazinger Z*), a nie postać gry. Zasada zapisana w ADR 0013.
+
+## 2026-10-18 00:13
 
 - Źródła są przy konkretnych informacjach (link w tym samym punkcie), a nie w osobnej sekcji „Źródła”. Dotyczy wszystkich stron, w tym Jaku Empire.
 - Walidacja: każde źródło z pola `zrodla` musi być podane w treści przy informacji, której dotyczy.

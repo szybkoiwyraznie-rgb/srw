@@ -1,8 +1,8 @@
 ---
-typ: postac
+typ: pojecie
 slug: dr-hell
 tytul: Dr. Hell
-rola: antagonista
+kategoria: postać z innej serii
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:

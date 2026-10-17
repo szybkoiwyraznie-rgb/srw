@@ -25,3 +25,4 @@ Zasady:
 | [0010](0010-poziomy-wiarygodnosci-i-asymilacja.md) | Poziomy wiarygodności, kolor zamiast plakietek, procedura asymilacji dostaw |
 | [0011](0011-poziom-na-fragmencie.md) | Poziom wiarygodności zaznaczany na fragmencie, nie na stronie |
 | [0012](0012-encje-z-dostawy-czas-fabuly-i-nawigacja.md) | Encje tylko z dostawy, brak wiedzy o przyszłości fabuły, sceny w nawigacji, bronie w mechach |
+| [0013](0013-postac-tylko-z-dostawy-gry.md) | Postać to tylko postać z dostawy gry; postać z innej serii to hasło wiki |
