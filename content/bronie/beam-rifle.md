@@ -10,6 +10,7 @@ pochodzenie: wiedza
 tagi: [universal-century, uzbrojenie-strzeleckie]
 utworzono: 2026-10-13
 ---
+{{wiedza
 
 ## Opis
 
@@ -21,3 +22,4 @@ o ile trafi.
 W grach broń ta zwykle ma wysoki współczynnik trafienia i zasięg, ale ograniczoną liczbę
 strzałów lub wymóg zasilania — co odzwierciedla jej technologiczny charakter: potężna,
 lecz wymagająca.
+}}

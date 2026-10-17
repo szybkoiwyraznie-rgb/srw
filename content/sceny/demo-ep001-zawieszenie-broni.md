@@ -10,6 +10,7 @@ postacie: [amuro-ray, koji-kabuto, ryoma-nagare]
 tagi: [demo]
 utworzono: 2026-10-13
 ---
+{{skrypt
 
 ## Treść sceny
 
@@ -37,3 +38,4 @@ NARRACJA: Horyzont na północy ciemnieje. Coś nadchodzi — i to nie oni je sp
 ## Analiza
 
 Zakończenie starcia jest zapisane jako warunek, nie jako sojusz: „Tymczasowo" Ryōmy domyka decyzję Amuro. Narrator na końcu zapowiada zagrożenie spoza tej trójki, co wiąże scenę z kolejnym etapem epizodu. Słowo „drużyna" w scenie nie pada — to świadome zachowanie skryptu.
+}}

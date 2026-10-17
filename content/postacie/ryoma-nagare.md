@@ -13,6 +13,7 @@ pochodzenie: wiedza
 tagi: [super-robot, glowny-bohater, getter]
 utworzono: 2026-10-13
 ---
+{{wiedza
 
 ## Opis
 
@@ -25,3 +26,4 @@ natychmiast, bez narady.
 W aktualnej bazie to trzecia postać z klasycznego tercetu super robotów, obok
 [[koji-kabuto|Kōjiego Kabuto]] i [[amuro-ray|Amuro Raya]] — trzy różne odpowiedzi na pytanie,
 kim ma być pilot maszyny bojowej.
+}}

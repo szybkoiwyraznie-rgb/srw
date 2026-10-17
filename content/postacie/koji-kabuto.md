@@ -13,6 +13,7 @@ pochodzenie: wiedza
 tagi: [super-robot, glowny-bohater, mazinger]
 utworzono: 2026-10-13
 ---
+{{wiedza
 
 ## Opis
 
@@ -31,3 +32,4 @@ bywa natomiast tym, który wytrzymuje.
 W ukrytych epizodach i scenariuszach bonusowych postać ta często pojawia się razem
 z [[ryoma-nagare|Ryōmą Nagare]], co w skrypcie objawia się żartami pod adresem
 kolegów z innych drużyn.
+}}

@@ -7,7 +7,7 @@
 import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefListy } from './links.js';
 import { statystyki, listaStron, listaPosortowana, listaEpizodow, czyDemo, dajDane } from './data.js';
-import { nazwaTypu, klasaPoziomu, numerEpizodu, odmiana } from './render.js';
+import { nazwaTypu, numerEpizodu, odmiana } from './render.js';
 
 export function renderGlowna() {
   const s = statystyki();
@@ -103,7 +103,7 @@ function listaOstatnich() {
     .slice(0, 10);
   if (strony.length === 0) return '<p class="pusto">Baza jest pusta.</p>';
   return `<ul class="lista">${strony.map((p) => `
-    <li class="${klasaPoziomu(p.pochodzenie)}">
+    <li>
       <a href="${hrefDlaSlug(p.slug, p.typ)}">${escapeHtml(p.tytul)}</a>
       <span class="meta">${nazwaTypu(p.typ)}${p.czas?.zaktualizowano ? ` · ${escapeHtml(p.czas.zaktualizowano).slice(0, 10)}` : ''}</span>
     </li>`).join('')}</ul>`;

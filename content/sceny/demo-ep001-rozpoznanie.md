@@ -11,6 +11,7 @@ mechy: [getter-1]
 tagi: [demo]
 utworzono: 2026-10-13
 ---
+{{skrypt
 
 ## Treść sceny
 
@@ -32,3 +33,4 @@ RYOMA: Wiem, jak to się kończy, kiedy się czeka. Getter-1, start!
 ## Analiza
 
 Trzy reakcje na jedną sytuację ustawiają role pilotów: Amuro czeka na odczyty, Kōji ocenia obce maszyny jako potencjalnych sojuszników, Ryōma od razu przechodzi do działania („Getter-1, start!"). Kończy się to wyraźnym zapowiedzeniem pierwszego ruchu. Która z tych postaw jest właściwa, skrypt nie rozstrzyga.
+}}

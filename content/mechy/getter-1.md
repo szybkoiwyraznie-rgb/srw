@@ -16,6 +16,7 @@ zrodla:
   - https://en.wikipedia.org/wiki/Getter_Robo
   - https://en.wikipedia.org/wiki/List_of_Getter_Robo_characters
 ---
+{{zrodlo
 
 ## Opis
 
@@ -32,3 +33,4 @@ związana wiązka [[getter-beam|Getter Beam]], wystrzeliwana z brzucha maszyny.
   wystrzeliwany z brzucha: <https://en.wikipedia.org/wiki/List_of_Getter_Robo_characters>.
 - Sprawdzono 2026-10-17 narzędziem `fetch_page` (strona *Getter Robo*); fragment o Getter Beam
   z wyniku wyszukiwania strony listy postaci.
+}}

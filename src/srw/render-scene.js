@@ -9,7 +9,7 @@
 import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug } from './links.js';
 import { dajStrone, dajDane } from './data.js';
-import { klasaPoziomu, opisPoziomu, linkStrony, nieZnalesc, stopkaCzasu, numerEpizodu } from './render.js';
+import { linkStrony, nieZnalesc, stopkaCzasu, numerEpizodu } from './render.js';
 import { sortujSceny } from './registry.js';
 
 /** Sceny jednego epizodu w kolejności numerycznej. */
@@ -49,7 +49,7 @@ export function renderScena(slug) {
 </div>
 
 <div class="uklad-encja">
-  <div class="tresc-encja ${klasaPoziomu(s.pochodzenie)}" title="${opisPoziomu(s.pochodzenie)}">
+  <div class="tresc-encja">
     ${s.html}
     ${stopkaCzasu(s.czas)}
   </div>

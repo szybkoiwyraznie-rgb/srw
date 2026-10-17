@@ -14,6 +14,7 @@ pochodzenie: skrypt
 tagi: [demo, pierwsze-starcie]
 utworzono: 2026-10-13
 ---
+{{skrypt
 
 > **Wpis demonstracyjny.** Treść poniżej jest wymyślona na potrzeby pokazania mechanizmów bazy
 > — nie opisuje żadnej prawdziwej rozgrywki. Prawdziwe epizody powstaną ze skryptów, które
@@ -50,3 +51,4 @@ Warto zauważyć, co epizod pomija: nie ma tu ani jednego antagonisty. To rzadki
 wprowadzenie ma pokazać, jak bohaterowie zachowują się wobec siebie, zanim pojawi się wróg.
 Dla bazy oznacza to, że pola `postacie` i `mechy` obejmują wyłącznie stronę „naszą" i przy
 kolejnych epizodach będą rosły asymetrycznie.
+}}

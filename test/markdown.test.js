@@ -63,3 +63,27 @@ test('zawinięta pozycja listy nie rozpada się na osobny akapit', () => {
   assert.match(html, /<ol><li><strong>Rozpoznanie<\/strong> — Amuro nie ufa, Kōji wita je, Ryōma nie wita ich wcale\.<\/li><li><strong>Zawieszenie<\/strong> — koniec\.<\/li><\/ol>/);
   assert.ok(!html.includes('<p>wita'));
 });
+
+test('ADR 0011: kilka poziomów na jednej stronie — każdy fragment ma własny blok', () => {
+  const md = '{{skrypt\nAkapit ze skryptu.\n}}\n\n{{zrodlo\nAkapit ze źródła.\n}}\n\n{{wiedza\nAkapit z wiedzy.\n}}\n';
+  const { html, problemy } = renderMarkdown(md, { resolveLink: resolver, wymagajPoziomu: true });
+  assert.deepEqual(problemy, []);
+  assert.match(html, /poziom-skrypt[\s\S]*Akapit ze skryptu/);
+  assert.match(html, /poziom-zrodlo[\s\S]*Akapit ze źródła/);
+  assert.match(html, /poziom-wiedza[\s\S]*Akapit z wiedzy/);
+});
+
+test('ADR 0011: fragment poza blokiem poziomu jest zgłaszany, nagłówek nie', () => {
+  const { problemy } = renderMarkdown('## Tytuł\n\nAkapit bez poziomu.\n', { resolveLink: resolver, wymagajPoziomu: true });
+  assert.equal(problemy.length, 1);
+  assert.match(problemy[0], /bez poziomu/);
+});
+
+test('ADR 0011: nieznany poziom, zagnieżdżenie i niezamknięty blok są błędami', () => {
+  const a = renderMarkdown('{{plotka\nx\n}}\n', { resolveLink: resolver });
+  assert.match(a.problemy.join(' '), /nieznany poziom/);
+  const b = renderMarkdown('{{zrodlo\n{{wiedza\nx\n}}\n}}\n', { resolveLink: resolver });
+  assert.match(b.problemy.join(' '), /zagnieżdżony/);
+  const c = renderMarkdown('{{zrodlo\nx\n', { resolveLink: resolver });
+  assert.match(c.problemy.join(' '), /niezamknięty/);
+});

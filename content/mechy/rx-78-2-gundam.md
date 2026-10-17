@@ -13,6 +13,7 @@ pochodzenie: wiedza
 tagi: [universal-century, prototyp, ikona]
 utworzono: 2026-10-13
 ---
+{{wiedza
 
 ## Opis
 
@@ -30,3 +31,4 @@ skuteczność zależy od ulepszeń — na starcie rzadko bywa wystarczający.
 W tej bazie **wariant to osobny wpis**, bo w grach warianty różnią się parametrami, a czasem
 należą do różnych pilotów. Jeżeli w skrypcie pojawi się inna maszyna z tej linii, powinna dostać
 własną stronę i odsyłacz do tej — nie należy dopisywać jej tutaj jako akapitu.
+}}

@@ -112,7 +112,7 @@ export async function zbudujDane({ root = ROOT } = {}) {
   const uzyteSkrypty = new Set();
 
   for (const s of strony) {
-    const { html, problemy: mdProblemy } = renderMarkdown(s.body, { resolveLink: resolver });
+    const { html, problemy: mdProblemy } = renderMarkdown(s.body, { resolveLink: resolver, wymagajPoziomu: true });
     for (const pr of mdProblemy) problemy.push(`${s.slug}: ${pr}`);
 
     const linki = new Set(parseWikilinks(s.body).map((w) => w.slug));

@@ -13,6 +13,7 @@ pochodzenie: wiedza
 tagi: [newtype, universal-century, glowny-bohater]
 utworzono: 2026-10-13
 ---
+{{wiedza
 
 ## Opis
 
@@ -33,3 +34,4 @@ Postać frontowa: pojedyncze, mocno wyspecjalizowane uderzenie. W wątkach fabul
 przyciąga konflikt z antagonistami z Universal Century i wymusza rozstrzygnięcia dotyczące
 lojalności — dlatego dobrze jest trzymać go na osobnej stronie, oddzielnie od wystąpień
 w poszczególnych grach.
+}}

@@ -13,6 +13,7 @@ pochodzenie: wiedza
 tagi: [super-robot, ikona, photon-power]
 utworzono: 2026-10-13
 ---
+{{wiedza
 
 ## Opis
 
@@ -25,3 +26,4 @@ rozpoznawalne same przez się, bez kontekstu.
 W grach Mazinger jest zwykle jednostką „ciężką": wysokie parametry obrony i potężne pojedyncze
 ciosy, ale ograniczona mobilność i wysoki koszt ulepszeń. Dobrze działa jako kotwica linii,
 słabiej — jako jednostka szybkiego reagowania.
+}}

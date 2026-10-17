@@ -39,7 +39,7 @@ test('wszystkie wikilinki prowadzą do istniejących stron', () => {
   const resolver = resolverLinkow(bySlug);
   const problemy = [];
   for (const s of strony) {
-    const { problemy: mdProblemy } = renderMarkdown(s.body, { resolveLink: resolver });
+    const { problemy: mdProblemy } = renderMarkdown(s.body, { resolveLink: resolver, wymagajPoziomu: true });
     for (const p of mdProblemy) problemy.push(`${s.slug}: ${p}`);
   }
   assert.deepEqual(problemy, []);

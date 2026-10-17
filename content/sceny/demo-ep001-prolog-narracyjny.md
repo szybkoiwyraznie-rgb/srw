@@ -9,6 +9,7 @@ pochodzenie: skrypt
 tagi: [demo]
 utworzono: 2026-10-13
 ---
+{{skrypt
 
 ## Treść sceny
 
@@ -20,3 +21,4 @@ błękitu, w którym nie ma nic znajomego — ani chmur, ani kierunku, ani horyz
 ## Analiza
 
 Scena nie ma żadnej kwestii dialogowej — to samo ustawienie: niebo bez znajomych punktów odniesienia i sylwetki maszyn na wschodzie. Narrator zapowiada motyw przenikania światów, na którym opiera się cały epizod. Analiza nie wskazuje wątku anime: w skrypcie nie pada żadne nawiązanie, które dałoby się przypisać do konkretnego odcinka.
+}}

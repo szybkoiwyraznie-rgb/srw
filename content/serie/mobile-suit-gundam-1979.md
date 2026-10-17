@@ -11,6 +11,7 @@ pochodzenie: wiedza
 tagi: [universal-century, sunrise, klasyka, real-robot]
 utworzono: 2026-10-13
 ---
+{{wiedza
 
 ## Opis
 
@@ -36,3 +37,4 @@ rozstrzygnąć, czy pochodzi z serialu, czy z filmów — stąd osobne odsyłani
 - [[rx-78-2-gundam|RX-78-2 Gundam]] — prototypowa maszyna, do której trafił bez przeszkolenia.
 - [[beam-rifle|Beam Rifle]] i [[beam-saber|Beam Saber]] — podstawowy zestaw uzbrojenia
   Gundama, w grach zwykle dzielony na osobne pozycje.
+}}

@@ -11,6 +11,7 @@ pochodzenie: wiedza
 tagi: [go-nagai, dynamic-planning, klasyka, super-robot]
 utworzono: 2026-10-13
 ---
+{{wiedza
 
 ## Opis
 
@@ -30,3 +31,4 @@ sprawia, że w bazach danych *Mazinger* generuje wyjątkowo dużo wpisów o bron
 - [[koji-kabuto|Kōji Kabuto]] — pilot [[mazinger-z|Mazinger Z]], bohater pierwszego pokolenia.
 - [[mazinger-z|Mazinger Z]] — tytułowa maszyna, w grach jedna z najbardziej „ciężkich" jednostek
   pod względem kosztu ulepszeń i siły pojedynczego ciosu.
+}}

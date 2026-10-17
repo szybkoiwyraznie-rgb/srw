@@ -15,6 +15,9 @@ Konwencja: `## RRRR-MM-DD` otwiera wpis dnia. Inne nagłówki są ignorowane.
 - Poziomy wiarygodności (ADR 0010): kolor tła zamiast plakietek — białe dostawa właściciela,
   pastelowy niebieski źródła sprawdzone, pastelowy zielony wiedza i analiza modelu. Zapisana
   procedura asymilacji dostaw.
+- Poziom wiarygodności na fragmencie, nie na stronie (ADR 0011): blok `{{zrodlo ... }}` (także
+  `skrypt`, `menu`, `wiedza`). Strona może łączyć poziomy; fragment bez bloku to błąd builda.
+  Listy i strony są neutralne.
 - Usunięto ikonki typów stron z całej witryny (nagłówki, listy, wyniki wyszukiwania, linki).
 - Witryna w trybie jasnym (decyzja właściciela) — zmieniona paleta i kolory plakietek.
 - Naprawiono listy: zawinięta pozycja nie rozpada się na osobny akapit, a pusta linia

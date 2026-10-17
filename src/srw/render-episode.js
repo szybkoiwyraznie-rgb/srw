@@ -13,7 +13,7 @@ import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefFiltru } from './links.js';
 import { dajStrone, dajDane, backlinkiStrony } from './data.js';
 import {
-  nazwaTypu, chipsyTagow, klasaPoziomu, opisPoziomu, linkStrony,
+  nazwaTypu, chipsyTagow, linkStrony,
   nieZnalesc, numerEpizodu, stopkaCzasu, odmiana,
 } from './render.js';
 import { sekcjaPowiazan } from './render-entity.js';
@@ -53,7 +53,7 @@ ${e.skryptTekst ? `
 </details>` : ''}
 
 <div class="uklad-encja">
-  <div class="tresc-encja ${klasaPoziomu(e.pochodzenie)}" title="${opisPoziomu(e.pochodzenie)}">
+  <div class="tresc-encja">
     ${e.html}
     ${sekcjaScen(e.slug)}
     ${sekcjaPowiazan('W tym epizodzie', grupy, {})}

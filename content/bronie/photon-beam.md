@@ -10,6 +10,7 @@ pochodzenie: wiedza
 tagi: [super-robot, photon-power, atak-nazwany]
 utworzono: 2026-10-13
 ---
+{{wiedza
 
 ## Opis
 
@@ -20,3 +21,4 @@ W bazie jest ciekawym przypadkiem, bo należy do klasy `beam` razem z bronią
 
 To dobry przykład zasady, którą warto utrzymać: pola opisują **działanie**, a pochodzenie
 światowe wynika z odsyłacza do serii — nie odwrotnie.
+}}

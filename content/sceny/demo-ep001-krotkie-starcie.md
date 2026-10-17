@@ -11,6 +11,7 @@ mechy: [getter-1, mazinger-z, rx-78-2-gundam]
 tagi: [demo]
 utworzono: 2026-10-13
 ---
+{{skrypt
 
 ## Treść sceny
 
@@ -28,3 +29,4 @@ między nich.
 ## Analiza
 
 Trzy ciosy w jednej scenie: wiązka Getter-1 jako ostrzeżenie (skrypt wprost mówi „nie atak"), Rocket Punch Mazingera oraz wiązka odbita od pancerza Gundama. Analiza bronią: różnica między wiązką celowaną obok celu a odbiciem na pancerzu pokazuje, że gra rozróżnia intencję uderzenia, a nie tylko jego siłę.
+}}

@@ -11,6 +11,7 @@ pochodzenie: wiedza
 tagi: [go-nagai, ken-ishikawa, super-robot, klasyka]
 utworzono: 2026-10-13
 ---
+{{wiedza
 
 ## Opis
 
@@ -29,3 +30,4 @@ wykorzystywana świadomie.
 
 - [[ryoma-nagare|Ryōma Nagare]] — pilot [[getter-1|Getter-1]], prowadzący drużynę siłą charakteru.
 - [[getter-1|Getter-1]] — forma podstawowa, uzbrojona między innymi w [[getter-beam|Getter Beam]].
+}}

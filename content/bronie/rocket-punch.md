@@ -10,6 +10,7 @@ pochodzenie: wiedza
 tagi: [super-robot, atak-nazwany]
 utworzono: 2026-10-13
 ---
+{{wiedza
 
 ## Opis
 
@@ -20,3 +21,4 @@ w arsenału, często z własną animacją i osobną linią dźwiękową.
 
 Konsekwencja dla bazy: nazwy ataków z tej rodziny należy wpisywać dokładnie tak, jak brzmią
 w grze (łącznie z zapisem japońskim), bo od nich zależą odsyłacze w skryptach epizodów.
+}}
