@@ -6,6 +6,7 @@ gra: srw-oe
 numer: 0
 skrypt: episodes/srw-oe/ep000.md
 postacie: [seishiro, himari-yaegaki]
+mechy: [exart]
 pochodzenie: skrypt
 zrodla:
   - https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE

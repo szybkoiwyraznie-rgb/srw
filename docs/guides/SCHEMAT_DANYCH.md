@@ -8,7 +8,7 @@ co opisane jako **wymagane** i **pilnowane**.
 
 | Pole | Wymagane | Wartość | Uwagi |
 |---|---|---|---|
-| `typ` | tak | `gra` / `epizod` / `scena` / `postac` / `mech` / `bron` / `seria` | musi zgadzać się z katalogiem |
+| `typ` | tak | `gra` / `epizod` / `scena` / `postac` / `mech` / `seria` (bronie nie są typem, ADR 0012) | musi zgadzać się z katalogiem |
 | `slug` | tak | małe litery, cyfry, myślniki | **niezmienny** — patrz ADR 0003 |
 | `tytul` | tak | string | tytuł widoczny w witrynie; może być polski lub oryginalny |
 | `tytul_ja`, `tytul_en` | nie | string | zapisy oryginalne — ułatwiają późniejsze wyszukiwanie |
@@ -28,8 +28,7 @@ pracę, jeśli odsyłacz jest martwy albo prowadzi do złego typu.
 | `gra` | `gra` | epizod |
 | `seria` | `seria` | postać, mech |
 | `postacie` | `postac` | epizod |
-| `mechy` | `mech` | epizod, postać, bron |
-| `bronie` | `bron` | epizod, mech |
+| `mechy` | `mech` | epizod, postać, scena |
 | `serie` | `seria` | epizod |
 | `epizod` | `epizod` | scena |
 | `gry` | `gra` | postać, mech |
@@ -47,23 +46,21 @@ liczą się do grafu i do sekcji „Powiązania" / „Wymienione w".
 Pole `skrypt` jest wiążące w obie strony: plik musi istnieć, a każdy plik w `episodes/` musi
 mieć swój wpis epizodu.
 
-**postac**: `seria` (wymagane), `rola` (`pilot` / `wsparcie` / `dowodztwo` / `antagonista` /
+**postac**: `seria` (opcjonalne — oryginalne postacie gry nie mają serii), `rola` (`pilot` / `wsparcie` / `dowodztwo` / `antagonista` /
 `postac` / `inne`), `seiyuu`, `mechy`, `gry`.
 
-**mech**: `seria` (wymagane), `typ_mecha`, `piloci`, `bronie`, `gry`, opcjonalnie `w_gre`
+**mech**: `seria` (opcjonalne), `typ_mecha`, `piloci`, `gry`, opcjonalnie `w_gre`
 (obiekt jednopoziomowy: `slug-gry: wartość`) na parametry specyficzne dla konkretnego tytułu.
 
-**bron**: `klasa` (`bron-biala` / `strzelecka` / `beam` / `rakietowa` / `specjalna` / `obrona` /
-`wsparcie`), `mechy`. Klasa opisuje **mechanizm działania**, nie świat pochodzenia — broń
-promieniowa z Mazingera i z Gundama mają tę samą klasę.
+Bronie nie są osobnym typem (ADR 0012). Uzbrojenie mecha opisujesz w jego treści.
 
 **scena** (ADR 0008): `epizod` (wymagane, slug epizodu), `numer_sceny` (wymagane, dowolny niepusty tekst — `1-2`, `2-2-1`, `Prolog`; numeracja zależy od gry), `streszczenie` (opcjonalne, pokazywane na liście scen
-w epizodzie), opcjonalnie `postacie`, `mechy`, `bronie`. Slug sceny: `<slug-epizodu>-<tytul-sceny>`, np.
+w epizodzie), opcjonalnie `postacie`, `mechy`. Slug sceny: `<slug-epizodu>-<tytul-sceny>`, np.
 `demo-ep001-rozpoznanie` (bez numeru — ADR 0008). Plik: `content/sceny/<slug>.md`.
 
 **seria**: `rodzaj` (`tv` / `ova` / `film` / `manga` / `gra` / `powiesc` / `inne`), `rok`, `odcinki`.
 
-Nowa klasa broni albo rola postaci wymaga dopisania wartości do `src/srw/registry.js` —
+Nowa rola postaci wymaga dopisania wartości do `src/srw/registry.js` —
 to jedno miejsce, celowo wąskie.
 
 ## Sekcje treści

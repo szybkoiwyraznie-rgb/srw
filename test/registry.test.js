@@ -77,7 +77,7 @@ test('backlinki zbierają strony linkujące bez duplikatów', () => {
   const strony = [
     { slug: 'a', typ: 'postac', linki: ['x', 'y'] },
     { slug: 'b', typ: 'mech', linki: ['x'] },
-    { slug: 'c', typ: 'bron', linki: ['x'] },
+    { slug: 'c', typ: 'seria', linki: ['x'] },
   ];
   const b = policzBacklinki(strony);
   assert.deepEqual(b.x.map((s) => s.slug), ['a', 'b', 'c']);

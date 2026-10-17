@@ -33,7 +33,6 @@ export function renderScena(slug) {
   const linkiListy = (slugi) => (slugi ?? []).map(dajStrone).filter(Boolean).map((p) => linkStrony(p)).join('<br>');
   if ((s.postacie ?? []).length) infoPozycje.push(`<dt>Postacie</dt><dd>${linkiListy(s.postacie)}</dd>`);
   if ((s.mechy ?? []).length) infoPozycje.push(`<dt>Mechy</dt><dd>${linkiListy(s.mechy)}</dd>`);
-  if ((s.bronie ?? []).length) infoPozycje.push(`<dt>Bronie</dt><dd>${linkiListy(s.bronie)}</dd>`);
 
   return `
 <div class="naglowek-epizodu">

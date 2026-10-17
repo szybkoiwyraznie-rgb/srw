@@ -7,15 +7,19 @@ Konwencja: `## RRRR-MM-DD` otwiera wpis dnia. Inne nagłówki są ignorowane.
 
 ## 2026-10-17
 
+- Zasady (ADR 0012): nowe encje tylko wprost z dostawy (skryptu); bez wiedzy o przyszłości względem
+  stanu fabuły; bronie nie są osobnym typem, tylko częścią opisu mechów.
+- Nawigacja: gra → epizod → scena. Dodany dział „Sceny”; usunięte „Bronie”.
+- Dodany mech Exart (CF-00) wprost z skryptu, z pilotem Seishiro. Uzbrojenie nieznane, zapisane jako brak.
 - Rozwinięcie dostawy SRW OE (flow absorpcji, ADR 0010): gra uzupełniona o platformę i rok ze źródeł
   (PSP, 2013), postacie o wiek, seiyuu i nazwisko ze źródeł, epizod o wątki, nawiązania (Dr. Hell z Mazinger Z,
   Devil Gundam z G Gundam), wiedzę modelu bez linków i rozbieżności. Każdy fragment ma swój poziom.
 - Pierwsza prawdziwa dostawa: Super Robot Wars OE, Episode 0 (`episodes/srw-oe/ep000.md`, zapisany
   1:1). Scena 0-1 (dosłowna treść skryptu, analiza z samego skryptu), postacie Seishiro i Himari
   Yaegaki, gra i epizod. Dostawa jest poziomu `skrypt`, białe tło.
-- Usunięto demo w całości: gra, epizod, cztery sceny, skrypt demonstracyjny, wpisy mechów, pilotów,
-  broni i serii. Zniknął też baner „baza demonstracyjna”.
-- Schemat: `numer` epizodu może być 0; postać nie musi mieć serii (wymagana tylko dla mecha).
+- Usunięto demo w całości: gra, epizod, cztery sceny, skrypt demonstracyjny, wpisy mechów, pilotów
+  i serii. Zniknął też baner „baza demonstracyjna”.
+- Schemat: `numer` epizodu może być 0; postać i mech nie muszą mieć serii (oryginalne postacie i mechy gry).
 - Poziom `menu` to dostawa właściciela o mechach, pilotach i broniach, nie tylko odczyt z ekranów
   gry (doprecyzowanie ADR 0010). Zawsze poziom 1, zapisywana w repozytorium 1:1.
 - Sceny jako osobny typ strony (ADR 0008): treść sceny dosłownie ze skryptu (build sprawdza

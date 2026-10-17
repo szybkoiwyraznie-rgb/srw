@@ -4,6 +4,7 @@ slug: seishiro
 tytul: Seishiro
 rola: pilot
 gry: [srw-oe]
+mechy: [exart]
 pochodzenie: skrypt
 zrodla:
   - https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE
@@ -15,7 +16,7 @@ utworzono: 2026-10-17
 ## Opis
 
 Pilot Connect, prywatnej grupy zajmującej się handlem w przestrzeni kosmicznej. Skrypt nie podaje jego nazwiska,
-więc w bazie figuruje jako „Seishiro”. Prowadzi trening Himari na jednostce CF-00 Exart. W prologu
+więc w bazie figuruje jako „Seishiro”. Prowadzi trening Himari na jednostce CF-00 [[exart|Exart]]. W prologu
 wewnętrznie zakłada, że cel Connect może pozostać niezauważony.
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]]).

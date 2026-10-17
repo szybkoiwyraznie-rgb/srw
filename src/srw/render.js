@@ -15,12 +15,11 @@ export const NAZWY_TYPOW = {
   scena: { jeden: 'Scena', wiele: 'Sceny', },
   postac: { jeden: 'Postać', wiele: 'Postacie', },
   mech: { jeden: 'Mech', wiele: 'Mechy', },
-  bron: { jeden: 'Broń', wiele: 'Bronie', },
   seria: { jeden: 'Seria', wiele: 'Serie', },
 };
 
 /** Kolejność sekcji „Powiązania" na stronie encji. */
-export const KOLEJNOSC_TYPOW = ['epizod', 'gra', 'postac', 'mech', 'bron', 'seria'];
+export const KOLEJNOSC_TYPOW = ['scena', 'epizod', 'gra', 'postac', 'mech', 'seria'];
 
 /** Poziomy wiarygodności (ADR 0010): kolor tła treści, nie plakietka. */
 export const NAZWY_POCHODZENIA = {
@@ -30,14 +29,15 @@ export const NAZWY_POCHODZENIA = {
   wiedza: { etykieta: 'wiedza i analiza modelu', opis: 'Wiedza i analiza modelu bez potwierdzenia. Najniższy poziom wiarygodności.' },
 };
 
+/** Gradacja (zasada właściciela): gra → epizod → scena to główny ciąg fabularny. Scena jest jednostką, z której wszystko się składa. */
 export const NAV = [
   { id: 'glowna', etykieta: 'Baza', href: '#/' },
+  { id: 'gry', etykieta: 'Gry', href: '#/gry' },
   { id: 'epizody', etykieta: 'Epizody', href: '#/epizody' },
+  { id: 'sceny', etykieta: 'Sceny', href: '#/sceny' },
   { id: 'postacie', etykieta: 'Postacie', href: '#/postacie' },
   { id: 'mechy', etykieta: 'Mechy', href: '#/mechy' },
-  { id: 'bronie', etykieta: 'Bronie', href: '#/bronie' },
   { id: 'serie', etykieta: 'Serie', href: '#/serie' },
-  { id: 'gry', etykieta: 'Gry', href: '#/gry' },
   { id: 'tagi', etykieta: 'Tagi', href: '#/tagi' },
   { id: 'co-nowego', etykieta: 'Co nowego', href: '#/co-nowego' },
 ];
@@ -69,7 +69,7 @@ ${tresc}
   ${d.epizod} ${odmiana(d.epizod, ['epizod', 'epizody', 'epizodów'])},
   ${d.postac} ${odmiana(d.postac, ['postać', 'postacie', 'postaci'])},
   ${d.mech} ${odmiana(d.mech, ['mech', 'mechy', 'mechów'])},
-  ${d.bron} ${odmiana(d.bron, ['broń', 'bronie', 'broni'])},
+  ${d.scena} ${odmiana(d.scena, ['scena', 'sceny', 'scen'])},
   ${d.seria} ${odmiana(d.seria, ['seria', 'serie', 'serii'])}${d.relacje ? ` · ${d.relacje} ${odmiana(d.relacje, ['powiązanie', 'powiązania', 'powiązań'])}` : ''}</p>
   <p class="stopka-meta">baza zbudowana ${escapeHtml(dajDane().zbudowano ?? '—')} · <a href="#/o-bazie">o bazie</a></p>
 </footer>`;

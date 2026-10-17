@@ -39,13 +39,13 @@ export function slugify(tytul) {
 /** Trasy witryny dla każdego typu strony (ADR 0001 — routing po hashu). */
 export const TRASY = {
   gra: 'gra', epizod: 'epizod', scena: 'scena', postac: 'postac',
-  mech: 'mech', bron: 'bron', seria: 'seria',
+  mech: 'mech', seria: 'seria',
 };
 
 /** Trasa LISTY dla typu strony (np. postac → #/postacie). */
 export const LISTY = {
-  gra: 'gry', epizod: 'epizody', postac: 'postacie',
-  mech: 'mechy', bron: 'bronie', seria: 'serie',
+  gra: 'gry', epizod: 'epizody', scena: 'sceny', postac: 'postacie',
+  mech: 'mechy', seria: 'serie',
 };
 
 /** Href strony encji. */

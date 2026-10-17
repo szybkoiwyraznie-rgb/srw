@@ -26,7 +26,7 @@ opisuje wątki i nawiązania. Numer sceny przepisz tak, jak podaje skrypt (numer
 ## 2. Wpis epizodu (agregacja scen)
 
 `content/epizody/<gra>-ep<NNN>.md` — frontmatter: `gra`, `numer`, `rozegrano` (data rozegrania,
-nie data commita), `skrypt`, listy `postacie` / `mechy` / `bronie` / `serie`, `pochodzenie: skrypt`,
+nie data commita), `skrypt`, listy `postacie` / `mechy` / `serie`, `pochodzenie: skrypt`,
 tagi. Treść:
 
 - `## Streszczenie` — co się stało, bez streszczania każdej kwestii,
@@ -36,14 +36,16 @@ tagi. Treść:
 
 ## 3. Encje
 
-Dla każdej postaci, mecha i broni obecnej w skrypcie:
+Dla każdej postaci i mecha obecnej w skrypcie (ADR 0012):
 
-- **nowa encja** → nowy wpis w `content/postacie/` | `content/mechy/` | `content/bronie/`,
-  z odsyłaczem do serii i do pozycji powiązanych,
-- **encja istniejąca** → dopisujesz wystąpienie (pole `gry`, `mechy`, `bronie`) i pogłębiasz
+- **nowa encja** → nowy wpis w `content/postacie/` | `content/mechy/`, tylko jeśli występuje wprost
+  w skrypcie lub dostawie, z odsyłaczem do serii i do pozycji powiązanych,
+- **encja istniejąca** → dopisujesz wystąpienie (pole `gry`, `mechy`) i pogłębiasz
   opis tylko tym, co wnosi nowy materiał.
+- **bronie** → w treści wpisu mecha, w sekcji o uzbrojeniu. Osobnych wpisów broni nie tworzymy.
 
-Uwaga na poziom szczegółu: **statystyki i arsenał opisują parę (mech, gra)**, nie mecha.
+Uwaga na poziom szczegółu: **statystyki i uzbrojenie opisują parę (mech, gra)**, nie mecha.
+Wiedza o późniejszych epizodach i losach postaci do wpisu nie trafia (ADR 0012).
 Jeśli menu gry podało parametry, zapisz je w `w_gre`, nie w opisie ogólnym.
 
 ## 4. Serie anime

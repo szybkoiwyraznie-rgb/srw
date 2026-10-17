@@ -19,12 +19,12 @@ export function renderGlowna() {
   <h1>SRW Database</h1>
   <p class="hero-opis">Prywatny dziennik rozgrywki i baza wiedzy o <em>Super Robot Wars</em>.
   Baza rośnie w tempie grania: każdy rozegrany epizod przynosi skrypt, a ze skryptu — postacie,
-  mechy, bronie i wątki, z których każdy prowadzi do swojej serii anime.</p>
+  mechy z ich uzbrojeniem i wątki, z których każdy prowadzi do swojej serii anime.</p>
   <div class="hero-liczby">
     ${kafelek('epizod', s.epizod, '#/epizody')}
     ${kafelek('postac', s.postac, '#/postacie')}
     ${kafelek('mech', s.mech, '#/mechy')}
-    ${kafelek('bron', s.bron, '#/bronie')}
+    ${kafelek('scena', s.scena, '#/sceny')}
     ${kafelek('seria', s.seria, '#/serie')}
     ${kafelek('gra', s.gra, '#/gry')}
   </div>

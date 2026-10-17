@@ -14,7 +14,7 @@ export function dajDane() {
     strony: {},
     backlinki: {},
     tagi: {},
-    statystyki: { gra: 0, epizod: 0, postac: 0, mech: 0, bron: 0, seria: 0, relacje: 0 },
+    statystyki: { gra: 0, epizod: 0, scena: 0, postac: 0, mech: 0, seria: 0, relacje: 0 },
     coNowego: [],
   };
 }

@@ -26,7 +26,7 @@ export function renderOBazie() {
   <h2>Jak baza rośnie</h2>
   <ol class="kroki">
     <li><strong>Rozgrywasz epizod</strong> i przepisujesz jego skrypt (dialogi, narrator, nazwy) do pliku w <code>episodes/</code>.</li>
-    <li><strong>Przekazujesz materiał agentowi</strong> — skrypt, a jeśli chcesz, także listę nowych postaci, mechów i broni.</li>
+    <li><strong>Przekazujesz materiał agentowi</strong> — skrypt, a jeśli chcesz, także szczegóły o postaciach i mechach (z uzbrojeniem).</li>
     <li><strong>Agent uzupełnia bazę</strong>: tworzy wpisy encji, dopina relacje, pisze analizy i komentarze, linkuje wątki do serii anime.</li>
     <li><strong>Build renderuje witrynę</strong> — publikacja to zwykły push; nowa wersja pojawia się automatycznie.</li>
   </ol>

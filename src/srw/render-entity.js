@@ -56,7 +56,6 @@ function podtytul(s) {
     if (s.odcinki) czesci.push(`${s.odcinki} odc.`);
     return czesci.join(' · ');
   }
-  if (s.typ === 'bron') return s.klasa ? `klasa: ${escapeHtml(s.klasa)}` : '';
   return '';
 }
 
@@ -88,10 +87,6 @@ function infoboks(s) {
     dodaj('Seria', s.seria ? linkStrony(dajStrone(s.seria)) : '');
     dodaj('Typ', s.typ_mecha ? escapeHtml(s.typ_mecha) : '');
     dodaj('Piloci', linkListy(s.piloci));
-  }
-  if (s.typ === 'bron') {
-    dodaj('Klasa', s.klasa ? escapeHtml(s.klasa) : '');
-    dodaj('Nosi ją', linkListy(s.mechy));
   }
   if (s.typ === 'epizod') {
     dodaj('Gra', s.gra ? linkStrony(dajStrone(s.gra)) : '');
@@ -134,17 +129,12 @@ function sekcjaListy(s) {
   }
 
   if (s.typ === 'seria') {
-    for (const typ of ['postac', 'mech', 'bron']) {
+    for (const typ of ['postac', 'mech']) {
       const pozycje = listaStron(typ).filter((p) => p.seria === s.slug);
       if (pozycje.length) {
         czesci.push(sekcjaPowiazan(`Z tej serii: ${nazwaTypu(typ, 'wiele').toLowerCase()}`, new Map([[typ, pozycje.sort((a, b) => String(a.tytul).localeCompare(String(b.tytul), 'pl'))]]), { pomijaj: [] }));
       }
     }
-  }
-
-  if (s.typ === 'mech' && Array.isArray(s.bronie) && s.bronie.length) {
-    const bronie = s.bronie.map(dajStrone).filter(Boolean);
-    czesci.push(sekcjaPowiazan('Arsenał', new Map([['bron', bronie]]), { pomijaj: [] }));
   }
 
   return czesci.join('');

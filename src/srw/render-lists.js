@@ -1,5 +1,5 @@
 /**
- * Listy działów: epizody, postacie, mechy, bronie, serie, gry.
+ * Listy działów: gry, epizody, sceny, postacie, mechy, serie.
  *
  * Każda lista jest jedną funkcją o wspólnym kształcie: filtr (opcjonalny)
  * → nagłówek z liczbą → pozycje. Filtry działają z adresu
@@ -10,12 +10,13 @@ import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefFiltru, hrefListy } from './links.js';
 import { dajStrone, listaStron, listaPosortowana, listaEpizodow, listaFiltrowana, tagiMap, statystyki } from './data.js';
 import { nazwaTypu, numerEpizodu, stanPusty, odmiana } from './render.js';
+import { sortujSceny } from './registry.js';
 
 export function renderListe(typ, query = {}) {
   const filtr = wybierzFiltr(typ, query);
   const lista = filtr
     ? listaFiltrowana(typ, filtr.pole, filtr.wartosc)
-    : (typ === 'epizod' ? listaEpizodow() : listaPosortowana(typ));
+    : (typ === 'epizod' ? listaEpizodow() : typ === 'scena' ? listaSceneWszystkie() : listaPosortowana(typ));
 
   if (lista.length === 0) {
     return naglowekListy(typ, null, 0) + stanPusty(
@@ -26,7 +27,7 @@ export function renderListe(typ, query = {}) {
 
   const html = typ === 'epizod'
     ? listaEpizodowHtml(lista)
-    : listaEncjiHtml(lista, typ);
+    : typ === 'scena' ? listaSceneHtml(lista) : listaEncjiHtml(lista, typ);
 
   return naglowekListy(typ, filtr, lista.length) + html;
 }
@@ -51,7 +52,7 @@ function naglowekListy(typ, filtr, liczba) {
 function trzeciaForma(typ) {
   return {
     gra: 'gier', epizod: 'epizodów', postac: 'postaci',
-    mech: 'mechów', bron: 'broni', seria: 'serii',
+    mech: 'mechów', scena: 'scen', seria: 'serii',
   }[typ] ?? 'pozycji';
 }
 
@@ -60,7 +61,6 @@ const FILTRY = {
   epizod: { gra: 'gra', seria: 'seria' },
   postac: { seria: 'seria', gra: 'gra' },
   mech: { seria: 'seria', gra: 'gra' },
-  bron: { seria: 'seria' },
   seria: {},
   gra: {},
 };
@@ -104,6 +104,34 @@ function listaEpizodowHtml(lista) {
   }).join('');
 }
 
+/** Sceny wszystkich epizodów: grupy po epizodzie, w kolejności numerycznej (ADR 0008). */
+function listaSceneWszystkie() {
+  const kolejnosc = listaEpizodow().map((e) => e.slug);
+  return listaStron('scena').sort((a, b) => kolejnosc.indexOf(a.epizod) - kolejnosc.indexOf(b.epizod));
+}
+
+function listaSceneHtml(lista) {
+  const grupy = new Map();
+  for (const s of lista) {
+    const klucz = s.epizod ?? '—';
+    if (!grupy.has(klucz)) grupy.set(klucz, []);
+    grupy.get(klucz).push(s);
+  }
+  return [...grupy.entries()].map(([epSlug, sceny]) => {
+    const ep = dajStrone(epSlug);
+    return `<section class="blok">
+      ${ep ? `<h2><a href="${hrefDlaSlug(ep.slug, 'epizod')}">${escapeHtml(ep.tytul)}</a></h2>` : '<h2>Bez przypisanego epizodu</h2>'}
+      <ol class="lista-epizodow">${sortujSceny(sceny).map((s) => `
+        <li>
+          <a href="${hrefDlaSlug(s.slug, 'scena')}">
+            <span class="mono">${escapeHtml(s.numer_sceny)}</span> ${escapeHtml(s.tytul)}
+          </a>
+          ${s.streszczenie ? `<span class="meta">${escapeHtml(s.streszczenie)}</span>` : ''}
+        </li>`).join('')}</ol>
+    </section>`;
+  }).join('');
+}
+
 function listaEncjiHtml(lista, typ) {
   if (typ === 'seria') {
     return `<div class="siatka">${lista.map(kartaSerii).join('')}</div>`;
@@ -123,10 +151,6 @@ function metaEncji(p) {
     if (s) czesci.push(escapeHtml(s.tytul));
   }
   if (p.typ === 'postac' && p.rola) czesci.push(escapeHtml(p.rola));
-  if (p.typ === 'bron' && p.klasa) czesci.push(escapeHtml(p.klasa));
-  if (p.typ === 'mech' && Array.isArray(p.bronie) && p.bronie.length) {
-    czesci.push(`${p.bronie.length} ${odmiana(p.bronie.length, ['broń', 'bronie', 'broni'])}`);
-  }
   if (p.typ === 'postac' && Array.isArray(p.mechy) && p.mechy.length) {
     czesci.push(`${p.mechy.length} ${odmiana(p.mechy.length, ['mech', 'mechy', 'mechów'])}`);
   }

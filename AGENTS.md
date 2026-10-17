@@ -24,14 +24,15 @@ Agent buduje z niego bazę. Witryna istnieje po to, żeby oglądać zależności
 ## 2. Pętla epizodu (praca domyślna)
 
 Materiał wejściowy: plik `episodes/<gra>/epNNN.md` (surowy skrypt, często plus lista nowych
-postaci/mechów/broni podana w wiadomości). Wynik pracy:
+postaci/mechów podana w wiadomości). Wynik pracy:
 
 1. **Wpis epizodu** `content/epizody/<gra>-epNNN.md` — streszczenie, sceny, wątki anime, komentarz,
    obsada. To najważniejszy wpis: z niego wynikają wszystkie odsyłacze.
-2. **Encje** — dla każdej postaci, mecha i broni ze skryptu wpis w odpowiednim dziale.
-   Encja już istniejąca **nie jest duplikowana**: dopisujesz jej nowe wystąpienie
-   (pole `gry`, `mechy`, `bronie`) i uzupełniasz treść, jeśli skrypt wniósł coś nowego.
-3. **Relacje** — pola frontmattera (`postacie`, `mechy`, `bronie`, `serie`, `gra`) plus wikilinki
+2. **Encje** — dla każdej postaci i mecha ze skryptu wpis w odpowiednim dziale. Bronie opisujesz
+   w treści mecha (nie jako osobny wpis). Nowe encje tylko wprost z dostawy (ADR 0012): nie zakładasz
+   encji wynikającej z innej encji. Encja już istniejąca **nie jest duplikowana**: dopisujesz jej
+   nowe wystąpienie (pole `gry`, `mechy`) i uzupełniasz treść, jeśli skrypt wniósł coś nowego.
+3. **Relacje** — pola frontmattera (`postacie`, `mechy`, `serie`, `gra`) plus wikilinki
    w treści. Bez nich wpis jest wyspą: nie pojawi się w „Wymienione w" na stronie encji.
 4. **Analiza i komentarz** — gdzie wątek pochodzi z anime (seria + odcinek, jeśli wiadomo),
    co dodano, co zmieniono, czego zabrakło. Tabela `## Wątki anime` w treści epizodu.

@@ -7,6 +7,7 @@ numer_sceny: "0-1"
 streszczenie: Prolog w U.C. 0079, pierwszy trening Seishiro i Himari, retrospekcja z hangaru i rozmowa po misji.
 pochodzenie: skrypt
 postacie: [seishiro, himari-yaegaki]
+mechy: [exart]
 tagi: [prolog, trening]
 utworzono: 2026-10-17
 ---

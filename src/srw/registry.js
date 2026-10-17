@@ -14,24 +14,20 @@
 
 import { SLUG_RE, hrefDlaSlug, slugify } from './links.js';
 
-export const TYPY_STRON = ['gra', 'epizod', 'scena', 'postac', 'mech', 'bron', 'seria'];
+/** Bronie nie są osobnym typem: opisują mech w jego treści (zasada właściciela). */
+export const TYPY_STRON = ['gra', 'epizod', 'scena', 'postac', 'mech', 'seria'];
 
 /**
- * Typy encji, które wymagają serii anime/mangi. Postać może jej nie mieć
- * (oryginalne postacie gry, np. Seishiro), więc wymagany jest tylko mech.
+ * Postacie i mechy mogą nie mieć serii: oryginalne postacie i mechy gry (np. Seishiro, Exart)
+ * nie pochodzą z anime. Pole `seria` jest opcjonalne, a jeśli jest, musi wskazywać serię.
  */
-export const TYPY_Z_SERIA = ['mech'];
+export const TYPY_Z_SERIA = [];
 
 /**
  * Poziom pochodzenia informacji (ADR 0004, zaostrzony ADR 0009):
  * skrypt > menu gry > zrodlo (sprawdzone w źródle) > wiedza (niesprawdzona, bez źródeł).
  */
 export const POCHODZENIA = ['skrypt', 'menu', 'zrodlo', 'wiedza'];
-
-/** Klasy broni (swobodne, ale z sensowną listą startową). */
-export const KLASY_BRONI = [
-  'bron-biala', 'strzelecka', 'beam', 'rakietowa', 'specjalna', 'obrona', 'wsparcie',
-];
 
 export const RODZAJE_SERII = ['tv', 'ova', 'film', 'manga', 'gra', 'powiesc', 'inne'];
 
@@ -46,7 +42,6 @@ export const SEKCJE_WYMAGANE = {
   scena: ['Treść sceny', 'Analiza'],
   postac: ['Opis'],
   mech: ['Opis'],
-  bron: ['Opis'],
   seria: ['Opis'],
 };
 
@@ -59,7 +54,6 @@ export const POLA_RELACJI = {
   seria: { typ: 'seria', wiele: false },
   postacie: { typ: 'postac', wiele: true },
   mechy: { typ: 'mech', wiele: true },
-  bronie: { typ: 'bron', wiele: true },
   serie: { typ: 'seria', wiele: true },
   gry: { typ: 'gra', wiele: true },
   piloci: { typ: 'postac', wiele: true },
@@ -140,8 +134,6 @@ export function walidujStrone(strona, ctx) {
       p.push(`${gdzie}: rozegrano "${strona.rozegrano}" nie jest datą YYYY-MM-DD`);
     }
     if (strona.skrypt !== undefined && typeof strona.skrypt !== 'string') p.push(`${gdzie}: "skrypt" musi być ścieżką`);
-    const bronie = strona.bronie;
-    if (bronie !== undefined && !Array.isArray(bronie)) p.push(`${gdzie}: "bronie" musi być tablicą`);
   }
 
   if (strona.typ === 'scena') {
@@ -173,12 +165,6 @@ export function walidujStrone(strona, ctx) {
     const seria = ctx.bySlug.get(strona.seria);
     if (!seria) p.push(`${gdzie}: "seria" → "${strona.seria}" nie istnieje w bazie`);
     else if (seria.typ !== 'seria') p.push(`${gdzie}: "seria" → "${strona.seria}" ma typ "${seria.typ}"`);
-  }
-
-  if (strona.typ === 'bron') {
-    if (strona.klasa !== undefined && !KLASY_BRONI.includes(strona.klasa)) {
-      p.push(`${gdzie}: klasa "${strona.klasa}" poza listą startową (dopisz nową do KLASY_BRONI, jeśli potrzebna)`);
-    }
   }
 
   if (strona.typ === 'postac') {
@@ -274,7 +260,7 @@ export function policzTagi(strony) {
 
 /** Agregaty widoczne na stronie głównej i w stopce. */
 export function policzStatystyki(strony) {
-  const s = { gra: 0, epizod: 0, scena: 0, postac: 0, mech: 0, bron: 0, seria: 0, relacje: 0 };
+  const s = { gra: 0, epizod: 0, scena: 0, postac: 0, mech: 0, seria: 0, relacje: 0 };
   for (const p of strony) {
     if (Object.prototype.hasOwnProperty.call(s, p.typ)) s[p.typ] += 1;
     s.relacje += odsylaczeStrony(p).length;
