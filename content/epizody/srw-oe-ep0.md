@@ -7,6 +7,7 @@ numer: 0
 skrypt: episodes/srw-oe/ep000.md
 postacie: [seishiro, himari-yaegaki]
 mechy: [exart]
+pojecia: [connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai]
 pochodzenie: skrypt
 zrodla:
   - https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE

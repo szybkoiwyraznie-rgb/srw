@@ -11,6 +11,9 @@ Konwencja: `## RRRR-MM-DD` otwiera wpis dnia. Inne nagłówki są ignorowane.
   stanu fabuły; bronie nie są osobnym typem, tylko częścią opisu mechów.
 - Nawigacja: gra → epizod → scena. Dodany dział „Sceny”; usunięte „Bronie”.
 - Dodany mech Exart (CF-00) wprost z skryptu, z pilotem Seishiro. Uzbrojenie nieznane, zapisane jako brak.
+- Nowy typ strony „Hasło” (`pojecie`, dział „Hasła”): podstrony w stylu wiki dla organizacji, er i państw.
+  Pierwsze dziewięć haseł wyłącznie z prologu: Connect Force, Muge Empire, Earth Federation, Universal Century,
+  U.C. 0079, Mechanization Empire, Jaku Empire, Evil God Drago, Daimakai. Pole `kategoria` jest swobodne.
 - Rozwinięcie dostawy SRW OE (flow absorpcji, ADR 0010): gra uzupełniona o platformę i rok ze źródeł
   (PSP, 2013), postacie o wiek, seiyuu i nazwisko ze źródeł, epizod o wątki, nawiązania (Dr. Hell z Mazinger Z,
   Devil Gundam z G Gundam), wiedzę modelu bez linków i rozbieżności. Każdy fragment ma swój poziom.

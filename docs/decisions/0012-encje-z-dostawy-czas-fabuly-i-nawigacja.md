@@ -33,4 +33,6 @@ np. Seishiro i Exart, nie pochodzą z anime).
 
 - `src/srw/registry.js`: usunięte `bron`, `KLASY_BRONI`, `POLA_RELACJI.bronie`; `TYPY_Z_SERIA` puste.
 - Nawigacja i trasy: `sceny` dodane, `bronie` / `bron` usunięte; `tools/content-loader.mjs` bez `content/bronie`.
+- Typ `pojecie` (hasło, dział „Hasła”, katalog `content/pojecia/`): organizacje, ery, państwa i najazdy.
+  Pole `kategoria` jest swobodne (zgodnie z ADR 0006). Hasło powstaje tylko z dostawy.
 - Stare wpisy w ADR 0003 i ADR 0004 zostają bez zmian (L5); obowiązuje ta decyzja.

@@ -8,6 +8,7 @@ streszczenie: Prolog w U.C. 0079, pierwszy trening Seishiro i Himari, retrospekc
 pochodzenie: skrypt
 postacie: [seishiro, himari-yaegaki]
 mechy: [exart]
+pojecia: [connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai]
 tagi: [prolog, trening]
 utworzono: 2026-10-17
 ---

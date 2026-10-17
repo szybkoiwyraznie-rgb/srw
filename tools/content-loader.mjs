@@ -19,6 +19,7 @@ export const KATALOGI = [
   { katalog: 'content/sceny', typ: 'scena' },
   { katalog: 'content/postacie', typ: 'postac' },
   { katalog: 'content/mechy', typ: 'mech' },
+  { katalog: 'content/pojecia', typ: 'pojecie' },
   { katalog: 'content/serie', typ: 'seria' },
 ];
 

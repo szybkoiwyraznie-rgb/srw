@@ -15,7 +15,8 @@
 import { SLUG_RE, hrefDlaSlug, slugify } from './links.js';
 
 /** Bronie nie są osobnym typem: opisują mech w jego treści (zasada właściciela). */
-export const TYPY_STRON = ['gra', 'epizod', 'scena', 'postac', 'mech', 'seria'];
+/** Hasło (`pojecie`): organizacja, era, państwo, zjawisko — podstrona w stylu wiki (ADR 0012). */
+export const TYPY_STRON = ['gra', 'epizod', 'scena', 'postac', 'mech', 'pojecie', 'seria'];
 
 /**
  * Postacie i mechy mogą nie mieć serii: oryginalne postacie i mechy gry (np. Seishiro, Exart)
@@ -42,6 +43,7 @@ export const SEKCJE_WYMAGANE = {
   scena: ['Treść sceny', 'Analiza'],
   postac: ['Opis'],
   mech: ['Opis'],
+  pojecie: ['Opis'],
   seria: ['Opis'],
 };
 
@@ -54,6 +56,7 @@ export const POLA_RELACJI = {
   seria: { typ: 'seria', wiele: false },
   postacie: { typ: 'postac', wiele: true },
   mechy: { typ: 'mech', wiele: true },
+  pojecia: { typ: 'pojecie', wiele: true },
   serie: { typ: 'seria', wiele: true },
   gry: { typ: 'gra', wiele: true },
   piloci: { typ: 'postac', wiele: true },
@@ -260,7 +263,7 @@ export function policzTagi(strony) {
 
 /** Agregaty widoczne na stronie głównej i w stopce. */
 export function policzStatystyki(strony) {
-  const s = { gra: 0, epizod: 0, scena: 0, postac: 0, mech: 0, seria: 0, relacje: 0 };
+  const s = { gra: 0, epizod: 0, scena: 0, postac: 0, mech: 0, pojecie: 0, seria: 0, relacje: 0 };
   for (const p of strony) {
     if (Object.prototype.hasOwnProperty.call(s, p.typ)) s[p.typ] += 1;
     s.relacje += odsylaczeStrony(p).length;

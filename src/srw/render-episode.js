@@ -28,7 +28,7 @@ export function renderEpizod(slug) {
   const nastepny = sasiedni(e, +1);
 
   const grupy = new Map();
-  for (const [pole, typ] of [['postacie', 'postac'], ['mechy', 'mech'], ['serie', 'seria']]) {
+  for (const [pole, typ] of [['postacie', 'postac'], ['mechy', 'mech'], ['pojecia', 'pojecie'], ['serie', 'seria']]) {
     const lista = (e[pole] ?? []).map(dajStrone).filter(Boolean);
     if (lista.length) grupy.set(typ, lista.sort((a, b) => String(a.tytul).localeCompare(String(b.tytul), 'pl')));
   }

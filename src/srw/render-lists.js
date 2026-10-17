@@ -52,7 +52,7 @@ function naglowekListy(typ, filtr, liczba) {
 function trzeciaForma(typ) {
   return {
     gra: 'gier', epizod: 'epizodów', postac: 'postaci',
-    mech: 'mechów', scena: 'scen', seria: 'serii',
+    mech: 'mechów', scena: 'scen', pojecie: 'haseł', seria: 'serii',
   }[typ] ?? 'pozycji';
 }
 
@@ -151,6 +151,7 @@ function metaEncji(p) {
     if (s) czesci.push(escapeHtml(s.tytul));
   }
   if (p.typ === 'postac' && p.rola) czesci.push(escapeHtml(p.rola));
+  if (p.typ === 'pojecie' && p.kategoria) czesci.push(escapeHtml(p.kategoria));
   if (p.typ === 'postac' && Array.isArray(p.mechy) && p.mechy.length) {
     czesci.push(`${p.mechy.length} ${odmiana(p.mechy.length, ['mech', 'mechy', 'mechów'])}`);
   }

@@ -15,11 +15,12 @@ export const NAZWY_TYPOW = {
   scena: { jeden: 'Scena', wiele: 'Sceny', },
   postac: { jeden: 'Postać', wiele: 'Postacie', },
   mech: { jeden: 'Mech', wiele: 'Mechy', },
+  pojecie: { jeden: 'Hasło', wiele: 'Hasła', },
   seria: { jeden: 'Seria', wiele: 'Serie', },
 };
 
 /** Kolejność sekcji „Powiązania" na stronie encji. */
-export const KOLEJNOSC_TYPOW = ['scena', 'epizod', 'gra', 'postac', 'mech', 'seria'];
+export const KOLEJNOSC_TYPOW = ['scena', 'epizod', 'gra', 'postac', 'mech', 'pojecie', 'seria'];
 
 /** Poziomy wiarygodności (ADR 0010): kolor tła treści, nie plakietka. */
 export const NAZWY_POCHODZENIA = {
@@ -37,6 +38,7 @@ export const NAV = [
   { id: 'sceny', etykieta: 'Sceny', href: '#/sceny' },
   { id: 'postacie', etykieta: 'Postacie', href: '#/postacie' },
   { id: 'mechy', etykieta: 'Mechy', href: '#/mechy' },
+  { id: 'pojecia', etykieta: 'Hasła', href: '#/pojecia' },
   { id: 'serie', etykieta: 'Serie', href: '#/serie' },
   { id: 'tagi', etykieta: 'Tagi', href: '#/tagi' },
   { id: 'co-nowego', etykieta: 'Co nowego', href: '#/co-nowego' },
@@ -69,6 +71,7 @@ ${tresc}
   ${d.epizod} ${odmiana(d.epizod, ['epizod', 'epizody', 'epizodów'])},
   ${d.postac} ${odmiana(d.postac, ['postać', 'postacie', 'postaci'])},
   ${d.mech} ${odmiana(d.mech, ['mech', 'mechy', 'mechów'])},
+  ${d.pojecie} ${odmiana(d.pojecie, ['hasło', 'hasła', 'haseł'])},
   ${d.scena} ${odmiana(d.scena, ['scena', 'sceny', 'scen'])},
   ${d.seria} ${odmiana(d.seria, ['seria', 'serie', 'serii'])}${d.relacje ? ` · ${d.relacje} ${odmiana(d.relacje, ['powiązanie', 'powiązania', 'powiązań'])}` : ''}</p>
   <p class="stopka-meta">baza zbudowana ${escapeHtml(dajDane().zbudowano ?? '—')} · <a href="#/o-bazie">o bazie</a></p>

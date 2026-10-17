@@ -30,7 +30,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ENTRY = 'src/srw/main.js';
 
 /** Pola frontmattera, które są odsyłaczami (liczą się do grafu i backlinków). */
-const POLA_ODSYLACZY = ['gra', 'seria', 'epizod', 'postacie', 'mechy', 'serie', 'gry', 'piloci'];
+const POLA_ODSYLACZY = ['gra', 'seria', 'epizod', 'postacie', 'mechy', 'pojecia', 'serie', 'gry', 'piloci'];
 
 // ── Metadane czasu stron z historii gita ───────────────────────────
 let ostrzezonoPlytki = false;
@@ -181,7 +181,7 @@ export async function zbudujDane({ root = ROOT } = {}) {
   };
 
   const st = dane.statystyki;
-  console.log(`Dane bazy: ${Object.keys(stronyDane).length} stron — gry: ${st.gra}, epizody: ${st.epizod}, postacie: ${st.postac}, mechy: ${st.mech}, serie: ${st.seria}`);
+  console.log(`Dane bazy: ${Object.keys(stronyDane).length} stron — gry: ${st.gra}, epizody: ${st.epizod}, postacie: ${st.postac}, mechy: ${st.mech}, hasła: ${st.pojecie}, serie: ${st.seria}`);
   console.log(`  powiązania: ${st.relacje} · skrypty: ${uzyteSkrypty.size}`);
   return dane;
 }

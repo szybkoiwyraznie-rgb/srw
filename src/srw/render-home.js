@@ -24,6 +24,7 @@ export function renderGlowna() {
     ${kafelek('epizod', s.epizod, '#/epizody')}
     ${kafelek('postac', s.postac, '#/postacie')}
     ${kafelek('mech', s.mech, '#/mechy')}
+    ${kafelek('pojecie', s.pojecie, '#/pojecia')}
     ${kafelek('scena', s.scena, '#/sceny')}
     ${kafelek('seria', s.seria, '#/serie')}
     ${kafelek('gra', s.gra, '#/gry')}

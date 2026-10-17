@@ -17,7 +17,7 @@ import { renderOBazie } from './render-about.js';
 /** Mapa tras list ↔ tras encji (dla podświetlenia nawigacji). */
 const LISTA_TRAS = {
   gra: 'gry', epizod: 'epizody', scena: 'sceny', postac: 'postacie',
-  mech: 'mechy', seria: 'serie',
+  mech: 'mechy', pojecie: 'pojecia', seria: 'serie',
 };
 
 function renderuj(trasa) {
@@ -40,6 +40,7 @@ function renderuj(trasa) {
       html = renderScena(trasa.param); tytul = trasa.param ?? 'Scena'; aktywna = 'sceny'; break;
     case 'postac':
     case 'mech':
+    case 'pojecie':
     case 'seria':
       html = renderEncja(trasa.param);
       tytul = trasa.param ?? nazwaTypu(trasa.nazwa);
@@ -51,6 +52,7 @@ function renderuj(trasa) {
     case 'sceny':
     case 'postacie':
     case 'mechy':
+    case 'pojecia':
     case 'serie': {
       const typ = Object.keys(LISTA_TRAS).find((t) => LISTA_TRAS[t] === trasa.nazwa);
       html = renderListe(typ, trasa.query);
