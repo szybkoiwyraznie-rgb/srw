@@ -70,7 +70,11 @@ export function renderMarkdown(md, { resolveLink, wymagajPoziomu = false, wPozio
       i += 1;
       while (i < linie.length && !/^:::/.test(linie[i].trim())) { buf.push(linie[i]); i += 1; }
       i += 1; // zamknięcie
-      dodaj(`<pre class="skrypt">${escapeHtml(buf.join('\n'))}</pre>`);
+      // Dosłowny tekst skryptu wyświetlany jako formatowanie wizualne (znaczniki md → nagłówki, pogrubienia, cytaty).
+      // Źródło pozostaje dosłowne: wierność sprawdza wytnijBlokSkryptu na surowym tekście.
+      const wewn = renderMarkdown(buf.join('\n'), { resolveLink, wymagajPoziomu, wPoziomie, wZagniezdzeniu: true });
+      problemy.push(...wewn.problemy);
+      dodaj(`<div class="skrypt-tekst">\n${wewn.html}\n</div>`);
       continue;
     }
 

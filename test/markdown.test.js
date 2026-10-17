@@ -34,9 +34,13 @@ test('tabela obsługuje escapowany pionek w wikilinku', () => {
   assert.match(html, /<td><a href="#\/gra\/demo" title="Gra DEMO">Gundam<\/a><\/td>/);
 });
 
-test('blok :::skrypt zachowuje tekst bez interpretacji', () => {
-  const { html } = renderMarkdown(':::skrypt\nAMURO: [test] **nie formatuj**\n:::\n', { resolveLink: resolver });
-  assert.match(html, /<pre class="skrypt">AMURO: \[test\] \*\*nie formatuj\*\*<\/pre>/);
+test('blok :::skrypt pokazuje formatowanie wizualne, bez znaczników md', () => {
+  const { html } = renderMarkdown(':::skrypt\n**Himari:** Catapult!\n\n> cytat\n:::\n', { resolveLink: resolver });
+  assert.match(html, /<div class="skrypt-tekst">/);
+  assert.match(html, /<strong>Himari:<\/strong> Catapult!/);
+  assert.match(html, /<blockquote>/);
+  assert.ok(!html.includes('**'));
+  assert.ok(!html.includes('<pre'));
 });
 
 test('treść jest escapowana przed dodaniem znaczników', () => {

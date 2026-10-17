@@ -21,13 +21,10 @@ export function renderGlowna() {
   Baza rośnie w tempie grania: każdy rozegrany epizod przynosi skrypt, a ze skryptu — postacie,
   mechy z ich uzbrojeniem i wątki, z których każdy prowadzi do swojej serii anime.</p>
   <div class="hero-liczby">
+    ${kafelek('scena', s.scena, '#/sceny')}
     ${kafelek('epizod', s.epizod, '#/epizody')}
     ${kafelek('postac', s.postac, '#/postacie')}
     ${kafelek('mech', s.mech, '#/mechy')}
-    ${kafelek('pojecie', s.pojecie, '#/pojecia')}
-    ${kafelek('scena', s.scena, '#/sceny')}
-    ${kafelek('seria', s.seria, '#/serie')}
-    ${kafelek('gra', s.gra, '#/gry')}
   </div>
 </section>
 

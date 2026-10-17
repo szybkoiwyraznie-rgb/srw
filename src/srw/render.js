@@ -31,17 +31,22 @@ export const NAZWY_POCHODZENIA = {
 };
 
 /** Gradacja (zasada właściciela): gra → epizod → scena to główny ciąg fabularny. Scena jest jednostką, z której wszystko się składa. */
+/** Główne menu: tylko cztery działy, w kolejności fabularnej (scena → epizod → postać → mech). */
 export const NAV = [
-  { id: 'glowna', etykieta: 'Baza', href: '#/' },
-  { id: 'gry', etykieta: 'Gry', href: '#/gry' },
-  { id: 'epizody', etykieta: 'Epizody', href: '#/epizody' },
   { id: 'sceny', etykieta: 'Sceny', href: '#/sceny' },
+  { id: 'epizody', etykieta: 'Epizody', href: '#/epizody' },
   { id: 'postacie', etykieta: 'Postacie', href: '#/postacie' },
   { id: 'mechy', etykieta: 'Mechy', href: '#/mechy' },
-  { id: 'pojecia', etykieta: 'Hasła', href: '#/pojecia' },
-  { id: 'serie', etykieta: 'Serie', href: '#/serie' },
-  { id: 'tagi', etykieta: 'Tagi', href: '#/tagi' },
-  { id: 'co-nowego', etykieta: 'Co nowego', href: '#/co-nowego' },
+];
+
+/** Pozostałe działy: w stopce witryny, nie w głównym menu. */
+export const STOPKA_LINKI = [
+  { etykieta: 'Gry', href: '#/gry' },
+  { etykieta: 'Serie', href: '#/serie' },
+  { etykieta: 'Hasła', href: '#/pojecia' },
+  { etykieta: 'Tagi', href: '#/tagi' },
+  { etykieta: 'Co nowego', href: '#/co-nowego' },
+  { etykieta: 'O bazie', href: '#/o-bazie' },
 ];
 
 export function nazwaTypu(typ, liczba = 'jeden') {
@@ -74,7 +79,8 @@ ${tresc}
   ${d.pojecie} ${odmiana(d.pojecie, ['hasło', 'hasła', 'haseł'])},
   ${d.scena} ${odmiana(d.scena, ['scena', 'sceny', 'scen'])},
   ${d.seria} ${odmiana(d.seria, ['seria', 'serie', 'serii'])}${d.relacje ? ` · ${d.relacje} ${odmiana(d.relacje, ['powiązanie', 'powiązania', 'powiązań'])}` : ''}</p>
-  <p class="stopka-meta">baza zbudowana ${escapeHtml(dajDane().zbudowano ?? '—')} · <a href="#/o-bazie">o bazie</a></p>
+  <p class="stopka-linki">${STOPKA_LINKI.map((l) => `<a href="${l.href}">${l.etykieta}</a>`).join(' · ')}</p>
+  <p class="stopka-meta">baza zbudowana ${escapeHtml(dajDane().zbudowano ?? '—')}</p>
 </footer>`;
 }
 

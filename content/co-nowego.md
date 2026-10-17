@@ -11,6 +11,8 @@ Konwencja: `## RRRR-MM-DD` otwiera wpis dnia. Inne nagłówki są ignorowane.
   stanu fabuły; bronie nie są osobnym typem, tylko częścią opisu mechów.
 - Nawigacja: gra → epizod → scena. Dodany dział „Sceny”; usunięte „Bronie”.
 - Dodany mech Exart (CF-00) wprost z skryptu, z pilotem Seishiro. Uzbrojenie nieznane, zapisane jako brak.
+- Menu główne: Sceny, Epizody, Postacie, Mechy. Gry, Serie, Hasła, Tagi, Co nowego i O bazie w stopce.
+  Treść sceny pokazana z formatowaniem (bez znaczników md). Co nowego: poprawiony układ punktów.
 - Nowy typ strony „Hasło” (`pojecie`, dział „Hasła”): podstrony w stylu wiki dla organizacji, er i państw.
   Pierwsze dziewięć haseł wyłącznie z prologu: Connect Force, Muge Empire, Earth Federation, Universal Century,
   U.C. 0079, Mechanization Empire, Jaku Empire, Evil God Drago, Daimakai. Pole `kategoria` jest swobodne.

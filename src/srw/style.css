@@ -237,9 +237,12 @@ pre.skrypt {
 /* ── Dziennik zmian / kroki ────────────────────────────────────── */
 
 .dziennik { list-style: none; padding: 0; margin: 0; }
-.dziennik li { display: grid; grid-template-columns: 110px 1fr; gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--ramka); }
+.dziennik > li { display: grid; grid-template-columns: 110px 1fr; gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--ramka); }
 .dziennik .data { color: var(--tusz-3); }
 .kroki li { margin: .5em 0; }
+.dziennik ul { margin: .4em 0 .4em 1.2em; padding: 0; }
+.skrypt-tekst { line-height: 1.7; }
+.stopka-linki { margin: 0 0 6px; }
 
 /* ── Stopka ────────────────────────────────────────────────────── */
 
@@ -269,7 +272,7 @@ pre.skrypt {
   .szukaj { flex: 1 1 100%; }
   .szukaj input { width: 100%; }
   .tresc { padding: 18px 12px 48px; }
-  .dziennik li { grid-template-columns: 1fr; gap: 2px; }
+  .dziennik > li { grid-template-columns: 1fr; gap: 2px; }
 }
 
 /* ── Sceny (ADR 0008) ───────────────────────────────────────────── */
