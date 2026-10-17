@@ -13,7 +13,7 @@ co opisane jako **wymagane** i **pilnowane**.
 | `tytul` | tak | string | tytuł widoczny w witrynie; może być polski lub oryginalny |
 | `tytul_ja`, `tytul_en` | nie | string | zapisy oryginalne — ułatwiają późniejsze wyszukiwanie |
 | `tagi` | nie | tablica slugów | swobodne, bez słownika (ADR 0006) |
-| `pochodzenie` | nie | `skrypt` / `menu` / `zrodlo` / `wiedza` | patrz ADR 0004 i 0009 |
+| `pochodzenie` | nie | `skrypt` / `menu` (dostawa właściciela) / `zrodlo` (sprawdzone) / `wiedza` (model) | poziomy i kolory: ADR 0010; reguły źródeł: ADR 0009 |
 | `zrodla` | nie | tablica URL-i `http(s)` | **tylko adresy sprawdzone** (ADR 0009); wymagają sekcji `## Źródła`; `wiedza` nie może ich mieć |
 | `utworzono` | nie | `RRRR-MM-DD` | data pierwszego wpisu do bazy |
 | `obraz` | nie | URL lub ścieżka | miniatura; oryginały trzymamy poza gitem |

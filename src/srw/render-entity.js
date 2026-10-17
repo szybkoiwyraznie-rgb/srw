@@ -11,7 +11,7 @@ import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefFiltru, hrefListy } from './links.js';
 import { dajStrone, listaStron, backlinkiStrony, odsylaczeWychodzace, dajDane } from './data.js';
 import {
-  nazwaTypu, chipsyTagow, plakietkaPochodzenia, linkStrony,
+  nazwaTypu, chipsyTagow, klasaPoziomu, opisPoziomu, linkStrony,
   stanPusty, nieZnalesc, naglowekStrony, stopkaCzasu, numerEpizodu, KOLEJNOSC_TYPOW, odmiana,
 } from './render.js';
 
@@ -27,11 +27,10 @@ ${naglowekStrony({
   tytul: escapeHtml(strona.tytul),
   typ: strona.typ,
   podtytul: podtytul(strona),
-  badge: plakietkaPochodzenia(strona.pochodzenie),
 })}
 ${strona.obraz ? `<figure class="obraz"><img src="${escapeHtml(strona.obraz)}" alt="${escapeHtml(strona.tytul)}" loading="lazy"><figcaption>${escapeHtml(strona.tytul)}${strona.obraz_zrodlo ? ` — ${escapeHtml(strona.obraz_zrodlo)}` : ''}</figcaption></figure>` : ''}
 <div class="uklad-encja">
-  <div class="tresc-encja">
+  <div class="tresc-encja ${klasaPoziomu(strona.pochodzenie)}" title="${opisPoziomu(strona.pochodzenie)}">
     ${strona.html}
     ${sekcjaListy(strona)}
     ${sekcjaPowiazan('Powiązania', wychodzace, { pomijaj: [] })}

@@ -7,7 +7,7 @@
 import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefListy } from './links.js';
 import { statystyki, listaStron, listaPosortowana, listaEpizodow, czyDemo, dajDane } from './data.js';
-import { nazwaTypu, plakietkaPochodzenia, numerEpizodu, odmiana } from './render.js';
+import { nazwaTypu, klasaPoziomu, numerEpizodu, odmiana } from './render.js';
 
 export function renderGlowna() {
   const s = statystyki();
@@ -57,12 +57,11 @@ ${czyDemo() ? banerDemo() : ''}
 
 <section class="blok">
   <h2>Jak czytać tę bazę</h2>
-  <p>Każdy wpis ma znacznik pochodzenia: <span class="plakietka plakietka-skrypt">ze skryptu</span>
-  (informacja wprost z rozegranego epizodu), <span class="plakietka plakietka-menu">z menu gry</span>
-  (nazwy, statystyki i bronie odczytane z ekranów) <span class="plakietka plakietka-zrodlo">ze źródła · sprawdzone</span>
-  (potwierdzone linkami) oraz <span class="plakietka plakietka-wiedza">wiedza modelu · niesprawdzone</span>
-  (kontekst z pamięci agenta, bez linków). Dzięki temu widać, co jest faktem z gry, co
-  potwierdzonym źródłem, a co wymaga jeszcze sprawdzenia.</p>
+  <p>Każda treść ma kolor tła według poziomu wiarygodności (ADR 0010):
+  <span class="legenda poziom-skrypt">białe tło — dostawa właściciela</span>,
+  <span class="legenda poziom-zrodlo">niebieskie tło — źródła sprawdzone</span>,
+  <span class="legenda poziom-wiedza">zielone tło — wiedza i analiza modelu</span>.
+  Dostawa właściciela ma najwyższy priorytet; rozbieżności z innymi źródłami są opisane osobno.</p>
 </section>`;
 }
 
@@ -104,9 +103,8 @@ function listaOstatnich() {
     .slice(0, 10);
   if (strony.length === 0) return '<p class="pusto">Baza jest pusta.</p>';
   return `<ul class="lista">${strony.map((p) => `
-    <li>
+    <li class="${klasaPoziomu(p.pochodzenie)}">
       <a href="${hrefDlaSlug(p.slug, p.typ)}">${escapeHtml(p.tytul)}</a>
       <span class="meta">${nazwaTypu(p.typ)}${p.czas?.zaktualizowano ? ` · ${escapeHtml(p.czas.zaktualizowano).slice(0, 10)}` : ''}</span>
-      ${plakietkaPochodzenia(p.pochodzenie)}
     </li>`).join('')}</ul>`;
 }

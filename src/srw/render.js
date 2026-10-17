@@ -22,11 +22,12 @@ export const NAZWY_TYPOW = {
 /** Kolejność sekcji „Powiązania" na stronie encji. */
 export const KOLEJNOSC_TYPOW = ['epizod', 'gra', 'postac', 'mech', 'bron', 'seria'];
 
+/** Poziomy wiarygodności (ADR 0010): kolor tła treści, nie plakietka. */
 export const NAZWY_POCHODZENIA = {
-  skrypt: { etykieta: 'ze skryptu', opis: 'Informacja pochodzi wprost z dostarczonego skryptu epizodu.' },
-  menu: { etykieta: 'z menu gry', opis: 'Informacja odczytana z interfejsu gry (nazwy, statystyki, listy broni).' },
-  zrodlo: { etykieta: 'ze źródła · sprawdzone', opis: 'Treść potwierdzona w podanych źródłach (sekcja „Źródła"; sprawdzono przy zapisie).' },
-  wiedza: { etykieta: 'wiedza modelu · niesprawdzone', opis: 'Kontekst z pamięci modelu, jeszcze niepotwierdzony w źródle. Brak linków, dopóki nie zostanie sprawdzony.' },
+  skrypt: { etykieta: 'dostawa właściciela', opis: 'Dostawa właściciela: skrypt epizodu (dialogi, nazwy, sceny). Najwyższy priorytet.' },
+  menu: { etykieta: 'dostawa właściciela', opis: 'Dostawa właściciela: odczyt z ekranów gry (statystyki, uzbrojenie). Najwyższy priorytet.' },
+  zrodlo: { etykieta: 'źródła sprawdzone', opis: 'Uzupełnienie z zewnętrznych źródeł, sprawdzone przy zapisie (ADR 0009). Drugi poziom.' },
+  wiedza: { etykieta: 'wiedza i analiza modelu', opis: 'Wiedza i analiza modelu bez potwierdzenia. Najniższy poziom wiarygodności.' },
 };
 
 export const NAV = [
@@ -83,12 +84,15 @@ export function chipsyTagow(tagi) {
   return `<div class="chipsy">${tagi.map((t) => `<a class="chip" href="#/tag/${encodeURIComponent(t)}">${escapeHtml(t)}</a>`).join('')}</div>`;
 }
 
-/** Plakietka pochodzenia informacji (ADR 0004) — bez tego nie wiadomo, co jest wiedzą modelu. */
-export function plakietkaPochodzenia(pochodzenie) {
-  if (!pochodzenie) return '';
+/** Klasa tła treści wg poziomu wiarygodności (ADR 0010). */
+export function klasaPoziomu(pochodzenie) {
+  return NAZWY_POCHODZENIA[pochodzenie] ? `poziom poziom-${pochodzenie}` : 'poziom poziom-brak';
+}
+
+/** Tytuł (tooltip) opisujący poziom; bez ikon i plakietek. */
+export function opisPoziomu(pochodzenie) {
   const n = NAZWY_POCHODZENIA[pochodzenie];
-  if (!n) return '';
-  return `<span class="plakietka plakietka-${pochodzenie}" title="${escapeHtml(n.opis)}">${escapeHtml(n.etykieta)}</span>`;
+  return n ? escapeHtml(n.opis) : '';
 }
 
 /** Link do strony encji z ikoną typu. */

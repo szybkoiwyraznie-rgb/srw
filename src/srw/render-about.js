@@ -36,10 +36,9 @@ export function renderOBazie() {
   <h2>Znaczniki pochodzenia</h2>
   <p>Najważniejsza konwencja w tym projekcie: przy każdym wpisie widać, skąd pochodzi informacja.</p>
   <ul>
-    <li><span class="plakietka plakietka-skrypt">ze skryptu</span> — fakt wprost z rozegranego epizodu (dialog, nazwa, zachowanie).</li>
-    <li><span class="plakietka plakietka-menu">z menu gry</span> — odczyt z ekranów gry: nazwy jednostek, statystyki, listy broni.</li>
-    <li><span class="plakietka plakietka-zrodlo">ze źródła · sprawdzone</span> — treść potwierdzona w podanych źródłach (linki w sekcji Źródła, sprawdzone przy zapisie).</li>
-    <li><span class="plakietka plakietka-wiedza">wiedza modelu · niesprawdzone</span> — kontekst z pamięci agenta (np. z którego odcinka anime wzięto wątek), jeszcze bez potwierdzenia. Nie ma tu linków, dopóki nie zostanie sprawdzony.</li>
+    <li><span class="legenda poziom-skrypt">białe tło</span> — dostawa właściciela (skrypt epizodu, odczyt z ekranów gry). Najwyższy priorytet.</li>
+    <li><span class="legenda poziom-zrodlo">niebieskie tło</span> — uzupełnienie z zewnętrznych źródeł, sprawdzone przy zapisie (ADR 0009).</li>
+    <li><span class="legenda poziom-wiedza">zielone tło</span> — wiedza i analiza modelu bez potwierdzenia. Najniższy poziom wiarygodności.</li>
   </ul>
   <p>Dzięki temu widać, gdzie kończy się gra, a zaczyna interpretacja — i można wracać do wpisów
   o niższej pewności, żeby je zweryfikować.</p>

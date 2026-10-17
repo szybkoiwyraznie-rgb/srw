@@ -9,7 +9,7 @@
 import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefFiltru, hrefListy } from './links.js';
 import { dajStrone, listaStron, listaPosortowana, listaEpizodow, listaFiltrowana, tagiMap, statystyki } from './data.js';
-import { nazwaTypu, plakietkaPochodzenia, numerEpizodu, stanPusty, odmiana } from './render.js';
+import { nazwaTypu, klasaPoziomu, numerEpizodu, stanPusty, odmiana } from './render.js';
 
 export function renderListe(typ, query = {}) {
   const filtr = wybierzFiltr(typ, query);
@@ -109,10 +109,9 @@ function listaEncjiHtml(lista, typ) {
     return `<div class="siatka">${lista.map(kartaSerii).join('')}</div>`;
   }
   return `<ul class="lista-duza">${lista.map((p) => `
-    <li>
+    <li class="${klasaPoziomu(p.pochodzenie)}">
       <a href="${hrefDlaSlug(p.slug, p.typ)}">${escapeHtml(p.tytul)}</a>
       <span class="meta">${metaEncji(p)}</span>
-      ${plakietkaPochodzenia(p.pochodzenie)}
       ${(p.tagi ?? []).length ? `<span class="chipsy-inline">${p.tagi.slice(0, 4).map((t) => `<a class="chip chip-maly" href="#/tag/${encodeURIComponent(t)}">${escapeHtml(t)}</a>`).join('')}</span>` : ''}
     </li>`).join('')}</ul>`;
 }

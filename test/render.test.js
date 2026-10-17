@@ -39,7 +39,7 @@ test('strona encji składa infoboks, powiązania i backlinki', () => {
   assert.match(html, /Wymienione w/);
   assert.match(html, /#\/mech\/rx-78-2-gundam/, 'mech pilota musi być podlinkowany');
   assert.match(html, /#\/seria\/mobile-suit-gundam-1979/);
-  assert.match(html, /plakietka-wiedza/, 'pochodzenie ma być widoczne');
+  assert.match(html, /poziom-wiedza/, 'poziom wiarygodności ma być widoczny jako kolor tła');
 });
 
 test('strona mecha pokazuje arsenał i serial źródłowy', () => {

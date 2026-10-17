@@ -205,15 +205,26 @@ pre.skrypt {
 
 /* ── Plakietki i chipsy ────────────────────────────────────────── */
 
-.plakietka {
-  display: inline-block; font-size: .72rem; text-transform: uppercase; letter-spacing: .06em;
-  border-radius: 20px; padding: 1px 9px; border: 1px solid var(--ramka-2); color: var(--tusz-2);
-  vertical-align: middle; white-space: nowrap;
-}
-.plakietka-skrypt { color: #1f6b43; border-color: rgba(46, 139, 87, .45); background: rgba(46, 139, 87, .1); }
-.plakietka-menu { color: #1a5f7a; border-color: rgba(31, 127, 163, .45); background: rgba(31, 127, 163, .1); }
-.plakietka-wiedza { color: #7a4a0c; border-color: rgba(184, 115, 26, .5); background: rgba(184, 115, 26, .1); }
-.plakietka-zrodlo { color: #1f6b43; border-color: rgba(46, 139, 87, .5); background: rgba(46, 139, 87, .12); }
+/* ── Poziomy wiarygodności (ADR 0010): kolor tła, czarna czcionka ── */
+.poziom { color: #111; border-radius: 10px; padding: 18px 22px; }
+.poziom-skrypt, .poziom-menu { background: #ffffff; border: 1px solid var(--ramka); }
+.poziom-zrodlo { background: #e3eefb; border: 1px solid #b9d3ee; }
+.poziom-wiedza { background: #e2f4e4; border: 1px solid #b5dcbb; }
+.poziom-brak { background: var(--panel); border: 1px solid var(--ramka); }
+.poziom h2 { color: #111; border-bottom-color: rgba(0, 0, 0, .12); }
+.poziom a { color: #1a4f8a; }
+.poziom-zrodlo a, .poziom-wiedza a { text-decoration: underline; }
+
+/* lista: pasek poziomu zamiast plakietki */
+li.poziom-skrypt, li.poziom-menu { border-left: 4px solid #ffffff; }
+li.poziom-zrodlo { border-left: 4px solid #8fb8e6; }
+li.poziom-wiedza { border-left: 4px solid #86c48d; }
+
+/* legenda */
+.legenda { display: inline-block; color: #111; border-radius: 6px; padding: 1px 8px; border: 1px solid var(--ramka); }
+.legenda.poziom-skrypt, .legenda.poziom-menu { background: #ffffff; }
+.legenda.poziom-zrodlo { background: #e3eefb; border-color: #b9d3ee; }
+.legenda.poziom-wiedza { background: #e2f4e4; border-color: #b5dcbb; }
 
 .chipsy { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
 .chipsy-inline { display: inline-flex; flex-wrap: wrap; gap: 4px; }

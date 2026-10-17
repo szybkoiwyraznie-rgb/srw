@@ -12,6 +12,9 @@ Konwencja: `## RRRR-MM-DD` otwiera wpis dnia. Inne nagłówki są ignorowane.
   dowolny tekst, a adres sceny powstaje z tytułu. Demo: cztery sceny z `demo-ep001`.
 - Źródła tylko po sprawdzeniu (ADR 0009): adresy bez weryfikacji usunięte z bazy; „wiedza modelu”
   oznacza teraz treść niesprawdzoną, bez linków. Getter-1 jako pierwszy wpis „ze źródła”.
+- Poziomy wiarygodności (ADR 0010): kolor tła zamiast plakietek — białe dostawa właściciela,
+  pastelowy niebieski źródła sprawdzone, pastelowy zielony wiedza i analiza modelu. Zapisana
+  procedura asymilacji dostaw.
 - Usunięto ikonki typów stron z całej witryny (nagłówki, listy, wyniki wyszukiwania, linki).
 - Witryna w trybie jasnym (decyzja właściciela) — zmieniona paleta i kolory plakietek.
 - Naprawiono listy: zawinięta pozycja nie rozpada się na osobny akapit, a pusta linia

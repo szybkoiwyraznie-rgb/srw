@@ -13,7 +13,7 @@ import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefFiltru } from './links.js';
 import { dajStrone, dajDane, backlinkiStrony } from './data.js';
 import {
-  nazwaTypu, chipsyTagow, plakietkaPochodzenia, linkStrony,
+  nazwaTypu, chipsyTagow, klasaPoziomu, opisPoziomu, linkStrony,
   nieZnalesc, numerEpizodu, stopkaCzasu, odmiana,
 } from './render.js';
 import { sekcjaPowiazan } from './render-entity.js';
@@ -43,7 +43,6 @@ export function renderEpizod(slug) {
   <p class="podtytul">
     ${e.rozegrano ? `rozegrano ${escapeHtml(e.rozegrano)}` : 'data rozegrania nieuzupełniona'}
     ${e.trasa ? ` · trasa: <strong>${escapeHtml(e.trasa)}</strong>` : ''}
-    ${plakietkaPochodzenia(e.pochodzenie)}
   </p>
 </div>
 
@@ -54,7 +53,7 @@ ${e.skryptTekst ? `
 </details>` : ''}
 
 <div class="uklad-encja">
-  <div class="tresc-encja">
+  <div class="tresc-encja ${klasaPoziomu(e.pochodzenie)}" title="${opisPoziomu(e.pochodzenie)}">
     ${e.html}
     ${sekcjaScen(e.slug)}
     ${sekcjaPowiazan('W tym epizodzie', grupy, {})}
