@@ -20,6 +20,14 @@ wewnętrznie zakłada, że cel Connect może pozostać niezauważony.
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]]).
 }}
+{{menu
+
+## Umiejętności pilota
+
+Pilot domyślny Exart, slot 1.
+
+- **Prevail (base Lv1):** HP left 10%: Def/Acc/Eva/Crit+4%. *Learn-level field: 1.*
+}}
 {{zrodlo
 
 - Nazwisko: Kusanagi. Japońskie imię i nazwisko: 草薙征士郎 ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend)).

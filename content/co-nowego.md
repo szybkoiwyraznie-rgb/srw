@@ -3,7 +3,11 @@
 Dziennik zmian widoczny w witrynie pod `#/co-nowego`. Prowadzi go agent przy każdym PR:
 dopisuje nowy wpis na górze, z datą i godziną publikacji (czas Europa/Warszawa, moment commita).
 
-Konwencja: `## 2026-10-18 00:25
+Konwencja: `## 2026-10-18 00:28
+
+- Nowa dostawa: Exart (uzbrojenie, zdolności natywne, pilot domyślny) i umiejętności Seishiro. Dostawa zapisana 1:1 w `dostawy/srw-oe/`, a na stronach w blokach poziomu 1 (`menu`). Uzbrojenie Exart opisuje mech (ADR 0012).
+
+## 2026-10-18 00:25
 
 - Deweloperem Super Robot Wars OE jest Banpresto (z LaunchBox). Wpis GameFAQs o sazanami usunięty z bazy.
 - Strona główna: usunięta sekcja „Rozgrywka” z kartą gry.
