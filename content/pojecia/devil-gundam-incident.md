@@ -13,7 +13,7 @@ utworzono: 2026-10-17
 ## Opis
 
 W prologu jest wymienione jako jeden z najważniejszych „nieoczekiwanych” skutków wojny, która napędziła naukę:
-„the Devil Gundam Incident chief among them”. Skrypt nie opisuje samego wydarzenia.
+„the Devil Gundam Incident chief among them”. Samo wydarzenie nie zostało opisane.
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]]).
 }}

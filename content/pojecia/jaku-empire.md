@@ -14,7 +14,7 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Jaku Empire jest wymienione w prologu wśród „nieziemskich napaści”, które według skryptu „pozostają w pamięci”. Skrypt nie podaje szczegółów.
+Jaku Empire jest wymienione w prologu wśród „nieziemskich napaści”, które według skryptu „pozostają w pamięci”. Szczegóły nie są znane.
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]]).
 }}

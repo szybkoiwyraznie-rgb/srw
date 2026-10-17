@@ -26,5 +26,5 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0
 }}
 {{wiedza
 
-- Universal Century jest osią czasu z uniwersum Gundam. Skrypt używa jej jako tła i nie podaje, kiedy się zaczęła.
+- Universal Century jest osią czasu z uniwersum Gundam. Jest tłem tej historii, a kiedy się zaczęła, nie wiadomo.
 }}

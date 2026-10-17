@@ -280,13 +280,9 @@ Ever uneasy about the next threat to come, people still live each day with resol
 
 ## Analiza
 
-Skrypt podaje wprost trzy rzeczy. Po pierwsze, Connect jest prywatną grupą, a Seishiro uważa, że jego cel
-pozostaje nieznany innym. Po drugie, trening pokazuje mechanikę w formie dialogów: ruch kosztuje „EN”, zaopatrzenie
-uzupełnia EN, a części naprawiają uszkodzenia. Po trzecie, Himari dołącza do jednostki jako nowa osoba,
-wybrana spośród setek tysięcy kandydatów.
+Connect jest prywatną grupą, a Seishiro uważa, że jego cel pozostaje nieznany innym. Trening pokazuje mechanikę w formie dialogów: ruch kosztuje „EN”, zaopatrzenie uzupełnia EN, a części naprawiają uszkodzenia. Himari dołącza do jednostki jako nowa osoba, wybrana spośród setek tysięcy kandydatów.
 
-Skrypt nie wyjaśnia, czym jest Connect Force poza tym, że to jednostka bojowa, ani dlaczego Himari
-została wybrana. Seishiro podejrzewa, że jest ona ważna dla projektu, ale skrypt tego nie rozstrzyga.
+Connect Force jest jednostką bojową, a jej rola w większym projekcie pozostaje niejasna. Dlaczego wybrano Himari, nie wiadomo. Seishiro podejrzewa, że jest ona ważna dla projektu, ale nie ma co do tego pewności.
 
 ## Wątki w scenie
 

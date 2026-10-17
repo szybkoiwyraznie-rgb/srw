@@ -15,7 +15,7 @@ utworzono: 2026-10-17
 ## Opis
 
 W prologu jest wymieniony wśród terrorystów i piratów, którzy „otwarcie zapowiadali podbój świata i wyzwali całą ludzkość”.
-Skrypt nie podaje nic więcej o jego działaniach.
+O jego dalszych działaniach nic więcej nie wiadomo.
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]]).
 }}

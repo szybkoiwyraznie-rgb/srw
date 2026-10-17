@@ -29,12 +29,11 @@ Connect Force jako nowa osoba. Na końcu, w hangarze, Seishiro uczy ją wysłani
 ## Wątki
 
 - **Cel Connect.** Seishiro sam mówi, że Connect ma cel, którego nikt nie zna, i że woli, żeby go nie zauważono.
-  Skrypt nie podaje, na czym cel polega.
+  Na czym ten cel polega, pozostaje nieznane.
 - **Obcy najeźdźcy i nierozwiązane zagrożenia.** Prolog wylicza najazdy i kryzysy, z którymi ludzkość
   się zmierzyła, i kończy stwierdzeniem, że ludzie wciąż żyją w gotowości na kolejne.
 - **Himari w jednostce.** Pochodzi z Ziemi, jest studentką inżynierii, nie ma prawa jazdy i pierwszy rok
-  pracy ma za sobą. Seishiro przypomina, że została wybrana spośród setek tysięcy kandydatów. Skrypt nie
-  mówi, dlaczego tak było.
+  pracy ma za sobą. Seishiro przypomina, że została wybrana spośród setek tysięcy kandydatów. Dlaczego tak było, nie wiadomo.
 - **Mechanika treningu.** Ruch zużywa EN. Bez EN nie ma ruchu ani walki. Zaopatrzenie uzupełnia EN, a kontener
   daje części naprawcze. Trafienia wpływają na jednostkę, bo symulator dostał aktualizację.
 - **Dane dla zespołu analizy.** Himari nie wie, jak je wysłać. Seishiro zostaje z nią po godzinach i tłumaczy.

@@ -12,13 +12,12 @@ utworzono: 2026-10-17
 
 ## Opis
 
-CF-00 Exart to jednostka Connect Force, którą skrypt nazywa po prostu „Exart”. W [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]])
+CF-00 Exart to jednostka Connect Force, nazywana po prostu „Exart”. W [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]])
 startuje z katapulty w hangarze Connect Station. Pilotuje ją [[seishiro|Seishiro]], a Himari prowadzi jednostkę zdalnie.
 
 ## Uzbrojenie
 
-Skrypt nie podaje uzbrojenia Exart. Trening dotyczy manewrów bojowych z nowym modułem sterowania
-manewrami. Sekcja zostanie uzupełniona, gdy dostawa poda uzbrojenie.
+Uzbrojenie Exart nie jest jeszcze znane. Trening dotyczy manewrów bojowych z nowym modułem sterowania manewrami.
 
 ## Możliwości w treningu
 
