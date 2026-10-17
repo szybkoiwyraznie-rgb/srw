@@ -24,13 +24,7 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0
 
 ## Dane z zewnętrznych źródeł
 
-- Wiek: 18 lat. Głos w wersji japońskiej: Kana Asumi.
-- W Connect Force wsiada do Exart razem z Seishiro.
-- Pisownia nazwiska: w źródle TV Tropes „Yaegami”, w akurasu i w skrypcie „Yaegaki”. Baza używa pisowni ze skryptu.
-}}
-{{zrodlo
-
-## Źródła
-
-- TV Tropes, *Characters in Super Robot Wars OE*: <https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE>.
+- Wiek: 18 lat. Głos w wersji japońskiej: Kana Asumi ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
+- W Connect Force wsiada do Exert razem z Seishiro ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
+- Pisownia nazwiska: w źródle TV Tropes „Yaegami”, w skrypcie „Yaegaki”. Baza używa pisowni ze skryptu ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
 }}

@@ -57,10 +57,11 @@ test('baza ma realny graf, nie zbiór wysp', () => {
   assert.ok(statystyki.relacje >= strony.length, 'średnio mniej niż jedno powiązanie na stronę');
 });
 
-test('sekcja Źródła jest wtedy, gdy wpis deklaruje źródła', () => {
+test('każde źródło zadeklarowane w zrodla jest linkiem przy danych w treści', () => {
+  // ADR 0012: źródło stoi przy informacji, którą potwierdza, a nie w osobnej sekcji.
   for (const s of strony) {
-    if ((s.zrodla ?? []).length > 0) {
-      assert.match(s.body, /^## Źródła$/m, `${s.slug}: brak sekcji Źródła`);
+    for (const url of s.zrodla ?? []) {
+      assert.ok(s.body.includes(url), `${s.slug}: źródło ${url} nie jest podane przy żadnej informacji w treści`);
     }
   }
 });

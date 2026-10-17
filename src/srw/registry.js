@@ -124,9 +124,6 @@ export function walidujStrone(strona, ctx) {
   for (const s of SEKCJE_WYMAGANE[strona.typ] ?? []) {
     if (!sekcje.includes(s)) p.push(`${gdzie}: brak obowiązkowej sekcji "## ${s}"`);
   }
-  if (zrodla.length > 0 && !sekcje.includes('Źródła')) {
-    p.push(`${gdzie}: pole "zrodla" wypełnione, ale brak sekcji "## Źródła"`);
-  }
 
   if (strona.typ === 'epizod') {
     if (!Number.isInteger(strona.numer) || strona.numer < 0) p.push(`${gdzie}: epizod wymaga liczbowego "numer" ≥ 0 (epizod 0 istnieje, ADR 0008)`);

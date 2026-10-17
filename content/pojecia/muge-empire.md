@@ -22,17 +22,11 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0
 
 ## Dane z zewnętrznych źródeł
 
-- W serii *Dancouga – Super Beast Machine God* (TBS, 1985, 38 odcinków) najeźdźcy z obcej przestrzeni to Muge Zorbados Empire.
+- W serii *Dancouga – Super Beast Machine God* (TBS, 1985, 38 odcinków) najeźdźcy z obcej przestrzeni to Muge Zorbados Empire ([Wikipedia, *Dancouga*](https://en.wikipedia.org/wiki/Dancouga_%E2%80%93_Super_Beast_Machine_God)).
 }}
 {{wiedza
 
 ## Wiedza modelu (niesprawdzona)
 
 - Nazwa „Muge Empire” w skrypcie prawdopodobnie odpowiada „Muge Zorbados Empire” z Dancougi. Nie potwierdzono tego w SRW OE.
-}}
-{{zrodlo
-
-## Źródła
-
-- Wikipedia, *Dancouga – Super Beast Machine God*: <https://en.wikipedia.org/wiki/Dancouga_%E2%80%93_Super_Beast_Machine_God>.
 }}

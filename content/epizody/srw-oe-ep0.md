@@ -11,7 +11,6 @@ pojecia: [devil-gundam-incident, connect-force, muge-empire, earth-federation, u
 pochodzenie: skrypt
 zrodla:
   - https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE
-  - https://superrobotwars.fandom.com/wiki/Super_Robot_Wars_Operation_Extend
   - https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam
   - https://en.wikipedia.org/wiki/Mazinger_Z
 tagi: [prolog, trening]
@@ -72,13 +71,4 @@ Connect Force jako nowa osoba. Na końcu, w hangarze, Seishiro uczy ją wysłani
 - **Devil Gundam w skrypcie a w źródle.** Skrypt umieszcza „Devil Gundam Incident” w U.C. Według
   Wikipedii *G Gundam* rozgrywa się w osobnej, alternatywnej osi czasu Future Century, a nie w Universal Century.
   Dostawa właściciela zostaje bez zmian, a rozbieżność jest tylko zapisana.
-}}
-{{zrodlo
-
-## Źródła
-
-- TV Tropes, *Characters in Super Robot Wars OE*: <https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE>.
-- Super Robot Wars Wiki (Fandom), *Super Robot Wars Operation Extend*: <https://superrobotwars.fandom.com/wiki/Super_Robot_Wars_Operation_Extend>.
-- Wikipedia, *Mobile Fighter G Gundam*: <https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam>.
-- Wikipedia, *Mazinger Z*: <https://en.wikipedia.org/wiki/Mazinger_Z>.
 }}

@@ -22,18 +22,11 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0
 
 ## Dane z zewnętrznych źródeł
 
-- W japońskiej Wikipedii o SRW OE nazwa „邪神ドラゴ” (Jashin Drago) ma odsyłacz do artykułu o serii 獣神ライガー (Jushin Liger) (JP Wikipedia).
-- Nie sprawdzono, jaka jest rola tej postaci w serii Jushin Liger.
+- W japońskiej Wikipedii o SRW OE nazwa 邪神ドラゴ (Jashin Drago) ma odsyłacz do artykułu o serii 獣神ライガー (Jushin Liger) ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend)).
 }}
 {{wiedza
 
 ## Wiedza modelu (niesprawdzona)
 
 - Najpewniej Evil God Drago to Jashin Drago z serii Jushin Liger. Nie potwierdzono szczegółów.
-}}
-{{zrodlo
-
-## Źródła
-
-- Wikipedia JP, *スーパーロボット大戦Operation Extend*: <https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend>.
 }}

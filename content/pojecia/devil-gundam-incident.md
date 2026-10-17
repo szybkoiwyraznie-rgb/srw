@@ -21,12 +21,6 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0
 
 ## Dane z zewnętrznych źródeł
 
-- Wydarzenie z *Mobile Fighter G Gundam*: Devil Gundam powstał z Ultimate Gundam i zagrażał ludzkości (en.wikipedia.org, *Mobile Fighter G Gundam*).
-- W tej serii wydarzenie rozgrywa się w osobnej osi czasu Future Century, a nie w Universal Century. To jest rozbieżność ze skryptem, który umieszcza je w U.C. Patrz [[srw-oe-ep0|Episode 0]].
-}}
-{{zrodlo
-
-## Źródła
-
-- Wikipedia, *Mobile Fighter G Gundam*: <https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam>.
+- Devil Gundam powstał z Ultimate Gundam i zagrażał ludzkości w *Mobile Fighter G Gundam* ([Wikipedia, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam)).
+- W tej serii wydarzenie rozgrywa się w osobnej osi czasu Future Century, a nie w Universal Century ([Wikipedia, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam)). To rozbieżność ze skryptem, który umieszcza je w U.C. Patrz [[srw-oe-ep0|Episode 0]].
 }}
