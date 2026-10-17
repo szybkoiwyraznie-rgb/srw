@@ -31,9 +31,14 @@ test('odsyłacz do złego typu to problem', () => {
   assert.ok(problemy.some((p) => /oczekiwano "seria"/.test(p)));
 });
 
-test('pochodzenie "wiedza" bez źródeł zatrzymuje wpis (ADR 0004)', () => {
-  const problemy = walidujStrone(strona({ seria: 'mobile-suit-gundam-1979', pochodzenie: 'wiedza' }), ctxZ([seria]));
-  assert.ok(problemy.some((p) => /pochodzenie "wiedza" wymaga/.test(p)));
+test('pochodzenie "wiedza" z adresami zatrzymuje wpis (ADR 0009)', () => {
+  const problemy = walidujStrone(strona({ seria: 'mobile-suit-gundam-1979', pochodzenie: 'wiedza', zrodla: ['https://example.org/x'] }), ctxZ([seria]));
+  assert.ok(problemy.some((p) => /"wiedza" \(niesprawdzona\) nie może mieć/.test(p)));
+});
+
+test('pochodzenie "zrodlo" bez sprawdzonych adresów zatrzymuje wpis (ADR 0009)', () => {
+  const problemy = walidujStrone(strona({ seria: 'mobile-suit-gundam-1979', pochodzenie: 'zrodlo' }), ctxZ([seria]));
+  assert.ok(problemy.some((p) => /"zrodlo" wymaga sprawdzonych/.test(p)));
 });
 
 test('źródło musi być adresem http(s)', () => {
@@ -72,7 +77,7 @@ test('backlinki zbierają strony linkujące bez duplikatów', () => {
   const strony = [
     { slug: 'a', typ: 'postac', linki: ['x', 'y'] },
     { slug: 'b', typ: 'mech', linki: ['x'] },
-    { slug: 'c', typ: 'bron', linki: ['x'] },
+    { slug: 'c', typ: 'seria', linki: ['x'] },
   ];
   const b = policzBacklinki(strony);
   assert.deepEqual(b.x.map((s) => s.slug), ['a', 'b', 'c']);

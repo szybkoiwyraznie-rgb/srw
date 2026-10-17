@@ -24,18 +24,19 @@ Agent buduje z niego bazę. Witryna istnieje po to, żeby oglądać zależności
 ## 2. Pętla epizodu (praca domyślna)
 
 Materiał wejściowy: plik `episodes/<gra>/epNNN.md` (surowy skrypt, często plus lista nowych
-postaci/mechów/broni podana w wiadomości). Wynik pracy:
+postaci/mechów podana w wiadomości). Wynik pracy:
 
 1. **Wpis epizodu** `content/epizody/<gra>-epNNN.md` — streszczenie, sceny, wątki anime, komentarz,
    obsada. To najważniejszy wpis: z niego wynikają wszystkie odsyłacze.
-2. **Encje** — dla każdej postaci, mecha i broni ze skryptu wpis w odpowiednim dziale.
-   Encja już istniejąca **nie jest duplikowana**: dopisujesz jej nowe wystąpienie
-   (pole `gry`, `mechy`, `bronie`) i uzupełniasz treść, jeśli skrypt wniósł coś nowego.
-3. **Relacje** — pola frontmattera (`postacie`, `mechy`, `bronie`, `serie`, `gra`) plus wikilinki
+2. **Encje** — dla każdej postaci i mecha ze skryptu wpis w odpowiednim dziale. Bronie opisujesz
+   w treści mecha (nie jako osobny wpis). Nowe encje tylko wprost z dostawy (ADR 0012): nie zakładasz
+   encji wynikającej z innej encji. Encja już istniejąca **nie jest duplikowana**: dopisujesz jej
+   nowe wystąpienie (pole `gry`, `mechy`) i uzupełniasz treść, jeśli skrypt wniósł coś nowego.
+3. **Relacje** — pola frontmattera (`postacie`, `mechy`, `serie`, `gra`) plus wikilinki
    w treści. Bez nich wpis jest wyspą: nie pojawi się w „Wymienione w" na stronie encji.
 4. **Analiza i komentarz** — gdzie wątek pochodzi z anime (seria + odcinek, jeśli wiadomo),
    co dodano, co zmieniono, czego zabrakło. Tabela `## Wątki anime` w treści epizodu.
-5. **Dziennik zmian** — punkt w `content/co-nowego.md` z datą dnia.
+5. **Dziennik zmian** — nowy wpis na górze `content/co-nowego.md`, nagłówek `## RRRR-MM-DD GG:MM` (godzina publikacji, Europa/Warszawa).
 6. **Zielono** — `npm test` i `npm run build` muszą przejść. Build nie wypuści artefaktu
    z martwym wikilinkiem, brakującym odsyłaczem albo wiedzą bez źródeł.
 
@@ -85,9 +86,9 @@ Szczegółowa lista kroków: `docs/guides/PRZEPLYW_EPIZODU.md`.
 - **Nie wymyślaj faktów.** Czego nie ma w skrypcie i czego nie potwierdza źródło, tego nie wpisujesz
   jako ustalenia. Luka opisana wprost („w skrypcie nie pada tytuł odcinka") jest lepsza niż
   pewnie brzmiąca nieprawda.
-- **Rozdzielaj poziomy pewności.** Pole `pochodzenie`: `skrypt` (wprost z gry), `menu` (odczyt
-  z ekranów), `wiedza` (kontekst agenta — **wymaga** `zrodla` i sekcji `## Źródła`).
-- **Statystyki i arsenał należą do pary (mech, gra), nie do mecha.** Jeśli skrypt lub menu podaje
+- **Rozdzielaj poziomy pewności.** Pole `pochodzenie`: `skrypt` (wprost z gry), `menu` (dostawa
+  właściciela o mechach, pilotach i broniach), `zrodlo` (treść potwierdzona w sprawdzonym źródle — `zrodla` i `## Źródła`), `wiedza` (kontekst agenta, **niesprawdzony** — bez linków; ADR 0009).
+- **Statystyki i arsenał należą do pary (mech, gra), nie do mecha.** Jeśli skrypt lub dostawa `menu` podaje
   parametry w konkretnym tytule, zapisz je w polu `w_gre` (klucz = slug gry), a nie w opisie ogólnym.
 
 ## 5. Swoboda formy jest zaletą

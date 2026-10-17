@@ -11,8 +11,8 @@ import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefFiltru, hrefListy } from './links.js';
 import { dajStrone, listaStron, backlinkiStrony, odsylaczeWychodzace, dajDane } from './data.js';
 import {
-  nazwaTypu, ikonaTypu, chipsyTagow, plakietkaPochodzenia, linkStrony,
-  stanPusty, nieZnalesc, naglowekStrony, stopkaCzasu, numerEpizodu, KOLEJNOSC_TYPOW, odmiana,
+  nazwaTypu, chipsyTagow, linkStrony,
+  stanPusty, nieZnalesc, naglowekStrony, numerEpizodu, KOLEJNOSC_TYPOW, odmiana,
 } from './render.js';
 
 export function renderEncja(slug) {
@@ -27,21 +27,19 @@ ${naglowekStrony({
   tytul: escapeHtml(strona.tytul),
   typ: strona.typ,
   podtytul: podtytul(strona),
-  badge: plakietkaPochodzenia(strona.pochodzenie),
 })}
 ${strona.obraz ? `<figure class="obraz"><img src="${escapeHtml(strona.obraz)}" alt="${escapeHtml(strona.tytul)}" loading="lazy"><figcaption>${escapeHtml(strona.tytul)}${strona.obraz_zrodlo ? ` — ${escapeHtml(strona.obraz_zrodlo)}` : ''}</figcaption></figure>` : ''}
 <div class="uklad-encja">
+  <aside class="infoboks">
+    ${infoboks(strona)}
+    ${chipsyTagow(strona.tagi)}
+  </aside>
   <div class="tresc-encja">
     ${strona.html}
     ${sekcjaListy(strona)}
     ${sekcjaPowiazan('Powiązania', wychodzace, { pomijaj: [] })}
     ${sekcjaPrzychodzacych(przychodzace)}
-    ${stopkaCzasu(strona.czas)}
   </div>
-  <aside class="infoboks">
-    ${infoboks(strona)}
-    ${chipsyTagow(strona.tagi)}
-  </aside>
 </div>`;
 }
 
@@ -57,7 +55,6 @@ function podtytul(s) {
     if (s.odcinki) czesci.push(`${s.odcinki} odc.`);
     return czesci.join(' · ');
   }
-  if (s.typ === 'bron') return s.klasa ? `klasa: ${escapeHtml(s.klasa)}` : '';
   return '';
 }
 
@@ -89,10 +86,6 @@ function infoboks(s) {
     dodaj('Seria', s.seria ? linkStrony(dajStrone(s.seria)) : '');
     dodaj('Typ', s.typ_mecha ? escapeHtml(s.typ_mecha) : '');
     dodaj('Piloci', linkListy(s.piloci));
-  }
-  if (s.typ === 'bron') {
-    dodaj('Klasa', s.klasa ? escapeHtml(s.klasa) : '');
-    dodaj('Nosi ją', linkListy(s.mechy));
   }
   if (s.typ === 'epizod') {
     dodaj('Gra', s.gra ? linkStrony(dajStrone(s.gra)) : '');
@@ -135,17 +128,12 @@ function sekcjaListy(s) {
   }
 
   if (s.typ === 'seria') {
-    for (const typ of ['postac', 'mech', 'bron']) {
+    for (const typ of ['postac', 'mech']) {
       const pozycje = listaStron(typ).filter((p) => p.seria === s.slug);
       if (pozycje.length) {
         czesci.push(sekcjaPowiazan(`Z tej serii: ${nazwaTypu(typ, 'wiele').toLowerCase()}`, new Map([[typ, pozycje.sort((a, b) => String(a.tytul).localeCompare(String(b.tytul), 'pl'))]]), { pomijaj: [] }));
       }
     }
-  }
-
-  if (s.typ === 'mech' && Array.isArray(s.bronie) && s.bronie.length) {
-    const bronie = s.bronie.map(dajStrone).filter(Boolean);
-    czesci.push(sekcjaPowiazan('Arsenał', new Map([['bron', bronie]]), { pomijaj: [] }));
   }
 
   return czesci.join('');
@@ -164,7 +152,7 @@ export function sekcjaPowiazan(tytul, grupy, { pomijaj = [] } = {}) {
     <h2>${tytul}</h2>
     ${wpisy.map(([typ, lista]) => `
       <div class="grupa-powiazan">
-        <h3>${ikonaTypu(typ)} ${nazwaTypu(typ, 'wiele')}</h3>
+        <h3>${nazwaTypu(typ, 'wiele')}</h3>
         <ul class="lista-horyzontalna">
           ${lista.map((p) => `<li>${linkStrony(p)}</li>`).join('')}
         </ul>
@@ -189,7 +177,7 @@ function sekcjaPrzychodzacych(przychodzace) {
     <h2>Wymienione w</h2>
     ${wpisy.map(([typ, lista]) => `
       <div class="grupa-powiazan">
-        <h3>${ikonaTypu(typ)} ${nazwaTypu(typ, 'wiele')} <span class="licznik">${lista.length}</span></h3>
+        <h3>${nazwaTypu(typ, 'wiele')} <span class="licznik">${lista.length}</span></h3>
         <ul class="lista">${lista.map((p) => `
           <li>
             <a href="${hrefDlaSlug(p.slug, p.typ)}">${typ === 'epizod' ? `<span class="mono">${numerEpizodu(p.numer)}</span> ` : ''}${escapeHtml(p.tytul)}</a>

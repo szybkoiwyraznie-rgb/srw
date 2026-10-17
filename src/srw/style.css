@@ -1,24 +1,24 @@
 /* SRW Database — style witryny (wstrzykiwane do artefaktu przez build).
    Priorytety: czytelność długiego tekstu, iPad/telefon, zero zależności.
-   Motyw: ciemny panel techniczny + bursztynowy akcent (HUD, nie gazeta). */
+   Motyw: jasny (light mode, decyzja właściciela) + bursztynowy akcent. */
 
 :root {
-  --tlo: #0e1116;
-  --tlo-2: #141922;
-  --panel: #182029;
-  --panel-2: #1e2833;
-  --tusz: #dfe6ee;
-  --tusz-2: #9dabb9;
-  --tusz-3: #6d7b8a;
-  --akcent: #e8a33d;
-  --akcent-2: #5ec8e8;
-  --ramka: #2a3644;
-  --ramka-2: #37455a;
-  --dobry: #6fcf97;
+  --tlo: #f7f8fa;
+  --tlo-2: #eef1f5;
+  --panel: #ffffff;
+  --panel-2: #f1f4f8;
+  --tusz: #1d2631;
+  --tusz-2: #4a5868;
+  --tusz-3: #7a8796;
+  --akcent: #b8731a;
+  --akcent-2: #1f7fa3;
+  --ramka: #d9e0e8;
+  --ramka-2: #c3cdd9;
+  --dobry: #2e8b57;
   --serif: Georgia, 'Times New Roman', serif;
   --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   --mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
-  --cien: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
+  --cien: 0 1px 2px rgba(20, 30, 45, .08), 0 6px 18px rgba(20, 30, 45, .07);
 }
 
 * { box-sizing: border-box; }
@@ -28,7 +28,7 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   background:
-    radial-gradient(1100px 620px at 12% -12%, #1b2634 0%, transparent 60%),
+    radial-gradient(1100px 620px at 12% -12%, #e6edf6 0%, transparent 60%),
     var(--tlo);
   color: var(--tusz);
   font-family: var(--sans);
@@ -39,7 +39,7 @@ body {
 
 a { color: var(--akcent); text-decoration: none; }
 a:hover { text-decoration: underline; }
-mark { background: rgba(232, 163, 61, .3); color: inherit; padding: 0 2px; border-radius: 2px; }
+mark { background: rgba(184, 115, 26, .22); color: inherit; padding: 0 2px; border-radius: 2px; }
 code { font-family: var(--mono); font-size: .88em; background: var(--panel-2); padding: .1em .38em; border-radius: 4px; border: 1px solid var(--ramka); }
 hr { border: 0; border-top: 1px solid var(--ramka); margin: 1.6em 0; }
 
@@ -47,7 +47,7 @@ hr { border: 0; border-top: 1px solid var(--ramka); margin: 1.6em 0; }
 
 .naglowek {
   position: sticky; top: 0; z-index: 20;
-  background: rgba(14, 17, 22, .92);
+  background: rgba(247, 248, 250, .94);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--ramka);
 }
@@ -122,12 +122,6 @@ p { margin: .8em 0; }
 .karta-gry h3, .karta-serie h3 { margin: 0 0 4px; text-transform: none; letter-spacing: 0; font-size: 1.05rem; color: var(--tusz); }
 .karta-serie { min-height: 110px; }
 
-.baner-demo {
-  background: linear-gradient(90deg, rgba(232, 163, 61, .16), rgba(232, 163, 61, .04));
-  border: 1px solid rgba(232, 163, 61, .5); border-left: 3px solid var(--akcent);
-  border-radius: 8px; padding: 12px 16px; margin-bottom: 18px; font-size: .93rem;
-}
-
 /* ── Listy ─────────────────────────────────────────────────────── */
 
 .lista, .lista-duza, .lista-horyzontalna, .lista-epizodow { list-style: none; padding: 0; margin: 0; }
@@ -148,18 +142,17 @@ p { margin: .8em 0; }
 
 /* ── Encje: układ i infoboks ───────────────────────────────────── */
 
-.uklad-encja { display: grid; grid-template-columns: minmax(0, 1fr) 290px; gap: 30px; align-items: start; }
+.uklad-encja { display: block; }
 .tresc-encja { min-width: 0; }
+/* Infoboks to pasek informacji na górze strony, na pełną szerokość (bez prawej kolumny). */
 .infoboks {
   background: var(--panel); border: 1px solid var(--ramka); border-radius: 10px;
-  padding: 14px 16px; position: sticky; top: 74px; box-shadow: var(--cien);
+  padding: 14px 18px; margin: 0 0 24px; box-shadow: var(--cien);
 }
 .infoboks-lista { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: .9rem; }
 .infoboks-lista dt { color: var(--tusz-3); font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; padding-top: 2px; }
 .infoboks-lista dd { margin: 0; }
 
-.tresc-encja p, .tresc-dluga p { max-width: 74ch; }
-.tresc-encja ul, .tresc-dluga ul, .tresc-encja ol, .tresc-dluga ol { max-width: 74ch; }
 .tresc-encja li, .tresc-dluga li { margin: .3em 0; }
 
 .obraz { margin: 0 0 20px; }
@@ -198,21 +191,37 @@ blockquote {
 .panel-skryptu[open] summary { border-bottom: 1px solid var(--ramka); }
 pre.skrypt {
   margin: 0; padding: 16px; overflow-x: auto; font-family: var(--mono); font-size: .84rem;
-  line-height: 1.62; color: #cfd8e3; white-space: pre-wrap; word-break: break-word; max-height: 560px; overflow-y: auto;
+  line-height: 1.62; color: var(--tusz); white-space: pre-wrap; word-break: break-word; max-height: 560px; overflow-y: auto;
 }
 
 .nawigacja-epizodow { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; font-size: .86rem; }
 
 /* ── Plakietki i chipsy ────────────────────────────────────────── */
 
-.plakietka {
-  display: inline-block; font-size: .72rem; text-transform: uppercase; letter-spacing: .06em;
-  border-radius: 20px; padding: 1px 9px; border: 1px solid var(--ramka-2); color: var(--tusz-2);
-  vertical-align: middle; white-space: nowrap;
-}
-.plakietka-skrypt { color: #b8e6c9; border-color: rgba(111, 207, 151, .45); background: rgba(111, 207, 151, .1); }
-.plakietka-menu { color: #b7dff2; border-color: rgba(94, 200, 232, .45); background: rgba(94, 200, 232, .1); }
-.plakietka-wiedza { color: #f0d29a; border-color: rgba(232, 163, 61, .45); background: rgba(232, 163, 61, .1); }
+/* ── Poziomy wiarygodności (ADR 0010): kolor tła, czarna czcionka ── */
+.poziom { color: #111; border-radius: 10px; padding: 18px 22px; }
+.poziom-skrypt, .poziom-menu { background: #ffffff; border: 1px solid var(--ramka); }
+.poziom-zrodlo { background: #e3eefb; border: 1px solid #b9d3ee; }
+.poziom-wiedza { background: #e2f4e4; border: 1px solid #b5dcbb; }
+.poziom-brak { background: var(--panel); border: 1px solid var(--ramka); }
+.poziom h2 { color: #111; border-bottom-color: rgba(0, 0, 0, .12); }
+.poziom a { color: #1a4f8a; }
+.poziom-zrodlo a, .poziom-wiedza a { text-decoration: underline; }
+
+/* fragmenty treści: poziom wiarygodności zaznacza się na bloku {{...}}, nie na stronie (ADR 0011) */
+.fragment { margin: 14px 0; }
+.fragment:first-child { margin-top: 0; }
+.fragment.poziom { padding: 12px 16px; }
+.fragment.poziom > :first-child { margin-top: 0; }
+.fragment.poziom > :last-child { margin-bottom: 0; }
+
+/* lista: pasek poziomu zamiast plakietki */
+
+/* legenda */
+.legenda { display: inline-block; color: #111; border-radius: 6px; padding: 1px 8px; border: 1px solid var(--ramka); }
+
+.legenda.poziom-zrodlo { background: #e3eefb; border-color: #b9d3ee; }
+.legenda.poziom-wiedza { background: #e2f4e4; border-color: #b5dcbb; }
 
 .chipsy { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
 .chipsy-inline { display: inline-flex; flex-wrap: wrap; gap: 4px; }
@@ -227,9 +236,13 @@ pre.skrypt {
 /* ── Dziennik zmian / kroki ────────────────────────────────────── */
 
 .dziennik { list-style: none; padding: 0; margin: 0; }
-.dziennik li { display: grid; grid-template-columns: 110px 1fr; gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--ramka); }
+.dziennik > li { display: grid; grid-template-columns: 120px 1fr; gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--ramka); }
 .dziennik .data { color: var(--tusz-3); }
 .kroki li { margin: .5em 0; }
+.dziennik ul { margin: .4em 0 .4em 1.2em; padding: 0; }
+.skrypt-tekst { line-height: 1.7; }
+.stopka-linki { margin: 0 0 6px; }
+.stopka-czas { margin: 0 0 4px; }
 
 /* ── Stopka ────────────────────────────────────────────────────── */
 
@@ -242,13 +255,11 @@ pre.skrypt {
 .stan-pusty { padding: 34px 0; text-align: center; color: var(--tusz-2); }
 .stan-pusty .komunikat { font-size: 1.05rem; }
 .stan-pusty .podpowiedz { color: var(--tusz-3); font-size: .9rem; }
-.martwy-link { color: #e05c5c; border-bottom: 1px dotted #e05c5c; cursor: help; }
+.martwy-link { color: #c23b3b; border-bottom: 1px dotted #c23b3b; cursor: help; }
 
 /* ── Responsywność ─────────────────────────────────────────────── */
 
 @media (max-width: 860px) {
-  .uklad-encja { grid-template-columns: 1fr; }
-  .infoboks { position: static; order: -1; }
   .dwie-kolumny { grid-template-columns: 1fr; }
   h1 { font-size: 1.55rem; }
   .hero h1 { font-size: 1.8rem; }
@@ -259,5 +270,13 @@ pre.skrypt {
   .szukaj { flex: 1 1 100%; }
   .szukaj input { width: 100%; }
   .tresc { padding: 18px 12px 48px; }
-  .dziennik li { grid-template-columns: 1fr; gap: 2px; }
+  .dziennik > li { grid-template-columns: 1fr; gap: 2px; }
 }
+
+/* ── Sceny (ADR 0008) ───────────────────────────────────────────── */
+.blok-sceny { margin-top: 1.6em; }
+.lista-scen { list-style: none; padding: 0; margin: 0; }
+.lista-scen li { padding: 8px 0; border-bottom: 1px solid var(--ramka); }
+.lista-scen a { color: var(--tusz); }
+.lista-scen a:hover { color: var(--akcent); text-decoration: none; }
+.numer-sceny { font-family: var(--mono); color: var(--akcent); font-size: .9em; margin-right: 4px; }

@@ -5,9 +5,11 @@
 
 import { uruchomRouter } from './router.js';
 import { rama, tytulStrony, nieZnalesc, nazwaTypu } from './render.js';
+import { czasStrony, coNowegoCzas, czasBazy } from './data.js';
 import { renderGlowna } from './render-home.js';
 import { renderEncja } from './render-entity.js';
 import { renderEpizod } from './render-episode.js';
+import { renderScena } from './render-scene.js';
 import { renderListe, renderTagi, renderTag } from './render-lists.js';
 import { renderSzukanie } from './render-search.js';
 import { renderCoNowego } from './render-whatsnew.js';
@@ -15,8 +17,8 @@ import { renderOBazie } from './render-about.js';
 
 /** Mapa tras list ↔ tras encji (dla podświetlenia nawigacji). */
 const LISTA_TRAS = {
-  gra: 'gry', epizod: 'epizody', postac: 'postacie',
-  mech: 'mechy', bron: 'bronie', seria: 'serie',
+  gra: 'gry', epizod: 'epizody', scena: 'sceny', postac: 'postacie',
+  mech: 'mechy', pojecie: 'pojecia', seria: 'serie',
 };
 
 function renderuj(trasa) {
@@ -35,9 +37,11 @@ function renderuj(trasa) {
       html = renderEncja(trasa.param); tytul = trasa.param ?? 'Gra'; aktywna = 'gry'; break;
     case 'epizod':
       html = renderEpizod(trasa.param); tytul = trasa.param ?? 'Epizod'; aktywna = 'epizody'; break;
+    case 'scena':
+      html = renderScena(trasa.param); tytul = trasa.param ?? 'Scena'; aktywna = 'sceny'; break;
     case 'postac':
     case 'mech':
-    case 'bron':
+    case 'pojecie':
     case 'seria':
       html = renderEncja(trasa.param);
       tytul = trasa.param ?? nazwaTypu(trasa.nazwa);
@@ -46,9 +50,10 @@ function renderuj(trasa) {
 
     case 'gry':
     case 'epizody':
+    case 'sceny':
     case 'postacie':
     case 'mechy':
-    case 'bronie':
+    case 'pojecia':
     case 'serie': {
       const typ = Object.keys(LISTA_TRAS).find((t) => LISTA_TRAS[t] === trasa.nazwa);
       html = renderListe(typ, trasa.query);
@@ -65,7 +70,10 @@ function renderuj(trasa) {
     default: html = nieZnalesc(trasa.param ?? 'strona'); tytul = 'Nie znaleziono'; break;
   }
 
-  app.innerHTML = rama(aktywna, tytul, html);
+  const czas = ['gra', 'epizod', 'scena', 'postac', 'mech', 'pojecie', 'seria'].includes(trasa.nazwa)
+    ? czasStrony(trasa.param)
+    : trasa.nazwa === 'co-nowego' ? coNowegoCzas() : czasBazy();
+  app.innerHTML = rama(aktywna, tytul, html, czas);
   tytulStrony(tytul);
   domknijInterakcje(app);
 }

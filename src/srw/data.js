@@ -14,7 +14,7 @@ export function dajDane() {
     strony: {},
     backlinki: {},
     tagi: {},
-    statystyki: { gra: 0, epizod: 0, postac: 0, mech: 0, bron: 0, seria: 0, relacje: 0 },
+    statystyki: { gra: 0, epizod: 0, scena: 0, postac: 0, mech: 0, pojecie: 0, seria: 0, relacje: 0 },
     coNowego: [],
   };
 }
@@ -85,14 +85,20 @@ export function statystyki() {
   return dajDane().statystyki;
 }
 
-export function wpisyCoNowego() {
-  return dajDane().coNowego ?? [];
+export function czasStrony(slug) {
+  return dajStrone(slug)?.czas ?? null;
 }
 
-/** Czy baza jest jeszcze w trybie demonstracyjnym (tylko gra "demo"). */
-export function czyDemo() {
-  const gry = listaStron('gra');
-  return gry.length > 0 && gry.every((g) => g.slug === 'demo');
+export function coNowegoCzas() {
+  return dajDane().coNowegoCzas ?? null;
+}
+
+export function czasBazy() {
+  return dajDane().czasBazy ?? null;
+}
+
+export function wpisyCoNowego() {
+  return dajDane().coNowego ?? [];
 }
 
 export { LISTY };

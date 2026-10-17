@@ -36,7 +36,7 @@ ${miesiace.map((m) => `
     <ul class="dziennik">
       ${grupy.get(m).map((w) => `
         <li>
-          <span class="data mono">${escapeHtml(w.data)}</span>
+          <span class="data mono">${escapeHtml(w.data)}${w.czas ? `<br>${escapeHtml(w.czas)}` : ''}</span>
           <div>${w.html}</div>
         </li>`).join('')}
     </ul>

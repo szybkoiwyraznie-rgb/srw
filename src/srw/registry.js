@@ -14,18 +14,21 @@
 
 import { SLUG_RE, hrefDlaSlug, slugify } from './links.js';
 
-export const TYPY_STRON = ['gra', 'epizod', 'postac', 'mech', 'bron', 'seria'];
+/** Bronie nie są osobnym typem: opisują mech w jego treści (zasada właściciela). */
+/** Hasło (`pojecie`): organizacja, era, państwo, zjawisko — podstrona w stylu wiki (ADR 0012). */
+export const TYPY_STRON = ['gra', 'epizod', 'scena', 'postac', 'mech', 'pojecie', 'seria'];
 
-/** Typy encji odnoszące się do serii anime/mangi. */
-export const TYPY_Z_SERIA = ['postac', 'mech'];
+/**
+ * Postacie i mechy mogą nie mieć serii: oryginalne postacie i mechy gry (np. Seishiro, Exart)
+ * nie pochodzą z anime. Pole `seria` jest opcjonalne, a jeśli jest, musi wskazywać serię.
+ */
+export const TYPY_Z_SERIA = [];
 
-/** Poziom pochodzenia informacji. Hierarchia: skrypt > menu gry > wiedza. */
-export const POCHODZENIA = ['skrypt', 'menu', 'wiedza'];
-
-/** Klasy broni (swobodne, ale z sensowną listą startową). */
-export const KLASY_BRONI = [
-  'bron-biala', 'strzelecka', 'beam', 'rakietowa', 'specjalna', 'obrona', 'wsparcie',
-];
+/**
+ * Poziom pochodzenia informacji (ADR 0004, zaostrzony ADR 0009):
+ * skrypt > menu gry > zrodlo (sprawdzone w źródle) > wiedza (niesprawdzona, bez źródeł).
+ */
+export const POCHODZENIA = ['skrypt', 'menu', 'zrodlo', 'wiedza'];
 
 export const RODZAJE_SERII = ['tv', 'ova', 'film', 'manga', 'gra', 'powiesc', 'inne'];
 
@@ -37,9 +40,10 @@ export const ROLE_POSTACI = ['pilot', 'wsparcie', 'dowodztwo', 'antagonista', 'p
 export const SEKCJE_WYMAGANE = {
   gra: [],
   epizod: ['Streszczenie'],
+  scena: ['Treść sceny', 'Analiza'],
   postac: ['Opis'],
   mech: ['Opis'],
-  bron: ['Opis'],
+  pojecie: ['Opis'],
   seria: ['Opis'],
 };
 
@@ -52,10 +56,11 @@ export const POLA_RELACJI = {
   seria: { typ: 'seria', wiele: false },
   postacie: { typ: 'postac', wiele: true },
   mechy: { typ: 'mech', wiele: true },
-  bronie: { typ: 'bron', wiele: true },
+  pojecia: { typ: 'pojecie', wiele: true },
   serie: { typ: 'seria', wiele: true },
   gry: { typ: 'gra', wiele: true },
   piloci: { typ: 'postac', wiele: true },
+  epizod: { typ: 'epizod', wiele: false },
 };
 
 const DATA_RE = /^\d{4}-\d{2}-\d{2}$/;
@@ -99,11 +104,15 @@ export function walidujStrone(strona, ctx) {
     }
   }
 
-  // Źródła: wiedza spoza skryptu MUSI mieć dokąd odesłać (ADR 0004).
+  // Źródła (ADR 0009): adres wpisujemy dopiero po sprawdzeniu, że potwierdza treść.
+  // Wiedza niesprawdzona NIE dostaje adresów; treść ze sprawdzonego źródła ma je mieć.
   const zrodla = strona.zrodla ?? [];
   if (!Array.isArray(zrodla)) p.push(`${gdzie}: "zrodla" musi być tablicą`);
-  if (strona.pochodzenie === 'wiedza' && zrodla.length === 0) {
-    p.push(`${gdzie}: pochodzenie "wiedza" wymaga sekcji "## Źródła" z linkami (ADR 0004)`);
+  if (strona.pochodzenie === 'wiedza' && zrodla.length > 0) {
+    p.push(`${gdzie}: pochodzenie "wiedza" (niesprawdzona) nie może mieć "zrodla" — po sprawdzeniu ustaw "zrodlo" (ADR 0009)`);
+  }
+  if (strona.pochodzenie === 'zrodlo' && zrodla.length === 0) {
+    p.push(`${gdzie}: pochodzenie "zrodlo" wymaga sprawdzonych adresów w "zrodla" (ADR 0009)`);
   }
   for (const z of zrodla) {
     if (typeof z !== 'string' || !/^https?:\/\//.test(z)) {
@@ -115,12 +124,9 @@ export function walidujStrone(strona, ctx) {
   for (const s of SEKCJE_WYMAGANE[strona.typ] ?? []) {
     if (!sekcje.includes(s)) p.push(`${gdzie}: brak obowiązkowej sekcji "## ${s}"`);
   }
-  if (zrodla.length > 0 && !sekcje.includes('Źródła')) {
-    p.push(`${gdzie}: pole "zrodla" wypełnione, ale brak sekcji "## Źródła"`);
-  }
 
   if (strona.typ === 'epizod') {
-    if (!Number.isInteger(strona.numer) || strona.numer < 1) p.push(`${gdzie}: epizod wymaga liczbowego "numer" ≥ 1`);
+    if (!Number.isInteger(strona.numer) || strona.numer < 0) p.push(`${gdzie}: epizod wymaga liczbowego "numer" ≥ 0 (epizod 0 istnieje, ADR 0008)`);
     const gra = ctx.bySlug.get(strona.gra);
     if (!gra) p.push(`${gdzie}: "gra" → "${strona.gra}" nie istnieje w bazie`);
     else if (gra.typ !== 'gra') p.push(`${gdzie}: "gra" → "${strona.gra}" ma typ "${gra.typ}"`);
@@ -128,8 +134,18 @@ export function walidujStrone(strona, ctx) {
       p.push(`${gdzie}: rozegrano "${strona.rozegrano}" nie jest datą YYYY-MM-DD`);
     }
     if (strona.skrypt !== undefined && typeof strona.skrypt !== 'string') p.push(`${gdzie}: "skrypt" musi być ścieżką`);
-    const bronie = strona.bronie;
-    if (bronie !== undefined && !Array.isArray(bronie)) p.push(`${gdzie}: "bronie" musi być tablicą`);
+  }
+
+  if (strona.typ === 'scena') {
+    if (typeof strona.epizod !== 'string' || strona.epizod === '') {
+      p.push(`${gdzie}: scena wymaga pola "epizod" (slug epizodu)`);
+    }
+    if (typeof strona.numer_sceny !== 'string' || strona.numer_sceny.trim() === '') {
+      p.push(`${gdzie}: "numer_sceny" musi być niepustym tekstem (numeracja zależy od gry, ADR 0008)`);
+    }
+    if (strona.streszczenie !== undefined && typeof strona.streszczenie !== 'string') {
+      p.push(`${gdzie}: "streszczenie" musi być tekstem`);
+    }
   }
 
   if (strona.typ === 'gra') {
@@ -151,12 +167,6 @@ export function walidujStrone(strona, ctx) {
     else if (seria.typ !== 'seria') p.push(`${gdzie}: "seria" → "${strona.seria}" ma typ "${seria.typ}"`);
   }
 
-  if (strona.typ === 'bron') {
-    if (strona.klasa !== undefined && !KLASY_BRONI.includes(strona.klasa)) {
-      p.push(`${gdzie}: klasa "${strona.klasa}" poza listą startową (dopisz nową do KLASY_BRONI, jeśli potrzebna)`);
-    }
-  }
-
   if (strona.typ === 'postac') {
     if (strona.rola !== undefined && !ROLE_POSTACI.includes(strona.rola)) {
       p.push(`${gdzie}: rola "${strona.rola}" poza ${ROLE_POSTACI.join('/')}`);
@@ -164,6 +174,42 @@ export function walidujStrone(strona, ctx) {
   }
 
   return p;
+}
+
+/** Wycina treść bloku `:::…:::` z ciała strony (pierwszy blok). */
+export function wytnijBlokSkryptu(body) {
+  const m = String(body ?? '').match(/^:::[^\n]*\n([\s\S]*?)^:::[ \t]*$/m);
+  return m ? m[1].replace(/\n$/, '') : null;
+}
+
+/** Normalizacja do porównania wierności: wszystkie białe znaki → pojedyncza spacja. */
+export const normalizujTekst = (t) => String(t ?? '').replace(/\s+/g, ' ').trim();
+
+/**
+ * Wierność sceny (ADR 0008): treść z `## Treść sceny` musi być dosłownym
+ * fragmentem skryptu epizodu. `skryptEpizodu` to surowy tekst skryptu (lub null).
+ */
+export function sprawdzWiernoscSceny(strona, skryptEpizodu) {
+  if (strona.typ !== 'scena') return [];
+  const gdzie = strona.slug;
+  if (skryptEpizodu == null) return [`${gdzie}: brak skryptu epizodu, nie da się sprawdzić wierności sceny`];
+  const blok = wytnijBlokSkryptu(strona.body);
+  if (blok == null) return [`${gdzie}: brak bloku :::skrypt z treścią sceny`];
+  if (normalizujTekst(blok) === '') return [`${gdzie}: blok :::skrypt jest pusty`];
+  if (!normalizujTekst(skryptEpizodu).includes(normalizujTekst(blok))) {
+    return [`${gdzie}: treść sceny nie jest dosłownym fragmentem skryptu epizodu (przeredagowano lub pomylono wiersze)`];
+  }
+  return [];
+}
+
+const porownajNumery = new Intl.Collator('pl', { numeric: true, sensitivity: 'base' }).compare;
+
+/**
+ * Sceny epizodu w kolejności numerycznej (1-2 przed 1-10; 2 przed 2-1).
+ * Numer jest dowolnym tekstem (ADR 0008), więc porównanie jest z uwzględnieniem liczb.
+ */
+export function sortujSceny(sceny) {
+  return [...sceny].sort((a, b) => porownajNumery(String(a.numer_sceny ?? ''), String(b.numer_sceny ?? '')));
 }
 
 /** Buduje rejestr slug→strona; wykrywa duplikaty (jedna przestrzeń nazw). */
@@ -214,7 +260,7 @@ export function policzTagi(strony) {
 
 /** Agregaty widoczne na stronie głównej i w stopce. */
 export function policzStatystyki(strony) {
-  const s = { gra: 0, epizod: 0, postac: 0, mech: 0, bron: 0, seria: 0, relacje: 0 };
+  const s = { gra: 0, epizod: 0, scena: 0, postac: 0, mech: 0, pojecie: 0, seria: 0, relacje: 0 };
   for (const p of strony) {
     if (Object.prototype.hasOwnProperty.call(s, p.typ)) s[p.typ] += 1;
     s.relacje += odsylaczeStrony(p).length;

@@ -6,6 +6,12 @@
  * listy -/1., cytaty >, tabele pipe, pozioma linia ---, obrazy ![alt](src),
  * oraz blok `:::skrypt ... :::` na surowy tekst (ściany skryptu epizodu).
  *
+ * Poziom wiarygodności (ADR 0011) zaznacza się na fragmencie, nie na stronie:
+ *   {{zrodlo\n ...treść...\n}}
+ * gdzie nazwa to skrypt | menu | zrodlo | wiedza. Każdy fragment treści strony
+ * (akapit, lista, tabela, cytat, obraz, skrypt) musi być w takim bloku, gdy
+ * `wymagajPoziomu` jest włączone. Nagłówki są neutralne (tytuły sekcji).
+ *
  * Zasady bezpieczeństwa: cała treść jest escapowana na wejściu, dopiero
  * potem dodajemy własne tagi. Martwy wikilink NIE jest cichy — renderer
  * zgłasza problem, a build kończy się czerwono.
@@ -13,16 +19,50 @@
 
 import { WIKILINK_RE } from './links.js';
 
-export function renderMarkdown(md, { resolveLink } = {}) {
+/** Poziomy wiarygodności dozwolone w bloku {{...}} (ADR 0010, 0011). */
+export const POZIOMY_BLOKU = ['skrypt', 'menu', 'zrodlo', 'wiedza'];
+
+export function renderMarkdown(md, { resolveLink, wymagajPoziomu = false, wPoziomie = null, wZagniezdzeniu = false } = {}) {
   const linie = String(md).replace(/\r\n/g, '\n').split('\n');
   const out = [];
   const problemy = [];
   let i = 0;
 
+  // każdy fragment poza blokiem poziomu jest błędem, gdy wymagajPoziomu (ADR 0011)
+  const dodaj = (html) => {
+    if (wymagajPoziomu && wPoziomie === null) {
+      problemy.push('fragment treści bez poziomu wiarygodności — zaznacz blokiem {{skrypt|menu|zrodlo|wiedza}}');
+    }
+    out.push(html);
+  };
+
   while (i < linie.length) {
     const linia = linie[i];
 
     if (linia.trim() === '') { i += 1; continue; }
+
+    // blok poziomu wiarygodności {{poziom ... }} (ADR 0011)
+    const otwarcie = linia.trim().match(/^\{\{(\w+)$/);
+    if (otwarcie) {
+      const poziom = otwarcie[1];
+      i += 1;
+      const buf = [];
+      while (i < linie.length && linie[i].trim() !== '}}') { buf.push(linie[i]); i += 1; }
+      if (i >= linie.length) problemy.push(`niezamknięty blok {{${poziom}`);
+      i += 1; // zamknięcie
+      if (!POZIOMY_BLOKU.includes(poziom)) {
+        problemy.push(`nieznany poziom w bloku {{${poziom}: dozwolone ${POZIOMY_BLOKU.join(', ')}`);
+        continue;
+      }
+      if (wZagniezdzeniu) {
+        problemy.push(`zagnieżdżony blok {{${poziom} — bloki poziomu nie mogą się zagnieżdżać`);
+        continue;
+      }
+      const wewn = renderMarkdown(buf.join('\n'), { resolveLink, wymagajPoziomu, wPoziomie: poziom, wZagniezdzeniu: true });
+      problemy.push(...wewn.problemy);
+      out.push(`<div class="fragment poziom poziom-${poziom}">\n${wewn.html}\n</div>`);
+      continue;
+    }
 
     // blok surowy :::skrypt ... :::
     if (/^:::/.test(linia.trim())) {
@@ -30,7 +70,11 @@ export function renderMarkdown(md, { resolveLink } = {}) {
       i += 1;
       while (i < linie.length && !/^:::/.test(linie[i].trim())) { buf.push(linie[i]); i += 1; }
       i += 1; // zamknięcie
-      out.push(`<pre class="skrypt">${escapeHtml(buf.join('\n'))}</pre>`);
+      // Dosłowny tekst skryptu wyświetlany jako formatowanie wizualne (znaczniki md → nagłówki, pogrubienia, cytaty).
+      // Źródło pozostaje dosłowne: wierność sprawdza wytnijBlokSkryptu na surowym tekście.
+      const wewn = renderMarkdown(buf.join('\n'), { resolveLink, wymagajPoziomu, wPoziomie, wZagniezdzeniu: true });
+      problemy.push(...wewn.problemy);
+      dodaj(`<div class="skrypt-tekst">\n${wewn.html}\n</div>`);
       continue;
     }
 
@@ -52,7 +96,7 @@ export function renderMarkdown(md, { resolveLink } = {}) {
         buf.push(linie[i].replace(/^>\s?/, ''));
         i += 1;
       }
-      out.push(`<blockquote><p>${inline(buf.join(' '))}</p></blockquote>`);
+      dodaj(`<blockquote><p>${inline(buf.join(' '))}</p></blockquote>`);
       continue;
     }
 
@@ -68,7 +112,7 @@ export function renderMarkdown(md, { resolveLink } = {}) {
         wiersze.push(komorki(linie[i]));
         i += 1;
       }
-      out.push(
+      dodaj(
         '<div class="tabela-owijka"><table><thead><tr>' +
         naglowki.map((c) => `<th>${inline(c)}</th>`).join('') +
         '</tr></thead><tbody>' +
@@ -82,12 +126,25 @@ export function renderMarkdown(md, { resolveLink } = {}) {
     if (/^\s*[-*]\s+/.test(linia) || /^\s*\d+\.\s+/.test(linia)) {
       const uporzadkowana = /^\s*\d+\.\s/.test(linia);
       const elementy = [];
-      while (i < linie.length && (/^\s*[-*]\s+/.test(linie[i]) || /^\s*\d+\.\s+/.test(linie[i]))) {
-        elementy.push(linie[i].replace(/^\s*(?:[-*]|\d+\.)\s+/, ''));
+      while (i < linie.length) {
+        // pusta linia między pozycjami nie kończy listy, jeśli dalej jest jej pozycja
+        if (linie[i].trim() === '' && elementy.length > 0) {
+          const dalej = linie.slice(i + 1).find((l) => l.trim() !== '');
+          if (dalej !== undefined && /^\s*(?:[-*]|\d+\.)\s+/.test(dalej)) { i += 1; continue; }
+          break;
+        }
+        if (!(/^\s*[-*]\s+/.test(linie[i]) || /^\s*\d+\.\s+/.test(linie[i]) || (elementy.length > 0 && sLinia(linie[i])))) break;
+        // Kontynuacja pozycji (bez znacznika listy, bez pustej linii) dokleja się
+        // do poprzedniego elementu — inaczej zawijany tekst rozpada się na „sieroty”.
+        if (elementy.length > 0 && !/^\s*(?:[-*]|\d+\.)\s+/.test(linie[i])) {
+          elementy[elementy.length - 1] += ' ' + linie[i].trim();
+        } else {
+          elementy.push(linie[i].replace(/^\s*(?:[-*]|\d+\.)\s+/, ''));
+        }
         i += 1;
       }
       const tag = uporzadkowana ? 'ol' : 'ul';
-      out.push(`<${tag}>${elementy.map((e) => `<li>${inline(e)}</li>`).join('')}</${tag}>`);
+      dodaj(`<${tag}>${elementy.map((e) => `<li>${inline(e)}</li>`).join('')}</${tag}>`);
       continue;
     }
 
@@ -102,7 +159,7 @@ export function renderMarkdown(md, { resolveLink } = {}) {
       buf.push(linie[i]);
       i += 1;
     }
-    out.push(`<p>${inline(buf.join(' '))}</p>`);
+    dodaj(`<p>${inline(buf.join(' '))}</p>`);
   }
 
   return { html: out.join('\n'), problemy };
@@ -145,6 +202,12 @@ export function renderMarkdown(md, { resolveLink } = {}) {
     return t;
   }
 }
+
+/** Linia, która może być kontynuacją poprzedniego elementu listy (nie blok). */
+const sLinia = (l) =>
+  String(l).trim() !== '' &&
+  !/^(#{1,4}\s|>\s?|:::|-{3,}$|\*{3,}$|_{3,}$)/.test(l.trim()) &&
+  !bezPip(l.trim()).startsWith('|');
 
 /** Placeholder dla escapowanego pionka w tabelach (patrz `bezPip`). */
 const PIPE_PLACEHOLDER = '\u0001';

@@ -17,27 +17,35 @@ bo każdy krok korzysta z poprzedniego.
 `content/gry/<slug>.md` — platforma, rok, status `w-toku`, krótki opis. Jeśli to pierwszy
 epizod nowej gry, dopisz też zdanie o tym, że baza rusza z tym tytułem.
 
-## 2. Wpis epizodu
+## 1a. Sceny (ADR 0008)
+
+Najpierw sceny, bo są nośnikiem treści: `content/sceny/<slug-epizodu>-<tytul-sceny>.md` — po jednym
+pliku na scenę skryptu. Treść sceny to dosłowny fragment skryptu w bloku `:::skrypt`, a `## Analiza`
+opisuje wątki i nawiązania. Numer sceny przepisz tak, jak podaje skrypt (numeracja zależy od gry).
+
+## 2. Wpis epizodu (agregacja scen)
 
 `content/epizody/<gra>-ep<NNN>.md` — frontmatter: `gra`, `numer`, `rozegrano` (data rozegrania,
-nie data commita), `skrypt`, listy `postacie` / `mechy` / `bronie` / `serie`, `pochodzenie: skrypt`,
+nie data commita), `skrypt`, listy `postacie` / `mechy` / `serie`, `pochodzenie: skrypt`,
 tagi. Treść:
 
 - `## Streszczenie` — co się stało, bez streszczania każdej kwestii,
-- `## Sceny` — punkty zwrotne w kolejności,
+- sekcji „Sceny” nie piszesz ręcznie — lista powstaje z wpisów `scena` (ADR 0008),
 - `## Wątki anime` — tabela proweniencji (seria, odcinek, typ, różnice),
 - `## Komentarz` — kontekst: co epizod robi z materiałem źródłowym, co pomija, co zmienia.
 
 ## 3. Encje
 
-Dla każdej postaci, mecha i broni obecnej w skrypcie:
+Dla każdej postaci i mecha obecnej w skrypcie (ADR 0012):
 
-- **nowa encja** → nowy wpis w `content/postacie/` | `content/mechy/` | `content/bronie/`,
-  z odsyłaczem do serii i do pozycji powiązanych,
-- **encja istniejąca** → dopisujesz wystąpienie (pole `gry`, `mechy`, `bronie`) i pogłębiasz
+- **nowa encja** → nowy wpis w `content/postacie/` | `content/mechy/`, tylko jeśli występuje wprost
+  w skrypcie lub dostawie, z odsyłaczem do serii i do pozycji powiązanych,
+- **encja istniejąca** → dopisujesz wystąpienie (pole `gry`, `mechy`) i pogłębiasz
   opis tylko tym, co wnosi nowy materiał.
+- **bronie** → w treści wpisu mecha, w sekcji o uzbrojeniu. Osobnych wpisów broni nie tworzymy.
 
-Uwaga na poziom szczegółu: **statystyki i arsenał opisują parę (mech, gra)**, nie mecha.
+Uwaga na poziom szczegółu: **statystyki i uzbrojenie opisują parę (mech, gra)**, nie mecha.
+Wiedza o późniejszych epizodach i losach postaci do wpisu nie trafia (ADR 0012).
 Jeśli menu gry podało parametry, zapisz je w `w_gre`, nie w opisie ogólnym.
 
 ## 4. Serie anime
@@ -55,7 +63,7 @@ odcinków i różnic wobec gry żyje w wpisie epizodu, w tabeli wątków.
 
 ## 6. Dziennik zmian
 
-Punkt w `content/co-nowego.md` pod dzisiejszą datą: co doszło do bazy w tej sesji
+Wpis na górze `content/co-nowego.md` z nagłówkiem `## RRRR-MM-DD GG:MM` (godzina publikacji): co doszło do bazy w tej sesji
 (epizod, nowe encje, pogłębione wpisy). Krótko, rzeczowo, po polsku.
 
 ## 7. Kontrola i commit
@@ -64,7 +72,8 @@ Punkt w `content/co-nowego.md` pod dzisiejszą datą: co doszło do bazy w tej s
 npm test && npm run build
 ```
 
-Build sprawdza: istnienie wszystkich odsyłaczy, zgodność typów, źródła przy `pochodzenie: wiedza`,
+Build sprawdza: istnienie wszystkich odsyłaczy, zgodność typów, źródła przy `pochodzenie: zrodlo`
+i brak adresów przy `pochodzenie: wiedza` (ADR 0009), wierność scen względem skryptu,
 parzystość skryptów i wpisów, brak duplikatów slugów. Zielony wynik = commit.
 
 ## 8. Czego nie robić w tej pętli

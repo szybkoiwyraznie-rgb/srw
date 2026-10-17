@@ -39,15 +39,15 @@ test('wszystkie wikilinki prowadzą do istniejących stron', () => {
   const resolver = resolverLinkow(bySlug);
   const problemy = [];
   for (const s of strony) {
-    const { problemy: mdProblemy } = renderMarkdown(s.body, { resolveLink: resolver });
+    const { problemy: mdProblemy } = renderMarkdown(s.body, { resolveLink: resolver, wymagajPoziomu: true });
     for (const p of mdProblemy) problemy.push(`${s.slug}: ${p}`);
   }
   assert.deepEqual(problemy, []);
 });
 
-test('każdy typ strony ma co najmniej jeden wpis (baza demonstracyjna)', () => {
+test('baza zawiera dostawę: grę, epizod, scenę i postacie', () => {
   const statystyki = policzStatystyki(strony);
-  for (const typ of TYPY_STRON) {
+  for (const typ of ['gra', 'epizod', 'scena', 'postac']) {
     assert.ok(statystyki[typ] > 0, `brak wpisów typu "${typ}"`);
   }
 });
@@ -57,10 +57,11 @@ test('baza ma realny graf, nie zbiór wysp', () => {
   assert.ok(statystyki.relacje >= strony.length, 'średnio mniej niż jedno powiązanie na stronę');
 });
 
-test('sekcja Źródła jest wtedy, gdy wpis deklaruje źródła', () => {
+test('każde źródło zadeklarowane w zrodla jest linkiem przy danych w treści', () => {
+  // ADR 0012: źródło stoi przy informacji, którą potwierdza, a nie w osobnej sekcji.
   for (const s of strony) {
-    if ((s.zrodla ?? []).length > 0) {
-      assert.match(s.body, /^## Źródła$/m, `${s.slug}: brak sekcji Źródła`);
+    for (const url of s.zrodla ?? []) {
+      assert.ok(s.body.includes(url), `${s.slug}: źródło ${url} nie jest podane przy żadnej informacji w treści`);
     }
   }
 });

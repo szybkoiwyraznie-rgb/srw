@@ -26,7 +26,7 @@ export function renderOBazie() {
   <h2>Jak baza rośnie</h2>
   <ol class="kroki">
     <li><strong>Rozgrywasz epizod</strong> i przepisujesz jego skrypt (dialogi, narrator, nazwy) do pliku w <code>episodes/</code>.</li>
-    <li><strong>Przekazujesz materiał agentowi</strong> — skrypt, a jeśli chcesz, także listę nowych postaci, mechów i broni.</li>
+    <li><strong>Przekazujesz materiał agentowi</strong> — skrypt, a jeśli chcesz, także szczegóły o postaciach i mechach (z uzbrojeniem).</li>
     <li><strong>Agent uzupełnia bazę</strong>: tworzy wpisy encji, dopina relacje, pisze analizy i komentarze, linkuje wątki do serii anime.</li>
     <li><strong>Build renderuje witrynę</strong> — publikacja to zwykły push; nowa wersja pojawia się automatycznie.</li>
   </ol>
@@ -36,9 +36,9 @@ export function renderOBazie() {
   <h2>Znaczniki pochodzenia</h2>
   <p>Najważniejsza konwencja w tym projekcie: przy każdym wpisie widać, skąd pochodzi informacja.</p>
   <ul>
-    <li><span class="plakietka plakietka-skrypt">ze skryptu</span> — fakt wprost z rozegranego epizodu (dialog, nazwa, zachowanie).</li>
-    <li><span class="plakietka plakietka-menu">z menu gry</span> — odczyt z ekranów gry: nazwy jednostek, statystyki, listy broni.</li>
-    <li><span class="plakietka plakietka-wiedza">wiedza modelu</span> — kontekst dopisany przez agenta (np. z którego odcinka anime wzięto wątek). Wymaga linku w sekcji Źródła.</li>
+    <li><span class="legenda poziom-skrypt">białe tło</span> — dostawa właściciela (skrypt epizodu, szczegóły o mechach, pilotach i broniach). Najwyższy priorytet.</li>
+    <li><span class="legenda poziom-zrodlo">niebieskie tło</span> — uzupełnienie z zewnętrznych źródeł, sprawdzone przy zapisie (ADR 0009).</li>
+    <li><span class="legenda poziom-wiedza">zielone tło</span> — wiedza i analiza modelu bez potwierdzenia. Najniższy poziom wiarygodności.</li>
   </ul>
   <p>Dzięki temu widać, gdzie kończy się gra, a zaczyna interpretacja — i można wracać do wpisów
   o niższej pewności, żeby je zweryfikować.</p>

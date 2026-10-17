@@ -13,10 +13,11 @@ import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefFiltru } from './links.js';
 import { dajStrone, dajDane, backlinkiStrony } from './data.js';
 import {
-  nazwaTypu, ikonaTypu, chipsyTagow, plakietkaPochodzenia, linkStrony,
-  nieZnalesc, numerEpizodu, stopkaCzasu, odmiana,
+  nazwaTypu, chipsyTagow, linkStrony,
+  nieZnalesc, numerEpizodu, odmiana,
 } from './render.js';
 import { sekcjaPowiazan } from './render-entity.js';
+import { sekcjaScen } from './render-scene.js';
 
 export function renderEpizod(slug) {
   const e = dajStrone(slug);
@@ -27,7 +28,7 @@ export function renderEpizod(slug) {
   const nastepny = sasiedni(e, +1);
 
   const grupy = new Map();
-  for (const [pole, typ] of [['postacie', 'postac'], ['mechy', 'mech'], ['bronie', 'bron'], ['serie', 'seria']]) {
+  for (const [pole, typ] of [['postacie', 'postac'], ['mechy', 'mech'], ['pojecia', 'pojecie'], ['serie', 'seria']]) {
     const lista = (e[pole] ?? []).map(dajStrone).filter(Boolean);
     if (lista.length) grupy.set(typ, lista.sort((a, b) => String(a.tytul).localeCompare(String(b.tytul), 'pl')));
   }
@@ -42,7 +43,6 @@ export function renderEpizod(slug) {
   <p class="podtytul">
     ${e.rozegrano ? `rozegrano ${escapeHtml(e.rozegrano)}` : 'data rozegrania nieuzupełniona'}
     ${e.trasa ? ` · trasa: <strong>${escapeHtml(e.trasa)}</strong>` : ''}
-    ${plakietkaPochodzenia(e.pochodzenie)}
   </p>
 </div>
 
@@ -53,12 +53,6 @@ ${e.skryptTekst ? `
 </details>` : ''}
 
 <div class="uklad-encja">
-  <div class="tresc-encja">
-    ${e.html}
-    ${sekcjaPowiazan('W tym epizodzie', grupy, {})}
-    ${sekcjaPrzypisow(e)}
-    ${stopkaCzasu(e.czas)}
-  </div>
   <aside class="infoboks">
     <dl class="infoboks-lista">
       ${gra ? `<dt>Gra</dt><dd><a href="${hrefDlaSlug(gra.slug, 'gra')}">${escapeHtml(gra.tytul)}</a></dd>` : ''}
@@ -73,6 +67,12 @@ ${e.skryptTekst ? `
       ${nastepny ? `<a href="${hrefDlaSlug(nastepny.slug, 'epizod')}">${numerEpizodu(nastepny.numer)} ${escapeHtml(nastepny.tytul)} →</a>` : ''}
     </nav>
   </aside>
+  <div class="tresc-encja">
+    ${e.html}
+    ${sekcjaScen(e.slug)}
+    ${sekcjaPowiazan('W tym epizodzie', grupy, {})}
+    ${sekcjaPrzypisow(e)}
+  </div>
 </div>`;
 }
 

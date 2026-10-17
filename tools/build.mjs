@@ -23,13 +23,14 @@ import { renderMarkdown } from '../src/srw/markdown.js';
 import { parseWikilinks } from '../src/srw/links.js';
 import {
   zbudujRejestr, resolverLinkow, walidujStrone, policzBacklinki, policzTagi, policzStatystyki,
+  sprawdzWiernoscSceny,
 } from '../src/srw/registry.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ENTRY = 'src/srw/main.js';
 
 /** Pola frontmattera, które są odsyłaczami (liczą się do grafu i backlinków). */
-const POLA_ODSYLACZY = ['gra', 'seria', 'postacie', 'mechy', 'bronie', 'serie', 'gry', 'piloci'];
+const POLA_ODSYLACZY = ['gra', 'seria', 'epizod', 'postacie', 'mechy', 'pojecia', 'serie', 'gry', 'piloci'];
 
 // ── Metadane czasu stron z historii gita ───────────────────────────
 let ostrzezonoPlytki = false;
@@ -42,6 +43,15 @@ function ostrzezPlytkiKlon() {
       console.warn('UWAGA: płytki klon gita — daty stron będą niepełne. Użyj fetch-depth: 0 w workflow.');
     }
   } catch { /* poza repozytorium — fallback na mtime */ }
+}
+
+/** Zakres czasu bazy: najwcześniejsze utworzenie i najpóźniejsza modyfikacja ze wszystkich plików. */
+function policzCzasBazy(czasy) {
+  const ok = czasy.filter((c) => c && c.utworzono && c.zaktualizowano);
+  if (ok.length === 0) return null;
+  const utw = ok.map((c) => c.utworzono).sort();
+  const zakt = ok.map((c) => c.zaktualizowano).sort();
+  return { utworzono: utw[0], zaktualizowano: zakt[zakt.length - 1] };
 }
 
 function datyGit(sciezka) {
@@ -88,6 +98,7 @@ export async function zbudujDane({ root = ROOT } = {}) {
   const strony = suroweStrony.filter((s) => !s.problem);
 
   const skrypty = wczytajSkrypty({ root });
+
   const coNowegoSurowe = wczytajCoNowego({ root });
 
   const { bySlug, duplikaty } = zbudujRejestr(strony);
@@ -96,13 +107,21 @@ export async function zbudujDane({ root = ROOT } = {}) {
   const ctx = { bySlug };
   for (const s of strony) problemy.push(...walidujStrone(s, ctx));
 
+  // Wierność scen (ADR 0008): treść sceny = dosłowny fragment skryptu jej epizodu.
+  for (const s of strony) {
+    if (s.typ !== 'scena') continue;
+    const ep = bySlug.get(s.epizod);
+    const tekst = ep?.skrypt ? skrypty.get(ep.skrypt) ?? null : null;
+    problemy.push(...sprawdzWiernoscSceny(s, tekst));
+  }
+
   // ── 2. Render markdown + odsyłacze ──────────────────────────────
   const resolver = resolverLinkow(bySlug);
   const wyrenderowane = new Map();
   const uzyteSkrypty = new Set();
 
   for (const s of strony) {
-    const { html, problemy: mdProblemy } = renderMarkdown(s.body, { resolveLink: resolver });
+    const { html, problemy: mdProblemy } = renderMarkdown(s.body, { resolveLink: resolver, wymagajPoziomu: true });
     for (const pr of mdProblemy) problemy.push(`${s.slug}: ${pr}`);
 
     const linki = new Set(parseWikilinks(s.body).map((w) => w.slug));
@@ -136,8 +155,8 @@ export async function zbudujDane({ root = ROOT } = {}) {
   // ── 3. Dziennik zmian ───────────────────────────────────────────
   const coNowego = coNowegoSurowe.map((w) => {
     const { html, problemy: mdProblemy } = renderMarkdown(w.tekst, { resolveLink: resolver });
-    for (const pr of mdProblemy) problemy.push(`co-nowego.md (${w.data}): ${pr}`);
-    return { data: w.data, tekst: naTekst(w.tekst, 400), html };
+    for (const pr of mdProblemy) problemy.push(`co-nowego.md (${w.data} ${w.czas ?? ''}): ${pr}`);
+    return { data: w.data, czas: w.czas, tekst: naTekst(w.tekst, 400), html };
   });
 
   if (problemy.length > 0) {
@@ -168,10 +187,12 @@ export async function zbudujDane({ root = ROOT } = {}) {
     tagi: policzTagi(strony),
     statystyki: policzStatystyki(strony.map((s) => ({ ...s, linki: wyrenderowane.get(s.slug).linki }))),
     coNowego,
+    coNowegoCzas: datyGit('content/co-nowego.md'),
+    czasBazy: policzCzasBazy([...Object.values(stronyDane).map((s) => s.czas), datyGit('content/co-nowego.md')]),
   };
 
   const st = dane.statystyki;
-  console.log(`Dane bazy: ${Object.keys(stronyDane).length} stron — gry: ${st.gra}, epizody: ${st.epizod}, postacie: ${st.postac}, mechy: ${st.mech}, bronie: ${st.bron}, serie: ${st.seria}`);
+  console.log(`Dane bazy: ${Object.keys(stronyDane).length} stron — gry: ${st.gra}, epizody: ${st.epizod}, postacie: ${st.postac}, mechy: ${st.mech}, hasła: ${st.pojecie}, serie: ${st.seria}`);
   console.log(`  powiązania: ${st.relacje} · skrypty: ${uzyteSkrypty.size}`);
   return dane;
 }

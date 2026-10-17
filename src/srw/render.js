@@ -7,47 +7,53 @@
 
 import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefListy } from './links.js';
-import { statystyki, dajDane } from './data.js';
+import { statystyki, dajDane, czasBazy } from './data.js';
 
 export const NAZWY_TYPOW = {
-  gra: { jeden: 'Gra', wiele: 'Gry', ikona: '🎮' },
-  epizod: { jeden: 'Epizod', wiele: 'Epizody', ikona: '🎬' },
-  postac: { jeden: 'Postać', wiele: 'Postacie', ikona: '👤' },
-  mech: { jeden: 'Mech', wiele: 'Mechy', ikona: '🤖' },
-  bron: { jeden: 'Broń', wiele: 'Bronie', ikona: '⚔️' },
-  seria: { jeden: 'Seria', wiele: 'Serie', ikona: '📺' },
+  gra: { jeden: 'Gra', wiele: 'Gry', },
+  epizod: { jeden: 'Epizod', wiele: 'Epizody', },
+  scena: { jeden: 'Scena', wiele: 'Sceny', },
+  postac: { jeden: 'Postać', wiele: 'Postacie', },
+  mech: { jeden: 'Mech', wiele: 'Mechy', },
+  pojecie: { jeden: 'Hasło', wiele: 'Hasła', },
+  seria: { jeden: 'Seria', wiele: 'Serie', },
 };
 
 /** Kolejność sekcji „Powiązania" na stronie encji. */
-export const KOLEJNOSC_TYPOW = ['epizod', 'gra', 'postac', 'mech', 'bron', 'seria'];
+export const KOLEJNOSC_TYPOW = ['scena', 'epizod', 'gra', 'postac', 'mech', 'pojecie', 'seria'];
 
+/** Poziomy wiarygodności (ADR 0010): kolor tła treści, nie plakietka. */
 export const NAZWY_POCHODZENIA = {
-  skrypt: { etykieta: 'ze skryptu', opis: 'Informacja pochodzi wprost z dostarczonego skryptu epizodu.' },
-  menu: { etykieta: 'z menu gry', opis: 'Informacja odczytana z interfejsu gry (nazwy, statystyki, listy broni).' },
-  wiedza: { etykieta: 'wiedza modelu', opis: 'Kontekst dopisany przez agenta — wymaga źródeł w sekcji „Źródła".' },
+  skrypt: { etykieta: 'dostawa właściciela', opis: 'Dostawa właściciela: skrypt epizodu (dialogi, nazwy, sceny). Najwyższy priorytet.' },
+  menu: { etykieta: 'dostawa właściciela', opis: 'Dostawa właściciela: szczegóły o mechach, pilotach i broniach. Najwyższy priorytet.' },
+  zrodlo: { etykieta: 'źródła sprawdzone', opis: 'Uzupełnienie z zewnętrznych źródeł, sprawdzone przy zapisie (ADR 0009). Drugi poziom.' },
+  wiedza: { etykieta: 'wiedza i analiza modelu', opis: 'Wiedza i analiza modelu bez potwierdzenia. Najniższy poziom wiarygodności.' },
 };
 
+/** Gradacja (zasada właściciela): gra → epizod → scena to główny ciąg fabularny. Scena jest jednostką, z której wszystko się składa. */
+/** Główne menu: tylko cztery działy, w kolejności fabularnej (scena → epizod → postać → mech). */
 export const NAV = [
-  { id: 'glowna', etykieta: 'Baza', href: '#/' },
+  { id: 'sceny', etykieta: 'Sceny', href: '#/sceny' },
   { id: 'epizody', etykieta: 'Epizody', href: '#/epizody' },
   { id: 'postacie', etykieta: 'Postacie', href: '#/postacie' },
   { id: 'mechy', etykieta: 'Mechy', href: '#/mechy' },
-  { id: 'bronie', etykieta: 'Bronie', href: '#/bronie' },
-  { id: 'serie', etykieta: 'Serie', href: '#/serie' },
-  { id: 'gry', etykieta: 'Gry', href: '#/gry' },
-  { id: 'tagi', etykieta: 'Tagi', href: '#/tagi' },
-  { id: 'co-nowego', etykieta: 'Co nowego', href: '#/co-nowego' },
+];
+
+/** Pozostałe działy: w stopce witryny, nie w głównym menu. */
+export const STOPKA_LINKI = [
+  { etykieta: 'Gry', href: '#/gry' },
+  { etykieta: 'Serie', href: '#/serie' },
+  { etykieta: 'Hasła', href: '#/pojecia' },
+  { etykieta: 'Tagi', href: '#/tagi' },
+  { etykieta: 'Co nowego', href: '#/co-nowego' },
+  { etykieta: 'O bazie', href: '#/o-bazie' },
 ];
 
 export function nazwaTypu(typ, liczba = 'jeden') {
   return NAZWY_TYPOW[typ]?.[liczba] ?? typ;
 }
 
-export function ikonaTypu(typ) {
-  return NAZWY_TYPOW[typ]?.ikona ?? '•';
-}
-
-export function rama(aktywna, tytul, tresc) {
+export function rama(aktywna, tytul, tresc, czas = null) {
   const d = statystyki();
   return `
 <header class="naglowek">
@@ -70,9 +76,12 @@ ${tresc}
   ${d.epizod} ${odmiana(d.epizod, ['epizod', 'epizody', 'epizodów'])},
   ${d.postac} ${odmiana(d.postac, ['postać', 'postacie', 'postaci'])},
   ${d.mech} ${odmiana(d.mech, ['mech', 'mechy', 'mechów'])},
-  ${d.bron} ${odmiana(d.bron, ['broń', 'bronie', 'broni'])},
+  ${d.pojecie} ${odmiana(d.pojecie, ['hasło', 'hasła', 'haseł'])},
+  ${d.scena} ${odmiana(d.scena, ['scena', 'sceny', 'scen'])},
   ${d.seria} ${odmiana(d.seria, ['seria', 'serie', 'serii'])}${d.relacje ? ` · ${d.relacje} ${odmiana(d.relacje, ['powiązanie', 'powiązania', 'powiązań'])}` : ''}</p>
-  <p class="stopka-meta">baza zbudowana ${escapeHtml(dajDane().zbudowano ?? '—')} · <a href="#/o-bazie">o bazie</a></p>
+  <p class="stopka-linki">${STOPKA_LINKI.map((l) => `<a href="${l.href}">${l.etykieta}</a>`).join(' · ')}</p>
+  ${stopkaCzasu(czas ?? czasBazy())}
+  <p class="stopka-meta">baza zbudowana ${escapeHtml(dajDane().zbudowano ?? '—')}</p>
 </footer>`;
 }
 
@@ -85,18 +94,21 @@ export function chipsyTagow(tagi) {
   return `<div class="chipsy">${tagi.map((t) => `<a class="chip" href="#/tag/${encodeURIComponent(t)}">${escapeHtml(t)}</a>`).join('')}</div>`;
 }
 
-/** Plakietka pochodzenia informacji (ADR 0004) — bez tego nie wiadomo, co jest wiedzą modelu. */
-export function plakietkaPochodzenia(pochodzenie) {
-  if (!pochodzenie) return '';
+/** Klasa tła treści wg poziomu wiarygodności (ADR 0010). */
+export function klasaPoziomu(pochodzenie) {
+  return NAZWY_POCHODZENIA[pochodzenie] ? `poziom poziom-${pochodzenie}` : 'poziom poziom-brak';
+}
+
+/** Tytuł (tooltip) opisujący poziom; bez ikon i plakietek. */
+export function opisPoziomu(pochodzenie) {
   const n = NAZWY_POCHODZENIA[pochodzenie];
-  if (!n) return '';
-  return `<span class="plakietka plakietka-${pochodzenie}" title="${escapeHtml(n.opis)}">${escapeHtml(n.etykieta)}</span>`;
+  return n ? escapeHtml(n.opis) : '';
 }
 
 /** Link do strony encji z ikoną typu. */
 export function linkStrony(strona, { zTypem = false } = {}) {
   if (!strona) return '';
-  return `<a class="link-strony" href="${hrefDlaSlug(strona.slug, strona.typ)}">${ikonaTypu(strona.typ)} ${escapeHtml(strona.tytul)}${zTypem ? ` <span class="typ">${nazwaTypu(strona.typ)}</span>` : ''}</a>`;
+  return `<a class="link-strony" href="${hrefDlaSlug(strona.slug, strona.typ)}">${escapeHtml(strona.tytul)}${zTypem ? ` <span class="typ">${nazwaTypu(strona.typ)}</span>` : ''}</a>`;
 }
 
 export function stanPusty(komunikat, podpowiedz = '') {
@@ -131,14 +143,11 @@ export function odmiana(n, [jeden, kilka, wiele]) {
   return wiele;
 }
 
+/** Stopka czasu każdej strony: utworzenie i ostatnia modyfikacja, z datą i godziną (Europa/Warszawa). */
 export function stopkaCzasu(czas) {
-  if (!czas || (!czas.utworzono && !czas.zaktualizowano)) return '';
-  const czesci = [];
-  if (czas.utworzono) czesci.push(`Utworzono ${escapeHtml(czas.utworzono)}`);
-  if (czas.zaktualizowano && czas.zaktualizowano !== czas.utworzono) {
-    czesci.push(`ostatnia aktualizacja ${escapeHtml(czas.zaktualizowano)}`);
-  }
-  return `<footer class="stopka-czasu meta">${czesci.join(' · ')}</footer>`;
+  const utw = czas?.utworzono ? escapeHtml(czas.utworzono) : '—';
+  const zakt = czas?.zaktualizowano ? escapeHtml(czas.zaktualizowano) : '—';
+  return `<p class="stopka-czas meta">Utworzono: ${utw} · ostatnia modyfikacja: ${zakt}</p>`;
 }
 
 export function nazwaMiesiaca(miesiac) {

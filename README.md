@@ -10,14 +10,14 @@ równolegle z graniem. Nie jest to serwis fanowski: baza opisuje tylko to, co zo
 a rośnie w tempie przechodzenia kolejnych epizodów.
 
 **Podział pracy:** właściciel gra i wrzuca przepisany skrypt epizodu. Agent zamienia skrypt
-w bazę — wpisy postaci, mechów, broni i serii anime, powiązania między nimi oraz analizy tego,
+w bazę — wpisy postaci, mechów (z uzbrojeniem) i serii anime, powiązania między nimi oraz analizy tego,
 skąd wzięte są poszczególne wątki. Witryna jest interfejsem do oglądania tych zależności.
 
 ## Status
 
 Fundamenty: struktura repozytorium, silnik witryny, walidacja integralności, build do jednego
-pliku HTML, CI i publikacja na GitHub Pages. Baza zawiera wpisy demonstracyjne — zostaną
-zastąpione danymi z pierwszego rozegranego epizodu.
+pliku HTML, CI i publikacja na GitHub Pages. Baza zawiera pierwszą prawdziwą dostawę
+(Super Robot Wars OE, Episode 0). Demo zostało usunięte w całości.
 
 ## Szybki start
 
@@ -36,8 +36,9 @@ działa po stronie przeglądarki, zero zależności runtime.
 |---|---|
 | `episodes/` | surowe skrypty epizodów — **jedyny** materiał pisany przez właściciela, read-only |
 | `content/gry/` | tytuły gier |
-| `content/epizody/` | rozegrane epizody: streszczenie, sceny, wątki anime, komentarz |
-| `content/postacie/`, `content/mechy/`, `content/bronie/` | encje występujące w epizodach |
+| `content/epizody/` | rozegrane epizody: streszczenie, wątki anime, komentarz (sceny agregowane) |
+| `content/sceny/` | sceny epizodów: dosłowna treść z skryptu i analiza (ADR 0008) |
+| `content/postacie/`, `content/mechy/` | encje występujące w epizodach |
 | `content/serie/` | serie anime/manga, z których pochodzi wszystko powyższe |
 | `content/co-nowego.md` | dziennik zmian widoczny w witrynie |
 | `src/srw/` | silnik witryny (ESM, zero zależności) |
@@ -48,10 +49,10 @@ działa po stronie przeglądarki, zero zależności runtime.
 
 ## Zasady w skrócie
 
-- **Baza jest grafem.** Postać → mech → broń → epizod → seria anime. Wszystko linkowane
+- **Baza jest grafem.** Gra → epizod → scena → postać i mech → seria anime. Wszystko linkowane
   wikilinkami `[[slug]]` i polami frontmattera; build nie przepuści martwego odsyłacza.
-- **Pochodzenie informacji jest widoczne.** `skrypt` / `menu` / `wiedza` — a wiedza modelu
-  bez źródeł nie przechodzi buildu.
+- **Pochodzenie informacji jest widoczne.** `skrypt` / `menu` (dostawa właściciela o mechach, pilotach, uzbrojeniu) / `zrodlo` (sprawdzone w źródle) /
+  `wiedza` (niesprawdzona, bez linków). Adres trafia do bazy dopiero po sprawdzeniu (ADR 0009).
 - **Skrypt bez wpisu epizodu wywala build.** To celowe: oznacza materiał czekający na przetworzenie.
 - **Slug jest niezmienny.** Zmiana identyfikatora zrywa cały graf.
 - **Swoboda formy jest zaletą.** Nie ma zamkniętej listy sekcji ani słownika tagów — kolejne sesje,

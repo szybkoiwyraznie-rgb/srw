@@ -34,9 +34,13 @@ test('tabela obsługuje escapowany pionek w wikilinku', () => {
   assert.match(html, /<td><a href="#\/gra\/demo" title="Gra DEMO">Gundam<\/a><\/td>/);
 });
 
-test('blok :::skrypt zachowuje tekst bez interpretacji', () => {
-  const { html } = renderMarkdown(':::skrypt\nAMURO: [test] **nie formatuj**\n:::\n', { resolveLink: resolver });
-  assert.match(html, /<pre class="skrypt">AMURO: \[test\] \*\*nie formatuj\*\*<\/pre>/);
+test('blok :::skrypt pokazuje formatowanie wizualne, bez znaczników md', () => {
+  const { html } = renderMarkdown(':::skrypt\n**Himari:** Catapult!\n\n> cytat\n:::\n', { resolveLink: resolver });
+  assert.match(html, /<div class="skrypt-tekst">/);
+  assert.match(html, /<strong>Himari:<\/strong> Catapult!/);
+  assert.match(html, /<blockquote>/);
+  assert.ok(!html.includes('**'));
+  assert.ok(!html.includes('<pre'));
 });
 
 test('treść jest escapowana przed dodaniem znaczników', () => {
@@ -55,4 +59,35 @@ test('cytat blokowy i linia pozioma', () => {
   const { html } = renderMarkdown('> uwaga\n\n---\n', { resolveLink: resolver });
   assert.match(html, /<blockquote><p>uwaga<\/p><\/blockquote>/);
   assert.match(html, /<hr>/);
+});
+
+test('zawinięta pozycja listy nie rozpada się na osobny akapit', () => {
+  const md = '1. **Rozpoznanie** — Amuro nie ufa,\nKōji wita je,\nRyōma nie\nwita ich wcale.\n\n2. **Zawieszenie** — koniec.\n';
+  const { html } = renderMarkdown(md, { resolveLink: resolver });
+  assert.match(html, /<ol><li><strong>Rozpoznanie<\/strong> — Amuro nie ufa, Kōji wita je, Ryōma nie wita ich wcale\.<\/li><li><strong>Zawieszenie<\/strong> — koniec\.<\/li><\/ol>/);
+  assert.ok(!html.includes('<p>wita'));
+});
+
+test('ADR 0011: kilka poziomów na jednej stronie — każdy fragment ma własny blok', () => {
+  const md = '{{skrypt\nAkapit ze skryptu.\n}}\n\n{{zrodlo\nAkapit ze źródła.\n}}\n\n{{wiedza\nAkapit z wiedzy.\n}}\n';
+  const { html, problemy } = renderMarkdown(md, { resolveLink: resolver, wymagajPoziomu: true });
+  assert.deepEqual(problemy, []);
+  assert.match(html, /poziom-skrypt[\s\S]*Akapit ze skryptu/);
+  assert.match(html, /poziom-zrodlo[\s\S]*Akapit ze źródła/);
+  assert.match(html, /poziom-wiedza[\s\S]*Akapit z wiedzy/);
+});
+
+test('ADR 0011: fragment poza blokiem poziomu jest zgłaszany, nagłówek nie', () => {
+  const { problemy } = renderMarkdown('## Tytuł\n\nAkapit bez poziomu.\n', { resolveLink: resolver, wymagajPoziomu: true });
+  assert.equal(problemy.length, 1);
+  assert.match(problemy[0], /bez poziomu/);
+});
+
+test('ADR 0011: nieznany poziom, zagnieżdżenie i niezamknięty blok są błędami', () => {
+  const a = renderMarkdown('{{plotka\nx\n}}\n', { resolveLink: resolver });
+  assert.match(a.problemy.join(' '), /nieznany poziom/);
+  const b = renderMarkdown('{{zrodlo\n{{wiedza\nx\n}}\n}}\n', { resolveLink: resolver });
+  assert.match(b.problemy.join(' '), /zagnieżdżony/);
+  const c = renderMarkdown('{{zrodlo\nx\n', { resolveLink: resolver });
+  assert.match(c.problemy.join(' '), /niezamknięty/);
 });

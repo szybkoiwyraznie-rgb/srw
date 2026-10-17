@@ -28,8 +28,9 @@ test('artefakt ma dane i dokładnie jeden blok skryptu', () => {
 
 test('artefakt zawiera treść bazy i surowy skrypt epizodu', () => {
   assert.match(html, /SRW Database/);
-  assert.match(html, /Przykładowy epizod \(DEMO\)/);
-  assert.match(html, /AMURO: To nie jest nasze niebo/, 'skrypt epizodu ma być widoczny w witrynie');
+  assert.match(html, /Super Robot Wars OE/);
+  assert.match(html, /Pochodzi z Japonii/, 'treść strony ma być w artefakcie');
+  assert.match(html, /Connect Station/, 'surowy skrypt epizodu ma być widoczny w witrynie');
 });
 
 test('artefakt jest samowystarczalny (bez zewnętrznych zasobów)', () => {
