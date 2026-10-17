@@ -30,16 +30,16 @@ ${naglowekStrony({
 })}
 ${strona.obraz ? `<figure class="obraz"><img src="${escapeHtml(strona.obraz)}" alt="${escapeHtml(strona.tytul)}" loading="lazy"><figcaption>${escapeHtml(strona.tytul)}${strona.obraz_zrodlo ? ` — ${escapeHtml(strona.obraz_zrodlo)}` : ''}</figcaption></figure>` : ''}
 <div class="uklad-encja">
+  <aside class="infoboks">
+    ${infoboks(strona)}
+    ${chipsyTagow(strona.tagi)}
+  </aside>
   <div class="tresc-encja">
     ${strona.html}
     ${sekcjaListy(strona)}
     ${sekcjaPowiazan('Powiązania', wychodzace, { pomijaj: [] })}
     ${sekcjaPrzychodzacych(przychodzace)}
   </div>
-  <aside class="infoboks">
-    ${infoboks(strona)}
-    ${chipsyTagow(strona.tagi)}
-  </aside>
 </div>`;
 }
 

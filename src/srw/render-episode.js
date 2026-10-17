@@ -53,12 +53,6 @@ ${e.skryptTekst ? `
 </details>` : ''}
 
 <div class="uklad-encja">
-  <div class="tresc-encja">
-    ${e.html}
-    ${sekcjaScen(e.slug)}
-    ${sekcjaPowiazan('W tym epizodzie', grupy, {})}
-    ${sekcjaPrzypisow(e)}
-  </div>
   <aside class="infoboks">
     <dl class="infoboks-lista">
       ${gra ? `<dt>Gra</dt><dd><a href="${hrefDlaSlug(gra.slug, 'gra')}">${escapeHtml(gra.tytul)}</a></dd>` : ''}
@@ -73,6 +67,12 @@ ${e.skryptTekst ? `
       ${nastepny ? `<a href="${hrefDlaSlug(nastepny.slug, 'epizod')}">${numerEpizodu(nastepny.numer)} ${escapeHtml(nastepny.tytul)} →</a>` : ''}
     </nav>
   </aside>
+  <div class="tresc-encja">
+    ${e.html}
+    ${sekcjaScen(e.slug)}
+    ${sekcjaPowiazan('W tym epizodzie', grupy, {})}
+    ${sekcjaPrzypisow(e)}
+  </div>
 </div>`;
 }
 

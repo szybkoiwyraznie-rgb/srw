@@ -142,11 +142,12 @@ p { margin: .8em 0; }
 
 /* ── Encje: układ i infoboks ───────────────────────────────────── */
 
-.uklad-encja { display: grid; grid-template-columns: minmax(0, 1fr) 290px; gap: 30px; align-items: start; }
+.uklad-encja { display: block; }
 .tresc-encja { min-width: 0; }
+/* Infoboks to pasek informacji na górze strony, na pełną szerokość (bez prawej kolumny). */
 .infoboks {
   background: var(--panel); border: 1px solid var(--ramka); border-radius: 10px;
-  padding: 14px 16px; position: sticky; top: 74px; box-shadow: var(--cien);
+  padding: 14px 18px; margin: 0 0 24px; box-shadow: var(--cien);
 }
 .infoboks-lista { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: .9rem; }
 .infoboks-lista dt { color: var(--tusz-3); font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; padding-top: 2px; }
@@ -261,8 +262,6 @@ pre.skrypt {
 /* ── Responsywność ─────────────────────────────────────────────── */
 
 @media (max-width: 860px) {
-  .uklad-encja { grid-template-columns: 1fr; }
-  .infoboks { position: static; order: -1; }
   .dwie-kolumny { grid-template-columns: 1fr; }
   h1 { font-size: 1.55rem; }
   .hero h1 { font-size: 1.8rem; }

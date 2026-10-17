@@ -49,9 +49,6 @@ export function renderScena(slug) {
 </div>
 
 <div class="uklad-encja">
-  <div class="tresc-encja">
-    ${s.html}
-  </div>
   <aside class="infoboks">
     ${infoPozycje.length ? `<dl class="infoboks-lista">${infoPozycje.join('')}</dl>` : ''}
     <nav class="nawigacja-epizodow">
@@ -59,6 +56,9 @@ export function renderScena(slug) {
       ${nastepna ? `<a href="${hrefDlaSlug(nastepna.slug, 'scena')}">${escapeHtml(nastepna.numer_sceny)} ${escapeHtml(nastepna.tytul)} →</a>` : ''}
     </nav>
   </aside>
+  <div class="tresc-encja">
+    ${s.html}
+  </div>
 </div>`;
 }
 
