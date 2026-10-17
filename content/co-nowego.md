@@ -3,6 +3,10 @@
 Dziennik zmian widoczny w witrynie pod `#/co-nowego`. Prowadzi go agent przy każdym PR:
 dopisuje nowy wpis na górze, z datą i godziną publikacji (czas Europa/Warszawa, moment commita).
 
+## 2026-10-18 00:58
+
+- Himari: usunięta informacja wyprzedzająca rozegraną fabułę. Zewnętrzne źródło nie uprawnia do ujawniania przyszłych wydarzeń (ADR 0012).
+
 Konwencja: `## 2026-10-18 00:35
 
 - Uzbrojenie Exart: usunięta kolumna Gate (w dostawie wszędzie „None in this field”).
