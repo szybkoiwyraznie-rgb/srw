@@ -6,9 +6,9 @@ epizod: srw-oe-ep0
 numer_sceny: "0-1"
 streszczenie: Prolog w U.C. 0079, pierwszy trening Seishiro i Himari, retrospekcja z hangaru i rozmowa po misji.
 pochodzenie: skrypt
-postacie: [seishiro, himari-yaegaki]
+postacie: [seishiro, himari-yaegaki, dr-hell]
 mechy: [exart]
-pojecia: [connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai]
+pojecia: [devil-gundam-incident, connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai]
 tagi: [prolog, trening]
 utworzono: 2026-10-17
 ---

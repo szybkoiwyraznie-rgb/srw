@@ -5,9 +5,9 @@ tytul: Episode 0
 gra: srw-oe
 numer: 0
 skrypt: episodes/srw-oe/ep000.md
-postacie: [seishiro, himari-yaegaki]
+postacie: [seishiro, himari-yaegaki, dr-hell]
 mechy: [exart]
-pojecia: [connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai]
+pojecia: [devil-gundam-incident, connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai]
 pochodzenie: skrypt
 zrodla:
   - https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE
@@ -48,12 +48,12 @@ Connect Force jako nowa osoba. Na końcu, w hangarze, Seishiro uczy ją wysłani
 
 ## Nawiązania
 
-- **Dr. Hell** wymieniony w prologu to postać z *Mazinger Z* Go Nagai. Jest niemieckim członkiem japońskiej
+- **[[dr-hell|Dr. Hell]]** wymieniony w prologu to postać z *Mazinger Z* Go Nagai. Jest niemieckim członkiem japońskiej
   wyprawy archeologicznej, która odkryła wyspę Bardos. Dowodzi Mechanicznymi Bestiami
   ([en.wikipedia.org, *Mazinger Z*](https://en.wikipedia.org/wiki/Mazinger_Z)).
 - **Devil Gundam Incident** to wydarzenie z *Mobile Fighter G Gundam*, w którym Devil Gundam powstał z Ultimate
   Gundam i zagrażał ludzkości ([en.wikipedia.org, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam)).
-  Patrz rozbieżność niżej.
+  Patrz [[devil-gundam-incident|hasło]] i rozbieżność niżej.
 - **Connect Force** jest oryginalną jednostką tej gry, a nie nawiązaniem do innej serii
   ([TV Tropes, *Characters in Super Robot Wars OE*](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
 }}

@@ -13,6 +13,8 @@ Konwencja: `## RRRR-MM-DD` otwiera wpis dnia. Inne nagłówki są ignorowane.
 - Dodany mech Exart (CF-00) wprost z skryptu, z pilotem Seishiro. Uzbrojenie nieznane, zapisane jako brak.
 - Menu główne: Sceny, Epizody, Postacie, Mechy. Gry, Serie, Hasła, Tagi, Co nowego i O bazie w stopce.
   Treść sceny pokazana z formatowaniem (bez znaczników md). Co nowego: poprawiony układ punktów.
+- Rozwinięcie SRW OE: postać Dr. Hell i hasło Devil Gundam Incident (oba wymienione w prologu), z danymi
+  ze sprawdzonych źródeł i odsyłaczami w epizodzie. Nawiązania, rozbieżności i wiedza modelu są w epizodzie.
 - Nowy typ strony „Hasło” (`pojecie`, dział „Hasła”): podstrony w stylu wiki dla organizacji, er i państw.
   Pierwsze dziewięć haseł wyłącznie z prologu: Connect Force, Muge Empire, Earth Federation, Universal Century,
   U.C. 0079, Mechanization Empire, Jaku Empire, Evil God Drago, Daimakai. Pole `kategoria` jest swobodne.
