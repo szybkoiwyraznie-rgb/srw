@@ -7,6 +7,9 @@ Konwencja: `## RRRR-MM-DD` otwiera wpis dnia. Inne nagłówki są ignorowane.
 
 ## 2026-10-17
 
+- Rozwinięcie dostawy SRW OE (flow absorpcji, ADR 0010): gra uzupełniona o platformę i rok ze źródeł
+  (PSP, 2013), postacie o wiek, seiyuu i nazwisko ze źródeł, epizod o wątki, nawiązania (Dr. Hell z Mazinger Z,
+  Devil Gundam z G Gundam), wiedzę modelu bez linków i rozbieżności. Każdy fragment ma swój poziom.
 - Pierwsza prawdziwa dostawa: Super Robot Wars OE, Episode 0 (`episodes/srw-oe/ep000.md`, zapisany
   1:1). Scena 0-1 (dosłowna treść skryptu, analiza z samego skryptu), postacie Seishiro i Himari
   Yaegaki, gra i epizod. Dostawa jest poziomu `skrypt`, białe tło.

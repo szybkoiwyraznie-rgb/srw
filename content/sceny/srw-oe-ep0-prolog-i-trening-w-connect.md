@@ -285,4 +285,14 @@ wybrana spośród setek tysięcy kandydatów.
 
 Skrypt nie wyjaśnia, czym jest Connect Force poza tym, że to jednostka bojowa, ani dlaczego Himari
 została wybrana. Seishiro podejrzewa, że jest ona ważna dla projektu, ale skrypt tego nie rozstrzyga.
+
+## Wątki w scenie
+
+- **Trening jako wprowadzenie.** Himari ustawia zadania, Seishiro je wykonuje. Sceny pokazują zasady
+  EN, zaopatrzenia i części.
+- **Zdalne prowadzenie.** Himari przejmuje sterowanie, gdy Seishiro nie wybiera najkrótszej trasy. Seishiro
+  chwali ją i zaraz przypomina o napięciu.
+- **Retrospekcja w hangarze.** Himari pyta, do czego służy jednostka. Seishiro mówi, że to broń na każdą misję.
+- **Dane po misji.** Na końcu zostaje zadanie, które Himari musi wykonać sama: wysłać dane do analityków.
+
 }}
