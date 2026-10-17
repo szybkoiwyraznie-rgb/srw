@@ -13,7 +13,7 @@ import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefFiltru } from './links.js';
 import { dajStrone, dajDane, backlinkiStrony } from './data.js';
 import {
-  nazwaTypu, ikonaTypu, chipsyTagow, plakietkaPochodzenia, linkStrony,
+  nazwaTypu, chipsyTagow, plakietkaPochodzenia, linkStrony,
   nieZnalesc, numerEpizodu, stopkaCzasu, odmiana,
 } from './render.js';
 import { sekcjaPowiazan } from './render-entity.js';

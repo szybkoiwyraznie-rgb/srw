@@ -7,7 +7,7 @@
 import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefListy } from './links.js';
 import { statystyki, listaStron, listaPosortowana, listaEpizodow, czyDemo, dajDane } from './data.js';
-import { nazwaTypu, ikonaTypu, plakietkaPochodzenia, numerEpizodu, odmiana } from './render.js';
+import { nazwaTypu, plakietkaPochodzenia, numerEpizodu, odmiana } from './render.js';
 
 export function renderGlowna() {
   const s = statystyki();
@@ -78,7 +78,7 @@ function banerDemo() {
 function kafelek(typ, liczba, href) {
   return `<a class="kafelek" href="${href}">
     <span class="kafelek-liczba">${liczba}</span>
-    <span class="kafelek-etykieta">${ikonaTypu(typ)} ${nazwaTypu(typ, 'wiele')}</span>
+    <span class="kafelek-etykieta">${nazwaTypu(typ, 'wiele')}</span>
   </a>`;
 }
 
@@ -105,7 +105,7 @@ function listaOstatnich() {
   if (strony.length === 0) return '<p class="pusto">Baza jest pusta.</p>';
   return `<ul class="lista">${strony.map((p) => `
     <li>
-      <a href="${hrefDlaSlug(p.slug, p.typ)}">${ikonaTypu(p.typ)} ${escapeHtml(p.tytul)}</a>
+      <a href="${hrefDlaSlug(p.slug, p.typ)}">${escapeHtml(p.tytul)}</a>
       <span class="meta">${nazwaTypu(p.typ)}${p.czas?.zaktualizowano ? ` · ${escapeHtml(p.czas.zaktualizowano).slice(0, 10)}` : ''}</span>
       ${plakietkaPochodzenia(p.pochodzenie)}
     </li>`).join('')}</ul>`;

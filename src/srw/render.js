@@ -10,13 +10,13 @@ import { hrefDlaSlug, hrefListy } from './links.js';
 import { statystyki, dajDane } from './data.js';
 
 export const NAZWY_TYPOW = {
-  gra: { jeden: 'Gra', wiele: 'Gry', ikona: '🎮' },
-  epizod: { jeden: 'Epizod', wiele: 'Epizody', ikona: '🎬' },
-  scena: { jeden: 'Scena', wiele: 'Sceny', ikona: '🎞️' },
-  postac: { jeden: 'Postać', wiele: 'Postacie', ikona: '👤' },
-  mech: { jeden: 'Mech', wiele: 'Mechy', ikona: '🤖' },
-  bron: { jeden: 'Broń', wiele: 'Bronie', ikona: '⚔️' },
-  seria: { jeden: 'Seria', wiele: 'Serie', ikona: '📺' },
+  gra: { jeden: 'Gra', wiele: 'Gry', },
+  epizod: { jeden: 'Epizod', wiele: 'Epizody', },
+  scena: { jeden: 'Scena', wiele: 'Sceny', },
+  postac: { jeden: 'Postać', wiele: 'Postacie', },
+  mech: { jeden: 'Mech', wiele: 'Mechy', },
+  bron: { jeden: 'Broń', wiele: 'Bronie', },
+  seria: { jeden: 'Seria', wiele: 'Serie', },
 };
 
 /** Kolejność sekcji „Powiązania" na stronie encji. */
@@ -43,10 +43,6 @@ export const NAV = [
 
 export function nazwaTypu(typ, liczba = 'jeden') {
   return NAZWY_TYPOW[typ]?.[liczba] ?? typ;
-}
-
-export function ikonaTypu(typ) {
-  return NAZWY_TYPOW[typ]?.ikona ?? '•';
 }
 
 export function rama(aktywna, tytul, tresc) {
@@ -98,7 +94,7 @@ export function plakietkaPochodzenia(pochodzenie) {
 /** Link do strony encji z ikoną typu. */
 export function linkStrony(strona, { zTypem = false } = {}) {
   if (!strona) return '';
-  return `<a class="link-strony" href="${hrefDlaSlug(strona.slug, strona.typ)}">${ikonaTypu(strona.typ)} ${escapeHtml(strona.tytul)}${zTypem ? ` <span class="typ">${nazwaTypu(strona.typ)}</span>` : ''}</a>`;
+  return `<a class="link-strony" href="${hrefDlaSlug(strona.slug, strona.typ)}">${escapeHtml(strona.tytul)}${zTypem ? ` <span class="typ">${nazwaTypu(strona.typ)}</span>` : ''}</a>`;
 }
 
 export function stanPusty(komunikat, podpowiedz = '') {
