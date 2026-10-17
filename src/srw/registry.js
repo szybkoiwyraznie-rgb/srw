@@ -16,8 +16,11 @@ import { SLUG_RE, hrefDlaSlug, slugify } from './links.js';
 
 export const TYPY_STRON = ['gra', 'epizod', 'scena', 'postac', 'mech', 'bron', 'seria'];
 
-/** Typy encji odnoszące się do serii anime/mangi. */
-export const TYPY_Z_SERIA = ['postac', 'mech'];
+/**
+ * Typy encji, które wymagają serii anime/mangi. Postać może jej nie mieć
+ * (oryginalne postacie gry, np. Seishiro), więc wymagany jest tylko mech.
+ */
+export const TYPY_Z_SERIA = ['mech'];
 
 /**
  * Poziom pochodzenia informacji (ADR 0004, zaostrzony ADR 0009):
@@ -129,7 +132,7 @@ export function walidujStrone(strona, ctx) {
   }
 
   if (strona.typ === 'epizod') {
-    if (!Number.isInteger(strona.numer) || strona.numer < 1) p.push(`${gdzie}: epizod wymaga liczbowego "numer" ≥ 1`);
+    if (!Number.isInteger(strona.numer) || strona.numer < 0) p.push(`${gdzie}: epizod wymaga liczbowego "numer" ≥ 0 (epizod 0 istnieje, ADR 0008)`);
     const gra = ctx.bySlug.get(strona.gra);
     if (!gra) p.push(`${gdzie}: "gra" → "${strona.gra}" nie istnieje w bazie`);
     else if (gra.typ !== 'gra') p.push(`${gdzie}: "gra" → "${strona.gra}" ma typ "${gra.typ}"`);

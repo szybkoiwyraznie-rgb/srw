@@ -89,10 +89,4 @@ export function wpisyCoNowego() {
   return dajDane().coNowego ?? [];
 }
 
-/** Czy baza jest jeszcze w trybie demonstracyjnym (tylko gra "demo"). */
-export function czyDemo() {
-  const gry = listaStron('gra');
-  return gry.length > 0 && gry.every((g) => g.slug === 'demo');
-}
-
 export { LISTY };

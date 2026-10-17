@@ -7,6 +7,12 @@ Konwencja: `## RRRR-MM-DD` otwiera wpis dnia. Inne nagłówki są ignorowane.
 
 ## 2026-10-17
 
+- Pierwsza prawdziwa dostawa: Super Robot Wars OE, Episode 0 (`episodes/srw-oe/ep000.md`, zapisany
+  1:1). Scena 0-1 (dosłowna treść skryptu, analiza z samego skryptu), postacie Seishiro i Himari
+  Yaegaki, gra i epizod. Dostawa jest poziomu `skrypt`, białe tło.
+- Usunięto demo w całości: gra, epizod, cztery sceny, skrypt demonstracyjny, wpisy mechów, pilotów,
+  broni i serii. Zniknął też baner „baza demonstracyjna”.
+- Schemat: `numer` epizodu może być 0; postać nie musi mieć serii (wymagana tylko dla mecha).
 - Poziom `menu` to dostawa właściciela o mechach, pilotach i broniach, nie tylko odczyt z ekranów
   gry (doprecyzowanie ADR 0010). Zawsze poziom 1, zapisywana w repozytorium 1:1.
 - Sceny jako osobny typ strony (ADR 0008): treść sceny dosłownie ze skryptu (build sprawdza

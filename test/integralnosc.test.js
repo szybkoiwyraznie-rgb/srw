@@ -45,9 +45,9 @@ test('wszystkie wikilinki prowadzą do istniejących stron', () => {
   assert.deepEqual(problemy, []);
 });
 
-test('każdy typ strony ma co najmniej jeden wpis (baza demonstracyjna)', () => {
+test('baza zawiera dostawę: grę, epizod, scenę i postacie', () => {
   const statystyki = policzStatystyki(strony);
-  for (const typ of TYPY_STRON) {
+  for (const typ of ['gra', 'epizod', 'scena', 'postac']) {
     assert.ok(statystyki[typ] > 0, `brak wpisów typu "${typ}"`);
   }
 });

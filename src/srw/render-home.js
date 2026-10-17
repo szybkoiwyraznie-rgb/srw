@@ -6,7 +6,7 @@
 
 import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefListy } from './links.js';
-import { statystyki, listaStron, listaPosortowana, listaEpizodow, czyDemo, dajDane } from './data.js';
+import { statystyki, listaStron, listaPosortowana, listaEpizodow, dajDane } from './data.js';
 import { nazwaTypu, numerEpizodu, odmiana } from './render.js';
 
 export function renderGlowna() {
@@ -15,7 +15,6 @@ export function renderGlowna() {
   const epizody = listaEpizodow();
 
   return `
-${czyDemo() ? banerDemo() : ''}
 <section class="hero">
   <h1>SRW Database</h1>
   <p class="hero-opis">Prywatny dziennik rozgrywki i baza wiedzy o <em>Super Robot Wars</em>.
@@ -63,15 +62,6 @@ ${czyDemo() ? banerDemo() : ''}
   <span class="legenda poziom-wiedza">zielone tło — wiedza i analiza modelu</span>.
   Dostawa właściciela ma najwyższy priorytet; rozbieżności z innymi źródłami są opisane osobno.</p>
 </section>`;
-}
-
-function banerDemo() {
-  return `<div class="baner-demo">
-    <strong>Baza jest jeszcze demonstracyjna.</strong>
-    Wpisy poniżej to szkielet pokazujący działanie mechanizmów — zostaną zastąpione danymi
-    z pierwszego rozegranego epizodu. Wystarczy wrzucić skrypt do <code>episodes/</code>
-    i zlecić agentowi przetworzenie.
-  </div>`;
 }
 
 function kafelek(typ, liczba, href) {

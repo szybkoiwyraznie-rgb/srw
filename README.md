@@ -16,8 +16,8 @@ skąd wzięte są poszczególne wątki. Witryna jest interfejsem do oglądania t
 ## Status
 
 Fundamenty: struktura repozytorium, silnik witryny, walidacja integralności, build do jednego
-pliku HTML, CI i publikacja na GitHub Pages. Baza zawiera wpisy demonstracyjne — zostaną
-zastąpione danymi z pierwszego rozegranego epizodu.
+pliku HTML, CI i publikacja na GitHub Pages. Baza zawiera pierwszą prawdziwą dostawę
+(Super Robot Wars OE, Episode 0). Demo zostało usunięte w całości.
 
 ## Szybki start
 

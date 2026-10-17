@@ -42,8 +42,8 @@ liczą się do grafu i do sekcji „Powiązania" / „Wymienione w".
 
 **gra**: `platforma`, `rok`, `status` (`planowana` / `w-toku` / `ukończona` / `porzucona`).
 
-**epizod**: `gra` (wymagane), `numer` (wymagane, liczba ≥ 1), `rozegrano` (data), `trasa`
-(dla gier z rozgałęzieniami), `skrypt` (ścieżka do pliku w `episodes/`, np. `episodes/demo/ep001.md`).
+**epizod**: `gra` (wymagane), `numer` (wymagane, liczba ≥ 0; epizod 0 istnieje), `rozegrano` (data), `trasa`
+(dla gier z rozgałęzieniami), `skrypt` (ścieżka do pliku w `episodes/`, np. `episodes/srw-oe/ep000.md`).
 Pole `skrypt` jest wiążące w obie strony: plik musi istnieć, a każdy plik w `episodes/` musi
 mieć swój wpis epizodu.
 
@@ -98,7 +98,7 @@ slug: sayla-mass
 tytul: Sayla Mass
 seria: mobile-suit-gundam-1979
 rola: wsparcie
-gry: [demo]
+gry: [srw-oe]
 pochodzenie: skrypt
 tagi: [universal-century]
 ---

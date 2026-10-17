@@ -25,81 +25,69 @@ const { renderCoNowego } = await import('../src/srw/render-whatsnew.js');
 const { renderOBazie } = await import('../src/srw/render-about.js');
 const { rama, nieZnalesc } = await import('../src/srw/render.js');
 
-test('strona główna pokazuje liczby i oznacza dane demonstracyjne', () => {
+test('strona główna pokazuje liczby i nie udaje już bazy demonstracyjnej', () => {
   const html = renderGlowna();
   assert.match(html, /SRW Database/);
-  assert.match(html, /baner-demo/, 'baza w trybie demo ma o tym mówić wprost');
   assert.match(html, /kafelek-liczba/);
+  assert.ok(!/baner-demo/.test(html), 'po dostawie baza nie jest demonstracyjna');
 });
 
-test('strona encji składa infoboks, powiązania i backlinki', () => {
-  const html = renderEncja('amuro-ray');
-  assert.match(html, /Amuro Ray/);
+test('strona postaci składa infoboks, powiązania i backlinki', () => {
+  const html = renderEncja('seishiro');
+  assert.match(html, /Seishiro/);
   assert.match(html, /Powiązania/);
   assert.match(html, /Wymienione w/);
-  assert.match(html, /#\/mech\/rx-78-2-gundam/, 'mech pilota musi być podlinkowany');
-  assert.match(html, /#\/seria\/mobile-suit-gundam-1979/);
-  assert.match(html, /poziom-wiedza/, 'poziom wiarygodności ma być widoczny jako kolor tła');
+  assert.match(html, /#\/epizod\/srw-oe-ep0/, 'postać ma być podlinkowana do epizodu z treści');
+  assert.match(html, /poziom-skrypt/, 'poziom wiarygodności ma być widoczny jako kolor tła fragmentu');
+  assert.ok(!/class="tresc-encja poziom/.test(html), 'kolor nie może wisieć na stronie (ADR 0011)');
 });
 
-test('strona mecha pokazuje arsenał i serial źródłowy', () => {
-  const html = renderEncja('mazinger-z');
-  assert.match(html, /Arsenał/);
-  assert.match(html, /#\/bron\/rocket-punch/);
-  assert.match(html, /#\/postac\/koji-kabuto/);
-});
-
-test('strona epizodu pokazuje skrypt, obsadę i nawigację między odcinkami', () => {
-  const html = renderEpizod('demo-ep001');
+test('strona epizodu pokazuje skrypt, sceny i nawigację', () => {
+  const html = renderEpizod('srw-oe-ep0');
   assert.match(html, /panel-skryptu/);
-  assert.match(html, /AMURO: To nie jest nasze niebo/);
-  assert.match(html, /W tym epizodzie/);
-  assert.match(html, /#\/mech\/getter-1/);
-  assert.match(html, /Wątki anime/);
+  assert.match(html, /Connect Station/, 'surowy skrypt epizodu ma być widoczny');
+  assert.match(html, /#\/scena\/prolog-i-trening-w-connect/);
 });
 
-test('strona serii zbiera postacie i mechy z tego uniwersum', () => {
-  const html = renderEncja('getter-robo-1974');
-  assert.match(html, /Z tej serii/);
-  assert.match(html, /#\/postac\/ryoma-nagare/);
+test('strona sceny pokazuje dosłowną treść i analizę', () => {
+  const html = renderEncja('prolog-i-trening-w-connect');
+  assert.match(html, /Treść sceny/);
+  assert.match(html, /Analiza/);
+  assert.match(html, /Himari/);
 });
 
 test('listy działów działają i respektują filtry', () => {
-  const mechy = renderListe('mech');
-  assert.match(mechy, /Gundam/);
-  assert.match(mechy, /Mazinger Z/);
-
-  const zMazingera = renderListe('mech', { seria: 'mazinger-z-1972' });
-  assert.match(zMazingera, /Mazinger Z/);
-  assert.ok(!zMazingera.includes('Getter-1'), 'filtr po serii musi zawężać listę');
+  const postacie = renderListe('postac');
+  assert.match(postacie, /Seishiro/);
+  assert.match(postacie, /Himari Yaegaki/);
 
   const epizody = renderListe('epizod');
-  assert.match(epizody, /Gra demonstracyjna/);
+  assert.match(epizody, /Episode 0/);
 });
 
 test('tagi i strony tagów działają', () => {
   const chmura = renderTagi();
-  assert.match(chmura, /super-robot/);
-  const tag = renderTag('super-robot');
-  assert.match(tag, /Mazinger Z/);
+  assert.match(chmura, /connect/);
+  const tag = renderTag('connect');
+  assert.match(tag, /Seishiro/);
   assert.match(nieZnalesc('x'), /Nie znaleziono/);
 });
 
 test('wyszukiwanie znajduje po tytule i po treści', () => {
-  const poTytule = renderSzukanie('gundam');
+  const poTytule = renderSzukanie('seishiro');
   assert.match(poTytule, /wynik/);
-  assert.match(poTytule, /Gundam/);
+  assert.match(poTytule, /Seishiro/);
 
-  // szukanie działa na tekście treści, nie tylko na tytułach (szukamy rdzenia)
-  const poTresci = renderSzukanie('fotoniczn');
-  assert.match(poTresci, /Mazinger/);
+  // szukanie działa na tekście treści, nie tylko na tytułach
+  const poTresci = renderSzukanie('Exart');
+  assert.match(poTresci, /Prolog i trening/);
 
   assert.match(renderSzukanie(''), /Wpisz frazę/);
   assert.match(renderSzukanie('zzznie-ma-takiego'), /Nic nie znaleziono/);
 });
 
-test('dziennik zmian i strona „o bazie" się renderują', () => {
-  assert.match(renderCoNowego(), /2026-10-13|październik 2026/);
+test('dziennik zmian i strona „o bazie\" się renderują', () => {
+  assert.match(renderCoNowego(), /2026-10-17/);
   assert.match(renderOBazie(), /Znaczniki pochodzenia/);
 });
 
