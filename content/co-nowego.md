@@ -3,7 +3,13 @@
 Dziennik zmian widoczny w witrynie pod `#/co-nowego`. Prowadzi go agent przy każdym PR:
 dopisuje nowy wpis na górze, z datą i godziną publikacji (czas Europa/Warszawa, moment commita).
 
-Konwencja: `## 2026-10-18 00:31
+Konwencja: `## 2026-10-18 00:35
+
+- Uzbrojenie Exart: usunięta kolumna Gate (w dostawie wszędzie „None in this field”).
+- Seishiro: pełne imię i nazwisko z dostawy (Seishiro Kusanagi).
+- Teksty w blokach i strony encji korzystają z całej szerokości (bez ograniczenia 74 znaków).
+
+## 2026-10-18 00:31
 
 - Strony postaci, mechów, haseł, epizodów i scen: bez prawej kolumny. Informacje (pola, tagi, nawigacja) są w pasku na górze, a treść zajmuje całą szerokość.
 

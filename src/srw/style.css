@@ -153,8 +153,6 @@ p { margin: .8em 0; }
 .infoboks-lista dt { color: var(--tusz-3); font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; padding-top: 2px; }
 .infoboks-lista dd { margin: 0; }
 
-.tresc-encja p, .tresc-dluga p { max-width: 74ch; }
-.tresc-encja ul, .tresc-dluga ul, .tresc-encja ol, .tresc-dluga ol { max-width: 74ch; }
 .tresc-encja li, .tresc-dluga li { margin: .3em 0; }
 
 .obraz { margin: 0 0 20px; }

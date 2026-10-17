@@ -45,11 +45,11 @@ Przypisany profil: Seishiro Kusanagi.
 
 ### Pozycje z wyborem niezerowym
 
-| Slot | English name | Base power | Range | Hit | EN | Will | Gate | Abilities — base descriptions |
-|---:|---|---:|:---:|---:|---:|---:|---|---|
-| 0 | Multi Launcher | 2000 | 1–5 | +35 | 5 | — | None in this field | **Arc Shot (unlevelled):** Can attack regardless of obstacles · **Hit & Away (unlevelled):** Can move with remaining Move after attacking |
-| 1 | Raiko Blade | 3300 | 1–1 | +40 | 5 | — | None in this field | **Escape (base Lv1):** Eva+18% |
-| 2 | Waver Gun | 3000 | 1–4 | +20 | 10 | — | None in this field | **Pierce (base Lv1):** Foe Def-30% |
-| 3 | Raiko Blade/Breakthrough | 2500 | 1–7 | +5 | 30 | 105 | None in this field | **Break (unlevelled):** Attacks all foes in Range and moves · No counterattack · No Sup. Atk or Counter |
-| 4 | Excess Blast | 4200 | 1–6 | +10 | 40 | 120 | None in this field | **Barr. Pierce (base Lv1):** Foe Def-20% Voids barriers · **Lock-On (base Lv1):** Crit+10%, Crit Dmg+20% No Sup. Def. (Voids foe Sup. Def.) |
+| Slot | English name | Base power | Range | Hit | EN | Will | Abilities — base descriptions |
+|---:|---|---:|:---:|---:|---:|---:|---|
+| 0 | Multi Launcher | 2000 | 1–5 | +35 | 5 | — | **Arc Shot (unlevelled):** Can attack regardless of obstacles · **Hit & Away (unlevelled):** Can move with remaining Move after attacking |
+| 1 | Raiko Blade | 3300 | 1–1 | +40 | 5 | — | **Escape (base Lv1):** Eva+18% |
+| 2 | Waver Gun | 3000 | 1–4 | +20 | 10 | — | **Pierce (base Lv1):** Foe Def-30% |
+| 3 | Raiko Blade/Breakthrough | 2500 | 1–7 | +5 | 30 | 105 | **Break (unlevelled):** Attacks all foes in Range and moves · No counterattack · No Sup. Atk or Counter |
+| 4 | Excess Blast | 4200 | 1–6 | +10 | 40 | 120 | **Barr. Pierce (base Lv1):** Foe Def-20% Voids barriers · **Lock-On (base Lv1):** Crit+10%, Crit Dmg+20% No Sup. Def. (Voids foe Sup. Def.) |
 }}
