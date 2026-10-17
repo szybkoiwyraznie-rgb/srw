@@ -5,6 +5,7 @@
 
 import { uruchomRouter } from './router.js';
 import { rama, tytulStrony, nieZnalesc, nazwaTypu } from './render.js';
+import { czasStrony, coNowegoCzas, czasBazy } from './data.js';
 import { renderGlowna } from './render-home.js';
 import { renderEncja } from './render-entity.js';
 import { renderEpizod } from './render-episode.js';
@@ -69,7 +70,10 @@ function renderuj(trasa) {
     default: html = nieZnalesc(trasa.param ?? 'strona'); tytul = 'Nie znaleziono'; break;
   }
 
-  app.innerHTML = rama(aktywna, tytul, html);
+  const czas = ['gra', 'epizod', 'scena', 'postac', 'mech', 'pojecie', 'seria'].includes(trasa.nazwa)
+    ? czasStrony(trasa.param)
+    : trasa.nazwa === 'co-nowego' ? coNowegoCzas() : czasBazy();
+  app.innerHTML = rama(aktywna, tytul, html, czas);
   tytulStrony(tytul);
   domknijInterakcje(app);
 }

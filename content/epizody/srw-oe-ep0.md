@@ -61,11 +61,9 @@ Connect Force jako nowa osoba. Na końcu, w hangarze, Seishiro uczy ją wysłani
 
 ## Wiedza modelu (niesprawdzona)
 
-- Imperium Muge, wymienione w prologu, pochodzi z *Dancouga*. Ta informacja nie została sprawdzona w źródle w tej dostawie.
-- Rok U.C. (Universal Century) to oś czasu serii Gundam, w której rozgrywa się oryginalny *Mobile Suit Gundam*
-  z 1979 roku. Nie sprawdzono tego w źródle w tej dostawie.
-- Pozostałe wrogie frakcje z prologu (Jaku, Mechanization, Evil God Drago, Daimakai) nie zostały
-  sprawdzone. Nie podaję ich pochodzenia.
+- Muge Empire z prologu prawdopodobnie odpowiada Muge Zorbados Empire z *Dancougi*. Źródło sprawdzone (zob. hasła).
+- Universal Century to oś czasu serii Gundam. Źródło sprawdzone (zob. hasła).
+- Pozostałe wrogie frakcje z prologu (Jaku, Mechanization, Evil God Drago, Daimakai) mają źródła w hasłach. Ich dopasowanie do SRW OE pozostaje niepotwierdzone.
 }}
 {{zrodlo
 

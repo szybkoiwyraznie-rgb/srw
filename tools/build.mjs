@@ -45,6 +45,15 @@ function ostrzezPlytkiKlon() {
   } catch { /* poza repozytorium — fallback na mtime */ }
 }
 
+/** Zakres czasu bazy: najwcześniejsze utworzenie i najpóźniejsza modyfikacja ze wszystkich plików. */
+function policzCzasBazy(czasy) {
+  const ok = czasy.filter((c) => c && c.utworzono && c.zaktualizowano);
+  if (ok.length === 0) return null;
+  const utw = ok.map((c) => c.utworzono).sort();
+  const zakt = ok.map((c) => c.zaktualizowano).sort();
+  return { utworzono: utw[0], zaktualizowano: zakt[zakt.length - 1] };
+}
+
 function datyGit(sciezka) {
   ostrzezPlytkiKlon();
   try {
@@ -146,8 +155,8 @@ export async function zbudujDane({ root = ROOT } = {}) {
   // ── 3. Dziennik zmian ───────────────────────────────────────────
   const coNowego = coNowegoSurowe.map((w) => {
     const { html, problemy: mdProblemy } = renderMarkdown(w.tekst, { resolveLink: resolver });
-    for (const pr of mdProblemy) problemy.push(`co-nowego.md (${w.data}): ${pr}`);
-    return { data: w.data, tekst: naTekst(w.tekst, 400), html };
+    for (const pr of mdProblemy) problemy.push(`co-nowego.md (${w.data} ${w.czas ?? ''}): ${pr}`);
+    return { data: w.data, czas: w.czas, tekst: naTekst(w.tekst, 400), html };
   });
 
   if (problemy.length > 0) {
@@ -178,6 +187,8 @@ export async function zbudujDane({ root = ROOT } = {}) {
     tagi: policzTagi(strony),
     statystyki: policzStatystyki(strony.map((s) => ({ ...s, linki: wyrenderowane.get(s.slug).linki }))),
     coNowego,
+    coNowegoCzas: datyGit('content/co-nowego.md'),
+    czasBazy: policzCzasBazy([...Object.values(stronyDane).map((s) => s.czas), datyGit('content/co-nowego.md')]),
   };
 
   const st = dane.statystyki;

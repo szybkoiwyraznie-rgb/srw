@@ -85,6 +85,18 @@ export function statystyki() {
   return dajDane().statystyki;
 }
 
+export function czasStrony(slug) {
+  return dajStrone(slug)?.czas ?? null;
+}
+
+export function coNowegoCzas() {
+  return dajDane().coNowegoCzas ?? null;
+}
+
+export function czasBazy() {
+  return dajDane().czasBazy ?? null;
+}
+
 export function wpisyCoNowego() {
   return dajDane().coNowego ?? [];
 }

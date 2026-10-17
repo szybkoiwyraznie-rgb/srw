@@ -9,7 +9,7 @@
 import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug } from './links.js';
 import { dajStrone, dajDane } from './data.js';
-import { linkStrony, nieZnalesc, stopkaCzasu, numerEpizodu } from './render.js';
+import { linkStrony, nieZnalesc, numerEpizodu } from './render.js';
 import { sortujSceny } from './registry.js';
 
 /** Sceny jednego epizodu w kolejności numerycznej. */
@@ -51,7 +51,6 @@ export function renderScena(slug) {
 <div class="uklad-encja">
   <div class="tresc-encja">
     ${s.html}
-    ${stopkaCzasu(s.czas)}
   </div>
   <aside class="infoboks">
     ${infoPozycje.length ? `<dl class="infoboks-lista">${infoPozycje.join('')}</dl>` : ''}

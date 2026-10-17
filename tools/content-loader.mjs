@@ -84,19 +84,21 @@ export function wczytajCoNowego({ root = '.' } = {}) {
   const { body } = parseFrontmatter(surowy);
   const wpisy = [];
   let data = null;
+  let czas = null;
   let bufor = [];
   const zamknij = () => {
-    if (data && bufor.length > 0) wpisy.push({ data, tekst: bufor.join('\n') });
+    if (data && bufor.length > 0) wpisy.push({ data, czas, tekst: bufor.join('\n') });
     bufor = [];
   };
   for (const linia of String(body ?? surowy).split(/\r?\n/)) {
-    const naglowek = linia.match(/^##\s+(\d{4}-\d{2}-\d{2})\s*$/);
-    if (naglowek) { zamknij(); data = naglowek[1]; continue; }
+    const naglowek = linia.match(/^##\s+(\d{4}-\d{2}-\d{2})(?:\s+(\d{2}:\d{2}))?\s*$/);
+    if (naglowek) { zamknij(); data = naglowek[1]; czas = naglowek[2] ?? null; continue; }
     if (/^##\s+/.test(linia)) { continue; } // inne nagłówki: dokumentacja, nie wpisy
     if (data && linia.trim() !== '') bufor.push(linia);
   }
   zamknij();
-  return wpisy.reverse(); // najnowsze pierwsze
+  // najnowsze pierwsze: data, potem godzina publikacji (brak godziny = 00:00)
+  return wpisy.sort((a, b) => `${b.data} ${b.czas ?? '00:00'}`.localeCompare(`${a.data} ${a.czas ?? '00:00'}`));
 }
 
 /** Rekurencyjny spis plików (absolutne, posortowane). */

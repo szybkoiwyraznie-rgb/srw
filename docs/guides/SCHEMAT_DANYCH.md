@@ -15,7 +15,7 @@ co opisane jako **wymagane** i **pilnowane**.
 | `tagi` | nie | tablica slugów | swobodne, bez słownika (ADR 0006) |
 | `pochodzenie` | nie | `skrypt` / `menu` (dostawa właściciela) / `zrodlo` (sprawdzone) / `wiedza` (model) | kolor nadaje blok `{{poziom}}` na fragmencie (ADR 0011), nie pole strony; poziomy: ADR 0010; reguły źródeł: ADR 0009 |
 | `zrodla` | nie | tablica URL-i `http(s)` | **tylko adresy sprawdzone** (ADR 0009); wymagają sekcji `## Źródła`; `wiedza` nie może ich mieć |
-| `utworzono` | nie | `RRRR-MM-DD` | data pierwszego wpisu do bazy |
+| `utworzono` | nie | `RRRR-MM-DD` | pole opisowe; stopka strony pokazuje czas z historii gita (utworzenie i ostatnia modyfikacja, z godziną) |
 | `obraz` | nie | URL lub ścieżka | miniatura; oryginały trzymamy poza gitem |
 
 ## Pola relacji (frontmatter)

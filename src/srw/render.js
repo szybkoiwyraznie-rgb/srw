@@ -7,7 +7,7 @@
 
 import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefListy } from './links.js';
-import { statystyki, dajDane } from './data.js';
+import { statystyki, dajDane, czasBazy } from './data.js';
 
 export const NAZWY_TYPOW = {
   gra: { jeden: 'Gra', wiele: 'Gry', },
@@ -53,7 +53,7 @@ export function nazwaTypu(typ, liczba = 'jeden') {
   return NAZWY_TYPOW[typ]?.[liczba] ?? typ;
 }
 
-export function rama(aktywna, tytul, tresc) {
+export function rama(aktywna, tytul, tresc, czas = null) {
   const d = statystyki();
   return `
 <header class="naglowek">
@@ -80,6 +80,7 @@ ${tresc}
   ${d.scena} ${odmiana(d.scena, ['scena', 'sceny', 'scen'])},
   ${d.seria} ${odmiana(d.seria, ['seria', 'serie', 'serii'])}${d.relacje ? ` · ${d.relacje} ${odmiana(d.relacje, ['powiązanie', 'powiązania', 'powiązań'])}` : ''}</p>
   <p class="stopka-linki">${STOPKA_LINKI.map((l) => `<a href="${l.href}">${l.etykieta}</a>`).join(' · ')}</p>
+  ${stopkaCzasu(czas ?? czasBazy())}
   <p class="stopka-meta">baza zbudowana ${escapeHtml(dajDane().zbudowano ?? '—')}</p>
 </footer>`;
 }
@@ -142,14 +143,11 @@ export function odmiana(n, [jeden, kilka, wiele]) {
   return wiele;
 }
 
+/** Stopka czasu każdej strony: utworzenie i ostatnia modyfikacja, z datą i godziną (Europa/Warszawa). */
 export function stopkaCzasu(czas) {
-  if (!czas || (!czas.utworzono && !czas.zaktualizowano)) return '';
-  const czesci = [];
-  if (czas.utworzono) czesci.push(`Utworzono ${escapeHtml(czas.utworzono)}`);
-  if (czas.zaktualizowano && czas.zaktualizowano !== czas.utworzono) {
-    czesci.push(`ostatnia aktualizacja ${escapeHtml(czas.zaktualizowano)}`);
-  }
-  return `<footer class="stopka-czasu meta">${czesci.join(' · ')}</footer>`;
+  const utw = czas?.utworzono ? escapeHtml(czas.utworzono) : '—';
+  const zakt = czas?.zaktualizowano ? escapeHtml(czas.zaktualizowano) : '—';
+  return `<p class="stopka-czas meta">Utworzono: ${utw} · ostatnia modyfikacja: ${zakt}</p>`;
 }
 
 export function nazwaMiesiaca(miesiac) {

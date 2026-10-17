@@ -36,7 +36,7 @@ postaci/mechów podana w wiadomości). Wynik pracy:
    w treści. Bez nich wpis jest wyspą: nie pojawi się w „Wymienione w" na stronie encji.
 4. **Analiza i komentarz** — gdzie wątek pochodzi z anime (seria + odcinek, jeśli wiadomo),
    co dodano, co zmieniono, czego zabrakło. Tabela `## Wątki anime` w treści epizodu.
-5. **Dziennik zmian** — punkt w `content/co-nowego.md` z datą dnia.
+5. **Dziennik zmian** — nowy wpis na górze `content/co-nowego.md`, nagłówek `## RRRR-MM-DD GG:MM` (godzina publikacji, Europa/Warszawa).
 6. **Zielono** — `npm test` i `npm run build` muszą przejść. Build nie wypuści artefaktu
    z martwym wikilinkiem, brakującym odsyłaczem albo wiedzą bez źródeł.
 

@@ -14,7 +14,7 @@ import { hrefDlaSlug, hrefFiltru } from './links.js';
 import { dajStrone, dajDane, backlinkiStrony } from './data.js';
 import {
   nazwaTypu, chipsyTagow, linkStrony,
-  nieZnalesc, numerEpizodu, stopkaCzasu, odmiana,
+  nieZnalesc, numerEpizodu, odmiana,
 } from './render.js';
 import { sekcjaPowiazan } from './render-entity.js';
 import { sekcjaScen } from './render-scene.js';
@@ -58,7 +58,6 @@ ${e.skryptTekst ? `
     ${sekcjaScen(e.slug)}
     ${sekcjaPowiazan('W tym epizodzie', grupy, {})}
     ${sekcjaPrzypisow(e)}
-    ${stopkaCzasu(e.czas)}
   </div>
   <aside class="infoboks">
     <dl class="infoboks-lista">

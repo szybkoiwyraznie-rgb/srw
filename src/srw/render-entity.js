@@ -12,7 +12,7 @@ import { hrefDlaSlug, hrefFiltru, hrefListy } from './links.js';
 import { dajStrone, listaStron, backlinkiStrony, odsylaczeWychodzace, dajDane } from './data.js';
 import {
   nazwaTypu, chipsyTagow, linkStrony,
-  stanPusty, nieZnalesc, naglowekStrony, stopkaCzasu, numerEpizodu, KOLEJNOSC_TYPOW, odmiana,
+  stanPusty, nieZnalesc, naglowekStrony, numerEpizodu, KOLEJNOSC_TYPOW, odmiana,
 } from './render.js';
 
 export function renderEncja(slug) {
@@ -35,7 +35,6 @@ ${strona.obraz ? `<figure class="obraz"><img src="${escapeHtml(strona.obraz)}" a
     ${sekcjaListy(strona)}
     ${sekcjaPowiazan('Powiązania', wychodzace, { pomijaj: [] })}
     ${sekcjaPrzychodzacych(przychodzace)}
-    ${stopkaCzasu(strona.czas)}
   </div>
   <aside class="infoboks">
     ${infoboks(strona)}

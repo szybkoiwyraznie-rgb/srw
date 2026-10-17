@@ -63,7 +63,7 @@ odcinków i różnic wobec gry żyje w wpisie epizodu, w tabeli wątków.
 
 ## 6. Dziennik zmian
 
-Punkt w `content/co-nowego.md` pod dzisiejszą datą: co doszło do bazy w tej sesji
+Wpis na górze `content/co-nowego.md` z nagłówkiem `## RRRR-MM-DD GG:MM` (godzina publikacji): co doszło do bazy w tej sesji
 (epizod, nowe encje, pogłębione wpisy). Krótko, rzeczowo, po polsku.
 
 ## 7. Kontrola i commit
