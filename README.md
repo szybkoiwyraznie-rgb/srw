@@ -1,8 +1,9 @@
 # SRW Database
 
 > **Agent / nowa sesja:** jedyny plik startowy to [`AGENTS.md`](AGENTS.md).
-> Czytasz go w całości, potem `docs/decisions/`, `docs/LESSONS.md`
-> i `docs/guides/SCHEMAT_DANYCH.md` — **zanim** napiszesz cokolwiek do właściciela.
+> Czytasz go w całości, potem `docs/decisions/`, `docs/LESSONS.md`,
+> `docs/guides/ENVIRONMENT.md` i `docs/guides/SCHEMAT_DANYCH.md` — **zanim** napiszesz
+> cokolwiek do właściciela. Pierwszą czynnością jest otwarcie PR-a sesji (ADR 0007).
 
 Prywatny dziennik rozgrywki i baza wiedzy o grach z serii *Super Robot Wars*, prowadzony
 równolegle z graniem. Nie jest to serwis fanowski: baza opisuje tylko to, co zostało rozegrane,
@@ -55,6 +56,9 @@ działa po stronie przeglądarki, zero zależności runtime.
 - **Slug jest niezmienny.** Zmiana identyfikatora zrywa cały graf.
 - **Swoboda formy jest zaletą.** Nie ma zamkniętej listy sekcji ani słownika tagów — kolejne sesje,
   modele i style mają prawo pisać inaczej, o ile graf i znaczniki pochodzenia się trzymają.
+- **Sesja agenta = jedna gałąź i jeden PR.** PR z planem i audytem powstaje przed pierwszą zmianą,
+  commit i push idą po każdym zielonym kroku, treść wynika tylko z zatwierdzonego flow,
+  a scala wyłącznie właściciel — agent nigdy (ADR 0007, `docs/guides/ENVIRONMENT.md`).
 
 ## Publikacja
 

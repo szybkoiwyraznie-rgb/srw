@@ -5,6 +5,14 @@ wpis dodaje się jako nowy nagłówek dnia, a pod nim punktowane zmiany. Najnows
 
 Konwencja: `## RRRR-MM-DD` otwiera wpis dnia. Inne nagłówki są ignorowane.
 
+## 2026-10-14
+
+- Ustalono model sesji agenta (ADR 0007): PR z planem i audytem na starcie, treść tylko
+  z zatwierdzonego flow, commit i push po każdym zielonym kroku, scalanie wyłącznie
+  po stronie właściciela.
+- Przepisano opis środowiska pracy (`docs/guides/ENVIRONMENT.md`) i dopisano lekcje L6–L10
+  przeniesione z pozostałych repozytoriów właściciela. Treść bazy bez zmian.
+
 ## 2026-10-13
 
 - Powstała baza: struktura katalogów, silnik witryny, build i publikacja na GitHub Pages.

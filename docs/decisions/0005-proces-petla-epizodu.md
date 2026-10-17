@@ -22,7 +22,10 @@ była spójna.
 4. **Dziennik zmian** (`content/co-nowego.md`) jest częścią definicji „skończonej pracy":
    wpis w witrynie `#/co-nowego` ma mówić, co doszło od poprzedniego razu.
 5. **Tryb sesji**: PR powstaje na starcie, commit po każdym zielonym kroku, force push zakazany,
-   scalanie należy do właściciela.
+   scalanie należy do właściciela. *Adnotacja 2026-10-14:* punkt uszczegółowiony i zaostrzony
+   w ADR 0007 (zakaz scalania przez agenta, PR przed pierwszą zmianą niezależnie od promptu,
+   zakres tylko z zatwierdzonego flow, push po każdym commicie) — w razie rozbieżności
+   obowiązuje ADR 0007.
 6. **Publikacja jest automatyczna**: push do `main` → testy → build → GitHub Pages.
    Nikt nie publikuje ręcznie ani nie edytuje artefaktu.
 
