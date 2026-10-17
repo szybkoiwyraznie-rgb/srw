@@ -1,24 +1,24 @@
 /* SRW Database — style witryny (wstrzykiwane do artefaktu przez build).
    Priorytety: czytelność długiego tekstu, iPad/telefon, zero zależności.
-   Motyw: ciemny panel techniczny + bursztynowy akcent (HUD, nie gazeta). */
+   Motyw: jasny (light mode, decyzja właściciela) + bursztynowy akcent. */
 
 :root {
-  --tlo: #0e1116;
-  --tlo-2: #141922;
-  --panel: #182029;
-  --panel-2: #1e2833;
-  --tusz: #dfe6ee;
-  --tusz-2: #9dabb9;
-  --tusz-3: #6d7b8a;
-  --akcent: #e8a33d;
-  --akcent-2: #5ec8e8;
-  --ramka: #2a3644;
-  --ramka-2: #37455a;
-  --dobry: #6fcf97;
+  --tlo: #f7f8fa;
+  --tlo-2: #eef1f5;
+  --panel: #ffffff;
+  --panel-2: #f1f4f8;
+  --tusz: #1d2631;
+  --tusz-2: #4a5868;
+  --tusz-3: #7a8796;
+  --akcent: #b8731a;
+  --akcent-2: #1f7fa3;
+  --ramka: #d9e0e8;
+  --ramka-2: #c3cdd9;
+  --dobry: #2e8b57;
   --serif: Georgia, 'Times New Roman', serif;
   --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   --mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
-  --cien: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
+  --cien: 0 1px 2px rgba(20, 30, 45, .08), 0 6px 18px rgba(20, 30, 45, .07);
 }
 
 * { box-sizing: border-box; }
@@ -28,7 +28,7 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   background:
-    radial-gradient(1100px 620px at 12% -12%, #1b2634 0%, transparent 60%),
+    radial-gradient(1100px 620px at 12% -12%, #e6edf6 0%, transparent 60%),
     var(--tlo);
   color: var(--tusz);
   font-family: var(--sans);
@@ -39,7 +39,7 @@ body {
 
 a { color: var(--akcent); text-decoration: none; }
 a:hover { text-decoration: underline; }
-mark { background: rgba(232, 163, 61, .3); color: inherit; padding: 0 2px; border-radius: 2px; }
+mark { background: rgba(184, 115, 26, .22); color: inherit; padding: 0 2px; border-radius: 2px; }
 code { font-family: var(--mono); font-size: .88em; background: var(--panel-2); padding: .1em .38em; border-radius: 4px; border: 1px solid var(--ramka); }
 hr { border: 0; border-top: 1px solid var(--ramka); margin: 1.6em 0; }
 
@@ -47,7 +47,7 @@ hr { border: 0; border-top: 1px solid var(--ramka); margin: 1.6em 0; }
 
 .naglowek {
   position: sticky; top: 0; z-index: 20;
-  background: rgba(14, 17, 22, .92);
+  background: rgba(247, 248, 250, .94);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--ramka);
 }
@@ -198,7 +198,7 @@ blockquote {
 .panel-skryptu[open] summary { border-bottom: 1px solid var(--ramka); }
 pre.skrypt {
   margin: 0; padding: 16px; overflow-x: auto; font-family: var(--mono); font-size: .84rem;
-  line-height: 1.62; color: #cfd8e3; white-space: pre-wrap; word-break: break-word; max-height: 560px; overflow-y: auto;
+  line-height: 1.62; color: var(--tusz); white-space: pre-wrap; word-break: break-word; max-height: 560px; overflow-y: auto;
 }
 
 .nawigacja-epizodow { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; font-size: .86rem; }
@@ -210,9 +210,9 @@ pre.skrypt {
   border-radius: 20px; padding: 1px 9px; border: 1px solid var(--ramka-2); color: var(--tusz-2);
   vertical-align: middle; white-space: nowrap;
 }
-.plakietka-skrypt { color: #b8e6c9; border-color: rgba(111, 207, 151, .45); background: rgba(111, 207, 151, .1); }
-.plakietka-menu { color: #b7dff2; border-color: rgba(94, 200, 232, .45); background: rgba(94, 200, 232, .1); }
-.plakietka-wiedza { color: #f0d29a; border-color: rgba(232, 163, 61, .45); background: rgba(232, 163, 61, .1); }
+.plakietka-skrypt { color: #1f6b43; border-color: rgba(46, 139, 87, .45); background: rgba(46, 139, 87, .1); }
+.plakietka-menu { color: #1a5f7a; border-color: rgba(31, 127, 163, .45); background: rgba(31, 127, 163, .1); }
+.plakietka-wiedza { color: #7a4a0c; border-color: rgba(184, 115, 26, .5); background: rgba(184, 115, 26, .1); }
 
 .chipsy { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
 .chipsy-inline { display: inline-flex; flex-wrap: wrap; gap: 4px; }
@@ -242,7 +242,7 @@ pre.skrypt {
 .stan-pusty { padding: 34px 0; text-align: center; color: var(--tusz-2); }
 .stan-pusty .komunikat { font-size: 1.05rem; }
 .stan-pusty .podpowiedz { color: var(--tusz-3); font-size: .9rem; }
-.martwy-link { color: #e05c5c; border-bottom: 1px dotted #e05c5c; cursor: help; }
+.martwy-link { color: #c23b3b; border-bottom: 1px dotted #c23b3b; cursor: help; }
 
 /* ── Responsywność ─────────────────────────────────────────────── */
 

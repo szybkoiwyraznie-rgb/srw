@@ -56,3 +56,10 @@ test('cytat blokowy i linia pozioma', () => {
   assert.match(html, /<blockquote><p>uwaga<\/p><\/blockquote>/);
   assert.match(html, /<hr>/);
 });
+
+test('zawinięta pozycja listy nie rozpada się na osobny akapit', () => {
+  const md = '1. **Rozpoznanie** — Amuro nie ufa,\nKōji wita je,\nRyōma nie\nwita ich wcale.\n\n2. **Zawieszenie** — koniec.\n';
+  const { html } = renderMarkdown(md, { resolveLink: resolver });
+  assert.match(html, /<ol><li><strong>Rozpoznanie<\/strong> — Amuro nie ufa, Kōji wita je, Ryōma nie wita ich wcale\.<\/li><li><strong>Zawieszenie<\/strong> — koniec\.<\/li><\/ol>/);
+  assert.ok(!html.includes('<p>wita'));
+});

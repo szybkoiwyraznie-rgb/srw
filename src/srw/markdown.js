@@ -82,8 +82,21 @@ export function renderMarkdown(md, { resolveLink } = {}) {
     if (/^\s*[-*]\s+/.test(linia) || /^\s*\d+\.\s+/.test(linia)) {
       const uporzadkowana = /^\s*\d+\.\s/.test(linia);
       const elementy = [];
-      while (i < linie.length && (/^\s*[-*]\s+/.test(linie[i]) || /^\s*\d+\.\s+/.test(linie[i]))) {
-        elementy.push(linie[i].replace(/^\s*(?:[-*]|\d+\.)\s+/, ''));
+      while (i < linie.length) {
+        // pusta linia między pozycjami nie kończy listy, jeśli dalej jest jej pozycja
+        if (linie[i].trim() === '' && elementy.length > 0) {
+          const dalej = linie.slice(i + 1).find((l) => l.trim() !== '');
+          if (dalej !== undefined && /^\s*(?:[-*]|\d+\.)\s+/.test(dalej)) { i += 1; continue; }
+          break;
+        }
+        if (!(/^\s*[-*]\s+/.test(linie[i]) || /^\s*\d+\.\s+/.test(linie[i]) || (elementy.length > 0 && sLinia(linie[i])))) break;
+        // Kontynuacja pozycji (bez znacznika listy, bez pustej linii) dokleja się
+        // do poprzedniego elementu — inaczej zawijany tekst rozpada się na „sieroty”.
+        if (elementy.length > 0 && !/^\s*(?:[-*]|\d+\.)\s+/.test(linie[i])) {
+          elementy[elementy.length - 1] += ' ' + linie[i].trim();
+        } else {
+          elementy.push(linie[i].replace(/^\s*(?:[-*]|\d+\.)\s+/, ''));
+        }
         i += 1;
       }
       const tag = uporzadkowana ? 'ol' : 'ul';
@@ -145,6 +158,12 @@ export function renderMarkdown(md, { resolveLink } = {}) {
     return t;
   }
 }
+
+/** Linia, która może być kontynuacją poprzedniego elementu listy (nie blok). */
+const sLinia = (l) =>
+  String(l).trim() !== '' &&
+  !/^(#{1,4}\s|>\s?|:::|-{3,}$|\*{3,}$|_{3,}$)/.test(l.trim()) &&
+  !bezPip(l.trim()).startsWith('|');
 
 /** Placeholder dla escapowanego pionka w tabelach (patrz `bezPip`). */
 const PIPE_PLACEHOLDER = '\u0001';

@@ -5,6 +5,12 @@ wpis dodaje się jako nowy nagłówek dnia, a pod nim punktowane zmiany. Najnows
 
 Konwencja: `## RRRR-MM-DD` otwiera wpis dnia. Inne nagłówki są ignorowane.
 
+## 2026-10-17
+
+- Witryna w trybie jasnym (decyzja właściciela) — zmieniona paleta i kolory plakietek.
+- Naprawiono listy: zawinięta pozycja nie rozpada się na osobny akapit, a pusta linia
+  między pozycjami nie dzieli listy na dwie (numeracja nie startuje od nowa).
+
 ## 2026-10-14
 
 - Ustalono model sesji agenta (ADR 0007): PR z planem i audytem na starcie, treść tylko
