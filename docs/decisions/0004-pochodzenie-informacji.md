@@ -14,7 +14,7 @@ o tym, co jeszcze obejrzeć i zdobyć.
 
 1. **Każdy wpis może nieść pole `pochodzenie`** o jednej z trzech wartości:
    - `skrypt` — informacja wprost z rozegranego epizodu (dialog, nazwa, zachowanie),
-   - `menu` — odczyt z ekranów gry (nazwy jednostek, parametry, listy broni),
+   - `menu` — dostawa właściciela o mechach, pilotach i broniach (doprecyzowane w ADR 0010),
    - `wiedza` — kontekst dopisany przez agenta z pamięci modelu.
 2. **`pochodzenie: wiedza` wymaga pola `zrodla` z linkami `http(s)` i sekcji `## Źródła`
    w treści.** Bez tego build przerywa pracę. „Nie wiem" jest pełnoprawną odpowiedzią.

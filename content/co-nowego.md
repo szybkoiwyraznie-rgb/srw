@@ -7,6 +7,8 @@ Konwencja: `## RRRR-MM-DD` otwiera wpis dnia. Inne nagłówki są ignorowane.
 
 ## 2026-10-17
 
+- Poziom `menu` to dostawa właściciela o mechach, pilotach i broniach, nie tylko odczyt z ekranów
+  gry (doprecyzowanie ADR 0010). Zawsze poziom 1, zapisywana w repozytorium 1:1.
 - Sceny jako osobny typ strony (ADR 0008): treść sceny dosłownie ze skryptu (build sprawdza
   wierność), analiza pod spodem; strona epizodu zbiera sceny w sekcję „Sceny”. Numer sceny to
   dowolny tekst, a adres sceny powstaje z tytułu. Demo: cztery sceny z `demo-ep001`.

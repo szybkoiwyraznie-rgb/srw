@@ -18,7 +18,7 @@ wyglądały jak źródła, a nikt ich nie czytał. Właściciel zgłosił to jak
    `## Źródła` podaje, co dokładnie potwierdza i kiedy sprawdzono.
 2. **Poziomy pochodzenia** (`POCHODZENIA`):
    - `skrypt` — wprost z rozegrania (bez zmian),
-   - `menu` — z ekranów gry (bez zmian),
+   - `menu` — dostawa właściciela o mechach, pilotach i broniach (bez zmian),
    - `zrodlo` — **nowe**: treść potwierdzona w podanych, sprawdzonych źródłach. Wymaga `zrodla`
      i `## Źródła`. Etykieta w witrynie: „ze źródła · sprawdzone”,
    - `wiedza` — **zmienione**: kontekst z pamięci modelu, **niesprawdzony**. Nie wolno mu mieć

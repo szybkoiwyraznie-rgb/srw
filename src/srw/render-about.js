@@ -36,7 +36,7 @@ export function renderOBazie() {
   <h2>Znaczniki pochodzenia</h2>
   <p>Najważniejsza konwencja w tym projekcie: przy każdym wpisie widać, skąd pochodzi informacja.</p>
   <ul>
-    <li><span class="legenda poziom-skrypt">białe tło</span> — dostawa właściciela (skrypt epizodu, odczyt z ekranów gry). Najwyższy priorytet.</li>
+    <li><span class="legenda poziom-skrypt">białe tło</span> — dostawa właściciela (skrypt epizodu, szczegóły o mechach, pilotach i broniach). Najwyższy priorytet.</li>
     <li><span class="legenda poziom-zrodlo">niebieskie tło</span> — uzupełnienie z zewnętrznych źródeł, sprawdzone przy zapisie (ADR 0009).</li>
     <li><span class="legenda poziom-wiedza">zielone tło</span> — wiedza i analiza modelu bez potwierdzenia. Najniższy poziom wiarygodności.</li>
   </ul>

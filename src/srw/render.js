@@ -25,7 +25,7 @@ export const KOLEJNOSC_TYPOW = ['epizod', 'gra', 'postac', 'mech', 'bron', 'seri
 /** Poziomy wiarygodności (ADR 0010): kolor tła treści, nie plakietka. */
 export const NAZWY_POCHODZENIA = {
   skrypt: { etykieta: 'dostawa właściciela', opis: 'Dostawa właściciela: skrypt epizodu (dialogi, nazwy, sceny). Najwyższy priorytet.' },
-  menu: { etykieta: 'dostawa właściciela', opis: 'Dostawa właściciela: odczyt z ekranów gry (statystyki, uzbrojenie). Najwyższy priorytet.' },
+  menu: { etykieta: 'dostawa właściciela', opis: 'Dostawa właściciela: szczegóły o mechach, pilotach i broniach. Najwyższy priorytet.' },
   zrodlo: { etykieta: 'źródła sprawdzone', opis: 'Uzupełnienie z zewnętrznych źródeł, sprawdzone przy zapisie (ADR 0009). Drugi poziom.' },
   wiedza: { etykieta: 'wiedza i analiza modelu', opis: 'Wiedza i analiza modelu bez potwierdzenia. Najniższy poziom wiarygodności.' },
 };

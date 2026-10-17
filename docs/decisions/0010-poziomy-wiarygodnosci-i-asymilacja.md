@@ -16,12 +16,13 @@ uzupełnia się źródłami, a co jest tylko wiedzą modelu.
 
 | Poziom | Co to jest | Wartości `pochodzenie` | Tło treści |
 |---|---|---|---|
-| 1 — dostawa właściciela | skrypt epizodu, odczyt z ekranów gry (menu: statystyki, uzbrojenie, piloci), wszystko, co właściciel przekazał | `skrypt`, `menu` | białe |
+| 1 — dostawa właściciela | skrypt epizodu oraz szczegóły o mechach, pilotach i broniach (`menu`), wszystko, co właściciel przekazał | `skrypt`, `menu` | białe |
 | 2 — źródła sprawdzone | treść potwierdzona w zewnętrznym źródle, sprawdzona przy zapisie (ADR 0009) | `zrodlo` | pastelowy niebieski |
 | 3 — wiedza i analiza modelu | dane własne modelu i jego analiza, bez potwierdzenia | `wiedza` | pastelowy zielony |
 
-- **„Menu” to ekrany gry**, a nie menu restauracji: odczyt statystyk i uzbrojenia z ekranów
-  jednostek. Należy do poziomu 1, bo pochodzi od właściciela.
+- **„Menu” to dostawa właściciela o mechach, pilotach i broniach** (`pochodzenie: menu`). Nie musi
+  pochodzić z ekranów gry; może mieć dowolną formę. Zawsze należy do poziomu 1 i jest zapisywana
+  w repozytorium 1:1.
 - **Analiza pochodna jest na poziomie danych, z których powstała.** Streszczenie sceny napisane
   wyłącznie na podstawie skryptu jest poziomu 1. Analiza wnosząca fakty spoza skryptu jest poziomu 3.
 
