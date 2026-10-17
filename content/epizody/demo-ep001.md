@@ -13,10 +13,6 @@ serie: [mobile-suit-gundam-1979, mazinger-z-1972, getter-robo-1974]
 pochodzenie: skrypt
 tagi: [demo, pierwsze-starcie]
 utworzono: 2026-10-13
-zrodla:
-  - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam
-  - https://en.wikipedia.org/wiki/Mazinger_Z
-  - https://en.wikipedia.org/wiki/Getter_Robo
 ---
 
 > **Wpis demonstracyjny.** Treść poniżej jest wymyślona na potrzeby pokazania mechanizmów bazy
@@ -32,6 +28,9 @@ seria *Super Robot Wars*. Epizod pełni rolę wprowadzenia: przedstawia trzech p
 nimi, zanim dojdzie do pierwszego starcia.
 
 ## Wątki anime
+
+> Kolumny „Źródło” i „Różnice” to wiedza modelu bez sprawdzenia w źródłach (ADR 0009) —
+> niesprawdzona; adresy usunięte, dopóki ktoś ich nie zweryfikuje.
 
 | Motyw w epizodzie | Źródło | Odcinek / wersja | Typ | Różnice |
 |---|---|---|---|---|
@@ -51,12 +50,3 @@ Warto zauważyć, co epizod pomija: nie ma tu ani jednego antagonisty. To rzadki
 wprowadzenie ma pokazać, jak bohaterowie zachowują się wobec siebie, zanim pojawi się wróg.
 Dla bazy oznacza to, że pola `postacie` i `mechy` obejmują wyłącznie stronę „naszą" i przy
 kolejnych epizodach będą rosły asymetrycznie.
-
-## Źródła
-
-- Wikipedia, *Mobile Suit Gundam* — kontekst postaci Amuro i charakteru serialu:
-  <https://en.wikipedia.org/wiki/Mobile_Suit_Gundam>.
-- Wikipedia, *Mazinger Z* — konwencja nazwanych ataków i tonacja bohatera:
-  <https://en.wikipedia.org/wiki/Mazinger_Z>.
-- Wikipedia, *Getter Robo* — charakter Ryōmy i mechanika form łączonych:
-  <https://en.wikipedia.org/wiki/Getter_Robo>.

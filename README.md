@@ -51,8 +51,8 @@ działa po stronie przeglądarki, zero zależności runtime.
 
 - **Baza jest grafem.** Postać → mech → broń → epizod → seria anime. Wszystko linkowane
   wikilinkami `[[slug]]` i polami frontmattera; build nie przepuści martwego odsyłacza.
-- **Pochodzenie informacji jest widoczne.** `skrypt` / `menu` / `wiedza` — a wiedza modelu
-  bez źródeł nie przechodzi buildu.
+- **Pochodzenie informacji jest widoczne.** `skrypt` / `menu` / `zrodlo` (sprawdzone w źródle) /
+  `wiedza` (niesprawdzona, bez linków). Adres trafia do bazy dopiero po sprawdzeniu (ADR 0009).
 - **Skrypt bez wpisu epizodu wywala build.** To celowe: oznacza materiał czekający na przetworzenie.
 - **Slug jest niezmienny.** Zmiana identyfikatora zrywa cały graf.
 - **Swoboda formy jest zaletą.** Nie ma zamkniętej listy sekcji ani słownika tagów — kolejne sesje,

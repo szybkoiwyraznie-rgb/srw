@@ -1,6 +1,6 @@
 ---
 typ: scena
-slug: demo-ep001-s1-3
+slug: demo-ep001-krotkie-starcie
 tytul: Krótkie starcie
 epizod: demo-ep001
 numer_sceny: "1-3"

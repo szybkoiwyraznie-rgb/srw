@@ -12,8 +12,6 @@ gry: [demo]
 pochodzenie: wiedza
 tagi: [super-robot, glowny-bohater, mazinger]
 utworzono: 2026-10-13
-zrodla:
-  - https://en.wikipedia.org/wiki/Mazinger_Z
 ---
 
 ## Opis
@@ -33,8 +31,3 @@ bywa natomiast tym, który wytrzymuje.
 W ukrytych epizodach i scenariuszach bonusowych postać ta często pojawia się razem
 z [[ryoma-nagare|Ryōmą Nagare]], co w skrypcie objawia się żartami pod adresem
 kolegów z innych drużyn.
-
-## Źródła
-
-- Wikipedia, hasło *Mazinger Z* — pochodzenie postaci, relacja z profesorem Kabuto i status
-  pierwszego pokolenia bohaterów Nagaia: <https://en.wikipedia.org/wiki/Mazinger_Z>.

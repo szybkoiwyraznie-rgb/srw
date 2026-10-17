@@ -13,8 +13,8 @@ co opisane jako **wymagane** i **pilnowane**.
 | `tytul` | tak | string | tytuł widoczny w witrynie; może być polski lub oryginalny |
 | `tytul_ja`, `tytul_en` | nie | string | zapisy oryginalne — ułatwiają późniejsze wyszukiwanie |
 | `tagi` | nie | tablica slugów | swobodne, bez słownika (ADR 0006) |
-| `pochodzenie` | nie | `skrypt` / `menu` / `wiedza` | patrz ADR 0004 |
-| `zrodla` | nie | tablica URL-i `http(s)` | jeśli wypełnione, treść musi mieć sekcję `## Źródła` |
+| `pochodzenie` | nie | `skrypt` / `menu` / `zrodlo` / `wiedza` | patrz ADR 0004 i 0009 |
+| `zrodla` | nie | tablica URL-i `http(s)` | **tylko adresy sprawdzone** (ADR 0009); wymagają sekcji `## Źródła`; `wiedza` nie może ich mieć |
 | `utworzono` | nie | `RRRR-MM-DD` | data pierwszego wpisu do bazy |
 | `obraz` | nie | URL lub ścieżka | miniatura; oryginały trzymamy poza gitem |
 
@@ -57,10 +57,9 @@ mieć swój wpis epizodu.
 `wsparcie`), `mechy`. Klasa opisuje **mechanizm działania**, nie świat pochodzenia — broń
 promieniowa z Mazingera i z Gundama mają tę samą klasę.
 
-**scena** (ADR 0008): `epizod` (wymagane, slug epizodu), `numer_sceny` (wymagane, tekst `1`, `1-2`,
-`2-2-1` — kolejność po segmentach liczbowo), `streszczenie` (opcjonalne, pokazywane na liście scen
-w epizodzie), opcjonalnie `postacie`, `mechy`, `bronie`. Slug sceny: `<epizod>-s<numer>`, np.
-`demo-ep001-s1-2`. Plik: `content/sceny/<slug>.md`.
+**scena** (ADR 0008): `epizod` (wymagane, slug epizodu), `numer_sceny` (wymagane, dowolny niepusty tekst — `1-2`, `2-2-1`, `Prolog`; numeracja zależy od gry), `streszczenie` (opcjonalne, pokazywane na liście scen
+w epizodzie), opcjonalnie `postacie`, `mechy`, `bronie`. Slug sceny: `<slug-epizodu>-<tytul-sceny>`, np.
+`demo-ep001-rozpoznanie` (bez numeru — ADR 0008). Plik: `content/sceny/<slug>.md`.
 
 **seria**: `rodzaj` (`tv` / `ova` / `film` / `manga` / `gra` / `powiesc` / `inne`), `rok`, `odcinki`.
 

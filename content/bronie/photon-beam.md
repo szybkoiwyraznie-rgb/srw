@@ -9,8 +9,6 @@ mechy: [mazinger-z]
 pochodzenie: wiedza
 tagi: [super-robot, photon-power, atak-nazwany]
 utworzono: 2026-10-13
-zrodla:
-  - https://en.wikipedia.org/wiki/Mazinger_Z
 ---
 
 ## Opis
@@ -22,8 +20,3 @@ W bazie jest ciekawym przypadkiem, bo należy do klasy `beam` razem z bronią
 
 To dobry przykład zasady, którą warto utrzymać: pola opisują **działanie**, a pochodzenie
 światowe wynika z odsyłacza do serii — nie odwrotnie.
-
-## Źródła
-
-- Wikipedia, hasło *Mazinger Z* — uzbrojenie maszyny i energia fotoniczna:
-  <https://en.wikipedia.org/wiki/Mazinger_Z>.

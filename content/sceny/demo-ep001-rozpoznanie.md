@@ -1,6 +1,6 @@
 ---
 typ: scena
-slug: demo-ep001-s1-2
+slug: demo-ep001-rozpoznanie
 tytul: Rozpoznanie
 epizod: demo-ep001
 numer_sceny: "1-2"

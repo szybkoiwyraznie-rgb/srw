@@ -9,8 +9,6 @@ mechy: [rx-78-2-gundam]
 pochodzenie: wiedza
 tagi: [universal-century, uzbrojenie-strzeleckie]
 utworzono: 2026-10-13
-zrodla:
-  - https://en.wikipedia.org/wiki/RX-78-2_Gundam
 ---
 
 ## Opis
@@ -23,8 +21,3 @@ o ile trafi.
 W grach broń ta zwykle ma wysoki współczynnik trafienia i zasięg, ale ograniczoną liczbę
 strzałów lub wymóg zasilania — co odzwierciedla jej technologiczny charakter: potężna,
 lecz wymagająca.
-
-## Źródła
-
-- Wikipedia, hasło *RX-78-2 Gundam* — uzbrojenie prototypu, w tym karabin promieniowy:
-  <https://en.wikipedia.org/wiki/RX-78-2_Gundam>.

@@ -1,6 +1,6 @@
 ---
 typ: scena
-slug: demo-ep001-s1-4
+slug: demo-ep001-zawieszenie-broni
 tytul: Zawieszenie broni
 epizod: demo-ep001
 numer_sceny: "1-4"

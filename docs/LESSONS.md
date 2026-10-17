@@ -76,3 +76,11 @@ pierwszy; kolejna sesja rekonstruowała zakres z `git log`. Tu nie ma handoffów
 sesji — **opis PR jest jedynym nośnikiem planu, audytu i stanu sesji**, który przeżyje reset
 sandboxa i koniec czatu. Aktualizuje się go kumulatywnie po każdym wypchniętym commicie
 merytorycznym (odhaczony plan, odstępstwa, pomiary), zanim właściciel zdąży PR scalić.
+
+## L11 — Adres bez sprawdzenia to nie źródło (2026-10-17)
+
+Agent wpisał do `zrodla` adresy Wikipedii z pamięci i oznaczył wpisy „wiedza modelu”. Na stronie
+wyglądało to jak potwierdzone źródła, a nikt ich nie czytał (sandbox nie zna treści linków bez
+`fetch_page`). Właściciel: „źródło ma sens tylko wtedy, gdy jest sprawdzone”. Zasada: adres trafia
+do `zrodla` dopiero po otwarciu strony i potwierdzeniu treści; niesprawdzona wiedza nie ma linków
+(ADR 0009). Niesprawdzone adresy są kolejką w opisie PR, nie w bazie.

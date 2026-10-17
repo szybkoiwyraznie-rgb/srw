@@ -16,8 +16,8 @@ faktycznie padło w scenie, a analiza nie miała do czego się odnosić.
 2. **Frontmatter sceny:**
    - `typ: scena`, `slug`, `tytul` (wymagane, jak w ADR 0003),
    - `epizod` (wymagane) — slug wpisu epizodu, typ `epizod` (pole relacji, `POLA_RELACJI`),
-   - `numer_sceny` (wymagane) — tekst w postaci `\d+(-\d+)*`, np. `1-1`, `2`, `2-2-1`.
-     Kolejność w epizodzie wynika z numeru (porównanie segment po segmencie, liczbowo),
+   - `numer_sceny` (wymagane) — dowolny niepusty tekst, bo numeracja zależy od gry (`1-1`, `2-2-1`,
+     `Prolog`). Kolejność w epizodzie wynika z numeru (porównanie z uwzględnieniem liczb),
    - `streszczenie` (opcjonalne) — jedno–dwa zdania, pokazywane na liście scen w epizodzie,
    - `postacie`, `mechy`, `bronie` — opcjonalne, jak w innych typach,
    - `pochodzenie: skrypt` (domyślnie dla scen — treść jest wprost z rozegrania).
@@ -39,6 +39,13 @@ faktycznie padło w scenie, a analiza nie miała do czego się odnosić.
 ## Konsekwencje
 
 - Czytelnik widzi treść sceny obok analizy; analiza nie może odwoływać się do niewidocznego tekstu.
-- Numeracja (`numer_sceny`) jest częścią tożsamości sceny w widoku, ale **nie** częścią sluga.
-  Slug sceny buduje się z epizodu i numeru (`demo-ep001-s1-1`) i jest niezmienny (ADR 0003 pkt 2).
+- Numeracja (`numer_sceny`) nie wchodzi do sluga — zależy od gry, więc nie może być podstawą adresu.
+  Slug sceny: `<slug-epizodu>-<tytul-sceny>`, np. `demo-ep001-rozpoznanie`; jest niezmienny (ADR 0003 pkt 2).
 - Dodanie sceny nie zmienia epizodu w pliku — agregacja dzieje się w rendererze.
+
+## Aktualizacja 2026-10-17 (uwagi właściciela)
+
+- `numer_sceny` jest dowolnym tekstem, nie wzorcem: numeracja różni się między grami i skryptami,
+  a właściciel podaje ją przy każdym skrypcie.
+- Slug sceny **nie** zawiera numeru: `<slug-epizodu>-<tytul-sceny>` (np. `demo-ep001-rozpoznanie`).
+  Pierwotny wariant `demo-ep001-s1-2` został zmieniony przed jakimkolwiek prawdziwym wpisem.

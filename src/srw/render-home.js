@@ -59,9 +59,10 @@ ${czyDemo() ? banerDemo() : ''}
   <h2>Jak czytać tę bazę</h2>
   <p>Każdy wpis ma znacznik pochodzenia: <span class="plakietka plakietka-skrypt">ze skryptu</span>
   (informacja wprost z rozegranego epizodu), <span class="plakietka plakietka-menu">z menu gry</span>
-  (nazwy, statystyki i bronie odczytane z ekranów) oraz <span class="plakietka plakietka-wiedza">wiedza modelu</span>
-  (kontekst dopisany przez agenta, zawsze z linkiem w sekcji Źródła). Dzięki temu widać,
-  co jest faktem z gry, a co uzupełnieniem z zewnątrz.</p>
+  (nazwy, statystyki i bronie odczytane z ekranów) <span class="plakietka plakietka-zrodlo">ze źródła · sprawdzone</span>
+  (potwierdzone linkami) oraz <span class="plakietka plakietka-wiedza">wiedza modelu · niesprawdzone</span>
+  (kontekst z pamięci agenta, bez linków). Dzięki temu widać, co jest faktem z gry, co
+  potwierdzonym źródłem, a co wymaga jeszcze sprawdzenia.</p>
 </section>`;
 }
 

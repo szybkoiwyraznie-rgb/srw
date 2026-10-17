@@ -213,6 +213,7 @@ pre.skrypt {
 .plakietka-skrypt { color: #1f6b43; border-color: rgba(46, 139, 87, .45); background: rgba(46, 139, 87, .1); }
 .plakietka-menu { color: #1a5f7a; border-color: rgba(31, 127, 163, .45); background: rgba(31, 127, 163, .1); }
 .plakietka-wiedza { color: #7a4a0c; border-color: rgba(184, 115, 26, .5); background: rgba(184, 115, 26, .1); }
+.plakietka-zrodlo { color: #1f6b43; border-color: rgba(46, 139, 87, .5); background: rgba(46, 139, 87, .12); }
 
 .chipsy { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
 .chipsy-inline { display: inline-flex; flex-wrap: wrap; gap: 4px; }

@@ -1,6 +1,6 @@
 ---
 typ: scena
-slug: demo-ep001-s1-1
+slug: demo-ep001-prolog-narracyjny
 tytul: Prolog narracyjny
 epizod: demo-ep001
 numer_sceny: "1-1"

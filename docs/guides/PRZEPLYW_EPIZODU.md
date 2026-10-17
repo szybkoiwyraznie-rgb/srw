@@ -19,9 +19,9 @@ epizod nowej gry, dopisz też zdanie o tym, że baza rusza z tym tytułem.
 
 ## 1a. Sceny (ADR 0008)
 
-Najpierw sceny, bo są nośnikiem treści: `content/sceny/<gra>-epNNN-s<numer>.md` — po jednym pliku na
-scenę skryptu. Treść sceny to dosłowny fragment skryptu w bloku `:::skrypt`, a `## Analiza` opisuje
-wątki i nawiązania. Numery scen zapisuj tak, jak w skrypcie (`1-1`, `2-2-1`).
+Najpierw sceny, bo są nośnikiem treści: `content/sceny/<slug-epizodu>-<tytul-sceny>.md` — po jednym
+pliku na scenę skryptu. Treść sceny to dosłowny fragment skryptu w bloku `:::skrypt`, a `## Analiza`
+opisuje wątki i nawiązania. Numer sceny przepisz tak, jak podaje skrypt (numeracja zależy od gry).
 
 ## 2. Wpis epizodu (agregacja scen)
 
@@ -70,7 +70,8 @@ Punkt w `content/co-nowego.md` pod dzisiejszą datą: co doszło do bazy w tej s
 npm test && npm run build
 ```
 
-Build sprawdza: istnienie wszystkich odsyłaczy, zgodność typów, źródła przy `pochodzenie: wiedza`,
+Build sprawdza: istnienie wszystkich odsyłaczy, zgodność typów, źródła przy `pochodzenie: zrodlo`
+i brak adresów przy `pochodzenie: wiedza` (ADR 0009), wierność scen względem skryptu,
 parzystość skryptów i wpisów, brak duplikatów slugów. Zielony wynik = commit.
 
 ## 8. Czego nie robić w tej pętli

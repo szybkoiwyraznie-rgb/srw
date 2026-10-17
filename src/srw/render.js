@@ -25,7 +25,8 @@ export const KOLEJNOSC_TYPOW = ['epizod', 'gra', 'postac', 'mech', 'bron', 'seri
 export const NAZWY_POCHODZENIA = {
   skrypt: { etykieta: 'ze skryptu', opis: 'Informacja pochodzi wprost z dostarczonego skryptu epizodu.' },
   menu: { etykieta: 'z menu gry', opis: 'Informacja odczytana z interfejsu gry (nazwy, statystyki, listy broni).' },
-  wiedza: { etykieta: 'wiedza modelu', opis: 'Kontekst dopisany przez agenta — wymaga źródeł w sekcji „Źródła".' },
+  zrodlo: { etykieta: 'ze źródła · sprawdzone', opis: 'Treść potwierdzona w podanych źródłach (sekcja „Źródła"; sprawdzono przy zapisie).' },
+  wiedza: { etykieta: 'wiedza modelu · niesprawdzone', opis: 'Kontekst z pamięci modelu, jeszcze niepotwierdzony w źródle. Brak linków, dopóki nie zostanie sprawdzony.' },
 };
 
 export const NAV = [

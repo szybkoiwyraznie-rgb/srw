@@ -12,8 +12,6 @@ gry: [demo]
 pochodzenie: wiedza
 tagi: [super-robot, glowny-bohater, getter]
 utworzono: 2026-10-13
-zrodla:
-  - https://en.wikipedia.org/wiki/Getter_Robo
 ---
 
 ## Opis
@@ -27,8 +25,3 @@ natychmiast, bez narady.
 W aktualnej bazie to trzecia postać z klasycznego tercetu super robotów, obok
 [[koji-kabuto|Kōjiego Kabuto]] i [[amuro-ray|Amuro Raya]] — trzy różne odpowiedzi na pytanie,
 kim ma być pilot maszyny bojowej.
-
-## Źródła
-
-- Wikipedia, hasło *Getter Robo* — pochodzenie postaci, charakter drużyny Getter oraz kontekst
-  jej mroczniejszej tonacji wobec innych seriali Nagaia: <https://en.wikipedia.org/wiki/Getter_Robo>.

@@ -12,8 +12,6 @@ gry: [demo]
 pochodzenie: wiedza
 tagi: [newtype, universal-century, glowny-bohater]
 utworzono: 2026-10-13
-zrodla:
-  - https://en.wikipedia.org/wiki/Amuro_Ray
 ---
 
 ## Opis
@@ -35,8 +33,3 @@ Postać frontowa: pojedyncze, mocno wyspecjalizowane uderzenie. W wątkach fabul
 przyciąga konflikt z antagonistami z Universal Century i wymusza rozstrzygnięcia dotyczące
 lojalności — dlatego dobrze jest trzymać go na osobnej stronie, oddzielnie od wystąpień
 w poszczególnych grach.
-
-## Źródła
-
-- Wikipedia, hasło *Amuro Ray* — pochodzenie, rola w serialu, relacje z pozostałymi bohaterami
-  i znaczenie dla uniwersum Universal Century: <https://en.wikipedia.org/wiki/Amuro_Ray>.

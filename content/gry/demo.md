@@ -8,8 +8,6 @@ status: w-toku
 pochodzenie: wiedza
 tagi: [demo, szkielet]
 utworzono: 2026-10-13
-zrodla:
-  - https://en.wikipedia.org/wiki/Super_Robot_Wars
 ---
 
 ## Opis
@@ -28,8 +26,3 @@ Przykładowy jest tylko [[demo-ep001|epizod 01]] i jego skrypt.
 - pojawi się pole `epizody` z liczbą rozegranych epizodów (liczona automatycznie z wpisów),
 - w sekcji **Rozegrane epizody** wyląduje lista odcinków z datami rozegrania,
 - każdy mech i każda postać z tej gry dostanie w polu `gry` odsyłacz tutaj.
-
-## Źródła
-
-- Wikipedia, hasło Super Robot Wars — charakterystyka serii i jej struktury (epizody, trasy,
-  międzyświatowe fuzje fabularne): <https://en.wikipedia.org/wiki/Super_Robot_Wars>.

@@ -45,15 +45,15 @@ test('wytnijBlokSkryptu bierze pierwszy blok', () => {
   assert.equal(wytnijBlokSkryptu(':::skrypt\nA\nB\n:::\n\n:::\nC\n:::\n'), 'A\nB');
 });
 
-test('sceny sortują się numerycznie, nie leksykograficznie', () => {
-  const numery = ['1-10', '2', '1-2', '2-2-1', '1', '2-1'];
+test('sceny sortują się numerycznie, nie leksykograficznie (numer to dowolny tekst)', () => {
+  const numery = ['1-10', '2', '1-2', '2-2-1', '1', '2-1', 'Prolog'];
   const posortowane = sortujSceny(numery.map((n) => ({ numer_sceny: n }))).map((s) => s.numer_sceny);
-  assert.deepEqual(posortowane, ['1', '1-2', '1-10', '2', '2-1', '2-2-1']);
+  assert.deepEqual(posortowane, ['1', '1-2', '1-10', '2', '2-1', '2-2-1', 'Prolog']);
 });
 
 test('walidacja schematu sceny: epizod i numer_sceny są wymagane', () => {
   const bySlug = new Map([['demo-ep001', { typ: 'epizod', slug: 'demo-ep001' }]]);
-  assert.deepEqual(walidujStrone(scena(body('x'), { numer_sceny: undefined }), { bySlug }).filter((p) => /numer_sceny/.test(p)).length, 1);
+  assert.equal(walidujStrone(scena(body('x'), { numer_sceny: '  ' }), { bySlug }).filter((p) => /numer_sceny/.test(p)).length, 1);
   const bezEpizodu = walidujStrone(scena(body('x'), { epizod: undefined }), { bySlug });
   assert.ok(bezEpizodu.some((p) => /wymaga pola "epizod"/.test(p)));
   const zlyEpizod = walidujStrone(scena(body('x'), { epizod: 'nie-ma' }), { bySlug });

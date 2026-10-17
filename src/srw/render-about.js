@@ -38,7 +38,8 @@ export function renderOBazie() {
   <ul>
     <li><span class="plakietka plakietka-skrypt">ze skryptu</span> — fakt wprost z rozegranego epizodu (dialog, nazwa, zachowanie).</li>
     <li><span class="plakietka plakietka-menu">z menu gry</span> — odczyt z ekranów gry: nazwy jednostek, statystyki, listy broni.</li>
-    <li><span class="plakietka plakietka-wiedza">wiedza modelu</span> — kontekst dopisany przez agenta (np. z którego odcinka anime wzięto wątek). Wymaga linku w sekcji Źródła.</li>
+    <li><span class="plakietka plakietka-zrodlo">ze źródła · sprawdzone</span> — treść potwierdzona w podanych źródłach (linki w sekcji Źródła, sprawdzone przy zapisie).</li>
+    <li><span class="plakietka plakietka-wiedza">wiedza modelu · niesprawdzone</span> — kontekst z pamięci agenta (np. z którego odcinka anime wzięto wątek), jeszcze bez potwierdzenia. Nie ma tu linków, dopóki nie zostanie sprawdzony.</li>
   </ul>
   <p>Dzięki temu widać, gdzie kończy się gra, a zaczyna interpretacja — i można wracać do wpisów
   o niższej pewności, żeby je zweryfikować.</p>
