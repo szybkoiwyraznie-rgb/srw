@@ -16,6 +16,7 @@ import { parseFrontmatter } from '../src/srw/frontmatter.js';
 export const KATALOGI = [
   { katalog: 'content/gry', typ: 'gra' },
   { katalog: 'content/epizody', typ: 'epizod' },
+  { katalog: 'content/sceny', typ: 'scena' },
   { katalog: 'content/postacie', typ: 'postac' },
   { katalog: 'content/mechy', typ: 'mech' },
   { katalog: 'content/bronie', typ: 'bron' },

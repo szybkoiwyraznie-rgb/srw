@@ -9,7 +9,7 @@
 import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug } from './links.js';
 import { dajDane } from './data.js';
-import { nazwaTypu, ikonaTypu, stanPusty, numerEpizodu } from './render.js';
+import { nazwaTypu, stanPusty, numerEpizodu } from './render.js';
 
 export function renderSzukanie(q) {
   const fraza = String(q ?? '').trim();
@@ -34,7 +34,6 @@ export function renderSzukanie(q) {
   ${wyniki.map(({ strona, trafienie }) => `
     <li>
       <a href="${hrefDlaSlug(strona.slug, strona.typ)}">
-        ${ikonaTypu(strona.typ)}
         ${strona.typ === 'epizod' ? `<span class="mono">${numerEpizodu(strona.numer)}</span> ` : ''}
         ${podkresl(strona.tytul, fraza)}
       </a>

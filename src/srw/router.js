@@ -10,7 +10,7 @@
 export const TRASY_ZNAZWE = [
   'glowna',
   'gry', 'gra',
-  'epizody', 'epizod',
+  'epizody', 'epizod', 'scena',
   'postacie', 'postac',
   'mechy', 'mech',
   'bronie', 'bron',

@@ -10,8 +10,6 @@ odcinki: 92
 pochodzenie: wiedza
 tagi: [go-nagai, dynamic-planning, klasyka, super-robot]
 utworzono: 2026-10-13
-zrodla:
-  - https://en.wikipedia.org/wiki/Mazinger_Z
 ---
 
 ## Opis
@@ -32,8 +30,3 @@ sprawia, że w bazach danych *Mazinger* generuje wyjątkowo dużo wpisów o bron
 - [[koji-kabuto|Kōji Kabuto]] — pilot [[mazinger-z|Mazinger Z]], bohater pierwszego pokolenia.
 - [[mazinger-z|Mazinger Z]] — tytułowa maszyna, w grach jedna z najbardziej „ciężkich" jednostek
   pod względem kosztu ulepszeń i siły pojedynczego ciosu.
-
-## Źródła
-
-- Wikipedia, hasło *Mazinger Z* — rok emisji, liczba odcinków, autorstwo Gō Nagaia oraz
-  nazewnictwo ataków: <https://en.wikipedia.org/wiki/Mazinger_Z>.

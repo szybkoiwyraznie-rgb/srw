@@ -10,12 +10,13 @@ import { hrefDlaSlug, hrefListy } from './links.js';
 import { statystyki, dajDane } from './data.js';
 
 export const NAZWY_TYPOW = {
-  gra: { jeden: 'Gra', wiele: 'Gry', ikona: '🎮' },
-  epizod: { jeden: 'Epizod', wiele: 'Epizody', ikona: '🎬' },
-  postac: { jeden: 'Postać', wiele: 'Postacie', ikona: '👤' },
-  mech: { jeden: 'Mech', wiele: 'Mechy', ikona: '🤖' },
-  bron: { jeden: 'Broń', wiele: 'Bronie', ikona: '⚔️' },
-  seria: { jeden: 'Seria', wiele: 'Serie', ikona: '📺' },
+  gra: { jeden: 'Gra', wiele: 'Gry', },
+  epizod: { jeden: 'Epizod', wiele: 'Epizody', },
+  scena: { jeden: 'Scena', wiele: 'Sceny', },
+  postac: { jeden: 'Postać', wiele: 'Postacie', },
+  mech: { jeden: 'Mech', wiele: 'Mechy', },
+  bron: { jeden: 'Broń', wiele: 'Bronie', },
+  seria: { jeden: 'Seria', wiele: 'Serie', },
 };
 
 /** Kolejność sekcji „Powiązania" na stronie encji. */
@@ -24,7 +25,8 @@ export const KOLEJNOSC_TYPOW = ['epizod', 'gra', 'postac', 'mech', 'bron', 'seri
 export const NAZWY_POCHODZENIA = {
   skrypt: { etykieta: 'ze skryptu', opis: 'Informacja pochodzi wprost z dostarczonego skryptu epizodu.' },
   menu: { etykieta: 'z menu gry', opis: 'Informacja odczytana z interfejsu gry (nazwy, statystyki, listy broni).' },
-  wiedza: { etykieta: 'wiedza modelu', opis: 'Kontekst dopisany przez agenta — wymaga źródeł w sekcji „Źródła".' },
+  zrodlo: { etykieta: 'ze źródła · sprawdzone', opis: 'Treść potwierdzona w podanych źródłach (sekcja „Źródła"; sprawdzono przy zapisie).' },
+  wiedza: { etykieta: 'wiedza modelu · niesprawdzone', opis: 'Kontekst z pamięci modelu, jeszcze niepotwierdzony w źródle. Brak linków, dopóki nie zostanie sprawdzony.' },
 };
 
 export const NAV = [
@@ -41,10 +43,6 @@ export const NAV = [
 
 export function nazwaTypu(typ, liczba = 'jeden') {
   return NAZWY_TYPOW[typ]?.[liczba] ?? typ;
-}
-
-export function ikonaTypu(typ) {
-  return NAZWY_TYPOW[typ]?.ikona ?? '•';
 }
 
 export function rama(aktywna, tytul, tresc) {
@@ -96,7 +94,7 @@ export function plakietkaPochodzenia(pochodzenie) {
 /** Link do strony encji z ikoną typu. */
 export function linkStrony(strona, { zTypem = false } = {}) {
   if (!strona) return '';
-  return `<a class="link-strony" href="${hrefDlaSlug(strona.slug, strona.typ)}">${ikonaTypu(strona.typ)} ${escapeHtml(strona.tytul)}${zTypem ? ` <span class="typ">${nazwaTypu(strona.typ)}</span>` : ''}</a>`;
+  return `<a class="link-strony" href="${hrefDlaSlug(strona.slug, strona.typ)}">${escapeHtml(strona.tytul)}${zTypem ? ` <span class="typ">${nazwaTypu(strona.typ)}</span>` : ''}</a>`;
 }
 
 export function stanPusty(komunikat, podpowiedz = '') {

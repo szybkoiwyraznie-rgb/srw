@@ -9,7 +9,7 @@
 import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefFiltru, hrefListy } from './links.js';
 import { dajStrone, listaStron, listaPosortowana, listaEpizodow, listaFiltrowana, tagiMap, statystyki } from './data.js';
-import { nazwaTypu, ikonaTypu, plakietkaPochodzenia, numerEpizodu, stanPusty, odmiana } from './render.js';
+import { nazwaTypu, plakietkaPochodzenia, numerEpizodu, stanPusty, odmiana } from './render.js';
 
 export function renderListe(typ, query = {}) {
   const filtr = wybierzFiltr(typ, query);
@@ -36,7 +36,7 @@ function naglowekListy(typ, filtr, liczba) {
   return `
 <div class="naglowek-strony">
   <a class="okruszek" href="#/">Baza</a>
-  <h1>${ikonaTypu(typ)} ${nazwaTypu(typ, 'wiele')}
+  <h1>${nazwaTypu(typ, 'wiele')}
     ${filtr && cel ? `<span class="filtru-jest">— ${escapeHtml(cel.tytul)}</span>` : ''}
   </h1>
   <p class="podtytul">${liczba} ${odmiana(liczba, [
@@ -176,7 +176,7 @@ export function renderTag(tag) {
 </div>
 <ul class="lista-duza">${strony.map((p) => `
   <li>
-    <a href="${hrefDlaSlug(p.slug, p.typ)}">${ikonaTypu(p.typ)} ${escapeHtml(p.tytul)}</a>
+    <a href="${hrefDlaSlug(p.slug, p.typ)}">${escapeHtml(p.tytul)}</a>
     <span class="meta">${nazwaTypu(p.typ)}${metaEncji(p) ? ` · ${metaEncji(p)}` : ''}</span>
   </li>`).join('')}</ul>`;
 }

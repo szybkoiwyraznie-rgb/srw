@@ -10,8 +10,6 @@ odcinki: 51
 pochodzenie: wiedza
 tagi: [go-nagai, ken-ishikawa, super-robot, klasyka]
 utworzono: 2026-10-13
-zrodla:
-  - https://en.wikipedia.org/wiki/Getter_Robo
 ---
 
 ## Opis
@@ -31,8 +29,3 @@ wykorzystywana świadomie.
 
 - [[ryoma-nagare|Ryōma Nagare]] — pilot [[getter-1|Getter-1]], prowadzący drużynę siłą charakteru.
 - [[getter-1|Getter-1]] — forma podstawowa, uzbrojona między innymi w [[getter-beam|Getter Beam]].
-
-## Źródła
-
-- Wikipedia, hasło *Getter Robo* — rok emisji, autorstwo, mechanika trzech maszyn i kontekst
-  mroczniejszej tonacji: <https://en.wikipedia.org/wiki/Getter_Robo>.

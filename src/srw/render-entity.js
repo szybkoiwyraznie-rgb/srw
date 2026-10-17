@@ -11,7 +11,7 @@ import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefFiltru, hrefListy } from './links.js';
 import { dajStrone, listaStron, backlinkiStrony, odsylaczeWychodzace, dajDane } from './data.js';
 import {
-  nazwaTypu, ikonaTypu, chipsyTagow, plakietkaPochodzenia, linkStrony,
+  nazwaTypu, chipsyTagow, plakietkaPochodzenia, linkStrony,
   stanPusty, nieZnalesc, naglowekStrony, stopkaCzasu, numerEpizodu, KOLEJNOSC_TYPOW, odmiana,
 } from './render.js';
 
@@ -164,7 +164,7 @@ export function sekcjaPowiazan(tytul, grupy, { pomijaj = [] } = {}) {
     <h2>${tytul}</h2>
     ${wpisy.map(([typ, lista]) => `
       <div class="grupa-powiazan">
-        <h3>${ikonaTypu(typ)} ${nazwaTypu(typ, 'wiele')}</h3>
+        <h3>${nazwaTypu(typ, 'wiele')}</h3>
         <ul class="lista-horyzontalna">
           ${lista.map((p) => `<li>${linkStrony(p)}</li>`).join('')}
         </ul>
@@ -189,7 +189,7 @@ function sekcjaPrzychodzacych(przychodzace) {
     <h2>Wymienione w</h2>
     ${wpisy.map(([typ, lista]) => `
       <div class="grupa-powiazan">
-        <h3>${ikonaTypu(typ)} ${nazwaTypu(typ, 'wiele')} <span class="licznik">${lista.length}</span></h3>
+        <h3>${nazwaTypu(typ, 'wiele')} <span class="licznik">${lista.length}</span></h3>
         <ul class="lista">${lista.map((p) => `
           <li>
             <a href="${hrefDlaSlug(p.slug, p.typ)}">${typ === 'epizod' ? `<span class="mono">${numerEpizodu(p.numer)}</span> ` : ''}${escapeHtml(p.tytul)}</a>

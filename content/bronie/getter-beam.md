@@ -9,8 +9,6 @@ mechy: [getter-1]
 pochodzenie: wiedza
 tagi: [super-robot, getter, atak-nazwany]
 utworzono: 2026-10-13
-zrodla:
-  - https://en.wikipedia.org/wiki/Getter_Robo
 ---
 
 ## Opis
@@ -19,8 +17,3 @@ Wiązka emitowana z korpusu [[getter-1|Getter-1]] — podstawowy atak energetycz
 W serialu energia Getter jest zarazem paliwem i zagrożeniem, więc atak ten nie bywa opisywany
 wyłącznie jako sukces; w interpretacjach epizodów często warto zaznaczyć, czy scenariusz gry
 grał tę dwuznaczność, czy ją pominął.
-
-## Źródła
-
-- Wikipedia, hasło *Getter Robo* — energia Getter i uzbrojenie form łączonych:
-  <https://en.wikipedia.org/wiki/Getter_Robo>.

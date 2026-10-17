@@ -38,7 +38,7 @@ export function slugify(tytul) {
 
 /** Trasy witryny dla każdego typu strony (ADR 0001 — routing po hashu). */
 export const TRASY = {
-  gra: 'gra', epizod: 'epizod', postac: 'postac',
+  gra: 'gra', epizod: 'epizod', scena: 'scena', postac: 'postac',
   mech: 'mech', bron: 'bron', seria: 'seria',
 };
 

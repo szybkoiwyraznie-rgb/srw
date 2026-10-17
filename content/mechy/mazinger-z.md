@@ -12,8 +12,6 @@ gry: [demo]
 pochodzenie: wiedza
 tagi: [super-robot, ikona, photon-power]
 utworzono: 2026-10-13
-zrodla:
-  - https://en.wikipedia.org/wiki/Mazinger_Z
 ---
 
 ## Opis
@@ -27,8 +25,3 @@ rozpoznawalne same przez się, bez kontekstu.
 W grach Mazinger jest zwykle jednostką „ciężką": wysokie parametry obrony i potężne pojedyncze
 ciosy, ale ograniczona mobilność i wysoki koszt ulepszeń. Dobrze działa jako kotwica linii,
 słabiej — jako jednostka szybkiego reagowania.
-
-## Źródła
-
-- Wikipedia, hasło *Mazinger Z* — reaktor fotoniczny, nazewnictwo ataków i status maszyny
-  w historii gatunku: <https://en.wikipedia.org/wiki/Mazinger_Z>.

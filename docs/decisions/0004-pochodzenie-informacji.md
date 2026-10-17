@@ -22,6 +22,12 @@ o tym, co jeszcze obejrzeć i zdobyć.
    piszemy o tym w treści, zamiast wybierać jedną wersję po cichu.
 4. **Witryna pokazuje poziom pewności czytelnikowi** — plakietka przy nagłówku strony.
 
+## Adnotacja 2026-10-17
+
+Punkty 2 i 4 uszczegółowia **ADR 0009**: `zrodla` to wyłącznie adresy sprawdzone; `wiedza` jest
+niesprawdzona i nie ma linków; nowy poziom `zrodlo` oznacza treść potwierdzoną w źródle.
+W razie rozbieżności obowiązuje ADR 0009.
+
 ## Konsekwencje
 
 - Czytając bazę, zawsze wiadomo, co jest faktem z rozgrywki, a co interpretacją.

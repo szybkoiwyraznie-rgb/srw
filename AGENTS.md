@@ -86,7 +86,7 @@ Szczegółowa lista kroków: `docs/guides/PRZEPLYW_EPIZODU.md`.
   jako ustalenia. Luka opisana wprost („w skrypcie nie pada tytuł odcinka") jest lepsza niż
   pewnie brzmiąca nieprawda.
 - **Rozdzielaj poziomy pewności.** Pole `pochodzenie`: `skrypt` (wprost z gry), `menu` (odczyt
-  z ekranów), `wiedza` (kontekst agenta — **wymaga** `zrodla` i sekcji `## Źródła`).
+  z ekranów), `zrodlo` (treść potwierdzona w sprawdzonym źródle — `zrodla` i `## Źródła`), `wiedza` (kontekst agenta, **niesprawdzony** — bez linków; ADR 0009).
 - **Statystyki i arsenał należą do pary (mech, gra), nie do mecha.** Jeśli skrypt lub menu podaje
   parametry w konkretnym tytule, zapisz je w polu `w_gre` (klucz = slug gry), a nie w opisie ogólnym.
 
