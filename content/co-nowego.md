@@ -3,7 +3,12 @@
 Dziennik zmian widoczny w witrynie pod `#/co-nowego`. Prowadzi go agent przy każdym PR:
 dopisuje nowy wpis na górze, z datą i godziną publikacji (czas Europa/Warszawa, moment commita).
 
-Konwencja: `## RRRR-MM-DD GG:MM` otwiera wpis. Najnowsze wpisy na górze. Inne nagłówki są ignorowane.
+Konwencja: `## 2026-10-18 00:13
+
+- Źródła są przy konkretnych informacjach (link w tym samym punkcie), a nie w osobnej sekcji „Źródła”. Dotyczy wszystkich stron, w tym Jaku Empire.
+- Walidacja: każde źródło z pola `zrodla` musi być podane w treści przy informacji, której dotyczy.
+
+## RRRR-MM-DD GG:MM` otwiera wpis. Najnowsze wpisy na górze. Inne nagłówki są ignorowane.
 
 ## 2026-10-18 00:03
 
