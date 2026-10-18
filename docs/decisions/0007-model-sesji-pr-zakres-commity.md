@@ -3,6 +3,15 @@
 Data: 2026-10-14
 Status: obowiązujący (uszczegóławia i zaostrza ADR 0005 pkt 5)
 
+## Adnotacja 2026-10-18
+
+**ADR 0014** zmienia kolejność startu i domyślny zakres pracy: PR ze wstępnym planem powstaje
+przed lekturą obowiązkową i audytem. Audyt obejmuje kwerendę merytoryczną, przegląd kodu
+oraz pozostałe zmiany. Po nim agent uruchamia domyślną pętlę jakości bazy bez osobnego
+zlecenia. Historyczne wymaganie gotowego audytu przy otwarciu PR i nakaz czekania
+bez nowej dostawy lub zlecenia nie obowiązują; w tym zakresie nadrzędny jest ADR 0014.
+Pozostałe reguły (jedna gałąź i PR, przyrostowe commity i push, zakaz scalania) pozostają.
+
 ## Kontekst
 
 Projekt prowadzą naprzemienne sesje agentowe w sandboxie Areny. Każda sesja startuje

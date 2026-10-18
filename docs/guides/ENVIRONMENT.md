@@ -163,19 +163,23 @@ sierota — nie wejdzie do PR-a i przepadnie).
 - Artefakt ma `noindex, nofollow`, ale repozytorium jest publiczne — treść jest
   publiczna.
 
-## 9. Checklista startu sesji
+## 9. Checklista startu sesji (ADR 0014)
 
-0. `git rev-parse --abbrev-ref HEAD`, `git log --oneline -3`, `git status`,
-   `git rev-parse --is-shallow-repository` → jeśli `true`: `git fetch --unshallow origin`.
-1. Lektura obowiązkowa wg `AGENTS.md` (w całości, w kolejności).
-2. `npm test` + `npm run build` — zieloność przed zmianami.
-3. **PR sesji otwarty PRZED pierwszą zmianą w treści** (pusty commit porządkowy
-   `git commit --allow-empty` → `git push -u origin arena/<id>` → `gh pr create`),
-   z planem działania i audytem poprzedniego PR w opisie.
-4. Audyt poprzedniego scalonego PR (`gh pr list --state merged --limit 3`,
-   `gh pr view <nr> --json files,body`, diff) — wynik w opisie PR.
-5. Brak zlecenia po audycie = **czekaj na flow właściciela**; nie dodawaj treści
-   z własnej inicjatywy (ADR 0007).
+0. Odczytaj `AGENTS.md` w całości, sprawdź gałąź i stan: `git rev-parse --abbrev-ref HEAD`,
+   `git log --oneline -3`, `git status`. Po resecie najpierw odzyskaj istniejącą gałąź i PR (§3).
+1. **Otwórz PR ze wstępnym planem**: pusty commit (`git commit --allow-empty`), push gałęzi
+   sesji, `gh pr create`. Plan: lektura → audyt → pętla jakości; audyt jeszcze do wykonania.
+   Jeśli PR sesji już istnieje, kontynuuj go, zamiast tworzyć nowy.
+2. **Lektura obowiązkowa** wg `AGENTS.md` — w całości i w podanej kolejności. Sprawdź
+   `git rev-parse --is-shallow-repository`; jeśli `true`, pobierz `git fetch --unshallow origin`.
+3. **Audyt poprzedniego scalonego PR**: `gh pr list --state merged --limit 3`, opis, pliki i diff.
+   Osobno: (3a) zmiany stron bazy — merytorycznie, z kwerendą i porównaniem z dostawą;
+   (3b) kod — przegląd i `npm test` + `npm run build`; (3c) inne, np. dokumentacja.
+   Zakres, wyniki i nieweryfikowane kwestie zapisz w opisie PR sesji.
+4. **Domyślna pętla jakości bazy**, bez czekania na nowe zlecenie: uzasadnione rozszerzenia
+   wpisów, relacji i brakujących encji z dostawy, na podstawie kwerendy lub pamięci modelu,
+   z zachowaniem ADR-ów, poziomów wiarygodności i granicy rozegranej fabuły.
+   Każdy zielony krok: dziennik zmian bazy, commit, push i aktualizacja opisu PR.
 
 ## 10. Checklista przed oddaniem PR-a właścicielowi
 
