@@ -147,6 +147,8 @@ Jedyne, czego naprawdę pilnujemy: **graf się nie rozjeżdża, a czytelnik wie,
 - Nie zmieniać slugów istniejących wpisów.
 - Nie wrzucać dużych obrazów do repozytorium — do repo trafiają miniatury i manifest w `media/`,
   oryginały leżą poza gitem. Wpis bez ilustracji ma się renderować poprawnie.
+- Listę ilustracji z R2 pobieraj przez ręczny workflow `r2-inventory.yml` (ADR 0015);
+  procedura: `docs/guides/ILUSTRACJE_R2.md`. Nie proś o klucze w czacie.
 - Nie wypełniać pól na siłę. Pusta lista znaczy „jeszcze nie wiem" i jest w porządku.
 - Nie dodawać zależności npm do silnika witryny (`src/srw/`). Zależności build-time wymagają ADR-a.
 - Nie scalać i nie zamykać PR-ów, nie pushować do `main`, nie robić force push (ADR 0007).
