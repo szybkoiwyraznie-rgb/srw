@@ -10,5 +10,5 @@ utworzono: 2026-10-19
 
 ## Opis
 
-Nazwa serii podana przez właściciela przy danych jednostek w [[srw-oe|Super Robot Wars OE]]. Z tą serią powiązano: [[exart|Exart]], [[cybuster|Cybuster]] i [[cybird|Cybird]] oraz profile ich załogi: [[seishiro|Seishiro Kusanagi]], [[himari-yaegaki|Himari Yaegaki]] i [[masaki-andoh|Masaki Andoh]]. Nie określono wersji ani roku wydania.
+Nazwa serii podana przez właściciela przy danych jednostek w [[srw-oe|Super Robot Wars OE]]. Z tą serią powiązano: [[exart|Exart]], [[cybuster|Cybuster]] i [[cybird|Cybird]] oraz postacie: [[seishiro|Seishiro Kusanagi]], [[himari-yaegaki|Himari Yaegaki]] i [[masaki-andoh|Masaki Andoh]]. Nie określono wersji ani roku wydania.
 }}

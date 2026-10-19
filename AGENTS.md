@@ -129,7 +129,8 @@ Szczegółowa lista kroków: `docs/guides/PRZEPLYW_EPIZODU.md`.
   otrzymuje wpis także bez tekstu. Obraz ma poziom `menu`, uzupełnienia — `zrodlo` lub `wiedza`.
   Nie wymaga to dopisania encji do konkretnej sceny ani zmiany załogi z menu.
 - **Nie wyprzedzaj fabuły (ADR 0012).** Nie dodawaj wydarzeń ani ról postaci ujawnianych
-  dopiero po aktualnie rozegranym materiale, nawet jeśli potwierdza je zewnętrzne źródło.
+  dopiero po aktualnie rozegranym materiale, nawet jeśli podaje je menu/dostawa właściciela
+  lub potwierdza je zewnętrzne źródło. Pochodzenie informacji nie jest zgodą na spoiler.
   Nie przenoś takich informacji do osobnej sekcji ani pod oznaczenie spoilera.
 - **Nie wymyślaj faktów.** Czego nie ma w skrypcie i czego nie potwierdza źródło, tego nie wpisujesz
   jako ustalenia. Luka opisana wprost („w skrypcie nie pada tytuł odcinka") jest lepsza niż

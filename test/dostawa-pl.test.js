@@ -41,7 +41,7 @@ test('pięć jednostek zachowuje wszystkie ataki i ich dane w parze mech–gra',
 });
 
 test('profile załogi i transformacje są powiązane, ale nie udają sceny fabularnej', () => {
-  assert.deepEqual(bySlug.get('exart').piloci, ['seishiro', 'himari-yaegaki']);
+  assert.deepEqual(bySlug.get('exart').piloci, ['seishiro']);
   assert.deepEqual(bySlug.get('masaki-andoh').mechy, ['cybuster', 'cybird']);
   assert.deepEqual(bySlug.get('control-ai').mechy, ['brocken']);
   assert.deepEqual(bySlug.get('real-pg-gundam').piloci, []);
@@ -51,7 +51,7 @@ test('profile załogi i transformacje są powiązane, ale nie udają sceny fabul
     assert.deepEqual(bySlug.get(slug).postacie, ['seishiro', 'himari-yaegaki']);
     assert.deepEqual(bySlug.get(slug).mechy, ['exart']);
   }
-  assert.match(bySlug.get('himari-yaegaki').body, /brak macierzystego przypisania/);
+  assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /Profil załogi|Miejsce 2|brak macierzystego przypisania/);
   assert.ok(bySlug.has('invaderzy'));
   assert.ok(!bySlug.has('keroro'), 'nazwa wariantu nie przypisuje domyślnego pilota');
 });
@@ -109,4 +109,18 @@ test('ilustracja jest dostawą: Kuro i Shiro mają opisy, źródła i powiązani
     assert.ok(!bySlug.get('cybuster').piloci.includes(slug), 'źródło nie zmienia załogi z menu');
     assert.match(bySlug.get('masaki-andoh').body, new RegExp('\\[\\['+slug+'\\|'));
   }
+});
+
+
+test('menu nie uchyla zakazu spoilerów: brak przyszłej roli Himari w stronach i danych', () => {
+  assert.deepEqual(bySlug.get('exart').piloci, ['seishiro']);
+  for (const page of pages) {
+    assert.doesNotMatch(page.body, /(?:Miejsce|miejsce) 2[^\n]*Himari|Himari[^\n]*drugie miejsce|dwa miejsca załogi|kiedy Himari zajmie/);
+  }
+  const stats = JSON.parse(bySlug.get('exart').w_gre['srw-oe']);
+  assert.doesNotMatch(stats.dane, /Miejsce 2|Przypisany profil: Himari|brak macierzystego przypisania/);
+  assert.doesNotMatch(fs.readFileSync('content/co-nowego.md','utf8'), /dwa miejsca załogi|drugie miejsce Exarta/);
+  // Raw owner archive remains faithful; it is not embedded in the site.
+  assert.match(delivery, /Miejsce 2: Himari Yaegaki/);
+  assert.match(bySlug.get('himari-yaegaki').body, /zdalnie steruje/);
 });

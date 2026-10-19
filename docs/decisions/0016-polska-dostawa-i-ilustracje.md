@@ -10,6 +10,16 @@ podstawą utworzenia encji; brak tekstu uzupełnia agent kwerendą lub pamięci�
 Kuro i Shiro nie czekają już na dodatkową dostawę. Ilustracja nadal nie dowodzi konkretnego
 zdarzenia fabularnego ani przypisania domyślnego pilota.
 
+## Korekta 2026-10-19 — granica fabuły obowiązuje również menu
+
+Właściciel wskazał, że stwierdzenie z pkt 4 dotyczące przyszłej roli Himari było błędne.
+**Poziom `menu` nie uchyla zakazu spoilerów z ADR 0012.** Archiwalna dostawa zachowuje
+pełny tekst, ale jej dane wyprzedzające fabułę nie trafiają do stron, relacji ani `w_gre`.
+Usunięcie obejmuje też komentarze i dziennik widoczny w witrynie; informacji nie przenosi
+się do osobnej sekcji. W tym zakresie pkt 4 nie obowiązuje. Nie zmienia to zasady,
+że dostawa jednostki lub ilustracja może ustanawiać encję bez przypisywania jej
+konkretnego przyszłego wydarzenia.
+
 ## Kontekst
 
 Właściciel polecił przejść w całości na język polski, zastąpić wcześniejsze dostawy

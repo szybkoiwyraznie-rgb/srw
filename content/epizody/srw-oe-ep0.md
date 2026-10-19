@@ -36,7 +36,7 @@ Retrospekcja pokazuje jej przeniesienie do [[connect-force|Connect Force]]. Mło
 
 ## Komentarz
 
-Scena pokazuje pracę pilota i operatorki, nie wspólny start dwuosobowej załogi. Osobna dostawa menu podaje dwa miejsca załogi Exarta, ale nie określa, kiedy Himari zajmie drugie miejsce w fabule. Dane menu nie dowodzą też wystąpienia Cybustera, Cybirda, Brockena ani Real PG Gundama w tym epizodzie.
+Scena pokazuje pracę pilota i operatorki: Seishiro pilotuje Exarta, a Himari prowadzi ćwiczenia i może sterować jednostką zdalnie. Dane menu nie dowodzą wystąpienia Cybustera, Cybirda, Brockena ani Real PG Gundama w tym epizodzie.
 }}
 {{zrodlo
 
