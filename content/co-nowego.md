@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-10-19 23:10
+
+- Super Robot Wars OE: deweloper Sazanami i wydawca Bandai Namco Games; dane o ośmiu rozdziałach i liczbie misji.
+- Seishiro Kusanagi: dane postaci w osobnej sekcji, z japońskim zapisem imienia, wiekiem i głosem.
+- Mobile Police Patlabor i Sgt. Frog: opisy potwierdzone źródłami, z japońskimi tytułami i rokiem.
+- Masaki Andoh i Cybuster: uporządkowane odsyłacze w sekcjach o Kuro i Shiro.
+
 ## 2026-10-19 22:57
 
 - Rozwinięte opisy Brockena, Cybustera, Cybirda, Real PG Gundama, Masakiego i Control AI: uzbrojenie, transformacje i rola w walce.

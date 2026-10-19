@@ -56,12 +56,13 @@ Scena pokazuje pracę pilota i operatorki: Seishiro pilotuje Exarta, a Himari pr
 Wspomnienie dawnych najazdów łączy różne historie w jedną przeszłość świata gry.
 Imperium Muge prawdopodobnie nawiązuje do Muge Zorbados Empire z *Dancougi*,
 a wspólną ramą chronologiczną staje się Universal Century z *Gundama*.
+Skoro prolog rozgrywa się w U.C. 0079, incydent Devil Gundam należy w tym świecie do przeszłości tej ery.
 }}
 {{zrodlo
 
 ## Inne źródła i rozbieżności
 
-- **Dwie chronologie.** W Super Robot Wars OE incydent Devil Gundam należy do historii U.C. Według
-  Wikipedii *G Gundam* rozgrywa się w osobnej, alternatywnej osi czasu Future Century, a nie w Universal Century.
-  To różnica między wspólnym światem OE a chronologią oryginalnego anime.
+- **Dwie chronologie.** Według Wikipedii *G Gundam* rozgrywa się w osobnej, alternatywnej osi czasu
+  Future Century, a nie w Universal Century ([Wikipedia, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam); sprawdzono 2026-10-19).
+  To różnica między chronologią oryginalnego anime a wspólnym światem gry.
 }}

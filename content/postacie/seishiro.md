@@ -42,10 +42,11 @@ Domyślny profil załogi [[exart|Exarta]], miejsce 1: Seishiro Kusanagi.
 
 - **Potencjał (poziom bazowy 1):** Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4%. *Pole poziomu nauki: 1.*
 }}
+
+## Dane postaci
+
 {{zrodlo
 
-- Japońskie imię i nazwisko: 草薙征士郎 ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend)).
-- Wiek: 22 lata. Głos w wersji japońskiej: Go Shinomiya ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
-- Ojciec był dowódcą Connect Force i zginął w walce, gdy Seishiro był młody ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
-- Pilotuje [[exart|Exarta]] ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
+- Japońskie imię i nazwisko: 草薙征士郎 ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend); sprawdzono 2026-10-19).
+- Wiek: 22 lata. Głos w wersji japońskiej: Go Shinomiya ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-19).
 }}

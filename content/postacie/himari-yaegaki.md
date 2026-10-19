@@ -34,7 +34,9 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 
 }}
 
+## Dane postaci
+
 {{zrodlo
 
-- Wiek: 18 lat. Głos w wersji japońskiej: Kana Asumi ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
+- Wiek: 18 lat. Głos w wersji japońskiej: Kana Asumi ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-19).
 }}

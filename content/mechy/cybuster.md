@@ -73,5 +73,5 @@ Cybuster to maszyna pilotowana przez [[masaki-andoh|Masakiego Andoh]]. Może prz
 
 {{zrodlo
 
-[[kuro|Kuro]] i [[shiro|Shiro]] to magiczni towarzysze [[masaki-andoh|Masakiego Andoh]], wspierający go przy obsłudze [[cybuster|Cybustera]]. ([Super Robot Wars Wiki, „Cybuster”, opis wprowadzający](https://superrobotwars.fandom.com/wiki/Cybuster); sprawdzono 2026-10-19).
+[[kuro|Kuro]] i [[shiro|Shiro]] to magiczni towarzysze [[masaki-andoh|Masakiego Andoh]], wspierający go przy obsłudze Cybustera. ([Super Robot Wars Wiki, „Cybuster”, opis wprowadzający](https://superrobotwars.fandom.com/wiki/Cybuster); sprawdzono 2026-10-19).
 }}
