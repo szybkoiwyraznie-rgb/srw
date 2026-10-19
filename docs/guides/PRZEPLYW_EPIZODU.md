@@ -48,6 +48,13 @@ Uwaga na poziom szczegółu: **statystyki i uzbrojenie opisują parę (mech, gra
 Wiedza o późniejszych epizodach i losach postaci do wpisu nie trafia (ADR 0012).
 Jeśli menu gry podało parametry, zapisz je w `w_gre`, nie w opisie ogólnym.
 
+### Dostawy ilustracyjne (ADR 0017)
+
+Ilustracja właściciela jest samodzielną dostawą postaci lub mecha, także bez opisu tekstowego.
+Sprawdź istniejące slugi, utwórz brakujący wpis, przypisz obraz i uzupełnij opis kwerendą
+lub pamięcią modelu, z właściwymi blokami wiarygodności. Nie dopisuj udziału w scenie,
+daty debiutu ani domyślnej załogi bez potwierdzenia w odpowiednim materiale.
+
 ## 4. Serie anime
 
 Encja `seria` to nie streszczenie anime — to węzeł grafu: rok, rodzaj, liczba odcinków

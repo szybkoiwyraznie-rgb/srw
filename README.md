@@ -1,9 +1,9 @@
 # SRW Database
 
 > **Agent / nowa sesja:** jedyny plik startowy to [`AGENTS.md`](AGENTS.md).
-> Czytasz go w całości, potem `docs/decisions/`, `docs/LESSONS.md`,
-> `docs/guides/ENVIRONMENT.md` i `docs/guides/SCHEMAT_DANYCH.md` — **zanim** napiszesz
-> cokolwiek do właściciela. Pierwszą czynnością jest otwarcie PR-a sesji (ADR 0007).
+> Po jego odczytaniu: **PR ze wstępnym planem → lektura obowiązkowa → audyt poprzedniego
+> scalonego PR (merytoryczny z kwerendą, kodu, pozostałych zmian) → domyślna pętla jakości bazy**
+> (ADR 0014). Nie czekaj na osobne zlecenie pogłębiania wpisów w granicach ADR-ów.
 
 Prywatny dziennik rozgrywki i baza wiedzy o grach z serii *Super Robot Wars*, prowadzony
 równolegle z graniem. Nie jest to serwis fanowski: baza opisuje tylko to, co zostało rozegrane,
@@ -28,7 +28,8 @@ npm run serve     # podgląd na http://0.0.0.0:3000
 ```
 
 Artefakt otwiera się też bezpośrednio z dysku (`file://`) — routing jest po hashu, wyszukiwanie
-działa po stronie przeglądarki, zero zależności runtime.
+działa po stronie przeglądarki, zero zależności runtime. Zewnętrzne ilustracje z R2
+wymagają sieci; ich brak nie blokuje czytania tekstu (ADR 0016).
 
 ## Mapa projektu
 
@@ -55,11 +56,14 @@ działa po stronie przeglądarki, zero zależności runtime.
   `wiedza` (niesprawdzona, bez linków). Adres trafia do bazy dopiero po sprawdzeniu (ADR 0009).
 - **Skrypt bez wpisu epizodu wywala build.** To celowe: oznacza materiał czekający na przetworzenie.
 - **Slug jest niezmienny.** Zmiana identyfikatora zrywa cały graf.
+- **Ilustracja to też dostawa encji.** Dla postaci lub mecha dostarczonego obrazem agent
+  tworzy wpis, nawet jeśli brak opisu tekstowego; uzupełnia go kwerendą lub oznaczoną
+  pamięcią modelu, bez wyprzedzania fabuły (ADR 0017).
 - **Swoboda formy jest zaletą.** Nie ma zamkniętej listy sekcji ani słownika tagów — kolejne sesje,
   modele i style mają prawo pisać inaczej, o ile graf i znaczniki pochodzenia się trzymają.
 - **Sesja agenta = jedna gałąź i jeden PR.** PR z planem i audytem powstaje przed pierwszą zmianą,
-  commit i push idą po każdym zielonym kroku, treść wynika tylko z zatwierdzonego flow,
-  a scala wyłącznie właściciel — agent nigdy (ADR 0007, `docs/guides/ENVIRONMENT.md`).
+  commit i push idą po każdym zielonym kroku, treść powstaje w pętli epizodu, domyślnej pętli jakości lub na zlecenie,
+  a scala wyłącznie właściciel — agent nigdy (ADR 0007 i 0014, `docs/guides/ENVIRONMENT.md`).
 
 ## Publikacja
 

@@ -158,6 +158,18 @@ p { margin: .8em 0; }
 .obraz { margin: 0 0 20px; }
 .obraz img { max-width: 100%; border-radius: 10px; border: 1px solid var(--ramka); }
 .obraz figcaption { color: var(--tusz-3); font-size: .82rem; margin-top: 6px; }
+/* Ilustracje zewnętrzne w treści: podgląd nie rozpycha strony ani małego ekranu. */
+.tresc-encja img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 420px;
+  object-fit: contain;
+  margin: 12px auto;
+  border-radius: 8px;
+}
+
 
 .tabela-owijka { overflow-x: auto; margin: 1.2em 0; }
 table { border-collapse: collapse; width: 100%; font-size: .92rem; }

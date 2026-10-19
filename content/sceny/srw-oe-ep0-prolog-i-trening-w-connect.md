@@ -4,11 +4,11 @@ slug: prolog-i-trening-w-connect
 tytul: Prolog i trening w Connect
 epizod: srw-oe-ep0
 numer_sceny: "0-1"
-streszczenie: Prolog w U.C. 0079, pierwszy trening Seishiro i Himari, retrospekcja z hangaru i rozmowa po misji.
+streszczenie: Prolog w U.C. 0079, szkolenie podstawowe Seishiro i Himari, retrospekcja oraz odprawa po treningu.
 pochodzenie: skrypt
 postacie: [seishiro, himari-yaegaki]
 mechy: [exart]
-pojecia: [dr-hell, devil-gundam-incident, connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai]
+pojecia: [dr-hell, devil-gundam-incident, connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai, invaderzy]
 tagi: [prolog, trening]
 utworzono: 2026-10-17
 ---
@@ -17,280 +17,282 @@ utworzono: 2026-10-17
 ## Treść sceny
 
 :::skrypt
-## **Prologue**
+# Super Robot Wars OE — Epizod 0
 
-Decades have passed since the Earth Federation unified the world. Science, technology, and trade advanced ever faster, giant space colonies rose around Earth, and the Universal Century began.
+---
 
-In time, humanity spread across the solar system, growing rich on its vast resources and energy. But that breakneck expansion magnified not only prosperity, but every problem along with it.
+## Prolog
 
-Economic growth bred inequality, and funneled vast funds, resources, and talent into criminal hands.
+Minęły dekady, odkąd Federacja Ziemska zjednoczyła świat. Rozwój nauki, techniki i gospodarki nabrał tempa, wokół Ziemi wyrosły kolonie kosmiczne i nastała era Universal Century.
 
-Terrorists and pirates grew bolder, and some, like Dr. Hell, openly declared their plans for world conquest and challenged all of humanity.
+Z czasem ludzkość podbiła cały Układ Słoneczny i rozkwitła dzięki jego bogactwom i energii. Jednak gwałtowny rozwój pomnożył nie tylko dobrobyt, ale i skalę wszelkich problemów.
 
-The Federation Forces were overwhelmed, and the former nations and the space colonies alike were forced to arm themselves for their own defense.
+Ekspansja gospodarki zrodziła nierówności, a półświatek zyskał krocie, zasoby i ludzi.
 
-Naturally, this arms race only heightened tensions between nations and peoples, and it did not take long for the ideals of a unified government to be lost.
+W efekcie terroryści i piraci rośli w siłę, a niektórzy, jak Dr Hell, jawnie dążyli do podboju świata, rzucając wyzwanie ludzkości.
 
-Ironically, war drove science forward even faster, spawning one runaway technology after another, the Devil Gundam Incident chief among them.
+Siły Federacji nie potrafiły temu sprostać, więc dawne państwa i kolonie kosmiczne musiały się zbroić, by bronić się same.
 
-Likewise, research into unknown energies has altered the Earth's energy balance and invited invasions by races other than our own.
+Rzecz jasna, ten wyścig zbrojeń podsycił napięcia między państwami i ludźmi, i nie trzeba było długo czekać, by idea jednego rządu odeszła w zapomnienie.
 
-The Invaders, the Muge Empire, the Evil God Drago, the Mechanization and Jaku Empires, Daimakai… Those unearthly assaults remain fresh in memory.
+Paradoksalnie wojny pchnęły naukę jeszcze dalej i - czego przykładem incydent Devil Gundam - rodziły technologie wymykające się kontroli.
 
-Yet humanity overcame each of these crises, rebuilding and advancing time and again.
+Podobnie badania nad nieznanymi energiami zachwiały równowagą energetyczną Ziemi i ściągają na nią najazdy ras nieludzkich.
 
-Ever uneasy about the next threat to come, people still live each day with resolve.
+Invaderzy, Imperium Muge, Zły Bóg Drago, imperia Mechanizacji i Jaku, Daimakai... Pamięć tych nadludzkich ataków wciąż żyje.
 
-### **U.C. 0079, Earth Sphere, Neutral Zone**
+Lecz ludzkość przetrwała wszystkie te kryzysy, raz po raz odbudowując się i rozwijając dalej.
 
-**Seishiro:** *(I work for Connect now, a private group dedicated to advancing commerce in space…)*
+Nie wiedząc, kiedy uderzy następne zagrożenie, ludzie żyją w niepokoju - ale żyją dzielnie.
 
-**Seishiro:** *(Connect is a household name, but few know how it began, or what it's really after…)*
+### U.C. 0079, okolice Ziemi, strefa neutralna
 
-**Seishiro:** *(People on Earth have survived so many threats to humanity's existence that the dealings of a single company hardly merit a glance.)*
+**Seishiro:** *(Pracuję teraz w Connect, prywatnej organizacji rozwijającej handel kosmiczny...)*
 
-**Seishiro:** *(But that's fine. If we can reach our goal without anyone noticing, all the better…)*
+**Seishiro:** *(Firmę Connect zna każdy, ale mało kto wie, jak powstała i jaki jest jej prawdziwy cel...)*
 
-## **Basic Training**
+**Seishiro:** *(Ziemianie tyle razy otarli się o zagładę ludzkości, że poczynania jakiejś firmy pewnie zupełnie ich nie interesują.)*
 
-### **Connect Station**
+**Seishiro:** *(Ale to dobrze. Jeśli osiągniemy nasz cel tak, by nikt się o tym nie dowiedział, tym lepiej...)*
 
-**Seishiro:** All right, training time.
+## Szkolenie podstawowe
 
-**Himari:** Ahem! Testing, testing, one, two, three!
+### Stacja Connect
 
-**Himari:** Seishiro, can you hear me?
+**Seishiro:** No dobrze, czas na trening.
 
-**Seishiro:** Loud and clear! Let's start the mission.
+**Himari:** Ehem! Próba mikrofonu, raz, dwa, trzy!
 
-**Himari:** Catapult connected! Exart, you're clear for launch!
+**Himari:** Seishiro, słyszysz mnie?
 
-**Seishiro:** Roger!
+**Seishiro:** Słyszę cię dobrze! Zaczynajmy misję.
 
-**Seishiro:** CF-00 Exart, launching!
+**Himari:** Katapulta podłączona! Exart, możesz startować!
 
-### **Training exercise**
+**Seishiro:** Przyjąłem!
 
-**Himari:** Today, you'll be testing combat maneuvers using the new maneuver control unit.
+**Seishiro:** CF-00 Exart, startuję!
 
-**Himari:** First, please 'Move' to the designated area.
+### Ćwiczenia treningowe
 
-**Seishiro:** Roger! 'Moving' to the target!
+**Himari:** Dziś przetestujesz manewry bojowe z nowo zamontowanym układem sterowania.
 
-**Himari:** Displaying the designated area.
+**Himari:** Najpierw wykonaj 'Ruch' na wyznaczony obszar.
 
-**Seishiro:** Target confirmed! Beginning my 'Move' now.
+**Seishiro:** Przyjąłem! Wykonuję 'Ruch' do celu!
 
-#### **Conditional dialogue — course corrections**
+**Himari:** Wyświetlam wyznaczony obszar.
 
-> **Himari:** You're drifting away from the target. Please head to the designated area at once.
+**Seishiro:** Cel potwierdzony! Rozpoczynam 'Ruch'.
 
-> **Seishiro:** No sightseeing, huh?
+#### Dialogi warunkowe — korekty kursu
 
-> **Himari:** Moving consumes 'EN'. Without 'EN', you can't move or fight.
+> **Himari:** Oddalasz się od celu. Kieruj się od razu do wyznaczonego obszaru.
 
-> **Seishiro:** I've still got combat maneuvers coming up. I'll save 'EN' and take the shortest route.
+> **Seishiro:** Żadnego zwiedzania, co?
 
-> **Himari:** Please do.
+> **Himari:** Poruszanie się zużywa 'EN'. Bez 'EN' nie będzie ani ruchu, ani walki.
 
-#### **Conditional dialogue — remote guidance**
+> **Seishiro:** Zaraz potem czekają mnie manewry bojowe. Oszczędzę 'EN' i polecę najkrótszą trasą.
 
-> **Himari:** That's not the shortest route. Switching to remote control. Moving you in.
+> **Himari:** Świetnie, liczę na to.
 
-> **Seishiro:** Good, Himari. That was the right call.
+#### Dialogi warunkowe — zdalne wskazówki
 
-> **Himari:** Really?! Ehehe…
+> **Himari:** To nie jest najkrótsza trasa. Przejmuję zdalne sterowanie, przenoszę cię.
 
-> **Seishiro:** Don't let your guard down. Always keep a healthy amount of tension.
+> **Seishiro:** Dobrze, Himari. Trafna decyzja.
 
-> **Himari:** Oh… Yes, sir!
+> **Himari:** Naprawdę? Hehe...
 
-> **Himari:** Moving Exart to the designated area remotely.
+> **Seishiro:** Nie trać czujności. Odrobina napięcia zawsze się przyda.
 
-#### **Supplies and parts**
+> **Himari:** Ach... Tak jest!
 
-**Himari:** Arrival at designated area confirmed.
+> **Himari:** Przenoszę Exarta zdalnie na wyznaczony obszar.
 
-**Himari:** Next, move to the second target, collect the 'Supplies', and replenish your 'EN'.
+#### Zaopatrzenie i części
 
-**Himari:** “Reach the same coordinates as the 'Supplies' and the unit will detect and collect them.”
+**Himari:** Potwierdzam dotarcie do wyznaczonego obszaru.
 
-**Seishiro:** Roger! 'Moving' to the 'Supplies' coordinates, then replenishing EN.
+**Himari:** Teraz leć do drugiego celu po 'Zaopatrzenie' i uzupełnij 'EN'.
 
-**Seishiro:** EN replenished!
+**Himari:** "Gdy dotrzesz na pole z 'Zaopatrzeniem', maszyna sama je wykryje i zabierze."
 
-**Himari:** Next, we'll retrieve 'Parts'.
+**Seishiro:** Przyjąłem! Wykonuję 'Ruch' na pole z 'Zaopatrzeniem', potem uzupełniam EN.
 
-**Himari:** Deploying container blocks.
+**Seishiro:** EN uzupełnione!
 
-**Himari:** “Reach the same coordinates as a 'Container' and the unit will retrieve the 'Parts'.”
+**Himari:** Teraz zbierzemy 'Części'.
 
-**Seishiro:** Roger! 'Moving' to the 'Container' coordinates, then retrieving the 'Parts'.
+**Himari:** Rozmieszczam kontenery.
 
-**Seishiro:** Parts retrieved!
+**Himari:** "Gdy dotrzesz na pole z 'Kontenerem', maszyna sama zabierze 'Części'."
 
-**Seishiro:** It's a repair kit for patching up damage. Nice to have equipped when things get dicey.
+**Seishiro:** Przyjąłem! Wykonuję 'Ruch' na pole z 'Kontenerem', potem zbieram 'Części'.
 
-#### **Combat training**
+**Seishiro:** Części zebrane!
 
-**Himari:** Now, moving on to combat maneuvers.
+**Seishiro:** To zestaw do doraźnej naprawy uszkodzeń. Warto go mieć, gdy zrobi się gorąco.
 
-**Himari:** Displaying simulated enemies.
+#### Trening walki
 
-**Seishiro:** Enemy confirmed!
+**Himari:** Przechodzimy do manewrów bojowych.
 
-**Seishiro:** Huh… That doesn't look like a simulation.
+**Himari:** Wyświetlam symulowanych przeciwników.
 
-**Himari:** The system was upgraded just the other day.
+**Seishiro:** Wróg namierzony!
 
-**Himari:** Impact from hits is fed back to the unit, too, for a far more realistic combat simulation.
+**Seishiro:** Hm... Wcale nie wygląda jak symulacja.
 
-**Seishiro:** Now that I'm looking forward to.
+**Himari:** System został niedawno zaktualizowany.
 
-**Seishiro:** Commencing 'Attack'!
+**Himari:** Maszyna odczuwa teraz nawet wstrząsy trafień, więc walka ma być podobno jak prawdziwa.
 
-**Himari:** Target drone down!
+**Seishiro:** No, to zapowiada się ciekawie.
 
-**Himari:** Keep going. Destroy the next targets.
+**Seishiro:** Rozpoczynam 'Atak'!
 
-**Himari:** Containers will deploy along with the drones. If you want the 'Parts', grab them before you destroy all the drones.
+**Himari:** Cel ćwiczebny zestrzelony!
 
-**Seishiro:** Target confirmed! Continuing combat!
+**Himari:** Dalej. Zniszcz kolejne cele.
 
-**Seishiro:** All targets down!
+**Himari:** Razem z celami rozmieszczę też kontenery. Jeśli chcesz zebrać 'Części', zrób to, zanim zniszczysz wszystkie cele.
 
-**Himari:** That concludes today's mission. Great work!
+**Seishiro:** Cel potwierdzony! Kontynuuję walkę!
 
-**Seishiro:** You're getting the hang of this, Himari.
+**Seishiro:** Wszystkie cele zestrzelone!
 
-**Himari:** Huh, really?! I'm still nervous the whole time, though…
+**Himari:** To koniec dzisiejszej misji. Dobra robota!
 
-**Seishiro:** Hahaha! On your first day, I had my doubts.
+**Seishiro:** Himari, nabierasz wprawy jako operatorka.
 
-**Himari:** D-don't bring that up!
+**Himari:** Co? Naprawdę? Ciągle jeszcze strasznie się denerwuję...
 
-### **A few days earlier…**
+**Seishiro:** Hahaha! Pierwszego dnia miałem wątpliwości.
 
-**Himari:** Whoa… What an amazing robot…!
+**Himari:** N-nie przypominaj mi o tym!
 
-**Seishiro:** Stop right there! This hangar is off-limits to outsiders. How did you get in here?
+### Kilka dni wcześniej...
 
-**Himari:** Oh, I'm so sorry! I just transferred from General Affairs 44.
+**Himari:** Łaaał... Co za niesamowity robot...!
 
-**Himari:** It's only my first year, but I'll do my best!
+**Seishiro:** Stój! Wstęp do hangaru Exarta mają tylko uprawnieni. Jak tu weszłaś?
 
-**Seishiro:** You're…? The new recruit for Connect Force?
+**Himari:** Ojej, przepraszam! Przeniesiono mnie z 44. Działu Administracji.
 
-**Himari:** Yes! My name is Himari Yaegaki. From Japan, on Earth. I studied engineering.
+**Himari:** Jestem w firmie pierwszy rok. Bardzo mi miło!
 
-**Seishiro:** I see. Nice to meet y…
+**Seishiro:** To ty jesteś...? Nowy członek Connect Force?
 
-**Himari:** People say I don't look the science type, but I skipped grades and finished my master's!
+**Himari:** Tak! Nazywam się Himari Yaegaki. Pochodzę z Japonii, studiowałam inżynierię.
 
-**Seishiro:** I see. That expl…
+**Seishiro:** Rozumiem. Miło cię pozn...
 
-**Himari:** My faves are BBQ, ramen, and dessert buffets. And the perfect drink with dessert… has to be a caramel macchiato!
+**Himari:** Wiele osób mówi, że nie wyglądam na ścisłowca, ale przeskakiwałam klasy i mam już magisterkę!
 
-**Himari:** Oh, there was pilot and operator training last week, but… I don't even have a driver's license. Will I be okay…?
+**Seishiro:** Rozumiem. To wyjaś...
 
-**Seishiro:** Um… Hold on a second…
+**Himari:** Uwielbiam yakiniku, ramen i bufety deserowe. A do deseru najlepiej pasuje... oczywiście karmelowe macchiato!
 
-**Himari:** I think I can push through most things, but I'm not so great with the cold…
+**Himari:** Aha, w zeszłym tygodniu było szkolenie pilotów i operatorów, a ja... nie mam nawet prawka. Myślisz, że dam radę...?
 
-**Himari:** Oh, but I love baths! And also…
+**Seishiro:** Eee... Chwileczkę...
 
-**Seishiro:** Th-that's plenty!
+**Himari:** Myślę, że z większością rzeczy sobie poradzę, tylko zimna jakoś nie znoszę...
 
-**Himari:** Oh… I'm sorry!
+**Himari:** Za to kąpiele uwielbiam! A poza tym...
 
-**Himari:** I talked way too much, didn't I…
+**Seishiro:** W-wystarczy!
 
-**Seishiro:** We're Connect Force. In other words, a combat unit. Long chatter on a mission can get you killed.
+**Himari:** Ach... Przepraszam!
 
-**Himari:** Understood… I'll be careful.
+**Himari:** Za dużo gadam, prawda...?
 
-**Seishiro:** Good.
+**Seishiro:** Jesteśmy Connect Force. Innymi słowy, oddział bojowy. Na misji gadulstwo bywa zabójcze. Uważaj.
 
-**Himari:** Um, can I ask you one thing?
+**Himari:** Rozumiem... Będę uważać.
 
-**Himari:** You just said "combat unit," but what is it we actually do?
+**Seishiro:** I dobrze.
 
-**Himari:** Nobody told me anything when I transferred…
+**Himari:** Ee, mogę zadać jedno pytanie?
 
-**Seishiro:** Exactly what it sounds like. We expect combat.
+**Himari:** Powiedziałeś przed chwilą "oddział bojowy", ale czym my się właściwie zajmujemy?
 
-**Seishiro:** That robot in front of you isn't for labor. It's a cutting-edge weapon for any mission.
+**Himari:** Przy przenosinach nic mi nie powiedziano...
 
-**Himari:** A weapon…?
+**Seishiro:** Tak jak mówię: liczymy się z walką.
 
-**Himari:** Whaaat?! Why does a private company need one?
+**Seishiro:** Ten robot przed tobą nie służy do pracy. To najnowocześniejsza broń na każdą misję.
 
-**Seishiro:** Everyone assigned here reacts the same way…
+**Himari:** Broń...?
 
-**Seishiro:** But once you know its purpose, you'll see this is the most rewarding job in all of Connect.
+**Himari:** Cooo?! Po co prywatnej firmie broń?!
 
-**Himari:** Really?
+**Seishiro:** Każdy, kto tu trafia, reaguje tak samo...
 
-**Himari:** But hearing you say it with such conviction really fires me up!
+**Seishiro:** Ale gdy poznasz nasz cel, przekonasz się, że to najlepsza praca w całym Connect.
 
-**Seishiro:** You have the aptitude. You were picked from hundreds of thousands.
+**Himari:** Naprawdę?
 
-**Himari:** So I'm one of the chosen ones?!
+**Himari:** Ale kiedy mówisz to z takim przekonaniem, od razu mam więcej zapału!
 
-**Himari:** Aw, gee… I don't know about that…
+**Seishiro:** Masz predyspozycje. Wybrano cię spośród setek tysięcy kandydatów.
 
-**Seishiro:** For now, we'll be training for real combat, but something unexpected could happen anytime.
+**Himari:** Czyżbym była wybranką losu?!
 
-**Seishiro:** Make each day count. Always give it your all!
+**Himari:** Oj tam, no nie wiem, nie wiem...
 
-**Himari:** Yes! I'll do my best!
+**Seishiro:** Na razie szkolimy się do prawdziwej walki, ale nigdy nie wiadomo, co się wydarzy.
 
-### **Connect Station / Hangar**
+**Seishiro:** Każdy dzień się liczy. Daj z siebie wszystko!
 
-**Seishiro:** *(Didn't expect them to send me a new grad. I figured we'd get a veteran operator…)*
+**Himari:** Tak! Postaram się!
 
-**Seishiro:** *(It can't be that this project of all things is short on people…)*
+### Stacja Connect / Hangar
 
-**Himari:** Welcome back!
+**Seishiro:** *(Nie sądziłem, że dostanę świeżą absolwentkę. Liczyłem na doświadczoną operatorkę...)*
 
-**Seishiro:** Good work, Himari.
+**Seishiro:** *(Akurat ten projekt raczej nie cierpi na brak ludzi...)*
 
-**Seishiro:** Send the data to HQ's analysis team. Do you know how?
+**Himari:** Witaj z powrotem!
 
-**Himari:** The data… Um… How do I…
+**Seishiro:** Dobra robota, Himari.
 
-**Seishiro:** They didn't brief you?
+**Seishiro:** Prześlij dane do działu analiz w centrali. Wiesz, jak to zrobić?
 
-**Himari:** I'm sorry, I haven't studied enough…
+**Himari:** Dane... ee... jak to się...?
 
-**Seishiro:** Looks like I've still got a lot to teach you. I'll walk you through it.
+**Seishiro:** Nikt cię nie przeszkolił?
 
-**Himari:** I'm sorry. Now you're stuck working late because of me.
+**Himari:** Przepraszam, jeszcze się tego nie nauczyłam...
 
-**Seishiro:** Don't worry about it.
+**Seishiro:** Widzę, że wiele jeszcze muszę cię nauczyć. Wytłumaczę ci, jak to się robi.
 
-**Seishiro:** This job is life-or-death. I'm not kidding. I need you to take it seriously too.
+**Himari:** Przepraszam. Przeze mnie musisz zostać po godzinach.
 
-**Himari:** Yes, sir!
+**Seishiro:** Nie przejmuj się tym.
 
-**Seishiro:** *(Himari was hand-picked by the organization. She must be vital to the project.)*
+**Seishiro:** Ta praca to naprawdę kwestia życia i śmierci. Proszę, traktuj ją poważnie.
 
-**Seishiro:** *(Well, anything she doesn't know, I can teach. What matters is how she gels with the team.)*
+**Himari:** Tak jest!
+
+**Seishiro:** *(Przydział Himari to decyzja organizacji. Musi więc być niezbędna dla projektu.)*
+
+**Seishiro:** *(Cóż, czego nie wie, tego ją nauczę. Liczy się to, jak zgra się z zespołem.)*
 :::
 
 ## Analiza
 
-Connect jest prywatną grupą, a Seishiro uważa, że jego cel pozostaje nieznany innym. Trening pokazuje mechanikę w formie dialogów: ruch kosztuje „EN”, zaopatrzenie uzupełnia EN, a części naprawiają uszkodzenia. Himari dołącza do jednostki jako nowa osoba, wybrana spośród setek tysięcy kandydatów.
+Prolog zestawia rozwój cywilizacji z kosztami ekspansji: nierównościami, przestępczością i rozpadem jedności politycznej. [[earth-federation|Federacja Ziemska]] nie potrafi samodzielnie zapewnić bezpieczeństwa, a wyścig zbrojeń przynosi także niekontrolowane technologie. Wspomniane kryzysy należą do przeszłości tej opowieści; nie przesądzają, kto pojawi się później.
 
-Connect Force jest jednostką bojową, a jej rola w większym projekcie pozostaje niejasna. Dlaczego wybrano Himari, nie wiadomo. Seishiro podejrzewa, że jest ona ważna dla projektu, ale nie ma co do tego pewności.
+W [[uc-0079|U.C. 0079]] [[seishiro|Seishiro]] pracuje w [[connect-force|Connect]]. Zna cel organizacji, ale go nie ujawnia. Trening [[exart|Exarta]] daje [[himari-yaegaki|Himari]] okazję do pracy operatorki: wyznacza cele, reaguje na nieoszczędny kurs i może przejąć sterowanie zdalne.
 
 ## Wątki w scenie
 
-- **Trening jako wprowadzenie.** Himari ustawia zadania, Seishiro je wykonuje. Sceny pokazują zasady
-  EN, zaopatrzenia i części.
-- **Zdalne prowadzenie.** Himari przejmuje sterowanie, gdy Seishiro nie wybiera najkrótszej trasy. Seishiro
-  chwali ją i zaraz przypomina o napięciu.
-- **Retrospekcja w hangarze.** Himari pyta, do czego służy jednostka. Seishiro mówi, że to broń na każdą misję.
-- **Dane po misji.** Na końcu zostaje zadanie, które Himari musi wykonać sama: wysłać dane do analityków.
+- **Szkolenie i zasoby.** Ruch kosztuje EN, zaopatrzenie je odnawia, a części służą doraźnej naprawie. Kontenery trzeba zebrać przed zniszczeniem wszystkich celów ćwiczebnych.
+- **Retrospekcja.** Himari przedstawia się jako absolwentka inżynierii z magisterką i osoba w pierwszym roku pracy. Przy przenosinach z 44. Działu Administracji nie poznała zadań oddziału bojowego.
+- **Odpowiedzialność operatorki.** Seishiro chwali postępy Himari, lecz w hangarze odkrywa, że nie nauczono jej przesyłania danych. Oferuje pomoc, zamiast twierdzić, że dane zostały już wysłane.
+- **Niewyjaśniony wybór.** Wybrano Himari spośród setek tysięcy kandydatów. Seishiro uznaje ją za niezbędną dla projektu, ale cel projektu nadal pozostaje poza ujawnionymi informacjami.
 
 }}

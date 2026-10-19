@@ -1,0 +1,48 @@
+name: Lista ilustracji R2
+
+# Manual only: no secrets exposed to pull request code or untrusted inputs.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: r2-inventory
+  cancel-in-progress: false
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+      - name: Sprawdź AWS CLI
+        run: aws --version
+      - name: Odczytaj listę plików z R2
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          AWS_EC2_METADATA_DISABLED: 'true'
+          AWS_RETRY_MODE: standard
+          AWS_MAX_ATTEMPTS: '3'
+          R2_ENDPOINT: ${{ vars.R2_ENDPOINT }}
+          R2_BUCKET: srw-images
+          R2_PUBLIC_BASE_URL: https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev
+        run: node tools/r2-inventory.mjs "$RUNNER_TEMP/r2-inventory/r2-inventory.json"
+      - name: Udostępnij listę jako artefakt
+        uses: actions/upload-artifact@v7
+        with:
+          name: r2-inventory
+          path: ${{ runner.temp }}/r2-inventory/r2-inventory.json
+          if-no-files-found: error
+          retention-days: 7
+      - name: Podsumowanie
+        run: |
+          echo 'Lista plików i publiczne adresy są w artefakcie **r2-inventory**.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Bucket nie został zmieniony. Lista nie potwierdza dostępności publicznych URL.' >> "$GITHUB_STEP_SUMMARY"

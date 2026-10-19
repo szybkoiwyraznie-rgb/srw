@@ -23,7 +23,7 @@ const { renderListe, renderTagi, renderTag } = await import('../src/srw/render-l
 const { renderSzukanie } = await import('../src/srw/render-search.js');
 const { renderCoNowego } = await import('../src/srw/render-whatsnew.js');
 const { renderOBazie } = await import('../src/srw/render-about.js');
-const { rama, nieZnalesc } = await import('../src/srw/render.js');
+const { rama, nieZnalesc, NAZWY_POCHODZENIA } = await import('../src/srw/render.js');
 
 test('strona główna pokazuje liczby i nie udaje już bazy demonstracyjnej', () => {
   const html = renderGlowna();
@@ -45,7 +45,7 @@ test('strona postaci składa infoboks, powiązania i backlinki', () => {
 test('strona epizodu pokazuje skrypt, sceny i nawigację', () => {
   const html = renderEpizod('srw-oe-ep0');
   assert.match(html, /panel-skryptu/);
-  assert.match(html, /Connect Station/, 'surowy skrypt epizodu ma być widoczny');
+  assert.match(html, /Stacja Connect/, 'surowy skrypt epizodu ma być widoczny');
   assert.match(html, /#\/scena\/prolog-i-trening-w-connect/);
 });
 
@@ -62,7 +62,7 @@ test('listy działów działają i respektują filtry', () => {
   assert.match(postacie, /Himari Yaegaki/);
 
   const epizody = renderListe('epizod');
-  assert.match(epizody, /Episode 0/);
+  assert.match(epizody, /Epizod 0/);
 });
 
 test('tagi i strony tagów działają', () => {
@@ -97,4 +97,65 @@ test('szkielet strony zawiera nawigację i stopkę z licznikami', () => {
   assert.match(html, /#\/epizody/);
   assert.match(html, /#\/serie/);
   assert.match(html, /stopka/);
+});
+
+
+// Podmieniamy tylko metadane epizodu; po każdym teście przywracamy dane bazy.
+function epizodZPolami(t, pola) {
+  const strony = globalThis.SRW_DATA.strony;
+  const oryginal = strony['srw-oe-ep0'];
+  strony['srw-oe-ep0'] = { ...oryginal, ...pola };
+  t.after(() => { strony['srw-oe-ep0'] = oryginal; });
+  return renderEpizod('srw-oe-ep0');
+}
+
+test('brak daty rozegrania nie jest zadaniem do uzupełnienia ani pustym podtytułem', (t) => {
+  const html = epizodZPolami(t, { rozegrano: '', trasa: '' });
+  assert.doesNotMatch(html, /data rozegrania|Do uzupełnienia|blok-braki|class="podtytul"/);
+});
+
+test('podana data rozegrania nadal wyświetla się razem z trasą', (t) => {
+  const html = epizodZPolami(t, { rozegrano: '2026-10-19', trasa: 'A & B' });
+  assert.match(html, /rozegrano 2026-10-19 · trasa: <strong>A &amp; B<\/strong>/);
+  assert.match(html, /<dt>Rozegrano<\/dt><dd>2026-10-19<\/dd>/);
+});
+
+test('trasa bez daty nie ma początkowego separatora', (t) => {
+  const html = epizodZPolami(t, { rozegrano: '', trasa: 'A' });
+  assert.match(html, /<p class="podtytul">trasa: <strong>A<\/strong><\/p>/);
+});
+
+test('braki redakcyjne epizodu nie tworzą publicznej kolejki zadań', (t) => {
+  const html = epizodZPolami(t, { rozegrano: '', skrypt: '', postacie: [], mechy: [] });
+  assert.doesNotMatch(html, /Do uzupełnienia|odnośnik do skryptu|blok-braki|data rozegrania/);
+});
+
+
+// Sprawdzamy tekst czytelnika, nie techniczne nazwy pól, klasy CSS i adresy URL.
+function tekstWidoczny(html) {
+  return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ');
+}
+
+test('opisy wszystkich stron mówią o świecie, bez wewnętrznych procedur', () => {
+  for (const page of Object.values(globalThis.SRW_DATA.strony)) {
+    const html = page.typ === 'epizod' ? renderEpizod(page.slug) : renderEncja(page.slug);
+    assert.doesNotMatch(tekstWidoczny(html), /\b(?:dostaw[\p{L}]*|właściciel[\p{L}]*|skryp[\p{L}]*)\b/iu, page.slug);
+    assert.doesNotMatch(tekstWidoczny(html), /nie przypisano|dane od|brak materiału|tworzenia biografii|danych domyślnej załogi|w obrębie.*hasła|w tej bazie|nie sprawdzono|nie potwierdzono/iu, page.slug);
+  }
+});
+
+test('strony pomocnicze, dziennik i legendy nie ujawniają procesu redakcyjnego', () => {
+  const html = [renderGlowna(), renderOBazie(), renderCoNowego()].join(' ');
+  const text = tekstWidoczny(html);
+  assert.doesNotMatch(text, /\b(?:dostaw[\p{L}]*|właściciel[\p{L}]*|skryp[\p{L}]*)\b/iu);
+  assert.doesNotMatch(text, /AGENTS\.md|docs\/|ADR \d|agentowi|praca agenta|build|repozytorium|push|modelu/iu);
+  assert.doesNotMatch(JSON.stringify(NAZWY_POCHODZENIA), /dostaw|właściciel|skrypt epizodu|modelu|ADR/i);
+  assert.match(text, /niezweryfikowany kontekst/i, 'legenda nadal odróżnia treść niepotwierdzoną');
+});
+
+test('pełna treść epizodu jest dostępna bez ujawniania ścieżki archiwum', () => {
+  const html = renderEpizod('srw-oe-ep0');
+  assert.match(html, /<summary>Treść epizodu<\/summary>/);
+  assert.match(html, /Stacja Connect/);
+  assert.doesNotMatch(html, /episodes\/|ep000\.md|<dt>Skrypt/);
 });

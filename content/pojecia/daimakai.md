@@ -14,9 +14,9 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Daimakai jest wymienione w prologu wśród „nieziemskich napaści”, które według skryptu „pozostają w pamięci”. Szczegóły nie są znane.
+Daimakai występuje w wyliczeniu dawnych nadludzkich ataków.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]]).
+Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{zrodlo
 
@@ -24,5 +24,5 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0
 }}
 {{wiedza
 
-- Daimakai w SRW OE najpewniej oznacza świat demonów z serii Eldran. Nie potwierdzono tego w grze.
+- Daimakai w SRW OE najpewniej oznacza świat demonów z serii Eldran.
 }}

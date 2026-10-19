@@ -1,7 +1,7 @@
 ---
 typ: pojecie
 slug: jaku-empire
-tytul: Jaku Empire
+tytul: Imperium Jaku
 kategoria: najazd
 gry: [srw-oe]
 pochodzenie: skrypt
@@ -14,9 +14,9 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Jaku Empire jest wymienione w prologu wśród „nieziemskich napaści”, które według skryptu „pozostają w pamięci”. Szczegóły nie są znane.
+Imperium Jaku jest jednym z dawnych zagrożeń wymienionych w prologu. Pamięć jego ataku pozostaje żywa.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]]).
+Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{zrodlo
 
@@ -25,5 +25,5 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0
 }}
 {{wiedza
 
-- Nazwa w SRW OE najpewniej odpowiada imperium z *Raijin-Oh*. Nie potwierdzono tego w grze.
+- Nazwa w SRW OE najpewniej odpowiada imperium z *Raijin-Oh*.
 }}

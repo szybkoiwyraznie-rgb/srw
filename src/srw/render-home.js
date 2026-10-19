@@ -16,9 +16,8 @@ export function renderGlowna() {
   return `
 <section class="hero">
   <h1>SRW Database</h1>
-  <p class="hero-opis">Prywatny dziennik rozgrywki i baza wiedzy o <em>Super Robot Wars</em>.
-  Baza rośnie w tempie grania: każdy rozegrany epizod przynosi skrypt, a ze skryptu — postacie,
-  mechy z ich uzbrojeniem i wątki, z których każdy prowadzi do swojej serii anime.</p>
+  <p class="hero-opis">Światy <em>Super Robot Wars</em>: postacie, mechy, wydarzenia
+  i historie łączące bohaterów różnych serii anime.</p>
   <div class="hero-liczby">
     ${kafelek('scena', s.scena, '#/sceny')}
     ${kafelek('epizod', s.epizod, '#/epizody')}
@@ -46,11 +45,10 @@ export function renderGlowna() {
 
 <section class="blok">
   <h2>Jak czytać tę bazę</h2>
-  <p>Każda treść ma kolor tła według poziomu wiarygodności (ADR 0010):
-  <span class="legenda poziom-skrypt">białe tło — dostawa właściciela</span>,
-  <span class="legenda poziom-zrodlo">niebieskie tło — źródła sprawdzone</span>,
-  <span class="legenda poziom-wiedza">zielone tło — wiedza i analiza modelu</span>.
-  Dostawa właściciela ma najwyższy priorytet; rozbieżności z innymi źródłami są opisane osobno.</p>
+  <p>Kolory rozróżniają informacje i interpretacje:
+  <span class="legenda poziom-skrypt">białe tło — wydarzenia i informacje z gry</span>,
+  <span class="legenda poziom-zrodlo">niebieskie tło — informacje potwierdzone w źródłach</span>,
+  <span class="legenda poziom-wiedza">zielone tło — niezweryfikowany kontekst i interpretacje</span>.</p>
 </section>`;
 }
 
