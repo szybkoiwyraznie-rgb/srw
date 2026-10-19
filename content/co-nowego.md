@@ -3,6 +3,12 @@
 Dziennik zmian widoczny w witrynie pod `#/co-nowego`. Prowadzi go agent przy każdym PR:
 dopisuje nowy wpis na górze, z datą i godziną publikacji (czas Europa/Warszawa, moment commita).
 
+## 2026-10-19 19:10
+
+- Ilustracja właściciela jest pełnoprawną dostawą encji (ADR 0017): brak tekstu nie blokuje utworzenia wpisu, opis uzupełnia agent na podstawie kwerendy lub jawnie oznaczonej pamięci modelu.
+- Nowe postacie: Kuro i Shiro, z ilustracjami R2, opisami na podstawie Akurasu i Super Robot Wars Wiki oraz powiązaniami z Masakim i Cybusterem. Bez dopisywania ich do sceny 0-1 lub domyślnej załogi z dostawy parametrów.
+- Wszystkie 15 ilustracji z przekazanej listy przypisane do 10 encji. Kwerenda opisu nie oznacza niezależnego sprawdzenia zawartości obrazów w R2.
+
 ## 2026-10-19 19:00
 
 - Dodane 13 ilustracji z R2 do ośmiu wpisów: Exart (3), Cybuster (2), Cybird (1), Brocken (2), Real PG Gundam (2), Seishiro (1), Himari (1) i Masaki (1). Podglądy z odnośnikami do oryginałów, bez kopiowania dużych plików do repozytorium.

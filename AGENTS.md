@@ -29,8 +29,10 @@ postaci/mechów podana w wiadomości). Wynik pracy:
 1. **Wpis epizodu** `content/epizody/<gra>-epNNN.md` — streszczenie, sceny, wątki anime, komentarz,
    obsada. To najważniejszy wpis: z niego wynikają wszystkie odsyłacze.
 2. **Encje** — dla każdej postaci i mecha ze skryptu wpis w odpowiednim dziale. Bronie opisujesz
-   w treści mecha (nie jako osobny wpis). Nowe encje tylko wprost z dostawy (ADR 0012): nie zakładasz
-   encji wynikającej z innej encji. Encja już istniejąca **nie jest duplikowana**: dopisujesz jej
+   w treści mecha (nie jako osobny wpis). Nowe encje tylko wprost z dostawy (ADR 0012 i 0017),
+   **także ilustracyjnej**: obraz postaci lub mecha od właściciela jest podstawą utworzenia
+   wpisu. Przy braku tekstu uzupełniasz opis kwerendą lub pamięcią modelu, z właściwym
+   poziomem pochodzenia. Nie zakładasz encji wynikającej wyłącznie z opisu innej encji. Encja już istniejąca **nie jest duplikowana**: dopisujesz jej
    nowe wystąpienie (pole `gry`, `mechy`) i uzupełniasz treść, jeśli skrypt wniósł coś nowego.
 3. **Relacje** — pola frontmattera (`postacie`, `mechy`, `serie`, `gra`) plus wikilinki
    w treści. Bez nich wpis jest wyspą: nie pojawi się w „Wymienione w" na stronie encji.
@@ -83,8 +85,9 @@ Szczegółowa lista kroków: `docs/guides/PRZEPLYW_EPIZODU.md`.
    - uzupełnij wpisy i relacje: sprawdzone źródła w `{{zrodlo ... }}`, pamięć modelu
      w `{{wiedza ... }}` bez linków; dostawa pozostaje nadrzędna i niezmieniona;
    - nowe encje zakładaj **tylko wtedy, gdy występują wprost w istniejącej dostawie**
-     (ADR 0012 i 0013), także jeśli wcześniej pominięto je przy przetwarzaniu.
-     Kwerenda lub pamięć modelu nie są samodzielną podstawą utworzenia encji;
+     (ADR 0012, 0013 i 0017), także ilustracyjnej lub wcześniej pominiętej.
+     Ilustracja bez opisu tekstowego nie czeka na dodatkową dostawę: tworzysz wpis
+     i uzupełniasz opis kwerendą lub oznaczoną pamięcią modelu. Kwerenda lub pamięć modelu nie są samodzielną podstawą utworzenia encji;
    - dodaj wpis do `content/co-nowego.md`, uruchom `npm test` i `npm run build`,
      zacommituj, wypchnij i zaktualizuj opis PR; potem przejdź do następnej luki.
    Nie dodawaj treści dla samej objętości. Gdy nie ma kolejnego uzasadnionego uzupełnienia
@@ -122,6 +125,9 @@ Szczegółowa lista kroków: `docs/guides/PRZEPLYW_EPIZODU.md`.
 - **Skryptu epizodu nie poprawiasz.** `episodes/**` to archiwum rozgrywki — czytasz, nie edytujesz.
   Wymiana jest możliwa tylko na wyraźne polecenie właściciela; polska dostawa z ADR 0016
   zastąpiła poprzednią i jest nowym nietykalnym wzorem.
+- **Ilustracja od właściciela jest dostawą encji (ADR 0017).** Rozpoznana postać lub mech
+  otrzymuje wpis także bez tekstu. Obraz ma poziom `menu`, uzupełnienia — `zrodlo` lub `wiedza`.
+  Nie wymaga to dopisania encji do konkretnej sceny ani zmiany załogi z menu.
 - **Nie wyprzedzaj fabuły (ADR 0012).** Nie dodawaj wydarzeń ani ról postaci ujawnianych
   dopiero po aktualnie rozegranym materiale, nawet jeśli potwierdza je zewnętrzne źródło.
   Nie przenoś takich informacji do osobnej sekcji ani pod oznaczenie spoilera.

@@ -53,7 +53,7 @@ test('profile załogi i transformacje są powiązane, ale nie udają sceny fabul
   }
   assert.match(bySlug.get('himari-yaegaki').body, /brak macierzystego przypisania/);
   assert.ok(bySlug.has('invaderzy'));
-  for (const slug of ['kuro', 'shiro', 'keroro']) assert.ok(!bySlug.has(slug), slug);
+  assert.ok(!bySlug.has('keroro'), 'nazwa wariantu nie przypisuje domyślnego pilota');
 });
 
 test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że Himari wysłała dane', () => {
@@ -62,12 +62,12 @@ test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że 
   assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /wsiada do Exert razem|wysyła dane do zespołu/);
 });
 
-test('ilustracje z listy właściciela: 13 plików przy 8 encjach, 2 oczekujące', () => {
+test('ilustracje właściciela: 15 plików przy 10 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 8);
-  assert.equal(Object.values(manifest.encje).flat().length, 13);
-  assert.deepEqual(manifest.nieprzypisane, ['Kuro.png', 'Shiro.png']);
+  assert.equal(Object.keys(manifest.encje).length, 10);
+  assert.equal(Object.values(manifest.encje).flat().length, 15);
+  assert.deepEqual(manifest.nieprzypisane, []);
   for (const [slug, files] of Object.entries(manifest.encje)) {
     const body = bySlug.get(slug).body;
     const { html, problemy } = renderMarkdown(body, { wymagajPoziomu: true });
@@ -79,8 +79,34 @@ test('ilustracje z listy właściciela: 13 plików przy 8 encjach, 2 oczekujące
       assert.ok(html.includes(`src="${url}"`), `${slug}: podgląd ${file}`);
       assert.ok(html.includes(`href="${url}"`), `${slug}: pełny rozmiar ${file}`);
     }
-    assert.doesNotMatch(body, /data:image|Kuro\.png|Shiro\.png/);
+    assert.doesNotMatch(body, /data:image/);
     assert.doesNotMatch(html, /src="[^"]* /);
     assert.match(html, /loading="lazy"/);
+  }
+});
+
+
+test('ilustracja jest dostawą: Kuro i Shiro mają opisy, źródła i powiązania bez dopisywania fabuły', () => {
+  for (const slug of ['kuro', 'shiro']) {
+    const page = bySlug.get(slug);
+    assert.equal(page.typ, 'postac');
+    assert.deepEqual(page.gry, ['srw-oe']);
+    assert.deepEqual(page.mechy, ['cybuster']);
+    assert.equal(page.seria, 'super-robot-wars-original');
+    assert.equal(page.pochodzenie, 'zrodlo');
+    assert.match(page.body, /## Opis/);
+    assert.match(page.body, /\{\{zrodlo/);
+    assert.match(page.body, /sprawdzono 2026-10-19/);
+    assert.match(page.body, /\[\[masaki-andoh\|/);
+    assert.match(page.body, /\[\[cybuster\|/);
+    assert.match(page.body, /\{\{wiedza/);
+    for (const url of page.zrodla) assert.ok(page.body.includes(url));
+    const memory = page.body.match(/\{\{wiedza\n([\s\S]*?)\n\}\}/)[1];
+    assert.doesNotMatch(memory, /https?:|\]\(/);
+    for (const scene of ['srw-oe-ep0','prolog-i-trening-w-connect']) {
+      assert.ok(!bySlug.get(scene).postacie.includes(slug));
+    }
+    assert.ok(!bySlug.get('cybuster').piloci.includes(slug), 'źródło nie zmienia załogi z menu');
+    assert.match(bySlug.get('masaki-andoh').body, new RegExp('\\[\\['+slug+'\\|'));
   }
 });

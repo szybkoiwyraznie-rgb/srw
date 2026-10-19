@@ -29,3 +29,4 @@ Zasady:
 | [0014](0014-start-sesji-audyt-i-petla-jakosci.md) | Start sesji: PR, lektura, audyt i domyślna pętla jakości |
 | [0015](0015-ilustracje-r2-i-inwentaryzacja-actions.md) | Oryginały ilustracji w R2, lista plików przez Actions |
 | [0016](0016-polska-dostawa-i-ilustracje.md) | Polska dostawa właściciela i ilustracje jednostek |
+| [0017](0017-ilustracja-jako-dostawa-encji.md) | Ilustracja właściciela jest dostawą encji |

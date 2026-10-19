@@ -56,6 +56,9 @@ wymagają sieci; ich brak nie blokuje czytania tekstu (ADR 0016).
   `wiedza` (niesprawdzona, bez linków). Adres trafia do bazy dopiero po sprawdzeniu (ADR 0009).
 - **Skrypt bez wpisu epizodu wywala build.** To celowe: oznacza materiał czekający na przetworzenie.
 - **Slug jest niezmienny.** Zmiana identyfikatora zrywa cały graf.
+- **Ilustracja to też dostawa encji.** Dla postaci lub mecha dostarczonego obrazem agent
+  tworzy wpis, nawet jeśli brak opisu tekstowego; uzupełnia go kwerendą lub oznaczoną
+  pamięcią modelu, bez wyprzedzania fabuły (ADR 0017).
 - **Swoboda formy jest zaletą.** Nie ma zamkniętej listy sekcji ani słownika tagów — kolejne sesje,
   modele i style mają prawo pisać inaczej, o ile graf i znaczniki pochodzenia się trzymają.
 - **Sesja agenta = jedna gałąź i jeden PR.** PR z planem i audytem powstaje przed pierwszą zmianą,

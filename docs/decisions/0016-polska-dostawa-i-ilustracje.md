@@ -3,6 +3,13 @@
 Data: 2026-10-19
 Status: obowiązujący; uzupełnia ADR 0005, 0010 i 0015.
 
+## Adnotacja 2026-10-19
+
+**ADR 0017 zastępuje pkt 8 w zakresie ilustracji.** Obraz właściciela jest pełnoprawną
+podstawą utworzenia encji; brak tekstu uzupełnia agent kwerendą lub pamięcią modelu.
+Kuro i Shiro nie czekają już na dodatkową dostawę. Ilustracja nadal nie dowodzi konkretnego
+zdarzenia fabularnego ani przypisania domyślnego pilota.
+
 ## Kontekst
 
 Właściciel polecił przejść w całości na język polski, zastąpić wcześniejsze dostawy

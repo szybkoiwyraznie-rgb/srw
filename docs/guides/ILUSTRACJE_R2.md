@@ -51,7 +51,9 @@ Nazwy i metadane plików w artefakcie publicznego repozytorium traktuj jako publ
 - Sekrety są przekazywane wyłącznie do kroku odczytu listy. Endpoint jest sprawdzany jako
   host Cloudflare R2 przed uruchomieniem AWS CLI. Surowe błędy klienta nie trafiają do logów.
 - Lista **nie potwierdza dostępności publicznych URL**, zawartości obrazu, praw do ilustracji
-  ani jej związku z postacią/mechem. Przed przypisaniem ilustracji trzeba ją obejrzeć.
+  ani jej związku z postacią/mechem. Obejrzyj ją, gdy to możliwe; przy identyfikacji
+  przekazanej przez właściciela można przypisać obraz bez niezależnej inspekcji,
+  zachowując jawny status braku weryfikacji zdalnej (ADR 0016–0017).
 - Dostęp do API GitHuba i Actions nie oznacza dostępu sieciowego sandboxa do domen R2.
   Jeśli sandbox nie może pobrać ilustracji, nie deklaruj jej obejrzenia. Sam manifest nadal
   pozwala poznać nazwy i adresy; inspekcja obrazów może wymagać osobnego rozwiązania.
@@ -62,7 +64,8 @@ Nazwy i metadane plików w artefakcie publicznego repozytorium traktuj jako publ
 ## Przypisane ilustracje (ADR 0016)
 
 Manifest `media/ilustracje.json` przechowuje nazwy plików przypisanych do istniejących encji
-oraz pliki oczekujące na dane o encji. Zawiera jawny status weryfikacji. Obecne przypisania
+oraz ewentualne pliki o nierozpoznanej tożsamości. Rozpoznane postacie i mechy
+nie czekają na opis tekstowy: ich ilustracja jest już dostawą (ADR 0017). Zawiera jawny status weryfikacji. Obecne przypisania
 pochodzą z listy właściciela; nie deklarują niezależnego obejrzenia plików przez agenta.
 Nie należy zmieniać statusu na zweryfikowany wyłącznie dlatego, że workflow zwrócił nazwę.
 
@@ -73,3 +76,16 @@ manifest z odnośnikami stron. Nowa ilustracja tej samej maszyny nie tworzy wari
 
 Tekst, kod i style pozostają w jednym HTML-u. Zewnętrzne ilustracje wymagają sieci,
 a ich niedostępność nie blokuje czytania tekstu, nawigacji ani wyszukiwania.
+
+## Nowe encje z ilustracji (ADR 0017)
+
+Po odczytaniu listy R2 porównaj ją z istniejącymi wpisami i manifestem. Jeśli ilustracja
+właściciela przedstawia rozpoznaną postać lub mecha bez wpisu, utwórz go i przypisz obraz.
+Brak dostawy tekstowej nie jest blokadą: przygotuj opis z kwerendy (`zrodlo`, linki przy
+faktach i data sprawdzenia) lub pamięci modelu (`wiedza`, bez linków). Ilustracja i identyfikacja
+z dostawy pozostają na poziomie `menu`; nie kolorują dopisanego opisu jako danych właściciela.
+
+Kuro i Shiro mają już takie wpisy i przypisane obrazy. Wszystkie 15 plików z listy właściciela
+z 2026-10-19 jest przypisanych do 10 encji. Nie dodawaj postaci do konkretnej sceny lub
+załogi z menu wyłącznie na podstawie ilustracji. Nie zakładaj kolejnych encji tylko dlatego,
+że wymienia je źródło wykorzystane do napisania opisu.
