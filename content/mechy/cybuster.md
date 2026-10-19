@@ -10,6 +10,7 @@ w_gre:
 pochodzenie: menu
 zrodla:
   - https://superrobotwars.fandom.com/wiki/Cybuster
+  - https://akurasu.net/wiki/Masaki_Andoh
 utworzono: 2026-10-19
 ---
 {{menu
@@ -67,6 +68,13 @@ Cybuster to maszyna pilotowana przez [[masaki-andoh|Masakiego Andoh]]. Może prz
 | 4 | Akashic Buster | 4100 | 1–4 | +15 | 40 | 120 | Brak w tym polu | **Penetr. barier (poziom bazowy 1):** Obr wroga-20% Ignoruje bariery; **Ogień (poziom bazowy 1):** Dodatk. Obraż.1500 Szansa 30% |
 | 5 | Vanity Ripper | 5800 | 1–1 | +30 | 50 | 125 | Brak w tym polu | **Penetracja (poziom bazowy 1):** Obr-30% |
 | 6 | Cosmo Nova | 7200 | 2–5 | +0 | 140 | 150 | Brak w tym polu | **Penetr. barier (poziom bazowy 1):** Obr wroga-20% Ignoruje bariery; **Na dużych (poziom bazowy 1):** Na dużych: Atk x1.1 Obr wroga-20%; (więksi od siebie) |
+}}
+
+## Pochodzenie
+
+{{zrodlo
+
+Cybuster był pierwszym oryginalnym mechem Banpresto i zadebiutował w *Super Robot Wars 2*. Wcześniejszą maszyną [[masaki-andoh|Masakiego Andoh]] był Jaohm ([Akurasu, „Masaki Andoh”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
 }}
 
 ## Towarzysze Masakiego

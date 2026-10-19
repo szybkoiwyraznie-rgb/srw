@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-19 23:13
+
+- Masaki Andoh i Cybuster: pochodzenie obu — pierwsze oryginalne postać i mech Banpresto, debiut w *Super Robot Wars 2*.
+- Cybuster: wcześniejszą maszyną Masakiego był Jaohm.
+
 ## 2026-10-19 23:10
 
 - Super Robot Wars OE: deweloper Sazanami i wydawca Bandai Namco Games; dane o ośmiu rozdziałach i liczbie misji.

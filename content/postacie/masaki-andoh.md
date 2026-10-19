@@ -9,6 +9,7 @@ mechy: [cybuster, cybird]
 pochodzenie: menu
 zrodla:
   - https://superrobotwars.fandom.com/wiki/Cybuster
+  - https://akurasu.net/wiki/Masaki_Andoh
 utworzono: 2026-10-19
 ---
 {{menu
@@ -31,6 +32,13 @@ Masaki Andoh jest pilotem [[cybuster|Cybustera]] i jego formy [[cybird|Cybird]] 
 
 [Otwórz plik Masaki.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Masaki.png)
 
+}}
+
+## Pochodzenie
+
+{{zrodlo
+
+Masaki Andoh był pierwszą oryginalną postacią stworzoną przez Banpresto dla cyklu *Super Robot Wars*; zadebiutował wraz z [[cybuster|Cybusterem]] w *Super Robot Wars 2* ([Akurasu, „Masaki Andoh”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
 }}
 
 ## Towarzysze Masakiego
