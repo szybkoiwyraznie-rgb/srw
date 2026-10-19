@@ -8,6 +8,8 @@ piloci: [control-ai]
 w_gre:
   srw-oe: '{"dostawa":"dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md","profil":"Brocken (Brocken/Melee)","dane":"**Seria:** Mobile Police Patlabor\n### Domyślny pilot / załoga i umiejętności specjalne\n#### Miejsce 1: Control AI\n**Przypisany profil: Control AI**\n- **Rój (bez poziomu):** Zbiorcza z tą samą jedn.; wsparcie w grupie; HP = suma grupy *Pole poziomu nauki: 1.*\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Szarża | 1100 | 1–2 | +60 | 0 | — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia |"}'
 pochodzenie: menu
+zrodla:
+  - https://patlabor.fandom.com/wiki/Military_labor_type_7B_%22Brocken%22
 utworzono: 2026-10-19
 ---
 {{menu
@@ -16,6 +18,13 @@ utworzono: 2026-10-19
 
 Brocken to jednostka z serii [[mobile-police-patlabor|Mobile Police Patlabor]], sterowana przez [[control-ai|Control AI]]. W [[srw-oe|Super Robot Wars OE]] wariant Brocken/Melee walczy Szarżą — atakiem, który odpycha przeciwnika i może spowodować obrażenia od zderzenia lub upadku.
 }}
+## Pochodzenie
+
+{{zrodlo
+
+Brocken (Type-7B) to wojskowy Labor opracowany przez Schaft Enterprises Europe dla armii RFN i NATO. W 1998 roku powstał wariant Type-7B/2B, ceniony za siłę i opancerzenie ([Patlabor Wiki, „Military labor type 7B Brocken”](https://patlabor.fandom.com/wiki/Military_labor_type_7B_%22Brocken%22); sprawdzono 2026-10-19).
+}}
+
 {{menu
 
 ## Ilustracje
