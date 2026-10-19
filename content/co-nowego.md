@@ -3,6 +3,10 @@
 Dziennik zmian widoczny w witrynie pod `#/co-nowego`. Prowadzi go agent przy każdym PR:
 dopisuje nowy wpis na górze, z datą i godziną publikacji (czas Europa/Warszawa, moment commita).
 
+## 2026-10-19 19:20
+
+- Szablon epizodu nie przypomina o brakującej dacie rozegrania. Podana data nadal jest wyświetlana; brak daty nie tworzy sekcji „Do uzupełnienia” ani pustego podtytułu.
+
 ## 2026-10-19 19:18
 
 - Usunięto informację wyprzedzającą fabułę z wpisu Himari oraz jej powtórzenia w danych i wpisie Exarta, komentarzu epizodu i dawnych notatkach dziennika. Pozostawiono wyłącznie rolę operatorki ujawnioną w szkoleniu podstawowym.

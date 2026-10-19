@@ -98,3 +98,36 @@ test('szkielet strony zawiera nawigację i stopkę z licznikami', () => {
   assert.match(html, /#\/serie/);
   assert.match(html, /stopka/);
 });
+
+
+// Podmieniamy tylko metadane epizodu; po każdym teście przywracamy dane bazy.
+function epizodZPolami(t, pola) {
+  const strony = globalThis.SRW_DATA.strony;
+  const oryginal = strony['srw-oe-ep0'];
+  strony['srw-oe-ep0'] = { ...oryginal, ...pola };
+  t.after(() => { strony['srw-oe-ep0'] = oryginal; });
+  return renderEpizod('srw-oe-ep0');
+}
+
+test('brak daty rozegrania nie jest zadaniem do uzupełnienia ani pustym podtytułem', (t) => {
+  const html = epizodZPolami(t, { rozegrano: '', trasa: '' });
+  assert.doesNotMatch(html, /data rozegrania|Do uzupełnienia|blok-braki|class="podtytul"/);
+});
+
+test('podana data rozegrania nadal wyświetla się razem z trasą', (t) => {
+  const html = epizodZPolami(t, { rozegrano: '2026-10-19', trasa: 'A & B' });
+  assert.match(html, /rozegrano 2026-10-19 · trasa: <strong>A &amp; B<\/strong>/);
+  assert.match(html, /<dt>Rozegrano<\/dt><dd>2026-10-19<\/dd>/);
+});
+
+test('trasa bez daty nie ma początkowego separatora', (t) => {
+  const html = epizodZPolami(t, { rozegrano: '', trasa: 'A' });
+  assert.match(html, /<p class="podtytul">trasa: <strong>A<\/strong><\/p>/);
+});
+
+test('pozostałe braki epizodu są nadal widoczne, bez przypomnienia o dacie', (t) => {
+  const html = epizodZPolami(t, { rozegrano: '', skrypt: '', postacie: [], mechy: [] });
+  assert.match(html, /Do uzupełnienia/);
+  assert.match(html, /odnośnik do skryptu, obsada \(postacie\), mechy/);
+  assert.doesNotMatch(html, /data rozegrania/);
+});

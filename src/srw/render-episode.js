@@ -40,10 +40,10 @@ export function renderEpizod(slug) {
     ${gra ? ` · <a href="${hrefDlaSlug(gra.slug, 'gra')}">${escapeHtml(gra.tytul)}</a>` : ''}
   </div>
   <h1><span class="numer-epizodu">Epizod ${numerEpizodu(e.numer)}</span> ${escapeHtml(e.tytul)}</h1>
-  <p class="podtytul">
-    ${e.rozegrano ? `rozegrano ${escapeHtml(e.rozegrano)}` : 'data rozegrania nieuzupełniona'}
-    ${e.trasa ? ` · trasa: <strong>${escapeHtml(e.trasa)}</strong>` : ''}
-  </p>
+  ${e.rozegrano || e.trasa ? `<p class="podtytul">${[
+    e.rozegrano ? `rozegrano ${escapeHtml(e.rozegrano)}` : '',
+    e.trasa ? `trasa: <strong>${escapeHtml(e.trasa)}</strong>` : '',
+  ].filter(Boolean).join(' · ')}</p>` : ''}
 </div>
 
 ${e.skryptTekst ? `
@@ -88,7 +88,6 @@ function sasiedni(epizod, kierunek) {
 /** Krótka lista rzeczy, które agent ma jeszcze uzupełnić (puste pola = funkcja, nie wstyd). */
 function sekcjaPrzypisow(e) {
   const braki = [];
-  if (!e.rozegrano) braki.push('data rozegrania');
   if (!e.skrypt) braki.push('odnośnik do skryptu');
   if (!(e.postacie ?? []).length) braki.push('obsada (postacie)');
   if (!(e.mechy ?? []).length) braki.push('mechy');
