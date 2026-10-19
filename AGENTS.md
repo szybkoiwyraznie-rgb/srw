@@ -133,14 +133,24 @@ Szczegółowa lista kroków: `docs/guides/PRZEPLYW_EPIZODU.md`.
   lub potwierdza je zewnętrzne źródło. Pochodzenie informacji nie jest zgodą na spoiler.
   Nie przenoś takich informacji do osobnej sekcji ani pod oznaczenie spoilera.
 - **Nie wymyślaj faktów.** Czego nie ma w skrypcie i czego nie potwierdza źródło, tego nie wpisujesz
-  jako ustalenia. Luka opisana wprost („w skrypcie nie pada tytuł odcinka") jest lepsza niż
-  pewnie brzmiąca nieprawda.
+  jako ustalenia. Nieznany szczegół pomijasz w treści witryny; lukę wymagającą dalszej pracy
+  zapisujesz wewnętrznie, zamiast zgadywać (ADR 0018).
 - **Rozdzielaj poziomy pewności.** Pole `pochodzenie`: `skrypt` (wprost z gry), `menu` (dostawa
   właściciela o mechach, pilotach i broniach), `zrodlo` (treść potwierdzona w sprawdzonym źródle — `zrodla` i `## Źródła`), `wiedza` (kontekst agenta, **niesprawdzony** — bez linków; ADR 0009).
 - **Statystyki i arsenał należą do pary (mech, gra), nie do mecha.** Jeśli skrypt lub dostawa `menu` podaje
   parametry w konkretnym tytule, zapisz je w polu `w_gre` (klucz = slug gry), a nie w opisie ogólnym.
 
 ## 5. Swoboda formy jest zaletą
+
+**Treść o świecie, nie o procedurach (ADR 0018).** Widoczna witryna opisuje fabułę,
+świat, lore, postacie, mechy i mechaniki gry. Nie pisz o „dostawie”, „skrypcie”,
+„właścicielu”, danych od niego ani o działaniu bazy i pracy agenta. Dotyczy to opisów,
+komentarzy, legend, szablonów, strony głównej i publicznego dziennika zmian.
+Zamiast relacjonować pozyskanie informacji, opisz bezpośrednio przedmiot wpisu.
+Nie komentuj braków redakcyjnych; pomiń nieznany szczegół, nie wymyślaj go.
+Źródła przy faktach i poziomy wiarygodności zachowaj. Procedury, zadania i notatki
+techniczne należą do dokumentacji wewnętrznej oraz PR. Techniczne nazwy pól i bloków
+mogą pozostać bez zmian; nietykalnych archiwów nie przerabiaj.
 
 Różne modele, różne style i różne epoki tego projektu mają prawo pisać inaczej. Dlatego:
 

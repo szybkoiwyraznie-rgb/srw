@@ -48,7 +48,7 @@ export function renderEpizod(slug) {
 
 ${e.skryptTekst ? `
 <details class="panel-skryptu"${e.skryptOtwarty ? ' open' : ''}>
-  <summary>Skrypt epizodu <span class="meta">${escapeHtml(e.skrypt ?? '')}</span></summary>
+  <summary>Treść epizodu</summary>
   <pre class="skrypt">${escapeHtml(e.skryptTekst)}</pre>
 </details>` : ''}
 
@@ -59,7 +59,6 @@ ${e.skryptTekst ? `
       <dt>Numer</dt><dd>${numerEpizodu(e.numer)}</dd>
       ${e.trasa ? `<dt>Trasa</dt><dd>${escapeHtml(e.trasa)}</dd>` : ''}
       ${e.rozegrano ? `<dt>Rozegrano</dt><dd>${escapeHtml(e.rozegrano)}</dd>` : ''}
-      ${e.skrypt ? `<dt>Skrypt</dt><dd><code>${escapeHtml(e.skrypt)}</code></dd>` : ''}
     </dl>
     ${chipsyTagow(e.tagi)}
     <nav class="nawigacja-epizodow">
@@ -71,7 +70,6 @@ ${e.skryptTekst ? `
     ${e.html}
     ${sekcjaScen(e.slug)}
     ${sekcjaPowiazan('W tym epizodzie', grupy, {})}
-    ${sekcjaPrzypisow(e)}
   </div>
 </div>`;
 }
@@ -83,17 +81,4 @@ function sasiedni(epizod, kierunek) {
     .sort((a, b) => (a.numer ?? 0) - (b.numer ?? 0));
   const i = rodzenstwo.findIndex((p) => p.slug === epizod.slug);
   return i >= 0 ? rodzenstwo[i + kierunek] ?? null : null;
-}
-
-/** Krótka lista rzeczy, które agent ma jeszcze uzupełnić (puste pola = funkcja, nie wstyd). */
-function sekcjaPrzypisow(e) {
-  const braki = [];
-  if (!e.skrypt) braki.push('odnośnik do skryptu');
-  if (!(e.postacie ?? []).length) braki.push('obsada (postacie)');
-  if (!(e.mechy ?? []).length) braki.push('mechy');
-  if (braki.length === 0) return '';
-  return `<section class="blok-powiazan blok-braki">
-    <h2>Do uzupełnienia</h2>
-    <p class="meta">Ten epizod nie ma jeszcze: ${braki.join(', ')}.</p>
-  </section>`;
 }

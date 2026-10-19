@@ -16,7 +16,7 @@ utworzono: 2026-10-19
 
 ## Opis
 
-Jednostka z dostawy menu [[srw-oe|Super Robot Wars OE]], z przypisanym profilem [[masaki-andoh|Masaki Andoh]]. Zdolność transformacji wskazuje na [[cybird|Cybirda]]. Nie określono jej debiutu fabularnego.
+Cybuster to maszyna pilotowana przez [[masaki-andoh|Masakiego Andoh]]. Może przekształcać się w [[cybird|Cybirda]]. W [[srw-oe|Super Robot Wars OE]] jego uzbrojenie obejmuje między innymi Discutter, Akashic Buster i Cosmo Nova.
 }}
 {{menu
 
@@ -73,5 +73,5 @@ Jednostka z dostawy menu [[srw-oe|Super Robot Wars OE]], z przypisanym profilem 
 
 {{zrodlo
 
-[[kuro|Kuro]] i [[shiro|Shiro]] to magiczni towarzysze [[masaki-andoh|Masakiego Andoh]], wspierający go przy obsłudze [[cybuster|Cybustera]]. To ogólna relacja między postaciami i maszyną, nie dopisanie ich do obsady epizodu 0 ani zmiana danych domyślnej załogi ([Super Robot Wars Wiki, „Cybuster”, opis wprowadzający](https://superrobotwars.fandom.com/wiki/Cybuster); sprawdzono 2026-10-19).
+[[kuro|Kuro]] i [[shiro|Shiro]] to magiczni towarzysze [[masaki-andoh|Masakiego Andoh]], wspierający go przy obsłudze [[cybuster|Cybustera]]. ([Super Robot Wars Wiki, „Cybuster”, opis wprowadzający](https://superrobotwars.fandom.com/wiki/Cybuster); sprawdzono 2026-10-19).
 }}

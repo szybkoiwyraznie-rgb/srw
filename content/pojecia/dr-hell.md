@@ -22,5 +22,4 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 
 - Postać z *Mazinger Z* Go Nagai. Jest Niemcem w japońskiej wyprawie archeologicznej, która odkryła wyspę Bardos ([Wikipedia, *Mazinger Z*](https://en.wikipedia.org/wiki/Mazinger_Z)).
 - Dowodzi Mechanicznymi Bestiami ([Wikipedia, *Mazinger Z*](https://en.wikipedia.org/wiki/Mazinger_Z)).
-- To inna seria niż SRW OE. Połączenie z postacią z SRW OE nie zostało potwierdzone w źródle.
 }}

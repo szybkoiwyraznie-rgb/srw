@@ -24,7 +24,3 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 - Universal Century to kalendarz osi czasu serii Gundam. Rok 0079 to rok akcji *Mobile Suit Gundam* ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam)).
 - Gundam to franczyza zapoczątkowana przez Yoshiyukiego Tomino i studio Sunrise w 1979 roku ([Wikipedia, *Gundam*](https://en.wikipedia.org/wiki/Gundam)).
 }}
-{{wiedza
-
-- Universal Century jest osią czasu z uniwersum Gundam. Jest tłem tej historii, a kiedy się zaczęła, nie wiadomo.
-}}

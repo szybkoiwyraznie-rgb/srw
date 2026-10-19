@@ -14,7 +14,7 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Imperium Muge należy do zagrożeń wymienionych w prologu po opisie badań nad nieznanymi energiami. Pamięć jego najazdu wciąż żyje; prolog nie opisuje przebiegu tego ataku.
+Imperium Muge należy do zagrożeń wymienionych w prologu po opisie badań nad nieznanymi energiami. Pamięć jego najazdu wciąż żyje.
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
@@ -24,5 +24,5 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 }}
 {{wiedza
 
-- Nazwa „Muge Empire” w skrypcie prawdopodobnie odpowiada „Muge Zorbados Empire” z Dancougi. Nie potwierdzono tego w SRW OE.
+- Imperium Muge w SRW OE prawdopodobnie nawiązuje do Muge Zorbados Empire z Dancougi.
 }}

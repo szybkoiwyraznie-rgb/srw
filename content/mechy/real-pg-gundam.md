@@ -14,7 +14,7 @@ utworzono: 2026-10-19
 
 ## Opis
 
-Jednostka z serii [[sgt-frog|Sgt. Frog]], opisana w dostawie także jako Gundam (Keroro). Ma Blok tarczą i Odtwórz. Nie podano profilu pilota — nazwa wariantu nie jest podstawą przypisania załogi.
+Real PG Gundam, znany także jako Gundam (Keroro), to jednostka z serii [[sgt-frog|Sgt. Frog]]. W [[srw-oe|Super Robot Wars OE]] korzysta z działka Vulcan, karabinu wiązkowego, szabli wiązkowej i hiperbazooki. Blok tarczą ogranicza otrzymywane obrażenia podczas obrony, a Odtwórz odnawia co turę HP i EN.
 }}
 {{menu
 

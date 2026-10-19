@@ -24,5 +24,5 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 }}
 {{wiedza
 
-- Federacja jest rządem zjednoczonej Ziemi w uniwersum Gundam. Nie sprawdzono tego w źródle w tej bazie.
+- Federacja jest rządem zjednoczonej Ziemi w uniwersum Gundam.
 }}

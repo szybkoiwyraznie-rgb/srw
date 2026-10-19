@@ -107,6 +107,10 @@ Krótki, konkretny opis — kim jest i co robi w rozegranym materiale.
 
 ## Zasady pisania
 
+- Treść widoczna w witrynie jest o świecie, fabule i mechanikach, nie o procedurach tworzenia
+  bazy: bez „dostawy”, „skryptu”, „właściciela” i komentarzy o brakach redakcyjnych (ADR 0018).
+  Dotyczy to także publicznego dziennika. Techniczne pola i bloki zachowują swoje nazwy.
+
 - Piszemy po polsku, prozą. Nazwy własne zostawiamy w pisowni oryginalnej (z zapisem japońskim,
   jeśli jest znany).
 - Nie piszemy o tym, czego nie było w materiale ani czego nie potwierdza źródło.

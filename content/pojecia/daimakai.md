@@ -14,7 +14,7 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Daimakai występuje w wyliczeniu dawnych nadludzkich ataków. Opowieść nie przedstawia szczegółów tego kryzysu.
+Daimakai występuje w wyliczeniu dawnych nadludzkich ataków.
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
@@ -24,5 +24,5 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 }}
 {{wiedza
 
-- Daimakai w SRW OE najpewniej oznacza świat demonów z serii Eldran. Nie potwierdzono tego w grze.
+- Daimakai w SRW OE najpewniej oznacza świat demonów z serii Eldran.
 }}

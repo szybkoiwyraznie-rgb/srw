@@ -14,7 +14,7 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Imperium Mechanizacji pojawia się w wyliczeniu nadludzkich zagrożeń z przeszłości. Prolog nie opisuje jego sił ani przebiegu najazdu.
+Imperium Mechanizacji pojawia się w wyliczeniu nadludzkich zagrożeń z przeszłości.
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
@@ -25,5 +25,5 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 }}
 {{wiedza
 
-- Nazwa w SRW OE najpewniej odpowiada imperium z *Go-Saurer*. Nie potwierdzono tego w grze.
+- Nazwa w SRW OE najpewniej odpowiada imperium z *Go-Saurer*.
 }}

@@ -14,7 +14,7 @@ utworzono: 2026-10-19
 
 ## Opis
 
-Jednostka z dostawy menu [[srw-oe|Super Robot Wars OE]], z przypisanym profilem [[masaki-andoh|Masaki Andoh]]. Zdolność transformacji wskazuje na [[cybuster|Cybustera]]. Nie przypisano jej do żadnej rozegranej sceny.
+Cybird to forma [[cybuster|Cybustera]], pilotowana przez [[masaki-andoh|Masakiego Andoh]]. Może zmieniać się z powrotem w Cybustera. W [[srw-oe|Super Robot Wars OE]] korzysta z Caloric Missile, Cyflash i Hi-Familiar.
 }}
 {{menu
 

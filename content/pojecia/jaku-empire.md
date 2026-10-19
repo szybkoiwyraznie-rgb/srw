@@ -14,7 +14,7 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Imperium Jaku jest jednym z dawnych zagrożeń wymienionych w prologu. Pamięć jego ataku pozostaje żywa, ale szczegóły nie zostają przedstawione.
+Imperium Jaku jest jednym z dawnych zagrożeń wymienionych w prologu. Pamięć jego ataku pozostaje żywa.
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
@@ -25,5 +25,5 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 }}
 {{wiedza
 
-- Nazwa w SRW OE najpewniej odpowiada imperium z *Raijin-Oh*. Nie potwierdzono tego w grze.
+- Nazwa w SRW OE najpewniej odpowiada imperium z *Raijin-Oh*.
 }}

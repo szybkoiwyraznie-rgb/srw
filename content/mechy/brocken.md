@@ -14,7 +14,7 @@ utworzono: 2026-10-19
 
 ## Opis
 
-Jednostka opisana w dostawie jako Brocken (Brocken/Melee), z serii [[mobile-police-patlabor|Mobile Police Patlabor]]. Domyślnym profilem pilota jest [[control-ai|Control AI]]. Dostawa wymienia jeden atak: Szarżę.
+Brocken to jednostka z serii [[mobile-police-patlabor|Mobile Police Patlabor]], sterowana przez [[control-ai|Control AI]]. W [[srw-oe|Super Robot Wars OE]] wariant Brocken/Melee walczy Szarżą — atakiem, który odpycha przeciwnika i może spowodować obrażenia od zderzenia lub upadku.
 }}
 {{menu
 

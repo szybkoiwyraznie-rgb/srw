@@ -13,7 +13,7 @@ utworzono: 2026-10-19
 
 ## Opis
 
-Profil sterującej sztucznej inteligencji przypisany do miejsca 1 w [[brocken|Brockenie]] z serii [[mobile-police-patlabor|Mobile Police Patlabor]]. Nie jest to podstawa do tworzenia biografii ludzkiego pilota.
+Control AI to sztuczna inteligencja sterująca [[brocken|Brockenem]] z serii [[mobile-police-patlabor|Mobile Police Patlabor]]. W [[srw-oe|Super Robot Wars OE]] ma umiejętność Rój, która umożliwia wspólne działanie jednakowych jednostek i sumowanie ich HP.
 
 ## Umiejętności w Super Robot Wars OE
 

@@ -15,7 +15,7 @@ utworzono: 2026-10-19
 
 ## Opis
 
-Domyślny profil pilota na miejscu 1 w [[cybuster|Cybusterze]] i [[cybird|Cybirdzie]] w [[srw-oe|Super Robot Wars OE]]. Dostawa nie określa jego udziału w epizodzie 0 ani wydarzeń z jego biografii.
+Masaki Andoh jest pilotem [[cybuster|Cybustera]] i jego formy [[cybird|Cybird]] w [[srw-oe|Super Robot Wars OE]].
 
 ## Umiejętności w Super Robot Wars OE
 
@@ -37,5 +37,5 @@ Domyślny profil pilota na miejscu 1 w [[cybuster|Cybusterze]] i [[cybird|Cybird
 
 {{zrodlo
 
-[[kuro|Kuro]] i [[shiro|Shiro]] to magiczni towarzysze [[masaki-andoh|Masakiego Andoh]], wspierający go przy obsłudze [[cybuster|Cybustera]]. To ogólna relacja między postaciami i maszyną, nie dopisanie ich do obsady epizodu 0 ani zmiana danych domyślnej załogi ([Super Robot Wars Wiki, „Cybuster”, opis wprowadzający](https://superrobotwars.fandom.com/wiki/Cybuster); sprawdzono 2026-10-19).
+[[kuro|Kuro]] i [[shiro|Shiro]] to magiczni towarzysze [[masaki-andoh|Masakiego Andoh]], wspierający go przy obsłudze [[cybuster|Cybustera]]. ([Super Robot Wars Wiki, „Cybuster”, opis wprowadzający](https://superrobotwars.fandom.com/wiki/Cybuster); sprawdzono 2026-10-19).
 }}

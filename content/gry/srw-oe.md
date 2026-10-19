@@ -19,7 +19,7 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Gra, w którą prowadzi rozgrywkę właściciel. Zapisany pierwszy epizod to [[srw-oe-ep0|Epizod 0]].
+Świat Super Robot Wars OE łączy historie różnych serii o wielkich robotach. [[srw-oe-ep0|Prolog]] przedstawia osłabioną [[earth-federation|Federację Ziemską]], samodzielnie zbrojące się państwa i kolonie oraz zagrożenia związane z nieznanymi energiami. W U.C. 0079 [[seishiro|Seishiro Kusanagi]] i [[himari-yaegaki|Himari Yaegaki]] pracują w [[connect-force|Connect Force]], gdzie rozpoczyna się szkolenie na [[exart|Exarcie]].
 }}
 {{zrodlo
 

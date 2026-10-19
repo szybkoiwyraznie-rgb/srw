@@ -24,10 +24,10 @@ export const KOLEJNOSC_TYPOW = ['scena', 'epizod', 'gra', 'postac', 'mech', 'poj
 
 /** Poziomy wiarygodności (ADR 0010): kolor tła treści, nie plakietka. */
 export const NAZWY_POCHODZENIA = {
-  skrypt: { etykieta: 'dostawa właściciela', opis: 'Dostawa właściciela: skrypt epizodu (dialogi, nazwy, sceny). Najwyższy priorytet.' },
-  menu: { etykieta: 'dostawa właściciela', opis: 'Dostawa właściciela: szczegóły o mechach, pilotach i broniach. Najwyższy priorytet.' },
-  zrodlo: { etykieta: 'źródła sprawdzone', opis: 'Uzupełnienie z zewnętrznych źródeł, sprawdzone przy zapisie (ADR 0009). Drugi poziom.' },
-  wiedza: { etykieta: 'wiedza i analiza modelu', opis: 'Wiedza i analiza modelu bez potwierdzenia. Najniższy poziom wiarygodności.' },
+  skrypt: { etykieta: 'wydarzenia z gry', opis: 'Wydarzenia, dialogi i nazwy z gry.' },
+  menu: { etykieta: 'informacje z gry', opis: 'Postacie, mechy, uzbrojenie i parametry.' },
+  zrodlo: { etykieta: 'źródła sprawdzone', opis: 'Informacje potwierdzone w podanych źródłach.' },
+  wiedza: { etykieta: 'niezweryfikowany kontekst', opis: 'Kontekst i interpretacje bez niezależnego potwierdzenia.' },
 };
 
 /** Gradacja (zasada właściciela): gra → epizod → scena to główny ciąg fabularny. Scena jest jednostką, z której wszystko się składa. */

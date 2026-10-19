@@ -30,13 +30,13 @@ Retrospekcja pokazuje jej przeniesienie do [[connect-force|Connect Force]]. Mło
 
 | Motyw w epizodzie | Źródło | Odcinek / wersja | Typ | Różnice |
 |---|---|---|---|---|
-| Wspomnienie dawnych zagrożeń | Polski prolog właściciela | Epizod 0 | nawiazanie | Wymienia nazwy, ale nie odtwarza konkretnych odcinków anime. |
-| Kryzys jedności politycznej i nieznane energie | Polski prolog właściciela | Epizod 0 | fuzja | Różne kryzysy są częścią wspólnej historii świata gry. |
-| Szkolenie w Connect Force | Polski skrypt właściciela | Szkolenie podstawowe | autorskie | Cele ćwiczebne służą nauce mechanik; nie ma podstaw do uznania ich za którąś z maszyn z osobnej dostawy parametrów. |
+| Wspomnienie dawnych zagrożeń | Prolog Super Robot Wars OE | Epizod 0 | nawiazanie | Wymienia nazwy, ale nie odtwarza konkretnych odcinków anime. |
+| Kryzys jedności politycznej i nieznane energie | Prolog Super Robot Wars OE | Epizod 0 | fuzja | Różne kryzysy są częścią wspólnej historii świata gry. |
+| Szkolenie w Connect Force | Super Robot Wars OE | Szkolenie podstawowe | autorskie | Walka z symulowanymi przeciwnikami służy nauce sterowania, zaopatrzenia i atakowania. |
 
 ## Komentarz
 
-Scena pokazuje pracę pilota i operatorki: Seishiro pilotuje Exarta, a Himari prowadzi ćwiczenia i może sterować jednostką zdalnie. Dane menu nie dowodzą wystąpienia Cybustera, Cybirda, Brockena ani Real PG Gundama w tym epizodzie.
+Scena pokazuje pracę pilota i operatorki: Seishiro pilotuje Exarta, a Himari prowadzi ćwiczenia i może sterować jednostką zdalnie.
 }}
 {{zrodlo
 
@@ -53,15 +53,15 @@ Scena pokazuje pracę pilota i operatorki: Seishiro pilotuje Exarta, a Himari pr
 }}
 {{wiedza
 
-- Muge Empire z prologu prawdopodobnie odpowiada Muge Zorbados Empire z *Dancougi*. Źródło sprawdzone (zob. hasła).
-- Universal Century to oś czasu serii Gundam. Źródło sprawdzone (zob. hasła).
-- Pozostałe wrogie frakcje z prologu (Jaku, Mechanization, Evil God Drago, Daimakai) mają źródła w hasłach. Ich dopasowanie do SRW OE pozostaje niepotwierdzone.
+Wspomnienie dawnych najazdów łączy różne historie w jedną przeszłość świata gry.
+Imperium Muge prawdopodobnie nawiązuje do Muge Zorbados Empire z *Dancougi*,
+a wspólną ramą chronologiczną staje się Universal Century z *Gundama*.
 }}
 {{zrodlo
 
 ## Inne źródła i rozbieżności
 
-- **Devil Gundam w skrypcie a w źródle.** Skrypt umieszcza „Devil Gundam Incident” w U.C. Według
+- **Dwie chronologie.** W Super Robot Wars OE incydent Devil Gundam należy do historii U.C. Według
   Wikipedii *G Gundam* rozgrywa się w osobnej, alternatywnej osi czasu Future Century, a nie w Universal Century.
-  Dostawa właściciela zostaje bez zmian, a rozbieżność jest tylko zapisana.
+  To różnica między wspólnym światem OE a chronologią oryginalnego anime.
 }}

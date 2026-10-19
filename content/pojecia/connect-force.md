@@ -15,7 +15,7 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Connect to prywatna organizacja rozwijająca handel kosmiczny. W obrębie tego samego hasła Connect Force oznacza jej oddział bojowy. [[seishiro|Seishiro]] przedstawia tę rolę [[himari-yaegaki|Himari]] po jej przeniesieniu z 44. Działu Administracji.
+Connect to prywatna organizacja rozwijająca handel kosmiczny. Connect Force jest jej oddziałem bojowym. [[seishiro|Seishiro]] przedstawia tę rolę [[himari-yaegaki|Himari]] po jej przeniesieniu z 44. Działu Administracji.
 
 Do oddziału należy CF-00 [[exart|Exart]], najnowocześniejsza broń na każdą misję. Prawdziwy cel organizacji nie zostaje ujawniony. Himari została wybrana spośród setek tysięcy kandydatów.
 

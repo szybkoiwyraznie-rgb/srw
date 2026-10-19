@@ -23,14 +23,14 @@ Shiro to biały kocur, magiczny towarzysz [[masaki-andoh|Masakiego Andoh]]. Raze
 
 {{zrodlo
 
-Wspiera Masakiego podczas obsługi [[cybuster|Cybustera]], podobnie jak [[kuro|Kuro]] ([Super Robot Wars Wiki, „Cybuster”, opis wprowadzający](https://superrobotwars.fandom.com/wiki/Cybuster); sprawdzono 2026-10-19). Akurasu opisuje koty jako operatorów zdalnych modułów uzbrojenia typu High Familiar. Nie jest to przypisanie do konkretnego miejsca domyślnej załogi w menu OE ([Akurasu, „Masaki Andoh”, sekcja „Personality And Traits”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
+Wspiera Masakiego podczas obsługi [[cybuster|Cybustera]], podobnie jak [[kuro|Kuro]] ([Super Robot Wars Wiki, „Cybuster”, opis wprowadzający](https://superrobotwars.fandom.com/wiki/Cybuster); sprawdzono 2026-10-19). Koty obsługują zdalne moduły uzbrojenia typu High Familiar ([Akurasu, „Masaki Andoh”, sekcja „Personality And Traits”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
 }}
 
 ## Głos
 
 {{zrodlo
 
-Głosu postaci użycza Ai Orikasa — informacja ogólna o postaci, bez przypisywania obsady do konkretnej wersji OE ([Akurasu, „Masaki Andoh”, sekcja „Trivia”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
+Głosu postaci użycza Ai Orikasa w cyklu Super Robot Wars ([Akurasu, „Masaki Andoh”, sekcja „Trivia”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
 }}
 
 ## Nazwa

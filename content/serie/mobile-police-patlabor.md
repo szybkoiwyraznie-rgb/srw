@@ -10,5 +10,9 @@ utworzono: 2026-10-19
 
 ## Opis
 
-Nazwa serii podana przez właściciela przy danych jednostek w [[srw-oe|Super Robot Wars OE]]. Z tą serią powiązano: [[brocken|Brocken]] i przypisany do niego profil [[control-ai|Control AI]]. Nie określono wersji ani roku wydania.
+W [[srw-oe|Super Robot Wars OE]] z Mobile Police Patlabor pochodzi [[brocken|Brocken]], sterowany przez [[control-ai|Control AI]].
+}}
+{{wiedza
+
+Mobile Police Patlabor przedstawia świat, w którym wielkie roboty zwane Laborami służą do prac cywilnych, ale bywają też używane do przestępstw. Specjalne jednostki policji korzystają z własnych Laborów, by odpowiadać na takie zagrożenia.
 }}
