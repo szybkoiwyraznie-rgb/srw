@@ -22,6 +22,18 @@ W szkoleniu podstawowym prowadzi odprawę [[seishiro|Seishiro]], wyznacza cele, 
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
+{{menu
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Himari Yaegaki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Himari.png)
+
+[Otwórz plik Himari.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Himari.png)
+
+}}
+
 {{zrodlo
 
 - Wiek: 18 lat. Głos w wersji japońskiej: Kana Asumi ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).

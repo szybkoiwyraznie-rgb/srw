@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "baseUrl": "https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev",
+  "pochodzenie": "menu",
+  "dostarczono": "2026-10-19",
+  "podstawa": "Nazwy plików z listy R2 przekazanej przez właściciela i polecenie dodania ilustracji.",
+  "weryfikacjaZdalna": false,
+  "uwaga": "Przypisanie na podstawie nazw właściciela, nie niezależnej inspekcji obrazów. Próba pobrania Exart.jpg i Himari.png narzędziem agenta zwróciła HTTP 500.",
+  "encje": {
+    "exart": [
+      "Exart.jpg",
+      "Exart 2.png",
+      "Exart 3.png"
+    ],
+    "cybuster": [
+      "Cybuster.png",
+      "Cybuster 2.png"
+    ],
+    "cybird": [
+      "Cybird.png"
+    ],
+    "brocken": [
+      "Brocken.png",
+      "Brocken 2.png"
+    ],
+    "real-pg-gundam": [
+      "Real PG Gundam.png",
+      "Real PG Gundam 2.png"
+    ],
+    "seishiro": [
+      "Seishiro.jpg"
+    ],
+    "himari-yaegaki": [
+      "Himari.png"
+    ],
+    "masaki-andoh": [
+      "Masaki.png"
+    ]
+  },
+  "nieprzypisane": [
+    "Kuro.png",
+    "Shiro.png"
+  ]
+}

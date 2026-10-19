@@ -3,6 +3,11 @@
 Dziennik zmian widoczny w witrynie pod `#/co-nowego`. Prowadzi go agent przy każdym PR:
 dopisuje nowy wpis na górze, z datą i godziną publikacji (czas Europa/Warszawa, moment commita).
 
+## 2026-10-19 19:00
+
+- Dodane 13 ilustracji z R2 do ośmiu wpisów: Exart (3), Cybuster (2), Cybird (1), Brocken (2), Real PG Gundam (2), Seishiro (1), Himari (1) i Masaki (1). Podglądy z odnośnikami do oryginałów, bez kopiowania dużych plików do repozytorium.
+- Przypisania zgodne z listą plików przekazaną przez właściciela; manifest przechowuje jawny status braku niezależnej weryfikacji zdalnej. Kuro i Shiro pozostają nieprzypisani do czasu dostawy danych o tych encjach.
+
 ## 2026-10-19 18:59
 
 - Polski skrypt epizodu 0 zastąpił poprzednią dostawę; scena i streszczenie odtworzone z nowego materiału, bez zmiany adresów wpisów.

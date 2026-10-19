@@ -18,6 +18,24 @@ Jednostka opisana w dostawie jako Brocken (Brocken/Melee), z serii [[mobile-poli
 }}
 {{menu
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Brocken — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Brocken.png)
+
+[Otwórz plik Brocken.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Brocken.png)
+
+### Ilustracja 2
+
+![Brocken — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Brocken%202.png)
+
+[Otwórz plik Brocken 2.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Brocken%202.png)
+
+}}
+
+{{menu
+
 ## Parametry w Super Robot Wars OE
 
 **Seria:** [[mobile-police-patlabor|Mobile Police Patlabor]]

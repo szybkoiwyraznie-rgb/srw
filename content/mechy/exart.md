@@ -19,6 +19,30 @@ CF-00 Exart jest bronią [[connect-force|Connect Force]]. W [[prolog-i-trening-w
 }}
 {{menu
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Exart — ilustracja 1 z 3](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Exart.jpg)
+
+[Otwórz plik Exart.jpg](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Exart.jpg)
+
+### Ilustracja 2
+
+![Exart — ilustracja 2 z 3](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Exart%202.png)
+
+[Otwórz plik Exart 2.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Exart%202.png)
+
+### Ilustracja 3
+
+![Exart — ilustracja 3 z 3](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Exart%203.png)
+
+[Otwórz plik Exart 3.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Exart%203.png)
+
+}}
+
+{{menu
+
 ## Parametry w Super Robot Wars OE
 
 **Seria:** [[super-robot-wars-original|Super Robot Wars Original]]

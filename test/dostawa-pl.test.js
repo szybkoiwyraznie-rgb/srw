@@ -61,3 +61,26 @@ test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że 
   assert.doesNotMatch(connect, /Vasage|Mucus|Warp Gate|rozumie jej myśli/);
   assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /wsiada do Exert razem|wysyła dane do zespołu/);
 });
+
+test('ilustracje z listy właściciela: 13 plików przy 8 encjach, 2 oczekujące', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
+  assert.equal(Object.keys(manifest.encje).length, 8);
+  assert.equal(Object.values(manifest.encje).flat().length, 13);
+  assert.deepEqual(manifest.nieprzypisane, ['Kuro.png', 'Shiro.png']);
+  for (const [slug, files] of Object.entries(manifest.encje)) {
+    const body = bySlug.get(slug).body;
+    const { html, problemy } = renderMarkdown(body, { wymagajPoziomu: true });
+    assert.deepEqual(problemy, []);
+    assert.equal((html.match(/<img /g) ?? []).length, files.length, slug);
+    assert.match(body, /\{\{menu\n\n## Ilustracje/);
+    for (const file of files) {
+      const url = `${manifest.baseUrl}/${encodeURIComponent(file)}`;
+      assert.ok(html.includes(`src="${url}"`), `${slug}: podgląd ${file}`);
+      assert.ok(html.includes(`href="${url}"`), `${slug}: pełny rozmiar ${file}`);
+    }
+    assert.doesNotMatch(body, /data:image|Kuro\.png|Shiro\.png/);
+    assert.doesNotMatch(html, /src="[^"]* /);
+    assert.match(html, /loading="lazy"/);
+  }
+});

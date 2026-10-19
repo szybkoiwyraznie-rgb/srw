@@ -18,6 +18,24 @@ Jednostka z dostawy menu [[srw-oe|Super Robot Wars OE]], z przypisanym profilem 
 }}
 {{menu
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Cybuster — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Cybuster.png)
+
+[Otwórz plik Cybuster.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Cybuster.png)
+
+### Ilustracja 2
+
+![Cybuster — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Cybuster%202.png)
+
+[Otwórz plik Cybuster 2.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Cybuster%202.png)
+
+}}
+
+{{menu
+
 ## Parametry w Super Robot Wars OE
 
 **Seria:** [[super-robot-wars-original|Super Robot Wars Original]]

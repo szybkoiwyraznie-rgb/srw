@@ -3,6 +3,8 @@
 Oryginały ilustracji są w Cloudflare R2, nie w git ani w wynikowym HTML-u.
 Workflow `.github/workflows/r2-inventory.yml` tworzy listę obiektów, nie zmienia bucketa,
 nie pobiera obrazów i nie przypisuje ich automatycznie do wpisów bazy.
+Artefakt jest narzędziem agenta: właściciel tylko wgrywa obrazy, nie musi uruchamiać
+workflow ani pobierać jego wyników.
 
 ## Konfiguracja
 
@@ -56,3 +58,18 @@ Nazwy i metadane plików w artefakcie publicznego repozytorium traktuj jako publ
 - `r2.dev` jest adresem testowym; docelowo można przejść na własną subdomenę, zmieniając
   `R2_PUBLIC_BASE_URL` w workflow. Nie należy wtedy zmieniać kluczy istniejących plików.
 - Nie uruchamiaj workflow z niezaufanej gałęzi. Nie udostępniaj go jako publicznego endpointu.
+
+## Przypisane ilustracje (ADR 0016)
+
+Manifest `media/ilustracje.json` przechowuje nazwy plików przypisanych do istniejących encji
+oraz pliki oczekujące na dane o encji. Zawiera jawny status weryfikacji. Obecne przypisania
+pochodzą z listy właściciela; nie deklarują niezależnego obejrzenia plików przez agenta.
+Nie należy zmieniać statusu na zweryfikowany wyłącznie dlatego, że workflow zwrócił nazwę.
+
+Na stronie encji ilustracje są zwykłymi obrazami Markdown w bloku `menu`, w sekcji
+„Ilustracje”. Każdy ma polski tekst alternatywny, odnośnik do pełnego pliku i lazy loading.
+Spacje w nazwach kodujemy jako `%20`; wielkość liter pozostaje bez zmian. Test porównuje
+manifest z odnośnikami stron. Nowa ilustracja tej samej maszyny nie tworzy wariantu mecha.
+
+Tekst, kod i style pozostają w jednym HTML-u. Zewnętrzne ilustracje wymagają sieci,
+a ich niedostępność nie blokuje czytania tekstu, nawigacji ani wyszukiwania.

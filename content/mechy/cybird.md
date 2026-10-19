@@ -18,6 +18,18 @@ Jednostka z dostawy menu [[srw-oe|Super Robot Wars OE]], z przypisanym profilem 
 }}
 {{menu
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Cybird — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Cybird.png)
+
+[Otwórz plik Cybird.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Cybird.png)
+
+}}
+
+{{menu
+
 ## Parametry w Super Robot Wars OE
 
 **Seria:** [[super-robot-wars-original|Super Robot Wars Original]]

@@ -24,6 +24,18 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 }}
 {{menu
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Seishiro Kusanagi — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Seishiro.jpg)
+
+[Otwórz plik Seishiro.jpg](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Seishiro.jpg)
+
+}}
+
+{{menu
+
 ## Umiejętności w Super Robot Wars OE
 
 Domyślny profil załogi [[exart|Exarta]], miejsce 1: Seishiro Kusanagi.

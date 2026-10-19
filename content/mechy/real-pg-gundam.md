@@ -18,6 +18,24 @@ Jednostka z serii [[sgt-frog|Sgt. Frog]], opisana w dostawie także jako Gundam 
 }}
 {{menu
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Real PG Gundam — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Real%20PG%20Gundam.png)
+
+[Otwórz plik Real PG Gundam.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Real%20PG%20Gundam.png)
+
+### Ilustracja 2
+
+![Real PG Gundam — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Real%20PG%20Gundam%202.png)
+
+[Otwórz plik Real PG Gundam 2.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Real%20PG%20Gundam%202.png)
+
+}}
+
+{{menu
+
 ## Parametry w Super Robot Wars OE
 
 **Seria:** [[sgt-frog|Sgt. Frog]]

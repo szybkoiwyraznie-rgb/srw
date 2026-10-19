@@ -19,3 +19,14 @@ Domyślny profil pilota na miejscu 1 w [[cybuster|Cybusterze]] i [[cybird|Cybird
 
 - **Potenc. Unik (poziom bazowy 1):** Pozostałe HP 10%: Obr/Cel/Kryt+4% Unik+5%. *Pole poziomu nauki: 1.*
 }}
+{{menu
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Masaki Andoh — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Masaki.png)
+
+[Otwórz plik Masaki.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Masaki.png)
+
+}}
