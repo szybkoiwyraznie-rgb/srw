@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-19 23:14
+
+- Mobile Police Patlabor: kolektyw Headgear i manga z 1988 roku.
+- Sgt. Frog: autor i magazyn, w którym ukazuje się manga.
+
 ## 2026-10-19 23:13
 
 - Masaki Andoh i Cybuster: pochodzenie obu — pierwsze oryginalne postać i mech Banpresto, debiut w *Super Robot Wars 2*.

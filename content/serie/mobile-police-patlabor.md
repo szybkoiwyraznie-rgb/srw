@@ -19,5 +19,7 @@ W [[srw-oe|Super Robot Wars OE]] z Mobile Police Patlabor pochodzi [[brocken|Bro
 }}
 {{zrodlo
 
+Seria powstała w kolektywie Headgear, do którego należą Masami Yūki, Mamoru Oshii, Kazunori Itō, Yutaka Izubuchi i Akemi Takada; manga Masamiego Yūkiego ukazywała się od 1988 roku ([Wikipedia, *Patlabor*](https://en.wikipedia.org/wiki/Patlabor); sprawdzono 2026-10-19).
+
 Akcja rozgrywa się w niedalekiej przyszłości w Tokio. Laborami nazywa się wielkie roboty używane przy dużych pracach inżynieryjnych; tokijska policja dysponuje własną flotą policyjnych Laborów ([Wikipedia, *Patlabor*](https://en.wikipedia.org/wiki/Patlabor); sprawdzono 2026-10-19).
 }}
