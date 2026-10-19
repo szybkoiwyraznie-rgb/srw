@@ -2,54 +2,54 @@
 typ: mech
 slug: exart
 tytul: Exart
+seria: super-robot-wars-original
 gry: [srw-oe]
-piloci: [seishiro]
-pochodzenie: skrypt
+piloci: [seishiro, himari-yaegaki]
+w_gre:
+  srw-oe: '{"dostawa":"dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md","profil":"Exart","dane":"**Seria:** Super Robot Wars Original\n### Domyślny pilot / załoga i umiejętności specjalne\n#### Miejsce 1: Seishiro Kusanagi\n**Przypisany profil: Seishiro Kusanagi**\n- **Potencjał (poziom bazowy 1):** Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% *Pole poziomu nauki: 1.*\n#### Miejsce 2: Himari Yaegaki\n**Przypisany profil: Himari Yaegaki**\nW tym rekordzie postaci brak macierzystego przypisania umiejętności specjalnej.\n### Macierzyste zdolności maszyny\n- **Pole naprężeń (poziom bazowy 1):** Obrona:Obraz.-24%; EN-5\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Multi Launcher | 2000 | 1–5 | +35 | 5 | — | Brak w tym polu | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód; **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |\n| 1 | Raiko Blade | 3300 | 1–1 | +40 | 5 | — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18% |\n| 2 | Waver Gun | 3000 | 1–4 | +20 | 10 | — | Brak w tym polu | **Penetracja (poziom bazowy 1):** Obr-30% |\n| 3 | Raiko Blade/Przebicie | 2500 | 1–7 | +5 | 30 | 105 | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej; Bez kontry; Nie do wsparcia ani kontry |\n| 4 | Excess Blast | 4200 | 1–6 | +10 | 40 | 120 | Brak w tym polu | **Penetr. barier (poziom bazowy 1):** Obr wroga-20% Ignoruje bariery; **Namiar (poziom bazowy 1):** Kryt+10%, Kryt Obraż.+20% bez Osłony; (Ignoruje Osłonę) |"}'
 tagi: [connect]
+pochodzenie: skrypt
 utworzono: 2026-10-17
 ---
 {{skrypt
 
 ## Opis
 
-CF-00 Exart to jednostka Connect Force, nazywana po prostu „Exart”. W [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]])
-startuje z katapulty w hangarze Connect Station. Pilotuje ją [[seishiro|Seishiro]], a Himari prowadzi jednostkę zdalnie.
-
-Trening dotyczy manewrów bojowych z nowym modułem sterowania manewrami.
-
-## Możliwości w treningu
-
-- Zdalne przemieszczanie w wyznaczony obszar.
-- Wykrywanie i zbieranie „Supplies”, uzupełnianie EN po dotarciu do współrzędnych zaopatrzenia.
-- Odzyskiwanie „Parts” z kontenerów po dotarciu do ich współrzędnych.
-- Odczuwanie trafień: obrażenia wracają do jednostki (symulacja realistycznej walki).
-- Walka z dronami; kontenery pojawiają się razem z nimi.
+CF-00 Exart jest bronią [[connect-force|Connect Force]]. W [[prolog-i-trening-w-connect|szkoleniu podstawowym]] pilotuje go [[seishiro|Seishiro]], a [[himari-yaegaki|Himari]] prowadzi ćwiczenia i może przejąć sterowanie zdalne.
 }}
 {{menu
 
-**Seria:** Super Robot Wars Original
+## Parametry w Super Robot Wars OE
 
-## Pilot domyślny i umiejętności specjalne
+**Seria:** [[super-robot-wars-original|Super Robot Wars Original]]
 
-### Slot 1: [[seishiro|Seishiro Kusanagi]]
+### Domyślny pilot / załoga i umiejętności specjalne
 
-Przypisany profil: Seishiro Kusanagi.
+#### Miejsce 1: [[seishiro|Seishiro Kusanagi]]
 
-- **Prevail (base Lv1):** HP left 10%: Def/Acc/Eva/Crit+4%. *Learn-level field: 1.*
+**Przypisany profil: Seishiro Kusanagi**
 
-## Zdolności natywne
+- **Potencjał (poziom bazowy 1):** Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% *Pole poziomu nauki: 1.*
 
-- **Strain Field (base Lv1):** Guarding: Dmg-24% · EN-5.
+#### Miejsce 2: [[himari-yaegaki|Himari Yaegaki]]
 
-## Uzbrojenie i akcje
+**Przypisany profil: Himari Yaegaki**
 
-### Pozycje z wyborem niezerowym
+W tym rekordzie postaci brak macierzystego przypisania umiejętności specjalnej.
 
-| Slot | English name | Base power | Range | Hit | EN | Will | Abilities — base descriptions |
-|---:|---|---:|:---:|---:|---:|---:|---|
-| 0 | Multi Launcher | 2000 | 1–5 | +35 | 5 | — | **Arc Shot (unlevelled):** Can attack regardless of obstacles · **Hit & Away (unlevelled):** Can move with remaining Move after attacking |
-| 1 | Raiko Blade | 3300 | 1–1 | +40 | 5 | — | **Escape (base Lv1):** Eva+18% |
-| 2 | Waver Gun | 3000 | 1–4 | +20 | 10 | — | **Pierce (base Lv1):** Foe Def-30% |
-| 3 | Raiko Blade/Breakthrough | 2500 | 1–7 | +5 | 30 | 105 | **Break (unlevelled):** Attacks all foes in Range and moves · No counterattack · No Sup. Atk or Counter |
-| 4 | Excess Blast | 4200 | 1–6 | +10 | 40 | 120 | **Barr. Pierce (base Lv1):** Foe Def-20% Voids barriers · **Lock-On (base Lv1):** Crit+10%, Crit Dmg+20% No Sup. Def. (Voids foe Sup. Def.) |
+### Macierzyste zdolności maszyny
+
+- **Pole naprężeń (poziom bazowy 1):** Obrona:Obraz.-24%; EN-5
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Multi Launcher | 2000 | 1–5 | +35 | 5 | — | Brak w tym polu | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód; **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+| 1 | Raiko Blade | 3300 | 1–1 | +40 | 5 | — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18% |
+| 2 | Waver Gun | 3000 | 1–4 | +20 | 10 | — | Brak w tym polu | **Penetracja (poziom bazowy 1):** Obr-30% |
+| 3 | Raiko Blade/Przebicie | 2500 | 1–7 | +5 | 30 | 105 | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej; Bez kontry; Nie do wsparcia ani kontry |
+| 4 | Excess Blast | 4200 | 1–6 | +10 | 40 | 120 | Brak w tym polu | **Penetr. barier (poziom bazowy 1):** Obr wroga-20% Ignoruje bariery; **Namiar (poziom bazowy 1):** Kryt+10%, Kryt Obraż.+20% bez Osłony; (Ignoruje Osłonę) |
 }}

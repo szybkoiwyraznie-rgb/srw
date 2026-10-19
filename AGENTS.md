@@ -111,12 +111,17 @@ Szczegółowa lista kroków: `docs/guides/PRZEPLYW_EPIZODU.md`.
 
 ## 4. Twarde zasady danych
 
+- **Cała baza i nowe dostawy po polsku (ADR 0016).** Nazwy własne, tytuły serii, nazwy broni
+  i skróty zachowuj w postaci podanej przez właściciela. Nie zmieniaj slugów przy tłumaczeniu.
+
 - **Slug jest niezmienny.** Raz nadany identyfikator żyje na zawsze — zmiana zrywa cały graf.
   Nowy slug buduj z tytułu (`[[slugify]]`: małe litery, myślniki), a przy kolizji dopisz
   wyróżnik (rok, wariant, gra).
 - **Ścieżki i odsyłacze muszą istnieć.** Pole `seria`/`mechy`/`bronie`/`gra` wskazuje na wpis
   o właściwym typie; build to sprawdza i przerywa pracę przy błędzie.
 - **Skryptu epizodu nie poprawiasz.** `episodes/**` to archiwum rozgrywki — czytasz, nie edytujesz.
+  Wymiana jest możliwa tylko na wyraźne polecenie właściciela; polska dostawa z ADR 0016
+  zastąpiła poprzednią i jest nowym nietykalnym wzorem.
 - **Nie wyprzedzaj fabuły (ADR 0012).** Nie dodawaj wydarzeń ani ról postaci ujawnianych
   dopiero po aktualnie rozegranym materiale, nawet jeśli potwierdza je zewnętrzne źródło.
   Nie przenoś takich informacji do osobnej sekcji ani pod oznaczenie spoilera.

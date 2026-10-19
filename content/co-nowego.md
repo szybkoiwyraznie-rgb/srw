@@ -3,6 +3,13 @@
 Dziennik zmian widoczny w witrynie pod `#/co-nowego`. Prowadzi go agent przy każdym PR:
 dopisuje nowy wpis na górze, z datą i godziną publikacji (czas Europa/Warszawa, moment commita).
 
+## 2026-10-19 18:59
+
+- Polski skrypt epizodu 0 zastąpił poprzednią dostawę; scena i streszczenie odtworzone z nowego materiału, bez zmiany adresów wpisów.
+- Nowa polska dostawa: Exart (dwa miejsca załogi), Cybuster, Cybird, Brocken i Real PG Gundam. Parametry przypisane do Super Robot Wars OE; dawna angielska dostawa usunięta z aktualnego drzewa.
+- Nowe encje: Masaki Andoh, Control AI, cztery mechy, trzy serie z dostawy oraz Invaderzy. Nazwy haseł z prologu zgodne z polską wersją.
+- Rozdzielone dane menu od fabuły: nowe jednostki i drugie miejsce Exarta nie dopisują wydarzeń do sceny 0-1. Usunięte wcześniejsze ujawnienie przyszłości z hasła Connect Force.
+
 ## 2026-10-18 00:58
 
 - Himari: usunięta informacja wyprzedzająca rozegraną fabułę. Zewnętrzne źródło nie uprawnia do ujawniania przyszłych wydarzeń (ADR 0012).

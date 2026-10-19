@@ -19,7 +19,7 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Gra, w którą prowadzi rozgrywkę właściciel. Zapisany pierwszy epizod to [[srw-oe-ep0|Episode 0]].
+Gra, w którą prowadzi rozgrywkę właściciel. Zapisany pierwszy epizod to [[srw-oe-ep0|Epizod 0]].
 }}
 {{zrodlo
 

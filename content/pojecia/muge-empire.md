@@ -1,7 +1,7 @@
 ---
 typ: pojecie
 slug: muge-empire
-tytul: Muge Empire
+tytul: Imperium Muge
 kategoria: najazd
 gry: [srw-oe]
 pochodzenie: skrypt
@@ -14,9 +14,9 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Muge Empire jest wymienione w prologu wśród „nieziemskich napaści”, które według skryptu „pozostają w pamięci”: obok Evil God Drago, Mechanization Empire, Jaku Empire i Daimakai. Szczegóły tego państwa nie są znane.
+Imperium Muge należy do zagrożeń wymienionych w prologu po opisie badań nad nieznanymi energiami. Pamięć jego najazdu wciąż żyje; prolog nie opisuje przebiegu tego ataku.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]]).
+Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{zrodlo
 

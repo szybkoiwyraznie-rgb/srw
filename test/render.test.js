@@ -45,7 +45,7 @@ test('strona postaci składa infoboks, powiązania i backlinki', () => {
 test('strona epizodu pokazuje skrypt, sceny i nawigację', () => {
   const html = renderEpizod('srw-oe-ep0');
   assert.match(html, /panel-skryptu/);
-  assert.match(html, /Connect Station/, 'surowy skrypt epizodu ma być widoczny');
+  assert.match(html, /Stacja Connect/, 'surowy skrypt epizodu ma być widoczny');
   assert.match(html, /#\/scena\/prolog-i-trening-w-connect/);
 });
 
@@ -62,7 +62,7 @@ test('listy działów działają i respektują filtry', () => {
   assert.match(postacie, /Himari Yaegaki/);
 
   const epizody = renderListe('epizod');
-  assert.match(epizody, /Episode 0/);
+  assert.match(epizody, /Epizod 0/);
 });
 
 test('tagi i strony tagów działają', () => {

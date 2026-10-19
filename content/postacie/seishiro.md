@@ -3,6 +3,7 @@ typ: postac
 slug: seishiro
 tytul: Seishiro Kusanagi
 rola: pilot
+seria: super-robot-wars-original
 gry: [srw-oe]
 mechy: [exart]
 pochodzenie: skrypt
@@ -15,18 +16,19 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Pilot Connect, prywatnej grupy zajmującej się handlem w przestrzeni kosmicznej. Prowadzi trening Himari na jednostce CF-00 [[exart|Exart]]. W prologu
-wewnętrznie zakłada, że cel Connect może pozostać niezauważony.
+Pilot [[connect-force|Connect Force]], oddziału bojowego prywatnej organizacji rozwijającej handel kosmiczny. W U.C. 0079 testuje nowy układ sterowania CF-00 [[exart|Exarta]]. Zna cel organizacji, lecz nie ujawnia go i woli, by działania Connect pozostały niezauważone.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]]).
+Prowadzi szkolenie [[himari-yaegaki|Himari]], przypomina jej o dyscyplinie i odpowiedzialności, a po misji pomaga nauczyć się przesyłania danych do centrali.
+
+Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{menu
 
-## Umiejętności pilota
+## Umiejętności w Super Robot Wars OE
 
-Pilot domyślny Exart, slot 1.
+Domyślny profil załogi [[exart|Exarta]], miejsce 1: Seishiro Kusanagi.
 
-- **Prevail (base Lv1):** HP left 10%: Def/Acc/Eva/Crit+4%. *Learn-level field: 1.*
+- **Potencjał (poziom bazowy 1):** Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4%. *Pole poziomu nauki: 1.*
 }}
 {{zrodlo
 

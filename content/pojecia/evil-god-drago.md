@@ -1,7 +1,7 @@
 ---
 typ: pojecie
 slug: evil-god-drago
-tytul: Evil God Drago
+tytul: Zły Bóg Drago
 kategoria: najazd
 gry: [srw-oe]
 pochodzenie: skrypt
@@ -14,9 +14,9 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Evil God Drago jest wymienione w prologu wśród „nieziemskich napaści”, które według skryptu „pozostają w pamięci”. Szczegóły nie są znane.
+Zły Bóg Drago jest wymieniony wśród dawnych nadludzkich ataków. Prolog nie podaje szczegółów jego działań.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]]).
+Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{zrodlo
 

@@ -1,0 +1,49 @@
+# 0016 — Polska dostawa właściciela i ilustracje jednostek
+
+Data: 2026-10-19
+Status: obowiązujący; uzupełnia ADR 0005, 0010 i 0015.
+
+## Kontekst
+
+Właściciel polecił przejść w całości na język polski, zastąpić wcześniejsze dostawy
+polskim skryptem epizodu 0 i nowymi danymi pięciu jednostek oraz dodać ilustracje z R2.
+Polecenie jest jawnym wyjątkiem od zakazu samodzielnego poprawiania archiwalnych dostaw.
+
+## Decyzja
+
+1. Treść bazy, opisy mechanik i nowe dostawy są po polsku. Nazwy własne, oznaczenia,
+   tytuły serii, nazwy broni i skróty pozostają zgodne z dostawą, także gdy nie zostały
+   przetłumaczone (np. Multi Launcher, Universal Century, Control AI). Nie wymyślamy
+   polskich odpowiedników nazw ani nie zmieniamy istniejących slugów.
+2. Na wyraźne polecenie właściciela polski skrypt zastępuje `episodes/srw-oe/ep000.md`.
+   Stara dostawa parametrów `dostawy/srw-oe/exart-piloci-i-uzbrojenie.md` zostaje zastąpiona
+   plikiem `dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md`. Wcześniejsze wersje pozostają
+   w historii gita, nie w aktualnych dostawach. To nie jest zgoda na przyszłe samodzielne
+   redagowanie skryptów; nowa wersja staje się nietykalnym wzorem.
+3. W skrypcie zapisujemy znak cytatu Markdown `>` zamiast transportowego `&gt;` z czatu.
+   W dostawie parametrów zachowujemy dosłowne znaczniki `&lt;br&gt;` i odstępy tabel.
+   Na stronach pochodnych znaczniki końca wiersza zastępujemy separatorami tekstowymi,
+   a tabele składamy bez pustych linii między wierszami. Nie poprawiamy wartości, skrótów
+   ani nietypowych zapisów (np. „Obrona:Obraz.-24%”).
+4. Dane jednostek z menu nie dowodzą ich wystąpienia w epizodzie 0. Domyślny profil
+   Himari na miejscu 2 Exarta jest informacją z menu, nie przyszłym wydarzeniem fabuły.
+   Cybuster, Cybird, Brocken i Real PG Gundam nie trafiają do obsady tej sceny.
+5. Parametry pięciu jednostek są związane z `srw-oe`: we froncie `w_gre.srw-oe` jako
+   tekst JSON z profilem, ścieżką dostawy i pełnymi danymi, a na stronie w osobnej sekcji
+   „Parametry w Super Robot Wars OE” poziomu `menu`. Nie są parametrami ogólnymi mecha.
+6. Istniejące bezpieczne uzupełnienia z kwerendy nie są dostawą właściciela i nie są
+   automatycznie usuwane. Sprzeczne opisy i ujawnienia przyszłej fabuły nie są przenoszone
+   do nowych wpisów. Każdy fragment zachowuje odpowiedni poziom wiarygodności.
+7. Jedna encja może mieć wiele ilustracji. Wykorzystujemy zewnętrzne obrazy przez HTTPS,
+   bez zapisywania oryginałów w git i bez osadzania ich jako base64 w HTML-u.
+   Dostarczona przez właściciela lista nazw plików pozwala przypisać je do wskazanych encji;
+   nie oznacza to niezależnego obejrzenia obrazów przez agenta. Status sprawdzenia jest jawny.
+8. Obrazy nie tworzą encji. Kuro i Shiro, obecni tylko w nazwach plików, czekają na dostawę
+   danych. Określenie wariantu Gundam (Keroro) nie ustanawia domyślnego pilota.
+
+## Konsekwencje
+
+Scena jest przebudowana z polskiego skryptu z zachowaniem wierności. Nowe mechy, profile
+pilota, serie i hasła pochodzą bezpośrednio z dostawy. Historyczne adresy wpisów pozostają
+stabilne mimo polskich tytułów. Ilustracje wymagają połączenia z R2; tekst, wyszukiwanie
+i nawigacja pozostają dostępne także bez sieci.

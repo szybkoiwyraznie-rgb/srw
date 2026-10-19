@@ -1,7 +1,7 @@
 ---
 typ: pojecie
 slug: earth-federation
-tytul: Earth Federation
+tytul: Federacja Ziemska
 kategoria: państwo
 gry: [srw-oe]
 pochodzenie: skrypt
@@ -14,9 +14,9 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Earth Federation zjednoczyła świat. Prolog podaje, że po jej zjednoczeniu minęły dekady, a państwa i kolonie kosmiczne musiały się zbroić, gdy Siły Federacji zostały przytłoczone przez zagrożenia.
+Federacja Ziemska zjednoczyła świat. Jej rozwój umożliwił budowę kolonii kosmicznych i ekspansję po Układzie Słonecznym. Gdy Siły Federacji nie potrafiły sprostać zagrożeniom, dawne państwa i kolonie zaczęły zbroić się samodzielnie.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]]).
+Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{zrodlo
 

@@ -3,6 +3,8 @@ typ: postac
 slug: himari-yaegaki
 tytul: Himari Yaegaki
 rola: wsparcie
+seria: super-robot-wars-original
+mechy: [exart]
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
@@ -14,14 +16,20 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Pochodzi z Japonii, z Ziemi. Studiowała inżynierię i, jak sama mówi, ukończyła studia magisterskie
-wcześniej niż rówieśnicy. Przeniesiona z działu General Affairs 44 do Connect Force na pierwszym roku pracy.
-W treningu prowadzi odprawy, zdalnie steruje jednostką i wysyła dane do zespołu analizy.
+Pochodzi z Japonii. Studiowała inżynierię, przeskakiwała klasy i ma już magisterkę. Jest w pierwszym roku pracy; przeniesiono ją z 44. Działu Administracji do [[connect-force|Connect Force]]. Nie ma prawa jazdy, źle znosi zimno i lubi kąpiele, yakiniku, ramen, bufety deserowe oraz karmelowe macchiato.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]]).
+W szkoleniu podstawowym prowadzi odprawę [[seishiro|Seishiro]], wyznacza cele, zdalnie steruje [[exart|Exartem]] i obsługuje symulator. Po treningu dopiero uczy się, jak przesłać dane do centrali.
+
+Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{zrodlo
 
 - Wiek: 18 lat. Głos w wersji japońskiej: Kana Asumi ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
 - Pisownia nazwiska: w źródle TV Tropes „Yaegami”, w skrypcie „Yaegaki”. Baza używa pisowni ze skryptu ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
+}}
+{{menu
+
+## Profil załogi w Super Robot Wars OE
+
+Miejsce 2 w domyślnej załodze [[exart|Exarta]]: Himari Yaegaki. W tym rekordzie postaci brak macierzystego przypisania umiejętności specjalnej. Jest to informacja z menu, nie opis wydarzenia w rozegranej scenie.
 }}

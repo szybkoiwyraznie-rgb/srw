@@ -1,7 +1,7 @@
 ---
 typ: pojecie
 slug: mechanization-empire
-tytul: Mechanization Empire
+tytul: Imperium Mechanizacji
 kategoria: najazd
 gry: [srw-oe]
 pochodzenie: skrypt
@@ -14,9 +14,9 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Mechanization Empire jest wymienione w prologu wśród „nieziemskich napaści”, które według skryptu „pozostają w pamięci”. Szczegóły nie są znane.
+Imperium Mechanizacji pojawia się w wyliczeniu nadludzkich zagrożeń z przeszłości. Prolog nie opisuje jego sił ani przebiegu najazdu.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Episode 0]]).
+Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{zrodlo
 
