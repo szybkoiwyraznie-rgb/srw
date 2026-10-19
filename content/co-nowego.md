@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-19 23:15
+
+- Seishiro i Himari: projekt postaci 加藤誠 oraz role protagonisty i bohaterki gry.
+
 ## 2026-10-19 23:14
 
 - Mobile Police Patlabor: kolektyw Headgear i manga z 1988 roku.

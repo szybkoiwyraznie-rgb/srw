@@ -9,6 +9,7 @@ gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE
+  - https://srw.wiki.cre.jp/wiki/%E5%85%AB%E9%87%8D%E5%9E%A3%E3%81%B2%E3%81%BE%E3%82%8A
 tagi: [connect]
 utworzono: 2026-10-17
 ---
@@ -39,4 +40,5 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 {{zrodlo
 
 - Wiek: 18 lat. Głos w wersji japońskiej: Kana Asumi ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-19).
+- Projekt postaci: 加藤誠. Himari jest bohaterką gry ([srw.wiki.cre.jp, „八重垣ひまり”](https://srw.wiki.cre.jp/wiki/%E5%85%AB%E9%87%8D%E5%9E%A3%E3%81%B2%E3%81%BE%E3%82%8A); sprawdzono 2026-10-19).
 }}

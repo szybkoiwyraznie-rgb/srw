@@ -9,6 +9,7 @@ mechy: [exart]
 pochodzenie: skrypt
 zrodla:
   - https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE
+  - https://srw.wiki.cre.jp/wiki/%E8%8D%89%E8%96%99%E5%BE%81%E5%A3%AB%E9%83%8E
 tagi: [connect]
 utworzono: 2026-10-17
 ---
@@ -49,4 +50,5 @@ Domyślny profil załogi [[exart|Exarta]], miejsce 1: Seishiro Kusanagi.
 
 - Japońskie imię i nazwisko: 草薙征士郎 ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend); sprawdzono 2026-10-19).
 - Wiek: 22 lata. Głos w wersji japońskiej: Go Shinomiya ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-19).
+- Projekt postaci: 加藤誠. Seishiro jest protagonistą gry ([srw.wiki.cre.jp, „草薙征士郎”](https://srw.wiki.cre.jp/wiki/%E8%8D%89%E8%96%99%E5%BE%81%E5%A3%AB%E9%83%8E); sprawdzono 2026-10-19).
 }}
