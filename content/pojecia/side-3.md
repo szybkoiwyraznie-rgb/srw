@@ -17,7 +17,7 @@ utworzono: 2026-10-20
 
 Kolonia, która ogłosiła się [[zeon|Księstwem Zeonu]] i rzuciła [[earth-federation|Federacji]] wyzwanie: wojnę o wolność. W ciągu niewiele ponad miesiąca walk zginęła połowa całej ludzkości, a potem front utknął w martwym punkcie.
 
-Pojawia się w [[srw-oe-ep0-na-ratunek-white-base|scenie 0-2]] ([[srw-oe-ep0|Epizod 0]]).
+Pojawia się podczas [[srw-oe-ep0-na-ratunek-white-base|interludium o wojnie w U.C. 0079]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{zrodlo gra=wspolne
 

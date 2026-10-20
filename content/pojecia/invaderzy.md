@@ -14,5 +14,5 @@ utworzono: 2026-10-19
 
 Invaderzy są wymienieni w prologu wśród dawnych nadludzkich ataków. Ich najazd należy do kryzysów, po których ludzkość odbudowała się i rozwijała dalej.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
+Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 }}

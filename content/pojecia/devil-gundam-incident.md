@@ -16,7 +16,7 @@ utworzono: 2026-10-17
 
 Incydent Devil Gundam jest przykładem technologii, które wymknęły się kontroli podczas rozwoju nauki napędzanego wojnami.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
+Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{zrodlo gra=wspolne
 

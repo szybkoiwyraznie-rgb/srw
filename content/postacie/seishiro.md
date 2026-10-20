@@ -21,7 +21,7 @@ Pilot [[connect-force|Connect Force]], oddziału bojowego prywatnej organizacji 
 
 Prowadzi szkolenie [[himari-yaegaki|Himari]], przypomina jej o dyscyplinie i odpowiedzialności, a po misji pomaga nauczyć się przesyłania danych do centrali.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
+Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{menu gra=srw-oe
 

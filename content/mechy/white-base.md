@@ -17,7 +17,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Okręt Sił Federacji, na którego pokładzie schronili się cywile z [[side-7|Side 7]]. W scenie 0-2 odpiera atak [[char-aznable|Chara]], a następnie kieruje się do [[luna-ii|Luny II]].
+Okręt Sił Federacji, na którego pokładzie schronili się cywile z [[side-7|Side 7]]. Odpiera atak [[char-aznable|Chara]], a następnie kieruje się do [[luna-ii|Luny II]].
 
 Dowodzi nim [[bright-noa|Bright]], lecz ranny [[paolo-cassius|kapitan Paolo]] wciąż wydaje rozkazy ze stanowiska. [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] wspierają obronę jako [[connect-force|Connect Force]].
 }}

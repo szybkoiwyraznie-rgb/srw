@@ -17,7 +17,7 @@ utworzono: 2026-10-17
 
 Universal Century to era następująca po zjednoczeniu świata przez [[earth-federation|Federację Ziemską]] i rozwoju kolonii kosmicznych. Ekspansja ludzkości na cały Układ Słoneczny przyniosła dobrobyt, lecz także nierówności i nowe zagrożenia.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
+Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{zrodlo gra=wspolne
 

@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-20 23:52
+
+- Numer sceny zniknął z opisów: odsyłacze wskazują teraz wydarzenia — prolog i trening, atak na [[white-base|White Base]] — zamiast numerów scen.
+
 ## 2026-10-20 23:50
 
 - [[side-3|Side 3]] i [[loum|Loum]] mają własne hasła: pierwsza to kolonia, z której ogłosiło się [[zeon|Księstwo Zeonu]], druga — pole bitwy, o której mówi [[paolo-cassius|Paolo]].
@@ -19,7 +23,7 @@
 
 - Obsada trzech [[zaku-ii|Zaków II]] jest ustalona: [[slender|Slender]] prowadzi [[zaku-ii-karabin-maszynowy|maszynę z karabinem maszynowym]], [[crown|Crown]] — [[zaku-ii-bazooka|wersję z bazooką]], a [[char-aznable|Char]] swoją [[zaku-ii-char|wersję dowódczą]].
 - [[zolnierz-zeonu|Żołnierz Zeonu]] pozostaje domyślną załogą jednostek z karabinem i bazooką; strony maszyn wymieniają nazwanych pilotów przed nim.
-- [[srw-oe-ep0|Epizod 0]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] mówią teraz wprost, kto siedzi w której maszynie.
+- [[srw-oe-ep0|Epizod 0]] i scena na [[white-base|White Base]] mówią teraz wprost, kto siedzi w której maszynie.
 
 ## 2026-10-20 20:20
 
@@ -44,7 +48,7 @@
 
 - [[zolnierz-zeonu|Żołnierz Zeonu]]: nowa postać — bezimienny pilot [[zaku-ii|Zaku II]], jeden z tych, którzy tworzą trzon armii [[zeon|Księstwa Zeonu]].
 - Trzy Zaku II to w [[srw-oe|OE]] osobne mechy, nie warianty: strony mówią o jednostkach z rodziny [[zaku-ii|Zaku II]], a sekcja na stronie bazowej nazywa się „Pozostałe jednostki Zaku II”.
-- Zaku II znalazły się w obsadzie [[srw-oe-ep0-na-ratunek-white-base|sceny 0-2]]: [[char-aznable|Char]] w swojej maszynie, [[slender|Slender]] i [[crown|Crown]] w dwóch pozostałych.
+- Załoga [[zaku-ii|Zaków II]] na [[white-base|White Base]]: [[char-aznable|Char]] w swojej maszynie, [[slender|Slender]] i [[crown|Crown]] w dwóch pozostałych.
 
 ## 2026-10-20 19:48
 

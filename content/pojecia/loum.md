@@ -17,7 +17,7 @@ utworzono: 2026-10-20
 
 Kolonia, o której wspomina [[paolo-cassius|Paolo]]: w bitwie o Loum [[char-aznable|Char]] sam zniszczył pięć pancerników.
 
-Pojawia się w [[srw-oe-ep0-na-ratunek-white-base|scenie 0-2]] ([[srw-oe-ep0|Epizod 0]]).
+Pojawia się podczas [[srw-oe-ep0-na-ratunek-white-base|ataku na White Base]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{zrodlo gra=wspolne
 

@@ -19,7 +19,7 @@ Connect to prywatna organizacja rozwijająca handel kosmiczny. Connect Force jes
 
 Do oddziału należy CF-00 [[exart|Exart]], najnowocześniejsza broń na każdą misję. Prawdziwy cel organizacji nie zostaje ujawniony. Himari została wybrana spośród setek tysięcy kandydatów.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
+Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{zrodlo gra=srw-oe
 

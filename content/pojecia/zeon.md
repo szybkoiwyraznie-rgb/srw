@@ -14,7 +14,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Państwo ogłoszone przez kolonię [[side-3|Side 3]], które rzuciło [[earth-federation|Federacji]] wyzwanie i prowadzi z nią wojnę. W scenie 0-2 [[char-aznable|Char]] i jego piloci działają w jego imieniu, a [[paolo-cassius|Paolo]] wspomina bitwę o [[loum|Loum]].
+Państwo ogłoszone przez kolonię [[side-3|Side 3]], które rzuciło [[earth-federation|Federacji]] wyzwanie i prowadzi z nią wojnę. Podczas ataku na [[white-base|White Base]] [[char-aznable|Char]] i jego piloci działają w jego imieniu, a [[paolo-cassius|Paolo]] wspomina bitwę o [[loum|Loum]].
 
 [[seishiro|Seishiro]] podkreśla, że celem [[connect-force|Connect]] nie jest zniszczenie Zeonu, i chce, by nawet jego piloci wyszli z wojny żywi.
 }}

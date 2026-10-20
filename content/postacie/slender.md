@@ -15,7 +15,7 @@ utworzono: 2026-10-20
 
 Pilot [[zeon|Zeonu]] w grupie [[char-aznable|Chara]]. Nie rozpoznaje maszyny [[connect-force|Connect]] i dziwi się, że komandor nie atakuje. Posłusznie przyjmuje jednak rozkaz wycofania.
 
-W scenie 0-2 leci [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]] w eskorcie [[char-aznable|Chara]], obok [[crown|Crowna]] w [[zaku-ii-bazooka|maszynie z bazooką]].
+W eskorcie [[char-aznable|Chara]] leci [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]], obok [[crown|Crowna]] w [[zaku-ii-bazooka|maszynie z bazooką]].
 }}
 {{menu gra=srw-oe
 

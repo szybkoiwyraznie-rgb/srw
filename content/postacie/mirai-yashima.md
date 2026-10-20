@@ -16,7 +16,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Członkini załogi [[white-base|White Base]]. W scenie 0-2 melduje o starcie okrętu, a usłyszawszy od [[paolo-cassius|Paola]] o Czerwonej Komecie, powtarza z niedowierzaniem imię [[char-aznable|Chara]].
+Członkini załogi [[white-base|White Base]]. Melduje o starcie okrętu, a usłyszawszy od [[paolo-cassius|Paola]] o Czerwonej Komecie, powtarza z niedowierzaniem imię [[char-aznable|Chara]].
 }}
 {{menu gra=srw-oe
 

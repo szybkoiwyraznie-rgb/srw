@@ -21,7 +21,7 @@ Pochodzi z Japonii. Studiowała inżynierię, przeskakiwała klasy i ma już mag
 
 W szkoleniu podstawowym prowadzi odprawę [[seishiro|Seishiro]], wyznacza cele, zdalnie steruje [[exart|Exartem]] i obsługuje symulator. Po treningu dopiero uczy się, jak przesłać dane do centrali.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
+Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{menu gra=srw-oe
 
