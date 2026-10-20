@@ -15,7 +15,7 @@ utworzono: 2026-10-17
 
 ## Opis
 
-CF-00 Exart jest bronią [[connect-force|Connect Force]]. W [[prolog-i-trening-w-connect|szkoleniu podstawowym]] pilotuje go [[seishiro|Seishiro]], a [[himari-yaegaki|Himari]] prowadzi ćwiczenia i może przejąć sterowanie zdalne.
+CF-00 Exart jest bronią [[connect-force|Connect Force]]. W [[prolog-i-trening-w-connect|szkoleniu podstawowym]] pilotuje go [[seishiro|Seishiro]], a [[himari-yaegaki|Himari]] prowadzi ćwiczenia i może przejąć zdalne sterowanie.
 }}
 {{menu gra=srw-oe
 

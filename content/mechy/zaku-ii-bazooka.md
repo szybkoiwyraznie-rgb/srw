@@ -17,7 +17,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Jedna z maszyn rodziny [[zaku-ii|Zaku II]] — z bazooką Zaku i Heat Hawkiem, przygotowana do walki z okrętami i umocnionymi celami. Podobnie jak uzbrojenie z karabinem maszynowym trafia w ręce zwykłych [[zolnierz-zeonu|żołnierzy Zeonu]], którzy walczą w grupie bliźniaczych maszyn.
+Jedna z maszyn rodziny [[zaku-ii|Zaku II]] — z bazooką Zaku i Heat Hawkiem, przygotowana do walki z okrętami i umocnionymi celami. Podobnie jak wersja z karabinem maszynowym trafia w ręce zwykłych [[zolnierz-zeonu|żołnierzy Zeonu]], którzy walczą w grupie bliźniaczych maszyn.
 
 Podczas ataku na [[white-base|White Base]] maszyny tego typu lecą w eskorcie [[char-aznable|Chara]], a tę z bazooką prowadzi [[crown|Crown]].
 

@@ -20,5 +20,5 @@ Państwo ogłoszone przez kolonię [[side-3|Side 3]], które rzuciło [[earth-fe
 }}
 {{zrodlo gra=wspolne
 
-Księstwo Zeonu powstało na kolonii [[side-3|Side 3]] i było jednym z dwóch głównych stron wojny w *Mobile Suit Gundam*. Jego naukowcy rozwinęli technologię mobile suitów oraz badania nad cząstkami Minovsky’ego ([Gundam Wiki, „Principality of Zeon”](https://gundam.fandom.com/wiki/Principality_of_Zeon); sprawdzono 2026-10-20).
+Księstwo Zeonu powstało na kolonii [[side-3|Side 3]] i było jedną z dwóch głównych stron wojny w *Mobile Suit Gundam*. Jego naukowcy rozwinęli technologię mobile suitów oraz badania nad cząstkami Minovsky’ego ([Gundam Wiki, „Principality of Zeon”](https://gundam.fandom.com/wiki/Principality_of_Zeon); sprawdzono 2026-10-20).
 }}

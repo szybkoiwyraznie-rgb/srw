@@ -286,7 +286,7 @@ Nie wiedząc, kiedy uderzy następne zagrożenie, ludzie żyją w niepokoju - al
 
 Prolog zestawia rozwój cywilizacji z kosztami ekspansji: nierównościami, przestępczością i rozpadem jedności politycznej. [[earth-federation|Federacja Ziemska]] nie potrafi samodzielnie zapewnić bezpieczeństwa, a wyścig zbrojeń przynosi także niekontrolowane technologie. Wspomniane kryzysy należą do przeszłości tej opowieści; nie przesądzają, kto pojawi się później.
 
-W [[uc-0079|U.C. 0079]] [[seishiro|Seishiro]] pracuje w [[connect-force|Connect]]. Zna cel organizacji, ale go nie ujawnia. Trening [[exart|Exarta]] daje [[himari-yaegaki|Himari]] okazję do pracy operatorki: wyznacza cele, reaguje na nieoszczędny kurs i może przejąć sterowanie zdalne.
+W [[uc-0079|U.C. 0079]] [[seishiro|Seishiro]] pracuje w [[connect-force|Connect]]. Zna cel organizacji, ale go nie ujawnia. Trening [[exart|Exarta]] daje [[himari-yaegaki|Himari]] okazję do pracy operatorki: wyznacza cele, reaguje na nieoszczędny kurs i może przejąć zdalne sterowanie.
 
 ## Wątki w scenie
 

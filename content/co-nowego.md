@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-10-21 00:58
+
+- [[loum|Loum]] mówi o bitwie flot, a nie „bitwie flotniczej”; [[luna-ii|Luna II]] leży w punkcie L3, [[side-3|Side 3]] składa się z kolonii zamkniętych, a [[uc-0079|U.C. 0079]] opisuje rok akcji zamiast „daty akcji”.
+- [[zeon|Księstwo Zeonu]] jest jedną z dwóch stron wojny — zdanie ma poprawną formę.
+- [[srw-oe-ep0|Epizod 0]] odzyskał spójnik w zdaniu o wspólnej ramie chronologicznej, a analiza sceny na [[white-base|White Base]] nie powtarza „a” i mówi o ataku Chara wprost.
+- Drobne poprawki w opisach [[marker|Markera]], [[exart|Exarta]] i [[zaku-ii-bazooka|Zaku II z bazooką]].
+
 ## 2026-10-21 00:38
 
 - Etykiety wersji nie są już odczytywane z dosłownego tekstu dialogów — kontrola pomija ten fragment treści.

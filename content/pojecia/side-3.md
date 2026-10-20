@@ -20,5 +20,5 @@ Pojawia się podczas [[srw-oe-ep0-na-ratunek-white-base|interludium o wojnie w U
 }}
 {{zrodlo gra=wspolne
 
-Side 3, zwana też Munzo, leży za Księżycem, w punkcie L2, i zbudowana jest z kolonii typu zamkniętego — cylindrów bez szklanego „nieba”. W U.C. 0052 przybył tu Zeon Zum Deikun i zaczął głosić swoją doktrynę, a w U.C. 0058 kolonia ogłosiła niezależność i stała się Republiką Zeonu. Po śmierci Deikuna władzę przejął Degwin Zabi, który ogłosił powstanie Księstwa Zeonu — 3 stycznia [[uc-0079|U.C. 0079]] Zeon wypowiedział wojnę Federacji ([Gundam Wiki, „Space Colony (U.C.)”](https://gundam.fandom.com/wiki/Space_Colony_%28U.C.%29); sprawdzono 2026-10-20).
+Side 3, zwana też Munzo, leży za Księżycem, w punkcie L2, i składa się z kolonii typu zamkniętego — cylindrów bez szklanego „nieba”. W U.C. 0052 przybył tu Zeon Zum Deikun i zaczął głosić swoją doktrynę, a w U.C. 0058 kolonia ogłosiła niezależność i stała się Republiką Zeonu. Po śmierci Deikuna władzę przejął Degwin Zabi, który ogłosił powstanie Księstwa Zeonu — 3 stycznia [[uc-0079|U.C. 0079]] Zeon wypowiedział wojnę Federacji ([Gundam Wiki, „Space Colony (U.C.)”](https://gundam.fandom.com/wiki/Space_Colony_%28U.C.%29); sprawdzono 2026-10-20).
 }}
