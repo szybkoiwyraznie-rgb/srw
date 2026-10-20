@@ -61,4 +61,4 @@ Dlatego:
    umiejętność i przypisuje maszyny — tak jak **Control AI** przy Brockenie. Żołnierz Zeonu
    ma więc własną stronę i wskazuje dwa Zaku II, które obsadza.
 4. Epizod i scena wymieniają wszystkie trzy Zaku II w `mechy`, bo są obsadą sceny 0-2;
-   za sterami siedzą Char, Slender i Crown.
+   za sterami siedzą Char, Slender i Crown (kto w której maszynie — ADR 0024).

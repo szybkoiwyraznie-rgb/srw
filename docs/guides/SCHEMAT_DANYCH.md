@@ -56,6 +56,8 @@ Odrębny rekord jednostki w dostawie dostaje własny slug `<jednostka>-<wyróżn
 Słowo „wariant” zarezerwowane jest dla tej samej maszyny w różnych grach (ADR 0020).
 Zbiorczy profil obsady z umiejętnością i przypisanymi maszynami (np. „Żołnierz Zeonu”)
 może być wpisem `postac` — tak jak Control AI przy Brockenie.
+`piloci` wymienia najpierw nazwanych pilotów z obsady misji, a po nich domyślną załogę
+jednostki (np. `[slender, zolnierz-zeonu]`); kolejność jest znacząca (ADR 0024).
 (obiekt jednopoziomowy: `slug-gry: wartość`) na parametry specyficzne dla konkretnego tytułu.
 
 Bronie nie są osobnym typem (ADR 0012). Uzbrojenie mecha opisujesz w jego treści.

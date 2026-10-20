@@ -73,10 +73,10 @@ test('Precyzja Seishira trafia do profilu Exarta i do jego strony', () => {
   assert.match(bySlug.get('seishiro').body, /\*\*Precyzja \(poziom bazowy 1\):\*\* Kryt\/Kryt Obraż\.\+15%/);
 });
 
-test('warianty Zaku II: trzy odrębne strony z danymi dostawy i własnymi galeriami', () => {
+test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji', () => {
   const warianty = [
-    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], ['zolnierz-zeonu']],
-    ['zaku-ii-bazooka', 2, ['Bazooka Zaku', 'Heat Hawk'], ['zolnierz-zeonu']],
+    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], ['slender', 'zolnierz-zeonu']],
+    ['zaku-ii-bazooka', 2, ['Bazooka Zaku', 'Heat Hawk'], ['crown', 'zolnierz-zeonu']],
     ['zaku-ii-char', 4, ['Karabin maszynowy Zaku', 'Bazooka Zaku', 'Heat Hawk', 'Szarża barkiem'], ['char-aznable']],
   ];
   for (const [slug, count, bronie, piloci] of warianty) {
@@ -116,8 +116,16 @@ test('warianty Zaku II: trzy odrębne strony z danymi dostawy i własnymi galeri
     assert.ok(scena.mechy.includes(slug), `scena 0-2: ${slug} w obsadzie`);
     assert.ok(bySlug.get('srw-oe-ep0').mechy.includes(slug), `epizod 0: ${slug} w obsadzie`);
   }
-  for (const slug of ['slender', 'crown']) {
-    assert.match(bySlug.get(slug).body, /scenie 0-2 leci jednym z \[\[zaku-ii\|Zaków II\]\]/);
+  // Obsada misji rozstrzyga, kto siedzi w której maszynie (ADR 0024).
+  assert.deepEqual(bySlug.get('slender').mechy, ['zaku-ii-karabin-maszynowy']);
+  assert.deepEqual(bySlug.get('crown').mechy, ['zaku-ii-bazooka']);
+  assert.match(bySlug.get('slender').body, /leci \[\[zaku-ii-karabin-maszynowy\|Zaku II z karabinem maszynowym\]\]/);
+  assert.match(bySlug.get('crown').body, /leci \[\[zaku-ii-bazooka\|Zaku II z bazooką\]\]/);
+  assert.match(bySlug.get('zaku-ii-karabin-maszynowy').body, /prowadzi \[\[slender\|Slender\]\]/);
+  assert.match(bySlug.get('zaku-ii-bazooka').body, /prowadzi \[\[crown\|Crown\]\]/);
+  // Dane misji nie trafiają na strony jako surowe etykiety dostawy.
+  for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'slender', 'crown', 'zolnierz-zeonu']) {
+    assert.doesNotMatch(bySlug.get(slug).body, /DL100|Entry character|mission Entry|eventP00/, `${slug}: bez surowych danych misji`);
   }
   for (const cel of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
     assert.match(bySlug.get('zaku-ii').body, new RegExp('\\[\\[' + cel + '\\|'), `Zaku II: odsyłacz do ${cel}`);

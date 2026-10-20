@@ -15,7 +15,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Masowy mobile suit [[zeon|Zeonu]] i podstawowy typ tej armii w Wojnie Jednorocznej. Na czele eskorty atakującej [[white-base|White Base]] leci [[char-aznable|Char]] w [[zaku-ii-char|swoim Zaku II]], a dwie pozostałe maszyny prowadzą [[slender|Slender]] i [[crown|Crown]]. Załoga okrętu rozpoznaje maszyny po sylwetce, ale ich prędkość wzbudza wątpliwości — żaden zwykły Zaku nie powinien nadlatywać tak szybko.
+Masowy mobile suit [[zeon|Zeonu]] i podstawowy typ tej armii w Wojnie Jednorocznej. Na czele eskorty atakującej [[white-base|White Base]] leci [[char-aznable|Char]] w [[zaku-ii-char|swoim Zaku II]], a dwie pozostałe maszyny prowadzą [[slender|Slender]] w [[zaku-ii-karabin-maszynowy|wersji z karabinem maszynowym]] i [[crown|Crown]] w [[zaku-ii-bazooka|wersji z bazooką]]. Załoga okrętu rozpoznaje maszyny po sylwetce, ale ich prędkość wzbudza wątpliwości — żaden zwykły Zaku nie powinien nadlatywać tak szybko.
 
 Char leci w towarzystwie dwóch maszyn, pilotowanych przez [[slender|Slendera]] i [[crown|Crowna]]. Sam ocenia, że siła ognia Zaku nie strąci łatwo [[exart|Exarta]], i dlatego woli się wycofać niż ryzykować wymianę ognia.
 }}
@@ -29,7 +29,7 @@ Armia Zeonu używa Zaku II w kilku zestawach uzbrojenia:
 - [[zaku-ii-bazooka|Zaku II (bazooka)]] — bazooka Zaku i Heat Hawk; do walki z okrętami i umocnionymi celami.
 - [[zaku-ii-char|Zaku II (Char)]] — maszyna [[char-aznable|Chara]] z mocniejszym uzbrojeniem i szarżą barkiem.
 
-Podczas ataku na [[white-base|White Base]] za sterami tych maszyn siedzą Char, [[slender|Slender]] i [[crown|Crown]].
+Podczas ataku na [[white-base|White Base]] [[char-aznable|Char]] prowadzi wersję dowódczą, [[slender|Slender]] maszynę z karabinem maszynowym, a [[crown|Crown]] z bazooką.
 }}
 
 {{zrodlo gra=wspolne

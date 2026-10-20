@@ -29,7 +29,7 @@ W [[uc-0079|U.C. 0079]], w neutralnej strefie w okolicach Ziemi, [[seishiro|Seis
 
 Retrospekcja pokazuje jej przeniesienie do [[connect-force|Connect Force]]. Młoda absolwentka nie wiedziała, że dołącza do oddziału bojowego. Po treningu Seishiro pomaga jej nauczyć się przesyłania danych do centrali. Cel organizacji i powód wyboru Himari nie zostają wyjaśnione.
 
-W scenie 0-2 trwa wojna w [[uc-0079|U.C. 0079]]. [[suol|Szef Suol]] wysyła Seishira na pomoc nowemu okrętowi [[earth-federation|Federacji]], na którym schronili się cywile z [[side-7|Side 7]]. Na miejscu [[white-base|White Base]] odpiera atak [[char-aznable|Chara]], [[slender|Slendera]] i [[crown|Crowna]] w [[zaku-ii-char|Zakach II]], a [[amuro-ray|Amuro]] startuje [[rx-78-2-gundam|Gundamem]]. Rozproszone cząstki Minovsky’ego odcinają łączność z Himari, więc Seishiro walczy samodzielnie. Char wycofuje się bez rozstrzygnięcia, a wieczorem w hangarze Seishiro tłumaczy, dlaczego Connect nie dąży do zniszczenia [[zeon|Zeonu]].
+W scenie 0-2 trwa wojna w [[uc-0079|U.C. 0079]]. [[suol|Szef Suol]] wysyła Seishira na pomoc nowemu okrętowi [[earth-federation|Federacji]], na którym schronili się cywile z [[side-7|Side 7]]. Na miejscu [[white-base|White Base]] odpiera atak [[char-aznable|Chara]] w [[zaku-ii-char|jego Zaku II]], [[slender|Slendera]] w [[zaku-ii-karabin-maszynowy|maszynie z karabinem maszynowym]] i [[crown|Crowna]] w [[zaku-ii-bazooka|maszynie z bazooką]], a [[amuro-ray|Amuro]] startuje [[rx-78-2-gundam|Gundamem]]. Rozproszone cząstki Minovsky’ego odcinają łączność z Himari, więc Seishiro walczy samodzielnie. Char wycofuje się bez rozstrzygnięcia, a wieczorem w hangarze Seishiro tłumaczy, dlaczego Connect nie dąży do zniszczenia [[zeon|Zeonu]].
 
 ## Wątki anime
 

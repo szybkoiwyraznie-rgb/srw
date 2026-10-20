@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-10-20 21:00
+
+- Obsada trzech [[zaku-ii|Zaków II]] jest ustalona: [[slender|Slender]] prowadzi [[zaku-ii-karabin-maszynowy|maszynę z karabinem maszynowym]], [[crown|Crown]] — [[zaku-ii-bazooka|wersję z bazooką]], a [[char-aznable|Char]] swoją [[zaku-ii-char|wersję dowódczą]].
+- [[zolnierz-zeonu|Żołnierz Zeonu]] pozostaje domyślną załogą jednostek z karabinem i bazooką; strony maszyn wymieniają nazwanych pilotów przed nim.
+- [[srw-oe-ep0|Epizod 0]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] mówią teraz wprost, kto siedzi w której maszynie.
+
 ## 2026-10-20 20:20
 
 - Dziennik zmian prowadzi do stron: gdy wpis dotyczy postaci, mecha, hasła, serii albo epizodu, nazwa jest odsyłaczem wprost do tej strony — także we wpisach sprzed tej zmiany.

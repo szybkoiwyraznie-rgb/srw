@@ -4,7 +4,7 @@ slug: crown
 tytul: Crown
 rola: pilot
 gry: [srw-oe]
-mechy: [zaku-ii]
+mechy: [zaku-ii-bazooka]
 pochodzenie: skrypt
 tagi: [one-year-war]
 utworzono: 2026-10-20
@@ -15,7 +15,7 @@ utworzono: 2026-10-20
 
 Pilot [[zeon|Zeonu]] w grupie [[char-aznable|Chara]]. Uznaje wsparcie [[connect-force|Connect]] dla [[white-base|White Base]] za złamanie traktatu i pyta o rozkaz ataku. Po decyzji Chara melduje odwrót.
 
-W scenie 0-2 leci jednym z [[zaku-ii|Zaków II]] eskorty [[char-aznable|Chara]], obok [[slender|Slendera]].
+W scenie 0-2 leci [[zaku-ii-bazooka|Zaku II z bazooką]] w eskorcie [[char-aznable|Chara]], obok [[slender|Slendera]] w [[zaku-ii-karabin-maszynowy|maszynie z karabinem maszynowym]].
 }}
 {{menu gra=srw-oe
 
