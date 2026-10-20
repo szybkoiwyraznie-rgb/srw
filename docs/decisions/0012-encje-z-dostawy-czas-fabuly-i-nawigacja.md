@@ -8,6 +8,12 @@ ADR 0017 doprecyzowuje pojęcie dostawy: ilustracja postaci lub mecha od właśc
 również ustanawia encję. Brak opisu tekstowego uzupełnia agent na podstawie kwerendy
 lub jawnie oznaczonej pamięci modelu. Pozostałe ograniczenia tego ADR-a pozostają.
 
+## Adnotacja 2026-10-21
+
+Punkt 3 w części o nawigacji został zmieniony: scena pozostaje jednostką fabularną, ale
+dział „Sceny” nie jest już pozycją menu — wchodzi się do niego kaflem na stronie głównej
+(`#/sceny`). Pozostałe punkty decyzji obowiązują bez zmian.
+
 ## Kontekst
 
 Właściciel zgłosił cztery zasady podczas pierwszej dostawy SRW OE (epizod 0):

@@ -8,20 +8,21 @@ co opisane jako **wymagane** i **pilnowane**.
 
 | Pole | Wymagane | Wartość | Uwagi |
 |---|---|---|---|
-| `typ` | tak | `gra` / `epizod` / `scena` / `postac` / `mech` / `seria` (bronie nie są typem, ADR 0012) | musi zgadzać się z katalogiem |
+| `typ` | tak | `gra` / `epizod` / `scena` / `postac` / `mech` / `pojecie` / `seria` (bronie nie są typem, ADR 0012) | musi zgadzać się z katalogiem |
 | `slug` | tak | małe litery, cyfry, myślniki | **niezmienny** — patrz ADR 0003 |
 | `tytul` | tak | string | tytuł widoczny w witrynie; może być polski lub oryginalny |
 | `tytul_ja`, `tytul_en` | nie | string | zapisy oryginalne — ułatwiają późniejsze wyszukiwanie |
 | `tagi` | nie | tablica slugów | swobodne, bez słownika (ADR 0006) |
 | `pochodzenie` | nie | `skrypt` / `menu` (dostawa właściciela) / `zrodlo` (sprawdzone) / `wiedza` (model) | kolor nadaje blok `{{poziom}}` na fragmencie (ADR 0011), nie pole strony; poziomy: ADR 0010; reguły źródeł: ADR 0009 |
-| `zrodla` | nie | tablica URL-i `http(s)` | **tylko adresy sprawdzone** (ADR 0009); wymagają sekcji `## Źródła`; `wiedza` nie może ich mieć |
+| `zrodla` | nie | tablica URL-i `http(s)` | **tylko adresy sprawdzone** (ADR 0009); wymagane przy `pochodzenie: zrodlo`, zakazane przy `wiedza`; sekcja `## Źródła` jest opcjonalna |
 | `utworzono` | nie | `RRRR-MM-DD` | pole opisowe; stopka strony pokazuje czas z historii gita (utworzenie i ostatnia modyfikacja, z godziną) |
 | `obraz` | nie | URL lub ścieżka | miniatura; oryginały trzymamy poza gitem |
 
 ## Pola relacji (frontmatter)
 
-Każde z tych pól to tablica slugów **istniejących** wpisów właściwego typu — build przerywa
-pracę, jeśli odsyłacz jest martwy albo prowadzi do złego typu.
+Każde z tych pól wskazuje na **istniejące** wpisy właściwego typu — pojedynczy slug albo
+tablicę slugów (zgodnie z tabelą). Build przerywa pracę, jeśli odsyłacz jest martwy albo
+prowadzi do złego typu.
 
 | Pole | Typ celu | Gdzie używane |
 |---|---|---|
@@ -33,6 +34,7 @@ pracę, jeśli odsyłacz jest martwy albo prowadzi do złego typu.
 | `epizod` | `epizod` | scena |
 | `gry` | `gra` | postać, mech, hasło, seria |
 | `piloci` | `postac` | mech |
+| `pojecia` | `pojecie` | epizod, scena |
 
 Relacje można też wyrażać wikilinkami w treści (`[[slug]]`, `[[slug|etykieta]]`). Oba kanały
 liczą się do grafu i do sekcji „Powiązania" / „Wymienione w".
@@ -49,6 +51,10 @@ mieć swój wpis epizodu.
 **postac** (tylko postać z dostawy gry, także ilustracyjnej bez opisu tekstowego — ADR 0017; postać z innej serii pojawiająca się jako nawiązanie to `pojecie`, ADR 0013): `seria` (opcjonalne — oryginalne postacie gry nie mają serii), `rola` (`pilot` / `wsparcie` / `dowodztwo` / `antagonista` /
 `postac` / `inne`), `seiyuu`, `mechy`, `gry`.
 
+**pojecie** (hasło wiki: organizacja, państwo, era, miejsce, wydarzenie, technologia,
+postać z innej serii — ADR 0013): `kategoria` (swobodny tekst), `gry`. Hasło powstaje
+wyłącznie z dostawy (ADR 0012, 0013).
+
 **mech**: `seria` (opcjonalne), `typ_mecha`, `piloci`, `gry`, opcjonalnie `w_gre`.
 Jednostka bojowa to także okręt z załogą i uzbrojeniem (ADR 0022), nie hasło.
 Odrębny rekord jednostki w dostawie dostaje własny slug `<jednostka>-<wyróżnik>`, własne
@@ -58,7 +64,20 @@ Zbiorczy profil obsady z umiejętnością i przypisanymi maszynami (np. „Żoł
 może być wpisem `postac` — tak jak Control AI przy Brockenie.
 `piloci` wymienia najpierw nazwanych pilotów z obsady misji, a po nich domyślną załogę
 jednostki (np. `[slender, zolnierz-zeonu]`); kolejność jest znacząca (ADR 0024).
-(obiekt jednopoziomowy: `slug-gry: wartość`) na parametry specyficzne dla konkretnego tytułu.
+
+**`w_gre`** to mapa „slug gry → parametry pary (mech, gra)” (ADR 0020, 0023, 0024).
+Wartość zapisujemy jako JSON w jednej linii:
+
+```yaml
+w_gre:
+  srw-oe: '{"dostawa": "menu", "profil": "Gundam", "dane": "**Seria:** Mobile Suit Gundam…"}'
+```
+
+- `dostawa` — skąd pochodzą parametry: `menu`, gdy właściciel przekazał je z menu gry
+  (nie ma pliku archiwalnego w `dostawy/`), albo ścieżka `dostawy/…md` do zapisanej dostawy
+  w repozytorium,
+- `profil` — nazwa profilu jednostki w menu gry,
+- `dane` — dosłowny blok parametrów (markdown) z poziomu 1.
 
 Bronie nie są osobnym typem (ADR 0012). Uzbrojenie mecha opisujesz w jego treści.
 

@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-21 00:30
+
+- Opis schematu danych obejmuje teraz hasła, sceny i relacje z nimi, a wymagania dotyczące źródeł odpowiadają temu, co naprawdę jest sprawdzane.
+- Schemat wyjaśnia, skąd pochodzą parametry jednostek (`w_gre`): z menu gry albo z pliku w archiwum projektu.
+
 ## 2026-10-21 00:20
 
 - Podgląd ilustracji przechodzi strzałkami tylko obrazy z jednej galerii, a licznik pokazuje pozycję w tej galerii, nie na całej stronie.

@@ -1,5 +1,5 @@
 /**
- * Strona dowolnej encji (gra, postać, mech, broń, seria).
+ * Strona dowolnej encji (gra, postać, mech, hasło, seria).
  *
  * Jedna wspólna rama, różne infoboksy — bo wszystkie te encje mają ten sam
  * kształt: metryka u góry, opis w treści, powiązania pod spodem. Sekcje
