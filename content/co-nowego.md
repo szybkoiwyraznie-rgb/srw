@@ -1,8 +1,13 @@
 # Co nowego
 
+## 2026-10-20 20:04
+
+- Opis Żołnierza Zeonu mówi o ludziach armii, nie o miejscu w danych gry: bezimienny pilot Zaku II, siła szyku i nazwani podwładni Chara w scenie ataku na White Base.
+- Opisy Zaku II (karabin maszynowy, bazooka, Char) opisują maszyny i sposób walki, a nie przypisanie do rekordu.
+
 ## 2026-10-20 19:55
 
-- Żołnierz Zeonu ma własną stronę — zbiorczy profil obsady Zaku II, tak jak Control AI przy Brockenie; wskazuje dwie maszyny, które obsadza.
+- Żołnierz Zeonu: nowa postać — bezimienny pilot Zaku II, jeden z tych, którzy tworzą trzon armii Księstwa Zeonu.
 - Trzy Zaku II to w OE osobne mechy, nie warianty: strony mówią o jednostkach z rodziny Zaku II, a sekcja na stronie bazowej nazywa się „Pozostałe jednostki Zaku II”.
 - Zaku II znalazły się w obsadzie sceny 0-2: Char w swojej maszynie, Slender i Crown w dwóch pozostałych.
 

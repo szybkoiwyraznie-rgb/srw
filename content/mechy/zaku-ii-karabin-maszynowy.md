@@ -17,9 +17,9 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Osobna jednostka z rodziny [[zaku-ii|Zaku II]], uzbrojona w karabin maszynowy Zaku i Heat Hawk. W grze obsadza ją zbiorczy profil [[zolnierz-zeonu|Żołnierza Zeonu]]: taka jednostka może łączyć się z bliźniaczymi w szereg, a jej HP jest sumą HP grupy. W obronie blok tarczą zmniejsza otrzymywane obrażenia o 20%.
+Jedna z maszyn rodziny [[zaku-ii|Zaku II]] — uzbrojona w karabin maszynowy Zaku i Heat Hawk, podstawowa maszyna zwykłych [[zolnierz-zeonu|żołnierzy Zeonu]]. Żołnierze walczą w szyku: jednostki tego samego typu łączą się w grupy, a wytrzymałość grupy jest sumą wytrzymałości jej maszyn. W obronie blok tarczą zmniejsza otrzymywane obrażenia o 20%.
 
-W scenie 0-2 Zaku II tworzą eskortę [[char-aznable|Chara]]; za sterami dwóch z nich siedzą [[slender|Slender]] i [[crown|Crown]].
+Podczas ataku na [[white-base|White Base]] maszyny tego typu lecą w eskorcie [[char-aznable|Chara]]; za sterami dwóch z nich siedzą [[slender|Slender]] i [[crown|Crown]].
 
 Karabin maszynowy Zaku ma zasięg 3 pól i trafienie +30, Heat Hawk bije tylko na sąsiednim polu, ale z trafieniem +50 i bez zużycia EN.
 }}

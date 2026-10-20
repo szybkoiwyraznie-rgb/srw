@@ -14,9 +14,11 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Zbiorczy profil zwykłego żołnierza Księstwa [[zeon|Zeonu]] — obsada, którą gra przypisuje masowym [[zaku-ii|Zaku II]] bez nazwanego pilota. W odróżnieniu od nazwanych pilotów, takich jak [[char-aznable|Char Aznable]], nie ma własnej historii ani twarzy; reprezentuje anonimową załogę armii.
+Zwykły żołnierz Księstwa [[zeon|Zeonu]] — bezimienny pilot masowo produkowanego [[zaku-ii|Zaku II]]. Nie ma własnej historii ani przydomka; w odróżnieniu od asów pokroju [[char-aznable|Chara Aznable]] jest jednym z wielu ludzi, którzy tworzą trzon armii księstwa.
 
-W scenie 0-2 za sterami dwóch Zaku siedzą jednak nazwani podwładni Chara, [[slender|Slender]] i [[crown|Crown]], więc profil żołnierza opisuje raczej standardowe obsadzenie tych maszyn w grze niż konkretną fabułę.
+Jego siłą nie jest indywidualne wyszkolenie, lecz szyk. Żołnierze tego samego typu walczą w grupach, a wytrzymałość grupy jest sumą wytrzymałości jej maszyn.
+
+Nie każdą z tych maszyn prowadzi jednak bezimienny żołnierz: podczas ataku na [[white-base|White Base]] dwa Zaku II eskorty prowadzą nazwani podwładni Chara — [[slender|Slender]] i [[crown|Crown]].
 
 ## Umiejętności
 

@@ -15,7 +15,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Masowy mobile suit [[zeon|Zeonu]] i podstawowy typ tej armii w Wojnie Jednorocznej. W scenie 0-2 na [[white-base|White Base]] nadlatują Zaki; maszyna [[char-aznable|Chara]] ma własną stronę jako [[zaku-ii-char|Zaku II (Char)]], a dwie pozostałe prowadzą [[slender|Slender]] i [[crown|Crown]]. Załoga okrętu rozpoznaje maszyny po sylwetce, ale ich prędkość wzbudza wątpliwości — żaden zwykły Zaku nie powinien nadlatywać tak szybko.
+Masowy mobile suit [[zeon|Zeonu]] i podstawowy typ tej armii w Wojnie Jednorocznej. Na czele eskorty atakującej [[white-base|White Base]] leci [[char-aznable|Char]] w [[zaku-ii-char|swoim Zaku II]], a dwie pozostałe maszyny prowadzą [[slender|Slender]] i [[crown|Crown]]. Załoga okrętu rozpoznaje maszyny po sylwetce, ale ich prędkość wzbudza wątpliwości — żaden zwykły Zaku nie powinien nadlatywać tak szybko.
 
 Char leci w towarzystwie dwóch maszyn, pilotowanych przez [[slender|Slendera]] i [[crown|Crowna]]. Sam ocenia, że siła ognia Zaku nie strąci łatwo [[exart|Exarta]], i dlatego woli się wycofać niż ryzykować wymianę ognia.
 }}
@@ -23,13 +23,13 @@ Char leci w towarzystwie dwóch maszyn, pilotowanych przez [[slender|Slendera]] 
 
 ## Pozostałe jednostki Zaku II
 
-W grze Zaku II występuje jako kilka odrębnych jednostek, każda z własną stroną, uzbrojeniem i obsadą:
+Armia Zeonu używa Zaku II w kilku zestawach uzbrojenia:
 
-- [[zaku-ii-karabin-maszynowy|Zaku II (karabin maszynowy)]] — karabin maszynowy Zaku i Heat Hawk, obsada zbiorcza.
-- [[zaku-ii-bazooka|Zaku II (bazooka)]] — bazooka Zaku i Heat Hawk, obsada zbiorcza.
+- [[zaku-ii-karabin-maszynowy|Zaku II (karabin maszynowy)]] — karabin maszynowy Zaku i Heat Hawk; podstawowe uzbrojenie zwykłych żołnierzy.
+- [[zaku-ii-bazooka|Zaku II (bazooka)]] — bazooka Zaku i Heat Hawk; do walki z okrętami i umocnionymi celami.
 - [[zaku-ii-char|Zaku II (Char)]] — maszyna [[char-aznable|Chara]] z mocniejszym uzbrojeniem i szarżą barkiem.
 
-W scenie 0-2 maszynami tymi lecą Char, [[slender|Slender]] i [[crown|Crown]].
+Podczas ataku na [[white-base|White Base]] za sterami tych maszyn siedzą Char, [[slender|Slender]] i [[crown|Crown]].
 }}
 
 {{zrodlo gra=wspolne

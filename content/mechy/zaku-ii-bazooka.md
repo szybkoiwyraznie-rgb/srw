@@ -17,9 +17,9 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Osobna jednostka z rodziny [[zaku-ii|Zaku II]] z bazooką Zaku i Heat Hawkiem. Podobnie jak wersja z karabinem maszynowym ma zbiorczy profil [[zolnierz-zeonu|Żołnierza Zeonu]] i może walczyć w grupie bliźniaczych jednostek.
+Jedna z maszyn rodziny [[zaku-ii|Zaku II]] — z bazooką Zaku i Heat Hawkiem, przygotowana do walki z okrętami i umocnionymi celami. Podobnie jak uzbrojenie z karabinem maszynowym trafia w ręce zwykłych [[zolnierz-zeonu|żołnierzy Zeonu]], którzy walczą w grupie bliźniaczych maszyn.
 
-W scenie 0-2 Zaku II tworzą eskortę [[char-aznable|Chara]]; za sterami dwóch z nich siedzą [[slender|Slender]] i [[crown|Crown]].
+Podczas ataku na [[white-base|White Base]] maszyny tego typu lecą w eskorcie [[char-aznable|Chara]]; za sterami dwóch z nich siedzą [[slender|Slender]] i [[crown|Crown]].
 
 Bazooka Zaku sięga 4 pól i dostaje premię przeciw okrętom: trafienie +70% i atak x1,8. Heat Hawk pozostaje bronią na sąsiednie pole, z trafieniem +50.
 }}

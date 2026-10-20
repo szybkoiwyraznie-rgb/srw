@@ -145,6 +145,18 @@ test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że 
   assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /wsiada do Exert razem|wysyła dane do zespołu/);
 });
 
+test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
+  const zakazane = /\bw grze\b|\bprofilu?\b|\bobsad[a-ząćęłńóśźż]*\b|\broster\b|\bwłasną stroną\b|standardow/i;
+  const typy = ['postac', 'mech', 'pojecie', 'seria'];
+  for (const page of pages.filter(p => typy.includes(p.typ))) {
+    const opis = page.body.match(/^## Opis\n([\s\S]*?)(?=^## |^\}\}|\s*$)/m);
+    if (!opis) continue;
+    const tekst = opis[1];
+    assert.doesNotMatch(tekst, zakazane, `${page.slug}: opis zbliża się do technicznego języka gry`);
+  }
+  assert.doesNotMatch(bySlug.get('zolnierz-zeonu').body, /zbiorczy profil|gra przypisuje|standardowe obsadzenie/);
+});
+
 test('ilustracje właściciela: 36 plików przy 27 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
