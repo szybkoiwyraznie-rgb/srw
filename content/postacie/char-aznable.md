@@ -5,7 +5,7 @@ tytul: Char Aznable
 seria: mobile-suit-gundam-1979
 rola: antagonista
 gry: [srw-oe]
-mechy: [zaku-ii]
+mechy: [zaku-ii, zaku-ii-char]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Char_Aznable

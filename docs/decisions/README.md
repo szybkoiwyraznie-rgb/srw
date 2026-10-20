@@ -35,3 +35,4 @@ Zasady:
 | [0020](0020-zakres-gry-na-fragmencie.md) | Zakres gry na fragmencie treści i ilustracji |
 | [0021](0021-kazdy-fragment-ma-zakres.md) | Każdy fragment treści ma zakres gry |
 | [0022](0022-okret-jako-jednostka.md) | Okręt bojowy jest jednostką typu `mech` |
+| [0023](0023-wariant-jednostki-z-dostawy.md) | Wariant jednostki z dostawy jest osobną stroną |

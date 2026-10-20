@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-10-20 19:48
+
+- Trzy warianty Zaku II jako osobne jednostki: z karabinem maszynowym, z bazooką i maszyna Chara — każdy z dwiema ilustracjami i własnym zestawem uzbrojenia.
+- Zaku II zyskuje sekcję „Warianty” z odsyłaczami; Char Aznable ma w profilu także swoją wersję maszyny.
+- Warianty obsadzone zbiorczym profilem Żołnierza Zeonu nie tworzą postaci — to klasa jednostek, nie osoba.
+
 ## 2026-10-20 18:29
 
 - White Base zyskuje portret i pełny rekord jednostki: załogę Bright Noa i Mirai Yashima, zdolności okrętu-matki oraz cztery działa.

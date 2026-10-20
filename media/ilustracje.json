@@ -5,7 +5,7 @@
   "dostarczono": "2026-10-20",
   "podstawa": "Ilustracje właściciela jako pełnoprawna dostawa encji (ADR 0017); nazwy z odczytu listy R2 (workflow r2-inventory, 2026-10-20).",
   "weryfikacjaZdalna": false,
-  "uwaga": "17 portretów w characters/ oraz 13 plików mechów w korzeniu. Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów (R2 zwraca HTTP 500), więc nie deklarujemy obejrzenia zawartości.",
+  "uwaga": "17 portretów w characters/ oraz 19 plików jednostek w korzeniu, w tym trzy warianty Zaku II. Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów (R2 zwraca HTTP 500), więc nie deklarujemy obejrzenia zawartości.",
   "encje": {
     "exart": [
       "Exart.jpg",
@@ -84,6 +84,18 @@
     ],
     "white-base": [
       "White Base.png"
+    ],
+    "zaku-ii-karabin-maszynowy": [
+      "Zaku II KM.png",
+      "Zaku II KM 2.png"
+    ],
+    "zaku-ii-bazooka": [
+      "Zaku II Baz.png",
+      "Zaku II Baz 2.png"
+    ],
+    "zaku-ii-char": [
+      "Zaku II Char.png",
+      "Zaku II Char 2.png"
     ]
   },
   "nieprzypisane": []

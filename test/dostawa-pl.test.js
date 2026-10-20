@@ -73,6 +73,46 @@ test('Precyzja Seishira trafia do profilu Exarta i do jego strony', () => {
   assert.match(bySlug.get('seishiro').body, /\*\*Precyzja \(poziom bazowy 1\):\*\* Kryt\/Kryt Obraż\.\+15%/);
 });
 
+test('warianty Zaku II: trzy odrębne strony z danymi dostawy i własnymi galeriami', () => {
+  const warianty = [
+    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], []],
+    ['zaku-ii-bazooka', 2, ['Bazooka Zaku', 'Heat Hawk'], []],
+    ['zaku-ii-char', 4, ['Karabin maszynowy Zaku', 'Bazooka Zaku', 'Heat Hawk', 'Szarża barkiem'], ['char-aznable']],
+  ];
+  for (const [slug, count, bronie, piloci] of warianty) {
+    const mech = bySlug.get(slug);
+    assert.equal(mech.typ, 'mech', slug);
+    assert.equal(mech.seria, 'mobile-suit-gundam-1979', slug);
+    assert.deepEqual(mech.piloci, piloci, `${slug}: piloci`);
+    assert.equal(mech.pochodzenie, 'menu', `${slug}: dane z dostawy`);
+    const stats = JSON.parse(mech.w_gre['srw-oe']);
+    assert.equal(stats.dostawa, 'menu');
+    assert.match(stats.profil, /^Zaku II/);
+    const rows = mech.body.split('\n').filter(line => /^\| \d+ \|/.test(line));
+    assert.equal(rows.length, count, slug);
+    for (const row of rows) {
+      const cells = row.split('|').slice(1, -1).map(c => c.trim());
+      assert.equal(cells.length, 9, `${slug}: kolumny tabeli`);
+      for (const cell of cells) assert.ok(stats.dane.includes(cell), `${slug}: dane w w_gre: ${cell}`);
+    }
+    assert.deepEqual(rows.map(r => r.split('|')[2].trim()), bronie, `${slug}: uzbrojenie`);
+    assert.doesNotMatch(mech.body, /&lt;br&gt;/, slug);
+    assert.equal((mech.body.match(/!\[/g) ?? []).length, 2, `${slug}: dwie ilustracje`);
+    assert.match(mech.body, /\{\{menu gra=srw-oe\n\n## Parametry/, `${slug}: parametry`);
+    assert.match(mech.body, /\{\{zrodlo gra=wspolne/, `${slug}: rodowód zewnętrzny`);
+    assert.match(mech.body, /\[\[zaku-ii\|Zaku II\]\]/, `${slug}: odsyłacz do wersji bazowej`);
+  }
+  // Zbiorczy profil żołnierza nie jest postacią — nie tworzymy encji ani relacji.
+  for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka']) {
+    assert.match(bySlug.get(slug).body, /Żołnierz Zeonu/);
+    assert.ok(!bySlug.has('zolnierz-zeonu'));
+  }
+  assert.deepEqual(bySlug.get('char-aznable').mechy, ['zaku-ii', 'zaku-ii-char']);
+  for (const cel of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
+    assert.match(bySlug.get('zaku-ii').body, new RegExp('\\[\\[' + cel + '\\|'), `Zaku II: odsyłacz do ${cel}`);
+  }
+});
+
 test('profile załogi i transformacje są powiązane, ale nie udają sceny fabularnej', () => {
   assert.deepEqual(bySlug.get('exart').piloci, ['seishiro']);
   assert.deepEqual(bySlug.get('masaki-andoh').mechy, ['cybuster', 'cybird']);
@@ -94,11 +134,11 @@ test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że 
   assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /wsiada do Exert razem|wysyła dane do zespołu/);
 });
 
-test('ilustracje właściciela: 30 plików przy 24 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 36 plików przy 27 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 24);
-  assert.equal(Object.values(manifest.encje).flat().length, 30);
+  assert.equal(Object.keys(manifest.encje).length, 27);
+  assert.equal(Object.values(manifest.encje).flat().length, 36);
   assert.deepEqual(manifest.nieprzypisane, []);
   const adres = file => `${manifest.baseUrl}/${file.split('/').map(encodeURIComponent).join('/')}`;
   for (const [slug, files] of Object.entries(manifest.encje)) {

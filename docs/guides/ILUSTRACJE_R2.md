@@ -101,6 +101,9 @@ jest jedynym wyjściem do oryginału.
 Spacje w nazwach kodujemy jako `%20`; wielkość liter pozostaje bez zmian. Test porównuje
 manifest z odnośnikami stron. Nowa ilustracja tej samej maszyny nie tworzy wariantu mecha.
 
+Wariant maszyny powstaje z odrębnego rekordu w dostawie, nie z nowego zdjęcia (ADR 0023);
+zdjęcia wariantu trafiają na jego własną stronę.
+
 Tekst, kod i style pozostają w jednym HTML-u. Zewnętrzne ilustracje wymagają sieci,
 a ich niedostępność nie blokuje czytania tekstu, nawigacji ani wyszukiwania.
 
@@ -113,9 +116,9 @@ faktach i data sprawdzenia) lub pamięci modelu (`wiedza`, bez linków). Ilustra
 z dostawy pozostają na poziomie `menu`; nie kolorują dopisanego opisu jako danych właściciela.
 
 Kuro i Shiro mają już takie wpisy i przypisane obrazy. Po dostawie z 2026-10-20 bucket
-zawiera 30 plików: 17 zdjęć bohaterów w katalogu `characters/` (nazwy `Imię Nazwisko.png`)
-oraz 13 plików mechów w korzeniu. Wszystkie są przypisane do 24 encji; poprzednie zdjęcia
-bohaterów z korzenia nie istnieją już w buckecie. Nowe portrety trzymaj w `characters/`,
+zawiera 36 plików: 17 zdjęć bohaterów w katalogu `characters/` (nazwy `Imię Nazwisko.png`)
+oraz 19 plików jednostek w korzeniu, w tym trzy warianty Zaku II. Wszystkie są przypisane
+do 27 encji; poprzednie zdjęcia bohaterów z korzenia nie istnieją już w buckecie. Nowe portrety trzymaj w `characters/`,
 maszyny w korzeniu — adres publiczny zachowuje strukturę katalogów, a spacje kodujemy
 w każdym segmencie osobno (`characters/Amuro%20Ray.png`).
 
