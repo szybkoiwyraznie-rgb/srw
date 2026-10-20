@@ -9,6 +9,7 @@
 
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { zbudujDane } from '../tools/build.mjs';
@@ -104,12 +105,42 @@ test('dziennik zmian i strona „o bazie\" się renderują', () => {
   assert.match(renderOBazie(), /Znaczniki pochodzenia/);
 });
 
-test('szkielet strony zawiera nawigację i stopkę z licznikami', () => {
+test('szkielet strony ma jedno menu w nagłówku i stopkę bez drugiego zestawu linków', () => {
   const html = rama('glowna', 'Baza', '<p>treść</p>');
   assert.match(html, /nawigacja/);
-  assert.match(html, /#\/epizody/);
-  assert.match(html, /#\/serie/);
+  // Nagłówek prowadzi do działów, których nie ma w kaflach strony głównej.
+  for (const href of ['#/gry', '#/serie', '#/pojecia', '#/tagi', '#/co-nowego', '#/o-bazie']) {
+    assert.ok(html.includes(`href="${href}"`), `menu: ${href}`);
+  }
+  // Cztery działy fabularne mają kafle na stronie głównej, nie drugi wpis w menu.
+  const nawigacja = html.match(/<nav class="nawigacja"[\s\S]*?<\/nav>/)[0];
+  for (const href of ['#/sceny', '#/epizody', '#/postacie', '#/mechy']) {
+    assert.ok(!nawigacja.includes(href), `menu nie powiela kafla ${href}`);
+  }
   assert.match(html, /stopka/);
+  assert.doesNotMatch(html, /stopka-linki/, 'stopka nie ma już własnego menu');
+  assert.equal((html.match(/href="#\/serie"/g) ?? []).length, 1, 'link do działu występuje raz');
+});
+
+test('strona główna: dziennik zmian w lewej kolumnie, ostatnio dodane w prawej', () => {
+  const html = renderGlowna();
+  assert.match(html, /dwie-kolumny-nierowne/, 'układ 3/4 + 1/4');
+  assert.match(html, /<h2>Co nowego<\/h2>/);
+  assert.match(html, /<h2>Ostatnio dodane<\/h2>/);
+  assert.doesNotMatch(html, /Najnowsze epizody/, 'lista epizodów ustąpiła dziennikowi');
+  const lewa = html.slice(html.indexOf('<h2>Co nowego</h2>'), html.indexOf('<h2>Ostatnio dodane</h2>'));
+  assert.equal((lewa.match(/<span class="data mono">/g) ?? []).length, 8, 'osiem najnowszych wpisów');
+  assert.match(lewa, /href="#\/co-nowego"/, 'odsyłacz do całego dziennika');
+  const prawa = html.slice(html.indexOf('Ostatnio dodane'));
+  assert.match(prawa, /href="#\/postac\//, 'prawa kolumna linkuje do wpisów');
+  // Kafle nadal prowadzą do czterech działów fabularnych.
+  for (const href of ['#/sceny', '#/epizody', '#/postacie', '#/mechy']) {
+    assert.ok(html.includes(`class="kafelek" href="${href}"`), `kafel ${href}`);
+  }
+  // Opis nie jest sztucznie zawężany — ma zajmować całą szerokość.
+  const css = fs.readFileSync(path.join(ROOT, 'src/srw/style.css'), 'utf8');
+  const heroOpis = css.match(/\.hero-opis \{[^}]*\}/)[0];
+  assert.doesNotMatch(heroOpis, /max-width/, 'hero-opis bez ograniczenia szerokości');
 });
 
 

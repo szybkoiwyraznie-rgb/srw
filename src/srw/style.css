@@ -100,7 +100,7 @@ p { margin: .8em 0; }
 
 .hero { padding: 12px 0 6px; }
 .hero h1 { font-size: 2.2rem; }
-.hero-opis { color: var(--tusz-2); max-width: 70ch; font-size: 1.02rem; }
+.hero-opis { color: var(--tusz-2); font-size: 1.02rem; margin: 6px 0 0; }
 
 .hero-liczby { display: flex; flex-wrap: wrap; gap: 10px; margin: 22px 0 8px; }
 .kafelek {
@@ -114,6 +114,9 @@ p { margin: .8em 0; }
 
 .blok { margin: 26px 0; }
 .dwie-kolumny { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; }
+/* Strona główna: dziennik zmian (3/4) obok listy ostatnio dodanych (1/4). */
+.dwie-kolumny-nierowne { grid-template-columns: 3fr 1fr; align-items: start; }
+.wiecej { margin: 10px 0 0; font-size: .9rem; }
 
 .karty-gier { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
 .karta-gry, .karta-serie {
@@ -351,7 +354,6 @@ pre.skrypt {
 .kroki li { margin: .5em 0; }
 .dziennik ul { margin: .4em 0 .4em 1.2em; padding: 0; }
 .skrypt-tekst { line-height: 1.7; }
-.stopka-linki { margin: 0 0 6px; }
 .stopka-czas { margin: 0 0 4px; }
 
 /* ── Stopka ────────────────────────────────────────────────────── */
@@ -370,7 +372,7 @@ pre.skrypt {
 /* ── Responsywność ─────────────────────────────────────────────── */
 
 @media (max-width: 860px) {
-  .dwie-kolumny { grid-template-columns: 1fr; }
+  .dwie-kolumny, .dwie-kolumny-nierowne { grid-template-columns: 1fr; }
   h1 { font-size: 1.55rem; }
   .hero h1 { font-size: 1.8rem; }
 }

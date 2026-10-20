@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-10-20 20:15
+
+- Strona główna w nowym układzie: „Co nowego” zajmuje lewą kolumnę (3/4 szerokości, osiem najnowszych wpisów i odsyłacz do całego dziennika), a „Ostatnio dodane” prawą (1/4). Lista najnowszych epizodów zniknęła z głównej — epizody mają własny dział.
+- Górne menu prowadzi teraz do działów ze stopki: Gry, Serie, Hasła, Tagi, Co nowego, O bazie. Cztery kafle na głównej (sceny, epizody, postacie, mechy) nie są już powielone w menu, a stopka nie ma drugiego zestawu linków.
+- Wstęp na stronie głównej idzie pełną szerokością treści, bez łamania w połowie zdania.
+
 ## 2026-10-20 20:08
 
 - Listy scen mają jeden układ: tytuł w pierwszym wierszu, opis sceny zawsze pod nim — na stronie epizodu i w dziale „Sceny”.
