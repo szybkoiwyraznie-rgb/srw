@@ -13,6 +13,7 @@
  */
 
 import { SLUG_RE, hrefDlaSlug, slugify } from './links.js';
+import { BLOK_OTWARCIA_RE, parsujAtrybutyBloku, ZAKRES_WSPOLNY } from './markdown.js';
 
 /** Bronie nie są osobnym typem: opisują mech w jego treści (zasada właściciela). */
 /** Hasło (`pojecie`): organizacja, era, państwo, zjawisko — podstrona w stylu wiki (ADR 0012). */
@@ -64,6 +65,19 @@ export const POLA_RELACJI = {
 };
 
 const DATA_RE = /^\d{4}-\d{2}-\d{2}$/;
+
+/**
+ * Bloki poziomu w treści: `[{ poziom, atrybuty }]`.
+ * Używane do pilnowania zakresu gry (ADR 0020); parsowanie jest wspólne z rendererem.
+ */
+export function wytnijBloki(body) {
+  const bloki = [];
+  for (const linia of String(body ?? '').split('\n')) {
+    const m = linia.trim().match(BLOK_OTWARCIA_RE);
+    if (m) bloki.push({ poziom: m[1], atrybuty: parsujAtrybutyBloku(m[2]) });
+  }
+  return bloki;
+}
 
 /** Wyciąga tytuły sekcji h2 z ciała markdown. */
 export function wytnijSekcje(body) {
@@ -117,6 +131,27 @@ export function walidujStrone(strona, ctx) {
   for (const z of zrodla) {
     if (typeof z !== 'string' || !/^https?:\/\//.test(z)) {
       p.push(`${gdzie}: źródło "${z}" nie jest adresem http(s)`);
+    }
+  }
+
+  // Zakres gry (ADR 0020): blok może nieść `gra=<slug>` albo `gra=wspolne`.
+  // Strona opisująca kilka gier musi oznaczać każdy fragment, żeby nie było
+  // wątpliwości, do którego tytułu należy dana wersja wydarzeń lub wyglądu.
+  const gryStrony = Array.isArray(strona.gry) ? strona.gry : [];
+  const bloki = wytnijBloki(strona.body ?? '');
+  for (const blok of bloki) {
+    const gra = blok.atrybuty.get('gra');
+    if (gra === undefined || gra === ZAKRES_WSPOLNY) continue;
+    const cel = ctx.bySlug.get(gra);
+    if (!cel) p.push(`${gdzie}: blok {{${blok.poziom} gra=${gra}}} → "gra" nie istnieje w bazie`);
+    else if (cel.typ !== 'gra') p.push(`${gdzie}: blok {{${blok.poziom} gra=${gra}}} → typ "${cel.typ}", oczekiwano "gra"`);
+    if (gryStrony.length > 0 && !gryStrony.includes(gra)) {
+      p.push(`${gdzie}: blok {{${blok.poziom} gra=${gra}}} wskazuje grę spoza pola "gry" (${gryStrony.join(', ')})`);
+    }
+  }
+  if (gryStrony.length > 1) {
+    for (const blok of bloki.filter((b) => !b.atrybuty.get('gra'))) {
+      p.push(`${gdzie}: strona obejmuje ${gryStrony.length} gry — blok {{${blok.poziom}}} wymaga zakresu (gra=<slug> lub gra=${ZAKRES_WSPOLNY}; ADR 0020)`);
     }
   }
 

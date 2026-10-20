@@ -20,12 +20,12 @@ Brocken to jednostka z serii [[mobile-police-patlabor|Mobile Police Patlabor]], 
 }}
 ## Pochodzenie
 
-{{zrodlo
+{{zrodlo gra=wspolne
 
 Brocken (Type-7B) to wojskowy Labor opracowany przez Schaft Enterprises Europe dla armii RFN i NATO. W 1998 roku powstał wariant Type-7B/2B, ceniony za siłę i opancerzenie ([Patlabor Wiki, „Military labor type 7B Brocken”](https://patlabor.fandom.com/wiki/Military_labor_type_7B_%22Brocken%22); sprawdzono 2026-10-19).
 }}
 
-{{menu
+{{menu gra=srw-oe
 
 ## Ilustracje
 
@@ -43,9 +43,9 @@ Brocken (Type-7B) to wojskowy Labor opracowany przez Schaft Enterprises Europe d
 
 }}
 
-{{menu
+{{menu gra=srw-oe
 
-## Parametry w Super Robot Wars OE
+## Parametry
 
 **Seria:** [[mobile-police-patlabor|Mobile Police Patlabor]]
 

@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-20 11:49
+
+- Opisy i galerie mają teraz jawny tytuł, którego dotyczą: etykieta gry przy fragmentach i ilustracjach, gry w infoboksie oraz nazwa tytułu w podglądzie pełnoekranowym.
+- Rodowód postaci i mechów oznaczono jako informacje wspólne dla wszystkich tytułów.
+
 ## 2026-10-20 10:46
 
 - Ilustracje: kliknięcie obrazu otwiera go na pełnym ekranie, z podpisem i przełączaniem między obrazami danej strony.

@@ -32,3 +32,4 @@ Zasady:
 | [0017](0017-ilustracja-jako-dostawa-encji.md) | Ilustracja właściciela jest dostawą encji |
 | [0018](0018-tresc-o-swiecie-nie-o-procesie.md) | Treść witryny o świecie i fabule, bez procedur i wewnętrznych informacji |
 | [0019](0019-ilustracja-na-pelnym-ekranie.md) | Ilustracja otwiera się na pełnym ekranie |
+| [0020](0020-zakres-gry-na-fragmencie.md) | Zakres gry na fragmencie treści i ilustracji |

@@ -73,7 +73,7 @@ test('ilustracje właściciela: 15 plików przy 10 encjach, w tym postacie bez d
     const { html, problemy } = renderMarkdown(body, { wymagajPoziomu: true });
     assert.deepEqual(problemy, []);
     assert.equal((html.match(/<img /g) ?? []).length, files.length, slug);
-    assert.match(body, /\{\{menu\n\n## Ilustracje/);
+    assert.match(body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria z zakresem gry (ADR 0020)`);
     for (const file of files) {
       const url = `${manifest.baseUrl}/${encodeURIComponent(file)}`;
       assert.ok(html.includes(`src="${url}"`), `${slug}: podgląd ${file}`);

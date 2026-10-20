@@ -16,7 +16,7 @@ utworzono: 2026-10-19
 
 Cybird to forma [[cybuster|Cybustera]], pilotowana przez [[masaki-andoh|Masakiego Andoh]]. Może zmieniać się z powrotem w Cybustera. W [[srw-oe|Super Robot Wars OE]] korzysta z Caloric Missile, Cyflash i Hi-Familiar.
 }}
-{{menu
+{{menu gra=srw-oe
 
 ## Ilustracje
 
@@ -28,9 +28,9 @@ Cybird to forma [[cybuster|Cybustera]], pilotowana przez [[masaki-andoh|Masakieg
 
 }}
 
-{{menu
+{{menu gra=srw-oe
 
-## Parametry w Super Robot Wars OE
+## Parametry
 
 **Seria:** [[super-robot-wars-original|Super Robot Wars Original]]
 

@@ -42,6 +42,19 @@ test('strona postaci składa infoboks, powiązania i backlinki', () => {
   assert.ok(!/class="tresc-encja poziom/.test(html), 'kolor nie może wisieć na stronie (ADR 0011)');
 });
 
+test('infoboks encji podaje grę, w której występuje (ADR 0020)', () => {
+  const html = renderEncja('cybuster');
+  assert.match(html, /<dt>Gra<\/dt><dd><a class="link-strony" href="#\/gra\/srw-oe">Super Robot Wars OE<\/a><\/dd>/);
+  assert.match(html, /data-gra="srw-oe"/, 'galeria ilustracji ma zakres gry');
+  assert.match(html, /<p class="zakres-gry"><a href="#\/gra\/srw-oe">Super Robot Wars OE<\/a><\/p>/);
+});
+
+test('fragment wspólny ma etykietę bez odsyłacza do gry (ADR 0020)', () => {
+  const html = renderEncja('cybuster');
+  assert.match(html, /data-gra="wspolne"/);
+  assert.match(html, /<p class="zakres-gry"><span title="Informacje wspólne dla wszystkich tytułów">Wspólne<\/span><\/p>/);
+});
+
 test('strona epizodu pokazuje skrypt, sceny i nawigację', () => {
   const html = renderEpizod('srw-oe-ep0');
   assert.match(html, /panel-skryptu/);

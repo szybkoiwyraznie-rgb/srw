@@ -53,7 +53,7 @@ test('szkielet witryny zawiera okno podglądu bez wczytanego obrazu', () => {
   assert.match(shell, /<dialog class="podglad" id="podglad" aria-label="Podgląd ilustracji">/);
   for (const hook of [
     'data-licznik', 'data-pelny', 'data-zamknij', 'data-scena',
-    'data-poprzednia', 'data-obraz', 'data-nastepna', 'data-podpis',
+    'data-poprzednia', 'data-obraz', 'data-nastepna', 'data-podpis', 'data-zakres',
   ]) {
     assert.ok(shell.includes(hook), `brak haka ${hook} w oknie podglądu`);
   }

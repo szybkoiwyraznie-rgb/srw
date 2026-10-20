@@ -19,7 +19,7 @@ utworzono: 2026-10-19
 
 Cybuster to maszyna pilotowana przez [[masaki-andoh|Masakiego Andoh]]. Może przekształcać się w [[cybird|Cybirda]]. W [[srw-oe|Super Robot Wars OE]] jego uzbrojenie obejmuje między innymi Discutter, Akashic Buster i Cosmo Nova.
 }}
-{{menu
+{{menu gra=srw-oe
 
 ## Ilustracje
 
@@ -37,9 +37,9 @@ Cybuster to maszyna pilotowana przez [[masaki-andoh|Masakiego Andoh]]. Może prz
 
 }}
 
-{{menu
+{{menu gra=srw-oe
 
-## Parametry w Super Robot Wars OE
+## Parametry
 
 **Seria:** [[super-robot-wars-original|Super Robot Wars Original]]
 
@@ -72,7 +72,7 @@ Cybuster to maszyna pilotowana przez [[masaki-andoh|Masakiego Andoh]]. Może prz
 
 ## Pochodzenie
 
-{{zrodlo
+{{zrodlo gra=wspolne
 
 Cybuster był pierwszym oryginalnym mechem Banpresto i zadebiutował w *Super Robot Wars 2*. Wcześniejszą maszyną [[masaki-andoh|Masakiego Andoh]] był Jaohm ([Akurasu, „Masaki Andoh”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
 }}

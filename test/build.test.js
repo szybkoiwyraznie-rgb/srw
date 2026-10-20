@@ -47,4 +47,6 @@ test('artefakt zawiera okno podglądu ilustracji', () => {
   assert.match(html, /<dialog class="podglad" id="podglad" aria-label="Podgląd ilustracji">/);
   assert.match(html, /class="ilustracja-otworz" data-pelny-ekran/);
   assert.match(html, /data-obraz/);
+  assert.match(html, /data-gra=\\"srw-oe\\"/, 'fragmenty i galerie niosą zakres gry (dane w artefakcie są zakodowane w JSON)');
+  assert.match(html, /data-gra-nazwa=\\"Super Robot Wars OE\\"/);
 });

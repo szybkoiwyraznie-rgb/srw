@@ -40,7 +40,7 @@ Głosu postaci użycza Rei Sakuma w cyklu Super Robot Wars ([Akurasu, „Masaki 
 Kuro to japońskie określenie czerni.
 }}
 
-{{menu
+{{menu gra=srw-oe
 
 ## Ilustracje
 

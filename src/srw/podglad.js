@@ -18,6 +18,7 @@ let scena = null;
 let obraz = null;
 let podpis = null;
 let licznik = null;
+let zakres = null;
 let przyciskZamknij = null;
 let przyciskPelny = null;
 let przyciskPoprzednia = null;
@@ -54,6 +55,7 @@ export function podepnijPodglad(dokument = globalThis.document) {
   obraz = okno.querySelector('[data-obraz]');
   podpis = okno.querySelector('[data-podpis]');
   licznik = okno.querySelector('[data-licznik]');
+  zakres = okno.querySelector('[data-zakres]');
   scena = okno.querySelector('[data-scena]');
   przyciskZamknij = okno.querySelector('[data-zamknij]');
   przyciskPelny = okno.querySelector('[data-pelny]');
@@ -99,6 +101,10 @@ export function podepnijPodglad(dokument = globalThis.document) {
     obraz.alt = '';
     if (podpis) podpis.textContent = '';
     if (licznik) licznik.textContent = '';
+    if (zakres) {
+      zakres.textContent = '';
+      zakres.hidden = true;
+    }
     dokument.documentElement?.classList?.remove('podglad-otwarty');
     if (zrodloFokusu?.isConnected) zrodloFokusu.focus?.({ preventScroll: true });
     zrodloFokusu = null;
@@ -181,6 +187,11 @@ function pokazIlustracje() {
   obraz.alt = miniatura.alt || '';
   if (podpis) podpis.textContent = miniatura.alt || '';
   if (licznik) licznik.textContent = opisLicznika(indeks, przyciski.length);
+  const nazwaGry = przycisk.closest?.('[data-gra-nazwa]')?.getAttribute('data-gra-nazwa') ?? '';
+  if (zakres) {
+    zakres.textContent = nazwaGry;
+    zakres.hidden = nazwaGry === '';
+  }
   const wiele = przyciski.length > 1;
   if (przyciskPoprzednia) przyciskPoprzednia.hidden = !wiele;
   if (przyciskNastepna) przyciskNastepna.hidden = !wiele;

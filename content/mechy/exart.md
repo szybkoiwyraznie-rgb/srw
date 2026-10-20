@@ -17,7 +17,7 @@ utworzono: 2026-10-17
 
 CF-00 Exart jest bronią [[connect-force|Connect Force]]. W [[prolog-i-trening-w-connect|szkoleniu podstawowym]] pilotuje go [[seishiro|Seishiro]], a [[himari-yaegaki|Himari]] prowadzi ćwiczenia i może przejąć sterowanie zdalne.
 }}
-{{menu
+{{menu gra=srw-oe
 
 ## Ilustracje
 
@@ -41,9 +41,9 @@ CF-00 Exart jest bronią [[connect-force|Connect Force]]. W [[prolog-i-trening-w
 
 }}
 
-{{menu
+{{menu gra=srw-oe
 
-## Parametry w Super Robot Wars OE
+## Parametry
 
 **Seria:** [[super-robot-wars-original|Super Robot Wars Original]]
 

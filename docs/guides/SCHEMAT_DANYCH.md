@@ -31,7 +31,7 @@ pracę, jeśli odsyłacz jest martwy albo prowadzi do złego typu.
 | `mechy` | `mech` | epizod, postać, scena |
 | `serie` | `seria` | epizod |
 | `epizod` | `epizod` | scena |
-| `gry` | `gra` | postać, mech |
+| `gry` | `gra` | postać, mech, hasło, seria |
 | `piloci` | `postac` | mech |
 
 Relacje można też wyrażać wikilinkami w treści (`[[slug]]`, `[[slug|etykieta]]`). Oba kanały
@@ -62,6 +62,45 @@ w epizodzie), opcjonalnie `postacie`, `mechy`. Slug sceny: `<slug-epizodu>-<tytu
 
 Nowa rola postaci wymaga dopisania wartości do `src/srw/registry.js` —
 to jedno miejsce, celowo wąskie.
+
+## Zakres gry w treści (ADR 0020)
+
+Baza obejmuje kolejne tytuły, a ta sama postać czy mech mogą w każdej grze wyglądać i zachowywać
+się inaczej. Dlatego fragment treści może — a na stronie obejmującej kilka tytułów **musi** —
+nieść zakres gry w otwarciu bloku:
+
+```markdown
+{{menu gra=srw-oe
+
+## Parametry
+
+| Miejsce | Nazwa | Moc bazowa |
+|---:|---|---:|
+| 0 | Caloric Missile | 2300 |
+}}
+
+{{zrodlo gra=wspolne
+
+Cybuster był pierwszym oryginalnym mechem Banpresto…
+}}
+```
+
+| Zapis | Znaczenie |
+|---|---|
+| brak `gra` | fragment bez roszczenia do konkretnej wersji; dozwolony na stronie jednego tytułu |
+| `gra=<slug>` | opis dotyczy tej gry; musi istnieć strona typu `gra` i musi być wymieniona w `gry` strony |
+| `gra=wspolne` | informacje niezależne od wersji: rodowód, pierwowzór z anime, fakty wspólne dla serii |
+
+Zasady:
+
+- etykieta gry jest widoczna u góry fragmentu i prowadzi do strony tytułu; `wspolne` pokazuje
+  etykietę bez odsyłacza,
+- galeria ilustracji dziedziczy zakres bloku, a podgląd pełnoekranowy pokazuje nazwę gry —
+  encja z kilku gier ma osobny blok ilustracji na każdy tytuł, w kolejności pola `gry`,
+- strona z więcej niż jednym wpisem w `gry` nie może mieć bloku bez zakresu (build przerywa pracę),
+- zakres nie zastępuje poziomu wiarygodności: `{{skrypt|menu|zrodlo|wiedza}}` mówi, skąd wiadomo,
+  a `gra=` — o której wersji świata,
+- parametry pary (mech, gra) nadal trzyma `w_gre`, a nie treść.
 
 ## Sekcje treści
 

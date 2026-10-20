@@ -23,7 +23,7 @@ Prowadzi szkolenie [[himari-yaegaki|Himari]], przypomina jej o dyscyplinie i odp
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
-{{menu
+{{menu gra=srw-oe
 
 ## Ilustracje
 
@@ -35,9 +35,9 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 
 }}
 
-{{menu
+{{menu gra=srw-oe
 
-## Umiejętności w Super Robot Wars OE
+## Umiejętności
 
 Domyślny profil załogi [[exart|Exarta]], miejsce 1: Seishiro Kusanagi.
 
@@ -46,7 +46,7 @@ Domyślny profil załogi [[exart|Exarta]], miejsce 1: Seishiro Kusanagi.
 
 ## Dane postaci
 
-{{zrodlo
+{{zrodlo gra=srw-oe
 
 - Japońskie imię i nazwisko: 草薙征士郎 ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend); sprawdzono 2026-10-19).
 - Wiek: 22 lata. Głos w wersji japońskiej: Go Shinomiya ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-19).

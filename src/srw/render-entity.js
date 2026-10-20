@@ -63,6 +63,12 @@ function infoboks(s) {
   const wiersze = [];
   const dodaj = (etykieta, wartosc) => { if (wartosc) wiersze.push(`<dt>${etykieta}</dt><dd>${wartosc}</dd>`); };
 
+  // Zakres gry (ADR 0020): od razu widać, w których tytułach występuje encja.
+  if (s.typ !== 'gra' && Array.isArray(s.gry) && s.gry.length > 0) {
+    const gry = s.gry.map((slug) => dajStrone(slug)).filter(Boolean);
+    if (gry.length > 0) dodaj(gry.length === 1 ? 'Gra' : 'Gry', gry.map(linkStrony).join('<br>'));
+  }
+
   if (s.typ === 'gra') {
     dodaj('Tytuł japoński', s.tytul_ja ? escapeHtml(s.tytul_ja) : '');
     dodaj('Tytuł angielski', s.tytul_en ? escapeHtml(s.tytul_en) : '');

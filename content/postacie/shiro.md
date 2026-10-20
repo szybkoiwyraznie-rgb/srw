@@ -40,7 +40,7 @@ Głosu postaci użycza Ai Orikasa w cyklu Super Robot Wars ([Akurasu, „Masaki 
 Shiro to japońskie określenie bieli.
 }}
 
-{{menu
+{{menu gra=srw-oe
 
 ## Ilustracje
 
