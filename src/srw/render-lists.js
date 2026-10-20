@@ -11,6 +11,7 @@ import { hrefDlaSlug, hrefFiltru, hrefListy } from './links.js';
 import { dajStrone, listaStron, listaPosortowana, listaEpizodow, listaFiltrowana, tagiMap, statystyki } from './data.js';
 import { nazwaTypu, numerEpizodu, stanPusty, odmiana } from './render.js';
 import { sortujSceny } from './registry.js';
+import { elementSceny } from './render-scene.js';
 
 export function renderListe(typ, query = {}) {
   const filtr = wybierzFiltr(typ, query);
@@ -121,13 +122,7 @@ function listaSceneHtml(lista) {
     const ep = dajStrone(epSlug);
     return `<section class="blok">
       ${ep ? `<h2><a href="${hrefDlaSlug(ep.slug, 'epizod')}">${escapeHtml(ep.tytul)}</a></h2>` : '<h2>Bez przypisanego epizodu</h2>'}
-      <ol class="lista-epizodow">${sortujSceny(sceny).map((s) => `
-        <li>
-          <a href="${hrefDlaSlug(s.slug, 'scena')}">
-            <span class="mono">${escapeHtml(s.numer_sceny)}</span> ${escapeHtml(s.tytul)}
-          </a>
-          ${s.streszczenie ? `<span class="meta">${escapeHtml(s.streszczenie)}</span>` : ''}
-        </li>`).join('')}</ol>
+      <ul class="lista-scen">${sortujSceny(sceny).map(elementSceny).join('')}</ul>
     </section>`;
   }).join('');
 }

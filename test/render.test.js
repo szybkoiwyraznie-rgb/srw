@@ -172,3 +172,22 @@ test('pełna treść epizodu jest dostępna bez ujawniania ścieżki archiwum', 
   assert.match(html, /Stacja Connect/);
   assert.doesNotMatch(html, /episodes\/|ep000\.md|<dt>Skrypt/);
 });
+
+test('listy scen: tytuł i streszczenie mają ten sam układ na stronie epizodu i w dziale', async () => {
+  const { sekcjaScen } = await import('../src/srw/render-scene.js');
+  const zEpizodu = sekcjaScen('srw-oe-ep0');
+  const zDzialu = renderListe('scena');
+  const wiersze = (html) => [...html.matchAll(/<li><a href="#\/scena\/[^"]+">[\s\S]*?<\/li>/g)].map((m) => m[0]);
+  const a = wiersze(zEpizodu);
+  const b = wiersze(zDzialu);
+  assert.equal(a.length, 2);
+  assert.deepEqual(a, b, 'oba widoki składają wiersz sceny tak samo');
+  for (const wiersz of a) {
+    assert.match(wiersz, /<\/a><span class="streszczenie-sceny">/, 'streszczenie w osobnym elemencie, nie po myślniku');
+    assert.match(wiersz, /<span class="numer-sceny">/, 'numer sceny w tym samym stylu');
+    assert.doesNotMatch(wiersz, /<\/a> — /, 'brak wtrąconego myślnika');
+  }
+  // Kolejność i komplet: każda scena epizodu ma opis.
+  assert.match(a[0], /0-1<\/span> <strong>Prolog i trening w Connect/);
+  assert.match(a[1], /0-2<\/span> <strong>Na ratunek White Base/);
+});

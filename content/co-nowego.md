@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-20 20:08
+
+- Listy scen mają jeden układ: tytuł w pierwszym wierszu, opis sceny zawsze pod nim — na stronie epizodu i w dziale „Sceny”.
+
 ## 2026-10-20 20:04
 
 - Opis Żołnierza Zeonu mówi o ludziach armii, nie o miejscu w danych gry: bezimienny pilot Zaku II, siła szyku i nazwani podwładni Chara w scenie ataku na White Base.

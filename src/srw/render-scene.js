@@ -62,14 +62,27 @@ export function renderScena(slug) {
 </div>`;
 }
 
-/** Sekcja „Sceny\" na stronie epizodu — agregacja wpisów scen (ADR 0008 pkt 4). */
+/**
+ * Jeden wiersz listy scen — wspólny dla strony epizodu i działu „Sceny”.
+ *
+ * Streszczenie stoi zawsze w osobnym wierszu pod tytułem. Wcześniej było
+ * dopisywane po myślniku w tej samej linii, więc krótszy opis zostawał przy
+ * tytule, a dłuższy spadał do nowej linii zależnie od szerokości okna —
+ * ta sama lista wyglądała niespójnie.
+ */
+export function elementSceny(s) {
+  return `<li><a href="${hrefDlaSlug(s.slug, 'scena')}"><span class="numer-sceny">${escapeHtml(s.numer_sceny)}</span> <strong>${escapeHtml(s.tytul)}</strong></a>${
+    s.streszczenie ? `<span class="streszczenie-sceny">${escapeHtml(s.streszczenie)}</span>` : ''}</li>`;
+}
+
+/** Sekcja „Sceny" na stronie epizodu — agregacja wpisów scen (ADR 0008 pkt 4). */
 export function sekcjaScen(slugEpizodu) {
   const sceny = scenyEpizodu(slugEpizodu);
   if (sceny.length === 0) return '';
   return `<section class="blok-sceny">
     <h2>Sceny</h2>
     <ul class="lista-scen">
-      ${sceny.map((s) => `<li><a href="${hrefDlaSlug(s.slug, 'scena')}"><span class="numer-sceny">${escapeHtml(s.numer_sceny)}</span> <strong>${escapeHtml(s.tytul)}</strong></a>${s.streszczenie ? ` — ${escapeHtml(s.streszczenie)}` : ''}</li>`).join('')}
+      ${sceny.map(elementSceny).join('')}
     </ul>
   </section>`;
 }

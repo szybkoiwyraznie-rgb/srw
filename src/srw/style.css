@@ -390,3 +390,4 @@ pre.skrypt {
 .lista-scen a { color: var(--tusz); }
 .lista-scen a:hover { color: var(--akcent); text-decoration: none; }
 .numer-sceny { font-family: var(--mono); color: var(--akcent); font-size: .9em; margin-right: 4px; }
+.streszczenie-sceny { display: block; margin-top: 2px; color: var(--tusz-3); font-size: .84rem; }
