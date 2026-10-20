@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-21 00:20
+
+- Podgląd ilustracji przechodzi strzałkami tylko obrazy z jednej galerii, a licznik pokazuje pozycję w tej galerii, nie na całej stronie.
+- Gdy przeglądarka nie otworzy ilustracji w nowej karcie, fokus wraca do miniatury.
+
 ## 2026-10-21 00:12
 
 - [[slender|Slender]], [[crown|Crown]], [[marker|Marker Clan]] i [[oscar-dublin|Oscar Dublin]] mają przypisaną serię [[mobile-suit-gundam-1979|Mobile Suit Gundam]] — tak jak pozostali bohaterowie ataku na [[white-base|White Base]].

@@ -42,6 +42,19 @@ export function przesunIndeks(indeksIlustracji, liczba, krok) {
 }
 
 /**
+ * Przyciski ilustracji należące do tej samej galerii co kliknięty obraz.
+ * Galeria to jeden blok treści z zakresem gry (`data-gra`), więc strzałki
+ * nie przeskakują na stronach z osobną galerią dla każdego tytułu. Obraz
+ * poza blokami (np. miniatura strony) jest galerią jednoelementową.
+ */
+export function przyciskiGalerii(przycisk) {
+  const grupa = przycisk?.closest?.('[data-gra]');
+  if (!grupa) return [przycisk];
+  const lista = [...grupa.querySelectorAll('[data-pelny-ekran]')];
+  return lista.length > 0 ? lista : [przycisk];
+}
+
+/**
  * Podpina obsługę podglądu do dokumentu. Wywoływane raz przy starcie witryny;
  * nasłuch jest delegowany, więc przetrwa każdy render trasy.
  * Zwraca funkcję odpinającą albo null, gdy nie ma okna podglądu w dokumencie.
@@ -149,7 +162,7 @@ export function podepnijPodglad(dokument = globalThis.document) {
 }
 
 /** Otwiera podgląd dla wskazanego przycisku ilustracji. */
-function otworzPodglad(przycisk, dokument) {
+function otworzPodglad(przycisk) {
   const miniatura = przycisk.querySelector('img');
   if (!miniatura) return;
   const adres = miniatura.currentSrc || miniatura.src;
@@ -158,12 +171,16 @@ function otworzPodglad(przycisk, dokument) {
   zrodloFokusu = przycisk;
 
   // Brak <dialog> (starsza przeglądarka): otwórz oryginał w nowej karcie.
+  // Gdy karta nie powstanie (blokada wyskakujących okien), fokus wraca do
+  // miniatury — bez tego zostawałby na przycisku bez widocznego skutku.
   if (typeof okno.showModal !== 'function') {
-    globalThis.open?.(adres, '_blank', 'noopener');
+    const otwarte = globalThis.open?.(adres, '_blank', 'noopener');
+    if (!otwarte) przycisk.focus?.({ preventScroll: true });
+    zrodloFokusu = null;
     return;
   }
 
-  przyciski = [...dokument.querySelectorAll('[data-pelny-ekran]')];
+  przyciski = przyciskiGalerii(przycisk);
   indeks = Math.max(0, przyciski.indexOf(przycisk));
   pokazIlustracje();
   if (!okno.open) okno.showModal();

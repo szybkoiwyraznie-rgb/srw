@@ -85,6 +85,9 @@ export function wytnijBloki(body) {
  * Encje mają pole `gry`, epizod — `gra`, a scena dziedziczy grę swojego epizodu.
  */
 export function gryStronyDoZakresu(strona, ctx) {
+  // Strona gry jest zakresem sama dla siebie — bez tego walidator przepuszczał
+  // na niej blok wskazujący inną grę (lista `gry` jest pusta).
+  if (strona?.typ === 'gra' && typeof strona.slug === 'string') return [strona.slug];
   if (Array.isArray(strona.gry)) return strona.gry;
   if (typeof strona.gra === 'string' && strona.gra !== '') return [strona.gra];
   if (typeof strona.epizod === 'string' && strona.epizod !== '') {
@@ -152,7 +155,6 @@ export function walidujStrone(strona, ctx) {
   // Zakres gry (ADR 0020, zaostrzony przez ADR 0021): każdy blok treści ma
   // `gra=<slug>` albo `gra=wspolne`. Bez tego czytelnik nie wie, której wersji
   // świata dotyczy fragment — a boks bez etykiety wygląda jak przeoczenie.
-  const gryStrony = Array.isArray(strona.gry) ? strona.gry : [];
   const gryDozwolone = gryStronyDoZakresu(strona, ctx);
   const bloki = wytnijBloki(strona.body ?? '');
   for (const blok of bloki) {

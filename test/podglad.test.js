@@ -18,7 +18,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 globalThis.SRW_DATA = await zbudujDane({ root: ROOT });
 
 const { renderEncja } = await import('../src/srw/render-entity.js');
-const { podepnijPodglad, opisLicznika, przesunIndeks } = await import('../src/srw/podglad.js');
+const { podepnijPodglad, opisLicznika, przesunIndeks, przyciskiGalerii } = await import('../src/srw/podglad.js');
 
 test('licznik podglądu pokazuje pozycję tylko przy wielu ilustracjach', () => {
   assert.equal(opisLicznika(0, 1), '');
@@ -32,6 +32,21 @@ test('nawigacja podglądu zawija się na obu końcach', () => {
   assert.equal(przesunIndeks(2, 3, 1), 0);
   assert.equal(przesunIndeks(1, 3, 1), 2);
   assert.equal(przesunIndeks(0, 0, 1), 0);
+});
+
+test('podgląd przechodzi tylko obrazy z tej samej galerii', () => {
+  const a = { nazwa: 'a' };
+  const b = { nazwa: 'b' };
+  const c = { nazwa: 'c' };
+  const grupa = { querySelectorAll: () => [a, b] };
+  a.closest = (selektor) => (selektor === '[data-gra]' ? grupa : null);
+
+  assert.deepEqual(przyciskiGalerii(a), [a, b], 'obrazy z jednego bloku gry');
+  assert.deepEqual(przyciskiGalerii(c), [c], 'obraz spoza bloków jest sam');
+
+  const pustaGrupa = { querySelectorAll: () => [] };
+  const d = { closest: () => pustaGrupa };
+  assert.deepEqual(przyciskiGalerii(d), [d], 'brak obrazów w grupie nie gubi klikniętego');
 });
 
 test('każdy obraz w treści jest przyciskiem otwierającym pełny ekran', () => {
