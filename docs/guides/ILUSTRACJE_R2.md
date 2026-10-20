@@ -95,7 +95,9 @@ pochodzą z listy właściciela; nie deklarują niezależnego obejrzenia plików
 Nie należy zmieniać statusu na zweryfikowany wyłącznie dlatego, że workflow zwrócił nazwę.
 
 Na stronie encji ilustracje są zwykłymi obrazami Markdown w bloku `menu`, w sekcji
-„Ilustracje”. Każdy ma polski tekst alternatywny, odnośnik do pełnego pliku i lazy loading.
+„Ilustracje”. Każdy ma polski tekst alternatywny i lazy loading; kliknięcie obrazu otwiera go
+na pełnym ekranie (ADR 0019). Pod obrazem nie ma osobnego odnośnika „Otwórz plik” — powiększenie
+jest jedynym wyjściem do oryginału.
 Spacje w nazwach kodujemy jako `%20`; wielkość liter pozostaje bez zmian. Test porównuje
 manifest z odnośnikami stron. Nowa ilustracja tej samej maszyny nie tworzy wariantu mecha.
 

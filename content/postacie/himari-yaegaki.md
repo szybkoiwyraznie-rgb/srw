@@ -31,8 +31,6 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 
 ![Himari Yaegaki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Himari%20Yaegaki.png)
 
-[Otwórz plik Himari Yaegaki.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Himari%20Yaegaki.png)
-
 }}
 
 ## Dane postaci

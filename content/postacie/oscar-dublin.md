@@ -23,6 +23,4 @@ Członek załogi [[white-base|White Base]] obsługujący stanowisko wykrywania. 
 
 ![Oscar Dublin — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Oscar%20Dublin.png)
 
-[Otwórz plik Oscar Dublin.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Oscar%20Dublin.png)
-
 }}

@@ -50,3 +50,11 @@ Obrazy w treści przestają być samodzielnymi `<img>`; są zawsze w przycisku o
 Testy pilnują, że każdy obraz ma otwieracz i tekst alternatywny, że szkielet zawiera okno
 z kompletem elementów sterujących oraz że okno nie wczytuje obrazu przed otwarciem.
 Nowe galerie dodaje się jako zwykłe obrazy markdown — podgląd podłącza się sam.
+
+## Adnotacja (2026-10-20)
+
+W galeriach pozostawały jeszcze odnośniki „Otwórz plik …” pod każdym obrazem — pozostałość po
+czasach, gdy powiększenia nie było. Właściciel uznał je za zbędne: wystarczy podgląd i okno
+pełnoekranowe. Odnośniki usunięto ze wszystkich 22 galerii, a test pilnuje, że pod obrazem nie
+ma już linku do R2. Oryginał nadal jest dostępny — przez samo kliknięcie obrazu i przycisk
+„Pełny ekran”.

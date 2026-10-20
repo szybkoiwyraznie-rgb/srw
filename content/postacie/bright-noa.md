@@ -28,8 +28,6 @@ Po przybyciu [[connect-force|Connect]] wita wsparcie i ostrzega [[seishiro|Seish
 
 ![Bright Noa — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Bright%20Noa.png)
 
-[Otwórz plik Bright Noa.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Bright%20Noa.png)
-
 }}
 {{zrodlo gra=wspolne
 

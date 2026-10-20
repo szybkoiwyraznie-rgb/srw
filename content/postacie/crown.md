@@ -23,6 +23,4 @@ Pilot [[zeon|Zeonu]] w grupie [[char-aznable|Chara]]. Uznaje wsparcie [[connect-
 
 ![Crown — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Crown.png)
 
-[Otwórz plik Crown.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Crown.png)
-
 }}

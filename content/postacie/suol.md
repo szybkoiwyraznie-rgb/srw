@@ -28,8 +28,6 @@ Kiedy Seishiro przypomina o neutralności organizacji, Suol wyjaśnia, że na po
 
 ![Suol Douglas — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Suol%20Douglas.png)
 
-[Otwórz plik Suol Douglas.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Suol%20Douglas.png)
-
 }}
 {{zrodlo gra=wspolne
 

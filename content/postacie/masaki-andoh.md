@@ -30,8 +30,6 @@ Masaki Andoh jest pilotem [[cybuster|Cybustera]] i jego formy [[cybird|Cybird]] 
 
 ![Masaki Andoh — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Masaki%20Andoh.png)
 
-[Otwórz plik Masaki Andoh.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Masaki%20Andoh.png)
-
 }}
 
 ## Pochodzenie

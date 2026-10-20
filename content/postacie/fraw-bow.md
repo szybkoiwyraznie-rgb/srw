@@ -26,8 +26,6 @@ Członkini załogi [[white-base|White Base]]. Łączy się z [[amuro-ray|Amurem]
 
 ![Fraw Bow — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Fraw%20Bow.png)
 
-[Otwórz plik Fraw Bow.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Fraw%20Bow.png)
-
 }}
 {{zrodlo gra=wspolne
 

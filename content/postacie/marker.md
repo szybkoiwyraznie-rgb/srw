@@ -23,6 +23,4 @@ Operator na pokładzie [[white-base|White Base]]. Wykrywa zbliżający się obie
 
 ![Marker Clan — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Marker%20Clan.png)
 
-[Otwórz plik Marker Clan.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Marker%20Clan.png)
-
 }}

@@ -28,8 +28,6 @@ Ocenia, że [[rx-78-2-gundam|Gundam]] i maszyna [[connect-force|Connect]] mogą 
 
 ![Char Aznable — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Char%20Aznable.png)
 
-[Otwórz plik Char Aznable.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Char%20Aznable.png)
-
 }}
 {{zrodlo gra=wspolne
 

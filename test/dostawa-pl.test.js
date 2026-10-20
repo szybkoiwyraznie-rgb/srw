@@ -79,8 +79,10 @@ test('ilustracje właściciela: 27 plików przy 22 encjach, w tym postacie bez d
     assert.match(body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria z zakresem gry (ADR 0020)`);
     for (const file of files) {
       assert.ok(html.includes(`src="${adres(file)}"`), `${slug}: podgląd ${file}`);
-      assert.ok(html.includes(`href="${adres(file)}"`), `${slug}: pełny rozmiar ${file}`);
     }
+    // Powiększenie obsługuje podgląd pełnoekranowy; osobny odnośnik pod obrazem jest zbędny.
+    assert.doesNotMatch(html, /<a [^>]*href="[^"]*r2\.dev/, `${slug}: brak odnośnika „Otwórz plik”`);
+    assert.doesNotMatch(body, /\[Otwórz plik /, `${slug}: brak odnośnika w treści`);
     assert.doesNotMatch(body, /data:image/);
     assert.doesNotMatch(html, /src="[^"]* /);
     assert.match(html, /loading="lazy"/);

@@ -26,8 +26,6 @@ Członkini załogi [[white-base|White Base]]. Opiekuje się rannym [[paolo-cassi
 
 ![Sayla Mass — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Sayla%20Mass.png)
 
-[Otwórz plik Sayla Mass.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Sayla%20Mass.png)
-
 }}
 {{zrodlo gra=wspolne
 

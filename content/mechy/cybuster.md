@@ -27,13 +27,9 @@ Cybuster to maszyna pilotowana przez [[masaki-andoh|Masakiego Andoh]]. Może prz
 
 ![Cybuster — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Cybuster.png)
 
-[Otwórz plik Cybuster.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Cybuster.png)
-
 ### Ilustracja 2
 
 ![Cybuster — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Cybuster%202.png)
-
-[Otwórz plik Cybuster 2.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Cybuster%202.png)
 
 }}
 

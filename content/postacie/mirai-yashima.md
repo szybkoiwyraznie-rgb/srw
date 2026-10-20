@@ -26,8 +26,6 @@ Członkini załogi [[white-base|White Base]]. W scenie 0-2 melduje o starcie okr
 
 ![Mirai Yashima — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Mirai%20Yashima.png)
 
-[Otwórz plik Mirai Yashima.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Mirai%20Yashima.png)
-
 }}
 {{zrodlo gra=wspolne
 

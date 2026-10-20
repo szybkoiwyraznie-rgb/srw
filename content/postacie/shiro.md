@@ -48,6 +48,4 @@ Shiro to japońskie określenie bieli.
 
 ![Shiro — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Shiro.png)
 
-[Otwórz plik Shiro.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Shiro.png)
-
 }}

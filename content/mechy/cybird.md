@@ -24,8 +24,6 @@ Cybird to forma [[cybuster|Cybustera]], pilotowana przez [[masaki-andoh|Masakieg
 
 ![Cybird — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Cybird.png)
 
-[Otwórz plik Cybird.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Cybird.png)
-
 }}
 
 {{menu gra=srw-oe

@@ -28,8 +28,6 @@ W wymianie zdań z [[char-aznable|Charem]] zapowiada, że z Gundamem pokona nawe
 
 ![Amuro Ray — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Amuro%20Ray.png)
 
-[Otwórz plik Amuro Ray.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Amuro%20Ray.png)
-
 }}
 {{zrodlo gra=wspolne
 

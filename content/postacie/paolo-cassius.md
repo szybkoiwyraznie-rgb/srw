@@ -26,8 +26,6 @@ Kapitan [[white-base|White Base]], ranny przed starciem. Z łóżka nakazuje sta
 
 ![Paolo Cassius — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Paolo%20Cassius.png)
 
-[Otwórz plik Paolo Cassius.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Paolo%20Cassius.png)
-
 }}
 {{zrodlo gra=wspolne
 

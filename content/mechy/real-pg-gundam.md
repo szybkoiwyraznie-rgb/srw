@@ -24,13 +24,9 @@ Real PG Gundam, znany także jako Gundam (Keroro), to jednostka z serii [[sgt-fr
 
 ![Real PG Gundam — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Real%20PG%20Gundam.png)
 
-[Otwórz plik Real PG Gundam.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Real%20PG%20Gundam.png)
-
 ### Ilustracja 2
 
 ![Real PG Gundam — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Real%20PG%20Gundam%202.png)
-
-[Otwórz plik Real PG Gundam 2.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Real%20PG%20Gundam%202.png)
 
 }}
 

@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-20 18:11
+
+- Galerie ilustracji: pod obrazem nie ma już dodatkowego odnośnika — powiększenie otwiera się po kliknięciu samej ilustracji.
+
 ## 2026-10-20 18:06
 
 - Portrety bohaterów: każda postać ma własną ilustrację — załoga White Base, piloci Zeonu, Connect Force oraz Kuro i Shiro.
