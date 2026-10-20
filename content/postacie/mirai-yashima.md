@@ -5,7 +5,7 @@ tytul: Mirai Yashima
 seria: mobile-suit-gundam-1979
 rola: wsparcie
 gry: [srw-oe]
-mechy: []
+mechy: [white-base]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam

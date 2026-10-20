@@ -49,7 +49,8 @@ mieć swój wpis epizodu.
 **postac** (tylko postać z dostawy gry, także ilustracyjnej bez opisu tekstowego — ADR 0017; postać z innej serii pojawiająca się jako nawiązanie to `pojecie`, ADR 0013): `seria` (opcjonalne — oryginalne postacie gry nie mają serii), `rola` (`pilot` / `wsparcie` / `dowodztwo` / `antagonista` /
 `postac` / `inne`), `seiyuu`, `mechy`, `gry`.
 
-**mech**: `seria` (opcjonalne), `typ_mecha`, `piloci`, `gry`, opcjonalnie `w_gre`
+**mech**: `seria` (opcjonalne), `typ_mecha`, `piloci`, `gry`, opcjonalnie `w_gre`.
+Jednostka bojowa to także okręt z załogą i uzbrojeniem (ADR 0022), nie hasło.
 (obiekt jednopoziomowy: `slug-gry: wartość`) na parametry specyficzne dla konkretnego tytułu.
 
 Bronie nie są osobnym typem (ADR 0012). Uzbrojenie mecha opisujesz w jego treści.

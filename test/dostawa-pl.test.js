@@ -43,6 +43,36 @@ test('pięć jednostek zachowuje wszystkie ataki i ich dane w parze mech–gra',
   }
 });
 
+test('nowa dostawa: White Base i Gundam mają pełne parametry załogi i uzbrojenia', () => {
+  const machines = [['white-base', 4], ['rx-78-2-gundam', 4]];
+  for (const [slug, count] of machines) {
+    const mech = bySlug.get(slug);
+    assert.equal(mech.typ, 'mech');
+    assert.equal(mech.seria, 'mobile-suit-gundam-1979');
+    const stats = JSON.parse(mech.w_gre['srw-oe']);
+    assert.equal(stats.dostawa, 'menu');
+    const rows = mech.body.split('\n').filter(line => /^\| \d+ \|/.test(line));
+    assert.equal(rows.length, count, slug);
+    for (const row of rows) {
+      const cells = row.split('|').slice(1, -1).map(c => c.trim());
+      assert.equal(cells.length, 9, `${slug}: kolumny tabeli`);
+      for (const cell of cells) assert.ok(stats.dane.includes(cell), `${slug}: dane w w_gre: ${cell}`);
+    }
+    assert.doesNotMatch(mech.body, /&lt;br&gt;/, slug);
+    assert.match(mech.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria`);
+  }
+  assert.deepEqual(bySlug.get('white-base').piloci, ['bright-noa', 'mirai-yashima']);
+  assert.deepEqual(bySlug.get('rx-78-2-gundam').piloci, ['amuro-ray']);
+  assert.deepEqual(bySlug.get('bright-noa').mechy, ['white-base']);
+  assert.deepEqual(bySlug.get('mirai-yashima').mechy, ['white-base']);
+});
+
+test('Precyzja Seishira trafia do profilu Exarta i do jego strony', () => {
+  assert.match(bySlug.get('exart').body, /\*\*Precyzja \(poziom bazowy 1\):\*\* Kryt\/Kryt Obraż\.\+15%/);
+  assert.match(JSON.parse(bySlug.get('exart').w_gre['srw-oe']).dane, /\*\*Precyzja \(poziom bazowy 1\):\*\*/);
+  assert.match(bySlug.get('seishiro').body, /\*\*Precyzja \(poziom bazowy 1\):\*\* Kryt\/Kryt Obraż\.\+15%/);
+});
+
 test('profile załogi i transformacje są powiązane, ale nie udają sceny fabularnej', () => {
   assert.deepEqual(bySlug.get('exart').piloci, ['seishiro']);
   assert.deepEqual(bySlug.get('masaki-andoh').mechy, ['cybuster', 'cybird']);
@@ -52,7 +82,7 @@ test('profile załogi i transformacje są powiązane, ale nie udają sceny fabul
   assert.match(bySlug.get('cybird').body, /\[\[cybuster\|Cybuster\]\]/);
   assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').postacie, ['seishiro', 'himari-yaegaki']);
   assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').mechy, ['exart']);
-  assert.deepEqual(bySlug.get('srw-oe-ep0').mechy, ['exart', 'rx-78-2-gundam', 'zaku-ii']);
+  assert.deepEqual(bySlug.get('srw-oe-ep0').mechy, ['exart', 'rx-78-2-gundam', 'zaku-ii', 'white-base']);
   assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /Profil załogi|Miejsce 2|brak macierzystego przypisania/);
   assert.ok(bySlug.has('invaderzy'));
   assert.ok(!bySlug.has('keroro'), 'nazwa wariantu nie przypisuje domyślnego pilota');
@@ -64,11 +94,11 @@ test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że 
   assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /wsiada do Exert razem|wysyła dane do zespołu/);
 });
 
-test('ilustracje właściciela: 27 plików przy 22 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 30 plików przy 24 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 22);
-  assert.equal(Object.values(manifest.encje).flat().length, 27);
+  assert.equal(Object.keys(manifest.encje).length, 24);
+  assert.equal(Object.values(manifest.encje).flat().length, 30);
   assert.deepEqual(manifest.nieprzypisane, []);
   const adres = file => `${manifest.baseUrl}/${file.split('/').map(encodeURIComponent).join('/')}`;
   for (const [slug, files] of Object.entries(manifest.encje)) {

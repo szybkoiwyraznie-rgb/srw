@@ -113,8 +113,8 @@ faktach i data sprawdzenia) lub pamięci modelu (`wiedza`, bez linków). Ilustra
 z dostawy pozostają na poziomie `menu`; nie kolorują dopisanego opisu jako danych właściciela.
 
 Kuro i Shiro mają już takie wpisy i przypisane obrazy. Po dostawie z 2026-10-20 bucket
-zawiera 27 plików: 17 zdjęć bohaterów w katalogu `characters/` (nazwy `Imię Nazwisko.png`)
-oraz 10 plików mechów w korzeniu. Wszystkie są przypisane do 22 encji; poprzednie zdjęcia
+zawiera 30 plików: 17 zdjęć bohaterów w katalogu `characters/` (nazwy `Imię Nazwisko.png`)
+oraz 13 plików mechów w korzeniu. Wszystkie są przypisane do 24 encji; poprzednie zdjęcia
 bohaterów z korzenia nie istnieją już w buckecie. Nowe portrety trzymaj w `characters/`,
 maszyny w korzeniu — adres publiczny zachowuje strukturę katalogów, a spacje kodujemy
 w każdym segmencie osobno (`characters/Amuro%20Ray.png`).

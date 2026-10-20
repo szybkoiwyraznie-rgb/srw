@@ -5,7 +5,7 @@
   "dostarczono": "2026-10-20",
   "podstawa": "Ilustracje właściciela jako pełnoprawna dostawa encji (ADR 0017); nazwy z odczytu listy R2 (workflow r2-inventory, 2026-10-20).",
   "weryfikacjaZdalna": false,
-  "uwaga": "17 zdjęć bohaterów leży w katalogu characters/ i zastępuje poprzednie pliki z korzenia; mechy pozostały w korzeniu. Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów (R2 zwraca HTTP 500), więc nie deklarujemy obejrzenia zawartości.",
+  "uwaga": "17 portretów w characters/ oraz 13 plików mechów w korzeniu. Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów (R2 zwraca HTTP 500), więc nie deklarujemy obejrzenia zawartości.",
   "encje": {
     "exart": [
       "Exart.jpg",
@@ -77,6 +77,13 @@
     ],
     "suol": [
       "characters/Suol Douglas.png"
+    ],
+    "rx-78-2-gundam": [
+      "Gundam.png",
+      "Gundam 2.png"
+    ],
+    "white-base": [
+      "White Base.png"
     ]
   },
   "nieprzypisane": []

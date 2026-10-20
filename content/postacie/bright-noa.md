@@ -5,7 +5,7 @@ tytul: Bright Noa
 seria: mobile-suit-gundam-1979
 rola: dowodztwo
 gry: [srw-oe]
-mechy: []
+mechy: [white-base]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/White_Base

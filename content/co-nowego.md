@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-10-20 18:29
+
+- White Base zyskuje portret i pełny rekord jednostki: załogę Bright Noa i Mirai Yashima, zdolności okrętu-matki oraz cztery działa.
+- Gundam: dwa nowe zdjęcia oraz parametry pilota Amuro Raya — Potencjał Krytyczny, Newtype, blok tarczą i cztery rodzaje uzbrojenia.
+- Seishiro Kusanagi: nowa umiejętność Precyzja w profilu Exarta i na swojej stronie.
+- White Base jest odtąd jednostką bojową w bazie, a nie hasłem o okręcie; odsyłacze pozostają bez zmian.
+
 ## 2026-10-20 18:11
 
 - Galerie ilustracji: pod obrazem nie ma już dodatkowego odnośnika — powiększenie otwiera się po kliknięciu samej ilustracji.

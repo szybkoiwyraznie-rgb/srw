@@ -7,8 +7,8 @@ numer_sceny: "0-2"
 streszczenie: Interludium o wojnie w U.C. 0079; Connect wysyła Seishiro na pomoc White Base, walka z Charem i odwrót, rozmowa w hangarze o neutralności organizacji.
 pochodzenie: skrypt
 postacie: [seishiro, himari-yaegaki, suol, amuro-ray, char-aznable, bright-noa, mirai-yashima, sayla-mass, fraw-bow, paolo-cassius, oscar-dublin, marker, slender, crown]
-mechy: [exart, rx-78-2-gundam, zaku-ii]
-pojecia: [connect-force, earth-federation, universal-century, uc-0079, zeon, side-7, luna-ii, white-base, minovsky-particles]
+mechy: [exart, rx-78-2-gundam, zaku-ii, white-base]
+pojecia: [connect-force, earth-federation, universal-century, uc-0079, zeon, side-7, luna-ii, minovsky-particles]
 tagi: [white-base, one-year-war]
 utworzono: 2026-10-20
 ---

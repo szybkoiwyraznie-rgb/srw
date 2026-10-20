@@ -34,3 +34,4 @@ Zasady:
 | [0019](0019-ilustracja-na-pelnym-ekranie.md) | Ilustracja otwiera się na pełnym ekranie |
 | [0020](0020-zakres-gry-na-fragmencie.md) | Zakres gry na fragmencie treści i ilustracji |
 | [0021](0021-kazdy-fragment-ma-zakres.md) | Każdy fragment treści ma zakres gry |
+| [0022](0022-okret-jako-jednostka.md) | Okręt bojowy jest jednostką typu `mech` |
