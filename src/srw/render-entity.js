@@ -28,7 +28,7 @@ ${naglowekStrony({
   typ: strona.typ,
   podtytul: podtytul(strona),
 })}
-${strona.obraz ? `<figure class="obraz"><img src="${escapeHtml(strona.obraz)}" alt="${escapeHtml(strona.tytul)}" loading="lazy"><figcaption>${escapeHtml(strona.tytul)}${strona.obraz_zrodlo ? ` — ${escapeHtml(strona.obraz_zrodlo)}` : ''}</figcaption></figure>` : ''}
+${strona.obraz ? `<figure class="obraz"><button type="button" class="ilustracja-otworz" data-pelny-ekran><img src="${escapeHtml(strona.obraz)}" alt="${escapeHtml(strona.tytul)}" loading="lazy"></button><figcaption>${escapeHtml(strona.tytul)}${strona.obraz_zrodlo ? ` — ${escapeHtml(strona.obraz_zrodlo)}` : ''}</figcaption></figure>` : ''}
 <div class="uklad-encja">
   <aside class="infoboks">
     ${infoboks(strona)}
@@ -62,6 +62,12 @@ function podtytul(s) {
 function infoboks(s) {
   const wiersze = [];
   const dodaj = (etykieta, wartosc) => { if (wartosc) wiersze.push(`<dt>${etykieta}</dt><dd>${wartosc}</dd>`); };
+
+  // Zakres gry (ADR 0020): od razu widać, w których tytułach występuje encja.
+  if (s.typ !== 'gra' && Array.isArray(s.gry) && s.gry.length > 0) {
+    const gry = s.gry.map((slug) => dajStrone(slug)).filter(Boolean);
+    if (gry.length > 0) dodaj(gry.length === 1 ? 'Gra' : 'Gry', gry.map(linkStrony).join('<br>'));
+  }
 
   if (s.typ === 'gra') {
     dodaj('Tytuł japoński', s.tytul_ja ? escapeHtml(s.tytul_ja) : '');

@@ -41,3 +41,24 @@ Testy sprawdzają widoczny tekst wszystkich stron, strony głównej, „O bazie�
 oraz legend. Kontrolują również, że epizod nadal zawiera dialogi, ale nie wyświetla ścieżki
 archiwum ani kolejki zadań redakcyjnych. Testy nie blokują technicznych nazw w kodzie
 lub metadanych i nie zastępują merytorycznego przeglądu stylu.
+
+## Adnotacja (2026-10-20)
+
+Właściciel odrzucił opis **Żołnierza Zeonu**, który mówił o „zbiorczym profilu”, „obsadzie,
+którą gra przypisuje masowym Zaku II” i „standardowym obsadzeniu tych maszyn w grze”.
+To naruszenie punktu 1 w wersji, której wcześniej nie wychwycił żaden test: opis postaci
+opowiadał o rekordzie w grze i o tym, jak gra rozdziela maszyny, zamiast o ludziach.
+
+Zasada doprecyzowana:
+
+- **Sekcja „Opis” mówi o świecie.** Zbiorczy wpis opisuje anonimowych żołnierzy, ich rolę
+  i sposób walki — nie miejsce w danych gry. Zamiast „w grze obsadza ją profil żołnierza”
+  piszemy „podstawowa maszyna zwykłych żołnierzy Zeonu”.
+- **Mechaniki opisujemy jako zjawisko w świecie.** Szyk, grupa i blok tarczą są cechami
+  walki, nie polami rekordu; nie używamy słów „profil”, „obsada”, „roster”, „w grze”.
+- **Odsyłacze do scen są fabularne.** Piszemy „podczas ataku na White Base”, a nie
+  „w scenie 0-2”; numer sceny należy do nawigacji i metadanych, nie do prozy.
+- Reguła nie zmienia sekcji „Parametry”: to surowe dane jednostki z gry i wolno im używać
+  nagłówków typu „Przypisany profil”.
+
+Test sprawdza, że sekcja „Opis” żadnej encji nie zawiera tych określeń.

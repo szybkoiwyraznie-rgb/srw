@@ -21,6 +21,9 @@ export function renderOBazie() {
     <li><span class="legenda poziom-wiedza">zielone tło</span> — niezweryfikowany kontekst i interpretacje, wymagające ostrożności.</li>
   </ul>
   <p>Porównania z anime rozróżniają wydarzenia wspólnego świata gry i historie oryginalnych serii.</p>
+  <p>Każdy fragment opisuje konkretną wersję świata: u góry ma etykietę gry, której dotyczy,
+  a galerie ilustracji powtarzają ją przy obrazach. Etykieta <span class="etykieta-gry">Wspólne</span>
+  oznacza informacje niezależne od wersji — rodowód, pierwowzór z anime, fakty wspólne dla serii.</p>
 </section>
 </div>`;
 }

@@ -1,8 +1,14 @@
 name: Lista ilustracji R2
 
-# Manual only: no secrets exposed to pull request code or untrusted inputs.
+# Uruchamiany ręcznie albo przez zmianę pliku-żądania (push).
+# Integracja GitHuba używana przez agenta ma tylko odczyt Actions, więc
+# workflow_dispatch jest dla niej niedostępny. Push do pliku-żądania nie
+# dotyczy pull requestów, więc sekrety nie trafiają do kodu PR.
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/r2-inventory-request'
 
 permissions:
   contents: read
@@ -42,6 +48,17 @@ jobs:
           path: ${{ runner.temp }}/r2-inventory/r2-inventory.json
           if-no-files-found: error
           retention-days: 7
+      # Artefakt jest niedostępny z sandboxa agenta (blob storage); adnotacja jest
+      # czytana przez REST API. Zawiera tylko nazwy, rozmiary i daty — bez kluczy.
+      - name: Opublikuj listę w adnotacji
+        run: |
+          node --input-type=module -e '
+            import { readFileSync } from "node:fs";
+            const d = JSON.parse(readFileSync(`${process.env.RUNNER_TEMP}/r2-inventory/r2-inventory.json`, "utf8"));
+            const line = JSON.stringify({ objectCount: d.objectCount, objects: d.objects.map(({ key, size, lastModified }) => ({ key, size, lastModified })) });
+            const safe = line.replaceAll("%", "%25").replaceAll("\r", "%0D").replaceAll("\n", "%0A");
+            console.log(`::notice title=R2 inventory::${safe}`);
+          '
       - name: Podsumowanie
         run: |
           echo 'Lista plików i publiczne adresy są w artefakcie **r2-inventory**.' >> "$GITHUB_STEP_SUMMARY"

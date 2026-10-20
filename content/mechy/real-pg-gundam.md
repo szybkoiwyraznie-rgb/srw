@@ -10,13 +10,13 @@ w_gre:
 pochodzenie: menu
 utworzono: 2026-10-19
 ---
-{{menu
+{{menu gra=srw-oe
 
 ## Opis
 
 Real PG Gundam, znany także jako Gundam (Keroro), to jednostka z serii [[sgt-frog|Sgt. Frog]]. W [[srw-oe|Super Robot Wars OE]] korzysta z działka Vulcan, karabinu wiązkowego, szabli wiązkowej i hiperbazooki. Blok tarczą ogranicza otrzymywane obrażenia podczas obrony, a Odtwórz odnawia co turę HP i EN.
 }}
-{{menu
+{{menu gra=srw-oe
 
 ## Ilustracje
 
@@ -24,19 +24,15 @@ Real PG Gundam, znany także jako Gundam (Keroro), to jednostka z serii [[sgt-fr
 
 ![Real PG Gundam — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Real%20PG%20Gundam.png)
 
-[Otwórz plik Real PG Gundam.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Real%20PG%20Gundam.png)
-
 ### Ilustracja 2
 
 ![Real PG Gundam — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Real%20PG%20Gundam%202.png)
 
-[Otwórz plik Real PG Gundam 2.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Real%20PG%20Gundam%202.png)
-
 }}
 
-{{menu
+{{menu gra=srw-oe
 
-## Parametry w Super Robot Wars OE
+## Parametry
 
 **Seria:** [[sgt-frog|Sgt. Frog]]
 

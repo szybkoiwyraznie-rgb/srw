@@ -31,7 +31,7 @@ pracę, jeśli odsyłacz jest martwy albo prowadzi do złego typu.
 | `mechy` | `mech` | epizod, postać, scena |
 | `serie` | `seria` | epizod |
 | `epizod` | `epizod` | scena |
-| `gry` | `gra` | postać, mech |
+| `gry` | `gra` | postać, mech, hasło, seria |
 | `piloci` | `postac` | mech |
 
 Relacje można też wyrażać wikilinkami w treści (`[[slug]]`, `[[slug|etykieta]]`). Oba kanały
@@ -49,7 +49,15 @@ mieć swój wpis epizodu.
 **postac** (tylko postać z dostawy gry, także ilustracyjnej bez opisu tekstowego — ADR 0017; postać z innej serii pojawiająca się jako nawiązanie to `pojecie`, ADR 0013): `seria` (opcjonalne — oryginalne postacie gry nie mają serii), `rola` (`pilot` / `wsparcie` / `dowodztwo` / `antagonista` /
 `postac` / `inne`), `seiyuu`, `mechy`, `gry`.
 
-**mech**: `seria` (opcjonalne), `typ_mecha`, `piloci`, `gry`, opcjonalnie `w_gre`
+**mech**: `seria` (opcjonalne), `typ_mecha`, `piloci`, `gry`, opcjonalnie `w_gre`.
+Jednostka bojowa to także okręt z załogą i uzbrojeniem (ADR 0022), nie hasło.
+Odrębny rekord jednostki w dostawie dostaje własny slug `<jednostka>-<wyróżnik>`, własne
+`w_gre` i galerię; strona bazowa linkuje je w sekcji „Pozostałe jednostki” (ADR 0023).
+Słowo „wariant” zarezerwowane jest dla tej samej maszyny w różnych grach (ADR 0020).
+Zbiorczy profil obsady z umiejętnością i przypisanymi maszynami (np. „Żołnierz Zeonu”)
+może być wpisem `postac` — tak jak Control AI przy Brockenie.
+`piloci` wymienia najpierw nazwanych pilotów z obsady misji, a po nich domyślną załogę
+jednostki (np. `[slender, zolnierz-zeonu]`); kolejność jest znacząca (ADR 0024).
 (obiekt jednopoziomowy: `slug-gry: wartość`) na parametry specyficzne dla konkretnego tytułu.
 
 Bronie nie są osobnym typem (ADR 0012). Uzbrojenie mecha opisujesz w jego treści.
@@ -62,6 +70,45 @@ w epizodzie), opcjonalnie `postacie`, `mechy`. Slug sceny: `<slug-epizodu>-<tytu
 
 Nowa rola postaci wymaga dopisania wartości do `src/srw/registry.js` —
 to jedno miejsce, celowo wąskie.
+
+## Zakres gry w treści (ADR 0020)
+
+Baza obejmuje kolejne tytuły, a ta sama postać czy mech mogą w każdej grze wyglądać i zachowywać
+się inaczej. Dlatego **każdy** fragment treści niesie zakres gry w otwarciu bloku:
+
+```markdown
+{{menu gra=srw-oe
+
+## Parametry
+
+| Miejsce | Nazwa | Moc bazowa |
+|---:|---|---:|
+| 0 | Caloric Missile | 2300 |
+}}
+
+{{zrodlo gra=wspolne
+
+Cybuster był pierwszym oryginalnym mechem Banpresto…
+}}
+```
+
+| Zapis | Znaczenie |
+|---|---|
+| brak `gra` | **niedozwolony** — build przerywa pracę (ADR 0021) |
+| `gra=<slug>` | opis dotyczy tej gry; musi istnieć strona typu `gra` i musi być wymieniona w `gry` strony |
+| `gra=wspolne` | informacje niezależne od wersji: rodowód, pierwowzór z anime, fakty wspólne dla serii |
+
+Zasady:
+
+- etykieta gry jest widoczna u góry fragmentu i prowadzi do strony tytułu; `wspolne` pokazuje
+  etykietę bez odsyłacza,
+- galeria ilustracji dziedziczy zakres bloku, a podgląd pełnoekranowy pokazuje nazwę gry —
+  encja z kilku gier ma osobny blok ilustracji na każdy tytuł, w kolejności pola `gry`,
+- **każdy** blok ma zakres, także na stronie jednego tytułu (ADR 0021); brak atrybutu zatrzymuje build,
+- nie ma zakresu domyślnego: jeśli fakt nie zależy od wersji, piszemy `gra=wspolne`,
+- zakres nie zastępuje poziomu wiarygodności: `{{skrypt|menu|zrodlo|wiedza}}` mówi, skąd wiadomo,
+  a `gra=` — o której wersji świata,
+- parametry pary (mech, gra) nadal trzyma `w_gre`, a nie treść.
 
 ## Sekcje treści
 

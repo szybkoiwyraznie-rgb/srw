@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "baseUrl": "https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev",
   "pochodzenie": "menu",
-  "dostarczono": "2026-10-19",
-  "podstawa": "Ilustracje właściciela jako pełnoprawna dostawa encji (ADR 0017); nazwy plików z przekazanej listy R2.",
+  "dostarczono": "2026-10-20",
+  "podstawa": "Ilustracje właściciela jako pełnoprawna dostawa encji (ADR 0017); nazwy z odczytu listy R2 (workflow r2-inventory, 2026-10-20).",
   "weryfikacjaZdalna": false,
-  "uwaga": "Przypisanie na podstawie nazw właściciela, nie niezależnej inspekcji obrazów. Próba pobrania Exart.jpg i Himari.png narzędziem agenta zwróciła HTTP 500.",
+  "uwaga": "17 portretów w characters/ oraz 19 plików jednostek w korzeniu, w tym trzy warianty Zaku II. Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów (R2 zwraca HTTP 500), więc nie deklarujemy obejrzenia zawartości.",
   "encje": {
     "exart": [
       "Exart.jpg",
@@ -28,19 +28,74 @@
       "Real PG Gundam 2.png"
     ],
     "seishiro": [
-      "Seishiro.jpg"
+      "characters/Seishiro Kusanagi.png"
     ],
     "himari-yaegaki": [
-      "Himari.png"
+      "characters/Himari Yaegaki.png"
     ],
     "masaki-andoh": [
-      "Masaki.png"
+      "characters/Masaki Andoh.png"
     ],
     "kuro": [
-      "Kuro.png"
+      "characters/Kuro.png"
     ],
     "shiro": [
-      "Shiro.png"
+      "characters/Shiro.png"
+    ],
+    "amuro-ray": [
+      "characters/Amuro Ray.png"
+    ],
+    "char-aznable": [
+      "characters/Char Aznable.png"
+    ],
+    "bright-noa": [
+      "characters/Bright Noa.png"
+    ],
+    "mirai-yashima": [
+      "characters/Mirai Yashima.png"
+    ],
+    "sayla-mass": [
+      "characters/Sayla Mass.png"
+    ],
+    "fraw-bow": [
+      "characters/Fraw Bow.png"
+    ],
+    "paolo-cassius": [
+      "characters/Paolo Cassius.png"
+    ],
+    "oscar-dublin": [
+      "characters/Oscar Dublin.png"
+    ],
+    "marker": [
+      "characters/Marker Clan.png"
+    ],
+    "slender": [
+      "characters/Slender.png"
+    ],
+    "crown": [
+      "characters/Crown.png"
+    ],
+    "suol": [
+      "characters/Suol Douglas.png"
+    ],
+    "rx-78-2-gundam": [
+      "Gundam.png",
+      "Gundam 2.png"
+    ],
+    "white-base": [
+      "White Base.png"
+    ],
+    "zaku-ii-karabin-maszynowy": [
+      "Zaku II KM.png",
+      "Zaku II KM 2.png"
+    ],
+    "zaku-ii-bazooka": [
+      "Zaku II Baz.png",
+      "Zaku II Baz 2.png"
+    ],
+    "zaku-ii-char": [
+      "Zaku II Char.png",
+      "Zaku II Char 2.png"
     ]
   },
   "nieprzypisane": []

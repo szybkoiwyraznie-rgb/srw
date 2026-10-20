@@ -12,7 +12,7 @@ pojecia: [dr-hell, devil-gundam-incident, connect-force, muge-empire, earth-fede
 tagi: [prolog, trening]
 utworzono: 2026-10-17
 ---
-{{skrypt
+{{skrypt gra=srw-oe
 
 ## Treść sceny
 

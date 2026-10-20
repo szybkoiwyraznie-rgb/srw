@@ -11,7 +11,7 @@ zrodla:
 tagi: [connect]
 utworzono: 2026-10-17
 ---
-{{skrypt
+{{skrypt gra=srw-oe
 
 ## Opis
 
@@ -21,7 +21,7 @@ Do oddziału należy CF-00 [[exart|Exart]], najnowocześniejsza broń na każdą
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
-{{zrodlo
+{{zrodlo gra=srw-oe
 
 - Connect Force to specjalna jednostka bojowa cywilnej firmy handlowej Connect ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
 - Japońska Wikipedia opisuje Connect jako firmę handlową, a Connect Force jako jej jednostkę bojową ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend)).

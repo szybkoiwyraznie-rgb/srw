@@ -10,7 +10,7 @@ zrodla:
 tagi: [najazd]
 utworzono: 2026-10-17
 ---
-{{skrypt
+{{skrypt gra=srw-oe
 
 ## Opis
 
@@ -18,11 +18,11 @@ Imperium Muge należy do zagrożeń wymienionych w prologu po opisie badań nad 
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
-{{zrodlo
+{{zrodlo gra=wspolne
 
-- W serii *Dancouga – Super Beast Machine God* (TBS, 1985, 38 odcinków) najeźdźcy z obcej przestrzeni to Muge Zorbados Empire ([Wikipedia, *Dancouga*](https://en.wikipedia.org/wiki/Dancouga_%E2%80%93_Super_Beast_Machine_God)).
+- W serii *Dancouga – Super Beast Machine God* (TBS, 1985, 38 odcinków) najeźdźcy z obcej przestrzeni to Muge Zorbados Empire ([Wikipedia, *Dancouga*](https://en.wikipedia.org/wiki/Dancouga_%E2%80%93_Super_Beast_Machine_God); sprawdzono 2026-10-19).
 }}
-{{wiedza
+{{wiedza gra=srw-oe
 
 - Imperium Muge w SRW OE prawdopodobnie nawiązuje do Muge Zorbados Empire z Dancougi.
 }}

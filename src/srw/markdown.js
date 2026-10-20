@@ -17,10 +17,31 @@
  * zgłasza problem, a build kończy się czerwono.
  */
 
-import { WIKILINK_RE } from './links.js';
+import { SLUG_RE, WIKILINK_RE } from './links.js';
 
 /** Poziomy wiarygodności dozwolone w bloku {{...}} (ADR 0010, 0011). */
 export const POZIOMY_BLOKU = ['skrypt', 'menu', 'zrodlo', 'wiedza'];
+
+/** Atrybuty dozwolone w otwarciu bloku poziomu (ADR 0020). */
+export const ATRYBUTY_BLOKU = ['gra'];
+
+/** Wartość `gra`, która oznacza informacje wspólne dla wszystkich tytułów. */
+export const ZAKRES_WSPOLNY = 'wspolne';
+
+/**
+ * Otwarcie bloku poziomu: `{{poziom}}` albo z atrybutami, np. `{{menu gra=srw-oe`.
+ * Atrybuty są rozdzielone spacjami; wartość może być w cudzysłowie.
+ */
+export const BLOK_OTWARCIA_RE = /^\{\{(\w+)((?:\s+[A-Za-z][\w-]*=(?:"[^"]*"|[^\s}]+))*)\s*$/;
+
+/** Zamienia ciąg atrybutów (` gra=srw-oe`) na mapę nazwa → wartość. */
+export function parsujAtrybutyBloku(tekst) {
+  const atrybuty = new Map();
+  for (const m of String(tekst ?? '').matchAll(/([A-Za-z][\w-]*)=(?:"([^"]*)"|([^\s}]+))/g)) {
+    atrybuty.set(m[1], m[2] ?? m[3]);
+  }
+  return atrybuty;
+}
 
 export function renderMarkdown(md, { resolveLink, wymagajPoziomu = false, wPoziomie = null, wZagniezdzeniu = false } = {}) {
   const linie = String(md).replace(/\r\n/g, '\n').split('\n');
@@ -41,10 +62,11 @@ export function renderMarkdown(md, { resolveLink, wymagajPoziomu = false, wPozio
 
     if (linia.trim() === '') { i += 1; continue; }
 
-    // blok poziomu wiarygodności {{poziom ... }} (ADR 0011)
-    const otwarcie = linia.trim().match(/^\{\{(\w+)$/);
+    // blok poziomu wiarygodności {{poziom ... }} (ADR 0011), z opcjonalnym zakresem gry (ADR 0020)
+    const otwarcie = linia.trim().match(BLOK_OTWARCIA_RE);
     if (otwarcie) {
       const poziom = otwarcie[1];
+      const atrybuty = parsujAtrybutyBloku(otwarcie[2]);
       i += 1;
       const buf = [];
       while (i < linie.length && linie[i].trim() !== '}}') { buf.push(linie[i]); i += 1; }
@@ -60,7 +82,8 @@ export function renderMarkdown(md, { resolveLink, wymagajPoziomu = false, wPozio
       }
       const wewn = renderMarkdown(buf.join('\n'), { resolveLink, wymagajPoziomu, wPoziomie: poziom, wZagniezdzeniu: true });
       problemy.push(...wewn.problemy);
-      out.push(`<div class="fragment poziom poziom-${poziom}">\n${wewn.html}\n</div>`);
+      const zakres = zakresGry(atrybuty, { poziom, resolveLink, problemy });
+      out.push(`<div class="fragment poziom poziom-${poziom}"${zakres.atrybuty}>\n${zakres.etykieta}${wewn.html}\n</div>`);
       continue;
     }
 
@@ -180,9 +203,11 @@ export function renderMarkdown(md, { resolveLink, wymagajPoziomu = false, wPozio
       return `<a href="${cel.href}" title="${escapeHtml(cel.tytul)}">${escapeHtml(etykieta)}</a>`;
     });
 
-    // obrazy ![alt](src)
+    // obrazy ![alt](src) — kliknięcie otwiera podgląd na pełnym ekranie (podglad.js).
+    // Przycisk zamiast samego <img>: obsługa klawiatury i czytnika ekranu bez JS-owych atrap.
     t = t.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (cały, alt, src) =>
-      `<img src="${src}" alt="${alt}" loading="lazy" decoding="async">`);
+      `<button type="button" class="ilustracja-otworz" data-pelny-ekran>` +
+      `<img src="${src}" alt="${alt}" loading="lazy" decoding="async"></button>`);
 
     // linki [tekst](url) — tylko http(s) i # (blokujemy javascript: itp.)
     t = t.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (cały, tekst, url) => {
@@ -201,6 +226,57 @@ export function renderMarkdown(md, { resolveLink, wymagajPoziomu = false, wPozio
 
     return t;
   }
+}
+
+
+/**
+ * Etykieta zakresu gry dla bloku treści (ADR 0020).
+ *
+ * `gra=<slug>` pokazuje przy fragmencie nazwę gry z odsyłaczem; `gra=wspolne`
+ * oznacza informacje wspólne dla wszystkich tytułów. Atrybuty są przepisywane
+ * do DOM, żeby podgląd ilustracji i testy mogły odczytać zakres bez zgadywania.
+ */
+function zakresGry(atrybuty, { poziom, resolveLink, problemy }) {
+  for (const klucz of atrybuty.keys()) {
+    if (!ATRYBUTY_BLOKU.includes(klucz)) {
+      problemy.push(`nieznany atrybut "${klucz}" w bloku {{${poziom}}} — dozwolone: ${ATRYBUTY_BLOKU.join(', ')}`);
+    }
+  }
+
+  const gra = (atrybuty.get('gra') ?? '').trim();
+  if (gra === '') return { atrybuty: '', etykieta: '' };
+
+  if (gra === ZAKRES_WSPOLNY) {
+    return {
+      atrybuty: ` data-gra="${ZAKRES_WSPOLNY}" data-gra-nazwa="Wspólne"`,
+      etykieta: '<p class="zakres-gry"><span title="Informacje wspólne dla wszystkich tytułów">Wspólne</span></p>\n',
+    };
+  }
+
+  if (!SLUG_RE.test(gra)) {
+    problemy.push(`niepoprawny slug gry "${gra}" w bloku {{${poziom}}} — dozwolone małe litery, cyfry i myślniki`);
+    return { atrybuty: '', etykieta: '' };
+  }
+
+  const cel = resolveLink?.(gra);
+  if (resolveLink && !cel) {
+    problemy.push(`nieznana gra "${gra}" w bloku {{${poziom}}}`);
+    return { atrybuty: '', etykieta: '' };
+  }
+  if (cel && cel.typ !== 'gra') {
+    problemy.push(`zakres gry w bloku {{${poziom}}} → "${gra}" ma typ "${cel.typ}", oczekiwano "gra"`);
+    return { atrybuty: '', etykieta: '' };
+  }
+
+  const nazwa = cel?.tytul ?? gra;
+  const etykieta = cel
+    ? `<p class="zakres-gry"><a href="${cel.href}">${escapeHtml(nazwa)}</a></p>\n`
+    : `<p class="zakres-gry"><span>${escapeHtml(nazwa)}</span></p>\n`;
+
+  return {
+    atrybuty: ` data-gra="${escapeHtml(gra)}" data-gra-nazwa="${escapeHtml(nazwa)}"`,
+    etykieta,
+  };
 }
 
 /** Linia, która może być kontynuacją poprzedniego elementu listy (nie blok). */

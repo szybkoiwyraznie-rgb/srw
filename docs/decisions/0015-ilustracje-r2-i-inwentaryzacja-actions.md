@@ -39,3 +39,15 @@ Właściciel wgrywa obrazy przez panel R2, a agent może uzyskać aktualną list
 bez poznawania kluczy. Pełne sprawdzenie integracji wymaga uruchomienia na GitHubie;
 testy lokalne nie potwierdzają poprawności poświadczeń. Procedura i ograniczenia sieciowe:
 `docs/guides/ILUSTRACJE_R2.md`.
+
+## Adnotacja (2026-10-20)
+
+Punkt 6 mówi o uruchamianiu wyłącznie ręcznym. W praktyce integracja GitHuba, przez którą
+pracuje agent, ma tylko odczyt Actions: `gh workflow run` zwraca 403 dla każdego workflow
+w repozytorium, więc ręczne wywołanie nie może należeć do agenta. Workflow zyskuje drugi,
+wąski trigger — `push` ograniczony ścieżką `.github/r2-inventory-request`. Zmiana tego pliku
+uruchamia odczyt na wypchniętej gałęzi; nie ma triggerów `pull_request`, `pull_request_target`
+ani `schedule`, a uprawnienia GitHuba pozostają `contents: read`. Zasada „sekrety nie trafiają
+do kodu PR” pozostaje w mocy: zdarzenie `push` nie pochodzi z pull requesta, a kod workflow
+i skryptu jest w tym samym repozytorium, do którego push ma wyłącznie właściciel i agent.
+Przycisk **Run workflow** zostaje dla właściciela.

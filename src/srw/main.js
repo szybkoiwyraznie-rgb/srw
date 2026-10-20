@@ -4,6 +4,7 @@
  */
 
 import { uruchomRouter } from './router.js';
+import { podepnijPodglad } from './podglad.js';
 import { rama, tytulStrony, nieZnalesc, nazwaTypu } from './render.js';
 import { czasStrony, coNowegoCzas, czasBazy } from './data.js';
 import { renderGlowna } from './render-home.js';
@@ -84,6 +85,9 @@ function domknijInterakcje(app) {
   const tresc = app.querySelector('.tresc');
   if (tresc) tresc.scrollTop = 0;
 }
+
+// Podgląd ilustracji działa przez delegację zdarzeń, więc wystarczy podpiąć go raz.
+podepnijPodglad();
 
 const stop = uruchomRouter(renderuj);
 if (globalThis.__SRW_TEST__) globalThis.__SRW_STOP__ = stop;

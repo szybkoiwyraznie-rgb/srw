@@ -13,6 +13,7 @@
  */
 
 import { SLUG_RE, hrefDlaSlug, slugify } from './links.js';
+import { BLOK_OTWARCIA_RE, parsujAtrybutyBloku, ZAKRES_WSPOLNY } from './markdown.js';
 
 /** Bronie nie są osobnym typem: opisują mech w jego treści (zasada właściciela). */
 /** Hasło (`pojecie`): organizacja, era, państwo, zjawisko — podstrona w stylu wiki (ADR 0012). */
@@ -64,6 +65,34 @@ export const POLA_RELACJI = {
 };
 
 const DATA_RE = /^\d{4}-\d{2}-\d{2}$/;
+
+/**
+ * Bloki poziomu w treści: `[{ poziom, atrybuty }]`.
+ * Używane do pilnowania zakresu gry (ADR 0020); parsowanie jest wspólne z rendererem.
+ */
+export function wytnijBloki(body) {
+  const bloki = [];
+  for (const linia of String(body ?? '').split('\n')) {
+    const m = linia.trim().match(BLOK_OTWARCIA_RE);
+    if (m) bloki.push({ poziom: m[1], atrybuty: parsujAtrybutyBloku(m[2]) });
+  }
+  return bloki;
+}
+
+
+/**
+ * Gry, do których może odwoływać się zakres fragmentów danej strony.
+ * Encje mają pole `gry`, epizod — `gra`, a scena dziedziczy grę swojego epizodu.
+ */
+export function gryStronyDoZakresu(strona, ctx) {
+  if (Array.isArray(strona.gry)) return strona.gry;
+  if (typeof strona.gra === 'string' && strona.gra !== '') return [strona.gra];
+  if (typeof strona.epizod === 'string' && strona.epizod !== '') {
+    const epizod = ctx?.bySlug?.get(strona.epizod);
+    if (epizod?.gra) return [epizod.gra];
+  }
+  return [];
+}
 
 /** Wyciąga tytuły sekcji h2 z ciała markdown. */
 export function wytnijSekcje(body) {
@@ -117,6 +146,27 @@ export function walidujStrone(strona, ctx) {
   for (const z of zrodla) {
     if (typeof z !== 'string' || !/^https?:\/\//.test(z)) {
       p.push(`${gdzie}: źródło "${z}" nie jest adresem http(s)`);
+    }
+  }
+
+  // Zakres gry (ADR 0020, zaostrzony przez ADR 0021): każdy blok treści ma
+  // `gra=<slug>` albo `gra=wspolne`. Bez tego czytelnik nie wie, której wersji
+  // świata dotyczy fragment — a boks bez etykiety wygląda jak przeoczenie.
+  const gryStrony = Array.isArray(strona.gry) ? strona.gry : [];
+  const gryDozwolone = gryStronyDoZakresu(strona, ctx);
+  const bloki = wytnijBloki(strona.body ?? '');
+  for (const blok of bloki) {
+    const gra = blok.atrybuty.get('gra');
+    if (gra === undefined) {
+      p.push(`${gdzie}: blok {{${blok.poziom}}} nie ma zakresu gry — dopisz gra=<slug> albo gra=${ZAKRES_WSPOLNY} (ADR 0021)`);
+      continue;
+    }
+    if (gra === ZAKRES_WSPOLNY) continue;
+    const cel = ctx.bySlug.get(gra);
+    if (!cel) p.push(`${gdzie}: blok {{${blok.poziom} gra=${gra}}} → "gra" nie istnieje w bazie`);
+    else if (cel.typ !== 'gra') p.push(`${gdzie}: blok {{${blok.poziom} gra=${gra}}} → typ "${cel.typ}", oczekiwano "gra"`);
+    if (gryDozwolone.length > 0 && !gryDozwolone.includes(gra)) {
+      p.push(`${gdzie}: blok {{${blok.poziom} gra=${gra}}} wskazuje grę spoza tej strony (${gryDozwolone.join(', ')})`);
     }
   }
 

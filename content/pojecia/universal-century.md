@@ -11,7 +11,7 @@ zrodla:
 tagi: [era]
 utworzono: 2026-10-17
 ---
-{{skrypt
+{{skrypt gra=srw-oe
 
 ## Opis
 
@@ -19,7 +19,7 @@ Universal Century to era następująca po zjednoczeniu świata przez [[earth-fed
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
-{{zrodlo
+{{zrodlo gra=wspolne
 
 - Universal Century to kalendarz osi czasu serii Gundam. Rok 0079 to rok akcji *Mobile Suit Gundam* ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam)).
 - Gundam to franczyza zapoczątkowana przez Yoshiyukiego Tomino i studio Sunrise w 1979 roku ([Wikipedia, *Gundam*](https://en.wikipedia.org/wiki/Gundam)).

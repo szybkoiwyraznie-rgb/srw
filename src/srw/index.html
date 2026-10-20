@@ -11,6 +11,24 @@
 </head>
 <body>
 <div id="app" aria-live="polite"></div>
+
+<!-- Podgląd ilustracji: okno wypełnia ekran, obraz pozostaje w R2. -->
+<dialog class="podglad" id="podglad" aria-label="Podgląd ilustracji">
+  <div class="podglad-wnetrze">
+    <div class="podglad-pasek">
+      <span class="podglad-licznik" data-licznik></span>
+      <span class="podglad-zakres" data-zakres hidden></span>
+      <button class="podglad-przycisk" type="button" data-pelny hidden>Pełny ekran</button>
+      <button class="podglad-przycisk" type="button" data-zamknij>Zamknij <span aria-hidden="true">✕</span></button>
+    </div>
+    <div class="podglad-scena" data-scena>
+      <button class="podglad-strzalka" type="button" data-poprzednia aria-label="Poprzednia ilustracja" hidden>‹</button>
+      <img class="podglad-obraz" data-obraz alt="">
+      <button class="podglad-strzalka" type="button" data-nastepna aria-label="Następna ilustracja" hidden>›</button>
+    </div>
+    <p class="podglad-podpis" data-podpis aria-live="polite" aria-atomic="true"></p>
+  </div>
+</dialog>
 <!--BUNDLE-->
 </body>
 </html>

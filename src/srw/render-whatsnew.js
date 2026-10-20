@@ -8,6 +8,27 @@ import { escapeHtml } from './markdown.js';
 import { wpisyCoNowego } from './data.js';
 import { nazwaMiesiaca, stanPusty } from './render.js';
 
+function listaDziennikaGrupy(wpisy) {
+  return `<ul class="dziennik">${wpisy.map(wpisHtml).join('')}</ul>`;
+}
+
+function wpisHtml(w) {
+  return `<li>
+    <span class="data mono">${escapeHtml(w.data)}${w.czas ? `<br>${escapeHtml(w.czas)}` : ''}</span>
+    <div>${w.html}</div>
+  </li>`;
+}
+
+/**
+ * Lista wpisów dziennika bez nagłówka strony — używana też na stronie głównej.
+ * `limit` obcina do najnowszych wpisów; pełna strona podaje bez limitu.
+ */
+export function listaDziennika(limit = null) {
+  const wpisy = wpisyCoNowego();
+  const wybrane = limit ? wpisy.slice(0, limit) : wpisy;
+  return `<ul class="dziennik">${wybrane.map(wpisHtml).join('')}</ul>`;
+}
+
 export function renderCoNowego() {
   const wpisy = wpisyCoNowego();
   if (wpisy.length === 0) {
@@ -33,12 +54,6 @@ export function renderCoNowego() {
 ${miesiace.map((m) => `
   <section class="blok">
     <h2>${nazwaMiesiaca(m)}</h2>
-    <ul class="dziennik">
-      ${grupy.get(m).map((w) => `
-        <li>
-          <span class="data mono">${escapeHtml(w.data)}${w.czas ? `<br>${escapeHtml(w.czas)}` : ''}</span>
-          <div>${w.html}</div>
-        </li>`).join('')}
-    </ul>
+    ${listaDziennikaGrupy(grupy.get(m))}
   </section>`).join('')}`;
 }

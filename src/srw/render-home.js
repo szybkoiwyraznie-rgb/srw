@@ -1,23 +1,27 @@
 /**
- * Strona główna bazy: stan rozgrywki, liczby, ostatnie zmiany, wejścia
- * w działy. Ma odpowiadać na pytanie „co się dzieje w tym projekcie",
- * a nie tylko pełnić funkcję menu.
+ * Strona główna bazy: liczby, ostatnie zmiany i wejścia w działy.
+ *
+ * Odpowiada na pytanie „co się dzieje w tym projekcie”, a nie tylko pełni
+ * funkcję menu. Kafle pod nagłówkiem są jedynym miejscem, z którego wchodzi
+ * się w cztery działy fabularne — nagłówek prowadzi do pozostałych działów.
  */
 
 import { escapeHtml } from './markdown.js';
-import { hrefDlaSlug, hrefListy } from './links.js';
-import { statystyki, listaStron, listaEpizodow, dajDane } from './data.js';
-import { nazwaTypu, numerEpizodu } from './render.js';
+import { hrefDlaSlug } from './links.js';
+import { statystyki, dajDane } from './data.js';
+import { nazwaTypu } from './render.js';
+import { listaDziennika } from './render-whatsnew.js';
+
+/** Ile najnowszych wpisów dziennika pokazuje strona główna (reszta w „Co nowego”). */
+const WPISY_NA_GLOWNEJ = 8;
 
 export function renderGlowna() {
   const s = statystyki();
-  const epizody = listaEpizodow();
 
   return `
 <section class="hero">
   <h1>SRW Database</h1>
-  <p class="hero-opis">Światy <em>Super Robot Wars</em>: postacie, mechy, wydarzenia
-  i historie łączące bohaterów różnych serii anime.</p>
+  <p class="hero-opis">Światy <em>Super Robot Wars</em>: postacie, mechy, wydarzenia i historie łączące bohaterów różnych serii anime.</p>
   <div class="hero-liczby">
     ${kafelek('scena', s.scena, '#/sceny')}
     ${kafelek('epizod', s.epizod, '#/epizody')}
@@ -26,20 +30,15 @@ export function renderGlowna() {
   </div>
 </section>
 
-<section class="blok dwie-kolumny">
+<section class="blok dwie-kolumny dwie-kolumny-nierowne">
+  <div>
+    <h2>Co nowego</h2>
+    ${listaDziennika(WPISY_NA_GLOWNEJ)}
+    <p class="wiecej"><a href="#/co-nowego">Cały dziennik zmian →</a></p>
+  </div>
   <div>
     <h2>Ostatnio dodane</h2>
     ${listaOstatnich()}
-  </div>
-  <div>
-    <h2>Najnowsze epizody</h2>
-    ${epizody.length === 0
-      ? '<p class="pusto">Jeszcze nic nie zostało rozegrane.</p>'
-      : `<ul class="lista">${epizody.slice(-8).reverse().map((e) => `
-          <li>
-            <a href="${hrefDlaSlug(e.slug, 'epizod')}"><span class="mono">${numerEpizodu(e.numer)}</span> ${escapeHtml(e.tytul)}</a>
-            ${e.rozegrano ? `<span class="meta">${escapeHtml(e.rozegrano)}</span>` : ''}
-          </li>`).join('')}</ul>`}
   </div>
 </section>
 

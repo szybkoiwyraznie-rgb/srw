@@ -9,10 +9,11 @@ gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE
+  - https://srw.wiki.cre.jp/wiki/%E5%85%AB%E9%87%8D%E5%9E%A3%E3%81%B2%E3%81%BE%E3%82%8A
 tagi: [connect]
 utworzono: 2026-10-17
 ---
-{{skrypt
+{{skrypt gra=srw-oe
 
 ## Opis
 
@@ -22,19 +23,20 @@ W szkoleniu podstawowym prowadzi odprawę [[seishiro|Seishiro]], wyznacza cele, 
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
-{{menu
+{{menu gra=srw-oe
 
 ## Ilustracje
 
 ### Ilustracja 1
 
-![Himari Yaegaki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Himari.png)
-
-[Otwórz plik Himari.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Himari.png)
+![Himari Yaegaki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Himari%20Yaegaki.png)
 
 }}
 
-{{zrodlo
+## Dane postaci
 
-- Wiek: 18 lat. Głos w wersji japońskiej: Kana Asumi ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
+{{zrodlo gra=srw-oe
+
+- Wiek: 18 lat. Głos w wersji japońskiej: Kana Asumi ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-19).
+- Projekt postaci: 加藤誠. Himari jest bohaterką gry ([srw.wiki.cre.jp, „八重垣ひまり”](https://srw.wiki.cre.jp/wiki/%E5%85%AB%E9%87%8D%E5%9E%A3%E3%81%B2%E3%81%BE%E3%82%8A); sprawdzono 2026-10-19).
 }}

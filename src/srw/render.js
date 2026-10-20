@@ -31,22 +31,19 @@ export const NAZWY_POCHODZENIA = {
 };
 
 /** Gradacja (zasada właściciela): gra → epizod → scena to główny ciąg fabularny. Scena jest jednostką, z której wszystko się składa. */
-/** Główne menu: tylko cztery działy, w kolejności fabularnej (scena → epizod → postać → mech). */
+/**
+ * Główne menu w nagłówku. Cztery działy fabularne (scena → epizod → postać → mech)
+ * mają własne kafle na stronie głównej, więc menu ich nie powiela: prowadzi do
+ * pozostałych działów, tak jak wcześniej robiła to stopka. Jedno menu w całej
+ * witrynie — bez drugiego zestawu linków na dole.
+ */
 export const NAV = [
-  { id: 'sceny', etykieta: 'Sceny', href: '#/sceny' },
-  { id: 'epizody', etykieta: 'Epizody', href: '#/epizody' },
-  { id: 'postacie', etykieta: 'Postacie', href: '#/postacie' },
-  { id: 'mechy', etykieta: 'Mechy', href: '#/mechy' },
-];
-
-/** Pozostałe działy: w stopce witryny, nie w głównym menu. */
-export const STOPKA_LINKI = [
-  { etykieta: 'Gry', href: '#/gry' },
-  { etykieta: 'Serie', href: '#/serie' },
-  { etykieta: 'Hasła', href: '#/pojecia' },
-  { etykieta: 'Tagi', href: '#/tagi' },
-  { etykieta: 'Co nowego', href: '#/co-nowego' },
-  { etykieta: 'O bazie', href: '#/o-bazie' },
+  { id: 'gry', etykieta: 'Gry', href: '#/gry' },
+  { id: 'serie', etykieta: 'Serie', href: '#/serie' },
+  { id: 'pojecia', etykieta: 'Hasła', href: '#/pojecia' },
+  { id: 'tagi', etykieta: 'Tagi', href: '#/tagi' },
+  { id: 'co-nowego', etykieta: 'Co nowego', href: '#/co-nowego' },
+  { id: 'o-bazie', etykieta: 'O bazie', href: '#/o-bazie' },
 ];
 
 export function nazwaTypu(typ, liczba = 'jeden') {
@@ -79,7 +76,6 @@ ${tresc}
   ${d.pojecie} ${odmiana(d.pojecie, ['hasło', 'hasła', 'haseł'])},
   ${d.scena} ${odmiana(d.scena, ['scena', 'sceny', 'scen'])},
   ${d.seria} ${odmiana(d.seria, ['seria', 'serie', 'serii'])}${d.relacje ? ` · ${d.relacje} ${odmiana(d.relacje, ['powiązanie', 'powiązania', 'powiązań'])}` : ''}</p>
-  <p class="stopka-linki">${STOPKA_LINKI.map((l) => `<a href="${l.href}">${l.etykieta}</a>`).join(' · ')}</p>
   ${stopkaCzasu(czas ?? czasBazy())}
   <p class="stopka-meta">baza zbudowana ${escapeHtml(dajDane().zbudowano ?? '—')}</p>
 </footer>`;

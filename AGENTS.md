@@ -137,6 +137,13 @@ Szczegółowa lista kroków: `docs/guides/PRZEPLYW_EPIZODU.md`.
   zapisujesz wewnętrznie, zamiast zgadywać (ADR 0018).
 - **Rozdzielaj poziomy pewności.** Pole `pochodzenie`: `skrypt` (wprost z gry), `menu` (dostawa
   właściciela o mechach, pilotach i broniach), `zrodlo` (treść potwierdzona w sprawdzonym źródle — `zrodla` i `## Źródła`), `wiedza` (kontekst agenta, **niesprawdzony** — bez linków; ADR 0009).
+- **Każdy fragment i ilustracja mają zakres gry (ADR 0020, 0021).** Nie ma bloku bez etykiety:
+  `{{menu gra=<slug>` oznacza wersję z konkretnego tytułu, `{{zrodlo gra=wspolne` — fakt
+  niezależny od wersji (rodowód, pierwowzór z anime). Brak zakresu, gra spoza strony albo
+  nieznana gra zatrzymują build. Nie stosujemy zakresu domyślnego „z kontekstu” — wybór
+  między tytułem a `wspolne` jest decyzją autora fragmentu. Galerie ilustracji są osobne dla każdej gry i dziedziczą zakres bloku;
+  etykieta gry jest widoczna przy fragmencie i w podglądzie pełnoekranowym.
+
 - **Statystyki i arsenał należą do pary (mech, gra), nie do mecha.** Jeśli skrypt lub dostawa `menu` podaje
   parametry w konkretnym tytule, zapisz je w polu `w_gre` (klucz = slug gry), a nie w opisie ogólnym.
 

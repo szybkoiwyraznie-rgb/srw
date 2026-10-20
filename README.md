@@ -29,7 +29,8 @@ npm run serve     # podgląd na http://0.0.0.0:3000
 
 Artefakt otwiera się też bezpośrednio z dysku (`file://`) — routing jest po hashu, wyszukiwanie
 działa po stronie przeglądarki, zero zależności runtime. Zewnętrzne ilustracje z R2
-wymagają sieci; ich brak nie blokuje czytania tekstu (ADR 0016).
+wymagają sieci; ich brak nie blokuje czytania tekstu (ADR 0016). Kliknięcie ilustracji
+powiększa ją do pełnego ekranu (ADR 0019).
 
 ## Mapa projektu
 

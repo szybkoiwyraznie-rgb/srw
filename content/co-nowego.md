@@ -1,23 +1,120 @@
 # Co nowego
 
+## 2026-10-20 21:00
+
+- Obsada trzech [[zaku-ii|Zaków II]] jest ustalona: [[slender|Slender]] prowadzi [[zaku-ii-karabin-maszynowy|maszynę z karabinem maszynowym]], [[crown|Crown]] — [[zaku-ii-bazooka|wersję z bazooką]], a [[char-aznable|Char]] swoją [[zaku-ii-char|wersję dowódczą]].
+- [[zolnierz-zeonu|Żołnierz Zeonu]] pozostaje domyślną załogą jednostek z karabinem i bazooką; strony maszyn wymieniają nazwanych pilotów przed nim.
+- [[srw-oe-ep0|Epizod 0]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] mówią teraz wprost, kto siedzi w której maszynie.
+
+## 2026-10-20 20:20
+
+- Dziennik zmian prowadzi do stron: gdy wpis dotyczy postaci, mecha, hasła, serii albo epizodu, nazwa jest odsyłaczem wprost do tej strony — także we wpisach sprzed tej zmiany.
+
+## 2026-10-20 20:15
+
+- Strona główna w nowym układzie: „Co nowego” zajmuje lewą kolumnę (3/4 szerokości, osiem najnowszych wpisów i odsyłacz do całego dziennika), a „Ostatnio dodane” prawą (1/4). Lista najnowszych epizodów zniknęła z głównej — [epizody](#/epizody) mają własny dział.
+- Górne menu prowadzi teraz do działów ze stopki: [Gry](#/gry), [Serie](#/serie), [Hasła](#/pojecia), [Tagi](#/tagi), Co nowego, O bazie. Cztery kafle na głównej (sceny, epizody, postacie, mechy) nie są już powielone w menu, a stopka nie ma drugiego zestawu linków.
+- Wstęp na stronie głównej idzie pełną szerokością treści, bez łamania w połowie zdania.
+
+## 2026-10-20 20:08
+
+- Listy scen mają jeden układ: tytuł w pierwszym wierszu, opis sceny zawsze pod nim — na stronie [epizodu](#/epizody) i w dziale [„Sceny”](#/sceny).
+
+## 2026-10-20 20:04
+
+- Opis [[zolnierz-zeonu|Żołnierza Zeonu]] mówi o ludziach armii, nie o miejscu w danych gry: bezimienny pilot [[zaku-ii|Zaku II]], siła szyku i nazwani podwładni [[char-aznable|Chara]] w [[srw-oe-ep0-na-ratunek-white-base|scenie ataku na White Base]].
+- Opisy [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-char|Zaku II (Char)]] opisują maszyny i sposób walki, a nie przypisanie do rekordu.
+
+## 2026-10-20 19:55
+
+- [[zolnierz-zeonu|Żołnierz Zeonu]]: nowa postać — bezimienny pilot [[zaku-ii|Zaku II]], jeden z tych, którzy tworzą trzon armii [[zeon|Księstwa Zeonu]].
+- Trzy Zaku II to w [[srw-oe|OE]] osobne mechy, nie warianty: strony mówią o jednostkach z rodziny [[zaku-ii|Zaku II]], a sekcja na stronie bazowej nazywa się „Pozostałe jednostki Zaku II”.
+- Zaku II znalazły się w obsadzie [[srw-oe-ep0-na-ratunek-white-base|sceny 0-2]]: [[char-aznable|Char]] w swojej maszynie, [[slender|Slender]] i [[crown|Crown]] w dwóch pozostałych.
+
+## 2026-10-20 19:48
+
+- Trzy osobne jednostki Zaku II: z [[zaku-ii-karabin-maszynowy|karabinem maszynowym]], z [[zaku-ii-bazooka|bazooką]] i [[zaku-ii-char|maszyna Chara]] — każdy z dwiema ilustracjami i własnym zestawem uzbrojenia.
+- [[zaku-ii|Zaku II]] zyskuje sekcję z odsyłaczami do pozostałych jednostek; [[char-aznable|Char Aznable]] ma w profilu także swoją wersję maszyny.
+- Maszyny obsadzone zbiorczym profilem [[zolnierz-zeonu|Żołnierza Zeonu]] opisują klasę jednostek, nie pojedynczą osobę.
+
+## 2026-10-20 18:29
+
+- [[white-base|White Base]] zyskuje portret i pełny rekord jednostki: załogę [[bright-noa|Bright Noa]] i [[mirai-yashima|Mirai Yashima]], zdolności okrętu-matki oraz cztery działa.
+- [[rx-78-2-gundam|Gundam]]: dwa nowe zdjęcia oraz parametry pilota [[amuro-ray|Amuro Raya]] — Potencjał Krytyczny, Newtype, blok tarczą i cztery rodzaje uzbrojenia.
+- [[seishiro|Seishiro Kusanagi]]: nowa umiejętność Precyzja w profilu [[exart|Exarta]] i na swojej stronie.
+- White Base jest odtąd jednostką bojową w bazie, a nie hasłem o okręcie; odsyłacze pozostają bez zmian.
+
+## 2026-10-20 18:11
+
+- Galerie ilustracji: pod obrazem nie ma już dodatkowego odnośnika — powiększenie otwiera się po kliknięciu samej ilustracji.
+
+## 2026-10-20 18:06
+
+- Portrety bohaterów: każda postać ma własną ilustrację — załoga [[white-base|White Base]], piloci [[zeon|Zeonu]], [[connect-force|Connect Force]] oraz [[kuro|Kuro]] i [[shiro|Shiro]].
+- [[marker|Marker Clan]] i [[suol|Suol Douglas]] występują pod pełnymi nazwiskami; wcześniejsze podpisy skrócono do imion.
+- Maszyny zachowują dotychczasowe ilustracje.
+
+## 2026-10-20 17:08
+
+- [[srw-oe-ep0|Epizod 0]] zyskuje drugą scenę, [[srw-oe-ep0-na-ratunek-white-base|„Na ratunek White Base”]]: [[side-7|Side 7]] pod ogniem [[zeon|Zeonu]], ucieczka [[amuro-ray|Amuro Raya]] w [[rx-78-2-gundam|Gundamie]] i przejęcie okrętu przez niedoświadczoną załogę.
+- [[amuro-ray|Amuro Ray]], [[char-aznable|Char Aznable]], [[bright-noa|Bright Noa]], [[mirai-yashima|Mirai Yashima]], [[sayla-mass|Sayla Mass]], [[fraw-bow|Fraw Bow]], [[paolo-cassius|Paolo Cassius]], [[oscar-dublin|Oscar Dublin]], [[marker|Marker]], [[slender|Slender]], [[crown|Crown]] i [[suol|Suol]] — opisy i powiązania ze sceną.
+- [[rx-78-2-gundam|RX-78-2 Gundam]] i [[zaku-ii|Zaku II]] — pierwsze maszyny [[universal-century|Universal Century]] w bazie, z uzbrojeniem i pilotami.
+- Hasła: [[zeon|Księstwo Zeonu]], [[side-7|Side 7]], [[luna-ii|Luna II]], [[white-base|White Base]] i [[minovsky-particles|cząstki Minovsky’ego]].
+- [[mobile-suit-gundam-1979|Mobile Suit Gundam (1979)]] jako seria źródłowa sceny.
+
+## 2026-10-20 11:55
+
+- Każdy fragment opisu ma etykietę tytułu, którego dotyczy — także opisy z gry, epizody, sceny i seriale. Informacje niezależne od wersji oznaczono jako wspólne, a rodowód postaci i mechów jako pochodzący z całej serii.
+
+## 2026-10-20 11:49
+
+- Opisy i galerie mają teraz jawny tytuł, którego dotyczą: etykieta gry przy fragmentach i ilustracjach, gry w infoboksie oraz nazwa tytułu w podglądzie pełnoekranowym.
+- Rodowód postaci i mechów oznaczono jako informacje wspólne dla wszystkich tytułów.
+
+## 2026-10-20 10:46
+
+- Ilustracje: kliknięcie obrazu otwiera go na pełnym ekranie, z podpisem i przełączaniem między obrazami danej strony.
+
+## 2026-10-19 23:15
+
+- [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]]: projekt postaci 加藤誠 oraz role protagonisty i bohaterki gry.
+- [[brocken|Brocken]]: wojskowy Labor Type-7B i wariant 2B z 1998 roku.
+
+## 2026-10-19 23:14
+
+- [[mobile-police-patlabor|Mobile Police Patlabor]]: kolektyw Headgear i manga z 1988 roku.
+- [[sgt-frog|Sgt. Frog]]: autor i magazyn, w którym ukazuje się manga.
+
+## 2026-10-19 23:13
+
+- [[masaki-andoh|Masaki Andoh]] i [[cybuster|Cybuster]]: pochodzenie obu — pierwsze oryginalne postać i mech Banpresto, debiut w *Super Robot Wars 2*.
+- [[cybuster|Cybuster]]: wcześniejszą maszyną [[masaki-andoh|Masakiego]] był Jaohm.
+
+## 2026-10-19 23:10
+
+- [[srw-oe|Super Robot Wars OE]]: deweloper Sazanami i wydawca Bandai Namco Games; dane o ośmiu rozdziałach i liczbie misji.
+- [[seishiro|Seishiro Kusanagi]]: dane postaci w osobnej sekcji, z japońskim zapisem imienia, wiekiem i głosem.
+- [[mobile-police-patlabor|Mobile Police Patlabor]] i [[sgt-frog|Sgt. Frog]]: opisy potwierdzone źródłami, z japońskimi tytułami i rokiem.
+- [[masaki-andoh|Masaki Andoh]] i [[cybuster|Cybuster]]: uporządkowane odsyłacze w sekcjach o [[kuro|Kuro]] i [[shiro|Shiro]].
+
 ## 2026-10-19 22:57
 
-- Rozwinięte opisy Brockena, Cybustera, Cybirda, Real PG Gundama, Masakiego i Control AI: uzbrojenie, transformacje i rola w walce.
-- Opisy Mobile Police Patlabor, Sgt. Frog i Super Robot Wars Original przedstawiają tematykę tych serii.
-- Opis Super Robot Wars OE przedstawia sytuację Federacji Ziemskiej oraz szkolenie w Connect Force.
+- Rozwinięte opisy [[brocken|Brockena]], [[cybuster|Cybustera]], [[cybird|Cybirda]], [[real-pg-gundam|Real PG Gundama]], [[masaki-andoh|Masakiego]] i [[control-ai|Control AI]]: uzbrojenie, transformacje i rola w walce.
+- Opisy [[mobile-police-patlabor|Mobile Police Patlabor]], [[sgt-frog|Sgt. Frog]] i [[super-robot-wars-original|Super Robot Wars Original]] przedstawiają tematykę tych serii.
+- Opis [[srw-oe|Super Robot Wars OE]] przedstawia sytuację [[earth-federation|Federacji Ziemskiej]] oraz szkolenie w [[connect-force|Connect Force]].
 
 ## 2026-10-19 19:10
 
-- Kuro i Shiro: opisy, ilustracje oraz powiązania z Masakim i Cybusterem.
-- Galerie Exarta, Cybustera, Cybirda, Brockena, Real PG Gundama, Seishiro, Himari i Masakiego.
-- Parametry pięciu mechów i ich uzbrojenia w Super Robot Wars OE.
+- [[kuro|Kuro]] i [[shiro|Shiro]]: opisy, ilustracje oraz powiązania z [[masaki-andoh|Masakim]] i [[cybuster|Cybusterem]].
+- Galerie [[exart|Exarta]], [[cybuster|Cybustera]], [[cybird|Cybirda]], [[brocken|Brockena]], [[real-pg-gundam|Real PG Gundama]], [[seishiro|Seishiro]], [[himari-yaegaki|Himari]] i [[masaki-andoh|Masakiego]].
+- Parametry pięciu mechów i ich uzbrojenia w [[srw-oe|Super Robot Wars OE]].
 
 ## 2026-10-17 23:55
 
-- Nawiązania prologu do Mazinger Z i Mobile Fighter G Gundam oraz porównanie chronologii incydentu Devil Gundam.
+- Nawiązania prologu do Mazinger Z i Mobile Fighter G Gundam oraz porównanie chronologii [[devil-gundam-incident|incydentu Devil Gundam]].
 
 ## 2026-10-17 23:28
 
-- Epizod 0: prolog świata Super Robot Wars OE i szkolenie podstawowe w Connect Force.
-- Seishiro Kusanagi, Himari Yaegaki i Exart: opisy oraz powiązania ze sceną szkolenia.
-- Hasła o Federacji Ziemskiej, Universal Century i dawnych zagrożeniach.
+- [[srw-oe-ep0|Epizod 0]]: prolog świata [[srw-oe|Super Robot Wars OE]] i szkolenie podstawowe w [[connect-force|Connect Force]].
+- [[seishiro|Seishiro Kusanagi]], [[himari-yaegaki|Himari Yaegaki]] i [[exart|Exart]]: opisy oraz powiązania z [[prolog-i-trening-w-connect|sceną szkolenia]].
+- Hasła o [[earth-federation|Federacji Ziemskiej]], [[universal-century|Universal Century]] i dawnych zagrożeniach.
