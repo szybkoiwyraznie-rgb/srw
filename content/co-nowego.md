@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-20 23:45
+
+- [[seishiro|Seishiro Kusanagi]]: umiejętności [[exart|Exarta]] opisuje teraz prozą o pilocie, bez etykiety miejsca w załodze.
+- [[srw-oe-ep0|Epizod 0]]: zdanie o wspólnej ramie chronologicznej ma poprawioną składnię.
+
 ## 2026-10-20 23:44
 
 - [[zaku-ii|Zaku II]]: wariant dowódczy MS-06S to maszyna [[char-aznable|Chara Aznable]], znanego jako Czerwona Kometa.

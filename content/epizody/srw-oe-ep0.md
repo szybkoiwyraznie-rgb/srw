@@ -71,8 +71,7 @@ Druga scena zmienia ton: szkolenie ustępuje miejsca wojnie, a neutralna organiz
 {{wiedza gra=srw-oe
 
 Wspomnienie dawnych najazdów łączy różne historie w jedną przeszłość świata gry.
-Imperium Muge prawdopodobnie nawiązuje do Muge Zorbados Empire z *Dancougi*,
-a wspólną ramą chronologiczną staje się Universal Century z *Gundama*.
+Imperium Muge prawdopodobnie nawiązuje do Muge Zorbados Empire z *Dancougi*, na wspólną ramę chronologiczną staje się Universal Century z *Gundama*.
 Skoro prolog rozgrywa się w U.C. 0079, incydent Devil Gundam należy w tym świecie do przeszłości tej ery.
 }}
 {{zrodlo gra=srw-oe

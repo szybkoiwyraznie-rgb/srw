@@ -37,7 +37,7 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 
 ## Umiejętności
 
-Domyślny profil załogi [[exart|Exarta]], miejsce 1: Seishiro Kusanagi.
+W [[exart|Exarcie]] ma dwie umiejętności:
 
 - **Potencjał (poziom bazowy 1):** Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4%. *Pole poziomu nauki: 1.*
 - **Precyzja (poziom bazowy 1):** Kryt/Kryt Obraż.+15%. *Pole poziomu nauki: 3.*
