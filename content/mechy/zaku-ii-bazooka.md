@@ -69,5 +69,5 @@ Bazooka Zaku sięga 4 pól i dostaje premię przeciw okrętom: trafienie +70% i 
 
 {{zrodlo gra=wspolne
 
-Zaku II (MS-06) to seria mobile suitów Księstwa [[zeon|Zeonu]] i podstawowa masowo produkowana maszyna tej armii w Wojnie Jednorocznej ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-10-20).
+[[zaku-ii|Zaku II]] (MS-06) to seria mobile suitów Księstwa [[zeon|Zeonu]] i podstawowa masowo produkowana maszyna tej armii w Wojnie Jednorocznej ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-10-20).
 }}

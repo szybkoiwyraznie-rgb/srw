@@ -29,5 +29,5 @@ Kapitan [[white-base|White Base]], ranny przed starciem. Z łóżka nakazuje sta
 }}
 {{zrodlo gra=wspolne
 
-Paolo Cassius dowodzi White Base w *Mobile Suit Gundam*; okręt wyrusza z Side 7 pod jego dowództwem ([Gundam Wiki, „SCV-70 White Base”](https://gundam.fandom.com/wiki/SCV-70_White_Base); sprawdzono 2026-10-20).
+Paolo Cassius dowodzi [[white-base|White Base]] w *Mobile Suit Gundam*; okręt wyrusza z [[side-7|Side 7]] pod jego dowództwem ([Gundam Wiki, „SCV-70 White Base”](https://gundam.fandom.com/wiki/SCV-70_White_Base); sprawdzono 2026-10-20).
 }}

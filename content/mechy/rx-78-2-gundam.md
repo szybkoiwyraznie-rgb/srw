@@ -73,5 +73,5 @@ W walce Gundam wytrzymuje kolejne ciosy, co skłania Chara do ostrzeżenia, że 
 
 {{zrodlo gra=wspolne
 
-RX-78-2 Gundam to prototypowy mobile suit bliskiego wsparcia zbudowany przez Siły Federacji w ramach projektu V. Jego pierwsze starcie odbyło się 18 września U.C. 0079 na [[side-7|Side 7]], a wysokość maszyny wynosiła 18,0 m ([Gundam Wiki, „RX-78-2 Gundam”](https://gundam.fandom.com/wiki/RX-78-2_Gundam); sprawdzono 2026-10-20).
+RX-78-2 Gundam to prototypowy mobile suit bliskiego wsparcia zbudowany przez Siły Federacji w ramach projektu V. Jego pierwsze starcie odbyło się 18 września [[uc-0079|U.C. 0079]] na [[side-7|Side 7]], a wysokość maszyny wynosiła 18,0 m ([Gundam Wiki, „RX-78-2 Gundam”](https://gundam.fandom.com/wiki/RX-78-2_Gundam); sprawdzono 2026-10-20).
 }}

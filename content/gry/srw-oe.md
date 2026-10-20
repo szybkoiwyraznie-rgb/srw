@@ -20,7 +20,7 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Świat Super Robot Wars OE łączy historie różnych serii o wielkich robotach. [[srw-oe-ep0|Prolog]] przedstawia osłabioną [[earth-federation|Federację Ziemską]], samodzielnie zbrojące się państwa i kolonie oraz zagrożenia związane z nieznanymi energiami. W U.C. 0079 [[seishiro|Seishiro Kusanagi]] i [[himari-yaegaki|Himari Yaegaki]] pracują w [[connect-force|Connect Force]], gdzie rozpoczyna się szkolenie na [[exart|Exarcie]].
+Świat Super Robot Wars OE łączy historie różnych serii o wielkich robotach. [[srw-oe-ep0|Prolog]] przedstawia osłabioną [[earth-federation|Federację Ziemską]], samodzielnie zbrojące się państwa i kolonie oraz zagrożenia związane z nieznanymi energiami. W [[uc-0079|U.C. 0079]] [[seishiro|Seishiro Kusanagi]] i [[himari-yaegaki|Himari Yaegaki]] pracują w [[connect-force|Connect Force]], gdzie rozpoczyna się szkolenie na [[exart|Exarcie]].
 }}
 {{zrodlo gra=srw-oe
 
@@ -31,5 +31,5 @@ utworzono: 2026-10-17
 - Gra ukazała się wyłącznie w dystrybucji cyfrowej, w ośmiu rozdziałach ([Fandom](https://superrobotwars.fandom.com/wiki/Super_Robot_Wars_Operation_Extend), [Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend)).
 - Rozdziały ukazywały się od 18 lipca do 10 października 2013. Każdy liczył co najmniej 20 scenariuszy, a ukończenie gry wymagało co najmniej 176 misji ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend); sprawdzono 2026-10-19).
 - Usługa dla gry zakończyła się 24 grudnia 2015 ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend)).
-- Oryginalne postacie gry, z którymi pracuje Connect Force, to [[seishiro|Seishiro Kusanagi]] i [[himari-yaegaki|Himari Yaegaki]] ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend)).
+- Oryginalne postacie gry, z którymi pracuje [[connect-force|Connect Force]], to [[seishiro|Seishiro Kusanagi]] i [[himari-yaegaki|Himari Yaegaki]] ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend)).
 }}

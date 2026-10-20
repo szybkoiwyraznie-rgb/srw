@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-20 23:57
+
+- Każda strona jest teraz osiągalna z innej: opisy [[white-base|White Base]], [[srw-oe-ep0|Epizodu 0]] i [[srw-oe|samej gry]] linkują do [[sayla-mass|Sayli Mass]], [[marker|Markera Clana]], [[oscar-dublin|Oscara Dublina]] i [[minovsky-particles|cząstek Minovsky’ego]].
+- Wątki anime w [[srw-oe-ep0|Epizodzie 0]] prowadzą wprost do wspominanych wydarzeń i miejsc, a nazwa rodziny [[zaku-ii|Zaku II]] w opisach jej trzech jednostek jest odsyłaczem.
+
 ## 2026-10-20 23:52
 
 - Numer sceny zniknął z opisów: odsyłacze wskazują teraz wydarzenia — prolog i trening, atak na [[white-base|White Base]] — zamiast numerów scen.

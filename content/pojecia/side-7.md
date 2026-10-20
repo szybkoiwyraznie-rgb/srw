@@ -20,5 +20,5 @@ Na [[rx-78-2-gundam|Gundamie]] walczy [[amuro-ray|Amuro]], a [[char-aznable|Char
 }}
 {{zrodlo gra=wspolne
 
-Side 7 była kolonią, w której Siły Federacji potajemnie rozwijały prototypy w ramach projektu V. To tam 18 września U.C. 0079 doszło do pierwszego starcia RX-78-2 Gundama ([Gundam Wiki, „RX-78-2 Gundam”](https://gundam.fandom.com/wiki/RX-78-2_Gundam); sprawdzono 2026-10-20).
+Side 7 była kolonią, w której Siły Federacji potajemnie rozwijały prototypy w ramach projektu V. To tam 18 września [[uc-0079|U.C. 0079]] doszło do pierwszego starcia RX-78-2 Gundama ([Gundam Wiki, „RX-78-2 Gundam”](https://gundam.fandom.com/wiki/RX-78-2_Gundam); sprawdzono 2026-10-20).
 }}

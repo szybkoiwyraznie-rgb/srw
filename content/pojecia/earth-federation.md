@@ -20,7 +20,7 @@ Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]]
 }}
 {{zrodlo gra=wspolne
 
-- W serii *Mobile Suit Gundam* (1979) Federacja Ziemska konfliktuje z Księstwem Zeon. Ta wojna jest tłem serii w U.C. 0079 ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam)).
+- W serii *Mobile Suit Gundam* (1979) Federacja Ziemska konfliktuje z Księstwem Zeon. Ta wojna jest tłem serii w [[uc-0079|U.C. 0079]] ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam)).
 }}
 {{wiedza gra=wspolne
 

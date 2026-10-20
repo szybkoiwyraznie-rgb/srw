@@ -17,7 +17,7 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Pilot [[connect-force|Connect Force]], oddziału bojowego prywatnej organizacji rozwijającej handel kosmiczny. W U.C. 0079 testuje nowy układ sterowania CF-00 [[exart|Exarta]]. Zna cel organizacji, lecz nie ujawnia go i woli, by działania Connect pozostały niezauważone.
+Pilot [[connect-force|Connect Force]], oddziału bojowego prywatnej organizacji rozwijającej handel kosmiczny. W [[uc-0079|U.C. 0079]] testuje nowy układ sterowania CF-00 [[exart|Exarta]]. Zna cel organizacji, lecz nie ujawnia go i woli, by działania Connect pozostały niezauważone.
 
 Prowadzi szkolenie [[himari-yaegaki|Himari]], przypomina jej o dyscyplinie i odpowiedzialności, a po misji pomaga nauczyć się przesyłania danych do centrali.
 

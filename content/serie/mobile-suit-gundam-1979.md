@@ -18,7 +18,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-W [[srw-oe|Super Robot Wars OE]] serię reprezentują [[amuro-ray|Amuro Ray]], [[char-aznable|Char Aznable]], załoga [[white-base|White Base]], [[rx-78-2-gundam|Gundam]], [[zaku-ii|Zaku II]] oraz [[zeon|Księstwo Zeonu]]. Ich spotkanie rozgrywa się w U.C. 0079, w czasie wojny między Federacją a Zeonem.
+W [[srw-oe|Super Robot Wars OE]] serię reprezentują [[amuro-ray|Amuro Ray]], [[char-aznable|Char Aznable]], załoga [[white-base|White Base]], [[rx-78-2-gundam|Gundam]], [[zaku-ii|Zaku II]] oraz [[zeon|Księstwo Zeonu]]. Ich spotkanie rozgrywa się w [[uc-0079|U.C. 0079]], w czasie wojny między Federacją a Zeonem.
 
 Świat gry łączy tę historię z wydarzeniami innych serii, dlatego [[uc-0079|rok 0079]] jest wspólną ramą chronologiczną dla kilku wątków.
 }}

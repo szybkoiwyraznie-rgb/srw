@@ -16,7 +16,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Chorąży dowodzący [[white-base|White Base]] w trakcie ataku. Prowadzi obronę okrętu, rozkazuje rozproszyć cząstki Minovsky’ego i wysyła [[amuro-ray|Amura]] do walki, choć ten nie jest jeszcze gotowy.
+Chorąży dowodzący [[white-base|White Base]] w trakcie ataku. Prowadzi obronę okrętu, rozkazuje rozproszyć [[minovsky-particles|cząstki Minovsky’ego]] i wysyła [[amuro-ray|Amura]] do walki, choć ten nie jest jeszcze gotowy.
 
 Po przybyciu [[connect-force|Connect]] wita wsparcie i ostrzega [[seishiro|Seishira]], że przeciwnikiem jest [[char-aznable|Char]], Czerwona Kometa.
 }}
