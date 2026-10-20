@@ -69,6 +69,12 @@ test('wytnijBloki widzi zakres w treści strony', () => {
   assert.equal(bloki[1].atrybuty.get('gra'), 'wspolne');
 });
 
+test('wytnijBloki pomija nawiasy wewnątrz dosłownego skryptu', () => {
+  const bloki = wytnijBloki('{{menu gra=srw-oe\n\nX.\n}}\n\n:::skrypt\n{{to-nie-blok gra=inna\n}}\n:::\n');
+  assert.equal(bloki.length, 1);
+  assert.equal(bloki[0].atrybuty.get('gra'), 'srw-oe');
+});
+
 const strona = (pola) => ({
   typ: 'postac', slug: 'amuro-ray', tytul: 'Amuro Ray', tagi: [],
   body: '## Opis\n\n{{skrypt\n\ntekst\n}}\n', ...pola,

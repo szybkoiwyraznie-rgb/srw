@@ -72,7 +72,15 @@ const DATA_RE = /^\d{4}-\d{2}-\d{2}$/;
  */
 export function wytnijBloki(body) {
   const bloki = [];
+  let wSkrypcie = false;
   for (const linia of String(body ?? '').split('\n')) {
+    // Dosłowny tekst skryptu nie jest treścią redakcyjną — nawiasy `{{` w nim
+    // nie otwierają bloku poziomu i nie podlegają walidacji zakresu gry.
+    if (/^:::/.test(linia.trim())) {
+      wSkrypcie = !wSkrypcie;
+      continue;
+    }
+    if (wSkrypcie) continue;
     const m = linia.trim().match(BLOK_OTWARCIA_RE);
     if (m) bloki.push({ poziom: m[1], atrybuty: parsujAtrybutyBloku(m[2]) });
   }

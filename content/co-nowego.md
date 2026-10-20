@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-21 00:38
+
+- Etykiety wersji nie są już odczytywane z dosłownego tekstu dialogów — kontrola pomija ten fragment treści.
+
 ## 2026-10-21 00:30
 
 - Opis schematu danych obejmuje teraz hasła, sceny i relacje z nimi, a wymagania dotyczące źródeł odpowiadają temu, co naprawdę jest sprawdzane.
