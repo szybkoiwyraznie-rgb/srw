@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-20 23:44
+
+- [[zaku-ii|Zaku II]]: wariant dowódczy MS-06S to maszyna [[char-aznable|Chara Aznable]], znanego jako Czerwona Kometa.
+- Strona rodziny wymienia teraz wszystkich trzech pilotów ataku na [[white-base|White Base]] — [[char-aznable|Char]], [[slender|Slender]] i [[crown|Crown]] — a domyślnego [[zolnierz-zeonu|Żołnierza Zeonu]] zostawia na końcu.
+
 ## 2026-10-20 21:00
 
 - Obsada trzech [[zaku-ii|Zaków II]] jest ustalona: [[slender|Slender]] prowadzi [[zaku-ii-karabin-maszynowy|maszynę z karabinem maszynowym]], [[crown|Crown]] — [[zaku-ii-bazooka|wersję z bazooką]], a [[char-aznable|Char]] swoją [[zaku-ii-char|wersję dowódczą]].
