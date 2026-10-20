@@ -13,6 +13,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { zbudujDane } from '../tools/build.mjs';
+import { wczytajCoNowego } from '../tools/content-loader.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 globalThis.SRW_DATA = await zbudujDane({ root: ROOT });
@@ -103,6 +104,33 @@ test('wyszukiwanie znajduje po tytule i po treści', () => {
 test('dziennik zmian i strona „o bazie\" się renderują', () => {
   assert.match(renderCoNowego(), /2026-10-17/);
   assert.match(renderOBazie(), /Znaczniki pochodzenia/);
+});
+
+test('wpisy dziennika linkują do stron, których dotyczą', () => {
+  // Wpis o postaci, mechu, haśle, serii albo epizodzie ma prowadzić wprost
+  // do tej strony. Wystarczy jeden odsyłacz na wpis — powtórzone w tym samym
+  // wpisie nazwy (np. w cytowanym tytule sekcji) mogą zostać bez linku.
+  // Test łapie tytuły w formie podstawowej; odmienione formy („Cybustera”)
+  // zostają w gestii redakcji wpisu.
+  const wpisy = wczytajCoNowego({ root: ROOT });
+  const strony = Object.values(globalThis.SRW_DATA.strony);
+  const escapeRe = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const problemy = [];
+  for (const w of wpisy) {
+    const bezLinkow = w.tekst
+      .replace(/\[\[[^\]]+\]\]/g, ' ')
+      .replace(/\[[^\]]+\]\([^)]*\)/g, ' ');
+    const podlinkowane = new Set(
+      [...w.tekst.matchAll(/\[\[([^\]|]+)(?:\|[^\]]*)?\]\]/g)].map((m) => m[1].trim()),
+    );
+    for (const p of strony) {
+      if (p.tytul.length < 5 || podlinkowane.has(p.slug)) continue;
+      const re = new RegExp(
+        `(?<![\\p{L}\\p{N}])${escapeRe(p.tytul)}(?![\\p{L}\\p{N}])`, 'u');
+      if (re.test(bezLinkow)) problemy.push(`${w.data} ${w.czas ?? ''}: „${p.tytul}” bez linku (${p.slug})`);
+    }
+  }
+  assert.deepEqual(problemy, [], 'każda wzmianka o stronie powinna być odsyłaczem');
 });
 
 test('szkielet strony ma jedno menu w nagłówku i stopkę bez drugiego zestawu linków', () => {
