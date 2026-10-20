@@ -16,7 +16,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Kapitan [[white-base|White Base]], ranny przed starciem. Z łóżka nakazuje start [[rx-78-2-gundam|Gundama]], rozpoznaje [[char-aznable|Chara]] po prędkości nadlatującej maszyny i przypomina o bitwie o Loum. To on poprosił [[connect-force|Connect]] o wsparcie.
+Kapitan [[white-base|White Base]], ranny przed starciem. Z łóżka nakazuje start [[rx-78-2-gundam|Gundama]], rozpoznaje [[char-aznable|Chara]] po prędkości nadlatującej maszyny i przypomina o bitwie o [[loum|Loum]]. To on poprosił [[connect-force|Connect]] o wsparcie.
 }}
 {{menu gra=srw-oe
 

@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-20 23:50
+
+- [[side-3|Side 3]] i [[loum|Loum]] mają własne hasła: pierwsza to kolonia, z której ogłosiło się [[zeon|Księstwo Zeonu]], druga — pole bitwy, o której mówi [[paolo-cassius|Paolo]].
+- [[char-aznable|Char Aznable]] zdobył przydomek Czerwonej Komety właśnie w bitwie o Loum, a jego [[zaku-ii-char|Zaku II]] nosił czerwoną barwę.
+
 ## 2026-10-20 23:45
 
 - [[seishiro|Seishiro Kusanagi]]: umiejętności [[exart|Exarta]] opisuje teraz prozą o pilocie, bez etykiety miejsca w załodze.

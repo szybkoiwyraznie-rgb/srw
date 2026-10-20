@@ -10,6 +10,7 @@ w_gre:
 pochodzenie: menu
 zrodla:
   - https://gundam.fandom.com/wiki/MS-06_Zaku_II
+  - https://gundam.fandom.com/wiki/Battle_of_Loum
 tagi: [one-year-war]
 utworzono: 2026-10-20
 ---
@@ -72,4 +73,6 @@ Bazooka Zaku działa na okręty, Heat Hawk zadaje dodatkowe obrażenia z szansą
 {{zrodlo gra=wspolne
 
 Zaku II (MS-06) to seria mobile suitów Księstwa [[zeon|Zeonu]] i podstawowa masowo produkowana maszyna tej armii w Wojnie Jednorocznej ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-10-20).
+
+Wariant dowódcy MS-06S był malowany na czerwono — to właśnie nim [[char-aznable|Char Aznable]] zniszczył pięć pancerników w bitwie o [[loum|Loum]], zdobywając przydomek Czerwonej Komety ([Gundam Wiki, „Battle of Loum”](https://gundam.fandom.com/wiki/Battle_of_Loum); sprawdzono 2026-10-20).
 }}
