@@ -11,13 +11,13 @@ zrodla:
   - https://en.wikipedia.org/wiki/Patlabor
 utworzono: 2026-10-19
 ---
-{{menu
+{{menu gra=srw-oe
 
 ## Opis
 
 W [[srw-oe|Super Robot Wars OE]] z Mobile Police Patlabor pochodzi [[brocken|Brocken]], sterowany przez [[control-ai|Control AI]].
 }}
-{{zrodlo
+{{zrodlo gra=wspolne
 
 Seria powstała w kolektywie Headgear, do którego należą Masami Yūki, Mamoru Oshii, Kazunori Itō, Yutaka Izubuchi i Akemi Takada; manga Masamiego Yūkiego ukazywała się od 1988 roku ([Wikipedia, *Patlabor*](https://en.wikipedia.org/wiki/Patlabor); sprawdzono 2026-10-19).
 

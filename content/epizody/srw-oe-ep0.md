@@ -16,7 +16,7 @@ zrodla:
 tagi: [prolog, trening]
 utworzono: 2026-10-17
 ---
-{{skrypt
+{{skrypt gra=srw-oe
 
 ## Streszczenie
 
@@ -38,7 +38,7 @@ Retrospekcja pokazuje jej przeniesienie do [[connect-force|Connect Force]]. Mło
 
 Scena pokazuje pracę pilota i operatorki: Seishiro pilotuje Exarta, a Himari prowadzi ćwiczenia i może sterować jednostką zdalnie.
 }}
-{{zrodlo
+{{zrodlo gra=srw-oe
 
 ## Nawiązania
 
@@ -51,14 +51,14 @@ Scena pokazuje pracę pilota i operatorki: Seishiro pilotuje Exarta, a Himari pr
 - **Connect Force** jest oryginalną jednostką tej gry, a nie nawiązaniem do innej serii
   ([TV Tropes, *Characters in Super Robot Wars OE*](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
 }}
-{{wiedza
+{{wiedza gra=srw-oe
 
 Wspomnienie dawnych najazdów łączy różne historie w jedną przeszłość świata gry.
 Imperium Muge prawdopodobnie nawiązuje do Muge Zorbados Empire z *Dancougi*,
 a wspólną ramą chronologiczną staje się Universal Century z *Gundama*.
 Skoro prolog rozgrywa się w U.C. 0079, incydent Devil Gundam należy w tym świecie do przeszłości tej ery.
 }}
-{{zrodlo
+{{zrodlo gra=srw-oe
 
 ## Inne źródła i rozbieżności
 

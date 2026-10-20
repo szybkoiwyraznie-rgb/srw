@@ -12,7 +12,7 @@ zrodla:
   - https://patlabor.fandom.com/wiki/Military_labor_type_7B_%22Brocken%22
 utworzono: 2026-10-19
 ---
-{{menu
+{{menu gra=srw-oe
 
 ## Opis
 

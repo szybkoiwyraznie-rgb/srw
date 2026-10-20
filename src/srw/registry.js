@@ -79,6 +79,21 @@ export function wytnijBloki(body) {
   return bloki;
 }
 
+
+/**
+ * Gry, do których może odwoływać się zakres fragmentów danej strony.
+ * Encje mają pole `gry`, epizod — `gra`, a scena dziedziczy grę swojego epizodu.
+ */
+export function gryStronyDoZakresu(strona, ctx) {
+  if (Array.isArray(strona.gry)) return strona.gry;
+  if (typeof strona.gra === 'string' && strona.gra !== '') return [strona.gra];
+  if (typeof strona.epizod === 'string' && strona.epizod !== '') {
+    const epizod = ctx?.bySlug?.get(strona.epizod);
+    if (epizod?.gra) return [epizod.gra];
+  }
+  return [];
+}
+
 /** Wyciąga tytuły sekcji h2 z ciała markdown. */
 export function wytnijSekcje(body) {
   return [...String(body).matchAll(/^##\s+(.+)$/gm)].map((m) => m[1].trim());
@@ -134,24 +149,24 @@ export function walidujStrone(strona, ctx) {
     }
   }
 
-  // Zakres gry (ADR 0020): blok może nieść `gra=<slug>` albo `gra=wspolne`.
-  // Strona opisująca kilka gier musi oznaczać każdy fragment, żeby nie było
-  // wątpliwości, do którego tytułu należy dana wersja wydarzeń lub wyglądu.
+  // Zakres gry (ADR 0020, zaostrzony przez ADR 0021): każdy blok treści ma
+  // `gra=<slug>` albo `gra=wspolne`. Bez tego czytelnik nie wie, której wersji
+  // świata dotyczy fragment — a boks bez etykiety wygląda jak przeoczenie.
   const gryStrony = Array.isArray(strona.gry) ? strona.gry : [];
+  const gryDozwolone = gryStronyDoZakresu(strona, ctx);
   const bloki = wytnijBloki(strona.body ?? '');
   for (const blok of bloki) {
     const gra = blok.atrybuty.get('gra');
-    if (gra === undefined || gra === ZAKRES_WSPOLNY) continue;
+    if (gra === undefined) {
+      p.push(`${gdzie}: blok {{${blok.poziom}}} nie ma zakresu gry — dopisz gra=<slug> albo gra=${ZAKRES_WSPOLNY} (ADR 0021)`);
+      continue;
+    }
+    if (gra === ZAKRES_WSPOLNY) continue;
     const cel = ctx.bySlug.get(gra);
     if (!cel) p.push(`${gdzie}: blok {{${blok.poziom} gra=${gra}}} → "gra" nie istnieje w bazie`);
     else if (cel.typ !== 'gra') p.push(`${gdzie}: blok {{${blok.poziom} gra=${gra}}} → typ "${cel.typ}", oczekiwano "gra"`);
-    if (gryStrony.length > 0 && !gryStrony.includes(gra)) {
-      p.push(`${gdzie}: blok {{${blok.poziom} gra=${gra}}} wskazuje grę spoza pola "gry" (${gryStrony.join(', ')})`);
-    }
-  }
-  if (gryStrony.length > 1) {
-    for (const blok of bloki.filter((b) => !b.atrybuty.get('gra'))) {
-      p.push(`${gdzie}: strona obejmuje ${gryStrony.length} gry — blok {{${blok.poziom}}} wymaga zakresu (gra=<slug> lub gra=${ZAKRES_WSPOLNY}; ADR 0020)`);
+    if (gryDozwolone.length > 0 && !gryDozwolone.includes(gra)) {
+      p.push(`${gdzie}: blok {{${blok.poziom} gra=${gra}}} wskazuje grę spoza tej strony (${gryDozwolone.join(', ')})`);
     }
   }
 

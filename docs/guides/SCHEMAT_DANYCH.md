@@ -66,8 +66,7 @@ to jedno miejsce, celowo wąskie.
 ## Zakres gry w treści (ADR 0020)
 
 Baza obejmuje kolejne tytuły, a ta sama postać czy mech mogą w każdej grze wyglądać i zachowywać
-się inaczej. Dlatego fragment treści może — a na stronie obejmującej kilka tytułów **musi** —
-nieść zakres gry w otwarciu bloku:
+się inaczej. Dlatego **każdy** fragment treści niesie zakres gry w otwarciu bloku:
 
 ```markdown
 {{menu gra=srw-oe
@@ -87,7 +86,7 @@ Cybuster był pierwszym oryginalnym mechem Banpresto…
 
 | Zapis | Znaczenie |
 |---|---|
-| brak `gra` | fragment bez roszczenia do konkretnej wersji; dozwolony na stronie jednego tytułu |
+| brak `gra` | **niedozwolony** — build przerywa pracę (ADR 0021) |
 | `gra=<slug>` | opis dotyczy tej gry; musi istnieć strona typu `gra` i musi być wymieniona w `gry` strony |
 | `gra=wspolne` | informacje niezależne od wersji: rodowód, pierwowzór z anime, fakty wspólne dla serii |
 
@@ -97,7 +96,8 @@ Zasady:
   etykietę bez odsyłacza,
 - galeria ilustracji dziedziczy zakres bloku, a podgląd pełnoekranowy pokazuje nazwę gry —
   encja z kilku gier ma osobny blok ilustracji na każdy tytuł, w kolejności pola `gry`,
-- strona z więcej niż jednym wpisem w `gry` nie może mieć bloku bez zakresu (build przerywa pracę),
+- **każdy** blok ma zakres, także na stronie jednego tytułu (ADR 0021); brak atrybutu zatrzymuje build,
+- nie ma zakresu domyślnego: jeśli fakt nie zależy od wersji, piszemy `gra=wspolne`,
 - zakres nie zastępuje poziomu wiarygodności: `{{skrypt|menu|zrodlo|wiedza}}` mówi, skąd wiadomo,
   a `gra=` — o której wersji świata,
 - parametry pary (mech, gra) nadal trzyma `w_gre`, a nie treść.

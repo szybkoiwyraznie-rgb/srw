@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-20 11:55
+
+- Każdy fragment opisu ma etykietę tytułu, którego dotyczy — także opisy z gry, epizody, sceny i seriale. Informacje niezależne od wersji oznaczono jako wspólne, a rodowód postaci i mechów jako pochodzący z całej serii.
+
 ## 2026-10-20 11:49
 
 - Opisy i galerie mają teraz jawny tytuł, którego dotyczą: etykieta gry przy fragmentach i ilustracjach, gry w infoboksie oraz nazwa tytułu w podglądzie pełnoekranowym.

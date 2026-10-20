@@ -8,7 +8,7 @@ tagi: [najazd]
 pochodzenie: skrypt
 utworzono: 2026-10-19
 ---
-{{skrypt
+{{skrypt gra=srw-oe
 
 ## Opis
 

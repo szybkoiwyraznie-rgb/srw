@@ -10,7 +10,7 @@ zrodla:
 tagi: [najazd]
 utworzono: 2026-10-17
 ---
-{{skrypt
+{{skrypt gra=srw-oe
 
 ## Opis
 
@@ -18,11 +18,11 @@ Daimakai występuje w wyliczeniu dawnych nadludzkich ataków.
 
 Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
 }}
-{{zrodlo
+{{zrodlo gra=wspolne
 
 - W serii *Genki Bakuhatsu Ganbaruger* Daimakai (大魔界, *Demon World*) to świat demonów. Eldran trzymał w zamknięciu demonicznego króla Gokuarka z tego świata ([Wikipedia, *Genki Bakuhatsu Ganbaruger*](https://en.wikipedia.org/wiki/Genki_Bakuhatsu_Ganbaruger)).
 }}
-{{wiedza
+{{wiedza gra=srw-oe
 
 - Daimakai w SRW OE najpewniej oznacza świat demonów z serii Eldran.
 }}

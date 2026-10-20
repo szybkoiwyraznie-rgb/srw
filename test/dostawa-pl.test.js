@@ -101,7 +101,7 @@ test('ilustracja jest dostawą: Kuro i Shiro mają opisy, źródła i powiązani
     assert.match(page.body, /\[\[cybuster\|/);
     assert.match(page.body, /\{\{wiedza/);
     for (const url of page.zrodla) assert.ok(page.body.includes(url));
-    const memory = page.body.match(/\{\{wiedza\n([\s\S]*?)\n\}\}/)[1];
+    const memory = page.body.match(/\{\{wiedza[^\n]*\n([\s\S]*?)\n\}\}/)[1];
     assert.doesNotMatch(memory, /https?:|\]\(/);
     for (const scene of ['srw-oe-ep0','prolog-i-trening-w-connect']) {
       assert.ok(!bySlug.get(scene).postacie.includes(slug));

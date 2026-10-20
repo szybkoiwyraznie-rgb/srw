@@ -11,13 +11,13 @@ zrodla:
   - https://en.wikipedia.org/wiki/Sgt._Frog
 utworzono: 2026-10-19
 ---
-{{menu
+{{menu gra=srw-oe
 
 ## Opis
 
 W [[srw-oe|Super Robot Wars OE]] serię Sgt. Frog reprezentuje [[real-pg-gundam|Real PG Gundam]].
 }}
-{{zrodlo
+{{zrodlo gra=wspolne
 
 Sgt. Frog to komediowa manga Mine'a Yoshizakiego, ukazująca się od 1999 roku w magazynie *Monthly Shōnen Ace* wydawnictwa Kadokawa Shoten ([Wikipedia, *Sgt. Frog*](https://en.wikipedia.org/wiki/Sgt._Frog); sprawdzono 2026-10-19).
 

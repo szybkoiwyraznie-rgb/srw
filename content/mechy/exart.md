@@ -11,7 +11,7 @@ tagi: [connect]
 pochodzenie: skrypt
 utworzono: 2026-10-17
 ---
-{{skrypt
+{{skrypt gra=srw-oe
 
 ## Opis
 

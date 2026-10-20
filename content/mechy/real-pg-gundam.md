@@ -10,7 +10,7 @@ w_gre:
 pochodzenie: menu
 utworzono: 2026-10-19
 ---
-{{menu
+{{menu gra=srw-oe
 
 ## Opis
 

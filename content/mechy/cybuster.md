@@ -13,7 +13,7 @@ zrodla:
   - https://akurasu.net/wiki/Masaki_Andoh
 utworzono: 2026-10-19
 ---
-{{menu
+{{menu gra=srw-oe
 
 ## Opis
 
@@ -79,7 +79,7 @@ Cybuster był pierwszym oryginalnym mechem Banpresto i zadebiutował w *Super Ro
 
 ## Towarzysze Masakiego
 
-{{zrodlo
+{{zrodlo gra=wspolne
 
 [[kuro|Kuro]] i [[shiro|Shiro]] to magiczni towarzysze [[masaki-andoh|Masakiego Andoh]], wspierający go przy obsłudze Cybustera. ([Super Robot Wars Wiki, „Cybuster”, opis wprowadzający](https://superrobotwars.fandom.com/wiki/Cybuster); sprawdzono 2026-10-19).
 }}

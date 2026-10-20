@@ -1,7 +1,8 @@
 # 0020 — Zakres gry na fragmencie treści i ilustracji
 
 Data: 2026-10-20
-Status: obowiązujący; uzupełnia ADR 0003, 0009–0011 i 0017.
+Status: obowiązujący; uzupełnia ADR 0003, 0009–0011 i 0017. **Punkty 1, 3 i 5 zaostrzone przez
+ADR 0021: zakres jest obowiązkowy na każdym bloku, a boks bez etykiety nie powstaje.**
 
 ## Kontekst
 

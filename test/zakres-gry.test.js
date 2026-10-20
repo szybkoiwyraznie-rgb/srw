@@ -74,20 +74,38 @@ const strona = (pola) => ({
   body: '## Opis\n\n{{skrypt\n\ntekst\n}}\n', ...pola,
 });
 
-test('strona jednej gry nie wymaga zakresu w każdym bloku', () => {
+test('każdy blok musi mieć zakres — także na stronie jednej gry (ADR 0021)', () => {
   const problemy = walidujStrone(strona({ gry: ['srw-oe'] }), ctx());
-  assert.deepEqual(problemy, []);
+  assert.ok(problemy.some((p) => /blok \{\{skrypt\}\} nie ma zakresu gry/.test(p)));
+
+  const zZakresem = walidujStrone(strona({
+    gry: ['srw-oe'],
+    body: '## Opis\n\n{{skrypt gra=srw-oe\n\ntekst\n}}\n',
+  }), ctx());
+  assert.deepEqual(zZakresem, []);
 });
 
-test('strona obejmująca kilka gier wymaga zakresu w każdym bloku', () => {
-  const problemy = walidujStrone(strona({ gry: ['srw-oe', 'srw-alpha'] }), ctx());
-  assert.ok(problemy.some((p) => /strona obejmuje 2 gry — blok \{\{skrypt\}\} wymaga zakresu/.test(p)));
-
+test('strona kilku gier ma osobne zakresy dla każdego bloku', () => {
   const zZakresem = walidujStrone(strona({
     gry: ['srw-oe', 'srw-alpha'],
     body: '## Opis\n\n{{skrypt gra=srw-oe\n\ntekst\n}}\n\n{{zrodlo gra=wspolne\n\nwspólne\n}}\n',
   }), ctx());
   assert.deepEqual(zZakresem, []);
+
+  const brak = walidujStrone(strona({ gry: ['srw-oe', 'srw-alpha'] }), ctx());
+  assert.ok(brak.some((p) => /nie ma zakresu gry/.test(p)));
+});
+
+test('epizod i scena czerpią dozwoloną grę z pola gra / epizodu', () => {
+  const epizod = {
+    typ: 'epizod', slug: 'srw-oe-ep0', tytul: 'Epizod 0', tagi: [], numer: 0, gra: 'srw-oe',
+    body: '## Streszczenie\n\n{{skrypt gra=srw-alpha\n\ntekst\n}}\n',
+  };
+  const problemy = walidujStrone(epizod, ctx());
+  assert.ok(problemy.some((p) => /grę spoza tej strony \(srw-oe\)/.test(p)));
+
+  const poprawny = walidujStrone({ ...epizod, body: '## Streszczenie\n\n{{skrypt gra=srw-oe\n\ntekst\n}}\n' }, ctx());
+  assert.deepEqual(poprawny, []);
 });
 
 test('zakres musi wskazywać grę z pola "gry" i istnieć w bazie', () => {
@@ -95,7 +113,7 @@ test('zakres musi wskazywać grę z pola "gry" i istnieć w bazie', () => {
     gry: ['srw-oe'],
     body: '## Opis\n\n{{menu gra=srw-alpha\n\ntekst\n}}\n',
   }), ctx());
-  assert.ok(obca.some((p) => /grę spoza pola "gry"/.test(p)));
+  assert.ok(obca.some((p) => /grę spoza tej strony/.test(p)));
 
   const nieistniejaca = walidujStrone(strona({
     gry: ['srw-oe'],
@@ -110,4 +128,21 @@ test('zakres wspólny jest dozwolony na każdej stronie', () => {
     body: '## Opis\n\n{{zrodlo gra=wspolne\n\ntekst\n}}\n',
   }), ctx());
   assert.deepEqual(problemy, []);
+});
+
+test('każdy blok na każdej stronie bazy ma widoczną etykietę zakresu', async () => {
+  const { zbudujDane } = await import('../tools/build.mjs');
+  const path = await import('node:path');
+  const { fileURLToPath } = await import('node:url');
+  const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+  const dane = await zbudujDane({ root });
+
+  let bloki = 0;
+  for (const [slug, strona] of Object.entries(dane.strony)) {
+    const wszystkie = (strona.html.match(/<div class="fragment poziom /g) ?? []).length;
+    const zEtykieta = (strona.html.match(/data-gra=/g) ?? []).length;
+    assert.equal(zEtykieta, wszystkie, `${slug}: ${wszystkie} bloków, ${zEtykieta} etykiet`);
+    bloki += wszystkie;
+  }
+  assert.ok(bloki > 60, `baza ma ${bloki} bloków — sprawdzenie ma sens`);
 });
