@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-21 01:12
+
+- [[loum|Loum]] opisuje bitwę własnymi słowami: mobile suity zniszczyły okręty Federacji, a flota Federacji zebrała się na [[luna-ii|Luna II]] przed starciem.
+- Loum jest teraz przedstawione jako Side 5 — miejsce bitwy, a nie pojedyncza kolonia.
+
 ## 2026-10-21 00:58
 
 - [[loum|Loum]] mówi o bitwie flot, a nie „bitwie flotniczej”; [[luna-ii|Luna II]] leży w punkcie L3, [[side-3|Side 3]] składa się z kolonii zamkniętych, a [[uc-0079|U.C. 0079]] opisuje rok akcji zamiast „daty akcji”.
