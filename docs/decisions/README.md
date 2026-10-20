@@ -31,3 +31,4 @@ Zasady:
 | [0016](0016-polska-dostawa-i-ilustracje.md) | Polska dostawa właściciela i ilustracje jednostek |
 | [0017](0017-ilustracja-jako-dostawa-encji.md) | Ilustracja właściciela jest dostawą encji |
 | [0018](0018-tresc-o-swiecie-nie-o-procesie.md) | Treść witryny o świecie i fabule, bez procedur i wewnętrznych informacji |
+| [0019](0019-ilustracja-na-pelnym-ekranie.md) | Ilustracja otwiera się na pełnym ekranie |

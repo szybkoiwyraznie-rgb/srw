@@ -42,3 +42,9 @@ test('artefakt jest samowystarczalny (bez zewnętrznych zasobów)', () => {
 test('artefakt nie jest indeksowany przez wyszukiwarki', () => {
   assert.match(html, /content="noindex, nofollow"/);
 });
+
+test('artefakt zawiera okno podglądu ilustracji', () => {
+  assert.match(html, /<dialog class="podglad" id="podglad" aria-label="Podgląd ilustracji">/);
+  assert.match(html, /class="ilustracja-otworz" data-pelny-ekran/);
+  assert.match(html, /data-obraz/);
+});

@@ -180,9 +180,11 @@ export function renderMarkdown(md, { resolveLink, wymagajPoziomu = false, wPozio
       return `<a href="${cel.href}" title="${escapeHtml(cel.tytul)}">${escapeHtml(etykieta)}</a>`;
     });
 
-    // obrazy ![alt](src)
+    // obrazy ![alt](src) — kliknięcie otwiera podgląd na pełnym ekranie (podglad.js).
+    // Przycisk zamiast samego <img>: obsługa klawiatury i czytnika ekranu bez JS-owych atrap.
     t = t.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (cały, alt, src) =>
-      `<img src="${src}" alt="${alt}" loading="lazy" decoding="async">`);
+      `<button type="button" class="ilustracja-otworz" data-pelny-ekran>` +
+      `<img src="${src}" alt="${alt}" loading="lazy" decoding="async"></button>`);
 
     // linki [tekst](url) — tylko http(s) i # (blokujemy javascript: itp.)
     t = t.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (cały, tekst, url) => {

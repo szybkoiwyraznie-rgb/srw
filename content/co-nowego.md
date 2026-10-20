@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-20 10:46
+
+- Ilustracje: kliknięcie obrazu otwiera go na pełnym ekranie, z podpisem i przełączaniem między obrazami danej strony.
+
 ## 2026-10-19 23:15
 
 - Seishiro i Himari: projekt postaci 加藤誠 oraz role protagonisty i bohaterki gry.
