@@ -2,6 +2,7 @@
 typ: postac
 slug: oscar-dublin
 tytul: Oscar Dublin
+seria: mobile-suit-gundam-1979
 rola: wsparcie
 gry: [srw-oe]
 mechy: []

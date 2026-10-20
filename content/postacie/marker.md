@@ -2,6 +2,7 @@
 typ: postac
 slug: marker
 tytul: Marker Clan
+seria: mobile-suit-gundam-1979
 rola: wsparcie
 gry: [srw-oe]
 mechy: []

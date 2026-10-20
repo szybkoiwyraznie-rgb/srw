@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-21 00:12
+
+- [[slender|Slender]], [[crown|Crown]], [[marker|Marker Clan]] i [[oscar-dublin|Oscar Dublin]] mają przypisaną serię [[mobile-suit-gundam-1979|Mobile Suit Gundam]] — tak jak pozostali bohaterowie ataku na [[white-base|White Base]].
+
 ## 2026-10-20 23:57
 
 - Każda strona jest teraz osiągalna z innej: opisy [[white-base|White Base]], [[srw-oe-ep0|Epizodu 0]] i [[srw-oe|samej gry]] linkują do [[sayla-mass|Sayli Mass]], [[marker|Markera Clana]], [[oscar-dublin|Oscara Dublina]] i [[minovsky-particles|cząstek Minovsky’ego]].

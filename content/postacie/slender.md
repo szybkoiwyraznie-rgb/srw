@@ -2,6 +2,7 @@
 typ: postac
 slug: slender
 tytul: Slender
+seria: mobile-suit-gundam-1979
 rola: pilot
 gry: [srw-oe]
 mechy: [zaku-ii-karabin-maszynowy]
