@@ -1,8 +1,14 @@
 name: Lista ilustracji R2
 
-# Manual only: no secrets exposed to pull request code or untrusted inputs.
+# Uruchamiany ręcznie albo przez zmianę pliku-żądania (push).
+# Integracja GitHuba używana przez agenta ma tylko odczyt Actions, więc
+# workflow_dispatch jest dla niej niedostępny. Push do pliku-żądania nie
+# dotyczy pull requestów, więc sekrety nie trafiają do kodu PR.
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/r2-inventory-request'
 
 permissions:
   contents: read

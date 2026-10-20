@@ -102,10 +102,13 @@ test('R2: CLI bez konfiguracji kończy się błędem zanim spróbuje połączeni
   assert.match(result.stderr, /Brak konfiguracji: AWS_ACCESS_KEY_ID/);
 });
 
-test('R2: workflow jest ręczny, ma minimalne uprawnienia i publikuje tylko manifest', () => {
+test('R2: workflow jest ręczny lub wywołany plikiem-żądaniem, ma minimalne uprawnienia i publikuje tylko manifest', () => {
   const workflow = readFileSync(new URL('../.github/workflows/r2-inventory.yml', import.meta.url), 'utf8');
   assert.match(workflow, /workflow_dispatch:/);
-  assert.doesNotMatch(workflow, /^\s*(pull_request(?:_target)?|push|schedule):/m);
+  // Jedyny trigger push dotyczy pliku-żądania; żaden PR ani harmonogram nie dostaje sekretów.
+  assert.match(workflow, /push:\n\s+paths:\n\s+- '\.github\/r2-inventory-request'/);
+  assert.doesNotMatch(workflow, /^\s*pull_request(?:_target)?:/m);
+  assert.doesNotMatch(workflow, /^\s*schedule:/m);
   assert.match(workflow, /contents: read/);
   assert.doesNotMatch(workflow, /: write/);
   assert.match(workflow, /persist-credentials: false/);
