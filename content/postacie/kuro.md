@@ -46,7 +46,8 @@ Kuro to japońskie określenie czerni.
 
 ### Ilustracja 1
 
-![Kuro — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Kuro.png)
+![Kuro — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kuro.png)
 
-[Otwórz plik Kuro.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Kuro.png)
+[Otwórz plik Kuro.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kuro.png)
+
 }}

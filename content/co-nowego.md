@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-10-20 18:06
+
+- Portrety bohaterów: każda postać ma własną ilustrację — załoga White Base, piloci Zeonu, Connect Force oraz Kuro i Shiro.
+- Marker Clan i Suol Douglas występują pod pełnymi nazwiskami; wcześniejsze podpisy skrócono do imion.
+- Maszyny zachowują dotychczasowe ilustracje.
+
 ## 2026-10-20 17:08
 
 - Epizod 0 zyskuje drugą scenę, „Na ratunek White Base”: Side 7 pod ogniem Zeonu, ucieczka Amuro Raya w Gundamie i przejęcie okrętu przez niedoświadczoną załogę.

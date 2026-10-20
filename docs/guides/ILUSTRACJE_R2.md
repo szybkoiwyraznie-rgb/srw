@@ -110,7 +110,12 @@ Brak dostawy tekstowej nie jest blokadą: przygotuj opis z kwerendy (`zrodlo`, l
 faktach i data sprawdzenia) lub pamięci modelu (`wiedza`, bez linków). Ilustracja i identyfikacja
 z dostawy pozostają na poziomie `menu`; nie kolorują dopisanego opisu jako danych właściciela.
 
-Kuro i Shiro mają już takie wpisy i przypisane obrazy. Wszystkie 15 plików z listy właściciela
-z 2026-10-19 jest przypisanych do 10 encji. Nie dodawaj postaci do konkretnej sceny lub
-załogi z menu wyłącznie na podstawie ilustracji. Nie zakładaj kolejnych encji tylko dlatego,
-że wymienia je źródło wykorzystane do napisania opisu.
+Kuro i Shiro mają już takie wpisy i przypisane obrazy. Po dostawie z 2026-10-20 bucket
+zawiera 27 plików: 17 zdjęć bohaterów w katalogu `characters/` (nazwy `Imię Nazwisko.png`)
+oraz 10 plików mechów w korzeniu. Wszystkie są przypisane do 22 encji; poprzednie zdjęcia
+bohaterów z korzenia nie istnieją już w buckecie. Nowe portrety trzymaj w `characters/`,
+maszyny w korzeniu — adres publiczny zachowuje strukturę katalogów, a spacje kodujemy
+w każdym segmencie osobno (`characters/Amuro%20Ray.png`).
+
+Nie dodawaj postaci do konkretnej sceny lub załogi z menu wyłącznie na podstawie ilustracji.
+Nie zakładaj kolejnych encji tylko dlatego, że wymienia je źródło wykorzystane do napisania opisu.

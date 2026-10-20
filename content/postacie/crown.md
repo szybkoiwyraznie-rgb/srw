@@ -15,3 +15,14 @@ utworzono: 2026-10-20
 
 Pilot [[zeon|Zeonu]] w grupie [[char-aznable|Chara]]. Uznaje wsparcie [[connect-force|Connect]] dla [[white-base|White Base]] za złamanie traktatu i pyta o rozkaz ataku. Po decyzji Chara melduje odwrót.
 }}
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Crown — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Crown.png)
+
+[Otwórz plik Crown.png](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Crown.png)
+
+}}

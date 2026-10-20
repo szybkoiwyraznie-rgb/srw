@@ -64,12 +64,13 @@ test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że 
   assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /wsiada do Exert razem|wysyła dane do zespołu/);
 });
 
-test('ilustracje właściciela: 15 plików przy 10 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 27 plików przy 22 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 10);
-  assert.equal(Object.values(manifest.encje).flat().length, 15);
+  assert.equal(Object.keys(manifest.encje).length, 22);
+  assert.equal(Object.values(manifest.encje).flat().length, 27);
   assert.deepEqual(manifest.nieprzypisane, []);
+  const adres = file => `${manifest.baseUrl}/${file.split('/').map(encodeURIComponent).join('/')}`;
   for (const [slug, files] of Object.entries(manifest.encje)) {
     const body = bySlug.get(slug).body;
     const { html, problemy } = renderMarkdown(body, { wymagajPoziomu: true });
@@ -77,13 +78,19 @@ test('ilustracje właściciela: 15 plików przy 10 encjach, w tym postacie bez d
     assert.equal((html.match(/<img /g) ?? []).length, files.length, slug);
     assert.match(body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria z zakresem gry (ADR 0020)`);
     for (const file of files) {
-      const url = `${manifest.baseUrl}/${encodeURIComponent(file)}`;
-      assert.ok(html.includes(`src="${url}"`), `${slug}: podgląd ${file}`);
-      assert.ok(html.includes(`href="${url}"`), `${slug}: pełny rozmiar ${file}`);
+      assert.ok(html.includes(`src="${adres(file)}"`), `${slug}: podgląd ${file}`);
+      assert.ok(html.includes(`href="${adres(file)}"`), `${slug}: pełny rozmiar ${file}`);
     }
     assert.doesNotMatch(body, /data:image/);
     assert.doesNotMatch(html, /src="[^"]* /);
     assert.match(html, /loading="lazy"/);
+    if (bySlug.get(slug).typ === 'postac') {
+      assert.ok(files.every(file => file.startsWith('characters/')), `${slug}: zdjęcie bohatera w characters/`);
+    }
+  }
+  const stare = JSON.stringify(manifest.encje);
+  for (const file of ['Seishiro.jpg', 'Himari.png', 'Masaki.png', 'Kuro.png', 'Shiro.png']) {
+    assert.ok(!stare.includes(`"${file}"`), `stary plik ${file} nie jest już przypisany`);
   }
 });
 
