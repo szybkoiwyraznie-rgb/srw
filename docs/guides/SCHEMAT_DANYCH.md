@@ -51,10 +51,11 @@ mieć swój wpis epizodu.
 
 **mech**: `seria` (opcjonalne), `typ_mecha`, `piloci`, `gry`, opcjonalnie `w_gre`.
 Jednostka bojowa to także okręt z załogą i uzbrojeniem (ADR 0022), nie hasło.
-Odrębny rekord wariantu w dostawie dostaje własny slug `<jednostka>-<wyróżnik>`, własne
-`w_gre` i galerię; strona bazowa linkuje warianty w sekcji „Warianty” (ADR 0023).
-Zbiorczy profil obsady (np. „Żołnierz Zeonu”) nie jest postacią: zostaje tekstem,
-a `piloci` pozostaje puste.
+Odrębny rekord jednostki w dostawie dostaje własny slug `<jednostka>-<wyróżnik>`, własne
+`w_gre` i galerię; strona bazowa linkuje je w sekcji „Pozostałe jednostki” (ADR 0023).
+Słowo „wariant” zarezerwowane jest dla tej samej maszyny w różnych grach (ADR 0020).
+Zbiorczy profil obsady z umiejętnością i przypisanymi maszynami (np. „Żołnierz Zeonu”)
+może być wpisem `postac` — tak jak Control AI przy Brockenie.
 (obiekt jednopoziomowy: `slug-gry: wartość`) na parametry specyficzne dla konkretnego tytułu.
 
 Bronie nie są osobnym typem (ADR 0012). Uzbrojenie mecha opisujesz w jego treści.

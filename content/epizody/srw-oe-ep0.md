@@ -6,7 +6,7 @@ gra: srw-oe
 numer: 0
 skrypt: episodes/srw-oe/ep000.md
 postacie: [seishiro, himari-yaegaki, suol, amuro-ray, char-aznable, bright-noa, mirai-yashima, sayla-mass, fraw-bow, paolo-cassius, oscar-dublin, marker, slender, crown]
-mechy: [exart, rx-78-2-gundam, zaku-ii, white-base]
+mechy: [exart, rx-78-2-gundam, zaku-ii, zaku-ii-karabin-maszynowy, zaku-ii-bazooka, zaku-ii-char, white-base]
 pojecia: [dr-hell, devil-gundam-incident, connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai, invaderzy, zeon, side-7, luna-ii, minovsky-particles]
 pochodzenie: skrypt
 zrodla:
@@ -29,7 +29,7 @@ W [[uc-0079|U.C. 0079]], w neutralnej strefie w okolicach Ziemi, [[seishiro|Seis
 
 Retrospekcja pokazuje jej przeniesienie do [[connect-force|Connect Force]]. Młoda absolwentka nie wiedziała, że dołącza do oddziału bojowego. Po treningu Seishiro pomaga jej nauczyć się przesyłania danych do centrali. Cel organizacji i powód wyboru Himari nie zostają wyjaśnione.
 
-W scenie 0-2 trwa wojna w [[uc-0079|U.C. 0079]]. [[suol|Szef Suol]] wysyła Seishira na pomoc nowemu okrętowi [[earth-federation|Federacji]], na którym schronili się cywile z [[side-7|Side 7]]. Na miejscu [[white-base|White Base]] odpiera atak [[char-aznable|Chara]] i jego [[zaku-ii|Zaków]], a [[amuro-ray|Amuro]] startuje [[rx-78-2-gundam|Gundamem]]. Rozproszone cząstki Minovsky’ego odcinają łączność z Himari, więc Seishiro walczy samodzielnie. Char wycofuje się bez rozstrzygnięcia, a wieczorem w hangarze Seishiro tłumaczy, dlaczego Connect nie dąży do zniszczenia [[zeon|Zeonu]].
+W scenie 0-2 trwa wojna w [[uc-0079|U.C. 0079]]. [[suol|Szef Suol]] wysyła Seishira na pomoc nowemu okrętowi [[earth-federation|Federacji]], na którym schronili się cywile z [[side-7|Side 7]]. Na miejscu [[white-base|White Base]] odpiera atak [[char-aznable|Chara]], [[slender|Slendera]] i [[crown|Crowna]] w [[zaku-ii-char|Zakach II]], a [[amuro-ray|Amuro]] startuje [[rx-78-2-gundam|Gundamem]]. Rozproszone cząstki Minovsky’ego odcinają łączność z Himari, więc Seishiro walczy samodzielnie. Char wycofuje się bez rozstrzygnięcia, a wieczorem w hangarze Seishiro tłumaczy, dlaczego Connect nie dąży do zniszczenia [[zeon|Zeonu]].
 
 ## Wątki anime
 

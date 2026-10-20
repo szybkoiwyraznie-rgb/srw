@@ -17,7 +17,9 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Wariant [[zaku-ii|Zaku II]], którym w grze lata [[char-aznable|Char Aznable]]. Ma mocniejszy karabin maszynowy niż zwykły żołnierz Zeonu (moc 1300, zasięg 4, trafienie +40) i premię przeciw celom powietrznym.
+Osobna jednostka z rodziny [[zaku-ii|Zaku II]], przypisana [[char-aznable|Charowi Aznable]]. Ma mocniejszy karabin maszynowy niż zwykły [[zolnierz-zeonu|żołnierz Zeonu]] (moc 1300, zasięg 4, trafienie +40) i premię przeciw celom powietrznym.
+
+W scenie 0-2 to maszyna, którą Char atakuje [[white-base|White Base]] z prędkością zaskakującą załogę okrętu.
 
 Bazooka Zaku działa na okręty, Heat Hawk zadaje dodatkowe obrażenia z szansą 30%, a szarża barkiem przebija przez wrogów w zasięgu i pozwala walczyć dalej.
 }}

@@ -45,3 +45,20 @@ te trzy rekordy to warianty bez własnych stron, czy osobne wpisy.
 Liczba stron rośnie o trzy, a graf powiązań zyskuje odsyłacze z Zaku II i Chara. Kolejne
 warianty z dostaw dostają własne slugi `<jednostka>-<wyróżnik>` i własne galerie; test
 sprawdza komplet parametrów, liczbę ilustracji i brak encji `&lt;br&gt;` w treści.
+
+## Adnotacja (2026-10-20) — korekta właściciela
+
+Właściciel doprecyzował po wdrożeniu: **trzy Zaku II z tej dostawy to w OE osobne mechy,
+nie warianty jednej maszyny.** Słowo „wariant” rezerwujemy dla tej samej jednostki
+występującej w różnych grach (zgodnie z ADR 0020, gdzie zakres gry rozdziela wersje).
+Dlatego:
+
+1. Tytuły i opisy stron mówią o „osobnych jednostkach z rodziny Zaku II”, a sekcja na
+   stronie bazowej nazywa się **„Pozostałe jednostki Zaku II”**, nie „Warianty”.
+2. Punkt 1 decyzji stosuje się do **odrębnego rekordu jednostki** w dostawie; punkt 2
+   (ilustracja sama nie tworzy nowej jednostki) pozostaje bez zmian.
+3. Zbiorczy profil obsady może dostać własny wpis typu `postac`, jeśli dostawa nadaje mu
+   umiejętność i przypisuje maszyny — tak jak **Control AI** przy Brockenie. Żołnierz Zeonu
+   ma więc własną stronę i wskazuje dwa Zaku II, które obsadza.
+4. Epizod i scena wymieniają wszystkie trzy Zaku II w `mechy`, bo są obsadą sceny 0-2;
+   za sterami siedzą Char, Slender i Crown.

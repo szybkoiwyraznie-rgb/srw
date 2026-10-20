@@ -14,6 +14,8 @@ utworzono: 2026-10-20
 ## Opis
 
 Pilot [[zeon|Zeonu]] w grupie [[char-aznable|Chara]]. Uznaje wsparcie [[connect-force|Connect]] dla [[white-base|White Base]] za złamanie traktatu i pyta o rozkaz ataku. Po decyzji Chara melduje odwrót.
+
+W scenie 0-2 leci jednym z [[zaku-ii|Zaków II]] eskorty [[char-aznable|Chara]], obok [[slender|Slendera]].
 }}
 {{menu gra=srw-oe
 

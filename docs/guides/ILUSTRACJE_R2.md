@@ -99,10 +99,10 @@ Na stronie encji ilustracje są zwykłymi obrazami Markdown w bloku `menu`, w se
 na pełnym ekranie (ADR 0019). Pod obrazem nie ma osobnego odnośnika „Otwórz plik” — powiększenie
 jest jedynym wyjściem do oryginału.
 Spacje w nazwach kodujemy jako `%20`; wielkość liter pozostaje bez zmian. Test porównuje
-manifest z odnośnikami stron. Nowa ilustracja tej samej maszyny nie tworzy wariantu mecha.
+manifest z odnośnikami stron. Nowa ilustracja tej samej maszyny nie tworzy nowej jednostki.
 
-Wariant maszyny powstaje z odrębnego rekordu w dostawie, nie z nowego zdjęcia (ADR 0023);
-zdjęcia wariantu trafiają na jego własną stronę.
+Nowa jednostka powstaje z odrębnego rekordu w dostawie, nie z nowego zdjęcia (ADR 0023);
+zdjęcia jednostki trafiają na jej własną stronę, a „wariant” oznacza tę samą maszynę w innej grze.
 
 Tekst, kod i style pozostają w jednym HTML-u. Zewnętrzne ilustracje wymagają sieci,
 a ich niedostępność nie blokuje czytania tekstu, nawigacji ani wyszukiwania.
@@ -117,7 +117,7 @@ z dostawy pozostają na poziomie `menu`; nie kolorują dopisanego opisu jako dan
 
 Kuro i Shiro mają już takie wpisy i przypisane obrazy. Po dostawie z 2026-10-20 bucket
 zawiera 36 plików: 17 zdjęć bohaterów w katalogu `characters/` (nazwy `Imię Nazwisko.png`)
-oraz 19 plików jednostek w korzeniu, w tym trzy warianty Zaku II. Wszystkie są przypisane
+oraz 19 plików jednostek w korzeniu, w tym trzy jednostki Zaku II. Wszystkie są przypisane
 do 27 encji; poprzednie zdjęcia bohaterów z korzenia nie istnieją już w buckecie. Nowe portrety trzymaj w `characters/`,
 maszyny w korzeniu — adres publiczny zachowuje strukturę katalogów, a spacje kodujemy
 w każdym segmencie osobno (`characters/Amuro%20Ray.png`).

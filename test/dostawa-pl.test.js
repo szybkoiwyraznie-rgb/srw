@@ -75,8 +75,8 @@ test('Precyzja Seishira trafia do profilu Exarta i do jego strony', () => {
 
 test('warianty Zaku II: trzy odrębne strony z danymi dostawy i własnymi galeriami', () => {
   const warianty = [
-    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], []],
-    ['zaku-ii-bazooka', 2, ['Bazooka Zaku', 'Heat Hawk'], []],
+    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], ['zolnierz-zeonu']],
+    ['zaku-ii-bazooka', 2, ['Bazooka Zaku', 'Heat Hawk'], ['zolnierz-zeonu']],
     ['zaku-ii-char', 4, ['Karabin maszynowy Zaku', 'Bazooka Zaku', 'Heat Hawk', 'Szarża barkiem'], ['char-aznable']],
   ];
   for (const [slug, count, bronie, piloci] of warianty) {
@@ -102,12 +102,23 @@ test('warianty Zaku II: trzy odrębne strony z danymi dostawy i własnymi galeri
     assert.match(mech.body, /\{\{zrodlo gra=wspolne/, `${slug}: rodowód zewnętrzny`);
     assert.match(mech.body, /\[\[zaku-ii\|Zaku II\]\]/, `${slug}: odsyłacz do wersji bazowej`);
   }
-  // Zbiorczy profil żołnierza nie jest postacią — nie tworzymy encji ani relacji.
+  // Zbiorczy profil obsady ma własny wpis, tak jak Control AI przy Brockenie.
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka']) {
     assert.match(bySlug.get(slug).body, /Żołnierz Zeonu/);
-    assert.ok(!bySlug.has('zolnierz-zeonu'));
   }
-  assert.deepEqual(bySlug.get('char-aznable').mechy, ['zaku-ii', 'zaku-ii-char']);
+  assert.deepEqual(bySlug.get('char-aznable').mechy, ['zaku-ii-char']);
+  assert.equal(bySlug.get('zolnierz-zeonu').typ, 'postac');
+  assert.equal(bySlug.get('zolnierz-zeonu').pochodzenie, 'menu');
+  assert.deepEqual(bySlug.get('zolnierz-zeonu').mechy, ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka']);
+  assert.match(bySlug.get('zolnierz-zeonu').body, /Szeregowy \(bez poziomu\)/);
+  const scena = bySlug.get('srw-oe-ep0-na-ratunek-white-base');
+  for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
+    assert.ok(scena.mechy.includes(slug), `scena 0-2: ${slug} w obsadzie`);
+    assert.ok(bySlug.get('srw-oe-ep0').mechy.includes(slug), `epizod 0: ${slug} w obsadzie`);
+  }
+  for (const slug of ['slender', 'crown']) {
+    assert.match(bySlug.get(slug).body, /scenie 0-2 leci jednym z \[\[zaku-ii\|Zaków II\]\]/);
+  }
   for (const cel of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
     assert.match(bySlug.get('zaku-ii').body, new RegExp('\\[\\[' + cel + '\\|'), `Zaku II: odsyłacz do ${cel}`);
   }
@@ -122,7 +133,7 @@ test('profile załogi i transformacje są powiązane, ale nie udają sceny fabul
   assert.match(bySlug.get('cybird').body, /\[\[cybuster\|Cybuster\]\]/);
   assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').postacie, ['seishiro', 'himari-yaegaki']);
   assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').mechy, ['exart']);
-  assert.deepEqual(bySlug.get('srw-oe-ep0').mechy, ['exart', 'rx-78-2-gundam', 'zaku-ii', 'white-base']);
+  assert.deepEqual(bySlug.get('srw-oe-ep0').mechy, ['exart', 'rx-78-2-gundam', 'zaku-ii', 'zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'white-base']);
   assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /Profil załogi|Miejsce 2|brak macierzystego przypisania/);
   assert.ok(bySlug.has('invaderzy'));
   assert.ok(!bySlug.has('keroro'), 'nazwa wariantu nie przypisuje domyślnego pilota');

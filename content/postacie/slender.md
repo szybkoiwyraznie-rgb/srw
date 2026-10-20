@@ -14,6 +14,8 @@ utworzono: 2026-10-20
 ## Opis
 
 Pilot [[zeon|Zeonu]] w grupie [[char-aznable|Chara]]. Nie rozpoznaje maszyny [[connect-force|Connect]] i dziwi się, że komandor nie atakuje. Posłusznie przyjmuje jednak rozkaz wycofania.
+
+W scenie 0-2 leci jednym z [[zaku-ii|Zaków II]] eskorty [[char-aznable|Chara]], obok [[crown|Crowna]].
 }}
 {{menu gra=srw-oe
 

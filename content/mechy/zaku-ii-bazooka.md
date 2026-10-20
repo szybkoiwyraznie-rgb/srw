@@ -4,7 +4,7 @@ slug: zaku-ii-bazooka
 tytul: Zaku II (bazooka)
 seria: mobile-suit-gundam-1979
 gry: [srw-oe]
-piloci: []
+piloci: [zolnierz-zeonu]
 w_gre:
   srw-oe: '{"dostawa": "menu", "profil": "Zaku II/Bazooka", "dane": "**Seria:** Mobile Suit Gundam\n### Domyślny pilot / załoga i umiejętności specjalne\n#### Miejsce 1: Żołnierz Zeonu\n**Przypisany profil: Żołnierz Zeonu**\n- **Szeregowy (bez poziomu):** Zbiorcza z tą samą jedn.; wsparcie w grupie; HP = suma grupy *Pole poziomu nauki: 1.*\n### Macierzyste zdolności maszyny\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Bazooka Zaku | 1500 | 1–4 | +5 | 10 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |\n| 1 | Heat Hawk | 1600 | 1–1 | +50 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |"}'
 pochodzenie: menu
@@ -17,7 +17,9 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Wariant masowego [[zaku-ii|Zaku II]] z bazooką Zaku i Heat Hawkiem. Podobnie jak wersja z karabinem maszynowym ma zbiorczy profil Żołnierza Zeonu i może walczyć w grupie bliźniaczych jednostek.
+Osobna jednostka z rodziny [[zaku-ii|Zaku II]] z bazooką Zaku i Heat Hawkiem. Podobnie jak wersja z karabinem maszynowym ma zbiorczy profil [[zolnierz-zeonu|Żołnierza Zeonu]] i może walczyć w grupie bliźniaczych jednostek.
+
+W scenie 0-2 Zaku II tworzą eskortę [[char-aznable|Chara]]; za sterami dwóch z nich siedzą [[slender|Slender]] i [[crown|Crown]].
 
 Bazooka Zaku sięga 4 pól i dostaje premię przeciw okrętom: trafienie +70% i atak x1,8. Heat Hawk pozostaje bronią na sąsiednie pole, z trafieniem +50.
 }}

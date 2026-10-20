@@ -4,7 +4,7 @@ slug: zaku-ii-karabin-maszynowy
 tytul: Zaku II (karabin maszynowy)
 seria: mobile-suit-gundam-1979
 gry: [srw-oe]
-piloci: []
+piloci: [zolnierz-zeonu]
 w_gre:
   srw-oe: '{"dostawa": "menu", "profil": "Zaku II/Karabin maszynowy", "dane": "**Seria:** Mobile Suit Gundam\n### Domyślny pilot / załoga i umiejętności specjalne\n#### Miejsce 1: Żołnierz Zeonu\n**Przypisany profil: Żołnierz Zeonu**\n- **Szeregowy (bez poziomu):** Zbiorcza z tą samą jedn.; wsparcie w grupie; HP = suma grupy *Pole poziomu nauki: 1.*\n### Macierzyste zdolności maszyny\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Karabin maszynowy Zaku | 1000 | 1–3 | +30 | 5 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |\n| 1 | Heat Hawk | 1600 | 1–1 | +50 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |"}'
 pochodzenie: menu
@@ -17,7 +17,9 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Wariant masowego [[zaku-ii|Zaku II]] uzbrojony w karabin maszynowy Zaku i Heat Hawk. W grze obsadza go zbiorczy profil Żołnierza Zeonu: taka jednostka może łączyć się z bliźniaczymi w szereg, a jej HP jest sumą HP grupy. W obronie blok tarczą zmniejsza otrzymywane obrażenia o 20%.
+Osobna jednostka z rodziny [[zaku-ii|Zaku II]], uzbrojona w karabin maszynowy Zaku i Heat Hawk. W grze obsadza ją zbiorczy profil [[zolnierz-zeonu|Żołnierza Zeonu]]: taka jednostka może łączyć się z bliźniaczymi w szereg, a jej HP jest sumą HP grupy. W obronie blok tarczą zmniejsza otrzymywane obrażenia o 20%.
+
+W scenie 0-2 Zaku II tworzą eskortę [[char-aznable|Chara]]; za sterami dwóch z nich siedzą [[slender|Slender]] i [[crown|Crown]].
 
 Karabin maszynowy Zaku ma zasięg 3 pól i trafienie +30, Heat Hawk bije tylko na sąsiednim polu, ale z trafieniem +50 i bez zużycia EN.
 }}

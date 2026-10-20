@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-10-20 19:55
+
+- Żołnierz Zeonu ma własną stronę — zbiorczy profil obsady Zaku II, tak jak Control AI przy Brockenie; wskazuje dwie maszyny, które obsadza.
+- Trzy Zaku II to w OE osobne mechy, nie warianty: strony mówią o jednostkach z rodziny Zaku II, a sekcja na stronie bazowej nazywa się „Pozostałe jednostki Zaku II”.
+- Zaku II znalazły się w obsadzie sceny 0-2: Char w swojej maszynie, Slender i Crown w dwóch pozostałych.
+
 ## 2026-10-20 19:48
 
 - Trzy warianty Zaku II jako osobne jednostki: z karabinem maszynowym, z bazooką i maszyna Chara — każdy z dwiema ilustracjami i własnym zestawem uzbrojenia.

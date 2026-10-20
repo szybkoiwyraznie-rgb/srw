@@ -7,7 +7,7 @@ numer_sceny: "0-2"
 streszczenie: Interludium o wojnie w U.C. 0079; Connect wysyła Seishiro na pomoc White Base, walka z Charem i odwrót, rozmowa w hangarze o neutralności organizacji.
 pochodzenie: skrypt
 postacie: [seishiro, himari-yaegaki, suol, amuro-ray, char-aznable, bright-noa, mirai-yashima, sayla-mass, fraw-bow, paolo-cassius, oscar-dublin, marker, slender, crown]
-mechy: [exart, rx-78-2-gundam, zaku-ii, white-base]
+mechy: [exart, rx-78-2-gundam, zaku-ii, zaku-ii-karabin-maszynowy, zaku-ii-bazooka, zaku-ii-char, white-base]
 pojecia: [connect-force, earth-federation, universal-century, uc-0079, zeon, side-7, luna-ii, minovsky-particles]
 tagi: [white-base, one-year-war]
 utworzono: 2026-10-20
@@ -336,7 +336,7 @@ Interludium przypomina bilans wojny: pół wieku ekspansji, deklaracja [[zeon|Ks
 
 W salonie [[himari-yaegaki|Himari]] pyta, czy organizacja powinna wesprzeć [[earth-federation|Federację]]. [[seishiro|Seishiro]] odpowiada, że media przedstawiają wojnę jednostronnie, a [[suol|szef Suol]] przerywa rozmowę rozkazem: na pokładzie nowego okrętu Federacji schronili się cywile z [[side-7|Side 7]]. Neutralność ustępuje ochronie ludzi, ale nie zmienia celu organizacji.
 
-Na [[white-base|White Base]] [[paolo-cassius|kapitan Paolo]] jest ranny i dowodzenie faktycznie przejmuje [[bright-noa|Bright]]. [[amuro-ray|Amuro]] startuje [[rx-78-2-gundam|Gundamem]] mimo braku doświadczenia, a [[char-aznable|Char]] atakuje [[zaku-ii|Zakiem]] z prędkością, która zaskakuje załogę. Rozproszone cząstki Minovsky’ego odcinają łączność: [[himari-yaegaki|Himari]] nie może prowadzić Seishira, więc ten działa samodzielnie.
+Na [[white-base|White Base]] [[paolo-cassius|kapitan Paolo]] jest ranny i dowodzenie faktycznie przejmuje [[bright-noa|Bright]]. [[amuro-ray|Amuro]] startuje [[rx-78-2-gundam|Gundamem]] mimo braku doświadczenia, a [[char-aznable|Char]] atakuje [[zaku-ii-char|Zakiem II (Char)]], a w dwóch pozostałych Zaku lecą [[slender|Slender]] i [[crown|Crown]] — prędkość maszyn zaskakuje załogę. Rozproszone cząstki Minovsky’ego odcinają łączność: [[himari-yaegaki|Himari]] nie może prowadzić Seishira, więc ten działa samodzielnie.
 
 Char rozpoznaje maszynę Connect i wybiera odwrót zamiast walki o zestrzelenie. Jego decyzja, podobnie jak rozmowa w hangarze, pokazuje, że obie strony oceniają wojnę chłodno, a nie wyłącznie przez pryzmat propagandy.
 
