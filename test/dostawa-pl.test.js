@@ -14,7 +14,10 @@ test('polska dostawa zastępuje stary skrypt i menu, bez zmiany historycznych sl
   assert.match(script, /Minęły dekady, odkąd Federacja Ziemska/);
   assert.match(script, /Prześlij dane do działu analiz/);
   assert.doesNotMatch(script, /Connect Station|Welcome back|I'm/);
-  assert.equal(wytnijBlokSkryptu(bySlug.get('prolog-i-trening-w-connect').body), script.trim());
+  // Epizod 0 ma dziś dwie sceny: scena 0-1 obejmuje początek skryptu, a scena 0-2 resztę.
+  const scena01 = wytnijBlokSkryptu(bySlug.get('prolog-i-trening-w-connect').body);
+  assert.ok(script.trim().startsWith(scena01), 'scena 0-1 jest dosłownym początkiem skryptu');
+  assert.ok(!scena01.includes('## Interludium'), 'scena 0-1 kończy się przed interludium');
   for (const slug of ['srw-oe-ep0', 'prolog-i-trening-w-connect', 'exart', 'seishiro', 'himari-yaegaki', 'earth-federation']) assert.ok(bySlug.has(slug));
   assert.equal(bySlug.get('earth-federation').tytul, 'Federacja Ziemska');
 });
@@ -47,10 +50,9 @@ test('profile załogi i transformacje są powiązane, ale nie udają sceny fabul
   assert.deepEqual(bySlug.get('real-pg-gundam').piloci, []);
   assert.match(bySlug.get('cybuster').body, /\[\[cybird\|Cybird\]\]/);
   assert.match(bySlug.get('cybird').body, /\[\[cybuster\|Cybuster\]\]/);
-  for (const slug of ['srw-oe-ep0', 'prolog-i-trening-w-connect']) {
-    assert.deepEqual(bySlug.get(slug).postacie, ['seishiro', 'himari-yaegaki']);
-    assert.deepEqual(bySlug.get(slug).mechy, ['exart']);
-  }
+  assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').postacie, ['seishiro', 'himari-yaegaki']);
+  assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').mechy, ['exart']);
+  assert.deepEqual(bySlug.get('srw-oe-ep0').mechy, ['exart', 'rx-78-2-gundam', 'zaku-ii']);
   assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /Profil załogi|Miejsce 2|brak macierzystego przypisania/);
   assert.ok(bySlug.has('invaderzy'));
   assert.ok(!bySlug.has('keroro'), 'nazwa wariantu nie przypisuje domyślnego pilota');

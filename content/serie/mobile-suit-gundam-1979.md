@@ -1,0 +1,28 @@
+---
+typ: seria
+slug: mobile-suit-gundam-1979
+tytul: Mobile Suit Gundam
+tytul_ja: 機動戦士ガンダム
+tytul_en: Mobile Suit Gundam
+rodzaj: tv
+rok: 1979
+odcinki: 43
+gry: [srw-oe]
+pochodzenie: zrodlo
+zrodla:
+  - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam
+tagi: [universal-century, one-year-war]
+utworzono: 2026-10-20
+---
+{{menu gra=srw-oe
+
+## Opis
+
+W [[srw-oe|Super Robot Wars OE]] serię reprezentują [[amuro-ray|Amuro Ray]], [[char-aznable|Char Aznable]], załoga [[white-base|White Base]], [[rx-78-2-gundam|Gundam]], [[zaku-ii|Zaku II]] oraz [[zeon|Księstwo Zeonu]]. Ich spotkanie w scenie 0-2 rozgrywa się w U.C. 0079, w czasie wojny między Federacją a Zeonem.
+
+Świat gry łączy tę historię z wydarzeniami innych serii, dlatego [[uc-0079|rok 0079]] jest wspólną ramą chronologiczną dla kilku wątków.
+}}
+{{zrodlo gra=wspolne
+
+*Mobile Suit Gundam* to serial telewizyjny z 1979 roku w reżyserii Yoshiyukiego Tomino, zrealizowany przez Sunrise. Liczy 43 odcinki i zapoczątkował cykl Gundam oraz nurt real-robot w anime ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
+}}

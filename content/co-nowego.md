@@ -1,5 +1,13 @@
 # Co nowego
 
+## 2026-10-20 17:08
+
+- Epizod 0 zyskuje drugą scenę, „Na ratunek White Base”: Side 7 pod ogniem Zeonu, ucieczka Amuro Raya w Gundamie i przejęcie okrętu przez niedoświadczoną załogę.
+- Amuro Ray, Char Aznable, Bright Noa, Mirai Yashima, Sayla Mass, Fraw Bow, Paolo Cassius, Oscar Dublin, Marker, Slender, Crown i Suol — opisy i powiązania ze sceną.
+- RX-78-2 Gundam i Zaku II — pierwsze maszyny Universal Century w bazie, z uzbrojeniem i pilotami.
+- Hasła: Księstwo Zeonu, Side 7, Luna II, White Base i cząstki Minovsky’ego.
+- Mobile Suit Gundam (1979) jako seria źródłowa sceny.
+
 ## 2026-10-20 11:55
 
 - Każdy fragment opisu ma etykietę tytułu, którego dotyczy — także opisy z gry, epizody, sceny i seriale. Informacje niezależne od wersji oznaczono jako wspólne, a rodowód postaci i mechów jako pochodzący z całej serii.
