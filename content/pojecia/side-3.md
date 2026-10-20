@@ -7,7 +7,6 @@ gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Space_Colony_%28U.C.%29
-  - https://en.wikipedia.org/wiki/Char_Aznable
 tagi: [one-year-war]
 utworzono: 2026-10-20
 ---
@@ -22,6 +21,4 @@ Pojawia się podczas [[srw-oe-ep0-na-ratunek-white-base|interludium o wojnie w U
 {{zrodlo gra=wspolne
 
 Side 3, zwana też Munzo, leży za Księżycem, w punkcie L2, i zbudowana jest z kolonii typu zamkniętego — cylindrów bez szklanego „nieba”. W U.C. 0052 przybył tu Zeon Zum Deikun i zaczął głosić swoją doktrynę, a w U.C. 0058 kolonia ogłosiła niezależność i stała się Republiką Zeonu. Po śmierci Deikuna władzę przejął Degwin Zabi, który ogłosił powstanie Księstwa Zeonu — 3 stycznia [[uc-0079|U.C. 0079]] Zeon wypowiedział wojnę Federacji ([Gundam Wiki, „Space Colony (U.C.)”](https://gundam.fandom.com/wiki/Space_Colony_%28U.C.%29); sprawdzono 2026-10-20).
-
-Z Side 3 pochodzi [[char-aznable|Char Aznable]] — jego prawdziwe nazwisko, Casval Rem Deikun, zapisuje ród Zeona Zum Deikuna, przywódcy kolonii ([Gundam Wiki, „Space Colony (U.C.)”](https://gundam.fandom.com/wiki/Space_Colony_%28U.C.%29); [Wikipedia, „Char Aznable”](https://en.wikipedia.org/wiki/Char_Aznable); sprawdzono 2026-10-20).
 }}

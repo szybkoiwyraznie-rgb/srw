@@ -34,5 +34,5 @@ Ocenia, że [[rx-78-2-gundam|Gundam]] i maszyna [[connect-force|Connect]] mogą 
 
 Char Aznable to antagonista *Mobile Suit Gundam* z 1979 roku, as Księstwa Zeonu nazywany Czerwoną Kometą ([Wikipedia, „Char Aznable”](https://en.wikipedia.org/wiki/Char_Aznable); sprawdzono 2026-10-20).
 
-Przydomek zawdzięczył bitwie o [[loum|Loum]], w której zniszczył swym Zaku pięć pancerników ([Gundam Wiki, „Battle of Loum”](https://gundam.fandom.com/wiki/Battle_of_Loum); sprawdzono 2026-10-20).
+Przydomek zawdzięcza bitwie o [[loum|Loum]], w której zniszczył swym Zaku pięć pancerników ([Gundam Wiki, „Battle of Loum”](https://gundam.fandom.com/wiki/Battle_of_Loum); sprawdzono 2026-10-20).
 }}

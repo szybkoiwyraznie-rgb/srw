@@ -4,6 +4,8 @@
 
 - Każda strona jest teraz osiągalna z innej: opisy [[white-base|White Base]], [[srw-oe-ep0|Epizodu 0]] i [[srw-oe|samej gry]] linkują do [[sayla-mass|Sayli Mass]], [[marker|Markera Clana]], [[oscar-dublin|Oscara Dublina]] i [[minovsky-particles|cząstek Minovsky’ego]].
 - Wątki anime w [[srw-oe-ep0|Epizodzie 0]] prowadzą wprost do wspominanych wydarzeń i miejsc, a nazwa rodziny [[zaku-ii|Zaku II]] w opisach jej trzech jednostek jest odsyłaczem.
+- Opis [[side-3|Side 3]] mówi o kolonii i jej historii, bez ujawniania tożsamości [[char-aznable|Chara Aznable]] sięgającej dalszej części historii.
+- Poprawki językowe w hasłach [[loum|Loum]] i [[char-aznable|Chara Aznable]].
 
 ## 2026-10-20 23:52
 

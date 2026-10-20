@@ -25,5 +25,5 @@ Loum, czyli Side 5, stało się polem pierwszej wielkiej bitwy flotniczej w hist
 
 Mobilne suity użyte w tej walce zatopiły wiele okrętów Federacji, a [[char-aznable|Char Aznable]] zniszczył swym [[zaku-ii-char|Zaku II]] pięć pancerników — i właśnie wtedy zyskał przydomek Czerwonej Komety ([Gundam Wiki, „Battle of Loum”](https://gundam.fandom.com/wiki/Battle_of_Loum); sprawdzono 2026-10-20).
 
-Bitwa zakończyła się zwycięstwem Zeonu, ale większość kolonii Side 5 została zniszczona albo poważnie uszkodzona, a ocalałych mieszkańców uciekła z tej części kosmosu ([Gundam Wiki, „Space Colony (U.C.)”](https://gundam.fandom.com/wiki/Space_Colony_%28U.C.%29); sprawdzono 2026-10-20).
+Bitwa zakończyła się zwycięstwem Zeonu, ale większość kolonii Side 5 została zniszczona albo poważnie uszkodzona, a ocalali mieszkańcy uciekli z tej części kosmosu ([Gundam Wiki, „Space Colony (U.C.)”](https://gundam.fandom.com/wiki/Space_Colony_%28U.C.%29); sprawdzono 2026-10-20).
 }}
