@@ -45,6 +45,17 @@ Właściciel nadal może uruchomić workflow przyciskiem **Run workflow**
 (`workflow_dispatch`). Jeśli odczyt padnie na konfiguracji, komunikat w logu wskazuje
 brakującą zmienną lub sekret, nie ujawniając ich wartości.
 
+**Odczyt listy bez artefaktu.** Sandbox agenta nie ma dostępu do magazynu blob, z którego
+GitHub serwuje artefakty i logi (`gh run download` i `gh run view --log` kończą się `EOF`).
+Dlatego workflow dodatkowo wypisuje listę jako adnotację check-runa (tylko nazwy, rozmiary
+i daty; bez kluczy i endpointu). Odczyt:
+
+```bash
+JOB=$(gh api repos/szybkoiwyraznie-rgb/srw/actions/runs/<ID>/jobs --jq '.jobs[0].id')
+gh api "repos/szybkoiwyraznie-rgb/srw/check-runs/$JOB/annotations" \
+  --jq '.[] | select(.title == "R2 inventory") | .message' > /tmp/r2-annotations.json
+```
+
 Przy równoległych uruchomieniach sprawdź gałąź, czas i autora, zamiast zakładać, że najnowszy
 run należy do tej sesji. Plik wynikowy to `r2-inventory.json`: czas wykonania, bucket,
 publiczny adres bazowy, liczba i łączny rozmiar plików oraz `objects` z polami:

@@ -117,4 +117,5 @@ test('R2: workflow jest ręczny lub wywołany plikiem-żądaniem, ma minimalne u
   assert.match(workflow, /secrets\.R2_ACCESS_KEY_ID/);
   assert.match(workflow, /secrets\.R2_SECRET_ACCESS_KEY/);
   assert.match(workflow, /vars\.R2_ENDPOINT/);
+  assert.match(workflow, /::notice title=R2 inventory::/);
 });
