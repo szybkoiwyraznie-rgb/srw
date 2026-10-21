@@ -18,7 +18,7 @@ Bezimienny żołnierz Sił Samoobrony Japonii, obecny na wspólnych ćwiczeniach
 
 Żołnierze narzekają, że ograniczenia technologiczne każą im polegać na superrobotach innych organizacji, i widzą w tym cenę neutralności kraju. Kiedy cele ćwiczebne zaczynają strzelać ostrą amunicją, to oni wzywają pomoc i ustępują miejsca [[connect-force|Connect]].
 
-Pojawia się w scenach [[srw-oe-ep1-na-poligonie-fuji|„Na poligonie Fuji”]] i [[srw-oe-ep1-ostra-amunicja|„Ostra amunicja”]] ([[srw-oe-ep1|Epizod 1]]).
+Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 
 {{menu gra=srw-oe

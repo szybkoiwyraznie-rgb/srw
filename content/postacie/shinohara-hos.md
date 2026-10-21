@@ -17,7 +17,7 @@ System prowadzący bezzałogowe [[hal-x10|HAL-X10]] podczas ćwiczeń na poligon
 
 Zachowanie HAL-X10 wskazuje na sabotaż lub awarię, ale przyczyny pozostają niejasne. Nazwa systemu łączy oznaczenie HOS z nazwiskiem Shinohara.
 
-Pojawia się w scenie [[srw-oe-ep1-ostra-amunicja|„Ostra amunicja”]] ([[srw-oe-ep1|Epizod 1]]).
+Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 
 {{menu gra=srw-oe

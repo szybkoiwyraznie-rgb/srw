@@ -18,7 +18,7 @@ Jednostka wsparcia Sił Samoobrony, pozbawiona uzbrojenia. W ćwiczeniach na pol
 
 Jej przynależność do konkretnej serii nie została ustalona — w materiale brak wpisu w słownikach jednostek i pilotów.
 
-Występuje w scenie [[srw-oe-ep1-na-poligonie-fuji|„Na poligonie Fuji”]] ([[srw-oe-ep1|Epizod 1]]).
+Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 {{menu gra=srw-oe
 

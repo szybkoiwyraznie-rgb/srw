@@ -19,7 +19,7 @@ Policyjny Labor Drugiego Plutonu [[sv2|SV2]], pilotowany przez [[noa-izumi|Noę 
 
 Noa nazywa swój Ingram Alphonse'em i przejmuje się każdą rysą na kadłubie. Uzbrojenie maszyny to działo rewolwerowe, pałka paraliżująca i linka do obezwładniania celów.
 
-Występuje w scenach [[srw-oe-ep1-sv2-dolacza-do-cwiczen|„SV2 dołącza do ćwiczeń”]], [[srw-oe-ep1-ostra-amunicja|„Ostra amunicja”]] i [[srw-oe-ep1-po-cwiczeniach|„Po ćwiczeniach”]] ([[srw-oe-ep1|Epizod 1]]).
+Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 {{menu gra=srw-oe
 

@@ -19,7 +19,7 @@ Drugi Ingram Drugiego Plutonu [[sv2|SV2]], pilotowany przez [[isao-ota|Isao Otę
 
 Podczas ćwiczeń na poligonie Fuji Ota chce jak najszybciej zniszczyć bezzałogowe [[hal-x10|HAL-X10]], zanim dotrą do zaludnionych terenów.
 
-Występuje w scenach [[srw-oe-ep1-sv2-dolacza-do-cwiczen|„SV2 dołącza do ćwiczeń”]] i [[srw-oe-ep1-ostra-amunicja|„Ostra amunicja”]] ([[srw-oe-ep1|Epizod 1]]).
+Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 {{menu gra=srw-oe
 

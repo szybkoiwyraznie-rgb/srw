@@ -18,7 +18,7 @@ Funkcjonariuszka Drugiego Plutonu [[sv2|SV2]]. W rozmowie po ćwiczeniach jako j
 
 Zauważa też, że mówi się o pracach nad mobile suitami zrzucanymi z orbity. W tej misji nie prowadzi własnego Labora.
 
-Pojawia się w scenach [[srw-oe-ep1-sv2-dolacza-do-cwiczen|„SV2 dołącza do ćwiczeń”]] i [[srw-oe-ep1-po-cwiczeniach|„Po ćwiczeniach”]] ([[srw-oe-ep1|Epizod 1]]).
+Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 
 {{menu gra=srw-oe

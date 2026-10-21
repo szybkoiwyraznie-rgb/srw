@@ -20,7 +20,7 @@ Szef [[connect-force|Connect]], którego [[himari-yaegaki|Himari]] rozpoznaje ja
 
 Kiedy Seishiro przypomina o neutralności organizacji, Suol wyjaśnia, że na pokładzie schronili się cywile z [[side-7|Side 7]], i oczekuje natychmiastowego wykonania rozkazu.
 
-Na [[srw-oe-ep1-odprawa-na-stacji-connect|odprawie na stacji Connect]] ([[srw-oe-ep1|Epizod 1]]) zapowiada wspólne ćwiczenia z Siłami Samoobrony i policją oraz przydziela [[himari-yaegaki|Himari]] miejsce podpilota w [[exart|Exarcie]].
+W [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]) zapowiada wspólne ćwiczenia z Siłami Samoobrony i policją oraz przydziela [[himari-yaegaki|Himari]] miejsce podpilota w [[exart|Exarcie]].
 }}
 {{menu gra=srw-oe
 

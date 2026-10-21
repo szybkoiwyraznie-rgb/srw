@@ -19,7 +19,7 @@ Wojskowy Labor Sił Samoobrony, skierowany na ćwiczenia na poligonie Fuji jako 
 
 W zamieszaniu wywołanym utratą kontroli nad [[hal-x10|HAL-X10]] Helldivery pozostają poza starciem głównych sił.
 
-Występuje w scenach [[srw-oe-ep1-na-poligonie-fuji|„Na poligonie Fuji”]] i [[srw-oe-ep1-sv2-dolacza-do-cwiczen|„SV2 dołącza do ćwiczeń”]] ([[srw-oe-ep1|Epizod 1]]).
+Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 {{menu gra=srw-oe
 

@@ -28,13 +28,13 @@ wiadomością, więc ten etap ich nie obejmuje.
    Pusta seria jest lepsza niż przypisanie na wyczucie (ADR 0013).
 4. Skrypt epizodu jest archiwum rozegrania, nie treścią redakcyjną: leży w
    `episodes/srw-oe/ep001.md` jako dosłowny tekst dostawy z normalizacją końców linii
-   (CRLF → LF). Sceny `srw-oe-ep1-*` cytują ten plik w blokach `:::skrypt`, a ich sekcje
-   `## Analiza` opisują przebieg bez powtarzania dialogów (ADR 0008). Podział idzie po
-   nagłówkach dostawy: siedem sekcji `###` daje sceny `1-1`–`1-5` i `1-7`–`1-8`, a wyjęty
-   z sekcji walki blok `#### Dialogi bojowe` staje się sceną `1-6` „Warunkowe dialogi
-   bitewne”. Razem osiem scen pokrywa cały skrypt bez reszty — pilnuje tego test
-   `test/epizod-1.test.js`. Kolejna dostawa z dalszymi fragmentami dostanie sceny `1-9`
-   i następne.
+   (CRLF → LF). Scena `srw-oe-ep1-szalejacy-prototyp-labora` cytuje ten plik w bloku
+   `:::skrypt`, a jej sekcja `## Analiza` opisuje przebieg bez powtarzania dialogów
+   (ADR 0008). Misja to **jedna scena** `1-1`: podział skryptu na części (odprawa,
+   wtrącenie o Patlaborze, poligon, SV2, ostra amunicja z dialogami bojowymi, rozmowy
+   po walce, następstwa) jest wewnętrzną strukturą scenariusza, a nie osobnymi wpisami
+   w bazie. Analiza wymienia te części jako podsekcje, żeby było widać rytm misji.
+   Kolejna misja dostanie scenę `1-2`.
 5. Profile bez tożsamości traktujemy różnie, zależnie od tego, czym są. **Żołnierz JSDF**
    jest bezimiennym człowiekiem w świecie Patlabora i dostaje serię `mobile-police-patlabor`,
    ale bez imienia i bez własnej strony fabularnej. **Shinohara HOS** jest profilem

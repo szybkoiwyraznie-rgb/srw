@@ -19,7 +19,7 @@ Odmiana HAL-X10 oznaczona jako Green, obecna na poligonie Fuji w trzech egzempla
 
 Podobnie jak podstawowy HAL-X10 walczy bez załogi, a jej poczynaniami kieruje system [[shinohara-hos|HOS]].
 
-Występuje w scenie [[srw-oe-ep1-ostra-amunicja|„Ostra amunicja”]] ([[srw-oe-ep1|Epizod 1]]).
+Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 {{menu gra=srw-oe
 

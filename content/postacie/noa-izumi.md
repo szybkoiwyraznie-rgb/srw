@@ -18,7 +18,7 @@ Pilotka pierwszego Ingrama Drugiego Plutonu [[sv2|SV2]]. Na poligonie Fuji dowod
 
 Swój Labor nazywa Alphonse'em i martwi się o każdą rysę na kadłubie. Współpracuje z [[seishiro|Seishirem]] i [[himari-yaegaki|Himari]] z [[connect-force|Connect]], a po ćwiczeniach pomaga jej [[asuma-shinohara|Asuma]]. Ufa pracy zespołowej bardziej niż frontalnym atakom.
 
-Pojawia się w scenach [[srw-oe-ep1-sv2-dolacza-do-cwiczen|„SV2 dołącza do ćwiczeń”]], [[srw-oe-ep1-ostra-amunicja|„Ostra amunicja”]] i [[srw-oe-ep1-po-cwiczeniach|„Po ćwiczeniach”]] ([[srw-oe-ep1|Epizod 1]]).
+Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 
 {{menu gra=srw-oe

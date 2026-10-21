@@ -18,5 +18,5 @@ Członek Drugiego Plutonu [[sv2|SV2]] odpowiedzialny za zaopatrzenie i budżet. 
 
 Gdy walka z [[hal-x10|HAL-X10]] wymyka się planowi, prosi pilota o rozwagę i dbałość o własne życie.
 
-Pojawia się w scenach [[srw-oe-ep1-sv2-dolacza-do-cwiczen|„SV2 dołącza do ćwiczeń”]], [[srw-oe-ep1-ostra-amunicja|„Ostra amunicja”]] i [[srw-oe-ep1-po-cwiczeniach|„Po ćwiczeniach”]] ([[srw-oe-ep1|Epizod 1]]).
+Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}

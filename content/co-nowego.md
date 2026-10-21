@@ -2,7 +2,7 @@
 
 ## 2026-10-21 14:05
 
-- [[srw-oe-ep1|Epizod 1]] „Szalejący prototyp Labora”: osiem scen od [[srw-oe-ep1-odprawa-na-stacji-connect|odprawy u szefa Suola]] i ćwiczeń na [[poligon-fuji|poligonie Fuji]] po walkę z bezzałogowymi [[hal-x10|HAL-X10]] i [[srw-oe-ep1-nastepstwa|następstwa]].
+- [[srw-oe-ep1|Epizod 1]] „Szalejący prototyp Labora”: [[srw-oe-ep1-szalejacy-prototyp-labora|scena 1-1]] obejmuje całą misję — od odprawy u [[suol|szefa Suola]], przez ćwiczenia na [[poligon-fuji|poligonie Fuji]], po walkę z bezzałogowymi [[hal-x10|HAL-X10]] i rozmowy po niej.
 - Nowe jednostki: [[hal-x10|HAL-X10]], [[hal-x10-green|HAL-X10/Green]], [[helldiver|Helldiver]], [[ingram-nr-1|Ingram nr 1]], [[ingram-nr-2|Ingram nr 2]] i [[medea|Medea]] — z uzbrojeniem i parametrami.
 - Nowi piloci: [[noa-izumi|Noa Izumi]], [[isao-ota|Isao Ota]], [[kanuka-clancy|Kanuka Clancy]], [[asuma-shinohara|Asuma Shinohara]], [[kiichi-goto|Kiichi Goto]], [[mikiyasu-shinshi|Mikiyasu Shinshi]], [[hiromi-yamazaki|Hiromi Yamazaki]], [[zolnierz-jsdf|Żołnierz JSDF]] i [[shinohara-hos|Shinohara HOS]].
 - [[himari-yaegaki|Himari]] zostaje podpilotem [[exart|Exarta]] z pulą SP 60 i komendą Zauf.
