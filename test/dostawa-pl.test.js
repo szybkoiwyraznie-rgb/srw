@@ -99,8 +99,8 @@ test('parametry mechów nie powtarzają domyślnej załogi — piloci zostają w
     brocken: ['control-ai'],
     'rx-78-2-gundam': ['amuro-ray'],
     'white-base': ['bright-noa', 'mirai-yashima'],
-    'zaku-ii-karabin-maszynowy': ['slender', 'zolnierz-zeonu'],
-    'zaku-ii-bazooka': ['crown', 'zolnierz-zeonu'],
+    'zaku-ii-karabin-maszynowy': ['slender'],
+    'zaku-ii-bazooka': ['crown'],
     'zaku-ii-char': ['char-aznable'],
     cybuster: ['masaki-andoh'],
     cybird: ['masaki-andoh'],
@@ -126,7 +126,6 @@ test('profile pilotów z nowej dostawy: statystyki, komendy Ducha i umiejętnoś
     slender: [50, 106, 71, 124, 63],
     crown: [50, 112, 67, 126, 59],
     'sayla-mass': [50, 106, 63, 134, 86],
-    'zolnierz-zeonu': [10, 107, 65, 125, 61],
   };
   for (const [slug, [sp, atk, obr, cel, unik]] of Object.entries(statystyki)) {
     const body = bySlug.get(slug).body;
@@ -152,8 +151,8 @@ test('profile pilotów z nowej dostawy: statystyki, komendy Ducha i umiejętnoś
 
 test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji', () => {
   const warianty = [
-    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], ['slender', 'zolnierz-zeonu']],
-    ['zaku-ii-bazooka', 2, ['Bazooka Zaku', 'Heat Hawk'], ['crown', 'zolnierz-zeonu']],
+    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], ['slender']],
+    ['zaku-ii-bazooka', 2, ['Bazooka Zaku', 'Heat Hawk'], ['crown']],
     ['zaku-ii-char', 4, ['Karabin maszynowy Zaku', 'Bazooka Zaku', 'Heat Hawk', 'Szarża barkiem'], ['char-aznable']],
   ];
   for (const [slug, count, bronie, piloci] of warianty) {
@@ -179,15 +178,12 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
     assert.match(mech.body, /\{\{zrodlo gra=wspolne/, `${slug}: rodowód zewnętrzny`);
     assert.match(mech.body, /\[\[zaku-ii\|Zaku II\]\]/, `${slug}: odsyłacz do wersji bazowej`);
   }
-  // Zbiorczy profil obsady ma własny wpis i pozostaje w polu `piloci`.
+  // Żołnierz Zeonu nie jest postacią fabularną — nie ma go w bazie ani w obsadzie maszyn.
+  assert.ok(!bySlug.has('zolnierz-zeonu'), 'Żołnierz Zeonu nie ma własnej strony');
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka']) {
-    assert.ok(bySlug.get(slug).piloci.includes('zolnierz-zeonu'), `${slug}: zbiorczy profil w piloci`);
+    assert.ok(!bySlug.get(slug).piloci.includes('zolnierz-zeonu'), `${slug}: bez zbiorczego profilu`);
   }
   assert.deepEqual(bySlug.get('char-aznable').mechy, ['zaku-ii-char']);
-  assert.equal(bySlug.get('zolnierz-zeonu').typ, 'postac');
-  assert.equal(bySlug.get('zolnierz-zeonu').pochodzenie, 'menu');
-  assert.deepEqual(bySlug.get('zolnierz-zeonu').mechy, ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka']);
-  assert.match(bySlug.get('zolnierz-zeonu').body, /\*\*Szeregowy\*\* \| 1 \|/);
   const scena = bySlug.get('srw-oe-ep0-na-ratunek-white-base');
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
     assert.ok(scena.mechy.includes(slug), `scena 0-2: ${slug} w obsadzie`);
@@ -201,7 +197,7 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
   assert.match(bySlug.get('zaku-ii-karabin-maszynowy').body, /prowadzi \[\[slender\|Slender\]\]/);
   assert.match(bySlug.get('zaku-ii-bazooka').body, /prowadzi \[\[crown\|Crown\]\]/);
   // Dane misji nie trafiają na strony jako surowe etykiety dostawy.
-  for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'slender', 'crown', 'zolnierz-zeonu']) {
+  for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'slender', 'crown']) {
     assert.doesNotMatch(bySlug.get(slug).body, /DL100|Entry character|mission Entry|eventP00/, `${slug}: bez surowych danych misji`);
   }
   for (const cel of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
@@ -247,7 +243,10 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
     const tekst = opis[1];
     assert.doesNotMatch(tekst, zakazane, `${page.slug}: opis zbliża się do technicznego języka gry`);
   }
-  assert.doesNotMatch(bySlug.get('zolnierz-zeonu').body, /zbiorczy profil|gra przypisuje|standardowe obsadzenie/);
+  assert.ok(!bySlug.has('zolnierz-zeonu'));
+  for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
+    assert.doesNotMatch(bySlug.get(slug).body, /\[\[zolnierz-zeonu/, `${slug}: bez martwego odsyłacza`);
+  }
 });
 
 test('ilustracje właściciela: 36 plików przy 27 encjach, w tym postacie bez dostawy tekstowej', () => {

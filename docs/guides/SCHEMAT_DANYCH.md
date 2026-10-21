@@ -60,10 +60,10 @@ Jednostka bojowa to także okręt z załogą i uzbrojeniem (ADR 0022), nie hasł
 Odrębny rekord jednostki w dostawie dostaje własny slug `<jednostka>-<wyróżnik>`, własne
 `w_gre` i galerię; strona bazowa linkuje je w sekcji „Pozostałe jednostki” (ADR 0023).
 Słowo „wariant” zarezerwowane jest dla tej samej maszyny w różnych grach (ADR 0020).
-Zbiorczy profil obsady z umiejętnością i przypisanymi maszynami (np. „Żołnierz Zeonu”)
-może być wpisem `postac` — tak jak Control AI przy Brockenie.
-`piloci` wymienia najpierw nazwanych pilotów z obsady misji, a po nich domyślną załogę
-jednostki (np. `[slender, zolnierz-zeonu]`); kolejność jest znacząca (ADR 0024).
+Profil sterujący zbiorczą obsadą (np. **Control AI** przy Brockenie) może być wpisem
+`postac`. Bezimienny ogół żołnierzy nie dostaje osobnego wpisu — opisują go strony maszyn.
+`piloci` wymienia nazwanych pilotów w kolejności znaczącej dla obsady misji
+(np. `[char-aznable, slender, crown]`; ADR 0024).
 
 **`w_gre`** to mapa „slug gry → parametry pary (mech, gra)” (ADR 0020, 0023, 0024).
 Wartość zapisujemy jako JSON w jednej linii:

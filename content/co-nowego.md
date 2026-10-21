@@ -1,12 +1,16 @@
 # Co nowego
 
+## 2026-10-21 13:50
+
+- Wpis **Żołnierz Zeonu** znika z bazy — ta postać nie występowała w fabule i trafiła tu przez pomyłkę. [[zaku-ii-karabin-maszynowy|Zaku II z karabinem]] i [[zaku-ii-bazooka|Zaku II z bazooką]] mają teraz tylko nazwanych pilotów, a ich opisy mówią o zwykłych żołnierzach bez odsyłacza.
+
 ## 2026-10-21 13:41
 
 - Parametry mechów nie powtarzają już sekcji domyślnej załogi. Piloci pozostają w danych ogólnych jako odsyłacze, a ich statystyki, komendy Ducha i umiejętności są tylko na stronach postaci.
 
 ## 2026-10-21 13:30
 
-- Jedenastu pilotów ma pełne statystyki — SP, atak, obronę, celność i unik — a także komendy Ducha i umiejętności, od [[seishiro|Seishira]] po [[zolnierz-zeonu|Żołnierza Zeonu]].
+- Dziesięciu pilotów ma pełne statystyki — SP, atak, obronę, celność i unik — a także komendy Ducha i umiejętności, od [[seishiro|Seishira]] po [[sayla-mass|Saylę Mass]].
 - [[brocken|Brocken]] i [[control-ai|Control AI]] wchodzą do obsady [[prolog-i-trening-w-connect|szkolenia podstawowego]]: trzy symulowane maszyny stają przeciw [[exart|Exartowi]].
 - [[white-base|White Base]] pokazuje [[mirai-yashima|Mirai]] jako podpilota z własną pulą SP i komendą Zauf., a [[rx-78-2-gundam|Gundam]] — przynależność do Oddziału White Base.
 - [[real-pg-gundam|Real PG Gundam]] wraca do pełnego zestawu danych z czterema broniami oraz zdolnościami Blok tarczą i Odtwórz.
@@ -66,12 +70,12 @@
 ## 2026-10-20 23:44
 
 - [[zaku-ii|Zaku II]]: wariant dowódczy MS-06S to maszyna [[char-aznable|Chara Aznable]], znanego jako Czerwona Kometa.
-- Strona rodziny wymienia teraz wszystkich trzech pilotów ataku na [[white-base|White Base]] — [[char-aznable|Char]], [[slender|Slender]] i [[crown|Crown]] — a domyślnego [[zolnierz-zeonu|Żołnierza Zeonu]] zostawia na końcu.
+- Strona rodziny wymienia teraz wszystkich trzech pilotów ataku na [[white-base|White Base]] — [[char-aznable|Char]], [[slender|Slender]] i [[crown|Crown]] — a dawnego bezimiennego pilota zostawia na końcu.
 
 ## 2026-10-20 21:00
 
 - Obsada trzech [[zaku-ii|Zaków II]] jest ustalona: [[slender|Slender]] prowadzi [[zaku-ii-karabin-maszynowy|maszynę z karabinem maszynowym]], [[crown|Crown]] — [[zaku-ii-bazooka|wersję z bazooką]], a [[char-aznable|Char]] swoją [[zaku-ii-char|wersję dowódczą]].
-- [[zolnierz-zeonu|Żołnierz Zeonu]] pozostaje domyślną załogą jednostek z karabinem i bazooką; strony maszyn wymieniają nazwanych pilotów przed nim.
+- Strony jednostek z karabinem i bazooką wymieniają nazwanych pilotów przed bezimienną załogą.
 - [[srw-oe-ep0|Epizod 0]] i scena na [[white-base|White Base]] mówią teraz wprost, kto siedzi w której maszynie.
 
 ## 2026-10-20 20:20
@@ -90,12 +94,12 @@
 
 ## 2026-10-20 20:04
 
-- Opis [[zolnierz-zeonu|Żołnierza Zeonu]] mówi o ludziach armii, nie o miejscu w danych gry: bezimienny pilot [[zaku-ii|Zaku II]], siła szyku i nazwani podwładni [[char-aznable|Chara]] w [[srw-oe-ep0-na-ratunek-white-base|scenie ataku na White Base]].
+- Opis bezimiennego pilota mówi o ludziach armii, nie o miejscu w danych gry: [[zaku-ii|Zaku II]], siła szyku i nazwani podwładni [[char-aznable|Chara]] w [[srw-oe-ep0-na-ratunek-white-base|scenie ataku na White Base]].
 - Opisy [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-char|Zaku II (Char)]] opisują maszyny i sposób walki, a nie przypisanie do rekordu.
 
 ## 2026-10-20 19:55
 
-- [[zolnierz-zeonu|Żołnierz Zeonu]]: nowa postać — bezimienny pilot [[zaku-ii|Zaku II]], jeden z tych, którzy tworzą trzon armii [[zeon|Księstwa Zeonu]].
+- Bezimienny pilot [[zaku-ii|Zaku II]] jako zbiorczy wpis obsady — jeden z tych, którzy tworzą trzon armii [[zeon|Księstwa Zeonu]].
 - Trzy Zaku II to w [[srw-oe|OE]] osobne mechy, nie warianty: strony mówią o jednostkach z rodziny [[zaku-ii|Zaku II]], a sekcja na stronie bazowej nazywa się „Pozostałe jednostki Zaku II”.
 - Załoga [[zaku-ii|Zaków II]] na [[white-base|White Base]]: [[char-aznable|Char]] w swojej maszynie, [[slender|Slender]] i [[crown|Crown]] w dwóch pozostałych.
 
@@ -103,7 +107,7 @@
 
 - Trzy osobne jednostki Zaku II: z [[zaku-ii-karabin-maszynowy|karabinem maszynowym]], z [[zaku-ii-bazooka|bazooką]] i [[zaku-ii-char|maszyna Chara]] — każdy z dwiema ilustracjami i własnym zestawem uzbrojenia.
 - [[zaku-ii|Zaku II]] zyskuje sekcję z odsyłaczami do pozostałych jednostek; [[char-aznable|Char Aznable]] ma w profilu także swoją wersję maszyny.
-- Maszyny obsadzone zbiorczym profilem [[zolnierz-zeonu|Żołnierza Zeonu]] opisują klasę jednostek, nie pojedynczą osobę.
+- Maszyny obsadzone zbiorczym profilem opisują klasę jednostek, nie pojedynczą osobę.
 
 ## 2026-10-20 18:29
 

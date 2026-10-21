@@ -18,7 +18,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Jedna z maszyn rodziny [[zaku-ii|Zaku II]] — ta, którą lata [[char-aznable|Char Aznable]]. Jego karabin maszynowy jest mocniejszy niż u zwykłego [[zolnierz-zeonu|żołnierza Zeonu]] (moc 1300, zasięg 4, trafienie +40), a maszyna dostaje premię przeciw celom powietrznym.
+Jedna z maszyn rodziny [[zaku-ii|Zaku II]] — ta, którą lata [[char-aznable|Char Aznable]]. Jego karabin maszynowy jest mocniejszy niż u zwykłego żołnierza Zeonu (moc 1300, zasięg 4, trafienie +40), a maszyna dostaje premię przeciw celom powietrznym.
 
 Podczas ataku na [[white-base|White Base]] to maszyna, którą Char wchodzi w walkę z prędkością zaskakującą załogę okrętu.
 

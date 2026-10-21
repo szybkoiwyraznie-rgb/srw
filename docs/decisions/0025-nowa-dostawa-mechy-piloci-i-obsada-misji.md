@@ -31,8 +31,8 @@ misje, mechy i pilotów.
    pole `piloci` w danych ogólnych, a strony postaci prowadzą do maszyn.
 6. Brak wpisu w słowniku postaci nie jest tym samym co brak przynależności świata.
    **Control AI** — profil sterujący maszyną — nie dostaje serii Patlabor; związek z tą
-   serią dotyczy Brockena. **Żołnierz Zeonu** zachowuje serię Gundam, bo armia
-   Zeonu należy do tej serii, choć sam profil nie ma wpisu w słowniku.
+   serią dotyczy Brockena. Bezimienny żołnierz Zeonu nie jest osobnym wpisem (adnotacja
+   z 2026-10-21 poniżej).
 7. Ilustracje i sceny pozostają nietknięte.
 
 ## Konsekwencje
@@ -55,3 +55,12 @@ Właściciel uznał sekcję „Domyślny pilot / załoga i umiejętności specja
 mechów za zbędną. Usunięto ją z treści i z `w_gre.dane` dziewięciu jednostek; pozostało
 pole `piloci` w danych ogólnych oraz pełne profile na stronach postaci. Punkt 5 decyzji
 obowiązuje w nowym brzmieniu.
+
+## Adnotacja 2026-10-21 — Żołnierz Zeonu poza bazą
+
+Wpis **Żołnierz Zeonu** powstał z pozycji obsady w materiale epizodu 0. Właściciel
+wyjaśnił, że ta postać nigdy nie występowała w fabule i trafiła do materiału przez
+pomyłkę, dlatego wpis znika z bazy: nie ma strony postaci, nie figuruje w polu `piloci`
+maszyn i nie ma do niego odsyłaczy. Surowy plik materiału pozostaje niezmieniony jako
+zapis źródłowy; opracowanie w `dostawy/srw-oe/` również zachowuje ten profil, bo opisuje
+materiał, a nie stan bazy. Punkt 6 decyzji w zakresie Żołnierza Zeonu przestaje obowiązywać.

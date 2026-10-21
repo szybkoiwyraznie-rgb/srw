@@ -4,7 +4,7 @@ slug: zaku-ii-bazooka
 tytul: Zaku II (bazooka)
 seria: mobile-suit-gundam-1979
 gry: [srw-oe]
-piloci: [crown, zolnierz-zeonu]
+piloci: [crown]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md", "profil": "Zaku II/Bazooka", "dane": "**Seria:** Mobile Suit Gundam\n### Macierzyste zdolności maszyny\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Bazooka Zaku | 1500 | 1–4 | +5 | 10 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |\n| 1 | Heat Hawk | 1600 | 1–1 | +50 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |"}'
 pochodzenie: menu
@@ -17,7 +17,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Jedna z maszyn rodziny [[zaku-ii|Zaku II]] — z bazooką Zaku i Heat Hawkiem, przygotowana do walki z okrętami i umocnionymi celami. Podobnie jak wersja z karabinem maszynowym trafia w ręce zwykłych [[zolnierz-zeonu|żołnierzy Zeonu]], którzy walczą w grupie bliźniaczych maszyn.
+Jedna z maszyn rodziny [[zaku-ii|Zaku II]] — z bazooką Zaku i Heat Hawkiem, przygotowana do walki z okrętami i umocnionymi celami. Podobnie jak wersja z karabinem maszynowym trafia w ręce zwykłych żołnierzy Zeonu, którzy walczą w grupie bliźniaczych maszyn.
 
 Podczas ataku na [[white-base|White Base]] maszyny tego typu lecą w eskorcie [[char-aznable|Chara]], a tę z bazooką prowadzi [[crown|Crown]].
 

@@ -4,7 +4,7 @@ slug: zaku-ii
 tytul: Zaku II
 seria: mobile-suit-gundam-1979
 gry: [srw-oe]
-piloci: [char-aznable, slender, crown, zolnierz-zeonu]
+piloci: [char-aznable, slender, crown]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/MS-06S_Zaku_II_Commander_Type
