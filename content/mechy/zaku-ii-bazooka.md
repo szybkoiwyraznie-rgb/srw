@@ -6,7 +6,7 @@ seria: mobile-suit-gundam-1979
 gry: [srw-oe]
 piloci: [crown, zolnierz-zeonu]
 w_gre:
-  srw-oe: '{"dostawa": "dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md", "profil": "Zaku II/Bazooka", "dane": "**Seria:** Mobile Suit Gundam\n### Domyślny pilot / załoga i umiejętności specjalne\n#### Miejsce 1: Żołnierz Zeonu\n**Przypisany profil: Żołnierz Zeonu**\n- **Szeregowy (bez poziomu):** Zbiorcza z tą samą jedn.; wsparcie w grupie; HP = suma grupy *Pole poziomu nauki: 1.*\n### Macierzyste zdolności maszyny\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Bazooka Zaku | 1500 | 1–4 | +5 | 10 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |\n| 1 | Heat Hawk | 1600 | 1–1 | +50 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |"}'
+  srw-oe: '{"dostawa": "dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md", "profil": "Zaku II/Bazooka", "dane": "**Seria:** Mobile Suit Gundam\n### Macierzyste zdolności maszyny\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Bazooka Zaku | 1500 | 1–4 | +5 | 10 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |\n| 1 | Heat Hawk | 1600 | 1–1 | +50 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |"}'
 pochodzenie: menu
 zrodla:
   - https://gundam.fandom.com/wiki/MS-06_Zaku_II
@@ -43,14 +43,6 @@ Bazooka Zaku sięga 4 pól i dostaje premię przeciw okrętom: trafienie +70% i 
 ## Parametry
 
 **Seria:** [[mobile-suit-gundam-1979|Mobile Suit Gundam]]
-
-### Domyślny pilot / załoga i umiejętności specjalne
-
-#### Miejsce 1: Żołnierz Zeonu
-
-**Przypisany profil: Żołnierz Zeonu**
-
-- **Szeregowy (bez poziomu):** Zbiorcza z tą samą jedn.; wsparcie w grupie; HP = suma grupy *Pole poziomu nauki: 1.*
 
 ### Macierzyste zdolności maszyny
 

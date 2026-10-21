@@ -26,8 +26,9 @@ misje, mechy i pilotów.
 4. Obsada misji trafia do relacji epizodu i scen: `DL100_01` dodaje Brocken/Melee pod kontrolą
    Control AI, a `DL100_02` — Exarta, Gundama, White Base oraz trzy Zaku II z Char, Crownem
    i Slenderem. Surowych nazw plików misji nie pokazujemy na stronach (ADR 0024 pkt 3).
-5. Statystyki pilotów, komendy Ducha i umiejętności są prezentowane na stronach postaci.
-   Profil jednostki zachowuje dotychczasowy skrót domyślnej załogi.
+5. Statystyki pilotów, komendy Ducha i umiejętności są prezentowane wyłącznie na stronach
+   postaci. Parametry jednostki nie powtarzają sekcji domyślnej załogi; obsadę pokazuje
+   pole `piloci` w danych ogólnych, a strony postaci prowadzą do maszyn.
 6. Brak wpisu w słowniku postaci nie jest tym samym co brak przynależności świata.
    **Control AI** — profil sterujący maszyną — nie dostaje serii Patlabor; związek z tą
    serią dotyczy Brockena. **Żołnierz Zeonu** zachowuje serię Gundam, bo armia
@@ -47,3 +48,10 @@ Sgt. Frog: cztery bronie, Blok tarczą i Odtwórz. Sekcja trafiła na koniec cz�
 w opracowaniu, a strona jednostki wskazuje teraz na plik dostawy (`dostawa` = ścieżka).
 Punkt 3 decyzji w zakresie Real PG Gundam przestaje obowiązywać; pozostałe ustalenia
 bez zmian.
+
+## Adnotacja 2026-10-21 — bez domyślnej załogi w parametrach mechów
+
+Właściciel uznał sekcję „Domyślny pilot / załoga i umiejętności specjalne” w parametrach
+mechów za zbędną. Usunięto ją z treści i z `w_gre.dane` dziewięciu jednostek; pozostało
+pole `piloci` w danych ogólnych oraz pełne profile na stronach postaci. Punkt 5 decyzji
+obowiązuje w nowym brzmieniu.

@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-21 13:41
+
+- Parametry mechów nie powtarzają już sekcji domyślnej załogi. Piloci pozostają w danych ogólnych jako odsyłacze, a ich statystyki, komendy Ducha i umiejętności są tylko na stronach postaci.
+
 ## 2026-10-21 13:30
 
 - Jedenastu pilotów ma pełne statystyki — SP, atak, obronę, celność i unik — a także komendy Ducha i umiejętności, od [[seishiro|Seishira]] po [[zolnierz-zeonu|Żołnierza Zeonu]].
