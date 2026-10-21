@@ -95,7 +95,7 @@ test('Precyzja Seishira jest na jego stronie, a nie w parametrach Exarta', () =>
 
 test('parametry mechów nie powtarzają domyślnej załogi — piloci zostają w danych ogólnych', () => {
   const obsada = {
-    exart: ['seishiro'],
+    exart: ['seishiro', 'himari-yaegaki'],
     brocken: ['control-ai'],
     'rx-78-2-gundam': ['amuro-ray'],
     'white-base': ['bright-noa', 'mirai-yashima'],
@@ -206,7 +206,7 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
 });
 
 test('profile załogi i transformacje są powiązane, ale nie udają sceny fabularnej', () => {
-  assert.deepEqual(bySlug.get('exart').piloci, ['seishiro']);
+  assert.deepEqual(bySlug.get('exart').piloci, ['seishiro', 'himari-yaegaki']);
   assert.deepEqual(bySlug.get('masaki-andoh').mechy, ['cybuster', 'cybird']);
   assert.deepEqual(bySlug.get('control-ai').mechy, ['brocken']);
   assert.equal(bySlug.get('control-ai').seria, undefined, 'Control AI nie ma wpisu w słowniku postaci');
@@ -308,8 +308,8 @@ test('ilustracja jest dostawą: Kuro i Shiro mają opisy, źródła i powiązani
 });
 
 
-test('menu nie uchyla zakazu spoilerów: brak przyszłej roli Himari w stronach i danych', () => {
-  assert.deepEqual(bySlug.get('exart').piloci, ['seishiro']);
+test('obsada Exarta i granica fabuły: Himari jako podpilot, bez przyszłych ról', () => {
+  assert.deepEqual(bySlug.get('exart').piloci, ['seishiro', 'himari-yaegaki']);
   for (const page of pages) {
     assert.doesNotMatch(page.body, /(?:Miejsce|miejsce) 2[^\n]*Himari|Himari[^\n]*drugie miejsce|dwa miejsca załogi|kiedy Himari zajmie/);
   }
