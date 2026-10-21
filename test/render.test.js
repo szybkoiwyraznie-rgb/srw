@@ -253,3 +253,33 @@ test('listy scen: tytuł i streszczenie mają ten sam układ na stronie epizodu 
   assert.match(a[0], /0-1<\/span> <strong>Prolog i trening w Connect/);
   assert.match(a[1], /0-2<\/span> <strong>Na ratunek White Base/);
 });
+
+test('galeria: selektory zależne są wyłączone, dopóki brak nadrzędnego filtra', () => {
+  const bezGry = renderListe('mech');
+  assert.match(bezGry, /<select class="filtr-select" name="epizod" disabled onchange=/, 'Odcinek wymaga Gry');
+  assert.match(bezGry, /<select class="filtr-select" name="scena" disabled onchange=/, 'Scena wymaga Odcinka');
+  assert.doesNotMatch(bezGry, /onchange="[^"]*disabled/, 'disabled nie może trafić do kodu obsługi zdarzenia');
+
+  const zGra = renderListe('mech', { gra: 'srw-oe' });
+  assert.match(zGra, /<select class="filtr-select" name="epizod" onchange=/, 'po wyborze gry Odcinek jest dostępny');
+  assert.match(zGra, /<select class="filtr-select" name="scena" disabled onchange=/, 'Scena nadal czeka na Odcinek');
+});
+
+test('galeria: pusty wynik filtra nie zabiera filtrów', () => {
+  const html = renderListe('mech', { gra: 'srw-oe', epizod: 'srw-oe-ep0', seria: 'patlabor-the-movie' });
+  assert.match(html, /stan-pusty/);
+  assert.match(html, /filtry-krokowe/, 'zestaw filtrów zostaje nad pustą listą');
+});
+
+test('galeria: wartości z adresu nie wstrzykują znaczników ani stylów', () => {
+  const html = renderListe('mech', {
+    seria: `'><img src=x onerror=alert(1)>`,
+    rozmiar: '</style><script>alert(1)</script>',
+    cokolwiek: '<b>nieznany klucz</b>',
+  });
+  assert.doesNotMatch(html, /<\/style><script>|<img src=x|<script>alert/);
+  assert.match(html, /--kafel-szer: 240px/, 'niepoprawny rozmiar wraca do wartości domyślnej');
+  assert.match(html, /&#39;&gt;&lt;img/, 'wartość filtra jest zakodowana w atrybucie');
+  assert.doesNotMatch(html, /cokolwiek/, 'nieznane klucze adresu są odrzucane');
+  assert.match(renderListe('mech', { rozmiar: '9999' }), /--kafel-szer: 360px/, 'rozmiar jest ograniczony do zakresu suwaka');
+});
