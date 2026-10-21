@@ -188,9 +188,16 @@ test('profile załogi i transformacje są powiązane, ale nie udają sceny fabul
   assert.deepEqual(bySlug.get('real-pg-gundam').piloci, []);
   assert.match(bySlug.get('cybuster').body, /\[\[cybird\|Cybird\]\]/);
   assert.match(bySlug.get('cybird').body, /\[\[cybuster\|Cybuster\]\]/);
-  assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').postacie, ['seishiro', 'himari-yaegaki']);
-  assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').mechy, ['exart']);
-  assert.deepEqual(bySlug.get('srw-oe-ep0').mechy, ['exart', 'rx-78-2-gundam', 'zaku-ii', 'zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'white-base']);
+  // Obsada szkolenia podstawowego (DL100_01): Exart kontra trzy Brockeny Control AI.
+  assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').postacie, ['seishiro', 'himari-yaegaki', 'control-ai']);
+  assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').mechy, ['exart', 'brocken']);
+  assert.ok(bySlug.get('srw-oe-ep0').postacie.includes('control-ai'), 'epizod 0: Control AI w obsadzie');
+  assert.deepEqual(bySlug.get('srw-oe-ep0').mechy, ['exart', 'brocken', 'rx-78-2-gundam', 'zaku-ii', 'zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'white-base']);
+  assert.match(bySlug.get('brocken').body, /szkoleniu podstawowym/);
+  assert.match(bySlug.get('control-ai').body, /trzy Brockeny/);
+  for (const slug of ['brocken', 'control-ai', 'prolog-i-trening-w-connect', 'srw-oe-ep0']) {
+    assert.doesNotMatch(bySlug.get(slug).body, /DL100|Entry ID|eventP00/, `${slug}: bez surowych danych misji`);
+  }
   assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /Profil załogi|Miejsce 2|brak macierzystego przypisania/);
   assert.ok(bySlug.has('invaderzy'));
   assert.ok(!bySlug.has('keroro'), 'nazwa wariantu nie przypisuje domyślnego pilota');

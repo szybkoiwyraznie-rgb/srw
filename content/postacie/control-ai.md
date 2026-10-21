@@ -14,6 +14,8 @@ utworzono: 2026-10-19
 ## Opis
 
 Control AI to sztuczna inteligencja sterująca [[brocken|Brockenem]] z serii [[mobile-police-patlabor|Mobile Police Patlabor]]. W [[srw-oe|Super Robot Wars OE]] ma umiejętność Rój, która umożliwia wspólne działanie jednakowych jednostek i sumowanie ich HP.
+
+W [[prolog-i-trening-w-connect|szkoleniu podstawowym]] Connect prowadzi trzy Brockeny, które ćwiczą [[seishiro|Seishira]] jako symulowani przeciwnicy.
 }}
 
 {{menu gra=srw-oe

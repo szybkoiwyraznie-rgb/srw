@@ -5,8 +5,8 @@ tytul: Epizod 0
 gra: srw-oe
 numer: 0
 skrypt: episodes/srw-oe/ep000.md
-postacie: [seishiro, himari-yaegaki, suol, amuro-ray, char-aznable, bright-noa, mirai-yashima, sayla-mass, fraw-bow, paolo-cassius, oscar-dublin, marker, slender, crown]
-mechy: [exart, rx-78-2-gundam, zaku-ii, zaku-ii-karabin-maszynowy, zaku-ii-bazooka, zaku-ii-char, white-base]
+postacie: [seishiro, himari-yaegaki, suol, amuro-ray, char-aznable, bright-noa, mirai-yashima, sayla-mass, fraw-bow, paolo-cassius, oscar-dublin, marker, slender, crown, control-ai]
+mechy: [exart, brocken, rx-78-2-gundam, zaku-ii, zaku-ii-karabin-maszynowy, zaku-ii-bazooka, zaku-ii-char, white-base]
 pojecia: [dr-hell, devil-gundam-incident, connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai, invaderzy, zeon, side-3, side-7, luna-ii, loum, minovsky-particles]
 pochodzenie: skrypt
 zrodla:
