@@ -21,7 +21,9 @@ Pochodzi z Japonii. Studiowała inżynierię, przeskakiwała klasy i ma już mag
 
 W szkoleniu podstawowym prowadzi odprawę [[seishiro|Seishiro]], wyznacza cele, zdalnie steruje [[exart|Exartem]] i obsługuje symulator. Po treningu dopiero uczy się, jak przesłać dane do centrali.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
+Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
+
+Na poligonie Fuji leci z [[seishiro|Seishirem]] w [[exart|Exarcie]] jako podpilot. Ćwiczenia z [[sv2|SV2]] i Siłami Samoobrony są jej pierwszym wylotem w terenie; musi też oswoić się z myślą, że w razie potrzeby sama przejmie stery.
 }}
 {{menu gra=srw-oe
 
@@ -30,6 +32,23 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 ### Ilustracja 1
 
 ![Himari Yaegaki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Himari%20Yaegaki.png)
+
+}}
+
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Nazwa skrócona:** Himari
+
+**Pula SP:** 60 *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+### Komendy Ducha
+
+| Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
+|---:|---|---:|---:|---|
+| 1 | **Zauf.** | 1 | 20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
 
 }}
 

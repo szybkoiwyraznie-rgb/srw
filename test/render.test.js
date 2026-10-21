@@ -160,7 +160,7 @@ test('strona główna: dziennik zmian w lewej kolumnie, ostatnio dodane w prawej
   assert.equal((lewa.match(/<span class="data mono">/g) ?? []).length, 8, 'osiem najnowszych wpisów');
   assert.match(lewa, /href="#\/co-nowego"/, 'odsyłacz do całego dziennika');
   const prawa = html.slice(html.indexOf('Ostatnio dodane'));
-  assert.match(prawa, /href="#\/postac\//, 'prawa kolumna linkuje do wpisów');
+  assert.match(prawa, /href="#\/(postac|mech|pojecie|seria)\//, 'prawa kolumna linkuje do wpisów');
   // Kafle nadal prowadzą do czterech działów fabularnych.
   for (const href of ['#/sceny', '#/epizody', '#/postacie', '#/mechy']) {
     assert.ok(html.includes(`class="kafelek" href="${href}"`), `kafel ${href}`);
@@ -238,8 +238,11 @@ test('listy scen: tytuł i streszczenie mają ten sam układ na stronie epizodu 
   const zDzialu = renderListe('scena');
   const wiersze = (html) => [...html.matchAll(/<li><a href="#\/scena\/[^"]+">[\s\S]*?<\/li>/g)].map((m) => m[0]);
   const a = wiersze(zEpizodu);
-  const b = wiersze(zDzialu);
+  // Dział „Sceny” grupuje wszystkie epizody — porównujemy tylko wiersze epizodu 0.
+  const ep0 = new Set(['prolog-i-trening-w-connect', 'srw-oe-ep0-na-ratunek-white-base']);
+  const b = wiersze(zDzialu).filter((w) => [...ep0].some((slug) => w.includes(`#/scena/${slug}"`)));
   assert.equal(a.length, 2);
+  assert.equal(b.length, 2);
   assert.deepEqual(a, b, 'oba widoki składają wiersz sceny tak samo');
   for (const wiersz of a) {
     assert.match(wiersz, /<\/a><span class="streszczenie-sceny">/, 'streszczenie w osobnym elemencie, nie po myślniku');

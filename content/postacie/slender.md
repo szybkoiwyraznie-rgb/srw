@@ -2,6 +2,7 @@
 typ: postac
 slug: slender
 tytul: Slender
+seria: mobile-suit-gundam-1979
 rola: pilot
 gry: [srw-oe]
 mechy: [zaku-ii-karabin-maszynowy]
@@ -15,7 +16,7 @@ utworzono: 2026-10-20
 
 Pilot [[zeon|Zeonu]] w grupie [[char-aznable|Chara]]. Nie rozpoznaje maszyny [[connect-force|Connect]] i dziwi się, że komandor nie atakuje. Posłusznie przyjmuje jednak rozkaz wycofania.
 
-W scenie 0-2 leci [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]] w eskorcie [[char-aznable|Chara]], obok [[crown|Crowna]] w [[zaku-ii-bazooka|maszynie z bazooką]].
+W eskorcie [[char-aznable|Chara]] leci [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]], obok [[crown|Crowna]] w [[zaku-ii-bazooka|maszynie z bazooką]].
 }}
 {{menu gra=srw-oe
 
@@ -24,5 +25,25 @@ W scenie 0-2 leci [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]] w
 ### Ilustracja 1
 
 ![Slender — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Slender.png)
+
+}}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+| Parametr | Wartość bazowa |
+|---|---:|
+| SP | 50 |
+| Atak | 106 |
+| Obrona | 71 |
+| Celność | 124 |
+| Unik | 63 |
+
+### Umiejętności pilota
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy |
+|---:|---|---:|---|
+| 1 | **Potenc. Obr** | 1 | Pozostałe HP 10%: Obr+5% Cel/Unik/Kryt+4% |
 
 }}

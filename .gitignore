@@ -14,3 +14,6 @@ Thumbs.db
 *.swp
 .idea/
 .vscode/
+
+# Katalog roboczy integracji z Dyskiem Google — nie jest częścią bazy
+/google_drive/

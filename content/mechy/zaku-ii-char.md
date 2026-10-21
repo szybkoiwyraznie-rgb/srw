@@ -6,10 +6,11 @@ seria: mobile-suit-gundam-1979
 gry: [srw-oe]
 piloci: [char-aznable]
 w_gre:
-  srw-oe: '{"dostawa": "menu", "profil": "Zaku II (Char)", "dane": "**Seria:** Mobile Suit Gundam\n### Domyślny pilot / załoga i umiejętności specjalne\n#### Miejsce 1: Char Aznable\n**Przypisany profil: Char Aznable**\n- **Potencjał (poziom bazowy 1):** Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% *Pole poziomu nauki: 1.*\n### Macierzyste zdolności maszyny\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Karabin maszynowy Zaku | 1300 | 1–4 | +40 | 5 | — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4 |\n| 1 | Bazooka Zaku | 1800 | 1–5 | +15 | 10 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |\n| 2 | Heat Hawk | 2700 | 1–1 | +60 | 0 | — | Brak w tym polu | **Ogień (poziom bazowy 1):** Dodatk. Obraż.1500 Szansa 30% |\n| 3 | Szarża barkiem | 1200 | 1–7 | +35 | 15 | — | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej; Bez kontry; Nie do wsparcia ani kontry |"}'
+  srw-oe: '{"dostawa": "dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md", "profil": "Zaku II (Char)", "dane": "**Seria:** Mobile Suit Gundam\n### Macierzyste zdolności maszyny\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Karabin maszynowy Zaku | 1300 | 1–4 | +40 | 5 | — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4 |\n| 1 | Bazooka Zaku | 1800 | 1–5 | +15 | 10 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |\n| 2 | Heat Hawk | 2700 | 1–1 | +60 | 0 | — | Brak w tym polu | **Ogień (poziom bazowy 1):** Dodatk. Obraż.1500 Szansa 30% |\n| 3 | Szarża barkiem | 1200 | 1–7 | +35 | 15 | — | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej; Bez kontry; Nie do wsparcia ani kontry |"}'
 pochodzenie: menu
 zrodla:
   - https://gundam.fandom.com/wiki/MS-06_Zaku_II
+  - https://gundam.fandom.com/wiki/Battle_of_Loum
 tagi: [one-year-war]
 utworzono: 2026-10-20
 ---
@@ -17,7 +18,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Jedna z maszyn rodziny [[zaku-ii|Zaku II]] — ta, którą lata [[char-aznable|Char Aznable]]. Jego karabin maszynowy jest mocniejszy niż u zwykłego [[zolnierz-zeonu|żołnierza Zeonu]] (moc 1300, zasięg 4, trafienie +40), a maszyna dostaje premię przeciw celom powietrznym.
+Jedna z maszyn rodziny [[zaku-ii|Zaku II]] — ta, którą lata [[char-aznable|Char Aznable]]. Jego karabin maszynowy jest mocniejszy niż u zwykłego żołnierza Zeonu (moc 1300, zasięg 4, trafienie +40), a maszyna dostaje premię przeciw celom powietrznym.
 
 Podczas ataku na [[white-base|White Base]] to maszyna, którą Char wchodzi w walkę z prędkością zaskakującą załogę okrętu.
 
@@ -44,14 +45,6 @@ Bazooka Zaku działa na okręty, Heat Hawk zadaje dodatkowe obrażenia z szansą
 
 **Seria:** [[mobile-suit-gundam-1979|Mobile Suit Gundam]]
 
-### Domyślny pilot / załoga i umiejętności specjalne
-
-#### Miejsce 1: [[char-aznable|Char Aznable]]
-
-**Przypisany profil: Char Aznable**
-
-- **Potencjał (poziom bazowy 1):** Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% *Pole poziomu nauki: 1.*
-
 ### Macierzyste zdolności maszyny
 
 - **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
@@ -71,5 +64,7 @@ Bazooka Zaku działa na okręty, Heat Hawk zadaje dodatkowe obrażenia z szansą
 
 {{zrodlo gra=wspolne
 
-Zaku II (MS-06) to seria mobile suitów Księstwa [[zeon|Zeonu]] i podstawowa masowo produkowana maszyna tej armii w Wojnie Jednorocznej ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-10-20).
+[[zaku-ii|Zaku II]] (MS-06) to seria mobile suitów Księstwa [[zeon|Zeonu]] i podstawowa masowo produkowana maszyna tej armii w Wojnie Jednorocznej ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-10-20).
+
+Wariant dowódcy MS-06S był malowany na czerwono — to właśnie nim [[char-aznable|Char Aznable]] zniszczył pięć pancerników w bitwie o [[loum|Loum]], zdobywając przydomek Czerwonej Komety ([Gundam Wiki, „Battle of Loum”](https://gundam.fandom.com/wiki/Battle_of_Loum); sprawdzono 2026-10-20).
 }}

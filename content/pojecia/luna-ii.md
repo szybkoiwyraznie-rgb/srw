@@ -18,5 +18,5 @@ Baza kosmiczna Federacji, do której [[white-base|White Base]] eskortuje cywiló
 }}
 {{zrodlo gra=wspolne
 
-Luna II była bazą wojskową Sił Federacji w strefie L3, położoną w pobliżu [[side-7|Side 7]] ([Gundam Wiki, „Luna II”](https://gundam.fandom.com/wiki/Luna_II); sprawdzono 2026-10-20).
+Luna II była bazą wojskową Sił Federacji w punkcie L3, położoną w pobliżu [[side-7|Side 7]] ([Gundam Wiki, „Luna II”](https://gundam.fandom.com/wiki/Luna_II); sprawdzono 2026-10-20).
 }}

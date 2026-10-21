@@ -17,11 +17,11 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Pilot [[connect-force|Connect Force]], oddziału bojowego prywatnej organizacji rozwijającej handel kosmiczny. W U.C. 0079 testuje nowy układ sterowania CF-00 [[exart|Exarta]]. Zna cel organizacji, lecz nie ujawnia go i woli, by działania Connect pozostały niezauważone.
+Pilot [[connect-force|Connect Force]], oddziału bojowego prywatnej organizacji rozwijającej handel kosmiczny. W [[uc-0079|U.C. 0079]] testuje nowy układ sterowania CF-00 [[exart|Exarta]]. Zna cel organizacji, lecz nie ujawnia go i woli, by działania Connect pozostały niezauważone.
 
 Prowadzi szkolenie [[himari-yaegaki|Himari]], przypomina jej o dyscyplinie i odpowiedzialności, a po misji pomaga nauczyć się przesyłania danych do centrali.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
+Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{menu gra=srw-oe
 
@@ -35,12 +35,31 @@ Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]
 
 {{menu gra=srw-oe
 
-## Umiejętności
+## Parametry
 
-Domyślny profil załogi [[exart|Exarta]], miejsce 1: Seishiro Kusanagi.
+**Nazwa skrócona:** Seishiro
 
-- **Potencjał (poziom bazowy 1):** Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4%. *Pole poziomu nauki: 1.*
-- **Precyzja (poziom bazowy 1):** Kryt/Kryt Obraż.+15%. *Pole poziomu nauki: 3.*
+| Parametr | Wartość bazowa |
+|---|---:|
+| SP | 50 |
+| Atak | 120 |
+| Obrona | 59 |
+| Celność | 137 |
+| Unik | 75 |
+
+### Komendy Ducha
+
+| Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
+|---:|---|---:|---:|---|
+| 1 | **Skupienie** | 1 | 15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
+
+### Umiejętności pilota
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy |
+|---:|---|---:|---|
+| 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+| 2 | **Precyzja** | 3 | Kryt/Kryt Obraż.+15% |
+
 }}
 
 ## Dane postaci

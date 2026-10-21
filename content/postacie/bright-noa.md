@@ -16,7 +16,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Chorąży dowodzący [[white-base|White Base]] w trakcie ataku. Prowadzi obronę okrętu, rozkazuje rozproszyć cząstki Minovsky’ego i wysyła [[amuro-ray|Amura]] do walki, choć ten nie jest jeszcze gotowy.
+Chorąży dowodzący [[white-base|White Base]] w trakcie ataku. Prowadzi obronę okrętu, rozkazuje rozproszyć [[minovsky-particles|cząstki Minovsky’ego]] i wysyła [[amuro-ray|Amura]] do walki, choć ten nie jest jeszcze gotowy.
 
 Po przybyciu [[connect-force|Connect]] wita wsparcie i ostrzega [[seishiro|Seishira]], że przeciwnikiem jest [[char-aznable|Char]], Czerwona Kometa.
 }}
@@ -27,6 +27,34 @@ Po przybyciu [[connect-force|Connect]] wita wsparcie i ostrzega [[seishiro|Seish
 ### Ilustracja 1
 
 ![Bright Noa — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Bright%20Noa.png)
+
+}}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Nazwa skrócona:** Bright
+
+| Parametr | Wartość bazowa |
+|---|---:|
+| SP | 50 |
+| Atak | 110 |
+| Obrona | 87 |
+| Celność | 126 |
+| Unik | 63 |
+
+### Komendy Ducha
+
+| Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
+|---:|---|---:|---:|---|
+| 1 | **Wiatr** | 1 | 20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
+
+### Umiejętności pilota
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy |
+|---:|---|---:|---|
+| 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
 
 }}
 {{zrodlo gra=wspolne

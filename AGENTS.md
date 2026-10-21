@@ -120,8 +120,8 @@ Szczegółowa lista kroków: `docs/guides/PRZEPLYW_EPIZODU.md`.
 - **Slug jest niezmienny.** Raz nadany identyfikator żyje na zawsze — zmiana zrywa cały graf.
   Nowy slug buduj z tytułu (`[[slugify]]`: małe litery, myślniki), a przy kolizji dopisz
   wyróżnik (rok, wariant, gra).
-- **Ścieżki i odsyłacze muszą istnieć.** Pole `seria`/`mechy`/`bronie`/`gra` wskazuje na wpis
-  o właściwym typie; build to sprawdza i przerywa pracę przy błędzie.
+- **Ścieżki i odsyłacze muszą istnieć.** Pole `seria`/`mechy`/`piloci`/`gry`/`pojecia`/`gra`/`epizod`
+  wskazuje na wpis o właściwym typie; build to sprawdza i przerywa pracę przy błędzie.
 - **Skryptu epizodu nie poprawiasz.** `episodes/**` to archiwum rozgrywki — czytasz, nie edytujesz.
   Wymiana jest możliwa tylko na wyraźne polecenie właściciela; polska dostawa z ADR 0016
   zastąpiła poprzednią i jest nowym nietykalnym wzorem.
@@ -136,7 +136,7 @@ Szczegółowa lista kroków: `docs/guides/PRZEPLYW_EPIZODU.md`.
   jako ustalenia. Nieznany szczegół pomijasz w treści witryny; lukę wymagającą dalszej pracy
   zapisujesz wewnętrznie, zamiast zgadywać (ADR 0018).
 - **Rozdzielaj poziomy pewności.** Pole `pochodzenie`: `skrypt` (wprost z gry), `menu` (dostawa
-  właściciela o mechach, pilotach i broniach), `zrodlo` (treść potwierdzona w sprawdzonym źródle — `zrodla` i `## Źródła`), `wiedza` (kontekst agenta, **niesprawdzony** — bez linków; ADR 0009).
+  właściciela o mechach, pilotach i broniach), `zrodlo` (treść potwierdzona w sprawdzonym źródle — pole `zrodla`; sekcja `## Źródła` opcjonalna), `wiedza` (kontekst agenta, **niesprawdzony** — bez linków; ADR 0009).
 - **Każdy fragment i ilustracja mają zakres gry (ADR 0020, 0021).** Nie ma bloku bez etykiety:
   `{{menu gra=<slug>` oznacza wersję z konkretnego tytułu, `{{zrodlo gra=wspolne` — fakt
   niezależny od wersji (rodowód, pierwowzór z anime). Brak zakresu, gra spoza strony albo

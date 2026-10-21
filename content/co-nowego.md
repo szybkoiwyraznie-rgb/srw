@@ -1,10 +1,98 @@
 # Co nowego
 
+## 2026-10-21 18:35
+
+- Portrety obsady [[srw-oe-ep1|Epizodu 1]]: [[noa-izumi|Noa Izumi]], [[isao-ota|Isao Ota]], [[kanuka-clancy|Kanuka Clancy]], [[asuma-shinohara|Asuma Shinohara]], [[kiichi-goto|Kiichi Goto]], [[mikiyasu-shinshi|Mikiyasu Shinshi]] i [[hiromi-yamazaki|Hiromi Yamazaki]] mają ilustracje na stronach.
+
+## 2026-10-21 18:10
+
+- Ilustracje jednostek z [[srw-oe-ep1|Epizodu 1]]: [[hal-x10|HAL-X10]], [[hal-x10-green|HAL-X10/Green]], [[ingram-nr-1|Ingram nr 1]] i [[ingram-nr-2|Ingram nr 2]] mają po dwie ilustracje w galeriach stron.
+
+## 2026-10-21 14:05
+
+- [[srw-oe-ep1|Epizod 1]] „Szalejący prototyp Labora”: [[srw-oe-ep1-szalejacy-prototyp-labora|scena 1-1]] obejmuje całą misję — od odprawy u [[suol|szefa Suola]], przez ćwiczenia na [[poligon-fuji|poligonie Fuji]], po walkę z bezzałogowymi [[hal-x10|HAL-X10]] i rozmowy po niej.
+- Nowe jednostki: [[hal-x10|HAL-X10]], [[hal-x10-green|HAL-X10/Green]], [[helldiver|Helldiver]], [[ingram-nr-1|Ingram nr 1]], [[ingram-nr-2|Ingram nr 2]] i [[medea|Medea]] — z uzbrojeniem i parametrami.
+- Nowi piloci: [[noa-izumi|Noa Izumi]], [[isao-ota|Isao Ota]], [[kanuka-clancy|Kanuka Clancy]], [[asuma-shinohara|Asuma Shinohara]], [[kiichi-goto|Kiichi Goto]], [[mikiyasu-shinshi|Mikiyasu Shinshi]], [[hiromi-yamazaki|Hiromi Yamazaki]], [[zolnierz-jsdf|Żołnierz JSDF]] i [[shinohara-hos|Shinohara HOS]].
+- [[himari-yaegaki|Himari]] zostaje podpilotem [[exart|Exarta]] z pulą SP 60 i komendą Zauf.
+- Nowe hasła: [[labor|Labor]], [[sv2|SV2]], [[sily-samoobrony-japonii|Siły Samoobrony Japonii]] i [[poligon-fuji|Poligon Fuji]]; dochodzi seria [[patlabor-the-movie|Patlabor: The Movie]].
+
+## 2026-10-21 13:50
+
+- Wpis **Żołnierz Zeonu** znika z bazy — ta postać nie występowała w fabule i trafiła tu przez pomyłkę. [[zaku-ii-karabin-maszynowy|Zaku II z karabinem]] i [[zaku-ii-bazooka|Zaku II z bazooką]] mają teraz tylko nazwanych pilotów, a ich opisy mówią o zwykłych żołnierzach bez odsyłacza.
+
+## 2026-10-21 13:41
+
+- Parametry mechów nie powtarzają już sekcji domyślnej załogi. Piloci pozostają w danych ogólnych jako odsyłacze, a ich statystyki, komendy Ducha i umiejętności są tylko na stronach postaci.
+
+## 2026-10-21 13:30
+
+- Dziesięciu pilotów ma pełne statystyki — SP, atak, obronę, celność i unik — a także komendy Ducha i umiejętności, od [[seishiro|Seishira]] po [[sayla-mass|Saylę Mass]].
+- [[brocken|Brocken]] i [[control-ai|Control AI]] wchodzą do obsady [[prolog-i-trening-w-connect|szkolenia podstawowego]]: trzy symulowane maszyny stają przeciw [[exart|Exartowi]].
+- [[white-base|White Base]] pokazuje [[mirai-yashima|Mirai]] jako podpilota z własną pulą SP i komendą Zauf., a [[rx-78-2-gundam|Gundam]] — przynależność do Oddziału White Base.
+- [[real-pg-gundam|Real PG Gundam]] wraca do pełnego zestawu danych z czterema broniami oraz zdolnościami Blok tarczą i Odtwórz.
+- Parametry uzbrojenia dziesięciu jednostek są zgodne z nowym opracowaniem epizodu 0.
+
+## 2026-10-21 01:12
+
+- [[loum|Loum]] opisuje bitwę własnymi słowami: mobile suity zniszczyły okręty Federacji, a flota Federacji zebrała się na [[luna-ii|Luna II]] przed starciem.
+- Loum jest teraz przedstawione jako Side 5 — miejsce bitwy, a nie pojedyncza kolonia.
+
+## 2026-10-21 00:58
+
+- [[loum|Loum]] mówi o bitwie flot, a nie „bitwie flotniczej”; [[luna-ii|Luna II]] leży w punkcie L3, [[side-3|Side 3]] składa się z kolonii zamkniętych, a [[uc-0079|U.C. 0079]] opisuje rok akcji zamiast „daty akcji”.
+- [[zeon|Księstwo Zeonu]] jest jedną z dwóch stron wojny — zdanie ma poprawną formę.
+- [[srw-oe-ep0|Epizod 0]] odzyskał spójnik w zdaniu o wspólnej ramie chronologicznej, a analiza sceny na [[white-base|White Base]] nie powtarza „a” i mówi o ataku Chara wprost.
+- Drobne poprawki w opisach [[marker|Markera]], [[exart|Exarta]] i [[zaku-ii-bazooka|Zaku II z bazooką]].
+
+## 2026-10-21 00:38
+
+- Etykiety wersji nie są już odczytywane z dosłownego tekstu dialogów — kontrola pomija ten fragment treści.
+
+## 2026-10-21 00:30
+
+- Opis schematu danych obejmuje teraz hasła, sceny i relacje z nimi, a wymagania dotyczące źródeł odpowiadają temu, co naprawdę jest sprawdzane.
+- Schemat wyjaśnia, skąd pochodzą parametry jednostek (`w_gre`): z menu gry albo z pliku w archiwum projektu.
+
+## 2026-10-21 00:20
+
+- Podgląd ilustracji przechodzi strzałkami tylko obrazy z jednej galerii, a licznik pokazuje pozycję w tej galerii, nie na całej stronie.
+- Gdy przeglądarka nie otworzy ilustracji w nowej karcie, fokus wraca do miniatury.
+
+## 2026-10-21 00:12
+
+- [[slender|Slender]], [[crown|Crown]], [[marker|Marker Clan]] i [[oscar-dublin|Oscar Dublin]] mają przypisaną serię [[mobile-suit-gundam-1979|Mobile Suit Gundam]] — tak jak pozostali bohaterowie ataku na [[white-base|White Base]].
+
+## 2026-10-20 23:57
+
+- Każda strona jest teraz osiągalna z innej: opisy [[white-base|White Base]], [[srw-oe-ep0|Epizodu 0]] i [[srw-oe|samej gry]] linkują do [[sayla-mass|Sayli Mass]], [[marker|Markera Clana]], [[oscar-dublin|Oscara Dublina]] i [[minovsky-particles|cząstek Minovsky’ego]].
+- Wątki anime w [[srw-oe-ep0|Epizodzie 0]] prowadzą wprost do wspominanych wydarzeń i miejsc, a nazwa rodziny [[zaku-ii|Zaku II]] w opisach jej trzech jednostek jest odsyłaczem.
+- Opis [[side-3|Side 3]] mówi o kolonii i jej historii, bez ujawniania tożsamości [[char-aznable|Chara Aznable]] sięgającej dalszej części historii.
+- Poprawki językowe w hasłach [[loum|Loum]] i [[char-aznable|Chara Aznable]].
+
+## 2026-10-20 23:52
+
+- Numer sceny zniknął z opisów: odsyłacze wskazują teraz wydarzenia — prolog i trening, atak na [[white-base|White Base]] — zamiast numerów scen.
+
+## 2026-10-20 23:50
+
+- [[side-3|Side 3]] i [[loum|Loum]] mają własne hasła: pierwsza to kolonia, z której ogłosiło się [[zeon|Księstwo Zeonu]], druga — pole bitwy, o której mówi [[paolo-cassius|Paolo]].
+- [[char-aznable|Char Aznable]] zdobył przydomek Czerwonej Komety właśnie w bitwie o Loum, a jego [[zaku-ii-char|Zaku II]] nosił czerwoną barwę.
+
+## 2026-10-20 23:45
+
+- [[seishiro|Seishiro Kusanagi]]: umiejętności [[exart|Exarta]] opisuje teraz prozą o pilocie, bez etykiety miejsca w załodze.
+- [[srw-oe-ep0|Epizod 0]]: zdanie o wspólnej ramie chronologicznej ma poprawioną składnię.
+
+## 2026-10-20 23:44
+
+- [[zaku-ii|Zaku II]]: wariant dowódczy MS-06S to maszyna [[char-aznable|Chara Aznable]], znanego jako Czerwona Kometa.
+- Strona rodziny wymienia teraz wszystkich trzech pilotów ataku na [[white-base|White Base]] — [[char-aznable|Char]], [[slender|Slender]] i [[crown|Crown]] — a dawnego bezimiennego pilota zostawia na końcu.
+
 ## 2026-10-20 21:00
 
 - Obsada trzech [[zaku-ii|Zaków II]] jest ustalona: [[slender|Slender]] prowadzi [[zaku-ii-karabin-maszynowy|maszynę z karabinem maszynowym]], [[crown|Crown]] — [[zaku-ii-bazooka|wersję z bazooką]], a [[char-aznable|Char]] swoją [[zaku-ii-char|wersję dowódczą]].
-- [[zolnierz-zeonu|Żołnierz Zeonu]] pozostaje domyślną załogą jednostek z karabinem i bazooką; strony maszyn wymieniają nazwanych pilotów przed nim.
-- [[srw-oe-ep0|Epizod 0]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] mówią teraz wprost, kto siedzi w której maszynie.
+- Strony jednostek z karabinem i bazooką wymieniają nazwanych pilotów przed bezimienną załogą.
+- [[srw-oe-ep0|Epizod 0]] i scena na [[white-base|White Base]] mówią teraz wprost, kto siedzi w której maszynie.
 
 ## 2026-10-20 20:20
 
@@ -22,20 +110,20 @@
 
 ## 2026-10-20 20:04
 
-- Opis [[zolnierz-zeonu|Żołnierza Zeonu]] mówi o ludziach armii, nie o miejscu w danych gry: bezimienny pilot [[zaku-ii|Zaku II]], siła szyku i nazwani podwładni [[char-aznable|Chara]] w [[srw-oe-ep0-na-ratunek-white-base|scenie ataku na White Base]].
+- Opis bezimiennego pilota mówi o ludziach armii, nie o miejscu w danych gry: [[zaku-ii|Zaku II]], siła szyku i nazwani podwładni [[char-aznable|Chara]] w [[srw-oe-ep0-na-ratunek-white-base|scenie ataku na White Base]].
 - Opisy [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-char|Zaku II (Char)]] opisują maszyny i sposób walki, a nie przypisanie do rekordu.
 
 ## 2026-10-20 19:55
 
-- [[zolnierz-zeonu|Żołnierz Zeonu]]: nowa postać — bezimienny pilot [[zaku-ii|Zaku II]], jeden z tych, którzy tworzą trzon armii [[zeon|Księstwa Zeonu]].
+- Bezimienny pilot [[zaku-ii|Zaku II]] jako zbiorczy wpis obsady — jeden z tych, którzy tworzą trzon armii [[zeon|Księstwa Zeonu]].
 - Trzy Zaku II to w [[srw-oe|OE]] osobne mechy, nie warianty: strony mówią o jednostkach z rodziny [[zaku-ii|Zaku II]], a sekcja na stronie bazowej nazywa się „Pozostałe jednostki Zaku II”.
-- Zaku II znalazły się w obsadzie [[srw-oe-ep0-na-ratunek-white-base|sceny 0-2]]: [[char-aznable|Char]] w swojej maszynie, [[slender|Slender]] i [[crown|Crown]] w dwóch pozostałych.
+- Załoga [[zaku-ii|Zaków II]] na [[white-base|White Base]]: [[char-aznable|Char]] w swojej maszynie, [[slender|Slender]] i [[crown|Crown]] w dwóch pozostałych.
 
 ## 2026-10-20 19:48
 
 - Trzy osobne jednostki Zaku II: z [[zaku-ii-karabin-maszynowy|karabinem maszynowym]], z [[zaku-ii-bazooka|bazooką]] i [[zaku-ii-char|maszyna Chara]] — każdy z dwiema ilustracjami i własnym zestawem uzbrojenia.
 - [[zaku-ii|Zaku II]] zyskuje sekcję z odsyłaczami do pozostałych jednostek; [[char-aznable|Char Aznable]] ma w profilu także swoją wersję maszyny.
-- Maszyny obsadzone zbiorczym profilem [[zolnierz-zeonu|Żołnierza Zeonu]] opisują klasę jednostek, nie pojedynczą osobę.
+- Maszyny obsadzone zbiorczym profilem opisują klasę jednostek, nie pojedynczą osobę.
 
 ## 2026-10-20 18:29
 
@@ -78,7 +166,7 @@
 ## 2026-10-19 23:15
 
 - [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]]: projekt postaci 加藤誠 oraz role protagonisty i bohaterki gry.
-- [[brocken|Brocken]]: wojskowy Labor Type-7B i wariant 2B z 1998 roku.
+- [[brocken|Brocken]]: wojskowy [[labor|Labor]] Type-7B i wariant 2B z 1998 roku.
 
 ## 2026-10-19 23:14
 

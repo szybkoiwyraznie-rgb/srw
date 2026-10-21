@@ -16,7 +16,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Członkini załogi [[white-base|White Base]]. W scenie 0-2 melduje o starcie okrętu, a usłyszawszy od [[paolo-cassius|Paola]] o Czerwonej Komecie, powtarza z niedowierzaniem imię [[char-aznable|Chara]].
+Członkini załogi [[white-base|White Base]]. Melduje o starcie okrętu, a usłyszawszy od [[paolo-cassius|Paola]] o Czerwonej Komecie, powtarza z niedowierzaniem imię [[char-aznable|Chara]].
 }}
 {{menu gra=srw-oe
 
@@ -25,6 +25,22 @@ Członkini załogi [[white-base|White Base]]. W scenie 0-2 melduje o starcie okr
 ### Ilustracja 1
 
 ![Mirai Yashima — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Mirai%20Yashima.png)
+
+}}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Nazwa skrócona:** Mirai
+
+**Pula SP:** 50 *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+### Komendy Ducha
+
+| Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
+|---:|---|---:|---:|---|
+| 1 | **Zauf.** | 1 | 20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
 
 }}
 {{zrodlo gra=wspolne

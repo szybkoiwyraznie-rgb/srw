@@ -26,7 +26,7 @@ function wpisHtml(w) {
 export function listaDziennika(limit = null) {
   const wpisy = wpisyCoNowego();
   const wybrane = limit ? wpisy.slice(0, limit) : wpisy;
-  return `<ul class="dziennik">${wybrane.map(wpisHtml).join('')}</ul>`;
+  return listaDziennikaGrupy(wybrane);
 }
 
 export function renderCoNowego() {

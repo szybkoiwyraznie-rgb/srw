@@ -29,6 +29,12 @@ wyglądały jak źródła, a nikt ich nie czytał. Właściciel zgłosił to jak
 4. **Kolejka weryfikacji** żyje w opisie PR sesji (lista niesprawdzonych adresów), nie w treści bazy.
    Wpis przechodzi na `zrodlo` dopiero, gdy jego treść zostanie sprawdzona w źródle.
 
+## Adnotacja 2026-10-21
+
+Sekcja `## Źródła` jest opcjonalna. Build wymaga pola `zrodla` przy `pochodzenie: zrodlo`
+i zakazuje go przy `wiedza`; sekcja może opisać, co i kiedy potwierdzono, ale jej brak
+nie jest błędem.
+
 ## Konsekwencje
 
 - Nowe wpisy startują jako `wiedza` bez linków; podniesienie do `zrodlo` jest świadomą czynnością.

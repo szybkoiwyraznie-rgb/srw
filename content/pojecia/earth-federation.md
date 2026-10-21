@@ -16,11 +16,11 @@ utworzono: 2026-10-17
 
 Federacja Ziemska zjednoczyła świat. Jej rozwój umożliwił budowę kolonii kosmicznych i ekspansję po Układzie Słonecznym. Gdy Siły Federacji nie potrafiły sprostać zagrożeniom, dawne państwa i kolonie zaczęły zbroić się samodzielnie.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
+Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{zrodlo gra=wspolne
 
-- W serii *Mobile Suit Gundam* (1979) Federacja Ziemska konfliktuje z Księstwem Zeon. Ta wojna jest tłem serii w U.C. 0079 ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam)).
+- W serii *Mobile Suit Gundam* (1979) Federacja Ziemska konfliktuje z Księstwem Zeon. Ta wojna jest tłem serii w [[uc-0079|U.C. 0079]] ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam)).
 }}
 {{wiedza gra=wspolne
 

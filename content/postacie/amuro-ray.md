@@ -29,6 +29,35 @@ W wymianie zdań z [[char-aznable|Charem]] zapowiada, że z Gundamem pokona nawe
 ![Amuro Ray — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Amuro%20Ray.png)
 
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Nazwa skrócona:** Amuro
+
+| Parametr | Wartość bazowa |
+|---|---:|
+| SP | 60 |
+| Atak | 114 |
+| Obrona | 70 |
+| Celność | 137 |
+| Unik | 74 |
+
+### Komendy Ducha
+
+| Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
+|---:|---|---:|---:|---|
+| 1 | **Skupienie** | 1 | 15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
+
+### Umiejętności pilota
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy |
+|---:|---|---:|---|
+| 1 | **Potenc. Kryt** | 1 | Pozostałe HP 10%: Obr/Unik+4% Cel/Kryt+5% |
+| 2 | **Newtype** | 3 | Cel/Unik+6 / Kryt Obraż.+18% |
+
+}}
 {{zrodlo gra=wspolne
 
 Amuro Ray jest bohaterem serialu *Mobile Suit Gundam* z 1979 roku i pilotem RX-78-2 Gundama ([Wikipedia, „Amuro Ray”](https://en.wikipedia.org/wiki/Amuro_Ray); sprawdzono 2026-10-20).

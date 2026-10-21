@@ -16,7 +16,7 @@ utworzono: 2026-10-17
 
 Imperium Jaku jest jednym z dawnych zagrożeń wymienionych w prologu. Pamięć jego ataku pozostaje żywa.
 
-Pojawia się w [[prolog-i-trening-w-connect|scenie 0-1]] ([[srw-oe-ep0|Epizod 0]]).
+Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 }}
 {{zrodlo gra=wspolne
 

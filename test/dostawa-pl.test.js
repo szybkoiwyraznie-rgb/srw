@@ -22,8 +22,12 @@ test('polska dostawa zastępuje stary skrypt i menu, bez zmiany historycznych sl
   assert.equal(bySlug.get('earth-federation').tytul, 'Federacja Ziemska');
 });
 
-test('pięć jednostek zachowuje wszystkie ataki i ich dane w parze mech–gra', () => {
-  const machines = [['exart',5], ['cybuster',7], ['cybird',3], ['brocken',1], ['real-pg-gundam',4]];
+test('dziesięć jednostek z nowej dostawy zachowuje wszystkie ataki i ich dane w parze mech–gra', () => {
+  const machines = [
+    ['exart', 5], ['cybuster', 7], ['cybird', 3], ['brocken', 1], ['white-base', 4],
+    ['rx-78-2-gundam', 4], ['zaku-ii-karabin-maszynowy', 2], ['zaku-ii-bazooka', 2], ['zaku-ii-char', 4],
+    ['real-pg-gundam', 4],
+  ];
   for (const [slug, count] of machines) {
     const mech = bySlug.get(slug);
     const stats = JSON.parse(mech.w_gre['srw-oe']);
@@ -43,6 +47,19 @@ test('pięć jednostek zachowuje wszystkie ataki i ich dane w parze mech–gra',
   }
 });
 
+test('Real PG Gundam jest częścią nowej dostawy i zachowuje ilustracje', () => {
+  const mech = bySlug.get('real-pg-gundam');
+  const stats = JSON.parse(mech.w_gre['srw-oe']);
+  assert.equal(stats.dostawa, 'dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md');
+  assert.equal(stats.profil, 'Real PG Gundam (Gundam (Keroro))');
+  assert.equal(mech.seria, 'sgt-frog');
+  assert.match(delivery, /### Real PG Gundam \(Gundam \(Keroro\)\)/);
+  const rows = mech.body.split('\n').filter(line => /^\| \d+ \|/.test(line));
+  assert.equal(rows.length, 4);
+  assert.deepEqual(mech.piloci, []);
+  assert.equal((mech.body.match(/!\[/g) ?? []).length, 2, 'ilustracje pozostają');
+});
+
 test('nowa dostawa: White Base i Gundam mają pełne parametry załogi i uzbrojenia', () => {
   const machines = [['white-base', 4], ['rx-78-2-gundam', 4]];
   for (const [slug, count] of machines) {
@@ -50,7 +67,7 @@ test('nowa dostawa: White Base i Gundam mają pełne parametry załogi i uzbroje
     assert.equal(mech.typ, 'mech');
     assert.equal(mech.seria, 'mobile-suit-gundam-1979');
     const stats = JSON.parse(mech.w_gre['srw-oe']);
-    assert.equal(stats.dostawa, 'menu');
+    assert.equal(stats.dostawa, 'dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md');
     const rows = mech.body.split('\n').filter(line => /^\| \d+ \|/.test(line));
     assert.equal(rows.length, count, slug);
     for (const row of rows) {
@@ -62,21 +79,80 @@ test('nowa dostawa: White Base i Gundam mają pełne parametry załogi i uzbroje
     assert.match(mech.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria`);
   }
   assert.deepEqual(bySlug.get('white-base').piloci, ['bright-noa', 'mirai-yashima']);
+  assert.doesNotMatch(bySlug.get('white-base').body, /Domyślny pilot|Przypisany profil|Podpilot:/);
+  assert.doesNotMatch(JSON.parse(bySlug.get('white-base').w_gre['srw-oe']).dane, /Zauf\.|Domyślny pilot|Przypisany profil/);
+  assert.match(bySlug.get('mirai-yashima').body, /\*\*Zauf\.\*\*/);
   assert.deepEqual(bySlug.get('rx-78-2-gundam').piloci, ['amuro-ray']);
   assert.deepEqual(bySlug.get('bright-noa').mechy, ['white-base']);
   assert.deepEqual(bySlug.get('mirai-yashima').mechy, ['white-base']);
 });
 
-test('Precyzja Seishira trafia do profilu Exarta i do jego strony', () => {
-  assert.match(bySlug.get('exart').body, /\*\*Precyzja \(poziom bazowy 1\):\*\* Kryt\/Kryt Obraż\.\+15%/);
-  assert.match(JSON.parse(bySlug.get('exart').w_gre['srw-oe']).dane, /\*\*Precyzja \(poziom bazowy 1\):\*\*/);
-  assert.match(bySlug.get('seishiro').body, /\*\*Precyzja \(poziom bazowy 1\):\*\* Kryt\/Kryt Obraż\.\+15%/);
+test('Precyzja Seishira jest na jego stronie, a nie w parametrach Exarta', () => {
+  assert.match(bySlug.get('seishiro').body, /\| 2 \| \*\*Precyzja\*\* \| 3 \| Kryt\/Kryt Obraż\.\+15% \|/);
+  assert.doesNotMatch(bySlug.get('exart').body, /Precyzja|Domyślny pilot|Przypisany profil/);
+  assert.doesNotMatch(JSON.parse(bySlug.get('exart').w_gre['srw-oe']).dane, /Precyzja|Domyślny pilot|Przypisany profil/);
+});
+
+test('parametry mechów nie powtarzają domyślnej załogi — piloci zostają w danych ogólnych', () => {
+  const obsada = {
+    exart: ['seishiro', 'himari-yaegaki'],
+    brocken: ['control-ai'],
+    'rx-78-2-gundam': ['amuro-ray'],
+    'white-base': ['bright-noa', 'mirai-yashima'],
+    'zaku-ii-karabin-maszynowy': ['slender'],
+    'zaku-ii-bazooka': ['crown'],
+    'zaku-ii-char': ['char-aznable'],
+    cybuster: ['masaki-andoh'],
+    cybird: ['masaki-andoh'],
+    'real-pg-gundam': [],
+  };
+  for (const [slug, piloci] of Object.entries(obsada)) {
+    const mech = bySlug.get(slug);
+    assert.deepEqual(mech.piloci, piloci, `${slug}: piloci w danych ogólnych`);
+    assert.doesNotMatch(mech.body, /Domyślny pilot|Przypisany profil|Miejsce \d/, `${slug}: bez sekcji załogi w treści`);
+    const stats = JSON.parse(mech.w_gre['srw-oe']);
+    assert.doesNotMatch(stats.dane, /Domyślny pilot|Przypisany profil|Miejsce \d/, `${slug}: bez sekcji załogi w danych`);
+  }
+});
+
+test('profile pilotów z nowej dostawy: statystyki, komendy Ducha i umiejętności', () => {
+  const statystyki = {
+    seishiro: [50, 120, 59, 137, 75],
+    'control-ai': [10, 102, 66, 122, 61],
+    'masaki-andoh': [60, 140, 55, 128, 72],
+    'amuro-ray': [60, 114, 70, 137, 74],
+    'bright-noa': [50, 110, 87, 126, 63],
+    'char-aznable': [50, 112, 77, 136, 80],
+    slender: [50, 106, 71, 124, 63],
+    crown: [50, 112, 67, 126, 59],
+    'sayla-mass': [50, 106, 63, 134, 86],
+  };
+  for (const [slug, [sp, atk, obr, cel, unik]] of Object.entries(statystyki)) {
+    const body = bySlug.get(slug).body;
+    assert.match(body, /\{\{menu gra=srw-oe\n\n## Parametry/, `${slug}: parametry`);
+    const wartosci = [['SP', sp], ['Atak', atk], ['Obrona', obr], ['Celność', cel], ['Unik', unik]];
+    for (const [nazwa, wartosc] of wartosci) {
+      assert.match(body, new RegExp(`\\| ${nazwa} \\| ${wartosc} \\|`), `${slug}: ${nazwa}`);
+    }
+  }
+  // Mirai jest podpilotem: ma pulę SP i komendę, ale nie statystyki bojowe.
+  const mirai = bySlug.get('mirai-yashima').body;
+  assert.match(mirai, /\*\*Pula SP:\*\* 50/);
+  assert.match(mirai, /\*\*Zauf\.\*\* \| 1 \| 20 \|/);
+  assert.doesNotMatch(mirai, /\| Atak \|/);
+  // Char nie ma komend Ducha, a Seishiro ma komendę Skupienie.
+  assert.doesNotMatch(bySlug.get('char-aznable').body, /Komendy Ducha/);
+  assert.match(bySlug.get('seishiro').body, /\*\*Skupienie\*\* \| 1 \| 15 \|/);
+  // Surowe etykiety misji nie trafiają na strony.
+  for (const page of pages) {
+    assert.doesNotMatch(page.body, /DL100|Entry ID|eventP00/, `${page.slug}: bez etykiet misji`);
+  }
 });
 
 test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji', () => {
   const warianty = [
-    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], ['slender', 'zolnierz-zeonu']],
-    ['zaku-ii-bazooka', 2, ['Bazooka Zaku', 'Heat Hawk'], ['crown', 'zolnierz-zeonu']],
+    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], ['slender']],
+    ['zaku-ii-bazooka', 2, ['Bazooka Zaku', 'Heat Hawk'], ['crown']],
     ['zaku-ii-char', 4, ['Karabin maszynowy Zaku', 'Bazooka Zaku', 'Heat Hawk', 'Szarża barkiem'], ['char-aznable']],
   ];
   for (const [slug, count, bronie, piloci] of warianty) {
@@ -86,7 +162,7 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
     assert.deepEqual(mech.piloci, piloci, `${slug}: piloci`);
     assert.equal(mech.pochodzenie, 'menu', `${slug}: dane z dostawy`);
     const stats = JSON.parse(mech.w_gre['srw-oe']);
-    assert.equal(stats.dostawa, 'menu');
+    assert.equal(stats.dostawa, 'dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md');
     assert.match(stats.profil, /^Zaku II/);
     const rows = mech.body.split('\n').filter(line => /^\| \d+ \|/.test(line));
     assert.equal(rows.length, count, slug);
@@ -102,15 +178,12 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
     assert.match(mech.body, /\{\{zrodlo gra=wspolne/, `${slug}: rodowód zewnętrzny`);
     assert.match(mech.body, /\[\[zaku-ii\|Zaku II\]\]/, `${slug}: odsyłacz do wersji bazowej`);
   }
-  // Zbiorczy profil obsady ma własny wpis, tak jak Control AI przy Brockenie.
+  // Żołnierz Zeonu nie jest postacią fabularną — nie ma go w bazie ani w obsadzie maszyn.
+  assert.ok(!bySlug.has('zolnierz-zeonu'), 'Żołnierz Zeonu nie ma własnej strony');
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka']) {
-    assert.match(bySlug.get(slug).body, /Żołnierz Zeonu/);
+    assert.ok(!bySlug.get(slug).piloci.includes('zolnierz-zeonu'), `${slug}: bez zbiorczego profilu`);
   }
   assert.deepEqual(bySlug.get('char-aznable').mechy, ['zaku-ii-char']);
-  assert.equal(bySlug.get('zolnierz-zeonu').typ, 'postac');
-  assert.equal(bySlug.get('zolnierz-zeonu').pochodzenie, 'menu');
-  assert.deepEqual(bySlug.get('zolnierz-zeonu').mechy, ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka']);
-  assert.match(bySlug.get('zolnierz-zeonu').body, /Szeregowy \(bez poziomu\)/);
   const scena = bySlug.get('srw-oe-ep0-na-ratunek-white-base');
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
     assert.ok(scena.mechy.includes(slug), `scena 0-2: ${slug} w obsadzie`);
@@ -124,7 +197,7 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
   assert.match(bySlug.get('zaku-ii-karabin-maszynowy').body, /prowadzi \[\[slender\|Slender\]\]/);
   assert.match(bySlug.get('zaku-ii-bazooka').body, /prowadzi \[\[crown\|Crown\]\]/);
   // Dane misji nie trafiają na strony jako surowe etykiety dostawy.
-  for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'slender', 'crown', 'zolnierz-zeonu']) {
+  for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'slender', 'crown']) {
     assert.doesNotMatch(bySlug.get(slug).body, /DL100|Entry character|mission Entry|eventP00/, `${slug}: bez surowych danych misji`);
   }
   for (const cel of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
@@ -133,15 +206,23 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
 });
 
 test('profile załogi i transformacje są powiązane, ale nie udają sceny fabularnej', () => {
-  assert.deepEqual(bySlug.get('exart').piloci, ['seishiro']);
+  assert.deepEqual(bySlug.get('exart').piloci, ['seishiro', 'himari-yaegaki']);
   assert.deepEqual(bySlug.get('masaki-andoh').mechy, ['cybuster', 'cybird']);
   assert.deepEqual(bySlug.get('control-ai').mechy, ['brocken']);
+  assert.equal(bySlug.get('control-ai').seria, undefined, 'Control AI nie ma wpisu w słowniku postaci');
   assert.deepEqual(bySlug.get('real-pg-gundam').piloci, []);
   assert.match(bySlug.get('cybuster').body, /\[\[cybird\|Cybird\]\]/);
   assert.match(bySlug.get('cybird').body, /\[\[cybuster\|Cybuster\]\]/);
-  assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').postacie, ['seishiro', 'himari-yaegaki']);
-  assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').mechy, ['exart']);
-  assert.deepEqual(bySlug.get('srw-oe-ep0').mechy, ['exart', 'rx-78-2-gundam', 'zaku-ii', 'zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'white-base']);
+  // Obsada szkolenia podstawowego (DL100_01): Exart kontra trzy Brockeny Control AI.
+  assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').postacie, ['seishiro', 'himari-yaegaki', 'control-ai']);
+  assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').mechy, ['exart', 'brocken']);
+  assert.ok(bySlug.get('srw-oe-ep0').postacie.includes('control-ai'), 'epizod 0: Control AI w obsadzie');
+  assert.deepEqual(bySlug.get('srw-oe-ep0').mechy, ['exart', 'brocken', 'rx-78-2-gundam', 'zaku-ii', 'zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'white-base']);
+  assert.match(bySlug.get('brocken').body, /szkoleniu podstawowym/);
+  assert.match(bySlug.get('control-ai').body, /trzy Brockeny/);
+  for (const slug of ['brocken', 'control-ai', 'prolog-i-trening-w-connect', 'srw-oe-ep0']) {
+    assert.doesNotMatch(bySlug.get(slug).body, /DL100|Entry ID|eventP00/, `${slug}: bez surowych danych misji`);
+  }
   assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /Profil załogi|Miejsce 2|brak macierzystego przypisania/);
   assert.ok(bySlug.has('invaderzy'));
   assert.ok(!bySlug.has('keroro'), 'nazwa wariantu nie przypisuje domyślnego pilota');
@@ -162,14 +243,17 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
     const tekst = opis[1];
     assert.doesNotMatch(tekst, zakazane, `${page.slug}: opis zbliża się do technicznego języka gry`);
   }
-  assert.doesNotMatch(bySlug.get('zolnierz-zeonu').body, /zbiorczy profil|gra przypisuje|standardowe obsadzenie/);
+  assert.ok(!bySlug.has('zolnierz-zeonu'));
+  for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
+    assert.doesNotMatch(bySlug.get(slug).body, /\[\[zolnierz-zeonu/, `${slug}: bez martwego odsyłacza`);
+  }
 });
 
-test('ilustracje właściciela: 36 plików przy 27 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 51 plików przy 38 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 27);
-  assert.equal(Object.values(manifest.encje).flat().length, 36);
+  assert.equal(Object.keys(manifest.encje).length, 38);
+  assert.equal(Object.values(manifest.encje).flat().length, 51);
   assert.deepEqual(manifest.nieprzypisane, []);
   const adres = file => `${manifest.baseUrl}/${file.split('/').map(encodeURIComponent).join('/')}`;
   for (const [slug, files] of Object.entries(manifest.encje)) {
@@ -224,15 +308,16 @@ test('ilustracja jest dostawą: Kuro i Shiro mają opisy, źródła i powiązani
 });
 
 
-test('menu nie uchyla zakazu spoilerów: brak przyszłej roli Himari w stronach i danych', () => {
-  assert.deepEqual(bySlug.get('exart').piloci, ['seishiro']);
+test('obsada Exarta i granica fabuły: Himari jako podpilot, bez przyszłych ról', () => {
+  assert.deepEqual(bySlug.get('exart').piloci, ['seishiro', 'himari-yaegaki']);
   for (const page of pages) {
     assert.doesNotMatch(page.body, /(?:Miejsce|miejsce) 2[^\n]*Himari|Himari[^\n]*drugie miejsce|dwa miejsca załogi|kiedy Himari zajmie/);
   }
   const stats = JSON.parse(bySlug.get('exart').w_gre['srw-oe']);
   assert.doesNotMatch(stats.dane, /Miejsce 2|Przypisany profil: Himari|brak macierzystego przypisania/);
   assert.doesNotMatch(fs.readFileSync('content/co-nowego.md','utf8'), /dwa miejsca załogi|drugie miejsce Exarta/);
-  // Raw owner archive remains faithful; it is not embedded in the site.
-  assert.match(delivery, /Miejsce 2: Himari Yaegaki/);
+  // Nowa dostawa nie zawiera już przyszłej roli Himari; surowe etykiety zostają w archiwum.
+  assert.doesNotMatch(delivery, /Miejsce 2: Himari Yaegaki/);
+  assert.match(delivery, /DL100_01/);
   assert.match(bySlug.get('himari-yaegaki').body, /zdalnie steruje/);
 });

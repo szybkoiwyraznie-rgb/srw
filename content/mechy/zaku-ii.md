@@ -4,10 +4,11 @@ slug: zaku-ii
 tytul: Zaku II
 seria: mobile-suit-gundam-1979
 gry: [srw-oe]
-piloci: [zolnierz-zeonu, slender, crown]
+piloci: [char-aznable, slender, crown]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/MS-06S_Zaku_II_Commander_Type
+  - https://en.wikipedia.org/wiki/Char_Aznable
 tagi: [one-year-war]
 utworzono: 2026-10-20
 ---
@@ -34,5 +35,5 @@ Podczas ataku na [[white-base|White Base]] [[char-aznable|Char]] prowadzi wersj�
 
 {{zrodlo gra=wspolne
 
-Zaku II (MS-06) to podstawowy mobile suit Księstwa Zeonu w *Mobile Suit Gundam*. Wariant dowódczy MS-06S, znany jako typ Czerwonej Komety, należy do najsłynniejszych maszyn Chara Aznable ([Gundam Wiki, „MS-06S Zaku II Commander Type”](https://gundam.fandom.com/wiki/MS-06S_Zaku_II_Commander_Type); sprawdzono 2026-10-20).
+Zaku II (MS-06) to podstawowy mobile suit Księstwa Zeonu w *Mobile Suit Gundam*. Wariant dowódczy MS-06S to maszyna [[char-aznable|Chara Aznable]], znanego jako Czerwona Kometa ([Gundam Wiki, „MS-06S Zaku II Commander Type”](https://gundam.fandom.com/wiki/MS-06S_Zaku_II_Commander_Type); [Wikipedia, „Char Aznable”](https://en.wikipedia.org/wiki/Char_Aznable); sprawdzono 2026-10-20).
 }}

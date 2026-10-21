@@ -6,7 +6,7 @@ seria: mobile-suit-gundam-1979
 gry: [srw-oe]
 piloci: [bright-noa, mirai-yashima]
 w_gre:
-  srw-oe: '{"dostawa": "menu", "profil": "White Base", "dane": "**Seria:** Mobile Suit Gundam\n### Domyślny pilot / załoga i umiejętności specjalne\n#### Miejsce 1: Bright Noa\n**Przypisany profil: Bright Noa**\n- **Potencjał (poziom bazowy 1):** Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% *Pole poziomu nauki: 1.*\n#### Miejsce 2: Mirai Yashima\n**Przypisany profil: Mirai Yashima**\nW tym rekordzie postaci brak macierzystego przypisania umiejętności specjalnej.\n### Macierzyste zdolności maszyny\n- **Okręt-matka (poziom bazowy 1):** Sojusznicy: przewóz i start; HP/EN przewoż.+20%; SP/Morale pilota+2; Odporn.: \"Przebicie\" \"Pchnięcie\" \"Rzut\"\n- **Ciężki panc. (poziom bazowy 1):** Obraż.-12%\n- **Odnowa EN (poziom bazowy 1):** EN co turę+4%\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Karabin przeciwlotniczy | 1800 | 1–3 | +30 | 40 | — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |\n| 1 | Duże rakiety | 2200 | 1–4 | +20 | 30 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |\n| 2 | Podwójne działo główne | 2800 | 1–6 | +30 | 60 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8; **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |\n| 3 | Działo megacząsteczkowe | 3200 | 3–5 | +0 | 80 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8; **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |"}'
+  srw-oe: '{"dostawa": "dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md", "profil": "White Base", "dane": "**Seria:** Mobile Suit Gundam\n### Macierzyste zdolności maszyny\n- **Okręt-matka (poziom bazowy 1):** Sojusznicy: przewóz i start; HP/EN przewoż.+20%; SP/Morale pilota+2; Odporn.: \"Przebicie\" \"Pchnięcie\" \"Rzut\"\n- **Ciężki panc. (poziom bazowy 1):** Obraż.-12%\n- **Odnowa EN (poziom bazowy 1):** EN co turę+4%\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Karabin przeciwlotniczy | 1800 | 1–3 | +30 | 40 | — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |\n| 1 | Duże rakiety | 2200 | 1–4 | +20 | 30 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |\n| 2 | Podwójne działo główne | 2800 | 1–6 | +30 | 60 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8; **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |\n| 3 | Działo megacząsteczkowe | 3200 | 3–5 | +0 | 80 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8; **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |"}'
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/White_Base
@@ -17,7 +17,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Okręt Sił Federacji, na którego pokładzie schronili się cywile z [[side-7|Side 7]]. W scenie 0-2 odpiera atak [[char-aznable|Chara]], a następnie kieruje się do [[luna-ii|Luny II]].
+Okręt Sił Federacji, na którego pokładzie schronili się cywile z [[side-7|Side 7]]. Odpiera atak [[char-aznable|Chara]], a następnie kieruje się do [[luna-ii|Luny II]].
 
 Dowodzi nim [[bright-noa|Bright]], lecz ranny [[paolo-cassius|kapitan Paolo]] wciąż wydaje rozkazy ze stanowiska. [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] wspierają obronę jako [[connect-force|Connect Force]].
 }}
@@ -37,20 +37,6 @@ Dowodzi nim [[bright-noa|Bright]], lecz ranny [[paolo-cassius|kapitan Paolo]] wc
 ## Parametry
 
 **Seria:** [[mobile-suit-gundam-1979|Mobile Suit Gundam]]
-
-### Domyślny pilot / załoga i umiejętności specjalne
-
-#### Miejsce 1: [[bright-noa|Bright Noa]]
-
-**Przypisany profil: Bright Noa**
-
-- **Potencjał (poziom bazowy 1):** Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% *Pole poziomu nauki: 1.*
-
-#### Miejsce 2: [[mirai-yashima|Mirai Yashima]]
-
-**Przypisany profil: Mirai Yashima**
-
-W tym rekordzie postaci brak macierzystego przypisania umiejętności specjalnej.
 
 ### Macierzyste zdolności maszyny
 

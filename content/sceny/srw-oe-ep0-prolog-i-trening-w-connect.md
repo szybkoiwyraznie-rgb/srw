@@ -6,8 +6,8 @@ epizod: srw-oe-ep0
 numer_sceny: "0-1"
 streszczenie: Prolog w U.C. 0079, szkolenie podstawowe Seishiro i Himari, retrospekcja oraz odprawa po treningu.
 pochodzenie: skrypt
-postacie: [seishiro, himari-yaegaki]
-mechy: [exart]
+postacie: [seishiro, himari-yaegaki, control-ai]
+mechy: [exart, brocken]
 pojecia: [dr-hell, devil-gundam-incident, connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai, invaderzy]
 tagi: [prolog, trening]
 utworzono: 2026-10-17
@@ -286,7 +286,7 @@ Nie wiedząc, kiedy uderzy następne zagrożenie, ludzie żyją w niepokoju - al
 
 Prolog zestawia rozwój cywilizacji z kosztami ekspansji: nierównościami, przestępczością i rozpadem jedności politycznej. [[earth-federation|Federacja Ziemska]] nie potrafi samodzielnie zapewnić bezpieczeństwa, a wyścig zbrojeń przynosi także niekontrolowane technologie. Wspomniane kryzysy należą do przeszłości tej opowieści; nie przesądzają, kto pojawi się później.
 
-W [[uc-0079|U.C. 0079]] [[seishiro|Seishiro]] pracuje w [[connect-force|Connect]]. Zna cel organizacji, ale go nie ujawnia. Trening [[exart|Exarta]] daje [[himari-yaegaki|Himari]] okazję do pracy operatorki: wyznacza cele, reaguje na nieoszczędny kurs i może przejąć sterowanie zdalne.
+W [[uc-0079|U.C. 0079]] [[seishiro|Seishiro]] pracuje w [[connect-force|Connect]]. Zna cel organizacji, ale go nie ujawnia. Trening [[exart|Exarta]] daje [[himari-yaegaki|Himari]] okazję do pracy operatorki: wyznacza cele, reaguje na nieoszczędny kurs i może przejąć zdalne sterowanie.
 
 ## Wątki w scenie
 

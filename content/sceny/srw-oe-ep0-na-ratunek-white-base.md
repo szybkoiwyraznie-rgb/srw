@@ -8,7 +8,7 @@ streszczenie: Interludium o wojnie w U.C. 0079; Connect wysyła Seishiro na pomo
 pochodzenie: skrypt
 postacie: [seishiro, himari-yaegaki, suol, amuro-ray, char-aznable, bright-noa, mirai-yashima, sayla-mass, fraw-bow, paolo-cassius, oscar-dublin, marker, slender, crown]
 mechy: [exart, rx-78-2-gundam, zaku-ii, zaku-ii-karabin-maszynowy, zaku-ii-bazooka, zaku-ii-char, white-base]
-pojecia: [connect-force, earth-federation, universal-century, uc-0079, zeon, side-7, luna-ii, minovsky-particles]
+pojecia: [connect-force, earth-federation, universal-century, uc-0079, zeon, side-3, side-7, luna-ii, loum, minovsky-particles]
 tagi: [white-base, one-year-war]
 utworzono: 2026-10-20
 ---
@@ -332,18 +332,18 @@ Potem front utknął w martwym punkcie i minęło już ponad osiem miesięcy...
 
 ## Analiza
 
-Interludium przypomina bilans wojny: pół wieku ekspansji, deklaracja [[zeon|Księstwa Zeonu]], śmierć połowy ludzkości i front, który utknął w martwym punkcie. To tło wyjaśnia, dlaczego [[connect-force|Connect]] chce zachować neutralność, a jednocześnie nie odmawia pomocy cywilom.
+Interludium przypomina bilans wojny: pół wieku ekspansji, deklaracja [[zeon|Księstwa Zeonu]] przez kolonię [[side-3|Side 3]], śmierć połowy ludzkości i front, który utknął w martwym punkcie. To tło wyjaśnia, dlaczego [[connect-force|Connect]] chce zachować neutralność, a jednocześnie nie odmawia pomocy cywilom.
 
 W salonie [[himari-yaegaki|Himari]] pyta, czy organizacja powinna wesprzeć [[earth-federation|Federację]]. [[seishiro|Seishiro]] odpowiada, że media przedstawiają wojnę jednostronnie, a [[suol|szef Suol]] przerywa rozmowę rozkazem: na pokładzie nowego okrętu Federacji schronili się cywile z [[side-7|Side 7]]. Neutralność ustępuje ochronie ludzi, ale nie zmienia celu organizacji.
 
-Na [[white-base|White Base]] [[paolo-cassius|kapitan Paolo]] jest ranny i dowodzenie faktycznie przejmuje [[bright-noa|Bright]]. [[amuro-ray|Amuro]] startuje [[rx-78-2-gundam|Gundamem]] mimo braku doświadczenia, a [[char-aznable|Char]] atakuje [[zaku-ii-char|Zakiem II (Char)]], a w dwóch pozostałych Zaku lecą [[slender|Slender]] i [[crown|Crown]] — prędkość maszyn zaskakuje załogę. Rozproszone cząstki Minovsky’ego odcinają łączność: [[himari-yaegaki|Himari]] nie może prowadzić Seishira, więc ten działa samodzielnie.
+Na [[white-base|White Base]] [[paolo-cassius|kapitan Paolo]] jest ranny — opatruje go [[sayla-mass|Sayla Mass]] — a dowodzenie faktycznie przejmuje [[bright-noa|Bright]]; Paolo wspomina o bitwie o [[loum|Loum]], w której [[char-aznable|Char]] zniszczył pięć pancerników. Z mostka [[marker|Marker]] melduje zbliżający się obiekt, a [[oscar-dublin|Oscar]] nie wierzy, że to Zaku. [[amuro-ray|Amuro]] startuje [[rx-78-2-gundam|Gundamem]] mimo braku doświadczenia; [[char-aznable|Char]] atakuje w swoim [[zaku-ii-char|Zaku II]], a w dwóch pozostałych Zaku lecą [[slender|Slender]] i [[crown|Crown]] — prędkość maszyn zaskakuje załogę. Rozproszone [[minovsky-particles|cząstki Minovsky’ego]] odcinają łączność: [[himari-yaegaki|Himari]] nie może prowadzić Seishira, więc ten działa samodzielnie.
 
 Char rozpoznaje maszynę Connect i wybiera odwrót zamiast walki o zestrzelenie. Jego decyzja, podobnie jak rozmowa w hangarze, pokazuje, że obie strony oceniają wojnę chłodno, a nie wyłącznie przez pryzmat propagandy.
 
 ## Wątki w scenie
 
 - **Neutralność a pomoc.** Connect nie przystępuje do wojny, lecz podejmuje eskortę cywilów do [[luna-ii|Luny II]]; Seishiro zapowiada, że osłona potrwa tylko do tej bazy.
-- **Łączność pod presją.** Cząstki Minovsky’ego przerywają przekaz, a Himari uczy się, że na polu walki nie zawsze może wesprzeć pilota z centrali.
+- **Łączność pod presją.** [[minovsky-particles|Cząstki Minovsky’ego]] przerywają przekaz, a Himari uczy się, że na polu walki nie zawsze może wesprzeć pilota z centrali.
 - **Ostrożność Chara.** Czerwona Kometa nie podejmuje walki dla samej walki; ocenia siłę Gundama i Exarta, a potem zarządza odwrót.
 - **Doświadczenie i brak rutyny.** Bright zatrzymuje Amura, zanim ten startuje, a Char wskazuje, że przewaga maszyny nie zastąpi umiejętności pilota.
 - **Prywatne tło Himari.** W hangarze wyjawia, że dorastała w domu dziecka i nie pamięta rodziców; Seishiro zapewnia ją, że Connect nie porzuca swoich ludzi.

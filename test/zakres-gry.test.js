@@ -11,7 +11,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { renderMarkdown, parsujAtrybutyBloku } from '../src/srw/markdown.js';
-import { walidujStrone, wytnijBloki, zbudujRejestr } from '../src/srw/registry.js';
+import { gryStronyDoZakresu, walidujStrone, wytnijBloki, zbudujRejestr } from '../src/srw/registry.js';
 
 const gry = {
   'srw-oe': { typ: 'gra', slug: 'srw-oe', tytul: 'Super Robot Wars OE', tagi: [], body: '' },
@@ -69,6 +69,12 @@ test('wytnijBloki widzi zakres w treści strony', () => {
   assert.equal(bloki[1].atrybuty.get('gra'), 'wspolne');
 });
 
+test('wytnijBloki pomija nawiasy wewnątrz dosłownego skryptu', () => {
+  const bloki = wytnijBloki('{{menu gra=srw-oe\n\nX.\n}}\n\n:::skrypt\n{{to-nie-blok gra=inna\n}}\n:::\n');
+  assert.equal(bloki.length, 1);
+  assert.equal(bloki[0].atrybuty.get('gra'), 'srw-oe');
+});
+
 const strona = (pola) => ({
   typ: 'postac', slug: 'amuro-ray', tytul: 'Amuro Ray', tagi: [],
   body: '## Opis\n\n{{skrypt\n\ntekst\n}}\n', ...pola,
@@ -83,6 +89,16 @@ test('każdy blok musi mieć zakres — także na stronie jednej gry (ADR 0021)'
     body: '## Opis\n\n{{skrypt gra=srw-oe\n\ntekst\n}}\n',
   }), ctx());
   assert.deepEqual(zZakresem, []);
+});
+
+test('strona gry jest zakresem sama dla siebie', () => {
+  assert.deepEqual(gryStronyDoZakresu(gry['srw-oe'], ctx()), ['srw-oe']);
+
+  const problemy = walidujStrone({
+    typ: 'gra', slug: 'srw-oe', tytul: 'Super Robot Wars OE', tagi: [],
+    body: '{{skrypt gra=srw-alpha\n\ntekst\n}}\n',
+  }, ctx());
+  assert.ok(problemy.some((p) => /grę spoza tej strony \(srw-oe\)/.test(p)));
 });
 
 test('strona kilku gier ma osobne zakresy dla każdego bloku', () => {

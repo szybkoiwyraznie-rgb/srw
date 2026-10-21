@@ -27,6 +27,34 @@ Członkini załogi [[white-base|White Base]]. Opiekuje się rannym [[paolo-cassi
 ![Sayla Mass — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Sayla%20Mass.png)
 
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Nazwa skrócona:** Sayla
+
+| Parametr | Wartość bazowa |
+|---|---:|
+| SP | 50 |
+| Atak | 106 |
+| Obrona | 63 |
+| Celność | 134 |
+| Unik | 86 |
+
+### Komendy Ducha
+
+| Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
+|---:|---|---:|---:|---|
+| 1 | **Pęd** | 1 | 20 | Cel: ty Efekt: 1 razy — Ruch+3 |
+
+### Umiejętności pilota
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy |
+|---:|---|---:|---|
+| 1 | **Potenc. Unik** | 1 | Pozostałe HP 10%: Obr/Cel/Kryt+4% Unik+5% |
+
+}}
 {{zrodlo gra=wspolne
 
 Sayla Mass jest postacią serialu *Mobile Suit Gundam* z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
