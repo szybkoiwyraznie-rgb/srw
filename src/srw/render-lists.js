@@ -269,8 +269,8 @@ function renderFiltryKrokowe(typ, query) {
   const wybraneSeria = query.seria || '';
   const rozmiar = query.rozmiar || String(KAFEL_DOMYSLNY);
 
-  // Odcinki: tylko z wybranej gry (jeśli gra wybrana), w przeciwnym razie wszystkie.
-  let epizody = wybraneGra ? listaFiltrowana('epizod', 'gra', wybraneGra) : listaEpizodow();
+  // Odcinki: tylko z wybranej gry (jeśli gra wybrana), w przeciwnym razie żadne.
+  let epizody = wybraneGra ? listaFiltrowana('epizod', 'gra', wybraneGra) : [];
   // Zawęż odcinki do tych, które mają encje spełniające pozostałe filtry (scena, seria).
   epizody = epizody.filter((e) => {
     let kandydaci = typ === 'epizod' ? listaEpizodow() : typ === 'scena' ? listaSceneWszystkie() : listaPosortowana(typ);
