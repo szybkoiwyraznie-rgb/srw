@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-21 21:43
+
+- [[medea|Medea]] — usunięto niepotwierdzone przypisanie do serii Patlabor; jednostka pozostaje w bazie bez ustalonej serii (brak źródła potwierdzającego pochodzenie, wynik audytu PR #7).
+
 ## 2026-10-21 18:35
 
 - Portrety obsady [[srw-oe-ep1|Epizodu 1]]: [[noa-izumi|Noa Izumi]], [[isao-ota|Isao Ota]], [[kanuka-clancy|Kanuka Clancy]], [[asuma-shinohara|Asuma Shinohara]], [[kiichi-goto|Kiichi Goto]], [[mikiyasu-shinshi|Mikiyasu Shinshi]] i [[hiromi-yamazaki|Hiromi Yamazaki]] mają ilustracje na stronach.

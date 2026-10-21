@@ -7,7 +7,6 @@ piloci: [zolnierz-jsdf]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_1.txt", "profil": "Medea", "dane": "**Seria:** Brak wpisu w dostępnych słownikach jednostek i pilotów — *nieustalona*.\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Bez uzbrojenia | 0 | 0–0 | +0 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |"}'
 pochodzenie: menu
-tagi: [patlabor]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe
