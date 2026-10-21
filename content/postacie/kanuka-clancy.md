@@ -23,6 +23,16 @@ Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący proto
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Kanuka Clancy — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kanuka%20Clancy.png)
+
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Kanuka

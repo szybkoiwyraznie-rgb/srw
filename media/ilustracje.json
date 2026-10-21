@@ -5,7 +5,7 @@
   "dostarczono": "2026-10-21",
   "podstawa": "Ilustracje właściciela jako pełnoprawna dostawa encji (ADR 0017); nazwy z odczytu listy R2 (workflow r2-inventory, 2026-10-20).",
   "weryfikacjaZdalna": false,
-  "uwaga": "17 portretów w characters/ oraz 27 plików jednostek w korzeniu, w tym trzy warianty Zaku II i cztery jednostki z epizodu 1 po dwie ilustracje. Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów (R2 zwraca HTTP 500), więc nie deklarujemy obejrzenia zawartości.",
+  "uwaga": "24 portrety w characters/ oraz 27 plików jednostek w korzeniu, w tym trzy warianty Zaku II i cztery jednostki z epizodu 1 po dwie ilustracje. Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów (R2 zwraca HTTP 500), więc nie deklarujemy obejrzenia zawartości.",
   "encje": {
     "exart": [
       "Exart.jpg",
@@ -112,6 +112,27 @@
     "ingram-nr-2": [
       "Ingram nr 2.png",
       "Ingram nr 2 2.png"
+    ],
+    "asuma-shinohara": [
+      "characters/Asuma Shinohara.png"
+    ],
+    "hiromi-yamazaki": [
+      "characters/Hiromi Yamazaki.png"
+    ],
+    "isao-ota": [
+      "characters/Isao Ota.png"
+    ],
+    "kanuka-clancy": [
+      "characters/Kanuka Clancy.png"
+    ],
+    "kiichi-goto": [
+      "characters/Kiichi Goto.png"
+    ],
+    "mikiyasu-shinshi": [
+      "characters/Mikiyasu Shinshi.png"
+    ],
+    "noa-izumi": [
+      "characters/Noa Izumi.png"
     ]
   },
   "nieprzypisane": []

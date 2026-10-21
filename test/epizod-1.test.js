@@ -31,6 +31,17 @@ const BY_SLUG = {
   'ingram-nr-2': 'Ingram nr 2.png',
 };
 
+// Portrety w characters/ — nazwa pliku równa się tytułowi postaci.
+const PORTRETY = {
+  'asuma-shinohara': 'Asuma Shinohara.png',
+  'hiromi-yamazaki': 'Hiromi Yamazaki.png',
+  'isao-ota': 'Isao Ota.png',
+  'kanuka-clancy': 'Kanuka Clancy.png',
+  'kiichi-goto': 'Kiichi Goto.png',
+  'mikiyasu-shinshi': 'Mikiyasu Shinshi.png',
+  'noa-izumi': 'Noa Izumi.png',
+};
+
 test('epizod 1 istnieje, a skrypt jest archiwum rozegrania', () => {
   const ep = bySlug.get('srw-oe-ep1');
   assert.equal(ep.typ, 'epizod');
@@ -224,7 +235,18 @@ test('epizod 1 nie ujawnia surowych etykiet misji, a jednostki mają dostarczone
       assert.ok(body.includes(`${manifest.baseUrl}/${encodeURIComponent(file)}`), `${slug}: ${file}`);
     }
   }
-  for (const slug of [...nowePostacie, ...nowePojecia, 'patlabor-the-movie', 'srw-oe-ep1', 'srw-oe-ep1-szalejacy-prototyp-labora']) {
+  // Siedem postaci z obsady dostało po jednym portrecie w characters/.
+  for (const [slug, plik] of Object.entries(PORTRETY)) {
+    assert.deepEqual(manifest.encje[slug], [`characters/${plik}`], slug);
+    const body = bySlug.get(slug).body;
+    assert.match(body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria z zakresem gry`);
+    assert.equal((body.match(/!\[/g) ?? []).length, 1, `${slug}: jeden portret`);
+    assert.ok(body.includes(`${manifest.baseUrl}/characters/${encodeURIComponent(plik)}`), `${slug}: portret`);
+    assert.match(body, /\]\([^)]*characters\/[^)]*\.png\)/, `${slug}: portret w characters/`);
+  }
+
+  // Postacie bez profilu ze zdjęciem, hasła, seria, epizod i scena nadal nie mają ilustracji.
+  for (const slug of ['zolnierz-jsdf', 'shinohara-hos', ...nowePojecia, 'patlabor-the-movie', 'srw-oe-ep1', 'srw-oe-ep1-szalejacy-prototyp-labora']) {
     assert.doesNotMatch(bySlug.get(slug).body, /!\[/, `${slug}: bez ilustracji`);
   }
 });

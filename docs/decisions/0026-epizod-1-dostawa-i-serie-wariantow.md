@@ -68,3 +68,11 @@ obrazami. Sandbox nadal nie ma dostępu sieciowego do `r2.dev`, więc `weryfikac
 tych czterech jednostek; pozostałe strony epizodu 1 (postacie, hasła, seria, epizod i scena)
 ilustracji nadal nie mają.
 
+## Adnotacja 2026-10-21 — portrety obsady epizodu 1
+
+Właściciel dostarczył siedem portretów w katalogu `characters/`: **Asuma Shinohara**, **Hiromi
+Yamazaki**, **Isao Ota**, **Kanuka Clancy**, **Kiichi Goto**, **Mikiyasu Shinshi** i **Noa Izumi**
+(po jednym pliku `.png`, nazwa pliku równa się tytułowi strony). Manifest `media/ilustracje.json`
+ma teraz 38 encji i 51 plików. Postacie bez własnego portretu — Żołnierz JSDF i Shinohara HOS
+— oraz hasła, seria, epizod i scena pozostają bez ilustracji do czasu dostawy.
+

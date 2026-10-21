@@ -20,3 +20,13 @@ Gdy walka z [[hal-x10|HAL-X10]] wymyka się planowi, prosi pilota o rozwagę i d
 
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Mikiyasu Shinshi — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Mikiyasu%20Shinshi.png)
+
+}}
