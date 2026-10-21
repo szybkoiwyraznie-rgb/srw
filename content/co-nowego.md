@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-10-21 13:30
+
+- Jedenastu pilotów ma pełne statystyki — SP, atak, obronę, celność i unik — a także komendy Ducha i umiejętności, od [[seishiro|Seishira]] po [[zolnierz-zeonu|Żołnierza Zeonu]].
+- [[brocken|Brocken]] i [[control-ai|Control AI]] wchodzą do obsady [[prolog-i-trening-w-connect|szkolenia podstawowego]]: trzy symulowane maszyny ćwiczą [[exart|Exarta]].
+- [[white-base|White Base]] pokazuje [[mirai-yashima|Mirai]] jako podpilota z własną pulą SP i komendą Zauf., a [[rx-78-2-gundam|Gundam]] — przynależność do Oddziału White Base.
+- Parametry uzbrojenia dziewięciu jednostek są zgodne z nowym opracowaniem epizodu 0.
+
 ## 2026-10-21 01:12
 
 - [[loum|Loum]] opisuje bitwę własnymi słowami: mobile suity zniszczyły okręty Federacji, a flota Federacji zebrała się na [[luna-ii|Luna II]] przed starciem.

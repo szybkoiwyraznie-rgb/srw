@@ -76,6 +76,8 @@ test('nowa dostawa: White Base i Gundam mają pełne parametry załogi i uzbroje
     assert.match(mech.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria`);
   }
   assert.deepEqual(bySlug.get('white-base').piloci, ['bright-noa', 'mirai-yashima']);
+  assert.match(bySlug.get('white-base').body, /Podpilot: korzysta ze statystyk bojowych głównego pilota/);
+  assert.match(JSON.parse(bySlug.get('white-base').w_gre['srw-oe']).dane, /\*\*Zauf\. \(poziom bazowy 1\):\*\*/);
   assert.deepEqual(bySlug.get('rx-78-2-gundam').piloci, ['amuro-ray']);
   assert.deepEqual(bySlug.get('bright-noa').mechy, ['white-base']);
   assert.deepEqual(bySlug.get('mirai-yashima').mechy, ['white-base']);
