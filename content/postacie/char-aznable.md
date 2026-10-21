@@ -30,6 +30,28 @@ Ocenia, że [[rx-78-2-gundam|Gundam]] i maszyna [[connect-force|Connect]] mogą 
 ![Char Aznable — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Char%20Aznable.png)
 
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Nazwa skrócona:** Char
+
+| Parametr | Wartość bazowa |
+|---|---:|
+| SP | 50 |
+| Atak | 112 |
+| Obrona | 77 |
+| Celność | 136 |
+| Unik | 80 |
+
+### Umiejętności pilota
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy |
+|---:|---|---:|---|
+| 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+}}
 {{zrodlo gra=wspolne
 
 Char Aznable to antagonista *Mobile Suit Gundam* z 1979 roku, as Księstwa Zeonu nazywany Czerwoną Kometą ([Wikipedia, „Char Aznable”](https://en.wikipedia.org/wiki/Char_Aznable); sprawdzono 2026-10-20).

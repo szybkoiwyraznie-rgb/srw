@@ -19,8 +19,25 @@ Zwykły żołnierz Księstwa [[zeon|Zeonu]] — bezimienny pilot masowo produkow
 Jego siłą nie jest indywidualne wyszkolenie, lecz szyk. Żołnierze tego samego typu walczą w grupach, a wytrzymałość grupy jest sumą wytrzymałości jej maszyn.
 
 Nie każdą z tych maszyn prowadzi jednak bezimienny żołnierz: podczas ataku na [[white-base|White Base]] [[zaku-ii-karabin-maszynowy|maszynę z karabinem maszynowym]] prowadzi [[slender|Slender]], a [[zaku-ii-bazooka|wersję z bazooką]] — [[crown|Crown]].
-
-## Umiejętności
-
-- **Szeregowy (bez poziomu):** Zbiorcza z tą samą jedn.; wsparcie w grupie; HP = suma grupy. *Pole poziomu nauki: 1.*
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+| Parametr | Wartość bazowa |
+|---|---:|
+| SP | 10 |
+| Atak | 107 |
+| Obrona | 65 |
+| Celność | 125 |
+| Unik | 61 |
+
+### Umiejętności pilota
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy |
+|---:|---|---:|---|
+| 1 | **Szeregowy** | 1 | Zbiorcza z tą samą jedn.; wsparcie w grupie / HP = suma grupy |
+
+}}
+

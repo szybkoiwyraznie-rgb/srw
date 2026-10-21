@@ -84,7 +84,42 @@ test('nowa dostawa: White Base i Gundam mają pełne parametry załogi i uzbroje
 test('Precyzja Seishira trafia do profilu Exarta i do jego strony', () => {
   assert.match(bySlug.get('exart').body, /\*\*Precyzja \(poziom bazowy 1\):\*\* Kryt\/Kryt Obraż\.\+15%/);
   assert.match(JSON.parse(bySlug.get('exart').w_gre['srw-oe']).dane, /\*\*Precyzja \(poziom bazowy 1\):\*\*/);
-  assert.match(bySlug.get('seishiro').body, /\*\*Precyzja \(poziom bazowy 1\):\*\* Kryt\/Kryt Obraż\.\+15%/);
+  assert.match(bySlug.get('seishiro').body, /\| 2 \| \*\*Precyzja\*\* \| 3 \| Kryt\/Kryt Obraż\.\+15% \|/);
+});
+
+test('profile pilotów z nowej dostawy: statystyki, komendy Ducha i umiejętności', () => {
+  const statystyki = {
+    seishiro: [50, 120, 59, 137, 75],
+    'control-ai': [10, 102, 66, 122, 61],
+    'masaki-andoh': [60, 140, 55, 128, 72],
+    'amuro-ray': [60, 114, 70, 137, 74],
+    'bright-noa': [50, 110, 87, 126, 63],
+    'char-aznable': [50, 112, 77, 136, 80],
+    slender: [50, 106, 71, 124, 63],
+    crown: [50, 112, 67, 126, 59],
+    'sayla-mass': [50, 106, 63, 134, 86],
+    'zolnierz-zeonu': [10, 107, 65, 125, 61],
+  };
+  for (const [slug, [sp, atk, obr, cel, unik]] of Object.entries(statystyki)) {
+    const body = bySlug.get(slug).body;
+    assert.match(body, /\{\{menu gra=srw-oe\n\n## Parametry/, `${slug}: parametry`);
+    const wartosci = [['SP', sp], ['Atak', atk], ['Obrona', obr], ['Celność', cel], ['Unik', unik]];
+    for (const [nazwa, wartosc] of wartosci) {
+      assert.match(body, new RegExp(`\\| ${nazwa} \\| ${wartosc} \\|`), `${slug}: ${nazwa}`);
+    }
+  }
+  // Mirai jest podpilotem: ma pulę SP i komendę, ale nie statystyki bojowe.
+  const mirai = bySlug.get('mirai-yashima').body;
+  assert.match(mirai, /\*\*Pula SP:\*\* 50/);
+  assert.match(mirai, /\*\*Zauf\.\*\* \| 1 \| 20 \|/);
+  assert.doesNotMatch(mirai, /\| Atak \|/);
+  // Char nie ma komend Ducha, a Seishiro ma komendę Skupienie.
+  assert.doesNotMatch(bySlug.get('char-aznable').body, /Komendy Ducha/);
+  assert.match(bySlug.get('seishiro').body, /\*\*Skupienie\*\* \| 1 \| 15 \|/);
+  // Surowe etykiety misji nie trafiają na strony.
+  for (const page of pages) {
+    assert.doesNotMatch(page.body, /DL100|Entry ID|eventP00/, `${page.slug}: bez etykiet misji`);
+  }
 });
 
 test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji', () => {
@@ -124,7 +159,7 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
   assert.equal(bySlug.get('zolnierz-zeonu').typ, 'postac');
   assert.equal(bySlug.get('zolnierz-zeonu').pochodzenie, 'menu');
   assert.deepEqual(bySlug.get('zolnierz-zeonu').mechy, ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka']);
-  assert.match(bySlug.get('zolnierz-zeonu').body, /Szeregowy \(bez poziomu\)/);
+  assert.match(bySlug.get('zolnierz-zeonu').body, /\*\*Szeregowy\*\* \| 1 \|/);
   const scena = bySlug.get('srw-oe-ep0-na-ratunek-white-base');
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
     assert.ok(scena.mechy.includes(slug), `scena 0-2: ${slug} w obsadzie`);

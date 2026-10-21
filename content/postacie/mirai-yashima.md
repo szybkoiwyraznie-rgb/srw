@@ -27,6 +27,22 @@ Członkini załogi [[white-base|White Base]]. Melduje o starcie okrętu, a usły
 ![Mirai Yashima — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Mirai%20Yashima.png)
 
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Nazwa skrócona:** Mirai
+
+**Pula SP:** 50 *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+### Komendy Ducha
+
+| Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
+|---:|---|---:|---:|---|
+| 1 | **Zauf.** | 1 | 20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
+
+}}
 {{zrodlo gra=wspolne
 
 Mirai Yashima jest postacią serialu *Mobile Suit Gundam* z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).

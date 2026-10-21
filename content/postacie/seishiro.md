@@ -35,12 +35,31 @@ Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]]
 
 {{menu gra=srw-oe
 
-## Umiejętności
+## Parametry
 
-W [[exart|Exarcie]] ma dwie umiejętności:
+**Nazwa skrócona:** Seishiro
 
-- **Potencjał (poziom bazowy 1):** Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4%. *Pole poziomu nauki: 1.*
-- **Precyzja (poziom bazowy 1):** Kryt/Kryt Obraż.+15%. *Pole poziomu nauki: 3.*
+| Parametr | Wartość bazowa |
+|---|---:|
+| SP | 50 |
+| Atak | 120 |
+| Obrona | 59 |
+| Celność | 137 |
+| Unik | 75 |
+
+### Komendy Ducha
+
+| Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
+|---:|---|---:|---:|---|
+| 1 | **Skupienie** | 1 | 15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
+
+### Umiejętności pilota
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy |
+|---:|---|---:|---|
+| 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+| 2 | **Precyzja** | 3 | Kryt/Kryt Obraż.+15% |
+
 }}
 
 ## Dane postaci

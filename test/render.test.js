@@ -160,7 +160,7 @@ test('strona główna: dziennik zmian w lewej kolumnie, ostatnio dodane w prawej
   assert.equal((lewa.match(/<span class="data mono">/g) ?? []).length, 8, 'osiem najnowszych wpisów');
   assert.match(lewa, /href="#\/co-nowego"/, 'odsyłacz do całego dziennika');
   const prawa = html.slice(html.indexOf('Ostatnio dodane'));
-  assert.match(prawa, /href="#\/postac\//, 'prawa kolumna linkuje do wpisów');
+  assert.match(prawa, /href="#\/(postac|mech|pojecie|seria)\//, 'prawa kolumna linkuje do wpisów');
   // Kafle nadal prowadzą do czterech działów fabularnych.
   for (const href of ['#/sceny', '#/epizody', '#/postacie', '#/mechy']) {
     assert.ok(html.includes(`class="kafelek" href="${href}"`), `kafel ${href}`);

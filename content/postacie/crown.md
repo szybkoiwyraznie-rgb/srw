@@ -27,3 +27,23 @@ W eskorcie [[char-aznable|Chara]] leci [[zaku-ii-bazooka|Zaku II z bazooką]], o
 ![Crown — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Crown.png)
 
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+| Parametr | Wartość bazowa |
+|---|---:|
+| SP | 50 |
+| Atak | 112 |
+| Obrona | 67 |
+| Celność | 126 |
+| Unik | 59 |
+
+### Umiejętności pilota
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy |
+|---:|---|---:|---|
+| 1 | **Potenc. Atk** | 1 | Pozostałe HP 10%: Obr/Unik+4% Atk/Kryt+5% |
+
+}}

@@ -27,3 +27,23 @@ W eskorcie [[char-aznable|Chara]] leci [[zaku-ii-karabin-maszynowy|Zaku II z kar
 ![Slender — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Slender.png)
 
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+| Parametr | Wartość bazowa |
+|---|---:|
+| SP | 50 |
+| Atak | 106 |
+| Obrona | 71 |
+| Celność | 124 |
+| Unik | 63 |
+
+### Umiejętności pilota
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy |
+|---:|---|---:|---|
+| 1 | **Potenc. Obr** | 1 | Pozostałe HP 10%: Obr+5% Cel/Unik/Kryt+4% |
+
+}}
