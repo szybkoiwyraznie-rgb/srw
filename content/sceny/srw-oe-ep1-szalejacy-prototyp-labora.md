@@ -17,15 +17,11 @@ utworzono: 2026-10-21
 
 ## Treść sceny
 
-:::skrypt
-# Super Robot Wars OE — Epizod 1
-
----
-
-## Ep. 1: Szalejący prototyp Labora
+Misja to jedna scena, ale scenariusz dzieli ją na osiem części. Poniżej cały tekst w kolejności, część po części, z nagłówkami z materiału.
 
 ### Stacja Connect / Okolice Ziemi
 
+:::skrypt
 **Szef Suol:** ...No i tak to wygląda. Dziś weźmiecie udział we wspólnych ćwiczeniach z Siłami Samoobrony i Laborami policji.
 
 **Seishiro:** Szefie, podobno Himari poleci dziś ze mną w Exarcie na ćwiczenia...?
@@ -83,9 +79,11 @@ utworzono: 2026-10-21
 **Seishiro:** ......
 
 **Seishiro:** ...Popracuję nad tym.
+:::
 
 ### Patlabor
 
+:::skrypt
 Labor - ogólna nazwa robotów zaprojektowanych do zastosowań przemysłowych.
 
 Upowszechniły się w budownictwie, ale zarazem lawinowo przybyło przestępstw z ich udziałem...
@@ -93,9 +91,11 @@ Upowszechniły się w budownictwie, ale zarazem lawinowo przybyło przestępstw 
 Aby im przeciwdziałać, Policja Metropolitalna Tokio utworzyła kompanię patrolowych Laborów SV2.
 
 Tak narodził się Patlabor.
+:::
 
 ### Siły Samoobrony, poligon Fuji
 
+:::skrypt
 **Żołnierz JSDF:** Dotarliśmy na punkt ćwiczeń zgodnie z planem.
 
 **Żołnierz JSDF:** Nasi partnerzy z ćwiczeń zaraz powinni zejść.
@@ -173,9 +173,11 @@ Tak narodził się Patlabor.
 **Żołnierz JSDF:** Taką cenę płaci Japonia za neutralność, podczas gdy cały świat stał się polem bitwy.
 
 **Żołnierz JSDF:** To boli... ale na razie pozostaje nam ćwiczyć.
+:::
 
 ### SV2 dołącza do ćwiczeń
 
+:::skrypt
 **Ota:** Drugi Pluton melduje się na miejscu!
 
 **Izumi:** Bardzo mi miło, liczę na współpracę!
@@ -243,9 +245,11 @@ Tak narodził się Patlabor.
 **Shinohara:** Wszyscy: pokonać przeszkody i na punkt zbiórki.
 
 **Izumi:** Przyjęłam!
+:::
 
 ### Ostra amunicja
 
+:::skrypt
 **Seishiro:** Co?! To była ostra amunicja!
 
 **Himari:** Niespodzianka dla większego realizmu?
@@ -329,9 +333,11 @@ Tak narodził się Patlabor.
 **Ota:** Dawaj! Zmierzysz się ze mną!
 
 **Izumi:** Ota! Nie w pojedynkę!
+:::
 
 #### Dialogi bojowe — warunkowe i sytuacyjne
 
+:::skrypt
 > **Himari:** Ugh... to jest to, a to, eee... a to tutaj...
 
 > **Himari:** Uuu... hmmm...
@@ -357,9 +363,11 @@ Tak narodził się Patlabor.
 > **Izumi:** Przyjęłam!
 
 > **Izumi:** Z tyłu chyba nie ma żadnych dział, więc jak go unieruchomię, powinno się udać...
+:::
 
 ### Po ćwiczeniach
 
+:::skrypt
 **Himari:** Wszystkie cele zamilkły.
 
 **Seishiro:** Załatwione...
@@ -407,16 +415,16 @@ Tak narodził się Patlabor.
 **Izumi:** Dzięki, Asuma.
 
 **Izumi:** Alphonse się porysował. Ciekawe, czy Shige będzie zły...
+:::
 
 ### Następstwa
 
+:::skrypt
 Incydent z najnowszymi Laborami Sił Samoobrony opanowano bez ofiar wśród cywilów.
 
 Żadna organizacja terrorystyczna nie przyznała się do ataku, a sprawy nigdy nie upubliczniono.
 
 Zdarzył się jednak podczas wspólnych ćwiczeń, więc Ministerstwo Obrony nie mogło go ukryć i podjęło współpracę z innymi organizacjami...
-
----
 :::
 
 ## Analiza

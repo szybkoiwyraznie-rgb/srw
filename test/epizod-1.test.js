@@ -40,22 +40,25 @@ test('epizod 1 istnieje, a skrypt jest archiwum rozegrania', () => {
   assert.equal(scena.numer_sceny, '1-1');
   assert.match(scena.body, /## Treść sceny/);
   assert.match(scena.body, /## Analiza/);
-  assert.match(scena.body, /:::skrypt\n# Super Robot Wars OE — Epizod 1/);
+  assert.match(scena.body, /:::skrypt\n/);
+  assert.match(scena.body, /### Stacja Connect \/ Okolice Ziemi/);
 });
 
-test('epizod 1 ma jedną scenę 1-1 obejmującą cały skrypt, z częściami w środku', () => {
+test('epizod 1 ma jedną scenę 1-1, a skrypt jest w niej podzielony na części', () => {
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1');
   assert.equal(sceny.length, 1, 'misja to jedna scena w bazie');
   const scena = sceny[0];
   assert.equal(scena.slug, 'srw-oe-ep1-szalejacy-prototyp-labora');
   assert.equal(scena.numer_sceny, '1-1');
   assert.equal(scena.tytul, 'Szalejący prototyp Labora');
+  assert.match(scena.body, /## Treść sceny/);
+  assert.match(scena.body, /## Analiza/);
 
-  const cytat = scena.body.split(':::skrypt\n')[1].split('\n:::')[0].trimEnd();
-  assert.equal(cytat, script.trimEnd(), 'scena cytuje cały skrypt epizodu');
-
-  // Skrypt dzieli się wewnątrz na części — te same nagłówki muszą zostać w cytacie.
-  const czesci = [
+  // Każda część ma własny nagłówek i własny blok skryptu — nagłówki zostają widoczne na stronie.
+  const czesci = [...scena.body.matchAll(/^(#{3,4} .+)\n\n:::skrypt\n([\s\S]*?)\n:::/gm)]
+    .map((m) => ({ naglowek: m[1], tekst: m[2] }));
+  assert.equal(czesci.length, 8);
+  assert.deepEqual(czesci.map((c) => c.naglowek), [
     '### Stacja Connect / Okolice Ziemi',
     '### Patlabor',
     '### Siły Samoobrony, poligon Fuji',
@@ -64,13 +67,15 @@ test('epizod 1 ma jedną scenę 1-1 obejmującą cały skrypt, z częściami w �
     '#### Dialogi bojowe — warunkowe i sytuacyjne',
     '### Po ćwiczeniach',
     '### Następstwa',
-  ];
-  for (const czesc of czesci) assert.ok(cytat.includes(czesc), czesc);
-  assert.match(scena.body, /## Analiza/);
-  // Analiza omawia części, ale nie tworzy z nich osobnych stron.
-  for (const czesc of ['Odprawa na stacji Connect', 'Wtrącenie o Patlaborze', 'Na poligonie Fuji', 'SV2 dołącza do ćwiczeń', 'Ostra amunicja', 'Warunkowe dialogi bitewne', 'Po ćwiczeniach', 'Następstwa']) {
-    assert.match(scena.body, new RegExp(`### ${czesc}`), czesc);
-  }
+  ]);
+
+  // Części sklejone w kolejności dają cały skrypt poza nagłówkiem pliku i kreską zamykającą.
+  const odtworzone = czesci.map((c) => `${c.naglowek}\n\n${c.tekst}`).join('\n\n');
+  const oczekiwane = script
+    .replace(/^# Super Robot Wars OE — Epizod 1\n\n---\n\n## Ep\. 1: Szalejący prototyp Labora\n\n/, '')
+    .replace(/\n\n---\n?$/, '');
+  assert.equal(odtworzone, oczekiwane);
+  for (const czesc of czesci) assert.ok(script.includes(czesc.tekst), czesc.naglowek);
   assert.equal(pages.filter((p) => p.typ === 'scena').length, 3, 'dwie sceny epizodu 0 i jedna epizodu 1');
 });
 
