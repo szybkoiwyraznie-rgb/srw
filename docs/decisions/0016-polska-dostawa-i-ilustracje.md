@@ -48,7 +48,7 @@ Polecenie jest jawnym wyjątkiem od zakazu samodzielnego poprawiania archiwalnyc
    W dostawie parametrów zachowujemy dosłowne znaczniki `&lt;br&gt;` i odstępy tabel.
    Na stronach pochodnych znaczniki końca wiersza zastępujemy separatorami tekstowymi,
    a tabele składamy bez pustych linii między wierszami. Nie poprawiamy wartości, skrótów
-   ani nietypowych zapisów (np. „Obrona:Obraz.-24%”).
+   ani nietypowych zapisów (np. „Obrona:Obraz.-24%” w wersji z 2026-10-19).
 4. Dane jednostek z menu nie dowodzą ich wystąpienia w epizodzie 0. Domyślny profil
    Himari na miejscu 2 Exarta jest informacją z menu, nie przyszłym wydarzeniem fabuły.
    Cybuster, Cybird, Brocken i Real PG Gundam nie trafiają do obsady tej sceny.

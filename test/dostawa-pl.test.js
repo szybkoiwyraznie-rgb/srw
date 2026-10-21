@@ -187,6 +187,7 @@ test('profile załogi i transformacje są powiązane, ale nie udają sceny fabul
   assert.deepEqual(bySlug.get('exart').piloci, ['seishiro']);
   assert.deepEqual(bySlug.get('masaki-andoh').mechy, ['cybuster', 'cybird']);
   assert.deepEqual(bySlug.get('control-ai').mechy, ['brocken']);
+  assert.equal(bySlug.get('control-ai').seria, undefined, 'Control AI nie ma wpisu w słowniku postaci');
   assert.deepEqual(bySlug.get('real-pg-gundam').piloci, []);
   assert.match(bySlug.get('cybuster').body, /\[\[cybird\|Cybird\]\]/);
   assert.match(bySlug.get('cybird').body, /\[\[cybuster\|Cybuster\]\]/);

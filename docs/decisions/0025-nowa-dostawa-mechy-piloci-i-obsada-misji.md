@@ -27,7 +27,11 @@ misje, mechy i pilotów.
    i Slenderem. Surowych nazw plików misji nie pokazujemy na stronach (ADR 0024 pkt 3).
 5. Statystyki pilotów, komendy Ducha i umiejętności są prezentowane na stronach postaci.
    Profil jednostki zachowuje dotychczasowy skrót domyślnej załogi.
-6. Ilustracje i sceny pozostają nietknięte.
+6. Brak wpisu w słowniku postaci nie jest tym samym co brak przynależności świata.
+   **Control AI** — profil sterujący maszyną — nie dostaje serii Patlabor; związek z tą
+   serią dotyczy Brockena. **Żołnierz Zeonu** zachowuje serię Gundam, bo armia
+   Zeonu należy do tej serii, choć sam profil nie ma wpisu w słowniku.
+7. Ilustracje i sceny pozostają nietknięte.
 
 ## Konsekwencje
 
