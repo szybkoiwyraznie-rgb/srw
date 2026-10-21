@@ -24,18 +24,23 @@ const KAFEL_DOMYSLNY = 240;
 const POLA_FILTRU = ['gra', 'epizod', 'scena', 'seria'];
 
 export function renderListe(typ, query = {}) {
+  // Filtry zależne nie mogą być aktywne bez swoich wymagań (np. Odcinek bez Gry).
+  const q = { ...query };
+  if (q.epizod && !q.gra) delete q.epizod;
+  if (q.scena && !q.epizod) delete q.scena;
+
   let lista = typ === 'epizod'
     ? listaEpizodow()
     : typ === 'scena' ? listaSceneWszystkie() : listaPosortowana(typ);
 
   // Zastosuj WSZYSTKIE ustawione filtry jednocześnie (intersection), nie tylko pierwszy.
   for (const pole of POLA_FILTRU) {
-    const wartosc = query[pole];
+    const wartosc = q[pole];
     if (!wartosc) continue;
     lista = filtrujPoPolu(lista, typ, pole, wartosc);
   }
 
-  const filtr = wybierzFiltr(typ, query); // tylko do nagłówka (który źródło jest wybrane)
+  const filtr = wybierzFiltr(typ, q); // tylko do nagłówka (który źródło jest wybrane)
 
   if (lista.length === 0) {
     return naglowekListy(typ, filtr, 0) + stanPusty(
@@ -48,7 +53,7 @@ export function renderListe(typ, query = {}) {
     ? listaEpizodowHtml(lista)
     : typ === 'scena' ? listaSceneHtml(lista) : listaEncjiHtml(lista, typ);
 
-  const filtrHtml = (typ === 'postac' || typ === 'mech') ? renderFiltryKrokowe(typ, query) : '';
+  const filtrHtml = (typ === 'postac' || typ === 'mech') ? renderFiltryKrokowe(typ, q) : '';
   return naglowekListy(typ, filtr, lista.length) + filtrHtml + html;
 }
 
@@ -348,7 +353,8 @@ globalThis.srwZmienFiltr = function (select, pole) {
   const q = kontener ? JSON.parse(kontener.dataset.query ?? '{}') : {};
   if (select.value) q[pole] = select.value; else delete q[pole];
   if (pole === 'gra') { delete q.epizod; delete q.scena; }
-  if (pole === 'epizod') { delete q.scena; }
+  if (pole === 'epizod') { delete q.scena; if (!q.gra) delete q.epizod; }
+  if (pole === 'scena' && !q.epizod) delete q.scena;
   const typ = kontener?.dataset?.typ ?? 'mech';
   location.hash = `${hrefListy(typ)}?${new URLSearchParams(q).toString()}`;
 };
