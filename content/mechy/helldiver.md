@@ -18,6 +18,8 @@ utworzono: 2026-10-21
 Wojskowy Labor Sił Samoobrony, skierowany na ćwiczenia na poligonie Fuji jako jednostka trzeciej strony. Uzbrojenie stanowią nóż bojowy i szybkostrzelne działko automatyczne.
 
 W zamieszaniu wywołanym utratą kontroli nad [[hal-x10|HAL-X10]] Helldivery pozostają poza starciem głównych sił.
+
+Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 {{menu gra=srw-oe
 

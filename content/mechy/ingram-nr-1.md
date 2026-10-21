@@ -18,6 +18,8 @@ utworzono: 2026-10-21
 Policyjny Labor Drugiego Plutonu [[sv2|SV2]], pilotowany przez [[noa-izumi|Noę Izumi]]. Podczas ćwiczeń na poligonie Fuji maszyna wchodzi do walki z bezzałogowymi [[hal-x10|HAL-X10]], gdy te zaczynają strzelać ostrą amunicją.
 
 Noa nazywa swój Ingram Alphonse'em i przejmuje się każdą rysą na kadłubie. Uzbrojenie maszyny to działo rewolwerowe, pałka paraliżująca i linka do obezwładniania celów.
+
+Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 {{menu gra=srw-oe
 

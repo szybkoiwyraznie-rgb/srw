@@ -17,4 +17,6 @@ utworzono: 2026-10-21
 Kapitan Drugiego Plutonu [[sv2|SV2]]. W ćwiczeniach zostawia polecenia młodym i zamiast wydawać rozkazy pozwala plutonowi działać samodzielnie.
 
 Kiedy [[hal-x10|HAL-X10]] przejmują inicjatywę, zarządza „odwrót”, który w praktyce oznacza walkę z przeszkodami na drodze. Po wszystkim zostawia [[connect-force|Connect]] sprzątanie poligonu.
+
+Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}

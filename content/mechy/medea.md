@@ -17,6 +17,8 @@ utworzono: 2026-10-21
 Jednostka wsparcia Sił Samoobrony, pozbawiona uzbrojenia. W ćwiczeniach na poligonie Fuji towarzyszy wojskowym jednostkom naziemnym.
 
 Jej przynależność do konkretnej serii nie została ustalona — w materiale brak wpisu w słownikach jednostek i pilotów.
+
+Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 {{menu gra=srw-oe
 

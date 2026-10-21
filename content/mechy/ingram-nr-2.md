@@ -18,6 +18,8 @@ utworzono: 2026-10-21
 Drugi Ingram Drugiego Plutonu [[sv2|SV2]], pilotowany przez [[isao-ota|Isao Otę]]. Różni się od maszyny nr 1 cięższym działem rewolwerowym i strzelbą policyjną zamiast linki.
 
 Podczas ćwiczeń na poligonie Fuji Ota chce jak najszybciej zniszczyć bezzałogowe [[hal-x10|HAL-X10]], zanim dotrą do zaludnionych terenów.
+
+Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 {{menu gra=srw-oe
 

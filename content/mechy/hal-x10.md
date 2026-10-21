@@ -18,6 +18,8 @@ utworzono: 2026-10-21
 Bezzałogowy ciężki Labor prototypowy Sił Samoobrony, ćwiczący na poligonie Fuji. Podczas wspólnych manewrów wymyka się spod kontroli i otwiera ogień ostrą amunicją, zanim ktokolwiek zdąży przejąć sterowanie. Jego pancerz i siła ognia są o klasę wyżej niż policyjne Labory, dlatego [[sv2|SV2]] nie jest w stanie zatrzymać go własnymi środkami.
 
 Maszyną nie kieruje człowiek, lecz system [[shinohara-hos|HOS]]. Kiedy cele ćwiczebne zaczynają strzelać, w kokpitach HAL-X10 nie ma żadnych oznak życia.
+
+Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 {{menu gra=srw-oe
 

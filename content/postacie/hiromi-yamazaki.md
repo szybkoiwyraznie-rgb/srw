@@ -17,4 +17,6 @@ utworzono: 2026-10-21
 Członek Drugiego Plutonu [[sv2|SV2]]. Przed ćwiczeniami zastanawia się, jakie plotki o plutonie dotarły do ludzi z Sił Samoobrony.
 
 Wraz z resztą plutonu obserwuje ćwiczenia na poligonie Fuji i pierwsze oznaki utraty kontroli nad [[hal-x10|HAL-X10]].
+
+Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
