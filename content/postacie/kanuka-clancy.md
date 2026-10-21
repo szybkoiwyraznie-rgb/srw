@@ -20,3 +20,31 @@ Zauważa też, że mówi się o pracach nad mobile suitami zrzucanymi z orbity. 
 
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Nazwa skrócona:** Kanuka
+
+| Parametr | Wartość bazowa |
+|---|---:|
+| SP | 50 |
+| Atak | 112 |
+| Obrona | 64 |
+| Celność | 146 |
+| Unik | 72 |
+
+### Komendy Ducha
+
+| Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
+|---:|---|---:|---:|---|
+| 1 | **Wiatr** | 1 | 20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
+
+### Umiejętności pilota
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy |
+|---:|---|---:|---|
+| 1 | **Potenc. Kryt** | 1 | Pozostałe HP 10%: Obr/Unik+4% Cel/Kryt+5% |
+
+}}

@@ -19,3 +19,25 @@ Zachowanie HAL-X10 wskazuje na sabotaż lub awarię, ale przyczyny pozostają ni
 
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Nazwa skrócona:** HOS
+
+| Parametr | Wartość bazowa |
+|---|---:|
+| SP | 10 |
+| Atak | 102 |
+| Obrona | 65 |
+| Celność | 122 |
+| Unik | 65 |
+
+### Umiejętności pilota
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy |
+|---:|---|---:|---|
+| 1 | **Rój** | 1 | Zbiorcza z tą samą jedn.; wsparcie w grupie / HP = suma grupy |
+
+}}

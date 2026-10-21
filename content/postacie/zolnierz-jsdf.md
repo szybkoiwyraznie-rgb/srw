@@ -3,6 +3,7 @@ typ: postac
 slug: zolnierz-jsdf
 tytul: Żołnierz JSDF
 rola: pilot
+seria: mobile-police-patlabor
 gry: [srw-oe]
 mechy: [medea, helldiver]
 pochodzenie: skrypt
@@ -18,4 +19,24 @@ Bezimienny żołnierz Sił Samoobrony Japonii, obecny na wspólnych ćwiczeniach
 Żołnierze narzekają, że ograniczenia technologiczne każą im polegać na superrobotach innych organizacji, i widzą w tym cenę neutralności kraju. Kiedy cele ćwiczebne zaczynają strzelać ostrą amunicją, to oni wzywają pomoc i ustępują miejsca [[connect-force|Connect]].
 
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+}}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+| Parametr | Wartość bazowa |
+|---|---:|
+| SP | 10 |
+| Atak | 107 |
+| Obrona | 61 |
+| Celność | 122 |
+| Unik | 61 |
+
+### Umiejętności pilota
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy |
+|---:|---|---:|---|
+| 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
 }}

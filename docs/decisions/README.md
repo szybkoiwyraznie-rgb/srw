@@ -38,3 +38,4 @@ Zasady:
 | [0023](0023-wariant-jednostki-z-dostawy.md) | Odrębna jednostka z dostawy ma własną stronę |
 | [0024](0024-obsada-misji-a-domyslna-zaloga.md) | Obsada misji a domyślna załoga jednostki |
 | [0025](0025-nowa-dostawa-mechy-piloci-i-obsada-misji.md) | Nowa dostawa epizodu 0: mechy, piloci i obsada misji |
+| [0026](0026-epizod-1-dostawa-i-serie-wariantow.md) | Epizod 1: dostawa scenariusza, seria filmowa HAL-X10 i warianty jednostek |
