@@ -232,7 +232,8 @@ test('menu nie uchyla zakazu spoilerów: brak przyszłej roli Himari w stronach 
   const stats = JSON.parse(bySlug.get('exart').w_gre['srw-oe']);
   assert.doesNotMatch(stats.dane, /Miejsce 2|Przypisany profil: Himari|brak macierzystego przypisania/);
   assert.doesNotMatch(fs.readFileSync('content/co-nowego.md','utf8'), /dwa miejsca załogi|drugie miejsce Exarta/);
-  // Raw owner archive remains faithful; it is not embedded in the site.
-  assert.match(delivery, /Miejsce 2: Himari Yaegaki/);
+  // Nowa dostawa nie zawiera już przyszłej roli Himari; surowe etykiety zostają w archiwum.
+  assert.doesNotMatch(delivery, /Miejsce 2: Himari Yaegaki/);
+  assert.match(delivery, /DL100_01/);
   assert.match(bySlug.get('himari-yaegaki').body, /zdalnie steruje/);
 });

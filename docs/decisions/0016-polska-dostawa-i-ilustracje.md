@@ -3,6 +3,13 @@
 Data: 2026-10-19
 Status: obowiązujący; uzupełnia ADR 0005, 0010 i 0015.
 
+## Adnotacja 2026-10-21
+
+**ADR 0025 zastępuje pkt 2 w zakresie wersji dostawy.** Obowiązuje nowa dostawa
+`dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md` obejmująca mechy, pilotów i obsadę
+misji; surowy materiał leży w `dostawy/srw-oe/dostawa_epizod_0.txt`. Pozostałe punkty,
+w tym zasada polskiej treści i ilustracji, pozostają w mocy.
+
 ## Adnotacja 2026-10-19
 
 **ADR 0017 zastępuje pkt 8 w zakresie ilustracji.** Obraz właściciela jest pełnoprawną

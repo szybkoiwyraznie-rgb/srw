@@ -37,3 +37,4 @@ Zasady:
 | [0022](0022-okret-jako-jednostka.md) | Okręt bojowy jest jednostką typu `mech` |
 | [0023](0023-wariant-jednostki-z-dostawy.md) | Odrębna jednostka z dostawy ma własną stronę |
 | [0024](0024-obsada-misji-a-domyslna-zaloga.md) | Obsada misji a domyślna załoga jednostki |
+| [0025](0025-nowa-dostawa-mechy-piloci-i-obsada-misji.md) | Nowa dostawa epizodu 0: mechy, piloci i obsada misji |
