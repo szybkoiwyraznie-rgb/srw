@@ -22,10 +22,11 @@ test('polska dostawa zastępuje stary skrypt i menu, bez zmiany historycznych sl
   assert.equal(bySlug.get('earth-federation').tytul, 'Federacja Ziemska');
 });
 
-test('dziewięć jednostek z nowej dostawy zachowuje wszystkie ataki i ich dane w parze mech–gra', () => {
+test('dziesięć jednostek z nowej dostawy zachowuje wszystkie ataki i ich dane w parze mech–gra', () => {
   const machines = [
     ['exart', 5], ['cybuster', 7], ['cybird', 3], ['brocken', 1], ['white-base', 4],
     ['rx-78-2-gundam', 4], ['zaku-ii-karabin-maszynowy', 2], ['zaku-ii-bazooka', 2], ['zaku-ii-char', 4],
+    ['real-pg-gundam', 4],
   ];
   for (const [slug, count] of machines) {
     const mech = bySlug.get(slug);
@@ -46,11 +47,13 @@ test('dziewięć jednostek z nowej dostawy zachowuje wszystkie ataki i ich dane 
   }
 });
 
-test('Real PG Gundam pozostaje w bazie dzięki ilustracji, poza nową dostawą', () => {
+test('Real PG Gundam jest częścią nowej dostawy i zachowuje ilustracje', () => {
   const mech = bySlug.get('real-pg-gundam');
   const stats = JSON.parse(mech.w_gre['srw-oe']);
-  assert.equal(stats.dostawa, 'menu', 'jednostka spoza nowej dostawy zachowuje parametry z menu');
+  assert.equal(stats.dostawa, 'dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md');
   assert.equal(stats.profil, 'Real PG Gundam (Gundam (Keroro))');
+  assert.equal(mech.seria, 'sgt-frog');
+  assert.match(delivery, /### Real PG Gundam \(Gundam \(Keroro\)\)/);
   const rows = mech.body.split('\n').filter(line => /^\| \d+ \|/.test(line));
   assert.equal(rows.length, 4);
   assert.deepEqual(mech.piloci, []);

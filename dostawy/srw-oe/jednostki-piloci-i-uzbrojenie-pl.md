@@ -213,6 +213,26 @@ Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyn
 | 1 | Cyflash | 3000 | 1–3 | +0 | 40 | 115 | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg&lt;br&gt;Bez kontry&lt;br&gt;Nie do wsparcia ani kontry |
 | 2 | Hi-Familiar | 3100 | 3–6 | +20 | 15 | — | Brak w tym polu | **Okrążenie (poziom bazowy 1):** +20% |
 
+### Real PG Gundam (Gundam (Keroro))
+
+**Seria:** Sgt. Frog
+
+#### Macierzyste zdolności maszyny
+
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+- **Odtwórz (poziom bazowy 1):** HP co turę+2%&lt;br&gt;EN co turę+2%
+
+#### Uzbrojenie i wymienione działania
+
+##### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Działko Vulcan | 2100 | 1–3 | +40 | 0 | — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+| 1 | Karabin wiązkowy | 3000 | 1–4 | +20 | 5 | — | Brak w tym polu | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |
+| 2 | Szabla wiązkowa | 3100 | 1–1 | +50 | 5 | — | Brak w tym polu | **Garda (poziom bazowy 1):** Obr+20% |
+| 3 | Hiperbazooka | 3600 | 2–4 | +5 | 15 | — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole&lt;br&gt;Zderzenie Obraż.500 Obraż. od upadku 1000&lt;br&gt;Ignoruje Osłonę; bez wsparcia&lt;br&gt;&lt;br&gt;**Na dużych (poziom bazowy 1):** Na dużych: Atk x1.1 Obr wroga-20%&lt;br&gt;(więksi od siebie) |
+
 ## Piloci
 
 ### Seishiro Kusanagi

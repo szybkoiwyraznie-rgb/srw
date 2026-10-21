@@ -19,9 +19,10 @@ misje, mechy i pilotów.
 2. Nowa dostawa jest źródłem danych o mechach, pilotach i obsadzie misji. Wartości, nazwy
    broni i umiejętności przepisujemy dosłownie; w tabelach broni złamania wiersza zapisujemy
    jako `&lt;br&gt;`, zgodnie z ADR 0016 pkt 3.
-3. Parametry jednostek w `w_gre.srw-oe` wskazują na nowy plik dostawy (`dostawa`). Jednostka,
-   której nowa dostawa nie obejmuje (Real PG Gundam), zachowuje wpis i ilustracje, ale jej
-   parametry pochodzą z menu, więc `dostawa` pozostaje `menu`.
+3. Parametry jednostek w `w_gre.srw-oe` wskazują na nowy plik dostawy (`dostawa`). W pierwszej
+   wersji materiału nie było profilu Real PG Gundam; jednostka zachowywała wtedy wpis
+   i ilustracje, a parametry pochodziły z menu (`dostawa: menu`). Uchyla to adnotacja
+   z 2026-10-21 poniżej.
 4. Obsada misji trafia do relacji epizodu i scen: `DL100_01` dodaje Brocken/Melee pod kontrolą
    Control AI, a `DL100_02` — Exarta, Gundama, White Base oraz trzy Zaku II z Char, Crownem
    i Slenderem. Surowych nazw plików misji nie pokazujemy na stronach (ADR 0024 pkt 3).
@@ -38,3 +39,11 @@ misje, mechy i pilotów.
 Strony mechów i pilotów pokazują pełne dane nowej dostawy. Testy pilnują liczby ataków,
 statystyk pilotów i obsady obu misji. Kolejna wersja dostawy wymaga nowego ADR-a i podmiany
 obu plików w `dostawy/srw-oe/`.
+
+## Adnotacja 2026-10-21 — uzupełnienie Real PG Gundam
+
+Właściciel uzupełnił materiał o profil **Real PG Gundam (Gundam (Keroro))** z serii
+Sgt. Frog: cztery bronie, Blok tarczą i Odtwórz. Sekcja trafiła na koniec części *Mechy*
+w opracowaniu, a strona jednostki wskazuje teraz na plik dostawy (`dostawa` = ścieżka).
+Punkt 3 decyzji w zakresie Real PG Gundam przestaje obowiązywać; pozostałe ustalenia
+bez zmian.
