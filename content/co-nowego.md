@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-21 22:30
+
+- Naprawa galerii kafelków: obrazy zachowują naturalne proporcje (brak ucięcia głów w portretach, właściwe 21:9 dla mechów).
+- Filtry krokowe wzajemnie się zawężają: wybór Serii/Odcinka/Sceny ogranicza pozostałe selektory; Odcinek dostępny dopiero po wyborze Gry, Scena dopiero po Odcinku.
+
 ## 2026-10-21 22:15
 
 - Strony Mechy i Postacie zbudowane na nowo jako galeria kafelków z miniaturami
