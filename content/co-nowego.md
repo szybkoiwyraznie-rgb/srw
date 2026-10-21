@@ -1,5 +1,13 @@
 # Co nowego
 
+## 2026-10-21 22:15
+
+- Strony Mechy i Postacie zbudowane na nowo jako galeria kafelków z miniaturami
+  podpisanymi nazwami; kliknięcie w miniaturkę lub nazwę prowadzi do strony encji.
+- Filtry krokowe nad galerią: Gra → Epizod → Scena oraz Seria; suwak reguluje
+  wielkość kafelka z dynamicznym przepływem pozycji. Encje bez ilustracji mają
+  generyczną miniaturkę.
+
 ## 2026-10-21 21:43
 
 - [[medea|Medea]] — usunięto niepotwierdzone przypisanie do serii Patlabor; jednostka pozostaje w bazie bez ustalonej serii (brak źródła potwierdzającego pochodzenie, wynik audytu PR #7).

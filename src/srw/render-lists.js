@@ -16,7 +16,9 @@ import { elementSceny } from './render-scene.js';
 export function renderListe(typ, query = {}) {
   const filtr = wybierzFiltr(typ, query);
   const lista = filtr
-    ? listaFiltrowana(typ, filtr.pole, filtr.wartosc)
+    ? filtr.filtruj
+      ? filtr.filtruj(listaPosortowana(typ), filtr.wartosc)
+      : listaFiltrowana(typ, filtr.pole, filtr.wartosc)
     : (typ === 'epizod' ? listaEpizodow() : typ === 'scena' ? listaSceneWszystkie() : listaPosortowana(typ));
 
   if (lista.length === 0) {
@@ -30,7 +32,8 @@ export function renderListe(typ, query = {}) {
     ? listaEpizodowHtml(lista)
     : typ === 'scena' ? listaSceneHtml(lista) : listaEncjiHtml(lista, typ);
 
-  return naglowekListy(typ, filtr, lista.length) + html;
+  const filtrHtml = (typ === 'postac' || typ === 'mech') ? renderFiltryKrokowe(typ, query, filtr) : '';
+  return naglowekListy(typ, filtr, lista.length) + filtrHtml + html;
 }
 
 function naglowekListy(typ, filtr, liczba) {
@@ -60,12 +63,18 @@ function trzeciaForma(typ) {
 /** Dozwolone filtry listy: pole → typ encji, do której prowadzi. */
 const FILTRY = {
   epizod: { gra: 'gra', seria: 'seria' },
-  postac: { seria: 'seria', gra: 'gra' },
-  mech: { seria: 'seria', gra: 'gra' },
+  postac: { seria: 'seria', gra: 'gra', epizod: 'epizod', scena: 'scena' },
+  mech: { seria: 'seria', gra: 'gra', epizod: 'epizod', scena: 'scena' },
   seria: {},
   gra: {},
 };
 
+/** Wymiary kafelka w galerii (px). Suwak reguluje wartość w UI. */
+const KAFEL_MIN = 140;
+const KAFEL_MAX = 360;
+const KAFEL_DOMYSLNY = 240;
+
+/** Dozwolone filtry listy: pole → typ encji, do której prowadzi. */
 function wybierzFiltr(typ, query) {
   const dostepne = FILTRY[typ] ?? {};
   for (const [pole, typCelu] of Object.entries(dostepne)) {
@@ -73,9 +82,33 @@ function wybierzFiltr(typ, query) {
     if (!wartosc) continue;
     const zrodlo = dajStrone(wartosc);
     if (!zrodlo) continue;
+    if (pole === 'epizod') {
+      return { pole, wartosc, zrodlo, typCelu, filtruj: (lista) => filtrujPoEpizodzie(lista, wartosc, typ) };
+    }
+    if (pole === 'scena') {
+      return { pole, wartosc, zrodlo, typCelu, filtruj: (lista) => filtrujPoScenie(lista, wartosc, typ) };
+    }
     return { pole, wartosc, zrodlo, typCelu };
   }
   return null;
+}
+
+/** Encje typu `typ` występujące w podanym epizodzie (pole mechy/postacie). */
+function filtrujPoEpizodzie(lista, slugEpizodu, typ) {
+  const epizod = dajStrone(slugEpizodu);
+  if (!epizod) return [];
+  const pole = typ === 'mech' ? 'mechy' : 'postacie';
+  const slugi = new Set(epizod[pole] ?? []);
+  return lista.filter((p) => slugi.has(p.slug));
+}
+
+/** Encje typu `typ` występujące w podanej scenie (pole mechy/postacie). */
+function filtrujPoScenie(lista, slugSceny, typ) {
+  const scena = dajStrone(slugSceny);
+  if (!scena) return [];
+  const pole = typ === 'mech' ? 'mechy' : 'postacie';
+  const slugi = new Set(scena[pole] ?? []);
+  return lista.filter((p) => slugi.has(p.slug));
 }
 
 function listaEpizodowHtml(lista) {
@@ -129,14 +162,146 @@ function listaSceneHtml(lista) {
 
 function listaEncjiHtml(lista, typ) {
   if (typ === 'seria') {
-    return `<div class="siatka">${lista.map(kartaSerii).join('')}</div>`;
+    return `<div class=\"siatka\">${lista.map(kartaSerii).join('')}</div>`;
   }
-  return `<ul class="lista-duza">${lista.map((p) => `
-    <li>
-      <a href="${hrefDlaSlug(p.slug, p.typ)}">${escapeHtml(p.tytul)}</a>
-      <span class="meta">${metaEncji(p)}</span>
-      ${(p.tagi ?? []).length ? `<span class="chipsy-inline">${p.tagi.slice(0, 4).map((t) => `<a class="chip chip-maly" href="#/tag/${encodeURIComponent(t)}">${escapeHtml(t)}</a>`).join('')}</span>` : ''}
-    </li>`).join('')}</ul>`;
+  if (typ === 'postac' || typ === 'mech') {
+    return galeriaEncji(lista, typ);
+  }
+  return `<ul class=\"lista-duza\">${lista.map((p) => `\n    <li>\n      <a href=\"${hrefDlaSlug(p.slug, p.typ)}\">${escapeHtml(p.tytul)}</a>\n      <span class=\"meta\">${metaEncji(p)}</span>\n      ${(p.tagi ?? []).length ? `<span class=\"chipsy-inline\">${p.tagi.slice(0, 4).map((t) => `<a class=\"chip chip-maly\" href=\"#/tag/${encodeURIComponent(t)}\">${escapeHtml(t)}</a>`).join('')}</span>` : ''}\n    </li>`).join('')}</ul>`;
+}
+
+/** Galeria kafelków: miniatura + nazwa, kliknięcie prowadzi do strony encji. */
+function galeriaEncji(lista, typ) {
+  const nazwaTypuMnoga = typ === 'postac' ? 'postaci' : 'mechów';
+  return `<section class=\"naglowek-galeria\">
+    <h2>${nazwaTypu(typ, 'wiele')} <span class="licznik-galeria">${lista.length}</span></h2>
+  </section>
+  <div class="galeria-encji" role="grid" aria-label="${nazwaTypuMnoga}">${lista.map((p) => kartaKafelka(p, typ)).join('')}</div>`;
+}
+
+/** Jeden kafelek encji w galerii. */
+function kartaKafelka(p, typ) {
+  const obraz = ilustracjaEncji(p);
+  const seria = p.seria ? dajStrone(p.seria) : null;
+  const metaCzesci = [];
+  if (seria) metaCzesci.push(escapeHtml(seria.tytul));
+  if (typ === 'postac' && p.rola) metaCzesci.push(escapeHtml(p.rola));
+  if (typ === 'mech' && Array.isArray(p.piloci) && p.piloci.length) {
+    const piloci = p.piloci.map((s) => { const x = dajStrone(s); return x ? escapeHtml(x.tytul) : s; }).join(', ');
+    metaCzesci.push(`piloci: ${piloci}`);
+  }
+  const metaHtml = metaCzesci.length ? `<p class="kafelek-meta">${metaCzesci.join(' · ')}</p>` : '';
+  const obrazHtml = obraz
+    ? `<img src="${escapeHtml(obraz)}" alt="${escapeHtml(p.tytul)}" loading="lazy" decoding="async">`
+    : miniaturkaGeneryczna(typ, p.tytul);
+  return `<article class="kafelek-encji" role="gridcell">
+    <a href="${hrefDlaSlug(p.slug, p.typ)}" class="kafelek-link">
+      <div class="kafelek-obraz">${obrazHtml}</div>
+      <h3 class="kafelek-tytul">${escapeHtml(p.tytul)}</h3>
+      ${metaHtml}
+    </a>
+  </article>`;
+}
+
+/** URL ilustracji encji: pole obraz, potem pierwszy obraz w treści, sonst null. */
+function ilustracjaEncji(p) {
+  if (p.obraz) return p.obraz;
+  const m = String(p.html ?? '').match(/<img[^>]+src="([^"]+)"/);
+  if (m) return m[1];
+  return null;
+}
+
+/** Generyczna miniaturka SVG dla encji bez ilustracji. */
+function miniaturkaGeneryczna(typ, tytul) {
+  const czyMech = typ === 'mech';
+  const ikona = czyMech
+    ? '<rect x="18" y="28" width="44" height="20" rx="4"/><rect x="14" y="52" width="52" height="26" rx="4"/><circle cx="30" cy="38" r="7" fill="none" stroke="currentColor" stroke-width="2"/><rect x="24" y="74" width="12" height="6" rx="2"/><rect x="44" y="74" width="12" height="6" rx="2"/>'
+    : '<rect x="14" y="30" width="52" height="16" rx="4"/><circle cx="30" cy="44" r="10" fill="none" stroke="currentColor" stroke-width="2"/><rect x="20" y="60" width="16" height="6" rx="2"/><rect x="44" y="60" width="16" height="6" rx="2"/><rect x="24" y="72" width="8" height="6" rx="2"/><rect x="48" y="72" width="8" height="6" rx="2"/>';
+  return `<div class="kafelek-obraz-generyczny" aria-label="${escapeHtml(tytul)}" role="img">
+    <svg viewBox="0 0 60 80" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+      <rect width="60" height="80" rx="10" fill="var(--panel-2)" stroke="var(--ramka)"/>
+      ${ikona}
+    </svg>
+    <span class="generyczny-tytul">${escapeHtml(tytul)}</span>
+  </div>`;
+}
+
+/** Filtry krokowe nad galerią: Gra → Epizod → Scena, plus Seria i suwak rozmiaru. */
+function renderFiltryKrokowe(typ, query, filtr) {
+  const gry = listaStron('gra').sort((a, b) => String(a.tytul).localeCompare(String(b.tytul), 'pl'));
+  const wybraneGra = query.gra || '';
+  const epizody = wybraneGra ? listaFiltrowana('epizod', 'gra', wybraneGra) : listaEpizodow();
+  const wybraneEpizod = query.epizod || '';
+  const sceny = wybraneEpizod ? listaStron('scena').filter((s) => s.epizod === wybraneEpizod).sort((a, b) => porownajSceny(a, b)) : [];
+  const wybraneScena = query.scena || '';
+  const serie = listaStron('seria').sort((a, b) => String(a.tytul).localeCompare(String(b.tytul), 'pl'));
+  const wybraneSeria = query.seria || '';
+  const rozmiar = query.rozmiar || String(KAFEL_DOMYSLNY);
+
+  const q = { ...query };
+  const jsonQuery = JSON.stringify(q).replaceAll('"', '&quot;');
+
+  return `<div class="filtry-krokowe" data-typ="${typ}" data-query='${jsonQuery}'>
+    <div class="filtr-grupa">
+      <label class="filtr-etykieta">Gra</label>
+      <select class="filtr-select" name="gra" onchange="srwZmienFiltr(this, 'gra')">
+        <option value="">wszystkie gry</option>
+        ${gry.map((g) => `<option value="${escapeHtml(g.slug)}"${g.slug === wybraneGra ? ' selected' : ''}>${escapeHtml(g.tytul)}</option>`).join('')}
+      </select>
+    </div>
+    <div class="filtr-grupa">
+      <label class="filtr-etykieta">Epizod</label>
+      <select class="filtr-select" name="epizod" onchange="srwZmienFiltr(this, 'epizod')">
+        <option value="">wszystkie</option>
+        ${epizody.map((e) => `<option value="${escapeHtml(e.slug)}"${e.slug === wybraneEpizod ? ' selected' : ''}>${escapeHtml(e.tytul)} (${numerEpizodu(e.numer)})</option>`).join('')}
+      </select>
+    </div>
+    <div class="filtr-grupa">
+      <label class="filtr-etykieta">Scena</label>
+      <select class="filtr-select" name="scena" onchange="srwZmienFiltr(this, 'scena')">
+        <option value="">wszystkie</option>
+        ${sceny.map((s) => `<option value="${escapeHtml(s.slug)}"${s.slug === wybraneScena ? ' selected' : ''}>${escapeHtml(s.numer_sceny)} — ${escapeHtml(s.tytul)}</option>`).join('')}
+      </select>
+    </div>
+    <div class="filtr-grupa filtr-grupa-seria">
+      <label class="filtr-etykieta">Seria</label>
+      <select class="filtr-select" name="seria" onchange="srwZmienFiltr(this, 'seria')">
+        <option value="">wszystkie serie</option>
+        ${serie.map((s) => `<option value="${escapeHtml(s.slug)}"${s.slug === wybraneSeria ? ' selected' : ''}>${escapeHtml(s.tytul)}</option>`).join('')}
+      </select>
+    </div>
+    <div class="filtr-grupa filtr-grupa-suwak">
+      <label class="filtr-etykieta">Kafełek</label>
+      <input type="range" class="filtr-suwak" name="rozmiar" min="${KAFEL_MIN}" max="${KAFEL_MAX}" value="${rozmiar}" oninput="srwZmienRozmiar(this.value)">
+      <span class="wartosc-suwaka">${rozmiar} px</span>
+    </div>
+  </div>
+  <style>
+    .galeria-encji { --kafel-szer: ${rozmiar}px; }
+  </style>`;
+}
+
+/** Kliknięcie selecta filtra: zmienia hash z zachowaniem pozostałych filtrów i resetem zależnych. */
+globalThis.srwZmienFiltr = function (select, pole) {
+  const kontener = select.closest?.('.filtry-krokowe');
+  const q = kontener ? JSON.parse(kontener.dataset.query ?? '{}') : {};
+  if (select.value) q[pole] = select.value; else delete q[pole];
+  if (pole === 'gra') { delete q.epizod; delete q.scena; }
+  if (pole === 'epizod') { delete q.scena; }
+  const typ = kontener?.dataset?.typ ?? 'mech';
+  location.hash = `${hrefListy(typ)}?${new URLSearchParams(q).toString()}`;
+};
+
+/** Suwak rozmiaru kafelka: zmienia custom property na kontenerze galerii. */
+globalThis.srwZmienRozmiar = function (wartosc) {
+  const pokaz = document.querySelector('.wartosc-suwaka');
+  if (pokaz) pokaz.textContent = wartosc + ' px';
+  const galerias = document.querySelectorAll('.galeria-encji');
+  for (const g of galerias) g.style.setProperty('--kafel-szer', wartosc + 'px');
+};
+
+function porownajSceny(a, b) {
+  return new Intl.Collator('pl', { numeric: true, sensitivity: 'base' }).compare(String(a.numer_sceny ?? ''), String(b.numer_sceny ?? ''));
 }
 
 function metaEncji(p) {
