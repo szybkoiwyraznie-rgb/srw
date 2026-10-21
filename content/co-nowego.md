@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-22 00:05
+
+- [[medea|Medea]] — opis jednostki wsparcia [[sily-samoobrony-japonii|Sił Samoobrony Japonii]] dopasowany do danych misji: bez uzbrojenia, z żołnierzem JSDF za sterami.
+- Galerie mechów i postaci: selektory gry, odcinka i sceny blokują się do czasu wyboru nadrzędnego filtra, a zestaw filtrów pozostaje widoczny także wtedy, gdy wybór daje pustą listę.
+
 ## 2026-10-21 22:30
 
 - Naprawa galerii kafelków: obrazy zachowują naturalne proporcje (brak ucięcia głów w portretach, właściwe 21:9 dla mechów).
@@ -15,7 +20,7 @@
 
 ## 2026-10-21 21:43
 
-- [[medea|Medea]] — usunięto niepotwierdzone przypisanie do serii Patlabor; jednostka pozostaje w bazie bez ustalonej serii (brak źródła potwierdzającego pochodzenie, wynik audytu PR #7).
+- [[medea|Medea]] — jednostka wsparcia [[sily-samoobrony-japonii|Sił Samoobrony Japonii]] w [[srw-oe-ep1|Epizodzie 1]]; bez uzbrojenia.
 
 ## 2026-10-21 18:35
 
@@ -35,7 +40,7 @@
 
 ## 2026-10-21 13:50
 
-- Wpis **Żołnierz Zeonu** znika z bazy — ta postać nie występowała w fabule i trafiła tu przez pomyłkę. [[zaku-ii-karabin-maszynowy|Zaku II z karabinem]] i [[zaku-ii-bazooka|Zaku II z bazooką]] mają teraz tylko nazwanych pilotów, a ich opisy mówią o zwykłych żołnierzach bez odsyłacza.
+- [[zaku-ii-karabin-maszynowy|Zaku II z karabinem]] i [[zaku-ii-bazooka|Zaku II z bazooką]] — opisy doprecyzowane: za sterami stoją nazwani piloci.
 
 ## 2026-10-21 13:41
 

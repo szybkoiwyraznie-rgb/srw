@@ -9,21 +9,17 @@ w_gre:
 pochodzenie: menu
 utworzono: 2026-10-21
 ---
-{{skrypt gra=srw-oe
+{{menu gra=srw-oe
 
 ## Opis
 
-Jednostka wsparcia Sił Samoobrony, pozbawiona uzbrojenia. W ćwiczeniach na poligonie Fuji towarzyszy wojskowym jednostkom naziemnym.
+Jednostka wsparcia [[sily-samoobrony-japonii|Sił Samoobrony Japonii]], pozbawiona uzbrojenia. W ćwiczeniach na [[poligon-fuji|poligonie Fuji]] towarzyszy wojskowym jednostkom naziemnym; za jej sterami siedzi zwykły [[zolnierz-jsdf|żołnierz JSDF]].
 
-Jej przynależność do konkretnej serii nie została ustalona — w materiale brak wpisu w słownikach jednostek i pilotów.
-
-Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+Bierze udział w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]) jako jednostka sojusznicza.
 }}
 {{menu gra=srw-oe
 
 ## Parametry
-
-**Seria:** None
 
 ### Macierzyste zdolności maszyny
 Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu ani wyposażenia.
