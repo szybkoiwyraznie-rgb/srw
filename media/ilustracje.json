@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "baseUrl": "https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev",
   "pochodzenie": "menu",
-  "dostarczono": "2026-10-20",
+  "dostarczono": "2026-10-21",
   "podstawa": "Ilustracje właściciela jako pełnoprawna dostawa encji (ADR 0017); nazwy z odczytu listy R2 (workflow r2-inventory, 2026-10-20).",
   "weryfikacjaZdalna": false,
-  "uwaga": "17 portretów w characters/ oraz 19 plików jednostek w korzeniu, w tym trzy warianty Zaku II. Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów (R2 zwraca HTTP 500), więc nie deklarujemy obejrzenia zawartości.",
+  "uwaga": "17 portretów w characters/ oraz 27 plików jednostek w korzeniu, w tym trzy warianty Zaku II i cztery jednostki z epizodu 1 po dwie ilustracje. Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów (R2 zwraca HTTP 500), więc nie deklarujemy obejrzenia zawartości.",
   "encje": {
     "exart": [
       "Exart.jpg",
@@ -96,6 +96,22 @@
     "zaku-ii-char": [
       "Zaku II Char.png",
       "Zaku II Char 2.png"
+    ],
+    "hal-x10": [
+      "HAL-X10.png",
+      "HAL-X10 2.png"
+    ],
+    "hal-x10-green": [
+      "HAL-X10 Green.png",
+      "HAL-X10 Green 2.png"
+    ],
+    "ingram-nr-1": [
+      "Ingram nr 1.png",
+      "Ingram nr 1 2.png"
+    ],
+    "ingram-nr-2": [
+      "Ingram nr 2.png",
+      "Ingram nr 2 2.png"
     ]
   },
   "nieprzypisane": []

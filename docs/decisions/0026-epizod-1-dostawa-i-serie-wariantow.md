@@ -53,3 +53,18 @@ postacie, hasła i serię filmową. Testy pilnują zgodności tabel broni z plik
 parzystości `episodes/` z wpisami epizodów oraz braku ilustracji na nowych stronach.
 Kolejna dostawa epizodu 1 wymaga nowego ADR-a tylko wtedy, gdy zmienia te ustalenia —
 zwykłe dopisanie sceny nie wymaga.
+
+## Adnotacja 2026-10-21 — ilustracje jednostek epizodu 1
+
+Właściciel dostarczył osiem plików ilustracji dla czterech jednostek z tej misji: **HAL-X10**
+(`HAL-X10.png`, `HAL-X10 2.png`), **HAL-X10/Green** (`HAL-X10 Green.png`, `HAL-X10 Green 2.png`),
+**Ingram nr 1** (`Ingram nr 1.png`, `Ingram nr 1 2.png`) i **Ingram nr 2** (`Ingram nr 2.png`,
+`Ingram nr 2 2.png`). Pliki leżą w korzeniu kubełka R2, tak jak pozostałe ilustracje jednostek.
+
+Przypisanie idzie po nazwach plików, zgodnie z ADR 0017: manifest `media/ilustracje.json` ma teraz
+31 encji i 44 pliki, a każda z czterech stron dostała blok `{{menu}}` z sekcją „Ilustracje” i dwoma
+obrazami. Sandbox nadal nie ma dostępu sieciowego do `r2.dev`, więc `weryfikacjaZdalna` pozostaje
+`false` — nie deklarujemy obejrzenia zawartości. Punkt 7 decyzji przestaje obowiązywać w zakresie
+tych czterech jednostek; pozostałe strony epizodu 1 (postacie, hasła, seria, epizod i scena)
+ilustracji nadal nie mają.
+

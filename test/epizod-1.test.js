@@ -23,6 +23,14 @@ const nowePostacie = [
 ];
 const nowePojecia = ['labor', 'sv2', 'sily-samoobrony-japonii', 'poligon-fuji'];
 
+// Nazwa pliku bazowego ilustracji w R2 (drugi plik tej samej maszyny to „<nazwa> 2.png”).
+const BY_SLUG = {
+  'hal-x10': 'HAL-X10.png',
+  'hal-x10-green': 'HAL-X10 Green.png',
+  'ingram-nr-1': 'Ingram nr 1.png',
+  'ingram-nr-2': 'Ingram nr 2.png',
+};
+
 test('epizod 1 istnieje, a skrypt jest archiwum rozegrania', () => {
   const ep = bySlug.get('srw-oe-ep1');
   assert.equal(ep.typ, 'epizod');
@@ -196,14 +204,28 @@ test('nowe hasła i seria opisują świat epizodu 1', () => {
   assert.match(bySlug.get('patlabor-the-movie').body, /HAL-X10/);
 });
 
-test('epizod 1 nie ujawnia surowych etykiet misji ani nie dostaje ilustracji', () => {
+test('epizod 1 nie ujawnia surowych etykiet misji, a jednostki mają dostarczone ilustracje', () => {
   const nowe = [...noweMechy, ...nowePostacie, ...nowePojecia, 'patlabor-the-movie',
     'srw-oe-ep1', ...pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1').map((p) => p.slug)];
   for (const slug of nowe) {
-    const page = bySlug.get(slug);
-    assert.doesNotMatch(page.body, /DL101|Entry ID|Entry character|eventP00/, `${slug}: bez surowych danych misji`);
-    assert.doesNotMatch(page.body, /!\[/, `${slug}: bez ilustracji do czasu dostawy`);
-    assert.doesNotMatch(page.body, /## Ilustracje/, `${slug}: bez pustej galerii`);
+    assert.doesNotMatch(bySlug.get(slug).body, /DL101|Entry ID|Entry character|eventP00/, `${slug}: bez surowych danych misji`);
+  }
+
+  // Cztery jednostki dostały po dwie ilustracje; pozostałe nowe strony nadal ich nie mają.
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  for (const slug of ['hal-x10', 'hal-x10-green', 'ingram-nr-1', 'ingram-nr-2']) {
+    const files = manifest.encje[slug];
+    const baza = BY_SLUG[slug].replace(/\.png$/, '');
+    assert.deepEqual(files, [`${baza}.png`, `${baza} 2.png`], slug);
+    const body = bySlug.get(slug).body;
+    assert.match(body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria z zakresem gry`);
+    assert.equal((body.match(/!\[/g) ?? []).length, 2, `${slug}: dwie ilustracje`);
+    for (const file of files) {
+      assert.ok(body.includes(`${manifest.baseUrl}/${encodeURIComponent(file)}`), `${slug}: ${file}`);
+    }
+  }
+  for (const slug of [...nowePostacie, ...nowePojecia, 'patlabor-the-movie', 'srw-oe-ep1', 'srw-oe-ep1-szalejacy-prototyp-labora']) {
+    assert.doesNotMatch(bySlug.get(slug).body, /!\[/, `${slug}: bez ilustracji`);
   }
 });
 

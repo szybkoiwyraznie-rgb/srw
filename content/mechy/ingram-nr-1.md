@@ -21,6 +21,21 @@ Noa nazywa swój Ingram Alphonse'em i przejmuje się każdą rysą na kadłubie.
 
 Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Ingram nr 1 — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Ingram%20nr%201.png)
+
+### Ilustracja 2
+
+![Ingram nr 1 — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Ingram%20nr%201%202.png)
+
+}}
+
 {{menu gra=srw-oe
 
 ## Parametry

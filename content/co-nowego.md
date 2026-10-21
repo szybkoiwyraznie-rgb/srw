@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-21 18:10
+
+- Ilustracje jednostek z [[srw-oe-ep1|Epizodu 1]]: [[hal-x10|HAL-X10]], [[hal-x10-green|HAL-X10/Green]], [[ingram-nr-1|Ingram nr 1]] i [[ingram-nr-2|Ingram nr 2]] mają po dwie ilustracje w galeriach stron.
+
 ## 2026-10-21 14:05
 
 - [[srw-oe-ep1|Epizod 1]] „Szalejący prototyp Labora”: [[srw-oe-ep1-szalejacy-prototyp-labora|scena 1-1]] obejmuje całą misję — od odprawy u [[suol|szefa Suola]], przez ćwiczenia na [[poligon-fuji|poligonie Fuji]], po walkę z bezzałogowymi [[hal-x10|HAL-X10]] i rozmowy po niej.

@@ -249,11 +249,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 36 plików przy 27 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 44 pliki przy 31 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 27);
-  assert.equal(Object.values(manifest.encje).flat().length, 36);
+  assert.equal(Object.keys(manifest.encje).length, 31);
+  assert.equal(Object.values(manifest.encje).flat().length, 44);
   assert.deepEqual(manifest.nieprzypisane, []);
   const adres = file => `${manifest.baseUrl}/${file.split('/').map(encodeURIComponent).join('/')}`;
   for (const [slug, files] of Object.entries(manifest.encje)) {

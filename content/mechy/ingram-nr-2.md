@@ -21,6 +21,21 @@ Podczas ćwiczeń na poligonie Fuji Ota chce jak najszybciej zniszczyć bezzało
 
 Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Ingram nr 2 — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Ingram%20nr%202.png)
+
+### Ilustracja 2
+
+![Ingram nr 2 — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Ingram%20nr%202%202.png)
+
+}}
+
 {{menu gra=srw-oe
 
 ## Parametry

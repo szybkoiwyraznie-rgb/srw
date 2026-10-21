@@ -21,6 +21,21 @@ Podobnie jak podstawowy HAL-X10 walczy bez załogi, a jej poczynaniami kieruje s
 
 Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![HAL-X10/Green — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/HAL-X10%20Green.png)
+
+### Ilustracja 2
+
+![HAL-X10/Green — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/HAL-X10%20Green%202.png)
+
+}}
+
 {{menu gra=srw-oe
 
 ## Parametry
