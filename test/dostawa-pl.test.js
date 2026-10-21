@@ -22,8 +22,11 @@ test('polska dostawa zastępuje stary skrypt i menu, bez zmiany historycznych sl
   assert.equal(bySlug.get('earth-federation').tytul, 'Federacja Ziemska');
 });
 
-test('pięć jednostek zachowuje wszystkie ataki i ich dane w parze mech–gra', () => {
-  const machines = [['exart',5], ['cybuster',7], ['cybird',3], ['brocken',1], ['real-pg-gundam',4]];
+test('dziewięć jednostek z nowej dostawy zachowuje wszystkie ataki i ich dane w parze mech–gra', () => {
+  const machines = [
+    ['exart', 5], ['cybuster', 7], ['cybird', 3], ['brocken', 1], ['white-base', 4],
+    ['rx-78-2-gundam', 4], ['zaku-ii-karabin-maszynowy', 2], ['zaku-ii-bazooka', 2], ['zaku-ii-char', 4],
+  ];
   for (const [slug, count] of machines) {
     const mech = bySlug.get(slug);
     const stats = JSON.parse(mech.w_gre['srw-oe']);
@@ -43,6 +46,17 @@ test('pięć jednostek zachowuje wszystkie ataki i ich dane w parze mech–gra',
   }
 });
 
+test('Real PG Gundam pozostaje w bazie dzięki ilustracji, poza nową dostawą', () => {
+  const mech = bySlug.get('real-pg-gundam');
+  const stats = JSON.parse(mech.w_gre['srw-oe']);
+  assert.equal(stats.dostawa, 'menu', 'jednostka spoza nowej dostawy zachowuje parametry z menu');
+  assert.equal(stats.profil, 'Real PG Gundam (Gundam (Keroro))');
+  const rows = mech.body.split('\n').filter(line => /^\| \d+ \|/.test(line));
+  assert.equal(rows.length, 4);
+  assert.deepEqual(mech.piloci, []);
+  assert.equal((mech.body.match(/!\[/g) ?? []).length, 2, 'ilustracje pozostają');
+});
+
 test('nowa dostawa: White Base i Gundam mają pełne parametry załogi i uzbrojenia', () => {
   const machines = [['white-base', 4], ['rx-78-2-gundam', 4]];
   for (const [slug, count] of machines) {
@@ -50,7 +64,7 @@ test('nowa dostawa: White Base i Gundam mają pełne parametry załogi i uzbroje
     assert.equal(mech.typ, 'mech');
     assert.equal(mech.seria, 'mobile-suit-gundam-1979');
     const stats = JSON.parse(mech.w_gre['srw-oe']);
-    assert.equal(stats.dostawa, 'menu');
+    assert.equal(stats.dostawa, 'dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md');
     const rows = mech.body.split('\n').filter(line => /^\| \d+ \|/.test(line));
     assert.equal(rows.length, count, slug);
     for (const row of rows) {
@@ -86,7 +100,7 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
     assert.deepEqual(mech.piloci, piloci, `${slug}: piloci`);
     assert.equal(mech.pochodzenie, 'menu', `${slug}: dane z dostawy`);
     const stats = JSON.parse(mech.w_gre['srw-oe']);
-    assert.equal(stats.dostawa, 'menu');
+    assert.equal(stats.dostawa, 'dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md');
     assert.match(stats.profil, /^Zaku II/);
     const rows = mech.body.split('\n').filter(line => /^\| \d+ \|/.test(line));
     assert.equal(rows.length, count, slug);
