@@ -449,6 +449,9 @@ Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyn
 
 ### Żołnierz Zeonu
 
+*Profil obecny w materiale źródłowym, ale pominięty w bazie — ta postać nie występuje
+w fabule (ADR 0025, adnotacja z 2026-10-21).*
+
 - **Seria:** Brak wpisu w słowniku postaci
 
 | Parametr    | Wartość bazowa |
