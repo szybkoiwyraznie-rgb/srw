@@ -18,7 +18,7 @@ utworzono: 2026-10-19
 
 Brocken to jednostka z serii [[mobile-police-patlabor|Mobile Police Patlabor]], sterowana przez [[control-ai|Control AI]]. W [[srw-oe|Super Robot Wars OE]] wariant Brocken/Melee walczy Szarżą — atakiem, który odpycha przeciwnika i może spowodować obrażenia od zderzenia lub upadku.
 
-W [[prolog-i-trening-w-connect|szkoleniu podstawowym]] Connect trzy Brockeny pod kontrolą Control AI występują jako symulowani przeciwnicy [[exart|Exarta]].
+W [[prolog-i-trening-w-connect|szkoleniu podstawowym]] Connect trzy Brockeny sterowane przez [[control-ai|Control AI]] występują jako symulowani przeciwnicy [[exart|Exarta]].
 }}
 ## Pochodzenie
 
