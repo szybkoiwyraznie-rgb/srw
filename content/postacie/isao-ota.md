@@ -18,7 +18,7 @@ Pilot drugiego Ingrama Drugiego Plutonu [[sv2|SV2]]. Impulsywny i pewny siebie: 
 
 Kiedy [[hal-x10|HAL-X10]] wymykają się spod kontroli, jako pierwszy prosi o zgodę na atak i chce zniszczyć cele, zanim dotrą do zaludnionych terenów. Nie zamierza wycofywać się tylko dlatego, że Siły Samoobrony poleciły plutonowi odejść.
 
-Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+Pojawia się w scenach [[srw-oe-ep1-sv2-dolacza-do-cwiczen|„SV2 dołącza do ćwiczeń”]] i [[srw-oe-ep1-ostra-amunicja|„Ostra amunicja”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 
 {{menu gra=srw-oe

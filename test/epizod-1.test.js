@@ -23,7 +23,7 @@ const nowePostacie = [
 ];
 const nowePojecia = ['labor', 'sv2', 'sily-samoobrony-japonii', 'poligon-fuji'];
 
-test('epizod 1 i scena 1-1 istnieją, a skrypt jest archiwum rozegrania', () => {
+test('epizod 1 istnieje, a skrypt jest archiwum rozegrania', () => {
   const ep = bySlug.get('srw-oe-ep1');
   assert.equal(ep.typ, 'epizod');
   assert.equal(ep.numer, 1);
@@ -34,7 +34,7 @@ test('epizod 1 i scena 1-1 istnieją, a skrypt jest archiwum rozegrania', () => 
   assert.match(script, /\*\*Himari:\*\* Cooo\?! To chyba jakaś pomyłka\?/);
   assert.ok(!script.includes('MISJA'), 'skrypt kończy się przed danymi misji');
 
-  const scena = bySlug.get('srw-oe-ep1-szalejacy-prototyp-labora');
+  const scena = bySlug.get('srw-oe-ep1-odprawa-na-stacji-connect');
   assert.equal(scena.typ, 'scena');
   assert.equal(scena.epizod, 'srw-oe-ep1');
   assert.equal(scena.numer_sceny, '1-1');
@@ -43,15 +43,57 @@ test('epizod 1 i scena 1-1 istnieją, a skrypt jest archiwum rozegrania', () => 
   assert.match(scena.body, /:::skrypt\n# Super Robot Wars OE — Epizod 1/);
 });
 
+test('epizod 1 ma osiem scen pokrywających cały skrypt bez reszty', () => {
+  const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1');
+  assert.equal(sceny.length, 8);
+  assert.deepEqual(sceny.map((s) => s.numer_sceny).sort(), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6', '1-7', '1-8']);
+
+  const cytat = (scena) => scena.body.split(':::skrypt\n')[1].split('\n:::')[0];
+  for (const scena of sceny) {
+    assert.match(scena.body, /## Treść sceny/, scena.slug);
+    assert.match(scena.body, /## Analiza/, scena.slug);
+    assert.ok(script.includes(cytat(scena).split('\n').filter(Boolean)[0]), scena.slug);
+  }
+
+  // Siedem scen dzieli skrypt po nagłówkach `###`; ósma to wyjęty blok dialogów bojowych.
+  const posortowane = [...sceny].sort((a, b) => a.numer_sceny.localeCompare(b.numer_sceny));
+  const dialogi = script.match(/#### Dialogi bojowe[\s\S]*?(?=\n### Po ćwiczeniach)/)[0].trimEnd();
+  assert.equal(cytat(bySlug.get('srw-oe-ep1-warunkowe-dialogi-bitewne')).trimEnd(), dialogi.trimEnd());
+  assert.equal(bySlug.get('srw-oe-ep1-warunkowe-dialogi-bitewne').tytul, 'Warunkowe dialogi bitewne');
+
+  const bezDialogow = script.replace(/#### Dialogi bojowe[\s\S]*?(?=\n### Po ćwiczeniach)/, '');
+  const sekcje = bezDialogow.split('\n### ').slice(1).map((t) => t.replace(/\n---\n?$/, '').trimEnd());
+  const zScen = posortowane
+    .filter((s) => s.numer_sceny !== '1-6')
+    .map((s, i) => (i === 0 ? cytat(s).split('\n### ').slice(1).join('\n### ') : cytat(s).replace(/^### /, '')))
+    .join('\n### ')
+    .split('\n### ')
+    .map((t) => t.replace(/\n---\n?$/, '').trimEnd());
+  assert.equal(zScen.length, sekcje.length);
+  for (let i = 0; i < sekcje.length; i += 1) {
+    assert.equal(zScen[i], sekcje[i], `fragment ${i + 1}`);
+  }
+});
+
 test('obsada epizodu i sceny obejmuje wszystkie postacie i jednostki z misji', () => {
   const postacie = ['seishiro', 'himari-yaegaki', 'suol', ...nowePostacie];
   const mechy = ['exart', 'ingram-nr-1', 'ingram-nr-2', 'medea', 'hal-x10', 'hal-x10-green', 'helldiver'];
-  for (const slug of ['srw-oe-ep1', 'srw-oe-ep1-szalejacy-prototyp-labora']) {
-    const page = bySlug.get(slug);
-    for (const p of postacie) assert.ok(page.postacie.includes(p), `${slug}: ${p}`);
-    for (const m of mechy) assert.ok(page.mechy.includes(m), `${slug}: ${m}`);
-    for (const h of nowePojecia) assert.ok(page.pojecia.includes(h), `${slug}: ${h}`);
+  const ep = bySlug.get('srw-oe-ep1');
+  for (const p of postacie) assert.ok(ep.postacie.includes(p), `epizod: ${p}`);
+  for (const m of mechy) assert.ok(ep.mechy.includes(m), `epizod: ${m}`);
+  for (const h of nowePojecia) assert.ok(ep.pojecia.includes(h), `epizod: ${h}`);
+
+  // Scena walki zbiera wszystkich, którzy biorą w niej udział.
+  const walka = bySlug.get('srw-oe-ep1-ostra-amunicja');
+  for (const p of ['seishiro', 'himari-yaegaki', 'noa-izumi', 'isao-ota', 'asuma-shinohara', 'zolnierz-jsdf']) {
+    assert.ok(walka.postacie.includes(p), `walka: ${p}`);
   }
+  for (const m of ['exart', 'ingram-nr-1', 'ingram-nr-2', 'hal-x10']) {
+    assert.ok(walka.mechy.includes(m), `walka: ${m}`);
+  }
+  assert.deepEqual(bySlug.get('srw-oe-ep1-odprawa-na-stacji-connect').postacie, ['suol', 'seishiro', 'himari-yaegaki']);
+  assert.deepEqual(bySlug.get('srw-oe-ep1-czym-jest-patlabor').postacie, []);
+  assert.deepEqual(bySlug.get('srw-oe-ep1-nastepstwa').postacie, []);
 });
 
 test('sześć nowych jednostek ma pełne uzbrojenie z dostawy i własne parametry pary (mech, gra)', () => {
@@ -159,7 +201,7 @@ test('nowe hasła i seria opisują świat epizodu 1', () => {
 
 test('epizod 1 nie ujawnia surowych etykiet misji ani nie dostaje ilustracji', () => {
   const nowe = [...noweMechy, ...nowePostacie, ...nowePojecia, 'patlabor-the-movie',
-    'srw-oe-ep1', 'srw-oe-ep1-szalejacy-prototyp-labora'];
+    'srw-oe-ep1', ...pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1').map((p) => p.slug)];
   for (const slug of nowe) {
     const page = bySlug.get(slug);
     assert.doesNotMatch(page.body, /DL101|Entry ID|Entry character|eventP00/, `${slug}: bez surowych danych misji`);

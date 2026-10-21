@@ -18,5 +18,5 @@ Członek Drugiego Plutonu [[sv2|SV2]]. Przed ćwiczeniami zastanawia się, jakie
 
 Wraz z resztą plutonu obserwuje ćwiczenia na poligonie Fuji i pierwsze oznaki utraty kontroli nad [[hal-x10|HAL-X10]].
 
-Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+Pojawia się w scenach [[srw-oe-ep1-sv2-dolacza-do-cwiczen|„SV2 dołącza do ćwiczeń”]] i [[srw-oe-ep1-po-cwiczeniach|„Po ćwiczeniach”]] ([[srw-oe-ep1|Epizod 1]]).
 }}

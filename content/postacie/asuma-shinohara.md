@@ -18,5 +18,5 @@ Operator wozu dowodzenia Drugiego Plutonu [[sv2|SV2]]. Prowadzi łączność plu
 
 Kiedy cele ćwiczebne zaczynają strzelać ostrą amunicją, jako pierwszy rozpoznaje, że [[hal-x10|HAL-X10]] wymknęły się spod kontroli. Po ćwiczeniach pomaga [[noa-izumi|Noie]] uporać się z papierkową robotą.
 
-Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+Pojawia się w scenach [[srw-oe-ep1-sv2-dolacza-do-cwiczen|„SV2 dołącza do ćwiczeń”]], [[srw-oe-ep1-ostra-amunicja|„Ostra amunicja”]] i [[srw-oe-ep1-po-cwiczeniach|„Po ćwiczeniach”]] ([[srw-oe-ep1|Epizod 1]]).
 }}

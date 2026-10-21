@@ -19,7 +19,7 @@ Bezzałogowy ciężki Labor prototypowy Sił Samoobrony, ćwiczący na poligonie
 
 Maszyną nie kieruje człowiek, lecz system [[shinohara-hos|HOS]]. Kiedy cele ćwiczebne zaczynają strzelać, w kokpitach HAL-X10 nie ma żadnych oznak życia.
 
-Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+Występuje w scenach [[srw-oe-ep1-ostra-amunicja|„Ostra amunicja”]] i [[srw-oe-ep1-nastepstwa|„Następstwa”]] ([[srw-oe-ep1|Epizod 1]]).
 }}
 {{menu gra=srw-oe
 
