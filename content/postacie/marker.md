@@ -16,7 +16,7 @@ utworzono: 2026-10-20
 
 Operator na pokładzie [[white-base|White Base]]. Wykrywa zbliżający się obiekt i melduje, że przypomina mobile suit, a jego prędkość jest trzykrotnie większa niż zwykle.
 
-Rozpylenie [[minovsky-particles|cząstek Minovsky’ego]] ogłasza jako stężenie bojowe, a w powietrzu rozpoznaje [[zaku-ii|Zaku]] i [[dopp|Doppy]]. Po walce melduje opanowanie bazy wroga.
+Rozpylenie [[minovsky-particles|cząstek Minovsky’ego]] ogłasza jako stężenie bojowe, a w powietrzu rozpoznaje [[zaku-ii|Zaku]] i [[dopp|Doppy]]. Po walce melduje opanowanie bazy wroga. W ostatniej misji Odessy wykrywa kolejne siły, a po przechwyceniu [[h-bomb-missile|pocisku termojądrowego]] potwierdza brak reakcji jądrowej.
 }}
 {{menu gra=srw-oe
 

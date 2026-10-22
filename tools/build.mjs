@@ -150,12 +150,16 @@ export async function zbudujDane({ root = ROOT } = {}) {
       const czesci = podzielScene(s.body);
       const plan = zaplanujScene(czesci, s.sekcje_analizy);
       for (const pr of plan.problemy) problemy.push(`${s.slug}: ${pr}`);
+      const stanKotwic = {};
       sekcje = czesci.map((cz) => {
         const zrodlo = `${cz.otwarcie ?? '{{skrypt'}\n\n## ${cz.tytul}\n\n${cz.tresc}\n\n}}`;
         const wynik = renderMarkdown(zrodlo, {
           resolveLink: resolver,
           wymagajPoziomu: true,
-          atrybutyNaglowka: kotwiceSekcji(cz.tytul, plan, { hrefStrony: `#/scena/${s.slug}` }),
+          atrybutyNaglowka: kotwiceSekcji(cz.tytul, plan, {
+            hrefStrony: `#/scena/${s.slug}`,
+            stan: stanKotwic,
+          }),
         });
         for (const pr of wynik.problemy) problemy.push(`${s.slug} (${cz.tytul}): ${pr}`);
         return { tytul: cz.tytul, html: wynik.html };
@@ -208,15 +212,20 @@ export async function zbudujDane({ root = ROOT } = {}) {
   for (const s of strony) {
     const r = wyrenderowane.get(s.slug);
     const { problem, body, ...pola } = s;
+    const maSekcje = Array.isArray(r.sekcje) && r.sekcje.length > 0;
+    const maBoksy = Array.isArray(r.boksy) && r.boksy.length > 0;
+    // Sceny i epizody renderują się ze struktur `sekcje` / `boksy`. Pełny
+    // `html` jest dla nich tą samą treścią po raz drugi, więc do artefaktu
+    // trafia tylko jedna reprezentacja. Pusty podział zachowuje stary fallback.
     stronyDane[s.slug] = {
       ...pola,
-      html: r.html,
+      ...(!maSekcje && !maBoksy ? { html: r.html } : {}),
       linki: r.linki,
       tekst: naTekst(body),
       czas: datyGit(s.plik),
       ...(r.skryptTekst ? { skryptTekst: r.skryptTekst, skryptOtwarty: false } : {}),
-      ...(r.sekcje ? { sekcje: r.sekcje } : {}),
-      ...(r.boksy ? { boksy: r.boksy } : {}),
+      ...(maSekcje ? { sekcje: r.sekcje } : {}),
+      ...(maBoksy ? { boksy: r.boksy } : {}),
     };
   }
 

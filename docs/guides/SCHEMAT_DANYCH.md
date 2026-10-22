@@ -82,9 +82,10 @@ w_gre:
 Bronie nie są osobnym typem (ADR 0012). Uzbrojenie mecha opisujesz w jego treści.
 
 **scena** (ADR 0008): `epizod` (wymagane, slug epizodu), `numer_sceny` (wymagane, dowolny niepusty tekst — `1-2`, `2-2-1`, `Prolog`; numeracja zależy od gry), `streszczenie` (opcjonalne, pokazywane na liście scen
-w epizodzie), opcjonalnie `postacie`, `mechy`. `sekcje_analizy` (opcjonalne) to lista par
-`podsekcja analizy → podsekcja treści`; każda para robi z tytułu `###` w analizie odsyłacz
-do wskazanego miejsca treści sceny (`docs/guides/PRZEPLYW_EPIZODU.md` §1a). Slug sceny: `<slug-epizodu>-<tytul-sceny>`, np.
+w epizodzie), opcjonalnie `postacie`, `mechy`. `sekcje_analizy` to lista par
+`podsekcja analizy → podsekcja treści`; jest zbędna tylko wtedy, gdy analiza nie ma podsekcji `###`.
+Każda podsekcja analizy wymaga dokładnie jednej pary, która robi z jej tytułu odsyłacz do wskazanego
+miejsca treści sceny (`docs/guides/PRZEPLYW_EPIZODU.md` §1a). Slug sceny: `<slug-epizodu>-<tytul-sceny>`, np.
 `demo-ep001-rozpoznanie` (bez numeru — ADR 0008). Plik: `content/sceny/<slug>.md`.
 
 **seria**: `rodzaj` (`tv` / `ova` / `film` / `manga` / `gra` / `powiesc` / `inne`), `rok`, `odcinki`.

@@ -93,6 +93,12 @@ test('trzy sceny wskazują właściwe odcinki oryginałów', () => {
     assert.match(s.body, tytul, `${slug}: tytuł odcinka`);
     assert.ok((s.zrodla ?? []).includes(url), `${slug}: źródło odcinka w zrodla`);
   }
+
+  const scenaPoczatkowa = bySlug.get('srw-oe-ep0-na-ratunek-white-base');
+  assert.match(scenaPoczatkowa.body, /drugiego odcinka/, 'scena 0-2: również odcinek 2');
+  assert.match(scenaPoczatkowa.body, /Destroy Gundam/, 'scena 0-2: tytuł odcinka 2');
+  assert.ok(scenaPoczatkowa.zrodla.includes('https://gundam.fandom.com/wiki/Destroy_Gundam'),
+    'scena 0-2: źródło odcinka 2 w zrodla');
 });
 
 test('scena bez nawiązań nie dostaje pustego bloku', () => {

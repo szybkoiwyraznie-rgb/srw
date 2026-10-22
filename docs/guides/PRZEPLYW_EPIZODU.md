@@ -50,13 +50,15 @@ sekcje_analizy:
 ```
 
 Po lewej stronie strzałki stoi tytuł `###` z `## Analiza`, po prawej tytuł `##`–`####`
-z `## Treść sceny`. Powtórzony tytuł po prawej stronie zużywa kolejne wystąpienie w kolejności.
-Literówka w tytule zatrzymuje build — mapa nie zgaduje. Scena bez podsekcji w analizie mapy nie
-potrzebuje.
+z `## Treść sceny`. Powtórzony tytuł po dowolnej stronie zużywa kolejne wystąpienie w kolejności.
+Każda podsekcja `###` analizy wymaga dokładnie jednej pary; brak, nadmiar albo literówka zatrzymują
+build — mapa nie zgaduje. Scena bez podsekcji w analizie mapy nie potrzebuje.
 
 Każda scena ma w analizie tyle podsekcji, ile jest etapów w jej treści — także scena z prologu,
 której treść stoi w całości w bloku `:::skrypt`. Dzięki temu czytelnik przechodzi z analizy wprost
-do opisywanego miejsca skryptu.
+do opisywanego miejsca skryptu. Dodatkowe sekcje `##` są dozwolone zgodnie z ADR 0006: renderer
+zachowuje wszystkie wystąpienia, a sekcje inne niż boczne nawiązania i wątki pokazuje w kolumnie
+głównej.
 
 ### Boksy strony epizodu
 

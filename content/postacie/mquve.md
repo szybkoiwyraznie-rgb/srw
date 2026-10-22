@@ -16,9 +16,11 @@ utworzono: 2026-10-22
 
 ## Opis
 
-Komandor [[zeon|Zeonu]] odpowiedzialny za obronę [[operacja-odessa|Odessy]]. Przyjmuje posiłki od lady Kycilii — trzy [[dom|Domy]] [[black-tri-stars|Black Tri-Stars]] — ale najpierw chce rozbić siły na froncie generała Revila, a dopiero potem zająć się „koniem trojańskim”, czyli [[white-base|White Base]].
+Komandor [[zeon|Zeonu]] odpowiedzialny za obronę [[operacja-odessa|Odessy]]. Przyjmuje posiłki od lady Kycilii — trzy [[dom|Domy]] [[black-tri-stars|Black Tri-Stars]] — ale najpierw chce rozbić siły na froncie [[general-revil|generała Revila]], a dopiero potem zająć się „koniem trojańskim”, czyli [[white-base|White Base]].
 
-Nie wierzy w [[newtype|Newtype'y]] i lekceważy ostrzeżenia [[gaia|Gai]], dopóki ten nie przypomni mu, że sam nie walczy. Po nieudanym starciu przyznaje, że przeciwnik wiedział, kiedy się wycofać, i zapowiada, że w zależności od przebiegu bitwy przyjdzie mu zagrać cenną kartą dyplomatyczną.
+Nie wierzy w [[newtype|Newtype'y]] i lekceważy ostrzeżenia [[gaia|Gai]], dopóki ten nie przypomni mu, że sam nie walczy. Po nieudanym starciu przyznaje, że [[gaia|Gaia]] wiedział, kiedy się wycofać, i zapowiada, że w zależności od przebiegu bitwy przyjdzie mu zagrać cenną kartą dyplomatyczną.
+
+Tą kartą okazuje się [[h-bomb-missile|pocisk termojądrowy]]. M'Quve żąda odwrotu wojsk [[general-revil|generała Revila]], choć przyznaje, że użycie bomby złamie [[traktat-antarktyczny|Traktat Antarktyczny]]. Po odrzuceniu ultimatum każe odpalić pocisk, a gdy [[amuro-ray|Amuro]] go rozbraja, wycofuje się w kosmos i przypomina o surowcach wysłanych lady Kycilii.
 }}
 {{menu gra=srw-oe
 

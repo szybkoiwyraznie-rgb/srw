@@ -155,8 +155,13 @@ test('każdy blok na każdej stronie bazy ma widoczną etykietę zakresu', async
 
   let bloki = 0;
   for (const [slug, strona] of Object.entries(dane.strony)) {
-    const wszystkie = (strona.html.match(/<div class="fragment poziom /g) ?? []).length;
-    const zEtykieta = (strona.html.match(/data-gra=/g) ?? []).length;
+    const html = [
+      strona.html,
+      ...(strona.sekcje ?? []).map((s) => s.html),
+      ...(strona.boksy ?? []).map((b) => b.html),
+    ].filter((x) => typeof x === 'string').join('\n');
+    const wszystkie = (html.match(/<div class="fragment poziom /g) ?? []).length;
+    const zEtykieta = (html.match(/data-gra=/g) ?? []).length;
     assert.equal(zEtykieta, wszystkie, `${slug}: ${wszystkie} bloków, ${zEtykieta} etykiet`);
     bloki += wszystkie;
   }

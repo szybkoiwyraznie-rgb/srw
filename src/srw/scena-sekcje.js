@@ -148,40 +148,56 @@ function unikalnyId(baza, uzyte) {
   return n === 1 ? baza : `${baza}-${n}`;
 }
 
+/** Klucz tytułu i numeru jego wystąpienia; separator nie może wejść do Markdown. */
+function kluczWystapienia(tytul, numer) {
+  return `${tytul}\u0000${numer}`;
+}
+
+/** Wszystkie nagłówki z sekcji o danym tytule, także gdy sama sekcja się powtarza. */
+function naglowkiSekcji(sekcje, tytul) {
+  return sekcje.filter((s) => s.tytul === tytul).flatMap((s) => naglowki(s.tresc));
+}
+
 /**
  * Plan kotwic sceny.
  *
- * Zwraca `kotwiceTresci` (mapa „tytuł#numer wystąpienia” → id nagłówka w treści),
- * `kotwiceAnalizy` (tytuł `###` analizy → id nagłówka analizy) i
- * `linkiAnalizy` (tytuł `###` analizy → id celu w treści sceny).
- * `problemy` zbiera błędy mapy `sekcje_analizy`; build je zatrzymuje.
+ * Mapy używają klucza „tytuł + numer wystąpienia”, więc powtórzone tytuły
+ * zarówno w treści, jak i analizie zachowują osobne identyfikatory i cele.
+ * Każda podsekcja `###` analizy musi mieć dokładnie jeden wpis w
+ * `sekcje_analizy`; `problemy` zbiera braki, nadmiary i błędne cele.
  */
 export function zaplanujScene(sekcje, mapa = []) {
   const problemy = [];
-  const tresc = sekcje.find((s) => s.tytul === 'Treść sceny');
-  const analiza = sekcje.find((s) => s.tytul === 'Analiza');
 
   const uzyteTresci = new Map();
   const uzyteIdTresci = new Map();
   const kotwiceTresci = new Map();
   const kolejnoscTresci = [];
-  for (const h of naglowki(tresc?.tresc)) {
+  for (const h of naglowkiSekcji(sekcje, 'Treść sceny')) {
     const n = (uzyteTresci.get(h.tytul) ?? 0) + 1;
     uzyteTresci.set(h.tytul, n);
     const id = unikalnyId(`tresc-${slugify(h.tytul)}`, uzyteIdTresci);
-    kotwiceTresci.set(`${h.tytul}\u0000${n}`, id);
-    kolejnoscTresci.push({ tytul: h.tytul, poziom: h.poziom, id });
+    kotwiceTresci.set(kluczWystapienia(h.tytul, n), id);
+    kolejnoscTresci.push({ tytul: h.tytul, poziom: h.poziom, numer: n, id });
   }
 
-  const tytulyAnalizy = naglowki(analiza?.tresc).filter((h) => h.poziom === 3).map((h) => h.tytul);
-  const uzyteAnalizy = new Map();
+  const podsekcjeAnalizy = [];
+  const liczbyAnalizy = new Map();
+  const uzyteIdAnalizy = new Map();
   const kotwiceAnalizy = new Map();
   const linkiAnalizy = new Map();
-  for (const tytul of tytulyAnalizy) {
-    kotwiceAnalizy.set(tytul, unikalnyId(`analiza-${slugify(tytul)}`, uzyteAnalizy));
+  for (const h of naglowkiSekcji(sekcje, 'Analiza').filter((x) => x.poziom === 3)) {
+    const n = (liczbyAnalizy.get(h.tytul) ?? 0) + 1;
+    liczbyAnalizy.set(h.tytul, n);
+    const klucz = kluczWystapienia(h.tytul, n);
+    const id = unikalnyId(`analiza-${slugify(h.tytul)}`, uzyteIdAnalizy);
+    kotwiceAnalizy.set(klucz, id);
+    podsekcjeAnalizy.push({ tytul: h.tytul, numer: n, klucz });
   }
 
+  const zuzyteAnalizy = new Map();
   const zuzyteTresci = new Map();
+  const zmapowaneAnalizy = new Set();
   for (const wpis of Array.isArray(mapa) ? mapa : []) {
     const czesci = String(wpis).split(/\s*(?:→|->)\s*/);
     if (czesci.length !== 2 || czesci.some((c) => c.trim() === '')) {
@@ -189,44 +205,77 @@ export function zaplanujScene(sekcje, mapa = []) {
       continue;
     }
     const [zAnalizy, zTresci] = czesci.map((c) => c.trim());
-    if (!tytulyAnalizy.includes(zAnalizy)) {
+    if (!liczbyAnalizy.has(zAnalizy)) {
       problemy.push(`sekcje_analizy: „${zAnalizy}” nie jest podsekcją analizy`);
       continue;
     }
+
+    const numerAnalizy = (zuzyteAnalizy.get(zAnalizy) ?? 0) + 1;
+    zuzyteAnalizy.set(zAnalizy, numerAnalizy);
+    const kluczAnalizy = kluczWystapienia(zAnalizy, numerAnalizy);
+    if (!kotwiceAnalizy.has(kluczAnalizy)) {
+      problemy.push(`sekcje_analizy: „${zAnalizy}” wskazano częściej, niż występuje w analizie`);
+      continue;
+    }
+    // Błędny cel już jest pełnym błędem tej pary — nie dokładamy do niego
+    // drugiego komunikatu o braku mapowania tej samej podsekcji.
+    zmapowaneAnalizy.add(kluczAnalizy);
+
     if (!kolejnoscTresci.some((h) => h.tytul === zTresci)) {
       problemy.push(`sekcje_analizy: „${zTresci}” nie jest podsekcją treści sceny`);
       continue;
     }
-    const n = (zuzyteTresci.get(zTresci) ?? 0) + 1;
-    zuzyteTresci.set(zTresci, n);
-    const id = kotwiceTresci.get(`${zTresci}\u0000${n}`);
+    const numerTresci = (zuzyteTresci.get(zTresci) ?? 0) + 1;
+    zuzyteTresci.set(zTresci, numerTresci);
+    const id = kotwiceTresci.get(kluczWystapienia(zTresci, numerTresci));
     if (!id) {
       problemy.push(`sekcje_analizy: „${zTresci}” wskazano częściej, niż występuje w treści sceny`);
       continue;
     }
-    linkiAnalizy.set(zAnalizy, id);
+    linkiAnalizy.set(kluczAnalizy, id);
   }
 
-  return { kotwiceTresci, kotwiceAnalizy, linkiAnalizy, kolejnoscTresci, problemy };
+  for (const podsekcja of podsekcjeAnalizy) {
+    if (zmapowaneAnalizy.has(podsekcja.klucz)) continue;
+    const dopisek = (liczbyAnalizy.get(podsekcja.tytul) ?? 0) > 1
+      ? ` (wystąpienie ${podsekcja.numer})`
+      : '';
+    problemy.push(`sekcje_analizy: podsekcja analizy „${podsekcja.tytul}”${dopisek} nie ma mapowania do treści sceny`);
+  }
+
+  return {
+    kotwiceTresci, kotwiceAnalizy, linkiAnalizy, kolejnoscTresci, podsekcjeAnalizy, problemy,
+  };
 }
 
 /**
  * Funkcja `atrybutyNaglowka` dla renderera: nadaje identyfikatory nagłówkom
  * treści sceny i zamienia tytuły podsekcji analizy w odsyłacze do jej miejsca.
+ * `stan` jest współdzielony między powtórzonymi sekcjami tej samej sceny.
  */
-export function kotwiceSekcji(tytulSekcji, plan, { hrefStrony = '' } = {}) {
-  const liczniki = new Map();
+export function kotwiceSekcji(tytulSekcji, plan, { hrefStrony = '', stan = null } = {}) {
+  const licznik = (nazwa) => {
+    if (!stan) return new Map();
+    if (!(stan[nazwa] instanceof Map)) stan[nazwa] = new Map();
+    return stan[nazwa];
+  };
+  const licznikiTresci = licznik('tresc');
+  const licznikiAnalizy = licznik('analiza');
+
   return (poziom, tytul, html) => {
     if (tytulSekcji === 'Treść sceny') {
-      const n = (liczniki.get(tytul) ?? 0) + 1;
-      liczniki.set(tytul, n);
-      const id = plan.kotwiceTresci.get(`${tytul}\u0000${n}`);
+      const n = (licznikiTresci.get(tytul) ?? 0) + 1;
+      licznikiTresci.set(tytul, n);
+      const id = plan.kotwiceTresci.get(kluczWystapienia(tytul, n));
       return id ? { id } : null;
     }
     if (tytulSekcji === 'Analiza' && poziom === 3) {
-      const id = plan.kotwiceAnalizy.get(tytul);
+      const n = (licznikiAnalizy.get(tytul) ?? 0) + 1;
+      licznikiAnalizy.set(tytul, n);
+      const klucz = kluczWystapienia(tytul, n);
+      const id = plan.kotwiceAnalizy.get(klucz);
       if (!id) return null;
-      const cel = plan.linkiAnalizy.get(tytul);
+      const cel = plan.linkiAnalizy.get(klucz);
       const wewnetrzny = cel
         ? `<a class="skok-do-tresci" href="${hrefStrony || `#${cel}`}" data-cel="${cel}">${html}</a>`
         : html;

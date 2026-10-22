@@ -67,7 +67,12 @@ materiał, a nie stan bazy. Punkt 6 decyzji w zakresie Żołnierza Zeonu przesta
 
 ## Adnotacja 2026-10-22 — Żołnierz Zeonu przywrócony
 
-Dostawa `dostawa_1_2.txt` (misja 2 epizodu 1) przywraca **Żołnierza Zeonu** jako aktywnego
-pilota Doppów, Zaku II i wieżyczek. Wpis wraca do bazy razem z własną stroną postaci;
-adnotacja z 2026-10-21 dotyczyła wycofanego materiału i przestaje obowiązywać. Maszyny,
-które obsadza, znów wymieniają go w polu `piloci` po nazwanych pilotach (ADR 0024).
+Dostawa `dostawa_1_2.txt` (misja 2 epizodu 1) przywraca **Żołnierza Zeonu** jako aktywny
+profil pilota Doppów i dwóch Zaku II. Wpis wraca do bazy razem z własną stroną postaci;
+adnotacja z 2026-10-21 dotyczyła wycofanego materiału i przestaje obowiązywać. Pilotowane
+maszyny wymieniają go w polu `piloci` po nazwanych pilotach (ADR 0024).
+
+Zestawienie obsady technicznie umieszcza ten profil również przy wieżyczkach, ale w tych samych
+wierszach jednoznacznie oznacza je jako „cel/obiekt skryptowy; nie jest pilotowanym mechem”.
+Dlatego Turret nie wskazuje Żołnierza Zeonu w polu `piloci`, a strona postaci nie wymienia
+Turretu w polu `mechy`. Treść może opisywać obsługę baterii, nie ich pilotowanie.

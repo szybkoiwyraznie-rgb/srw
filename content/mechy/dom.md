@@ -8,6 +8,8 @@ piloci: [gaia, ortega, mash]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_2.txt", "profil": "Dom (Black Tri-Stars)", "dane": "**Seria:** Mobile Suit Gundam\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n| ------: | -------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |\n| 0 | Heat Saber | 1900 | 1–2 | +60 | 5 | — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18% |\n| 1 | Wielka bazooka | 3000 | 1–5 | +20 | 10 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |"}'
 pochodzenie: skrypt
+zrodla:
+  - https://gundam.fandom.com/wiki/Black_Tri-Stars
 tagi: [one-year-war]
 utworzono: 2026-10-22
 ---
@@ -15,9 +17,11 @@ utworzono: 2026-10-22
 
 ## Opis
 
-Ciężki [[mobile-suit|mobile suit]] do walki lądowej, w którym [[black-tri-stars|Black Tri-Stars]] wchodzą do akcji nad Azją Środkową. [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] przyprowadzają trzy takie maszyny na front [[operacja-odessa|operacji Odessa]].
+Nowy [[mobile-suit|mobile suit]] do walki lądowej, w którym [[black-tri-stars|Black Tri-Stars]] wchodzą do akcji nad Azją Środkową. [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] przyprowadzają trzy takie maszyny na front [[operacja-odessa|operacji Odessa]].
 
-Heat Saber służy do walki na sąsiednim polu, a wielka bazooka sięga pięciu pól i dostaje premię przeciw okrętom. W walce zespół stawia na szybkość: [[gaia|Gaia]] liczy, że Domy zmylą przeciwnika prędkością i pozwolą szybko zakończyć starcie.
+W walce zespół stawia na szybkość: [[gaia|Gaia]] liczy, że Domy zmylą przeciwnika prędkością i pozwolą szybko zakończyć starcie.
+
+Regularne oddziały Zeonu używają podczas końca operacji Odessa odrębnej jednostki [[dom-zolnierz-zeonu|Dom (Żołnierz Zeonu)]] o innych parametrach uzbrojenia.
 }}
 {{menu gra=srw-oe
 
@@ -34,6 +38,8 @@ Heat Saber służy do walki na sąsiednim polu, a wielka bazooka sięga pięciu 
 {{menu gra=srw-oe
 
 ## Parametry
+
+Heat Saber atakuje z zasięgu 1–2 i zwiększa unik, a wielka bazooka sięga pięciu pól i dostaje premię przeciw okrętom.
 
 **Seria:** [[mobile-suit-gundam-1979|Mobile Suit Gundam]]
 

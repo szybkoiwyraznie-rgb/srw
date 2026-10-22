@@ -22,6 +22,8 @@ Prototypowy [[mobile-suit|mobile suit]] Federacji, którym [[amuro-ray|Amuro]] s
 W walce Gundam wytrzymuje kolejne ciosy, co skłania Chara do ostrzeżenia, że sama przewaga maszyny nie wystarczy do zwycięstwa. [[seishiro|Seishiro]] nazywa starcie potyczką, a nie rozstrzygnięciem.
 
 W misji nad Azją Środkową Gundam startuje z [[white-base|White Base]] przeciw [[black-tri-stars|Black Tri-Stars]] i ich trzem [[dom|Domom]]. [[amuro-ray|Amuro]] ostrzega [[sayla-mass|Saylę]], że wróg atakuje też z naziemnych baz, a zespół okrętu wymyka się [[jet-stream-attack|atakowi Jet Stream]].
+
+Pod koniec [[operacja-odessa|operacji Odessa]] maszyna przechwytuje [[h-bomb-missile|pocisk termojądrowy]]. Amuro używa szabli wiązkowej nie do zniszczenia celu, lecz do precyzyjnego odcięcia zapalnika przed reakcją jądrową.
 }}
 {{menu gra=srw-oe
 

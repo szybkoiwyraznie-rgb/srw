@@ -21,6 +21,8 @@ Pilot [[rx-78-2-gundam|Gundama]] na pokładzie [[white-base|White Base]]. Zanim 
 W wymianie zdań z [[char-aznable|Charem]] zapowiada, że z Gundamem pokona nawet Czerwoną Kometę. [[seishiro|Seishiro]], obserwując walkę, ocenia, że w dobrych rękach nawet Zaku staje się groźny.
 
 W misji nad Azją Środkową startuje z [[white-base|White Base]] razem z [[guncannon|Guncannonem]] i [[guntank|Guntankiem]]. [[sayla-mass|Sayli]] w [[g-fighter|G-Fighterze]] przypomina, że [[zeon|Zeon]] ostrzeliwuje też z baz naziemnych, więc wróg to nie tylko maszyny bojowe.
+
+W finale [[operacja-odessa|operacji Odessa]] otrzymuje od [[bright-noa|Brighta]] jedną próbę zatrzymania [[h-bomb-missile|pocisku termojądrowego]]. Prowadzi [[rx-78-2-gundam|Gundama]] na kurs przechwycenia i szablą wiązkową odcina zapalnik, nie wywołując reakcji jądrowej.
 }}
 {{menu gra=srw-oe
 

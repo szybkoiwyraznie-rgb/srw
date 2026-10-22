@@ -17,6 +17,8 @@ utworzono: 2026-10-22
 Pilot [[guntank|Guntanka]] na pokładzie [[white-base|White Base]]. W kolejce do startu upomina [[kai-shiden|Kaia]], a w walce bierze na siebie ostrzał umocnień — uważa, że baterie wroga powinien zostawić [[guntank|Guntankowi]].
 
 Po starciu z [[black-tri-stars|Black Tri-Stars]] szuka z [[amuro-ray|Amurem]] części zamiennej nr 133 i tłumaczy, że brakuje ludzi do obsługi technicznej. To on doradza użycie uzbrojenia przeciwlotniczego przeciw [[dopp|Doppom]].
+
+Podczas ostatniego natarcia na Odessę pyta, czy można zestrzelić [[h-bomb-missile|pocisk termojądrowy]] w powietrzu. Gdy [[bright-noa|Bright]] wyjaśnia ryzyko wybuchu, Hayato skupia się na przerzedzeniu obrony Zeonu przed odpaleniem bomby.
 }}
 {{menu gra=srw-oe
 

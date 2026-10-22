@@ -65,8 +65,11 @@ Dlatego:
 
 ## Adnotacja (2026-10-22) — Żołnierz Zeonu wraca jako postać
 
-Dostawa misji 2 epizodu 1 (`dostawa_1_2.txt`) obsadza **Żołnierza Zeonu** przy Doppach,
-Zaku II i wieżyczkach, więc właściciel przywrócił dla niego stronę typu `postac` —
-analogicznie do **Control AI** przy Brockenie. Punkt 5 decyzji przestaje obowiązywać:
-zbiorczy profil może mieć własną stronę, gdy aktywna dostawa przypisuje mu maszyny
-i umiejętność.
+Dostawa misji 2 epizodu 1 (`dostawa_1_2.txt`) przywraca profil **Żołnierza Zeonu**,
+przypisuje mu umiejętność oraz Doppy i dwa Zaku II, więc właściciel przywrócił jego stronę
+typu `postac` — analogicznie do **Control AI** przy Brockenie. Punkt 5 decyzji przestaje
+obowiązywać: zbiorczy profil może mieć własną stronę, gdy aktywna dostawa przypisuje mu
+pilotowane maszyny i umiejętność. W zestawieniu obsady ten sam profil stoi technicznie także
+przy wieżyczkach, lecz dostawa rozstrzyga wprost, że są celem/obiektem skryptowym, a nie
+pilotowanym mechem. Turret nie wchodzi więc do relacji `piloci`/`mechy`; związek żołnierzy
+z bateriami można opisać w treści jako ich obsługę.

@@ -22,6 +22,8 @@ Okręt Sił Federacji, na którego pokładzie schronili się cywile z [[side-7|S
 Dowodzi nim [[bright-noa|Bright]], lecz ranny [[paolo-cassius|kapitan Paolo]] wciąż wydaje rozkazy ze stanowiska. [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] wspierają obronę jako [[connect-force|Connect Force]].
 
 Okręt kieruje się ku Azji Środkowej, by wesprzeć [[operacja-odessa|operację Odessa]]; [[zeon|Zeon]] nazywa go „koniem trojańskim”. Po rozpyleniu [[minovsky-particles|cząstek Minovsky’ego]] startują [[rx-78-2-gundam|Gundam]], [[guncannon|Guncannon]], [[guntank|Guntank]] i [[g-fighter|G-Fighter]], a okręt odpiera [[black-tri-stars|Black Tri-Stars]] i ich [[dom|Domy]].
+
+W finałowej fazie bitwy mostek rozpoznaje start [[h-bomb-missile|pocisku termojądrowego]]. [[bright-noa|Bright]] kieruje Gundama na kurs przechwycenia, a [[oscar-dublin|Oscar]] i [[marker|Marker]] potwierdzają, że odcięcie zapalnika zapobiegło reakcji jądrowej.
 }}
 
 {{menu gra=srw-oe

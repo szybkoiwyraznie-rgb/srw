@@ -1,7 +1,8 @@
 # 0014 — Start sesji: PR, lektura, audyt i domyślna pętla jakości
 
 Data: 2026-10-18
-Status: obowiązujący; zmienia ADR 0007 w zakresie kolejności startu i domyślnego zakresu pracy.
+Status: obowiązujący; zmienia ADR 0007 w zakresie kolejności startu i domyślnego zakresu pracy;
+zmieniony przez ADR 0028 w zakresie pierwszego kroku sesji.
 
 ## Kontekst
 
@@ -15,6 +16,9 @@ a po audycie bez nowej dostawy lub zlecenia nakazywał czekać. Te reguły zosta
 ### 1. Kolejność startu
 
 Po odczytaniu pliku startowego `AGENTS.md` agent wykonuje kolejno:
+
+> **Zmiana 2026-10-22:** ADR 0028 dodaje przed punktem 1 obowiązkowe uruchomienie stałego
+> live preview. Aktualna sekwencja zaczyna się od: podgląd → PR i plan → lektura.
 
 1. **Otwarcie PR ze wstępnym planem sesji.** Pusty commit porządkowy i push na gałąź
    przypisaną do sesji, potem PR. Jeśli PR tej sesji już istnieje, agent go kontynuuje.

@@ -1,7 +1,36 @@
 # Co nowego
 
+## 2026-10-22 18:23
+
+- [[general-revil|Generał Revil]] ma teraz portret.
+
+## 2026-10-22 18:14
+
+- [[srw-oe-ep1-powstrzymaj-pocisk-termojadrowy|Scena 1-3 „Powstrzymaj pocisk termojądrowy”]] kończy [[operacja-odessa|operację Odessa]]: [[general-revil|generał Revil]] odrzuca ultimatum [[mquve|M'Quve'a]], a [[amuro-ray|Amuro]] odcina zapalnik bomby szablą wiązkową Gundama.
+- Nowe jednostki to niepilotowany [[h-bomb-missile|H-Bomb Missile]] oraz [[dom-zolnierz-zeonu|Dom regularnych oddziałów Zeonu]], odrębny od maszyn [[black-tri-stars|Black Tri-Stars]].
+- Nowe strony postaci: [[general-revil|Generał Revil]], [[oficer-federacji|Oficer Federacji]] i [[oficer-zeonu|Oficer Zeonu]]; nowe hasło: [[traktat-antarktyczny|Traktat Antarktyczny]].
+- Nawiązanie prowadzi do dwudziestego piątego odcinka [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]], „The Fierce Battle for Odessa”, i wskazuje elementy pominięte w wersji gry.
+
+## 2026-10-22 16:30
+
+- Samowystarczalny plik witryny nie powtarza już pełnej treści scen i epizodów obok ich osobnych sekcji. Strony zachowują ten sam kompletny widok w mniejszym pliku.
+
+## 2026-10-22 16:27
+
+- Strony scen zachowują teraz wszystkie dodatkowe i powtórzone sekcje. Powtarzające się tytuły są rozróżniane, a każda podsekcja analizy prowadzi do wskazanego miejsca treści.
+
+## 2026-10-22 15:29
+
+- Oryginalny zapis imienia i nazwiska [[seishiro|Seishira]] ma teraz kompletne odwołanie do japońskojęzycznego źródła.
+
+## 2026-10-22 15:26
+
+- [[srw-oe-ep0-na-ratunek-white-base|Scena 0-2]] i tabela [[srw-oe-ep0|Epizodu 0]] rozdzielają teraz materiał z dwóch początkowych odcinków [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]]: prolog i pierwszy pilotaż Gundama z „Gundam Rising” oraz rannego kapitana, prowizoryczną załogę i starcie z Charem z „Destroy Gundam”.
+
 ## 2026-10-22 15:20
 
+- [[turret|Turret]] jest teraz poprawnie opisany jako niepilotowana, nieruchoma bateria: [[zolnierz-zeonu|Żołnierze Zeonu]] pilotują Doppy i [[zaku-ii|dwa Zaku II]], a wieżyczki jedynie obsługują.
+- Opisy jednostek misji [[srw-oe-ep1-black-tri-stars|„Black Tri-Stars”]] wyraźniej rozdzielają wydarzenia sceny, parametry z gry i informacje ze sprawdzonych źródeł; poprawiono też zasięg Heat Sabera [[dom|Doma]], wypowiedź [[sayla-mass|Sayli]] i umiejętność [[newtype|Newtype]].
 - [[prolog-i-trening-w-connect|Scena 0-1]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] mają analizę rozbitą na podsekcje, a każda z nich prowadzi do swojego miejsca w treści — od prologu i szkolenia po [[white-base|White Base]], odwrót [[char-aznable|Chara]] i rozmowę w hangarze.
 
 ## 2026-10-22 14:05
@@ -12,7 +41,7 @@
 
 ## 2026-10-22 12:20
 
-- Sceny bazy odsyłają teraz wprost do oryginalnych odcinków: [[srw-oe-ep1-szalejacy-prototyp-labora|scena 1-1]] do piątego odcinka serialu [[mobile-police-patlabor|*Mobile Police Patlabor: On Television*]], a [[srw-oe-ep1-black-tri-stars|scena 1-2]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] do dwudziestego czwartego i pierwszego odcinka [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
+- Sceny bazy odsyłają teraz wprost do oryginalnych odcinków: [[srw-oe-ep1-szalejacy-prototyp-labora|scena 1-1]] do piątego odcinka serialu [[mobile-police-patlabor|*Mobile Police Patlabor: On Television*]], a [[srw-oe-ep1-black-tri-stars|scena 1-2]] do dwudziestego czwartego odcinka [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]]. [[srw-oe-ep0-na-ratunek-white-base|Scena 0-2]] łączy materiał z pierwszego i drugiego odcinka tej serii.
 - Każdy taki blok mówi, co gra zachowuje, a co zmienia względem oryginału, i podaje źródło odcinka.
 
 ## 2026-10-22 10:15
@@ -28,7 +57,7 @@
 - [[srw-oe-ep1-black-tri-stars|Scena 1-2]] „Black Tri-Stars”: [[white-base|White Base]] odpiera atak trzech [[dom|Domów]] [[black-tri-stars|Black Tri-Stars]] w drodze ku [[operacja-odessa|Odessie]].
 - Nowe jednostki: [[dom|Dom (Black Tri-Stars)]], [[dopp|Dopp]], [[g-fighter|G-Fighter]], [[guncannon|Guncannon]], [[guntank|Guntank]] i [[turret|Turret]] — z uzbrojeniem i parametrami.
 - Nowi piloci: [[kai-shiden|Kai Shiden]], [[hayato-kobayashi|Hayato Kobayashi]], [[gaia|Gaia]], [[ortega|Ortega]], [[mash|Mash]] i [[mquve|M'Quve]].
-- [[zolnierz-zeonu|Żołnierz Zeonu]] — bezimienny pilot [[dopp|Doppów]], [[zaku-ii|Zaku II]] i wieżyczek — walczy w grupie, w której wytrzymałość jest sumą maszyn.
+- [[zolnierz-zeonu|Żołnierz Zeonu]] — zbiorcze określenie pilotów [[dopp|Doppów]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem]]; szeregowi obsługują też niepilotowane [[turret|wieżyczki]] i walczą w grupie, której wytrzymałość jest sumą maszyn.
 - Nowe hasła: [[black-tri-stars|Black Tri-Stars]], [[operacja-odessa|Operacja Odessa]] i [[jet-stream-attack|Jet Stream Attack]].
 - [[sayla-mass|Sayla]] po raz pierwszy prowadzi [[g-fighter|G-Fighter]], a [[white-base|White Base]] zyskuje miano „konia trojańskiego”.
 

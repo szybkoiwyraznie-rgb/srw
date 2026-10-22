@@ -181,7 +181,8 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
   // Żołnierz Zeonu wraca do bazy z dostawą misji 2 (ADR 0025, adnotacja 2026-10-22).
   assert.ok(bySlug.has('zolnierz-zeonu'), 'Żołnierz Zeonu ma własną stronę');
   assert.deepEqual(bySlug.get('zolnierz-zeonu').mechy,
-    ['dopp', 'turret', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']);
+    ['dom-zolnierz-zeonu', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']);
+  assert.deepEqual(bySlug.get('turret').piloci, [], 'Turret nie jest pilotowanym mechem');
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka']) {
     assert.ok(bySlug.get(slug).piloci.includes('zolnierz-zeonu'), `${slug}: domyślna załoga`);
   }
@@ -253,11 +254,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 66 plików przy 50 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 67 plików przy 51 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 50);
-  assert.equal(Object.values(manifest.encje).flat().length, 66);
+  assert.equal(Object.keys(manifest.encje).length, 51);
+  assert.equal(Object.values(manifest.encje).flat().length, 67);
   // Dostawa ilustracji jednostek misji 2 (2026-10-22): sześć maszyn, dziewięć plików.
   assert.deepEqual(manifest.encje.dom, ['Dom.png', 'Dom 2.png']);
   assert.deepEqual(manifest.encje.dopp, ['Dopp.png']);
@@ -272,6 +273,8 @@ test('ilustracje właściciela: 66 plików przy 50 encjach, w tym postacie bez d
   assert.deepEqual(manifest.encje.mquve, ["characters/M'Quve.png"]);
   assert.deepEqual(manifest.encje.mash, ['characters/Mash.png']);
   assert.deepEqual(manifest.encje.ortega, ['characters/Ortega.png']);
+  // Portret generała Revila z dostawy uzupełniającej (2026-10-22).
+  assert.deepEqual(manifest.encje['general-revil'], ['characters/Revil.png']);
   assert.deepEqual(manifest.nieprzypisane, []);
   const adres = file => `${manifest.baseUrl}/${file.split('/').map(encodeURIComponent).join('/')}`;
   for (const [slug, files] of Object.entries(manifest.encje)) {

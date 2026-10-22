@@ -15,9 +15,7 @@ utworzono: 2026-10-22
 
 ## Opis
 
-Maszyna wsparcia na podwoziu gąsienicowym, prowadzona przez [[hayato-kobayashi|Hayato Kobayashiego]]. Wzmocniony kadłub chroni ją przed odepchnięciem i rzutem, a Bop Missiles są skuteczne przeciw celom w powietrzu.
-
-Działo 120 mm strzela na duży dystans ponad przeszkodami, więc w walce z [[black-tri-stars|Black Tri-Stars]] [[hayato-kobayashi|Hayato]] bierze na siebie ostrzał umocnień i baterii wroga.
+Maszyna wsparcia [[white-base|White Base]], prowadzona przez [[hayato-kobayashi|Hayato Kobayashiego]]. W walce z [[black-tri-stars|Black Tri-Stars]] Hayato bierze na siebie ostrzał umocnień i baterii wroga.
 }}
 {{menu gra=srw-oe
 
@@ -34,6 +32,8 @@ Działo 120 mm strzela na duży dystans ponad przeszkodami, więc w walce z [[bl
 {{menu gra=srw-oe
 
 ## Parametry
+
+Hart chroni maszynę przed odepchnięciem i rzutem oraz zmniejsza obrażenia. Bop Missiles dostają premię przeciw celom w powietrzu, a działo 120 mm strzela na duży dystans ponad przeszkodami.
 
 **Seria:** [[mobile-suit-gundam-1979|Mobile Suit Gundam]]
 

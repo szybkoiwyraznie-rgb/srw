@@ -7,7 +7,8 @@
 > zostały **zmierzone w tym sandboxie 2026-10-14** (sesja PR #3). Jeśli coś się
 > zmieniło — popraw z datą i pomiarem, ale nie usuwaj wpisu bez powodu.
 
-Powiązania: `AGENTS.md` §3 (tryb sesji), ADR 0007 (model sesji), `docs/LESSONS.md`.
+Powiązania: `AGENTS.md` §3 (tryb sesji), ADR 0007 (model sesji), ADR 0014
+(kolejność pracy), ADR 0028 (stały live preview), `docs/LESSONS.md`.
 
 ## 1. Izolacja sesji — co NAPRAWDĘ przetrwa
 
@@ -136,16 +137,29 @@ sierota — nie wejdzie do PR-a i przepadnie).
 - Pliki poza `/home/user` (w tym `/tmp`) znikają z sesją — komunikaty commitów
   i opisy PR trzymaj tam świadomie, ale nic trwałego.
 
-## 6. Podgląd dla właściciela
+## 6. Stały podgląd dla właściciela
 
-- `npm run serve` (narzędziem `start_process`) słucha na `0.0.0.0:3000`; port
-  staje się widoczny jako live preview pod `https://3000-<sandbox>.e2b.app`.
-- Przed wystawieniem podglądu: klon pełny (§4), świeży `npm run build` **po**
-  ostatniej zmianie treści, kontrola jednej starszej strony (data utworzenia
-  sprzed dni, nie z dziś).
-- Artefakt `dist/index.html` ma pozostać w granicach pojedynczych megabajtów;
-  winne wzrostowi są zwykle osadzone obrazy — te trzymamy poza repozytorium.
-- Preview umiera razem z sandboxem; trwałość daje tylko push.
+Podgląd nie jest końcową demonstracją uruchamianą dopiero po zmianach. Jest obowiązkowym,
+stałym procesem każdej sesji (ADR 0028):
+
+1. zaraz po odczytaniu `AGENTS.md`, kontroli gałęzi i ewentualnym odzyskaniu workspace'u
+   zapewnij pełną historię gita (§4) i wykonaj świeży `npm run build`;
+2. uruchom `npm run serve` narzędziem `start_process` — nie zwykłym `bash`, którego proces
+   nie jest przeznaczony do działania w tle — i sprawdź nasłuch na `0.0.0.0:3000`;
+3. pozostaw ten sam proces aktywny przez cały czas trwania sesji, także podczas testów,
+   edycji, commitów i pushów; nie zatrzymuj go w celu oszczędzenia zasobów;
+4. po każdej zmianie źródeł, danych lub mediów wpływającej na witrynę wykonaj ponownie
+   `npm run build`. Serwer odczytuje aktualny `dist/index.html` przy każdym żądaniu,
+   więc nie wymaga restartu po udanym buildzie;
+5. po resecie workspace'u, awarii albo zniknięciu procesu odbuduj `dist`, natychmiast
+   uruchom podgląd ponownie i dopiero wtedy kontynuuj zwykłą pracę;
+6. przed zakończeniem każdej tury sprawdź, że proces nadal działa i port nadal nasłuchuje.
+
+Port staje się widoczny jako live preview pod `https://3000-<sandbox>.e2b.app`. Kontrola
+podglądu obejmuje co najmniej stronę główną i jedną starszą stronę (data utworzenia sprzed
+dni, nie z dziś). Artefakt `dist/index.html` ma pozostać w granicach pojedynczych
+megabajtów; winne wzrostowi są zwykle osadzone obrazy — te trzymamy poza repozytorium.
+Preview umiera razem z sandboxem; trwałość zmian daje tylko commit i push.
 
 ## 7. Czas wykonania (orientacyjnie, baza 16 stron)
 
@@ -163,15 +177,17 @@ sierota — nie wejdzie do PR-a i przepadnie).
 - Artefakt ma `noindex, nofollow`, ale repozytorium jest publiczne — treść jest
   publiczna.
 
-## 9. Checklista startu sesji (ADR 0014)
+## 9. Checklista startu sesji (ADR 0014, ADR 0028)
 
 0. Odczytaj `AGENTS.md` w całości, sprawdź gałąź i stan: `git rev-parse --abbrev-ref HEAD`,
    `git log --oneline -3`, `git status`. Po resecie najpierw odzyskaj istniejącą gałąź i PR (§3).
+   Sprawdź `git rev-parse --is-shallow-repository`; jeśli `true`, pobierz
+   `git fetch --unshallow origin`. **Natychmiast** wykonaj `npm run build`, uruchom
+   `npm run serve` przez `start_process` i potwierdź nasłuch na `0.0.0.0:3000`.
 1. **Otwórz PR ze wstępnym planem**: pusty commit (`git commit --allow-empty`), push gałęzi
    sesji, `gh pr create`. Plan: lektura → audyt → pętla jakości; audyt jeszcze do wykonania.
    Jeśli PR sesji już istnieje, kontynuuj go, zamiast tworzyć nowy.
-2. **Lektura obowiązkowa** wg `AGENTS.md` — w całości i w podanej kolejności. Sprawdź
-   `git rev-parse --is-shallow-repository`; jeśli `true`, pobierz `git fetch --unshallow origin`.
+2. **Lektura obowiązkowa** wg `AGENTS.md` — w całości i w podanej kolejności.
 3. **Audyt poprzedniego scalonego PR**: `gh pr list --state merged --limit 3`, opis, pliki i diff.
    Osobno: (3a) zmiany stron bazy — merytorycznie, z kwerendą i porównaniem z dostawą;
    (3b) kod — przegląd i `npm test` + `npm run build`; (3c) inne, np. dokumentacja.
@@ -179,15 +195,17 @@ sierota — nie wejdzie do PR-a i przepadnie).
 4. **Domyślna pętla jakości bazy**, bez czekania na nowe zlecenie: uzasadnione rozszerzenia
    wpisów, relacji i brakujących encji z dostawy, na podstawie kwerendy lub pamięci modelu,
    z zachowaniem ADR-ów, poziomów wiarygodności i granicy rozegranej fabuły.
-   Każdy zielony krok: dziennik zmian bazy, commit, push i aktualizacja opisu PR.
+   Każdy zielony krok: odbudowa `dist`, dziennik zmian bazy, commit, push i aktualizacja opisu
+   PR. Przez wszystkie kroki utrzymuj live preview; po awarii wznów go przed dalszą pracą.
 
 ## 10. Checklista przed oddaniem PR-a właścicielowi
 
 1. `npm test` i `npm run build` zielone, build bez ostrzeżenia o płytkim klonie.
-2. Wszystko zacommitowane **i wypchnięte** (`git status` czysty,
+2. Proces live preview nadal działa, port 3000 nasłuchuje i pokazuje bieżący artefakt.
+3. Wszystko zacommitowane **i wypchnięte** (`git status` czysty,
    `git log origin/arena/<id> -1` = `HEAD`).
-3. `content/co-nowego.md` ma wpis dnia, jeśli zmieniła się baza.
-4. Reguły trwałe trafiły do ADR / `AGENTS.md` / `LESSONS.md` / tego pliku —
+4. `content/co-nowego.md` ma wpis dnia, jeśli zmieniła się baza.
+5. Reguły trwałe trafiły do ADR / `AGENTS.md` / `LESSONS.md` / tego pliku —
    nie tylko do czatu.
-5. Opis PR zaktualizowany kumulatywnie (plan z odhaczonymi punktami, audyt,
+6. Opis PR zaktualizowany kumulatywnie (plan z odhaczonymi punktami, audyt,
    odstępstwa). PR **pozostaje otwarty** — scala właściciel.

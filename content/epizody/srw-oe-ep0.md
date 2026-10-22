@@ -16,6 +16,8 @@ zrodla:
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam
   - https://en.wikipedia.org/wiki/White_Base
   - https://en.wikipedia.org/wiki/Char_Aznable
+  - https://gundam.fandom.com/wiki/Gundam_Rising
+  - https://gundam.fandom.com/wiki/Destroy_Gundam
 tagi: [prolog, trening, one-year-war]
 utworzono: 2026-10-17
 ---
@@ -38,9 +40,8 @@ W [[uc-0079|U.C. 0079]] trwa wojna. [[suol|Szef Suol]] wysyła Seishira na pomoc
 | Wspomnienie dawnych zagrożeń | Prolog [[srw-oe\|Super Robot Wars OE]] | Epizod 0 | nawiazanie | Wymienia nazwy, ale nie odtwarza konkretnych odcinków anime. |
 | Kryzys jedności politycznej i nieznane energie | Prolog [[srw-oe\|Super Robot Wars OE]] | Epizod 0 | fuzja | Różne kryzysy są częścią wspólnej historii świata gry. |
 | Szkolenie w [[connect-force\|Connect Force]] | [[srw-oe\|Super Robot Wars OE]] | Szkolenie podstawowe | autorskie | Walka z symulowanymi przeciwnikami służy nauce sterowania, zaopatrzenia i atakowania. |
-| Wybuch wojny i śmierć połowy ludzkości | *Mobile Suit Gundam* (1979) | tło [[uc-0079\|U.C. 0079]] | adaptacja | Interludium przedstawia wojnę jako wspólną historię świata gry, bez odtwarzania odcinków anime. |
-| Atak Chara na [[white-base\|White Base]] | *Mobile Suit Gundam* (1979) | odc. 1 „Gundam Rising”; pierwsze starcie w [[side-7\|Side 7]] | adaptacja | W grze do walki włącza się [[connect-force\|Connect]], którego w anime nie ma. |
-| Ranny kapitan i prowizoryczne dowodzenie | *Mobile Suit Gundam* (1979) | początek podróży [[white-base\|White Base]] | adaptacja | [[paolo-cassius\|Paolo]] pozostaje na stanowisku, a [[bright-noa\|Bright]] wydaje rozkazy; wątek późniejszej podróży nie jest rozgrywany. |
+| Wybuch wojny, śmierć połowy ludzkości i pierwszy pilotaż Gundama | *Mobile Suit Gundam* (1979) | odc. 1 „Gundam Rising” | adaptacja | Gra powtarza interludium U.C. 0079 i pokazuje niedoświadczonego [[amuro-ray\|Amura]] za sterami Gundama, po czym łączy ten materiał z kolejnym odcinkiem. |
+| Ranny kapitan, prowizoryczna załoga i starcie z Charem | *Mobile Suit Gundam* (1979) | odc. 2 „Destroy Gundam” | adaptacja | [[paolo-cassius\|Paolo]] pozostaje na stanowisku, [[bright-noa\|Bright]] wydaje rozkazy, a do walki włącza się [[connect-force\|Connect]], którego w anime nie ma. |
 
 ## Komentarz
 
@@ -57,6 +58,8 @@ Druga scena zmienia ton: szkolenie ustępuje miejsca wojnie, a neutralna organiz
 
 ### Nawiązania
 
+- Prolog U.C. 0079 i pierwszy pilotaż Gundama przez [[amuro-ray|Amura]] pochodzą z odcinka 1 „Gundam Rising” ([Gundam Wiki, „Gundam Rising”](https://gundam.fandom.com/wiki/Gundam_Rising); sprawdzono 2026-10-22).
+- Ranny [[paolo-cassius|Paolo]], improwizowana załoga [[white-base|White Base]] i pierwsze bezpośrednie starcie Gundama z [[char-aznable|Charem]] odpowiadają odcinkowi 2 „Destroy Gundam” ([Gundam Wiki, „Destroy Gundam”](https://gundam.fandom.com/wiki/Destroy_Gundam); sprawdzono 2026-10-22).
 - **[[dr-hell|Dr. Hell]]** wymieniony w prologu to postać z *Mazinger Z* Go Nagai. Jest niemieckim członkiem japońskiej
   wyprawy archeologicznej, która odkryła wyspę Bardos. Dowodzi Mechanicznymi Bestiami
   ([en.wikipedia.org, *Mazinger Z*](https://en.wikipedia.org/wiki/Mazinger_Z)).

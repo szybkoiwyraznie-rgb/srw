@@ -1,10 +1,11 @@
 # Instrukcja dla agentów — SRW Database
 
 > **To jest jedyny plik startowy sesji.** Po odczytaniu go w całości wykonaj kolejno:
-> **(1) otwarcie PR ze wstępnym planem → (2) lektura obowiązkowa → (3) audyt poprzedniego
-> scalonego PR: (3a) merytoryczny z kwerendą, (3b) kodu, (3c) pozostałych zmian →
-> (4) domyślna pętla jakości bazy.** Szczegóły: §3 i ADR 0014. Nie czekaj na osobne zlecenie
-> rozszerzania bazy w tych granicach; konkretne zlecenie właściciela wyznacza priorytet pracy.
+> **(0) natychmiastowe uruchomienie stałego live preview → (1) otwarcie PR ze wstępnym planem →
+> (2) lektura obowiązkowa → (3) audyt poprzedniego scalonego PR: (3a) merytoryczny z kwerendą,
+> (3b) kodu, (3c) pozostałych zmian → (4) domyślna pętla jakości bazy.** Szczegóły: §3,
+> ADR 0014 i ADR 0028. Nie czekaj na osobne zlecenie rozszerzania bazy w tych granicach;
+> konkretne zlecenie właściciela wyznacza priorytet pracy.
 
 ## 1. Czym jest ten projekt
 
@@ -44,20 +45,27 @@ postaci/mechów podana w wiadomości). Wynik pracy:
 
 Szczegółowa lista kroków: `docs/guides/PRZEPLYW_EPIZODU.md`.
 
-## 3. Tryb sesji (ADR 0007 i 0014)
+## 3. Tryb sesji (ADR 0007, 0014 i 0028)
 
 ### Kolejność domyślna
 
-1. **Otwórz PR ze wstępnym planem sesji.** Po odczytaniu tego pliku sprawdź gałąź i stan
-   repozytorium. Pracuj wyłącznie na gałęzi przypisanej do sesji. Jeśli PR sesji już istnieje,
-   kontynuuj go — nie twórz drugiego. W nowej sesji: pusty commit porządkowy
-   (`git commit --allow-empty`), push gałęzi sesji, `gh pr create`. Plan obejmuje lekturę,
-   audyt w trzech częściach i pętlę jakości; **audyt oznacz jako do wykonania**, nie jako gotowy.
-   PR powstaje przed lekturą pozostałych dokumentów i przed zmianami merytorycznymi.
+0. **Natychmiast uruchom live preview i pozostaw go aktywnym.** Po odczytaniu tego pliku
+   sprawdź gałąź i stan repozytorium; po resecie najpierw odzyskaj zdalną gałąź sesji.
+   Pobierz pełną historię, jeśli klon jest płytki, uruchom świeży `npm run build`, a następnie
+   wystartuj `npm run serve` narzędziem `start_process` i sprawdź nasłuch na `0.0.0.0:3000`.
+   Podgląd ma działać od tego momentu przez całą sesję: nie zatrzymuj go między krokami,
+   po kolejnych buildach pozostaw ten sam serwer, a po awarii lub resecie uruchom go ponownie
+   przed dalszą pracą. Przed zakończeniem tury sprawdź, że proces nadal żyje (ADR 0028).
+1. **Otwórz PR ze wstępnym planem sesji.** Pracuj wyłącznie na gałęzi przypisanej do sesji.
+   Jeśli PR sesji już istnieje, kontynuuj go — nie twórz drugiego. W nowej sesji: pusty commit
+   porządkowy (`git commit --allow-empty`), push gałęzi sesji, `gh pr create`. Plan obejmuje
+   lekturę, audyt w trzech częściach i pętlę jakości; **audyt oznacz jako do wykonania**, nie
+   jako gotowy. PR powstaje przed lekturą pozostałych dokumentów i przed zmianami
+   merytorycznymi.
 2. **Wykonaj lekturę obowiązkową.** Przeczytaj wszystkie ADR-y w `docs/decisions/` po kolei,
    potem `docs/LESSONS.md`, `docs/guides/ENVIRONMENT.md` i `docs/guides/SCHEMAT_DANYCH.md`.
-   Każdy plik w całości — jeśli narzędzie utnie wynik, dobierz resztę. Pobierz pełną historię
-   gita, jeśli klon jest płytki. Przy nowej dostawie przeczytaj również
+   Każdy plik w całości — jeśli narzędzie utnie wynik, dobierz resztę. Potwierdź, że krok 0
+   zapewnił pełną historię gita. Przy nowej dostawie przeczytaj również
    `docs/guides/PRZEPLYW_EPIZODU.md` i cały materiał wejściowy.
 3. **Przeprowadź audyt poprzedniego scalonego PR.** Ustal go przez
    `gh pr list --state merged --limit 3`, przeczytaj opis, listę plików i diff
@@ -194,6 +202,11 @@ npm test          # testy integralności (node --test)
 npm run build     # dist/index.html — jeden samowystarczalny plik
 npm run serve     # podgląd na http://0.0.0.0:3000
 ```
+
+`npm run serve` uruchamiaj jako długotrwały proces przez `start_process`, nigdy przez krótkotrwały
+proces powłoki. Serwer odczytuje bieżący `dist/index.html` przy każdym żądaniu, dlatego po każdej
+zmianie przeznaczonej do oceny w podglądzie wykonaj ponownie `npm run build` bez restartowania
+serwera. Reguły odzyskiwania i checklista: `docs/guides/ENVIRONMENT.md`, ADR 0028.
 
 Publikacja dzieje się sama: push do `main` → workflow `pages.yml` → nowa wersja witryny.
 

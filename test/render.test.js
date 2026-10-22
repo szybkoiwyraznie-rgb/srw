@@ -21,6 +21,7 @@ globalThis.SRW_DATA = await zbudujDane({ root: ROOT });
 const { renderGlowna } = await import('../src/srw/render-home.js');
 const { renderEncja } = await import('../src/srw/render-entity.js');
 const { renderEpizod } = await import('../src/srw/render-episode.js');
+const { renderScena } = await import('../src/srw/render-scene.js');
 const { renderListe, renderTagi, renderTag } = await import('../src/srw/render-lists.js');
 const { renderSzukanie } = await import('../src/srw/render-search.js');
 const { renderCoNowego } = await import('../src/srw/render-whatsnew.js');
@@ -64,8 +65,7 @@ test('strona epizodu pokazuje skrypt, sceny i nawigację', () => {
   assert.match(html, /#\/scena\/prolog-i-trening-w-connect/);
 });
 
-test('strona sceny pokazuje dosłowną treść i analizę', async () => {
-  const { renderScena } = await import('../src/srw/render-scene.js');
+test('strona sceny pokazuje dosłowną treść i analizę', () => {
   const html = renderScena('prolog-i-trening-w-connect');
   assert.match(html, /Treść sceny/);
   assert.match(html, /Analiza/);
@@ -235,7 +235,9 @@ function tekstWidoczny(html) {
 
 test('opisy wszystkich stron mówią o świecie, bez wewnętrznych procedur', () => {
   for (const page of Object.values(globalThis.SRW_DATA.strony)) {
-    const html = page.typ === 'epizod' ? renderEpizod(page.slug) : renderEncja(page.slug);
+    const html = page.typ === 'epizod'
+      ? renderEpizod(page.slug)
+      : page.typ === 'scena' ? renderScena(page.slug) : renderEncja(page.slug);
     assert.doesNotMatch(tekstWidoczny(html), /\b(?:dostaw[\p{L}]*|właściciel[\p{L}]*|skryp[\p{L}]*)\b/iu, page.slug);
     assert.doesNotMatch(tekstWidoczny(html), /nie przypisano|dane od|brak materiału|tworzenia biografii|danych domyślnej załogi|w obrębie.*hasła|w tej bazie|nie sprawdzono|nie potwierdzono/iu, page.slug);
   }
