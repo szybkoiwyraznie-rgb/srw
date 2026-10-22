@@ -23,9 +23,12 @@ const KAFEL_DOMYSLNY = 240;
 /** Pola, po których można filtrować galerie postaci i mechów. */
 const POLA_FILTRU = ['gra', 'epizod', 'scena', 'seria'];
 
+/** Wartość filtra `seria` dla encji bez przypisanej serii (opcja „Nieokreślona”). */
+const BEZ_SERII = 'bez-serii';
+
 /** Klucze adresu, które lista przyjmuje. Reszta jest odrzucana, żeby widok
  * nie przenosił w linkach przypadkowej treści (i żeby nie trafiła do HTML). */
-const KLUCZE_ADRESU = new Set([...POLA_FILTRU, 'rozmiar']);
+const KLUCZE_ADRESU = new Set([...POLA_FILTRU, 'rozmiar', 'tagi']);
 
 /** Tylko znane klucze i tylko tekstowe wartości — adres jest danymi wejściowymi. */
 function oczyscQuery(query) {
@@ -66,15 +69,20 @@ export function renderListe(typ, query = {}) {
     if (!wartosc) continue;
     lista = filtrujPoPolu(lista, typ, pole, wartosc);
   }
+  // Hasła zawężamy też wybranymi tagami — wystarczy jeden z nich (suma wyboru).
+  const wybraneTagi = typ === 'pojecie' ? tagiZZapytania(q.tagi) : [];
+  if (wybraneTagi.length) lista = filtrujPoTagach(lista, wybraneTagi);
 
   const filtr = wybierzFiltr(typ, q); // tylko do nagłówka (który źródło jest wybrane)
   const filtrHtml = (typ === 'postac' || typ === 'mech') ? renderFiltryKrokowe(typ, q) : '';
+  const chmura = typ === 'pojecie' ? renderChmuraTagow(wybraneTagi) : '';
+  const etykietaTagow = wybraneTagi.length ? `tagi: ${wybraneTagi.join(', ')}` : null;
 
   if (lista.length === 0) {
     // Filtry zostają nad pustą listą: inaczej po wybraniu zestawu bez wyników
     // nie da się już zmienić ustawienia inaczej niż przez „pokaż wszystkie”.
-    return naglowekListy(typ, filtr, 0) + filtrHtml + stanPusty(
-      `Nic tu jeszcze nie ma${filtr ? ' dla tego filtra' : ''}.`,
+    return naglowekListy(typ, filtr, 0, etykietaTagow) + filtrHtml + chmura + stanPusty(
+      `Nic tu jeszcze nie ma${(filtr || wybraneTagi.length) ? ' dla tego filtra' : ''}.`,
       'Baza rośnie w tempie rozgrywki — kolejny epizod doda wpisy.',
     );
   }
@@ -83,21 +91,24 @@ export function renderListe(typ, query = {}) {
     ? listaEpizodowHtml(lista)
     : typ === 'scena' ? listaSceneHtml(lista) : listaEncjiHtml(lista, typ);
 
-  return naglowekListy(typ, filtr, lista.length) + filtrHtml + html;
+  return naglowekListy(typ, filtr, lista.length, etykietaTagow) + filtrHtml + chmura + html;
 }
 
-function naglowekListy(typ, filtr, liczba) {
-  const cel = filtr ? filtr.zrodlo : null;
+function naglowekListy(typ, filtr, liczba, etykietaFiltra = null) {
+  // Filtr może wskazywać stronę (Gra, Odcinek, Seria), wartość specjalną
+  // („bez serii”) albo zestaw tagów — nagłówek pokazuje wtedy własną etykietę.
+  const cel = filtr ? (filtr.zrodlo ? filtr.zrodlo.tytul : filtr.etykieta) : null;
+  const etykieta = cel ?? etykietaFiltra;
   return `<div class="naglowek-strony">
   <a class="okruszek" href="#/">Baza</a>
-  <h1>${nazwaTypu(typ, 'wiele')}${filtr && cel ? `<span class="filtru-jest">— ${escapeHtml(cel.tytul)}</span>` : ''}
+  <h1>${nazwaTypu(typ, 'wiele')}${etykieta ? `<span class="filtru-jest">— ${escapeHtml(etykieta)}</span>` : ''}
   </h1>
   <p class="podtytul">${liczba} ${odmiana(liczba, [
     nazwaTypu(typ).toLowerCase(),
     nazwaTypu(typ, 'wiele').toLowerCase(),
     trzeciaForma(typ),
   ])}
-  ${filtr ? `· <a href="${hrefListy(typ)}">pokaż wszystkie</a>` : ''}</p>
+  ${etykieta ? `· <a href="${hrefListy(typ)}">pokaż wszystkie</a>` : ''}</p>
 </div>`;
 }
 
@@ -121,6 +132,9 @@ function wybierzFiltr(typ, query) {
   for (const [pole, typCelu] of Object.entries(dostepne)) {
     const wartosc = query?.[pole];
     if (!wartosc) continue;
+    if (pole === 'seria' && wartosc === BEZ_SERII) {
+      return { pole, wartosc, zrodlo: null, typCelu, etykieta: 'bez serii' };
+    }
     const zrodlo = dajStrone(wartosc);
     if (!zrodlo) continue;
     return { pole, wartosc, zrodlo, typCelu };
@@ -137,6 +151,7 @@ function filtrujPoPolu(lista, typ, pole, wartosc) {
     });
   }
   if (pole === 'seria') {
+    if (wartosc === BEZ_SERII) return lista.filter((p) => !p.seria);
     return lista.filter((p) => p.seria === wartosc);
   }
   if (pole === 'epizod') {
@@ -287,6 +302,48 @@ function miniaturkaGeneryczna(typ, tytul) {
   </div>`;
 }
 
+/** Tagi haseł z liczbą wystąpień (tylko dział haseł — inne działy mają własne widoki). */
+function tagiHasel() {
+  const mapa = new Map();
+  for (const p of listaStron('pojecie')) {
+    for (const tag of p.tagi ?? []) mapa.set(tag, (mapa.get(tag) ?? 0) + 1);
+  }
+  return mapa;
+}
+
+/** Tagi z adresu: bez pustych wartości, duplikatów i nazw spoza bazy. */
+function tagiZZapytania(wartosc) {
+  const znane = tagiHasel();
+  const tagi = String(wartosc ?? '').split(',').map((t) => t.trim()).filter(Boolean);
+  return [...new Set(tagi)].filter((t) => znane.has(t));
+}
+
+/** Lista ogranicza się do wybranych tagów: hasło wystarczy, że ma którykolwiek z nich.
+ * Tagi w bazie rzadko występują razem, więc iloczyn kasowałby listę po drugim kliknięciu. */
+function filtrujPoTagach(lista, tagi) {
+  return lista.filter((p) => tagi.some((tag) => (p.tagi ?? []).includes(tag)));
+}
+
+/** Chmura tagów nad listą haseł. Odsyłacze w chipach zachowują wybór
+ * i przełączają jeden tag, więc działają też bez JavaScriptu i da się je wysłać linkiem. */
+function renderChmuraTagow(wybrane) {
+  const liczniki = tagiHasel();
+  if (liczniki.size === 0) return '';
+  const kolejnosc = [...liczniki.keys()].sort((a, b) => liczniki.get(b) - liczniki.get(a) || a.localeCompare(b, 'pl'));
+  const chip = (tag) => {
+    const aktywny = wybrane.includes(tag);
+    const nowe = aktywny ? wybrane.filter((t) => t !== tag) : [...wybrane, tag];
+    const zapytanie = nowe.length ? `?${new URLSearchParams({ tagi: nowe.join(',') }).toString()}` : '';
+    return `<a class="chip${aktywny ? ' chip-aktywny' : ''}" aria-pressed="${aktywny}" href="${hrefListy('pojecie')}${zapytanie}">${escapeHtml(tag)} <span class="licznik">${liczniki.get(tag)}</span></a>`;
+  };
+  return `<section class="chmura-tagow" aria-label="Tagi haseł">
+  <div class="chmura">${kolejnosc.map(chip).join('')}</div>
+  <p class="chmura-opis">${wybrane.length
+    ? `Wybrane: ${wybrane.map((t) => `<strong>${escapeHtml(t)}</strong>`).join(', ')} · <a href="${hrefListy('pojecie')}">wyczyść wybór</a>`
+    : 'Kliknij tag, żeby zawęzić hasła. Kilka tagów naraz pokazuje hasła oznaczone którymkolwiek z nich.'}</p>
+</section>`;
+}
+
 /** Filtry krokowe nad galerią: Gra → Epizod → Scena, plus Seria i suwak rozmiaru.
  * Opcje w każdym selektorze uwzględniają pozostałe ustawione filtry (intersection).
  * Epizod pokazuje opcje tylko z wybranej gry; scena tylko z wybranego odcinka. */
@@ -322,7 +379,9 @@ function renderFiltryKrokowe(typ, query) {
     });
   }
 
-  const serie = encjePoFiltrach(typ, { ...query, seria: undefined }, 'seria')
+  const kandydaciSerii = encjePoFiltrach(typ, { ...query, seria: undefined }, 'seria');
+  const liczbaBezSerii = kandydaciSerii.filter((p) => !p.seria).length;
+  const serie = kandydaciSerii
     .filter((p) => p.seria)
     .map((p) => dajStrone(p.seria))
     .filter(Boolean);
@@ -362,6 +421,7 @@ function renderFiltryKrokowe(typ, query) {
       <label class="filtr-etykieta">Seria</label>
       <select class="filtr-select" name="seria" onchange="srwZmienFiltr(this, 'seria')">
         <option value="">wszystkie serie</option>
+        ${liczbaBezSerii ? `<option value="${BEZ_SERII}"${wybraneSeria === BEZ_SERII ? ' selected' : ''}>Nieokreślona</option>` : ''}
         ${serieUnikalne.map((s) => `<option value="${escapeHtml(s.slug)}"${s.slug === wybraneSeria ? ' selected' : ''}>${escapeHtml(s.tytul)}</option>`).join('')}
       </select>
     </div>

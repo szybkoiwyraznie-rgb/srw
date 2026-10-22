@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-22 19:04
+
+- Lista mechów pozwala wybrać serię „Nieokreślona” i pokazuje wtedy maszyny bez przypisanej serii, jak [[h-bomb-missile|H-Bomb Missile]] czy [[medea|Medea]].
+- Hasła mają na górze chmurę tagów: kliknięcie zawęża listę do wybranych tagów, a kilka naraz pokazuje hasła oznaczone którymkolwiek z nich.
+
 ## 2026-10-22 19:05
 
 - [[dom-zolnierz-zeonu|Dom (Żołnierz Zeonu)]] ma dwie ilustracje zwykłego Doma, odrębne od zdjęć maszyn [[dom|Black Tri-Stars]].
