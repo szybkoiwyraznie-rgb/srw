@@ -2,7 +2,7 @@
 
 ## 2026-10-22 15:29
 
-- Strona [[seishiro|Seishira]] deklaruje teraz także japońskojęzyczne źródło użyte przy oryginalnym zapisie jego nazwiska, a test integralności pilnuje zgodności linków w blokach źródłowych z polem `zrodla`.
+- Oryginalny zapis imienia i nazwiska [[seishiro|Seishira]] ma teraz kompletne odwołanie do japońskojęzycznego źródła.
 
 ## 2026-10-22 15:26
 
