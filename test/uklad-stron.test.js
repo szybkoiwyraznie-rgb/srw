@@ -31,6 +31,38 @@ const kolejnosc = (html, wzorce) => wzorce.map((w) => {
   return i;
 });
 
+test('dane stron przechowują jedną wyrenderowaną reprezentację treści', () => {
+  const strony = Object.values(globalThis.SRW_DATA.strony);
+  for (const s of strony) {
+    if (s.typ === 'scena') {
+      assert.ok(Array.isArray(s.sekcje) && s.sekcje.length > 0, `${s.slug}: sekcje sceny`);
+      assert.equal(Object.hasOwn(s, 'html'), false, `${s.slug}: bez powtórzonego pełnego HTML`);
+    } else if (s.typ === 'epizod') {
+      assert.ok(Array.isArray(s.boksy) && s.boksy.length > 0, `${s.slug}: boksy epizodu`);
+      assert.equal(Object.hasOwn(s, 'html'), false, `${s.slug}: bez powtórzonego pełnego HTML`);
+    } else {
+      assert.equal(typeof s.html, 'string', `${s.slug}: encja zachowuje pojedynczy HTML`);
+    }
+  }
+});
+
+test('renderery scen i epizodów zachowują zgodność ze starszym pełnym HTML', (t) => {
+  const strony = globalThis.SRW_DATA.strony;
+  const scenaSlug = 'srw-oe-ep1-black-tri-stars';
+  const epizodSlug = 'srw-oe-ep1';
+  const staraScena = strony[scenaSlug];
+  const staryEpizod = strony[epizodSlug];
+  strony[scenaSlug] = { ...staraScena, sekcje: undefined, html: '<p>Starsza treść sceny</p>' };
+  strony[epizodSlug] = { ...staryEpizod, boksy: undefined, html: '<p>Starsza treść epizodu</p>' };
+  t.after(() => {
+    strony[scenaSlug] = staraScena;
+    strony[epizodSlug] = staryEpizod;
+  });
+
+  assert.match(renderScena(scenaSlug), /Starsza treść sceny/);
+  assert.match(renderEpizod(epizodSlug), /Starsza treść epizodu/);
+});
+
 test('scena: analiza i treść w lewej kolumnie, obsada i nawiązania w prawej', () => {
   const html = scena('srw-oe-ep1-black-tri-stars');
   assert.match(html, /class="uklad-strona"/);

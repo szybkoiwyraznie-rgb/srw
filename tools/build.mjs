@@ -212,15 +212,20 @@ export async function zbudujDane({ root = ROOT } = {}) {
   for (const s of strony) {
     const r = wyrenderowane.get(s.slug);
     const { problem, body, ...pola } = s;
+    const maSekcje = Array.isArray(r.sekcje) && r.sekcje.length > 0;
+    const maBoksy = Array.isArray(r.boksy) && r.boksy.length > 0;
+    // Sceny i epizody renderują się ze struktur `sekcje` / `boksy`. Pełny
+    // `html` jest dla nich tą samą treścią po raz drugi, więc do artefaktu
+    // trafia tylko jedna reprezentacja. Pusty podział zachowuje stary fallback.
     stronyDane[s.slug] = {
       ...pola,
-      html: r.html,
+      ...(!maSekcje && !maBoksy ? { html: r.html } : {}),
       linki: r.linki,
       tekst: naTekst(body),
       czas: datyGit(s.plik),
       ...(r.skryptTekst ? { skryptTekst: r.skryptTekst, skryptOtwarty: false } : {}),
-      ...(r.sekcje ? { sekcje: r.sekcje } : {}),
-      ...(r.boksy ? { boksy: r.boksy } : {}),
+      ...(maSekcje ? { sekcje: r.sekcje } : {}),
+      ...(maBoksy ? { boksy: r.boksy } : {}),
     };
   }
 

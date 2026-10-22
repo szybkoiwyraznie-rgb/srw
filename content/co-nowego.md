@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-22 16:30
+
+- Samowystarczalny plik witryny nie powtarza już pełnej treści scen i epizodów obok ich osobnych sekcji. Strony zachowują ten sam kompletny widok w mniejszym pliku.
+
 ## 2026-10-22 16:27
 
 - Strony scen zachowują teraz wszystkie dodatkowe i powtórzone sekcje. Powtarzające się tytuły są rozróżniane, a każda podsekcja analizy prowadzi do wskazanego miejsca treści.
