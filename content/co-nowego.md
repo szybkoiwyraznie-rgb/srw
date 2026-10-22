@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-22 09:30
+
+- Ilustracje jednostek z [[srw-oe-ep1-black-tri-stars|misji „Black Tri-Stars”]]: [[dom|Dom (Black Tri-Stars)]], [[guncannon|Guncannon]] i [[guntank|Guntank]] mają po dwie, a [[dopp|Dopp]], [[g-fighter|G-Fighter]] i [[turret|Turret]] po jednej.
+
 ## 2026-10-22 07:40
 
 - [[srw-oe-ep1-black-tri-stars|Scena 1-2]] „Black Tri-Stars”: [[white-base|White Base]] odpiera atak trzech [[dom|Domów]] [[black-tri-stars|Black Tri-Stars]] w drodze ku [[operacja-odessa|Odessie]].

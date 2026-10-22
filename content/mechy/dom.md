@@ -36,6 +36,20 @@ Maszyna nie ma własnych zdolności macierzystych. Nie wyklucza to efektów grup
 |       0 | Heat Saber     |       1900 |  1–2   |       +60 |   5 |      — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18%                                 |
 |       1 | Wielka bazooka |       3000 |  1–5   |       +20 |  10 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
 }}
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Dom (Black Tri-Stars) — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dom.png)
+
+### Ilustracja 2
+
+![Dom (Black Tri-Stars) — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dom%202.png)
+
+}}
+
 {{zrodlo gra=wspolne
 
 MS-09 Dom to ciężki mobile suit do walki lądowej z *Mobile Suit Gundam*. W październiku U.C. 0079 [[black-tri-stars|Black Tri-Stars]] otrzymali trzy Domy od pułkownika [[mquve|M'Quve'a]] przed operacją Odessa ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-22).

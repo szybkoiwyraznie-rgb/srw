@@ -47,6 +47,16 @@ Maszyna nie ma własnych zdolności macierzystych. Nie wyklucza to efektów grup
 |         |                  |            |        |           |     |        |                    | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                |
 |       3 | Zaopatrzenie EN  |          0 |  1–2   |        +0 |   0 |      — | Brak w tym polu    | **Zaopatrz. (poziom bazowy 1):** Sojusznicy 1 jedn.: EN+50          |
 }}
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![G-Fighter — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/G-Fighter.png)
+
+}}
+
 {{zrodlo gra=wspolne
 
 G-Fighter to ciężki myśliwiec wsparcia RX-78-2 Gundama z *Mobile Suit Gundam*, zbudowany z dwóch modułów (G-Parts) i zdolny do lotu w atmosferze oraz w kosmosie. Jednym z jego pilotów była [[sayla-mass|Sayla Mass]] ([Gundam Wiki, „G-Fighter”](https://gundam.fandom.com/wiki/G-Fighter); sprawdzono 2026-10-22).

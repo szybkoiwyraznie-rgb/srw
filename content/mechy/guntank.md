@@ -47,3 +47,17 @@ Działo 120 mm strzela na duży dystans ponad przeszkodami, więc w walce z [[bl
 |       1 | Działo 120 mm |       3800 |  3–7   |       +10 |  20 |      — | Brak w tym polu    | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód             |
 |         |               |            |        |           |     |        |                    | **Na ląd (poziom bazowy 1):** Teren "Ląd": Cel+40% Atk x1.3         |
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Guntank — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Guntank.png)
+
+### Ilustracja 2
+
+![Guntank — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Guntank%202.png)
+
+}}

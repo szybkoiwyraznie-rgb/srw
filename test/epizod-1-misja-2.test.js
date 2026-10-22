@@ -148,11 +148,27 @@ test('wieżyczka uniwersalna i Żołnierz Zeonu mają własne strony z danymi do
   assert.match(zolnierz.body, /\[\[turret\|Turret\]\]/, 'Żołnierz: odsyłacz do wieżyczki');
 });
 
-test('nowe strony misji 2 nie mają ilustracji ani profilu zbiorczego', () => {
-  const nowe = ['dom', 'dopp', 'g-fighter', 'guncannon', 'guntank', 'turret', 'kai-shiden',
-    'hayato-kobayashi', 'gaia', 'ortega', 'mash', 'mquve', 'zolnierz-zeonu',
-    'black-tri-stars', 'jet-stream-attack', 'operacja-odessa'];
-  for (const slug of nowe) {
+test('sześć jednostek misji 2 ma galerie z dostawy ilustracji, pozostałe strony bez grafik', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const jednostki = {
+    dom: ['Dom.png', 'Dom 2.png'],
+    dopp: ['Dopp.png'],
+    'g-fighter': ['G-Fighter.png'],
+    guncannon: ['Guncannon.png', 'Guncannon 2.png'],
+    guntank: ['Guntank.png', 'Guntank 2.png'],
+    turret: ['Turret.png'],
+  };
+  const adres = (file) => `${manifest.baseUrl}/${file.split('/').map(encodeURIComponent).join('/')}`;
+  for (const [slug, pliki] of Object.entries(jednostki)) {
+    assert.deepEqual(manifest.encje[slug], pliki, `${slug}: wpis w manifeście`);
+    const body = bySlug.get(slug).body;
+    assert.match(body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria z zakresem gry`);
+    assert.equal((body.match(/^!\[/gm) ?? []).length, pliki.length, `${slug}: liczba obrazów`);
+    for (const plik of pliki) assert.ok(body.includes(adres(plik)), `${slug}: ${plik}`);
+  }
+  const bezGrafik = ['kai-shiden', 'hayato-kobayashi', 'gaia', 'ortega', 'mash', 'mquve',
+    'zolnierz-zeonu', 'black-tri-stars', 'jet-stream-attack', 'operacja-odessa'];
+  for (const slug of bezGrafik) {
     const strona = bySlug.get(slug);
     assert.doesNotMatch(strona.body, /r2\.dev/, `${slug}: brak ilustracji`);
     assert.doesNotMatch(strona.body, /^## Ilustracje$/m, `${slug}: brak galerii`);

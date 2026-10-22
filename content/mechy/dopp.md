@@ -37,3 +37,13 @@ Maszyna nie ma własnych zdolności macierzystych. Nie wyklucza to efektów grup
 |       1 | Rakiety powietrze-powietrze |       1400 |  1–5   |       +10 |   5 |      — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4        |
 |         |                             |            |        |           |     |        |                 | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Dopp — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dopp.png)
+
+}}

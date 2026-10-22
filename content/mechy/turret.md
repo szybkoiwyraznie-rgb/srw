@@ -33,3 +33,13 @@ Obsługują ją szeregowi [[zolnierz-zeonu|żołnierze Zeonu]]. W misji nad Azj�
 | ------: | ------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
 |       0 | Ostrzał |        900 |  3–8   |       +40 |   5 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Turret (Wieżyczka uniwersalna) — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Turret.png)
+
+}}
