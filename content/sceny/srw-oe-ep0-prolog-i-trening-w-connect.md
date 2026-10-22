@@ -8,7 +8,7 @@ streszczenie: Prolog w U.C. 0079, szkolenie podstawowe Seishiro i Himari, retros
 pochodzenie: skrypt
 postacie: [seishiro, himari-yaegaki, control-ai]
 mechy: [exart, brocken]
-pojecia: [dr-hell, devil-gundam-incident, connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai, invaderzy]
+pojecia: [dr-hell, devil-gundam-incident, connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai, invaderzy, stacja-connect]
 tagi: [prolog, trening]
 utworzono: 2026-10-17
 ---

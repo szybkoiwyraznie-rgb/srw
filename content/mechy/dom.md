@@ -15,7 +15,7 @@ utworzono: 2026-10-22
 
 ## Opis
 
-Ciężki mobile suit do walki lądowej, w którym [[black-tri-stars|Black Tri-Stars]] wchodzą do akcji nad Azją Środkową. [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] przyprowadzają trzy takie maszyny na front [[operacja-odessa|operacji Odessa]].
+Ciężki [[mobile-suit|mobile suit]] do walki lądowej, w którym [[black-tri-stars|Black Tri-Stars]] wchodzą do akcji nad Azją Środkową. [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] przyprowadzają trzy takie maszyny na front [[operacja-odessa|operacji Odessa]].
 
 Heat Saber służy do walki na sąsiednim polu, a wielka bazooka sięga pięciu pól i dostaje premię przeciw okrętom. W walce zespół stawia na szybkość: [[gaia|Gaia]] liczy, że Domy zmylą przeciwnika prędkością i pozwolą szybko zakończyć starcie.
 

@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-22 14:05
+
+- Nowe hasła świata: [[mobile-suit|Mobile suit]] — klasa maszyn bojowych [[zeon|Zeonu]] i [[earth-federation|Federacji]], [[newtype|Newtype]] — pojęcie z pogłosek o pilocie [[white-base|White Base]] i umiejętność pilota, [[jaburo|Jaburo]] — baza, z której pochodzą dane wywiadowcze Federacji.
+- [[krzyz-zeonu|Krzyż Zeonu]] — odznaczenie, o które pyta [[mash|Mash]] w dialogach warunkowych misji [[black-tri-stars|Black Tri-Stars]], oraz [[stacja-connect|Stacja Connect]] — baza [[connect-force|Connect]] w okolicach Ziemi.
+
 ## 2026-10-22 12:20
 
 - Sceny bazy odsyłają teraz wprost do oryginalnych odcinków: [[srw-oe-ep1-szalejacy-prototyp-labora|scena 1-1]] do piątego odcinka serialu [[mobile-police-patlabor|*Mobile Police Patlabor: On Television*]], a [[srw-oe-ep1-black-tri-stars|scena 1-2]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] do dwudziestego czwartego i pierwszego odcinka [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
@@ -131,7 +136,7 @@
 ## 2026-10-20 18:29
 
 - [[white-base|White Base]] zyskuje portret i pełny rekord jednostki: załogę [[bright-noa|Bright Noa]] i [[mirai-yashima|Mirai Yashima]], zdolności okrętu-matki oraz cztery działa.
-- [[rx-78-2-gundam|Gundam]]: dwa nowe zdjęcia oraz parametry pilota [[amuro-ray|Amuro Raya]] — Potencjał Krytyczny, Newtype, blok tarczą i cztery rodzaje uzbrojenia.
+- [[rx-78-2-gundam|Gundam]]: dwa nowe zdjęcia oraz parametry pilota [[amuro-ray|Amuro Raya]] — Potencjał Krytyczny, [[newtype|Newtype]], blok tarczą i cztery rodzaje uzbrojenia.
 - [[seishiro|Seishiro Kusanagi]]: nowa umiejętność Precyzja w profilu [[exart|Exarta]] i na swojej stronie.
 - White Base jest odtąd jednostką bojową w bazie, a nie hasłem o okręcie; odsyłacze pozostają bez zmian.
 

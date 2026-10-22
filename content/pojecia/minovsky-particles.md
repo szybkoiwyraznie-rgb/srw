@@ -19,5 +19,5 @@ Cząstki rozpraszane w walce w celu zakłócenia łączności i wykrywania. [[br
 }}
 {{zrodlo gra=wspolne
 
-Cząstki Minovsky’ego odkryto w U.C. 0065. Ich właściwości stały się podstawą rozwoju technologii wojskowej Zeonu, w tym mobile suitów ([Gundam Wiki, „Universal Century”](https://gundam.fandom.com/wiki/Universal_Century); [Gundam Wiki, „Principality of Zeon”](https://gundam.fandom.com/wiki/Principality_of_Zeon); sprawdzono 2026-10-20).
+Cząstki Minovsky’ego odkryto w U.C. 0065. Ich właściwości stały się podstawą rozwoju technologii wojskowej Zeonu, w tym [[mobile-suit|mobile suitów]] ([Gundam Wiki, „Universal Century”](https://gundam.fandom.com/wiki/Universal_Century); [Gundam Wiki, „Principality of Zeon”](https://gundam.fandom.com/wiki/Principality_of_Zeon); sprawdzono 2026-10-20).
 }}

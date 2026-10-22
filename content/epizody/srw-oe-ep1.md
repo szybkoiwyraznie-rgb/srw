@@ -7,7 +7,7 @@ numer: 1
 skrypt: episodes/srw-oe/ep001.md
 postacie: [seishiro, himari-yaegaki, suol, noa-izumi, isao-ota, kanuka-clancy, asuma-shinohara, kiichi-goto, mikiyasu-shinshi, hiromi-yamazaki, zolnierz-jsdf, shinohara-hos, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve, zolnierz-zeonu]
 mechy: [exart, ingram-nr-1, ingram-nr-2, medea, hal-x10, hal-x10-green, helldiver, rx-78-2-gundam, guncannon, guntank, g-fighter, white-base, dom, dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
-pojecia: [connect-force, labor, sv2, sily-samoobrony-japonii, poligon-fuji, black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, minovsky-particles]
+pojecia: [connect-force, labor, sv2, sily-samoobrony-japonii, poligon-fuji, black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, minovsky-particles, mobile-suit, newtype, jaburo, krzyz-zeonu, stacja-connect]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Patlabor

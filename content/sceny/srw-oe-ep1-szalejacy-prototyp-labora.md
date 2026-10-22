@@ -10,7 +10,7 @@ zrodla:
   - https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!
 postacie: [seishiro, himari-yaegaki, suol, noa-izumi, isao-ota, kanuka-clancy, asuma-shinohara, kiichi-goto, mikiyasu-shinshi, hiromi-yamazaki, zolnierz-jsdf, shinohara-hos]
 mechy: [exart, ingram-nr-1, ingram-nr-2, medea, hal-x10, hal-x10-green, helldiver]
-pojecia: [connect-force, labor, sv2, sily-samoobrony-japonii, poligon-fuji]
+pojecia: [connect-force, labor, sv2, sily-samoobrony-japonii, poligon-fuji, mobile-suit, stacja-connect]
 tagi: [patlabor, trening]
 utworzono: 2026-10-21
 ---

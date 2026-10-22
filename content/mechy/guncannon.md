@@ -15,7 +15,7 @@ utworzono: 2026-10-22
 
 ## Opis
 
-Mobile suit wsparcia [[white-base|White Base]], prowadzony przez [[kai-shiden|Kaia Shidena]]. Działko Vulcan i karabin wiązkowy pozwalają odpowiadać na bliskie zagrożenia, a działo 240 mm sięga celów za przeszkodami i wstrząsa trafionym wrogiem.
+[[mobile-suit|Mobile suit]] wsparcia [[white-base|White Base]], prowadzony przez [[kai-shiden|Kaia Shidena]]. Działko Vulcan i karabin wiązkowy pozwalają odpowiadać na bliskie zagrożenia, a działo 240 mm sięga celów za przeszkodami i wstrząsa trafionym wrogiem.
 
 W misji nad Azją Środkową startuje z pokładu razem z [[rx-78-2-gundam|Gundamem]] i [[guntank|Guntankiem]], gdy [[white-base|White Base]] przygotowuje się do opuszczenia strefy.
 

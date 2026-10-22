@@ -16,7 +16,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Masowy mobile suit [[zeon|Zeonu]] i podstawowy typ tej armii w Wojnie Jednorocznej. Na czele eskorty atakującej [[white-base|White Base]] leci [[char-aznable|Char]] w [[zaku-ii-char|swoim Zaku II]], a dwie pozostałe maszyny prowadzą [[slender|Slender]] w [[zaku-ii-karabin-maszynowy|wersji z karabinem maszynowym]] i [[crown|Crown]] w [[zaku-ii-bazooka|wersji z bazooką]]. Załoga okrętu rozpoznaje maszyny po sylwetce, ale ich prędkość wzbudza wątpliwości — żaden zwykły Zaku nie powinien nadlatywać tak szybko.
+Masowy [[mobile-suit|mobile suit]] [[zeon|Zeonu]] i podstawowy typ tej armii w Wojnie Jednorocznej. Na czele eskorty atakującej [[white-base|White Base]] leci [[char-aznable|Char]] w [[zaku-ii-char|swoim Zaku II]], a dwie pozostałe maszyny prowadzą [[slender|Slender]] w [[zaku-ii-karabin-maszynowy|wersji z karabinem maszynowym]] i [[crown|Crown]] w [[zaku-ii-bazooka|wersji z bazooką]]. Załoga okrętu rozpoznaje maszyny po sylwetce, ale ich prędkość wzbudza wątpliwości — żaden zwykły Zaku nie powinien nadlatywać tak szybko.
 
 Char leci w towarzystwie dwóch maszyn, pilotowanych przez [[slender|Slendera]] i [[crown|Crowna]]. Sam ocenia, że siła ognia Zaku nie strąci łatwo [[exart|Exarta]], i dlatego woli się wycofać niż ryzykować wymianę ognia.
 

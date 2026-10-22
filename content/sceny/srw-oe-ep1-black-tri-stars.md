@@ -10,7 +10,7 @@ zrodla:
   - https://gundam.fandom.com/wiki/Black_Tri-Star
 postacie: [seishiro, himari-yaegaki, suol, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve, zolnierz-zeonu]
 mechy: [g-fighter, guncannon, rx-78-2-gundam, guntank, white-base, dom, dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
-pojecia: [black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, connect-force, minovsky-particles]
+pojecia: [black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, connect-force, minovsky-particles, mobile-suit, newtype, jaburo, krzyz-zeonu, stacja-connect]
 tagi: [one-year-war]
 utworzono: 2026-10-22
 ---
@@ -366,7 +366,7 @@ Himari marznie w chłodnym transportowcu i podejrzewa, że firma oszczędza na o
 
 [[mquve|M'Quve]] przyjmuje posiłki od lady Kycilii: trzy nowe [[dom|Domy]] do walki lądowej i [[black-tri-stars|Black Tri-Stars]] pod dowództwem [[gaia|Gai]]. Komandor najpierw chce rozbić siły na froncie generała Revila i odkłada „konia trojańskiego” na później.
 
-[[gaia|Gaia]] nie zgadza się z lekceważeniem przeciwnika i przypomina, że na pokładzie okrętu jest podobno Newtype. [[mquve|M'Quve]] nie wierzy w takie pogłoski, ale gdy Gaia zauważa, że dowódca sam nie walczy, zmienia rozkaz: zespół ma zniszczyć „konia trojańskiego”, zanim ten dotrze do wschodniej kopalni.
+[[gaia|Gaia]] nie zgadza się z lekceważeniem przeciwnika i przypomina, że na pokładzie okrętu jest podobno [[newtype|Newtype]]. [[mquve|M'Quve]] nie wierzy w takie pogłoski, ale gdy Gaia zauważa, że dowódca sam nie walczy, zmienia rozkaz: zespół ma zniszczyć „konia trojańskiego”, zanim ten dotrze do wschodniej kopalni.
 
 ### Start White Base
 
@@ -398,7 +398,7 @@ Podczas starcia padają kwestie zależne od sytuacji: [[amuro-ray|Amuro]] przyzn
 
 ### Mostek
 
-[[bright-noa|Bright]] pyta o identyfikację przeciwnika. [[oscar-dublin|Oscar]] potwierdza, że dane z Jaburo wskazują na [[black-tri-stars|Black Tri-Stars]], a [[marker|Marker]] dodaje, że to weterani, którzy wzięli do niewoli nawet generała Revila.
+[[bright-noa|Bright]] pyta o identyfikację przeciwnika. [[oscar-dublin|Oscar]] potwierdza, że dane z [[jaburo|Jaburo]] wskazują na [[black-tri-stars|Black Tri-Stars]], a [[marker|Marker]] dodaje, że to weterani, którzy wzięli do niewoli nawet generała Revila.
 
 [[mirai-yashima|Mirai]] uważa, że przeciwnik nie wróci w trakcie [[operacja-odessa|operacji Odessa]], i prosi [[bright-noa|Brighta]], by załoga bardziej wierzyła w siebie. Bright przyznaje jej rację i zauważa, że siły okrętu rosną.
 
@@ -410,7 +410,7 @@ Podczas starcia padają kwestie zależne od sytuacji: [[amuro-ray|Amuro]] przyzn
 
 Wydarzenia z tej sceny — odprawa u [[mquve|M'Quve'a]], przekazanie trzech nowych [[dom|Domów]] i nocne natarcie [[black-tri-stars|Black Tri-Stars]] na [[white-base|White Base]] w drodze ku [[operacja-odessa|Odessie]] — nawiązują do **dwudziestego czwartego odcinka** serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, zatytułowanego „Black Tri-Star”.
 
-W oryginale trójka przybywa na front na pokładzie okrętu kosmicznego i odbiera [[dom|Domy]] z rąk [[mquve|M'Quve'a]], po czym zapowiada pokonanie białego mobile suita Federacji; do nocnego starcia dochodzi w czasie przygotowań do [[operacja-odessa|operacji Odessa]]. Gra przenosi odprawę do bazy Zeonu na froncie i wiąże zadanie z wschodnią kopalnią: zespół ma zatrzymać „konia trojańskiego”, zanim ten do niej dotrze. W dialogach warunkowych dochodzi motyw odznaczenia — [[mash|Mash]] pyta o Krzyż Zeonu, a [[gaia|Gaia]] przypomina, że liczy się wykonanie zadania, nie sława ([Gundam Wiki, „Black Tri-Star”](https://gundam.fandom.com/wiki/Black_Tri-Star); sprawdzono 2026-10-22).
+W oryginale trójka przybywa na front na pokładzie okrętu kosmicznego i odbiera [[dom|Domy]] z rąk [[mquve|M'Quve'a]], po czym zapowiada pokonanie białego mobile suita Federacji; do nocnego starcia dochodzi w czasie przygotowań do [[operacja-odessa|operacji Odessa]]. Gra przenosi odprawę do bazy Zeonu na froncie i wiąże zadanie z wschodnią kopalnią: zespół ma zatrzymać „konia trojańskiego”, zanim ten do niej dotrze. W dialogach warunkowych dochodzi motyw odznaczenia — [[mash|Mash]] pyta o [[krzyz-zeonu|Krzyż Zeonu]], a [[gaia|Gaia]] przypomina, że liczy się wykonanie zadania, nie sława ([Gundam Wiki, „Black Tri-Star”](https://gundam.fandom.com/wiki/Black_Tri-Star); sprawdzono 2026-10-22).
 
 }}
 
