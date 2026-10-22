@@ -19,10 +19,15 @@ const script = fs.readFileSync('episodes/srw-oe/ep001.md', 'utf8');
 const scena = bySlug.get('srw-oe-ep1-black-tri-stars');
 
 test('dostawa jest zarchiwizowana w całości, a misja trafia do skryptu epizodu', () => {
-  assert.equal(fs.statSync('dostawy/srw-oe/dostawa_1_2.txt').size, 39039, 'archiwum dostawy');
+  assert.equal(fs.statSync('dostawy/srw-oe/dostawa_1_2.txt').size, 39084, 'archiwum dostawy');
   assert.match(delivery, /^## Black Tri-Stars$/m);
   assert.match(delivery, /### Odcinek 1 — Black Tri-Stars \(`DL101_20`\)/);
   assert.match(delivery, /#### Piloci i postacie w misji oraz skrypcie sceny/);
+  assert.ok(delivery.includes('\\*pociągnięcie nosem\\*... Zmarzłam...'), 'poprawiona kwestia Himari');
+  assert.ok(delivery.includes('przelatywał nad wodami w pobliżu Japonii'), 'poprawiona kwestia Suola');
+  assert.ok(delivery.includes('za zniszczenie tego okrętu'), 'poprawiona kwestia Masha');
+  assert.ok(delivery.includes('White Base nie leci przypadkiem do Jaburo'), 'poprawiona kwestia Kaia');
+  assert.ok(!/chlip|pociąg nosem|przepływali|za zatopienie|nie płynie/.test(delivery), 'stare brzmienie usunięte z dostawy');
   assert.ok(script.includes('## Black Tri-Stars'), 'misja 2 w skrypcie epizodu 1');
   assert.ok(!script.includes('UCZESTNICY'), 'dane misji nie trafiają do archiwum skryptu');
 });
