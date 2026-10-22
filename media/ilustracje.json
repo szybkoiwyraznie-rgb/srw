@@ -5,7 +5,7 @@
   "dostarczono": "2026-10-22",
   "podstawa": "Ilustracje właściciela jako pełnoprawna dostawa encji (ADR 0017); nazwy z odczytu listy R2 (workflow r2-inventory, 2026-10-20), z dostawy ilustracji jednostek misji 2, z dostawy portretów jej obsady oraz z dostawy portretu generała Revila (2026-10-22).",
   "weryfikacjaZdalna": false,
-  "uwaga": "31 portretów w characters/ oraz 36 plików jednostek w korzeniu: trzy warianty Zaku II, cztery jednostki z epizodu 1 po dwie ilustracje i sześć jednostek misji 2 (Dom, Dopp, G-Fighter, Guncannon, Guntank, Turret). Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów, więc nie deklarujemy obejrzenia zawartości. Obecność plików characters/Gaia.png i characters/Hayato Kobayashi.png potwierdzona odczytem listy R2 z 2026-10-22; pozostałe cztery portrety pochodzą z tej samej partii i zachowują tę samą konwencję ścieżki. Portret characters/Revil.png pochodzi z kolejnej dostawy właściciela; odczyt listy R2 potwierdził łącznie 67 obiektów.",
+  "uwaga": "31 portretów w characters/ oraz 36 plików jednostek w korzeniu: trzy warianty Zaku II, cztery jednostki z epizodu 1 po dwie ilustracje i sześć jednostek misji 2 (Dom, Dopp, G-Fighter, Guncannon, Guntank, Turret). Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów, więc nie deklarujemy obejrzenia zawartości. Obecność plików characters/Gaia.png i characters/Hayato Kobayashi.png potwierdzona odczytem listy R2 z 2026-10-22; pozostałe cztery portrety pochodzą z tej samej partii i zachowują tę samą konwencję ścieżki. Portret characters/Revil.png pochodzi z kolejnej dostawy właściciela; odczyt listy R2 potwierdził łącznie 67 obiektów. Dostawa z 2026-10-22 dodaje dwa pliki zwykłego Doma („Dom Generic”, „Dom Generic 2”) dla strony Dom (Żołnierz Zeonu) — nazwy od właściciela, bez weryfikacji zdalnej.",
   "encje": {
     "exart": [
       "Exart.jpg",
@@ -175,6 +175,10 @@
     ],
     "general-revil": [
       "characters/Revil.png"
+    ],
+    "dom-zolnierz-zeonu": [
+      "Dom Generic.png",
+      "Dom Generic 2.png"
     ]
   },
   "nieprzypisane": []

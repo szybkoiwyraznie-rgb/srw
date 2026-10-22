@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-10-22 19:05
+
+- [[dom-zolnierz-zeonu|Dom (Żołnierz Zeonu)]] ma dwie ilustracje zwykłego Doma, odrębne od zdjęć maszyn [[dom|Black Tri-Stars]].
+
+## 2026-10-22 19:04
+
 ## 2026-10-22 18:53
 
 - Zaku II występuje w bazie tylko w trzech postaciach z [[srw-oe|OE]]: [[zaku-ii-char|maszyny Chara]], [[zaku-ii-karabin-maszynowy|z karabinem maszynowym]] i [[zaku-ii-bazooka|z bazooką]]. Każda z nich odsyła do dwóch pozostałych w sekcji „Pozostałe jednostki Zaku II”.

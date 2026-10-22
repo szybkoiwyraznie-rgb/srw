@@ -259,11 +259,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 67 plików przy 51 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 69 plików przy 52 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 51);
-  assert.equal(Object.values(manifest.encje).flat().length, 67);
+  assert.equal(Object.keys(manifest.encje).length, 52);
+  assert.equal(Object.values(manifest.encje).flat().length, 69);
   // Dostawa ilustracji jednostek misji 2 (2026-10-22): sześć maszyn, dziewięć plików.
   assert.deepEqual(manifest.encje.dom, ['Dom.png', 'Dom 2.png']);
   assert.deepEqual(manifest.encje.dopp, ['Dopp.png']);
@@ -271,6 +271,8 @@ test('ilustracje właściciela: 67 plików przy 51 encjach, w tym postacie bez d
   assert.deepEqual(manifest.encje.guncannon, ['Guncannon.png', 'Guncannon 2.png']);
   assert.deepEqual(manifest.encje.guntank, ['Guntank.png', 'Guntank 2.png']);
   assert.deepEqual(manifest.encje.turret, ['Turret.png']);
+  // Druga dostawa zwykłego Doma (2026-10-22): dwa pliki dla odrębnego profilu z misji 3.
+  assert.deepEqual(manifest.encje['dom-zolnierz-zeonu'], ['Dom Generic.png', 'Dom Generic 2.png']);
   // Portrety obsady misji 2 (2026-10-22): sześć postaci, sześć plików w characters/.
   assert.deepEqual(manifest.encje.gaia, ['characters/Gaia.png']);
   assert.deepEqual(manifest.encje['hayato-kobayashi'], ['characters/Hayato Kobayashi.png']);
