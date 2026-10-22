@@ -40,12 +40,12 @@ Okręt rozpyla [[minovsky-particles|cząstki Minovsky’ego]] i wysyła do walki
 | Motyw w epizodzie | Źródło | Odcinek / wersja | Typ | Różnice |
 |---|---|---|---|---|
 | Wspólne ćwiczenia wojska i policyjnych Laborów | [[mobile-police-patlabor\|Patlabor]] | wczesne odcinki | adaptacja | W grze ćwiczenia odbywają się na poligonie Fuji i łączą je z wątkiem Connect, którego w anime nie ma. |
-| Bezzałogowy HAL-X10 poza kontrolą | [[mobile-police-patlabor\|Patlabor]] | wątek HAL-X10 | adaptacja | W anime maszyna jest osobnym zagrożeniem; w grze atakuje w trakcie ćwiczeń z Connect. |
+| Bezzałogowy HAL-X10 poza kontrolą | [[mobile-police-patlabor\|Patlabor]] | odc. 5 „Runaway Labor X-10!” | adaptacja | W anime maszyna jest osobnym zagrożeniem; w grze atakuje w trakcie ćwiczeń z Connect. |
 | Ekipa Drugiego Plutonu SV2 | [[mobile-police-patlabor\|Patlabor]] | Division 2 | adaptacja | Postacie zachowują role i charaktery; dochodzi współpraca z Connect. |
 | Przejęcie sterów przez podpilota | [[srw-oe\|Super Robot Wars OE]] | Epizod 1 | autorskie | Wątek Connect i Himari jest oryginalny dla gry. |
 | Plotki o handlu z dalekim kosmosem | [[srw-oe\|Super Robot Wars OE]] | Epizod 1 | autorskie | Rozmowa po ćwiczeniach należy do wątku Connect. |
-| Black Tri-Stars na froncie Odessy | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | wątek Odessy | adaptacja | W grze trójka broni wschodniej kopalni przed White Base; w anime trafia na front w tym samym okresie. |
-| Odprawa u M'Quve'a | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | wątek Odessy | adaptacja | Gra pokazuje kulisy decyzji sztabu; sama bitwa o Odessę pozostaje poza kadrem. |
+| Black Tri-Stars na froncie Odessy | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” | adaptacja | W grze trójka broni wschodniej kopalni przed White Base; w anime trafia na front w tym samym okresie. |
+| Odprawa u M'Quve'a | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” | adaptacja | Gra pokazuje kulisy decyzji sztabu; sama bitwa o Odessę pozostaje poza kadrem. |
 | Powrót Connect z Japonii | [[srw-oe\|Super Robot Wars OE]] | Epizod 1 | autorskie | Rozmowa Seishira, Himari i Suola jest oryginalna dla gry. |
 
 ## Komentarz

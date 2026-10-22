@@ -3,6 +3,7 @@
 ## 2026-10-22 14:05
 
 - Nowe hasła świata: [[mobile-suit|Mobile suit]] — klasa maszyn bojowych [[zeon|Zeonu]] i [[earth-federation|Federacji]], [[newtype|Newtype]] — pojęcie z pogłosek o pilocie [[white-base|White Base]] i umiejętność pilota, [[jaburo|Jaburo]] — baza, z której pochodzą dane wywiadowcze Federacji.
+- Tabele wątków w [[srw-oe-ep0|Epizodzie 0]] i [[srw-oe-ep1|Epizodzie 1]] podają numery odcinków tam, gdzie są sprawdzone: piąty odcinek [[mobile-police-patlabor|*Mobile Police Patlabor: On Television*]] i dwudziesty czwarty [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
 - [[krzyz-zeonu|Krzyż Zeonu]] — odznaczenie, o które pyta [[mash|Mash]] w dialogach warunkowych misji [[black-tri-stars|Black Tri-Stars]], oraz [[stacja-connect|Stacja Connect]] — baza [[connect-force|Connect]] w okolicach Ziemi.
 
 ## 2026-10-22 12:20

@@ -39,7 +39,7 @@ W [[uc-0079|U.C. 0079]] trwa wojna. [[suol|Szef Suol]] wysyła Seishira na pomoc
 | Kryzys jedności politycznej i nieznane energie | Prolog [[srw-oe|Super Robot Wars OE]] | Epizod 0 | fuzja | Różne kryzysy są częścią wspólnej historii świata gry. |
 | Szkolenie w [[connect-force|Connect Force]] | [[srw-oe|Super Robot Wars OE]] | Szkolenie podstawowe | autorskie | Walka z symulowanymi przeciwnikami służy nauce sterowania, zaopatrzenia i atakowania. |
 | Wybuch wojny i śmierć połowy ludzkości | *Mobile Suit Gundam* (1979) | tło [[uc-0079|U.C. 0079]] | adaptacja | Interludium przedstawia wojnę jako wspólną historię świata gry, bez odtwarzania odcinków anime. |
-| Atak Chara na [[white-base|White Base]] | *Mobile Suit Gundam* (1979) | pierwsze starcie w [[side-7|Side 7]] | adaptacja | W grze do walki włącza się [[connect-force|Connect]], którego w anime nie ma. |
+| Atak Chara na [[white-base|White Base]] | *Mobile Suit Gundam* (1979) | odc. 1 „Gundam Rising”; pierwsze starcie w [[side-7|Side 7]] | adaptacja | W grze do walki włącza się [[connect-force|Connect]], którego w anime nie ma. |
 | Ranny kapitan i prowizoryczne dowodzenie | *Mobile Suit Gundam* (1979) | początek podróży [[white-base|White Base]] | adaptacja | [[paolo-cassius|Paolo]] pozostaje na stanowisku, a [[bright-noa|Bright]] wydaje rozkazy; wątek późniejszej podróży nie jest rozgrywany. |
 
 ## Komentarz
