@@ -7,6 +7,8 @@ seria: mobile-police-patlabor
 gry: [srw-oe]
 mechy: [ingram-nr-1]
 pochodzenie: skrypt
+zrodla:
+  - https://patlabor.fandom.com/wiki/Noa_Izumi
 tagi: [patlabor]
 utworzono: 2026-10-21
 ---
@@ -17,8 +19,11 @@ utworzono: 2026-10-21
 Pilotka pierwszego Ingrama Drugiego Plutonu [[sv2|SV2]]. Na poligonie Fuji dowodzi maszyną nr 1 i razem z resztą plutonu włącza się do walki, gdy bezzałogowe [[hal-x10|HAL-X10]] zaczynają strzelać ostrą amunicją.
 
 Swój Labor nazywa Alphonse'em i martwi się o każdą rysę na kadłubie. Współpracuje z [[seishiro|Seishirem]] i [[himari-yaegaki|Himari]] z [[connect-force|Connect]], a po ćwiczeniach pomaga jej [[asuma-shinohara|Asuma]]. Ufa pracy zespołowej bardziej niż frontalnym atakom.
+}}
 
-Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+{{zrodlo gra=wspolne
+
+Pochodzi z rodziny prowadzącej sklep monopolowy. Po szkole średniej ukończyła akademię policyjną w Wasedzie, łącząc naukę z pracą w firmie ochroniarskiej; chwalono ją za trafne decyzje, ale kilkakrotnie upominano za spory z przełożonymi. Do oddziału zmotoryzowanego trafiła po egzaminie, który zdała dzięki dużej odporności na chorobę lokomocyjną. Swój Ingram nazwała Alphonse'em — imieniem psa, a potem kota z domu rodzinnego. W Drugim Plutonie uchodzi za najlepszą pilotkę, choć woli ograniczać użycie siły; blisko współpracuje z [[asuma-shinohara|Asumą]], nie zdając sobie sprawy z jego uczuć ([Patlabor Wiki, „Noa Izumi”](https://patlabor.fandom.com/wiki/Noa_Izumi); sprawdzono 2026-10-22).
 }}
 
 {{menu gra=srw-oe

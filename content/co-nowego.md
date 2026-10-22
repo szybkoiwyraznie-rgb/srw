@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-22 18:37
+
+- [[noa-izumi|Noa Izumi]] ma pełniejszy opis: drogę do policji, egzamin do oddziału zmotoryzowanego i imię „Alphonse”, które nosi jej [[ingram-nr-1|Ingram nr 1]].
+
 ## 2026-10-22 18:35
 
 - [[loum|Loum]] wiąże bitwę z dalszym ciągiem wojny: [[black-tri-stars|Black Tri-Stars]] przechwycili tam [[general-revil|generała Revila]], a nieudane odbicie generała poprzedziło rokowania zakończone [[traktat-antarktyczny|Traktatem Antarktycznym]].
