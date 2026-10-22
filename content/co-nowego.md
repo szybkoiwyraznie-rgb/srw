@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-22 15:20
+
+- [[prolog-i-trening-w-connect|Scena 0-1]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] mają analizę rozbitą na podsekcje, a każda z nich prowadzi do swojego miejsca w treści — od prologu i szkolenia po [[white-base|White Base]], odwrót [[char-aznable|Chara]] i rozmowę w hangarze.
+
 ## 2026-10-22 14:05
 
 - Nowe hasła świata: [[mobile-suit|Mobile suit]] — klasa maszyn bojowych [[zeon|Zeonu]] i [[earth-federation|Federacji]], [[newtype|Newtype]] — pojęcie z pogłosek o pilocie [[white-base|White Base]] i umiejętność pilota, [[jaburo|Jaburo]] — baza, z której pochodzą dane wywiadowcze Federacji.

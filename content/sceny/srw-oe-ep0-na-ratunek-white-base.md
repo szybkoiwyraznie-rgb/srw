@@ -5,6 +5,13 @@ tytul: Na ratunek White Base
 epizod: srw-oe-ep0
 numer_sceny: "0-2"
 streszczenie: Interludium o wojnie w U.C. 0079; Connect wysyła Seishiro na pomoc White Base, walka z Charem i odwrót, rozmowa w hangarze o neutralności organizacji.
+sekcje_analizy:
+  - Interludium o wojnie → Interludium
+  - Salon — neutralność Connect → Stacja Connect / Salon
+  - White Base → White Base
+  - Posiłki → Posiłki
+  - Odwrót Chara → Odwrót
+  - Hangar po walce → Stacja Connect / Hangar
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Gundam_Rising
@@ -334,13 +341,29 @@ Potem front utknął w martwym punkcie i minęło już ponad osiem miesięcy...
 
 ## Analiza
 
+### Interludium o wojnie
+
 Interludium przypomina bilans wojny: pół wieku ekspansji, deklaracja [[zeon|Księstwa Zeonu]] przez kolonię [[side-3|Side 3]], śmierć połowy ludzkości i front, który utknął w martwym punkcie. To tło wyjaśnia, dlaczego [[connect-force|Connect]] chce zachować neutralność, a jednocześnie nie odmawia pomocy cywilom.
+
+### Salon — neutralność Connect
 
 W salonie [[himari-yaegaki|Himari]] pyta, czy organizacja powinna wesprzeć [[earth-federation|Federację]]. [[seishiro|Seishiro]] odpowiada, że media przedstawiają wojnę jednostronnie, a [[suol|szef Suol]] przerywa rozmowę rozkazem: na pokładzie nowego okrętu Federacji schronili się cywile z [[side-7|Side 7]]. Neutralność ustępuje ochronie ludzi, ale nie zmienia celu organizacji.
 
-Na [[white-base|White Base]] [[paolo-cassius|kapitan Paolo]] jest ranny — opatruje go [[sayla-mass|Sayla Mass]] — a dowodzenie faktycznie przejmuje [[bright-noa|Bright]]; Paolo wspomina o bitwie o [[loum|Loum]], w której [[char-aznable|Char]] zniszczył pięć pancerników. Z mostka [[marker|Marker]] melduje zbliżający się obiekt, a [[oscar-dublin|Oscar]] nie wierzy, że to Zaku. [[amuro-ray|Amuro]] startuje [[rx-78-2-gundam|Gundamem]] mimo braku doświadczenia; [[char-aznable|Char]] atakuje w swoim [[zaku-ii-char|Zaku II]], a w dwóch pozostałych Zaku lecą [[slender|Slender]] i [[crown|Crown]] — prędkość maszyn zaskakuje załogę. Rozproszone [[minovsky-particles|cząstki Minovsky’ego]] odcinają łączność: [[himari-yaegaki|Himari]] nie może prowadzić Seishira, więc ten działa samodzielnie.
+### White Base
 
-Char rozpoznaje maszynę Connect i wybiera odwrót zamiast walki o zestrzelenie. Jego decyzja, podobnie jak rozmowa w hangarze, pokazuje, że obie strony oceniają wojnę chłodno, a nie wyłącznie przez pryzmat propagandy.
+Na [[white-base|White Base]] [[paolo-cassius|kapitan Paolo]] jest ranny — opatruje go [[sayla-mass|Sayla Mass]] — a dowodzenie faktycznie przejmuje [[bright-noa|Bright]]. Paolo wspomina bitwę o [[loum|Loum]], w której [[char-aznable|Char]] zniszczył pięć pancerników. [[amuro-ray|Amuro]] startuje [[rx-78-2-gundam|Gundamem]] mimo braku doświadczenia, choć [[bright-noa|Bright]] próbuje go zatrzymać.
+
+### Posiłki
+
+[[connect-force|Connect]] dolatuje, gdy walka już trwa; rozproszone [[minovsky-particles|cząstki Minovsky’ego]] odcinają łączność, więc [[himari-yaegaki|Himari]] nie może prowadzić Seishira i ten działa samodzielnie. [[char-aznable|Char]] ocenia nową maszynę jako broń zbudowaną do walki z rasami nieludzkimi i każe [[slender|Slenderowi]] oraz [[crown|Crown]] wstrzymać atak. Skoro zestrzelenie Exarta nic by nie dało, rozkazuje wycofać się w porę.
+
+### Odwrót Chara
+
+Czerwona Kometa przerywa walkę, zanim straci maszyny. [[amuro-ray|Amuro]] nie dowierza, że przeciwnik się wycofuje, a [[seishiro|Seishiro]] przyznaje, że w dobrych rękach nawet [[zaku-ii|Zaku]] staje się groźny. [[white-base|White Base]] kieruje się do [[luna-ii|Luny II]], gdzie kończy się eskorta Connect.
+
+### Hangar po walce
+
+W hangarze Himari przeprasza za utratę łączności, a Seishiro zrzuca winę na cząstki Minovsky’ego. Mówi też, że wolałby, by nawet piloci [[zeon|Zeonu]] wyszli z walki żywi — właśnie po to istnieje Connect. Himari zdradza, że dorastała w domu dziecka; Seishiro zapewnia, że organizacja nie porzuca swoich ludzi.
 
 }}
 

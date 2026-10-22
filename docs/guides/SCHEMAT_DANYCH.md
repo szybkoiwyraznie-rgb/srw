@@ -152,7 +152,8 @@ się jako tabelę:
 ```
 
 Typy wątków: `adaptacja`, `nawiazanie`, `hold`, `dywergencja`, `fuzja`, `autorskie`.
-W komórkach tabeli pionek w wikilinku zapisujemy jako `\|`.
+W komórkach tabeli pionek w wikilinku zapisujemy jako `\|`; pionek wewnątrz `[[slug|etykieta]]`
+nie dzieli wiersza nawet bez escapowania, więc tabela nie rozjeżdża się względem nagłówka.
 
 ## Przykład minimalnego wpisu
 

@@ -528,6 +528,14 @@ pre.skrypt {
 
 /* ── Sceny (ADR 0008) ───────────────────────────────────────────── */
 .blok-sceny { margin-top: 1.6em; }
+/* W prawej kolumnie lista scen jest osobnym boksem, jak metryka i obsada. */
+.kolumna-boczna .blok-sceny {
+  margin: 0; border-top: 0; padding: 14px 16px;
+  background: var(--panel); border: 1px solid var(--ramka); border-radius: 10px;
+  box-shadow: var(--cien);
+  font-size: .92rem;
+}
+.kolumna-boczna .blok-sceny h2 { margin: 0 0 .5em; font-size: 1.05rem; }
 .lista-scen { list-style: none; padding: 0; margin: 0; }
 .lista-scen li { padding: 8px 0; border-bottom: 1px solid var(--ramka); }
 .lista-scen li:last-child { border-bottom: 0; }

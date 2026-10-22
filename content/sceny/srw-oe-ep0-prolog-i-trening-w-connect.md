@@ -5,6 +5,12 @@ tytul: Prolog i trening w Connect
 epizod: srw-oe-ep0
 numer_sceny: "0-1"
 streszczenie: Prolog w U.C. 0079, szkolenie podstawowe Seishiro i Himari, retrospekcja oraz odprawa po treningu.
+sekcje_analizy:
+  - Prolog i koszt ekspansji → Prolog
+  - Stacja Connect → Stacja Connect
+  - Ćwiczenia treningowe → Ćwiczenia treningowe
+  - Retrospekcja — pierwsze spotkanie → Kilka dni wcześniej...
+  - Hangar po treningu → Stacja Connect / Hangar
 pochodzenie: skrypt
 postacie: [seishiro, himari-yaegaki, control-ai]
 mechy: [exart, brocken]
@@ -284,9 +290,25 @@ Nie wiedząc, kiedy uderzy następne zagrożenie, ludzie żyją w niepokoju - al
 
 ## Analiza
 
+### Prolog i koszt ekspansji
+
 Prolog zestawia rozwój cywilizacji z kosztami ekspansji: nierównościami, przestępczością i rozpadem jedności politycznej. [[earth-federation|Federacja Ziemska]] nie potrafi samodzielnie zapewnić bezpieczeństwa, a wyścig zbrojeń przynosi także niekontrolowane technologie. Wspomniane kryzysy należą do przeszłości tej opowieści; nie przesądzają, kto pojawi się później.
 
-W [[uc-0079|U.C. 0079]] [[seishiro|Seishiro]] pracuje w [[connect-force|Connect]]. Zna cel organizacji, ale go nie ujawnia. Trening [[exart|Exarta]] daje [[himari-yaegaki|Himari]] okazję do pracy operatorki: wyznacza cele, reaguje na nieoszczędny kurs i może przejąć zdalne sterowanie.
+### Stacja Connect
+
+W [[uc-0079|U.C. 0079]] [[seishiro|Seishiro]] pracuje w [[connect-force|Connect]] i nie mówi o celu organizacji nawet we własnych myślach. Firmę zna każdy, ale mało kto wie, jak powstała — przygotowania bojowe idą więc obok oficjalnej działalności handlowej. Start [[exart|Exarta]] z katapulty [[stacja-connect|Stacji Connect]] wygląda na zwykły trening.
+
+### Ćwiczenia treningowe
+
+Szkolenie uczy ekonomii ruchu: droga kosztuje EN, a zaopatrzenie je odnawia. Kontenery z częściami trzeba zebrać, zanim zniszczy się wszystkie cele ćwiczebne. [[himari-yaegaki|Himari]] prowadzi ćwiczenie z centrali — ostrzega przed nieoszczędnym kursem i w razie potrzeby przejmuje zdalne sterowanie. Symulowani przeciwnicy mają odwzorować prawdziwe wstrząsy trafień, więc trening od początku przygotowuje do walki, a nie do pokazu.
+
+### Retrospekcja — pierwsze spotkanie
+
+Scena cofa się do dnia, w którym Himari weszła do hangaru Exarta. Po przenosinach z 44. Działu Administracji ma magisterkę, ale nie ma prawa jazdy i nie wie, że trafiła do oddziału bojowego. [[seishiro|Seishiro]] mówi jej wprost, że w Connect Force gadulstwo bywa zabójcze, a robot przed nią to broń. Dodaje jednak, że po poznaniu celu organizacji uzna tę pracę za najlepszą w całym Connect.
+
+### Hangar po treningu
+
+Po ćwiczeniach okazuje się, że nikt nie nauczył Himari przesyłania danych do działu analiz. Seishiro tłumaczy jej to po godzinach, a jego prywatna uwaga zdradza rezerwę: liczył na doświadczoną operatorkę. Przydział Himari uznaje za decyzję organizacji — skoro tak, musi być dla projektu niezbędna. Scena nie mówi, dlaczego wybrano właśnie ją.
 
 ## Wątki w scenie
 

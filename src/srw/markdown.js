@@ -131,10 +131,11 @@ export function renderMarkdown(md, {
     }
 
     // tabela pipe
-    // `\|` w komórce to literalny pionek — bez tego nie da się wstawić
-    // wikilinku z etykietą ([[slug|etykieta]]) do tabeli.
+    // Zapis zalecany to `\|` w komórce, ale pionek wewnątrz wikilinku
+    // ([[slug|etykieta]]) i tak nie dzieli wiersza — inaczej jedna nieuwaga
+    // rozjeżdża całą tabelę względem nagłówka.
     if (bezPip(linia.trim()).startsWith('|') && bezPip(linie[i + 1] ?? '').match(/^\s*\|[\s:|-]+\|\s*$/)) {
-      const komorki = (w) => bezPip(w).trim().replace(/^\||\|$/g, '').split('|').map((c) => przywrocPip(c.trim()));
+      const komorki = podzielKomorki;
       const naglowki = komorki(linia);
       i += 2;
       const wiersze = [];
@@ -296,6 +297,27 @@ const sLinia = (l) =>
 const PIPE_PLACEHOLDER = '\u0001';
 const bezPip = (s) => String(s).replace(/\\\|/g, PIPE_PLACEHOLDER);
 const przywrocPip = (s) => String(s).replaceAll(PIPE_PLACEHOLDER, '|');
+
+/**
+ * Dzieli wiersz tabeli na komórki. Pionek wewnątrz `[[slug|etykieta]]`
+ * jest częścią odsyłacza, nie separatorem kolumn — także wtedy, gdy autor
+ * nie escapował go jako `\|`.
+ */
+function podzielKomorki(wiersz) {
+  const t = bezPip(String(wiersz).trim()).replace(/^\|/, '').replace(/\|$/, '');
+  const komorki = [];
+  let biezaca = '';
+  let wLinku = false;
+  for (let j = 0; j < t.length; j += 1) {
+    const ch = t[j];
+    if (!wLinku && ch === '[' && t[j + 1] === '[') { wLinku = true; biezaca += '[['; j += 1; continue; }
+    if (wLinku && ch === ']' && t[j + 1] === ']') { wLinku = false; biezaca += ']]'; j += 1; continue; }
+    if (ch === '|' && !wLinku) { komorki.push(przywrocPip(biezaca.trim())); biezaca = ''; continue; }
+    biezaca += ch;
+  }
+  komorki.push(przywrocPip(biezaca.trim()));
+  return komorki;
+}
 
 export function escapeHtml(s) {
   return String(s)

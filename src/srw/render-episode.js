@@ -33,6 +33,12 @@ export function renderEpizod(slug) {
     if (lista.length) grupy.set(typ, lista.sort((a, b) => String(a.tytul).localeCompare(String(b.tytul), 'pl')));
   }
 
+  // Każdy boks to własny fragment treści — streszczenie, wątki i komentarz
+  // nie dzielą już jednego wspólnego tła.
+  const boksy = (e.boksy ?? []).map((b) => `<section class="sekcja-strony">
+    ${b.html}
+  </section>`).join('\n');
+
   return `
 <div class="naglowek-epizodu">
   <div class="okruszki">
@@ -54,8 +60,7 @@ ${e.skryptTekst ? `
 
 <div class="uklad-strona">
   <div class="kolumna-glowna tresc-encja">
-    ${e.html}
-    ${sekcjaScen(e.slug)}
+    ${boksy || e.html}
   </div>
   <aside class="kolumna-boczna" aria-label="Informacje o epizodzie">
     <div class="panel-boczny">
@@ -72,6 +77,7 @@ ${e.skryptTekst ? `
       </nav>
     </div>
     ${sekcjaPowiazan('W tym epizodzie', grupy, {})}
+    ${sekcjaScen(e.slug)}
   </aside>
 </div>`;
 }

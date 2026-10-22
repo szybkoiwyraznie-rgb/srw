@@ -52,10 +52,16 @@ test('scena: analiza i treść w lewej kolumnie, obsada i nawiązania w prawej',
 });
 
 test('scena: każda podsekcja analizy linkuje do istniejącej kotwicy w treści', () => {
-  for (const slug of ['srw-oe-ep1-black-tri-stars', 'srw-oe-ep1-szalejacy-prototyp-labora']) {
+  const oczekiwane = [
+    ['srw-oe-ep1-black-tri-stars', 8],
+    ['srw-oe-ep1-szalejacy-prototyp-labora', 8],
+    ['prolog-i-trening-w-connect', 5],
+    ['srw-oe-ep0-na-ratunek-white-base', 6],
+  ];
+  for (const [slug, ile] of oczekiwane) {
     const html = scena(slug);
     const linki = [...html.matchAll(/class="skok-do-tresci" href="([^"]+)" data-cel="([^"]+)"/g)];
-    assert.equal(linki.length, 8, `${slug}: osiem podsekcji analizy z odsyłaczem`);
+    assert.equal(linki.length, ile, `${slug}: ${ile} podsekcji analizy z odsyłaczem`);
     for (const [, href, cel] of linki) {
       assert.equal(href, `#/scena/${slug}`, `${slug}: odsyłacz wskazuje stronę sceny, nie trasę kotwicy`);
       assert.ok(html.includes(`id="${cel}"`), `${slug}: brak kotwicy ${cel}`);
@@ -72,10 +78,14 @@ test('scena: podsekcje treści mają własne nagłówki-kotwice', () => {
   }
 });
 
-test('scena bez podsekcji analizy nie dostaje odsyłaczy', () => {
-  const html = scena('srw-oe-ep0-na-ratunek-white-base');
-  assert.doesNotMatch(html, /skok-do-tresci/);
-  assert.match(html, /id="sekcja-analiza"/, 'analiza nadal jest w lewej kolumnie');
+test('scena bez mapy nie dostaje odsyłaczy z analizy', () => {
+  const ciało = `{{skrypt gra=srw-oe\n\n## Treść sceny\n\n### Alfa\n\ntekst\n\n## Analiza\n\n### Beta\n\nopis\n\n## Wątki w scenie\n\n- x\n}}\n`;
+  const plan = zaplanujScene(podzielScene(ciało));
+  assert.equal(plan.problemy.length, 0);
+  assert.equal(plan.linkiAnalizy.size, 0, 'bez mapy nie ma odsyłaczy');
+
+  const html = scena('srw-oe-ep1-szalejacy-prototyp-labora');
+  assert.match(html, /id="sekcja-analiza"/, 'analiza jest w lewej kolumnie');
   assert.match(html, /id="sekcja-tresc"/);
 });
 
@@ -108,8 +118,32 @@ test('encje i epizody mają ten sam układ dwukolumnowy', () => {
   assert.ok(glownaE < bocznaE);
   const lewa = epizod.slice(glownaE, bocznaE);
   const prawa = epizod.slice(bocznaE);
-  assert.match(lewa, /Sceny/, 'lista scen w lewej kolumnie');
-  assert.match(prawa, /W tym epizodzie/, 'obsada epizodu w prawej kolumnie');
+  assert.doesNotMatch(lewa, /<h2>Sceny<\/h2>/, 'lista scen nie stoi w lewej kolumnie');
+  const [obsadaE, scenyE] = kolejnosc(prawa, ['W tym epizodzie', '<h2>Sceny</h2>']);
+  assert.ok(obsadaE < scenyE, 'lista scen zamyka prawą kolumnę');
+});
+
+test('epizod: streszczenie, wątki i komentarz mają osobne boksy', () => {
+  const html = renderEpizod('srw-oe-ep0');
+  const boksy = [...html.matchAll(/<section class="sekcja-strony">\s*<div class="fragment[^"]*"[^>]*>\s*<p class="zakres-gry">[\s\S]*?<h2>([^<]+)<\/h2>/g)]
+    .map((m) => m[1]);
+  assert.deepEqual(boksy, ['Streszczenie', 'Wątki anime', 'Komentarz', 'Postacie i maszyny', 'Inne źródła i rozbieżności']);
+
+  // Blok wiedzy bez nagłówka też jest własnym boksem — nie dokleja się do sąsiada.
+  assert.equal((html.match(/class="sekcja-strony"/g) ?? []).length, 6);
+
+  // Tabela wątków ma pięć kolumn, tak jak nagłówek — pionek w wikilinku nie dzieli wiersza.
+  const tabela = html.slice(html.indexOf('<table'), html.indexOf('</table>'));
+  assert.equal((tabela.match(/<th>/g) ?? []).length, 5);
+  const wiersz = tabela.split('</tr>')[1] ?? '';
+  assert.equal((wiersz.match(/<td>/g) ?? []).length, 5, 'wiersz tabeli nie rozjeżdża się');
+});
+
+test('epizod: nawiązania są częścią boksy „Postacie i maszyny”, nie osobna', () => {
+  const html = renderEpizod('srw-oe-ep0');
+  assert.equal((html.match(/<h2>Nawiązania<\/h2>/g) ?? []).length, 0, 'brak osobnego boksy');
+  assert.equal((html.match(/<h2>Postacie i maszyny<\/h2>/g) ?? []).length, 1);
+  assert.match(html, /<h3>Nawiązania<\/h3>/, 'nawiązania jako podsekcja w boksie');
 });
 
 test('arkusz stylów: 3/4 + 1/4, brak pustego pasa nad stopką', () => {

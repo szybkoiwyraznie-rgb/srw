@@ -49,10 +49,21 @@ sekcje_analizy:
   - Odprawa na stacji Connect → Stacja Connect / Okolice Ziemi
 ```
 
-Po lewej stronie strzałki stoi tytuł `###` z `## Analiza`, po prawej tytuł `###`/`####`
+Po lewej stronie strzałki stoi tytuł `###` z `## Analiza`, po prawej tytuł `##`–`####`
 z `## Treść sceny`. Powtórzony tytuł po prawej stronie zużywa kolejne wystąpienie w kolejności.
 Literówka w tytule zatrzymuje build — mapa nie zgaduje. Scena bez podsekcji w analizie mapy nie
 potrzebuje.
+
+Każda scena ma w analizie tyle podsekcji, ile jest etapów w jej treści — także scena z prologu,
+której treść stoi w całości w bloku `:::skrypt`. Dzięki temu czytelnik przechodzi z analizy wprost
+do opisywanego miejsca skryptu.
+
+### Boksy strony epizodu
+
+Strona epizodu dzieli się na osobne boksy: streszczenie, wątki anime i komentarz mają własne tło,
+podobnie jak „Postacie i maszyny” (wraz z podsekcją „Nawiązania”) i „Inne źródła i rozbieżności”.
+Nowy nagłówek `##` w treści epizodu otwiera nowy boks, a zmiana bloku poziomu bez nagłówka zamyka
+poprzedni. Lista scen stoi na dole prawej kolumny, pod obsadą epizodu.
 
 ## 2. Wpis epizodu (agregacja scen)
 

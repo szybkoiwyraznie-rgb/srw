@@ -65,14 +65,80 @@ export function podzielScene(body) {
   return sekcje;
 }
 
-/** Nagłówki `###`/`####` w treści sekcji, w kolejności wystąpienia. */
+/** Nagłówki `##`–`####` w treści sekcji, w kolejności wystąpienia. */
 function naglowki(tresc) {
   const wynik = [];
   for (const linia of String(tresc ?? '').split('\n')) {
-    const m = linia.match(/^(#{3,4})\s+(.+?)\s*$/);
+    const m = linia.match(/^(#{2,4})\s+(.+?)\s*$/);
     if (m) wynik.push({ poziom: m[1].length, tytul: m[2] });
   }
   return wynik;
+}
+
+/**
+ * Dzieli ciało strony na boksy: każdy nagłówek `##` otwiera nowy boks,
+ * a zmiana bloku poziomu bez nagłówka (np. `{{zrodlo}}` → `{{wiedza}}`)
+ * domyka poprzedni, bo blok ma własne tło i nie dzieli boksy z innym.
+ *
+ * Zwraca `[{ tytul, bloki: [{ otwarcie, tresc }] }]`; `tytul` bywa `null`,
+ * gdy blok nie ma nagłówka. Nagłówki wewnątrz `:::skrypt` są dosłownym
+ * tekstem skryptu i nie zaczynają boksy.
+ */
+export function podzielNaBoksy(body) {
+  const boksy = [];
+  let boks = null;
+  let blok = null;
+  let otwarcie = null;
+  let wSkrypcie = false;
+
+  const zamknijBlok = () => {
+    if (!blok) return;
+    blok.tresc = blok.linie.join('\n').replace(/^\n+|\n+$/g, '');
+    delete blok.linie;
+    if (boks && blok.tresc !== '') boks.bloki.push(blok);
+    blok = null;
+  };
+  const zamknijBoks = () => {
+    zamknijBlok();
+    if (!boks) return;
+    if (boks.bloki.length > 0) boksy.push(boks);
+    boks = null;
+  };
+
+  for (const linia of String(body ?? '').split('\n')) {
+    const t = linia.trim();
+
+    if (/^:::/.test(t)) {
+      wSkrypcie = !wSkrypcie;
+      if (blok) blok.linie.push(linia);
+      continue;
+    }
+    if (wSkrypcie) {
+      if (blok) blok.linie.push(linia);
+      continue;
+    }
+
+    if (BLOK_OTWARCIA_RE.test(t)) {
+      otwarcie = t;
+      if (boks && boks.bloki.length > 0) zamknijBoks();
+      if (!boks) boks = { tytul: null, bloki: [] };
+      zamknijBlok();
+      blok = { otwarcie, linie: [] };
+      continue;
+    }
+    if (t === '}}') { otwarcie = null; zamknijBlok(); continue; }
+
+    const h = linia.match(/^##\s+(.+?)\s*$/);
+    if (h) {
+      zamknijBoks();
+      boks = { tytul: h[1], bloki: [] };
+      blok = { otwarcie, linie: [linia] };
+      continue;
+    }
+    if (blok) blok.linie.push(linia);
+  }
+  zamknijBoks();
+  return boksy;
 }
 
 /** Identyfikator kotwicy z tytułu; powtórki dostają numer na końcu. */

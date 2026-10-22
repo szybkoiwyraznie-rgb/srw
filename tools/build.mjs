@@ -20,7 +20,7 @@ import { fileURLToPath } from 'node:url';
 import { collectModules, assertNoNameCollisions, stripModuleSyntax } from './module-graph.mjs';
 import { wczytajStrony, wczytajSkrypty, wczytajCoNowego } from './content-loader.mjs';
 import { renderMarkdown } from '../src/srw/markdown.js';
-import { podzielScene, zaplanujScene, kotwiceSekcji } from '../src/srw/scena-sekcje.js';
+import { podzielScene, podzielNaBoksy, zaplanujScene, kotwiceSekcji } from '../src/srw/scena-sekcje.js';
 import { parseWikilinks } from '../src/srw/links.js';
 import {
   zbudujRejestr, resolverLinkow, walidujStrone, policzBacklinki, policzTagi, policzStatystyki,
@@ -162,7 +162,25 @@ export async function zbudujDane({ root = ROOT } = {}) {
       });
     }
 
-    wyrenderowane.set(s.slug, { html, linki: [...linki], skryptTekst, sekcje });
+    // Epizod: każdy nagłówek `##` to osobny boks strony (streszczenie, wątki,
+    // komentarz, obsada). Blok poziomu bez nagłówka też dostaje własny boks,
+    // bo jego tło jest częścią przekazu (ADR 0010).
+    let boksy = null;
+    if (s.typ === 'epizod') {
+      boksy = podzielNaBoksy(s.body).map((b) => ({
+        tytul: b.tytul,
+        html: b.bloki.map((bl) => {
+          const wynik = renderMarkdown(`${bl.otwarcie ?? '{{skrypt'}\n\n${bl.tresc}\n\n}}`, {
+            resolveLink: resolver,
+            wymagajPoziomu: true,
+          });
+          for (const pr of wynik.problemy) problemy.push(`${s.slug}: ${pr}`);
+          return wynik.html;
+        }).join('\n'),
+      }));
+    }
+
+    wyrenderowane.set(s.slug, { html, linki: [...linki], skryptTekst, sekcje, boksy });
   }
 
   // Parzystość dostawy: skrypt bez wpisu epizodu = materiał do przetworzenia.
@@ -198,6 +216,7 @@ export async function zbudujDane({ root = ROOT } = {}) {
       czas: datyGit(s.plik),
       ...(r.skryptTekst ? { skryptTekst: r.skryptTekst, skryptOtwarty: false } : {}),
       ...(r.sekcje ? { sekcje: r.sekcje } : {}),
+      ...(r.boksy ? { boksy: r.boksy } : {}),
     };
   }
 
