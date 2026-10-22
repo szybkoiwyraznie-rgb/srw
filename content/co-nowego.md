@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-22 18:32
+
+- [[general-revil|Generał Revil]] zyskuje przeszłość: w [[loum|bitwie pod Loum]] dostał się do niewoli, a jego kapsułę ratunkową przechwycili [[black-tri-stars|Black Tri-Stars]]; po odbiciu skłonił Federację do odrzucenia narzuconego pokoju.
+- [[black-tri-stars|Black Tri-Stars]] mają w opisie [[loum|Loum]] i przechwycenie [[general-revil|generała Revila]], a załoga [[white-base|White Base]] rozpoznaje weteranów po tej właśnie historii.
+
 ## 2026-10-22 18:31
 
 - [[srw-oe-ep1|Epizod 1]] i [[srw-oe-ep1-black-tri-stars|scena „Black Tri-Stars”]] podają obok tytułu „Black Tri-Star” także oficjalny tytuł odcinka 24 [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] — „The Triple Dom Assault!”.
