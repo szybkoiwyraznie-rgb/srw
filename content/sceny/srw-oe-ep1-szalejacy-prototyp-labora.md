@@ -5,6 +5,15 @@ tytul: Szalejący prototyp Labora
 epizod: srw-oe-ep1
 numer_sceny: "1-1"
 streszczenie: "Cała misja 1: odprawa u szefa Suola, ćwiczenia Connect, SV2 i Sił Samoobrony na poligonie Fuji, walka z bezzałogowymi HAL-X10 i rozmowy po walce."
+sekcje_analizy:
+  - Odprawa na stacji Connect → Stacja Connect / Okolice Ziemi
+  - Wtrącenie o Patlaborze → Patlabor
+  - Na poligonie Fuji → Siły Samoobrony, poligon Fuji
+  - SV2 dołącza do ćwiczeń → SV2 dołącza do ćwiczeń
+  - Ostra amunicja → Ostra amunicja
+  - Warunkowe dialogi bitewne → Dialogi bojowe — warunkowe i sytuacyjne
+  - Po ćwiczeniach → Po ćwiczeniach
+  - Następstwa → Następstwa
 pochodzenie: skrypt
 zrodla:
   - https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!

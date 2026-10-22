@@ -39,6 +39,21 @@ konkretnych odcinków go nie dostaje. Każdy podany adres trafia do `zrodla` we 
 otwarciu strony (ADR 0009), a opisana sytuacja z oryginału nie może wyprzedzać materiału rozegranego
 w grze (ADR 0012).
 
+### Kotwice analizy (układ strony sceny)
+
+Strona sceny ma dwie kolumny: w lewej analiza i treść sceny, w prawej obsada, nawiązania i wątki.
+Aby podsekcja analizy prowadziła do swojego miejsca w treści, dopisz w frontmatterze mapę:
+
+```yaml
+sekcje_analizy:
+  - Odprawa na stacji Connect → Stacja Connect / Okolice Ziemi
+```
+
+Po lewej stronie strzałki stoi tytuł `###` z `## Analiza`, po prawej tytuł `###`/`####`
+z `## Treść sceny`. Powtórzony tytuł po prawej stronie zużywa kolejne wystąpienie w kolejności.
+Literówka w tytule zatrzymuje build — mapa nie zgaduje. Scena bez podsekcji w analizie mapy nie
+potrzebuje.
+
 ## 2. Wpis epizodu (agregacja scen)
 
 `content/epizody/<gra>-ep<NNN>.md` — frontmatter: `gra`, `numer`, `rozegrano` (data rozegrania,

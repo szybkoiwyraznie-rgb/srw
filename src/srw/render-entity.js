@@ -29,17 +29,19 @@ ${naglowekStrony({
   podtytul: podtytul(strona),
 })}
 ${strona.obraz ? `<figure class="obraz"><button type="button" class="ilustracja-otworz" data-pelny-ekran><img src="${escapeHtml(strona.obraz)}" alt="${escapeHtml(strona.tytul)}" loading="lazy"></button><figcaption>${escapeHtml(strona.tytul)}${strona.obraz_zrodlo ? ` — ${escapeHtml(strona.obraz_zrodlo)}` : ''}</figcaption></figure>` : ''}
-<div class="uklad-encja">
-  <aside class="infoboks">
-    ${infoboks(strona)}
-    ${chipsyTagow(strona.tagi)}
-  </aside>
-  <div class="tresc-encja">
+<div class="uklad-strona">
+  <div class="kolumna-glowna tresc-encja">
     ${strona.html}
     ${sekcjaListy(strona)}
+  </div>
+  <aside class="kolumna-boczna" aria-label="Informacje o ${escapeHtml(nazwaTypu(strona.typ).toLowerCase())}">
+    <div class="panel-boczny">
+      ${infoboks(strona)}
+      ${chipsyTagow(strona.tagi)}
+    </div>
     ${sekcjaPowiazan('Powiązania', wychodzace, { pomijaj: [] })}
     ${sekcjaPrzychodzacych(przychodzace)}
-  </div>
+  </aside>
 </div>`;
 }
 

@@ -54,32 +54,40 @@ hr { border: 0; border-top: 1px solid var(--ramka); margin: 1.6em 0; }
 
 .naglowek-wnetrze {
   max-width: 1180px; margin: 0 auto; padding: 10px 18px;
-  display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center;
+  display: flex; flex-wrap: nowrap; gap: clamp(6px, 1vw, 16px); align-items: center;
 }
 
-.logo { display: flex; align-items: baseline; gap: 7px; font-weight: 700; letter-spacing: .04em; }
+.logo { display: flex; align-items: baseline; gap: 7px; font-weight: 700; letter-spacing: .04em; flex: 0 0 auto; }
 .logo-srw { color: var(--akcent); font-size: 1.16rem; }
 .logo-db { color: var(--tusz-2); font-size: .84rem; text-transform: uppercase; letter-spacing: .18em; }
 .logo:hover { text-decoration: none; }
 .logo:hover .logo-db { color: var(--tusz); }
 
-.nawigacja { display: flex; flex-wrap: wrap; gap: 2px; flex: 1 1 420px; }
+/* Menu nie zawija się w drugą linię: przy węższym oknie zmniejszają się
+   odstępy i czcionka, a na telefonie pasek przewija się w poziomie. */
+.nawigacja {
+  display: flex; flex-wrap: nowrap; gap: 0; flex: 0 1 auto;
+  min-width: 0; overflow-x: auto; scrollbar-width: none;
+}
+.nawigacja::-webkit-scrollbar { display: none; }
 .nawigacja a {
-  color: var(--tusz-2); padding: 5px 10px; border-radius: 6px;
-  font-size: .88rem; border: 1px solid transparent;
+  color: var(--tusz-2); padding: 5px clamp(4px, .75vw, 10px); border-radius: 6px;
+  font-size: clamp(.72rem, .95vw, .88rem); border: 1px solid transparent;
+  white-space: nowrap;
 }
 .nawigacja a:hover { background: var(--panel); color: var(--tusz); text-decoration: none; }
 .nawigacja a.aktywna { color: var(--akcent); background: var(--panel); border-color: var(--ramka-2); }
 
+.szukaj { flex: 1 1 auto; min-width: 92px; max-width: 230px; margin-left: auto; }
 .szukaj input {
   background: var(--panel); border: 1px solid var(--ramka); color: var(--tusz);
-  border-radius: 8px; padding: 7px 12px; font-size: .9rem; min-width: 190px; font-family: inherit;
+  border-radius: 8px; padding: 7px 12px; font-size: .9rem; width: 100%; min-width: 0; font-family: inherit;
 }
 .szukaj input:focus { outline: none; border-color: var(--akcent); }
 
 /* ── Treść ──────────────────────────────────────────────────────── */
 
-.tresc { max-width: 1180px; margin: 0 auto; padding: 26px 18px 60px; }
+.tresc { max-width: 1180px; margin: 0 auto; padding: 26px 18px 30px; }
 
 h1, h2, h3 { line-height: 1.25; }
 h1 { font-size: 1.86rem; margin: 0 0 .3em; letter-spacing: -.01em; }
@@ -143,15 +151,48 @@ p { margin: .8em 0; }
 .fragment { color: var(--tusz-2); font-size: .88rem; margin: 2px 0 4px; }
 .lista-wynikow li { flex-direction: column; align-items: flex-start; }
 
-/* ── Encje: układ i infoboks ───────────────────────────────────── */
+/* ── Encje: układ dwukolumnowy (3/4 + 1/4) ─────────────────────── */
 
-.uklad-encja { display: block; }
-.tresc-encja { min-width: 0; }
-/* Infoboks to pasek informacji na górze strony, na pełną szerokość (bez prawej kolumny). */
-.infoboks {
-  background: var(--panel); border: 1px solid var(--ramka); border-radius: 10px;
-  padding: 14px 18px; margin: 0 0 24px; box-shadow: var(--cien);
+/* Treść strony w lewej kolumnie, metryka i nawigacja po powiązaniach
+   w prawej. Ten sam układ mają sceny, epizody i wszystkie encje. */
+.uklad-strona {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 1fr);
+  gap: 26px;
+  align-items: start;
 }
+.kolumna-glowna {
+  min-width: 0; display: flex; flex-direction: column; gap: 16px;
+}
+/* Odstępy ustala kolumna — bloki nie dokładają własnych marginesów. */
+.kolumna-glowna > * { margin-block: 0; }
+.kolumna-boczna {
+  min-width: 0; display: flex; flex-direction: column; gap: 16px;
+  font-size: .92rem;
+}
+.kolumna-boczna .fragment { margin-block: 0; }
+.sekcja-strony { min-width: 0; }
+.sekcja-strony:last-child { margin-bottom: 0; }
+
+.panel-boczny {
+  background: var(--panel); border: 1px solid var(--ramka); border-radius: 10px;
+  padding: 14px 16px; box-shadow: var(--cien);
+}
+.kolumna-boczna .blok-powiazan {
+  margin: 0; border-top: 0; padding: 14px 16px;
+  background: var(--panel); border: 1px solid var(--ramka); border-radius: 10px;
+  box-shadow: var(--cien);
+}
+.kolumna-boczna .blok-powiazan h2 { margin: 0 0 .5em; font-size: 1.05rem; }
+.kolumna-boczna .blok-powiazan .grupa-powiazan:last-child { margin-bottom: 0; }
+.kolumna-boczna h2 { font-size: 1.05rem; }
+/* W wąskiej kolumnie metryka idzie pod etykietą, nie obok niej. */
+.kolumna-boczna .infoboks-lista { grid-template-columns: 1fr; gap: 1px; }
+.kolumna-boczna .infoboks-lista dt { margin-top: 8px; }
+.kolumna-boczna .infoboks-lista dt:first-child { margin-top: 0; }
+.sekcja-strony > .fragment:last-child { margin-bottom: 0; }
+
+.tresc-encja { min-width: 0; }
 .infoboks-lista { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: .9rem; }
 .infoboks-lista dt { color: var(--tusz-3); font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; padding-top: 2px; }
 .infoboks-lista dd { margin: 0; }
@@ -359,7 +400,7 @@ pre.skrypt {
 /* ── Stopka ────────────────────────────────────────────────────── */
 
 .stopka {
-  border-top: 1px solid var(--ramka); margin-top: 40px; padding: 18px;
+  border-top: 1px solid var(--ramka); margin-top: 26px; padding: 18px;
   color: var(--tusz-3); font-size: .82rem; text-align: center;
 }
 .stopka p { margin: 2px 0; }
@@ -458,17 +499,28 @@ pre.skrypt {
 
 /* ── Responsywność ─────────────────────────────────────────────── */
 
+@media (max-width: 900px) {
+  .uklad-strona { grid-template-columns: 1fr; gap: 18px; }
+}
+
 @media (max-width: 860px) {
   .dwie-kolumny, .dwie-kolumny-nierowne { grid-template-columns: 1fr; }
   h1 { font-size: 1.55rem; }
   .hero h1 { font-size: 1.8rem; }
 }
 
+@media (max-width: 720px) {
+  /* Menu zostaje w jednej linii i przewija się w poziomie, wyszukiwarka
+     schodzi pod nie na pełną szerokość — nic się nie łamie w środku paska. */
+  .naglowek-wnetrze { flex-wrap: wrap; }
+  .logo { order: 1; }
+  .nawigacja { order: 2; flex: 1 1 auto; }
+  .szukaj { order: 3; flex: 1 1 100%; max-width: none; margin-left: 0; }
+}
+
 @media (max-width: 520px) {
   .naglowek-wnetrze { padding: 8px 12px; }
-  .szukaj { flex: 1 1 100%; }
-  .szukaj input { width: 100%; }
-  .tresc { padding: 18px 12px 48px; }
+  .tresc { padding: 18px 12px 24px; }
   .dziennik > li { grid-template-columns: 1fr; gap: 2px; }
 }
 
@@ -481,3 +533,19 @@ pre.skrypt {
 .lista-scen a:hover { color: var(--akcent); text-decoration: none; }
 .numer-sceny { font-family: var(--mono); color: var(--akcent); font-size: .9em; margin-right: 4px; }
 .streszczenie-sceny { display: block; margin-top: 2px; color: var(--tusz-3); font-size: .84rem; }
+
+
+/* ── Kotwice podsekcji sceny ───────────────────────────────────── */
+
+/* Nagłówek treści bywa zasłonięty przez przyklejony pasek — zostaw margines. */
+h2[id], h3[id], h4[id] { scroll-margin-top: 84px; }
+.skok-do-tresci { color: inherit; }
+.skok-do-tresci:hover { color: var(--akcent); text-decoration: none; }
+.skok-do-tresci::after {
+  content: " ↓"; color: var(--akcent); font-size: .85em; opacity: .75;
+}
+.podswietlenie { animation: podswietlenie-celu 1.6s ease-out; }
+@keyframes podswietlenie-celu {
+  from { background: rgba(184, 115, 26, .18); }
+  to { background: transparent; }
+}

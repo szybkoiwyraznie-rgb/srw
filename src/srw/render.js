@@ -32,12 +32,16 @@ export const NAZWY_POCHODZENIA = {
 
 /** Gradacja (zasada właściciela): gra → epizod → scena to główny ciąg fabularny. Scena jest jednostką, z której wszystko się składa. */
 /**
- * Główne menu w nagłówku. Cztery działy fabularne (scena → epizod → postać → mech)
- * mają własne kafle na stronie głównej, więc menu ich nie powiela: prowadzi do
- * pozostałych działów, tak jak wcześniej robiła to stopka. Jedno menu w całej
- * witrynie — bez drugiego zestawu linków na dole.
+ * Główne menu w nagłówku: cztery działy fabularne w kolejności czytania
+ * (scena → epizod → postać → mech), a za nimi pozostałe działy bazy.
+ * Jedno menu w całej witrynie — bez drugiego zestawu linków na dole.
+ * Mieści się w jednej linii: szerokość wyszukiwarki i odstępy są płynne.
  */
 export const NAV = [
+  { id: 'sceny', etykieta: 'Sceny', href: '#/sceny' },
+  { id: 'epizody', etykieta: 'Epizody', href: '#/epizody' },
+  { id: 'postacie', etykieta: 'Postacie', href: '#/postacie' },
+  { id: 'mechy', etykieta: 'Mechy', href: '#/mechy' },
   { id: 'gry', etykieta: 'Gry', href: '#/gry' },
   { id: 'serie', etykieta: 'Serie', href: '#/serie' },
   { id: 'pojecia', etykieta: 'Hasła', href: '#/pojecia' },

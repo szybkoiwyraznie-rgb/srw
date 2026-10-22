@@ -1,5 +1,11 @@
 /**
- * Strona sceny (ADR 0008): treść sceny z dosłownym skryptem, potem analiza.
+ * Strona sceny (ADR 0008): analiza i treść sceny w lewej kolumnie,
+ * nawigacja i materiały poboczne w prawej.
+ *
+ * Układ jest dwukolumnowy (3/4 + 1/4), bo scena ma dwa poziomy czytania:
+ * najpierw analiza i dosłowny skrypt, obok — obsada, nawiązania do oryginału
+ * i wątki. Podsekcje analizy prowadzą do odpowiadających im miejsc treści,
+ * więc czytelnik nie szuka ich przewijaniem.
  *
  * Scena należy do epizodu — okruszki i nawigacja prowadzą wewnątrz epizodu
  * (poprzednia / następna scena), a lista scen na stronie epizodu powstaje
@@ -35,6 +41,17 @@ export function renderScena(slug) {
   if ((s.mechy ?? []).length) infoPozycje.push(`<dt>Mechy</dt><dd>${linkiListy(s.mechy)}</dd>`);
   if ((s.pojecia ?? []).length) infoPozycje.push(`<dt>Hasła</dt><dd>${linkiListy(s.pojecia)}</dd>`);
 
+  const sek = new Map((s.sekcje ?? []).map((x) => [x.tytul, x.html]));
+  const boks = (tytul, id) => (sek.has(tytul)
+    ? `<section class="sekcja-strony" id="${id}">${sek.get(tytul)}</section>`
+    : '');
+
+  // Strona bez podziału na sekcje (starsze dane) nie może zniknąć — pokazujemy
+  // całą treść w kolumnie głównej.
+  const glowna = sek.size > 0
+    ? `${boks('Analiza', 'sekcja-analiza')}${boks('Treść sceny', 'sekcja-tresc')}`
+    : `<div class="tresc-encja">${s.html}</div>`;
+
   return `
 <div class="naglowek-epizodu">
   <div class="okruszki">
@@ -48,17 +65,21 @@ export function renderScena(slug) {
   </p>
 </div>
 
-<div class="uklad-encja">
-  <aside class="infoboks">
-    ${infoPozycje.length ? `<dl class="infoboks-lista">${infoPozycje.join('')}</dl>` : ''}
-    <nav class="nawigacja-epizodow">
-      ${poprzednia ? `<a href="${hrefDlaSlug(poprzednia.slug, 'scena')}">← ${escapeHtml(poprzednia.numer_sceny)} ${escapeHtml(poprzednia.tytul)}</a>` : ''}
-      ${nastepna ? `<a href="${hrefDlaSlug(nastepna.slug, 'scena')}">${escapeHtml(nastepna.numer_sceny)} ${escapeHtml(nastepna.tytul)} →</a>` : ''}
-    </nav>
-  </aside>
-  <div class="tresc-encja">
-    ${s.html}
+<div class="uklad-strona">
+  <div class="kolumna-glowna tresc-encja">
+    ${glowna}
   </div>
+  <aside class="kolumna-boczna" aria-label="Informacje o scenie">
+    <div class="panel-boczny">
+      ${infoPozycje.length ? `<dl class="infoboks-lista">${infoPozycje.join('')}</dl>` : ''}
+      <nav class="nawigacja-epizodow">
+        ${poprzednia ? `<a href="${hrefDlaSlug(poprzednia.slug, 'scena')}">← ${escapeHtml(poprzednia.numer_sceny)} ${escapeHtml(poprzednia.tytul)}</a>` : ''}
+        ${nastepna ? `<a href="${hrefDlaSlug(nastepna.slug, 'scena')}">${escapeHtml(nastepna.numer_sceny)} ${escapeHtml(nastepna.tytul)} →</a>` : ''}
+      </nav>
+    </div>
+    ${boks('Nawiązania do oryginalnych odcinków', 'sekcja-nawiazania')}
+    ${boks('Wątki w scenie', 'sekcja-watki')}
+  </aside>
 </div>`;
 }
 

@@ -5,6 +5,15 @@ tytul: Black Tri-Stars
 epizod: srw-oe-ep1
 numer_sceny: "1-2"
 streszczenie: "Druga misja epizodu 1: powrót Connect z Japonii, odprawa M'Quve'a z Black Tri-Stars, start White Base i walka z trzema Domami, które wycofują się po nieudanym ataku."
+sekcje_analizy:
+  - Powrót z Japonii → Transportowiec / Hangar
+  - Odprawa w bazie Zeonu → Baza Zeonu / Odessa
+  - Start White Base → White Base przygotowuje się do startu
+  - Black Tri-Stars wchodzą do walki → Przybycie Black Tri-Stars
+  - Odwrót → Odwrót Black Tri-Stars
+  - Po walce w bazie Zeonu → Baza Zeonu / Odessa
+  - Przegląd na pokładzie → White Base / Pokład mobile suitów
+  - Mostek → White Base / Mostek
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Black_Tri-Star

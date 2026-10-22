@@ -52,25 +52,27 @@ ${e.skryptTekst ? `
   <pre class="skrypt">${escapeHtml(e.skryptTekst)}</pre>
 </details>` : ''}
 
-<div class="uklad-encja">
-  <aside class="infoboks">
-    <dl class="infoboks-lista">
-      ${gra ? `<dt>Gra</dt><dd><a href="${hrefDlaSlug(gra.slug, 'gra')}">${escapeHtml(gra.tytul)}</a></dd>` : ''}
-      <dt>Numer</dt><dd>${numerEpizodu(e.numer)}</dd>
-      ${e.trasa ? `<dt>Trasa</dt><dd>${escapeHtml(e.trasa)}</dd>` : ''}
-      ${e.rozegrano ? `<dt>Rozegrano</dt><dd>${escapeHtml(e.rozegrano)}</dd>` : ''}
-    </dl>
-    ${chipsyTagow(e.tagi)}
-    <nav class="nawigacja-epizodow">
-      ${poprzedni ? `<a href="${hrefDlaSlug(poprzedni.slug, 'epizod')}">← ${numerEpizodu(poprzedni.numer)} ${escapeHtml(poprzedni.tytul)}</a>` : ''}
-      ${nastepny ? `<a href="${hrefDlaSlug(nastepny.slug, 'epizod')}">${numerEpizodu(nastepny.numer)} ${escapeHtml(nastepny.tytul)} →</a>` : ''}
-    </nav>
-  </aside>
-  <div class="tresc-encja">
+<div class="uklad-strona">
+  <div class="kolumna-glowna tresc-encja">
     ${e.html}
     ${sekcjaScen(e.slug)}
-    ${sekcjaPowiazan('W tym epizodzie', grupy, {})}
   </div>
+  <aside class="kolumna-boczna" aria-label="Informacje o epizodzie">
+    <div class="panel-boczny">
+      <dl class="infoboks-lista">
+        ${gra ? `<dt>Gra</dt><dd><a href="${hrefDlaSlug(gra.slug, 'gra')}">${escapeHtml(gra.tytul)}</a></dd>` : ''}
+        <dt>Numer</dt><dd>${numerEpizodu(e.numer)}</dd>
+        ${e.trasa ? `<dt>Trasa</dt><dd>${escapeHtml(e.trasa)}</dd>` : ''}
+        ${e.rozegrano ? `<dt>Rozegrano</dt><dd>${escapeHtml(e.rozegrano)}</dd>` : ''}
+      </dl>
+      ${chipsyTagow(e.tagi)}
+      <nav class="nawigacja-epizodow">
+        ${poprzedni ? `<a href="${hrefDlaSlug(poprzedni.slug, 'epizod')}">← ${numerEpizodu(poprzedni.numer)} ${escapeHtml(poprzedni.tytul)}</a>` : ''}
+        ${nastepny ? `<a href="${hrefDlaSlug(nastepny.slug, 'epizod')}">${numerEpizodu(nastepny.numer)} ${escapeHtml(nastepny.tytul)} →</a>` : ''}
+      </nav>
+    </div>
+    ${sekcjaPowiazan('W tym epizodzie', grupy, {})}
+  </aside>
 </div>`;
 }
 
