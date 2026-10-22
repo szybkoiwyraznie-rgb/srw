@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-22 15:29
+
+- Strona [[seishiro|Seishira]] deklaruje teraz także japońskojęzyczne źródło użyte przy oryginalnym zapisie jego nazwiska, a test integralności pilnuje zgodności linków w blokach źródłowych z polem `zrodla`.
+
 ## 2026-10-22 15:26
 
 - [[srw-oe-ep0-na-ratunek-white-base|Scena 0-2]] i tabela [[srw-oe-ep0|Epizodu 0]] rozdzielają teraz materiał z dwóch początkowych odcinków [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]]: prolog i pierwszy pilotaż Gundama z „Gundam Rising” oraz rannego kapitana, prowizoryczną załogę i starcie z Charem z „Destroy Gundam”.

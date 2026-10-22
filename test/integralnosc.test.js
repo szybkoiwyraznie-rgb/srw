@@ -65,3 +65,28 @@ test('każde źródło zadeklarowane w zrodla jest linkiem przy danych w treści
     }
   }
 });
+
+test('każdy link w bloku zrodlo jest zadeklarowany w zrodla', () => {
+  // Pilnujemy też kierunku odwrotnego: metadane nie mogą pomijać źródła
+  // faktycznie użytego przy danych. Wystarczy sprawdzić początek każdego URL-a,
+  // dzięki czemu ścieżki zawierające nawiasy nie wymagają osobnego parsera Markdown.
+  const problemy = [];
+  for (const s of strony) {
+    const deklarowane = s.zrodla ?? [];
+    const bloki = s.body.match(/^\{\{zrodlo(?:\s+[^\n]*)?\n[\s\S]*?^\}\}$/gm) ?? [];
+    for (const blok of bloki) {
+      for (const m of blok.matchAll(/https?:\/\//g)) {
+        const zadeklarowane = deklarowane.some((url) => {
+          if (!blok.startsWith(url, m.index)) return false;
+          const nastepnyZnak = blok[m.index + url.length];
+          return nastepnyZnak === ')' || nastepnyZnak === undefined || /\s/.test(nastepnyZnak);
+        });
+        if (!zadeklarowane) {
+          const fragment = blok.slice(m.index, m.index + 80).split(/\s/)[0];
+          problemy.push(`${s.slug}: niezadeklarowane źródło ${fragment}`);
+        }
+      }
+    }
+  }
+  assert.deepEqual(problemy, []);
+});
