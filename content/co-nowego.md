@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-22 18:35
+
+- [[loum|Loum]] wiąże bitwę z dalszym ciągiem wojny: [[black-tri-stars|Black Tri-Stars]] przechwycili tam [[general-revil|generała Revila]], a nieudane odbicie generała poprzedziło rokowania zakończone [[traktat-antarktyczny|Traktatem Antarktycznym]].
+
 ## 2026-10-22 18:34
 
 - [[zolnierz-zeonu|Żołnierz Zeonu]] opisuje walki w drodze ku [[operacja-odessa|Odessie]] zamiast odsyłać do numerów misji, a [[h-bomb-missile|H-Bomb Missile]] jest opisany jako cel bez pilota i bez uzbrojenia.
