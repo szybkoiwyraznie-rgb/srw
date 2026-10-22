@@ -18,6 +18,20 @@ utworzono: 2026-10-22
 Ciężki [[mobile-suit|mobile suit]] do walki lądowej, w którym [[black-tri-stars|Black Tri-Stars]] wchodzą do akcji nad Azją Środkową. [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] przyprowadzają trzy takie maszyny na front [[operacja-odessa|operacji Odessa]].
 
 Heat Saber służy do walki na sąsiednim polu, a wielka bazooka sięga pięciu pól i dostaje premię przeciw okrętom. W walce zespół stawia na szybkość: [[gaia|Gaia]] liczy, że Domy zmylą przeciwnika prędkością i pozwolą szybko zakończyć starcie.
+}}
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Dom (Black Tri-Stars) — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dom.png)
+
+### Ilustracja 2
+
+![Dom (Black Tri-Stars) — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dom%202.png)
+}}
+{{menu gra=srw-oe
 
 ## Parametry
 
@@ -35,19 +49,6 @@ Maszyna nie ma własnych zdolności macierzystych. Nie wyklucza to efektów grup
 | ------: | -------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
 |       0 | Heat Saber     |       1900 |  1–2   |       +60 |   5 |      — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18%                                 |
 |       1 | Wielka bazooka |       3000 |  1–5   |       +20 |  10 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
-}}
-{{menu gra=srw-oe
-
-## Ilustracje
-
-### Ilustracja 1
-
-![Dom (Black Tri-Stars) — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dom.png)
-
-### Ilustracja 2
-
-![Dom (Black Tri-Stars) — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dom%202.png)
-
 }}
 
 {{zrodlo gra=wspolne

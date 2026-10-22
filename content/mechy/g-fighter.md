@@ -18,6 +18,16 @@ utworzono: 2026-10-22
 Ciężki myśliwiec wsparcia [[white-base|White Base]], zbudowany z dwóch modułów zwanych G-Parts. Wyrzutnia rakiet i działo wiązkowe pozwalają mu atakować cele naziemne, a zasobnik zaopatrzenia uzupełnia energię sojusznikom.
 
 W misji nad Azją Środkową [[sayla-mass|Sayla]] po raz pierwszy prowadzi go do walki. Sam przyznaje, że G-Fighter jest łatwym celem dla artylerii przeciwlotniczej, dlatego [[amuro-ray|Amuro]] każe najpierw oczyścić powietrze z [[dopp|Doppów]].
+}}
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![G-Fighter — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/G-Fighter.png)
+}}
+{{menu gra=srw-oe
 
 ## Parametry
 
@@ -46,15 +56,6 @@ Maszyna nie ma własnych zdolności macierzystych. Nie wyklucza to efektów grup
 |       1 | Działo wiązkowe  |       3200 |  3–6   |       +15 |  10 |      — | Brak w tym polu    | **Na kosmos (poziom bazowy 1):** Teren "Kos": Cel+30% Atk x1.1      |
 |         |                  |            |        |           |     |        |                    | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                |
 |       3 | Zaopatrzenie EN  |          0 |  1–2   |        +0 |   0 |      — | Brak w tym polu    | **Zaopatrz. (poziom bazowy 1):** Sojusznicy 1 jedn.: EN+50          |
-}}
-{{menu gra=srw-oe
-
-## Ilustracje
-
-### Ilustracja 1
-
-![G-Fighter — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/G-Fighter.png)
-
 }}
 
 {{zrodlo gra=wspolne

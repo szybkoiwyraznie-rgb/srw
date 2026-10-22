@@ -19,6 +19,16 @@ utworzono: 2026-10-22
 Komandor [[zeon|Zeonu]] odpowiedzialny za obronę [[operacja-odessa|Odessy]]. Przyjmuje posiłki od lady Kycilii — trzy [[dom|Domy]] [[black-tri-stars|Black Tri-Stars]] — ale najpierw chce rozbić siły na froncie generała Revila, a dopiero potem zająć się „koniem trojańskim”, czyli [[white-base|White Base]].
 
 Nie wierzy w [[newtype|Newtype'y]] i lekceważy ostrzeżenia [[gaia|Gai]], dopóki ten nie przypomni mu, że sam nie walczy. Po nieudanym starciu przyznaje, że przeciwnik wiedział, kiedy się wycofać, i zapowiada, że w zależności od przebiegu bitwy przyjdzie mu zagrać cenną kartą dyplomatyczną.
+}}
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![M'Quve — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/M'Quve.png)
+}}
+{{menu gra=srw-oe
 
 ## Parametry
 
@@ -35,15 +45,6 @@ Nie wierzy w [[newtype|Newtype'y]] i lekceważy ostrzeżenia [[gaia|Gai]], dopó
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
-}}
-{{menu gra=srw-oe
-
-## Ilustracje
-
-### Ilustracja 1
-
-![M'Quve — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/M'Quve.png)
-
 }}
 
 {{zrodlo gra=wspolne

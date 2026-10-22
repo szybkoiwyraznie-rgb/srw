@@ -64,9 +64,9 @@ W transportowcu wracającym na Stację Connect rozmawia z [[suol|szefem Suolem]]
 
 }}
 
-## Dane postaci
-
 {{zrodlo gra=srw-oe
+
+## Dane postaci
 
 - Japońskie imię i nazwisko: 草薙征士郎 ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend); sprawdzono 2026-10-19).
 - Wiek: 22 lata. Głos w wersji japońskiej: Go Shinomiya ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-19).

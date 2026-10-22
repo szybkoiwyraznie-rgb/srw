@@ -17,6 +17,16 @@ utworzono: 2026-10-22
 Pilot [[guncannon|Guncannona]] na pokładzie [[white-base|White Base]]. Przed startem żartuje z pierwszego wylotu [[sayla-mass|Sayli]] i blokuje kolejkę do katapulty, za co strofuje go [[hayato-kobayashi|Hayato]].
 
 W walce z [[black-tri-stars|Black Tri-Stars]] pierwszy zauważa tempo [[dom|Domów]] i pyta, jak ma je zatrzymać. Narzeka na przeglądy po walce, ale gdy trzeba osłonić okręt przed samolotami, zgłasza gotowość.
+}}
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Kai Shiden — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kai%20Shiden.png)
+}}
+{{menu gra=srw-oe
 
 ## Parametry
 
@@ -41,14 +51,4 @@ W walce z [[black-tri-stars|Black Tri-Stars]] pierwszy zauważa tempo [[dom|Dom�
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
-}}
-
-{{menu gra=srw-oe
-
-## Ilustracje
-
-### Ilustracja 1
-
-![Kai Shiden — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kai%20Shiden.png)
-
 }}

@@ -113,7 +113,13 @@ test('profile pilotów misji 2: statystyki, komendy Ducha i umiejętności', () 
   };
   for (const [slug, [sp, atk, obr, cel, unik]] of Object.entries(statystyki)) {
     const body = bySlug.get(slug).body;
-    assert.match(body, /\{\{skrypt gra=srw-oe\n\n## (?:Opis[\s\S]*?)## Parametry/, `${slug}: parametry`);
+    const iOpis = body.indexOf('## Opis');
+    const iIlustracje = body.indexOf('## Ilustracje');
+    const iParametry = body.indexOf('## Parametry');
+    assert.ok(iOpis < iIlustracje && iIlustracje < iParametry,
+      `${slug}: kolejność opis → ilustracje → parametry`);
+    assert.match(body, /\{\{skrypt gra=srw-oe\n\n## Opis[\s\S]*?\n\}\}\n\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: opis i ilustracje w osobnych boksach`);
+    assert.match(body, /\{\{menu gra=srw-oe\n\n## Parametry/, `${slug}: parametry w boksie menu`);
     for (const [nazwa, wartosc] of [['SP', sp], ['Atak', atk], ['Obrona', obr], ['Celność', cel], ['Unik', unik]]) {
       assert.match(body, new RegExp(`\\| ${nazwa} \\| ${wartosc} \\|`), `${slug}: ${nazwa}`);
     }

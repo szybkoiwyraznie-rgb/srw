@@ -54,9 +54,9 @@ W drodze powrotnej marznie w transportowcu i narzeka na zimno; [[seishiro|Seishi
 
 }}
 
-## Dane postaci
-
 {{zrodlo gra=srw-oe
+
+## Dane postaci
 
 - Wiek: 18 lat. Głos w wersji japońskiej: Kana Asumi ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-19).
 - Projekt postaci: 加藤誠. Himari jest bohaterką gry ([srw.wiki.cre.jp, „八重垣ひまり”](https://srw.wiki.cre.jp/wiki/%E5%85%AB%E9%87%8D%E5%9E%A3%E3%81%B2%E3%81%BE%E3%82%8A); sprawdzono 2026-10-19).

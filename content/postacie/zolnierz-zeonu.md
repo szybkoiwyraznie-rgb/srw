@@ -18,8 +18,11 @@ Szeregowy żołnierz Księstwa [[zeon|Zeonu]], który siada za sterami masowo pr
 Jego siłą nie jest indywidualne wyszkolenie, lecz szyk. Żołnierze tego samego typu walczą w grupach, a wytrzymałość grupy jest sumą wytrzymałości jej maszyn.
 
 Nie każdą z tych maszyn prowadzi bezimienny żołnierz: podczas ataku na [[white-base|White Base]] [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]] prowadzi [[slender|Slender]], a [[zaku-ii-bazooka|wersję z bazooką]] — [[crown|Crown]]. W [[srw-oe-ep1-black-tri-stars|scenie „Black Tri-Stars”]] obsadza Doppy i wieżyczki broniące bazy, podczas gdy [[black-tri-stars|Black Tri-Stars]] walczą w [[dom|Domach]].
+}}
+{{menu gra=srw-oe
 
 ## Parametry
+
 
 | Parametr | Wartość bazowa |
 |---|---:|
@@ -34,5 +37,5 @@ Nie każdą z tych maszyn prowadzi bezimienny żołnierz: podczas ataku na [[whi
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Szeregowy** | 1 | Zbiorcza z tą samą jedn.; wsparcie w grupie / HP = suma grupy |
-
 }}
+

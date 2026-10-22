@@ -20,13 +20,6 @@ Brocken to jednostka z serii [[mobile-police-patlabor|Mobile Police Patlabor]], 
 
 W [[prolog-i-trening-w-connect|szkoleniu podstawowym]] Connect trzy Brockeny sterowane przez [[control-ai|Control AI]] występują jako symulowani przeciwnicy [[exart|Exarta]].
 }}
-## Pochodzenie
-
-{{zrodlo gra=wspolne
-
-Brocken (Type-7B) to wojskowy Labor opracowany przez Schaft Enterprises Europe dla armii RFN i NATO. W 1998 roku powstał wariant Type-7B/2B, ceniony za siłę i opancerzenie ([Patlabor Wiki, „Military labor type 7B Brocken”](https://patlabor.fandom.com/wiki/Military_labor_type_7B_%22Brocken%22); sprawdzono 2026-10-19).
-}}
-
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -54,4 +47,11 @@ Brocken (Type-7B) to wojskowy Labor opracowany przez Schaft Enterprises Europe d
 | Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
 |---:|---|---:|:---:|---:|---:|---:|---|---|
 | 0 | Szarża | 1100 | 1–2 | +60 | 0 | — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia |
+}}
+
+{{zrodlo gra=wspolne
+
+## Pochodzenie
+
+Brocken (Type-7B) to wojskowy Labor opracowany przez Schaft Enterprises Europe dla armii RFN i NATO. W 1998 roku powstał wariant Type-7B/2B, ceniony za siłę i opancerzenie ([Patlabor Wiki, „Military labor type 7B Brocken”](https://patlabor.fandom.com/wiki/Military_labor_type_7B_%22Brocken%22); sprawdzono 2026-10-19).
 }}

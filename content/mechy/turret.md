@@ -17,6 +17,16 @@ utworzono: 2026-10-22
 Uniwersalna wieżyczka obronna: stała bateria ogniowa, którą ustawia się w umocnieniach i bazach. Nie zmienia pozycji, więc nie może uniknąć trafienia; ogień prowadzi z dystansu, a jej działo sięga także okrętów.
 
 Obsługują ją szeregowi [[zolnierz-zeonu|żołnierze Zeonu]]. W misji nad Azją Środkową baterie wieżyczek biorą udział w ostrzale [[white-base|White Base]] — [[bright-noa|Bright]] prosi wtedy [[hayato-kobayashi|Hayato]], by [[guntank|Guntank]] zniszczył umocnienia.
+}}
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Turret (Wieżyczka uniwersalna) — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Turret.png)
+}}
+{{menu gra=srw-oe
 
 ## Parametry
 
@@ -32,14 +42,4 @@ Obsługują ją szeregowi [[zolnierz-zeonu|żołnierze Zeonu]]. W misji nad Azj�
 | Miejsce | Nazwa   | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
 | ------: | ------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
 |       0 | Ostrzał |        900 |  3–8   |       +40 |   5 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
-}}
-
-{{menu gra=srw-oe
-
-## Ilustracje
-
-### Ilustracja 1
-
-![Turret (Wieżyczka uniwersalna) — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Turret.png)
-
 }}

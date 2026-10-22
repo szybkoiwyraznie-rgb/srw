@@ -139,6 +139,11 @@ Zasady:
 | scena | `## Treść sceny`, `## Analiza` | `## Źródła` |
 | epizod | `## Streszczenie` | `## Wątki anime`, `## Komentarz`, `## Źródła` (sekcja „Sceny" powstaje sama z wpisów scen) |
 
+Strony postaci i mechów mają ustaloną kolejność sekcji: `## Opis`, `## Ilustracje`,
+`## Parametry`. Każda z nich stoi we własnym bloku poziomu, więc na stronie widać trzy osobne
+boksy — galeria zawsze między opisem a parametrami. Strona bez ilustracji nie dostaje pustego
+boksy `## Ilustracje`.
+
 **Treść sceny** to dosłowny blok `:::skrypt … :::` z tekstem sceny. Build sprawdza, czy jest
 fragmentem skryptu epizodu (różnice w odstępach nie liczą się). Przeredagowana scena nie przechodzi.
 

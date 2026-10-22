@@ -18,6 +18,20 @@ utworzono: 2026-10-22
 [[mobile-suit|Mobile suit]] wsparcia [[white-base|White Base]], prowadzony przez [[kai-shiden|Kaia Shidena]]. Działko Vulcan i karabin wiązkowy pozwalają odpowiadać na bliskie zagrożenia, a działo 240 mm sięga celów za przeszkodami i wstrząsa trafionym wrogiem.
 
 W misji nad Azją Środkową startuje z pokładu razem z [[rx-78-2-gundam|Gundamem]] i [[guntank|Guntankiem]], gdy [[white-base|White Base]] przygotowuje się do opuszczenia strefy.
+}}
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Guncannon — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Guncannon.png)
+
+### Ilustracja 2
+
+![Guncannon — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Guncannon%202.png)
+}}
+{{menu gra=srw-oe
 
 ## Parametry
 
@@ -45,18 +59,4 @@ Maszyna nie ma własnych zdolności macierzystych. Nie wyklucza to efektów grup
 |       1 | Karabin wiązkowy |       2900 |  1–4   |       +20 |  10 |      — | Brak w tym polu    | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                      |
 |       2 | Działo 240 mm    |       3400 |  2–5   |        +5 |  20 |      — | Brak w tym polu    | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód                   |
 |         |                  |            |        |           |     |        |                    | **Wstrząs (poziom bazowy 1):** Obraż.600 1 tura: Obr wroga-20% Szansa 30% |
-}}
-
-{{menu gra=srw-oe
-
-## Ilustracje
-
-### Ilustracja 1
-
-![Guncannon — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Guncannon.png)
-
-### Ilustracja 2
-
-![Guncannon — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Guncannon%202.png)
-
 }}

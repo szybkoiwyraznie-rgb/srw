@@ -146,6 +146,23 @@ test('epizod: nawiązania są częścią boksy „Postacie i maszyny”, nie oso
   assert.match(html, /<h3>Nawiązania<\/h3>/, 'nawiązania jako podsekcja w boksie');
 });
 
+test('encje: opis, ilustracje i parametry w osobnych boksach, we właściwej kolejności', () => {
+  const encje = Object.values(globalThis.SRW_DATA.strony).filter((s) => s.typ === 'mech' || s.typ === 'postac');
+  assert.ok(encje.length > 40, 'baza ma encje obu typów');
+  for (const p of encje) {
+    const html = renderEncja(p.slug);
+    const kawalki = html.split('<div class="fragment');
+    const boks = (tytul) => kawalki.findIndex((k) => k.includes(`<h2>${tytul}</h2>`));
+    const [opis, ilustracje, parametry] = ['Opis', 'Ilustracje', 'Parametry'].map(boks);
+    assert.ok(opis >= 0, `${p.slug}: brak opisu`);
+    assert.notEqual(opis, parametry, `${p.slug}: opis i parametry nie dzielą boksy`);
+    if (ilustracje >= 0 && parametry >= 0) {
+      assert.ok(opis < ilustracje && ilustracje < parametry,
+        `${p.slug}: kolejność opis → ilustracje → parametry`);
+    }
+  }
+});
+
 test('arkusz stylów: 3/4 + 1/4, brak pustego pasa nad stopką', () => {
   const uklad = css.match(/\.uklad-strona \{[^}]*\}/)[0];
   assert.match(uklad, /grid-template-columns:\s*minmax\(0,\s*3fr\)\s*minmax\(0,\s*1fr\)/);
