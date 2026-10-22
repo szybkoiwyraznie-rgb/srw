@@ -15,6 +15,7 @@ sekcje_analizy:
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Gundam_Rising
+  - https://gundam.fandom.com/wiki/Destroy_Gundam
 postacie: [seishiro, himari-yaegaki, suol, amuro-ray, char-aznable, bright-noa, mirai-yashima, sayla-mass, fraw-bow, paolo-cassius, oscar-dublin, marker, slender, crown]
 mechy: [exart, rx-78-2-gundam, zaku-ii, zaku-ii-karabin-maszynowy, zaku-ii-bazooka, zaku-ii-char, white-base]
 pojecia: [connect-force, earth-federation, universal-century, uc-0079, zeon, side-3, side-7, luna-ii, loum, minovsky-particles, mobile-suit, stacja-connect]
@@ -371,9 +372,11 @@ W hangarze Himari przeprasza za utratę łączności, a Seishiro zrzuca winę na
 
 ## Nawiązania do oryginalnych odcinków
 
-Wydarzenia z tej sceny — interludium o wojnie w U.C. 0079, atak [[char-aznable|Chara]] na [[white-base|White Base]] tuż po opuszczeniu [[side-7|Side 7]], ranny [[paolo-cassius|kapitan Paolo]] i pierwszy start [[amuro-ray|Amura]] w [[rx-78-2-gundam|Gundamie]] — nawiązują do **pierwszego odcinka** serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, zatytułowanego „Gundam Rising”.
+Wydarzenia z tej sceny łączą materiał z **pierwszego odcinka** serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, „Gundam Rising”, i z **drugiego odcinka**, „Destroy Gundam”. Interludium o wojnie w U.C. 0079 i pierwszy pilotaż [[rx-78-2-gundam|Gundama]] przez [[amuro-ray|Amura]] pochodzą z odcinka 1, natomiast ranny [[paolo-cassius|kapitan Paolo]], improwizowana załoga [[white-base|White Base]] i pojedynek z [[char-aznable|Charem]] odpowiadają odcinkowi 2.
 
-W oryginale Zaku [[char-aznable|Chara]] wdzierają się do kolonii [[side-7|Side 7]]; cywile szukają schronienia na pokładzie okrętu, a [[amuro-ray|Amuro]], dla którego to pierwszy raz w kokpicie, wsiada do [[rx-78-2-gundam|Gundama]] i startuje do walki. Gra zachowuje ten układ — ranny dowódca, improwizowane rozkazy [[bright-noa|Brighta]] i cywile pod opieką okrętu — i dokłada do niego [[connect-force|Connect]], którego w serialu nie ma. Inna jest też puenta starcia: w grze [[char-aznable|Char]] rozpoznaje [[exart|Exarta]] i wybiera odwrót, zamiast walczyć o zniszczenie okrętu ([Gundam Wiki, „Gundam Rising”](https://gundam.fandom.com/wiki/Gundam_Rising); sprawdzono 2026-10-22).
+W „Gundam Rising” Zaku wdzierają się do kolonii [[side-7|Side 7]], a [[amuro-ray|Amuro]], dla którego to pierwszy raz w kokpicie, uruchamia [[rx-78-2-gundam|Gundama]] i podejmuje walkę ([Gundam Wiki, „Gundam Rising”](https://gundam.fandom.com/wiki/Gundam_Rising); sprawdzono 2026-10-22).
+
+W „Destroy Gundam” pociski okrętu [[char-aznable|Chara]] ranią [[paolo-cassius|Paolo]], [[sayla-mass|Sayla]] pomaga kapitanowi, cywile chronią się na [[white-base|White Base]], a [[bright-noa|Bright]] i pozostali niedoświadczeni członkowie załogi obejmują nowe stanowiska. Potem Char w czerwonym Zaku po raz pierwszy walczy bezpośrednio z Gundamem i wycofuje się. Gra łączy te wydarzenia w jedną potyczkę, dodaje odsiecz [[connect-force|Connect]] i kończy starcie odwrotem wszystkich trzech Zaku ([Gundam Wiki, „Destroy Gundam”](https://gundam.fandom.com/wiki/Destroy_Gundam); sprawdzono 2026-10-22).
 
 }}
 

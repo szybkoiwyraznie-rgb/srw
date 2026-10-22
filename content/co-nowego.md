@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-22 15:26
+
+- [[srw-oe-ep0-na-ratunek-white-base|Scena 0-2]] i tabela [[srw-oe-ep0|Epizodu 0]] rozdzielają teraz materiał z dwóch początkowych odcinków [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]]: prolog i pierwszy pilotaż Gundama z „Gundam Rising” oraz rannego kapitana, prowizoryczną załogę i starcie z Charem z „Destroy Gundam”.
+
 ## 2026-10-22 15:20
 
 - [[turret|Turret]] jest teraz poprawnie opisany jako niepilotowana, nieruchoma bateria: [[zolnierz-zeonu|Żołnierze Zeonu]] pilotują Doppy i [[zaku-ii|dwa Zaku II]], a wieżyczki jedynie obsługują.
@@ -14,7 +18,7 @@
 
 ## 2026-10-22 12:20
 
-- Sceny bazy odsyłają teraz wprost do oryginalnych odcinków: [[srw-oe-ep1-szalejacy-prototyp-labora|scena 1-1]] do piątego odcinka serialu [[mobile-police-patlabor|*Mobile Police Patlabor: On Television*]], a [[srw-oe-ep1-black-tri-stars|scena 1-2]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] do dwudziestego czwartego i pierwszego odcinka [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
+- Sceny bazy odsyłają teraz wprost do oryginalnych odcinków: [[srw-oe-ep1-szalejacy-prototyp-labora|scena 1-1]] do piątego odcinka serialu [[mobile-police-patlabor|*Mobile Police Patlabor: On Television*]], a [[srw-oe-ep1-black-tri-stars|scena 1-2]] do dwudziestego czwartego odcinka [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]]. [[srw-oe-ep0-na-ratunek-white-base|Scena 0-2]] łączy materiał z pierwszego i drugiego odcinka tej serii.
 - Każdy taki blok mówi, co gra zachowuje, a co zmienia względem oryginału, i podaje źródło odcinka.
 
 ## 2026-10-22 10:15
