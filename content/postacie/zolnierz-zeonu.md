@@ -13,9 +13,9 @@ utworzono: 2026-10-22
 
 ## Opis
 
-Zbiorcze określenie szeregowych żołnierzy Księstwa [[zeon|Zeonu]], którzy pilotują [[dom-zolnierz-zeonu|Domy]], myśliwce [[dopp|Dopp]] oraz [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]]. W [[srw-oe-ep1-black-tri-stars|scenie „Black Tri-Stars”]] bronią bazy obok trzech [[dom|Domów]]. Obsługują też baterie [[turret|Turret]], ale nieruchome wieżyczki nie są pilotowanymi maszynami.
+Zbiorcze określenie szeregowych żołnierzy Księstwa [[zeon|Zeonu]], którzy pilotują [[dom-zolnierz-zeonu|Domy]], myśliwce [[dopp|Dopp]] oraz [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]]. Bronią baz Zeonu w drodze ku [[operacja-odessa|Odessie]], gdzie stają obok trzech [[dom|Domów]] [[black-tri-stars|Black Tri-Stars]]. Obsługują też baterie [[turret|Turret]], ale nieruchome wieżyczki nie są pilotowanymi maszynami.
 
-W ataku na [[white-base|White Base]] z Epizodu 0 dwa Zaku II mają nazwanych pilotów: maszynę z karabinem prowadzi [[slender|Slender]], a wersję z bazooką — [[crown|Crown]].
+W walkach z [[white-base|White Base]] dwa Zaku II prowadzą nazwani piloci: maszynę z karabinem [[slender|Slender]], a wersję z bazooką [[crown|Crown]].
 
 Umiejętność „Szeregowy” pozwala żołnierzom tego samego typu walczyć w grupie, której wytrzymałość jest sumą wytrzymałości maszyn.
 }}

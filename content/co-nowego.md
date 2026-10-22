@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-22 18:34
+
+- [[zolnierz-zeonu|Żołnierz Zeonu]] opisuje walki w drodze ku [[operacja-odessa|Odessie]] zamiast odsyłać do numerów misji, a [[h-bomb-missile|H-Bomb Missile]] jest opisany jako cel bez pilota i bez uzbrojenia.
+
 ## 2026-10-22 18:32
 
 - [[general-revil|Generał Revil]] zyskuje przeszłość: w [[loum|bitwie pod Loum]] dostał się do niewoli, a jego kapsułę ratunkową przechwycili [[black-tri-stars|Black Tri-Stars]]; po odbiciu skłonił Federację do odrzucenia narzuconego pokoju.
