@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-22 12:20
+
+- Sceny bazy odsyłają teraz wprost do oryginalnych odcinków: [[srw-oe-ep1-szalejacy-prototyp-labora|scena 1-1]] do piątego odcinka serialu [[mobile-police-patlabor|*Mobile Police Patlabor: On Television*]], a [[srw-oe-ep1-black-tri-stars|scena 1-2]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] do dwudziestego czwartego i pierwszego odcinka [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
+- Każdy taki blok mówi, co gra zachowuje, a co zmienia względem oryginału, i podaje źródło odcinka.
+
 ## 2026-10-22 10:15
 
 - Portrety obsady [[srw-oe-ep1-black-tri-stars|misji „Black Tri-Stars”]]: [[gaia|Gaia]], [[ortega|Ortega]], [[mash|Mash]], [[mquve|M'Quve]], [[kai-shiden|Kai Shiden]] i [[hayato-kobayashi|Hayato Kobayashi]] mają ilustracje na stronach.

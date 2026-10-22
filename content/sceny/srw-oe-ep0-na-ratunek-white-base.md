@@ -6,6 +6,8 @@ epizod: srw-oe-ep0
 numer_sceny: "0-2"
 streszczenie: Interludium o wojnie w U.C. 0079; Connect wysyła Seishiro na pomoc White Base, walka z Charem i odwrót, rozmowa w hangarze o neutralności organizacji.
 pochodzenie: skrypt
+zrodla:
+  - https://gundam.fandom.com/wiki/Gundam_Rising
 postacie: [seishiro, himari-yaegaki, suol, amuro-ray, char-aznable, bright-noa, mirai-yashima, sayla-mass, fraw-bow, paolo-cassius, oscar-dublin, marker, slender, crown]
 mechy: [exart, rx-78-2-gundam, zaku-ii, zaku-ii-karabin-maszynowy, zaku-ii-bazooka, zaku-ii-char, white-base]
 pojecia: [connect-force, earth-federation, universal-century, uc-0079, zeon, side-3, side-7, luna-ii, loum, minovsky-particles]
@@ -339,6 +341,20 @@ W salonie [[himari-yaegaki|Himari]] pyta, czy organizacja powinna wesprzeć [[ea
 Na [[white-base|White Base]] [[paolo-cassius|kapitan Paolo]] jest ranny — opatruje go [[sayla-mass|Sayla Mass]] — a dowodzenie faktycznie przejmuje [[bright-noa|Bright]]; Paolo wspomina o bitwie o [[loum|Loum]], w której [[char-aznable|Char]] zniszczył pięć pancerników. Z mostka [[marker|Marker]] melduje zbliżający się obiekt, a [[oscar-dublin|Oscar]] nie wierzy, że to Zaku. [[amuro-ray|Amuro]] startuje [[rx-78-2-gundam|Gundamem]] mimo braku doświadczenia; [[char-aznable|Char]] atakuje w swoim [[zaku-ii-char|Zaku II]], a w dwóch pozostałych Zaku lecą [[slender|Slender]] i [[crown|Crown]] — prędkość maszyn zaskakuje załogę. Rozproszone [[minovsky-particles|cząstki Minovsky’ego]] odcinają łączność: [[himari-yaegaki|Himari]] nie może prowadzić Seishira, więc ten działa samodzielnie.
 
 Char rozpoznaje maszynę Connect i wybiera odwrót zamiast walki o zestrzelenie. Jego decyzja, podobnie jak rozmowa w hangarze, pokazuje, że obie strony oceniają wojnę chłodno, a nie wyłącznie przez pryzmat propagandy.
+
+}}
+
+{{zrodlo gra=wspolne
+
+## Nawiązania do oryginalnych odcinków
+
+Wydarzenia z tej sceny — interludium o wojnie w U.C. 0079, atak [[char-aznable|Chara]] na [[white-base|White Base]] tuż po opuszczeniu [[side-7|Side 7]], ranny [[paolo-cassius|kapitan Paolo]] i pierwszy start [[amuro-ray|Amura]] w [[rx-78-2-gundam|Gundamie]] — nawiązują do **pierwszego odcinka** serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, zatytułowanego „Gundam Rising”.
+
+W oryginale Zaku [[char-aznable|Chara]] wdzierają się do kolonii [[side-7|Side 7]]; cywile szukają schronienia na pokładzie okrętu, a [[amuro-ray|Amuro]], dla którego to pierwszy raz w kokpicie, wsiada do [[rx-78-2-gundam|Gundama]] i startuje do walki. Gra zachowuje ten układ — ranny dowódca, improwizowane rozkazy [[bright-noa|Brighta]] i cywile pod opieką okrętu — i dokłada do niego [[connect-force|Connect]], którego w serialu nie ma. Inna jest też puenta starcia: w grze [[char-aznable|Char]] rozpoznaje [[exart|Exarta]] i wybiera odwrót, zamiast walczyć o zniszczenie okrętu ([Gundam Wiki, „Gundam Rising”](https://gundam.fandom.com/wiki/Gundam_Rising); sprawdzono 2026-10-22).
+
+}}
+
+{{skrypt gra=srw-oe
 
 ## Wątki w scenie
 

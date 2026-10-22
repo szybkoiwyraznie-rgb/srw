@@ -82,6 +82,9 @@ Szczegółowa lista kroków: `docs/guides/PRZEPLYW_EPIZODU.md`.
    Dla każdego małego kroku:
    - wybierz konkretną lukę lub błąd, zaczynając od ustaleń audytu, i dopisz cel do planu PR;
    - sprawdź materiał i granicę fabuły; kwerenda nie uprawnia do spoilerów;
+   - w scenach zapisz nawiązania do konkretnych odcinków lub rozdziałów oryginału w osobnym bloku
+     `## Nawiązania do oryginalnych odcinków` — tylko tam, gdzie takie nawiązania występują
+     (`docs/guides/PRZEPLYW_EPIZODU.md` §1a);
    - uzupełnij wpisy i relacje: sprawdzone źródła w `{{zrodlo ... }}`, pamięć modelu
      w `{{wiedza ... }}` bez linków; dostawa pozostaje nadrzędna i niezmieniona;
    - nowe encje zakładaj **tylko wtedy, gdy występują wprost w istniejącej dostawie**

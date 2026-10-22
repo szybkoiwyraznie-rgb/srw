@@ -6,6 +6,8 @@ epizod: srw-oe-ep1
 numer_sceny: "1-2"
 streszczenie: "Druga misja epizodu 1: powrót Connect z Japonii, odprawa M'Quve'a z Black Tri-Stars, start White Base i walka z trzema Domami, które wycofują się po nieudanym ataku."
 pochodzenie: skrypt
+zrodla:
+  - https://gundam.fandom.com/wiki/Black_Tri-Star
 postacie: [seishiro, himari-yaegaki, suol, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve, zolnierz-zeonu]
 mechy: [g-fighter, guncannon, rx-78-2-gundam, guntank, white-base, dom, dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
 pojecia: [black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, connect-force, minovsky-particles]
@@ -399,6 +401,20 @@ Podczas starcia padają kwestie zależne od sytuacji: [[amuro-ray|Amuro]] przyzn
 [[bright-noa|Bright]] pyta o identyfikację przeciwnika. [[oscar-dublin|Oscar]] potwierdza, że dane z Jaburo wskazują na [[black-tri-stars|Black Tri-Stars]], a [[marker|Marker]] dodaje, że to weterani, którzy wzięli do niewoli nawet generała Revila.
 
 [[mirai-yashima|Mirai]] uważa, że przeciwnik nie wróci w trakcie [[operacja-odessa|operacji Odessa]], i prosi [[bright-noa|Brighta]], by załoga bardziej wierzyła w siebie. Bright przyznaje jej rację i zauważa, że siły okrętu rosną.
+
+}}
+
+{{zrodlo gra=wspolne
+
+## Nawiązania do oryginalnych odcinków
+
+Wydarzenia z tej sceny — odprawa u [[mquve|M'Quve'a]], przekazanie trzech nowych [[dom|Domów]] i nocne natarcie [[black-tri-stars|Black Tri-Stars]] na [[white-base|White Base]] w drodze ku [[operacja-odessa|Odessie]] — nawiązują do **dwudziestego czwartego odcinka** serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, zatytułowanego „Black Tri-Star”.
+
+W oryginale trójka przybywa na front na pokładzie okrętu kosmicznego i odbiera [[dom|Domy]] z rąk [[mquve|M'Quve'a]], po czym zapowiada pokonanie białego mobile suita Federacji; do nocnego starcia dochodzi w czasie przygotowań do [[operacja-odessa|operacji Odessa]]. Gra przenosi odprawę do bazy Zeonu na froncie i zmienia cel: zespół ma zatrzymać „konia trojańskiego”, zanim ten dotrze do wschodniej kopalni. Wspólny pozostaje motyw sławy — [[mash|Mash]] pyta o Krzyż Zeonu, a [[gaia|Gaia]] przypomina, że liczy się wykonanie zadania, nie odznaczenie ([Gundam Wiki, „Black Tri-Star”](https://gundam.fandom.com/wiki/Black_Tri-Star); sprawdzono 2026-10-22).
+
+}}
+
+{{skrypt gra=srw-oe
 
 ## Wątki w scenie
 

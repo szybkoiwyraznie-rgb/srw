@@ -23,6 +23,22 @@ Najpierw sceny, bo są nośnikiem treści: `content/sceny/<slug-epizodu>-<tytul-
 pliku na scenę skryptu. Treść sceny to dosłowny fragment skryptu w bloku `:::skrypt`, a `## Analiza`
 opisuje wątki i nawiązania. Numer sceny przepisz tak, jak podaje skrypt (numeracja zależy od gry).
 
+### Nawiązania do oryginalnych odcinków
+
+Częścią sceny jest osobny blok `## Nawiązania do oryginalnych odcinków`, umieszczony po `## Analiza`
+i przed `## Wątki w scenie` (blok `{{zrodlo gra=wspolne ... }}`). Ma on powiedzieć wprost, do jakiego
+odcinka serialu albo rozdziału mangi prowadzi scena:
+
+- zacznij od zdania wiążącego konkretne wydarzenia ze sceny z odcinkiem: „Wydarzenia z tej sceny —
+  … — nawiązują do **piątego odcinka** serialu …";
+- podaj numer i tytuł odcinka oraz tytuł utworu; przy pracy zbiorczej — numer rozdziału;
+- dopisz, co gra zachowuje, a co zmienia względem oryginału.
+
+Blok powstaje **tylko wtedy, gdy nawiązanie rzeczywiście występuje** — scena bez odniesień do
+konkretnych odcinków go nie dostaje. Każdy podany adres trafia do `zrodla` we frontmatterze tylko po
+otwarciu strony (ADR 0009), a opisana sytuacja z oryginału nie może wyprzedzać materiału rozegranego
+w grze (ADR 0012).
+
 ## 2. Wpis epizodu (agregacja scen)
 
 `content/epizody/<gra>-ep<NNN>.md` — frontmatter: `gra`, `numer`, `rozegrano` (data rozegrania,
