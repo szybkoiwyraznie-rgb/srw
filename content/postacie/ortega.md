@@ -34,3 +34,13 @@ Po walce narzeka na odwrót, ale przyznaje, że porażka boli, i zapowiada rewan
 |---:|---|---:|---|
 | 1 | **Potenc. Obr** | 1 | Pozostałe HP 10%: Obr+5% Cel/Unik/Kryt+4% |
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Ortega — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Ortega.png)
+
+}}

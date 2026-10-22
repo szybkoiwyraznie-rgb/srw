@@ -34,3 +34,13 @@ Kiedy [[gaia|Gaia]] zarządza odwrót, Mash przypomina, że [[mquve|M'Quve]] bę
 |---:|---|---:|---|
 | 1 | **Potenc. Kryt** | 1 | Pozostałe HP 10%: Obr/Unik+4% Cel/Kryt+5% |
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Mash — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Mash.png)
+
+}}

@@ -148,7 +148,7 @@ test('wieżyczka uniwersalna i Żołnierz Zeonu mają własne strony z danymi do
   assert.match(zolnierz.body, /\[\[turret\|Turret\]\]/, 'Żołnierz: odsyłacz do wieżyczki');
 });
 
-test('sześć jednostek misji 2 ma galerie z dostawy ilustracji, pozostałe strony bez grafik', () => {
+test('jednostki i obsada misji 2 mają galerie z dostaw ilustracji, pozostałe strony bez grafik', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   const jednostki = {
     dom: ['Dom.png', 'Dom 2.png'],
@@ -166,8 +166,23 @@ test('sześć jednostek misji 2 ma galerie z dostawy ilustracji, pozostałe stro
     assert.equal((body.match(/^!\[/gm) ?? []).length, pliki.length, `${slug}: liczba obrazów`);
     for (const plik of pliki) assert.ok(body.includes(adres(plik)), `${slug}: ${plik}`);
   }
-  const bezGrafik = ['kai-shiden', 'hayato-kobayashi', 'gaia', 'ortega', 'mash', 'mquve',
-    'zolnierz-zeonu', 'black-tri-stars', 'jet-stream-attack', 'operacja-odessa'];
+  const portrety = {
+    gaia: ['characters/Gaia.png'],
+    'hayato-kobayashi': ['characters/Hayato Kobayashi.png'],
+    'kai-shiden': ['characters/Kai Shiden.png'],
+    mquve: ["characters/M'Quve.png"],
+    mash: ['characters/Mash.png'],
+    ortega: ['characters/Ortega.png'],
+  };
+  for (const [slug, pliki] of Object.entries(portrety)) {
+    assert.deepEqual(manifest.encje[slug], pliki, `${slug}: wpis w manifeście`);
+    const body = bySlug.get(slug).body;
+    assert.match(body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria z zakresem gry`);
+    assert.equal((body.match(/^!\[/gm) ?? []).length, 1, `${slug}: jeden portret`);
+    assert.ok(body.includes(adres(pliki[0])), `${slug}: ${pliki[0]}`);
+    assert.ok(pliki[0].startsWith('characters/'), `${slug}: portret w characters/`);
+  }
+  const bezGrafik = ['zolnierz-zeonu', 'black-tri-stars', 'jet-stream-attack', 'operacja-odessa'];
   for (const slug of bezGrafik) {
     const strona = bySlug.get(slug);
     assert.doesNotMatch(strona.body, /r2\.dev/, `${slug}: brak ilustracji`);

@@ -34,3 +34,13 @@ Nie zgadza się z lekceważeniem „konia trojańskiego” i ostrzega, że [[whi
 |---:|---|---:|---|
 | 1 | **Potenc. Atk** | 1 | Pozostałe HP 10%: Obr/Unik+4% Atk/Kryt+5% |
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Gaia — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Gaia.png)
+
+}}

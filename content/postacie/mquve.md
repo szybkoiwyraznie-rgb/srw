@@ -36,6 +36,16 @@ Nie wierzy w Newtype'y i lekceważy ostrzeżenia [[gaia|Gai]], dopóki ten nie p
 |---:|---|---:|---|
 | 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
 }}
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![M'Quve — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/M'Quve.png)
+
+}}
+
 {{zrodlo gra=wspolne
 
 M'Quve to oficer Księstwa [[zeon|Zeonu]] z *Mobile Suit Gundam*, dowodzący wydobyciem surowców na terenach okupowanych i podległy Kycilii Zabi. Był skutecznym politykiem, ale krytykowano go za brak zrozumienia żołnierzy na froncie ([Gundam Wiki, „M'Quve”](https://gundam.fandom.com/wiki/M%27Quve); sprawdzono 2026-10-22).

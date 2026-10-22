@@ -42,3 +42,13 @@ W walce z [[black-tri-stars|Black Tri-Stars]] pierwszy zauważa tempo [[dom|Dom�
 |---:|---|---:|---|
 | 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Kai Shiden — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kai%20Shiden.png)
+
+}}

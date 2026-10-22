@@ -253,11 +253,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 60 plików przy 44 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 66 plików przy 50 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 44);
-  assert.equal(Object.values(manifest.encje).flat().length, 60);
+  assert.equal(Object.keys(manifest.encje).length, 50);
+  assert.equal(Object.values(manifest.encje).flat().length, 66);
   // Dostawa ilustracji jednostek misji 2 (2026-10-22): sześć maszyn, dziewięć plików.
   assert.deepEqual(manifest.encje.dom, ['Dom.png', 'Dom 2.png']);
   assert.deepEqual(manifest.encje.dopp, ['Dopp.png']);
@@ -265,6 +265,13 @@ test('ilustracje właściciela: 60 plików przy 44 encjach, w tym postacie bez d
   assert.deepEqual(manifest.encje.guncannon, ['Guncannon.png', 'Guncannon 2.png']);
   assert.deepEqual(manifest.encje.guntank, ['Guntank.png', 'Guntank 2.png']);
   assert.deepEqual(manifest.encje.turret, ['Turret.png']);
+  // Portrety obsady misji 2 (2026-10-22): sześć postaci, sześć plików w characters/.
+  assert.deepEqual(manifest.encje.gaia, ['characters/Gaia.png']);
+  assert.deepEqual(manifest.encje['hayato-kobayashi'], ['characters/Hayato Kobayashi.png']);
+  assert.deepEqual(manifest.encje['kai-shiden'], ['characters/Kai Shiden.png']);
+  assert.deepEqual(manifest.encje.mquve, ["characters/M'Quve.png"]);
+  assert.deepEqual(manifest.encje.mash, ['characters/Mash.png']);
+  assert.deepEqual(manifest.encje.ortega, ['characters/Ortega.png']);
   assert.deepEqual(manifest.nieprzypisane, []);
   const adres = file => `${manifest.baseUrl}/${file.split('/').map(encodeURIComponent).join('/')}`;
   for (const [slug, files] of Object.entries(manifest.encje)) {

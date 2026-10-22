@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-22 10:15
+
+- Portrety obsady [[srw-oe-ep1-black-tri-stars|misji „Black Tri-Stars”]]: [[gaia|Gaia]], [[ortega|Ortega]], [[mash|Mash]], [[mquve|M'Quve]], [[kai-shiden|Kai Shiden]] i [[hayato-kobayashi|Hayato Kobayashi]] mają ilustracje na stronach.
+
 ## 2026-10-22 09:30
 
 - Ilustracje jednostek z [[srw-oe-ep1-black-tri-stars|misji „Black Tri-Stars”]]: [[dom|Dom (Black Tri-Stars)]], [[guncannon|Guncannon]] i [[guntank|Guntank]] mają po dwie, a [[dopp|Dopp]], [[g-fighter|G-Fighter]] i [[turret|Turret]] po jednej.
