@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-22 18:38
+
+- [[isao-ota|Isao Ota]] ma pełniejszy opis: przeniesienie do [[sv2|SV2]], charakter i osobiste zmiany w [[ingram-nr-2|Ingramie nr 2]].
+
 ## 2026-10-22 18:37
 
 - [[noa-izumi|Noa Izumi]] ma pełniejszy opis: drogę do policji, egzamin do oddziału zmotoryzowanego i imię „Alphonse”, które nosi jej [[ingram-nr-1|Ingram nr 1]].
