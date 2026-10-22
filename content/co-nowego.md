@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-22 16:27
+
+- Strony scen zachowują teraz wszystkie dodatkowe i powtórzone sekcje. Powtarzające się tytuły są rozróżniane, a każda podsekcja analizy prowadzi do wskazanego miejsca treści.
+
 ## 2026-10-22 15:29
 
 - Oryginalny zapis imienia i nazwiska [[seishiro|Seishira]] ma teraz kompletne odwołanie do japońskojęzycznego źródła.

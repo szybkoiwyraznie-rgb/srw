@@ -12,7 +12,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { zbudujDane } from '../tools/build.mjs';
-import { podzielScene, zaplanujScene } from '../src/srw/scena-sekcje.js';
+import { renderMarkdown } from '../src/srw/markdown.js';
+import { podzielScene, zaplanujScene, kotwiceSekcji } from '../src/srw/scena-sekcje.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 globalThis.SRW_DATA = await zbudujDane({ root: ROOT });
@@ -78,15 +79,67 @@ test('scena: podsekcje treści mają własne nagłówki-kotwice', () => {
   }
 });
 
-test('scena bez mapy nie dostaje odsyłaczy z analizy', () => {
+test('scena z podsekcją analizy wymaga kompletnej mapy', () => {
   const ciało = `{{skrypt gra=srw-oe\n\n## Treść sceny\n\n### Alfa\n\ntekst\n\n## Analiza\n\n### Beta\n\nopis\n\n## Wątki w scenie\n\n- x\n}}\n`;
   const plan = zaplanujScene(podzielScene(ciało));
-  assert.equal(plan.problemy.length, 0);
-  assert.equal(plan.linkiAnalizy.size, 0, 'bez mapy nie ma odsyłaczy');
+  assert.equal(plan.problemy.length, 1);
+  assert.match(plan.problemy[0], /„Beta”.*nie ma mapowania/);
+  assert.equal(plan.linkiAnalizy.size, 0);
 
   const html = scena('srw-oe-ep1-szalejacy-prototyp-labora');
   assert.match(html, /id="sekcja-analiza"/, 'analiza jest w lewej kolumnie');
   assert.match(html, /id="sekcja-tresc"/);
+});
+
+test('powtórzone sekcje i tytuły analizy dostają odrębne kotwice', () => {
+  const ciało = `{{skrypt gra=srw-oe\n\n## Treść sceny\n\n### Etap\n\npierwszy\n\n## Treść sceny\n\n### Etap\n\ndrugi\n\n## Analiza\n\n### Powtórka\n\npierwsza\n\n## Analiza\n\n### Powtórka\n\ndruga\n}}\n`;
+  const czesci = podzielScene(ciało);
+  const plan = zaplanujScene(czesci, [
+    'Powtórka → Etap',
+    'Powtórka → Etap',
+  ]);
+  assert.deepEqual(plan.problemy, []);
+  assert.equal(plan.kotwiceAnalizy.size, 2, 'każde wystąpienie analizy ma własną kotwicę');
+  assert.equal(plan.linkiAnalizy.size, 2, 'każde wystąpienie analizy ma własny cel');
+  assert.equal(new Set(plan.kotwiceAnalizy.values()).size, 2, 'identyfikatory analizy są unikalne');
+  assert.equal(new Set(plan.linkiAnalizy.values()).size, 2, 'cele w treści są unikalne');
+
+  const stan = {};
+  const html = czesci.map((cz) => renderMarkdown(
+    `${cz.otwarcie}\n\n## ${cz.tytul}\n\n${cz.tresc}\n\n}}`,
+    { atrybutyNaglowka: kotwiceSekcji(cz.tytul, plan, { stan }) },
+  ).html).join('\n');
+  for (const id of ['analiza-powtorka', 'analiza-powtorka-2', 'tresc-etap', 'tresc-etap-2']) {
+    assert.equal((html.match(new RegExp(`id="${id}"`, 'g')) ?? []).length, 1, `${id}: dokładnie raz`);
+  }
+  assert.match(html, /data-cel="tresc-etap"/);
+  assert.match(html, /data-cel="tresc-etap-2"/);
+});
+
+test('scena zachowuje dodatkowe i powtórzone sekcje zamiast je nadpisywać', (t) => {
+  const strony = globalThis.SRW_DATA.strony;
+  const slug = 'srw-oe-ep1-black-tri-stars';
+  const oryginal = strony[slug];
+  strony[slug] = {
+    ...oryginal,
+    sekcje: [
+      { tytul: 'Treść sceny', html: '<h2>Treść sceny</h2><p>Treść główna</p>' },
+      { tytul: 'Analiza', html: '<h2>Analiza</h2><p>Analiza główna</p>' },
+      { tytul: 'Dodatkowe uwagi', html: '<h2>Dodatkowe uwagi</h2><p>Pierwsza uwaga</p>' },
+      { tytul: 'Dodatkowe uwagi', html: '<h2>Dodatkowe uwagi</h2><p>Druga uwaga</p>' },
+      { tytul: 'Wątki w scenie', html: '<h2>Wątki w scenie</h2><p>Wątek</p>' },
+    ],
+  };
+  t.after(() => { strony[slug] = oryginal; });
+
+  const html = scena(slug);
+  assert.match(html, /Pierwsza uwaga/);
+  assert.match(html, /Druga uwaga/);
+  assert.match(html, /id="sekcja-dodatkowe-uwagi"/);
+  assert.match(html, /id="sekcja-dodatkowe-uwagi-2"/);
+  const lewa = html.slice(html.indexOf('class="kolumna-glowna'), html.indexOf('class="kolumna-boczna"'));
+  assert.match(lewa, /Pierwsza uwaga/);
+  assert.match(lewa, /Druga uwaga/);
 });
 
 test('podział sceny: nagłówki wewnątrz bloku skryptu nie zaczynają sekcji', () => {
@@ -96,12 +149,17 @@ test('podział sceny: nagłówki wewnątrz bloku skryptu nie zaczynają sekcji',
   assert.deepEqual(sekcje, ['Treść sceny', 'Analiza', 'Nawiązania do oryginalnych odcinków', 'Wątki w scenie']);
 });
 
-test('plan kotwic zgłasza nieistniejącą podsekcję zamiast ją zgadywać', () => {
+test('plan kotwic zgłasza nieistniejący cel i nadmiar mapowań zamiast je zgadywać', () => {
   const ciało = `{{skrypt gra=srw-oe\n\n## Treść sceny\n\n### Alfa\n\ntekst\n\n## Analiza\n\n### Beta\n\nopis\n\n## Wątki w scenie\n\n- x\n}}\n`;
-  const plan = zaplanujScene(podzielScene(ciało), ['Beta → Gamma']);
-  assert.equal(plan.problemy.length, 1);
-  assert.match(plan.problemy[0], /nie jest podsekcją treści sceny/);
-  assert.equal(plan.linkiAnalizy.size, 0);
+  const czesci = podzielScene(ciało);
+  const zlyCel = zaplanujScene(czesci, ['Beta → Gamma']);
+  assert.equal(zlyCel.problemy.length, 1);
+  assert.match(zlyCel.problemy[0], /nie jest podsekcją treści sceny/);
+  assert.equal(zlyCel.linkiAnalizy.size, 0);
+
+  const nadmiar = zaplanujScene(czesci, ['Beta → Alfa', 'Beta → Alfa']);
+  assert.equal(nadmiar.problemy.length, 1);
+  assert.match(nadmiar.problemy[0], /wskazano częściej, niż występuje w analizie/);
 });
 
 test('encje i epizody mają ten sam układ dwukolumnowy', () => {

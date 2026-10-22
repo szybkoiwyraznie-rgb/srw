@@ -150,12 +150,16 @@ export async function zbudujDane({ root = ROOT } = {}) {
       const czesci = podzielScene(s.body);
       const plan = zaplanujScene(czesci, s.sekcje_analizy);
       for (const pr of plan.problemy) problemy.push(`${s.slug}: ${pr}`);
+      const stanKotwic = {};
       sekcje = czesci.map((cz) => {
         const zrodlo = `${cz.otwarcie ?? '{{skrypt'}\n\n## ${cz.tytul}\n\n${cz.tresc}\n\n}}`;
         const wynik = renderMarkdown(zrodlo, {
           resolveLink: resolver,
           wymagajPoziomu: true,
-          atrybutyNaglowka: kotwiceSekcji(cz.tytul, plan, { hrefStrony: `#/scena/${s.slug}` }),
+          atrybutyNaglowka: kotwiceSekcji(cz.tytul, plan, {
+            hrefStrony: `#/scena/${s.slug}`,
+            stan: stanKotwic,
+          }),
         });
         for (const pr of wynik.problemy) problemy.push(`${s.slug} (${cz.tytul}): ${pr}`);
         return { tytul: cz.tytul, html: wynik.html };

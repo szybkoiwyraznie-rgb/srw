@@ -13,7 +13,7 @@
  */
 
 import { escapeHtml } from './markdown.js';
-import { hrefDlaSlug } from './links.js';
+import { hrefDlaSlug, slugify } from './links.js';
 import { dajStrone, dajDane } from './data.js';
 import { linkStrony, nieZnalesc, numerEpizodu } from './render.js';
 import { sortujSceny } from './registry.js';
@@ -41,16 +41,45 @@ export function renderScena(slug) {
   if ((s.mechy ?? []).length) infoPozycje.push(`<dt>Mechy</dt><dd>${linkiListy(s.mechy)}</dd>`);
   if ((s.pojecia ?? []).length) infoPozycje.push(`<dt>Hasła</dt><dd>${linkiListy(s.pojecia)}</dd>`);
 
-  const sek = new Map((s.sekcje ?? []).map((x) => [x.tytul, x.html]));
-  const boks = (tytul, id) => (sek.has(tytul)
-    ? `<section class="sekcja-strony" id="${id}">${sek.get(tytul)}</section>`
-    : '');
+  // Sekcje pozostają tablicą: mapa po tytule nadpisywałaby powtórki, a lista
+  // zamkniętych nazw ukrywałaby każdą nową sekcję dopisaną do sceny.
+  const bazoweId = {
+    Analiza: 'sekcja-analiza',
+    'Treść sceny': 'sekcja-tresc',
+    'Nawiązania do oryginalnych odcinków': 'sekcja-nawiazania',
+    'Wątki w scenie': 'sekcja-watki',
+  };
+  const uzyteId = new Map();
+  const sekcjeZrodlowe = Array.isArray(s.sekcje) ? s.sekcje : [];
+  const sekcje = sekcjeZrodlowe.map((x) => {
+    const baza = bazoweId[x.tytul] ?? `sekcja-${slugify(x.tytul) || 'bez-tytulu'}`;
+    const numer = (uzyteId.get(baza) ?? 0) + 1;
+    uzyteId.set(baza, numer);
+    return { ...x, id: numer === 1 ? baza : `${baza}-${numer}` };
+  });
+  const oTytule = (tytul) => sekcje.filter((x) => x.tytul === tytul);
+  const renderujSekcje = (lista) => lista
+    .map((x) => `<section class="sekcja-strony" id="${x.id}">${x.html ?? ''}</section>`)
+    .join('');
+
+  const glowneTytuly = new Set(['Analiza', 'Treść sceny']);
+  const boczneTytuly = new Set(['Nawiązania do oryginalnych odcinków', 'Wątki w scenie']);
+  const glowneSekcje = [
+    ...oTytule('Analiza'),
+    ...oTytule('Treść sceny'),
+    ...sekcje.filter((x) => !glowneTytuly.has(x.tytul) && !boczneTytuly.has(x.tytul)),
+  ];
+  const boczneSekcje = [
+    ...oTytule('Nawiązania do oryginalnych odcinków'),
+    ...oTytule('Wątki w scenie'),
+  ];
 
   // Strona bez podziału na sekcje (starsze dane) nie może zniknąć — pokazujemy
   // całą treść w kolumnie głównej.
-  const glowna = sek.size > 0
-    ? `${boks('Analiza', 'sekcja-analiza')}${boks('Treść sceny', 'sekcja-tresc')}`
-    : `<div class="tresc-encja">${s.html}</div>`;
+  const glowna = sekcje.length > 0
+    ? renderujSekcje(glowneSekcje)
+    : `<div class="tresc-encja">${s.html ?? ''}</div>`;
+  const boczna = renderujSekcje(boczneSekcje);
 
   return `
 <div class="naglowek-epizodu">
@@ -77,8 +106,7 @@ export function renderScena(slug) {
         ${nastepna ? `<a href="${hrefDlaSlug(nastepna.slug, 'scena')}">${escapeHtml(nastepna.numer_sceny)} ${escapeHtml(nastepna.tytul)} →</a>` : ''}
       </nav>
     </div>
-    ${boks('Nawiązania do oryginalnych odcinków', 'sekcja-nawiazania')}
-    ${boks('Wątki w scenie', 'sekcja-watki')}
+    ${boczna}
   </aside>
 </div>`;
 }
