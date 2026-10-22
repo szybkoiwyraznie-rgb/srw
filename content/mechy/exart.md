@@ -18,6 +18,8 @@ utworzono: 2026-10-17
 CF-00 Exart jest bronią [[connect-force|Connect Force]]. W [[prolog-i-trening-w-connect|szkoleniu podstawowym]] pilotuje go [[seishiro|Seishiro]], a [[himari-yaegaki|Himari]] prowadzi ćwiczenia i może przejąć zdalne sterowanie.
 
 Podczas wspólnych ćwiczeń na poligonie Fuji Himari leci z nim jako podpilot i w razie potrzeby przejmuje stery.
+
+Exart wszedł w atmosferę o własnych siłach, ale z grawitacji wyrwie się tylko z transportem. [[seishiro|Seishiro]] zauważa, że bez niego zespół byłby elastyczniejszy, i porównuje maszynę z japońskimi superrobotami.
 }}
 {{menu gra=srw-oe
 

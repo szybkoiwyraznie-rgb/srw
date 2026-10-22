@@ -63,11 +63,11 @@ test('epizod 1 istnieje, a skrypt jest archiwum rozegrania', () => {
   assert.match(scena.body, /### Stacja Connect \/ Okolice Ziemi/);
 });
 
-test('epizod 1 ma jedną scenę 1-1, a skrypt jest w niej podzielony na części', () => {
+test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () => {
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1');
-  assert.equal(sceny.length, 1, 'misja to jedna scena w bazie');
-  const scena = sceny[0];
-  assert.equal(scena.slug, 'srw-oe-ep1-szalejacy-prototyp-labora');
+  assert.equal(sceny.length, 2, 'epizod 1 ma dziś dwie sceny: 1-1 i 1-2');
+  const scena = sceny.find((s) => s.slug === 'srw-oe-ep1-szalejacy-prototyp-labora');
+  assert.ok(scena, 'scena 1-1 istnieje');
   assert.equal(scena.numer_sceny, '1-1');
   assert.equal(scena.tytul, 'Szalejący prototyp Labora');
   assert.match(scena.body, /## Treść sceny/);
@@ -90,12 +90,14 @@ test('epizod 1 ma jedną scenę 1-1, a skrypt jest w niej podzielony na części
 
   // Części sklejone w kolejności dają cały skrypt poza nagłówkiem pliku i kreską zamykającą.
   const odtworzone = czesci.map((c) => `${c.naglowek}\n\n${c.tekst}`).join('\n\n');
+  // Scena 1-1 obejmuje pierwszą misję; tekst drugiej misji zaczyna się pod osobnym nagłówkiem.
   const oczekiwane = script
     .replace(/^# Super Robot Wars OE — Epizod 1\n\n---\n\n## Ep\. 1: Szalejący prototyp Labora\n\n/, '')
+    .split('\n\n---\n\n## Black Tri-Stars')[0]
     .replace(/\n\n---\n?$/, '');
   assert.equal(odtworzone, oczekiwane);
   for (const czesc of czesci) assert.ok(script.includes(czesc.tekst), czesc.naglowek);
-  assert.equal(pages.filter((p) => p.typ === 'scena').length, 3, 'dwie sceny epizodu 0 i jedna epizodu 1');
+  assert.equal(pages.filter((p) => p.typ === 'scena').length, 4, 'dwie sceny epizodu 0 i dwie epizodu 1');
 });
 
 test('obsada epizodu i sceny obejmuje wszystkie postacie i jednostki z misji', () => {

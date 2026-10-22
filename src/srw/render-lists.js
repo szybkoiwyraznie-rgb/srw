@@ -9,7 +9,7 @@
  */
 
 import { escapeHtml } from './markdown.js';
-import { hrefDlaSlug, hrefFiltru, hrefListy } from './links.js';
+import { hrefDlaSlug, hrefListy } from './links.js';
 import { dajStrone, listaStron, listaPosortowana, listaEpizodow, listaFiltrowana, tagiMap, statystyki } from './data.js';
 import { nazwaTypu, numerEpizodu, stanPusty, odmiana } from './render.js';
 import { sortujSceny } from './registry.js';
@@ -23,9 +23,36 @@ const KAFEL_DOMYSLNY = 240;
 /** Pola, po których można filtrować galerie postaci i mechów. */
 const POLA_FILTRU = ['gra', 'epizod', 'scena', 'seria'];
 
+/** Klucze adresu, które lista przyjmuje. Reszta jest odrzucana, żeby widok
+ * nie przenosił w linkach przypadkowej treści (i żeby nie trafiła do HTML). */
+const KLUCZE_ADRESU = new Set([...POLA_FILTRU, 'rozmiar']);
+
+/** Tylko znane klucze i tylko tekstowe wartości — adres jest danymi wejściowymi. */
+function oczyscQuery(query) {
+  const q = {};
+  for (const [klucz, wartosc] of Object.entries(query ?? {})) {
+    if (!KLUCZE_ADRESU.has(klucz) || wartosc === undefined || wartosc === null) continue;
+    q[klucz] = String(wartosc);
+  }
+  return q;
+}
+
+/** Rozmiar kafelka z adresu: liczba całkowita w granicach suwaka. */
+function normalizujRozmiar(wartosc) {
+  const liczba = Math.round(Number(wartosc));
+  if (!Number.isFinite(liczba)) return String(KAFEL_DOMYSLNY);
+  return String(Math.min(KAFEL_MAX, Math.max(KAFEL_MIN, liczba)));
+}
+
+/** Wartość do atrybutu HTML. escapeHtml nie obejmuje apostrofu, a `data-query`
+ * jest w apostrofach — bez tego cudzysłów w adresie zamykał atrybut. */
+function escapeAtrybut(tekst) {
+  return escapeHtml(tekst).replace(/'/g, '&#39;');
+}
+
 export function renderListe(typ, query = {}) {
   // Filtry zależne nie mogą być aktywne bez swoich wymagań (np. Odcinek bez Gry).
-  const q = { ...query };
+  const q = oczyscQuery(query);
   if (q.epizod && !q.gra) delete q.epizod;
   if (q.scena && !q.epizod) delete q.scena;
 
@@ -41,9 +68,12 @@ export function renderListe(typ, query = {}) {
   }
 
   const filtr = wybierzFiltr(typ, q); // tylko do nagłówka (który źródło jest wybrane)
+  const filtrHtml = (typ === 'postac' || typ === 'mech') ? renderFiltryKrokowe(typ, q) : '';
 
   if (lista.length === 0) {
-    return naglowekListy(typ, filtr, 0) + stanPusty(
+    // Filtry zostają nad pustą listą: inaczej po wybraniu zestawu bez wyników
+    // nie da się już zmienić ustawienia inaczej niż przez „pokaż wszystkie”.
+    return naglowekListy(typ, filtr, 0) + filtrHtml + stanPusty(
       `Nic tu jeszcze nie ma${filtr ? ' dla tego filtra' : ''}.`,
       'Baza rośnie w tempie rozgrywki — kolejny epizod doda wpisy.',
     );
@@ -53,7 +83,6 @@ export function renderListe(typ, query = {}) {
     ? listaEpizodowHtml(lista)
     : typ === 'scena' ? listaSceneHtml(lista) : listaEncjiHtml(lista, typ);
 
-  const filtrHtml = (typ === 'postac' || typ === 'mech') ? renderFiltryKrokowe(typ, q) : '';
   return naglowekListy(typ, filtr, lista.length) + filtrHtml + html;
 }
 
@@ -267,7 +296,7 @@ function renderFiltryKrokowe(typ, query) {
   const wybraneEpizod = query.epizod || '';
   const wybraneScena = query.scena || '';
   const wybraneSeria = query.seria || '';
-  const rozmiar = query.rozmiar || String(KAFEL_DOMYSLNY);
+  const rozmiar = normalizujRozmiar(query.rozmiar);
 
   // Odcinki: tylko z wybranej gry (jeśli gra wybrana), w przeciwnym razie żadne.
   let epizody = wybraneGra ? listaFiltrowana('epizod', 'gra', wybraneGra) : [];
@@ -301,8 +330,8 @@ function renderFiltryKrokowe(typ, query) {
   const serieUnikalne = Array.from(new Map(serie.map((s) => [s.slug, s])).values())
     .sort((a, b) => String(a.tytul).localeCompare(String(b.tytul), 'pl'));
 
-  const q = { ...query };
-  const jsonQuery = JSON.stringify(q).replace(/"/g, '&quot;');
+  const q = { ...query, rozmiar };
+  const jsonQuery = escapeAtrybut(JSON.stringify(q));
 
   const scenaDisabled = !wybraneEpizod;
   const epizodDisabled = !wybraneGra;
@@ -317,14 +346,14 @@ function renderFiltryKrokowe(typ, query) {
     </div>
     <div class="filtr-grupa">
       <label class="filtr-etykieta">Odcinek</label>
-      <select class="filtr-select" name="epizod" onchange="srwZmienFiltr(this, 'epizod')${epizodDisabled ? ' disabled' : ''}">
+      <select class="filtr-select" name="epizod"${epizodDisabled ? ' disabled' : ''} onchange="srwZmienFiltr(this, 'epizod')">
         <option value="">wszystkie</option>
         ${epizody.map((e) => `<option value="${escapeHtml(e.slug)}"${e.slug === wybraneEpizod ? ' selected' : ''}>${escapeHtml(e.tytul)} (${numerEpizodu(e.numer)})</option>`).join('')}
       </select>
     </div>
     <div class="filtr-grupa">
       <label class="filtr-etykieta">Scena</label>
-      <select class="filtr-select" name="scena" onchange="srwZmienFiltr(this, 'scena')${scenaDisabled ? ' disabled' : ''}">
+      <select class="filtr-select" name="scena"${scenaDisabled ? ' disabled' : ''} onchange="srwZmienFiltr(this, 'scena')">
         <option value="">wszystkie</option>
         ${sceny.map((s) => `<option value="${escapeHtml(s.slug)}"${s.slug === wybraneScena ? ' selected' : ''}>${escapeHtml(s.numer_sceny)} — ${escapeHtml(s.tytul)}</option>`).join('')}
       </select>
@@ -350,7 +379,12 @@ function renderFiltryKrokowe(typ, query) {
 /** Kliknięcie selecta filtra: zmienia hash z zachowaniem pozostałych filtrów i resetem zależnych. */
 globalThis.srwZmienFiltr = function (select, pole) {
   const kontener = select.closest?.('.filtry-krokowe');
-  const q = kontener ? JSON.parse(kontener.dataset.query ?? '{}') : {};
+  let q = {};
+  try {
+    q = JSON.parse(kontener?.dataset?.query ?? '{}') ?? {};
+  } catch {
+    q = {}; // uszkodzony atrybut nie może zablokować filtrów
+  }
   if (select.value) q[pole] = select.value; else delete q[pole];
   if (pole === 'gra') { delete q.epizod; delete q.scena; }
   if (pole === 'epizod') { delete q.scena; if (!q.gra) delete q.epizod; }

@@ -24,6 +24,8 @@ W szkoleniu podstawowym prowadzi odprawę [[seishiro|Seishiro]], wyznacza cele, 
 Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 
 Na poligonie Fuji leci z [[seishiro|Seishirem]] w [[exart|Exarcie]] jako podpilot. Ćwiczenia z [[sv2|SV2]] i Siłami Samoobrony są jej pierwszym wylotem w terenie; musi też oswoić się z myślą, że w razie potrzeby sama przejmie stery.
+
+W drodze powrotnej marznie w transportowcu i narzeka na zimno; [[seishiro|Seishiro]] proponuje jej trening na maszynie, żeby się rozgrzała, a [[suol|szef Suol]] przypomina, że dbanie o zdrowie też jest obowiązkiem.
 }}
 {{menu gra=srw-oe
 
@@ -52,9 +54,9 @@ Na poligonie Fuji leci z [[seishiro|Seishirem]] w [[exart|Exarcie]] jako podpilo
 
 }}
 
-## Dane postaci
-
 {{zrodlo gra=srw-oe
+
+## Dane postaci
 
 - Wiek: 18 lat. Głos w wersji japońskiej: Kana Asumi ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-19).
 - Projekt postaci: 加藤誠. Himari jest bohaterką gry ([srw.wiki.cre.jp, „八重垣ひまり”](https://srw.wiki.cre.jp/wiki/%E5%85%AB%E9%87%8D%E5%9E%A3%E3%81%B2%E3%81%BE%E3%82%8A); sprawdzono 2026-10-19).

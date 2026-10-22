@@ -17,6 +17,8 @@ utworzono: 2026-10-20
 ## Opis
 
 Członkini załogi [[white-base|White Base]]. Melduje o starcie okrętu, a usłyszawszy od [[paolo-cassius|Paola]] o Czerwonej Komecie, powtarza z niedowierzaniem imię [[char-aznable|Chara]].
+
+Na mostku [[white-base|White Base]] melduje gotowość okrętu do startu. Po odejściu [[black-tri-stars|Black Tri-Stars]] uspokaja [[bright-noa|Brighta]]: uważa, że w trakcie [[operacja-odessa|operacji Odessa]] przeciwnik nie wróci, i prosi, by załoga bardziej w siebie wierzyła.
 }}
 {{menu gra=srw-oe
 

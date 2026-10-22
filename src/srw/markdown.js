@@ -43,7 +43,10 @@ export function parsujAtrybutyBloku(tekst) {
   return atrybuty;
 }
 
-export function renderMarkdown(md, { resolveLink, wymagajPoziomu = false, wPoziomie = null, wZagniezdzeniu = false } = {}) {
+export function renderMarkdown(md, {
+  resolveLink, wymagajPoziomu = false, wPoziomie = null, wZagniezdzeniu = false,
+  atrybutyNaglowka = null,
+} = {}) {
   const linie = String(md).replace(/\r\n/g, '\n').split('\n');
   const out = [];
   const problemy = [];
@@ -80,7 +83,7 @@ export function renderMarkdown(md, { resolveLink, wymagajPoziomu = false, wPozio
         problemy.push(`zagnieżdżony blok {{${poziom} — bloki poziomu nie mogą się zagnieżdżać`);
         continue;
       }
-      const wewn = renderMarkdown(buf.join('\n'), { resolveLink, wymagajPoziomu, wPoziomie: poziom, wZagniezdzeniu: true });
+      const wewn = renderMarkdown(buf.join('\n'), { resolveLink, wymagajPoziomu, wPoziomie: poziom, wZagniezdzeniu: true, atrybutyNaglowka });
       problemy.push(...wewn.problemy);
       const zakres = zakresGry(atrybuty, { poziom, resolveLink, problemy });
       out.push(`<div class="fragment poziom poziom-${poziom}"${zakres.atrybuty}>\n${zakres.etykieta}${wewn.html}\n</div>`);
@@ -95,7 +98,7 @@ export function renderMarkdown(md, { resolveLink, wymagajPoziomu = false, wPozio
       i += 1; // zamknięcie
       // Dosłowny tekst skryptu wyświetlany jako formatowanie wizualne (znaczniki md → nagłówki, pogrubienia, cytaty).
       // Źródło pozostaje dosłowne: wierność sprawdza wytnijBlokSkryptu na surowym tekście.
-      const wewn = renderMarkdown(buf.join('\n'), { resolveLink, wymagajPoziomu, wPoziomie, wZagniezdzeniu: true });
+      const wewn = renderMarkdown(buf.join('\n'), { resolveLink, wymagajPoziomu, wPoziomie, wZagniezdzeniu: true, atrybutyNaglowka });
       problemy.push(...wewn.problemy);
       dodaj(`<div class="skrypt-tekst">\n${wewn.html}\n</div>`);
       continue;
@@ -108,7 +111,11 @@ export function renderMarkdown(md, { resolveLink, wymagajPoziomu = false, wPozio
     const h = linia.match(/^(#{1,4})\s+(.*)$/);
     if (h) {
       const poz = h[1].length;
-      out.push(`<h${poz}>${inline(h[2])}</h${poz}>`);
+      const wewn = inline(h[2]);
+      // Kotwica i odsyłacz wewnątrz nagłówka (np. spis podsekcji sceny).
+      const opis = atrybutyNaglowka?.(poz, h[2].trim(), wewn) ?? null;
+      const atrybut = opis?.id ? ` id="${escapeHtml(opis.id)}"` : '';
+      out.push(`<h${poz}${atrybut}>${opis?.wewnetrzny ?? wewn}</h${poz}>`);
       i += 1; continue;
     }
 
@@ -124,10 +131,11 @@ export function renderMarkdown(md, { resolveLink, wymagajPoziomu = false, wPozio
     }
 
     // tabela pipe
-    // `\|` w komórce to literalny pionek — bez tego nie da się wstawić
-    // wikilinku z etykietą ([[slug|etykieta]]) do tabeli.
+    // Zapis zalecany to `\|` w komórce, ale pionek wewnątrz wikilinku
+    // ([[slug|etykieta]]) i tak nie dzieli wiersza — inaczej jedna nieuwaga
+    // rozjeżdża całą tabelę względem nagłówka.
     if (bezPip(linia.trim()).startsWith('|') && bezPip(linie[i + 1] ?? '').match(/^\s*\|[\s:|-]+\|\s*$/)) {
-      const komorki = (w) => bezPip(w).trim().replace(/^\||\|$/g, '').split('|').map((c) => przywrocPip(c.trim()));
+      const komorki = podzielKomorki;
       const naglowki = komorki(linia);
       i += 2;
       const wiersze = [];
@@ -289,6 +297,27 @@ const sLinia = (l) =>
 const PIPE_PLACEHOLDER = '\u0001';
 const bezPip = (s) => String(s).replace(/\\\|/g, PIPE_PLACEHOLDER);
 const przywrocPip = (s) => String(s).replaceAll(PIPE_PLACEHOLDER, '|');
+
+/**
+ * Dzieli wiersz tabeli na komórki. Pionek wewnątrz `[[slug|etykieta]]`
+ * jest częścią odsyłacza, nie separatorem kolumn — także wtedy, gdy autor
+ * nie escapował go jako `\|`.
+ */
+function podzielKomorki(wiersz) {
+  const t = bezPip(String(wiersz).trim()).replace(/^\|/, '').replace(/\|$/, '');
+  const komorki = [];
+  let biezaca = '';
+  let wLinku = false;
+  for (let j = 0; j < t.length; j += 1) {
+    const ch = t[j];
+    if (!wLinku && ch === '[' && t[j + 1] === '[') { wLinku = true; biezaca += '[['; j += 1; continue; }
+    if (wLinku && ch === ']' && t[j + 1] === ']') { wLinku = false; biezaca += ']]'; j += 1; continue; }
+    if (ch === '|' && !wLinku) { komorki.push(przywrocPip(biezaca.trim())); biezaca = ''; continue; }
+    biezaca += ch;
+  }
+  komorki.push(przywrocPip(biezaca.trim()));
+  return komorki;
+}
 
 export function escapeHtml(s) {
   return String(s)

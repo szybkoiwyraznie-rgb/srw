@@ -4,7 +4,7 @@ slug: zaku-ii-karabin-maszynowy
 tytul: Zaku II (karabin maszynowy)
 seria: mobile-suit-gundam-1979
 gry: [srw-oe]
-piloci: [slender]
+piloci: [slender, zolnierz-zeonu]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md", "profil": "Zaku II/Karabin maszynowy", "dane": "**Seria:** Mobile Suit Gundam\n### Macierzyste zdolności maszyny\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Karabin maszynowy Zaku | 1000 | 1–3 | +30 | 5 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |\n| 1 | Heat Hawk | 1600 | 1–1 | +50 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |"}'
 pochodzenie: menu

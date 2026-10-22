@@ -62,3 +62,11 @@ Dlatego:
    ma więc własną stronę i wskazuje dwa Zaku II, które obsadza.
 4. Epizod i scena wymieniają wszystkie trzy Zaku II w `mechy`, bo są obsadą sceny 0-2;
    za sterami siedzą Char, Slender i Crown (kto w której maszynie — ADR 0024).
+
+## Adnotacja (2026-10-22) — Żołnierz Zeonu wraca jako postać
+
+Dostawa misji 2 epizodu 1 (`dostawa_1_2.txt`) obsadza **Żołnierza Zeonu** przy Doppach,
+Zaku II i wieżyczkach, więc właściciel przywrócił dla niego stronę typu `postac` —
+analogicznie do **Control AI** przy Brockenie. Punkt 5 decyzji przestaje obowiązywać:
+zbiorczy profil może mieć własną stronę, gdy aktywna dostawa przypisuje mu maszyny
+i umiejętność.

@@ -82,7 +82,9 @@ w_gre:
 Bronie nie są osobnym typem (ADR 0012). Uzbrojenie mecha opisujesz w jego treści.
 
 **scena** (ADR 0008): `epizod` (wymagane, slug epizodu), `numer_sceny` (wymagane, dowolny niepusty tekst — `1-2`, `2-2-1`, `Prolog`; numeracja zależy od gry), `streszczenie` (opcjonalne, pokazywane na liście scen
-w epizodzie), opcjonalnie `postacie`, `mechy`. Slug sceny: `<slug-epizodu>-<tytul-sceny>`, np.
+w epizodzie), opcjonalnie `postacie`, `mechy`. `sekcje_analizy` (opcjonalne) to lista par
+`podsekcja analizy → podsekcja treści`; każda para robi z tytułu `###` w analizie odsyłacz
+do wskazanego miejsca treści sceny (`docs/guides/PRZEPLYW_EPIZODU.md` §1a). Slug sceny: `<slug-epizodu>-<tytul-sceny>`, np.
 `demo-ep001-rozpoznanie` (bez numeru — ADR 0008). Plik: `content/sceny/<slug>.md`.
 
 **seria**: `rodzaj` (`tv` / `ova` / `film` / `manga` / `gra` / `powiesc` / `inne`), `rok`, `odcinki`.
@@ -137,6 +139,11 @@ Zasady:
 | scena | `## Treść sceny`, `## Analiza` | `## Źródła` |
 | epizod | `## Streszczenie` | `## Wątki anime`, `## Komentarz`, `## Źródła` (sekcja „Sceny" powstaje sama z wpisów scen) |
 
+Strony postaci i mechów mają ustaloną kolejność sekcji: `## Opis`, `## Ilustracje`,
+`## Parametry`. Każda z nich stoi we własnym bloku poziomu, więc na stronie widać trzy osobne
+boksy — galeria zawsze między opisem a parametrami. Strona bez ilustracji nie dostaje pustego
+boksy `## Ilustracje`.
+
 **Treść sceny** to dosłowny blok `:::skrypt … :::` z tekstem sceny. Build sprawdza, czy jest
 fragmentem skryptu epizodu (różnice w odstępach nie liczą się). Przeredagowana scena nie przechodzi.
 
@@ -150,7 +157,8 @@ się jako tabelę:
 ```
 
 Typy wątków: `adaptacja`, `nawiazanie`, `hold`, `dywergencja`, `fuzja`, `autorskie`.
-W komórkach tabeli pionek w wikilinku zapisujemy jako `\|`.
+W komórkach tabeli pionek w wikilinku zapisujemy jako `\|`; pionek wewnątrz `[[slug|etykieta]]`
+nie dzieli wiersza nawet bez escapowania, więc tabela nie rozjeżdża się względem nagłówka.
 
 ## Przykład minimalnego wpisu
 

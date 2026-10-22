@@ -86,8 +86,30 @@ function domknijInterakcje(app) {
   if (tresc) tresc.scrollTop = 0;
 }
 
+/**
+ * Odsyłacze wewnątrz strony (podsekcja analizy → miejsce w treści sceny) nie
+ * mogą zmieniać trasy hashowej, więc przechwytujemy kliknięcie i przewijamy
+ * ręcznie. Delegacja na dokumencie działa dla każdej wyrenderowanej strony.
+ */
+function podepnijSkokiWStronie() {
+  const d = globalThis.document;
+  if (!d?.addEventListener) return;
+  d.addEventListener('click', (e) => {
+    const link = e.target?.closest?.('[data-cel]');
+    if (!link) return;
+    const cel = d.getElementById(link.dataset.cel);
+    if (!cel) return;
+    e.preventDefault();
+    cel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    cel.classList.remove('podswietlenie');
+    void cel.offsetWidth;
+    cel.classList.add('podswietlenie');
+  });
+}
+
 // Podgląd ilustracji działa przez delegację zdarzeń, więc wystarczy podpiąć go raz.
 podepnijPodglad();
+podepnijSkokiWStronie();
 
 const stop = uruchomRouter(renderuj);
 if (globalThis.__SRW_TEST__) globalThis.__SRW_STOP__ = stop;

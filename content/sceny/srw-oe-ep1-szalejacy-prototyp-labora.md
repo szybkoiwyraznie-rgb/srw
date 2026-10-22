@@ -5,10 +5,21 @@ tytul: Szalejący prototyp Labora
 epizod: srw-oe-ep1
 numer_sceny: "1-1"
 streszczenie: "Cała misja 1: odprawa u szefa Suola, ćwiczenia Connect, SV2 i Sił Samoobrony na poligonie Fuji, walka z bezzałogowymi HAL-X10 i rozmowy po walce."
+sekcje_analizy:
+  - Odprawa na stacji Connect → Stacja Connect / Okolice Ziemi
+  - Wtrącenie o Patlaborze → Patlabor
+  - Na poligonie Fuji → Siły Samoobrony, poligon Fuji
+  - SV2 dołącza do ćwiczeń → SV2 dołącza do ćwiczeń
+  - Ostra amunicja → Ostra amunicja
+  - Warunkowe dialogi bitewne → Dialogi bojowe — warunkowe i sytuacyjne
+  - Po ćwiczeniach → Po ćwiczeniach
+  - Następstwa → Następstwa
 pochodzenie: skrypt
+zrodla:
+  - https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!
 postacie: [seishiro, himari-yaegaki, suol, noa-izumi, isao-ota, kanuka-clancy, asuma-shinohara, kiichi-goto, mikiyasu-shinshi, hiromi-yamazaki, zolnierz-jsdf, shinohara-hos]
 mechy: [exart, ingram-nr-1, ingram-nr-2, medea, hal-x10, hal-x10-green, helldiver]
-pojecia: [connect-force, labor, sv2, sily-samoobrony-japonii, poligon-fuji]
+pojecia: [connect-force, labor, sv2, sily-samoobrony-japonii, poligon-fuji, mobile-suit, stacja-connect]
 tagi: [patlabor, trening]
 utworzono: 2026-10-21
 ---
@@ -492,6 +503,20 @@ Komentarz zamykający epizod relacjonuje skutki walki: obyło się bez ofiar wś
 Ponieważ incydent zdarzył się podczas wspólnych ćwiczeń, [[sily-samoobrony-japonii|Ministerstwo Obrony]] nie mogło go ukryć i podjęło współpracę z innymi organizacjami. Ta decyzja otwiera drogę do kolejnych wspólnych operacji — i do dalszych pytań o to, kto stoi za awarią [[hal-x10|HAL-X10]].
 
 Scena nie rozstrzyga, kto stoi za utratą kontroli nad [[hal-x10|HAL-X10]]. [[seishiro|Seishiro]] mówi o sabotażu, ale śledztwo zostaje poza kadrem, a [[sily-samoobrony-japonii|Ministerstwo Obrony]] przejmuje sprawę i nawiązuje współpracę z innymi organizacjami.
+
+}}
+
+{{zrodlo gra=wspolne
+
+## Nawiązania do oryginalnych odcinków
+
+Wydarzenia z tej sceny — wspólne ćwiczenia na [[poligon-fuji|poligonie Fuji]], bezzałogowy [[hal-x10|HAL-X10]], który zaczyna strzelać ostrą amunicją, i walka o jego unieruchomienie — nawiązują do **piątego odcinka** serialu [[mobile-police-patlabor|*Mobile Police Patlabor: On Television*]], zatytułowanego „Runaway Labor X-10!”.
+
+W oryginale [[hal-x10|HAL-X10]] jest prototypem [[labor|Labora]] badanym przez [[sily-samoobrony-japonii|Siły Samoobrony]]: podczas prób w górach maszyna wymyka się spod kontroli i rusza w stronę najbliższego miasta, a wojsko stara się zatrzeć jej oznaczenia. Do pościgu rusza Drugi Pluton [[sv2|SV2]]; [[asuma-shinohara|Asuma]] wchodzi na pokład maszyny i wyjmuje dysk główny. Gra przenosi ten ciąg zdarzeń na poligon i wplata go w ćwiczenia z [[connect-force|Connect]], a maszynę zatrzymuje celny strzał w stawy według wskazówki [[asuma-shinohara|Asumy]]. W obu wersjach sprawa ma pozostać ukryta przed opinią publiczną ([Patlabor Wiki, „Runaway Labor X-10!”](https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!); sprawdzono 2026-10-22).
+
+}}
+
+{{skrypt gra=srw-oe
 
 ## Wątki w scenie
 

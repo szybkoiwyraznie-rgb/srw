@@ -33,6 +33,12 @@ export function renderEpizod(slug) {
     if (lista.length) grupy.set(typ, lista.sort((a, b) => String(a.tytul).localeCompare(String(b.tytul), 'pl')));
   }
 
+  // Każdy boks to własny fragment treści — streszczenie, wątki i komentarz
+  // nie dzielą już jednego wspólnego tła.
+  const boksy = (e.boksy ?? []).map((b) => `<section class="sekcja-strony">
+    ${b.html}
+  </section>`).join('\n');
+
   return `
 <div class="naglowek-epizodu">
   <div class="okruszki">
@@ -52,25 +58,27 @@ ${e.skryptTekst ? `
   <pre class="skrypt">${escapeHtml(e.skryptTekst)}</pre>
 </details>` : ''}
 
-<div class="uklad-encja">
-  <aside class="infoboks">
-    <dl class="infoboks-lista">
-      ${gra ? `<dt>Gra</dt><dd><a href="${hrefDlaSlug(gra.slug, 'gra')}">${escapeHtml(gra.tytul)}</a></dd>` : ''}
-      <dt>Numer</dt><dd>${numerEpizodu(e.numer)}</dd>
-      ${e.trasa ? `<dt>Trasa</dt><dd>${escapeHtml(e.trasa)}</dd>` : ''}
-      ${e.rozegrano ? `<dt>Rozegrano</dt><dd>${escapeHtml(e.rozegrano)}</dd>` : ''}
-    </dl>
-    ${chipsyTagow(e.tagi)}
-    <nav class="nawigacja-epizodow">
-      ${poprzedni ? `<a href="${hrefDlaSlug(poprzedni.slug, 'epizod')}">← ${numerEpizodu(poprzedni.numer)} ${escapeHtml(poprzedni.tytul)}</a>` : ''}
-      ${nastepny ? `<a href="${hrefDlaSlug(nastepny.slug, 'epizod')}">${numerEpizodu(nastepny.numer)} ${escapeHtml(nastepny.tytul)} →</a>` : ''}
-    </nav>
-  </aside>
-  <div class="tresc-encja">
-    ${e.html}
-    ${sekcjaScen(e.slug)}
-    ${sekcjaPowiazan('W tym epizodzie', grupy, {})}
+<div class="uklad-strona">
+  <div class="kolumna-glowna tresc-encja">
+    ${boksy || e.html}
   </div>
+  <aside class="kolumna-boczna" aria-label="Informacje o epizodzie">
+    <div class="panel-boczny">
+      <dl class="infoboks-lista">
+        ${gra ? `<dt>Gra</dt><dd><a href="${hrefDlaSlug(gra.slug, 'gra')}">${escapeHtml(gra.tytul)}</a></dd>` : ''}
+        <dt>Numer</dt><dd>${numerEpizodu(e.numer)}</dd>
+        ${e.trasa ? `<dt>Trasa</dt><dd>${escapeHtml(e.trasa)}</dd>` : ''}
+        ${e.rozegrano ? `<dt>Rozegrano</dt><dd>${escapeHtml(e.rozegrano)}</dd>` : ''}
+      </dl>
+      ${chipsyTagow(e.tagi)}
+      <nav class="nawigacja-epizodow">
+        ${poprzedni ? `<a href="${hrefDlaSlug(poprzedni.slug, 'epizod')}">← ${numerEpizodu(poprzedni.numer)} ${escapeHtml(poprzedni.tytul)}</a>` : ''}
+        ${nastepny ? `<a href="${hrefDlaSlug(nastepny.slug, 'epizod')}">${numerEpizodu(nastepny.numer)} ${escapeHtml(nastepny.tytul)} →</a>` : ''}
+      </nav>
+    </div>
+    ${sekcjaPowiazan('W tym epizodzie', grupy, {})}
+    ${sekcjaScen(e.slug)}
+  </aside>
 </div>`;
 }
 

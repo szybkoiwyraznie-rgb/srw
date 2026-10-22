@@ -64,11 +64,13 @@ test('strona epizodu pokazuje skrypt, sceny i nawigację', () => {
   assert.match(html, /#\/scena\/prolog-i-trening-w-connect/);
 });
 
-test('strona sceny pokazuje dosłowną treść i analizę', () => {
-  const html = renderEncja('prolog-i-trening-w-connect');
+test('strona sceny pokazuje dosłowną treść i analizę', async () => {
+  const { renderScena } = await import('../src/srw/render-scene.js');
+  const html = renderScena('prolog-i-trening-w-connect');
   assert.match(html, /Treść sceny/);
   assert.match(html, /Analiza/);
   assert.match(html, /Himari/);
+  assert.match(html, /uklad-strona/, 'scena ma układ dwukolumnowy');
 });
 
 test('listy działów działają i respektują filtry', () => {
@@ -133,21 +135,37 @@ test('wpisy dziennika linkują do stron, których dotyczą', () => {
   assert.deepEqual(problemy, [], 'każda wzmianka o stronie powinna być odsyłaczem');
 });
 
-test('szkielet strony ma jedno menu w nagłówku i stopkę bez drugiego zestawu linków', () => {
+test('menu w nagłówku prowadzi do wszystkich działów, w kolejności czytania', () => {
   const html = rama('glowna', 'Baza', '<p>treść</p>');
-  assert.match(html, /nawigacja/);
-  // Nagłówek prowadzi do działów, których nie ma w kaflach strony głównej.
-  for (const href of ['#/gry', '#/serie', '#/pojecia', '#/tagi', '#/co-nowego', '#/o-bazie']) {
-    assert.ok(html.includes(`href="${href}"`), `menu: ${href}`);
-  }
-  // Cztery działy fabularne mają kafle na stronie głównej, nie drugi wpis w menu.
   const nawigacja = html.match(/<nav class="nawigacja"[\s\S]*?<\/nav>/)[0];
-  for (const href of ['#/sceny', '#/epizody', '#/postacie', '#/mechy']) {
-    assert.ok(!nawigacja.includes(href), `menu nie powiela kafla ${href}`);
-  }
+  // Cztery działy fabularne stoją przed działami technicznymi, w kolejności
+  // scena → epizod → postać → mech → gra.
+  const kolejnosc = ['#/sceny', '#/epizody', '#/postacie', '#/mechy', '#/gry', '#/serie', '#/pojecia', '#/tagi', '#/co-nowego', '#/o-bazie'];
+  const pozycje = kolejnosc.map((href) => {
+    const i = nawigacja.indexOf(`href="${href}"`);
+    assert.ok(i >= 0, `menu: ${href}`);
+    return i;
+  });
+  assert.deepEqual([...pozycje].sort((a, b) => a - b), pozycje, 'menu zachowuje kolejność działów');
   assert.match(html, /stopka/);
   assert.doesNotMatch(html, /stopka-linki/, 'stopka nie ma już własnego menu');
   assert.equal((html.match(/href="#\/serie"/g) ?? []).length, 1, 'link do działu występuje raz');
+});
+
+test('menu i wyszukiwarka mieszczą się w jednej linii bez zawijania', () => {
+  const css = fs.readFileSync(path.join(ROOT, 'src/srw/style.css'), 'utf8');
+  const wnetrze = css.match(/\.naglowek-wnetrze \{[^}]*\}/)[0];
+  assert.match(wnetrze, /flex-wrap:\s*nowrap/, 'pasek nagłówka się nie zawija');
+  const nawigacja = css.match(/\.nawigacja \{[^}]*\}/)[0];
+  assert.match(nawigacja, /flex-wrap:\s*nowrap/, 'menu się nie zawija');
+  const szukaj = css.match(/\.szukaj \{[^}]*\}/)[0];
+  assert.match(szukaj, /flex:\s*1 1 auto/, 'szerokość wyszukiwarki jest płynna');
+  assert.match(szukaj, /min-width:/, 'wyszukiwarka ma dolny limit szerokości');
+  assert.match(szukaj, /max-width:/, 'wyszukiwarka ma górny limit szerokości');
+  const link = css.match(/\.nawigacja a \{[^}]*\}/)[0];
+  assert.match(link, /padding:[^;]*clamp\(/, 'odstępy pozycji menu są płynne');
+  assert.match(link, /font-size:[^;]*clamp\(/, 'wielkość pozycji menu jest płynna');
+  assert.match(link, /white-space:\s*nowrap/, 'pozycje menu nie łamią się w środku');
 });
 
 test('strona główna: dziennik zmian w lewej kolumnie, ostatnio dodane w prawej', () => {
@@ -205,7 +223,14 @@ test('braki redakcyjne epizodu nie tworzą publicznej kolejki zadań', (t) => {
 
 // Sprawdzamy tekst czytelnika, nie techniczne nazwy pól, klasy CSS i adresy URL.
 function tekstWidoczny(html) {
-  return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ');
+  // Surowy skrypt epizodu to archiwum rozgrywki (ADR 0005), nie proza redakcyjna:
+  // może zawierać światowe słowa typu „dostawa zaopatrzenia”, których zakaz dotyczy
+  // wyłącznie opisów pisanych przez redakcję.
+  return html
+    .replace(/<pre class="skrypt">[\s\S]*?<\/pre>/g, ' ')
+    .replace(/<div class="skrypt-tekst">[\s\S]*?<\/div>/g, ' ')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/\s+/g, ' ');
 }
 
 test('opisy wszystkich stron mówią o świecie, bez wewnętrznych procedur', () => {
@@ -252,4 +277,34 @@ test('listy scen: tytuł i streszczenie mają ten sam układ na stronie epizodu 
   // Kolejność i komplet: każda scena epizodu ma opis.
   assert.match(a[0], /0-1<\/span> <strong>Prolog i trening w Connect/);
   assert.match(a[1], /0-2<\/span> <strong>Na ratunek White Base/);
+});
+
+test('galeria: selektory zależne są wyłączone, dopóki brak nadrzędnego filtra', () => {
+  const bezGry = renderListe('mech');
+  assert.match(bezGry, /<select class="filtr-select" name="epizod" disabled onchange=/, 'Odcinek wymaga Gry');
+  assert.match(bezGry, /<select class="filtr-select" name="scena" disabled onchange=/, 'Scena wymaga Odcinka');
+  assert.doesNotMatch(bezGry, /onchange="[^"]*disabled/, 'disabled nie może trafić do kodu obsługi zdarzenia');
+
+  const zGra = renderListe('mech', { gra: 'srw-oe' });
+  assert.match(zGra, /<select class="filtr-select" name="epizod" onchange=/, 'po wyborze gry Odcinek jest dostępny');
+  assert.match(zGra, /<select class="filtr-select" name="scena" disabled onchange=/, 'Scena nadal czeka na Odcinek');
+});
+
+test('galeria: pusty wynik filtra nie zabiera filtrów', () => {
+  const html = renderListe('mech', { gra: 'srw-oe', epizod: 'srw-oe-ep0', seria: 'patlabor-the-movie' });
+  assert.match(html, /stan-pusty/);
+  assert.match(html, /filtry-krokowe/, 'zestaw filtrów zostaje nad pustą listą');
+});
+
+test('galeria: wartości z adresu nie wstrzykują znaczników ani stylów', () => {
+  const html = renderListe('mech', {
+    seria: `'><img src=x onerror=alert(1)>`,
+    rozmiar: '</style><script>alert(1)</script>',
+    cokolwiek: '<b>nieznany klucz</b>',
+  });
+  assert.doesNotMatch(html, /<\/style><script>|<img src=x|<script>alert/);
+  assert.match(html, /--kafel-szer: 240px/, 'niepoprawny rozmiar wraca do wartości domyślnej');
+  assert.match(html, /&#39;&gt;&lt;img/, 'wartość filtra jest zakodowana w atrybucie');
+  assert.doesNotMatch(html, /cokolwiek/, 'nieznane klucze adresu są odrzucane');
+  assert.match(renderListe('mech', { rozmiar: '9999' }), /--kafel-szer: 360px/, 'rozmiar jest ograniczony do zakresu suwaka');
 });

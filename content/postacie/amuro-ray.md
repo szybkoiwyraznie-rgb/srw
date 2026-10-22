@@ -19,6 +19,8 @@ utworzono: 2026-10-20
 Pilot [[rx-78-2-gundam|Gundama]] na pokładzie [[white-base|White Base]]. Zanim [[bright-noa|Bright]] zdąży go powstrzymać, startuje do walki z nadlatującym [[zaku-ii|Zaku]] i uznaje, że za jego sterami nie może siedzieć człowiek. [[fraw-bow|Fraw]] przypomina mu o ekipie naprawczej i nadchodzącej odsieczy.
 
 W wymianie zdań z [[char-aznable|Charem]] zapowiada, że z Gundamem pokona nawet Czerwoną Kometę. [[seishiro|Seishiro]], obserwując walkę, ocenia, że w dobrych rękach nawet Zaku staje się groźny.
+
+W misji nad Azją Środkową startuje z [[white-base|White Base]] razem z [[guncannon|Guncannonem]] i [[guntank|Guntankiem]]. [[sayla-mass|Sayli]] w [[g-fighter|G-Fighterze]] przypomina, że [[zeon|Zeon]] ostrzeliwuje też z baz naziemnych, więc wróg to nie tylko maszyny bojowe.
 }}
 {{menu gra=srw-oe
 

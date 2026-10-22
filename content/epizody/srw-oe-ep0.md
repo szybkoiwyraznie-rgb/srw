@@ -7,7 +7,7 @@ numer: 0
 skrypt: episodes/srw-oe/ep000.md
 postacie: [seishiro, himari-yaegaki, suol, amuro-ray, char-aznable, bright-noa, mirai-yashima, sayla-mass, fraw-bow, paolo-cassius, oscar-dublin, marker, slender, crown, control-ai]
 mechy: [exart, brocken, rx-78-2-gundam, zaku-ii, zaku-ii-karabin-maszynowy, zaku-ii-bazooka, zaku-ii-char, white-base]
-pojecia: [dr-hell, devil-gundam-incident, connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai, invaderzy, zeon, side-3, side-7, luna-ii, loum, minovsky-particles]
+pojecia: [dr-hell, devil-gundam-incident, connect-force, muge-empire, earth-federation, universal-century, uc-0079, mechanization-empire, jaku-empire, evil-god-drago, daimakai, invaderzy, zeon, side-3, side-7, luna-ii, loum, minovsky-particles, mobile-suit, stacja-connect]
 pochodzenie: skrypt
 zrodla:
   - https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE
@@ -35,12 +35,12 @@ W [[uc-0079|U.C. 0079]] trwa wojna. [[suol|Szef Suol]] wysyła Seishira na pomoc
 
 | Motyw w epizodzie | Źródło | Odcinek / wersja | Typ | Różnice |
 |---|---|---|---|---|
-| Wspomnienie dawnych zagrożeń | Prolog [[srw-oe|Super Robot Wars OE]] | Epizod 0 | nawiazanie | Wymienia nazwy, ale nie odtwarza konkretnych odcinków anime. |
-| Kryzys jedności politycznej i nieznane energie | Prolog [[srw-oe|Super Robot Wars OE]] | Epizod 0 | fuzja | Różne kryzysy są częścią wspólnej historii świata gry. |
-| Szkolenie w [[connect-force|Connect Force]] | [[srw-oe|Super Robot Wars OE]] | Szkolenie podstawowe | autorskie | Walka z symulowanymi przeciwnikami służy nauce sterowania, zaopatrzenia i atakowania. |
-| Wybuch wojny i śmierć połowy ludzkości | *Mobile Suit Gundam* (1979) | tło [[uc-0079|U.C. 0079]] | adaptacja | Interludium przedstawia wojnę jako wspólną historię świata gry, bez odtwarzania odcinków anime. |
-| Atak Chara na [[white-base|White Base]] | *Mobile Suit Gundam* (1979) | pierwsze starcie w [[side-7|Side 7]] | adaptacja | W grze do walki włącza się [[connect-force|Connect]], którego w anime nie ma. |
-| Ranny kapitan i prowizoryczne dowodzenie | *Mobile Suit Gundam* (1979) | początek podróży [[white-base|White Base]] | adaptacja | [[paolo-cassius|Paolo]] pozostaje na stanowisku, a [[bright-noa|Bright]] wydaje rozkazy; wątek późniejszej podróży nie jest rozgrywany. |
+| Wspomnienie dawnych zagrożeń | Prolog [[srw-oe\|Super Robot Wars OE]] | Epizod 0 | nawiazanie | Wymienia nazwy, ale nie odtwarza konkretnych odcinków anime. |
+| Kryzys jedności politycznej i nieznane energie | Prolog [[srw-oe\|Super Robot Wars OE]] | Epizod 0 | fuzja | Różne kryzysy są częścią wspólnej historii świata gry. |
+| Szkolenie w [[connect-force\|Connect Force]] | [[srw-oe\|Super Robot Wars OE]] | Szkolenie podstawowe | autorskie | Walka z symulowanymi przeciwnikami służy nauce sterowania, zaopatrzenia i atakowania. |
+| Wybuch wojny i śmierć połowy ludzkości | *Mobile Suit Gundam* (1979) | tło [[uc-0079\|U.C. 0079]] | adaptacja | Interludium przedstawia wojnę jako wspólną historię świata gry, bez odtwarzania odcinków anime. |
+| Atak Chara na [[white-base\|White Base]] | *Mobile Suit Gundam* (1979) | odc. 1 „Gundam Rising”; pierwsze starcie w [[side-7\|Side 7]] | adaptacja | W grze do walki włącza się [[connect-force\|Connect]], którego w anime nie ma. |
+| Ranny kapitan i prowizoryczne dowodzenie | *Mobile Suit Gundam* (1979) | początek podróży [[white-base\|White Base]] | adaptacja | [[paolo-cassius\|Paolo]] pozostaje na stanowisku, a [[bright-noa\|Bright]] wydaje rozkazy; wątek późniejszej podróży nie jest rozgrywany. |
 
 ## Komentarz
 
@@ -54,10 +54,8 @@ Druga scena zmienia ton: szkolenie ustępuje miejsca wojnie, a neutralna organiz
 
 - **[[amuro-ray|Amuro Ray]]**, **[[char-aznable|Char Aznable]]** i załoga **[[white-base|White Base]]** pochodzą z *Mobile Suit Gundam* z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); [Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-10-20).
 - [[char-aznable|Char]] nosi przydomek Czerwonej Komety ([Wikipedia, „Char Aznable”](https://en.wikipedia.org/wiki/Char_Aznable); sprawdzono 2026-10-20).
-}}
-{{zrodlo gra=srw-oe
 
-## Nawiązania
+### Nawiązania
 
 - **[[dr-hell|Dr. Hell]]** wymieniony w prologu to postać z *Mazinger Z* Go Nagai. Jest niemieckim członkiem japońskiej
   wyprawy archeologicznej, która odkryła wyspę Bardos. Dowodzi Mechanicznymi Bestiami

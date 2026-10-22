@@ -12,30 +12,30 @@ zrodla:
   - https://superrobotwars.fandom.com/wiki/Cybuster
 utworzono: 2026-10-19
 ---
-## Opis
-
 {{zrodlo gra=wspolne
+
+## Opis
 
 Kuro to czarna kotka, magiczna towarzyszka [[masaki-andoh|Masakiego Andoh]]. Razem z [[shiro|Shiro]] towarzyszy pilotowi i żartuje z jego słabej orientacji w terenie. ([Akurasu, „Masaki Andoh”, sekcja „Personality And Traits”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
 }}
 
-## Związek z Cybusterem
-
 {{zrodlo gra=wspolne
+
+## Związek z Cybusterem
 
 Wspiera Masakiego podczas obsługi [[cybuster|Cybustera]], podobnie jak [[shiro|Shiro]] ([Super Robot Wars Wiki, „Cybuster”, opis wprowadzający](https://superrobotwars.fandom.com/wiki/Cybuster); sprawdzono 2026-10-19). Koty obsługują zdalne moduły uzbrojenia typu High Familiar ([Akurasu, „Masaki Andoh”, sekcja „Personality And Traits”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
 }}
 
-## Głos
-
 {{zrodlo gra=wspolne
+
+## Głos
 
 Głosu postaci użycza Rei Sakuma w cyklu Super Robot Wars ([Akurasu, „Masaki Andoh”, sekcja „Trivia”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
 }}
 
-## Nazwa
-
 {{wiedza gra=wspolne
+
+## Nazwa
 
 Kuro to japońskie określenie czerni.
 }}

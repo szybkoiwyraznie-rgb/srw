@@ -20,6 +20,7 @@ import { fileURLToPath } from 'node:url';
 import { collectModules, assertNoNameCollisions, stripModuleSyntax } from './module-graph.mjs';
 import { wczytajStrony, wczytajSkrypty, wczytajCoNowego } from './content-loader.mjs';
 import { renderMarkdown } from '../src/srw/markdown.js';
+import { podzielScene, podzielNaBoksy, zaplanujScene, kotwiceSekcji } from '../src/srw/scena-sekcje.js';
 import { parseWikilinks } from '../src/srw/links.js';
 import {
   zbudujRejestr, resolverLinkow, walidujStrone, policzBacklinki, policzTagi, policzStatystyki,
@@ -142,7 +143,44 @@ export async function zbudujDane({ root = ROOT } = {}) {
       }
     }
 
-    wyrenderowane.set(s.slug, { html, linki: [...linki], skryptTekst });
+    // Scena: osobno renderowane boksy (treść, analiza, nawiązania, wątki) —
+    // strona rozkłada je na dwie kolumny i wiąże podsekcje analizy z treścią.
+    let sekcje = null;
+    if (s.typ === 'scena') {
+      const czesci = podzielScene(s.body);
+      const plan = zaplanujScene(czesci, s.sekcje_analizy);
+      for (const pr of plan.problemy) problemy.push(`${s.slug}: ${pr}`);
+      sekcje = czesci.map((cz) => {
+        const zrodlo = `${cz.otwarcie ?? '{{skrypt'}\n\n## ${cz.tytul}\n\n${cz.tresc}\n\n}}`;
+        const wynik = renderMarkdown(zrodlo, {
+          resolveLink: resolver,
+          wymagajPoziomu: true,
+          atrybutyNaglowka: kotwiceSekcji(cz.tytul, plan, { hrefStrony: `#/scena/${s.slug}` }),
+        });
+        for (const pr of wynik.problemy) problemy.push(`${s.slug} (${cz.tytul}): ${pr}`);
+        return { tytul: cz.tytul, html: wynik.html };
+      });
+    }
+
+    // Epizod: każdy nagłówek `##` to osobny boks strony (streszczenie, wątki,
+    // komentarz, obsada). Blok poziomu bez nagłówka też dostaje własny boks,
+    // bo jego tło jest częścią przekazu (ADR 0010).
+    let boksy = null;
+    if (s.typ === 'epizod') {
+      boksy = podzielNaBoksy(s.body).map((b) => ({
+        tytul: b.tytul,
+        html: b.bloki.map((bl) => {
+          const wynik = renderMarkdown(`${bl.otwarcie ?? '{{skrypt'}\n\n${bl.tresc}\n\n}}`, {
+            resolveLink: resolver,
+            wymagajPoziomu: true,
+          });
+          for (const pr of wynik.problemy) problemy.push(`${s.slug}: ${pr}`);
+          return wynik.html;
+        }).join('\n'),
+      }));
+    }
+
+    wyrenderowane.set(s.slug, { html, linki: [...linki], skryptTekst, sekcje, boksy });
   }
 
   // Parzystość dostawy: skrypt bez wpisu epizodu = materiał do przetworzenia.
@@ -177,6 +215,8 @@ export async function zbudujDane({ root = ROOT } = {}) {
       tekst: naTekst(body),
       czas: datyGit(s.plik),
       ...(r.skryptTekst ? { skryptTekst: r.skryptTekst, skryptOtwarty: false } : {}),
+      ...(r.sekcje ? { sekcje: r.sekcje } : {}),
+      ...(r.boksy ? { boksy: r.boksy } : {}),
     };
   }
 

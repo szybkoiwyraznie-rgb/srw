@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "baseUrl": "https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev",
   "pochodzenie": "menu",
-  "dostarczono": "2026-10-21",
-  "podstawa": "Ilustracje właściciela jako pełnoprawna dostawa encji (ADR 0017); nazwy z odczytu listy R2 (workflow r2-inventory, 2026-10-20).",
+  "dostarczono": "2026-10-22",
+  "podstawa": "Ilustracje właściciela jako pełnoprawna dostawa encji (ADR 0017); nazwy z odczytu listy R2 (workflow r2-inventory, 2026-10-20), z dostawy ilustracji jednostek misji 2 i z dostawy portretów jej obsady (2026-10-22).",
   "weryfikacjaZdalna": false,
-  "uwaga": "24 portrety w characters/ oraz 27 plików jednostek w korzeniu, w tym trzy warianty Zaku II i cztery jednostki z epizodu 1 po dwie ilustracje. Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów (R2 zwraca HTTP 500), więc nie deklarujemy obejrzenia zawartości.",
+  "uwaga": "30 portretów w characters/ oraz 36 plików jednostek w korzeniu: trzy warianty Zaku II, cztery jednostki z epizodu 1 po dwie ilustracje i sześć jednostek misji 2 (Dom, Dopp, G-Fighter, Guncannon, Guntank, Turret). Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów, więc nie deklarujemy obejrzenia zawartości. Obecność plików characters/Gaia.png i characters/Hayato Kobayashi.png potwierdzona odczytem listy R2 z 2026-10-22; pozostałe cztery portrety pochodzą z tej samej partii i zachowują tę samą konwencję ścieżki.",
   "encje": {
     "exart": [
       "Exart.jpg",
@@ -133,6 +133,45 @@
     ],
     "noa-izumi": [
       "characters/Noa Izumi.png"
+    ],
+    "dom": [
+      "Dom.png",
+      "Dom 2.png"
+    ],
+    "dopp": [
+      "Dopp.png"
+    ],
+    "g-fighter": [
+      "G-Fighter.png"
+    ],
+    "guncannon": [
+      "Guncannon.png",
+      "Guncannon 2.png"
+    ],
+    "guntank": [
+      "Guntank.png",
+      "Guntank 2.png"
+    ],
+    "turret": [
+      "Turret.png"
+    ],
+    "gaia": [
+      "characters/Gaia.png"
+    ],
+    "hayato-kobayashi": [
+      "characters/Hayato Kobayashi.png"
+    ],
+    "kai-shiden": [
+      "characters/Kai Shiden.png"
+    ],
+    "mquve": [
+      "characters/M'Quve.png"
+    ],
+    "mash": [
+      "characters/Mash.png"
+    ],
+    "ortega": [
+      "characters/Ortega.png"
     ]
   },
   "nieprzypisane": []

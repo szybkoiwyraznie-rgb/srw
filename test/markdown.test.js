@@ -34,6 +34,21 @@ test('tabela obsługuje escapowany pionek w wikilinku', () => {
   assert.match(html, /<td><a href="#\/gra\/demo" title="Gra DEMO">Gundam<\/a><\/td>/);
 });
 
+test('tabela nie rozjeżdża się, gdy pionek w wikilinku nie jest escapowany', () => {
+  const md = [
+    '| Motyw | Źródło | Odcinek |',
+    '|---|---|---|',
+    '| Szkolenie w [[demo|Gundam]] | Prolog [[demo|DEMO]] | Epizod 0 |',
+    '',
+  ].join('\n');
+  const { html, problemy } = renderMarkdown(md, { resolveLink: resolver });
+  assert.equal(problemy.length, 0);
+  assert.equal((html.match(/<th>/g) ?? []).length, 3, 'nagłówek ma trzy kolumny');
+  const wiersz = html.slice(html.indexOf('<tbody>'));
+  assert.equal((wiersz.match(/<td>/g) ?? []).length, 3, 'wiersz ma tyle samo kolumn co nagłówek');
+  assert.match(wiersz, /<td>Szkolenie w <a href="#\/gra\/demo" title="Gra DEMO">Gundam<\/a><\/td>/);
+});
+
 test('blok :::skrypt pokazuje formatowanie wizualne, bez znaczników md', () => {
   const { html } = renderMarkdown(':::skrypt\n**Himari:** Catapult!\n\n> cytat\n:::\n', { resolveLink: resolver });
   assert.match(html, /<div class="skrypt-tekst">/);

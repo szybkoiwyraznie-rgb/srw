@@ -206,6 +206,10 @@ export function walidujStrone(strona, ctx) {
     if (strona.streszczenie !== undefined && typeof strona.streszczenie !== 'string') {
       p.push(`${gdzie}: "streszczenie" musi być tekstem`);
     }
+    if (strona.sekcje_analizy !== undefined
+      && (!Array.isArray(strona.sekcje_analizy) || strona.sekcje_analizy.some((x) => typeof x !== 'string'))) {
+      p.push(`${gdzie}: "sekcje_analizy" musi być listą par "podsekcja analizy → podsekcja treści"`);
+    }
   }
 
   if (strona.typ === 'gra') {

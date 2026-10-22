@@ -16,7 +16,7 @@ utworzono: 2026-10-21
 
 Funkcjonariuszka Drugiego Plutonu [[sv2|SV2]]. W rozmowie po ćwiczeniach jako jedna z niewielu zna plotki o [[connect-force|Connect]] i tłumaczy, że firma ma monopol na handel z dalekim kosmosem.
 
-Zauważa też, że mówi się o pracach nad mobile suitami zrzucanymi z orbity. W tej misji nie prowadzi własnego Labora.
+Zauważa też, że mówi się o pracach nad [[mobile-suit|mobile suitami]] zrzucanymi z orbity. W tej misji nie prowadzi własnego Labora.
 
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 }}

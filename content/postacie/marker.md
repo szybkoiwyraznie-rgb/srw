@@ -15,6 +15,8 @@ utworzono: 2026-10-20
 ## Opis
 
 Operator na pokładzie [[white-base|White Base]]. Wykrywa zbliżający się obiekt i melduje, że przypomina mobile suit, a jego prędkość jest trzykrotnie większa niż zwykle.
+
+Rozpylenie [[minovsky-particles|cząstek Minovsky’ego]] ogłasza jako stężenie bojowe, a w powietrzu rozpoznaje [[zaku-ii|Zaku]] i [[dopp|Doppy]]. Po walce melduje opanowanie bazy wroga.
 }}
 {{menu gra=srw-oe
 

@@ -22,6 +22,8 @@ Pilot [[connect-force|Connect Force]], oddziału bojowego prywatnej organizacji 
 Prowadzi szkolenie [[himari-yaegaki|Himari]], przypomina jej o dyscyplinie i odpowiedzialności, a po misji pomaga nauczyć się przesyłania danych do centrali.
 
 Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
+
+W transportowcu wracającym na Stację Connect rozmawia z [[suol|szefem Suolem]] o [[white-base|White Base]] i [[operacja-odessa|Odessie]]. Zauważa, że [[exart|Exart]] wyrwie się z grawitacji tylko z transportem, i porównuje go z japońskimi superrobotami, które nie potrzebują do tego pomocy.
 }}
 {{menu gra=srw-oe
 
@@ -62,9 +64,9 @@ Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]]
 
 }}
 
-## Dane postaci
-
 {{zrodlo gra=srw-oe
+
+## Dane postaci
 
 - Japońskie imię i nazwisko: 草薙征士郎 ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend); sprawdzono 2026-10-19).
 - Wiek: 22 lata. Głos w wersji japońskiej: Go Shinomiya ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-19).

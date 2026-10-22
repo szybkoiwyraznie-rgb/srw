@@ -1,21 +1,45 @@
 # Co nowego
 
-## 2026-10-21 22:30
+## 2026-10-22 15:20
 
-- Naprawa galerii kafelków: obrazy zachowują naturalne proporcje (brak ucięcia głów w portretach, właściwe 21:9 dla mechów).
-- Filtry krokowe wzajemnie się zawężają: wybór Serii/Odcinka/Sceny ogranicza pozostałe selektory; Odcinek dostępny dopiero po wyborze Gry, Scena dopiero po Odcinku.
+- [[prolog-i-trening-w-connect|Scena 0-1]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] mają analizę rozbitą na podsekcje, a każda z nich prowadzi do swojego miejsca w treści — od prologu i szkolenia po [[white-base|White Base]], odwrót [[char-aznable|Chara]] i rozmowę w hangarze.
 
-## 2026-10-21 22:15
+## 2026-10-22 14:05
 
-- Strony Mechy i Postacie zbudowane na nowo jako galeria kafelków z miniaturami
-  podpisanymi nazwami; kliknięcie w miniaturkę lub nazwę prowadzi do strony encji.
-- Filtry krokowe nad galerią: Gra → Epizod → Scena oraz Seria; suwak reguluje
-  wielkość kafelka z dynamicznym przepływem pozycji. Encje bez ilustracji mają
-  generyczną miniaturkę.
+- Nowe hasła świata: [[mobile-suit|Mobile suit]] — klasa maszyn bojowych [[zeon|Zeonu]] i [[earth-federation|Federacji]], [[newtype|Newtype]] — pojęcie z pogłosek o pilocie [[white-base|White Base]] i umiejętność pilota, [[jaburo|Jaburo]] — baza, z której pochodzą dane wywiadowcze Federacji.
+- Tabele wątków w [[srw-oe-ep0|Epizodzie 0]] i [[srw-oe-ep1|Epizodzie 1]] podają numery odcinków tam, gdzie są sprawdzone: piąty odcinek [[mobile-police-patlabor|*Mobile Police Patlabor: On Television*]] i dwudziesty czwarty [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
+- [[krzyz-zeonu|Krzyż Zeonu]] — odznaczenie, o które pyta [[mash|Mash]] w dialogach warunkowych misji [[black-tri-stars|Black Tri-Stars]], oraz [[stacja-connect|Stacja Connect]] — baza [[connect-force|Connect]] w okolicach Ziemi.
+
+## 2026-10-22 12:20
+
+- Sceny bazy odsyłają teraz wprost do oryginalnych odcinków: [[srw-oe-ep1-szalejacy-prototyp-labora|scena 1-1]] do piątego odcinka serialu [[mobile-police-patlabor|*Mobile Police Patlabor: On Television*]], a [[srw-oe-ep1-black-tri-stars|scena 1-2]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] do dwudziestego czwartego i pierwszego odcinka [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
+- Każdy taki blok mówi, co gra zachowuje, a co zmienia względem oryginału, i podaje źródło odcinka.
+
+## 2026-10-22 10:15
+
+- Portrety obsady [[srw-oe-ep1-black-tri-stars|misji „Black Tri-Stars”]]: [[gaia|Gaia]], [[ortega|Ortega]], [[mash|Mash]], [[mquve|M'Quve]], [[kai-shiden|Kai Shiden]] i [[hayato-kobayashi|Hayato Kobayashi]] mają ilustracje na stronach.
+
+## 2026-10-22 09:30
+
+- Ilustracje jednostek z [[srw-oe-ep1-black-tri-stars|misji „Black Tri-Stars”]]: [[dom|Dom (Black Tri-Stars)]], [[guncannon|Guncannon]] i [[guntank|Guntank]] mają po dwie, a [[dopp|Dopp]], [[g-fighter|G-Fighter]] i [[turret|Turret]] po jednej.
+
+## 2026-10-22 07:40
+
+- [[srw-oe-ep1-black-tri-stars|Scena 1-2]] „Black Tri-Stars”: [[white-base|White Base]] odpiera atak trzech [[dom|Domów]] [[black-tri-stars|Black Tri-Stars]] w drodze ku [[operacja-odessa|Odessie]].
+- Nowe jednostki: [[dom|Dom (Black Tri-Stars)]], [[dopp|Dopp]], [[g-fighter|G-Fighter]], [[guncannon|Guncannon]], [[guntank|Guntank]] i [[turret|Turret]] — z uzbrojeniem i parametrami.
+- Nowi piloci: [[kai-shiden|Kai Shiden]], [[hayato-kobayashi|Hayato Kobayashi]], [[gaia|Gaia]], [[ortega|Ortega]], [[mash|Mash]] i [[mquve|M'Quve]].
+- [[zolnierz-zeonu|Żołnierz Zeonu]] — bezimienny pilot [[dopp|Doppów]], [[zaku-ii|Zaku II]] i wieżyczek — walczy w grupie, w której wytrzymałość jest sumą maszyn.
+- Nowe hasła: [[black-tri-stars|Black Tri-Stars]], [[operacja-odessa|Operacja Odessa]] i [[jet-stream-attack|Jet Stream Attack]].
+- [[sayla-mass|Sayla]] po raz pierwszy prowadzi [[g-fighter|G-Fighter]], a [[white-base|White Base]] zyskuje miano „konia trojańskiego”.
+
+## 2026-10-22 00:40
+
+- [[medea|Medea]] — opis jednostki wsparcia [[sily-samoobrony-japonii|Sił Samoobrony Japonii]] dopasowany do danych misji: bez uzbrojenia, z żołnierzem JSDF za sterami.
+- [[medea|Medea]] — pierwowzór z anime: wojskowy samolot transportowy [[earth-federation|Federacji Ziemskiej]] z *[[mobile-suit-gundam-1979|Mobile Suit Gundam]]*, sprawdzony w źródle.
 
 ## 2026-10-21 21:43
 
-- [[medea|Medea]] — usunięto niepotwierdzone przypisanie do serii Patlabor; jednostka pozostaje w bazie bez ustalonej serii (brak źródła potwierdzającego pochodzenie, wynik audytu PR #7).
+- [[medea|Medea]] — jednostka wsparcia [[sily-samoobrony-japonii|Sił Samoobrony Japonii]] w [[srw-oe-ep1|Epizodzie 1]]; bez uzbrojenia.
 
 ## 2026-10-21 18:35
 
@@ -35,7 +59,7 @@
 
 ## 2026-10-21 13:50
 
-- Wpis **Żołnierz Zeonu** znika z bazy — ta postać nie występowała w fabule i trafiła tu przez pomyłkę. [[zaku-ii-karabin-maszynowy|Zaku II z karabinem]] i [[zaku-ii-bazooka|Zaku II z bazooką]] mają teraz tylko nazwanych pilotów, a ich opisy mówią o zwykłych żołnierzach bez odsyłacza.
+- [[zaku-ii-karabin-maszynowy|Zaku II z karabinem]] i [[zaku-ii-bazooka|Zaku II z bazooką]] — opisy doprecyzowane: za sterami stoją nazwani piloci.
 
 ## 2026-10-21 13:41
 
@@ -60,20 +84,6 @@
 - [[zeon|Księstwo Zeonu]] jest jedną z dwóch stron wojny — zdanie ma poprawną formę.
 - [[srw-oe-ep0|Epizod 0]] odzyskał spójnik w zdaniu o wspólnej ramie chronologicznej, a analiza sceny na [[white-base|White Base]] nie powtarza „a” i mówi o ataku Chara wprost.
 - Drobne poprawki w opisach [[marker|Markera]], [[exart|Exarta]] i [[zaku-ii-bazooka|Zaku II z bazooką]].
-
-## 2026-10-21 00:38
-
-- Etykiety wersji nie są już odczytywane z dosłownego tekstu dialogów — kontrola pomija ten fragment treści.
-
-## 2026-10-21 00:30
-
-- Opis schematu danych obejmuje teraz hasła, sceny i relacje z nimi, a wymagania dotyczące źródeł odpowiadają temu, co naprawdę jest sprawdzane.
-- Schemat wyjaśnia, skąd pochodzą parametry jednostek (`w_gre`): z menu gry albo z pliku w archiwum projektu.
-
-## 2026-10-21 00:20
-
-- Podgląd ilustracji przechodzi strzałkami tylko obrazy z jednej galerii, a licznik pokazuje pozycję w tej galerii, nie na całej stronie.
-- Gdy przeglądarka nie otworzy ilustracji w nowej karcie, fokus wraca do miniatury.
 
 ## 2026-10-21 00:12
 
@@ -111,20 +121,6 @@
 - Strony jednostek z karabinem i bazooką wymieniają nazwanych pilotów przed bezimienną załogą.
 - [[srw-oe-ep0|Epizod 0]] i scena na [[white-base|White Base]] mówią teraz wprost, kto siedzi w której maszynie.
 
-## 2026-10-20 20:20
-
-- Dziennik zmian prowadzi do stron: gdy wpis dotyczy postaci, mecha, hasła, serii albo epizodu, nazwa jest odsyłaczem wprost do tej strony — także we wpisach sprzed tej zmiany.
-
-## 2026-10-20 20:15
-
-- Strona główna w nowym układzie: „Co nowego” zajmuje lewą kolumnę (3/4 szerokości, osiem najnowszych wpisów i odsyłacz do całego dziennika), a „Ostatnio dodane” prawą (1/4). Lista najnowszych epizodów zniknęła z głównej — [epizody](#/epizody) mają własny dział.
-- Górne menu prowadzi teraz do działów ze stopki: [Gry](#/gry), [Serie](#/serie), [Hasła](#/pojecia), [Tagi](#/tagi), Co nowego, O bazie. Cztery kafle na głównej (sceny, epizody, postacie, mechy) nie są już powielone w menu, a stopka nie ma drugiego zestawu linków.
-- Wstęp na stronie głównej idzie pełną szerokością treści, bez łamania w połowie zdania.
-
-## 2026-10-20 20:08
-
-- Listy scen mają jeden układ: tytuł w pierwszym wierszu, opis sceny zawsze pod nim — na stronie [epizodu](#/epizody) i w dziale [„Sceny”](#/sceny).
-
 ## 2026-10-20 20:04
 
 - Opis bezimiennego pilota mówi o ludziach armii, nie o miejscu w danych gry: [[zaku-ii|Zaku II]], siła szyku i nazwani podwładni [[char-aznable|Chara]] w [[srw-oe-ep0-na-ratunek-white-base|scenie ataku na White Base]].
@@ -145,13 +141,9 @@
 ## 2026-10-20 18:29
 
 - [[white-base|White Base]] zyskuje portret i pełny rekord jednostki: załogę [[bright-noa|Bright Noa]] i [[mirai-yashima|Mirai Yashima]], zdolności okrętu-matki oraz cztery działa.
-- [[rx-78-2-gundam|Gundam]]: dwa nowe zdjęcia oraz parametry pilota [[amuro-ray|Amuro Raya]] — Potencjał Krytyczny, Newtype, blok tarczą i cztery rodzaje uzbrojenia.
+- [[rx-78-2-gundam|Gundam]]: dwa nowe zdjęcia oraz parametry pilota [[amuro-ray|Amuro Raya]] — Potencjał Krytyczny, [[newtype|Newtype]], blok tarczą i cztery rodzaje uzbrojenia.
 - [[seishiro|Seishiro Kusanagi]]: nowa umiejętność Precyzja w profilu [[exart|Exarta]] i na swojej stronie.
 - White Base jest odtąd jednostką bojową w bazie, a nie hasłem o okręcie; odsyłacze pozostają bez zmian.
-
-## 2026-10-20 18:11
-
-- Galerie ilustracji: pod obrazem nie ma już dodatkowego odnośnika — powiększenie otwiera się po kliknięciu samej ilustracji.
 
 ## 2026-10-20 18:06
 
@@ -170,15 +162,6 @@
 ## 2026-10-20 11:55
 
 - Każdy fragment opisu ma etykietę tytułu, którego dotyczy — także opisy z gry, epizody, sceny i seriale. Informacje niezależne od wersji oznaczono jako wspólne, a rodowód postaci i mechów jako pochodzący z całej serii.
-
-## 2026-10-20 11:49
-
-- Opisy i galerie mają teraz jawny tytuł, którego dotyczą: etykieta gry przy fragmentach i ilustracjach, gry w infoboksie oraz nazwa tytułu w podglądzie pełnoekranowym.
-- Rodowód postaci i mechów oznaczono jako informacje wspólne dla wszystkich tytułów.
-
-## 2026-10-20 10:46
-
-- Ilustracje: kliknięcie obrazu otwiera go na pełnym ekranie, z podpisem i przełączaniem między obrazami danej strony.
 
 ## 2026-10-19 23:15
 
