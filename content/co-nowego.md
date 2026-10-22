@@ -3,8 +3,9 @@
 ## 2026-10-22 07:40
 
 - [[srw-oe-ep1-black-tri-stars|Scena 1-2]] „Black Tri-Stars”: [[white-base|White Base]] odpiera atak trzech [[dom|Domów]] [[black-tri-stars|Black Tri-Stars]] w drodze ku [[operacja-odessa|Odessie]].
-- Nowe jednostki: [[dom|Dom (Black Tri-Stars)]], [[dopp|Dopp]], [[g-fighter|G-Fighter]], [[guncannon|Guncannon]] i [[guntank|Guntank]] — z uzbrojeniem i parametrami.
+- Nowe jednostki: [[dom|Dom (Black Tri-Stars)]], [[dopp|Dopp]], [[g-fighter|G-Fighter]], [[guncannon|Guncannon]], [[guntank|Guntank]] i [[turret|Turret]] — z uzbrojeniem i parametrami.
 - Nowi piloci: [[kai-shiden|Kai Shiden]], [[hayato-kobayashi|Hayato Kobayashi]], [[gaia|Gaia]], [[ortega|Ortega]], [[mash|Mash]] i [[mquve|M'Quve]].
+- [[zolnierz-zeonu|Żołnierz Zeonu]] — bezimienny pilot [[dopp|Doppów]], [[zaku-ii|Zaku II]] i wieżyczek — walczy w grupie, w której wytrzymałość jest sumą maszyn.
 - Nowe hasła: [[black-tri-stars|Black Tri-Stars]], [[operacja-odessa|Operacja Odessa]] i [[jet-stream-attack|Jet Stream Attack]].
 - [[sayla-mass|Sayla]] po raz pierwszy prowadzi [[g-fighter|G-Fighter]], a [[white-base|White Base]] zyskuje miano „konia trojańskiego”.
 

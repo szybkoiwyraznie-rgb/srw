@@ -64,3 +64,10 @@ pomyłkę, dlatego wpis znika z bazy: nie ma strony postaci, nie figuruje w polu
 maszyn i nie ma do niego odsyłaczy. Surowy plik materiału pozostaje niezmieniony jako
 zapis źródłowy; opracowanie w `dostawy/srw-oe/` również zachowuje ten profil, bo opisuje
 materiał, a nie stan bazy. Punkt 6 decyzji w zakresie Żołnierza Zeonu przestaje obowiązywać.
+
+## Adnotacja 2026-10-22 — Żołnierz Zeonu przywrócony
+
+Dostawa `dostawa_1_2.txt` (misja 2 epizodu 1) przywraca **Żołnierza Zeonu** jako aktywnego
+pilota Doppów, Zaku II i wieżyczek. Wpis wraca do bazy razem z własną stroną postaci;
+adnotacja z 2026-10-21 dotyczyła wycofanego materiału i przestaje obowiązywać. Maszyny,
+które obsadza, znów wymieniają go w polu `piloci` po nazwanych pilotach (ADR 0024).

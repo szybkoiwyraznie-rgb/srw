@@ -5,8 +5,8 @@ tytul: Epizod 1
 gra: srw-oe
 numer: 1
 skrypt: episodes/srw-oe/ep001.md
-postacie: [seishiro, himari-yaegaki, suol, noa-izumi, isao-ota, kanuka-clancy, asuma-shinohara, kiichi-goto, mikiyasu-shinshi, hiromi-yamazaki, zolnierz-jsdf, shinohara-hos, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve]
-mechy: [exart, ingram-nr-1, ingram-nr-2, medea, hal-x10, hal-x10-green, helldiver, rx-78-2-gundam, guncannon, guntank, g-fighter, white-base, dom, dopp, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
+postacie: [seishiro, himari-yaegaki, suol, noa-izumi, isao-ota, kanuka-clancy, asuma-shinohara, kiichi-goto, mikiyasu-shinshi, hiromi-yamazaki, zolnierz-jsdf, shinohara-hos, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve, zolnierz-zeonu]
+mechy: [exart, ingram-nr-1, ingram-nr-2, medea, hal-x10, hal-x10-green, helldiver, rx-78-2-gundam, guncannon, guntank, g-fighter, white-base, dom, dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
 pojecia: [connect-force, labor, sv2, sily-samoobrony-japonii, poligon-fuji, black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, minovsky-particles]
 pochodzenie: skrypt
 zrodla:
@@ -14,6 +14,7 @@ zrodla:
   - https://patlabor.fandom.com/wiki/HAL_X-10
   - https://gundam.fandom.com/wiki/Black_Tri-Stars
   - https://gundam.fandom.com/wiki/Operation_Odessa
+  - https://gundam.fandom.com/wiki/G-Fighter
 tagi: [patlabor, trening]
 utworzono: 2026-10-21
 ---
@@ -64,4 +65,5 @@ Druga misja zmienia ton: zamiast ćwiczeń na poligonie jest regularna operacja 
 - [[connect-force|Connect]], [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] są oryginalnymi elementami *Super Robot Wars OE*.
 - [[black-tri-stars|Black Tri-Stars]] to elitarna trójka pilotów [[zeon|Zeonu]] — [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] — a ich znakiem rozpoznawczym był [[jet-stream-attack|Jet Stream Attack]] ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-22).
 - Operacja Odessa była kontrofensywą Sił Federacji Ziemskiej przeciw Zeonowi na północnym wybrzeżu Morza Czarnego i największą bitwą lądową tej wojny ([Gundam Wiki, „Operation Odessa”](https://gundam.fandom.com/wiki/Operation_Odessa); sprawdzono 2026-10-22).
+- G-Fighter to ciężki myśliwiec wsparcia Gundama, zbudowany z dwóch modułów i zdolny do lotu w atmosferze; jednym z jego pilotów była [[sayla-mass|Sayla Mass]] ([Gundam Wiki, „G-Fighter”](https://gundam.fandom.com/wiki/G-Fighter); sprawdzono 2026-10-22).
 }}

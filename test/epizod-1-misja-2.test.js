@@ -42,9 +42,10 @@ test('scena 1-2 jest dosłownym fragmentem skryptu i ma własny numer', () => {
 
 test('obsada i sprzęt misji 2 są spięte z epizodem i sceną', () => {
   const postacie = ['amuro-ray', 'kai-shiden', 'hayato-kobayashi', 'bright-noa', 'sayla-mass',
-    'mirai-yashima', 'fraw-bow', 'oscar-dublin', 'marker', 'gaia', 'ortega', 'mash', 'mquve'];
+    'mirai-yashima', 'fraw-bow', 'oscar-dublin', 'marker', 'gaia', 'ortega', 'mash', 'mquve',
+    'zolnierz-zeonu'];
   const mechy = ['rx-78-2-gundam', 'guncannon', 'guntank', 'g-fighter', 'white-base',
-    'dom', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy'];
+    'dom', 'dopp', 'turret', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy'];
   const pojecia = ['black-tri-stars', 'operacja-odessa', 'jet-stream-attack'];
   for (const p of postacie) {
     assert.ok(bySlug.has(p), `brak strony postaci ${p}`);
@@ -89,7 +90,10 @@ test('obsada jednostek misji 2 zachowuje kolejność pilotów i domyślną zało
   assert.deepEqual(bySlug.get('g-fighter').piloci, ['sayla-mass']);
   assert.deepEqual(bySlug.get('guncannon').piloci, ['kai-shiden']);
   assert.deepEqual(bySlug.get('guntank').piloci, ['hayato-kobayashi']);
-  assert.deepEqual(bySlug.get('dopp').piloci, []);
+  assert.deepEqual(bySlug.get('dopp').piloci, ['zolnierz-zeonu']);
+  assert.deepEqual(bySlug.get('turret').piloci, ['zolnierz-zeonu']);
+  assert.deepEqual(bySlug.get('zolnierz-zeonu').mechy,
+    ['dopp', 'turret', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']);
   assert.deepEqual(bySlug.get('sayla-mass').mechy, ['g-fighter']);
 });
 
@@ -114,15 +118,38 @@ test('profile pilotów misji 2: statystyki, komendy Ducha i umiejętności', () 
   assert.match(bySlug.get('hayato-kobayashi').body, /\| \*\*Hart\*\* \|/, 'Hayato: komenda Ducha');
 });
 
+test('wieżyczka uniwersalna i Żołnierz Zeonu mają własne strony z danymi dostawy', () => {
+  const turret = bySlug.get('turret');
+  assert.equal(turret.typ, 'mech');
+  assert.equal(turret.seria, undefined, 'wieżyczka bez wpisu w słowniku serii');
+  assert.deepEqual(turret.gry, ['srw-oe']);
+  const tstats = JSON.parse(turret.w_gre['srw-oe']);
+  assert.equal(tstats.dostawa, 'dostawy/srw-oe/dostawa_1_2.txt');
+  assert.ok(delivery.includes(tstats.profil), 'profil wieżyczki w dostawie');
+  assert.match(turret.body, /\*\*Obiekt stały \(bez poziomu\):\*\*/);
+  const trows = turret.body.split('\n').filter((line) => /^\|\s+\d+\s+\|/.test(line));
+  assert.equal(trows.length, 1, 'jedno działanie wieżyczki');
+  assert.match(trows[0], /\|\s+0 \| Ostrzał \|\s+900 \|\s+3–8\s+\|\s+\+40 \|\s+5 \|/);
+
+  const zolnierz = bySlug.get('zolnierz-zeonu');
+  assert.equal(zolnierz.typ, 'postac');
+  assert.equal(zolnierz.rola, 'pilot');
+  assert.equal(zolnierz.seria, undefined, 'brak wpisu w słowniku postaci');
+  assert.deepEqual(zolnierz.gry, ['srw-oe']);
+  for (const [nazwa, wartosc] of [['SP', 10], ['Atak', 103], ['Obrona', 67], ['Celność', 129], ['Unik', 59]]) {
+    assert.match(zolnierz.body, new RegExp(`\\| ${nazwa} \\| ${wartosc} \\|`), `Żołnierz: ${nazwa}`);
+  }
+  assert.match(zolnierz.body, /\| 1 \| \*\*Szeregowy\*\* \| 1 \|/, 'Żołnierz: umiejętność');
+  assert.match(zolnierz.body, /\[\[turret\|Turret\]\]/, 'Żołnierz: odsyłacz do wieżyczki');
+});
+
 test('nowe strony misji 2 nie mają ilustracji ani profilu zbiorczego', () => {
-  const nowe = ['dom', 'dopp', 'g-fighter', 'guncannon', 'guntank', 'kai-shiden',
-    'hayato-kobayashi', 'gaia', 'ortega', 'mash', 'mquve',
+  const nowe = ['dom', 'dopp', 'g-fighter', 'guncannon', 'guntank', 'turret', 'kai-shiden',
+    'hayato-kobayashi', 'gaia', 'ortega', 'mash', 'mquve', 'zolnierz-zeonu',
     'black-tri-stars', 'jet-stream-attack', 'operacja-odessa'];
   for (const slug of nowe) {
     const strona = bySlug.get(slug);
     assert.doesNotMatch(strona.body, /r2\.dev/, `${slug}: brak ilustracji`);
     assert.doesNotMatch(strona.body, /^## Ilustracje$/m, `${slug}: brak galerii`);
   }
-  assert.ok(!bySlug.has('zolnierz-zeonu'), 'Żołnierz Zeonu nie ma własnej strony');
-  assert.ok(!bySlug.has('turret'), 'wieżyczka uniwersalna to obiekt sceny, nie piloted mech');
 });

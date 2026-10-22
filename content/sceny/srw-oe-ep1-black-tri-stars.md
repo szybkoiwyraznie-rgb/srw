@@ -6,8 +6,8 @@ epizod: srw-oe-ep1
 numer_sceny: "1-2"
 streszczenie: "Druga misja epizodu 1: powrót Connect z Japonii, odprawa M'Quve'a z Black Tri-Stars, start White Base i walka z trzema Domami, które wycofują się po nieudanym ataku."
 pochodzenie: skrypt
-postacie: [seishiro, himari-yaegaki, suol, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve]
-mechy: [g-fighter, guncannon, rx-78-2-gundam, guntank, white-base, dom, dopp, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
+postacie: [seishiro, himari-yaegaki, suol, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve, zolnierz-zeonu]
+mechy: [g-fighter, guncannon, rx-78-2-gundam, guntank, white-base, dom, dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
 pojecia: [black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, connect-force, minovsky-particles]
 tagi: [one-year-war]
 utworzono: 2026-10-22
