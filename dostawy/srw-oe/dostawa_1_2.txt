@@ -1,0 +1,915 @@
+---
+---
+SCENA
+---
+---
+
+## Black Tri-Stars
+
+Zachęcone skutecznością swoich mobile suitów Siły Federacji przeszły do kontrofensywy.
+
+Jej celem było odbicie Odessy, największej bazy Zeonu na Ziemi, wraz z okolicznymi złożami surowców.
+
+W odpowiedzi Zeon ściągnął siły z Europy, Bliskiego Wschodu i Afryki pod dowództwo komandora M'Quve i szykował się do obrony.
+
+Tymczasem White Base, który zszedł na Ziemię, odpierając kolejne ataki Zeonu, obrał kurs na Azję Środkową, by wesprzeć operację Odessa...
+
+### Transportowiec / Hangar
+
+**Seishiro:** Opuściliśmy atmosferę. Kierujemy się na szlak handlowy.
+
+**Himari:** Wreszcie zajrzeliśmy do Japonii, a tu od razu powrót... no tak...
+
+**Seishiro:** Ta misja obejmuje również powrót na Stację Connect. Sprawdzają, jak szybko przejdziemy do kolejnej.
+
+**Seishiro:** Exart poradził sobie z wejściem w atmosferę, ale z grawitacji wyrwie się tylko z transportem... Bez tego bylibyśmy o wiele elastyczniejsi...
+
+**Himari:** No coś ty... Przecież to nie superrobot...
+
+**Seishiro:** Fakt... Japońskie superroboty robią to bez najmniejszego wysiłku... Musimy to umieć, żeby dotrzymać im kroku.
+
+**Himari:** Aha... Ale teraz ważniejsze jest to, że... zimnooo...
+
+**Seishiro:** Hm? Zimno?
+
+**Himari:** Nie jest ci... zimno w tym transportowcu?
+
+**Seishiro:** Klimatyzacja działa. Jest chyba w porządku...
+
+**Himari:** Może... firma oszczędza na prądzie?
+
+**Seishiro:** Raczej nie na statku kosmicznym. No, Connect faktycznie tnie zbędne wydatki, gdzie tylko może...
+
+**Himari:** Aha... \*pociąg nosem\*...
+
+**Himari:** Eee... a ile zajmie powrót do ziemskiej filii Connect?
+
+**Seishiro:** Jesteśmy już poza atmosferą... Po wejściu na szlak handlowy powinno pójść w niecałą godzinę... A co?
+
+**Himari:** \*chlip\*... Zmarzłam na kość... Nie wytrzymam.
+
+**Seishiro:** To poćwicz na maszynie, nabierz trochę mięśni. I się rozgrzejesz. Dwie pieczenie na jednym ogniu.
+
+**Himari:** Dopiero co skończyłam normę, którą mi zadałeś!
+
+**Himari:** Już mnie wszystko boli! Jeszcze trochę i zrobi się ze mnie mięśniak!
+
+**Seishiro:** No proszę... Himari nie znosi zimna...
+
+**Szef Suol:** Cześć! Dobra robota na tym japońskim poligonie!
+
+**Seishiro:** Wydarzyło się coś nieprzewidzianego, ale wyszło z tego dobre szkolenie.
+
+**Szef Suol:** Kto by pomyślał, że z ćwiczeń zrobi się walka.
+
+**Seishiro:** Nie spodziewałem się walki w neutralnej Japonii. Na szczęście straty udało się ograniczyć...
+
+**Himari:** \*chlip\*... Podobno wciąż nie wiadomo, czemu te bezzałogowe Labory oszalały.
+
+**Seishiro:** Nikt nie przyznał się do ataku. Nie wiemy nawet, czy to zamach, czy wypadek.
+
+**Szef Suol:** To zadanie dla policji albo Ministerstwa Obrony, ale tym razem i my pomożemy w śledztwie.
+
+**Seishiro:** Connect pomoże ustalić przyczynę?
+
+**Szef Suol:** No, ręka rękę myje.
+
+**Himari:** Razem szybciej ustalimy przyczynę!
+
+**Szef Suol:** Hahahahaha, właśnie o to chodzi.
+
+**Seishiro:** A propos, czy White Base po ucieczce z Side 7 bezpiecznie dotarł na Ziemię?
+
+**Szef Suol:** O tak, ma się dobrze. Zeon ciągle ich atakuje, ale ponoć niedawno przepływali niedaleko Japonii.
+
+**Szef Suol:** Załoga chyba też bez zmian. Kierują się w stronę Azji Środkowej, więc może dołączą do operacji Odessa.
+
+**Seishiro:** Ulżyło mi, że przeżyli.
+
+**Seishiro:** Ale żeby rzucać prawie amatorów w coś, co będzie krwawą bitwą o Odessę...
+
+**Szef Suol:** Nieraz już przetrwali prawdziwą walkę. To już nie są amatorzy.
+
+**Himari:** Eee... czy Odessa jest aż tak ważna dla Zeonu?
+
+**Seishiro:** Okolice Odessy obfitują w surowce o strategicznym znaczeniu. Ich utrata mocno uderzyłaby w produkcję Zeonu.
+
+**Himari:** Aha... \*chlip\*... \*siąk\*...
+
+**Szef Suol:** Co jest, Himari? Przeziębiłaś się?
+
+**Himari:** N-nie, Szefie! Po prostu nie przywykłam do zimna na statku...
+
+**Szef Suol:** Dbanie o zdrowie to też obowiązek. Jak ci zimno, może trochę poćwiczysz?
+
+**Himari:** Ech... Szef też...
+
+### Baza Zeonu / Odessa
+
+**M'Quve:** A więc przybyły posiłki od lady Kycilii...
+
+**Gaia:** Trzy Domy, nowe mobile suity do walki lądowej. Może pan na nas liczyć, komendancie M'Quve.
+
+**M'Quve:** Hm... Black Tri-Stars pod wodzą porucznika Gai podobno są warci całej dywizji.
+
+**M'Quve:** Najpierw rozbijemy siły na froncie Revila. Koń trojański poczeka.
+
+**Gaia:** Czy to nie zbyt beztroskie? Ponoć jest tam Newtype.
+
+**M'Quve:** Nie wierzę w to. Newtype'y, też coś...
+
+**Gaia:** Komendant sam nie walczy, więc tego nie rozumie.
+
+**Gaia:** Osiągnięć tego konia trojańskiego nie wolno lekceważyć.
+
+**M'Quve:** Hoo... Skoro aż tak to pana poruszyło, poruczniku, chyba muszę zmienić zdanie.
+
+**M'Quve:** Dobrze. Koń trojański zbliża się do wschodniej kopalni. Zniszczcie go szybko i wracajcie na front.
+
+**Gaia:** Oczywiście, taki był plan.
+
+**Gaia:** Zostaw to nam.
+
+### White Base przygotowuje się do startu
+
+**Marker:** Cząstki Minovsky'ego rozpylone! Stężenie bojowe!
+
+**Mirai:** White Base gotowy do startu.
+
+**Bright:** Dobrze! Gundam, Guncannon, Guntank, start!
+
+**Bright:** Co z G-Fighterem?
+
+**Fraw:** Były problemy z konfiguracją, ale chyba zdążą na czas.
+
+**Amuro:** Sayla, jesteś gotowa?
+
+**Sayla:** Nie skończyłam jeszcze kontroli. Chwileczkę.
+
+**Kai:** Twój pierwszy wylot, co, Sayla? Dasz radę?
+
+**Sayla:** Nie musisz się martwić.
+
+**Kai:** No to świetnie, he-he-he-he...
+
+**Hayato:** Kai, blokujesz kolejkę!
+
+**Kai:** Sorki, sorki! Kai, Guncannon, jazda!
+
+**Hayato:** Hayato, Guntank, startuję!
+
+**Sayla:** Wszystkie systemy sprawne. Sayla, G-Fighter, startuję.
+
+**Amuro:** Amuro, Gundam, startuję!
+
+**Amuro:** Gdzie cel?
+
+**Oscar:** Wykryto przechwytujące siły wroga!
+
+**Marker:** Widzę Zaku i Doppy!
+
+**Amuro:** Sayla! Wróg to nie tylko maszyny bojowe. Uważaj też na ostrzał z bazy!
+
+**Sayla:** Wiem. G-Fighter to łatwy cel dla artylerii plot.
+
+**Kai:** Cała Sayla. Zna się na rzeczy!
+
+**Hayato:** Amuro, na Doppy lepiej użyć uzbrojenia przeciwlotniczego.
+
+**Amuro:** Racja. Jeśli najpierw zdobędziemy przewagę w powietrzu, G-Fighter łatwiej zaatakuje cele naziemne.
+
+**Kai:** Się robi! Plan zostawiam tobie, Amuro!
+
+### Przybycie Black Tri-Stars
+
+**Gaia:** Hoo... A więc to jest koń trojański Federacji i ten biały mobile suit...
+
+**Gaia:** Ortega, Mash! Gotowi?
+
+**Ortega:** Jasne!
+
+**Mash:** Pokażemy im, czym jest prawdziwy strach!
+
+**Gaia:** Pilot białego mobile suita Federacji... Podobno Newtype. Nie wolno go lekceważyć.
+
+#### Dialogi warunkowe — Amuro i Gaia
+
+> **Amuro:** Ten pilot jest dobry...!
+
+> **Gaia:** A więc biały mobile suit raczył się pokazać. Zmierzysz się z nami!
+
+#### Dialogi warunkowe — piloci Federacji
+
+> **Gaia:** Hmf, mobile suit Federacji! Wcale nie taki groźny, jak mówią!
+
+> **Ortega:** Te ruchy... Żółtodziób? Chyba jeszcze nie oswoił się z mobile suitem.
+
+> **Gaia:** Dooobra! Zmylimy go szybkością Domów i wykończymy!
+
+> **Kai:** S-szybcy są! Jak mamy ich niby zatrzymać?!
+
+#### Dialogi warunkowe — G-Fighter
+
+> **Sayla:** Gdybym tylko odcięła drogę temu czarnemu...!
+
+> **Mash:** Myśliwiec...?! Według raportu ten okręt miał trzy mobile suity!
+
+> **Gaia:** Zapomnij o raporcie! Federacja też nie siedzi z założonymi rękami.
+
+#### Dialogi sytuacyjne — obrona powietrzna i naziemna
+
+> **Kai:** U-uaaa! Ja też umiem strzelać do samolotów... Ja też!
+
+> **Bright:** Jeśli przygwożdżą nas ostrzałem, będzie źle...! Hayato, trafisz stamtąd w ich baterie?!
+
+> **Hayato:** Dam radę! Ostrzał umocnień proszę zostawić Guntankowi!
+
+#### Dialogi warunkowe — zbliżenie do White Base
+
+> **Mash:** To prawda, że za zatopienie tego okrętu dostaje się Krzyż Zeonu?
+
+> **Ortega:** He-he-he, a wtedy nasze imiona staną się jeszcze bardziej legendarne...!
+
+> **Gaia:** Nie szarżujcie w pogoni za chwałą! Najpierw zatrzymajcie okręt. Jeśli nie dotrze do Odessy, zadanie wykonane.
+
+> **Bright:** Przełamali naszą linię obrony?!
+
+> **Bright:** Co robią mobile suity?!
+
+### Odwrót Black Tri-Stars
+
+**Gaia:** Tch, koń trojański jest aż tak silny?!
+
+**Ortega:** Prześlizgnęli się przez Jet Stream Attack! Nie do wiary!
+
+**Gaia:** Ortega, Mash! Wycofujemy się!
+
+**Ortega:** Co... Wycofujemy?!
+
+**Mash:** Jak koń trojański nam się wymknie, M'Quve będzie nam to wypominał, wiesz?
+
+**Gaia:** Idioto! Źle wybrać chwilę odwrotu przez głupią dumę to cecha drugorzędnych pilotów!
+
+**Gaia:** Jeśli tu zginiemy, wszystko na nic! Musimy złożyć komendantowi M'Quve raport z tej walki i obmyślić plan!
+
+**Mash:** Wybacz... Że też akurat ja zapomniałem o żelaznej zasadzie przetrwania na polu bitwy.
+
+**Ortega:** Boli... ale przy następnym spotkaniu urządzimy im krwawą jatkę!
+
+**Gaia:** Dobra, wracamy!
+
+**Marker:** Baza wroga opanowana.
+
+**Bright:** Dobrze! Operacja zakończona.
+
+### Baza Zeonu / Odessa
+
+**M'Quve:** Kto by pomyślał, że Black Tri-Stars przegrają...
+
+**M'Quve:** Polecała ich lady Kycilia, ale może za wiele się po nich spodziewałem.
+
+**M'Quve:** Nie, przecież wrócili. Raczej wiedzieli, kiedy się wycofać...
+
+**M'Quve:** Ale mając przed sobą główne siły wroga, nie mogę wysłać więcej na konia trojańskiego...
+
+**M'Quve:** Zależnie od rozwoju bitwy o Odessę przyjdzie mi zagrać cenną kartą dyplomatyczną.
+
+### White Base / Pokład mobile suitów
+
+**Sayla:** G-Parts, odblokowane. A teraz właz serwisowy silnika nr 2...
+
+**Kai:** No pięknie... Dopiero wróciliśmy z walki, a jeszcze mamy robić przegląd?
+
+**Hayato:** Nic nie poradzisz, Kai. Brakuje ludzi do obsługi technicznej.
+
+**Amuro:** Hayato, podasz mi część zamienną nr 133?
+
+**Hayato:** Tu też jej nie ma. To materiał eksploatacyjny klasy D, więc chyba nie trzeba go wymieniać?
+
+**Amuro:** Jak nie wymienię jej trochę wcześniej, spada niezawodność układu napędowego.
+
+**Hayato:** Powinna być w dostawie zaopatrzenia. Poszukajmy w magazynie części.
+
+**Fraw:** Dobra robota! Przyniosłam wam coś do jedzenia.
+
+**Kai:** O, to rozumiem.
+
+**Sayla:** Dziękuję, Fraw.
+
+**Fraw:** Oj... Amuro, Hayato. Wy dwaj... śmierdzicie. Może byście chociaż wzięli prysznic?
+
+**Amuro:** N-nie ma na to czasu. Operacja Odessa wciąż trwa.
+
+**Kai:** Czy White Base nie płynie przypadkiem do Jaburo?
+
+**Sayla:** Nie weźmiemy udziału w ataku na samą Odessę, ale pewnie uderzymy na bazy po drodze.
+
+**Kai:** Czyli urlop na razie odpada...
+
+### White Base / Mostek
+
+**Bright:** Twierdzisz, że te Domy, z którymi walczyliśmy, to byli Black Tri-Stars?
+
+**Oscar:** Dane pochodzą z Jaburo, więc to pewne.
+
+**Marker:** To podobno weterani, którzy kiedyś wzięli do niewoli nawet generała Revila.
+
+**Mirai:** Udało się ich odeprzeć, ale...
+
+**Bright:** Wycofali się w dobrym porządku. Czyli jeszcze wrócą...
+
+**Mirai:** Kto wie. Chyba nie wrócą w trakcie operacji Odessa.
+
+**Bright:** Dlaczego tak uważasz?
+
+**Mirai:** Nie mają teraz czasu zajmować się nami...
+
+**Mirai:** Poza tym... nie umiem tego wyjaśnić, ale po prostu mam takie przeczucie...
+
+**Bright:** Też chciałbym tak myśleć, ale...
+
+**Mirai:** Bright, nie możemy być zbyt pewni siebie, ale powinniśmy bardziej w siebie wierzyć. Tym razem Sayla też świetnie się spisała.
+
+**Bright:** Masz rację. Nasze siły też rosną.
+
+**Bright:** Piloci dźwigają ogromny ciężar, ale teraz musimy dać z siebie wszystko.
+
+**Mirai:** Tak. Postarajmy się.
+
+---
+---
+UCZESTNICY
+---
+---
+
+### Odcinek 1 — Black Tri-Stars (`DL101_20`)
+
+**Źródło:** `eventP00.cpk/DL101_20_Entry.dat`
+**Warunki misji:**
+> W tej misji skład jednostek jest z góry ustalony.
+
+**Jednostki sojusznicze (gracza):**
+  - **G-Fighter** — pilot główny: Sayla Mass
+  - **Guncannon** — pilot główny: Kai Shiden
+  - **Gundam** — pilot główny: Amuro Ray
+  - **Guntank** — pilot główny: Hayato Kobayashi
+  - **White Base** — pilot główny: Bright Noa — piloci wspierający w misji: Mirai Yashima
+
+**Jednostki wrogie:**
+  - **Dom (Black Tri-Stars)** — pilot główny: Gaia
+  - **Dom (Black Tri-Stars)** — pilot główny: Mash
+  - **Dom (Black Tri-Stars)** — pilot główny: Ortega
+  - **Dopp** — pilot główny: Żołnierz Zeonu — ×2 rekordy źródłowe Entry ID — obecny alternatywny rekord Entry ID
+  - **Dopp** — pilot główny: Żołnierz Zeonu — ×2 rekordy źródłowe Entry ID — obecny alternatywny rekord Entry ID
+  - **Wieżyczka uniwersalna** — pilot główny: Żołnierz Zeonu — ×4 rekordy źródłowe Entry ID — obecny alternatywny rekord Entry ID — cel/obiekt skryptowy; nie jest pilotowanym mechem
+  - **Wieżyczka uniwersalna** — pilot główny: Żołnierz Zeonu — ×5 rekordów źródłowych Entry ID — obecny alternatywny rekord Entry ID — cel/obiekt skryptowy; nie jest pilotowanym mechem
+  - **Zaku II/Bazooka** — pilot główny: Żołnierz Zeonu
+  - **Zaku II/Karabin maszynowy** — pilot główny: Żołnierz Zeonu — ×2 rekordy źródłowe Entry ID
+
+---
+
+#### Domyślne mechy i jednostki w misji (sekcje z `srwoe_mech_catalog_v4_PL.md`)
+
+## Dom (Dom (Black Tri-Stars))
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa          | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | -------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Heat Saber     |       1900 |  1–2   |       +60 |   5 |      — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18%                                 |
+|       1 | Wielka bazooka |       3000 |  1–5   |       +20 |  10 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+
+---
+
+## Dopp
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                       | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | --------------------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Karabin maszynowy           |        900 |  1–3   |       +40 |   5 |      — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4        |
+|       1 | Rakiety powietrze-powietrze |       1400 |  1–5   |       +10 |   5 |      — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4        |
+|         |                             |            |        |           |     |        |                 | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+
+---
+
+## G-Fighter
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+**Składy grup zapisane w tabeli:** Oddział White Base.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa            | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                            |
+| ------: | ---------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |
+|       0 | Wyrzutnia rakiet |       2500 |  1–5   |       +30 |   5 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|         |                  |            |        |           |     |        |                    | **Na ląd (poziom bazowy 1):** Teren "Ląd": Cel+40% Atk x1.3         |
+|       1 | Działo wiązkowe  |       3200 |  3–6   |       +15 |  10 |      — | Brak w tym polu    | **Na kosmos (poziom bazowy 1):** Teren "Kos": Cel+30% Atk x1.1      |
+|         |                  |            |        |           |     |        |                    | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                |
+|       3 | Zaopatrzenie EN  |          0 |  1–2   |        +0 |   0 |      — | Brak w tym polu    | **Zaopatrz. (poziom bazowy 1):** Sojusznicy 1 jedn.: EN+50          |
+
+---
+
+## Turret (Wieżyczka uniwersalna)
+
+**Seria:** ---
+
+### Macierzyste zdolności maszyny
+
+- **Obiekt stały (bez poziomu):** Odporn.: "Przebicie" " Pchnięcie", " Rzut"  
+  Nie może unikać ataków
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa   | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | ------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Ostrzał |        900 |  3–8   |       +40 |   5 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+
+---
+
+## Guncannon
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+**Składy grup zapisane w tabeli:** Oddział White Base.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa            | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                                  |
+| ------: | ---------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------------- |
+|       0 | Działko Vulcan   |       2200 |  1–3   |       +40 |   0 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu       |
+|       1 | Karabin wiązkowy |       2900 |  1–4   |       +20 |  10 |      — | Brak w tym polu    | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                      |
+|       2 | Działo 240 mm    |       3400 |  2–5   |        +5 |  20 |      — | Brak w tym polu    | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód                   |
+|         |                  |            |        |           |     |        |                    | **Wstrząs (poziom bazowy 1):** Obraż.600 1 tura: Obr wroga-20% Szansa 30% |
+
+---
+
+## Gundam
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+**Składy grup zapisane w tabeli:** Oddział White Base.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa            | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek              | Zdolności — opisy bazowe                                            |
+| ------: | ---------------- | ---------: | :----: | --------: | --: | -----: | -------------------- | ------------------------------------------------------------------- |
+|       0 | Działko Vulcan   |       2200 |  1–3   |       +40 |   0 |      — | Brak w tym polu      | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|       1 | Karabin wiązkowy |       3100 |  1–4   |       +20 |  10 |      — | Brak w tym polu      | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                |
+|       2 | Szabla wiązkowa  |       3200 |  1–1   |       +50 |   5 |      — | Brak w tym polu      | **Ucieczka (poziom bazowy 1):** Unik+18%                            |
+|       3 | Hiperbazooka     |       3600 |  2–4   |        +5 |  20 |      — | Brak w tym polu      | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole             |
+|         |                  |            |        |           |     |        |                      |   Zderzenie Obraż.500 Obraż. od upadku 1000                         |
+|         |                  |            |        |           |     |        |                      |   Ignoruje Osłonę; bez wsparcia                                     |
+
+---
+
+## Guntank
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+- **Hart (poziom bazowy 1):** Odp.: Odepch./Rzut  
+  Obraż.-4%
+
+**Składy grup zapisane w tabeli:** Oddział White Base.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa         | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                            |
+| ------: | ------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |
+|       0 | Bop Missiles  |       2400 |  1–4   |       +30 |  10 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|         |               |            |        |           |     |        |                    | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4   |
+|       1 | Działo 120 mm |       3800 |  3–7   |       +10 |  20 |      — | Brak w tym polu    | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód             |
+|         |               |            |        |           |     |        |                    | **Na ląd (poziom bazowy 1):** Teren "Ląd": Cel+40% Atk x1.3         |
+
+---
+
+## White Base
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+- **Okręt-matka (poziom bazowy 1):** Sojusznicy: przewóz i start  
+  HP/EN przewoż.+20%; SP/Morale pilota+2  
+  Odporn.: "Przebicie" "Pchnięcie" "Rzut"
+- **Ciężki panc. (poziom bazowy 1):** Obraż.-12%
+- **Odnowa EN (poziom bazowy 1):** EN co turę+4%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                   | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | ----------------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Karabin przeciwlotniczy |       1800 |  1–3   |       +30 |  40 |      — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg                      |
+|         |                         |            |        |           |     |        |                 |   Bez kontry                                                             |
+|         |                         |            |        |           |     |        |                 |   Nie do wsparcia ani kontry                                             |
+|       1 | Duże rakiety            |       2200 |  1–4   |       +20 |  30 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                              |
+|       2 | Podwójne działo główne  |       2800 |  1–6   |       +30 |  60 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+|         |                         |            |        |           |     |        |                 | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                     |
+|       3 | Działo megacząsteczkowe |       3200 |  3–5   |        +0 |  80 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+|         |                         |            |        |           |     |        |                 | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                     |
+
+---
+
+## Zaku II (Zaku II/Bazooka)
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa        | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | ------------ | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Bazooka Zaku |       1500 |  1–4   |        +5 |  10 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+|       1 | Heat Hawk    |       1600 |  1–1   |       +50 |   0 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                              |
+
+---
+
+## Zaku II (Zaku II/Karabin maszynowy)
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                  | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                    |
+| ------: | ---------------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------- |
+|       0 | Karabin maszynowy Zaku |       1000 |  1–3   |       +30 |   5 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+|       1 | Heat Hawk              |       1600 |  1–1   |       +50 |   0 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+
+---
+
+#### Piloci i postacie w misji oraz skrypcie sceny (sekcje z `srwoe_pilot_catalog_PL.md`)
+
+#### Amuro Ray
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Amuro
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             60 |
+| **Atak**    |            114 |
+| **Obrona**  |             70 |
+| **Celność** |            137 |
+| **Unik**    |             74 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                    |
+| ---: | ------------- | ---------: | -------: | ----------------------------------------------- |
+|    1 | **Skupienie** |          1 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%    |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Kryt** |          1 | Pozostałe HP 10%: Obr/Unik+4% Cel/Kryt+5% |
+|    2 | **Newtype**      |          3 | Cel/Unik+6 / Kryt Obraż.+18%              |
+
+---
+
+#### Kai Shiden
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Kai
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            113 |
+| **Obrona**  |             78 |
+| **Celność** |            132 |
+| **Unik**    |             65 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                  |
+| ---: | ---------- | ---------: | -------: | --------------------------------------------- |
+|    1 | **Niezł.** |          1 |       15 | Cel: ty Efekt: 1 razy — Otrzym. obrażenia-50% |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Hayato Kobayashi
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Hayato
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            109 |
+| **Obrona**  |             90 |
+| **Celność** |            131 |
+| **Unik**    |             58 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                  |
+| ---: | -------- | ---------: | -------: | --------------------------------------------- |
+|    1 | **Hart** |          1 |       20 | Cel: ty — Odnawia 25% HP                      |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność     | Poz. nauki | Efekt bazowy                              |
+| ---: | --------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Obr** |          1 | Pozostałe HP 10%: Obr+5% Cel/Unik/Kryt+4% |
+
+---
+
+#### Bright Noa
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Bright
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            110 |
+| **Obrona**  |             87 |
+| **Celność** |            126 |
+| **Unik**    |             63 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                            |
+| ---: | ---------- | ---------: | -------: | ------------------------------------------------------- |
+|    1 | **Wiatr**  |          1 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność       | Poz. nauki | Efekt bazowy                           |
+| ---: | ----------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**     |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Sayla Mass
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Sayla
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            106 |
+| **Obrona**  |             63 |
+| **Celność** |            134 |
+| **Unik**    |             86 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                            |
+| ---: | -------- | ---------: | -------: | ----------------------------------------------------------------------- |
+|    1 | **Pęd**  |          1 |       20 | Cel: ty Efekt: 1 razy — Ruch+3                                          |
+
+---
+
+#### Seishiro Kusanagi
+
+- **Seria:** Super Robot Wars Original
+- **Nazwa skrócona:** Seishiro
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            120 |
+| **Obrona**  |             59 |
+| **Celność** |            137 |
+| **Unik**    |             75 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                    |
+| ---: | ------------- | ---------: | -------: | ----------------------------------------------- |
+|    1 | **Skupienie** |          1 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%    |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                           |
+| ---: | ---------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**    |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+|    2 | **Precyzja**     |          3 | Kryt/Kryt Obraż.+15%                   |
+
+---
+
+#### Mirai Yashima
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Mirai
+
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                     |
+| ---: | ------------- | ---------: | -------: | ------------------------------------------------ |
+|    1 | **Zauf.**     |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
+
+---
+
+#### Himari Yaegaki
+
+- **Seria:** Super Robot Wars Original
+- **Nazwa skrócona:** Himari
+
+- **Pula SP:** **60** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch        | Poz. nauki | Koszt SP | Efekt bazowy                                                         |
+| ---: | ----------- | ---------: | -------: | -------------------------------------------------------------------- |
+|    1 | **Zauf.**   |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP                     |
+
+---
+
+#### Żołnierz Zeonu
+
+- **Seria:** Brak wpisu w słowniku postaci
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             10 |
+| **Atak**    |            103 |
+| **Obrona**  |             67 |
+| **Celność** |            129 |
+| **Unik**    |             59 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                                                  |
+| ---: | ------------- | ---------: | ------------------------------------------------------------- |
+|    1 | **Szeregowy** |          1 | Zbiorcza z tą samą jedn.; wsparcie w grupie / HP = suma grupy |
+
+---
+
+#### Gaia
+
+- **Seria:** Mobile Suit Gundam
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            117 |
+| **Obrona**  |             77 |
+| **Celność** |            132 |
+| **Unik**    |             69 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność     | Poz. nauki | Efekt bazowy                              |
+| ---: | --------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Atk** |          1 | Pozostałe HP 10%: Obr/Unik+4% Atk/Kryt+5% |
+
+---
+
+#### Ortega
+
+- **Seria:** Mobile Suit Gundam
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            115 |
+| **Obrona**  |             84 |
+| **Celność** |            129 |
+| **Unik**    |             64 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność     | Poz. nauki | Efekt bazowy                              |
+| ---: | --------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Obr** |          1 | Pozostałe HP 10%: Obr+5% Cel/Unik/Kryt+4% |
+
+---
+
+#### Mash
+
+- **Seria:** Mobile Suit Gundam
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            114 |
+| **Obrona**  |             67 |
+| **Celność** |            134 |
+| **Unik**    |             77 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Kryt** |          1 | Pozostałe HP 10%: Obr/Unik+4% Cel/Kryt+5% |
+
+---
+
+#### M'Quve
+
+- **Seria:** Mobile Suit Gundam
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            110 |
+| **Obrona**  |             76 |
+| **Celność** |            126 |
+| **Unik**    |             62 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność       | Poz. nauki | Efekt bazowy                           |
+| ---: | ----------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**     |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+##### Postacie niebojowe, portretowe i systemowe (`Dodatek A`)
+
+| Nazwa (PL)                   | Seria                                          | Kontener / plik                 | Uwagi                                            |
+| ---------------------------- | ---------------------------------------------- | ------------------------------- | ------------------------------------------------ |
+| Fraw Bow                     | Mobile Suit Gundam                             | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Oscar Dublin                 | Mobile Suit Gundam                             | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Marker Clan                  | Mobile Suit Gundam                             | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Suol Douglas                 | Super Robot Wars Original                      | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |

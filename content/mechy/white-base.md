@@ -20,6 +20,8 @@ utworzono: 2026-10-20
 Okręt Sił Federacji, na którego pokładzie schronili się cywile z [[side-7|Side 7]]. Odpiera atak [[char-aznable|Chara]], a następnie kieruje się do [[luna-ii|Luny II]].
 
 Dowodzi nim [[bright-noa|Bright]], lecz ranny [[paolo-cassius|kapitan Paolo]] wciąż wydaje rozkazy ze stanowiska. [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] wspierają obronę jako [[connect-force|Connect Force]].
+
+Okręt kieruje się ku Azji Środkowej, by wesprzeć [[operacja-odessa|operację Odessa]]; [[zeon|Zeon]] nazywa go „koniem trojańskim”. Po rozpyleniu [[minovsky-particles|cząstek Minovsky’ego]] startują [[rx-78-2-gundam|Gundam]], [[guncannon|Guncannon]], [[guntank|Guntank]] i [[g-fighter|G-Fighter]], a okręt odpiera [[black-tri-stars|Black Tri-Stars]] i ich [[dom|Domy]].
 }}
 
 {{menu gra=srw-oe

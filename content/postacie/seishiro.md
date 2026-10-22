@@ -22,6 +22,8 @@ Pilot [[connect-force|Connect Force]], oddziału bojowego prywatnej organizacji 
 Prowadzi szkolenie [[himari-yaegaki|Himari]], przypomina jej o dyscyplinie i odpowiedzialności, a po misji pomaga nauczyć się przesyłania danych do centrali.
 
 Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
+
+W transportowcu wracającym na Stację Connect rozmawia z [[suol|szefem Suolem]] o [[white-base|White Base]] i [[operacja-odessa|Odessie]]. Zauważa, że [[exart|Exart]] wyrwie się z grawitacji tylko z transportem, i porównuje go z japońskimi superrobotami, które nie potrzebują do tego pomocy.
 }}
 {{menu gra=srw-oe
 

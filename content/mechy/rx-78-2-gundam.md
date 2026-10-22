@@ -20,6 +20,8 @@ utworzono: 2026-10-20
 Prototypowy mobile suit Federacji, którym [[amuro-ray|Amuro]] startuje z [[white-base|White Base]]. [[bright-noa|Bright]] wzywa go do walki, gdy nadlatuje [[zaku-ii|Zaku]] [[char-aznable|Chara]], a sam Amuro zgłasza gotowość mimo braku doświadczenia.
 
 W walce Gundam wytrzymuje kolejne ciosy, co skłania Chara do ostrzeżenia, że sama przewaga maszyny nie wystarczy do zwycięstwa. [[seishiro|Seishiro]] nazywa starcie potyczką, a nie rozstrzygnięciem.
+
+W misji nad Azją Środkową Gundam startuje z [[white-base|White Base]] przeciw [[black-tri-stars|Black Tri-Stars]] i ich trzem [[dom|Domom]]. [[amuro-ray|Amuro]] ostrzega [[sayla-mass|Saylę]], że wróg atakuje też z naziemnych baz, a zespół okrętu wymyka się [[jet-stream-attack|atakowi Jet Stream]].
 }}
 {{menu gra=srw-oe
 

@@ -17,6 +17,8 @@ utworzono: 2026-10-20
 ## Opis
 
 Członkini załogi [[white-base|White Base]]. Łączy się z [[amuro-ray|Amurem]] w trakcie walki: przypomina mu o ekipie naprawczej i prosi, by wytrzymał do przybycia odsieczy. Później ogłasza wycofanie wroga i nakazuje maszynom wracać na pokład.
+
+Po walce z [[black-tri-stars|Black Tri-Stars]] przynosi [[amuro-ray|Amurowi]] i [[hayato-kobayashi|Hayato]] jedzenie do hangaru i wysyła ich pod prysznic, zanim wrócą do przeglądu maszyn.
 }}
 {{menu gra=srw-oe
 

@@ -19,6 +19,8 @@ utworzono: 2026-10-20
 Chorąży dowodzący [[white-base|White Base]] w trakcie ataku. Prowadzi obronę okrętu, rozkazuje rozproszyć [[minovsky-particles|cząstki Minovsky’ego]] i wysyła [[amuro-ray|Amura]] do walki, choć ten nie jest jeszcze gotowy.
 
 Po przybyciu [[connect-force|Connect]] wita wsparcie i ostrzega [[seishiro|Seishira]], że przeciwnikiem jest [[char-aznable|Char]], Czerwona Kometa.
+
+Podczas [[operacja-odessa|operacji Odessa]] dowodzi startem [[white-base|White Base]] i wysyła [[rx-78-2-gundam|Gundama]], [[guncannon|Guncannon]], [[guntank|Guntank]] oraz [[g-fighter|G-Fighter]]. Po walce z [[black-tri-stars|Black Tri-Stars]] rozmawia z [[mirai-yashima|Mirai]] o tym, czy przeciwnik wróci, i zgadza się, że załoga powinna bardziej wierzyć w siebie.
 }}
 {{menu gra=srw-oe
 

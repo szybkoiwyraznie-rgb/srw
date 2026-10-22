@@ -17,6 +17,8 @@ utworzono: 2026-10-17
 Federacja Ziemska zjednoczyła świat. Jej rozwój umożliwił budowę kolonii kosmicznych i ekspansję po Układzie Słonecznym. Gdy Siły Federacji nie potrafiły sprostać zagrożeniom, dawne państwa i kolonie zaczęły zbroić się samodzielnie.
 
 Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
+
+W [[uc-0079|U.C. 0079]] Siły Federacji przechodzą do kontrofensywy i ruszają na [[operacja-odessa|Odessę]], największą bazę [[zeon|Zeonu]] na Ziemi. [[white-base|White Base]] ma wesprzeć tę operację, kierując się ku Azji Środkowej.
 }}
 {{zrodlo gra=wspolne
 

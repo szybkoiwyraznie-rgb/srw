@@ -3,9 +3,9 @@ typ: postac
 slug: sayla-mass
 tytul: Sayla Mass
 seria: mobile-suit-gundam-1979
-rola: wsparcie
+rola: pilot
 gry: [srw-oe]
-mechy: []
+mechy: [g-fighter]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam
@@ -17,6 +17,8 @@ utworzono: 2026-10-20
 ## Opis
 
 Członkini załogi [[white-base|White Base]]. Opiekuje się rannym [[paolo-cassius|kapitanem Paolem]] i prosi go, by leżał spokojnie, zamiast wydawać rozkazy.
+
+W misji nad Azją Środkową po raz pierwszy prowadzi do walki [[g-fighter|G-Fighter]]. [[kai-shiden|Kai]] pyta, czy da radę, a [[amuro-ray|Amuro]] ostrzega ją przed artylerią przeciwlotniczą. Sama przyznaje, że jej maszyna jest dla niej łatwym celem.
 }}
 {{menu gra=srw-oe
 

@@ -205,7 +205,14 @@ test('braki redakcyjne epizodu nie tworzą publicznej kolejki zadań', (t) => {
 
 // Sprawdzamy tekst czytelnika, nie techniczne nazwy pól, klasy CSS i adresy URL.
 function tekstWidoczny(html) {
-  return html.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ');
+  // Surowy skrypt epizodu to archiwum rozgrywki (ADR 0005), nie proza redakcyjna:
+  // może zawierać światowe słowa typu „dostawa zaopatrzenia”, których zakaz dotyczy
+  // wyłącznie opisów pisanych przez redakcję.
+  return html
+    .replace(/<pre class="skrypt">[\s\S]*?<\/pre>/g, ' ')
+    .replace(/<div class="skrypt-tekst">[\s\S]*?<\/div>/g, ' ')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/\s+/g, ' ');
 }
 
 test('opisy wszystkich stron mówią o świecie, bez wewnętrznych procedur', () => {
