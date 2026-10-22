@@ -76,3 +76,21 @@ Yamazaki**, **Isao Ota**, **Kanuka Clancy**, **Kiichi Goto**, **Mikiyasu Shinshi
 ma teraz 38 encji i 51 plików. Postacie bez własnego portretu — Żołnierz JSDF i Shinohara HOS
 — oraz hasła, seria, epizod i scena pozostają bez ilustracji do czasu dostawy.
 
+
+## Adnotacja 2026-10-22 — pochodzenie przypisania serii i poziom dostawy misji
+
+Trzy decyzje właściciela, wiążące dla kolejnych sesji:
+
+1. **Pochodzenie jednostki ustalone kwerendą nie jest daną pewną.** Jeśli źródło wskazuje
+   przynależność spoza dostawy (przykład: **Medea** — wojskowy samolot transportowy
+   Federacji Ziemskiej z *Mobile Suit Gundam*), fakt trafia wyłącznie do bloku `{{zrodlo}}`
+   (sprawdzone) albo `{{wiedza}}` (niesprawdzone), z zakresem `gra=wspolne`. Pole `seria`
+   pozostaje puste, dopóki właściciel nie wskaże serii w dostawie. Strona Medei ma dziś
+   sekcję „Pierwowzór” w bloku `{{zrodlo gra=wspolne}}`, a `seria` nadal nie istnieje.
+2. **Skrypt i obsada misji to jeden poziom dostawy.** Opisy jednostek wymienionych w danych
+   misji (`DL101_11`) — m.in. **Ingram nr 1**, **Ingram nr 2**, **Helldiver** — pozostają
+   w blokach `{{skrypt gra=srw-oe}}`. Nie dzielimy ich na `{{skrypt}}` i `{{menu}}` tylko
+   dlatego, że skrypt nie wymienia maszyn po nazwie: dla właściciela cała dostawa misji jest
+   poziomem 1, najwyższą wiarygodnością (ADR 0010).
+3. **Pole `seria` opisuje przynależność świata, nie pochodzenie obrazka.** Adnotacja nie
+   zmienia ADR 0023 ani 0017; dotyczy tylko sposobu zapisu faktu ustalonego poza dostawą.

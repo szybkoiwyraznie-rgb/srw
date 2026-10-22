@@ -62,3 +62,11 @@ Zasada doprecyzowana:
   nagłówków typu „Przypisany profil”.
 
 Test sprawdza, że sekcja „Opis” żadnej encji nie zawiera tych określeń.
+
+## Adnotacja 2026-10-22 — dziennik zmian nie opisuje interfejsu
+
+Publiczny dziennik (`content/co-nowego.md`) opisuje wyłącznie treść bazy: nowe i poprawione
+opisy, ilustracje i powiązania. **Nie odnotowuje zmian interfejsu ani innych technikaliów** —
+galerii kafelków, filtrów, układu stron, wydajności czy parametrów budowania. Decyzja
+właściciela z 2026-10-22: baza jest informacją o fabule, nie o technice. Dotyczy to też
+pozycji już opublikowanych — wpisy o galerii i filtrach z 2026-10-21 usunięto.

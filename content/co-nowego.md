@@ -1,22 +1,9 @@
 # Co nowego
 
-## 2026-10-22 00:05
+## 2026-10-22 00:40
 
 - [[medea|Medea]] — opis jednostki wsparcia [[sily-samoobrony-japonii|Sił Samoobrony Japonii]] dopasowany do danych misji: bez uzbrojenia, z żołnierzem JSDF za sterami.
-- Galerie mechów i postaci: selektory gry, odcinka i sceny blokują się do czasu wyboru nadrzędnego filtra, a zestaw filtrów pozostaje widoczny także wtedy, gdy wybór daje pustą listę.
-
-## 2026-10-21 22:30
-
-- Naprawa galerii kafelków: obrazy zachowują naturalne proporcje (brak ucięcia głów w portretach, właściwe 21:9 dla mechów).
-- Filtry krokowe wzajemnie się zawężają: wybór Serii/Odcinka/Sceny ogranicza pozostałe selektory; Odcinek dostępny dopiero po wyborze Gry, Scena dopiero po Odcinku.
-
-## 2026-10-21 22:15
-
-- Strony Mechy i Postacie zbudowane na nowo jako galeria kafelków z miniaturami
-  podpisanymi nazwami; kliknięcie w miniaturkę lub nazwę prowadzi do strony encji.
-- Filtry krokowe nad galerią: Gra → Epizod → Scena oraz Seria; suwak reguluje
-  wielkość kafelka z dynamicznym przepływem pozycji. Encje bez ilustracji mają
-  generyczną miniaturkę.
+- [[medea|Medea]] — pierwowzór z anime: wojskowy samolot transportowy [[earth-federation|Federacji Ziemskiej]] z *[[mobile-suit-gundam-1979|Mobile Suit Gundam]]*, sprawdzony w źródle.
 
 ## 2026-10-21 21:43
 
