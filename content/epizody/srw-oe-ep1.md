@@ -43,7 +43,7 @@ Okręt rozpyla [[minovsky-particles|cząstki Minovsky’ego]] i wysyła do walki
 
 ### Misja 3: Powstrzymaj pocisk termojądrowy
 
-Federacja przełamuje ostatnią linię obrony Odessy. [[mquve|M'Quve]] żąda odwrotu wojsk pod groźbą użycia bomby wodorowej, ale [[general-revil|generał Revil]] nie ulega szantażowi i utrzymuje natarcie. Zwykłe oddziały Zeonu w [[dom-zolnierz-zeonu|Domach]], [[dopp|Doppach]] i dwóch konfiguracjach [[zaku-ii|Zaku II]] próbują osłonić drogę ku kosmodromowi.
+Federacja przełamuje ostatnią linię obrony Odessy. [[mquve|M'Quve]] żąda odwrotu wojsk pod groźbą użycia bomby wodorowej, ale [[general-revil|generał Revil]] nie ulega szantażowi i utrzymuje natarcie. Zwykłe oddziały Zeonu w [[dom-zolnierz-zeonu|Domach]], [[dopp|Doppach]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]] próbują osłonić drogę ku kosmodromowi.
 
 M'Quve odpala [[h-bomb-missile|pocisk termojądrowy]], łamiąc [[traktat-antarktyczny|Traktat Antarktyczny]]. [[bright-noa|Bright]] przesyła [[amuro-ray|Amurowi]] kurs oraz dane zapalnika, a [[rx-78-2-gundam|Gundam]] przecina go szablą wiązkową. Brak reakcji jądrowej potwierdza powodzenie, operacja Odessa kończy się zwycięstwem Federacji, a M'Quve wycofuje się z przekonaniem, że wysłane wcześniej surowce pozwolą Zeonowi walczyć jeszcze dziesięć lat.
 

@@ -176,7 +176,7 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
     assert.equal((mech.body.match(/!\[/g) ?? []).length, 2, `${slug}: dwie ilustracje`);
     assert.match(mech.body, /\{\{menu gra=srw-oe\n\n## Parametry/, `${slug}: parametry`);
     assert.match(mech.body, /\{\{zrodlo gra=wspolne/, `${slug}: rodowód zewnętrzny`);
-    assert.match(mech.body, /\[\[zaku-ii\|Zaku II\]\]/, `${slug}: odsyłacz do wersji bazowej`);
+    assert.match(mech.body, /## Pozostałe jednostki Zaku II/, `${slug}: sekcja z pozostałymi jednostkami`);
   }
   // Żołnierz Zeonu wraca do bazy z dostawą misji 2 (ADR 0025, adnotacja 2026-10-22).
   assert.ok(bySlug.has('zolnierz-zeonu'), 'Żołnierz Zeonu ma własną stronę');
@@ -203,8 +203,13 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'slender', 'crown']) {
     assert.doesNotMatch(bySlug.get(slug).body, /DL100|Entry character|mission Entry|eventP00/, `${slug}: bez surowych danych misji`);
   }
-  for (const cel of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
-    assert.match(bySlug.get('zaku-ii').body, new RegExp('\\[\\[' + cel + '\\|'), `Zaku II: odsyłacz do ${cel}`);
+  // Strona generyczna „Zaku II” nie istnieje (ADR 0029): każda wersja linkuje dwie pozostałe.
+  assert.equal(bySlug.has('zaku-ii'), false, 'brak strony generycznej Zaku II');
+  const wersje = ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char'];
+  for (const slug of wersje) {
+    for (const cel of wersje.filter((x) => x !== slug)) {
+      assert.match(bySlug.get(slug).body, new RegExp('\\[\\[' + cel + '\\|'), `${slug}: odsyłacz do ${cel}`);
+    }
   }
 });
 
@@ -220,7 +225,7 @@ test('profile załogi i transformacje są powiązane, ale nie udają sceny fabul
   assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').postacie, ['seishiro', 'himari-yaegaki', 'control-ai']);
   assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').mechy, ['exart', 'brocken']);
   assert.ok(bySlug.get('srw-oe-ep0').postacie.includes('control-ai'), 'epizod 0: Control AI w obsadzie');
-  assert.deepEqual(bySlug.get('srw-oe-ep0').mechy, ['exart', 'brocken', 'rx-78-2-gundam', 'zaku-ii', 'zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'white-base']);
+  assert.deepEqual(bySlug.get('srw-oe-ep0').mechy, ['exart', 'brocken', 'rx-78-2-gundam', 'zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'white-base']);
   assert.match(bySlug.get('brocken').body, /szkoleniu podstawowym/);
   assert.match(bySlug.get('control-ai').body, /trzy Brockeny/);
   for (const slug of ['brocken', 'control-ai', 'prolog-i-trening-w-connect', 'srw-oe-ep0']) {

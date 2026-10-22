@@ -15,7 +15,7 @@ utworzono: 2026-10-22
 
 ## Opis
 
-Myśliwiec [[zeon|Zeonu]] uczestniczący w obronie bazy nad Azją Środkową. [[white-base|White Base]] wykrywa Doppy razem z [[zaku-ii|Zaku]], a [[hayato-kobayashi|Hayato]] radzi wtedy, by najpierw użyć uzbrojenia przeciwlotniczego i zdobyć przewagę w powietrzu — dopiero wtedy [[g-fighter|G-Fighter]] może bezpieczniej atakować cele naziemne.
+Myśliwiec [[zeon|Zeonu]] uczestniczący w obronie bazy nad Azją Środkową. [[white-base|White Base]] wykrywa Doppy razem z Zaku, a [[hayato-kobayashi|Hayato]] radzi wtedy, by najpierw użyć uzbrojenia przeciwlotniczego i zdobyć przewagę w powietrzu — dopiero wtedy [[g-fighter|G-Fighter]] może bezpieczniej atakować cele naziemne.
 }}
 {{menu gra=srw-oe
 

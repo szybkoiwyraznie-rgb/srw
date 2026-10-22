@@ -382,7 +382,7 @@ Himari marznie w chłodnym transportowcu i podejrzewa, że firma oszczędza na o
 
 Załoga rozpyla [[minovsky-particles|cząstki Minovsky’ego]] i ogłasza stężenie bojowe. [[mirai-yashima|Mirai]] melduje gotowość [[white-base|White Base]], a [[bright-noa|Bright]] wysyła do walki [[rx-78-2-gundam|Gundam]], [[guncannon|Guncannon]] i [[guntank|Guntank]]. [[fraw-bow|Fraw]] uspokaja, że [[g-fighter|G-Fighter]] zdąży na start mimo problemów z konfiguracją.
 
-Dla [[sayla-mass|Sayli]] to pierwszy wylot; [[kai-shiden|Kai]] żartuje z tego, a [[hayato-kobayashi|Hayato]] karze mu nie blokować kolejki. [[oscar-dublin|Oscar]] wykrywa przechwytujące siły wroga, a [[marker|Marker]] rozpoznaje [[zaku-ii|Zaku]] i [[dopp|Doppy]]. [[amuro-ray|Amuro]] ostrzega Saylę przed artylerią z naziemnych baz, a Hayato radzi najpierw zdobyć przewagę w powietrzu, żeby G-Fighter mógł bezpieczniej atakować cele naziemne.
+Dla [[sayla-mass|Sayli]] to pierwszy wylot; [[kai-shiden|Kai]] żartuje z tego, a [[hayato-kobayashi|Hayato]] karze mu nie blokować kolejki. [[oscar-dublin|Oscar]] wykrywa przechwytujące siły wroga, a [[marker|Marker]] rozpoznaje Zaku i [[dopp|Doppy]]. [[amuro-ray|Amuro]] ostrzega Saylę przed artylerią z naziemnych baz, a Hayato radzi najpierw zdobyć przewagę w powietrzu, żeby G-Fighter mógł bezpieczniej atakować cele naziemne.
 
 ### Black Tri-Stars wchodzą do walki
 

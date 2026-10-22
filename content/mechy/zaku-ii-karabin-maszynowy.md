@@ -17,11 +17,18 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Jedna z maszyn rodziny [[zaku-ii|Zaku II]] — uzbrojona w karabin maszynowy Zaku i Heat Hawk, podstawowa maszyna zwykłych żołnierzy Zeonu. Żołnierze walczą w szyku: jednostki tego samego typu łączą się w grupy, a wytrzymałość grupy jest sumą wytrzymałości jej maszyn. W obronie blok tarczą zmniejsza otrzymywane obrażenia o 20%.
+Jedna z maszyn rodziny Zaku II — uzbrojona w karabin maszynowy Zaku i Heat Hawk, podstawowa maszyna zwykłych żołnierzy Zeonu. Żołnierze walczą w szyku: jednostki tego samego typu łączą się w grupy, a wytrzymałość grupy jest sumą wytrzymałości jej maszyn. W obronie blok tarczą zmniejsza otrzymywane obrażenia o 20%.
 
 Podczas ataku na [[white-base|White Base]] maszyny tego typu lecą w eskorcie [[char-aznable|Chara]], a tę z karabinem maszynowym prowadzi [[slender|Slender]].
 
 Karabin maszynowy Zaku ma zasięg 3 pól i trafienie +30, Heat Hawk bije tylko na sąsiednim polu, ale z trafieniem +50 i bez zużycia EN.
+## Pozostałe jednostki Zaku II
+
+Armia Zeonu używa Zaku II w kilku zestawach uzbrojenia. Obok tej maszyny występują:
+
+- [[zaku-ii-bazooka|Zaku II (bazooka)]]
+- [[zaku-ii-char|Zaku II (Char)]]
+
 }}
 
 {{menu gra=srw-oe
@@ -61,5 +68,5 @@ Karabin maszynowy Zaku ma zasięg 3 pól i trafienie +30, Heat Hawk bije tylko n
 
 {{zrodlo gra=wspolne
 
-[[zaku-ii|Zaku II]] (MS-06) to seria mobile suitów Księstwa [[zeon|Zeonu]] i podstawowa masowo produkowana maszyna tej armii w Wojnie Jednorocznej ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-10-20).
+Zaku II (MS-06) to seria mobile suitów Księstwa [[zeon|Zeonu]] i podstawowa masowo produkowana maszyna tej armii w Wojnie Jednorocznej ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-10-20).
 }}

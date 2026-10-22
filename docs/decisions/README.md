@@ -41,3 +41,4 @@ Zasady:
 | [0026](0026-epizod-1-dostawa-i-serie-wariantow.md) | Epizod 1: dostawa scenariusza, seria filmowa HAL-X10 i warianty jednostek |
 | [0027](0027-bezstratne-sekcje-i-jedna-reprezentacja-html.md) | Bezstratne sekcje scen i jedna reprezentacja HTML |
 | [0028](0028-staly-live-preview-od-poczatku-sesji.md) | Stały live preview od początku sesji |
+| [0029](0029-mech-tylko-z-dostawy.md) | Mech tylko z dostawy: brak strony generycznej dla rodziny maszyn |

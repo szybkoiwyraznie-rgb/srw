@@ -16,7 +16,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Pilot [[rx-78-2-gundam|Gundama]] na pokładzie [[white-base|White Base]]. Zanim [[bright-noa|Bright]] zdąży go powstrzymać, startuje do walki z nadlatującym [[zaku-ii|Zaku]] i uznaje, że za jego sterami nie może siedzieć człowiek. [[fraw-bow|Fraw]] przypomina mu o ekipie naprawczej i nadchodzącej odsieczy.
+Pilot [[rx-78-2-gundam|Gundama]] na pokładzie [[white-base|White Base]]. Zanim [[bright-noa|Bright]] zdąży go powstrzymać, startuje do walki z nadlatującym [[zaku-ii-char|Zaku]] i uznaje, że za jego sterami nie może siedzieć człowiek. [[fraw-bow|Fraw]] przypomina mu o ekipie naprawczej i nadchodzącej odsieczy.
 
 W wymianie zdań z [[char-aznable|Charem]] zapowiada, że z Gundamem pokona nawet Czerwoną Kometę. [[seishiro|Seishiro]], obserwując walkę, ocenia, że w dobrych rękach nawet Zaku staje się groźny.
 

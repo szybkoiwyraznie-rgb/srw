@@ -20,9 +20,10 @@ te trzy rekordy to warianty bez własnych stron, czy osobne wpisy.
 2. **Ilustracja sama nie tworzy wariantu.** Zasada z ADR 0017 i przewodnika R2 pozostaje:
    nowe zdjęcie tej samej maszyny trafia do istniejącej strony. Wariant powstaje z danych,
    nie z obrazka.
-3. **Strona bazowa nie musi wyliczać wariantów w parametrach, ale powinna je linkować.**
-   Sekcja `## Warianty` w bloku `menu` zbiera odsyłacze; zestaw parametrów zostaje przy
-   wariancie, bo właśnie on się różni.
+3. **Wersje linkują się nawzajem, a nie do strony nadrzędnej.** Sekcja
+   `## Pozostałe jednostki <nazwa>` w bloku `menu` zbiera odsyłacze do pozostałych wersji;
+   zestaw parametrów zostaje przy wersji, bo właśnie on się różni. Strona nadrzędna dla
+   rodziny maszyn nie powstaje (ADR 0029).
 4. **Warianty nie wchodzą automatycznie do epizodu ani sceny.** Pola `mechy` epizodu i sceny
    wymieniają jednostki występujące w fabule; rekordy z menu są rosterem gry i żyją w grafie
    powiązań, dopóki scena ich nie użyje.
@@ -53,8 +54,9 @@ nie warianty jednej maszyny.** Słowo „wariant” rezerwujemy dla tej samej je
 występującej w różnych grach (zgodnie z ADR 0020, gdzie zakres gry rozdziela wersje).
 Dlatego:
 
-1. Tytuły i opisy stron mówią o „osobnych jednostkach z rodziny Zaku II”, a sekcja na
-   stronie bazowej nazywa się **„Pozostałe jednostki Zaku II”**, nie „Warianty”.
+1. Tytuły i opisy stron mówią o „osobnych jednostkach z rodziny Zaku II”, a sekcja
+   z odsyłaczami na każdej z trzech stron nazywa się **„Pozostałe jednostki Zaku II”**,
+   nie „Warianty”. Strona bazowa rodziny nie istnieje (ADR 0029).
 2. Punkt 1 decyzji stosuje się do **odrębnego rekordu jednostki** w dostawie; punkt 2
    (ilustracja sama nie tworzy nowej jednostki) pozostaje bez zmian.
 3. Zbiorczy profil obsady może dostać własny wpis typu `postac`, jeśli dostawa nadaje mu
