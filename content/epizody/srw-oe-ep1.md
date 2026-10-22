@@ -18,6 +18,7 @@ zrodla:
   - https://gundam.fandom.com/wiki/Operation_Odessa
   - https://gundam.fandom.com/wiki/G-Fighter
   - https://en.gundam-official.com/series/mobile-suit-gundam/story/b6lswvospmwoql06afuhetwp
+  - https://en.gundam-official.com/series/mobile-suit-gundam/story/jmybefzmfo3jtwjjylqbl1hc
   - https://gundam.fandom.com/wiki/The_Battle_of_Odessa
   - https://gundam.fandom.com/wiki/Antarctic_Treaty
 tagi: [patlabor, trening, one-year-war]
@@ -55,7 +56,7 @@ M'Quve odpala [[h-bomb-missile|pocisk termojądrowy]], łamiąc [[traktat-antark
 | Ekipa Drugiego Plutonu SV2 | [[mobile-police-patlabor\|Patlabor]] | Division 2 | adaptacja | Postacie zachowują role i charaktery; dochodzi współpraca z Connect. |
 | Przejęcie sterów przez podpilota | [[srw-oe\|Super Robot Wars OE]] | Epizod 1 | autorskie | Wątek Connect i Himari jest oryginalny dla gry. |
 | Plotki o handlu z dalekim kosmosem | [[srw-oe\|Super Robot Wars OE]] | Epizod 1 | autorskie | Rozmowa po ćwiczeniach należy do wątku Connect. |
-| Black Tri-Stars na froncie Odessy | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” | adaptacja | W grze trójka broni wschodniej kopalni przed White Base; w anime trafia na front w tym samym okresie. |
+| Black Tri-Stars na froncie Odessy | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” (oficjalnie „The Triple Dom Assault!”) | adaptacja | W grze trójka broni wschodniej kopalni przed White Base; w anime trafia na front w tym samym okresie. |
 | Odprawa u M'Quve'a | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” | adaptacja | Gra pokazuje kulisy decyzji sztabu; sama bitwa o Odessę pozostaje poza kadrem. |
 | Powrót Connect z Japonii | [[srw-oe\|Super Robot Wars OE]] | Epizod 1 | autorskie | Rozmowa Seishira, Himari i Suola jest oryginalna dla gry. |
 | Bitwa o Odessę i pocisk termojądrowy | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 25 „The Fierce Battle for Odessa” | adaptacja | Gra zachowuje ultimatum M'Quve'a, decyzję Revila i rozbrojenie pocisku przez Amura, lecz pomija spisek Elrana oraz walkę z pozostałymi Black Tri-Stars. |
@@ -77,7 +78,7 @@ Trzecia misja domyka ten front. Zwycięstwo nie wynika wyłącznie z przewagi li
 - Drugi Pluton SV2, Ingramy i HAL-X10 pochodzą z *Patlabor* ([Wikipedia, *Patlabor*](https://en.wikipedia.org/wiki/Patlabor); sprawdzono 2026-10-21).
 - HAL-X10 to prototypowy Labor wojskowy, który w *Patlabor* wymyka się spod kontroli ([Patlabor Wiki, „HAL X-10”](https://patlabor.fandom.com/wiki/HAL_X-10); sprawdzono 2026-10-21). Wątek ten pochodzi z piątego odcinka serialu, „Runaway Labor X-10!” ([Patlabor Wiki, „Runaway Labor X-10!”](https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!); sprawdzono 2026-10-22).
 - [[connect-force|Connect]], [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] są oryginalnymi elementami *Super Robot Wars OE*.
-- [[black-tri-stars|Black Tri-Stars]] to elitarna trójka pilotów [[zeon|Zeonu]] — [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] — a ich znakiem rozpoznawczym był [[jet-stream-attack|Jet Stream Attack]] ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-22). Ich przybycie z Domami na front M'Quve'a rozpoczyna odcinek 24 „Black Tri-Star” ([Gundam Wiki, „Black Tri-Star”](https://gundam.fandom.com/wiki/Black_Tri-Star); sprawdzono 2026-10-22).
+- [[black-tri-stars|Black Tri-Stars]] to elitarna trójka pilotów [[zeon|Zeonu]] — [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] — a ich znakiem rozpoznawczym był [[jet-stream-attack|Jet Stream Attack]] ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-22). Ich przybycie z Domami na front M'Quve'a rozpoczyna odcinek 24 „Black Tri-Star” ([Gundam Wiki, „Black Tri-Star”](https://gundam.fandom.com/wiki/Black_Tri-Star); sprawdzono 2026-10-22), nazwany w oficjalnym katalogu „The Triple Dom Assault!” ([GUNDAM Official, odc. 24](https://en.gundam-official.com/series/mobile-suit-gundam/story/jmybefzmfo3jtwjjylqbl1hc); sprawdzono 2026-10-22).
 - Operacja Odessa była kontrofensywą Sił Federacji Ziemskiej przeciw Zeonowi na północnym wybrzeżu Morza Czarnego i największą bitwą lądową tej wojny ([Gundam Wiki, „Operation Odessa”](https://gundam.fandom.com/wiki/Operation_Odessa); sprawdzono 2026-10-22).
 - G-Fighter to ciężki myśliwiec wsparcia Gundama, zbudowany z dwóch modułów i zdolny do lotu w atmosferze; jednym z jego pilotów była [[sayla-mass|Sayla Mass]] ([Gundam Wiki, „G-Fighter”](https://gundam.fandom.com/wiki/G-Fighter); sprawdzono 2026-10-22).
 - Finał [[operacja-odessa|operacji Odessa]] odpowiada odcinkowi 25: [[mquve|M'Quve]] grozi użyciem bomby wodorowej, wojska [[general-revil|Revila]] nie przerywają marszu, a [[amuro-ray|Amuro]] odcina głowicę szablą wiązkową Gundama ([GUNDAM Official, „The Fierce Battle for Odessa”](https://en.gundam-official.com/series/mobile-suit-gundam/story/b6lswvospmwoql06afuhetwp); sprawdzono 2026-10-22).

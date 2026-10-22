@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-22 18:31
+
+- [[srw-oe-ep1|Epizod 1]] i [[srw-oe-ep1-black-tri-stars|scena „Black Tri-Stars”]] podają obok tytułu „Black Tri-Star” także oficjalny tytuł odcinka 24 [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] — „The Triple Dom Assault!”.
+
 ## 2026-10-22 18:23
 
 - [[general-revil|Generał Revil]] ma teraz portret.
