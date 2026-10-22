@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-22 18:23
+
+- [[general-revil|Generał Revil]] ma teraz portret.
+
 ## 2026-10-22 18:14
 
 - [[srw-oe-ep1-powstrzymaj-pocisk-termojadrowy|Scena 1-3 „Powstrzymaj pocisk termojądrowy”]] kończy [[operacja-odessa|operację Odessa]]: [[general-revil|generał Revil]] odrzuca ultimatum [[mquve|M'Quve'a]], a [[amuro-ray|Amuro]] odcina zapalnik bomby szablą wiązkową Gundama.

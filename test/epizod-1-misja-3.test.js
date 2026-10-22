@@ -133,10 +133,16 @@ test('odcinek 25 i Traktat Antarktyczny mają sprawdzone źródła, bez surowych
   }
 });
 
-test('nowe strony bez dostarczonych ilustracji nie dostają galerii', () => {
+test('Revil ma dostarczony portret, a pozostałe nowe strony nie dostają pustych galerii', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
-  for (const slug of ['general-revil', 'oficer-federacji', 'oficer-zeonu',
-    'dom-zolnierz-zeonu', 'h-bomb-missile', 'traktat-antarktyczny']) {
+  const revil = bySlug.get('general-revil');
+  assert.deepEqual(manifest.encje['general-revil'], ['characters/Revil.png']);
+  assert.match(revil.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/);
+  assert.match(revil.body, /https:\/\/pub-f065608b5a964f3fb44480d8c9df01de\.r2\.dev\/characters\/Revil\.png/);
+  assert.equal((revil.body.match(/^!\[/gm) ?? []).length, 1, 'Revil: jeden portret');
+
+  for (const slug of ['oficer-federacji', 'oficer-zeonu', 'dom-zolnierz-zeonu',
+    'h-bomb-missile', 'traktat-antarktyczny']) {
     assert.equal(manifest.encje[slug], undefined, `${slug}: brak pliku w manifeście`);
     assert.doesNotMatch(bySlug.get(slug).body, /^## Ilustracje$/m, `${slug}: brak galerii`);
   }

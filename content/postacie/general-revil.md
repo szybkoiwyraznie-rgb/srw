@@ -20,6 +20,14 @@ Dowódca [[earth-federation|Sił Federacji Ziemskiej]] prowadzący [[operacja-od
 
 Decyzja wystawia wojska na ryzyko ataku zakazanego przez [[traktat-antarktyczny|Traktat Antarktyczny]], ale daje załodze [[white-base|White Base]] czas na przechwycenie [[h-bomb-missile|pocisku termojądrowego]].
 }}
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Generał Revil — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Revil.png)
+}}
 
 {{zrodlo gra=wspolne
 
