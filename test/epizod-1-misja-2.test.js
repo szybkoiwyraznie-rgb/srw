@@ -96,9 +96,9 @@ test('obsada jednostek misji 2 zachowuje kolejność pilotów i domyślną zało
   assert.deepEqual(bySlug.get('guncannon').piloci, ['kai-shiden']);
   assert.deepEqual(bySlug.get('guntank').piloci, ['hayato-kobayashi']);
   assert.deepEqual(bySlug.get('dopp').piloci, ['zolnierz-zeonu']);
-  assert.deepEqual(bySlug.get('turret').piloci, ['zolnierz-zeonu']);
+  assert.deepEqual(bySlug.get('turret').piloci, [], 'wieżyczka jest niepilotowanym celem');
   assert.deepEqual(bySlug.get('zolnierz-zeonu').mechy,
-    ['dopp', 'turret', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']);
+    ['dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']);
   assert.deepEqual(bySlug.get('sayla-mass').mechy, ['g-fighter']);
 });
 
@@ -151,7 +151,9 @@ test('wieżyczka uniwersalna i Żołnierz Zeonu mają własne strony z danymi do
     assert.match(zolnierz.body, new RegExp(`\\| ${nazwa} \\| ${wartosc} \\|`), `Żołnierz: ${nazwa}`);
   }
   assert.match(zolnierz.body, /\| 1 \| \*\*Szeregowy\*\* \| 1 \|/, 'Żołnierz: umiejętność');
-  assert.match(zolnierz.body, /\[\[turret\|Turret\]\]/, 'Żołnierz: odsyłacz do wieżyczki');
+  assert.match(zolnierz.body, /\[\[turret\|Turret\]\]/, 'Żołnierz: odsyłacz do obsługiwanej wieżyczki');
+  assert.match(zolnierz.body, /wieżyczki nie są pilotowanymi maszynami/,
+    'Żołnierz: obsługa wieżyczki nie jest relacją pilota');
 });
 
 test('jednostki i obsada misji 2 mają galerie z dostaw ilustracji, pozostałe strony bez grafik', () => {

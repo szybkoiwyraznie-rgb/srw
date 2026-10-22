@@ -3,10 +3,10 @@ typ: mech
 slug: turret
 tytul: Turret (Wieżyczka uniwersalna)
 gry: [srw-oe]
-piloci: [zolnierz-zeonu]
+piloci: []
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_2.txt", "profil": "Turret (Wieżyczka uniwersalna)", "dane": "### Macierzyste zdolności maszyny\n- **Obiekt stały (bez poziomu):** Odporn.: \"Przebicie\" \" Pchnięcie\", \" Rzut\"<br>Nie może unikać ataków\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n| ------: | ------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |\n| 0 | Ostrzał | 900 | 3–8 | +40 | 5 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |"}'
-pochodzenie: skrypt
+pochodzenie: menu
 tagi: [one-year-war]
 utworzono: 2026-10-22
 ---
@@ -14,9 +14,7 @@ utworzono: 2026-10-22
 
 ## Opis
 
-Uniwersalna wieżyczka obronna: stała bateria ogniowa, którą ustawia się w umocnieniach i bazach. Nie zmienia pozycji, więc nie może uniknąć trafienia; ogień prowadzi z dystansu, a jej działo sięga także okrętów.
-
-Obsługują ją szeregowi [[zolnierz-zeonu|żołnierze Zeonu]]. W misji nad Azją Środkową baterie wieżyczek biorą udział w ostrzale [[white-base|White Base]] — [[bright-noa|Bright]] prosi wtedy [[hayato-kobayashi|Hayato]], by [[guntank|Guntank]] zniszczył umocnienia.
+W misji nad Azją Środkową baterie wieżyczek biorą udział w ostrzale [[white-base|White Base]]. [[bright-noa|Bright]] prosi wtedy [[hayato-kobayashi|Hayato]], by [[guntank|Guntank]] zniszczył umocnienia.
 }}
 {{menu gra=srw-oe
 
@@ -29,6 +27,8 @@ Obsługują ją szeregowi [[zolnierz-zeonu|żołnierze Zeonu]]. W misji nad Azj�
 {{menu gra=srw-oe
 
 ## Parametry
+
+Turret jest stałą baterią ogniową: nie zmienia pozycji, nie może unikać ataków i prowadzi ostrzał z dystansu 3–8. W misji jest niepilotowanym, nieruchomym celem. Szeregowi [[zolnierz-zeonu|żołnierze Zeonu]] obsługują baterie, ale nie są pilotami wieżyczek.
 
 ### Macierzyste zdolności maszyny
 

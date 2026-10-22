@@ -15,9 +15,7 @@ utworzono: 2026-10-22
 
 ## Opis
 
-Myśliwiec [[zeon|Zeonu]] przeznaczony do walki w powietrzu. Karabin maszynowy i rakiety powietrze-powietrze dają mu przewagę nad celami latającymi, a rakiety sięgają także okrętów.
-
-W misji nad Azją Środkową [[white-base|White Base]] wykrywa Doppy razem z [[zaku-ii|Zaku]]. [[hayato-kobayashi|Hayato]] radzi wtedy, by najpierw użyć uzbrojenia przeciwlotniczego i zdobyć przewagę w powietrzu — dopiero wtedy [[g-fighter|G-Fighter]] może bezpieczniej atakować cele naziemne.
+Myśliwiec [[zeon|Zeonu]] uczestniczący w obronie bazy nad Azją Środkową. [[white-base|White Base]] wykrywa Doppy razem z [[zaku-ii|Zaku]], a [[hayato-kobayashi|Hayato]] radzi wtedy, by najpierw użyć uzbrojenia przeciwlotniczego i zdobyć przewagę w powietrzu — dopiero wtedy [[g-fighter|G-Fighter]] może bezpieczniej atakować cele naziemne.
 }}
 {{menu gra=srw-oe
 
@@ -30,6 +28,8 @@ W misji nad Azją Środkową [[white-base|White Base]] wykrywa Doppy razem z [[z
 {{menu gra=srw-oe
 
 ## Parametry
+
+Karabin maszynowy i rakiety powietrze-powietrze dają premię przeciw celom latającym, a rakiety są skuteczne również przeciw okrętom.
 
 **Seria:** [[mobile-suit-gundam-1979|Mobile Suit Gundam]]
 

@@ -417,7 +417,7 @@ Podczas starcia padają kwestie zależne od sytuacji: [[amuro-ray|Amuro]] przyzn
 
 ## Nawiązania do oryginalnych odcinków
 
-Wydarzenia z tej sceny — odprawa u [[mquve|M'Quve'a]], przekazanie trzech nowych [[dom|Domów]] i nocne natarcie [[black-tri-stars|Black Tri-Stars]] na [[white-base|White Base]] w drodze ku [[operacja-odessa|Odessie]] — nawiązują do **dwudziestego czwartego odcinka** serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, zatytułowanego „Black Tri-Star”.
+Wydarzenia z tej sceny — odprawa u [[mquve|M'Quve'a]], przekazanie trzech nowych [[dom|Domów]] i natarcie [[black-tri-stars|Black Tri-Stars]] na [[white-base|White Base]] w drodze ku [[operacja-odessa|Odessie]] — nawiązują do **dwudziestego czwartego odcinka** serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, zatytułowanego „Black Tri-Star”.
 
 W oryginale trójka przybywa na front na pokładzie okrętu kosmicznego i odbiera [[dom|Domy]] z rąk [[mquve|M'Quve'a]], po czym zapowiada pokonanie białego mobile suita Federacji; do nocnego starcia dochodzi w czasie przygotowań do [[operacja-odessa|operacji Odessa]]. Gra przenosi odprawę do bazy Zeonu na froncie i wiąże zadanie z wschodnią kopalnią: zespół ma zatrzymać „konia trojańskiego”, zanim ten do niej dotrze. W dialogach warunkowych dochodzi motyw odznaczenia — [[mash|Mash]] pyta o [[krzyz-zeonu|Krzyż Zeonu]], a [[gaia|Gaia]] przypomina, że liczy się wykonanie zadania, nie sława ([Gundam Wiki, „Black Tri-Star”](https://gundam.fandom.com/wiki/Black_Tri-Star); sprawdzono 2026-10-22).
 

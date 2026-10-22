@@ -18,7 +18,7 @@ utworzono: 2026-10-22
 
 Komandor [[zeon|Zeonu]] odpowiedzialny za obronę [[operacja-odessa|Odessy]]. Przyjmuje posiłki od lady Kycilii — trzy [[dom|Domy]] [[black-tri-stars|Black Tri-Stars]] — ale najpierw chce rozbić siły na froncie generała Revila, a dopiero potem zająć się „koniem trojańskim”, czyli [[white-base|White Base]].
 
-Nie wierzy w [[newtype|Newtype'y]] i lekceważy ostrzeżenia [[gaia|Gai]], dopóki ten nie przypomni mu, że sam nie walczy. Po nieudanym starciu przyznaje, że przeciwnik wiedział, kiedy się wycofać, i zapowiada, że w zależności od przebiegu bitwy przyjdzie mu zagrać cenną kartą dyplomatyczną.
+Nie wierzy w [[newtype|Newtype'y]] i lekceważy ostrzeżenia [[gaia|Gai]], dopóki ten nie przypomni mu, że sam nie walczy. Po nieudanym starciu przyznaje, że [[gaia|Gaia]] wiedział, kiedy się wycofać, i zapowiada, że w zależności od przebiegu bitwy przyjdzie mu zagrać cenną kartą dyplomatyczną.
 }}
 {{menu gra=srw-oe
 

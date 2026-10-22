@@ -4,20 +4,20 @@ slug: zolnierz-zeonu
 tytul: Żołnierz Zeonu
 rola: pilot
 gry: [srw-oe]
-mechy: [dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
-pochodzenie: skrypt
+mechy: [dopp, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
+pochodzenie: menu
 tagi: [one-year-war]
 utworzono: 2026-10-22
 ---
-{{skrypt gra=srw-oe
+{{menu gra=srw-oe
 
 ## Opis
 
-Szeregowy żołnierz Księstwa [[zeon|Zeonu]], który siada za sterami masowo produkowanych maszyn: [[zaku-ii|Zaku II]], myśliwców [[dopp|Dopp]] i wieżyczek obronnych [[turret|Turret]]. Nie ma przydomka ani własnej historii — w odróżnieniu od asów pokroju [[char-aznable|Chara Aznable]] jest jednym z wielu ludzi, którzy tworzą trzon armii księstwa.
+Zbiorcze określenie szeregowych żołnierzy Księstwa [[zeon|Zeonu]], którzy pilotują myśliwce [[dopp|Dopp]] oraz [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]]. W [[srw-oe-ep1-black-tri-stars|scenie „Black Tri-Stars”]] bronią bazy obok trzech [[dom|Domów]]. Obsługują też baterie [[turret|Turret]], ale nieruchome wieżyczki nie są pilotowanymi maszynami.
 
-Jego siłą nie jest indywidualne wyszkolenie, lecz szyk. Żołnierze tego samego typu walczą w grupach, a wytrzymałość grupy jest sumą wytrzymałości jej maszyn.
+W ataku na [[white-base|White Base]] z Epizodu 0 dwa Zaku II mają nazwanych pilotów: maszynę z karabinem prowadzi [[slender|Slender]], a wersję z bazooką — [[crown|Crown]].
 
-Nie każdą z tych maszyn prowadzi bezimienny żołnierz: podczas ataku na [[white-base|White Base]] [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]] prowadzi [[slender|Slender]], a [[zaku-ii-bazooka|wersję z bazooką]] — [[crown|Crown]]. W [[srw-oe-ep1-black-tri-stars|scenie „Black Tri-Stars”]] obsadza Doppy i wieżyczki broniące bazy, podczas gdy [[black-tri-stars|Black Tri-Stars]] walczą w [[dom|Domach]].
+Umiejętność „Szeregowy” pozwala żołnierzom tego samego typu walczyć w grupie, której wytrzymałość jest sumą wytrzymałości maszyn.
 }}
 {{menu gra=srw-oe
 

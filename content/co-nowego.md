@@ -2,6 +2,8 @@
 
 ## 2026-10-22 15:20
 
+- [[turret|Turret]] jest teraz poprawnie opisany jako niepilotowana, nieruchoma bateria: [[zolnierz-zeonu|Żołnierze Zeonu]] pilotują Doppy i [[zaku-ii|dwa Zaku II]], a wieżyczki jedynie obsługują.
+- Opisy jednostek misji [[srw-oe-ep1-black-tri-stars|„Black Tri-Stars”]] wyraźniej rozdzielają wydarzenia sceny, parametry z gry i informacje ze sprawdzonych źródeł; poprawiono też zasięg Heat Sabera [[dom|Doma]], wypowiedź [[sayla-mass|Sayli]] i umiejętność [[newtype|Newtype]].
 - [[prolog-i-trening-w-connect|Scena 0-1]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] mają analizę rozbitą na podsekcje, a każda z nich prowadzi do swojego miejsca w treści — od prologu i szkolenia po [[white-base|White Base]], odwrót [[char-aznable|Chara]] i rozmowę w hangarze.
 
 ## 2026-10-22 14:05
@@ -28,7 +30,7 @@
 - [[srw-oe-ep1-black-tri-stars|Scena 1-2]] „Black Tri-Stars”: [[white-base|White Base]] odpiera atak trzech [[dom|Domów]] [[black-tri-stars|Black Tri-Stars]] w drodze ku [[operacja-odessa|Odessie]].
 - Nowe jednostki: [[dom|Dom (Black Tri-Stars)]], [[dopp|Dopp]], [[g-fighter|G-Fighter]], [[guncannon|Guncannon]], [[guntank|Guntank]] i [[turret|Turret]] — z uzbrojeniem i parametrami.
 - Nowi piloci: [[kai-shiden|Kai Shiden]], [[hayato-kobayashi|Hayato Kobayashi]], [[gaia|Gaia]], [[ortega|Ortega]], [[mash|Mash]] i [[mquve|M'Quve]].
-- [[zolnierz-zeonu|Żołnierz Zeonu]] — bezimienny pilot [[dopp|Doppów]], [[zaku-ii|Zaku II]] i wieżyczek — walczy w grupie, w której wytrzymałość jest sumą maszyn.
+- [[zolnierz-zeonu|Żołnierz Zeonu]] — zbiorcze określenie pilotów [[dopp|Doppów]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem]]; szeregowi obsługują też niepilotowane [[turret|wieżyczki]] i walczą w grupie, której wytrzymałość jest sumą maszyn.
 - Nowe hasła: [[black-tri-stars|Black Tri-Stars]], [[operacja-odessa|Operacja Odessa]] i [[jet-stream-attack|Jet Stream Attack]].
 - [[sayla-mass|Sayla]] po raz pierwszy prowadzi [[g-fighter|G-Fighter]], a [[white-base|White Base]] zyskuje miano „konia trojańskiego”.
 

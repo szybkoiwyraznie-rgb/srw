@@ -15,9 +15,7 @@ utworzono: 2026-10-22
 
 ## Opis
 
-[[mobile-suit|Mobile suit]] wsparcia [[white-base|White Base]], prowadzony przez [[kai-shiden|Kaia Shidena]]. Działko Vulcan i karabin wiązkowy pozwalają odpowiadać na bliskie zagrożenia, a działo 240 mm sięga celów za przeszkodami i wstrząsa trafionym wrogiem.
-
-W misji nad Azją Środkową startuje z pokładu razem z [[rx-78-2-gundam|Gundamem]] i [[guntank|Guntankiem]], gdy [[white-base|White Base]] przygotowuje się do opuszczenia strefy.
+[[mobile-suit|Mobile suit]] wsparcia [[white-base|White Base]], prowadzony przez [[kai-shiden|Kaia Shidena]]. W misji nad Azją Środkową startuje z pokładu razem z [[rx-78-2-gundam|Gundamem]] i [[guntank|Guntankiem]], gdy okręt przygotowuje się do opuszczenia strefy.
 }}
 {{menu gra=srw-oe
 
@@ -34,6 +32,8 @@ W misji nad Azją Środkową startuje z pokładu razem z [[rx-78-2-gundam|Gundam
 {{menu gra=srw-oe
 
 ## Parametry
+
+Działko Vulcan i karabin wiązkowy pozwalają odpowiadać na bliskie zagrożenia, a działo 240 mm strzela ponad przeszkodami i może wstrząsnąć trafionym wrogiem.
 
 **Seria:** [[mobile-suit-gundam-1979|Mobile Suit Gundam]]
 

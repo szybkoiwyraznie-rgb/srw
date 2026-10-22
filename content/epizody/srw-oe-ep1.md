@@ -12,7 +12,9 @@ pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Patlabor
   - https://patlabor.fandom.com/wiki/HAL_X-10
+  - https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!
   - https://gundam.fandom.com/wiki/Black_Tri-Stars
+  - https://gundam.fandom.com/wiki/Black_Tri-Star
   - https://gundam.fandom.com/wiki/Operation_Odessa
   - https://gundam.fandom.com/wiki/G-Fighter
 tagi: [patlabor, trening]
@@ -61,9 +63,9 @@ Druga misja zmienia ton: zamiast ćwiczeń na poligonie jest regularna operacja 
 ## Postacie i maszyny
 
 - Drugi Pluton SV2, Ingramy i HAL-X10 pochodzą z *Patlabor* ([Wikipedia, *Patlabor*](https://en.wikipedia.org/wiki/Patlabor); sprawdzono 2026-10-21).
-- HAL-X10 to prototypowy Labor wojskowy, który w *Patlabor* wymyka się spod kontroli ([Patlabor Wiki, „HAL X-10”](https://patlabor.fandom.com/wiki/HAL_X-10); sprawdzono 2026-10-21).
+- HAL-X10 to prototypowy Labor wojskowy, który w *Patlabor* wymyka się spod kontroli ([Patlabor Wiki, „HAL X-10”](https://patlabor.fandom.com/wiki/HAL_X-10); sprawdzono 2026-10-21). Wątek ten pochodzi z piątego odcinka serialu, „Runaway Labor X-10!” ([Patlabor Wiki, „Runaway Labor X-10!”](https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!); sprawdzono 2026-10-22).
 - [[connect-force|Connect]], [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] są oryginalnymi elementami *Super Robot Wars OE*.
-- [[black-tri-stars|Black Tri-Stars]] to elitarna trójka pilotów [[zeon|Zeonu]] — [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] — a ich znakiem rozpoznawczym był [[jet-stream-attack|Jet Stream Attack]] ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-22).
+- [[black-tri-stars|Black Tri-Stars]] to elitarna trójka pilotów [[zeon|Zeonu]] — [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] — a ich znakiem rozpoznawczym był [[jet-stream-attack|Jet Stream Attack]] ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-22). Ich przybycie z Domami na front M'Quve'a rozpoczyna odcinek 24 „Black Tri-Star” ([Gundam Wiki, „Black Tri-Star”](https://gundam.fandom.com/wiki/Black_Tri-Star); sprawdzono 2026-10-22).
 - Operacja Odessa była kontrofensywą Sił Federacji Ziemskiej przeciw Zeonowi na północnym wybrzeżu Morza Czarnego i największą bitwą lądową tej wojny ([Gundam Wiki, „Operation Odessa”](https://gundam.fandom.com/wiki/Operation_Odessa); sprawdzono 2026-10-22).
 - G-Fighter to ciężki myśliwiec wsparcia Gundama, zbudowany z dwóch modułów i zdolny do lotu w atmosferze; jednym z jego pilotów była [[sayla-mass|Sayla Mass]] ([Gundam Wiki, „G-Fighter”](https://gundam.fandom.com/wiki/G-Fighter); sprawdzono 2026-10-22).
 }}

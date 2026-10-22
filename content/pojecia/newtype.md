@@ -15,8 +15,12 @@ utworzono: 2026-10-22
 ## Opis
 
 Określenie, którym w scenariuszu posługują się [[gaia|Gaia]] i [[mquve|M'Quve]]. Gaia ostrzega [[black-tri-stars|Black Tri-Stars]], że na pokładzie [[white-base|White Base]] jest podobno Newtype, i każe nie lekceważyć pilota białego mobile suita; M'Quve odpowiada, że w to nie wierzy.
+}}
+{{menu gra=srw-oe
 
-W danych misji „Newtype” jest też umiejętnością pilota: na trzecim poziomie daje Cel/Unik+6 i Kryt Obraż.+18%. Ma ją między innymi [[amuro-ray|Amuro]].
+## Umiejętność pilota
+
+W *SRW OE* „Newtype” jest również umiejętnością pilota. [[amuro-ray|Amuro]] uczy się jej na poziomie 3; efekt bazowy daje Cel/Unik+6 i Kryt Obraż.+18%.
 }}
 {{zrodlo gra=wspolne
 
