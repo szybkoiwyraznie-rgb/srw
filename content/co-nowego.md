@@ -53,20 +53,6 @@
 - [[srw-oe-ep0|Epizod 0]] odzyskał spójnik w zdaniu o wspólnej ramie chronologicznej, a analiza sceny na [[white-base|White Base]] nie powtarza „a” i mówi o ataku Chara wprost.
 - Drobne poprawki w opisach [[marker|Markera]], [[exart|Exarta]] i [[zaku-ii-bazooka|Zaku II z bazooką]].
 
-## 2026-10-21 00:38
-
-- Etykiety wersji nie są już odczytywane z dosłownego tekstu dialogów — kontrola pomija ten fragment treści.
-
-## 2026-10-21 00:30
-
-- Opis schematu danych obejmuje teraz hasła, sceny i relacje z nimi, a wymagania dotyczące źródeł odpowiadają temu, co naprawdę jest sprawdzane.
-- Schemat wyjaśnia, skąd pochodzą parametry jednostek (`w_gre`): z menu gry albo z pliku w archiwum projektu.
-
-## 2026-10-21 00:20
-
-- Podgląd ilustracji przechodzi strzałkami tylko obrazy z jednej galerii, a licznik pokazuje pozycję w tej galerii, nie na całej stronie.
-- Gdy przeglądarka nie otworzy ilustracji w nowej karcie, fokus wraca do miniatury.
-
 ## 2026-10-21 00:12
 
 - [[slender|Slender]], [[crown|Crown]], [[marker|Marker Clan]] i [[oscar-dublin|Oscar Dublin]] mają przypisaną serię [[mobile-suit-gundam-1979|Mobile Suit Gundam]] — tak jak pozostali bohaterowie ataku na [[white-base|White Base]].
@@ -103,20 +89,6 @@
 - Strony jednostek z karabinem i bazooką wymieniają nazwanych pilotów przed bezimienną załogą.
 - [[srw-oe-ep0|Epizod 0]] i scena na [[white-base|White Base]] mówią teraz wprost, kto siedzi w której maszynie.
 
-## 2026-10-20 20:20
-
-- Dziennik zmian prowadzi do stron: gdy wpis dotyczy postaci, mecha, hasła, serii albo epizodu, nazwa jest odsyłaczem wprost do tej strony — także we wpisach sprzed tej zmiany.
-
-## 2026-10-20 20:15
-
-- Strona główna w nowym układzie: „Co nowego” zajmuje lewą kolumnę (3/4 szerokości, osiem najnowszych wpisów i odsyłacz do całego dziennika), a „Ostatnio dodane” prawą (1/4). Lista najnowszych epizodów zniknęła z głównej — [epizody](#/epizody) mają własny dział.
-- Górne menu prowadzi teraz do działów ze stopki: [Gry](#/gry), [Serie](#/serie), [Hasła](#/pojecia), [Tagi](#/tagi), Co nowego, O bazie. Cztery kafle na głównej (sceny, epizody, postacie, mechy) nie są już powielone w menu, a stopka nie ma drugiego zestawu linków.
-- Wstęp na stronie głównej idzie pełną szerokością treści, bez łamania w połowie zdania.
-
-## 2026-10-20 20:08
-
-- Listy scen mają jeden układ: tytuł w pierwszym wierszu, opis sceny zawsze pod nim — na stronie [epizodu](#/epizody) i w dziale [„Sceny”](#/sceny).
-
 ## 2026-10-20 20:04
 
 - Opis bezimiennego pilota mówi o ludziach armii, nie o miejscu w danych gry: [[zaku-ii|Zaku II]], siła szyku i nazwani podwładni [[char-aznable|Chara]] w [[srw-oe-ep0-na-ratunek-white-base|scenie ataku na White Base]].
@@ -141,10 +113,6 @@
 - [[seishiro|Seishiro Kusanagi]]: nowa umiejętność Precyzja w profilu [[exart|Exarta]] i na swojej stronie.
 - White Base jest odtąd jednostką bojową w bazie, a nie hasłem o okręcie; odsyłacze pozostają bez zmian.
 
-## 2026-10-20 18:11
-
-- Galerie ilustracji: pod obrazem nie ma już dodatkowego odnośnika — powiększenie otwiera się po kliknięciu samej ilustracji.
-
 ## 2026-10-20 18:06
 
 - Portrety bohaterów: każda postać ma własną ilustrację — załoga [[white-base|White Base]], piloci [[zeon|Zeonu]], [[connect-force|Connect Force]] oraz [[kuro|Kuro]] i [[shiro|Shiro]].
@@ -162,15 +130,6 @@
 ## 2026-10-20 11:55
 
 - Każdy fragment opisu ma etykietę tytułu, którego dotyczy — także opisy z gry, epizody, sceny i seriale. Informacje niezależne od wersji oznaczono jako wspólne, a rodowód postaci i mechów jako pochodzący z całej serii.
-
-## 2026-10-20 11:49
-
-- Opisy i galerie mają teraz jawny tytuł, którego dotyczą: etykieta gry przy fragmentach i ilustracjach, gry w infoboksie oraz nazwa tytułu w podglądzie pełnoekranowym.
-- Rodowód postaci i mechów oznaczono jako informacje wspólne dla wszystkich tytułów.
-
-## 2026-10-20 10:46
-
-- Ilustracje: kliknięcie obrazu otwiera go na pełnym ekranie, z podpisem i przełączaniem między obrazami danej strony.
 
 ## 2026-10-19 23:15
 

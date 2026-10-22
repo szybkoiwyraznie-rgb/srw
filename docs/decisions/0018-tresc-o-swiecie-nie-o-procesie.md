@@ -69,4 +69,7 @@ Publiczny dziennik (`content/co-nowego.md`) opisuje wyłącznie treść bazy: no
 opisy, ilustracje i powiązania. **Nie odnotowuje zmian interfejsu ani innych technikaliów** —
 galerii kafelków, filtrów, układu stron, wydajności czy parametrów budowania. Decyzja
 właściciela z 2026-10-22: baza jest informacją o fabule, nie o technice. Dotyczy to też
-pozycji już opublikowanych — wpisy o galerii i filtrach z 2026-10-21 usunięto.
+pozycji już opublikowanych: z dziennika usunięto wpisy, które opisywały wyłącznie interfejs
+albo dokumentację wewnętrzną (2026-10-21 00:20, 00:30, 00:38; 2026-10-20 20:08, 20:15, 20:20,
+11:49, 18:11; 2026-10-20 10:46) oraz wpisy o galerii kafelków i filtrach z 2026-10-21 22:15
+i 22:30. Wpisy o nowych opisach, ilustracjach i powiązaniach zostały bez zmian.
