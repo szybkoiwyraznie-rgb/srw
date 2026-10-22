@@ -55,13 +55,13 @@ Tymczasem White Base, który zszedł na Ziemię, odpierając kolejne ataki Zeonu
 
 **Seishiro:** Raczej nie na statku kosmicznym. No, Connect faktycznie tnie zbędne wydatki, gdzie tylko może...
 
-**Himari:** Aha... \*pociąg nosem\*...
+**Himari:** Aha... \*pociągnięcie nosem\*...
 
 **Himari:** Eee... a ile zajmie powrót do ziemskiej filii Connect?
 
 **Seishiro:** Jesteśmy już poza atmosferą... Po wejściu na szlak handlowy powinno pójść w niecałą godzinę... A co?
 
-**Himari:** \*chlip\*... Zmarzłam na kość... Nie wytrzymam.
+**Himari:** \*pociągnięcie nosem\*... Zmarzłam... Nie wytrzymam.
 
 **Seishiro:** To poćwicz na maszynie, nabierz trochę mięśni. I się rozgrzejesz. Dwie pieczenie na jednym ogniu.
 
@@ -79,7 +79,7 @@ Tymczasem White Base, który zszedł na Ziemię, odpierając kolejne ataki Zeonu
 
 **Seishiro:** Nie spodziewałem się walki w neutralnej Japonii. Na szczęście straty udało się ograniczyć...
 
-**Himari:** \*chlip\*... Podobno wciąż nie wiadomo, czemu te bezzałogowe Labory oszalały.
+**Himari:** \*siąkanie\*... Podobno wciąż nie wiadomo, czemu te bezzałogowe Labory oszalały.
 
 **Seishiro:** Nikt nie przyznał się do ataku. Nie wiemy nawet, czy to zamach, czy wypadek.
 
@@ -95,7 +95,7 @@ Tymczasem White Base, który zszedł na Ziemię, odpierając kolejne ataki Zeonu
 
 **Seishiro:** A propos, czy White Base po ucieczce z Side 7 bezpiecznie dotarł na Ziemię?
 
-**Szef Suol:** O tak, ma się dobrze. Zeon ciągle ich atakuje, ale ponoć niedawno przepływali niedaleko Japonii.
+**Szef Suol:** O tak, ma się dobrze. Zeon ciągle ich atakuje, ale ponoć niedawno przelatywał nad wodami w pobliżu Japonii.
 
 **Szef Suol:** Załoga chyba też bez zmian. Kierują się w stronę Azji Środkowej, więc może dołączą do operacji Odessa.
 
@@ -241,7 +241,7 @@ Tymczasem White Base, który zszedł na Ziemię, odpierając kolejne ataki Zeonu
 
 #### Dialogi warunkowe — zbliżenie do White Base
 
-> **Mash:** To prawda, że za zatopienie tego okrętu dostaje się Krzyż Zeonu?
+> **Mash:** To prawda, że za zniszczenie tego okrętu dostaje się Krzyż Zeonu?
 
 > **Ortega:** He-he-he, a wtedy nasze imiona staną się jeszcze bardziej legendarne...!
 
@@ -315,7 +315,7 @@ Tymczasem White Base, który zszedł na Ziemię, odpierając kolejne ataki Zeonu
 
 **Amuro:** N-nie ma na to czasu. Operacja Odessa wciąż trwa.
 
-**Kai:** Czy White Base nie płynie przypadkiem do Jaburo?
+**Kai:** Czy White Base nie leci przypadkiem do Jaburo?
 
 **Sayla:** Nie weźmiemy udziału w ataku na samą Odessę, ale pewnie uderzymy na bazy po drodze.
 
@@ -376,7 +376,7 @@ Dla [[sayla-mass|Sayli]] to pierwszy wylot; [[kai-shiden|Kai]] żartuje z tego, 
 
 [[gaia|Gaia]] rozpoznaje „koń trojański” Federacji i biały mobile suit, o którym krążą pogłoski o Newtypie. Wraz z [[ortega|Ortegą]] i [[mash|Mashem]] wchodzi do walki, licząc na szybkość [[dom|Domów]].
 
-Podczas starcia padają kwestie zależne od sytuacji: [[amuro-ray|Amuro]] przyznaje, że przeciwnik jest dobry, piloci Federacji narzekają na tempo Domów, a [[mash|Mash]] dziwi się, że okręt ma jeszcze czwartą maszynę — [[g-fighter|G-Fighter]]. Gdy zespół zbliża się do [[white-base|White Base]], [[mash|Mash]] pyta o Krzyż Zeonu za zatopienie okrętu, a [[gaia|Gaia]] przypomina, że celem jest zatrzymanie okrętu, a nie pogoń za chwałą.
+Podczas starcia padają kwestie zależne od sytuacji: [[amuro-ray|Amuro]] przyznaje, że przeciwnik jest dobry, piloci Federacji narzekają na tempo Domów, a [[mash|Mash]] dziwi się, że okręt ma jeszcze czwartą maszynę — [[g-fighter|G-Fighter]]. Gdy zespół zbliża się do [[white-base|White Base]], [[mash|Mash]] pyta o Krzyż Zeonu za zniszczenie okrętu, a [[gaia|Gaia]] przypomina, że celem jest zatrzymanie okrętu, a nie pogoń za chwałą.
 
 ### Odwrót
 
