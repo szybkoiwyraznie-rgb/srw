@@ -21,6 +21,8 @@ Chorąży dowodzący [[white-base|White Base]] w trakcie ataku. Prowadzi obronę
 Po przybyciu [[connect-force|Connect]] wita wsparcie i ostrzega [[seishiro|Seishira]], że przeciwnikiem jest [[char-aznable|Char]], Czerwona Kometa.
 
 Podczas [[operacja-odessa|operacji Odessa]] dowodzi startem [[white-base|White Base]] i wysyła [[rx-78-2-gundam|Gundama]], [[guncannon|Guncannon]], [[guntank|Guntank]] oraz [[g-fighter|G-Fighter]]. Po walce z [[black-tri-stars|Black Tri-Stars]] rozmawia z [[mirai-yashima|Mirai]] o tym, czy przeciwnik wróci, i zgadza się, że załoga powinna bardziej wierzyć w siebie.
+
+Gdy [[mquve|M'Quve]] odpala [[h-bomb-missile|pocisk termojądrowy]], Bright wykorzystuje dane ujawnione na mocy [[traktat-antarktyczny|Traktatu Antarktycznego]]. Przesyła [[amuro-ray|Amurowi]] kurs i położenie zapalnika, a następnie rozkazuje przeciąć go szablą wiązkową.
 }}
 {{menu gra=srw-oe
 

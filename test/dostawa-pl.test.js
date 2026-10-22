@@ -181,7 +181,7 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
   // Żołnierz Zeonu wraca do bazy z dostawą misji 2 (ADR 0025, adnotacja 2026-10-22).
   assert.ok(bySlug.has('zolnierz-zeonu'), 'Żołnierz Zeonu ma własną stronę');
   assert.deepEqual(bySlug.get('zolnierz-zeonu').mechy,
-    ['dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']);
+    ['dom-zolnierz-zeonu', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']);
   assert.deepEqual(bySlug.get('turret').piloci, [], 'Turret nie jest pilotowanym mechem');
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka']) {
     assert.ok(bySlug.get(slug).piloci.includes('zolnierz-zeonu'), `${slug}: domyślna załoga`);

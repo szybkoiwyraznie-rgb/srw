@@ -373,7 +373,7 @@ Himari marznie w chłodnym transportowcu i podejrzewa, że firma oszczędza na o
 
 ### Odprawa w bazie Zeonu
 
-[[mquve|M'Quve]] przyjmuje posiłki od lady Kycilii: trzy nowe [[dom|Domy]] do walki lądowej i [[black-tri-stars|Black Tri-Stars]] pod dowództwem [[gaia|Gai]]. Komandor najpierw chce rozbić siły na froncie generała Revila i odkłada „konia trojańskiego” na później.
+[[mquve|M'Quve]] przyjmuje posiłki od lady Kycilii: trzy nowe [[dom|Domy]] do walki lądowej i [[black-tri-stars|Black Tri-Stars]] pod dowództwem [[gaia|Gai]]. Komandor najpierw chce rozbić siły na froncie [[general-revil|generała Revila]] i odkłada „konia trojańskiego” na później.
 
 [[gaia|Gaia]] nie zgadza się z lekceważeniem przeciwnika i przypomina, że na pokładzie okrętu jest podobno [[newtype|Newtype]]. [[mquve|M'Quve]] nie wierzy w takie pogłoski, ale gdy Gaia zauważa, że dowódca sam nie walczy, zmienia rozkaz: zespół ma zniszczyć „konia trojańskiego”, zanim ten dotrze do wschodniej kopalni.
 
@@ -407,7 +407,7 @@ Podczas starcia padają kwestie zależne od sytuacji: [[amuro-ray|Amuro]] przyzn
 
 ### Mostek
 
-[[bright-noa|Bright]] pyta o identyfikację przeciwnika. [[oscar-dublin|Oscar]] potwierdza, że dane z [[jaburo|Jaburo]] wskazują na [[black-tri-stars|Black Tri-Stars]], a [[marker|Marker]] dodaje, że to weterani, którzy wzięli do niewoli nawet generała Revila.
+[[bright-noa|Bright]] pyta o identyfikację przeciwnika. [[oscar-dublin|Oscar]] potwierdza, że dane z [[jaburo|Jaburo]] wskazują na [[black-tri-stars|Black Tri-Stars]], a [[marker|Marker]] dodaje, że to weterani, którzy wzięli do niewoli nawet [[general-revil|generała Revila]].
 
 [[mirai-yashima|Mirai]] uważa, że przeciwnik nie wróci w trakcie [[operacja-odessa|operacji Odessa]], i prosi [[bright-noa|Brighta]], by załoga bardziej wierzyła w siebie. Bright przyznaje jej rację i zauważa, że siły okrętu rosną.
 
@@ -429,7 +429,7 @@ W oryginale trójka przybywa na front na pokładzie okrętu kosmicznego i odbier
 
 - **Powrót do domu i cień śledztwa.** Rozmowa z [[suol|szefem Suolem]] zamyka wątek japońskich ćwiczeń, ale nie odpowiada, kto stoi za awarią [[hal-x10|HAL-X10]].
 - **Nowi przeciwnicy.** [[black-tri-stars|Black Tri-Stars]] przybywają z trzema [[dom|Domami]] i od razu trafiają na „konia trojańskiego”.
-- **Polityka ponad polem walki.** [[mquve|M'Quve]] najpierw myśli o froncie Revila i odwleka walkę z [[white-base|White Base]], a po porażce wspomina o dyplomatycznej karcie.
+- **Polityka ponad polem walki.** [[mquve|M'Quve]] najpierw myśli o froncie [[general-revil|Revila]] i odwleka walkę z [[white-base|White Base]], a po porażce wspomina o dyplomatycznej karcie.
 - **Pierwszy wylot Sayli.** [[sayla-mass|Sayla]] prowadzi [[g-fighter|G-Fighter]] i uczy się, że jej maszyna jest łatwym celem dla artylerii.
 - **Szybkość Domów.** Trzy nowe mobile suity zaskakują załogę tempem, a ich atak zmusza Federację do walki w powietrzu i na ziemi jednocześnie.
 - **Jet Stream Attack.** Zespół okrętu wymyka się [[jet-stream-attack|atakowi Jet Stream]], co przesądza o odwrocie [[black-tri-stars|Black Tri-Stars]].

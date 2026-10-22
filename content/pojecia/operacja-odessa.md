@@ -16,7 +16,9 @@ utworzono: 2026-10-22
 
 Kontrofensywa [[earth-federation|Federacji]] mająca odbić Odessę — największą bazę [[zeon|Zeonu]] na Ziemi — i otaczające ją złoża surowców. W odpowiedzi Zeon ściąga siły z Europy, Bliskiego Wschodu i Afryki pod dowództwo [[mquve|M'Quve'a]], a [[white-base|White Base]] kieruje się ku Azji Środkowej, by wesprzeć operację.
 
-[[black-tri-stars|Black Tri-Stars]] mają bronić wschodniej kopalni przed „koniem trojańskim”, lecz po nieudanym starciu [[mquve|M'Quve]] nie może wysłać im posiłków, bo główne siły Federacji nacierają na froncie generała Revila. Wtedy wspomina o cennej karcie dyplomatycznej, którą przyjdzie mu zagrać.
+[[black-tri-stars|Black Tri-Stars]] mają bronić wschodniej kopalni przed „koniem trojańskim”, lecz po nieudanym starciu [[mquve|M'Quve]] nie może wysłać im posiłków, bo główne siły Federacji nacierają na froncie [[general-revil|generała Revila]]. Wtedy wspomina o cennej karcie dyplomatycznej, którą przyjdzie mu zagrać.
+
+Gdy obrona zostaje przełamana, M'Quve grozi użyciem [[h-bomb-missile|pocisku termojądrowego]] wbrew [[traktat-antarktyczny|Traktatowi Antarktycznemu]]. Revil utrzymuje natarcie, a [[amuro-ray|Amuro]] odcina zapalnik. Federacja odbiera bazę i kopalnie, podczas gdy pozostałe oddziały Zeonu rozpraszają się lub wycofują w kosmos.
 }}
 {{zrodlo gra=wspolne
 

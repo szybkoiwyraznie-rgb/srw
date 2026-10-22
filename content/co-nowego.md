@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-10-22 18:14
+
+- [[srw-oe-ep1-powstrzymaj-pocisk-termojadrowy|Scena 1-3 „Powstrzymaj pocisk termojądrowy”]] kończy [[operacja-odessa|operację Odessa]]: [[general-revil|generał Revil]] odrzuca ultimatum [[mquve|M'Quve'a]], a [[amuro-ray|Amuro]] odcina zapalnik bomby szablą wiązkową Gundama.
+- Nowe jednostki to niepilotowany [[h-bomb-missile|H-Bomb Missile]] oraz [[dom-zolnierz-zeonu|Dom regularnych oddziałów Zeonu]], odrębny od maszyn [[black-tri-stars|Black Tri-Stars]].
+- Nowe strony postaci: [[general-revil|Generał Revil]], [[oficer-federacji|Oficer Federacji]] i [[oficer-zeonu|Oficer Zeonu]]; nowe hasło: [[traktat-antarktyczny|Traktat Antarktyczny]].
+- Nawiązanie prowadzi do dwudziestego piątego odcinka [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]], „The Fierce Battle for Odessa”, i wskazuje elementy pominięte w wersji gry.
+
 ## 2026-10-22 16:30
 
 - Samowystarczalny plik witryny nie powtarza już pełnej treści scen i epizodów obok ich osobnych sekcji. Strony zachowują ten sam kompletny widok w mniejszym pliku.

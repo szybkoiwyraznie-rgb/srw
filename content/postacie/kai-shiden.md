@@ -17,6 +17,8 @@ utworzono: 2026-10-22
 Pilot [[guncannon|Guncannona]] na pokładzie [[white-base|White Base]]. Przed startem żartuje z pierwszego wylotu [[sayla-mass|Sayli]] i blokuje kolejkę do katapulty, za co strofuje go [[hayato-kobayashi|Hayato]].
 
 W walce z [[black-tri-stars|Black Tri-Stars]] pierwszy zauważa tempo [[dom|Domów]] i pyta, jak ma je zatrzymać. Narzeka na przeglądy po walce, ale gdy trzeba osłonić okręt przed samolotami, zgłasza gotowość.
+
+Po groźbie użycia bomby wodorowej chce opuścić zagrożony obszar, lecz pozostaje w walce. W dialogu bojowym ostrzega, że eksplozja zniszczy wszystkich, i powierza zatrzymanie [[h-bomb-missile|pocisku]] [[amuro-ray|Amurowi]] oraz Gundamowi.
 }}
 {{menu gra=srw-oe
 

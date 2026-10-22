@@ -20,6 +20,8 @@ utworzono: 2026-10-22
 Nowy [[mobile-suit|mobile suit]] do walki lądowej, w którym [[black-tri-stars|Black Tri-Stars]] wchodzą do akcji nad Azją Środkową. [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] przyprowadzają trzy takie maszyny na front [[operacja-odessa|operacji Odessa]].
 
 W walce zespół stawia na szybkość: [[gaia|Gaia]] liczy, że Domy zmylą przeciwnika prędkością i pozwolą szybko zakończyć starcie.
+
+Regularne oddziały Zeonu używają podczas końca operacji Odessa odrębnej jednostki [[dom-zolnierz-zeonu|Dom (Żołnierz Zeonu)]] o innych parametrach uzbrojenia.
 }}
 {{menu gra=srw-oe
 

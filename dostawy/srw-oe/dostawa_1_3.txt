@@ -1,0 +1,676 @@
+---
+---
+SCENA
+---
+---
+
+## Powstrzymaj pocisk termojądrowy
+
+Rzucając do walki ogromne siły, Federacja odbiła większość kopalń w rejonie Odessy i zwycięstwo wydawało się bliskie.
+
+Główne siły Zeonu próbowały uciec w kosmos, a pozostałe na Ziemi oddziały rozproszyły się.
+
+Okrążony ze wszystkich stron komendant Odessy, komandor M'Quve, nawet w tej rozpaczliwej chwili miał jeszcze w zanadrzu ostatnią kartę.
+
+Atut łamiący Traktat Antarktyczny...
+
+### Sztab operacyjny Federacji
+
+**Oficer Federacji:** Generale Revil, nadeszła wiadomość od komandora M'Quve z Zeonu.
+
+**Revil:** Posłuchajmy...
+
+**M'Quve:** Do generała Revila, dowódcy operacji Odessa.
+
+**M'Quve:** Mówi M'Quve. Jeśli natychmiast się nie wycofacie, nasze siły są gotowe użyć bomby wodorowej.
+
+**M'Quve:** Owszem, łamie to Traktat Antarktyczny i zakaz broni jądrowej, ale nie chcemy przegrać...
+
+**Revil:** ......
+
+**Oficer Federacji:** Generale... M'Quve może mówić poważnie. Może wstrzymajmy natarcie...
+
+**Revil:** Nie wolno nam ustanowić precedensu uległości wobec gróźb. Zwłaszcza w politycznych grach...
+
+**Oficer Federacji:** Ale...
+
+**Revil:** Przede wszystkim nie wolno się zachwiać. Kontynuować natarcie w szyku.
+
+### White Base / Mostek
+
+**Bright:** ...Tak wygląda obecna sytuacja. Wróg najpewniej odpali pocisk termojądrowy.
+
+**Amuro:** Bombę wodorową?! Chcą użyć broni jądrowej?
+
+**Bright:** Tak. Wróg sięgnie po zakazaną broń.
+
+**Kai:** Chyba żartujecie. Jak ich zaatakujemy, przyleci rakieta, tak? To spadajmy stąd, i to szybko.
+
+**Bright:** Jeśli bomba jest prawdziwa, nas też zmiecie.
+
+**Amuro:** Jeśli jest prawdziwa... tak?
+
+**Hayato:** A nie dałoby się jej zestrzelić w powietrzu?
+
+**Bright:** Ta bomba zrówna z ziemią dziesiątki kilometrów. Wybuch w powietrzu wyrządzi te same szkody.
+
+**Sayla:** Nie da się jakoś zatrzymać tego pocisku?
+
+**Bright:** Znając typ pocisku, z danych ujawnionych w ramach traktatu ustalimy położenie zapalnika.
+
+**Sayla:** Czyli dopóki go nie odpalą, nie dowiemy się, gdzie jest zapalnik...
+
+**Bright:** Operacja odbędzie się zgodnie z planem. Jeśli pocisk termojądrowy zostanie odpalony, zajmie się nim najbliższa jednostka.
+
+**Bright:** Gdy wykryjemy pocisk, roześlę dane wszystkim. Jeśli do tego dojdzie, liczę na was.
+
+**Bright:** Nie potwierdzono odpalenia pocisku. Na razie skupcie się na rozbiciu wroga.
+
+**Amuro:** Może to tylko blef... Ale...
+
+**Marker:** Wykryto siły wroga!
+
+**Bright:** Uciekają do kosmodromu! Rozbić ich!
+
+**Kai:** Ciągle jest tyle mobile suitów...!
+
+**Hayato:** Nikt już nie dorówna Tri-Stars, ale...
+
+**Amuro:** Nie, nie możemy tracić czujności. Przyparci do muru będą walczyć do upadłego.
+
+**Sayla:** Nie mamy wyboru...
+
+#### Dialogi bojowe — sytuacyjne
+
+> **Hayato:** Nie pozwolimy im użyć bomby wodorowej! Przerzedzę ich szeregi, póki mogę...!
+
+> **Kai:** Jak tu walną atomówką, będzie po nas wszystkich. Amuro, stawiam na ciebie i na Gundama.
+
+### Baza Zeonu / Odessa
+
+**M'Quve:** Co?! Wojska Revila nie zamierzają się zatrzymać?
+
+**Oficer Zeonu:** Tak jest. Przełamują naszą ostatnią linię obrony.
+
+**M'Quve:** A-ach, ci... Więc Federacja idzie na całość. W takim razie dostaną to, czego chcieli...
+
+**Oficer Zeonu:** Ale...!
+
+**M'Quve:** To jest gra, rozumiesz. Federacja zignorowała nasze żądania... Teraz poniesie konsekwencje.
+
+**M'Quve:** Odpalić pocisk!
+
+### Pocisk termojądrowy
+
+**Bright:** Zeon odpalił pocisk termojądrowy! Zaraz przeleci nad tym obszarem.
+
+**Kai:** Co, leci w naszą stronę?!
+
+**Bright:** Bez zapalnika bomba powinna być niegroźna.
+
+**Bright:** Amuro, przetnij zapalnik szablą wiązkową!
+
+**Amuro:** Co?! To szaleństwo!
+
+**Bright:** Przesyłam ci dane i kurs pocisku. Masz tylko jedną szansę. Dokładnie nad tymi górami!
+
+### Przechwycenie pocisku
+
+**Bright:** Teraz! Zestrzel pocisk!
+
+**Amuro:** D-dam radę?!
+
+**Amuro:** Masz!
+
+**Oscar:** Temperatura zestrzelonego pocisku spada!
+
+**Marker:** Brak reakcji jądrowej! Udało się!
+
+**Kai:** Fiuuu! Nieźle!
+
+**Hayato:** Uff... Było blisko...
+
+**Sayla:** Imponujące...
+
+**Bright:** Dobrze! Świetna robota, Amuro!
+
+**Fraw:** Amuro... udało ci się...
+
+**Amuro:** Misja zakończona. Gundam wraca na okręt!
+
+### Koniec operacji Odessa
+
+Operacja Odessa zakończyła się zwycięstwem Federacji...
+
+Federacja wygrała dzięki przytłaczającej przewadze, ale liczne mobile suity rzucone do walki pokazały, że wojna weszła w nową fazę.
+
+Zeon stracił swoją największą bazę na Ziemi, a wiele jego oddziałów wycofało się w kosmos.
+
+### Odwrót Zeonu
+
+**M'Quve:** Ta jedna bitwa nie kończy wojny, rozumiesz.
+
+**M'Quve:** Pomyśl tylko... Z surowcami, które wysłaliśmy lady Kycilii...
+
+**M'Quve:** Zeon może walczyć jeszcze dziesięć lat!
+
+---
+---
+UCZESTNICY
+---
+---
+
+### Odcinek 1 — Powstrzymaj pocisk termojądrowy (`DL101_30`)
+
+**Źródło:** `eventP00.cpk/DL101_30_Entry.dat`
+**Warunki misji:**
+> W tej misji skład jednostek jest z góry ustalony.
+
+**Jednostki sojusznicze (gracza):**
+  - **G-Fighter** — pilot główny: Sayla Mass
+  - **Guncannon** — pilot główny: Kai Shiden
+  - **Gundam** — pilot główny: Amuro Ray
+  - **Guntank** — pilot główny: Hayato Kobayashi
+  - **White Base** — pilot główny: Bright Noa — piloci wspierający w misji: Mirai Yashima
+
+**Jednostki wrogie:**
+  - **Dom** — pilot główny: Żołnierz Zeonu — ×3 rekordy źródłowe Entry ID — obecny alternatywny rekord Entry ID
+  - **Dom** — pilot główny: Żołnierz Zeonu — ×3 rekordy źródłowe Entry ID — obecny alternatywny rekord Entry ID
+  - **Dopp** — pilot główny: Żołnierz Zeonu — ×2 rekordy źródłowe Entry ID — obecny alternatywny rekord Entry ID
+  - **Dopp** — pilot główny: Żołnierz Zeonu — obecny alternatywny rekord Entry ID
+  - **H-Bomb Missile** — pilot główny: Brak przypisanego klucza pilota w Entry — cel/obiekt skryptowy; nie jest pilotowanym mechem
+  - **Zaku II/Bazooka** — pilot główny: Żołnierz Zeonu
+  - **Zaku II/Karabin maszynowy** — pilot główny: Żołnierz Zeonu — ×2 rekordy źródłowe Entry ID
+
+---
+
+#### Domyślne mechy i jednostki w misji (sekcje z `srwoe_mech_catalog_v4_PL.md`)
+
+## Dom
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa          | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | -------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Heat Saber     |       1500 |  1–2   |       +50 |   5 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                              |
+|       1 | Wielka bazooka |       1800 |  1–4   |       +10 |  10 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+
+---
+
+## Dopp
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                       | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | --------------------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Karabin maszynowy           |        900 |  1–3   |       +40 |   5 |      — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4        |
+|       1 | Rakiety powietrze-powietrze |       1400 |  1–5   |       +10 |   5 |      — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4        |
+|         |                             |            |        |           |     |        |                 | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+
+---
+
+## G-Fighter
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+**Składy grup zapisane w tabeli:** Oddział White Base.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa            | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                            |
+| ------: | ---------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |
+|       0 | Wyrzutnia rakiet |       2500 |  1–5   |       +30 |   5 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|         |                  |            |        |           |     |        |                    | **Na ląd (poziom bazowy 1):** Teren "Ląd": Cel+40% Atk x1.3         |
+|       1 | Działo wiązkowe  |       3200 |  3–6   |       +15 |  10 |      — | Brak w tym polu    | **Na kosmos (poziom bazowy 1):** Teren "Kos": Cel+30% Atk x1.1      |
+|         |                  |            |        |           |     |        |                    | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                |
+|       3 | Zaopatrzenie EN  |          0 |  1–2   |        +0 |   0 |      — | Brak w tym polu    | **Zaopatrz. (poziom bazowy 1):** Sojusznicy 1 jedn.: EN+50          |
+
+---
+
+## Guncannon
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+**Składy grup zapisane w tabeli:** Oddział White Base.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa            | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                                  |
+| ------: | ---------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------------- |
+|       0 | Działko Vulcan   |       2200 |  1–3   |       +40 |   0 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu       |
+|       1 | Karabin wiązkowy |       2900 |  1–4   |       +20 |  10 |      — | Brak w tym polu    | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                      |
+|       2 | Działo 240 mm    |       3400 |  2–5   |        +5 |  20 |      — | Brak w tym polu    | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód                   |
+|         |                  |            |        |           |     |        |                    | **Wstrząs (poziom bazowy 1):** Obraż.600 1 tura: Obr wroga-20% Szansa 30% |
+
+---
+
+## Gundam
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+**Składy grup zapisane w tabeli:** Oddział White Base.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa            | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek              | Zdolności — opisy bazowe                                            |
+| ------: | ---------------- | ---------: | :----: | --------: | --: | -----: | -------------------- | ------------------------------------------------------------------- |
+|       0 | Działko Vulcan   |       2200 |  1–3   |       +40 |   0 |      — | Brak w tym polu      | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|       1 | Karabin wiązkowy |       3100 |  1–4   |       +20 |  10 |      — | Brak w tym polu      | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                |
+|       2 | Szabla wiązkowa  |       3200 |  1–1   |       +50 |   5 |      — | Brak w tym polu      | **Ucieczka (poziom bazowy 1):** Unik+18%                            |
+|       3 | Hiperbazooka     |       3600 |  2–4   |        +5 |  20 |      — | Brak w tym polu      | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole             |
+|         |                  |            |        |           |     |        |                      |   Zderzenie Obraż.500 Obraż. od upadku 1000                         |
+|         |                  |            |        |           |     |        |                      |   Ignoruje Osłonę; bez wsparcia                                     |
+
+---
+
+## Guntank
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+- **Hart (poziom bazowy 1):** Odp.: Odepch./Rzut  
+  Obraż.-4%
+
+**Składy grup zapisane w tabeli:** Oddział White Base.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa         | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                            |
+| ------: | ------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |
+|       0 | Bop Missiles  |       2400 |  1–4   |       +30 |  10 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|         |               |            |        |           |     |        |                    | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4   |
+|       1 | Działo 120 mm |       3800 |  3–7   |       +10 |  20 |      — | Brak w tym polu    | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód             |
+|         |               |            |        |           |     |        |                    | **Na ląd (poziom bazowy 1):** Teren "Ląd": Cel+40% Atk x1.3         |
+
+---
+
+## H-Bomb Missile
+
+**Seria:** Brak wpisu w dostępnych słownikach jednostek i pilotów — *nieustalona*.
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa          | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                    |
+| ------: | -------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------- |
+|       0 | Bez uzbrojenia |          0 |  0–0   |        +0 |   0 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+
+---
+
+## White Base
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+- **Okręt-matka (poziom bazowy 1):** Sojusznicy: przewóz i start  
+  HP/EN przewoż.+20%; SP/Morale pilota+2  
+  Odporn.: "Przebicie" "Pchnięcie" "Rzut"
+- **Ciężki panc. (poziom bazowy 1):** Obraż.-12%
+- **Odnowa EN (poziom bazowy 1):** EN co turę+4%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                   | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | ----------------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Karabin przeciwlotniczy |       1800 |  1–3   |       +30 |  40 |      — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg                      |
+|         |                         |            |        |           |     |        |                 |   Bez kontry                                                             |
+|         |                         |            |        |           |     |        |                 |   Nie do wsparcia ani kontry                                             |
+|       1 | Duże rakiety            |       2200 |  1–4   |       +20 |  30 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                              |
+|       2 | Podwójne działo główne  |       2800 |  1–6   |       +30 |  60 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+|         |                         |            |        |           |     |        |                 | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                     |
+|       3 | Działo megacząsteczkowe |       3200 |  3–5   |        +0 |  80 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+|         |                         |            |        |           |     |        |                 | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                     |
+
+---
+
+## Zaku II (Zaku II/Bazooka)
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa        | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | ------------ | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Bazooka Zaku |       1500 |  1–4   |        +5 |  10 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+|       1 | Heat Hawk    |       1600 |  1–1   |       +50 |   0 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                              |
+
+---
+
+## Zaku II (Zaku II/Karabin maszynowy)
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                  | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                    |
+| ------: | ---------------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------- |
+|       0 | Karabin maszynowy Zaku |       1000 |  1–3   |       +30 |   5 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+|       1 | Heat Hawk              |       1600 |  1–1   |       +50 |   0 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+
+---
+
+#### Piloci i postacie w misji oraz skrypcie sceny (sekcje z `srwoe_pilot_catalog_PL.md`)
+
+#### Amuro Ray
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Amuro
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             60 |
+| **Atak**    |            114 |
+| **Obrona**  |             70 |
+| **Celność** |            137 |
+| **Unik**    |             74 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                    |
+| ---: | ------------- | ---------: | -------: | ----------------------------------------------- |
+|    1 | **Skupienie** |          1 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%    |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Kryt** |          1 | Pozostałe HP 10%: Obr/Unik+4% Cel/Kryt+5% |
+|    2 | **Newtype**      |          3 | Cel/Unik+6 / Kryt Obraż.+18%              |
+
+---
+
+#### Kai Shiden
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Kai
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            113 |
+| **Obrona**  |             78 |
+| **Celność** |            132 |
+| **Unik**    |             65 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                  |
+| ---: | ---------- | ---------: | -------: | --------------------------------------------- |
+|    1 | **Niezł.** |          1 |       15 | Cel: ty Efekt: 1 razy — Otrzym. obrażenia-50% |                     |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Hayato Kobayashi
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Hayato
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            109 |
+| **Obrona**  |             90 |
+| **Celność** |            131 |
+| **Unik**    |             58 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                  |
+| ---: | -------- | ---------: | -------: | --------------------------------------------- |
+|    1 | **Hart** |          1 |       20 | Cel: ty — Odnawia 25% HP                      |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność     | Poz. nauki | Efekt bazowy                              |
+| ---: | --------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Obr** |          1 | Pozostałe HP 10%: Obr+5% Cel/Unik/Kryt+4% |
+
+
+---
+
+#### Bright Noa
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Bright
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            110 |
+| **Obrona**  |             87 |
+| **Celność** |            126 |
+| **Unik**    |             63 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                            |
+| ---: | ---------- | ---------: | -------: | ------------------------------------------------------- |
+|    1 | **Wiatr**  |          1 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność       | Poz. nauki | Efekt bazowy                           |
+| ---: | ----------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**     |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Sayla Mass
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Sayla
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            106 |
+| **Obrona**  |             63 |
+| **Celność** |            134 |
+| **Unik**    |             86 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                            |
+| ---: | -------- | ---------: | -------: | ----------------------------------------------------------------------- |
+|    1 | **Pęd**  |          1 |       20 | Cel: ty Efekt: 1 razy — Ruch+3                                          |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Unik** |          1 | Pozostałe HP 10%: Obr/Cel/Kryt+4% Unik+5% |
+
+---
+
+#### Mirai Yashima
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Mirai
+
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                     |
+| ---: | ------------- | ---------: | -------: | ------------------------------------------------ |
+|    1 | **Zauf.**     |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
+
+---
+
+#### Oficer Federacji
+
+- **Seria:** Brak wpisu w słowniku postaci
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             10 |
+| **Atak**    |            102 |
+| **Obrona**  |             70 |
+| **Celność** |            124 |
+| **Unik**    |             54 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Oficer Zeonu
+
+- **Seria:** Brak wpisu w słowniku postaci
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             10 |
+| **Atak**    |            102 |
+| **Obrona**  |             73 |
+| **Celność** |            126 |
+| **Unik**    |             56 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Żołnierz Zeonu
+
+- **Seria:** Brak wpisu w słowniku postaci
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             10 |
+| **Atak**    |            103 |
+| **Obrona**  |             67 |
+| **Celność** |            129 |
+| **Unik**    |             59 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                                                  |
+| ---: | ------------- | ---------: | ------------------------------------------------------------- |
+|    1 | **Szeregowy** |          1 | Zbiorcza z tą samą jedn.; wsparcie w grupie / HP = suma grupy |
+
+---
+
+#### M'Quve
+
+- **Seria:** Mobile Suit Gundam
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            110 |
+| **Obrona**  |             76 |
+| **Celność** |            126 |
+| **Unik**    |             62 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność       | Poz. nauki | Efekt bazowy                           |
+| ---: | ----------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**     |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+##### Postacie niebojowe, portretowe i systemowe (`Dodatek A`)
+
+| Nazwa (PL)                   | Seria                                          | Kontener / plik                 | Uwagi                                            |
+| ---------------------------- | ---------------------------------------------- | ------------------------------- | ------------------------------------------------ |
+| Fraw Bow                     | Mobile Suit Gundam                             | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Generał Revil                | Mobile Suit Gundam                             | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Oscar Dublin                 | Mobile Suit Gundam                             | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Marker Clan                  | Mobile Suit Gundam                             | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+
+---

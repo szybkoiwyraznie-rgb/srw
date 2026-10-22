@@ -65,7 +65,7 @@ test('epizod 1 istnieje, a skrypt jest archiwum rozegrania', () => {
 
 test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () => {
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1');
-  assert.equal(sceny.length, 2, 'epizod 1 ma dziś dwie sceny: 1-1 i 1-2');
+  assert.equal(sceny.length, 3, 'epizod 1 ma dziś trzy sceny: 1-1, 1-2 i 1-3');
   const scena = sceny.find((s) => s.slug === 'srw-oe-ep1-szalejacy-prototyp-labora');
   assert.ok(scena, 'scena 1-1 istnieje');
   assert.equal(scena.numer_sceny, '1-1');
@@ -97,7 +97,7 @@ test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () =
     .replace(/\n\n---\n?$/, '');
   assert.equal(odtworzone, oczekiwane);
   for (const czesc of czesci) assert.ok(script.includes(czesc.tekst), czesc.naglowek);
-  assert.equal(pages.filter((p) => p.typ === 'scena').length, 4, 'dwie sceny epizodu 0 i dwie epizodu 1');
+  assert.equal(pages.filter((p) => p.typ === 'scena').length, 5, 'dwie sceny epizodu 0 i trzy epizodu 1');
 });
 
 test('obsada epizodu i sceny obejmuje wszystkie postacie i jednostki z misji', () => {

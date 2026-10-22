@@ -42,7 +42,7 @@ test('scena 1-2 jest dosłownym fragmentem skryptu i ma własny numer', () => {
   assert.deepEqual(sprawdzWiernoscSceny(scena, script), []);
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1')
     .sort((a, b) => String(a.numer_sceny).localeCompare(String(b.numer_sceny)));
-  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2']);
+  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3']);
 });
 
 test('obsada i sprzęt misji 2 są spięte z epizodem i sceną', () => {
@@ -98,7 +98,7 @@ test('obsada jednostek misji 2 zachowuje kolejność pilotów i domyślną zało
   assert.deepEqual(bySlug.get('dopp').piloci, ['zolnierz-zeonu']);
   assert.deepEqual(bySlug.get('turret').piloci, [], 'wieżyczka jest niepilotowanym celem');
   assert.deepEqual(bySlug.get('zolnierz-zeonu').mechy,
-    ['dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']);
+    ['dom-zolnierz-zeonu', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']);
   assert.deepEqual(bySlug.get('sayla-mass').mechy, ['g-fighter']);
 });
 
