@@ -27,7 +27,7 @@ Na poligonie Fuji leci z [[seishiro|Seishirem]] w [[exart|Exarcie]] jako podpilo
 
 W drodze powrotnej marznie w transportowcu i narzeka na zimno; [[seishiro|Seishiro]] proponuje jej trening na maszynie, żeby się rozgrzała, a [[suol|szef Suol]] przypomina, że dbanie o zdrowie też jest obowiązkiem.
 
-W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] sama prowadzi [[exart|Exarta]] i pierwszy raz ćwiczy pod presją. Przedstawia się przez radio [[klasa-obrony-ziemi|Klasie Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]] i denerwuje się, że trafiła na weteranów, którzy pokonali [[jaku-empire|Imperium Piątego Wymiaru]].
+W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] pierwszy raz leci za sterami [[exart|Exarta]] i przekonuje się, że presja jest częścią nauki: [[seishiro|Seishiro]] zapowiada, że często będzie oddawał jej stery. Przedstawia się przez radio [[klasa-obrony-ziemi|Klasie Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]] i denerwuje się, że trafiła na weteranów, którzy pokonali [[jaku-empire|Imperium Piątego Wymiaru]].
 }}
 {{menu gra=srw-oe
 

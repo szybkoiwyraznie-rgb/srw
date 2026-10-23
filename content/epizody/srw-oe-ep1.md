@@ -34,6 +34,7 @@ Na stacji [[connect-force|Connect]] [[suol|szef Suol]] informuje [[seishiro|Seis
 Na [[poligon-fuji|poligonie Fuji]] czekają [[zolnierz-jsdf|żołnierze JSDF]]. Himari, dla której to pierwszy wylot w terenie, siada za sterami obok Seishira. Do ćwiczeń dołącza Drugi Pluton SV2: [[noa-izumi|Noa Izumi]] w [[ingram-nr-1|Ingramie nr 1]], [[isao-ota|Isao Ota]] w [[ingram-nr-2|Ingramie nr 2]] oraz wóz dowodzenia z [[asuma-shinohara|Asumą]], kapitanem [[kiichi-goto|Goto]] i resztą plutonu.
 
 Ćwiczenia przerywa ogień ostrej amunicji: bezzałogowe [[hal-x10|HAL-X10]] wymykają się spod kontroli i ruszają w stronę zaludnionych terenów. Seishiro bierze odpowiedzialność na Connect i razem z SV2 oraz wojskiem niszczy szalejące maszyny. Po walce pluton rozmawia o wpływach Connect i plotkach o handlu z dalekim kosmosem.
+
 ### Misja 2: Black Tri-Stars
 
 Transportowiec [[connect-force|Connect]] wraca z Japonii na Stację Connect. [[himari-yaegaki|Himari]] marznie w chłodnym wnętrzu, a [[seishiro|Seishiro]] tłumaczy, że [[exart|Exart]] zdołał wejść w atmosferę, ale z grawitacji wyrwie się tylko z transportem. [[suol|Szef Suol]] chwali przebieg ćwiczeń i zapowiada pomoc Connect w śledztwie w sprawie [[hal-x10|HAL-X10]].
@@ -50,7 +51,7 @@ M'Quve odpala [[h-bomb-missile|pocisk termojądrowy]], łamiąc [[traktat-antark
 
 ### Misja 4: Trening Klasy Obrony
 
-[[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] lecą [[exart|Exartem]] na wspólny trening z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]]. Himari po raz pierwszy prowadzi maszynę w walce i uczy się pracować pod presją, a [[seishiro|Seishiro]] chwali jej smykałkę.
+[[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] lecą [[exart|Exartem]] na wspólny trening z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]]. Himari po raz pierwszy leci za sterami, a [[seishiro|Seishiro]] chwali jej smykałkę i zapowiada, że w ćwiczeniach często odda jej stery — ma się nauczyć pracować pod presją.
 
 Na miejscu zamiast wroga czekają Labory treningowe, a [[maria-shiratori|Maria]] przyznaje, że urządziła ćwiczenia z zaskoczenia. Ramię w ramię z [[exart|Exartem]] walczy [[raijin-oh|Raijin-Oh]] z [[jin-hyuga|Jinem]], [[asuka-tsukishiro|Asuką]] i [[koji-hoshiyama|Kojim]] za sterami. [[tsutomu-kojima|Tsutomu]] tłumaczy, że celem nie jest samo zwycięstwo, lecz wykorzystanie terenu: zrzucenie wroga z wysokości zadaje dodatkowe obrażenia. Po ćwiczeniach klasa zaprasza Seishira na odprawę, a rozmowa o [[connect-force|Connect]] kończy się, gdy [[tsutomu-kojima|Tsutomu]] ucina pytania o powody współpracy dorosłych.
 
@@ -66,8 +67,8 @@ Na miejscu zamiast wroga czekają Labory treningowe, a [[maria-shiratori|Maria]]
 | Black Tri-Stars na froncie Odessy | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” (oficjalnie „The Triple Dom Assault!”) | adaptacja | W grze trójka broni wschodniej kopalni przed White Base; w anime trafia na front w tym samym okresie. |
 | Odprawa u M'Quve'a | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” | adaptacja | Gra pokazuje kulisy decyzji sztabu; sama bitwa o Odessę pozostaje poza kadrem. |
 | Powrót Connect z Japonii | [[srw-oe\|Super Robot Wars OE]] | Epizod 1 | autorskie | Rozmowa Seishira, Himari i Suola jest oryginalna dla gry. |
-| Klasa Obrony Ziemi i szkoła w Hinobori | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | serial 1991 | adaptacja | W grze klasa ćwiczy z Connect i pokazuje dorosłym swoje metody treningu; w oryginale walczy z Imperium Jaku. |
-| Raijin-Oh i troje pilotów | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | serial 1991 | adaptacja | Gra zachowuje podział ról w kabinie i dowodzenie z klasy, a trening zamiast walki o Ziemię jest autorski. |
+| Klasa Obrony Ziemi i szkoła w Hinobori | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | odc. 1–51 (1991–1992) | adaptacja | Klasa, jej dowodzenie i szkolne zaplecze pochodzą z serialu; w grze ćwiczy z Connect, a w oryginale walczy z Imperium Jaku. |
+| Raijin-Oh i troje pilotów | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | odc. 1–51 (1991–1992) | adaptacja | Gra zachowuje podział ról w kabinie i dowodzenie z klasy; sam trening zamiast walki o Ziemię jest autorski. |
 | Wspólne ćwiczenia z Connect | [[srw-oe\|Super Robot Wars OE]] | Epizod 1 | autorskie | Spotkanie z Klasą Obrony Ziemi jest oryginalne dla gry; w anime Connect nie występuje. |
 | Bitwa o Odessę i pocisk termojądrowy | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 25 „The Fierce Battle for Odessa” | adaptacja | Gra zachowuje ultimatum M'Quve'a, decyzję Revila i rozbrojenie pocisku przez Amura, lecz pomija spisek Elrana oraz walkę z pozostałymi Black Tri-Stars. |
 

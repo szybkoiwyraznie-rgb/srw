@@ -25,7 +25,7 @@ utworzono: 2026-10-23
 
 ## Treść sceny
 
-Scena zaczyna się na pustej działce, gdzie [[himari-yaegaki|Himari]] po raz pierwszy prowadzi [[exart|Exarta]], a kończy odprawą w [[akademia-hinobori|Akademii Hinobori]]. Między nimi stoi wspólny trening z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] i jej [[raijin-oh|Raijin-Ohem]], w którym chodzi nie o samo zwycięstwo, lecz o wykorzystanie terenu.
+Scena zaczyna się na pustej działce, gdzie [[himari-yaegaki|Himari]] pierwszy raz leci za sterami [[exart|Exarta]], a kończy odprawą w [[akademia-hinobori|Akademii Hinobori]]. Między nimi stoi wspólny trening z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] i jej [[raijin-oh|Raijin-Ohem]], w którym chodzi nie o samo zwycięstwo, lecz o wykorzystanie terenu.
 
 :::skrypt
 ## Trening Klasy Obrony
@@ -337,7 +337,7 @@ Kusanagi i reszta z Connect mają teraz wziąć udział w treningu Klasy Obrony 
 
 ### Ćwiczenia na pustej działce
 
-[[himari-yaegaki|Himari]] sama prowadzi [[exart|Exarta]] i ląduje po locie, który określa jako trzęsący się i stresujący. [[seishiro|Seishiro]] chwali ją za smykałkę i zapowiada, że w treningu często będzie oddawał jej stery, bo lekki trening niczego nie uczy. Presja ma być częścią ćwiczenia: Himari ma nauczyć się cieszyć napięciem, a przy okazji nie narobić kłopotów drużynie, z którą Connect będzie ćwiczyć.
+[[himari-yaegaki|Himari]] po raz pierwszy leci za sterami [[exart|Exarta]] i po wylądowaniu przyznaje, że bardzo się denerwowała i że sama jeszcze nie da rady. [[seishiro|Seishiro]] chwali ją za smykałkę i zapowiada, że w treningu często będzie oddawał jej stery, bo lekki trening niczego nie uczy. Presja ma być częścią ćwiczenia: Himari ma nauczyć się cieszyć napięciem, a przy okazji nie narobić kłopotów drużynie, z którą Connect będzie ćwiczyć.
 
 ### Rozkaz wymarszu
 
@@ -377,9 +377,11 @@ Rozmowa schodzi na Connect. [[jin-hyuga|Jin]], [[kirara-haruno|Kirara]] i [[asuk
 
 ## Nawiązania do oryginalnych odcinków
 
-Wydarzenia z tej sceny — klasa [[klasa-obrony-ziemi|Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]], uczniowie sterujący [[raijin-oh|Raijin-Ohem]] i walka z zagrożeniem, które nadeszło z piątego wymiaru — nawiązują do serialu **''Zettai Muteki Raijin-Oh''** z 1991 roku, w angielskim obiegu *Matchless Raijin-Oh* ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
+Wydarzenia z tej sceny nie przenoszą żadnego odcinka serialu — to autorskie ćwiczenie gry. Świat, z którego pochodzą bohaterowie, jest jednak wzięty wprost z **''Zettai Muteki Raijin-Oh''** (絶対無敵ライジンオー) z 1991 roku: [[raijin-oh|Raijin-Oh]], [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] i szkolne otoczenie [[akademia-hinobori|Akademii Hinobori]] to elementy tej serii, znanej w angielskim obiegu jako *Matchless Raijin-Oh* ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 
-Gra zachowuje szkolne ramy opowieści: lekcje przeplatają się z ćwiczeniami, klasa działa jak sztab, a Raijin-Oh ma troje pilotów. Zmienia natomiast kontekst — zamiast walki z [[jaku-empire|Imperium Jaku]] bohaterowie odbywają wspólny trening z [[connect-force|Connect]] i [[exart|Exartem]], czego w oryginale nie ma. Wątek dorosłych, którzy proszą dzieci o pomoc i nie chcą zdradzać wszystkich powodów, jest autorski dla gry.
+Gra zachowuje ramy opowieści: piąta klasa szkoły w Hinobori, troje pilotów w jednej maszynie i walka w obronie Ziemi prowadzona przez uczniów. Zmienia natomiast punkt wyjścia — zamiast najazdu [[jaku-empire|Imperium Jaku]] mamy wspólne ćwiczenia z [[connect-force|Connect]], którego serial nie zna, a Raijin-Oh i [[exart|Exart]] walczą po tej samej stronie. Rola [[maria-shiratori|Marii]], [[tsutomu-kojima|Tsutomu]] i [[kirara-haruno|Kirary]] odpowiada ich funkcjom w klasie z oryginału, ale sposób prowadzenia ćwiczeń — z zaskoczeniem, odprawą i protokołem — jest rozwiązaniem gry.
+
+Bohaterowie rozmawiają o przeszłości klasy tylko ogólnie: uczniowie pokonali już [[jaku-empire|Imperium Piątego Wymiaru]], ale scena nie przypomina żadnego konkretnego starcia z serialu, więc dalsza treść oryginału pozostaje poza kadrem.
 
 }}
 
@@ -387,7 +389,7 @@ Gra zachowuje szkolne ramy opowieści: lekcje przeplatają się z ćwiczeniami, 
 
 ## Wątki w scenie
 
-- **Pierwsze stery.** [[himari-yaegaki|Himari]] prowadzi [[exart|Exarta]] samodzielnie i przekonuje się, że presja jest częścią nauki.
+- **Pierwsze stery.** [[himari-yaegaki|Himari]] pierwszy raz leci za sterami [[exart|Exarta]] i przekonuje się, że presja jest częścią nauki.
 - **Niespodzianka zamiast wroga.** [[maria-shiratori|Maria]] sprawdza czujność klasy, wystawiając Labory treningowe bez ostrzeżenia.
 - **Teren zamiast siły ognia.** [[tsutomu-kojima|Tsutomu]] i [[seishiro|Seishiro]] pokazują, że zrzucenie celu z wysokości oszczędza energię i zadaje dodatkowe obrażenia.
 - **Dzieci-weterani.** [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] pokonała już [[jaku-empire|Imperium Piątego Wymiaru]], choć jej członkowie chodzą do podstawówki.
