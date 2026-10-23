@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-10-23 12:10
+
+- [[srw-oe-ep1|Epizod 1]] ma czwartą misję — [[srw-oe-ep1-trening-klasy-obrony|„Trening Klasy Obrony”]]: [[exart|Exart]] i [[raijin-oh|Raijin-Oh]] ćwiczą wspólnie z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]] na Brockenach treningowych.
+- W bazie są nowe postacie: [[jin-hyuga|Jin Hyuga]], [[asuka-tsukishiro|Asuka Tsukishiro]], [[koji-hoshiyama|Koji Hoshiyama]], [[maria-shiratori|Maria Shiratori]], [[tsutomu-kojima|Tsutomu Kojima]], [[kirara-haruno|Kirara Haruno]] i [[yoko-kuriki|Yoko Kuriki]], a serial reprezentuje [[matchless-raijin-oh|Matchless Raijin-Oh]].
+- [[jaku-empire|Imperium Jaku]] zyskuje kontekst: to dawny przeciwnik klasy, której nazwa wciąż w Japonii budzi szacunek.
+
 ## 2026-10-22 19:04
 
 - Lista mechów pozwala wybrać serię „Nieokreślona” i pokazuje wtedy maszyny bez przypisanej serii, jak [[h-bomb-missile|H-Bomb Missile]] czy [[medea|Medea]].

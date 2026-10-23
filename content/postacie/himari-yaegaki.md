@@ -26,6 +26,8 @@ Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]]
 Na poligonie Fuji leci z [[seishiro|Seishirem]] w [[exart|Exarcie]] jako podpilot. Ćwiczenia z [[sv2|SV2]] i Siłami Samoobrony są jej pierwszym wylotem w terenie; musi też oswoić się z myślą, że w razie potrzeby sama przejmie stery.
 
 W drodze powrotnej marznie w transportowcu i narzeka na zimno; [[seishiro|Seishiro]] proponuje jej trening na maszynie, żeby się rozgrzała, a [[suol|szef Suol]] przypomina, że dbanie o zdrowie też jest obowiązkiem.
+
+W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] sama prowadzi [[exart|Exarta]] i pierwszy raz ćwiczy pod presją. Przedstawia się przez radio [[klasa-obrony-ziemi|Klasie Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]] i denerwuje się, że trafiła na weteranów, którzy pokonali [[jaku-empire|Imperium Piątego Wymiaru]].
 }}
 {{menu gra=srw-oe
 

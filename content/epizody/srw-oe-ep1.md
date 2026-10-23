@@ -5,9 +5,9 @@ tytul: Epizod 1
 gra: srw-oe
 numer: 1
 skrypt: episodes/srw-oe/ep001.md
-postacie: [seishiro, himari-yaegaki, suol, noa-izumi, isao-ota, kanuka-clancy, asuma-shinohara, kiichi-goto, mikiyasu-shinshi, hiromi-yamazaki, zolnierz-jsdf, shinohara-hos, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve, zolnierz-zeonu, general-revil, oficer-federacji, oficer-zeonu]
-mechy: [exart, ingram-nr-1, ingram-nr-2, medea, hal-x10, hal-x10-green, helldiver, rx-78-2-gundam, guncannon, guntank, g-fighter, white-base, dom, dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, dom-zolnierz-zeonu, h-bomb-missile]
-pojecia: [connect-force, labor, sv2, sily-samoobrony-japonii, poligon-fuji, black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, minovsky-particles, mobile-suit, newtype, jaburo, krzyz-zeonu, stacja-connect, traktat-antarktyczny]
+postacie: [seishiro, himari-yaegaki, suol, noa-izumi, isao-ota, kanuka-clancy, asuma-shinohara, kiichi-goto, mikiyasu-shinshi, hiromi-yamazaki, zolnierz-jsdf, shinohara-hos, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve, zolnierz-zeonu, general-revil, oficer-federacji, oficer-zeonu, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, yoko-kuriki]
+mechy: [exart, ingram-nr-1, ingram-nr-2, medea, hal-x10, hal-x10-green, helldiver, rx-78-2-gundam, guncannon, guntank, g-fighter, white-base, dom, dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, dom-zolnierz-zeonu, h-bomb-missile, raijin-oh]
+pojecia: [connect-force, labor, sv2, sily-samoobrony-japonii, poligon-fuji, black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, minovsky-particles, mobile-suit, newtype, jaburo, krzyz-zeonu, stacja-connect, traktat-antarktyczny, klasa-obrony-ziemi, akademia-hinobori, jaku-empire]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Patlabor
@@ -21,7 +21,8 @@ zrodla:
   - https://en.gundam-official.com/series/mobile-suit-gundam/story/jmybefzmfo3jtwjjylqbl1hc
   - https://gundam.fandom.com/wiki/The_Battle_of_Odessa
   - https://gundam.fandom.com/wiki/Antarctic_Treaty
-tagi: [patlabor, trening, one-year-war]
+  - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
+tagi: [patlabor, trening, one-year-war, eldran]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe
@@ -47,6 +48,12 @@ Federacja przełamuje ostatnią linię obrony Odessy. [[mquve|M'Quve]] żąda od
 
 M'Quve odpala [[h-bomb-missile|pocisk termojądrowy]], łamiąc [[traktat-antarktyczny|Traktat Antarktyczny]]. [[bright-noa|Bright]] przesyła [[amuro-ray|Amurowi]] kurs oraz dane zapalnika, a [[rx-78-2-gundam|Gundam]] przecina go szablą wiązkową. Brak reakcji jądrowej potwierdza powodzenie, operacja Odessa kończy się zwycięstwem Federacji, a M'Quve wycofuje się z przekonaniem, że wysłane wcześniej surowce pozwolą Zeonowi walczyć jeszcze dziesięć lat.
 
+### Misja 4: Trening Klasy Obrony
+
+[[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] lecą [[exart|Exartem]] na wspólny trening z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]]. Himari po raz pierwszy prowadzi maszynę w walce i uczy się pracować pod presją, a [[seishiro|Seishiro]] chwali jej smykałkę.
+
+Na miejscu zamiast wroga czekają Labory treningowe, a [[maria-shiratori|Maria]] przyznaje, że urządziła ćwiczenia z zaskoczenia. Ramię w ramię z [[exart|Exartem]] walczy [[raijin-oh|Raijin-Oh]] z [[jin-hyuga|Jinem]], [[asuka-tsukishiro|Asuką]] i [[koji-hoshiyama|Kojim]] za sterami. [[tsutomu-kojima|Tsutomu]] tłumaczy, że celem nie jest samo zwycięstwo, lecz wykorzystanie terenu: zrzucenie wroga z wysokości zadaje dodatkowe obrażenia. Po ćwiczeniach klasa zaprasza Seishira na odprawę, a rozmowa o [[connect-force|Connect]] kończy się, gdy [[tsutomu-kojima|Tsutomu]] ucina pytania o powody współpracy dorosłych.
+
 ## Wątki anime
 
 | Motyw w epizodzie | Źródło | Odcinek / wersja | Typ | Różnice |
@@ -59,6 +66,9 @@ M'Quve odpala [[h-bomb-missile|pocisk termojądrowy]], łamiąc [[traktat-antark
 | Black Tri-Stars na froncie Odessy | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” (oficjalnie „The Triple Dom Assault!”) | adaptacja | W grze trójka broni wschodniej kopalni przed White Base; w anime trafia na front w tym samym okresie. |
 | Odprawa u M'Quve'a | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” | adaptacja | Gra pokazuje kulisy decyzji sztabu; sama bitwa o Odessę pozostaje poza kadrem. |
 | Powrót Connect z Japonii | [[srw-oe\|Super Robot Wars OE]] | Epizod 1 | autorskie | Rozmowa Seishira, Himari i Suola jest oryginalna dla gry. |
+| Klasa Obrony Ziemi i szkoła w Hinobori | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | serial 1991 | adaptacja | W grze klasa ćwiczy z Connect i pokazuje dorosłym swoje metody treningu; w oryginale walczy z Imperium Jaku. |
+| Raijin-Oh i troje pilotów | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | serial 1991 | adaptacja | Gra zachowuje podział ról w kabinie i dowodzenie z klasy, a trening zamiast walki o Ziemię jest autorski. |
+| Wspólne ćwiczenia z Connect | [[srw-oe\|Super Robot Wars OE]] | Epizod 1 | autorskie | Spotkanie z Klasą Obrony Ziemi jest oryginalne dla gry; w anime Connect nie występuje. |
 | Bitwa o Odessę i pocisk termojądrowy | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 25 „The Fierce Battle for Odessa” | adaptacja | Gra zachowuje ultimatum M'Quve'a, decyzję Revila i rozbrojenie pocisku przez Amura, lecz pomija spisek Elrana oraz walkę z pozostałymi Black Tri-Stars. |
 
 ## Komentarz
@@ -70,6 +80,8 @@ Scena nie rozstrzyga, kto stoi za utratą kontroli nad HAL-X10. Seishiro mówi o
 Druga misja zmienia ton: zamiast ćwiczeń na poligonie jest regularna operacja w czasie wojny. Connect wraca do domu, a równolegle pokazana jest strona Zeonu — odprawa [[mquve|M'Quve'a]], hierarchia i polityka, która decyduje o wysłaniu [[black-tri-stars|Black Tri-Stars]] na „konia trojańskiego”. Gra łączy w ten sposób wątek oryginalny z wydarzeniami znanymi z *Gundam*, nie rozstrzygając jeszcze samej bitwy o Odessę.
 
 Trzecia misja domyka ten front. Zwycięstwo nie wynika wyłącznie z przewagi liczebnej: wymaga również odmowy poddania się szantażowi przez [[general-revil|Revila]] i precyzyjnego działania [[amuro-ray|Amura]]. Zagrożenie zmienia skalę z regularnego starcia na próbę powstrzymania broni masowego rażenia, a ostatnie słowa [[mquve|M'Quve'a]] przypominają, że utrata Odessy nie kończy wojny.
+
+Czwarta misja wraca do tonu ćwiczeń, ale zmienia perspektywę: tym razem to nie wojsko ani policja, lecz klasa szkolna pokazuje Connect, jak walczyć. [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] traktuje trening poważnie — z zaskoczeniem, odprawą i protokołem — choć jej członkowie są dziećmi. Gra zestawia ich dojrzałość z dorosłymi, którzy nie mogą powiedzieć wszystkiego, i zamyka wątek refleksją [[seishiro|Seishira]] nad własnym dzieciństwem.
 }}
 {{zrodlo gra=wspolne
 
@@ -83,5 +95,7 @@ Trzecia misja domyka ten front. Zwycięstwo nie wynika wyłącznie z przewagi li
 - G-Fighter to ciężki myśliwiec wsparcia Gundama, zbudowany z dwóch modułów i zdolny do lotu w atmosferze; jednym z jego pilotów była [[sayla-mass|Sayla Mass]] ([Gundam Wiki, „G-Fighter”](https://gundam.fandom.com/wiki/G-Fighter); sprawdzono 2026-10-22).
 - Finał [[operacja-odessa|operacji Odessa]] odpowiada odcinkowi 25: [[mquve|M'Quve]] grozi użyciem bomby wodorowej, wojska [[general-revil|Revila]] nie przerywają marszu, a [[amuro-ray|Amuro]] odcina głowicę szablą wiązkową Gundama ([GUNDAM Official, „The Fierce Battle for Odessa”](https://en.gundam-official.com/series/mobile-suit-gundam/story/b6lswvospmwoql06afuhetwp); sprawdzono 2026-10-22).
 - Oryginalny odcinek łączy przechwycenie pocisku z ujawnieniem zdrady Elrana i walką z pozostałymi Black Tri-Stars, których trzecia misja gry pomija ([Gundam Wiki, „The Battle of Odessa”](https://gundam.fandom.com/wiki/The_Battle_of_Odessa); sprawdzono 2026-10-22).
+- [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] to piąta klasa szkoły w Hinobori, której Eldran powierza [[raijin-oh|Raijin-Oh]]; uczniowie dostają role operatorskie, a budynek szkoły zmienia się w centrum dowodzenia ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23). Przeciwnikiem w oryginale jest [[jaku-empire|Imperium Jaku]] z piątego wymiaru, a [[jin-hyuga|Jin]], [[asuka-tsukishiro|Asuka]] i [[koji-hoshiyama|Koji]] należą do trójki głównych pilotów maszyny (tamże).
+- Wspólny trening z Connect i postacie [[maria-shiratori|Marii]], [[tsutomu-kojima|Tsutomu]] i [[kirara-haruno|Kirary]] w rolach dowodzenia i łączności są elementem gry; oryginał nie zna organizacji Connect.
 - [[traktat-antarktyczny|Traktat Antarktyczny]] zabrania broni jądrowej, biologicznej i chemicznej oraz przewiduje upublicznienie planów broni jądrowej ([Gundam Wiki, „Antarctic Treaty”](https://gundam.fandom.com/wiki/Antarctic_Treaty); sprawdzono 2026-10-22).
 }}
