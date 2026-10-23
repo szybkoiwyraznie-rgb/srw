@@ -62,7 +62,7 @@ głównej.
 
 ### Boksy strony epizodu
 
-Strona epizodu dzieli się na osobne boksy: streszczenie, wątki anime i komentarz mają własne tło,
+Strona epizodu dzieli się na osobne boksy: streszczenie, wątki fabularne i komentarz mają własne tło,
 podobnie jak „Postacie i maszyny” (wraz z podsekcją „Nawiązania”) i „Inne źródła i rozbieżności”.
 Nowy nagłówek `##` w treści epizodu otwiera nowy boks, a zmiana bloku poziomu bez nagłówka zamyka
 poprzedni. Lista scen stoi na dole prawej kolumny, pod obsadą epizodu.
@@ -75,7 +75,8 @@ tagi. Treść:
 
 - `## Streszczenie` — co się stało, bez streszczania każdej kwestii,
 - sekcji „Sceny” nie piszesz ręcznie — lista powstaje z wpisów `scena` (ADR 0008),
-- `## Wątki anime` — tabela proweniencji (seria, odcinek, typ, różnice),
+- `## Wątki fabularne` — tabela proweniencji (motyw, źródło, odcinek w źródle, różnice), w kolejności
+  scen epizodu; szczegóły kolumn w `docs/guides/SCHEMAT_DANYCH.md` i ADR 0031,
 - `## Komentarz` — kontekst: co epizod robi z materiałem źródłowym, co pomija, co zmienia.
 
 ## 3. Encje

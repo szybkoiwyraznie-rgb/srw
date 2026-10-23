@@ -55,22 +55,22 @@ M'Quve odpala [[h-bomb-missile|pocisk termojądrowy]], łamiąc [[traktat-antark
 
 Na miejscu zamiast wroga czekają Labory treningowe, a [[maria-shiratori|Maria]] przyznaje, że urządziła ćwiczenia z zaskoczenia. Ramię w ramię z [[exart|Exartem]] walczy [[raijin-oh|Raijin-Oh]] z [[jin-hyuga|Jinem]], [[asuka-tsukishiro|Asuką]] i [[koji-hoshiyama|Kojim]] za sterami. [[tsutomu-kojima|Tsutomu]] tłumaczy, że celem nie jest samo zwycięstwo, lecz wykorzystanie terenu: zrzucenie wroga z wysokości zadaje dodatkowe obrażenia. Po ćwiczeniach klasa zaprasza Seishira na odprawę, a rozmowa o [[connect-force|Connect]] kończy się, gdy [[tsutomu-kojima|Tsutomu]] ucina pytania o powody współpracy dorosłych.
 
-## Wątki anime
+## Wątki fabularne
 
-| Motyw w epizodzie | Źródło | Odcinek / wersja | Typ | Różnice |
-|---|---|---|---|---|
-| Wspólne ćwiczenia wojska i policyjnych Laborów | [[mobile-police-patlabor\|Patlabor]] | wczesne odcinki | adaptacja | W grze ćwiczenia odbywają się na poligonie Fuji i łączą je z wątkiem Connect, którego w anime nie ma. |
-| Bezzałogowy HAL-X10 poza kontrolą | [[mobile-police-patlabor\|Patlabor]] | odc. 5 „Runaway Labor X-10!” | adaptacja | W anime maszyna jest osobnym zagrożeniem; w grze atakuje w trakcie ćwiczeń z Connect. |
-| Ekipa Drugiego Plutonu SV2 | [[mobile-police-patlabor\|Patlabor]] | Division 2 | adaptacja | Postacie zachowują role i charaktery; dochodzi współpraca z Connect. |
-| Przejęcie sterów przez podpilota | [[srw-oe\|Super Robot Wars OE]] | Epizod 1 | autorskie | Wątek Connect i Himari jest oryginalny dla gry. |
-| Plotki o handlu z dalekim kosmosem | [[srw-oe\|Super Robot Wars OE]] | Epizod 1 | autorskie | Rozmowa po ćwiczeniach należy do wątku Connect. |
-| Black Tri-Stars na froncie Odessy | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” (oficjalnie „The Triple Dom Assault!”) | adaptacja | W grze trójka broni wschodniej kopalni przed White Base; w anime trafia na front w tym samym okresie. |
-| Odprawa u M'Quve'a | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” | adaptacja | Gra pokazuje kulisy decyzji sztabu; sama bitwa o Odessę pozostaje poza kadrem. |
-| Powrót Connect z Japonii | [[srw-oe\|Super Robot Wars OE]] | Epizod 1 | autorskie | Rozmowa Seishira, Himari i Suola jest oryginalna dla gry. |
-| Klasa Obrony Ziemi i szkoła w Hinobori | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | odc. 1–51 (1991–1992) | adaptacja | Klasa, jej dowodzenie i szkolne zaplecze pochodzą z serialu; w grze ćwiczy z Connect, a w oryginale walczy z Imperium Jaku. |
-| Raijin-Oh i troje pilotów | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | odc. 1–51 (1991–1992) | adaptacja | Gra zachowuje podział ról w kabinie i dowodzenie z klasy; sam trening zamiast walki o Ziemię jest autorski. |
-| Wspólne ćwiczenia z Connect | [[srw-oe\|Super Robot Wars OE]] | Epizod 1 | autorskie | Spotkanie z Klasą Obrony Ziemi jest oryginalne dla gry; w anime Connect nie występuje. |
-| Bitwa o Odessę i pocisk termojądrowy | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 25 „The Fierce Battle for Odessa” | adaptacja | Gra zachowuje ultimatum M'Quve'a, decyzję Revila i rozbrojenie pocisku przez Amura, lecz pomija spisek Elrana oraz walkę z pozostałymi Black Tri-Stars. |
+| Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| Wspólne ćwiczenia wojska i policyjnych Laborów | [[mobile-police-patlabor\|Patlabor]] | cała seria | W grze ćwiczenia odbywają się na poligonie Fuji i łączą je z wątkiem Connect, którego w anime nie ma. |
+| Bezzałogowy HAL-X10 poza kontrolą | [[mobile-police-patlabor\|Patlabor]] | odc. 5 „Runaway Labor X-10!” | W anime maszyna jest osobnym zagrożeniem; w grze atakuje w trakcie ćwiczeń z Connect. |
+| Ekipa Drugiego Plutonu SV2 | [[mobile-police-patlabor\|Patlabor]] | cała seria | Postacie zachowują role i charaktery; dochodzi współpraca z Connect. |
+| Przejęcie sterów przez podpilota | [[srw-oe\|Super Robot Wars OE]] | n/d | Wątek Connect i Himari jest oryginalny dla gry. |
+| Plotki o handlu z dalekim kosmosem | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa po ćwiczeniach należy do wątku Connect. |
+| Black Tri-Stars na froncie Odessy | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” | W grze trójka broni wschodniej kopalni przed White Base; w anime trafia na front w tym samym okresie. Odcinek nosi oficjalny tytuł „The Triple Dom Assault!”. |
+| Odprawa u M'Quve'a | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” | Gra pokazuje kulisy decyzji sztabu; sama bitwa o Odessę pozostaje poza kadrem. |
+| Powrót Connect z Japonii | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa Seishira, Himari i Suola jest oryginalna dla gry. |
+| Bitwa o Odessę i pocisk termojądrowy | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 25 „The Fierce Battle for Odessa” | Gra zachowuje ultimatum M'Quve'a, decyzję Revila i rozbrojenie pocisku przez Amura, lecz pomija spisek Elrana oraz walkę z pozostałymi Black Tri-Stars. |
+| Klasa Obrony Ziemi i szkoła w Hinobori | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | cała seria | Klasa, jej dowodzenie i szkolne zaplecze pochodzą z serialu; w grze ćwiczy z Connect, a w oryginale walczy z Imperium Jaku. |
+| Raijin-Oh i troje pilotów | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | cała seria | Gra zachowuje podział ról w kabinie i dowodzenie z klasy; sam trening zamiast walki o Ziemię jest autorski. |
+| Wspólne ćwiczenia z Connect | [[srw-oe\|Super Robot Wars OE]] | n/d | Spotkanie z Klasą Obrony Ziemi jest oryginalne dla gry; w anime Connect nie występuje. |
 
 ## Komentarz
 

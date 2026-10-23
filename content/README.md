@@ -6,7 +6,7 @@ frontmatter z metryką + treść w markdownie.
 | Katalog | Typ | Co opisuje |
 |---|---|---|
 | `content/gry/` | `gra` | tytuły gier z serii, w które właściciel gra |
-| `content/epizody/` | `epizod` | rozegrane epizody: streszczenie, sceny, wątki anime, komentarz |
+| `content/epizody/` | `epizod` | rozegrane epizody: streszczenie, sceny, wątki fabularne, komentarz |
 | `content/sceny/` | `scena` | pojedyncze sceny epizodu: dosłowna treść i analiza |
 | `content/postacie/` | `postac` | postacie występujące w rozegranych epizodach |
 | `content/mechy/` | `mech` | jednostki biorące udział w rozegranych epizodach |

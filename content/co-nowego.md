@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-10-23 15:05
+
+- Sekcja wątków na stronie epizodu nazywa się teraz „Wątki fabularne” i obejmuje zapożyczenia z anime, mang, gier i komiksów oraz wątki własne gry.
+- Tabela ma cztery kolumny: motyw, źródło, odcinek w źródle i różnice. Kolumna „Typ” zniknęła, bo to samo mówi odcinek w źródle — `n/d` oznacza wątek autorski.
+- Wiersze idą w kolejności scen epizodu: w [[srw-oe-ep1|Epizodzie 1]] misja 3 stoi przed misją 4, a wiersze o [[matchless-raijin-oh|Matchless Raijin-Oh]] zamykają tabelę.
+- W kolumnie „Odcinek w źródle” są już tylko odcinki seriali i oznaczenie `cała seria`, gdy motyw pochodzi z całego dzieła; numer epizodu gry i nazwy drużyn jak `Division 2` zniknęły.
+
 ## 2026-10-23 13:30
 
 - [[srw-oe-ep1|Epizod 1]] ma czwartą misję — [[srw-oe-ep1-trening-klasy-obrony|„Trening Klasy Obrony”]]: [[exart|Exart]] i [[raijin-oh|Raijin-Oh]] ćwiczą wspólnie z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]] na Brockenach treningowych.

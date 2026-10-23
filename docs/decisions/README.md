@@ -43,3 +43,4 @@ Zasady:
 | [0028](0028-staly-live-preview-od-poczatku-sesji.md) | Stały live preview od początku sesji |
 | [0029](0029-mech-tylko-z-dostawy.md) | Mech tylko z dostawy: brak strony generycznej dla rodziny maszyn |
 | [0030](0030-filtry-list-w-adresie.md) | Filtry działów w adresie: seria „Nieokreślona” i chmura tagów haseł |
+| [0031](0031-watki-fabularne.md) | Wątki fabularne: nazwa sekcji, cztery kolumny i kolejność scen |
