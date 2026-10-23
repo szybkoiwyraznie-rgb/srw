@@ -259,11 +259,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 69 plików przy 52 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 78 plików przy 60 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 52);
-  assert.equal(Object.values(manifest.encje).flat().length, 69);
+  assert.equal(Object.keys(manifest.encje).length, 60);
+  assert.equal(Object.values(manifest.encje).flat().length, 78);
   // Dostawa ilustracji jednostek misji 2 (2026-10-22): sześć maszyn, dziewięć plików.
   assert.deepEqual(manifest.encje.dom, ['Dom.png', 'Dom 2.png']);
   assert.deepEqual(manifest.encje.dopp, ['Dopp.png']);
@@ -282,6 +282,15 @@ test('ilustracje właściciela: 69 plików przy 52 encjach, w tym postacie bez d
   assert.deepEqual(manifest.encje.ortega, ['characters/Ortega.png']);
   // Portret generała Revila z dostawy uzupełniającej (2026-10-22).
   assert.deepEqual(manifest.encje['general-revil'], ['characters/Revil.png']);
+  // Dostawa ilustracji misji 4 (2026-10-23): dwa obrazy Raijin-Oha i siedem portretów obsady.
+  assert.deepEqual(manifest.encje['raijin-oh'], ['Raijin-Oh.png', 'Raijin-Oh 2.png']);
+  for (const [slug, plik] of Object.entries({
+    'jin-hyuga': 'Jin Hyuga', 'asuka-tsukishiro': 'Asuka Tsukishiro', 'koji-hoshiyama': 'Koji Hoshiyama',
+    'maria-shiratori': 'Maria Shiratori', 'tsutomu-kojima': 'Tsutomu Kojima',
+    'kirara-haruno': 'Kirara Haruno', 'yoko-kuriki': 'Yoko Kuriki',
+  })) {
+    assert.deepEqual(manifest.encje[slug], [`characters/${plik}.png`], slug);
+  }
   assert.deepEqual(manifest.nieprzypisane, []);
   const adres = file => `${manifest.baseUrl}/${file.split('/').map(encodeURIComponent).join('/')}`;
   for (const [slug, files] of Object.entries(manifest.encje)) {

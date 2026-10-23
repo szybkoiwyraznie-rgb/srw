@@ -19,6 +19,15 @@ Dowódczyni klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akad
 
 Prowadzi też odprawę po treningu i prosi [[seishiro|Seishira]], by dołączył do omówienia w szkole. Podkreśla, że klasa zawsze dziękuje [[klasa-obrony-ziemi|generałowi Takedzie]], i hamuje przechwałki [[jin-hyuga|Jina]] o wyższości nad dorosłymi.
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Maria Shiratori — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Maria%20Shiratori.png)
+}}
 {{zrodlo gra=wspolne
 
 ## Postać w oryginale

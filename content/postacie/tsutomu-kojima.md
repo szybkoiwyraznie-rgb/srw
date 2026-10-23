@@ -19,6 +19,15 @@ Doradca i operator klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobo
 
 Po treningu uspokaja [[himari-yaegaki|Himari]], że choć jest nowa, nikt nie ucierpiał. Kiedy [[jin-hyuga|Jin]] dopisuje sobie, że dorośli ćwiczą z takimi wyjadaczami jak klasa, Tsutomu odpowiada, że dorośli mają bardziej skomplikowane powody, i ucina dalsze wypytywanie, żeby nie stawiać gości w niezręcznej sytuacji. Zauważa również, że Siły Obrony same posprzątają po ćwiczeniach.
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Tsutomu Kojima — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Tsutomu%20Kojima.png)
+}}
 {{zrodlo gra=wspolne
 
 ## Postać w oryginale

@@ -20,6 +20,15 @@ Pilot wspierający [[raijin-oh|Raijin-Oh]] z klasy [[klasa-obrony-ziemi|Obrony Z
 
 W trakcie starcia pierwszy dostrzega, że miejsce walki jest puste, a gdy [[kirara-haruno|Kirara]] nazywa stojące maszyny Laborami treningowymi, przytakuje jej. Zauważa też nieznany sobie model [[raijin-oh|Raijin-Oha]] i spokojnie podsumowuje wybryki [[maria-shiratori|Marii]] oraz [[jin-hyuga|Jina]]. W szkole przyznaje, że nigdy by nie pomyślał, że [[connect-force|Connect]] buduje roboty.
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Asuka Tsukishiro — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Asuka%20Tsukishiro.png)
+}}
 {{menu gra=srw-oe
 
 ## Parametry

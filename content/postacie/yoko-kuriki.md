@@ -19,6 +19,15 @@ Uczennica klasy [[klasa-obrony-ziemi|Obrony Ziemi]] z [[akademia-hinobori|Akadem
 
 Na jej słowa [[seishiro|Seishiro]] wyjaśnia [[himari-yaegaki|Himari]], że upadek z wysokości zadaje celowi dodatkowe obrażenia — czyli dokładnie to, o czym mówił [[tsutomu-kojima|Tsutomu]].
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Yoko Kuriki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Yoko%20Kuriki.png)
+}}
 {{zrodlo gra=wspolne
 
 ## Postać w oryginale

@@ -19,6 +19,15 @@ Uczennica klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akadem
 
 Po treningu cieszy się, że widzi na żywo [[connect-force|Connect]] znany dotąd tylko z reklam.
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Kirara Haruno — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kirara%20Haruno.png)
+}}
 {{zrodlo gra=wspolne
 
 ## Postać w oryginale

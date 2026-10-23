@@ -20,6 +20,15 @@ Pilot wspierający [[raijin-oh|Raijin-Oh]] z klasy [[klasa-obrony-ziemi|Obrony Z
 
 Podczas ćwiczeń z [[connect-force|Connect]] pierwszy domyśla się, co oznacza widok Laborów treningowych, i przyjmuje niespodziankę spokojnie — cieszy się, że przerwała nudę. Po treningu [[jin-hyuga|Jin]] próbuje wciągnąć go w grę w piłkę, choć Koji nadal myśli o swoich poszukiwaniach.
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Koji Hoshiyama — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Koji%20Hoshiyama.png)
+}}
 {{menu gra=srw-oe
 
 ## Parametry

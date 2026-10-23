@@ -165,9 +165,16 @@ test('seria i hasła świata opisują świat, a źródło jest otwarte i cytowan
   assert.equal(bySlug.get('akademia-hinobori').kategoria, 'miejsce');
 });
 
-test('nowe strony nie dostają ilustracji, których właściciel nie dostarczył', () => {
-  for (const slug of [...postacie, ...mechy, 'matchless-raijin-oh', 'klasa-obrony-ziemi',
-    'akademia-hinobori', 'srw-oe-ep1-trening-klasy-obrony']) {
+test('ilustracje misji 4 trafiają tylko na strony, których dotyczą', () => {
+  // Dostawa właściciela z 2026-10-23: dwa obrazy Raijin-Oha i siedem portretów uczniów.
+  assert.deepEqual(manifest.encje['raijin-oh'], ['Raijin-Oh.png', 'Raijin-Oh 2.png']);
+  for (const slug of postacie) {
+    assert.ok(manifest.encje[slug]?.length === 1, `${slug}: portret z dostawy`);
+    assert.match(bySlug.get(slug).body, /^## Ilustracje$/m, `${slug}: galeria portretu`);
+  }
+  // Strony bez dostawy ilustracji nie dostają ani wpisu, ani obrazu.
+  for (const slug of ['matchless-raijin-oh', 'klasa-obrony-ziemi', 'akademia-hinobori',
+    'srw-oe-ep1-trening-klasy-obrony']) {
     assert.equal(manifest.encje[slug], undefined, `${slug}: brak wpisu w manifeście`);
     assert.doesNotMatch(bySlug.get(slug).body, /r2\.dev/, `${slug}: brak ilustracji`);
     assert.doesNotMatch(bySlug.get(slug).body, /^## Ilustracje$/m, `${slug}: brak galerii`);

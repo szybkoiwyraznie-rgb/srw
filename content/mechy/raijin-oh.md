@@ -27,6 +27,19 @@ Raijin Claw przebija się przez kilku wrogów i pozwala walczyć dalej, Raijin B
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Raijin-Oh — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Raijin-Oh.png)
+
+### Ilustracja 2
+
+![Raijin-Oh — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Raijin-Oh%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[matchless-raijin-oh|Matchless Raijin-Oh]]

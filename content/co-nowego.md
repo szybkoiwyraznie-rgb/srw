@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-23 18:35
+
+- [[raijin-oh|Raijin-Oh]] ma dwie ilustracje, a [[jin-hyuga|Jin]], [[asuka-tsukishiro|Asuka]], [[koji-hoshiyama|Koji]], [[maria-shiratori|Maria]], [[tsutomu-kojima|Tsutomu]], [[kirara-haruno|Kirara]] i [[yoko-kuriki|Yoko]] — portrety. Galerie otwierają się na pełnym ekranie, a miniatury pojawiły się na listach.
+- [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] jest od dziś widoczna w całości: siedmioro uczniów z [[akademia-hinobori|Akademii Hinobori]] ma własne strony z portretami.
+
 ## 2026-10-23 15:05
 
 - Sekcja wątków na stronie epizodu nazywa się teraz „Wątki fabularne” i obejmuje zapożyczenia z anime, mang, gier i komiksów oraz wątki własne gry.

@@ -22,6 +22,15 @@ W ćwiczeniach z [[connect-force|Connect]] traktuje pole bitwy jak zabawę i zł
 
 W szkole pyta wprost, czy dorośli są z tego [[connect-force|Connect]], który pokazują w reklamach telewizyjnych, i zaraz dopisuje sobie, że ćwiczą z takimi wyjadaczami jak klasa — co [[maria-shiratori|Maria]] natychmiast gasi.
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Jin Hyuga — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Jin%20Hyuga.png)
+}}
 {{menu gra=srw-oe
 
 ## Parametry
