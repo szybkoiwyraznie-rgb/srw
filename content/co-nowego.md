@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-10-23 20:13
+
+- [[srw-oe-ep1|Epizod 1]] ma piątą misję — [[srw-oe-ep1-start-alexa|„Start Alexa”]]: [[08-pluton-ms|08. Pluton MS]] odpiera atak [[pluton-cyclops|plutonu Cyclops]] i osłania transport [[rx-78nt-1-gundam-alex|Alexa]] do [[libot|Libot]] na [[side-6|Side 6]].
+- Dołączyły serie [[mobile-suit-gundam-08th-ms-team|The 08th MS Team]] i [[mobile-suit-gundam-0080|Gundam 0080]]. Nowe jednostki to [[gundam-ez8|Gundam Ez8]], [[gundam-ground-type|Ground Type]], [[gundam-ground-type-glowa-gm|Ground Type z głową GM-a]], [[hover-truck|Hover Truck]], [[kampfer-bazooka|dwa]] [[kampfer-high-mobility|Kampfery]] i [[zaku-ii-kai|Zaku II Kai]].
+- W bazie są [[christina-mackenzie|Chris]], [[shiro-amada|Shiro]], [[karen-joshua|Karen]], [[terry-sanders-jr|Sanders]], [[michel-ninorich|Michel]], [[eledore-massis|Eledore]], czterej piloci Cyclops i [[zolnierz-federacji|Żołnierz Federacji]]. Nawiązania wskazują pierwszy odcinek Gundam 0080 oraz różnice w miejscu ataku, maszynach i obsadzie wozu wsparcia.
+
 ## 2026-10-23 18:57
 
 - Audyt [[srw-oe-ep1-trening-klasy-obrony|misji „Trening Klasy Obrony”]] poprawił opisy ról: [[tsutomu-kojima|Tsutomu]] mówi o oszczędzaniu energii, [[seishiro|Seishiro]] wyjaśnia obrażenia od upadku, a [[asuka-tsukishiro|Asuka]] wskazuje nieznany model [[exart|Exarta]], nie własnego [[raijin-oh|Raijin-Oha]]. Streszczenie sceny wskazuje też wprost, że Raijin-Oh walczy u boku Exarta.

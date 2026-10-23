@@ -28,6 +28,7 @@ Armia Zeonu używa Zaku II w kilku zestawach uzbrojenia. Obok tej maszyny wystę
 
 - [[zaku-ii-bazooka|Zaku II (bazooka)]]
 - [[zaku-ii-char|Zaku II (Char)]]
+- [[zaku-ii-kai|Zaku II Kai]]
 
 }}
 

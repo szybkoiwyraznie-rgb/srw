@@ -5,9 +5,9 @@ tytul: Epizod 1
 gra: srw-oe
 numer: 1
 skrypt: episodes/srw-oe/ep001.md
-postacie: [seishiro, himari-yaegaki, suol, noa-izumi, isao-ota, kanuka-clancy, asuma-shinohara, kiichi-goto, mikiyasu-shinshi, hiromi-yamazaki, zolnierz-jsdf, shinohara-hos, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve, zolnierz-zeonu, general-revil, oficer-federacji, oficer-zeonu, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, yoko-kuriki]
-mechy: [exart, ingram-nr-1, ingram-nr-2, medea, hal-x10, hal-x10-green, helldiver, rx-78-2-gundam, guncannon, guntank, g-fighter, white-base, dom, dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, dom-zolnierz-zeonu, h-bomb-missile, raijin-oh]
-pojecia: [connect-force, labor, sv2, sily-samoobrony-japonii, poligon-fuji, black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, minovsky-particles, mobile-suit, newtype, jaburo, krzyz-zeonu, stacja-connect, traktat-antarktyczny, klasa-obrony-ziemi, akademia-hinobori, jaku-empire]
+postacie: [seishiro, himari-yaegaki, suol, noa-izumi, isao-ota, kanuka-clancy, asuma-shinohara, kiichi-goto, mikiyasu-shinshi, hiromi-yamazaki, zolnierz-jsdf, shinohara-hos, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve, zolnierz-zeonu, general-revil, oficer-federacji, oficer-zeonu, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, yoko-kuriki, christina-mackenzie, shiro-amada, terry-sanders-jr, karen-joshua, michel-ninorich, eledore-massis, zolnierz-federacji, hardy-steiner, mikhail-kaminsky, gabriel-ramirez-garcia, andy-strauss]
+mechy: [exart, ingram-nr-1, ingram-nr-2, medea, hal-x10, hal-x10-green, helldiver, rx-78-2-gundam, guncannon, guntank, g-fighter, white-base, dom, dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, dom-zolnierz-zeonu, h-bomb-missile, raijin-oh, rx-78nt-1-gundam-alex, gundam-ez8, gundam-ground-type, gundam-ground-type-glowa-gm, hover-truck, kampfer-bazooka, kampfer-high-mobility, zaku-ii-kai]
+pojecia: [connect-force, labor, sv2, sily-samoobrony-japonii, poligon-fuji, black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, minovsky-particles, mobile-suit, newtype, jaburo, krzyz-zeonu, stacja-connect, traktat-antarktyczny, klasa-obrony-ziemi, akademia-hinobori, jaku-empire, 08-pluton-ms, pluton-cyclops, side-6, libot]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Patlabor
@@ -22,7 +22,10 @@ zrodla:
   - https://gundam.fandom.com/wiki/The_Battle_of_Odessa
   - https://gundam.fandom.com/wiki/Antarctic_Treaty
   - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
-tagi: [patlabor, trening, one-year-war, eldran]
+  - https://www.mahq.net/gundam0080ep1/
+  - https://gundam.fandom.com/wiki/How_Many_Miles_to_the_Battlefield%3F
+  - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team
+tagi: [patlabor, trening, one-year-war, eldran, gundam-0080, 08th-ms-team]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe
@@ -55,6 +58,12 @@ M'Quve odpala [[h-bomb-missile|pocisk termojądrowy]], łamiąc [[traktat-antark
 
 Na miejscu zamiast wroga czekają Labory treningowe, a [[maria-shiratori|Maria]] przyznaje, że urządziła ćwiczenia z zaskoczenia. Ramię w ramię z [[exart|Exartem]] walczy [[raijin-oh|Raijin-Oh]] z [[jin-hyuga|Jinem]], [[asuka-tsukishiro|Asuką]] i [[koji-hoshiyama|Kojim]] za sterami. Maria i [[tsutomu-kojima|Tsutomu]] tłumaczą zasady: nie chodzi o samo zwycięstwo, lecz o wykorzystanie terenu, dzięki któremu walka nie marnuje energii. Po zrzuceniu Labora [[seishiro|Seishiro]] wyjaśnia [[himari-yaegaki|Himari]], że upadek z wysokości zadaje celowi dodatkowe obrażenia. Po ćwiczeniach klasa zaprasza Seishira na odprawę, a rozmowa o [[connect-force|Connect]] kończy się, gdy Tsutomu ucina pytania o powody współpracy dorosłych.
 
+### Misja 5: Start Alexa
+
+W górskiej bazie w Azji Środkowej [[christina-mackenzie|Christina Mackenzie]] przygotowuje się do transportu [[rx-78nt-1-gundam-alex|Alexa]] na [[libot|Libot]] w [[side-6|Side 6]]. Start osłania [[08-pluton-ms|08. Pluton MS]] dowodzony przez [[shiro-amada|Shiro Amadę]]. Rozmowa pilotów zestawia świetne wyniki Chris na symulatorze z doświadczeniem Shiro: na polu bitwy szybka reakcja maszyny może być bezpieczniejsza niż zbyt wolna.
+
+[[pluton-cyclops|Pluton Cyclops]] atakuje tuż przed startem, by zniszczyć transport. [[karen-joshua|Karen]] wraca do walki w [[gundam-ground-type-glowa-gm|maszynie z głową GM-a]], a Shiro i pozostali obrońcy nie dopuszczają wroga do wahadłowca. Po odparciu szturmu Alex bezpiecznie startuje, Chris dziękuje obrońcom, a 08. Pluton oczekuje na przeniesienie do [[jaburo|Jaburo]].
+
 ## Wątki fabularne
 
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
@@ -71,6 +80,9 @@ Na miejscu zamiast wroga czekają Labory treningowe, a [[maria-shiratori|Maria]]
 | Klasa Obrony Ziemi i szkoła w Hinobori | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | cała seria | Klasa, jej dowodzenie i szkolne zaplecze pochodzą z serialu; w grze ćwiczy z Connect, a w oryginale walczy z Imperium Jaku. |
 | Raijin-Oh i troje pilotów | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | cała seria | Gra zachowuje podział ról w kabinie i dowodzenie z klasy; sam trening zamiast walki o Ziemię jest autorski. |
 | Wspólne ćwiczenia z Connect | [[srw-oe\|Super Robot Wars OE]] | n/d | Spotkanie z Klasą Obrony Ziemi jest oryginalne dla gry; w anime Connect nie występuje. |
+| Start Alexa i atak plutonu Cyclops | [[mobile-suit-gundam-0080\|Mobile Suit Gundam 0080]] | odc. 1 „How Many Miles to the Battlefield?” | Gra zachowuje udany transport, ale przenosi bazę z obszaru arktycznego do Azji Środkowej i zmienia maszyny obu stron. W odcinku Andy ginie przy wahadłowcu; w warunkowym odwrocie gry melduje uszkodzone silniki. |
+| 08. Pluton MS i ochrona transportu | [[mobile-suit-gundam-08th-ms-team\|The 08th MS Team]] | cała seria | Oddział i jego maszyny pochodzą z tej serii, ale ochrona Alexa łączy ją z Gundam 0080. W grze Michel jest głównym pilotem Hover Trucka, a Eledore wspierającym; w anime ich role przy wozie są odwrotne. |
+| Przeniesienie oddziału do Jaburo | [[srw-oe\|Super Robot Wars OE]] | n/d | Zakończenie misji i oczekiwanie na transportowiec należą do przebiegu gry. |
 
 ## Komentarz
 
@@ -83,6 +95,8 @@ Druga misja zmienia ton: zamiast ćwiczeń na poligonie jest regularna operacja 
 Trzecia misja domyka ten front. Zwycięstwo nie wynika wyłącznie z przewagi liczebnej: wymaga również odmowy poddania się szantażowi przez [[general-revil|Revila]] i precyzyjnego działania [[amuro-ray|Amura]]. Zagrożenie zmienia skalę z regularnego starcia na próbę powstrzymania broni masowego rażenia, a ostatnie słowa [[mquve|M'Quve'a]] przypominają, że utrata Odessy nie kończy wojny.
 
 Czwarta misja wraca do tonu ćwiczeń, ale zmienia perspektywę: tym razem to nie wojsko ani policja, lecz klasa szkolna pokazuje Connect, jak walczyć. [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] traktuje trening poważnie — z zaskoczeniem, odprawą i protokołem — choć jej członkowie są dziećmi. Gra zestawia ich dojrzałość z dorosłymi, którzy nie mogą powiedzieć wszystkiego, i zamyka wątek refleksją [[seishiro|Seishira]] nad własnym dzieciństwem.
+
+Piąta misja splata dwa spojrzenia na Wojnę Jednoroczną. Z jednej strony [[christina-mackenzie|Chris]] mierzy się z prototypową technologią i granicą między symulatorem a walką, z drugiej [[08-pluton-ms|08. Pluton MS]] walczy o konkretny cel taktyczny: dać transportowi czas na start. [[pluton-cyclops|Cyclops]] nie musi zniszczyć całej obrony, wystarczy mu dotrzeć do wahadłowca, dlatego odwrót obrońców i powrót [[karen-joshua|Karen]] mają bezpośrednie znaczenie dla wyniku. Po napięciu scena wraca do codzienności oddziału, ale nie zdejmuje z niego czujności.
 }}
 {{zrodlo gra=wspolne
 
@@ -99,4 +113,7 @@ Czwarta misja wraca do tonu ćwiczeń, ale zmienia perspektywę: tym razem to ni
 - [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] to piąta klasa szkoły w Hinobori, której Eldran powierza [[raijin-oh|Raijin-Oh]]; uczniowie dostają role operatorskie, a budynek szkoły zmienia się w centrum dowodzenia ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23). Przeciwnikiem w oryginale jest [[jaku-empire|Imperium Jaku]] z piątego wymiaru, a [[jin-hyuga|Jin]], [[asuka-tsukishiro|Asuka]] i [[koji-hoshiyama|Koji]] należą do trójki głównych pilotów maszyny (tamże).
 - Wspólny trening z Connect i postacie [[maria-shiratori|Marii]], [[tsutomu-kojima|Tsutomu]] i [[kirara-haruno|Kirary]] w rolach dowodzenia i łączności są elementem gry; oryginał nie zna organizacji Connect.
 - [[traktat-antarktyczny|Traktat Antarktyczny]] zabrania broni jądrowej, biologicznej i chemicznej oraz przewiduje upublicznienie planów broni jądrowej ([Gundam Wiki, „Antarctic Treaty”](https://gundam.fandom.com/wiki/Antarctic_Treaty); sprawdzono 2026-10-22).
+
+- Pierwszy odcinek [[mobile-suit-gundam-0080|*Mobile Suit Gundam 0080*]] przenosi atak Cyclops na bazę Federacji i udany start nowego Gundama; gra zmienia arktyczne otoczenie, maszyny obrońców i los Andy’ego ([MAHQ, „How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); [Gundam Wiki, odc. 1](https://gundam.fandom.com/wiki/How_Many_Miles_to_the_Battlefield%3F); sprawdzono 2026-10-23).
+- [[08-pluton-ms|08. Pluton MS]] pochodzi z 12-odcinkowej OVA [[mobile-suit-gundam-08th-ms-team|*The 08th MS Team*]] o naziemnym oddziale Federacji w Azji Południowo-Wschodniej. W serialu Eledore prowadzi wóz wsparcia, a Michel jest nawigatorem i celowniczym; gra przypisuje im odwrotne role załogi ([Wikipedia, *Mobile Suit Gundam: The 08th MS Team*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
 }}

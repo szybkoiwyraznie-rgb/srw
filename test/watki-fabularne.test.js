@@ -110,6 +110,10 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Klasa Obrony Ziemi i szkoła w Hinobori',
       'Raijin-Oh i troje pilotów',
       'Wspólne ćwiczenia z Connect',
+      // scena 1-5: Start Alexa
+      'Start Alexa i atak plutonu Cyclops',
+      '08. Pluton MS i ochrona transportu',
+      'Przeniesienie oddziału do Jaburo',
     ],
   };
 
