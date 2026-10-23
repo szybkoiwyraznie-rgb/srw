@@ -1,6 +1,6 @@
 # Co nowego
 
-## 2026-10-23 12:10
+## 2026-10-23 13:30
 
 - [[srw-oe-ep1|Epizod 1]] ma czwartą misję — [[srw-oe-ep1-trening-klasy-obrony|„Trening Klasy Obrony”]]: [[exart|Exart]] i [[raijin-oh|Raijin-Oh]] ćwiczą wspólnie z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]] na Brockenach treningowych.
 - W bazie są nowe postacie: [[jin-hyuga|Jin Hyuga]], [[asuka-tsukishiro|Asuka Tsukishiro]], [[koji-hoshiyama|Koji Hoshiyama]], [[maria-shiratori|Maria Shiratori]], [[tsutomu-kojima|Tsutomu Kojima]], [[kirara-haruno|Kirara Haruno]] i [[yoko-kuriki|Yoko Kuriki]], a serial reprezentuje [[matchless-raijin-oh|Matchless Raijin-Oh]].
