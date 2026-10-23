@@ -27,7 +27,7 @@
 
 ## 2026-10-23 18:35
 
-- [[raijin-oh|Raijin-Oh]] ma dwie ilustracje, a [[jin-hyuga|Jin]], [[asuka-tsukishiro|Asuka]], [[koji-hoshiyama|Koji]], [[maria-shiratori|Maria]], [[tsutomu-kojima|Tsutomu]], [[kirara-haruno|Kirara]] i [[yoko-kuriki|Yoko]] — portrety. Galerie otwierają się na pełnym ekranie, a miniatury pojawiły się na listach.
+- [[raijin-oh|Raijin-Oh]] ma dwie ilustracje, a [[jin-hyuga|Jin]], [[asuka-tsukishiro|Asuka]], [[koji-hoshiyama|Koji]], [[maria-shiratori|Maria]], [[tsutomu-kojima|Tsutomu]], [[kirara-haruno|Kirara]] i [[yoko-kuriki|Yoko]] — portrety.
 - [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] jest od dziś widoczna w całości: siedmioro uczniów z [[akademia-hinobori|Akademii Hinobori]] ma własne strony z portretami.
 
 ## 2026-10-23 15:05
@@ -43,16 +43,9 @@
 - W bazie są nowe postacie: [[jin-hyuga|Jin Hyuga]], [[asuka-tsukishiro|Asuka Tsukishiro]], [[koji-hoshiyama|Koji Hoshiyama]], [[maria-shiratori|Maria Shiratori]], [[tsutomu-kojima|Tsutomu Kojima]], [[kirara-haruno|Kirara Haruno]] i [[yoko-kuriki|Yoko Kuriki]], a serial reprezentuje [[matchless-raijin-oh|Matchless Raijin-Oh]].
 - [[jaku-empire|Imperium Jaku]] zyskuje kontekst: to dawny przeciwnik klasy, której nazwa wciąż w Japonii budzi szacunek.
 
-## 2026-10-22 19:04
-
-- Lista mechów pozwala wybrać serię „Nieokreślona” i pokazuje wtedy maszyny bez przypisanej serii, jak [[h-bomb-missile|H-Bomb Missile]] czy [[medea|Medea]].
-- Hasła mają na górze chmurę tagów: kliknięcie zawęża listę do wybranych tagów, a kilka naraz pokazuje hasła oznaczone którymkolwiek z nich.
-
 ## 2026-10-22 19:05
 
 - [[dom-zolnierz-zeonu|Dom (Żołnierz Zeonu)]] ma dwie ilustracje zwykłego Doma, odrębne od zdjęć maszyn [[dom|Black Tri-Stars]].
-
-## 2026-10-22 19:04
 
 ## 2026-10-22 18:53
 
