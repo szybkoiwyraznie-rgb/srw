@@ -272,6 +272,12 @@ test('ilustracje właściciela: 101 plików przy 77 encjach, w tym postacie bez 
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
   assert.equal(Object.keys(manifest.encje).length, 77);
   assert.equal(Object.values(manifest.encje).flat().length, 101);
+  // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
+  const wszystkie = Object.values(manifest.encje).flat();
+  const portrety = wszystkie.filter((f) => f.startsWith('characters/')).length;
+  const jednostki = wszystkie.filter((f) => !f.includes('/')).length;
+  assert.match(manifest.uwaga, new RegExp(`${portrety} portret[a-ząćęłńóśźż]* w characters/`), 'liczba portretów w uwadze');
+  assert.match(manifest.uwaga, new RegExp(`${jednostki} plik[a-ząćęłńóśźż]* jednostek`), 'liczba plików jednostek w uwadze');
   // Dostawa ilustracji jednostek misji 2 (2026-10-22): sześć maszyn, dziewięć plików.
   assert.deepEqual(manifest.encje.dom, ['Dom.png', 'Dom 2.png']);
   assert.deepEqual(manifest.encje.dopp, ['Dopp.png']);
