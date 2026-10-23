@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-23 18:57
+
+- Audyt [[srw-oe-ep1-trening-klasy-obrony|misji „Trening Klasy Obrony”]] poprawił opisy ról: [[tsutomu-kojima|Tsutomu]] mówi o oszczędzaniu energii, [[seishiro|Seishiro]] wyjaśnia obrażenia od upadku, a [[asuka-tsukishiro|Asuka]] wskazuje nieznany model [[exart|Exarta]], nie własnego [[raijin-oh|Raijin-Oha]]. Streszczenie sceny wskazuje też wprost, że Raijin-Oh walczy u boku Exarta.
+- [[loum|Loum]] rozróżnia teraz przekonanie Federacji o nieudanej akcji ratunkowej od skutecznego odbicia [[general-revil|generała Revila]]. Opis Raijin Claw na stronie Raijin-Oha mówi teraz zgodnie z grą, że maszyna przebija się przez wrogów w zasięgu i rusza dalej.
+
 ## 2026-10-23 18:35
 
 - [[raijin-oh|Raijin-Oh]] ma dwie ilustracje, a [[jin-hyuga|Jin]], [[asuka-tsukishiro|Asuka]], [[koji-hoshiyama|Koji]], [[maria-shiratori|Maria]], [[tsutomu-kojima|Tsutomu]], [[kirara-haruno|Kirara]] i [[yoko-kuriki|Yoko]] — portrety. Galerie otwierają się na pełnym ekranie, a miniatury pojawiły się na listach.
@@ -43,7 +48,7 @@
 
 ## 2026-10-22 18:35
 
-- [[loum|Loum]] wiąże bitwę z dalszym ciągiem wojny: [[black-tri-stars|Black Tri-Stars]] przechwycili tam [[general-revil|generała Revila]], a nieudane odbicie generała poprzedziło rokowania zakończone [[traktat-antarktyczny|Traktatem Antarktycznym]].
+- [[loum|Loum]] wiąże bitwę z dalszym ciągiem wojny: [[black-tri-stars|Black Tri-Stars]] przechwycili tam [[general-revil|generała Revila]], a przekonanie Federacji o nieudanej akcji ratunkowej poprzedziło rokowania zakończone [[traktat-antarktyczny|Traktatem Antarktycznym]].
 
 ## 2026-10-22 18:34
 

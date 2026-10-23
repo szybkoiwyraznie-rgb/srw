@@ -1,9 +1,10 @@
 /**
  * Misja 2 epizodu 1 „Black Tri-Stars”: dostawa z 2026-10-22 (dostawa_1_2.txt).
  *
- * Testy pilnują trzech rzeczy:
+ * Testy pilnują czterech rzeczy:
  * - tekst misji jest dosłownym fragmentem archiwum epizodu i sceny 1-2,
  * - dane jednostek i pilotów trafiają do bazy bez zmiany wartości,
+ * - opis Loum nie zmienia skutecznego odbicia Revila w nieudaną akcję,
  * - nowe strony nie dostają ilustracji ani profilu zbiorczego, dopóki właściciel ich nie dostarczy.
  */
 import test from 'node:test';
@@ -66,6 +67,13 @@ test('obsada i sprzęt misji 2 są spięte z epizodem i sceną', () => {
     assert.ok(bySlug.has(h), `brak hasła ${h}`);
     assert.ok(scena.pojecia.includes(h), `scena: ${h}`);
   }
+});
+
+test('opis Loum rozróżnia założenie Federacji od skutecznego odbicia Revila', () => {
+  const body = bySlug.get('loum').body;
+  assert.match(body, /uznała akcję za nieudaną/);
+  assert.match(body, /Skutecznie odbity Revil/);
+  assert.doesNotMatch(body, /nieudana próba odbicia generała/);
 });
 
 test('pięć nowych jednostek ma uzbrojenie z dostawy i parametry pary (mech, gra)', () => {

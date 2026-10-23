@@ -16,7 +16,7 @@ utworzono: 2026-10-23
 
 Klasa z [[akademia-hinobori|Akademii Hinobori]], która razem z [[raijin-oh|Raijin-Oh]] broni Ziemi. W [[srw-oe|Super Robot Wars OE]] ma już za sobą pokonanie [[jaku-empire|Imperium Piątego Wymiaru]] a codzienne życie łączy z treningami razem z drużyną Ganba, Saurersami, Danketsami i innymi drużynami.
 
-W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] klasa prowadzi wspólne ćwiczenia z [[connect-force|Connect]]. [[maria-shiratori|Maria Shiratori]] dowodzi i urządza niespodziankę, [[tsutomu-kojima|Tsutomu Kojima]] tłumaczy zasady wykorzystania terenu, a [[kirara-haruno|Kirara Haruno]] komentuje przebieg walki. Po wszystkim klasa dziękuje generałowi Takedzie, którego Siły Obrony same sprzątają poligon po ćwiczeniach.
+W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] klasa prowadzi wspólne ćwiczenia z [[connect-force|Connect]]. [[maria-shiratori|Maria Shiratori]] dowodzi i urządza niespodziankę, [[tsutomu-kojima|Tsutomu Kojima]] tłumaczy zasady wykorzystania terenu, a [[kirara-haruno|Kirara Haruno]] komentuje przebieg walki. Po ćwiczeniach Tsutomu mówi, że Siły Obrony podobno same posprzątają poligon. [[seishiro|Seishiro]] chce wysłać generałowi Takedzie maila z podziękowaniami, a Maria wyjaśnia, że klasa zawsze mu dziękuje.
 
 Za sterami maszyny siedzą [[jin-hyuga|Jin Hyuga]], [[asuka-tsukishiro|Asuka Tsukishiro]] i [[koji-hoshiyama|Koji Hoshiyama]].
 }}

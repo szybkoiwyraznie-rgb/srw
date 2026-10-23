@@ -32,5 +32,5 @@ Po treningu uspokaja [[himari-yaegaki|Himari]], że choć jest nowa, nikt nie uc
 
 ## Postać w oryginale
 
-Tsutomu Kojima (小島 勉) jest doradcą i operatorem komputera Klasy Obrony Ziemi. W oryginale to spokojny, uprzejmy i uparty typ naukowca z grubymi okularami, który lubi się uczyć i badać roboty Eldrana ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
+Tsutomu Kojima (小島 勉) jest doradcą i operatorem komputera Klasy Obrony Ziemi. W oryginale to inteligentny, uprzejmy i uparty typ naukowca z grubymi okularami, który lubi się uczyć i badać roboty Eldrana ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 }}

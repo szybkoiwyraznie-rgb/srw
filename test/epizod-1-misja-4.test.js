@@ -1,11 +1,12 @@
 /**
  * Misja 4 epizodu 1 „Trening Klasy Obrony”: dostawa z 2026-10-23 (dostawa_1_4.txt).
  *
- * Testy pilnują czterech rzeczy:
+ * Testy pilnują pięciu rzeczy:
  * - dostawa jest zarchiwizowana bez zmian, a jej skrypt trafia do archiwum epizodu,
  * - scena 1-4 jest dosłownym fragmentem skryptu i domyka kolejność scen epizodu,
  * - nowe encje (Raijin-Oh, Klasa Obrony Ziemi, Akademia Hinobori i siedmioro uczniów)
  *   są spięte ze sceną i epizodem,
+ * - opisy i analiza zachowują strony starcia oraz role bohaterów z dostawy,
  * - parametry w `w_gre` i na stronach pochodzą z dostawy, a nie z pamięci modelu.
  */
 import test from 'node:test';
@@ -85,6 +86,21 @@ test('obsada i hasła misji 4 są spięte ze sceną i epizodem', () => {
     assert.ok(epizod.pojecia.includes(slug), `epizod: ${slug}`);
   }
   assert.ok(epizod.zrodla.includes('https://en.wikipedia.org/wiki/Matchless_Raijin-Oh'));
+});
+
+test('opisy misji 4 zachowują strony starcia i role z dostawy', () => {
+  assert.match(scena.streszczenie, /Raijin-Oh walczy u boku Exarta/);
+  assert.doesNotMatch(scena.streszczenie, /walce treningowej z Raijin-Oh/);
+  assert.match(scena.body, /Tsutomu dodaje, że walka z uwzględnieniem terenu nie marnuje energii/);
+  assert.match(scena.body, /Seishiro wyjaśnia Himari, że zrzucenie celu z wysokości zadaje dodatkowe obrażenia/);
+  assert.doesNotMatch(scena.body, /Seishiro zapamiętuje zasadę/);
+
+  const asuka = bySlug.get('asuka-tsukishiro');
+  assert.match(asuka.body, /nieznany sobie model \[\[exart\|Exarta\]\]/);
+  assert.doesNotMatch(asuka.body, /nieznany sobie model \[\[raijin-oh\|/);
+  assert.match(bySlug.get('kirara-haruno').body, /\[\[koji-hoshiyama\|Koji\]\] zaczyna domyślać się/);
+  assert.match(bySlug.get('raijin-oh').body, /Raijin Claw przebija się przez wrogów w zasięgu i rusza dalej/);
+  assert.doesNotMatch(bySlug.get('yoko-kuriki').body, /czyli dokładnie to, o czym mówił/);
 });
 
 test('Raijin-Oh ma parametry pary (mech, gra) z dostawy i troje pilotów', () => {
