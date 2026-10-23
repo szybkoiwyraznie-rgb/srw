@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-24 00:40
+
+- [[zolnierz-federacji|Żołnierz Federacji]] ma pełniejszy opis: pracuje w bazie przejętej na [[zeon|Zeonie]] podczas [[operacja-odessa|operacji Odessa]] i to jego meldunek zamyka przygotowania do startu wahadłowca.
+- Opis [[dom-zolnierz-zeonu|Doma szeregowych oddziałów]] mówi wprost, czym jego uzbrojenie ustępuje maszynom [[dom|Black Tri-Stars]]: słabszym Heat Saberem i bazooką o krótszym zasięgu.
+
 ## 2026-10-24 00:25
 
 - Portret [[terry-sanders-jr|Terry’ego Sandersa Jr.]] uzupełnia galerie misji [[srw-oe-ep1-start-alexa|„Start Alexa”]] do 23 ilustracji. [[rx-78nt-1-gundam-alex|Alex]] nadal nie ma galerii.

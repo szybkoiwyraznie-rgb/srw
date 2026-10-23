@@ -245,12 +245,20 @@ test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że 
 test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   const zakazane = /\bw grze\b|\bprofilu?\b|\bobsad[a-ząćęłńóśźż]*\b|\broster\b|\bwłasną stroną\b|standardow/i;
   const typy = ['postac', 'mech', 'pojecie', 'seria'];
+  // Sekcja „Opis” kończy się dopiero na kolejnym nagłówku `##` albo na zamknięciu bloku poziomu.
+  // Wcześniejszy wzorzec kończył dopasowanie na pierwszej pustej linii, więc badał pusty tekst
+  // i przepuszczał naruszenia poza pierwszym akapitem (audyt PR #12).
+  let zbadane = 0;
   for (const page of pages.filter(p => typy.includes(p.typ))) {
-    const opis = page.body.match(/^## Opis\n([\s\S]*?)(?=^## |^\}\}|\s*$)/m);
+    const opis = page.body.match(/^## Opis\n([\s\S]*?)(?=^## |^\}\})/m);
     if (!opis) continue;
-    const tekst = opis[1];
+    const tekst = opis[1].trim();
+    if (!tekst) continue;
+    zbadane += 1;
+    assert.ok(tekst.includes('\n\n') || tekst.length > 80, `${page.slug}: sekcja Opis wczytana w całości`);
     assert.doesNotMatch(tekst, zakazane, `${page.slug}: opis zbliża się do technicznego języka gry`);
   }
+  assert.ok(zbadane >= 130, `test ma badać pełne opisy wszystkich encji, a sprawdził ${zbadane}`);
   assert.ok(bySlug.has('zolnierz-zeonu'));
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
     for (const pilot of bySlug.get(slug).piloci) {
