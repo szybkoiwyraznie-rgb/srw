@@ -395,3 +395,20 @@ test('obsada Exarta i granica fabuły: Himari jako podpilot, bez przyszłych ró
   assert.match(delivery, /DL100_01/);
   assert.match(bySlug.get('himari-yaegaki').body, /zdalnie steruje/);
 });
+
+test('maszyny wsparcia White Base mają rodowód z pierwowzoru (ADR 0008)', () => {
+  const rodowody = {
+    guncannon: 'https://www.mahq.net/rx-77-2/',
+    guntank: 'https://www.mahq.net/rx-75-4/',
+  };
+  for (const [slug, adres] of Object.entries(rodowody)) {
+    const page = bySlug.get(slug);
+    const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
+    assert.ok(blok, `${slug}: blok tła z pierwowzoru`);
+    assert.match(blok[1], /pierwowzorze/, `${slug}: tło oddzielone od wydarzeń gry`);
+    assert.match(blok[1], /system Core Block/, `${slug}: wspólny rodowód maszyn Operacji V`);
+    assert.match(blok[1], /sprawdzono 2026-10-24\)/, `${slug}: data sprawdzenia źródła`);
+    assert.ok(page.zrodla.includes(adres), `${slug}: adres w frontmatterze`);
+    assert.ok(blok[1].includes(adres), `${slug}: adres przy informacji`);
+  }
+});

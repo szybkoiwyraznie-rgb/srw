@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-24 01:05
+
+- Maszyny wsparcia [[white-base|White Base]] mają rodowód: [[guncannon|Guncannon]] powstał w Operacji V jako jednostka ognia ze średniego dystansu z działami 240 mm nad barkami, a [[guntank|Guntank]] wywodzi się z czołgów — kierowca siedzi w torsie, celowniczy w głowie, a zamiast rąk maszyna ma wyrzutnie rakiet.
+- Obie łączy system Core Block: kokpit odłącza się jako myśliwiec, a w przypadku Guntanka pozostały kadłub może dalej strzelać jako stanowisko ogniowe.
+
 ## 2026-10-24 00:55
 
 - Jednostki z misji [[srw-oe-ep1-start-alexa|„Start Alexa”]] mają tło z macierzystych serii: [[gundam-ez8|Ez8]] to polowa przebudowa rozbitej maszyny [[shiro-amada|Shiro]], a [[gundam-ground-type-glowa-gm|głowa GM-a]] u [[karen-joshua|Karen]] bierze się z braku części do [[gundam-ground-type|Ground Type’ów]], które same powstały z nadwyżek po prototypie [[rx-78-2-gundam|Gundama]].
