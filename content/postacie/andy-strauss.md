@@ -7,6 +7,9 @@ seria: mobile-suit-gundam-0080
 gry: [srw-oe]
 mechy: [kampfer-bazooka]
 pochodzenie: skrypt
+zrodla:
+  - https://gundam.fandom.com/wiki/Cyclops_Team
+  - https://www.mahq.net/gundam0080ep1/
 tagi: [one-year-war]
 utworzono: 2026-10-23
 ---
@@ -17,6 +20,11 @@ utworzono: 2026-10-23
 Członek [[pluton-cyclops|plutonu Cyclops]], pilot [[kampfer-bazooka|Kampfera/Bazooka]]. Wykrywa ciepło mobile suitów obrońców, a podczas ataku pierwszy dostrzega wahadłowiec i podejrzewa, że towar znajduje się w kontenerze.
 
 Chce zdążyć przed startem i rusza naprzód mimo ostrzeżenia [[hardy-steiner|Steinera]]. W warunkowym dialogu odwrotu melduje trafione silniki i wycofuje się.
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-suit-gundam-0080|pierwowzorze]] Andy jest w [[pluton-cyclops|plutonie Cyclops]] specjalistą od pojazdów ([Gundam Wiki, „Cyclops Team”](https://gundam.fandom.com/wiki/Cyclops_Team); sprawdzono 2026-10-24). Podczas ataku na arktyczną bazę pilotuje amfibijnego Hy-Gogga; dostrzega wahadłowiec z [[rx-78nt-1-gundam-alex|prototypem]] i rusza za nim, ale ginie w kokpicie, zanim zdąży przerwać start ([MAHQ, „Gundam 0080 Ep. 1: How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); sprawdzono 2026-10-23).
 }}
 
 {{menu gra=srw-oe

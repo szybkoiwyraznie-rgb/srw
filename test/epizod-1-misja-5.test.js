@@ -303,3 +303,42 @@ test('dziennik zmian dokumentuje piątą misję i jej ilustracje', () => {
   assert.ok(current.includes('[[terry-sanders-jr|'));
   assert.match(current, /Alex\]\] nadal nie ma galerii/);
 });
+
+test('obsada misji 1-5 ma tło z pierwowzorów w blokach zrodlo (ADR 0008, ADR 0013)', () => {
+  const wiki08 = 'https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team';
+  const mahq = 'https://www.mahq.net/gundam0080ep1/';
+  const cyklop = 'https://gundam.fandom.com/wiki/Cyclops_Team';
+  const chris = 'https://gundam.fandom.com/wiki/Christina_Mackenzie';
+  const zrodlaPostaci = {
+    'shiro-amada': [wiki08],
+    'karen-joshua': [wiki08],
+    'terry-sanders-jr': [wiki08],
+    'michel-ninorich': [wiki08],
+    'eledore-massis': [wiki08],
+    'christina-mackenzie': [chris],
+    'hardy-steiner': [cyklop, mahq],
+    'mikhail-kaminsky': [cyklop, mahq],
+    'gabriel-ramirez-garcia': [cyklop, mahq],
+    'andy-strauss': [cyklop, mahq],
+  };
+  for (const [slug, adresy] of Object.entries(zrodlaPostaci)) {
+    const page = bySlug.get(slug);
+    const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
+    assert.ok(blok, `${slug}: blok tła z pierwowzoru`);
+    assert.match(blok[1], /pierwowzorze/, `${slug}: tło oddzielone od wydarzeń gry`);
+    assert.match(blok[1], /sprawdzono 2026-10-2\d\)/, `${slug}: data sprawdzenia źródła`);
+    for (const adres of adresy) {
+      assert.ok(page.zrodla.includes(adres), `${slug}: ${adres} w frontmatterze`);
+      assert.ok(blok[1].includes(adres), `${slug}: ${adres} przy informacji`);
+    }
+    assert.ok(page.body.indexOf('{{skrypt') < page.body.indexOf('{{zrodlo'),
+      `${slug}: wydarzenia misji przed tłem z pierwowzoru`);
+  }
+  // Tło nie może wyprzedzać fabuły ani mieszać się z opisem rozgrywki (ADR 0012, ADR 0018).
+  assert.match(bySlug.get('terry-sanders-jr').body, /trzeciej wspólnej misji/);
+  assert.match(bySlug.get('karen-joshua').body, /wdową po lekarzu\s*\n?\s*wojskowym/);
+  assert.match(bySlug.get('christina-mackenzie').body, /shoe-fitter/);
+  assert.match(bySlug.get('andy-strauss').body, /ginie w kokpicie/);
+  assert.match(bySlug.get('eledore-massis').body, /za sterami wozu wsparcia/);
+  assert.match(bySlug.get('michel-ninorich').body, /nawigację i obsługuje działko/);
+});

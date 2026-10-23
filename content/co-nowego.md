@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-10-24 00:45
+
+- Obsada misji [[srw-oe-ep1-start-alexa|„Start Alexa”]] ma tło z macierzystych serii: [[shiro-amada|Shiro]] obejmuje [[08-pluton-ms|08. Pluton MS]] w dżunglach Azji Południowo-Wschodniej, [[karen-joshua|Karen]] jest wdową po lekarzu wojskowym i w razie potrzeby zastępuje sanitariusza, a [[terry-sanders-jr|Sandersa]] prześladuje pech trzeciej misji, który przyniósł mu przezwisko „Shinigami Sanders”.
+- Opisane są też role przy wozie wsparcia — [[michel-ninorich|Michel]] nawiguje i strzela, [[eledore-massis|Eledore]] prowadzi — oraz droga [[christina-mackenzie|Chris]] od akademii i pracy przy komputerze uczącym do stałego fotela w [[rx-78nt-1-gundam-alex|Alexie]].
+- [[pluton-cyclops|Pluton Cyclops]] ma podział zadań: [[hardy-steiner|Steiner]] dowodzi, [[mikhail-kaminsky|Misza]] jest jego zastępcą, [[gabriel-ramirez-garcia|Garcia]] odpowiada za broń i materiały wybuchowe, a [[andy-strauss|Andy]] za pojazdy.
+
 ## 2026-10-24 00:40
 
 - [[zolnierz-federacji|Żołnierz Federacji]] ma pełniejszy opis: pracuje w bazie przejętej na [[zeon|Zeonie]] podczas [[operacja-odessa|operacji Odessa]] i to jego meldunek zamyka przygotowania do startu wahadłowca.
