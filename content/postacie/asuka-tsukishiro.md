@@ -16,9 +16,9 @@ utworzono: 2026-10-23
 
 ## Opis
 
-Pilot wspierający [[raijin-oh|Raijin-Oh]] z klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]]. W ćwiczeniach z [[connect-force|Connect]] trzyma się na uboczu sporów: gdy [[jin-hyuga|Jin]] chwali się, że po pokonaniu [[jaku-empire|Imperium Jaku]] nie ma się czego bać, przypomina mu, że mówił to samo o wcześniejszych zagrożeniach.
+Pilot wspierający [[raijin-oh|Raijin-Oh]] z klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]]. W ćwiczeniach z [[connect-force|Connect]] trzyma się na uboczu sporów: gdy [[jin-hyuga|Jin]] lekceważy koniec walki z [[jaku-empire|Imperium Jaku]], dokucza mu, że pewnie był taki sam, kiedy pojawiały się Mroczne Bestie.
 
-W trakcie starcia jako pierwszy dostrzega, że miejsce walki jest puste, i rozpoznaje Labory treningowe. Komentuje też nową maszynę, której wcześniej nie widział, i spokojnie podsumowuje kolejne wybryki [[maria-shiratori|Marii]] oraz [[jin-hyuga|Jina]].
+W trakcie starcia pierwszy dostrzega, że miejsce walki jest puste, a gdy [[kirara-haruno|Kirara]] nazywa stojące maszyny Laborami treningowymi, przytakuje jej. Zauważa też nieznany sobie model [[raijin-oh|Raijin-Oha]] i spokojnie podsumowuje wybryki [[maria-shiratori|Marii]] oraz [[jin-hyuga|Jina]]. W szkole przyznaje, że nigdy by nie pomyślał, że [[connect-force|Connect]] buduje roboty.
 }}
 {{menu gra=srw-oe
 

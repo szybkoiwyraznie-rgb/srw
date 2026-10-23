@@ -341,13 +341,13 @@ Kusanagi i reszta z Connect mają teraz wziąć udział w treningu Klasy Obrony 
 
 ### Rozkaz wymarszu
 
-W sali klasy 5-3 [[akademia-hinobori|Akademii Hinobori]] [[jin-hyuga|Jin]] nudzi się i chce, żeby coś się wydarzyło. [[maria-shiratori|Maria]] przypomina mu, że należy do [[klasa-obrony-ziemi|Klasy Obrony Ziemi]], a [[asuka-tsukishiro|Asuka]] dokucza, że Jin narzekałby nawet wtedy, gdy pojawiały się Mroczne Bestie. [[koji-hoshiyama|Koji]] woli szukać UFO niż grać w piłkę, co Asuka uznaje za zabawne u pilota robota.
+W sali klasy 5-3 [[akademia-hinobori|Akademii Hinobori]] [[jin-hyuga|Jin]] nudzi się i chce, żeby coś się wydarzyło. [[maria-shiratori|Maria]] przypomina mu, że należy do [[klasa-obrony-ziemi|Klasy Obrony Ziemi]], a [[asuka-tsukishiro|Asuka]] dokucza, że Jin był pewnie taki sam, kiedy pojawiały się Mroczne Bestie. Maria dodaje, że przy takim braku czujności wyśmiałaby ich drużyna Ganba — i na to Jin zrywa się, przekonany, że nadciąga Mroczna Bestia. [[koji-hoshiyama|Koji]] woli szukać UFO niż grać w piłkę, co Asuka uznaje za zabawne u pilota robota.
 
 Maria ogłasza rozkaz wymarszu, a [[tsutomu-kojima|Tsutomu]] zagania klasę na miejsce ćwiczeń. Jin cieszy się, że będzie miał co robić.
 
 ### Spotkanie z Raijin-Oh
 
-[[himari-yaegaki|Himari]] wykrywa szybko zbliżający się obiekt — to klasa, z którą Connect ma ćwiczyć. Na miejscu nie ma jednak wroga, tylko Labory treningowe, które [[kirara-haruno|Kirara]] i [[asuka-tsukishiro|Asuka]] rozpoznają jako maszyny znane z wcześniejszych potyczek. [[maria-shiratori|Maria]] przyznaje, że urządziła ćwiczenia z zaskoczenia, żeby [[jin-hyuga|Jin]] się nie obijał.
+[[himari-yaegaki|Himari]] wykrywa szybko zbliżający się obiekt — to klasa, z którą Connect ma ćwiczyć. Na miejscu nie ma jednak wroga, tylko Labory treningowe: [[kirara-haruno|Kirara]] rozpoznaje maszyny, z którymi klasa zawsze walczy, a [[asuka-tsukishiro|Asuka]] jej przytakuje. [[maria-shiratori|Maria]] przyznaje, że urządziła ćwiczenia z zaskoczenia, żeby [[jin-hyuga|Jin]] się nie obijał.
 
 [[seishiro|Seishiro]] wyjaśnia [[himari-yaegaki|Himari]], że będą dziś ćwiczyć z [[raijin-oh|Raijin-Ohem]] i [[klasa-obrony-ziemi|Klasą Obrony Ziemi]], która pokonała [[jaku-empire|Imperium Piątego Wymiaru]]. Himari przedstawia się przez radio, a Seishiro studzi jej emocje: to dzieci z podstawówki, ale weterani, więc nie można dać plamy.
 
@@ -367,7 +367,7 @@ Maria zaprasza Seishira na szkolne omówienie treningu, a ten chętnie się zgad
 
 Po odprawie klasa dziękuje za wspólne ćwiczenia, a [[himari-yaegaki|Himari]] martwi się, że jako nowa osoba narobiła kłopotów. [[tsutomu-kojima|Tsutomu]] odpowiada, że nikt nie ucierpiał, a [[seishiro|Seishiro]] chwali trening.
 
-Rozmowa schodzi na Connect. [[jin-hyuga|Jin]], [[kirara-haruno|Kirara]] i [[asuka-tsukishiro|Asuka]] są zaskoczeni, że firma z reklam buduje roboty i ćwiczy do walki. Seishiro przyznaje, że Connect dopiero zaczyna, a Tsutomu ucina dalsze pytania, żeby nie stawiać dorosłych w niezręcznej sytuacji.
+Rozmowa schodzi na Connect. [[jin-hyuga|Jin]] pyta, czy dorośli są z tej firmy, którą pokazują w reklamach, [[kirara-haruno|Kirara]] cieszy się, że widzi ją na żywo, a [[asuka-tsukishiro|Asuka]] i [[tsutomu-kojima|Tsutomu]] przyznają, że nie spodziewali się, że [[connect-force|Connect]] buduje roboty i ćwiczy do walki. Seishiro przyznaje, że Connect dopiero zaczyna, a Tsutomu ucina dalsze pytania, żeby nie stawiać dorosłych w niezręcznej sytuacji.
 
 [[himari-yaegaki|Himari]] zauważa, że klasa obchodzi się z gośćmi bardzo ostrożnie. [[seishiro|Seishiro]] milknie, przypominając sobie własne dzieciństwo, i zastanawia się, czy pilotując robota w ich wieku, byłby taki jak oni. Na koniec żartuje, że [[suol|Szef]] wykorzystał trening Himari jako pretekst, żeby pokazać mu te dzieci — i uznaje, że to dobra inspiracja.
 

@@ -15,9 +15,9 @@ utworzono: 2026-10-23
 
 ## Opis
 
-Uczennica klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]], obecna przy wspólnych ćwiczeniach z [[connect-force|Connect]]. Razem z [[asuka-tsukishiro|Asuką]] rozpoznaje Labory treningowe i głośno dziwi się, że zamiast wroga czekają maszyny znane z wcześniejszych potyczek.
+Uczennica klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]], obecna przy wspólnych ćwiczeniach z [[connect-force|Connect]]. Jako pierwsza rozpoznaje w stojących maszynach Labory treningowe — te, z którymi klasa zawsze walczy — a [[asuka-tsukishiro|Asuka]] jej przytakuje.
 
-Po treningu entuzjazmuje się, że w końcu widzi Connect z reklam, i dopytuje [[himari-yaegaki|Himari]] o firmę, która buduje roboty.
+Po treningu cieszy się, że widzi na żywo [[connect-force|Connect]] znany dotąd tylko z reklam.
 }}
 {{zrodlo gra=wspolne
 

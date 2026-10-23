@@ -20,7 +20,7 @@ Główny pilot [[raijin-oh|Raijin-Oh]], uczeń klasy [[klasa-obrony-ziemi|Obrony
 
 W ćwiczeniach z [[connect-force|Connect]] traktuje pole bitwy jak zabawę i złości się, gdy okazuje się, że zamiast wroga czekają Labory treningowe, a [[maria-shiratori|Maria]] urządziła ćwiczenia z zaskoczenia. Narzeka na polecenia [[tsutomu-kojima|Tsutomu]], ale słucha go, gdy ten tłumaczy, po co zrzucać cele z wysokości. Po treningu od razu namawia [[koji-hoshiyama|Kojiego]] na piłkę.
 
-Na pytania dorosłych o [[connect-force|Connect]] reaguje szczerze: dziwi się, że firma znana z reklam buduje roboty i ćwiczy do walki.
+W szkole pyta wprost, czy dorośli są z tego [[connect-force|Connect]], który pokazują w reklamach telewizyjnych, i zaraz dopisuje sobie, że ćwiczą z takimi wyjadaczami jak klasa — co [[maria-shiratori|Maria]] natychmiast gasi.
 }}
 {{menu gra=srw-oe
 
