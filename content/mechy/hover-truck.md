@@ -23,6 +23,15 @@ Sonar pasywny obniża celność i unik wrogów, Zaopatrzenie EN odnawia energię
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Hover Truck — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Hover%20Track.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[mobile-suit-gundam-08th-ms-team|Mobile Suit Gundam: The 08th MS Team]]

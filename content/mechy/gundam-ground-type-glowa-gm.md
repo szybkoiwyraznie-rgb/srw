@@ -27,6 +27,19 @@ Ta konfiguracja ma własne wartości: słabsze piersiowe działko Vulcan, mocnie
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Gundam Ground Type/głowa GM — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Grd%20Gundam%20GM.png)
+
+### Ilustracja 2
+
+![Gundam Ground Type/głowa GM — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Grd%20Gundam%20GM%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[mobile-suit-gundam-08th-ms-team|Mobile Suit Gundam: The 08th MS Team]]

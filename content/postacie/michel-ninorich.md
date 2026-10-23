@@ -21,6 +21,15 @@ W hangarze żartuje z Eledore o wykwintnym jedzeniu i wygląda na nie po dotarci
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Michel Ninorich — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Michel%20Ninorich.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Michel

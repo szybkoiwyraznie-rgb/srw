@@ -27,6 +27,19 @@ Strzelba przebija się przez wrogów w zasięgu i pozwala ruszyć dalej, a wielk
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Kampfer/Bazooka — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Kampfer.png)
+
+### Ilustracja 2
+
+![Kampfer/Bazooka — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Kampfer%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[mobile-suit-gundam-0080|Mobile Suit Gundam 0080: War in the Pocket]]

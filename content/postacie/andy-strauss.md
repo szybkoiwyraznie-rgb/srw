@@ -21,6 +21,15 @@ Chce zdążyć przed startem i rusza naprzód mimo ostrzeżenia [[hardy-steiner|
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Andy Strauss — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Andy%20Strauss.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Andy

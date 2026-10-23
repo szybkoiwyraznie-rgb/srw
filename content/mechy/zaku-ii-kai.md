@@ -29,6 +29,19 @@ Zaku II Kai blokuje ciosy tarczą. Heat Hawk korzysta z Gardy, a Sturm Faust otr
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Zaku II Kai — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Zaku%20II%20Kai.png)
+
+### Ilustracja 2
+
+![Zaku II Kai — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Zaku%20II%20Kai%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[mobile-suit-gundam-0080|Mobile Suit Gundam 0080: War in the Pocket]]

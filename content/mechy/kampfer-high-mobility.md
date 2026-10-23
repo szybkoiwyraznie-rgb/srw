@@ -27,6 +27,19 @@ Względem [[kampfer-bazooka|konfiguracji z bazooką]] strzelba ma wyższe trafie
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Kampfer/High Mobility — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Kampfer%20Sturm%20Faust.png)
+
+### Ilustracja 2
+
+![Kampfer/High Mobility — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Kampfer%20Sturm%20Faust%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[mobile-suit-gundam-0080|Mobile Suit Gundam 0080: War in the Pocket]]

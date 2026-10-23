@@ -259,11 +259,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 78 plików przy 60 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 100 plików przy 76 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 60);
-  assert.equal(Object.values(manifest.encje).flat().length, 78);
+  assert.equal(Object.keys(manifest.encje).length, 76);
+  assert.equal(Object.values(manifest.encje).flat().length, 100);
   // Dostawa ilustracji jednostek misji 2 (2026-10-22): sześć maszyn, dziewięć plików.
   assert.deepEqual(manifest.encje.dom, ['Dom.png', 'Dom 2.png']);
   assert.deepEqual(manifest.encje.dopp, ['Dopp.png']);
@@ -290,6 +290,28 @@ test('ilustracje właściciela: 78 plików przy 60 encjach, w tym postacie bez d
     'kirara-haruno': 'Kirara Haruno', 'yoko-kuriki': 'Yoko Kuriki',
   })) {
     assert.deepEqual(manifest.encje[slug], [`characters/${plik}.png`], slug);
+  }
+  // Dostawa ilustracji misji 1-5 (2026-10-24): siedem jednostek i dziewięć postaci, 22 pliki.
+  const misja5 = {
+    'gundam-ez8': ['Gundam Ez8.png', 'Gundam Ez8 1.png'],
+    'gundam-ground-type': ['Ground Gundam.png', 'Ground Gundam 2.png'],
+    'gundam-ground-type-glowa-gm': ['Grd Gundam GM.png', 'Grd Gundam GM 2.png'],
+    'hover-truck': ['Hover Track.png'],
+    'kampfer-bazooka': ['Kampfer.png', 'Kampfer 2.png'],
+    'kampfer-high-mobility': ['Kampfer Sturm Faust.png', 'Kampfer Sturm Faust 2.png'],
+    'zaku-ii-kai': ['Zaku II Kai.png', 'Zaku II Kai 2.png'],
+    'christina-mackenzie': ['characters/Christina Mackenzie.png'],
+    'shiro-amada': ['characters/Shiro Amada.png'],
+    'karen-joshua': ['characters/Karen Joshua.png'],
+    'michel-ninorich': ['characters/Michel Ninorich.png'],
+    'eledore-massis': ['characters/Eledore Massis.png'],
+    'hardy-steiner': ['characters/Hardy Steiner.png'],
+    'mikhail-kaminsky': ['characters/Mikhail Kaminsky.png'],
+    'gabriel-ramirez-garcia': ['characters/Gabriel Ramirez Garcia.png'],
+    'andy-strauss': ['characters/Andy Strauss.png'],
+  };
+  for (const [slug, files] of Object.entries(misja5)) {
+    assert.deepEqual(manifest.encje[slug], files, slug);
   }
   assert.deepEqual(manifest.nieprzypisane, []);
   const adres = file => `${manifest.baseUrl}/${file.split('/').map(encodeURIComponent).join('/')}`;

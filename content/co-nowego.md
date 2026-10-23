@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-24 00:19
+
+- Galerie misji [[srw-oe-ep1-start-alexa|„Start Alexa”]] obejmują 22 ilustracje: po dwie dla [[gundam-ez8|Gundama Ez8]], [[gundam-ground-type|Ground Gundama]], [[gundam-ground-type-glowa-gm|Ground Gundama z głową GM-a]], [[kampfer-bazooka|Kampfera z bazooką]], [[kampfer-high-mobility|Kampfera High Mobility]] i [[zaku-ii-kai|Zaku II Kai]] oraz jedną dla [[hover-truck|Hover Trucka]].
+- Dołączyły portrety [[christina-mackenzie|Chris]], [[shiro-amada|Shiro]], [[karen-joshua|Karen]], [[michel-ninorich|Michela]], [[eledore-massis|Eledore’a]] i czterech pilotów [[pluton-cyclops|plutonu Cyclops]].
+
 ## 2026-10-23 20:13
 
 - [[srw-oe-ep1|Epizod 1]] ma piątą misję — [[srw-oe-ep1-start-alexa|„Start Alexa”]]: [[08-pluton-ms|08. Pluton MS]] odpiera atak [[pluton-cyclops|plutonu Cyclops]] i osłania transport [[rx-78nt-1-gundam-alex|Alexa]] do [[libot|Libot]] na [[side-6|Side 6]].

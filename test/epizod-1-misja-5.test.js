@@ -266,20 +266,36 @@ test('serie i nawiązania wskazują odcinek 1 oraz różnice gry, bez późniejs
   }
 });
 
-test('nowe strony nie dostają pustych galerii ani ilustracji spoza materiału', () => {
-  for (const slug of ['srw-oe-ep1-start-alexa', ...postacie, ...mechy, ...pojecia, ...serie]) {
+test('galerie mają wyłącznie strony objęte dostawą ilustracji misji 1-5', () => {
+  const ilustrowanePostacie = postacie.filter((slug) => !['terry-sanders-jr', 'zolnierz-federacji'].includes(slug));
+  const ilustrowaneMechy = mechy.filter((slug) => slug !== 'rx-78nt-1-gundam-alex');
+  assert.equal(ilustrowanePostacie.length, 9);
+  assert.equal(ilustrowaneMechy.length, 7);
+  for (const slug of [...ilustrowanePostacie, ...ilustrowaneMechy]) {
+    const files = manifest.encje[slug];
+    assert.ok(Array.isArray(files) && files.length > 0, `${slug}: manifest`);
+    const body = bySlug.get(slug).body;
+    assert.match(body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: zakres galerii`);
+    assert.equal((body.match(/^### Ilustracja \d+$/gm) ?? []).length, files.length, `${slug}: liczba obrazów`);
+  }
+  for (const slug of ['srw-oe-ep1-start-alexa', 'terry-sanders-jr', 'zolnierz-federacji',
+    'rx-78nt-1-gundam-alex', ...pojecia, ...serie]) {
     assert.equal(manifest.encje[slug], undefined, `${slug}: manifest`);
     assert.doesNotMatch(bySlug.get(slug).body, /^## Ilustracje$/m, `${slug}: galeria`);
     assert.doesNotMatch(bySlug.get(slug).body, /r2\.dev/, `${slug}: obraz`);
   }
 });
 
-test('dziennik zmian otwiera się piątą misją i prowadzi do nowych stron', () => {
+test('dziennik zmian dokumentuje piątą misję i jej ilustracje', () => {
   const changelog = fs.readFileSync('content/co-nowego.md', 'utf8');
   const current = changelog.split('## 2026-10-23 18:57')[0];
-  assert.match(current, /^# Co nowego\n\n## 2026-10-23 \d{2}:\d{2}/);
+  assert.match(current, /^# Co nowego\n\n## 2026-10-24 \d{2}:\d{2}/);
+  assert.match(current, /## 2026-10-23 20:13/);
   assert.ok(current.includes('[[srw-oe-ep1-start-alexa|'));
   assert.ok(current.includes('[[mobile-suit-gundam-08th-ms-team|'));
   assert.ok(current.includes('[[mobile-suit-gundam-0080|'));
   assert.ok(current.includes('[[rx-78nt-1-gundam-alex|'));
+  assert.match(current, /22 ilustracje/);
+  assert.ok(current.includes('[[gundam-ez8|'));
+  assert.ok(current.includes('[[christina-mackenzie|'));
 });

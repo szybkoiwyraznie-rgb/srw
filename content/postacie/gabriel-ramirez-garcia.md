@@ -21,6 +21,15 @@ W dialogu odwrotu melduje, że to koniec, i wycofuje się zgodnie z rozkazem.
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Gabriel Ramirez Garcia — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Gabriel%20Ramirez%20Garcia.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Garcia
