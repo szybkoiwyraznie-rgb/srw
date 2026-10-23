@@ -31,8 +31,9 @@ faktycznie padło w scenie, a analiza nie miała do czego się odnosić.
 4. **Strona epizodu agreguje sceny.** Sekcja „Sceny\" na stronie epizodu powstaje z wpisów `scena`
    (`epizod` == slug, posortowane po `numer_sceny`). Ręcznej listy scen w treści epizodu
    **nie prowadzimy** — inaczej rozjedzie się z wpisami scen.
-5. **Epizod** nadal ma `## Streszczenie`, `## Wątki anime`, `## Komentarz`; wątki i odwołania
+5. **Epizod** nadal ma `## Streszczenie`, `## Wątki fabularne`, `## Komentarz`; wątki i odwołania
    na poziomie całego epizodu zostają w epizodzie. Analiza konkretnej sceny żyje w scenie.
+   *(Nazwę sekcji i kształt tabeli zmienił ADR 0031.)*
 6. **Parzystość skryptu** (ADR 0005 pkt 2) bez zmian: każdy plik w `episodes/` ma wpis epizodu.
    Sceny nie wymagają własnych plików skryptu — wierność sprawdza się względem skryptu epizodu.
 

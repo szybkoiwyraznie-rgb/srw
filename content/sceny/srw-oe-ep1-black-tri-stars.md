@@ -17,6 +17,7 @@ sekcje_analizy:
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Black_Tri-Star
+  - https://en.gundam-official.com/series/mobile-suit-gundam/story/jmybefzmfo3jtwjjylqbl1hc
 postacie: [seishiro, himari-yaegaki, suol, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve, zolnierz-zeonu]
 mechy: [g-fighter, guncannon, rx-78-2-gundam, guntank, white-base, dom, dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
 pojecia: [black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, connect-force, minovsky-particles, mobile-suit, newtype, jaburo, krzyz-zeonu, stacja-connect]
@@ -381,7 +382,7 @@ Himari marznie w chłodnym transportowcu i podejrzewa, że firma oszczędza na o
 
 Załoga rozpyla [[minovsky-particles|cząstki Minovsky’ego]] i ogłasza stężenie bojowe. [[mirai-yashima|Mirai]] melduje gotowość [[white-base|White Base]], a [[bright-noa|Bright]] wysyła do walki [[rx-78-2-gundam|Gundam]], [[guncannon|Guncannon]] i [[guntank|Guntank]]. [[fraw-bow|Fraw]] uspokaja, że [[g-fighter|G-Fighter]] zdąży na start mimo problemów z konfiguracją.
 
-Dla [[sayla-mass|Sayli]] to pierwszy wylot; [[kai-shiden|Kai]] żartuje z tego, a [[hayato-kobayashi|Hayato]] karze mu nie blokować kolejki. [[oscar-dublin|Oscar]] wykrywa przechwytujące siły wroga, a [[marker|Marker]] rozpoznaje [[zaku-ii|Zaku]] i [[dopp|Doppy]]. [[amuro-ray|Amuro]] ostrzega Saylę przed artylerią z naziemnych baz, a Hayato radzi najpierw zdobyć przewagę w powietrzu, żeby G-Fighter mógł bezpieczniej atakować cele naziemne.
+Dla [[sayla-mass|Sayli]] to pierwszy wylot; [[kai-shiden|Kai]] żartuje z tego, a [[hayato-kobayashi|Hayato]] karze mu nie blokować kolejki. [[oscar-dublin|Oscar]] wykrywa przechwytujące siły wroga, a [[marker|Marker]] rozpoznaje Zaku i [[dopp|Doppy]]. [[amuro-ray|Amuro]] ostrzega Saylę przed artylerią z naziemnych baz, a Hayato radzi najpierw zdobyć przewagę w powietrzu, żeby G-Fighter mógł bezpieczniej atakować cele naziemne.
 
 ### Black Tri-Stars wchodzą do walki
 
@@ -417,7 +418,7 @@ Podczas starcia padają kwestie zależne od sytuacji: [[amuro-ray|Amuro]] przyzn
 
 ## Nawiązania do oryginalnych odcinków
 
-Wydarzenia z tej sceny — odprawa u [[mquve|M'Quve'a]], przekazanie trzech nowych [[dom|Domów]] i natarcie [[black-tri-stars|Black Tri-Stars]] na [[white-base|White Base]] w drodze ku [[operacja-odessa|Odessie]] — nawiązują do **dwudziestego czwartego odcinka** serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, zatytułowanego „Black Tri-Star”.
+Wydarzenia z tej sceny — odprawa u [[mquve|M'Quve'a]], przekazanie trzech nowych [[dom|Domów]] i natarcie [[black-tri-stars|Black Tri-Stars]] na [[white-base|White Base]] w drodze ku [[operacja-odessa|Odessie]] — nawiązują do **dwudziestego czwartego odcinka** serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, zatytułowanego „Black Tri-Star” (w oficjalnym katalogu „The Triple Dom Assault!”; [GUNDAM Official, odc. 24](https://en.gundam-official.com/series/mobile-suit-gundam/story/jmybefzmfo3jtwjjylqbl1hc); sprawdzono 2026-10-22).
 
 W oryginale trójka przybywa na front na pokładzie okrętu kosmicznego i odbiera [[dom|Domy]] z rąk [[mquve|M'Quve'a]], po czym zapowiada pokonanie białego mobile suita Federacji; do nocnego starcia dochodzi w czasie przygotowań do [[operacja-odessa|operacji Odessa]]. Gra przenosi odprawę do bazy Zeonu na froncie i wiąże zadanie z wschodnią kopalnią: zespół ma zatrzymać „konia trojańskiego”, zanim ten do niej dotrze. W dialogach warunkowych dochodzi motyw odznaczenia — [[mash|Mash]] pyta o [[krzyz-zeonu|Krzyż Zeonu]], a [[gaia|Gaia]] przypomina, że liczy się wykonanie zadania, nie sława ([Gundam Wiki, „Black Tri-Star”](https://gundam.fandom.com/wiki/Black_Tri-Star); sprawdzono 2026-10-22).
 

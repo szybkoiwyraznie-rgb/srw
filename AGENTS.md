@@ -27,7 +27,7 @@ Agent buduje z niego bazę. Witryna istnieje po to, żeby oglądać zależności
 Materiał wejściowy: plik `episodes/<gra>/epNNN.md` (surowy skrypt, często plus lista nowych
 postaci/mechów podana w wiadomości). Wynik pracy:
 
-1. **Wpis epizodu** `content/epizody/<gra>-epNNN.md` — streszczenie, sceny, wątki anime, komentarz,
+1. **Wpis epizodu** `content/epizody/<gra>-epNNN.md` — streszczenie, sceny, wątki fabularne, komentarz,
    obsada. To najważniejszy wpis: z niego wynikają wszystkie odsyłacze.
 2. **Encje** — dla każdej postaci i mecha ze skryptu wpis w odpowiednim dziale. Bronie opisujesz
    w treści mecha (nie jako osobny wpis). Nowe encje tylko wprost z dostawy (ADR 0012 i 0017),
@@ -38,7 +38,7 @@ postaci/mechów podana w wiadomości). Wynik pracy:
 3. **Relacje** — pola frontmattera (`postacie`, `mechy`, `serie`, `gra`) plus wikilinki
    w treści. Bez nich wpis jest wyspą: nie pojawi się w „Wymienione w" na stronie encji.
 4. **Analiza i komentarz** — gdzie wątek pochodzi z anime (seria + odcinek, jeśli wiadomo),
-   co dodano, co zmieniono, czego zabrakło. Tabela `## Wątki anime` w treści epizodu.
+   co dodano, co zmieniono, czego zabrakło. Tabela `## Wątki fabularne` w treści epizodu.
 5. **Dziennik zmian** — nowy wpis na górze `content/co-nowego.md`, nagłówek `## RRRR-MM-DD GG:MM` (godzina publikacji, Europa/Warszawa).
 6. **Zielono** — `npm test` i `npm run build` muszą przejść. Build nie wypuści artefaktu
    z martwym wikilinkiem, brakującym odsyłaczem albo niepoprawnym oznaczeniem pochodzenia.

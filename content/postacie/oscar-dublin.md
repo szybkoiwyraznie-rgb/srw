@@ -14,7 +14,7 @@ utworzono: 2026-10-20
 
 ## Opis
 
-Członek załogi [[white-base|White Base]] obsługujący stanowisko wykrywania. Odnotowuje zbliżające się obiekty i zwraca uwagę, że żaden [[zaku-ii|Zaku]] nie nadlatywałby z taką prędkością.
+Członek załogi [[white-base|White Base]] obsługujący stanowisko wykrywania. Odnotowuje zbliżające się obiekty i zwraca uwagę, że żaden Zaku nie nadlatywałby z taką prędkością.
 
 Podczas startu z [[white-base|White Base]] wykrywa przechwytujące siły wroga, a po walce potwierdza na mostku, że dane o [[black-tri-stars|Black Tri-Stars]] pochodzą z [[jaburo|Jaburo]]. Gdy [[amuro-ray|Amuro]] przecina zapalnik [[h-bomb-missile|pocisku termojądrowego]], Oscar obserwuje spadek jego temperatury.
 }}

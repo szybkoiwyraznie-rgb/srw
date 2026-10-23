@@ -2,7 +2,7 @@
  * Strona epizodu — serce dziennika rozgrywki.
  *
  * Układ: metryka rozegrania → skrypt (surowy tekst, zwijany) → treść
- * analityczna (streszczenie, sceny, wątki anime, komentarz) → obsada
+ * analityczna (streszczenie, sceny, wątki fabularne, komentarz) → obsada
  * i sprzęt wyciągnięte ze skryptu.
  *
  * Skrypt jest tu widoczny w całości, bo baza jest prywatnym archiwum

@@ -23,6 +23,8 @@ Kiedy Seishiro przypomina o neutralności organizacji, Suol wyjaśnia, że na po
 W [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]) zapowiada wspólne ćwiczenia z Siłami Samoobrony i policją oraz przydziela [[himari-yaegaki|Himari]] miejsce podpilota w [[exart|Exarcie]].
 
 W drodze powrotnej na Stację Connect chwali [[seishiro|Seishira]] za ćwiczenia w Japonii i zapowiada, że [[connect-force|Connect]] pomoże w śledztwie w sprawie [[hal-x10|HAL-X10]]. Interesuje się też losem [[white-base|White Base]], która kieruje się ku [[operacja-odessa|Odessie]].
+
+Po [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] [[seishiro|Seishiro]] podejrzewa, że szef wysłał go na ćwiczenia także po to, żeby zobaczył uczniów z [[akademia-hinobori|Akademii Hinobori]] — i uznaje, że była to dobra inspiracja.
 }}
 {{menu gra=srw-oe
 

@@ -388,6 +388,9 @@ pre.skrypt {
 .chip:hover { border-color: var(--akcent); color: var(--akcent); text-decoration: none; }
 .chip-maly { font-size: .7rem; padding: 0 7px; }
 .chmura { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.chmura-tagow { margin: 0 0 18px; padding: 12px 14px; border: 1px solid var(--ramka); border-radius: 10px; background: var(--panel); }
+.chmura-opis { margin: 8px 0 0; font-size: .82rem; color: var(--tusz-3); }
+.chip-aktywny, .chip-aktywny:hover { border-color: var(--akcent); background: var(--akcent); color: #fff; }
 
 /* ── Dziennik zmian / kroki ────────────────────────────────────── */
 

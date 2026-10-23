@@ -24,7 +24,7 @@ Bezzałogowy pocisk termojądrowy wystrzelony z rozkazu [[mquve|M'Quve'a]] podcz
 
 ## Parametry
 
-Pocisk jest celem scenariuszowym bez przypisanego pilota i bez własnego uzbrojenia.
+Pociskiem nie kieruje pilot, a sama rakieta jest bez własnego uzbrojenia — w walce pozostaje celem, który trzeba zatrzymać, zanim dotrze do wojsk Federacji.
 
 ### Macierzyste zdolności maszyny
 

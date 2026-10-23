@@ -176,7 +176,7 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
     assert.equal((mech.body.match(/!\[/g) ?? []).length, 2, `${slug}: dwie ilustracje`);
     assert.match(mech.body, /\{\{menu gra=srw-oe\n\n## Parametry/, `${slug}: parametry`);
     assert.match(mech.body, /\{\{zrodlo gra=wspolne/, `${slug}: rodowód zewnętrzny`);
-    assert.match(mech.body, /\[\[zaku-ii\|Zaku II\]\]/, `${slug}: odsyłacz do wersji bazowej`);
+    assert.match(mech.body, /## Pozostałe jednostki Zaku II/, `${slug}: sekcja z pozostałymi jednostkami`);
   }
   // Żołnierz Zeonu wraca do bazy z dostawą misji 2 (ADR 0025, adnotacja 2026-10-22).
   assert.ok(bySlug.has('zolnierz-zeonu'), 'Żołnierz Zeonu ma własną stronę');
@@ -203,8 +203,13 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'slender', 'crown']) {
     assert.doesNotMatch(bySlug.get(slug).body, /DL100|Entry character|mission Entry|eventP00/, `${slug}: bez surowych danych misji`);
   }
-  for (const cel of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
-    assert.match(bySlug.get('zaku-ii').body, new RegExp('\\[\\[' + cel + '\\|'), `Zaku II: odsyłacz do ${cel}`);
+  // Strona generyczna „Zaku II” nie istnieje (ADR 0029): każda wersja linkuje dwie pozostałe.
+  assert.equal(bySlug.has('zaku-ii'), false, 'brak strony generycznej Zaku II');
+  const wersje = ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char'];
+  for (const slug of wersje) {
+    for (const cel of wersje.filter((x) => x !== slug)) {
+      assert.match(bySlug.get(slug).body, new RegExp('\\[\\[' + cel + '\\|'), `${slug}: odsyłacz do ${cel}`);
+    }
   }
 });
 
@@ -220,7 +225,7 @@ test('profile załogi i transformacje są powiązane, ale nie udają sceny fabul
   assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').postacie, ['seishiro', 'himari-yaegaki', 'control-ai']);
   assert.deepEqual(bySlug.get('prolog-i-trening-w-connect').mechy, ['exart', 'brocken']);
   assert.ok(bySlug.get('srw-oe-ep0').postacie.includes('control-ai'), 'epizod 0: Control AI w obsadzie');
-  assert.deepEqual(bySlug.get('srw-oe-ep0').mechy, ['exart', 'brocken', 'rx-78-2-gundam', 'zaku-ii', 'zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'white-base']);
+  assert.deepEqual(bySlug.get('srw-oe-ep0').mechy, ['exart', 'brocken', 'rx-78-2-gundam', 'zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char', 'white-base']);
   assert.match(bySlug.get('brocken').body, /szkoleniu podstawowym/);
   assert.match(bySlug.get('control-ai').body, /trzy Brockeny/);
   for (const slug of ['brocken', 'control-ai', 'prolog-i-trening-w-connect', 'srw-oe-ep0']) {
@@ -254,11 +259,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 67 plików przy 51 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 78 plików przy 60 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 51);
-  assert.equal(Object.values(manifest.encje).flat().length, 67);
+  assert.equal(Object.keys(manifest.encje).length, 60);
+  assert.equal(Object.values(manifest.encje).flat().length, 78);
   // Dostawa ilustracji jednostek misji 2 (2026-10-22): sześć maszyn, dziewięć plików.
   assert.deepEqual(manifest.encje.dom, ['Dom.png', 'Dom 2.png']);
   assert.deepEqual(manifest.encje.dopp, ['Dopp.png']);
@@ -266,6 +271,8 @@ test('ilustracje właściciela: 67 plików przy 51 encjach, w tym postacie bez d
   assert.deepEqual(manifest.encje.guncannon, ['Guncannon.png', 'Guncannon 2.png']);
   assert.deepEqual(manifest.encje.guntank, ['Guntank.png', 'Guntank 2.png']);
   assert.deepEqual(manifest.encje.turret, ['Turret.png']);
+  // Druga dostawa zwykłego Doma (2026-10-22): dwa pliki dla odrębnego profilu z misji 3.
+  assert.deepEqual(manifest.encje['dom-zolnierz-zeonu'], ['Dom Generic.png', 'Dom Generic 2.png']);
   // Portrety obsady misji 2 (2026-10-22): sześć postaci, sześć plików w characters/.
   assert.deepEqual(manifest.encje.gaia, ['characters/Gaia.png']);
   assert.deepEqual(manifest.encje['hayato-kobayashi'], ['characters/Hayato Kobayashi.png']);
@@ -275,6 +282,15 @@ test('ilustracje właściciela: 67 plików przy 51 encjach, w tym postacie bez d
   assert.deepEqual(manifest.encje.ortega, ['characters/Ortega.png']);
   // Portret generała Revila z dostawy uzupełniającej (2026-10-22).
   assert.deepEqual(manifest.encje['general-revil'], ['characters/Revil.png']);
+  // Dostawa ilustracji misji 4 (2026-10-23): dwa obrazy Raijin-Oha i siedem portretów obsady.
+  assert.deepEqual(manifest.encje['raijin-oh'], ['Raijin-Oh.png', 'Raijin-Oh 2.png']);
+  for (const [slug, plik] of Object.entries({
+    'jin-hyuga': 'Jin Hyuga', 'asuka-tsukishiro': 'Asuka Tsukishiro', 'koji-hoshiyama': 'Koji Hoshiyama',
+    'maria-shiratori': 'Maria Shiratori', 'tsutomu-kojima': 'Tsutomu Kojima',
+    'kirara-haruno': 'Kirara Haruno', 'yoko-kuriki': 'Yoko Kuriki',
+  })) {
+    assert.deepEqual(manifest.encje[slug], [`characters/${plik}.png`], slug);
+  }
   assert.deepEqual(manifest.nieprzypisane, []);
   const adres = file => `${manifest.baseUrl}/${file.split('/').map(encodeURIComponent).join('/')}`;
   for (const [slug, files] of Object.entries(manifest.encje)) {

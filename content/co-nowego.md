@@ -1,5 +1,63 @@
 # Co nowego
 
+## 2026-10-23 18:35
+
+- [[raijin-oh|Raijin-Oh]] ma dwie ilustracje, a [[jin-hyuga|Jin]], [[asuka-tsukishiro|Asuka]], [[koji-hoshiyama|Koji]], [[maria-shiratori|Maria]], [[tsutomu-kojima|Tsutomu]], [[kirara-haruno|Kirara]] i [[yoko-kuriki|Yoko]] — portrety. Galerie otwierają się na pełnym ekranie, a miniatury pojawiły się na listach.
+- [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] jest od dziś widoczna w całości: siedmioro uczniów z [[akademia-hinobori|Akademii Hinobori]] ma własne strony z portretami.
+
+## 2026-10-23 15:05
+
+- Sekcja wątków na stronie epizodu nazywa się teraz „Wątki fabularne” i obejmuje zapożyczenia z anime, mang, gier i komiksów oraz wątki własne gry.
+- Tabela ma cztery kolumny: motyw, źródło, odcinek w źródle i różnice. Kolumna „Typ” zniknęła, bo to samo mówi odcinek w źródle — `n/d` oznacza wątek autorski.
+- Wiersze idą w kolejności scen epizodu: w [[srw-oe-ep1|Epizodzie 1]] misja 3 stoi przed misją 4, a wiersze o [[matchless-raijin-oh|Matchless Raijin-Oh]] zamykają tabelę.
+- W kolumnie „Odcinek w źródle” są już tylko odcinki seriali i oznaczenie `cała seria`, gdy motyw pochodzi z całego dzieła; numer epizodu gry i nazwy drużyn jak `Division 2` zniknęły.
+
+## 2026-10-23 13:30
+
+- [[srw-oe-ep1|Epizod 1]] ma czwartą misję — [[srw-oe-ep1-trening-klasy-obrony|„Trening Klasy Obrony”]]: [[exart|Exart]] i [[raijin-oh|Raijin-Oh]] ćwiczą wspólnie z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]] na Brockenach treningowych.
+- W bazie są nowe postacie: [[jin-hyuga|Jin Hyuga]], [[asuka-tsukishiro|Asuka Tsukishiro]], [[koji-hoshiyama|Koji Hoshiyama]], [[maria-shiratori|Maria Shiratori]], [[tsutomu-kojima|Tsutomu Kojima]], [[kirara-haruno|Kirara Haruno]] i [[yoko-kuriki|Yoko Kuriki]], a serial reprezentuje [[matchless-raijin-oh|Matchless Raijin-Oh]].
+- [[jaku-empire|Imperium Jaku]] zyskuje kontekst: to dawny przeciwnik klasy, której nazwa wciąż w Japonii budzi szacunek.
+
+## 2026-10-22 19:04
+
+- Lista mechów pozwala wybrać serię „Nieokreślona” i pokazuje wtedy maszyny bez przypisanej serii, jak [[h-bomb-missile|H-Bomb Missile]] czy [[medea|Medea]].
+- Hasła mają na górze chmurę tagów: kliknięcie zawęża listę do wybranych tagów, a kilka naraz pokazuje hasła oznaczone którymkolwiek z nich.
+
+## 2026-10-22 19:05
+
+- [[dom-zolnierz-zeonu|Dom (Żołnierz Zeonu)]] ma dwie ilustracje zwykłego Doma, odrębne od zdjęć maszyn [[dom|Black Tri-Stars]].
+
+## 2026-10-22 19:04
+
+## 2026-10-22 18:53
+
+- Zaku II występuje w bazie tylko w trzech postaciach z [[srw-oe|OE]]: [[zaku-ii-char|maszyny Chara]], [[zaku-ii-karabin-maszynowy|z karabinem maszynowym]] i [[zaku-ii-bazooka|z bazooką]]. Każda z nich odsyła do dwóch pozostałych w sekcji „Pozostałe jednostki Zaku II”.
+
+## 2026-10-22 18:38
+
+- [[isao-ota|Isao Ota]] ma pełniejszy opis: przeniesienie do [[sv2|SV2]], charakter i osobiste zmiany w [[ingram-nr-2|Ingramie nr 2]].
+
+## 2026-10-22 18:37
+
+- [[noa-izumi|Noa Izumi]] ma pełniejszy opis: drogę do policji, egzamin do oddziału zmotoryzowanego i imię „Alphonse”, które nosi jej [[ingram-nr-1|Ingram nr 1]].
+
+## 2026-10-22 18:35
+
+- [[loum|Loum]] wiąże bitwę z dalszym ciągiem wojny: [[black-tri-stars|Black Tri-Stars]] przechwycili tam [[general-revil|generała Revila]], a nieudane odbicie generała poprzedziło rokowania zakończone [[traktat-antarktyczny|Traktatem Antarktycznym]].
+
+## 2026-10-22 18:34
+
+- [[zolnierz-zeonu|Żołnierz Zeonu]] opisuje walki w drodze ku [[operacja-odessa|Odessie]] zamiast odsyłać do numerów misji, a [[h-bomb-missile|H-Bomb Missile]] jest opisany jako cel bez pilota i bez uzbrojenia.
+
+## 2026-10-22 18:32
+
+- [[general-revil|Generał Revil]] zyskuje przeszłość: w [[loum|bitwie pod Loum]] dostał się do niewoli, a jego kapsułę ratunkową przechwycili [[black-tri-stars|Black Tri-Stars]]; po odbiciu skłonił Federację do odrzucenia narzuconego pokoju.
+- [[black-tri-stars|Black Tri-Stars]] mają w opisie [[loum|Loum]] i przechwycenie [[general-revil|generała Revila]], a załoga [[white-base|White Base]] rozpoznaje weteranów po tej właśnie historii.
+
+## 2026-10-22 18:31
+
+- [[srw-oe-ep1|Epizod 1]] i [[srw-oe-ep1-black-tri-stars|scena „Black Tri-Stars”]] podają obok tytułu „Black Tri-Star” także oficjalny tytuł odcinka 24 [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] — „The Triple Dom Assault!”.
+
 ## 2026-10-22 18:23
 
 - [[general-revil|Generał Revil]] ma teraz portret.
@@ -29,7 +87,7 @@
 
 ## 2026-10-22 15:20
 
-- [[turret|Turret]] jest teraz poprawnie opisany jako niepilotowana, nieruchoma bateria: [[zolnierz-zeonu|Żołnierze Zeonu]] pilotują Doppy i [[zaku-ii|dwa Zaku II]], a wieżyczki jedynie obsługują.
+- [[turret|Turret]] jest teraz poprawnie opisany jako niepilotowana, nieruchoma bateria: [[zolnierz-zeonu|Żołnierze Zeonu]] pilotują Doppy, [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]], a wieżyczki jedynie obsługują.
 - Opisy jednostek misji [[srw-oe-ep1-black-tri-stars|„Black Tri-Stars”]] wyraźniej rozdzielają wydarzenia sceny, parametry z gry i informacje ze sprawdzonych źródeł; poprawiono też zasięg Heat Sabera [[dom|Doma]], wypowiedź [[sayla-mass|Sayli]] i umiejętność [[newtype|Newtype]].
 - [[prolog-i-trening-w-connect|Scena 0-1]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] mają analizę rozbitą na podsekcje, a każda z nich prowadzi do swojego miejsca w treści — od prologu i szkolenia po [[white-base|White Base]], odwrót [[char-aznable|Chara]] i rozmowę w hangarze.
 
@@ -121,7 +179,7 @@
 ## 2026-10-20 23:57
 
 - Każda strona jest teraz osiągalna z innej: opisy [[white-base|White Base]], [[srw-oe-ep0|Epizodu 0]] i [[srw-oe|samej gry]] linkują do [[sayla-mass|Sayli Mass]], [[marker|Markera Clana]], [[oscar-dublin|Oscara Dublina]] i [[minovsky-particles|cząstek Minovsky’ego]].
-- Wątki anime w [[srw-oe-ep0|Epizodzie 0]] prowadzą wprost do wspominanych wydarzeń i miejsc, a nazwa rodziny [[zaku-ii|Zaku II]] w opisach jej trzech jednostek jest odsyłaczem.
+- Wątki anime w [[srw-oe-ep0|Epizodzie 0]] prowadzą wprost do wspominanych wydarzeń i miejsc, a nazwa rodziny Zaku II w opisach jej trzech jednostek jest odsyłaczem.
 - Opis [[side-3|Side 3]] mówi o kolonii i jej historii, bez ujawniania tożsamości [[char-aznable|Chara Aznable]] sięgającej dalszej części historii.
 - Poprawki językowe w hasłach [[loum|Loum]] i [[char-aznable|Chara Aznable]].
 
@@ -141,30 +199,30 @@
 
 ## 2026-10-20 23:44
 
-- [[zaku-ii|Zaku II]]: wariant dowódczy MS-06S to maszyna [[char-aznable|Chara Aznable]], znanego jako Czerwona Kometa.
+- [[zaku-ii-char|Zaku II (Char)]]: wariant dowódczy MS-06S to maszyna [[char-aznable|Chara Aznable]], znanego jako Czerwona Kometa.
 - Strona rodziny wymienia teraz wszystkich trzech pilotów ataku na [[white-base|White Base]] — [[char-aznable|Char]], [[slender|Slender]] i [[crown|Crown]] — a dawnego bezimiennego pilota zostawia na końcu.
 
 ## 2026-10-20 21:00
 
-- Obsada trzech [[zaku-ii|Zaków II]] jest ustalona: [[slender|Slender]] prowadzi [[zaku-ii-karabin-maszynowy|maszynę z karabinem maszynowym]], [[crown|Crown]] — [[zaku-ii-bazooka|wersję z bazooką]], a [[char-aznable|Char]] swoją [[zaku-ii-char|wersję dowódczą]].
+- Obsada trzech maszyn Zaku II jest ustalona: [[slender|Slender]] prowadzi [[zaku-ii-karabin-maszynowy|maszynę z karabinem maszynowym]], [[crown|Crown]] — [[zaku-ii-bazooka|wersję z bazooką]], a [[char-aznable|Char]] swoją [[zaku-ii-char|wersję dowódczą]].
 - Strony jednostek z karabinem i bazooką wymieniają nazwanych pilotów przed bezimienną załogą.
 - [[srw-oe-ep0|Epizod 0]] i scena na [[white-base|White Base]] mówią teraz wprost, kto siedzi w której maszynie.
 
 ## 2026-10-20 20:04
 
-- Opis bezimiennego pilota mówi o ludziach armii, nie o miejscu w danych gry: [[zaku-ii|Zaku II]], siła szyku i nazwani podwładni [[char-aznable|Chara]] w [[srw-oe-ep0-na-ratunek-white-base|scenie ataku na White Base]].
+- Opis bezimiennego pilota mówi o ludziach armii, nie o miejscu w danych gry: Zaku II, siła szyku i nazwani podwładni [[char-aznable|Chara]] w [[srw-oe-ep0-na-ratunek-white-base|scenie ataku na White Base]].
 - Opisy [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-char|Zaku II (Char)]] opisują maszyny i sposób walki, a nie przypisanie do rekordu.
 
 ## 2026-10-20 19:55
 
-- Bezimienny pilot [[zaku-ii|Zaku II]] jako zbiorczy wpis obsady — jeden z tych, którzy tworzą trzon armii [[zeon|Księstwa Zeonu]].
-- Trzy Zaku II to w [[srw-oe|OE]] osobne mechy, nie warianty: strony mówią o jednostkach z rodziny [[zaku-ii|Zaku II]], a sekcja na stronie bazowej nazywa się „Pozostałe jednostki Zaku II”.
-- Załoga [[zaku-ii|Zaków II]] na [[white-base|White Base]]: [[char-aznable|Char]] w swojej maszynie, [[slender|Slender]] i [[crown|Crown]] w dwóch pozostałych.
+- Bezimienny pilot Zaku II jako zbiorczy wpis obsady — jeden z tych, którzy tworzą trzon armii [[zeon|Księstwa Zeonu]].
+- Trzy Zaku II to w [[srw-oe|OE]] osobne mechy, nie warianty: każdy ma własną stronę i własne uzbrojenie, a strony odsyłają do siebie nawzajem w sekcji „Pozostałe jednostki Zaku II”.
+- Załoga Zaków II na [[white-base|White Base]]: [[char-aznable|Char]] w swojej maszynie, [[slender|Slender]] i [[crown|Crown]] w dwóch pozostałych.
 
 ## 2026-10-20 19:48
 
 - Trzy osobne jednostki Zaku II: z [[zaku-ii-karabin-maszynowy|karabinem maszynowym]], z [[zaku-ii-bazooka|bazooką]] i [[zaku-ii-char|maszyna Chara]] — każdy z dwiema ilustracjami i własnym zestawem uzbrojenia.
-- [[zaku-ii|Zaku II]] zyskuje sekcję z odsyłaczami do pozostałych jednostek; [[char-aznable|Char Aznable]] ma w profilu także swoją wersję maszyny.
+- [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]] i [[zaku-ii-bazooka|Zaku II z bazooką]] zyskują sekcję z odsyłaczami do pozostałych jednostek; [[char-aznable|Char Aznable]] ma w profilu także swoją wersję maszyny.
 - Maszyny obsadzone zbiorczym profilem opisują klasę jednostek, nie pojedynczą osobę.
 
 ## 2026-10-20 18:29
@@ -184,7 +242,7 @@
 
 - [[srw-oe-ep0|Epizod 0]] zyskuje drugą scenę, [[srw-oe-ep0-na-ratunek-white-base|„Na ratunek White Base”]]: [[side-7|Side 7]] pod ogniem [[zeon|Zeonu]], ucieczka [[amuro-ray|Amuro Raya]] w [[rx-78-2-gundam|Gundamie]] i przejęcie okrętu przez niedoświadczoną załogę.
 - [[amuro-ray|Amuro Ray]], [[char-aznable|Char Aznable]], [[bright-noa|Bright Noa]], [[mirai-yashima|Mirai Yashima]], [[sayla-mass|Sayla Mass]], [[fraw-bow|Fraw Bow]], [[paolo-cassius|Paolo Cassius]], [[oscar-dublin|Oscar Dublin]], [[marker|Marker]], [[slender|Slender]], [[crown|Crown]] i [[suol|Suol]] — opisy i powiązania ze sceną.
-- [[rx-78-2-gundam|RX-78-2 Gundam]] i [[zaku-ii|Zaku II]] — pierwsze maszyny [[universal-century|Universal Century]] w bazie, z uzbrojeniem i pilotami.
+- [[rx-78-2-gundam|RX-78-2 Gundam]] i Zaku II — pierwsze maszyny [[universal-century|Universal Century]] w bazie, z uzbrojeniem i pilotami.
 - Hasła: [[zeon|Księstwo Zeonu]], [[side-7|Side 7]], [[luna-ii|Luna II]], [[white-base|White Base]] i [[minovsky-particles|cząstki Minovsky’ego]].
 - [[mobile-suit-gundam-1979|Mobile Suit Gundam (1979)]] jako seria źródłowa sceny.
 

@@ -84,3 +84,14 @@ wyglądało to jak potwierdzone źródła, a nikt ich nie czytał (sandbox nie z
 `fetch_page`). Właściciel: „źródło ma sens tylko wtedy, gdy jest sprawdzone”. Zasada: adres trafia
 do `zrodla` dopiero po otwarciu strony i potwierdzeniu treści; niesprawdzona wiedza nie ma linków
 (ADR 0009). Niesprawdzone adresy są kolejką w opisie PR, nie w bazie.
+
+## L12 — Wersja generyczna mecha to wymysł, nie skrót (2026-10-22)
+
+Dla trzech wersji Zaku II z dostawy powstała strona „Zaku II” jako wygodny cel odsyłaczy:
+bez rekordu w dostawach, bez parametrów, bez ilustracji. Przez kilka dni zbierała linki
+z epizodów, scen, postaci i haseł, więc wyglądała na pełnoprawną jednostkę. Właściciel:
+„nie ma czegoś takiego jak Zaku II w dostawach — są trzy warianty”. **Strona mecha musi mieć
+rekord w dostawie**; nie tworzymy strony nadrzędnej dla rodziny maszyn, a odsyłacze prowadzą
+do konkretnych wersji. Gdy strona jednak zniknie, usuwamy też jej wpisy z pól `mechy`,
+odsyłacze w prozie i asercje testów — inaczej build zatrzyma się na nieistniejącej encji
+(ADR 0029, test `test/mechy-z-dostawy.test.js`).

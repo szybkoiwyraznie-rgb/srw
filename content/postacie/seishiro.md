@@ -25,6 +25,8 @@ Prowadzi szkolenie [[himari-yaegaki|Himari]], przypomina jej o dyscyplinie i odp
 Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 
 W transportowcu wracającym na Stację Connect rozmawia z [[suol|szefem Suolem]] o [[white-base|White Base]] i [[operacja-odessa|Odessie]]. Zauważa, że [[exart|Exart]] wyrwie się z grawitacji tylko z transportem, i porównuje go z japońskimi superrobotami, które nie potrzebują do tego pomocy.
+
+W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] oddaje [[himari-yaegaki|Himari]] stery i chwali jej smykałkę. Wspólne ćwiczenia z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] przypominają mu własne dzieciństwo: zastanawia się, czy pilotując robota w wieku uczniów z [[akademia-hinobori|Akademii Hinobori]], byłby taki jak oni. Podejrzewa, że [[suol|Szef]] wykorzystał trening Himari jako pretekst, żeby pokazać mu tę klasę, i uznaje to za dobrą inspirację.
 }}
 {{menu gra=srw-oe
 

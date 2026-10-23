@@ -23,6 +23,19 @@ Ta jednostka ma odrębny profil od trzech [[dom|Domów Black Tri-Stars]]: słabs
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Dom (Żołnierz Zeonu) — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dom%20Generic.png)
+
+### Ilustracja 2
+
+![Dom (Żołnierz Zeonu) — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dom%20Generic%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[mobile-suit-gundam-1979|Mobile Suit Gundam]]

@@ -217,16 +217,16 @@ test('epizod: streszczenie, wątki i komentarz mają osobne boksy', () => {
   const html = renderEpizod('srw-oe-ep0');
   const boksy = [...html.matchAll(/<section class="sekcja-strony">\s*<div class="fragment[^"]*"[^>]*>\s*<p class="zakres-gry">[\s\S]*?<h2>([^<]+)<\/h2>/g)]
     .map((m) => m[1]);
-  assert.deepEqual(boksy, ['Streszczenie', 'Wątki anime', 'Komentarz', 'Postacie i maszyny', 'Inne źródła i rozbieżności']);
+  assert.deepEqual(boksy, ['Streszczenie', 'Wątki fabularne', 'Komentarz', 'Postacie i maszyny', 'Inne źródła i rozbieżności']);
 
   // Blok wiedzy bez nagłówka też jest własnym boksem — nie dokleja się do sąsiada.
   assert.equal((html.match(/class="sekcja-strony"/g) ?? []).length, 6);
 
-  // Tabela wątków ma pięć kolumn, tak jak nagłówek — pionek w wikilinku nie dzieli wiersza.
+  // Tabela wątków ma cztery kolumny, tak jak nagłówek — pionek w wikilinku nie dzieli wiersza.
   const tabela = html.slice(html.indexOf('<table'), html.indexOf('</table>'));
-  assert.equal((tabela.match(/<th>/g) ?? []).length, 5);
+  assert.equal((tabela.match(/<th>/g) ?? []).length, 4);
   const wiersz = tabela.split('</tr>')[1] ?? '';
-  assert.equal((wiersz.match(/<td>/g) ?? []).length, 5, 'wiersz tabeli nie rozjeżdża się');
+  assert.equal((wiersz.match(/<td>/g) ?? []).length, 4, 'wiersz tabeli nie rozjeżdża się');
 });
 
 test('epizod: nawiązania są częścią boksy „Postacie i maszyny”, nie osobna', () => {

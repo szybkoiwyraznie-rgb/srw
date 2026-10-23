@@ -138,7 +138,7 @@ Zasady:
 |---|---|---|
 | encje | `## Opis` | `## Rola w drużynie`, `## Warianty`, `## Ciekawostki`, `## Źródła` |
 | scena | `## Treść sceny`, `## Analiza` | `## Źródła` |
-| epizod | `## Streszczenie` | `## Wątki anime`, `## Komentarz`, `## Źródła` (sekcja „Sceny" powstaje sama z wpisów scen) |
+| epizod | `## Streszczenie` | `## Wątki fabularne`, `## Komentarz`, `## Źródła` (sekcja „Sceny" powstaje sama z wpisów scen) |
 
 Strony postaci i mechów mają ustaloną kolejność sekcji: `## Opis`, `## Ilustracje`,
 `## Parametry`. Każda z nich stoi we własnym bloku poziomu, więc na stronie widać trzy osobne
@@ -148,16 +148,27 @@ boksy `## Ilustracje`.
 **Treść sceny** to dosłowny blok `:::skrypt … :::` z tekstem sceny. Build sprawdza, czy jest
 fragmentem skryptu epizodu (różnice w odstępach nie liczą się). Przeredagowana scena nie przechodzi.
 
-Poza tym lista sekcji jest **wolna** (ADR 0006). Sekcja `## Wątki anime` w epizodzie prowadzi
-się jako tabelę:
+Poza tym lista sekcji jest **wolna** (ADR 0006). Sekcja `## Wątki fabularne` w epizodzie prowadzi
+się jako tabelę czterech kolumn (ADR 0031):
 
 ```markdown
-| Motyw w epizodzie | Źródło | Odcinek / wersja | Typ | Różnice |
-|---|---|---|---|---|
-| Nieufność wobec sojuszników | [[mobile-suit-gundam-1979\|Gundam]] | wczesne odcinki | adaptacja | ... |
+| Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| Bezzałogowy HAL-X10 poza kontrolą | [[mobile-police-patlabor\|Patlabor]] | odc. 5 „Runaway Labor X-10!” | ... |
+| Wspólne ćwiczenia z Connect | [[srw-oe\|Super Robot Wars OE]] | n/d | ... |
 ```
 
-Typy wątków: `adaptacja`, `nawiazanie`, `hold`, `dywergencja`, `fuzja`, `autorskie`.
+Kolumny:
+
+- **Motyw w epizodzie** — co z fabuły jest zapożyczone albo własne; **Źródło** — dzieło, z którego
+  motyw pochodzi (anime, manga, gra), z wikilinkiem do serii albo do gry,
+- **Odcinek w źródle** — konkretne miejsce w źródle w jednej z trzech postaci:
+  `odc. N „Tytuł”` (odcinek serialu), `cała seria` (motyw z całego dzieła, bez wskazania odcinka)
+  i `n/d` (brak odpowiednika w źródle — motyw autorski gry),
+- **Różnice** — co gra zachowuje, a co zmienia; tu też trafiają uwagi o tytule odcinka.
+
+Wiersze idą w **kolejności występowania w epizodzie**, czyli w kolejności scen. Osobnej kolumny
+z typem wątku nie ma: rozstrzyga wartość kolumny „Odcinek w źródle” (`n/d` = motyw gry).
 W komórkach tabeli pionek w wikilinku zapisujemy jako `\|`; pionek wewnątrz `[[slug|etykieta]]`
 nie dzieli wiersza nawet bez escapowania, więc tabela nie rozjeżdża się względem nagłówka.
 

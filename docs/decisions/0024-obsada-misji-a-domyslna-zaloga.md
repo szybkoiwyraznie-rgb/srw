@@ -23,10 +23,10 @@ adnotacja), bez obsady misji nie da się odpowiedzieć na pytanie „kto siedzi 
    Kolejność jest znacząca: pierwszy odsyłacz to pilot, który faktycznie siada za sterami
    w opisanej scenie; dalsze to domyślne obsadzenie jednostki. Dla trzech Zaku II wygląda to
    tak: `[slender, zolnierz-zeonu]`, `[crown, zolnierz-zeonu]`, `[char-aznable]`.
-2. **Nazwany pilot wskazuje w `mechy` konkretną maszynę, nie stronę rodziny.** Slender ma
-   w `mechy` wpis `zaku-ii-karabin-maszynowy`, Crown — `zaku-ii-bazooka`; strona rodziny
-   `zaku-ii` zostaje w prozie jako odsyłacz. Dzięki temu graf powiązań prowadzi do właściwej
-   jednostki, a nie do całej rodziny.
+2. **Nazwany pilot wskazuje w `mechy` konkretną maszynę, nie rodzinę.** Slender ma
+   w `mechy` wpis `zaku-ii-karabin-maszynowy`, Crown — `zaku-ii-bazooka`. Strona rodziny
+   nie istnieje (ADR 0029), więc proza linkuje maszynę, w której pilot siedzi, a o samej
+   rodzinie mówi zwykłym tekstem. Graf powiązań prowadzi do właściwej jednostki.
 3. **Dane misji nie są prezentowane dosłownie.** Strona nie cytuje nazw plików ani pól
    „Entry character/pilot”; proza mówi o świecie: kto prowadzi którą maszynę podczas ataku.
    Surowe etykiety dostawy zostają w `w_gre` tylko tam, gdzie należą do danych jednostki

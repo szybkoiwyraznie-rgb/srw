@@ -7,6 +7,8 @@ seria: mobile-police-patlabor
 gry: [srw-oe]
 mechy: [ingram-nr-2]
 pochodzenie: skrypt
+zrodla:
+  - https://patlabor.fandom.com/wiki/Isao_Ohta
 tagi: [patlabor]
 utworzono: 2026-10-21
 ---
@@ -17,8 +19,11 @@ utworzono: 2026-10-21
 Pilot drugiego Ingrama Drugiego Plutonu [[sv2|SV2]]. Impulsywny i pewny siebie: nie ufa sieciom i w kryzysie liczy na własne doświadczenie.
 
 Kiedy [[hal-x10|HAL-X10]] wymykają się spod kontroli, jako pierwszy prosi o zgodę na atak i chce zniszczyć cele, zanim dotrą do zaludnionych terenów. Nie zamierza wycofywać się tylko dlatego, że Siły Samoobrony poleciły plutonowi odejść.
+}}
 
-Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+{{zrodlo gra=wspolne
+
+Sam zgłosił się do przeniesienia do [[sv2|SV2]] i trafił do niedoborowego Drugiego Plutonu. Ma silne poczucie odpowiedzialności i angażuje się w pracę bardziej niż ktokolwiek w zespole, ale często przesadza i przysparza kłopotów. Należy do najlepszych pilotów Laborów, choć zbyt chętnie sięga po siłę; poza pracą niewiele go interesuje. Swój [[ingram-nr-2|Ingram nr 2]] osobiście zmodyfikował ([Patlabor Wiki, „Isao Ohta”](https://patlabor.fandom.com/wiki/Isao_Ohta); sprawdzono 2026-10-22).
 }}
 
 {{menu gra=srw-oe

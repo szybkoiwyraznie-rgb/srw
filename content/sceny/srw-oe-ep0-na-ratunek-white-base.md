@@ -17,7 +17,7 @@ zrodla:
   - https://gundam.fandom.com/wiki/Gundam_Rising
   - https://gundam.fandom.com/wiki/Destroy_Gundam
 postacie: [seishiro, himari-yaegaki, suol, amuro-ray, char-aznable, bright-noa, mirai-yashima, sayla-mass, fraw-bow, paolo-cassius, oscar-dublin, marker, slender, crown]
-mechy: [exart, rx-78-2-gundam, zaku-ii, zaku-ii-karabin-maszynowy, zaku-ii-bazooka, zaku-ii-char, white-base]
+mechy: [exart, rx-78-2-gundam, zaku-ii-karabin-maszynowy, zaku-ii-bazooka, zaku-ii-char, white-base]
 pojecia: [connect-force, earth-federation, universal-century, uc-0079, zeon, side-3, side-7, luna-ii, loum, minovsky-particles, mobile-suit, stacja-connect]
 tagi: [white-base, one-year-war]
 utworzono: 2026-10-20
@@ -360,7 +360,7 @@ Na [[white-base|White Base]] [[paolo-cassius|kapitan Paolo]] jest ranny — opat
 
 ### Odwrót Chara
 
-Czerwona Kometa przerywa walkę, zanim straci maszyny. [[amuro-ray|Amuro]] nie dowierza, że przeciwnik się wycofuje, a [[seishiro|Seishiro]] przyznaje, że w dobrych rękach nawet [[zaku-ii|Zaku]] staje się groźny. [[white-base|White Base]] kieruje się do [[luna-ii|Luny II]], gdzie kończy się eskorta Connect.
+Czerwona Kometa przerywa walkę, zanim straci maszyny. [[amuro-ray|Amuro]] nie dowierza, że przeciwnik się wycofuje, a [[seishiro|Seishiro]] przyznaje, że w dobrych rękach nawet Zaku staje się groźny. [[white-base|White Base]] kieruje się do [[luna-ii|Luny II]], gdzie kończy się eskorta Connect.
 
 ### Hangar po walce
 

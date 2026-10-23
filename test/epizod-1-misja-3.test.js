@@ -38,7 +38,7 @@ test('scena 1-3 jest dosłownym fragmentem skryptu i domyka kolejność scen epi
   assert.deepEqual(sprawdzWiernoscSceny(scena, script), []);
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1')
     .sort((a, b) => String(a.numer_sceny).localeCompare(String(b.numer_sceny)));
-  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3']);
+  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4']);
 });
 
 test('obsada, jednostki i pojęcia misji 3 są spięte ze sceną i epizodem', () => {
@@ -133,7 +133,7 @@ test('odcinek 25 i Traktat Antarktyczny mają sprawdzone źródła, bez surowych
   }
 });
 
-test('Revil ma dostarczony portret, a pozostałe nowe strony nie dostają pustych galerii', () => {
+test('Revil i Dom (Żołnierz Zeonu) mają dostarczone ilustracje, pozostałe nowe strony bez pustych galerii', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   const revil = bySlug.get('general-revil');
   assert.deepEqual(manifest.encje['general-revil'], ['characters/Revil.png']);
@@ -141,7 +141,15 @@ test('Revil ma dostarczony portret, a pozostałe nowe strony nie dostają pustyc
   assert.match(revil.body, /https:\/\/pub-f065608b5a964f3fb44480d8c9df01de\.r2\.dev\/characters\/Revil\.png/);
   assert.equal((revil.body.match(/^!\[/gm) ?? []).length, 1, 'Revil: jeden portret');
 
-  for (const slug of ['oficer-federacji', 'oficer-zeonu', 'dom-zolnierz-zeonu',
+  // Druga dostawa 2026-10-22: dwa obrazy zwykłego Doma (nazwy plików od właściciela).
+  const dom = bySlug.get('dom-zolnierz-zeonu');
+  assert.deepEqual(manifest.encje['dom-zolnierz-zeonu'], ['Dom Generic.png', 'Dom Generic 2.png']);
+  assert.match(dom.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/);
+  assert.equal((dom.body.match(/^!\[/gm) ?? []).length, 2, 'Dom: dwie ilustracje');
+  assert.ok(dom.body.includes('https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dom%20Generic.png'));
+  assert.ok(dom.body.includes('https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dom%20Generic%202.png'));
+
+  for (const slug of ['oficer-federacji', 'oficer-zeonu',
     'h-bomb-missile', 'traktat-antarktyczny']) {
     assert.equal(manifest.encje[slug], undefined, `${slug}: brak pliku w manifeście`);
     assert.doesNotMatch(bySlug.get(slug).body, /^## Ilustracje$/m, `${slug}: brak galerii`);

@@ -38,7 +38,7 @@ powiększa ją do pełnego ekranu (ADR 0019).
 |---|---|
 | `episodes/` | surowe skrypty epizodów — **jedyny** materiał pisany przez właściciela, read-only |
 | `content/gry/` | tytuły gier |
-| `content/epizody/` | rozegrane epizody: streszczenie, wątki anime, komentarz (sceny agregowane) |
+| `content/epizody/` | rozegrane epizody: streszczenie, wątki fabularne, komentarz (sceny agregowane) |
 | `content/sceny/` | sceny epizodów: dosłowna treść z skryptu i analiza (ADR 0008) |
 | `content/postacie/`, `content/mechy/` | encje występujące w epizodach |
 | `content/serie/` | serie anime/manga, z których pochodzi wszystko powyższe |
