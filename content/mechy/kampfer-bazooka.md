@@ -9,6 +9,8 @@ piloci: [andy-strauss]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_5.txt", "profil": "Kampfer/Bazooka", "dane": "**Seria:** Mobile Suit Gundam 0080: War in the Pocket\n\n### Macierzyste zdolności maszyny\n\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n\n### Uzbrojenie i wymienione działania\n\n#### Broń i działania z niezerowym selektorem\n\n| Miejsce | Nazwa                 | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                            |\n| ------: | --------------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------- |\n|       0 | Głowowe działko 60 mm |       1100 |  1–4   |       +50 |   5 |      — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |\n|       1 | Strzelba              |       1300 |  1–7   |       +25 |  10 |      — | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej  |\n|         |                       |            |        |           |     |        |                 |   Bez kontry                                                        |\n|         |                       |            |        |           |     |        |                 |   Nie do wsparcia ani kontry                                        |\n|       2 | Szabla wiązkowa       |       1900 |  1–1   |       +35 |   0 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                         |\n|       4 | Wielka bazooka        |       2700 |  3–6   |       +10 |  15 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                         |"}'
 pochodzenie: menu
+zrodla:
+  - https://www.mahq.net/ms-18e/
 tagi: [one-year-war]
 utworzono: 2026-10-23
 ---
@@ -23,6 +25,11 @@ Strzelba przebija się przez wrogów w zasięgu i pozwala ruszyć dalej, a wielk
 ## Pozostałe jednostki Kampfer
 
 - [[kampfer-high-mobility|Kampfer/High Mobility]] — konfiguracja [[mikhail-kaminsky|Mikhaila Kaminsky’ego]].
+}}
+
+{{zrodlo gra=wspolne
+
+W pierwowzorze Kampfer powstał u schyłku wojny jako maszyna szturmowa: konstruktorzy [[zeon|Zeonu]] poświęcili opancerzenie na rzecz silników, więc jednostka biegnie 215 km/h i obraca się o 180 stopni w 1,2 sekundy. Pomysł na walkę jest prosty — podejść szybko, wystrzelać wielkie bazooki, strzelby i panzerfausty, po czym natychmiast się wycofać, bo paliwa starcza na krótko. Seryjnej produkcji nigdy nie uruchomiono ([MAHQ, „MS-18E Kämpfer”](https://www.mahq.net/ms-18e/); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe

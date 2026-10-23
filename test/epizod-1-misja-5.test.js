@@ -342,3 +342,39 @@ test('obsada misji 1-5 ma tło z pierwowzorów w blokach zrodlo (ADR 0008, ADR 0
   assert.match(bySlug.get('eledore-massis').body, /za sterami wozu wsparcia/);
   assert.match(bySlug.get('michel-ninorich').body, /nawigację i obsługuje działko/);
 });
+
+test('jednostki misji 1-5 mają tło techniczne z pierwowzorów (ADR 0008, ADR 0013)', () => {
+  const ez8 = 'https://www.mahq.net/rx-79gez-8/';
+  const rx79 = 'https://www.mahq.net/rx-79g/';
+  const hover = 'https://gundam.fandom.com/wiki/Hover_Truck';
+  const kampfer = 'https://www.mahq.net/ms-18e/';
+  const fz = 'https://www.mahq.net/ms-06fz/';
+  const zrodlaMechow = {
+    'gundam-ez8': [ez8],
+    'gundam-ground-type': [rx79, ez8],
+    'gundam-ground-type-glowa-gm': [ez8],
+    'hover-truck': [hover],
+    'kampfer-bazooka': [kampfer],
+    'kampfer-high-mobility': [kampfer],
+    'zaku-ii-kai': [fz],
+  };
+  for (const [slug, adresy] of Object.entries(zrodlaMechow)) {
+    const page = bySlug.get(slug);
+    const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
+    assert.ok(blok, `${slug}: blok tła z pierwowzoru`);
+    assert.match(blok[1], /pierwowzorze/, `${slug}: tło oddzielone od danych gry`);
+    assert.match(blok[1], /sprawdzono 2026-10-24\)/, `${slug}: data sprawdzenia źródła`);
+    for (const adres of adresy) {
+      assert.ok(page.zrodla.includes(adres), `${slug}: ${adres} w frontmatterze`);
+      assert.ok(blok[1].includes(adres), `${slug}: ${adres} przy informacji`);
+    }
+    assert.ok(page.body.indexOf('{{menu') < page.body.indexOf('{{zrodlo'),
+      `${slug}: dane z gry przed tłem z pierwowzoru`);
+  }
+  // Alex ma własny blok tła od misji 1-5, więc wszystkie osiem jednostek jest opisanych.
+  assert.match(bySlug.get('rx-78nt-1-gundam-alex').body, /\{\{zrodlo gra=wspolne/);
+  assert.match(bySlug.get('gundam-ez8').body, /extra zero-eight/);
+  assert.match(bySlug.get('hover-truck').body, /M353A4 Bloodhound/);
+  assert.match(bySlug.get('zaku-ii-kai').body, /MS-06FZ/);
+  assert.match(bySlug.get('kampfer-high-mobility').body, /159 ton/);
+});

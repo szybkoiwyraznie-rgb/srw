@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-10-24 00:55
+
+- Jednostki z misji [[srw-oe-ep1-start-alexa|„Start Alexa”]] mają tło z macierzystych serii: [[gundam-ez8|Ez8]] to polowa przebudowa rozbitej maszyny [[shiro-amada|Shiro]], a [[gundam-ground-type-glowa-gm|głowa GM-a]] u [[karen-joshua|Karen]] bierze się z braku części do [[gundam-ground-type|Ground Type’ów]], które same powstały z nadwyżek po prototypie [[rx-78-2-gundam|Gundama]].
+- [[hover-truck|Hover Truck]] występuje pod oznaczeniem M353A4 Bloodhound: podziemny sonar wykrywający drgania gruntu, pośrednictwo w łączności i etatowa czteroosobowa załoga, w której przy brakach ludzi jedna osoba łączy kilka funkcji.
+- Maszyny [[zeon|Zeonu]] dostają wyjaśnienie swoich mocnych stron: [[kampfer-bazooka|Kampfer]] powstał jako szturmowiec jednego uderzenia, który płaci za prędkość krótkim czasem walki, a [[zaku-ii-kai|Zaku II Kai]] to późna modernizacja Zaku II — szybsza od typu F, ale z o połowę krótszym czasem pracy.
+
 ## 2026-10-24 00:45
 
 - Obsada misji [[srw-oe-ep1-start-alexa|„Start Alexa”]] ma tło z macierzystych serii: [[shiro-amada|Shiro]] obejmuje [[08-pluton-ms|08. Pluton MS]] w dżunglach Azji Południowo-Wschodniej, [[karen-joshua|Karen]] jest wdową po lekarzu wojskowym i w razie potrzeby zastępuje sanitariusza, a [[terry-sanders-jr|Sandersa]] prześladuje pech trzeciej misji, który przyniósł mu przezwisko „Shinigami Sanders”.
