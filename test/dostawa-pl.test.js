@@ -259,11 +259,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 100 plików przy 76 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 101 plików przy 77 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 76);
-  assert.equal(Object.values(manifest.encje).flat().length, 100);
+  assert.equal(Object.keys(manifest.encje).length, 77);
+  assert.equal(Object.values(manifest.encje).flat().length, 101);
   // Dostawa ilustracji jednostek misji 2 (2026-10-22): sześć maszyn, dziewięć plików.
   assert.deepEqual(manifest.encje.dom, ['Dom.png', 'Dom 2.png']);
   assert.deepEqual(manifest.encje.dopp, ['Dopp.png']);
@@ -291,7 +291,7 @@ test('ilustracje właściciela: 100 plików przy 76 encjach, w tym postacie bez 
   })) {
     assert.deepEqual(manifest.encje[slug], [`characters/${plik}.png`], slug);
   }
-  // Dostawa ilustracji misji 1-5 (2026-10-24): siedem jednostek i dziewięć postaci, 22 pliki.
+  // Ilustracje misji 1-5 (2026-10-24): siedem jednostek i dziesięć postaci, 23 pliki.
   const misja5 = {
     'gundam-ez8': ['Gundam Ez8.png', 'Gundam Ez8 1.png'],
     'gundam-ground-type': ['Ground Gundam.png', 'Ground Gundam 2.png'],
@@ -302,6 +302,7 @@ test('ilustracje właściciela: 100 plików przy 76 encjach, w tym postacie bez 
     'zaku-ii-kai': ['Zaku II Kai.png', 'Zaku II Kai 2.png'],
     'christina-mackenzie': ['characters/Christina Mackenzie.png'],
     'shiro-amada': ['characters/Shiro Amada.png'],
+    'terry-sanders-jr': ['characters/Terry Sanders Jr..png'],
     'karen-joshua': ['characters/Karen Joshua.png'],
     'michel-ninorich': ['characters/Michel Ninorich.png'],
     'eledore-massis': ['characters/Eledore Massis.png'],

@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-24 00:25
+
+- Portret [[terry-sanders-jr|Terry’ego Sandersa Jr.]] uzupełnia galerie misji [[srw-oe-ep1-start-alexa|„Start Alexa”]] do 23 ilustracji. [[rx-78nt-1-gundam-alex|Alex]] nadal nie ma galerii.
+
 ## 2026-10-24 00:19
 
 - Galerie misji [[srw-oe-ep1-start-alexa|„Start Alexa”]] obejmują 22 ilustracje: po dwie dla [[gundam-ez8|Gundama Ez8]], [[gundam-ground-type|Ground Gundama]], [[gundam-ground-type-glowa-gm|Ground Gundama z głową GM-a]], [[kampfer-bazooka|Kampfera z bazooką]], [[kampfer-high-mobility|Kampfera High Mobility]] i [[zaku-ii-kai|Zaku II Kai]] oraz jedną dla [[hover-truck|Hover Trucka]].

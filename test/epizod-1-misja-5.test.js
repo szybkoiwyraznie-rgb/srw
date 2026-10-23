@@ -267,9 +267,9 @@ test('serie i nawiązania wskazują odcinek 1 oraz różnice gry, bez późniejs
 });
 
 test('galerie mają wyłącznie strony objęte dostawą ilustracji misji 1-5', () => {
-  const ilustrowanePostacie = postacie.filter((slug) => !['terry-sanders-jr', 'zolnierz-federacji'].includes(slug));
+  const ilustrowanePostacie = postacie.filter((slug) => slug !== 'zolnierz-federacji');
   const ilustrowaneMechy = mechy.filter((slug) => slug !== 'rx-78nt-1-gundam-alex');
-  assert.equal(ilustrowanePostacie.length, 9);
+  assert.equal(ilustrowanePostacie.length, 10);
   assert.equal(ilustrowaneMechy.length, 7);
   for (const slug of [...ilustrowanePostacie, ...ilustrowaneMechy]) {
     const files = manifest.encje[slug];
@@ -278,7 +278,8 @@ test('galerie mają wyłącznie strony objęte dostawą ilustracji misji 1-5', (
     assert.match(body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: zakres galerii`);
     assert.equal((body.match(/^### Ilustracja \d+$/gm) ?? []).length, files.length, `${slug}: liczba obrazów`);
   }
-  for (const slug of ['srw-oe-ep1-start-alexa', 'terry-sanders-jr', 'zolnierz-federacji',
+  assert.deepEqual(manifest.encje['terry-sanders-jr'], ['characters/Terry Sanders Jr..png']);
+  for (const slug of ['srw-oe-ep1-start-alexa', 'zolnierz-federacji',
     'rx-78nt-1-gundam-alex', ...pojecia, ...serie]) {
     assert.equal(manifest.encje[slug], undefined, `${slug}: manifest`);
     assert.doesNotMatch(bySlug.get(slug).body, /^## Ilustracje$/m, `${slug}: galeria`);
@@ -296,6 +297,9 @@ test('dziennik zmian dokumentuje piątą misję i jej ilustracje', () => {
   assert.ok(current.includes('[[mobile-suit-gundam-0080|'));
   assert.ok(current.includes('[[rx-78nt-1-gundam-alex|'));
   assert.match(current, /22 ilustracje/);
+  assert.match(current, /23 ilustracji/);
   assert.ok(current.includes('[[gundam-ez8|'));
   assert.ok(current.includes('[[christina-mackenzie|'));
+  assert.ok(current.includes('[[terry-sanders-jr|'));
+  assert.match(current, /Alex\]\] nadal nie ma galerii/);
 });

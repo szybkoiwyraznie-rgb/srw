@@ -21,6 +21,15 @@ W obronie transportu deklaruje, że nikt więcej nie zginie na jego oczach. Po w
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Terry Sanders Jr. — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Terry%20Sanders%20Jr..png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Sanders
