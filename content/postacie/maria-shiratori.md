@@ -15,9 +15,9 @@ utworzono: 2026-10-23
 
 ## Opis
 
-Dowódczyni klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]]. Budzi [[jin-hyuga|Jina]] z bezczynności i ogłasza rozkaz wymarszu, a w polu urządza ćwiczenia z zaskoczenia — bez uprzedzenia wystawia przeciw [[connect-force|Connect]] Labory treningowe, żeby nikt się nie obijał.
+Dowódczyni klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]]. Budzi [[jin-hyuga|Jina]] z bezczynności i ogłasza rozkaz wymarszu, a w polu urządza ćwiczenia z zaskoczenia — bez uprzedzenia wystawia Labory treningowe jako cele wspólnego treningu z [[connect-force|Connect]], żeby Jin się nie obijał.
 
-Prowadzi też odprawę po treningu i prosi [[seishiro|Seishira]], by dołączył do omówienia w szkole. Podkreśla, że klasa zawsze dziękuje [[klasa-obrony-ziemi|generałowi Takedzie]], i hamuje przechwałki [[jin-hyuga|Jina]] o wyższości nad dorosłymi.
+Prowadzi też odprawę po treningu i prosi [[seishiro|Seishira]], by dołączył do omówienia w szkole. Podkreśla, że klasa zawsze dziękuje generałowi Takedzie, i hamuje przechwałki Jina o wyższości nad dorosłymi.
 }}
 
 {{menu gra=srw-oe

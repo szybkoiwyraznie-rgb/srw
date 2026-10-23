@@ -1,0 +1,769 @@
+---
+SKRYPT
+---
+
+## Start Alexa
+
+Azja Środkowa...
+
+Operacja Odessa przechylała szalę na stronę Federacji i siły Zeonu słabły, ale ten region wciąż był strefą ścierania się obu stron.
+
+W bazie Federacji niedaleko strefy walk trwały przygotowania do startu nowego mobile suita.
+
+RX-78NT-1, znany jako "Alex".
+
+Nowy Gundam, potajemnie skonstruowany dla Newtype'ów, z naciskiem na szybszą reakcję maszyny.
+
+Misja wyniesienia go do kolonii Libot w Side 6 miała się wkrótce rozpocząć...
+
+Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
+
+### Baza Federacji / Centrum kontroli startów
+
+**Oficer Federacji:** Chris, wyniki z symulatora są świetne. Ostateczne strojenie zrobimy w Side 6. Wahadłowiec startuje zgodnie z planem.
+
+**Chris:** Przyjęłam.
+
+**Oficer Federacji:** A tak przy okazji, jak się prowadzi Alex?
+
+**Oficer Federacji:** Jak wrażenia z panoramicznego ekranu i magnetycznej powłoki?
+
+**Chris:** Jest tak szybki, że aż strach... Czy tak czuła maszyna nada się do walki?
+
+**???:** Powiedziałbym, że to zależy od pilota.
+
+**Chris:** ...?! A pan to kto?
+
+**Shiro:** Ojej, przepraszam, pani porucznik.
+
+**Shiro:** Chorąży Shiro Amada, dowódca 08. Plutonu MS. Osłaniamy start wahadłowca.
+
+**Chris:** Jestem pilotką testową Alexa, porucznik Christina Mackenzie.
+
+**Chris:** Pana słowa... Tego tak nie zostawię. Twierdzi pan, że nie poradzę sobie z Alexem?
+
+**Shiro:** No, bez nerwów. Symulator i prawdziwa walka to co innego.
+
+**Shiro:** Na polu bitwy maszyna trzyma pani życie w rękach. Lepiej, żeby była nadwrażliwa niż niedoczulona.
+
+**Chris:** Rozumiem, ale ta maszyna jest...
+
+**Oficer Federacji:** To maszyna dla Newtype'ów. Doceniam umiejętności Chris, ale kto ją opanuje, musi być jakimś potworem.
+
+**Shiro:** Aż taka różnica?
+
+**Chris:** Spróbuj na symulatorze, to zobaczysz. Może się przekonasz?
+
+**Shiro:** Naprawdę mogę? Bardzo chętnie!
+
+**Oficer Federacji:** Teraz już nie mogę na to pozwolić. Przygotowania do startu już trwają.
+
+**Shiro:** Rozumiem... Szkoda.
+
+**Shiro:** No to wracam do patrolu. Pani porucznik Chris, proszę spokojnie wsiadać.
+
+**Chris:** Chętnie zobaczyłabym, co potrafisz, ale tym razem oby wróg się nie pojawił.
+
+**Shiro:** Ja też. No to lecę!
+
+**Oficer Federacji:** Liczę na pana, chorąży!
+
+### 08. Oddział MS na patrolu
+
+**Sanders:** Tu Sanders. Sektor północny czysty.
+
+**Karen:** Sektor południowy, Karen Joshua. Czysto...
+
+**Karen:** Ale, rany... Teren jest po prostu okropny.
+
+**Karen:** Kto, do diabła, buduje bazę startową w takich górach?
+
+**Eledore:** No właśnie. Jak już wystrzeliwać wahadłowce, to chyba są bezpieczniejsze miejsca...
+
+**Michel:** Nic nie poradzimy. Korzystamy z bazy Zeonu zdobytej podczas operacji Odessa...
+
+**Sanders:** Brakuje wahadłowców i baz startowych, żeby wynieść w kosmos wojska z każdego regionu. A wszystkiego do Jaburo nie przewieziemy.
+
+**Shiro:** Nie rozluźniajcie się! Wróg najpewniej zwęszył dostawę mobile suita.
+
+**Shiro:** Mogą zaatakować dokładnie w chwili startu wahadłowca.
+
+**Karen:** Jeśli tak...
+
+**Karen:** ...!
+
+**Shiro:** Co się stało, Karen?
+
+**Eledore:** Cząstki Minovsky'ego! Uwaga!
+
+**Eledore:** Ten dźwięk... Zaku... i Dom? ...Nie, to nowy typ!
+
+### Oddział Cyclops
+
+**Misza:** Kapitanie, za tym szczytem jest baza.
+
+**Steiner:** Nie zostawili jej bez obrony. Muszą mieć linię czujek.
+
+**Garcia:** Wieża obserwacyjna przed nami.
+
+**Andy:** Wykrywam też ciepło mobile suitów. Pewnie jeden pluton.
+
+**Steiner:** Pluton Cyclops przystępuje do szturmu na bazę startową Federacji!
+
+**Steiner:** Garcia i ja niszczymy wieżę. Andy, Misza, przebijcie się przez linię czujek!
+
+**Andy:** Przyjąłem.
+
+**Misza:** Przyjąłem... Zrobimy trochę hałasu!
+
+### Baza Federacji / Centrum kontroli startów
+
+**Chris:** Wróg?!
+
+**Oficer Federacji:** Chris, resztę zostaw 08. Plutonowi! Szybko, do wahadłowca!
+
+**Chris:** I nie mogę nawet ruszyć do walki...!
+
+### Początek ataku
+
+**Andy:** Kapitanie, widzę wahadłowiec! Towar jest chyba w kontenerze!
+
+**Steiner:** Powstrzymać start! Zezwalam na użycie całego uzbrojenia!
+
+**Karen:** Nie przejdziesz!
+
+**Misza:** Cholera, mobile suity Federacji...!
+
+**Steiner:** Osłonię cię... Poczekaj chwilę.
+
+**Andy:** Wahadłowiec zaraz nam ucieknie... Wchodzę!
+
+**Steiner:** Czekaj, Andy!
+
+**Shiro:** Karen, wycofaj się!
+
+**Karen:** Tch... Rozwalili mi kamerę...!
+
+**Shiro:** Karen, wracaj do hangaru i wymień uszkodzone części!
+
+**Shiro:** Eledore, Michel, Sanders! Jeśli się tu przebiją, koniec z nami! Nie przepuśćcie ani jednego!
+
+**Sanders:** Przyjąłem!
+
+#### Dialogi warunkowe — obwód obronny
+
+> **Shiro:** Cholera, przebili się...
+
+#### Dialogi bojowe — sytuacyjne — powrót Karen
+
+> **Karen:** Wybaczcie... Spóźniłam się na imprezę!
+
+> **Shiro:** Karen, dobrze, że tak szybko wróciłaś.
+
+> **Michel:** Ej, Karen! Nowe części? Przecież to głowa GM-a!
+
+> **Karen:** Głów już nie było. A co miałam zrobić?!
+
+> **Eledore:** Wróg wciąż tu jest. Kogo teraz obchodzi wygląd!
+
+> **Shiro:** Właśnie. Nie dajcie się przełamać!
+
+#### Dialogi warunkowe — odwrót oddziału Cyclops
+
+> **Steiner:** Ngh... Dalej siłą się nie przebijemy... Wycofać się do punktu zbornego!
+
+> **Andy:** Trafili mi silniki! Wycofuję się!
+
+> **Garcia:** To koniec...
+
+> **Garcia:** Wycofuję się!
+
+> **Misza:** Tch, że też akurat ja dałem plamę...!
+
+#### Dialogi warunkowe — obrona wahadłowca
+
+> **Shiro:** Przeklęty Zeon... Nikt nie tknie wahadłowca pani porucznik Chris!
+
+> **Steiner:** Biały mobile suit Federacji... Ale ten biały, który odparł Black Tri-Stars, powinien być pod Odessą.
+
+> **Steiner:** ...To jego wersja seryjna? Jeśli wystawią ich więcej, Zeon nie da rady...
+
+> **Steiner:** Dotrzymał pola Kampferowi Andy'ego... Nie mogę go lekceważyć!
+
+> **Sanders:** Nikt więcej nie zginie na moich oczach! Wahadłowca nie dostaniecie!
+
+> **Steiner:** Hoo... Co za zaciekłość. Osłania towarzyszy własnym ciałem...
+
+> **Steiner:** Ale na szali jest też życie moich ludzi. Nie mogę zawieść w tej misji!
+
+#### Dialogi warunkowe — oddział wsparcia
+
+> **Eledore:** Łoaaa! My tu prawie nie mamy uzbrojenia!
+
+> **Eledore:** Hej, dowódco! Nie kieruj wroga w naszą stronę!
+
+#### Dialogi warunkowe — Shiro i Misha
+
+> **Misza:** He-he-he... W szturmie ten Kampfer pokazuje, co potrafi.
+
+> **Misza:** Nadchodzę! Mobile suicie Federacji!
+
+> **Shiro:** Ngh...! Ta niebieska maszyna... Ależ jest zwinna!
+
+### Fragment alternatywny 1
+
+> **Shiro:** Rozumiem... Szkoda.
+
+> **Shiro:** No to wracam do patrolu. Pani porucznik, proszę spokojnie wsiadać.
+
+> **Chris:** Chętnie zobaczyłabym, co potrafisz, ale tym razem oby wróg się nie pojawił.
+
+### Fragment alternatywny 2
+
+> **Misza:** Tch, że też akurat ja dałem plamę...!
+
+> **Shiro:** Przeklęty Zeon... Nikt nie tknie wahadłowca pani porucznik!
+
+> **Steiner:** Biały mobile suit Federacji... Ale ten biały, który odparł Black Tri-Stars, powinien być pod Odessą.
+
+### Start wahadłowca
+
+**Eledore:** Dźwięk się oddala... Chyba już nie zamierzają atakować.
+
+**Michel:** Dowódco, słyszał pan?
+
+**Shiro:** Tak, jakoś wytrzymaliśmy.
+
+**Oficer Federacji:** Chorąży Amada! Jak sytuacja?
+
+**Shiro:** Wszyscy wrogowie zostali odparci.
+
+**Oficer Federacji:** Dobra robota. Dzięki wam kontener jest już załadowany. Dziękujemy za waszą służbę!
+
+**Chris:** Dziękuję, chorąży Amada.
+
+**Shiro:** Mów mi po prostu Shiro, Chris.
+
+**Żołnierz Federacji:** Wahadłowiec startuje!
+
+Dzięki 08. Plutonowi MS chorążego Shiro Amady pluton Cyclops z Zeonu, który zaatakował start wahadłowca, został odparty.
+
+Wahadłowiec z nowym Gundamem, Alexem, bezpiecznie wzbił się w kosmos...
+
+Po wykonaniu misji 08. Pluton MS przeniesiono do Jaburo, największej bazy Federacji.
+
+### Baza Federacji / Hangar
+
+**Shiro:** Dobra robota, wszyscy! Czekamy na dalsze rozkazy. Na razie chodźmy coś zjeść!
+
+**Michel:** Hura! Eledore, co bierzesz?
+
+**Eledore:** Pewnie i tak są tylko racje, nie? Chciałbym zjeść coś porządnego.
+
+**Michel:** Wytrzymaj jeszcze trochę. Jak dotrzemy do Jaburo w Ameryce Południowej, na pewno zjemy coś wykwintnego.
+
+**Karen:** Phi... Naprawdę myślisz, że tak łatwo dotrzemy do Jaburo?
+
+**Sanders:** Siły Zeonu ukrywają się wszędzie. Nie możemy tracić czujności.
+
+**Shiro:** Poza tym nasz transportowiec jeszcze nie dotarł. Na razie czekamy w tej bazie.
+
+**Eledore:** Czyli na wykwintne jedzenie jeszcze poczekamy...
+
+---
+UCZESTNICY
+---
+
+### Odcinek 1 — Start Alexa (`DL101_50`)
+
+**Źródło:** `eventP00.cpk/DL101_50_Entry.dat`
+**Warunki misji:**
+> W tej misji skład jednostek jest z góry ustalony.
+**Fale i moment wejścia:** poza powyższą adnotacją kolejność fal i numery tur zależą od wyzwalaczy skryptu.
+
+**Jednostki sojusznicze (gracza):**
+  - **Gundam Ez8** — pilot główny: Shiro Amada
+  - **Gundam Ground Type** — pilot główny: Karen Joshua
+  - **Gundam Ground Type** — pilot główny: Terry Sanders Jr.
+  - **Hover Truck** — pilot główny: Michel Ninorich — piloci wspierający w misji: Eledore Massis
+  
+**Event
+  - **Gundam Ground Type/głowa GM** — pilot główny: Karen Joshua
+
+**Jednostki wrogie:**
+  - **Kampfer/Bazooka** — pilot główny: Andy Strauss
+  - **Kampfer/High Mobility** — pilot główny: Mikhail Kaminsky
+  - **Zaku II Kai** — pilot główny: Gabriel Ramirez Garcia
+  - **Zaku II Kai** — pilot główny: Hardy Steiner
+
+---
+
+#### Domyślne mechy i jednostki w misji (sekcje z `srwoe_mech_catalog_v4_PL.md`)
+
+## Gundam Ez8
+
+**Seria:** Mobile Suit Gundam: The 08th MS Team
+
+### Macierzyste zdolności maszyny
+
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+**Składy grup zapisane w tabeli:** 08. Pluton MS.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                  | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                            |
+| ------: | ---------------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |
+|       0 | Głowowe działko Vulcan |       2000 |  1–3   |       +35 |   0 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|       1 | Karabin wiązkowy       |       3000 |  1–4   |       +15 |  10 |      — | Brak w tym polu    | **Ucieczka (poziom bazowy 1):** Unik+18%                            |
+|         |                        |            |        |           |     |        |                    | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                |
+|       2 | Szabla wiązkowa        |       3200 |  1–1   |       +40 |   5 |      — | Brak w tym polu    | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole             |
+|         |                        |            |        |           |     |        |                    |   Zderzenie Obraż.500 Obraż. od upadku 1000                         |
+|         |                        |            |        |           |     |        |                    |   Ignoruje Osłonę; bez wsparcia                                     |
+|       3 | Atak szturmowy         |       4600 |  1–3   |        +0 |  40 |    120 | Brak w tym polu    | **Na ląd (poziom bazowy 1):** Teren "Ląd": Cel+40% Atk x1.3         |
+
+---
+
+## Ground Gundam (Gundam Ground Type)
+
+**Seria:** Mobile Suit Gundam: The 08th MS Team
+
+### Macierzyste zdolności maszyny
+
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+**Składy grup zapisane w tabeli:** 08. Pluton MS.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                    | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                            |
+| ------: | ------------------------ | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |
+|       0 | Piersiowe działko Vulcan |       2100 |  1–3   |       +35 |   0 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|       1 | Szabla wiązkowa          |       3100 |  1–1   |       +40 |   5 |      — | Brak w tym polu    | **Ucieczka (poziom bazowy 1):** Unik+18%                            |
+|       2 | Karabin maszynowy 100 mm |       2800 |  1–4   |       +15 |  10 |      — | Brak w tym polu    | Brak odwołania w dwóch polach efektów broni                         |
+|       3 | Wyrzutnia rakiet         |       2900 |  1–5   |        +5 |  35 |      — | Brak w tym polu    | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg                 |
+|         |                          |            |        |           |     |        |                    |   Bez kontry                                                        |
+|         |                          |            |        |           |     |        |                    |   Nie do wsparcia ani kontry                                        |
+|         |                          |            |        |           |     |        |                    | **Na ląd (poziom bazowy 1):** Teren "Ląd": Cel+40% Atk x1.3         |
+
+---
+
+## Grd Gundam/GM (Gundam Ground Type/głowa GM)
+
+**Seria:** Mobile Suit Gundam: The 08th MS Team
+
+### Macierzyste zdolności maszyny
+
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+**Składy grup zapisane w tabeli:** 08. Pluton MS.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                    | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                            |
+| ------: | ------------------------ | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |
+|       0 | Piersiowe działko Vulcan |       1900 |  1–3   |       +35 |   0 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|       1 | Szabla wiązkowa          |       3100 |  1–1   |       +40 |   5 |      — | Brak w tym polu    | **Garda (poziom bazowy 1):** Obr+20%                                |
+|       2 | Karabin maszynowy 100 mm |       2900 |  1–4   |       +15 |  10 |      — | Brak w tym polu    | Brak odwołania w dwóch polach efektów broni                         |
+|       3 | Działo 180 mm            |       4000 |  3–7   |        +5 |  30 |      — | Brak w tym polu    | **Penetracja (poziom bazowy 1):** Obr-30%                           |
+
+---
+
+## Hover Truck
+
+**Seria:** Mobile Suit Gundam: The 08th MS Team
+
+### Macierzyste zdolności maszyny
+
+- **Wezw. Osłony (bez poziomu):** Jednostkę w Grupa 4 zdolną do Osłony  
+  można wybrać do Osłony
+
+**Składy grup zapisane w tabeli:** 08. Pluton MS.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                            |
+| ------: | -------------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |
+|       0 | Działko Vulcan 20 mm |       1000 |  1–4   |       +35 |   0 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|       2 | Sonar pasywny        |          0 |  1–7   |       +70 |  20 |      — | Brak w tym polu    | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg                 |
+|         |                      |            |        |           |     |        |                    |   Bez kontry                                                        |
+|         |                      |            |        |           |     |        |                    |   Nie do wsparcia ani kontry                                        |
+|         |                      |            |        |           |     |        |                    | **Sonar pasywny (poziom bazowy 1):** 1 tura, wróg: Cel/Unik-20%     |
+|       3 | Zaopatrzenie EN      |          0 |  1–2   |        +0 |   0 |      — | Brak w tym polu    | **Zaopatrz. (poziom bazowy 1):** Sojusznicy 1 jedn.: EN+50          |
+|       4 | Naprawa              |          0 |  1–2   |        +0 |  20 |      — | Brak w tym polu    | **Naprawa (poziom bazowy 1):** Sojusznicy 1 jedn.: HP+2000          |
+
+
+---
+
+## Kampfer (Kampfer/Bazooka)
+
+**Seria:** Mobile Suit Gundam 0080: War in the Pocket
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                 | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                            |
+| ------: | --------------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------- |
+|       0 | Głowowe działko 60 mm |       1100 |  1–4   |       +50 |   5 |      — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|       1 | Strzelba              |       1300 |  1–7   |       +25 |  10 |      — | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej  |
+|         |                       |            |        |           |     |        |                 |   Bez kontry                                                        |
+|         |                       |            |        |           |     |        |                 |   Nie do wsparcia ani kontry                                        |
+|       2 | Szabla wiązkowa       |       1900 |  1–1   |       +35 |   0 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                         |
+|       4 | Wielka bazooka        |       2700 |  3–6   |       +10 |  15 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                         |
+
+---
+
+## Kampfer (Kampfer/High Mobility)
+
+**Seria:** Mobile Suit Gundam 0080: War in the Pocket
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                 | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | --------------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Głowowe działko 60 mm |       1100 |  1–4   |       +50 |   5 |      — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu      |
+|       1 | Strzelba              |       1300 |  1–7   |       +40 |  10 |      — | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej       |
+|         |                       |            |        |           |     |        |                 |   Bez kontry                                                             |
+|         |                       |            |        |           |     |        |                 |   Nie do wsparcia ani kontry                                             |
+|       2 | Szabla wiązkowa       |       1900 |  1–1   |       +35 |   0 |      — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18%                                 |
+|       3 | Sturm Faust           |       2300 |  1–3   |        +5 |  15 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+
+---
+
+## Zaku II Kai
+
+**Seria:** Mobile Suit Gundam 0080: War in the Pocket
+
+### Macierzyste zdolności maszyny
+
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa             | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | ----------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Karabin maszynowy |       1300 |  1–4   |       +30 |   5 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                              |
+|       1 | Heat Hawk         |       2000 |  1–1   |       +50 |   0 |      — | Brak w tym polu | **Garda (poziom bazowy 1):** Obr+20%                                     |
+|       2 | Sturm Faust       |       2200 |  1–3   |        +0 |  15 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+
+---
+
+#### Piloci i postacie w misji oraz skrypcie sceny (sekcje z `srwoe_pilot_catalog_PL.md`)
+
+#### Christina Mackenzie
+
+- **Seria:** Mobile Suit Gundam 0080: War in the Pocket
+- **Nazwa skrócona:** Chris
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            112 |
+| **Obrona**  |             73 |
+| **Celność** |            134 |
+| **Unik**    |             70 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                 |
+| ---: | ------------- | ---------: | -------: | -------------------------------------------- |
+|    1 | **Skupienie** |          1 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Shiro Amada
+
+- **Seria:** Mobile Suit Gundam: The 08th MS Team
+- **Nazwa skrócona:** Shiro
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            120 |
+| **Obrona**  |             71 |
+| **Celność** |            135 |
+| **Unik**    |             63 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                    |
+| ---: | ---------- | ---------: | -------: | ----------------------------------------------- |
+|    1 | **Mur**    |          1 |       20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30%   |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Atk**  |          1 | Pozostałe HP 10%: Obr/Unik+4% Atk/Kryt+5% |
+|    2 | **Dow. Obr/Cel** |          3 | Zasięg 3 - sojusznicy: Obr/Cel+4%         |
+
+---
+
+#### Terry Sanders Jr.
+
+- **Seria:** Mobile Suit Gundam: The 08th MS Team
+- **Nazwa skrócona:** Sanders
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            117 |
+| **Obrona**  |             77 |
+| **Celność** |            129 |
+| **Unik**    |             64 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                  |
+| ---: | ---------- | ---------: | -------: | --------------------------------------------- |
+|    1 | **Niezł.** |          1 |       15 | Cel: ty Efekt: 1 razy — Otrzym. obrażenia-50% |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność     | Poz. nauki | Efekt bazowy                              |
+| ---: | --------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Obr** |          1 | Pozostałe HP 10%: Obr+5% Cel/Unik/Kryt+4% |
+
+---
+
+#### Karen Joshua
+
+- **Seria:** Mobile Suit Gundam: The 08th MS Team
+- **Nazwa skrócona:** Karen
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            114 |
+| **Obrona**  |             67 |
+| **Celność** |            134 |
+| **Unik**    |             72 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                            |
+| ---: | ------------- | ---------: | -------: | ------------------------------------------------------- |
+|    1 | **Skupienie** |          1 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%            |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Kryt** |          1 | Pozostałe HP 10%: Obr/Unik+4% Cel/Kryt+5% |
+
+---
+
+#### Michel Ninorich
+
+- **Seria:** Mobile Suit Gundam: The 08th MS Team
+- **Nazwa skrócona:** Michel
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            106 |
+| **Obrona**  |             71 |
+| **Celność** |            127 |
+| **Unik**    |             77 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch        | Poz. nauki | Koszt SP | Efekt bazowy                                     |
+| ---: | ----------- | ---------: | -------: | ------------------------------------------------ |
+|    1 | **Zauf.**   |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Unik** |          1 | Pozostałe HP 10%: Obr/Cel/Kryt+4% Unik+5% |
+
+---
+
+#### Eledore Massis
+
+- **Seria:** Mobile Suit Gundam: The 08th MS Team
+- **Nazwa skrócona:** Eledore
+
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                                                 |
+| ---: | ---------- | ---------: | -------: | ---------------------------------------------------------------------------- |
+|    1 | **Wiatr**  |          1 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd'                      |
+
+---
+
+#### Oficer Federacji
+
+- **Seria:** Brak wpisu w słowniku postaci
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             10 |
+| **Atak**    |            102 |
+| **Obrona**  |             70 |
+| **Celność** |            124 |
+| **Unik**    |             54 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Żołnierz Federacji
+
+- **Seria:** Brak wpisu w słowniku postaci
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             10 |
+| **Atak**    |            103 |
+| **Obrona**  |             58 |
+| **Celność** |            123 |
+| **Unik**    |             57 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Hardy Steiner
+
+- **Seria:** Mobile Suit Gundam 0080: War in the Pocket
+- **Nazwa skrócona:** Steiner
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            118 |
+| **Obrona**  |             76 |
+| **Celność** |            136 |
+| **Unik**    |             68 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Mikhail Kaminsky
+
+- **Seria:** Mobile Suit Gundam 0080: War in the Pocket
+- **Nazwa skrócona:** Misza
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            120 |
+| **Obrona**  |             79 |
+| **Celność** |            131 |
+| **Unik**    |             69 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Gabriel Ramirez Garcia
+
+- **Seria:** Mobile Suit Gundam 0080: War in the Pocket
+- **Nazwa skrócona:** Garcia
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            117 |
+| **Obrona**  |             76 |
+| **Celność** |            130 |
+| **Unik**    |             65 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Andy Strauss
+
+- **Seria:** Mobile Suit Gundam 0080: War in the Pocket
+- **Nazwa skrócona:** Andy
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            119 |
+| **Obrona**  |             73 |
+| **Celność** |            129 |
+| **Unik**    |             68 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |

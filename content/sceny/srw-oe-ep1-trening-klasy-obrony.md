@@ -4,7 +4,7 @@ slug: srw-oe-ep1-trening-klasy-obrony
 tytul: Trening Klasy Obrony
 epizod: srw-oe-ep1
 numer_sceny: "1-4"
-streszczenie: "Czwarta misja epizodu 1: Connect ćwiczy z Klasą Obrony Ziemi z Akademii Hinobori, a Himari po raz pierwszy prowadzi Exarta w walce treningowej z Raijin-Oh."
+streszczenie: "Czwarta misja epizodu 1: Himari po raz pierwszy leci za sterami Exarta, a Connect ćwiczy z Klasą Obrony Ziemi z Akademii Hinobori; Raijin-Oh walczy u boku Exarta."
 sekcje_analizy:
   - Ćwiczenia na pustej działce → Pusta działka
   - Rozkaz wymarszu → Akademia Hinobori / Sala klasy 5-3
@@ -347,19 +347,19 @@ Maria ogłasza rozkaz wymarszu, a [[tsutomu-kojima|Tsutomu]] zagania klasę na m
 
 ### Spotkanie z Raijin-Oh
 
-[[himari-yaegaki|Himari]] wykrywa szybko zbliżający się obiekt — to klasa, z którą Connect ma ćwiczyć. Na miejscu nie ma jednak wroga, tylko Labory treningowe: [[kirara-haruno|Kirara]] rozpoznaje maszyny, z którymi klasa zawsze walczy, a [[asuka-tsukishiro|Asuka]] jej przytakuje. [[maria-shiratori|Maria]] przyznaje, że urządziła ćwiczenia z zaskoczenia, żeby [[jin-hyuga|Jin]] się nie obijał.
+[[himari-yaegaki|Himari]] wykrywa szybko zbliżający się obiekt — to klasa, z którą Connect ma ćwiczyć. Na miejscu nie ma jednak wroga, tylko Labory treningowe: [[kirara-haruno|Kirara]] rozpoznaje maszyny, z którymi klasa zawsze walczy, a [[koji-hoshiyama|Koji]] zaczyna domyślać się, że to tylko trening. [[maria-shiratori|Maria]] przyznaje, że urządziła ćwiczenia z zaskoczenia, żeby [[jin-hyuga|Jin]] się nie obijał.
 
 [[seishiro|Seishiro]] wyjaśnia [[himari-yaegaki|Himari]], że będą dziś ćwiczyć z [[raijin-oh|Raijin-Ohem]] i [[klasa-obrony-ziemi|Klasą Obrony Ziemi]], która pokonała [[jaku-empire|Imperium Piątego Wymiaru]]. Himari przedstawia się przez radio, a Seishiro studzi jej emocje: to dzieci z podstawówki, ale weterani, więc nie można dać plamy.
 
 ### Wykorzystanie terenu
 
-[[tsutomu-kojima|Tsutomu]] stawia zadanie: zepchnąć Labory stojące na wyższym poziomie, żeby spadły na ziemię. [[jin-hyuga|Jin]] uważa to za zawracanie głowy, ale [[seishiro|Seishiro]] odpowiada, że sama siła ognia nie wygrywa bitew — chodzi o mądre gospodarowanie energią. Jin wykonuje Raijin Flash, a upadek celu potwierdzają [[yoko-kuriki|Cookie]] i [[himari-yaegaki|Himari]].
+[[tsutomu-kojima|Tsutomu]] stawia zadanie: zepchnąć Labory stojące na wyższym poziomie, żeby spadły na ziemię. [[jin-hyuga|Jin]] uważa to za zawracanie głowy, ale [[seishiro|Seishiro]] odpowiada, że sama siła ognia nie wygrywa bitew — chodzi o mądre wykorzystanie terenu. Tsutomu dodaje, że walka z uwzględnieniem terenu nie marnuje energii. Jin wykonuje Raijin Flash, a upadek celu potwierdzają [[yoko-kuriki|Cookie]] i [[himari-yaegaki|Himari]].
 
-Seishiro zapamiętuje zasadę: zrzucenie celu z wysokości zadaje dodatkowe obrażenia. Tsutomu pozwala ćwiczyć dalej po swojemu, ale w zamian wystawia więcej Laborów; trening kończy się po zniszczeniu wszystkich.
+Seishiro wyjaśnia Himari, że zrzucenie celu z wysokości zadaje dodatkowe obrażenia, i prosi ją, by to zapamiętała. Tsutomu pozwala ćwiczyć dalej po swojemu, ale w zamian wystawia więcej Laborów; trening kończy się po zniszczeniu wszystkich.
 
 ### Po ćwiczeniach
 
-[[seishiro|Seishiro]] zgłasza zniszczenie wszystkich celów i pyta o sprzątanie. [[tsutomu-kojima|Tsutomu]] uspokaja, że zrobią to Siły Obrony, więc Seishiro chce wysłać generałowi Takedzie maila z podziękowaniami. [[jin-hyuga|Jin]] lekceważy ten zwyczaj, ale [[maria-shiratori|Maria]] i [[asuka-tsukishiro|Asuka]] przypominają, jak ważny to człowiek.
+[[seishiro|Seishiro]] zgłasza zniszczenie wszystkich celów. Na pytanie [[himari-yaegaki|Himari]], czy to już koniec, przypomina jeszcze o sprzątaniu. [[tsutomu-kojima|Tsutomu]] mówi, że Siły Obrony podobno zrobią to same, więc Seishiro chce wysłać generałowi Takedzie maila z podziękowaniami. [[jin-hyuga|Jin]] lekceważy ten zwyczaj; Seishiro podkreśla, jak ważny to człowiek, [[maria-shiratori|Maria]] wyjaśnia, że klasa zawsze mu dziękuje, a [[asuka-tsukishiro|Asuka]] zauważa, że tylko Jin o tym nie wiedział.
 
 Maria zaprasza Seishira na szkolne omówienie treningu, a ten chętnie się zgadza.
 

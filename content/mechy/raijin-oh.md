@@ -22,7 +22,7 @@ Robot bojowy [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] z [[akademia-hinobori|Aka
 
 Podczas wspólnych ćwiczeń z [[connect-force|Connect]] Raijin-Oh walczy ramię w ramię z [[exart|Exartem]] przeciw Brockenom treningowym. Ćwiczenie uczy wykorzystania terenu: zrzucenie celu z wysokości zadaje mu dodatkowe obrażenia. Maszyna odzyskuje EN w każdej turze i blokuje ciosy tarczą, a przy wysokim morale może się połączyć w God Raijin-Oh.
 
-Raijin Claw przebija się przez kilku wrogów i pozwala walczyć dalej, Raijin Boomerang dosięga celów na dystans, a Raijin Sword i Raijin Flash działają z bliska. Najmocniejszym ciosem jest God Thunder Crash.
+Raijin Claw przebija się przez wrogów w zasięgu i rusza dalej, Raijin Boomerang dosięga celów na dystans, a Raijin Sword i Raijin Flash działają z bliska. Najmocniejszym ciosem jest God Thunder Crash.
 }}
 
 {{menu gra=srw-oe
