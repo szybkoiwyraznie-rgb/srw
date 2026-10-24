@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-24 16:14
+
+- W scenach [[srw-oe-ep1-szalejacy-prototyp-labora|„Szalejący prototyp Labora”]], [[srw-oe-ep1-black-tri-stars|„Black Tri-Stars”]], [[srw-oe-ep1-powstrzymaj-pocisk-termojadrowy|„Powstrzymaj pocisk termojądrowy”]] i [[srw-oe-ep1-start-alexa|„Start Alexa”]] poprawiono idiomy i zbyt dosłowne brzmienie dialogów. Wydarzenia, obsada i kolejność pozostają bez zmian.
+
 ## 2026-10-24 11:47
 
 - Wszystkie źródłowe opisy serialowego incydentu — [[srw-oe-ep1-szalejacy-prototyp-labora|scena „Szalejący prototyp Labora”]], [[poligon-fuji|Poligon Fuji]] i [[sily-samoobrony-japonii|Siły Samoobrony]] — dotyczą teraz [[hal-x10-green|HAL-X10 z wersji TV]], odrębnego od wariantu kinowego.
