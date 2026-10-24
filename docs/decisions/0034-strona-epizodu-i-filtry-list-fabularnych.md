@@ -42,7 +42,9 @@ i nie prowadził do treści.
    dla jednostek bez serii). Scena dziedziczy grę po swoim epizodzie.
 7. **Każda lista przyjmuje tylko swoje filtry.** Galerie postaci i mechów zachowują
    Grę → Odcinek → Scenę, Serię i suwak kafelka; listy fabularne nie mają suwaka ani
-   filtrów odcinka i sceny. Klucze spoza zestawu danej listy są odrzucane z adresu.
+   filtrów odcinka i sceny; lista serii pyta wyłącznie o **Grę**, bo wiąże je pole `gry`,
+   a pozostałe pola nie mają dla serii sensu. Klucze spoza zestawu danej listy są
+   odrzucane z adresu.
 
 ## Odrzucone alternatywy
 
