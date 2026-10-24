@@ -9,7 +9,7 @@ mechy: [raijin-oh]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
-tagi: [eldran]
+tagi: [eldran, pilot, klasa-obrony-ziemi]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe

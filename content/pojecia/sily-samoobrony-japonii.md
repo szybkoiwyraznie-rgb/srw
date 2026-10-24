@@ -2,12 +2,12 @@
 typ: pojecie
 slug: sily-samoobrony-japonii
 tytul: Siły Samoobrony Japonii
-kategoria: organizacja
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://patlabor.fandom.com/wiki/ARL-99_Helldiver
   - https://patlabor.fandom.com/wiki/HAL_X-10
+tagi: [organizacja, jsdf, patlabor]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe

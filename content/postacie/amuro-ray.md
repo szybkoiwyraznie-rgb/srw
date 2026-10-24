@@ -9,7 +9,7 @@ mechy: [rx-78-2-gundam]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Amuro_Ray
-tagi: [one-year-war]
+tagi: [one-year-war, pilot, gundam-1979, federacja, white-base]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

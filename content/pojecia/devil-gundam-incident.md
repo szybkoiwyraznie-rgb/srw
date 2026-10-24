@@ -2,12 +2,11 @@
 typ: pojecie
 slug: devil-gundam-incident
 tytul: Incydent Devil Gundam
-kategoria: wydarzenie
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam
-tagi: [wydarzenie]
+tagi: [wydarzenie, prolog]
 utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe

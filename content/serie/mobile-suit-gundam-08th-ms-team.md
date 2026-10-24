@@ -11,7 +11,7 @@ gry: [srw-oe]
 pochodzenie: menu
 zrodla:
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team
-tagi: [universal-century, one-year-war]
+tagi: [universal-century, one-year-war, ova, 08th-ms-team]
 utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe

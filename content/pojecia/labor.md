@@ -2,13 +2,13 @@
 typ: pojecie
 slug: labor
 tytul: Labor
-kategoria: technologia
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://patlabor.fandom.com/wiki/Labor
   - https://patlabor.fandom.com/wiki/Patlabor
   - https://patlabor.fandom.com/wiki/AV-98_Ingram
+tagi: [technologia, patlabor]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe

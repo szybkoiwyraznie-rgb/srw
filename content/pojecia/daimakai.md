@@ -2,12 +2,11 @@
 typ: pojecie
 slug: daimakai
 tytul: Daimakai
-kategoria: miejsce
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Genki_Bakuhatsu_Ganbaruger
-tagi: [najazd]
+tagi: [najazd, miejsce, prolog]
 utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe

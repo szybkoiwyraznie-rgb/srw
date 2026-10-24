@@ -2,13 +2,12 @@
 typ: pojecie
 slug: connect-force
 tytul: Connect Force
-kategoria: organizacja
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE
   - https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend
-tagi: [connect]
+tagi: [connect, organizacja]
 utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe

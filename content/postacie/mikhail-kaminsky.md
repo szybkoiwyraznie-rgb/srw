@@ -10,7 +10,7 @@ pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Cyclops_Team
   - https://www.mahq.net/gundam0080ep1/
-tagi: [one-year-war]
+tagi: [one-year-war, pilot, gundam-0080, zeon, pluton-cyclops]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe

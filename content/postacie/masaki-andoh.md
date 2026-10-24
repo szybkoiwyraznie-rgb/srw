@@ -10,6 +10,7 @@ pochodzenie: menu
 zrodla:
   - https://superrobotwars.fandom.com/wiki/Cybuster
   - https://akurasu.net/wiki/Masaki_Andoh
+tagi: [pilot, super-robot-wars]
 utworzono: 2026-10-19
 ---
 {{menu gra=srw-oe

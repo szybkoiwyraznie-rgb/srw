@@ -9,7 +9,7 @@ mechy: []
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/SCV-70_White_Base
-tagi: [one-year-war]
+tagi: [one-year-war, dowodztwo, gundam-1979, federacja, white-base]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

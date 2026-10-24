@@ -9,7 +9,7 @@ mechy: [ingram-nr-1]
 pochodzenie: skrypt
 zrodla:
   - https://patlabor.fandom.com/wiki/Noa_Izumi
-tagi: [patlabor]
+tagi: [patlabor, pilot, sv2, policja]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe

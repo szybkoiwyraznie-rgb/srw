@@ -2,12 +2,11 @@
 typ: pojecie
 slug: akademia-hinobori
 tytul: Akademia Hinobori
-kategoria: miejsce
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
-tagi: [eldran]
+tagi: [eldran, miejsce, klasa-obrony-ziemi]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe

@@ -8,7 +8,7 @@ gry: [srw-oe]
 pochodzenie: zrodlo
 zrodla:
   - https://en.wikipedia.org/wiki/Patlabor:_The_Movie
-tagi: [patlabor]
+tagi: [patlabor, film]
 utworzono: 2026-10-21
 ---
 {{menu gra=srw-oe

@@ -10,7 +10,7 @@ pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Marker_Clan
   - https://gundam.fandom.com/wiki/White_Base_Corps
-tagi: [one-year-war]
+tagi: [one-year-war, wsparcie, gundam-1979, federacja, white-base]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

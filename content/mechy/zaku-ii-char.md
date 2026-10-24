@@ -11,7 +11,7 @@ pochodzenie: menu
 zrodla:
   - https://gundam.fandom.com/wiki/MS-06_Zaku_II
   - https://gundam.fandom.com/wiki/Battle_of_Loum
-tagi: [one-year-war]
+tagi: [one-year-war, gundam-1979, zeon, mobile-suit]
 utworzono: 2026-10-20
 ---
 {{menu gra=srw-oe

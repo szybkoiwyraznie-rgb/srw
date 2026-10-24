@@ -11,7 +11,7 @@ gry: [srw-oe]
 pochodzenie: menu
 zrodla:
   - https://gundam.fandom.com/wiki/Mobile_Suit_Gundam_0080:_War_in_the_Pocket
-tagi: [universal-century, one-year-war]
+tagi: [universal-century, one-year-war, ova, gundam-0080]
 utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe

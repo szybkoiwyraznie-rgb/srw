@@ -9,7 +9,7 @@ mechy: [gundam-ez8]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team
-tagi: [one-year-war]
+tagi: [one-year-war, pilot, 08th-ms-team, federacja, 08-pluton-ms]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe

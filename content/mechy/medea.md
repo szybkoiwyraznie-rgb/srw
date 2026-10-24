@@ -9,6 +9,7 @@ w_gre:
 pochodzenie: menu
 zrodla:
   - https://gundam.fandom.com/wiki/Medea
+tagi: [jsdf, pojazd-wsparcia]
 utworzono: 2026-10-21
 ---
 {{menu gra=srw-oe

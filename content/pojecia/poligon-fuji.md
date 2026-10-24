@@ -2,11 +2,11 @@
 typ: pojecie
 slug: poligon-fuji
 tytul: Poligon Fuji
-kategoria: miejsce
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!
+tagi: [miejsce, jsdf, patlabor]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe

@@ -2,12 +2,11 @@
 typ: pojecie
 slug: jaburo
 tytul: Jaburo
-kategoria: miejsce
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Jaburo
-tagi: [one-year-war]
+tagi: [one-year-war, miejsce, federacja]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

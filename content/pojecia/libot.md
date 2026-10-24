@@ -2,12 +2,11 @@
 typ: pojecie
 slug: libot
 tytul: Libot
-kategoria: miejsce
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://www.mahq.net/gundam0080ep1/
-tagi: [one-year-war]
+tagi: [one-year-war, miejsce]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe

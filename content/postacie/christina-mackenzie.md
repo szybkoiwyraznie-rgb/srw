@@ -9,7 +9,7 @@ mechy: [rx-78nt-1-gundam-alex]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Christina_Mackenzie
-tagi: [one-year-war]
+tagi: [one-year-war, pilot, gundam-0080, federacja]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe

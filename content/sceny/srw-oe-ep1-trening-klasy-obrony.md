@@ -18,7 +18,7 @@ zrodla:
 postacie: [seishiro, himari-yaegaki, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, yoko-kuriki]
 mechy: [exart, raijin-oh, brocken]
 pojecia: [klasa-obrony-ziemi, akademia-hinobori, connect-force, jaku-empire]
-tagi: [trening, eldran]
+tagi: [trening, eldran, connect, klasa-obrony-ziemi]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe

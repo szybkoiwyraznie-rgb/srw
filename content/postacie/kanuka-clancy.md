@@ -9,7 +9,7 @@ mechy: []
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/List_of_Patlabor_characters
-tagi: [patlabor]
+tagi: [patlabor, pilot, sv2, policja]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe

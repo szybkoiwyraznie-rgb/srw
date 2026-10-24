@@ -2,12 +2,12 @@
 typ: pojecie
 slug: sv2
 tytul: SV2
-kategoria: organizacja
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://patlabor.fandom.com/wiki/Special_Vehicles_Section_2
   - https://en.wikipedia.org/wiki/List_of_Patlabor_characters
+tagi: [organizacja, patlabor, policja, labor]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe

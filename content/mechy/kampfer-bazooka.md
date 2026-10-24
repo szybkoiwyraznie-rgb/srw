@@ -11,7 +11,7 @@ w_gre:
 pochodzenie: menu
 zrodla:
   - https://www.mahq.net/ms-18e/
-tagi: [one-year-war]
+tagi: [one-year-war, mobile-suit, gundam-0080, zeon, pluton-cyclops]
 utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe

@@ -9,7 +9,7 @@ mechy: [ingram-nr-2]
 pochodzenie: skrypt
 zrodla:
   - https://patlabor.fandom.com/wiki/Isao_Ohta
-tagi: [patlabor]
+tagi: [patlabor, pilot, sv2, policja]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe

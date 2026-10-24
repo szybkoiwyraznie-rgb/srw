@@ -11,7 +11,7 @@ pochodzenie: menu
 zrodla:
   - https://www.mahq.net/av-98-ova/
   - https://patlabor.fandom.com/wiki/AV-98_Ingram
-tagi: [patlabor]
+tagi: [patlabor, sv2, labor, policja]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe

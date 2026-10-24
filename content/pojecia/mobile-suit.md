@@ -2,12 +2,11 @@
 typ: pojecie
 slug: mobile-suit
 tytul: Mobile suit
-kategoria: technologia
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Mobile_Weapon
-tagi: [one-year-war]
+tagi: [one-year-war, technologia, universal-century]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

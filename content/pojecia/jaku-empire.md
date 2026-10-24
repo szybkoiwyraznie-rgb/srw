@@ -2,13 +2,12 @@
 typ: pojecie
 slug: jaku-empire
 tytul: Imperium Jaku
-kategoria: najazd
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://eldran.fandom.com/wiki/Jaku_Empire
   - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
-tagi: [najazd]
+tagi: [najazd, prolog]
 utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe

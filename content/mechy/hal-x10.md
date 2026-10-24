@@ -11,7 +11,7 @@ pochodzenie: skrypt
 zrodla:
   - https://www.mahq.net/hal-x-10-tv/
   - https://patlabormechanime.fandom.com/es/wiki/HAL_X-10
-tagi: [patlabor]
+tagi: [patlabor, jsdf, labor, bezzalogowy]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe

@@ -10,7 +10,7 @@ w_gre:
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/White_Base
-tagi: [one-year-war]
+tagi: [one-year-war, gundam-1979, federacja, okret]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

@@ -9,7 +9,7 @@ mechy: [zaku-ii-karabin-maszynowy]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Slender
-tagi: [one-year-war]
+tagi: [one-year-war, pilot, gundam-1979, zeon]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

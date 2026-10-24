@@ -2,13 +2,12 @@
 typ: pojecie
 slug: minovsky-particles
 tytul: Cząstki Minovsky’ego
-kategoria: technologia
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Universal_Century
   - https://gundam.fandom.com/wiki/Principality_of_Zeon
-tagi: [one-year-war]
+tagi: [one-year-war, technologia, universal-century]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

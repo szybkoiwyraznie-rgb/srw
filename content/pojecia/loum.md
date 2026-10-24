@@ -2,7 +2,6 @@
 typ: pojecie
 slug: loum
 tytul: Loum
-kategoria: miejsce
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
@@ -10,7 +9,7 @@ zrodla:
   - https://gundam.fandom.com/wiki/Space_Colony_%28U.C.%29
   - https://gundam.fandom.com/wiki/Black_Tri-Stars
   - https://gundam.fandom.com/wiki/Antarctic_Treaty
-tagi: [one-year-war]
+tagi: [one-year-war, miejsce]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

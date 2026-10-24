@@ -11,6 +11,7 @@ pochodzenie: menu
 zrodla:
   - https://superrobotwars.fandom.com/wiki/Cybuster
   - https://akurasu.net/wiki/Masaki_Andoh
+tagi: [super-robot-wars]
 utworzono: 2026-10-19
 ---
 {{menu gra=srw-oe

@@ -25,7 +25,7 @@ zrodla:
   - https://www.mahq.net/gundam0080ep1/
   - https://gundam.fandom.com/wiki/How_Many_Miles_to_the_Battlefield%3F
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team
-tagi: [patlabor, trening, one-year-war, eldran, gundam-0080, 08th-ms-team]
+tagi: [patlabor, trening, one-year-war, eldran, gundam-0080, 08th-ms-team, connect, gundam-1979, sv2, jsdf, zeon, federacja, klasa-obrony-ziemi]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe

@@ -11,7 +11,7 @@ pochodzenie: menu
 zrodla:
   - https://www.mahq.net/arl-99-tv/
   - https://patlabor.fandom.com/wiki/ARL-99_Helldiver
-tagi: [patlabor]
+tagi: [patlabor, jsdf, labor]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe

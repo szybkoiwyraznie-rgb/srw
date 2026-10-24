@@ -7,7 +7,7 @@ seria: mobile-police-patlabor
 gry: [srw-oe]
 mechy: [medea, helldiver]
 pochodzenie: skrypt
-tagi: [patlabor]
+tagi: [patlabor, pilot, jsdf]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe

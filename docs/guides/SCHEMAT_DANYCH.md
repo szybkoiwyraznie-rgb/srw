@@ -12,7 +12,7 @@ co opisane jako **wymagane** i **pilnowane**.
 | `slug` | tak | małe litery, cyfry, myślniki | **niezmienny** — patrz ADR 0003 |
 | `tytul` | tak | string | tytuł widoczny w witrynie; może być polski lub oryginalny |
 | `tytul_ja`, `tytul_en` | nie | string | zapisy oryginalne — ułatwiają późniejsze wyszukiwanie |
-| `tagi` | nie | tablica slugów | swobodne, bez słownika (ADR 0006) |
+| `tagi` | nie | tablica slugów | swobodne, bez słownika (ADR 0006); warstwy tagów i zasada „tag z treści strony” — ADR 0033 |
 | `pochodzenie` | nie | `skrypt` / `menu` (dostawa właściciela) / `zrodlo` (sprawdzone) / `wiedza` (model) | kolor nadaje blok `{{poziom}}` na fragmencie (ADR 0011), nie pole strony; poziomy: ADR 0010; reguły źródeł: ADR 0009 |
 | `zrodla` | nie | tablica URL-i `http(s)` | **tylko adresy sprawdzone** (ADR 0009); wymagane przy `pochodzenie: zrodlo`, zakazane przy `wiedza`; sekcja `## Źródła` jest opcjonalna |
 | `utworzono` | nie | `RRRR-MM-DD` | pole opisowe; stopka strony pokazuje czas z historii gita (utworzenie i ostatnia modyfikacja, z godziną) |
@@ -52,8 +52,8 @@ mieć swój wpis epizodu.
 `postac` / `inne`), `seiyuu`, `mechy`, `gry`.
 
 **pojecie** (hasło wiki: organizacja, państwo, era, miejsce, wydarzenie, technologia,
-postać z innej serii — ADR 0013): `kategoria` (swobodny tekst), `gry`. Hasło powstaje
-wyłącznie z dostawy (ADR 0012, 0013).
+postać z innej serii — ADR 0013): `gry`. Rodzaj treści niesie **tag**, nie osobne pole —
+pole `kategoria` zniknęło (ADR 0033). Hasło powstaje wyłącznie z dostawy (ADR 0012, 0013).
 
 **mech**: `seria` (opcjonalne), `typ_mecha`, `piloci`, `gry`, opcjonalnie `w_gre`.
 Jednostka bojowa to także okręt z załogą i uzbrojeniem (ADR 0022), nie hasło.
@@ -92,6 +92,23 @@ miejsca treści sceny (`docs/guides/PRZEPLYW_EPIZODU.md` §1a). Slug sceny: `<sl
 
 Nowa rola postaci wymaga dopisania wartości do `src/srw/registry.js` —
 to jedno miejsce, celowo wąskie.
+
+## Tagi (ADR 0033)
+
+Tag jest jedynym opisem rodzaju treści — nie ma osobnego pola z typem. Słownik pozostaje
+otwarty (ADR 0006), ale nowa strona dostaje tagi warstwami:
+
+| Warstwa | Dotyczy | Przykłady |
+|---|---|---|
+| rodzaj treści | hasła | `technologia`, `organizacja`, `miejsce`, `jednostka-wojskowa`, `najazd`, `era`, `wydarzenie` |
+| rola | postacie (pole `rola`) | `pilot`, `wsparcie`, `dowodztwo`, `antagonista` |
+| rodzaj jednostki | mechy | `mobile-suit`, `labor`, `okret`, `mysliwiec`, `super-robot`, `pojazd-wsparcia`, `bezzalogowy` |
+| świat i seria | strony z polem `seria` | `gundam-1979`, `gundam-0080`, `08th-ms-team`, `patlabor`, `eldran`, `sgt-frog`, `super-robot-wars` |
+| przynależność | postacie, mechy, hasła | `federacja`, `zeon`, `sv2`, `jsdf`, `connect`, `white-base`, `08-pluton-ms`, `pluton-cyclops`, `klasa-obrony-ziemi`, `policja` |
+| rodzaj serii | strony serii (pole `rodzaj`) | `serial-tv`, `ova`, `film`, `manga` |
+
+Zasady: tag musi wynikać z treści strony (wzmianka o frakcji to nie przynależność — ADR 0018),
+strona nie taguje samej siebie, a maszyna bez podanej klasy zostaje bez tagu rodzaju jednostki.
 
 ## Zakres gry w treści (ADR 0020)
 

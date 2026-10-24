@@ -2,12 +2,11 @@
 typ: pojecie
 slug: muge-empire
 tytul: Imperium Muge
-kategoria: najazd
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Dancouga_%E2%80%93_Super_Beast_Machine_God
-tagi: [najazd]
+tagi: [najazd, prolog]
 utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe

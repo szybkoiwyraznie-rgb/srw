@@ -177,8 +177,8 @@ test('seria i hasła świata opisują świat, a źródło jest otwarte i cytowan
     assert.ok(page.zrodla.includes(zrodlo), `${slug}: źródło w frontmatterze`);
     assert.ok(page.body.includes(zrodlo), `${slug}: adres przy informacji`);
   }
-  assert.equal(bySlug.get('klasa-obrony-ziemi').kategoria, 'organizacja');
-  assert.equal(bySlug.get('akademia-hinobori').kategoria, 'miejsce');
+  assert.ok(bySlug.get('klasa-obrony-ziemi').tagi.includes('organizacja'));
+  assert.ok(bySlug.get('akademia-hinobori').tagi.includes('miejsce'));
 });
 
 test('ilustracje misji 4 trafiają tylko na strony, których dotyczą', () => {

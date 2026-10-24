@@ -11,7 +11,7 @@ w_gre:
 pochodzenie: menu
 zrodla:
   - https://gundam.fandom.com/wiki/Hover_Truck
-tagi: [one-year-war]
+tagi: [one-year-war, pojazd-wsparcia, 08th-ms-team, federacja, 08-pluton-ms]
 utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe

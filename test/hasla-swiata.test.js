@@ -18,7 +18,7 @@ const haslo = (slug) => {
   return p;
 };
 
-test('nowe hasła świata są w bazie z właściwą kategorią', () => {
+test('nowe hasła świata są w bazie z tagiem rodzaju treści (ADR 0033)', () => {
   const oczekiwane = {
     'mobile-suit': 'technologia',
     newtype: 'zjawisko',
@@ -26,10 +26,11 @@ test('nowe hasła świata są w bazie z właściwą kategorią', () => {
     'krzyz-zeonu': 'odznaczenie',
     'stacja-connect': 'miejsce',
   };
-  for (const [slug, kategoria] of Object.entries(oczekiwane)) {
+  for (const [slug, rodzaj] of Object.entries(oczekiwane)) {
     const p = haslo(slug);
     assert.equal(p.typ, 'pojecie', slug);
-    assert.equal(p.kategoria, kategoria, slug);
+    assert.ok((p.tagi ?? []).includes(rodzaj), `${slug}: rodzaj treści jest tagiem`);
+    assert.equal(p.kategoria, undefined, `${slug}: osobne pole kategoria już nie istnieje`);
     assert.match(p.body, /## Opis/, slug);
   }
 });

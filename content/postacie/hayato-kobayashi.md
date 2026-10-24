@@ -9,7 +9,7 @@ mechy: [guntank]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters
-tagi: [one-year-war]
+tagi: [one-year-war, pilot, gundam-1979, federacja, white-base]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

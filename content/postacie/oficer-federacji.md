@@ -6,7 +6,7 @@ rola: dowodztwo
 gry: [srw-oe]
 mechy: []
 pochodzenie: menu
-tagi: [one-year-war]
+tagi: [one-year-war, dowodztwo, federacja]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

@@ -12,7 +12,7 @@ pochodzenie: menu
 zrodla:
   - https://www.mahq.net/rx-79g/
   - https://www.mahq.net/rx-79gez-8/
-tagi: [one-year-war]
+tagi: [one-year-war, mobile-suit, 08th-ms-team, federacja, 08-pluton-ms]
 utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe

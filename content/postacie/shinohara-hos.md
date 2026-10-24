@@ -6,7 +6,7 @@ rola: pilot
 gry: [srw-oe]
 mechy: [hal-x10, hal-x10-green]
 pochodzenie: skrypt
-tagi: [patlabor]
+tagi: [patlabor, pilot, jsdf, bezzalogowy]
 utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe

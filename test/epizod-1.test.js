@@ -207,7 +207,7 @@ test('nowe hasła i seria opisują świat epizodu 1', () => {
   for (const slug of nowePojecia) {
     const page = bySlug.get(slug);
     assert.equal(page.typ, 'pojecie', slug);
-    assert.ok(page.kategoria, slug);
+    assert.ok((page.tagi ?? []).length > 0, `${slug}: hasło ma tagi (ADR 0033)`);
     assert.match(page.body, /## Opis/, slug);
   }
   assert.match(bySlug.get('labor').body, /Policja Metropolitalna Tokio/);

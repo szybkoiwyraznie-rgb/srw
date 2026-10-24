@@ -9,7 +9,7 @@ mechy: []
 pochodzenie: skrypt
 zrodla:
   - https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE
-tagi: [connect]
+tagi: [connect, dowodztwo, super-robot-wars]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

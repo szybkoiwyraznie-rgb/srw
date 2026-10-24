@@ -11,7 +11,7 @@ gry: [srw-oe]
 pochodzenie: zrodlo
 zrodla:
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam
-tagi: [universal-century, one-year-war]
+tagi: [universal-century, one-year-war, serial-tv, gundam-1979]
 utworzono: 2026-10-20
 ---
 {{menu gra=srw-oe

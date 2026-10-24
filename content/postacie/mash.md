@@ -9,7 +9,7 @@ mechy: [dom]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Black_Tri-Stars
-tagi: [one-year-war]
+tagi: [one-year-war, pilot, gundam-1979, zeon, black-tri-stars]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

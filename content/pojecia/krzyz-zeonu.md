@@ -2,10 +2,9 @@
 typ: pojecie
 slug: krzyz-zeonu
 tytul: Krzyż Zeonu
-kategoria: odznaczenie
 gry: [srw-oe]
 pochodzenie: skrypt
-tagi: [one-year-war]
+tagi: [one-year-war, odznaczenie, zeon]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

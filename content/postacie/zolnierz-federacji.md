@@ -6,7 +6,7 @@ rola: wsparcie
 gry: [srw-oe]
 mechy: []
 pochodzenie: menu
-tagi: [one-year-war]
+tagi: [one-year-war, wsparcie, federacja]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe

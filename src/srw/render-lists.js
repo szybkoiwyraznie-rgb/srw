@@ -26,6 +26,10 @@ const POLA_FILTRU = ['gra', 'epizod', 'scena', 'seria'];
 /** Wartość filtra `seria` dla encji bez przypisanej serii (opcja „Nieokreślona”). */
 const BEZ_SERII = 'bez-serii';
 
+/** Ile tagów pokazuje wiersz listy. Rodzaj treści jest teraz tagiem (ADR 0033),
+ * więc cztery chipsy ucinały już sensowną informację. */
+const LIMIT_CHIPSOW = 6;
+
 /** Klucze adresu, które lista przyjmuje. Reszta jest odrzucana, żeby widok
  * nie przenosił w linkach przypadkowej treści (i żeby nie trafiła do HTML). */
 const KLUCZE_ADRESU = new Set([...POLA_FILTRU, 'rozmiar', 'tagi']);
@@ -242,7 +246,7 @@ function listaEncjiHtml(lista, typ) {
     <li>
       <a href="${hrefDlaSlug(p.slug, p.typ)}">${escapeHtml(p.tytul)}</a>
       <span class="meta">${metaEncji(p)}</span>
-      ${(p.tagi ?? []).length ? `<span class="chipsy-inline">${p.tagi.slice(0, 4).map((t) => `<a class="chip chip-maly" href="#/tag/${encodeURIComponent(t)}">${escapeHtml(t)}</a>`).join('')}</span>` : ''}
+      ${(p.tagi ?? []).length ? `<span class="chipsy-inline">${p.tagi.slice(0, LIMIT_CHIPSOW).map((t) => `<a class="chip chip-maly" href="#/tag/${encodeURIComponent(t)}">${escapeHtml(t)}</a>`).join('')}</span>` : ''}
     </li>`).join('')}</ul>`;
 }
 
@@ -465,6 +469,7 @@ function porownajSceny(a, b) {
   return new Intl.Collator('pl', { numeric: true, sensitivity: 'base' }).compare(String(a.numer_sceny ?? ''), String(b.numer_sceny ?? ''));
 }
 
+/** Opis wiersza listy: seria, rola i liczba maszyn. Rodzaj hasła niesie tag (ADR 0033). */
 function metaEncji(p) {
   const czesci = [];
   if (p.seria) {
@@ -472,7 +477,6 @@ function metaEncji(p) {
     if (s) czesci.push(escapeHtml(s.tytul));
   }
   if (p.typ === 'postac' && p.rola) czesci.push(escapeHtml(p.rola));
-  if (p.typ === 'pojecie' && p.kategoria) czesci.push(escapeHtml(p.kategoria));
   if (p.typ === 'postac' && Array.isArray(p.mechy) && p.mechy.length) {
     czesci.push(`${p.mechy.length} ${odmiana(p.mechy.length, ['mech', 'mechy', 'mechów'])}`);
   }

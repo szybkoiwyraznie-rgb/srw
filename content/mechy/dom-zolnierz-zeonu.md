@@ -11,7 +11,7 @@ w_gre:
 pochodzenie: menu
 zrodla:
   - https://www.mahq.net/ms-09/
-tagi: [one-year-war]
+tagi: [one-year-war, mobile-suit, gundam-1979, zeon]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

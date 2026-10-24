@@ -9,6 +9,7 @@ rok: 1999
 pochodzenie: menu
 zrodla:
   - https://en.wikipedia.org/wiki/Sgt._Frog
+tagi: [manga]
 utworzono: 2026-10-19
 ---
 {{menu gra=srw-oe
