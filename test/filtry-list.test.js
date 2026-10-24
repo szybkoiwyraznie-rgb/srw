@@ -20,6 +20,7 @@ const mechy = strony.filter((p) => p.typ === 'mech');
 const hasla = strony.filter((p) => p.typ === 'pojecie');
 const linkiMechow = (html) => [...html.matchAll(/href="#\/mech\/([^"]+)"/g)].map((m) => m[1]).sort();
 const linkiHasel = (html) => [...html.matchAll(/href="#\/pojecie\/([^"]+)"/g)].map((m) => m[1]).sort();
+const suroweQuery = (html) => html.match(/data-query='([^']*)'/)?.[1] ?? '';
 
 test('mechy: seria ma opcję „Nieokreślona”, która wybiera maszyny bez serii', () => {
   const bezSerii = mechy.filter((p) => !p.seria).map((p) => p.slug).sort();
@@ -81,6 +82,35 @@ test('hasła: chmura pokazuje liczby wszystkich haseł z danym tagiem', () => {
   const bezWyboru = renderListe('pojecie');
   const licznik = (dokument, tag) => dokument.match(new RegExp(`>${tag} <span class="licznik">(\\d+)</span>`))[1];
   assert.equal(licznik(html, 'najazd'), licznik(bezWyboru, 'najazd'));
+});
+
+test('każda lista odrzuca klucze spoza własnego zestawu, także w data-query (ADR 0034)', () => {
+  const scena = renderListe('scena', {
+    rozmiar: '300', tagi: 'labor', epizod: 'srw-oe-ep1', postac: 'noa-izumi',
+  });
+  const querySceny = suroweQuery(scena);
+  assert.match(querySceny, /postac/);
+  assert.doesNotMatch(querySceny, /rozmiar|tagi|epizod/, 'scena nie przenosi kontrolek galerii ani haseł');
+
+  const mech = renderListe('mech', { tagi: 'labor', postac: 'noa-izumi', rozmiar: '300' });
+  const queryMecha = suroweQuery(mech);
+  assert.match(queryMecha, /rozmiar/);
+  assert.doesNotMatch(queryMecha, /tagi|postac/);
+  assert.equal(linkiMechow(mech).length, mechy.length, 'obce klucze nie zawężają galerii');
+
+  // Hasła nie mają pola serii: przed poprawką ten niewidzialny filtr dawał pustą listę.
+  const bezUkrytegoFiltra = renderListe('pojecie', { seria: 'mobile-police-patlabor' });
+  assert.deepEqual(linkiHasel(bezUkrytegoFiltra), hasla.map((p) => p.slug).sort());
+  assert.doesNotMatch(bezUkrytegoFiltra, /filtru-jest/);
+
+  const poTagu = renderListe('pojecie', { seria: 'mobile-police-patlabor', tagi: 'labor' });
+  const oczekiwane = hasla.filter((p) => (p.tagi ?? []).includes('labor')).map((p) => p.slug).sort();
+  assert.deepEqual(linkiHasel(poTagu), oczekiwane, 'działa własny filtr tagów, nie obca seria');
+
+  const seria = renderListe('seria', { gra: 'srw-oe', rozmiar: '300', tagi: 'labor' });
+  const querySerii = suroweQuery(seria);
+  assert.match(querySerii, /gra/);
+  assert.doesNotMatch(querySerii, /rozmiar|tagi/);
 });
 
 test('epizody i sceny mają filtry Gra, Seria, Mech, Postać (ADR 0034)', () => {
