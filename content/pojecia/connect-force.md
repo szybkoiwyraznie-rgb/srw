@@ -24,6 +24,6 @@ W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] 
 }}
 {{zrodlo gra=srw-oe
 
-- Connect Force to specjalna jednostka bojowa cywilnej firmy handlowej Connect ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
-- Japońska Wikipedia opisuje Connect jako firmę handlową, a Connect Force jako jej jednostkę bojową ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend)).
+- Connect Force to specjalna jednostka bojowa cywilnej firmy handlowej Connect ([TV Tropes, *Characters in Super Robot Wars OE*](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-24).
+- Japońska Wikipedia opisuje Connect jako firmę handlową, a Connect Force jako jej jednostkę bojową ([Wikipedia JP, *スーパーロボット大戦Operation Extend*](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend); sprawdzono 2026-10-24).
 }}

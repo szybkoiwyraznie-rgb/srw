@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-24 22:50
+
+- [[evil-god-drago|Zły Bóg Drago]] z prologu [[srw-oe|Super Robot Wars OE]] ma potwierdzone źródłowo powiązanie z serialem *Jushin Liger*: japońska Wikipedia gry wymienia 邪神ドラゴ wśród złowrogich istot fabuły i odsyła linkiem do pierwowzoru, więc dawny domysł opisano teraz jako sprawdzone źródło.
+
 ## 2026-10-24 22:25
 
 - [[srw-oe-ep1|Epizod 1]] ma ósmą misję — [[srw-oe-ep1-sledztwo-pod-przykrywka|„Śledztwo pod przykrywką”]]: [[asuma-shinohara|Asuma]] odkrywa podejrzany program w kopii wzorcowej [[shinohara-hos|Shinohara HOS]] w zakładzie [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji, [[exart|Exart]] i Drugi Pluton [[sv2|SV2]] zatrzymują osiem uzbrojonych [[labor|Laborów]] [[sily-samoobrony-japonii|Sił Samoobrony]] ([[hal-x10-green|HAL-X10/Green]] i [[helldiver|Helldivery]]), a cały pluton — wraz z [[kanuka-clancy|Kanuką]] — zostaje oddelegowany na [[stacja-connect|stację Connect]].

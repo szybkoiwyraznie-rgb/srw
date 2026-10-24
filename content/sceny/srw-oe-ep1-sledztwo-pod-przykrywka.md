@@ -5,7 +5,6 @@ tytul: Śledztwo pod przykrywką
 numer_sceny: "1-8"
 epizod: srw-oe-ep1
 gry: [srw-oe]
-serie: [super-robot-wars-original, mobile-police-patlabor, patlabor-the-movie]
 postacie:
   - seishiro
   - himari-yaegaki
