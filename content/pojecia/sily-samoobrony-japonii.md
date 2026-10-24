@@ -23,5 +23,5 @@ Wojsko Japonii, które na poligonie Fuji prowadzi wspólne ćwiczenia z policyjn
 
 W [[mobile-police-patlabor|pierwowzorze]] Siły Samoobrony mają własne [[labor|Labory]] bojowe, kupowane od tych samych wytwórni co policyjne. [[helldiver|ARL-99 Helldiver]] ze Shinohara Heavy Industries służy do desantu: samoloty transportowe lotnictwa przerzucają go na miejsce i zrzucają przed piechotą spadochronową, żeby od razu związał siły przeciwnika ([Patlabor Wiki, „ARL-99 Helldiver”](https://patlabor.fandom.com/wiki/ARL-99_Helldiver); sprawdzono 2026-10-24).
 
-Doświadczalny [[hal-x10|HAL-X10]] powstał z kolei na zamówienie wojsk lądowych jako broń nowej generacji, łącząca siłę czołgu z ruchliwością maszyny kroczącej; pierwsze seryjne egzemplarze planowano na październik 2003 roku, a wejście do służby na 2005 ([Patlabor Wiki, „HAL X-10”](https://patlabor.fandom.com/wiki/HAL_X-10); sprawdzono 2026-10-24).
+Doświadczalny [[hal-x10-green|HAL-X10]] powstał z kolei na zamówienie wojsk lądowych jako broń nowej generacji, łącząca siłę czołgu z ruchliwością maszyny kroczącej; pierwsze seryjne egzemplarze planowano na październik 2003 roku, a wejście do służby na 2005 ([Patlabor Wiki, „HAL X-10”](https://patlabor.fandom.com/wiki/HAL_X-10); sprawdzono 2026-10-24).
 }}

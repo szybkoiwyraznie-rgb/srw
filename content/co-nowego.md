@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-24 11:47
+
+- Wszystkie źródłowe opisy serialowego incydentu — [[srw-oe-ep1-szalejacy-prototyp-labora|scena „Szalejący prototyp Labora”]], [[poligon-fuji|Poligon Fuji]] i [[sily-samoobrony-japonii|Siły Samoobrony]] — dotyczą teraz [[hal-x10-green|HAL-X10 z wersji TV]], odrębnego od wariantu kinowego.
+
 ## 2026-10-24 11:45
 
 - [[gundam-ground-type-glowa-gm|GM Head]] ma konkretne tło: uszkodzona maszyna [[karen-joshua|Karen]] otrzymała głowę RGM-79[G] GM Ground Type, ponieważ Ground Type’y nie miały zapasowych podzespołów. Opis wskazuje teraz źródło samej nazwy wariantu.

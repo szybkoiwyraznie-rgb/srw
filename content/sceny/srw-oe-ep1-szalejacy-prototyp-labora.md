@@ -510,9 +510,9 @@ Scena nie rozstrzyga, kto stoi za utratą kontroli nad [[hal-x10|HAL-X10]]. [[se
 
 ## Nawiązania do oryginalnych odcinków
 
-Wydarzenia z tej sceny — wspólne ćwiczenia na [[poligon-fuji|poligonie Fuji]], bezzałogowy [[hal-x10|HAL-X10]], który zaczyna strzelać ostrą amunicją, i walka o jego unieruchomienie — nawiązują do **piątego odcinka** serialu [[mobile-police-patlabor|*Mobile Police Patlabor: On Television*]], zatytułowanego „Runaway Labor X-10!”.
+Wydarzenia z tej sceny — wspólne ćwiczenia na [[poligon-fuji|poligonie Fuji]], bezzałogowy [[hal-x10-green|HAL-X10]], który zaczyna strzelać ostrą amunicją, i walka o jego unieruchomienie — nawiązują do **piątego odcinka** serialu [[mobile-police-patlabor|*Mobile Police Patlabor: On Television*]], zatytułowanego „Runaway Labor X-10!”.
 
-W oryginale [[hal-x10|HAL-X10]] jest prototypem [[labor|Labora]] badanym przez [[sily-samoobrony-japonii|Siły Samoobrony]]: podczas prób w górach maszyna wymyka się spod kontroli i rusza w stronę najbliższego miasta, a wojsko stara się zatrzeć jej oznaczenia. Do pościgu rusza Drugi Pluton [[sv2|SV2]]; [[asuma-shinohara|Asuma]] wchodzi na pokład maszyny i wyjmuje dysk główny. Gra przenosi ten ciąg zdarzeń na poligon i wplata go w ćwiczenia z [[connect-force|Connect]], a maszynę zatrzymuje celny strzał w stawy według wskazówki [[asuma-shinohara|Asumy]]. W obu wersjach sprawa ma pozostać ukryta przed opinią publiczną ([Patlabor Wiki, „Runaway Labor X-10!”](https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!); sprawdzono 2026-10-22).
+W oryginale [[hal-x10-green|HAL-X10]] jest prototypem [[labor|Labora]] badanym przez [[sily-samoobrony-japonii|Siły Samoobrony]]: podczas prób w górach maszyna wymyka się spod kontroli i rusza w stronę najbliższego miasta, a wojsko stara się zatrzeć jej oznaczenia. Do pościgu rusza Drugi Pluton [[sv2|SV2]]; [[asuma-shinohara|Asuma]] wchodzi na pokład maszyny i wyjmuje dysk główny. Gra przenosi ten ciąg zdarzeń na poligon i wplata go w ćwiczenia z [[connect-force|Connect]], a maszynę zatrzymuje celny strzał w stawy według wskazówki [[asuma-shinohara|Asumy]]. W obu wersjach sprawa ma pozostać ukryta przed opinią publiczną ([Patlabor Wiki, „Runaway Labor X-10!”](https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!); sprawdzono 2026-10-22).
 
 }}
 

@@ -126,6 +126,18 @@ test('hasła świata Patlabora mają tło z pierwowzoru (ADR 0008, ADR 0013)', (
   assert.match(bySlug.get('sily-samoobrony-japonii').body, /przed piechotą\s*\n?\s*spadochronową/);
 });
 
+test('źródłowe nawiązania do serialu Patlabor linkują wariant TV HAL-X10', () => {
+  for (const slug of ['srw-oe-ep1-szalejacy-prototyp-labora', 'poligon-fuji', 'sily-samoobrony-japonii']) {
+    const bloki = [...bySlug.get(slug).body.matchAll(/^\{\{zrodlo[^\n]*\n([\s\S]*?)^\}\}$/gm)]
+      .map((m) => m[1]).filter((blok) => blok.includes('[[mobile-police-patlabor|'));
+    assert.ok(bloki.length > 0, `${slug}: blok nawiązania do serialu`);
+    for (const blok of bloki) {
+      assert.match(blok, /\[\[hal-x10-green\|HAL-X10\]\]/, `${slug}: wariant TV`);
+      assert.doesNotMatch(blok, /\[\[hal-x10\|HAL-X10\]\]/, `${slug}: bez wariantu kinowego`);
+    }
+  }
+});
+
 test('encje bez pierwowzoru poza bazą źródeł nie dostają zmyślonego tła (ADR 0012, ADR 0018)', () => {
   // Zbiorcze profile, sprzęt pola walki i jednostki oryginalne nie mają osobnego
   // pierwowzoru do zacytowania — pusty blok byłby zmyśleniem.
