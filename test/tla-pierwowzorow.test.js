@@ -104,3 +104,32 @@ test('maszyny Zeonu mają tło techniczne z pierwowzoru (ADR 0008, ADR 0013)', (
   const tloTriStars = bySlug.get('dom').body.match(/^\{\{zrodlo[\s\S]*?^\}\}$/m)[0];
   assert.notEqual(tloDoma, tloTriStars);
 });
+
+test('hasła świata Patlabora mają tło z pierwowzoru (ADR 0008, ADR 0013)', () => {
+  sprawdzBlok('labor', ['https://patlabor.fandom.com/wiki/Labor',
+    'https://patlabor.fandom.com/wiki/Patlabor',
+    'https://patlabor.fandom.com/wiki/AV-98_Ingram']);
+  sprawdzBlok('sv2', ['https://patlabor.fandom.com/wiki/Special_Vehicles_Section_2',
+    'https://en.wikipedia.org/wiki/List_of_Patlabor_characters']);
+  sprawdzBlok('poligon-fuji', ['https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!']);
+  sprawdzBlok('sily-samoobrony-japonii', ['https://patlabor.fandom.com/wiki/ARL-99_Helldiver',
+    'https://patlabor.fandom.com/wiki/HAL_X-10']);
+  assert.match(bySlug.get('labor').body, /patlabory/);
+  assert.match(bySlug.get('sv2').body, /powołany w 1996 roku/);
+  assert.match(bySlug.get('poligon-fuji').body, /pod Gotembą/);
+  assert.match(bySlug.get('sily-samoobrony-japonii').body, /przed piechotą\s*\n?\s*spadochronową/);
+});
+
+test('encje bez pierwowzoru poza bazą źródeł nie dostają zmyślonego tła (ADR 0012, ADR 0018)', () => {
+  // Zbiorcze profile, sprzęt pola walki i jednostki oryginalne nie mają osobnego
+  // pierwowzoru do zacytowania — pusty blok byłby zmyśleniem.
+  const bezTla = ['oficer-federacji', 'oficer-zeonu', 'zolnierz-federacji', 'zolnierz-jsdf',
+    'zolnierz-zeonu', 'control-ai', 'shinohara-hos', 'turret', 'h-bomb-missile',
+    'cybird', 'exart'];
+  for (const slug of bezTla) {
+    const page = bySlug.get(slug);
+    assert.ok(page, `${slug}: strona istnieje`);
+    assert.doesNotMatch(page.body, /\{\{zrodlo/, `${slug}: brak bloku tła`);
+    assert.ok(!page.zrodla || page.zrodla.length === 0, `${slug}: brak adresów w zrodla`);
+  }
+});

@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-10-24 09:43
+
+- [[labor|Labory]] mają rodowód: zaczęły jako maszyny budowlane, a gdy pojawiły się przestępstwa z ich udziałem, policje sięgnęły po „patlabory” — pierwsze były przemalowanym sprzętem z budowy, dopiero kolejne pokolenia projektowano pod służbę.
+- [[sv2|SV2]] powstało w 1996 roku i ma dwa plutony oraz własny warsztat; Pierwszym dowodzi podręcznikowa kapitan Nagumo, przeciwieństwo [[kiichi-goto|Goto]].
+- [[poligon-fuji|Poligon Fuji]] to teren ćwiczeń wojska pod Gotembą, a [[sily-samoobrony-japonii|Siły Samoobrony]] mają tam własne Labory: desantowego [[helldiver|Helldivera]] i doświadczalnego [[hal-x10|HAL-X10]], zamówionego jako broń nowej generacji.
+
 ## 2026-10-24 09:40
 
 - Załoga [[white-base|White Base]] zyskuje tło z pierwowzoru: [[kai-shiden|Kai]] siadł za sterami [[guncannon|Guncannona]], bo okrętowi brakowało ludzi, [[hayato-kobayashi|Hayato]] zgłosił się do [[guntank|Guntanka]] z rywalizacji z [[amuro-ray|Amurem]], a [[oscar-dublin|Oscar]] i [[marker|Marker]] obsługują dwie konsole mostka — prawo- i lewoburtową.
