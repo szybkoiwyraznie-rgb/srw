@@ -118,9 +118,10 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Ratunek klucza Medei i lot do Jaburo',
       'Medea i lekkie uzbrojenie transportowca',
       // scena 1-7: Szalejący Labor powraca
+      'Sakaki i stałe dyżury SV2',
       'Szalejące Labory firmy ochroniarskiej',
       'Wspólna obrona placu budowy',
-      'Sakaki, Bud, Utsumi i Kurosaki',
+      'Obserwacja walki przez Buda, Utsumiego i Kurosakiego',
     ],
   };
 

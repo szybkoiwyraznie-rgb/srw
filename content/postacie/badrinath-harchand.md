@@ -32,8 +32,6 @@ W [[mobile-police-patlabor|pierwowzorze]] Badrinath Harchand, znany jako Bud, je
 
 **Nazwa skrócona:** Bud
 
-**Przekierowanie po stronie gracza (+100):** Badrinath Harchand (Ally) — ten rekord obowiązuje wyłącznie po stronie wroga; w oddziale gracza silnik przełącza profil.
-
 | Parametr | Wartość bazowa |
 |---|---:|
 | SP | 60 |

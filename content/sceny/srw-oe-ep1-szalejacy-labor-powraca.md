@@ -17,6 +17,9 @@ sekcje_analizy:
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/List_of_Patlabor_characters
+  - https://en.wikipedia.org/wiki/List_of_Patlabor_episodes
+  - https://patlabor.fandom.com/wiki/Suspicious_Duo
+  - https://en.wikipedia.org/wiki/Patlabor:_The_Movie
 postacie: [kanuka-clancy, noa-izumi, isao-ota, asuma-shinohara, mikiyasu-shinshi, hiromi-yamazaki, kiichi-goto, seitaro-sakaki, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, control-ai, badrinath-harchand, utsumi, kurosaki]
 mechy: [ingram-nr-1, ingram-nr-2, raijin-oh, brocken]
 pojecia: [sv2, labor, klasa-obrony-ziemi]
@@ -268,11 +271,15 @@ Shinshi potwierdza, że wszystkie szalejące Labory zamilkły, a [[maria-shirato
 
 {{zrodlo gra=wspolne
 
-## Nawiązania do pierwowzoru
+## Nawiązania do oryginalnych odcinków
 
-Wspólna akcja Drugiego Plutonu i Raijin-Oha należy do scenariusza gry; nie ma podstaw do przypisania jej konkretnemu epizodowi *Patlabora* lub *Matchless Raijin-Oh*.
+Wydarzenia z tej sceny — wizyta [[utsumi|Utsumiego]], [[kurosaki|Kurosakiego]] i [[badrinath-harchand|Buda]] na placu budowy, obserwacja na żywo walki Ingramów Drugiego Plutonu, gwałtowny ostrzał [[isao-ota|Oty]] z działa rewolwerowego oraz uwaga Buda, że [[noa-izumi|Noa]] coraz bardziej ufa swojej maszynie — nawiązują do **dwudziestego ósmego odcinka** serialu [[mobile-police-patlabor|*Mobile Police Patlabor*]], „Suspicious Duo” (*Ayashii futari*), w którym cała trójka debiutuje ([Wikipedia, „List of Patlabor episodes”](https://en.wikipedia.org/wiki/List_of_Patlabor_episodes); [Patlabor Wiki, „Suspicious Duo”](https://patlabor.fandom.com/wiki/Suspicious_Duo); sprawdzono 2026-10-24).
 
-W [[mobile-police-patlabor|pierwowzorze]] [[seitaro-sakaki|Sakaki]] kieruje mechanikami obsługującymi [[sv2|SV2]]. [[badrinath-harchand|Bud]] jest młodym pilotem i rywalem [[noa-izumi|Noi]], Utsumi kieruje jednym z eksperymentalnych wydziałów SHAFT zajmujących się rozwojem Laborów, a Kurosaki jest jego prawą ręką ([Wikipedia, „List of Patlabor characters”](https://en.wikipedia.org/wiki/List_of_Patlabor_characters); sprawdzono 2026-10-24).
+Gra łączy ten wątek z zawiązaniem filmu kinowego [[patlabor-the-movie|*Patlabor: The Movie*]], który otwiera seria niewyjaśnionych wypadków bezzałogowych [[labor|Laborów]] wymykających się spod kontroli w Tokio i całodobowa gotowość [[sv2|SV2]], podczas gdy [[asuma-shinohara|Asuma]] i [[kiichi-goto|Goto]] zwracają uwagę na powtarzalność incydentów ([Wikipedia, *Patlabor: The Movie*](https://en.wikipedia.org/wiki/Patlabor:_The_Movie); sprawdzono 2026-10-24).
+
+Scenariusz zmienia miejsce i skład starcia względem serialu. W odcinku „Suspicious Duo” Drugi Pluton walczy w dzielnicy Rinko z pojedynczym obsadzonym Laborem budowlanym SR-70 Saturn. W grze w siódmym okręgu szaleje pięć bezzałogowych [[brocken|Brockenów]] firmy ochroniarskiej, w plutonie działa [[kanuka-clancy|Kanuka]], a do obrony wyznaczonego kwartału dołącza [[raijin-oh|Raijin-Oh]] [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] ([Patlabor Wiki, „Suspicious Duo”](https://patlabor.fandom.com/wiki/Suspicious_Duo); sprawdzono 2026-10-24).
+
+W [[mobile-police-patlabor|pierwowzorze]] [[seitaro-sakaki|Sakaki]] kieruje mechanikami obsługującymi [[sv2|SV2]], [[badrinath-harchand|Bud]] jest młodym pilotem i rywalem [[noa-izumi|Noi]], Utsumi kieruje eksperymentalnym projektem Laborów w japońskim oddziale Schaft Enterprises, a Kurosaki jest jego prawą ręką ([Wikipedia, „List of Patlabor characters”](https://en.wikipedia.org/wiki/List_of_Patlabor_characters); sprawdzono 2026-10-24).
 }}
 
 {{skrypt gra=srw-oe

@@ -53,7 +53,17 @@ function sekcje(body) {
 const zNawiazaniami = sceny.filter((s) => s.body.includes(NAGLOWEK));
 
 test('nawiązania stoją w osobnym bloku źródła między analizą a wątkami sceny', () => {
-  assert.ok(zNawiazaniami.length >= 3, 'przynajmniej trzy sceny mają nawiązania do odcinków');
+  assert.ok(zNawiazaniami.length >= 6, 'sceny odwołujące się do odcinków mają blok nawiązań');
+  // Żadna scena nie może użyć wariantowego nagłówka (np. „Nawiązania do pierwowzoru”),
+  // bo render-scene.js przenosi do prawej kolumny wyłącznie dokładny tytuł sekcji.
+  for (const s of sceny) {
+    for (const sekcja of sekcje(s.body)) {
+      if (sekcja.poziom === 'zrodlo' || /^Nawiązania\b/i.test(sekcja.tytul)) {
+        assert.equal(sekcja.tytul, 'Nawiązania do oryginalnych odcinków',
+          `${s.slug}: sekcja źródłowa w scenie musi nosić tytuł „Nawiązania do oryginalnych odcinków”`);
+      }
+    }
+  }
   for (const s of zNawiazaniami) {
     const lista = sekcje(s.body);
     const tytuly = lista.map((x) => x.tytul);
@@ -80,11 +90,12 @@ test('każdy adres z bloku nawiązań jest zadeklarowany w zrodla', () => {
   }
 });
 
-test('trzy sceny wskazują właściwe odcinki oryginałów', () => {
+test('sceny z nawiązaniami wskazują właściwe odcinki oryginałów', () => {
   const oczekiwane = [
     ['srw-oe-ep0-na-ratunek-white-base', /pierwszego odcinka/, /Gundam Rising/, 'https://gundam.fandom.com/wiki/Gundam_Rising'],
     ['srw-oe-ep1-szalejacy-prototyp-labora', /piątego odcinka/, /Runaway Labor X-10/, 'https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!'],
     ['srw-oe-ep1-black-tri-stars', /dwudziestego czwartego odcinka/, /Black Tri-Star/, 'https://gundam.fandom.com/wiki/Black_Tri-Star'],
+    ['srw-oe-ep1-szalejacy-labor-powraca', /dwudziestego ósmego odcinka/, /Suspicious Duo/, 'https://patlabor.fandom.com/wiki/Suspicious_Duo'],
   ];
   for (const [slug, odcinek, tytul, url] of oczekiwane) {
     const s = bySlug.get(slug);

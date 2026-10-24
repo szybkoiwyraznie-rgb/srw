@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-24 21:48
+
+- [[srw-oe-ep1-szalejacy-labor-powraca|„Szalejący Labor powraca”]] i [[srw-oe-ep1|Epizod 1]] wskazują teraz pierwowzór obserwacji walki Ingramów przez [[utsumi|Utsumiego]], [[kurosaki|Kurosakiego]] i [[badrinath-harchand|Buda]]: 28. odcinek [[mobile-police-patlabor|*Mobile Police Patlabor*]] („Suspicious Duo”), połączony w grze z motywem serii bezzałogowych incydentów z otwarcia [[patlabor-the-movie|*Patlabor: The Movie*]].
+
 ## 2026-10-24 21:26
 
 - [[srw-oe-ep1|Epizod 1]] ma siódmą misję — [[srw-oe-ep1-szalejacy-labor-powraca|„Szalejący Labor powraca”]]: Drugi Pluton [[sv2|SV2]] i [[raijin-oh|Raijin-Oh]] powstrzymują pięć bezzałogowych [[brocken|Brockenów]], ale przyczyna serii incydentów pozostaje nieznana.
@@ -17,7 +21,7 @@
 
 ## 2026-10-24 19:06
 
-- Załoga [[medea|Medei]] ma właściwą kolejność: najpierw [[oficer-federacji|Oficer Federacji]] z misji ratunkowej, potem domyślny [[zolnierz-jsdf|żołnierz JSDF]].
+- Załogę [[medea|Medei]] tworzą [[oficer-federacji|Oficer Federacji]] prowadzący klucz transportowców do [[jaburo|Jaburo]] oraz [[zolnierz-jsdf|żołnierz JSDF]] z ćwiczeń na poligonie Fuji.
 
 ## 2026-10-24 16:14
 

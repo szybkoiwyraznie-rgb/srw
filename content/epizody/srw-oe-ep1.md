@@ -27,6 +27,9 @@ zrodla:
   - https://gundam.fandom.com/wiki/How_Many_Miles_to_the_Battlefield%3F
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team
   - https://gundam.fandom.com/wiki/Medea
+  - https://en.wikipedia.org/wiki/List_of_Patlabor_episodes
+  - https://patlabor.fandom.com/wiki/Suspicious_Duo
+  - https://en.wikipedia.org/wiki/Patlabor:_The_Movie
 tagi: [patlabor, trening, one-year-war, eldran, gundam-0080, 08th-ms-team, connect, gundam-1979, sv2, jsdf, zeon, federacja, klasa-obrony-ziemi]
 utworzono: 2026-10-21
 ---
@@ -101,9 +104,10 @@ Drugi Pluton [[sv2|SV2]] pozostaje w gotowości mimo zmęczenia i kryzysu małż
 | Przeniesienie oddziału do Jaburo | [[srw-oe\|Super Robot Wars OE]] | n/d | Zakończenie misji i oczekiwanie na transportowiec należą do przebiegu gry. |
 | Ratunek klucza Medei i lot do Jaburo | [[srw-oe\|Super Robot Wars OE]] | n/d | Misja eskortowa rozwija rozgrywkowy wątek przenosin oddziału; nie ma wskazanego odpowiednika odcinka. |
 | Medea i lekkie uzbrojenie transportowca | [[mobile-suit-gundam-08th-ms-team\|The 08th MS Team]] | cała seria | Oryginał przedstawia Medeę jako transport Federacji z karabinami przeciwlotniczymi; konkretna akcja ratunkowa należy do gry. |
-| Szalejące Labory firmy ochroniarskiej | [[mobile-police-patlabor\|Patlabor]] | cała seria | Brockeny i zagrożenie wymykającymi się spod kontroli Laborami pochodzą z tego świata; przedstawiona akcja nie ma wskazanego odpowiednika odcinka. |
+| Sakaki i stałe dyżury SV2 | [[mobile-police-patlabor\|Patlabor]] | cała seria | Sakaki zachowuje rolę szefa mechaników pilnującego stanu Ingramów podczas wyczerpujących dyżurów plutonu. |
+| Szalejące Labory firmy ochroniarskiej | [[mobile-police-patlabor\|Patlabor]] | cała seria | Brockeny pochodzą z tego świata, a seria niewyjaśnionych incydentów bezzałogowych Laborów i ciągłej gotowości SV2 nawiązuje do zawiązania filmu kinowego z 1989 roku. |
 | Wspólna obrona placu budowy | [[srw-oe\|Super Robot Wars OE]] | n/d | Współdziałanie Drugiego Plutonu SV2 z Raijin-Ohem oraz rywalizacja o wykonanie zadania należą do scenariusza gry. |
-| Sakaki, Bud, Utsumi i Kurosaki | [[mobile-police-patlabor\|Patlabor]] | cała seria | Postacie zachowują role techniczne lub obserwatorskie; konkretna rozmowa o rozwoju Noi po walce należy do gry. |
+| Obserwacja walki przez Buda, Utsumiego i Kurosakiego | [[mobile-police-patlabor\|Patlabor]] | odc. 28 „Suspicious Duo” | W odcinku trójka debiutuje na placu budowy, obserwuje walkę Ingramów z obsadzonym Laborem SR-70 Saturn i komentuje zaufanie Noi do maszyny; w grze przeciwnikami jest pięć bezzałogowych Brockenów, a w obronie uczestniczy też Raijin-Oh. |
 
 ## Komentarz
 
@@ -142,5 +146,5 @@ Siódma misja wraca do policyjnego zespołu i zestawia jego profesjonalizm z ryw
 - Pierwszy odcinek [[mobile-suit-gundam-0080|*Mobile Suit Gundam 0080*]] przenosi atak Cyclops na bazę Federacji i udany start nowego Gundama; gra zmienia arktyczne otoczenie, maszyny obrońców i los Andy’ego ([MAHQ, „How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); [Gundam Wiki, odc. 1](https://gundam.fandom.com/wiki/How_Many_Miles_to_the_Battlefield%3F); sprawdzono 2026-10-23).
 - [[08-pluton-ms|08. Pluton MS]] pochodzi z 12-odcinkowej OVA [[mobile-suit-gundam-08th-ms-team|*The 08th MS Team*]] o naziemnym oddziale Federacji w Azji Południowo-Wschodniej. W serialu Eledore prowadzi wóz wsparcia, a Michel jest nawigatorem i celowniczym; gra przypisuje im odwrotne role załogi ([Wikipedia, *Mobile Suit Gundam: The 08th MS Team*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
 - [[medea|Medea]] to samolot transportowy Federacji przewożący zaopatrzenie i mobile suity, uzbrojony jedynie w karabiny przeciwlotnicze ([Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24). W epizodzie gry pełni rolę najpierw jednostki wsparcia JSDF, a potem transportu 08. Plutonu do Jaburo.
-- W *Patlabor* [[seitaro-sakaki|Sakaki]] kieruje mechanikami SV2, [[badrinath-harchand|Bud]] jest młodym pilotem i rywalem Noi, Utsumi kieruje eksperymentalnym wydziałem SHAFT, a Kurosaki jest jego prawą ręką ([Wikipedia, „List of Patlabor characters”](https://en.wikipedia.org/wiki/List_of_Patlabor_characters); sprawdzono 2026-10-24). Wspólna akcja z Raijin-Ohem i ich rozmowa po walce na placu budowy należą do scenariusza gry.
+- W *Patlabor* [[seitaro-sakaki|Sakaki]] kieruje mechanikami SV2, [[badrinath-harchand|Bud]] jest młodym pilotem i rywalem Noi, Utsumi kieruje eksperymentalnym projektem Laborów w Schaft Enterprises, a Kurosaki jest jego prawą ręką ([Wikipedia, „List of Patlabor characters”](https://en.wikipedia.org/wiki/List_of_Patlabor_characters); sprawdzono 2026-10-24). Wizyta Utsumiego, Kurosakiego i Buda na placu budowy oraz ocena rosnącego zaufania Noi do Ingrama pochodzą z 28. odcinka serialu, „Suspicious Duo”, połączonego w grze z motywem serii bezzałogowych incydentów z otwarcia [[patlabor-the-movie|*Patlabor: The Movie*]] i wspólną obroną z Raijin-Ohem ([Wikipedia, „List of Patlabor episodes”](https://en.wikipedia.org/wiki/List_of_Patlabor_episodes); [Patlabor Wiki, „Suspicious Duo”](https://patlabor.fandom.com/wiki/Suspicious_Duo); [Wikipedia, *Patlabor: The Movie*](https://en.wikipedia.org/wiki/Patlabor:_The_Movie); sprawdzono 2026-10-24).
 }}
