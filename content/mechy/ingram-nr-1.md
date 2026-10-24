@@ -9,7 +9,7 @@ w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_1.txt", "profil": "Ingram nr 1", "dane": "**Seria:** Mobile Police Patlabor\n### Macierzyste zdolności maszyny\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n- **Kogut (poziom bazowy 1):** Morale wroga-14 Szansa 24%\n**Składy grup zapisane w tabeli:** SV2, 2. Pluton.\n**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**\n- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.; Może zamienić się z jedn. grupy; Tylko w wybranych misjach\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Działo rewolwerowe | 1400 | 1–4 | +20 | 5 | — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu; **Ucieczka (poziom bazowy 1):** Unik+18% |\n| 1 | Pałka paraliżująca | 2200 | 1–1 | +60 | 0 | — | Brak w tym polu | **Garda (poziom bazowy 1):** Obr+20%; **Ogłuszenie (poziom bazowy 1):** Bez kontry, dodatk. Obraż.500 Szansa 30% |\n| 2 | Schwytanie linką | 900 | 1–5 | +70 | 20 | 105 | Brak w tym polu | **Pojmanie (poziom bazowy 1):** Bez kontry, 1 tura: wróg Atk/Cel/Unik-20% otrz. Kryt+8%; (bez kontry tylko gdy trafi); **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód |"}'
 pochodzenie: menu
 zrodla:
-  - https://www.mahq.net/av-98-ova/
+  - https://www.mahq.net/av-98-tv/
   - https://patlabor.fandom.com/wiki/AV-98_Ingram
 tagi: [patlabor, sv2, labor, policja]
 utworzono: 2026-10-21
@@ -27,7 +27,7 @@ Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototy
 
 {{zrodlo gra=wspolne
 
-W [[mobile-police-patlabor|pierwowzorze]] AV-98 Ingram to policyjny [[labor|Labor]] Shinohara Heavy Industries, wprowadzony do służby w kwietniu 1998 roku i zaprojektowany od podstaw pod zadania policyjne. Mierzy 8,02 m i waży około sześciu ton, a siłowniki o dużej mocy pozwalają mu przytrzymać i unieruchomić większość Laborów. Pilot steruje dłońmi maszyny palec po palcu — wymaga to skupienia, ale daje precyzję niedostępną innym konstrukcjom; komputer pokładowy przejmuje przy tym czynności takie jak wyjmowanie broni czy dokowanie w transporterze. Uzbrojenie stanowią 37-milimetrowe działo rewolwerowe na sześć naboi, wożone w prawej goleni, i pałka paraliżująca schowana w tarczy na lewym przedramieniu ([MAHQ, „AV-98 Ingram (OVA/Movie version)”](https://www.mahq.net/av-98-ova/); [Patlabor Wiki, „AV-98 Ingram”](https://patlabor.fandom.com/wiki/AV-98_Ingram); sprawdzono 2026-10-24).
+W [[mobile-police-patlabor|pierwowzorze]] AV-98 Ingram to policyjny [[labor|Labor]] Shinohara Heavy Industries, wprowadzony do służby w kwietniu 1998 roku i zaprojektowany od podstaw pod zadania policyjne. Mierzy 8,02 m i waży około sześciu ton, a siłowniki o dużej mocy pozwalają mu przytrzymać i unieruchomić większość Laborów. Pilot steruje dłońmi maszyny palec po palcu — wymaga to skupienia, ale daje precyzję niedostępną innym konstrukcjom; komputer pokładowy przejmuje przy tym czynności takie jak wyjmowanie broni czy dokowanie w transporterze. Uzbrojenie stanowią 37-milimetrowe działo rewolwerowe na sześć naboi, wożone w prawej goleni, i pałka paraliżująca schowana w tarczy na lewym przedramieniu ([MAHQ, „AV-98 Ingram (TV version)”](https://www.mahq.net/av-98-tv/); [Patlabor Wiki, „AV-98 Ingram”](https://patlabor.fandom.com/wiki/AV-98_Ingram); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe

@@ -1,10 +1,15 @@
 # Co nowego
 
+## 2026-10-24 11:40
+
+- [[labor|AV-98 Ingram]] należy do drugiego pokolenia patlaborów. Tło [[ingram-nr-1|Ingrama nr 1]] i [[ingram-nr-2|Ingrama nr 2]] korzysta teraz ze źródła wersji TV, a opis Drugiego Plutonu wyjaśnia rolę egzemplarza nr 3 jako źródła części zapasowych.
+- [[kanuka-clancy|Kanuka]] ma opis sprawności i pilotażu bez nieuźródłowionej przesady, [[mikiyasu-shinshi|Shinshi]] jest nieśmiały i łatwo daje sobą pomiatać, a [[poligon-fuji|Poligon Fuji]] prowadzi do właściwego, serialowego wariantu [[hal-x10-green|HAL-X10]].
+
 ## 2026-10-24 09:43
 
 - [[labor|Labory]] mają rodowód: zaczęły jako maszyny budowlane, a gdy pojawiły się przestępstwa z ich udziałem, policje sięgnęły po „patlabory” — pierwsze były przemalowanym sprzętem z budowy, dopiero kolejne pokolenia projektowano pod służbę.
 - [[sv2|SV2]] powstało w 1996 roku i ma dwa plutony oraz własny warsztat; Pierwszym dowodzi podręcznikowa kapitan Nagumo, przeciwieństwo [[kiichi-goto|Goto]].
-- [[poligon-fuji|Poligon Fuji]] to teren ćwiczeń wojska pod Gotembą, a [[sily-samoobrony-japonii|Siły Samoobrony]] mają tam własne Labory: desantowego [[helldiver|Helldivera]] i doświadczalnego [[hal-x10|HAL-X10]], zamówionego jako broń nowej generacji.
+- [[poligon-fuji|Poligon Fuji]] to teren ćwiczeń wojska pod Gotembą, a [[sily-samoobrony-japonii|Siły Samoobrony]] mają tam własne Labory: desantowego [[helldiver|Helldivera]] i doświadczalnego [[hal-x10-green|HAL-X10]], zamówionego jako broń nowej generacji.
 
 ## 2026-10-24 09:40
 
