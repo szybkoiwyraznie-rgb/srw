@@ -62,12 +62,12 @@ Druga scena zmienia ton: szkolenie ustępuje miejsca wojnie, a neutralna organiz
 - Ranny [[paolo-cassius|Paolo]], improwizowana załoga [[white-base|White Base]] i pierwsze bezpośrednie starcie Gundama z [[char-aznable|Charem]] odpowiadają odcinkowi 2 „Destroy Gundam” ([Gundam Wiki, „Destroy Gundam”](https://gundam.fandom.com/wiki/Destroy_Gundam); sprawdzono 2026-10-22).
 - **[[dr-hell|Dr. Hell]]** wymieniony w prologu to postać z *Mazinger Z* Go Nagai. Jest niemieckim członkiem japońskiej
   wyprawy archeologicznej, która odkryła wyspę Bardos. Dowodzi Mechanicznymi Bestiami
-  ([en.wikipedia.org, *Mazinger Z*](https://en.wikipedia.org/wiki/Mazinger_Z)).
+  ([en.wikipedia.org, *Mazinger Z*](https://en.wikipedia.org/wiki/Mazinger_Z); sprawdzono 2026-10-25).
 - **Devil Gundam Incident** to wydarzenie z *Mobile Fighter G Gundam*, w którym Devil Gundam powstał z Ultimate
-  Gundam i zagrażał ludzkości ([en.wikipedia.org, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam)).
+  Gundam i zagrażał ludzkości ([en.wikipedia.org, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam); sprawdzono 2026-10-25).
   Patrz [[devil-gundam-incident|hasło]] i rozbieżność niżej.
 - **Connect Force** jest oryginalną jednostką tej gry, a nie nawiązaniem do innej serii
-  ([TV Tropes, *Characters in Super Robot Wars OE*](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE)).
+  ([TV Tropes, *Characters in Super Robot Wars OE*](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-25).
 }}
 {{wiedza gra=srw-oe
 
@@ -80,6 +80,6 @@ Skoro prolog rozgrywa się w U.C. 0079, incydent Devil Gundam należy w tym świ
 ## Inne źródła i rozbieżności
 
 - **Dwie chronologie.** Według Wikipedii *G Gundam* rozgrywa się w osobnej, alternatywnej osi czasu
-  Future Century, a nie w Universal Century ([Wikipedia, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam); sprawdzono 2026-10-19).
+  Future Century, a nie w Universal Century ([Wikipedia, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam); sprawdzono 2026-10-25).
   To różnica między chronologią oryginalnego anime a wspólnym światem gry.
 }}
