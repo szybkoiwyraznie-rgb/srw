@@ -206,11 +206,39 @@ test('encje i epizody mają ten sam układ dwukolumnowy', () => {
   const epizod = renderEpizod('srw-oe-ep1');
   const [glownaE, bocznaE] = kolejnosc(epizod, ['class="kolumna-glowna', 'class="kolumna-boczna']);
   assert.ok(glownaE < bocznaE);
-  const lewa = epizod.slice(glownaE, bocznaE);
   const prawa = epizod.slice(bocznaE);
-  assert.doesNotMatch(lewa, /<h2>Sceny<\/h2>/, 'lista scen nie stoi w lewej kolumnie');
-  const [obsadaE, scenyE] = kolejnosc(prawa, ['W tym epizodzie', '<h2>Sceny</h2>']);
-  assert.ok(obsadaE < scenyE, 'lista scen zamyka prawą kolumnę');
+  assert.match(prawa, /W tym epizodzie/, 'obsada zostaje w prawej kolumnie');
+  assert.doesNotMatch(prawa, /<h2>Sceny<\/h2>/, 'lista scen nie wraca do wąskiej kolumny');
+});
+
+test('epizod: sceny stoją na górze, na pełną szerokość', () => {
+  const epizod = renderEpizod('srw-oe-ep1');
+  const [sceny, uklad] = kolejnosc(epizod, ['blok-sceny-pelna', 'class="uklad-strona"']);
+  assert.ok(sceny < uklad, 'sekcja scen jest przed układem dwukolumnowym');
+  assert.match(epizod, /lista-scen-siatka/, 'sceny układają się w siatkę, nie w słupek');
+  assert.equal((epizod.match(/<h2>Sceny<\/h2>/g) ?? []).length, 1, 'jedna lista scen na stronie');
+  assert.match(css, /\.blok-sceny-pelna \{/, 'styl pełnej szerokości istnieje');
+
+  // Boks „Treść epizodu” zniknął razem z kopią skryptu w danych strony.
+  assert.doesNotMatch(epizod, /panel-skryptu/);
+  for (const s of Object.values(globalThis.SRW_DATA.strony)) {
+    assert.equal(Object.hasOwn(s, 'skryptTekst'), false, `${s.slug}: artefakt bez kopii skryptu`);
+  }
+});
+
+test('epizod 1: nagłówki misji prowadzą do stron scen', () => {
+  const epizod = renderEpizod('srw-oe-ep1');
+  const oczekiwane = [
+    ['srw-oe-ep1-szalejacy-prototyp-labora', 'Misja 1: Szalejący prototyp Labora'],
+    ['srw-oe-ep1-black-tri-stars', 'Misja 2: Black Tri-Stars'],
+    ['srw-oe-ep1-powstrzymaj-pocisk-termojadrowy', 'Misja 3: Powstrzymaj pocisk termojądrowy'],
+    ['srw-oe-ep1-trening-klasy-obrony', 'Misja 4: Trening Klasy Obrony'],
+    ['srw-oe-ep1-start-alexa', 'Misja 5: Start Alexa'],
+  ];
+  for (const [slug, tytul] of oczekiwane) {
+    const wzor = new RegExp(`<h3><a href="#/scena/${slug}"[^>]*>${tytul.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}</a></h3>`);
+    assert.match(epizod, wzor, `nagłówek „${tytul}” prowadzi do sceny`);
+  }
 });
 
 test('epizod: streszczenie, wątki i komentarz mają osobne boksy', () => {

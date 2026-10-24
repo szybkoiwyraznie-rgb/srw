@@ -32,13 +32,15 @@ utworzono: 2026-10-21
 
 ## Streszczenie
 
+### [[srw-oe-ep1-szalejacy-prototyp-labora|Misja 1: Szalejący prototyp Labora]]
+
 Na stacji [[connect-force|Connect]] [[suol|szef Suol]] informuje [[seishiro|Seishira]], że [[himari-yaegaki|Himari]] poleci z nim w [[exart|Exarcie]] na wspólne ćwiczenia z Siłami Samoobrony i policyjnym [[sv2|SV2]]. Wyjaśnia też, że organizacja szuka wsparcia u ugrupowań podzielających jej cele i że oddział będzie rósł.
 
 Na [[poligon-fuji|poligonie Fuji]] czekają [[zolnierz-jsdf|żołnierze JSDF]]. Himari, dla której to pierwszy wylot w terenie, siada za sterami obok Seishira. Do ćwiczeń dołącza Drugi Pluton SV2: [[noa-izumi|Noa Izumi]] w [[ingram-nr-1|Ingramie nr 1]], [[isao-ota|Isao Ota]] w [[ingram-nr-2|Ingramie nr 2]] oraz wóz dowodzenia z [[asuma-shinohara|Asumą]], kapitanem [[kiichi-goto|Goto]] i resztą plutonu.
 
 Ćwiczenia przerywa ogień ostrej amunicji: bezzałogowe [[hal-x10|HAL-X10]] wymykają się spod kontroli i ruszają w stronę zaludnionych terenów. Seishiro bierze odpowiedzialność na Connect i razem z SV2 oraz wojskiem niszczy szalejące maszyny. Po walce pluton rozmawia o wpływach Connect i plotkach o handlu z dalekim kosmosem.
 
-### Misja 2: Black Tri-Stars
+### [[srw-oe-ep1-black-tri-stars|Misja 2: Black Tri-Stars]]
 
 Transportowiec [[connect-force|Connect]] wraca z Japonii na Stację Connect. [[himari-yaegaki|Himari]] marznie w chłodnym wnętrzu, a [[seishiro|Seishiro]] tłumaczy, że [[exart|Exart]] zdołał wejść w atmosferę, ale z grawitacji wyrwie się tylko z transportem. [[suol|Szef Suol]] chwali przebieg ćwiczeń i zapowiada pomoc Connect w śledztwie w sprawie [[hal-x10|HAL-X10]].
 
@@ -46,19 +48,19 @@ Tymczasem w bazie [[zeon|Zeonu]] [[mquve|M'Quve]] przyjmuje posiłki od lady Kyc
 
 Okręt rozpyla [[minovsky-particles|cząstki Minovsky’ego]] i wysyła do walki [[rx-78-2-gundam|Gundam]], [[guncannon|Guncannon]], [[guntank|Guntank]] oraz [[g-fighter|G-Fighter]]. [[sayla-mass|Sayla]] odbywa pierwszy wylot, a załoga odpiera atak trzech [[dom|Domów]] i [[dopp|Doppów]]. Gdy [[jet-stream-attack|Jet Stream Attack]] nie zatrzymuje okrętu, [[gaia|Gaia]] zarządza odwrót. Po walce załoga wraca do przeglądów, a [[mirai-yashima|Mirai]] dodaje [[bright-noa|Brightowi]] odwagi przed dalszą drogą ku [[operacja-odessa|Odessie]].
 
-### Misja 3: Powstrzymaj pocisk termojądrowy
+### [[srw-oe-ep1-powstrzymaj-pocisk-termojadrowy|Misja 3: Powstrzymaj pocisk termojądrowy]]
 
 Federacja przełamuje ostatnią linię obrony Odessy. [[mquve|M'Quve]] żąda odwrotu wojsk pod groźbą użycia bomby wodorowej, ale [[general-revil|generał Revil]] nie ulega szantażowi i utrzymuje natarcie. Zwykłe oddziały Zeonu w [[dom-zolnierz-zeonu|Domach]], [[dopp|Doppach]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]] próbują osłonić drogę ku kosmodromowi.
 
 M'Quve odpala [[h-bomb-missile|pocisk termojądrowy]], łamiąc [[traktat-antarktyczny|Traktat Antarktyczny]]. [[bright-noa|Bright]] przesyła [[amuro-ray|Amurowi]] kurs oraz dane zapalnika, a [[rx-78-2-gundam|Gundam]] przecina go szablą wiązkową. Brak reakcji jądrowej potwierdza powodzenie, operacja Odessa kończy się zwycięstwem Federacji, a M'Quve wycofuje się z przekonaniem, że wysłane wcześniej surowce pozwolą Zeonowi walczyć jeszcze dziesięć lat.
 
-### Misja 4: Trening Klasy Obrony
+### [[srw-oe-ep1-trening-klasy-obrony|Misja 4: Trening Klasy Obrony]]
 
 [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] lecą [[exart|Exartem]] na wspólny trening z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]]. Himari po raz pierwszy leci za sterami, a [[seishiro|Seishiro]] chwali jej smykałkę i zapowiada, że w ćwiczeniach często odda jej stery — ma się nauczyć pracować pod presją.
 
 Na miejscu zamiast wroga czekają Labory treningowe, a [[maria-shiratori|Maria]] przyznaje, że urządziła ćwiczenia z zaskoczenia. Ramię w ramię z [[exart|Exartem]] walczy [[raijin-oh|Raijin-Oh]] z [[jin-hyuga|Jinem]], [[asuka-tsukishiro|Asuką]] i [[koji-hoshiyama|Kojim]] za sterami. Maria i [[tsutomu-kojima|Tsutomu]] tłumaczą zasady: nie chodzi o samo zwycięstwo, lecz o wykorzystanie terenu, dzięki któremu walka nie marnuje energii. Po zrzuceniu Labora [[seishiro|Seishiro]] wyjaśnia [[himari-yaegaki|Himari]], że upadek z wysokości zadaje celowi dodatkowe obrażenia. Po ćwiczeniach klasa zaprasza Seishira na odprawę, a rozmowa o [[connect-force|Connect]] kończy się, gdy Tsutomu ucina pytania o powody współpracy dorosłych.
 
-### Misja 5: Start Alexa
+### [[srw-oe-ep1-start-alexa|Misja 5: Start Alexa]]
 
 W górskiej bazie w Azji Środkowej [[christina-mackenzie|Christina Mackenzie]] przygotowuje się do transportu [[rx-78nt-1-gundam-alex|Alexa]] na [[libot|Libot]] w [[side-6|Side 6]]. Start osłania [[08-pluton-ms|08. Pluton MS]] dowodzony przez [[shiro-amada|Shiro Amadę]]. Rozmowa pilotów zestawia świetne wyniki Chris na symulatorze z doświadczeniem Shiro: na polu bitwy szybka reakcja maszyny może być bezpieczniejsza niż zbyt wolna.
 

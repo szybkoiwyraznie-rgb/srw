@@ -133,14 +133,12 @@ export async function zbudujDane({ root = ROOT } = {}) {
     }
     linki.delete(s.slug);
 
-    let skryptTekst = null;
+    // Skrypt epizodu zostaje archiwum w `episodes/` i wzorcem wierności scen.
+    // Do artefaktu nie trafia: dosłowny tekst czyta się po scenach, a kopia
+    // całego skryptu tylko podwajała ciężar danych w pamięci przeglądarki.
     if (s.typ === 'epizod' && s.skrypt) {
-      if (skrypty.has(s.skrypt)) {
-        skryptTekst = skrypty.get(s.skrypt);
-        uzyteSkrypty.add(s.skrypt);
-      } else {
-        problemy.push(`${s.slug}: odsyłacz "skrypt: ${s.skrypt}" nie istnieje w repozytorium`);
-      }
+      if (skrypty.has(s.skrypt)) uzyteSkrypty.add(s.skrypt);
+      else problemy.push(`${s.slug}: odsyłacz "skrypt: ${s.skrypt}" nie istnieje w repozytorium`);
     }
 
     // Scena: osobno renderowane boksy (treść, analiza, nawiązania, wątki) —
@@ -184,7 +182,7 @@ export async function zbudujDane({ root = ROOT } = {}) {
       }));
     }
 
-    wyrenderowane.set(s.slug, { html, linki: [...linki], skryptTekst, sekcje, boksy });
+    wyrenderowane.set(s.slug, { html, linki: [...linki], sekcje, boksy });
   }
 
   // Parzystość dostawy: skrypt bez wpisu epizodu = materiał do przetworzenia.
@@ -223,7 +221,6 @@ export async function zbudujDane({ root = ROOT } = {}) {
       linki: r.linki,
       tekst: naTekst(body),
       czas: datyGit(s.plik),
-      ...(r.skryptTekst ? { skryptTekst: r.skryptTekst, skryptOtwarty: false } : {}),
       ...(maSekcje ? { sekcje: r.sekcje } : {}),
       ...(maBoksy ? { boksy: r.boksy } : {}),
     };

@@ -1,12 +1,13 @@
 /**
  * Strona epizodu — serce dziennika rozgrywki.
  *
- * Układ: metryka rozegrania → skrypt (surowy tekst, zwijany) → treść
- * analityczna (streszczenie, sceny, wątki fabularne, komentarz) → obsada
- * i sprzęt wyciągnięte ze skryptu.
+ * Układ: metryka rozegrania → sceny epizodu (pełna szerokość) → treść
+ * analityczna (streszczenie, wątki fabularne, komentarz) → obsada i sprzęt
+ * wyciągnięte ze skryptu.
  *
- * Skrypt jest tu widoczny w całości, bo baza jest prywatnym archiwum
- * rozgrywki: bez źródła tekstowego analiza wisiałaby w powietrzu.
+ * Sceny stoją na samej górze, bo to przez nie czyta się epizod: każda misja
+ * ma własną stronę z dosłowną treścią i analizą, a streszczenie prowadzi do
+ * nich nagłówkami misji.
  */
 
 import { escapeHtml } from './markdown.js';
@@ -52,11 +53,7 @@ export function renderEpizod(slug) {
   ].filter(Boolean).join(' · ')}</p>` : ''}
 </div>
 
-${e.skryptTekst ? `
-<details class="panel-skryptu"${e.skryptOtwarty ? ' open' : ''}>
-  <summary>Treść epizodu</summary>
-  <pre class="skrypt">${escapeHtml(e.skryptTekst)}</pre>
-</details>` : ''}
+${sekcjaScen(e.slug, { pelna: true })}
 
 <div class="uklad-strona">
   <div class="kolumna-glowna tresc-encja">
@@ -77,7 +74,6 @@ ${e.skryptTekst ? `
       </nav>
     </div>
     ${sekcjaPowiazan('W tym epizodzie', grupy, {})}
-    ${sekcjaScen(e.slug)}
   </aside>
 </div>`;
 }
