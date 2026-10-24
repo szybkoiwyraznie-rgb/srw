@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-24 11:42
+
+- Profile [[control-ai|Control AI]] i [[shinohara-hos|Shinohara HOS]] nie mają już tagu `bezzalogowy`, zarezerwowanego dla mechów; tag pozostaje na sterowanych przez nie jednostkach.
+
 ## 2026-10-24 11:41
 
 - [[kai-shiden|Kai]] ma tło ograniczone do przydzielenia do [[guncannon|Guncannona]], bez informacji o końcu wojny. [[marker|Marker]] i [[oscar-dublin|Oscar]] zachowują potwierdzone role przy konsolach [[white-base|White Base]], ale bez stopni przeniesionych z odrębnego kontinuum *The Origin*.
