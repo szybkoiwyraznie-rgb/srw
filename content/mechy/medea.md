@@ -9,6 +9,7 @@ w_gre:
 pochodzenie: menu
 zrodla:
   - https://gundam.fandom.com/wiki/Medea
+  - https://www.mahq.net/medea/
 tagi: [jsdf, pojazd-wsparcia, federacja]
 utworzono: 2026-10-21
 ---
@@ -24,7 +25,9 @@ W [[srw-oe-ep1-ratuj-transportowiec-medea|misji „Ratuj transportowiec Medea”
 
 ## Pierwowzór
 
-Medea to wojskowy samolot transportowy Sił Zbrojnych [[earth-federation|Federacji Ziemskiej]], wprowadzony w anime *Mobile Suit Gundam* ([The Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-22). Przewoziła zaopatrzenie i mobile suity, a jej uzbrojenie stanowiły dwa przeciwlotnicze karabiny maszynowe.
+Medea to wojskowy samolot transportowy Sił Zbrojnych [[earth-federation|Federacji Ziemskiej]], wprowadzony w anime *Mobile Suit Gundam* ([The Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24).
+
+Wielki, odłączany kontener pod kadłubem skracał załadunek i rozładunek. Wirniki VTOL pozwalały startować i lądować bez pasa startowego, a niskociśnieniowe opony umożliwiały lądowanie na nierównym podłożu. Medea przewoziła zaopatrzenie i mobile suity, a jej uzbrojenie stanowiły dwa przeciwlotnicze karabiny maszynowe ([MAHQ, „Medea”](https://www.mahq.net/medea/); [The Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24).
 }}
 {{menu gra=srw-oe
 

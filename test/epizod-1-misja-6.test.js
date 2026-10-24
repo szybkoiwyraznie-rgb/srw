@@ -130,6 +130,21 @@ test('Medea zachowuje wpis bez broni i dostaje osobny karabin oraz drugiego pilo
     ['1', 'Karabin przeciwlotniczy', '1000', '1–2', '+5', '20', '—']);
 });
 
+test('Medea ma źródłowe tło konstrukcji transportowca', () => {
+  const medea = bySlug.get('medea');
+  for (const adres of ['https://gundam.fandom.com/wiki/Medea', 'https://www.mahq.net/medea/']) {
+    assert.ok(medea.zrodla.includes(adres), adres);
+    assert.ok(medea.body.includes(adres), adres);
+  }
+  const tlo = medea.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
+  assert.ok(tlo, 'osobny blok pierwowzoru');
+  for (const fragment of ['odłączany kontener', 'bez pasa startowego',
+    'niskociśnieniowe opony', 'dwa przeciwlotnicze karabiny maszynowe']) {
+    assert.ok(tlo[1].includes(fragment), fragment);
+  }
+  assert.doesNotMatch(tlo[1], /Matilda|C-88|Thunderbolt|Garuda/);
+});
+
 test('Sanders, Karen i Michel zachowują pierwszą umiejętność i dostają drugą z poziomu 3', () => {
   const profile = {
     'terry-sanders-jr': ['Potenc. Obr', 'Blok', 'Obraż.-16% Sz. 12% *(1.08)*'],

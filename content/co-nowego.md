@@ -5,6 +5,10 @@
 - [[srw-oe-ep1|Epizod 1]] ma szóstą misję — [[srw-oe-ep1-ratuj-transportowiec-medea|„Ratuj transportowiec Medea”]]: [[08-pluton-ms|08. Pluton MS]] osłania klucz przed Doppami i naziemnymi Zaku II, a po akcji odlatuje nim do [[jaburo|Jaburo]].
 - [[medea|Medea]] jest powiązana z [[oficer-federacji|Oficerem Federacji]] i ma karabin przeciwlotniczy. [[terry-sanders-jr|Sanders]] i [[michel-ninorich|Michel]] zyskują **Blok**, a [[karen-joshua|Karen]] — **Wsparcie**.
 
+## 2026-10-24 19:08
+
+- [[medea|Medea]] ma opis konstrukcji: odłączany kontener ładunkowy, start i lądowanie bez pasa startowego oraz niskociśnieniowe opony do nierównego podłoża.
+
 ## 2026-10-24 19:06
 
 - Załoga [[medea|Medei]] ma właściwą kolejność: najpierw [[oficer-federacji|Oficer Federacji]] z misji ratunkowej, potem domyślny [[zolnierz-jsdf|żołnierz JSDF]].
