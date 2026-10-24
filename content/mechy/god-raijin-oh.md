@@ -33,6 +33,24 @@ W [[matchless-raijin-oh|pierwowzorze]] God Raijin-Oh (ゴッドライジンオ�
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![God Raijin-Oh — ilustracja 1 z 3](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/God%20Raijin-Oh.png)
+
+### Ilustracja 2
+
+![God Raijin-Oh — ilustracja 2 z 3](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/God%20Raijin-Oh%202.png)
+
+### Ilustracja 3
+
+![Bakuryu-Oh, pomocniczy robot wchodzący w skład God Raijin-Oha — ilustracja 3 z 3](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Bakuryu-Oh.png)
+
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[matchless-raijin-oh|Matchless Raijin-Oh]]

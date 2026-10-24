@@ -291,7 +291,7 @@ test('galerie mają wyłącznie strony objęte dostawą ilustracji misji 1-5', (
 test('dziennik zmian dokumentuje piątą misję i jej ilustracje', () => {
   const changelog = fs.readFileSync('content/co-nowego.md', 'utf8');
   const current = changelog.split('## 2026-10-23 18:57')[0];
-  assert.match(current, /^# Co nowego\n\n## 2026-10-24 \d{2}:\d{2}/);
+  assert.match(current, /^# Co nowego\n\n## 2026-10-25 \d{2}:\d{2}/);
   assert.match(current, /## 2026-10-23 20:13/);
   assert.ok(current.includes('[[srw-oe-ep1-start-alexa|'));
   assert.ok(current.includes('[[mobile-suit-gundam-08th-ms-team|'));

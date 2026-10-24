@@ -24,3 +24,13 @@ W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] 
 
 W [[mobile-police-patlabor|pierwowzorze]] Sakaki kieruje mechanikami [[labor|Laborów]] obsługującymi SV2. Jest szorstki i głośny, nie znosi, gdy Drugi Pluton przywozi maszyny w złym stanie, a mimo długiego doświadczenia ma trudności z nadążaniem za rozwojem techniki ([Wikipedia, „List of Patlabor characters”](https://en.wikipedia.org/wiki/List_of_Patlabor_characters); sprawdzono 2026-10-24).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Seitaro Sakaki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Seitaro%20Sakaki.png)
+
+}}

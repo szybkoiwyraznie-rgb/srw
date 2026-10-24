@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-25 00:15
+
+- Portrety [[badrinath-harchand|Buda]], [[kurosaki|Kurosakiego]], [[seitaro-sakaki|Seitaro Sakakiego]], [[shigeo-shiba|Shige Shiby]], [[shinobu-nagumo|Shinobu Nagumo]] i [[utsumi|Utsumiego]] dołączają do ich stron, a galeria [[god-raijin-oh|God Raijin-Oha]] obejmuje trzy ilustracje: dwie samej maszyny oraz jej pomocniczego robota Bakuryu-Oha, z którego pomocą [[raijin-oh|Raijin-Oh]] osiąga tę formę.
+
 ## 2026-10-24 22:50
 
 - [[evil-god-drago|Zły Bóg Drago]] z prologu [[srw-oe|Super Robot Wars OE]] ma potwierdzone źródłowo powiązanie z serialem *Jushin Liger*: japońska Wikipedia gry wymienia 邪神ドラゴ wśród złowrogich istot fabuły i odsyła linkiem do pierwowzoru, więc dawny domysł opisano teraz jako sprawdzone źródło.

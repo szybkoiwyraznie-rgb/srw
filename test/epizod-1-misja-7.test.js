@@ -152,7 +152,17 @@ test('God Raijin-Oh ma odrębne parametry i załogę, ale nie jest osobną jedno
   assert.match(bySlug.get('raijin-oh').body, /\[\[god-raijin-oh\|God Raijin-Oh\]\]/);
   assert.ok(!scena.mechy.includes('god-raijin-oh'), 'transformacja nie jest osobną jednostką sceny');
   assert.ok(!epizod.mechy.includes('god-raijin-oh'), 'skrypt nie przedstawia jej użycia');
-  assert.doesNotMatch(god.body, /^## Ilustracje$/m, 'brak dostawy ilustracji');
+  // Dostawa ilustracji z 2026-10-25: galeria God Raijin-Oha obejmuje też kopilota
+  // Bakuryu-Oha, który nie ma własnej encji (ADR 0023; por. test pierwowzorów).
+  const manifestIlustracji = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  assert.deepEqual(manifestIlustracji.encje['god-raijin-oh'], [
+    'God Raijin-Oh.png', 'God Raijin-Oh 2.png', 'characters/Bakuryu-Oh.png',
+  ]);
+  assert.match(god.body, /^## Ilustracje$/m);
+  for (const plik of manifestIlustracji.encje['god-raijin-oh']) {
+    const adres = `${manifestIlustracji.baseUrl}/${plik.split('/').map(encodeURIComponent).join('/')}`;
+    assert.ok(god.body.includes(adres), `adres ilustracji: ${plik}`);
+  }
 
   const stats = JSON.parse(god.w_gre['srw-oe']);
   assert.equal(stats.dostawa, 'dostawy/srw-oe/dostawa_1_7.txt');

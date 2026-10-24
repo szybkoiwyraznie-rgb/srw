@@ -27,3 +27,13 @@ Po akcji w Hachioji przejmuje dowództwo nad [[sv2|SV2]] na czas długiej delega
 
 W [[mobile-police-patlabor|pierwowzorze]] Nagumo (南雲 しのぶ, *Nagumo Shinobu*) pochodzi z tokijskiej dzielnicy Setagaya i dowodzi Pierwszym Plutonem [[sv2|SV2]]. Jest opanowaną, skrupulatną policjantką cieszącą się powszechnym szacunkiem w komendzie — pod każdym względem przeciwieństwem niekonwencjonalnego [[kiichi-goto|Kiichiego Goto]] — a jednocześnie potrafi sprzeciwić się przełożonym wobec rozkazu, który uważa za niesłuszny ([Wikipedia, „List of Patlabor characters”](https://en.wikipedia.org/wiki/List_of_Patlabor_characters); [Patlabor Wiki, „Shinobu Nagumo”](https://patlabor.fandom.com/wiki/Shinobu_Nagumo); sprawdzono 2026-10-24).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Shinobu Nagumo — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Shinobu%20Nagumo.png)
+
+}}
