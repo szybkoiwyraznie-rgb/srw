@@ -204,6 +204,18 @@ p { margin: .8em 0; }
 /* ── Zakres gry we fragmencie (ADR 0020) ───────────────────────── */
 
 /* Który tytuł opisuje dany fragment: mała etykieta w rogu bloku, z odsyłaczem. */
+/* Tytuł sekcji i plakietka zakresu dzielą jeden wiersz (równoległe kolumny). */
+.naglowek-fragmentu {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 4px 16px; flex-wrap: wrap;
+  margin: 0 0 .6em; padding-bottom: .3em; border-bottom: 1px solid var(--ramka);
+}
+.naglowek-fragmentu > :is(h2, h3, h4) {
+  margin: 0; padding: 0; border: 0; flex: 1 1 auto; min-width: 0;
+}
+.naglowek-fragmentu > .zakres-gry { margin: 0; flex: 0 0 auto; }
+.poziom .naglowek-fragmentu { border-bottom-color: rgba(0, 0, 0, .12); }
+
 .zakres-gry {
   margin: -4px 0 10px; text-align: right;
   font-family: var(--mono); font-size: .72rem; line-height: 1.4;

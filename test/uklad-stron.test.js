@@ -243,7 +243,7 @@ test('epizod 1: nagłówki misji prowadzą do stron scen', () => {
 
 test('epizod: streszczenie, wątki i komentarz mają osobne boksy', () => {
   const html = renderEpizod('srw-oe-ep0');
-  const boksy = [...html.matchAll(/<section class="sekcja-strony">\s*<div class="fragment[^"]*"[^>]*>\s*<p class="zakres-gry">[\s\S]*?<h2>([^<]+)<\/h2>/g)]
+  const boksy = [...html.matchAll(/<section class="sekcja-strony">\s*<div class="fragment[^"]*"[^>]*>\s*<div class="naglowek-fragmentu"><h2>([^<]+)<\/h2>/g)]
     .map((m) => m[1]);
   assert.deepEqual(boksy, ['Streszczenie', 'Wątki fabularne', 'Komentarz', 'Postacie i maszyny', 'Inne źródła i rozbieżności']);
 
@@ -290,4 +290,26 @@ test('arkusz stylów: 3/4 + 1/4, brak pustego pasa nad stopką', () => {
   const stopka = css.match(/\.stopka \{[^}]*\}/)[0];
   const margines = Number(stopka.match(/margin-top:\s*(\d+)px/)?.[1]);
   assert.ok(margines <= 30, `margines stopki ${margines}px jest niewielki`);
+});
+
+test('plakietka zakresu gry stoi w wierszu tytułu sekcji, nie nad nim', () => {
+  const epizod = renderEpizod('srw-oe-ep0');
+  assert.match(
+    epizod,
+    /<div class="naglowek-fragmentu"><h2>Streszczenie<\/h2><p class="zakres-gry"><a href="#\/gra\/srw-oe">Super Robot Wars OE<\/a><\/p><\/div>/,
+    'tytuł i plakietka w jednym wierszu',
+  );
+
+  // Żaden boks z nagłówkiem nie zaczyna się już od samotnej plakietki.
+  const encja = renderEncja('cybuster');
+  const scena = renderScena('prolog-i-trening-w-connect');
+  for (const html of [epizod, encja, scena]) {
+    assert.doesNotMatch(html, /<p class="zakres-gry">[\s\S]{0,160}?<\/p>\n<h[234]/, 'plakietka nie zajmuje osobnego wiersza nad tytułem');
+  }
+
+  // Fragment bez nagłówka nie ma z czym zestawić etykiety — zostaje nad treścią.
+  assert.match(epizod, /<div class="fragment poziom poziom-wiedza"[^>]*>\n<p class="zakres-gry">/);
+
+  assert.match(css, /\.naglowek-fragmentu \{/, 'styl wspólnego wiersza istnieje');
+  assert.match(css, /\.naglowek-fragmentu > \.zakres-gry \{/);
 });
