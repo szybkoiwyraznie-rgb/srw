@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-24 11:45
+
+- [[gundam-ground-type-glowa-gm|GM Head]] ma konkretne tło: uszkodzona maszyna [[karen-joshua|Karen]] otrzymała głowę RGM-79[G] GM Ground Type, ponieważ Ground Type’y nie miały zapasowych podzespołów. Opis wskazuje teraz źródło samej nazwy wariantu.
+
 ## 2026-10-24 11:42
 
 - Profile [[control-ai|Control AI]] i [[shinohara-hos|Shinohara HOS]] nie mają już tagu `bezzalogowy`, zarezerwowanego dla mechów; tag pozostaje na sterowanych przez nie jednostkach.

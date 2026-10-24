@@ -354,7 +354,7 @@ test('jednostki misji 1-5 mają tło techniczne z pierwowzorów (ADR 0008, ADR 0
   const zrodlaMechow = {
     'gundam-ez8': [ez8],
     'gundam-ground-type': [rx79, ez8],
-    'gundam-ground-type-glowa-gm': [ez8],
+    'gundam-ground-type-glowa-gm': [rx79],
     'hover-truck': [hover],
     'kampfer-bazooka': [kampfer],
     'kampfer-high-mobility': [kampfer],
@@ -376,6 +376,8 @@ test('jednostki misji 1-5 mają tło techniczne z pierwowzorów (ADR 0008, ADR 0
   // Alex ma własny blok tła od misji 1-5, więc wszystkie osiem jednostek jest opisanych.
   assert.match(bySlug.get('rx-78nt-1-gundam-alex').body, /\{\{zrodlo gra=wspolne/);
   assert.match(bySlug.get('gundam-ez8').body, /extra zero-eight/);
+  assert.match(bySlug.get('gundam-ground-type-glowa-gm').body, /głową RGM-79\[G\] GM Ground Type/);
+  assert.match(bySlug.get('gundam-ground-type-glowa-gm').body, /przydomek „GM Head”/);
   assert.match(bySlug.get('hover-truck').body, /M353A4 Bloodhound/);
   assert.match(bySlug.get('zaku-ii-kai').body, /MS-06FZ/);
   assert.match(bySlug.get('kampfer-high-mobility').body, /159 ton/);
