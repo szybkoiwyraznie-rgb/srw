@@ -2,12 +2,11 @@
 typ: pojecie
 slug: 08-pluton-ms
 tytul: 08. Pluton MS
-kategoria: jednostka wojskowa
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team
-tagi: [one-year-war]
+tagi: [one-year-war, jednostka-wojskowa, federacja, 08th-ms-team]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe

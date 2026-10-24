@@ -7,7 +7,9 @@ rola: pilot
 gry: [srw-oe]
 mechy: [zaku-ii-bazooka]
 pochodzenie: skrypt
-tagi: [one-year-war]
+zrodla:
+  - https://gundam.fandom.com/wiki/Crown
+tagi: [one-year-war, pilot, gundam-1979, zeon]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe
@@ -17,6 +19,11 @@ utworzono: 2026-10-20
 Pilot [[zeon|Zeonu]] w grupie [[char-aznable|Chara]]. Uznaje wsparcie [[connect-force|Connect]] dla [[white-base|White Base]] za złamanie traktatu i pyta o rozkaz ataku. Po decyzji Chara melduje odwrót.
 
 W eskorcie [[char-aznable|Chara]] leci [[zaku-ii-bazooka|Zaku II z bazooką]], obok [[slender|Slendera]] w [[zaku-ii-karabin-maszynowy|maszynie z karabinem maszynowym]].
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-suit-gundam-1979|pierwowzorze]] Crown jest pilotem Zaku w oddziale [[char-aznable|Chara Aznable'a]]. Razem z kolegami z tego samego oddziału, J.Q. i Kohmem, atakuje [[white-base|White Base]] tuż przed wejściem okrętu w atmosferę Ziemi ([Gundam Wiki, „Crown”](https://gundam.fandom.com/wiki/Crown); sprawdzono 2026-10-24).
 }}
 {{menu gra=srw-oe
 

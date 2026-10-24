@@ -9,6 +9,7 @@ rok: 1988
 pochodzenie: menu
 zrodla:
   - https://en.wikipedia.org/wiki/Patlabor
+tagi: [manga, patlabor]
 utworzono: 2026-10-19
 ---
 {{menu gra=srw-oe

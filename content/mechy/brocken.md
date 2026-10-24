@@ -10,6 +10,7 @@ w_gre:
 pochodzenie: menu
 zrodla:
   - https://patlabor.fandom.com/wiki/Military_labor_type_7B_%22Brocken%22
+tagi: [patlabor, bezzalogowy]
 utworzono: 2026-10-19
 ---
 {{menu gra=srw-oe

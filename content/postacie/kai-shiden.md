@@ -7,7 +7,9 @@ rola: pilot
 gry: [srw-oe]
 mechy: [guncannon]
 pochodzenie: skrypt
-tagi: [one-year-war]
+zrodla:
+  - https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters
+tagi: [one-year-war, pilot, gundam-1979, federacja, white-base]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
@@ -19,6 +21,11 @@ Pilot [[guncannon|Guncannona]] na pokładzie [[white-base|White Base]]. Przed st
 W walce z [[black-tri-stars|Black Tri-Stars]] pierwszy zauważa tempo [[dom|Domów]] i pyta, jak ma je zatrzymać. Narzeka na przeglądy po walce, ale gdy trzeba osłonić okręt przed samolotami, zgłasza gotowość.
 
 Po groźbie użycia bomby wodorowej chce opuścić zagrożony obszar, lecz pozostaje w walce. W dialogu bojowym ostrzega, że eksplozja zniszczy wszystkich, i powierza zatrzymanie [[h-bomb-missile|pocisku]] [[amuro-ray|Amurowi]] oraz Gundamowi.
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-suit-gundam-1979|pierwowzorze]] Kai mieszkał w kolonii Green Oasis w pierwszym bloku [[side-7|Side 7]]. Wysoki i chudy, z czupryną siwych włosów i językiem, który regularnie wpędza go w kłopoty. Po ataku [[zeon|Zeonu]] na kolonię znalazł się wśród ewakuowanych na [[white-base|White Base]], a że okrętowi brakowało ludzi, poproszono go, żeby usiadł za sterami: dostał [[guncannon|Guncannona]] i został przy tej maszynie do końca wojny. Sam nazywa siebie tchórzem i cynikiem, woli ostrzeliwać przeciwnika z dystansu bronią dalekiego zasięgu — choć w opałach radzi sobie i w zwarciu — a najbardziej nie znosi, kiedy sprawy się ślimaczą ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-10-24).
 }}
 {{menu gra=srw-oe
 

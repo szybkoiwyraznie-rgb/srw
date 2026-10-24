@@ -9,7 +9,7 @@ mechy: [white-base]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/White_Base
-tagi: [one-year-war]
+tagi: [one-year-war, dowodztwo, gundam-1979, federacja, white-base]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

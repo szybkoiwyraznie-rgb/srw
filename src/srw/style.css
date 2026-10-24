@@ -204,6 +204,18 @@ p { margin: .8em 0; }
 /* ── Zakres gry we fragmencie (ADR 0020) ───────────────────────── */
 
 /* Który tytuł opisuje dany fragment: mała etykieta w rogu bloku, z odsyłaczem. */
+/* Tytuł sekcji i plakietka zakresu dzielą jeden wiersz (równoległe kolumny). */
+.naglowek-fragmentu {
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: 4px 16px; flex-wrap: wrap;
+  margin: 0 0 .6em; padding-bottom: .3em; border-bottom: 1px solid var(--ramka);
+}
+.naglowek-fragmentu > :is(h2, h3, h4) {
+  margin: 0; padding: 0; border: 0; flex: 1 1 auto; min-width: 0;
+}
+.naglowek-fragmentu > .zakres-gry { margin: 0; flex: 0 0 auto; }
+.poziom .naglowek-fragmentu { border-bottom-color: rgba(0, 0, 0, .12); }
+
 .zakres-gry {
   margin: -4px 0 10px; text-align: right;
   font-family: var(--mono); font-size: .72rem; line-height: 1.4;
@@ -338,17 +350,6 @@ blockquote {
 .naglowek-epizodu { margin-bottom: 18px; }
 .naglowek-epizodu h1 .numer-epizodu { color: var(--akcent); font-family: var(--mono); font-size: 1.1rem; letter-spacing: .04em; margin-right: 8px; }
 
-.panel-skryptu { margin: 18px 0 26px; border: 1px solid var(--ramka); border-radius: 10px; background: var(--panel); overflow: hidden; }
-.panel-skryptu summary {
-  cursor: pointer; padding: 11px 16px; background: var(--panel-2); font-weight: 600;
-  display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap;
-}
-.panel-skryptu summary::marker { color: var(--akcent); }
-.panel-skryptu[open] summary { border-bottom: 1px solid var(--ramka); }
-pre.skrypt {
-  margin: 0; padding: 16px; overflow-x: auto; font-family: var(--mono); font-size: .84rem;
-  line-height: 1.62; color: var(--tusz); white-space: pre-wrap; word-break: break-word; max-height: 560px; overflow-y: auto;
-}
 
 .nawigacja-epizodow { display: flex; flex-direction: column; gap: 6px; margin-top: 12px; font-size: .86rem; }
 
@@ -529,6 +530,19 @@ pre.skrypt {
   .dziennik > li { grid-template-columns: 1fr; gap: 2px; }
 }
 
+/* ── Leniwe ilustracje (ADR 0032) ──────────────────────────────── */
+
+/* Obraz poza polem widzenia oddaje pamięć i zostaje pustą ramką: bez ikony
+   błędu, bez tekstu zastępczego i bez zapadania układu strony. Wymiary
+   przypina skrypt, dopóki ich nie zna — trzyma je minimum z CSS. */
+.obraz-zwolniony {
+  background: var(--panel-2); border-radius: 6px;
+  color: transparent; font-size: 0;
+  min-width: 56px; min-height: 56px;
+}
+.tresc-encja .obraz-zwolniony { min-width: 140px; min-height: 180px; }
+.kafelek-obraz .obraz-zwolniony { width: 100%; min-height: 170px; }
+
 /* ── Sceny (ADR 0008) ───────────────────────────────────────────── */
 .blok-sceny { margin-top: 1.6em; }
 /* W prawej kolumnie lista scen jest osobnym boksem, jak metryka i obsada. */
@@ -539,6 +553,23 @@ pre.skrypt {
   font-size: .92rem;
 }
 .kolumna-boczna .blok-sceny h2 { margin: 0 0 .5em; font-size: 1.05rem; }
+/* Sceny na szczycie strony epizodu: pełna szerokość, siatka zamiast słupka. */
+.blok-sceny-pelna {
+  margin: 0 0 22px; padding: 14px 18px 16px;
+  background: var(--panel); border: 1px solid var(--ramka); border-radius: 10px;
+  box-shadow: var(--cien);
+}
+.blok-sceny-pelna .naglowek-sekcji { display: flex; align-items: baseline; gap: 8px; margin-bottom: 10px; }
+.blok-sceny-pelna h2 { margin: 0; font-size: 1.05rem; border: 0; padding: 0; }
+.lista-scen-siatka {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px;
+}
+.lista-scen-siatka li {
+  padding: 10px 12px; border: 1px solid var(--ramka); border-radius: 8px;
+  background: var(--panel-2);
+}
+.lista-scen-siatka li:last-child { border-bottom: 1px solid var(--ramka); }
+
 .lista-scen { list-style: none; padding: 0; margin: 0; }
 .lista-scen li { padding: 8px 0; border-bottom: 1px solid var(--ramka); }
 .lista-scen li:last-child { border-bottom: 0; }

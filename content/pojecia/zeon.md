@@ -2,12 +2,11 @@
 typ: pojecie
 slug: zeon
 tytul: Księstwo Zeonu
-kategoria: państwo
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Principality_of_Zeon
-tagi: [one-year-war]
+tagi: [one-year-war, panstwo, universal-century]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

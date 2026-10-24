@@ -177,8 +177,8 @@ test('seria i hasła świata opisują świat, a źródło jest otwarte i cytowan
     assert.ok(page.zrodla.includes(zrodlo), `${slug}: źródło w frontmatterze`);
     assert.ok(page.body.includes(zrodlo), `${slug}: adres przy informacji`);
   }
-  assert.equal(bySlug.get('klasa-obrony-ziemi').kategoria, 'organizacja');
-  assert.equal(bySlug.get('akademia-hinobori').kategoria, 'miejsce');
+  assert.ok(bySlug.get('klasa-obrony-ziemi').tagi.includes('organizacja'));
+  assert.ok(bySlug.get('akademia-hinobori').tagi.includes('miejsce'));
 });
 
 test('ilustracje misji 4 trafiają tylko na strony, których dotyczą', () => {
@@ -201,5 +201,24 @@ test('strony misji 4 nie ujawniają surowych etykiet dostawy', () => {
   for (const page of [scena, epizod, bySlug.get('raijin-oh'), bySlug.get('jin-hyuga'),
     bySlug.get('klasa-obrony-ziemi'), bySlug.get('akademia-hinobori')]) {
     assert.doesNotMatch(page.body, /DL101_40|Entry ID|eventP00|charalist00/, page.slug);
+  }
+});
+
+test('Control AI steruje Brockenami także w misji 1-4', () => {
+  // Dostawa: „Jednostki wrogie: Brocken/Melee — pilot główny: SI sterująca — ×4”.
+  const scena = bySlug.get('srw-oe-ep1-trening-klasy-obrony');
+  assert.ok(scena.postacie.includes('control-ai'), 'scena 1-4 wymienia Control AI');
+  assert.ok(scena.mechy.includes('brocken'), 'scena 1-4 wymienia Brockena');
+  assert.match(scena.body, /\[\[brocken\|/, 'analiza nazywa Labory treningowe po imieniu');
+  assert.match(scena.body, /\[\[control-ai\|/);
+
+  const epizod = bySlug.get('srw-oe-ep1');
+  assert.ok(epizod.postacie.includes('control-ai'), 'epizod 1 wymienia Control AI');
+  assert.ok(epizod.mechy.includes('brocken'), 'epizod 1 wymienia Brockena');
+
+  // Strona Control AI musi prowadzić do obu scen, w których występuje.
+  const sceny = bySlug.get('control-ai').body.match(/\[\[([a-z0-9-]+)\|/g) ?? [];
+  for (const slug of ['prolog-i-trening-w-connect', 'srw-oe-ep1-trening-klasy-obrony']) {
+    assert.ok(sceny.includes(`[[${slug}|`), `Control AI odsyła do sceny ${slug}`);
   }
 });

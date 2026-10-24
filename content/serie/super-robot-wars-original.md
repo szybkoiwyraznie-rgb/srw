@@ -4,6 +4,7 @@ slug: super-robot-wars-original
 tytul: Super Robot Wars Original
 gry: [srw-oe]
 pochodzenie: menu
+tagi: [super-robot-wars]
 utworzono: 2026-10-19
 ---
 {{menu gra=wspolne

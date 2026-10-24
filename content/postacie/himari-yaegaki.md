@@ -10,7 +10,7 @@ pochodzenie: skrypt
 zrodla:
   - https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE
   - https://srw.wiki.cre.jp/wiki/%E5%85%AB%E9%87%8D%E5%9E%A3%E3%81%B2%E3%81%BE%E3%82%8A
-tagi: [connect]
+tagi: [connect, wsparcie, super-robot-wars]
 utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe

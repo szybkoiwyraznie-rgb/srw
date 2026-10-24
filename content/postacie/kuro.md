@@ -10,6 +10,7 @@ pochodzenie: zrodlo
 zrodla:
   - https://akurasu.net/wiki/Masaki_Andoh
   - https://superrobotwars.fandom.com/wiki/Cybuster
+tagi: [wsparcie, super-robot-wars]
 utworzono: 2026-10-19
 ---
 {{zrodlo gra=wspolne

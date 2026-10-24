@@ -6,7 +6,7 @@ rola: pilot
 gry: [srw-oe]
 mechy: [dom-zolnierz-zeonu, dopp, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
 pochodzenie: menu
-tagi: [one-year-war]
+tagi: [one-year-war, pilot, zeon]
 utworzono: 2026-10-22
 ---
 {{menu gra=srw-oe

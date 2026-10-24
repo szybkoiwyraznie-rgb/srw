@@ -6,7 +6,7 @@ rola: wsparcie
 gry: [srw-oe]
 mechy: []
 pochodzenie: menu
-tagi: [one-year-war]
+tagi: [one-year-war, wsparcie, federacja]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
@@ -15,7 +15,7 @@ utworzono: 2026-10-23
 
 Bezimienny żołnierz [[earth-federation|Federacji Ziemskiej]] obecny przy starcie transportu z [[rx-78nt-1-gundam-alex|Alexem]]. Po odpartym ataku [[pluton-cyclops|plutonu Cyclops]] i zakończeniu ładowania kontenera ogłasza start wahadłowca.
 
-Profil gry przypisuje mu umiejętność Potencjał, ale w tej misji nie dostaje własnej maszyny.
+Pracuje w obiekcie przejętym na [[zeon|Zeonie]] podczas [[operacja-odessa|operacji Odessa]] i naprędce przystosowanym do wynoszenia ładunków na orbitę. Jego meldunek zamyka przygotowania: kontener jest w środku, a wahadłowiec rusza.
 }}
 
 {{menu gra=srw-oe

@@ -7,7 +7,9 @@ rola: pilot
 gry: [srw-oe]
 mechy: [dom]
 pochodzenie: skrypt
-tagi: [one-year-war]
+zrodla:
+  - https://gundam.fandom.com/wiki/Black_Tri-Stars
+tagi: [one-year-war, pilot, gundam-1979, zeon, black-tri-stars]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
@@ -17,6 +19,11 @@ utworzono: 2026-10-22
 Dowódca [[black-tri-stars|Black Tri-Stars]] w stopniu porucznika, pilot [[dom|Doma]]. Przyprowadza trzy nowe maszyny do walki lądowej na front [[operacja-odessa|operacji Odessa]] i zapewnia [[mquve|M'Quve'a]], że może na nich liczyć.
 
 Nie zgadza się z lekceważeniem „konia trojańskiego” i ostrzega, że [[white-base|White Base]] nie jest łatwym celem. Gdy zespół nie zatrzymuje okrętu i [[jet-stream-attack|atak Jet Stream]] nie przynosi rozstrzygnięcia, zarządza odwrót, uznając, że wybór właściwej chwili jest cechą dobrego pilota.
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-suit-gundam-1979|pierwowzorze]] Gaia należy do najstarszych stażem pilotów [[mobile-suit|mobile suitów]] [[zeon|Zeonu]]: w maju U.C. 0076 trafił do batalionu szkolenia mobilnego, oddziału powołanego po to, żeby dopiero wypracować taktykę walki takimi maszynami, i latał tam ciemnogranatowym Zakiem I. Swój pierwszy [[jet-stream-attack|atak Jet Stream]] jego trzyosobowy zespół pokazał w styczniu U.C. 0079 podczas natarcia na Side 5; natarcie nie powiodło się i piloci wrócili do [[side-3|Side 3]]. Niedługo potem, już jako podporucznik, Gaia zebrał stałą drużynę z [[ortega|Ortegą]] i [[mash|Mashem]]. W szyku leci pierwszy i on zaczyna uderzenie, a po przesiadce na [[dom|Domy]] otwiera je rozproszonym działem wiązkowym, żeby oślepić przeciwnika ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-24).
 }}
 {{menu gra=srw-oe
 

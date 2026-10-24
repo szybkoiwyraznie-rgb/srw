@@ -2,12 +2,11 @@
 typ: pojecie
 slug: klasa-obrony-ziemi
 tytul: Klasa Obrony Ziemi
-kategoria: organizacja
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
-tagi: [eldran]
+tagi: [eldran, organizacja]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe

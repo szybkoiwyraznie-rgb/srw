@@ -2,12 +2,11 @@
 typ: pojecie
 slug: side-6
 tytul: Side 6
-kategoria: miejsce
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Mobile_Suit_Gundam_0080:_War_in_the_Pocket
-tagi: [one-year-war]
+tagi: [one-year-war, miejsce]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe

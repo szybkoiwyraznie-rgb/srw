@@ -2,12 +2,11 @@
 typ: pojecie
 slug: side-3
 tytul: Side 3
-kategoria: miejsce
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Space_Colony_%28U.C.%29
-tagi: [one-year-war]
+tagi: [one-year-war, miejsce, zeon]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

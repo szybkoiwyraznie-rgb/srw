@@ -6,6 +6,7 @@ rola: pilot
 gry: [srw-oe]
 mechy: [brocken]
 pochodzenie: menu
+tagi: [pilot, patlabor, bezzalogowy]
 utworzono: 2026-10-19
 ---
 {{menu gra=srw-oe

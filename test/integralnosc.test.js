@@ -90,3 +90,21 @@ test('każdy link w bloku zrodlo jest zadeklarowany w zrodla', () => {
   }
   assert.deepEqual(problemy, []);
 });
+
+test('epizod wymienia całą obsadę i wszystkie maszyny swoich scen', () => {
+  // Scena jest częścią epizodu, więc kto gra w scenie, ten gra w epizodzie.
+  // Bez tej reguły postać znika z list i filtrów epizodu (tak wypadł Control AI
+  // z misji 1-4, choć sterował stojącymi tam Brockenami).
+  const sceny = strony.filter((s) => s.typ === 'scena');
+  const braki = [];
+  for (const e of strony.filter((s) => s.typ === 'epizod')) {
+    const moje = sceny.filter((s) => s.epizod === e.slug);
+    for (const pole of ['postacie', 'mechy']) {
+      const wEpizodzie = new Set(e[pole] ?? []);
+      for (const slug of new Set(moje.flatMap((s) => s[pole] ?? []))) {
+        if (!wEpizodzie.has(slug)) braki.push(`${e.slug}: brak ${slug} w polu ${pole}`);
+      }
+    }
+  }
+  assert.deepEqual(braki, []);
+});

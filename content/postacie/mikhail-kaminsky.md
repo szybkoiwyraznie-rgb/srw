@@ -7,7 +7,10 @@ seria: mobile-suit-gundam-0080
 gry: [srw-oe]
 mechy: [kampfer-high-mobility]
 pochodzenie: skrypt
-tagi: [one-year-war]
+zrodla:
+  - https://gundam.fandom.com/wiki/Cyclops_Team
+  - https://www.mahq.net/gundam0080ep1/
+tagi: [one-year-war, pilot, gundam-0080, zeon, pluton-cyclops]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
@@ -17,6 +20,11 @@ utworzono: 2026-10-23
 Członek [[pluton-cyclops|plutonu Cyclops]], w dialogach występujący jako Misza, pilot [[kampfer-high-mobility|Kampfera/High Mobility]]. Lokalizuje bazę za szczytem i razem z [[andy-strauss|Andy’m]] przebija się przez linię czujek, zapowiadając hałas.
 
 Ceni możliwości Kampfera w szturmie, a jego zwrotność zaskakuje [[shiro-amada|Shiro]]. Po niepowodzeniu natarcia wycofuje się, niezadowolony, że to właśnie on dał plamę.
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-suit-gundam-0080|pierwowzorze]] Misza jest faktycznym zastępcą [[hardy-steiner|Steinera]] w [[pluton-cyclops|plutonie Cyclops]] ([Gundam Wiki, „Cyclops Team”](https://gundam.fandom.com/wiki/Cyclops_Team); sprawdzono 2026-10-24). Podczas ataku na arktyczną bazę pilotuje amfibijnego Hy-Gogga, a przed ogniem obrońców zasłania się przejętym GM-em ([MAHQ, „Gundam 0080 Ep. 1: How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); sprawdzono 2026-10-23).
 }}
 
 {{menu gra=srw-oe

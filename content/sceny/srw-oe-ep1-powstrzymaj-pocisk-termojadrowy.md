@@ -21,7 +21,7 @@ zrodla:
 postacie: [general-revil, oficer-federacji, mquve, oficer-zeonu, bright-noa, amuro-ray, kai-shiden, hayato-kobayashi, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, zolnierz-zeonu]
 mechy: [g-fighter, guncannon, rx-78-2-gundam, guntank, white-base, dom-zolnierz-zeonu, dopp, h-bomb-missile, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
 pojecia: [operacja-odessa, traktat-antarktyczny, black-tri-stars, zeon, earth-federation, mobile-suit]
-tagi: [one-year-war]
+tagi: [one-year-war, gundam-1979, zeon, federacja, bron-jadrowa]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

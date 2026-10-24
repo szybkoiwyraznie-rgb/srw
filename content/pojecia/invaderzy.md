@@ -2,9 +2,8 @@
 typ: pojecie
 slug: invaderzy
 tytul: Invaderzy
-kategoria: najazd
 gry: [srw-oe]
-tagi: [najazd]
+tagi: [najazd, prolog]
 pochodzenie: skrypt
 utworzono: 2026-10-19
 ---

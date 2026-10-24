@@ -2,10 +2,9 @@
 typ: pojecie
 slug: stacja-connect
 tytul: Stacja Connect
-kategoria: miejsce
 gry: [srw-oe]
 pochodzenie: skrypt
-tagi: [connect]
+tagi: [connect, miejsce]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

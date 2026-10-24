@@ -8,6 +8,7 @@ piloci: [masaki-andoh]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/jednostki-piloci-i-uzbrojenie-pl.md", "profil": "Cybird", "dane": "**Seria:** Super Robot Wars Original\n### Macierzyste zdolności maszyny\n- **Transf. (bez poziomu):** Może się transf.; (Cybuster)\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Caloric Missile | 2300 | 1–4 | +35 | 0 | — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu; **Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4 |\n| 1 | Cyflash | 3000 | 1–3 | +0 | 40 | 115 | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |\n| 2 | Hi-Familiar | 3100 | 3–6 | +20 | 15 | — | Brak w tym polu | **Okrążenie (poziom bazowy 1):** +20% |"}'
 pochodzenie: menu
+tagi: [super-robot-wars]
 utworzono: 2026-10-19
 ---
 {{menu gra=srw-oe

@@ -10,7 +10,7 @@ odcinki: 51
 pochodzenie: menu
 zrodla:
   - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
-tagi: [eldran]
+tagi: [eldran, serial-tv]
 utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe

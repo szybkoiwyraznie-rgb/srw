@@ -2,12 +2,11 @@
 typ: pojecie
 slug: dr-hell
 tytul: Dr Hell
-kategoria: postać z innej serii
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Mazinger_Z
-tagi: [antagonista]
+tagi: [antagonista, postac-z-innej-serii, prolog]
 utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe

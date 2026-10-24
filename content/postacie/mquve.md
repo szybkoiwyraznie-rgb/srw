@@ -7,7 +7,7 @@ rola: dowodztwo
 gry: [srw-oe]
 mechy: []
 pochodzenie: skrypt
-tagi: [one-year-war]
+tagi: [one-year-war, dowodztwo, gundam-1979, zeon]
 zrodla:
   - https://gundam.fandom.com/wiki/M%27Quve
 utworzono: 2026-10-22

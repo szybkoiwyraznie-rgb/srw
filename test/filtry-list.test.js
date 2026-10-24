@@ -82,3 +82,80 @@ test('hasła: chmura pokazuje liczby wszystkich haseł z danym tagiem', () => {
   const licznik = (dokument, tag) => dokument.match(new RegExp(`>${tag} <span class="licznik">(\\d+)</span>`))[1];
   assert.equal(licznik(html, 'najazd'), licznik(bezWyboru, 'najazd'));
 });
+
+test('epizody i sceny mają filtry Gra, Seria, Mech, Postać (ADR 0034)', () => {
+  for (const typ of ['epizod', 'scena']) {
+    const html = renderListe(typ);
+    assert.match(html, /class="filtry-krokowe" data-typ="(epizod|scena)"/, `${typ}: pasek filtrów nad listą`);
+    for (const [pole, etykieta] of [['gra', 'Gra'], ['seria', 'Seria'], ['mech', 'Mech'], ['postac', 'Postać']]) {
+      assert.match(html, new RegExp(`<label class="filtr-etykieta">${etykieta}</label>`), `${typ}: selektor ${pole}`);
+      assert.match(html, new RegExp(`name="${pole}"`), `${typ}: selektor ${pole}`);
+    }
+    // Galeryjne filtry (Odcinek, Scena, suwak) nie mają tu sensu.
+    assert.doesNotMatch(html, /name="rozmiar"/, `${typ}: bez suwaka kafelków`);
+    assert.doesNotMatch(html, /<label class="filtr-etykieta">Odcinek<\/label>/, `${typ}: bez filtra odcinka`);
+  }
+});
+
+test('filtr listy scen zawęża po maszynie, postaci i serii obsady', () => {
+  const sceny = (html) => [...html.matchAll(/href="#\/scena\/([^"]+)"/g)].map((m) => m[1]);
+
+  assert.deepEqual(sceny(renderListe('scena', { mech: 'raijin-oh' })), ['srw-oe-ep1-trening-klasy-obrony']);
+  assert.deepEqual(sceny(renderListe('scena', { postac: 'noa-izumi' })), ['srw-oe-ep1-szalejacy-prototyp-labora']);
+  // Scena nie ma pola `seria` — świat bierze z obsady.
+  assert.deepEqual(sceny(renderListe('scena', { seria: 'matchless-raijin-oh' })), ['srw-oe-ep1-trening-klasy-obrony']);
+  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 7, 'wszystkie sceny są z jednej gry');
+
+  const epizody = (html) => [...new Set([...html.matchAll(/href="#\/epizod\/([^"]+)"/g)].map((m) => m[1]))];
+  assert.deepEqual(epizody(renderListe('epizod', { mech: 'raijin-oh' })), ['srw-oe-ep1']);
+  assert.deepEqual(epizody(renderListe('epizod', { postac: 'char-aznable' })), ['srw-oe-ep0']);
+
+  // Zestaw bez wyników zostawia filtry nad pustą listą (nie da się inaczej cofnąć wyboru).
+  const pusty = renderListe('scena', { mech: 'raijin-oh', postac: 'amuro-ray' });
+  assert.deepEqual(sceny(pusty), []);
+  assert.match(pusty, /Nic tu jeszcze nie ma dla tego filtra/);
+  assert.match(pusty, /filtry-krokowe/);
+  assert.match(pusty, /<option value="amuro-ray" selected>/, 'wybór zostaje do odznaczenia');
+});
+
+test('selektory list fabularnych zawężają się nawzajem', () => {
+  const opcje = (html, pole) => {
+    const start = html.indexOf(`name="${pole}"`);
+    const koniec = html.indexOf('</select>', start);
+    return [...html.slice(start, koniec).matchAll(/value="([^"]*)"/g)].map((m) => m[1]).filter(Boolean);
+  };
+
+  const wszystkie = renderListe('scena');
+  const poSerii = renderListe('scena', { seria: 'matchless-raijin-oh' });
+  assert.ok(opcje(wszystkie, 'mech').length > opcje(poSerii, 'mech').length, 'wybór serii zawęża listę maszyn');
+  assert.deepEqual(opcje(poSerii, 'mech'), ['brocken', 'exart', 'raijin-oh']);
+  assert.ok(!opcje(poSerii, 'postac').includes('amuro-ray'), 'postacie spoza tych scen znikają');
+
+  const poMechu = renderListe('scena', { mech: 'ingram-nr-1' });
+  assert.ok(!opcje(poMechu, 'seria').includes('mobile-suit-gundam-1979'), 'serie bez wspólnej sceny znikają');
+  assert.ok(opcje(poMechu, 'seria').includes('mobile-police-patlabor'));
+});
+
+test('lista serii ma filtr Gra i tylko jego', () => {
+  const linkiSerii = (html) => [...html.matchAll(/href="#\/seria\/([^"]+)"/g)].map((m) => m[1]).sort();
+  const serie = strony.filter((p) => p.typ === 'seria');
+
+  const wszystkie = renderListe('seria');
+  assert.match(wszystkie, /class="filtry-krokowe" data-typ="seria"/, 'pasek filtra nad listą serii');
+  assert.match(wszystkie, /<label class="filtr-etykieta">Gra<\/label>/);
+  assert.doesNotMatch(wszystkie, /name="(seria|mech|postac|epizod|scena|rozmiar)"/, 'tylko filtr gry');
+  assert.deepEqual(linkiSerii(wszystkie), serie.map((s) => s.slug).sort());
+
+  // Opcje selektora to gry, które mają choć jedną serię.
+  const zSeriami = [...new Set(serie.flatMap((s) => s.gry ?? []))];
+  for (const slug of zSeriami) assert.match(wszystkie, new RegExp(`<option value="${slug}"`));
+
+  const poGrze = renderListe('seria', { gra: 'srw-oe' });
+  assert.deepEqual(linkiSerii(poGrze), serie.filter((s) => (s.gry ?? []).includes('srw-oe')).map((s) => s.slug).sort());
+  assert.match(poGrze, /<option value="srw-oe" selected>/, 'wybór widać w selektorze');
+  assert.match(poGrze, /Serie<span class="filtru-jest">— Super Robot Wars OE/, 'nagłówek nazywa filtr');
+
+  const obca = renderListe('seria', { gra: 'nie-ma-takiej-gry' });
+  assert.deepEqual(linkiSerii(obca), []);
+  assert.match(obca, /filtry-krokowe/, 'filtr zostaje nad pustą listą');
+});

@@ -297,9 +297,86 @@ test('dziennik zmian dokumentuje piątą misję i jej ilustracje', () => {
   assert.ok(current.includes('[[mobile-suit-gundam-0080|'));
   assert.ok(current.includes('[[rx-78nt-1-gundam-alex|'));
   assert.match(current, /22 ilustracje/);
-  assert.match(current, /23 ilustracji/);
   assert.ok(current.includes('[[gundam-ez8|'));
   assert.ok(current.includes('[[christina-mackenzie|'));
   assert.ok(current.includes('[[terry-sanders-jr|'));
-  assert.match(current, /Alex\]\] nadal nie ma galerii/);
+  // Brak ilustracji Alexa nie jest zapowiedzią: jednostka nie staje do walki w tej misji.
+  assert.doesNotMatch(changelog, /nadal nie ma galerii|nie ma jeszcze ilustracji|wkrótce|w przyszłości/);
+  assert.equal(manifest.encje['rx-78nt-1-gundam-alex'], undefined);
+  assert.match(manifest.uwaga, /Alex nie ma wpisu w manifeście, bo w misji 1-5 nie staje do walki/);
+});
+
+test('obsada misji 1-5 ma tło z pierwowzorów w blokach zrodlo (ADR 0008, ADR 0013)', () => {
+  const wiki08 = 'https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team';
+  const mahq = 'https://www.mahq.net/gundam0080ep1/';
+  const cyklop = 'https://gundam.fandom.com/wiki/Cyclops_Team';
+  const chris = 'https://gundam.fandom.com/wiki/Christina_Mackenzie';
+  const zrodlaPostaci = {
+    'shiro-amada': [wiki08],
+    'karen-joshua': [wiki08],
+    'terry-sanders-jr': [wiki08],
+    'michel-ninorich': [wiki08],
+    'eledore-massis': [wiki08],
+    'christina-mackenzie': [chris],
+    'hardy-steiner': [cyklop, mahq],
+    'mikhail-kaminsky': [cyklop, mahq],
+    'gabriel-ramirez-garcia': [cyklop, mahq],
+    'andy-strauss': [cyklop, mahq],
+  };
+  for (const [slug, adresy] of Object.entries(zrodlaPostaci)) {
+    const page = bySlug.get(slug);
+    const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
+    assert.ok(blok, `${slug}: blok tła z pierwowzoru`);
+    assert.match(blok[1], /pierwowzorze/, `${slug}: tło oddzielone od wydarzeń gry`);
+    assert.match(blok[1], /sprawdzono 2026-10-2\d\)/, `${slug}: data sprawdzenia źródła`);
+    for (const adres of adresy) {
+      assert.ok(page.zrodla.includes(adres), `${slug}: ${adres} w frontmatterze`);
+      assert.ok(blok[1].includes(adres), `${slug}: ${adres} przy informacji`);
+    }
+    assert.ok(page.body.indexOf('{{skrypt') < page.body.indexOf('{{zrodlo'),
+      `${slug}: wydarzenia misji przed tłem z pierwowzoru`);
+  }
+  // Tło nie może wyprzedzać fabuły ani mieszać się z opisem rozgrywki (ADR 0012, ADR 0018).
+  assert.match(bySlug.get('terry-sanders-jr').body, /trzeciej wspólnej misji/);
+  assert.match(bySlug.get('karen-joshua').body, /wdową po lekarzu\s*\n?\s*wojskowym/);
+  assert.match(bySlug.get('christina-mackenzie').body, /shoe-fitter/);
+  assert.match(bySlug.get('andy-strauss').body, /ginie w kokpicie/);
+  assert.match(bySlug.get('eledore-massis').body, /za sterami wozu wsparcia/);
+  assert.match(bySlug.get('michel-ninorich').body, /nawigację i obsługuje działko/);
+});
+
+test('jednostki misji 1-5 mają tło techniczne z pierwowzorów (ADR 0008, ADR 0013)', () => {
+  const ez8 = 'https://www.mahq.net/rx-79gez-8/';
+  const rx79 = 'https://www.mahq.net/rx-79g/';
+  const hover = 'https://gundam.fandom.com/wiki/Hover_Truck';
+  const kampfer = 'https://www.mahq.net/ms-18e/';
+  const fz = 'https://www.mahq.net/ms-06fz/';
+  const zrodlaMechow = {
+    'gundam-ez8': [ez8],
+    'gundam-ground-type': [rx79, ez8],
+    'gundam-ground-type-glowa-gm': [ez8],
+    'hover-truck': [hover],
+    'kampfer-bazooka': [kampfer],
+    'kampfer-high-mobility': [kampfer],
+    'zaku-ii-kai': [fz],
+  };
+  for (const [slug, adresy] of Object.entries(zrodlaMechow)) {
+    const page = bySlug.get(slug);
+    const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
+    assert.ok(blok, `${slug}: blok tła z pierwowzoru`);
+    assert.match(blok[1], /pierwowzorze/, `${slug}: tło oddzielone od danych gry`);
+    assert.match(blok[1], /sprawdzono 2026-10-24\)/, `${slug}: data sprawdzenia źródła`);
+    for (const adres of adresy) {
+      assert.ok(page.zrodla.includes(adres), `${slug}: ${adres} w frontmatterze`);
+      assert.ok(blok[1].includes(adres), `${slug}: ${adres} przy informacji`);
+    }
+    assert.ok(page.body.indexOf('{{menu') < page.body.indexOf('{{zrodlo'),
+      `${slug}: dane z gry przed tłem z pierwowzoru`);
+  }
+  // Alex ma własny blok tła od misji 1-5, więc wszystkie osiem jednostek jest opisanych.
+  assert.match(bySlug.get('rx-78nt-1-gundam-alex').body, /\{\{zrodlo gra=wspolne/);
+  assert.match(bySlug.get('gundam-ez8').body, /extra zero-eight/);
+  assert.match(bySlug.get('hover-truck').body, /M353A4 Bloodhound/);
+  assert.match(bySlug.get('zaku-ii-kai').body, /MS-06FZ/);
+  assert.match(bySlug.get('kampfer-high-mobility').body, /159 ton/);
 });

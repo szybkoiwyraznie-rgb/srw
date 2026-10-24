@@ -10,7 +10,7 @@ w_gre:
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/G-Fighter
-tagi: [one-year-war]
+tagi: [one-year-war, gundam-1979, federacja, white-base, pojazd-wsparcia]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

@@ -9,8 +9,11 @@
  * jest ignorowana, bo widok i tak wypełnia ekran.
  *
  * Obrazy pozostają w R2 — podgląd tylko podstawia adres, nic nie kopiuje
- * do repozytorium ani do artefaktu.
+ * do repozytorium ani do artefaktu. Miniatura może być w tym momencie
+ * zwolniona z pamięci (ADR 0032), dlatego adres czytamy przez `adresObrazu`.
  */
+
+import { adresObrazu } from './leniwe-obrazy.js';
 
 /** Stan pojedynczego otwartego okna podglądu. */
 let okno = null;
@@ -165,7 +168,7 @@ export function podepnijPodglad(dokument = globalThis.document) {
 function otworzPodglad(przycisk) {
   const miniatura = przycisk.querySelector('img');
   if (!miniatura) return;
-  const adres = miniatura.currentSrc || miniatura.src;
+  const adres = miniatura.currentSrc || adresObrazu(miniatura);
   if (!adres) return;
 
   zrodloFokusu = przycisk;
@@ -200,7 +203,7 @@ function pokazIlustracje() {
   const przycisk = przyciski[indeks];
   const miniatura = przycisk?.querySelector('img');
   if (!miniatura) return;
-  obraz.src = miniatura.currentSrc || miniatura.src;
+  obraz.src = miniatura.currentSrc || adresObrazu(miniatura);
   obraz.alt = miniatura.alt || '';
   if (podpis) podpis.textContent = miniatura.alt || '';
   if (licznik) licznik.textContent = opisLicznika(indeks, przyciski.length);

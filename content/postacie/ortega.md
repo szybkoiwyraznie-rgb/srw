@@ -7,7 +7,9 @@ rola: pilot
 gry: [srw-oe]
 mechy: [dom]
 pochodzenie: skrypt
-tagi: [one-year-war]
+zrodla:
+  - https://gundam.fandom.com/wiki/Black_Tri-Stars
+tagi: [one-year-war, pilot, gundam-1979, zeon, black-tri-stars]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
@@ -17,6 +19,11 @@ utworzono: 2026-10-22
 Jeden z trzech pilotów [[black-tri-stars|Black Tri-Stars]], prowadzący [[dom|Doma]]. Razem z [[mash|Mashem]] wchodzi w [[jet-stream-attack|atak Jet Stream]] na [[white-base|White Base]] i nie może uwierzyć, że zespół okrętu się przez niego prześlizguje.
 
 Po walce narzeka na odwrót, ale przyznaje, że porażka boli, i zapowiada rewanż. Wcześniej odpowiada na żart [[mash|Masha]] o Krzyżu Zeonu, że ich imiona staną się jeszcze bardziej legendarne.
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-suit-gundam-1979|pierwowzorze]] Ortega zaczynał jako sierżant sztabowy w batalionie szkolenia mobilnego — jednym z pierwszych oddziałów [[zeon|Zeonu]] uczących się walki [[mobile-suit|mobile suitami]] — i latał ciemnogranatowym Zakiem I, jeszcze bez stałego zespołu. Drużynę z [[gaia|Gaią]] i [[mash|Mashem]] zawiązali przed bitwą pod [[loum|Loum]], przesiadając się na wczesną odmianę Zaku II. W [[jet-stream-attack|ataku Jet Stream]] trzy maszyny podchodzą do celu jedna za drugą, tak że z daleka widać tylko jeden mobile suit; gdy przeciwnik uchyli się przed pierwszym uderzeniem albo spróbuje kontry, wchodzą kolejni dwaj piloci ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-24).
 }}
 {{menu gra=srw-oe
 

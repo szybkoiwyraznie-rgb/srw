@@ -23,12 +23,33 @@ const KAFEL_DOMYSLNY = 240;
 /** Pola, po których można filtrować galerie postaci i mechów. */
 const POLA_FILTRU = ['gra', 'epizod', 'scena', 'seria'];
 
+/** Pola filtrów nad listami epizodów i scen (ADR 0034). Pytamy o to, co w nich
+ * gra: tytuł, świat oraz konkretna maszyna albo postać. */
+const POLA_FILTRU_FABULY = ['gra', 'seria', 'mech', 'postac'];
+
+/** Lista serii pyta tylko o grę — reszta pól nie ma dla serii sensu. */
+const POLA_FILTRU_SERII = ['gra'];
+
+/** Czy lista tego typu jest listą fabularną (epizody, sceny). */
+const czyFabula = (typ) => typ === 'epizod' || typ === 'scena';
+
+/** Pola filtrów właściwe dla listy danego typu. */
+const polaFiltru = (typ) => {
+  if (czyFabula(typ)) return POLA_FILTRU_FABULY;
+  if (typ === 'seria') return POLA_FILTRU_SERII;
+  return POLA_FILTRU;
+};
+
 /** Wartość filtra `seria` dla encji bez przypisanej serii (opcja „Nieokreślona”). */
 const BEZ_SERII = 'bez-serii';
 
+/** Ile tagów pokazuje wiersz listy. Rodzaj treści jest teraz tagiem (ADR 0033),
+ * więc cztery chipsy ucinały już sensowną informację. */
+const LIMIT_CHIPSOW = 6;
+
 /** Klucze adresu, które lista przyjmuje. Reszta jest odrzucana, żeby widok
  * nie przenosił w linkach przypadkowej treści (i żeby nie trafiła do HTML). */
-const KLUCZE_ADRESU = new Set([...POLA_FILTRU, 'rozmiar', 'tagi']);
+const KLUCZE_ADRESU = new Set([...POLA_FILTRU, ...POLA_FILTRU_FABULY, ...POLA_FILTRU_SERII, 'rozmiar', 'tagi']);
 
 /** Tylko znane klucze i tylko tekstowe wartości — adres jest danymi wejściowymi. */
 function oczyscQuery(query) {
@@ -58,13 +79,18 @@ export function renderListe(typ, query = {}) {
   const q = oczyscQuery(query);
   if (q.epizod && !q.gra) delete q.epizod;
   if (q.scena && !q.epizod) delete q.scena;
+  // Każda lista przyjmuje tylko swoje filtry: epizod i scena pytają o mecha
+  // i postać, galerie — o odcinek i scenę.
+  for (const pole of [...POLA_FILTRU, ...POLA_FILTRU_FABULY, ...POLA_FILTRU_SERII]) {
+    if (!polaFiltru(typ).includes(pole)) delete q[pole];
+  }
 
   let lista = typ === 'epizod'
     ? listaEpizodow()
     : typ === 'scena' ? listaSceneWszystkie() : listaPosortowana(typ);
 
   // Zastosuj WSZYSTKIE ustawione filtry jednocześnie (intersection), nie tylko pierwszy.
-  for (const pole of POLA_FILTRU) {
+  for (const pole of polaFiltru(typ)) {
     const wartosc = q[pole];
     if (!wartosc) continue;
     lista = filtrujPoPolu(lista, typ, pole, wartosc);
@@ -74,7 +100,10 @@ export function renderListe(typ, query = {}) {
   if (wybraneTagi.length) lista = filtrujPoTagach(lista, wybraneTagi);
 
   const filtr = wybierzFiltr(typ, q); // tylko do nagłówka (który źródło jest wybrane)
-  const filtrHtml = (typ === 'postac' || typ === 'mech') ? renderFiltryKrokowe(typ, q) : '';
+  const filtrHtml = (typ === 'postac' || typ === 'mech')
+    ? renderFiltryKrokowe(typ, q)
+    : czyFabula(typ) ? renderFiltryFabuly(typ, q)
+      : typ === 'seria' ? renderFiltrGry(q) : '';
   const chmura = typ === 'pojecie' ? renderChmuraTagow(wybraneTagi) : '';
   const etykietaTagow = wybraneTagi.length ? `tagi: ${wybraneTagi.join(', ')}` : null;
 
@@ -120,10 +149,11 @@ function trzeciaForma(typ) {
 
 /** Dozwolone filtry listy: pole → typ encji, do której prowadzi (tylko nagłówek). */
 const FILTRY = {
-  epizod: { gra: 'gra', seria: 'seria' },
+  epizod: { gra: 'gra', seria: 'seria', mech: 'mech', postac: 'postac' },
+  scena: { gra: 'gra', seria: 'seria', mech: 'mech', postac: 'postac' },
   postac: { seria: 'seria', gra: 'gra', epizod: 'epizod', scena: 'scena' },
   mech: { seria: 'seria', gra: 'gra', epizod: 'epizod', scena: 'scena' },
-  seria: {},
+  seria: { gra: 'gra' },
   gra: {},
 };
 
@@ -144,6 +174,7 @@ function wybierzFiltr(typ, query) {
 
 /** Filtruje listę encji po jednym polu. Wszystkie filtry są stosowane razem (intersection). */
 function filtrujPoPolu(lista, typ, pole, wartosc) {
+  if (czyFabula(typ)) return filtrujFabule(lista, typ, pole, wartosc);
   if (pole === 'gra') {
     return lista.filter((p) => {
       const gry = Array.isArray(p.gry) ? p.gry : (p.gra ? [p.gra] : []);
@@ -167,6 +198,34 @@ function filtrujPoPolu(lista, typ, pole, wartosc) {
     const poleEncji = typ === 'mech' ? 'mechy' : 'postacie';
     const slugi = new Set(scena[poleEncji] ?? []);
     return lista.filter((p) => slugi.has(p.slug));
+  }
+  return lista;
+}
+
+/** Gra, do której należy epizod albo scena (scena dziedziczy ją po epizodzie). */
+function graWpisu(wpis) {
+  if (wpis.typ === 'epizod') return wpis.gra ?? null;
+  return dajStrone(wpis.epizod)?.gra ?? null;
+}
+
+/** Postacie i mechy wymienione we wpisie epizodu albo sceny. */
+function encjeWpisu(wpis) {
+  return [...(wpis.postacie ?? []), ...(wpis.mechy ?? [])].map(dajStrone).filter(Boolean);
+}
+
+/**
+ * Filtr listy epizodów i scen (ADR 0034).
+ *
+ * Epizod i scena nie mają pola `seria` — świat biorą z obsady, więc filtr serii
+ * pyta, czy występuje w nich choć jedna postać albo maszyna z tej serii.
+ */
+function filtrujFabule(lista, typ, pole, wartosc) {
+  if (pole === 'gra') return lista.filter((p) => graWpisu(p) === wartosc);
+  if (pole === 'mech') return lista.filter((p) => (p.mechy ?? []).includes(wartosc));
+  if (pole === 'postac') return lista.filter((p) => (p.postacie ?? []).includes(wartosc));
+  if (pole === 'seria') {
+    if (wartosc === BEZ_SERII) return lista.filter((p) => encjeWpisu(p).some((e) => !e.seria));
+    return lista.filter((p) => encjeWpisu(p).some((e) => e.seria === wartosc));
   }
   return lista;
 }
@@ -242,7 +301,7 @@ function listaEncjiHtml(lista, typ) {
     <li>
       <a href="${hrefDlaSlug(p.slug, p.typ)}">${escapeHtml(p.tytul)}</a>
       <span class="meta">${metaEncji(p)}</span>
-      ${(p.tagi ?? []).length ? `<span class="chipsy-inline">${p.tagi.slice(0, 4).map((t) => `<a class="chip chip-maly" href="#/tag/${encodeURIComponent(t)}">${escapeHtml(t)}</a>`).join('')}</span>` : ''}
+      ${(p.tagi ?? []).length ? `<span class="chipsy-inline">${p.tagi.slice(0, LIMIT_CHIPSOW).map((t) => `<a class="chip chip-maly" href="#/tag/${encodeURIComponent(t)}">${escapeHtml(t)}</a>`).join('')}</span>` : ''}
     </li>`).join('')}</ul>`;
 }
 
@@ -436,6 +495,87 @@ function renderFiltryKrokowe(typ, query) {
   </style>`;
 }
 
+/** Jeden selektor filtra: pusta opcja, opcje dodatkowe i strony do wyboru. */
+function selektFiltru(pole, etykieta, pusta, opcje, wybrany = '', dodatkowe = '') {
+  return `<div class="filtr-grupa">
+      <label class="filtr-etykieta">${etykieta}</label>
+      <select class="filtr-select" name="${pole}"${opcje.length === 0 && !dodatkowe ? ' disabled' : ''} onchange="srwZmienFiltr(this, '${pole}')">
+        <option value="">${pusta}</option>
+        ${dodatkowe}
+        ${opcje.map((o) => `<option value="${escapeHtml(o.slug)}"${o.slug === wybrany ? ' selected' : ''}>${escapeHtml(o.tytul)}</option>`).join('')}
+      </select>
+    </div>`;
+}
+
+/**
+ * Filtr nad listą serii: Gra (zgłoszenie właściciela, 2026-10-24).
+ *
+ * Seria należy do gry przez pole `gry`, więc opcje biorą się z samych serii —
+ * gra bez ani jednej serii nie ma po co stać w selektorze. Bieżący wybór
+ * zostaje w nim nawet wtedy, gdy nic mu nie odpowiada.
+ */
+function renderFiltrGry(query) {
+  const slugi = new Set(listaPosortowana('seria').flatMap((s) => (Array.isArray(s.gry) ? s.gry : (s.gra ? [s.gra] : []))));
+  if (query.gra) slugi.add(query.gra);
+  const gry = [...slugi].map(dajStrone).filter(Boolean)
+    .sort((a, b) => String(a.tytul).localeCompare(String(b.tytul), 'pl'));
+  return `<div class="filtry-krokowe" data-typ="seria" data-query='${escapeAtrybut(JSON.stringify(query))}'>
+    ${selektFiltru('gra', 'Gra', 'wszystkie gry', gry, query.gra ?? '')}
+  </div>`;
+}
+
+/**
+ * Filtry nad listą epizodów albo scen: Gra, Seria, Mech, Postać (ADR 0034).
+ *
+ * Opcje każdego selektora liczą się z listy zawężonej **pozostałymi** filtrami,
+ * więc wybory nawzajem się ograniczają i nie da się złożyć zestawu bez wyników.
+ * Wybrana wartość zostaje w swoim selektorze nawet wtedy, gdy inne filtry już
+ * jej nie przepuszczają — inaczej nie byłoby czego odznaczyć.
+ */
+function renderFiltryFabuly(typ, query) {
+  const bazowa = () => (typ === 'epizod' ? listaEpizodow() : listaSceneWszystkie());
+  const poPozostalych = (pomijane) => {
+    let lista = bazowa();
+    for (const pole of POLA_FILTRU_FABULY) {
+      if (pole === pomijane) continue;
+      const wartosc = query[pole];
+      if (wartosc) lista = filtrujFabule(lista, typ, pole, wartosc);
+    }
+    return lista;
+  };
+  const posortowane = (strony) => Array.from(new Map(strony.map((s) => [s.slug, s])).values())
+    .sort((a, b) => String(a.tytul).localeCompare(String(b.tytul), 'pl'));
+  /** Opcje selektora: dostępne po zawężeniu + zawsze bieżący wybór. */
+  const zWyborem = (strony, wybrany) => {
+    const lista = posortowane(strony);
+    if (wybrany && !lista.some((s) => s.slug === wybrany)) {
+      const wybrana = dajStrone(wybrany);
+      if (wybrana) return posortowane([...lista, wybrana]);
+    }
+    return lista;
+  };
+
+  const gry = zWyborem(poPozostalych('gra').map(graWpisu).map(dajStrone).filter(Boolean), query.gra);
+  const encjeSerii = poPozostalych('seria').flatMap(encjeWpisu);
+  const serie = zWyborem(encjeSerii.map((e) => e.seria).filter(Boolean).map(dajStrone).filter(Boolean), query.seria);
+  const mechy = zWyborem(poPozostalych('mech').flatMap((p) => (p.mechy ?? []).map(dajStrone)).filter(Boolean), query.mech);
+  const postacie = zWyborem(poPozostalych('postac').flatMap((p) => (p.postacie ?? []).map(dajStrone)).filter(Boolean), query.postac);
+  const bezSerii = encjeSerii.some((e) => !e.seria);
+
+  const selekt = (pole, etykieta, pusta, opcje, dodatkowe = '') => selektFiltru(pole, etykieta, pusta, opcje, query[pole] ?? '', dodatkowe);
+
+  const opcjaBezSerii = (bezSerii || query.seria === BEZ_SERII)
+    ? `<option value="${BEZ_SERII}"${query.seria === BEZ_SERII ? ' selected' : ''}>Nieokreślona</option>`
+    : '';
+
+  return `<div class="filtry-krokowe" data-typ="${typ}" data-query='${escapeAtrybut(JSON.stringify(query))}'>
+    ${selekt('gra', 'Gra', 'wszystkie gry', gry)}
+    ${selekt('seria', 'Seria', 'wszystkie serie', serie, opcjaBezSerii)}
+    ${selekt('mech', 'Mech', 'wszystkie maszyny', mechy)}
+    ${selekt('postac', 'Postać', 'wszystkie postacie', postacie)}
+  </div>`;
+}
+
 /** Kliknięcie selecta filtra: zmienia hash z zachowaniem pozostałych filtrów i resetem zależnych. */
 globalThis.srwZmienFiltr = function (select, pole) {
   const kontener = select.closest?.('.filtry-krokowe');
@@ -465,6 +605,7 @@ function porownajSceny(a, b) {
   return new Intl.Collator('pl', { numeric: true, sensitivity: 'base' }).compare(String(a.numer_sceny ?? ''), String(b.numer_sceny ?? ''));
 }
 
+/** Opis wiersza listy: seria, rola i liczba maszyn. Rodzaj hasła niesie tag (ADR 0033). */
 function metaEncji(p) {
   const czesci = [];
   if (p.seria) {
@@ -472,7 +613,6 @@ function metaEncji(p) {
     if (s) czesci.push(escapeHtml(s.tytul));
   }
   if (p.typ === 'postac' && p.rola) czesci.push(escapeHtml(p.rola));
-  if (p.typ === 'pojecie' && p.kategoria) czesci.push(escapeHtml(p.kategoria));
   if (p.typ === 'postac' && Array.isArray(p.mechy) && p.mechy.length) {
     czesci.push(`${p.mechy.length} ${odmiana(p.mechy.length, ['mech', 'mechy', 'mechów'])}`);
   }

@@ -11,7 +11,7 @@ zrodla:
   - https://gundam.fandom.com/wiki/Johann_Abraham_Revil
   - https://gundam.fandom.com/wiki/Black_Tri-Stars
   - https://gundam.fandom.com/wiki/Antarctic_Treaty
-tagi: [one-year-war]
+tagi: [one-year-war, dowodztwo, gundam-1979, federacja]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

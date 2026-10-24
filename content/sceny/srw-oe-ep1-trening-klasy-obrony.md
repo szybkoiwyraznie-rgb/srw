@@ -15,10 +15,10 @@ sekcje_analizy:
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
-postacie: [seishiro, himari-yaegaki, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, yoko-kuriki]
+postacie: [seishiro, himari-yaegaki, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, yoko-kuriki, control-ai]
 mechy: [exart, raijin-oh, brocken]
 pojecia: [klasa-obrony-ziemi, akademia-hinobori, connect-force, jaku-empire]
-tagi: [trening, eldran]
+tagi: [trening, eldran, connect, klasa-obrony-ziemi]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
@@ -347,7 +347,7 @@ Maria ogłasza rozkaz wymarszu, a [[tsutomu-kojima|Tsutomu]] zagania klasę na m
 
 ### Spotkanie z Raijin-Oh
 
-[[himari-yaegaki|Himari]] wykrywa szybko zbliżający się obiekt — to klasa, z którą Connect ma ćwiczyć. Na miejscu nie ma jednak wroga, tylko Labory treningowe: [[kirara-haruno|Kirara]] rozpoznaje maszyny, z którymi klasa zawsze walczy, a [[koji-hoshiyama|Koji]] zaczyna domyślać się, że to tylko trening. [[maria-shiratori|Maria]] przyznaje, że urządziła ćwiczenia z zaskoczenia, żeby [[jin-hyuga|Jin]] się nie obijał.
+[[himari-yaegaki|Himari]] wykrywa szybko zbliżający się obiekt — to klasa, z którą Connect ma ćwiczyć. Na miejscu nie ma jednak wroga, tylko Labory treningowe — cztery [[brocken|Brockeny]] w wariancie Melee pod kontrolą [[control-ai|Control AI]]: [[kirara-haruno|Kirara]] rozpoznaje maszyny, z którymi klasa zawsze walczy, a [[koji-hoshiyama|Koji]] zaczyna domyślać się, że to tylko trening. [[maria-shiratori|Maria]] przyznaje, że urządziła ćwiczenia z zaskoczenia, żeby [[jin-hyuga|Jin]] się nie obijał.
 
 [[seishiro|Seishiro]] wyjaśnia [[himari-yaegaki|Himari]], że będą dziś ćwiczyć z [[raijin-oh|Raijin-Ohem]] i [[klasa-obrony-ziemi|Klasą Obrony Ziemi]], która pokonała [[jaku-empire|Imperium Piątego Wymiaru]]. Himari przedstawia się przez radio, a Seishiro studzi jej emocje: to dzieci z podstawówki, ale weterani, więc nie można dać plamy.
 

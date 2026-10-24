@@ -18,7 +18,7 @@ zrodla:
   - https://en.wikipedia.org/wiki/Char_Aznable
   - https://gundam.fandom.com/wiki/Gundam_Rising
   - https://gundam.fandom.com/wiki/Destroy_Gundam
-tagi: [prolog, trening, one-year-war]
+tagi: [prolog, trening, one-year-war, connect, gundam-1979, white-base, federacja, zeon]
 utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe

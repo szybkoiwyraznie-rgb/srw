@@ -21,7 +21,7 @@ zrodla:
 postacie: [seishiro, himari-yaegaki, suol, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve, zolnierz-zeonu]
 mechy: [g-fighter, guncannon, rx-78-2-gundam, guntank, white-base, dom, dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
 pojecia: [black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, connect-force, minovsky-particles, mobile-suit, newtype, jaburo, krzyz-zeonu, stacja-connect]
-tagi: [one-year-war]
+tagi: [one-year-war, gundam-1979, zeon, white-base, black-tri-stars]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

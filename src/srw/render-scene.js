@@ -124,13 +124,26 @@ export function elementSceny(s) {
     s.streszczenie ? `<span class="streszczenie-sceny">${escapeHtml(s.streszczenie)}</span>` : ''}</li>`;
 }
 
-/** Sekcja „Sceny" na stronie epizodu — agregacja wpisów scen (ADR 0008 pkt 4). */
-export function sekcjaScen(slugEpizodu) {
+/**
+ * Sekcja „Sceny" na stronie epizodu — agregacja wpisów scen (ADR 0008 pkt 4).
+ *
+ * Wariant `pelna` stoi na szczycie strony epizodu przez całą jej szerokość:
+ * sceny są główną drogą do treści epizodu, więc nie mogą czekać w wąskiej
+ * kolumnie bocznej pod metryką. Wąski wariant zostaje dla miejsc, gdzie lista
+ * jest dodatkiem obok treści.
+ */
+export function sekcjaScen(slugEpizodu, { pelna = false } = {}) {
   const sceny = scenyEpizodu(slugEpizodu);
   if (sceny.length === 0) return '';
-  return `<section class="blok-sceny">
-    <h2>Sceny</h2>
-    <ul class="lista-scen">
+  const naglowek = pelna
+    ? `<div class="naglowek-sekcji">
+      <h2>Sceny</h2>
+      <span class="licznik">${sceny.length}</span>
+    </div>`
+    : '<h2>Sceny</h2>';
+  return `<section class="blok-sceny${pelna ? ' blok-sceny-pelna' : ''}">
+    ${naglowek}
+    <ul class="lista-scen${pelna ? ' lista-scen-siatka' : ''}">
       ${sceny.map(elementSceny).join('')}
     </ul>
   </section>`;

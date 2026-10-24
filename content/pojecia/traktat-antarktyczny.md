@@ -2,12 +2,11 @@
 typ: pojecie
 slug: traktat-antarktyczny
 tytul: Traktat Antarktyczny
-kategoria: traktat wojenny
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Antarctic_Treaty
-tagi: [one-year-war]
+tagi: [one-year-war, traktat-wojenny]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

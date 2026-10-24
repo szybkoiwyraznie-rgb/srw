@@ -2,12 +2,11 @@
 typ: pojecie
 slug: evil-god-drago
 tytul: Zły Bóg Drago
-kategoria: najazd
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://ja.wikipedia.org/wiki/%E7%8D%A3%E7%A5%9E%E3%83%A9%E3%82%A4%E3%82%AC%E3%83%BC
-tagi: [najazd]
+tagi: [najazd, prolog]
 utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe

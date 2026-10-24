@@ -2,12 +2,11 @@
 typ: pojecie
 slug: earth-federation
 tytul: Federacja Ziemska
-kategoria: państwo
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam
-tagi: [federacja]
+tagi: [federacja, panstwo, universal-century]
 utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe

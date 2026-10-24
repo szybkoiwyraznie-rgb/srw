@@ -2,7 +2,6 @@
 typ: pojecie
 slug: universal-century
 tytul: Universal Century
-kategoria: era
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:

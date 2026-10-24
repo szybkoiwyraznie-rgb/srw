@@ -7,7 +7,7 @@ piloci: []
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_2.txt", "profil": "Turret (Wieżyczka uniwersalna)", "dane": "### Macierzyste zdolności maszyny\n- **Obiekt stały (bez poziomu):** Odporn.: \"Przebicie\" \" Pchnięcie\", \" Rzut\"<br>Nie może unikać ataków\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n| ------: | ------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |\n| 0 | Ostrzał | 900 | 3–8 | +40 | 5 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |"}'
 pochodzenie: menu
-tagi: [one-year-war]
+tagi: [one-year-war, bezzalogowy]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

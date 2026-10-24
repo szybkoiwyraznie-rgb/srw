@@ -2,12 +2,11 @@
 typ: pojecie
 slug: mechanization-empire
 tytul: Imperium Mechanizacji
-kategoria: najazd
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://eldran.fandom.com/wiki/Mechanization_Empire
-tagi: [najazd]
+tagi: [najazd, prolog]
 utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe

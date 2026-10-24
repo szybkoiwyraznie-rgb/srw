@@ -7,7 +7,9 @@ seria: mobile-suit-gundam-0080
 gry: [srw-oe]
 mechy: [rx-78nt-1-gundam-alex]
 pochodzenie: skrypt
-tagi: [one-year-war]
+zrodla:
+  - https://gundam.fandom.com/wiki/Christina_Mackenzie
+tagi: [one-year-war, pilot, gundam-0080, federacja]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
@@ -17,6 +19,11 @@ utworzono: 2026-10-23
 Pilotka testowa [[rx-78nt-1-gundam-alex|Alexa]] w stopniu porucznika. Ma świetne wyniki na symulatorze, ale szybkość reakcji maszyny budzi jej obawy przed walką. Rozmowa z [[shiro-amada|Shiro Amadą]] pokazuje różnicę między wynikiem symulacji a doświadczeniem pola bitwy.
 
 Po rozpoczęciu ataku [[pluton-cyclops|plutonu Cyclops]] [[oficer-federacji|oficer Federacji]] każe Chris udać się do wahadłowca i zostawić walkę [[08-pluton-ms|08. Plutonowi MS]]. Po odpartym natarciu dziękuje Shiro za osłonę transportu.
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-suit-gundam-0080|pierwowzorze]] Chris wstąpiła do akademii Sił Kosmicznych [[earth-federation|Federacji]] we wrześniu U.C. 0076 i ukończyła ją dwa lata później jako najlepsza w roczniku. Z zawodu jest inżynierką od komputerów, a nie pilotką doświadczalną: do zespołu G-4 trafiła jako „shoe-fitter”, czyli osoba dostrajająca komputer uczący [[rx-78nt-1-gundam-alex|Gundama NT-1]]. Umiejętności za sterami zrobiły jednak na przełożonych takie wrażenie, że powierzono jej tę maszynę na stałe ([Gundam Wiki, „Christina Mackenzie”](https://gundam.fandom.com/wiki/Christina_Mackenzie); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe

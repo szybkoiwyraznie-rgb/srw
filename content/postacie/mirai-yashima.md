@@ -9,7 +9,7 @@ mechy: [white-base]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam
-tagi: [one-year-war]
+tagi: [one-year-war, wsparcie, gundam-1979, federacja, white-base]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

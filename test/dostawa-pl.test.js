@@ -245,12 +245,20 @@ test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że 
 test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   const zakazane = /\bw grze\b|\bprofilu?\b|\bobsad[a-ząćęłńóśźż]*\b|\broster\b|\bwłasną stroną\b|standardow/i;
   const typy = ['postac', 'mech', 'pojecie', 'seria'];
+  // Sekcja „Opis” kończy się dopiero na kolejnym nagłówku `##` albo na zamknięciu bloku poziomu.
+  // Wcześniejszy wzorzec kończył dopasowanie na pierwszej pustej linii, więc badał pusty tekst
+  // i przepuszczał naruszenia poza pierwszym akapitem (audyt PR #12).
+  let zbadane = 0;
   for (const page of pages.filter(p => typy.includes(p.typ))) {
-    const opis = page.body.match(/^## Opis\n([\s\S]*?)(?=^## |^\}\}|\s*$)/m);
+    const opis = page.body.match(/^## Opis\n([\s\S]*?)(?=^## |^\}\})/m);
     if (!opis) continue;
-    const tekst = opis[1];
+    const tekst = opis[1].trim();
+    if (!tekst) continue;
+    zbadane += 1;
+    assert.ok(tekst.includes('\n\n') || tekst.length > 80, `${page.slug}: sekcja Opis wczytana w całości`);
     assert.doesNotMatch(tekst, zakazane, `${page.slug}: opis zbliża się do technicznego języka gry`);
   }
+  assert.ok(zbadane >= 130, `test ma badać pełne opisy wszystkich encji, a sprawdził ${zbadane}`);
   assert.ok(bySlug.has('zolnierz-zeonu'));
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
     for (const pilot of bySlug.get(slug).piloci) {
@@ -264,6 +272,12 @@ test('ilustracje właściciela: 101 plików przy 77 encjach, w tym postacie bez 
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
   assert.equal(Object.keys(manifest.encje).length, 77);
   assert.equal(Object.values(manifest.encje).flat().length, 101);
+  // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
+  const wszystkie = Object.values(manifest.encje).flat();
+  const portrety = wszystkie.filter((f) => f.startsWith('characters/')).length;
+  const jednostki = wszystkie.filter((f) => !f.includes('/')).length;
+  assert.match(manifest.uwaga, new RegExp(`${portrety} portret[a-ząćęłńóśźż]* w characters/`), 'liczba portretów w uwadze');
+  assert.match(manifest.uwaga, new RegExp(`${jednostki} plik[a-ząćęłńóśźż]* jednostek`), 'liczba plików jednostek w uwadze');
   // Dostawa ilustracji jednostek misji 2 (2026-10-22): sześć maszyn, dziewięć plików.
   assert.deepEqual(manifest.encje.dom, ['Dom.png', 'Dom 2.png']);
   assert.deepEqual(manifest.encje.dopp, ['Dopp.png']);
@@ -380,4 +394,21 @@ test('obsada Exarta i granica fabuły: Himari jako podpilot, bez przyszłych ró
   assert.doesNotMatch(delivery, /Miejsce 2: Himari Yaegaki/);
   assert.match(delivery, /DL100_01/);
   assert.match(bySlug.get('himari-yaegaki').body, /zdalnie steruje/);
+});
+
+test('maszyny wsparcia White Base mają rodowód z pierwowzoru (ADR 0008)', () => {
+  const rodowody = {
+    guncannon: 'https://www.mahq.net/rx-77-2/',
+    guntank: 'https://www.mahq.net/rx-75-4/',
+  };
+  for (const [slug, adres] of Object.entries(rodowody)) {
+    const page = bySlug.get(slug);
+    const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
+    assert.ok(blok, `${slug}: blok tła z pierwowzoru`);
+    assert.match(blok[1], /pierwowzorze/, `${slug}: tło oddzielone od wydarzeń gry`);
+    assert.match(blok[1], /system Core Block/, `${slug}: wspólny rodowód maszyn Operacji V`);
+    assert.match(blok[1], /sprawdzono 2026-10-24\)/, `${slug}: data sprawdzenia źródła`);
+    assert.ok(page.zrodla.includes(adres), `${slug}: adres w frontmatterze`);
+    assert.ok(blok[1].includes(adres), `${slug}: adres przy informacji`);
+  }
 });

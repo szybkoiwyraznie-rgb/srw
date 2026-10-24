@@ -2,12 +2,11 @@
 typ: pojecie
 slug: operacja-odessa
 tytul: Operacja Odessa
-kategoria: wydarzenie
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Operation_Odessa
-tagi: [one-year-war]
+tagi: [one-year-war, wydarzenie]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

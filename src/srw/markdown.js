@@ -86,7 +86,7 @@ export function renderMarkdown(md, {
       const wewn = renderMarkdown(buf.join('\n'), { resolveLink, wymagajPoziomu, wPoziomie: poziom, wZagniezdzeniu: true, atrybutyNaglowka });
       problemy.push(...wewn.problemy);
       const zakres = zakresGry(atrybuty, { poziom, resolveLink, problemy });
-      out.push(`<div class="fragment poziom poziom-${poziom}"${zakres.atrybuty}>\n${zakres.etykieta}${wewn.html}\n</div>`);
+      out.push(`<div class="fragment poziom poziom-${poziom}"${zakres.atrybuty}>\n${wZakresem(wewn.html, zakres.etykieta)}\n</div>`);
       continue;
     }
 
@@ -236,6 +236,23 @@ export function renderMarkdown(md, {
   }
 }
 
+
+/**
+ * Plakietka zakresu gry wchodzi w wiersz tytułu sekcji.
+ *
+ * Fragment zaczynający się nagłówkiem dostaje wspólny wiersz: tytuł po lewej,
+ * plakietka po prawej, w równoległej kolumnie. Osobny wiersz nad tytułem
+ * powtarzał się w każdym boksie strony i zjadał wysokość ekranu, nic nie
+ * wnosząc. Fragment bez nagłówka (sam akapit, tabela, obraz) zachowuje
+ * etykietę nad treścią — nie ma z czym jej zestawić.
+ */
+function wZakresem(html, etykieta) {
+  if (!etykieta) return html;
+  const naglowek = html.match(/^<h([2-4])(?:\s[^>]*)?>[\s\S]*?<\/h\1>/);
+  if (!naglowek) return `${etykieta}${html}`;
+  const reszta = html.slice(naglowek[0].length).replace(/^\n/, '');
+  return `<div class="naglowek-fragmentu">${naglowek[0]}${etykieta.trimEnd()}</div>${reszta ? `\n${reszta}` : ''}`;
+}
 
 /**
  * Etykieta zakresu gry dla bloku treści (ADR 0020).

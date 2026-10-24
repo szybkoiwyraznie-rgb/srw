@@ -5,6 +5,7 @@
 
 import { uruchomRouter } from './router.js';
 import { podepnijPodglad } from './podglad.js';
+import { wlaczLeniweObrazy } from './leniwe-obrazy.js';
 import { rama, tytulStrony, nieZnalesc, nazwaTypu } from './render.js';
 import { czasStrony, coNowegoCzas, czasBazy } from './data.js';
 import { renderGlowna } from './render-home.js';
@@ -79,11 +80,18 @@ function renderuj(trasa) {
   domknijInterakcje(app);
 }
 
-/** Detale panelu skryptu mają pamiętać stan w obrębie sesji przeglądarki. */
+/** Obserwatory leniwych obrazów poprzedniej trasy — odpinane przed nowym renderem. */
+let odepnijObrazy = null;
+
+/** Co trzeba domknąć po wymianie treści: pozycja przewinięcia i ilustracje. */
 function domknijInterakcje(app) {
   globalThis.scrollTo?.(0, 0);
   const tresc = app.querySelector('.tresc');
   if (tresc) tresc.scrollTop = 0;
+  // Obrazy poprzedniej trasy zniknęły razem z HTML-em; nowe dostają własne
+  // obserwatory, żeby w pamięci siedziały tylko ilustracje w polu widzenia.
+  odepnijObrazy?.();
+  odepnijObrazy = wlaczLeniweObrazy(app, globalThis);
 }
 
 /**

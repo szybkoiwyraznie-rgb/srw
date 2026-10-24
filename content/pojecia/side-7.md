@@ -2,12 +2,11 @@
 typ: pojecie
 slug: side-7
 tytul: Side 7
-kategoria: miejsce
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/RX-78-2_Gundam
-tagi: [one-year-war]
+tagi: [one-year-war, miejsce]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

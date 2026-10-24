@@ -10,7 +10,7 @@ pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Char_Aznable
   - https://gundam.fandom.com/wiki/Battle_of_Loum
-tagi: [one-year-war]
+tagi: [one-year-war, antagonista, gundam-1979, zeon]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

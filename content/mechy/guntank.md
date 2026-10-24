@@ -8,7 +8,9 @@ piloci: [hayato-kobayashi]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_2.txt", "profil": "Guntank", "dane": "**Seria:** Mobile Suit Gundam\n### Macierzyste zdolności maszyny\n- **Hart (poziom bazowy 1):** Odp.: Odepch./Rzut<br>Obraż.-4%\n**Składy grup zapisane w tabeli:** Oddział White Base.\n**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**\n- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.<br>Może zamienić się z jedn. grupy<br>Tylko w wybranych misjach\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n| ------: | ------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |\n| 0 | Bop Missiles | 2400 | 1–4 | +30 | 10 | — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu<br>**Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4 |\n| 1 | Działo 120 mm | 3800 | 3–7 | +10 | 20 | — | Brak w tym polu | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód<br>**Na ląd (poziom bazowy 1):** Teren \"Ląd\": Cel+40% Atk x1.3 |"}'
 pochodzenie: skrypt
-tagi: [one-year-war]
+zrodla:
+  - https://www.mahq.net/rx-75-4/
+tagi: [one-year-war, gundam-1979, federacja, white-base]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
@@ -16,6 +18,10 @@ utworzono: 2026-10-22
 ## Opis
 
 Maszyna wsparcia [[white-base|White Base]], prowadzona przez [[hayato-kobayashi|Hayato Kobayashiego]]. W walce z [[black-tri-stars|Black Tri-Stars]] Hayato bierze na siebie ostrzał umocnień i baterii wroga.
+}}
+{{zrodlo gra=wspolne
+
+W pierwowzorze Guntank wywodzi się wprost z czołgów. W U.C. 0065 [[earth-federation|Federacja]] wystawiła RTX-65, pojazd łączący gąsienicowy kadłub z humanoidalnym torsem, a dziesięć lat później — gdy zaległości wobec [[zeon|Zeonu]] stały się dotkliwe — na bazie doświadczalnego RTX-44 powstał RX-75-4. Uzbrojenie to dwa działa 180 mm nad barkami i czterolufowe wyrzutnie rakiet zamiast rąk, a maszynę obsługuje dwuosobowa załoga: kierowca w torsie i celowniczy w głowie. Tors kryje system Core Block, więc po odstrzeleniu górnej części kadłub może dalej służyć jako stanowisko ogniowe ([MAHQ, „RX-75-4 Guntank”](https://www.mahq.net/rx-75-4/); sprawdzono 2026-10-24).
 }}
 {{menu gra=srw-oe
 

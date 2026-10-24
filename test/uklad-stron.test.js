@@ -206,16 +206,44 @@ test('encje i epizody mają ten sam układ dwukolumnowy', () => {
   const epizod = renderEpizod('srw-oe-ep1');
   const [glownaE, bocznaE] = kolejnosc(epizod, ['class="kolumna-glowna', 'class="kolumna-boczna']);
   assert.ok(glownaE < bocznaE);
-  const lewa = epizod.slice(glownaE, bocznaE);
   const prawa = epizod.slice(bocznaE);
-  assert.doesNotMatch(lewa, /<h2>Sceny<\/h2>/, 'lista scen nie stoi w lewej kolumnie');
-  const [obsadaE, scenyE] = kolejnosc(prawa, ['W tym epizodzie', '<h2>Sceny</h2>']);
-  assert.ok(obsadaE < scenyE, 'lista scen zamyka prawą kolumnę');
+  assert.match(prawa, /W tym epizodzie/, 'obsada zostaje w prawej kolumnie');
+  assert.doesNotMatch(prawa, /<h2>Sceny<\/h2>/, 'lista scen nie wraca do wąskiej kolumny');
+});
+
+test('epizod: sceny stoją na górze, na pełną szerokość', () => {
+  const epizod = renderEpizod('srw-oe-ep1');
+  const [sceny, uklad] = kolejnosc(epizod, ['blok-sceny-pelna', 'class="uklad-strona"']);
+  assert.ok(sceny < uklad, 'sekcja scen jest przed układem dwukolumnowym');
+  assert.match(epizod, /lista-scen-siatka/, 'sceny układają się w siatkę, nie w słupek');
+  assert.equal((epizod.match(/<h2>Sceny<\/h2>/g) ?? []).length, 1, 'jedna lista scen na stronie');
+  assert.match(css, /\.blok-sceny-pelna \{/, 'styl pełnej szerokości istnieje');
+
+  // Boks „Treść epizodu” zniknął razem z kopią skryptu w danych strony.
+  assert.doesNotMatch(epizod, /panel-skryptu/);
+  for (const s of Object.values(globalThis.SRW_DATA.strony)) {
+    assert.equal(Object.hasOwn(s, 'skryptTekst'), false, `${s.slug}: artefakt bez kopii skryptu`);
+  }
+});
+
+test('epizod 1: nagłówki misji prowadzą do stron scen', () => {
+  const epizod = renderEpizod('srw-oe-ep1');
+  const oczekiwane = [
+    ['srw-oe-ep1-szalejacy-prototyp-labora', 'Misja 1: Szalejący prototyp Labora'],
+    ['srw-oe-ep1-black-tri-stars', 'Misja 2: Black Tri-Stars'],
+    ['srw-oe-ep1-powstrzymaj-pocisk-termojadrowy', 'Misja 3: Powstrzymaj pocisk termojądrowy'],
+    ['srw-oe-ep1-trening-klasy-obrony', 'Misja 4: Trening Klasy Obrony'],
+    ['srw-oe-ep1-start-alexa', 'Misja 5: Start Alexa'],
+  ];
+  for (const [slug, tytul] of oczekiwane) {
+    const wzor = new RegExp(`<h3><a href="#/scena/${slug}"[^>]*>${tytul.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}</a></h3>`);
+    assert.match(epizod, wzor, `nagłówek „${tytul}” prowadzi do sceny`);
+  }
 });
 
 test('epizod: streszczenie, wątki i komentarz mają osobne boksy', () => {
   const html = renderEpizod('srw-oe-ep0');
-  const boksy = [...html.matchAll(/<section class="sekcja-strony">\s*<div class="fragment[^"]*"[^>]*>\s*<p class="zakres-gry">[\s\S]*?<h2>([^<]+)<\/h2>/g)]
+  const boksy = [...html.matchAll(/<section class="sekcja-strony">\s*<div class="fragment[^"]*"[^>]*>\s*<div class="naglowek-fragmentu"><h2>([^<]+)<\/h2>/g)]
     .map((m) => m[1]);
   assert.deepEqual(boksy, ['Streszczenie', 'Wątki fabularne', 'Komentarz', 'Postacie i maszyny', 'Inne źródła i rozbieżności']);
 
@@ -262,4 +290,26 @@ test('arkusz stylów: 3/4 + 1/4, brak pustego pasa nad stopką', () => {
   const stopka = css.match(/\.stopka \{[^}]*\}/)[0];
   const margines = Number(stopka.match(/margin-top:\s*(\d+)px/)?.[1]);
   assert.ok(margines <= 30, `margines stopki ${margines}px jest niewielki`);
+});
+
+test('plakietka zakresu gry stoi w wierszu tytułu sekcji, nie nad nim', () => {
+  const epizod = renderEpizod('srw-oe-ep0');
+  assert.match(
+    epizod,
+    /<div class="naglowek-fragmentu"><h2>Streszczenie<\/h2><p class="zakres-gry"><a href="#\/gra\/srw-oe">Super Robot Wars OE<\/a><\/p><\/div>/,
+    'tytuł i plakietka w jednym wierszu',
+  );
+
+  // Żaden boks z nagłówkiem nie zaczyna się już od samotnej plakietki.
+  const encja = renderEncja('cybuster');
+  const scena = renderScena('prolog-i-trening-w-connect');
+  for (const html of [epizod, encja, scena]) {
+    assert.doesNotMatch(html, /<p class="zakres-gry">[\s\S]{0,160}?<\/p>\n<h[234]/, 'plakietka nie zajmuje osobnego wiersza nad tytułem');
+  }
+
+  // Fragment bez nagłówka nie ma z czym zestawić etykiety — zostaje nad treścią.
+  assert.match(epizod, /<div class="fragment poziom poziom-wiedza"[^>]*>\n<p class="zakres-gry">/);
+
+  assert.match(css, /\.naglowek-fragmentu \{/, 'styl wspólnego wiersza istnieje');
+  assert.match(css, /\.naglowek-fragmentu > \.zakres-gry \{/);
 });

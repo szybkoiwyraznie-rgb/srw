@@ -19,7 +19,7 @@ zrodla:
 postacie: [seishiro, himari-yaegaki, suol, amuro-ray, char-aznable, bright-noa, mirai-yashima, sayla-mass, fraw-bow, paolo-cassius, oscar-dublin, marker, slender, crown]
 mechy: [exart, rx-78-2-gundam, zaku-ii-karabin-maszynowy, zaku-ii-bazooka, zaku-ii-char, white-base]
 pojecia: [connect-force, earth-federation, universal-century, uc-0079, zeon, side-3, side-7, luna-ii, loum, minovsky-particles, mobile-suit, stacja-connect]
-tagi: [white-base, one-year-war]
+tagi: [white-base, one-year-war, connect, gundam-1979, zeon, federacja]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

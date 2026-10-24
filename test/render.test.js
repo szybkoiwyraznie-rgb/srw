@@ -58,11 +58,14 @@ test('fragment wspólny ma etykietę bez odsyłacza do gry (ADR 0020)', () => {
   assert.match(html, /<p class="zakres-gry"><span title="Informacje wspólne dla wszystkich tytułów">Wspólne<\/span><\/p>/);
 });
 
-test('strona epizodu pokazuje skrypt, sceny i nawigację', () => {
+test('strona epizodu otwiera się scenami, bez boksu z surowym skryptem', () => {
   const html = renderEpizod('srw-oe-ep0');
-  assert.match(html, /panel-skryptu/);
-  assert.match(html, /Stacja Connect/, 'surowy skrypt epizodu ma być widoczny');
+  assert.doesNotMatch(html, /panel-skryptu/, 'zwijany boks „Treść epizodu” zniknął');
   assert.match(html, /#\/scena\/prolog-i-trening-w-connect/);
+  const sceny = html.indexOf('blok-sceny-pelna');
+  const uklad = html.indexOf('uklad-strona');
+  assert.ok(sceny >= 0, 'sekcja scen na pełną szerokość');
+  assert.ok(sceny < uklad, 'sceny stoją nad układem dwukolumnowym');
 });
 
 test('strona sceny pokazuje dosłowną treść i analizę', () => {
@@ -252,11 +255,15 @@ test('strony pomocnicze, dziennik i legendy nie ujawniają procesu redakcyjnego'
   assert.match(text, /niezweryfikowany kontekst/i, 'legenda nadal odróżnia treść niepotwierdzoną');
 });
 
-test('pełna treść epizodu jest dostępna bez ujawniania ścieżki archiwum', () => {
+test('pełna treść epizodu jest dostępna przez sceny, bez ujawniania ścieżki archiwum', () => {
   const html = renderEpizod('srw-oe-ep0');
-  assert.match(html, /<summary>Treść epizodu<\/summary>/);
-  assert.match(html, /Stacja Connect/);
   assert.doesNotMatch(html, /episodes\/|ep000\.md|<dt>Skrypt/);
+  // Dosłowny tekst epizodu czyta się po scenach — strona epizodu do nich prowadzi.
+  assert.match(html, /#\/scena\/prolog-i-trening-w-connect/);
+  assert.match(html, /#\/scena\/srw-oe-ep0-na-ratunek-white-base/);
+  const scena = renderScena('prolog-i-trening-w-connect');
+  assert.match(scena, /Stacja Connect/, 'treść sceny zostaje dosłowna');
+  assert.doesNotMatch(scena, /episodes\/|ep000\.md|<dt>Skrypt/);
 });
 
 test('listy scen: tytuł i streszczenie mają ten sam układ na stronie epizodu i w dziale', async () => {

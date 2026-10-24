@@ -44,3 +44,6 @@ Zasady:
 | [0029](0029-mech-tylko-z-dostawy.md) | Mech tylko z dostawy: brak strony generycznej dla rodziny maszyn |
 | [0030](0030-filtry-list-w-adresie.md) | Filtry działów w adresie: seria „Nieokreślona” i chmura tagów haseł |
 | [0031](0031-watki-fabularne.md) | Wątki fabularne: nazwa sekcji, cztery kolumny i kolejność scen |
+| [0032](0032-leniwe-ilustracje-i-pamiec.md) | Ilustracje żyją tylko w polu widzenia (leniwe ładowanie i zwalnianie pamięci) |
+| [0033](0033-rodzaj-tresci-jest-tagiem.md) | Rodzaj treści jest tagiem; pole `kategoria` znika, tagi mają warstwy |
+| [0034](0034-strona-epizodu-i-filtry-list-fabularnych.md) | Strona epizodu prowadzi scenami, plakietka w wierszu tytułu, filtry list scen i epizodów |

@@ -7,7 +7,9 @@ seria: mobile-suit-gundam-08th-ms-team
 gry: [srw-oe]
 mechy: [gundam-ground-type, gundam-ground-type-glowa-gm]
 pochodzenie: skrypt
-tagi: [one-year-war]
+zrodla:
+  - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team
+tagi: [one-year-war, pilot, 08th-ms-team, federacja, 08-pluton-ms]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
@@ -17,6 +19,11 @@ utworzono: 2026-10-23
 Pilotka [[gundam-ground-type|Gundama Ground Type]] w [[08-pluton-ms|08. Plutonie MS]]. Narzeka na górski teren bazy i jako pierwsza zatrzymuje atakującego przeciwnika. Gdy kamera jej maszyny zostaje zniszczona, [[shiro-amada|Shiro]] odsyła ją do hangaru.
 
 Do walki wraca w [[gundam-ground-type-glowa-gm|konfiguracji z głową GM-a]]. Nie przejmuje się uwagami o wyglądzie, bo w hangarze nie było już właściwych części, i ponownie włącza się do obrony.
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] Karen służy w [[08-pluton-ms|08. Plutonie MS]] najdłużej ze wszystkich pilotów i początkowo przyjmuje bez entuzjazmu wiadomość, że dowództwo obejmuje [[shiro-amada|Shiro]], a ona zostaje jego zastępczynią. Studiowała medycynę i jest wdową po lekarzu wojskowym, więc w razie potrzeby potrafi zastąpić sanitariusza ([Wikipedia, „Mobile Suit Gundam: The 08th MS Team”](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
 }}
 
 {{menu gra=srw-oe

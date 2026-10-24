@@ -2,12 +2,11 @@
 typ: pojecie
 slug: luna-ii
 tytul: Luna II
-kategoria: miejsce
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Luna_II
-tagi: [one-year-war]
+tagi: [one-year-war, miejsce, federacja]
 utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe

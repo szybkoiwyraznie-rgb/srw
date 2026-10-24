@@ -23,7 +23,7 @@ zrodla:
 postacie: [oficer-federacji, christina-mackenzie, shiro-amada, terry-sanders-jr, karen-joshua, eledore-massis, michel-ninorich, mikhail-kaminsky, hardy-steiner, gabriel-ramirez-garcia, andy-strauss, zolnierz-federacji]
 mechy: [rx-78nt-1-gundam-alex, gundam-ez8, gundam-ground-type, gundam-ground-type-glowa-gm, hover-truck, kampfer-bazooka, kampfer-high-mobility, zaku-ii-kai]
 pojecia: [08-pluton-ms, pluton-cyclops, earth-federation, zeon, operacja-odessa, minovsky-particles, mobile-suit, newtype, side-6, libot, jaburo, black-tri-stars]
-tagi: [one-year-war, gundam-0080, 08th-ms-team]
+tagi: [one-year-war, gundam-0080, 08th-ms-team, federacja, zeon, 08-pluton-ms, pluton-cyclops]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe

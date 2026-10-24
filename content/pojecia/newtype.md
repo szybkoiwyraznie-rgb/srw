@@ -2,12 +2,11 @@
 typ: pojecie
 slug: newtype
 tytul: Newtype
-kategoria: zjawisko
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Newtype
-tagi: [one-year-war]
+tagi: [one-year-war, zjawisko, universal-century]
 utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe

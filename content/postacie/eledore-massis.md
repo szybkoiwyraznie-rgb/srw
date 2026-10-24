@@ -7,7 +7,9 @@ seria: mobile-suit-gundam-08th-ms-team
 gry: [srw-oe]
 mechy: [hover-truck]
 pochodzenie: skrypt
-tagi: [one-year-war]
+zrodla:
+  - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team
+tagi: [one-year-war, wsparcie, 08th-ms-team, federacja, 08-pluton-ms]
 utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
@@ -17,6 +19,11 @@ utworzono: 2026-10-23
 Pilot wspierający [[hover-truck|Hover Trucka]] z [[michel-ninorich|Michelem Ninorichem]]. Komentuje niefortunne położenie bazy w górach, a podczas patrolu wykrywa [[minovsky-particles|cząstki Minovsky’ego]] i rozpoznaje, że zbliżający się dźwięk nie należy ani do Zaku, ani do Doma.
 
 Gdy walka zbliża się do wozu, przypomina [[shiro-amada|Shiro]], że załoga wsparcia prawie nie ma uzbrojenia. Po misji wolałby zjeść coś lepszego niż racje, ale musi czekać razem z resztą oddziału.
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] Eledore jest weteranem [[08-pluton-ms|08. Plutonu MS]] i to on siedzi za sterami wozu wsparcia. Nie uchodzi za odważnego i sam przyznaje, że nie nadaje się na żołnierza, ale gdy trzeba, naraża się mimo wszystko — zwłaszcza kiedy w grę wchodzi [[karen-joshua|Karen]] ([Wikipedia, „Mobile Suit Gundam: The 08th MS Team”](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
 }}
 
 {{menu gra=srw-oe
