@@ -530,6 +530,19 @@ blockquote {
   .dziennik > li { grid-template-columns: 1fr; gap: 2px; }
 }
 
+/* ── Leniwe ilustracje (ADR 0032) ──────────────────────────────── */
+
+/* Obraz poza polem widzenia oddaje pamięć i zostaje pustą ramką: bez ikony
+   błędu, bez tekstu zastępczego i bez zapadania układu strony. Wymiary
+   przypina skrypt, dopóki ich nie zna — trzyma je minimum z CSS. */
+.obraz-zwolniony {
+  background: var(--panel-2); border-radius: 6px;
+  color: transparent; font-size: 0;
+  min-width: 56px; min-height: 56px;
+}
+.tresc-encja .obraz-zwolniony { min-width: 140px; min-height: 180px; }
+.kafelek-obraz .obraz-zwolniony { width: 100%; min-height: 170px; }
+
 /* ── Sceny (ADR 0008) ───────────────────────────────────────────── */
 .blok-sceny { margin-top: 1.6em; }
 /* W prawej kolumnie lista scen jest osobnym boksem, jak metryka i obsada. */

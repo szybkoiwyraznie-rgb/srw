@@ -44,3 +44,4 @@ Zasady:
 | [0029](0029-mech-tylko-z-dostawy.md) | Mech tylko z dostawy: brak strony generycznej dla rodziny maszyn |
 | [0030](0030-filtry-list-w-adresie.md) | Filtry działów w adresie: seria „Nieokreślona” i chmura tagów haseł |
 | [0031](0031-watki-fabularne.md) | Wątki fabularne: nazwa sekcji, cztery kolumny i kolejność scen |
+| [0032](0032-leniwe-ilustracje-i-pamiec.md) | Ilustracje żyją tylko w polu widzenia (leniwe ładowanie i zwalnianie pamięci) |
