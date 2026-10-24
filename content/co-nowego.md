@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-25 00:37
+
+- [[devil-gundam-incident|Incydent Devil Gundam]] ma dokładniejsze źródłowe tło: Ultimate Gundam, zbudowany przez dr. Kasshu na rzecz odnowy zniszczonej Ziemi, po rozbiciu się na planecie doznał awarii komputera, która uruchomiła jego wrogą aktywność, a Master Asia chciał użyć go do zgładzenia ludzkości i regeneracji planety.
+
 ## 2026-10-25 00:30
 
 - Nowa postać: [[bakuryu-oh|Bakuryu-Oh]], kopilot [[god-raijin-oh|God Raijin-Oha]]. W [[srw-oe|Super Robot Wars OE]] nie występuje jako samodzielna jednostka — przy superpołączeniu z [[raijin-oh|Raijin-Ohem]] rejestruje się jako sub-pilot i obsługuje Komendy Ducha formy. Ma portret oraz sprawdzone tło z [[matchless-raijin-oh|Matchless Raijin-Oh]]: ukryty robot Klasy Obrony Ziemi, zdalnie sterowany, zmieniający się w smoka Bakuryu Dragon. Galeria [[god-raijin-oh|God Raijin-Oha]] liczy z powrotem dwie ilustracje samej maszyny.
