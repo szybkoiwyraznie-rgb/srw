@@ -7,6 +7,8 @@ rola: pilot
 gry: [srw-oe]
 mechy: [dom]
 pochodzenie: skrypt
+zrodla:
+  - https://gundam.fandom.com/wiki/Black_Tri-Stars
 tagi: [one-year-war]
 utworzono: 2026-10-22
 ---
@@ -17,6 +19,11 @@ utworzono: 2026-10-22
 Trzeci z pilotów [[black-tri-stars|Black Tri-Stars]], prowadzący [[dom|Doma]]. Pyta, czy to prawda, że za zniszczenie [[white-base|White Base]] dostaje się [[krzyz-zeonu|Krzyż Zeonu]], i razem z [[ortega|Ortegą]] wchodzi w [[jet-stream-attack|atak Jet Stream]].
 
 Kiedy [[gaia|Gaia]] zarządza odwrót, Mash przypomina, że [[mquve|M'Quve]] będzie im to wypominał, a potem przyznaje, że zapomniał o żelaznej zasadzie przetrwania na polu bitwy.
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-suit-gundam-1979|pierwowzorze]] Mash służył w stopniu sierżanta sztabowego w batalionie szkolenia mobilnego i razem z [[gaia|Gaią]] oraz [[ortega|Ortegą]] należał do pierwszego pokolenia pilotów [[mobile-suit|mobile suitów]] [[zeon|Zeonu]]. Rozgłos przyniosła całej trójce bitwa pod [[loum|Loum]]: [[black-tri-stars|Black Tri-Stars]] zatopili wtedy pięć okrętów Federacji, z flagowym *Ananke* włącznie, i przechwycili prom [[general-revil|generała Revila]] ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-24).
 }}
 {{menu gra=srw-oe
 

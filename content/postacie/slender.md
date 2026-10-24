@@ -7,6 +7,8 @@ rola: pilot
 gry: [srw-oe]
 mechy: [zaku-ii-karabin-maszynowy]
 pochodzenie: skrypt
+zrodla:
+  - https://gundam.fandom.com/wiki/Slender
 tagi: [one-year-war]
 utworzono: 2026-10-20
 ---
@@ -17,6 +19,11 @@ utworzono: 2026-10-20
 Pilot [[zeon|Zeonu]] w grupie [[char-aznable|Chara]]. Nie rozpoznaje maszyny [[connect-force|Connect]] i dziwi się, że komandor nie atakuje. Posłusznie przyjmuje jednak rozkaz wycofania.
 
 W eskorcie [[char-aznable|Chara]] leci [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]], obok [[crown|Crowna]] w [[zaku-ii-bazooka|maszynie z bazooką]].
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-suit-gundam-1979|pierwowzorze]] Slender jest sierżantem w oddziale [[mobile-suit|mobile suitów]] [[char-aznable|Chara Aznable'a]]. Kiedy [[zeon|Zeon]] wykrywa federacyjną Operację V, Slender leci z Denimem i Gene'em na zwiad do [[side-7|Side 7]]: zostaje na straży przy wyjściu z kolonii, podczas gdy tamci wchodzą w głąb, i to on melduje przełożonym, co dzieje się w środku, gdy Gene łamie rozkaz i otwiera ogień ([Gundam Wiki, „Slender”](https://gundam.fandom.com/wiki/Slender); sprawdzono 2026-10-24).
 }}
 {{menu gra=srw-oe
 

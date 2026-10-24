@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-10-24 09:40
+
+- Załoga [[white-base|White Base]] zyskuje tło z pierwowzoru: [[kai-shiden|Kai]] siadł za sterami [[guncannon|Guncannona]], bo okrętowi brakowało ludzi, [[hayato-kobayashi|Hayato]] zgłosił się do [[guntank|Guntanka]] z rywalizacji z [[amuro-ray|Amurem]], a [[oscar-dublin|Oscar]] i [[marker|Marker]] obsługują dwie konsole mostka — prawo- i lewoburtową.
+- [[black-tri-stars|Black Tri-Stars]] mają rodowód: [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] latali w batalionie szkolenia mobilnego, gdy Zeon dopiero uczył się walki [[mobile-suit|mobile suitami]], a rozgłos przyniosła im bitwa pod [[loum|Loum]].
+- [[slender|Slender]] pilnował wyjścia z [[side-7|Side 7]] podczas zwiadu, a [[crown|Crown]] atakował [[white-base|White Base]] przed wejściem w atmosferę.
+- [[dom-zolnierz-zeonu|Dom]] sunie nad gruntem na silnikach odrzutowych z prędkością do 380 km/h, a [[dopp|Doppa]] projektowano na symulacjach, bo inżynierowie [[zeon|Zeonu]] nie mieli gdzie próbować samolotów.
+
 ## 2026-10-24 09:37
 
 - Drugi Pluton [[sv2|SV2]] ma tło z pierwowzoru: [[asuma-shinohara|Asuma]] jest synem prezesa Shinohara Heavy Industries, [[kiichi-goto|Goto]] uchodzi za oficera odsuniętego od ważnych spraw, [[kanuka-clancy|Kanuka]] przyjechała z nowojorskiej policji na czas określony, [[mikiyasu-shinshi|Shinshi]] jest informatykiem jednostki, a [[hiromi-yamazaki|Hiromi]] prowadzi transporter, bo nie mieści się w kokpicie [[labor|Labora]].

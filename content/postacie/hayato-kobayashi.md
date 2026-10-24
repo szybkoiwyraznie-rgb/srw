@@ -7,6 +7,8 @@ rola: pilot
 gry: [srw-oe]
 mechy: [guntank]
 pochodzenie: skrypt
+zrodla:
+  - https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters
 tagi: [one-year-war]
 utworzono: 2026-10-22
 ---
@@ -19,6 +21,11 @@ Pilot [[guntank|Guntanka]] na pokładzie [[white-base|White Base]]. W kolejce do
 Po starciu z [[black-tri-stars|Black Tri-Stars]] szuka z [[amuro-ray|Amurem]] części zamiennej nr 133 i tłumaczy, że brakuje ludzi do obsługi technicznej. To on doradza użycie uzbrojenia przeciwlotniczego przeciw [[dopp|Doppom]].
 
 Podczas ostatniego natarcia na Odessę pyta, czy można zestrzelić [[h-bomb-missile|pocisk termojądrowy]] w powietrzu. Gdy [[bright-noa|Bright]] wyjaśnia ryzyko wybuchu, Hayato skupia się na przerzedzeniu obrony Zeonu przed odpaleniem bomby.
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-suit-gundam-1979|pierwowzorze]] Hayato jest sąsiadem [[amuro-ray|Amura]] z [[side-7|Side 7]]: niski, krępy i skłonny do niepewności, bez przerwy porównuje się z dokonaniami kolegi. Po ataku na kolonię zgłasza się do obsługi [[guntank|Guntanka]] jako drugi człowiek w tej dwuosobowej maszynie — w dużej mierze właśnie z rywalizacji z Amurem ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-10-24).
 }}
 {{menu gra=srw-oe
 

@@ -69,3 +69,38 @@ test('Labory misji 1-1 mają tło techniczne z pierwowzoru (ADR 0008, ADR 0013)'
   assert.match(bySlug.get('hal-x10').body, /W kinowym/);
   assert.match(bySlug.get('hal-x10-green').body, /W serialowym/);
 });
+
+test('załoga White Base i piloci Zeonu mają tło z pierwowzoru (ADR 0008, ADR 0013)', () => {
+  const wiki = 'https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters';
+  const triStars = 'https://gundam.fandom.com/wiki/Black_Tri-Stars';
+  const zaloga = 'https://gundam.fandom.com/wiki/White_Base_Corps';
+  sprawdzBlok('kai-shiden', [wiki]);
+  sprawdzBlok('hayato-kobayashi', [wiki]);
+  sprawdzBlok('gaia', [triStars]);
+  sprawdzBlok('ortega', [triStars]);
+  sprawdzBlok('mash', [triStars]);
+  sprawdzBlok('oscar-dublin', ['https://gundam.fandom.com/wiki/Oscar_Dublin', zaloga]);
+  sprawdzBlok('marker', ['https://gundam.fandom.com/wiki/Marker_Clan', zaloga]);
+  sprawdzBlok('slender', ['https://gundam.fandom.com/wiki/Slender']);
+  sprawdzBlok('crown', ['https://gundam.fandom.com/wiki/Crown']);
+  assert.match(bySlug.get('kai-shiden').body, /kolonii Green Oasis/);
+  assert.match(bySlug.get('hayato-kobayashi').body, /dwuosobowej maszynie/);
+  assert.match(bySlug.get('gaia').body, /batalionu szkolenia mobilnego/);
+  assert.match(bySlug.get('ortega').body, /jedna za drugą/);
+  assert.match(bySlug.get('mash').body, /Ananke/);
+  assert.match(bySlug.get('oscar-dublin').body, /na prawą burtę/);
+  assert.match(bySlug.get('marker').body, /na lewą burtę/);
+  assert.match(bySlug.get('slender').body, /Operację V/);
+  assert.match(bySlug.get('crown').body, /przed wejściem okrętu w atmosferę/);
+});
+
+test('maszyny Zeonu mają tło techniczne z pierwowzoru (ADR 0008, ADR 0013)', () => {
+  sprawdzBlok('dom-zolnierz-zeonu', ['https://www.mahq.net/ms-09/']);
+  sprawdzBlok('dopp', ['https://gundam.fandom.com/wiki/Dopp']);
+  assert.match(bySlug.get('dom-zolnierz-zeonu').body, /380 km\/h/);
+  assert.match(bySlug.get('dopp').body, /symulacjach komputerowych/);
+  // Tło maszyny nie powtarza bloku z pokrewnej strony (ADR 0013).
+  const tloDoma = bySlug.get('dom-zolnierz-zeonu').body.match(/^\{\{zrodlo[\s\S]*?^\}\}$/m)[0];
+  const tloTriStars = bySlug.get('dom').body.match(/^\{\{zrodlo[\s\S]*?^\}\}$/m)[0];
+  assert.notEqual(tloDoma, tloTriStars);
+});
