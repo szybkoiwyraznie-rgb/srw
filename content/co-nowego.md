@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-24 21:55
+
+- [[earth-federation|Federacja Ziemska]] i [[zeon|Księstwo Zeonu]] obejmują teraz przebieg [[operacja-odessa|operacji Odessa]], obronę startu [[rx-78nt-1-gundam-alex|Alexa]] oraz przelot [[08-pluton-ms|08. Plutonu MS]] na pokładzie [[medea|Medei]] do [[jaburo|Jaburo]], a [[earth-federation|Federacja Ziemska]] ma uzupełnione źródłowe tło o powstaniu rządu światowego i kolonizacji kosmosu.
+- [[jaku-empire|Imperium Jaku]], [[daimakai|Daimakai]] i [[mechanization-empire|Imperium Mechanizacji]] mają uporządkowane źródłowe opisy zagrożeń z cyklu Eldran bez przestarzałych domysłów sprzed spotkania z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]], a [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] wymienia pełną dotychczasową obsadę [[white-base|White Base]] i sił spod Odessy.
+
 ## 2026-10-24 21:52
 
 - [[god-raijin-oh|God Raijin-Oh]] ma opis pierwowzoru z [[matchless-raijin-oh|*Matchless Raijin-Oh*]]: powstaje z superpołączenia [[raijin-oh|Raijin-Oh]] i Bakuryū-Oh przeciw wzmocnionym bestiom [[jaku-empire|Imperium Jaku]].

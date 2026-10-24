@@ -157,6 +157,29 @@ test('God Raijin-Oh i Real PG Gundam mają sprawdzone tło pierwowzoru (ADR 0008
   assert.deepEqual(bySlug.get('real-pg-gundam').piloci, []);
 });
 
+test('Federacja Ziemska i zagrożenia cyklu Eldran mają sprawdzone tło bez domysłów wiedzy', () => {
+  sprawdzBlok('earth-federation', [
+    'https://en.wikipedia.org/wiki/Mobile_Suit_Gundam',
+    'https://gundam.fandom.com/wiki/Earth_Federation',
+  ]);
+  sprawdzBlok('jaku-empire', [
+    'https://eldran.fandom.com/wiki/Jaku_Empire',
+    'https://en.wikipedia.org/wiki/Matchless_Raijin-Oh',
+  ]);
+  for (const slug of ['earth-federation', 'jaku-empire', 'daimakai', 'mechanization-empire', 'super-robot-wars-original']) {
+    assert.doesNotMatch(bySlug.get(slug).body, /\{\{wiedza/, `${slug}: bez przestarzałego bloku wiedzy`);
+  }
+  // Karty serii wymieniają wszystkie dotychczasowe imienne postacie i maszyny swojego świata.
+  const generyczne = new Set(['zolnierz-jsdf', 'zolnierz-federacji', 'zolnierz-zeonu', 'oficer-federacji', 'oficer-zeonu']);
+  for (const seria of pages.filter((p) => p.typ === 'seria')) {
+    const czlonkowie = pages.filter((p) => p.seria === seria.slug && !generyczne.has(p.slug));
+    for (const encja of czlonkowie) {
+      assert.ok(seria.body.includes(`[[${encja.slug}`),
+        `${seria.slug}: opis serii pomija ${encja.slug}`);
+    }
+  }
+});
+
 test('encje bez pierwowzoru poza bazą źródeł nie dostają zmyślonego tła (ADR 0012, ADR 0018)', () => {
   // Zbiorcze profile, sprzęt pola walki i jednostki oryginalne nie mają osobnego
   // pierwowzoru do zacytowania — pusty blok byłby zmyśleniem.

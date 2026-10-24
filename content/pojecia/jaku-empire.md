@@ -7,7 +7,7 @@ pochodzenie: skrypt
 zrodla:
   - https://eldran.fandom.com/wiki/Jaku_Empire
   - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
-tagi: [najazd, prolog]
+tagi: [eldran, najazd, prolog]
 utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe
@@ -22,11 +22,5 @@ W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] [[himari-yaegaki|Him
 }}
 {{zrodlo gra=wspolne
 
-- Jaku Empire (ジャーク帝国, *Jāku Teikoku*) to antagoniści serii *Absolutely Invincible Raijin-Oh* ([Eldran Wiki](https://eldran.fandom.com/wiki/Jaku_Empire)).
-- Imperium pochodzi z Piątego Wymiaru. Prowadzi je cesarz Warusa, a jego słudzy to Belzeb, Falzeb i Taida ([Eldran Wiki](https://eldran.fandom.com/wiki/Jaku_Empire)).
-- W serialu uczniowie z Hinobori walczą z Imperium Jaku, a Raijin-Oh jest powierzonym im robotem Eldrana ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
-}}
-{{wiedza gra=srw-oe
-
-- Nazwa w SRW OE najpewniej odpowiada imperium z *Raijin-Oh*.
+W [[matchless-raijin-oh|pierwowzorze]] Imperium Jaku (ジャーク帝国, *Jāku Teikoku*) to najeźdźcy z Piątego Wymiaru dowodzeni przez cesarza Warusę, w którego imieniu na Ziemi działają Belzeb, Falzeb i Taida ([Eldran Wiki, „Jaku Empire”](https://eldran.fandom.com/wiki/Jaku_Empire); sprawdzono 2026-10-24). Przeciw ich bestiom wykluwającym się z jaj ciemności (Akudama) staje piąta klasa szkoły w Hinobori z powierzonym jej przez Eldrana [[raijin-oh|Raijin-Ohem]] ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-24).
 }}
