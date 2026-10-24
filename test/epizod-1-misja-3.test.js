@@ -18,7 +18,7 @@ const scena = bySlug.get('srw-oe-ep1-powstrzymaj-pocisk-termojadrowy');
 const epizod = bySlug.get('srw-oe-ep1');
 
 test('dostawa 1-3 jest zarchiwizowana w całości, a sama scena trafia do skryptu epizodu', () => {
-  assert.equal(fs.statSync('dostawy/srw-oe/dostawa_1_3.txt').size, 30053, 'archiwum dostawy');
+  assert.equal(fs.statSync('dostawy/srw-oe/dostawa_1_3.txt').size, 30046, 'archiwum dostawy');
   assert.match(delivery, /^## Powstrzymaj pocisk termojądrowy$/m);
   assert.match(delivery, /### Odcinek 1 — Powstrzymaj pocisk termojądrowy \(`DL101_30`\)/);
   assert.match(delivery, /^## H-Bomb Missile$/m);

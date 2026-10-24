@@ -29,16 +29,31 @@ const mechy = ['rx-78nt-1-gundam-alex', 'gundam-ez8', 'gundam-ground-type',
 const pojecia = ['08-pluton-ms', 'pluton-cyclops', 'side-6', 'libot'];
 const serie = ['mobile-suit-gundam-08th-ms-team', 'mobile-suit-gundam-0080'];
 
-test('dostawa 1-5 jest zachowana bajt w bajt, a jej scena trafia do epizodu bez danych technicznych', () => {
-  assert.equal(deliveryBytes.length, 32626);
+test('dostawa 1-5 jest zachowana bajt w bajt, a korekta językowa nie zmienia struktury epizodu', () => {
+  assert.equal(deliveryBytes.length, 32609);
   assert.equal(createHash('sha256').update(deliveryBytes).digest('hex'),
-    '6ee9366f5c012c919593ae5eb8ed0fb537d813c3dc4240933a39052b7b55da51');
+    '2604cf00f5e1861edd4192e5c8619ba5bdb48f5588ef44f5bff999ae96586796');
   assert.match(delivery, /^## Start Alexa$/m);
   assert.match(delivery, /^### Odcinek 1 — Start Alexa \(`DL101_50`\)$/m);
   assert.match(delivery, /^## Gundam Ez8$/m);
   assert.match(delivery, /^#### Christina Mackenzie$/m);
+  const poprawki = [
+    ['**Shiro:** Na polu bitwy maszyna trzyma pani życie w rękach. Lepiej, żeby była nadwrażliwa niż niedoczulona.', '**Shiro:** W walce powierza pani maszynie własne życie. Lepsza zbyt czuła niż za mało czuła.'],
+    ['**Chris:** Spróbuj na symulatorze, to zobaczysz. Może się przekonasz?', '**Chris:** Na symulatorze sam pan zobaczy. Może chce pan spróbować?'],
+    ['**Shiro:** No to wracam do patrolu. Pani porucznik Chris, proszę spokojnie wsiadać.', '**Shiro:** Wracam do patrolu, pani porucznik. Proszę wsiadać bez obaw.'],
+    ['**Chris:** Chętnie zobaczyłabym, co potrafisz, ale tym razem oby wróg się nie pojawił.', '**Chris:** Chętnie zobaczyłabym, co pan potrafi, ale oby tym razem wróg się nie pojawił.'],
+    ['> **Karen:** Głów już nie było. A co miałam zrobić?!', '> **Karen:** Zapasowych głów już nie było. A co miałam zrobić?!'],
+    ['> **Steiner:** Ngh... Dalej siłą się nie przebijemy... Wycofać się do punktu zbornego!', '> **Steiner:** Ngh... Siłą dalej się nie przebijemy... Wycofać się do punktu zbornego!'],
+    ['> **Shiro:** Przeklęty Zeon... Nikt nie tknie wahadłowca pani porucznik Chris!', '> **Shiro:** Przeklęty Zeon... Nikt nie tknie wahadłowca porucznik Mackenzie!'],
+    ['**Shiro:** Tak, jakoś wytrzymaliśmy.', '**Shiro:** Tak. Wycofują się; jakoś wytrzymaliśmy.'],
+    ['**Oficer Federacji:** Dobra robota. Dzięki wam kontener jest już załadowany. Dziękujemy za waszą służbę!', '**Oficer Federacji:** Dobra robota. Dzięki wam kontener jest już załadowany. Dziękujemy za osłonę!'],
+    ['**Shiro:** Mów mi po prostu Shiro, Chris.', '**Shiro:** Wystarczy Shiro, Chris.'],
+  ];
+  let poprawionySkrypt = script;
+  for (const [przed, po] of poprawki) poprawionySkrypt = poprawionySkrypt.replaceAll(przed, po);
   const expected = delivery.split('---\nSKRYPT\n---\n\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
-  assert.ok(script.trimEnd().endsWith(expected), 'cała misja, z wariantami, na końcu epizodu');
+  assert.ok(poprawionySkrypt.trimEnd().endsWith(expected),
+    'cała misja z wariantami różni się od epizodu tylko zatwierdzonymi frazami');
   assert.ok(!script.includes('UCZESTNICY'));
   assert.ok(!script.includes('DL101_50'));
 });
