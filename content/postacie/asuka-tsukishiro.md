@@ -5,7 +5,7 @@ tytul: Asuka Tsukishiro
 rola: wsparcie
 seria: matchless-raijin-oh
 gry: [srw-oe]
-mechy: [raijin-oh]
+mechy: [raijin-oh, god-raijin-oh]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
@@ -19,6 +19,8 @@ utworzono: 2026-10-23
 Pilot wspierający [[raijin-oh|Raijin-Oh]] z klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]]. W ćwiczeniach z [[connect-force|Connect]] trzyma się na uboczu sporów: gdy [[jin-hyuga|Jin]] lekceważy koniec walki z [[jaku-empire|Imperium Jaku]], dokucza mu, że pewnie był taki sam, kiedy pojawiały się Mroczne Bestie.
 
 Po przylocie na miejsce pierwszy dostrzega, że nie ma tam wroga. Zauważa nieznany sobie model [[exart|Exarta]], a po wyznaniu [[maria-shiratori|Marii]] potwierdza, że klasa została oszukana. W szkole przyznaje, że nigdy by nie pomyślał, że [[connect-force|Connect]] buduje roboty.
+
+W [[srw-oe-ep1-szalejacy-labor-powraca|misji przeciw szalejącym Brockenom]] prosi policjantów, by pozwolili Klasie Obrony pomóc. Przypomina [[jin-hyuga|Jinowi]], żeby nie zaatakował przez pomyłkę policyjnych Laborów, a po walce wraca z klasą na polecenie [[maria-shiratori|Marii]].
 }}
 
 {{menu gra=srw-oe

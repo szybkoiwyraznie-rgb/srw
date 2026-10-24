@@ -17,6 +17,8 @@ utworzono: 2026-10-21
 Kompania patrolowych Laborów Policji Metropolitalnej Tokio, utworzona do walki z przestępczością z użyciem Laborów.
 
 Jej Drugi Pluton bierze udział we wspólnych ćwiczeniach z Siłami Samoobrony na poligonie Fuji. W składzie plutonu są m.in. [[noa-izumi|Noa Izumi]], [[isao-ota|Isao Ota]] i [[kanuka-clancy|Kanuka Clancy]], a dowodzi nim kapitan [[kiichi-goto|Kiichi Goto]].
+
+W [[srw-oe-ep1-szalejacy-labor-powraca|misji „Szalejący Labor powraca”]] Drugi Pluton pozostaje w stałej gotowości mimo zmęczenia zespołu. Po unieruchomieniu pięciu szalejących Laborów [[asuma-shinohara|Shinohara]] chce zbadać przyczynę całej serii, ale [[kiichi-goto|Goto]] nakazuje powrót na sztuczną wyspę, bo tylko SV2 może stawić czoła takim maszynom.
 }}
 
 {{zrodlo gra=wspolne

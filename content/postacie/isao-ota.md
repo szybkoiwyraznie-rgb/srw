@@ -19,6 +19,8 @@ utworzono: 2026-10-21
 Pilot drugiego Ingrama Drugiego Plutonu [[sv2|SV2]]. Impulsywny i pewny siebie: nie ufa sieciom i w kryzysie liczy na własne doświadczenie.
 
 Kiedy [[hal-x10|HAL-X10]] wymykają się spod kontroli, jako pierwszy prosi o zgodę na atak i chce zniszczyć cele, zanim dotrą do zaludnionych terenów. Nie zamierza wycofywać się tylko dlatego, że Siły Samoobrony poleciły plutonowi odejść.
+
+Podczas [[srw-oe-ep1-szalejacy-labor-powraca|obrony wielkiego placu budowy]] chce zatrzymać wszystkie [[brocken|Brockeny]] i nie oddać chwały [[raijin-oh|Raijin-Ohowi]]. Po walce jest gotów wrócić na posiłek i zostawić śledztwo specjalistom, w przeciwieństwie do [[asuma-shinohara|Shinohary]].
 }}
 
 {{zrodlo gra=wspolne
@@ -61,5 +63,6 @@ Sam zgłosił się do przeniesienia do [[sv2|SV2]] i trafił do niedoborowego Dr
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Potenc. Atk** | 1 | Pozostałe HP 10%: Obr/Unik+4% Atk/Kryt+5% |
+| 2 | **Policjant** | 3 | Zadawane Obraż. x1.1 / Obr+4% |
 
 }}

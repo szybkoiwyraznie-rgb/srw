@@ -22,6 +22,8 @@ Brocken to jednostka z serii [[mobile-police-patlabor|Mobile Police Patlabor]], 
 W [[prolog-i-trening-w-connect|szkoleniu podstawowym]] Connect trzy Brockeny sterowane przez [[control-ai|Control AI]] występują jako symulowani przeciwnicy [[exart|Exarta]].
 
 Podczas [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] cztery Brockeny w wariancie Melee stoją na wyższym poziomie terenu i udają cele ćwiczeń dla [[exart|Exarta]] i [[raijin-oh|Raijin-Oh]].
+
+Na [[srw-oe-ep1-szalejacy-labor-powraca|wielkim placu budowy]] pięć Brockenów firmy ochroniarskiej szaleje bez pilotów pod kontrolą [[control-ai|Control AI]]. Drugi Pluton i [[raijin-oh|Raijin-Oh]] powstrzymują je tak, by żaden Labor ani pocisk nie opuścił wyznaczonego kwartału.
 }}
 {{menu gra=srw-oe
 

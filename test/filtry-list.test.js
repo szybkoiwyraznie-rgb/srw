@@ -130,11 +130,14 @@ test('epizody i sceny mają filtry Gra, Seria, Mech, Postać (ADR 0034)', () => 
 test('filtr listy scen zawęża po maszynie, postaci i serii obsady', () => {
   const sceny = (html) => [...html.matchAll(/href="#\/scena\/([^"]+)"/g)].map((m) => m[1]);
 
-  assert.deepEqual(sceny(renderListe('scena', { mech: 'raijin-oh' })), ['srw-oe-ep1-trening-klasy-obrony']);
-  assert.deepEqual(sceny(renderListe('scena', { postac: 'noa-izumi' })), ['srw-oe-ep1-szalejacy-prototyp-labora']);
+  assert.deepEqual(sceny(renderListe('scena', { mech: 'raijin-oh' })),
+    ['srw-oe-ep1-trening-klasy-obrony', 'srw-oe-ep1-szalejacy-labor-powraca']);
+  assert.deepEqual(sceny(renderListe('scena', { postac: 'noa-izumi' })),
+    ['srw-oe-ep1-szalejacy-prototyp-labora', 'srw-oe-ep1-szalejacy-labor-powraca']);
   // Scena nie ma pola `seria` — świat bierze z obsady.
-  assert.deepEqual(sceny(renderListe('scena', { seria: 'matchless-raijin-oh' })), ['srw-oe-ep1-trening-klasy-obrony']);
-  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 8, 'wszystkie sceny są z jednej gry');
+  assert.deepEqual(sceny(renderListe('scena', { seria: 'matchless-raijin-oh' })),
+    ['srw-oe-ep1-trening-klasy-obrony', 'srw-oe-ep1-szalejacy-labor-powraca']);
+  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 9, 'wszystkie sceny są z jednej gry');
 
   const epizody = (html) => [...new Set([...html.matchAll(/href="#\/epizod\/([^"]+)"/g)].map((m) => m[1]))];
   assert.deepEqual(epizody(renderListe('epizod', { mech: 'raijin-oh' })), ['srw-oe-ep1']);
@@ -158,7 +161,8 @@ test('selektory list fabularnych zawężają się nawzajem', () => {
   const wszystkie = renderListe('scena');
   const poSerii = renderListe('scena', { seria: 'matchless-raijin-oh' });
   assert.ok(opcje(wszystkie, 'mech').length > opcje(poSerii, 'mech').length, 'wybór serii zawęża listę maszyn');
-  assert.deepEqual(opcje(poSerii, 'mech'), ['brocken', 'exart', 'raijin-oh']);
+  assert.deepEqual(opcje(poSerii, 'mech'),
+    ['brocken', 'exart', 'ingram-nr-1', 'ingram-nr-2', 'raijin-oh']);
   assert.ok(!opcje(poSerii, 'postac').includes('amuro-ray'), 'postacie spoza tych scen znikają');
 
   const poMechu = renderListe('scena', { mech: 'ingram-nr-1' });

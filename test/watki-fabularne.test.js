@@ -117,6 +117,10 @@ test('wiersze idą w kolejności scen epizodu', () => {
       // scena 1-6: Ratuj transportowiec Medea
       'Ratunek klucza Medei i lot do Jaburo',
       'Medea i lekkie uzbrojenie transportowca',
+      // scena 1-7: Szalejący Labor powraca
+      'Szalejące Labory firmy ochroniarskiej',
+      'Wspólna obrona placu budowy',
+      'Sakaki, Bud, Utsumi i Kurosaki',
     ],
   };
 

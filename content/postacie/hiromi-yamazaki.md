@@ -21,6 +21,8 @@ Członek Drugiego Plutonu [[sv2|SV2]]. Przed ćwiczeniami zastanawia się, jakie
 Wraz z resztą plutonu obserwuje ćwiczenia na poligonie Fuji i pierwsze oznaki utraty kontroli nad [[hal-x10|HAL-X10]].
 
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+
+Na [[srw-oe-ep1-szalejacy-labor-powraca|wielkim placu budowy]] sugeruje, by wprost zakazać [[isao-ota|Ocie]] użycia broni. Przybycie [[raijin-oh|Raijin-Oha]] przyjmuje z ulgą.
 }}
 
 {{zrodlo gra=wspolne

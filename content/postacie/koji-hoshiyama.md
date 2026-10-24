@@ -5,7 +5,7 @@ tytul: Koji Hoshiyama
 rola: wsparcie
 seria: matchless-raijin-oh
 gry: [srw-oe]
-mechy: [raijin-oh]
+mechy: [raijin-oh, god-raijin-oh]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
@@ -19,6 +19,8 @@ utworzono: 2026-10-23
 Pilot wspierający [[raijin-oh|Raijin-Oh]] z klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]]. Zamiast gry w piłkę woli szukać UFO, co [[asuka-tsukishiro|Asuka]] uznaje za zabawne zestawienie z pilotowaniem robota.
 
 Podczas ćwiczeń z [[connect-force|Connect]] pierwszy domyśla się, co oznacza widok Laborów treningowych, i przyjmuje niespodziankę spokojnie — cieszy się, że przerwała nudę. Po treningu [[jin-hyuga|Jin]] próbuje wciągnąć go w grę w piłkę, choć Koji nadal myśli o swoich poszukiwaniach.
+
+Po [[srw-oe-ep1-szalejacy-labor-powraca|przybyciu na plac budowy]] ustala, że wystarczy zatrzymać szalejące Labory. Po walce zostawia policjantom dalsze czynności i wraca z pozostałymi.
 }}
 
 {{menu gra=srw-oe

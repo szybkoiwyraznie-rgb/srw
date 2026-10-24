@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-10-24 21:26
+
+- [[srw-oe-ep1|Epizod 1]] ma siódmą misję — [[srw-oe-ep1-szalejacy-labor-powraca|„Szalejący Labor powraca”]]: Drugi Pluton [[sv2|SV2]] i [[raijin-oh|Raijin-Oh]] powstrzymują pięć bezzałogowych [[brocken|Brockenów]], ale przyczyna serii incydentów pozostaje nieznana.
+- Dołączyły [[god-raijin-oh|God Raijin-Oh]] oraz [[badrinath-harchand|Bud]], [[seitaro-sakaki|Sakaki]], [[utsumi|Utsumi]] i [[kurosaki|Kurosaki]]. [[jin-hyuga|Jin]] zyskuje **Blok**, a [[noa-izumi|Noa]] i [[isao-ota|Ota]] — **Policjant**.
+- [[ingram-nr-1|Ingram nr 1]] ma uaktualniony efekt Schwytania linką, a oba Ingramy — aktualny zapis dodatkowych obrażeń od Ogłuszenia.
+
 ## 2026-10-24 20:55
 
 - [[srw-oe-ep1|Epizod 1]] ma szóstą misję — [[srw-oe-ep1-ratuj-transportowiec-medea|„Ratuj transportowiec Medea”]]: [[08-pluton-ms|08. Pluton MS]] osłania klucz przed Doppami i naziemnymi Zaku II, a po akcji odlatuje nim do [[jaburo|Jaburo]].

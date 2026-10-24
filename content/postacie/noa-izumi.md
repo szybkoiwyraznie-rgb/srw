@@ -19,6 +19,8 @@ utworzono: 2026-10-21
 Pilotka pierwszego Ingrama Drugiego Plutonu [[sv2|SV2]]. Na poligonie Fuji dowodzi maszyną nr 1 i razem z resztą plutonu włącza się do walki, gdy bezzałogowe [[hal-x10|HAL-X10]] zaczynają strzelać ostrą amunicją.
 
 Swój Labor nazywa Alphonse'em i martwi się o każdą rysę na kadłubie. Współpracuje z [[seishiro|Seishirem]] i [[himari-yaegaki|Himari]] z [[connect-force|Connect]], a po ćwiczeniach pomaga jej [[asuma-shinohara|Asuma]]. Ufa pracy zespołowej bardziej niż frontalnym atakom.
+
+Na [[srw-oe-ep1-szalejacy-labor-powraca|wielkim placu budowy]] dowodzi [[ingram-nr-1|Ingramem nr 1]] przeciw pięciu bezzałogowym [[brocken|Brockenom]]. Choć liczba wrogów ją przytłacza, walczy u boku [[isao-ota|Oty]] i [[raijin-oh|Raijin-Oha]], a po starciu uznaje, że Klasa Obrony mogła przejąć całą chwałę. [[badrinath-harchand|Bud]] dostrzega natomiast jej rosnące zaufanie do Alphonse’a.
 }}
 
 {{zrodlo gra=wspolne
@@ -61,5 +63,6 @@ Pochodzi z rodziny prowadzącej sklep monopolowy. Po szkole średniej ukończył
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Upór** | 1 | Pozostałe HP 10%: Atk/Obr/Cel/Unik/Kryt+10% |
+| 2 | **Policjant** | 3 | Zadawane Obraż. x1.1 / Obr+4% |
 
 }}

@@ -18,6 +18,8 @@ Control AI to sztuczna inteligencja sterująca [[brocken|Brockenem]] — maszyn�
 W [[prolog-i-trening-w-connect|szkoleniu podstawowym]] Connect prowadzi trzy Brockeny, które jako symulowani przeciwnicy stają przeciw [[exart|Exartowi]].
 
 W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] cztery Brockeny w wariancie Melee pełnią rolę Laborów treningowych, które [[exart|Exart]] i [[raijin-oh|Raijin-Oh]] mają zepchnąć z wyższego poziomu.
+
+W [[srw-oe-ep1-szalejacy-labor-powraca|scenie „Szalejący Labor powraca”]] steruje pięcioma [[brocken|Brockenami]] firmy ochroniarskiej, które szaleją bez pilotów na placu budowy. Tym razem nie są celami treningowymi: Drugi Pluton i [[raijin-oh|Raijin-Oh]] unieruchamiają je w wyznaczonym kwartale.
 }}
 
 {{menu gra=srw-oe

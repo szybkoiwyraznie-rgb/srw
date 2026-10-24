@@ -20,9 +20,11 @@ utworzono: 2026-10-23
 
 Robot bojowy [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]], którym w [[srw-oe|Super Robot Wars OE]] dowodzi [[jin-hyuga|Jin Hyuga]]. Miejsce w kabinie mają też [[asuka-tsukishiro|Asuka Tsukishiro]] i [[koji-hoshiyama|Koji Hoshiyama]].
 
-Podczas wspólnych ćwiczeń z [[connect-force|Connect]] Raijin-Oh walczy ramię w ramię z [[exart|Exartem]] przeciw Brockenom treningowym. Ćwiczenie uczy wykorzystania terenu: zrzucenie celu z wysokości zadaje mu dodatkowe obrażenia. Maszyna odzyskuje EN w każdej turze i blokuje ciosy tarczą, a przy wysokim morale może się połączyć w God Raijin-Oh.
+Podczas wspólnych ćwiczeń z [[connect-force|Connect]] Raijin-Oh walczy ramię w ramię z [[exart|Exartem]] przeciw Brockenom treningowym. Ćwiczenie uczy wykorzystania terenu: zrzucenie celu z wysokości zadaje mu dodatkowe obrażenia. Maszyna odzyskuje EN w każdej turze i blokuje ciosy tarczą, a przy wysokim morale może się połączyć w [[god-raijin-oh|God Raijin-Oh]].
 
 Raijin Claw przebija się przez wrogów w zasięgu i rusza dalej, Raijin Boomerang dosięga celów na dystans, a Raijin Sword i Raijin Flash działają z bliska. Najmocniejszym ciosem jest God Thunder Crash.
+
+Podczas [[srw-oe-ep1-szalejacy-labor-powraca|obrony wielkiego placu budowy]] przybywa na pomoc dwóm Ingramom. [[kanuka-clancy|Kanuka]] mobilizuje policjantów, by nie dali się wyprzedzić Klasie Obrony, a [[asuka-tsukishiro|Asuka]] ostrzega [[jin-hyuga|Jina]], by nie zaatakował policyjnych Laborów przez pomyłkę.
 }}
 
 {{menu gra=srw-oe
@@ -46,7 +48,7 @@ Raijin Claw przebija się przez wrogów w zasięgu i rusza dalej, Raijin Boomera
 
 ### Macierzyste zdolności maszyny
 
-- **Połączenie (bez poziomu):** Morale 120 lub więcej; pełne HP/EN po połączeniu; łączy się w inną jednostkę (God Raijin-Oh)
+- **Połączenie (bez poziomu):** Morale 120 lub więcej; pełne HP/EN po połączeniu; łączy się w inną jednostkę ([[god-raijin-oh|God Raijin-Oh]])
 - **Odnowa EN (poziom bazowy 1):** EN co turę +4%
 - **Blok tarczą (poziom bazowy 1):** broniąc: obrażenia -20%
 

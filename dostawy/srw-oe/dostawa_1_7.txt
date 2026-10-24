@@ -1,0 +1,557 @@
+---
+SKRYPT
+---
+## Szalejący Labor powraca
+
+### SV2, Drugi Pluton / Hangar
+
+**Kanuka:** ...No i tyle. Drugi Pluton pozostaje w gotowości.
+
+**Shinohara:** Chyba sobie żartują...
+
+**Izumi:** Litości...
+
+**Shinshi:** Tamiko, kochanie, wybacz...
+
+**Yamazaki:** ...
+
+**Ota:** Co to ma być?! Co to za postawa?! Tylko my możemy ochronić to miasto przed łotrami!
+
+**Shinohara:** A kto ochroni nasze prawa człowieka?
+
+**Ota:** Nie macie żadnych!
+
+**Izumi:** Biedny Shinshi, jest załamany...
+
+**Shinshi:** W zeszłym miesiącu byłem w domu całe trzy dni...
+
+**Shinshi:** To pełnoprawny kryzys małżeński!
+
+**Ota:** Trzeba się było nie żenić! Idiota!
+
+**Izumi:** Ale ostatnio rzeczywiście często nas wzywają.
+
+### Zgłoszenie z 7. okręgu
+
+**Łączność / Głośnik:** Zgłoszenie z 7. okręgu.
+
+**Łączność / Głośnik:** Kod 205 w Shin-Shinagawa Seaside.
+
+**Łączność / Głośnik:** Wszystkie jednostki Drugiego Plutonu, wyjazd.
+
+**Łączność / Głośnik:** Powtarzam!
+
+**Shinohara:** I proszę, jak na zawołanie...
+
+**Kanuka:** Nie ma czasu na marudzenie!
+
+**Ota:** Ruszamy!
+
+**Izumi:** Taaak!
+
+**Sakaki:** Podstawić przyczepy! Szybciej z tym działem rewolwerowym!
+
+**Sakaki:** Kto się guzdrze, tego rozgniotę!
+
+### Wielki plac budowy
+
+**Kanuka:** To SEE Type-7, czyli Brocken.
+
+**Goto:** Podobno Labory firmy ochroniarskiej stojące w hangarze szaleją bez pilotów.
+
+**Shinohara:** Ota, Noa, uważajcie! Brocken to Labor zaprojektowany dla wojska.
+
+**Izumi:** Myślisz, że jest uzbrojony?
+
+**Shinohara:** To model ochroniarski. Pewnie nie ma broni palnej.
+
+**Shinshi:** Panie Ota, na pewno pan wie, ale najważniejsze jest ludzkie życie!
+
+**Ota:** Dość! Zaufaj ocenie ludzi w terenie!
+
+**Yamazaki:** Może lepiej powiedzieć mu wprost? "Nie używaj broni."
+
+**Shinshi:** Uuu... mój żołądek...
+
+**Kanuka:** Spokojnie. Okolicznych mieszkańców już ewakuowano.
+
+**Goto:** No i tak to wygląda. Wolno trochę poszaleć, ale ani Labory, ani kule nie mogą wyjść poza ten kwartał.
+
+**Ota:** Zrozumiałem! Proszę to nam zostawić!
+
+**Izumi:** No to jazda!
+
+#### Dialogi bojowe — sytuacyjne — utrzymanie pozycji
+
+> **Izumi:** Jest ich tyle, nie zatrzymam wszystkich!
+
+> **Ota:** Cholera! Przestańcie się tak kręcić!
+
+### Przybycie Raijin-Oh
+
+**Jin:** Matchless Raijin-Oh!
+
+**Ota:** C-co jest?!
+
+**Izumi:** Asuma, ten robot!
+
+**Shinohara:** A więc Raijin-Oh przybył na pomoc.
+
+**Yamazaki:** Co za ulga.
+
+**Koji:** Wystarczy zatrzymać te Labory, tak?
+
+**Asuka:** Pozwólcie nam pomóc!
+
+**Jin:** Jesteśmy już tutaj, więc spokojna głowa!
+
+**Goto:** No proszę, jak to podnosi na duchu.
+
+**Kanuka:** My też odwalimy profesjonalną robotę. Nie dajcie się wyprzedzić Klasie Obrony!
+
+**Izumi:** Przyjęłam!
+
+**Ota:** Przyjąłem! Nie dam sobie odebrać chwały!
+
+#### Dialogi bojowe — warunkowe i sytuacyjne
+
+> **Izumi:** Postarajmy się, żeby nie przegrać z Klasą Obrony!
+
+> **Izumi:** Do dzieła, Alphonse!
+
+> **Ota:** Ngh... Bezczelność! Nie dam się prześcignąć bezzałogowym gratom!
+
+> **Asuka:** Jin, mówię ci od razu: tylko przez pomyłkę nie zaatakuj policyjnych Laborów, dobra?
+
+> **Jin:** Tch... Wiem przecież! Aż taki głupi nie jestem!
+
+### Po bitwie
+
+**Shinshi:** Wszystkie szalejące Labory zamilkły.
+
+**Maria:** Chyba po sprawie. Wszyscy wracajcie.
+
+**Koji:** Państwo policjanci, resztę zostawiamy wam.
+
+**Asuka:** No, wracajmy.
+
+**Jin:** Pa, pa, dziewczyny!
+
+**Ota:** Dobra, koniec! Wracamy coś zjeść!
+
+**Izumi:** Mam wrażenie, że zgarnęli całą chwałę.
+
+**Shinohara:** Wcale nie. Wykonaliśmy zadanie jak należy.
+
+**Kanuka:** To jeszcze nie koniec. Musimy ustalić, co wywołało ten szał.
+
+**Shinshi:** Właśnie.
+
+**Goto:** Zostawmy to reszcie policji. My musimy wracać na sztuczną wyspę.
+
+**Shinohara:** Kapitanie, my też jesteśmy policjantami.
+
+**Ota:** Ty nic nie rozumiesz. Mówię, żeby takie sprawy zostawić specjalistom!
+
+**Shinohara:** Działając po fakcie, zawsze będziemy spóźnieni! Za tą serią szalejących Laborów musi stać jakaś przyczyna!
+
+**Goto:** Rozumiem, co czujesz. Ale w całej policji tylko my możemy stawić czoła szalejącym Laborom.
+
+**Kanuka:** Nic na to nie poradzimy...
+
+**Goto:** No to się zwijamy!
+
+### Wielki plac budowy / Okolica
+
+**Kurosaki:** Jak się podobało dzisiejsze wydarzenie?
+
+**Utsumi:** Było wspaniale, oczywiście. Zobaczyliśmy walkę Ingramów na żywo.
+
+**Utsumi:** Prawda, Bud?
+
+**Bud:** No. Ruszały się dużo lepiej niż na monitorze.
+
+**Bud:** Zwłaszcza maszyna tej pani. Jest coraz lepsza.
+
+**Kurosaki:** Nie sądziłem, że to taka odważna pilotka.
+
+**Bud:** Ona wcale nie jest odważna. Robi takie numery, bo coraz bardziej ufa swojej maszynie.
+
+**Utsumi:** Właśnie tak.
+
+**Kurosaki:** Mogą być groźniejsi, niż sądziliśmy...
+
+**Bud:** Inaczej nie byłoby zabawy.
+
+**Utsumi:** Racja. Robi się coraz ciekawiej, nie sądzisz?
+
+**Bud:** No!
+
+---
+UCZESTNICY
+---
+
+### Odcinek 1 — Szalejący Labor powraca (`DL101_70`)
+
+**Źródło:** `eventP00.cpk/DL101_70_Entry.dat`
+**Warunki misji:**
+> W tej misji skład jednostek jest z góry ustalony.
+
+**Jednostki sojusznicze (gracza):**
+  - **Ingram nr 1** — pilot główny: Noa Izumi
+  - **Ingram nr 2** — pilot główny: Isao Ota
+  - **Raijin-Oh** — pilot główny: Jin Hyuga — piloci wspierający w misji: Asuka Tsukishiro, Koji Hoshiyama
+
+**Jednostki wrogie:**
+  - **Brocken/Melee** — pilot główny: SI sterująca — ×5 rekordów źródłowych Entry ID
+
+---
+
+#### Domyślne mechy i jednostki w misji (sekcje z `srwoe_mech_catalog_v4_PL.md`)
+
+## Brocken (Brocken/Melee)
+
+**Seria:** Mobile Police Patlabor
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa  | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                |
+| ------: | ------ | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------- |
+|       0 | Szarża |       1100 |  1–2   |       +60 |   0 |      — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole |
+|         |        |            |        |           |     |        |                 |   Zderzenie Obraż.500 Obraż. od upadku 1000             |
+|         |        |            |        |           |     |        |                 |   Ignoruje Osłonę; bez wsparcia                         |
+
+---
+
+## Ingram nr 1
+
+**Seria:** Mobile Police Patlabor
+
+### Macierzyste zdolności maszyny
+
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+- **Kogut (poziom bazowy 1):** Morale wroga-14 Szansa 24%
+
+**Składy grup zapisane w tabeli:** SV2, 2. Pluton.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa              | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek              | Zdolności — opisy bazowe                                                |
+| ------: | ------------------ | ---------: | :----: | --------: | --: | -----: | -------------------- | ----------------------------------------------------------------------- |
+|       0 | Działo rewolwerowe |       1400 |  1–4   |       +20 |   5 |      — | Brak w tym polu      | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu     |
+|         |                    |            |        |           |     |        |                      | **Ucieczka (poziom bazowy 1):** Unik+18%                                |
+|       1 | Pałka paraliżująca |       2200 |  1–1   |       +60 |   0 |      — | Brak w tym polu      | **Garda (poziom bazowy 1):** Obr+20%                                    |
+|         |                    |            |        |           |     |        |                      | **Ogłuszenie (poziom bazowy 1):** Bez kontry, +Obraż.500 Szansa 30%     |
+|       2 | Schwytanie linką   |        900 |  1–5   |       +70 |  20 |    105 | Brak w tym polu      | **Pojmanie (poziom bazowy 1):** Bez kontry 1t: Atk/Cel/Unik-20% Kryt+8% |
+|         |                    |            |        |           |     |        |                      |   (bez kontry tylko gdy trafi)                                          |
+|         |                    |            |        |           |     |        |                      | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód                 |
+
+---
+
+## Ingram nr 2
+
+**Seria:** Mobile Police Patlabor
+
+### Macierzyste zdolności maszyny
+
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+- **Kogut (poziom bazowy 1):** Morale wroga-14 Szansa 24%
+
+**Składy grup zapisane w tabeli:** SV2, 2. Pluton.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa              | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek              | Zdolności — opisy bazowe                                            |
+| ------: | ------------------ | ---------: | :----: | --------: | --: | -----: | -------------------- | ------------------------------------------------------------------- |
+|       0 | Działo rewolwerowe |       1800 |  1–4   |       +30 |  10 |      — | Brak w tym polu      | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|         |                    |            |        |           |     |        |                      | **Na dużych (poziom bazowy 1):** Na dużych: Atk x1.1 Obr wroga-20%  |
+|         |                    |            |        |           |     |        |                      |   (więksi od siebie)                                                |
+|       1 | Pałka paraliżująca |       2000 |  1–1   |       +50 |   0 |      — | Brak w tym polu      | **Garda (poziom bazowy 1):** Obr+20%                                |
+|         |                    |            |        |           |     |        |                      | **Ogłuszenie (poziom bazowy 1):** Bez kontry, +Obraż.500 Szansa 30% |
+|       2 | Strzelba policyjna |       2600 |  1–3   |       +15 |  20 |    105 | Brak w tym polu      | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4   |
+|         |                    |            |        |           |     |        |                      | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole             |
+|         |                    |            |        |           |     |        |                      |   Zderzenie Obraż.500 Obraż. od upadku 1000                         |
+|         |                    |            |        |           |     |        |                      |   Ignoruje Osłonę; bez wsparcia                                     |
+
+---
+
+## Raijin-Oh
+
+**Seria:** Matchless Raijin-Oh
+
+### Macierzyste zdolności maszyny
+
+- **Połączenie (bez poziomu):** Morale 120 lub więcej Pełne HP/EN po połączeniu  
+  Łączy się w inną jedn.  
+  (God Raijin-Oh)
+- **Odnowa EN (poziom bazowy 1):** EN co turę+4%
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa             | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                            |
+| ------: | ----------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------- |
+|       0 | Raijin Claw       |       2100 |  1–7   |        +0 |  15 |      — | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej  |
+|         |                   |            |        |           |     |        |                 |   Bez kontry                                                        |
+|         |                   |            |        |           |     |        |                 |   Nie do wsparcia ani kontry                                        |
+|       1 | Raijin Boomerang  |       2500 |  3–5   |       +30 |   0 |      — | Brak w tym polu | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód             |
+|       2 | Raijin Sword      |       3100 |  1–2   |       +35 |   5 |      — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|       3 | Raijin Flash      |       3600 |  1–3   |       +10 |  20 |    105 | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole             |
+|         |                   |            |        |           |     |        |                 |   Zderzenie Obraż.500 Obraż. od upadku 1000                         |
+|         |                   |            |        |           |     |        |                 |   Ignoruje Osłonę; bez wsparcia                                     |
+|       4 | God Thunder Crash |       5600 |  1–1   |       +20 |  50 |    115 | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                         |
+
+---
+
+## God Raijin-Oh
+
+**Seria:** Matchless Raijin-Oh
+
+### Macierzyste zdolności maszyny
+
+- **Odnowa HP (poziom bazowy 1):** HP co turę+4%
+- **Odnowa EN (poziom bazowy 1):** EN co turę+4%
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek              | Zdolności — opisy bazowe                                             |
+| ------: | -------------------- | ---------: | :----: | --------: | --: | -----: | -------------------- | -------------------------------------------------------------------- |
+|       0 | God Raijin Boomerang |       2700 |  2–5   |       +35 |   0 |      — | Brak w tym polu      | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód              |
+|         |                      |            |        |           |     |        |                      | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu  |
+|       1 | God Raijin Sword     |       3000 |  1–8   |        +5 |  30 |      — | Brak w tym polu      | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej   |
+|         |                      |            |        |           |     |        |                      |   Bez kontry                                                         |
+|         |                      |            |        |           |     |        |                      |   Nie do wsparcia ani kontry                                         |
+|       2 | God Hyper Flash      |       3900 |  1–3   |       +15 |  20 |    105 | Brak w tym polu      | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole              |
+|         |                      |            |        |           |     |        |                      |   Zderzenie Obraż.500 Obraż. od upadku 1000                          |
+|         |                      |            |        |           |     |        |                      |   Ignoruje Osłonę; bez wsparcia                                      |
+|       3 | Final Fire           |       5400 |  3–6   |       +10 |  50 |    120 | Brak w tym polu      | Brak odwołania w dwóch polach efektów broni                          |
+|       4 | Hyper Thunder Crash  |       6500 |  1–2   |       +25 |  70 |    140 | Brak w tym polu      | Brak odwołania w dwóch polach efektów broni                          |
+
+---
+
+#### Piloci i postacie w misji oraz skrypcie sceny (sekcje z `srwoe_pilot_catalog_PL.md`)
+
+#### Jin Hyuga
+
+- **Seria:** Matchless Raijin-Oh
+- **Nazwa skrócona:** Jin
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            120 |
+| **Obrona**  |             77 |
+| **Celność** |            126 |
+| **Unik**    |             63 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                    |
+| ---: | ------------- | ---------: | -------: | ----------------------------------------------- |
+|    1 | **Skupienie** |          1 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%    |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność     | Poz. nauki | Efekt bazowy                              |
+| ---: | --------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Atk** |          1 | Pozostałe HP 10%: Obr/Unik+4% Atk/Kryt+5% |
+|    2 | **Blok**        |          3 | Obraż.-16% Sz. 12% *(1.08)*               |
+
+---
+
+#### Noa Izumi
+
+- **Seria:** Mobile Police Patlabor
+- **Nazwa skrócona:** Izumi
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            116 |
+| **Obrona**  |             66 |
+| **Celność** |            134 |
+| **Unik**    |             76 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                    |
+| ---: | ------------- | ---------: | -------: | ----------------------------------------------- |
+|    1 | **Hart**      |          1 |       20 | Cel: ty — Odnawia 25% HP                        |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                                |
+| ---: | ------------- | ---------: | ------------------------------------------- |
+|    1 | **Upór**      |          1 | Pozostałe HP 10%: Atk/Obr/Cel/Unik/Kryt+10% |
+|    2 | **Policjant** |          3 | Zadawane Obraż. x1.1 / Obr+4%               |
+
+---
+
+#### Isao Ota
+
+- **Seria:** Mobile Police Patlabor
+- **Nazwa skrócona:** Ota
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            120 |
+| **Obrona**  |             72 |
+| **Celność** |            139 |
+| **Unik**    |             61 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                  |
+| ---: | ---------- | ---------: | -------: | --------------------------------------------- |
+|    1 | **Niezł.** |          1 |       15 | Cel: ty Efekt: 1 razy — Otrzym. obrażenia-50% |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność     | Poz. nauki | Efekt bazowy                              |
+| ---: | --------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Atk** |          1 | Pozostałe HP 10%: Obr/Unik+4% Atk/Kryt+5% |
+|    2 | **Policjant**   |          3 | Zadawane Obraż. x1.1 / Obr+4%             |
+
+---
+
+#### Kanuka Clancy
+
+- **Seria:** Mobile Police Patlabor
+- **Nazwa skrócona:** Kanuka
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            112 |
+| **Obrona**  |             64 |
+| **Celność** |            146 |
+| **Unik**    |             72 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch      | Poz. nauki | Koszt SP | Efekt bazowy                                                            |
+| ---: | --------- | ---------: | -------: | ----------------------------------------------------------------------- |
+|    1 | **Wiatr** |          1 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd'                 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Kryt** |          1 | Pozostałe HP 10%: Obr/Unik+4% Cel/Kryt+5% |
+
+---
+
+#### Asuka Tsukishiro
+
+- **Seria:** Matchless Raijin-Oh
+- **Nazwa skrócona:** Asuka
+
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch        | Poz. nauki | Koszt SP | Efekt bazowy                     |
+| ---: | ----------- | ---------: | -------: | -------------------------------- |
+|    1 | **Pęd**     |          1 |       20 | Cel: ty Efekt: 1 razy — Ruch+3   |
+
+---
+
+#### Koji Hoshiyama
+
+- **Seria:** Matchless Raijin-Oh
+- **Nazwa skrócona:** Koji
+
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                                                 |
+| ---: | ---------- | ---------: | -------: | ---------------------------------------------------------------------------- |
+|    1 | **Zauf.**  |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP                             |
+
+---
+
+#### Badrinath Harchand
+
+- **Seria:** Mobile Police Patlabor
+- **Nazwa skrócona:** Bud
+- **Przekierowanie po stronie gracza (`+100`):** `Badrinath Harchand (Ally)` *(ten rekord obowiązuje wyłącznie po stronie wroga; w oddziale gracza silnik przełącza profil)*
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             60 |
+| **Atak**    |            111 |
+| **Obrona**  |             70 |
+| **Celność** |            141 |
+| **Unik**    |             79 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### SI sterująca
+
+- **Seria:** Brak wpisu w słowniku postaci
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             10 |
+| **Atak**    |            102 |
+| **Obrona**  |             66 |
+| **Celność** |            122 |
+| **Unik**    |             61 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy                                                  |
+| ---: | ----------- | ---------: | ------------------------------------------------------------- |
+|    1 | **Rój**     |          1 | Zbiorcza z tą samą jedn.; wsparcie w grupie / HP = suma grupy |
+
+---
+
+##### Postacie niebojowe, portretowe i systemowe (`Dodatek A`)
+
+| Nazwa (PL)                   | Seria                                          | Kontener / plik                 | Uwagi                                            |
+| ---------------------------- | ---------------------------------------------- | ------------------------------- | ------------------------------------------------ |
+| Maria Shiratori              | Matchless Raijin-Oh                            | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Asuma Shinohara              | Mobile Police Patlabor                         | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Mikiyasu Shinshi             | Mobile Police Patlabor                         | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Hiromi Yamazaki              | Mobile Police Patlabor                         | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Kiichi Goto                  | Mobile Police Patlabor                         | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Seitaro Sakaki               | Mobile Police Patlabor                         | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Utsumi                       | Mobile Police Patlabor                         | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Kurosaki                     | Mobile Police Patlabor                         | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+
+---
