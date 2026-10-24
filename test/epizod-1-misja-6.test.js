@@ -105,7 +105,8 @@ test('obsada, jednostki i hasła misji 6 są spięte ze sceną oraz epizodem', (
 test('Medea zachowuje wpis bez broni i dostaje osobny karabin oraz drugiego pilota', () => {
   const medea = bySlug.get('medea');
   assert.equal(medea.typ, 'mech');
-  assert.deepEqual(medea.piloci, ['zolnierz-jsdf', 'oficer-federacji']);
+  // ADR 0024: pilot z obsady misji stoi przed domyślną załogą jednostki.
+  assert.deepEqual(medea.piloci, ['oficer-federacji', 'zolnierz-jsdf']);
   assert.deepEqual(bySlug.get('oficer-federacji').mechy, ['medea']);
   assert.ok(bySlug.get('zolnierz-jsdf').mechy.includes('medea'));
   assert.ok(medea.tagi.includes('jsdf'));

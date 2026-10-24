@@ -5,6 +5,10 @@
 - [[srw-oe-ep1|Epizod 1]] ma szóstą misję — [[srw-oe-ep1-ratuj-transportowiec-medea|„Ratuj transportowiec Medea”]]: [[08-pluton-ms|08. Pluton MS]] osłania klucz przed Doppami i naziemnymi Zaku II, a po akcji odlatuje nim do [[jaburo|Jaburo]].
 - [[medea|Medea]] jest powiązana z [[oficer-federacji|Oficerem Federacji]] i ma karabin przeciwlotniczy. [[terry-sanders-jr|Sanders]] i [[michel-ninorich|Michel]] zyskują **Blok**, a [[karen-joshua|Karen]] — **Wsparcie**.
 
+## 2026-10-24 19:06
+
+- Załoga [[medea|Medei]] ma właściwą kolejność: najpierw [[oficer-federacji|Oficer Federacji]] z misji ratunkowej, potem domyślny [[zolnierz-jsdf|żołnierz JSDF]].
+
 ## 2026-10-24 16:14
 
 - W scenach [[srw-oe-ep1-szalejacy-prototyp-labora|„Szalejący prototyp Labora”]], [[srw-oe-ep1-black-tri-stars|„Black Tri-Stars”]], [[srw-oe-ep1-powstrzymaj-pocisk-termojadrowy|„Powstrzymaj pocisk termojądrowy”]] i [[srw-oe-ep1-start-alexa|„Start Alexa”]] poprawiono idiomy i zbyt dosłowne brzmienie dialogów. Wydarzenia, obsada i kolejność pozostają bez zmian.

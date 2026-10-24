@@ -3,7 +3,7 @@ typ: mech
 slug: medea
 tytul: Medea
 gry: [srw-oe]
-piloci: [zolnierz-jsdf, oficer-federacji]
+piloci: [oficer-federacji, zolnierz-jsdf]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_6.txt", "profil": "Medea", "dane": "**Seria:** Brak wpisu w dostępnych słownikach jednostek i pilotów — *nieustalona*.\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Bez uzbrojenia | 0 | 0–0 | +0 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |\n#### Dodatkowe wpisy — selektor zerowy (animacje / rekordy specjalne)\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 1 | Karabin przeciwlotniczy | 1000 | 1–2 | +5 | 20 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |"}'
 pochodzenie: menu

@@ -151,7 +151,7 @@ test('jednostki mają pilotów zgodnych z obsadą misji, kolejnych powiązań i 
     helldiver: ['zolnierz-jsdf'],
     'ingram-nr-1': ['noa-izumi'],
     'ingram-nr-2': ['isao-ota'],
-    medea: ['zolnierz-jsdf', 'oficer-federacji'],
+    medea: ['oficer-federacji', 'zolnierz-jsdf'],
   };
   for (const [slug, piloci] of Object.entries(obsada)) {
     assert.deepEqual(bySlug.get(slug).piloci, piloci, slug);
