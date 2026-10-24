@@ -24,7 +24,7 @@
 
 ## 2026-10-24 00:25
 
-- Portret [[terry-sanders-jr|Terry’ego Sandersa Jr.]] uzupełnia galerie misji [[srw-oe-ep1-start-alexa|„Start Alexa”]] do 23 ilustracji. [[rx-78nt-1-gundam-alex|Alex]] nadal nie ma galerii.
+- Portret [[terry-sanders-jr|Terry’ego Sandersa Jr.]] dołącza do galerii misji [[srw-oe-ep1-start-alexa|„Start Alexa”]].
 
 ## 2026-10-24 00:19
 
@@ -39,20 +39,13 @@
 
 ## 2026-10-23 18:57
 
-- Audyt [[srw-oe-ep1-trening-klasy-obrony|misji „Trening Klasy Obrony”]] poprawił opisy ról: [[tsutomu-kojima|Tsutomu]] mówi o oszczędzaniu energii, [[seishiro|Seishiro]] wyjaśnia obrażenia od upadku, a [[asuka-tsukishiro|Asuka]] wskazuje nieznany model [[exart|Exarta]], nie własnego [[raijin-oh|Raijin-Oha]]. Streszczenie sceny wskazuje też wprost, że Raijin-Oh walczy u boku Exarta.
+- Opisy ról w [[srw-oe-ep1-trening-klasy-obrony|misji „Trening Klasy Obrony”]] są dokładniejsze: [[tsutomu-kojima|Tsutomu]] mówi o oszczędzaniu energii, [[seishiro|Seishiro]] wyjaśnia obrażenia od upadku, a [[asuka-tsukishiro|Asuka]] wskazuje nieznany model [[exart|Exarta]], nie własnego [[raijin-oh|Raijin-Oha]]. Streszczenie sceny wskazuje też wprost, że Raijin-Oh walczy u boku Exarta.
 - [[loum|Loum]] rozróżnia teraz przekonanie Federacji o nieudanej akcji ratunkowej od skutecznego odbicia [[general-revil|generała Revila]]. Opis Raijin Claw na stronie Raijin-Oha mówi teraz zgodnie z grą, że maszyna przebija się przez wrogów w zasięgu i rusza dalej.
 
 ## 2026-10-23 18:35
 
 - [[raijin-oh|Raijin-Oh]] ma dwie ilustracje, a [[jin-hyuga|Jin]], [[asuka-tsukishiro|Asuka]], [[koji-hoshiyama|Koji]], [[maria-shiratori|Maria]], [[tsutomu-kojima|Tsutomu]], [[kirara-haruno|Kirara]] i [[yoko-kuriki|Yoko]] — portrety.
 - [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] jest od dziś widoczna w całości: siedmioro uczniów z [[akademia-hinobori|Akademii Hinobori]] ma własne strony z portretami.
-
-## 2026-10-23 15:05
-
-- Sekcja wątków na stronie epizodu nazywa się teraz „Wątki fabularne” i obejmuje zapożyczenia z anime, mang, gier i komiksów oraz wątki własne gry.
-- Tabela ma cztery kolumny: motyw, źródło, odcinek w źródle i różnice. Kolumna „Typ” zniknęła, bo to samo mówi odcinek w źródle — `n/d` oznacza wątek autorski.
-- Wiersze idą w kolejności scen epizodu: w [[srw-oe-ep1|Epizodzie 1]] misja 3 stoi przed misją 4, a wiersze o [[matchless-raijin-oh|Matchless Raijin-Oh]] zamykają tabelę.
-- W kolumnie „Odcinek w źródle” są już tylko odcinki seriali i oznaczenie `cała seria`, gdy motyw pochodzi z całego dzieła; numer epizodu gry i nazwy drużyn jak `Division 2` zniknęły.
 
 ## 2026-10-23 13:30
 
@@ -66,7 +59,7 @@
 
 ## 2026-10-22 18:53
 
-- Zaku II występuje w bazie tylko w trzech postaciach z [[srw-oe|OE]]: [[zaku-ii-char|maszyny Chara]], [[zaku-ii-karabin-maszynowy|z karabinem maszynowym]] i [[zaku-ii-bazooka|z bazooką]]. Każda z nich odsyła do dwóch pozostałych w sekcji „Pozostałe jednostki Zaku II”.
+- Zaku II występuje w bazie w trzech postaciach z [[srw-oe|OE]]: [[zaku-ii-char|maszyna Chara]], [[zaku-ii-karabin-maszynowy|wersja z karabinem maszynowym]] i [[zaku-ii-bazooka|wersja z bazooką]].
 
 ## 2026-10-22 18:38
 
@@ -104,32 +97,19 @@
 - Nowe strony postaci: [[general-revil|Generał Revil]], [[oficer-federacji|Oficer Federacji]] i [[oficer-zeonu|Oficer Zeonu]]; nowe hasło: [[traktat-antarktyczny|Traktat Antarktyczny]].
 - Nawiązanie prowadzi do dwudziestego piątego odcinka [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]], „The Fierce Battle for Odessa”, i wskazuje elementy pominięte w wersji gry.
 
-## 2026-10-22 16:30
-
-- Samowystarczalny plik witryny nie powtarza już pełnej treści scen i epizodów obok ich osobnych sekcji. Strony zachowują ten sam kompletny widok w mniejszym pliku.
-
-## 2026-10-22 16:27
-
-- Strony scen zachowują teraz wszystkie dodatkowe i powtórzone sekcje. Powtarzające się tytuły są rozróżniane, a każda podsekcja analizy prowadzi do wskazanego miejsca treści.
-
-## 2026-10-22 15:29
-
-- Oryginalny zapis imienia i nazwiska [[seishiro|Seishira]] ma teraz kompletne odwołanie do japońskojęzycznego źródła.
-
 ## 2026-10-22 15:26
 
-- [[srw-oe-ep0-na-ratunek-white-base|Scena 0-2]] i tabela [[srw-oe-ep0|Epizodu 0]] rozdzielają teraz materiał z dwóch początkowych odcinków [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]]: prolog i pierwszy pilotaż Gundama z „Gundam Rising” oraz rannego kapitana, prowizoryczną załogę i starcie z Charem z „Destroy Gundam”.
+- [[srw-oe-ep0-na-ratunek-white-base|Scena 0-2]] rozdziela materiał z dwóch początkowych odcinków [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]]: prolog i pierwszy pilotaż Gundama z „Gundam Rising” oraz rannego kapitana, prowizoryczną załogę i starcie z Charem z „Destroy Gundam”.
 
 ## 2026-10-22 15:20
 
 - [[turret|Turret]] jest teraz poprawnie opisany jako niepilotowana, nieruchoma bateria: [[zolnierz-zeonu|Żołnierze Zeonu]] pilotują Doppy, [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]], a wieżyczki jedynie obsługują.
-- Opisy jednostek misji [[srw-oe-ep1-black-tri-stars|„Black Tri-Stars”]] wyraźniej rozdzielają wydarzenia sceny, parametry z gry i informacje ze sprawdzonych źródeł; poprawiono też zasięg Heat Sabera [[dom|Doma]], wypowiedź [[sayla-mass|Sayli]] i umiejętność [[newtype|Newtype]].
-- [[prolog-i-trening-w-connect|Scena 0-1]] i [[srw-oe-ep0-na-ratunek-white-base|scena 0-2]] mają analizę rozbitą na podsekcje, a każda z nich prowadzi do swojego miejsca w treści — od prologu i szkolenia po [[white-base|White Base]], odwrót [[char-aznable|Chara]] i rozmowę w hangarze.
+- W misji [[srw-oe-ep1-black-tri-stars|„Black Tri-Stars”]] poprawiono zasięg Heat Sabera [[dom|Doma]], wypowiedź [[sayla-mass|Sayli]] i umiejętność [[newtype|Newtype]].
 
 ## 2026-10-22 14:05
 
 - Nowe hasła świata: [[mobile-suit|Mobile suit]] — klasa maszyn bojowych [[zeon|Zeonu]] i [[earth-federation|Federacji]], [[newtype|Newtype]] — pojęcie z pogłosek o pilocie [[white-base|White Base]] i umiejętność pilota, [[jaburo|Jaburo]] — baza, z której pochodzą dane wywiadowcze Federacji.
-- Tabele wątków w [[srw-oe-ep0|Epizodzie 0]] i [[srw-oe-ep1|Epizodzie 1]] podają numery odcinków tam, gdzie są sprawdzone: piąty odcinek [[mobile-police-patlabor|*Mobile Police Patlabor: On Television*]] i dwudziesty czwarty [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
+- Wątki [[srw-oe-ep0|Epizodu 0]] i [[srw-oe-ep1|Epizodu 1]] wskazują konkretne odcinki pierwowzorów: piąty odcinek [[mobile-police-patlabor|*Mobile Police Patlabor: On Television*]] i dwudziesty czwarty [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
 - [[krzyz-zeonu|Krzyż Zeonu]] — odznaczenie, o które pyta [[mash|Mash]] w dialogach warunkowych misji [[black-tri-stars|Black Tri-Stars]], oraz [[stacja-connect|Stacja Connect]] — baza [[connect-force|Connect]] w okolicach Ziemi.
 
 ## 2026-10-22 12:20
@@ -183,17 +163,12 @@
 
 - [[zaku-ii-karabin-maszynowy|Zaku II z karabinem]] i [[zaku-ii-bazooka|Zaku II z bazooką]] — opisy doprecyzowane: za sterami stoją nazwani piloci.
 
-## 2026-10-21 13:41
-
-- Parametry mechów nie powtarzają już sekcji domyślnej załogi. Piloci pozostają w danych ogólnych jako odsyłacze, a ich statystyki, komendy Ducha i umiejętności są tylko na stronach postaci.
-
 ## 2026-10-21 13:30
 
 - Dziesięciu pilotów ma pełne statystyki — SP, atak, obronę, celność i unik — a także komendy Ducha i umiejętności, od [[seishiro|Seishira]] po [[sayla-mass|Saylę Mass]].
 - [[brocken|Brocken]] i [[control-ai|Control AI]] wchodzą do obsady [[prolog-i-trening-w-connect|szkolenia podstawowego]]: trzy symulowane maszyny stają przeciw [[exart|Exartowi]].
 - [[white-base|White Base]] pokazuje [[mirai-yashima|Mirai]] jako podpilota z własną pulą SP i komendą Zauf., a [[rx-78-2-gundam|Gundam]] — przynależność do Oddziału White Base.
 - [[real-pg-gundam|Real PG Gundam]] wraca do pełnego zestawu danych z czterema broniami oraz zdolnościami Blok tarczą i Odtwórz.
-- Parametry uzbrojenia dziesięciu jednostek są zgodne z nowym opracowaniem epizodu 0.
 
 ## 2026-10-21 01:12
 
@@ -202,35 +177,17 @@
 
 ## 2026-10-21 00:58
 
-- [[loum|Loum]] mówi o bitwie flot, a nie „bitwie flotniczej”; [[luna-ii|Luna II]] leży w punkcie L3, [[side-3|Side 3]] składa się z kolonii zamkniętych, a [[uc-0079|U.C. 0079]] opisuje rok akcji zamiast „daty akcji”.
-- [[zeon|Księstwo Zeonu]] jest jedną z dwóch stron wojny — zdanie ma poprawną formę.
-- [[srw-oe-ep0|Epizod 0]] odzyskał spójnik w zdaniu o wspólnej ramie chronologicznej, a analiza sceny na [[white-base|White Base]] nie powtarza „a” i mówi o ataku Chara wprost.
-- Drobne poprawki w opisach [[marker|Markera]], [[exart|Exarta]] i [[zaku-ii-bazooka|Zaku II z bazooką]].
+- [[luna-ii|Luna II]] leży w punkcie L3, [[side-3|Side 3]] tworzą kolonie zamknięte, a [[uc-0079|U.C. 0079]] to rok akcji gry.
+- [[zeon|Księstwo Zeonu]] występuje jako jedna z dwóch stron wojny.
 
 ## 2026-10-21 00:12
 
-- [[slender|Slender]], [[crown|Crown]], [[marker|Marker Clan]] i [[oscar-dublin|Oscar Dublin]] mają przypisaną serię [[mobile-suit-gundam-1979|Mobile Suit Gundam]] — tak jak pozostali bohaterowie ataku na [[white-base|White Base]].
-
-## 2026-10-20 23:57
-
-- Każda strona jest teraz osiągalna z innej: opisy [[white-base|White Base]], [[srw-oe-ep0|Epizodu 0]] i [[srw-oe|samej gry]] linkują do [[sayla-mass|Sayli Mass]], [[marker|Markera Clana]], [[oscar-dublin|Oscara Dublina]] i [[minovsky-particles|cząstek Minovsky’ego]].
-- Wątki anime w [[srw-oe-ep0|Epizodzie 0]] prowadzą wprost do wspominanych wydarzeń i miejsc, a nazwa rodziny Zaku II w opisach jej trzech jednostek jest odsyłaczem.
-- Opis [[side-3|Side 3]] mówi o kolonii i jej historii, bez ujawniania tożsamości [[char-aznable|Chara Aznable]] sięgającej dalszej części historii.
-- Poprawki językowe w hasłach [[loum|Loum]] i [[char-aznable|Chara Aznable]].
-
-## 2026-10-20 23:52
-
-- Numer sceny zniknął z opisów: odsyłacze wskazują teraz wydarzenia — prolog i trening, atak na [[white-base|White Base]] — zamiast numerów scen.
+- [[slender|Slender]], [[crown|Crown]], [[marker|Marker Clan]] i [[oscar-dublin|Oscar Dublin]] pochodzą z [[mobile-suit-gundam-1979|Mobile Suit Gundam]], tak jak reszta bohaterów ataku na [[white-base|White Base]].
 
 ## 2026-10-20 23:50
 
 - [[side-3|Side 3]] i [[loum|Loum]] mają własne hasła: pierwsza to kolonia, z której ogłosiło się [[zeon|Księstwo Zeonu]], druga — pole bitwy, o której mówi [[paolo-cassius|Paolo]].
 - [[char-aznable|Char Aznable]] zdobył przydomek Czerwonej Komety właśnie w bitwie o Loum, a jego [[zaku-ii-char|Zaku II]] nosił czerwoną barwę.
-
-## 2026-10-20 23:45
-
-- [[seishiro|Seishiro Kusanagi]]: umiejętności [[exart|Exarta]] opisuje teraz prozą o pilocie, bez etykiety miejsca w załodze.
-- [[srw-oe-ep0|Epizod 0]]: zdanie o wspólnej ramie chronologicznej ma poprawioną składnię.
 
 ## 2026-10-20 23:44
 
@@ -243,35 +200,27 @@
 - Strony jednostek z karabinem i bazooką wymieniają nazwanych pilotów przed bezimienną załogą.
 - [[srw-oe-ep0|Epizod 0]] i scena na [[white-base|White Base]] mówią teraz wprost, kto siedzi w której maszynie.
 
-## 2026-10-20 20:04
-
-- Opis bezimiennego pilota mówi o ludziach armii, nie o miejscu w danych gry: Zaku II, siła szyku i nazwani podwładni [[char-aznable|Chara]] w [[srw-oe-ep0-na-ratunek-white-base|scenie ataku na White Base]].
-- Opisy [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-char|Zaku II (Char)]] opisują maszyny i sposób walki, a nie przypisanie do rekordu.
-
 ## 2026-10-20 19:55
 
 - Bezimienny pilot Zaku II jako zbiorczy wpis obsady — jeden z tych, którzy tworzą trzon armii [[zeon|Księstwa Zeonu]].
-- Trzy Zaku II to w [[srw-oe|OE]] osobne mechy, nie warianty: każdy ma własną stronę i własne uzbrojenie, a strony odsyłają do siebie nawzajem w sekcji „Pozostałe jednostki Zaku II”.
+- Trzy Zaku II to w [[srw-oe|OE]] osobne maszyny, a nie warianty jednej: każda ma inne uzbrojenie.
 - Załoga Zaków II na [[white-base|White Base]]: [[char-aznable|Char]] w swojej maszynie, [[slender|Slender]] i [[crown|Crown]] w dwóch pozostałych.
 
 ## 2026-10-20 19:48
 
 - Trzy osobne jednostki Zaku II: z [[zaku-ii-karabin-maszynowy|karabinem maszynowym]], z [[zaku-ii-bazooka|bazooką]] i [[zaku-ii-char|maszyna Chara]] — każdy z dwiema ilustracjami i własnym zestawem uzbrojenia.
-- [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]] i [[zaku-ii-bazooka|Zaku II z bazooką]] zyskują sekcję z odsyłaczami do pozostałych jednostek; [[char-aznable|Char Aznable]] ma w profilu także swoją wersję maszyny.
-- Maszyny obsadzone zbiorczym profilem opisują klasę jednostek, nie pojedynczą osobę.
+- [[char-aznable|Char Aznable]] prowadzi własną wersję maszyny, odrębną od dwóch pozostałych Zaku II.
 
 ## 2026-10-20 18:29
 
-- [[white-base|White Base]] zyskuje portret i pełny rekord jednostki: załogę [[bright-noa|Bright Noa]] i [[mirai-yashima|Mirai Yashima]], zdolności okrętu-matki oraz cztery działa.
+- [[white-base|White Base]] zyskuje portret, załogę — [[bright-noa|Bright Noa]] i [[mirai-yashima|Mirai Yashima]] — zdolności okrętu-matki oraz cztery działa.
 - [[rx-78-2-gundam|Gundam]]: dwa nowe zdjęcia oraz parametry pilota [[amuro-ray|Amuro Raya]] — Potencjał Krytyczny, [[newtype|Newtype]], blok tarczą i cztery rodzaje uzbrojenia.
-- [[seishiro|Seishiro Kusanagi]]: nowa umiejętność Precyzja w profilu [[exart|Exarta]] i na swojej stronie.
-- White Base jest odtąd jednostką bojową w bazie, a nie hasłem o okręcie; odsyłacze pozostają bez zmian.
+- [[seishiro|Seishiro Kusanagi]] zyskuje umiejętność Precyzja przy sterach [[exart|Exarta]].
 
 ## 2026-10-20 18:06
 
 - Portrety bohaterów: każda postać ma własną ilustrację — załoga [[white-base|White Base]], piloci [[zeon|Zeonu]], [[connect-force|Connect Force]] oraz [[kuro|Kuro]] i [[shiro|Shiro]].
 - [[marker|Marker Clan]] i [[suol|Suol Douglas]] występują pod pełnymi nazwiskami; wcześniejsze podpisy skrócono do imion.
-- Maszyny zachowują dotychczasowe ilustracje.
 
 ## 2026-10-20 17:08
 
@@ -280,10 +229,6 @@
 - [[rx-78-2-gundam|RX-78-2 Gundam]] i Zaku II — pierwsze maszyny [[universal-century|Universal Century]] w bazie, z uzbrojeniem i pilotami.
 - Hasła: [[zeon|Księstwo Zeonu]], [[side-7|Side 7]], [[luna-ii|Luna II]], [[white-base|White Base]] i [[minovsky-particles|cząstki Minovsky’ego]].
 - [[mobile-suit-gundam-1979|Mobile Suit Gundam (1979)]] jako seria źródłowa sceny.
-
-## 2026-10-20 11:55
-
-- Każdy fragment opisu ma etykietę tytułu, którego dotyczy — także opisy z gry, epizody, sceny i seriale. Informacje niezależne od wersji oznaczono jako wspólne, a rodowód postaci i mechów jako pochodzący z całej serii.
 
 ## 2026-10-19 23:15
 
@@ -303,9 +248,8 @@
 ## 2026-10-19 23:10
 
 - [[srw-oe|Super Robot Wars OE]]: deweloper Sazanami i wydawca Bandai Namco Games; dane o ośmiu rozdziałach i liczbie misji.
-- [[seishiro|Seishiro Kusanagi]]: dane postaci w osobnej sekcji, z japońskim zapisem imienia, wiekiem i głosem.
+- [[seishiro|Seishiro Kusanagi]]: japoński zapis imienia, wiek i głos postaci.
 - [[mobile-police-patlabor|Mobile Police Patlabor]] i [[sgt-frog|Sgt. Frog]]: opisy potwierdzone źródłami, z japońskimi tytułami i rokiem.
-- [[masaki-andoh|Masaki Andoh]] i [[cybuster|Cybuster]]: uporządkowane odsyłacze w sekcjach o [[kuro|Kuro]] i [[shiro|Shiro]].
 
 ## 2026-10-19 22:57
 

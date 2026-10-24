@@ -297,11 +297,13 @@ test('dziennik zmian dokumentuje piątą misję i jej ilustracje', () => {
   assert.ok(current.includes('[[mobile-suit-gundam-0080|'));
   assert.ok(current.includes('[[rx-78nt-1-gundam-alex|'));
   assert.match(current, /22 ilustracje/);
-  assert.match(current, /23 ilustracji/);
   assert.ok(current.includes('[[gundam-ez8|'));
   assert.ok(current.includes('[[christina-mackenzie|'));
   assert.ok(current.includes('[[terry-sanders-jr|'));
-  assert.match(current, /Alex\]\] nadal nie ma galerii/);
+  // Brak ilustracji Alexa nie jest zapowiedzią: jednostka nie staje do walki w tej misji.
+  assert.doesNotMatch(changelog, /nadal nie ma galerii|nie ma jeszcze ilustracji|wkrótce|w przyszłości/);
+  assert.equal(manifest.encje['rx-78nt-1-gundam-alex'], undefined);
+  assert.match(manifest.uwaga, /Alex nie ma wpisu w manifeście, bo w misji 1-5 nie staje do walki/);
 });
 
 test('obsada misji 1-5 ma tło z pierwowzorów w blokach zrodlo (ADR 0008, ADR 0013)', () => {

@@ -50,7 +50,16 @@ test('wpisy idą od najnowszego i mają unikalne znaczniki czasu', () => {
 });
 
 test('dziennik nie opisuje interfejsu ani technikaliów (ADR 0018)', () => {
-  const technikalia = /chmur[aęy] tagów|kafelk|filtr[a-ząćęłńóśźż]*\b|interfejs|miniatur|na pełnym ekranie|układ stron|wydajnoś|rozmiar artefaktu/i;
+  const technikalia = new RegExp([
+    // interfejs i sposób wyświetlania
+    'chmur[aęy] tagów', 'kafelk', 'filtr[a-ząćęłńóśźż]*\\b', 'interfejs', 'miniatur',
+    'na pełnym ekranie', 'układ stron', 'wydajnoś', 'rozmiar artefaktu', 'plik witryny',
+    // budowa stron i danych
+    'odsyłacz', 'podsekcj', 'kotwic', 'kolumn', 'etykiet', 'rekord', 'własną stronę',
+    'pole danych', 'numer sceny',
+    // praca nad bazą zamiast treści bazy
+    'audyt', 'dostaw[ay]\\b', 'właściciel', 'poprawki językowe', 'składni[aęi]', 'literówk',
+  ].join('|'), 'i');
   for (const wpis of wpisy()) {
     for (const linia of wpis.tresc) {
       assert.doesNotMatch(linia, technikalia, `wpis ${wpis.naglowek} opisuje interfejs, nie bazę`);
