@@ -17,6 +17,8 @@ utworzono: 2026-10-21
 Wielki robot przeznaczony do prac przemysłowych, używany przede wszystkim w budownictwie. Wraz z upowszechnieniem Laborów rosła liczba przestępstw z ich udziałem.
 
 Aby im przeciwdziałać, Policja Metropolitalna Tokio utworzyła kompanię patrolowych Laborów [[sv2|SV2]]. Na poligonie Fuji Labory wojskowe i policyjne ćwiczą razem z [[connect-force|Connect]], a [[hal-x10|HAL-X10]] wymykają się spod kontroli.
+
+W ciągu miesiąca poprzedzającego [[srw-oe-ep1-sledztwo-pod-przykrywka|scenę „Śledztwo pod przykrywką”]] w całym kraju dochodzi do dwudziestu dwóch incydentów z szalejącymi Laborami. Wszystkie maszyny pracowały pod nowym systemem operacyjnym [[shinohara-hos|Shinohara HOS]] firmy [[shinohara-heavy-industries|Shinohara Heavy Industries]], zainstalowanym w ponad 80% zarejestrowanych jednostek — w samym Tokio na podejrzanym systemie działają tysiące Laborów, zanim rząd zarządza powrót do starego oprogramowania pod pozorem bezpłatnej aktualizacji.
 }}
 
 {{zrodlo gra=wspolne

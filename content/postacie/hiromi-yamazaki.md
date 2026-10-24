@@ -23,6 +23,8 @@ Wraz z resztą plutonu obserwuje ćwiczenia na poligonie Fuji i pierwsze oznaki 
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 
 Na [[srw-oe-ep1-szalejacy-labor-powraca|wielkim placu budowy]] sugeruje, by wprost zakazać [[isao-ota|Ocie]] użycia broni. Przybycie [[raijin-oh|Raijin-Oha]] przyjmuje z ulgą.
+
+Po akcji pod zakładem [[shinohara-heavy-industries|Shinohara Heavy Industries]] w [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] denerwuje się wizją lotu w kosmos i pyta o zaopatrzenie w żywność na pokładzie [[stacja-connect|bazy Connect]], ale razem z resztą Drugiego Plutonu wyrusza na delegację.
 }}
 
 {{zrodlo gra=wspolne

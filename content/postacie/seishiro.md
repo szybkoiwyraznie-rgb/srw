@@ -27,6 +27,8 @@ Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]]
 W transportowcu wracającym na Stację Connect rozmawia z [[suol|szefem Suolem]] o [[white-base|White Base]] i [[operacja-odessa|Odessie]]. Zauważa, że [[exart|Exart]] wyrwie się z grawitacji tylko z transportem, i porównuje go z japońskimi superrobotami, które nie potrzebują do tego pomocy.
 
 W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] oddaje [[himari-yaegaki|Himari]] stery i chwali jej smykałkę. Wspólne ćwiczenia z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] przypominają mu własne dzieciństwo: zastanawia się, czy pilotując robota w wieku uczniów z [[akademia-hinobori|Akademii Hinobori]], byłby taki jak oni. Podejrzewa, że [[suol|Szef]] wykorzystał trening Himari jako pretekst, żeby pokazać mu tę klasę, i uznaje to za dobrą inspirację.
+
+W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] przyjeżdża z Himari do zakładu [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji po kopię wzorcową [[shinohara-hos|HOS-a]], a gdy bezzałogowe Labory [[sily-samoobrony-japonii|Sił Samoobrony]] ruszają do ataku z ostrą amunicją, wyprowadza [[exart|Exarta]] i wspólnie z Drugim Plutonem [[sv2|SV2]] zatrzymuje je przed wyjściem poza teren fabryki.
 }}
 {{menu gra=srw-oe
 

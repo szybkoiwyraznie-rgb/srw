@@ -36,16 +36,18 @@ function sprawdzBlok(slug, adresy) {
 test('obsada SV2 ma tło z pierwowzoru (ADR 0008, ADR 0013)', () => {
   const wiki = 'https://en.wikipedia.org/wiki/List_of_Patlabor_characters';
   for (const slug of ['asuma-shinohara', 'kiichi-goto', 'kanuka-clancy',
-    'mikiyasu-shinshi', 'hiromi-yamazaki']) {
+    'mikiyasu-shinshi', 'hiromi-yamazaki', 'shinobu-nagumo', 'shigeo-shiba']) {
     sprawdzBlok(slug, [wiki]);
   }
-  assert.match(bySlug.get('asuma-shinohara').body, /synem prezesa Shinohara Heavy Industries/);
+  assert.match(bySlug.get('asuma-shinohara').body, /synem prezesa (?:\[\[shinohara-heavy-industries\|)?Shinohara Heavy Industries/);
   assert.match(bySlug.get('kiichi-goto').body, /dzielnicy Taitō/);
   assert.match(bySlug.get('kanuka-clancy').body, /policji nowojorskiej/);
   assert.doesNotMatch(bySlug.get('kanuka-clancy').body, /nie ma sobie równych/);
   assert.match(bySlug.get('mikiyasu-shinshi').body, /jako jedyny w jednostce jest żonaty/);
   assert.match(bySlug.get('mikiyasu-shinshi').body, /łatwo daje sobą pomiatać/);
   assert.match(bySlug.get('hiromi-yamazaki').body, /pochodzi z Okinawy/);
+  assert.match(bySlug.get('shinobu-nagumo').body, /dzielnicy Setagaya/);
+  assert.match(bySlug.get('shigeo-shiba').body, /zastępcą szefa mechaników/);
 });
 
 test('Labory misji 1-1 mają tło techniczne z pierwowzoru (ADR 0008, ADR 0013)', () => {
@@ -118,6 +120,11 @@ test('hasła świata Patlabora mają tło z pierwowzoru (ADR 0008, ADR 0013)', (
   sprawdzBlok('poligon-fuji', ['https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!']);
   sprawdzBlok('sily-samoobrony-japonii', ['https://patlabor.fandom.com/wiki/ARL-99_Helldiver',
     'https://patlabor.fandom.com/wiki/HAL_X-10']);
+  sprawdzBlok('shinohara-heavy-industries', [
+    'https://patlabor.fandom.com/wiki/Shinohara_Heavy_Industries',
+    'https://en.wikipedia.org/wiki/List_of_Patlabor_characters',
+    'https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E8%AD%A6%E5%AF%9F%E3%83%91%E3%83%88%E3%83%AC%E3%82%A4%E3%83%90%E3%83%BC_the_Movie',
+  ]);
   assert.match(bySlug.get('labor').body, /patlabory/);
   assert.match(bySlug.get('labor').body, /do niego należy \[\[ingram-nr-1\|AV-98 Ingram\]\]/);
   assert.match(bySlug.get('sv2').body, /powołany w 1996 roku/);
@@ -134,6 +141,48 @@ test('źródłowe nawiązania do serialu Patlabor linkują wariant TV HAL-X10', 
     for (const blok of bloki) {
       assert.match(blok, /\[\[hal-x10-green\|HAL-X10\]\]/, `${slug}: wariant TV`);
       assert.doesNotMatch(blok, /\[\[hal-x10\|HAL-X10\]\]/, `${slug}: bez wariantu kinowego`);
+    }
+  }
+});
+
+test('God Raijin-Oh i Real PG Gundam mają sprawdzone tło pierwowzoru (ADR 0008, ADR 0012, ADR 0013)', () => {
+  sprawdzBlok('god-raijin-oh', [
+    'https://en.wikipedia.org/wiki/Matchless_Raijin-Oh',
+    'https://eldran.fandom.com/wiki/God_Raijin-Oh',
+  ]);
+  sprawdzBlok('real-pg-gundam', [
+    'https://superrobotwars.fandom.com/wiki/Banpresto_Original/Units',
+    'https://en.wikipedia.org/wiki/Sgt._Frog',
+    'https://en.wikipedia.org/wiki/Gunpla',
+  ]);
+  assert.match(bySlug.get('god-raijin-oh').body, /Bakuryū-Oh/);
+  assert.match(bySlug.get('god-raijin-oh').body, /41 metrów/);
+  assert.equal(pages.some((p) => /bakuryu/i.test(p.slug)), false,
+    'wzmianka źródłowa nie tworzy osobnej encji spoza dostaw');
+  assert.match(bySlug.get('real-pg-gundam').body, /Perfect Grade/);
+  assert.match(bySlug.get('real-pg-gundam').body, /1:60/);
+  assert.deepEqual(bySlug.get('real-pg-gundam').piloci, []);
+});
+
+test('Federacja Ziemska i zagrożenia cyklu Eldran mają sprawdzone tło bez domysłów wiedzy', () => {
+  sprawdzBlok('earth-federation', [
+    'https://en.wikipedia.org/wiki/Mobile_Suit_Gundam',
+    'https://gundam.fandom.com/wiki/Earth_Federation',
+  ]);
+  sprawdzBlok('jaku-empire', [
+    'https://eldran.fandom.com/wiki/Jaku_Empire',
+    'https://en.wikipedia.org/wiki/Matchless_Raijin-Oh',
+  ]);
+  for (const slug of ['earth-federation', 'jaku-empire', 'daimakai', 'mechanization-empire', 'super-robot-wars-original']) {
+    assert.doesNotMatch(bySlug.get(slug).body, /\{\{wiedza/, `${slug}: bez przestarzałego bloku wiedzy`);
+  }
+  // Karty serii wymieniają wszystkie dotychczasowe imienne postacie i maszyny swojego świata.
+  const generyczne = new Set(['zolnierz-jsdf', 'zolnierz-federacji', 'zolnierz-zeonu', 'oficer-federacji', 'oficer-zeonu']);
+  for (const seria of pages.filter((p) => p.typ === 'seria')) {
+    const czlonkowie = pages.filter((p) => p.seria === seria.slug && !generyczne.has(p.slug));
+    for (const encja of czlonkowie) {
+      assert.ok(seria.body.includes(`[[${encja.slug}`),
+        `${seria.slug}: opis serii pomija ${encja.slug}`);
     }
   }
 });

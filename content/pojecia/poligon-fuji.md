@@ -15,7 +15,7 @@ utworzono: 2026-10-21
 
 Poligon Sił Samoobrony w okolicach góry Fuji, gdzie odbywają się wspólne ćwiczenia wojska, policji i [[connect-force|Connect]].
 
-To tam bezzałogowe [[hal-x10|HAL-X10]] wymykają się spod kontroli i otwierają ogień ostrą amunicją. Walka toczy się w lesie i na otwartym terenie, z dala od zabudowy, ale maszyny mogą w kilka minut dotrzeć do zaludnionych okolic.
+To tam bezzałogowe [[hal-x10|HAL-X10]] wymykają się spod kontroli i otwierają ogień ostrą amunicją. Walka toczy się w lesie i na otwartym terenie, z dala od zabudowy, ale maszyny mogą w kilka minut dotrzeć do zaludnionych okolic. Po incydencie wszystkie wojskowe [[labor|Labory]] biorące udział w ćwiczeniach zostają odesłane na gruntowną kontrolę do zakładu [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji, gdzie ponownie buntują się w [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]].
 }}
 
 {{zrodlo gra=wspolne

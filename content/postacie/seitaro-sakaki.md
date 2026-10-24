@@ -16,6 +16,8 @@ utworzono: 2026-10-24
 ## Opis
 
 Po zgłoszeniu kodu 205 w [[srw-oe-ep1-szalejacy-labor-powraca|Shin-Shinagawa Seaside]] przygotowuje wyjazd Drugiego Plutonu [[sv2|SV2]]: nakazuje podstawić przyczepy i przyspieszyć przygotowanie działa rewolwerowego. Nagli opieszałych i zapowiada, że rozgniecie każdego, kto się guzdrze.
+
+W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] ruga [[isao-ota|Otę]] za wrzucenie [[ingram-nr-2|Ingrama nr 2]] do rzeki i zleca [[shigeo-shiba|Shige]] dokładne wysuszenie maszyny, a na prośbę [[kiichi-goto|Goto]] jedzie z [[asuma-shinohara|Asumą]] do zakładu [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji i wywozi go spod ostrzału szalejących Laborów. Później wychodzi na jaw, że to jego codzienne przestrogi wobec nowinek z nieznanego źródła skłoniły Shige do niewgrywania [[shinohara-hos|HOS-a]] w [[ingram-nr-1|Ingramach]]; razem z Drugim Plutonem zostaje oddelegowany do [[connect-force|Connect]].
 }}
 
 {{zrodlo gra=wspolne

@@ -40,6 +40,7 @@ test('hasła z kwerendy cytują otwarte strony i mają je w zrodla', () => {
     'mobile-suit': 'https://gundam.fandom.com/wiki/Mobile_Weapon',
     newtype: 'https://gundam.fandom.com/wiki/Newtype',
     jaburo: 'https://gundam.fandom.com/wiki/Jaburo',
+    'krzyz-zeonu': 'https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%AA%E3%83%B3%E5%85%AC%E5%9B%BD',
   };
   for (const [slug, url] of Object.entries(zrodla)) {
     const p = haslo(slug);
@@ -49,12 +50,12 @@ test('hasła z kwerendy cytują otwarte strony i mają je w zrodla', () => {
   }
 });
 
-test('Krzyż Zeonu stoi na kwestii Masha i pamięci modelu bez linków', () => {
+test('Krzyż Zeonu łączy kwestię Masha ze sprawdzonym tłem odznaczenia Księstwa', () => {
   const p = haslo('krzyz-zeonu');
   assert.match(p.body, /Mash.*Krzyż Zeonu/);
-  assert.match(p.body, /\{\{wiedza gra=wspolne/);
-  assert.equal(p.zrodla, undefined, 'brak sprawdzonego źródła — bez adresów');
-  assert.doesNotMatch(p.body, /https?:\/\//);
+  assert.match(p.body, /szóstym odcinku serialu \*Mobile Suit Gundam\*/);
+  assert.match(p.body, /pierwszej i drugiej klasy/);
+  assert.doesNotMatch(p.body, /\{\{wiedza/);
 });
 
 test('Stacja Connect opisuje tylko materiał scen', () => {

@@ -33,7 +33,7 @@ function komorki(wiersz) {
   return wiersz.split('|').slice(1, -1).map((cell) => cell.trim());
 }
 
-test('dostawa 1-7 jest zachowana bajt w bajt, a cały jej skrypt kończy epizod', () => {
+test('dostawa 1-7 jest zachowana bajt w bajt, a cały jej skrypt poprzedza misję 1-8 w epizodzie', () => {
   assert.equal(deliveryBytes.length, 25199);
   assert.equal(createHash('md5').update(deliveryBytes).digest('hex'),
     '6e168febc1a7f755cce16229efff78c7');
@@ -45,12 +45,13 @@ test('dostawa 1-7 jest zachowana bajt w bajt, a cały jej skrypt kończy epizod'
   assert.match(delivery, /^#### Badrinath Harchand$/m);
   assert.match(delivery, /Brocken\/Melee.*×5 rekordów źródłowych Entry ID/);
   const expected = delivery.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
-  assert.ok(script.trimEnd().endsWith(expected), 'pełna misja 1-7 na końcu epizodu');
+  assert.ok(script.includes(expected), 'pełna misja 1-7 w skrypcie epizodu');
+  assert.ok(script.includes('**Bud:** No!\n\n## Śledztwo pod przykrywką'));
   assert.ok(!script.includes('UCZESTNICY'));
   assert.ok(!script.includes('DL101_70'));
 });
 
-test('scena 1-7 jest dosłowna i domyka kolejność siedmiu misji epizodu 1', () => {
+test('scena 1-7 jest dosłowna i poprzedza misję 1-8 w epizodzie 1', () => {
   assert.equal(scena.typ, 'scena');
   assert.equal(scena.epizod, 'srw-oe-ep1');
   assert.equal(scena.numer_sceny, '1-7');
@@ -65,7 +66,7 @@ test('scena 1-7 jest dosłowna i domyka kolejność siedmiu misji epizodu 1', ()
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1')
     .sort((a, b) => String(a.numer_sceny).localeCompare(String(b.numer_sceny)));
   assert.deepEqual(sceny.map((s) => s.numer_sceny),
-    ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6', '1-7']);
+    ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6', '1-7', '1-8']);
 });
 
 test('osiem etapów analizy ma kotwice i zachowuje ograniczenia oraz nierozstrzygniętą przyczynę', () => {
@@ -200,7 +201,7 @@ test('Jin dostaje Blok, a Noa i Ota — Policjanta z poziomu 3', () => {
   }
 });
 
-test('Bud ma wartości i przekierowanie z dostawy, a postacie z Dodatku A nie dostają statystyk', () => {
+test('Bud ma wartości z dostawy bez spoilerów rekrutacji, a postacie z Dodatku A nie dostają statystyk', () => {
   const bud = bySlug.get('badrinath-harchand');
   assert.equal(bud.typ, 'postac');
   assert.equal(bud.rola, 'pilot');
@@ -211,8 +212,7 @@ test('Bud ma wartości i przekierowanie z dostawy, a postacie z Dodatku A nie do
     assert.match(bud.body, new RegExp(`\\| ${nazwa} \\| ${wartosc} \\|`), nazwa);
   }
   assert.match(bud.body, /\*\*Nazwa skrócona:\*\* Bud/);
-  assert.match(bud.body, /Przekierowanie po stronie gracza \(\+100\)/);
-  assert.match(bud.body, /Badrinath Harchand \(Ally\)/);
+  assert.doesNotMatch(bud.body, /Przekierowanie|\+100|\(Ally\)|silnik przełącza/i);
   assert.match(bud.body, /\| 1 \| \*\*Potencjał\*\* \| 1 \| Pozostałe HP 10%: Obr\/Cel\/Unik\/Kryt\+4% \|/);
   assert.match(bud.body, /coraz bardziej ufa swojemu \[\[ingram-nr-1\|Ingramowi\]\]/);
 
@@ -240,17 +240,17 @@ test('nowe strony nie przenoszą surowych etykiet ani nie tworzą jednostek spoz
   }
 });
 
-test('epizod i najnowszy wpis Co nowego opisują misję 7 oraz nowe dane', () => {
+test('epizod i wpis Co nowego opisują misję 7 oraz nowe dane', () => {
   assert.ok(epizod.body.includes('[[srw-oe-ep1-szalejacy-labor-powraca|Misja 7: Szalejący Labor powraca]]'));
   assert.match(epizod.body, /pięć bezzałogowych \[\[brocken\|Brockenów\]\]/);
   assert.match(epizod.body, /przyczyna serii szalejących Laborów pozostaje nieznana/);
   assert.match(epizod.body, /Wspólna obrona placu budowy/);
   const changelog = fs.readFileSync('content/co-nowego.md', 'utf8');
-  const latest = changelog.split(/^## /m)[1];
-  assert.ok(latest.startsWith('2026-10-24 21:26'));
-  assert.ok(latest.includes('srw-oe-ep1-szalejacy-labor-powraca'));
-  assert.ok(latest.includes('god-raijin-oh'));
-  assert.ok(latest.includes('badrinath-harchand'));
-  assert.ok(latest.includes('**Blok**'));
-  assert.ok(latest.includes('**Policjant**'));
+  const wpis = changelog.split(/^## /m).slice(1).find((entry) => entry.startsWith('2026-10-24 21:26'));
+  assert.ok(wpis, 'wpis z 2026-10-24 21:26 o misji 7');
+  assert.ok(wpis.includes('srw-oe-ep1-szalejacy-labor-powraca'));
+  assert.ok(wpis.includes('god-raijin-oh'));
+  assert.ok(wpis.includes('badrinath-harchand'));
+  assert.ok(wpis.includes('**Blok**'));
+  assert.ok(wpis.includes('**Policjant**'));
 });

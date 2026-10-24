@@ -18,6 +18,8 @@ System prowadzący bezzałogowe [[hal-x10|HAL-X10]] podczas ćwiczeń na poligon
 Zachowanie HAL-X10 wskazuje na sabotaż lub awarię, ale przyczyny pozostają niejasne. Nazwa systemu łączy oznaczenie HOS z nazwiskiem Shinohara.
 
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+
+W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] [[asuma-shinohara|Asuma Shinohara]] ustala, że przełomowy **Hyper Operating System**, wypuszczony dwa miesiące wcześniej przez [[shinohara-heavy-industries|Shinohara Heavy Industries]] i zainstalowany w ponad 80% zarejestrowanych [[labor|Laborów]], działał we wszystkich dwudziestu dwóch maszynach, które w ostatnim miesiącu wpadły w szał. W kopii wzorcowej przechowywanej w zakładzie w Hachioji Asuma odkrywa podejrzany program zaszyty bezpośrednio w oryginale, a na miejscu buntują się kolejne cztery [[hal-x10-green|HAL-X10/Green]]. Po nocnym zgłoszeniu prezesa Shinohary rząd wycofuje HOS pod pozorem bezpłatnej aktualizacji i przekazuje kod do analizy w MIT, podczas gdy kopię wzorcową odbiera też [[connect-force|Connect]]. [[ingram-nr-1|Ingramy]] [[sv2|SV2]] unikają problemu wyłącznie dlatego, że [[shigeo-shiba|Shige]] ograniczył się do atrapy ekranu startowego HOS-a.
 }}
 
 {{menu gra=srw-oe

@@ -23,6 +23,8 @@ Kiedy [[hal-x10|HAL-X10]] przejmują inicjatywę, zarządza „odwrót”, któr
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 
 Przekazuje zgłoszenie o szalejących Laborach i wyznacza twardą granicę działania: ani [[labor|Labory]], ani kule nie mogą opuścić kwartału. Po [[srw-oe-ep1-szalejacy-labor-powraca|bitwie na placu budowy]] nakazuje powrót na sztuczną wyspę; rozumie niepokój [[asuma-shinohara|Shinohary]], ale uważa, że tylko Drugi Pluton może stawić czoła takim maszynom.
+
+W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] jako pierwszy podejrzewa celowe zaprogramowanie szału w [[shinohara-hos|Shinohara HOS]] i przydziela [[seitaro-sakaki|Sakakiego]] do osłony samowolnego wypadu Asumy do Hachioji, a potem rusza z resztą plutonu pod zakład [[shinohara-heavy-industries|Shinohara Heavy Industries]] i potrąca podwładnemu pensję. Na odprawie ogłasza bezterminowe oddelegowanie Drugiego Plutonu do kosmicznej [[stacja-connect|bazy Connect]], przekazując dowództwo w Tokio [[shinobu-nagumo|Shinobu Nagumo]], i jak ujawnia [[shigeo-shiba|Shige]], od początku wiedział, że w [[ingram-nr-1|Ingramach]] działa jedynie atrapa ekranu startowego HOS-a.
 }}
 
 {{zrodlo gra=wspolne

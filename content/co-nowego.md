@@ -1,5 +1,25 @@
 # Co nowego
 
+## 2026-10-24 22:25
+
+- [[srw-oe-ep1|Epizod 1]] ma ósmą misję — [[srw-oe-ep1-sledztwo-pod-przykrywka|„Śledztwo pod przykrywką”]]: [[asuma-shinohara|Asuma]] odkrywa podejrzany program w kopii wzorcowej [[shinohara-hos|Shinohara HOS]] w zakładzie [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji, [[exart|Exart]] i Drugi Pluton [[sv2|SV2]] zatrzymują osiem uzbrojonych [[labor|Laborów]] [[sily-samoobrony-japonii|Sił Samoobrony]] ([[hal-x10-green|HAL-X10/Green]] i [[helldiver|Helldivery]]), a cały pluton — wraz z [[kanuka-clancy|Kanuką]] — zostaje oddelegowany na [[stacja-connect|stację Connect]].
+- Do bazy dołączyły [[shinobu-nagumo|Shinobu Nagumo]], [[shigeo-shiba|Shigeo Shiba]] i [[shinohara-heavy-industries|Shinohara Heavy Industries]], z opisami pierwowzorów z [[mobile-police-patlabor|*Mobile Police Patlabor*]] oraz [[patlabor-the-movie|*Patlabor: The Movie*]]; załogę [[helldiver|Helldivera]] uzupełnia [[control-ai|Control AI]] obok [[zolnierz-jsdf|żołnierza JSDF]].
+
+## 2026-10-24 21:55
+
+- [[earth-federation|Federacja Ziemska]] i [[zeon|Księstwo Zeonu]] obejmują teraz przebieg [[operacja-odessa|operacji Odessa]], obronę startu [[rx-78nt-1-gundam-alex|Alexa]] oraz przelot [[08-pluton-ms|08. Plutonu MS]] na pokładzie [[medea|Medei]] do [[jaburo|Jaburo]], a [[earth-federation|Federacja Ziemska]] ma uzupełnione źródłowe tło o powstaniu rządu światowego i kolonizacji kosmosu.
+- [[jaku-empire|Imperium Jaku]], [[daimakai|Daimakai]] i [[mechanization-empire|Imperium Mechanizacji]] mają uporządkowane źródłowe opisy zagrożeń z cyklu Eldran bez przestarzałych domysłów sprzed spotkania z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]], a [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] wymienia pełną dotychczasową obsadę [[white-base|White Base]] i sił spod Odessy.
+
+## 2026-10-24 21:52
+
+- [[god-raijin-oh|God Raijin-Oh]] ma opis pierwowzoru z [[matchless-raijin-oh|*Matchless Raijin-Oh*]]: powstaje z superpołączenia [[raijin-oh|Raijin-Oh]] i Bakuryū-Oh przeciw wzmocnionym bestiom [[jaku-empire|Imperium Jaku]].
+- [[real-pg-gundam|Real PG Gundam]] ma wyjaśnione pochodzenie z zestawów modelarskich **Perfect Grade** w skali 1:60 i pasji Keroro z [[sgt-frog|*Sgt. Frog*]], a [[krzyz-zeonu|Krzyż Zeonu]] — źródłowe tło o dwustopniowym odznaczeniu Księstwa i wzmiance [[char-aznable|Chara]] z szóstego odcinka [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
+- Opisy serii [[matchless-raijin-oh|Matchless Raijin-Oh]], [[mobile-police-patlabor|Mobile Police Patlabor]] i [[super-robot-wars-original|Super Robot Wars Original]] uwzględniają pełną dotychczasową obsadę i maszyny.
+
+## 2026-10-24 21:48
+
+- [[srw-oe-ep1-szalejacy-labor-powraca|„Szalejący Labor powraca”]] i [[srw-oe-ep1|Epizod 1]] wskazują teraz pierwowzór obserwacji walki Ingramów przez [[utsumi|Utsumiego]], [[kurosaki|Kurosakiego]] i [[badrinath-harchand|Buda]]: 28. odcinek [[mobile-police-patlabor|*Mobile Police Patlabor*]] („Suspicious Duo”), połączony w grze z motywem serii bezzałogowych incydentów z otwarcia [[patlabor-the-movie|*Patlabor: The Movie*]].
+
 ## 2026-10-24 21:26
 
 - [[srw-oe-ep1|Epizod 1]] ma siódmą misję — [[srw-oe-ep1-szalejacy-labor-powraca|„Szalejący Labor powraca”]]: Drugi Pluton [[sv2|SV2]] i [[raijin-oh|Raijin-Oh]] powstrzymują pięć bezzałogowych [[brocken|Brockenów]], ale przyczyna serii incydentów pozostaje nieznana.
@@ -17,7 +37,7 @@
 
 ## 2026-10-24 19:06
 
-- Załoga [[medea|Medei]] ma właściwą kolejność: najpierw [[oficer-federacji|Oficer Federacji]] z misji ratunkowej, potem domyślny [[zolnierz-jsdf|żołnierz JSDF]].
+- Załogę [[medea|Medei]] tworzą [[oficer-federacji|Oficer Federacji]] prowadzący klucz transportowców do [[jaburo|Jaburo]] oraz [[zolnierz-jsdf|żołnierz JSDF]] z ćwiczeń na poligonie Fuji.
 
 ## 2026-10-24 16:14
 
@@ -59,7 +79,7 @@
 
 ## 2026-10-24 09:37
 
-- Drugi Pluton [[sv2|SV2]] ma tło z pierwowzoru: [[asuma-shinohara|Asuma]] jest synem prezesa Shinohara Heavy Industries, [[kiichi-goto|Goto]] uchodzi za oficera odsuniętego od ważnych spraw, [[kanuka-clancy|Kanuka]] przyjechała z nowojorskiej policji na czas określony, [[mikiyasu-shinshi|Shinshi]] jest informatykiem jednostki, a [[hiromi-yamazaki|Hiromi]] prowadzi transporter, bo nie mieści się w kokpicie [[labor|Labora]].
+- Drugi Pluton [[sv2|SV2]] ma tło z pierwowzoru: [[asuma-shinohara|Asuma]] jest synem prezesa [[shinohara-heavy-industries|Shinohara Heavy Industries]], [[kiichi-goto|Goto]] uchodzi za oficera odsuniętego od ważnych spraw, [[kanuka-clancy|Kanuka]] przyjechała z nowojorskiej policji na czas określony, [[mikiyasu-shinshi|Shinshi]] jest informatykiem jednostki, a [[hiromi-yamazaki|Hiromi]] prowadzi transporter, bo nie mieści się w kokpicie [[labor|Labora]].
 - [[ingram-nr-1|Ingram]] powstał jako policyjny Labor sterowany palec po palcu, [[helldiver|Helldiver]] to jego wojskowy krewniak do desantu ze spadochronem, a [[hal-x10|HAL-X10]] — czołg na czterech nogach, który i w pierwowzorze wymyka się spod kontroli.
 
 ## 2026-10-24 01:05

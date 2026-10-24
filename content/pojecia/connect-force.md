@@ -19,6 +19,8 @@ Connect to prywatna organizacja rozwijająca handel kosmiczny. Connect Force jes
 Do oddziału należy CF-00 [[exart|Exart]], najnowocześniejsza broń na każdą misję. Prawdziwy cel organizacji nie zostaje ujawniony. Himari została wybrana spośród setek tysięcy kandydatów.
 
 Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
+
+W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] Seishiro i Himari odbierają na zlecenie organizacji kopię wzorcową [[shinohara-hos|Shinohara HOS]] w zakładzie [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji i wspólnie z [[sv2|SV2]] powstrzymują bunt uzbrojonych [[labor|Laborów]] wojskowych, po czym cały Drugi Pluton zostaje bezterminowo oddelegowany do Connect w kosmosie.
 }}
 {{zrodlo gra=srw-oe
 

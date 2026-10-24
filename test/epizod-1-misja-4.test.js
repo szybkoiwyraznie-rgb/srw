@@ -52,7 +52,7 @@ test('scena 1-4 jest dosłownym fragmentem skryptu i zachowuje kolejność scen 
   assert.ok(czesci.length >= 6, 'scena ma wszystkie części skryptu');
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1')
     .sort((a, b) => String(a.numer_sceny).localeCompare(String(b.numer_sceny)));
-  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6', '1-7']);
+  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6', '1-7', '1-8']);
 });
 
 test('każda podsekcja analizy ma własną kotwicę w treści sceny', () => {

@@ -4,7 +4,7 @@ slug: helldiver
 tytul: Helldiver
 seria: mobile-police-patlabor
 gry: [srw-oe]
-piloci: [zolnierz-jsdf]
+piloci: [control-ai, zolnierz-jsdf]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_1.txt", "profil": "Helldiver", "dane": "**Seria:** Mobile Police Patlabor\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Nóż bojowy | 1000 | 1–2 | +80 | 0 | — | Brak w tym polu | **Garda (poziom bazowy 1):** Obr+20% |\n| 1 | Szybkostrzelne działko automatyczne | 900 | 1–4 | +20 | 5 | — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4 |"}'
 pochodzenie: menu
@@ -23,6 +23,8 @@ Wojskowy Labor Sił Samoobrony, skierowany na ćwiczenia na poligonie Fuji jako 
 W zamieszaniu wywołanym utratą kontroli nad [[hal-x10|HAL-X10]] Helldivery pozostają poza starciem głównych sił.
 
 Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+
+Po incydencie na [[poligon-fuji|Fuji]] maszyny wracają na przegląd do zakładu [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji. W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] cztery bezzałogowe Helldivery sterowane przez [[control-ai|SI]] ruszają do ataku z ostrą amunicją obok [[hal-x10-green|HAL-X10/Green]], dopóki nie powstrzymają ich [[exart|Exart]] i [[sv2|Drugi Pluton SV2]].
 }}
 
 {{zrodlo gra=wspolne

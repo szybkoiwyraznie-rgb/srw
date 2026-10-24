@@ -21,6 +21,8 @@ Pilotka pierwszego Ingrama Drugiego Plutonu [[sv2|SV2]]. Na poligonie Fuji dowod
 Swój Labor nazywa Alphonse'em i martwi się o każdą rysę na kadłubie. Współpracuje z [[seishiro|Seishirem]] i [[himari-yaegaki|Himari]] z [[connect-force|Connect]], a po ćwiczeniach pomaga jej [[asuma-shinohara|Asuma]]. Ufa pracy zespołowej bardziej niż frontalnym atakom.
 
 Na [[srw-oe-ep1-szalejacy-labor-powraca|wielkim placu budowy]] dowodzi [[ingram-nr-1|Ingramem nr 1]] przeciw pięciu bezzałogowym [[brocken|Brockenom]]. Choć liczba wrogów ją przytłacza, walczy u boku [[isao-ota|Oty]] i [[raijin-oh|Raijin-Oha]], a po starciu uznaje, że Klasa Obrony mogła przejąć całą chwałę. [[badrinath-harchand|Bud]] dostrzega natomiast jej rosnące zaufanie do Alphonse’a.
+
+W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] walczy pod zakładem [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji ramię w ramię z [[exart|Exartem]] przeciw uzbrojonym maszynom [[sily-samoobrony-japonii|Sił Samoobrony]]. Na wieść o oddelegowaniu Drugiego Plutonu do [[connect-force|Connect]] i ukrytej wadzie [[shinohara-hos|HOS-a]] martwi się o Alphonse’a, dopóki [[shigeo-shiba|Shige]] nie wyjawia, że Ingramy nigdy nie miały nowego systemu, i postanawia doprowadzić śledztwo do końca w kosmosie.
 }}
 
 {{zrodlo gra=wspolne
