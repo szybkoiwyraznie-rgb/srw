@@ -20,11 +20,12 @@ const script = fs.readFileSync('episodes/srw-oe/ep001.md', 'utf8');
 const scena = bySlug.get('srw-oe-ep1-black-tri-stars');
 
 test('dostawa jest zarchiwizowana w całości, a misja trafia do skryptu epizodu', () => {
-  assert.equal(fs.statSync('dostawy/srw-oe/dostawa_1_2.txt').size, 39084, 'archiwum dostawy');
+  assert.equal(fs.statSync('dostawy/srw-oe/dostawa_1_2.txt').size, 39070, 'archiwum dostawy');
   assert.match(delivery, /^## Black Tri-Stars$/m);
   assert.match(delivery, /### Odcinek 1 — Black Tri-Stars \(`DL101_20`\)/);
   assert.match(delivery, /#### Piloci i postacie w misji oraz skrypcie sceny/);
   assert.ok(delivery.includes('\\*pociągnięcie nosem\\*... Zmarzłam...'), 'poprawiona kwestia Himari');
+  assert.ok(delivery.includes('Aha... \\*pociąganie nosem\\*... \\*siąkanie\\*...'), 'korekta językowa Himari');
   assert.ok(delivery.includes('przelatywał nad wodami w pobliżu Japonii'), 'poprawiona kwestia Suola');
   assert.ok(delivery.includes('za zniszczenie tego okrętu'), 'poprawiona kwestia Masha');
   assert.ok(delivery.includes('White Base nie leci przypadkiem do Jaburo'), 'poprawiona kwestia Kaia');
@@ -43,7 +44,7 @@ test('scena 1-2 jest dosłownym fragmentem skryptu i ma własny numer', () => {
   assert.deepEqual(sprawdzWiernoscSceny(scena, script), []);
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1')
     .sort((a, b) => String(a.numer_sceny).localeCompare(String(b.numer_sceny)));
-  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5']);
+  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6']);
 });
 
 test('obsada i sprzęt misji 2 są spięte z epizodem i sceną', () => {

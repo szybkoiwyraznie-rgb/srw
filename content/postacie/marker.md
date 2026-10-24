@@ -9,7 +9,6 @@ mechy: []
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Marker_Clan
-  - https://gundam.fandom.com/wiki/White_Base_Corps
 tagi: [one-year-war, wsparcie, gundam-1979, federacja, white-base]
 utworzono: 2026-10-20
 ---
@@ -24,7 +23,7 @@ Rozpylenie [[minovsky-particles|cząstek Minovsky’ego]] ogłasza jako stężen
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-1979|pierwowzorze]] Marker Clan obsługuje na mostku [[white-base|White Base]] stanowisko operatorskie zwrócone na lewą burtę; przy prawoburtowej konsoli pracuje [[oscar-dublin|Oscar Dublin]]. Obaj noszą w wykazie załogi stopień kaprala ([Gundam Wiki, „Marker Clan”](https://gundam.fandom.com/wiki/Marker_Clan); [Gundam Wiki, „White Base Corps”](https://gundam.fandom.com/wiki/White_Base_Corps); sprawdzono 2026-10-24).
+W [[mobile-suit-gundam-1979|pierwowzorze]] Marker Clan obsługuje na mostku [[white-base|White Base]] stanowisko operatorskie zwrócone na lewą burtę; przy prawoburtowej konsoli pracuje [[oscar-dublin|Oscar Dublin]] ([Gundam Wiki, „Marker Clan”](https://gundam.fandom.com/wiki/Marker_Clan); sprawdzono 2026-10-24).
 }}
 {{menu gra=srw-oe
 

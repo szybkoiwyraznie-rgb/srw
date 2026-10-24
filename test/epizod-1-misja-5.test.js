@@ -30,20 +30,21 @@ const pojecia = ['08-pluton-ms', 'pluton-cyclops', 'side-6', 'libot'];
 const serie = ['mobile-suit-gundam-08th-ms-team', 'mobile-suit-gundam-0080'];
 
 test('dostawa 1-5 jest zachowana bajt w bajt, a jej scena trafia do epizodu bez danych technicznych', () => {
-  assert.equal(deliveryBytes.length, 32626);
+  assert.equal(deliveryBytes.length, 32609);
   assert.equal(createHash('sha256').update(deliveryBytes).digest('hex'),
-    '6ee9366f5c012c919593ae5eb8ed0fb537d813c3dc4240933a39052b7b55da51');
+    '2604cf00f5e1861edd4192e5c8619ba5bdb48f5588ef44f5bff999ae96586796');
   assert.match(delivery, /^## Start Alexa$/m);
   assert.match(delivery, /^### Odcinek 1 — Start Alexa \(`DL101_50`\)$/m);
   assert.match(delivery, /^## Gundam Ez8$/m);
   assert.match(delivery, /^#### Christina Mackenzie$/m);
   const expected = delivery.split('---\nSKRYPT\n---\n\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
-  assert.ok(script.trimEnd().endsWith(expected), 'cała misja, z wariantami, na końcu epizodu');
+  const przedMisja6 = script.split('\n\n---\n\n## Ratuj transportowiec Medea')[0];
+  assert.ok(przedMisja6.trimEnd().endsWith(expected), 'cała misja, z wariantami, bezpośrednio przed misją 1-6');
   assert.ok(!script.includes('UCZESTNICY'));
   assert.ok(!script.includes('DL101_50'));
 });
 
-test('scena 1-5 jest dosłowna i domyka kolejność pięciu misji epizodu 1', () => {
+test('scena 1-5 jest dosłowna i poprzedza misję 1-6 w kolejności epizodu', () => {
   assert.equal(scena.typ, 'scena');
   assert.equal(scena.epizod, 'srw-oe-ep1');
   assert.equal(scena.numer_sceny, '1-5');
@@ -56,7 +57,7 @@ test('scena 1-5 jest dosłowna i domyka kolejność pięciu misji epizodu 1', ()
   }
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1')
     .sort((a, b) => String(a.numer_sceny).localeCompare(String(b.numer_sceny)));
-  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5']);
+  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6']);
 });
 
 test('dziewięć etapów analizy ma dokładnie dziewięć kotwic, także przy powtórzonej nazwie miejsca', () => {
@@ -354,7 +355,7 @@ test('jednostki misji 1-5 mają tło techniczne z pierwowzorów (ADR 0008, ADR 0
   const zrodlaMechow = {
     'gundam-ez8': [ez8],
     'gundam-ground-type': [rx79, ez8],
-    'gundam-ground-type-glowa-gm': [ez8],
+    'gundam-ground-type-glowa-gm': [rx79],
     'hover-truck': [hover],
     'kampfer-bazooka': [kampfer],
     'kampfer-high-mobility': [kampfer],
@@ -376,6 +377,8 @@ test('jednostki misji 1-5 mają tło techniczne z pierwowzorów (ADR 0008, ADR 0
   // Alex ma własny blok tła od misji 1-5, więc wszystkie osiem jednostek jest opisanych.
   assert.match(bySlug.get('rx-78nt-1-gundam-alex').body, /\{\{zrodlo gra=wspolne/);
   assert.match(bySlug.get('gundam-ez8').body, /extra zero-eight/);
+  assert.match(bySlug.get('gundam-ground-type-glowa-gm').body, /głową RGM-79\[G\] GM Ground Type/);
+  assert.match(bySlug.get('gundam-ground-type-glowa-gm').body, /przydomek „GM Head”/);
   assert.match(bySlug.get('hover-truck').body, /M353A4 Bloodhound/);
   assert.match(bySlug.get('zaku-ii-kai').body, /MS-06FZ/);
   assert.match(bySlug.get('kampfer-high-mobility').body, /159 ton/);

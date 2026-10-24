@@ -37,7 +37,8 @@ const czyFabula = (typ) => typ === 'epizod' || typ === 'scena';
 const polaFiltru = (typ) => {
   if (czyFabula(typ)) return POLA_FILTRU_FABULY;
   if (typ === 'seria') return POLA_FILTRU_SERII;
-  return POLA_FILTRU;
+  if (typ === 'postac' || typ === 'mech') return POLA_FILTRU;
+  return [];
 };
 
 /** Wartość filtra `seria` dla encji bez przypisanej serii (opcja „Nieokreślona”). */
@@ -47,15 +48,21 @@ const BEZ_SERII = 'bez-serii';
  * więc cztery chipsy ucinały już sensowną informację. */
 const LIMIT_CHIPSOW = 6;
 
-/** Klucze adresu, które lista przyjmuje. Reszta jest odrzucana, żeby widok
- * nie przenosił w linkach przypadkowej treści (i żeby nie trafiła do HTML). */
-const KLUCZE_ADRESU = new Set([...POLA_FILTRU, ...POLA_FILTRU_FABULY, ...POLA_FILTRU_SERII, 'rozmiar', 'tagi']);
+/** Klucze adresu właściwe dla listy: własne filtry plus jej kontrolki specjalne.
+ * Reszta jest odrzucana, żeby nie zawężała widoku ani nie przenosiła się w linkach. */
+function kluczeAdresu(typ) {
+  const klucze = new Set(polaFiltru(typ));
+  if (typ === 'postac' || typ === 'mech') klucze.add('rozmiar');
+  if (typ === 'pojecie') klucze.add('tagi');
+  return klucze;
+}
 
-/** Tylko znane klucze i tylko tekstowe wartości — adres jest danymi wejściowymi. */
-function oczyscQuery(query) {
+/** Tylko klucze tej listy i tylko tekstowe wartości — adres jest danymi wejściowymi. */
+function oczyscQuery(typ, query) {
+  const dozwolone = kluczeAdresu(typ);
   const q = {};
   for (const [klucz, wartosc] of Object.entries(query ?? {})) {
-    if (!KLUCZE_ADRESU.has(klucz) || wartosc === undefined || wartosc === null) continue;
+    if (!dozwolone.has(klucz) || wartosc === undefined || wartosc === null) continue;
     q[klucz] = String(wartosc);
   }
   return q;
@@ -76,14 +83,9 @@ function escapeAtrybut(tekst) {
 
 export function renderListe(typ, query = {}) {
   // Filtry zależne nie mogą być aktywne bez swoich wymagań (np. Odcinek bez Gry).
-  const q = oczyscQuery(query);
+  const q = oczyscQuery(typ, query);
   if (q.epizod && !q.gra) delete q.epizod;
   if (q.scena && !q.epizod) delete q.scena;
-  // Każda lista przyjmuje tylko swoje filtry: epizod i scena pytają o mecha
-  // i postać, galerie — o odcinek i scenę.
-  for (const pole of [...POLA_FILTRU, ...POLA_FILTRU_FABULY, ...POLA_FILTRU_SERII]) {
-    if (!polaFiltru(typ).includes(pole)) delete q[pole];
-  }
 
   let lista = typ === 'epizod'
     ? listaEpizodow()

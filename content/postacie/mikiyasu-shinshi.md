@@ -25,7 +25,7 @@ Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący proto
 
 {{zrodlo gra=wspolne
 
-W [[mobile-police-patlabor|pierwowzorze]] Shinshi służy w drugiej drużynie Drugiego Plutonu [[sv2|SV2]] i jako jedyny w jednostce jest żonaty. Z pozoru potulny i łatwy do zagadania, wpada w gniew, gdy ktoś żartuje z jego małżeństwa albo z jego żony. Jest najlepszym programistą i informatykiem w SV2 — to on pomaga kolegom oswoić nowy sprzęt — a w terenie prowadzi transporter maszyny nr 2 ([Wikipedia, „List of Patlabor characters”](https://en.wikipedia.org/wiki/List_of_Patlabor_characters); sprawdzono 2026-10-24).
+W [[mobile-police-patlabor|pierwowzorze]] Shinshi służy w drugiej drużynie Drugiego Plutonu [[sv2|SV2]] i jako jedyny w jednostce jest żonaty. Jest nieśmiały i łatwo daje sobą pomiatać, ale wpada w gniew, gdy ktoś żartuje z jego małżeństwa albo z jego żony. Jest najlepszym programistą i informatykiem w SV2 — to on pomaga kolegom oswoić nowy sprzęt — a w terenie prowadzi transporter maszyny nr 2 ([Wikipedia, „List of Patlabor characters”](https://en.wikipedia.org/wiki/List_of_Patlabor_characters); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe

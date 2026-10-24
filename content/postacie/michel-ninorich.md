@@ -19,6 +19,8 @@ utworzono: 2026-10-23
 Główny pilot [[hover-truck|Hover Trucka]] w tej misji, z [[eledore-massis|Eledore Massisem]] jako wsparciem. Wyjaśnia, że baza startowa została zdobyta na [[zeon|Zeonie]] podczas [[operacja-odessa|operacji Odessa]]. Po powrocie [[karen-joshua|Karen]] od razu rozpoznaje zamontowaną głowę GM-a.
 
 W hangarze żartuje z Eledore o wykwintnym jedzeniu i wygląda na nie po dotarciu do [[jaburo|Jaburo]], choć na razie oddział czeka na transportowiec.
+
+Podczas eskorty [[medea|Medei]] podejrzewa, że wróg przewidział trasę lotu. Na polecenie [[shiro-amada|Shiro]] ma wraz z Eledore prowadzić klucz z dala od ognia przeciwlotniczego, a po akcji przypomina o konieczności uzupełnienia zapasów.
 }}
 
 {{zrodlo gra=wspolne
@@ -60,4 +62,5 @@ W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] Michel trafia do [[08-pluton-
 | Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
 | ---: | ---------------- | ---------: | ----------------------------------------- |
 |    1 | **Potenc. Unik** |          1 | Pozostałe HP 10%: Obr/Cel/Kryt+4% Unik+5% |
+|    2 | **Blok**         |          3 | Obraż.-16% Sz. 12% *(1.08)*               |
 }}

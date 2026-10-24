@@ -7,7 +7,6 @@ pochodzenie: skrypt
 zrodla:
   - https://patlabor.fandom.com/wiki/Labor
   - https://patlabor.fandom.com/wiki/Patlabor
-  - https://patlabor.fandom.com/wiki/AV-98_Ingram
 tagi: [technologia, patlabor]
 utworzono: 2026-10-21
 ---
@@ -24,5 +23,5 @@ Aby im przeciwdziałać, Policja Metropolitalna Tokio utworzyła kompanię patro
 
 W [[mobile-police-patlabor|pierwowzorze]] Labory to wielkie maszyny kroczące, zwykle o sylwetce człowieka, zbudowane z myślą o pracach budowlanych; z czasem trafiły też do wojska i do policji ([Patlabor Wiki, „Labor”](https://patlabor.fandom.com/wiki/Labor); sprawdzono 2026-10-24).
 
-Kiedy w połowie lat dziewięćdziesiątych wytwórnie ciężkiego sprzętu zaczęły wypuszczać Labory na rynek, niemal natychmiast pojawiły się przestępstwa z ich udziałem, a policje zaczęły kupować „patlabory”, czyli labory patrolowe. Pierwsze pokolenie było po prostu przemalowanymi maszynami budowlanymi i wymagało wyjątkowo wprawnego pilota. Drugie projektowano już pod zadania policyjne — bliżej sylwetki człowieka, sprawniej w zwarciu — a [[ingram-nr-1|AV-98 Ingram]] należy do trzeciego ([Patlabor Wiki, „Patlabor”](https://patlabor.fandom.com/wiki/Patlabor); [Patlabor Wiki, „AV-98 Ingram”](https://patlabor.fandom.com/wiki/AV-98_Ingram); sprawdzono 2026-10-24).
+Kiedy w połowie lat dziewięćdziesiątych wytwórnie ciężkiego sprzętu zaczęły wypuszczać Labory na rynek, niemal natychmiast pojawiły się przestępstwa z ich udziałem, a policje zaczęły kupować „patlabory”, czyli labory patrolowe. Pierwsze pokolenie było po prostu przemalowanymi maszynami budowlanymi i wymagało wyjątkowo wprawnego pilota. Drugie projektowano już pod zadania policyjne — bliżej sylwetki człowieka, sprawniej w zwarciu — i to do niego należy [[ingram-nr-1|AV-98 Ingram]] ([Patlabor Wiki, „Patlabor”](https://patlabor.fandom.com/wiki/Patlabor); sprawdzono 2026-10-24).
 }}

@@ -41,7 +41,7 @@ test('dostawa 1-4 jest zarchiwizowana w całości, a skrypt misji trafia do epiz
   assert.ok(!script.includes('DL101_40'), 'techniczna etykieta misji nie trafia do skryptu');
 });
 
-test('scena 1-4 jest dosłownym fragmentem skryptu i domyka kolejność scen epizodu', () => {
+test('scena 1-4 jest dosłownym fragmentem skryptu i zachowuje kolejność scen epizodu', () => {
   assert.equal(scena.typ, 'scena');
   assert.equal(scena.epizod, 'srw-oe-ep1');
   assert.equal(scena.numer_sceny, '1-4');
@@ -52,7 +52,7 @@ test('scena 1-4 jest dosłownym fragmentem skryptu i domyka kolejność scen epi
   assert.ok(czesci.length >= 6, 'scena ma wszystkie części skryptu');
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1')
     .sort((a, b) => String(a.numer_sceny).localeCompare(String(b.numer_sceny)));
-  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5']);
+  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6']);
 });
 
 test('każda podsekcja analizy ma własną kotwicę w treści sceny', () => {

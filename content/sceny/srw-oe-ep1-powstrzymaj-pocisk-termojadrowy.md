@@ -83,7 +83,7 @@ Atut łamiący Traktat Antarktyczny...
 
 **Sayla:** Nie da się jakoś zatrzymać tego pocisku?
 
-**Bright:** Znając typ pocisku, z danych ujawnionych w ramach traktatu ustalimy położenie zapalnika.
+**Bright:** Typ rozpoznamy dopiero po odpaleniu, a dane traktatu wskażą położenie zapalnika.
 
 **Sayla:** Czyli dopóki go nie odpalą, nie dowiemy się, gdzie jest zapalnik...
 

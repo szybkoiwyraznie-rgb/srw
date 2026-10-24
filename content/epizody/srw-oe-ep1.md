@@ -25,6 +25,7 @@ zrodla:
   - https://www.mahq.net/gundam0080ep1/
   - https://gundam.fandom.com/wiki/How_Many_Miles_to_the_Battlefield%3F
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team
+  - https://gundam.fandom.com/wiki/Medea
 tagi: [patlabor, trening, one-year-war, eldran, gundam-0080, 08th-ms-team, connect, gundam-1979, sv2, jsdf, zeon, federacja, klasa-obrony-ziemi]
 utworzono: 2026-10-21
 ---
@@ -66,6 +67,12 @@ W górskiej bazie w Azji Środkowej [[christina-mackenzie|Christina Mackenzie]] 
 
 [[pluton-cyclops|Pluton Cyclops]] atakuje tuż przed startem, by zniszczyć transport. [[karen-joshua|Karen]] wraca do walki w [[gundam-ground-type-glowa-gm|maszynie z głową GM-a]], a Shiro i pozostali obrońcy nie dopuszczają wroga do wahadłowca. Po odparciu szturmu Alex bezpiecznie startuje, Chris dziękuje obrońcom, a 08. Pluton oczekuje na przeniesienie do [[jaburo|Jaburo]].
 
+### [[srw-oe-ep1-ratuj-transportowiec-medea|Misja 6: Ratuj transportowiec Medea]]
+
+Oczekiwanie na transport przerywa wezwanie klucza [[medea|Medei]], ściganego przez Doppy w drodze do bazy. [[shiro-amada|Shiro]] wysyła cały [[08-pluton-ms|08. Pluton MS]] na ratunek, a [[eledore-massis|Eledore]] wykrywa dodatkowo wrogie mobile suity na ziemi.
+
+Shiro nakazuje najpierw zdjąć [[dopp|Doppy]] i powierza Michelowi oraz Eledore’owi prowadzenie klucza z dala od ognia przeciwlotniczego. Do walki wkraczają także [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]] i [[zaku-ii-bazooka|z bazooką]]. Po odpartym ataku Medea melduje zabezpieczony kurs. Okazuje się, że nie wiozła części zamiennych, a pierwszeństwo mają oddziały pozostające w bazie. Po serwisie i krótkim odpoczynku 08. Pluton wsiada na pokład uratowanego transportowca i odlatuje do [[jaburo|Jaburo]].
+
 ## Wątki fabularne
 
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
@@ -85,6 +92,8 @@ W górskiej bazie w Azji Środkowej [[christina-mackenzie|Christina Mackenzie]] 
 | Start Alexa i atak plutonu Cyclops | [[mobile-suit-gundam-0080\|Mobile Suit Gundam 0080]] | odc. 1 „How Many Miles to the Battlefield?” | Gra zachowuje udany transport, ale przenosi bazę z obszaru arktycznego do Azji Środkowej i zmienia maszyny obu stron. W odcinku Andy ginie przy wahadłowcu; w warunkowym odwrocie gry melduje uszkodzone silniki. |
 | 08. Pluton MS i ochrona transportu | [[mobile-suit-gundam-08th-ms-team\|The 08th MS Team]] | cała seria | Oddział i jego maszyny pochodzą z tej serii, ale ochrona Alexa łączy ją z Gundam 0080. W grze Michel jest głównym pilotem Hover Trucka, a Eledore wspierającym; w anime ich role przy wozie są odwrotne. |
 | Przeniesienie oddziału do Jaburo | [[srw-oe\|Super Robot Wars OE]] | n/d | Zakończenie misji i oczekiwanie na transportowiec należą do przebiegu gry. |
+| Ratunek klucza Medei i lot do Jaburo | [[srw-oe\|Super Robot Wars OE]] | n/d | Misja eskortowa rozwija rozgrywkowy wątek przenosin oddziału; nie ma wskazanego odpowiednika odcinka. |
+| Medea i lekkie uzbrojenie transportowca | [[mobile-suit-gundam-08th-ms-team\|The 08th MS Team]] | cała seria | Oryginał przedstawia Medeę jako transport Federacji z karabinami przeciwlotniczymi; konkretna akcja ratunkowa należy do gry. |
 
 ## Komentarz
 
@@ -99,6 +108,8 @@ Trzecia misja domyka ten front. Zwycięstwo nie wynika wyłącznie z przewagi li
 Czwarta misja wraca do tonu ćwiczeń, ale zmienia perspektywę: tym razem to nie wojsko ani policja, lecz klasa szkolna pokazuje Connect, jak walczyć. [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] traktuje trening poważnie — z zaskoczeniem, odprawą i protokołem — choć jej członkowie są dziećmi. Gra zestawia ich dojrzałość z dorosłymi, którzy nie mogą powiedzieć wszystkiego, i zamyka wątek refleksją [[seishiro|Seishira]] nad własnym dzieciństwem.
 
 Piąta misja splata dwa spojrzenia na Wojnę Jednoroczną. Z jednej strony [[christina-mackenzie|Chris]] mierzy się z prototypową technologią i granicą między symulatorem a walką, z drugiej [[08-pluton-ms|08. Pluton MS]] walczy o konkretny cel taktyczny: dać transportowi czas na start. [[pluton-cyclops|Cyclops]] nie musi zniszczyć całej obrony, wystarczy mu dotrzeć do wahadłowca, dlatego odwrót obrońców i powrót [[karen-joshua|Karen]] mają bezpośrednie znaczenie dla wyniku. Po napięciu scena wraca do codzienności oddziału, ale nie zdejmuje z niego czujności.
+
+Szósta misja przenosi cel taktyczny z wahadłowca na klucz [[medea|Medei]]. Pościg Doppów i wykrycie wrogich mobile suitów na ziemi wymagają jednoczesnej osłony powietrza oraz kierowania transportowca z dala od ognia przeciwlotniczego. Zwycięstwo nie rozwiązuje problemów logistycznych, bo Medea nie wiezie części zamiennych. Dopiero ostatnia rozmowa zmienia uratowaną jednostkę z celu misji w środek dalszej podróży, dzięki czemu wątek przenosin do [[jaburo|Jaburo]] dostaje konkretne zakończenie.
 }}
 {{zrodlo gra=wspolne
 
@@ -118,4 +129,5 @@ Piąta misja splata dwa spojrzenia na Wojnę Jednoroczną. Z jednej strony [[chr
 
 - Pierwszy odcinek [[mobile-suit-gundam-0080|*Mobile Suit Gundam 0080*]] przenosi atak Cyclops na bazę Federacji i udany start nowego Gundama; gra zmienia arktyczne otoczenie, maszyny obrońców i los Andy’ego ([MAHQ, „How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); [Gundam Wiki, odc. 1](https://gundam.fandom.com/wiki/How_Many_Miles_to_the_Battlefield%3F); sprawdzono 2026-10-23).
 - [[08-pluton-ms|08. Pluton MS]] pochodzi z 12-odcinkowej OVA [[mobile-suit-gundam-08th-ms-team|*The 08th MS Team*]] o naziemnym oddziale Federacji w Azji Południowo-Wschodniej. W serialu Eledore prowadzi wóz wsparcia, a Michel jest nawigatorem i celowniczym; gra przypisuje im odwrotne role załogi ([Wikipedia, *Mobile Suit Gundam: The 08th MS Team*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
+- [[medea|Medea]] to samolot transportowy Federacji przewożący zaopatrzenie i mobile suity, uzbrojony jedynie w karabiny przeciwlotnicze ([Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24). W epizodzie gry pełni rolę najpierw jednostki wsparcia JSDF, a potem transportu 08. Plutonu do Jaburo.
 }}

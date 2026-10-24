@@ -10,7 +10,7 @@ w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_5.txt", "profil": "Gundam Ground Type/głowa GM", "dane": "**Seria:** Mobile Suit Gundam: The 08th MS Team\n\n### Macierzyste zdolności maszyny\n\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n\n**Składy grup zapisane w tabeli:** 08. Pluton MS.\n\n**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**\n\n- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  \n  Może zamienić się z jedn. grupy  \n  Tylko w wybranych misjach\n\n### Uzbrojenie i wymienione działania\n\n#### Broń i działania z niezerowym selektorem\n\n| Miejsce | Nazwa                    | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                            |\n| ------: | ------------------------ | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |\n|       0 | Piersiowe działko Vulcan |       1900 |  1–3   |       +35 |   0 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |\n|       1 | Szabla wiązkowa          |       3100 |  1–1   |       +40 |   5 |      — | Brak w tym polu    | **Garda (poziom bazowy 1):** Obr+20%                                |\n|       2 | Karabin maszynowy 100 mm |       2900 |  1–4   |       +15 |  10 |      — | Brak w tym polu    | Brak odwołania w dwóch polach efektów broni                         |\n|       3 | Działo 180 mm            |       4000 |  3–7   |        +5 |  30 |      — | Brak w tym polu    | **Penetracja (poziom bazowy 1):** Obr-30%                           |"}'
 pochodzenie: menu
 zrodla:
-  - https://www.mahq.net/rx-79gez-8/
+  - https://www.mahq.net/rx-79g/
 tagi: [one-year-war, mobile-suit, 08th-ms-team, federacja, 08-pluton-ms]
 utworzono: 2026-10-23
 ---
@@ -19,6 +19,8 @@ utworzono: 2026-10-23
 ## Opis
 
 Odrębna konfiguracja [[gundam-ground-type|Gundama Ground Type]], w której [[karen-joshua|Karen Joshua]] wraca do obrony wahadłowca po uszkodzeniu kamery. W hangarze brakuje właściwej głowy, więc mechanicy montują część od GM-a; [[michel-ninorich|Michel]] od razu zauważa różnicę, ale Karen stawia sprawność ponad wyglądem.
+
+Karen używa tej samej konfiguracji podczas późniejszej eskorty [[medea|Medei]].
 
 Ta konfiguracja ma własne wartości: słabsze piersiowe działko Vulcan, mocniejszy karabin maszynowy 100 mm oraz działo 180 mm zamiast wyrzutni rakiet. Szabla wiązkowa korzysta z Gardy, a działo z Penetracji.
 
@@ -29,7 +31,7 @@ Ta konfiguracja ma własne wartości: słabsze piersiowe działko Vulcan, mocnie
 
 {{zrodlo gra=wspolne
 
-Braki części to w pierwowzorze stały motyw. [[gundam-ground-type|Ground Type’y]] zbudowano z nadwyżek po prototypie [[rx-78-2-gundam|Gundama]], a gdy [[earth-federation|Federacja]] przestawiła zakłady na seryjne GM-y, uszkodzonych maszyn nie było już czym łatać. Mechanicy w polu składali je z tego, co akurat znaleźli — również z elementów innych konstrukcji ([MAHQ, „Gundam Ez8”](https://www.mahq.net/rx-79gez-8/); sprawdzono 2026-10-24).
+Braki części to w pierwowzorze stały motyw. [[gundam-ground-type|Ground Type’y]] zbudowano z nadwyżek po prototypie [[rx-78-2-gundam|Gundama]], więc nie miały zapasowych podzespołów na późniejsze naprawy. Gdy uszkodzono maszynę [[karen-joshua|Karen]], mechanicy zastąpili jej głowę głową RGM-79[G] GM Ground Type. To właśnie od tej polowej naprawy jednostka dostała przydomek „GM Head” ([MAHQ, „Gundam Ground Type”](https://www.mahq.net/rx-79g/); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe

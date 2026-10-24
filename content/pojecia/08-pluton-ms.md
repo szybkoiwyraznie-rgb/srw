@@ -16,6 +16,8 @@ utworzono: 2026-10-23
 Naziemny oddział [[earth-federation|Federacji Ziemskiej]] dowodzony przez chorążego [[shiro-amada|Shiro Amadę]]. W misji osłony wahadłowca walczą [[gundam-ez8|Gundam Ez8]] Shiro, dwa [[gundam-ground-type|Gundamy Ground Type]] [[karen-joshua|Karen Joshua]] i [[terry-sanders-jr|Terry’ego Sandersa Jr.]] oraz [[hover-truck|Hover Truck]] z [[michel-ninorich|Michelem Ninorichem]] i [[eledore-massis|Eledore Massisem]].
 
 Oddział patroluje sektory wokół górskiej bazy, zatrzymuje szturm [[pluton-cyclops|plutonu Cyclops]] i zabezpiecza transport [[rx-78nt-1-gundam-alex|Alexa]]. Po misji ma przenieść się do [[jaburo|Jaburo]], ale najpierw czeka na własny transportowiec.
+
+Następnie odpowiada na wezwanie klucza [[medea|Medei]] i osłania go przed atakiem z powietrza oraz z ziemi. Po akcji ratunkowej uratowany transportowiec zabiera cały oddział do Jaburo.
 }}
 {{zrodlo gra=wspolne
 

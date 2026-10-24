@@ -99,7 +99,7 @@ Tymczasem White Base, który zszedł na Ziemię, odpierając kolejne ataki Zeonu
 
 **Seishiro:** Connect pomoże ustalić przyczynę?
 
-**Szef Suol:** No, ręka rękę myje.
+**Szef Suol:** No, interes jest obopólny.
 
 **Himari:** Razem szybciej ustalimy przyczynę!
 
@@ -121,7 +121,7 @@ Tymczasem White Base, który zszedł na Ziemię, odpierając kolejne ataki Zeonu
 
 **Seishiro:** Okolice Odessy obfitują w surowce o strategicznym znaczeniu. Ich utrata mocno uderzyłaby w produkcję Zeonu.
 
-**Himari:** Aha... \*pociągnięcie nosem\*... \*siąkanie\*...
+**Himari:** Aha... \*pociąganie nosem\*... \*siąkanie\*...
 
 **Szef Suol:** Co jest, Himari? Przeziębiłaś się?
 
@@ -275,7 +275,7 @@ Tymczasem White Base, który zszedł na Ziemię, odpierając kolejne ataki Zeonu
 
 **Mash:** Jak koń trojański nam się wymknie, M'Quve będzie nam to wypominał, wiesz?
 
-**Gaia:** Idioto! Źle wybrać chwilę odwrotu przez głupią dumę to cecha drugorzędnych pilotów!
+**Gaia:** Idioto! Tylko drugorzędny pilot przegapia odwrót przez głupią dumę!
 
 **Gaia:** Jeśli tu zginiemy, wszystko na nic! Musimy złożyć komendantowi M'Quve raport z tej walki i obmyślić plan!
 
@@ -355,7 +355,7 @@ Tymczasem White Base, który zszedł na Ziemię, odpierając kolejne ataki Zeonu
 
 **Bright:** Też chciałbym tak myśleć, ale...
 
-**Mirai:** Bright, nie możemy być zbyt pewni siebie, ale powinniśmy bardziej w siebie wierzyć. Tym razem Sayla też świetnie się spisała.
+**Mirai:** Bright, zarozumiałość byłaby błędem, ale powinniśmy bardziej ufać własnym siłom. Tym razem Sayla też świetnie się spisała.
 
 **Bright:** Masz rację. Nasze siły też rosną.
 

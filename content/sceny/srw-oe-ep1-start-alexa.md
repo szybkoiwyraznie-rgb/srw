@@ -75,7 +75,7 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 
 **Shiro:** No, bez nerwów. Symulator i prawdziwa walka to co innego.
 
-**Shiro:** Na polu bitwy maszyna trzyma pani życie w rękach. Lepiej, żeby była nadwrażliwa niż niedoczulona.
+**Shiro:** W walce powierza pani maszynie własne życie. Lepsza zbyt czuła niż za mało czuła.
 
 **Chris:** Rozumiem, ale ta maszyna jest...
 
@@ -83,7 +83,7 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 
 **Shiro:** Aż taka różnica?
 
-**Chris:** Spróbuj na symulatorze, to zobaczysz. Może się przekonasz?
+**Chris:** Na symulatorze sam pan zobaczy. Może chce pan spróbować?
 
 **Shiro:** Naprawdę mogę? Bardzo chętnie!
 
@@ -91,9 +91,9 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 
 **Shiro:** Rozumiem... Szkoda.
 
-**Shiro:** No to wracam do patrolu. Pani porucznik Chris, proszę spokojnie wsiadać.
+**Shiro:** Wracam do patrolu, pani porucznik. Proszę wsiadać bez obaw.
 
-**Chris:** Chętnie zobaczyłabym, co potrafisz, ale tym razem oby wróg się nie pojawił.
+**Chris:** Chętnie zobaczyłabym, co pan potrafi, ale oby tym razem wróg się nie pojawił.
 
 **Shiro:** Ja też. No to lecę!
 
@@ -193,7 +193,7 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 
 > **Michel:** Ej, Karen! Nowe części? Przecież to głowa GM-a!
 
-> **Karen:** Głów już nie było. A co miałam zrobić?!
+> **Karen:** Zapasowych głów już nie było. A co miałam zrobić?!
 
 > **Eledore:** Wróg wciąż tu jest. Kogo teraz obchodzi wygląd!
 
@@ -201,7 +201,7 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 
 #### Dialogi warunkowe — odwrót oddziału Cyclops
 
-> **Steiner:** Ngh... Dalej siłą się nie przebijemy... Wycofać się do punktu zbornego!
+> **Steiner:** Ngh... Siłą dalej się nie przebijemy... Wycofać się do punktu zbornego!
 
 > **Andy:** Trafili mi silniki! Wycofuję się!
 
@@ -213,7 +213,7 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 
 #### Dialogi warunkowe — obrona wahadłowca
 
-> **Shiro:** Przeklęty Zeon... Nikt nie tknie wahadłowca pani porucznik Chris!
+> **Shiro:** Przeklęty Zeon... Nikt nie tknie wahadłowca porucznik Mackenzie!
 
 > **Steiner:** Biały mobile suit Federacji... Ale ten biały, który odparł Black Tri-Stars, powinien być pod Odessą.
 
@@ -247,7 +247,7 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 
 > **Shiro:** No to wracam do patrolu. Pani porucznik, proszę spokojnie wsiadać.
 
-> **Chris:** Chętnie zobaczyłabym, co potrafisz, ale tym razem oby wróg się nie pojawił.
+> **Chris:** Chętnie zobaczyłabym, co pan potrafi, ale oby tym razem wróg się nie pojawił.
 
 ### Fragment alternatywny 2
 
@@ -263,17 +263,17 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 
 **Michel:** Dowódco, słyszał pan?
 
-**Shiro:** Tak, jakoś wytrzymaliśmy.
+**Shiro:** Tak. Wycofują się; jakoś wytrzymaliśmy.
 
 **Oficer Federacji:** Chorąży Amada! Jak sytuacja?
 
 **Shiro:** Wszyscy wrogowie zostali odparci.
 
-**Oficer Federacji:** Dobra robota. Dzięki wam kontener jest już załadowany. Dziękujemy za waszą służbę!
+**Oficer Federacji:** Dobra robota. Dzięki wam kontener jest już załadowany. Dziękujemy za osłonę!
 
 **Chris:** Dziękuję, chorąży Amada.
 
-**Shiro:** Mów mi po prostu Shiro, Chris.
+**Shiro:** Wystarczy Shiro, Chris.
 
 **Żołnierz Federacji:** Wahadłowiec startuje!
 

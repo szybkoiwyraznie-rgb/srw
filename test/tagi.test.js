@@ -28,6 +28,8 @@ const RODZAJE_TRESCI = new Set([
   'odznaczenie', 'postac-z-innej-serii',
 ]);
 
+const RODZAJE_JEDNOSTEK = ['mobile-suit', 'labor', 'okret', 'mysliwiec', 'super-robot', 'pojazd-wsparcia', 'pocisk', 'bezzalogowy'];
+
 const TAG_SERII = {
   'mobile-suit-gundam-1979': 'gundam-1979',
   'mobile-suit-gundam-0080': 'gundam-0080',
@@ -86,12 +88,18 @@ test('każda strona bazy ma tag i żadna nie taguje samej siebie', () => {
 test('maszyny bez podanej klasy świadomie nie dostają tagu rodzaju jednostki', () => {
   // ADR 0018: czego materiał nie mówi, tego nie dopisujemy. Te pięć jednostek
   // nie ma w bazie podanej klasy, więc nie zgadujemy jej tagiem.
-  const RODZAJE_JEDNOSTEK = ['mobile-suit', 'labor', 'okret', 'mysliwiec', 'super-robot', 'pojazd-wsparcia', 'pocisk', 'bezzalogowy'];
   const bezKlasy = oTypie('mech')
     .filter((s) => !tagi(s).some((t) => RODZAJE_JEDNOSTEK.includes(t)))
     .map((s) => s.slug)
     .sort();
   assert.deepEqual(bezKlasy, ['cybird', 'cybuster', 'exart', 'guntank', 'real-pg-gundam']);
+});
+
+test('profile postaci nie przejmują tagów rodzaju jednostki', () => {
+  for (const s of oTypie('postac')) {
+    const obce = tagi(s).filter((t) => RODZAJE_JEDNOSTEK.includes(t));
+    assert.deepEqual(obce, [], `${s.slug}: rodzaj jednostki należy do mechu, nie pilota`);
+  }
 });
 
 test('lista haseł pokazuje tagi zamiast tekstowego typu', () => {

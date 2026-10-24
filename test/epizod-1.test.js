@@ -65,7 +65,7 @@ test('epizod 1 istnieje, a skrypt jest archiwum rozegrania', () => {
 
 test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () => {
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1');
-  assert.equal(sceny.length, 5, 'epizod 1 ma dziś pięć scen: 1-1, 1-2, 1-3, 1-4 i 1-5');
+  assert.equal(sceny.length, 6, 'epizod 1 ma dziś sześć scen: od 1-1 do 1-6');
   const scena = sceny.find((s) => s.slug === 'srw-oe-ep1-szalejacy-prototyp-labora');
   assert.ok(scena, 'scena 1-1 istnieje');
   assert.equal(scena.numer_sceny, '1-1');
@@ -97,7 +97,7 @@ test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () =
     .replace(/\n\n---\n?$/, '');
   assert.equal(odtworzone, oczekiwane);
   for (const czesc of czesci) assert.ok(script.includes(czesc.tekst), czesc.naglowek);
-  assert.equal(pages.filter((p) => p.typ === 'scena').length, 7, 'dwie sceny epizodu 0 i pięć epizodu 1');
+  assert.equal(pages.filter((p) => p.typ === 'scena').length, 8, 'dwie sceny epizodu 0 i sześć epizodu 1');
 });
 
 test('obsada epizodu i sceny obejmuje wszystkie postacie i jednostki z misji', () => {
@@ -114,14 +114,13 @@ test('obsada epizodu i sceny obejmuje wszystkie postacie i jednostki z misji', (
   for (const h of nowePojecia) assert.ok(scena.pojecia.includes(h), `scena: ${h}`);
 });
 
-test('sześć nowych jednostek ma pełne uzbrojenie z dostawy i własne parametry pary (mech, gra)', () => {
+test('pięć nowych jednostek ma pełne uzbrojenie z dostawy, a Medea zachowuje pierwotny wpis', () => {
   const jednostki = [
     ['hal-x10', 3],
     ['hal-x10-green', 3],
     ['helldiver', 2],
     ['ingram-nr-1', 3],
     ['ingram-nr-2', 3],
-    ['medea', 1],
   ];
   for (const [slug, count] of jednostki) {
     const mech = bySlug.get(slug);
@@ -140,16 +139,19 @@ test('sześć nowych jednostek ma pełne uzbrojenie z dostawy i własne parametr
     }
     assert.doesNotMatch(mech.body, /&lt;br&gt;/, slug);
   }
+  const medea = bySlug.get('medea');
+  assert.match(medea.body, /\| 0 \| Bez uzbrojenia \| 0 \| 0–0 \|/);
+  assert.ok(delivery.includes('Bez uzbrojenia'), 'pierwotny wpis Medei pozostaje rozpoznawalny w dostawie 1-1');
 });
 
-test('jednostki mają pilotów zgodnych z obsadą misji i serię z dostawy', () => {
+test('jednostki mają pilotów zgodnych z obsadą misji, kolejnych powiązań i serię z dostawy', () => {
   const obsada = {
     'hal-x10': ['shinohara-hos'],
     'hal-x10-green': ['shinohara-hos'],
     helldiver: ['zolnierz-jsdf'],
     'ingram-nr-1': ['noa-izumi'],
     'ingram-nr-2': ['isao-ota'],
-    medea: ['zolnierz-jsdf'],
+    medea: ['zolnierz-jsdf', 'oficer-federacji'],
   };
   for (const [slug, piloci] of Object.entries(obsada)) {
     assert.deepEqual(bySlug.get(slug).piloci, piloci, slug);

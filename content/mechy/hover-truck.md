@@ -20,6 +20,8 @@ utworzono: 2026-10-23
 
 Wóz wsparcia [[08-pluton-ms|08. Plutonu MS]] z [[michel-ninorich|Michelem Ninorichem]] jako głównym pilotem i [[eledore-massis|Eledore Massisem]] jako pilotem wspierającym. Podczas patrolu Eledore rozpoznaje cząstki Minovsky’ego i dźwięk nieznanego typu maszyny, a później przypomina dowódcy, że wóz nie powinien zostać ściągnięty na linię ognia.
 
+Podczas eskorty [[medea|Medei]] Eledore wykrywa z wozu dźwięk wrogich mobile suitów. Na polecenie Shiro załoga ma prowadzić klucz tak, żeby nie wszedł w ogień przeciwlotniczy nieprzyjaciela.
+
 Sonar pasywny obniża celność i unik wrogów, Zaopatrzenie EN odnawia energię sojusznika, a Naprawa przywraca HP. Wezw. Osłony pozwala wybrać wóz do osłony odpowiedniej grupy; jednocześnie jednostka może walczyć w wybranych składach 08. Plutonu MS.
 }}
 

@@ -3,22 +3,22 @@ typ: mech
 slug: medea
 tytul: Medea
 gry: [srw-oe]
-piloci: [zolnierz-jsdf]
+piloci: [zolnierz-jsdf, oficer-federacji]
 w_gre:
-  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_1.txt", "profil": "Medea", "dane": "**Seria:** Brak wpisu w dostępnych słownikach jednostek i pilotów — *nieustalona*.\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Bez uzbrojenia | 0 | 0–0 | +0 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |"}'
+  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_6.txt", "profil": "Medea", "dane": "**Seria:** Brak wpisu w dostępnych słownikach jednostek i pilotów — *nieustalona*.\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Bez uzbrojenia | 0 | 0–0 | +0 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |\n#### Dodatkowe wpisy — selektor zerowy (animacje / rekordy specjalne)\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 1 | Karabin przeciwlotniczy | 1000 | 1–2 | +5 | 20 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |"}'
 pochodzenie: menu
 zrodla:
   - https://gundam.fandom.com/wiki/Medea
-tagi: [jsdf, pojazd-wsparcia]
+tagi: [jsdf, pojazd-wsparcia, federacja]
 utworzono: 2026-10-21
 ---
 {{menu gra=srw-oe
 
 ## Opis
 
-Jednostka wsparcia [[sily-samoobrony-japonii|Sił Samoobrony Japonii]], pozbawiona uzbrojenia. W ćwiczeniach na [[poligon-fuji|poligonie Fuji]] towarzyszy wojskowym jednostkom naziemnym; za jej sterami siedzi zwykły [[zolnierz-jsdf|żołnierz JSDF]].
+Samolot transportowy wspierający [[sily-samoobrony-japonii|Siły Samoobrony Japonii]] i [[earth-federation|Federację Ziemską]]. W [[srw-oe-ep1-szalejacy-prototyp-labora|ćwiczeniach na poligonie Fuji]] towarzyszy wojskowym jednostkom naziemnym, a za jej sterami siedzi [[zolnierz-jsdf|żołnierz JSDF]].
 
-Bierze udział w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]) jako jednostka sojusznicza.
+W [[srw-oe-ep1-ratuj-transportowiec-medea|misji „Ratuj transportowiec Medea”]] klucz wzywa pomoc [[08-pluton-ms|08. Plutonu MS]], a jednostkę NPC pilotuje [[oficer-federacji|Oficer Federacji]]. Po odparciu ataku uratowana Medea zabiera oddział do [[jaburo|Jaburo]].
 }}
 {{zrodlo gra=wspolne
 
@@ -40,5 +40,11 @@ Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyn
 | Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
 |---:|---|---:|:---:|---:|---:|---:|---|---|
 | 0 | Bez uzbrojenia | 0 | 0–0 | +0 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+
+#### Dodatkowe wpisy — selektor zerowy (animacje / rekordy specjalne)
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 1 | Karabin przeciwlotniczy | 1000 | 1–2 | +5 | 20 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
 }}
 

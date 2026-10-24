@@ -1,10 +1,40 @@
 # Co nowego
 
+## 2026-10-24 20:55
+
+- [[srw-oe-ep1|Epizod 1]] ma szóstą misję — [[srw-oe-ep1-ratuj-transportowiec-medea|„Ratuj transportowiec Medea”]]: [[08-pluton-ms|08. Pluton MS]] osłania klucz przed Doppami i naziemnymi Zaku II, a po akcji odlatuje nim do [[jaburo|Jaburo]].
+- [[medea|Medea]] jest powiązana z [[oficer-federacji|Oficerem Federacji]] i ma karabin przeciwlotniczy. [[terry-sanders-jr|Sanders]] i [[michel-ninorich|Michel]] zyskują **Blok**, a [[karen-joshua|Karen]] — **Wsparcie**.
+
+## 2026-10-24 16:14
+
+- W scenach [[srw-oe-ep1-szalejacy-prototyp-labora|„Szalejący prototyp Labora”]], [[srw-oe-ep1-black-tri-stars|„Black Tri-Stars”]], [[srw-oe-ep1-powstrzymaj-pocisk-termojadrowy|„Powstrzymaj pocisk termojądrowy”]] i [[srw-oe-ep1-start-alexa|„Start Alexa”]] poprawiono idiomy i zbyt dosłowne brzmienie dialogów. Wydarzenia, obsada i kolejność pozostają bez zmian.
+
+## 2026-10-24 11:47
+
+- Wszystkie źródłowe opisy serialowego incydentu — [[srw-oe-ep1-szalejacy-prototyp-labora|scena „Szalejący prototyp Labora”]], [[poligon-fuji|Poligon Fuji]] i [[sily-samoobrony-japonii|Siły Samoobrony]] — dotyczą teraz [[hal-x10-green|HAL-X10 z wersji TV]], odrębnego od wariantu kinowego.
+
+## 2026-10-24 11:45
+
+- [[gundam-ground-type-glowa-gm|GM Head]] ma konkretne tło: uszkodzona maszyna [[karen-joshua|Karen]] otrzymała głowę RGM-79[G] GM Ground Type, ponieważ Ground Type’y nie miały zapasowych podzespołów. Opis wskazuje teraz źródło samej nazwy wariantu.
+
+## 2026-10-24 11:42
+
+- Profile [[control-ai|Control AI]] i [[shinohara-hos|Shinohara HOS]] nie mają już tagu `bezzalogowy`, zarezerwowanego dla mechów; tag pozostaje na sterowanych przez nie jednostkach.
+
+## 2026-10-24 11:41
+
+- [[kai-shiden|Kai]] ma tło ograniczone do przydzielenia do [[guncannon|Guncannona]], bez informacji o końcu wojny. [[marker|Marker]] i [[oscar-dublin|Oscar]] zachowują potwierdzone role przy konsolach [[white-base|White Base]], ale bez stopni przeniesionych z odrębnego kontinuum *The Origin*.
+
+## 2026-10-24 11:40
+
+- [[labor|AV-98 Ingram]] należy do drugiego pokolenia patlaborów. Tło [[ingram-nr-1|Ingrama nr 1]] i [[ingram-nr-2|Ingrama nr 2]] korzysta teraz ze źródła wersji TV, a opis Drugiego Plutonu wyjaśnia rolę egzemplarza nr 3 jako źródła części zapasowych.
+- [[kanuka-clancy|Kanuka]] ma opis sprawności i pilotażu bez nieuźródłowionej przesady, [[mikiyasu-shinshi|Shinshi]] jest nieśmiały i łatwo daje sobą pomiatać, a [[poligon-fuji|Poligon Fuji]] prowadzi do właściwego, serialowego wariantu [[hal-x10-green|HAL-X10]].
+
 ## 2026-10-24 09:43
 
 - [[labor|Labory]] mają rodowód: zaczęły jako maszyny budowlane, a gdy pojawiły się przestępstwa z ich udziałem, policje sięgnęły po „patlabory” — pierwsze były przemalowanym sprzętem z budowy, dopiero kolejne pokolenia projektowano pod służbę.
 - [[sv2|SV2]] powstało w 1996 roku i ma dwa plutony oraz własny warsztat; Pierwszym dowodzi podręcznikowa kapitan Nagumo, przeciwieństwo [[kiichi-goto|Goto]].
-- [[poligon-fuji|Poligon Fuji]] to teren ćwiczeń wojska pod Gotembą, a [[sily-samoobrony-japonii|Siły Samoobrony]] mają tam własne Labory: desantowego [[helldiver|Helldivera]] i doświadczalnego [[hal-x10|HAL-X10]], zamówionego jako broń nowej generacji.
+- [[poligon-fuji|Poligon Fuji]] to teren ćwiczeń wojska pod Gotembą, a [[sily-samoobrony-japonii|Siły Samoobrony]] mają tam własne Labory: desantowego [[helldiver|Helldivera]] i doświadczalnego [[hal-x10-green|HAL-X10]], zamówionego jako broń nowej generacji.
 
 ## 2026-10-24 09:40
 

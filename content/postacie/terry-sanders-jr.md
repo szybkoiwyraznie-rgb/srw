@@ -19,6 +19,8 @@ utworzono: 2026-10-23
 Pilot [[gundam-ground-type|Gundama Ground Type]] w [[08-pluton-ms|08. Plutonie MS]]. Melduje czysty sektor północny i wyjaśnia, że Federacji brakuje wahadłowców oraz baz startowych dla wojsk z poszczególnych regionów.
 
 W obronie transportu deklaruje, że nikt więcej nie zginie na jego oczach. Po walce ostrzega przed siłami [[zeon|Zeonu]] ukrywającymi się na trasie i przypomina towarzyszom, że nie mogą stracić czujności.
+
+Podczas eskorty [[medea|Medei]] zauważa, że przeciwnik lekceważy obecność eskorty. Po akcji wyjaśnia Karen, że pierwszeństwo przy częściach zamiennych mają oddziały pozostające w bazie.
 }}
 
 {{zrodlo gra=wspolne
@@ -60,4 +62,5 @@ W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] Sanders jest drugim weteranem
 | Slot | Umiejętność     | Poz. nauki | Efekt bazowy                              |
 | ---: | --------------- | ---------: | ----------------------------------------- |
 |    1 | **Potenc. Obr** |          1 | Pozostałe HP 10%: Obr+5% Cel/Unik/Kryt+4% |
+|    2 | **Blok**        |          3 | Obraż.-16% Sz. 12% *(1.08)*               |
 }}

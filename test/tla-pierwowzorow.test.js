@@ -42,12 +42,14 @@ test('obsada SV2 ma tło z pierwowzoru (ADR 0008, ADR 0013)', () => {
   assert.match(bySlug.get('asuma-shinohara').body, /synem prezesa Shinohara Heavy Industries/);
   assert.match(bySlug.get('kiichi-goto').body, /dzielnicy Taitō/);
   assert.match(bySlug.get('kanuka-clancy').body, /policji nowojorskiej/);
+  assert.doesNotMatch(bySlug.get('kanuka-clancy').body, /nie ma sobie równych/);
   assert.match(bySlug.get('mikiyasu-shinshi').body, /jako jedyny w jednostce jest żonaty/);
+  assert.match(bySlug.get('mikiyasu-shinshi').body, /łatwo daje sobą pomiatać/);
   assert.match(bySlug.get('hiromi-yamazaki').body, /pochodzi z Okinawy/);
 });
 
 test('Labory misji 1-1 mają tło techniczne z pierwowzoru (ADR 0008, ADR 0013)', () => {
-  const ingram = 'https://www.mahq.net/av-98-ova/';
+  const ingram = 'https://www.mahq.net/av-98-tv/';
   const ingramWiki = 'https://patlabor.fandom.com/wiki/AV-98_Ingram';
   const helldiver = 'https://www.mahq.net/arl-99-tv/';
   const helldiverWiki = 'https://patlabor.fandom.com/wiki/ARL-99_Helldiver';
@@ -61,7 +63,8 @@ test('Labory misji 1-1 mają tło techniczne z pierwowzoru (ADR 0008, ADR 0013)'
   sprawdzBlok('hal-x10-green', [hal, halWiki]);
   // Każda strona wnosi inne fakty, a nie powtórzenie tej samej notki.
   assert.match(bySlug.get('ingram-nr-1').body, /palec po palcu/);
-  assert.match(bySlug.get('ingram-nr-2').body, /pancerz reaktywny/);
+  assert.match(bySlug.get('ingram-nr-2').body, /źródło części zapasowych/);
+  assert.doesNotMatch(bySlug.get('ingram-nr-2').body, /pancerz reaktywny|av-98-ova/);
   assert.match(bySlug.get('helldiver').body, /worek spadochronowy/);
   assert.match(bySlug.get('hal-x10').body, /czterech nogach z wbudowanymi kołami/);
   assert.match(bySlug.get('hal-x10-green').body, /zamalowują jej\s*\n?\s*oznaczenia farbą/);
@@ -73,23 +76,25 @@ test('Labory misji 1-1 mają tło techniczne z pierwowzoru (ADR 0008, ADR 0013)'
 test('załoga White Base i piloci Zeonu mają tło z pierwowzoru (ADR 0008, ADR 0013)', () => {
   const wiki = 'https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters';
   const triStars = 'https://gundam.fandom.com/wiki/Black_Tri-Stars';
-  const zaloga = 'https://gundam.fandom.com/wiki/White_Base_Corps';
   sprawdzBlok('kai-shiden', [wiki]);
   sprawdzBlok('hayato-kobayashi', [wiki]);
   sprawdzBlok('gaia', [triStars]);
   sprawdzBlok('ortega', [triStars]);
   sprawdzBlok('mash', [triStars]);
-  sprawdzBlok('oscar-dublin', ['https://gundam.fandom.com/wiki/Oscar_Dublin', zaloga]);
-  sprawdzBlok('marker', ['https://gundam.fandom.com/wiki/Marker_Clan', zaloga]);
+  sprawdzBlok('oscar-dublin', ['https://gundam.fandom.com/wiki/Oscar_Dublin']);
+  sprawdzBlok('marker', ['https://gundam.fandom.com/wiki/Marker_Clan']);
   sprawdzBlok('slender', ['https://gundam.fandom.com/wiki/Slender']);
   sprawdzBlok('crown', ['https://gundam.fandom.com/wiki/Crown']);
   assert.match(bySlug.get('kai-shiden').body, /kolonii Green Oasis/);
+  assert.doesNotMatch(bySlug.get('kai-shiden').body, /do końca wojny/);
   assert.match(bySlug.get('hayato-kobayashi').body, /dwuosobowej maszynie/);
   assert.match(bySlug.get('gaia').body, /batalionu szkolenia mobilnego/);
   assert.match(bySlug.get('ortega').body, /jedna za drugą/);
   assert.match(bySlug.get('mash').body, /Ananke/);
   assert.match(bySlug.get('oscar-dublin').body, /na prawą burtę/);
   assert.match(bySlug.get('marker').body, /na lewą burtę/);
+  assert.doesNotMatch(bySlug.get('oscar-dublin').body, /kapral|White_Base_Corps/);
+  assert.doesNotMatch(bySlug.get('marker').body, /kapral|White_Base_Corps/);
   assert.match(bySlug.get('slender').body, /Operację V/);
   assert.match(bySlug.get('crown').body, /przed wejściem okrętu w atmosferę/);
 });
@@ -107,17 +112,30 @@ test('maszyny Zeonu mają tło techniczne z pierwowzoru (ADR 0008, ADR 0013)', (
 
 test('hasła świata Patlabora mają tło z pierwowzoru (ADR 0008, ADR 0013)', () => {
   sprawdzBlok('labor', ['https://patlabor.fandom.com/wiki/Labor',
-    'https://patlabor.fandom.com/wiki/Patlabor',
-    'https://patlabor.fandom.com/wiki/AV-98_Ingram']);
+    'https://patlabor.fandom.com/wiki/Patlabor']);
   sprawdzBlok('sv2', ['https://patlabor.fandom.com/wiki/Special_Vehicles_Section_2',
     'https://en.wikipedia.org/wiki/List_of_Patlabor_characters']);
   sprawdzBlok('poligon-fuji', ['https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!']);
   sprawdzBlok('sily-samoobrony-japonii', ['https://patlabor.fandom.com/wiki/ARL-99_Helldiver',
     'https://patlabor.fandom.com/wiki/HAL_X-10']);
   assert.match(bySlug.get('labor').body, /patlabory/);
+  assert.match(bySlug.get('labor').body, /do niego należy \[\[ingram-nr-1\|AV-98 Ingram\]\]/);
   assert.match(bySlug.get('sv2').body, /powołany w 1996 roku/);
   assert.match(bySlug.get('poligon-fuji').body, /pod Gotembą/);
+  assert.match(bySlug.get('poligon-fuji').body, /\{\{zrodlo[\s\S]*\[\[hal-x10-green\|HAL-X10\]\]/);
   assert.match(bySlug.get('sily-samoobrony-japonii').body, /przed piechotą\s*\n?\s*spadochronową/);
+});
+
+test('źródłowe nawiązania do serialu Patlabor linkują wariant TV HAL-X10', () => {
+  for (const slug of ['srw-oe-ep1-szalejacy-prototyp-labora', 'poligon-fuji', 'sily-samoobrony-japonii']) {
+    const bloki = [...bySlug.get(slug).body.matchAll(/^\{\{zrodlo[^\n]*\n([\s\S]*?)^\}\}$/gm)]
+      .map((m) => m[1]).filter((blok) => blok.includes('[[mobile-police-patlabor|'));
+    assert.ok(bloki.length > 0, `${slug}: blok nawiązania do serialu`);
+    for (const blok of bloki) {
+      assert.match(blok, /\[\[hal-x10-green\|HAL-X10\]\]/, `${slug}: wariant TV`);
+      assert.doesNotMatch(blok, /\[\[hal-x10\|HAL-X10\]\]/, `${slug}: bez wariantu kinowego`);
+    }
+  }
 });
 
 test('encje bez pierwowzoru poza bazą źródeł nie dostają zmyślonego tła (ADR 0012, ADR 0018)', () => {
