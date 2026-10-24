@@ -8,6 +8,9 @@ piloci: [shinohara-hos]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_1.txt", "profil": "HAL-X10", "dane": "**Seria:** Patlabor: The Movie\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Przeciwlotniczy minigun bliskiego zasięgu | 1000 | 1–3 | +40 | 5 | — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4 |\n| 1 | 9-lufowa wyrzutnia rakiet | 900 | 1–5 | +20 | 20 | — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |\n| 2 | Wyrzutnia ATM | 2000 | 1–4 | +10 | 15 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |"}'
 pochodzenie: skrypt
+zrodla:
+  - https://www.mahq.net/hal-x-10-tv/
+  - https://patlabormechanime.fandom.com/es/wiki/HAL_X-10
 tagi: [patlabor]
 utworzono: 2026-10-21
 ---
@@ -20,6 +23,11 @@ Bezzałogowy ciężki Labor prototypowy Sił Samoobrony, ćwiczący na poligonie
 Maszyną nie kieruje człowiek, lecz system [[shinohara-hos|HOS]]. Kiedy cele ćwiczebne zaczynają strzelać, w kokpitach HAL-X10 nie ma żadnych oznak życia.
 
 Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+}}
+
+{{zrodlo gra=wspolne
+
+W pierwowzorze HAL-X10 to doświadczalny ciężki [[labor|Labor]] szturmowy, zbudowany wspólnie przez Shinohara Heavy Industries i Hishii Heavy Industries na zamówienie [[sily-samoobrony-japonii|Sił Samoobrony]]. Czołgowy kadłub osadzono na czterech nogach z wbudowanymi kołami, a do szybkich przerzutów służy poduszkowy zespół jezdny — dzięki temu maszyna radzi sobie w górach i w lesie. Obok działa głównego umieszczono humanoidalną głowę ze skanerem laserowym, która przeszukuje pole walki. W kinowym [[patlabor-the-movie|Patlaborze]] X10 wymyka się spod kontroli podczas prób i do jego zatrzymania potrzeba wspólnej operacji wojsk lądowych i lotnictwa, w której biorą udział [[helldiver|Helldivery]] ([MAHQ, „HAL-X10 (TV version)”](https://www.mahq.net/hal-x-10-tv/); [Patlabor Mechanime Wiki, „HAL X-10”](https://patlabormechanime.fandom.com/es/wiki/HAL_X-10); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe

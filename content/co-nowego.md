@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-24 09:37
+
+- Drugi Pluton [[sv2|SV2]] ma tło z pierwowzoru: [[asuma-shinohara|Asuma]] jest synem prezesa Shinohara Heavy Industries, [[kiichi-goto|Goto]] uchodzi za oficera odsuniętego od ważnych spraw, [[kanuka-clancy|Kanuka]] przyjechała z nowojorskiej policji na czas określony, [[mikiyasu-shinshi|Shinshi]] jest informatykiem jednostki, a [[hiromi-yamazaki|Hiromi]] prowadzi transporter, bo nie mieści się w kokpicie [[labor|Labora]].
+- [[ingram-nr-1|Ingram]] powstał jako policyjny Labor sterowany palec po palcu, [[helldiver|Helldiver]] to jego wojskowy krewniak do desantu ze spadochronem, a [[hal-x10|HAL-X10]] — czołg na czterech nogach, który i w pierwowzorze wymyka się spod kontroli.
+
 ## 2026-10-24 01:05
 
 - Maszyny wsparcia [[white-base|White Base]] mają rodowód: [[guncannon|Guncannon]] powstał w Operacji V jako jednostka ognia ze średniego dystansu z działami 240 mm nad barkami, a [[guntank|Guntank]] wywodzi się z czołgów — kierowca siedzi w torsie, celowniczy w głowie, a zamiast rąk maszyna ma wyrzutnie rakiet.

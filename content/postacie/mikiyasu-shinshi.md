@@ -7,6 +7,8 @@ seria: mobile-police-patlabor
 gry: [srw-oe]
 mechy: []
 pochodzenie: skrypt
+zrodla:
+  - https://en.wikipedia.org/wiki/List_of_Patlabor_characters
 tagi: [patlabor]
 utworzono: 2026-10-21
 ---
@@ -19,6 +21,11 @@ Członek Drugiego Plutonu [[sv2|SV2]] odpowiedzialny za zaopatrzenie i budżet. 
 Gdy walka z [[hal-x10|HAL-X10]] wymyka się planowi, prosi pilota o rozwagę i dbałość o własne życie.
 
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-police-patlabor|pierwowzorze]] Shinshi służy w drugiej drużynie Drugiego Plutonu [[sv2|SV2]] i jako jedyny w jednostce jest żonaty. Z pozoru potulny i łatwy do zagadania, wpada w gniew, gdy ktoś żartuje z jego małżeństwa albo z jego żony. Jest najlepszym programistą i informatykiem w SV2 — to on pomaga kolegom oswoić nowy sprzęt — a w terenie prowadzi transporter maszyny nr 2 ([Wikipedia, „List of Patlabor characters”](https://en.wikipedia.org/wiki/List_of_Patlabor_characters); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe

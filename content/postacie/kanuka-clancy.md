@@ -7,6 +7,8 @@ seria: mobile-police-patlabor
 gry: [srw-oe]
 mechy: []
 pochodzenie: skrypt
+zrodla:
+  - https://en.wikipedia.org/wiki/List_of_Patlabor_characters
 tagi: [patlabor]
 utworzono: 2026-10-21
 ---
@@ -19,6 +21,11 @@ Funkcjonariuszka Drugiego Plutonu [[sv2|SV2]]. W rozmowie po ćwiczeniach jako j
 Zauważa też, że mówi się o pracach nad [[mobile-suit|mobile suitami]] zrzucanymi z orbity. W tej misji nie prowadzi własnego Labora.
 
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-police-patlabor|pierwowzorze]] Kanuka jest funkcjonariuszką policji nowojorskiej, oddelegowaną do [[sv2|SV2]] na czas określony: ma podpatrzeć pracę jednostki z [[labor|Laborami]], zanim podobną utworzy Nowy Jork. Urodziła się na Hawajach i radzi sobie w każdym zadaniu; pilotuje lepiej niż [[isao-ota|Ota]], ale przydzielono ją do wsparcia drugiej maszyny, bo nie przestawia się Labora pod kogoś, kto za chwilę wyjedzie. Trzyma się przepisów, z początku wydaje się chłodna i trzyma dystans, a w walce wręcz nie ma sobie równych ([Wikipedia, „List of Patlabor characters”](https://en.wikipedia.org/wiki/List_of_Patlabor_characters); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe
