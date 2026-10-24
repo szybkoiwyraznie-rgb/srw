@@ -36,16 +36,18 @@ function sprawdzBlok(slug, adresy) {
 test('obsada SV2 ma tło z pierwowzoru (ADR 0008, ADR 0013)', () => {
   const wiki = 'https://en.wikipedia.org/wiki/List_of_Patlabor_characters';
   for (const slug of ['asuma-shinohara', 'kiichi-goto', 'kanuka-clancy',
-    'mikiyasu-shinshi', 'hiromi-yamazaki']) {
+    'mikiyasu-shinshi', 'hiromi-yamazaki', 'shinobu-nagumo', 'shigeo-shiba']) {
     sprawdzBlok(slug, [wiki]);
   }
-  assert.match(bySlug.get('asuma-shinohara').body, /synem prezesa Shinohara Heavy Industries/);
+  assert.match(bySlug.get('asuma-shinohara').body, /synem prezesa (?:\[\[shinohara-heavy-industries\|)?Shinohara Heavy Industries/);
   assert.match(bySlug.get('kiichi-goto').body, /dzielnicy Taitō/);
   assert.match(bySlug.get('kanuka-clancy').body, /policji nowojorskiej/);
   assert.doesNotMatch(bySlug.get('kanuka-clancy').body, /nie ma sobie równych/);
   assert.match(bySlug.get('mikiyasu-shinshi').body, /jako jedyny w jednostce jest żonaty/);
   assert.match(bySlug.get('mikiyasu-shinshi').body, /łatwo daje sobą pomiatać/);
   assert.match(bySlug.get('hiromi-yamazaki').body, /pochodzi z Okinawy/);
+  assert.match(bySlug.get('shinobu-nagumo').body, /dzielnicy Setagaya/);
+  assert.match(bySlug.get('shigeo-shiba').body, /zastępcą szefa mechaników/);
 });
 
 test('Labory misji 1-1 mają tło techniczne z pierwowzoru (ADR 0008, ADR 0013)', () => {
@@ -118,6 +120,11 @@ test('hasła świata Patlabora mają tło z pierwowzoru (ADR 0008, ADR 0013)', (
   sprawdzBlok('poligon-fuji', ['https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!']);
   sprawdzBlok('sily-samoobrony-japonii', ['https://patlabor.fandom.com/wiki/ARL-99_Helldiver',
     'https://patlabor.fandom.com/wiki/HAL_X-10']);
+  sprawdzBlok('shinohara-heavy-industries', [
+    'https://patlabor.fandom.com/wiki/Shinohara_Heavy_Industries',
+    'https://en.wikipedia.org/wiki/List_of_Patlabor_characters',
+    'https://ja.wikipedia.org/wiki/%E6%A9%9F%E5%8B%95%E8%AD%A6%E5%AF%9F%E3%83%91%E3%83%88%E3%83%AC%E3%82%A4%E3%83%90%E3%83%BC_the_Movie',
+  ]);
   assert.match(bySlug.get('labor').body, /patlabory/);
   assert.match(bySlug.get('labor').body, /do niego należy \[\[ingram-nr-1\|AV-98 Ingram\]\]/);
   assert.match(bySlug.get('sv2').body, /powołany w 1996 roku/);

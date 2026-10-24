@@ -216,7 +216,7 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
 test('profile załogi i transformacje są powiązane, ale nie udają sceny fabularnej', () => {
   assert.deepEqual(bySlug.get('exart').piloci, ['seishiro', 'himari-yaegaki']);
   assert.deepEqual(bySlug.get('masaki-andoh').mechy, ['cybuster', 'cybird']);
-  assert.deepEqual(bySlug.get('control-ai').mechy, ['brocken']);
+  assert.deepEqual(bySlug.get('control-ai').mechy, ['brocken', 'helldiver']);
   assert.equal(bySlug.get('control-ai').seria, undefined, 'Control AI nie ma wpisu w słowniku postaci');
   assert.deepEqual(bySlug.get('real-pg-gundam').piloci, []);
   assert.match(bySlug.get('cybuster').body, /\[\[cybird\|Cybird\]\]/);

@@ -96,6 +96,7 @@ test('sceny z nawiązaniami wskazują właściwe odcinki oryginałów', () => {
     ['srw-oe-ep1-szalejacy-prototyp-labora', /piątego odcinka/, /Runaway Labor X-10/, 'https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!'],
     ['srw-oe-ep1-black-tri-stars', /dwudziestego czwartego odcinka/, /Black Tri-Star/, 'https://gundam.fandom.com/wiki/Black_Tri-Star'],
     ['srw-oe-ep1-szalejacy-labor-powraca', /dwudziestego ósmego odcinka/, /Suspicious Duo/, 'https://patlabor.fandom.com/wiki/Suspicious_Duo'],
+    ['srw-oe-ep1-sledztwo-pod-przykrywka', /pierwszej części filmu kinowego/, /Patlabor: The Movie/, 'https://en.wikipedia.org/wiki/Patlabor:_The_Movie'],
   ];
   for (const [slug, odcinek, tytul, url] of oczekiwane) {
     const s = bySlug.get(slug);

@@ -65,7 +65,7 @@ test('epizod 1 istnieje, a skrypt jest archiwum rozegrania', () => {
 
 test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () => {
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1');
-  assert.equal(sceny.length, 7, 'epizod 1 ma dziś siedem scen: od 1-1 do 1-7');
+  assert.equal(sceny.length, 8, 'epizod 1 ma dziś osiem scen: od 1-1 do 1-8');
   const scena = sceny.find((s) => s.slug === 'srw-oe-ep1-szalejacy-prototyp-labora');
   assert.ok(scena, 'scena 1-1 istnieje');
   assert.equal(scena.numer_sceny, '1-1');
@@ -97,7 +97,7 @@ test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () =
     .replace(/\n\n---\n?$/, '');
   assert.equal(odtworzone, oczekiwane);
   for (const czesc of czesci) assert.ok(script.includes(czesc.tekst), czesc.naglowek);
-  assert.equal(pages.filter((p) => p.typ === 'scena').length, 9, 'dwie sceny epizodu 0 i siedem epizodu 1');
+  assert.equal(pages.filter((p) => p.typ === 'scena').length, 10, 'dwie sceny epizodu 0 i osiem epizodu 1');
 });
 
 test('obsada epizodu i sceny obejmuje wszystkie postacie i jednostki z misji', () => {
@@ -149,7 +149,7 @@ test('jednostki mają pilotów zgodnych z obsadą misji, kolejnych powiązań i 
   const obsada = {
     'hal-x10': ['shinohara-hos'],
     'hal-x10-green': ['shinohara-hos'],
-    helldiver: ['zolnierz-jsdf'],
+    helldiver: ['control-ai', 'zolnierz-jsdf'],
     'ingram-nr-1': ['noa-izumi'],
     'ingram-nr-2': ['isao-ota'],
     medea: ['oficer-federacji', 'zolnierz-jsdf'],

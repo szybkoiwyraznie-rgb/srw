@@ -25,6 +25,8 @@ Noa nazywa swój Ingram Alphonse'em i przejmuje się każdą rysą na kadłubie.
 Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 
 W [[srw-oe-ep1-szalejacy-labor-powraca|obronie placu budowy]] Noa nie jest w stanie sama zatrzymać wszystkich [[brocken|Brockenów]], więc walczy u boku Oty i [[raijin-oh|Raijin-Oha]]. [[badrinath-harchand|Bud]] ocenia później, że coraz lepsze ruchy maszyny wynikają z rosnącego zaufania pilotki.
+
+W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] wspiera [[exart|Exarta]] pod zakładem [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji przeciw uzbrojonym [[hal-x10-green|HAL-X10/Green]] i [[helldiver|Helldiverom]]. Po walce [[shigeo-shiba|Shige]] ujawnia, że wbrew poleceniu z góry nigdy nie wgrał Ingramom [[shinohara-hos|HOS-a]], a jedynie ustawił atrapę ekranu startowego na sprawdzonym starym systemie.
 }}
 
 {{zrodlo gra=wspolne

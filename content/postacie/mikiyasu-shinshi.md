@@ -23,6 +23,8 @@ Gdy walka z [[hal-x10|HAL-X10]] wymyka się planowi, prosi pilota o rozwagę i d
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 
 Przed [[srw-oe-ep1-szalejacy-labor-powraca|wyjazdem do Shin-Shinagawa Seaside]] ciągła gotowość doprowadza go do kryzysu małżeńskiego. Przypomina [[isao-ota|Ocie]] o pierwszeństwie ludzkiego życia, po bitwie melduje, że wszystkie szalejące Labory zamilkły, i popiera ustalenie przyczyny incydentu.
+
+Podczas starcia z uzbrojonymi maszynami wojskowymi w [[srw-oe-ep1-sledztwo-pod-przykrywka|Hachioji]] stres znów przyprawia go o ból brzucha, a na wieść o bezterminowej delegacji Drugiego Plutonu do kosmicznej [[stacja-connect|bazy Connect]] martwi się rozłąką z żoną, lecz pozostaje z zespołem, by dokończyć sprawę [[shinohara-hos|HOS-a]].
 }}
 
 {{zrodlo gra=wspolne

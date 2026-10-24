@@ -33,7 +33,7 @@ function komorki(wiersz) {
   return wiersz.split('|').slice(1, -1).map((cell) => cell.trim());
 }
 
-test('dostawa 1-7 jest zachowana bajt w bajt, a cały jej skrypt kończy epizod', () => {
+test('dostawa 1-7 jest zachowana bajt w bajt, a cały jej skrypt poprzedza misję 1-8 w epizodzie', () => {
   assert.equal(deliveryBytes.length, 25199);
   assert.equal(createHash('md5').update(deliveryBytes).digest('hex'),
     '6e168febc1a7f755cce16229efff78c7');
@@ -45,12 +45,13 @@ test('dostawa 1-7 jest zachowana bajt w bajt, a cały jej skrypt kończy epizod'
   assert.match(delivery, /^#### Badrinath Harchand$/m);
   assert.match(delivery, /Brocken\/Melee.*×5 rekordów źródłowych Entry ID/);
   const expected = delivery.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
-  assert.ok(script.trimEnd().endsWith(expected), 'pełna misja 1-7 na końcu epizodu');
+  assert.ok(script.includes(expected), 'pełna misja 1-7 w skrypcie epizodu');
+  assert.ok(script.includes('**Bud:** No!\n\n## Śledztwo pod przykrywką'));
   assert.ok(!script.includes('UCZESTNICY'));
   assert.ok(!script.includes('DL101_70'));
 });
 
-test('scena 1-7 jest dosłowna i domyka kolejność siedmiu misji epizodu 1', () => {
+test('scena 1-7 jest dosłowna i poprzedza misję 1-8 w epizodzie 1', () => {
   assert.equal(scena.typ, 'scena');
   assert.equal(scena.epizod, 'srw-oe-ep1');
   assert.equal(scena.numer_sceny, '1-7');
@@ -65,7 +66,7 @@ test('scena 1-7 jest dosłowna i domyka kolejność siedmiu misji epizodu 1', ()
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1')
     .sort((a, b) => String(a.numer_sceny).localeCompare(String(b.numer_sceny)));
   assert.deepEqual(sceny.map((s) => s.numer_sceny),
-    ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6', '1-7']);
+    ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6', '1-7', '1-8']);
 });
 
 test('osiem etapów analizy ma kotwice i zachowuje ograniczenia oraz nierozstrzygniętą przyczynę', () => {

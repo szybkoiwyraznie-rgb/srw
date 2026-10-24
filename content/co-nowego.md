@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-24 22:25
+
+- [[srw-oe-ep1|Epizod 1]] ma ósmą misję — [[srw-oe-ep1-sledztwo-pod-przykrywka|„Śledztwo pod przykrywką”]]: [[asuma-shinohara|Asuma]] odkrywa podejrzany program w kopii wzorcowej [[shinohara-hos|Shinohara HOS]] w zakładzie [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji, [[exart|Exart]] i Drugi Pluton [[sv2|SV2]] zatrzymują osiem uzbrojonych [[labor|Laborów]] [[sily-samoobrony-japonii|Sił Samoobrony]] ([[hal-x10-green|HAL-X10/Green]] i [[helldiver|Helldivery]]), a cały pluton — wraz z [[kanuka-clancy|Kanuką]] — zostaje oddelegowany na [[stacja-connect|stację Connect]].
+- Do bazy dołączyły [[shinobu-nagumo|Shinobu Nagumo]], [[shigeo-shiba|Shigeo Shiba]] i [[shinohara-heavy-industries|Shinohara Heavy Industries]], z opisami pierwowzorów z [[mobile-police-patlabor|*Mobile Police Patlabor*]] oraz [[patlabor-the-movie|*Patlabor: The Movie*]]; załogę [[helldiver|Helldivera]] uzupełnia [[control-ai|Control AI]] obok [[zolnierz-jsdf|żołnierza JSDF]].
+
 ## 2026-10-24 21:55
 
 - [[earth-federation|Federacja Ziemska]] i [[zeon|Księstwo Zeonu]] obejmują teraz przebieg [[operacja-odessa|operacji Odessa]], obronę startu [[rx-78nt-1-gundam-alex|Alexa]] oraz przelot [[08-pluton-ms|08. Plutonu MS]] na pokładzie [[medea|Medei]] do [[jaburo|Jaburo]], a [[earth-federation|Federacja Ziemska]] ma uzupełnione źródłowe tło o powstaniu rządu światowego i kolonizacji kosmosu.
@@ -74,7 +79,7 @@
 
 ## 2026-10-24 09:37
 
-- Drugi Pluton [[sv2|SV2]] ma tło z pierwowzoru: [[asuma-shinohara|Asuma]] jest synem prezesa Shinohara Heavy Industries, [[kiichi-goto|Goto]] uchodzi za oficera odsuniętego od ważnych spraw, [[kanuka-clancy|Kanuka]] przyjechała z nowojorskiej policji na czas określony, [[mikiyasu-shinshi|Shinshi]] jest informatykiem jednostki, a [[hiromi-yamazaki|Hiromi]] prowadzi transporter, bo nie mieści się w kokpicie [[labor|Labora]].
+- Drugi Pluton [[sv2|SV2]] ma tło z pierwowzoru: [[asuma-shinohara|Asuma]] jest synem prezesa [[shinohara-heavy-industries|Shinohara Heavy Industries]], [[kiichi-goto|Goto]] uchodzi za oficera odsuniętego od ważnych spraw, [[kanuka-clancy|Kanuka]] przyjechała z nowojorskiej policji na czas określony, [[mikiyasu-shinshi|Shinshi]] jest informatykiem jednostki, a [[hiromi-yamazaki|Hiromi]] prowadzi transporter, bo nie mieści się w kokpicie [[labor|Labora]].
 - [[ingram-nr-1|Ingram]] powstał jako policyjny Labor sterowany palec po palcu, [[helldiver|Helldiver]] to jego wojskowy krewniak do desantu ze spadochronem, a [[hal-x10|HAL-X10]] — czołg na czterech nogach, który i w pierwowzorze wymyka się spod kontroli.
 
 ## 2026-10-24 01:05

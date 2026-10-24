@@ -122,6 +122,10 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Szalejące Labory firmy ochroniarskiej',
       'Wspólna obrona placu budowy',
       'Obserwacja walki przez Buda, Utsumiego i Kurosakiego',
+      'Śledztwo Asumy i kopia wzorcowa HOS-a',
+      'Rządowa „aktualizacja” HOS-a i atrapa Shige',
+      'Pierwszy Pluton Nagumo i starsze Pythony',
+      'Bunt wojskowych Laborów w Hachioji i delegacja SV2 do Connect',
     ],
   };
 

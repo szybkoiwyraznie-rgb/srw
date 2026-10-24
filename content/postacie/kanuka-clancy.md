@@ -23,6 +23,8 @@ Zauważa też, że mówi się o pracach nad [[mobile-suit|mobile suitami]] zrzuc
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 
 W [[srw-oe-ep1-szalejacy-labor-powraca|Shin-Shinagawa Seaside]] rozpoznaje SEE Type-7 jako [[brocken|Brockena]] i przypomina, że okolicznych mieszkańców już ewakuowano. Mobilizuje pluton do profesjonalnej roboty u boku Klasy Obrony, a po walce chce ustalić przyczynę szału.
+
+Po walce pod zakładem w Hachioji w [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] nowojorska policja zgadza się przedłużyć jej szkolenie w Japonii, dzięki czemu Kanuka leci wraz z resztą Drugiego Plutonu na delegację do [[connect-force|Connect]] w kosmosie.
 }}
 
 {{zrodlo gra=wspolne

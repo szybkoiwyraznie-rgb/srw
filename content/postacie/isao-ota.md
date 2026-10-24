@@ -21,6 +21,8 @@ Pilot drugiego Ingrama Drugiego Plutonu [[sv2|SV2]]. Impulsywny i pewny siebie: 
 Kiedy [[hal-x10|HAL-X10]] wymykają się spod kontroli, jako pierwszy prosi o zgodę na atak i chce zniszczyć cele, zanim dotrą do zaludnionych terenów. Nie zamierza wycofywać się tylko dlatego, że Siły Samoobrony poleciły plutonowi odejść.
 
 Podczas [[srw-oe-ep1-szalejacy-labor-powraca|obrony wielkiego placu budowy]] chce zatrzymać wszystkie [[brocken|Brockeny]] i nie oddać chwały [[raijin-oh|Raijin-Ohowi]]. Po walce jest gotów wrócić na posiłek i zostawić śledztwo specjalistom, w przeciwieństwie do [[asuma-shinohara|Shinohary]].
+
+Przed [[srw-oe-ep1-sledztwo-pod-przykrywka|akcją w Hachioji]] wrzuca [[ingram-nr-2|Ingrama nr 2]] do rzeki, ściągając na siebie gniew [[seitaro-sakaki|Sakakiego]], a pod zakładem [[shinohara-heavy-industries|Shinohara Heavy Industries]] wspiera [[exart|Exarta]] w walce z bezzałogowymi jednostkami wojskowymi. Choć krzywi się na perspektywę lotu w kosmos na rozkaz przełożonych, zgadza się dołączyć z plutonem do [[connect-force|Connect]], by wyjaśnić sprawę [[shinohara-hos|HOS-a]].
 }}
 
 {{zrodlo gra=wspolne

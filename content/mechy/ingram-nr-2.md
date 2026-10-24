@@ -25,6 +25,8 @@ Podczas ćwiczeń na poligonie Fuji Ota chce jak najszybciej zniszczyć bezzało
 Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 
 [[isao-ota|Ota]] prowadzi go podczas [[srw-oe-ep1-szalejacy-labor-powraca|obrony wielkiego placu budowy]] i nie chce oddać chwały [[raijin-oh|Raijin-Ohowi]]. Po wspólnej walce wszystkie szalejące Labory zamilkły.
+
+Przed wydarzeniami [[srw-oe-ep1-sledztwo-pod-przykrywka|sceny „Śledztwo pod przykrywką”]] wraca do hangaru przemoczony po tym, jak Ota wrzucił go do rzeki, po czym bierze udział w zatrzymaniu uzbrojonych [[labor|Laborów]] wojskowych pod fabryką w Hachioji. Podobnie jak jedynka unika awarii [[shinohara-hos|HOS-a]], bo [[shigeo-shiba|Shige]] pozostawił w nim stary system operacyjny ukryty za fałszywym ekranem powitalnym.
 }}
 
 {{zrodlo gra=wspolne

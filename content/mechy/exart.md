@@ -20,6 +20,8 @@ CF-00 Exart jest bronią [[connect-force|Connect Force]]. W [[prolog-i-trening-w
 Podczas wspólnych ćwiczeń na poligonie Fuji Himari leci z nim jako podpilot i w razie potrzeby przejmuje stery.
 
 Exart wszedł w atmosferę o własnych siłach, ale z grawitacji wyrwie się tylko z transportem. [[seishiro|Seishiro]] zauważa, że bez niego zespół byłby elastyczniejszy, i porównuje maszynę z japońskimi superrobotami.
+
+W [[srw-oe-ep1-sledztwo-pod-przykrywka|Hachioji]], dokąd Seishiro i Himari przyjeżdżają po kopię wzorcową [[shinohara-hos|HOS-a]], Exart natychmiast wychodzi naprzeciw ośmiu uzbrojonym [[labor|Laborom]] [[sily-samoobrony-japonii|Sił Samoobrony]] i wspólnie z [[sv2|Drugim Plutonem SV2]] nie wypuszcza ich poza zakład.
 }}
 {{menu gra=srw-oe
 
