@@ -1,8 +1,12 @@
 # Co nowego
 
+## 2026-10-25 00:30
+
+- Nowa postać: [[bakuryu-oh|Bakuryu-Oh]], kopilot [[god-raijin-oh|God Raijin-Oha]]. W [[srw-oe|Super Robot Wars OE]] nie występuje jako samodzielna jednostka — przy superpołączeniu z [[raijin-oh|Raijin-Ohem]] rejestruje się jako sub-pilot i obsługuje Komendy Ducha formy. Ma portret oraz sprawdzone tło z [[matchless-raijin-oh|Matchless Raijin-Oh]]: ukryty robot Klasy Obrony Ziemi, zdalnie sterowany, zmieniający się w smoka Bakuryu Dragon. Galeria [[god-raijin-oh|God Raijin-Oha]] liczy z powrotem dwie ilustracje samej maszyny.
+
 ## 2026-10-25 00:15
 
-- Portrety [[badrinath-harchand|Buda]], [[kurosaki|Kurosakiego]], [[seitaro-sakaki|Seitaro Sakakiego]], [[shigeo-shiba|Shige Shiby]], [[shinobu-nagumo|Shinobu Nagumo]] i [[utsumi|Utsumiego]] dołączają do ich stron, a galeria [[god-raijin-oh|God Raijin-Oha]] obejmuje trzy ilustracje: dwie samej maszyny oraz jej pomocniczego robota Bakuryu-Oha, z którego pomocą [[raijin-oh|Raijin-Oh]] osiąga tę formę.
+- Portrety [[badrinath-harchand|Buda]], [[kurosaki|Kurosakiego]], [[seitaro-sakaki|Seitaro Sakakiego]], [[shigeo-shiba|Shige Shiby]], [[shinobu-nagumo|Shinobu Nagumo]] i [[utsumi|Utsumiego]] dołączają do ich stron, a galeria [[god-raijin-oh|God Raijin-Oha]] wzbogaca się o dwie ilustracje samej maszyny.
 
 ## 2026-10-24 22:50
 

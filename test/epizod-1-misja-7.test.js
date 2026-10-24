@@ -144,20 +144,21 @@ test('God Raijin-Oh ma odrębne parametry i załogę, ale nie jest osobną jedno
   const god = bySlug.get('god-raijin-oh');
   assert.equal(god.typ, 'mech');
   assert.equal(god.seria, 'matchless-raijin-oh');
-  assert.deepEqual(god.piloci, ['jin-hyuga', 'asuka-tsukishiro', 'koji-hoshiyama']);
-  for (const slug of god.piloci) {
+  assert.deepEqual(god.piloci, ['jin-hyuga', 'asuka-tsukishiro', 'koji-hoshiyama', 'bakuryu-oh']);
+  for (const slug of ['jin-hyuga', 'asuka-tsukishiro', 'koji-hoshiyama']) {
     assert.deepEqual(bySlug.get(slug).mechy, ['raijin-oh', 'god-raijin-oh'], slug);
   }
+  // Bakuryu-Oh jest kopilotem wyłącznie formy God Raijin-Oh, nie pilotauje Raijin-Oha.
+  assert.deepEqual(bySlug.get('bakuryu-oh').mechy, ['god-raijin-oh']);
   assert.match(god.body, /\[\[raijin-oh\|Raijin-Oh\]\]/);
   assert.match(bySlug.get('raijin-oh').body, /\[\[god-raijin-oh\|God Raijin-Oh\]\]/);
   assert.ok(!scena.mechy.includes('god-raijin-oh'), 'transformacja nie jest osobną jednostką sceny');
   assert.ok(!epizod.mechy.includes('god-raijin-oh'), 'skrypt nie przedstawia jej użycia');
-  // Dostawa ilustracji z 2026-10-25: galeria God Raijin-Oha obejmuje też kopilota
-  // Bakuryu-Oha, który nie ma własnej encji (ADR 0023; por. test pierwowzorów).
+  // Dostawa ilustracji z 2026-10-25: galeria God Raijin-Oha ma dwa własne pliki,
+  // a portret kopilota Bakuryu-Oha należy do jego strony postaci (ADR 0017).
   const manifestIlustracji = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
-  assert.deepEqual(manifestIlustracji.encje['god-raijin-oh'], [
-    'God Raijin-Oh.png', 'God Raijin-Oh 2.png', 'characters/Bakuryu-Oh.png',
-  ]);
+  assert.deepEqual(manifestIlustracji.encje['god-raijin-oh'], ['God Raijin-Oh.png', 'God Raijin-Oh 2.png']);
+  assert.deepEqual(manifestIlustracji.encje['bakuryu-oh'], ['characters/Bakuryu-Oh.png']);
   assert.match(god.body, /^## Ilustracje$/m);
   for (const plik of manifestIlustracji.encje['god-raijin-oh']) {
     const adres = `${manifestIlustracji.baseUrl}/${plik.split('/').map(encodeURIComponent).join('/')}`;
