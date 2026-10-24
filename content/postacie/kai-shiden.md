@@ -25,7 +25,7 @@ Po groźbie użycia bomby wodorowej chce opuścić zagrożony obszar, lecz pozos
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-1979|pierwowzorze]] Kai mieszkał w kolonii Green Oasis w pierwszym bloku [[side-7|Side 7]]. Wysoki i chudy, z czupryną siwych włosów i językiem, który regularnie wpędza go w kłopoty. Po ataku [[zeon|Zeonu]] na kolonię znalazł się wśród ewakuowanych na [[white-base|White Base]], a że okrętowi brakowało ludzi, poproszono go, żeby usiadł za sterami: dostał [[guncannon|Guncannona]] i został przy tej maszynie do końca wojny. Sam nazywa siebie tchórzem i cynikiem, woli ostrzeliwać przeciwnika z dystansu bronią dalekiego zasięgu — choć w opałach radzi sobie i w zwarciu — a najbardziej nie znosi, kiedy sprawy się ślimaczą ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-10-24).
+W [[mobile-suit-gundam-1979|pierwowzorze]] Kai mieszkał w kolonii Green Oasis w pierwszym bloku [[side-7|Side 7]]. Wysoki i chudy, z czupryną siwych włosów i językiem, który regularnie wpędza go w kłopoty. Po ataku [[zeon|Zeonu]] na kolonię znalazł się wśród ewakuowanych na [[white-base|White Base]], a że okrętowi brakowało ludzi, poproszono go, żeby usiadł za sterami: dostał [[guncannon|Guncannona]]. Sam nazywa siebie tchórzem i cynikiem, woli ostrzeliwać przeciwnika z dystansu bronią dalekiego zasięgu — choć w opałach radzi sobie i w zwarciu — a najbardziej nie znosi, kiedy sprawy się ślimaczą ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-10-24).
 }}
 {{menu gra=srw-oe
 

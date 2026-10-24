@@ -9,7 +9,6 @@ mechy: []
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Oscar_Dublin
-  - https://gundam.fandom.com/wiki/White_Base_Corps
 tagi: [one-year-war, wsparcie, gundam-1979, federacja, white-base]
 utworzono: 2026-10-20
 ---
@@ -24,7 +23,7 @@ Podczas startu z [[white-base|White Base]] wykrywa przechwytujące siły wroga, 
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-1979|pierwowzorze]] Oscar Dublin jest jednym z dwóch operatorów [[white-base|White Base]]: pracuje przy konsoli zwróconej na prawą burtę, a przy drugiej, lewoburtowej, siedzi [[marker|Marker Clan]]. W wykazie załogi okrętu obaj figurują w stopniu kaprala ([Gundam Wiki, „Oscar Dublin”](https://gundam.fandom.com/wiki/Oscar_Dublin); [Gundam Wiki, „White Base Corps”](https://gundam.fandom.com/wiki/White_Base_Corps); sprawdzono 2026-10-24).
+W [[mobile-suit-gundam-1979|pierwowzorze]] Oscar Dublin jest jednym z dwóch operatorów [[white-base|White Base]]: pracuje przy konsoli zwróconej na prawą burtę, a przy drugiej, lewoburtowej, siedzi [[marker|Marker Clan]] ([Gundam Wiki, „Oscar Dublin”](https://gundam.fandom.com/wiki/Oscar_Dublin); sprawdzono 2026-10-24).
 }}
 {{menu gra=srw-oe
 

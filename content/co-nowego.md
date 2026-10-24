@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-24 11:41
+
+- [[kai-shiden|Kai]] ma tło ograniczone do przydzielenia do [[guncannon|Guncannona]], bez informacji o końcu wojny. [[marker|Marker]] i [[oscar-dublin|Oscar]] zachowują potwierdzone role przy konsolach [[white-base|White Base]], ale bez stopni przeniesionych z odrębnego kontinuum *The Origin*.
+
 ## 2026-10-24 11:40
 
 - [[labor|AV-98 Ingram]] należy do drugiego pokolenia patlaborów. Tło [[ingram-nr-1|Ingrama nr 1]] i [[ingram-nr-2|Ingrama nr 2]] korzysta teraz ze źródła wersji TV, a opis Drugiego Plutonu wyjaśnia rolę egzemplarza nr 3 jako źródła części zapasowych.
