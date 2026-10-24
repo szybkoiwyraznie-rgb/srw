@@ -21,6 +21,8 @@ Funkcjonariuszka Drugiego Plutonu [[sv2|SV2]]. W rozmowie po ćwiczeniach jako j
 Zauważa też, że mówi się o pracach nad [[mobile-suit|mobile suitami]] zrzucanymi z orbity. W tej misji nie prowadzi własnego Labora.
 
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+
+W [[srw-oe-ep1-szalejacy-labor-powraca|Shin-Shinagawa Seaside]] rozpoznaje SEE Type-7 jako [[brocken|Brockena]] i przypomina, że okolicznych mieszkańców już ewakuowano. Mobilizuje pluton do profesjonalnej roboty u boku Klasy Obrony, a po walce chce ustalić przyczynę szału.
 }}
 
 {{zrodlo gra=wspolne

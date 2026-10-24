@@ -38,7 +38,7 @@ test('scena 1-3 jest dosłownym fragmentem skryptu i zachowuje kolejność scen 
   assert.deepEqual(sprawdzWiernoscSceny(scena, script), []);
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1')
     .sort((a, b) => String(a.numer_sceny).localeCompare(String(b.numer_sceny)));
-  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6']);
+  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6', '1-7']);
 });
 
 test('obsada, jednostki i pojęcia misji 3 są spięte ze sceną i epizodem', () => {

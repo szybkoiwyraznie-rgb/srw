@@ -21,6 +21,8 @@ Członek Drugiego Plutonu [[sv2|SV2]] odpowiedzialny za zaopatrzenie i budżet. 
 Gdy walka z [[hal-x10|HAL-X10]] wymyka się planowi, prosi pilota o rozwagę i dbałość o własne życie.
 
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+
+Przed [[srw-oe-ep1-szalejacy-labor-powraca|wyjazdem do Shin-Shinagawa Seaside]] ciągła gotowość doprowadza go do kryzysu małżeńskiego. Przypomina [[isao-ota|Ocie]] o pierwszeństwie ludzkiego życia, po bitwie melduje, że wszystkie szalejące Labory zamilkły, i popiera ustalenie przyczyny incydentu.
 }}
 
 {{zrodlo gra=wspolne

@@ -3,12 +3,13 @@ typ: mech
 slug: medea
 tytul: Medea
 gry: [srw-oe]
-piloci: [zolnierz-jsdf, oficer-federacji]
+piloci: [oficer-federacji, zolnierz-jsdf]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_6.txt", "profil": "Medea", "dane": "**Seria:** Brak wpisu w dostępnych słownikach jednostek i pilotów — *nieustalona*.\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Bez uzbrojenia | 0 | 0–0 | +0 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |\n#### Dodatkowe wpisy — selektor zerowy (animacje / rekordy specjalne)\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 1 | Karabin przeciwlotniczy | 1000 | 1–2 | +5 | 20 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |"}'
 pochodzenie: menu
 zrodla:
   - https://gundam.fandom.com/wiki/Medea
+  - https://www.mahq.net/medea/
 tagi: [jsdf, pojazd-wsparcia, federacja]
 utworzono: 2026-10-21
 ---
@@ -24,7 +25,9 @@ W [[srw-oe-ep1-ratuj-transportowiec-medea|misji „Ratuj transportowiec Medea”
 
 ## Pierwowzór
 
-Medea to wojskowy samolot transportowy Sił Zbrojnych [[earth-federation|Federacji Ziemskiej]], wprowadzony w anime *Mobile Suit Gundam* ([The Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-22). Przewoziła zaopatrzenie i mobile suity, a jej uzbrojenie stanowiły dwa przeciwlotnicze karabiny maszynowe.
+Medea to wojskowy samolot transportowy Sił Zbrojnych [[earth-federation|Federacji Ziemskiej]], wprowadzony w anime *Mobile Suit Gundam* ([The Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24).
+
+Wielki, odłączany kontener pod kadłubem skracał załadunek i rozładunek. Wirniki VTOL pozwalały startować i lądować bez pasa startowego, a niskociśnieniowe opony umożliwiały lądowanie na nierównym podłożu. Medea przewoziła zaopatrzenie i mobile suity, a jej uzbrojenie stanowiły dwa przeciwlotnicze karabiny maszynowe ([MAHQ, „Medea”](https://www.mahq.net/medea/); [The Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24).
 }}
 {{menu gra=srw-oe
 

@@ -52,7 +52,7 @@ test('scena 1-4 jest dosłownym fragmentem skryptu i zachowuje kolejność scen 
   assert.ok(czesci.length >= 6, 'scena ma wszystkie części skryptu');
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1')
     .sort((a, b) => String(a.numer_sceny).localeCompare(String(b.numer_sceny)));
-  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6']);
+  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6', '1-7']);
 });
 
 test('każda podsekcja analizy ma własną kotwicę w treści sceny', () => {
@@ -130,7 +130,7 @@ test('piloci Raijin-Oh mają wartości z dostawy, a wspierający tylko pulę SP'
     assert.equal(page.typ, 'postac', slug);
     assert.equal(page.rola, 'pilot', slug);
     assert.equal(page.seria, 'matchless-raijin-oh', slug);
-    assert.deepEqual(page.mechy, ['raijin-oh'], slug);
+    assert.deepEqual(page.mechy, ['raijin-oh', 'god-raijin-oh'], slug);
     for (const [nazwa, wartosc] of [['SP', wartosci[0]], ['Atak', wartosci[1]], ['Obrona', wartosci[2]],
       ['Celność', wartosci[3]], ['Unik', wartosci[4]]]) {
       assert.match(page.body, new RegExp(`\\| ${nazwa} \\| ${wartosc} \\|`), `${slug}: ${nazwa}`);
@@ -141,7 +141,7 @@ test('piloci Raijin-Oh mają wartości z dostawy, a wspierający tylko pulę SP'
   for (const slug of ['asuka-tsukishiro', 'koji-hoshiyama']) {
     const page = bySlug.get(slug);
     assert.equal(page.rola, 'wsparcie', slug);
-    assert.deepEqual(page.mechy, ['raijin-oh'], slug);
+    assert.deepEqual(page.mechy, ['raijin-oh', 'god-raijin-oh'], slug);
     assert.match(page.body, /Pula SP:\*\* 50/, slug);
   }
   assert.match(bySlug.get('asuka-tsukishiro').body, /\| 1 \| \*\*Pęd\*\* \| 1 \| 20 \|/);

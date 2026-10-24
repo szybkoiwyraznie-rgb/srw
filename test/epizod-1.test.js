@@ -65,7 +65,7 @@ test('epizod 1 istnieje, a skrypt jest archiwum rozegrania', () => {
 
 test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () => {
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1');
-  assert.equal(sceny.length, 6, 'epizod 1 ma dziś sześć scen: od 1-1 do 1-6');
+  assert.equal(sceny.length, 7, 'epizod 1 ma dziś siedem scen: od 1-1 do 1-7');
   const scena = sceny.find((s) => s.slug === 'srw-oe-ep1-szalejacy-prototyp-labora');
   assert.ok(scena, 'scena 1-1 istnieje');
   assert.equal(scena.numer_sceny, '1-1');
@@ -97,7 +97,7 @@ test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () =
     .replace(/\n\n---\n?$/, '');
   assert.equal(odtworzone, oczekiwane);
   for (const czesc of czesci) assert.ok(script.includes(czesc.tekst), czesc.naglowek);
-  assert.equal(pages.filter((p) => p.typ === 'scena').length, 8, 'dwie sceny epizodu 0 i sześć epizodu 1');
+  assert.equal(pages.filter((p) => p.typ === 'scena').length, 9, 'dwie sceny epizodu 0 i siedem epizodu 1');
 });
 
 test('obsada epizodu i sceny obejmuje wszystkie postacie i jednostki z misji', () => {
@@ -127,7 +127,8 @@ test('pięć nowych jednostek ma pełne uzbrojenie z dostawy, a Medea zachowuje 
     assert.equal(mech.typ, 'mech', slug);
     assert.deepEqual(mech.gry, ['srw-oe'], slug);
     const stats = JSON.parse(mech.w_gre['srw-oe']);
-    assert.equal(stats.dostawa, 'dostawy/srw-oe/dostawa_1_1.txt', slug);
+    const zrodlo = slug.startsWith('ingram-') ? 'dostawa_1_7.txt' : 'dostawa_1_1.txt';
+    assert.equal(stats.dostawa, `dostawy/srw-oe/${zrodlo}`, slug);
     assert.ok(delivery.includes(stats.profil), `${slug}: profil w dostawie`);
     const rows = mech.body.split('\n').filter((line) => /^\| \d+ \|/.test(line));
     assert.equal(rows.length, count, `${slug}: liczba ataków`);
@@ -151,7 +152,7 @@ test('jednostki mają pilotów zgodnych z obsadą misji, kolejnych powiązań i 
     helldiver: ['zolnierz-jsdf'],
     'ingram-nr-1': ['noa-izumi'],
     'ingram-nr-2': ['isao-ota'],
-    medea: ['zolnierz-jsdf', 'oficer-federacji'],
+    medea: ['oficer-federacji', 'zolnierz-jsdf'],
   };
   for (const [slug, piloci] of Object.entries(obsada)) {
     assert.deepEqual(bySlug.get(slug).piloci, piloci, slug);

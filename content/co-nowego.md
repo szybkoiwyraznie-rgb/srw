@@ -1,9 +1,23 @@
 # Co nowego
 
+## 2026-10-24 21:26
+
+- [[srw-oe-ep1|Epizod 1]] ma siódmą misję — [[srw-oe-ep1-szalejacy-labor-powraca|„Szalejący Labor powraca”]]: Drugi Pluton [[sv2|SV2]] i [[raijin-oh|Raijin-Oh]] powstrzymują pięć bezzałogowych [[brocken|Brockenów]], ale przyczyna serii incydentów pozostaje nieznana.
+- Dołączyły [[god-raijin-oh|God Raijin-Oh]] oraz [[badrinath-harchand|Bud]], [[seitaro-sakaki|Sakaki]], [[utsumi|Utsumi]] i [[kurosaki|Kurosaki]]. [[jin-hyuga|Jin]] zyskuje **Blok**, a [[noa-izumi|Noa]] i [[isao-ota|Ota]] — **Policjant**.
+- [[ingram-nr-1|Ingram nr 1]] ma uaktualniony efekt Schwytania linką, a oba Ingramy — aktualny zapis dodatkowych obrażeń od Ogłuszenia.
+
 ## 2026-10-24 20:55
 
 - [[srw-oe-ep1|Epizod 1]] ma szóstą misję — [[srw-oe-ep1-ratuj-transportowiec-medea|„Ratuj transportowiec Medea”]]: [[08-pluton-ms|08. Pluton MS]] osłania klucz przed Doppami i naziemnymi Zaku II, a po akcji odlatuje nim do [[jaburo|Jaburo]].
 - [[medea|Medea]] jest powiązana z [[oficer-federacji|Oficerem Federacji]] i ma karabin przeciwlotniczy. [[terry-sanders-jr|Sanders]] i [[michel-ninorich|Michel]] zyskują **Blok**, a [[karen-joshua|Karen]] — **Wsparcie**.
+
+## 2026-10-24 19:08
+
+- [[medea|Medea]] ma opis konstrukcji: odłączany kontener ładunkowy, start i lądowanie bez pasa startowego oraz niskociśnieniowe opony do nierównego podłoża.
+
+## 2026-10-24 19:06
+
+- Załoga [[medea|Medei]] ma właściwą kolejność: najpierw [[oficer-federacji|Oficer Federacji]] z misji ratunkowej, potem domyślny [[zolnierz-jsdf|żołnierz JSDF]].
 
 ## 2026-10-24 16:14
 

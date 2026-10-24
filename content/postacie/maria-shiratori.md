@@ -18,6 +18,8 @@ utworzono: 2026-10-23
 Dowódczyni klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]]. Budzi [[jin-hyuga|Jina]] z bezczynności i ogłasza rozkaz wymarszu, a w polu urządza ćwiczenia z zaskoczenia — bez uprzedzenia wystawia Labory treningowe jako cele wspólnego treningu z [[connect-force|Connect]], żeby Jin się nie obijał.
 
 Prowadzi też odprawę po treningu i prosi [[seishiro|Seishira]], by dołączył do omówienia w szkole. Podkreśla, że klasa zawsze dziękuje generałowi Takedzie, i hamuje przechwałki Jina o wyższości nad dorosłymi.
+
+Po [[srw-oe-ep1-szalejacy-labor-powraca|unieruchomieniu Brockenów na placu budowy]] uznaje sprawę za zakończoną i odwołuje uczniów.
 }}
 
 {{menu gra=srw-oe

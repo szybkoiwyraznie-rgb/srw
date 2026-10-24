@@ -5,7 +5,7 @@ tytul: Jin Hyuga
 rola: pilot
 seria: matchless-raijin-oh
 gry: [srw-oe]
-mechy: [raijin-oh]
+mechy: [raijin-oh, god-raijin-oh]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
@@ -21,6 +21,8 @@ Główny pilot [[raijin-oh|Raijin-Oh]], uczeń klasy [[klasa-obrony-ziemi|Obrony
 W ćwiczeniach z [[connect-force|Connect]] traktuje pole bitwy jak zabawę i złości się, gdy okazuje się, że zamiast wroga czekają Labory treningowe, a [[maria-shiratori|Maria]] urządziła ćwiczenia z zaskoczenia. Narzeka na polecenia [[tsutomu-kojima|Tsutomu]], ale słucha go, gdy ten tłumaczy, po co zrzucać cele z wysokości. Po treningu od razu namawia [[koji-hoshiyama|Kojiego]] na piłkę.
 
 W szkole pyta wprost, czy dorośli są z tego [[connect-force|Connect]], który pokazują w reklamach telewizyjnych, i zaraz dopisuje sobie, że ćwiczą z takimi wyjadaczami jak klasa — co [[maria-shiratori|Maria]] natychmiast gasi.
+
+Podczas [[srw-oe-ep1-szalejacy-labor-powraca|obrony placu budowy]] przybywa z [[raijin-oh|Raijin-Ohem]] na pomoc policjantom i od razu przechwala się, że mogą być spokojni. Po ostrzeżeniu [[asuka-tsukishiro|Asuki]] potwierdza, że nie zaatakuje policyjnych Laborów przez pomyłkę.
 }}
 
 {{menu gra=srw-oe
@@ -56,6 +58,7 @@ W szkole pyta wprost, czy dorośli są z tego [[connect-force|Connect]], który 
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Potenc. Atk** | 1 | Pozostałe HP 10%: Obr/Unik+4% Atk/Kryt+5% |
+| 2 | **Blok** | 3 | Obraż.-16% Sz. 12% *(1.08)* |
 
 }}
 {{zrodlo gra=wspolne

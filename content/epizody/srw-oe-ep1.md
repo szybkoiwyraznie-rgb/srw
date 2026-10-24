@@ -5,12 +5,13 @@ tytul: Epizod 1
 gra: srw-oe
 numer: 1
 skrypt: episodes/srw-oe/ep001.md
-postacie: [seishiro, himari-yaegaki, suol, noa-izumi, isao-ota, kanuka-clancy, asuma-shinohara, kiichi-goto, mikiyasu-shinshi, hiromi-yamazaki, zolnierz-jsdf, shinohara-hos, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve, zolnierz-zeonu, general-revil, oficer-federacji, oficer-zeonu, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, yoko-kuriki, control-ai, christina-mackenzie, shiro-amada, terry-sanders-jr, karen-joshua, michel-ninorich, eledore-massis, zolnierz-federacji, hardy-steiner, mikhail-kaminsky, gabriel-ramirez-garcia, andy-strauss]
+postacie: [seishiro, himari-yaegaki, suol, noa-izumi, isao-ota, kanuka-clancy, asuma-shinohara, kiichi-goto, mikiyasu-shinshi, hiromi-yamazaki, zolnierz-jsdf, shinohara-hos, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve, zolnierz-zeonu, general-revil, oficer-federacji, oficer-zeonu, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, yoko-kuriki, control-ai, christina-mackenzie, shiro-amada, terry-sanders-jr, karen-joshua, michel-ninorich, eledore-massis, zolnierz-federacji, hardy-steiner, mikhail-kaminsky, gabriel-ramirez-garcia, andy-strauss, seitaro-sakaki, badrinath-harchand, utsumi, kurosaki]
 mechy: [exart, ingram-nr-1, ingram-nr-2, medea, hal-x10, hal-x10-green, helldiver, rx-78-2-gundam, guncannon, guntank, g-fighter, white-base, dom, dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, dom-zolnierz-zeonu, h-bomb-missile, raijin-oh, brocken, rx-78nt-1-gundam-alex, gundam-ez8, gundam-ground-type, gundam-ground-type-glowa-gm, hover-truck, kampfer-bazooka, kampfer-high-mobility, zaku-ii-kai]
 pojecia: [connect-force, labor, sv2, sily-samoobrony-japonii, poligon-fuji, black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, minovsky-particles, mobile-suit, newtype, jaburo, krzyz-zeonu, stacja-connect, traktat-antarktyczny, klasa-obrony-ziemi, akademia-hinobori, jaku-empire, 08-pluton-ms, pluton-cyclops, side-6, libot]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Patlabor
+  - https://en.wikipedia.org/wiki/List_of_Patlabor_characters
   - https://patlabor.fandom.com/wiki/HAL_X-10
   - https://patlabor.fandom.com/wiki/Runaway_Labor_X-10!
   - https://gundam.fandom.com/wiki/Black_Tri-Stars
@@ -73,6 +74,12 @@ Oczekiwanie na transport przerywa wezwanie klucza [[medea|Medei]], ściganego pr
 
 Shiro nakazuje najpierw zdjąć [[dopp|Doppy]] i powierza Michelowi oraz Eledore’owi prowadzenie klucza z dala od ognia przeciwlotniczego. Do walki wkraczają także [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]] i [[zaku-ii-bazooka|z bazooką]]. Po odpartym ataku Medea melduje zabezpieczony kurs. Okazuje się, że nie wiozła części zamiennych, a pierwszeństwo mają oddziały pozostające w bazie. Po serwisie i krótkim odpoczynku 08. Pluton wsiada na pokład uratowanego transportowca i odlatuje do [[jaburo|Jaburo]].
 
+### [[srw-oe-ep1-szalejacy-labor-powraca|Misja 7: Szalejący Labor powraca]]
+
+Drugi Pluton [[sv2|SV2]] pozostaje w gotowości mimo zmęczenia i kryzysu małżeńskiego [[mikiyasu-shinshi|Shinshiego]]. Zgłoszenie kodu 205 wysyła go do Shin-Shinagawa Seaside, gdzie [[seitaro-sakaki|Sakaki]] nagli przygotowanie przyczep i działa rewolwerowego. Na wielkim placu budowy pięć bezzałogowych [[brocken|Brockenów]] firmy ochroniarskiej szaleje w hangarze. [[kiichi-goto|Goto]] pozwala „trochę poszaleć”, ale żaden Labor ani pocisk nie może opuścić wyznaczonego kwartału.
+
+[[noa-izumi|Noa]] i [[isao-ota|Ota]] ruszają Ingramami, a pomoc przynosi [[raijin-oh|Raijin-Oh]] z [[jin-hyuga|Jinem]], [[asuka-tsukishiro|Asuką]] i [[koji-hoshiyama|Kojim]]. Po unieruchomieniu wszystkich Laborów [[kanuka-clancy|Kanuka]] i [[asuma-shinohara|Shinohara]] chcą zbadać przyczynę serii incydentów, lecz Goto każe wracać na sztuczną wyspę i zostawić śledztwo reszcie policji. Z okolicy placu [[utsumi|Utsumi]], [[kurosaki|Kurosaki]] i [[badrinath-harchand|Bud]] omawiają walkę; Bud zauważa, że Noa coraz bardziej ufa swojemu Ingramowi.
+
 ## Wątki fabularne
 
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
@@ -94,6 +101,9 @@ Shiro nakazuje najpierw zdjąć [[dopp|Doppy]] i powierza Michelowi oraz Eledore
 | Przeniesienie oddziału do Jaburo | [[srw-oe\|Super Robot Wars OE]] | n/d | Zakończenie misji i oczekiwanie na transportowiec należą do przebiegu gry. |
 | Ratunek klucza Medei i lot do Jaburo | [[srw-oe\|Super Robot Wars OE]] | n/d | Misja eskortowa rozwija rozgrywkowy wątek przenosin oddziału; nie ma wskazanego odpowiednika odcinka. |
 | Medea i lekkie uzbrojenie transportowca | [[mobile-suit-gundam-08th-ms-team\|The 08th MS Team]] | cała seria | Oryginał przedstawia Medeę jako transport Federacji z karabinami przeciwlotniczymi; konkretna akcja ratunkowa należy do gry. |
+| Szalejące Labory firmy ochroniarskiej | [[mobile-police-patlabor\|Patlabor]] | cała seria | Brockeny i zagrożenie wymykającymi się spod kontroli Laborami pochodzą z tego świata; przedstawiona akcja nie ma wskazanego odpowiednika odcinka. |
+| Wspólna obrona placu budowy | [[srw-oe\|Super Robot Wars OE]] | n/d | Współdziałanie Drugiego Plutonu SV2 z Raijin-Ohem oraz rywalizacja o wykonanie zadania należą do scenariusza gry. |
+| Sakaki, Bud, Utsumi i Kurosaki | [[mobile-police-patlabor\|Patlabor]] | cała seria | Postacie zachowują role techniczne lub obserwatorskie; konkretna rozmowa o rozwoju Noi po walce należy do gry. |
 
 ## Komentarz
 
@@ -110,6 +120,8 @@ Czwarta misja wraca do tonu ćwiczeń, ale zmienia perspektywę: tym razem to ni
 Piąta misja splata dwa spojrzenia na Wojnę Jednoroczną. Z jednej strony [[christina-mackenzie|Chris]] mierzy się z prototypową technologią i granicą między symulatorem a walką, z drugiej [[08-pluton-ms|08. Pluton MS]] walczy o konkretny cel taktyczny: dać transportowi czas na start. [[pluton-cyclops|Cyclops]] nie musi zniszczyć całej obrony, wystarczy mu dotrzeć do wahadłowca, dlatego odwrót obrońców i powrót [[karen-joshua|Karen]] mają bezpośrednie znaczenie dla wyniku. Po napięciu scena wraca do codzienności oddziału, ale nie zdejmuje z niego czujności.
 
 Szósta misja przenosi cel taktyczny z wahadłowca na klucz [[medea|Medei]]. Pościg Doppów i wykrycie wrogich mobile suitów na ziemi wymagają jednoczesnej osłony powietrza oraz kierowania transportowca z dala od ognia przeciwlotniczego. Zwycięstwo nie rozwiązuje problemów logistycznych, bo Medea nie wiezie części zamiennych. Dopiero ostatnia rozmowa zmienia uratowaną jednostkę z celu misji w środek dalszej podróży, dzięki czemu wątek przenosin do [[jaburo|Jaburo]] dostaje konkretne zakończenie.
+
+Siódma misja wraca do policyjnego zespołu i zestawia jego profesjonalizm z rywalizacją wobec Klasy Obrony. Ograniczenie walki do jednego kwartału nadaje zwycięstwu konkretny cel, lecz nie zamyka wątku: przyczyna serii szalejących Laborów pozostaje nieznana, a obserwatorzy zamiast odpowiedzi dostarczają oceny rozwoju [[noa-izumi|Noi]] i jej zaufania do maszyny.
 }}
 {{zrodlo gra=wspolne
 
@@ -130,4 +142,5 @@ Szósta misja przenosi cel taktyczny z wahadłowca na klucz [[medea|Medei]]. Po�
 - Pierwszy odcinek [[mobile-suit-gundam-0080|*Mobile Suit Gundam 0080*]] przenosi atak Cyclops na bazę Federacji i udany start nowego Gundama; gra zmienia arktyczne otoczenie, maszyny obrońców i los Andy’ego ([MAHQ, „How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); [Gundam Wiki, odc. 1](https://gundam.fandom.com/wiki/How_Many_Miles_to_the_Battlefield%3F); sprawdzono 2026-10-23).
 - [[08-pluton-ms|08. Pluton MS]] pochodzi z 12-odcinkowej OVA [[mobile-suit-gundam-08th-ms-team|*The 08th MS Team*]] o naziemnym oddziale Federacji w Azji Południowo-Wschodniej. W serialu Eledore prowadzi wóz wsparcia, a Michel jest nawigatorem i celowniczym; gra przypisuje im odwrotne role załogi ([Wikipedia, *Mobile Suit Gundam: The 08th MS Team*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
 - [[medea|Medea]] to samolot transportowy Federacji przewożący zaopatrzenie i mobile suity, uzbrojony jedynie w karabiny przeciwlotnicze ([Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24). W epizodzie gry pełni rolę najpierw jednostki wsparcia JSDF, a potem transportu 08. Plutonu do Jaburo.
+- W *Patlabor* [[seitaro-sakaki|Sakaki]] kieruje mechanikami SV2, [[badrinath-harchand|Bud]] jest młodym pilotem i rywalem Noi, Utsumi kieruje eksperymentalnym wydziałem SHAFT, a Kurosaki jest jego prawą ręką ([Wikipedia, „List of Patlabor characters”](https://en.wikipedia.org/wiki/List_of_Patlabor_characters); sprawdzono 2026-10-24). Wspólna akcja z Raijin-Ohem i ich rozmowa po walce na placu budowy należą do scenariusza gry.
 }}

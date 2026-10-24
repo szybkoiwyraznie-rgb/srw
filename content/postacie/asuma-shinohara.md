@@ -21,6 +21,8 @@ Operator wozu dowodzenia Drugiego Plutonu [[sv2|SV2]]. Prowadzi łączność plu
 Kiedy cele ćwiczebne zaczynają strzelać ostrą amunicją, jako pierwszy rozpoznaje, że [[hal-x10|HAL-X10]] wymknęły się spod kontroli. Po ćwiczeniach pomaga [[noa-izumi|Noie]] uporać się z papierkową robotą.
 
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+
+W [[srw-oe-ep1-szalejacy-labor-powraca|misji na placu budowy]] ostrzega [[noa-izumi|Noę]] i [[isao-ota|Otę]], że [[brocken|Brockena]] zaprojektowano dla wojska, choć model ochroniarski prawdopodobnie nie ma broni palnej. Po walce odrzuca pomysł pozostawienia śledztwa innym: reagowanie po fakcie zawsze pozostawi policję w tyle wobec przyczyny serii incydentów.
 }}
 
 {{zrodlo gra=wspolne

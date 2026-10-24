@@ -30,7 +30,7 @@ function komorki(wiersz) {
   return wiersz.split('|').slice(1, -1).map((cell) => cell.trim());
 }
 
-test('dostawa 1-6 jest zachowana bajt w bajt, a cała misja kończy skrypt epizodu', () => {
+test('dostawa 1-6 jest zachowana bajt w bajt, a cała misja pozostaje w skrypcie epizodu', () => {
   assert.equal(deliveryBytes.length, 25000);
   assert.equal(createHash('sha256').update(deliveryBytes).digest('hex'),
     '786e51536ca0a2d5c20af619b58c577800ed6a5f76d8800f7bc6d3a1f4d0a056');
@@ -39,12 +39,12 @@ test('dostawa 1-6 jest zachowana bajt w bajt, a cała misja kończy skrypt epizo
   assert.match(delivery, /^## Medea$/m);
   assert.match(delivery, /^#### Terry Sanders Jr\.$/m);
   const expected = delivery.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
-  assert.ok(script.trimEnd().endsWith(expected), 'misja z obiema wariantami i narracją na końcu epizodu');
+  assert.ok(script.includes(expected), 'misja z obiema wariantami i narracją pozostaje w epizodzie');
   assert.ok(!script.includes('UCZESTNICY'));
   assert.ok(!script.includes('DL101_60'));
 });
 
-test('scena 1-6 jest dosłowna i domyka kolejność sześciu misji epizodu 1', () => {
+test('scena 1-6 jest dosłowna i poprzedza misję 1-7 w epizodzie 1', () => {
   assert.equal(scena.typ, 'scena');
   assert.equal(scena.epizod, 'srw-oe-ep1');
   assert.equal(scena.numer_sceny, '1-6');
@@ -59,7 +59,7 @@ test('scena 1-6 jest dosłowna i domyka kolejność sześciu misji epizodu 1', (
   }
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1')
     .sort((a, b) => String(a.numer_sceny).localeCompare(String(b.numer_sceny)));
-  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6']);
+  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6', '1-7']);
 });
 
 test('pięć etapów analizy ma kotwice i opisuje prawdziwe warianty zakończenia', () => {
@@ -105,7 +105,8 @@ test('obsada, jednostki i hasła misji 6 są spięte ze sceną oraz epizodem', (
 test('Medea zachowuje wpis bez broni i dostaje osobny karabin oraz drugiego pilota', () => {
   const medea = bySlug.get('medea');
   assert.equal(medea.typ, 'mech');
-  assert.deepEqual(medea.piloci, ['zolnierz-jsdf', 'oficer-federacji']);
+  // ADR 0024: pilot z obsady misji stoi przed domyślną załogą jednostki.
+  assert.deepEqual(medea.piloci, ['oficer-federacji', 'zolnierz-jsdf']);
   assert.deepEqual(bySlug.get('oficer-federacji').mechy, ['medea']);
   assert.ok(bySlug.get('zolnierz-jsdf').mechy.includes('medea'));
   assert.ok(medea.tagi.includes('jsdf'));
@@ -127,6 +128,21 @@ test('Medea zachowuje wpis bez broni i dostaje osobny karabin oraz drugiego pilo
   assert.deepEqual(komorki(rows[0]).slice(0, 7), ['0', 'Bez uzbrojenia', '0', '0–0', '+0', '0', '—']);
   assert.deepEqual(komorki(rows[1]).slice(0, 7),
     ['1', 'Karabin przeciwlotniczy', '1000', '1–2', '+5', '20', '—']);
+});
+
+test('Medea ma źródłowe tło konstrukcji transportowca', () => {
+  const medea = bySlug.get('medea');
+  for (const adres of ['https://gundam.fandom.com/wiki/Medea', 'https://www.mahq.net/medea/']) {
+    assert.ok(medea.zrodla.includes(adres), adres);
+    assert.ok(medea.body.includes(adres), adres);
+  }
+  const tlo = medea.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
+  assert.ok(tlo, 'osobny blok pierwowzoru');
+  for (const fragment of ['odłączany kontener', 'bez pasa startowego',
+    'niskociśnieniowe opony', 'dwa przeciwlotnicze karabiny maszynowe']) {
+    assert.ok(tlo[1].includes(fragment), fragment);
+  }
+  assert.doesNotMatch(tlo[1], /Matilda|C-88|Thunderbolt|Garuda/);
 });
 
 test('Sanders, Karen i Michel zachowują pierwszą umiejętność i dostają drugą z poziomu 3', () => {
@@ -156,9 +172,9 @@ test('epizod i najnowszy wpis Co nowego opisują misję oraz jej skutki', () => 
   assert.match(epizod.body, /Ratunek klucza Medei i lot do Jaburo/);
   assert.match(scena.body, /nie przenoszą konkretnego odcinka/);
   const changelog = fs.readFileSync('content/co-nowego.md', 'utf8');
-  const latest = changelog.split(/^## /m)[1];
-  assert.ok(latest.startsWith('2026-10-24 20:55'));
-  assert.ok(latest.includes('srw-oe-ep1-ratuj-transportowiec-medea'));
-  assert.ok(latest.includes('**Blok**'));
-  assert.ok(latest.includes('**Wsparcie**'));
+  const wpis = changelog.split(/^## /m).find((entry) => entry.startsWith('2026-10-24 20:55'));
+  assert.ok(wpis, 'wpis misji 1-6 pozostaje w dzienniku');
+  assert.ok(wpis.includes('srw-oe-ep1-ratuj-transportowiec-medea'));
+  assert.ok(wpis.includes('**Blok**'));
+  assert.ok(wpis.includes('**Wsparcie**'));
 });
