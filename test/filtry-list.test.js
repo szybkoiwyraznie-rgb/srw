@@ -134,7 +134,7 @@ test('filtr listy scen zawęża po maszynie, postaci i serii obsady', () => {
   assert.deepEqual(sceny(renderListe('scena', { postac: 'noa-izumi' })), ['srw-oe-ep1-szalejacy-prototyp-labora']);
   // Scena nie ma pola `seria` — świat bierze z obsady.
   assert.deepEqual(sceny(renderListe('scena', { seria: 'matchless-raijin-oh' })), ['srw-oe-ep1-trening-klasy-obrony']);
-  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 7, 'wszystkie sceny są z jednej gry');
+  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 8, 'wszystkie sceny są z jednej gry');
 
   const epizody = (html) => [...new Set([...html.matchAll(/href="#\/epizod\/([^"]+)"/g)].map((m) => m[1]))];
   assert.deepEqual(epizody(renderListe('epizod', { mech: 'raijin-oh' })), ['srw-oe-ep1']);

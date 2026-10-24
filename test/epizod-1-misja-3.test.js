@@ -30,7 +30,7 @@ test('dostawa 1-3 jest zarchiwizowana w całości, a sama scena trafia do skrypt
   assert.ok(!script.includes('DL101_30'), 'techniczna etykieta misji nie trafia do skryptu');
 });
 
-test('scena 1-3 jest dosłownym fragmentem skryptu i domyka kolejność scen epizodu 1', () => {
+test('scena 1-3 jest dosłownym fragmentem skryptu i zachowuje kolejność scen epizodu 1', () => {
   assert.equal(scena.typ, 'scena');
   assert.equal(scena.epizod, 'srw-oe-ep1');
   assert.equal(scena.numer_sceny, '1-3');
@@ -38,7 +38,7 @@ test('scena 1-3 jest dosłownym fragmentem skryptu i domyka kolejność scen epi
   assert.deepEqual(sprawdzWiernoscSceny(scena, script), []);
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1')
     .sort((a, b) => String(a.numer_sceny).localeCompare(String(b.numer_sceny)));
-  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5']);
+  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6']);
 });
 
 test('obsada, jednostki i pojęcia misji 3 są spięte ze sceną i epizodem', () => {

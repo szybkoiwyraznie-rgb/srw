@@ -114,6 +114,9 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Start Alexa i atak plutonu Cyclops',
       '08. Pluton MS i ochrona transportu',
       'Przeniesienie oddziału do Jaburo',
+      // scena 1-6: Ratuj transportowiec Medea
+      'Ratunek klucza Medei i lot do Jaburo',
+      'Medea i lekkie uzbrojenie transportowca',
     ],
   };
 

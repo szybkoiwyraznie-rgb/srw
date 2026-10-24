@@ -19,6 +19,8 @@ utworzono: 2026-10-23
 Pilotka [[gundam-ground-type|Gundama Ground Type]] w [[08-pluton-ms|08. Plutonie MS]]. Narzeka na górski teren bazy i jako pierwsza zatrzymuje atakującego przeciwnika. Gdy kamera jej maszyny zostaje zniszczona, [[shiro-amada|Shiro]] odsyła ją do hangaru.
 
 Do walki wraca w [[gundam-ground-type-glowa-gm|konfiguracji z głową GM-a]]. Nie przejmuje się uwagami o wyglądzie, bo w hangarze nie było już właściwych części, i ponownie włącza się do obrony.
+
+Podczas eskorty [[medea|Medei]] chwali części od GM-a za wytrzymałość i dostępność zapasów. Po akcji przyznaje, że polubiła nową głowę: maszyna dobrze reaguje, a serwis jest łatwy. Następnie odlatuje z oddziałem do [[jaburo|Jaburo]].
 }}
 
 {{zrodlo gra=wspolne
@@ -60,4 +62,5 @@ W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] Karen służy w [[08-pluton-m
 | Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
 | ---: | ---------------- | ---------: | ----------------------------------------- |
 |    1 | **Potenc. Kryt** |          1 | Pozostałe HP 10%: Obr/Unik+4% Cel/Kryt+5% |
+|    2 | **Wsparcie**     |          3 | Wsparcie: Atk/Obr+20%                     |
 }}

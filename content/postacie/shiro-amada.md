@@ -19,6 +19,8 @@ utworzono: 2026-10-23
 Chorąży i dowódca [[08-pluton-ms|08. Plutonu MS]], pilot [[gundam-ez8|Gundama Ez8]]. Osłania start wahadłowca z [[rx-78nt-1-gundam-alex|Alexem]]. W rozmowie z [[christina-mackenzie|Chris]] przekonuje, że symulator i prawdziwa walka to co innego, a maszyna, której pilot powierza życie, powinna być raczej nadwrażliwa niż niedoczulona.
 
 Podczas ataku wycofuje [[karen-joshua|Karen]] do hangaru, dzieli obrońców na sektory i nakazuje nie przepuścić żadnego wroga. Chroni wahadłowiec także własną maszyną, a po walce przekazuje, że wszystkie siły atakujące zostały odparte.
+
+Po wezwaniu [[medea|Medei]] natychmiast wysyła cały oddział na ratunek. Nadaje osłonie klucza najwyższy priorytet, nakazuje najpierw zdjąć Doppy i powierza Michelowi oraz Eledore’owi prowadzenie transportowca z dala od ognia przeciwlotniczego. Po serwisie i odpoczynku zarządza lot do [[jaburo|Jaburo]] tą samą Medeą.
 }}
 
 {{zrodlo gra=wspolne

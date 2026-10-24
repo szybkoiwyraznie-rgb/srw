@@ -38,12 +38,13 @@ test('dostawa 1-5 jest zachowana bajt w bajt, a jej scena trafia do epizodu bez 
   assert.match(delivery, /^## Gundam Ez8$/m);
   assert.match(delivery, /^#### Christina Mackenzie$/m);
   const expected = delivery.split('---\nSKRYPT\n---\n\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
-  assert.ok(script.trimEnd().endsWith(expected), 'cała misja, z wariantami, na końcu epizodu');
+  const przedMisja6 = script.split('\n\n---\n\n## Ratuj transportowiec Medea')[0];
+  assert.ok(przedMisja6.trimEnd().endsWith(expected), 'cała misja, z wariantami, bezpośrednio przed misją 1-6');
   assert.ok(!script.includes('UCZESTNICY'));
   assert.ok(!script.includes('DL101_50'));
 });
 
-test('scena 1-5 jest dosłowna i domyka kolejność pięciu misji epizodu 1', () => {
+test('scena 1-5 jest dosłowna i poprzedza misję 1-6 w kolejności epizodu', () => {
   assert.equal(scena.typ, 'scena');
   assert.equal(scena.epizod, 'srw-oe-ep1');
   assert.equal(scena.numer_sceny, '1-5');
@@ -56,7 +57,7 @@ test('scena 1-5 jest dosłowna i domyka kolejność pięciu misji epizodu 1', ()
   }
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1')
     .sort((a, b) => String(a.numer_sceny).localeCompare(String(b.numer_sceny)));
-  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5']);
+  assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6']);
 });
 
 test('dziewięć etapów analizy ma dokładnie dziewięć kotwic, także przy powtórzonej nazwie miejsca', () => {

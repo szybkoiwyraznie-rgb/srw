@@ -20,6 +20,8 @@ utworzono: 2026-10-23
 
 Odrębna konfiguracja [[gundam-ground-type|Gundama Ground Type]], w której [[karen-joshua|Karen Joshua]] wraca do obrony wahadłowca po uszkodzeniu kamery. W hangarze brakuje właściwej głowy, więc mechanicy montują część od GM-a; [[michel-ninorich|Michel]] od razu zauważa różnicę, ale Karen stawia sprawność ponad wyglądem.
 
+Karen używa tej samej konfiguracji podczas późniejszej eskorty [[medea|Medei]].
+
 Ta konfiguracja ma własne wartości: słabsze piersiowe działko Vulcan, mocniejszy karabin maszynowy 100 mm oraz działo 180 mm zamiast wyrzutni rakiet. Szabla wiązkowa korzysta z Gardy, a działo z Penetracji.
 
 ## Pozostałe jednostki Gundam Ground Type

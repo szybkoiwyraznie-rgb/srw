@@ -14,6 +14,8 @@ utworzono: 2026-10-22
 ## Opis
 
 Baza [[earth-federation|Federacji Ziemskiej]], z której pochodzą dane wywiadowcze przekazywane na [[white-base|White Base]]. [[oscar-dublin|Oscar]] potwierdza, że informacja o [[black-tri-stars|Black Tri-Stars]] pochodzi właśnie stamtąd, a [[kai-shiden|Kai]] pyta, czy okręt nie leci przypadkiem do Jaburo.
+
+Jaburo jest też celem przeniesienia [[08-pluton-ms|08. Plutonu MS]]. Po obronie wahadłowca i uratowaniu klucza [[medea|Medei]] oddział wsiada na jej pokład i odlatuje do tej bazy.
 }}
 {{zrodlo gra=wspolne
 
