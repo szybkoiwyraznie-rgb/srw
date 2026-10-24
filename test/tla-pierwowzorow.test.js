@@ -138,6 +138,25 @@ test('źródłowe nawiązania do serialu Patlabor linkują wariant TV HAL-X10', 
   }
 });
 
+test('God Raijin-Oh i Real PG Gundam mają sprawdzone tło pierwowzoru (ADR 0008, ADR 0012, ADR 0013)', () => {
+  sprawdzBlok('god-raijin-oh', [
+    'https://en.wikipedia.org/wiki/Matchless_Raijin-Oh',
+    'https://eldran.fandom.com/wiki/God_Raijin-Oh',
+  ]);
+  sprawdzBlok('real-pg-gundam', [
+    'https://superrobotwars.fandom.com/wiki/Banpresto_Original/Units',
+    'https://en.wikipedia.org/wiki/Sgt._Frog',
+    'https://en.wikipedia.org/wiki/Gunpla',
+  ]);
+  assert.match(bySlug.get('god-raijin-oh').body, /Bakuryū-Oh/);
+  assert.match(bySlug.get('god-raijin-oh').body, /41 metrów/);
+  assert.equal(pages.some((p) => /bakuryu/i.test(p.slug)), false,
+    'wzmianka źródłowa nie tworzy osobnej encji spoza dostaw');
+  assert.match(bySlug.get('real-pg-gundam').body, /Perfect Grade/);
+  assert.match(bySlug.get('real-pg-gundam').body, /1:60/);
+  assert.deepEqual(bySlug.get('real-pg-gundam').piloci, []);
+});
+
 test('encje bez pierwowzoru poza bazą źródeł nie dostają zmyślonego tła (ADR 0012, ADR 0018)', () => {
   // Zbiorcze profile, sprzęt pola walki i jednostki oryginalne nie mają osobnego
   // pierwowzoru do zacytowania — pusty blok byłby zmyśleniem.

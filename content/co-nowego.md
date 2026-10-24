@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-10-24 21:52
+
+- [[god-raijin-oh|God Raijin-Oh]] ma opis pierwowzoru z [[matchless-raijin-oh|*Matchless Raijin-Oh*]]: powstaje z superpołączenia [[raijin-oh|Raijin-Oh]] i Bakuryū-Oh przeciw wzmocnionym bestiom [[jaku-empire|Imperium Jaku]].
+- [[real-pg-gundam|Real PG Gundam]] ma wyjaśnione pochodzenie z zestawów modelarskich **Perfect Grade** w skali 1:60 i pasji Keroro z [[sgt-frog|*Sgt. Frog*]], a [[krzyz-zeonu|Krzyż Zeonu]] — źródłowe tło o dwustopniowym odznaczeniu Księstwa i wzmiance [[char-aznable|Chara]] z szóstego odcinka [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
+- Opisy serii [[matchless-raijin-oh|Matchless Raijin-Oh]], [[mobile-police-patlabor|Mobile Police Patlabor]] i [[super-robot-wars-original|Super Robot Wars Original]] uwzględniają pełną dotychczasową obsadę i maszyny.
+
 ## 2026-10-24 21:48
 
 - [[srw-oe-ep1-szalejacy-labor-powraca|„Szalejący Labor powraca”]] i [[srw-oe-ep1|Epizod 1]] wskazują teraz pierwowzór obserwacji walki Ingramów przez [[utsumi|Utsumiego]], [[kurosaki|Kurosakiego]] i [[badrinath-harchand|Buda]]: 28. odcinek [[mobile-police-patlabor|*Mobile Police Patlabor*]] („Suspicious Duo”), połączony w grze z motywem serii bezzałogowych incydentów z otwarcia [[patlabor-the-movie|*Patlabor: The Movie*]].
