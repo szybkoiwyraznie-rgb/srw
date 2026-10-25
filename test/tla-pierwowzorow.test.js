@@ -22,7 +22,7 @@ function sprawdzBlok(slug, adresy) {
   const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
   assert.ok(blok, `${slug}: blok tła z pierwowzoru`);
   assert.match(blok[1], /pierwowzor/i, `${slug}: tło oddzielone od wydarzeń gry`);
-  assert.match(blok[1], /sprawdzono 2026-10-24\)/, `${slug}: data sprawdzenia źródła`);
+  assert.match(blok[1], /sprawdzono 2026-10-2[45]\)/, `${slug}: data sprawdzenia źródła`);
   assert.doesNotMatch(blok[1], spoilery, `${slug}: tło nie wyprzedza fabuły`);
   for (const adres of adresy) {
     assert.ok(page.zrodla.includes(adres), `${slug}: ${adres} w frontmatterze`);
@@ -162,11 +162,14 @@ test('God Raijin-Oh i Real PG Gundam mają sprawdzone tło pierwowzoru (ADR 0008
   const bakuryu = bySlug.get('bakuryu-oh');
   assert.ok(bakuryu, 'Bakuryu-Oh ma stronę postaci z dostawy ilustracji');
   assert.equal(bakuryu.typ, 'postac');
-  assert.equal(bakuryu.rola, 'pilot');
+  assert.equal(bakuryu.rola, 'wsparcie');
+  assert.equal(bakuryu.pochodzenie, 'zrodlo');
   assert.equal(bakuryu.seria, 'matchless-raijin-oh');
   assert.deepEqual(bakuryu.mechy, ['god-raijin-oh']);
-  assert.ok(bySlug.get('god-raijin-oh').piloci.includes('bakuryu-oh'),
-    'Bakuryu-Oh jest przypisany do załogi God Raijin-Oha');
+  assert.ok(!bySlug.get('god-raijin-oh').piloci.includes('bakuryu-oh'),
+    'źródło nie zmienia załogi z menu (ADR 0017)');
+  assert.doesNotMatch(bakuryu.body, /Super Robot Wars GC|sub-pilot|na ekranie załogi/i);
+  assert.doesNotMatch(bySlug.get('devil-gundam-incident').body, /Master Asia|zgładzenia ludzkości|Kasshu|Kyoji/i);
   for (const adres of [
     'https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC',
     'https://eldran.fandom.com/wiki/Bakury%C5%AB-Oh',

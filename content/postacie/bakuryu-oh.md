@@ -2,7 +2,7 @@
 typ: postac
 slug: bakuryu-oh
 tytul: Bakuryu-Oh
-rola: pilot
+rola: wsparcie
 seria: matchless-raijin-oh
 gry: [srw-oe]
 mechy: [god-raijin-oh]
@@ -11,34 +11,23 @@ zrodla:
   - https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC
   - https://eldran.fandom.com/wiki/Bakury%C5%AB-Oh
   - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
-tagi: [eldran, pilot, klasa-obrony-ziemi]
+tagi: [klasa-obrony-ziemi, eldran, wsparcie]
 utworzono: 2026-10-25
 ---
-{{menu gra=srw-oe
+{{zrodlo gra=wspolne
 
 ## Opis
 
-W [[srw-oe|Super Robot Wars OE]] Bakuryu-Oh jest kopilotem [[god-raijin-oh|God Raijin-Oha]]. Do załogi tej formy dołącza obok [[jin-hyuga|Jina]], [[asuka-tsukishiro|Asuki]] i [[koji-hoshiyama|Kojiego]].
+Bezzałogowy robot wsparcia [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] z serialu [[matchless-raijin-oh|*Matchless Raijin-Oh*]], powierzony uczniom przez Eldrana i ukryty pod budynkiem [[akademia-hinobori|Szkoły Podstawowej Hinobori]]. Z sali dowodzenia zdalnie kierują nim [[maria-shiratori|Maria Shiratori]] oraz [[tsutomu-kojima|Tsutomu Kojima]] ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); [Eldran Wiki, „Bakuryū-Oh”](https://eldran.fandom.com/wiki/Bakury%C5%AB-Oh); [SRW Wiki, „バクリュウオー”](https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC); sprawdzono 2026-10-25).
+
+Startuje w postaci smoka **Bakuryu Dragon** (58 m długości, 70 t masy), ziejącego płomieniem Bakuryu Fire, po czym przekształca się w humanoidalnego **Bakuryu-Oha** (27,5 m wzrostu, 62 t masy) uzbrojonego w tarczę Bakuryu Shield, przecinak Bakuryu Cutter oraz działo Bakuryu Cannon. Po superpołączeniu z [[raijin-oh|Raijin-Ohem]] tworzy [[god-raijin-oh|God Raijin-Oha]] ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); [Eldran Wiki, „Bakuryū-Oh”](https://eldran.fandom.com/wiki/Bakury%C5%AB-Oh); sprawdzono 2026-10-25).
 }}
 
 {{zrodlo gra=srw-oe
 
-## Rola w Super Robot Wars OE
+## Związek z God Raijin-Ohem
 
-W Operation Extend Bakuryu-Oh nie występuje jako samodzielna jednostka bojowa. Kiedy [[raijin-oh|Raijin-Oh]] łączy się w [[god-raijin-oh|God Raijin-Oha]], Bakuryu-Oh rejestruje się jako sub-pilot i służy wyłącznie jako obsada Komend Ducha tej formy ([SRW Wiki, „バクリュウオー”](https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC); sprawdzono 2026-10-25).
-
-W innych grach serii, na przykład w *Super Robot Wars GC*, sam Bakuryu-Oh bywa traktowany jako pilot-maszyna: mimo że jest robotem, ma własne morale i Komendy Ducha, a na ekranie załogi God Raijin-Oha jego twarz widnieje obok trójki uczniów ([SRW Wiki, „バクリュウオー”](https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC); sprawdzono 2026-10-25).
-}}
-
-{{zrodlo gra=wspolne
-
-## Pierwowzór
-
-W serialu *Zettai Muteki Raijin-Oh* Bakuryu-Oh (バクリュウオー) to robot wspierający, który Eldran przygotował dla [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] jako tajną broń na wypadek, gdyby [[raijin-oh|Raijin-Oh]] sam nie sprostał wrogowi. Długo spoczywał ukryty pod szkołą, a przebudzono go, gdy na polu walki pojawił się Jaku Satan ([Eldran Wiki, „Bakuryū-Oh”](https://eldran.fandom.com/wiki/Bakury%C5%AB-Oh); sprawdzono 2026-10-25).
-
-Nie ma pokładowego pilota — Klasa Obrony Ziemi steruje nim zdalnie, a za stanowisko dowodzenia odpowiadają [[maria-shiratori|Maria Shiratori]] i [[tsutomu-kojima|Tsutomu Kojima]] ([SRW Wiki, „バクリュウオー”](https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC); sprawdzono 2026-10-25). Dzięki Niezwyciężonej Transformacji przyjmuje dwie formy: podstawowego smoka Bakuryu Dragon oraz humanoida. W formie smoka zionie ogniem Bakuryu Fire, a jako humanoid walczy działem Bakuryu Cannon i tnącymi ostrzami Bakuryu Cutter ([Eldran Wiki, „Bakuryū-Oh”](https://eldran.fandom.com/wiki/Bakury%C5%AB-Oh); sprawdzono 2026-10-25).
-
-Jego siła jest porównywalna z Raijin-Ohem, a superpołączenie obu robotów tworzy [[god-raijin-oh|God Raijin-Oha]] ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-25).
+W [[srw-oe|Super Robot Wars OE]] Bakuryu-Oh nie występuje jako samodzielna jednostka na polu walki. Wspiera [[jin-hyuga|Jina Hyugę]], [[asuka-tsukishiro|Asukę Tsukishiro]] i [[koji-hoshiyama|Kojiego Hoshiyamę]] jako podpilot [[god-raijin-oh|God Raijin-Oha]] po połączeniu z [[raijin-oh|Raijin-Oha]], wnosząc własny zestaw Komend Ducha — `鉄壁` (żelazną obronę) oraz `追風` (`Wiatr`) ([SRW Wiki, „バクリュウオー”](https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC); sprawdzono 2026-10-25).
 }}
 
 {{menu gra=srw-oe
@@ -47,6 +36,6 @@ Jego siła jest porównywalna z Raijin-Ohem, a superpołączenie obu robotów tw
 
 ### Ilustracja 1
 
-![Bakuryu-Oh — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Bakuryu-Oh.png)
+![Portret Bakuryu-Oha z Super Robot Wars OE](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Bakuryu-Oh.png)
 
 }}

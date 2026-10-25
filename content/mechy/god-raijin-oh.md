@@ -5,13 +5,14 @@ tytul: God Raijin-Oh
 seria: matchless-raijin-oh
 typ_mecha: super robot
 gry: [srw-oe]
-piloci: [jin-hyuga, asuka-tsukishiro, koji-hoshiyama, bakuryu-oh]
+piloci: [jin-hyuga, asuka-tsukishiro, koji-hoshiyama]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_7.txt", "profil": "God Raijin-Oh", "dane": "**Seria:** Matchless Raijin-Oh\n### Macierzyste zdolności maszyny\n- **Odnowa HP (poziom bazowy 1):** HP co turę+4%\n- **Odnowa EN (poziom bazowy 1):** EN co turę+4%\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | God Raijin Boomerang | 2700 | 2–5 | +35 | 0 | — | Brak w tym polu | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód; **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |\n| 1 | God Raijin Sword | 3000 | 1–8 | +5 | 30 | — | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej; Bez kontry; Nie do wsparcia ani kontry |\n| 2 | God Hyper Flash | 3900 | 1–3 | +15 | 20 | 105 | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia |\n| 3 | Final Fire | 5400 | 3–6 | +10 | 50 | 120 | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |\n| 4 | Hyper Thunder Crash | 6500 | 1–2 | +25 | 70 | 140 | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |"}'
 pochodzenie: menu
 zrodla:
   - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
   - https://eldran.fandom.com/wiki/God_Raijin-Oh
+  - https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC
 tagi: [eldran, super-robot, klasa-obrony-ziemi]
 utworzono: 2026-10-24
 ---
@@ -19,16 +20,21 @@ utworzono: 2026-10-24
 
 ## Opis
 
-God Raijin-Oh jest formą, w którą [[raijin-oh|Raijin-Oh]] może się połączyć przy morale co najmniej 120. Zachowuje troje pilotów: [[jin-hyuga|Jina]], [[asuka-tsukishiro|Asukę]] i [[koji-hoshiyama|Kojiego]], a kopilotem zostaje [[bakuryu-oh|Bakuryu-Oh]]. Forma odnawia HP i EN w każdej turze oraz blokuje ciosy tarczą.
+God Raijin-Oh jest formą, w którą [[raijin-oh|Raijin-Oh]] może się połączyć przy morale co najmniej 120. Zachowuje troje pilotów: [[jin-hyuga|Jina]], [[asuka-tsukishiro|Asukę]] i [[koji-hoshiyama|Kojiego]], odnawia HP i EN w każdej turze oraz blokuje ciosy tarczą.
 
 Jej uzbrojenie obejmuje God Raijin Boomerang, God Raijin Sword, God Hyper Flash, Final Fire i Hyper Thunder Crash. God Raijin Sword przebija się przez wrogów w zasięgu i rusza dalej, a Hyper Thunder Crash ma najwyższą moc bazową zestawu.
+}}
+
+{{zrodlo gra=srw-oe
+
+W [[srw-oe|Super Robot Wars OE]] po połączeniu w God Raijin-Oha do załogi dołącza jako podpilot [[bakuryu-oh|Bakuryu-Oh]], dysponujący wspierającymi Komendami Ducha ([SRW Wiki, „バクリュウオー”](https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC); sprawdzono 2026-10-25).
 }}
 
 {{zrodlo gra=wspolne
 
 ## Pierwowzór
 
-W [[matchless-raijin-oh|pierwowzorze]] God Raijin-Oh (ゴッドライジンオー) powstaje z superpołączenia [[raijin-oh|Raijin-Oh]] i pomocniczego transformowalnego robota [[bakuryu-oh|Bakuryū-Oh]]. Forma debiutuje w 23. odcinku *Zettai Muteki Raijin-Oh*, gdy wysłannicy [[jaku-empire|Imperium Jaku]] wzmacniają swoje bestie za pomocą Jaku Satana; mierzy 41 metrów wysokości, waży 116 ton, a w kolejnych starciach korzysta m.in. z działa God Raijin Bazooka oraz miecza God Raijin Sword ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); [Eldran Wiki, „God Raijin-Oh”](https://eldran.fandom.com/wiki/God_Raijin-Oh); sprawdzono 2026-10-24).
+W [[matchless-raijin-oh|pierwowzorze]] God Raijin-Oh (ゴッドライジンオー) powstaje z superpołączenia [[raijin-oh|Raijin-Oh]] i bezzałogowego robota wsparcia [[bakuryu-oh|Bakuryū-Oh]], zdalnie kierowanego z sali dowodzenia [[akademia-hinobori|Szkoły Podstawowej Hinobori]]. Forma debiutuje w 23. odcinku *Zettai Muteki Raijin-Oh*, mierzy 41 metrów wysokości, waży 116 ton i korzysta m.in. z działa God Raijin Bazooka oraz miecza God Raijin Sword ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); [Eldran Wiki, „God Raijin-Oh”](https://eldran.fandom.com/wiki/God_Raijin-Oh); sprawdzono 2026-10-25).
 }}
 
 {{menu gra=srw-oe

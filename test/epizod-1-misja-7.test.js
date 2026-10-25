@@ -144,11 +144,12 @@ test('God Raijin-Oh ma odrębne parametry i załogę, ale nie jest osobną jedno
   const god = bySlug.get('god-raijin-oh');
   assert.equal(god.typ, 'mech');
   assert.equal(god.seria, 'matchless-raijin-oh');
-  assert.deepEqual(god.piloci, ['jin-hyuga', 'asuka-tsukishiro', 'koji-hoshiyama', 'bakuryu-oh']);
+  assert.deepEqual(god.piloci, ['jin-hyuga', 'asuka-tsukishiro', 'koji-hoshiyama'],
+    'źródło nie zmienia załogi z menu (ADR 0017)');
   for (const slug of ['jin-hyuga', 'asuka-tsukishiro', 'koji-hoshiyama']) {
     assert.deepEqual(bySlug.get(slug).mechy, ['raijin-oh', 'god-raijin-oh'], slug);
   }
-  // Bakuryu-Oh jest kopilotem wyłącznie formy God Raijin-Oh, nie pilotauje Raijin-Oha.
+  // Bakuryu-Oh jest podpilotem wyłącznie formy God Raijin-Oh; relacja siedzi na jego stronie postaci.
   assert.deepEqual(bySlug.get('bakuryu-oh').mechy, ['god-raijin-oh']);
   assert.match(god.body, /\[\[raijin-oh\|Raijin-Oh\]\]/);
   assert.match(bySlug.get('raijin-oh').body, /\[\[god-raijin-oh\|God Raijin-Oh\]\]/);
