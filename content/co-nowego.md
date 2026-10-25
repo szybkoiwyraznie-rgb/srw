@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-10-25 09:50
+
+- [[invaderzy|Invaderzy]] i [[muge-empire|Imperium Muge]] z [[srw-oe-ep0|prologu]] [[srw-oe|Super Robot Wars OE]] opisują pozaziemskich najeźdźców z *Getter Robo Armageddon* oraz Imperium Muge Zorbados z *Dancouga – Super Beast Machine God* — serii obecnych w składzie gry — a nawiązania prologu obejmują także [[evil-god-drago|Złego Boga Drago]] i zagrożenia cyklu Eldran.
+- Kolonie i bazy kosmiczne [[universal-century|Universal Century]] — [[luna-ii|Luna II]], [[side-7|Side 7]], [[side-6|Side 6]] i [[libot|Libot]] — mają uzupełnione dzieje z pierwowzorów (przeholowanie planetoidy Juno do punktu L3, tajne prace Projektu V podczas zwiadu ludzi [[char-aznable|Chara]], neutralność Republiki Riah i zawinięcie wahadłowca *Ginga* z [[rx-78nt-1-gundam-alex|Alexem]]) oraz powiązania z rozgrywanymi tam scenami obok [[stacja-connect|stacji Connect]].
+
 ## 2026-10-25 00:37
 
 - [[devil-gundam-incident|Incydent Devil Gundam]] opisuje eksperymentalny rodowód Devil Gundama (pierwotnie Ultimate Gundama), jego zdolności samoregeneracji, namnażania i ewolucji oraz osadzenie pierwowzoru *Mobile Fighter G Gundam* w roku 60 ery Future Century.

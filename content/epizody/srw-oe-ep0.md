@@ -13,6 +13,13 @@ zrodla:
   - https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE
   - https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam
   - https://en.wikipedia.org/wiki/Mazinger_Z
+  - https://en.wikipedia.org/wiki/Getter_Robo_Armageddon
+  - https://en.wikipedia.org/wiki/Dancouga_%E2%80%93_Super_Beast_Machine_God
+  - https://ja.wikipedia.org/wiki/%E7%8D%A3%E7%A5%9E%E3%83%A9%E3%82%A4%E3%82%AC%E3%83%BC
+  - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
+  - https://en.wikipedia.org/wiki/Genki_Bakuhatsu_Ganbaruger
+  - https://eldran.fandom.com/wiki/Mechanization_Empire
+  - https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam
   - https://en.wikipedia.org/wiki/White_Base
   - https://en.wikipedia.org/wiki/Char_Aznable
@@ -60,20 +67,20 @@ Druga scena zmienia ton: szkolenie ustępuje miejsca wojnie, a neutralna organiz
 
 - Prolog U.C. 0079 i pierwszy pilotaż Gundama przez [[amuro-ray|Amura]] pochodzą z odcinka 1 „Gundam Rising” ([Gundam Wiki, „Gundam Rising”](https://gundam.fandom.com/wiki/Gundam_Rising); sprawdzono 2026-10-22).
 - Ranny [[paolo-cassius|Paolo]], improwizowana załoga [[white-base|White Base]] i pierwsze bezpośrednie starcie Gundama z [[char-aznable|Charem]] odpowiadają odcinkowi 2 „Destroy Gundam” ([Gundam Wiki, „Destroy Gundam”](https://gundam.fandom.com/wiki/Destroy_Gundam); sprawdzono 2026-10-22).
+- **[[invaderzy|Invaderzy]]** pochodzą z serii OVA *Getter Robo Armageddon* (1998–1999), **[[muge-empire|Imperium Muge]]** to pozaziemscy najeźdźcy Muge Zorbados z *Dancouga – Super Beast Machine God* (1985), a **[[evil-god-drago|Zły Bóg Drago]]** to pradawne bóstwo z *Jushin Liger* (1989–1990); wszystkie trzy tytuły należą do zestawienia serii uczestniczących w *Super Robot Wars OE* ([Wikipedia, *Getter Robo Armageddon*](https://en.wikipedia.org/wiki/Getter_Robo_Armageddon); [Wikipedia, *Dancouga – Super Beast Machine God*](https://en.wikipedia.org/wiki/Dancouga_%E2%80%93_Super_Beast_Machine_God); [Wikipedia JP, *Jushin Liger*](https://ja.wikipedia.org/wiki/%E7%8D%A3%E7%A5%9E%E3%83%A9%E3%82%A4%E3%82%AC%E3%83%BC); [Wikipedia JP, *Super Robot Wars Operation Extend*](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend); sprawdzono 2026-10-25).
+- **[[jaku-empire|Imperium Jaku]]**, **[[daimakai|Daimakai]]** i **[[mechanization-empire|Imperium Mechanizacji]]** to zagrożenia z trzech kolejnych odsłon cyklu Eldran — [[matchless-raijin-oh|*Matchless Raijin-Oh*]], *Genki Bakuhatsu Ganbaruger* i *Nekketsu Saikyō Go-Saurer* — obecnych w składzie serii *Super Robot Wars OE* ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); [Wikipedia, *Genki Bakuhatsu Ganbaruger*](https://en.wikipedia.org/wiki/Genki_Bakuhatsu_Ganbaruger); [Eldran Wiki, „Mechanization Empire”](https://eldran.fandom.com/wiki/Mechanization_Empire); [Wikipedia JP, *Super Robot Wars Operation Extend*](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend); sprawdzono 2026-10-25).
 - **[[dr-hell|Dr. Hell]]** wymieniony w prologu to postać z *Mazinger Z* Go Nagai. Jest niemieckim członkiem japońskiej
   wyprawy archeologicznej, która odkryła wyspę Bardos. Dowodzi Mechanicznymi Bestiami
   ([en.wikipedia.org, *Mazinger Z*](https://en.wikipedia.org/wiki/Mazinger_Z); sprawdzono 2026-10-25).
-- **Devil Gundam Incident** to wydarzenie z *Mobile Fighter G Gundam*, w którym Devil Gundam powstał z Ultimate
-  Gundam i zagrażał ludzkości ([en.wikipedia.org, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam); sprawdzono 2026-10-25).
+- **Devil Gundam Incident** to wydarzenie z *Mobile Fighter G Gundam*, w którym eksperymentalny Devil Gundam (pierwotnie Ultimate Gundam)
+  wymknął się spod kontroli ([en.wikipedia.org, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam); sprawdzono 2026-10-25).
   Patrz [[devil-gundam-incident|hasło]] i rozbieżność niżej.
 - **Connect Force** jest oryginalną jednostką tej gry, a nie nawiązaniem do innej serii
   ([TV Tropes, *Characters in Super Robot Wars OE*](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-25).
 }}
 {{wiedza gra=srw-oe
 
-Wspomnienie dawnych najazdów łączy różne historie w jedną przeszłość świata gry.
-Imperium Muge prawdopodobnie nawiązuje do Muge Zorbados Empire z *Dancougi*, a wspólną ramą chronologiczną staje się Universal Century z *Gundama*.
-Skoro prolog rozgrywa się w U.C. 0079, incydent Devil Gundam należy w tym świecie do przeszłości tej ery.
+Wspomnienie dawnych najazdów łączy różne serie w jedną wspólną przeszłość świata gry, a nadrzędną ramą kalendarzową staje się [[universal-century|Universal Century]] z *Gundama*. Skoro prolog rozgrywa się w [[uc-0079|U.C. 0079]], przywołany w nim incydent Devil Gundam należy w tym świecie do przeszłości wspólnej ery.
 }}
 {{zrodlo gra=srw-oe
 

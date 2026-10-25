@@ -193,9 +193,23 @@ test('Federacja Ziemska i zagrożenia cyklu Eldran mają sprawdzone tło bez dom
     'https://eldran.fandom.com/wiki/Jaku_Empire',
     'https://en.wikipedia.org/wiki/Matchless_Raijin-Oh',
   ]);
-  for (const slug of ['earth-federation', 'jaku-empire', 'daimakai', 'mechanization-empire', 'super-robot-wars-original']) {
+  for (const slug of ['earth-federation', 'jaku-empire', 'daimakai', 'mechanization-empire',
+    'invaderzy', 'muge-empire', 'evil-god-drago', 'super-robot-wars-original']) {
     assert.doesNotMatch(bySlug.get(slug).body, /\{\{wiedza/, `${slug}: bez przestarzałego bloku wiedzy`);
   }
+  sprawdzBlok('luna-ii', ['https://gundam.fandom.com/wiki/Luna_II']);
+  sprawdzBlok('libot', ['https://www.mahq.net/gundam0080ep1/']);
+  sprawdzBlok('side-6', [
+    'https://gundam.fandom.com/wiki/Mobile_Suit_Gundam_0080:_War_in_the_Pocket',
+    'https://en.wikipedia.org/wiki/Mobile_Suit_Gundam_0080:_War_in_the_Pocket',
+  ]);
+  sprawdzBlok('side-7', [
+    'https://gundam.fandom.com/wiki/RX-78-2_Gundam',
+    'https://gundam.fandom.com/wiki/Gundam_Rising',
+  ]);
+  assert.match(bySlug.get('invaderzy').body, /Getter Robo Armageddon/);
+  assert.match(bySlug.get('muge-empire').body, /Muge Zorbados/);
+  assert.doesNotMatch(bySlug.get('srw-oe-ep0').body, /prawdopodobnie nawiązuje/);
   // Karty serii wymieniają wszystkie dotychczasowe imienne postacie i maszyny swojego świata.
   const generyczne = new Set(['zolnierz-jsdf', 'zolnierz-federacji', 'zolnierz-zeonu', 'oficer-federacji', 'oficer-zeonu']);
   for (const seria of pages.filter((p) => p.typ === 'seria')) {
