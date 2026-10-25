@@ -157,8 +157,25 @@ test('God Raijin-Oh i Real PG Gundam mają sprawdzone tło pierwowzoru (ADR 0008
   ]);
   assert.match(bySlug.get('god-raijin-oh').body, /Bakuryū-Oh/);
   assert.match(bySlug.get('god-raijin-oh').body, /41 metrów/);
-  assert.equal(pages.some((p) => /bakuryu/i.test(p.slug)), false,
-    'wzmianka źródłowa nie tworzy osobnej encji spoza dostaw');
+  // Dostawa ilustracji z 2026-10-25 jednoznacznie wskazuje kopilota — Bakuryu-Oh
+  // dostaje własną stronę postaci (ADR 0017), zamiast być tylko zdjęciem w galerii.
+  const bakuryu = bySlug.get('bakuryu-oh');
+  assert.ok(bakuryu, 'Bakuryu-Oh ma stronę postaci z dostawy ilustracji');
+  assert.equal(bakuryu.typ, 'postac');
+  assert.equal(bakuryu.rola, 'pilot');
+  assert.equal(bakuryu.seria, 'matchless-raijin-oh');
+  assert.deepEqual(bakuryu.mechy, ['god-raijin-oh']);
+  assert.ok(bySlug.get('god-raijin-oh').piloci.includes('bakuryu-oh'),
+    'Bakuryu-Oh jest przypisany do załogi God Raijin-Oha');
+  for (const adres of [
+    'https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC',
+    'https://eldran.fandom.com/wiki/Bakury%C5%AB-Oh',
+    'https://en.wikipedia.org/wiki/Matchless_Raijin-Oh',
+  ]) {
+    assert.ok(bakuryu.zrodla.includes(adres), `bakuryu-oh: ${adres} w frontmatterze`);
+    assert.ok(bakuryu.body.includes(adres), `bakuryu-oh: ${adres} przy informacji`);
+  }
+  assert.match(bakuryu.body, /sprawdzono 2026-10-25\)/);
   assert.match(bySlug.get('real-pg-gundam').body, /Perfect Grade/);
   assert.match(bySlug.get('real-pg-gundam').body, /1:60/);
   assert.deepEqual(bySlug.get('real-pg-gundam').piloci, []);

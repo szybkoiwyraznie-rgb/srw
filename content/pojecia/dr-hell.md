@@ -19,6 +19,6 @@ Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]]
 }}
 {{zrodlo gra=wspolne
 
-- Postać z *Mazinger Z* Go Nagai. Jest Niemcem w japońskiej wyprawie archeologicznej, która odkryła wyspę Bardos ([Wikipedia, *Mazinger Z*](https://en.wikipedia.org/wiki/Mazinger_Z)).
-- Dowodzi Mechanicznymi Bestiami ([Wikipedia, *Mazinger Z*](https://en.wikipedia.org/wiki/Mazinger_Z)).
+- Postać z *Mazinger Z* Go Nagai. Jest Niemcem w japońskiej wyprawie archeologicznej, która odkryła wyspę Bardos ([Wikipedia, *Mazinger Z*](https://en.wikipedia.org/wiki/Mazinger_Z); sprawdzono 2026-10-24).
+- Dowodzi Mechanicznymi Bestiami ([Wikipedia, *Mazinger Z*](https://en.wikipedia.org/wiki/Mazinger_Z); sprawdzono 2026-10-24).
 }}

@@ -19,8 +19,8 @@ Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]]
 }}
 {{zrodlo gra=wspolne
 
-- Devil Gundam powstał z Ultimate Gundam, maszyny zbudowanej z myślą o odbudowie Ziemi. Po awarii jej systemów przekształciła się w maszynę dążącą do zgładzenia ludzkości ([Wikipedia, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam); sprawdzono 2026-10-19).
-- W *Mobile Fighter G Gundam* wydarzenia rozgrywają się w Future Century, osobnej osi czasu wobec [[universal-century|Universal Century]] ([Wikipedia, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam); sprawdzono 2026-10-19).
+- Devil Gundam powstał z Ultimate Gundam — maszyny, którą dr Kasshu zbudował, by odnowić zniszczoną Ziemię. Po ucieczce Kyojiego i rozbiciu się maszyny na Ziemi jej komputer uległ awarii, co uruchomiło jej wrogą aktywność; Master Asia planował następnie wykorzystać ją do zgładzenia ludzkości, aby planeta mogła się zregenerować ([Wikipedia, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam); sprawdzono 2026-10-25).
+- W *Mobile Fighter G Gundam* wydarzenia rozgrywają się w Future Century, osobnej osi czasu wobec [[universal-century|Universal Century]] ([Wikipedia, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam); sprawdzono 2026-10-25).
 }}
 {{wiedza gra=srw-oe
 

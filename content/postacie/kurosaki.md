@@ -24,3 +24,13 @@ Po wyjaśnieniu Buda, że pilotka coraz bardziej ufa swojej maszynie, przyznaje,
 
 W [[mobile-police-patlabor|pierwowzorze]] Kurosaki jest prawą ręką Utsumiego i ma poważniejsze usposobienie niż on ([Wikipedia, „List of Patlabor characters”](https://en.wikipedia.org/wiki/List_of_Patlabor_characters); sprawdzono 2026-10-24).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Kurosaki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kurosaki.png)
+
+}}

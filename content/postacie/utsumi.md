@@ -24,3 +24,13 @@ Zgadza się z Budem, że coraz lepsze ruchy maszyny [[noa-izumi|Noi]] wynikają 
 
 W [[mobile-police-patlabor|pierwowzorze]] Utsumi, znany także jako Richard Wong, kieruje jednym z eksperymentalnych wydziałów SHAFT zajmujących się rozwojem [[labor|Laborów]]. Zwykle jest pogodny, ale jednocześnie pozbawiony skrupułów ([Wikipedia, „List of Patlabor characters”](https://en.wikipedia.org/wiki/List_of_Patlabor_characters); sprawdzono 2026-10-24).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Utsumi — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Utsumi.png)
+
+}}
