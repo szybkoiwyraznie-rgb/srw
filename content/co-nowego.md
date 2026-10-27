@@ -1,8 +1,13 @@
 # Co nowego
 
+## 2026-10-27 23:32
+
+- Rozpoczyna się [[srw-oe-ep2|Epizod 2]] w [[srw-oe|Super Robot Wars OE]] od sceny [[srw-oe-ep2-grozba-pod-ziemia|„Groźba pod ziemią”]]: wspólny trening [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] (z udziałem [[aiko-shimada|Aiko „Love” Shimady]], [[daisuke-sato|Daisuke Sato]] i [[akira-imamura|Akiry Imamury]]) oraz [[saurersi|Saurersów]] w [[akademia-hinobori|Akademii Hinobori]] przerywa zejście do podziemnej pieczary, gdzie [[raijin-oh|Raijin-Oh]], [[go-saurer|Go-Saurer]], oddział [[connect-force|Connect]] ([[exart|Exart]] i [[ingram-nr-1|Ingramy]] [[sv2|SV2]]), [[shin-getter-1|Shin Getter-1]], [[mazinger-z|Mazinger Z]] oraz przebijający się z innego wszechświata [[gurren-lagann|Gurren Lagann]] niszczą bramy [[mucus-gate-s-in|Mucus Gate S IN]] i [[mucus-gate-s-mc|Mucus Gate S MC]], a [[seishiro|Seishiro]] ujawnia tajemnicę kosmitów [[mucus|Mucus]] i splecenia światów.
+- Cztery nowe serie z opisami pierwowzorów: [[nekketsu-saikyo-go-saurer|*Nekketsu Saikyo Go-Saurer*]] ([[kenichi-minezaki|Kenichi Minezaki]], [[hiromi-tachibana|Hiromi Tachibana]], [[shinobu-asaoka|Shinobu Asaoka]], [[taro-shirogane|Taro „Kinta” Shirogane]], [[yoji-hiyama|Yoji Hiyama]], [[erika-kozu|Erika „Elly” Kozu]], [[takako-kojima|Takako „Profesor” Kojima]], [[go-saurer|Go-Saurer]], [[king-go-saurer|King Go-Saurer]] oraz warianty [[mechabestia|mechabestii]] [[bolt-robo-standard|Bolt Robo/Standard]], [[bolt-robo-melee|Bolt Robo/Melee]] i [[bolt-robo-long-range|Bolt Robo/Long-Range]]), [[getter-robo-armageddon|*Getter Robo Armageddon*]] ([[go|Go]], [[kei|Kei]], [[gai|Gai]], formy [[shin-getter-1|Shin Getter-1]], [[shin-getter-2|Shin Getter-2]] i [[shin-getter-3|Shin Getter-3]] oraz [[invader|Invader]] / [[invader-ground|Invader/Ground]]), [[mazinger-edition-z-the-impact|*Mazinger Edition Z: The Impact!*]] ([[koji-kabuto|Koji Kabuto]], [[mazinger-z|Mazinger Z]] i [[instytut-energii-fotonowej|Instytut Energii Fotonowej]]) oraz [[tengen-toppa-gurren-lagann|*Tengen Toppa Gurren Lagann*]] ([[simon|Simon]], [[kamina|Kamina]], [[yoko|Yoko]], [[boota|Boota]], [[gurren-lagann|Gurren Lagann]], [[gurren-team|Gurren Team]] i [[gunmen|Gunmeny]]), a po stronie oryginalnej gry także [[nekton-assault|Nekton Assault]].
+
 ## 2026-10-25 09:50
 
-- [[invaderzy|Invaderzy]] i [[muge-empire|Imperium Muge]] z [[srw-oe-ep0|prologu]] [[srw-oe|Super Robot Wars OE]] opisują pozaziemskich najeźdźców z *Getter Robo Armageddon* oraz Imperium Muge Zorbados z *Dancouga – Super Beast Machine God* — serii obecnych w składzie gry — a nawiązania prologu obejmują także [[evil-god-drago|Złego Boga Drago]] i zagrożenia cyklu Eldran.
+- [[invaderzy|Invaderzy]] i [[muge-empire|Imperium Muge]] z [[srw-oe-ep0|prologu]] [[srw-oe|Super Robot Wars OE]] opisują pozaziemskich najeźdźców z [[getter-robo-armageddon|*Getter Robo Armageddon*]] oraz Imperium Muge Zorbados z *Dancouga – Super Beast Machine God* — serii obecnych w składzie gry — a nawiązania prologu obejmują także [[evil-god-drago|Złego Boga Drago]] i zagrożenia cyklu Eldran.
 - Kolonie i bazy kosmiczne [[universal-century|Universal Century]] — [[luna-ii|Luna II]], [[side-7|Side 7]], [[side-6|Side 6]] i [[libot|Libot]] — mają uzupełnione dzieje z pierwowzorów (przeholowanie planetoidy Juno do punktu L3, tajne prace Projektu V podczas zwiadu ludzi [[char-aznable|Chara]], neutralność Republiki Riah i zawinięcie wahadłowca *Ginga* z [[rx-78nt-1-gundam-alex|Alexem]]) oraz powiązania z rozgrywanymi tam scenami obok [[stacja-connect|stacji Connect]].
 
 ## 2026-10-25 00:37
@@ -368,7 +373,7 @@
 
 ## 2026-10-17 23:55
 
-- Nawiązania prologu do Mazinger Z i Mobile Fighter G Gundam oraz porównanie chronologii [[devil-gundam-incident|incydentu Devil Gundam]].
+- Nawiązania prologu do [[mazinger-z|Mazinger Z]] i Mobile Fighter G Gundam oraz porównanie chronologii [[devil-gundam-incident|incydentu Devil Gundam]].
 
 ## 2026-10-17 23:28
 

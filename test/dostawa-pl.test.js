@@ -237,8 +237,10 @@ test('profile załogi i transformacje są powiązane, ale nie udają sceny fabul
 });
 
 test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że Himari wysłała dane', () => {
+  // Nazwę gatunku Mucus Seishiro ujawnia dopiero w dostawa_2_1.txt (scena 2-1);
+  // dalsze wątki (Vasage, Warp Gate, telepatia) nadal pozostają poza rozegranym materiałem.
   const connect = bySlug.get('connect-force').body;
-  assert.doesNotMatch(connect, /Vasage|Mucus|Warp Gate|rozumie jej myśli/);
+  assert.doesNotMatch(connect, /Vasage|Warp Gate|rozumie jej myśli/);
   assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /wsiada do Exert razem|wysyła dane do zespołu/);
 });
 

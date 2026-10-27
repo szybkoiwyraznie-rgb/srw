@@ -37,6 +37,10 @@ const TAG_SERII = {
   'mobile-police-patlabor': 'patlabor',
   'patlabor-the-movie': 'patlabor',
   'matchless-raijin-oh': 'eldran',
+  'nekketsu-saikyo-go-saurer': 'eldran',
+  'getter-robo-armageddon': 'getter-robo',
+  'mazinger-edition-z-the-impact': 'mazinger',
+  'tengen-toppa-gurren-lagann': 'tengen-toppa',
   'sgt-frog': 'sgt-frog',
   'super-robot-wars-original': 'super-robot-wars',
 };
@@ -86,13 +90,17 @@ test('każda strona bazy ma tag i żadna nie taguje samej siebie', () => {
 });
 
 test('maszyny bez podanej klasy świadomie nie dostają tagu rodzaju jednostki', () => {
-  // ADR 0018: czego materiał nie mówi, tego nie dopisujemy. Te pięć jednostek
-  // nie ma w bazie podanej klasy, więc nie zgadujemy jej tagiem.
+  // ADR 0018: czego materiał nie mówi, tego nie dopisujemy. Jednostki bez
+  // jawnej klasy technicznej oraz stwory/mechabestie nie dostają zgadywanego tagu.
   const bezKlasy = oTypie('mech')
     .filter((s) => !tagi(s).some((t) => RODZAJE_JEDNOSTEK.includes(t)))
     .map((s) => s.slug)
     .sort();
-  assert.deepEqual(bezKlasy, ['cybird', 'cybuster', 'exart', 'guntank', 'real-pg-gundam']);
+  assert.deepEqual(bezKlasy, [
+    'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
+    'cybird', 'cybuster', 'exart', 'guntank',
+    'invader-ground', 'nekton-assault', 'real-pg-gundam',
+  ]);
 });
 
 test('profile postaci nie przejmują tagów rodzaju jednostki', () => {

@@ -21,6 +21,8 @@ Pilot wspierający [[raijin-oh|Raijin-Oh]] z klasy [[klasa-obrony-ziemi|Obrony Z
 Podczas ćwiczeń z [[connect-force|Connect]] pierwszy domyśla się, co oznacza widok Laborów treningowych, i przyjmuje niespodziankę spokojnie — cieszy się, że przerwała nudę. Po treningu [[jin-hyuga|Jin]] próbuje wciągnąć go w grę w piłkę, choć Koji nadal myśli o swoich poszukiwaniach.
 
 Po [[srw-oe-ep1-szalejacy-labor-powraca|przybyciu na plac budowy]] ustala, że wystarczy zatrzymać szalejące Labory. Po walce zostawia policjantom dalsze czynności i wraca z pozostałymi.
+
+W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] broni podejścia [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] przed krytyką [[taro-shirogane|Taro Shirogane]], w podziemnej jaskini od razu rozpoznaje w nadlatującej maszynie słynnego [[mazinger-z|Mazingera Z]] oraz [[shin-getter-1|Gettera]], a po bitwie w sali szkolnej z ożywieniem reaguje na wieść o obcym gatunku [[mucus|Mucus]] i pyta [[simon|Simona]] o życie w podziemnej wiosce.
 }}
 
 {{menu gra=srw-oe

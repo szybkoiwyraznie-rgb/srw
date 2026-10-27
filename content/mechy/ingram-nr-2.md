@@ -27,6 +27,8 @@ Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototy
 [[isao-ota|Ota]] prowadzi go podczas [[srw-oe-ep1-szalejacy-labor-powraca|obrony wielkiego placu budowy]] i nie chce oddać chwały [[raijin-oh|Raijin-Ohowi]]. Po wspólnej walce wszystkie szalejące Labory zamilkły.
 
 Przed wydarzeniami [[srw-oe-ep1-sledztwo-pod-przykrywka|sceny „Śledztwo pod przykrywką”]] wraca do hangaru przemoczony po tym, jak Ota wrzucił go do rzeki, po czym bierze udział w zatrzymaniu uzbrojonych [[labor|Laborów]] wojskowych pod fabryką w Hachioji. Podobnie jak jedynka unika awarii [[shinohara-hos|HOS-a]], bo [[shigeo-shiba|Shige]] pozostawił w nim stary system operacyjny ukryty za fałszywym ekranem powitalnym.
+
+W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] po raz pierwszy walczy jako oddelegowana jednostka [[connect-force|Connect]] w podziemnej jaskini, osłaniając tyły wraz z [[exart|Exartem]], [[ingram-nr-1|Ingramem nr 1]] i [[mazinger-z|Mazingerem Z]], gdy [[shin-getter-1|Shin Getter-1]] oraz [[gurren-lagann|Gurren Lagann]] niszczą za skalną ścianą bramy [[mucus|Mucus]].
 }}
 
 {{zrodlo gra=wspolne

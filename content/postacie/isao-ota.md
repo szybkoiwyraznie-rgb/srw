@@ -23,6 +23,8 @@ Kiedy [[hal-x10|HAL-X10]] wymykają się spod kontroli, jako pierwszy prosi o zg
 Podczas [[srw-oe-ep1-szalejacy-labor-powraca|obrony wielkiego placu budowy]] chce zatrzymać wszystkie [[brocken|Brockeny]] i nie oddać chwały [[raijin-oh|Raijin-Ohowi]]. Po walce jest gotów wrócić na posiłek i zostawić śledztwo specjalistom, w przeciwieństwie do [[asuma-shinohara|Shinohary]].
 
 Przed [[srw-oe-ep1-sledztwo-pod-przykrywka|akcją w Hachioji]] wrzuca [[ingram-nr-2|Ingrama nr 2]] do rzeki, ściągając na siebie gniew [[seitaro-sakaki|Sakakiego]], a pod zakładem [[shinohara-heavy-industries|Shinohara Heavy Industries]] wspiera [[exart|Exarta]] w walce z bezzałogowymi jednostkami wojskowymi. Choć krzywi się na perspektywę lotu w kosmos na rozkaz przełożonych, zgadza się dołączyć z plutonem do [[connect-force|Connect]], by wyjaśnić sprawę [[shinohara-hos|HOS-a]].
+
+W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] rusza już jako wysłannik [[connect-force|Connect]] pod ziemię; choć widok [[invader-ground|Invaderów]], [[nekton-assault|Nekton Assault]] i superrobotów wykracza daleko poza policyjne obowiązki, zagrzewa siebie do walki przeciw złu i trzyma linię obrony razem z [[noa-izumi|Noą]], a później w samolocie transportowym z niedowierzaniem komentuje temperament nowych sojuszników.
 }}
 
 {{zrodlo gra=wspolne

@@ -225,8 +225,8 @@ test('encje bez pierwowzoru poza bazą źródeł nie dostają zmyślonego tła (
   // Zbiorcze profile, sprzęt pola walki i jednostki oryginalne nie mają osobnego
   // pierwowzoru do zacytowania — pusty blok byłby zmyśleniem.
   const bezTla = ['oficer-federacji', 'oficer-zeonu', 'zolnierz-federacji', 'zolnierz-jsdf',
-    'zolnierz-zeonu', 'control-ai', 'shinohara-hos', 'turret', 'h-bomb-missile',
-    'cybird', 'exart'];
+    'zolnierz-zeonu', 'control-ai', 'shinohara-hos', 'mechabestia', 'invader', 'mucus',
+    'turret', 'h-bomb-missile', 'cybird', 'exart'];
   for (const slug of bezTla) {
     const page = bySlug.get(slug);
     assert.ok(page, `${slug}: strona istnieje`);

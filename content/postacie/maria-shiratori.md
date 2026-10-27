@@ -20,6 +20,8 @@ Dowódczyni klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akad
 Prowadzi też odprawę po treningu i prosi [[seishiro|Seishira]], by dołączył do omówienia w szkole. Podkreśla, że klasa zawsze dziękuje generałowi Takedzie, i hamuje przechwałki Jina o wyższości nad dorosłymi.
 
 Po [[srw-oe-ep1-szalejacy-labor-powraca|unieruchomieniu Brockenów na placu budowy]] uznaje sprawę za zakończoną i odwołuje uczniów.
+
+W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podejmuje w [[akademia-hinobori|Akademii Hinobori]] drużynę [[saurersi|Saurersów]], wspólnie z [[erika-kozu|Eriką Kozu]] wysyła skłóconych chłopców na boisko, a na sygnał o wykryciu [[mechabestia|mechabestii]] wydaje rozkaz startu [[raijin-oh|Raijin-Oha]]. Po walce zaprasza załogę [[gurren-lagann|Gurren Laganna]] do szkoły na wyjaśnienia [[seishiro|Seishira]] i wyraża gotowość [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] do dalszego wspierania [[connect-force|Connect]] na Ziemi.
 }}
 
 {{menu gra=srw-oe

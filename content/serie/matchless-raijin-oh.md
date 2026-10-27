@@ -17,7 +17,7 @@ utworzono: 2026-10-23
 
 ## Opis
 
-W [[srw-oe|Super Robot Wars OE]] serię reprezentują [[raijin-oh|Raijin-Oh]] wraz z formą połączenia [[god-raijin-oh|God Raijin-Oh]] oraz klasa [[klasa-obrony-ziemi|Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]]: [[jin-hyuga|Jin Hyuga]], [[asuka-tsukishiro|Asuka Tsukishiro]] i [[koji-hoshiyama|Koji Hoshiyama]] za sterami maszyny, a także [[maria-shiratori|Maria Shiratori]], [[tsutomu-kojima|Tsutomu Kojima]], [[kirara-haruno|Kirara Haruno]] i [[yoko-kuriki|Yoko Kuriki]] po stronie dowodzenia, łączności i obserwacji.
+W [[srw-oe|Super Robot Wars OE]] serię reprezentują [[raijin-oh|Raijin-Oh]] wraz z formą połączenia [[god-raijin-oh|God Raijin-Oh]] oraz klasa [[klasa-obrony-ziemi|Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]]: [[jin-hyuga|Jin Hyuga]], [[asuka-tsukishiro|Asuka Tsukishiro]] i [[koji-hoshiyama|Koji Hoshiyama]] za sterami maszyny, a także [[maria-shiratori|Maria Shiratori]], [[tsutomu-kojima|Tsutomu Kojima]], [[kirara-haruno|Kirara Haruno]], [[yoko-kuriki|Yoko Kuriki]], [[aiko-shimada|Aiko Shimada]], [[daisuke-sato|Daisuke Sato]] i [[akira-imamura|Akira Imamura]] po stronie dowodzenia, łączności, techniki i obserwacji.
 }}
 {{zrodlo gra=wspolne
 

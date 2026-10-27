@@ -21,6 +21,8 @@ Pilot wspierający [[raijin-oh|Raijin-Oh]] z klasy [[klasa-obrony-ziemi|Obrony Z
 Po przylocie na miejsce pierwszy dostrzega, że nie ma tam wroga. Zauważa nieznany sobie model [[exart|Exarta]], a po wyznaniu [[maria-shiratori|Marii]] potwierdza, że klasa została oszukana. W szkole przyznaje, że nigdy by nie pomyślał, że [[connect-force|Connect]] buduje roboty.
 
 W [[srw-oe-ep1-szalejacy-labor-powraca|misji przeciw szalejącym Brockenom]] prosi policjantów, by pozwolili Klasie Obrony pomóc. Przypomina [[jin-hyuga|Jinowi]], żeby nie zaatakował przez pomyłkę policyjnych Laborów, a po walce wraca z klasą na polecenie [[maria-shiratori|Marii]].
+
+W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] komentuje gorący spór Jina z [[saurersi|Saurersami]], wspiera go w kokpicie [[raijin-oh|Raijin-Oha]] podczas podziemnego starcia z [[mechabestia|mechabestiami]], [[invader-ground|Invaderami]] i [[nekton-assault|Nekton Assault]], a po powrocie do szkoły dziwi się wyjaśnieniom [[seishiro|Seishira]], że dwa różne wszechświaty uległy fizycznemu spleceniu.
 }}
 
 {{menu gra=srw-oe

@@ -18,7 +18,7 @@ Imperium Jaku jest jednym z dawnych zagrożeń wymienionych w prologu. Pamięć 
 
 Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 
-W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] [[himari-yaegaki|Himari]] rozpoznaje [[klasa-obrony-ziemi|Klasę Obrony Ziemi]] właśnie po tym, że pokonała Imperium Jaku, a [[seishiro|Seishiro]] potwierdza, że wieść o tym jest w Japonii znana.
+W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] [[himari-yaegaki|Himari]] rozpoznaje [[klasa-obrony-ziemi|Klasę Obrony Ziemi]] właśnie po tym, że pokonała Imperium Jaku, a [[seishiro|Seishiro]] potwierdza, że wieść o tym jest w Japonii znana. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] [[akira-imamura|Akira Imamura]] przywołuje to zwycięstwo w sporze z [[saurersi|Saurersami]] jako dowód skuteczności działania klasy na żywioł.
 }}
 {{zrodlo gra=wspolne
 
