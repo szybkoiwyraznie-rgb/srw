@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-28 11:40
+
+- Korekta opisów przebiegu narady i odprawy w [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]]: swoje kwestie odzyskują [[shinobu-asaoka|Shinobu]], [[aiko-shimada|Love]], [[hiromi-tachibana|Hiromi]], [[gai|Gai]], [[kei|Kei]], [[go|Go]], [[yoko|Yoko]] i [[kamina|Kamina]], a hipoteza o odrodzeniu [[mechanization-empire|Imperium Mechanizacji]] wraca do [[seishiro|Seishira]], który przedstawia ją jako przypuszczenie.
+
 ## 2026-10-28 11:12
 
 - Opis wejścia [[koji-kabuto|Kojiego Kabuto]] do podziemnej bitwy w [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] ogranicza się do tego, co widać w rozgrywce: odsiecz w [[mazinger-z|Mazingerze Z]] dla [[go-saurer|Go-Saurera]] i wstąpienie do [[connect-force|Connect]] w imieniu [[instytut-energii-fotonowej|Instytutu Energii Fotonowej]]. Pogłębiony opis przebiegu lotu powrotnego na [[stacja-connect|stację]].
