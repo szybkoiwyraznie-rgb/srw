@@ -13,7 +13,7 @@ utworzono: 2026-10-27
 
 ## Opis
 
-Zespół dzieci wybranych przez Eldrana do obrony Ziemi przed [[mechanization-empire|Imperium Mechanizacji]], dysponujący superrobotem [[go-saurer|Go-Saurer]]. Kilka miesięcy po rozbiciu [[jaku-empire|Imperium Jaku]] i pokonaniu Króla Maszyn odwiedzają [[akademia-hinobori|Akademię Hinobori]], aby po raz pierwszy odbyć wspólny trening z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]].
+Zespół dzieci wybranych przez Eldrana do obrony Ziemi przed [[mechanization-empire|Imperium Mechanizacji]], dysponujący superrobotem [[go-saurer|Go-Saurer]]. Kilka miesięcy po rozbiciu [[jaku-empire|Imperium Jaku]] i ocaleniu Ziemi przed Imperium Mechanizacji odwiedzają [[akademia-hinobori|Akademię Hinobori]], aby po raz pierwszy odbyć wspólny trening z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]].
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] w sali klasy 5-3 dochodzi między obiema grupami do żywiołowej wymiany zdań o wspólnych ćwiczeniach: [[takako-kojima|Profesor]] proponuje dwa treningi w tygodniu, [[kenichi-minezaki|Kenichi]] i [[jin-hyuga|Jin]] woleliby grać w piłkę, [[shinobu-asaoka|Shinobu]] i [[taro-shirogane|Kinta]] obstają przy dyscyplinie, a [[hiromi-tachibana|Hiromi]], [[yoji-hiyama|Yoji]] i [[aiko-shimada|Love]] łagodzą napięcie. Zanim [[takako-kojima|Profesor]] zdąży przedstawić poprawioną propozycję, rozlega się alarm o wykryciu [[mechabestia|mechabestii]] i [[erika-kozu|Elly]] wydaje rozkaz wymarszu.
 

@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-28 10:58
+
+- Scena [[srw-oe-ep2-grozba-pod-ziemia|„Groźba pod ziemią”]] i strony [[saurersi|Saurersów]] z [[akademia-hinobori|Akademii Hinobori]] mówią już tylko o tym, co padło w klasie 5-3: Saurersi pokonali [[mechanization-empire|Imperium Mechanizacji]] i ocalili Ziemię, a wspomnienie to należy do [[taro-shirogane|Kinty]]. Opisy epizodu, sceny i haseł dopasowane do tego przebiegu.
+
 ## 2026-10-28 10:45
 
 - Opisy przebiegu sceny [[srw-oe-ep2-grozba-pod-ziemia|„Groźba pod ziemią”]] prowadzą teraz dokładnie za wydarzeniami: narada o wspólnym treningu w sali klasy 5-3 — propozycja [[takako-kojima|Profesor]], sprzeciw [[kenichi-minezaki|Kenichiego]] i [[jin-hyuga|Jina]] na rzecz piłki, twarde zdanie [[shinobu-asaoka|Shinobu]] i [[taro-shirogane|Kinty]], głos [[aiko-shimada|Love]] i [[yoji-hiyama|Yojiego]] za równowagą — zostaje przerwana alarmem o [[mechabestia|mechabestiach]], po którym obie drużyny ruszają pod ziemię. Poprawki objęły streszczenie epizodu, analizę sceny oraz strony [[klasa-obrony-ziemi|Klasy Obrony Ziemi]], [[saurersi|Saurersów]] i ich maszyn.
