@@ -79,7 +79,7 @@ zrodla:
   - https://srw.wiki.cre.jp/wiki/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%AB%E3%82%B9
 sekcje_analizy:
   - "Wspólne szkolenie dziecięcych obrońców Ziemi → Ep. 2: Groźba pod ziemią"
-  - Spór o metodę walki i przerwany mecz → Akademia Hinobori / Sala klasy 5-3
+  - Spór o wspólny trening i przerwana narada → Akademia Hinobori / Sala klasy 5-3
   - Shin Getter-1 osaczony przez trzy gatunki wrogów → Pod ziemią
   - Odsiecz Connect i zakaz użycia Excess Blastu → Connect dołącza do bitwy
   - Przeczucia Himari przed wskazaniami czujników → Szósty zmysł Himari
@@ -841,9 +841,9 @@ Saurersi to również dzieci wybrane przez Eldrana, które ocaliły Ziemię prze
 
 Wprowadzenie narratora przypomina tło świata po odparciu dawnych najazdów [[jaku-empire|Imperium Jaku]] i [[mechanization-empire|Imperium Mechanizacji]]: choć dorośli powrócili do codzienności, szkolne drużyny [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] oraz [[saurersi|Saurersów]] regularnie organizują wspólne ćwiczenia na wypadek powrotu zagrożenia. Tego dnia miejscem pierwszego takiego zgrupowania staje się [[akademia-hinobori|Akademia Hinobori]].
 
-### Spór o metodę walki i przerwany mecz
+### Spór o wspólny trening i przerwana narada
 
-Spotkanie klasy 5-3 z gośćmi szybko ujawnia kontrast temperamentów i metod działania. [[takako-kojima|Takako „Profesor” Kojima]] i [[tsutomu-kojima|Tsutomu Kojima]] przygotowują szczegółowy harmonogram oparty na danych bojowych, lecz [[jin-hyuga|Jin]] zbywa planowanie na rzecz walki na żywioł, za co natychmiast obrywa od [[kenichi-minezaki|Kenichiego]], [[shinobu-asaoka|Shinobu]] i [[taro-shirogane|Kinty]], podczas gdy [[koji-hoshiyama|Koji]] i [[akira-imamura|Akira]] bronią dorobku swojej klasy. Dopiero bliźniaczo stanowcze dowódczynie — [[maria-shiratori|Maria]] oraz [[erika-kozu|Erika]] — przekierowują energię skłóconych chłopców na szkolne boisko. Zacięty mecz piłki nożnej przerywa nagły sygnał alarmowy: przyrządy wykrywają pod ziemią aktywność [[mechabestia|mechabestii]], co zmusza [[raijin-oh|Raijin-Oha]] i [[go-saurer|Go-Saurera]] do natychmiastowego wymarszu.
+Spotkanie klasy 5-3 z gośćmi szybko ujawnia kontrast temperamentów. [[takako-kojima|Takako „Profesor” Kojima]] przedstawia propozycję wspólnych ćwiczeń dwa razy w tygodniu, którą [[tsutomu-kojima|Tsutomu Kojima]] popiera w imieniu Klasy Obrony, lecz [[kenichi-minezaki|Kenichi]] protestuje i wraz z [[jin-hyuga|Jinem]] optuje za piłką — za co natychmiast obrywa od [[shinobu-asaoka|Shinobu]], a [[taro-shirogane|Kinta]] wyśmiewa ich opór jako brak hartu ducha. [[hiromi-tachibana|Hiromi]], [[koji-hoshiyama|Koji]] i [[akira-imamura|Akira]] tonują rozmowę o równowadze między treningiem a nauką, a [[aiko-shimada|Love]] przypomina, że wspólne granie też buduje zgranie. [[maria-shiratori|Maria]] ucina sprzeczkę chłopców, [[takako-kojima|Profesor]] zaczyna formułować poprawioną propozycję, lecz naradę przerywa nagły sygnał alarmowy: wróg to [[mechabestia|mechabestie]], co zmusza [[raijin-oh|Raijin-Oha]] i [[go-saurer|Go-Saurera]] do natychmiastowego wymarszu.
 
 ### Shin Getter-1 osaczony przez trzy gatunki wrogów
 

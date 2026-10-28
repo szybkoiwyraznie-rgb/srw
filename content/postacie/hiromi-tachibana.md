@@ -16,7 +16,7 @@ utworzono: 2026-10-27
 
 ## Opis
 
-Podpilot [[go-saurer|Go-Saurera]] i [[king-go-saurer|King Go-Saurera]] z zespołu [[saurersi|Saurersów]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podczas wizyty w [[akademia-hinobori|Akademii Hinobori]] próbuje studzić emocje kłócących się kolegów z [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] i własnej drużyny, a propozycję meczu piłkarskiego przyjmuje jako dobry sposób na zgranie obu zespołów.
+Podpilot [[go-saurer|Go-Saurera]] i [[king-go-saurer|King Go-Saurera]] z zespołu [[saurersi|Saurersów]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podczas wizyty w [[akademia-hinobori|Akademii Hinobori]] próbuje studzić emocje kłócących się kolegów z [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] i własnej drużyny, przestrzegając przed przeciążaniem się zbyt intensywnym treningiem.
 
 Pod ziemią jako pierwszy dostrzega, że otaczające [[shin-getter-1|Shin Gettera-1]] maszyny to [[mechabestia|mechabestie]] [[bolt-robo-standard|Bolt Robo]] pomimo wcześniejszego rozbicia [[mechanization-empire|Imperium Mechanizacji]]. Po starciu dziękuje załodze Gettera za uratowanie [[saurersi|Saurersów]], a podczas rozmowy w klasie trafnie podsumowuje wyjaśnienia [[seishiro|Seishira]], że planeta [[gurren-team|drużyny Gurren]] z innego wszechświata splotła się z Ziemią za sprawą bram [[mucus|Mucus]].
 }}

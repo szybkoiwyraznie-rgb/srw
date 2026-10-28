@@ -19,7 +19,7 @@ Doradca i operator klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobo
 
 Po treningu uspokaja [[himari-yaegaki|Himari]], że choć jest nowa, nikt nie ucierpiał. Kiedy [[jin-hyuga|Jin]] dopisuje sobie, że dorośli ćwiczą z takimi wyjadaczami jak klasa, Tsutomu odpowiada, że dorośli mają bardziej skomplikowane powody, i ucina dalsze wypytywanie, żeby nie stawiać gości w niezręcznej sytuacji. Zauważa również, że Siły Obrony same posprzątają po ćwiczeniach.
 
-W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] współpracuje z [[takako-kojima|Takako Kojimą]] przy organizacji wspólnych ćwiczeń z [[saurersi|Saurersami]], a na boisku równocześnie z nią wykrywa alarm o pojawieniu się [[mechabestia|mechabestii]]. Po bitwie analizuje przekazane przez [[seishiro|Seishira]] informacje o skoku podprzestrzennym [[mucus|Mucus]], sprawdza w bazach danych wzmianki [[yoko|Yoko]] o wiosce Littner i w imieniu klasy zobowiązuje się dochować tajemnicy na temat [[connect-force|Connect]].
+W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] współpracuje z [[takako-kojima|Takako Kojimą]] przy organizacji wspólnych ćwiczeń z [[saurersi|Saurersami]], a naradę o ich formie przerywa alarm o pojawieniu się [[mechabestia|mechabestii]]. Po bitwie analizuje przekazane przez [[seishiro|Seishira]] informacje o skoku podprzestrzennym [[mucus|Mucus]], sprawdza w bazach danych wzmianki [[yoko|Yoko]] o wiosce Littner i w imieniu klasy zobowiązuje się dochować tajemnicy na temat [[connect-force|Connect]].
 }}
 
 {{menu gra=srw-oe

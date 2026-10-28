@@ -13,7 +13,7 @@ utworzono: 2026-10-27
 
 ## Opis
 
-Zbiorcze określenie zmechanizowanych potworów [[mechanization-empire|Imperium Mechanizacji]] sterujących szeregowymi jednostkami [[bolt-robo-standard|Bolt Robo/Standard]], [[bolt-robo-melee|Bolt Robo/Melee]] oraz [[bolt-robo-long-range|Bolt Robo/Long-Range]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] alarm o wykryciu mechabestii przerywa mecz między [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] a [[saurersi|Saurersami]]; pod ziemią kolejne grupy tych maszyn wyłaniają się z [[mucus-gate-s-mc|bramy Mucus Gate S MC]] i atakują ramię w ramię z [[invader-ground|Invaderami]] oraz [[nekton-assault|Nekton Assault]], co naprowadza [[takako-kojima|Profesor]] na wniosek, że Imperium Mechanizacji wciąż działa poza Ziemią.
+Zbiorcze określenie zmechanizowanych potworów [[mechanization-empire|Imperium Mechanizacji]] sterujących szeregowymi jednostkami [[bolt-robo-standard|Bolt Robo/Standard]], [[bolt-robo-melee|Bolt Robo/Melee]] oraz [[bolt-robo-long-range|Bolt Robo/Long-Range]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] alarm o wykryciu mechabestii przerywa naradę o wspólnych ćwiczeniach [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] i [[saurersi|Saurersów]]; pod ziemią kolejne grupy tych maszyn wyłaniają się z [[mucus-gate-s-mc|bramy Mucus Gate S MC]] i atakują ramię w ramię z [[invader-ground|Invaderami]] oraz [[nekton-assault|Nekton Assault]], co naprowadza [[takako-kojima|Profesor]] na wniosek, że Imperium Mechanizacji wciąż działa poza Ziemią.
 }}
 
 {{menu gra=srw-oe

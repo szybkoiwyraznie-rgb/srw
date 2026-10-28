@@ -16,7 +16,7 @@ utworzono: 2026-10-27
 
 ## Opis
 
-Analityczka i główna specjalistka techniczna [[saurersi|Saurersów]], do której koledzy zwracają się przydomkiem „Profesor”. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] opracowuje na podstawie dotychczasowych danych bojowych harmonogram pierwszego wspólnego treningu z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]], współpracując bezpośrednio ze swoim odpowiednikiem po stronie gospodarzy — [[tsutomu-kojima|Tsutomu Kojimą]]. Kiedy na szkolnym boisku rozlega się alarm, natychmiast weryfikuje odczyty i potwierdza obecność [[mechabestia|mechabestii]].
+Analityczka i główna specjalistka techniczna [[saurersi|Saurersów]], do której koledzy zwracają się przydomkiem „Profesor”. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] opracowuje propozycję pierwszego wspólnego treningu z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]], współpracując bezpośrednio ze swoim odpowiednikiem po stronie gospodarzy — [[tsutomu-kojima|Tsutomu Kojimą]]. Zanim zdąży przedstawić poprawioną wersję planu, naradę przerywa alarm o wykryciu [[mechabestia|mechabestii]].
 
 Po zniszczeniu podziemnych bram [[mucus|Mucus]] uważnie analizuje informacje [[seishiro|Seishira]] o zdolności skoku podprzestrzennego potworów i jako pierwsza dostrzega, że rozbite wcześniej [[mechanization-empire|Imperium Mechanizacji]] mogło przetrwać poza Ziemią i odbudowywać siły w kosmosie. Obiecuje również w imieniu [[saurersi|Saurersów]] zachować istnienie [[connect-force|Connect]] oraz gatunku [[mucus|Mucus]] w ścisłej tajemnicy, a w klasie próbuje odszukać w bazach danych ślady wioski Littner wspomnianej przez [[yoko|Yoko]].
 }}

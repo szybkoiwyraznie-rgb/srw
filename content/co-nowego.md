@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-28 10:45
+
+- Opisy przebiegu sceny [[srw-oe-ep2-grozba-pod-ziemia|„Groźba pod ziemią”]] prowadzą teraz dokładnie za wydarzeniami: narada o wspólnym treningu w sali klasy 5-3 — propozycja [[takako-kojima|Profesor]], sprzeciw [[kenichi-minezaki|Kenichiego]] i [[jin-hyuga|Jina]] na rzecz piłki, twarde zdanie [[shinobu-asaoka|Shinobu]] i [[taro-shirogane|Kinty]], głos [[aiko-shimada|Love]] i [[yoji-hiyama|Yojiego]] za równowagą — zostaje przerwana alarmem o [[mechabestia|mechabestiach]], po którym obie drużyny ruszają pod ziemię. Poprawki objęły streszczenie epizodu, analizę sceny oraz strony [[klasa-obrony-ziemi|Klasy Obrony Ziemi]], [[saurersi|Saurersów]] i ich maszyn.
+
 ## 2026-10-27 23:32
 
 - Rozpoczyna się [[srw-oe-ep2|Epizod 2]] w [[srw-oe|Super Robot Wars OE]] od sceny [[srw-oe-ep2-grozba-pod-ziemia|„Groźba pod ziemią”]]: wspólny trening [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] (z udziałem [[aiko-shimada|Aiko „Love” Shimady]], [[daisuke-sato|Daisuke Sato]] i [[akira-imamura|Akiry Imamury]]) oraz [[saurersi|Saurersów]] w [[akademia-hinobori|Akademii Hinobori]] przerywa zejście do podziemnej pieczary, gdzie [[raijin-oh|Raijin-Oh]], [[go-saurer|Go-Saurer]], oddział [[connect-force|Connect]] ([[exart|Exart]] i [[ingram-nr-1|Ingramy]] [[sv2|SV2]]), [[shin-getter-1|Shin Getter-1]], [[mazinger-z|Mazinger Z]] oraz przebijający się z innego wszechświata [[gurren-lagann|Gurren Lagann]] niszczą bramy [[mucus-gate-s-in|Mucus Gate S IN]] i [[mucus-gate-s-mc|Mucus Gate S MC]], a [[seishiro|Seishiro]] ujawnia tajemnicę kosmitów [[mucus|Mucus]] i splecenia światów.

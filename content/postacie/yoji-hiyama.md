@@ -16,7 +16,7 @@ utworzono: 2026-10-27
 
 ## Opis
 
-Podpilot [[go-saurer|Go-Saurera]] i [[king-go-saurer|King Go-Saurera]] z drużyny [[saurersi|Saurersów]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podczas gorącej dyskusji z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]] martwi się wspólnie z [[daisuke-sato|Daisuke]], czy zwaśnione grupy zdołają przeprowadzić wspólny trening, a na boisku przeżywa wybuch kolejnej kłótni o wynik meczu.
+Podpilot [[go-saurer|Go-Saurera]] i [[king-go-saurer|King Go-Saurera]] z drużyny [[saurersi|Saurersów]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podczas gorącej dyskusji o formie wspólnych ćwiczeń z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]] optuje za równowagą między treningiem a odpoczynkiem, a sprzeczkę o to, czy ćwiczyć, czy grać w piłkę, przerywa dopiero alarm o wykryciu [[mechabestia|mechabestii]].
 
 W podziemnej pieczarze ostrzega załogę przed dziwnymi potworami wyłaniającymi się obok [[mechabestia|mechabestii]], a po przebiciu się [[gurren-lagann|Gurren Laganna]] przez dno jaskini próbuje zorientować się, kim są nowi przybysze. Po walce wraca z obiema klasami do szkoły, gdzie wysłuchuje wyjaśnień [[seishiro|Seishira]] o połączeniu światów.
 }}
