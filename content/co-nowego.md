@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-28 11:12
+
+- Opis wejścia [[koji-kabuto|Kojiego Kabuto]] do podziemnej bitwy w [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] ogranicza się do tego, co widać w rozgrywce: odsiecz w [[mazinger-z|Mazingerze Z]] dla [[go-saurer|Go-Saurera]] i wstąpienie do [[connect-force|Connect]] w imieniu [[instytut-energii-fotonowej|Instytutu Energii Fotonowej]]. Pogłębiony opis przebiegu lotu powrotnego na [[stacja-connect|stację]].
+
 ## 2026-10-28 10:58
 
 - Scena [[srw-oe-ep2-grozba-pod-ziemia|„Groźba pod ziemią”]] i strony [[saurersi|Saurersów]] z [[akademia-hinobori|Akademii Hinobori]] mówią już tylko o tym, co padło w klasie 5-3: Saurersi pokonali [[mechanization-empire|Imperium Mechanizacji]] i ocalili Ziemię, a wspomnienie to należy do [[taro-shirogane|Kinty]]. Opisy epizodu, sceny i haseł dopasowane do tego przebiegu.
