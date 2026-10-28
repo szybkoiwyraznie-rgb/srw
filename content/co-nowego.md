@@ -1,12 +1,22 @@
 # Co nowego
 
+## 2026-10-27 23:32
+
+- Rozpoczyna się [[srw-oe-ep2|Epizod 2]] w [[srw-oe|Super Robot Wars OE]] od sceny [[srw-oe-ep2-grozba-pod-ziemia|„Groźba pod ziemią”]]: wspólny trening [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] (z udziałem [[aiko-shimada|Aiko „Love” Shimady]], [[daisuke-sato|Daisuke Sato]] i [[akira-imamura|Akiry Imamury]]) oraz [[saurersi|Saurersów]] w [[akademia-hinobori|Akademii Hinobori]] przerywa zejście do podziemnej pieczary, gdzie [[raijin-oh|Raijin-Oh]], [[go-saurer|Go-Saurer]], oddział [[connect-force|Connect]] ([[exart|Exart]] i [[ingram-nr-1|Ingramy]] [[sv2|SV2]]), [[shin-getter-1|Shin Getter-1]], [[mazinger-z|Mazinger Z]] oraz przebijający się z innego wszechświata [[gurren-lagann|Gurren Lagann]] niszczą bramy [[mucus-gate-s-in|Mucus Gate S IN]] i [[mucus-gate-s-mc|Mucus Gate S MC]], a [[seishiro|Seishiro]] ujawnia tajemnicę kosmitów [[mucus|Mucus]] i splecenia światów.
+- Cztery nowe serie z opisami pierwowzorów: [[nekketsu-saikyo-go-saurer|*Nekketsu Saikyo Go-Saurer*]] ([[kenichi-minezaki|Kenichi Minezaki]], [[hiromi-tachibana|Hiromi Tachibana]], [[shinobu-asaoka|Shinobu Asaoka]], [[taro-shirogane|Taro „Kinta” Shirogane]], [[yoji-hiyama|Yoji Hiyama]], [[erika-kozu|Erika „Elly” Kozu]], [[takako-kojima|Takako „Profesor” Kojima]], [[go-saurer|Go-Saurer]], [[king-go-saurer|King Go-Saurer]] oraz warianty [[mechabestia|mechabestii]] [[bolt-robo-standard|Bolt Robo/Standard]], [[bolt-robo-melee|Bolt Robo/Melee]] i [[bolt-robo-long-range|Bolt Robo/Long-Range]]), [[getter-robo-armageddon|*Getter Robo Armageddon*]] ([[go|Go]], [[kei|Kei]], [[gai|Gai]], formy [[shin-getter-1|Shin Getter-1]], [[shin-getter-2|Shin Getter-2]] i [[shin-getter-3|Shin Getter-3]] oraz [[invader|Invader]] / [[invader-ground|Invader/Ground]]), [[mazinger-edition-z-the-impact|*Mazinger Edition Z: The Impact!*]] ([[koji-kabuto|Koji Kabuto]], [[mazinger-z|Mazinger Z]] i [[instytut-energii-fotonowej|Instytut Energii Fotonowej]]) oraz [[tengen-toppa-gurren-lagann|*Tengen Toppa Gurren Lagann*]] ([[simon|Simon]], [[kamina|Kamina]], [[yoko|Yoko]], [[boota|Boota]], [[gurren-lagann|Gurren Lagann]], [[gurren-team|Gurren Team]] i [[gunmen|Gunmeny]]), a po stronie oryginalnej gry także [[nekton-assault|Nekton Assault]].
+
+## 2026-10-25 09:50
+
+- [[invaderzy|Invaderzy]] i [[muge-empire|Imperium Muge]] z [[srw-oe-ep0|prologu]] [[srw-oe|Super Robot Wars OE]] opisują pozaziemskich najeźdźców z [[getter-robo-armageddon|*Getter Robo Armageddon*]] oraz Imperium Muge Zorbados z *Dancouga – Super Beast Machine God* — serii obecnych w składzie gry — a nawiązania prologu obejmują także [[evil-god-drago|Złego Boga Drago]] i zagrożenia cyklu Eldran.
+- Kolonie i bazy kosmiczne [[universal-century|Universal Century]] — [[luna-ii|Luna II]], [[side-7|Side 7]], [[side-6|Side 6]] i [[libot|Libot]] — mają uzupełnione dzieje z pierwowzorów (przeholowanie planetoidy Juno do punktu L3, tajne prace Projektu V podczas zwiadu ludzi [[char-aznable|Chara]], neutralność Republiki Riah i zawinięcie wahadłowca *Ginga* z [[rx-78nt-1-gundam-alex|Alexem]]) oraz powiązania z rozgrywanymi tam scenami obok [[stacja-connect|stacji Connect]].
+
 ## 2026-10-25 00:37
 
-- [[devil-gundam-incident|Incydent Devil Gundam]] ma dokładniejsze źródłowe tło: Ultimate Gundam, zbudowany przez dr. Kasshu na rzecz odnowy zniszczonej Ziemi, po rozbiciu się na planecie doznał awarii komputera, która uruchomiła jego wrogą aktywność, a Master Asia chciał użyć go do zgładzenia ludzkości i regeneracji planety.
+- [[devil-gundam-incident|Incydent Devil Gundam]] opisuje eksperymentalny rodowód Devil Gundama (pierwotnie Ultimate Gundama), jego zdolności samoregeneracji, namnażania i ewolucji oraz osadzenie pierwowzoru *Mobile Fighter G Gundam* w roku 60 ery Future Century.
 
 ## 2026-10-25 00:30
 
-- Nowa postać: [[bakuryu-oh|Bakuryu-Oh]], kopilot [[god-raijin-oh|God Raijin-Oha]]. W [[srw-oe|Super Robot Wars OE]] nie występuje jako samodzielna jednostka — przy superpołączeniu z [[raijin-oh|Raijin-Ohem]] rejestruje się jako sub-pilot i obsługuje Komendy Ducha formy. Ma portret oraz sprawdzone tło z [[matchless-raijin-oh|Matchless Raijin-Oh]]: ukryty robot Klasy Obrony Ziemi, zdalnie sterowany, zmieniający się w smoka Bakuryu Dragon. Galeria [[god-raijin-oh|God Raijin-Oha]] liczy z powrotem dwie ilustracje samej maszyny.
+- Nowa postać: [[bakuryu-oh|Bakuryu-Oh]], podpilot [[god-raijin-oh|God Raijin-Oha]]. W [[srw-oe|Super Robot Wars OE]] nie występuje jako samodzielna jednostka — po połączeniu [[raijin-oh|Raijin-Oha]] wspiera załogę własnymi Komendami Ducha. Ma portret oraz tło z [[matchless-raijin-oh|Matchless Raijin-Oh]]: bezzałogowy robot wsparcia [[klasa-obrony-ziemi|Klasy Obrony Ziemi]], zdalnie sterowany ze szkoły w Hinobori i startujący w smoczej postaci Bakuryu Dragon.
 
 ## 2026-10-25 00:15
 
@@ -14,7 +24,7 @@
 
 ## 2026-10-24 22:50
 
-- [[evil-god-drago|Zły Bóg Drago]] z prologu [[srw-oe|Super Robot Wars OE]] ma potwierdzone źródłowo powiązanie z serialem *Jushin Liger*: japońska Wikipedia gry wymienia 邪神ドラゴ wśród złowrogich istot fabuły i odsyła linkiem do pierwowzoru, więc dawny domysł opisano teraz jako sprawdzone źródło.
+- [[evil-god-drago|Zły Bóg Drago]] z prologu [[srw-oe|Super Robot Wars OE]] opisuje walkę boga Agamy z pradawnym bóstwem i dążenia Imperium Drago pod wodzą cesarzowej Zary w serialu *Jushin Liger*, należącym do zestawienia serii obecnych w grze.
 
 ## 2026-10-24 22:25
 
@@ -363,7 +373,7 @@
 
 ## 2026-10-17 23:55
 
-- Nawiązania prologu do Mazinger Z i Mobile Fighter G Gundam oraz porównanie chronologii [[devil-gundam-incident|incydentu Devil Gundam]].
+- Nawiązania prologu do [[mazinger-z|Mazinger Z]] i Mobile Fighter G Gundam oraz porównanie chronologii [[devil-gundam-incident|incydentu Devil Gundam]].
 
 ## 2026-10-17 23:28
 

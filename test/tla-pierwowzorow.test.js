@@ -22,7 +22,7 @@ function sprawdzBlok(slug, adresy) {
   const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
   assert.ok(blok, `${slug}: blok tła z pierwowzoru`);
   assert.match(blok[1], /pierwowzor/i, `${slug}: tło oddzielone od wydarzeń gry`);
-  assert.match(blok[1], /sprawdzono 2026-10-24\)/, `${slug}: data sprawdzenia źródła`);
+  assert.match(blok[1], /sprawdzono 2026-10-2[45]\)/, `${slug}: data sprawdzenia źródła`);
   assert.doesNotMatch(blok[1], spoilery, `${slug}: tło nie wyprzedza fabuły`);
   for (const adres of adresy) {
     assert.ok(page.zrodla.includes(adres), `${slug}: ${adres} w frontmatterze`);
@@ -162,11 +162,14 @@ test('God Raijin-Oh i Real PG Gundam mają sprawdzone tło pierwowzoru (ADR 0008
   const bakuryu = bySlug.get('bakuryu-oh');
   assert.ok(bakuryu, 'Bakuryu-Oh ma stronę postaci z dostawy ilustracji');
   assert.equal(bakuryu.typ, 'postac');
-  assert.equal(bakuryu.rola, 'pilot');
+  assert.equal(bakuryu.rola, 'wsparcie');
+  assert.equal(bakuryu.pochodzenie, 'zrodlo');
   assert.equal(bakuryu.seria, 'matchless-raijin-oh');
   assert.deepEqual(bakuryu.mechy, ['god-raijin-oh']);
-  assert.ok(bySlug.get('god-raijin-oh').piloci.includes('bakuryu-oh'),
-    'Bakuryu-Oh jest przypisany do załogi God Raijin-Oha');
+  assert.ok(!bySlug.get('god-raijin-oh').piloci.includes('bakuryu-oh'),
+    'źródło nie zmienia załogi z menu (ADR 0017)');
+  assert.doesNotMatch(bakuryu.body, /Super Robot Wars GC|sub-pilot|na ekranie załogi/i);
+  assert.doesNotMatch(bySlug.get('devil-gundam-incident').body, /Master Asia|zgładzenia ludzkości|Kasshu|Kyoji/i);
   for (const adres of [
     'https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC',
     'https://eldran.fandom.com/wiki/Bakury%C5%AB-Oh',
@@ -190,9 +193,23 @@ test('Federacja Ziemska i zagrożenia cyklu Eldran mają sprawdzone tło bez dom
     'https://eldran.fandom.com/wiki/Jaku_Empire',
     'https://en.wikipedia.org/wiki/Matchless_Raijin-Oh',
   ]);
-  for (const slug of ['earth-federation', 'jaku-empire', 'daimakai', 'mechanization-empire', 'super-robot-wars-original']) {
+  for (const slug of ['earth-federation', 'jaku-empire', 'daimakai', 'mechanization-empire',
+    'invaderzy', 'muge-empire', 'evil-god-drago', 'super-robot-wars-original']) {
     assert.doesNotMatch(bySlug.get(slug).body, /\{\{wiedza/, `${slug}: bez przestarzałego bloku wiedzy`);
   }
+  sprawdzBlok('luna-ii', ['https://gundam.fandom.com/wiki/Luna_II']);
+  sprawdzBlok('libot', ['https://www.mahq.net/gundam0080ep1/']);
+  sprawdzBlok('side-6', [
+    'https://gundam.fandom.com/wiki/Mobile_Suit_Gundam_0080:_War_in_the_Pocket',
+    'https://en.wikipedia.org/wiki/Mobile_Suit_Gundam_0080:_War_in_the_Pocket',
+  ]);
+  sprawdzBlok('side-7', [
+    'https://gundam.fandom.com/wiki/RX-78-2_Gundam',
+    'https://gundam.fandom.com/wiki/Gundam_Rising',
+  ]);
+  assert.match(bySlug.get('invaderzy').body, /Getter Robo Armageddon/);
+  assert.match(bySlug.get('muge-empire').body, /Muge Zorbados/);
+  assert.doesNotMatch(bySlug.get('srw-oe-ep0').body, /prawdopodobnie nawiązuje/);
   // Karty serii wymieniają wszystkie dotychczasowe imienne postacie i maszyny swojego świata.
   const generyczne = new Set(['zolnierz-jsdf', 'zolnierz-federacji', 'zolnierz-zeonu', 'oficer-federacji', 'oficer-zeonu']);
   for (const seria of pages.filter((p) => p.typ === 'seria')) {
@@ -208,8 +225,8 @@ test('encje bez pierwowzoru poza bazą źródeł nie dostają zmyślonego tła (
   // Zbiorcze profile, sprzęt pola walki i jednostki oryginalne nie mają osobnego
   // pierwowzoru do zacytowania — pusty blok byłby zmyśleniem.
   const bezTla = ['oficer-federacji', 'oficer-zeonu', 'zolnierz-federacji', 'zolnierz-jsdf',
-    'zolnierz-zeonu', 'control-ai', 'shinohara-hos', 'turret', 'h-bomb-missile',
-    'cybird', 'exart'];
+    'zolnierz-zeonu', 'control-ai', 'shinohara-hos', 'mechabestia', 'invader', 'mucus',
+    'turret', 'h-bomb-missile', 'cybird', 'exart'];
   for (const slug of bezTla) {
     const page = bySlug.get(slug);
     assert.ok(page, `${slug}: strona istnieje`);

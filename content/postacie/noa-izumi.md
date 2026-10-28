@@ -23,6 +23,8 @@ Swój Labor nazywa Alphonse'em i martwi się o każdą rysę na kadłubie. Wspó
 Na [[srw-oe-ep1-szalejacy-labor-powraca|wielkim placu budowy]] dowodzi [[ingram-nr-1|Ingramem nr 1]] przeciw pięciu bezzałogowym [[brocken|Brockenom]]. Choć liczba wrogów ją przytłacza, walczy u boku [[isao-ota|Oty]] i [[raijin-oh|Raijin-Oha]], a po starciu uznaje, że Klasa Obrony mogła przejąć całą chwałę. [[badrinath-harchand|Bud]] dostrzega natomiast jej rosnące zaufanie do Alphonse’a.
 
 W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] walczy pod zakładem [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji ramię w ramię z [[exart|Exartem]] przeciw uzbrojonym maszynom [[sily-samoobrony-japonii|Sił Samoobrony]]. Na wieść o oddelegowaniu Drugiego Plutonu do [[connect-force|Connect]] i ukrytej wadzie [[shinohara-hos|HOS-a]] martwi się o Alphonse’a, dopóki [[shigeo-shiba|Shige]] nie wyjawia, że Ingramy nigdy nie miały nowego systemu, i postanawia doprowadzić śledztwo do końca w kosmosie.
+
+W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] schodzi z oddziałem [[connect-force|Connect]] do podziemnej pieczary, gdzie oszołomiona mnogością superrobotów i obcych stworzeń zastanawia się, co w tej sytuacji potrafi zdziałać policyjny [[labor|Labor]], lecz mimo to wytrwale odpiera ataki u boku [[isao-ota|Oty]]. W drodze na [[stacja-connect|stację Connect]] nie kryje zdumienia gwałtownymi charakterami nowych towarzyszy broni z [[gurren-lagann|Gurren Laganna]] i [[shin-getter-1|Shin Gettera-1]].
 }}
 
 {{zrodlo gra=wspolne

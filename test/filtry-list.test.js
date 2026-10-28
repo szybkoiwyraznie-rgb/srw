@@ -131,16 +131,16 @@ test('filtr listy scen zawęża po maszynie, postaci i serii obsady', () => {
   const sceny = (html) => [...html.matchAll(/href="#\/scena\/([^"]+)"/g)].map((m) => m[1]);
 
   assert.deepEqual(sceny(renderListe('scena', { mech: 'raijin-oh' })),
-    ['srw-oe-ep1-trening-klasy-obrony', 'srw-oe-ep1-szalejacy-labor-powraca']);
+    ['srw-oe-ep1-trening-klasy-obrony', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep2-grozba-pod-ziemia']);
   assert.deepEqual(sceny(renderListe('scena', { postac: 'noa-izumi' })),
-    ['srw-oe-ep1-szalejacy-prototyp-labora', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep1-sledztwo-pod-przykrywka']);
+    ['srw-oe-ep1-szalejacy-prototyp-labora', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep1-sledztwo-pod-przykrywka', 'srw-oe-ep2-grozba-pod-ziemia']);
   // Scena nie ma pola `seria` — świat bierze z obsady.
   assert.deepEqual(sceny(renderListe('scena', { seria: 'matchless-raijin-oh' })),
-    ['srw-oe-ep1-trening-klasy-obrony', 'srw-oe-ep1-szalejacy-labor-powraca']);
-  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 10, 'wszystkie sceny są z jednej gry');
+    ['srw-oe-ep1-trening-klasy-obrony', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep2-grozba-pod-ziemia']);
+  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 11, 'wszystkie sceny są z jednej gry');
 
   const epizody = (html) => [...new Set([...html.matchAll(/href="#\/epizod\/([^"]+)"/g)].map((m) => m[1]))];
-  assert.deepEqual(epizody(renderListe('epizod', { mech: 'raijin-oh' })), ['srw-oe-ep1']);
+  assert.deepEqual(epizody(renderListe('epizod', { mech: 'raijin-oh' })), ['srw-oe-ep1', 'srw-oe-ep2']);
   assert.deepEqual(epizody(renderListe('epizod', { postac: 'char-aznable' })), ['srw-oe-ep0']);
 
   // Zestaw bez wyników zostawia filtry nad pustą listą (nie da się inaczej cofnąć wyboru).
@@ -161,8 +161,13 @@ test('selektory list fabularnych zawężają się nawzajem', () => {
   const wszystkie = renderListe('scena');
   const poSerii = renderListe('scena', { seria: 'matchless-raijin-oh' });
   assert.ok(opcje(wszystkie, 'mech').length > opcje(poSerii, 'mech').length, 'wybór serii zawęża listę maszyn');
-  assert.deepEqual(opcje(poSerii, 'mech'),
-    ['brocken', 'exart', 'ingram-nr-1', 'ingram-nr-2', 'raijin-oh']);
+  assert.deepEqual(opcje(poSerii, 'mech'), [
+    'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
+    'brocken', 'exart', 'go-saurer', 'gurren-lagann',
+    'ingram-nr-1', 'ingram-nr-2', 'invader-ground', 'mazinger-z',
+    'mucus-gate-s-in', 'mucus-gate-s-mc', 'nekton-assault',
+    'raijin-oh', 'shin-getter-1',
+  ]);
   assert.ok(!opcje(poSerii, 'postac').includes('amuro-ray'), 'postacie spoza tych scen znikają');
 
   const poMechu = renderListe('scena', { mech: 'ingram-nr-1' });

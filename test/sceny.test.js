@@ -17,6 +17,7 @@ const FRAGMENT = '**Himari:** Seishiro, can you hear me?';
 
 const scena = (body, extra = {}) => ({
   typ: 'scena', slug: 'x-ep001-s1-1', tytul: 'X', epizod: 'srw-oe-ep0', numer_sceny: '0-1',
+  streszczenie: 'Krótkie streszczenie sceny.',
   body, plik: 'content/sceny/x.md', ...extra,
 });
 const body = (tekst) => `## Treść sceny\n\n:::skrypt\n${tekst}\n:::\n\n## Analiza\n\nCoś.\n`;
@@ -51,13 +52,19 @@ test('sceny sortują się numerycznie, nie leksykograficznie (numer to dowolny t
   assert.deepEqual(posortowane, ['1', '1-2', '1-10', '2', '2-1', '2-2-1', 'Prolog']);
 });
 
-test('walidacja schematu sceny: epizod i numer_sceny są wymagane', () => {
+test('walidacja schematu sceny: epizod, numer_sceny i streszczenie są wymagane, a gry i serie zakazane', () => {
   const bySlug = new Map([['srw-oe-ep0', { typ: 'epizod', slug: 'srw-oe-ep0' }]]);
   assert.equal(walidujStrone(scena(body('x'), { numer_sceny: '  ' }), { bySlug }).filter((p) => /numer_sceny/.test(p)).length, 1);
   const bezEpizodu = walidujStrone(scena(body('x'), { epizod: undefined }), { bySlug });
   assert.ok(bezEpizodu.some((p) => /wymaga pola "epizod"/.test(p)));
   const zlyEpizod = walidujStrone(scena(body('x'), { epizod: 'nie-ma' }), { bySlug });
   assert.ok(zlyEpizod.some((p) => /"epizod" → "nie-ma" nie istnieje/.test(p)));
+  const bezStreszczenia = walidujStrone(scena(body('x'), { streszczenie: '   ' }), { bySlug });
+  assert.ok(bezStreszczenia.some((p) => /wymaga niepustego pola "streszczenie"/.test(p)));
+  const zGra = walidujStrone(scena(body('x'), { gry: ['srw-oe'] }), { bySlug });
+  assert.ok(zGra.some((p) => /usuń pole "gry"/.test(p)));
+  const zSeriami = walidujStrone(scena(body('x'), { serie: ['mobile-police-patlabor'] }), { bySlug });
+  assert.ok(zSeriami.some((p) => /usuń pole "serie"/.test(p)));
 });
 
 test('sceny z bazy są wierne skryptowi i mają poprawny schemat', () => {

@@ -13,11 +13,13 @@ utworzono: 2026-10-17
 
 ## Opis
 
-Imperium Mechanizacji pojawia się w wyliczeniu nadludzkich zagrożeń z przeszłości, a w [[srw-oe-ep1-trening-klasy-obrony|scenie „Trening Klasy Obrony”]] narracja wymienia Saurersów wśród drużyn ćwiczących razem z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]].
+Imperium Mechanizacji pojawia się w wyliczeniu nadludzkich zagrożeń z przeszłości, a w [[srw-oe-ep1-trening-klasy-obrony|scenie „Trening Klasy Obrony”]] narracja wymienia [[saurersi|Saurersów]] wśród drużyn ćwiczących razem z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]].
 
 Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
+
+W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] [[kenichi-minezaki|Kenichi Minezaki]] wspomina wcześniejsze pokonanie Króla Maszyn, jednak w podziemnej pieczarze niespodziewanie pojawiają się [[mechabestia|mechabestie]] [[bolt-robo-standard|Bolt Robo]] przerzucane przez [[mucus-gate-s-mc|bramę Mucus Gate S MC]]. Na podstawie danych od [[seishiro|Seishira]] [[takako-kojima|Profesor]] dochodzi do wniosku, że Imperium Mechanizacji nie zostało unicestwione całkowicie i odbudowuje siły w przestrzeni kosmicznej.
 }}
 {{zrodlo gra=wspolne
 
-W serialu *Nekketsu Saikyō Go-Saurer* (*Hot-Blooded Strongest Go-Saurer*), trzeciej odsłonie cyklu Eldran, Imperium Mechanizacji (機械化帝国, *Kikaika Teikoku*) to główny przeciwnik dążący do zamienienia wszystkich istot żywych w galaktyce w maszyny; przewodzi mu Machine God, któremu podlegają Gear King, Electricity King, Engine King, Gilturbo, Atom King i Geeg ([Eldran Wiki, „Mechanization Empire”](https://eldran.fandom.com/wiki/Mechanization_Empire); sprawdzono 2026-10-24).
+W serialu [[nekketsu-saikyo-go-saurer|*Nekketsu Saikyō Go-Saurer*]] (*Hot-Blooded Strongest Go-Saurer*), trzeciej odsłonie cyklu Eldran, Imperium Mechanizacji (機械化帝国, *Kikaika Teikoku*) to główny przeciwnik dążący do zamienienia wszystkich istot żywych w galaktyce w maszyny; przewodzi mu Machine God, któremu podlegają Gear King, Electricity King, Engine King, Gilturbo, Atom King i Geeg ([Eldran Wiki, „Mechanization Empire”](https://eldran.fandom.com/wiki/Mechanization_Empire); sprawdzono 2026-10-24).
 }}

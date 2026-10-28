@@ -13,7 +13,7 @@ utworzono: 2026-10-19
 
 ## Opis
 
-Do Super Robot Wars Original należą w [[srw-oe|Super Robot Wars OE]] [[exart|Exart]], [[cybuster|Cybuster]] i [[cybird|Cybird]] oraz [[seishiro|Seishiro Kusanagi]], [[himari-yaegaki|Himari Yaegaki]], szef [[connect-force|Connect]] [[suol|Suol Douglas]], a także [[masaki-andoh|Masaki Andoh]] wraz z towarzyszami [[kuro|Kuro]] i [[shiro|Shiro]].
+Do Super Robot Wars Original należą w [[srw-oe|Super Robot Wars OE]] [[exart|Exart]], [[cybuster|Cybuster]] i [[cybird|Cybird]], istota [[nekton-assault|Nekton Assault]] oraz bramy [[mucus-gate-s-in|Mucus Gate S IN]] i [[mucus-gate-s-mc|Mucus Gate S MC]] gatunku [[mucus|Mucus]], a spośród postaci [[seishiro|Seishiro Kusanagi]], [[himari-yaegaki|Himari Yaegaki]], szef [[connect-force|Connect]] [[suol|Suol Douglas]], jak również [[masaki-andoh|Masaki Andoh]] wraz z towarzyszami [[kuro|Kuro]] i [[shiro|Shiro]].
 }}
 {{zrodlo gra=wspolne
 

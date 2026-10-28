@@ -21,6 +21,8 @@ Do oddziału należy CF-00 [[exart|Exart]], najnowocześniejsza broń na każdą
 Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 
 W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] Seishiro i Himari odbierają na zlecenie organizacji kopię wzorcową [[shinohara-hos|Shinohara HOS]] w zakładzie [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji i wspólnie z [[sv2|SV2]] powstrzymują bunt uzbrojonych [[labor|Laborów]] wojskowych, po czym cały Drugi Pluton zostaje bezterminowo oddelegowany do Connect w kosmosie.
+
+W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Seishiro po raz pierwszy wyjawia główny cel Connect: zwalczanie obcego gatunku [[mucus|Mucus]], zdolnego do skoków podprzestrzennych i przerzucania wrogich armii przez bramy [[mucus-gate-s-in|Mucus Gate S IN]] oraz [[mucus-gate-s-mc|Mucus Gate S MC]]. Po podziemnej bitwie w skład sił bojowych organizacji obok [[exart|Exarta]] i oddelegowanych [[ingram-nr-1|Ingramów]] [[sv2|SV2]] wchodzą [[shin-getter-1|Shin Getter]] ([[go|Go]], [[kei|Kei]], [[gai|Gai]]), [[mazinger-z|Mazinger Z]] ([[koji-kabuto|Koji Kabuto]]) oraz przybyła ze splecionego świata [[gurren-team|drużyna Gurren]] w [[gurren-lagann|Gurren Lagannie]] ([[simon|Simon]], [[kamina|Kamina]], [[yoko|Yoko]], [[boota|Boota]]), podczas gdy [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] i [[saurersi|Saurersi]] deklarują współpracę z Ziemi.
 }}
 {{zrodlo gra=srw-oe
 

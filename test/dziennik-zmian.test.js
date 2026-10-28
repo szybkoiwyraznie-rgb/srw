@@ -59,6 +59,8 @@ test('dziennik nie opisuje interfejsu ani technikaliów (ADR 0018)', () => {
     'pole danych', 'numer sceny',
     // praca nad bazą zamiast treści bazy
     'audyt', 'dostaw[ay]\\b', 'właściciel', 'poprawki językowe', 'składni[aęi]', 'literówk',
+    'wikipedi', 'odsyła linkiem', 'potwierdzon[aey] źródłowo', 'sprawdzone źródło',
+    'dawny domysł', 'sub-pilot',
   ].join('|'), 'i');
   for (const wpis of wpisy()) {
     for (const linia of wpis.tresc) {

@@ -96,12 +96,15 @@ export function gryStronyDoZakresu(strona, ctx) {
   // Strona gry jest zakresem sama dla siebie — bez tego walidator przepuszczał
   // na niej blok wskazujący inną grę (lista `gry` jest pusta).
   if (strona?.typ === 'gra' && typeof strona.slug === 'string') return [strona.slug];
+  if (strona?.typ === 'scena') {
+    if (typeof strona.epizod === 'string' && strona.epizod !== '') {
+      const epizod = ctx?.bySlug?.get(strona.epizod);
+      if (epizod?.gra) return [epizod.gra];
+    }
+    return [];
+  }
   if (Array.isArray(strona.gry)) return strona.gry;
   if (typeof strona.gra === 'string' && strona.gra !== '') return [strona.gra];
-  if (typeof strona.epizod === 'string' && strona.epizod !== '') {
-    const epizod = ctx?.bySlug?.get(strona.epizod);
-    if (epizod?.gra) return [epizod.gra];
-  }
   return [];
 }
 
@@ -203,8 +206,14 @@ export function walidujStrone(strona, ctx) {
     if (typeof strona.numer_sceny !== 'string' || strona.numer_sceny.trim() === '') {
       p.push(`${gdzie}: "numer_sceny" musi być niepustym tekstem (numeracja zależy od gry, ADR 0008)`);
     }
-    if (strona.streszczenie !== undefined && typeof strona.streszczenie !== 'string') {
-      p.push(`${gdzie}: "streszczenie" musi być tekstem`);
+    if (typeof strona.streszczenie !== 'string' || strona.streszczenie.trim() === '') {
+      p.push(`${gdzie}: scena wymaga niepustego pola "streszczenie"`);
+    }
+    if (strona.gry !== undefined) {
+      p.push(`${gdzie}: scena dziedziczy grę z epizodu — usuń pole "gry" (ADR 0021)`);
+    }
+    if (strona.serie !== undefined) {
+      p.push(`${gdzie}: scena czerpie serie z powiązanych encji — usuń pole "serie" (ADR 0034)`);
     }
     if (strona.sekcje_analizy !== undefined
       && (!Array.isArray(strona.sekcje_analizy) || strona.sekcje_analizy.some((x) => typeof x !== 'string'))) {

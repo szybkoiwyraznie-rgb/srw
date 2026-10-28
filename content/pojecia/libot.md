@@ -13,9 +13,9 @@ utworzono: 2026-10-23
 
 ## Opis
 
-Kolonia na [[side-6|Side 6]], do której [[earth-federation|Federacja Ziemska]] chce wynieść [[rx-78nt-1-gundam-alex|Alexa]]. Ma tam dojść do ostatecznego strojenia nowego Gundama po jego transporcie z Ziemi.
+Kolonia w sektorze [[side-6|Side 6]], do której [[earth-federation|Federacja Ziemska]] wysyła z Ziemi wahadłowiec z [[rx-78nt-1-gundam-alex|Alexem]] w [[srw-oe-ep1-start-alexa|scenie „Start Alexa”]] ([[srw-oe-ep1|Epizod 1]]). Na miejscu [[christina-mackenzie|Christina Mackenzie]] oraz personel techniczny Federacji mają przeprowadzić ostateczne strojenie nowego Gundama.
 }}
 {{zrodlo gra=wspolne
 
-Pierwszy odcinek *Mobile Suit Gundam 0080* przedstawia Libot jako kolonię na Side 6. To właśnie tam dociera wahadłowiec z kontenerem nowego Gundama ([MAHQ, „Gundam 0080 Ep. 1: How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); sprawdzono 2026-10-23).
+W pierwszym odcinku pierwowzoru [[mobile-suit-gundam-0080|*Mobile Suit Gundam 0080: War in the Pocket*]] w grudniu [[uc-0079|U.C. 0079]] do portu kosmicznego neutralnej kolonii Libot na [[side-6|Side 6]] dociera wystrzelony z bazy arktycznej wahadłowiec *Ginga* przewożący w kontenerach ładunkowych prototypowego [[rx-78nt-1-gundam-alex|Gundama NT-1]], a mieszkająca w kolonii [[christina-mackenzie|Christina Mackenzie]] wraca tam z Ziemi jako pilot doświadczalny Federacji ([MAHQ, „Gundam 0080 Ep. 1: How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); sprawdzono 2026-10-25).
 }}

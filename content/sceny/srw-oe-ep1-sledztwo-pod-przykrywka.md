@@ -4,7 +4,7 @@ slug: srw-oe-ep1-sledztwo-pod-przykrywka
 tytul: Śledztwo pod przykrywką
 numer_sceny: "1-8"
 epizod: srw-oe-ep1
-gry: [srw-oe]
+streszczenie: "Ósma misja epizodu 1: Asuma i Connect badają kopię wzorcową Shinohara HOS w zakładzie w Hachioji, Exart i SV2 powstrzymują osiem uzbrojonych Laborów Sił Samoobrony, a Drugi Pluton zostaje oddelegowany na stację Connect."
 postacie:
   - seishiro
   - himari-yaegaki
