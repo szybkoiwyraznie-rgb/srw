@@ -6,7 +6,7 @@
  * Kabuto w Mazingerze Z oraz przebijającą się z innego wszechświata drużynę
  * Gurren; kończy się zniszczeniem bram Mucus Gate S IN i Mucus Gate S MC,
  * ujawnieniem przez Seishira tajemnicy kosmitów Mucus i splecenia światów
- * oraz werbunkiem trzech nowych załóg na stację Connect.
+ * oraz dołączeniem Gettera i Mazingera do Connect i opieką nad drużyną Gurren.
  */
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -225,4 +225,26 @@ test('dwadzieścia jeden nowych postaci ma właściwe role, parametry i brak spo
   ]) {
     assert.doesNotMatch(bySlug.get(slug).body, zakazaneSpoilery, `${slug}: brak przyszłych zwrotów fabularnych`);
   }
+});
+
+
+test('podsumowania 2-1 rozdzielają warunkową pomoc Gettera i rozmowy po bitwie', () => {
+  const analiza = scena.body.split('## Analiza')[1].split('## Nawiązania')[0];
+  const uderzenie = analiza.split('### Uderzenie na bramy Mucus i zakończenie bitwy')[1]
+    .split('### Tajemnica Mucus')[0];
+  assert.match(uderzenie, /Dopiero w reakcji na ich przejście/);
+  assert.match(uderzenie, /Gai\]\] pyta \[\[kei\|Kei\]\]/);
+  assert.match(uderzenie, /jeśli nowi sojusznicy wpadną w tarapaty/);
+  assert.doesNotMatch(uderzenie, /podchwytuje ten plan|rozpoznaje Kojiego|propozycję.*Marii/);
+
+  const gai = bySlug.get('gai').body;
+  assert.match(gai, /pyta \[\[kei\|Kei\]\], czy ruszą im z pomocą/);
+  assert.doesNotMatch(gai, /proponuje \[\[go\|Gowi\]\]/);
+
+  const watki = scena.body.split('## Wątki w scenie')[1];
+  assert.match(watki, /Bezpośrednio po bitwie/);
+  assert.match(watki, /Dopiero później, w szkolnej klasie/);
+  assert.doesNotMatch(watki, /W sali szkolnej Seishiro wyjawia/);
+  assert.doesNotMatch(analiza, /Rozmowa wraca do przeczuć/);
+  assert.match(analiza, /zachęta do rozwijania intuicji Himari pada wcześniej, w kabinie/);
 });

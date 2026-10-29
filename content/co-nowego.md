@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-29 14:10
+
+- [[srw-oe-ep2-grozba-pod-ziemia|Groźba pod ziemią]]: rozdzielone odkrycie bramy przez drużynę Gurren od warunkowej pomocy Gettera, poprawiona rola [[gai|Gaia]] i [[kei|Kei]]. Uporządkowane rozmowy o [[mucus|Mucus]], hipotezie połączenia światów i intuicji [[himari-yaegaki|Himari]].
+
 ## 2026-10-29 12:44
 
 - [[srw-oe-ep2|Groźba pod ziemią]]: doprecyzowane warunki opieki Connect nad [[gurren-team|drużyną Gurren]] oraz rozmowa załogi Gettera z Kojim w hangarze samolotu transportowego. Poprawione opisy Kaminy, Yoko, Kei i Gaia. Rozdzielona rozmowa o [[mucus|Mucus]] po bitwie od późniejszej rozmowy o pochodzeniu przybyszów w szkolnej klasie.
