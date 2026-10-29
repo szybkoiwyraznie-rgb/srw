@@ -23,3 +23,12 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] [[himari-yae
 
 - [[mucus-gate-s-in|Mucus Gate S IN]] — bliźniacza mała brama podprzestrzenna wykorzystywana przez [[invaderzy|Invaderów]].
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Mucus Gate S MC — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Mucus%20Gate%20S%20MC.png)
+}}

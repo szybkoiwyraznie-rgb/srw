@@ -20,7 +20,20 @@ utworzono: 2026-10-27
 
 Superrobot zespołu [[saurersi|Saurersów]], powierzony uczniom przez Eldrana do walki z [[mechanization-empire|Imperium Mechanizacji]]. Głównym pilotem maszyny jest [[kenichi-minezaki|Kenichi Minezaki]], a wspierają go [[hiromi-tachibana|Hiromi Tachibana]], [[shinobu-asaoka|Shinobu Asaoka]], [[taro-shirogane|Taro Shirogane]] („Kinta”) oraz [[yoji-hiyama|Yoji Hiyama]]. Po osiągnięciu odpowiedniego morale jednostka potrafi połączyć się w [[king-go-saurer|King Go-Saurera]].
 
-W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Go-Saurer wyrusza na rozkaz [[erika-kozu|Elly]] z [[akademia-hinobori|Akademii Hinobori]] razem z [[raijin-oh|Raijin-Ohem]], gdy podczas meczu z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] nadchodzi alarm o pojawieniu się [[mechabestia|mechabestii]]. Pod ziemią wspiera osaczonego [[shin-getter-1|Shin Gettera-1]] u boku [[exart|Exarta]] i Laborów [[sv2|SV2]], a gdy kolejne potwory atakują załogę z bliska, na odsiecz nadlatuje [[mazinger-z|Mazinger Z]] [[koji-kabuto|Kojiego Kabuto]]. W dalszej fazie bitwy Go-Saurer odpiera fale [[bolt-robo-standard|Bolt Robo]], [[invader-ground|Invaderów]] i jednostek [[nekton-assault|Nekton Assault]], pomagając zniszczyć podziemne bramy [[mucus|Mucus]].
+W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Go-Saurer wyrusza na rozkaz [[erika-kozu|Elly]] z [[akademia-hinobori|Akademii Hinobori]] razem z [[raijin-oh|Raijin-Ohem]], gdy naradę o wspólnych ćwiczeniach z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] przerywa alarm o pojawieniu się [[mechabestia|mechabestii]]. Pod ziemią wspiera osaczonego [[shin-getter-1|Shin Gettera-1]] u boku [[exart|Exarta]] i Laborów [[sv2|SV2]], a gdy kolejne potwory atakują załogę z bliska, na odsiecz nadlatuje [[mazinger-z|Mazinger Z]] [[koji-kabuto|Kojiego Kabuto]]. W dalszej fazie bitwy Go-Saurer odpiera fale [[bolt-robo-standard|Bolt Robo]], [[invader-ground|Invaderów]] i jednostek [[nekton-assault|Nekton Assault]], pomagając zniszczyć podziemne bramy [[mucus|Mucus]].
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Go-Saurer — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Go-Saurer.png)
+
+### Ilustracja 2
+
+![Go-Saurer — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Go-Saurer%202.png)
 }}
 
 {{zrodlo gra=wspolne

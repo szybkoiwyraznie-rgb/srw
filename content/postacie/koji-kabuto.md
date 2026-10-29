@@ -17,9 +17,19 @@ utworzono: 2026-10-27
 
 ## Opis
 
-Pilot [[mazinger-z|Mazingera Z]] wysłany z [[instytut-energii-fotonowej|Instytutu Energii Fotonowej]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] wyrusza na rozpoznanie podziemnych wstrząsów i wyładowań w obawie przed kolejnym posunięciem [[dr-hell|Doktora Hella]], po czym w samą porę strąca potwora szarżującego na [[go-saurer|Go-Saurera]]. Choć na miejscu nie znajduje mechanicznych bestii Hella, bez wahania przyłącza się do obrony podziemnej pieczary u boku [[raijin-oh|Raijin-Oha]], [[go-saurer|Go-Saurera]], [[shin-getter-1|Shin Gettera-1]], [[connect-force|Connect]] oraz [[gurren-lagann|Gurren Laganna]], wstrzymując fale wrogów do chwili rozbicia bram [[mucus|Mucus]].
+Pilot [[mazinger-z|Mazingera Z]] z [[instytut-energii-fotonowej|Instytutu Energii Fotonowej]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] w samą porę strąca potwora, który przyczepił się do [[go-saurer|Go-Saurera]], po czym od razu staje do obrony podziemnej pieczary u boku [[raijin-oh|Raijin-Oha]], [[go-saurer|Go-Saurera]], [[shin-getter-1|Shin Gettera-1]], [[connect-force|Connect]] oraz [[gurren-lagann|Gurren Laganna]] i w imieniu Instytutu dołącza do działań [[connect-force|Connect]], wstrzymując fale wrogów do chwili rozbicia bram [[mucus|Mucus]].
 
-Po walce potwierdza znajomość załogi Gettera i przyjmuje zaproszenie [[seishiro|Seishira]] do współpracy z [[connect-force|Connect]], zaznaczając z humorem, że musi najpierw uprzedzić profesora w [[instytut-energii-fotonowej|Instytucie Energii Fotonowej]], zanim wybierze się na [[stacja-connect|stację orbitalną]]. W samolocie transportowym z sympatią żartuje z zadziorności [[kamina|Kaminy]].
+W samolocie transportowym wracającym przez atmosferę na [[stacja-connect|stację]] potwierdza znajomość załogi Gettera — cieszy się, że [[go|Go]], [[kei|Kei]] i [[gai|Gai]] wchodzą do [[connect-force|Connect]] — i z uznaniem słucha, jak [[gai|Gai]] opisuje wspólny oddział obronny powołany na wypadek nowej ofensywy sił zagrażających ludzkości.
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Koji Kabuto — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Koji%20Kabuto.png)
+
 }}
 
 {{menu gra=srw-oe

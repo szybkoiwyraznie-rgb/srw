@@ -22,6 +22,19 @@ utworzono: 2026-10-27
 Ciężka, opancerzona konfiguracja transformacji dostępna z [[shin-getter-1|Shin Gettera-1]] oraz [[shin-getter-2|Shin Gettera-2]], w której głównym pilotem zostaje [[gai|Gai]], wspierany w kokpicie przez [[go|Go]] i [[kei|Kei]]. Macierzysta zdolność „Niewzrusz.” zmniejsza otrzymywane obrażenia i uodparnia maszynę na przebicie, odepchnięcie oraz rzut. Arsenał obejmuje pociski samonaprowadzające Getter Homing Missile do ostrzału pośredniego przeciw celom lądowym, odpychający cios Hammer Punch, obszarową salwę Missile Storm oraz przeciwlotniczy rzut Daisetsuzan Oroshi.
 }}
 
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Shin Getter-3 — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Shin-Getter%203.png)
+
+### Ilustracja 2
+
+![Shin Getter-3 — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Shin-Getter%203%202.png)
+}}
+
 {{zrodlo gra=wspolne
 
 W [[getter-robo-armageddon|pierwowzorze]] Shin Getter-3 (真ゲッター3, 30 m wysokości, 290 ton masy) powstaje z połączenia pojazdów w kolejności Shin Bear, Shin Eagle i Shin Jaguar, z żółtym odrzutowcem [[gai|Gaia]] tworzącym górną część przysadzistego korpusu. Maszyna dysponuje wyrzutniami pocisków kierowanych w barkach, baterią rakiet dalekiego zasięgu w tylnej sekcji gąsienicowej oraz rozciąganymi ramionami wykorzystywanymi w zapaśniczym rzucie Daisetsuzan Oroshi, w którym rozkręcony nad głową przeciwnik zostaje ciśnięty wysoko w powietrze ([Wikipedia, *Getter Robo Armageddon*](https://en.wikipedia.org/wiki/Getter_Robo_Armageddon); [SRW Wiki, „Shin Getter Robo”](https://superrobotwars.fandom.com/wiki/Shin_Getter_Robo); sprawdzono 2026-10-27).

@@ -16,9 +16,17 @@ utworzono: 2026-10-27
 
 ## Opis
 
-Główny pilot [[go-saurer|Go-Saurera]] oraz formy superpołączenia [[king-go-saurer|King Go-Saurer]] z drużyny [[saurersi|Saurersów]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] odwiedza z kolegami salę klasy 5-3 [[akademia-hinobori|Akademii Hinobori]] na wspólne ćwiczenia z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]]. Na lekceważącą uwagę [[jin-hyuga|Jina]] o harmonogramie [[takako-kojima|Profesor]] odpowiada ostro, przypominając o zwycięstwie nad Królem Maszyn [[mechanization-empire|Imperium Mechanizacji]], po czym chętnie przystaje na rozstrzygnięcie sporu meczem piłki nożnej na boisku.
+Główny pilot [[go-saurer|Go-Saurera]] oraz formy superpołączenia [[king-go-saurer|King Go-Saurer]] z drużyny [[saurersi|Saurersów]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] odwiedza z kolegami salę klasy 5-3 [[akademia-hinobori|Akademii Hinobori]] na wspólne ćwiczenia z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]]. Jako pierwszy protestuje przeciw propozycji [[takako-kojima|Profesor]] dwóch treningów w tygodniu — woli grać w piłkę i przy wsparciu [[jin-hyuga|Jina]] obstaje przy swoim wobec wyrzutów [[shinobu-asaoka|Shinobu]]. Gdy naradę przerywa alarm o pojawieniu się [[mechabestia|mechabestii]], rusza z [[go-saurer|Go-Saurerem]] pod ziemię, gdzie dziękuje [[koji-kabuto|Kojiemu Kabuto]] za odsiecz w [[mazinger-z|Mazingerze Z]], a w ogniu nieustających posiłków wroga alarmuje sojuszników, że nadciągające potwory nie mają końca. Po walce w klasie wita się z przybyszami z [[gurren-team|drużyny Gurren]].
+}}
 
-Gdy rozbrzmiewa alarm o pojawieniu się [[mechabestia|mechabestii]], wyprowadza [[go-saurer|Go-Saurera]] pod ziemię na ratunek [[shin-getter-1|Shin Getterowi-1]], dziękuje [[koji-kabuto|Kojiemu Kabuto]] za odsiecz w [[mazinger-z|Mazingerze Z]], a w ogniu nieustających posiłków wroga alarmuje sojuszników, że nadciągające potwory nie mają końca. Po walce wita się w szkole z [[kamina|Kaminą]] i [[simon|Simonem]] i razem z Jinem oprowadza gości z [[gurren-team|drużyny Gurren]] po okolicy.
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Kenichi Minezaki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kenichi%20Minezaki.png)
+
 }}
 
 {{menu gra=srw-oe

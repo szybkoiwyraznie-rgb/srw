@@ -1,5 +1,30 @@
 # Co nowego
 
+## 2026-10-29 12:40
+
+- Portrety bohaterów epizodu 2 trafiają na ich strony: [[boota|Boota]], [[erika-kozu|Erika Kozu]], [[gai|Gai]], [[go|Go]], [[hiromi-tachibana|Hiromi Tachibana]], [[kamina|Kamina]], [[kei|Kei]], [[kenichi-minezaki|Kenichi Minezaki]], [[koji-kabuto|Koji Kabuto]], [[shinobu-asaoka|Shinobu Asaoka]], [[simon|Simon]], [[takako-kojima|Takako Kojima]], [[taro-shirogane|Taro Shirogane]], [[yoji-hiyama|Yoji Hiyama]] i [[yoko|Yoko]].
+- Powstaje strona [[goro-ishida|Goro Ishidy]] z [[saurersi|Saurersów]] — kanoniera dział Thunder Brachio z [[nekketsu-saikyo-go-saurer|pierwowzoru]] — oparta na jego ilustracji i uzupełniona opisem z podanych przy niej adresów.
+
+## 2026-10-29 11:20
+
+- Ilustracje jednostek ze sceny [[srw-oe-ep2-grozba-pod-ziemia|„Groźba pod ziemią”]] trafiają na strony [[go-saurer|Go-Saurera]], [[king-go-saurer|King Go-Saurera]], [[shin-getter-1|Shin Gettera-1]], [[shin-getter-2|Shin Gettera-2]], [[shin-getter-3|Shin Gettera-3]], [[mazinger-z|Mazingera Z]], [[gurren-lagann|Gurren Laganna]], [[invader-ground|Invadera Ground]], [[nekton-assault|Nekton Assault]], [[bolt-robo-standard|Bolt Robo/Standard]], [[bolt-robo-melee|Bolt Robo/Melee]], [[bolt-robo-long-range|Bolt Robo/Long-Range]] oraz bram [[mucus-gate-s-in|Mucus Gate S IN]] i [[mucus-gate-s-mc|Mucus Gate S MC]] — 26 plików, po dwa dla każdej maszyny z wyjątkiem bram.
+
+## 2026-10-28 11:40
+
+- Korekta opisów przebiegu narady i odprawy w [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]]: swoje kwestie odzyskują [[shinobu-asaoka|Shinobu]], [[aiko-shimada|Love]], [[hiromi-tachibana|Hiromi]], [[gai|Gai]], [[kei|Kei]], [[go|Go]], [[yoko|Yoko]] i [[kamina|Kamina]], a hipoteza o odrodzeniu [[mechanization-empire|Imperium Mechanizacji]] wraca do [[seishiro|Seishira]], który przedstawia ją jako przypuszczenie.
+
+## 2026-10-28 11:12
+
+- Opis wejścia [[koji-kabuto|Kojiego Kabuto]] do podziemnej bitwy w [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] ogranicza się do tego, co widać w rozgrywce: odsiecz w [[mazinger-z|Mazingerze Z]] dla [[go-saurer|Go-Saurera]] i wstąpienie do [[connect-force|Connect]] w imieniu [[instytut-energii-fotonowej|Instytutu Energii Fotonowej]]. Pogłębiony opis przebiegu lotu powrotnego na [[stacja-connect|stację]].
+
+## 2026-10-28 10:58
+
+- Scena [[srw-oe-ep2-grozba-pod-ziemia|„Groźba pod ziemią”]] i strony [[saurersi|Saurersów]] z [[akademia-hinobori|Akademii Hinobori]] mówią już tylko o tym, co padło w klasie 5-3: Saurersi pokonali [[mechanization-empire|Imperium Mechanizacji]] i ocalili Ziemię, a wspomnienie to należy do [[taro-shirogane|Kinty]]. Opisy epizodu, sceny i haseł dopasowane do tego przebiegu.
+
+## 2026-10-28 10:45
+
+- Opisy przebiegu sceny [[srw-oe-ep2-grozba-pod-ziemia|„Groźba pod ziemią”]] prowadzą teraz dokładnie za wydarzeniami: narada o wspólnym treningu w sali klasy 5-3 — propozycja [[takako-kojima|Profesor]], sprzeciw [[kenichi-minezaki|Kenichiego]] i [[jin-hyuga|Jina]] na rzecz piłki, twarde zdanie [[shinobu-asaoka|Shinobu]] i [[taro-shirogane|Kinty]], głos [[aiko-shimada|Love]] i [[yoji-hiyama|Yojiego]] za równowagą — zostaje przerwana alarmem o [[mechabestia|mechabestiach]], po którym obie drużyny ruszają pod ziemię. Poprawki objęły streszczenie epizodu, analizę sceny oraz strony [[klasa-obrony-ziemi|Klasy Obrony Ziemi]], [[saurersi|Saurersów]] i ich maszyn.
+
 ## 2026-10-27 23:32
 
 - Rozpoczyna się [[srw-oe-ep2|Epizod 2]] w [[srw-oe|Super Robot Wars OE]] od sceny [[srw-oe-ep2-grozba-pod-ziemia|„Groźba pod ziemią”]]: wspólny trening [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] (z udziałem [[aiko-shimada|Aiko „Love” Shimady]], [[daisuke-sato|Daisuke Sato]] i [[akira-imamura|Akiry Imamury]]) oraz [[saurersi|Saurersów]] w [[akademia-hinobori|Akademii Hinobori]] przerywa zejście do podziemnej pieczary, gdzie [[raijin-oh|Raijin-Oh]], [[go-saurer|Go-Saurer]], oddział [[connect-force|Connect]] ([[exart|Exart]] i [[ingram-nr-1|Ingramy]] [[sv2|SV2]]), [[shin-getter-1|Shin Getter-1]], [[mazinger-z|Mazinger Z]] oraz przebijający się z innego wszechświata [[gurren-lagann|Gurren Lagann]] niszczą bramy [[mucus-gate-s-in|Mucus Gate S IN]] i [[mucus-gate-s-mc|Mucus Gate S MC]], a [[seishiro|Seishiro]] ujawnia tajemnicę kosmitów [[mucus|Mucus]] i splecenia światów.

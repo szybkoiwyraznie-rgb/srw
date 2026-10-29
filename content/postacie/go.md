@@ -19,7 +19,17 @@ utworzono: 2026-10-27
 
 Główny pilot [[shin-getter-1|Shin Gettera-1]] współpracujący z [[kei|Kei]] i [[gai|Gaiem]] w maszynie zdolnej do przejścia w [[shin-getter-2|Shin Gettera-2]] oraz [[shin-getter-3|Shin Gettera-3]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] schodzi z załogą do rozległej podziemnej pieczary tropem [[invaderzy|Invaderów]], gdzie oprócz kosmitów [[invader-ground|Invader/Ground]] napotyka [[mechabestia|mechabestie]] [[bolt-robo-standard|Bolt Robo]] oraz nieznane istoty [[nekton-assault|Nekton Assault]]. Zgadza się z propozycją Gai, by przebić skalną przegrodę wiertłem [[shin-getter-2|Gettera-2]], a wsparty przez [[raijin-oh|Raijin-Oha]], [[go-saurer|Go-Saurera]], [[connect-force|Connect]], [[mazinger-z|Mazingera Z]] i [[gurren-lagann|Gurren Laganna]] niszczy po drugiej stronie ściany bramy [[mucus|Mucus]].
 
-Po walce wraz z [[kei|Kei]] i [[gai|Gaiem]] przystępuje na zaproszenie [[seishiro|Seishira]] do [[connect-force|Connect]]. W samolocie transportowym zbywa hałaśliwego [[kamina|Kaminę]] krótkim nakazem milczenia, a w hangarze rozmyśla z towarzyszami o tym, że w ich maszynie wciąż brakuje „tamtych trzech” dawnych pilotów.
+Po walce wraz z [[kei|Kei]] i [[gai|Gaiem]] przystępuje na zaproszenie [[seishiro|Seishira]] do [[connect-force|Connect]]. W hangarze samolotu transportowego niechętnie odpowiada na przywitanie załogi Gettera („...Miło mi.”), co prowokuje reakcję [[gai|Gaia]], [[kei|Kei]] i [[koji-kabuto|Kojiego]], a na wieść, że koledzy cieszą się z jego obecności, odpowiada krótkim „Tak...”.
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Go — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Go.png)
+
 }}
 
 {{menu gra=srw-oe

@@ -16,9 +16,19 @@ utworzono: 2026-10-27
 
 ## Opis
 
-Założyciel i przywódca [[gurren-team|drużyny Gurren]], współpilotujący [[gurren-lagann|Gurren Laganna]] u boku [[simon|Simona]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] przebija się z towarzyszami przez podziemną ścianę w sam środek bitwy przeciw [[mechabestia|mechabestiom]], [[invader-ground|Invaderom]] oraz [[nekton-assault|Nekton Assault]]. Biorąc początkowo nieznane potwory za nowe [[gunmen|Gunmeny]] zwierzoludzi, zagrzewa Simona okrzykiem, że na ich drodze nie ma ściany, której nie dałoby się przewiercić, po czym z zapałem rusza z [[shin-getter-1|Shin Getterem-1]] za skalną przegrodę, by zniszczyć obie bramy [[mucus|Mucus]].
+Założyciel i przywódca [[gurren-team|drużyny Gurren]], współpilotujący [[gurren-lagann|Gurren Laganna]] u boku [[simon|Simona]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] przebija się z towarzyszami przez podziemną ścianę w sam środek bitwy przeciw [[mechabestia|mechabestiom]], [[invader-ground|Invaderom]] oraz [[nekton-assault|Nekton Assault]]. Gdy [[yoko|Yoko]] bierze napotkaną maszynę za [[gunmen|Gunmena]], odrzuca to przeczucie („Ten tutaj nie pachnie jak Gunmen”), zagrzewa Simona okrzykiem, że na ich drodze nie ma ściany, której nie dałoby się przewiercić, po czym z zapałem rusza za skalną przegrodę, by zniszczyć obiekt, z którego wyłażą potwory.
 
-Na powierzchni, skonfrontowany z wielkim miastem wokół [[akademia-hinobori|Akademii Hinobori]] i dowodem na to, że znaleźli się na Ziemi z innego wszechświata, bez wahania akceptuje wyjaśnienia [[seishiro|Seishira]] o połączeniu światów i zgłasza gotowość [[gurren-team|drużyny Gurren]] do wstąpienia w szeregi [[connect-force|Connect]] — zwłaszcza gdy słyszy o locie w kosmos na [[stacja-connect|stację orbitalną]]. W samolocie transportowym wdaje się jeszcze w szorstką wymianę zdań z [[go|Go]] i zapowiada mu pojedynek [[gurren-lagann|Gurren Laganna]] z [[shin-getter-1|Getterem]].
+Na powierzchni, skonfrontowany z wielkim miastem wokół [[akademia-hinobori|Akademii Hinobori]], z zapałem ogląda nieznany sobie świat i prosi, by ktoś pokazał mu okolicę; gdy [[yoko|Yoko]] wyjaśnia z [[seishiro|Seishirem]] warunki pobytu, cała [[gurren-team|drużyna Gurren]] przystaje na opiekę [[connect-force|Connect]] i odlatuje z pozostałymi.
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Kamina — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kamina.png)
+
 }}
 
 {{menu gra=srw-oe

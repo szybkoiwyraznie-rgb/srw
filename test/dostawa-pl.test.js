@@ -269,11 +269,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 110 plików przy 85 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 152 plików przy 115 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 85);
-  assert.equal(Object.values(manifest.encje).flat().length, 110);
+  assert.equal(Object.keys(manifest.encje).length, 115);
+  assert.equal(Object.values(manifest.encje).flat().length, 152);
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   const portrety = wszystkie.filter((f) => f.startsWith('characters/')).length;
@@ -345,6 +345,60 @@ test('ilustracje właściciela: 110 plików przy 85 encjach, w tym postacie bez 
   for (const [slug, files] of Object.entries(dostawa1025)) {
     assert.deepEqual(manifest.encje[slug], files, slug);
   }
+  // Dostawa ilustracji jednostek epizodu 2 (2026-10-29): 26 plików czternastu jednostek
+  // sceny „Groźba pod ziemią” — nazwy plików od właściciela, potwierdzone odczytem listy R2.
+  const dostawa1029 = {
+    'bolt-robo-standard': ['Bolt Robo Standard.png', 'Bolt Robo Standard 1.png'],
+    'bolt-robo-melee': ['Bolt Robo Melee.png', 'Bolt Robo Melee 2.png'],
+    'bolt-robo-long-range': ['Bolt Robo Long-Range.png', 'Bolt Robo Long-Range 2.png'],
+    'go-saurer': ['Go-Saurer.png', 'Go-Saurer 2.png'],
+    'king-go-saurer': ['King Go-Saurer.png', 'King Go-Saurer 2.png'],
+    'shin-getter-1': ['Shin-Getter 1.png', 'Shin-Getter 1 2.png'],
+    'shin-getter-2': ['Shin-Getter 2.png', 'Shin-Getter 2 2.png'],
+    'shin-getter-3': ['Shin-Getter 3.png', 'Shin-Getter 3 2.png'],
+    'mazinger-z': ['Mazinger Z.png', 'Mazinger Z 2.png'],
+    'gurren-lagann': ['Gurren Lagann.png', 'Gurren Lagann 2.png'],
+    'invader-ground': ['Invader Ground.png', 'Invader Ground 2.png'],
+    'nekton-assault': ['Nekton Assault.png', 'Nekton Assault 2.png'],
+    'mucus-gate-s-in': ['Mucus Gate S IN.png'],
+    'mucus-gate-s-mc': ['Mucus Gate S MC.png'],
+  };
+  for (const [slug, files] of Object.entries(dostawa1029)) {
+    assert.deepEqual(manifest.encje[slug], files, slug);
+    const body = bySlug.get(slug).body;
+    assert.equal((body.match(/^### Ilustracja \d+$/gm) ?? []).length, files.length,
+      `${slug}: liczba podsekcji galerii`);
+  }
+  // Dostawa portretów postaci epizodu 2 (2026-10-29): 16 plików w characters/,
+  // w tym Goro Ishida — nowa strona utworzona z ilustracji (ADR 0017).
+  const portrety1029 = {
+    'boota': ['characters/Boota.png'],
+    'erika-kozu': ['characters/Erika Kozu.png'],
+    'gai': ['characters/Gai.png'],
+    'go': ['characters/Go.png'],
+    'goro-ishida': ['characters/Goro Ishida.png'],
+    'hiromi-tachibana': ['characters/Hiromi Tachibana.png'],
+    'kamina': ['characters/Kamina.png'],
+    'kei': ['characters/Kei.png'],
+    'kenichi-minezaki': ['characters/Kenichi Minezaki.png'],
+    'koji-kabuto': ['characters/Koji Kabuto.png'],
+    'shinobu-asaoka': ['characters/Shinobu Asaoka.png'],
+    'simon': ['characters/Simon.png'],
+    'takako-kojima': ['characters/Takako Kojima.png'],
+    'taro-shirogane': ['characters/Taro Shirogane.png'],
+    'yoji-hiyama': ['characters/Yoji Hiyama.png'],
+    'yoko': ['characters/Yoko.png'],
+  };
+  for (const [slug, files] of Object.entries(portrety1029)) {
+    assert.deepEqual(manifest.encje[slug], files, slug);
+    assert.ok(files[0].startsWith('characters/'), `${slug}: portret w characters/`);
+    const body = bySlug.get(slug).body;
+    assert.equal((body.match(/^### Ilustracja \d+$/gm) ?? []).length, 1, `${slug}: jeden portret`);
+  }
+  // Goro Ishida nie występuje w skrypcie gry — strona encji nie należy do scen ani załóg.
+  const goro = bySlug.get('goro-ishida');
+  assert.equal(goro.pochodzenie, 'zrodlo', 'opis z kwerendy (ADR 0017)');
+  assert.deepEqual(goro.mechy ?? [], [], 'brak przypisania do załóg na podstawie ilustracji');
   assert.deepEqual(manifest.nieprzypisane, []);
   const adres = file => `${manifest.baseUrl}/${file.split('/').map(encodeURIComponent).join('/')}`;
   for (const [slug, files] of Object.entries(manifest.encje)) {

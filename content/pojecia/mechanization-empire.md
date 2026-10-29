@@ -17,7 +17,7 @@ Imperium Mechanizacji pojawia się w wyliczeniu nadludzkich zagrożeń z przesz�
 
 Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 
-W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] [[kenichi-minezaki|Kenichi Minezaki]] wspomina wcześniejsze pokonanie Króla Maszyn, jednak w podziemnej pieczarze niespodziewanie pojawiają się [[mechabestia|mechabestie]] [[bolt-robo-standard|Bolt Robo]] przerzucane przez [[mucus-gate-s-mc|bramę Mucus Gate S MC]]. Na podstawie danych od [[seishiro|Seishira]] [[takako-kojima|Profesor]] dochodzi do wniosku, że Imperium Mechanizacji nie zostało unicestwione całkowicie i odbudowuje siły w przestrzeni kosmicznej.
+W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] [[taro-shirogane|Kinta]] nie dowierza doniesieniom o zagrożeniu — Saurersi pokonali już to Imperium — jednak w podziemnej pieczarze niespodziewanie pojawiają się [[mechabestia|mechabestie]] [[bolt-robo-standard|Bolt Robo]] przerzucane przez [[mucus-gate-s-mc|bramę Mucus Gate S MC]]. [[seishiro|Seishiro]], zastrzegając że to tylko jego przypuszczenie, nie wyklucza, że gdzieś w kosmosie Imperium Mechanizacji może się odradzać.
 }}
 {{zrodlo gra=wspolne
 

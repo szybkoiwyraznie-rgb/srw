@@ -22,6 +22,19 @@ Naziemna postać bojowa pozaziemskich [[invaderzy|Invaderów]], kierowana instyn
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] osobniki te pojawiają się w głębi jaskini obok [[mechabestia|mechabestii]] i istot [[mucus|Mucus]], potwierdzając podejrzenia [[go|Go]], [[kei|Kei]] i [[gai|Gaia]], że na Ziemi wciąż kryją się niedobitki obcych. Jak wyjaśnia po bitwie [[seishiro|Seishiro]], dzięki zdolności rozkładania i ponownego składania własnych ciał Invaderzy przedostają się pod ziemię przez małą bramę podprzestrzenną [[mucus-gate-s-in|Mucus Gate S IN]].
 }}
 
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Invader/Ground — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Invader%20Ground.png)
+
+### Ilustracja 2
+
+![Invader/Ground — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Invader%20Ground%202.png)
+}}
+
 {{zrodlo gra=wspolne
 
 W [[getter-robo-armageddon|pierwowzorze]] [[invaderzy|Invaderzy]] (インベーダー) to bezkształtne organizmy pozaziemskie najeżone licznymi gałkami ocznymi i kolcami, zdolne dowolnie przekształcać swoje ciała w macki bądź kostne ostrza oraz regenerować się nawet po posiekaniu na drobne kawałki. Dopiero skumulowane promieniowanie Gettera wywołuje u nich gwałtowne przeciążenie ewolucyjne prowadzące do całkowitego rozpadu ([Wikipedia, *Getter Robo Armageddon*](https://en.wikipedia.org/wiki/Getter_Robo_Armageddon); sprawdzono 2026-10-27).

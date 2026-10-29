@@ -16,9 +16,19 @@ utworzono: 2026-10-27
 
 ## Opis
 
-Strzelczyni [[gurren-team|drużyny Gurren]] wspierająca [[simon|Simona]] i [[kamina|Kaminę]] w [[gurren-lagann|Gurren Lagannie]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] po przebiciu się przez skałę do podziemnej jaskini od razu orientuje się, że walczące tam maszyny nie przypominają znanych jej [[gunmen|Gunmenów]], a po wyjściu na powierzchnię z osłupieniem patrzy na tętniące życiem miasto i szkołę pełną ludzi mieszkających pod gołym niebem bez strachu przed zwierzoludźmi.
+Strzelczyni [[gurren-team|drużyny Gurren]] wspierająca [[simon|Simona]] i [[kamina|Kaminę]] w [[gurren-lagann|Gurren Lagannie]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] po przebiciu się przez skałę do podziemnej jaskini uznaje walczącą tam maszynę za [[gunmen|Gunmena]] i towarzyszy przyjaciołom w odkryciu, że z wielkiego obiektu wyłażą kolejne potwory, a po wyjściu na powierzchnię z osłupieniem patrzy na tętniące życiem miasto i szkołę pełną ludzi mieszkających pod gołym niebem bez strachu przed zwierzoludźmi.
 
-W sali [[akademia-hinobori|Akademii Hinobori]] wymienia nazwę swojej rodzinnej wioski Littner — której próżno szukają w ziemskich bazach [[takako-kojima|Profesor]] i [[tsutomu-kojima|Tsutomu]] — po czym uważnie dopytuje [[seishiro|Seishira]] o naturę połączenia światów i możliwość powrotu do domu. Gdy słyszy o zagrożeniu ze strony [[mucus|Mucus]], popiera decyzję Kaminy o dołączeniu do [[connect-force|Connect]], a w samolocie transportowym z przekąsem komentuje impulsywny charakter obu załóg po sprzeczce Kaminy z [[go|Go]].
+W sali [[akademia-hinobori|Akademii Hinobori]] wymienia nazwę swojej rodzinnej wioski Littner — której nie ma w ziemskich bazach — po czym uważnie dopytuje [[seishiro|Seishira]] o naturę połączenia światów i możliwość powrotu do domu; przysłuchuje się też, jak [[himari-yaegaki|Himari]] sprawdza w danych centrali [[connect-force|Connect]] ślady [[gurren-lagann|Gurren Laganna]]. Gdy Seishiro gwarantuje jej ludziom opiekę, stwierdza: „Chyba mogę ci zaufać”, a w samolocie transportowym obiecuje mu, że wszystko wytłumaczy Kaminie i reszcie.
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Yoko — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Yoko.png)
+
 }}
 
 {{menu gra=srw-oe

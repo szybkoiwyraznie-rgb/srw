@@ -16,9 +16,19 @@ utworzono: 2026-10-27
 
 ## Opis
 
-Podpilotka [[go-saurer|Go-Saurera]] i [[king-go-saurer|King Go-Saurera]] należąca do [[saurersi|Saurersów]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] w sali klasy 5-3 wytyka [[jin-hyuga|Jinowi]], że nie traktuje wspólnych ćwiczeń poważnie, wyśmiewa improwizowane podejście jego kolegów jako brak strategii i przytakuje [[aiko-shimada|Love]], że uparci chłopcy z obu szkół są do siebie uderzająco podobni.
+Podpilotka [[go-saurer|Go-Saurera]] i [[king-go-saurer|King Go-Saurera]] należąca do [[saurersi|Saurersów]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] w sali klasy 5-3 wytyka [[kenichi-minezaki|Kenichiemu]] marudzenie, przypominając, że o wspólnych ćwiczeniach przegłosowano już w drużynie.
 
 Na widok nieznanych istot [[nekton-assault|Nekton Assault]] wyłaniających się w podziemnej jaskini u boku [[mechabestia|mechabestii]] nie kryje obrzydzenia, ale wspiera [[kenichi-minezaki|Kenichiego]] w kokpicie aż do zniszczenia bram [[mucus|Mucus]]. Po powrocie do [[akademia-hinobori|Akademii Hinobori]] dziwi się opowieści [[simon|Simona]] o wiosce położonej głęboko pod ziemią i docieka, dlaczego zwierzoludzie w świecie [[gurren-team|drużyny Gurren]] spychają ludzi pod powierzchnię.
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Shinobu Asaoka — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Shinobu%20Asaoka.png)
+
 }}
 
 {{menu gra=srw-oe

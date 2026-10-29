@@ -132,7 +132,7 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Zgrupowanie Klasy Obrony Ziemi i Saurersów w Akademii Hinobori',
       'Shin Getter-1 przeciw Invaderom i wzmianka o dawnej trójce pilotów',
       'Odsiecz Connect, przeczucia Himari i zakaz Excess Blastu pod ziemią',
-      'Rozpoznanie wstrząsów przez Kojiego Kabuto w Mazingerze Z',
+      'Odsiecz Kojiego Kabuto w Mazingerze Z',
       'Wyprawa drużyny Gurren i przebicie do innego świata',
       'Bramy Mucus, ujawnienie celu Connect i splecenie światów',
     ],

@@ -24,7 +24,7 @@ W szkole pyta wprost, czy dorośli są z tego [[connect-force|Connect]], który 
 
 Podczas [[srw-oe-ep1-szalejacy-labor-powraca|obrony placu budowy]] przybywa z [[raijin-oh|Raijin-Ohem]] na pomoc policjantom i od razu przechwala się, że mogą być spokojni. Po ostrzeżeniu [[asuka-tsukishiro|Asuki]] potwierdza, że nie zaatakuje policyjnych Laborów przez pomyłkę.
 
-W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] ściera się słownie i na boisku piłkarskim z [[kenichi-minezaki|Kenichim Minezakim]] podczas wizyty [[saurersi|Saurersów]], po czym wyprowadza [[raijin-oh|Raijin-Oha]] pod ziemię przeciw [[mechabestia|mechabestiom]], [[invader-ground|Invaderom]] oraz [[nekton-assault|Nekton Assault]]. Z uznaniem wita pojawienie się [[mazinger-z|Mazingera Z]] i [[gurren-lagann|Gurren Laganna]], a po walce zaprzyjaźnia się z [[kamina|Kaminą]] i [[simon|Simonem]], oprowadzając ich razem z Kenichim po okolicy [[akademia-hinobori|Akademii Hinobori]].
+W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] razem z [[kenichi-minezaki|Kenichim Minezakim]] sprzeciwia się planowi częstych wspólnych ćwiczeń, obstając przy grze w piłkę, po czym wyprowadza [[raijin-oh|Raijin-Oha]] pod ziemię przeciw [[mechabestia|mechabestiom]], [[invader-ground|Invaderom]] oraz [[nekton-assault|Nekton Assault]]. Z uznaniem wita pojawienie się [[mazinger-z|Mazingera Z]] i [[gurren-lagann|Gurren Laganna]], a po bitwie w klasie stwierdza, że [[kamina|Kamina]] i reszta muszą być z innego świata.
 }}
 
 {{menu gra=srw-oe

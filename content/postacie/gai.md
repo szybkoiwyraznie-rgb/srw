@@ -17,9 +17,19 @@ utworzono: 2026-10-27
 
 ## Opis
 
-Pilot [[shin-getter-3|Shin Gettera-3]] współtworzący z [[go|Go]] i [[kei|Kei]] załogę [[shin-getter-1|Shin Gettera-1]] oraz [[shin-getter-2|Shin Gettera-2]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podczas walki w podziemnej pieczarze przytomnie ocenia sytuację taktyczną: dostrzega wartość wsparcia [[raijin-oh|Raijin-Oha]], [[go-saurer|Go-Saurera]] i [[connect-force|Connect]], wita przybyłego z pomocą [[koji-kabuto|Kojiego Kabuto]], a po wykryciu przez [[himari-yaegaki|Himari]] źródła posiłków za skalną ścianą proponuje przekształcenie maszyny w [[shin-getter-2|Gettera-2]], aby przebić przegrodę wiertłem i zniszczyć bramy [[mucus|Mucus]].
+Pilot [[shin-getter-3|Shin Gettera-3]] współtworzący z [[go|Go]] i [[kei|Kei]] załogę [[shin-getter-1|Shin Gettera-1]] oraz [[shin-getter-2|Shin Gettera-2]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podczas walki w podziemnej pieczarze jako pierwszy łączy powrót [[mechabestia|mechabestii]] z odrodzeniem [[mechanization-empire|Imperium Mechanizacji]] („Czyli Imperium Mechanizacji wróciło?”), łączy się radiem z przybywającymi posiłkami i po przejściu [[gurren-team|drużyny Gurren]] przez ścianę proponuje [[go|Gowi]], by [[shin-getter-2|Getterem-2]] przebił przegrodę i ruszył im z pomocą; gdy [[himari-yaegaki|Himari]] lokalizuje źródło posiłków, rozsyła obraz celu wszystkim jednostkom.
 
 Po zwycięstwie przyjmuje wraz z towarzyszami zaproszenie [[seishiro|Seishira]] na pokład samolotu transportowego [[connect-force|Connect]], gdzie w hangarze wspomina z [[go|Go]] i [[kei|Kei]], jak wielką siłę dawała Getterowi dawna trójka pilotów.
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Gai — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Gai.png)
+
 }}
 
 {{menu gra=srw-oe
