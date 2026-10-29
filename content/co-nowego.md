@@ -2,7 +2,7 @@
 
 ## 2026-10-29 12:44
 
-- [[srw-oe-ep2|Groźba pod ziemią]]: doprecyzowane warunki opieki Connect nad [[gurren-team|drużyną Gurren]] oraz rozmowa załogi Gettera z Kojim w hangarze samolotu transportowego. Poprawione opisy Kaminy, Yoko, Kei i Gaia.
+- [[srw-oe-ep2|Groźba pod ziemią]]: doprecyzowane warunki opieki Connect nad [[gurren-team|drużyną Gurren]] oraz rozmowa załogi Gettera z Kojim w hangarze samolotu transportowego. Poprawione opisy Kaminy, Yoko, Kei i Gaia. Rozdzielona rozmowa o [[mucus|Mucus]] po bitwie od późniejszej rozmowy o pochodzeniu przybyszów w szkolnej klasie.
 
 ## 2026-10-29 12:40
 
