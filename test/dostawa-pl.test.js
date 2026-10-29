@@ -269,11 +269,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 110 plików przy 85 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 136 plików przy 99 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 85);
-  assert.equal(Object.values(manifest.encje).flat().length, 110);
+  assert.equal(Object.keys(manifest.encje).length, 99);
+  assert.equal(Object.values(manifest.encje).flat().length, 136);
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   const portrety = wszystkie.filter((f) => f.startsWith('characters/')).length;
@@ -344,6 +344,30 @@ test('ilustracje właściciela: 110 plików przy 85 encjach, w tym postacie bez 
   };
   for (const [slug, files] of Object.entries(dostawa1025)) {
     assert.deepEqual(manifest.encje[slug], files, slug);
+  }
+  // Dostawa ilustracji jednostek epizodu 2 (2026-10-29): 26 plików czternastu jednostek
+  // sceny „Groźba pod ziemią” — nazwy plików od właściciela, potwierdzone odczytem listy R2.
+  const dostawa1029 = {
+    'bolt-robo-standard': ['Bolt Robo Standard.png', 'Bolt Robo Standard 1.png'],
+    'bolt-robo-melee': ['Bolt Robo Melee.png', 'Bolt Robo Melee 2.png'],
+    'bolt-robo-long-range': ['Bolt Robo Long-Range.png', 'Bolt Robo Long-Range 2.png'],
+    'go-saurer': ['Go-Saurer.png', 'Go-Saurer 2.png'],
+    'king-go-saurer': ['King Go-Saurer.png', 'King Go-Saurer 2.png'],
+    'shin-getter-1': ['Shin-Getter 1.png', 'Shin-Getter 1 2.png'],
+    'shin-getter-2': ['Shin-Getter 2.png', 'Shin-Getter 2 2.png'],
+    'shin-getter-3': ['Shin-Getter 3.png', 'Shin-Getter 3 2.png'],
+    'mazinger-z': ['Mazinger Z.png', 'Mazinger Z 2.png'],
+    'gurren-lagann': ['Gurren Lagann.png', 'Gurren Lagann 2.png'],
+    'invader-ground': ['Invader Ground.png', 'Invader Ground 2.png'],
+    'nekton-assault': ['Nekton Assault.png', 'Nekton Assault 2.png'],
+    'mucus-gate-s-in': ['Mucus Gate S IN.png'],
+    'mucus-gate-s-mc': ['Mucus Gate S MC.png'],
+  };
+  for (const [slug, files] of Object.entries(dostawa1029)) {
+    assert.deepEqual(manifest.encje[slug], files, slug);
+    const body = bySlug.get(slug).body;
+    assert.equal((body.match(/^### Ilustracja \d+$/gm) ?? []).length, files.length,
+      `${slug}: liczba podsekcji galerii`);
   }
   assert.deepEqual(manifest.nieprzypisane, []);
   const adres = file => `${manifest.baseUrl}/${file.split('/').map(encodeURIComponent).join('/')}`;

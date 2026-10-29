@@ -24,6 +24,19 @@ Szybka, wiertłowa konfiguracja transformacji dostępna z [[shin-getter-1|Shin G
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]], gdy [[gurren-lagann|Gurren Lagann]] przebija się wiertłem przez skalną ścianę skrywającą bramę [[mucus|Mucus]], [[gai|Gai]] przypomina [[kei|Kei]], że jej Getter-2 również potrafi drążyć tunele w litej skale, a [[go|Go]] zapowiada przejście w tę konfigurację, gdyby [[gurren-team|drużyna Gurren]] wpadła po drugiej stronie w tarapaty.
 }}
 
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Shin Getter-2 — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Shin-Getter%202.png)
+
+### Ilustracja 2
+
+![Shin Getter-2 — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Shin-Getter%202%202.png)
+}}
+
 {{zrodlo gra=wspolne
 
 W [[getter-robo-armageddon|pierwowzorze]] Shin Getter-2 (真ゲッター2, 55 m wysokości, 290 ton masy) powstaje z połączenia odrzutowców w kolejności Shin Jaguar, Shin Bear i Shin Eagle, wysuwając na czoło biały pojazd [[kei|Kei]]. Maszyna ma smukłą sylwetkę z potężnym świdrem zamiast prawego przedramienia i szczypcami w lewej dłoni; specjalizuje się w walce naziemnej i podziemnej, rozrywaniu formacji wroga szarżami na dopalaczach oraz myleniu przeciwników powidokami wywoływanymi ekstremalną prędkością ruchu ([Wikipedia, *Getter Robo Armageddon*](https://en.wikipedia.org/wiki/Getter_Robo_Armageddon); [SRW Wiki, „Shin Getter Robo”](https://superrobotwars.fandom.com/wiki/Shin_Getter_Robo); sprawdzono 2026-10-27).

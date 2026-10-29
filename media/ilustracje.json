@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "baseUrl": "https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev",
   "pochodzenie": "menu",
-  "dostarczono": "2026-10-25",
-  "podstawa": "Ilustracje właściciela jako pełnoprawna dostawa encji (ADR 0017); nazwy z odczytu listy R2 (workflow r2-inventory, 2026-10-20), z dostawy ilustracji jednostek misji 2, z dostawy portretów jej obsady oraz z dostawy portretu generała Revila (2026-10-22). Dostawa ilustracji misji 4 (2026-10-23): Raijin-Oh i obsada treningu Klasy Obrony. Dostawa ilustracji misji 1-5 (2026-10-24): siedem jednostek i dziewięć postaci. Uzupełnienie z 2026-10-24: portret Terry’ego Sandersa Jr. Dostawa ilustracji z 2026-10-25: sześć portretów postaci Patlabora (Badrinath Harchand, Kurosaki, Seitaro Sakaki, Shigeo Shiba, Shinobu Nagumo, Utsumi), dwa pliki God Raijin-Oha oraz portret Bakuryu-Oha, który jako kopilot God Raijin-Oha dostał własną stronę postaci (ADR 0017).",
+  "dostarczono": "2026-10-29",
+  "podstawa": "Ilustracje właściciela jako pełnoprawna dostawa encji (ADR 0017); nazwy z odczytu listy R2 (workflow r2-inventory, 2026-10-20), z dostawy ilustracji jednostek misji 2, z dostawy portretów jej obsady oraz z dostawy portretu generała Revila (2026-10-22). Dostawa ilustracji misji 4 (2026-10-23): Raijin-Oh i obsada treningu Klasy Obrony. Dostawa ilustracji misji 1-5 (2026-10-24): siedem jednostek i dziewięć postaci. Uzupełnienie z 2026-10-24: portret Terry’ego Sandersa Jr. Dostawa ilustracji z 2026-10-25: sześć portretów postaci Patlabora (Badrinath Harchand, Kurosaki, Seitaro Sakaki, Shigeo Shiba, Shinobu Nagumo, Utsumi), dwa pliki God Raijin-Oha oraz portret Bakuryu-Oha, który jako kopilot God Raijin-Oha dostał własną stronę postaci (ADR 0017). Dostawa ilustracji jednostek epizodu 2 (2026-10-29): 26 plików czternastu jednostek sceny „Groźba pod ziemią”.",
   "weryfikacjaZdalna": false,
-  "uwaga": "Stan manifestu: 55 portretów w characters/ i 55 plików jednostek w korzeniu, razem 110 obrazów przy 85 encjach. Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów, więc nie deklarujemy obejrzenia zawartości. Obecność plików characters/Gaia.png i characters/Hayato Kobayashi.png potwierdzona odczytem listy R2 z 2026-10-22; pozostałe cztery portrety pochodzą z tej samej partii i zachowują tę samą konwencję ścieżki. Portret characters/Revil.png pochodzi z kolejnej dostawy właściciela; odczyt listy R2 potwierdził łącznie 67 obiektów. Dostawa z 2026-10-22 dodaje dwa pliki zwykłego Doma („Dom Generic”, „Dom Generic 2”) dla strony Dom (Żołnierz Zeonu); obecność obu kluczy potwierdził odczyt listy R2 z 2026-10-22 (69 obiektów, pliki z 16:59), ale treści obrazów nie oglądano, więc weryfikacjaZdalna pozostaje false. Dostawa z 2026-10-23 dodaje dwa obrazy Raijin-Oha („Raijin-Oh”, „Raijin-Oh 2”) i siedem portretów uczniów z Hinobori (Asuka, Jin, Kirara, Koji, Maria, Tsutomu, Yoko); odczyt listy R2 z 2026-10-23 potwierdził wszystkie dziewięć kluczy (78 obiektów, pliki z 16:31–16:32 UTC), ale treści obrazów nie oglądano, więc weryfikacjaZdalna pozostaje false. Dostawa z 2026-10-24 dodaje 13 plików dla siedmiu jednostek i dziewięć portretów; odczyt listy R2 potwierdził wszystkie 22 klucze (100 obiektów, pliki z 22:12–22:16 UTC 2026-10-23), ale treści obrazów nie oglądano, więc weryfikacjaZdalna pozostaje false. Kolejny odczyt listy R2 potwierdził characters/Terry Sanders Jr..png (101 obiektów, plik z 22:22 UTC 2026-10-23); treści obrazu nie oglądano. Alex nie ma wpisu w manifeście, bo w misji 1-5 nie staje do walki — jedzie w kontenerze jako ładunek transportu, więc właściciel nie ma czego sfotografować. Dostawa z 2026-10-25 dodaje siedem plików w characters/ i dwa w korzeniu; odczyt listy R2 z 2026-10-25 potwierdził wszystkie dziewięć kluczy (110 obiektów, pliki z 22:05–22:06 UTC 2026-10-24), ale treści obrazów nie oglądano, więc weryfikacjaZdalna pozostaje false. Plik characters/Bakuryu-Oh.png przypisano do osobnej strony postaci-kopilota, a nie do galerii God Raijin-Oha — w SRW OE Bakuryu-Oh nie jest samodzielną jednostką, tylko sub-pilotem formy.",
+  "uwaga": "Stan manifestu: 55 portretów w characters/ i 81 plików jednostek w korzeniu, razem 136 obrazów przy 99 encjach. Przypisanie na podstawie nazw właściciela — sandbox nie pobiera obrazów, więc nie deklarujemy obejrzenia zawartości. Obecność plików characters/Gaia.png i characters/Hayato Kobayashi.png potwierdzona odczytem listy R2 z 2026-10-22; pozostałe cztery portrety pochodzą z tej samej partii i zachowują tę samą konwencję ścieżki. Portret characters/Revil.png pochodzi z kolejnej dostawy właściciela; odczyt listy R2 potwierdził łącznie 67 obiektów. Dostawa z 2026-10-22 dodaje dwa pliki zwykłego Doma („Dom Generic”, „Dom Generic 2”) dla strony Dom (Żołnierz Zeonu); obecność obu kluczy potwierdził odczyt listy R2 z 2026-10-22 (69 obiektów, pliki z 16:59), ale treści obrazów nie oglądano, więc weryfikacjaZdalna pozostaje false. Dostawa z 2026-10-23 dodaje dwa obrazy Raijin-Oha („Raijin-Oh”, „Raijin-Oh 2”) i siedem portretów uczniów z Hinobori (Asuka, Jin, Kirara, Koji, Maria, Tsutomu, Yoko); odczyt listy R2 z 2026-10-23 potwierdził wszystkie dziewięć kluczy (78 obiektów, pliki z 16:31–16:32 UTC), ale treści obrazów nie oglądano, więc weryfikacjaZdalna pozostaje false. Dostawa z 2026-10-24 dodaje 13 plików dla siedmiu jednostek i dziewięć portretów; odczyt listy R2 potwierdził wszystkie 22 klucze (100 obiektów, pliki z 22:12–22:16 UTC 2026-10-23), ale treści obrazów nie oglądano, więc weryfikacjaZdalna pozostaje false. Kolejny odczyt listy R2 potwierdził characters/Terry Sanders Jr..png (101 obiektów, plik z 22:22 UTC 2026-10-23); treści obrazu nie oglądano. Alex nie ma wpisu w manifeście, bo w misji 1-5 nie staje do walki — jedzie w kontenerze jako ładunek transportu, więc właściciel nie ma czego sfotografować. Dostawa z 2026-10-25 dodaje siedem plików w characters/ i dwa w korzeniu; odczyt listy R2 z 2026-10-25 potwierdził wszystkie dziewięć kluczy (110 obiektów, pliki z 22:05–22:06 UTC 2026-10-24), ale treści obrazów nie oglądano, więc weryfikacjaZdalna pozostaje false. Plik characters/Bakuryu-Oh.png przypisano do osobnej strony postaci-kopilota, a nie do galerii God Raijin-Oha — w SRW OE Bakuryu-Oh nie jest samodzielną jednostką, tylko sub-pilotem formy. Dostawa z 2026-10-29 dodaje 26 plików jednostek w korzeniu (trzy warianty Bolt Robo, Go-Saurer, King Go-Saurer, trzy Shin-Gettery, Mazinger Z, Gurren Lagann, Invader/Ground, Nekton Assault oraz po jednym pliku obu bram Mucus Gate); odczyt listy R2 z 2026-10-29 potwierdził wszystkie 26 kluczy (136 obiektów, pliki z 2026-10-29), ale treści obrazów nie oglądano, więc weryfikacjaZdalna pozostaje false.",
   "encje": {
     "exart": [
       "Exart.jpg",
@@ -286,6 +286,60 @@
     ],
     "bakuryu-oh": [
       "characters/Bakuryu-Oh.png"
+    ],
+    "bolt-robo-standard": [
+      "Bolt Robo Standard.png",
+      "Bolt Robo Standard 1.png"
+    ],
+    "bolt-robo-melee": [
+      "Bolt Robo Melee.png",
+      "Bolt Robo Melee 2.png"
+    ],
+    "bolt-robo-long-range": [
+      "Bolt Robo Long-Range.png",
+      "Bolt Robo Long-Range 2.png"
+    ],
+    "go-saurer": [
+      "Go-Saurer.png",
+      "Go-Saurer 2.png"
+    ],
+    "king-go-saurer": [
+      "King Go-Saurer.png",
+      "King Go-Saurer 2.png"
+    ],
+    "shin-getter-1": [
+      "Shin-Getter 1.png",
+      "Shin-Getter 1 2.png"
+    ],
+    "shin-getter-2": [
+      "Shin-Getter 2.png",
+      "Shin-Getter 2 2.png"
+    ],
+    "shin-getter-3": [
+      "Shin-Getter 3.png",
+      "Shin-Getter 3 2.png"
+    ],
+    "mazinger-z": [
+      "Mazinger Z.png",
+      "Mazinger Z 2.png"
+    ],
+    "gurren-lagann": [
+      "Gurren Lagann.png",
+      "Gurren Lagann 2.png"
+    ],
+    "invader-ground": [
+      "Invader Ground.png",
+      "Invader Ground 2.png"
+    ],
+    "nekton-assault": [
+      "Nekton Assault.png",
+      "Nekton Assault 2.png"
+    ],
+    "mucus-gate-s-in": [
+      "Mucus Gate S IN.png"
+    ],
+    "mucus-gate-s-mc": [
+      "Mucus Gate S MC.png"
     ]
   },
   "nieprzypisane": []

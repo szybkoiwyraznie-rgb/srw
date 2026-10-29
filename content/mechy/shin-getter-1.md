@@ -24,6 +24,19 @@ Podstawowa, skrzydlata konfiguracja Shin Getter Robo dowodzona przez [[go|Go]] z
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] załoga schodzi w Shin Getterze-1 pod ziemię w poszukiwaniu ocalałych [[invaderzy|Invaderów]] i zostaje zaskoczona przez rój [[mechabestia|mechabestii]] [[bolt-robo-standard|Bolt Robo]]. Po przybyciu [[connect-force|Connect]], [[klasa-obrony-ziemi|Klasy Obrony Ziemi]], [[saurersi|Saurersów]], [[mazinger-z|Mazingera Z]] i [[gurren-lagann|Gurren Laganna]] zespół Gettera przedziera się na drugą stronę skalnej ściany, namierza bramę wypluwającą potwory i przekazuje jej obraz pozostałym jednostkom, po czym wraca z [[seishiro|Seishirem]] na pokład samolotu transportowego Connect jako awangarda wspólnych sił obrony Ziemi.
 }}
 
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Shin Getter-1 — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Shin-Getter%201.png)
+
+### Ilustracja 2
+
+![Shin Getter-1 — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Shin-Getter%201%202.png)
+}}
+
 {{zrodlo gra=wspolne
 
 W [[getter-robo-armageddon|pierwowzorze]] Shin Getter-1 (真ゲッター1, 55 m wysokości, 290 ton masy, pancerz z poliformicznego stopu i zasilanie rdzeniem Gettera) powstaje z połączenia trzech odrzutowców w kolejności Shin Eagle, Shin Jaguar i Shin Bear, z głównym pilotem [[go|Go]] w czerwonym Shin Eagle. Wyróżnia się błoniastymi skrzydłami bojowymi, wysuwaną z prawego barku kosą Getter Scythe, słabszym promieniem z czoła oraz główną wiązką energii Gettera wystrzeliwaną z korpusu, niszczącą [[invaderzy|Invaderów]] ([Wikipedia, *Getter Robo Armageddon*](https://en.wikipedia.org/wiki/Getter_Robo_Armageddon); [SRW Wiki, „Shin Getter Robo”](https://superrobotwars.fandom.com/wiki/Shin_Getter_Robo); sprawdzono 2026-10-27).

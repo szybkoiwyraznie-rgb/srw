@@ -21,6 +21,19 @@ utworzono: 2026-10-27
 Forma superpołączenia dostępna z poziomu zdolności „Połączenie” [[go-saurer|Go-Saurera]] po osiągnięciu co najmniej 120 punktów morale, z pełnym odnowieniem HP i EN. Za sterami zasiada cała piątka pilotów [[saurersi|Saurersów]]: główny pilot [[kenichi-minezaki|Kenichi Minezaki]] oraz podpiloci [[hiromi-tachibana|Hiromi Tachibana]], [[shinobu-asaoka|Shinobu Asaoka]], [[taro-shirogane|Taro Shirogane]] i [[yoji-hiyama|Yoji Hiyama]]. Jednostka dysponuje macierzystą zdolnością „Hart” uodparniającą na odepchnięcie oraz rzut, a jej uzbrojenie obejmuje działo King Bazooka, wyrzutnie rakietowe King Launcher, miecz King Blade, atak płomieniowy King Titan, obszarowy King Spartan oraz cięcie kończące Saurer King Finish.
 }}
 
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![King Go-Saurer — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/King%20Go-Saurer.png)
+
+### Ilustracja 2
+
+![King Go-Saurer — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/King%20Go-Saurer%202.png)
+}}
+
 {{zrodlo gra=wspolne
 
 W [[nekketsu-saikyo-go-saurer|pierwowzorze]] King Go-Saurer (キングゴウザウラー, 70,8 m wzrostu, 366 ton masy, moc 1 800 000 KM i prędkość lotu Mach 9,8) powstaje w „supergorącokrwistym połączeniu” (Chō Nekketsu Gattai) [[go-saurer|Go-Saurera]], Magnasaurera ([[taro-shirogane|Taro]]) oraz Gransaurera ([[yoji-hiyama|Yoji]]), do którego program sterujący opracowała [[takako-kojima|Takako Kojima]]. Piloci wszystkich trzech robotów przechodzą do wspólnego kokpitu w głowie kolosa, na jego piersi spoczywa głowa triceratopsa wyzwalająca uderzenie energetyczne King Titan, na barkach rozkładają się wyrzutnie King Launcher, a głównym orężem do wyprowadzania ciosu kończącego Saurer King Finish jest wielki miecz King Blade ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); sprawdzono 2026-10-27).

@@ -25,6 +25,19 @@ Szturmowa odmiana [[mechabestia|mechabestii]] [[mechanization-empire|Imperium Me
 - [[bolt-robo-long-range|Bolt Robo/Long-Range]] — odmiana artyleryjska prowadząca ostrzał pośredni na dystansie 3–7.
 }}
 
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Bolt Robo/Melee — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Bolt%20Robo%20Melee.png)
+
+### Ilustracja 2
+
+![Bolt Robo/Melee — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Bolt%20Robo%20Melee%202.png)
+}}
+
 {{zrodlo gra=wspolne
 
 W [[nekketsu-saikyo-go-saurer|pierwowzorze]] prawe ramię Bolt Robo zakończone jest płaskim wkrętakiem (jap. *doraibā*), a lewe masywnym imadłem warsztatowym, co w odsłonach *Super Robot Wars* znalazło odzwierciedlenie w wyspecjalizowanym wariancie zwarcia wyprowadzającym przepychające uderzenia na bliskim dystansie wyłącznie przeciw celom naziemnym ([SRW Wiki, „ボルトロボ”](https://srw.wiki.cre.jp/wiki/%E3%83%9C%E3%83%AB%E3%83%88%E3%83%AD%E3%83%9C); sprawdzono 2026-10-27).

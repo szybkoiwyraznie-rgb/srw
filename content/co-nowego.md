@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-29 11:20
+
+- Ilustracje jednostek ze sceny [[srw-oe-ep2-grozba-pod-ziemia|„Groźba pod ziemią”]] trafiają na strony [[go-saurer|Go-Saurera]], [[king-go-saurer|King Go-Saurera]], [[shin-getter-1|Shin Gettera-1]], [[shin-getter-2|Shin Gettera-2]], [[shin-getter-3|Shin Gettera-3]], [[mazinger-z|Mazingera Z]], [[gurren-lagann|Gurren Laganna]], [[invader-ground|Invadera Ground]], [[nekton-assault|Nekton Assault]], [[bolt-robo-standard|Bolt Robo/Standard]], [[bolt-robo-melee|Bolt Robo/Melee]], [[bolt-robo-long-range|Bolt Robo/Long-Range]] oraz bram [[mucus-gate-s-in|Mucus Gate S IN]] i [[mucus-gate-s-mc|Mucus Gate S MC]] — 26 plików, po dwa dla każdej maszyny z wyjątkiem bram.
+
 ## 2026-10-28 11:40
 
 - Korekta opisów przebiegu narady i odprawy w [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]]: swoje kwestie odzyskują [[shinobu-asaoka|Shinobu]], [[aiko-shimada|Love]], [[hiromi-tachibana|Hiromi]], [[gai|Gai]], [[kei|Kei]], [[go|Go]], [[yoko|Yoko]] i [[kamina|Kamina]], a hipoteza o odrodzeniu [[mechanization-empire|Imperium Mechanizacji]] wraca do [[seishiro|Seishira]], który przedstawia ją jako przypuszczenie.

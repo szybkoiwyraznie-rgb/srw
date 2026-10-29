@@ -23,3 +23,12 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] silne źród
 
 - [[mucus-gate-s-mc|Mucus Gate S MC]] — bliźniacza mała brama podprzestrzenna sprowadzająca [[mechabestia|mechabestie]] [[mechanization-empire|Imperium Mechanizacji]].
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Mucus Gate S IN — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Mucus%20Gate%20S%20IN.png)
+}}

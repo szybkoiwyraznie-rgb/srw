@@ -25,6 +25,19 @@ Podstawowa odmiana [[mechabestia|mechabestii]] [[mechanization-empire|Imperium M
 - [[bolt-robo-long-range|Bolt Robo/Long-Range]] — odmiana artyleryjska wyposażona w długie działo ognia pośredniego o zasięgu 3–7.
 }}
 
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Bolt Robo/Standard — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Bolt%20Robo%20Standard.png)
+
+### Ilustracja 2
+
+![Bolt Robo/Standard — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Bolt%20Robo%20Standard%201.png)
+}}
+
 {{zrodlo gra=wspolne
 
 W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Bolt Robo (ボルトロボ) to masowo wytwarzany z gwintowanych śrub, nakrętek i kół zębatych szeregowy automat [[mechanization-empire|Imperium Mechanizacji]], używany jako awangarda podbojów i siła robocza — szczególnie licznie w oddziałach Króla Atomowego operujących w epoce dinozaurów. Pojedyncza jednostka dysponuje niewielką siłą bojową opartą na dwulufowym dziale piersiowym, nadrabia jednak liczebnością ([SRW Wiki, „ボルトロボ”](https://srw.wiki.cre.jp/wiki/%E3%83%9C%E3%83%AB%E3%83%88%E3%83%AD%E3%83%9C); sprawdzono 2026-10-27).

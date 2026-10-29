@@ -24,6 +24,19 @@ Superrobot [[instytut-energii-fotonowej|Instytutu Energii Fotonowej]] pilotowany
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Mazinger Z nadlatuje do podziemnej pieczary w chwili, gdy nieznane potwory nacierają z bliska na [[go-saurer|Go-Saurera]]. Koji odciąga przeciwników od dzieci z zespołu [[saurersi|Saurersów]], przedstawia się [[seishiro|Seishirowi]] jako wysłannik Instytutu Energii Fotonowej i powstrzymuje kolejne fale [[mechabestia|mechabestii]], [[invader-ground|Invaderów]] oraz [[nekton-assault|Nekton Assault]], zanim zostanie zabrany na pokład samolotu transportowego [[connect-force|Connect]].
 }}
 
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Mazinger Z — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Mazinger%20Z.png)
+
+### Ilustracja 2
+
+![Mazinger Z — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Mazinger%20Z%202.png)
+}}
+
 {{zrodlo gra=wspolne
 
 W [[mazinger-edition-z-the-impact|pierwowzorze]] Mazinger Z (マジンガーZ) jest największym dziełem dr. Juzo Kabuto — potężnym superrobotem zbudowanym z odkrytego pod górą Fudżi superstopu Z i zasilanym energią fotonową. Maszyną steruje się od wewnątrz dzięki niewielkiemu poduszkowcowi Pilder, którym [[koji-kabuto|Koji Kabuto]] dokuje w koronie głowy kolosa; nazwa robota łączy japońskie słowa *ma* (demon) i *jin* (bóg), podkreślając jego zdolność zarówno do obrony świata, jak i zrównania go z ziemią w walce z mechanicznymi bestiami [[dr-hell|doktora Hella]] ([Wikipedia, *Mazinger Edition Z: The Impact!*](https://en.wikipedia.org/wiki/Mazinger_Edition_Z:_The_Impact!); [Wikipedia, *Mazinger Z*](https://en.wikipedia.org/wiki/Mazinger_Z); sprawdzono 2026-10-27).

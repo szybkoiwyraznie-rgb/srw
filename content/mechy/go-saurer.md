@@ -23,6 +23,19 @@ Superrobot zespołu [[saurersi|Saurersów]], powierzony uczniom przez Eldrana do
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Go-Saurer wyrusza na rozkaz [[erika-kozu|Elly]] z [[akademia-hinobori|Akademii Hinobori]] razem z [[raijin-oh|Raijin-Ohem]], gdy naradę o wspólnych ćwiczeniach z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] przerywa alarm o pojawieniu się [[mechabestia|mechabestii]]. Pod ziemią wspiera osaczonego [[shin-getter-1|Shin Gettera-1]] u boku [[exart|Exarta]] i Laborów [[sv2|SV2]], a gdy kolejne potwory atakują załogę z bliska, na odsiecz nadlatuje [[mazinger-z|Mazinger Z]] [[koji-kabuto|Kojiego Kabuto]]. W dalszej fazie bitwy Go-Saurer odpiera fale [[bolt-robo-standard|Bolt Robo]], [[invader-ground|Invaderów]] i jednostek [[nekton-assault|Nekton Assault]], pomagając zniszczyć podziemne bramy [[mucus|Mucus]].
 }}
 
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Go-Saurer — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Go-Saurer.png)
+
+### Ilustracja 2
+
+![Go-Saurer — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Go-Saurer%202.png)
+}}
+
 {{zrodlo gra=wspolne
 
 W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Go-Saurer (ゴウザウラー, 44,8 m wzrostu, 120 ton masy, moc 530 000 KM) powstaje w procedurze „gorącokrwistego połączenia” (Nekketsu Gattai) trzech dinozaurowych maszyn powstających z przekształcenia gmachu Szkoły Podstawowej Harukaze: latającego pterozaura Mach Ptery ([[kenichi-minezaki|Kenichi]], ramiona i skrzydła), lądowego Land Stego ([[hiromi-tachibana|Hiromi]], korpus oraz rozkładana tarcza Saurer Shield) i Thunder Brachio ([[shinobu-asaoka|Shinobu]], nogi z działami Saurer Cannon). Podstawowy arsenał uzupełniają wyrzutnie pazurów Saurer Bunker, miotana jak bumerang tarcza Spin Boomerang, pocisk energetyczny z kryształu piersiowego Saurer Bomber, miecz Saurer Blade z cięciem kończącym Saurer Magma Finish oraz potężny strzał Saurer Big Buster oddawany po zadokowaniu na plecach działa Magna Buster przekształconego z maszyny [[taro-shirogane|Taro]] ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); sprawdzono 2026-10-27).

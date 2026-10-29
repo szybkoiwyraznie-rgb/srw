@@ -19,3 +19,16 @@ Szturmowy przedstawiciel nieznanego opinii publicznej gatunku [[mucus|Mucus]], z
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] obecność nadciągających osobników Nekton Assault [[himari-yaegaki|Himari]] wyczuwa szóstym zmysłem na krótko przed tym, jak rejestrują je czujniki [[exart|Exarta]], po czym na widok potworów na chwilę traci skupienie. Jednostki te wyłaniają się w podziemnej jaskini u boku [[bolt-robo-standard|Bolt Robo]] oraz [[invader-ground|Invaderów]] z bram [[mucus-gate-s-in|Mucus Gate S IN]] i [[mucus-gate-s-mc|Mucus Gate S MC]], zmuszając [[seishiro|Seishira]] do objęcia tajemnicą całego incydentu.
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Nekton Assault — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Nekton%20Assault.png)
+
+### Ilustracja 2
+
+![Nekton Assault — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Nekton%20Assault%202.png)
+}}
