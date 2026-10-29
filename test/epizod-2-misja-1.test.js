@@ -50,7 +50,7 @@ test('dostawa 2-1 jest zachowana bajt w bajt, a skrypt otwiera epizod 2', () => 
   assert.ok(!script.includes('DL102_11'), 'techniczny kod misji nie trafia do skryptu');
 });
 
-test('scena 2-1 jest dosłowna i ma pełną mapę 17 sekcji analizy', () => {
+test('scena 2-1 jest dosłowna i ma pełną mapę 16 sekcji analizy', () => {
   assert.ok(epizod, 'strona epizodu 2 istnieje');
   assert.equal(epizod.numer, 2);
   assert.equal(epizod.skrypt, 'episodes/srw-oe/ep002.md');
@@ -62,7 +62,7 @@ test('scena 2-1 jest dosłowna i ma pełną mapę 17 sekcji analizy', () => {
   assert.equal(scena.tytul, 'Groźba pod ziemią');
   assert.deepEqual(sprawdzWiernoscSceny(scena, script), []);
   assert.equal((scena.body.match(/:::skrypt/g) ?? []).length, 17, '17 bloków skryptu');
-  assert.equal(scena.sekcje_analizy.length, 17, '17 powiązań analizy z treścią');
+  assert.equal(scena.sekcje_analizy.length, 16, '16 powiązań po usunięciu nieobecnego w dialogach epilogu');
 
   for (const fragment of [
     '## Ep. 2: Groźba pod ziemią',
@@ -82,7 +82,7 @@ test('scena 2-1 jest dosłowna i ma pełną mapę 17 sekcji analizy', () => {
   }
 
   const html = renderScena('srw-oe-ep2-grozba-pod-ziemia');
-  assert.equal((html.match(/class="skok-do-tresci"/g) ?? []).length, 17);
+  assert.equal((html.match(/class="skok-do-tresci"/g) ?? []).length, 16);
 });
 
 test('obsada sceny i epizodu rozróżnia 15 jednostek pola bitwy od form z katalogu (ADR 0023)', () => {

@@ -18,7 +18,7 @@ utworzono: 2026-10-27
 
 Strzelczyni [[gurren-team|drużyny Gurren]] wspierająca [[simon|Simona]] i [[kamina|Kaminę]] w [[gurren-lagann|Gurren Lagannie]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] po przebiciu się przez skałę do podziemnej jaskini uznaje walczącą tam maszynę za [[gunmen|Gunmena]] i towarzyszy przyjaciołom w odkryciu, że z wielkiego obiektu wyłażą kolejne potwory, a po wyjściu na powierzchnię z osłupieniem patrzy na tętniące życiem miasto i szkołę pełną ludzi mieszkających pod gołym niebem bez strachu przed zwierzoludźmi.
 
-W sali [[akademia-hinobori|Akademii Hinobori]] wymienia nazwę swojej rodzinnej wioski Littner — której nie ma w ziemskich bazach — po czym uważnie dopytuje [[seishiro|Seishira]] o naturę połączenia światów i możliwość powrotu do domu; przysłuchuje się też, jak [[himari-yaegaki|Himari]] sprawdza w danych centrali [[connect-force|Connect]] ślady [[gurren-lagann|Gurren Laganna]]. Gdy Seishiro gwarantuje jej ludziom opiekę, stwierdza: „Chyba mogę ci zaufać”, a w samolocie transportowym obiecuje mu, że wszystko wytłumaczy Kaminie i reszcie.
+W sali [[akademia-hinobori|Akademii Hinobori]] wymienia nazwę swojej rodzinnej wioski Littner — której nie ma w ziemskich bazach — po czym uważnie dopytuje [[seishiro|Seishira]] o naturę połączenia światów i możliwość powrotu do domu; przysłuchuje się też, jak [[himari-yaegaki|Himari]] sprawdza w danych centrali [[connect-force|Connect]] ślady [[gurren-lagann|Gurren Laganna]]. Gdy Seishiro gwarantuje jej ludziom opiekę, stwierdza: „Chyba mogę ci zaufać”, a jeszcze w klasie obiecuje mu, że wszystko wytłumaczy Kaminie i reszcie.
 }}
 
 {{menu gra=srw-oe

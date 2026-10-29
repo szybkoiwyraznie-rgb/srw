@@ -16,9 +16,9 @@ utworzono: 2026-10-27
 
 ## Opis
 
-Podpilot [[go-saurer|Go-Saurera]] i [[king-go-saurer|King Go-Saurera]] z zespołu [[saurersi|Saurersów]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podczas wizyty w [[akademia-hinobori|Akademii Hinobori]] próbuje studzić emocje kłócących się kolegów z [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] i własnej drużyny, przestrzegając przed przeciążaniem się zbyt intensywnym treningiem, a gdy w klasie wybucha sprzeczka o formę ćwiczeń, apeluje: „No, dajcie już spokój!”.
+Podpilot [[go-saurer|Go-Saurera]] i [[king-go-saurer|King Go-Saurera]] z zespołu [[saurersi|Saurersów]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podczas wizyty w [[akademia-hinobori|Akademii Hinobori]] próbuje studzić emocje kłócących się kolegów z [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] i własnej drużyny, przestrzegając przed przeciążaniem się zbyt intensywnym treningiem.
 
-Pod ziemią narzeka na ciasnotę korytarzy i zawroty głowy, a przy bramie Mucus proponuje rozkruszyć skałę Excessem Blastem — [[seishiro|Seishiro]] powstrzymuje ją, bo beztroskie burzenie ścian mogłoby odbić się na powierzchni. Po bitwie, gdy [[kamina|Kamina]] prosi, by ktoś pokazał okolicę, odpowiada: „Chodźcie, pokażemy wam wszystko!” i zabiera przybyszów z [[gurren-team|drużyny Gurren]] na spacer po okolicy.
+Po bitwie, gdy [[kamina|Kamina]] prosi, by ktoś pokazał okolicę, odpowiada: „Chodźcie, pokażemy wam wszystko!” i zabiera przybyszów z [[gurren-team|drużyny Gurren]] na spacer po okolicy.
 }}
 
 {{menu gra=srw-oe

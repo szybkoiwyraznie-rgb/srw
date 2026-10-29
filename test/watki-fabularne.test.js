@@ -130,7 +130,7 @@ test('wiersze idą w kolejności scen epizodu', () => {
     'srw-oe-ep2': [
       // scena 2-1: Groźba pod ziemią
       'Zgrupowanie Klasy Obrony Ziemi i Saurersów w Akademii Hinobori',
-      'Shin Getter-1 przeciw Invaderom i wzmianka o dawnej trójce pilotów',
+      'Shin Getter-1 przeciw Invaderom',
       'Odsiecz Connect, przeczucia Himari i zakaz Excess Blastu pod ziemią',
       'Odsiecz Kojiego Kabuto w Mazingerze Z',
       'Wyprawa drużyny Gurren i przebicie do innego świata',

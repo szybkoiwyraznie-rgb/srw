@@ -1,9 +1,17 @@
 # Co nowego
 
+## 2026-10-29 12:44
+
+- [[srw-oe-ep2|Groźba pod ziemią]]: doprecyzowane warunki opieki Connect nad [[gurren-team|drużyną Gurren]] oraz rozmowa załogi Gettera z Kojim w hangarze samolotu transportowego. Poprawione opisy Kaminy, Yoko, Kei i Gaia. Rozdzielona rozmowa o [[mucus|Mucus]] po bitwie od późniejszej rozmowy o pochodzeniu przybyszów w szkolnej klasie.
+
 ## 2026-10-29 12:40
 
 - Portrety bohaterów epizodu 2 trafiają na ich strony: [[boota|Boota]], [[erika-kozu|Erika Kozu]], [[gai|Gai]], [[go|Go]], [[hiromi-tachibana|Hiromi Tachibana]], [[kamina|Kamina]], [[kei|Kei]], [[kenichi-minezaki|Kenichi Minezaki]], [[koji-kabuto|Koji Kabuto]], [[shinobu-asaoka|Shinobu Asaoka]], [[simon|Simon]], [[takako-kojima|Takako Kojima]], [[taro-shirogane|Taro Shirogane]], [[yoji-hiyama|Yoji Hiyama]] i [[yoko|Yoko]].
 - Powstaje strona [[goro-ishida|Goro Ishidy]] z [[saurersi|Saurersów]] — kanoniera dział Thunder Brachio z [[nekketsu-saikyo-go-saurer|pierwowzoru]] — oparta na jego ilustracji i uzupełniona opisem z podanych przy niej adresów.
+
+## 2026-10-29 12:35
+
+- [[hiromi-tachibana|Hiromi Tachibana]]: poprawiony opis spotkania w Akademii Hinobori — ostrzeżenie przed przemęczeniem i zaproszenie drużyny Gurren do poznania okolicy.
 
 ## 2026-10-29 11:20
 
