@@ -21,6 +21,16 @@ Mały kretowieprz towarzyszący [[simon|Simonowi]] w kokpicie [[gurren-lagann|Gu
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Boota — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Boota.png)
+
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Pula SP:** 60 *(podpilot korzysta ze statystyk bojowych głównego pilota)*

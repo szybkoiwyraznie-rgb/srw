@@ -23,6 +23,16 @@ Na powierzchni, skonfrontowany z wielkim miastem wokół [[akademia-hinobori|Aka
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Kamina — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kamina.png)
+
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 | Parametr | Wartość bazowa |

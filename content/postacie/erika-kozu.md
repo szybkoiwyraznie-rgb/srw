@@ -26,3 +26,13 @@ Po zakończeniu podziemnej bitwy bierze udział w rozmowie obu klas z [[seishiro
 
 W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Erika Kozu (光主 エリカ), przezywana „Elly” (エリー), stoi na czele [[saurersi|Saurersów]] i zajmuje główny fotel dowodzenia w sali operacyjnej. Jej bransoleta Saurer Brace posiada specjalną funkcję alarmową uruchamiającą natychmiastową transformację klasy oraz budynku Szkoły Podstawowej Harukaze w centrum dowodzenia i formację transportową Saurer Jet; sama Erika marzy przy tym o karierze idolki ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); sprawdzono 2026-10-27).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Erika Kozu — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Erika%20Kozu.png)
+
+}}

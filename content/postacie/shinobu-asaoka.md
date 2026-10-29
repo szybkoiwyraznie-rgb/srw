@@ -23,6 +23,16 @@ Na widok nieznanych istot [[nekton-assault|Nekton Assault]] wyłaniających się
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Shinobu Asaoka — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Shinobu%20Asaoka.png)
+
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Shinobu

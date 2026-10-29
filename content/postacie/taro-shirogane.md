@@ -23,6 +23,16 @@ Podczas walki w podziemnej jaskini zostaje zaskoczony bliskim atakiem nieznanego
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Taro Shirogane — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Taro%20Shirogane.png)
+
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Kinta

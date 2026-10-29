@@ -27,3 +27,13 @@ Po zniszczeniu podziemnych bram [[mucus|Mucus]] uważnie analizuje informacje [[
 
 W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Takako Kojima (小島 尊子), nazywana przez klasę „Profesor” (教授), jest kuzynką [[tsutomu-kojima|Tsutomu Kojimy]] z [[matchless-raijin-oh|*Matchless Raijin-Oh*]]. Jako pierwsza rozszyfrowuje funkcje [[go-saurer|Go-Saurera]], współtworzy dodatkową maszynę obronną przekształconą później w Gransaurera i pisze program sterujący superpołączeniem [[king-go-saurer|King Go-Saurera]]; na co dzień zachowuje chłodny spokój naukowca, choć doprowadzona do ostateczności potrafi wybuchnąć ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); [Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-27).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Takako Kojima — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Takako%20Kojima.png)
+
+}}

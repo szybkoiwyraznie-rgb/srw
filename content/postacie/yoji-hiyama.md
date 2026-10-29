@@ -23,6 +23,16 @@ W podziemnej pieczarze ostrzega załogę przed dziwnymi potworami wyłaniającym
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Yoji Hiyama — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Yoji%20Hiyama.png)
+
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Yoji

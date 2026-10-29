@@ -23,6 +23,16 @@ W sali [[akademia-hinobori|Akademii Hinobori]] wymienia nazwę swojej rodzinnej 
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Yoko — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Yoko.png)
+
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Pula SP:** 60 *(podpilot korzysta ze statystyk bojowych głównego pilota)*

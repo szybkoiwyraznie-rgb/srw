@@ -24,6 +24,16 @@ Po walce wraz z [[kei|Kei]] i [[gai|Gaiem]] przystępuje na zaproszenie [[seishi
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Go — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Go.png)
+
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 | Parametr | Wartość bazowa |

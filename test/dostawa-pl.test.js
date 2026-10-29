@@ -269,11 +269,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 136 plików przy 99 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 152 plików przy 115 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 99);
-  assert.equal(Object.values(manifest.encje).flat().length, 136);
+  assert.equal(Object.keys(manifest.encje).length, 115);
+  assert.equal(Object.values(manifest.encje).flat().length, 152);
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   const portrety = wszystkie.filter((f) => f.startsWith('characters/')).length;
@@ -369,6 +369,36 @@ test('ilustracje właściciela: 136 plików przy 99 encjach, w tym postacie bez 
     assert.equal((body.match(/^### Ilustracja \d+$/gm) ?? []).length, files.length,
       `${slug}: liczba podsekcji galerii`);
   }
+  // Dostawa portretów postaci epizodu 2 (2026-10-29): 16 plików w characters/,
+  // w tym Goro Ishida — nowa strona utworzona z ilustracji (ADR 0017).
+  const portrety1029 = {
+    'boota': ['characters/Boota.png'],
+    'erika-kozu': ['characters/Erika Kozu.png'],
+    'gai': ['characters/Gai.png'],
+    'go': ['characters/Go.png'],
+    'goro-ishida': ['characters/Goro Ishida.png'],
+    'hiromi-tachibana': ['characters/Hiromi Tachibana.png'],
+    'kamina': ['characters/Kamina.png'],
+    'kei': ['characters/Kei.png'],
+    'kenichi-minezaki': ['characters/Kenichi Minezaki.png'],
+    'koji-kabuto': ['characters/Koji Kabuto.png'],
+    'shinobu-asaoka': ['characters/Shinobu Asaoka.png'],
+    'simon': ['characters/Simon.png'],
+    'takako-kojima': ['characters/Takako Kojima.png'],
+    'taro-shirogane': ['characters/Taro Shirogane.png'],
+    'yoji-hiyama': ['characters/Yoji Hiyama.png'],
+    'yoko': ['characters/Yoko.png'],
+  };
+  for (const [slug, files] of Object.entries(portrety1029)) {
+    assert.deepEqual(manifest.encje[slug], files, slug);
+    assert.ok(files[0].startsWith('characters/'), `${slug}: portret w characters/`);
+    const body = bySlug.get(slug).body;
+    assert.equal((body.match(/^### Ilustracja \d+$/gm) ?? []).length, 1, `${slug}: jeden portret`);
+  }
+  // Goro Ishida nie występuje w skrypcie gry — strona encji nie należy do scen ani załóg.
+  const goro = bySlug.get('goro-ishida');
+  assert.equal(goro.pochodzenie, 'zrodlo', 'opis z kwerendy (ADR 0017)');
+  assert.deepEqual(goro.mechy ?? [], [], 'brak przypisania do załóg na podstawie ilustracji');
   assert.deepEqual(manifest.nieprzypisane, []);
   const adres = file => `${manifest.baseUrl}/${file.split('/').map(encodeURIComponent).join('/')}`;
   for (const [slug, files] of Object.entries(manifest.encje)) {

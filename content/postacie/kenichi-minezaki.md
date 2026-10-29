@@ -21,6 +21,16 @@ Główny pilot [[go-saurer|Go-Saurera]] oraz formy superpołączenia [[king-go-s
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Kenichi Minezaki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kenichi%20Minezaki.png)
+
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Kenichi

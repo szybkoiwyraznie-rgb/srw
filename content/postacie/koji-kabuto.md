@@ -24,6 +24,16 @@ W samolocie transportowym wracającym przez atmosferę na [[stacja-connect|stacj
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Koji Kabuto — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Koji%20Kabuto.png)
+
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Koji
