@@ -19,7 +19,7 @@ utworzono: 2026-10-27
 
 Pilot [[shin-getter-3|Shin Gettera-3]] współtworzący z [[go|Go]] i [[kei|Kei]] załogę [[shin-getter-1|Shin Gettera-1]] oraz [[shin-getter-2|Shin Gettera-2]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podczas walki w podziemnej pieczarze jako pierwszy łączy powrót [[mechabestia|mechabestii]] z odrodzeniem [[mechanization-empire|Imperium Mechanizacji]] („Czyli Imperium Mechanizacji wróciło?”), łączy się radiem z przybywającymi posiłkami i po przejściu [[gurren-team|drużyny Gurren]] przez ścianę proponuje [[go|Gowi]], by [[shin-getter-2|Getterem-2]] przebił przegrodę i ruszył im z pomocą; gdy [[himari-yaegaki|Himari]] lokalizuje źródło posiłków, rozsyła obraz celu wszystkim jednostkom.
 
-Po zwycięstwie przyjmuje wraz z towarzyszami zaproszenie [[seishiro|Seishira]] na pokład samolotu transportowego [[connect-force|Connect]], gdzie w hangarze wspomina z [[go|Go]] i [[kei|Kei]], jak wielką siłę dawała Getterowi dawna trójka pilotów.
+W hangarze samolotu transportowego [[connect-force|Connect]] wyjaśnia [[koji-kabuto|Kojiemu Kabuto]], że wobec zagrożenia kolejną ofensywą Invaderów i innych wrogów ludzkości powstaje wspólny oddział obronny. Reaguje też z niedowierzaniem na lakoniczne przywitanie [[go|Go]].
 }}
 
 {{menu gra=srw-oe

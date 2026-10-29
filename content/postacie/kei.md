@@ -19,7 +19,7 @@ utworzono: 2026-10-27
 
 Pilotka [[shin-getter-2|Shin Gettera-2]] i członkini załogi [[shin-getter-1|Shin Gettera-1]] oraz [[shin-getter-3|Shin Gettera-3]] u boku [[go|Go]] i [[gai|Gaia]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] walczy z nieznanymi potworami obok [[invader-ground|Invaderów]] i [[mechabestia|mechabestii]] — „Co to w ogóle za stwory?!” — a gdy [[himari-yaegaki|Himari]] proponuje rozbić skałę Excessem Blastem, ucina: „Spokojnie. Zostawcie to drużynie Gettera”. Gdy ekipa odnajduje za przegrodą obiekt, z którego wyłażą [[invader-ground|Invaderzy]] i potwory, mówi: „Zostawcie to mi!” — a [[gai|Gai]] rozsyła jego obraz wszystkim jednostkom.
 
-W hangarze samolotu transportowego wita [[koji-kabuto|Kojiego Kabuto]], podkreśla rolę swojej drużyny jako awangardy wspólnego oddziału obronnego i z humorem komentuje powściągliwe przywitanie [[go|Go]], dodając że do pełni mocy [[shin-getter-1|Shin Getterowi]] wciąż brakuje dawnej trójki pilotów.
+W hangarze samolotu transportowego wita [[koji-kabuto|Kojiego Kabuto]], podkreśla rolę swojej drużyny jako awangardy wspólnego oddziału obronnego i z humorem komentuje powściągliwe przywitanie [[go|Go]].
 }}
 
 {{menu gra=srw-oe

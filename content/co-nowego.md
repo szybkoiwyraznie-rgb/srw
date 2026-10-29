@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-10-29 12:44
+
+- [[srw-oe-ep2|Groźba pod ziemią]]: doprecyzowane warunki opieki Connect nad [[gurren-team|drużyną Gurren]] oraz rozmowa załogi Gettera z Kojim w hangarze samolotu transportowego. Poprawione opisy Kaminy, Yoko, Kei i Gaia.
+
 ## 2026-10-29 12:40
 
 - Portrety bohaterów epizodu 2 trafiają na ich strony: [[boota|Boota]], [[erika-kozu|Erika Kozu]], [[gai|Gai]], [[go|Go]], [[hiromi-tachibana|Hiromi Tachibana]], [[kamina|Kamina]], [[kei|Kei]], [[kenichi-minezaki|Kenichi Minezaki]], [[koji-kabuto|Koji Kabuto]], [[shinobu-asaoka|Shinobu Asaoka]], [[simon|Simon]], [[takako-kojima|Takako Kojima]], [[taro-shirogane|Taro Shirogane]], [[yoji-hiyama|Yoji Hiyama]] i [[yoko|Yoko]].
