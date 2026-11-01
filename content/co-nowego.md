@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-01 19:43
+
+- [[srw-oe-ep2|Epizod 2]]: [[srw-oe-ep2-ryk-dziczy|Ryk dziczy]] — wspólne ćwiczenia na stacji, hologramy [[mucus|Mucus]] i lekcja łączenia spokoju z zapałem. Pełne dialogi, analiza wszystkich etapów i warunkowej rozmowy przy krytycznych uszkodzeniach Exarta.
+- [[super-beast-machine-god-dancouga|Super Beast Machine God Dancouga]], [[cyber-beast-force|Cyber Beast Force]] i jego pięcioro pilotów: [[shinobu-fujiwara|Shinobu]], [[sara-yuki|Sara]], [[ryo-shiba|Ryo]], [[masato-shikibu|Masato]] oraz [[alan-igor|Alan]]. Nowe profile [[final-dancouga|Final Dancougi]] i [[nekton-creek|Nekton Creek]] z uzbrojeniem i zdolnościami.
+- Wzmianki o [[komendant-igor|komendancie Igorze]], [[general-takeda|generale Takedzie]] i oczekiwanym [[13-samodzielny-oddzial|13. Samodzielnym Oddziale]]. Uściślenie ograniczeń Ingramów w kosmosie i rozróżnienie zapowiedzianych przydziałów od faktycznego dołączenia. [[nekton-assault|Nekton Assault]] otrzymuje widoczną tabelę wcześniej zachowanych parametrów.
+
 ## 2026-11-01 13:32
 
 - [[srw-oe-ep2|Epizod 2]]: [[srw-oe-ep2-czarny-labor|Czarny Labor]] — zasadzka na poligonie, odsiecz [[exart|Exarta]] i pierwsze starcie [[sv2|Drugiego Plutonu]] z [[griffon|Griffonem]].

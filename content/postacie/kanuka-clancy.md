@@ -27,6 +27,8 @@ W [[srw-oe-ep1-szalejacy-labor-powraca|Shin-Shinagawa Seaside]] rozpoznaje SEE T
 Po walce pod zakładem w Hachioji w [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] nowojorska policja zgadza się przedłużyć jej szkolenie w Japonii, dzięki czemu Kanuka leci wraz z resztą Drugiego Plutonu na delegację do [[connect-force|Connect]] w kosmosie.
 
 Na [[srw-oe-ep2-czarny-labor|poligonie]] kieruje poszukiwaniami i wspiera Otę z wozu dowodzenia. Rozpoznaje w zagłuszaniu dowód celowego działania, a nie zwykłego szału maszyn; nakazuje utrzymywać szyk i ograniczać straty.
+
+Przed [[srw-oe-ep2-ryk-dziczy|treningiem na stacji]] tłumaczy Noi, że przystosowanie Laborów do próżni i nieważkości nie czyni ich jednostkami do walki w otwartym kosmosie. Rozpoznaje też [[alan-igor|Alana]] jako syna [[komendant-igor|komendanta Igora]].
 }}
 
 {{zrodlo gra=wspolne

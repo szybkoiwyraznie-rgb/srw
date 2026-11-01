@@ -27,6 +27,8 @@ W [[srw-oe-ep1-szalejacy-labor-powraca|misji na placu budowy]] ostrzega [[noa-iz
 W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] analizuje przez noc raporty z dwudziestu dwóch wypadków w serwerowni [[sv2|SV2]] i ustala, że wszystkie szalejące [[labor|Labory]] działały pod kontrolą [[shinohara-hos|Shinohara HOS]]. Potajemnie jedzie z [[seitaro-sakaki|Sakakim]] do zakładu [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji, otwiera pomieszczenie szyfrem znanym tylko jemu i dziadkowi i odkrywa podejrzany program w samej kopii wzorcowej systemu. Po wspólnym zatrzymaniu uzbrojonych maszyn [[sily-samoobrony-japonii|Sił Samoobrony]] dostaje od [[kiichi-goto|Goto]] potrącenie z pensji, a wraz z całym Drugim Plutonem wyrusza na delegację do [[connect-force|Connect]] w kosmosie, by doprowadzić sprawę HOS-a do końca.
 
 Podczas [[srw-oe-ep2-czarny-labor|przeszukiwania poligonu]] wspiera [[noa-izumi|Noę]] z wozu dowodzenia jadącego około dwustu metrów za jej maszyną. Po pojawieniu się [[griffon|Griffona]] nakazuje jej współpracować z drugą jednostką, a po jego ucieczce chce całkowicie rozebrać wraki bezzałogowych Laborów, by nie ruszyły ponownie.
+
+W [[srw-oe-ep2-ryk-dziczy|ćwiczeniach w kosmosie]] przypomina Noi, że Labory mogą poruszać się wyłącznie po pokładzie. Po zajęciach chwali moc Dancougi, choć jeszcze przed treningiem nie dowierzał, że jako lokalni urzędnicy trafią w kosmos.
 }}
 
 {{zrodlo gra=wspolne

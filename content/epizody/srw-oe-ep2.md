@@ -5,9 +5,9 @@ tytul: Epizod 2
 gra: srw-oe
 numer: 2
 skrypt: episodes/srw-oe/ep002.md
-postacie: [seishiro, himari-yaegaki, noa-izumi, isao-ota, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, aiko-shimada, daisuke-sato, akira-imamura, kenichi-minezaki, hiromi-tachibana, shinobu-asaoka, taro-shirogane, yoji-hiyama, erika-kozu, takako-kojima, go, kei, gai, koji-kabuto, simon, kamina, yoko, boota, mechabestia, invader, mucus, asuma-shinohara, mikiyasu-shinshi, hiromi-yamazaki, kanuka-clancy, kiichi-goto, zolnierz-jsdf, control-ai, badrinath-harchand, utsumi, kurosaki]
-mechy: [exart, ingram-nr-1, ingram-nr-2, raijin-oh, go-saurer, gurren-lagann, mazinger-z, shin-getter-1, bolt-robo-standard, bolt-robo-melee, bolt-robo-long-range, invader-ground, nekton-assault, mucus-gate-s-in, mucus-gate-s-mc, hal-x10-green, helldiver, brocken, brocken-dzialko-automatyczne, griffon]
-pojecia: [connect-force, stacja-connect, sv2, labor, klasa-obrony-ziemi, akademia-hinobori, jaku-empire, saurersi, mechanization-empire, invaderzy, instytut-energii-fotonowej, dr-hell, gurren-team, gunmen, sily-samoobrony-japonii, shaft-enterprises, hss]
+postacie: [seishiro, himari-yaegaki, noa-izumi, isao-ota, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, aiko-shimada, daisuke-sato, akira-imamura, kenichi-minezaki, hiromi-tachibana, shinobu-asaoka, taro-shirogane, yoji-hiyama, erika-kozu, takako-kojima, go, kei, gai, koji-kabuto, simon, kamina, yoko, boota, mechabestia, invader, mucus, asuma-shinohara, mikiyasu-shinshi, hiromi-yamazaki, kanuka-clancy, kiichi-goto, zolnierz-jsdf, control-ai, badrinath-harchand, utsumi, kurosaki, shinobu-fujiwara, sara-yuki, ryo-shiba, masato-shikibu, alan-igor, suol]
+mechy: [exart, ingram-nr-1, ingram-nr-2, raijin-oh, go-saurer, gurren-lagann, mazinger-z, shin-getter-1, bolt-robo-standard, bolt-robo-melee, bolt-robo-long-range, invader-ground, nekton-assault, mucus-gate-s-in, mucus-gate-s-mc, hal-x10-green, helldiver, brocken, brocken-dzialko-automatyczne, griffon, final-dancouga, nekton-creek]
+pojecia: [connect-force, stacja-connect, sv2, labor, klasa-obrony-ziemi, akademia-hinobori, jaku-empire, saurersi, mechanization-empire, invaderzy, instytut-energii-fotonowej, dr-hell, gurren-team, gunmen, sily-samoobrony-japonii, shaft-enterprises, hss, cyber-beast-force, muge-empire, 13-samodzielny-oddzial, earth-federation]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/List_of_Patlabor_episodes
@@ -41,6 +41,12 @@ Przed wyjazdem do kosmosu [[sv2|Drugi Pluton]] otrzymuje zadanie ochrony poligon
 
 Gdy [[zolnierz-jsdf|żołnierz Sił Samoobrony]] próbuje pomóc w [[hal-x10-green|HAL-X10/Green]], Griffon błyskawicznie unieszkodliwia jego maszynę. [[badrinath-harchand|Bud]] wyzywa Noę do walki, traktując bitwę jak grę. Utsumi przerywa jednak test i nakazuje powrót na statek. Griffon odlatuje o własnych siłach i znika z czujników; po ustaniu zagłuszania Goto zarządza odwrót całego, ocalałego plutonu.
 
+### [[srw-oe-ep2-ryk-dziczy|Misja 3: Ryk dziczy]]
+
+Na [[stacja-connect|stacji orbitalnej]] Drugi Pluton poznaje [[cyber-beast-force|Cyber Beast Force]]. Mimo początkowych kłótni [[suol|Suol]] zarządza wspólny trening. [[final-dancouga|Final Dancouga]], Exart i Ingramy walczą z hologramami [[nekton-assault|Nekton Assault]] oraz [[nekton-creek|Nekton Creek]], wyświetlanymi przez drony. Labory są przystosowane do próżni, lecz mogą poruszać się tylko po pokładzie, nie walczyć w otwartej przestrzeni.
+
+[[shinobu-fujiwara|Shinobu]] i jego załoga demonstrują moc Dancougi przekraczającą wartości teoretyczne. [[ryo-shiba|Ryo]] uczy Seishira, że gniew bez koncentracji go osłabia, ale oparty na wewnętrznej równowadze może stać się siłą. Po ćwiczeniach oba zespoły doceniają swoje umiejętności. Cyber Beast Force wraca do bazy na regulację; jego oficjalne dołączenie do Connect Force pozostaje zapowiedzią. Piloci Connect czekają na stacji na [[13-samodzielny-oddzial|13. Samodzielny Oddział Federacji]], nadal ćwicząc na symulatorach.
+
 ## Wątki fabularne
 
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
@@ -54,12 +60,17 @@ Gdy [[zolnierz-jsdf|żołnierz Sił Samoobrony]] próbuje pomóc w [[hal-x10-gre
 | Test czarnego Labora przeciw wojsku | [[mobile-police-patlabor\|Mobile Police Patlabor]] | odc. 30 „Griffin was Here!” | Gra zachowuje atak na wojskowe Labory i rozmowę Utsumiego z Kurosakim, lecz prowadzi policjantów na poligon, gdzie czekają bezzałogowe Brockeny. |
 | Odsiecz Exarta i zagłuszanie czujników Connect | [[srw-oe\|Super Robot Wars OE]] | n/d | Seishiro i Himari pomagają oddelegowanym kolegom z SV2; nawet sprzęt Connect nie pozwala utrzymać kontaktu z uciekającym Griffonem. |
 | Lot Griffona i odwrót na rozkaz Utsumiego | [[mobile-police-patlabor\|Mobile Police Patlabor]] | odc. 31 „Tragedy in Rain” | W serialu lot zamyka starcie na targach Laborów; tutaj Bud wycofuje się z poligonu, by dostarczyć dane z testu, a policjanci pozostają cali. |
+| Spotkanie z Cyber Beast Force po pokonaniu Muge | [[super-beast-machine-god-dancouga\|Super Beast Machine God Dancouga]] | cała seria | Wojna załogi Dancougi z Muge stanowi tło; trening na stacji Connect i spotkanie z policjantami należą do fabuły gry, bez przypisania do konkretnego odcinka anime. |
+| Hologramy Mucus i lekcja spokoju oraz zapału | [[srw-oe\|Super Robot Wars OE]] | n/d | Wspólne ćwiczenia służą rozwojowi Seishira i zgraniu załóg. Zapowiedzi przyszłych przydziałów nie są jeszcze dołączeniem oddziałów. |
 
 ## Komentarz
 
 Otwarcie drugiego epizodu gwałtownie rozszerza skalę świata przedstawionego. O ile pierwszy rozdział utrzymywał zagrożenia w granicach ziemskich konfliktów zbrojnych i sabotażu technologicznego, o tyle zejście do podziemnej pieczary od razu spina w jednym miejscu klasyczne superroboty z pięciu różnych tradycji i zmusza [[seishiro|Seishira]] do odsłonięcia kart, które w prologu i podczas ćwiczeń z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] pozostawały przemilczane.
 
 Konstrukcyjną osią sceny są bramy [[mucus-gate-s-in|Mucus Gate S IN]] i [[mucus-gate-s-mc|Mucus Gate S MC]]. Z perspektywy taktycznej tłumaczą one niekończący się napływ [[invader-ground|Invaderów]] i [[bolt-robo-standard|Bolt Robo]] zza skalnej przegrody, a z perspektywy fabularnej dostarczają spójnego mechanizmu łączącego odległe wątki: [[seishiro|Seishiro]] nie wyklucza, że gdzieś w kosmosie odradza się [[mechanization-empire|Imperium Mechanizacji]], zaś [[gurren-team|drużyna Gurren]] otrzymuje namacalne wyjaśnienie, dlaczego nad japońską szkołą rozciąga się tętniące życiem miasto zamiast pustkowi rządzonych przez zwierzoludzi. Równolegle gra zarysowuje niewytłumaczalną intuicję [[himari-yaegaki|Himari]], którą [[seishiro|Seishiro]] zachęca ją rozwijać.
+
+Po zadaniu na poligonie [[srw-oe-ep2-ryk-dziczy|„Ryk dziczy”]] przenosi akcję w kosmos, ale zamiast nowego ataku oferuje kontrolowany trening. Kontrast między siłą Dancougi i zgraniem Laborów pozwala obu grupom czegoś się nauczyć. Dla Seishira najważniejsza staje się nie kolejna broń, lecz umiejętność kierowania emocjami; powrót Cyber Beast Force do bazy i oczekiwanie na nową formację Federacji zachowują przejściowy charakter spotkania.
+
 }}
 {{zrodlo gra=wspolne
 

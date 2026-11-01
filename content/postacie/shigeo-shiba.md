@@ -19,6 +19,8 @@ utworzono: 2026-10-24
 Mechanik [[sv2|SV2]], nazywany przez współpracowników **Shige**, pracujący pod kierunkiem [[seitaro-sakaki|Seitaro Sakakiego]]. W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] przyjmuje do hangaru przemoczonego [[ingram-nr-2|Ingrama nr 2]], którego [[isao-ota|Ota]] wrzucił do rzeki, i wykonuje polecenia Sakakiego dotyczące suszenia oraz kontroli elektryki.
 
 Gdy [[kiichi-goto|Goto]] ogłasza oddelegowanie Drugiego Plutonu do [[connect-force|Connect]], Shige jako jedyny reaguje entuzjazmem na lot w kosmos. Kiedy [[asuma-shinohara|Asuma]] i [[noa-izumi|Noa]] proszą go o pilne przepisanie systemu [[ingram-nr-1|Ingramów]], ujawnia, że wbrew poleceniu z góry nigdy nie wgrał im [[shinohara-hos|HOS-a]]: ustawił jedynie atrapę ekranu startowego, zostawiając sprawdzony stary system, bo dzięki codziennym naukom Sakakiego nie zaufał oprogramowaniu z nieznanego źródła. Dodaje przy tym, że od początku wiedział o tym kapitan Goto.
+
+Przed [[srw-oe-ep2-ryk-dziczy|ćwiczeniami na stacji Connect]] przystosowuje Labory do próżni i nieważkości, za co Noa jest mu wdzięczna. Modernizacja nie umożliwia im jednak walki w otwartej przestrzeni: w treningu Ingramy poruszają się po pokładzie.
 }}
 
 {{zrodlo gra=wspolne

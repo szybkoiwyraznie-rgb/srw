@@ -18,7 +18,7 @@ const epizod = bySlug.get('srw-oe-ep2');
 test('oryginał 2-2 jest zachowany bajt w bajt, a misja dopisana bez danych technicznych', () => {
   assert.equal(bytes.length, 36781);
   assert.equal(createHash('sha256').update(bytes).digest('hex'), 'b04cacb44da5cf358098ec02aa227b567629270feb4593e4fc00645103027982');
-  assert.ok(archive.endsWith(script + '\n'));
+  assert.ok(archive.includes(script + '\n'));
   assert.equal((archive.match(/^## Czarny Labor$/gm) ?? []).length, 1);
   assert.ok(archive.includes('**Go:** Tak...\n\n## Czarny Labor'));
   assert.doesNotMatch(archive, /UCZESTNICY|DL102_20|Entry ID|\(Ally\)/);
@@ -39,7 +39,7 @@ test('scena 2-2 zachowuje wszystkie dialogi, kolejność i mapę 13 sekcji', asy
   assert.match(html, /Nawiązania do oryginalnych odcinków/);
   for (const title of ['Griffin was Here!', 'Tragedy in Rain']) assert.ok(scena.body.includes(title));
   const sceneOrder = pages.filter((p) => p.epizod === 'srw-oe-ep2').map((p) => p.numer_sceny).sort();
-  assert.deepEqual(sceneOrder, ['2-1', '2-2']);
+  assert.deepEqual(sceneOrder, ['2-1', '2-2', '2-3']);
 });
 
 test('obsada nie myli Entry ID z liczbą maszyn ani neutralnych Laborów z posiłkami', () => {

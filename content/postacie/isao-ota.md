@@ -27,6 +27,8 @@ Przed [[srw-oe-ep1-sledztwo-pod-przykrywka|akcją w Hachioji]] wrzuca [[ingram-n
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] rusza już jako wysłannik [[connect-force|Connect]] pod ziemię; choć widok [[invader-ground|Invaderów]], [[nekton-assault|Nekton Assault]] i superrobotów wykracza daleko poza policyjne obowiązki, zagrzewa siebie do walki przeciw złu i trzyma linię obrony razem z [[noa-izumi|Noą]], a później w samolocie transportowym z niedowierzaniem komentuje temperament nowych sojuszników.
 
 Na [[srw-oe-ep2-czarny-labor|poligonie Sił Samoobrony]] oburza go uzbrojenie napotkanych Brockenów. Gdy [[griffon|Griffon]] unieszkodliwia wojskowego HAL-X10, wzywa pilota do katapultowania się i obiecuje go pomścić. [[badrinath-harchand|Bud]] lekceważy jednak Otę, chcąc przede wszystkim walczyć z Noą.
+
+W [[srw-oe-ep2-ryk-dziczy|spotkaniu na stacji]] początkowy zachwyt widokiem Ziemi ustępuje kłótni z [[shinobu-fujiwara|Shinobu]] i [[masato-shikibu|Masato]]. Ota nie chce, by traktowano go jak „wujka” i bagatelizowano pracę policji. Po wspólnym treningu przyznaje jednak, że wielkość Dancougi idzie w parze z jej siłą, a Shinobu chwali walkę policjantów.
 }}
 
 {{zrodlo gra=wspolne

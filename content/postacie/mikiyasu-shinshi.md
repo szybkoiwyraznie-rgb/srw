@@ -27,6 +27,8 @@ Przed [[srw-oe-ep1-szalejacy-labor-powraca|wyjazdem do Shin-Shinagawa Seaside]] 
 Podczas starcia z uzbrojonymi maszynami wojskowymi w [[srw-oe-ep1-sledztwo-pod-przykrywka|Hachioji]] stres znów przyprawia go o ból brzucha, a na wieść o bezterminowej delegacji Drugiego Plutonu do kosmicznej [[stacja-connect|bazy Connect]] martwi się rozłąką z żoną, lecz pozostaje z zespołem, by dokończyć sprawę [[shinohara-hos|HOS-a]].
 
 W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] pomaga analizować odczyty czujników z wozu dowodzenia. Bezskutecznie wzywa Brockeny na kanale ochrony i stwierdza zakłócenia łączności odcinające pluton od centrali.
+
+Na [[srw-oe-ep2-ryk-dziczy|orbicie Ziemi]] rozmyśla o długiej rozłące z domem. Wyjaśnia, że kolonie i satelity surowcowe Układu Słonecznego zapewnią Laborom zajęcie, mimo że nie mogą walczyć w otwartej przestrzeni.
 }}
 
 {{zrodlo gra=wspolne

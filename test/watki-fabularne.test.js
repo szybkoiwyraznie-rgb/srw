@@ -139,6 +139,9 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Test czarnego Labora przeciw wojsku',
       'Odsiecz Exarta i zagłuszanie czujników Connect',
       'Lot Griffona i odwrót na rozkaz Utsumiego',
+      // scena 2-3: Ryk dziczy
+      'Spotkanie z Cyber Beast Force po pokonaniu Muge',
+      'Hologramy Mucus i lekcja spokoju oraz zapału',
     ],
   };
 

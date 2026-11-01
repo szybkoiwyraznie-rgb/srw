@@ -27,6 +27,8 @@ W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] schodzi z oddziałem [[connect-force|Connect]] do podziemnej pieczary, gdzie oszołomiona mnogością superrobotów i obcych stworzeń zastanawia się, co w tej sytuacji potrafi zdziałać policyjny [[labor|Labor]], lecz mimo to wytrwale odpiera ataki u boku [[isao-ota|Oty]]. W drodze na [[stacja-connect|stację Connect]] nie kryje zdumienia gwałtownymi charakterami nowych towarzyszy broni z [[gurren-lagann|Gurren Laganna]] i [[shin-getter-1|Shin Gettera-1]].
 
 Podczas [[srw-oe-ep2-czarny-labor|walki na poligonie]] mierzy się z bezzałogowymi Brockenami i [[griffon|Griffonem]]. Wzywa nieznanego pilota do poddania się i aresztowania za niszczenie mienia; jego ucieczka w powietrze zaskakuje ją i pozostawia rozgoryczoną.
+
+Przy [[srw-oe-ep2-ryk-dziczy|pierwszym pobycie w kosmosie]] zachwyca się gwiazdami i cieszy z przystosowania Alphonse’a do próżni. Kanuka wyjaśnia jednak, że Labor nie może walczyć w otwartej przestrzeni jak mobile suit. W ćwiczeniach Noa przyjmuje podział ról: cięższe zadania zostawia [[final-dancouga|Dancoudze]], a po treningu zdobywa uznanie jej załogi.
 }}
 
 {{zrodlo gra=wspolne
