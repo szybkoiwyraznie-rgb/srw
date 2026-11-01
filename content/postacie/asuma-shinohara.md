@@ -25,6 +25,8 @@ Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący proto
 W [[srw-oe-ep1-szalejacy-labor-powraca|misji na placu budowy]] ostrzega [[noa-izumi|Noę]] i [[isao-ota|Otę]], że [[brocken|Brockena]] zaprojektowano dla wojska, choć model ochroniarski prawdopodobnie nie ma broni palnej. Po walce odrzuca pomysł pozostawienia śledztwa innym: reagowanie po fakcie zawsze pozostawi policję w tyle wobec przyczyny serii incydentów.
 
 W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] analizuje przez noc raporty z dwudziestu dwóch wypadków w serwerowni [[sv2|SV2]] i ustala, że wszystkie szalejące [[labor|Labory]] działały pod kontrolą [[shinohara-hos|Shinohara HOS]]. Potajemnie jedzie z [[seitaro-sakaki|Sakakim]] do zakładu [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji, otwiera pomieszczenie szyfrem znanym tylko jemu i dziadkowi i odkrywa podejrzany program w samej kopii wzorcowej systemu. Po wspólnym zatrzymaniu uzbrojonych maszyn [[sily-samoobrony-japonii|Sił Samoobrony]] dostaje od [[kiichi-goto|Goto]] potrącenie z pensji, a wraz z całym Drugim Plutonem wyrusza na delegację do [[connect-force|Connect]] w kosmosie, by doprowadzić sprawę HOS-a do końca.
+
+Podczas [[srw-oe-ep2-czarny-labor|przeszukiwania poligonu]] wspiera [[noa-izumi|Noę]] z wozu dowodzenia jadącego około dwustu metrów za jej maszyną. Po pojawieniu się [[griffon|Griffona]] nakazuje jej współpracować z drugą jednostką, a po jego ucieczce chce całkowicie rozebrać wraki bezzałogowych Laborów, by nie ruszyły ponownie.
 }}
 
 {{zrodlo gra=wspolne

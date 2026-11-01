@@ -4,7 +4,7 @@ slug: control-ai
 tytul: Control AI
 rola: pilot
 gry: [srw-oe]
-mechy: [brocken, helldiver]
+mechy: [brocken, helldiver, brocken-dzialko-automatyczne]
 pochodzenie: menu
 tagi: [pilot, patlabor]
 utworzono: 2026-10-19
@@ -22,6 +22,8 @@ W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] cztery Brockeny w wa
 W [[srw-oe-ep1-szalejacy-labor-powraca|scenie „Szalejący Labor powraca”]] steruje pięcioma [[brocken|Brockenami]] firmy ochroniarskiej, które szaleją bez pilotów na placu budowy. Tym razem nie są celami treningowymi: Drugi Pluton i [[raijin-oh|Raijin-Oh]] unieruchamiają je w wyznaczonym kwartale.
 
 W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] kieruje czterema bezzałogowymi [[helldiver|Helldiverami]] [[sily-samoobrony-japonii|Sił Samoobrony]], które w zakładzie [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji otwierają ogień ostrą amunicją obok [[hal-x10-green|HAL-X10/Green]].
+
+W [[srw-oe-ep2-czarny-labor|zasadzce na poligonie]] SI sterująca kieruje bezzałogowymi [[brocken|Brockenami/Melee]] oraz [[brocken-dzialko-automatyczne|Brockenami z działkiem automatycznym]]. Brak oznak życia w kabinach potwierdza skan [[exart|Exarta]].
 }}
 
 {{menu gra=srw-oe

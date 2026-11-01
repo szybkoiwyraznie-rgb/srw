@@ -30,7 +30,9 @@ W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] oddaje [[himari-yaeg
 
 W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] przyjeżdża z Himari do zakładu [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji po kopię wzorcowej [[shinohara-hos|HOS-a]], a gdy bezzałogowe Labory [[sily-samoobrony-japonii|Sił Samoobrony]] ruszają do ataku z ostrą amunicją, wyprowadza [[exart|Exarta]] i wspólnie z Drugim Plutonem [[sv2|SV2]] zatrzymuje je przed wyjściem poza teren fabryki.
 
-W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] prowadzi [[exart|Exarta]] oraz oddelegowane [[ingram-nr-1|Ingramy]] [[sv2|SV2]] do podziemnej jaskini na pomoc [[shin-getter-1|Shin Getterowi-1]], [[raijin-oh|Raijin-Ohowi]] i [[go-saurer|Go-Saurerowi]]. Zauważa niewytłumaczalny szósty zmysł [[himari-yaegaki|Himari]], powstrzymuje ją przed użyciem Excess Blastu pod ziemią i koordynuje uderzenie na ukryte za skalną ścianą bramy [[mucus-gate-s-in|Mucus Gate S IN]] oraz [[mucus-gate-s-mc|Mucus Gate S MC]]. Po bitwie decyduje się ujawnić sojusznikom tajemnicę o gatunku [[mucus|Mucus]], wyjaśnia [[gurren-team|drużynie Gurren]] zjawisko splecenia światów i rekrutuje do [[connect-force|Connect]] załogi [[shin-getter-1|Gettera]], [[mazinger-z|Mazingera Z]] oraz [[gurren-lagann|Gurren Laganna]], zabierając ich samolotem transportowym w stronę [[stacja-connect|stacji orbitalnej]].
+W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] prowadzi [[exart|Exarta]] oraz oddelegowane [[ingram-nr-1|Ingramy]] [[sv2|SV2]] do podziemnej jaskini na pomoc [[shin-getter-1|Shin Getterowi-1]], [[raijin-oh|Raijin-Ohowi]] i [[go-saurer|Go-Saurerowi]]. Zauważa niewytłumaczalny szósty zmysł [[himari-yaegaki|Himari]], powstrzymuje ją przed użyciem Excess Blastu pod ziemią i koordynuje uderzenie na ukryte za skalną ścianą bramy [[mucus-gate-s-in|Mucus Gate S IN]] oraz [[mucus-gate-s-mc|Mucus Gate S MC]]. Po bitwie decyduje się ujawnić sojusznikom tajemnicę o gatunku [[mucus|Mucus]], przedstawia [[gurren-team|drużynie Gurren]] hipotezę splecenia światów i proponuje jej opiekę [[connect-force|Connect]] oraz pozostanie z drużynami Eldrana. Do Connect dołączają załogi [[shin-getter-1|Gettera]] i [[mazinger-z|Mazingera Z]], a w samolocie wracającym na [[stacja-connect|stację orbitalną]] Seishiro zachęca Himari do rozwijania intuicji.
+
+Podczas [[srw-oe-ep2-czarny-labor|zasadzki na poligonie]] przybywa pomóc Drugiemu Plutonowi. Skan z góry wykazuje brak oznak życia w Brockenach, lecz [[griffon|Griffona]] nie potrafi zidentyfikować nawet na podstawie danych Connect. Po ucieczce napastnika zauważa, że zagłuszenie czujników jego organizacji wymaga bardzo zaawansowanego sprzętu.
 }}
 {{menu gra=srw-oe
 
@@ -61,6 +63,7 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] prowadzi [[e
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Skupienie** | 1 | 15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
+| 2 | **Pęd** | 6 | 20 | Cel: ty Efekt: 1 razy — Ruch+3 |
 
 ### Umiejętności pilota
 

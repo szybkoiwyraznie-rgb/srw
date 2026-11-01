@@ -25,6 +25,8 @@ Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący proto
 Przed [[srw-oe-ep1-szalejacy-labor-powraca|wyjazdem do Shin-Shinagawa Seaside]] ciągła gotowość doprowadza go do kryzysu małżeńskiego. Przypomina [[isao-ota|Ocie]] o pierwszeństwie ludzkiego życia, po bitwie melduje, że wszystkie szalejące Labory zamilkły, i popiera ustalenie przyczyny incydentu.
 
 Podczas starcia z uzbrojonymi maszynami wojskowymi w [[srw-oe-ep1-sledztwo-pod-przykrywka|Hachioji]] stres znów przyprawia go o ból brzucha, a na wieść o bezterminowej delegacji Drugiego Plutonu do kosmicznej [[stacja-connect|bazy Connect]] martwi się rozłąką z żoną, lecz pozostaje z zespołem, by dokończyć sprawę [[shinohara-hos|HOS-a]].
+
+W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] pomaga analizować odczyty czujników z wozu dowodzenia. Bezskutecznie wzywa Brockeny na kanale ochrony i stwierdza zakłócenia łączności odcinające pluton od centrali.
 }}
 
 {{zrodlo gra=wspolne

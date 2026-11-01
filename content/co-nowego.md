@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-01 13:32
+
+- [[srw-oe-ep2|Epizod 2]]: [[srw-oe-ep2-czarny-labor|Czarny Labor]] — zasadzka na poligonie, odsiecz [[exart|Exarta]] i pierwsze starcie [[sv2|Drugiego Plutonu]] z [[griffon|Griffonem]].
+- Nowe opisy [[brocken-dzialko-automatyczne|Brockena z działkiem automatycznym]], [[shaft-enterprises|Shaft Enterprises]] i [[hss|HSS]]. [[badrinath-harchand|Bud]] otrzymuje powiązanie z Griffonem i umiejętność Gracz, [[kanuka-clancy|Kanuka]] — umiejętność Policjant, a [[seishiro|Seishiro]] — komendę Pęd i poprawiony opis opieki nad drużyną Gurren.
+- [[hal-x10-green|HAL-X10/Green]]: rozróżnienie wcześniejszych bezzałogowych incydentów i załogowej interwencji na poligonie. Porównanie ataku czarnego Labora i jego lotu z odcinkami 30–31 telewizyjnego Patlabora.
+
 ## 2026-10-29 14:10
 
 - [[srw-oe-ep2-grozba-pod-ziemia|Groźba pod ziemią]]: rozdzielone odkrycie bramy przez drużynę Gurren od warunkowej pomocy Gettera, poprawiona rola [[gai|Gaia]] i [[kei|Kei]]. Uporządkowane rozmowy o [[mucus|Mucus]], hipotezie połączenia światów i intuicji [[himari-yaegaki|Himari]].

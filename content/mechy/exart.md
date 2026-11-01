@@ -24,6 +24,8 @@ Exart wszedł w atmosferę o własnych siłach, ale z grawitacji wyrwie się tyl
 W [[srw-oe-ep1-sledztwo-pod-przykrywka|Hachioji]], dokąd Seishiro i Himari przyjeżdżają po kopię wzorcową [[shinohara-hos|HOS-a]], Exart natychmiast wychodzi naprzeciw ośmiu uzbrojonym [[labor|Laborom]] [[sily-samoobrony-japonii|Sił Samoobrony]] i wspólnie z [[sv2|Drugim Plutonem SV2]] nie wypuszcza ich poza zakład.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] schodzi do podziemnej pieczary na pomoc osaczonemu [[shin-getter-1|Shin Getterowi-1]]. Choć jego czujniki wykrywają nieznane osobniki [[nekton-assault|Nekton Assault]] oraz ukryte za skałą bramy [[mucus|Mucus]] dopiero po ostrzeżeniach [[himari-yaegaki|Himari]], Seishiro wstrzymuje podpilotkę przed użyciem Excess Blastu pod ziemią, by nie zawalić powierzchni, a po walce maszyna wraca samolotem transportowym na orbitę.
+
+W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] Exart przybywa na odsiecz Drugiemu Plutonowi. Jego skan z góry wykazuje brak pilotów w Brockenach, lecz rozpoznanie zawodzi wobec [[griffon|Griffona]] i wspierającego jego odwrót zagłuszania.
 }}
 {{menu gra=srw-oe
 

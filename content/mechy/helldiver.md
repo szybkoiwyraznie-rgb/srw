@@ -25,6 +25,8 @@ W zamieszaniu wywołanym utratą kontroli nad [[hal-x10|HAL-X10]] Helldivery poz
 Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 
 Po incydencie na [[poligon-fuji|Fuji]] maszyny wracają na przegląd do zakładu [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji. W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] cztery bezzałogowe Helldivery sterowane przez [[control-ai|SI]] ruszają do ataku z ostrą amunicją obok [[hal-x10-green|HAL-X10/Green]], dopóki nie powstrzymają ich [[exart|Exart]] i [[sv2|Drugi Pluton SV2]].
+
+Podczas [[srw-oe-ep2-czarny-labor|incydentu z czarnym Laborem]] Helldivery [[zolnierz-jsdf|Sił Samoobrony]] pozostają jednostkami trzeciej strony, odrębnymi od wspierającego policję [[hal-x10-green|HAL-X10/Green]].
 }}
 
 {{zrodlo gra=wspolne

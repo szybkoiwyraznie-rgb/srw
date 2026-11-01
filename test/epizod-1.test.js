@@ -97,7 +97,7 @@ test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () =
     .replace(/\n\n---\n?$/, '');
   assert.equal(odtworzone, oczekiwane);
   for (const czesc of czesci) assert.ok(script.includes(czesc.tekst), czesc.naglowek);
-  assert.equal(pages.filter((p) => p.typ === 'scena').length, 11, 'dwie sceny epizodu 0, osiem epizodu 1 i pierwsza epizodu 2');
+  assert.equal(pages.filter((p) => p.typ === 'scena').length, 12, 'dwie sceny epizodu 0, osiem epizodu 1 i dwie epizodu 2');
 });
 
 test('obsada epizodu i sceny obejmuje wszystkie postacie i jednostki z misji', () => {
@@ -148,7 +148,7 @@ test('pięć nowych jednostek ma pełne uzbrojenie z dostawy, a Medea zachowuje 
 test('jednostki mają pilotów zgodnych z obsadą misji, kolejnych powiązań i serię z dostawy', () => {
   const obsada = {
     'hal-x10': ['shinohara-hos'],
-    'hal-x10-green': ['shinohara-hos'],
+    'hal-x10-green': ['zolnierz-jsdf', 'shinohara-hos'],
     helldiver: ['control-ai', 'zolnierz-jsdf'],
     'ingram-nr-1': ['noa-izumi'],
     'ingram-nr-2': ['isao-ota'],
@@ -197,7 +197,7 @@ test('profile pilotów z epizodu 1: statystyki, komendy Ducha i umiejętności',
 test('relacje postaci i załogi są spójne w obie strony', () => {
   assert.deepEqual(bySlug.get('noa-izumi').mechy, ['ingram-nr-1']);
   assert.deepEqual(bySlug.get('isao-ota').mechy, ['ingram-nr-2']);
-  assert.deepEqual(bySlug.get('zolnierz-jsdf').mechy, ['medea', 'helldiver']);
+  assert.deepEqual(bySlug.get('zolnierz-jsdf').mechy, ['medea', 'helldiver', 'hal-x10-green']);
   assert.deepEqual(bySlug.get('shinohara-hos').mechy, ['hal-x10', 'hal-x10-green']);
   assert.deepEqual(bySlug.get('exart').piloci, ['seishiro', 'himari-yaegaki']);
   assert.deepEqual(bySlug.get('himari-yaegaki').mechy, ['exart']);

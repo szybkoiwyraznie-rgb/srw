@@ -18,6 +18,8 @@ utworzono: 2026-10-24
 Jest obecny wraz z [[utsumi|Utsumim]] i [[badrinath-harchand|Budem]] w [[srw-oe-ep1-szalejacy-labor-powraca|okolicy wielkiego placu budowy]]. Pyta współtowarzyszy o ocenę starcia Ingramów i początkowo przypisuje skuteczność [[noa-izumi|Noi]] jej odwadze.
 
 Po wyjaśnieniu Buda, że pilotka coraz bardziej ufa swojej maszynie, przyznaje, że Drugi Pluton [[sv2|SV2]] może okazać się groźniejszy, niż początkowo sądzili.
+
+Po teście [[griffon|Griffona]] w [[shaft-enterprises|Shaft Enterprises]] ostrzega [[utsumi|Utsumiego]], że [[badrinath-harchand|Bud]] jest zdolnym, ale nadmiernie swobodnym dzieckiem. Na [[srw-oe-ep2-czarny-labor|poligonie Sił Samoobrony]] przedstawia się [[kiichi-goto|Gotowi]] jako doradca działu Laborów [[hss|HSS]]. Zaprzecza, jakoby widział napastnika, choć wcześniej omawiał wyniki jego ataku.
 }}
 
 {{zrodlo gra=wspolne

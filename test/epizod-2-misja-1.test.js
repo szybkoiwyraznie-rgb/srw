@@ -44,7 +44,7 @@ test('dostawa 2-1 jest zachowana bajt w bajt, a skrypt otwiera epizod 2', () => 
 
   const expected = delivery.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
   assert.ok(script.startsWith('# Super Robot Wars OE — Epizod 2\n\n---\n\n'));
-  assert.ok(script.trimEnd().endsWith(expected), 'pełna misja 2-1 w skrypcie epizodu 2');
+  assert.ok(script.split('\n\n## Czarny Labor')[0].trimEnd().endsWith(expected), 'pełna misja 2-1 w skrypcie epizodu 2');
   assert.equal(script.split('## Ep. 2: Groźba pod ziemią').length - 1, 1);
   assert.ok(!script.includes('UCZESTNICY'), 'dane misji nie trafiają do skryptu');
   assert.ok(!script.includes('DL102_11'), 'techniczny kod misji nie trafia do skryptu');
@@ -104,9 +104,9 @@ test('obsada sceny i epizodu rozróżnia 15 jednostek pola bitwy od form z katal
   ];
 
   assert.deepEqual([...scena.postacie].sort(), [...oczekiwanePostacie].sort());
-  assert.deepEqual([...epizod.postacie].sort(), [...oczekiwanePostacie].sort());
+  assert.deepEqual([...epizod.postacie].sort(), [...new Set([...oczekiwanePostacie, ...bySlug.get('srw-oe-ep2-czarny-labor').postacie])].sort());
   assert.deepEqual([...scena.mechy].sort(), [...oczekiwaneMechy].sort());
-  assert.deepEqual([...epizod.mechy].sort(), [...oczekiwaneMechy].sort());
+  assert.deepEqual([...epizod.mechy].sort(), [...new Set([...oczekiwaneMechy, ...bySlug.get('srw-oe-ep2-czarny-labor').mechy])].sort());
 
   // Formy transformacji i superpołączenia mają własne strony z pełnymi tabelami,
   // lecz nie występują jako osobne jednostki rozstawione na mapie misji 2-1.
