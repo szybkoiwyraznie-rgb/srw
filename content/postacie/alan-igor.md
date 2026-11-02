@@ -20,6 +20,13 @@ W trakcie demonstracji tłumaczy, że moc techniki wykracza poza teoretyczny pot
 }}
 {{menu gra=srw-oe
 
+## Ilustracje
+
+![Alan Igor — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Alan%20Igor.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 - **Nazwa skrócona:** Alan

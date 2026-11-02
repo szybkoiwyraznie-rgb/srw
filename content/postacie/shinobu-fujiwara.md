@@ -20,6 +20,13 @@ Po treningu chwali Drugi Pluton za walkę. Seishirowi podsuwa myśl, że najwię
 }}
 {{menu gra=srw-oe
 
+## Ilustracje
+
+![Shinobu Fujiwara — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Shinobu%20Fujiwara.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 - **Nazwa skrócona:** Shinobu

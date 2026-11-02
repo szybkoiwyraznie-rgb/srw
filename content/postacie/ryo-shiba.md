@@ -20,6 +20,13 @@ Po ćwiczeniach wyjaśnia Seishirowi, że człowiek o mocnym wewnętrznym oparci
 }}
 {{menu gra=srw-oe
 
+## Ilustracje
+
+![Ryo Shiba — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Ryo%20Shiba.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 - **Nazwa skrócona:** Ryo

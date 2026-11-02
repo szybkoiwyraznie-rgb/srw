@@ -20,6 +20,13 @@ W ćwiczeniach dostrzega sens podziału ról z Laborami. Po pokazie mocy tłumac
 }}
 {{menu gra=srw-oe
 
+## Ilustracje
+
+![Sara Yuki — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Sara%20Yuki.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 - **Nazwa skrócona:** Sara

@@ -269,11 +269,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 160 plików przy 119 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 165 plików przy 124 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 119);
-  assert.equal(Object.values(manifest.encje).flat().length, 160);
+  assert.equal(Object.keys(manifest.encje).length, 124);
+  assert.equal(Object.values(manifest.encje).flat().length, 165);
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   const portrety = wszystkie.filter((f) => f.startsWith('characters/')).length;
@@ -504,4 +504,26 @@ test('ilustracje 2-2 i 2-3: osiem dokładnych kluczy R2 przy czterech właściwy
   assert.deepEqual(manifest.encje.brocken, ['Brocken.png', 'Brocken 2.png']);
   assert.equal(manifest.weryfikacjaZdalna, false);
   assert.equal(manifest.dostarczono, '2026-11-02');
+});
+
+
+test('pięć portretów Cyber Beast Force ma dokładne klucze characters/ i własne galerie OE', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const crew = {
+    'alan-igor': 'Alan Igor', 'masato-shikibu': 'Masato Shikibu',
+    'ryo-shiba': 'Ryo Shiba', 'sara-yuki': 'Sara Yuki', 'shinobu-fujiwara': 'Shinobu Fujiwara',
+  };
+  for (const [slug, name] of Object.entries(crew)) {
+    const file = `characters/${name}.png`;
+    assert.deepEqual(manifest.encje[slug], [file]);
+    const page = bySlug.get(slug);
+    assert.equal(page.seria, 'super-beast-machine-god-dancouga');
+    assert.deepEqual(page.mechy, ['final-dancouga']);
+    assert.equal((page.body.match(/^## Ilustracje$/gm) ?? []).length, 1);
+    assert.equal((page.body.match(/!\[/g) ?? []).length, 1);
+    assert.ok(page.body.includes(`${manifest.baseUrl}/characters/${encodeURIComponent(name)}.png`));
+    assert.match(page.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/);
+    assert.ok(page.body.indexOf('## Ilustracje') < page.body.indexOf('## Parametry'));
+  }
+  assert.equal(manifest.weryfikacjaZdalna, false);
 });

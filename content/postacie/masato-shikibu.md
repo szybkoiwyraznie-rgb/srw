@@ -20,6 +20,13 @@ Po treningu docenia umiejętność wykorzystania Laborów przez Drugi Pluton. Po
 }}
 {{menu gra=srw-oe
 
+## Ilustracje
+
+![Masato Shikibu — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Masato%20Shikibu.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 - **Nazwa skrócona:** Masato

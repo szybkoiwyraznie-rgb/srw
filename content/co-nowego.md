@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-02 11:47
+
+- Portrety pilotów [[cyber-beast-force|Cyber Beast Force]]: [[alan-igor|Alan Igor]], [[masato-shikibu|Masato Shikibu]], [[ryo-shiba|Ryo Shiba]], [[sara-yuki|Sara Yuki]] i [[shinobu-fujiwara|Shinobu Fujiwara]].
+
 ## 2026-11-02 09:28
 
 - Po dwie ilustracje na stronach [[brocken-dzialko-automatyczne|Brockena z działkiem automatycznym]], [[final-dancouga|Final Dancougi]], [[griffon|Griffona]] i [[nekton-creek|Nekton Creek]].
