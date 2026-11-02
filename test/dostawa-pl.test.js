@@ -216,7 +216,7 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
 test('profile załogi i transformacje są powiązane, ale nie udają sceny fabularnej', () => {
   assert.deepEqual(bySlug.get('exart').piloci, ['seishiro', 'himari-yaegaki']);
   assert.deepEqual(bySlug.get('masaki-andoh').mechy, ['cybuster', 'cybird']);
-  assert.deepEqual(bySlug.get('control-ai').mechy, ['brocken', 'helldiver']);
+  assert.deepEqual(bySlug.get('control-ai').mechy, ['brocken', 'helldiver', 'brocken-dzialko-automatyczne']);
   assert.equal(bySlug.get('control-ai').seria, undefined, 'Control AI nie ma wpisu w słowniku postaci');
   assert.deepEqual(bySlug.get('real-pg-gundam').piloci, []);
   assert.match(bySlug.get('cybuster').body, /\[\[cybird\|Cybird\]\]/);
@@ -269,11 +269,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 152 plików przy 115 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 165 plików przy 124 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 115);
-  assert.equal(Object.values(manifest.encje).flat().length, 152);
+  assert.equal(Object.keys(manifest.encje).length, 124);
+  assert.equal(Object.values(manifest.encje).flat().length, 165);
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   const portrety = wszystkie.filter((f) => f.startsWith('characters/')).length;
@@ -482,4 +482,48 @@ test('maszyny wsparcia White Base mają rodowód z pierwowzoru (ADR 0008)', () =
     assert.ok(page.zrodla.includes(adres), `${slug}: adres w frontmatterze`);
     assert.ok(blok[1].includes(adres), `${slug}: adres przy informacji`);
   }
+});
+
+
+test('ilustracje 2-2 i 2-3: osiem dokładnych kluczy R2 przy czterech właściwych jednostkach', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const dostawa = {
+    'brocken-dzialko-automatyczne': ['Brocken Działko.png', 'Brocken Działko 2.png'],
+    'final-dancouga': ['Final Dancouga.png', 'Final Dancouga 2.png'],
+    'griffon': ['Griffon.png', 'Griffon 2.png'],
+    'nekton-creek': ['Nekton Creek.png', 'Nekton Creek 2.png'],
+  };
+  for (const [slug, files] of Object.entries(dostawa)) {
+    assert.deepEqual(manifest.encje[slug], files);
+    const body = bySlug.get(slug).body;
+    assert.equal((body.match(/^## Ilustracje$/gm) ?? []).length, 1);
+    assert.equal((body.match(/^### Ilustracja \d+$/gm) ?? []).length, 2);
+    assert.ok(body.indexOf('## Ilustracje') < body.indexOf('## Parametry'));
+    for (const file of files) assert.ok(body.includes(`${manifest.baseUrl}/${encodeURIComponent(file)}`));
+  }
+  assert.deepEqual(manifest.encje.brocken, ['Brocken.png', 'Brocken 2.png']);
+  assert.equal(manifest.weryfikacjaZdalna, false);
+  assert.equal(manifest.dostarczono, '2026-11-02');
+});
+
+
+test('pięć portretów Cyber Beast Force ma dokładne klucze characters/ i własne galerie OE', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const crew = {
+    'alan-igor': 'Alan Igor', 'masato-shikibu': 'Masato Shikibu',
+    'ryo-shiba': 'Ryo Shiba', 'sara-yuki': 'Sara Yuki', 'shinobu-fujiwara': 'Shinobu Fujiwara',
+  };
+  for (const [slug, name] of Object.entries(crew)) {
+    const file = `characters/${name}.png`;
+    assert.deepEqual(manifest.encje[slug], [file]);
+    const page = bySlug.get(slug);
+    assert.equal(page.seria, 'super-beast-machine-god-dancouga');
+    assert.deepEqual(page.mechy, ['final-dancouga']);
+    assert.equal((page.body.match(/^## Ilustracje$/gm) ?? []).length, 1);
+    assert.equal((page.body.match(/!\[/g) ?? []).length, 1);
+    assert.ok(page.body.includes(`${manifest.baseUrl}/characters/${encodeURIComponent(name)}.png`));
+    assert.match(page.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/);
+    assert.ok(page.body.indexOf('## Ilustracje') < page.body.indexOf('## Parametry'));
+  }
+  assert.equal(manifest.weryfikacjaZdalna, false);
 });

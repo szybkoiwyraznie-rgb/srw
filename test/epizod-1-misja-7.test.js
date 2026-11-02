@@ -218,7 +218,7 @@ test('Bud ma wartości z dostawy bez spoilerów rekrutacji, a postacie z Dodatku
   assert.equal(bud.typ, 'postac');
   assert.equal(bud.rola, 'pilot');
   assert.equal(bud.seria, 'mobile-police-patlabor');
-  assert.deepEqual(bud.mechy, []);
+  assert.deepEqual(bud.mechy, ['griffon'], 'maszyna ujawniona w kolejnej dostawie 2-2');
   for (const [nazwa, wartosc] of [['SP', 60], ['Atak', 111], ['Obrona', 70],
     ['Celność', 141], ['Unik', 79]]) {
     assert.match(bud.body, new RegExp(`\\| ${nazwa} \\| ${wartosc} \\|`), nazwa);
@@ -245,10 +245,12 @@ test('nowe strony nie przenoszą surowych etykiet ani nie tworzą jednostek spoz
     const page = bySlug.get(slug);
     assert.doesNotMatch(page.body, /DL101_70|Entry ID|eventP00|charalist00|srwoe_/, slug);
   }
-  assert.equal(pages.some((page) => /griffon/i.test(page.slug)), false,
-    'źródłowa wzmianka o późniejszej maszynie Buda nie tworzy nowej encji');
+  // Griffon jest już dostarczony w 2-2, ale nie trafia wstecz do obsady 1-7.
+  assert.ok(!scena.mechy.includes('griffon'));
+  assert.ok(!epizod.mechy.includes('griffon'));
+  assert.match(JSON.parse(bySlug.get('griffon').w_gre['srw-oe']).dostawa, /dostawa_2_2\.txt$/);
   for (const slug of ['badrinath-harchand', 'seitaro-sakaki', 'utsumi', 'kurosaki']) {
-    assert.doesNotMatch(bySlug.get(slug).body, /Griffon|J9/, slug);
+    assert.doesNotMatch(bySlug.get(slug).body, /J9/, slug);
   }
 });
 

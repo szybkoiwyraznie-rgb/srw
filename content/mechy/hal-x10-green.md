@@ -4,7 +4,7 @@ slug: hal-x10-green
 tytul: HAL-X10/Green
 seria: mobile-police-patlabor
 gry: [srw-oe]
-piloci: [shinohara-hos]
+piloci: [zolnierz-jsdf, shinohara-hos]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_1.txt", "profil": "HAL-X10/Green", "dane": "**Seria:** Mobile Police Patlabor\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Przeciwlotniczy minigun bliskiego zasięgu | 1100 | 1–3 | +40 | 5 | — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4 |\n| 1 | 9-lufowa wyrzutnia rakiet | 800 | 1–5 | +20 | 20 | — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |\n| 2 | Wyrzutnia ATM | 1900 | 1–4 | +10 | 15 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |"}'
 pochodzenie: menu
@@ -25,6 +25,8 @@ Podobnie jak podstawowy HAL-X10 walczy bez załogi, a jej poczynaniami kieruje s
 Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
 
 Odesłane na kontrolę do fabryki [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji cztery maszyny tego wariantu wpadają w szał w [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]], strzelając ostrą amunicją, aż zatrzymują je [[exart|Exart]] i [[ingram-nr-1|Ingramy]] [[sv2|SV2]].
+
+Na [[srw-oe-ep2-czarny-labor|poligonie zaatakowanym przez czarnego Labora]] HAL-X10/Green prowadzi [[zolnierz-jsdf|żołnierz Sił Samoobrony]], który przybywa pomóc policjantom. [[griffon|Griffon]] błyskawicznie unieszkodliwia maszynę, ale jej pilot przeżywa. To załogowy udział w tym starciu, odmienny od wcześniejszych bezzałogowych incydentów.
 }}
 
 {{zrodlo gra=wspolne

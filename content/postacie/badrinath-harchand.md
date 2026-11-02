@@ -5,7 +5,7 @@ tytul: Badrinath Harchand
 rola: pilot
 seria: mobile-police-patlabor
 gry: [srw-oe]
-mechy: []
+mechy: [griffon]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/List_of_Patlabor_characters
@@ -19,6 +19,8 @@ utworzono: 2026-10-24
 Bud obserwuje w [[srw-oe-ep1-szalejacy-labor-powraca|okolicy wielkiego placu budowy]] walkę Ingramów z [[utsumi|Utsumim]] i [[kurosaki|Kurosakim]]. Zauważa, że maszyna [[noa-izumi|Noi]] porusza się coraz lepiej, ale nie przypisuje tego samej odwadze: jego zdaniem pilotka coraz bardziej ufa swojemu [[ingram-nr-1|Ingramowi]].
 
 Rozwój policjantów traktuje jak element dobrej zabawy. Kiedy Kurosaki przyznaje, że Drugi Pluton może być groźniejszy niż sądzono, Bud odpowiada, że inaczej nie byłoby zabawy.
+
+W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] pilotuje czarnego [[griffon|Griffona]] [[shaft-enterprises|Shaft Enterprises]]. Po rozbiciu wojskowych Laborów wyzywa do walki [[noa-izumi|Noę]]; [[isao-ota|Otę]] odprawia jako nieinteresującego przeciwnika, a [[exart|Exarta]] porównuje do ukrytej postaci z gry. Chce walczyć dalej, lecz słucha rozkazu [[utsumi|Utsumiego]] i odlatuje, przekonany, że w dłuższym starciu by wygrał.
 }}
 
 {{zrodlo gra=wspolne
@@ -55,5 +57,6 @@ W [[mobile-police-patlabor|pierwowzorze]] Badrinath Harchand, znany jako Bud, je
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+| 2 | **Gracz** | 3 | Kryt+8% Kryt Obraż.+6% |
 
 }}

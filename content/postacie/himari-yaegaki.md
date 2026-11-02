@@ -32,6 +32,10 @@ W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] pierwszy raz leci za
 W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] towarzyszy Seishiro w zakładzie [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji przy odbiorze kopii wzorcowej [[shinohara-hos|HOS-a]], orientuje się, że odesłano tam wszystkie wojskowe [[labor|Labory]] z [[poligon-fuji|poligonu Fuji]], i wspiera go podczas starcia [[exart|Exarta]] oraz [[sv2|SV2]] z ośmioma uzbrojonymi maszynami [[sily-samoobrony-japonii|Sił Samoobrony]].
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] kilkakrotnie wyczuwa zagrożenie jeszcze zanim zarejestrują je czujniki [[exart|Exarta]]: ostrzega przed kolejną falą [[nekton-assault|Nekton Assault]], wskazuje nadciągającego [[mazinger-z|Mazingera Z]] oraz drążącego skałę [[gurren-lagann|Gurren Laganna]], a w końcu lokalizuje za kamienną ścianą źródło niekończących się posiłków — bramy [[mucus|Mucus]]. W ferworze walki chce wypalić z Excess Blastu, lecz [[seishiro|Seishiro]] w porę przypomina jej, że pod ziemią mogłoby to zawalić powierzchnię; później w szkole i w samolocie transportowym sama dziwi się własnej nagłej intuicji.
+
+W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] cieszy się, że cały Drugi Pluton ocalał do przybycia Exarta. Potwierdza zgubienie [[griffon|Griffona]] przez czujniki rozpoznania, a po jego ucieczce zgłasza brak źródeł ciepła i ustanie zagłuszania.
+
+Na [[srw-oe-ep2-ryk-dziczy|stacji Connect]] dzieli zachwyt Drugiego Plutonu widokiem Ziemi. Podczas ćwiczeń rejestruje energię [[final-dancouga|Final Dancougi]] poza skalą, a w trudnym momencie wspiera Seishira, gotowa wykrzesać ostatnie siły. Po zajęciach cieszy się, że piloci się zaprzyjaźnili, i zachęca Seishira do większego zapału. Zapowiada przydział do [[13-samodzielny-oddzial|13. Samodzielnego Oddziału]].
 }}
 {{menu gra=srw-oe
 

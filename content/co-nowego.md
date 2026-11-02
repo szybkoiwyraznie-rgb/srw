@@ -1,5 +1,29 @@
 # Co nowego
 
+## 2026-11-02 11:47
+
+- Portrety pilotów [[cyber-beast-force|Cyber Beast Force]]: [[alan-igor|Alan Igor]], [[masato-shikibu|Masato Shikibu]], [[ryo-shiba|Ryo Shiba]], [[sara-yuki|Sara Yuki]] i [[shinobu-fujiwara|Shinobu Fujiwara]].
+
+## 2026-11-02 09:28
+
+- Po dwie ilustracje na stronach [[brocken-dzialko-automatyczne|Brockena z działkiem automatycznym]], [[final-dancouga|Final Dancougi]], [[griffon|Griffona]] i [[nekton-creek|Nekton Creek]].
+
+## 2026-11-01 19:43
+
+- [[srw-oe-ep2|Epizod 2]]: [[srw-oe-ep2-ryk-dziczy|Ryk dziczy]] — wspólne ćwiczenia na stacji, hologramy [[mucus|Mucus]] i lekcja łączenia spokoju z zapałem. Pełne dialogi, analiza wszystkich etapów i warunkowej rozmowy przy krytycznych uszkodzeniach Exarta.
+- [[super-beast-machine-god-dancouga|Super Beast Machine God Dancouga]], [[cyber-beast-force|Cyber Beast Force]] i jego pięcioro pilotów: [[shinobu-fujiwara|Shinobu]], [[sara-yuki|Sara]], [[ryo-shiba|Ryo]], [[masato-shikibu|Masato]] oraz [[alan-igor|Alan]]. Nowe profile [[final-dancouga|Final Dancougi]] i [[nekton-creek|Nekton Creek]] z uzbrojeniem i zdolnościami.
+- Wzmianki o [[komendant-igor|komendancie Igorze]], [[general-takeda|generale Takedzie]] i oczekiwanym [[13-samodzielny-oddzial|13. Samodzielnym Oddziale]]. Uściślenie ograniczeń Ingramów w kosmosie i rozróżnienie zapowiedzianych przydziałów od faktycznego dołączenia. [[nekton-assault|Nekton Assault]] otrzymuje widoczną tabelę wcześniej zachowanych parametrów.
+
+## 2026-11-01 13:32
+
+- [[srw-oe-ep2|Epizod 2]]: [[srw-oe-ep2-czarny-labor|Czarny Labor]] — zasadzka na poligonie, odsiecz [[exart|Exarta]] i pierwsze starcie [[sv2|Drugiego Plutonu]] z [[griffon|Griffonem]].
+- Nowe opisy [[brocken-dzialko-automatyczne|Brockena z działkiem automatycznym]], [[shaft-enterprises|Shaft Enterprises]] i [[hss|HSS]]. [[badrinath-harchand|Bud]] otrzymuje powiązanie z Griffonem i umiejętność Gracz, [[kanuka-clancy|Kanuka]] — umiejętność Policjant, a [[seishiro|Seishiro]] — komendę Pęd i poprawiony opis opieki nad drużyną Gurren.
+- [[hal-x10-green|HAL-X10/Green]]: rozróżnienie wcześniejszych bezzałogowych incydentów i załogowej interwencji na poligonie. Porównanie ataku czarnego Labora i jego lotu z odcinkami 30–31 telewizyjnego Patlabora.
+
+## 2026-10-29 14:10
+
+- [[srw-oe-ep2-grozba-pod-ziemia|Groźba pod ziemią]]: rozdzielone odkrycie bramy przez drużynę Gurren od warunkowej pomocy Gettera, poprawiona rola [[gai|Gaia]] i [[kei|Kei]]. Uporządkowane rozmowy o [[mucus|Mucus]], hipotezie połączenia światów i intuicji [[himari-yaegaki|Himari]].
+
 ## 2026-10-29 12:44
 
 - [[srw-oe-ep2|Groźba pod ziemią]]: doprecyzowane warunki opieki Connect nad [[gurren-team|drużyną Gurren]] oraz rozmowa załogi Gettera z Kojim w hangarze samolotu transportowego. Poprawione opisy Kaminy, Yoko, Kei i Gaia. Rozdzielona rozmowa o [[mucus|Mucus]] po bitwie od późniejszej rozmowy o pochodzeniu przybyszów w szkolnej klasie.

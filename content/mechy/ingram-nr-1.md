@@ -29,6 +29,10 @@ W [[srw-oe-ep1-szalejacy-labor-powraca|obronie placu budowy]] Noa nie jest w sta
 W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] wspiera [[exart|Exarta]] pod zakładem [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji przeciw uzbrojonym [[hal-x10-green|HAL-X10/Green]] i [[helldiver|Helldiverom]]. Po walce [[shigeo-shiba|Shige]] ujawnia, że wbrew poleceniu z góry nigdy nie wgrał Ingramom [[shinohara-hos|HOS-a]], a jedynie ustawił atrapę ekranu startowego na sprawdzonym starym systemie.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] schodzi już w składzie oddziału [[connect-force|Connect]] pod ziemię, gdzie Noa mimo zdumienia na widok superrobotów i [[invader-ground|Invaderów]] utrzymuje z [[ingram-nr-2|Ingramem nr 2]] obronę pieczary przed napływającymi potworami, dopóki załogi po drugiej stronie ściany nie rozbiją bram [[mucus|Mucus]].
+
+W [[srw-oe-ep2-czarny-labor|zasadzce na poligonie]] walczy z bezzałogowymi Brockenami oraz [[griffon|Griffonem]], korzystając ze wsparcia wozów dowodzenia i [[exart|Exarta]].
+
+Przed [[srw-oe-ep2-ryk-dziczy|wspólnymi ćwiczeniami na stacji Connect]] Labor zostaje przystosowany do nieważkości i próżni. Nie daje mu to jednak zdolności walki w otwartej przestrzeni na wzór mobile suita: podczas treningu może poruszać się jedynie po pokładzie. Załoga Dancougi docenia wkład Laborów i ich wsparcie mimo różnicy mocy maszyn.
 }}
 
 {{zrodlo gra=wspolne

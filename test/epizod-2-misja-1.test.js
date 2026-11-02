@@ -6,7 +6,7 @@
  * Kabuto w Mazingerze Z oraz przebijającą się z innego wszechświata drużynę
  * Gurren; kończy się zniszczeniem bram Mucus Gate S IN i Mucus Gate S MC,
  * ujawnieniem przez Seishira tajemnicy kosmitów Mucus i splecenia światów
- * oraz werbunkiem trzech nowych załóg na stację Connect.
+ * oraz dołączeniem Gettera i Mazingera do Connect i opieką nad drużyną Gurren.
  */
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -44,7 +44,7 @@ test('dostawa 2-1 jest zachowana bajt w bajt, a skrypt otwiera epizod 2', () => 
 
   const expected = delivery.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
   assert.ok(script.startsWith('# Super Robot Wars OE — Epizod 2\n\n---\n\n'));
-  assert.ok(script.trimEnd().endsWith(expected), 'pełna misja 2-1 w skrypcie epizodu 2');
+  assert.ok(script.split('\n\n## Czarny Labor')[0].trimEnd().endsWith(expected), 'pełna misja 2-1 w skrypcie epizodu 2');
   assert.equal(script.split('## Ep. 2: Groźba pod ziemią').length - 1, 1);
   assert.ok(!script.includes('UCZESTNICY'), 'dane misji nie trafiają do skryptu');
   assert.ok(!script.includes('DL102_11'), 'techniczny kod misji nie trafia do skryptu');
@@ -104,9 +104,9 @@ test('obsada sceny i epizodu rozróżnia 15 jednostek pola bitwy od form z katal
   ];
 
   assert.deepEqual([...scena.postacie].sort(), [...oczekiwanePostacie].sort());
-  assert.deepEqual([...epizod.postacie].sort(), [...oczekiwanePostacie].sort());
+  assert.deepEqual([...epizod.postacie].sort(), [...new Set([...oczekiwanePostacie, ...bySlug.get('srw-oe-ep2-czarny-labor').postacie, ...bySlug.get('srw-oe-ep2-ryk-dziczy').postacie])].sort());
   assert.deepEqual([...scena.mechy].sort(), [...oczekiwaneMechy].sort());
-  assert.deepEqual([...epizod.mechy].sort(), [...oczekiwaneMechy].sort());
+  assert.deepEqual([...epizod.mechy].sort(), [...new Set([...oczekiwaneMechy, ...bySlug.get('srw-oe-ep2-czarny-labor').mechy, ...bySlug.get('srw-oe-ep2-ryk-dziczy').mechy])].sort());
 
   // Formy transformacji i superpołączenia mają własne strony z pełnymi tabelami,
   // lecz nie występują jako osobne jednostki rozstawione na mapie misji 2-1.
@@ -225,4 +225,26 @@ test('dwadzieścia jeden nowych postaci ma właściwe role, parametry i brak spo
   ]) {
     assert.doesNotMatch(bySlug.get(slug).body, zakazaneSpoilery, `${slug}: brak przyszłych zwrotów fabularnych`);
   }
+});
+
+
+test('podsumowania 2-1 rozdzielają warunkową pomoc Gettera i rozmowy po bitwie', () => {
+  const analiza = scena.body.split('## Analiza')[1].split('## Nawiązania')[0];
+  const uderzenie = analiza.split('### Uderzenie na bramy Mucus i zakończenie bitwy')[1]
+    .split('### Tajemnica Mucus')[0];
+  assert.match(uderzenie, /Dopiero w reakcji na ich przejście/);
+  assert.match(uderzenie, /Gai\]\] pyta \[\[kei\|Kei\]\]/);
+  assert.match(uderzenie, /jeśli nowi sojusznicy wpadną w tarapaty/);
+  assert.doesNotMatch(uderzenie, /podchwytuje ten plan|rozpoznaje Kojiego|propozycję.*Marii/);
+
+  const gai = bySlug.get('gai').body;
+  assert.match(gai, /pyta \[\[kei\|Kei\]\], czy ruszą im z pomocą/);
+  assert.doesNotMatch(gai, /proponuje \[\[go\|Gowi\]\]/);
+
+  const watki = scena.body.split('## Wątki w scenie')[1];
+  assert.match(watki, /Bezpośrednio po bitwie/);
+  assert.match(watki, /Dopiero później, w szkolnej klasie/);
+  assert.doesNotMatch(watki, /W sali szkolnej Seishiro wyjawia/);
+  assert.doesNotMatch(analiza, /Rozmowa wraca do przeczuć/);
+  assert.match(analiza, /zachęta do rozwijania intuicji Himari pada wcześniej, w kabinie/);
 });

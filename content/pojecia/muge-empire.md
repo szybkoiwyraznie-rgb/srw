@@ -17,6 +17,8 @@ utworzono: 2026-10-17
 Imperium Muge należy do zagrożeń wymienionych w prologu po opisie badań nad nieznanymi energiami. Pamięć jego najazdu wciąż żyje.
 
 Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
+
+Wprowadzenie do [[srw-oe-ep2-ryk-dziczy|„Ryku dziczy”]] przypomina, że Imperium Muge Zorbados wyłoniło się z innego wymiaru i najechało Ziemię. Do walki z nim powstał [[cyber-beast-force|Cyber Beast Force]], który rozgromił najeźdźców i zachował gotowość przeciw kolejnym zagrożeniom.
 }}
 {{zrodlo gra=wspolne
 

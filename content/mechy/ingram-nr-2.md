@@ -29,6 +29,10 @@ Występuje w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototy
 Przed wydarzeniami [[srw-oe-ep1-sledztwo-pod-przykrywka|sceny „Śledztwo pod przykrywką”]] wraca do hangaru przemoczony po tym, jak Ota wrzucił go do rzeki, po czym bierze udział w zatrzymaniu uzbrojonych [[labor|Laborów]] wojskowych pod fabryką w Hachioji. Podobnie jak jedynka unika awarii [[shinohara-hos|HOS-a]], bo [[shigeo-shiba|Shige]] pozostawił w nim stary system operacyjny ukryty za fałszywym ekranem powitalnym.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] po raz pierwszy walczy jako oddelegowana jednostka [[connect-force|Connect]] w podziemnej jaskini, osłaniając tyły wraz z [[exart|Exartem]], [[ingram-nr-1|Ingramem nr 1]] i [[mazinger-z|Mazingerem Z]], gdy [[shin-getter-1|Shin Getter-1]] oraz [[gurren-lagann|Gurren Lagann]] niszczą za skalną ścianą bramy [[mucus|Mucus]].
+
+W [[srw-oe-ep2-czarny-labor|zasadzce na poligonie]] walczy z bezzałogowymi Brockenami oraz [[griffon|Griffonem]], korzystając ze wsparcia wozów dowodzenia i [[exart|Exarta]].
+
+Przed [[srw-oe-ep2-ryk-dziczy|wspólnymi ćwiczeniami na stacji Connect]] Labor zostaje przystosowany do nieważkości i próżni. Nie daje mu to jednak zdolności walki w otwartej przestrzeni na wzór mobile suita: podczas treningu może poruszać się jedynie po pokładzie. Załoga Dancougi docenia wkład Laborów i ich wsparcie mimo różnicy mocy maszyn.
 }}
 
 {{zrodlo gra=wspolne

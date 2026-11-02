@@ -135,6 +135,13 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Odsiecz Kojiego Kabuto w Mazingerze Z',
       'Wyprawa drużyny Gurren i przebicie do innego świata',
       'Bramy Mucus, ujawnienie celu Connect i splecenie światów',
+      // scena 2-2: Czarny Labor
+      'Test czarnego Labora przeciw wojsku',
+      'Odsiecz Exarta i zagłuszanie czujników Connect',
+      'Lot Griffona i odwrót na rozkaz Utsumiego',
+      // scena 2-3: Ryk dziczy
+      'Spotkanie z Cyber Beast Force po pokonaniu Muge',
+      'Hologramy Mucus i lekcja spokoju oraz zapału',
     ],
   };
 

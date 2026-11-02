@@ -25,6 +25,10 @@ Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący proto
 Przekazuje zgłoszenie o szalejących Laborach i wyznacza twardą granicę działania: ani [[labor|Labory]], ani kule nie mogą opuścić kwartału. Po [[srw-oe-ep1-szalejacy-labor-powraca|bitwie na placu budowy]] nakazuje powrót na sztuczną wyspę; rozumie niepokój [[asuma-shinohara|Shinohary]], ale uważa, że tylko Drugi Pluton może stawić czoła takim maszynom.
 
 W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] jako pierwszy podejrzewa celowe zaprogramowanie szału w [[shinohara-hos|Shinohara HOS]] i przydziela [[seitaro-sakaki|Sakakiego]] do osłony samowolnego wypadu Asumy do Hachioji, a potem rusza z resztą plutonu pod zakład [[shinohara-heavy-industries|Shinohara Heavy Industries]] i potrąca podwładnemu pensję. Na odprawie ogłasza bezterminowe oddelegowanie Drugiego Plutonu do kosmicznej [[stacja-connect|bazy Connect]], przekazując dowództwo w Tokio [[shinobu-nagumo|Shinobu Nagumo]], i jak ujawnia [[shigeo-shiba|Shige]], od początku wiedział, że w [[ingram-nr-1|Ingramach]] działa jedynie atrapa ekranu startowego HOS-a.
+
+Przed wylotem do kosmosu prowadzi [[sv2|Drugi Pluton]] na [[srw-oe-ep2-czarny-labor|poligon Sił Samoobrony]]. Przyjmuje wizytę [[kurosaki|Kurosakiego]], przedstawiającego się jako doradca [[hss|HSS]], i pyta o producenta nieznanego Labora. Po odzyskaniu łączności zarządza powrót, zadowolony, że wszyscy są cali.
+
+Na [[srw-oe-ep2-ryk-dziczy|stacji Connect]] wraz z plutonem po raz pierwszy ogląda Ziemię z kosmosu. Sądzi, że jego ludzie mogą dobrze dogadać się z trudnymi charakterami [[cyber-beast-force|Cyber Beast Force]], nawet gdy Ota głośno temu zaprzecza.
 }}
 
 {{zrodlo gra=wspolne

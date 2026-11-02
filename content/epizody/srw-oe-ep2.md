@@ -5,11 +5,12 @@ tytul: Epizod 2
 gra: srw-oe
 numer: 2
 skrypt: episodes/srw-oe/ep002.md
-postacie: [seishiro, himari-yaegaki, noa-izumi, isao-ota, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, aiko-shimada, daisuke-sato, akira-imamura, kenichi-minezaki, hiromi-tachibana, shinobu-asaoka, taro-shirogane, yoji-hiyama, erika-kozu, takako-kojima, go, kei, gai, koji-kabuto, simon, kamina, yoko, boota, mechabestia, invader, mucus]
-mechy: [exart, ingram-nr-1, ingram-nr-2, raijin-oh, go-saurer, gurren-lagann, mazinger-z, shin-getter-1, bolt-robo-standard, bolt-robo-melee, bolt-robo-long-range, invader-ground, nekton-assault, mucus-gate-s-in, mucus-gate-s-mc]
-pojecia: [connect-force, stacja-connect, sv2, labor, klasa-obrony-ziemi, akademia-hinobori, jaku-empire, saurersi, mechanization-empire, invaderzy, instytut-energii-fotonowej, dr-hell, gurren-team, gunmen]
+postacie: [seishiro, himari-yaegaki, noa-izumi, isao-ota, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, aiko-shimada, daisuke-sato, akira-imamura, kenichi-minezaki, hiromi-tachibana, shinobu-asaoka, taro-shirogane, yoji-hiyama, erika-kozu, takako-kojima, go, kei, gai, koji-kabuto, simon, kamina, yoko, boota, mechabestia, invader, mucus, asuma-shinohara, mikiyasu-shinshi, hiromi-yamazaki, kanuka-clancy, kiichi-goto, zolnierz-jsdf, control-ai, badrinath-harchand, utsumi, kurosaki, shinobu-fujiwara, sara-yuki, ryo-shiba, masato-shikibu, alan-igor, suol]
+mechy: [exart, ingram-nr-1, ingram-nr-2, raijin-oh, go-saurer, gurren-lagann, mazinger-z, shin-getter-1, bolt-robo-standard, bolt-robo-melee, bolt-robo-long-range, invader-ground, nekton-assault, mucus-gate-s-in, mucus-gate-s-mc, hal-x10-green, helldiver, brocken, brocken-dzialko-automatyczne, griffon, final-dancouga, nekton-creek]
+pojecia: [connect-force, stacja-connect, sv2, labor, klasa-obrony-ziemi, akademia-hinobori, jaku-empire, saurersi, mechanization-empire, invaderzy, instytut-energii-fotonowej, dr-hell, gurren-team, gunmen, sily-samoobrony-japonii, shaft-enterprises, hss, cyber-beast-force, muge-empire, 13-samodzielny-oddzial, earth-federation]
 pochodzenie: skrypt
 zrodla:
+  - https://en.wikipedia.org/wiki/List_of_Patlabor_episodes
   - https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer
   - https://en.wikipedia.org/wiki/Matchless_Raijin-Oh
   - https://en.wikipedia.org/wiki/Getter_Robo_Armageddon
@@ -32,6 +33,20 @@ W rozległej pieczarze [[go|Go]], [[kei|Kei]] i [[gai|Gai]] w [[shin-getter-1|Sh
 
 Po bitwie Seishiro ujawnia strzeżone dotąd w [[connect-force|Connect]] informacje o gatunku [[mucus|Mucus]]: [[mechabestia|mechabestie]] i [[invaderzy|Invaderzy]] przybyli na Ziemię przez bramy Mucus Gate, którymi ludzie nie mogą się przerzucać. Po powrocie do szkolnej klasy Seishiro wysłuchuje relacji przybyszów i przypuszcza, że planeta z innego wszechświata — świat [[gurren-team|drużyny Gurren]] — połączyła się z Ziemią. Proponuje drużynie Gurren opiekę Connect i pozostanie z drużynami Eldrana na czas badania możliwości powrotu do własnego świata. W samolocie transportowym wracającym na [[stacja-connect|stację orbitalną]] Koji rozmawia z Go, Kei i Gaiem o dołączeniu drużyny Gettera do wspólnego oddziału obronnego.
 
+### [[srw-oe-ep2-czarny-labor|Misja 2: Czarny Labor]]
+
+Przed wyjazdem do kosmosu [[sv2|Drugi Pluton]] otrzymuje zadanie ochrony poligonu Sił Samoobrony, gdzie nieznany Labor rozbił pluton wojskowych maszyn w walce wręcz. [[kiichi-goto|Goto]] spotyka [[kurosaki|Kurosakiego]], przedstawiającego się jako doradca [[hss|HSS]]. Tymczasem [[utsumi|Utsumi]] w [[shaft-enterprises|Shaft Enterprises]] traktuje atak [[griffon|Griffona]] jako udany test i reklamę.
+
+[[ingram-nr-1|Ingram Noi]] i [[ingram-nr-2|Ingram Oty]] natrafiają na bezzałogowe [[brocken|Brockeny/Melee]] oraz [[brocken-dzialko-automatyczne|Brockeny z działkiem automatycznym]]. Zagłuszanie odcina łączność z dowództwem. Z pomocą przybywa [[exart|Exart]], którego skan potwierdza brak pilotów w maszynach. [[kanuka-clancy|Kanuka]] podejrzewa, że atak służy za kamuflaż innego celu.
+
+Gdy [[zolnierz-jsdf|żołnierz Sił Samoobrony]] próbuje pomóc w [[hal-x10-green|HAL-X10/Green]], Griffon błyskawicznie unieszkodliwia jego maszynę. [[badrinath-harchand|Bud]] wyzywa Noę do walki, traktując bitwę jak grę. Utsumi przerywa jednak test i nakazuje powrót na statek. Griffon odlatuje o własnych siłach i znika z czujników; po ustaniu zagłuszania Goto zarządza odwrót całego, ocalałego plutonu.
+
+### [[srw-oe-ep2-ryk-dziczy|Misja 3: Ryk dziczy]]
+
+Na [[stacja-connect|stacji orbitalnej]] Drugi Pluton poznaje [[cyber-beast-force|Cyber Beast Force]]. Mimo początkowych kłótni [[suol|Suol]] zarządza wspólny trening. [[final-dancouga|Final Dancouga]], Exart i Ingramy walczą z hologramami [[nekton-assault|Nekton Assault]] oraz [[nekton-creek|Nekton Creek]], wyświetlanymi przez drony. Labory są przystosowane do próżni, lecz mogą poruszać się tylko po pokładzie, nie walczyć w otwartej przestrzeni.
+
+[[shinobu-fujiwara|Shinobu]] i jego załoga demonstrują moc Dancougi przekraczającą wartości teoretyczne. [[ryo-shiba|Ryo]] uczy Seishira, że gniew bez koncentracji go osłabia, ale oparty na wewnętrznej równowadze może stać się siłą. Po ćwiczeniach oba zespoły doceniają swoje umiejętności. Cyber Beast Force wraca do bazy na regulację; jego oficjalne dołączenie do Connect Force pozostaje zapowiedzią. Piloci Connect czekają na stacji na [[13-samodzielny-oddzial|13. Samodzielny Oddział Federacji]], nadal ćwicząc na symulatorach.
+
 ## Wątki fabularne
 
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
@@ -42,12 +57,20 @@ Po bitwie Seishiro ujawnia strzeżone dotąd w [[connect-force|Connect]] informa
 | Odsiecz Kojiego Kabuto w Mazingerze Z | [[mazinger-edition-z-the-impact\|Mazinger Edition Z: The Impact!]] | cała seria | Koji walczy u boku dziecięcych drużyn zamiast toczyć regularne boje z armią Doktora Hella; zamiast bestii Hella trafia na podziemne bramy Mucus i w imieniu Instytutu Energii Fotonowej wstępuje do Connect. |
 | Wyprawa drużyny Gurren i przebicie do innego świata | [[tengen-toppa-gurren-lagann\|Tengen Toppa Gurren Lagann]] | odc. 4 „Having Lots of Faces Doesn't Make You Great!” | Punkt wyjścia odpowiada wyruszeniu Simona, Kaminy, Yoko i Booty w poszukiwaniu punktu zbornego zwierzoludzi po opuszczeniu okolic Littner, lecz w grze ich wiertło przebija barierę międzywymiarową prosto do podziemnej pieczary na Ziemi. |
 | Bramy Mucus, ujawnienie celu Connect i splecenie światów | [[srw-oe\|Super Robot Wars OE]] | n/d | Kosmici Mucus, jednostki Nekton Assault, bramy Mucus Gate S IN / S MC oraz wyjaśnienie Seishira o połączeniu dwóch wszechświatów i rekrutacja nowych załóg są oryginalną osią fabuły gry. |
+| Test czarnego Labora przeciw wojsku | [[mobile-police-patlabor\|Mobile Police Patlabor]] | odc. 30 „Griffin was Here!” | Gra zachowuje atak na wojskowe Labory i rozmowę Utsumiego z Kurosakim, lecz prowadzi policjantów na poligon, gdzie czekają bezzałogowe Brockeny. |
+| Odsiecz Exarta i zagłuszanie czujników Connect | [[srw-oe\|Super Robot Wars OE]] | n/d | Seishiro i Himari pomagają oddelegowanym kolegom z SV2; nawet sprzęt Connect nie pozwala utrzymać kontaktu z uciekającym Griffonem. |
+| Lot Griffona i odwrót na rozkaz Utsumiego | [[mobile-police-patlabor\|Mobile Police Patlabor]] | odc. 31 „Tragedy in Rain” | W serialu lot zamyka starcie na targach Laborów; tutaj Bud wycofuje się z poligonu, by dostarczyć dane z testu, a policjanci pozostają cali. |
+| Spotkanie z Cyber Beast Force po pokonaniu Muge | [[super-beast-machine-god-dancouga\|Super Beast Machine God Dancouga]] | cała seria | Wojna załogi Dancougi z Muge stanowi tło; trening na stacji Connect i spotkanie z policjantami należą do fabuły gry, bez przypisania do konkretnego odcinka anime. |
+| Hologramy Mucus i lekcja spokoju oraz zapału | [[srw-oe\|Super Robot Wars OE]] | n/d | Wspólne ćwiczenia służą rozwojowi Seishira i zgraniu załóg. Zapowiedzi przyszłych przydziałów nie są jeszcze dołączeniem oddziałów. |
 
 ## Komentarz
 
 Otwarcie drugiego epizodu gwałtownie rozszerza skalę świata przedstawionego. O ile pierwszy rozdział utrzymywał zagrożenia w granicach ziemskich konfliktów zbrojnych i sabotażu technologicznego, o tyle zejście do podziemnej pieczary od razu spina w jednym miejscu klasyczne superroboty z pięciu różnych tradycji i zmusza [[seishiro|Seishira]] do odsłonięcia kart, które w prologu i podczas ćwiczeń z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] pozostawały przemilczane.
 
 Konstrukcyjną osią sceny są bramy [[mucus-gate-s-in|Mucus Gate S IN]] i [[mucus-gate-s-mc|Mucus Gate S MC]]. Z perspektywy taktycznej tłumaczą one niekończący się napływ [[invader-ground|Invaderów]] i [[bolt-robo-standard|Bolt Robo]] zza skalnej przegrody, a z perspektywy fabularnej dostarczają spójnego mechanizmu łączącego odległe wątki: [[seishiro|Seishiro]] nie wyklucza, że gdzieś w kosmosie odradza się [[mechanization-empire|Imperium Mechanizacji]], zaś [[gurren-team|drużyna Gurren]] otrzymuje namacalne wyjaśnienie, dlaczego nad japońską szkołą rozciąga się tętniące życiem miasto zamiast pustkowi rządzonych przez zwierzoludzi. Równolegle gra zarysowuje niewytłumaczalną intuicję [[himari-yaegaki|Himari]], którą [[seishiro|Seishiro]] zachęca ją rozwijać.
+
+Po zadaniu na poligonie [[srw-oe-ep2-ryk-dziczy|„Ryk dziczy”]] przenosi akcję w kosmos, ale zamiast nowego ataku oferuje kontrolowany trening. Kontrast między siłą Dancougi i zgraniem Laborów pozwala obu grupom czegoś się nauczyć. Dla Seishira najważniejsza staje się nie kolejna broń, lecz umiejętność kierowania emocjami; powrót Cyber Beast Force do bazy i oczekiwanie na nową formację Federacji zachowują przejściowy charakter spotkania.
+
 }}
 {{zrodlo gra=wspolne
 
@@ -58,4 +81,11 @@ Konstrukcyjną osią sceny są bramy [[mucus-gate-s-in|Mucus Gate S IN]] i [[muc
 - [[koji-kabuto|Koji Kabuto]], [[mazinger-z|Mazinger Z]] z Superstopu Z oraz [[instytut-energii-fotonowej|Instytut Energii Fotonowej]] walczący z armią [[dr-hell|Doktora Hella]] występują w tej odsłonie w ujęciu z 26-odcinkowego serialu [[mazinger-edition-z-the-impact|*Mazinger Edition Z: The Impact!*]] (2009) ([Wikipedia, *Mazinger Edition Z: The Impact!*](https://en.wikipedia.org/wiki/Mazinger_Edition_Z:_The_Impact!); sprawdzono 2026-10-27).
 - [[simon|Simon]], [[kamina|Kamina]], [[yoko|Yoko]], [[boota|Boota]], [[gurren-lagann|Gurren Lagann]] oraz pojęcie [[gunmen|Gunmenów]] pochodzą z serialu [[tengen-toppa-gurren-lagann|*Tengen Toppa Gurren Lagann*]] (2007) studia Gainax; moment ich przebicia do pieczary odpowiada wczesnemu etapowi wędrówki [[gurren-team|drużyny Gurren]] na powierzchni w poszukiwaniu punktu zbornego zwierzoludzi ([Wikipedia, *Gurren Lagann*](https://en.wikipedia.org/wiki/Gurren_Lagann); [Wikipedia, *List of Gurren Lagann episodes*](https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_episodes); sprawdzono 2026-10-27).
 - Obcy gatunek [[mucus|Mucus]], błękitne organizmy szturmowe [[nekton-assault|Nekton Assault]] oraz bramy skoku podprzestrzennego [[mucus-gate-s-in|Mucus Gate S IN]] i [[mucus-gate-s-mc|Mucus Gate S MC]] są oryginalnymi elementami *Super Robot Wars Operation Extend* ([SRW Wiki, „ミューカス”](https://srw.wiki.cre.jp/wiki/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%AB%E3%82%B9); sprawdzono 2026-10-27).
+}}
+
+{{zrodlo gra=wspolne
+
+## Pierwowzór czarnego Labora
+
+Atak na wojskowe Labory i dyskusja Utsumiego z Kurosakim o zachowaniu Buda występują w odcinku 30 „Griffin was Here!” telewizyjnego Patlabora. Zaskakujący samodzielny lot maszyny podczas odwrotu pojawia się w odcinku 31 „Tragedy in Rain”, na targach Laborów ([Wikipedia, „List of Patlabor episodes”, odc. 30–31](https://en.wikipedia.org/wiki/List_of_Patlabor_episodes); sprawdzono 2026-11-01).
 }}

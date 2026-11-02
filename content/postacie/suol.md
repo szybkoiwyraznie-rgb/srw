@@ -25,6 +25,8 @@ W [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”
 W drodze powrotnej na Stację Connect chwali [[seishiro|Seishira]] za ćwiczenia w Japonii i zapowiada, że [[connect-force|Connect]] pomoże w śledztwie w sprawie [[hal-x10|HAL-X10]]. Interesuje się też losem [[white-base|White Base]], która kieruje się ku [[operacja-odessa|Odessie]].
 
 Po [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] [[seishiro|Seishiro]] podejrzewa, że szef wysłał go na ćwiczenia także po to, żeby zobaczył uczniów z [[akademia-hinobori|Akademii Hinobori]] — i uznaje, że była to dobra inspiracja.
+
+W [[srw-oe-ep2-ryk-dziczy|„Ryku dziczy”]] prowadzi na [[stacja-connect|stacji]] ćwiczenia z [[cyber-beast-force|Cyber Beast Force]] i Drugim Plutonem. Cele to hologramy Mucus wyświetlane przez drony; Suol zwiększa ich siłę ponad ostatnie dane bojowe. Pozwala pilotom ścierać się charakterami, wierząc, że ułatwi im to wzajemne zaufanie. Zachęca też Seishira do przyjęcia uwag Ryo o koncentracji i złości.
 }}
 {{menu gra=srw-oe
 

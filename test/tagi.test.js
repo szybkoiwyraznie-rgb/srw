@@ -39,6 +39,7 @@ const TAG_SERII = {
   'matchless-raijin-oh': 'eldran',
   'nekketsu-saikyo-go-saurer': 'eldran',
   'getter-robo-armageddon': 'getter-robo',
+  'super-beast-machine-god-dancouga': 'dancouga',
   'mazinger-edition-z-the-impact': 'mazinger',
   'tengen-toppa-gurren-lagann': 'tengen-toppa',
   'sgt-frog': 'sgt-frog',
@@ -99,7 +100,7 @@ test('maszyny bez podanej klasy świadomie nie dostają tagu rodzaju jednostki',
   assert.deepEqual(bezKlasy, [
     'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
     'cybird', 'cybuster', 'exart', 'guntank',
-    'invader-ground', 'nekton-assault', 'real-pg-gundam',
+    'invader-ground', 'nekton-assault', 'nekton-creek', 'real-pg-gundam',
   ]);
 });
 

@@ -5,7 +5,7 @@ tytul: Żołnierz JSDF
 rola: pilot
 seria: mobile-police-patlabor
 gry: [srw-oe]
-mechy: [medea, helldiver]
+mechy: [medea, helldiver, hal-x10-green]
 pochodzenie: skrypt
 tagi: [patlabor, pilot, jsdf]
 utworzono: 2026-10-21
@@ -19,6 +19,8 @@ Bezimienny żołnierz Sił Samoobrony Japonii, obecny na wspólnych ćwiczeniach
 Żołnierze narzekają, że ograniczenia technologiczne każą im polegać na superrobotach innych organizacji, i widzą w tym cenę neutralności kraju. Kiedy cele ćwiczebne zaczynają strzelać ostrą amunicją, to oni wzywają pomoc i ustępują miejsca [[connect-force|Connect]].
 
 Pojawia się w [[srw-oe-ep1-szalejacy-prototyp-labora|scenie „Szalejący prototyp Labora”]] ([[srw-oe-ep1|Epizod 1]]).
+
+Podczas [[srw-oe-ep2-czarny-labor|ataku na poligon]] żołnierze tracą łączność i padają ofiarą nieznanego Labora. Później jeden z nich przybywa w [[hal-x10-green|HAL-X10/Green]], by wesprzeć policjantów pomimo opóźniających ich rozkazów przełożonych. [[griffon|Griffon]] unieszkodliwia jego maszynę jednym uderzeniem; żołnierz pozostaje żywy, a [[isao-ota|Ota]] wzywa go do katapultowania się.
 }}
 
 {{menu gra=srw-oe

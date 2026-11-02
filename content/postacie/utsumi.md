@@ -18,6 +18,8 @@ utworzono: 2026-10-24
 Obserwator działający wspólnie z [[kurosaki|Kurosakim]] i [[badrinath-harchand|Budem]]. Po [[srw-oe-ep1-szalejacy-labor-powraca|walce na wielkim placu budowy]] nazywa ją wspaniałym wydarzeniem, bo pozwoliła zobaczyć Ingramy w akcji, nie tylko na monitorze.
 
 Zgadza się z Budem, że coraz lepsze ruchy maszyny [[noa-izumi|Noi]] wynikają z jej zaufania do jednostki. Narastające możliwości Drugiego Plutonu ocenia jako sprawę coraz bardziej interesującą.
+
+W biurze [[shaft-enterprises|Shaft Enterprises]] chwali osiągi [[griffon|Griffona]] po zniszczeniu plutonu wojskowych Laborów. Efektowność ataku traktuje jak reklamę, lekceważąc zastrzeżenia [[kurosaki|Kurosakiego]] co do zachowania [[badrinath-harchand|Buda]]. Podczas [[srw-oe-ep2-czarny-labor|walki na poligonie]] nakazuje pilotowi wrócić na statek: dalsze zagłuszanie grozi kłopotami, a dzisiejsze dane mają uczynić maszynę jeszcze silniejszą.
 }}
 
 {{zrodlo gra=wspolne
