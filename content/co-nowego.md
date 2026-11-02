@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-02 12:10
+
+- [[final-dancouga|Final Dancouga]]: dopisany rodowód formy — połączenie pięciu maszyn zespołu z dodatkowym skrzydłem bojowym, obecne w cyklu *Super Robot Wars*, a nie w serialu ani OVA *Dancougi*.
+
 ## 2026-11-02 11:47
 
 - Portrety pilotów [[cyber-beast-force|Cyber Beast Force]]: [[alan-igor|Alan Igor]], [[masato-shikibu|Masato Shikibu]], [[ryo-shiba|Ryo Shiba]], [[sara-yuki|Sara Yuki]] i [[shinobu-fujiwara|Shinobu Fujiwara]].
