@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-02 13:26
+
+- [[hss|HSS]]: rozwinięcie skrótu jako Holly Security Services i powiązanie z ochroną obiektów [[shaft-enterprises|Shaft Enterprises]] po wycofaniu [[brocken|Brockenów]].
+
 ## 2026-11-02 13:14
 
 - [[brocken|Brocken]]: pochodzenie uzupełnione o 40 mm działko jako standardowe uzbrojenie Type-7B oraz o historię maszyn ochrony Schaft Enterprises Japan, zanim przejęła ją [[hss|HSS]].
