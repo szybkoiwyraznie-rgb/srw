@@ -21,6 +21,19 @@ W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] błyskawicznie unieszkodliwia
 }}
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Griffon — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Griffon.png)
+
+### Ilustracja 2
+
+![Griffon — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Griffon%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Mobile Police Patlabor

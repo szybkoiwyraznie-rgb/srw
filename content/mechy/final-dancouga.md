@@ -21,6 +21,19 @@ Siła pokazu budzi respekt [[sv2|Drugiego Plutonu]], ale załoga podkreśla tak�
 }}
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Final Dancouga — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Final%20Dancouga.png)
+
+### Ilustracja 2
+
+![Final Dancouga — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Final%20Dancouga%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Super Beast Machine God Dancouga

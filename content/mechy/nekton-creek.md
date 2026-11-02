@@ -21,6 +21,19 @@ W [[srw-oe-ep2-ryk-dziczy|treningu na stacji Connect]] Nekton Creek występuje j
 }}
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Nekton Creek — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Nekton%20Creek.png)
+
+### Ilustracja 2
+
+![Nekton Creek — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Nekton%20Creek%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Super Robot Wars Original

@@ -21,6 +21,19 @@ Szarża odpycha przeciwnika, a działko ma premię do walki z celami powietrznym
 }}
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Brocken z działkiem automatycznym — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Brocken%20Dzia%C5%82ko.png)
+
+### Ilustracja 2
+
+![Brocken z działkiem automatycznym — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Brocken%20Dzia%C5%82ko%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Mobile Police Patlabor

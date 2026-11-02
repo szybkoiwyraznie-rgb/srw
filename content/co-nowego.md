@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-02 09:28
+
+- Po dwie ilustracje na stronach [[brocken-dzialko-automatyczne|Brockena z działkiem automatycznym]], [[final-dancouga|Final Dancougi]], [[griffon|Griffona]] i [[nekton-creek|Nekton Creek]].
+
 ## 2026-11-01 19:43
 
 - [[srw-oe-ep2|Epizod 2]]: [[srw-oe-ep2-ryk-dziczy|Ryk dziczy]] — wspólne ćwiczenia na stacji, hologramy [[mucus|Mucus]] i lekcja łączenia spokoju z zapałem. Pełne dialogi, analiza wszystkich etapów i warunkowej rozmowy przy krytycznych uszkodzeniach Exarta.

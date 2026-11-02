@@ -107,7 +107,7 @@ test('nowe umiejętności i bezpieczne powiązania nie ujawniają profilu Ally',
   }
   for (const slug of ['griffon', 'brocken-dzialko-automatyczne']) {
     assert.equal(bySlug.get(slug).seria, 'mobile-police-patlabor');
-    assert.doesNotMatch(bySlug.get(slug).body, /## Ilustracje|!\[/, 'brak wymyślonych ilustracji');
+    assert.equal((bySlug.get(slug).body.match(/^### Ilustracja \d+$/gm) ?? []).length, 2, 'dwie ilustracje z kolejnej dostawy');
   }
   assert.match(epizod.body, /### \[\[srw-oe-ep2-czarny-labor\|Misja 2: Czarny Labor\]\]/);
 });

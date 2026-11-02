@@ -269,11 +269,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 152 plików przy 115 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 160 plików przy 119 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 115);
-  assert.equal(Object.values(manifest.encje).flat().length, 152);
+  assert.equal(Object.keys(manifest.encje).length, 119);
+  assert.equal(Object.values(manifest.encje).flat().length, 160);
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   const portrety = wszystkie.filter((f) => f.startsWith('characters/')).length;
@@ -482,4 +482,26 @@ test('maszyny wsparcia White Base mają rodowód z pierwowzoru (ADR 0008)', () =
     assert.ok(page.zrodla.includes(adres), `${slug}: adres w frontmatterze`);
     assert.ok(blok[1].includes(adres), `${slug}: adres przy informacji`);
   }
+});
+
+
+test('ilustracje 2-2 i 2-3: osiem dokładnych kluczy R2 przy czterech właściwych jednostkach', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const dostawa = {
+    'brocken-dzialko-automatyczne': ['Brocken Działko.png', 'Brocken Działko 2.png'],
+    'final-dancouga': ['Final Dancouga.png', 'Final Dancouga 2.png'],
+    'griffon': ['Griffon.png', 'Griffon 2.png'],
+    'nekton-creek': ['Nekton Creek.png', 'Nekton Creek 2.png'],
+  };
+  for (const [slug, files] of Object.entries(dostawa)) {
+    assert.deepEqual(manifest.encje[slug], files);
+    const body = bySlug.get(slug).body;
+    assert.equal((body.match(/^## Ilustracje$/gm) ?? []).length, 1);
+    assert.equal((body.match(/^### Ilustracja \d+$/gm) ?? []).length, 2);
+    assert.ok(body.indexOf('## Ilustracje') < body.indexOf('## Parametry'));
+    for (const file of files) assert.ok(body.includes(`${manifest.baseUrl}/${encodeURIComponent(file)}`));
+  }
+  assert.deepEqual(manifest.encje.brocken, ['Brocken.png', 'Brocken 2.png']);
+  assert.equal(manifest.weryfikacjaZdalna, false);
+  assert.equal(manifest.dostarczono, '2026-11-02');
 });
