@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-02 12:38
+
+- [[brocken|Brocken/Melee]] otrzymuje oznaczenie rodzaju jednostki zgodne z jego opisem wojskowego [[labor|Labora]] i z [[brocken-dzialko-automatyczne|Brockenem z działkiem automatycznym]].
+
 ## 2026-11-02 12:26
 
 - [[griffon|Griffon]]: dopisany pierwowzór maszyny — eksperymentalny [[labor|Labor]] walki wręcz zbudowany przez Schaft Enterprises Japan, z turbiną gazową, skrzydłami z dopalaczami i systemem ASURA; odnotowany też zapis nazwy firmy w źródłach.
