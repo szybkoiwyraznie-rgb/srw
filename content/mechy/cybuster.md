@@ -61,7 +61,7 @@ Cybuster to maszyna pilotowana przez [[masaki-andoh|Masakiego Andoh]]. Może prz
 
 {{zrodlo gra=wspolne
 
-## Pochodzenie
+## Pierwowzór
 
 Cybuster był pierwszym oryginalnym mechem Banpresto i zadebiutował w *Super Robot Wars 2*. Wcześniejszą maszyną [[masaki-andoh|Masakiego Andoh]] był Jaohm ([Akurasu, „Masaki Andoh”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
 }}
