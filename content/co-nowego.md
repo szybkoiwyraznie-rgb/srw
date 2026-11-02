@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-02 13:14
+
+- [[brocken|Brocken]]: pochodzenie uzupełnione o 40 mm działko jako standardowe uzbrojenie Type-7B oraz o historię maszyn ochrony Schaft Enterprises Japan, zanim przejęła ją [[hss|HSS]].
+- [[brocken-dzialko-automatyczne|Brocken/Działko automatyczne]]: dopisany pierwowzór — działko jest standardowym uzbrojeniem załogowego Type-7B, a bezzałogowy wariant z [[control-ai|Control AI]] należy do gry.
+
 ## 2026-11-02 12:52
 
 - [[shaft-enterprises|Shaft Enterprises]]: dopisany pierwowzór firmy — tokijski koncern, który wszedł w branżę [[labor|Laborów]] od elektroniki i konkuruje z [[shinohara-heavy-industries|Shinohara Heavy Industries]]; odnotowany zapis nazwy w źródłach.

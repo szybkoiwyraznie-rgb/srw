@@ -10,6 +10,7 @@ w_gre:
 pochodzenie: menu
 zrodla:
   - https://patlabor.fandom.com/wiki/Military_labor_type_7B_%22Brocken%22
+  - https://patlabor.fandom.com/wiki/Type-7B_Brocken
 tagi: [patlabor, labor, bezzalogowy]
 utworzono: 2026-10-19
 ---
@@ -60,7 +61,9 @@ W [[srw-oe-ep2-czarny-labor|zasadzce na poligonie]] bezzałogowe Brockeny/Melee 
 
 ## Pochodzenie
 
-Brocken (Type-7B) to wojskowy Labor opracowany przez Schaft Enterprises Europe dla armii RFN i NATO. W 1998 roku powstał wariant Type-7B/2B, ceniony za siłę i opancerzenie ([Patlabor Wiki, „Military labor type 7B Brocken”](https://patlabor.fandom.com/wiki/Military_labor_type_7B_%22Brocken%22); sprawdzono 2026-10-19).
+Brocken (Type-7B) to wojskowy [[labor|Labor]] opracowany przez Schaft Enterprises Europe dla armii RFN i NATO. W 1998 roku powstał wariant Type-7B/2B, ceniony za siłę i opancerzenie, a jego standardowe uzbrojenie stanowi 40 mm szybkostrzelne działko — to samo, które w grze nosi wariant [[brocken-dzialko-automatyczne|Brocken/Działko automatyczne]] ([Patlabor Wiki, „Military labor type 7B Brocken”](https://patlabor.fandom.com/wiki/Military_labor_type_7B_%22Brocken%22); sprawdzono 2026-10-19).
+
+Schaft Enterprises Japan korzystał z Brockenów jako maszyn ochrony, dopóki nie przejęła tej roli firma ochroniarska Holly Security Services — w grze występująca jako [[hss|HSS]] ([Patlabor Wiki, „Type-7B Brocken”](https://patlabor.fandom.com/wiki/Type-7B_Brocken); sprawdzono 2026-11-02).
 }}
 {{menu gra=srw-oe
 
