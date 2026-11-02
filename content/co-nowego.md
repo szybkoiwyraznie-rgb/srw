@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-02 12:26
+
+- [[griffon|Griffon]]: dopisany pierwowzór maszyny — eksperymentalny [[labor|Labor]] walki wręcz zbudowany przez Schaft Enterprises Japan, z turbiną gazową, skrzydłami z dopalaczami i systemem ASURA; odnotowany też zapis nazwy firmy w źródłach.
+
 ## 2026-11-02 12:10
 
 - [[final-dancouga|Final Dancouga]]: dopisany rodowód formy — połączenie pięciu maszyn zespołu z dodatkowym skrzydłem bojowym, obecne w cyklu *Super Robot Wars*, a nie w serialu ani OVA *Dancougi*.
