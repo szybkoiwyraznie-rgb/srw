@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-02 12:52
+
+- [[shaft-enterprises|Shaft Enterprises]]: dopisany pierwowzór firmy — tokijski koncern, który wszedł w branżę [[labor|Laborów]] od elektroniki i konkuruje z [[shinohara-heavy-industries|Shinohara Heavy Industries]]; odnotowany zapis nazwy w źródłach.
+
 ## 2026-11-02 12:38
 
 - [[brocken|Brocken/Melee]] otrzymuje oznaczenie rodzaju jednostki zgodne z jego opisem wojskowego [[labor|Labora]] i z [[brocken-dzialko-automatyczne|Brockenem z działkiem automatycznym]].
