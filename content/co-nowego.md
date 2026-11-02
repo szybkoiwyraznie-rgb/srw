@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-02 13:47
+
+- Czworo pilotów Dancougi — [[ryo-shiba|Ryo Shiba]], [[sara-yuki|Sara Yuki]], [[masato-shikibu|Masato Shikibu]] i [[shinobu-fujiwara|Shinobu Fujiwara]] — ma dopisany pierwowzór: który ze zwierzęcych pojazdów zespołu prowadzi każdy z nich i jaką część połączonego robota z niego zbudowano.
+
 ## 2026-11-02 13:26
 
 - [[hss|HSS]]: rozwinięcie skrótu jako Holly Security Services i powiązanie z ochroną obiektów [[shaft-enterprises|Shaft Enterprises]] po wycofaniu [[brocken|Brockenów]].
