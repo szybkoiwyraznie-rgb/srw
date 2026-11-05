@@ -59,7 +59,7 @@ Gdy [[mquve|M'Quve]] odpala [[h-bomb-missile|pocisk termojądrowy]], Bright wyko
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
-
+| 2 | **Dow. Cel/Unik** | 3 | Zasięg 3 - sojusznicy: Cel/Unik+4% |
 }}
 {{zrodlo gra=wspolne
 

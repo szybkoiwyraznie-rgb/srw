@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-05 19:05
+
+- [[srw-oe-ep2-bitwa-o-jaburo|Bitwa o Jaburo]]: nowa scena drugiego epizodu — desant [[zeon|Zeonu]] na [[jaburo|Jaburo]] odpiera załoga [[white-base|White Base]] razem z 08. Plutonem MS, a [[char-aznable|Char Aznable]] prowadzi rozpoznanie portu kosmicznego.
+- Sześciu pilotom przybywa drugi wpis w tabelach: [[amuro-ray|Amuro Ray]] dostaje komendę ducha *Przebł.*, a [[kai-shiden|Kai Shiden]], [[hayato-kobayashi|Hayato Kobayashi]], [[bright-noa|Bright Noa]], [[sayla-mass|Sayla Mass]] i [[char-aznable|Char Aznable]] — drugą umiejętność pilota.
+
 ## 2026-11-05 17:54
 
 - [[zanzibar|Zanzibar]] wchodzi do bazy: okręt desantowy [[zeon|Zeonu]], którym w desancie na [[jaburo|Jaburo]] dowodzi [[oficer-zeonu|Oficer Zeonu]].
