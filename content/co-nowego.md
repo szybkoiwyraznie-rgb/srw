@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-05 17:54
+
+- [[zanzibar|Zanzibar]] wchodzi do bazy: okręt desantowy [[zeon|Zeonu]], którym w desancie na [[jaburo|Jaburo]] dowodzi [[oficer-zeonu|Oficer Zeonu]].
+
 ## 2026-11-02 13:47
 
 - Czworo pilotów Dancougi — [[ryo-shiba|Ryo Shiba]], [[sara-yuki|Sara Yuki]], [[masato-shikibu|Masato Shikibu]] i [[shinobu-fujiwara|Shinobu Fujiwara]] — ma dopisany pierwowzór: który ze zwierzęcych pojazdów zespołu prowadzi każdy z nich i jaką część połączonego robota z niego zbudowano.

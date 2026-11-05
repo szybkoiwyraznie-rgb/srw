@@ -269,11 +269,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 165 plików przy 124 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 166 plików przy 125 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 124);
-  assert.equal(Object.values(manifest.encje).flat().length, 165);
+  assert.equal(Object.keys(manifest.encje).length, 125);
+  assert.equal(Object.values(manifest.encje).flat().length, 166);
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   const portrety = wszystkie.filter((f) => f.startsWith('characters/')).length;
@@ -503,7 +503,7 @@ test('ilustracje 2-2 i 2-3: osiem dokładnych kluczy R2 przy czterech właściwy
   }
   assert.deepEqual(manifest.encje.brocken, ['Brocken.png', 'Brocken 2.png']);
   assert.equal(manifest.weryfikacjaZdalna, false);
-  assert.equal(manifest.dostarczono, '2026-11-02');
+  assert.equal(manifest.dostarczono, '2026-11-05');
 });
 
 
