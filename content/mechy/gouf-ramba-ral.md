@@ -24,6 +24,19 @@ Blok tarczą zwiększa ochronę, gdy maszyna broni się zamiast atakować, a Hea
 }}
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Gouf (Ramba Ral) — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Gouf.png)
+
+### Ilustracja 2
+
+![Gouf (Ramba Ral) — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Gouf%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Mobile Suit Gundam

@@ -25,6 +25,15 @@ Jako pierwsza zauważa, że [[ginias-sahalin|Ginias]] jest chory, i pyta wprost,
 }}
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Crowley Hamon — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Crowley%20Hamon.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Hamon

@@ -23,6 +23,15 @@ Podobnie jak towarzysz nie wytrwa do końca: melduje ciężkie uszkodzenia maszy
 }}
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Cozun Graham — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Cozun%20Graham.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Cozun

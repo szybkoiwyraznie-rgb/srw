@@ -4,6 +4,7 @@
 
 - [[srw-oe-ep2-szturm-apsalusa|Szturm Apsalusa]]: piąta scena drugiego epizodu — [[apsalus-iii|Apsalus III]] [[ginias-sahalin|Giniasa Sahalina]] uderza na [[jaburo|Jaburo]], a obrońcy zatrzymują maszynę kosztem wyboru, którego [[shiro-amada|Shiro]] nie chciał dokonać. [[white-base|White Base]] dostaje od [[general-revil|generała Revila]] rozkaz dywersji i wylatuje w kosmos.
 - Nowe strony: [[apsalus-iii|Apsalus III]], [[gouf-ramba-ral|Gouf Ramby Rala]], [[ginias-sahalin|Ginias Sahalin]], [[ramba-ral|Ramba Ral]], [[crowley-hamon|Crowley Hamon]], [[acous|Acous]] i [[cozun-graham|Cozun Graham]].
+- Nowe strony mają ilustracje: Apsalus III, dwa ujęcia Goufa Ramby Rala oraz portrety Giniasa Sahalina, Ramby Rala, Crowley Hamon, Acousa i Cozuna Grahama.
 - Siedmiu pilotom przybywa drugi wpis w tabelach komend: [[bright-noa|Bright Noa]], [[shiro-amada|Shiro Amada]], [[terry-sanders-jr|Terry Sanders Jr.]], [[karen-joshua|Karen Joshua]], [[michel-ninorich|Michel Ninorich]], [[mirai-yashima|Mirai Yashima]] i [[eledore-massis|Eledore Massis]].
 
 ## 2026-11-07 09:35

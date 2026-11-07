@@ -25,6 +25,15 @@ Wyprowadza do walki własny oddział: [[acous|Acousa]] i [[cozun-graham|Cozuna]]
 }}
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Ramba Ral — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Ramba%20Ral.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 | Parametr | Wartość bazowa |

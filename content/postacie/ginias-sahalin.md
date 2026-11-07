@@ -24,6 +24,15 @@ Na wieść o wymarszu Apsalusa przybywa do niego [[ramba-ral|Ramba Ral]]; Ginias
 }}
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Ginias Sahalin — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Ginias%20Sahalin.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Ginias
