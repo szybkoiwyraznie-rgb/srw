@@ -3,6 +3,7 @@
 ## 2026-11-07 21:55
 
 - [[srw-oe-ep2-przebicie-sila|Przebicie się siłą]]: doprecyzowane odcinki pierwowzoru. Pościg [[zanzibar|Zanzibara]] nad Ziemią to trzydziesty pierwszy odcinek serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] („A Decoy in Space”, 3 listopada 1979), a starcie z krążownikami [[dren|Drena]] — trzydziesty drugi („Breakthrough”, 10 listopada 1979). Tabela wątków epizodu 2 podaje teraz te same numery co reszta bazy.
+- [[minovsky-particles|Cząstki Minovsky’ego]]: hasło rozwinięte o to, skąd się wzięły i co z nich wynika. Reaktor z [[side-3|Side 3]], siatka gasząca radar i radio, a z niej dwie rzeczy widoczne na każdym polu bitwy — [[mobile-suit|mobile suit]] jako broń do walki na odległość wzroku i działa megacząsteczkowe [[musai|Musai]] oraz [[apsalus-iii|Apsalusa III]]. Ta sama fizyka unosi [[white-base|White Base]] nad ziemią.
 
 ## 2026-11-07 09:51
 
