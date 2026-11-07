@@ -26,6 +26,7 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Seishiro po 
 
 W [[srw-oe-ep2-ryk-dziczy|„Ryku dziczy”]] piloci ćwiczą na stacji razem z [[cyber-beast-force|Cyber Beast Force]]. Connect współpracuje z działem konstrukcyjnym tego oddziału przy badaniach nowych materiałów i oprogramowaniu. Po treningu załoga Dancougi wraca do bazy, a piloci Connect czekają na przybycie [[13-samodzielny-oddzial|13. Samodzielnego Oddziału Federacji]]. Oficjalne dołączenie Cyber Beast Force jest dopiero zapowiedziane.
 
+W [[srw-oe-ep2-szturm-apsalusa|„Szturmie Apsalusa”]] wychodzi na jaw, że [[earth-federation|Federacja]] zamierza przekazać Connect Force więcej sił: [[general-revil|generał Revil]] wyznacza [[white-base|White Base]] zadanie przynęty, po którym okręt ma po zgubieniu pościgu połączyć się z formacją.
 }}
 {{zrodlo gra=srw-oe
 

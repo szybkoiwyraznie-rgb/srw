@@ -126,7 +126,10 @@ test('trening nie ujawnia przyszłych losów ani fikcyjnych danych osób z dodat
   for (const slug of ['asuma-shinohara', 'mikiyasu-shinshi', 'hiromi-yamazaki', 'kiichi-goto', 'suol', 'komendant-igor', 'general-takeda']) {
     assert.doesNotMatch(bySlug.get(slug).body, /## Parametry/);
   }
-  assert.match(bySlug.get('13-samodzielny-oddzial').body, /czekając na przybycie/);
-  assert.doesNotMatch(bySlug.get('13-samodzielny-oddzial').body, /white-base|Amuro|Bright/);
+  const trzynasty = bySlug.get('13-samodzielny-oddzial').body;
+  assert.match(trzynasty, /czekając na przybycie/);
+  // Od misji 2-5 wiadomo, że oddziałem jest White Base — dalsze losy zostają zapowiedzią.
+  assert.match(trzynasty, /\[\[white-base\|White Base\]\]/);
+  assert.doesNotMatch(trzynasty, /A Baoa Qu|Solar Ray|Kolonia Axis|śmierć/);
   assert.match(episode.body, /Misja 3: Ryk dziczy/);
 });

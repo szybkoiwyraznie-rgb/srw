@@ -7,7 +7,7 @@ numer_sceny: "2-5"
 streszczenie: "Piąta misja epizodu 2: [[general-revil|generał Revil]] wyznacza [[white-base|White Base]] rolę przynęty przed ofensywą w kosmosie, a na [[jaburo|Jaburo]] rusza [[apsalus-iii|Apsalus III]] [[ginias-sahalin|Giniasa Sahalina]] w osłonie [[ramba-ral|Ramby Rala]]. Obrońcy zatrzymują mobile armor kosztem osobistego wyboru [[shiro-amada|Shiro]], a epizod kończy się startem okrętu w kosmos."
 postacie: [bright-noa, general-revil, shiro-amada, karen-joshua, amuro-ray, terry-sanders-jr, mirai-yashima, eledore-massis, michel-ninorich, hayato-kobayashi, kai-shiden, sayla-mass, fraw-bow, marker, oscar-dublin, ginias-sahalin, ramba-ral, crowley-hamon, acous, cozun-graham, char-aznable, zolnierz-zeonu]
 mechy: [white-base, g-fighter, guncannon, rx-78-2-gundam, gundam-ez8, gundam-ground-type, gundam-ground-type-glowa-gm, guntank, hover-truck, rx-78nt-1-gundam-alex, apsalus-iii, gouf-ramba-ral, dom-zolnierz-zeonu, zaku-ii-kai, zaku-ii-karabin-maszynowy, zanzibar]
-pojecia: [jaburo, zeon, earth-federation, mobile-suit, connect-force, 13-samodzielny-oddzial, operacja-odessa, uc-0079]
+pojecia: [jaburo, zeon, earth-federation, mobile-suit, mobile-armor, connect-force, 13-samodzielny-oddzial, operacja-odessa, uc-0079]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Apsaras_III
