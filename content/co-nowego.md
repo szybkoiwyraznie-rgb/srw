@@ -13,6 +13,7 @@
 - W pierwowzorze [[alan-igor|Alan Igor]] jest Czarnym Rycerzem, który sprzeciwia się ojcu, [[komendant-igor|generałowi Rossowi Igorowi]], i zbiera własny elitarny korpus zamiast latać z [[cyber-beast-force|Cyber Beast Force]]. Jego maszyna, zbudowana poza warsztatem profesora Hazukiego, nie ma bariery otwieranej gniewem. W grze obaj Igorowie są po tej samej stronie, a Alan ręczy za zespół przed gospodarzami ćwiczeń.
 - [[hss|HSS]] okazuje się fasadą [[shaft-enterprises|Schafta]]. W pierwowzorze ta sama firma ochroniarska wystawia przeciw [[sily-samoobrony-japonii|Siłom Samoobrony]] Labora przerobionego z zakładowego prototypu, a [[kurosaki|Kurosaki]] zjawia się przy tym jako jej negocjator — co daje mu alibi na czas prób czarnego Labora. W grze układ się powtarza: HSS pilnuje poligonu, na którym giną wojskowe maszyny.
 - Poprawka w [[srw-oe-ep1-szalejacy-labor-powraca|„Szalejącym Laborze powraca”]]: w dwudziestym ósmym odcinku *Patlabora* debiutują tylko [[utsumi|Utsumi]] i [[badrinath-harchand|Bud]], i to w salonie gier, a nie cała trójka na placu budowy. [[kurosaki|Kurosaki]] pokazał się już osiem odcinków wcześniej.
+- [[shaft-enterprises|Schaft]] rzadko działa pod własnym szyldem: raz podstawia firmę, która wypożycza policji prototyp, raz ochroniarzy pilnujących poligonu, a za każdym razem chodzi o dane o ruchach cudzych maszyn. Projekt [[griffon|Griffona]] idzie dalej i poluje już na dysk ruchu [[ingram-nr-1|Ingrama]] — dlatego starcie na poligonie [[utsumi|Utsumi]] przerywa wtedy, gdy ma dość pomiarów, a nie gdy przegrywa.
 
 ## 2026-11-07 09:51
 
