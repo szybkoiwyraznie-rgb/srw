@@ -21,5 +21,5 @@ Char wzywa flotę, gdy orientuje się, że [[white-base|White Base]] jest przyn�
 }}
 {{zrodlo gra=wspolne
 
-W serialu nazwę *Camel* nosi krążownik Musai, którym po awansie dowodzi Dren, patrolujący zeonowskie terytorium kosmiczne ([Gundam Wiki, „Dren”](https://gundam.fandom.com/wiki/Dren); sprawdzono 2026-11-07). Nazwa i skład floty w tej misji należą do scenariusza gry.
+W serialu [[dren|Dren]] dowodzi Patrolową Flotą Camel, złożoną z trzech krążowników [[musai|Musai]] i [[rick-dom|Rick Domów]]. Nazwę *Camel* nosi również jego własny krążownik ([Gundam Wiki, „Dren”](https://gundam.fandom.com/wiki/Dren); sprawdzono 2026-11-07).
 }}

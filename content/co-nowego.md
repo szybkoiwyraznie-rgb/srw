@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-07 21:35
+
+- [[patrolowa-flota-camel|Patrolowa Flota Camel]]: poprawiono opis jej nazwy i składu w serialowym pierwowzorze.
+
 ## 2026-11-07 21:20
 
 - [[musai|Musai]]: doprecyzowano działanie małych rakiet oraz premię dużych rakiet i działa przeciw okrętom.
