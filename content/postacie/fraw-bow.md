@@ -31,5 +31,5 @@ Po walce z [[black-tri-stars|Black Tri-Stars]] przynosi [[amuro-ray|Amurowi]] i 
 }}
 {{zrodlo gra=wspolne
 
-Fraw Bow jest postacią serialu *Mobile Suit Gundam* z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
+Fraw Bow jest postacią serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
 }}

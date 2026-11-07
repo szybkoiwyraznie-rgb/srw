@@ -20,5 +20,5 @@ Celem szturmu jest powstrzymanie startu wahadłowca z [[rx-78nt-1-gundam-alex|Al
 }}
 {{zrodlo gra=wspolne
 
-W pierwszym odcinku *Mobile Suit Gundam 0080* Cyclops atakuje bazę na obszarze arktycznym: Steiner pilotuje Z’Gok-E, a Misza, Garcia i Andy — Hygoggy. Bazę bronią GM-y Cold Districts Type, nie maszyny 08. Plutonu MS ([MAHQ, „Gundam 0080 Ep. 1: How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); [Gundam Wiki, „Cyclops Team”](https://gundam.fandom.com/wiki/Cyclops_Team); sprawdzono 2026-10-23).
+W pierwszym odcinku [[mobile-suit-gundam-0080|*Mobile Suit Gundam 0080*]] Cyclops atakuje bazę na obszarze arktycznym: Steiner pilotuje Z’Gok-E, a Misza, Garcia i Andy — Hygoggy. Bazę bronią GM-y Cold Districts Type, nie maszyny 08. Plutonu MS ([MAHQ, „Gundam 0080 Ep. 1: How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); [Gundam Wiki, „Cyclops Team”](https://gundam.fandom.com/wiki/Cyclops_Team); sprawdzono 2026-10-23).
 }}

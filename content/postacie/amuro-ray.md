@@ -64,5 +64,5 @@ W finale [[operacja-odessa|operacji Odessa]] otrzymuje od [[bright-noa|Brighta]]
 }}
 {{zrodlo gra=wspolne
 
-Amuro Ray jest bohaterem serialu *Mobile Suit Gundam* z 1979 roku i pilotem RX-78-2 Gundama ([Wikipedia, „Amuro Ray”](https://en.wikipedia.org/wiki/Amuro_Ray); sprawdzono 2026-10-20).
+Amuro Ray jest bohaterem serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku i pilotem RX-78-2 Gundama ([Wikipedia, „Amuro Ray”](https://en.wikipedia.org/wiki/Amuro_Ray); sprawdzono 2026-10-20).
 }}

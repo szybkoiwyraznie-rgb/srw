@@ -64,5 +64,5 @@ Gdy [[mquve|M'Quve]] odpala [[h-bomb-missile|pocisk termojądrowy]], Bright wyko
 }}
 {{zrodlo gra=wspolne
 
-Bright Noa jest oficerem Federacji Ziemskiej na pokładzie White Base w *Mobile Suit Gundam* z 1979 roku ([Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-10-20).
+Bright Noa jest oficerem Federacji Ziemskiej na pokładzie White Base w [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-10-20).
 }}

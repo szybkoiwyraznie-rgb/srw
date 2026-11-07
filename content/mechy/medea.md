@@ -25,7 +25,7 @@ W [[srw-oe-ep1-ratuj-transportowiec-medea|misji „Ratuj transportowiec Medea”
 
 ## Pierwowzór
 
-Medea to wojskowy samolot transportowy Sił Zbrojnych [[earth-federation|Federacji Ziemskiej]], wprowadzony w anime *Mobile Suit Gundam* ([The Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24).
+Medea to wojskowy samolot transportowy Sił Zbrojnych [[earth-federation|Federacji Ziemskiej]], wprowadzony w anime [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] ([The Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24).
 
 Wielki, odłączany kontener pod kadłubem skracał załadunek i rozładunek. Wirniki VTOL pozwalały startować i lądować bez pasa startowego, a niskociśnieniowe opony umożliwiały lądowanie na nierównym podłożu. Medea przewoziła zaopatrzenie i mobile suity, a jej uzbrojenie stanowiły dwa przeciwlotnicze karabiny maszynowe ([MAHQ, „Medea”](https://www.mahq.net/medea/); [The Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24).
 }}

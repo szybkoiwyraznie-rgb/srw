@@ -61,5 +61,5 @@ Gdy pojawia się groźba bomby wodorowej, Sayla pyta, czy [[h-bomb-missile|pocis
 }}
 {{zrodlo gra=wspolne
 
-Sayla Mass jest postacią serialu *Mobile Suit Gundam* z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
+Sayla Mass jest postacią serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
 }}

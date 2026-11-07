@@ -20,5 +20,5 @@ Ujawnione w ramach porozumienia dane konstrukcyjne pozwalają [[bright-noa|Brigh
 
 {{zrodlo gra=wspolne
 
-Traktat Antarktyczny podpisano między Federacją Ziemską a Księstwem Zeonu 31 stycznia U.C. 0079. Zakazywał użycia broni jądrowej, biologicznej i chemicznej, broni masowej takiej jak zrzucane kolonie, ataków na strefy neutralne oraz nieludzkiego traktowania jeńców. Plany broni jądrowej zostały upublicznione ([Gundam Wiki, „Antarctic Treaty”](https://gundam.fandom.com/wiki/Antarctic_Treaty); sprawdzono 2026-10-22).
+Traktat Antarktyczny podpisano między Federacją Ziemską a Księstwem Zeonu 31 stycznia [[uc-0079|U.C. 0079]]. Zakazywał użycia broni jądrowej, biologicznej i chemicznej, broni masowej takiej jak zrzucane kolonie, ataków na strefy neutralne oraz nieludzkiego traktowania jeńców. Plany broni jądrowej zostały upublicznione ([Gundam Wiki, „Antarctic Treaty”](https://gundam.fandom.com/wiki/Antarctic_Treaty); sprawdzono 2026-10-22).
 }}

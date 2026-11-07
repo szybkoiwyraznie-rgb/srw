@@ -26,7 +26,7 @@ Po stronie [[zeon|Zeonu]] serię reprezentuje ród Sahalinów: [[ginias-sahalin|
 }}
 {{zrodlo gra=wspolne
 
-*Mobile Suit Gundam: The 08th MS Team* (機動戦士ガンダム 第08MS小隊) to 12-odcinkowa seria OVA studia Sunrise, wydawana od 25 stycznia 1996 do 25 lipca 1999 roku. Jej akcja toczy się w U.C. 0079 w Azji Południowo-Wschodniej i koncentruje się na naziemnym oddziale Federacji dowodzonym przez Shiro Amadę ([Wikipedia, *Mobile Suit Gundam: The 08th MS Team*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
+*Mobile Suit Gundam: The 08th MS Team* (機動戦士ガンダム 第08MS小隊) to 12-odcinkowa seria OVA studia Sunrise, wydawana od 25 stycznia 1996 do 25 lipca 1999 roku. Jej akcja toczy się w [[uc-0079|U.C. 0079]] w Azji Południowo-Wschodniej i koncentruje się na naziemnym oddziale Federacji dowodzonym przez Shiro Amadę ([Wikipedia, *Mobile Suit Gundam: The 08th MS Team*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
 
 W serialu Eledore prowadzi wóz wsparcia, a Michel jest jego nawigatorem i celowniczym. W grze Michel ma rolę głównego pilota, a Eledore — pilota wspierającego (tamże).
 }}

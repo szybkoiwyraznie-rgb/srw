@@ -18,7 +18,7 @@ utworzono: 2026-11-07
 
 ## Opis
 
-Mobile armor [[zeon|Zeonu]], który [[ginias-sahalin|Ginias Sahalin]] osobiście prowadzi do ataku na [[jaburo|Jaburo]]. To maszyna zbudowana wokół działa megacząsteczkowego: rozpraszające działo megacząsteczkowe pozwala razić kilku wrogów naraz, a duże działo megacząsteczkowe sięga na osiem pól i przebija skałę bazy.
+[[mobile-armor|Mobile armor]] [[zeon|Zeonu]], który [[ginias-sahalin|Ginias Sahalin]] osobiście prowadzi do ataku na [[jaburo|Jaburo]]. To maszyna zbudowana wokół działa megacząsteczkowego: rozpraszające działo megacząsteczkowe pozwala razić kilku wrogów naraz, a duże działo megacząsteczkowe sięga na osiem pól i przebija skałę bazy.
 
 Konstrukcja jest ciężka i odporna — wzmocniony pancerz i stabilizacja pozwalają przetrwać ostrzał, zanim działo zdąży wystrzelić. Gra odtwarza to jako zdolności „Niewzrusz.” i „Ciężki panc.”, a oba działa megacząsteczkowe jako ataki obszarowe.
 

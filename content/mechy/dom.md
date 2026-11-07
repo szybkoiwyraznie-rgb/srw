@@ -59,5 +59,5 @@ Maszyna nie ma własnych zdolności macierzystych. Nie wyklucza to efektów grup
 
 {{zrodlo gra=wspolne
 
-MS-09 Dom to ciężki mobile suit do walki lądowej z *Mobile Suit Gundam*. W październiku U.C. 0079 [[black-tri-stars|Black Tri-Stars]] otrzymali trzy Domy od pułkownika [[mquve|M'Quve'a]] przed operacją Odessa ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-22).
+MS-09 Dom to ciężki mobile suit do walki lądowej z *Mobile Suit Gundam*. W październiku [[uc-0079|U.C. 0079]] [[black-tri-stars|Black Tri-Stars]] otrzymali trzy Domy od pułkownika [[mquve|M'Quve'a]] przed operacją Odessa ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-22).
 }}

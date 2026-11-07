@@ -21,5 +21,5 @@ Następnie odpowiada na wezwanie klucza [[medea|Medei]] i osłania go przed atak
 }}
 {{zrodlo gra=wspolne
 
-W *Mobile Suit Gundam: The 08th MS Team* jest to naziemny oddział Federacji stacjonujący w Azji Południowo-Wschodniej. Shiro obejmuje dowodzenie, Karen i Sanders są doświadczonymi pilotami, Eledore prowadzi wóz wsparcia, a Michel pełni funkcję nawigatora i celowniczego ([Wikipedia, *Mobile Suit Gundam: The 08th MS Team*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
+W [[mobile-suit-gundam-08th-ms-team|*Mobile Suit Gundam: The 08th MS Team*]] jest to naziemny oddział Federacji stacjonujący w Azji Południowo-Wschodniej. Shiro obejmuje dowodzenie, Karen i Sanders są doświadczonymi pilotami, Eledore prowadzi wóz wsparcia, a Michel pełni funkcję nawigatora i celowniczego ([Wikipedia, *Mobile Suit Gundam: The 08th MS Team*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
 }}

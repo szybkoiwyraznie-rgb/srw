@@ -21,5 +21,5 @@ Gdy obrona zostaje przełamana, M'Quve grozi użyciem [[h-bomb-missile|pocisku t
 }}
 {{zrodlo gra=wspolne
 
-Operacja Odessa była kontrofensywą Sił Federacji Ziemskiej przeciw oddziałom Zeonu na północnym wybrzeżu Morza Czarnego w U.C. 0079 — największą bitwą lądową tej wojny i punktem zwrotnym, który wypchnął znaczną część sił Zeonu z Ziemi. [[mquve|M'Quve]], podległy Kycilii Zabi, kierował tam wydobyciem surowców dla Zeonu, a celem Federacji było odbicie kopalń i odcięcie przeciwnikowi zaopatrzenia ([Gundam Wiki, „Operation Odessa”](https://gundam.fandom.com/wiki/Operation_Odessa); sprawdzono 2026-10-22).
+Operacja Odessa była kontrofensywą Sił Federacji Ziemskiej przeciw oddziałom Zeonu na północnym wybrzeżu Morza Czarnego w [[uc-0079|U.C. 0079]] — największą bitwą lądową tej wojny i punktem zwrotnym, który wypchnął znaczną część sił Zeonu z Ziemi. [[mquve|M'Quve]], podległy Kycilii Zabi, kierował tam wydobyciem surowców dla Zeonu, a celem Federacji było odbicie kopalń i odcięcie przeciwnikowi zaopatrzenia ([Gundam Wiki, „Operation Odessa”](https://gundam.fandom.com/wiki/Operation_Odessa); sprawdzono 2026-10-22).
 }}

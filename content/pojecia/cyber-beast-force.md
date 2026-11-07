@@ -17,7 +17,7 @@ Niezależny oddział powołany do walki z [[muge-empire|Imperium Muge Zorbados]]
 
 W jego skład wchodzą [[shinobu-fujiwara|Shinobu Fujiwara]], [[sara-yuki|Sara Yuki]], [[ryo-shiba|Ryo Shiba]], [[masato-shikibu|Masato Shikibu]] i [[alan-igor|Alan Igor]], wspólnie prowadzący [[final-dancouga|Final Dancougę]]. Oddział współpracuje z Connect także przy badaniach materiałów i tworzeniu oprogramowania.
 
-Podczas [[srw-oe-ep2-ryk-dziczy|wspólnych ćwiczeń]] poznaje Drugi Pluton SV2 i pokazuje Seishirowi znaczenie zapału oraz umiejętności pilota. Po treningu wraca do bazy na regulację Dancougi. Oficjalne dołączenie do Connect Force pozostaje zapowiedzią.
+Podczas [[srw-oe-ep2-ryk-dziczy|wspólnych ćwiczeń]] poznaje Drugi Pluton SV2 i pokazuje Seishirowi znaczenie zapału oraz umiejętności pilota. Po treningu wraca do bazy na regulację Dancougi. Oficjalne dołączenie do [[connect-force|Connect Force]] pozostaje zapowiedzią.
 }}
 {{zrodlo gra=wspolne
 
