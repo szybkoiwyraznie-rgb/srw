@@ -17,31 +17,37 @@ const scene = bySlug.get('srw-oe-ep2-bitwa-o-jaburo');
 const episode = bySlug.get('srw-oe-ep2');
 
 test('dostawa 2-4 zachowuje wszystkie bajty, a skrypt jest dopisany dokładnie raz', () => {
-  assert.equal(bytes.length, 44893);
+  assert.equal(bytes.length, 45504);
   assert.equal(createHash('sha256').update(bytes).digest('hex'),
-    'a8043d199bf2d7f23fb5bc4194bbb6e92b2a432e6401b5d0f62b6906bf913ee6');
+    'b6fd34dcbe1ca960e302000bb1d459951ffb24d911cd257d47308b79daceddca');
   assert.ok(archive.includes(script + '\n'));
   assert.equal(archive.split(script).length - 1, 1, 'skrypt misji 2-4 występuje w archiwum raz');
   assert.equal((archive.match(/^## Bitwa o Jaburo$/gm) ?? []).length, 1);
   assert.ok(archive.includes('## Ryk dziczy'), 'wcześniejsze misje zostają w archiwum');
   assert.doesNotMatch(archive, /UCZESTNICY|Entry ID|DL102_40|eventP01/);
   assert.ok(fs.existsSync('dostawy/srw-oe/epizod-2-misja-4-pl.md'));
+  assert.ok(script.trimEnd().endsWith('Federacji...'), 'narracja zamyka skrypt misji');
 });
 
-test('scena 2-4 cytuje trzynaście bloków skryptu i ma tyle samo kotwic analizy', async () => {
+test('scena 2-4 cytuje czternaście bloków skryptu i ma tyle samo kotwic analizy', async () => {
   assert.equal(scene.numer_sceny, '2-4');
   assert.equal(scene.epizod, 'srw-oe-ep2');
   assert.deepEqual(sprawdzWiernoscSceny(scene, archive), []);
   const blocks = [...scene.body.matchAll(/:::skrypt\n([\s\S]*?)\n:::/g)].map((m) => m[1]);
-  assert.equal(blocks.length, 13);
+  assert.equal(blocks.length, 14);
   assert.equal(blocks.join('\n\n'), script);
-  assert.equal(scene.sekcje_analizy.length, 13);
+  assert.equal(scene.sekcje_analizy.length, 14);
   globalThis.SRW_DATA = await zbudujDane();
   const { renderScena } = await import('../src/srw/render-scene.js');
-  assert.equal((renderScena(scene.slug).match(/class="skok-do-tresci"/g) ?? []).length, 13);
-  for (const tytul of ['White Base / Mostek', 'Desant Zeonu', 'Atak odparty']) {
+  assert.equal((renderScena(scene.slug).match(/class="skok-do-tresci"/g) ?? []).length, 14);
+  for (const tytul of ['White Base / Mostek', 'Desant Zeonu', 'Atak odparty', 'Wojna przenosi się w kosmos']) {
     assert.ok(scene.body.includes(tytul), tytul);
   }
+  assert.equal((scene.body.match(/^### Wojna przenosi się w kosmos$/gm) ?? []).length, 1,
+    'nagłówek występuje raz, w cytacie skryptu');
+  assert.ok(scene.sekcje_analizy.includes('Zmiana strategii po Jaburo → Wojna przenosi się w kosmos'));
+  assert.match(scene.body, /^### Zmiana strategii po Jaburo$/m);
+  assert.match(scene.body, /wojny partyzanckiej/);
 });
 
 test('nawiązania prowadzą do odcinka o Jaburo i nie zdradzają maszyn późniejszych walk', () => {
@@ -143,5 +149,6 @@ test('strony misji nie ujawniają etykiet technicznych ani przyszłych losów', 
     assert.doesNotMatch(bySlug.get(slug).body, /Entry ID|eventP01|DL102_40|charalist00/);
   }
   assert.match(episode.body, /Misja 4: Bitwa o Jaburo/);
+  assert.match(episode.body, /wojny partyzanckiej/);
   assert.match(episode.body, /odc\. 29 „Tragedy in Jaburo”/);
 });

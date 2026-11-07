@@ -4,7 +4,7 @@ slug: srw-oe-ep2-bitwa-o-jaburo
 tytul: Bitwa o Jaburo
 epizod: srw-oe-ep2
 numer_sceny: "2-4"
-streszczenie: "Czwarta misja epizodu 2: [[zeon|Zeon]] desantuje na [[jaburo|Jaburo]], a [[white-base|White Base]] i [[08-pluton-ms|08. Pluton MS]] bronią bram portu kosmicznego. [[char-aznable|Char]] prowadzi natarcie w czerwonym Zaku, [[shiro-amada|Shiro]] dowodzi obroną, a po odparciu ataku okręt zostaje w bazie na naprawy."
+streszczenie: "Czwarta misja epizodu 2: [[zeon|Zeon]] desantuje na [[jaburo|Jaburo]], a [[white-base|White Base]] i [[08-pluton-ms|08. Pluton MS]] bronią bram portu kosmicznego. [[char-aznable|Char]] prowadzi natarcie w czerwonym Zaku, [[shiro-amada|Shiro]] dowodzi obroną, a po odparciu ataku okręt zostaje w bazie na naprawy, a Zeon przechodzi do wojny partyzanckiej i przenosi ciężar walki w kosmos."
 postacie: [bright-noa, kai-shiden, hayato-kobayashi, amuro-ray, mirai-yashima, sayla-mass, shiro-amada, terry-sanders-jr, karen-joshua, michel-ninorich, eledore-massis, fraw-bow, char-aznable, oficer-zeonu, zolnierz-zeonu, slender, crown]
 mechy: [white-base, g-fighter, guncannon, rx-78-2-gundam, gundam-ez8, gundam-ground-type, gundam-ground-type-glowa-gm, guntank, hover-truck, zaku-ii-char, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, dom-zolnierz-zeonu, zanzibar]
 pojecia: [jaburo, zeon, earth-federation, mobile-suit, 08-pluton-ms, uc-0079]
@@ -25,6 +25,7 @@ sekcje_analizy:
   - Nowe fale desantu → Dialogi sytuacyjne — nowo przybyli
   - Atak odparty → Atak odparty
   - Bilans i następny kierunek → White Base / Mostek
+  - Zmiana strategii po Jaburo → Wojna przenosi się w kosmos
 tagi: [scena, srw-oe, gundam, jaburo, white-base]
 utworzono: 2026-11-05
 ---
@@ -240,6 +241,18 @@ Cele: doki White Base i innych głównych okrętów oraz fabryki mobile suitów.
 **Kai:** Dobra, dobra.
 :::
 
+:::skrypt
+### Wojna przenosi się w kosmos
+
+Mobile suity Zeonu wysłane na Jaburo nie dotarły do doków i zostały odparte.
+
+Poznawszy siłę mobile suitów Federacji, Zeon nabrał pewności, że kontrofensywa jest blisko, i zmienił strategię, by się na nią przygotować.
+
+Siły Zeonu na Ziemi przeszły do wojny partyzanckiej i działań opóźniających, a siły kosmiczne w pośpiechu wprowadzały do służby nowe mobile suity i mobile armory.
+
+Tymczasem Najwyższy Wódz Zeonu, Gihren Zabi, przygotowywał tajny plan, który miał przeciwstawić się miażdżącej przewadze materiałowej Federacji...
+:::
+
 ## Analiza
 
 ### Jaburo jako cel
@@ -306,6 +319,11 @@ Ogień przeciwlotniczy Jaburo zestrzeliwuje jeden z okrętów, lecz [[char-aznab
 
 Baza poniosła minimalne straty, a port kosmiczny ocalał — to warunek przyszłych operacji. [[white-base|White Base]] zostaje w [[jaburo|Jaburo]] na naprawy, główne siły mają wkrótce ruszyć w kosmos, a piloci odpoczywają na zmianę.
 
+
+### Zmiana strategii po Jaburo
+
+Narracja po bitwie zamyka epizod ziemski: desant na [[jaburo|Jaburo]] nie dotarł do doków, a rozpoznanie siły [[mobile-suit|mobile suitów]] [[earth-federation|Federacji]] przekonuje [[zeon|Zeon]], że kontrofensywa jest bliska. Zeon zmienia więc strategię — siły lądowe przechodzą do wojny partyzanckiej i działań opóźniających, a siły kosmiczne w pośpiechu wprowadzają nowe mobile suity i mobile armory. Zapowiedź tajnego planu Najwyższego Wodza Zeonu zostaje zapowiedzią: gra nie zdradza jeszcze, na czym ma polegać.
+
 }}
 
 {{zrodlo gra=wspolne
@@ -326,4 +344,5 @@ W oryginale [[white-base|White Base]] dociera do kwatery głównej w Jaburo, a [
 - **Char jako probierz siły.** Kolejne wymiany zdań pokazują, że [[earth-federation|Federacja]] wystawia już maszyny seryjne zdolne stawić czoła asowi [[zeon|Zeonu]].
 - **Odpowiedzialność za ludzi.** Shiro walczy, by chronić towarzyszy, a nie dla sławy; ten sam motyw wraca w jego dialogu z [[char-aznable|Charem]].
 - **Następny etap wojny.** Ocalony port przesądza, że główne siły Federacji będą mogły ruszyć w kosmos — misja kończy się przygotowaniem do dalszych operacji.
+- **Zeon zmienia strategię.** Po nieudanym desancie Zeon porzuca obronę linii na Ziemi na rzecz wojny partyzanckiej i przestawia wysiłek na kosmos, gdzie szykuje odpowiedź na przewagę materiałową Federacji.
 }}

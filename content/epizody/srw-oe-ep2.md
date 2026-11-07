@@ -57,6 +57,8 @@ Na [[stacja-connect|stacji orbitalnej]] Drugi Pluton poznaje [[cyber-beast-force
 
 Atak zostaje odparty, a [[char-aznable|Char]] wycofuje się z uznaniem dla rosnącej siły [[mobile-suit|mobile suitów]] Federacji. Baza poniosła minimalne straty, port kosmiczny ocalał, więc główne siły mogą wkrótce ruszyć w kosmos. [[white-base|White Base]] zostaje w Jaburo na naprawy, a piloci odpoczywają na zmianę.
 
+Po bitwie narracja domyka rozdział ziemski: desant nie dotarł do doków, a rozpoznana siła [[mobile-suit|mobile suitów]] [[earth-federation|Federacji]] przekonuje [[zeon|Zeon]], że kontrofensywa jest bliska. Zeon zmienia strategię — siły lądowe przechodzą do wojny partyzanckiej i działań opóźniających, a siły kosmiczne w pośpiechu wprowadzają do służby nowe mobile suity i mobile armory. Najwyższy Wódz Zeonu, Gihren Zabi, szykuje w tym czasie tajny plan wymierzony w przewagę materiałową Federacji.
+
 ## Wątki fabularne
 
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
@@ -88,7 +90,7 @@ Czwarta misja przenosi ciężar z równoległych światów na klasyczną wojnę 
 
 Drugim motywem jest legenda [[char-aznable|Chara]]. Kolejne dialogi warunkowe pokazują, że dla jednych jest przerażającym asem, dla innych — celem, który trzeba zająć, a dla [[shiro-amada|Shiro]] przeciwnikiem, którego trzeba powstrzymać, by chronić ludzi. Gra nie rozstrzyga pojedynku; zamiast tego pozwala bohaterom zmierzyć własne siły z reputacją Czerwonej Komety.
 
-Zamknięcie misji ma charakter przejściowy: ocalały port przesądza o przyszłej ofensywie w kosmosie, a okręt zostaje w bazie na naprawy. To ustawia następne starcia, nie kończy wątku.
+Zamknięcie misji ma charakter przejściowy: ocalały port przesądza o przyszłej ofensywie w kosmosie, a okręt zostaje w bazie na naprawy. Narracja dopowiada, co dzieje się po bitwie — [[zeon|Zeon]] rezygnuje z obrony linii na Ziemi na rzecz wojny partyzanckiej i przenosi wysiłek w kosmos. Zapowiedziany tajny plan Najwyższego Wodza Zeonu pozostaje niesprecyzowany, więc epizod ustawia następne starcia, a nie je rozstrzyga.
 
 }}
 {{zrodlo gra=wspolne

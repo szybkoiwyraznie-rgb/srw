@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-07 09:35
+
+- [[srw-oe-ep2-bitwa-o-jaburo|Bitwa o Jaburo]]: epizod domknięty narracją po bitwie — desant [[zeon|Zeonu]] nie dociera do doków, a Zeon przechodzi do wojny partyzanckiej i przenosi wysiłek w kosmos, szykując odpowiedź na przewagę materiałową [[earth-federation|Federacji]].
+
 ## 2026-11-05 19:05
 
 - [[srw-oe-ep2-bitwa-o-jaburo|Bitwa o Jaburo]]: nowa scena drugiego epizodu — desant [[zeon|Zeonu]] na [[jaburo|Jaburo]] odpiera załoga [[white-base|White Base]] razem z 08. Plutonem MS, a [[char-aznable|Char Aznable]] prowadzi rozpoznanie portu kosmicznego.
