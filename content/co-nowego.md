@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-07 21:20
+
+- [[musai|Musai]]: doprecyzowano działanie małych rakiet oraz premię dużych rakiet i działa przeciw okrętom.
+
 ## 2026-11-07 09:51
 
 - [[srw-oe-ep2-szturm-apsalusa|Szturm Apsalusa]]: piąta scena drugiego epizodu — [[apsalus-iii|Apsalus III]] [[ginias-sahalin|Giniasa Sahalina]] uderza na [[jaburo|Jaburo]], a obrońcy zatrzymują maszynę kosztem wyboru, którego [[shiro-amada|Shiro]] nie chciał dokonać. [[white-base|White Base]] dostaje od [[general-revil|generała Revila]] rozkaz dywersji i wylatuje w kosmos.
