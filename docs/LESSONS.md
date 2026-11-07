@@ -110,3 +110,19 @@ podajemy numer z **oryginalnej emisji**. Przy odczycie tabeli sprawdź, którą 
 i zweryfikuj numer datą emisji albo opisem odcinka — tytuł sam w sobie nie rozstrzyga,
 bo wersja angielska zachowuje tytuły, a przesuwa numery. To samo dotyczy innych serii
 z pominiętym odcinkiem w zagranicznej emisji.
+
+## L14 — Nie każda strona ma dostać blok źródłowy; część zakazów siedzi w testach (2026-11-07)
+
+Przy uzupełnianiu brakujących bloków `{{zrodlo}}` łatwo uznać, że każda strona bez tła jest
+luką do załatania. Tak nie jest. `test/tla-pierwowzorow.test.js` trzyma listę encji, które
+**nie mogą** mieć bloku tła ani adresów w `zrodla`: zbiorcze profile (`zolnierz-*`,
+`oficer-*`), sprzęt pola walki (`h-bomb-missile`, `turret`) oraz jednostki i systemy
+oryginalne dla gry (`exart`, `cybird`, `control-ai`, `shinohara-hos`, `mechabestia`,
+`mucus`, `invader`). Dopisanie tam akapitu — nawet z porządnym źródłem o wydarzeniu,
+w którym sprzęt bierze udział — wywraca test, bo decyzja brzmi: osobnego pierwowzoru
+do zacytowania nie ma, a sam opis wydarzenia należy do hasła o wydarzeniu.
+
+Drugi rodzaj zakazu dotyczy pojedynczych słów. `test/epizod-2-misja-3.test.js` nie dopuszcza
+nazwy „Black Wing” ani losów Alana na stronach obsady treningu, bo gra prowadzi tę obsadę
+inaczej niż serial. Zanim dopiszesz tło postaci z dodatkowej serii, przeszukaj `test/`
+po slugu strony — zakaz bywa zapisany w teście konkretnej misji, nie w ADR.
