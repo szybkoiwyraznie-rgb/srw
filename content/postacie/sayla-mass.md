@@ -57,7 +57,7 @@ Gdy pojawia się groźba bomby wodorowej, Sayla pyta, czy [[h-bomb-missile|pocis
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Potenc. Unik** | 1 | Pozostałe HP 10%: Obr/Cel/Kryt+4% Unik+5% |
-
+| 2 | **Newtype** | 3 | Cel/Unik+6 / Kryt Obraż.+18% |
 }}
 {{zrodlo gra=wspolne
 

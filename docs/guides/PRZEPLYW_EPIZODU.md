@@ -7,6 +7,9 @@ bo każdy krok korzysta z poprzedniego.
 
 - Przeczytaj skrypt w całości (plik z `episodes/`). Ustal: gra, numer epizodu, trasa
   (jeśli gra ma rozgałęzienia), mówcy, maszyny, broń, sceny, punkty zwrotne.
+- Jeśli skryptu nie ma jeszcze w archiwum, dopisz go na końcu pliku epizodu
+  (`episodes/<gra>/<epizod>.md`) w postaci z dostawy — sceny są wierne temu plikowi,
+  więc archiwum musi mieć pełną treść przed analizą.
 - Sprawdź, czy gra i epizod już istnieją w bazie (`content/gry/`, `content/epizody/`).
   **Nie twórz duplikatów** — istniejący wpis się dopisuje.
 - Jeśli w materiale jest coś nieczytelnego albo sprzecznego, zapisz to jako lukę
@@ -130,7 +133,8 @@ parzystość skryptów i wpisów, brak duplikatów slugów. Zielony wynik = comm
 
 ## 8. Czego nie robić w tej pętli
 
-- Nie poprawiać skryptu w `episodes/` (archiwum rozgrywki, read-only).
+- Nie poprawiać istniejących fragmentów skryptu w `episodes/` (archiwum rozgrywki). Nową misję
+  dopisuje się na końcu pliku epizodu z dostawy — to zwykły krok pętli, nie wyjątek od reguły.
 - Nie tworzyć encji „na przyszłość" — wpis bez materiału źródłowego zwykle okazuje się błędny.
 - Nie wyrównywać stylu starych wpisów do nowych. Różnorodność jest zaletą, dopóki trzymają się
   zasady pochodzenia i graf.

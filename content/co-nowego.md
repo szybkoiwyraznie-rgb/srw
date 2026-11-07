@@ -1,5 +1,53 @@
 # Co nowego
 
+## 2026-11-07 09:51
+
+- [[srw-oe-ep2-szturm-apsalusa|Szturm Apsalusa]]: piąta scena drugiego epizodu — [[apsalus-iii|Apsalus III]] [[ginias-sahalin|Giniasa Sahalina]] uderza na [[jaburo|Jaburo]], a obrońcy zatrzymują maszynę kosztem wyboru, którego [[shiro-amada|Shiro]] nie chciał dokonać. [[white-base|White Base]] dostaje od [[general-revil|generała Revila]] rozkaz dywersji i wylatuje w kosmos.
+- Nowe strony: [[apsalus-iii|Apsalus III]], [[gouf-ramba-ral|Gouf Ramby Rala]], [[ginias-sahalin|Ginias Sahalin]], [[ramba-ral|Ramba Ral]], [[crowley-hamon|Crowley Hamon]], [[acous|Acous]] i [[cozun-graham|Cozun Graham]].
+- Siedmiu pilotom przybywa drugi wpis w tabelach komend: [[bright-noa|Bright Noa]], [[shiro-amada|Shiro Amada]], [[terry-sanders-jr|Terry Sanders Jr.]], [[karen-joshua|Karen Joshua]], [[michel-ninorich|Michel Ninorich]], [[mirai-yashima|Mirai Yashima]] i [[eledore-massis|Eledore Massis]].
+
+## 2026-11-07 09:35
+
+- [[srw-oe-ep2-bitwa-o-jaburo|Bitwa o Jaburo]]: epizod domknięty narracją po bitwie — desant [[zeon|Zeonu]] nie dociera do doków, a Zeon przechodzi do wojny partyzanckiej i przenosi wysiłek w kosmos, szykując odpowiedź na przewagę materiałową [[earth-federation|Federacji]].
+
+## 2026-11-05 19:05
+
+- [[srw-oe-ep2-bitwa-o-jaburo|Bitwa o Jaburo]]: nowa scena drugiego epizodu — desant [[zeon|Zeonu]] na [[jaburo|Jaburo]] odpiera załoga [[white-base|White Base]] razem z 08. Plutonem MS, a [[char-aznable|Char Aznable]] prowadzi rozpoznanie portu kosmicznego.
+- Sześciu pilotom przybywa drugi wpis w tabelach: [[amuro-ray|Amuro Ray]] dostaje komendę ducha *Przebł.*, a [[kai-shiden|Kai Shiden]], [[hayato-kobayashi|Hayato Kobayashi]], [[bright-noa|Bright Noa]], [[sayla-mass|Sayla Mass]] i [[char-aznable|Char Aznable]] — drugą umiejętność pilota.
+
+## 2026-11-05 17:54
+
+- [[zanzibar|Zanzibar]] wchodzi do bazy: okręt desantowy [[zeon|Zeonu]], którym w desancie na [[jaburo|Jaburo]] dowodzi [[oficer-zeonu|Oficer Zeonu]].
+
+## 2026-11-02 13:47
+
+- Czworo pilotów Dancougi — [[ryo-shiba|Ryo Shiba]], [[sara-yuki|Sara Yuki]], [[masato-shikibu|Masato Shikibu]] i [[shinobu-fujiwara|Shinobu Fujiwara]] — ma dopisany pierwowzór: który ze zwierzęcych pojazdów zespołu prowadzi każdy z nich i jaką część połączonego robota z niego zbudowano.
+
+## 2026-11-02 13:26
+
+- [[hss|HSS]]: rozwinięcie skrótu jako Holly Security Services i powiązanie z ochroną obiektów [[shaft-enterprises|Shaft Enterprises]] po wycofaniu [[brocken|Brockenów]].
+
+## 2026-11-02 13:14
+
+- [[brocken|Brocken]]: pochodzenie uzupełnione o 40 mm działko jako standardowe uzbrojenie Type-7B oraz o historię maszyn ochrony Schaft Enterprises Japan, zanim przejęła ją [[hss|HSS]].
+- [[brocken-dzialko-automatyczne|Brocken/Działko automatyczne]]: dopisany pierwowzór — działko jest standardowym uzbrojeniem załogowego Type-7B, a bezzałogowy wariant z [[control-ai|Control AI]] należy do gry.
+
+## 2026-11-02 12:52
+
+- [[shaft-enterprises|Shaft Enterprises]]: dopisany pierwowzór firmy — tokijski koncern, który wszedł w branżę [[labor|Laborów]] od elektroniki i konkuruje z [[shinohara-heavy-industries|Shinohara Heavy Industries]]; odnotowany zapis nazwy w źródłach.
+
+## 2026-11-02 12:38
+
+- [[brocken|Brocken/Melee]] otrzymuje oznaczenie rodzaju jednostki zgodne z jego opisem wojskowego [[labor|Labora]] i z [[brocken-dzialko-automatyczne|Brockenem z działkiem automatycznym]].
+
+## 2026-11-02 12:26
+
+- [[griffon|Griffon]]: dopisany pierwowzór maszyny — eksperymentalny [[labor|Labor]] walki wręcz zbudowany przez Schaft Enterprises Japan, z turbiną gazową, skrzydłami z dopalaczami i systemem ASURA; odnotowany też zapis nazwy firmy w źródłach.
+
+## 2026-11-02 12:10
+
+- [[final-dancouga|Final Dancouga]]: dopisany rodowód formy — połączenie pięciu maszyn zespołu z dodatkowym skrzydłem bojowym, obecne w cyklu *Super Robot Wars*, a nie w serialu ani OVA *Dancougi*.
+
 ## 2026-11-02 11:47
 
 - Portrety pilotów [[cyber-beast-force|Cyber Beast Force]]: [[alan-igor|Alan Igor]], [[masato-shikibu|Masato Shikibu]], [[ryo-shiba|Ryo Shiba]], [[sara-yuki|Sara Yuki]] i [[shinobu-fujiwara|Shinobu Fujiwara]].

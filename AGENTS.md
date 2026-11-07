@@ -133,9 +133,12 @@ Szczegółowa lista kroków: `docs/guides/PRZEPLYW_EPIZODU.md`.
   wyróżnik (rok, wariant, gra).
 - **Ścieżki i odsyłacze muszą istnieć.** Pole `seria`/`mechy`/`piloci`/`gry`/`pojecia`/`gra`/`epizod`
   wskazuje na wpis o właściwym typie; build to sprawdza i przerywa pracę przy błędzie.
-- **Skryptu epizodu nie poprawiasz.** `episodes/**` to archiwum rozgrywki — czytasz, nie edytujesz.
-  Wymiana jest możliwa tylko na wyraźne polecenie właściciela; polska dostawa z ADR 0016
-  zastąpiła poprzednią i jest nowym nietykalnym wzorem.
+- **Skryptu epizodu nie poprawiasz, ale nowy skrypt dopisujesz.** `episodes/**` to archiwum
+  rozgrywki: istniejące fragmenty czytasz i zostawiasz bez zmian, natomiast nową misję z dostawy
+  dopisujesz na końcu pliku epizodu — to zwykły krok pętli, tak powstały wszystkie wcześniejsze
+  skrypty, nie wyjątek. Przepisanie albo wymiana istniejącego skryptu jest możliwa tylko na wyraźne
+  polecenie właściciela; polska dostawa z ADR 0016 zastąpiła poprzednią i jest nowym nietykalnym
+  wzorem.
 - **Ilustracja od właściciela jest dostawą encji (ADR 0017).** Rozpoznana postać lub mech
   otrzymuje wpis także bez tekstu. Obraz ma poziom `menu`, uzupełnienia — `zrodlo` lub `wiedza`.
   Nie wymaga to dopisania encji do konkretnej sceny ani zmiany załogi z menu.

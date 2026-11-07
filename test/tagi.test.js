@@ -28,7 +28,7 @@ const RODZAJE_TRESCI = new Set([
   'odznaczenie', 'postac-z-innej-serii',
 ]);
 
-const RODZAJE_JEDNOSTEK = ['mobile-suit', 'labor', 'okret', 'mysliwiec', 'super-robot', 'pojazd-wsparcia', 'pocisk', 'bezzalogowy'];
+const RODZAJE_JEDNOSTEK = ['mobile-suit', 'mobile-armor', 'labor', 'okret', 'mysliwiec', 'super-robot', 'pojazd-wsparcia', 'pocisk', 'bezzalogowy'];
 
 const TAG_SERII = {
   'mobile-suit-gundam-1979': 'gundam-1979',

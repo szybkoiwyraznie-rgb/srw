@@ -99,7 +99,7 @@ test('parametry mechów nie powtarzają domyślnej załogi — piloci zostają w
     brocken: ['control-ai'],
     'rx-78-2-gundam': ['amuro-ray'],
     'white-base': ['bright-noa', 'mirai-yashima'],
-    'zaku-ii-karabin-maszynowy': ['slender', 'zolnierz-zeonu'],
+    'zaku-ii-karabin-maszynowy': ['slender', 'acous', 'zolnierz-zeonu'],
     'zaku-ii-bazooka': ['crown', 'zolnierz-zeonu'],
     'zaku-ii-char': ['char-aznable'],
     cybuster: ['masaki-andoh'],
@@ -151,7 +151,7 @@ test('profile pilotów z nowej dostawy: statystyki, komendy Ducha i umiejętnoś
 
 test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji', () => {
   const warianty = [
-    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], ['slender', 'zolnierz-zeonu']],
+    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], ['slender', 'acous', 'zolnierz-zeonu']],
     ['zaku-ii-bazooka', 2, ['Bazooka Zaku', 'Heat Hawk'], ['crown', 'zolnierz-zeonu']],
     ['zaku-ii-char', 4, ['Karabin maszynowy Zaku', 'Bazooka Zaku', 'Heat Hawk', 'Szarża barkiem'], ['char-aznable']],
   ];
@@ -269,11 +269,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 165 plików przy 124 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 166 plików przy 125 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 124);
-  assert.equal(Object.values(manifest.encje).flat().length, 165);
+  assert.equal(Object.keys(manifest.encje).length, 125);
+  assert.equal(Object.values(manifest.encje).flat().length, 166);
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   const portrety = wszystkie.filter((f) => f.startsWith('characters/')).length;
@@ -503,7 +503,7 @@ test('ilustracje 2-2 i 2-3: osiem dokładnych kluczy R2 przy czterech właściwy
   }
   assert.deepEqual(manifest.encje.brocken, ['Brocken.png', 'Brocken 2.png']);
   assert.equal(manifest.weryfikacjaZdalna, false);
-  assert.equal(manifest.dostarczono, '2026-11-02');
+  assert.equal(manifest.dostarczono, '2026-11-05');
 });
 
 

@@ -7,6 +7,9 @@ rola: pilot
 mechy: [final-dancouga]
 gry: [srw-oe]
 pochodzenie: skrypt
+zrodla:
+  - https://en.namu.wiki/w/%EB%8B%A8%EC%BF%A0%EA%B0%80
+  - https://hobbylink.tv/metamor-force-dancouga-by-sentinel-part-1-unbox/
 tagi: [pilot, dancouga, cyber-beast-force]
 utworzono: 2026-11-01
 ---
@@ -18,6 +21,14 @@ Członek [[cyber-beast-force|Cyber Beast Force]] i podpilot [[final-dancouga|Fin
 
 Po ćwiczeniach wyjaśnia Seishirowi, że człowiek o mocnym wewnętrznym oparciu może poddać się gniewowi bez utraty kierunku. Łączy w ten sposób zapał z panowaniem nad sobą, zamiast sprowadzać skuteczność do samych parametrów maszyny.
 }}
+
+{{zrodlo gra=wspolne
+
+## Pierwowzór
+
+W [[super-beast-machine-god-dancouga|pierwowzorze]] Ryo Shiba pilotuje Big Moth — najcięższą z maszyn zespołu, która w połączonej formie tworzy kadłub i ramiona Dancougi. W walce najczęściej przejmuje stery nad połączonym robotem. ([NamuWiki, „Dancouga”](https://en.namu.wiki/w/%EB%8B%A8%EC%BF%A0%EA%B0%80); [HobbyLink.tv, „Metamor Force Dancouga”](https://hobbylink.tv/metamor-force-dancouga-by-sentinel-part-1-unbox/); sprawdzono 2026-11-02).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje

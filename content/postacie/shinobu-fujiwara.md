@@ -7,6 +7,9 @@ rola: pilot
 mechy: [final-dancouga]
 gry: [srw-oe]
 pochodzenie: skrypt
+zrodla:
+  - https://en.namu.wiki/w/%EB%8B%A8%EC%BF%A0%EA%B0%80
+  - https://mechaalliance.com/anime-review-choju-kishin-dancouga-the-super-beast-machine-god/
 tagi: [pilot, dancouga, cyber-beast-force]
 utworzono: 2026-11-01
 ---
@@ -18,6 +21,14 @@ Główny pilot [[final-dancouga|Final Dancougi]] z [[cyber-beast-force|Cyber Bea
 
 Po treningu chwali Drugi Pluton za walkę. Seishirowi podsuwa myśl, że najwięcej siły daje połączenie spokoju i zapału. Wracając z oddziałem do bazy na regulację Dancougi, liczy na ponowne spotkanie z silniejszym już Seishirem.
 }}
+
+{{zrodlo gra=wspolne
+
+## Pierwowzór
+
+W [[super-beast-machine-god-dancouga|pierwowzorze]] Shinobu Fujiwara jest głównym pilotem Eagle Fightera, który w połączonej formie tworzy głowę Dancougi. Uchodzi za porywczego przywódcę zespołu, działającego często po swojemu. ([NamuWiki, „Dancouga”](https://en.namu.wiki/w/%EB%8B%A8%EC%BF%A0%EA%B0%80); [Mecha Alliance, „Choju Kishin Dancouga”](https://mechaalliance.com/anime-review-choju-kishin-dancouga-the-super-beast-machine-god/); sprawdzono 2026-11-02).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje

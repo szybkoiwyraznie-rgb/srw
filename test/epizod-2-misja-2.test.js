@@ -39,7 +39,7 @@ test('scena 2-2 zachowuje wszystkie dialogi, kolejność i mapę 13 sekcji', asy
   assert.match(html, /Nawiązania do oryginalnych odcinków/);
   for (const title of ['Griffin was Here!', 'Tragedy in Rain']) assert.ok(scena.body.includes(title));
   const sceneOrder = pages.filter((p) => p.epizod === 'srw-oe-ep2').map((p) => p.numer_sceny).sort();
-  assert.deepEqual(sceneOrder, ['2-1', '2-2', '2-3']);
+  assert.deepEqual(sceneOrder, ['2-1', '2-2', '2-3', '2-4', '2-5']);
 });
 
 test('obsada nie myli Entry ID z liczbą maszyn ani neutralnych Laborów z posiłkami', () => {

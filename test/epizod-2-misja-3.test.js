@@ -19,7 +19,10 @@ const crew = ['shinobu-fujiwara', 'sara-yuki', 'ryo-shiba', 'masato-shikibu', 'a
 test('dostawa 2-3 zachowuje wszystkie bajty, a skrypt jest dopisany dokładnie raz', () => {
   assert.equal(bytes.length, 37401);
   assert.equal(createHash('sha256').update(bytes).digest('hex'), '42485174a36ddb8f960772d582bb7894cc85069cf514f713d81bf4aad838cd3e');
-  assert.ok(archive.endsWith(script + '\n'));
+  // Od misji 2-4 archiwum rośnie dalej, więc sprawdzamy obecność i jednokrotność,
+  // a nie koniec pliku.
+  assert.ok(archive.includes(script + '\n'));
+  assert.equal(archive.split(script).length - 1, 1, 'skrypt misji 2-3 występuje raz');
   assert.equal((archive.match(/^## Ryk dziczy$/gm) ?? []).length, 1);
   assert.ok(archive.includes('## Czarny Labor'));
   assert.doesNotMatch(archive, /UCZESTNICY|Entry ID|DL102_30|eventP01/);
