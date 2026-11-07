@@ -11,6 +11,8 @@
 - Szósta scena epizodu 2: [[white-base|White Base]] opuszcza [[jaburo|Jaburo]] jako przynęta i musi przebić się przez trzy [[musai|Musai]] Patrolowej Floty Camel, zanim [[zanzibar|Zanzibar]] zamknie kleszcze.
 - Nowe strony: krążownik [[musai|Musai]], kosmiczny [[rick-dom|Rick Dom]], komandor [[dren|Dren]] oraz [[patrolowa-flota-camel|Patrolowa Flota Camel]].
 - Profil [[char-aznable|Chara]] uzupełniony o umiejętność *Dwa ataki*.
+- Krążownik [[musai|Musai]], dwa ujęcia [[rick-dom|Rick Doma]] i portret komandora [[dren|Drena]] mają ilustracje.
+
 - Nowe strony mają ilustracje: Apsalus III, dwa ujęcia Goufa Ramby Rala oraz portrety Giniasa Sahalina, Ramby Rala, Crowley Hamon, Acousa i Cozuna Grahama.
 - Siedmiu pilotom przybywa drugi wpis w tabelach komend: [[bright-noa|Bright Noa]], [[shiro-amada|Shiro Amada]], [[terry-sanders-jr|Terry Sanders Jr.]], [[karen-joshua|Karen Joshua]], [[michel-ninorich|Michel Ninorich]], [[mirai-yashima|Mirai Yashima]] i [[eledore-massis|Eledore Massis]].
 

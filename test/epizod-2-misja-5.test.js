@@ -204,6 +204,6 @@ test('każda z siedmiu nowych stron ma galerię ilustracji z dokładnym kluczem 
   assert.equal(manifest.weryfikacjaZdalna, false, 'lista R2 nie jest obejrzeniem obrazów');
   assert.equal(manifest.dostarczono, '2026-11-07');
   assert.match(manifest.podstawa, /Dostawa ilustracji misji 5 \(2026-11-07\)/);
-  assert.match(manifest.uwaga, /81 portretów w characters\/ i 93 plików jednostek w korzeniu, razem 174 obrazów przy 132 encjach/);
+  assert.match(manifest.uwaga, /82 portretów w characters\/ i 96 plików jednostek w korzeniu, razem 178 obrazów przy 135 encjach/);
   assert.match(manifest.uwaga, /Actions 42376859248, check-run 128416119853/);
 });

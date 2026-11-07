@@ -167,3 +167,31 @@ test('strony misji nie ujawniają etykiet technicznych ani przyszłych walk', ()
   const opisDrena = bySlug.get('dren').body.match(/^## Opis\n([\s\S]*?)(?=^## |^\}\})/m)[1];
   assert.doesNotMatch(opisDrena, /zginął|ginie|śmierć/);
 });
+
+test('trzy nowe strony mają galerię ilustracji z dokładnym kluczem R2', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const dostawa = {
+    musai: ['Musai.png'],
+    'rick-dom': ['Rick Dom.png', 'Rick Dom 2.png'],
+    dren: ['characters/Dren.png'],
+  };
+  for (const [slug, pliki] of Object.entries(dostawa)) {
+    assert.deepEqual(manifest.encje[slug], pliki, slug);
+    const page = bySlug.get(slug);
+    assert.equal((page.body.match(/^## Ilustracje$/gm) ?? []).length, 1, slug);
+    assert.equal((page.body.match(/^### Ilustracja \d+$/gm) ?? []).length, pliki.length, slug);
+    assert.equal((page.body.match(/!\[/g) ?? []).length, pliki.length, slug);
+    assert.ok(page.body.indexOf('## Ilustracje') < page.body.indexOf('## Parametry'), `${slug}: galeria przed parametrami`);
+    assert.match(page.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/);
+    pliki.forEach((plik, i) => {
+      const podpis = `${page.tytul} — ilustracja ${i + 1} z ${pliki.length}`;
+      const adres = plik.split('/').map(encodeURIComponent).join('/');
+      assert.ok(page.body.includes(`![${podpis}](${manifest.baseUrl}/${adres})`), `${slug}: ${plik}`);
+    });
+  }
+  assert.equal(manifest.weryfikacjaZdalna, false, 'lista R2 nie jest obejrzeniem obrazów');
+  assert.equal(manifest.dostarczono, '2026-11-07');
+  assert.match(manifest.podstawa, /Dostawa ilustracji misji 6 \(2026-11-07\)/);
+  assert.match(manifest.uwaga, /82 portretów w characters\/ i 96 plików jednostek w korzeniu, razem 178 obrazów przy 135 encjach/);
+  assert.match(manifest.uwaga, /Actions 42406060802, check-run 128503895859/);
+});

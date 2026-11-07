@@ -269,11 +269,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 174 pliki przy 132 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 178 plików przy 135 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 132);
-  assert.equal(Object.values(manifest.encje).flat().length, 174);
+  assert.equal(Object.keys(manifest.encje).length, 135);
+  assert.equal(Object.values(manifest.encje).flat().length, 178);
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   const portrety = wszystkie.filter((f) => f.startsWith('characters/')).length;

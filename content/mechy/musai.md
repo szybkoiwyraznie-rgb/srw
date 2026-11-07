@@ -32,6 +32,15 @@ W [[mobile-suit-gundam-1979|pierwowzorze]] Musai to lekki krążownik Księstwa 
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Musai — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Musai.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Mobile Suit Gundam

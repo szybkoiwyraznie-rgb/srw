@@ -32,6 +32,19 @@ MS-09R Rick Dom powstał w firmie Zimmad jako kosmiczny wariant naziemnego Doma 
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Rick Dom — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Rick%20Dom.png)
+
+### Ilustracja 2
+
+![Rick Dom — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Rick%20Dom%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Mobile Suit Gundam
