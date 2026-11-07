@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-07 21:55
+
+- [[srw-oe-ep2-przebicie-sila|Przebicie się siłą]]: doprecyzowane odcinki pierwowzoru. Pościg [[zanzibar|Zanzibara]] nad Ziemią to trzydziesty pierwszy odcinek serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] („A Decoy in Space”, 3 listopada 1979), a starcie z krążownikami [[dren|Drena]] — trzydziesty drugi („Breakthrough”, 10 listopada 1979). Tabela wątków epizodu 2 podaje teraz te same numery co reszta bazy.
+
 ## 2026-11-07 09:51
 
 - [[srw-oe-ep2-szturm-apsalusa|Szturm Apsalusa]]: piąta scena drugiego epizodu — [[apsalus-iii|Apsalus III]] [[ginias-sahalin|Giniasa Sahalina]] uderza na [[jaburo|Jaburo]], a obrońcy zatrzymują maszynę kosztem wyboru, którego [[shiro-amada|Shiro]] nie chciał dokonać. [[white-base|White Base]] dostaje od [[general-revil|generała Revila]] rozkaz dywersji i wylatuje w kosmos.

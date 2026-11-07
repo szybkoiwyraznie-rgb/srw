@@ -50,8 +50,8 @@ test('scena 2-6 cytuje siedem bloków skryptu i ma tyle samo kotwic analizy', as
 test('nawiązania prowadzą do odcinków o pościgu Zanzibara i o przebiciu', () => {
   assert.match(scene.body, /## Nawiązania do oryginalnych odcinków/);
   assert.match(scene.body, /Wydarzenia z tej sceny/);
-  assert.match(scene.body, /trzydziestego\*\* — „A Decoy in Space”/);
-  assert.match(scene.body, /trzydziestego pierwszego\*\* — „Breakthrough”/);
+  assert.match(scene.body, /trzydziestego pierwszego\*\* — „A Decoy in Space”/);
+  assert.match(scene.body, /trzydziestego drugiego\*\* — „Breakthrough”/);
   const adres = 'https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_episodes';
   assert.ok(scene.zrodla.includes(adres));
   assert.ok(scene.body.includes(adres));
@@ -161,7 +161,9 @@ test('strony misji nie ujawniają etykiet technicznych ani przyszłych walk', ()
     assert.doesNotMatch(bySlug.get(slug).body, /Entry ID|eventP01|DL102_60|charalist00/);
   }
   assert.match(episode.body, /Misja 6: Przebicie się siłą/);
-  assert.match(episode.body, /odc\. 31 „Breakthrough”/);
+  // Numeracja oryginalnej emisji, nie angielskiej (L13).
+  assert.match(episode.body, /odc\. 31 „A Decoy in Space”/);
+  assert.match(episode.body, /odc\. 32 „Breakthrough”/);
   assert.doesNotMatch(scene.body, /A Baoa Qu|Solar Ray|Kolonia Axis/);
   // Opis nie przesądza losu Drena: scenariusz kończy się na zniszczeniu jego floty.
   const opisDrena = bySlug.get('dren').body.match(/^## Opis\n([\s\S]*?)(?=^## |^\}\})/m)[1];
