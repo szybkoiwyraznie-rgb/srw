@@ -104,9 +104,9 @@ test('obsada sceny i epizodu rozróżnia 15 jednostek pola bitwy od form z katal
   ];
 
   assert.deepEqual([...scena.postacie].sort(), [...oczekiwanePostacie].sort());
-  assert.deepEqual([...epizod.postacie].sort(), [...new Set([...oczekiwanePostacie, ...bySlug.get('srw-oe-ep2-czarny-labor').postacie, ...bySlug.get('srw-oe-ep2-ryk-dziczy').postacie, ...bySlug.get('srw-oe-ep2-bitwa-o-jaburo').postacie])].sort());
+  assert.deepEqual([...epizod.postacie].sort(), [...new Set([...oczekiwanePostacie, ...bySlug.get('srw-oe-ep2-czarny-labor').postacie, ...bySlug.get('srw-oe-ep2-ryk-dziczy').postacie, ...bySlug.get('srw-oe-ep2-bitwa-o-jaburo').postacie, ...bySlug.get('srw-oe-ep2-szturm-apsalusa').postacie])].sort());
   assert.deepEqual([...scena.mechy].sort(), [...oczekiwaneMechy].sort());
-  assert.deepEqual([...epizod.mechy].sort(), [...new Set([...oczekiwaneMechy, ...bySlug.get('srw-oe-ep2-czarny-labor').mechy, ...bySlug.get('srw-oe-ep2-ryk-dziczy').mechy, ...bySlug.get('srw-oe-ep2-bitwa-o-jaburo').mechy])].sort());
+  assert.deepEqual([...epizod.mechy].sort(), [...new Set([...oczekiwaneMechy, ...bySlug.get('srw-oe-ep2-czarny-labor').mechy, ...bySlug.get('srw-oe-ep2-ryk-dziczy').mechy, ...bySlug.get('srw-oe-ep2-bitwa-o-jaburo').mechy, ...bySlug.get('srw-oe-ep2-szturm-apsalusa').mechy])].sort());
 
   // Formy transformacji i superpołączenia mają własne strony z pełnymi tabelami,
   // lecz nie występują jako osobne jednostki rozstawione na mapie misji 2-1.

@@ -5,8 +5,8 @@ tytul: Epizod 2
 gra: srw-oe
 numer: 2
 skrypt: episodes/srw-oe/ep002.md
-postacie: [seishiro, himari-yaegaki, noa-izumi, isao-ota, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, aiko-shimada, daisuke-sato, akira-imamura, kenichi-minezaki, hiromi-tachibana, shinobu-asaoka, taro-shirogane, yoji-hiyama, erika-kozu, takako-kojima, go, kei, gai, koji-kabuto, simon, kamina, yoko, boota, mechabestia, invader, mucus, asuma-shinohara, mikiyasu-shinshi, hiromi-yamazaki, kanuka-clancy, kiichi-goto, zolnierz-jsdf, control-ai, badrinath-harchand, utsumi, kurosaki, shinobu-fujiwara, sara-yuki, ryo-shiba, masato-shikibu, alan-igor, suol, bright-noa, kai-shiden, hayato-kobayashi, amuro-ray, mirai-yashima, sayla-mass, shiro-amada, terry-sanders-jr, karen-joshua, michel-ninorich, eledore-massis, fraw-bow, char-aznable, oficer-zeonu, zolnierz-zeonu, slender, crown]
-mechy: [exart, ingram-nr-1, ingram-nr-2, raijin-oh, go-saurer, gurren-lagann, mazinger-z, shin-getter-1, bolt-robo-standard, bolt-robo-melee, bolt-robo-long-range, invader-ground, nekton-assault, mucus-gate-s-in, mucus-gate-s-mc, hal-x10-green, helldiver, brocken, brocken-dzialko-automatyczne, griffon, final-dancouga, nekton-creek, white-base, g-fighter, guncannon, rx-78-2-gundam, gundam-ez8, gundam-ground-type, gundam-ground-type-glowa-gm, guntank, hover-truck, zaku-ii-char, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, dom-zolnierz-zeonu, zanzibar]
+postacie: [seishiro, himari-yaegaki, noa-izumi, isao-ota, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, aiko-shimada, daisuke-sato, akira-imamura, kenichi-minezaki, hiromi-tachibana, shinobu-asaoka, taro-shirogane, yoji-hiyama, erika-kozu, takako-kojima, go, kei, gai, koji-kabuto, simon, kamina, yoko, boota, mechabestia, invader, mucus, asuma-shinohara, mikiyasu-shinshi, hiromi-yamazaki, kanuka-clancy, kiichi-goto, zolnierz-jsdf, control-ai, badrinath-harchand, utsumi, kurosaki, shinobu-fujiwara, sara-yuki, ryo-shiba, masato-shikibu, alan-igor, suol, bright-noa, kai-shiden, hayato-kobayashi, amuro-ray, mirai-yashima, sayla-mass, shiro-amada, terry-sanders-jr, karen-joshua, michel-ninorich, eledore-massis, fraw-bow, char-aznable, oficer-zeonu, zolnierz-zeonu, slender, crown, general-revil, marker, oscar-dublin, ginias-sahalin, ramba-ral, crowley-hamon, acous, cozun-graham]
+mechy: [exart, ingram-nr-1, ingram-nr-2, raijin-oh, go-saurer, gurren-lagann, mazinger-z, shin-getter-1, bolt-robo-standard, bolt-robo-melee, bolt-robo-long-range, invader-ground, nekton-assault, mucus-gate-s-in, mucus-gate-s-mc, hal-x10-green, helldiver, brocken, brocken-dzialko-automatyczne, griffon, final-dancouga, nekton-creek, white-base, g-fighter, guncannon, rx-78-2-gundam, gundam-ez8, gundam-ground-type, gundam-ground-type-glowa-gm, guntank, hover-truck, zaku-ii-char, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, dom-zolnierz-zeonu, zanzibar, apsalus-iii, gouf-ramba-ral, zaku-ii-kai, rx-78nt-1-gundam-alex]
 pojecia: [connect-force, stacja-connect, sv2, labor, klasa-obrony-ziemi, akademia-hinobori, jaku-empire, saurersi, mechanization-empire, invaderzy, instytut-energii-fotonowej, dr-hell, gurren-team, gunmen, sily-samoobrony-japonii, shaft-enterprises, hss, cyber-beast-force, muge-empire, 13-samodzielny-oddzial, earth-federation, jaburo, zeon, mobile-suit, 08-pluton-ms, uc-0079]
 pochodzenie: skrypt
 zrodla:
@@ -59,6 +59,14 @@ Atak zostaje odparty, a [[char-aznable|Char]] wycofuje się z uznaniem dla rosn�
 
 Po bitwie narracja domyka rozdział ziemski: desant nie dotarł do doków, a rozpoznana siła [[mobile-suit|mobile suitów]] [[earth-federation|Federacji]] przekonuje [[zeon|Zeon]], że kontrofensywa jest bliska. Zeon zmienia strategię — siły lądowe przechodzą do wojny partyzanckiej i działań opóźniających, a siły kosmiczne w pośpiechu wprowadzają do służby nowe mobile suity i mobile armory. Najwyższy Wódz Zeonu, Gihren Zabi, szykuje w tym czasie tajny plan wymierzony w przewagę materiałową Federacji.
 
+### [[srw-oe-ep2-szturm-apsalusa|Misja 5: Szturm Apsalusa]]
+
+[[general-revil|Generał Revil]] wyznacza [[white-base|White Base]] zadanie bez chwały: okręt ma wystartować przed główną flotą jako przynęta, ściągnąć na siebie uwagę [[zeon|Zeonu]], zgubić pościg i połączyć się z [[connect-force|Connect Force]]. [[earth-federation|Federacja]] chce w ten sposób przekazać Connect więcej sił, a Revil mówi wprost, że Zeon nie jest jedynym wrogiem ludzkości.
+
+Zanim okręt wyleci, [[jaburo|Jaburo]] atakuje [[apsalus-iii|Apsalus III]] — mobile armor [[ginias-sahalin|Giniasa Sahalina]] z działem megacząsteczkowym, osłaniany przez [[ramba-ral|Rambę Rala]] w [[gouf-ramba-ral|Goufie]], [[crowley-hamon|Crowley Hamon]] na [[zanzibar|Zanzibarze]] oraz [[acous|Acousa]] i [[cozun-graham|Cozuna]] w [[zaku-ii-karabin-maszynowy|Zaku II]] i [[zaku-ii-kai|Zaku II Kai]]. [[shiro-amada|Shiro]] prowadzi obronę w [[gundam-ez8|Ez8]] i prosi towarzyszy, by nie trafiali w kokpit — w kabinie siedzi brat Ainy.
+
+[[mobile-suit|Mobile suity]] zatrzymują maszynę ogniem z bliska; Ginias ginie wraz z Apsalusem, a jego oddział wycofuje się. [[bright-noa|Bright]] ogłasza koniec operacji, po czym okręt startuje w kosmos jako 13. Samodzielny Oddział, a z bazy Zeonu rusza w pościg [[char-aznable|Char]] na Zanzibarze.
+
 ## Wątki fabularne
 
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
@@ -77,6 +85,9 @@ Po bitwie narracja domyka rozdział ziemski: desant nie dotarł do doków, a roz
 | Desant Zeonu na Jaburo i obrona bram portu kosmicznego | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 29 „Tragedy in Jaburo” | Serial pokazuje dotarcie White Base do kwatery głównej i zmasowany atak Zeonu prowadzony przez Chara w maszynie wodnej; gra zmienia skład desantu — Char walczy w czerwonym Zaku II, obok seryjnych Zaku II i Domów, a wraz z nimi nadciąga okręt [[zanzibar\|Zanzibar]]. |
 | Współdziałanie załogi White Base z 08. Plutonem MS | [[mobile-suit-gundam-08th-ms-team\|Mobile Suit Gundam: The 08th MS Team]] | cała seria | Lądowy pluton Shiro Amady spotyka się z załogą okrętu po raz pierwszy dopiero w walce; w grze oba oddziały bronią wspólnie jednej bramy, a Shiro dowodzi obroną i odbiera pochwałę Brighta. |
 | Pojedynek słowny z Charim i rozpoznanie asa | [[srw-oe\|Super Robot Wars OE]] | n/d | Wymiany zdań Amura, Shiro, Karen, Sandersa, Sayli i Kaia z Charim oraz jego wycofanie się po ataku należą do autorskiego scenariusza gry. |
+| Finał projektu Apsalusa i atak na Jaburo | [[mobile-suit-gundam-08th-ms-team\|Mobile Suit Gundam: The 08th MS Team]] | odc. 11 „The Shuddering Mountain, Part 2” | W OVA finał projektu rozgrywa się w odcinkach 10–11: Apsalus III startuje z górskiej bazy Zeonu, w kabinie siedzi najpierw Aina, a Ginias przejmuje maszynę po jej odmowie walki i ginie w starciu z Ez8; gra przenosi finał pod [[jaburo\|Jaburo]] i zostawia w kabinie wyłącznie Giniasa. |
+| Oddział Ramby Rala u boku rodu Sahalinów | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 20 „Hand-to-Hand Combat” | W serialu Ral dowodzi pościgiem za White Base od odcinka 12 i ginie w odcinku 20, 5 listopada U.C. 0079, a jego skrzydłowi Acous i Cozun kończą odmiennie; w grze cały oddział walczy pod Jaburo i wycofuje się bez strat. |
+| Dywersja White Base i przejście do Connect Force | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozkaz generała Revila, rola przynęty przed ofensywą i skierowanie okrętu do Connect Force należą do autorskiego scenariusza gry. |
 
 ## Komentarz
 
@@ -91,6 +102,12 @@ Czwarta misja przenosi ciężar z równoległych światów na klasyczną wojnę 
 Drugim motywem jest legenda [[char-aznable|Chara]]. Kolejne dialogi warunkowe pokazują, że dla jednych jest przerażającym asem, dla innych — celem, który trzeba zająć, a dla [[shiro-amada|Shiro]] przeciwnikiem, którego trzeba powstrzymać, by chronić ludzi. Gra nie rozstrzyga pojedynku; zamiast tego pozwala bohaterom zmierzyć własne siły z reputacją Czerwonej Komety.
 
 Zamknięcie misji ma charakter przejściowy: ocalały port przesądza o przyszłej ofensywie w kosmosie, a okręt zostaje w bazie na naprawy. Narracja dopowiada, co dzieje się po bitwie — [[zeon|Zeon]] rezygnuje z obrony linii na Ziemi na rzecz wojny partyzanckiej i przenosi wysiłek w kosmos. Zapowiedziany tajny plan Najwyższego Wodza Zeonu pozostaje niesprecyzowany, więc epizod ustawia następne starcia, a nie je rozstrzyga.
+
+Piąta misja zamyka rozdział ziemski i robi to wbrew oczekiwaniom: zamiast wielkiej bitwy o stolicę federacji dostajemy pojedynek z jednym mobile armorem i rozkaz, który odbiera zwycięstwu sens. [[apsalus-iii|Apsalus]] jest zagrożeniem technicznym, ale emocjonalnym środkiem ciężkości jest [[shiro-amada|Shiro]] — dowódca, który prosi własnych ludzi, by nie trafiali w kokpit, i wybiera bazę kosztem człowieka, którego zna. Gra nie rozstrzyga, czy miał prawo; pokazuje tylko, że wybór został dokonany świadomie.
+
+Drugi biegun to [[ramba-ral|Ramba Ral]]. Bohater z innej historii wchodzi w tę bitwę jako świadek cudzej determinacji i wychodzi z niej cało razem z całym oddziałem — co w oryginale było niemożliwe. Zestawienie umierającego Giniasa z Ralem, który walczy, bo tak wypada, porządkuje scenę wokół pytania o sens poświęcenia.
+
+Zakończenie jest czysto przejściowe: ocalony port, start w kosmos i pościg [[char-aznable|Chara]] ustawiają następny epizod, nie domykając żadnego z wątków osobowych.
 
 }}
 {{zrodlo gra=wspolne

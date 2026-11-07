@@ -97,7 +97,7 @@ test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () =
     .replace(/\n\n---\n?$/, '');
   assert.equal(odtworzone, oczekiwane);
   for (const czesc of czesci) assert.ok(script.includes(czesc.tekst), czesc.naglowek);
-  assert.equal(pages.filter((p) => p.typ === 'scena').length, 14, 'dwie sceny epizodu 0, osiem epizodu 1 i cztery epizodu 2');
+  assert.equal(pages.filter((p) => p.typ === 'scena').length, 15, 'dwie sceny epizodu 0, osiem epizodu 1 i pięć epizodu 2');
 });
 
 test('obsada epizodu i sceny obejmuje wszystkie postacie i jednostki z misji', () => {

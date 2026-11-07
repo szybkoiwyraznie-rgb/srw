@@ -146,6 +146,10 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Desant Zeonu na Jaburo i obrona bram portu kosmicznego',
       'Współdziałanie załogi White Base z 08. Plutonem MS',
       'Pojedynek słowny z Charim i rozpoznanie asa',
+      // scena 2-5: szturm Apsalusa
+      'Finał projektu Apsalusa i atak na Jaburo',
+      'Oddział Ramby Rala u boku rodu Sahalinów',
+      'Dywersja White Base i przejście do Connect Force',
     ],
   };
 
