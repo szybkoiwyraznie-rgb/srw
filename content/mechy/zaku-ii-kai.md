@@ -5,7 +5,7 @@ tytul: Zaku II Kai
 seria: mobile-suit-gundam-0080
 typ_mecha: mobile suit
 gry: [srw-oe]
-piloci: [gabriel-ramirez-garcia, hardy-steiner]
+piloci: [gabriel-ramirez-garcia, hardy-steiner, cozun-graham, zolnierz-zeonu]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_5.txt", "profil": "Zaku II Kai", "dane": "**Seria:** Mobile Suit Gundam 0080: War in the Pocket\n\n### Macierzyste zdolności maszyny\n\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n\n### Uzbrojenie i wymienione działania\n\n#### Broń i działania z niezerowym selektorem\n\n| Miejsce | Nazwa             | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |\n| ------: | ----------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |\n|       0 | Karabin maszynowy |       1300 |  1–4   |       +30 |   5 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                              |\n|       1 | Heat Hawk         |       2000 |  1–1   |       +50 |   0 |      — | Brak w tym polu | **Garda (poziom bazowy 1):** Obr+20%                                     |\n|       2 | Sturm Faust       |       2200 |  1–3   |        +0 |  15 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |"}'
 pochodzenie: menu

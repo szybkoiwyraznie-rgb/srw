@@ -99,7 +99,7 @@ test('parametry mechów nie powtarzają domyślnej załogi — piloci zostają w
     brocken: ['control-ai'],
     'rx-78-2-gundam': ['amuro-ray'],
     'white-base': ['bright-noa', 'mirai-yashima'],
-    'zaku-ii-karabin-maszynowy': ['slender', 'zolnierz-zeonu'],
+    'zaku-ii-karabin-maszynowy': ['slender', 'acous', 'zolnierz-zeonu'],
     'zaku-ii-bazooka': ['crown', 'zolnierz-zeonu'],
     'zaku-ii-char': ['char-aznable'],
     cybuster: ['masaki-andoh'],
@@ -151,7 +151,7 @@ test('profile pilotów z nowej dostawy: statystyki, komendy Ducha i umiejętnoś
 
 test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji', () => {
   const warianty = [
-    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], ['slender', 'zolnierz-zeonu']],
+    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], ['slender', 'acous', 'zolnierz-zeonu']],
     ['zaku-ii-bazooka', 2, ['Bazooka Zaku', 'Heat Hawk'], ['crown', 'zolnierz-zeonu']],
     ['zaku-ii-char', 4, ['Karabin maszynowy Zaku', 'Bazooka Zaku', 'Heat Hawk', 'Szarża barkiem'], ['char-aznable']],
   ];

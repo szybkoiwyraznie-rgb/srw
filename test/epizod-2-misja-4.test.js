@@ -74,7 +74,7 @@ test('obsada sceny to załoga White Base, 08. Pluton MS i siły desantu Zeonu', 
     for (const slug of scene[key]) assert.ok(episode[key].includes(slug), `${key}: ${slug}`);
   }
   // Okręt desantu dowodzony przez oficera Zeonu jest nową stroną tej dostawy.
-  assert.deepEqual(bySlug.get('zanzibar').piloci, ['oficer-zeonu']);
+  assert.deepEqual(bySlug.get('zanzibar').piloci, ['oficer-zeonu', 'crowley-hamon']);
   assert.ok(bySlug.get('oficer-zeonu').mechy.includes('zanzibar'));
   assert.equal(bySlug.get('zanzibar').seria, 'mobile-suit-gundam-1979');
   assert.equal(bySlug.get('zanzibar').pochodzenie, 'menu');
