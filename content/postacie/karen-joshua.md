@@ -56,6 +56,7 @@ W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] Karen służy w [[08-pluton-m
 | Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                            |
 | ---: | ------------- | ---------: | -------: | ------------------------------------------------------- |
 |    1 | **Skupienie** |          1 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%            |
+| 2 | **Nadz.** | 6 | 20 | Cel: sojusznicy 1 jedn. (nie na siebie) — Zasięg 3 SP+5 |
 
 ### Umiejętności pilota
 

@@ -53,6 +53,7 @@ Gdy [[mquve|M'Quve]] odpala [[h-bomb-missile|pocisk termojądrowy]], Bright wyko
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Wiatr** | 1 | 20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
+| 2 | **Mur** | 7 | 20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30% |
 
 ### Umiejętności pilota
 

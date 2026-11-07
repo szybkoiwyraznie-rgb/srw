@@ -43,7 +43,7 @@ Na mostku [[white-base|White Base]] melduje gotowość okrętu do startu. Po ode
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Zauf.** | 1 | 20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
-
+| 2 | **Skupienie** | 6 | 15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
 }}
 {{zrodlo gra=wspolne
 

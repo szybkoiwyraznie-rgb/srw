@@ -56,6 +56,7 @@ W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] Sanders jest drugim weteranem
 | Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                  |
 | ---: | ---------- | ---------: | -------: | --------------------------------------------- |
 |    1 | **Niezł.** |          1 |       15 | Cel: ty Efekt: 1 razy — Otrzym. obrażenia-50% |
+| 2 | **Celny** | 6 | 10 | Cel: ty Efekt: 1 razy — Celność+30% |
 
 ### Umiejętności pilota
 

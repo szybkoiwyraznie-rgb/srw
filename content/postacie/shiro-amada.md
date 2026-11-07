@@ -56,6 +56,7 @@ W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] Shiro jest świeżo przysłan
 | Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                    |
 | ---: | ---------- | ---------: | -------: | ----------------------------------------------- |
 |    1 | **Mur**    |          1 |       20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30%   |
+| 2 | **Zapał** | 6 | 20 | Cel: ty Efekt: 1 razy — Zadawane obrażenia x1,5 |
 
 ### Umiejętności pilota
 

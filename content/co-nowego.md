@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-07 09:51
+
+- [[srw-oe-ep2-szturm-apsalusa|Szturm Apsalusa]]: piąta scena drugiego epizodu — [[apsalus-iii|Apsalus III]] [[ginias-sahalin|Giniasa Sahalina]] uderza na [[jaburo|Jaburo]], a obrońcy zatrzymują maszynę kosztem wyboru, którego [[shiro-amada|Shiro]] nie chciał dokonać. [[white-base|White Base]] dostaje od [[general-revil|generała Revila]] rozkaz dywersji i wylatuje w kosmos.
+- Nowe strony: [[apsalus-iii|Apsalus III]], [[gouf-ramba-ral|Gouf Ramby Rala]], [[ginias-sahalin|Ginias Sahalin]], [[ramba-ral|Ramba Ral]], [[crowley-hamon|Crowley Hamon]], [[acous|Acous]] i [[cozun-graham|Cozun Graham]].
+- Siedmiu pilotom przybywa drugi wpis w tabelach komend: [[bright-noa|Bright Noa]], [[shiro-amada|Shiro Amada]], [[terry-sanders-jr|Terry Sanders Jr.]], [[karen-joshua|Karen Joshua]], [[michel-ninorich|Michel Ninorich]], [[mirai-yashima|Mirai Yashima]] i [[eledore-massis|Eledore Massis]].
+
 ## 2026-11-07 09:35
 
 - [[srw-oe-ep2-bitwa-o-jaburo|Bitwa o Jaburo]]: epizod domknięty narracją po bitwie — desant [[zeon|Zeonu]] nie dociera do doków, a Zeon przechodzi do wojny partyzanckiej i przenosi wysiłek w kosmos, szykując odpowiedź na przewagę materiałową [[earth-federation|Federacji]].
