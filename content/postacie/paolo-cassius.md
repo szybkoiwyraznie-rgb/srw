@@ -30,4 +30,8 @@ Kapitan [[white-base|White Base]], ranny przed starciem. Z łóżka nakazuje sta
 {{zrodlo gra=wspolne
 
 Paolo Cassius dowodzi [[white-base|White Base]] w [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]]; okręt wyrusza z [[side-7|Side 7]] pod jego dowództwem ([Gundam Wiki, „SCV-70 White Base”](https://gundam.fandom.com/wiki/SCV-70_White_Base); sprawdzono 2026-10-20).
+
+Do [[side-7|Side 7]] okręt zostaje wysłany we wrześniu [[uc-0079|U.C. 0079]], żeby zabrać stamtąd [[mobile-suit|mobile suity]] budowane w tajnym programie [[earth-federation|Federacji]] na próby w polu. Tam dopada go wypad [[char-aznable|Chara]] i to w tym ataku kapitan odnosi rany, z którymi widzimy go potem w łóżku ([Gundam Wiki, „SCV-70 White Base”](https://gundam.fandom.com/wiki/SCV-70_White_Base); sprawdzono 2026-11-07).
+
+Na [[luna-ii|Lunie II]] okręt zostaje zatrzymany przez tamtejszego komendanta, a załogę i cywilów bierze się na przesłuchania. Gdy Char atakuje bazę, to ranny Cassius przekonuje komendanta, żeby pozwolił załodze walczyć. Kapitan umiera z odniesionych na [[side-7|Side 7]] obrażeń już po odlocie ku Ziemi — i wtedy dowodzenie przejmuje młodszy oficer [[bright-noa|Bright Noa]] ([Gundam Wiki, „SCV-70 White Base”](https://gundam.fandom.com/wiki/SCV-70_White_Base); sprawdzono 2026-11-07).
 }}

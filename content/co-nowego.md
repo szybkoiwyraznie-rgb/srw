@@ -9,6 +9,7 @@
 - [[traktat-antarktyczny|Traktat Antarktyczny]] ma teraz całą historię: po klęsce pod [[loum|Loum]] szykowano dokument, który uznawał niezależność [[zeon|Księstwa]] i ograniczał [[earth-federation|Federację]] — czyli kapitulację pod inną nazwą. Przerwało to przemówienie odbitego generała [[general-revil|Revila]] z [[luna-ii|Luny II]]: Zeon jest wyczerpany, a jego zwycięstwa są pyrrusowe. Zamiast pokoju spisano więc zasady wojny, a tydzień później zaczął się desant na Ziemię.
 - Wiadomo już, czym naprawdę jest [[13-samodzielny-oddzial|13. Samodzielny Oddział]], do którego trafiają piloci [[connect-force|Connect Force]]: w pierwowzorze to flota złożona z jednego okrętu, a jej zadaniem jest być widoczną. Sława [[white-base|White Base]] ma ściągnąć uwagę [[zeon|Księstwa]] i odciągnąć ją od szykowanego szturmu na Solomon.
 - [[universal-century|Universal Century]] ma początek i rozpęd: rachuba zaczyna się, gdy Ziemię zamieszkuje ponad dziewięć miliardów ludzi i rusza zasiedlanie kolonii, a pół wieku później w kosmosie żyje dziewięć z jedenastu miliardów. Stąd biorą się idee, które doprowadzą do wojny — żądanie samodzielności kolonii i przekonanie, że ludzkość powinna zejść Ziemi z drogi.
+- Wiadomo, co stało się z [[paolo-cassius|Paolo Cassiusem]]. Kapitan [[white-base|White Base]] odniósł rany podczas ataku [[char-aznable|Chara]] na [[side-7|Side 7]]; z łóżka wymógł jeszcze na komendancie [[luna-ii|Luny II]], by pozwolił załodze walczyć, a umarł w drodze ku Ziemi — i tak dowodzenie przeszło na [[bright-noa|Brighta Nou]].
 
 ## 2026-11-07 09:51
 
