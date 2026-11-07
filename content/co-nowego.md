@@ -10,6 +10,7 @@
 - Wiadomo już, czym naprawdę jest [[13-samodzielny-oddzial|13. Samodzielny Oddział]], do którego trafiają piloci [[connect-force|Connect Force]]: w pierwowzorze to flota złożona z jednego okrętu, a jej zadaniem jest być widoczną. Sława [[white-base|White Base]] ma ściągnąć uwagę [[zeon|Księstwa]] i odciągnąć ją od szykowanego szturmu na Solomon.
 - [[universal-century|Universal Century]] ma początek i rozpęd: rachuba zaczyna się, gdy Ziemię zamieszkuje ponad dziewięć miliardów ludzi i rusza zasiedlanie kolonii, a pół wieku później w kosmosie żyje dziewięć z jedenastu miliardów. Stąd biorą się idee, które doprowadzą do wojny — żądanie samodzielności kolonii i przekonanie, że ludzkość powinna zejść Ziemi z drogi.
 - Wiadomo, co stało się z [[paolo-cassius|Paolo Cassiusem]]. Kapitan [[white-base|White Base]] odniósł rany podczas ataku [[char-aznable|Chara]] na [[side-7|Side 7]]; z łóżka wymógł jeszcze na komendancie [[luna-ii|Luny II]], by pozwolił załodze walczyć, a umarł w drodze ku Ziemi — i tak dowodzenie przeszło na [[bright-noa|Brighta Nou]].
+- W pierwowzorze [[alan-igor|Alan Igor]] jest Czarnym Rycerzem, który sprzeciwia się ojcu, [[komendant-igor|generałowi Rossowi Igorowi]], i zbiera własny elitarny korpus zamiast latać z [[cyber-beast-force|Cyber Beast Force]]. Jego maszyna, zbudowana poza warsztatem profesora Hazukiego, nie ma bariery otwieranej gniewem. W grze obaj Igorowie są po tej samej stronie, a Alan ręczy za zespół przed gospodarzami ćwiczeń.
 
 ## 2026-11-07 09:51
 
