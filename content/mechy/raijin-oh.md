@@ -70,7 +70,7 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] startuje raz
 
 {{zrodlo gra=wspolne
 
-## Pochodzenie
+## Pierwowzór
 
 Raijin-Oh (ライジンオー) to tytułowy robot serialu *Zettai Muteki Raijin-Oh* z 1991 roku. W oryginale powstaje z trzech maszyn — Ken-Oh, Hou-Oh i Juu-Oh — z których każdą pilotuje jedno z dzieci Klasy Obrony Ziemi ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 }}

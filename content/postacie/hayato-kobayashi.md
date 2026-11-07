@@ -60,4 +60,5 @@ W [[mobile-suit-gundam-1979|pierwowzorze]] Hayato jest sąsiadem [[amuro-ray|Amu
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Potenc. Obr** | 1 | Pozostałe HP 10%: Obr+5% Cel/Unik/Kryt+4% |
+| 2 | **Wsparcie** | 3 | Wsparcie: Atk/Obr+20% |
 }}

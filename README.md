@@ -36,7 +36,7 @@ powiększa ją do pełnego ekranu (ADR 0019).
 
 | Ścieżka | Co to jest |
 |---|---|
-| `episodes/` | surowe skrypty epizodów — **jedyny** materiał pisany przez właściciela, read-only |
+| `episodes/` | surowe skrypty epizodów — archiwum rozgrywki z materiału właściciela; nowy skrypt dopisuje agent z dostawy, istniejących fragmentów nie wolno zmieniać |
 | `content/gry/` | tytuły gier |
 | `content/epizody/` | rozegrane epizody: streszczenie, wątki fabularne, komentarz (sceny agregowane) |
 | `content/sceny/` | sceny epizodów: dosłowna treść z skryptu i analiza (ADR 0008) |

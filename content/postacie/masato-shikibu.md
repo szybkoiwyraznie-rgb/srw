@@ -7,6 +7,9 @@ rola: pilot
 mechy: [final-dancouga]
 gry: [srw-oe]
 pochodzenie: skrypt
+zrodla:
+  - https://en.namu.wiki/w/%EB%8B%A8%EC%BF%A0%EA%B0%80
+  - https://mechaalliance.com/anime-review-choju-kishin-dancouga-the-super-beast-machine-god/
 tagi: [pilot, dancouga, cyber-beast-force]
 utworzono: 2026-11-01
 ---
@@ -18,6 +21,14 @@ Członek [[cyber-beast-force|Cyber Beast Force]] i podpilot [[final-dancouga|Fin
 
 Po treningu docenia umiejętność wykorzystania Laborów przez Drugi Pluton. Popiera słowa Ryo o sile wynikającej z właściwego nastawienia, a przed odlotem do bazy zapewnia Himari, że oddziały niedługo znów się spotkają.
 }}
+
+{{zrodlo gra=wspolne
+
+## Pierwowzór
+
+W [[super-beast-machine-god-dancouga|pierwowzorze]] Masato Shikibu jest najmłodszym członkiem zespołu i pilotuje Land Liger — maszynę tworzącą prawą nogę Dancougi. Jego dziecinne zachowanie bywa źródłem tarć w drużynie. ([NamuWiki, „Dancouga”](https://en.namu.wiki/w/%EB%8B%A8%EC%BF%A0%EA%B0%80); [Mecha Alliance, „Choju Kishin Dancouga”](https://mechaalliance.com/anime-review-choju-kishin-dancouga-the-super-beast-machine-god/); sprawdzono 2026-11-02).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje

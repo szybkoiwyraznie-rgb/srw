@@ -137,11 +137,11 @@ test('filtr listy scen zawęża po maszynie, postaci i serii obsady', () => {
   // Scena nie ma pola `seria` — świat bierze z obsady.
   assert.deepEqual(sceny(renderListe('scena', { seria: 'matchless-raijin-oh' })),
     ['srw-oe-ep1-trening-klasy-obrony', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep2-grozba-pod-ziemia']);
-  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 13, 'wszystkie sceny są z jednej gry');
+  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 16, 'wszystkie sceny są z jednej gry');
 
   const epizody = (html) => [...new Set([...html.matchAll(/href="#\/epizod\/([^"]+)"/g)].map((m) => m[1]))];
   assert.deepEqual(epizody(renderListe('epizod', { mech: 'raijin-oh' })), ['srw-oe-ep1', 'srw-oe-ep2']);
-  assert.deepEqual(epizody(renderListe('epizod', { postac: 'char-aznable' })), ['srw-oe-ep0']);
+  assert.deepEqual(epizody(renderListe('epizod', { postac: 'char-aznable' })), ['srw-oe-ep0', 'srw-oe-ep2']);
 
   // Zestaw bez wyników zostawia filtry nad pustą listą (nie da się inaczej cofnąć wyboru).
   const pusty = renderListe('scena', { mech: 'raijin-oh', postac: 'amuro-ray' });

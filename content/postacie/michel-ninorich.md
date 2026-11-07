@@ -56,6 +56,7 @@ W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] Michel trafia do [[08-pluton-
 | Slot | Duch        | Poz. nauki | Koszt SP | Efekt bazowy                                     |
 | ---: | ----------- | ---------: | -------: | ------------------------------------------------ |
 |    1 | **Zauf.**   |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
+| 2 | **Przebł.** | 6 | 10 | Cel: ty Efekt: 1 razy — Unik+30% |
 
 ### Umiejętności pilota
 

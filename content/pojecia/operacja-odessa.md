@@ -17,7 +17,7 @@ Kontrofensywa [[earth-federation|Federacji]] mająca odbić Odessę — najwięk
 
 [[black-tri-stars|Black Tri-Stars]] mają bronić wschodniej kopalni przed „koniem trojańskim”, lecz po nieudanym starciu [[mquve|M'Quve]] nie może wysłać im posiłków, bo główne siły Federacji nacierają na froncie [[general-revil|generała Revila]]. Wtedy wspomina o cennej karcie dyplomatycznej, którą przyjdzie mu zagrać.
 
-Gdy obrona zostaje przełamana, M'Quve grozi użyciem [[h-bomb-missile|pocisku termojądrowego]] wbrew [[traktat-antarktyczny|Traktatowi Antarktycznemu]]. Revil utrzymuje natarcie, a [[amuro-ray|Amuro]] odcina zapalnik. Federacja odbiera bazę i kopalnie, podczas gdy pozostałe oddziały Zeonu rozpraszają się lub wycofują w kosmos.
+Gdy obrona zostaje przełamana, M'Quve grozi użyciem [[h-bomb-missile|pocisku termojądrowego]] wbrew [[traktat-antarktyczny|Traktatowi Antarktycznemu]]. Revil utrzymuje natarcie, a [[amuro-ray|Amuro]] odcina zapalnik. Federacja odbiera bazę i kopalnie, podczas gdy pozostałe oddziały Zeonu rozpraszają się lub wycofują w kosmos. Po utracie Odessy siły lądowe [[zeon|Zeonu]] przechodzą do wojny partyzanckiej, a ciężar wojny przenosi się w kosmos.
 }}
 {{zrodlo gra=wspolne
 

@@ -60,4 +60,5 @@ W [[mobile-suit-gundam-1979|pierwowzorze]] Kai mieszkał w kolonii Green Oasis w
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+| 2 | **Wsparcie** | 3 | Wsparcie: Atk/Obr+20% |
 }}

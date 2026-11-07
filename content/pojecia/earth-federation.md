@@ -21,6 +21,8 @@ Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]]
 W [[uc-0079|U.C. 0079]] Siły Federacji przechodzą do kontrofensywy i ruszają na [[operacja-odessa|Odessę]], największą bazę [[zeon|Zeonu]] na Ziemi. [[white-base|White Base]] wspiera natarcie od strony Azji Środkowej, a [[general-revil|generał Revil]] odrzuca atomowy szantaż [[mquve|M'Quve'a]], co wraz z przechwyceniem [[h-bomb-missile|pocisku termojądrowego]] przez [[amuro-ray|Amura]] przypieczętowuje zwycięstwo Federacji na tym froncie.
 
 W górskiej bazie w Azji Środkowej [[08-pluton-ms|08. Pluton MS]] osłania start wahadłowca z prototypowym [[rx-78nt-1-gundam-alex|Gundamem Alexem]] lecącym na [[libot|Libot]] w [[side-6|Side 6]], a następnie ratuje klucz transportowców [[medea|Medea]] dowodzony przez [[oficer-federacji|Oficera Federacji]] i odlatuje nim do głównej kwatery w [[jaburo|Jaburo]].
+
+Gdy [[white-base|White Base]] dociera do Jaburo, baza odpiera desant [[zeon|Zeonu]], a okręt zostaje na naprawy. [[general-revil|Generał Revil]] wyznacza mu potem rolę przynęty: okręt ma wystartować przed główną flotą, ściągnąć na siebie uwagę przeciwnika i po zgubieniu pościgu połączyć się z [[connect-force|Connect Force]]. Federacja chce w ten sposób przekazać tej formacji więcej sił, a Revil mówi wprost, że Zeon nie jest jedynym wrogiem ludzkości.
 }}
 {{zrodlo gra=wspolne
 

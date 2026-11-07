@@ -50,4 +50,5 @@ W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] Eledore jest weteranem [[08-p
 | Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                                                 |
 | ---: | ---------- | ---------: | -------: | ---------------------------------------------------------------------------- |
 |    1 | **Wiatr**  |          1 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd'                      |
+| 2 | **Doping** | 6 | 30 | Cel: sojusznicy 1 jedn. (Zestrzelenie: PD x2 itd.) — Zasięg 3 +'Wysiłek Lv1' |
 }}

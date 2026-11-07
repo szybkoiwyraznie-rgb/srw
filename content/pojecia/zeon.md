@@ -20,6 +20,8 @@ Państwo ogłoszone przez kolonię [[side-3|Side 3]], które rzuciło [[earth-fe
 W czasie [[operacja-odessa|operacji Odessa]] Zeon ściąga siły z Europy, Bliskiego Wschodu i Afryki pod dowództwo [[mquve|M'Quve'a]]. Na front trafiają [[black-tri-stars|Black Tri-Stars]] z trzema [[dom|Domami]], a [[white-base|White Base]] zostaje nazwana przez przeciwnika „koniem trojańskim”. W obliczu klęski M'Quve odpala [[h-bomb-missile|pocisk termojądrowy]] wbrew [[traktat-antarktyczny|Traktatowi Antarktycznemu]], a po jego rozbrojeniu przez [[amuro-ray|Amura]] Księstwo traci główną bazę na Ziemi, lecz liczy na dalszą walkę dzięki surowcom wysłanym wcześniej w kosmos.
 
 Po utracie Odessy oddziały specjalne i rozproszone siły Zeonu nadal prowadzą działania zaczepne na Ziemi: [[pluton-cyclops|pluton Cyclops]] uderza na bazę w Azji Środkowej, by powstrzymać start wahadłowca z [[rx-78nt-1-gundam-alex|Alexem]], a klucz [[dopp|Doppów]] i naziemne [[zaku-ii-karabin-maszynowy|Zaku II]] ścigają transportowce [[medea|Medea]] lecące do [[jaburo|Jaburo]].
+
+Po odparciu desantu na [[jaburo|Jaburo]] Księstwo porzuca obronę linii na Ziemi: siły lądowe przechodzą do wojny partyzanckiej i działań opóźniających, a siły kosmiczne w pośpiechu wprowadzają do służby nowe [[mobile-suit|mobile suity]] i [[mobile-armor|mobile armory]]. Jednym z takich uderzeń opóźniających jest atak [[apsalus-iii|Apsalusa III]] z projektu rodu Sahalinów, prowadzony przez [[ginias-sahalin|Giniasa]] w osłonie [[ramba-ral|Ramby Rala]] i [[crowley-hamon|Crowley Hamon]]. Najwyższy Wódz Zeonu szykuje równolegle tajny plan wymierzony w przewagę materiałową [[earth-federation|Federacji]].
 }}
 {{zrodlo gra=wspolne
 

@@ -7,6 +7,9 @@ rola: pilot
 mechy: [final-dancouga]
 gry: [srw-oe]
 pochodzenie: skrypt
+zrodla:
+  - https://en.namu.wiki/w/%EB%8B%A8%EC%BF%A0%EA%B0%80
+  - https://mechaalliance.com/anime-review-choju-kishin-dancouga-the-super-beast-machine-god/
 tagi: [pilot, dancouga, cyber-beast-force]
 utworzono: 2026-11-01
 ---
@@ -18,6 +21,14 @@ Członkini [[cyber-beast-force|Cyber Beast Force]] i podpilotka [[final-dancouga
 
 W ćwiczeniach dostrzega sens podziału ról z Laborami. Po pokazie mocy tłumaczy, że tak silnej techniki nie można używać często, a po zakończeniu treningu dziękuje policjantom za uzupełnianie niedostatków własnego zespołu. Zapowiada, że cieszy ją perspektywa oficjalnego dołączenia do Connect Force.
 }}
+
+{{zrodlo gra=wspolne
+
+## Pierwowzór
+
+W [[super-beast-machine-god-dancouga|pierwowzorze]] Sara Yuki jest jedyną kobietą w zespole i pilotuje Land Cougar — maszynę, która w połączonej formie tworzy lewą nogę Dancougi. ([NamuWiki, „Dancouga”](https://en.namu.wiki/w/%EB%8B%A8%EC%BF%A0%EA%B0%80); [Mecha Alliance, „Choju Kishin Dancouga”](https://mechaalliance.com/anime-review-choju-kishin-dancouga-the-super-beast-machine-god/); sprawdzono 2026-11-02).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje

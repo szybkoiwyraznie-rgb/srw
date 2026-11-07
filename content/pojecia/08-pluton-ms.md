@@ -17,7 +17,7 @@ Naziemny oddział [[earth-federation|Federacji Ziemskiej]] dowodzony przez chor�
 
 Oddział patroluje sektory wokół górskiej bazy, zatrzymuje szturm [[pluton-cyclops|plutonu Cyclops]] i zabezpiecza transport [[rx-78nt-1-gundam-alex|Alexa]]. Po misji ma przenieść się do [[jaburo|Jaburo]], ale najpierw czeka na własny transportowiec.
 
-Następnie odpowiada na wezwanie klucza [[medea|Medei]] i osłania go przed atakiem z powietrza oraz z ziemi. Po akcji ratunkowej uratowany transportowiec zabiera cały oddział do Jaburo.
+Następnie odpowiada na wezwanie klucza [[medea|Medei]] i osłania go przed atakiem z powietrza oraz z ziemi. Po akcji ratunkowej uratowany transportowiec zabiera cały oddział do Jaburo. Tam pluton broni bramy portu kosmicznego przed desantem [[char-aznable|Chara]], a następnie wchodzi na pokład [[white-base|White Base]]: [[shiro-amada|Shiro]] melduje się [[bright-noa|Brightowi]] jako oficer okrętu, a maszyny oddziału stają do obrony bazy przed [[apsalus-iii|Apsalusem III]]. Wraz z okrętem pluton opuszcza Ziemię, gdy główna flota startuje ku Solomonowi.
 }}
 {{zrodlo gra=wspolne
 

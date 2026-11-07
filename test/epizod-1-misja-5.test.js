@@ -111,7 +111,7 @@ test('siedem jednostek katalogowych zachowuje kompletne profile i wiersze uzbroj
     'kampfer-high-mobility': ['Kampfer/High Mobility', 'mobile-suit-gundam-0080',
       ['mikhail-kaminsky'], 4],
     'zaku-ii-kai': ['Zaku II Kai', 'mobile-suit-gundam-0080',
-      ['gabriel-ramirez-garcia', 'hardy-steiner'], 3],
+      ['gabriel-ramirez-garcia', 'hardy-steiner', 'cozun-graham', 'zolnierz-zeonu'], 3],
   };
   for (const [slug, [profil, seria, piloci, liczba]] of Object.entries(profile)) {
     const mech = bySlug.get(slug);

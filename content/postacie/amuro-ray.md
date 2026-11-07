@@ -53,7 +53,7 @@ W finale [[operacja-odessa|operacji Odessa]] otrzymuje od [[bright-noa|Brighta]]
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Skupienie** | 1 | 15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
-
+| 2 | **Przebł.** | 6 | 10 | Cel: ty Efekt: 1 razy — Unik+30% |
 ### Umiejętności pilota
 
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |

@@ -21,6 +21,8 @@ utworzono: 2026-10-23
 W [[srw-oe|Super Robot Wars OE]] serię reprezentuje [[08-pluton-ms|08. Pluton MS]]: [[shiro-amada|Shiro Amada]] w [[gundam-ez8|Gundamie Ez8]], [[karen-joshua|Karen Joshua]] i [[terry-sanders-jr|Terry Sanders Jr.]] w [[gundam-ground-type|Gundamach Ground Type]] oraz [[michel-ninorich|Michel Ninorich]] z [[eledore-massis|Eledore Massisem]] w [[hover-truck|Hover Trucku]]. Karen wraca także do walki w odrębnej [[gundam-ground-type-glowa-gm|konfiguracji z głową GM-a]].
 
 Oddział osłania start wahadłowca z [[rx-78nt-1-gundam-alex|Alexem]], łącząc wątek tej serii z wydarzeniami [[mobile-suit-gundam-0080|Mobile Suit Gundam 0080]].
+
+Po stronie [[zeon|Zeonu]] serię reprezentuje ród Sahalinów: [[ginias-sahalin|Ginias Sahalin]], dowódca projektu Apsalusa, który wyprowadza na [[jaburo|Jaburo]] [[apsalus-iii|Apsalusa III]] — ciężki mobile armor z działem megacząsteczkowym.
 }}
 {{zrodlo gra=wspolne
 
