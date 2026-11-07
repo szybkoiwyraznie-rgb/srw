@@ -8,6 +8,9 @@
 - [[zeon|Zeon]] po Jaburo porzuca obronę linii na Ziemi i przenosi ciężar wojny w kosmos, stawiając na nowe [[mobile-suit|mobile suity]] i [[mobile-armor|mobile armory]].
 - [[earth-federation|Federacja]] wyznacza [[white-base|White Base]] rolę przynęty przed ofensywą; okręt ma po zgubieniu pościgu połączyć się z [[connect-force|Connect Force]].
 - Nowe hasło [[mobile-armor|mobile armor]] opisuje klasę maszyn, do której należy [[apsalus-iii|Apsalus III]].
+- Szósta scena epizodu 2: [[white-base|White Base]] opuszcza [[jaburo|Jaburo]] jako przynęta i musi przebić się przez trzy [[musai|Musai]] Patrolowej Floty Camel, zanim [[zanzibar|Zanzibar]] zamknie kleszcze.
+- Nowe strony: krążownik [[musai|Musai]], kosmiczny [[rick-dom|Rick Dom]], komandor [[dren|Dren]] oraz [[patrolowa-flota-camel|Patrolowa Flota Camel]].
+- Profil [[char-aznable|Chara]] uzupełniony o umiejętność *Dwa ataki*.
 - Nowe strony mają ilustracje: Apsalus III, dwa ujęcia Goufa Ramby Rala oraz portrety Giniasa Sahalina, Ramby Rala, Crowley Hamon, Acousa i Cozuna Grahama.
 - Siedmiu pilotom przybywa drugi wpis w tabelach komend: [[bright-noa|Bright Noa]], [[shiro-amada|Shiro Amada]], [[terry-sanders-jr|Terry Sanders Jr.]], [[karen-joshua|Karen Joshua]], [[michel-ninorich|Michel Ninorich]], [[mirai-yashima|Mirai Yashima]] i [[eledore-massis|Eledore Massis]].
 

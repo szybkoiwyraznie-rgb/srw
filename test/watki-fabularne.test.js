@@ -150,6 +150,10 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Finał projektu Apsalusa i atak na Jaburo',
       'Oddział Ramby Rala u boku rodu Sahalinów',
       'Dywersja White Base i przejście do Connect Force',
+      // scena 2-6: przebicie się siłą
+      'Rozmowa Chara z Drenem i wezwanie floty Camel',
+      'Przebicie przez Patrolową Flotę Camel',
+      'Przynęta, pięć minut i kurs na Connect',
     ],
   };
 

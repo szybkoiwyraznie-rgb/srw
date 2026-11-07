@@ -51,6 +51,7 @@ Ocenia, że [[rx-78-2-gundam|Gundam]] i maszyna [[connect-force|Connect]] mogą 
 |---:|---|---:|---|
 | 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
 | 2 | **Newtype** | 3 | Cel/Unik+6 / Kryt Obraż.+18% |
+| 3 | **Dwa ataki** | 3 | Atakuje 2 razy w 1 turę |
 }}
 {{zrodlo gra=wspolne
 
