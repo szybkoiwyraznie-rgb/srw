@@ -24,6 +24,8 @@ Dowodzi nim [[bright-noa|Bright]], lecz ranny [[paolo-cassius|kapitan Paolo]] wc
 Okręt kieruje się ku Azji Środkowej, by wesprzeć [[operacja-odessa|operację Odessa]]; [[zeon|Zeon]] nazywa go „koniem trojańskim”. Po rozpyleniu [[minovsky-particles|cząstek Minovsky’ego]] startują [[rx-78-2-gundam|Gundam]], [[guncannon|Guncannon]], [[guntank|Guntank]] i [[g-fighter|G-Fighter]], a okręt odpiera [[black-tri-stars|Black Tri-Stars]] i ich [[dom|Domy]].
 
 W finałowej fazie bitwy mostek rozpoznaje start [[h-bomb-missile|pocisku termojądrowego]]. [[bright-noa|Bright]] kieruje Gundama na kurs przechwycenia, a [[oscar-dublin|Oscar]] i [[marker|Marker]] potwierdzają, że odcięcie zapalnika zapobiegło reakcji jądrowej.
+
+W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatnim pościgu epizodu]] okręt dociera do punktu spotkania z [[connect-force|Connect]] z [[zanzibar|Zanzibarem]] na ogonie. Obronę prowadzą piloci przywykli do przestrzeni, bo maszyny [[08-pluton-ms|08. Plutonu MS]] zostają w hangarze. Po przerwaniu ognia i zniszczeniu [[bigro|Bigro]] okręt wchodzi w skład [[connect-force|Connect Force]] jako [[13-samodzielny-oddzial|13. Samodzielny Oddział]].
 }}
 
 {{menu gra=srw-oe

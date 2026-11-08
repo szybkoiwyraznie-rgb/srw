@@ -20,6 +20,8 @@ utworzono: 2026-11-05
 Okręt desantowy [[zeon|Zeonu]], który bierze udział w ataku na [[jaburo|Jaburo]]. W misji dowodzi nim [[oficer-zeonu|Oficer Zeonu]], a maszyna wchodzi do walki razem z [[zaku-ii-char|Zaku II Chara]] i pozostałymi [[mobile-suit|mobile suitami]] desantu.
 
 Uzbrojenie okrętowe obejmuje podwójne działko automatyczne, podwójne działo główne, stałe działo megacząsteczkowe i rakiety typu J — działa główne oraz rakiety mają premię przeciw celom okrętowym.
+
+W [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu za White Base]] okręt dogania przynętę tuż przed punktem spotkania z [[connect-force|Connect]] i wypuszcza [[mobile-suit|mobile suity]] [[char-aznable|Chara]]. Po ogłoszonym rozejmie startuje z niego bez rozkazu [[bigro|Bigro]] [[tokwan|Tokwana]]; gdy maszyna ginie, z Zanzibara przychodzi depesza z przeprosinami i zapowiedzią natychmiastowego opuszczenia pola walki.
 }}
 
 {{zrodlo gra=wspolne

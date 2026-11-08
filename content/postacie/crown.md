@@ -5,7 +5,7 @@ tytul: Crown
 seria: mobile-suit-gundam-1979
 rola: pilot
 gry: [srw-oe]
-mechy: [zaku-ii-bazooka]
+mechy: [zaku-ii-bazooka, rick-dom]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Crown
@@ -19,6 +19,8 @@ utworzono: 2026-10-20
 Pilot [[zeon|Zeonu]] w grupie [[char-aznable|Chara]]. Uznaje wsparcie [[connect-force|Connect]] dla [[white-base|White Base]] za złamanie traktatu i pyta o rozkaz ataku. Po decyzji Chara melduje odwrót.
 
 W eskorcie [[char-aznable|Chara]] leci [[zaku-ii-bazooka|Zaku II z bazooką]], obok [[slender|Slendera]] w [[zaku-ii-karabin-maszynowy|maszynie z karabinem maszynowym]].
+
+W [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu za White Base]] leci u boku [[char-aznable|Chara]] w [[rick-dom|Rick Domie]]; wycofując się, przypomina, że komandor uratował mu życie, więc nie zamierza zginąć w takim miejscu.
 }}
 
 {{zrodlo gra=wspolne

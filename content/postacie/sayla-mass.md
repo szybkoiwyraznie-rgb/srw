@@ -51,6 +51,7 @@ Gdy pojawia się groźba bomby wodorowej, Sayla pyta, czy [[h-bomb-missile|pocis
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Pęd** | 1 | 20 | Cel: ty Efekt: 1 razy — Ruch+3 |
+| 2 | **Więź** | 8 | 15 | Cel: sojusznicy 1 jedn. (Celność w górę) — Zasięg 4+'Celny strzał Lv 1' |
 
 ### Umiejętności pilota
 

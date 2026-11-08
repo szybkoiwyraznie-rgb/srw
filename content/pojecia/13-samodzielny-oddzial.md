@@ -18,6 +18,8 @@ Nowo utworzony oddział [[earth-federation|Federacji]], z którym mają połącz
 Piloci pozostają na [[stacja-connect|stacji Connect]] i ćwiczą na symulatorach, czekając na przybycie oddziału.
 
 Okazuje się nim [[white-base|White Base]]: po obronie [[jaburo|Jaburo]] okręt wylatuje w kosmos jako 13. Samodzielny Oddział i leci przodem przed główną flotą ruszającą na zeonowską fortecę Solomon. Dowodzi nim [[bright-noa|Bright]], a na pokładzie jest też [[08-pluton-ms|08. Pluton MS]] z [[shiro-amada|Shiro Amadą]].
+
+W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatniej misji epizodu]] oddział kończy drogę do nowej formacji: [[seishiro|Seishiro]] ogłasza, że 13. Samodzielny Oddział jako jednostka [[earth-federation|Federacji]] przechodzi pod jurysdykcję [[connect-force|Connect Force]], a [[bright-noa|Bright Noa]] zachowuje dowodzenie w misjach, w których okrętem-matką jest [[white-base|White Base]].
 }}
 
 {{zrodlo gra=wspolne

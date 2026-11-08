@@ -186,15 +186,17 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka']) {
     assert.ok(bySlug.get(slug).piloci.includes('zolnierz-zeonu'), `${slug}: domyślna załoga`);
   }
-  assert.deepEqual(bySlug.get('char-aznable').mechy, ['zaku-ii-char']);
+  // Dostawa 2-7 dołożyła Charowi drugą maszynę (Gelgoog), więc lista rośnie o nią.
+  assert.deepEqual(bySlug.get('char-aznable').mechy, ['zaku-ii-char', 'gelgoog-char']);
   const scena = bySlug.get('srw-oe-ep0-na-ratunek-white-base');
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka', 'zaku-ii-char']) {
     assert.ok(scena.mechy.includes(slug), `scena 0-2: ${slug} w obsadzie`);
     assert.ok(bySlug.get('srw-oe-ep0').mechy.includes(slug), `epizod 0: ${slug} w obsadzie`);
   }
   // Obsada misji rozstrzyga, kto siedzi w której maszynie (ADR 0024).
-  assert.deepEqual(bySlug.get('slender').mechy, ['zaku-ii-karabin-maszynowy']);
-  assert.deepEqual(bySlug.get('crown').mechy, ['zaku-ii-bazooka']);
+  // W misji 2-7 ta sama dwójka przesiada się do Rick Domów, więc listy mają po dwie pozycje.
+  assert.deepEqual(bySlug.get('slender').mechy, ['zaku-ii-karabin-maszynowy', 'rick-dom']);
+  assert.deepEqual(bySlug.get('crown').mechy, ['zaku-ii-bazooka', 'rick-dom']);
   assert.match(bySlug.get('slender').body, /leci \[\[zaku-ii-karabin-maszynowy\|Zaku II z karabinem maszynowym\]\]/);
   assert.match(bySlug.get('crown').body, /leci \[\[zaku-ii-bazooka\|Zaku II z bazooką\]\]/);
   assert.match(bySlug.get('zaku-ii-karabin-maszynowy').body, /prowadzi \[\[slender\|Slender\]\]/);

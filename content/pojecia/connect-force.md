@@ -27,6 +27,8 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Seishiro po 
 W [[srw-oe-ep2-ryk-dziczy|„Ryku dziczy”]] piloci ćwiczą na stacji razem z [[cyber-beast-force|Cyber Beast Force]]. Connect współpracuje z działem konstrukcyjnym tego oddziału przy badaniach nowych materiałów i oprogramowaniu. Po treningu załoga Dancougi wraca do bazy, a piloci Connect czekają na przybycie [[13-samodzielny-oddzial|13. Samodzielnego Oddziału Federacji]]. Oficjalne dołączenie Cyber Beast Force jest dopiero zapowiedziane.
 
 W [[srw-oe-ep2-szturm-apsalusa|„Szturmie Apsalusa”]] wychodzi na jaw, że [[earth-federation|Federacja]] zamierza przekazać Connect Force więcej sił: [[general-revil|generał Revil]] wyznacza [[white-base|White Base]] zadanie przynęty, po którym okręt ma po zgubieniu pościgu połączyć się z formacją.
+
+W [[srw-oe-ep2-w-poscigu-za-zanzibarem|„W pościgu za Zanzibarem”]] zapowiedź staje się faktem. [[seishiro|Seishiro]] przerywa walkę wezwaniem do zawieszenia ognia i bierze [[white-base|White Base]] pod jurysdykcję formacji, a [[char-aznable|Char]] uznaje to i wycofuje swoje jednostki. Zaraz potem okazuje się, jak kruche jest to umocowanie: [[tokwan|Tokwan]] startuje [[bigro|Bigro]] mimo rozejmu, odpowiadając, że prywatna firma nie będzie rządzić na polu bitwy. Od tej pory do Connect Force należy też [[13-samodzielny-oddzial|13. Samodzielny Oddział]], a zadaniem formacji są zagrożenia dla całej ludzkości, zaczynając od okolic Ziemi.
 }}
 {{zrodlo gra=srw-oe
 

@@ -154,6 +154,11 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Rozmowa Chara z Drenem i wezwanie floty Camel',
       'Przebicie przez Patrolową Flotę Camel',
       'Przynęta, pięć minut i kurs na Connect',
+      // scena 2-7: W pościgu za Zanzibarem
+      'Pościg Zanzibara i starcie z Bigro',
+      'Gelgoog w pościgu za okrętem',
+      'Przerwanie ognia przez Connect Force',
+      'Samowolny start i prywatna zemsta Tokwana',
     ],
   };
 

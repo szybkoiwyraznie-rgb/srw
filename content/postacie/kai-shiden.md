@@ -54,6 +54,7 @@ W [[mobile-suit-gundam-1979|pierwowzorze]] Kai mieszkał w kolonii Green Oasis w
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Niezł.** | 1 | 15 | Cel: ty Efekt: 1 razy — Otrzym. obrażenia-50% |
+| 2 | **Duch** | 8 | 15 | Cel: ty — Morale+5 |
 
 ### Umiejętności pilota
 

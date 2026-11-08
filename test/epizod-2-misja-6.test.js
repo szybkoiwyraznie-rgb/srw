@@ -72,7 +72,8 @@ test('obsada sceny obejmuje załogę White Base, Chara i flotę Drena', () => {
   }
   // Nowe strony tej dostawy i odwrotne przypisania.
   assert.deepEqual(bySlug.get('musai').piloci, ['dren', 'oficer-zeonu']);
-  assert.deepEqual(bySlug.get('rick-dom').piloci, ['zolnierz-zeonu']);
+  // W misji 2-7 Rick Domy dostają imiennych pilotów (Slender i Crown), więc lista rośnie.
+  assert.deepEqual(bySlug.get('rick-dom').piloci, ['zolnierz-zeonu', 'slender', 'crown']);
   assert.deepEqual(bySlug.get('dren').mechy, ['musai']);
   assert.equal(bySlug.get('dren').rola, 'dowodztwo');
   assert.equal(bySlug.get('dren').seria, 'mobile-suit-gundam-1979');

@@ -1,5 +1,13 @@
 # Co nowego
 
+## 2026-11-08 10:30
+
+- Siódma misja drugiego epizodu, [[srw-oe-ep2-w-poscigu-za-zanzibarem|„W pościgu za Zanzibarem”]], domyka drogę [[white-base|White Base]] do [[connect-force|Connect]]. [[zanzibar|Zanzibar]] dogania przynętę tuż przed punktem spotkania, [[char-aznable|Char]] szarżuje na okręt nową maszyną, a bitwę przerywa nie trafienie, tylko komunikat: [[seishiro|Seishiro]] ogłasza, że okręt podlega [[connect-force|Connect Force]], i Czerwona Kometa to uznaje.
+- Rozejm nie obowiązuje wszystkich. [[tokwan|Tokwan]], który zna [[dren|Drena]] z czasów rekruckich, startuje wbrew rozkazowi, żeby pomścić [[patrolowa-flota-camel|flotę Camel]], i odpowiada [[seishiro|Seishirowi]], że prywatna firma nie będzie rządzić na polu bitwy. Po zniszczeniu jego maszyny [[char-aznable|Char]] nie potępia podwładnego — żałuje jednostki i życzy mu ucieczki, a na [[white-base|White Base]] przychodzi depesza z przeprosinami.
+- [[13-samodzielny-oddzial|13. Samodzielny Oddział]] przechodzi pod jurysdykcję [[connect-force|Connect Force]], a [[bright-noa|Bright Noa]] zachowuje dowodzenie wszędzie tam, gdzie okrętem-matką jest [[white-base|White Base]]. Zadaniem formacji są odtąd zagrożenia dla całej ludzkości, zaczynając od okolic Ziemi.
+- Nowe strony: [[bigro|Bigro]], [[gelgoog-char|Gelgoog Chara]] i porucznik [[tokwan|Tokwan]]. Bigro powstał z przegranego przedwojennego projektu i nadrabia prędkością oraz szponami zdolnymi przebić pancerz Gundama, a Gelgoog jest pierwszym seryjnym [[mobile-suit|mobile suitem]] [[zeon|Zeonu]] z karabinem wiązkowym.
+- [[slender|Slender]] i [[crown|Crown]] przesiadają się z Zaku II do kosmicznych [[rick-dom|Rick Domów]], a pięcioro pilotów — [[kai-shiden|Kai]], [[hayato-kobayashi|Hayato]], [[sayla-mass|Sayla]], [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] — ma w tabelach komend kolejne pozycje do nauki.
+
 ## 2026-11-07 21:55
 
 - [[srw-oe-ep2-przebicie-sila|Przebicie się siłą]]: doprecyzowane odcinki pierwowzoru. Pościg [[zanzibar|Zanzibara]] nad Ziemią to trzydziesty pierwszy odcinek serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] („A Decoy in Space”, 3 listopada 1979), a starcie z krążownikami [[dren|Drena]] — trzydziesty drugi („Breakthrough”, 10 listopada 1979). Tabela wątków epizodu 2 podaje teraz te same numery co reszta bazy.

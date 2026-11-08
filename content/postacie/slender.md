@@ -5,7 +5,7 @@ tytul: Slender
 seria: mobile-suit-gundam-1979
 rola: pilot
 gry: [srw-oe]
-mechy: [zaku-ii-karabin-maszynowy]
+mechy: [zaku-ii-karabin-maszynowy, rick-dom]
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Slender
@@ -19,6 +19,8 @@ utworzono: 2026-10-20
 Pilot [[zeon|Zeonu]] w grupie [[char-aznable|Chara]]. Nie rozpoznaje maszyny [[connect-force|Connect]] i dziwi się, że komandor nie atakuje. Posłusznie przyjmuje jednak rozkaz wycofania.
 
 W eskorcie [[char-aznable|Chara]] leci [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]], obok [[crown|Crowna]] w [[zaku-ii-bazooka|maszynie z bazooką]].
+
+W [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu za White Base]] osłania [[char-aznable|Chara]] w kosmicznym [[rick-dom|Rick Domie]]; przy odwrocie zapowiada, że nie zginie, zanim nie zdobędzie chwały.
 }}
 
 {{zrodlo gra=wspolne
