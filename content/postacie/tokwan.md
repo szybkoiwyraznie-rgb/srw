@@ -27,7 +27,7 @@ Jego maszyna zostaje zniszczona. [[char-aznable|Char]] przyjmuje meldunek bez gn
 
 ## Pierwowzór
 
-W [[mobile-suit-gundam-1979|pierwowzorze]] Tokwan (トクワン) jest odznaczonym asem i dawnym inżynierem firmy MIP, a w strukturze [[zeon|Księstwa]] nosi stopień kapitana; dowodzi kompanią, w której testuje się doświadczalne [[mobile-suit|mobile suity]] i [[mobile-armor|mobile armory]]. Status asa nadał mu Dozle Zabi, a na hełmie nosi własny znak — rogatą czaszkę. Najbardziej znany jest właśnie jako pilot [[bigro|Bigro]] ([Gundam Wiki, „Tokwan”](https://gundam.fandom.com/wiki/Tokwan); sprawdzono 2026-11-08).
+W [[mobile-suit-gundam-1979|serialu]] Tokwan (トクワン) jest kapitanem [[zeon|Zeonu]], podkomendnym [[char-aznable|Chara]] i pilotem [[bigro|Bigro]] na Zanzibarze. W kampanii OE nazywa się go porucznikiem. Gundam Wiki zaznacza, że serial nie wyjaśnia wcześniejszego pochodzenia jego statusu asa; późniejsze materiały wiążą go z pracą inżyniera w firmie MIP i przedstawiają jako asa, któremu status nadał Dozle Zabi. Na hełmie nosi własny znak — rogatą czaszkę ([Gundam Wiki, „Tokwan”](https://gundam.fandom.com/wiki/Tokwan); sprawdzono 2026-11-08).
 }}
 
 {{menu gra=srw-oe
