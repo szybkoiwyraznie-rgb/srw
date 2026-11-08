@@ -1,6 +1,10 @@
 # Co nowego
 
-## 2026-11-08 11:10
+## 2026-11-08 10:44
+
+- Tło [[tokwan|Tokwana]] rozdziela stopnie z różnych kontekstów: w kampanii OE jest porucznikiem, a w serialu kapitanem. Informacje o statusie asa i pracy w MIP pochodzą z późniejszych materiałów.
+
+## 2026-11-08 10:40
 
 - Obsada siódmej misji ma ilustracje: [[bigro|Bigro]], dwa ujęcia [[gelgoog-char|Gelgooga Chara]] i portret porucznika [[tokwan|Tokwana]].
 

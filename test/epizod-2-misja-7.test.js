@@ -176,6 +176,14 @@ test('strony misji nie ujawniają etykiet technicznych ani przyszłych walk', ()
   assert.doesNotMatch(opisTokwana, /zginął|ginie|śmierć/);
 });
 
+test('tło Tokwana rozdziela serial, materiały późniejsze i rangę z OE', () => {
+  const tokwan = bySlug.get('tokwan').body;
+  assert.match(tokwan, /Tokwan \(トクワン\) jest kapitanem/);
+  assert.match(tokwan, /kampanii OE nazywa się go porucznikiem/);
+  assert.match(tokwan, /serial nie wyjaśnia wcześniejszego pochodzenia jego statusu asa/);
+  assert.match(tokwan, /późniejsze materiały/);
+});
+
 test('13. Samodzielny Oddział wchodzi pod jurysdykcję Connect Force', () => {
   const trzynasty = bySlug.get('13-samodzielny-oddzial').body;
   assert.match(trzynasty, /jurysdykcj[ęi] \[\[connect-force\|Connect Force\]\]/);
