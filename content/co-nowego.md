@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-08 12:30
+
+- Tło [[tokwan|Tokwana]] doprecyzowane: w serialu porucznikiem jest dopiero jako zastępca [[char-aznable|Chara]] na [[zanzibar|Zanzibarze]], a zwrot „poruczniku” z odcinka 32 część opracowań tłumaczy jako błąd, część jako pośmiertną degradację za opuszczenie Kalifornii. W kampanii OE tytuł porucznika jest konsekwentny, a status asa i praca w MIP pochodzą z późniejszych materiałów.
+
 ## 2026-11-08 10:44
 
 - Tło [[tokwan|Tokwana]] rozdziela stopnie z różnych kontekstów: w kampanii OE jest porucznikiem, a w serialu kapitanem. Informacje o statusie asa i pracy w MIP pochodzą z późniejszych materiałów.
