@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-08 11:10
+
+- Obsada siódmej misji ma ilustracje: [[bigro|Bigro]], dwa ujęcia [[gelgoog-char|Gelgooga Chara]] i portret porucznika [[tokwan|Tokwana]].
+
 ## 2026-11-08 10:30
 
 - Siódma misja drugiego epizodu, [[srw-oe-ep2-w-poscigu-za-zanzibarem|„W pościgu za Zanzibarem”]], domyka drogę [[white-base|White Base]] do [[connect-force|Connect]]. [[zanzibar|Zanzibar]] dogania przynętę tuż przed punktem spotkania, [[char-aznable|Char]] szarżuje na okręt nową maszyną, a bitwę przerywa nie trafienie, tylko komunikat: [[seishiro|Seishiro]] ogłasza, że okręt podlega [[connect-force|Connect Force]], i Czerwona Kometa to uznaje.

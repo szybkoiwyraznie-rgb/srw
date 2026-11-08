@@ -34,6 +34,19 @@ Seria Gelgoog jest pierwszym seryjnym mobile suitem Zeonu z karabinem wiązkowym
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Gelgoog (Char) — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Gelgoog.png)
+
+### Ilustracja 2
+
+![Gelgoog (Char) — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Gelgoog%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Mobile Suit Gundam

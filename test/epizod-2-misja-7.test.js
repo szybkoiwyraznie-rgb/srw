@@ -185,3 +185,31 @@ test('13. Samodzielny Oddział wchodzi pod jurysdykcję Connect Force', () => {
   assert.match(connect, /\[\[tokwan\|Tokwan\]\]/);
   assert.deepEqual(bySlug.get('char-aznable').mechy, ['zaku-ii-char', 'gelgoog-char']);
 });
+
+test('trzy nowe strony mają galerię ilustracji z dokładnym kluczem R2', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const dostawa = {
+    bigro: ['Bigro.png'],
+    'gelgoog-char': ['Gelgoog.png', 'Gelgoog 2.png'],
+    tokwan: ['characters/Tokwan.png'],
+  };
+  for (const [slug, pliki] of Object.entries(dostawa)) {
+    assert.deepEqual(manifest.encje[slug], pliki, slug);
+    const page = bySlug.get(slug);
+    assert.equal((page.body.match(/^## Ilustracje$/gm) ?? []).length, 1, slug);
+    assert.equal((page.body.match(/^### Ilustracja \d+$/gm) ?? []).length, pliki.length, slug);
+    assert.equal((page.body.match(/!\[/g) ?? []).length, pliki.length, slug);
+    assert.ok(page.body.indexOf('## Ilustracje') < page.body.indexOf('## Parametry'), `${slug}: galeria przed parametrami`);
+    assert.match(page.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/);
+    pliki.forEach((plik, i) => {
+      const podpis = `${page.tytul} — ilustracja ${i + 1} z ${pliki.length}`;
+      const adres = plik.split('/').map(encodeURIComponent).join('/');
+      assert.ok(page.body.includes(`![${podpis}](${manifest.baseUrl}/${adres})`), `${slug}: ${plik}`);
+    });
+  }
+  assert.equal(manifest.weryfikacjaZdalna, false, 'lista R2 nie jest obejrzeniem obrazów');
+  assert.equal(manifest.dostarczono, '2026-11-08');
+  assert.match(manifest.podstawa, /Dostawa ilustracji misji 7 \(2026-11-08\)/);
+  assert.match(manifest.uwaga, /83 portrety w characters\/ i 99 plików jednostek w korzeniu, razem 182 obrazy przy 138 encjach/);
+  assert.match(manifest.uwaga, /Actions 42467707426, check-run 128690959195/);
+});
