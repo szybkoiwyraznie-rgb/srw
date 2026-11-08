@@ -519,5 +519,5 @@ Motyw samodzielnego lotu Labora i wycofania Buda na rozkaz Utsumiego występuje 
 - **Ochrona jako zasłona.** Kurosaki występuje jako doradca HSS, a bezzałogowe Brockeny i zagłuszanie odcinają pluton od dowództwa.
 - **Ograniczenia przewagi technicznej.** Exart wykrywa brak życia w Laborach, ale nie identyfikuje Griffona i traci go podczas odwrotu.
 - **Nierozstrzygnięte starcie.** Bud odlatuje na rozkaz, nie zostaje schwytany. Goto cieszy się przede wszystkim z ocalenia plutonu.
-- **Powiązanie z Connect.** Zadanie SV2 odbywa się przed odlotem do kosmosu, a Himari traktuje funkcjonariuszy jako towarzyszy Connect Force.
+- **Powiązanie z Connect.** Zadanie SV2 odbywa się przed odlotem do kosmosu, a Himari traktuje funkcjonariuszy jako towarzyszy [[connect-force|Connect Force]].
 }}

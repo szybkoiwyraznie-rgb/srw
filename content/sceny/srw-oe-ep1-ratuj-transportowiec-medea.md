@@ -182,7 +182,7 @@ Karen dopiero po walce dowiaduje się, że Medea nie wiozła części zamiennych
 
 ## Nawiązania do oryginalnych odcinków
 
-Wydarzenia z tej sceny nie przenoszą konkretnego odcinka — obrona klucza Medei i dalszy lot do Jaburo należą do rozgrywkowego wątku gry. Bohaterowie oraz maszyny pochodzą natomiast z **''Mobile Suit Gundam: The 08th MS Team''**, serialu o naziemnym oddziale Federacji walczącym w czasie Wojny Jednorocznej ([Wikipedia, „Mobile Suit Gundam: The 08th MS Team”](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-24).
+Wydarzenia z tej sceny nie przenoszą konkretnego odcinka — obrona klucza Medei i dalszy lot do Jaburo należą do rozgrywkowego wątku gry. Bohaterowie oraz maszyny pochodzą natomiast z **[[mobile-suit-gundam-08th-ms-team|Mobile Suit Gundam: The 08th MS Team]]**, serialu o naziemnym oddziale Federacji walczącym w czasie Wojny Jednorocznej ([Wikipedia, „Mobile Suit Gundam: The 08th MS Team”](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-24).
 
 [[medea|Medea]] jest znanym z oryginału samolotem transportowym Federacji, wykorzystywanym do przewozu zaopatrzenia i mobile suitów. Jej ograniczone uzbrojenie obronne to karabiny przeciwlotnicze; gra zachowuje to lekkie uzbrojenie, ale sama przedstawiona tutaj akcja ratunkowa nie jest przypisana żadnemu odcinkowi ([Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24).
 

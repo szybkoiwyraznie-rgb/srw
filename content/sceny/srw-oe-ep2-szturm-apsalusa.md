@@ -631,7 +631,7 @@ Odprawa na mostku zamyka ziemski rozdział: dowództwo i flota kosmiczna ocalał
 
 ### Opuszczenie Ziemi
 
-Narracja przenosi front w kosmos: główna flota startuje z [[jaburo|Jaburo]] i rusza na zeonowską fortecę Solomon, a [[white-base|White Base]] jako 13. Samodzielny Oddział leci przodem, żeby odciągnąć wroga. W tym samym czasie z bazy Zeonu startuje [[zanzibar|Zanzibar]] z [[char-aznable|Charem]] na pokładzie, by ścigać okręt — epizod kończy się zapowiedzią pościgu.
+Narracja przenosi front w kosmos: główna flota startuje z [[jaburo|Jaburo]] i rusza na zeonowską fortecę Solomon, a [[white-base|White Base]] jako [[13-samodzielny-oddzial|13. Samodzielny Oddział]] leci przodem, żeby odciągnąć wroga. W tym samym czasie z bazy Zeonu startuje [[zanzibar|Zanzibar]] z [[char-aznable|Charem]] na pokładzie, by ścigać okręt — epizod kończy się zapowiedzią pościgu.
 }}
 
 {{zrodlo gra=wspolne
@@ -640,9 +640,9 @@ Narracja przenosi front w kosmos: główna flota startuje z [[jaburo|Jaburo]] i 
 
 Wydarzenia z tej sceny — finał projektu Apsalusa, [[ginias-sahalin|Ginias Sahalin]] w kabinie mobile armora i desperacka próba zniszczenia bazy [[earth-federation|Federacji]] — nawiązują do **dziesiątego i jedenastego odcinka** OVA [[mobile-suit-gundam-08th-ms-team|*Mobile Suit Gundam: The 08th MS Team*]] z lat 1996–1999, zatytułowanych „The Shuddering Mountain, Part 1” i „The Shuddering Mountain, Part 2” ([Gundam Wiki, „Apsaras III”, przypisy do odc. 10–11](https://gundam.fandom.com/wiki/Apsaras_III); sprawdzono 2026-11-07).
 
-W oryginale Apsalus III startuje z górskiej bazy Zeonu, a za jego sterami siedzi najpierw Aina Sahalin, siostra Giniasa; Ginias przejmuje maszynę po tym, jak Aina odmawia walki, i ginie w starciu z [[gundam-ez8|Ez8]] [[shiro-amada|Shiro]] ([Gundam Wiki, „Ginias Sahalin”](https://gundam.fandom.com/wiki/Ginias_Sahalin); sprawdzono 2026-11-07). Gra przenosi finał pod [[jaburo|Jaburo]], sadza w kabinie wyłącznie Giniasa i nie rozgrywa wątku Ainy — zostaje on w dialogach jako nieobecna.
+W oryginale [[apsalus-iii|Apsalus III]] startuje z górskiej bazy Zeonu, a za jego sterami siedzi najpierw Aina Sahalin, siostra Giniasa; Ginias przejmuje maszynę po tym, jak Aina odmawia walki, i ginie w starciu z [[gundam-ez8|Ez8]] [[shiro-amada|Shiro]] ([Gundam Wiki, „Ginias Sahalin”](https://gundam.fandom.com/wiki/Ginias_Sahalin); sprawdzono 2026-11-07). Gra przenosi finał pod [[jaburo|Jaburo]], sadza w kabinie wyłącznie Giniasa i nie rozgrywa wątku Ainy — zostaje on w dialogach jako nieobecna.
 
-Wątek [[ramba-ral|Ramby Rala]] pochodzi z innego miejsca: w serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] Ral dowodzi oddziałem pościgowym wysłanym na Ziemię po śmierci Garmy i ginie w dwudziestym odcinku „Hand-to-Hand Combat”, 5 listopada U.C. 0079, a jego skrzydłowi [[acous|Acous]] i [[cozun-graham|Cozun]] kończą wówczas odmiennie niż tutaj ([Gundam Wiki, „Ramba Ral”](https://gundam.fandom.com/wiki/Ramba_Ral); [Gundam Wiki, „Hand-to-Hand Combat”](https://gundam.fandom.com/wiki/Hand-to-Hand_Combat); sprawdzono 2026-11-07). Zestawienie Rala z rodem Sahalinów, wspólny atak na [[jaburo|Jaburo]] i ocalenie całego oddziału należą do scenariusza gry.
+Wątek [[ramba-ral|Ramby Rala]] pochodzi z innego miejsca: w serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] Ral dowodzi oddziałem pościgowym wysłanym na Ziemię po śmierci Garmy i ginie w dwudziestym odcinku „Hand-to-Hand Combat”, 5 listopada [[uc-0079|U.C. 0079]], a jego skrzydłowi [[acous|Acous]] i [[cozun-graham|Cozun]] kończą wówczas odmiennie niż tutaj ([Gundam Wiki, „Ramba Ral”](https://gundam.fandom.com/wiki/Ramba_Ral); [Gundam Wiki, „Hand-to-Hand Combat”](https://gundam.fandom.com/wiki/Hand-to-Hand_Combat); sprawdzono 2026-11-07). Zestawienie Rala z rodem Sahalinów, wspólny atak na [[jaburo|Jaburo]] i ocalenie całego oddziału należą do scenariusza gry.
 }}
 
 {{skrypt gra=srw-oe

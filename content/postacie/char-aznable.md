@@ -5,7 +5,7 @@ tytul: Char Aznable
 seria: mobile-suit-gundam-1979
 rola: antagonista
 gry: [srw-oe]
-mechy: [zaku-ii-char]
+mechy: [zaku-ii-char, gelgoog-char]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Char_Aznable
@@ -20,6 +20,8 @@ utworzono: 2026-10-20
 Dowódca sił [[zeon|Zeonu]] atakujących [[white-base|White Base]], nazywany Czerwoną Kometą. Do walki wchodzi z dwoma podwładnymi, [[slender|Slenderem]] i [[crown|Crownem]].
 
 Ocenia, że [[rx-78-2-gundam|Gundam]] i maszyna [[connect-force|Connect]] mogą być groźne, ale nie chce ryzykować bitwy bez celu. Nakazuje wycofanie i przegrupowanie, zamiast ścigać przeciwnika za wszelką cenę.
+
+W pościgu za [[white-base|White Base]] w kosmosie wychodzi do walki nowym [[gelgoog-char|Gelgoogiem]] i szarżuje wprost na okręt, bo „szarża jest bezpieczniejsza niż bezładne uniki”. Gdy [[seishiro|Seishiro]] ogłasza, że okręt podlega [[connect-force|Connect Force]], Char rozpoznaje w tym rozegraną partię [[general-revil|Revila]], przerywa ogień i każe podjąć katapultowanych pilotów. Samowolny start [[tokwan|Tokwana]] kwituje złością, a po stracie [[bigro|Bigro]] żałuje maszyny, życzy pilotowi ucieczki i wysyła na [[white-base|White Base]] depeszę z przeprosinami.
 }}
 {{menu gra=srw-oe
 
@@ -55,7 +57,7 @@ Ocenia, że [[rx-78-2-gundam|Gundam]] i maszyna [[connect-force|Connect]] mogą 
 }}
 {{zrodlo gra=wspolne
 
-Char Aznable to antagonista *Mobile Suit Gundam* z 1979 roku, as Księstwa Zeonu nazywany Czerwoną Kometą ([Wikipedia, „Char Aznable”](https://en.wikipedia.org/wiki/Char_Aznable); sprawdzono 2026-10-20).
+Char Aznable to antagonista [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, as Księstwa Zeonu nazywany Czerwoną Kometą ([Wikipedia, „Char Aznable”](https://en.wikipedia.org/wiki/Char_Aznable); sprawdzono 2026-10-20).
 
 Przydomek zawdzięcza bitwie o [[loum|Loum]], w której zniszczył swym Zaku pięć pancerników ([Gundam Wiki, „Battle of Loum”](https://gundam.fandom.com/wiki/Battle_of_Loum); sprawdzono 2026-10-20).
 }}

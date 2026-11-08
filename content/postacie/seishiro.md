@@ -35,6 +35,8 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] prowadzi [[e
 Podczas [[srw-oe-ep2-czarny-labor|zasadzki na poligonie]] przybywa pomóc Drugiemu Plutonowi. Skan z góry wykazuje brak oznak życia w Brockenach, lecz [[griffon|Griffona]] nie potrafi zidentyfikować nawet na podstawie danych Connect. Po ucieczce napastnika zauważa, że zagłuszenie czujników jego organizacji wymaga bardzo zaawansowanego sprzętu.
 
 Podczas [[srw-oe-ep2-ryk-dziczy|wspólnych ćwiczeń]] na stacji spiera się z [[shinobu-fujiwara|Shinobu]] i skarży na zbyt silną obronę celów. Pokaz [[final-dancouga|Final Dancougi]] uświadamia mu, jak wiele zależy od pilotów. [[ryo-shiba|Ryo]] wskazuje, że złość odbiera mu koncentrację, lecz po zajęciach wyjaśnia, jak można połączyć gniew z mocnym wewnętrznym oparciem. Seishiro przyznaje Himari, że wyładował złość na celach. Kończy trening wdzięczny za naukę, rozważając połączenie spokoju z zapałem.
+
+W [[srw-oe-ep2-w-poscigu-za-zanzibarem|„W pościgu za Zanzibarem”]] zdąża do [[white-base|White Base]] w ostatniej chwili i zatrzymuje bitwę komunikatem, nie strzałem: wzywa obie strony do przerwania ognia i ogłasza okręt jednostką [[connect-force|Connect Force]]. Wobec [[char-aznable|Chara]] zachowuje kurtuazję, ale gdy [[tokwan|Tokwan]] startuje wbrew rozkazowi, przyznaje, że świeżo utworzona formacja nie ma jeszcze dość wpływów, żeby tak po prostu przerwać walkę — i sam wchodzi do akcji.
 }}
 {{menu gra=srw-oe
 
@@ -66,6 +68,8 @@ Podczas [[srw-oe-ep2-ryk-dziczy|wspólnych ćwiczeń]] na stacji spiera się z [
 |---:|---|---:|---:|---|
 | 1 | **Skupienie** | 1 | 15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
 | 2 | **Pęd** | 6 | 20 | Cel: ty Efekt: 1 razy — Ruch+3 |
+| 3 | **Duch** | 13 | 15 | Cel: ty — Morale+5 |
+| 4 | **Zapał** | 22 | 20 | Cel: ty Efekt: 1 razy — Zadawane obrażenia x1,5 |
 
 ### Umiejętności pilota
 

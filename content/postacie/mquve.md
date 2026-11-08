@@ -51,5 +51,5 @@ Tą kartą okazuje się [[h-bomb-missile|pocisk termojądrowy]]. M'Quve żąda o
 
 {{zrodlo gra=wspolne
 
-M'Quve to oficer Księstwa [[zeon|Zeonu]] z *Mobile Suit Gundam*, dowodzący wydobyciem surowców na terenach okupowanych i podległy Kycilii Zabi. Był skutecznym politykiem, ale krytykowano go za brak zrozumienia żołnierzy na froncie ([Gundam Wiki, „M'Quve”](https://gundam.fandom.com/wiki/M%27Quve); sprawdzono 2026-10-22).
+M'Quve to oficer Księstwa [[zeon|Zeonu]] z [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]], dowodzący wydobyciem surowców na terenach okupowanych i podległy Kycilii Zabi. Był skutecznym politykiem, ale krytykowano go za brak zrozumienia żołnierzy na froncie ([Gundam Wiki, „M'Quve”](https://gundam.fandom.com/wiki/M%27Quve); sprawdzono 2026-10-22).
 }}

@@ -27,5 +27,5 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] klasa podejm
 
 Klasa Obrony Ziemi (地球防衛組) to piąta klasa szkoły w Hinobori. Eldran powierza jej Raijin-Oh po tym, jak robot spada na Ziemię, a budynek szkoły zmienia w centrum dowodzenia; uczniowie dostają role operatorskie i walczą z Imperium Jaku (ジャーク帝国) przybyłym z piątego wymiaru ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 
-Generał Takeda (武田長官) dowodzi Siłami Obrony; początkowo sprzeciwiał się angażowaniu dzieci, później z nimi współpracuje ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
+[[general-takeda|Generał Takeda]] (武田長官) dowodzi Siłami Obrony; początkowo sprzeciwiał się angażowaniu dzieci, później z nimi współpracuje ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 }}

@@ -25,5 +25,5 @@ Po odparciu desantu na [[jaburo|Jaburo]] Księstwo porzuca obronę linii na Ziem
 }}
 {{zrodlo gra=wspolne
 
-Księstwo Zeonu powstało na kolonii [[side-3|Side 3]] i było jedną z dwóch głównych stron wojny w *Mobile Suit Gundam*. Jego naukowcy rozwinęli technologię [[mobile-suit|mobile suitów]] oraz badania nad cząstkami Minovsky’ego ([Gundam Wiki, „Principality of Zeon”](https://gundam.fandom.com/wiki/Principality_of_Zeon); sprawdzono 2026-10-20).
+Księstwo Zeonu powstało na kolonii [[side-3|Side 3]] i było jedną z dwóch głównych stron wojny w [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]]. Jego naukowcy rozwinęli technologię [[mobile-suit|mobile suitów]] oraz badania nad cząstkami Minovsky’ego ([Gundam Wiki, „Principality of Zeon”](https://gundam.fandom.com/wiki/Principality_of_Zeon); sprawdzono 2026-10-20).
 }}

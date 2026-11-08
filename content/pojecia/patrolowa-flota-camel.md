@@ -18,6 +18,8 @@ Zgrupowanie [[zeon|Zeonu]] w kosmosie, złożone z trzech krążowników [[musai
 Char wzywa flotę, gdy orientuje się, że [[white-base|White Base]] jest przynętą: „Twoja flota jest w idealnym miejscu, by odciąć mu drogę”. Dren przyjmuje zadanie i zastawia pułapkę przed okrętem Federacji, licząc, że utrzyma go do przybycia [[zanzibar|Zanzibara]].
 
 [[bright-noa|Bright]] zdaje sobie sprawę, że na pomoc floty nie ma czasu — trzy Musai trzeba rozbić, zanim Zanzibar zamknie tyły. Flota zostaje zniszczona, a jej dowódca nie dowierza, że „nawet takimi siłami” nie zdołał zatrzymać przynęty.
+
+Rozbicie floty wraca w [[srw-oe-ep2-w-poscigu-za-zanzibarem|następnej misji]] jako powód zemsty: [[tokwan|Tokwan]], który zna [[dren|Drena]] z czasów rekruckich, startuje [[bigro|Bigro]] wbrew rozkazowi, żeby pomścić flotę Camel.
 }}
 {{zrodlo gra=wspolne
 

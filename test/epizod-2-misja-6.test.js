@@ -50,8 +50,8 @@ test('scena 2-6 cytuje siedem bloków skryptu i ma tyle samo kotwic analizy', as
 test('nawiązania prowadzą do odcinków o pościgu Zanzibara i o przebiciu', () => {
   assert.match(scene.body, /## Nawiązania do oryginalnych odcinków/);
   assert.match(scene.body, /Wydarzenia z tej sceny/);
-  assert.match(scene.body, /trzydziestego\*\* — „A Decoy in Space”/);
-  assert.match(scene.body, /trzydziestego pierwszego\*\* — „Breakthrough”/);
+  assert.match(scene.body, /trzydziestego pierwszego\*\* — „A Decoy in Space”/);
+  assert.match(scene.body, /trzydziestego drugiego\*\* — „Breakthrough”/);
   const adres = 'https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_episodes';
   assert.ok(scene.zrodla.includes(adres));
   assert.ok(scene.body.includes(adres));
@@ -72,7 +72,8 @@ test('obsada sceny obejmuje załogę White Base, Chara i flotę Drena', () => {
   }
   // Nowe strony tej dostawy i odwrotne przypisania.
   assert.deepEqual(bySlug.get('musai').piloci, ['dren', 'oficer-zeonu']);
-  assert.deepEqual(bySlug.get('rick-dom').piloci, ['zolnierz-zeonu']);
+  // W misji 2-7 Rick Domy dostają imiennych pilotów (Slender i Crown), więc lista rośnie.
+  assert.deepEqual(bySlug.get('rick-dom').piloci, ['zolnierz-zeonu', 'slender', 'crown']);
   assert.deepEqual(bySlug.get('dren').mechy, ['musai']);
   assert.equal(bySlug.get('dren').rola, 'dowodztwo');
   assert.equal(bySlug.get('dren').seria, 'mobile-suit-gundam-1979');
@@ -161,7 +162,9 @@ test('strony misji nie ujawniają etykiet technicznych ani przyszłych walk', ()
     assert.doesNotMatch(bySlug.get(slug).body, /Entry ID|eventP01|DL102_60|charalist00/);
   }
   assert.match(episode.body, /Misja 6: Przebicie się siłą/);
-  assert.match(episode.body, /odc\. 31 „Breakthrough”/);
+  // Numeracja oryginalnej emisji, nie angielskiej (L13).
+  assert.match(episode.body, /odc\. 31 „A Decoy in Space”/);
+  assert.match(episode.body, /odc\. 32 „Breakthrough”/);
   assert.doesNotMatch(scene.body, /A Baoa Qu|Solar Ray|Kolonia Axis/);
   // Opis nie przesądza losu Drena: scenariusz kończy się na zniszczeniu jego floty.
   const opisDrena = bySlug.get('dren').body.match(/^## Opis\n([\s\S]*?)(?=^## |^\}\})/m)[1];
@@ -190,8 +193,8 @@ test('trzy nowe strony mają galerię ilustracji z dokładnym kluczem R2', () =>
     });
   }
   assert.equal(manifest.weryfikacjaZdalna, false, 'lista R2 nie jest obejrzeniem obrazów');
-  assert.equal(manifest.dostarczono, '2026-11-07');
+  assert.equal(manifest.dostarczono, '2026-11-08');
   assert.match(manifest.podstawa, /Dostawa ilustracji misji 6 \(2026-11-07\)/);
-  assert.match(manifest.uwaga, /82 portretów w characters\/ i 96 plików jednostek w korzeniu, razem 178 obrazów przy 135 encjach/);
+  assert.match(manifest.uwaga, /83 portrety w characters\/ i 99 plików jednostek w korzeniu, razem 182 obrazy przy 138 encjach/);
   assert.match(manifest.uwaga, /Actions 42406060802, check-run 128503895859/);
 });

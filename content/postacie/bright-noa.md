@@ -23,6 +23,8 @@ Po przybyciu [[connect-force|Connect]] wita wsparcie i ostrzega [[seishiro|Seish
 Podczas [[operacja-odessa|operacji Odessa]] dowodzi startem [[white-base|White Base]] i wysyła [[rx-78-2-gundam|Gundama]], [[guncannon|Guncannon]], [[guntank|Guntank]] oraz [[g-fighter|G-Fighter]]. Po walce z [[black-tri-stars|Black Tri-Stars]] rozmawia z [[mirai-yashima|Mirai]] o tym, czy przeciwnik wróci, i zgadza się, że załoga powinna bardziej wierzyć w siebie.
 
 Gdy [[mquve|M'Quve]] odpala [[h-bomb-missile|pocisk termojądrowy]], Bright wykorzystuje dane ujawnione na mocy [[traktat-antarktyczny|Traktatu Antarktycznego]]. Przesyła [[amuro-ray|Amurowi]] kurs i położenie zapalnika, a następnie rozkazuje przeciąć go szablą wiązkową.
+
+W [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu przed spotkaniem z Connect]] nie ukrywa wątpliwości: [[connect-force|Connect]] to organizacja cywilna i nie wiadomo, jak zachowa się w starciu z [[zeon|Zeonem]]. Gdy [[tokwan|Tokwan]] łamie rozejm, rozkazuje przechwycić [[bigro|mobile armora]], a po walce przyjmuje od [[seishiro|Seishira]] przydział okrętu do [[connect-force|Connect Force]] i zachowuje dowodzenie [[13-samodzielny-oddzial|13. Samodzielnym Oddziałem]].
 }}
 {{menu gra=srw-oe
 
@@ -64,5 +66,5 @@ Gdy [[mquve|M'Quve]] odpala [[h-bomb-missile|pocisk termojądrowy]], Bright wyko
 }}
 {{zrodlo gra=wspolne
 
-Bright Noa jest oficerem Federacji Ziemskiej na pokładzie White Base w *Mobile Suit Gundam* z 1979 roku ([Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-10-20).
+Bright Noa jest oficerem Federacji Ziemskiej na pokładzie White Base w [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-10-20).
 }}

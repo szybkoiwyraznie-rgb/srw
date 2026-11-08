@@ -372,7 +372,7 @@ W hangarze Himari przeprasza za utratę łączności, a Seishiro zrzuca winę na
 
 ## Nawiązania do oryginalnych odcinków
 
-Wydarzenia z tej sceny łączą materiał z **pierwszego odcinka** serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, „Gundam Rising”, i z **drugiego odcinka**, „Destroy Gundam”. Interludium o wojnie w U.C. 0079 i pierwszy pilotaż [[rx-78-2-gundam|Gundama]] przez [[amuro-ray|Amura]] pochodzą z odcinka 1, natomiast ranny [[paolo-cassius|kapitan Paolo]], improwizowana załoga [[white-base|White Base]] i pojedynek z [[char-aznable|Charem]] odpowiadają odcinkowi 2.
+Wydarzenia z tej sceny łączą materiał z **pierwszego odcinka** serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, „Gundam Rising”, i z **drugiego odcinka**, „Destroy Gundam”. Interludium o wojnie w [[uc-0079|U.C. 0079]] i pierwszy pilotaż [[rx-78-2-gundam|Gundama]] przez [[amuro-ray|Amura]] pochodzą z odcinka 1, natomiast ranny [[paolo-cassius|kapitan Paolo]], improwizowana załoga [[white-base|White Base]] i pojedynek z [[char-aznable|Charem]] odpowiadają odcinkowi 2.
 
 W „Gundam Rising” Zaku wdzierają się do kolonii [[side-7|Side 7]], a [[amuro-ray|Amuro]], dla którego to pierwszy raz w kokpicie, uruchamia [[rx-78-2-gundam|Gundama]] i podejmuje walkę ([Gundam Wiki, „Gundam Rising”](https://gundam.fandom.com/wiki/Gundam_Rising); sprawdzono 2026-10-22).
 

@@ -21,5 +21,5 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] w sali klasy
 }}
 {{zrodlo gra=wspolne
 
-Akcja oryginału zaczyna się w Hinobori, mieście sąsiadującym z Aozorą i Harukaze. Raijin-Oh spada na ziemię właśnie tam, a szkoła w Hinobori staje się bazą Klasy Obrony Ziemi i zmienia się w centrum dowodzenia, gdy robot rusza do walki ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
+Akcja oryginału zaczyna się w Hinobori, mieście sąsiadującym z Aozorą i Harukaze. [[raijin-oh|Raijin-Oh]] spada na ziemię właśnie tam, a szkoła w Hinobori staje się bazą Klasy Obrony Ziemi i zmienia się w centrum dowodzenia, gdy robot rusza do walki ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 }}

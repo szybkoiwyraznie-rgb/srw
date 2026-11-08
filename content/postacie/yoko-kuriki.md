@@ -32,5 +32,5 @@ Na jej słowa [[seishiro|Seishiro]] wyjaśnia [[himari-yaegaki|Himari]], że upa
 
 ## Postać w oryginale
 
-Yoko Kuriki (栗木 容子), znana jako Cookie, w oryginale obsługuje radar Raijin-Oh. To niska, wielkooka dziewczyna lubiąca słodkie rzeczy, ale mocno zależna od innych ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
+Yoko Kuriki (栗木 容子), znana jako Cookie, w oryginale obsługuje radar [[raijin-oh|Raijin-Oh]]. To niska, wielkooka dziewczyna lubiąca słodkie rzeczy, ale mocno zależna od innych ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 }}

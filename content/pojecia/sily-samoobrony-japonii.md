@@ -16,7 +16,7 @@ utworzono: 2026-10-21
 
 Wojsko Japonii, które na poligonie Fuji prowadzi wspólne ćwiczenia z policyjnym [[sv2|SV2]] i [[connect-force|Connect]].
 
-Żołnierze narzekają, że ograniczenia technologiczne każą im polegać na superrobotach Cyber Beast Force czy Laboratorium Saotome, i widzą w tym cenę neutralności kraju. W razie zagrożenia to oni wzywają pomoc i ustępują miejsca wyspecjalizowanym jednostkom.
+Żołnierze narzekają, że ograniczenia technologiczne każą im polegać na superrobotach [[cyber-beast-force|Cyber Beast Force]] czy Laboratorium Saotome, i widzą w tym cenę neutralności kraju. W razie zagrożenia to oni wzywają pomoc i ustępują miejsca wyspecjalizowanym jednostkom.
 
 Podczas krajowej fali dwudziestu dwóch incydentów z [[labor|Laborami]] oddziały Sił Samoobrony sprawnie prowadzą ewakuacje mieszkańców, dzięki czemu udaje się uniknąć ofiar. W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] wszystkie wojskowe maszyny z [[poligon-fuji|poligonu Fuji]] — [[hal-x10-green|HAL-X10/Green]] i [[helldiver|Helldivery]] — odesłane na przegląd do zakładu [[shinohara-heavy-industries|Shinohara Heavy Industries]] w Hachioji ruszają bez pilotów do ataku z ostrą amunicją, a po oddelegowaniu Drugiego Plutonu do [[connect-force|Connect]] wojsko ma wspierać [[shinobu-nagumo|Shinobu Nagumo]] w ochronie Tokio.
 }}

@@ -47,5 +47,5 @@ Na mostku [[white-base|White Base]] melduje gotowość okrętu do startu. Po ode
 }}
 {{zrodlo gra=wspolne
 
-Mirai Yashima jest postacią serialu *Mobile Suit Gundam* z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
+Mirai Yashima jest postacią serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
 }}
