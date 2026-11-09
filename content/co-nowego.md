@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-11-09 11:35
+
+- [[srw-y|Super Robot Wars Y]] — [[srw-y-ep1|Epizod 1]] prowadzi od parady cesarza Leloucha przez atak na miasto Yagami do uruchomienia [[a-advent|A. Adventu]] i odkrycia Systemu [[nira-kana-i|Nira-Kana-I]].
+- [[srw-y|Super Robot Wars Y]] — Pięć scen porządkuje prolog: [[srw-y-ep1-parada-cesarza-leloucha|parada]], [[srw-y-ep1-atak-na-miasto-yagami|atak VAL-X]], [[srw-y-ep1-start-a-adventu|start A. Adventu]], [[srw-y-ep1-ninja-w-cieniu|NINJA w cieniu]] i [[srw-y-ep1-rdzen-nira-kana-i|rdzeń Nira-Kana-I]].
+- [[srw-y|Super Robot Wars Y]] — Nowe profile [[echika-y-franburnett|Echiki]], [[annina-servania|Anniny]], [[cross-tsukinowa|Crossa]], [[chang-wufei|Wufeia]], [[zero|Zero]] i pozostałych uczestników łączą 16 postaci oraz 8 jednostek, w tym [[lunedrache|Lunedrache]], [[altron-gundam|Altron Gundam]] i [[lancelot-albion-zero|Lancelot Albion Zero]].
+- [[srw-y|Super Robot Wars Y]] — Świat epizodu uzupełniają hasła [[wojna-rewolucyjna|wojny rewolucyjnej]], [[val-x|VAL-X]], [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]], [[miasto-yagami|miasta Yagami]], [[pamiec-stg|pamięci STG]] i [[teoria-y|teorii Y]] oraz karty reprezentowanych serii.
+
 ## 2026-11-09 11:27
 
 - Wspólne — W serialu [[tokwan|Tokwan]] jest kapitanem [[zeon|Zeonu]] i zastępcą [[char-aznable|Chara]] na [[zanzibar|Zanzibarze]]; określenie go porucznikiem w odcinku 32 pozostaje nierozstrzygniętą rozbieżnością.
