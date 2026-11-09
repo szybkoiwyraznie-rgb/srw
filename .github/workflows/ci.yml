@@ -1,5 +1,8 @@
 name: Testy
 
+# Sonda 2026-11-09: runy o 18:09 i później kończą się start-up failure (0 jobów)
+# przy niezmienionym workflow — komentarz wymusza ponowną walidację pliku.
+
 on:
   pull_request:
   push:
