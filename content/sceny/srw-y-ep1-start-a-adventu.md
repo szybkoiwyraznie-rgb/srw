@@ -8,6 +8,8 @@ streszczenie: Annina uruchamia A. Advent, a miasto unosi się wraz z kopułą. E
 postacie: [echika-y-franburnett, annina-servania, cross-tsukinowa, zero, chang-wufei, forte-tsukinowa, yomogi-asanaka, takuma-nagare, baku-yamagishi, zaawansowana-si, mobile-doll, aytie, cookie, wren]
 mechy: [a-advent, altron-gundam, lunedrache, lancelot-albion-zero, lumenus, taurus]
 pojecia: [val-x, nowa-federacja-ziemska, czarni-rycerze, ninja, statek-emigracyjny]
+sekcje_analizy:
+  - Rezydencja Franburnettów → Rezydencja Franburnettów
 pochodzenie: skrypt
 tagi: [srw-y, scena, ninja]
 utworzono: 2026-11-09
@@ -174,5 +176,13 @@ utworzono: 2026-11-09
 
 ## Analiza
 
+### Rezydencja Franburnettów
+
 A. Advent jest jednocześnie okrętem, schronieniem i majątkiem Echiki. Scena pokazuje pierwszy rozkaz dziewczyny oraz współpracę osób, które nie tworzą jeszcze jednej drużyny, ale mają wspólny cel: ochronę mieszkańców.
+
+## Wątki w scenie
+
+- **Miasto jako schronienie.** A. Advent unosi Yagami i część Ayanashi, zamykając kopułę nad mieszkańcami.
+- **Pierwszy rozkaz Echiki.** Dziewczyna przejmuje głosowe dowodzenie i rozkazuje fortecy bronić ludzi, zanim rozumie wszystkie jej systemy.
+- **Nieoczekiwani sojusznicy.** Zero, Wufei, Cross i personel A. Adventu działają razem mimo różnych celów i nie tworzą jeszcze wspólnej organizacji.
 }}

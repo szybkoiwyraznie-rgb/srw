@@ -8,6 +8,8 @@ streszczenie: W dniu urodzin Echiki rezydencję i miasto atakują Taurusy VAL-X.
 postacie: [echika-y-franburnett, annina-servania, cross-tsukinowa, zero, yomogi-asanaka, takuma-nagare, baku-yamagishi]
 mechy: [taurus, lumenus, lancelot-albion-zero, lunedrache]
 pojecia: [val-x, nowa-federacja-ziemska, logos, czarni-rycerze]
+sekcje_analizy:
+  - Rezydencja Franburnettów → Rezydencja Franburnettów
 pochodzenie: skrypt
 tagi: [srw-y, scena]
 utworzono: 2026-11-09
@@ -133,5 +135,13 @@ utworzono: 2026-11-09
 
 ## Analiza
 
+### Rezydencja Franburnettów
+
 Atak w dniu urodzin łączy osobisty lęk Echiki z kryzysem politycznym. VAL-X używa maszyn wyprzedanych po dawnej wojnie, a Cross rozpoznaje, że przeciwnik interesuje się czymś więcej niż samym miastem.
+
+## Wątki w scenie
+
+- **Urodziny w cieniu kryzysu.** Rozmowa Echiki z Anniną łączy odziedziczoną odpowiedzialność za Yagami z niepokojem po wojnie rewolucyjnej.
+- **Niejasny przeciwnik.** VAL-X atakuje Taurusami, lecz jego liczebność, cel i związek z miastem pozostają nieznane.
+- **Pierwsza osłona.** Cross i Zero kupują czas, a pojawienie się Lumenusów pokazuje, że w obronę miasta wchodzą siły spoza jednej organizacji.
 }}

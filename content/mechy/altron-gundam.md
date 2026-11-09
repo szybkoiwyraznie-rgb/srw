@@ -16,7 +16,7 @@ w_gre:
 
 ## Opis
 
-Gundam [[chang-wufei|Changa Wufeia]], wyspecjalizowany w walce wręcz. Podwójny trójząb wiązkowy służy do zwarcia, a wysuwane [[altron-gundam|Dragon Fangi]] pozwalają razić cele także z dystansu.
+Gundam [[chang-wufei|Changa Wufeia]], wyspecjalizowany w walce wręcz. Podwójny trójząb wiązkowy służy do zwarcia, a wysuwane Dragon Fangi pozwalają razić cele także z dystansu.
 }}
 {{menu gra=srw-y
 

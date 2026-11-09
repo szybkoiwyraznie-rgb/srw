@@ -8,6 +8,8 @@ streszczenie: W sercu A. Adventu Annina odsłania przed Echiką System Nira-Kana
 postacie: [echika-y-franburnett, annina-servania, cross-tsukinowa]
 mechy: [a-advent]
 pojecia: [nira-kana-i, pamiec-stg, teoria-y, miasto-yagami]
+sekcje_analizy:
+  - A. Advent - rdzeń Systemu Nira-Kana-I → A. Advent - rdzeń Systemu Nira-Kana-I
 pochodzenie: skrypt
 tagi: [srw-y, scena]
 utworzono: 2026-11-09
@@ -74,5 +76,13 @@ utworzono: 2026-11-09
 
 ## Analiza
 
+### A. Advent - rdzeń Systemu Nira-Kana-I
+
 Wyjaśnienie Nira-Kana-I nie rozwiązuje zagadki. Annina podaje teorię STG, ale przyznaje, że brakuje danych i doświadczenia A. Adventu; dziedzictwo Echiki jest więc przede wszystkim obowiązkiem, nie gotową odpowiedzią.
+
+## Wątki w scenie
+
+- **Energia i pamięć.** Nira-Kana-I napędza A. Advent, lecz jego możliwe działanie wykracza poza zwykłą elektrownię.
+- **Teoria Y i pamięć STG.** Annina przedstawia trzy kierunki jako hipotezę doktora Yagamiego, nie jako rozwiązanie już potwierdzone w świecie gry.
+- **Dziedzictwo bez odpowiedzi.** Echika otrzymuje moc i obowiązek ochrony ludzi, ale scena kończy się, zanim wiadomo, jak wykorzysta system.
 }}

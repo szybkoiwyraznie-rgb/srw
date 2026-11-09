@@ -8,6 +8,8 @@ streszczenie: Echika i Annina obserwują paradę Leloucha, a bohaterowie różny
 postacie: [echika-y-franburnett, annina-servania, forte-tsukinowa, cross-tsukinowa, chang-wufei, zero]
 mechy: []
 pojecia: [wojna-rewolucyjna, logos, nowa-federacja-ziemska, czarni-rycerze]
+sekcje_analizy:
+  - Parada cesarza Leloucha → Parada cesarza Leloucha
 pochodzenie: skrypt
 tagi: [srw-y, scena, wojna-rewolucyjna]
 utworzono: 2026-11-09
@@ -108,5 +110,13 @@ Minął rok od zamachu na cesarza Leloucha. Ja… Echika Y. Franburnett, kończ�
 
 ## Analiza
 
+### Parada cesarza Leloucha
+
 Otwarcie nie opisuje jednej lokalnej bitwy, lecz ustanawia powojenny porządek świata. Śmierć Leloucha kończy bezpośrednią groźbę ostatniej wojny Ziemi z kosmosem, ale reakcje bohaterów pokazują, że pokój wymaga jeszcze decyzji i odpowiedzialności.
+
+## Wątki w scenie
+
+- **Pokój po wojnie.** Śmierć Leloucha powstrzymuje ostateczne starcie Ziemi z kosmosem, a kolonie otrzymują prawa w Nowej Federacji Ziemskiej.
+- **Cena decyzji przywódców.** Reakcje Heero, Wufeia, Zero i Crossa pokazują, że koniec wojny nie usuwa żalu ani nie odpowiada na pytanie o dalszą walkę.
+- **Nowy punkt wyjścia.** Rok później Echika kończy czternaście lat; prolog przechodzi od historii świata do jej osobistej odpowiedzialności.
 }}

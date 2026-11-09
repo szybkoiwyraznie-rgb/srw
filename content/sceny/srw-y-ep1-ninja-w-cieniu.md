@@ -8,6 +8,8 @@ streszczenie: Po pierwszym starciu Agent próbuje uprowadzić Echikę. Cross wyj
 postacie: [echika-y-franburnett, annina-servania, cross-tsukinowa, agent]
 mechy: [lunedrache]
 pojecia: [ninja, mechaniczne-marionetki, miasto-yagami]
+sekcje_analizy:
+  - Rezydencja Franburnettów → Rezydencja Franburnettów
 pochodzenie: skrypt
 tagi: [srw-y, scena, ninja]
 utworzono: 2026-11-09
@@ -102,5 +104,13 @@ utworzono: 2026-11-09
 
 ## Analiza
 
+### Rezydencja Franburnettów
+
 Rozmowa po walce zmienia obraz Crossa: z tajemniczego pilota staje się opiekunem związanym obietnicą złożoną Tetsuro Yagamiemu. Mechaniczne marionetki i przeszłość NINJA pozostają częścią zagrożenia, którego skala nie jest jeszcze znana.
+
+## Wątki w scenie
+
+- **Zagrożenie wewnątrz rezydencji.** Agent i jego towarzysze próbują zabrać Echikę, a ich nieludzka natura ujawnia nowy rodzaj przeciwnika.
+- **Obietnica Tetsuro Yagamiego.** Cross nie chroni Echiki z przypadku: jego zlecenie zaczęło się jeszcze przed śmiercią jej ojca.
+- **NINJA w cieniu historii.** Cross ujawnia nazwę i sposób działania swojej formacji, ale nie wyjaśnia jeszcze jej pełnych powiązań z doktorem Yagamim.
 }}
