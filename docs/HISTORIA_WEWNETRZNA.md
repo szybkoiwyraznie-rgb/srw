@@ -150,3 +150,39 @@ Konwencja: `## 2026-10-18 00:35
 - Powstała baza: struktura katalogów, silnik witryny, build i publikacja na GitHub Pages.
 - Dodano wpisy demonstracyjne (gra DEMO, przykładowy epizod 01 oraz sześć encji: trzy postacie, trzy mechy, pięć broni i trzy serie anime) — do zastąpienia realnymi danymi.
 - Ustalono znaczniki pochodzenia informacji (`skrypt` / `menu` / `wiedza`) i zasadę źródeł dla wiedzy spoza rozgrywki.
+
+## 2026-11-09 — wpisy usunięte z dziennika (treść o procesie, nie o fabule)
+
+Na wniosek właściciela z 2026-11-09 dziennik publiczny mówi wyłącznie o fabule.
+Poniżej notatki o procesie, bazie i formatowaniu, usunięte z `content/co-nowego.md`
+(przepisane wpisy fabularne zachowano w dzienniku w nowym brzmieniu):
+
+- 2026-11-09 15:40 — strona gry z kompletem danych wydawniczych; usunięta zdublowana lista obsady w menu serii.
+- 2026-11-09 15:22 — strony czterech bohaterów z blokami obecności w SRW Y.
+- 2026-11-09 15:05 — jedenaście nazwisk z prologu i misji dostało własne strony z podaniem odcinka/filmu i cytatem ze źródła.
+- 2026-11-09 14:22 — formatowanie scen (ciasne kwestie dialogowe, puste linie między blokami) i odstęp w tytułach działów z wybranym zbiorem.
+- 2026-11-09 13:58 — blok „Nawiązania do oryginalnych odcinków” w scenie 1-1C; motyw parady z źródłem w Code Geass zamiast w grze.
+- 2026-11-09 13:45 — opis serii III Glorification rozdzielony na poziomy (menu gry / blok źródłowy).
+- 2026-11-09 13:33 — Charakterystyka Takumy wrócona do dosłownego opisu z gry; sformułowania strony oficjalnej w źródle.
+- 2026-11-09 12:56 — scena i epizod połączone z osobnymi hasłami głosów prologu.
+- 2026-11-09 12:00 — pełne charakterystyki encyklopedyczne w profilach; zachowane osobne linie dialogu w widoku sceny.
+- 2026-11-08 10:40 — ilustracje obsady misji „W pościgu za Zanzibarem”.
+- 2026-11-08 10:30 — nowe strony Bigro, Gelgooga Chara i Tokwana; tabela komend pilotów.
+- 2026-11-07 21:55 — tabela wątków epizodu 2 z numerami odcinków; hasła rozwinięte; opis obserwatorów poprawiony.
+- 2026-11-07 09:51 — nowe strony i hasła; nowe hasło „mobile armor”; ilustracje; drugie wpisy w tabelach komend.
+- 2026-11-05 19:05 — drugie wpisy w tabelach pilotów.
+- 2026-11-02 13:47–12:10 — dopisywane pierwowzory, zapisy nazw w źródłach, oznaczenia rodzaju jednostki.
+- 2026-11-02 11:47, 09:28 — portrety i ilustracje na stronach.
+- 2026-11-01 19:43 — pełna analiza dialogów; nowe profile z uzbrojeniem; tabela parametrów.
+- 2026-11-01 13:32 — nowe opisy; rozróżnienia wariantów; poprawki opisów.
+- 2026-10-29 14:10–12:35 — rozdzielone sceny, poprawione opisy, portrety, strona Goro Ishidy, ilustracje jednostek (26 plików).
+- 2026-10-28 11:40–10:45 — korekty opisów scen i haseł.
+- 2026-10-27 23:32 — cztery nowe serie z opisami pierwowzorów.
+- 2026-10-25 09:50–00:15 — uzupełnione dzieje haseł, nowa postać Bakuryu-Oh, portrety i galerie.
+- 2026-10-24 22:50–00:19 — nowe misje, strony, portrety, galerie, opisy, tagi, poprawki idiomów, tabela komend.
+- 2026-10-23 20:13–13:30 — nowe jednostki i pilocy, portrety, strony uczniów.
+- 2026-10-22 19:05–07:40 — ilustracje, portrety, nowe strony i hasła, poprawki opisów, bloki porównań ze źródłami.
+- 2026-10-21 21:43–00:12 — portrety, ilustracje, nowe jednostki/piloci/hasła, statystyki.
+- 2026-10-20 23:50–17:08 — strony, wpisy obsady, ilustracje, parametry.
+- 2026-10-19 23:15–19:10 — dane pozyskane kwerendą, opisy potwierdzone źródłami, galerie, parametry.
+- 2026-10-17 23:55–23:28 — hasła i powiązania scen.

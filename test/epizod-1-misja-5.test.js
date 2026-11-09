@@ -288,7 +288,7 @@ test('galerie mają wyłącznie strony objęte dostawą ilustracji misji 1-5', (
   }
 });
 
-test('dziennik zmian dokumentuje piątą misję i jej ilustracje', () => {
+test('dziennik zmian dokumentuje piątą misję', () => {
   const changelog = fs.readFileSync('content/co-nowego.md', 'utf8');
   const current = changelog.split('## 2026-10-23 18:57')[0];
   // Wpis najnowszy stoi na górze; data rośnie z kolejnymi wpisami, więc pilnujemy
@@ -299,7 +299,6 @@ test('dziennik zmian dokumentuje piątą misję i jej ilustracje', () => {
   assert.ok(current.includes('[[mobile-suit-gundam-08th-ms-team|'));
   assert.ok(current.includes('[[mobile-suit-gundam-0080|'));
   assert.ok(current.includes('[[rx-78nt-1-gundam-alex|'));
-  assert.match(current, /22 ilustracje/);
   assert.ok(current.includes('[[gundam-ez8|'));
   assert.ok(current.includes('[[christina-mackenzie|'));
   assert.ok(current.includes('[[terry-sanders-jr|'));

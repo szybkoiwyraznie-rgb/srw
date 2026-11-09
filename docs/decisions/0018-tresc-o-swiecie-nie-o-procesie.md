@@ -73,3 +73,20 @@ pozycji już opublikowanych: z dziennika usunięto wpisy, które opisywały wył
 albo dokumentację wewnętrzną (2026-10-21 00:20, 00:30, 00:38; 2026-10-20 20:08, 20:15, 20:20,
 11:49, 18:11; 2026-10-20 10:46) oraz wpisy o galerii kafelków i filtrach z 2026-10-21 22:15
 i 22:30. Wpisy o nowych opisach, ilustracjach i powiązaniach zostały bez zmian.
+
+## Adnotacja 2026-11-09 — dziennik mówi wyłącznie o fabule
+
+Właściciel: „zawartość bazy jest w 100% o fabule, a nie o procesie”. Wpisy
+dziennika opisujące proces, bazę, formatowanie i strukturę stron naruszają zasadę,
+nawet bez słów technicznych (np. „dostaje własne strony”, „ma pełne statystyki”,
+„kwestie idą jedna pod drugą”). Doprecyzowanie:
+
+- **Wpis dziennika to stwierdzenie o świecie** — o postaciach, maszynach, wydarzeniach,
+  historii i mechanikach gry. Nie mówi, że coś „pojawiło się w bazie”, „dostało stronę”,
+  „zostało uzupełnione”, „rozdzielone” ani jak jest formatowane.
+- Nazwy działów, bloków, poziomów danych i samych stron nie należą do prozy wpisu;
+  odnośniki do stron pozostają, ale ich mowa o sobie znika.
+- Notatki o przebiegu pracy trafiają do `docs/HISTORIA_WEWNETRZNA.md`; 2026-11-09
+  przeniesiono tam cały zapas wpisów o procesie z dziennika publicznego.
+- Test dziennika rozszerzono o słowa struktury i formatowania, ale lista nie zastępuje
+  przeglądu stylu.
