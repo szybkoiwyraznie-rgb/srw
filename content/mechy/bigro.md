@@ -7,7 +7,7 @@ typ_mecha: mobile armor
 gry: [srw-oe]
 piloci: [tokwan]
 w_gre:
-  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_2_7.txt", "profil": "Bigro", "dane": "**Seria:** Mobile Suit Gundam\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | 4-lufowa wyrzutnia rakiet | 2500 | 1–3 | +50 | 5 | — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu; **Ucieczka (poziom bazowy 1):** Unik+18% |\n| 1 | 4-lufowa wyrzutnia rakiet/M | 1600 | 1–5 | +15 | 10 | — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |\n| 2 | Działo megacząsteczkowe | 3000 | 3–6 | +5 | 20 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8; **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |\n| 3 | Ramię-szpon | 2200 | 1–8 | +40 | 30 | — | Brak w tym polu | **Taran (bez poziomu):** Atakuje wrogów w Zasięg i wlecze ich; Potem odpycha o 3 pola dalej pola w tył; Bez dodatk. Obraż. z odepchn., wsparcia i kontry |"}'
+  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_2_7.txt", "profil": "Bigro", "dane": "**Seria:** Mobile Suit Gundam\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | 4-lufowa wyrzutnia rakiet | 2500 | 1–3 | +50 | 5 | — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu; **Ucieczka (poziom bazowy 1):** Unik+18% |\n| 1 | 4-lufowa wyrzutnia rakiet/M | 1600 | 1–5 | +15 | 10 | — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |\n| 2 | Działo megacząsteczkowe | 3000 | 3–6 | +5 | 20 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8; **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |\n| 3 | Ramię-szpon | 2200 | 1–8 | +40 | 30 | — | Brak w tym polu | **Taran (bez poziomu):** Atakuje wrogów w Zasięg i wlecze ich; Potem odpycha o 3 pola dalej pola w tył; Bez dodatk. Obraż. z odepchn., wsparcia i kontry |"}'
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/MA-05_Bigro
@@ -50,10 +50,6 @@ Jeden Bigro — ten pilotowany przez [[tokwan|Tokwana]] ze [[zanzibar|Zanzibara]
 ## Parametry
 
 **Seria:** Mobile Suit Gundam
-
-### Macierzyste zdolności maszyny
-
-Maszyna nie ma własnych zdolności macierzystych. Nie wyklucza to efektów grupy, stosu, wyposażenia ani scenariusza.
 
 ### Uzbrojenie i wymienione działania
 

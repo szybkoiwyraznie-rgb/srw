@@ -5,7 +5,7 @@ tytul: Medea
 gry: [srw-oe]
 piloci: [oficer-federacji, zolnierz-jsdf]
 w_gre:
-  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_6.txt", "profil": "Medea", "dane": "**Seria:** Brak wpisu w dostępnych słownikach jednostek i pilotów — *nieustalona*.\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Bez uzbrojenia | 0 | 0–0 | +0 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |\n#### Dodatkowe wpisy — selektor zerowy (animacje / rekordy specjalne)\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 1 | Karabin przeciwlotniczy | 1000 | 1–2 | +5 | 20 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |"}'
+  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_6.txt", "profil": "Medea", "dane": "**Seria:** Brak wpisu w dostępnych słownikach jednostek i pilotów — *nieustalona*.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Bez uzbrojenia | 0 | 0–0 | +0 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |\n#### Dodatkowe wpisy — selektor zerowy (animacje / rekordy specjalne)\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 1 | Karabin przeciwlotniczy | 1000 | 1–2 | +5 | 20 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |"}'
 pochodzenie: menu
 zrodla:
   - https://gundam.fandom.com/wiki/Medea
@@ -32,9 +32,6 @@ Wielki, odłączany kontener pod kadłubem skracał załadunek i rozładunek. Wi
 {{menu gra=srw-oe
 
 ## Parametry
-
-### Macierzyste zdolności maszyny
-Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu ani wyposażenia.
 
 ### Uzbrojenie i wymienione działania
 

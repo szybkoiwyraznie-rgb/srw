@@ -6,7 +6,7 @@ seria: patlabor-the-movie
 gry: [srw-oe]
 piloci: [shinohara-hos]
 w_gre:
-  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_1.txt", "profil": "HAL-X10", "dane": "**Seria:** Patlabor: The Movie\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Przeciwlotniczy minigun bliskiego zasięgu | 1000 | 1–3 | +40 | 5 | — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4 |\n| 1 | 9-lufowa wyrzutnia rakiet | 900 | 1–5 | +20 | 20 | — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |\n| 2 | Wyrzutnia ATM | 2000 | 1–4 | +10 | 15 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |"}'
+  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_1.txt", "profil": "HAL-X10", "dane": "**Seria:** Patlabor: The Movie\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Przeciwlotniczy minigun bliskiego zasięgu | 1000 | 1–3 | +40 | 5 | — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4 |\n| 1 | 9-lufowa wyrzutnia rakiet | 900 | 1–5 | +20 | 20 | — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |\n| 2 | Wyrzutnia ATM | 2000 | 1–4 | +10 | 15 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |"}'
 pochodzenie: skrypt
 zrodla:
   - https://www.mahq.net/hal-x-10-tv/
@@ -49,9 +49,6 @@ W pierwowzorze HAL-X10 to doświadczalny ciężki [[labor|Labor]] szturmowy, zbu
 ## Parametry
 
 **Seria:** [[patlabor-the-movie|Patlabor: The Movie]]
-
-### Macierzyste zdolności maszyny
-Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu ani wyposażenia.
 
 ### Uzbrojenie i wymienione działania
 

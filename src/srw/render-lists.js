@@ -44,6 +44,28 @@ const polaFiltru = (typ) => {
 /** Wartość filtra `seria` dla encji bez przypisanej serii (opcja „Nieokreślona”). */
 const BEZ_SERII = 'bez-serii';
 
+/**
+ * Strony tych postaci zostają w bazie, ale nie są kartami w dziale Postacie:
+ * nie przedstawiają nazwanej osoby, tylko rolę zbiorową, system albo gatunek.
+ * Lista jest jawna, żeby nazwa postaci z dostawy nie zniknęła przez heurystykę.
+ */
+const GENERYCZNE_POSTACIE = new Set([
+  'agent', 'control-ai', 'invader', 'mechabestia', 'mucus', 'mobile-doll',
+  'oficer-federacji', 'oficer-zeonu', 'shinohara-hos', 'zaawansowana-si',
+  'zolnierz-federacji', 'zolnierz-jsdf', 'zolnierz-zeonu',
+]);
+
+/** Bazowa lista galerii: postacie generyczne są nawigowalne, ale nie są kartami. */
+function listaGalerii(typ) {
+  const lista = listaPosortowana(typ);
+  return typ === 'postac' ? lista.filter((p) => !GENERYCZNE_POSTACIE.has(p.slug)) : lista;
+}
+
+/** Czy galeria ma już filtr, po którym wolno pokazać ilustracje. */
+function galeriaMaFiltr(query) {
+  return POLA_FILTRU.some((pole) => Boolean(query?.[pole]));
+}
+
 /** Ile tagów pokazuje wiersz listy. Rodzaj treści jest teraz tagiem (ADR 0033),
  * więc cztery chipsy ucinały już sensowną informację. */
 const LIMIT_CHIPSOW = 6;
@@ -89,7 +111,9 @@ export function renderListe(typ, query = {}) {
 
   let lista = typ === 'epizod'
     ? listaEpizodow()
-    : typ === 'scena' ? listaSceneWszystkie() : listaPosortowana(typ);
+    : typ === 'scena' ? listaSceneWszystkie()
+      : (typ === 'postac' || typ === 'mech') ? listaGalerii(typ)
+        : listaPosortowana(typ);
 
   // Zastosuj WSZYSTKIE ustawione filtry jednocześnie (intersection), nie tylko pierwszy.
   for (const pole of polaFiltru(typ)) {
@@ -108,6 +132,13 @@ export function renderListe(typ, query = {}) {
       : typ === 'seria' ? renderFiltrGry(q) : '';
   const chmura = typ === 'pojecie' ? renderChmuraTagow(wybraneTagi) : '';
   const etykietaTagow = wybraneTagi.length ? `tagi: ${wybraneTagi.join(', ')}` : null;
+
+  if ((typ === 'postac' || typ === 'mech') && !galeriaMaFiltr(q)) {
+    return naglowekListy(typ, null, 0) + filtrHtml + stanPusty(
+      'Wybierz filtr, aby wyświetlić ilustracje.',
+      'Zacznij od gry, epizodu, sceny albo serii.',
+    );
+  }
 
   if (lista.length === 0) {
     // Filtry zostają nad pustą listą: inaczej po wybraniu zestawu bez wyników
@@ -235,12 +266,26 @@ function filtrujFabule(lista, typ, pole, wartosc) {
 /** Encje typu `typ` spełniające wszystkie filtry z query poza `pomijajPole`.
  * Służy do wyznaczania dostępnych opcji w selektorach filtrów (zawężanie wzajemne). */
 function encjePoFiltrach(typ, query, pomijajPole) {
-  let lista = typ === 'epizod' ? listaEpizodow() : typ === 'scena' ? listaSceneWszystkie() : listaPosortowana(typ);
+  let lista = typ === 'epizod'
+    ? listaEpizodow()
+    : typ === 'scena' ? listaSceneWszystkie()
+      : (typ === 'postac' || typ === 'mech') ? listaGalerii(typ)
+        : listaPosortowana(typ);
   for (const [pole, wartosc] of Object.entries(query ?? {})) {
     if (pole === pomijajPole || !wartosc) continue;
     lista = filtrujPoPolu(lista, typ, pole, wartosc);
   }
   return lista;
+}
+
+/** Grupy gier mają wspólną kolejność co dział Gry (tytuł, nie kolejność plików). */
+function sortujGrupyGier(grupy) {
+  const kolejnosc = new Map(listaPosortowana('gra').map((gra, index) => [gra.slug, index]));
+  return [...grupy.entries()].sort(([a], [b]) => {
+    const pozycjaA = kolejnosc.get(a) ?? Number.MAX_SAFE_INTEGER;
+    const pozycjaB = kolejnosc.get(b) ?? Number.MAX_SAFE_INTEGER;
+    return pozycjaA - pozycjaB || String(a).localeCompare(String(b), 'pl');
+  });
 }
 
 function listaEpizodowHtml(lista) {
@@ -250,45 +295,70 @@ function listaEpizodowHtml(lista) {
     if (!grupy.has(klucz)) grupy.set(klucz, []);
     grupy.get(klucz).push(e);
   }
-  return [...grupy.entries()].map(([graSlug, epizody]) => {
+  return sortujGrupyGier(grupy).map(([graSlug, epizody]) => {
     const gra = dajStrone(graSlug);
-    return `<section class="blok">
-      ${gra ? `<h2><a href="${hrefDlaSlug(gra.slug, 'gra')}">${escapeHtml(gra.tytul)}</a></h2>` : '<h2>Bez przypisanej gry</h2>'}
-      <ol class="lista-epizodow">${epizody.map((e) => `
-        <li>
-          <a href="${hrefDlaSlug(e.slug, 'epizod')}">
-            <span class="mono">${numerEpizodu(e.numer)}</span> ${escapeHtml(e.tytul)}
-            ${e.trasa ? `<span class="trasa">${escapeHtml(e.trasa)}</span>` : ''}
-          </a>
-          <span class="meta">
-            ${e.rozegrano ? escapeHtml(e.rozegrano) : ''}
-            ${(e.postacie ?? []).length ? ` · ${(e.postacie ?? []).length} ${odmiana((e.postacie ?? []).length, ['postać', 'postacie', 'postaci'])}` : ''}
-            ${(e.mechy ?? []).length ? ` · ${(e.mechy ?? []).length} ${odmiana((e.mechy ?? []).length, ['mech', 'mechy', 'mechów'])}` : ''}
-          </span>
-        </li>`).join('')}</ol>
-    </section>`;
+    const tytulGry = gra ? escapeHtml(gra.tytul) : 'Bez przypisanej gry';
+    return `<details class="grupa-epizodow-gry">
+      <summary><span class="tytul-grupy-epizodow">${tytulGry}</span> <span class="meta">(${epizody.length} ${odmiana(epizody.length, ['epizod', 'epizody', 'epizodów'])})</span></summary>
+      <div class="epizody-gry">
+        <ol class="lista-epizodow">${epizody.map((e) => `
+          <li>
+            <a href="${hrefDlaSlug(e.slug, 'epizod')}">
+              <span class="mono">${numerEpizodu(e.numer)}</span> ${escapeHtml(e.tytul)}
+              ${e.trasa ? `<span class="trasa">${escapeHtml(e.trasa)}</span>` : ''}
+            </a>
+            <span class="meta">
+              ${e.rozegrano ? escapeHtml(e.rozegrano) : ''}
+              ${(e.postacie ?? []).length ? ` · ${(e.postacie ?? []).length} ${odmiana((e.postacie ?? []).length, ['postać', 'postacie', 'postaci'])}` : ''}
+              ${(e.mechy ?? []).length ? ` · ${(e.mechy ?? []).length} ${odmiana((e.mechy ?? []).length, ['mech', 'mechy', 'mechów'])}` : ''}
+            </span>
+          </li>`).join('')}</ol>
+      </div>
+    </details>`;
   }).join('');
 }
 
-/** Sceny wszystkich epizodów: grupy po epizodzie, w kolejności numerycznej (ADR 0008). */
+/** Sceny wszystkich epizodów: najpierw gra, potem epizod (ADR 0008). */
 function listaSceneWszystkie() {
   const kolejnosc = listaEpizodow().map((e) => e.slug);
   return listaStron('scena').sort((a, b) => kolejnosc.indexOf(a.epizod) - kolejnosc.indexOf(b.epizod));
 }
 
+/**
+ * Dział Sceny ma jeden poziom grupowania więcej niż epizody: gra jest nagłówkiem
+ * zwijanym, a dopiero po rozwinięciu widać epizody i ich sceny. `details` jest
+ * domyślnie zamknięte, więc wejście do działu pokazuje najpierw tylko tytuły gier
+ * i liczbę scen w każdej z nich.
+ */
 function listaSceneHtml(lista) {
-  const grupy = new Map();
-  for (const s of lista) {
-    const klucz = s.epizod ?? '—';
-    if (!grupy.has(klucz)) grupy.set(klucz, []);
-    grupy.get(klucz).push(s);
+  const gry = new Map();
+  for (const scena of lista) {
+    const graSlug = graWpisu(scena) ?? '—';
+    if (!gry.has(graSlug)) gry.set(graSlug, []);
+    gry.get(graSlug).push(scena);
   }
-  return [...grupy.entries()].map(([epSlug, sceny]) => {
-    const ep = dajStrone(epSlug);
-    return `<section class="blok">
-      ${ep ? `<h2><a href="${hrefDlaSlug(ep.slug, 'epizod')}">${escapeHtml(ep.tytul)}</a></h2>` : '<h2>Bez przypisanego odcinka</h2>'}
-      <ul class="lista-scen">${sortujSceny(sceny).map(elementSceny).join('')}</ul>
-    </section>`;
+
+  return sortujGrupyGier(gry).map(([graSlug, scenyGry]) => {
+    const gra = dajStrone(graSlug);
+    const epizody = new Map();
+    for (const scena of scenyGry) {
+      const epSlug = scena.epizod ?? '—';
+      if (!epizody.has(epSlug)) epizody.set(epSlug, []);
+      epizody.get(epSlug).push(scena);
+    }
+    const sceny = scenyGry.length;
+    const naglowek = gra ? escapeHtml(gra.tytul) : 'Bez przypisanej gry';
+    const zawartosc = [...epizody.entries()].map(([epSlug, scenyEpizodu]) => {
+      const ep = dajStrone(epSlug);
+      return `<section class="grupa-scen-epizod">
+        ${ep ? `<h3><a href="${hrefDlaSlug(ep.slug, 'epizod')}">${escapeHtml(ep.tytul)}</a></h3>` : '<h3>Bez przypisanego odcinka</h3>'}
+        <ul class="lista-scen">${sortujSceny(scenyEpizodu).map(elementSceny).join('')}</ul>
+      </section>`;
+    }).join('');
+    return `<details class="grupa-scen-gry">
+      <summary><span class="tytul-grupy-scen">${naglowek}</span> <span class="meta">(${sceny} ${odmiana(sceny, ['scena', 'sceny', 'scen'])})</span></summary>
+      <div class="sceny-gry">${zawartosc}</div>
+    </details>`;
   }).join('');
 }
 
@@ -420,7 +490,11 @@ function renderFiltryKrokowe(typ, query) {
   let epizody = wybraneGra ? listaFiltrowana('epizod', 'gra', wybraneGra) : [];
   // Zawęż odcinki do tych, które mają encje spełniające pozostałe filtry (scena, seria).
   epizody = epizody.filter((e) => {
-    let kandydaci = typ === 'epizod' ? listaEpizodow() : typ === 'scena' ? listaSceneWszystkie() : listaPosortowana(typ);
+    let kandydaci = typ === 'epizod'
+      ? listaEpizodow()
+      : typ === 'scena' ? listaSceneWszystkie()
+        : (typ === 'postac' || typ === 'mech') ? listaGalerii(typ)
+          : listaPosortowana(typ);
     if (query.seria) kandydaci = filtrujPoPolu(kandydaci, typ, 'seria', query.seria);
     if (query.scena) kandydaci = filtrujPoPolu(kandydaci, typ, 'scena', query.scena);
     if (kandydaci.length === 0) return false;

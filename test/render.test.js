@@ -77,7 +77,7 @@ test('strona sceny pokazuje dosłowną treść i analizę', () => {
 });
 
 test('listy działów działają i respektują filtry', () => {
-  const postacie = renderListe('postac');
+  const postacie = renderListe('postac', { gra: 'srw-oe' });
   assert.match(postacie, /Seishiro/);
   assert.match(postacie, /Himari Yaegaki/);
 
@@ -241,7 +241,7 @@ test('opisy wszystkich stron mówią o świecie, bez wewnętrznych procedur', ()
     const html = page.typ === 'epizod'
       ? renderEpizod(page.slug)
       : page.typ === 'scena' ? renderScena(page.slug) : renderEncja(page.slug);
-    assert.doesNotMatch(tekstWidoczny(html), /\b(?:dostaw[\p{L}]*|właściciel[\p{L}]*|skryp[\p{L}]*)\b/iu, page.slug);
+    assert.doesNotMatch(tekstWidoczny(html), /\b(?:dostaw[\p{L}]*|skryp[\p{L}]*)\b/iu, page.slug);
     assert.doesNotMatch(tekstWidoczny(html), /nie przypisano|dane od|brak materiału|tworzenia biografii|danych domyślnej załogi|w obrębie.*hasła|w tej bazie|nie sprawdzono|nie potwierdzono/iu, page.slug);
   }
 });

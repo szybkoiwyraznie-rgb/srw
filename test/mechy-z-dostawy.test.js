@@ -18,7 +18,7 @@ const mechy = pages.filter((p) => p.typ === 'mech');
 
 test('każdy mech ma parametry z dostawy albo z menu gry', () => {
   const problemy = [];
-  for (const mech of mechy) {
+  for (const mech of mechy.filter((m) => (m.gry ?? []).includes('srw-oe'))) {
     const wpis = mech.w_gre?.['srw-oe'];
     if (!wpis) {
       problemy.push(`${mech.slug}: brak wpisu w_gre.srw-oe`);

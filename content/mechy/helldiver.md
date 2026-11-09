@@ -6,7 +6,7 @@ seria: mobile-police-patlabor
 gry: [srw-oe]
 piloci: [control-ai, zolnierz-jsdf]
 w_gre:
-  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_1.txt", "profil": "Helldiver", "dane": "**Seria:** Mobile Police Patlabor\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Nóż bojowy | 1000 | 1–2 | +80 | 0 | — | Brak w tym polu | **Garda (poziom bazowy 1):** Obr+20% |\n| 1 | Szybkostrzelne działko automatyczne | 900 | 1–4 | +20 | 5 | — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4 |"}'
+  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_1.txt", "profil": "Helldiver", "dane": "**Seria:** Mobile Police Patlabor\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Nóż bojowy | 1000 | 1–2 | +80 | 0 | — | Brak w tym polu | **Garda (poziom bazowy 1):** Obr+20% |\n| 1 | Szybkostrzelne działko automatyczne | 900 | 1–4 | +20 | 5 | — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4 |"}'
 pochodzenie: menu
 zrodla:
   - https://www.mahq.net/arl-99-tv/
@@ -38,9 +38,6 @@ W [[mobile-police-patlabor|pierwowzorze]] ARL-99 Helldiver to wojskowy [[labor|L
 ## Parametry
 
 **Seria:** [[mobile-police-patlabor|Mobile Police Patlabor]]
-
-### Macierzyste zdolności maszyny
-Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu ani wyposażenia.
 
 ### Uzbrojenie i wymienione działania
 

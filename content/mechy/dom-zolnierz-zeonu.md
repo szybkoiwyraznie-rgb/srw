@@ -7,7 +7,7 @@ typ_mecha: mobile suit
 gry: [srw-oe]
 piloci: [zolnierz-zeonu]
 w_gre:
-  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_3.txt", "profil": "Dom", "dane": "**Seria:** Mobile Suit Gundam\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Heat Saber | 1500 | 1–2 | +50 | 5 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |\n| 1 | Wielka bazooka | 1800 | 1–4 | +10 | 10 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |"}'
+  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_3.txt", "profil": "Dom", "dane": "**Seria:** Mobile Suit Gundam\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Heat Saber | 1500 | 1–2 | +50 | 5 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |\n| 1 | Wielka bazooka | 1800 | 1–4 | +10 | 10 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |"}'
 pochodzenie: menu
 zrodla:
   - https://www.mahq.net/ms-09/
@@ -46,10 +46,6 @@ W [[mobile-suit-gundam-1979|pierwowzorze]] MS-09 Dom to seryjny [[mobile-suit|mo
 ## Parametry
 
 **Seria:** [[mobile-suit-gundam-1979|Mobile Suit Gundam]]
-
-### Macierzyste zdolności maszyny
-
-Maszyna nie ma własnych zdolności macierzystych. Nie wyklucza to efektów grupy, stosu, wyposażenia ani scenariusza.
 
 ### Uzbrojenie i wymienione działania
 

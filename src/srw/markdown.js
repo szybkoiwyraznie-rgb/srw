@@ -4,7 +4,7 @@
  * Obsługiwane: nagłówki #..####, akapity, **pogrubienie**, *kursywa*,
  * `kod`, [link](url), [[wikilink]] i [[wikilink|etykieta]] (przez resolver),
  * listy -/1., cytaty >, tabele pipe, pozioma linia ---, obrazy ![alt](src),
- * oraz blok `:::skrypt ... :::` na surowy tekst (ściany skryptu epizodu).
+ * oraz blok `:::skrypt ... :::` na tekst sceny z zachowanymi łamaniami linii.
  *
  * Poziom wiarygodności (ADR 0011) zaznacza się na fragmencie, nie na stronie:
  *   {{zrodlo\n ...treść...\n}}
@@ -45,7 +45,7 @@ export function parsujAtrybutyBloku(tekst) {
 
 export function renderMarkdown(md, {
   resolveLink, wymagajPoziomu = false, wPoziomie = null, wZagniezdzeniu = false,
-  atrybutyNaglowka = null,
+  atrybutyNaglowka = null, zachowajLamania = false,
 } = {}) {
   const linie = String(md).replace(/\r\n/g, '\n').split('\n');
   const out = [];
@@ -83,7 +83,10 @@ export function renderMarkdown(md, {
         problemy.push(`zagnieżdżony blok {{${poziom} — bloki poziomu nie mogą się zagnieżdżać`);
         continue;
       }
-      const wewn = renderMarkdown(buf.join('\n'), { resolveLink, wymagajPoziomu, wPoziomie: poziom, wZagniezdzeniu: true, atrybutyNaglowka });
+      const wewn = renderMarkdown(buf.join('\n'), {
+        resolveLink, wymagajPoziomu, wPoziomie: poziom, wZagniezdzeniu: true, atrybutyNaglowka,
+        zachowajLamania,
+      });
       problemy.push(...wewn.problemy);
       const zakres = zakresGry(atrybuty, { poziom, resolveLink, problemy });
       out.push(`<div class="fragment poziom poziom-${poziom}"${zakres.atrybuty}>\n${wZakresem(wewn.html, zakres.etykieta)}\n</div>`);
@@ -98,7 +101,10 @@ export function renderMarkdown(md, {
       i += 1; // zamknięcie
       // Dosłowny tekst skryptu wyświetlany jako formatowanie wizualne (znaczniki md → nagłówki, pogrubienia, cytaty).
       // Źródło pozostaje dosłowne: wierność sprawdza wytnijBlokSkryptu na surowym tekście.
-      const wewn = renderMarkdown(buf.join('\n'), { resolveLink, wymagajPoziomu, wPoziomie, wZagniezdzeniu: true, atrybutyNaglowka });
+      const wewn = renderMarkdown(buf.join('\n'), {
+        resolveLink, wymagajPoziomu, wPoziomie, wZagniezdzeniu: true, atrybutyNaglowka,
+        zachowajLamania: true,
+      });
       problemy.push(...wewn.problemy);
       dodaj(`<div class="skrypt-tekst">\n${wewn.html}\n</div>`);
       continue;
@@ -126,7 +132,10 @@ export function renderMarkdown(md, {
         buf.push(linie[i].replace(/^>\s?/, ''));
         i += 1;
       }
-      dodaj(`<blockquote><p>${inline(buf.join(' '))}</p></blockquote>`);
+      const tresc = zachowajLamania
+        ? buf.map((liniaCytatu) => inline(liniaCytatu)).join('\n')
+        : inline(buf.join(' '));
+      dodaj(`<blockquote><p>${tresc}</p></blockquote>`);
       continue;
     }
 
@@ -190,7 +199,10 @@ export function renderMarkdown(md, {
       buf.push(linie[i]);
       i += 1;
     }
-    dodaj(`<p>${inline(buf.join(' '))}</p>`);
+    const tresc = zachowajLamania
+      ? buf.map((liniaAkapitu) => inline(liniaAkapitu)).join('\n')
+      : inline(buf.join(' '));
+    dodaj(`<p>${tresc}</p>`);
   }
 
   return { html: out.join('\n'), problemy };

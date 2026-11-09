@@ -19,6 +19,7 @@ const strony = Object.values(globalThis.SRW_DATA.strony);
 const mechy = strony.filter((p) => p.typ === 'mech');
 const hasla = strony.filter((p) => p.typ === 'pojecie');
 const linkiMechow = (html) => [...html.matchAll(/href="#\/mech\/([^"]+)"/g)].map((m) => m[1]).sort();
+const linkiPostaci = (html) => [...html.matchAll(/href="#\/postac\/([^"]+)"/g)].map((m) => m[1]).sort();
 const linkiHasel = (html) => [...html.matchAll(/href="#\/pojecie\/([^"]+)"/g)].map((m) => m[1]).sort();
 const suroweQuery = (html) => html.match(/data-query='([^']*)'/)?.[1] ?? '';
 
@@ -39,6 +40,34 @@ test('mechy: seria ma opcję „Nieokreślona”, która wybiera maszyny bez ser
   // Filtr łączy się z pozostałymi: gra zawęża, gdy nie ma takich maszyn w grze.
   const zGra = renderListe('mech', { seria: 'bez-serii', gra: 'srw-oe' });
   assert.deepEqual(linkiMechow(zGra), bezSerii, 'wszystkie trzy maszyny są z OE');
+});
+
+test('galerie postaci i mechów: bez filtra pozostają puste', () => {
+  for (const typ of ['postac', 'mech']) {
+    const html = renderListe(typ);
+    assert.deepEqual(typ === 'postac' ? linkiPostaci(html) : linkiMechow(html), [], `${typ}: brak kart bez filtra`);
+    assert.match(html, /Wybierz filtr, aby wyświetlić ilustracje/);
+    assert.doesNotMatch(html, /class="galeria-encji"/);
+  }
+
+  const poRozmiarze = renderListe('postac', { rozmiar: '320' });
+  assert.deepEqual(linkiPostaci(poRozmiarze), [], 'sam suwak nie jest filtrem treści');
+  assert.doesNotMatch(poRozmiarze, /class="galeria-encji"/);
+});
+
+test('Postacie: karty nie pokazują postaci generycznych, ale filtry nadal działają', () => {
+  const generyczne = [
+    'agent', 'control-ai', 'invader', 'mechabestia', 'mucus', 'mobile-doll',
+    'oficer-federacji', 'oficer-zeonu', 'shinohara-hos', 'zaawansowana-si',
+    'zolnierz-federacji', 'zolnierz-jsdf', 'zolnierz-zeonu',
+  ];
+  const html = renderListe('postac', { gra: 'srw-oe' });
+  for (const slug of generyczne) assert.doesNotMatch(html, new RegExp(`href="#/postac/${slug}"`), `${slug}: karta ukryta`);
+  assert.match(html, /href="#\/postac\/seishiro"/, 'nazwana postać zostaje w galerii');
+
+  const srwY = renderListe('postac', { gra: 'srw-y' });
+  assert.doesNotMatch(srwY, /href="#\/postac\/agent"|href="#\/postac\/zaawansowana-si"|href="#\/postac\/mobile-doll"/);
+  assert.match(srwY, /href="#\/postac\/echika-y-franburnett"/);
 });
 
 test('hasła: chmura tagów filtruje listę i przełącza wybór linkiem', () => {
@@ -96,7 +125,8 @@ test('każda lista odrzuca klucze spoza własnego zestawu, także w data-query (
   const queryMecha = suroweQuery(mech);
   assert.match(queryMecha, /rozmiar/);
   assert.doesNotMatch(queryMecha, /tagi|postac/);
-  assert.equal(linkiMechow(mech).length, mechy.length, 'obce klucze nie zawężają galerii');
+  assert.deepEqual(linkiMechow(mech), [], 'bez filtra galeria czeka na wybór zamiast pokazywać wszystkie maszyny');
+  assert.doesNotMatch(mech, /class="galeria-encji"/);
 
   // Hasła nie mają pola serii: przed poprawką ten niewidzialny filtr dawał pustą listę.
   const bezUkrytegoFiltra = renderListe('pojecie', { seria: 'mobile-police-patlabor' });
@@ -149,6 +179,44 @@ test('filtr listy scen zawęża po maszynie, postaci i serii obsady', () => {
   assert.match(pusty, /Nic tu jeszcze nie ma dla tego filtra/);
   assert.match(pusty, /filtry-krokowe/);
   assert.match(pusty, /<option value="amuro-ray" selected>/, 'wybór zostaje do odznaczenia');
+});
+
+test('epizody: grupują się po grze w domyślnie zwiniętych details', () => {
+  const html = renderListe('epizod');
+  const grupy = [...html.matchAll(/<details class="grupa-epizodow-gry">([\s\S]*?)<\/details>/g)].map((m) => m[1]);
+  assert.equal(grupy.length, 2, 'dwie gry mają osobne grupy epizodów');
+  assert.doesNotMatch(html, /<details class="grupa-epizodow-gry"[^>]*open/);
+  assert.match(grupy[0], /Super Robot Wars OE[\s\S]*\(3 epizody\)/);
+  assert.match(grupy[1], /Super Robot Wars Y[\s\S]*\(1 epizod\)/);
+  assert.match(grupy[0], /href="#\/epizod\/srw-oe-ep0"/);
+  assert.match(grupy[1], /href="#\/epizod\/srw-y-ep1"/);
+  assert.doesNotMatch(grupy[0], /href="#\/gra\/srw-oe"/, 'nazwa gry jest przyciskiem rozwijania');
+  assert.doesNotMatch(grupy[1], /href="#\/gra\/srw-y"/, 'nazwa gry nie nawiguje poza listę');
+});
+
+test('sceny: grupują się najpierw po grze w domyślnie zwiniętych details', () => {
+  const html = renderListe('scena');
+  const grupy = [...html.matchAll(/<details class="grupa-scen-gry">([\s\S]*?)<\/details>/g)].map((m) => m[1]);
+  assert.equal(grupy.length, 2, 'dwie gry mają osobne grupy');
+  assert.doesNotMatch(html, /<details class="grupa-scen-gry"[^>]*open/);
+  assert.match(grupy[0], /Super Robot Wars OE[\s\S]*\(17 scen\)/, 'pierwsza jest gra z pierwszymi scenami');
+  assert.match(grupy[1], /Super Robot Wars Y[\s\S]*\(1 scena\)/, 'druga jest gra z nową sceną');
+  assert.match(grupy[0], /href="#\/epizod\/srw-oe-ep1"/, 'rozwinięta grupa pokazuje epizod');
+  assert.match(grupy[0], /href="#\/scena\/srw-oe-ep1-szalejacy-prototyp-labora"/, 'rozwinięta grupa pokazuje scenę');
+  assert.match(grupy[1], /href="#\/epizod\/srw-y-ep1"/);
+  assert.match(grupy[1], /href="#\/scena\/srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny"/);
+  assert.match(grupy[1], /Kwiaty, ninja i urodziny/);
+  assert.doesNotMatch(grupy[1], /Misja 1 — Kwiaty/);
+  assert.doesNotMatch(grupy[0], /href="#\/gra\/srw-oe"/, 'nazwa gry jest przyciskiem rozwijania');
+  assert.doesNotMatch(grupy[1], /href="#\/gra\/srw-y"/, 'nazwa gry nie nawiguje poza listę');
+});
+
+test('sceny: filtr gry zachowuje licznik i grupowanie epizodów', () => {
+  const html = renderListe('scena', { gra: 'srw-y' });
+  assert.equal((html.match(/class="grupa-scen-gry"/g) ?? []).length, 1);
+  assert.match(html, /Super Robot Wars Y[\s\S]*\(1 scena\)/);
+  assert.match(html, /href="#\/scena\/srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny"/);
+  assert.doesNotMatch(html, /srw-oe-ep1-szalejacy-prototyp-labora/);
 });
 
 test('selektory list fabularnych zawężają się nawzajem', () => {

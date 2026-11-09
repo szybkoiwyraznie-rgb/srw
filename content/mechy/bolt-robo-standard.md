@@ -6,7 +6,7 @@ seria: nekketsu-saikyo-go-saurer
 gry: [srw-oe]
 piloci: [mechabestia]
 w_gre:
-  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_2_1.txt", "profil": "Bolt Robo (Bolt Robo/Standard)", "dane": "**Seria:** Nekketsu Saikyo Go-Saurer\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Walka wręcz | 1100 | 1–1 | +60 | 0 | — | Brak w tym polu | **Mechaniz. (poziom bazowy 1):** 1 tura: Obr wroga-20% Unik-20% Szansa 10% |\n| 1 | Działo | 1400 | 1–4 | +35 | 5 | — | Brak w tym polu | **Na dużych (poziom bazowy 1):** Na dużych: Atk x1.1 Obr wroga-20%; (więksi od siebie) |"}'
+  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_2_1.txt", "profil": "Bolt Robo (Bolt Robo/Standard)", "dane": "**Seria:** Nekketsu Saikyo Go-Saurer\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Walka wręcz | 1100 | 1–1 | +60 | 0 | — | Brak w tym polu | **Mechaniz. (poziom bazowy 1):** 1 tura: Obr wroga-20% Unik-20% Szansa 10% |\n| 1 | Działo | 1400 | 1–4 | +35 | 5 | — | Brak w tym polu | **Na dużych (poziom bazowy 1):** Na dużych: Atk x1.1 Obr wroga-20%; (więksi od siebie) |"}'
 pochodzenie: skrypt
 zrodla:
   - https://srw.wiki.cre.jp/wiki/%E3%83%9C%E3%83%AB%E3%83%88%E3%83%AD%E3%83%9C

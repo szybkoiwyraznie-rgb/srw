@@ -1,5 +1,17 @@
 # Co nowego
 
+## 2026-11-09 12:00
+
+- [[srw-y|Super Robot Wars Y]] — profile 8 jednostek i 13 postaci pokazują teraz pełne charakterystyki encyklopedyczne z menu gry, obok parametrów, uzbrojenia i umiejętności.
+- [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|Scena „Kwiaty, ninja i urodziny”]] zachowuje osobne linie dialogu i kolejne linie cytatów także w widoku sceny.
+
+## 2026-11-09 11:35
+
+- [[srw-y|Super Robot Wars Y]] — [[srw-y-ep1|Epizod 1]] prowadzi od parady cesarza Leloucha przez atak na miasto Yagami do uruchomienia [[a-advent|A. Adventu]] i odkrycia Systemu [[nira-kana-i|Nira-Kana-I]].
+- [[srw-y|Super Robot Wars Y]] — [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|Scena 1-1C „Kwiaty, ninja i urodziny”]] obejmuje cały dostarczony prolog: od parady i ataku VAL-X po A. Advent, [[ninja|NINJA]] oraz rdzeń Nira-Kana-I.
+- [[srw-y|Super Robot Wars Y]] — Nowe profile [[echika-y-franburnett|Echiki]], [[annina-servania|Anniny]], [[cross-tsukinowa|Crossa]], [[chang-wufei|Wufeia]], [[zero|Zero]] i pozostałych uczestników łączą 16 postaci oraz 8 jednostek, w tym [[lunedrache|Lunedrache]], [[altron-gundam|Altron Gundam]] i [[lancelot-albion-zero|Lancelot Albion Zero]].
+- [[srw-y|Super Robot Wars Y]] — Świat epizodu uzupełniają hasła [[wojna-rewolucyjna|wojny rewolucyjnej]], [[val-x|VAL-X]], [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]], [[miasto-yagami|miasta Yagami]], [[pamiec-stg|pamięci STG]] i [[teoria-y|teorii Y]] oraz karty reprezentowanych serii.
+
 ## 2026-11-09 11:27
 
 - Wspólne — W serialu [[tokwan|Tokwan]] jest kapitanem [[zeon|Zeonu]] i zastępcą [[char-aznable|Chara]] na [[zanzibar|Zanzibarze]]; określenie go porucznikiem w odcinku 32 pozostaje nierozstrzygniętą rozbieżnością.
@@ -24,7 +36,8 @@
 - [[srw-oe|SRW OE]] — Siódma misja drugiego epizodu, [[srw-oe-ep2-w-poscigu-za-zanzibarem|„W pościgu za Zanzibarem”]], domyka drogę [[white-base|White Base]] do [[connect-force|Connect]]. [[zanzibar|Zanzibar]] dogania przynętę tuż przed punktem spotkania, [[char-aznable|Char]] szarżuje na okręt nową maszyną, a bitwę przerywa nie trafienie, tylko komunikat: [[seishiro|Seishiro]] ogłasza, że okręt podlega [[connect-force|Connect Force]], i Czerwona Kometa to uznaje.
 - [[srw-oe|SRW OE]] — Rozejm nie obowiązuje wszystkich. [[tokwan|Tokwan]], który zna [[dren|Drena]] z czasów rekruckich, startuje wbrew rozkazowi, żeby pomścić [[patrolowa-flota-camel|flotę Camel]], i odpowiada [[seishiro|Seishirowi]], że prywatna firma nie będzie rządzić na polu bitwy. Po zniszczeniu jego maszyny [[char-aznable|Char]] nie potępia podwładnego — żałuje jednostki i życzy mu ucieczki, a na [[white-base|White Base]] przychodzi depesza z przeprosinami.
 - [[srw-oe|SRW OE]] — [[13-samodzielny-oddzial|13. Samodzielny Oddział]] przechodzi pod jurysdykcję [[connect-force|Connect Force]], a [[bright-noa|Bright Noa]] zachowuje dowodzenie wszędzie tam, gdzie okrętem-matką jest [[white-base|White Base]]. Zadaniem formacji są odtąd zagrożenia dla całej ludzkości, zaczynając od okolic Ziemi.
-- [[srw-oe|SRW OE]] — Nowe strony: [[bigro|Bigro]], [[gelgoog-char|Gelgoog Chara]] i porucznik [[tokwan|Tokwan]]. Bigro powstał z przegranego przedwojennego projektu i nadrabia prędkością oraz szponami zdolnymi przebić pancerz Gundama, a Gelgoog jest pierwszym seryjnym [[mobile-suit|mobile suitem]] [[zeon|Zeonu]] z karabinem wiązkowym.
+- [[srw-oe|SRW OE]] — Nowe strony: [[bigro|Bigro]], [[gelgoog-char|Gelgoog Chara]] i porucznik [[tokwan|Tokwan]].
+- Wspólne — [[bigro|Bigro]] powstał z przegranego przedwojennego projektu i nadrabia prędkością oraz szponami zdolnymi przebić pancerz Gundama, a [[gelgoog-char|Gelgoog]] jest pierwszym seryjnym [[mobile-suit|mobile suitem]] [[zeon|Zeonu]] z karabinem wiązkowym.
 - [[srw-oe|SRW OE]] — [[slender|Slender]] i [[crown|Crown]] przesiadają się z Zaku II do kosmicznych [[rick-dom|Rick Domów]], a pięcioro pilotów — [[kai-shiden|Kai]], [[hayato-kobayashi|Hayato]], [[sayla-mass|Sayla]], [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] — ma w tabelach komend kolejne pozycje do nauki.
 
 ## 2026-11-07 21:55
@@ -39,7 +52,8 @@
 - Wspólne — Wiadomo, co stało się z [[paolo-cassius|Paolo Cassiusem]]. Kapitan [[white-base|White Base]] odniósł rany podczas ataku [[char-aznable|Chara]] na [[side-7|Side 7]]; z łóżka wymógł jeszcze na komendancie [[luna-ii|Luny II]], by pozwolił załodze walczyć, a umarł w drodze ku Ziemi — i tak dowodzenie przeszło na [[bright-noa|Brighta Nou]].
 - Wspólne — W pierwowzorze [[alan-igor|Alan Igor]] jest Czarnym Rycerzem, który sprzeciwia się ojcu, [[komendant-igor|generałowi Rossowi Igorowi]], i zbiera własny elitarny korpus zamiast latać z [[cyber-beast-force|Cyber Beast Force]]. Jego maszyna, zbudowana poza warsztatem profesora Hazukiego, nie ma bariery otwieranej gniewem. W grze obaj Igorowie są po tej samej stronie, a Alan ręczy za zespół przed gospodarzami ćwiczeń.
 - Wspólne — [[hss|HSS]] okazuje się fasadą [[shaft-enterprises|Schafta]]. W pierwowzorze ta sama firma ochroniarska wystawia przeciw [[sily-samoobrony-japonii|Siłom Samoobrony]] Labora przerobionego z zakładowego prototypu, a [[kurosaki|Kurosaki]] zjawia się przy tym jako jej negocjator — co daje mu alibi na czas prób czarnego Labora. W grze układ się powtarza: HSS pilnuje poligonu, na którym giną wojskowe maszyny.
-- [[srw-oe|SRW OE]] — Poprawka w [[srw-oe-ep1-szalejacy-labor-powraca|„Szalejącym Laborze powraca”]]: w dwudziestym ósmym odcinku *Patlabora* debiutują tylko [[utsumi|Utsumi]] i [[badrinath-harchand|Bud]], i to w salonie gier, a nie cała trójka na placu budowy. [[kurosaki|Kurosaki]] pokazał się już osiem odcinków wcześniej.
+- [[srw-oe|SRW OE]] — W scenie [[srw-oe-ep1-szalejacy-labor-powraca|„Szalejący Labor powraca”]] poprawiono opis obserwatorów walki Ingramów: [[utsumi|Utsumi]], [[badrinath-harchand|Bud]] i [[kurosaki|Kurosaki]] komentują starcie po stronie wydarzeń gry.
+- Wspólne — W 28. odcinku *Patlabora* [[utsumi|Utsumi]] i [[badrinath-harchand|Bud]] poznają [[noa-izumi|Noę]] i [[asuma-shinohara|Asumę]] w salonie gier; [[kurosaki|Kurosaki]] pojawił się osiem odcinków wcześniej.
 - Wspólne — [[shaft-enterprises|Schaft]] rzadko działa pod własnym szyldem: raz podstawia firmę, która wypożycza policji prototyp, raz ochroniarzy pilnujących poligonu, a za każdym razem chodzi o dane o ruchach cudzych maszyn. Projekt [[griffon|Griffona]] idzie dalej i poluje już na dysk ruchu [[ingram-nr-1|Ingrama]] — dlatego starcie na poligonie [[utsumi|Utsumi]] przerywa wtedy, gdy ma dość pomiarów, a nie gdy przegrywa.
 
 ## 2026-11-07 09:51

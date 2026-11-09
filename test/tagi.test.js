@@ -44,6 +44,13 @@ const TAG_SERII = {
   'tengen-toppa-gurren-lagann': 'tengen-toppa',
   'sgt-frog': 'sgt-frog',
   'super-robot-wars-original': 'super-robot-wars',
+  'mobile-suit-gundam-wing-endless-waltz': 'gundam-wing',
+  'mobile-suit-z-gundam': 'gundam-z',
+  'mobile-suit-gundam-seed-destiny': 'gundam-seed',
+  'getter-robo-arc': 'getter-robo',
+  'ssss-dynazenon': 'dynazenon',
+  'code-geass-lelouch-of-the-re-surrection': 'code-geass',
+  'code-geass-lelouch-of-the-rebellion-iii-glorification': 'code-geass',
 };
 
 test('pole kategoria zniknęło z całej bazy', () => {

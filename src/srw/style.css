@@ -400,7 +400,7 @@ blockquote {
 .dziennik .data { color: var(--tusz-3); }
 .kroki li { margin: .5em 0; }
 .dziennik ul { margin: .4em 0 .4em 1.2em; padding: 0; }
-.skrypt-tekst { line-height: 1.7; }
+.skrypt-tekst { line-height: 1.7; white-space: pre-line; }
 .stopka-czas { margin: 0 0 4px; }
 
 /* ── Stopka ────────────────────────────────────────────────────── */
@@ -577,6 +577,32 @@ blockquote {
 .lista-scen a:hover { color: var(--akcent); text-decoration: none; }
 .numer-sceny { font-family: var(--mono); color: var(--akcent); font-size: .9em; margin-right: 4px; }
 .streszczenie-sceny { display: block; margin-top: 2px; color: var(--tusz-3); font-size: .84rem; }
+
+/* Działy Sceny i Epizody: gra jest pierwszym, domyślnie zwiniętym poziomem. */
+.grupa-scen-gry, .grupa-epizodow-gry {
+  margin: 0 0 12px; padding: 0;
+  background: var(--panel); border: 1px solid var(--ramka); border-radius: 10px;
+  box-shadow: var(--cien); overflow: hidden;
+}
+.grupa-scen-gry > summary, .grupa-epizodow-gry > summary {
+  cursor: pointer; list-style: none; padding: 14px 18px;
+  display: flex; align-items: baseline; gap: 8px;
+  font-weight: 700; color: var(--tusz);
+}
+.grupa-scen-gry > summary::-webkit-details-marker,
+.grupa-epizodow-gry > summary::-webkit-details-marker { display: none; }
+.grupa-scen-gry > summary::before, .grupa-epizodow-gry > summary::before {
+  content: "▶"; color: var(--akcent); font-size: .75em; transition: transform .15s ease;
+}
+.grupa-scen-gry[open] > summary::before, .grupa-epizodow-gry[open] > summary::before { transform: rotate(90deg); }
+.grupa-scen-gry > summary:hover, .grupa-epizodow-gry > summary:hover { color: var(--akcent); }
+.tytul-grupy-scen, .tytul-grupy-epizodow { font-size: 1.05rem; }
+.sceny-gry, .epizody-gry { padding: 0 18px 14px; border-top: 1px solid var(--ramka); }
+.grupa-scen-epizod { padding-top: 12px; }
+.grupa-scen-epizod h3 { margin: 0 0 4px; font-size: 1rem; }
+.grupa-scen-epizod h3 a { color: var(--tusz); }
+.grupa-scen-epizod h3 a:hover { color: var(--akcent); text-decoration: none; }
+.epizody-gry .lista-epizodow { margin: 0; }
 
 
 /* ── Kotwice podsekcji sceny ───────────────────────────────────── */
