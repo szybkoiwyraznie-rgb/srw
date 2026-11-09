@@ -20,9 +20,6 @@ Jedna z maszyn rodziny Zaku II — z bazooką Zaku i Heat Hawkiem, przygotowana 
 Podczas ataku na [[white-base|White Base]] maszyny tego typu lecą w eskorcie [[char-aznable|Chara]], a tę z bazooką prowadzi [[crown|Crown]].
 
 Bazooka Zaku sięga 4 pól i dostaje premię przeciw okrętom: trafienie +70% i atak x1,8. Heat Hawk pozostaje bronią na sąsiednie pole, z trafieniem +50.
-}}
-
-{{menu gra=srw-oe
 
 ## Pozostałe jednostki Zaku II
 
@@ -70,3 +67,4 @@ Zaku II (MS-06) to seria mobile suitów Księstwa [[zeon|Zeonu]] i podstawowa ma
 | 0 | Bazooka Zaku | 1500 | 1–4 | +5 | 10 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
 | 1 | Heat Hawk | 1600 | 1–1 | +50 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
 }}
+

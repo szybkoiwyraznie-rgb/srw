@@ -5,6 +5,7 @@ w chwili zapisu; nie zastępują aktualnych decyzji i zasad.
 
 - 2026-11-09 12:05–13:40 — układ boksów stron encji bez tytułów opisowych (ADR 0035), kryterium udziału w grze i hasła dla osób wspominanych (ADR 0013), mówcy prologu SRW Y w Postaciach, ciaśniejsze odstępy między boksami.
 - 2026-11-09 18:20–18:55 — jeden boks opisowy na grę na stronach encji: usunięte agentowe parafrazy dublujące opisy z dostawy (20 stron), pary kanonicznych opisów scalone w jeden boks (zamza-zah, invader, mechabestia, mucus); reguła dopisana do ADR 0035.
+- 2026-11-09 19:10–19:40 — audyt boksów źródeł/wiedzy: 10 stron ze źródłami podzielonymi na kilka boksów scalonych w jeden blok `{{zrodlo}}` z sekcjami (m.in. kuro, shiro, cybuster, devil-gundam-incident), 17 boksów-dodatków („Pozostałe jednostki…”, „Dane z misji”, „Umiejętność pilota”) wchodzi jako sekcje boksów opisowych; dubli treści nie znaleziono.
 
 # Co nowego
 

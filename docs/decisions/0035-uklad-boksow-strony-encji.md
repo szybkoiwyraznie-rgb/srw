@@ -32,6 +32,11 @@ Dodatkowo:
   opisowy gry zawiera tekst z dostawy zapisany 1:1 (ADR 0010). Agentowe parafrazy tego samego
   opisu (np. wersje z wikilinkami) są usuwane jako dubel, a nie pokazywane w osobnym boksie;
   dwa kanoniczne akapity tej samej gry trzyma się w jednym boksie.
+- **Jedna strona = jeden boks poziomu 2 i jeden boks poziomu 3** (audyt 2026-11-09): „opis
+  neutralny ze źródeł” mieści się w jednym bloku `{{zrodlo}}`, a analiza modelu w jednym
+  `{{wiedza}}`; tematy (Pierwowzór, Głos, Nazwa, Związek z…) zostają jako sekcje `##` w środku
+  boksu. Białe boksy-dodatki („Pozostałe jednostki…”, „Dane z misji”, „Umiejętność pilota”)
+  są sekcjami boksu opisowego gry, nie osobnymi boksami.
 - Walidacja: `maTrescOpisowa` w `src/srw/registry.js` wymaga treści opisowej poza boksami
   „Ilustracje”/„Parametry” zamiast listy obowiązkowych nagłówków (komunikat: „brak treści
   opisowej poza boksami Ilustracje/Parametry (ADR 0035)”).

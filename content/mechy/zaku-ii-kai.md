@@ -19,9 +19,6 @@ utworzono: 2026-10-23
 Mobile suit używany przez dwóch członków [[pluton-cyclops|plutonu Cyclops]]: [[gabriel-ramirez-garcia|Gabriela Ramireza Garcię]] i dowódcę [[hardy-steiner|Hardy’ego Steinera]]. Steiner z Garcią niszczy wieżę obserwacyjną, a następnie dowódca osłania natarcie i zarządza odwrót, gdy dalsze przebijanie się siłą nie przynosi rezultatu.
 
 Zaku II Kai blokuje ciosy tarczą. Heat Hawk korzysta z Gardy, a Sturm Faust otrzymuje premię przeciw okrętom.
-}}
-
-{{menu gra=srw-oe
 
 ## Pozostałe jednostki Zaku II
 
@@ -68,3 +65,4 @@ W pierwowzorze Zaku II Kai to wersja MS-06FZ, owoc późnowojennego programu [[z
 |       1 | Heat Hawk         |       2000 |  1–1   |       +50 |   0 |      — | Brak w tym polu | **Garda (poziom bazowy 1):** Obr+20%                                     |
 |       2 | Sturm Faust       |       2200 |  1–3   |        +0 |  15 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
 }}
+

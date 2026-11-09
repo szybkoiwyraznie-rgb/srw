@@ -28,9 +28,6 @@ Jej uzbrojenie obejmuje God Raijin Boomerang, God Raijin Sword, God Hyper Flash,
 ## Pierwowzór
 
 W [[matchless-raijin-oh|pierwowzorze]] God Raijin-Oh (ゴッドライジンオー) powstaje z superpołączenia [[raijin-oh|Raijin-Oh]] i bezzałogowego robota wsparcia [[bakuryu-oh|Bakuryū-Oh]], zdalnie kierowanego z sali dowodzenia [[akademia-hinobori|Szkoły Podstawowej Hinobori]]. Forma debiutuje w 23. odcinku *Zettai Muteki Raijin-Oh*, mierzy 41 metrów wysokości, waży 116 ton i korzysta m.in. z działa God Raijin Bazooka oraz miecza God Raijin Sword ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); [Eldran Wiki, „God Raijin-Oh”](https://eldran.fandom.com/wiki/God_Raijin-Oh); sprawdzono 2026-10-25).
-}}
-
-{{zrodlo gra=srw-oe
 
 W [[srw-oe|Super Robot Wars OE]] po połączeniu w God Raijin-Oha do załogi dołącza jako podpilot [[bakuryu-oh|Bakuryu-Oh]], dysponujący wspierającymi Komendami Ducha ([SRW Wiki, „バクリュウオー”](https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC); sprawdzono 2026-10-25).
 }}
@@ -72,3 +69,4 @@ W [[srw-oe|Super Robot Wars OE]] po połączeniu w God Raijin-Oha do załogi do�
 | 3 | Final Fire | 5400 | 3–6 | +10 | 50 | 120 | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
 | 4 | Hyper Thunder Crash | 6500 | 1–2 | +25 | 70 | 140 | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
 }}
+

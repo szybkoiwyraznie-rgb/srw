@@ -16,9 +16,6 @@ utworzono: 2026-10-27
 {{skrypt gra=srw-oe
 
 Szturmowa odmiana [[mechabestia|mechabestii]] [[mechanization-empire|Imperium Mechanizacji]] nastawiona na walkę w zwarciu. Oba jej ataki — uderzenie wręcz oraz silniejszy Driver Attack o zasięgu 1–2 — mają wysoką premię do celności (+80 i +70) oraz szansę nałożenia efektu „Mechaniz.”, przy czym Driver Attack dodatkowo odpycha trafioną jednostkę o jedno pole i ignoruje osłonę. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] naciera na [[shin-getter-1|Shin Gettera-1]] oraz oddział [[connect-force|Connect]], a nowe egzemplarze nadciągają z bramy [[mucus-gate-s-mc|Mucus Gate S MC]].
-}}
-
-{{skrypt gra=srw-oe
 
 ## Pozostałe jednostki Bolt Robo
 
@@ -43,3 +40,4 @@ W [[nekketsu-saikyo-go-saurer|pierwowzorze]] prawe ramię Bolt Robo zakończone 
 
 ![Bolt Robo/Melee — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Bolt%20Robo%20Melee%202.png)
 }}
+

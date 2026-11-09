@@ -23,9 +23,6 @@ Masaki Andoh jest pilotem [[cybuster|Cybustera]] i jego formy [[cybird|Cybird]] 
 ## Pierwowzór
 
 Masaki Andoh był pierwszą oryginalną postacią stworzoną przez Banpresto dla cyklu *Super Robot Wars*; zadebiutował wraz z [[cybuster|Cybusterem]] w *Super Robot Wars 2* ([Akurasu, „Masaki Andoh”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
-}}
-
-{{zrodlo gra=wspolne
 
 ## Towarzysze Masakiego
 
@@ -67,3 +64,4 @@ Masaki Andoh był pierwszą oryginalną postacią stworzoną przez Banpresto dla
 |---:|---|---:|---|
 | 1 | **Potenc. Unik** | 1 | Pozostałe HP 10%: Obr/Cel/Kryt+4% Unik+5% |
 }}
+

@@ -16,9 +16,6 @@ utworzono: 2026-10-27
 {{skrypt gra=srw-oe
 
 Dalekosiężna odmiana [[mechabestia|mechabestii]] [[mechanization-empire|Imperium Mechanizacji]] przystosowana do wsparcia ogniowego zza przeszkód terenowych. Jej głównym orężem jest długie działo o zasięgu 3–7 prowadzące ostrzał pośredni ze zwiększoną celnością (+40%) i siłą ataku (×1,3) przeciw celom stojącym na lądzie, podczas gdy słabe uderzenie wręcz służy wyłącznie do samoobrony w zwarciu. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] razi z głębi podziemnej pieczary oddziały [[connect-force|Connect]], [[saurersi|Saurersów]], [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] i [[shin-getter-1|Shin Gettera-1]].
-}}
-
-{{skrypt gra=srw-oe
 
 ## Pozostałe jednostki Bolt Robo
 
@@ -43,3 +40,4 @@ W [[nekketsu-saikyo-go-saurer|pierwowzorze]] szeregowe Bolt Robo [[mechanization
 
 ![Bolt Robo/Long-Range — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Bolt%20Robo%20Long-Range%202.png)
 }}
+

@@ -16,9 +16,6 @@ utworzono: 2026-10-27
 {{skrypt gra=srw-oe
 
 Podstawowa odmiana [[mechabestia|mechabestii]] [[mechanization-empire|Imperium Mechanizacji]] wyposażona w atak wręcz z efektem „Mechaniz.” obniżającym obronę i unik celu oraz w działo średniego zasięgu (1–4) skuteczniejsze przeciw większym maszynom. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Bolt Robo tej odmiany otaczają pod ziemią [[shin-getter-1|Shin Gettera-1]], a kolejne egzemplarze wydostają się przez bramę [[mucus-gate-s-mc|Mucus Gate S MC]], rozkładając i ponownie składając swoje mechaniczne ciała podczas skoku podprzestrzennego.
-}}
-
-{{skrypt gra=srw-oe
 
 ## Pozostałe jednostki Bolt Robo
 
@@ -43,3 +40,4 @@ W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Bolt Robo (ボルトロボ) to maso
 
 ![Bolt Robo/Standard — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Bolt%20Robo%20Standard%201.png)
 }}
+

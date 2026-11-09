@@ -21,9 +21,6 @@ Odrębna konfiguracja [[gundam-ground-type|Gundama Ground Type]], w której [[ka
 Karen używa tej samej konfiguracji podczas późniejszej eskorty [[medea|Medei]].
 
 Ta konfiguracja ma własne wartości: słabsze piersiowe działko Vulcan, mocniejszy karabin maszynowy 100 mm oraz działo 180 mm zamiast wyrzutni rakiet. Szabla wiązkowa korzysta z Gardy, a działo z Penetracji.
-}}
-
-{{menu gra=srw-oe
 
 ## Pozostałe jednostki Gundam Ground Type
 
@@ -77,3 +74,4 @@ Braki części to w pierwowzorze stały motyw. [[gundam-ground-type|Ground Type�
 |       2 | Karabin maszynowy 100 mm |       2900 |  1–4   |       +15 |  10 |      — | Brak w tym polu    | Brak odwołania w dwóch polach efektów broni                         |
 |       3 | Działo 180 mm            |       4000 |  3–7   |        +5 |  30 |      — | Brak w tym polu    | **Penetracja (poziom bazowy 1):** Obr-30%                           |
 }}
+

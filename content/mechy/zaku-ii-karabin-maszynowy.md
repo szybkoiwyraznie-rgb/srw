@@ -20,9 +20,6 @@ Jedna z maszyn rodziny Zaku II — uzbrojona w karabin maszynowy Zaku i Heat Haw
 Podczas ataku na [[white-base|White Base]] maszyny tego typu lecą w eskorcie [[char-aznable|Chara]], a tę z karabinem maszynowym prowadzi [[slender|Slender]].
 
 Karabin maszynowy Zaku ma zasięg 3 pól i trafienie +30, Heat Hawk bije tylko na sąsiednim polu, ale z trafieniem +50 i bez zużycia EN.
-}}
-
-{{menu gra=srw-oe
 
 ## Pozostałe jednostki Zaku II
 
@@ -70,3 +67,4 @@ Zaku II (MS-06) to seria mobile suitów Księstwa [[zeon|Zeonu]] i podstawowa ma
 | 0 | Karabin maszynowy Zaku | 1000 | 1–3 | +30 | 5 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
 | 1 | Heat Hawk | 1600 | 1–1 | +50 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
 }}
+

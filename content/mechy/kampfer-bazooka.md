@@ -19,9 +19,6 @@ utworzono: 2026-10-23
 Konfiguracja Kampfera pilotowana przez [[andy-strauss|Andy’ego Straussa]] podczas szturmu [[pluton-cyclops|plutonu Cyclops]] na bazę Federacji. Andy wykrywa ciepło mobile suitów obrońców, a potem dostrzega wahadłowiec i kontener. Mimo ostrzeżenia [[hardy-steiner|Steinera]] rusza naprzód; po trafieniu silników melduje odwrót.
 
 Strzelba przebija się przez wrogów w zasięgu i pozwala ruszyć dalej, a wielka bazooka wyróżnia tę konfigurację.
-}}
-
-{{menu gra=srw-oe
 
 ## Pozostałe jednostki Kampfer
 
@@ -65,3 +62,4 @@ W pierwowzorze Kampfer powstał u schyłku wojny jako maszyna szturmowa: konstru
 |       2 | Szabla wiązkowa       |       1900 |  1–1   |       +35 |   0 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                         |
 |       4 | Wielka bazooka        |       2700 |  3–6   |       +10 |  15 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                         |
 }}
+

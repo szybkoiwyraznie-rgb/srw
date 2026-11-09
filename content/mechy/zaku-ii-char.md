@@ -21,9 +21,6 @@ Jedna z maszyn rodziny Zaku II — ta, którą lata [[char-aznable|Char Aznable]
 Podczas ataku na [[white-base|White Base]] to maszyna, którą Char wchodzi w walkę z prędkością zaskakującą załogę okrętu.
 
 Bazooka Zaku działa na okręty, Heat Hawk zadaje dodatkowe obrażenia z szansą 30%, a szarża barkiem przebija przez wrogów w zasięgu i pozwala walczyć dalej.
-}}
-
-{{menu gra=srw-oe
 
 ## Pozostałe jednostki Zaku II
 
@@ -75,3 +72,4 @@ Wariant dowódcy MS-06S był malowany na czerwono — to właśnie nim [[char-az
 | 2 | Heat Hawk | 2700 | 1–1 | +60 | 0 | — | Brak w tym polu | **Ogień (poziom bazowy 1):** Dodatk. Obraż.1500 Szansa 30% |
 | 3 | Szarża barkiem | 1200 | 1–7 | +35 | 15 | — | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej; Bez kontry; Nie do wsparcia ani kontry |
 }}
+
