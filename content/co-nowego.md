@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-09 12:56
+
+- [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|Scena „Kwiaty, ninja i urodziny”]] i [[srw-y-ep1|Epizod 1]] łączą głosy prologu z osobnymi hasłami [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[quatre-raberba-winner|Quatre]], [[trowa-barton|Trowy]], [[nunnally-vi-britannia|Nunnally]], [[tetsuya-tsurugi|Tetsuyi]], [[chizuru-nambara|Chizuru]] i [[hyoma-aoi|Hyomy]].
+
 ## 2026-11-09 12:00
 
 - [[srw-y|Super Robot Wars Y]] — profile 8 jednostek i 13 postaci pokazują teraz pełne charakterystyki encyklopedyczne z menu gry, obok parametrów, uzbrojenia i umiejętności.

@@ -6,7 +6,7 @@ gra: srw-y
 postacie: [agent, annina-servania, baku-yamagishi, echika-y-franburnett, forte-tsukinowa, gauma, zaawansowana-si, cross-tsukinowa, mobile-doll, takuma-nagare, chang-wufei, yomogi-asanaka, zero, aytie, cookie, wren]
 mechy: [altron-gundam, amx-003-gaza-c, a-advent, lunedrache, lancelot-albion-zero, lumenus, taurus, zamza-zah]
 serie: [super-robot-wars-original, mobile-suit-gundam-wing-endless-waltz, mobile-suit-z-gundam, mobile-suit-gundam-seed-destiny, getter-robo-arc, ssss-dynazenon, code-geass-lelouch-of-the-re-surrection, code-geass-lelouch-of-the-rebellion-iii-glorification]
-pojecia: [wojna-rewolucyjna, nowa-federacja-ziemska, val-x, logos, czarni-rycerze, ninja, statek-emigracyjny, nira-kana-i, pamiec-stg, teoria-y, miasto-yagami, mechaniczne-marionetki]
+pojecia: [wojna-rewolucyjna, nowa-federacja-ziemska, val-x, logos, czarni-rycerze, ninja, statek-emigracyjny, nira-kana-i, pamiec-stg, teoria-y, miasto-yagami, mechaniczne-marionetki, heero-yuy, duo-maxwell, quatre-raberba-winner, trowa-barton, nunnally-vi-britannia, tetsuya-tsurugi, chizuru-nambara, hyoma-aoi]
 numer: 1
 skrypt: episodes/srw-y/ep001.md
 pochodzenie: skrypt
@@ -30,7 +30,7 @@ Po wojnie rewolucyjnej świat próbuje utrzymać pokój, lecz dziedzictwo dawnyc
 
 ## Komentarz
 
-Otwarcie ustawia *Super Robot Wars Y* po zakończeniu wielkiej wojny, ale nie traktuje pokoju jako rozwiązania wszystkich problemów. Rozmowy Echiki i Anniny pokazują koszt odpowiedzialności odziedziczonej po Tetsuro Yagamim, a Cross przyjmuje rolę opiekuna dziewczyny, zanim sam pozna pełną naturę A. Adventu.
+Otwarcie ustawia *Super Robot Wars Y* po zakończeniu wielkiej wojny, ale nie traktuje pokoju jako rozwiązania wszystkich problemów. Rozmowy Echiki i Anniny pokazują koszt odpowiedzialności odziedziczonej po Tetsuro Yagamim, a Cross przyjmuje rolę opiekuna dziewczyny, zanim sam pozna pełną naturę A. Adventu. Prolog przeplata też głosy [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[quatre-raberba-winner|Quatre]], [[trowa-barton|Trowy]], [[nunnally-vi-britannia|Nunnally]], [[tetsuya-tsurugi|Tetsuyi]], [[chizuru-nambara|Chizuru]] i [[hyoma-aoi|Hyomy]]; ich uwagi odsłaniają, jak różne grupy postrzegają kruchy pokój.
 
 Materiał kończy się przy rdzeniu Nira-Kana-I. Nie dopowiada jeszcze, jakie decyzje podejmie Echika ani czym okaże się pamięć STG; te kwestie pozostają granicą aktualnie rozegranej historii.
 }}
