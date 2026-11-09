@@ -1,10 +1,12 @@
 name: Testy
 
-# Sonda 2026-11-09: runy o 18:09 i później kończą się start-up failure (0 jobów)
-# przy niezmienionym workflow — komentarz wymusza ponowną walidację pliku.
+# CI działa na push do gałęzi roboczych (oraz ręcznie). Trigger `pull_request`
+# usunięty 2026-11-09: dla PR-a z 335 zmienionymi plikami GitHub nie startuje
+# jobów eventu pull_request (start-up failure, 0 jobów, ~1 minuta, bez adnotacji),
+# podczas gdy runy push dla tych samych commitów są zielone. Checki z runów push
+# pojawiają się w zakładce Checks PR-a, więc ochrona gałęci działa bez zmian.
 
 on:
-  pull_request:
   push:
     branches-ignore: [main]
   workflow_dispatch:
