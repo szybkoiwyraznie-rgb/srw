@@ -58,10 +58,20 @@ function kafelek(typ, liczba, href) {
   </a>`;
 }
 
+/**
+ * Typy wpisów pokazywane w „Ostatnio dodane”. Gry i epizody mają własne działy,
+ * a sceny są drogą do treści epizodu (ADR 0034), więc prawa kolumna pokazuje
+ * wpisy encyklopedyczne. Kolejność jest deterministyczna: data, potem tytuł —
+ * po squash-mergu wszystkie pliki mają tę samą datę i sam czas commita nie
+ * rozstrzyga kolejności.
+ */
+const TYPY_OSTATNICH = new Set(['postac', 'mech', 'pojecie', 'seria']);
+
 function listaOstatnich() {
   const strony = Object.values(dajDane().strony)
-    .filter((p) => p.typ !== 'epizod')
-    .sort((a, b) => String(b.czas?.zaktualizowano ?? '').localeCompare(String(a.czas?.zaktualizowano ?? '')))
+    .filter((p) => TYPY_OSTATNICH.has(p.typ))
+    .sort((a, b) => String(b.czas?.zaktualizowano ?? '').localeCompare(String(a.czas?.zaktualizowano ?? ''))
+      || String(a.tytul ?? '').localeCompare(String(b.tytul ?? ''), 'pl'))
     .slice(0, 10);
   if (strony.length === 0) return '<p class="pusto">Baza jest pusta.</p>';
   return `<ul class="lista">${strony.map((p) => `
