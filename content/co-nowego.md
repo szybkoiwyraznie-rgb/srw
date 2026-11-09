@@ -2,7 +2,8 @@
 
 ## 2026-11-09 14:22
 
-- Poprawki właściciela: nazwa filtra przy tytułach działów (np. „Mechy — Matchless Raijin-Oh”) dostaje spację, a kwestie dialogowe w scenach SRW OE i SRW Y wracają do ciasnych łamań — jedna przerwa między kwestiami, pusta linia między blokami tekstu i nagłówkami.
+- Czytanie scen wraca do rytmu scenariusza: kwestie dialogowe idą jedna pod drugą, a puste linie zostają tylko między blokami tekstu i przy nagłówkach — tak w [[prolog-i-trening-w-connect|prologu]], jak i w pozostałych scenach gier [[srw-oe|SRW OE]] i [[srw-y|SRW Y]].
+- Działy z wybranym zbiorem mają w tytułach znów odstęp przed podpisem zbioru.
 
 ## 2026-11-09 13:58
 

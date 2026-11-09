@@ -7,7 +7,7 @@ numer_sceny: 1-1C
 streszczenie: Prolog i pierwsza scena gry łączą paradę kończącą wojnę rewolucyjną, atak VAL-X na miasto Yagami, start A. Adventu, ujawnienie NINJA oraz pierwsze wyjaśnienie Systemu Nira-Kana-I.
 postacie: [agent, annina-servania, baku-yamagishi, echika-y-franburnett, forte-tsukinowa, gauma, zaawansowana-si, cross-tsukinowa, mobile-doll, takuma-nagare, chang-wufei, yomogi-asanaka, zero, aytie, cookie, wren]
 mechy: [altron-gundam, amx-003-gaza-c, a-advent, lunedrache, lancelot-albion-zero, lumenus, taurus, zamza-zah]
-pojecia: [wojna-rewolucyjna, nowa-federacja-ziemska, val-x, logos, czarni-rycerze, ninja, statek-emigracyjny, nira-kana-i, pamiec-stg, teoria-y, miasto-yagami, mechaniczne-marionetki, heero-yuy, duo-maxwell, quatre-raberba-winner, trowa-barton, nunnally-vi-britannia, tetsuya-tsurugi, chizuru-nambara, hyoma-aoi]
+pojecia: [wojna-rewolucyjna, nowa-federacja-ziemska, val-x, logos, czarni-rycerze, ninja, statek-emigracyjny, nira-kana-i, pamiec-stg, teoria-y, miasto-yagami, mechaniczne-marionetki, heero-yuy, duo-maxwell, quatre-raberba-winner, trowa-barton, nunnally-vi-britannia, tetsuya-tsurugi, chizuru-nambara, hyoma-aoi, kamille-bidan, haman-karn, gilbert-dullindal, milliardo-peacecraft, treize-khushrenada, lelouch-vi-britannia]
 sekcje_analizy:
   - Parada cesarza Leloucha → Parada cesarza Leloucha
   - Atak na miasto Yagami → Rezydencja Franburnettów
@@ -474,9 +474,9 @@ Minął rok od zamachu na cesarza Leloucha. Ja… Echika Y. Franburnett, kończ�
 
 ### Parada cesarza Leloucha
 
-Otwarcie ustanawia powojenny porządek świata. Śmierć Leloucha kończy bezpośrednią groźbę ostatniej wojny Ziemi z kosmosem, ale reakcje bohaterów pokazują, że pokój wymaga jeszcze decyzji i odpowiedzialności.
+Otwarcie ustanawia powojenny porządek świata. Śmierć [[lelouch-vi-britannia|Leloucha]] kończy bezpośrednią groźbę ostatniej wojny Ziemi z kosmosem, ale reakcje bohaterów pokazują, że pokój wymaga jeszcze decyzji i odpowiedzialności.
 
-Parada jest oglądana przez głosy z kilku innych światów: [[koji-kabuto|Koji]] i [[tetsuya-tsurugi|Tetsuya]] mówią o niedokończonej wojnie, [[chizuru-nambara|Chizuru]] i [[hyoma-aoi|Hyoma]] przypominają o pozostałych zagrożeniach, a [[amuro-ray|Amuro]] i [[bright-noa|Bright Noa]] zastanawiają się nad kolejnym starciem. Wypowiadają się też [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[quatre-raberba-winner|Quatre]], [[trowa-barton|Trowa]] i [[chang-wufei|Wufei]]; po śmierci Leloucha odzywa się [[nunnally-vi-britannia|Nunnally]].
+Parada jest oglądana przez głosy z kilku innych światów: [[koji-kabuto|Koji]] i [[tetsuya-tsurugi|Tetsuya]] mówią o niedokończonej wojnie, [[chizuru-nambara|Chizuru]] i [[hyoma-aoi|Hyoma]] przypominają o pozostałych zagrożeniach, a [[amuro-ray|Amuro]] i [[bright-noa|Bright Noa]] zastanawiają się nad kolejnym starciem. Wypowiadają się też [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[quatre-raberba-winner|Quatre]], [[trowa-barton|Trowa]] i [[chang-wufei|Wufei]]; po śmierci [[lelouch-vi-britannia|Leloucha]] odzywa się [[nunnally-vi-britannia|Nunnally]].
 
 ### Atak na miasto Yagami
 
@@ -499,7 +499,7 @@ Wyjaśnienie Nira-Kana-I nie rozwiązuje zagadki. Annina podaje teorię STG, ale
 
 ## Nawiązania do oryginalnych odcinków
 
-Wydarzenia z tej sceny — parada cesarza Leloucha, na której Zero odbiera mu życie, i rok dzielący zamach od właściwej akcji — nawiązują do **dwudziestego piątego odcinka** serialu *Code Geass: Lelouch of the Rebellion R2* z 2008 roku, zatytułowanego „Re;” (emisja 28 września 2008). Tam zamach na paradzie zamyka plan Zero Requiem: Lelouch skupia na sobie nienawiść świata, a Suzaku przebrany za Zero wykonuje wyrok. Ta sama scena zamyka film [[code-geass-lelouch-of-the-rebellion-iii-glorification|*Code Geass: Lelouch of the Rebellion III Glorification*]] obejmujący odcinki 17–25 *R2*, a rok po niej zaczyna się *Code Geass Lelouch of the Re;surrection* ([[code-geass-lelouch-of-the-re-surrection|strona serii]]; [Geass Wiki, „Code Geass: Lelouch of the Rebellion R2”](https://geass.miraheze.org/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2); sprawdzono 2026-11-09).
+Wydarzenia z tej sceny — parada cesarza [[lelouch-vi-britannia|Leloucha]], na której [[zero|Zero]] odbiera mu życie, i rok dzielący zamach od właściwej akcji — nawiązują do **dwudziestego piątego odcinka** serialu *Code Geass: Lelouch of the Rebellion R2* z 2008 roku, zatytułowanego „Re;” (emisja 28 września 2008). Tam zamach na paradzie zamyka plan Zero Requiem: Lelouch skupia na sobie nienawiść świata, a Suzaku przebrany za Zero wykonuje wyrok. Ta sama scena zamyka film [[code-geass-lelouch-of-the-rebellion-iii-glorification|*Code Geass: Lelouch of the Rebellion III Glorification*]] obejmujący odcinki 17–25 *R2*, a rok po niej zaczyna się *Code Geass Lelouch of the Re;surrection* ([[code-geass-lelouch-of-the-re-surrection|strona serii]]; [Geass Wiki, „Code Geass: Lelouch of the Rebellion R2”](https://geass.miraheze.org/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2); sprawdzono 2026-11-09).
 
 Gra przenosi punkt widzenia na [[echika-y-franburnett|Echikę]] oglądającą paradę z balkonu rezydencji i czyni zamach prologiem własnej historii; rok później, w dniu jej czternastych urodzin, [[val-x|VAL-X]] atakuje miasto Yagami, a pod miastem rusza [[a-advent|A. Advent]]. W oryginale rok po zamachu to spokojna era Kowa pod sztandarem Zjednoczonej Federacji Narodów; grę otwiera ten sam moment, wypełniony własnym zagrożeniem ([34.suparobo.jp, „Character”](https://34.suparobo.jp/character/chara16/); sprawdzono 2026-11-09).
 
