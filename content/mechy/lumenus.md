@@ -14,11 +14,6 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-Mobilna broń ukończona po wojnie rewolucyjnej. Stabilna moc, dobre prowadzenie i łatwa produkcja sprawiły, że Lumenusy służą wielu instytucjom, w tym [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]].
-}}
-
-{{menu gra=srw-y
-
 Broń mobilna ukończona po wojnie rewolucyjnej. Stabilna moc, dobre prowadzenie, łatwa obsługa i produkcja sprawiły, że przyjęło ją wiele instytucji i w krótkim czasie upowszechniła się. To malowanie Sił Nowej Federacji Ziemskiej i współpracujących z nimi instytucji; maszyny te służą na całym świecie.
 }}
 

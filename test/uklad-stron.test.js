@@ -10,6 +10,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
+import { wczytajStrony } from '../tools/content-loader.mjs';
 import { fileURLToPath } from 'node:url';
 import { zbudujDane } from '../tools/build.mjs';
 import { renderMarkdown } from '../src/srw/markdown.js';
@@ -291,6 +292,24 @@ test('encje: opisy gier, opis neutralny, ilustracje i parametry — w tej kolejn
       poprzedni = ranga;
     }
     assert.ok(maOpis, `${p.slug}: brak treści opisowej`);
+  }
+});
+
+test('encje: jedna gra ma najwyżej jeden boks opisowy (ADR 0035, 0010)', () => {
+  const typy = ['gra', 'postac', 'mech', 'pojecie', 'seria'];
+  const encje = wczytajStrony().filter((s) => typy.includes(s.typ));
+  for (const p of encje) {
+    const bloki = [...p.body.matchAll(/^\{\{(skrypt|menu)([^\n]*)\n\n([\s\S]*?)^\}\}/gm)]
+      .filter((m) => !/^\s*## /.test(m[3]));
+    const ile = {};
+    for (const m of bloki) {
+      const gra = /gra=([\w-]+)/.exec(m[2])?.[1] ?? '?';
+      ile[gra] = (ile[gra] ?? 0) + 1;
+    }
+    for (const [gra, n] of Object.entries(ile)) {
+      assert.ok(n <= 1,
+        `${p.slug}: ${n} boksy opisowe gry ${gra} — opis gry trzymamy w jednym boksie, parafrazy usuwamy (ADR 0010: dostawa 1:1)`);
+    }
   }
 });
 

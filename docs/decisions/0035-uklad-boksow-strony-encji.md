@@ -28,6 +28,10 @@ Dodatkowo:
 
 - Tytuły opisowe („Opis”, „Opis — *”, „Charakterystyka”, „W Super Robot Wars OE”) są usuwane —
   treść mówi sama za siebie, zakres niesie plakietka.
+- **Jedna gra = jeden boks opisowy** (doprecyzowanie 2026-11-09 po uwadze właściciela): boks
+  opisowy gry zawiera tekst z dostawy zapisany 1:1 (ADR 0010). Agentowe parafrazy tego samego
+  opisu (np. wersje z wikilinkami) są usuwane jako dubel, a nie pokazywane w osobnym boksie;
+  dwa kanoniczne akapity tej samej gry trzyma się w jednym boksie.
 - Walidacja: `maTrescOpisowa` w `src/srw/registry.js` wymaga treści opisowej poza boksami
   „Ilustracje”/„Parametry” zamiast listy obowiązkowych nagłówków (komunikat: „brak treści
   opisowej poza boksami Ilustracje/Parametry (ADR 0035)”).

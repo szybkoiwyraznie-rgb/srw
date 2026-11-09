@@ -14,11 +14,6 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-Gundam [[chang-wufei|Changa Wufeia]], wyspecjalizowany w walce wręcz. Podwójny trójząb wiązkowy służy do zwarcia, a wysuwane Dragon Fangi pozwalają razić cele także z dystansu.
-}}
-
-{{menu gra=srw-y
-
 Gundam pilotowany przez Wufeia. Wyspecjalizowany w walce wręcz, ma znakomitą zwrotność. Jedyną bronią ręczną jest podwójny trójząb wiązkowy, co czyni go skrajnie nastawionym na zwarcie, ale Dragon Fang na obu ramionach pozwalają mu walczyć też na średnim dystansie. Broń ta, oddająca jego miano “dwugłowego smoka”, wysuwa się i chowa dowolnie, a wielostawowa budowa z połączonych kwadratowych segmentów umożliwia wyjątkowo elastyczne ataki.
 }}
 

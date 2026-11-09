@@ -10,11 +10,6 @@ pochodzenie: menu
 tagi: [srw-y, pilot, getter-robo]
 utworzono: 2026-11-09
 ---
-{{skrypt gra=srw-y
-
-Towarzysz [[takuma-nagare|Takumy]] z [[getter-robo-arc|Getter Robo Arc]]. Wraz z nim trafia do miasta Yagami i z entuzjazmem obserwuje uruchomienie A. Adventu.
-}}
-
 {{menu gra=srw-y
 
 Pilot Getter Khana. Ma 22 lata. Młodszy brat Tahira, założyciela religii Zielonej Ziemi, który niegdyś pilotował Shin Getter Robota. Ma słaby dar przewidywania, lecz wie, że daleko mu do brata, i gnębi go to. Dobroduszny olbrzym. Wspiera Takumę, z którym podróżuje od dziecka, a przyjmując los związanych z Getterem, postanawia walczyć jako członek drużyny Gettera.

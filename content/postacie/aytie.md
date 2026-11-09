@@ -10,11 +10,6 @@ pochodzenie: menu
 tagi: [srw-y, wsparcie, super-robot-wars-original, super-robot-wars]
 utworzono: 2026-11-09
 ---
-{{skrypt gra=srw-y
-
-Pokojówka odpowiedzialna za sekcję informacyjną A. Adventu. Po uruchomieniu fortecy zajmuje stanowisko i przekazuje Echice meldunki.
-}}
-
 {{menu gra=srw-y
 
 Pokojówka w rezydencji Franburnettów. Kieruje zespołem wywiadowczym, który zbiera dla Echiki informacje z całego świata. Opanowana, lecz myśli w sposób nieco odbiegający od powszechnych norm, co czyni ją niebezpieczną, bo dla osiągnięcia celu nie cofnie się przed niczym.

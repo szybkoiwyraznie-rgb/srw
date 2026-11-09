@@ -10,11 +10,6 @@ pochodzenie: menu
 tagi: [srw-y, pilot, super-robot-wars-original, super-robot-wars]
 utworzono: 2026-11-09
 ---
-{{skrypt gra=srw-y
-
-Przywódca oddziału Haze z Tajnych Sił Specjalnych. Otrzymał od doktora Yagamiego zadanie ochrony [[echika-y-franburnett|Echiki]] i przybywa w [[lunedrache|Lunedrache]], by osłonić ją przed VAL-X.
-}}
-
 {{menu gra=srw-y
 
 NINJA (New Infinity Neuron - Japanese Assassin), żołnierz sił specjalnych wywodzący się od dawnych japońskich ninja, przywódca grupy NINJA Haze z Tajnych Sił Specjalnych. Ma 21 lat. Mężczyzna. Wykonanie zadania stawia ponad wszystko i gotów jest wyrzec się wszelkich osobistych uczuć; jeśli trzeba, ukryje nawet własną tożsamość. Dlatego otoczenie ma go za chłodnego i bezlitosnego. Uchodzi za najsilniejszego NINJA w historii Haze; mistrzowsko opanował Ninja Art i kły ninja, a w pilotowaniu mobilnego pancerza ninja nie ma sobie równych. Umysłem całkowicie panuje nad ciałem, więc jest bardzo odporny na wszelkie trucizny.

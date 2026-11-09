@@ -12,11 +12,6 @@ zrodla:
 tagi: [srw-y, pilot, getter-robo]
 utworzono: 2026-11-09
 ---
-{{skrypt gra=srw-y
-
-Pilot z [[getter-robo-arc|Getter Robo Arc]], który przybywa do miasta Yagami z [[baku-yamagishi|Bakum]]. Zamiast uciekać przed niezwykłym wydarzeniem, chce zobaczyć je z bliska.
-}}
-
 {{menu gra=srw-y
 
 Pilot Getter Arca. Ma 19 lat. Syn Ryomy Nagarego z pierwszej drużyny Gettera, w gorącej wodzie kąpany. Od urodzenia ma wyjątkowo wytrzymałe ciało: znosi przeciążenia przy pilotowaniu Gettera bez kombinezonu, a rany goją się na nim szybciej niż na innych. Uwielbia onigiri ze sklepu całodobowego. W dzieciństwie stracił matkę, zamordowaną przez nieznanego sprawcę; by go odnaleźć, przybywa z Baku Yamagishim do Laboratorium Saotome. Jakby wiedziony przeznaczeniem, wsiada do Getter Robota i staje do walki z wrogiem ludzkości.

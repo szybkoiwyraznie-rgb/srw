@@ -10,11 +10,6 @@ pochodzenie: menu
 tagi: [srw-y, wsparcie, super-robot-wars-original, super-robot-wars]
 utworzono: 2026-11-09
 ---
-{{skrypt gra=srw-y
-
-Pokojówka odpowiedzialna za sekcję gospodarczą A. Adventu. Po starcie fortecy kieruje opieką nad mieszkańcami miasta.
-}}
-
 {{menu gra=srw-y
 
 Pokojówka w rezydencji Franburnettów. Kieruje zespołem gospodarczym, który zajmuje się wszystkimi pracami domowymi. Świetna kucharka, przyrządzi dania z całego świata; z radością patrzy, jak Echika rośnie.

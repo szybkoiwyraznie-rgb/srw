@@ -17,9 +17,6 @@ w_gre:
 {{menu gra=srw-y
 
 Prototypowy mobile armor [[mobile-suit-gundam-seed-destiny|Sojuszu Ziemskiego]]. Wielka, bardzo mobilna maszyna ma reflektor pozytonowy i wymaga trzech osób do pełnej obsługi, lecz w tej historii służy jako ciężka jednostka wroga.
-}}
-
-{{menu gra=srw-y
 
 Prototypowy mobile armor Sojuszu Ziemskiego. Mimo ogromnych rozmiarów jest bardzo mobilny, a szpony i działa wiązkowe pozwalają mu walczyć na każdym dystansie. Z przodu rozpościera reflektor pozytonowy, który zatrzymuje nawet Tannhausera Minervy. Aby wykorzystać jego możliwości, potrzeba trzech pilotów: dowódcy, sternika i działonowego.
 }}

@@ -14,11 +14,6 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-Transformowalny mobile suit, który może działać z pilotem albo jako bezzałogowy [[mobile-doll|Mobile Doll]]. W mieście Yagami Taurusy służą napastnikom spoza regularnej armii.
-}}
-
-{{menu gra=srw-y
-
 Masowo produkowany transformowalny mobile suit. Może mieć pilota, ale jako pierwszy otrzymał też bezzałogowy system bojowy Mobile Doll. Maszyny z tym systemem reagują szybciej niż przeciętny pilot, są bardzo mobilne i celnie strzelają, lecz doświadczeni piloci łatwo odczytują ich schematy działania.
 }}
 
