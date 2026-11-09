@@ -2,7 +2,8 @@
 
 ## 2026-11-09 11:27
 
-- Wspólne — W serialu [[tokwan|Tokwan]] jest kapitanem [[zeon|Zeonu]] i zastępcą [[char-aznable|Chara]] na [[zanzibar|Zanzibarze]]; określenie go porucznikiem w odcinku 32 pozostaje nierozstrzygniętą rozbieżnością. W [[srw-oe|Super Robot Wars OE]] nosi stopień porucznika.
+- Wspólne — W serialu [[tokwan|Tokwan]] jest kapitanem [[zeon|Zeonu]] i zastępcą [[char-aznable|Chara]] na [[zanzibar|Zanzibarze]]; określenie go porucznikiem w odcinku 32 pozostaje nierozstrzygniętą rozbieżnością.
+- [[srw-oe|SRW OE]] — Tokwan nosi stopień porucznika.
 
 ## 2026-11-08 12:30
 
