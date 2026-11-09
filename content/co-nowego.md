@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-09 15:22
+
+- Bohaterowie z prologu prowadzą przez obie przygody: [[koji-kabuto|Koji Kabuto]], [[amuro-ray|Amuro Ray]], [[bright-noa|Bright Noa]] i [[char-aznable|Char Aznable]] mają na stronach także swoje sceny z [[srw-y|SRW Y]].
+
 ## 2026-11-09 15:05
 
 - Nazwiska z prologu i pierwszej misji dostają własne strony: [[lelouch-vi-britannia|Lelouch vi Britannia]], [[kamille-bidan|Kamille Bidan]], [[haman-karn|Haman Karn]], [[gilbert-dullindal|Gilbert Dullindal]], [[milliardo-peacecraft|Milliardo Peacecraft]], [[treize-khushrenada|Treize Khushrenada]], [[chikara-jinguji|Chikara Jinguji]], [[akira-hibiki|Akira Hibiki]], [[barao|Barao]], [[imperium-yoma|Imperium Yoma]] i [[tetsuro-yagami|Tetsuro Yagami]] — każde z podaniem odcinka lub filmu i cytatem ze źródła.

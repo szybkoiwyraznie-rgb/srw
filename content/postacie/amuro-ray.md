@@ -4,7 +4,7 @@ slug: amuro-ray
 tytul: Amuro Ray
 seria: mobile-suit-gundam-1979
 rola: pilot
-gry: [srw-oe]
+gry: [srw-oe, srw-y]
 mechy: [rx-78-2-gundam]
 pochodzenie: skrypt
 zrodla:
@@ -61,6 +61,12 @@ W finale [[operacja-odessa|operacji Odessa]] otrzymuje od [[bright-noa|Brighta]]
 | 1 | **Potenc. Kryt** | 1 | Pozostałe HP 10%: Obr/Unik+4% Cel/Kryt+5% |
 | 2 | **Newtype** | 3 | Cel/Unik+6 / Kryt Obraż.+18% |
 
+}}
+{{skrypt gra=srw-y
+
+## Opis — SRW Y
+
+W prologu [[srw-y|SRW Y]] ogląda paradę cesarza Leloucha razem z [[bright-noa|Brightem]]: rozmawiają o [[char-aznable|Charze]], [[lelouch-vi-britannia|Lelouchu]] i [[kamille-bidan|Kamille]], i o tym, że nadchodzi prawdopodobnie ostatnia wojna Ziemi z kosmosem.
 }}
 {{zrodlo gra=wspolne
 

@@ -4,7 +4,7 @@ slug: char-aznable
 tytul: Char Aznable
 seria: mobile-suit-gundam-1979
 rola: antagonista
-gry: [srw-oe]
+gry: [srw-oe, srw-y]
 mechy: [zaku-ii-char, gelgoog-char]
 pochodzenie: skrypt
 zrodla:
@@ -54,6 +54,12 @@ W pościgu za [[white-base|White Base]] w kosmosie wychodzi do walki nowym [[gel
 | 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
 | 2 | **Newtype** | 3 | Cel/Unik+6 / Kryt Obraż.+18% |
 | 3 | **Dwa ataki** | 3 | Atakuje 2 razy w 1 turę |
+}}
+{{skrypt gra=srw-y
+
+## Opis — SRW Y
+
+W prologu [[srw-y|SRW Y]] [[annina-servania|Annina]] wróży, że po upadku [[haman-karn|Haman Karn]], [[gilbert-dullindal|Gilberta Dullindala]] i [[milliardo-peacecraft|Milliardo Peacecrafta]] Spacenoidzi zjednoczą się pod sztandarem Chara Aznable'a, a [[amuro-ray|Amuro]] mówi, że Char rozumie, co znaczyło to, czego dokonali [[treize-khushrenada|Treize]] i Milliardo.
 }}
 {{zrodlo gra=wspolne
 

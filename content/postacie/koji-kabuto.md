@@ -4,7 +4,7 @@ slug: koji-kabuto
 tytul: Koji Kabuto
 rola: pilot
 seria: mazinger-edition-z-the-impact
-gry: [srw-oe]
+gry: [srw-oe, srw-y]
 mechy: [mazinger-z]
 pochodzenie: skrypt
 zrodla:
@@ -61,6 +61,12 @@ W samolocie transportowym wracającym przez atmosferę na [[stacja-connect|stacj
 
 }}
 
+{{skrypt gra=srw-y
+
+## Opis — SRW Y
+
+W prologu [[srw-y|SRW Y]] komentuje paradę cesarza Leloucha: Doktor Hell i Dark Gundam są pokonani, a armie Byston Well zniknęły, więc świat mógł zacząć od nowa — tymczasem wojna trwa dalej. Z [[tetsuya-tsurugi|Tetsuyą]] patrzą na zrujnowane miasta i rannych ludzi.
+}}
 {{zrodlo gra=wspolne
 
 ## Postać w oryginale

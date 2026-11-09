@@ -4,7 +4,7 @@ slug: bright-noa
 tytul: Bright Noa
 seria: mobile-suit-gundam-1979
 rola: dowodztwo
-gry: [srw-oe]
+gry: [srw-oe, srw-y]
 mechy: [white-base]
 pochodzenie: skrypt
 zrodla:
@@ -63,6 +63,12 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu przed spotkaniem z Connect]] nie
 |---:|---|---:|---|
 | 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
 | 2 | **Dow. Cel/Unik** | 3 | Zasięg 3 - sojusznicy: Cel/Unik+4% |
+}}
+{{skrypt gra=srw-y
+
+## Opis — SRW Y
+
+W prologu [[srw-y|SRW Y]] ogląda paradę cesarza Leloucha razem z [[amuro-ray|Amuro]]: gdy cesarz wypowiada wojnę do ostatniego tchu, zastanawia się, co wtedy zrobią oni — a na wieść, że [[kamille-bidan|Kamille]] wciąż się nie odezwał, odpowiada krótko.
 }}
 {{zrodlo gra=wspolne
 
