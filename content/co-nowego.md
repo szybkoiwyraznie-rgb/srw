@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-11-10 00:34
+
+- Rozmowy [[koji-kabuto|Kojiego]] z [[tetsuya-tsurugi|Tetsuyą]] oraz [[chizuru-nambara|Chizuru]] z [[hyoma-aoi|Hyomą]] toczą się podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] — jeszcze w trakcie [[wojna-rewolucyjna|wojny rewolucyjnej]], którą kończy dopiero zamach [[zero|Zero]]. Wtedy też Chizuru mówi, że w [[imperium-yoma|Imperium Yoma]] wciąż pozostał cesarz [[barao|Barao]].
+- [[trowa-barton|Trowa]] zapowiada nowy rozlew krwi przed zamachem, w odpowiedzi na słowa [[quatre-raberba-winner|Quatre'a]], że cesarz chce rozprawić się ze Spacenoidami; [[heero-yuy|Heero]] ucina rozmowę z [[duo-maxwell|Duo]], zanim zjawia się Zero, a potem myśli o obietnicy Suzaku Kururugiego.
+- [[treize-khushrenada|Treize Khushrenada]] przewodził Ziemianom w wojnie rewolucyjnej obok Leloucha; [[chang-wufei|Wufei]] odchodzi z parady, nie uznając „ani jego, ani Chara, ani Treize'a”.
+- O [[kamille-bidan|Kamille]] pyta [[amuro-ray|Amuro]], a [[bright-noa|Bright]] odpowiada, że ten wciąż się nie odezwał.
+
 ## 2026-11-10 00:31
 
 - Dzieje [[lelouch-vi-britannia|Leloucha]] sprzed prologu [[srw-y|SRW Y]] — pakt z C.C. i moc Geass, bunt Czarnych Rycerzy pod maską Zero, tron Britannii i plan Zero Requiem — należą do świata [[code-geass-lelouch-of-the-re-surrection|Code Geass Lelouch of the Re;surrection]]; rok po Zero Requiem świat przebudowany wokół Zjednoczonej Federacji Narodów cieszy się pokojem.

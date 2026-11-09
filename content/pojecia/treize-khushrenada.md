@@ -11,7 +11,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Przywódca OZ, który — jak mówi [[annina-servania|Annina]] — poległ w wojnie rewolucyjnej. [[amuro-ray|Amuro]] ocenia, że [[char-aznable|Char]] rozumie, co znaczyło to, czego dokonali Treize i [[milliardo-peacecraft|Milliardo]].
+Jeden z przywódców Ziemian w wojnie rewolucyjnej, obok [[lelouch-vi-britannia|Leloucha vi Britannia]]; jak mówi [[annina-servania|Annina]], poległ. [[amuro-ray|Amuro]] ocenia, że [[char-aznable|Char]] rozumie, co znaczyło to, czego dokonali Treize i [[milliardo-peacecraft|Milliardo]], a [[chang-wufei|Wufei]], odchodząc z parady, nie uznaje „ani jego, ani Chara, ani Treize'a”.
 }}
 
 {{zrodlo gra=wspolne

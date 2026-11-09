@@ -12,7 +12,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Hyoma Aoi wspomina o poświęceniu Jingujiego podczas rozmowy o pokoju po wojnie rewolucyjnej. Mówi, że trzeba walczyć choćby dla towarzysza, który oddał życie.
+Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]], gdy [[chizuru-nambara|Chizuru]] przypomina o cesarzu [[barao|Barao]], Hyoma Aoi mówi, że nie mają wyjścia — choćby dla [[chikara-jinguji|Jingujiego]], który oddał życie w tej walce. W myślach zwraca się do [[akira-hibiki|Akiry]]: „Prawda, Akira…?”.
 }}
 
 {{zrodlo gra=wspolne

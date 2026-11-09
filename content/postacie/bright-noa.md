@@ -27,7 +27,7 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu przed spotkaniem z Connect]] nie
 
 {{skrypt gra=srw-y
 
-W prologu [[srw-y|SRW Y]] ogląda paradę cesarza Leloucha razem z [[amuro-ray|Amuro]]: gdy cesarz wypowiada wojnę do ostatniego tchu, zastanawia się, co wtedy zrobią oni — a na wieść, że [[kamille-bidan|Kamille]] wciąż się nie odezwał, odpowiada krótko.
+W prologu [[srw-y|SRW Y]] ogląda paradę cesarza Leloucha razem z [[amuro-ray|Amuro]]: gdy cesarz wypowiada wojnę do ostatniego tchu, zastanawia się, co wtedy zrobią oni — a na pytanie Amuro o [[kamille-bidan|Kamille]] odpowiada, że ten wciąż się nie odezwał.
 }}
 
 {{zrodlo gra=wspolne

@@ -12,7 +12,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Quatre Raberba Winner komentuje przemówienie cesarza Leloucha i jego zamiar rozprawienia się ze Spacenoidami.
+Na widok cesarza [[lelouch-vi-britannia|Leloucha]] podczas parady Quatre Raberba Winner mówi, że ten chce raz na zawsze rozprawić się ze Spacenoidami; [[trowa-barton|Trowa]] dodaje, że znów poleje się krew.
 }}
 
 {{zrodlo gra=wspolne

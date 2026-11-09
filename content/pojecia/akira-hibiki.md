@@ -11,7 +11,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Główny bohater *Yūsha Reideen* — chłopak, do którego w myślach zwraca się [[hyoma-aoi|Hyoma]], gdy z [[chizuru-nambara|Chizuru]] przypominają o cesarzu [[barao|Barao]].
+Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] [[hyoma-aoi|Hyoma]] zwraca się do niego w myślach — „Prawda, Akira…?” — tuż po słowach o cesarzu [[barao|Barao]] i o [[chikara-jinguji|Jingujim]], który oddał życie w walce.
 }}
 
 {{zrodlo gra=wspolne
