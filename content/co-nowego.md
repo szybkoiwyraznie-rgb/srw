@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-09 13:33
+
+- [[takuma-nagare|Takuma Nagare]] — Charakterystyka wraca do dosłownego opisu z gry (wyjątkowo wytrzymałe ciało, wsiada do Getter Robota); sformułowania strony oficjalnej zostają w źródle z notką o rozbieżnościach.
+
 ## 2026-11-09 12:56
 
 - [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|Scena „Kwiaty, ninja i urodziny”]] i [[srw-y-ep1|Epizod 1]] łączą głosy prologu z osobnymi hasłami [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[quatre-raberba-winner|Quatre]], [[trowa-barton|Trowy]], [[nunnally-vi-britannia|Nunnally]], [[tetsuya-tsurugi|Tetsuyi]], [[chizuru-nambara|Chizuru]] i [[hyoma-aoi|Hyomy]].
