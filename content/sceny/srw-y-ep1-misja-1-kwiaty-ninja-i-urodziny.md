@@ -15,6 +15,9 @@ sekcje_analizy:
   - NINJA w cieniu → Rezydencja Franburnettów
   - Rdzeń Nira-Kana-I → A. Advent - rdzeń Systemu Nira-Kana-I
 pochodzenie: skrypt
+zrodla:
+  - https://geass.miraheze.org/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2
+  - https://34.suparobo.jp/character/chara16/
 tagi: [srw-y, scena, misja-1, wojna-rewolucyjna, a-advent]
 utworzono: 2026-11-09
 ---
@@ -531,6 +534,19 @@ Rozmowa po walce zmienia obraz Crossa: z tajemniczego pilota staje się opiekune
 ### Rdzeń Nira-Kana-I
 
 Wyjaśnienie Nira-Kana-I nie rozwiązuje zagadki. Annina podaje teorię STG, ale przyznaje, że brakuje danych i doświadczenia A. Adventu; dziedzictwo Echiki jest więc przede wszystkim obowiązkiem, nie gotową odpowiedzią.
+}}
+
+{{zrodlo gra=wspolne
+
+## Nawiązania do oryginalnych odcinków
+
+Wydarzenia z tej sceny — parada cesarza Leloucha, na której Zero odbiera mu życie, i rok dzielący zamach od właściwej akcji — nawiązują do **dwudziestego piątego odcinka** serialu *Code Geass: Lelouch of the Rebellion R2* z 2008 roku, zatytułowanego „Re;” (emisja 28 września 2008). Tam zamach na paradzie zamyka plan Zero Requiem: Lelouch skupia na sobie nienawiść świata, a Suzaku przebrany za Zero wykonuje wyrok. Ta sama scena zamyka film [[code-geass-lelouch-of-the-rebellion-iii-glorification|*Code Geass: Lelouch of the Rebellion III Glorification*]] obejmujący odcinki 17–25 *R2*, a rok po niej zaczyna się *Code Geass Lelouch of the Re;surrection* ([[code-geass-lelouch-of-the-re-surrection|strona serii]]; [Geass Wiki, „Code Geass: Lelouch of the Rebellion R2”](https://geass.miraheze.org/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2); sprawdzono 2026-11-09).
+
+Gra przenosi punkt widzenia na [[echika-y-franburnett|Echikę]] oglądającą paradę z balkonu rezydencji i czyni zamach prologiem własnej historii; rok później, w dniu jej czternastych urodzin, [[val-x|VAL-X]] atakuje miasto Yagami, a pod miastem rusza [[a-advent|A. Advent]]. W oryginale rok po zamachu to spokojna era Kowa pod sztandarem Zjednoczonej Federacji Narodów; grę otwiera ten sam moment, wypełniony własnym zagrożeniem ([34.suparobo.jp, „Character”](https://34.suparobo.jp/character/chara16/); sprawdzono 2026-11-09).
+
+}}
+
+{{skrypt gra=srw-y
 
 ## Wątki w scenie
 

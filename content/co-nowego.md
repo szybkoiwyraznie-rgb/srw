@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-09 13:58
+
+- [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|Scena „Kwiaty, ninja i urodziny”]] ma teraz blok „Nawiązania do oryginalnych odcinków”: parada cesarza Leloucha to dwudziesty piąty odcinek „Re;” serialu *Code Geass: Lelouch of the Rebellion R2* i finał filmu [[code-geass-lelouch-of-the-rebellion-iii-glorification|III Glorification]], a gra pokazuje go z balkonu Echiki.
+- [[srw-y-ep1|Epizod 1]] — motyw parady w „Wątkach fabularnych” ma już źródło w *Code Geass* zamiast w grze.
+
 ## 2026-11-09 13:45
 
 - [[code-geass-lelouch-of-the-rebellion-iii-glorification|Code Geass: Lelouch of the Rebellion III Glorification]] — opis serii rozdzielony na poziomy: powiązanie z [[lancelot-albion-zero|Lancelotem Albion Zero]] zostaje w menu gry, a fakty o filmie (trylogia podsumowująca, odcinki 17–25 *R2*, premiera 26 maja 2018) w bloku źródłowym.
