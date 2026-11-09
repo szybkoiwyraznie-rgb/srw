@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-09 18:30
+
+- [[mechanization-empire|Imperium Mechanizacji]] odrodziło się: [[mechabestia|mechabestie]] w lesie Aokigahara sterują [[labor|Laborami]] i przechodzą przez nową bramę [[mucus-gate-s-mc|Mucus Gate]].
+- W kosmos z [[connect-force|Connect Force]] lecą [[gurren-lagann|Gurren Lagann]] i [[klasa-obrony-ziemi|Klasa Obrony Ziemi]]; [[saurersi|Saurersi]] zostają bronić Ziemi, a [[taro-omomo|Momotaro]] z [[kotaro-kirigakure|Kotaro]] przyjmują zadanie wzmocnienia obrony planety.
+- [[eldran|Eldran]] powierza dzieciom wyprawę w kosmos: „Liczę na was... dzieci Ziemi...”.
+
 ## 2026-11-09 16:50
 
 - Wśród maszyn [[srw-y|SRW Y]] walczą [[a-advent|A. Advent]] — dzieło [[tetsuro-yagami|Tetsuro Yagamiego]], maszyna [[echika-y-franburnett|Echiki]] — a także [[amx-003-gaza-c|AMX-003 Gaza C]], [[altron-gundam|Altron Gundam]], [[taurus|Taurus]], [[lancelot-albion-zero|Lancelot Albion Zero]], [[zamza-zah|Zamza-Zah]] i [[lumenus|Lumenus]].
@@ -185,7 +191,7 @@
 
 ## 2026-10-25 09:50
 
-- [[invaderzy|Invaderzy]] i [[muge-empire|Imperium Muge]] z prologu [[srw-oe|Super Robot Wars OE]] to pozaziemscy najeźdźcy z [[getter-robo-armageddon|*Getter Robo Armageddon*]] oraz Imperium Muge Zorbados z *Dancouga – Super Beast Machine God* — serii obecnych w składzie gry; nawiązania prologu obejmują także [[evil-god-drago|Złego Boga Drago]] i zagrożenia cyklu Eldran.
+- [[invaderzy|Invaderzy]] i [[muge-empire|Imperium Muge]] z prologu [[srw-oe|Super Robot Wars OE]] to pozaziemscy najeźdźcy z [[getter-robo-armageddon|*Getter Robo Armageddon*]] oraz Imperium Muge Zorbados z *Dancouga – Super Beast Machine God* — serii obecnych w składzie gry; nawiązania prologu obejmują także [[evil-god-drago|Złego Boga Drago]] i zagrożenia cyklu [[eldran|Eldran]].
 - Dzieje kolonii i baz kosmicznych [[universal-century|Universal Century]] — [[luna-ii|Luny II]], [[side-7|Side 7]], [[side-6|Side 6]] i [[libot|Libot]] — obejmują przeholowanie planetoidy Juno do punktu L3, tajne prace Projektu V podczas zwiadu ludzi [[char-aznable|Chara]], neutralność Republiki Riah i zawinięcie wahadłowca *Ginga* z [[rx-78nt-1-gundam-alex|Alexem]].
 
 ## 2026-10-25 00:37
@@ -208,7 +214,7 @@
 ## 2026-10-24 21:55
 
 - [[earth-federation|Federacja Ziemska]] i [[zeon|Księstwo Zeonu]] walczą w [[operacja-odessa|operacji Odessa]], osłaniają start [[rx-78nt-1-gundam-alex|Alexa]], a [[08-pluton-ms|08. Pluton MS]] leci [[medea|Medeą]] do [[jaburo|Jaburo]]. Rząd światowy Federacji powstał w toku kolonizacji kosmosu.
-- [[jaku-empire|Imperium Jaku]], [[daimakai|Daimakai]] i [[mechanization-empire|Imperium Mechanizacji]] to zagrożenia z cyklu Eldran.
+- [[jaku-empire|Imperium Jaku]], [[daimakai|Daimakai]] i [[mechanization-empire|Imperium Mechanizacji]] to zagrożenia z cyklu [[eldran|Eldran]].
 
 ## 2026-10-24 21:52
 

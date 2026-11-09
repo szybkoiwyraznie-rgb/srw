@@ -38,6 +38,8 @@ const TAG_SERII = {
   'patlabor-the-movie': 'patlabor',
   'matchless-raijin-oh': 'eldran',
   'nekketsu-saikyo-go-saurer': 'eldran',
+  'genki-bakuhatsu-ganbaruger': 'eldran',
+  'kanzen-shouri-daiteioh': 'eldran',
   'getter-robo-armageddon': 'getter-robo',
   'super-beast-machine-god-dancouga': 'dancouga',
   'mazinger-edition-z-the-impact': 'mazinger',
@@ -106,8 +108,8 @@ test('maszyny bez podanej klasy świadomie nie dostają tagu rodzaju jednostki',
     .map((s) => s.slug)
     .sort();
   assert.deepEqual(bezKlasy, [
-    'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
-    'cybird', 'cybuster', 'exart', 'guntank',
+    'bolt-robo-anti-air', 'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
+    'cybird', 'cybuster', 'exart', 'gandoppler', 'guntank',
     'invader-ground', 'nekton-assault', 'nekton-creek', 'real-pg-gundam',
   ]);
 });
