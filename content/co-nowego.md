@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-09 15:05
+
+- Nazwiska z prologu i pierwszej misji dostają własne strony: [[lelouch-vi-britannia|Lelouch vi Britannia]], [[kamille-bidan|Kamille Bidan]], [[haman-karn|Haman Karn]], [[gilbert-dullindal|Gilbert Dullindal]], [[milliardo-peacecraft|Milliardo Peacecraft]], [[treize-khushrenada|Treize Khushrenada]], [[chikara-jinguji|Chikara Jinguji]], [[akira-hibiki|Akira Hibiki]], [[barao|Barao]], [[imperium-yoma|Imperium Yoma]] i [[tetsuro-yagami|Tetsuro Yagami]] — każde z podaniem odcinka lub filmu i cytatem ze źródła.
+
 ## 2026-11-09 14:22
 
 - Czytanie scen wraca do rytmu scenariusza: kwestie dialogowe idą jedna pod drugą, a puste linie zostają tylko między blokami tekstu i przy nagłówkach — tak w [[prolog-i-trening-w-connect|prologu]], jak i w pozostałych scenach gier [[srw-oe|SRW OE]] i [[srw-y|SRW Y]].

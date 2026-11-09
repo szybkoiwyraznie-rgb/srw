@@ -6,7 +6,7 @@ gra: srw-y
 postacie: [agent, annina-servania, baku-yamagishi, echika-y-franburnett, forte-tsukinowa, gauma, zaawansowana-si, cross-tsukinowa, mobile-doll, takuma-nagare, chang-wufei, yomogi-asanaka, zero, aytie, cookie, wren]
 mechy: [altron-gundam, amx-003-gaza-c, a-advent, lunedrache, lancelot-albion-zero, lumenus, taurus, zamza-zah]
 serie: [super-robot-wars-original, mobile-suit-gundam-wing-endless-waltz, mobile-suit-z-gundam, mobile-suit-gundam-seed-destiny, getter-robo-arc, ssss-dynazenon, code-geass-lelouch-of-the-re-surrection, code-geass-lelouch-of-the-rebellion-iii-glorification]
-pojecia: [wojna-rewolucyjna, nowa-federacja-ziemska, val-x, logos, czarni-rycerze, ninja, statek-emigracyjny, nira-kana-i, pamiec-stg, teoria-y, miasto-yagami, mechaniczne-marionetki, heero-yuy, duo-maxwell, quatre-raberba-winner, trowa-barton, nunnally-vi-britannia, tetsuya-tsurugi, chizuru-nambara, hyoma-aoi, kamille-bidan, haman-karn, gilbert-dullindal, milliardo-peacecraft, treize-khushrenada, lelouch-vi-britannia]
+pojecia: [wojna-rewolucyjna, nowa-federacja-ziemska, val-x, logos, czarni-rycerze, ninja, statek-emigracyjny, nira-kana-i, pamiec-stg, teoria-y, miasto-yagami, mechaniczne-marionetki, heero-yuy, duo-maxwell, quatre-raberba-winner, trowa-barton, nunnally-vi-britannia, tetsuya-tsurugi, chizuru-nambara, hyoma-aoi, kamille-bidan, haman-karn, gilbert-dullindal, milliardo-peacecraft, treize-khushrenada, lelouch-vi-britannia, chikara-jinguji, akira-hibiki, barao, imperium-yoma]
 numer: 1
 skrypt: episodes/srw-y/ep001.md
 pochodzenie: skrypt
