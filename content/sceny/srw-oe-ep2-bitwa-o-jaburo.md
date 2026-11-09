@@ -54,25 +54,15 @@ Cele: doki White Base i innych głównych okrętów oraz fabryki mobile suitów.
 ### White Base / Mostek
 
 **Bright:** Mobile suity mają wyruszyć. Wróg celuje najpewniej w doki statków kosmicznych. Mobile suity, zająć pozycje przy bramach portu.
-
 **Kai:** To nie jest zwykłe rutynowe bombardowanie?
-
 **Hayato:** Jaburo nawet tego nie poczuje.
-
 **Amuro:** Nie... Skoro do obrony wysyłają mobile suity, wróg musi być liczniejszy niż zwykle.
-
 **Bright:** Właśnie. Z orbity schodzą też krążowniki szturmowe.
-
 **Mirai:** Chcą uderzyć prosto w kosmoport...
-
 **Bright:** Działa plot. Jaburo powinny odeprzeć połowę. My przechwycimy mobile suity, które wylądują. Działajcie razem z 08. Plutonem MS.
-
 **Amuro:** Z tym oddziałem Gundamów lądowych?
-
 **Sayla:** Mamy walczyć razem, zanim się w ogóle poznamy?
-
 **Bright:** Wróg nie będzie czekał. Wszystkie jednostki, start!
-
 **Kai:** Się robi!
 :::
 
@@ -81,45 +71,25 @@ Cele: doki White Base i innych głównych okrętów oraz fabryki mobile suitów.
 ### Desant Zeonu
 
 **Żołnierz Zeonu:** Zestrzelono jeden z naszych okrętów! To ogień przeciwlotniczy Jaburo!
-
 **Oficer Zeonu:** To zbyt niebezpieczne! Wycofujemy się!
-
 **Char:** Nie zmarnujcie poświęcenia towarzyszy! Bliżej bram portu!
-
 **Char:** Dobrze, wytrzymaliście! Mobile suity, rozpocząć desant!
-
 **Kai:** No to są!
-
 **Hayato:** Przebili się przez ogień przeciwlotniczy Jaburo...
-
 **Amuro:** Bezbłędny desant... To elitarne mobile suity.
-
 **Sanders:** Dobra analiza.
-
 **Shiro:** Brawo, Amuro.
-
 **Amuro:** Nie ma o czym...
-
 **Karen:** Widzicie? Ten czerwony Zaku mnie niepokoi...
-
 **Sayla:** Niemożliwe...!
-
 **Amuro:** Ten styl... To Char!
-
 **Eledore:** Serio, Czerwona Kometa?!
-
 **Michel:** Dowódco, wezwijmy posiłki!
-
 **Shiro:** Bez paniki! Musimy tylko obronić bramę.
-
 **Hayato:** Jeśli przebiją się przez bramę, White Base w doku będzie w niebezpieczeństwie.
-
 **Kai:** Czyli w skrócie: nie przepuścić ani jednego?
-
 **Shiro:** Z czasem przewaga będzie po naszej stronie. Bez szarżowania. Eliminujcie ich po kolei!
-
 **Amuro:** Przyjąłem!
-
 **Shiro:** Tylko mi nie zginąć, słyszycie?!
 :::
 
@@ -128,7 +98,6 @@ Cele: doki White Base i innych głównych okrętów oraz fabryki mobile suitów.
 #### Dialogi warunkowe — Amuro i Char
 
 > **Amuro:** Nie ma wątpliwości... To Char!
-
 > **Char:** Jeszcze się poprawiłeś, Gundamie!
 :::
 
@@ -137,9 +106,7 @@ Cele: doki White Base i innych głównych okrętów oraz fabryki mobile suitów.
 #### Dialogi warunkowe — Shiro i Char
 
 > **Shiro:** Nawet jeśli to sama Czerwona Kometa, żeby chronić towarzyszy... będę walczył!
-
 > **Char:** Podróbka Gundama?! Więc Federacja wystawia już i takie maszyny.
-
 > **Char:** To chyba maszyna dowódcy. Gdyby pozwolić mu działać, byłby kłopot. Uciszę go tutaj...!
 :::
 
@@ -148,7 +115,6 @@ Cele: doki White Base i innych głównych okrętów oraz fabryki mobile suitów.
 #### Dialogi warunkowe — Karen i Char
 
 > **Karen:** Raaach! Nie zadzieraj nosa tylko dlatego, że masz customa! Spadaj! Spadaaaj!
-
 > **Char:** Heh. Podziwiam zapał, ale sam zapał mnie nie zestrzeli!
 :::
 
@@ -157,7 +123,6 @@ Cele: doki White Base i innych głównych okrętów oraz fabryki mobile suitów.
 #### Dialogi warunkowe — Sanders i Char
 
 > **Sanders:** Ten styl... Groźny! Prawdziwy as!
-
 > **Char:** Czyli Gundamy z produkcji seryjnej. Sprawdzę tutaj, na co je stać!
 :::
 
@@ -166,9 +131,7 @@ Cele: doki White Base i innych głównych okrętów oraz fabryki mobile suitów.
 #### Dialogi warunkowe — Sayla i Char
 
 > **Char:** Myśliwiec?! Więc koń trojański wystawia i coś takiego.
-
 > **Sayla:** Chyba nie jestem gotowa na Czerwoną Kometę... Ale z tej wysokości mogę go przynajmniej zająć!
-
 > **Char:** Maszyny konia trojańskiego... Nie tylko Gundam nabrał doświadczenia...!
 :::
 
@@ -177,7 +140,6 @@ Cele: doki White Base i innych głównych okrętów oraz fabryki mobile suitów.
 #### Dialogi warunkowe — Kai
 
 > **Kai:** O kurczę, Czerwona Kometa!
-
 > **Kai:** No bez jaj... Nie zginę tu, broniąc wierchuszki Federacji!
 :::
 
@@ -186,7 +148,6 @@ Cele: doki White Base i innych głównych okrętów oraz fabryki mobile suitów.
 #### Dialogi warunkowe — odwrót Chara
 
 > **Char:** Ugh... Żebym to ja, właśnie ja, dawał się tak wodzić wrogowi za nos!
-
 > **Char:** Czyli mobile suity Federacji systematycznie rosną w siłę...
 :::
 
@@ -195,11 +156,8 @@ Cele: doki White Base i innych głównych okrętów oraz fabryki mobile suitów.
 #### Dialogi sytuacyjne — nowo przybyli
 
 > **Fraw:** W pobliżu wylądowały nowe wrogie mobile suity. Wszystkie jednostki, proszę uważać.
-
 > **Kai:** Już tu są.
-
 > **Eledore:** Kilka zbliża się z innego kierunku. Dużo szumów, trudno ich namierzyć.
-
 > **Shiro:** Nie wiemy, skąd nadejdą. Nie oddalajcie się za bardzo od bramy!
 :::
 
@@ -208,11 +166,8 @@ Cele: doki White Base i innych głównych okrętów oraz fabryki mobile suitów.
 ### Atak odparty
 
 **Shiro:** Kapitanie Bright, odparliśmy atak.
-
 **Bright:** Dobra robota, chorąży Amada. Doskonale pan dowodził.
-
 **Fraw:** Wiadomość z dowództwa. Wróg zaczął się wycofywać.
-
 **Bright:** Dobrze. Wszystkie jednostki, wracać na okręt!
 :::
 
@@ -221,23 +176,14 @@ Cele: doki White Base i innych głównych okrętów oraz fabryki mobile suitów.
 ### White Base / Mostek
 
 **Fraw:** Dobra robota, wszyscy!
-
 **Mirai:** Podobno wszędzie trwały zażarte walki, ale baza poniosła minimalne straty.
-
 **Michel:** W końcu to niezdobyte Jaburo.
-
 **Kai:** To kwatera główna Federacji. Nic dziwnego.
-
 **Bright:** Atak Zeonu skupił się na okolicach kosmoportu. To, że port nie ucierpiał, będzie miało ogromne znaczenie dla przyszłych operacji.
-
 **Shiro:** Czyli główne siły wreszcie ruszą w kosmos.
-
 **Hayato:** A dokąd poleci White Base?
-
 **Bright:** My również mamy polecieć w kosmos. Do tego czasu White Base będzie w naprawie. Zostaniemy tu na jakiś czas.
-
 **Bright:** Wróg może zaatakować ponownie. Piloci, odpoczywajcie na zmianę.
-
 **Kai:** Dobra, dobra.
 :::
 

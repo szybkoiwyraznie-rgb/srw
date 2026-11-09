@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-09 14:22
+
+- Poprawki właściciela: nazwa filtra przy tytułach działów (np. „Mechy — Matchless Raijin-Oh”) dostaje spację, a kwestie dialogowe w scenach SRW OE i SRW Y wracają do ciasnych łamań — jedna przerwa między kwestiami, pusta linia między blokami tekstu i nagłówkami.
+
 ## 2026-11-09 13:58
 
 - [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|Scena „Kwiaty, ninja i urodziny”]] ma teraz blok „Nawiązania do oryginalnych odcinków”: parada cesarza Leloucha to dwudziesty piąty odcinek „Re;” serialu *Code Geass: Lelouch of the Rebellion R2* i finał filmu [[code-geass-lelouch-of-the-rebellion-iii-glorification|III Glorification]], a gra pokazuje go z balkonu Echiki.

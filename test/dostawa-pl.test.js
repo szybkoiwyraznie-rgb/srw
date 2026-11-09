@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { wczytajStrony, wczytajSkrypty } from '../tools/content-loader.mjs';
-import { wytnijBlokSkryptu } from '../src/srw/registry.js';
+import { wytnijBlokSkryptu, normalizujTekst } from '../src/srw/registry.js';
 import { renderMarkdown } from '../src/srw/markdown.js';
 const pages = wczytajStrony();
 const bySlug = new Map(pages.map(p => [p.slug, p]));
@@ -16,7 +16,8 @@ test('polska dostawa zastępuje stary skrypt i menu, bez zmiany historycznych sl
   assert.doesNotMatch(script, /Connect Station|Welcome back|I'm/);
   // Epizod 0 ma dziś dwie sceny: scena 0-1 obejmuje początek skryptu, a scena 0-2 resztę.
   const scena01 = wytnijBlokSkryptu(bySlug.get('prolog-i-trening-w-connect').body);
-  assert.ok(script.trim().startsWith(scena01), 'scena 0-1 jest dosłownym początkiem skryptu');
+  assert.ok(normalizujTekst(script).startsWith(normalizujTekst(scena01)),
+    'scena 0-1 jest dosłownym początkiem skryptu (po normalizacji białych znaków)');
   assert.ok(!scena01.includes('## Interludium'), 'scena 0-1 kończy się przed interludium');
   for (const slug of ['srw-oe-ep0', 'prolog-i-trening-w-connect', 'exart', 'seishiro', 'himari-yaegaki', 'earth-federation']) assert.ok(bySlug.has(slug));
   assert.equal(bySlug.get('earth-federation').tytul, 'Federacja Ziemska');

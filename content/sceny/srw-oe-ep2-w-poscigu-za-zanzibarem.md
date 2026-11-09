@@ -44,23 +44,14 @@ Nie zdołał jednak zgubić Zanzibara Chara, a oba okręty zbliżały się do si
 ### Na pokładzie Zanzibara
 
 **Char:** Koń trojański ani myśli zwolnić. Czyżby liczył na jakieś zaopatrzenie?
-
 **Tokwan:** Komandorze Char, proszę pozwolić mi wylecieć! Bigro jest dość szybki, by dogonić ten okręt.
-
 **Char:** Bigro? Ten mobile armor jest wciąż w fazie testów.
-
 **Tokwan:** W walce przy dużych prędkościach mobile suity się z nim nie równają.
-
 **Char:** Ale nie jest jeszcze dostrojony. Wysłanie niedokończonej maszyny przeciw koniowi trojańskiemu skończy się zestrzeleniem.
-
 **Tokwan:** Znam porucznika Drena od czasów rekruckich. Chcę pomścić flotę Camel!
-
 **Char:** Cierpliwości, Tokwan. Czuję to samo.
-
 **Char:** Jeszcze będziemy mieli okazję...
-
 **Marker:** Nie możemy zgubić Zanzibara!
-
 **Oscar:** Za 3 minuty znajdziemy się w zasięgu ich ognia!
 :::
 
@@ -68,37 +59,21 @@ Nie zdołał jednak zgubić Zanzibara Chara, a oba okręty zbliżały się do si
 ### White Base / Mostek
 
 **Amuro:** Cały Char. Nie pozwoli nam się wymknąć...
-
 **Shiro:** Gdybyśmy tylko mogli wylecieć... Cholera!
-
 **Michel:** Gundamy lądowe nie walczą w kosmosie, co...
-
 **Sanders:** Kokpity są szczelne, owszem. Ale walka w kosmosie jest niemożliwa.
-
 **Shiro:** Ez8 i Gundamy lądowe są cenne w grawitacji. Przeróbka na kosmos odebrałaby im tę przewagę.
-
 **Eledore:** To po co, do diabła, przylecieliśmy w kosmos?
-
 **Bright:** 08\. Pluton dostanie szansę po połączeniu z Connect. Na razie czekajcie.
-
 **Karen:** Pierwszy dzień i od razu w roli widzów, co...
-
 **Mirai:** Zaraz dotrzemy do punktu spotkania z Connect.
-
 **Michel:** Kiedy połączymy się z Connect, na pewno nas osłonią, prawda?
-
 **Bright:** Tego jeszcze nie wiemy. Connect to organizacja cywilna. Jak zachowa się w walce z Zeonem...?
-
 **Kai:** Ale przecież, jak uciekaliśmy z Side 7, pomogła nam maszyna Connect, nie?
-
 **Amuro:** Wtedy chodziło podobno o ratowanie cywilów.
-
 **Bright:** Wszystko zależy od tego, kiedy się spotkamy. Oby Char wycofał się ze względów politycznych.
-
 **Marker:** Nadlatuje Zanzibar!
-
 **Char:** Zablokować drogę konia trojańskiego! Wyprzedzić go jednym zrywem!
-
 **Bright:** Zaraz spotkamy się z Connect! Za wszelką cenę odpierajcie atak wroga!
 :::
 
@@ -106,15 +81,10 @@ Nie zdołał jednak zgubić Zanzibara Chara, a oba okręty zbliżały się do si
 #### Dialogi warunkowe — Char i piloci White Base
 
 > **Amuro:** Nowy mobile suit?!
-
 > **Char:** Ten Gelgoog powinien przebić jego pancerz.
-
 > **Char:** Szykuj się, Gundamie!
-
 > **Sayla:** Nawet w kosmosie ściga nas Czerwona Kometa...! Nie chcę wierzyć, że to przeznaczenie, ale...
-
 > **Char:** Hmpf, myśliwiec z Jaburo. Więc może działać także w kosmosie.
-
 > **Char:** Piloci konia trojańskiego nabierają wprawy.
 :::
 
@@ -122,13 +92,9 @@ Nie zdołał jednak zgubić Zanzibara Chara, a oba okręty zbliżały się do si
 #### Dialogi sytuacyjne — zbliżenie do White Base
 
 > **Oscar:** Zbliża się mobile suit!
-
 > **Bright:** Co robi obrona przeciwlotnicza?! Nie dopuśćcie go do okrętu!
-
 > **Char:** Hmpf. Szarża jest bezpieczniejsza niż bezładne uniki.
-
 > **Marker:** Nie zatrzymuje się! L-leci prosto na nas!
-
 > **Bright:** To Char! Tylko Char tak walczy!
 :::
 
@@ -136,9 +102,7 @@ Nie zdołał jednak zgubić Zanzibara Chara, a oba okręty zbliżały się do si
 #### Dialogi warunkowe — odwrót pilotów Zeonu
 
 > **Char:** Ugh... Niedobrze. Wracam na okręt-matkę.
-
 > **Slender:** Tch, nie zginę, zanim nie zdobędę chwały!
-
 > **Crown:** Ugh, nie dam się zabić w takim miejscu! Komandor uratował mi życie!
 :::
 
@@ -146,41 +110,23 @@ Nie zdołał jednak zgubić Zanzibara Chara, a oba okręty zbliżały się do si
 ### Spotkanie z Connect
 
 **Tokwan:** Komandorze! Proszę o rozkaz startu Bigro!
-
 **Char:** Dobrze. Pora przejść do generalnego ataku.
-
 **Żołnierz Zeonu:** Chwileczkę! Coś się szybko zbliża!
-
 **Himari:** Potwierdzam White Base!
-
 **Seishiro:** Zdążyliśmy!
-
 **Seishiro:** Tu Seishiro z Connect! Siły Federacji i Zeonu, wzywam do przerwania ognia!
-
 **Seishiro:** Od tej chwili White Base podlega jurysdykcji Connect Force!
-
 **Oficer Zeonu:** Co, Connect?!
-
 **Żołnierz Zeonu:** Co to ma znaczyć?
-
 **Char:** Rozumiem... Więc to była twoja gra, Revil.
-
 **Char:** Wszystkie jednostki, przerwać ogień.
-
 **Tokwan:** Komandorze, wciąż walczymy z koniem trojańskim! Wtrącanie się Connect to...!
-
 **Char:** To rozkaz. Szybko podjąć pilotów, którzy się katapultowali!
-
 **Bright:** Wszystkie jednostki, wracać na okręt! Łączymy się z Connect Force!
-
 **Char:** Seishiro, tak? Tym razem mnie przechytrzyliście, ale z ciekawością czekam na dokonania Connect Force.
-
 **Seishiro:** Dziękuję. Doceniam pańską postawę.
-
 **Char:** Zatem powodzenia!
-
 **Seishiro:** Uff... Dobrze, że komandor Char jest rozsądny.
-
 **Himari:** No właśnie...
 :::
 
@@ -194,23 +140,14 @@ Nie zdołał jednak zgubić Zanzibara Chara, a oba okręty zbliżały się do si
 ### Samowolny wylot
 
 **Żołnierz Zeonu:** Komandorze Char! Porucznik Tokwan wystartował bez rozkazu!
-
 **Char:** A niech to, Tokwan! Co on sobie myśli?!
-
 **Marker:** Mobile armor! Chyba wystartował z Zanzibara!
-
 **Bright:** Co takiego?!
-
 **Shiro:** To pewnie samowola kogoś, kto nie uznaje rozejmu. Jeśli zignorują wezwanie, Zanzibar się nie wycofa.
-
 **Bright:** Nie ma wyjścia. Przechwycić wrogi mobile armor!
-
 **Himari:** Co?! Chwila, co tu się dzieje?!
-
 **Seishiro:** Czyli świeżo utworzony Connect Force nie ma dość wpływów, żeby tak łatwo przerwać walkę...
-
 **Seishiro:** Himari, wchodzimy do walki!
-
 **Himari:** Tak jest! Aktywuję całe uzbrojenie!
 :::
 
@@ -218,21 +155,13 @@ Nie zdołał jednak zgubić Zanzibara Chara, a oba okręty zbliżały się do si
 #### Dialogi warunkowe — starcie z Bigro
 
 > **Tokwan:** Szybkość tego Bigro... Nie myśl, że to jakiś zwykły mobile suit!
-
 > **Amuro:** Co za przyspieszenie! Czy Gundam w ogóle za nim nadąży?!
-
 > **Kai:** Atakuje sam...? Co to za wróg, do licha?!
-
 > **Tokwan:** Raaaaach! Za flotę Caaameeel!
-
 > **Hayato:** Nic dziwnego, przy takich gabarytach! Siła ognia i szybkość tego armora to inna liga...!
-
 > **Tokwan:** Ty podróbko czołgu...! Nie myśl, że w kosmosie dorównasz Bigro!
-
 > **Seishiro:** Przestań! Dalsza walka nie ma sensu!
-
 > **Tokwan:** Zamknij się! Prywatna firma nie będzie rządzić na polu bitwy!
-
 > **Seishiro:** Ugh, jednak nie chce słuchać!
 :::
 
@@ -240,23 +169,14 @@ Nie zdołał jednak zgubić Zanzibara Chara, a oba okręty zbliżały się do si
 ### Bigro pokonany
 
 **Tokwan:** Bądź przeklęty... koniu trojański! Nie myśl, że to koniec!
-
 **Żołnierz Zeonu:** Sygnał Bigro... zniknął...
-
 **Char:** Stracić bez potrzeby tak cenną maszynę... Tokwan... oby udało ci się uciec.
-
 **Marker:** Potwierdzam zniszczenie wrogiego mobile armora!
-
 **Bright:** Uff... Udało się...
-
 **Shiro:** Bezpośredni atak na okręt byłby groźny.
-
 **Fraw:** Depesza z Zanzibara.
-
 **Fraw:** "'Przepraszam za nietakt mojego podwładnego. Zanzibar natychmiast opuszcza pole walki.' ...Koniec wiadomości."
-
 **Mirai:** Chyba wreszcie możemy odetchnąć.
-
 **Bright:** Tak...
 :::
 
@@ -264,19 +184,12 @@ Nie zdołał jednak zgubić Zanzibara Chara, a oba okręty zbliżały się do si
 ### White Base / Mostek
 
 **Seishiro:** 13\. Samodzielny Oddział jako jednostka Federacji przechodzi pod jurysdykcję Connect Force.
-
 **Seishiro:** Ponadto kapitan Bright Noa obejmie dowództwo oddziału w misjach, w których okrętem-matką będzie White Base.
-
 **Bright:** Zrozumiałem. Witamy członków Connect Force.
-
 **Hayato:** A co konkretnie będziemy robić jako część Connect Force?
-
 **Seishiro:** Na razie naszym zadaniem jest walka z zagrożeniami dla całej ludzkości, zaczynając od okolic Ziemi.
-
 **Himari:** W Connect Force służą już drużyna Gettera i Mazinger Z, żebyście wiedzieli!
-
 **Shiro:** Ho, ho, robi wrażenie!
-
 **Sayla:** Krążyły plotki o nowym planie obrony ludzkości. Najwyraźniej ruszył już na dobre.
 
 Powitany przez Exarta z Connect i uwolniony od pościgu Chara, White Base został oficjalnie włączony do Connect Force.

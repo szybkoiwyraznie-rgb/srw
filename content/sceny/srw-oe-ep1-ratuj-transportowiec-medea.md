@@ -39,35 +39,20 @@ Po zakończeniu misji w Azji Środkowej 08. Pluton MS dostał rozkaz przenosin d
 ### Baza Federacji / Hangar
 
 **Eledore:** Siemka, Karen! Jak się sprawuje głowa GM-a?
-
 **Karen:** Przestań to nazywać głową GM-a. Głowa GM-a to...
-
 **Shiro:** Nie ma części zamiennych. Musimy po prostu dostroić tę.
-
 **Karen:** No, ta też ma swoje zalety. Jak złapiesz, o co chodzi, łatwo się prowadzi. W końcu to części od GM-a.
-
 **Michel:** Ale, dowódco... W tej bazie nie zrobimy już lepszego serwisu.
-
 **Sanders:** Oby kiepski serwis nas nie zgubił, ale...
-
 **Shiro:** Mobile suity Federacji są w służbie od niedawna. Niełatwo o części zamienne.
-
 **Michel:** Czyli lepiej niczego nie psuć...
-
 **Shiro:** No, najlepiej niczego nie psuć, ale przede wszystkim przeżyjcie, jasne?
-
 **Eledore:** Ech, żeby już być w Jaburo i najeść się do syta.
-
 **Karen:** Rany, ty tylko o jednym myślisz.
-
 **Shiro:** Co jest?
-
 **Oficer Federacji:** Klucz Medei wzywa pomocy! Podobno ścigają ich Doppy!
-
 **Sanders:** Nie możemy pozwolić, by zestrzelili Medeę.
-
 **Eledore:** Mam dość siedzenia tutaj!
-
 **Shiro:** Dobra, ruszamy! 08. Pluton, do walki!
 :::
 
@@ -75,31 +60,18 @@ Po zakończeniu misji w Azji Środkowej 08. Pluton MS dostał rozkaz przenosin d
 ### Medea pod ostrzałem
 
 **Żołnierz Federacji:** Ugh!
-
 **Oficer Federacji:** Baza jest tuż przed nami! Wytrzymajcie!
-
 **Shiro:** Tu Shiro Amada, 08. Pluton MS! Klucz Medei, słyszycie mnie?
-
 **Oficer Federacji:** Dzięki Bogu... Nie możemy zgubić Doppów! Osłońcie nas!
-
 **Karen:** Przyjęłam! Przegonimy ich!
-
 **Eledore:** Czekaj! Słyszę coś jeszcze!
-
 **Eledore:** Cholera... Są też siły lądowe... Wykrywam dźwięk mobile suitów!
-
 **Michel:** Przewidzieli trasę lotu Medei?
-
 **Sanders:** Pewnie przekazały trasę dalej... Wróg też nie śpi.
-
 **Shiro:** Osłona Medei ma najwyższy priorytet! Najpierw zdejmiemy zwrotne Doppy!
-
 **Shiro:** Eledore, Michel! Prowadźcie Medeę tak, żeby nie weszła w ogień przeciwlotniczy mobile suitów wroga!
-
 **Michel:** S-spróbujemy!
-
 **Michel:** Eledore, mów mi, jak porusza się wróg!
-
 **Eledore:** Zostaw to mi!
 :::
 
@@ -107,7 +79,6 @@ Po zakończeniu misji w Azji Środkowej 08. Pluton MS dostał rozkaz przenosin d
 #### Dialogi bojowe — sytuacyjne
 
 > **Sanders:** Mają gdzieś, że jest eskorta... Najwyraźniej nas lekceważą.
-
 > **Karen:** Te części od GM-a są całkiem niezłe. Wytrzymałe, a zapasowych jest pod dostatkiem.
 :::
 
@@ -115,21 +86,15 @@ Po zakończeniu misji w Azji Środkowej 08. Pluton MS dostał rozkaz przenosin d
 #### Warunkowe rozstrzygnięcie — jeden przebieg wydarzeń
 
 > **Oficer Federacji:** Tu Medea. Kurs zabezpieczony... Dzięki za ratunek!
-
 > **Eledore:** Dźwięki maszyn bojowych ucichły...!
-
 > **Michel:** Jakoś udało się ich odeprzeć.
-
 > **Shiro:** Dobra, misja zakończona. Wracamy.
 
 #### Warunkowe rozstrzygnięcie — alternatywny przebieg wydarzeń
 
 > **Eledore:** Dźwięki maszyn bojowych ucichły...!
-
 > **Michel:** Jakoś udało się ich odeprzeć.
-
 > **Oficer Federacji:** Tu Medea. Kurs zabezpieczony... Dzięki za ratunek!
-
 > **Shiro:** Dobra, misja zakończona. Wracamy.
 :::
 
@@ -137,17 +102,11 @@ Po zakończeniu misji w Azji Środkowej 08. Pluton MS dostał rozkaz przenosin d
 ### Po akcji ratunkowej
 
 **Karen:** Czyli Medea nie wiozła części zamiennych...
-
 **Sanders:** Nic nie poradzimy. Pierwszeństwo mają oddziały zostające w bazie.
-
 **Eledore:** Szkoda, że utknęłaś z tą głową GM-a, Karen.
-
 **Karen:** Wcale nie, podoba mi się. Dobrze reaguje, a serwis to pestka.
-
 **Shiro:** Serwis zrobiony. Odpocznijmy chwilę.
-
 **Michel:** My też musimy uzupełnić zapasy!
-
 **Shiro:** Po odpoczynku lecimy prosto do Jaburo. Tą samą Medeą, którą uratowaliśmy.
 
 Zaatakowany klucz Medei uniknął katastrofy dzięki pomocy 08. Plutonu MS.

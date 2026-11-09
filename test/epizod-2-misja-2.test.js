@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
 import { wczytajStrony } from '../tools/content-loader.mjs';
-import { sprawdzWiernoscSceny } from '../src/srw/registry.js';
+import { sprawdzWiernoscSceny, normalizujTekst } from '../src/srw/registry.js';
 import { zbudujDane } from '../tools/build.mjs';
 const pages = wczytajStrony();
 const bySlug = new Map(pages.map((p) => [p.slug, p]));
@@ -30,7 +30,7 @@ test('scena 2-2 zachowuje wszystkie dialogi, kolejność i mapę 13 sekcji', asy
   assert.deepEqual(sprawdzWiernoscSceny(scena, archive), []);
   const quoted = [...scena.body.matchAll(/:::skrypt\n([\s\S]*?)\n:::/g)].map((m) => m[1]);
   assert.equal(quoted.length, 10);
-  assert.equal(quoted.join('\n\n'), script);
+  assert.equal(normalizujTekst(quoted.join('\n')), normalizujTekst(script));
   assert.equal(scena.sekcje_analizy.length, 13);
   globalThis.SRW_DATA = await zbudujDane();
   const { renderScena } = await import('../src/srw/render-scene.js');

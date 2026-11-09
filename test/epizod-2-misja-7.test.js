@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
 import { wczytajStrony } from '../tools/content-loader.mjs';
-import { sprawdzWiernoscSceny } from '../src/srw/registry.js';
+import { sprawdzWiernoscSceny, normalizujTekst } from '../src/srw/registry.js';
 import { zbudujDane } from '../tools/build.mjs';
 
 const pages = wczytajStrony();
@@ -35,7 +35,7 @@ test('scena 2-7 cytuje dwanaście bloków skryptu i ma tyle samo kotwic analizy'
   assert.deepEqual(sprawdzWiernoscSceny(scene, archive), []);
   const bloki = [...scene.body.matchAll(/:::skrypt\n([\s\S]*?)\n:::/g)].map((m) => m[1]);
   assert.equal(bloki.length, 12);
-  assert.equal(bloki.join('\n\n'), script);
+  assert.equal(normalizujTekst(bloki.join('\n')), normalizujTekst(script));
   assert.equal(scene.sekcje_analizy.length, 12);
   globalThis.SRW_DATA = await zbudujDane();
   const { renderScena } = await import('../src/srw/render-scene.js');

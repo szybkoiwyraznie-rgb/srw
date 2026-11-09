@@ -7,6 +7,7 @@
  * - nowe wpisy nie dostają ilustracji, dopóki właściciel ich nie dostarczy.
  */
 import test from 'node:test';
+import { normalizujTekst } from '../src/srw/registry.js';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { wczytajStrony } from '../tools/content-loader.mjs';
@@ -95,8 +96,8 @@ test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () =
     .replace(/^# Super Robot Wars OE — Epizod 1\n\n---\n\n## Ep\. 1: Szalejący prototyp Labora\n\n/, '')
     .split('\n\n---\n\n## Black Tri-Stars')[0]
     .replace(/\n\n---\n?$/, '');
-  assert.equal(odtworzone, oczekiwane);
-  for (const czesc of czesci) assert.ok(script.includes(czesc.tekst), czesc.naglowek);
+  assert.equal(normalizujTekst(odtworzone), normalizujTekst(oczekiwane));
+  for (const czesc of czesci) assert.ok(normalizujTekst(script).includes(normalizujTekst(czesc.tekst)), czesc.naglowek);
   assert.equal(pages.filter((p) => p.typ === 'scena').length, 18, 'dwie sceny epizodu 0, osiem epizodu 1, siedem epizodu 2 i jedna scena SRW Y');
   assert.equal(pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-y-ep1').length, 1, 'SRW Y ma jedną scenę 1-1C');
 });

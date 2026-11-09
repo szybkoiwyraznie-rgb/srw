@@ -64,29 +64,17 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 ### Jaburo / Dowództwo
 
 **Bright:** 13\. Samodzielny Oddział... Czyli nasz White Base ma służyć wyłącznie za przynętę, panie generale?
-
 **Revil:** Zeon wysoko ceni możliwości White Base. Wyżej nawet niż nasi admirałowie...
-
 **Revil:** Dlatego waszym głównym zadaniem będzie dywersja.
-
 **Bright:** White Base ma polecieć w kosmos przed głównymi siłami floty i ściągnąć na siebie uwagę Zeonu?
-
 **Revil:** Właśnie tak. Ale nie uważajcie się za straceńców.
-
 **Revil:** Chcę, żebyście zgubili pościg Zeonu i połączyli się z Connect Force.
-
 **Bright:** Mamy odejść z Sił Federacji?
-
 **Revil:** Federacja musi przekazać Connect więcej sił. Dla przyszłości Ziemi.
-
 **Revil:** Zeon nie jest naszym jedynym wrogiem. Gdybyśmy mogli, powinniśmy natychmiast skończyć tę wojnę i szykować się na wroga ludzkości.
-
 **Bright:** Rozumiem, ale...
-
 **Revil:** Wezwiemy was z powrotem, gdy będziecie potrzebni. To trudne zadanie, ale nikt nie nadaje się lepiej. Wybacz, ale czy je przyjmiesz?
-
 **Bright:** ...Tak jest. Zrobimy wszystko, co w naszej mocy.
-
 **Revil:** Liczę na was.
 :::
 
@@ -94,31 +82,18 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 ### White Base / Mostek
 
 **Shiro:** Chorąży Shiro Amada, 08. Pluton MS. Od dziś przydzielony do White Base.
-
 **Bright:** Bright Noa, kapitan White Base. Wiele sobie obiecuję po twoim dowodzeniu.
-
 **Bright:** Wasze maszyny są na pokładzie mobile suitów. Czekajcie na dalsze rozkazy.
-
 **Shiro:** Tak jest.
-
 **Karen:** Może ktoś nas zaprowadzi na pokład?
-
 **Amuro:** Ja was zaprowadzę.
-
 **Sanders:** Młody jesteś...
-
 **Mirai:** Amuro ma dopiero 16 lat, ale to nasz as.
-
 **Eledore:** As w tym wieku?
-
 **Michel:** Naprawdę niesamowite.
-
 **Amuro:** Nie, po prostu walczyłem rozpaczliwie, żeby wszyscy przeżyli.
-
 **Shiro:** Musiałeś przejść przez naprawdę ciężkie bitwy.
-
 **Amuro:** A czy mógłbym, panie chorąży, obejrzeć z bliska Ez8?
-
 **Shiro:** Jasne, proszę.
 :::
 
@@ -126,29 +101,17 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 ### Pokład mobile suitów
 
 **Amuro:** Więc to jest Ez8... Podobno bazuje na Gundamie lądowym...
-
 **Shiro:** Maszyna została rozbita, więc większość części złożyliśmy z tego, co udało się znaleźć.
-
 **Amuro:** Nie rozpoznaję specyfikacji pancerza piersiowego... To chyba nie jest część z Federacji...?
-
 **Shiro:** Dobre oko. To tarcza Zaku, którego zestrzeliliśmy.
-
 **Hayato:** Co, używacie nawet części od Zaku?
-
 **Karen:** Na froncie to normalka. Trzeba sobie radzić tym, co jest.
-
 **Shiro:** Federacja spóźniła się z wprowadzeniem mobile suitów. Na front nie docierało dość części.
-
 **Amuro:** Czyli to udoskonalony Gundam wyspecjalizowany w walce na lądzie.
-
 **Shiro:** Ta ewolucja była możliwa tylko dzięki danym z twoich walk. Najlepiej widać to po Alexie.
-
 **Kai:** Alexie?
-
 **Sanders:** To prototyp, który jeszcze nie był w walce. Eskortowaliśmy jego start w kosmos.
-
 **Shiro:** Podobno reaguje nieporównanie szybciej.
-
 **Amuro:** Słyszałem o nim, ale...
 :::
 
@@ -156,53 +119,29 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 ### Nadciąga olbrzymi mobilny pancerz
 
 **Marker:** Gotowość bojowa pierwszego stopnia! Zbliża się ogromny mobile armor!
-
 **Amuro:** Nowa broń Zeonu...
-
 **Michel:** Ogromny mobile armor? Czyżby...
-
 **Sanders:** Może to ta maszyna, którą badaliśmy.
-
 **Karen:** Ślady wiązek na zeonowskim poligonie... Jeśli trafi nas tym wielkim działem, będzie źle.
-
 **Eledore:** Nawet Jaburo nie wyjdzie z tego bez szwanku.
-
 **Shiro:** ...
-
 **Karen:** Co robimy, dowódco?
-
 **Shiro:** Oczywiście ruszamy! Szybko!
-
 **Karen:** Dowódco, ten mobile armor bardzo przypomina tamten, który widzieliśmy!
-
 **Michel:** Kształt jest inny... Pewnie ulepszona wersja!
-
 **Sanders:** Skoro atakuje bezpośrednio, można założyć, że skończył już testy.
-
 **Eledore:** Potwór z wielkim działem megacząsteczkowym... Nie wchodźcie mu na linię strzału.
-
 **Shiro:** Wszystkie jednostki, ostrożnie, do walki z bliska! Wrogi mobile armor ma najpewniej ogromne działo megacząsteczkowe!
-
 **Shiro:** Jeśli wystrzeli z bliska, Jaburo poniesie ogromne straty. Zatrzymamy go tutaj!
-
 **Sanders:** Dowódco, na pewno? Przecież w tej maszynie może być...
-
 **Shiro:** Właśnie dlatego trzeba go zatrzymać! Tak czy inaczej, nie można pozwolić mu iść dalej!
-
 **Karen:** Przyjęłam!
-
 **Amuro:** Chyba kryje się za tym jakaś historia...
-
 **Shiro:** Wybaczcie, to sprawa osobista! Jeśli możecie, nie trafiajcie w kokpit!
-
 **Kai:** To jakieś szaleństwo!
-
 **Hayato:** Spokojnie, Kai. Trafić prosto w kokpit to właśnie najtrudniejsze. Tak łatwo nikt w niego nie trafi.
-
 **Sayla:** W wojnie pewnie nie ma miejsca na uczucia, ale...
-
 **Amuro:** Najpierw go unieruchomimy! Resztę zostawiamy panu, dowódco!
-
 **Shiro:** Dziękuję wam wszystkim.
 :::
 
@@ -210,37 +149,21 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 ### Determinacja Giniasa
 
 **Ginias:** Hehehe... Nadszedł czas, by mój Apsalus obrócił Jaburo w ruinę!
-
 **Ramba Ral:** Zdążyłem, lordzie Giniasie. Na wieść o wymarszu Apsalusa przybyłem w te pędy!
-
 **Ginias:** Och! Ramba Ral...!
-
 **Ginias:** ...Khe, khe!
-
 **Hamon:** ...?! Lordzie Giniasie... czy pan jest chory...?
-
 **Ginias:** Heh... Niewiele mi już zostało...
-
 **Ginias:** Lecz ostatnim płomieniem mego życia pociągnę Federację za sobą w otchłań!
-
 **Ramba Ral:** Słowa godne głowy szlachetnego rodu Sahalin. Wspaniała determinacja!
-
 **Ramba Ral:** Ja, Ramba Ral, będę świadkiem pańskiej bitwy, lordzie Giniasie!
-
 **Ginias:** Heh, Błękitny Olbrzym za świadka? Co za zaszczyt. Ja, Ginias, będę walczył ze wszystkich sił!
-
 **Ramba Ral:** Wypuszczam mobile suity, Hamon!
-
 **Hamon:** Kochany, sytuacja nie jest dla nas korzystna. Ten Zanzibar wesprze cię, jak tylko zdoła.
-
 **Ramba Ral:** Zdaję się na ciebie! W razie czego spotkamy się w punkcie zbiórki.
-
 **Hamon:** Dobrze.
-
 **Ramba Ral:** Acous, Cozun! Oddział Ramby Rala, naprzód!
-
 **Acous:** Przyjąłem!
-
 **Cozun:** Przyjąłem!
 :::
 
@@ -248,49 +171,27 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 #### Dialogi warunkowe — Shiro i Ginias
 
 > **Shiro:** Pilocie mobile armora! Jeśli mnie słyszysz, odpowiedz!
-
 > **Ginias:** ...
-
 > **Shiro:** Aina! Aina, to ty?!
-
 > **Ginias:** Ty... To ty jesteś tym, który uwiódł moją siostrę!
-
 > **Shiro:** Siostrę...?!
-
 > **Shiro:** Brat Ainy...?
-
 > **Shiro:** Ainy nie ma na pokładzie?
-
 > **Ginias:** Ugh... Nie waż się tak poufale wymawiać jej imienia!
-
 > **Ginias:** Przez ciebie Aina odmówiła walki i odeszła z wojska! I zabrała ze sobą kilku wiernych sług!
-
 > **Shiro:** Rozumiem... Więc Aina odeszła z wojska. Co za ulga...
-
 > **Ginias:** Ugh... Zapewne jesteś bardzo zadowolony... Nie dość, że uwiodłeś Ainę, to jeszcze uszczupliłeś moje siły bez walki!
-
 > **Shiro:** Czekając na ratunek w ośnieżonych górach, Aina i ja tylko współpracowaliśmy, żeby przeżyć!
-
 > **Shiro:** Zeon czy Federacja, to nie ma znaczenia! Zakochałem się w Ainie jako w człowieku!
-
 > **Ginias:** A niech to! Milcz!
-
 > **Shiro:** Wojna na lądzie rozstrzygnęła się pod Odessą. Nie musisz dłużej walczyć! Poddaj się, proszę!
-
 > **Ginias:** Heh. Mając tak miażdżącą przewagę?
-
 > **Shiro:** Choćby ten mobile armor był nie wiem jak silny, nie pokonasz Federacji w Jaburo! Zwiększysz tylko straty po obu stronach!
-
 > **Ginias:** To atak samobójczy. Zmiotę federacyjne świnie gnieżdżące się w Jaburo i za cenę własnego życia dam Zeonowi zwycięstwo!
-
 > **Shiro:** ...Dlaczego nie rozumiesz, że to tylko przysporzy ofiar?!
-
 > **Ginias:** Byle prosty żołdak nie ma prawa oceniać tej walki!
-
 > **Shiro:** Stopnie, pozycja, to wszystko nieważne! Czym jest dla ciebie ludzkie życie?!
-
 > **Ginias:** Ugh, cóż za naiwność! I takiemu człowiekowi... moja ukochana siostra!
-
 > **Ginias:** Tylko ciebie nie mogę zostawić przy życiu! Ciebie, który splamiłeś czystość rodu Sahalin! Nie zaznam spokoju, póki nie pogrzebię cię sam!
 :::
 
@@ -298,23 +199,14 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 ### Apsalus otwiera ogień
 
 **Shiro:** Ugh...!
-
 **Ginias:** Heh, ha-ha-ha-ha-ha...
-
 **Ginias:** Wreszcie... moje pragnienie... marzenie się spełni!
-
 **Ginias:** Ładowanie energii... Moje pragnienie... zagłada Jaburo... spełnia się!
-
 **Ginias:** Hehehe... Oto potęga Apsalusa! Spuszczę na wasze głowy młot sprawiedliwości!
-
 **Fraw:** Meldunki o zniszczeniach napływają zewsząd!
-
 **Marker:** Ten strzał zmiótł oddziały na linii ognia!
-
 **Oscar:** Stanowiska przeciwlotnicze poważnie uszkodzone!
-
 **Mirai:** Jeśli wystrzeli tym prosto w dół, port i dowództwo też będą zagrożone...
-
 **Bright:** Nie pozwólcie mu podejść bliżej! Za wszelką cenę zniszczcie ten mobile armor!
 :::
 
@@ -322,9 +214,7 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 #### Dialogi sytuacyjne — działo megacząsteczkowe
 
 > **Ginias:** Ładowanie działa megacząsteczkowego!
-
 > **Ginias:** Zaraz skrócę wasze cierpienia...!
-
 > **Ginias:** Działo megacząsteczkowe, ognia!
 :::
 
@@ -332,11 +222,8 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 #### Dialogi warunkowe — Amuro i Ramba Ral
 
 > **Ramba Ral:** A więc przeżyłeś, chłopcze!
-
 > **Amuro:** Ty... Ramba Ral!
-
 > **Ramba Ral:** Nie powiem już, że to zasługa maszyny. Zmierzę się z tobą jak wojownik z wojownikiem.
-
 > **Amuro:** Ngh...!
 :::
 
@@ -344,11 +231,8 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 #### Dialogi warunkowe — Sanders i Apsalus
 
 > **Sanders:** Ugh! Jest znacznie większy niż ten z poligonu!
-
 > **Sanders:** Czyli razem z rozmiarem rośnie też siła jego uzbrojenia...!
-
 > **Ginias:** Działo główne Apsalusa przebija nawet skałę Jaburo.
-
 > **Ginias:** Wobec jego potęgi mobile suity to papierowe lalki!
 :::
 
@@ -356,7 +240,6 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 #### Dialogi warunkowe — Karen i Ginias
 
 > **Ginias:** Z drogi! Przed Apsalusem wszelki opór jest daremny.
-
 > **Karen:** Daremny czy nie, przekonamy się, jak spróbujemy!
 :::
 
@@ -364,9 +247,7 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 #### Dialogi warunkowe — decyzja Shiro
 
 > **Shiro:** Cholera, on naprawdę chce zabrać ze sobą Jaburo...!
-
 > **Shiro:** Chronić bazę i drużynę, zatrzymać go, oszczędzić pilota... Wszystkiego naraz teraz nie zdołam.
-
 > **Shiro:** Wybacz mi, Aino... Twój brat... muszę...!
 :::
 
@@ -374,9 +255,7 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 #### Dialogi warunkowe — Shiro i Ramba Ral
 
 > **Ramba Ral:** Nie pozwolę ci zniweczyć woli lorda Giniasa!
-
 > **Shiro:** Przepuść mnie! Chcę go zatrzymać!
-
 > **Ramba Ral:** Błagasz wroga? I ty nazywasz się żołnierzem?!
 :::
 
@@ -384,9 +263,7 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 #### Dialogi warunkowe — Amuro i Ginias
 
 > **Amuro:** T-to przytłaczające...! Nie mogę pozwolić takiej broni zaatakować bazy...!
-
 > **Ginias:** Śmiesz stawać mi na drodze, Gundamie?!
-
 > **Ginias:** Biały Diabeł Federacji! Własnymi rękami położę ci kres!
 :::
 
@@ -394,11 +271,8 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 #### Dialogi warunkowe — Sayla i Ginias
 
 > **Sayla:** Przestańcie!
-
 > **Sayla:** Nawet jeśli zdobędziecie Jaburo, nie odwrócicie przegranej Zeonu na Ziemi!
-
 > **Ginias:** Lecz uderzając w serce Federacji, opóźnimy jej natarcie w kosmosie. A wtedy ojczyzna zyska czas na obronę...
-
 > **Ginias:** Za to nie żal mi własnego życia! To jedyny godny koniec dla syna rodu Sahalin!
 :::
 
@@ -406,9 +280,7 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 #### Dialogi warunkowe — Hayato i Ginias
 
 > **Hayato:** Cel jest duży, ale... gdzie trzeba trafić, żeby zestrzelić coś takiego?!
-
 > **Ginias:** Nie rozśmieszaj mnie...
-
 > **Ginias:** Pociski słabowitej Federacji nawet nie zarysują mojego Apsalusa!
 :::
 
@@ -416,7 +288,6 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 #### Dialogi warunkowe — Kai i Ginias
 
 > **Ginias:** Hehehe... Skoro i tak mam zginąć, zabiorę ze sobą jak najwięcej z was.
-
 > **Kai:** Zatrzymać takiego potwora bez zabijania pilota? Nie ma mowy! Ledwo unikam bezpośrednich trafień!
 :::
 
@@ -424,9 +295,7 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 #### Dialogi warunkowe — Amuro i Hamon
 
 > **Amuro:** Pani Hamon, to pani?! Proszę się wycofać, pani Hamon! Nie chcę z panią walczyć!
-
 > **Hamon:** Hehe... A więc chłopiec z pustyni był pilotem Gundama...
-
 > **Hamon:** Lubię silnych chłopców, ale nie pozwolę, byś przeszkadzał mojemu mężowi...!
 :::
 
@@ -434,7 +303,6 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 #### Dialogi warunkowe — Sayla i Ramba Ral
 
 > **Sayla:** Wycofajcie się! Atakować tymi siłami kwaterę Federacji? Samobójstwo!
-
 > **Ramba Ral:** Od początku wiedzieliśmy, że szanse są przeciw nam! Lecz porzucić lorda Giniasa, gdy ten stawia życie na szali swej sprawy? Hańba dla mężczyzny!
 :::
 
@@ -442,13 +310,9 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 #### Dialogi warunkowe — odwroty sił Zeonu
 
 > **Ramba Ral:** Więc to koniec...
-
 > **Ramba Ral:** Niech Hamon zabierze mnie z punktu zbiórki.
-
 > **Hamon:** Dalsza walka jest zbyt niebezpieczna! Wycofaj się!
-
 > **Acous:** Dłużej się nie da... Wycofuję się.
-
 > **Cozun:** Ciężkie uszkodzenia! Odrywam się.
 :::
 
@@ -456,13 +320,9 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 ### Upadek Apsalusa
 
 **Ginias:** Ugh... och... Niemożliwe... mój Apsalus...!
-
 **Ginias:** M-moje... marzenie...
-
 **Shiro:** Wybacz... Aino... Nie mogłem sobie pozwolić na ratowanie twego brata.
-
 **Marker:** Wrogi mobile armor zestrzelony!
-
 **Bright:** Dobrze! Wyeliminować resztę wrogów!
 :::
 
@@ -470,9 +330,7 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 ### Operacja zakończona
 
 **Marker:** Meldunek od mobile suitów! Wróg został odparty.
-
 **Oscar:** Pozostali wrogowie chyba się wycofują.
-
 **Bright:** Operacja zakończona. Wszystkie jednostki, powrót.
 :::
 
@@ -480,19 +338,12 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 ### White Base / Mostek
 
 **Bright:** Dobra robota, wszyscy.
-
 **Bright:** Dzięki waszym wysiłkom dowództwo i flota kosmiczna nie ucierpiały.
-
 **Bright:** Pozycje naziemne zostały mocno zniszczone, ale plany Federacji pozostają bez zmian.
-
 **Kai:** To może teraz jakiś miły, spokojny urlop...
-
 **Bright:** Przykro mi, nie ma czasu. Za kilka godzin wylatujemy w kosmos.
-
 **Hayato:** Kai, zostało ci jeszcze serwisowanie działa.
-
 **Kai:** Ugh...
-
 **Bright:** Wszyscy, pośpieszcie się z przygotowaniami.
 :::
 
@@ -500,13 +351,9 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 ### White Base / Hangar
 
 **Shiro:** *(Aino... pewnie już nigdy cię nie zobaczę)*
-
 **Shiro:** *(...Jeśli żyjesz, to mi wystarczy. Nie byłaś stworzona do walki)*
-
 **Karen:** Dowódco, co pan robi?
-
 **Eledore:** Coś nie w pana stylu. Przecież to serwis, pana ulubione zajęcie.
-
 **Shiro:** Ach... nic takiego. Zaraz przyjdę.
 :::
 
