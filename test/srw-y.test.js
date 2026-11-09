@@ -1,5 +1,5 @@
 /**
- * Przyrost SRW Y 1.1C: archiwum, graf encji i pięć scen pierwszego epizodu.
+ * Przyrost SRW Y 1.1C: archiwum, graf encji i jedna scena pierwszego epizodu.
  *
  * Test nie zastępuje testów ogólnych bazy: pilnuje konkretnie, żeby kolejny
  * etap dostawy nie zgubił surowego skryptu, zakresu gry ani relacji z menu.
@@ -39,15 +39,16 @@ const POJECIA = [
   'czarni-rycerze', 'ninja', 'statek-emigracyjny', 'nira-kana-i',
   'pamiec-stg', 'teoria-y', 'miasto-yagami', 'mechaniczne-marionetki',
 ];
-const SCENY = [
-  ['srw-y-ep1-parada-cesarza-leloucha', '1-1'],
-  ['srw-y-ep1-atak-na-miasto-yagami', '1-2'],
-  ['srw-y-ep1-start-a-adventu', '1-3'],
-  ['srw-y-ep1-ninja-w-cieniu', '1-4'],
-  ['srw-y-ep1-rdzen-nira-kana-i', '1-5'],
+const SCENA = 'srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny';
+const STARE_SCENY = [
+  'srw-y-ep1-parada-cesarza-leloucha',
+  'srw-y-ep1-atak-na-miasto-yagami',
+  'srw-y-ep1-start-a-adventu',
+  'srw-y-ep1-ninja-w-cieniu',
+  'srw-y-ep1-rdzen-nira-kana-i',
 ];
 
-for (const slug of ['srw-y', 'srw-y-ep1', ...POSTACIE, ...MECHY, ...SERIE, ...POJECIA, ...SCENY.map(([s]) => s)]) {
+for (const slug of ['srw-y', 'srw-y-ep1', ...POSTACIE, ...MECHY, ...SERIE, ...POJECIA, SCENA]) {
   test(`SRW Y: istnieje strona ${slug}`, () => {
     assert.ok(bySlug.has(slug), slug);
   });
@@ -73,16 +74,22 @@ test('SRW Y: epizod wskazuje grę, skrypt i komplet dostarczonych relacji', () =
   assert.match(skrypt, /\*\*Cross Tsukinowa:\*\* \*\(Starszy brat cię obroni/);
 });
 
-test('SRW Y: pięć scen jest uporządkowanych i zachowuje dosłowne fragmenty skryptu', () => {
-  const sceny = SCENY.map(([slug]) => bySlug.get(slug));
-  assert.deepEqual(sceny.map((s) => s.numer_sceny), SCENY.map(([, numer]) => numer));
-  for (const scena of sceny) {
-    assert.deepEqual(sprawdzWiernoscSceny(scena, skrypt), [], scena.slug);
-    assert.match(scena.body, /:::skrypt\n/);
-    assert.match(scena.body, /## Analiza/);
-    assert.equal(scena.epizod, 'srw-y-ep1');
-  }
-  assert.doesNotMatch(sceny.at(-1).body, /UCZESTNICY|Misja 1 —/);
+test('SRW Y: dostawa ma jedną scenę 1-1C z dosłownym, pełnym fragmentem skryptu', () => {
+  const scena = bySlug.get(SCENA);
+  assert.equal(scena.numer_sceny, '1-1C');
+  assert.equal(scena.tytul, 'Misja 1 — Kwiaty, ninja i urodziny');
+  assert.equal(scena.epizod, 'srw-y-ep1');
+  assert.deepEqual(sprawdzWiernoscSceny(scena, skrypt), []);
+  assert.match(scena.body, /## Treść sceny\n/);
+  assert.match(scena.body, /:::skrypt\n/);
+  assert.match(scena.body, /## Analiza/);
+  assert.match(scena.body, /### Parada cesarza Leloucha/);
+  assert.match(scena.body, /### Rezydencja Franburnettów/);
+  assert.match(scena.body, /### A\. Advent - rdzeń Systemu Nira-Kana-I/);
+  assert.match(scena.body, /\*\*Cross Tsukinowa:\*\* \*\(Starszy brat cię obroni/);
+  assert.doesNotMatch(scena.body, /UCZESTNICY/);
+  assert.equal(strony.filter((s) => s.typ === 'scena' && s.epizod === 'srw-y-ep1').length, 1);
+  for (const slug of STARE_SCENY) assert.ok(!bySlug.has(slug), `${slug}: usunięty podział nie jest sceną`);
 });
 
 test('SRW Y: wszystkie profile mechów zachowują dane menu pod zakresem srw-y', () => {
@@ -109,9 +116,7 @@ test('SRW Y: relacje encji prowadzą do epizodu, scen i serii', () => {
     assert.ok(seria.gry.includes('srw-y'), `${slug}: gra`);
     assert.match(seria.body, /\[\[[a-z0-9-]+\]\]/, `${slug}: encje serii`);
   }
-  for (const [slug] of SCENY) {
-    const scena = bySlug.get(slug);
-    assert.ok(scena.postacie.length > 0, `${slug}: postacie`);
-    assert.ok(Array.isArray(scena.pojecia), `${slug}: pojęcia`);
-  }
+  const scena = bySlug.get(SCENA);
+  assert.ok(scena.postacie.length > 0, `${SCENA}: postacie`);
+  assert.ok(Array.isArray(scena.pojecia), `${SCENA}: pojęcia`);
 });

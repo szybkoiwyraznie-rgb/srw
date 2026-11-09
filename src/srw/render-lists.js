@@ -270,25 +270,56 @@ function listaEpizodowHtml(lista) {
   }).join('');
 }
 
-/** Sceny wszystkich epizodów: grupy po epizodzie, w kolejności numerycznej (ADR 0008). */
+/** Sceny wszystkich epizodów: najpierw gra, potem epizod (ADR 0008). */
 function listaSceneWszystkie() {
   const kolejnosc = listaEpizodow().map((e) => e.slug);
   return listaStron('scena').sort((a, b) => kolejnosc.indexOf(a.epizod) - kolejnosc.indexOf(b.epizod));
 }
 
+/**
+ * Dział Sceny ma jeden poziom grupowania więcej niż epizody: gra jest nagłówkiem
+ * zwijanym, a dopiero po rozwinięciu widać epizody i ich sceny. `details` jest
+ * domyślnie zamknięte, więc wejście do działu pokazuje najpierw tylko tytuły gier
+ * i liczbę scen w każdej z nich.
+ */
 function listaSceneHtml(lista) {
-  const grupy = new Map();
-  for (const s of lista) {
-    const klucz = s.epizod ?? '—';
-    if (!grupy.has(klucz)) grupy.set(klucz, []);
-    grupy.get(klucz).push(s);
+  const gry = new Map();
+  for (const scena of lista) {
+    const graSlug = graWpisu(scena) ?? '—';
+    if (!gry.has(graSlug)) gry.set(graSlug, []);
+    gry.get(graSlug).push(scena);
   }
-  return [...grupy.entries()].map(([epSlug, sceny]) => {
-    const ep = dajStrone(epSlug);
-    return `<section class="blok">
-      ${ep ? `<h2><a href="${hrefDlaSlug(ep.slug, 'epizod')}">${escapeHtml(ep.tytul)}</a></h2>` : '<h2>Bez przypisanego odcinka</h2>'}
-      <ul class="lista-scen">${sortujSceny(sceny).map(elementSceny).join('')}</ul>
-    </section>`;
+
+  const kolejnoscGier = new Map(listaPosortowana('gra').map((gra, index) => [gra.slug, index]));
+  const wpisyGier = [...gry.entries()].sort(([a], [b]) => {
+    const pozycjaA = kolejnoscGier.get(a) ?? Number.MAX_SAFE_INTEGER;
+    const pozycjaB = kolejnoscGier.get(b) ?? Number.MAX_SAFE_INTEGER;
+    return pozycjaA - pozycjaB || String(a).localeCompare(String(b), 'pl');
+  });
+
+  return wpisyGier.map(([graSlug, scenyGry]) => {
+    const gra = dajStrone(graSlug);
+    const epizody = new Map();
+    for (const scena of scenyGry) {
+      const epSlug = scena.epizod ?? '—';
+      if (!epizody.has(epSlug)) epizody.set(epSlug, []);
+      epizody.get(epSlug).push(scena);
+    }
+    const sceny = scenyGry.length;
+    const naglowek = gra
+      ? `<a href="${hrefDlaSlug(gra.slug, 'gra')}">${escapeHtml(gra.tytul)}</a>`
+      : 'Bez przypisanej gry';
+    const zawartosc = [...epizody.entries()].map(([epSlug, scenyEpizodu]) => {
+      const ep = dajStrone(epSlug);
+      return `<section class="grupa-scen-epizod">
+        ${ep ? `<h3><a href="${hrefDlaSlug(ep.slug, 'epizod')}">${escapeHtml(ep.tytul)}</a></h3>` : '<h3>Bez przypisanego odcinka</h3>'}
+        <ul class="lista-scen">${sortujSceny(scenyEpizodu).map(elementSceny).join('')}</ul>
+      </section>`;
+    }).join('');
+    return `<details class="grupa-scen-gry">
+      <summary><span class="tytul-grupy-scen">${naglowek}</span> <span class="meta">(${sceny} ${odmiana(sceny, ['scena', 'sceny', 'scen'])})</span></summary>
+      <div class="sceny-gry">${zawartosc}</div>
+    </details>`;
   }).join('');
 }
 
