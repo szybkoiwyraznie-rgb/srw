@@ -3,7 +3,7 @@
 ## 2026-11-09 11:35
 
 - [[srw-y|Super Robot Wars Y]] — [[srw-y-ep1|Epizod 1]] prowadzi od parady cesarza Leloucha przez atak na miasto Yagami do uruchomienia [[a-advent|A. Adventu]] i odkrycia Systemu [[nira-kana-i|Nira-Kana-I]].
-- [[srw-y|Super Robot Wars Y]] — [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|Scena 1-1C „Misja 1 — Kwiaty, ninja i urodziny”]] obejmuje cały dostarczony prolog: od parady i ataku VAL-X po A. Advent, [[ninja|NINJA]] oraz rdzeń Nira-Kana-I.
+- [[srw-y|Super Robot Wars Y]] — [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|Scena 1-1C „Kwiaty, ninja i urodziny”]] obejmuje cały dostarczony prolog: od parady i ataku VAL-X po A. Advent, [[ninja|NINJA]] oraz rdzeń Nira-Kana-I.
 - [[srw-y|Super Robot Wars Y]] — Nowe profile [[echika-y-franburnett|Echiki]], [[annina-servania|Anniny]], [[cross-tsukinowa|Crossa]], [[chang-wufei|Wufeia]], [[zero|Zero]] i pozostałych uczestników łączą 16 postaci oraz 8 jednostek, w tym [[lunedrache|Lunedrache]], [[altron-gundam|Altron Gundam]] i [[lancelot-albion-zero|Lancelot Albion Zero]].
 - [[srw-y|Super Robot Wars Y]] — Świat epizodu uzupełniają hasła [[wojna-rewolucyjna|wojny rewolucyjnej]], [[val-x|VAL-X]], [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]], [[miasto-yagami|miasta Yagami]], [[pamiec-stg|pamięci STG]] i [[teoria-y|teorii Y]] oraz karty reprezentowanych serii.
 

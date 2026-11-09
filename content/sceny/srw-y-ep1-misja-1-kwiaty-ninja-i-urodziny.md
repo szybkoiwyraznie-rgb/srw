@@ -1,7 +1,7 @@
 ---
 typ: scena
 slug: srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny
-tytul: "Misja 1 — Kwiaty, ninja i urodziny"
+tytul: "Kwiaty, ninja i urodziny"
 epizod: srw-y-ep1
 numer_sceny: 1-1C
 streszczenie: Prolog i pierwsza scena gry łączą paradę kończącą wojnę rewolucyjną, atak VAL-X na miasto Yagami, start A. Adventu, ujawnienie NINJA oraz pierwsze wyjaśnienie Systemu Nira-Kana-I.

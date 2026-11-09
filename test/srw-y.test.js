@@ -77,7 +77,7 @@ test('SRW Y: epizod wskazuje grę, skrypt i komplet dostarczonych relacji', () =
 test('SRW Y: dostawa ma jedną scenę 1-1C z dosłownym, pełnym fragmentem skryptu', () => {
   const scena = bySlug.get(SCENA);
   assert.equal(scena.numer_sceny, '1-1C');
-  assert.equal(scena.tytul, 'Misja 1 — Kwiaty, ninja i urodziny');
+  assert.equal(scena.tytul, 'Kwiaty, ninja i urodziny');
   assert.equal(scena.epizod, 'srw-y-ep1');
   assert.deepEqual(sprawdzWiernoscSceny(scena, skrypt), []);
   assert.match(scena.body, /## Treść sceny\n/);

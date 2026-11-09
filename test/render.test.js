@@ -77,7 +77,7 @@ test('strona sceny pokazuje dosłowną treść i analizę', () => {
 });
 
 test('listy działów działają i respektują filtry', () => {
-  const postacie = renderListe('postac');
+  const postacie = renderListe('postac', { gra: 'srw-oe' });
   assert.match(postacie, /Seishiro/);
   assert.match(postacie, /Himari Yaegaki/);
 
