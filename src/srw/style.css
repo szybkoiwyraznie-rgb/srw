@@ -366,7 +366,7 @@ blockquote {
 .poziom-zrodlo a, .poziom-wiedza a { text-decoration: underline; }
 
 /* fragmenty treści: poziom wiarygodności zaznacza się na bloku {{...}}, nie na stronie (ADR 0011) */
-.fragment { margin: 14px 0; }
+.fragment { margin: 6px 0; }
 .fragment:first-child { margin-top: 0; }
 .fragment.poziom { padding: 12px 16px; }
 .fragment.poziom > :first-child { margin-top: 0; }
