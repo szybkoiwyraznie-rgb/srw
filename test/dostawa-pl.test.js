@@ -250,17 +250,22 @@ test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że 
 test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   const zakazane = /\bw grze\b|\bprofilu?\b|\bobsad[a-ząćęłńóśźż]*\b|\broster\b|\bwłasną stroną\b|standardow/i;
   const typy = ['postac', 'mech', 'pojecie', 'seria'];
-  // Sekcja „Opis” kończy się dopiero na kolejnym nagłówku `##` albo na zamknięciu bloku poziomu.
-  // Wcześniejszy wzorzec kończył dopasowanie na pierwszej pustej linii, więc badał pusty tekst
-  // i przepuszczał naruszenia poza pierwszym akapitem (audyt PR #12).
+  // Boks opisowy to po ADR 0035 fragment bez tytułu (po plakietce gry). Badamy wszystkie
+  // takie fragmenty strony — dawniej wzorzec wycinał tylko sekcję „## Opis”.
   let zbadane = 0;
   for (const page of pages.filter(p => typy.includes(p.typ))) {
-    const opis = page.body.match(/^## Opis\n([\s\S]*?)(?=^## |^\}\})/m);
-    if (!opis) continue;
-    const tekst = opis[1].trim();
+    // Boks opisowy gry to blok {{skrypt}}/{{menu}} — treść do pierwszego
+    // nagłówka `##` (nagłówki wewnątrz makra to np. „Parametry”). Bloki
+    // {{zrodlo}}/{{wiedza}} to opis neutralny ze źródeł i nie podlegają ADR 0018.
+    const opisy = [...page.body.matchAll(/^\{\{(skrypt|menu)[^\n]*\n\n([\s\S]*?)^\}\}/gm)]
+      .map((m) => m[2].split(/\n(?=## )/)[0])
+      .filter((t) => !t.trimStart().startsWith('## '))
+      .map((t) => t.trim())
+      .filter(Boolean);
+    const tekst = opisy.join('\n\n');
     if (!tekst) continue;
     zbadane += 1;
-    assert.ok(tekst.includes('\n\n') || tekst.length > 80, `${page.slug}: sekcja Opis wczytana w całości`);
+    assert.ok(tekst.length > 40, `${page.slug}: sekcja Opis wczytana w całości`);
     assert.doesNotMatch(tekst, zakazane, `${page.slug}: opis zbliża się do technicznego języka gry`);
   }
   assert.ok(zbadane >= 130, `test ma badać pełne opisy wszystkich encji, a sprawdził ${zbadane}`);
@@ -440,7 +445,7 @@ test('ilustracja jest dostawą: Kuro i Shiro mają opisy, źródła i powiązani
     assert.deepEqual(page.mechy, ['cybuster']);
     assert.equal(page.seria, 'super-robot-wars-original');
     assert.equal(page.pochodzenie, 'zrodlo');
-    assert.match(page.body, /## Opis/);
+    assert.match(page.body, /\{\{[^\n]+\n\n(?!## )/, 'boks opisowy bez tytułu');
     assert.match(page.body, /\{\{zrodlo/);
     assert.match(page.body, /sprawdzono 2026-10-19/);
     assert.match(page.body, /\[\[masaki-andoh\|/);

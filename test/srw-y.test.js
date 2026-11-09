@@ -35,12 +35,14 @@ const SERIE = [
   'ssss-dynazenon', 'code-geass-lelouch-of-the-re-surrection',
   'code-geass-lelouch-of-the-rebellion-iii-glorification',
 ];
+const POSTACIE_Z_PROLOGU = [
+  'heero-yuy', 'duo-maxwell', 'quatre-raberba-winner', 'trowa-barton',
+  'nunnally-vi-britannia', 'tetsuya-tsurugi', 'chizuru-nambara', 'hyoma-aoi',
+];
 const POJECIA = [
   'wojna-rewolucyjna', 'nowa-federacja-ziemska', 'val-x', 'logos',
   'czarni-rycerze', 'ninja', 'statek-emigracyjny', 'nira-kana-i',
   'pamiec-stg', 'teoria-y', 'miasto-yagami', 'mechaniczne-marionetki',
-  'heero-yuy', 'duo-maxwell', 'quatre-raberba-winner', 'trowa-barton',
-  'nunnally-vi-britannia', 'tetsuya-tsurugi', 'chizuru-nambara', 'hyoma-aoi',
 ];
 const POSTACIE_Z_DIALOGU = {
   Agent: 'agent',
@@ -79,7 +81,7 @@ const STARE_SCENY = [
   'srw-y-ep1-rdzen-nira-kana-i',
 ];
 
-for (const slug of ['srw-y', 'srw-y-ep1', ...POSTACIE, ...MECHY, ...SERIE, ...POJECIA, SCENA]) {
+for (const slug of ['srw-y', 'srw-y-ep1', ...POSTACIE, ...POSTACIE_Z_PROLOGU, ...MECHY, ...SERIE, ...POJECIA, SCENA]) {
   test(`SRW Y: istnieje strona ${slug}`, () => {
     assert.ok(bySlug.has(slug), slug);
   });
@@ -98,7 +100,7 @@ test('SRW Y: epizod wskazuje grę, skrypt i komplet dostarczonych relacji', () =
   assert.equal(epizod.gra, 'srw-y');
   assert.equal(epizod.numer, 1);
   assert.equal(epizod.skrypt, 'episodes/srw-y/ep001.md');
-  assert.deepEqual(epizod.postacie, POSTACIE);
+  assert.deepEqual(epizod.postacie, [...POSTACIE, ...POSTACIE_Z_PROLOGU]);
   assert.deepEqual(epizod.mechy, MECHY);
   for (const slug of [...SERIE, ...POJECIA]) assert.ok(epizod.serie?.includes(slug) || epizod.pojecia?.includes(slug), slug);
   assert.doesNotMatch(skrypt, /UCZESTNICY/);
@@ -137,7 +139,7 @@ test('SRW Y: wszystkie profile mechów zachowują dane menu pod zakresem srw-y',
 });
 
 test('SRW Y: relacje encji prowadzą do epizodu, scen i serii', () => {
-  for (const slug of [...POSTACIE, ...MECHY]) {
+  for (const slug of [...POSTACIE, ...POSTACIE_Z_PROLOGU, ...MECHY]) {
     const strona = bySlug.get(slug);
     assert.ok(strona.gry.includes('srw-y'), `${slug}: gra`);
     assert.ok(strona.body.includes('gra=srw-y'), `${slug}: zakres bloków`);
@@ -176,13 +178,13 @@ test('SRW Y: wszyscy mówcy sceny 1-1C są rozliczeni w obsadzie, hasłach wiki 
 
 test('SRW Y: opisy encyklopedyczne są widoczne w Markdown, a brakujące pozostają puste', () => {
   for (const slug of MECHY) {
-    assert.match(bySlug.get(slug).body, /## Charakterystyka\n\n\S/, `${slug}: opis mecha`);
+    assert.match(bySlug.get(slug).body, /\{\{menu gra=srw-y\n\n(?!## )\S/, `${slug}: opis mecha`);
   }
   for (const slug of POSTACIE.filter((x) => !['agent', 'zaawansowana-si', 'mobile-doll'].includes(x))) {
-    assert.match(bySlug.get(slug).body, /## Charakterystyka\n\n\S/, `${slug}: opis postaci`);
+    assert.match(bySlug.get(slug).body, /\{\{menu gra=srw-y\n\n(?!## )\S/, `${slug}: opis postaci`);
   }
   for (const slug of ['agent', 'zaawansowana-si', 'mobile-doll']) {
-    assert.doesNotMatch(bySlug.get(slug).body, /## Charakterystyka/, `${slug}: nie dopisano niekanonicznego opisu`);
+    assert.doesNotMatch(bySlug.get(slug).body, /\{\{menu gra=srw-y\n\n(?!## )\S/, `${slug}: nie dopisano niekanonicznego opisu`);
   }
 });
 

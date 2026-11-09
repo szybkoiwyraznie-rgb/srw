@@ -167,7 +167,7 @@ test('strony misji nie ujawniają etykiet technicznych ani przyszłych walk', ()
   assert.match(episode.body, /odc\. 32 „Breakthrough”/);
   assert.doesNotMatch(scene.body, /A Baoa Qu|Solar Ray|Kolonia Axis/);
   // Opis nie przesądza losu Drena: scenariusz kończy się na zniszczeniu jego floty.
-  const opisDrena = bySlug.get('dren').body.match(/^## Opis\n([\s\S]*?)(?=^## |^\}\})/m)[1];
+  const opisDrena = bySlug.get('dren').body.match(/^\{\{[^\n]+\n\n([\s\S]*?)^\}\}/m)[1];
   assert.doesNotMatch(opisDrena, /zginął|ginie|śmierć/);
 });
 

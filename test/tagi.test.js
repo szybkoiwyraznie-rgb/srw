@@ -25,7 +25,7 @@ const tagi = (s) => s.tagi ?? [];
 const RODZAJE_TRESCI = new Set([
   'technologia', 'organizacja', 'miejsce', 'jednostka-wojskowa', 'panstwo', 'najazd',
   'wydarzenie', 'era', 'czas-akcji', 'taktyka', 'traktat-wojenny', 'zjawisko',
-  'odznaczenie', 'postac-z-innej-serii',
+  'odznaczenie', 'postac-z-innej-serii', 'postac-wspominana',
 ]);
 
 const RODZAJE_JEDNOSTEK = ['mobile-suit', 'mobile-armor', 'labor', 'okret', 'mysliwiec', 'super-robot', 'pojazd-wsparcia', 'pocisk', 'bezzalogowy'];

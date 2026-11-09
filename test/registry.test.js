@@ -50,9 +50,12 @@ test('źródło musi być adresem http(s)', () => {
   assert.ok(problemy.some((x) => /nie jest adresem http/.test(x)));
 });
 
-test('brak obowiązkowej sekcji to problem', () => {
-  const problemy = walidujStrone(strona({ seria: 'mobile-suit-gundam-1979', body: 'tekst bez sekcji' }), ctxZ([seria]));
-  assert.ok(problemy.some((p) => /brak obowiązkowej sekcji "## Opis"/.test(p)));
+test('brak treści opisowej poza boksami to problem (ADR 0035)', () => {
+  const problemy = walidujStrone(strona({
+    seria: 'mobile-suit-gundam-1979',
+    body: '## Ilustracje\n\n![x](y)\n\n## Parametry\n\n| a | b |\n',
+  }), ctxZ([seria]));
+  assert.ok(problemy.some((p) => /brak treści opisowej poza boksami Ilustracje\/Parametry/.test(p)));
 });
 
 test('zły slug, zły typ, zły status to problemy', () => {

@@ -213,7 +213,7 @@ test('nowe hasła i seria opisują świat epizodu 1', () => {
     const page = bySlug.get(slug);
     assert.equal(page.typ, 'pojecie', slug);
     assert.ok((page.tagi ?? []).length > 0, `${slug}: hasło ma tagi (ADR 0033)`);
-    assert.match(page.body, /## Opis/, slug);
+    assert.match(page.body, /\{\{[^\n]+\n\n(?!## )/, `${slug}: boks opisowy bez tytułu`);
   }
   assert.match(bySlug.get('labor').body, /Policja Metropolitalna Tokio/);
   assert.match(bySlug.get('sv2').body, /Drugi Pluton/);

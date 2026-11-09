@@ -28,7 +28,8 @@ test('Jaburo opisuje desant 2-4 i szturm Apsalusa', () => {
   assert.match(p.body, /\[\[13-samodzielny-oddzial\|13\. Samodzielny Oddział\]\]/);
   assert.match(p.body, /doki i port ocalają/);
   assert.match(p.body, /zostaje w bazie na naprawy/);
-  assert.equal((p.body.match(/^## Opis$/gm) ?? []).length, 1);
+  assert.match(p.body, /\{\{[^\n]+\n\n(?!## )/, 'jeden boks opisowy bez tytułu');
+  assert.doesNotMatch(p.body, /^## Opis$/m, 'tytuły boksów opisowych zniesione (ADR 0035)');
   assert.match(p.body, /\{\{zrodlo gra=wspolne\n\nJaburo to rozległy kompleks/);
   assert.ok(p.zrodla.includes('https://gundam.fandom.com/wiki/Jaburo'));
 });

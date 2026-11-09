@@ -172,7 +172,7 @@ test('strony misji nie ujawniają etykiet technicznych ani przyszłych walk', ()
   assert.match(episode.body, /odc\. 31 „A Decoy in Space”/);
   assert.doesNotMatch(scene.body, /A Baoa Qu|Solar Ray|Kolonia Axis|Zeong/);
   // Los pilota Bigro zostaje otwarty: Char życzy mu ucieczki.
-  const opisTokwana = bySlug.get('tokwan').body.match(/^## Opis\n([\s\S]*?)(?=^## |^\}\})/m)[1];
+  const opisTokwana = bySlug.get('tokwan').body.match(/^\{\{[^\n]+\n\n([\s\S]*?)^\}\}/m)[1];
   assert.doesNotMatch(opisTokwana, /zginął|ginie|śmierć/);
 });
 

@@ -264,20 +264,33 @@ test('epizod: nawiązania są częścią boksy „Postacie i maszyny”, nie oso
   assert.match(html, /<h3>Nawiązania<\/h3>/, 'nawiązania jako podsekcja w boksie');
 });
 
-test('encje: opis, ilustracje i parametry w osobnych boksach, we właściwej kolejności', () => {
-  const encje = Object.values(globalThis.SRW_DATA.strony).filter((s) => s.typ === 'mech' || s.typ === 'postac');
-  assert.ok(encje.length > 40, 'baza ma encje obu typów');
+test('encje: opisy gier, opis neutralny, ilustracje i parametry — w tej kolejności (ADR 0035)', () => {
+  const typy = ['gra', 'postac', 'mech', 'pojecie', 'seria'];
+  const encje = Object.values(globalThis.SRW_DATA.strony).filter((s) => typy.includes(s.typ));
+  assert.ok(encje.length > 150, 'baza ma strony encji');
+  const opisowe = /^Opis(\s*[—–-]\s*.+)?$|^Charakterystyka$|^W Super Robot Wars OE$/;
   for (const p of encje) {
     const html = renderEncja(p.slug);
-    const kawalki = html.split('<div class="fragment');
-    const boks = (tytul) => kawalki.findIndex((k) => k.includes(`<h2>${tytul}</h2>`));
-    const [opis, ilustracje, parametry] = ['Opis', 'Ilustracje', 'Parametry'].map(boks);
-    assert.ok(opis >= 0, `${p.slug}: brak opisu`);
-    assert.notEqual(opis, parametry, `${p.slug}: opis i parametry nie dzielą boksy`);
-    if (ilustracje >= 0 && parametry >= 0) {
-      assert.ok(opis < ilustracje && ilustracje < parametry,
-        `${p.slug}: kolejność opis → ilustracje → parametry`);
+    const kawalki = html.split('<div class="fragment').slice(1);
+    assert.ok(kawalki.length > 0, `${p.slug}: strona ma boksy`);
+    let poprzedni = 0;
+    let maOpis = false;
+    for (const k of kawalki) {
+      const poziomGry = /poziom-(skrypt|menu)/.test(k.slice(0, 120));
+      const h2 = k.match(/<h2>([^<]+)<\/h2>/)?.[1]?.trim() ?? null;
+      assert.ok(!h2 || !opisowe.test(h2),
+        `${p.slug}: tytuł boksu opisowego „${h2}” zastąp plakietką gry`);
+      let ranga;
+      if (h2 === null) ranga = poziomGry ? 1 : 2;
+      else if (h2.startsWith('Ilustracje')) ranga = 3;
+      else if (h2.startsWith('Parametry')) ranga = 4;
+      else ranga = 2;
+      if (ranga <= 2) maOpis = true;
+      assert.ok(ranga >= poprzedni,
+        `${p.slug}: kolejność boksów (1 opisy gier → 2 neutralne → 3 ilustracje → 4 parametry), „${h2}” po ${poprzedni}`);
+      poprzedni = ranga;
     }
+    assert.ok(maOpis, `${p.slug}: brak treści opisowej`);
   }
 });
 
