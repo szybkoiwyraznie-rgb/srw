@@ -16,8 +16,6 @@ utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Robot bojowy [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]], którym w [[srw-oe|Super Robot Wars OE]] dowodzi [[jin-hyuga|Jin Hyuga]]. Miejsce w kabinie mają też [[asuka-tsukishiro|Asuka Tsukishiro]] i [[koji-hoshiyama|Koji Hoshiyama]].
 
 Podczas wspólnych ćwiczeń z [[connect-force|Connect]] Raijin-Oh walczy ramię w ramię z [[exart|Exartem]] przeciw Brockenom treningowym. Ćwiczenie uczy wykorzystania terenu: zrzucenie celu z wysokości zadaje mu dodatkowe obrażenia. Maszyna odzyskuje EN w każdej turze i blokuje ciosy tarczą, a przy wysokim morale może się połączyć w [[god-raijin-oh|God Raijin-Oh]].
@@ -27,6 +25,13 @@ Raijin Claw przebija się przez wrogów w zasięgu i rusza dalej, Raijin Boomera
 Podczas [[srw-oe-ep1-szalejacy-labor-powraca|obrony wielkiego placu budowy]] przybywa na pomoc dwóm Ingramom. [[kanuka-clancy|Kanuka]] mobilizuje policjantów, by nie dali się wyprzedzić Klasie Obrony, a [[asuka-tsukishiro|Asuka]] ostrzega [[jin-hyuga|Jina]], by nie zaatakował policyjnych Laborów przez pomyłkę.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] startuje razem z [[go-saurer|Go-Saurerem]], gdy naradę o wspólnych ćwiczeniach z [[saurersi|Saurersami]] w [[akademia-hinobori|Akademii Hinobori]] przerywa alarm o wykryciu [[mechabestia|mechabestii]], i u boku [[connect-force|Connect]], [[shin-getter-1|Shin Gettera-1]], [[mazinger-z|Mazingera Z]] oraz [[gurren-lagann|Gurren Laganna]] niszczy podziemne bramy [[mucus|Mucus]].
+}}
+
+{{zrodlo gra=wspolne
+
+## Pierwowzór
+
+Raijin-Oh (ライジンオー) to tytułowy robot serialu *Zettai Muteki Raijin-Oh* z 1991 roku. W oryginale powstaje z trzech maszyn — Ken-Oh, Hou-Oh i Juu-Oh — z których każdą pilotuje jedno z dzieci Klasy Obrony Ziemi ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 }}
 
 {{menu gra=srw-oe
@@ -65,12 +70,4 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] startuje raz
 | 2 | Raijin Sword | 3100 | 1–2 | +35 | 5 | — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
 | 3 | Raijin Flash | 3600 | 1–3 | +10 | 20 | 105 | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia |
 | 4 | God Thunder Crash | 5600 | 1–1 | +20 | 50 | 115 | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
-
-}}
-
-{{zrodlo gra=wspolne
-
-## Pierwowzór
-
-Raijin-Oh (ライジンオー) to tytułowy robot serialu *Zettai Muteki Raijin-Oh* z 1991 roku. W oryginale powstaje z trzech maszyn — Ken-Oh, Hou-Oh i Juu-Oh — z których każdą pilotuje jedno z dzieci Klasy Obrony Ziemi ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 }}

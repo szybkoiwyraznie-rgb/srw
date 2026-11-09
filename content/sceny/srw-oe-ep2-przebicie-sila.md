@@ -40,39 +40,22 @@ Plan zakładał zwabienie patroli Zeonu, a potem połączenie się z Connect i z
 ### Zanzibar — po opuszczeniu atmosfery
 
 **Żołnierz Zeonu:** Mamy przewidywany kurs konia trojańskiego. Jeśli go utrzyma, poleci na Księżyc.
-
 **Oficer Zeonu:** Na Księżyc? Do bazy Granada lady Kycilii?!
-
 **Char:** Wątpię... Daliśmy się nabrać.
-
 **Char:** Koń trojański to przynęta. Główna flota właśnie teraz startuje z Jaburo.
-
 **Oficer Zeonu:** W takim razie zawracamy i ruszamy za...
-
 **Char:** Mówisz poważnie? Jeśli odwrócimy się plecami, koń trojański uderzy.
-
 **Char:** Jakie floty są w pobliżu?
-
 **Żołnierz Zeonu:** Powinna tu być Patrolowa Flota Camel. Otwieram kanał.
-
 **Dren:** Och, kopę lat, panie komandorze podporuczniku! ...A nie, teraz już pan komandor, prawda?
-
 **Char:** Dobrze wyglądasz, Dren. Znów potrzebuję twojej pomocy.
-
 **Dren:** Jeśli tylko leży to w mojej mocy...
-
 **Char:** Ścigam konia trojańskiego. Twoja flota jest w idealnym miejscu, by odciąć mu drogę.
-
 **Dren:** Widać jesteśmy skazani na ten okręt...
-
 **Dren:** Rozumiem. Ale czy zdąży pan nas dogonić?
-
 **Char:** Za kogo ty mnie masz, Dren?
-
 **Dren:** Najmocniej przepraszam, komandorze! W kosmosie naprawdę bardziej panu do twarzy.
-
 **Char:** Heh... Pochlebstwa?
-
 **Dren:** Ha-ha-ha-ha-ha! Zatem do zobaczenia!
 :::
 
@@ -80,39 +63,22 @@ Plan zakładał zwabienie patroli Zeonu, a potem połączenie się z Connect i z
 ### White Base / Mostek
 
 **Amuro:** Jaka jest sytuacja?
-
 **Oscar:** Okręt Zeonu ścigający nas od Ziemi to potwierdzony okręt typu Zanzibar.
-
 **Marker:** Na pewno jest tylko jeden!
-
 **Sayla:** Jeden... To Char.
-
 **Mirai:** Char...?
-
 **Amuro:** Tak... To do niego podobne.
-
 **Bright:** Co z rozpoznaniem przed nami?
-
 **Marker:** Potwierdzam trzy wrogie okręty. Typ Musai.
-
 **Bright:** Zanzibar Chara z tyłu... Flota Musai z przodu...
-
 **Shiro:** Ez8 i Gundamy lądowe nie mogą walczyć w kosmosie. Walka z obiema stronami naraz będzie ciężka...
-
 **Amuro:** Racja...
-
 **Mirai:** Jeśli połączymy się z Connect przed walką z Charem, może jakoś damy radę?
-
 **Bright:** Czyli lepiej przebić się siłą przez wroga przed nami...
-
 **Bright:** Wszyscy na stanowiska! Przebijamy się przez Musai i gubimy Zanzibar!
-
 **Bright:** Najpierw zniszczyć Musai przed nami! Rozbijamy tę flotę i wyrywamy się stąd!
-
 **Bright:** Mamy pięć minut! Jeśli do tego czasu ich nie zniszczymy, Zanzibar weźmie nas w kleszcze!
-
 **Bright:** White Base podejdzie bliżej i otworzy ogień! Mobile suity startują według własnego uznania!
-
 **Amuro:** Kosmos... Wróciłem...
 :::
 
@@ -120,27 +86,16 @@ Plan zakładał zwabienie patroli Zeonu, a potem połączenie się z Connect i z
 #### Dialogi bojowe — warunkowe i sytuacyjne
 
 > **Dren:** Przeklęty Gundam...! Nie przejdziesz, zanim nie zjawi się komandor Char!
-
 > **Amuro:** Jeśli nas tu zatrzymają, White Base wpadnie w kleszcze...! Muszę ich zestrzelić, choćby nie wiem co!
-
 > **Dren:** Sama ilość strzałów nic nie da! Celujcie starannie!
-
 > **Dren:** Dobijmy konia trojańskiego, nim zjawi się komandor!
-
 > **Bright:** Zniszczymy tego Musai! Celujcie w silniki albo mostek!
-
 > **Bright:** Mirai, uniki zostawiam tobie!
-
 > **Mirai:** Tak jest!
-
 > **Kai:** Przeklęta spódniczka! Niech podleci bliżej...
-
 > **Kai:** Tutaj! Masz, maaasz!
-
 > **Hayato:** No to jazda...! Udowodnię, że Guntank da radę i w kosmosie!
-
 > **Sayla:** Moja pierwsza walka w kosmosie... Jeśli nie będę uważać, oddalę się od skrzydłowych, nawet tego nie zauważając...
-
 > **Sayla:** Jest ich więcej. Jeśli damy się rozproszyć, przegramy walkę, którą mogliśmy wygrać.
 :::
 
@@ -148,9 +103,7 @@ Plan zakładał zwabienie patroli Zeonu, a potem połączenie się z Connect i z
 ### Przebicie przez flotę Camel
 
 **Dren:** N-niemożliwe! Nawet takimi siłami nie zdołamy ich zatrzymać?!
-
 **Marker:** Siły wroga zniszczone!
-
 **Bright:** Dobrze, utrzymać kurs! Maksymalna prędkość bojowa, uciekamy stąd!
 :::
 
@@ -158,15 +111,10 @@ Plan zakładał zwabienie patroli Zeonu, a potem połączenie się z Connect i z
 ### Zanzibar — w pościgu
 
 **Żołnierz Zeonu:** Flota Camel... została zniszczona.
-
 **Char:** Nawet Dren nie zdołał się utrzymać do mojego przybycia...
-
 **Żołnierz Zeonu:** Koń trojański ucieka z pełną prędkością. Ścigamy?
-
 **Char:** Oczywiście.
-
 **Char:** To nasze podwórko... Bez łatwego dostępu do zaopatrzenia koń trojański nie może przyspieszać w nieskończoność.
-
 **Char:** Dogonimy konia trojańskiego!
 :::
 
@@ -174,15 +122,10 @@ Plan zakładał zwabienie patroli Zeonu, a potem połączenie się z Connect i z
 ### White Base — w drodze
 
 **Mirai:** Dobra robota, wszyscy.
-
 **Amuro:** Zanzibar wciąż nas ściga?
-
 **Bright:** Trzyma dystans... W stylu Chara. Nie możemy tracić czujności.
-
 **Shiro:** Kiedy połączymy się z Connect, wyjdziemy spod jurysdykcji Federacji. Wtedy Charowi trudniej będzie zaatakować.
-
 **Mirai:** Wątpię, żebyśmy tak łatwo zgubili Chara.
-
 **Bright:** Lepiej przygotujmy się na jeszcze jedną walkę.
 
 Przebiwszy się przez Patrolową Flotę Camel, White Base pospieszył na spotkanie z Connect.

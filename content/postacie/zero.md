@@ -10,17 +10,19 @@ pochodzenie: menu
 tagi: [srw-y, pilot, code-geass]
 utworzono: 2026-11-09
 ---
-{{skrypt gra=srw-y
-
-## Opis
-
-Zamaskowany doradca Czarnych Rycerzy. W tej historii jest Suzaku Kururugim, który po śmierci Leloucha chroni pokój i przybywa do Japonii, by zbadać ślady [[logos|Logosu]].
-}}
 {{menu gra=srw-y
 
-## Charakterystyka
-
 Główny doradca Czarnych Rycerzy. W czarnym Knightmare Frame walczy, by wykorzenić terroryzm i konflikty. Naprawdę to Suzaku, który spełnia życzenie Leloucha.
+}}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Zero — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Zero.png)
+}}
+
+{{menu gra=srw-y
 
 ## Parametry
 

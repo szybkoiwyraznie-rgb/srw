@@ -54,11 +54,8 @@ Nie wiedząc, kiedy uderzy następne zagrożenie, ludzie żyją w niepokoju - al
 ### U.C. 0079, okolice Ziemi, strefa neutralna
 
 **Seishiro:** *(Pracuję teraz w Connect, prywatnej organizacji rozwijającej handel kosmiczny...)*
-
 **Seishiro:** *(Firmę Connect zna każdy, ale mało kto wie, jak powstała i jaki jest jej prawdziwy cel...)*
-
 **Seishiro:** *(Ziemianie tyle razy otarli się o zagładę ludzkości, że poczynania jakiejś firmy pewnie zupełnie ich nie interesują.)*
-
 **Seishiro:** *(Ale to dobrze. Jeśli osiągniemy nasz cel tak, by nikt się o tym nie dowiedział, tym lepiej...)*
 
 ## Szkolenie podstawowe
@@ -66,225 +63,129 @@ Nie wiedząc, kiedy uderzy następne zagrożenie, ludzie żyją w niepokoju - al
 ### Stacja Connect
 
 **Seishiro:** No dobrze, czas na trening.
-
 **Himari:** Ehem! Próba mikrofonu, raz, dwa, trzy!
-
 **Himari:** Seishiro, słyszysz mnie?
-
 **Seishiro:** Słyszę cię dobrze! Zaczynajmy misję.
-
 **Himari:** Katapulta podłączona! Exart, możesz startować!
-
 **Seishiro:** Przyjąłem!
-
 **Seishiro:** CF-00 Exart, startuję!
 
 ### Ćwiczenia treningowe
 
 **Himari:** Dziś przetestujesz manewry bojowe z nowo zamontowanym układem sterowania.
-
 **Himari:** Najpierw wykonaj 'Ruch' na wyznaczony obszar.
-
 **Seishiro:** Przyjąłem! Wykonuję 'Ruch' do celu!
-
 **Himari:** Wyświetlam wyznaczony obszar.
-
 **Seishiro:** Cel potwierdzony! Rozpoczynam 'Ruch'.
 
 #### Dialogi warunkowe — korekty kursu
 
 > **Himari:** Oddalasz się od celu. Kieruj się od razu do wyznaczonego obszaru.
-
 > **Seishiro:** Żadnego zwiedzania, co?
-
 > **Himari:** Poruszanie się zużywa 'EN'. Bez 'EN' nie będzie ani ruchu, ani walki.
-
 > **Seishiro:** Zaraz potem czekają mnie manewry bojowe. Oszczędzę 'EN' i polecę najkrótszą trasą.
-
 > **Himari:** Świetnie, liczę na to.
 
 #### Dialogi warunkowe — zdalne wskazówki
 
 > **Himari:** To nie jest najkrótsza trasa. Przejmuję zdalne sterowanie, przenoszę cię.
-
 > **Seishiro:** Dobrze, Himari. Trafna decyzja.
-
 > **Himari:** Naprawdę? Hehe...
-
 > **Seishiro:** Nie trać czujności. Odrobina napięcia zawsze się przyda.
-
 > **Himari:** Ach... Tak jest!
-
 > **Himari:** Przenoszę Exarta zdalnie na wyznaczony obszar.
 
 #### Zaopatrzenie i części
 
 **Himari:** Potwierdzam dotarcie do wyznaczonego obszaru.
-
 **Himari:** Teraz leć do drugiego celu po 'Zaopatrzenie' i uzupełnij 'EN'.
-
 **Himari:** "Gdy dotrzesz na pole z 'Zaopatrzeniem', maszyna sama je wykryje i zabierze."
-
 **Seishiro:** Przyjąłem! Wykonuję 'Ruch' na pole z 'Zaopatrzeniem', potem uzupełniam EN.
-
 **Seishiro:** EN uzupełnione!
-
 **Himari:** Teraz zbierzemy 'Części'.
-
 **Himari:** Rozmieszczam kontenery.
-
 **Himari:** "Gdy dotrzesz na pole z 'Kontenerem', maszyna sama zabierze 'Części'."
-
 **Seishiro:** Przyjąłem! Wykonuję 'Ruch' na pole z 'Kontenerem', potem zbieram 'Części'.
-
 **Seishiro:** Części zebrane!
-
 **Seishiro:** To zestaw do doraźnej naprawy uszkodzeń. Warto go mieć, gdy zrobi się gorąco.
 
 #### Trening walki
 
 **Himari:** Przechodzimy do manewrów bojowych.
-
 **Himari:** Wyświetlam symulowanych przeciwników.
-
 **Seishiro:** Wróg namierzony!
-
 **Seishiro:** Hm... Wcale nie wygląda jak symulacja.
-
 **Himari:** System został niedawno zaktualizowany.
-
 **Himari:** Maszyna odczuwa teraz nawet wstrząsy trafień, więc walka ma być podobno jak prawdziwa.
-
 **Seishiro:** No, to zapowiada się ciekawie.
-
 **Seishiro:** Rozpoczynam 'Atak'!
-
 **Himari:** Cel ćwiczebny zestrzelony!
-
 **Himari:** Dalej. Zniszcz kolejne cele.
-
 **Himari:** Razem z celami rozmieszczę też kontenery. Jeśli chcesz zebrać 'Części', zrób to, zanim zniszczysz wszystkie cele.
-
 **Seishiro:** Cel potwierdzony! Kontynuuję walkę!
-
 **Seishiro:** Wszystkie cele zestrzelone!
-
 **Himari:** To koniec dzisiejszej misji. Dobra robota!
-
 **Seishiro:** Himari, nabierasz wprawy jako operatorka.
-
 **Himari:** Co? Naprawdę? Ciągle jeszcze strasznie się denerwuję...
-
 **Seishiro:** Hahaha! Pierwszego dnia miałem wątpliwości.
-
 **Himari:** N-nie przypominaj mi o tym!
 
 ### Kilka dni wcześniej...
 
 **Himari:** Łaaał... Co za niesamowity robot...!
-
 **Seishiro:** Stój! Wstęp do hangaru Exarta mają tylko uprawnieni. Jak tu weszłaś?
-
 **Himari:** Ojej, przepraszam! Przeniesiono mnie z 44. Działu Administracji.
-
 **Himari:** Jestem w firmie pierwszy rok. Bardzo mi miło!
-
 **Seishiro:** To ty jesteś...? Nowy członek Connect Force?
-
 **Himari:** Tak! Nazywam się Himari Yaegaki. Pochodzę z Japonii, studiowałam inżynierię.
-
 **Seishiro:** Rozumiem. Miło cię pozn...
-
 **Himari:** Wiele osób mówi, że nie wyglądam na ścisłowca, ale przeskakiwałam klasy i mam już magisterkę!
-
 **Seishiro:** Rozumiem. To wyjaś...
-
 **Himari:** Uwielbiam yakiniku, ramen i bufety deserowe. A do deseru najlepiej pasuje... oczywiście karmelowe macchiato!
-
 **Himari:** Aha, w zeszłym tygodniu było szkolenie pilotów i operatorów, a ja... nie mam nawet prawka. Myślisz, że dam radę...?
-
 **Seishiro:** Eee... Chwileczkę...
-
 **Himari:** Myślę, że z większością rzeczy sobie poradzę, tylko zimna jakoś nie znoszę...
-
 **Himari:** Za to kąpiele uwielbiam! A poza tym...
-
 **Seishiro:** W-wystarczy!
-
 **Himari:** Ach... Przepraszam!
-
 **Himari:** Za dużo gadam, prawda...?
-
 **Seishiro:** Jesteśmy Connect Force. Innymi słowy, oddział bojowy. Na misji gadulstwo bywa zabójcze. Uważaj.
-
 **Himari:** Rozumiem... Będę uważać.
-
 **Seishiro:** I dobrze.
-
 **Himari:** Ee, mogę zadać jedno pytanie?
-
 **Himari:** Powiedziałeś przed chwilą "oddział bojowy", ale czym my się właściwie zajmujemy?
-
 **Himari:** Przy przenosinach nic mi nie powiedziano...
-
 **Seishiro:** Tak jak mówię: liczymy się z walką.
-
 **Seishiro:** Ten robot przed tobą nie służy do pracy. To najnowocześniejsza broń na każdą misję.
-
 **Himari:** Broń...?
-
 **Himari:** Cooo?! Po co prywatnej firmie broń?!
-
 **Seishiro:** Każdy, kto tu trafia, reaguje tak samo...
-
 **Seishiro:** Ale gdy poznasz nasz cel, przekonasz się, że to najlepsza praca w całym Connect.
-
 **Himari:** Naprawdę?
-
 **Himari:** Ale kiedy mówisz to z takim przekonaniem, od razu mam więcej zapału!
-
 **Seishiro:** Masz predyspozycje. Wybrano cię spośród setek tysięcy kandydatów.
-
 **Himari:** Czyżbym była wybranką losu?!
-
 **Himari:** Oj tam, no nie wiem, nie wiem...
-
 **Seishiro:** Na razie szkolimy się do prawdziwej walki, ale nigdy nie wiadomo, co się wydarzy.
-
 **Seishiro:** Każdy dzień się liczy. Daj z siebie wszystko!
-
 **Himari:** Tak! Postaram się!
 
 ### Stacja Connect / Hangar
 
 **Seishiro:** *(Nie sądziłem, że dostanę świeżą absolwentkę. Liczyłem na doświadczoną operatorkę...)*
-
 **Seishiro:** *(Akurat ten projekt raczej nie cierpi na brak ludzi...)*
-
 **Himari:** Witaj z powrotem!
-
 **Seishiro:** Dobra robota, Himari.
-
 **Seishiro:** Prześlij dane do działu analiz w centrali. Wiesz, jak to zrobić?
-
 **Himari:** Dane... ee... jak to się...?
-
 **Seishiro:** Nikt cię nie przeszkolił?
-
 **Himari:** Przepraszam, jeszcze się tego nie nauczyłam...
-
 **Seishiro:** Widzę, że wiele jeszcze muszę cię nauczyć. Wytłumaczę ci, jak to się robi.
-
 **Himari:** Przepraszam. Przeze mnie musisz zostać po godzinach.
-
 **Seishiro:** Nie przejmuj się tym.
-
 **Seishiro:** Ta praca to naprawdę kwestia życia i śmierci. Proszę, traktuj ją poważnie.
-
 **Himari:** Tak jest!
-
 **Seishiro:** *(Przydział Himari to decyzja organizacji. Musi więc być niezbędna dla projektu.)*
-
 **Seishiro:** *(Cóż, czego nie wie, tego ją nauczę. Liczy się to, jak zgra się z zespołem.)*
 :::
 

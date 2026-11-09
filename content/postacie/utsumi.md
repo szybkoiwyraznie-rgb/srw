@@ -13,8 +13,6 @@ utworzono: 2026-10-24
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Obserwator działający wspólnie z [[kurosaki|Kurosakim]] i [[badrinath-harchand|Budem]]. Po [[srw-oe-ep1-szalejacy-labor-powraca|walce na wielkim placu budowy]] nazywa ją wspaniałym wydarzeniem, bo pozwoliła zobaczyć Ingramy w akcji, nie tylko na monitorze.
 
 Zgadza się z Budem, że coraz lepsze ruchy maszyny [[noa-izumi|Noi]] wynikają z jej zaufania do jednostki. Narastające możliwości Drugiego Plutonu ocenia jako sprawę coraz bardziej interesującą.
@@ -34,5 +32,4 @@ W [[mobile-police-patlabor|pierwowzorze]] Utsumi, znany także jako Richard Wong
 ### Ilustracja 1
 
 ![Utsumi — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Utsumi.png)
-
 }}

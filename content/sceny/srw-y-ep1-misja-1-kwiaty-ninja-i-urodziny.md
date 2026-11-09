@@ -5,9 +5,9 @@ tytul: "Kwiaty, ninja i urodziny"
 epizod: srw-y-ep1
 numer_sceny: 1-1C
 streszczenie: Prolog i pierwsza scena gry łączą paradę kończącą wojnę rewolucyjną, atak VAL-X na miasto Yagami, start A. Adventu, ujawnienie NINJA oraz pierwsze wyjaśnienie Systemu Nira-Kana-I.
-postacie: [agent, annina-servania, baku-yamagishi, echika-y-franburnett, forte-tsukinowa, gauma, zaawansowana-si, cross-tsukinowa, mobile-doll, takuma-nagare, chang-wufei, yomogi-asanaka, zero, aytie, cookie, wren]
+postacie: [agent, annina-servania, baku-yamagishi, echika-y-franburnett, forte-tsukinowa, gauma, zaawansowana-si, cross-tsukinowa, mobile-doll, takuma-nagare, chang-wufei, yomogi-asanaka, zero, aytie, cookie, wren, heero-yuy, duo-maxwell, quatre-raberba-winner, trowa-barton, nunnally-vi-britannia, tetsuya-tsurugi, chizuru-nambara, hyoma-aoi]
 mechy: [altron-gundam, amx-003-gaza-c, a-advent, lunedrache, lancelot-albion-zero, lumenus, taurus, zamza-zah]
-pojecia: [wojna-rewolucyjna, nowa-federacja-ziemska, val-x, logos, czarni-rycerze, ninja, statek-emigracyjny, nira-kana-i, pamiec-stg, teoria-y, miasto-yagami, mechaniczne-marionetki, heero-yuy, duo-maxwell, quatre-raberba-winner, trowa-barton, nunnally-vi-britannia, tetsuya-tsurugi, chizuru-nambara, hyoma-aoi]
+pojecia: [wojna-rewolucyjna, nowa-federacja-ziemska, val-x, logos, czarni-rycerze, ninja, statek-emigracyjny, nira-kana-i, pamiec-stg, teoria-y, miasto-yagami, mechaniczne-marionetki, kamille-bidan, haman-karn, gilbert-dullindal, milliardo-peacecraft, treize-khushrenada, lelouch-vi-britannia, chikara-jinguji, akira-hibiki, barao, imperium-yoma]
 sekcje_analizy:
   - Parada cesarza Leloucha → Parada cesarza Leloucha
   - Atak na miasto Yagami → Rezydencja Franburnettów
@@ -15,6 +15,9 @@ sekcje_analizy:
   - NINJA w cieniu → Rezydencja Franburnettów
   - Rdzeń Nira-Kana-I → A. Advent - rdzeń Systemu Nira-Kana-I
 pochodzenie: skrypt
+zrodla:
+  - https://geass.miraheze.org/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2
+  - https://34.suparobo.jp/character/chara16/
 tagi: [srw-y, scena, misja-1, wojna-rewolucyjna, a-advent]
 utworzono: 2026-11-09
 ---
@@ -166,57 +169,41 @@ Minął rok od zamachu na cesarza Leloucha. Ja… Echika Y. Franburnett, kończ�
 > **Annina Servania:** Najpewniej to VAL-X, grupa, której działalność odnotowano na całym świecie!
 > **Echika Y. Franburnett:** VAL-X… Ci, którzy głoszą zwycięstwo, anarchię, wyzwolenie i nieznane…
 > **Annina Servania:** Terroryści, o których nie wiadomo nic: ani jaki mają cel, ani jak są liczni, ani kto do nich należy.
-
 > **Yomogi Asanaka:** A-aaaa!!
 > **Takuma Nagare:** Co to, do diabła, za jedni?!
 > **Echika Y. Franburnett:** Atakują miasto na oślep… Czyżby to rzeczywiście VAL-X…?
 > **Annina Servania:** P-proszę posłuchać! Czy to ma być ten prezent urodzinowy?!
 > **Annina Servania:** Co…? A gdzie…?
 > **Echika Y. Franburnett:** Tamtej osoby… już nie ma…
-
 > **Annina Servania:** P-panienko…! Tu jest niebezpiecznie! Do rezydencji…!
 > **Echika Y. Franburnett:** Proszę spojrzeć, pani Annino! Przybyły wojska Federacji!
-
 > **Annina Servania:** Lumenusy Nowej Federacji Ziemskiej! Najnowszy model!
 > **Echika Y. Franburnett:** Teraz możemy być spokojne.
-
 > **Annina Servania:** Ch-chwileczkę! Już po nich?!
 > **Echika Y. Franburnett:** Pani Annino! Ktoś biegnie do tej ostatniej maszyny…!
 > **Annina Servania:** Co…? S-stąd niewiele widać…
 > **Cross Tsukinowa:** Tak jak myślałem. Bezzałogowa…
 > **Cross Tsukinowa:** No cóż… Żeby kupić trochę czasu, i ta wystarczy.
-
 > **Echika Y. Franburnett:** Ta osoba… wsiada do robota…
 > **Annina Servania:** Panienko! Szybko do rezydencji!
 > **Echika Y. Franburnett:** T-tak…!
-
 > **Cross Tsukinowa:** Dobrze. Celujcie we mnie.
-
 > **Cross Tsukinowa:** Szykujcie się. Zepsuliście ten ważny dzień, więc nie liczcie na litość.
-
 > **Cross Tsukinowa:** …! No proszę, a to ci niespodziewany gość.
-
 > **Zero:** *(Przybyłem, bo dostałem wiadomość, że w Japonii ukrywają się niedobitki Logosu, a tu…)*
 > **Zero:** *(Te Taurusy… Po co atakują to miasto…?)*
 > **Cross Tsukinowa:** Sam Zero, główny doradca Czarnych Rycerzy… Lepszej pomocy nie mogłem sobie wymarzyć.
 > **Cross Tsukinowa:** *(Czyli Japonia wciąż leży mu na sercu…)*
 > **Cross Tsukinowa:** *(Świetnie. Niech kupi mi trochę czasu, zanim dotrze mój as w rękawie.)*
-
 > **Cross Tsukinowa:** Lumenus, najnowszy model Nowej Federacji Ziemskiej… Niezła maszyna.
 > **Cross Tsukinowa:** Byle tylko na tych przeciwników wystarczyła…
-
 > **Cross Tsukinowa:** Miałem złe przeczucie i ruszyłem przodem… I proszę, co z tego wyszło.
 > **Cross Tsukinowa:** *(Ale dam radę. Po to tu przyszedłem…!)*
-
 > **Zero:** *(Na świecie dzieją się niepojęte rzeczy… A my wciąż jesteśmy krok za nimi…)*
 > **Zero:** *(Lelouchu… Pokój, za który oddałeś życie… obronię go, przysięgam…!)*
-
 > **Cross Tsukinowa:** Ach!
-
 > **Cross Tsukinowa:** Załatwione…
-
 > **Cross Tsukinowa:** Ostrzał z dystansu… Czyli to jeszcze nie koniec.
-
 > **Gauma:** Co jest?! Ziemia się trzęsie!
 > **Cross Tsukinowa:** Te wstrząsy… To nie od ataku…!
 
@@ -232,7 +219,6 @@ Minął rok od zamachu na cesarza Leloucha. Ja… Echika Y. Franburnett, kończ�
 **Annina Servania:** Jej imię brzmi… A. Advent.
 **Echika Y. Franburnett:** A. Advent…
 **Annina Servania:** Potwierdzam zakończenie wszystkich sekwencji. Mobilna forteca-miasto A. Advent, start.
-
 **Echika Y. Franburnett:** Rezydencja… całe miasto… unosi się w powietrze!
 **Annina Servania:** Kontrola podzespołów… wszystkie wskaźniki w normie. System Nira-Kana-I osiągnął zakładaną moc.
 **Annina Servania:** Potwierdzam uruchomienie A. Adventu.
@@ -244,7 +230,6 @@ Minął rok od zamachu na cesarza Leloucha. Ja… Echika Y. Franburnett, kończ�
 **Takuma Nagare:** No! Dobrze, żeśmy przyjechali!
 
 > **Zero:** Miasto się wznosi…?!
-
 > **Zero:** Na pokładzie tego okrętu jest miasto…
 > **Zero:** To nie jest statek emigracyjny… Czym więc jest…?
 > **Annina Servania:** Przełączanie sterowania infrastrukturą dzielnic mieszkalnych… zakończone.
@@ -257,11 +242,9 @@ Minął rok od zamachu na cesarza Leloucha. Ja… Echika Y. Franburnett, kończ�
 > **Annina Servania:** …Reprymendę przyjmę później. Teraz panienka musi chronić A. Advent… chronić ludzi.
 > **Echika Y. Franburnett:** Chronić…?
 > **Annina Servania:** Tak. Życie mieszkańców miasta Yagami spoczywa teraz na barkach panienki.
-
 > **Zero:** Ich celem jest ten okręt…!
 > **Cross Tsukinowa:** *(Najrozsądniej tak przyjąć, ale coś mi tu nie pasuje…)*
 > **Cross Tsukinowa:** *(To by znaczyło, że wiedzieli o tym okręcie.)*
-
 > **Echika Y. Franburnett:** P-pani Annino…
 > **Annina Servania:** Teraz, gdy A. Advent został uruchomiony, pełne dowództwo należy do panienki.
 > **Annina Servania:** Z pewnym opóźnieniem, ale A. Advent wykonuje głosowe polecenia panienki.
@@ -271,10 +254,8 @@ Minął rok od zamachu na cesarza Leloucha. Ja… Echika Y. Franburnett, kończ�
 > **Echika Y. Franburnett:** Ale…
 > **Annina Servania:** Nie ma czasu na wahanie. Proszę wydać rozkaz, panienko.
 > **Echika Y. Franburnett:** ………
-
 > **Annina Servania:** Panienko!
 > **Echika Y. Franburnett:** Proszę, A. Advent! Obroń mieszkańców miasta!
-
 > **Zero:** Okręt ruszył…!
 > **Cross Tsukinowa:** Nie chcę strat w mieście. Szybko się z nimi rozprawię…!
 > **Annina Servania:** Powodzenia, panienko. Pomogę, na ile zdołam.
@@ -289,9 +270,7 @@ Minął rok od zamachu na cesarza Leloucha. Ja… Echika Y. Franburnett, kończ�
 
 
 > **Zero:** To…!
-
 > **Cross Tsukinowa:** Posiłki…! Dobrze się przygotowali!
-
 > **Echika Y. Franburnett:** Pani Annino…! W tym robocie siedzi ten człowiek sprzed chwili…!
 > **Annina Servania:** Panienko! Zamiast martwić się o kogoś obcego, proszę skupić się na dowodzeniu A. Adventem!
 > **Cross Tsukinowa:** Słuchaj tej pani. Ma rację.
@@ -299,32 +278,23 @@ Minął rok od zamachu na cesarza Leloucha. Ja… Echika Y. Franburnett, kończ�
 > **Cross Tsukinowa:** Sytuacja awaryjna. Wybaczy pani.
 > **Cross Tsukinowa:** Ja sobie poradzę. A ty, mała, pilnuj swojego.
 > **Echika Y. Franburnett:** Ale ty… osłaniasz nas…
-
 > **Zero:** Ten Gundam…! Chang Wufei!
 > **Chang Wufei:** Zero… Wojny nie znikną z tego świata…
 > **Chang Wufei:** Ale nie daruję nikomu, kto wciąga słabych do wojny…!
-
 > **Cross Tsukinowa:** Jest…! Gundam odciągnął ich uwagę!
 > **Cross Tsukinowa:** Teraz albo nigdy! Zrzucaj!
-
 > **Forte Tsukinowa:** Przesyłka… dostarczona, brachu.
 > **Cross Tsukinowa:** Żaden brachu. Na misji jestem Przywódcą.
 > **Forte Tsukinowa:** Się robi, Przywódco.
 > **Cross Tsukinowa:** Dalej ja się tym zajmę. Oddział Haze kontynuuje misję.
 > **Forte Tsukinowa:** Przyjęłam. Pozdrów ode mnie małą.
-
 > **Cross Tsukinowa:** Pozdrowić, co…
 > **Cross Tsukinowa:** Najpierw muszę przetrwać tę walkę!
-
 > **Echika Y. Franburnett:** Wysiada z robota…?!
-
 > **Echika Y. Franburnett:** Kontener!
-
 > **Cross Tsukinowa:** Do dzieła, Lunedrache!
-
 > **Chang Wufei:** Co za szybkość…!
 > **Zero:** Ta maszyna…! To przecież…!
-
 > **Chang Wufei:** Widziałem ją kilka razy podczas wojny rewolucyjnej…
 > **Zero:** Mobilny pancerz ninja Tajnych Sił Specjalnych… i to wersja dla przywódcy…
 > **Chang Wufei:** Co tu robi NINJA…?!
@@ -337,26 +307,20 @@ Minął rok od zamachu na cesarza Leloucha. Ja… Echika Y. Franburnett, kończ�
 > **Echika Y. Franburnett:** Cross…
 > **Cross Tsukinowa:** No dobra… Teraz zaczyna się na serio.
 > **Cross Tsukinowa:** Kto przeszkadza mi w tym spotkaniu po latach, zniknie w sekundę!
-
 > **Zero:** Lunedrache… mobilny pancerz ninja samego przywódcy Tajnych Sił Specjalnych…
 > **Chang Wufei:** W spoczynku cichy jak blask księżyca…
 > **Chang Wufei:** …lecz gdy ruszy, gwałtowny jak grom…
 > **Cross Tsukinowa:** Tak, Lunedrache pasuje do mnie jak ulał…
 > **Cross Tsukinowa:** Żyłem dla tej chwili… A od dziś zaczyna się moja prawdziwa walka.
-
 > **Annina Servania:** P-panienko! Wróg nadciąga z przodu!
 > **Echika Y. Franburnett:** Co mam robić, pani Annino?!
 > **Annina Servania:** T-to panienka decyduje! Proszę szybko wydać rozkazy!
 > **Echika Y. Franburnett:** Od-odeprzeć ich! Proszę ich odeprzeć, A. Advent!
-
 > **Chang Wufei:** *(Treize, Lelouch… Nie uznaję świata, do którego nas doprowadziliście…)*
 > **Chang Wufei:** *(Będę walczył…! O świat, w którym jest miejsce dla żołnierzy!)*
-
 > **Cross Tsukinowa:** *(Lunedrache… Oddaję ci wszystko, co mam.)*
 > **Cross Tsukinowa:** *(Do dzieła…! Wszystko zaczyna się tutaj!)*
-
 > **Cross Tsukinowa:** Ach!
-
 > **Annina Servania:** Potwierdzam rozbicie sił wroga. Brak posiłków.
 > **Echika Y. Franburnett:** Jak wygląda sytuacja w mieście?!
 > **Annina Servania:** Właśnie otrzymałam raport. Kilka osób przewróciło się w pośpiechu, ale walka nie wyrządziła szkód.
@@ -365,10 +329,8 @@ Minął rok od zamachu na cesarza Leloucha. Ja… Echika Y. Franburnett, kończ�
 > **Annina Servania:** A przede wszystkim to dzięki trafnym rozkazom panienki miasto nie ucierpiało.
 > **Echika Y. Franburnett:** Trudno mi w to uwierzyć…
 > **Zero:** *(Ogromny okręt z całym miastem na pokładzie… Skoro stał się celem uzbrojonych grup, trzeba mieć go na oku…)*
-
 > **Chang Wufei:** Stój, Zero! Mam do ciebie pytania!
 > **Chang Wufei:** Kim… ty jesteś?!
-
 > **Cross Tsukinowa:** Nie dość, że tajemniczy terroryści, to jeszcze Zero z Czarnych Rycerzy i Gundam z kolonii… Tłumy gości na tym przyjęciu urodzinowym…
 > **Cross Tsukinowa:** A to dopiero początek.
 
@@ -512,9 +474,9 @@ Minął rok od zamachu na cesarza Leloucha. Ja… Echika Y. Franburnett, kończ�
 
 ### Parada cesarza Leloucha
 
-Otwarcie ustanawia powojenny porządek świata. Śmierć Leloucha kończy bezpośrednią groźbę ostatniej wojny Ziemi z kosmosem, ale reakcje bohaterów pokazują, że pokój wymaga jeszcze decyzji i odpowiedzialności.
+Otwarcie ustanawia powojenny porządek świata. Śmierć [[lelouch-vi-britannia|Leloucha]] kończy bezpośrednią groźbę ostatniej wojny Ziemi z kosmosem, ale reakcje bohaterów pokazują, że pokój wymaga jeszcze decyzji i odpowiedzialności.
 
-Parada jest oglądana przez głosy z kilku innych światów: [[koji-kabuto|Koji]] i [[tetsuya-tsurugi|Tetsuya]] mówią o niedokończonej wojnie, [[chizuru-nambara|Chizuru]] i [[hyoma-aoi|Hyoma]] przypominają o pozostałych zagrożeniach, a [[amuro-ray|Amuro]] i [[bright-noa|Bright Noa]] zastanawiają się nad kolejnym starciem. Wypowiadają się też [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[quatre-raberba-winner|Quatre]], [[trowa-barton|Trowa]] i [[chang-wufei|Wufei]]; po śmierci Leloucha odzywa się [[nunnally-vi-britannia|Nunnally]].
+Parada jest oglądana przez głosy z kilku innych światów: [[koji-kabuto|Koji]] i [[tetsuya-tsurugi|Tetsuya]] mówią o niedokończonej wojnie, [[chizuru-nambara|Chizuru]] i [[hyoma-aoi|Hyoma]] przypominają o cesarzu [[barao|Barao]] z [[imperium-yoma|Imperium Yoma]] i poległym [[chikara-jinguji|Jingujim]], a Hyoma w myślach zwraca się do [[akira-hibiki|Akiry]], a [[amuro-ray|Amuro]] i [[bright-noa|Bright Noa]] zastanawiają się nad kolejnym starciem. Wypowiadają się też [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[quatre-raberba-winner|Quatre]], [[trowa-barton|Trowa]] i [[chang-wufei|Wufei]]; po śmierci [[lelouch-vi-britannia|Leloucha]] odzywa się [[nunnally-vi-britannia|Nunnally]].
 
 ### Atak na miasto Yagami
 
@@ -526,11 +488,24 @@ A. Advent jest jednocześnie okrętem, schronieniem i dziedzictwem Echiki. Dziew
 
 ### NINJA w cieniu
 
-Rozmowa po walce zmienia obraz Crossa: z tajemniczego pilota staje się opiekunem związanym obietnicą złożoną Tetsuro Yagamiemu. Mechaniczne marionetki i przeszłość NINJA pozostają częścią zagrożenia, którego skala nie jest jeszcze znana.
+Rozmowa po walce zmienia obraz Crossa: z tajemniczego pilota staje się opiekunem związanym obietnicą złożoną [[tetsuro-yagami|Tetsuro Yagamiemu]]. Mechaniczne marionetki i przeszłość NINJA pozostają częścią zagrożenia, którego skala nie jest jeszcze znana.
 
 ### Rdzeń Nira-Kana-I
 
 Wyjaśnienie Nira-Kana-I nie rozwiązuje zagadki. Annina podaje teorię STG, ale przyznaje, że brakuje danych i doświadczenia A. Adventu; dziedzictwo Echiki jest więc przede wszystkim obowiązkiem, nie gotową odpowiedzią.
+}}
+
+{{zrodlo gra=wspolne
+
+## Nawiązania do oryginalnych odcinków
+
+Wydarzenia z tej sceny — parada cesarza [[lelouch-vi-britannia|Leloucha]], na której [[zero|Zero]] odbiera mu życie, i rok dzielący zamach od właściwej akcji — nawiązują do **dwudziestego piątego odcinka** serialu *Code Geass: Lelouch of the Rebellion R2* z 2008 roku, zatytułowanego „Re;” (emisja 28 września 2008). Tam zamach na paradzie zamyka plan Zero Requiem: Lelouch skupia na sobie nienawiść świata, a Suzaku przebrany za Zero wykonuje wyrok. Ta sama scena zamyka film [[code-geass-lelouch-of-the-rebellion-iii-glorification|*Code Geass: Lelouch of the Rebellion III Glorification*]] obejmujący odcinki 17–25 *R2*, a rok po niej zaczyna się *Code Geass Lelouch of the Re;surrection* ([[code-geass-lelouch-of-the-re-surrection|strona serii]]; [Geass Wiki, „Code Geass: Lelouch of the Rebellion R2”](https://geass.miraheze.org/wiki/Code_Geass:_Lelouch_of_the_Rebellion_R2); sprawdzono 2026-11-09).
+
+Gra przenosi punkt widzenia na [[echika-y-franburnett|Echikę]] oglądającą paradę z balkonu rezydencji i czyni zamach prologiem własnej historii; rok później, w dniu jej czternastych urodzin, [[val-x|VAL-X]] atakuje miasto Yagami, a pod miastem rusza [[a-advent|A. Advent]]. W oryginale rok po zamachu to spokojna era Kowa pod sztandarem Zjednoczonej Federacji Narodów; grę otwiera ten sam moment, wypełniony własnym zagrożeniem ([34.suparobo.jp, „Character”](https://34.suparobo.jp/character/chara16/); sprawdzono 2026-11-09).
+
+}}
+
+{{skrypt gra=srw-y
 
 ## Wątki w scenie
 

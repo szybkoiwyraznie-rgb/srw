@@ -16,8 +16,6 @@ utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Odrębna konfiguracja [[gundam-ground-type|Gundama Ground Type]], w której [[karen-joshua|Karen Joshua]] wraca do obrony wahadłowca po uszkodzeniu kamery. W hangarze brakuje właściwej głowy, więc mechanicy montują część od GM-a; [[michel-ninorich|Michel]] od razu zauważa różnicę, ale Karen stawia sprawność ponad wyglądem.
 
 Karen używa tej samej konfiguracji podczas późniejszej eskorty [[medea|Medei]].
@@ -76,3 +74,4 @@ Braki części to w pierwowzorze stały motyw. [[gundam-ground-type|Ground Type�
 |       2 | Karabin maszynowy 100 mm |       2900 |  1–4   |       +15 |  10 |      — | Brak w tym polu    | Brak odwołania w dwóch polach efektów broni                         |
 |       3 | Działo 180 mm            |       4000 |  3–7   |        +5 |  30 |      — | Brak w tym polu    | **Penetracja (poziom bazowy 1):** Obr-30%                           |
 }}
+

@@ -14,8 +14,6 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Chorąży i dowódca [[08-pluton-ms|08. Plutonu MS]], pilot [[gundam-ez8|Gundama Ez8]]. Osłania start wahadłowca z [[rx-78nt-1-gundam-alex|Alexem]]. W rozmowie z [[christina-mackenzie|Chris]] przekonuje, że symulator i prawdziwa walka to co innego, a maszyna, której pilot powierza życie, powinna być raczej nadwrażliwa niż niedoczulona.
 
 Podczas ataku wycofuje [[karen-joshua|Karen]] do hangaru, dzieli obrońców na sektory i nakazuje nie przepuścić żadnego wroga. Chroni wahadłowiec także własną maszyną, a po walce przekazuje, że wszystkie siły atakujące zostały odparte.

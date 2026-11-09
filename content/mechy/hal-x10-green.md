@@ -16,8 +16,6 @@ utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Odmiana [[hal-x10|HAL-X10]] oznaczona jako Green, obecna na poligonie Fuji w trzech egzemplarzach obok maszyny podstawowej. Ma nieco słabsze uzbrojenie: minigun o mocy 1100, wyrzutnię rakiet o mocy 800 i wyrzutnię ATM o mocy 1900.
 
 Podobnie jak podstawowy HAL-X10 walczy bez załogi, a jej poczynaniami kieruje system [[shinohara-hos|HOS]].
@@ -45,7 +43,6 @@ W serialowym [[mobile-police-patlabor|pierwowzorze]] HAL-X10 dostał sztuczną i
 ### Ilustracja 2
 
 ![HAL-X10/Green — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/HAL-X10%20Green%202.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -64,4 +61,3 @@ W serialowym [[mobile-police-patlabor|pierwowzorze]] HAL-X10 dostał sztuczną i
 | 1 | 9-lufowa wyrzutnia rakiet | 800 | 1–5 | +20 | 20 | — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |
 | 2 | Wyrzutnia ATM | 1900 | 1–4 | +10 | 15 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
 }}
-

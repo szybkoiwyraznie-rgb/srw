@@ -15,14 +15,17 @@ utworzono: 2026-10-27
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Szturmowa odmiana [[mechabestia|mechabestii]] [[mechanization-empire|Imperium Mechanizacji]] nastawiona na walkę w zwarciu. Oba jej ataki — uderzenie wręcz oraz silniejszy Driver Attack o zasięgu 1–2 — mają wysoką premię do celności (+80 i +70) oraz szansę nałożenia efektu „Mechaniz.”, przy czym Driver Attack dodatkowo odpycha trafioną jednostkę o jedno pole i ignoruje osłonę. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] naciera na [[shin-getter-1|Shin Gettera-1]] oraz oddział [[connect-force|Connect]], a nowe egzemplarze nadciągają z bramy [[mucus-gate-s-mc|Mucus Gate S MC]].
 
 ## Pozostałe jednostki Bolt Robo
 
 - [[bolt-robo-standard|Bolt Robo/Standard]] — odmiana podstawowa z działem średniego zasięgu skutecznym przeciw dużym celom.
 - [[bolt-robo-long-range|Bolt Robo/Long-Range]] — odmiana artyleryjska prowadząca ostrzał pośredni na dystansie 3–7.
+}}
+
+{{zrodlo gra=wspolne
+
+W [[nekketsu-saikyo-go-saurer|pierwowzorze]] prawe ramię Bolt Robo zakończone jest płaskim wkrętakiem (jap. *doraibā*), a lewe masywnym imadłem warsztatowym, co w odsłonach *Super Robot Wars* znalazło odzwierciedlenie w wyspecjalizowanym wariancie zwarcia wyprowadzającym przepychające uderzenia na bliskim dystansie wyłącznie przeciw celom naziemnym ([SRW Wiki, „ボルトロボ”](https://srw.wiki.cre.jp/wiki/%E3%83%9C%E3%83%AB%E3%83%88%E3%83%AD%E3%83%9C); sprawdzono 2026-10-27).
 }}
 
 {{menu gra=srw-oe
@@ -38,7 +41,3 @@ Szturmowa odmiana [[mechabestia|mechabestii]] [[mechanization-empire|Imperium Me
 ![Bolt Robo/Melee — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Bolt%20Robo%20Melee%202.png)
 }}
 
-{{zrodlo gra=wspolne
-
-W [[nekketsu-saikyo-go-saurer|pierwowzorze]] prawe ramię Bolt Robo zakończone jest płaskim wkrętakiem (jap. *doraibā*), a lewe masywnym imadłem warsztatowym, co w odsłonach *Super Robot Wars* znalazło odzwierciedlenie w wyspecjalizowanym wariancie zwarcia wyprowadzającym przepychające uderzenia na bliskim dystansie wyłącznie przeciw celom naziemnym ([SRW Wiki, „ボルトロボ”](https://srw.wiki.cre.jp/wiki/%E3%83%9C%E3%83%AB%E3%83%88%E3%83%AD%E3%83%9C); sprawdzono 2026-10-27).
-}}

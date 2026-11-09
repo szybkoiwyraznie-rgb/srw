@@ -16,8 +16,6 @@ utworzono: 2026-10-27
 ---
 {{zrodlo gra=wspolne
 
-## Opis
-
 *Nekketsu Saikyō Go-Saurer* (熱血最強ゴウザウラー, ang. *Matchless Passion Go-Saurer*) to pięćdziesięciojednoodcinkowy telewizyjny serial anime studia Sunrise z lat 1993–1994, wyreżyserowany przez Toshifumiego Kawase z muzyką Tomokiego Hasegawy i emitowany na antenie TV Tokyo od 3 marca 1993 do 23 lutego 1994 roku. Stanowi trzecią odsłonę szkolnego cyklu Eldrana finansowanego przez firmę Tomy — po [[matchless-raijin-oh|*Matchless Raijin-Oh*]] oraz *Genki Bakuhatsu Ganbaruger* — osadzoną we wspólnym świecie sąsiadujących ze sobą japońskich miast ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); sprawdzono 2026-10-27).
 
 Akcja rozgrywa się rok po odparciu [[jaku-empire|Imperium Jaku]] przez [[klasa-obrony-ziemi|Klasę Obrony Ziemi]], gdy uczniowie z Hinobori są już w gimnazjum. Z głębi kosmosu do Układu Słonecznego wkracza [[mechanization-empire|Imperium Mechanizacji]], które błyskawicznie zamienia w mechaniczne globy Neptuna, Urana, Saturna, Jowisza oraz Marsa i kieruje się ku Ziemi. Starożytny strażnik planety, Eldran, powierza obronę Ziemi szóstoklasistom ze Szkoły Podstawowej Harukaze, tworzącym zespół [[saurersi|Saurersów]]. W odróżnieniu od wcześniejszych serii cyklu sam gmach szkoły przekształca się bezpośrednio w centrum dowodzenia oraz dinozaurowe maszyny bojowe ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); sprawdzono 2026-10-27).

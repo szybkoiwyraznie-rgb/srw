@@ -31,7 +31,7 @@ test('nowe hasła świata są w bazie z tagiem rodzaju treści (ADR 0033)', () =
     assert.equal(p.typ, 'pojecie', slug);
     assert.ok((p.tagi ?? []).includes(rodzaj), `${slug}: rodzaj treści jest tagiem`);
     assert.equal(p.kategoria, undefined, `${slug}: osobne pole kategoria już nie istnieje`);
-    assert.match(p.body, /## Opis/, slug);
+    assert.match(p.body, /\{\{[^\n]+\n\n(?!## )/, `${slug}: boks opisowy bez tytułu`);
   }
 });
 

@@ -14,8 +14,6 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Główny pilot [[raijin-oh|Raijin-Oh]], uczeń klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]]. Nudzi się na lekcjach i wprost mówi, że chce, żeby coś się wydarzyło; na wieść o rozkazie wymarszu cieszy się, że będzie miał zajęcie.
 
 W ćwiczeniach z [[connect-force|Connect]] traktuje pole bitwy jak zabawę i złości się, gdy okazuje się, że zamiast wroga czekają Labory treningowe, a [[maria-shiratori|Maria]] urządziła ćwiczenia z zaskoczenia. Narzeka na polecenia [[tsutomu-kojima|Tsutomu]], ale słucha go, gdy ten tłumaczy, po co zrzucać cele z wysokości. Po treningu od razu namawia [[koji-hoshiyama|Kojiego]] na piłkę.
@@ -27,6 +25,13 @@ Podczas [[srw-oe-ep1-szalejacy-labor-powraca|obrony placu budowy]] przybywa z [[
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] razem z [[kenichi-minezaki|Kenichim Minezakim]] sprzeciwia się planowi częstych wspólnych ćwiczeń, obstając przy grze w piłkę, po czym wyprowadza [[raijin-oh|Raijin-Oha]] pod ziemię przeciw [[mechabestia|mechabestiom]], [[invader-ground|Invaderom]] oraz [[nekton-assault|Nekton Assault]]. Z uznaniem wita pojawienie się [[mazinger-z|Mazingera Z]] i [[gurren-lagann|Gurren Laganna]], a po bitwie w klasie stwierdza, że [[kamina|Kamina]] i reszta muszą być z innego świata.
 }}
 
+{{zrodlo gra=wspolne
+
+## Postać w oryginale
+
+Jin Hyuga (日向 仁) jest głównym pilotem Raijin-Oh i przywódcą trójki bohaterów. W oryginale jest zadziorny, lubi się chwalić i dobrze gra w sporty, a jego numer w dzienniku to ósma pozycja. Często kłóci się z [[maria-shiratori|Marią]], choć oboje sobie ufają ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -35,6 +40,7 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] razem z [[ke
 
 ![Jin Hyuga — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Jin%20Hyuga.png)
 }}
+
 {{menu gra=srw-oe
 
 ## Parametry
@@ -61,11 +67,4 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] razem z [[ke
 |---:|---|---:|---|
 | 1 | **Potenc. Atk** | 1 | Pozostałe HP 10%: Obr/Unik+4% Atk/Kryt+5% |
 | 2 | **Blok** | 3 | Obraż.-16% Sz. 12% *(1.08)* |
-
-}}
-{{zrodlo gra=wspolne
-
-## Postać w oryginale
-
-Jin Hyuga (日向 仁) jest głównym pilotem Raijin-Oh i przywódcą trójki bohaterów. W oryginale jest zadziorny, lubi się chwalić i dobrze gra w sporty, a jego numer w dzienniku to ósma pozycja. Często kłóci się z [[maria-shiratori|Marią]], choć oboje sobie ufają ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 }}

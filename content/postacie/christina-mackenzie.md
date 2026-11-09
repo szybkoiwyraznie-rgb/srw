@@ -14,8 +14,6 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Pilotka testowa [[rx-78nt-1-gundam-alex|Alexa]] w stopniu porucznika. Ma świetne wyniki na symulatorze, ale szybkość reakcji maszyny budzi jej obawy przed walką. Rozmowa z [[shiro-amada|Shiro Amadą]] pokazuje różnicę między wynikiem symulacji a doświadczeniem pola bitwy.
 
 Po rozpoczęciu ataku [[pluton-cyclops|plutonu Cyclops]] [[oficer-federacji|oficer Federacji]] każe Chris udać się do wahadłowca i zostawić walkę [[08-pluton-ms|08. Plutonowi MS]]. Po odpartym natarciu dziękuje Shiro za osłonę transportu.

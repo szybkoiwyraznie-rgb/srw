@@ -14,8 +14,6 @@ utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Funkcjonariuszka Drugiego Plutonu [[sv2|SV2]]. W rozmowie po ćwiczeniach jako jedna z niewielu zna plotki o [[connect-force|Connect]] i tłumaczy, że firma ma monopol na handel z dalekim kosmosem.
 
 Zauważa też, że mówi się o pracach nad [[mobile-suit|mobile suitami]] zrzucanymi z orbity. W tej misji nie prowadzi własnego Labora.
@@ -43,7 +41,6 @@ W [[mobile-police-patlabor|pierwowzorze]] Kanuka jest funkcjonariuszką policji 
 ### Ilustracja 1
 
 ![Kanuka Clancy — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kanuka%20Clancy.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -72,5 +69,4 @@ W [[mobile-police-patlabor|pierwowzorze]] Kanuka jest funkcjonariuszką policji 
 |---:|---|---:|---|
 | 1 | **Potenc. Kryt** | 1 | Pozostałe HP 10%: Obr/Unik+4% Cel/Kryt+5% |
 | 2 | **Policjant** | 3 | Zadawane Obraż. x1.1 / Obr+4% |
-
 }}

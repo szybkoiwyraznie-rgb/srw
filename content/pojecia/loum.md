@@ -14,12 +14,11 @@ utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Loum to miejsce bitwy, o której wspomina [[paolo-cassius|Paolo]]: sam [[char-aznable|Char]] zniszczył tam pięć pancerników.
 
 Do bitwy wraca rozmowa na pokładzie [[white-base|White Base]], gdy okręt odpiera atak [[zeon|Zeonu]] w okolicach Ziemi.
 }}
+
 {{zrodlo gra=wspolne
 
 Loum, czyli Side 5, było areną pierwszej w historii [[universal-century|Universal Century]] bitwy flot kosmicznych. 13 stycznia [[uc-0079|U.C. 0079]] flota Zeonu wyruszyła z nieukończonej twierdzy Solomon, by po raz drugi przeprowadzić Operation British — zrzucenie kolonii na Ziemię. 14 stycznia na [[luna-ii|Luna II]] zebrała się trzykrotnie większa flota Federacji: 308 okrętów bojowych i 84 okręty wsparcia ([Gundam Wiki, „Battle of Loum”](https://gundam.fandom.com/wiki/Battle_of_Loum); sprawdzono 2026-10-21).

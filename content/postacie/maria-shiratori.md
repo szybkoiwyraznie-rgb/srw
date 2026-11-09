@@ -13,8 +13,6 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Dowódczyni klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]]. Budzi [[jin-hyuga|Jina]] z bezczynności i ogłasza rozkaz wymarszu, a w polu urządza ćwiczenia z zaskoczenia — bez uprzedzenia wystawia Labory treningowe jako cele wspólnego treningu z [[connect-force|Connect]], żeby Jin się nie obijał.
 
 Prowadzi też odprawę po treningu i prosi [[seishiro|Seishira]], by dołączył do omówienia w szkole. Podkreśla, że klasa zawsze dziękuje generałowi Takedzie, i hamuje przechwałki Jina o wyższości nad dorosłymi.
@@ -24,6 +22,13 @@ Po [[srw-oe-ep1-szalejacy-labor-powraca|unieruchomieniu Brockenów na placu budo
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podejmuje w [[akademia-hinobori|Akademii Hinobori]] drużynę [[saurersi|Saurersów]], ostrym słowem ucina sprzeczkę chłopców o formę wspólnych ćwiczeń, a na sygnał o wykryciu [[mechabestia|mechabestii]] wydaje rozkaz startu [[raijin-oh|Raijin-Oha]]. Po walce zaprasza załogę [[gurren-lagann|Gurren Laganna]] do szkoły na wyjaśnienia [[seishiro|Seishira]] i wyraża gotowość [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] do dalszego wspierania [[connect-force|Connect]] na Ziemi.
 }}
 
+{{zrodlo gra=wspolne
+
+## Postać w oryginale
+
+Maria Shiratori (白鳥 マリア) jest dowódczynią Klasy Obrony Ziemi. W oryginale uchodzi za inteligentną, zdecydowaną i odważną; nosi kucyk, a jej rodzina ma korzenie japońskie i francuskie ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -31,10 +36,4 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podejmuje w 
 ### Ilustracja 1
 
 ![Maria Shiratori — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Maria%20Shiratori.png)
-}}
-{{zrodlo gra=wspolne
-
-## Postać w oryginale
-
-Maria Shiratori (白鳥 マリア) jest dowódczynią Klasy Obrony Ziemi. W oryginale uchodzi za inteligentną, zdecydowaną i odważną; nosi kucyk, a jej rodzina ma korzenie japońskie i francuskie ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 }}

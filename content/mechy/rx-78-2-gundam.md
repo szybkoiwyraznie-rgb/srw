@@ -15,8 +15,6 @@ utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Prototypowy [[mobile-suit|mobile suit]] Federacji, którym [[amuro-ray|Amuro]] startuje z [[white-base|White Base]]. [[bright-noa|Bright]] wzywa go do walki, gdy nadlatuje [[zaku-ii-char|Zaku]] [[char-aznable|Chara]], a sam Amuro zgłasza gotowość mimo braku doświadczenia.
 
 W walce Gundam wytrzymuje kolejne ciosy, co skłania Chara do ostrzeżenia, że sama przewaga maszyny nie wystarczy do zwycięstwa. [[seishiro|Seishiro]] nazywa starcie potyczką, a nie rozstrzygnięciem.
@@ -25,6 +23,12 @@ W misji nad Azją Środkową Gundam startuje z [[white-base|White Base]] przeciw
 
 Pod koniec [[operacja-odessa|operacji Odessa]] maszyna przechwytuje [[h-bomb-missile|pocisk termojądrowy]]. Amuro używa szabli wiązkowej nie do zniszczenia celu, lecz do precyzyjnego odcięcia zapalnika przed reakcją jądrową.
 }}
+
+{{zrodlo gra=wspolne
+
+RX-78-2 Gundam to prototypowy mobile suit bliskiego wsparcia zbudowany przez Siły Federacji w ramach projektu V. Jego pierwsze starcie odbyło się 18 września [[uc-0079|U.C. 0079]] na [[side-7|Side 7]], a wysokość maszyny wynosiła 18,0 m ([Gundam Wiki, „RX-78-2 Gundam”](https://gundam.fandom.com/wiki/RX-78-2_Gundam); sprawdzono 2026-10-20).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -36,7 +40,6 @@ Pod koniec [[operacja-odessa|operacji Odessa]] maszyna przechwytuje [[h-bomb-mis
 ### Ilustracja 2
 
 ![Gundam (RX-78-2) — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Gundam%202.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -65,10 +68,4 @@ Pod koniec [[operacja-odessa|operacji Odessa]] maszyna przechwytuje [[h-bomb-mis
 | 1 | Karabin wiązkowy | 3100 | 1–4 | +20 | 10 | — | Brak w tym polu | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |
 | 2 | Szabla wiązkowa | 3200 | 1–1 | +50 | 5 | — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18% |
 | 3 | Hiperbazooka | 3600 | 2–4 | +5 | 20 | — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia |
-
-}}
-
-{{zrodlo gra=wspolne
-
-RX-78-2 Gundam to prototypowy mobile suit bliskiego wsparcia zbudowany przez Siły Federacji w ramach projektu V. Jego pierwsze starcie odbyło się 18 września [[uc-0079|U.C. 0079]] na [[side-7|Side 7]], a wysokość maszyny wynosiła 18,0 m ([Gundam Wiki, „RX-78-2 Gundam”](https://gundam.fandom.com/wiki/RX-78-2_Gundam); sprawdzono 2026-10-20).
 }}

@@ -11,8 +11,6 @@ utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Państwo ogłoszone przez kolonię [[side-3|Side 3]], które rzuciło [[earth-federation|Federacji]] wyzwanie i prowadzi z nią wojnę. Podczas ataku na [[white-base|White Base]] [[char-aznable|Char]] i jego piloci działają w jego imieniu, a [[paolo-cassius|Paolo]] wspomina bitwę o [[loum|Loum]].
 
 [[seishiro|Seishiro]] podkreśla, że celem [[connect-force|Connect]] nie jest zniszczenie Zeonu, i chce, by nawet jego piloci wyszli z wojny żywi.
@@ -23,6 +21,7 @@ Po utracie Odessy oddziały specjalne i rozproszone siły Zeonu nadal prowadzą 
 
 Po odparciu desantu na [[jaburo|Jaburo]] Księstwo porzuca obronę linii na Ziemi: siły lądowe przechodzą do wojny partyzanckiej i działań opóźniających, a siły kosmiczne w pośpiechu wprowadzają do służby nowe [[mobile-suit|mobile suity]] i [[mobile-armor|mobile armory]]. Jednym z takich uderzeń opóźniających jest atak [[apsalus-iii|Apsalusa III]] z projektu rodu Sahalinów, prowadzony przez [[ginias-sahalin|Giniasa]] w osłonie [[ramba-ral|Ramby Rala]] i [[crowley-hamon|Crowley Hamon]]. Najwyższy Wódz Zeonu szykuje równolegle tajny plan wymierzony w przewagę materiałową [[earth-federation|Federacji]].
 }}
+
 {{zrodlo gra=wspolne
 
 Księstwo Zeonu powstało na kolonii [[side-3|Side 3]] i było jedną z dwóch głównych stron wojny w [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]]. Jego naukowcy rozwinęli technologię [[mobile-suit|mobile suitów]] oraz badania nad cząstkami Minovsky’ego ([Gundam Wiki, „Principality of Zeon”](https://gundam.fandom.com/wiki/Principality_of_Zeon); sprawdzono 2026-10-20).

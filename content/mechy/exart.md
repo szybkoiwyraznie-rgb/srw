@@ -13,8 +13,6 @@ utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 CF-00 Exart jest bronią [[connect-force|Connect Force]]. W [[prolog-i-trening-w-connect|szkoleniu podstawowym]] pilotuje go [[seishiro|Seishiro]], a [[himari-yaegaki|Himari]] prowadzi ćwiczenia i może przejąć zdalne sterowanie.
 
 Podczas wspólnych ćwiczeń na poligonie Fuji Himari leci z nim jako podpilot i w razie potrzeby przejmuje stery.
@@ -29,6 +27,7 @@ W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] Exart przybywa na odsiecz Dru
 
 W [[srw-oe-ep2-ryk-dziczy|ćwiczeniach na stacji]] Exart ma trudności z silniejszymi niż rzeczywiste odczyty celami pozornymi. [[seishiro|Seishiro]] widzi w tym granicę maszyny, ale piloci [[final-dancouga|Final Dancougi]] wyczuwają w niej ukrytą siłę i wskazują na rolę umiejętności oraz nastawienia załogi.
 }}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -44,7 +43,6 @@ W [[srw-oe-ep2-ryk-dziczy|ćwiczeniach na stacji]] Exart ma trudności z silniej
 ### Ilustracja 3
 
 ![Exart — ilustracja 3 z 3](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Exart%203.png)
-
 }}
 
 {{menu gra=srw-oe

@@ -14,8 +14,6 @@ utworzono: 2026-10-24
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Bud obserwuje w [[srw-oe-ep1-szalejacy-labor-powraca|okolicy wielkiego placu budowy]] walkę Ingramów z [[utsumi|Utsumim]] i [[kurosaki|Kurosakim]]. Zauważa, że maszyna [[noa-izumi|Noi]] porusza się coraz lepiej, ale nie przypisuje tego samej odwadze: jego zdaniem pilotka coraz bardziej ufa swojemu [[ingram-nr-1|Ingramowi]].
 
 Rozwój policjantów traktuje jak element dobrej zabawy. Kiedy Kurosaki przyznaje, że Drugi Pluton może być groźniejszy niż sądzono, Bud odpowiada, że inaczej nie byłoby zabawy.
@@ -35,7 +33,6 @@ W [[mobile-police-patlabor|pierwowzorze]] Badrinath Harchand, znany jako Bud, je
 ### Ilustracja 1
 
 ![Badrinath Harchand — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Badrinath%20Harchand.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -58,5 +55,4 @@ W [[mobile-police-patlabor|pierwowzorze]] Badrinath Harchand, znany jako Bud, je
 |---:|---|---:|---|
 | 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
 | 2 | **Gracz** | 3 | Kryt+8% Kryt Obraż.+6% |
-
 }}

@@ -11,12 +11,11 @@ utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Chmura cząstek rozpraszana przed starciem po to, by oślepić czujniki i zerwać łączność. „Rozpylić cząstki Minovsky’ego! Stężenie bojowe!” to stały rozkaz [[bright-noa|Brighta]] przed startem [[rx-78-2-gundam|Gundama]], a [[marker|Marker]] melduje to samo, gdy [[white-base|White Base]] szykuje się do wyjścia w pole.
 
 Skutki odczuwa każdy, kto polega na radiu. [[himari-yaegaki|Himari]] traci kontakt z [[seishiro|Seishiro]] w środku walki i przeprasza potem, że nie mogła go prowadzić; Seishiro zrzuca winę na cząstki — „łączność na odległość była niemożliwa” — i pociesza ją, że dział techniczny kiedyś coś na to wymyśli. W [[08-pluton-ms|08. Plutonie MS]] [[eledore-massis|Eledore]] ostrzega przed nimi krzykiem, a nadlatujące maszyny rozpoznaje po samym dźwięku, bo czujniki nie pokazują już nic pewnego.
 }}
+
 {{zrodlo gra=wspolne
 
 Towarzystwo Fizyki Minovsky’ego powstało w U.C. 0045 na [[side-3|Side 3]] i zajmowało się reaktorem termojądrowym; od U.C. 0047 budowało reaktor Minovsky-Ionesco zaprojektowany przez doktora T.Y. Minovsky’ego. Reaktor łączy hel-3 z deuterem w hel-4 i proton, nie emitując przy tym promieniowania neutronowego — kosztem tego, że hel-3 trzeba sprowadzać spoza Ziemi ([Gundam Wiki, „Technology”, sekcja Minovsky Physics](https://gundam.fandom.com/wiki/Gundam_Wiki:Technology#Minovsky_Physics); sprawdzono 2026-11-07).

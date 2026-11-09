@@ -15,8 +15,6 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Członek [[pluton-cyclops|plutonu Cyclops]], w dialogach występujący jako Misza, pilot [[kampfer-high-mobility|Kampfera/High Mobility]]. Lokalizuje bazę za szczytem i razem z [[andy-strauss|Andy’m]] przebija się przez linię czujek, zapowiadając hałas.
 
 Ceni możliwości Kampfera w szturmie, a jego zwrotność zaskakuje [[shiro-amada|Shiro]]. Po niepowodzeniu natarcia wycofuje się, niezadowolony, że to właśnie on dał plamę.

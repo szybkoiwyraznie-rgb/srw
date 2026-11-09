@@ -16,12 +16,20 @@ utworzono: 2026-11-07
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 [[mobile-suit|Mobile suit]] [[ramba-ral|Ramby Rala]], w którym Błękitny Olbrzym staje do walki pod [[jaburo|Jaburo]]. Maszyna walczy w zwarciu: Heat Saber i Heat Rod pozwalają razić z bliska, 5-lufowe działko palcowe sięga na trzy pola, a rzut Heat Rodem ściąga wroga w stronę Goufa.
 
 Blok tarczą zwiększa ochronę, gdy maszyna broni się zamiast atakować, a Heat Rod dodatkowo ogłusza trafiony cel. W tej misji Gouf jest jednym z najgroźniejszych przeciwników obok [[apsalus-iii|Apsalusa]]: [[amuro-ray|Amuro]] traktuje spotkanie z Ralem jak pojedynek, a nie wymianę ognia.
 }}
+
+{{zrodlo gra=wspolne
+
+## Pierwowzór
+
+Gouf to prototypowy naziemny mobile suit Zeonu, który [[ramba-ral|Ramba Ral]] otrzymuje w serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] po przeniesieniu na Ziemię; maszyna w barwach Rala jest niebieska, podobnie jak jego wcześniejszy Zaku ([Gundam Wiki, „Ramba Ral”](https://gundam.fandom.com/wiki/Ramba_Ral); sprawdzono 2026-11-07).
+
+W oryginale Gouf nęka [[white-base|White Base]] w Azji Środkowej i zostaje zniszczony w pojedynku z [[rx-78-2-gundam|Gundamem]]. Gra przenosi tę maszynę pod [[jaburo|Jaburo]], gdzie walczy u boku [[apsalus-iii|Apsalusa III]] — zestawienia, którego serial nie zna.
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -55,12 +63,4 @@ Blok tarczą zwiększa ochronę, gdy maszyna broni się zamiast atakować, a Hea
 | 1 | 5-lufowe działko palcowe | 1600 | 1–3 | +30 | 5 | — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu; **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4 |
 | 2 | Heat Rod | 2300 | 1–3 | +20 | 10 | — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18%; **Ogłuszenie (poziom bazowy 1):** Bez kontry, +Obraż.500 Szansa 30% |
 | 3 | Heat Rod/Rzut | 3000 | 2–4 | +40 | 20 | — | Brak w tym polu | **Rzut do siebie (poziom bazowy 1):** Wróg o 1 pole do siebie; Upadek Obraż.1000; Ignoruje Osłonę; bez wsparcia |
-}}
-{{zrodlo gra=wspolne
-
-## Pierwowzór
-
-Gouf to prototypowy naziemny mobile suit Zeonu, który [[ramba-ral|Ramba Ral]] otrzymuje w serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] po przeniesieniu na Ziemię; maszyna w barwach Rala jest niebieska, podobnie jak jego wcześniejszy Zaku ([Gundam Wiki, „Ramba Ral”](https://gundam.fandom.com/wiki/Ramba_Ral); sprawdzono 2026-11-07).
-
-W oryginale Gouf nęka [[white-base|White Base]] w Azji Środkowej i zostaje zniszczony w pojedynku z [[rx-78-2-gundam|Gundamem]]. Gra przenosi tę maszynę pod [[jaburo|Jaburo]], gdzie walczy u boku [[apsalus-iii|Apsalusa III]] — zestawienia, którego serial nie zna.
 }}

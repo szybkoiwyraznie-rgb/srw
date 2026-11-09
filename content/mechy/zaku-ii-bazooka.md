@@ -15,13 +15,12 @@ utworzono: 2026-10-20
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Jedna z maszyn rodziny Zaku II — z bazooką Zaku i Heat Hawkiem, przygotowana do walki z okrętami i umocnionymi celami. Podobnie jak wersja z karabinem maszynowym trafia w ręce zwykłych żołnierzy Zeonu, którzy walczą w grupie bliźniaczych maszyn.
 
 Podczas ataku na [[white-base|White Base]] maszyny tego typu lecą w eskorcie [[char-aznable|Chara]], a tę z bazooką prowadzi [[crown|Crown]].
 
 Bazooka Zaku sięga 4 pól i dostaje premię przeciw okrętom: trafienie +70% i atak x1,8. Heat Hawk pozostaje bronią na sąsiednie pole, z trafieniem +50.
+
 ## Pozostałe jednostki Zaku II
 
 Armia Zeonu używa Zaku II w kilku zestawach uzbrojenia. Obok tej maszyny występują:
@@ -29,7 +28,11 @@ Armia Zeonu używa Zaku II w kilku zestawach uzbrojenia. Obok tej maszyny wystę
 - [[zaku-ii-char|Zaku II (Char)]]
 - [[zaku-ii-karabin-maszynowy|Zaku II (karabin maszynowy)]]
 - [[zaku-ii-kai|Zaku II Kai]]
+}}
 
+{{zrodlo gra=wspolne
+
+Zaku II (MS-06) to seria mobile suitów Księstwa [[zeon|Zeonu]] i podstawowa masowo produkowana maszyna tej armii w Wojnie Jednorocznej ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-10-20).
 }}
 
 {{menu gra=srw-oe
@@ -43,7 +46,6 @@ Armia Zeonu używa Zaku II w kilku zestawach uzbrojenia. Obok tej maszyny wystę
 ### Ilustracja 2
 
 ![Zaku II (bazooka) — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Zaku%20II%20Baz%202.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -64,10 +66,5 @@ Armia Zeonu używa Zaku II w kilku zestawach uzbrojenia. Obok tej maszyny wystę
 |---:|---|---:|:---:|---:|---:|---:|---|---|
 | 0 | Bazooka Zaku | 1500 | 1–4 | +5 | 10 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
 | 1 | Heat Hawk | 1600 | 1–1 | +50 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
-
 }}
 
-{{zrodlo gra=wspolne
-
-Zaku II (MS-06) to seria mobile suitów Księstwa [[zeon|Zeonu]] i podstawowa masowo produkowana maszyna tej armii w Wojnie Jednorocznej ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-10-20).
-}}

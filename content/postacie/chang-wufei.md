@@ -12,17 +12,24 @@ zrodla:
 tagi: [srw-y, pilot, gundam-wing]
 utworzono: 2026-11-09
 ---
-{{skrypt gra=srw-y
-
-## Opis
-
-Pilot [[altron-gundam|Altrona Gundama]] i były uczestnik wojny rewolucyjnej. Nie akceptuje świata zbudowanego przez Leloucha i Chara, ale sprzeciwia się wciąganiu słabszych do kolejnej wojny.
-}}
 {{menu gra=srw-y
 
-## Charakterystyka
-
 Agent operacji Meteor ze skupiska kolonii L5, wysłany na Ziemię. Ma 16 lat. Pochodzi w prostej linii z rodu wojowników sięgającego starożytnych Chin. Wychowano go na wojownika w przekonaniu, że siła to sprawiedliwość. Deptanie słabych przez OZ uważa za zło i wierzy, że sprawiedliwość to pokonać je jeszcze większą siłą. Dlatego gdy przegrał z Treize'em w walce wręcz, poczuł się bezsilny i stracił wolę walki. Odzyskał ją, widząc, jak Sally Po przyznaje się do słabości, a mimo to walczy dalej; uznał, że świat zmienia właśnie wytrwałość w walce. W ostatniej bitwie pokonał Treize'a w rewanżu, lecz zwycięstwo okazało się niejasne, jakby Treize odszedł niepokonany. Po wojnie zwątpił, czy jest sprawiedliwość w świecie, gdzie ludzie w czasach pokoju zapomnieli o walce, a żołnierze nie mają dokąd pójść. W odpowiedzi celowo stał się złem i przyłączył się do Armii Mariemai.
+}}
+
+{{zrodlo gra=wspolne
+
+Oficjalna lista postaci *Mobile Suit Gundam Wing: Endless Waltz* wymienia Changa Wufeia ([Gundam Official — Wing: Endless Waltz, character](https://en.gundam-official.com/series/wing-endless-waltz-movie/character); sprawdzono 2026-11-09).
+}}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Chang Wufei — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Chang%20Wufei.png)
+}}
+
+{{menu gra=srw-y
 
 ## Parametry
 
@@ -50,9 +57,4 @@ Agent operacji Meteor ze skupiska kolonii L5, wysłany na Ziemię. Ma 16 lat. Po
 | Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                                                                          |
 | ---: | -------- | ---------: | -------: | --------------------------------------------------------------------------------------------------------------------- |
 |    1 | Intuicja |          1 |       25 | Aktywuje 2 Duchy naraz. 'Celny strzał': na 1 turę celność 100%. 'Przebłysk': na 1 walkę pełny unik wszystkich ataków. |
-}}
-
-{{zrodlo gra=wspolne
-
-Oficjalna lista postaci *Mobile Suit Gundam Wing: Endless Waltz* wymienia Changa Wufeia ([Gundam Official — Wing: Endless Waltz, character](https://en.gundam-official.com/series/wing-endless-waltz-movie/character); sprawdzono 2026-11-09).
 }}

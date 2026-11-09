@@ -16,8 +16,6 @@ utworzono: 2026-11-08
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 [[mobile-armor|Mobile armor]] [[zeon|Zeonu]] z pokładu [[zanzibar|Zanzibara]], którym lata [[tokwan|Tokwan]]. [[char-aznable|Char]] nie chce go wypuszczać, bo maszyna jest wciąż w fazie testów i nie została dostrojona; zdaniem pilota żaden [[mobile-suit|mobile suit]] nie dorówna jej w walce przy dużych prędkościach.
 
 Bigro startuje ostatecznie bez rozkazu, już po ogłoszonym przerwaniu ognia. Jego przewagą jest przyspieszenie — [[amuro-ray|Amuro]] wątpi, czy [[rx-78-2-gundam|Gundam]] za nim nadąży — i siła ognia, którą [[hayato-kobayashi|Hayato]] kwituje słowami o „innej lidze”.

@@ -25,7 +25,7 @@ const tagi = (s) => s.tagi ?? [];
 const RODZAJE_TRESCI = new Set([
   'technologia', 'organizacja', 'miejsce', 'jednostka-wojskowa', 'panstwo', 'najazd',
   'wydarzenie', 'era', 'czas-akcji', 'taktyka', 'traktat-wojenny', 'zjawisko',
-  'odznaczenie', 'postac-z-innej-serii',
+  'odznaczenie', 'postac-z-innej-serii', 'postac-wspominana',
 ]);
 
 const RODZAJE_JEDNOSTEK = ['mobile-suit', 'mobile-armor', 'labor', 'okret', 'mysliwiec', 'super-robot', 'pojazd-wsparcia', 'pocisk', 'bezzalogowy'];
@@ -38,6 +38,8 @@ const TAG_SERII = {
   'patlabor-the-movie': 'patlabor',
   'matchless-raijin-oh': 'eldran',
   'nekketsu-saikyo-go-saurer': 'eldran',
+  'genki-bakuhatsu-ganbaruger': 'eldran',
+  'kanzen-shouri-daiteioh': 'eldran',
   'getter-robo-armageddon': 'getter-robo',
   'super-beast-machine-god-dancouga': 'dancouga',
   'mazinger-edition-z-the-impact': 'mazinger',
@@ -51,6 +53,7 @@ const TAG_SERII = {
   'ssss-dynazenon': 'dynazenon',
   'code-geass-lelouch-of-the-re-surrection': 'code-geass',
   'code-geass-lelouch-of-the-rebellion-iii-glorification': 'code-geass',
+  'macross-delta': 'macross',
 };
 
 test('pole kategoria zniknęło z całej bazy', () => {
@@ -105,8 +108,8 @@ test('maszyny bez podanej klasy świadomie nie dostają tagu rodzaju jednostki',
     .map((s) => s.slug)
     .sort();
   assert.deepEqual(bezKlasy, [
-    'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
-    'cybird', 'cybuster', 'exart', 'guntank',
+    'bolt-robo-anti-air', 'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
+    'cybird', 'cybuster', 'exart', 'gandoppler', 'guntank',
     'invader-ground', 'nekton-assault', 'nekton-creek', 'real-pg-gundam',
   ]);
 });

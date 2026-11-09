@@ -14,14 +14,18 @@ utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Członkini załogi [[white-base|White Base]]. Opiekuje się rannym [[paolo-cassius|kapitanem Paolem]] i prosi go, by leżał spokojnie, zamiast wydawać rozkazy.
 
 W misji nad Azją Środkową po raz pierwszy prowadzi do walki [[g-fighter|G-Fighter]]. [[kai-shiden|Kai]] pyta, czy da radę, a [[amuro-ray|Amuro]] ostrzega ją przed artylerią przeciwlotniczą. Sama przyznaje, że jej maszyna jest dla niej łatwym celem.
 
 Gdy pojawia się groźba bomby wodorowej, Sayla pyta, czy [[h-bomb-missile|pocisk]] można zatrzymać przed detonacją. Po udanym cięciu zapalnika przez [[amuro-ray|Amura]] reaguje krótkim uznaniem dla jego precyzji.
 }}
+
+{{zrodlo gra=wspolne
+
+Sayla Mass jest postacią serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -29,7 +33,6 @@ Gdy pojawia się groźba bomby wodorowej, Sayla pyta, czy [[h-bomb-missile|pocis
 ### Ilustracja 1
 
 ![Sayla Mass — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Sayla%20Mass.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -59,8 +62,4 @@ Gdy pojawia się groźba bomby wodorowej, Sayla pyta, czy [[h-bomb-missile|pocis
 |---:|---|---:|---|
 | 1 | **Potenc. Unik** | 1 | Pozostałe HP 10%: Obr/Cel/Kryt+4% Unik+5% |
 | 2 | **Newtype** | 3 | Cel/Unik+6 / Kryt Obraż.+18% |
-}}
-{{zrodlo gra=wspolne
-
-Sayla Mass jest postacią serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
 }}

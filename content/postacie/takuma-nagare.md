@@ -12,17 +12,28 @@ zrodla:
 tagi: [srw-y, pilot, getter-robo]
 utworzono: 2026-11-09
 ---
-{{skrypt gra=srw-y
-
-## Opis
-
-Pilot z [[getter-robo-arc|Getter Robo Arc]], który przybywa do miasta Yagami z [[baku-yamagishi|Bakum]]. Zamiast uciekać przed niezwykłym wydarzeniem, chce zobaczyć je z bliska.
-}}
 {{menu gra=srw-y
 
-## Charakterystyka
+Pilot Getter Arca. Ma 19 lat. Syn Ryomy Nagarego z pierwszej drużyny Gettera, w gorącej wodzie kąpany. Od urodzenia ma wyjątkowo wytrzymałe ciało: znosi przeciążenia przy pilotowaniu Gettera bez kombinezonu, a rany goją się na nim szybciej niż na innych. Uwielbia onigiri ze sklepu całodobowego. W dzieciństwie stracił matkę, zamordowaną przez nieznanego sprawcę; by go odnaleźć, przybywa z Baku Yamagishim do Laboratorium Saotome. Jakby wiedziony przeznaczeniem, wsiada do Getter Robota i staje do walki z wrogiem ludzkości.
+}}
 
-Pilot Getter Arca. Ma 19 lat. Syn Ryomy Nagarego z pierwszej drużyny Gettera, w gorącej wodzie kąpany. Od urodzenia ma niezwykłą zdolność regeneracji ciała. Uwielbia onigiri ze sklepu całodobowego. Szuka zabójcy matki; trop prowadzi go do Laboratorium Saotome, dokąd przybywa z Baku Yamagishim. Jakby wiedziony przeznaczeniem, wsiada do Getter Arca i staje do walki z wrogiem ludzkości.
+{{zrodlo gra=wspolne
+
+## Inne źródła i rozbieżności
+
+Oficjalna strona *Getter Robo Arc* podaje, że Takuma Nagare ma 19 lat, pilotuje Getter Arca, jest synem Ryomy, ma nadzwyczajną zdolność regeneracji ciała, lubi onigiri ze sklepu całodobowego i szuka zabójcy matki; przedstawia też Baku Yamagishiego i Kamuia jako pilotów pozostałych form Gettera ([Getter Robo Arc — strona oficjalna](https://getterrobot-arc.com/); sprawdzono 2026-11-09).
+
+Strona mówi o „niezwykłej zdolności regeneracji ciała” i o wsiadaniu do Getter Arca, natomiast opis gry — o wyjątkowo wytrzymałym ciele, szybszym gojeniu ran i o wsiadaniu do Getter Robota. Opis gry rozstrzyga te różnice na korzyść własnego tekstu.
+}}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Takuma Nagare — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Takuma%20Nagare.png)
+}}
+
+{{menu gra=srw-y
 
 ## Parametry
 
@@ -49,9 +60,4 @@ Pilot Getter Arca. Ma 19 lat. Syn Ryomy Nagarego z pierwszej drużyny Gettera, w
 | Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                                      |
 | ---: | -------- | ---------: | -------: | --------------------------------------------------------------------------------- |
 |    1 | Cel.str. |          1 |       20 | Na 1 turę celność 100%.                                                           |
-}}
-
-{{zrodlo gra=wspolne
-
-Oficjalna strona *Getter Robo Arc* podaje, że Takuma Nagare ma 19 lat, pilotuje Getter Arca, jest synem Ryomy, ma nadzwyczajną zdolność regeneracji ciała, lubi onigiri ze sklepu całodobowego i szuka zabójcy matki; przedstawia też Baku Yamagishiego i Kamuia jako pilotów pozostałych form Gettera ([Getter Robo Arc — strona oficjalna](https://getterrobot-arc.com/); sprawdzono 2026-11-09).
 }}

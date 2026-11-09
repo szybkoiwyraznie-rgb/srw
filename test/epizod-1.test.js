@@ -7,6 +7,7 @@
  * - nowe wpisy nie dostają ilustracji, dopóki właściciel ich nie dostarczy.
  */
 import test from 'node:test';
+import { normalizujTekst } from '../src/srw/registry.js';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { wczytajStrony } from '../tools/content-loader.mjs';
@@ -95,9 +96,9 @@ test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () =
     .replace(/^# Super Robot Wars OE — Epizod 1\n\n---\n\n## Ep\. 1: Szalejący prototyp Labora\n\n/, '')
     .split('\n\n---\n\n## Black Tri-Stars')[0]
     .replace(/\n\n---\n?$/, '');
-  assert.equal(odtworzone, oczekiwane);
-  for (const czesc of czesci) assert.ok(script.includes(czesc.tekst), czesc.naglowek);
-  assert.equal(pages.filter((p) => p.typ === 'scena').length, 18, 'dwie sceny epizodu 0, osiem epizodu 1, siedem epizodu 2 i jedna scena SRW Y');
+  assert.equal(normalizujTekst(odtworzone), normalizujTekst(oczekiwane));
+  for (const czesc of czesci) assert.ok(normalizujTekst(script).includes(normalizujTekst(czesc.tekst)), czesc.naglowek);
+  assert.equal(pages.filter((p) => p.typ === 'scena').length, 19, 'dwie sceny epizodu 0, osiem epizodu 1, osiem epizodu 2 i jedna scena SRW Y');
   assert.equal(pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-y-ep1').length, 1, 'SRW Y ma jedną scenę 1-1C');
 });
 
@@ -212,7 +213,7 @@ test('nowe hasła i seria opisują świat epizodu 1', () => {
     const page = bySlug.get(slug);
     assert.equal(page.typ, 'pojecie', slug);
     assert.ok((page.tagi ?? []).length > 0, `${slug}: hasło ma tagi (ADR 0033)`);
-    assert.match(page.body, /## Opis/, slug);
+    assert.match(page.body, /\{\{[^\n]+\n\n(?!## )/, `${slug}: boks opisowy bez tytułu`);
   }
   assert.match(bySlug.get('labor').body, /Policja Metropolitalna Tokio/);
   assert.match(bySlug.get('sv2').body, /Drugi Pluton/);

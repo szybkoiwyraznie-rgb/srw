@@ -15,8 +15,6 @@ utworzono: 2026-11-05
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Okręt desantowy [[zeon|Zeonu]], który bierze udział w ataku na [[jaburo|Jaburo]]. W misji dowodzi nim [[oficer-zeonu|Oficer Zeonu]], a maszyna wchodzi do walki razem z [[zaku-ii-char|Zaku II Chara]] i pozostałymi [[mobile-suit|mobile suitami]] desantu.
 
 Uzbrojenie okrętowe obejmuje podwójne działko automatyczne, podwójne działo główne, stałe działo megacząsteczkowe i rakiety typu J — działa główne oraz rakiety mają premię przeciw celom okrętowym.

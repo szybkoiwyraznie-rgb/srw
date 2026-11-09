@@ -15,14 +15,18 @@ utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Nowy [[mobile-suit|mobile suit]] do walki lądowej, w którym [[black-tri-stars|Black Tri-Stars]] wchodzą do akcji nad Azją Środkową. [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] przyprowadzają trzy takie maszyny na front [[operacja-odessa|operacji Odessa]].
 
 W walce zespół stawia na szybkość: [[gaia|Gaia]] liczy, że Domy zmylą przeciwnika prędkością i pozwolą szybko zakończyć starcie.
 
 Regularne oddziały Zeonu używają podczas końca operacji Odessa odrębnej jednostki [[dom-zolnierz-zeonu|Dom (Żołnierz Zeonu)]] o innych parametrach uzbrojenia.
 }}
+
+{{zrodlo gra=wspolne
+
+MS-09 Dom to ciężki mobile suit do walki lądowej z *Mobile Suit Gundam*. W październiku [[uc-0079|U.C. 0079]] [[black-tri-stars|Black Tri-Stars]] otrzymali trzy Domy od pułkownika [[mquve|M'Quve'a]] przed operacją Odessa ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-22).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -35,6 +39,7 @@ Regularne oddziały Zeonu używają podczas końca operacji Odessa odrębnej jed
 
 ![Dom (Black Tri-Stars) — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dom%202.png)
 }}
+
 {{menu gra=srw-oe
 
 ## Parametry
@@ -51,9 +56,4 @@ Heat Saber atakuje z zasięgu 1–2 i zwiększa unik, a wielka bazooka sięga pi
 | ------: | -------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
 |       0 | Heat Saber     |       1900 |  1–2   |       +60 |   5 |      — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18%                                 |
 |       1 | Wielka bazooka |       3000 |  1–5   |       +20 |  10 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
-}}
-
-{{zrodlo gra=wspolne
-
-MS-09 Dom to ciężki mobile suit do walki lądowej z *Mobile Suit Gundam*. W październiku [[uc-0079|U.C. 0079]] [[black-tri-stars|Black Tri-Stars]] otrzymali trzy Domy od pułkownika [[mquve|M'Quve'a]] przed operacją Odessa ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-22).
 }}

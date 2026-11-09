@@ -66,3 +66,17 @@ a strony powstają z niego.
 - Rozbieżność między dostawą a źródłem nie znika po scaleniu danych; jest widoczna.
 - Format danych z dostawy (np. struktura szczegółów mechów) zostanie zdefiniowany przy pierwszej
   prawdziwej dostawie. ADR 0010 zakłada tylko zasady, nie kształt pliku.
+
+## Doprecyzowanie poziomu białego (2026-11-09, właściciel)
+
+Biały blok opisu gry = streszczenie **wierne dostawie** — nie musi być dosłowne, ale nie może
+dodawać informacji spoza dostawy. Za wierność uznaje się też treści z dialogów gry: hipotezy
+i przypuszczenia **postaci** („pewnie…", „chyba…", „to tylko moje przypuszczenie…") są częścią
+treści gry i pozostają białe.
+
+Dopiero **dodane** hipotezy redakcyjne lub wiedza spoza dostawy wymagają zmiany koloru:
+wiedza bez potwierdzenia → zielony `{{wiedza}}`, wiedza z cytatem źródłowym → niebieski
+`{{zrodlo}}`. Reguła rozstrzyga przypadek z 2026-11-09: boks `mucus` zawierał zdanie
+„walka z Mucus stanowi główny cel istnienia sił Connect" (interpretacja niewypowiedziana
+w dialogach) oraz epitet „wywodzące się z odległych zakątków kosmosu" — oba przeniesiono
+do bloku `{{wiedza}}`; analogicznie skorygowano `connect-force`.

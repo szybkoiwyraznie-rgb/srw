@@ -16,13 +16,12 @@ utworzono: 2026-10-20
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Jedna z maszyn rodziny Zaku II — ta, którą lata [[char-aznable|Char Aznable]]. Jego karabin maszynowy jest mocniejszy niż u zwykłego żołnierza Zeonu (moc 1300, zasięg 4, trafienie +40), a maszyna dostaje premię przeciw celom powietrznym.
 
 Podczas ataku na [[white-base|White Base]] to maszyna, którą Char wchodzi w walkę z prędkością zaskakującą załogę okrętu.
 
 Bazooka Zaku działa na okręty, Heat Hawk zadaje dodatkowe obrażenia z szansą 30%, a szarża barkiem przebija przez wrogów w zasięgu i pozwala walczyć dalej.
+
 ## Pozostałe jednostki Zaku II
 
 Armia Zeonu używa Zaku II w kilku zestawach uzbrojenia. Obok tej maszyny występują:
@@ -30,7 +29,13 @@ Armia Zeonu używa Zaku II w kilku zestawach uzbrojenia. Obok tej maszyny wystę
 - [[zaku-ii-karabin-maszynowy|Zaku II (karabin maszynowy)]]
 - [[zaku-ii-bazooka|Zaku II (bazooka)]]
 - [[zaku-ii-kai|Zaku II Kai]]
+}}
 
+{{zrodlo gra=wspolne
+
+Zaku II (MS-06) to seria mobile suitów Księstwa [[zeon|Zeonu]] i podstawowa masowo produkowana maszyna tej armii w Wojnie Jednorocznej ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-10-20).
+
+Wariant dowódcy MS-06S był malowany na czerwono — to właśnie nim [[char-aznable|Char Aznable]] zniszczył pięć pancerników w bitwie o [[loum|Loum]], zdobywając przydomek Czerwonej Komety ([Gundam Wiki, „Battle of Loum”](https://gundam.fandom.com/wiki/Battle_of_Loum); sprawdzono 2026-10-20).
 }}
 
 {{menu gra=srw-oe
@@ -44,7 +49,6 @@ Armia Zeonu używa Zaku II w kilku zestawach uzbrojenia. Obok tej maszyny wystę
 ### Ilustracja 2
 
 ![Zaku II (Char) — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Zaku%20II%20Char%202.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -67,12 +71,5 @@ Armia Zeonu używa Zaku II w kilku zestawach uzbrojenia. Obok tej maszyny wystę
 | 1 | Bazooka Zaku | 1800 | 1–5 | +15 | 10 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
 | 2 | Heat Hawk | 2700 | 1–1 | +60 | 0 | — | Brak w tym polu | **Ogień (poziom bazowy 1):** Dodatk. Obraż.1500 Szansa 30% |
 | 3 | Szarża barkiem | 1200 | 1–7 | +35 | 15 | — | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej; Bez kontry; Nie do wsparcia ani kontry |
-
 }}
 
-{{zrodlo gra=wspolne
-
-Zaku II (MS-06) to seria mobile suitów Księstwa [[zeon|Zeonu]] i podstawowa masowo produkowana maszyna tej armii w Wojnie Jednorocznej ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-10-20).
-
-Wariant dowódcy MS-06S był malowany na czerwono — to właśnie nim [[char-aznable|Char Aznable]] zniszczył pięć pancerników w bitwie o [[loum|Loum]], zdobywając przydomek Czerwonej Komety ([Gundam Wiki, „Battle of Loum”](https://gundam.fandom.com/wiki/Battle_of_Loum); sprawdzono 2026-10-20).
-}}

@@ -161,13 +161,13 @@ test('filtr listy scen zawęża po maszynie, postaci i serii obsady', () => {
   const sceny = (html) => [...html.matchAll(/href="#\/scena\/([^"]+)"/g)].map((m) => m[1]);
 
   assert.deepEqual(sceny(renderListe('scena', { mech: 'raijin-oh' })),
-    ['srw-oe-ep1-trening-klasy-obrony', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep2-grozba-pod-ziemia']);
+    ['srw-oe-ep1-trening-klasy-obrony', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep2-grozba-pod-ziemia', 'srw-oe-ep2-klasa-obrony-leci-w-kosmos']);
   assert.deepEqual(sceny(renderListe('scena', { postac: 'noa-izumi' })),
     ['srw-oe-ep1-szalejacy-prototyp-labora', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep1-sledztwo-pod-przykrywka', 'srw-oe-ep2-grozba-pod-ziemia', 'srw-oe-ep2-czarny-labor', 'srw-oe-ep2-ryk-dziczy']);
   // Scena nie ma pola `seria` — świat bierze z obsady.
   assert.deepEqual(sceny(renderListe('scena', { seria: 'matchless-raijin-oh' })),
-    ['srw-oe-ep1-trening-klasy-obrony', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep2-grozba-pod-ziemia']);
-  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 17, 'wszystkie sceny są z jednej gry');
+    ['srw-oe-ep1-trening-klasy-obrony', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep2-grozba-pod-ziemia', 'srw-oe-ep2-klasa-obrony-leci-w-kosmos']);
+  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 18, 'wszystkie sceny są z jednej gry');
 
   const epizody = (html) => [...new Set([...html.matchAll(/href="#\/epizod\/([^"]+)"/g)].map((m) => m[1]))];
   assert.deepEqual(epizody(renderListe('epizod', { mech: 'raijin-oh' })), ['srw-oe-ep1', 'srw-oe-ep2']);
@@ -199,7 +199,7 @@ test('sceny: grupują się najpierw po grze w domyślnie zwiniętych details', (
   const grupy = [...html.matchAll(/<details class="grupa-scen-gry">([\s\S]*?)<\/details>/g)].map((m) => m[1]);
   assert.equal(grupy.length, 2, 'dwie gry mają osobne grupy');
   assert.doesNotMatch(html, /<details class="grupa-scen-gry"[^>]*open/);
-  assert.match(grupy[0], /Super Robot Wars OE[\s\S]*\(17 scen\)/, 'pierwsza jest gra z pierwszymi scenami');
+  assert.match(grupy[0], /Super Robot Wars OE[\s\S]*\(18 scen\)/, 'pierwsza jest gra z pierwszymi scenami');
   assert.match(grupy[1], /Super Robot Wars Y[\s\S]*\(1 scena\)/, 'druga jest gra z nową sceną');
   assert.match(grupy[0], /href="#\/epizod\/srw-oe-ep1"/, 'rozwinięta grupa pokazuje epizod');
   assert.match(grupy[0], /href="#\/scena\/srw-oe-ep1-szalejacy-prototyp-labora"/, 'rozwinięta grupa pokazuje scenę');
@@ -230,11 +230,13 @@ test('selektory list fabularnych zawężają się nawzajem', () => {
   const poSerii = renderListe('scena', { seria: 'matchless-raijin-oh' });
   assert.ok(opcje(wszystkie, 'mech').length > opcje(poSerii, 'mech').length, 'wybór serii zawęża listę maszyn');
   assert.deepEqual(opcje(poSerii, 'mech'), [
-    'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
-    'brocken', 'exart', 'go-saurer', 'gurren-lagann',
+    'bolt-robo-anti-air', 'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
+    'brocken', 'brocken-cannon', 'brocken-dzialko-automatyczne',
+    'daiteioh', 'exart', 'ganbaruger', 'gandoppler',
+    'go-saurer', 'great-ganbaruger', 'gurren-lagann',
     'ingram-nr-1', 'ingram-nr-2', 'invader-ground', 'mazinger-z',
     'mucus-gate-s-in', 'mucus-gate-s-mc', 'nekton-assault',
-    'raijin-oh', 'shin-getter-1',
+    'perfect-daiteioh', 'raijin-oh', 'shin-getter-1',
   ]);
   assert.ok(!opcje(poSerii, 'postac').includes('amuro-ray'), 'postacie spoza tych scen znikają');
 
@@ -260,7 +262,7 @@ test('lista serii ma filtr Gra i tylko jego', () => {
   const poGrze = renderListe('seria', { gra: 'srw-oe' });
   assert.deepEqual(linkiSerii(poGrze), serie.filter((s) => (s.gry ?? []).includes('srw-oe')).map((s) => s.slug).sort());
   assert.match(poGrze, /<option value="srw-oe" selected>/, 'wybór widać w selektorze');
-  assert.match(poGrze, /Serie<span class="filtru-jest">— Super Robot Wars OE/, 'nagłówek nazywa filtr');
+  assert.match(poGrze, /Serie <span class="filtru-jest">— Super Robot Wars OE/, 'nagłówek nazywa filtr');
 
   const obca = renderListe('seria', { gra: 'nie-ma-takiej-gry' });
   assert.deepEqual(linkiSerii(obca), []);

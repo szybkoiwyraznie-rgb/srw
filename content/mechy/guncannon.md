@@ -15,14 +15,14 @@ utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 [[mobile-suit|Mobile suit]] wsparcia [[white-base|White Base]], prowadzony przez [[kai-shiden|Kaia Shidena]]. W misji nad Azją Środkową startuje z pokładu razem z [[rx-78-2-gundam|Gundamem]] i [[guntank|Guntankiem]], gdy okręt przygotowuje się do opuszczenia strefy.
 }}
+
 {{zrodlo gra=wspolne
 
 W pierwowzorze Guncannon jest jednym z owoców Operacji V — programu, którym [[earth-federation|Federacja]] próbowała nadrobić dystans do [[zeon|Zeonu]] w budowie [[mobile-suit|mobile suitów]]. Powstał do wsparcia ogniowego ze średniego dystansu: główną bronią są dwa naramienne działa 240 mm, w głowie siedzi para działek 60 mm, a pancerz wykonano ze stopu lunarnego tytanu. W torsie mieści się system Core Block — kokpit odłącza się jako myśliwiec i służy pilotowi za kapsułę ratunkową. W odróżnieniu od wcześniejszej maszyny artyleryjskiej Guncannon ma zwykłe dłonie, więc potrafi posługiwać się karabinem wiązkowym ([MAHQ, „RX-77-2 Guncannon”](https://www.mahq.net/rx-77-2/); sprawdzono 2026-10-24).
 }}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -35,6 +35,7 @@ W pierwowzorze Guncannon jest jednym z owoców Operacji V — programu, którym 
 
 ![Guncannon — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Guncannon%202.png)
 }}
+
 {{menu gra=srw-oe
 
 ## Parametry

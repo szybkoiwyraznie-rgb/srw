@@ -14,14 +14,18 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-## Opis
-
-Mobilna forteca-miasto, która w dniu urodzin [[echika-y-franburnett|Echiki]] unosi rezydencję, miasto Yagami i część Ayanashi. Jej sercem jest [[nira-kana-i|System Nira-Kana-I]], a mieszkańcy znajdują w niej schronienie pod dowództwem Echiki.
-
-## Charakterystyka
-
 Mobilna forteca-miasto zbudowana pod miastem Yagami w Tokio. W kopule na pokładzie mieści się miasto Yagami wraz z okolicą. Ma mechanizmy jak statek emigracyjny ultradalekiego zasięgu, a dzielnice mieszkalne funkcjonują jak całkowicie samodzielne miasto. Główny silnik, System Nira-Kana-I, wytwarza ogrom energii, daleko przekraczający potrzeby miasta, ale jego działanie to czarna skrzynka i trudno mówić o pełnej kontroli. Ma też różnorodne uzbrojenie, któremu moc Nira-Kana-I zapewnia dużą siłę ognia, lecz jako okręt jest mało mobilny, a jego siła bojowa niewielka. Kopuła chroniąca miasto jest za to wyjątkowo wytrzymała: przy projektowaniu najważniejsze było bezpieczeństwo mieszkańców.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![A. Advent — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/A.%20Advent.png)
+}}
+
 {{menu gra=srw-y
 
 ## Parametry

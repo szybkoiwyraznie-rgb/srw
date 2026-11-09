@@ -366,7 +366,7 @@ blockquote {
 .poziom-zrodlo a, .poziom-wiedza a { text-decoration: underline; }
 
 /* fragmenty treści: poziom wiarygodności zaznacza się na bloku {{...}}, nie na stronie (ADR 0011) */
-.fragment { margin: 14px 0; }
+.fragment { margin: 6px 0; }
 .fragment:first-child { margin-top: 0; }
 .fragment.poziom { padding: 12px 16px; }
 .fragment.poziom > :first-child { margin-top: 0; }
@@ -400,7 +400,11 @@ blockquote {
 .dziennik .data { color: var(--tusz-3); }
 .kroki li { margin: .5em 0; }
 .dziennik ul { margin: .4em 0 .4em 1.2em; padding: 0; }
-.skrypt-tekst { line-height: 1.7; white-space: pre-line; }
+.skrypt-tekst { line-height: 1.7; }
+/* Łamania linii tylko wewnątrz akapitów — newline’y między znacznikami bloków
+   nie mogą dokładać widocznych przerw obok marginesów (uwaga właściciela 2026-11-09). */
+.skrypt-tekst p { white-space: pre-line; }
+.skrypt-tekst h2, .skrypt-tekst h3 { margin-top: .8em; }
 .stopka-czas { margin: 0 0 4px; }
 
 /* ── Stopka ────────────────────────────────────────────────────── */

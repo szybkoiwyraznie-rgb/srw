@@ -15,8 +15,6 @@ utworzono: 2026-11-01
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Członek [[cyber-beast-force|Cyber Beast Force]] i podpilot [[final-dancouga|Final Dancougi]]. Przy [[srw-oe-ep2-ryk-dziczy|pierwszym spotkaniu]] nazywa siebie i pozostałych „czarnymi owcami”, a Otę drażni zwrotem „wujku”. Początkowo widzi dużą różnicę mocy między Dancougą a Laborami.
 
 Po treningu docenia umiejętność wykorzystania Laborów przez Drugi Pluton. Popiera słowa Ryo o sile wynikającej z właściwego nastawienia, a przed odlotem do bazy zapewnia Himari, że oddziały niedługo znów się spotkają.

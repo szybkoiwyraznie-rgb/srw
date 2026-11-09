@@ -16,14 +16,23 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-## Opis
-
-Masowo produkowany, transformowalny mobile suit [[mobile-suit-z-gundam|Axis]]. W tej historii jest jedną z maszyn użytych przez uzbrojoną grupę atakującą miasto Yagami.
-
-## Charakterystyka
-
 Masowo produkowany transformowalny mobile suit Axis. Opracowany na bazie maszyn roboczych Gaza A i Gaza B jako transformowalna jednostka bojowa. W formie mobile armor ostrzeliwuje cele z Knuckle Bustera i atakuje okręty szponami nóg. Ma słabą zwrotność i kiepsko radzi sobie w zwarciu, dlatego podstawową taktyką jest zmasowany ostrzał z dystansu. Łatwo go za to produkować i fabryki Axis wytwarzały go w ogromnych ilościach. Ponieważ Axis i Siły Federacji Ziemskiej przez pewien czas współpracowały, ma oznaczenia obu armii: Axis (AMX-003) i Federacji (MMT-1). Poza wymienioną bronią ma też pistolet wiązkowy i szablę wiązkową.
 }}
+
+{{zrodlo gra=wspolne
+
+Oficjalna lista mechów *Mobile Suit Z Gundam* wymienia AMX-003 Gaza C ([Gundam Official — Z Gundam, mecha](https://en.gundam-official.com/series/z/mecha); sprawdzono 2026-11-09).
+}}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![AMX-003 Gaza C — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/AMX-003%20Gaza%20C.png)
+}}
+
 {{menu gra=srw-y
 
 ## Parametry
@@ -45,9 +54,4 @@ Masowo produkowany transformowalny mobile suit Axis. Opracowany na bazie maszyn 
 | ------: | -------------- | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------------------- |
 |       0 | Knuckle Buster |       2700 | 1–4    |         0 |  10 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.             |
 |         |                |            |        |           |     |          |        |         | **Wiązka:** Typ obrażeń. Niektóre bariery mogą je zmniejszyć lub zablokować. |
-}}
-
-{{zrodlo gra=wspolne
-
-Oficjalna lista mechów *Mobile Suit Z Gundam* wymienia AMX-003 Gaza C ([Gundam Official — Z Gundam, mecha](https://en.gundam-official.com/series/z/mecha); sprawdzono 2026-11-09).
 }}

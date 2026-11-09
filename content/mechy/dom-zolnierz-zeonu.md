@@ -16,8 +16,6 @@ utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 [[mobile-suit|Mobile suit]] używany przez regularne oddziały [[zeon|Zeonu]] podczas końcowej fazy [[operacja-odessa|operacji Odessa]]. Maszyny pilotowane przez [[zolnierz-zeonu|Żołnierzy Zeonu]] osłaniają odwrót w stronę kosmodromu, gdy siły [[earth-federation|Federacji Ziemskiej]] przełamują ostatnią linię obrony.
 
 Seryjna maszyna szeregowych oddziałów jest słabiej uzbrojona niż egzemplarze [[dom|Black Tri-Stars]]: jej Heat Saber bije słabiej, a wielka bazooka sięga bliżej.

@@ -163,7 +163,7 @@ function naglowekListy(typ, filtr, liczba, etykietaFiltra = null) {
   const etykieta = cel ?? etykietaFiltra;
   return `<div class="naglowek-strony">
   <a class="okruszek" href="#/">Baza</a>
-  <h1>${nazwaTypu(typ, 'wiele')}${etykieta ? `<span class="filtru-jest">— ${escapeHtml(etykieta)}</span>` : ''}
+  <h1>${nazwaTypu(typ, 'wiele')}${etykieta ? ` <span class="filtru-jest">— ${escapeHtml(etykieta)}</span>` : ''}
   </h1>
   <p class="podtytul">${liczba} ${odmiana(liczba, [
     nazwaTypu(typ).toLowerCase(),

@@ -57,14 +57,27 @@ test('dziennik nie opisuje interfejsu ani technikaliów (ADR 0018)', () => {
     // budowa stron i danych
     'odsyłacz', 'podsekcj', 'kotwic', 'kolumn', 'etykiet', 'rekord', 'własną stronę',
     'pole danych', 'numer sceny',
+    // struktura bazy i formatowanie (adnotacja ADR 0018 z 2026-11-09)
+    'wpis[a-ząćęłńóśźż]*', '\\bmenu\\b',
+    'źródł[a-ząćęłńóśźż]*', 'tabel[a-ząćęłńóśźż]*', 'widok[a-ząćęłńóśźż]*',
+    'ilustracj[a-ząćęłńóśźż]*', 'galeri[a-ząćęłńóśźż]*', 'formatow[a-ząćęłńóśźż]*',
+    'profil[a-ząćęłńóśźż]*', '\\btag(?:i|u|iem|ów|ach|ami|owi)?\\b',
+    '\\bopis\\b|\\bopisy\\b|\\bopisem\\b|\\bopisów\\b|\\bopisie\\b|\\bopisami\\b|\\bopisach\\b',
+    '\\bstron[ay]\\b|\\bstronie\\b|\\bstronach\\b|\\bstronom\\b|\\bstronami\\b',
+    'nowe strony', 'nowe hasła', 'nowe opisy', 'nowe profile', 'nowi piloci', 'nowe postacie',
+    'nowe jednostki',
     // praca nad bazą zamiast treści bazy
     'audyt', 'dostaw[ay]\\b', 'właściciel', 'poprawki językowe', 'składni[aęi]', 'literówk',
     'wikipedi', 'odsyła linkiem', 'potwierdzon[aey] źródłowo', 'sprawdzone źródło',
     'dawny domysł', 'sub-pilot',
   ].join('|'), 'i');
+  // „Bloku” w znaczeniu struktury strony pilnuje osobny wzorzec bez flagi i —
+  // nazwa umiejętności „Blok” z gry jest częścią fabuły i zostaje.
+  const blokStrukturalny = /(?<![\p{L}])blok(?:i|iem|ów|ach|owi|u)?(?![\p{L}])/u;
   for (const wpis of wpisy()) {
     for (const linia of wpis.tresc) {
-      assert.doesNotMatch(linia, technikalia, `wpis ${wpis.naglowek} opisuje interfejs, nie bazę`);
+      assert.doesNotMatch(linia, technikalia, `wpis ${wpis.naglowek} opisuje proces, nie fabułę`);
+      assert.doesNotMatch(linia, blokStrukturalny, `wpis ${wpis.naglowek} opisuje blok strony, nie fabułę`);
     }
   }
 });

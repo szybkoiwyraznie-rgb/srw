@@ -16,8 +16,6 @@ utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Wóz wsparcia [[08-pluton-ms|08. Plutonu MS]] z [[michel-ninorich|Michelem Ninorichem]] jako głównym pilotem i [[eledore-massis|Eledore Massisem]] jako pilotem wspierającym. Podczas patrolu Eledore rozpoznaje cząstki Minovsky’ego i dźwięk nieznanego typu maszyny, a później przypomina dowódcy, że wóz nie powinien zostać ściągnięty na linię ognia.
 
 Podczas eskorty [[medea|Medei]] Eledore wykrywa z wozu dźwięk wrogich mobile suitów. Na polecenie Shiro załoga ma prowadzić klucz tak, żeby nie wszedł w ogień przeciwlotniczy nieprzyjaciela.

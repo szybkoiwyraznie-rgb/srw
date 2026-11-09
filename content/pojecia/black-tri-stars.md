@@ -11,12 +11,11 @@ utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Elitarna trójka pilotów [[zeon|Zeonu]] — [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] — walcząca w trzech [[dom|Domach]]. W czasie walk o [[operacja-odessa|Odessę]] przybywa na front jako posiłki od lady Kycilii i zostaje skierowana przeciw „koniu trojańskiemu” Federacji, czyli [[white-base|White Base]].
 
 [[gaia|Gaia]] dowodzi zespołem i nie zgadza się z lekceważeniem przeciwnika. Po starciu, w którym załoga okrętu wymyka się [[jet-stream-attack|atakowi Jet Stream]], zarządza odwrót, zamiast walczyć do końca.
 }}
+
 {{zrodlo gra=wspolne
 
 Black Tri-Stars (黒い三連星) to elitarna drużyna [[mobile-suit|mobile suitów]] Księstwa [[zeon|Zeonu]] z [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]], złożona z [[gaia|Gai]], [[ortega|Ortegi]] i [[mash|Masha]]; w papierach wojskowych figuruje jako oddział zadań specjalnych przy dowództwie batalionu mobile suitów Sił Szturmowych. Cała trójka trafiła w maju U.C. 0076 do batalionu szkoleniowego powołanego przez Kycilię Zabi po to, by w ogóle wypracować taktykę walki mobile suitów — latali wtedy ciemnogranatowymi Zakami I i nie tworzyli jeszcze zespołu. Drużynę zestawił Gaia tuż przed [[loum|bitwą pod Loum]] ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-11-07).

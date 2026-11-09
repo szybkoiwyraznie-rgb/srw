@@ -13,8 +13,6 @@ utworzono: 2026-10-24
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Czołowy producent [[labor|Laborów]], którego prezesem jest ojciec [[asuma-shinohara|Asumy Shinohary]] — pozostający z jedynym synem w otwartym konflikcie. Dwa miesiące przed wydarzeniami [[srw-oe-ep1-sledztwo-pod-przykrywka|sceny „Śledztwo pod przykrywką”]] firma wypuściła przełomowy system operacyjny [[shinohara-hos|Shinohara HOS]], by zmonopolizować rynek; oprogramowanie trafiło do ponad 80% zarejestrowanych maszyn i do wszystkich dwudziestu dwóch Laborów, które w ostatnim miesiącu wpadły w szał.
 
 Do zakładu firmy w Hachioji wróciły na gruntowną kontrolę wszystkie maszyny [[sily-samoobrony-japonii|Sił Samoobrony]] po incydencie na [[poligon-fuji|poligonie Fuji]]. W tamtejszej serwerowni — w pomieszczeniu, do którego szyfr znają tylko Asuma i jego dziadek — przechowywana jest kopia wzorcowa HOS-a zawierająca całe know-how przedsiębiorstwa. Na prośbę [[connect-force|Connect]] po odbiór kopii przyjeżdżają [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]], podczas gdy Asuma z [[seitaro-sakaki|Sakakim]] potajemnie sprawdza ją na miejscu i znajduje podejrzany program zaszyty bezpośrednio w oryginale. W zakładzie wybucha alarm, a bezzałogowe [[hal-x10-green|HAL-X10/Green]] i [[helldiver|Helldivery]] z ostrą amunicją ruszają do ataku.

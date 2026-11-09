@@ -11,8 +11,6 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Bezimienny żołnierz [[earth-federation|Federacji Ziemskiej]] obecny przy starcie transportu z [[rx-78nt-1-gundam-alex|Alexem]]. Po odpartym ataku [[pluton-cyclops|plutonu Cyclops]] i zakończeniu ładowania kontenera ogłasza start wahadłowca.
 
 Pracuje w obiekcie przejętym na [[zeon|Zeonie]] podczas [[operacja-odessa|operacji Odessa]] i naprędce przystosowanym do wynoszenia ładunków na orbitę. Jego meldunek zamyka przygotowania: kontener jest w środku, a wahadłowiec rusza.

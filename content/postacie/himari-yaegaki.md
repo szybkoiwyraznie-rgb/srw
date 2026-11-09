@@ -15,8 +15,6 @@ utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Pochodzi z Japonii. Studiowała inżynierię, przeskakiwała klasy i ma już magisterkę. Jest w pierwszym roku pracy; przeniesiono ją z 44. Działu Administracji do [[connect-force|Connect Force]]. Nie ma prawa jazdy, źle znosi zimno i lubi kąpiele, yakiniku, ramen, bufety deserowe oraz karmelowe macchiato.
 
 W szkoleniu podstawowym prowadzi odprawę [[seishiro|Seishiro]], wyznacza cele, zdalnie steruje [[exart|Exartem]] i obsługuje symulator. Po treningu dopiero uczy się, jak przesłać dane do centrali.
@@ -39,6 +37,15 @@ Na [[srw-oe-ep2-ryk-dziczy|stacji Connect]] dzieli zachwyt Drugiego Plutonu wido
 
 W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatniej misji epizodu]] to ona potwierdza [[white-base|White Base]] na czujnikach tuż przed spotkaniem, a po samowolnym starcie [[bigro|Bigro]] aktywuje całe uzbrojenie [[exart|Exarta]]. Przy powitaniu załogi okrętu przypomina, że w [[connect-force|Connect Force]] służą już drużyna [[shin-getter-1|Gettera]] i [[mazinger-z|Mazinger Z]].
 }}
+
+{{zrodlo gra=srw-oe
+
+## Dane postaci
+
+- Wiek: 18 lat. Głos w wersji japońskiej: Kana Asumi ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-19).
+- Projekt postaci: 加藤誠. Himari jest bohaterką gry ([srw.wiki.cre.jp, „八重垣ひまり”](https://srw.wiki.cre.jp/wiki/%E5%85%AB%E9%87%8D%E5%9E%A3%E3%81%B2%E3%81%BE%E3%82%8A); sprawdzono 2026-10-19).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -46,9 +53,7 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatniej misji epizodu]] to ona potwierd
 ### Ilustracja 1
 
 ![Himari Yaegaki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Himari%20Yaegaki.png)
-
 }}
-
 
 {{menu gra=srw-oe
 
@@ -64,13 +69,4 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatniej misji epizodu]] to ona potwierd
 |---:|---|---:|---:|---|
 | 1 | **Zauf.** | 1 | 20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
 | 2 | **Przebł.** | 8 | 10 | Cel: ty Efekt: 1 razy — Unik+30% |
-
-}}
-
-{{zrodlo gra=srw-oe
-
-## Dane postaci
-
-- Wiek: 18 lat. Głos w wersji japońskiej: Kana Asumi ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-19).
-- Projekt postaci: 加藤誠. Himari jest bohaterką gry ([srw.wiki.cre.jp, „八重垣ひまり”](https://srw.wiki.cre.jp/wiki/%E5%85%AB%E9%87%8D%E5%9E%A3%E3%81%B2%E3%81%BE%E3%82%8A); sprawdzono 2026-10-19).
 }}

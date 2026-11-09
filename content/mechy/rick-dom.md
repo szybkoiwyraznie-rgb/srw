@@ -16,8 +16,6 @@ utworzono: 2026-11-07
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Kosmiczna wersja [[dom|Doma]], którą [[zolnierz-zeonu|Żołnierz Zeonu]] wystawia w sześciu egzemplarzach w osłonie floty Musai. Maszyna walczy w zwarciu Heat Saberem, a wielka bazooka sięga czterech pól i dostaje premię przeciw okrętom — to wystarcza, by ostrzał Rick Domów stanowił realne zagrożenie dla [[white-base|White Base]].
 
 W tej misji Rick Domy trzymają się blisko krążowników i atakują falami, licząc, że powstrzymają okręt Federacji do przybycia [[zanzibar|Zanzibara]] z [[char-aznable|Charem]]. Ich pilotami są bezimienni żołnierze, więc siła tkwi tu w liczbie, nie w pojedynczym asie.

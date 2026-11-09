@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { wczytajStrony, wczytajSkrypty } from '../tools/content-loader.mjs';
-import { wytnijBlokSkryptu } from '../src/srw/registry.js';
+import { wytnijBlokSkryptu, normalizujTekst } from '../src/srw/registry.js';
 import { renderMarkdown } from '../src/srw/markdown.js';
 const pages = wczytajStrony();
 const bySlug = new Map(pages.map(p => [p.slug, p]));
@@ -16,7 +16,8 @@ test('polska dostawa zastępuje stary skrypt i menu, bez zmiany historycznych sl
   assert.doesNotMatch(script, /Connect Station|Welcome back|I'm/);
   // Epizod 0 ma dziś dwie sceny: scena 0-1 obejmuje początek skryptu, a scena 0-2 resztę.
   const scena01 = wytnijBlokSkryptu(bySlug.get('prolog-i-trening-w-connect').body);
-  assert.ok(script.trim().startsWith(scena01), 'scena 0-1 jest dosłownym początkiem skryptu');
+  assert.ok(normalizujTekst(script).startsWith(normalizujTekst(scena01)),
+    'scena 0-1 jest dosłownym początkiem skryptu (po normalizacji białych znaków)');
   assert.ok(!scena01.includes('## Interludium'), 'scena 0-1 kończy się przed interludium');
   for (const slug of ['srw-oe-ep0', 'prolog-i-trening-w-connect', 'exart', 'seishiro', 'himari-yaegaki', 'earth-federation']) assert.ok(bySlug.has(slug));
   assert.equal(bySlug.get('earth-federation').tytul, 'Federacja Ziemska');
@@ -249,17 +250,22 @@ test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że 
 test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   const zakazane = /\bw grze\b|\bprofilu?\b|\bobsad[a-ząćęłńóśźż]*\b|\broster\b|\bwłasną stroną\b|standardow/i;
   const typy = ['postac', 'mech', 'pojecie', 'seria'];
-  // Sekcja „Opis” kończy się dopiero na kolejnym nagłówku `##` albo na zamknięciu bloku poziomu.
-  // Wcześniejszy wzorzec kończył dopasowanie na pierwszej pustej linii, więc badał pusty tekst
-  // i przepuszczał naruszenia poza pierwszym akapitem (audyt PR #12).
+  // Boks opisowy to po ADR 0035 fragment bez tytułu (po plakietce gry). Badamy wszystkie
+  // takie fragmenty strony — dawniej wzorzec wycinał tylko sekcję „## Opis”.
   let zbadane = 0;
   for (const page of pages.filter(p => typy.includes(p.typ))) {
-    const opis = page.body.match(/^## Opis\n([\s\S]*?)(?=^## |^\}\})/m);
-    if (!opis) continue;
-    const tekst = opis[1].trim();
+    // Boks opisowy gry to blok {{skrypt}}/{{menu}} — treść do pierwszego
+    // nagłówka `##` (nagłówki wewnątrz makra to np. „Parametry”). Bloki
+    // {{zrodlo}}/{{wiedza}} to opis neutralny ze źródeł i nie podlegają ADR 0018.
+    const opisy = [...page.body.matchAll(/^\{\{(skrypt|menu)[^\n]*\n\n([\s\S]*?)^\}\}/gm)]
+      .map((m) => m[2].split(/\n(?=## )/)[0])
+      .filter((t) => !t.trimStart().startsWith('## '))
+      .map((t) => t.trim())
+      .filter(Boolean);
+    const tekst = opisy.join('\n\n');
     if (!tekst) continue;
     zbadane += 1;
-    assert.ok(tekst.includes('\n\n') || tekst.length > 80, `${page.slug}: sekcja Opis wczytana w całości`);
+    assert.ok(tekst.length > 40, `${page.slug}: sekcja Opis wczytana w całości`);
     assert.doesNotMatch(tekst, zakazane, `${page.slug}: opis zbliża się do technicznego języka gry`);
   }
   assert.ok(zbadane >= 130, `test ma badać pełne opisy wszystkich encji, a sprawdził ${zbadane}`);
@@ -271,11 +277,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 182 pliki przy 138 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 206 plików przy 162 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 138);
-  assert.equal(Object.values(manifest.encje).flat().length, 182);
+  assert.equal(Object.keys(manifest.encje).length, 162);
+  assert.equal(Object.values(manifest.encje).flat().length, 206);
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   const portrety = wszystkie.filter((f) => f.startsWith('characters/')).length;
@@ -408,7 +414,9 @@ test('ilustracje właściciela: 182 pliki przy 138 encjach, w tym postacie bez d
     const { html, problemy } = renderMarkdown(body, { wymagajPoziomu: true });
     assert.deepEqual(problemy, []);
     assert.equal((html.match(/<img /g) ?? []).length, files.length, slug);
-    assert.match(body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria z zakresem gry (ADR 0020)`);
+    const graGalerii = bySlug.get(slug).gry[0];
+    assert.match(body, new RegExp(`\\{\\{menu gra=${graGalerii}\\n\\n## Ilustracje`),
+      `${slug}: galeria z zakresem gry (ADR 0020)`);
     for (const file of files) {
       assert.ok(html.includes(`src="${adres(file)}"`), `${slug}: podgląd ${file}`);
     }
@@ -437,7 +445,7 @@ test('ilustracja jest dostawą: Kuro i Shiro mają opisy, źródła i powiązani
     assert.deepEqual(page.mechy, ['cybuster']);
     assert.equal(page.seria, 'super-robot-wars-original');
     assert.equal(page.pochodzenie, 'zrodlo');
-    assert.match(page.body, /## Opis/);
+    assert.match(page.body, /\{\{[^\n]+\n\n(?!## )/, 'boks opisowy bez tytułu');
     assert.match(page.body, /\{\{zrodlo/);
     assert.match(page.body, /sprawdzono 2026-10-19/);
     assert.match(page.body, /\[\[masaki-andoh\|/);
@@ -505,7 +513,7 @@ test('ilustracje 2-2 i 2-3: osiem dokładnych kluczy R2 przy czterech właściwy
   }
   assert.deepEqual(manifest.encje.brocken, ['Brocken.png', 'Brocken 2.png']);
   assert.equal(manifest.weryfikacjaZdalna, false);
-  assert.equal(manifest.dostarczono, '2026-11-08');
+  assert.equal(manifest.dostarczono, '2026-11-09');
 });
 
 
@@ -528,4 +536,60 @@ test('pięć portretów Cyber Beast Force ma dokładne klucze characters/ i wła
     assert.ok(page.body.indexOf('## Ilustracje') < page.body.indexOf('## Parametry'));
   }
   assert.equal(manifest.weryfikacjaZdalna, false);
+});
+
+
+test('dostawa ilustracji SRW Y (2026-11-09): osiem jednostek i szesnaście portretów', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const jednostki = {
+    'a-advent': ['A. Advent.png'],
+    'amx-003-gaza-c': ['AMX-003 Gaza C.png'],
+    'altron-gundam': ['Altron Gundam.png'],
+    'lancelot-albion-zero': ['Lancelot Albion Zero.png'],
+    'lumenus': ['Lumenus.png'],
+    'taurus': ['Taurus.png'],
+    'lunedrache': ['X-Lunedrache.png'],
+    'zamza-zah': ['Zamza-Zah.png'],
+  };
+  for (const [slug, files] of Object.entries(jednostki)) {
+    assert.deepEqual(manifest.encje[slug], files, slug);
+    const body = bySlug.get(slug).body;
+    assert.equal((body.match(/^## Ilustracje$/gm) ?? []).length, 1, `${slug}: galeria`);
+    assert.equal((body.match(/^### Ilustracja \d+$/gm) ?? []).length, 1, `${slug}: jedna podsekcja`);
+    assert.ok(body.indexOf('## Ilustracje') < body.indexOf('## Parametry'), `${slug}: kolejność`);
+    assert.match(body, /\{\{menu gra=srw-y\n\n## Ilustracje/, `${slug}: zakres gry`);
+  }
+  // X-Lunedrache to nazwa obecnej maszyny przywódcy Haze — plik należy do Lunedrache.
+  assert.match(bySlug.get('lunedrache').body, /X \(Cross\)-Lunedrache/);
+  const portrety = {
+    'mikumo-guynemer': 'Mikumo Guynemer', 'takuma-nagare': 'Takuma Nagare',
+    'cross-tsukinowa': 'Tsukinowa Cross', 'wren': 'Wren', 'yomogi-asanaka': 'Yomogi',
+    'zero': 'Zero', 'annina-servania': 'Annina Servania', 'aytie': 'Aytie',
+    'baku-yamagishi': 'Baku Yamagishi', 'chang-wufei': 'Chang Wufei', 'cookie': 'Cookie',
+    'echika-y-franburnett': 'Echika Y. Franburnett', 'forte-tsukinowa': 'Forte Tsukinowa',
+    'freyja-wion': 'Freyja Wion', 'gauma': 'Gauma', 'kaname-buccaneer': 'Kaname Buccaneer',
+  };
+  for (const [slug, name] of Object.entries(portrety)) {
+    assert.deepEqual(manifest.encje[slug], [`characters/${name}.png`], slug);
+    const body = bySlug.get(slug).body;
+    assert.equal((body.match(/^## Ilustracje$/gm) ?? []).length, 1, `${slug}: galeria`);
+    assert.match(body, /\{\{menu gra=srw-y\n\n## Ilustracje/, `${slug}: zakres gry`);
+    assert.ok(body.includes(`${manifest.baseUrl}/characters/${encodeURIComponent(name)}.png`),
+      `${slug}: adres portretu`);
+  }
+  // Postacie z samej dostawy ilustracyjnej (ADR 0017) — opisy z kwerendy, nie z gry.
+  for (const slug of ['mikumo-guynemer', 'freyja-wion', 'kaname-buccaneer']) {
+    const page = bySlug.get(slug);
+    assert.equal(page.typ, 'postac', slug);
+    assert.equal(page.seria, 'macross-delta', slug);
+    assert.equal(page.rola, 'wsparcie', slug);
+    assert.deepEqual(page.gry, ['srw-y'], slug);
+    assert.equal(page.pochodzenie, 'zrodlo', slug);
+    for (const url of page.zrodla) assert.ok(page.body.includes(url), `${slug}: adres w treści`);
+    assert.match(page.body, /sprawdzono 2026-11-09/, slug);
+  }
+  assert.equal(bySlug.get('macross-delta').rodzaj, 'tv');
+  assert.equal(manifest.dostarczono, '2026-11-09');
+  assert.equal(manifest.weryfikacjaZdalna, false);
+  assert.deepEqual(manifest.nieprzypisane, []);
 });

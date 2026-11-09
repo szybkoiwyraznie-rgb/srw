@@ -14,14 +14,18 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-## Opis
-
-Gundam [[chang-wufei|Changa Wufeia]], wyspecjalizowany w walce wręcz. Podwójny trójząb wiązkowy służy do zwarcia, a wysuwane Dragon Fangi pozwalają razić cele także z dystansu.
-
-## Charakterystyka
-
 Gundam pilotowany przez Wufeia. Wyspecjalizowany w walce wręcz, ma znakomitą zwrotność. Jedyną bronią ręczną jest podwójny trójząb wiązkowy, co czyni go skrajnie nastawionym na zwarcie, ale Dragon Fang na obu ramionach pozwalają mu walczyć też na średnim dystansie. Broń ta, oddająca jego miano “dwugłowego smoka”, wysuwa się i chowa dowolnie, a wielostawowa budowa z połączonych kwadratowych segmentów umożliwia wyjątkowo elastyczne ataki.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Altron Gundam — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Altron%20Gundam.png)
+}}
+
 {{menu gra=srw-y
 
 ## Parametry

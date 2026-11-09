@@ -52,133 +52,77 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 ### Baza Federacji / Centrum kontroli startów
 
 **Oficer Federacji:** Chris, wyniki z symulatora są świetne. Ostateczne strojenie zrobimy w Side 6. Wahadłowiec startuje zgodnie z planem.
-
 **Chris:** Przyjęłam.
-
 **Oficer Federacji:** A tak przy okazji, jak się prowadzi Alex?
-
 **Oficer Federacji:** Jak wrażenia z panoramicznego ekranu i magnetycznej powłoki?
-
 **Chris:** Jest tak szybki, że aż strach... Czy tak czuła maszyna nada się do walki?
-
 **???:** Powiedziałbym, że to zależy od pilota.
-
 **Chris:** ...?! A pan to kto?
-
 **Shiro:** Ojej, przepraszam, pani porucznik.
-
 **Shiro:** Chorąży Shiro Amada, dowódca 08. Plutonu MS. Osłaniamy start wahadłowca.
-
 **Chris:** Jestem pilotką testową Alexa, porucznik Christina Mackenzie.
-
 **Chris:** Pana słowa... Tego tak nie zostawię. Twierdzi pan, że nie poradzę sobie z Alexem?
-
 **Shiro:** No, bez nerwów. Symulator i prawdziwa walka to co innego.
-
 **Shiro:** W walce powierza pani maszynie własne życie. Lepsza zbyt czuła niż za mało czuła.
-
 **Chris:** Rozumiem, ale ta maszyna jest...
-
 **Oficer Federacji:** To maszyna dla Newtype'ów. Doceniam umiejętności Chris, ale kto ją opanuje, musi być jakimś potworem.
-
 **Shiro:** Aż taka różnica?
-
 **Chris:** Na symulatorze sam pan zobaczy. Może chce pan spróbować?
-
 **Shiro:** Naprawdę mogę? Bardzo chętnie!
-
 **Oficer Federacji:** Teraz już nie mogę na to pozwolić. Przygotowania do startu już trwają.
-
 **Shiro:** Rozumiem... Szkoda.
-
 **Shiro:** Wracam do patrolu, pani porucznik. Proszę wsiadać bez obaw.
-
 **Chris:** Chętnie zobaczyłabym, co pan potrafi, ale oby tym razem wróg się nie pojawił.
-
 **Shiro:** Ja też. No to lecę!
-
 **Oficer Federacji:** Liczę na pana, chorąży!
 
 ### 08. Oddział MS na patrolu
 
 **Sanders:** Tu Sanders. Sektor północny czysty.
-
 **Karen:** Sektor południowy, Karen Joshua. Czysto...
-
 **Karen:** Ale, rany... Teren jest po prostu okropny.
-
 **Karen:** Kto, do diabła, buduje bazę startową w takich górach?
-
 **Eledore:** No właśnie. Jak już wystrzeliwać wahadłowce, to chyba są bezpieczniejsze miejsca...
-
 **Michel:** Nic nie poradzimy. Korzystamy z bazy Zeonu zdobytej podczas operacji Odessa...
-
 **Sanders:** Brakuje wahadłowców i baz startowych, żeby wynieść w kosmos wojska z każdego regionu. A wszystkiego do Jaburo nie przewieziemy.
-
 **Shiro:** Nie rozluźniajcie się! Wróg najpewniej zwęszył dostawę mobile suita.
-
 **Shiro:** Mogą zaatakować dokładnie w chwili startu wahadłowca.
-
 **Karen:** Jeśli tak...
-
 **Karen:** ...!
-
 **Shiro:** Co się stało, Karen?
-
 **Eledore:** Cząstki Minovsky'ego! Uwaga!
-
 **Eledore:** Ten dźwięk... Zaku... i Dom? ...Nie, to nowy typ!
 
 ### Oddział Cyclops
 
 **Misza:** Kapitanie, za tym szczytem jest baza.
-
 **Steiner:** Nie zostawili jej bez obrony. Muszą mieć linię czujek.
-
 **Garcia:** Wieża obserwacyjna przed nami.
-
 **Andy:** Wykrywam też ciepło mobile suitów. Pewnie jeden pluton.
-
 **Steiner:** Pluton Cyclops przystępuje do szturmu na bazę startową Federacji!
-
 **Steiner:** Garcia i ja niszczymy wieżę. Andy, Misza, przebijcie się przez linię czujek!
-
 **Andy:** Przyjąłem.
-
 **Misza:** Przyjąłem... Zrobimy trochę hałasu!
 
 ### Baza Federacji / Centrum kontroli startów
 
 **Chris:** Wróg?!
-
 **Oficer Federacji:** Chris, resztę zostaw 08. Plutonowi! Szybko, do wahadłowca!
-
 **Chris:** I nie mogę nawet ruszyć do walki...!
 
 ### Początek ataku
 
 **Andy:** Kapitanie, widzę wahadłowiec! Towar jest chyba w kontenerze!
-
 **Steiner:** Powstrzymać start! Zezwalam na użycie całego uzbrojenia!
-
 **Karen:** Nie przejdziesz!
-
 **Misza:** Cholera, mobile suity Federacji...!
-
 **Steiner:** Osłonię cię... Poczekaj chwilę.
-
 **Andy:** Wahadłowiec zaraz nam ucieknie... Wchodzę!
-
 **Steiner:** Czekaj, Andy!
-
 **Shiro:** Karen, wycofaj się!
-
 **Karen:** Tch... Rozwalili mi kamerę...!
-
 **Shiro:** Karen, wracaj do hangaru i wymień uszkodzone części!
-
 **Shiro:** Eledore, Michel, Sanders! Jeśli się tu przebiją, koniec z nami! Nie przepuśćcie ani jednego!
-
 **Sanders:** Przyjąłem!
 
 #### Dialogi warunkowe — obwód obronny
@@ -188,93 +132,63 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 #### Dialogi bojowe — sytuacyjne — powrót Karen
 
 > **Karen:** Wybaczcie... Spóźniłam się na imprezę!
-
 > **Shiro:** Karen, dobrze, że tak szybko wróciłaś.
-
 > **Michel:** Ej, Karen! Nowe części? Przecież to głowa GM-a!
-
 > **Karen:** Zapasowych głów już nie było. A co miałam zrobić?!
-
 > **Eledore:** Wróg wciąż tu jest. Kogo teraz obchodzi wygląd!
-
 > **Shiro:** Właśnie. Nie dajcie się przełamać!
 
 #### Dialogi warunkowe — odwrót oddziału Cyclops
 
 > **Steiner:** Ngh... Siłą dalej się nie przebijemy... Wycofać się do punktu zbornego!
-
 > **Andy:** Trafili mi silniki! Wycofuję się!
-
 > **Garcia:** To koniec...
-
 > **Garcia:** Wycofuję się!
-
 > **Misza:** Tch, że też akurat ja dałem plamę...!
 
 #### Dialogi warunkowe — obrona wahadłowca
 
 > **Shiro:** Przeklęty Zeon... Nikt nie tknie wahadłowca porucznik Mackenzie!
-
 > **Steiner:** Biały mobile suit Federacji... Ale ten biały, który odparł Black Tri-Stars, powinien być pod Odessą.
-
 > **Steiner:** ...To jego wersja seryjna? Jeśli wystawią ich więcej, Zeon nie da rady...
-
 > **Steiner:** Dotrzymał pola Kampferowi Andy'ego... Nie mogę go lekceważyć!
-
 > **Sanders:** Nikt więcej nie zginie na moich oczach! Wahadłowca nie dostaniecie!
-
 > **Steiner:** Hoo... Co za zaciekłość. Osłania towarzyszy własnym ciałem...
-
 > **Steiner:** Ale na szali jest też życie moich ludzi. Nie mogę zawieść w tej misji!
 
 #### Dialogi warunkowe — oddział wsparcia
 
 > **Eledore:** Łoaaa! My tu prawie nie mamy uzbrojenia!
-
 > **Eledore:** Hej, dowódco! Nie kieruj wroga w naszą stronę!
 
 #### Dialogi warunkowe — Shiro i Misha
 
 > **Misza:** He-he-he... W szturmie ten Kampfer pokazuje, co potrafi.
-
 > **Misza:** Nadchodzę! Mobile suicie Federacji!
-
 > **Shiro:** Ngh...! Ta niebieska maszyna... Ależ jest zwinna!
 
 ### Fragment alternatywny 1
 
 > **Shiro:** Rozumiem... Szkoda.
-
 > **Shiro:** No to wracam do patrolu. Pani porucznik, proszę spokojnie wsiadać.
-
 > **Chris:** Chętnie zobaczyłabym, co pan potrafi, ale oby tym razem wróg się nie pojawił.
 
 ### Fragment alternatywny 2
 
 > **Misza:** Tch, że też akurat ja dałem plamę...!
-
 > **Shiro:** Przeklęty Zeon... Nikt nie tknie wahadłowca pani porucznik!
-
 > **Steiner:** Biały mobile suit Federacji... Ale ten biały, który odparł Black Tri-Stars, powinien być pod Odessą.
 
 ### Start wahadłowca
 
 **Eledore:** Dźwięk się oddala... Chyba już nie zamierzają atakować.
-
 **Michel:** Dowódco, słyszał pan?
-
 **Shiro:** Tak. Wycofują się; jakoś wytrzymaliśmy.
-
 **Oficer Federacji:** Chorąży Amada! Jak sytuacja?
-
 **Shiro:** Wszyscy wrogowie zostali odparci.
-
 **Oficer Federacji:** Dobra robota. Dzięki wam kontener jest już załadowany. Dziękujemy za osłonę!
-
 **Chris:** Dziękuję, chorąży Amada.
-
 **Shiro:** Wystarczy Shiro, Chris.
-
 **Żołnierz Federacji:** Wahadłowiec startuje!
 
 Dzięki 08. Plutonowi MS chorążego Shiro Amady pluton Cyclops z Zeonu, który zaatakował start wahadłowca, został odparty.
@@ -286,19 +200,12 @@ Po wykonaniu misji 08. Pluton MS przeniesiono do Jaburo, największej bazy Feder
 ### Baza Federacji / Hangar
 
 **Shiro:** Dobra robota, wszyscy! Czekamy na dalsze rozkazy. Na razie chodźmy coś zjeść!
-
 **Michel:** Hura! Eledore, co bierzesz?
-
 **Eledore:** Pewnie i tak są tylko racje, nie? Chciałbym zjeść coś porządnego.
-
 **Michel:** Wytrzymaj jeszcze trochę. Jak dotrzemy do Jaburo w Ameryce Południowej, na pewno zjemy coś wykwintnego.
-
 **Karen:** Phi... Naprawdę myślisz, że tak łatwo dotrzemy do Jaburo?
-
 **Sanders:** Siły Zeonu ukrywają się wszędzie. Nie możemy tracić czujności.
-
 **Shiro:** Poza tym nasz transportowiec jeszcze nie dotarł. Na razie czekamy w tej bazie.
-
 **Eledore:** Czyli na wykwintne jedzenie jeszcze poczekamy...
 :::
 

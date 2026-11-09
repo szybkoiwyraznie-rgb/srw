@@ -16,8 +16,6 @@ utworzono: 2026-10-19
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Brocken to jednostka z serii [[mobile-police-patlabor|Mobile Police Patlabor]], sterowana przez [[control-ai|Control AI]]. W [[srw-oe|Super Robot Wars OE]] wariant Brocken/Melee walczy Szarżą — atakiem, który odpycha przeciwnika i może spowodować obrażenia od zderzenia lub upadku.
 
 W [[prolog-i-trening-w-connect|szkoleniu podstawowym]] Connect trzy Brockeny sterowane przez [[control-ai|Control AI]] występują jako symulowani przeciwnicy [[exart|Exarta]].
@@ -27,7 +25,21 @@ Podczas [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] cztery Brocken
 Na [[srw-oe-ep1-szalejacy-labor-powraca|wielkim placu budowy]] pięć Brockenów firmy ochroniarskiej szaleje bez pilotów pod kontrolą [[control-ai|Control AI]]. Drugi Pluton i [[raijin-oh|Raijin-Oh]] powstrzymują je tak, by żaden Labor ani pocisk nie opuścił wyznaczonego kwartału.
 
 W [[srw-oe-ep2-czarny-labor|zasadzce na poligonie]] bezzałogowe Brockeny/Melee atakują [[sv2|Drugi Pluton]] obok [[brocken-dzialko-automatyczne|Brockenów z działkiem automatycznym]]. [[kanuka-clancy|Kanuka]] podejrzewa, że ich atak służy za kamuflaż prawdziwego celu.
+
+## Pozostałe jednostki Brocken
+
+- [[brocken-dzialko-automatyczne|Brocken/Działko automatyczne]] — uzbrojony w Szarżę i działko.
 }}
+
+{{zrodlo gra=wspolne
+
+## Pierwowzór
+
+Brocken (Type-7B) to wojskowy [[labor|Labor]] opracowany przez Schaft Enterprises Europe dla armii RFN i NATO. W 1998 roku powstał wariant Type-7B/2B, ceniony za siłę i opancerzenie, a jego standardowe uzbrojenie stanowi 40 mm szybkostrzelne działko — to samo, które w grze nosi wariant [[brocken-dzialko-automatyczne|Brocken/Działko automatyczne]] ([Patlabor Wiki, „Military labor type 7B Brocken”](https://patlabor.fandom.com/wiki/Military_labor_type_7B_%22Brocken%22); sprawdzono 2026-10-19).
+
+Schaft Enterprises Japan korzystał z Brockenów jako maszyn ochrony, dopóki nie przejęła tej roli firma ochroniarska Holly Security Services — w grze występująca jako [[hss|HSS]] ([Patlabor Wiki, „Type-7B Brocken”](https://patlabor.fandom.com/wiki/Type-7B_Brocken); sprawdzono 2026-11-02).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -39,7 +51,6 @@ W [[srw-oe-ep2-czarny-labor|zasadzce na poligonie]] bezzałogowe Brockeny/Melee 
 ### Ilustracja 2
 
 ![Brocken — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Brocken%202.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -57,17 +68,3 @@ W [[srw-oe-ep2-czarny-labor|zasadzce na poligonie]] bezzałogowe Brockeny/Melee 
 | 0 | Szarża | 1100 | 1–2 | +60 | 0 | — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia |
 }}
 
-{{zrodlo gra=wspolne
-
-## Pierwowzór
-
-Brocken (Type-7B) to wojskowy [[labor|Labor]] opracowany przez Schaft Enterprises Europe dla armii RFN i NATO. W 1998 roku powstał wariant Type-7B/2B, ceniony za siłę i opancerzenie, a jego standardowe uzbrojenie stanowi 40 mm szybkostrzelne działko — to samo, które w grze nosi wariant [[brocken-dzialko-automatyczne|Brocken/Działko automatyczne]] ([Patlabor Wiki, „Military labor type 7B Brocken”](https://patlabor.fandom.com/wiki/Military_labor_type_7B_%22Brocken%22); sprawdzono 2026-10-19).
-
-Schaft Enterprises Japan korzystał z Brockenów jako maszyn ochrony, dopóki nie przejęła tej roli firma ochroniarska Holly Security Services — w grze występująca jako [[hss|HSS]] ([Patlabor Wiki, „Type-7B Brocken”](https://patlabor.fandom.com/wiki/Type-7B_Brocken); sprawdzono 2026-11-02).
-}}
-{{menu gra=srw-oe
-
-## Pozostałe jednostki Brocken
-
-- [[brocken-dzialko-automatyczne|Brocken/Działko automatyczne]] — uzbrojony w Szarżę i działko.
-}}

@@ -14,14 +14,18 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-## Opis
-
-Mobilna broń ukończona po wojnie rewolucyjnej. Stabilna moc, dobre prowadzenie i łatwa produkcja sprawiły, że Lumenusy służą wielu instytucjom, w tym [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]].
-
-## Charakterystyka
-
 Broń mobilna ukończona po wojnie rewolucyjnej. Stabilna moc, dobre prowadzenie, łatwa obsługa i produkcja sprawiły, że przyjęło ją wiele instytucji i w krótkim czasie upowszechniła się. To malowanie Sił Nowej Federacji Ziemskiej i współpracujących z nimi instytucji; maszyny te służą na całym świecie.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Lumenus — wariant danych 1 — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Lumenus.png)
+}}
+
 {{menu gra=srw-y
 
 ## Parametry

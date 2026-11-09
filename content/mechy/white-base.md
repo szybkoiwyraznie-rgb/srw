@@ -15,8 +15,6 @@ utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Okręt Sił Federacji, na którego pokładzie schronili się cywile z [[side-7|Side 7]]. Odpiera atak [[char-aznable|Chara]], a następnie kieruje się do [[luna-ii|Luny II]].
 
 Dowodzi nim [[bright-noa|Bright]], lecz ranny [[paolo-cassius|kapitan Paolo]] wciąż wydaje rozkazy ze stanowiska. [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] wspierają obronę jako [[connect-force|Connect Force]].
@@ -28,6 +26,11 @@ W finałowej fazie bitwy mostek rozpoznaje start [[h-bomb-missile|pocisku termoj
 W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatnim pościgu epizodu]] okręt dociera do punktu spotkania z [[connect-force|Connect]] z [[zanzibar|Zanzibarem]] na ogonie. Obronę prowadzą piloci przywykli do przestrzeni, bo maszyny [[08-pluton-ms|08. Plutonu MS]] zostają w hangarze. Po przerwaniu ognia i zniszczeniu [[bigro|Bigro]] okręt wchodzi w skład [[connect-force|Connect Force]] jako [[13-samodzielny-oddzial|13. Samodzielny Oddział]].
 }}
 
+{{zrodlo gra=wspolne
+
+White Base (SCV-70) to okręt szturmowy typu Pegasus należący do Sił Federacji, znany też jako „koń trojański”. W *Mobile Suit Gundam* z 1979 roku jest bazą macierzystą RX-78-2 Gundama ([Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-10-20).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -35,7 +38,6 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatnim pościgu epizodu]] okręt docier
 ### Ilustracja 1
 
 ![White Base — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/White%20Base.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -60,10 +62,4 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatnim pościgu epizodu]] okręt docier
 | 1 | Duże rakiety | 2200 | 1–4 | +20 | 30 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
 | 2 | Podwójne działo główne | 2800 | 1–6 | +30 | 60 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8; **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |
 | 3 | Działo megacząsteczkowe | 3200 | 3–5 | +0 | 80 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8; **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |
-
-}}
-
-{{zrodlo gra=wspolne
-
-White Base (SCV-70) to okręt szturmowy typu Pegasus należący do Sił Federacji, znany też jako „koń trojański”. W *Mobile Suit Gundam* z 1979 roku jest bazą macierzystą RX-78-2 Gundama ([Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-10-20).
 }}

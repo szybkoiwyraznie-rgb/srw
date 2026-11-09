@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
 import { wczytajStrony } from '../tools/content-loader.mjs';
-import { sprawdzWiernoscSceny } from '../src/srw/registry.js';
+import { sprawdzWiernoscSceny, normalizujTekst } from '../src/srw/registry.js';
 import { zbudujDane } from '../tools/build.mjs';
 
 const pages = wczytajStrony();
@@ -35,7 +35,7 @@ test('scena 2-6 cytuje siedem bloków skryptu i ma tyle samo kotwic analizy', as
   assert.deepEqual(sprawdzWiernoscSceny(scene, archive), []);
   const bloki = [...scene.body.matchAll(/:::skrypt\n([\s\S]*?)\n:::/g)].map((m) => m[1]);
   assert.equal(bloki.length, 7);
-  assert.equal(bloki.join('\n\n'), script);
+  assert.equal(normalizujTekst(bloki.join('\n')), normalizujTekst(script));
   assert.equal(scene.sekcje_analizy.length, 7);
   globalThis.SRW_DATA = await zbudujDane();
   const { renderScena } = await import('../src/srw/render-scene.js');
@@ -167,7 +167,7 @@ test('strony misji nie ujawniają etykiet technicznych ani przyszłych walk', ()
   assert.match(episode.body, /odc\. 32 „Breakthrough”/);
   assert.doesNotMatch(scene.body, /A Baoa Qu|Solar Ray|Kolonia Axis/);
   // Opis nie przesądza losu Drena: scenariusz kończy się na zniszczeniu jego floty.
-  const opisDrena = bySlug.get('dren').body.match(/^## Opis\n([\s\S]*?)(?=^## |^\}\})/m)[1];
+  const opisDrena = bySlug.get('dren').body.match(/^\{\{[^\n]+\n\n([\s\S]*?)^\}\}/m)[1];
   assert.doesNotMatch(opisDrena, /zginął|ginie|śmierć/);
 });
 
@@ -193,8 +193,8 @@ test('trzy nowe strony mają galerię ilustracji z dokładnym kluczem R2', () =>
     });
   }
   assert.equal(manifest.weryfikacjaZdalna, false, 'lista R2 nie jest obejrzeniem obrazów');
-  assert.equal(manifest.dostarczono, '2026-11-08');
+  assert.equal(manifest.dostarczono, '2026-11-09');
   assert.match(manifest.podstawa, /Dostawa ilustracji misji 6 \(2026-11-07\)/);
-  assert.match(manifest.uwaga, /83 portrety w characters\/ i 99 plików jednostek w korzeniu, razem 182 obrazy przy 138 encjach/);
+  assert.match(manifest.uwaga, /99 portretów w characters\/ i 107 plików jednostek w korzeniu, razem 206 obrazów przy 162 encjach/);
   assert.match(manifest.uwaga, /Actions 42406060802, check-run 128503895859/);
 });

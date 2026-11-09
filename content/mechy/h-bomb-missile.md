@@ -13,8 +13,6 @@ utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Bezzałogowy pocisk termojądrowy wystrzelony z rozkazu [[mquve|M'Quve'a]] podczas [[operacja-odessa|operacji Odessa]]. Jego użycie łamie [[traktat-antarktyczny|Traktat Antarktyczny]] i ma zmusić [[earth-federation|Federację Ziemską]] do wycofania wojsk.
 
 [[bright-noa|Bright]] przesyła [[amuro-ray|Amurowi]] dane konstrukcyjne oraz kurs pocisku. [[rx-78-2-gundam|Gundam]] przecina zapalnik szablą wiązkową; temperatura spada, a [[marker|Marker]] potwierdza brak reakcji jądrowej.

@@ -12,10 +12,9 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-## Opis
-
 Bezzałogowy system bojowy używany w maszynach [[mobile-suit-gundam-wing-endless-waltz|Gundam Wing]]. W tej misji prowadzi [[taurus|Taurusa]] po stronie napastników.
 }}
+
 {{menu gra=srw-y
 
 ## Parametry

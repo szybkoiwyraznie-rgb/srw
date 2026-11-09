@@ -12,10 +12,9 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-## Opis
-
 System sterujący wrogimi jednostkami. W profilach misji prowadzi [[amx-003-gaza-c|Gazę C]] i [[zamza-zah|Zamza-Zaha]], pozostając bezimiennym przeciwnikiem mieszkańców Yagami.
 }}
+
 {{menu gra=srw-y
 
 ## Parametry

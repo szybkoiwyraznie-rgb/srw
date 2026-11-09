@@ -11,8 +11,6 @@ utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 System prowadzący bezzałogowe [[hal-x10|HAL-X10]] podczas ćwiczeń na poligonie Fuji. Kiedy cele ćwiczebne zaczynają strzelać ostrą amunicją, maszyny nie reagują na próby przejęcia sterowania, a w ich kokpitach nie ma nikogo.
 
 Zachowanie HAL-X10 wskazuje na sabotaż lub awarię, ale przyczyny pozostają niejasne. Nazwa systemu łączy oznaczenie HOS z nazwiskiem Shinohara.
@@ -41,5 +39,4 @@ W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] 
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Rój** | 1 | Zbiorcza z tą samą jedn.; wsparcie w grupie / HP = suma grupy |
-
 }}

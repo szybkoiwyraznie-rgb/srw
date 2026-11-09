@@ -15,8 +15,6 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Członek [[pluton-cyclops|plutonu Cyclops]], pilot [[zaku-ii-kai|Zaku II Kai]]. Wykrywa wieżę obserwacyjną przed bazą. Na rozkaz [[hardy-steiner|Steinera]] niszczy ją razem z dowódcą, podczas gdy pozostali dwaj piloci przebijają się przez linię czujek.
 
 W dialogu odwrotu melduje, że to koniec, i wycofuje się zgodnie z rozkazem.

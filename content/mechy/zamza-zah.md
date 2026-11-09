@@ -16,14 +16,25 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-## Opis
-
 Prototypowy mobile armor [[mobile-suit-gundam-seed-destiny|Sojuszu Ziemskiego]]. Wielka, bardzo mobilna maszyna ma reflektor pozytonowy i wymaga trzech osób do pełnej obsługi, lecz w tej historii służy jako ciężka jednostka wroga.
-
-## Charakterystyka
 
 Prototypowy mobile armor Sojuszu Ziemskiego. Mimo ogromnych rozmiarów jest bardzo mobilny, a szpony i działa wiązkowe pozwalają mu walczyć na każdym dystansie. Z przodu rozpościera reflektor pozytonowy, który zatrzymuje nawet Tannhausera Minervy. Aby wykorzystać jego możliwości, potrzeba trzech pilotów: dowódcy, sternika i działonowego.
 }}
+
+{{zrodlo gra=wspolne
+
+Oficjalna lista mechów *Mobile Suit Gundam SEED Destiny* wymienia Zamza-Zah ([Gundam Official — SEED Destiny, mecha](https://en.gundam-official.com/series/seed-destiny/mecha); sprawdzono 2026-11-09).
+}}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Zamza-Zah — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Zamza-Zah.png)
+}}
+
 {{menu gra=srw-y
 
 ## Parametry
@@ -49,9 +60,4 @@ Prototypowy mobile armor Sojuszu Ziemskiego. Mimo ogromnych rozmiarów jest bard
 | ------: | ------------------------------- | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------------------- |
 |       0 | Wielofazowe działo energetyczne |       3000 | 2–6    |         0 |  10 |        0 |      0 | —       | **Wiązka:** Typ obrażeń. Niektóre bariery mogą je zmniejszyć lub zablokować. |
 |       1 | Hyper Oscillation Crusher       |       3300 | 1–3    |        10 |  10 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.             |
-}}
-
-{{zrodlo gra=wspolne
-
-Oficjalna lista mechów *Mobile Suit Gundam SEED Destiny* wymienia Zamza-Zah ([Gundam Official — SEED Destiny, mecha](https://en.gundam-official.com/series/seed-destiny/mecha); sprawdzono 2026-11-09).
 }}

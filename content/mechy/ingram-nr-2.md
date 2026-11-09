@@ -16,8 +16,6 @@ utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Drugi Ingram Drugiego Plutonu [[sv2|SV2]], pilotowany przez [[isao-ota|Isao Otę]]. Różni się od maszyny nr 1 cięższym działem rewolwerowym i strzelbą policyjną zamiast linki.
 
 Podczas ćwiczeń na poligonie Fuji Ota chce jak najszybciej zniszczyć bezzałogowe [[hal-x10|HAL-X10]], zanim dotrą do zaludnionych terenów.
@@ -51,7 +49,6 @@ W [[mobile-police-patlabor|pierwowzorze]] do Drugiego Plutonu [[sv2|SV2]] trafia
 ### Ilustracja 2
 
 ![Ingram nr 2 — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Ingram%20nr%202%202.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -80,4 +77,3 @@ W [[mobile-police-patlabor|pierwowzorze]] do Drugiego Plutonu [[sv2|SV2]] trafia
 | 1 | Pałka paraliżująca | 2000 | 1–1 | +50 | 0 | — | Brak w tym polu | **Garda (poziom bazowy 1):** Obr+20%; **Ogłuszenie (poziom bazowy 1):** Bez kontry, +Obraż.500 Szansa 30% |
 | 2 | Strzelba policyjna | 2600 | 1–3 | +15 | 20 | 105 | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4; **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia |
 }}
-
