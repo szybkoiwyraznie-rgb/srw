@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-09 13:45
+
+- [[code-geass-lelouch-of-the-rebellion-iii-glorification|Code Geass: Lelouch of the Rebellion III Glorification]] — opis serii rozdzielony na poziomy: powiązanie z [[lancelot-albion-zero|Lancelotem Albion Zero]] zostaje w menu gry, a fakty o filmie (trylogia podsumowująca, odcinki 17–25 *R2*, premiera 26 maja 2018) w bloku źródłowym.
+
 ## 2026-11-09 13:33
 
 - [[takuma-nagare|Takuma Nagare]] — Charakterystyka wraca do dosłownego opisu z gry (wyjątkowo wytrzymałe ciało, wsiada do Getter Robota); sformułowania strony oficjalnej zostają w źródle z notką o rozbieżnościach.
