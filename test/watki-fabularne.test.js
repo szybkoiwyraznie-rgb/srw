@@ -70,10 +70,11 @@ test('kolumna „Odcinek w źródle” podaje odcinek, całą serię albo n/d', 
       const [, zrodloSurowe, odcinek] = komorkiSurowe(wiersz);
       assert.match(odcinek, dozwolone, `${page.slug}: „${odcinek}” nie jest odcinkiem, serią ani n/d`);
       // „n/d” znaczy „wątek autorski gry”, więc źródłem musi być sama gra.
+      const graWLinku = new RegExp(`\\[\\[${page.gra}\\\\?\\|`);
       if (odcinek === 'n/d') {
-        assert.match(zrodloSurowe, /\[\[srw-oe\\?\|/, `${page.slug}: n/d bez źródła gry — ${zrodloSurowe}`);
+        assert.match(zrodloSurowe, graWLinku, `${page.slug}: n/d bez źródła gry — ${zrodloSurowe}`);
       } else {
-        assert.doesNotMatch(zrodloSurowe, /\[\[srw-oe\\?\|/,
+        assert.doesNotMatch(zrodloSurowe, graWLinku,
           `${page.slug}: odcinek podany, a źródłem jest gra — ${zrodloSurowe}`);
       }
     }
