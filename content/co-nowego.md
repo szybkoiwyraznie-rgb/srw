@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-10 00:31
+
+- Dzieje [[lelouch-vi-britannia|Leloucha]] sprzed prologu [[srw-y|SRW Y]] — pakt z C.C. i moc Geass, bunt Czarnych Rycerzy pod maską Zero, tron Britannii i plan Zero Requiem — należą do świata [[code-geass-lelouch-of-the-re-surrection|Code Geass Lelouch of the Re;surrection]]; rok po Zero Requiem świat przebudowany wokół Zjednoczonej Federacji Narodów cieszy się pokojem.
+- Film *Re;surrection* kontynuuje kinową trylogię, którą zamyka [[code-geass-lelouch-of-the-rebellion-iii-glorification|III Glorification]].
+
 ## 2026-11-09 18:30
 
 - [[mechanization-empire|Imperium Mechanizacji]] odrodziło się: [[mechabestia|mechabestie]] w lesie Aokigahara sterują [[labor|Laborami]] i przechodzą przez nową bramę [[mucus-gate-s-mc|Mucus Gate]].
