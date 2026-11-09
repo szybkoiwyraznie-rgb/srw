@@ -18,7 +18,7 @@ Pokojówka odpowiedzialna za sekcję informacyjną A. Adventu. Po uruchomieniu f
 }}
 {{menu gra=srw-y
 
-## Parametry
+## Charakterystyka
 
-Brak potwierdzonego rekordu pilota w tym materiale.
+Pokojówka w rezydencji Franburnettów. Kieruje zespołem wywiadowczym, który zbiera dla Echiki informacje z całego świata. Opanowana, lecz myśli w sposób nieco odbiegający od powszechnych norm, co czyni ją niebezpieczną, bo dla osiągnięcia celu nie cofnie się przed niczym.
 }}

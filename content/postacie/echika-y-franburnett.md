@@ -18,6 +18,10 @@ Czternastoletnia dziedziczka miasta Yagami. W dniu urodzin dowiaduje się, że o
 }}
 {{menu gra=srw-y
 
+## Charakterystyka
+
+Córka właściciela ziemskiego z miasta Yagami. Ma 14 lat. Dziewczyna. Straciła oboje rodziców; mieszkała w ogromnej rezydencji w mieście Yagami z guwernantką, Anniną, i 99 pokojówkami. Nie chodziła do szkoły, lecz Annina przygotowywała ją do roli przyszłej władczyni, ucząc nie tylko polityki i ekonomii, ale nawet sztuki wojennej. Sumienna, we wszystko angażuje się całym sercem i nie znosi przegrywać. Mało obcowała z ludźmi, więc niezgrabnie nawiązuje kontakty, lecz przy bliskich bywa dziecinna, jak przystało na jej wiek.
+
 ## Parametry
 
 | Parametr    | Wartość bazowa |

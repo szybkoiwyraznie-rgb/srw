@@ -14,7 +14,4 @@ utworzono: 2026-11-09
 
 Filmowa wersja trzeciej części historii Leloucha, z której pochodzi konfiguracja Lancelot Albion Zero używana przez Zero. Jego obecność wiąże się tu z szerszym światem Code Geass reprezentowanym w tej historii.
 
-## Encje reprezentowane w bazie
-
-[[lancelot-albion-zero]].
 }}

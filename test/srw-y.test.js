@@ -114,9 +114,40 @@ test('SRW Y: relacje encji prowadzą do epizodu, scen i serii', () => {
   for (const slug of SERIE) {
     const seria = bySlug.get(slug);
     assert.ok(seria.gry.includes('srw-y'), `${slug}: gra`);
-    assert.match(seria.body, /\[\[[a-z0-9-]+\]\]/, `${slug}: encje serii`);
+    const encjeSerii = strony.filter((strona) => strona.seria === slug);
+    assert.ok(encjeSerii.length > 0, `${slug}: relacje encji z frontmattera`);
   }
   const scena = bySlug.get(SCENA);
   assert.ok(scena.postacie.length > 0, `${SCENA}: postacie`);
   assert.ok(Array.isArray(scena.pojecia), `${SCENA}: pojęcia`);
+});
+
+test('SRW Y: opisy encyklopedyczne są widoczne w Markdown, a brakujące pozostają puste', () => {
+  for (const slug of MECHY) {
+    assert.match(bySlug.get(slug).body, /## Charakterystyka\n\n\S/, `${slug}: opis mecha`);
+  }
+  for (const slug of POSTACIE.filter((x) => !['agent', 'zaawansowana-si', 'mobile-doll'].includes(x))) {
+    assert.match(bySlug.get(slug).body, /## Charakterystyka\n\n\S/, `${slug}: opis postaci`);
+  }
+  for (const slug of ['agent', 'zaawansowana-si', 'mobile-doll']) {
+    assert.doesNotMatch(bySlug.get(slug).body, /## Charakterystyka/, `${slug}: nie dopisano niekanonicznego opisu`);
+  }
+});
+
+test('publiczna treść nie zawiera diagnostycznych wstawek ani technicznego indeksu encji', () => {
+  const zakazane = [
+    'Brak zdolności w danych rekordu.',
+    'Brak potwierdzonego rekordu pilota w tym materiale.',
+    'Brak umiejętności w danych rekordu.',
+    'Brak rozkazów ducha w danych rekordu.',
+    'Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny.',
+    'Maszyna nie ma własnych zdolności macierzystych.',
+    'Encje reprezentowane w bazie',
+  ];
+  for (const strona of strony) {
+    const publiczne = `${strona.body}\\n${JSON.stringify(strona.w_gre ?? '')}`;
+    for (const komunikat of zakazane) {
+      assert.doesNotMatch(publiczne, new RegExp(komunikat.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&')), `${strona.slug}: ${komunikat}`);
+    }
+  }
 });

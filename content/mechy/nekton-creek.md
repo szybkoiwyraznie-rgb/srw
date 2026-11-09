@@ -5,7 +5,7 @@ tytul: Nekton Creek
 seria: super-robot-wars-original
 piloci: [mucus]
 w_gre:
-  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_2_3.txt", "profil": "Nekton Creek", "dane": "**Seria:** Super Robot Wars Original\n\n### Macierzyste zdolności maszyny\n\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n\n### Uzbrojenie i wymienione działania\n\n#### Broń i działania z niezerowym selektorem\n\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n| ------: | ------------ | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------ |\n| 0 | Spark | 1100 | 1–4 | +40 | 5 | — | Brak w tym polu | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |\n| 1 | Breakthrough | 1400 | 1–7 | +15 | 15 | — | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej; Bez kontry; Nie do wsparcia ani kontry |\n| 2 | Crash | 2200 | 1–1 | +60 | 10 | — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia |"}'
+  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_2_3.txt", "profil": "Nekton Creek", "dane": "**Seria:** Super Robot Wars Original\n\n### Uzbrojenie i wymienione działania\n\n#### Broń i działania z niezerowym selektorem\n\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n| ------: | ------------ | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------ |\n| 0 | Spark | 1100 | 1–4 | +40 | 5 | — | Brak w tym polu | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |\n| 1 | Breakthrough | 1400 | 1–7 | +15 | 15 | — | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej; Bez kontry; Nie do wsparcia ani kontry |\n| 2 | Crash | 2200 | 1–1 | +60 | 10 | — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia |"}'
 gry: [srw-oe]
 pochodzenie: skrypt
 tagi: [super-robot-wars, mucus]
@@ -37,10 +37,6 @@ W [[srw-oe-ep2-ryk-dziczy|treningu na stacji Connect]] Nekton Creek występuje j
 ## Parametry
 
 **Seria:** Super Robot Wars Original
-
-### Macierzyste zdolności maszyny
-
-Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani innych efektów specjalnych.
 
 ### Uzbrojenie i wymienione działania
 

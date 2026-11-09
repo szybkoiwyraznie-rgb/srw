@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-09 12:00
+
+- [[srw-y|Super Robot Wars Y]] — profile 8 jednostek i 13 postaci pokazują teraz pełne charakterystyki encyklopedyczne z menu gry, obok parametrów, uzbrojenia i umiejętności.
+- [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|Scena „Kwiaty, ninja i urodziny”]] zachowuje osobne linie dialogu i kolejne linie cytatów także w widoku sceny.
+
 ## 2026-11-09 11:35
 
 - [[srw-y|Super Robot Wars Y]] — [[srw-y-ep1|Epizod 1]] prowadzi od parady cesarza Leloucha przez atak na miasto Yagami do uruchomienia [[a-advent|A. Adventu]] i odkrycia Systemu [[nira-kana-i|Nira-Kana-I]].

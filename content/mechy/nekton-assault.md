@@ -6,7 +6,7 @@ seria: super-robot-wars-original
 gry: [srw-oe]
 piloci: [mucus]
 w_gre:
-  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_2_1.txt", "profil": "Nekton Assault", "dane": "**Seria:** Super Robot Wars Original\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Spark | 1000 | 1–4 | +40 | 5 | — | Brak w tym polu | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |\n| 1 | Crash | 1300 | 1–1 | +60 | 10 | — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18% |\n| 2 | Ball Lightning | 1500 | 3–5 | +10 | 15 | — | Brak w tym polu | **Ogłuszenie (poziom bazowy 1):** Bez kontry, +Obraż.500 Szansa 30% |"}'
+  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_2_1.txt", "profil": "Nekton Assault", "dane": "**Seria:** Super Robot Wars Original\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Spark | 1000 | 1–4 | +40 | 5 | — | Brak w tym polu | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |\n| 1 | Crash | 1300 | 1–1 | +60 | 10 | — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18% |\n| 2 | Ball Lightning | 1500 | 3–5 | +10 | 15 | — | Brak w tym polu | **Ogłuszenie (poziom bazowy 1):** Bez kontry, +Obraż.500 Szansa 30% |"}'
 pochodzenie: skrypt
 tagi: [super-robot-wars, mucus]
 utworzono: 2026-10-27
@@ -40,8 +40,6 @@ W [[srw-oe-ep2-ryk-dziczy|ćwiczeniach na stacji]] sylwetki Nekton Assault, obok
 ## Parametry
 
 **Seria:** Super Robot Wars Original
-### Macierzyste zdolności maszyny
-Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani innych efektów specjalnych.
 ### Uzbrojenie i wymienione działania
 #### Broń i działania z niezerowym selektorem
 | Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |

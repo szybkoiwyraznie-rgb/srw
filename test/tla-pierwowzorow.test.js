@@ -210,13 +210,14 @@ test('Federacja Ziemska i zagrożenia cyklu Eldran mają sprawdzone tło bez dom
   assert.match(bySlug.get('invaderzy').body, /Getter Robo Armageddon/);
   assert.match(bySlug.get('muge-empire').body, /Muge Zorbados/);
   assert.doesNotMatch(bySlug.get('srw-oe-ep0').body, /prawdopodobnie nawiązuje/);
-  // Karty serii wymieniają wszystkie dotychczasowe imienne postacie i maszyny swojego świata.
+  // Relacje encji są renderowane z pól frontmattera; strony serii nie
+  // powtarzają już technicznej listy „Encje reprezentowane w bazie”.
   const generyczne = new Set(['zolnierz-jsdf', 'zolnierz-federacji', 'zolnierz-zeonu', 'oficer-federacji', 'oficer-zeonu']);
   for (const seria of pages.filter((p) => p.typ === 'seria')) {
     const czlonkowie = pages.filter((p) => p.seria === seria.slug && !generyczne.has(p.slug));
     for (const encja of czlonkowie) {
-      assert.ok(seria.body.includes(`[[${encja.slug}`),
-        `${seria.slug}: opis serii pomija ${encja.slug}`);
+      assert.equal(encja.seria, seria.slug,
+        `${seria.slug}: relacja encji ${encja.slug} nie pochodzi z pola seria`);
     }
   }
 });

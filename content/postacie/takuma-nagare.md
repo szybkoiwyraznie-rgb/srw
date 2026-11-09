@@ -7,6 +7,8 @@ rola: pilot
 mechy: []
 gry: [srw-y]
 pochodzenie: menu
+zrodla:
+  - https://getterrobot-arc.com/
 tagi: [srw-y, pilot, getter-robo]
 utworzono: 2026-11-09
 ---
@@ -17,6 +19,10 @@ utworzono: 2026-11-09
 Pilot z [[getter-robo-arc|Getter Robo Arc]], który przybywa do miasta Yagami z [[baku-yamagishi|Bakum]]. Zamiast uciekać przed niezwykłym wydarzeniem, chce zobaczyć je z bliska.
 }}
 {{menu gra=srw-y
+
+## Charakterystyka
+
+Pilot Getter Arca. Ma 19 lat. Syn Ryomy Nagarego z pierwszej drużyny Gettera, w gorącej wodzie kąpany. Od urodzenia ma wyjątkowo wytrzymałe ciało: znosi przeciążenia przy pilotowaniu Gettera bez kombinezonu, a rany goją się na nim szybciej niż na innych. Uwielbia onigiri ze sklepu całodobowego. W dzieciństwie stracił matkę, zamordowaną przez nieznanego sprawcę; by go odnaleźć, przybywa z Baku Yamagishim do Laboratorium Saotome. Jakby wiedziony przeznaczeniem, wsiada do Getter Robota i staje do walki z wrogiem ludzkości.
 
 ## Parametry
 
@@ -43,4 +49,9 @@ Pilot z [[getter-robo-arc|Getter Robo Arc]], który przybywa do miasta Yagami z 
 | Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                                      |
 | ---: | -------- | ---------: | -------: | --------------------------------------------------------------------------------- |
 |    1 | Cel.str. |          1 |       20 | Na 1 turę celność 100%.                                                           |
+}}
+
+{{zrodlo gra=wspolne
+
+Oficjalna strona *Getter Robo Arc* przedstawia Takumę Nagarego, Baku Yamagishiego i Kamuia jako członków zespołu Gettera Arca ([Getter Robo Arc — strona oficjalna](https://getterrobot-arc.com/); sprawdzono 2026-11-09).
 }}

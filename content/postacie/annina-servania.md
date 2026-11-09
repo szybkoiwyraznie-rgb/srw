@@ -18,6 +18,10 @@ Guwernantka [[echika-y-franburnett|Echiki]] i dawna asystentka doktora Yagamiego
 }}
 {{menu gra=srw-y
 
+## Charakterystyka
+
+Guwernantka Echiki. Ma 27 lat. Kobieta. Od trzech lat mieszka w rezydencji i uczy Echikę wszystkiego, czego potrzeba do rządzenia. Była asystentką ojca Echiki, naukowca Tetsuro Yagamiego; po jego śmierci w wypadku, zgodnie z jego ostatnią wolą, została guwernantką Echiki. Wykształcona i rozważna, zawsze łagodnie uśmiechnięta, nie wyczuwa jednak atmosfery i czasem mówi lub robi coś zupełnie nie w porę. Mimo to rozumie Echikę lepiej niż ktokolwiek i cieszy się jej bezgranicznym zaufaniem.
+
 ## Parametry
 
 | Parametr    | Wartość bazowa |
@@ -29,10 +33,6 @@ Guwernantka [[echika-y-franburnett|Echiki]] i dawna asystentka doktora Yagamiego
 | Unik        |              0 |
 | Celność     |              0 |
 | SP          |             32 |
-
-**Umiejętności pilota:**
-
-Brak umiejętności w danych rekordu.
 
 **Komendy Ducha:**
 

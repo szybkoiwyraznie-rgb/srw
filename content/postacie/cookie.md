@@ -18,7 +18,7 @@ Pokojówka odpowiedzialna za sekcję gospodarczą A. Adventu. Po starcie fortecy
 }}
 {{menu gra=srw-y
 
-## Parametry
+## Charakterystyka
 
-Brak potwierdzonego rekordu pilota w tym materiale.
+Pokojówka w rezydencji Franburnettów. Kieruje zespołem gospodarczym, który zajmuje się wszystkimi pracami domowymi. Świetna kucharka, przyrządzi dania z całego świata; z radością patrzy, jak Echika rośnie.
 }}

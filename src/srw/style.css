@@ -400,7 +400,7 @@ blockquote {
 .dziennik .data { color: var(--tusz-3); }
 .kroki li { margin: .5em 0; }
 .dziennik ul { margin: .4em 0 .4em 1.2em; padding: 0; }
-.skrypt-tekst { line-height: 1.7; }
+.skrypt-tekst { line-height: 1.7; white-space: pre-line; }
 .stopka-czas { margin: 0 0 4px; }
 
 /* ── Stopka ────────────────────────────────────────────────────── */

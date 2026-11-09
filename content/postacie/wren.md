@@ -18,7 +18,7 @@ Pokojówka odpowiedzialna za sekcję techniczną A. Adventu. Po uruchomieniu sys
 }}
 {{menu gra=srw-y
 
-## Parametry
+## Charakterystyka
 
-Brak potwierdzonego rekordu pilota w tym materiale.
+Pokojówka w rezydencji Franburnettów. Kieruje zespołem mechaników, który dba o infrastrukturę rezydencji. Opiekuńcza starsza siostra, trzyma w ryzach wszystkie 99 pokojówek.
 }}

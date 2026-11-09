@@ -29,12 +29,4 @@ Bezimienny agent VAL-X, który próbuje uprowadzić [[echika-y-franburnett|Echik
 | Unik        |             87 |
 | Celność     |            115 |
 | SP          |             52 |
-
-**Umiejętności pilota:**
-
-Brak umiejętności w danych rekordu.
-
-**Komendy Ducha:**
-
-Brak rozkazów ducha w danych rekordu.
 }}

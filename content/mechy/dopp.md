@@ -6,7 +6,7 @@ seria: mobile-suit-gundam-1979
 gry: [srw-oe]
 piloci: [zolnierz-zeonu]
 w_gre:
-  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_2.txt", "profil": "Dopp", "dane": "**Seria:** Mobile Suit Gundam\n### Macierzyste zdolności maszyny\nBrak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n| ------: | --------------------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |\n| 0 | Karabin maszynowy | 900 | 1–3 | +40 | 5 | — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4 |\n| 1 | Rakiety powietrze-powietrze | 1400 | 1–5 | +10 | 5 | — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4<br>**Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |"}'
+  srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_1_2.txt", "profil": "Dopp", "dane": "**Seria:** Mobile Suit Gundam\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n| ------: | --------------------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |\n| 0 | Karabin maszynowy | 900 | 1–3 | +40 | 5 | — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4 |\n| 1 | Rakiety powietrze-powietrze | 1400 | 1–5 | +10 | 5 | — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren \"Pow\": Cel+50% Atk x1.4<br>**Na okręty (poziom bazowy 1):** \"Okręt-matka\" \"Okręt\": Cel+70% Atk x1.8 |"}'
 pochodzenie: skrypt
 zrodla:
   - https://gundam.fandom.com/wiki/Dopp
@@ -39,10 +39,6 @@ W [[mobile-suit-gundam-1979|pierwowzorze]] Dopp to myśliwiec atmosferyczny, kt�
 Karabin maszynowy i rakiety powietrze-powietrze dają premię przeciw celom latającym, a rakiety są skuteczne również przeciw okrętom.
 
 **Seria:** [[mobile-suit-gundam-1979|Mobile Suit Gundam]]
-
-### Macierzyste zdolności maszyny
-
-Maszyna nie ma własnych zdolności macierzystych. Nie wyklucza to efektów grupy, stosu, wyposażenia ani scenariusza.
 
 ### Uzbrojenie i wymienione działania
 

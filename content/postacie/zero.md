@@ -18,6 +18,10 @@ Zamaskowany doradca Czarnych Rycerzy. W tej historii jest Suzaku Kururugim, któ
 }}
 {{menu gra=srw-y
 
+## Charakterystyka
+
+Główny doradca Czarnych Rycerzy. W czarnym Knightmare Frame walczy, by wykorzenić terroryzm i konflikty. Naprawdę to Suzaku, który spełnia życzenie Leloucha.
+
 ## Parametry
 
 | Parametr    | Wartość bazowa |

@@ -5,6 +5,9 @@ tytul: "Code Geass Lelouch of the Re;surrection"
 rodzaj: film
 gry: [srw-y]
 pochodzenie: menu
+zrodla:
+  - https://geass.jp/lelouch_10th/
+  - https://www.animenewsnetwork.com/encyclopedia/anime.php?id=21251
 tagi: [code-geass, knightmare-frame, film]
 utworzono: 2026-11-09
 ---
@@ -16,7 +19,11 @@ Rok 2010 kalendarza imperialnego. Supermocarstwo, Święte Imperium Britannii, n
 
 ---
 
-## Encje reprezentowane w bazie
+}}
 
-[[zero]].
+{{zrodlo gra=wspolne
+
+Oficjalny indeks projektu Code Geass obejmuje materiały dotyczące filmu *Code Geass: Lelouch of the Re;surrection* ([Code Geass 10th Anniversary](https://geass.jp/lelouch_10th/); sprawdzono 2026-11-09).
+
+Wpis encyklopedyczny filmu odnotowuje *Code Geass: Lelouch of the Re;surrection* oraz postacie Leloucha i Suzaku ([Anime News Network — Code Geass: Lelouch of the Re;surrection](https://www.animenewsnetwork.com/encyclopedia/anime.php?id=21251); sprawdzono 2026-11-09).
 }}

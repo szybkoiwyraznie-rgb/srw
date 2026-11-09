@@ -58,6 +58,28 @@ test('blok :::skrypt pokazuje formatowanie wizualne, bez znaczników md', () => 
   assert.ok(!html.includes('<pre'));
 });
 
+test('blok :::skrypt zachowuje podział każdej linii dialogu', () => {
+  const md = [
+    ':::skrypt',
+    '**A:** pierwsza kwestia',
+    '**B:** druga kwestia',
+    '',
+    '> **A:** cytat pierwszy',
+    '> **B:** cytat drugi',
+    ':::',
+    '',
+  ].join('\n');
+  const { html } = renderMarkdown(md, { resolveLink: resolver });
+  assert.match(html, /pierwsza kwestia\n<strong>B:<\/strong> druga kwestia/);
+  assert.match(html, /cytat pierwszy\n<strong>B:<\/strong> cytat drugi/);
+});
+
+test('zachowanie łamań linii dotyczy tylko bloku :::skrypt', () => {
+  const zwykly = renderMarkdown('pierwsza linia\ndruga linia\n\n> cytat pierwszy\n> cytat drugi\n', { resolveLink: resolver });
+  assert.match(zwykly.html, /<p>pierwsza linia druga linia<\/p>/);
+  assert.match(zwykly.html, /<blockquote><p>cytat pierwszy cytat drugi<\/p><\/blockquote>/);
+});
+
 test('treść jest escapowana przed dodaniem znaczników', () => {
   const { html } = renderMarkdown('<script>alert(1)</script>', { resolveLink: resolver });
   assert.ok(!html.includes('<script>'));

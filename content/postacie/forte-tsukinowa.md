@@ -18,6 +18,10 @@ Młoda NINJA z oddziału Haze i podwładna [[cross-tsukinowa|Crossa]]. Dostarcza
 }}
 {{menu gra=srw-y
 
+## Charakterystyka
+
+NINJA (New Infinity Neuron - Japanese Assassin), żołnierz sił specjalnych wywodzący się od dawnych japońskich ninja, członkini grupy NINJA Haze z Tajnych Sił Specjalnych. Ma 17 lat. Kobieta. Jako NINJA ma niewielkie doświadczenie i pod każdym względem jest jeszcze niedojrzała, lecz wrodzony optymizm pozwala jej stawiać czoło trudnościom. Ma spory talent, ale brak jej doświadczenia i umiejętności, by go wykorzystać, więc wątpiono, czy poradzi sobie sama. Mimo to z decyzji przywódcy Haze, Crossa Tsukinowy, otrzymała zadanie ochrony Echiki Y. Franburnett.
+
 ## Parametry
 
 | Parametr    | Wartość bazowa |
