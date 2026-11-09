@@ -260,7 +260,7 @@ test('lista serii ma filtr Gra i tylko jego', () => {
   const poGrze = renderListe('seria', { gra: 'srw-oe' });
   assert.deepEqual(linkiSerii(poGrze), serie.filter((s) => (s.gry ?? []).includes('srw-oe')).map((s) => s.slug).sort());
   assert.match(poGrze, /<option value="srw-oe" selected>/, 'wybór widać w selektorze');
-  assert.match(poGrze, /Serie<span class="filtru-jest">— Super Robot Wars OE/, 'nagłówek nazywa filtr');
+  assert.match(poGrze, /Serie <span class="filtru-jest">— Super Robot Wars OE/, 'nagłówek nazywa filtr');
 
   const obca = renderListe('seria', { gra: 'nie-ma-takiej-gry' });
   assert.deepEqual(linkiSerii(obca), []);
