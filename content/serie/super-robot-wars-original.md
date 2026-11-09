@@ -19,7 +19,7 @@ Do Super Robot Wars Original należą w [[srw-oe|Super Robot Wars OE]] [[exart|E
 
 ## Opis
 
-W *Super Robot Wars Y* do oryginalnych elementów świata należą [[echika-y-franburnett|Echika Y. Franburnett]], [[annina-servania|Annina Servania]], [[cross-tsukinowa|Cross Tsukinowa]] i grupa [[ninja|NINJA]]. Ich historię splatają [[a-advent|A. Advent]], [[lunedrache|Lunedrache]], [[lumenus|Lumenus]] oraz [[nira-kana-i|System Nira-Kana-I]]. Wśród postaci i obsady są [[agent|Agent]], [[annina-servania|Annina Servania]], [[aytie|Aytie]], [[cookie|Cookie]], [[cross-tsukinowa|Cross Tsukinowa]], [[echika-y-franburnett|Echika Y. Franburnett]], [[forte-tsukinowa|Forte Tsukinowa]], [[wren|Wren]] i [[zaawansowana-si|Zaawansowana SI]].
+W *Super Robot Wars Y* do oryginalnych elementów świata należą [[echika-y-franburnett|Echika Y. Franburnett]], [[annina-servania|Annina Servania]], [[cross-tsukinowa|Cross Tsukinowa]] i grupa [[ninja|NINJA]]. Ich historię splatają [[a-advent|A. Advent]], [[lunedrache|Lunedrache]], [[lumenus|Lumenus]] oraz [[nira-kana-i|System Nira-Kana-I]]. W obsadzie gry są też [[agent|Agent]], [[aytie|Aytie]], [[cookie|Cookie]], [[forte-tsukinowa|Forte Tsukinowa]], [[wren|Wren]] i [[zaawansowana-si|Zaawansowana SI]].
 }}
 {{zrodlo gra=wspolne
 

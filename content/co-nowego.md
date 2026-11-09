@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-09 15:40
+
+- [[srw-y|Super Robot Wars Y]] ma na stronie komplet danych wydawniczych: 28 sierpnia 2025 na PlayStation 5, Nintendo Switch i PC, z cytatem ze strony wydawcy. Strona [[super-robot-wars-original|Super Robot Wars Original]] nie powtarza już dwukrotnie tej samej obsady.
+
 ## 2026-11-09 15:22
 
 - Bohaterowie z prologu prowadzą przez obie przygody: [[koji-kabuto|Koji Kabuto]], [[amuro-ray|Amuro Ray]], [[bright-noa|Bright Noa]] i [[char-aznable|Char Aznable]] mają na stronach także swoje sceny z [[srw-y|SRW Y]].
