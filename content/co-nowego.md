@@ -1,12 +1,18 @@
 # Co nowego
 
+## 2026-11-09 11:27
+
+- Wspólne — W serialu [[tokwan|Tokwan]] jest kapitanem [[zeon|Zeonu]] i zastępcą [[char-aznable|Chara]] na [[zanzibar|Zanzibarze]]; określenie go porucznikiem w odcinku 32 pozostaje nierozstrzygniętą rozbieżnością. W [[srw-oe|Super Robot Wars OE]] nosi stopień porucznika.
+
 ## 2026-11-08 12:30
 
-- [[srw-oe|SRW OE]] — Tło [[tokwan|Tokwana]] doprecyzowane: w serialu porucznikiem jest dopiero jako zastępca [[char-aznable|Chara]] na [[zanzibar|Zanzibarze]], a zwrot „poruczniku” z odcinka 32 część opracowań tłumaczy jako błąd, część jako pośmiertną degradację za opuszczenie Kalifornii. W kampanii OE tytuł porucznika jest konsekwentny, a status asa i praca w MIP pochodzą z późniejszych materiałów.
+- Wspólne — Tło [[tokwan|Tokwana]] doprecyzowane: w serialu jest kapitanem i zastępcą [[char-aznable|Chara]] na [[zanzibar|Zanzibarze]], a zwrot „poruczniku” z odcinka 32 część opracowań tłumaczy jako błąd, część jako możliwą pośmiertną degradację za opuszczenie Kalifornii. Status asa i praca w MIP pochodzą z późniejszych materiałów.
+- [[srw-oe|SRW OE]] — W kampanii Tokwan jest porucznikiem.
 
 ## 2026-11-08 10:44
 
-- [[srw-oe|SRW OE]] — Tło [[tokwan|Tokwana]] rozdziela stopnie z różnych kontekstów: w kampanii OE jest porucznikiem, a w serialu kapitanem. Informacje o statusie asa i pracy w MIP pochodzą z późniejszych materiałów.
+- Wspólne — W serialu [[tokwan|Tokwan]] jest kapitanem. Informacje o statusie asa i pracy w MIP pochodzą z późniejszych materiałów.
+- [[srw-oe|SRW OE]] — Tokwan w kampanii jest porucznikiem.
 
 ## 2026-11-08 10:40
 
