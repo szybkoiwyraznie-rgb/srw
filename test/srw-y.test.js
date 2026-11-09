@@ -43,22 +43,31 @@ const POJECIA = [
   'nunnally-vi-britannia', 'tetsuya-tsurugi', 'chizuru-nambara', 'hyoma-aoi',
 ];
 const POSTACIE_Z_DIALOGU = {
-  'Echika Y. Franburnett': 'echika-y-franburnett',
-  'Annina Servania': 'annina-servania',
-  Tetsuya: 'tetsuya-tsurugi',
-  Koji: 'koji-kabuto',
-  'Chizuru Nambara': 'chizuru-nambara',
-  'Hyoma Aoi': 'hyoma-aoi',
+  Agent: 'agent',
   Amuro: 'amuro-ray',
+  'Annina Servania': 'annina-servania',
+  Aytie: 'aytie',
+  'Baku Yamagishi': 'baku-yamagishi',
   'Bright Noa': 'bright-noa',
-  'Heero Yuy': 'heero-yuy',
-  'Duo Maxwell': 'duo-maxwell',
-  'Quatre Raberba Winner': 'quatre-raberba-winner',
-  'Trowa Barton': 'trowa-barton',
   'Chang Wufei': 'chang-wufei',
-  'Forte Tsukinowa': 'forte-tsukinowa',
+  'Chizuru Nambara': 'chizuru-nambara',
+  Cookie: 'cookie',
   'Cross Tsukinowa': 'cross-tsukinowa',
+  'Duo Maxwell': 'duo-maxwell',
+  'Echika Y. Franburnett': 'echika-y-franburnett',
+  'Forte Tsukinowa': 'forte-tsukinowa',
+  Gauma: 'gauma',
+  'Heero Yuy': 'heero-yuy',
+  'Hyoma Aoi': 'hyoma-aoi',
+  Koji: 'koji-kabuto',
   'Nunnally vi Britannia': 'nunnally-vi-britannia',
+  'Quatre Raberba Winner': 'quatre-raberba-winner',
+  'Takuma Nagare': 'takuma-nagare',
+  Tetsuya: 'tetsuya-tsurugi',
+  'Trowa Barton': 'trowa-barton',
+  Wren: 'wren',
+  'Yomogi Asanaka': 'yomogi-asanaka',
+  Zero: 'zero',
 };
 const KAMEE_Z_INNYCH_GIER = ['koji-kabuto', 'amuro-ray', 'bright-noa'];
 const SCENA = 'srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny';
@@ -144,10 +153,9 @@ test('SRW Y: relacje encji prowadzą do epizodu, scen i serii', () => {
   assert.ok(Array.isArray(scena.pojecia), `${SCENA}: pojęcia`);
 });
 
-test('SRW Y: głosy prologu są rozliczone w obsadzie, haśle wiki albo istniejącym profilu', () => {
+test('SRW Y: wszyscy mówcy sceny 1-1C są rozliczeni w obsadzie, hasłach wiki albo istniejących profilach', () => {
   const scena = bySlug.get(SCENA);
-  const fragment = skrypt.split('### Parada cesarza Leloucha')[1].split('### Rezydencja Franburnettów')[0];
-  const mowiacy = [...fragment.matchAll(/^\*\*([^*]+):\*\*/gm)].map((match) => match[1]);
+  const mowiacy = [...skrypt.matchAll(/^\s*>?\s*\*\*([^*]+):\*\*/gm)].map((match) => match[1]);
   assert.ok(mowiacy.length > 0, 'skrypt zawiera nazwanych mówców');
   for (const nazwa of mowiacy) {
     if (nazwa === 'Prezenter') continue;
