@@ -14,8 +14,6 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Główny pilot [[hover-truck|Hover Trucka]] w tej misji, z [[eledore-massis|Eledore Massisem]] jako wsparciem. Wyjaśnia, że baza startowa została zdobyta na [[zeon|Zeonie]] podczas [[operacja-odessa|operacji Odessa]]. Po powrocie [[karen-joshua|Karen]] od razu rozpoznaje zamontowaną głowę GM-a.
 
 W hangarze żartuje z Eledore o wykwintnym jedzeniu i wygląda na nie po dotarciu do [[jaburo|Jaburo]], choć na razie oddział czeka na transportowiec.

@@ -15,8 +15,6 @@ utworzono: 2026-11-09
 ---
 {{zrodlo gra=wspolne
 
-## Opis
-
 Główna wokalistka taktycznego zespołu muzycznego Walküre ze serialu [[macross-delta|*Macross Delta*]], zwana „Tajemniczą Wenus”; jej hasło to „Music is mystery!”. Śpiewaczek Walküre używa się na polu walki, bo ich głos tłumi syndrom Vár, więc Mikumo i jej towarzyszki wspierają lotnictwo Delta Flight ([Macross Wiki, „Mikumo Guynemer”](https://macross.fandom.com/wiki/Mikumo_Guynemer); sprawdzono 2026-11-09).
 }}
 

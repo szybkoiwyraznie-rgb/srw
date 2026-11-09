@@ -17,10 +17,9 @@ utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Świat Super Robot Wars OE łączy historie różnych serii o wielkich robotach. [[srw-oe-ep0|Prolog]] przedstawia osłabioną [[earth-federation|Federację Ziemską]], samodzielnie zbrojące się państwa i kolonie oraz zagrożenia związane z nieznanymi energiami. W [[uc-0079|U.C. 0079]] [[seishiro|Seishiro Kusanagi]] i [[himari-yaegaki|Himari Yaegaki]] pracują w [[connect-force|Connect Force]], gdzie rozpoczyna się szkolenie na [[exart|Exarcie]].
 }}
+
 {{zrodlo gra=srw-oe
 
 ## Dane o grze

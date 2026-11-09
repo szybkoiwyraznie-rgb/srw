@@ -16,8 +16,6 @@ utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Bezzałogowy ciężki Labor prototypowy Sił Samoobrony, ćwiczący na poligonie Fuji. Podczas wspólnych manewrów wymyka się spod kontroli i otwiera ogień ostrą amunicją, zanim ktokolwiek zdąży przejąć sterowanie. Jego pancerz i siła ognia są o klasę wyżej niż policyjne Labory, dlatego [[sv2|SV2]] nie jest w stanie zatrzymać go własnymi środkami.
 
 Maszyną nie kieruje człowiek, lecz system [[shinohara-hos|HOS]]. Kiedy cele ćwiczebne zaczynają strzelać, w kokpitach HAL-X10 nie ma żadnych oznak życia.
@@ -41,7 +39,6 @@ W pierwowzorze HAL-X10 to doświadczalny ciężki [[labor|Labor]] szturmowy, zbu
 ### Ilustracja 2
 
 ![HAL-X10 — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/HAL-X10%202.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -60,4 +57,3 @@ W pierwowzorze HAL-X10 to doświadczalny ciężki [[labor|Labor]] szturmowy, zbu
 | 1 | 9-lufowa wyrzutnia rakiet | 900 | 1–5 | +20 | 20 | — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |
 | 2 | Wyrzutnia ATM | 2000 | 1–4 | +10 | 15 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
 }}
-

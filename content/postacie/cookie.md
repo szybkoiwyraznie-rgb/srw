@@ -12,9 +12,12 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-## Opis
-
 Pokojówka odpowiedzialna za sekcję gospodarczą A. Adventu. Po starcie fortecy kieruje opieką nad mieszkańcami miasta.
+}}
+
+{{menu gra=srw-y
+
+Pokojówka w rezydencji Franburnettów. Kieruje zespołem gospodarczym, który zajmuje się wszystkimi pracami domowymi. Świetna kucharka, przyrządzi dania z całego świata; z radością patrzy, jak Echika rośnie.
 }}
 
 {{menu gra=srw-y
@@ -22,10 +25,4 @@ Pokojówka odpowiedzialna za sekcję gospodarczą A. Adventu. Po starcie fortecy
 ## Ilustracje
 
 ![Cookie — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Cookie.png)
-}}
-{{menu gra=srw-y
-
-## Charakterystyka
-
-Pokojówka w rezydencji Franburnettów. Kieruje zespołem gospodarczym, który zajmuje się wszystkimi pracami domowymi. Świetna kucharka, przyrządzi dania z całego świata; z radością patrzy, jak Echika rośnie.
 }}

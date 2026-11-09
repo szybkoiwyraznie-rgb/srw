@@ -14,8 +14,6 @@ utworzono: 2026-11-08
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Porucznik [[zeon|Zeonu]] służący na [[zanzibar|Zanzibarze]] i pilot [[bigro|Bigro]]. Podczas pościgu za [[white-base|White Base]] prosi [[char-aznable|Chara]] o zgodę na wylot, przekonując, że jego [[mobile-armor|mobile armor]] jest dość szybki, by dogonić okręt, i że przy dużych prędkościach żaden [[mobile-suit|mobile suit]] mu nie dorówna. Dowódca odmawia: maszyna nie jest jeszcze dostrojona.
 
 Powód jest osobisty. Tokwan zna [[dren|Drena]] od czasów rekruckich i chce pomścić [[patrolowa-flota-camel|flotę Camel]], więc po ogłoszonym przez [[connect-force|Connect]] przerwaniu ognia startuje bez rozkazu. W walce lekceważy [[guntank|Guntanka]] jako „podróbkę czołgu”, a wezwania [[seishiro|Seishira]] do przerwania starcia kwituje zdaniem, że prywatna firma nie będzie rządzić na polu bitwy.

@@ -12,8 +12,6 @@ utworzono: 2026-10-27
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Maszyny bojowe ze świata, z którego przybywa [[gurren-team|drużyna Gurren]], wykorzystywane przez zwierzoludzi do atakowania ludzkich osad. Gdy [[simon|Simon]], [[kamina|Kamina]], [[yoko|Yoko]] i [[boota|Boota]] przebijają się wiertłem [[gurren-lagann|Gurren Laganna]] do podziemnej pieczary w [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]], Yoko bierze stojącego przed nimi [[shin-getter-1|Shin Gettera-1]] za Gunmena, lecz Kamina od razu wyczuwa, że nieznany robot nie przypomina ich dotychczasowych przeciwników.
 
 Podczas odprawy w [[akademia-hinobori|Akademii Hinobori]] okazuje się, że ani w bazie danych [[exart|Exarta]] przeszukiwanej przez [[himari-yaegaki|Himari]], ani w zapiskach [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] i [[saurersi|Saurersów]] nie ma najmniejszej wzmianki o Gunmenach ani zwierzoludziach. Dopiero to uświadamia obu stronom, że [[gurren-team|Gurren Team]] po walce z Viralem przedostał się na Ziemię z innego wszechświata.

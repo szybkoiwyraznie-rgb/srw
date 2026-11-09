@@ -15,8 +15,6 @@ utworzono: 2026-11-09
 ---
 {{zrodlo gra=wspolne
 
-## Opis
-
 Główna bohaterka serialu [[macross-delta|*Macross Delta*]]: dziewczyna z królestwa Windermery, która uciekła przed zaaranżowanym małżeństwem, żeby śpiewać w taktycznym zespole Walküre. Jej hasło to „Music is energy!”, a czerwień to jej barwa w zespole ([Macross Wiki, „Freyja Wion”](https://macross.fandom.com/wiki/Freyja_Wion); sprawdzono 2026-11-09).
 }}
 

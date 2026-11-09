@@ -15,8 +15,6 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Członek [[pluton-cyclops|plutonu Cyclops]], pilot [[kampfer-bazooka|Kampfera/Bazooka]]. Wykrywa ciepło mobile suitów obrońców, a podczas ataku pierwszy dostrzega wahadłowiec i podejrzewa, że towar znajduje się w kontenerze.
 
 Chce zdążyć przed startem i rusza naprzód mimo ostrzeżenia [[hardy-steiner|Steinera]]. W warunkowym dialogu odwrotu melduje trafione silniki i wycofuje się.

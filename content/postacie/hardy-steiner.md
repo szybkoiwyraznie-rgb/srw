@@ -15,8 +15,6 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Kapitan [[pluton-cyclops|plutonu Cyclops]], pilot [[zaku-ii-kai|Zaku II Kai]]. Przewiduje linię czujek wokół bazy i dzieli oddział: razem z [[gabriel-ramirez-garcia|Garcią]] niszczy wieżę, a [[andy-strauss|Andy]] i [[mikhail-kaminsky|Misza]] mają przebić się przez czujki.
 
 Rozpoznaje wagę białego mobile suita Federacji i nie lekceważy jego zdolności. Jednocześnie przypomina, że na szali leży życie jego ludzi. Gdy dalsze przebijanie się siłą nie działa, zarządza odwrót do punktu zbornego.

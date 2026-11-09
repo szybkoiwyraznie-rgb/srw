@@ -14,8 +14,6 @@ utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Szef [[connect-force|Connect]], którego [[himari-yaegaki|Himari]] rozpoznaje jako „dyrektora Douglasa”. Przerywa rozmowę w salonie pilnym rozkazem: [[seishiro|Seishiro]] ma wylecieć na pomoc nowemu okrętowi Federacji.
 
 Kiedy Seishiro przypomina o neutralności organizacji, Suol wyjaśnia, że na pokładzie schronili się cywile z [[side-7|Side 7]], i oczekuje natychmiastowego wykonania rozkazu.
@@ -28,6 +26,12 @@ Po [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] [[seishiro|Seishiro
 
 W [[srw-oe-ep2-ryk-dziczy|„Ryku dziczy”]] prowadzi na [[stacja-connect|stacji]] ćwiczenia z [[cyber-beast-force|Cyber Beast Force]] i Drugim Plutonem. Cele to hologramy Mucus wyświetlane przez drony; Suol zwiększa ich siłę ponad ostatnie dane bojowe. Pozwala pilotom ścierać się charakterami, wierząc, że ułatwi im to wzajemne zaufanie. Zachęca też Seishira do przyjęcia uwag Ryo o koncentracji i złości.
 }}
+
+{{zrodlo gra=wspolne
+
+Connect jest oryginalną organizacją tej gry, a nie nawiązaniem do innej serii ([TV Tropes, *Characters in Super Robot Wars OE*](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-20).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -35,9 +39,4 @@ W [[srw-oe-ep2-ryk-dziczy|„Ryku dziczy”]] prowadzi na [[stacja-connect|stacj
 ### Ilustracja 1
 
 ![Suol Douglas — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Suol%20Douglas.png)
-
-}}
-{{zrodlo gra=wspolne
-
-Connect jest oryginalną organizacją tej gry, a nie nawiązaniem do innej serii ([TV Tropes, *Characters in Super Robot Wars OE*](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-20).
 }}

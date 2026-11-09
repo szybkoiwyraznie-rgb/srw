@@ -16,8 +16,6 @@ utworzono: 2026-11-07
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Krążownik [[zeon|Zeonu]] z Patrolowej Floty Camel, który zastępuje drogę [[white-base|White Base]] w drodze do Connect. Trzy okręty tej klasy stoją przed okrętem Federacji, gdy [[zanzibar|Zanzibar]] [[char-aznable|Chara]] zamyka tyły — dlatego [[bright-noa|Bright]] rozkazuje przebić się przez flotę w ciągu pięciu minut, zanim oba zgrupowania wezmą go w kleszcze.
 
 Uzbrojenie okrętowe obejmuje małe rakiety klasy C, duże rakiety typu 145 i działo megacząsteczkowe. Rakiety i działo mają premię przeciw celom okrętowym, więc ostrzał Musai jest groźny przede wszystkim dla samej [[white-base|White Base]], a nie dla [[mobile-suit|mobile suitów]].

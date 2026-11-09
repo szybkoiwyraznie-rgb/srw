@@ -3,6 +3,8 @@
 Przeniesiono z witryny 2026-10-19 (ADR 0018). Historyczne notatki opisują stan
 w chwili zapisu; nie zastępują aktualnych decyzji i zasad.
 
+- 2026-11-09 12:05–13:40 — układ boksów stron encji bez tytułów opisowych (ADR 0035), kryterium udziału w grze i hasła dla osób wspominanych (ADR 0013), mówcy prologu SRW Y w Postaciach, ciaśniejsze odstępy między boksami.
+
 # Co nowego
 
 Dziennik zmian widoczny w witrynie pod `#/co-nowego`. Prowadzi go agent przy każdym PR:

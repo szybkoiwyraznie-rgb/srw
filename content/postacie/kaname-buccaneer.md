@@ -15,8 +15,6 @@ utworzono: 2026-11-09
 ---
 {{zrodlo gra=wspolne
 
-## Opis
-
 Liderka taktycznego zespołu Walküre ze serialu [[macross-delta|*Macross Delta*]] i jego najstarsza stażem śpiewaczka — „starsza siostra” grupy, która pilnuje jej grafiku i odpraw; jej hasło to „Music is Life”. Zaczynała jako solistka z przebojem AXIA, zanim zwerbowała ją organizacja Chaos ([Macross Wiki, „Kaname Buccaneer”](https://macross.fandom.com/wiki/Kaname_Buccaneer); sprawdzono 2026-11-09).
 }}
 

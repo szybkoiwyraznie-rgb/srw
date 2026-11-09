@@ -12,10 +12,9 @@ utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 W misji nad Azją Środkową baterie wieżyczek biorą udział w ostrzale [[white-base|White Base]]. [[bright-noa|Bright]] prosi wtedy [[hayato-kobayashi|Hayato]], by [[guntank|Guntank]] zniszczył umocnienia.
 }}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -24,6 +23,7 @@ W misji nad Azją Środkową baterie wieżyczek biorą udział w ostrzale [[whit
 
 ![Turret (Wieżyczka uniwersalna) — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Turret.png)
 }}
+
 {{menu gra=srw-oe
 
 ## Parametry

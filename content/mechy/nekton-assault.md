@@ -13,8 +13,6 @@ utworzono: 2026-10-27
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Szturmowy przedstawiciel nieznanego opinii publicznej gatunku [[mucus|Mucus]], z którym [[connect-force|Connect]] mierzył się już wcześniej poza Ziemią. Istota dysponuje trzema atakami: wiązkowym wyładowaniem Spark (zasięg 1–4), zderzeniem w zwarciu Crash ułatwiającym unik oraz ogłuszającym piorunem kulistym Ball Lightning o zasięgu 3–5.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] obecność nadciągających osobników Nekton Assault [[himari-yaegaki|Himari]] wyczuwa szóstym zmysłem na krótko przed tym, jak rejestrują je czujniki [[exart|Exarta]], po czym na widok potworów na chwilę traci skupienie. Jednostki te wyłaniają się w podziemnej jaskini u boku [[bolt-robo-standard|Bolt Robo]] oraz [[invader-ground|Invaderów]] z bram [[mucus-gate-s-in|Mucus Gate S IN]] i [[mucus-gate-s-mc|Mucus Gate S MC]], zmuszając [[seishiro|Seishira]] do objęcia tajemnicą całego incydentu.

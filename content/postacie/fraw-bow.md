@@ -14,14 +14,18 @@ utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Członkini załogi [[white-base|White Base]]. Łączy się z [[amuro-ray|Amurem]] w trakcie walki: przypomina mu o ekipie naprawczej i prosi, by wytrzymał do przybycia odsieczy. Później ogłasza wycofanie wroga i nakazuje maszynom wracać na pokład.
 
 Po walce z [[black-tri-stars|Black Tri-Stars]] przynosi [[amuro-ray|Amurowi]] i [[hayato-kobayashi|Hayato]] jedzenie do hangaru i wysyła ich pod prysznic, zanim wrócą do przeglądu maszyn. Po przechwyceniu [[h-bomb-missile|pocisku termojądrowego]] z ulgą mówi Amurowi, że mu się udało.
 
 W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatniej misji epizodu]] odczytuje na mostku depeszę z [[zanzibar|Zanzibara]]: przeprosiny [[char-aznable|Chara]] za nietakt podwładnego i zapowiedź opuszczenia pola walki.
 }}
+
+{{zrodlo gra=wspolne
+
+Fraw Bow jest postacią serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -29,9 +33,4 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatniej misji epizodu]] odczytuje na mo
 ### Ilustracja 1
 
 ![Fraw Bow — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Fraw%20Bow.png)
-
-}}
-{{zrodlo gra=wspolne
-
-Fraw Bow jest postacią serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
 }}

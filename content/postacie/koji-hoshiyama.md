@@ -14,8 +14,6 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Pilot wspierający [[raijin-oh|Raijin-Oh]] z klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]]. Zamiast gry w piłkę woli szukać UFO, co [[asuka-tsukishiro|Asuka]] uznaje za zabawne zestawienie z pilotowaniem robota.
 
 Podczas ćwiczeń z [[connect-force|Connect]] pierwszy domyśla się, co oznacza widok Laborów treningowych, i przyjmuje niespodziankę spokojnie — cieszy się, że przerwała nudę. Po treningu [[jin-hyuga|Jin]] próbuje wciągnąć go w grę w piłkę, choć Koji nadal myśli o swoich poszukiwaniach.
@@ -23,6 +21,13 @@ Podczas ćwiczeń z [[connect-force|Connect]] pierwszy domyśla się, co oznacza
 Po [[srw-oe-ep1-szalejacy-labor-powraca|przybyciu na plac budowy]] ustala, że wystarczy zatrzymać szalejące Labory. Po walce zostawia policjantom dalsze czynności i wraca z pozostałymi.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] broni podejścia [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] przed krytyką [[taro-shirogane|Taro Shirogane]], w podziemnej jaskini od razu rozpoznaje w nadlatującej maszynie słynnego [[mazinger-z|Mazingera Z]] oraz [[shin-getter-1|Gettera]], a po bitwie w sali szkolnej z ożywieniem reaguje na wieść o obcym gatunku [[mucus|Mucus]] i pyta [[simon|Simona]] o życie w podziemnej wiosce.
+}}
+
+{{zrodlo gra=wspolne
+
+## Postać w oryginale
+
+Koji Hoshiyama (星山 吼児) w oryginale odpowiada za moc Raijin-Oh i wszystkie jego bronie. Jest dobroduszny i nieśmiały, ale odważny; nosi lornetkę i wierzy w UFO oraz obcych, a w dzienniku ma numer dziewiąty ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 }}
 
 {{menu gra=srw-oe
@@ -33,6 +38,7 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] broni podej�
 
 ![Koji Hoshiyama — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Koji%20Hoshiyama.png)
 }}
+
 {{menu gra=srw-oe
 
 ## Parametry
@@ -44,11 +50,4 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] broni podej�
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Zauf.** | 1 | 20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
-
-}}
-{{zrodlo gra=wspolne
-
-## Postać w oryginale
-
-Koji Hoshiyama (星山 吼児) w oryginale odpowiada za moc Raijin-Oh i wszystkie jego bronie. Jest dobroduszny i nieśmiały, ale odważny; nosi lornetkę i wierzy w UFO oraz obcych, a w dzienniku ma numer dziewiąty ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 }}

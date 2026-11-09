@@ -16,11 +16,12 @@ utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Druga konfiguracja Kampfera w [[pluton-cyclops|plutonie Cyclops]], pilotowana przez [[mikhail-kaminsky|Mikhaila Kaminsky’ego]], zwanego Miszą. W szturmie przebija się przez linię czujek razem z [[andy-strauss|Andy’m]], a w walce z [[shiro-amada|Shiro]] pokazuje dużą zwrotność.
 
 Względem [[kampfer-bazooka|konfiguracji z bazooką]] strzelba ma wyższe trafienie, szabla wiązkowa zwiększa unik, a miejsce wielkiej bazooki zajmuje Sturm Faust z premią przeciw okrętom.
+}}
+
+{{menu gra=srw-oe
 
 ## Pozostałe jednostki Kampfer
 

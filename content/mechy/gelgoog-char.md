@@ -16,8 +16,6 @@ utworzono: 2026-11-08
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Nowy [[mobile-suit|mobile suit]] [[char-aznable|Chara]], w którym dowódca [[zanzibar|Zanzibara]] wychodzi do walki podczas pościgu za [[white-base|White Base]]. [[amuro-ray|Amuro]] widzi go po raz pierwszy i melduje nieznaną maszynę, a sam Char zapowiada, że Gelgoog przebije pancerz [[rx-78-2-gundam|Gundama]].
 
 Arsenał jest w całości wiązkowy: karabin wiązkowy razi na sześć pól, naginata wiązkowa odpycha przeciwnika przy starciu w zwarciu, a jej wariant przebijający tnie wszystkich na linii natarcia. Do tego dochodzi blok tarczą, który zmniejsza obrażenia przyjmowane w obronie — stąd szarża Chara wprost na okręt, zamiast uników.

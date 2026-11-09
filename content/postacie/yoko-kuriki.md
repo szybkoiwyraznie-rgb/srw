@@ -13,11 +13,16 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Uczennica klasy [[klasa-obrony-ziemi|Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]], wołana zdrobnieniem Cookie. Podczas ćwiczeń z [[connect-force|Connect]] jako pierwsza zgłasza, że udało się zrzucić Labora z wyższego poziomu.
 
 Na jej słowa [[seishiro|Seishiro]] wyjaśnia [[himari-yaegaki|Himari]], że upadek z wysokości zadaje celowi dodatkowe obrażenia, i prosi ją, żeby to zapamiętała.
+}}
+
+{{zrodlo gra=wspolne
+
+## Postać w oryginale
+
+Yoko Kuriki (栗木 容子), znana jako Cookie, w oryginale obsługuje radar [[raijin-oh|Raijin-Oh]]. To niska, wielkooka dziewczyna lubiąca słodkie rzeczy, ale mocno zależna od innych ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 }}
 
 {{menu gra=srw-oe
@@ -27,10 +32,4 @@ Na jej słowa [[seishiro|Seishiro]] wyjaśnia [[himari-yaegaki|Himari]], że upa
 ### Ilustracja 1
 
 ![Yoko Kuriki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Yoko%20Kuriki.png)
-}}
-{{zrodlo gra=wspolne
-
-## Postać w oryginale
-
-Yoko Kuriki (栗木 容子), znana jako Cookie, w oryginale obsługuje radar [[raijin-oh|Raijin-Oh]]. To niska, wielkooka dziewczyna lubiąca słodkie rzeczy, ale mocno zależna od innych ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-23).
 }}

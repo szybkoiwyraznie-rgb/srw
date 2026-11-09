@@ -16,8 +16,6 @@ utworzono: 2026-10-27
 ---
 {{zrodlo gra=wspolne
 
-## Opis
-
 *Tengen Toppa Gurren Lagann* (天元突破グレンラガン, w wydaniach anglojęzycznych *Gurren Lagann*) to dwudziestosiedmioodcinkowy serial telewizyjny anime studia Gainax, emitowany w sieci TV Tokyo od 1 kwietnia do 30 września 2007 roku. Za reżyserię odpowiadał Hiroyuki Imaishi, kompozycję serii przygotował dramaturg Kazuki Nakashima, a ścieżkę dźwiękową skomponował Taku Iwasaki ([Wikipedia, *Gurren Lagann*](https://en.wikipedia.org/wiki/Gurren_Lagann); sprawdzono 2026-10-27).
 
 Akcja rozgrywa się w świecie, w którym ludzkość żyje w odizolowanych podziemnych osadach, nie utrzymując kontaktu ani z powierzchnią, ani z sąsiednimi wioskami, a każdą próbę wyjścia pod gołe niebo tłumią humanoidalni zwierzoludzie zasiadający za sterami [[gunmen|Gunmenów]] — maszyn bojowych o korpusach ukształtowanych jak olbrzymie twarze. W podziemnej wiosce Giha dorasta nieśmiały, osierocony kopacz [[simon|Simon]], któremu stale towarzyszy mały świnkokret [[boota|Boota]], oraz nieustraszony buntownik [[kamina|Kamina]], marzący o powrocie na powierzchnię i zakładający własną [[gurren-team|drużynę Gurren]] ([Wikipedia, *Gurren Lagann*](https://en.wikipedia.org/wiki/Gurren_Lagann); [Wikipedia, *List of Gurren Lagann characters*](https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_characters); sprawdzono 2026-10-27).

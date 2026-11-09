@@ -17,10 +17,18 @@ utworzono: 2026-10-19
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Real PG Gundam, znany także jako Gundam (Keroro), to jednostka z serii [[sgt-frog|Sgt. Frog]]. W [[srw-oe|Super Robot Wars OE]] korzysta z działka Vulcan, karabinu wiązkowego, szabli wiązkowej i hiperbazooki. Blok tarczą ogranicza otrzymywane obrażenia podczas obrony, a Odtwórz odnawia co turę HP i EN.
 }}
+
+{{zrodlo gra=wspolne
+
+## Pierwowzór
+
+Real PG Gundam (リアルPGガンダム) to jednostka zaprojektowana specjalnie na potrzeby *Super Robot Wars Operation Extend* (2013) w nawiązaniu do [[sgt-frog|pierwowzoru]] *Sgt. Frog*, którego bohater Keroro pasjonuje się składaniem plastikowych modeli Gundamów ([Super Robot Wars Wiki, „Banpresto Original/Units”](https://superrobotwars.fandom.com/wiki/Banpresto_Original/Units); [Wikipedia, *Sgt. Frog*](https://en.wikipedia.org/wiki/Sgt._Frog); sprawdzono 2026-10-24).
+
+Nazwa odwołuje się do wprowadzonej w 1998 roku przez Bandai linii modelarskiej **Perfect Grade** (PG) w skali 1:60 — najbardziej szczegółowej klasy zestawów Gunpla, budowanej wokół ruchomego szkieletu wewnętrznego obłożonego osobnymi płytami pancerza i wyposażonej w podświetlenie LED, tutaj wzorowanej na klasycznym [[rx-78-2-gundam|RX-78-2 Gundamie]] ([Wikipedia, „Gunpla”](https://en.wikipedia.org/wiki/Gunpla); sprawdzono 2026-10-24).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -32,7 +40,6 @@ Real PG Gundam, znany także jako Gundam (Keroro), to jednostka z serii [[sgt-fr
 ### Ilustracja 2
 
 ![Real PG Gundam — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Real%20PG%20Gundam%202.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -57,13 +64,4 @@ Real PG Gundam, znany także jako Gundam (Keroro), to jednostka z serii [[sgt-fr
 | 1 | Karabin wiązkowy | 3000 | 1–4 | +20 | 5 | — | Brak w tym polu | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |
 | 2 | Szabla wiązkowa | 3100 | 1–1 | +50 | 5 | — | Brak w tym polu | **Garda (poziom bazowy 1):** Obr+20% |
 | 3 | Hiperbazooka | 3600 | 2–4 | +5 | 15 | — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia; **Na dużych (poziom bazowy 1):** Na dużych: Atk x1.1 Obr wroga-20%; (więksi od siebie) |
-}}
-
-{{zrodlo gra=wspolne
-
-## Pierwowzór
-
-Real PG Gundam (リアルPGガンダム) to jednostka zaprojektowana specjalnie na potrzeby *Super Robot Wars Operation Extend* (2013) w nawiązaniu do [[sgt-frog|pierwowzoru]] *Sgt. Frog*, którego bohater Keroro pasjonuje się składaniem plastikowych modeli Gundamów ([Super Robot Wars Wiki, „Banpresto Original/Units”](https://superrobotwars.fandom.com/wiki/Banpresto_Original/Units); [Wikipedia, *Sgt. Frog*](https://en.wikipedia.org/wiki/Sgt._Frog); sprawdzono 2026-10-24).
-
-Nazwa odwołuje się do wprowadzonej w 1998 roku przez Bandai linii modelarskiej **Perfect Grade** (PG) w skali 1:60 — najbardziej szczegółowej klasy zestawów Gunpla, budowanej wokół ruchomego szkieletu wewnętrznego obłożonego osobnymi płytami pancerza i wyposażonej w podświetlenie LED, tutaj wzorowanej na klasycznym [[rx-78-2-gundam|RX-78-2 Gundamie]] ([Wikipedia, „Gunpla”](https://en.wikipedia.org/wiki/Gunpla); sprawdzono 2026-10-24).
 }}

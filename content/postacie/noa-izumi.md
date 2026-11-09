@@ -14,8 +14,6 @@ utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Pilotka pierwszego Ingrama Drugiego Plutonu [[sv2|SV2]]. Na poligonie Fuji dowodzi maszyną nr 1 i razem z resztą plutonu włącza się do walki, gdy bezzałogowe [[hal-x10|HAL-X10]] zaczynają strzelać ostrą amunicją.
 
 Swój Labor nazywa Alphonse'em i martwi się o każdą rysę na kadłubie. Współpracuje z [[seishiro|Seishirem]] i [[himari-yaegaki|Himari]] z [[connect-force|Connect]], a po ćwiczeniach pomaga jej [[asuma-shinohara|Asuma]]. Ufa pracy zespołowej bardziej niż frontalnym atakom.
@@ -43,7 +41,6 @@ Pochodzi z rodziny prowadzącej sklep monopolowy. Po szkole średniej ukończył
 ### Ilustracja 1
 
 ![Noa Izumi — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Noa%20Izumi.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -72,5 +69,4 @@ Pochodzi z rodziny prowadzącej sklep monopolowy. Po szkole średniej ukończył
 |---:|---|---:|---|
 | 1 | **Upór** | 1 | Pozostałe HP 10%: Atk/Obr/Cel/Unik/Kryt+10% |
 | 2 | **Policjant** | 3 | Zadawane Obraż. x1.1 / Obr+4% |
-
 }}

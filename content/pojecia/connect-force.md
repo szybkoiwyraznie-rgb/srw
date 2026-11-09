@@ -12,8 +12,6 @@ utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Connect to prywatna organizacja rozwijająca handel kosmiczny. Connect Force jest jej oddziałem bojowym. [[seishiro|Seishiro]] przedstawia tę rolę [[himari-yaegaki|Himari]] po jej przeniesieniu z 44. Działu Administracji.
 
 Do oddziału należy CF-00 [[exart|Exart]], najnowocześniejsza broń na każdą misję. Prawdziwy cel organizacji nie zostaje ujawniony. Himari została wybrana spośród setek tysięcy kandydatów.
@@ -30,6 +28,7 @@ W [[srw-oe-ep2-szturm-apsalusa|„Szturmie Apsalusa”]] wychodzi na jaw, że [[
 
 W [[srw-oe-ep2-w-poscigu-za-zanzibarem|„W pościgu za Zanzibarem”]] zapowiedź staje się faktem. [[seishiro|Seishiro]] przerywa walkę wezwaniem do zawieszenia ognia i bierze [[white-base|White Base]] pod jurysdykcję formacji, a [[char-aznable|Char]] uznaje to i wycofuje swoje jednostki. Zaraz potem okazuje się, jak kruche jest to umocowanie: [[tokwan|Tokwan]] startuje [[bigro|Bigro]] mimo rozejmu, odpowiadając, że prywatna firma nie będzie rządzić na polu bitwy. Od tej pory do Connect Force należy też [[13-samodzielny-oddzial|13. Samodzielny Oddział]], a zadaniem formacji są zagrożenia dla całej ludzkości, zaczynając od okolic Ziemi.
 }}
+
 {{zrodlo gra=srw-oe
 
 - Connect Force to specjalna jednostka bojowa cywilnej firmy handlowej Connect ([TV Tropes, *Characters in Super Robot Wars OE*](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-24).

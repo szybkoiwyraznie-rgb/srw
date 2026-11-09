@@ -13,8 +13,6 @@ utworzono: 2026-10-27
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Członkini [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] w [[akademia-hinobori|Akademii Hinobori]], znana w klasie 5-3 pod przezwiskiem „Love”. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podczas wizyty [[saurersi|Saurersów]] przekonuje kłócących się chłopców, że dziewczyny też mogą grać razem z nimi — wspólne granie buduje zgranie i nie jest stratą czasu — a po zakończeniu podziemnej bitwy bierze udział w powitaniu [[gurren-team|drużyny Gurren]] w szkolnej sali.
 }}
 

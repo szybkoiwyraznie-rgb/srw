@@ -18,16 +18,9 @@ utworzono: 2026-10-24
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 God Raijin-Oh jest formą, w którą [[raijin-oh|Raijin-Oh]] może się połączyć przy morale co najmniej 120. Zachowuje troje pilotów: [[jin-hyuga|Jina]], [[asuka-tsukishiro|Asukę]] i [[koji-hoshiyama|Kojiego]], odnawia HP i EN w każdej turze oraz blokuje ciosy tarczą.
 
 Jej uzbrojenie obejmuje God Raijin Boomerang, God Raijin Sword, God Hyper Flash, Final Fire i Hyper Thunder Crash. God Raijin Sword przebija się przez wrogów w zasięgu i rusza dalej, a Hyper Thunder Crash ma najwyższą moc bazową zestawu.
-}}
-
-{{zrodlo gra=srw-oe
-
-W [[srw-oe|Super Robot Wars OE]] po połączeniu w God Raijin-Oha do załogi dołącza jako podpilot [[bakuryu-oh|Bakuryu-Oh]], dysponujący wspierającymi Komendami Ducha ([SRW Wiki, „バクリュウオー”](https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC); sprawdzono 2026-10-25).
 }}
 
 {{zrodlo gra=wspolne
@@ -35,6 +28,11 @@ W [[srw-oe|Super Robot Wars OE]] po połączeniu w God Raijin-Oha do załogi do�
 ## Pierwowzór
 
 W [[matchless-raijin-oh|pierwowzorze]] God Raijin-Oh (ゴッドライジンオー) powstaje z superpołączenia [[raijin-oh|Raijin-Oh]] i bezzałogowego robota wsparcia [[bakuryu-oh|Bakuryū-Oh]], zdalnie kierowanego z sali dowodzenia [[akademia-hinobori|Szkoły Podstawowej Hinobori]]. Forma debiutuje w 23. odcinku *Zettai Muteki Raijin-Oh*, mierzy 41 metrów wysokości, waży 116 ton i korzysta m.in. z działa God Raijin Bazooka oraz miecza God Raijin Sword ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); [Eldran Wiki, „God Raijin-Oh”](https://eldran.fandom.com/wiki/God_Raijin-Oh); sprawdzono 2026-10-25).
+}}
+
+{{zrodlo gra=srw-oe
+
+W [[srw-oe|Super Robot Wars OE]] po połączeniu w God Raijin-Oha do załogi dołącza jako podpilot [[bakuryu-oh|Bakuryu-Oh]], dysponujący wspierającymi Komendami Ducha ([SRW Wiki, „バクリュウオー”](https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC); sprawdzono 2026-10-25).
 }}
 
 {{menu gra=srw-oe
@@ -48,7 +46,6 @@ W [[matchless-raijin-oh|pierwowzorze]] God Raijin-Oh (ゴッドライジンオ�
 ### Ilustracja 2
 
 ![God Raijin-Oh — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/God%20Raijin-Oh%202.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -74,5 +71,4 @@ W [[matchless-raijin-oh|pierwowzorze]] God Raijin-Oh (ゴッドライジンオ�
 | 2 | God Hyper Flash | 3900 | 1–3 | +15 | 20 | 105 | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia |
 | 3 | Final Fire | 5400 | 3–6 | +10 | 50 | 120 | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
 | 4 | Hyper Thunder Crash | 6500 | 1–2 | +25 | 70 | 140 | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
-
 }}

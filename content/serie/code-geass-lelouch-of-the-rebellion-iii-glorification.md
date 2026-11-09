@@ -14,10 +14,7 @@ utworzono: 2026-11-09
 ---
 {{menu gra=srw-y
 
-## Opis
-
 Z tej serii pochodzi [[lancelot-albion-zero|Lancelot Albion Zero]] — osobisty KMF [[zero|Zero]], zbudowany przez Pearl Party.
-
 }}
 
 {{zrodlo gra=wspolne

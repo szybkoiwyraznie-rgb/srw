@@ -13,11 +13,12 @@ utworzono: 2026-10-27
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Mała brama podprzestrzenna gatunku [[mucus|Mucus]] powiązana z [[mechanization-empire|Imperium Mechanizacji]] (`S MC`). Jako nieruchomy obiekt stały bez własnego uzbrojenia co turę odnawia wytrzymałość i energię, służąc za wrota, przez które do podziemnej pieczary przenikają kolejne [[mechabestia|mechabestie]] [[bolt-robo-standard|Bolt Robo/Standard]], [[bolt-robo-melee|Bolt Robo/Melee]] i [[bolt-robo-long-range|Bolt Robo/Long-Range]] oraz osobniki [[nekton-assault|Nekton Assault]].
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] [[himari-yaegaki|Himari]] wyczuwa jej energię za skalną ścianą, a po przebiciu tunelu przez [[gurren-lagann|Gurren Laganna]] i rozpoznaniu celu przez [[shin-getter-1|Shin Gettera-1]] połączone siły rozbijają bramę. Po walce [[seishiro|Seishiro]] wnioskuje, że [[mechabestia|mechabestie]] rozkładają i składają swoje ciała, aby wykonać skok przez Mucus Gate — co oznacza, że rozbite wcześniej na Ziemi Imperium Mechanizacji może odbudowywać siły w przestrzeni kosmicznej.
+}}
+
+{{skrypt gra=srw-oe
 
 ## Pozostałe jednostki Mucus Gate
 

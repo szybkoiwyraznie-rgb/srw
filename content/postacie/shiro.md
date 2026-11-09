@@ -15,8 +15,6 @@ utworzono: 2026-10-19
 ---
 {{zrodlo gra=wspolne
 
-## Opis
-
 Shiro to biały kocur, magiczny towarzysz [[masaki-andoh|Masakiego Andoh]]. Razem z [[kuro|Kuro]] towarzyszy pilotowi i żartuje z jego słabej orientacji w terenie. ([Akurasu, „Masaki Andoh”, sekcja „Personality And Traits”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
 }}
 
@@ -48,5 +46,4 @@ Shiro to japońskie określenie bieli.
 ### Ilustracja 1
 
 ![Shiro — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Shiro.png)
-
 }}

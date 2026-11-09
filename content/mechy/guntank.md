@@ -15,14 +15,14 @@ utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Maszyna wsparcia [[white-base|White Base]], prowadzona przez [[hayato-kobayashi|Hayato Kobayashiego]]. W walce z [[black-tri-stars|Black Tri-Stars]] Hayato bierze na siebie ostrzał umocnień i baterii wroga.
 }}
+
 {{zrodlo gra=wspolne
 
 W pierwowzorze Guntank wywodzi się wprost z czołgów. W U.C. 0065 [[earth-federation|Federacja]] wystawiła RTX-65, pojazd łączący gąsienicowy kadłub z humanoidalnym torsem, a dziesięć lat później — gdy zaległości wobec [[zeon|Zeonu]] stały się dotkliwe — na bazie doświadczalnego RTX-44 powstał RX-75-4. Uzbrojenie to dwa działa 180 mm nad barkami i czterolufowe wyrzutnie rakiet zamiast rąk, a maszynę obsługuje dwuosobowa załoga: kierowca w torsie i celowniczy w głowie. Tors kryje system Core Block, więc po odstrzeleniu górnej części kadłub może dalej służyć jako stanowisko ogniowe ([MAHQ, „RX-75-4 Guntank”](https://www.mahq.net/rx-75-4/); sprawdzono 2026-10-24).
 }}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -35,6 +35,7 @@ W pierwowzorze Guntank wywodzi się wprost z czołgów. W U.C. 0065 [[earth-fede
 
 ![Guntank — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Guntank%202.png)
 }}
+
 {{menu gra=srw-oe
 
 ## Parametry

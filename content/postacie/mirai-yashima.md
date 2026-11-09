@@ -14,12 +14,16 @@ utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Członkini załogi [[white-base|White Base]]. Melduje o starcie okrętu, a usłyszawszy od [[paolo-cassius|Paola]] o Czerwonej Komecie, powtarza z niedowierzaniem imię [[char-aznable|Chara]].
 
 Na mostku [[white-base|White Base]] melduje gotowość okrętu do startu. Po odejściu [[black-tri-stars|Black Tri-Stars]] uspokaja [[bright-noa|Brighta]]: uważa, że w trakcie [[operacja-odessa|operacji Odessa]] przeciwnik nie wróci, i prosi, by załoga bardziej w siebie wierzyła.
 }}
+
+{{zrodlo gra=wspolne
+
+Mirai Yashima jest postacią serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -27,7 +31,6 @@ Na mostku [[white-base|White Base]] melduje gotowość okrętu do startu. Po ode
 ### Ilustracja 1
 
 ![Mirai Yashima — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Mirai%20Yashima.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -44,8 +47,4 @@ Na mostku [[white-base|White Base]] melduje gotowość okrętu do startu. Po ode
 |---:|---|---:|---:|---|
 | 1 | **Zauf.** | 1 | 20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
 | 2 | **Skupienie** | 6 | 15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
-}}
-{{zrodlo gra=wspolne
-
-Mirai Yashima jest postacią serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
 }}

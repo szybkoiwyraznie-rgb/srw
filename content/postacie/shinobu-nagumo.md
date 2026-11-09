@@ -14,8 +14,6 @@ utworzono: 2026-10-24
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Kapitan Pierwszego Plutonu [[sv2|SV2]]. W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] z niedowierzaniem przyjmuje relację [[asuma-shinohara|Asumy]], że zatrzymany wcześniej [[labor|Labor]] uruchomił się ponownie bez operatora. Przyznaje, że jej pluton także jest wykończony falą zgłoszeń: używa starszych Pythonów, nadrabiając doświadczeniem, a seria wypadków opóźnia przydział nowych maszyn.
 
 Gdy Asuma ustala, że wszystkie dwadzieścia dwa szalejące Labory działały pod kontrolą [[shinohara-hos|Shinohara HOS]], zwraca uwagę, że system jest zainstalowany w ponad 80% zarejestrowanych maszyn. Ostrzega też [[kiichi-goto|Goto]], że w sprawach dotyczących [[shinohara-heavy-industries|Shinohara Heavy Industries]] Asuma traci umiar i może wciągnąć w kłopoty resztę ludzi.
@@ -35,5 +33,4 @@ W [[mobile-police-patlabor|pierwowzorze]] Nagumo (南雲 しのぶ, *Nagumo Shin
 ### Ilustracja 1
 
 ![Shinobu Nagumo — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Shinobu%20Nagumo.png)
-
 }}

@@ -11,8 +11,6 @@ utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Porozumienie obowiązujące podczas wojny między [[earth-federation|Federacją Ziemską]] a [[zeon|Zeonem]]. Zakazuje użycia broni jądrowej, dlatego groźba [[mquve|M'Quve'a]] podczas [[operacja-odessa|operacji Odessa]] jest jawnym złamaniem traktatu.
 
 Ujawnione w ramach porozumienia dane konstrukcyjne pozwalają [[bright-noa|Brightowi]] ustalić położenie zapalnika dopiero po odpaleniu [[h-bomb-missile|pocisku]]. Na ich podstawie kieruje [[rx-78-2-gundam|Gundama]] w miejsce przechwycenia.

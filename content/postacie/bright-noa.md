@@ -14,8 +14,6 @@ utworzono: 2026-10-20
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Chorąży dowodzący [[white-base|White Base]] w trakcie ataku. Prowadzi obronę okrętu, rozkazuje rozproszyć [[minovsky-particles|cząstki Minovsky’ego]] i wysyła [[amuro-ray|Amura]] do walki, choć ten nie jest jeszcze gotowy.
 
 Po przybyciu [[connect-force|Connect]] wita wsparcie i ostrzega [[seishiro|Seishira]], że przeciwnikiem jest [[char-aznable|Char]], Czerwona Kometa.
@@ -26,6 +24,17 @@ Gdy [[mquve|M'Quve]] odpala [[h-bomb-missile|pocisk termojądrowy]], Bright wyko
 
 W [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu przed spotkaniem z Connect]] nie ukrywa wątpliwości: [[connect-force|Connect]] to organizacja cywilna i nie wiadomo, jak zachowa się w starciu z [[zeon|Zeonem]]. Gdy [[tokwan|Tokwan]] łamie rozejm, rozkazuje przechwycić [[bigro|mobile armora]], a po walce przyjmuje od [[seishiro|Seishira]] przydział okrętu do [[connect-force|Connect Force]] i zachowuje dowodzenie [[13-samodzielny-oddzial|13. Samodzielnym Oddziałem]].
 }}
+
+{{skrypt gra=srw-y
+
+W prologu [[srw-y|SRW Y]] ogląda paradę cesarza Leloucha razem z [[amuro-ray|Amuro]]: gdy cesarz wypowiada wojnę do ostatniego tchu, zastanawia się, co wtedy zrobią oni — a na wieść, że [[kamille-bidan|Kamille]] wciąż się nie odezwał, odpowiada krótko.
+}}
+
+{{zrodlo gra=wspolne
+
+Bright Noa jest oficerem Federacji Ziemskiej na pokładzie White Base w [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-10-20).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -33,7 +42,6 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu przed spotkaniem z Connect]] nie
 ### Ilustracja 1
 
 ![Bright Noa — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Bright%20Noa.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -63,14 +71,4 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu przed spotkaniem z Connect]] nie
 |---:|---|---:|---|
 | 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
 | 2 | **Dow. Cel/Unik** | 3 | Zasięg 3 - sojusznicy: Cel/Unik+4% |
-}}
-{{skrypt gra=srw-y
-
-## Opis — SRW Y
-
-W prologu [[srw-y|SRW Y]] ogląda paradę cesarza Leloucha razem z [[amuro-ray|Amuro]]: gdy cesarz wypowiada wojnę do ostatniego tchu, zastanawia się, co wtedy zrobią oni — a na wieść, że [[kamille-bidan|Kamille]] wciąż się nie odezwał, odpowiada krótko.
-}}
-{{zrodlo gra=wspolne
-
-Bright Noa jest oficerem Federacji Ziemskiej na pokładzie White Base w [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-10-20).
 }}

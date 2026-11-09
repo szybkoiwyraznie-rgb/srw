@@ -16,13 +16,18 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Prototypowy Gundam [[earth-federation|Federacji Ziemskiej]], przygotowywany w tajemnicy dla [[newtype|Newtype’ów]]. Jego konstrukcja kładzie nacisk na szybszą reakcję maszyny, a rozmowa w centrum kontroli wymienia panoramiczny ekran i magnetyczną powłokę.
 
 [[christina-mackenzie|Christina Mackenzie]] jest pilotką testową Alexa. Przyznaje [[shiro-amada|Shiro]], że reakcje maszyny są tak szybkie, iż budzą jej obawy przed użyciem w walce. Ostateczne strojenie ma odbyć się na [[side-6|Side 6]], w kolonii [[libot|Libot]].
 
 W tej misji Alex pozostaje w kontenerze transportowym i nie zostaje wystawiony jako jednostka bojowa, dlatego strona nie ma tabeli parametrów ani uzbrojenia.
+}}
+
+{{zrodlo gra=wspolne
+
+## Pierwowzór
+
+Pierwszy odcinek *Mobile Suit Gundam 0080: War in the Pocket* również pokazuje transport nowego Gundama do kolonii Libot na Side 6. W oryginale wahadłowiec startuje z bazy na obszarze arktycznym, a nie z górskiej bazy w Azji Środkowej ([MAHQ, „Gundam 0080 Ep. 1: How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); sprawdzono 2026-10-23).
 }}
 
 {{skrypt gra=srw-oe
@@ -36,11 +41,4 @@ W tej misji Alex pozostaje w kontenerze transportowym i nie zostaje wystawiony j
 - **Przeznaczenie:** maszyna dla Newtype’ów, z naciskiem na szybkość reakcji
 - **Wyposażenie wymienione w rozmowie:** panoramiczny ekran i magnetyczna powłoka
 - **Rola w misji:** ładunek wahadłowca osłanianego przez [[08-pluton-ms|08. Pluton MS]]
-}}
-
-{{zrodlo gra=wspolne
-
-## Pierwowzór
-
-Pierwszy odcinek *Mobile Suit Gundam 0080: War in the Pocket* również pokazuje transport nowego Gundama do kolonii Libot na Side 6. W oryginale wahadłowiec startuje z bazy na obszarze arktycznym, a nie z górskiej bazy w Azji Środkowej ([MAHQ, „Gundam 0080 Ep. 1: How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); sprawdzono 2026-10-23).
 }}

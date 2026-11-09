@@ -16,8 +16,6 @@ utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Pilot [[connect-force|Connect Force]], oddziału bojowego prywatnej organizacji rozwijającej handel kosmiczny. W [[uc-0079|U.C. 0079]] testuje nowy układ sterowania CF-00 [[exart|Exarta]]. Zna cel organizacji, lecz nie ujawnia go i woli, by działania Connect pozostały niezauważone.
 
 Prowadzi szkolenie [[himari-yaegaki|Himari]], przypomina jej o dyscyplinie i odpowiedzialności, a po misji pomaga nauczyć się przesyłania danych do centrali.
@@ -38,6 +36,16 @@ Podczas [[srw-oe-ep2-ryk-dziczy|wspólnych ćwiczeń]] na stacji spiera się z [
 
 W [[srw-oe-ep2-w-poscigu-za-zanzibarem|„W pościgu za Zanzibarem”]] zdąża do [[white-base|White Base]] w ostatniej chwili i zatrzymuje bitwę komunikatem, nie strzałem: wzywa obie strony do przerwania ognia i ogłasza okręt jednostką [[connect-force|Connect Force]]. Wobec [[char-aznable|Chara]] zachowuje kurtuazję, ale gdy [[tokwan|Tokwan]] startuje wbrew rozkazowi, przyznaje, że świeżo utworzona formacja nie ma jeszcze dość wpływów, żeby tak po prostu przerwać walkę — i sam wchodzi do akcji.
 }}
+
+{{zrodlo gra=srw-oe
+
+## Dane postaci
+
+- Japońskie imię i nazwisko: 草薙征士郎 ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend); sprawdzono 2026-10-22).
+- Wiek: 22 lata. Głos w wersji japońskiej: Go Shinomiya ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-19).
+- Projekt postaci: 加藤誠. Seishiro jest protagonistą gry ([srw.wiki.cre.jp, „草薙征士郎”](https://srw.wiki.cre.jp/wiki/%E8%8D%89%E8%96%99%E5%BE%81%E5%A3%AB%E9%83%8E); sprawdzono 2026-10-19).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -45,7 +53,6 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|„W pościgu za Zanzibarem”]] zdąża 
 ### Ilustracja 1
 
 ![Seishiro Kusanagi — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Seishiro%20Kusanagi.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -77,14 +84,4 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|„W pościgu za Zanzibarem”]] zdąża 
 |---:|---|---:|---|
 | 1 | **Potencjał** | 1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
 | 2 | **Precyzja** | 3 | Kryt/Kryt Obraż.+15% |
-
-}}
-
-{{zrodlo gra=srw-oe
-
-## Dane postaci
-
-- Japońskie imię i nazwisko: 草薙征士郎 ([Wikipedia JP](https://ja.wikipedia.org/wiki/%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E5%A4%A7%E6%88%A6Operation_Extend); sprawdzono 2026-10-22).
-- Wiek: 22 lata. Głos w wersji japońskiej: Go Shinomiya ([TV Tropes](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-19).
-- Projekt postaci: 加藤誠. Seishiro jest protagonistą gry ([srw.wiki.cre.jp, „草薙征士郎”](https://srw.wiki.cre.jp/wiki/%E8%8D%89%E8%96%99%E5%BE%81%E5%A3%AB%E9%83%8E); sprawdzono 2026-10-19).
 }}

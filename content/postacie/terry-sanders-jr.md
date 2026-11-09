@@ -14,8 +14,6 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Pilot [[gundam-ground-type|Gundama Ground Type]] w [[08-pluton-ms|08. Plutonie MS]]. Melduje czysty sektor północny i wyjaśnia, że Federacji brakuje wahadłowców oraz baz startowych dla wojsk z poszczególnych regionów.
 
 W obronie transportu deklaruje, że nikt więcej nie zginie na jego oczach. Po walce ostrzega przed siłami [[zeon|Zeonu]] ukrywającymi się na trasie i przypomina towarzyszom, że nie mogą stracić czujności.

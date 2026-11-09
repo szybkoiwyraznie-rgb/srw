@@ -16,8 +16,6 @@ utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Policyjny Labor Drugiego Plutonu [[sv2|SV2]], pilotowany przez [[noa-izumi|Noę Izumi]]. Podczas ćwiczeń na poligonie Fuji maszyna wchodzi do walki z bezzałogowymi [[hal-x10|HAL-X10]], gdy te zaczynają strzelać ostrą amunicją.
 
 Noa nazywa swój Ingram Alphonse'em i przejmuje się każdą rysą na kadłubie. Uzbrojenie maszyny to działo rewolwerowe, pałka paraliżująca i linka do obezwładniania celów.
@@ -51,7 +49,6 @@ W [[mobile-police-patlabor|pierwowzorze]] AV-98 Ingram to policyjny [[labor|Labo
 ### Ilustracja 2
 
 ![Ingram nr 1 — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Ingram%20nr%201%202.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -80,4 +77,3 @@ W [[mobile-police-patlabor|pierwowzorze]] AV-98 Ingram to policyjny [[labor|Labo
 | 1 | Pałka paraliżująca | 2200 | 1–1 | +60 | 0 | — | Brak w tym polu | **Garda (poziom bazowy 1):** Obr+20%; **Ogłuszenie (poziom bazowy 1):** Bez kontry, +Obraż.500 Szansa 30% |
 | 2 | Schwytanie linką | 900 | 1–5 | +70 | 20 | 105 | Brak w tym polu | **Pojmanie (poziom bazowy 1):** Bez kontry 1t: Atk/Cel/Unik-20% Kryt+8%; (bez kontry tylko gdy trafi); **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód |
 }}
-

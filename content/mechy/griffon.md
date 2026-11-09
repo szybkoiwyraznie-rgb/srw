@@ -16,8 +16,6 @@ utworzono: 2026-11-01
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Czarny [[labor|Labor]] [[shaft-enterprises|Shaft Enterprises]], pilotowany przez [[badrinath-harchand|Buda]]. Na poligonie Sił Samoobrony rozbija wojskowe maszyny w walce wręcz, a następnie mierzy się z [[ingram-nr-1|Ingramem Noi]], [[ingram-nr-2|Ingramem Oty]] i [[exart|Exartem]]. Jego pilot traktuje starcie jak grę i szczególnie chce zmierzyć się z Noą.
 
 W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] błyskawicznie unieszkodliwia [[hal-x10-green|HAL-X10/Green]], nie zabijając żołnierza w kabinie. Na rozkaz [[utsumi|Utsumiego]] wycofuje się w powietrze; jego samodzielny lot zaskakuje policjantów i Connect. Zagłuszanie pozwala mu zniknąć z czujników.
@@ -68,4 +66,3 @@ Nazwa firmy ma w źródłach zapis „Schaft Enterprises”, natomiast gra używ
 | 2 | Natarcie | 1900 | 1–7 | +35 | 15 | — | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej; Bez kontry; Nie do wsparcia ani kontry |
 | 3 | Działo | 1800 | 3–5 | +5 | 10 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
 }}
-

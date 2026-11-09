@@ -16,8 +16,6 @@ utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Maszyna dowódcy [[08-pluton-ms|08. Plutonu MS]], [[shiro-amada|Shiro Amada]]. Osłania start wahadłowca z [[rx-78nt-1-gundam-alex|Alexem]] i kieruje obroną bazy, gdy [[pluton-cyclops|pluton Cyclops]] przebija się przez linię czujek.
 
 Shiro wycofuje uszkodzoną maszynę [[karen-joshua|Karen]] do hangaru, a następnie nakazuje pozostałym nie przepuścić żadnego przeciwnika. Ez8 blokuje ciosy tarczą i może walczyć w wybranych składach grupy. Atak szturmowy otrzymuje premię na lądzie, a szabla wiązkowa odpycha wroga i zadaje obrażenia od zderzenia oraz upadku.

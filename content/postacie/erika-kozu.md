@@ -13,8 +13,6 @@ utworzono: 2026-10-27
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Dowódczyni polowa [[saurersi|Saurersów]], nazywana przez rówieśników „Elly”. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] przyjeżdża z klasą do [[akademia-hinobori|Akademii Hinobori]] na wspólne szkolenie z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]]. Równie stanowcza co [[maria-shiratori|Maria Shiratori]], ucina spory chłopców przypomnieniem, że chodzi o przyszłość Ziemi. To ona rozpoznaje wroga, gdy podczas narady o wspólnych ćwiczeniach rozlega się alarm, i wraz z [[maria-shiratori|Marią]] wydaje rozkaz wymarszu [[go-saurer|Go-Saurera]].
 
 Po zakończeniu podziemnej bitwy bierze udział w rozmowie obu klas z [[seishiro|Seishirem]], [[himari-yaegaki|Himari]] oraz załogą [[gurren-lagann|Gurren Laganna]], ciesząc się z perspektywy nawiązania przyjaźni z gośćmi przybyłymi z innego świata.
@@ -34,5 +32,4 @@ W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Erika Kozu (光主 エリカ), prze
 ### Ilustracja 1
 
 ![Erika Kozu — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Erika%20Kozu.png)
-
 }}

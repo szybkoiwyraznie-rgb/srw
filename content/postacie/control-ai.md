@@ -11,8 +11,6 @@ utworzono: 2026-10-19
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Control AI to sztuczna inteligencja sterująca [[brocken|Brockenem]] i bezzałogowymi [[helldiver|Helldiverami]] — maszynami z serii [[mobile-police-patlabor|Mobile Police Patlabor]]. W [[srw-oe|Super Robot Wars OE]] ma umiejętność Rój, która umożliwia wspólne działanie jednakowych jednostek i sumowanie ich HP.
 
 W [[prolog-i-trening-w-connect|szkoleniu podstawowym]] Connect prowadzi trzy Brockeny, które jako symulowani przeciwnicy stają przeciw [[exart|Exartowi]].
@@ -43,6 +41,4 @@ W [[srw-oe-ep2-czarny-labor|zasadzce na poligonie]] SI sterująca kieruje bezza�
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Rój** | 1 | Zbiorcza z tą samą jedn.; wsparcie w grupie / HP = suma grupy |
-
 }}
-

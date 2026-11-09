@@ -12,9 +12,12 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-## Opis
-
 Czternastoletnia dziedziczka miasta Yagami. W dniu urodzin dowiaduje się, że odziedziczyła [[a-advent|A. Advent]] i odpowiedzialność za jego mieszkańców; pierwszy raz wydaje rozkaz obrony miasta.
+}}
+
+{{menu gra=srw-y
+
+Córka właściciela ziemskiego z miasta Yagami. Ma 14 lat. Dziewczyna. Straciła oboje rodziców; mieszkała w ogromnej rezydencji w mieście Yagami z guwernantką, Anniną, i 99 pokojówkami. Nie chodziła do szkoły, lecz Annina przygotowywała ją do roli przyszłej władczyni, ucząc nie tylko polityki i ekonomii, ale nawet sztuki wojennej. Sumienna, we wszystko angażuje się całym sercem i nie znosi przegrywać. Mało obcowała z ludźmi, więc niezgrabnie nawiązuje kontakty, lecz przy bliskich bywa dziecinna, jak przystało na jej wiek.
 }}
 
 {{menu gra=srw-y
@@ -23,11 +26,8 @@ Czternastoletnia dziedziczka miasta Yagami. W dniu urodzin dowiaduje się, że o
 
 ![Echika Y. Franburnett — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Echika%20Y.%20Franburnett.png)
 }}
+
 {{menu gra=srw-y
-
-## Charakterystyka
-
-Córka właściciela ziemskiego z miasta Yagami. Ma 14 lat. Dziewczyna. Straciła oboje rodziców; mieszkała w ogromnej rezydencji w mieście Yagami z guwernantką, Anniną, i 99 pokojówkami. Nie chodziła do szkoły, lecz Annina przygotowywała ją do roli przyszłej władczyni, ucząc nie tylko polityki i ekonomii, ale nawet sztuki wojennej. Sumienna, we wszystko angażuje się całym sercem i nie znosi przegrywać. Mało obcowała z ludźmi, więc niezgrabnie nawiązuje kontakty, lecz przy bliskich bywa dziecinna, jak przystało na jej wiek.
 
 ## Parametry
 

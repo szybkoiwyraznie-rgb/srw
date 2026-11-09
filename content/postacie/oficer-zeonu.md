@@ -11,8 +11,6 @@ utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Oficer w sztabie [[zeon|Zeonu]] w Odessie. Melduje [[mquve|M'Quve'owi]], że wojska [[general-revil|Revila]] przełamują ostatnią linię obrony, i próbuje zaprotestować, gdy dowódca postanawia odpowiedzieć odpaleniem [[h-bomb-missile|pocisku termojądrowego]].
 }}
 

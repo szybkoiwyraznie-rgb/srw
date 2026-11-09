@@ -14,11 +14,10 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-## Opis
-
 Osobisty Knightmare Frame [[zero|Zero]], czyli Suzaku Kururugiego. Wchodzi do walki w mieście Yagami, gdy śledzi niedobitki [[logos|Logosu]] i próbuje ochronić pokój pozostawiony po Lelouchu.
+}}
 
-## Charakterystyka
+{{menu gra=srw-y
 
 Osobisty KMF Zero (czyli Suzaku Kururugiego). Zbudowała go Pearl Party, prywatny instytut badawczy kierowany przez Rakshatę, w ramach Programu Zintegrowanych Rycerzy Uderzeniowych. Odtworzono go na podstawie materiałów pozostawionych przez Lloyda do badań nad technologią Knightmare Świętego Imperium Britannii, a dzięki dodaniu technologii Rakshaty osiągnął parametry równe Gurenowi S.E.I.T.E.N. Eight Elements. Z woli Schneizela, jako maszyna Zero, otrzymał czarno-fioletowe malowanie. Nazwę nadał mu sam Zero na podstawie kodu projektu. Ma ogromną siłę bojową, ale ze względu na nadmierną potęgę ograniczono jego użycie.
 }}
@@ -31,6 +30,7 @@ Osobisty KMF Zero (czyli Suzaku Kururugiego). Zbudowała go Pearl Party, prywatn
 
 ![Lancelot Albion Zero — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Lancelot%20Albion%20Zero.png)
 }}
+
 {{menu gra=srw-y
 
 ## Parametry

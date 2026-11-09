@@ -15,8 +15,6 @@ utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Myśliwiec [[zeon|Zeonu]] uczestniczący w obronie bazy nad Azją Środkową. [[white-base|White Base]] wykrywa Doppy razem z Zaku, a [[hayato-kobayashi|Hayato]] radzi wtedy, by najpierw użyć uzbrojenia przeciwlotniczego i zdobyć przewagę w powietrzu — dopiero wtedy [[g-fighter|G-Fighter]] może bezpieczniej atakować cele naziemne.
 }}
 
@@ -24,6 +22,7 @@ Myśliwiec [[zeon|Zeonu]] uczestniczący w obronie bazy nad Azją Środkową. [[
 
 W [[mobile-suit-gundam-1979|pierwowzorze]] Dopp to myśliwiec atmosferyczny, którym [[zeon|Zeon]] wszedł w niebo nad Ziemią. Inżynierowie z kolonii nie mieli ani doświadczenia w budowie samolotów, ani miejsca na próby, więc maszynę zaprojektowano na symulacjach komputerowych, a pierwsze cztery prototypy rozbiły się podczas prób na Ziemi. Kiepską aerodynamikę nadrobiono mocnym silnikiem i zestawem sterów strumieniowych: Dopp rozpędza się do pięciokrotnej prędkości dźwięku, ale ma krótki zasięg i zwykle podróżuje w ładowni transportowca Gaw. Kokpit wyniesiono ponad kadłub, żeby pilot miał szerokie pole widzenia w chmurze [[minovsky-particles|cząstek Minovsky'ego]]. Uzbrojenie stanowią dwie sześciolufowe wyrzutnie 30-milimetrowych rakiet — jedyna broń groźna dla mobile suita — oraz dwa działka 20 mm, przydatne wobec samolotów, nadlatujących rakiet i czujników ([Gundam Wiki, „Dopp”](https://gundam.fandom.com/wiki/Dopp); sprawdzono 2026-10-24).
 }}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -32,6 +31,7 @@ W [[mobile-suit-gundam-1979|pierwowzorze]] Dopp to myśliwiec atmosferyczny, kt�
 
 ![Dopp — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dopp.png)
 }}
+
 {{menu gra=srw-oe
 
 ## Parametry

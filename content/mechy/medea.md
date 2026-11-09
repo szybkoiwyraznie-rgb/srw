@@ -15,12 +15,11 @@ utworzono: 2026-10-21
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Samolot transportowy wspierający [[sily-samoobrony-japonii|Siły Samoobrony Japonii]] i [[earth-federation|Federację Ziemską]]. W [[srw-oe-ep1-szalejacy-prototyp-labora|ćwiczeniach na poligonie Fuji]] towarzyszy wojskowym jednostkom naziemnym, a za jej sterami siedzi [[zolnierz-jsdf|żołnierz JSDF]].
 
 W [[srw-oe-ep1-ratuj-transportowiec-medea|misji „Ratuj transportowiec Medea”]] klucz wzywa pomoc [[08-pluton-ms|08. Plutonu MS]], a jednostkę NPC pilotuje [[oficer-federacji|Oficer Federacji]]. Po odparciu ataku uratowana Medea zabiera oddział do [[jaburo|Jaburo]].
 }}
+
 {{zrodlo gra=wspolne
 
 ## Pierwowzór
@@ -29,6 +28,7 @@ Medea to wojskowy samolot transportowy Sił Zbrojnych [[earth-federation|Federac
 
 Wielki, odłączany kontener pod kadłubem skracał załadunek i rozładunek. Wirniki VTOL pozwalały startować i lądować bez pasa startowego, a niskociśnieniowe opony umożliwiały lądowanie na nierównym podłożu. Medea przewoziła zaopatrzenie i mobile suity, a jej uzbrojenie stanowiły dwa przeciwlotnicze karabiny maszynowe ([MAHQ, „Medea”](https://www.mahq.net/medea/); [The Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24).
 }}
+
 {{menu gra=srw-oe
 
 ## Parametry
@@ -47,4 +47,3 @@ Wielki, odłączany kontener pod kadłubem skracał załadunek i rozładunek. Wi
 |---:|---|---:|:---:|---:|---:|---:|---|---|
 | 1 | Karabin przeciwlotniczy | 1000 | 1–2 | +5 | 20 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
 }}
-

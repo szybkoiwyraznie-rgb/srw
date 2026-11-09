@@ -15,9 +15,17 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-## Opis
-
 Władca kaiju z [[ssss-dynazenon|SSSS.DYNAZENON]], który trafia w pobliże miasta Yagami razem z drużyną Gettera. Jego reakcja na wstrząsy zapowiada, że atak odsłania większą tajemnicę.
+}}
+
+{{menu gra=srw-y
+
+Mężczyzna, który nazywa siebie “władcą kaiju”. Szuka pewnej osoby i nie rozstaje się z figurką smoka, którą od niej dostał. Choć zachowuje się szalenie, jest poważny i wierny honorowi i przyjaźni. Utracił moc władcy kaiju; Yomogi znalazł go, gdy padł z głodu. Gdy w mieście pojawia się kaiju, wsiada do Dynazenona, zrodzonego z figurki smoka, i wciąga do walki Yomogiego, Yume i Koyomiego, którzy akurat byli w pobliżu. Jest głównym pilotem Dynazenona, a po rozłączeniu steruje okrętem podwodnym Dyna Diver, który tworzy nogi robota. Mieszka pod mostem nad rzeką i dorabia w kilku miejscach naraz.
+}}
+
+{{zrodlo gra=wspolne
+
+Lista obsady *SSSS.DYNAZENON* wymienia Gaumę, Yomogiego Asanakę, Yume Minami i Chise Asukagawę; przy Koyomim podaje zapis „Yomi Yamanaka” ([staff](https://dynazenon.net/en/staff/); sprawdzono 2026-11-09). Oficjalna strona postaci podaje pełne imię Koyomi Yamanaka ([character](https://dynazenon.net/en/character/#/koyomi); sprawdzono 2026-11-09).
 }}
 
 {{menu gra=srw-y
@@ -26,11 +34,8 @@ Władca kaiju z [[ssss-dynazenon|SSSS.DYNAZENON]], który trafia w pobliże mias
 
 ![Gauma — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Gauma.png)
 }}
+
 {{menu gra=srw-y
-
-## Charakterystyka
-
-Mężczyzna, który nazywa siebie “władcą kaiju”. Szuka pewnej osoby i nie rozstaje się z figurką smoka, którą od niej dostał. Choć zachowuje się szalenie, jest poważny i wierny honorowi i przyjaźni. Utracił moc władcy kaiju; Yomogi znalazł go, gdy padł z głodu. Gdy w mieście pojawia się kaiju, wsiada do Dynazenona, zrodzonego z figurki smoka, i wciąga do walki Yomogiego, Yume i Koyomiego, którzy akurat byli w pobliżu. Jest głównym pilotem Dynazenona, a po rozłączeniu steruje okrętem podwodnym Dyna Diver, który tworzy nogi robota. Mieszka pod mostem nad rzeką i dorabia w kilku miejscach naraz.
 
 ## Parametry
 
@@ -58,9 +63,4 @@ Mężczyzna, który nazywa siebie “władcą kaiju”. Szuka pewnej osoby i nie
 | Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                                     |
 | ---: | -------- | ---------: | -------: | -------------------------------------------------------------------------------- |
 |    1 | Hart     |          1 |       30 | Odnawia 50% maks. HP maszyny.                                                    |
-}}
-
-{{zrodlo gra=wspolne
-
-Lista obsady *SSSS.DYNAZENON* wymienia Gaumę, Yomogiego Asanakę, Yume Minami i Chise Asukagawę; przy Koyomim podaje zapis „Yomi Yamanaka” ([staff](https://dynazenon.net/en/staff/); sprawdzono 2026-11-09). Oficjalna strona postaci podaje pełne imię Koyomi Yamanaka ([character](https://dynazenon.net/en/character/#/koyomi); sprawdzono 2026-11-09).
 }}

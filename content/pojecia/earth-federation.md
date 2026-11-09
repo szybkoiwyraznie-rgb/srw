@@ -12,8 +12,6 @@ utworzono: 2026-10-17
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Federacja Ziemska zjednoczyła świat. Jej rozwój umożliwił budowę kolonii kosmicznych i ekspansję po Układzie Słonecznym. Gdy Siły Federacji nie potrafiły sprostać zagrożeniom, dawne państwa i kolonie zaczęły zbroić się samodzielnie.
 
 Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
@@ -24,6 +22,7 @@ W górskiej bazie w Azji Środkowej [[08-pluton-ms|08. Pluton MS]] osłania star
 
 Gdy [[white-base|White Base]] dociera do Jaburo, baza odpiera desant [[zeon|Zeonu]], a okręt zostaje na naprawy. [[general-revil|Generał Revil]] wyznacza mu potem rolę przynęty: okręt ma wystartować przed główną flotą, ściągnąć na siebie uwagę przeciwnika i po zgubieniu pościgu połączyć się z [[connect-force|Connect Force]]. Federacja chce w ten sposób przekazać tej formacji więcej sił, a Revil mówi wprost, że Zeon nie jest jedynym wrogiem ludzkości.
 }}
+
 {{zrodlo gra=wspolne
 
 W [[mobile-suit-gundam-1979|pierwowzorze]] Federacja Ziemska jest rządem światowym powołanym w odpowiedzi na przeludnienie i wojny o zasoby; ogłoszenie jej karty zapoczątkowało rachubę [[universal-century|Universal Century]] (U.C. 0001) oraz program budowy cylindrycznych kolonii kosmicznych zgrupowanych w sektorach zwanych Sides w punktach libracyjnych układu Ziemia–Księżyc ([The Gundam Wiki, „Earth Federation”](https://gundam.fandom.com/wiki/Earth_Federation); sprawdzono 2026-10-24). W [[uc-0079|U.C. 0079]] prowadzi Wojnę Jednoroczną z [[zeon|Księstwem Zeonu]], które ogłosiło niepodległość na [[side-3|Side 3]] ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-24).

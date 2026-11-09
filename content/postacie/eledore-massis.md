@@ -14,8 +14,6 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Pilot wspierający [[hover-truck|Hover Trucka]] z [[michel-ninorich|Michelem Ninorichem]]. Komentuje niefortunne położenie bazy w górach, a podczas patrolu wykrywa [[minovsky-particles|cząstki Minovsky’ego]] i rozpoznaje, że zbliżający się dźwięk nie należy ani do Zaku, ani do Doma.
 
 Gdy walka zbliża się do wozu, przypomina [[shiro-amada|Shiro]], że załoga wsparcia prawie nie ma uzbrojenia. Po misji wolałby zjeść coś lepszego niż racje, ale musi czekać razem z resztą oddziału.

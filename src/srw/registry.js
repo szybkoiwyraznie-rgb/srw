@@ -37,16 +37,37 @@ export const STATUSY_GRY = ['planowana', 'w-toku', 'ukończona', 'porzucona'];
 
 export const ROLE_POSTACI = ['pilot', 'wsparcie', 'dowodztwo', 'antagonista', 'postac', 'inne'];
 
-/** Sekcje wymagane w treści strony, zależnie od typu. */
+/**
+ * Sekcje wymagane w treści strony, zależnie od typu.
+ * Encje (gra/postac/mech/pojecie/seria) nie mają już tytułów boksów opisowych
+ * (ADR 0035) — ich obecność pilnuje `maTrescOpisowa`, nie lista tytułów.
+ */
 export const SEKCJE_WYMAGANE = {
   gra: [],
   epizod: ['Streszczenie'],
   scena: ['Treść sceny', 'Analiza'],
-  postac: ['Opis'],
-  mech: ['Opis'],
-  pojecie: ['Opis'],
-  seria: ['Opis'],
+  postac: [],
+  mech: [],
+  pojecie: [],
+  seria: [],
 };
+
+/** Czy strona encji ma treść opisową poza boksami „Ilustracje” i „Parametry” (ADR 0035). */
+export function maTrescOpisowa(body) {
+  let obca = false;
+  const reszta = [];
+  for (const linia of String(body ?? '').split('\n')) {
+    const m = linia.match(/^## (.+)$/);
+    if (m) {
+      const t = m[1].trim();
+      obca = t.startsWith('Ilustracje') || t.startsWith('Parametry');
+    }
+    if (obca) continue;
+    if (/^\{\{/.test(linia) || /^\}\}/.test(linia)) continue;
+    reszta.push(linia);
+  }
+  return reszta.join('\n').trim() !== '';
+}
 
 /**
  * Pola odsyłaczy: nazwa pola → typ celu i kształt wartości.
@@ -186,6 +207,10 @@ export function walidujStrone(strona, ctx) {
   const sekcje = wytnijSekcje(strona.body ?? '');
   for (const s of SEKCJE_WYMAGANE[strona.typ] ?? []) {
     if (!sekcje.includes(s)) p.push(`${gdzie}: brak obowiązkowej sekcji "## ${s}"`);
+  }
+
+  if (['gra', 'postac', 'mech', 'pojecie', 'seria'].includes(strona.typ) && !maTrescOpisowa(strona.body ?? '')) {
+    p.push(`${gdzie}: brak treści opisowej poza boksami Ilustracje/Parametry (ADR 0035)`);
   }
 
   if (strona.typ === 'epizod') {

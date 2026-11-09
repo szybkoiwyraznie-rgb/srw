@@ -15,8 +15,6 @@ utworzono: 2026-10-27
 ---
 {{zrodlo gra=wspolne
 
-## Opis
-
 *Getter Robo Armageddon* — wydane w Japonii pod pełnym tytułem *Change!! Getter Robo: Sekai Saigo no Hi* (真(チェンジ!!)ゲッターロボ 世界最後の日, dosł. „Ostatni dzień świata”) — to trzynastoodcinkowa seria OVA z lat 1998–1999 wyprodukowana przez studio Brain's Base we współpracy z Dynamic Planning i Bandai Visual na podstawie cyklu *Getter Robo* stworzonego przez Go Nagaia i Kena Ishikawę. Pierwsze trzy odcinki wyreżyserował Yasuhiro Imagawa, a od czwartego reżyserię przejął Jun Kawagoe ([Wikipedia, *Getter Robo Armageddon*](https://en.wikipedia.org/wiki/Getter_Robo_Armageddon); sprawdzono 2026-10-27).
 
 Punktem wyjścia opowieści jest powrót pozaziemskich [[invaderzy|Invaderów]] — bezkształtnych, wielookich organizmów kolczastych, które ludzkość uważała za wytępione podczas dawnej Wojny Księżycowej. Istoty te potrafią przejmować i mutować żywe organizmy, przybierać rozmaite kształty oraz regenerować się z rozczłonkowanych fragmentów; w starciach naziemnych reprezentują je m.in. osobniki typu [[invader-ground|Invader/Ground]] kierowane zbiorczym instynktem [[invader|Invaderów]]. Ich śmiertelną słabością pozostają promienie Gettera, które wywołują u nich gwałtowną nadekspresję ewolucji i rozpad tkanek ([Wikipedia, *Getter Robo Armageddon*](https://en.wikipedia.org/wiki/Getter_Robo_Armageddon); sprawdzono 2026-10-27).

@@ -14,8 +14,6 @@ utworzono: 2026-10-23
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Pilotka [[gundam-ground-type|Gundama Ground Type]] w [[08-pluton-ms|08. Plutonie MS]]. Narzeka na górski teren bazy i jako pierwsza zatrzymuje atakującego przeciwnika. Gdy kamera jej maszyny zostaje zniszczona, [[shiro-amada|Shiro]] odsyła ją do hangaru.
 
 Do walki wraca w [[gundam-ground-type-glowa-gm|konfiguracji z głową GM-a]]. Nie przejmuje się uwagami o wyglądzie, bo w hangarze nie było już właściwych części, i ponownie włącza się do obrony.

@@ -17,11 +17,14 @@ utworzono: 2026-10-27
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Połączony [[gunmen|Gunmen]] [[gurren-team|drużyny Gurren]] dysponujący macierzystą zdolnością „Drążenie” (pozwalającą przemieszczać się pod ziemią przez przeszkody terenowe i inne jednostki) oraz funkcją zamiany głównego pilota między [[simon|Simonem]] a [[kamina|Kaminą]], wspieranymi przez [[yoko|Yoko]] (obsługującą dalekosiężny karabin nadprzewodzący) oraz [[boota|Bootę]]. Na uzbrojenie składają się również miotane okulary piersiowe Gurren Boomerang, cięcie Shades Cutter, obszarowy Toroidal Burst i przebijający bariery Skull Break.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Gurren Lagann przebija się wiertłem od dołu do podziemnej pieczary po tym, jak podczas starcia z Viralem w rodzimym świecie zapadła się pod nim ziemia. [[gai|Gai]] i [[go|Go]] z podziwem porównują jego drążenie w skale do możliwości [[shin-getter-2|Gettera-2]], a Kamina i Simon przekopują się przez skalną ścianę, odkrywając po drugiej stronie ukrywające się bramy [[mucus|Mucus]].
+}}
+
+{{zrodlo gra=wspolne
+
+W [[tengen-toppa-gurren-lagann|pierwowzorze]] Gurren Lagann (グレンラガン) rodzi się w trzecim odcinku serialu podczas pojedynku z Enkim — [[gunmen|Gunmenem]] zwierzoczłowieka Virala — gdy niewielki, odkopany w wiosce Giha Lagann [[simon|Simona]] wbija się w szczyt zdobytego na powierzchni Gurrena [[kamina|Kaminy]] i łączy oba korpusy w jednego szkarłatnego superrobota. Charakterystyczne ogromne okulary słoneczne na torsie służą maszynie zarówno jako miotany bumerang, jak i ostrze do walki z bliska ([Wikipedia, *Gurren Lagann*](https://en.wikipedia.org/wiki/Gurren_Lagann); [Wikipedia, *List of Gurren Lagann episodes*](https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_episodes); sprawdzono 2026-10-27).
 }}
 
 {{menu gra=srw-oe
@@ -35,9 +38,4 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Gurren Lagan
 ### Ilustracja 2
 
 ![Gurren Lagann — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Gurren%20Lagann%202.png)
-}}
-
-{{zrodlo gra=wspolne
-
-W [[tengen-toppa-gurren-lagann|pierwowzorze]] Gurren Lagann (グレンラガン) rodzi się w trzecim odcinku serialu podczas pojedynku z Enkim — [[gunmen|Gunmenem]] zwierzoczłowieka Virala — gdy niewielki, odkopany w wiosce Giha Lagann [[simon|Simona]] wbija się w szczyt zdobytego na powierzchni Gurrena [[kamina|Kaminy]] i łączy oba korpusy w jednego szkarłatnego superrobota. Charakterystyczne ogromne okulary słoneczne na torsie służą maszynie zarówno jako miotany bumerang, jak i ostrze do walki z bliska ([Wikipedia, *Gurren Lagann*](https://en.wikipedia.org/wiki/Gurren_Lagann); [Wikipedia, *List of Gurren Lagann episodes*](https://en.wikipedia.org/wiki/List_of_Gurren_Lagann_episodes); sprawdzono 2026-10-27).
 }}

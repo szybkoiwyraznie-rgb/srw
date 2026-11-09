@@ -12,8 +12,6 @@ utworzono: 2026-10-27
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Ośrodek badawczy reprezentowany przez [[koji-kabuto|Kojiego Kabuto]] i superrobota [[mazinger-z|Mazinger Z]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Koji przybywa do podziemnej jaskini jako wysłannik Instytutu Energii Fotonowej, ratuje z opresji [[go-saurer|Go-Saurera]] i oficjalnie zgłasza współpracę placówki z [[connect-force|Connect]]. [[seishiro|Seishiro]] przyjmuje to wsparcie z ulgą podczas starcia z niekończącymi się falami [[mechabestia|mechabestii]], [[invaderzy|Invaderów]] oraz istot [[mucus|Mucus]].
 }}
 

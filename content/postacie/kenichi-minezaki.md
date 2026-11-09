@@ -14,9 +14,14 @@ utworzono: 2026-10-27
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Główny pilot [[go-saurer|Go-Saurera]] oraz formy superpołączenia [[king-go-saurer|King Go-Saurer]] z drużyny [[saurersi|Saurersów]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] odwiedza z kolegami salę klasy 5-3 [[akademia-hinobori|Akademii Hinobori]] na wspólne ćwiczenia z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]]. Jako pierwszy protestuje przeciw propozycji [[takako-kojima|Profesor]] dwóch treningów w tygodniu — woli grać w piłkę i przy wsparciu [[jin-hyuga|Jina]] obstaje przy swoim wobec wyrzutów [[shinobu-asaoka|Shinobu]]. Gdy naradę przerywa alarm o pojawieniu się [[mechabestia|mechabestii]], rusza z [[go-saurer|Go-Saurerem]] pod ziemię, gdzie dziękuje [[koji-kabuto|Kojiemu Kabuto]] za odsiecz w [[mazinger-z|Mazingerze Z]], a w ogniu nieustających posiłków wroga alarmuje sojuszników, że nadciągające potwory nie mają końca. Po walce w klasie wita się z przybyszami z [[gurren-team|drużyny Gurren]].
+}}
+
+{{zrodlo gra=wspolne
+
+## Postać w oryginale
+
+W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Kenichi Minezaki (峯崎 拳一) to szóstoklasista ze Szkoły Podstawowej Harukaze, pilot skrzydlatego Mach Ptery i główny pilot [[go-saurer|Go-Saurera]]. Jego rodzice prowadzą sklep sportowy „Minezaki Sports”; sam chłopiec świetnie jeździ na deskorolce i gra w piłkę nożną, ma jednak kłopoty z nauką oraz wybuchowy temperament, przez który nieustannie wdaje się w szkolne utarczki z [[shinobu-asaoka|Shinobu]] czy [[taro-shirogane|Taro]] ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); sprawdzono 2026-10-27).
 }}
 
 {{menu gra=srw-oe
@@ -26,7 +31,6 @@ Główny pilot [[go-saurer|Go-Saurera]] oraz formy superpołączenia [[king-go-s
 ### Ilustracja 1
 
 ![Kenichi Minezaki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kenichi%20Minezaki.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -55,12 +59,4 @@ Główny pilot [[go-saurer|Go-Saurera]] oraz formy superpołączenia [[king-go-s
 |---:|---|---:|---|
 | 1 | **Potenc. Obr** | 1 | Pozostałe HP 10%: Obr+5% Cel/Unik/Kryt+4% |
 | 2 | **Precyzja** | 3 | Kryt/Kryt Obraż.+15% |
-
-}}
-
-{{zrodlo gra=wspolne
-
-## Postać w oryginale
-
-W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Kenichi Minezaki (峯崎 拳一) to szóstoklasista ze Szkoły Podstawowej Harukaze, pilot skrzydlatego Mach Ptery i główny pilot [[go-saurer|Go-Saurera]]. Jego rodzice prowadzą sklep sportowy „Minezaki Sports”; sam chłopiec świetnie jeździ na deskorolce i gra w piłkę nożną, ma jednak kłopoty z nauką oraz wybuchowy temperament, przez który nieustannie wdaje się w szkolne utarczki z [[shinobu-asaoka|Shinobu]] czy [[taro-shirogane|Taro]] ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); sprawdzono 2026-10-27).
 }}

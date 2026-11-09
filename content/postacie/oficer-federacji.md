@@ -11,8 +11,6 @@ utworzono: 2026-10-22
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Oficer w sztabie [[earth-federation|Federacji Ziemskiej]] podczas [[operacja-odessa|operacji Odessa]]. Przekazuje [[general-revil|generałowi Revilowi]] ultimatum [[mquve|M'Quve'a]], a wobec groźby użycia bomby wodorowej proponuje wstrzymanie natarcia. Revil odrzuca tę możliwość i każe utrzymać szyk.
 
 W górskiej bazie startowej koordynuje przygotowania transportu [[rx-78nt-1-gundam-alex|Alexa]]. Omawia wyniki symulatora z [[christina-mackenzie|Chris]], wyjaśnia [[shiro-amada|Shiro]], że maszyna jest przeznaczona dla [[newtype|Newtype’ów]], a po ataku odsyła pilotkę do wahadłowca. Po obronie dziękuje [[08-pluton-ms|08. Plutonowi MS]] za służbę.

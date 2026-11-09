@@ -17,11 +17,12 @@ utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Podstawowa maszyna bojowa [[08-pluton-ms|08. Plutonu MS]]. W obronie startu wahadłowca występują dwie takie jednostki: [[karen-joshua|Karen Joshua]] patrolowała sektor południowy, a [[terry-sanders-jr|Terry Sanders Jr.]] — północny.
 
 Obie maszyny blokują ciosy tarczą i należą do składu grupy plutonu. Wyrzutnia rakiet jest bronią obszarową z premią na lądzie, a karabin maszynowy 100 mm i szabla wiązkowa uzupełniają walkę na krótszym dystansie.
+}}
+
+{{menu gra=srw-oe
 
 ## Pozostałe jednostki Gundam Ground Type
 

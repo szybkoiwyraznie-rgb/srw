@@ -16,10 +16,23 @@ utworzono: 2026-10-19
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Cybuster to maszyna pilotowana przez [[masaki-andoh|Masakiego Andoh]]. Może przekształcać się w [[cybird|Cybirda]]. W [[srw-oe|Super Robot Wars OE]] jego uzbrojenie obejmuje między innymi Discutter, Akashic Buster i Cosmo Nova.
 }}
+
+{{zrodlo gra=wspolne
+
+## Pierwowzór
+
+Cybuster był pierwszym oryginalnym mechem Banpresto i zadebiutował w *Super Robot Wars 2*. Wcześniejszą maszyną [[masaki-andoh|Masakiego Andoh]] był Jaohm ([Akurasu, „Masaki Andoh”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
+}}
+
+{{zrodlo gra=wspolne
+
+## Towarzysze Masakiego
+
+[[kuro|Kuro]] i [[shiro|Shiro]] to magiczni towarzysze [[masaki-andoh|Masakiego Andoh]], wspierający go przy obsłudze Cybustera. ([Super Robot Wars Wiki, „Cybuster”, opis wprowadzający](https://superrobotwars.fandom.com/wiki/Cybuster); sprawdzono 2026-10-19).
+}}
+
 {{menu gra=srw-oe
 
 ## Ilustracje
@@ -31,7 +44,6 @@ Cybuster to maszyna pilotowana przez [[masaki-andoh|Masakiego Andoh]]. Może prz
 ### Ilustracja 2
 
 ![Cybuster — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Cybuster%202.png)
-
 }}
 
 {{menu gra=srw-oe
@@ -57,18 +69,4 @@ Cybuster to maszyna pilotowana przez [[masaki-andoh|Masakiego Andoh]]. Może prz
 | 4 | Akashic Buster | 4100 | 1–4 | +15 | 40 | 120 | Brak w tym polu | **Penetr. barier (poziom bazowy 1):** Obr wroga-20% Ignoruje bariery; **Ogień (poziom bazowy 1):** Dodatk. Obraż.1500 Szansa 30% |
 | 5 | Vanity Ripper | 5800 | 1–1 | +30 | 50 | 125 | Brak w tym polu | **Penetracja (poziom bazowy 1):** Obr-30% |
 | 6 | Cosmo Nova | 7200 | 2–5 | +0 | 140 | 150 | Brak w tym polu | **Penetr. barier (poziom bazowy 1):** Obr wroga-20% Ignoruje bariery; **Na dużych (poziom bazowy 1):** Na dużych: Atk x1.1 Obr wroga-20%; (więksi od siebie) |
-}}
-
-{{zrodlo gra=wspolne
-
-## Pierwowzór
-
-Cybuster był pierwszym oryginalnym mechem Banpresto i zadebiutował w *Super Robot Wars 2*. Wcześniejszą maszyną [[masaki-andoh|Masakiego Andoh]] był Jaohm ([Akurasu, „Masaki Andoh”](https://akurasu.net/wiki/Masaki_Andoh); sprawdzono 2026-10-19).
-}}
-
-{{zrodlo gra=wspolne
-
-## Towarzysze Masakiego
-
-[[kuro|Kuro]] i [[shiro|Shiro]] to magiczni towarzysze [[masaki-andoh|Masakiego Andoh]], wspierający go przy obsłudze Cybustera. ([Super Robot Wars Wiki, „Cybuster”, opis wprowadzający](https://superrobotwars.fandom.com/wiki/Cybuster); sprawdzono 2026-10-19).
 }}

@@ -16,11 +16,12 @@ utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Mobile suit używany przez dwóch członków [[pluton-cyclops|plutonu Cyclops]]: [[gabriel-ramirez-garcia|Gabriela Ramireza Garcię]] i dowódcę [[hardy-steiner|Hardy’ego Steinera]]. Steiner z Garcią niszczy wieżę obserwacyjną, a następnie dowódca osłania natarcie i zarządza odwrót, gdy dalsze przebijanie się siłą nie przynosi rezultatu.
 
 Zaku II Kai blokuje ciosy tarczą. Heat Hawk korzysta z Gardy, a Sturm Faust otrzymuje premię przeciw okrętom.
+}}
+
+{{menu gra=srw-oe
 
 ## Pozostałe jednostki Zaku II
 

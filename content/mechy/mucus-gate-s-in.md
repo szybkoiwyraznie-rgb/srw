@@ -13,11 +13,12 @@ utworzono: 2026-10-27
 ---
 {{skrypt gra=srw-oe
 
-## Opis
-
 Mała podziemna brama podprzestrzenna gatunku [[mucus|Mucus]] powiązana z [[invaderzy|Invaderami]] (`S IN`), będąca nieruchomym i nieuzbrojonym obiektem stałym o samoczynnej regeneracji wytrzymałości oraz energii. Nie ma pilota i nie wyprowadza własnych ataków, lecz dopóki stoi nienaruszona za skalną przegrodą, nieprzerwanie sprowadza na pole bitwy kolejne osobniki [[invader-ground|Invader/Ground]] oraz [[nekton-assault|Nekton Assault]].
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] silne źródło energii bramy za ścianą jaskini wyczuwa [[himari-yaegaki|Himari]], zanim słaby odczyt potwierdzają czujniki [[exart|Exarta]]. Po przebiciu skały przez [[gurren-lagann|Gurren Laganna]] i dotarciu na miejsce [[shin-getter-1|Shin Gettera-1]] załogi niszczą obiekt, a [[seishiro|Seishiro]] wyjaśnia, że Invaderzy potrafią rozkładać i ponownie składać własne ciała, dzięki czemu wykorzystują Mucus Gate jako bramę skokową.
+}}
+
+{{skrypt gra=srw-oe
 
 ## Pozostałe jednostki Mucus Gate
 

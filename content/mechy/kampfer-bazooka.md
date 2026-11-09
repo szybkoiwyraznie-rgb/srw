@@ -16,11 +16,12 @@ utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe
 
-## Opis
-
 Konfiguracja Kampfera pilotowana przez [[andy-strauss|Andy’ego Straussa]] podczas szturmu [[pluton-cyclops|plutonu Cyclops]] na bazę Federacji. Andy wykrywa ciepło mobile suitów obrońców, a potem dostrzega wahadłowiec i kontener. Mimo ostrzeżenia [[hardy-steiner|Steinera]] rusza naprzód; po trafieniu silników melduje odwrót.
 
 Strzelba przebija się przez wrogów w zasięgu i pozwala ruszyć dalej, a wielka bazooka wyróżnia tę konfigurację.
+}}
+
+{{menu gra=srw-oe
 
 ## Pozostałe jednostki Kampfer
 
