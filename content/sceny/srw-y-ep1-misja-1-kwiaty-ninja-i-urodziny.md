@@ -7,7 +7,7 @@ numer_sceny: 1-1C
 streszczenie: Prolog i pierwsza scena gry łączą paradę kończącą wojnę rewolucyjną, atak VAL-X na miasto Yagami, start A. Adventu, ujawnienie NINJA oraz pierwsze wyjaśnienie Systemu Nira-Kana-I.
 postacie: [agent, annina-servania, baku-yamagishi, echika-y-franburnett, forte-tsukinowa, gauma, zaawansowana-si, cross-tsukinowa, mobile-doll, takuma-nagare, chang-wufei, yomogi-asanaka, zero, aytie, cookie, wren]
 mechy: [altron-gundam, amx-003-gaza-c, a-advent, lunedrache, lancelot-albion-zero, lumenus, taurus, zamza-zah]
-pojecia: [wojna-rewolucyjna, nowa-federacja-ziemska, val-x, logos, czarni-rycerze, ninja, statek-emigracyjny, nira-kana-i, pamiec-stg, teoria-y, miasto-yagami, mechaniczne-marionetki]
+pojecia: [wojna-rewolucyjna, nowa-federacja-ziemska, val-x, logos, czarni-rycerze, ninja, statek-emigracyjny, nira-kana-i, pamiec-stg, teoria-y, miasto-yagami, mechaniczne-marionetki, heero-yuy, duo-maxwell, quatre-raberba-winner, trowa-barton, nunnally-vi-britannia, tetsuya-tsurugi, chizuru-nambara, hyoma-aoi]
 sekcje_analizy:
   - Parada cesarza Leloucha → Parada cesarza Leloucha
   - Atak na miasto Yagami → Rezydencja Franburnettów
@@ -513,6 +513,8 @@ Minął rok od zamachu na cesarza Leloucha. Ja… Echika Y. Franburnett, kończ�
 ### Parada cesarza Leloucha
 
 Otwarcie ustanawia powojenny porządek świata. Śmierć Leloucha kończy bezpośrednią groźbę ostatniej wojny Ziemi z kosmosem, ale reakcje bohaterów pokazują, że pokój wymaga jeszcze decyzji i odpowiedzialności.
+
+Parada jest oglądana przez głosy z kilku innych światów: [[koji-kabuto|Koji]] i [[tetsuya-tsurugi|Tetsuya]] mówią o niedokończonej wojnie, [[chizuru-nambara|Chizuru]] i [[hyoma-aoi|Hyoma]] przypominają o pozostałych zagrożeniach, a [[amuro-ray|Amuro]] i [[bright-noa|Bright Noa]] zastanawiają się nad kolejnym starciem. Wypowiadają się też [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[quatre-raberba-winner|Quatre]], [[trowa-barton|Trowa]] i [[chang-wufei|Wufei]]; po śmierci Leloucha odzywa się [[nunnally-vi-britannia|Nunnally]].
 
 ### Atak na miasto Yagami
 

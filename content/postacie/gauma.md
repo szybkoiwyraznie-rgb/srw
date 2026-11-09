@@ -9,6 +9,7 @@ gry: [srw-y]
 pochodzenie: menu
 zrodla:
   - https://dynazenon.net/en/staff/
+  - https://dynazenon.net/en/character/#/koyomi
 tagi: [srw-y, pilot, dynazenon]
 utworzono: 2026-11-09
 ---
@@ -54,5 +55,5 @@ Mężczyzna, który nazywa siebie “władcą kaiju”. Szuka pewnej osoby i nie
 
 {{zrodlo gra=wspolne
 
-Oficjalna lista obsady *SSSS.DYNAZENON* wymienia Gaumę, Yomogiego Asanakę, Yume Minami, Koyomiego Yamanakę i Chise Asukagawę ([SSSS.DYNAZENON — staff](https://dynazenon.net/en/staff/); sprawdzono 2026-11-09).
+Lista obsady *SSSS.DYNAZENON* wymienia Gaumę, Yomogiego Asanakę, Yume Minami i Chise Asukagawę; przy Koyomim podaje zapis „Yomi Yamanaka” ([staff](https://dynazenon.net/en/staff/); sprawdzono 2026-11-09). Oficjalna strona postaci podaje pełne imię Koyomi Yamanaka ([character](https://dynazenon.net/en/character/#/koyomi); sprawdzono 2026-11-09).
 }}

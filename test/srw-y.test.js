@@ -30,15 +30,46 @@ const MECHY = [
   'lancelot-albion-zero', 'lumenus', 'taurus', 'zamza-zah',
 ];
 const SERIE = [
-  'mobile-suit-gundam-wing-endless-waltz', 'mobile-suit-z-gundam',
-  'mobile-suit-gundam-seed-destiny', 'getter-robo-arc', 'ssss-dynazenon',
-  'code-geass-lelouch-of-the-re-surrection',
+  'super-robot-wars-original', 'mobile-suit-gundam-wing-endless-waltz',
+  'mobile-suit-z-gundam', 'mobile-suit-gundam-seed-destiny', 'getter-robo-arc',
+  'ssss-dynazenon', 'code-geass-lelouch-of-the-re-surrection',
+  'code-geass-lelouch-of-the-rebellion-iii-glorification',
 ];
 const POJECIA = [
   'wojna-rewolucyjna', 'nowa-federacja-ziemska', 'val-x', 'logos',
   'czarni-rycerze', 'ninja', 'statek-emigracyjny', 'nira-kana-i',
   'pamiec-stg', 'teoria-y', 'miasto-yagami', 'mechaniczne-marionetki',
+  'heero-yuy', 'duo-maxwell', 'quatre-raberba-winner', 'trowa-barton',
+  'nunnally-vi-britannia', 'tetsuya-tsurugi', 'chizuru-nambara', 'hyoma-aoi',
 ];
+const POSTACIE_Z_DIALOGU = {
+  Agent: 'agent',
+  Amuro: 'amuro-ray',
+  'Annina Servania': 'annina-servania',
+  Aytie: 'aytie',
+  'Baku Yamagishi': 'baku-yamagishi',
+  'Bright Noa': 'bright-noa',
+  'Chang Wufei': 'chang-wufei',
+  'Chizuru Nambara': 'chizuru-nambara',
+  Cookie: 'cookie',
+  'Cross Tsukinowa': 'cross-tsukinowa',
+  'Duo Maxwell': 'duo-maxwell',
+  'Echika Y. Franburnett': 'echika-y-franburnett',
+  'Forte Tsukinowa': 'forte-tsukinowa',
+  Gauma: 'gauma',
+  'Heero Yuy': 'heero-yuy',
+  'Hyoma Aoi': 'hyoma-aoi',
+  Koji: 'koji-kabuto',
+  'Nunnally vi Britannia': 'nunnally-vi-britannia',
+  'Quatre Raberba Winner': 'quatre-raberba-winner',
+  'Takuma Nagare': 'takuma-nagare',
+  Tetsuya: 'tetsuya-tsurugi',
+  'Trowa Barton': 'trowa-barton',
+  Wren: 'wren',
+  'Yomogi Asanaka': 'yomogi-asanaka',
+  Zero: 'zero',
+};
+const KAMEE_Z_INNYCH_GIER = ['koji-kabuto', 'amuro-ray', 'bright-noa'];
 const SCENA = 'srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny';
 const STARE_SCENY = [
   'srw-y-ep1-parada-cesarza-leloucha',
@@ -120,6 +151,27 @@ test('SRW Y: relacje encji prowadzą do epizodu, scen i serii', () => {
   const scena = bySlug.get(SCENA);
   assert.ok(scena.postacie.length > 0, `${SCENA}: postacie`);
   assert.ok(Array.isArray(scena.pojecia), `${SCENA}: pojęcia`);
+});
+
+test('SRW Y: wszyscy mówcy sceny 1-1C są rozliczeni w obsadzie, hasłach wiki albo istniejących profilach', () => {
+  const scena = bySlug.get(SCENA);
+  const mowiacy = [...skrypt.matchAll(/^\s*>?\s*\*\*([^*]+):\*\*/gm)].map((match) => match[1]);
+  assert.ok(mowiacy.length > 0, 'skrypt zawiera nazwanych mówców');
+  for (const nazwa of mowiacy) {
+    if (nazwa === 'Prezenter') continue;
+    const slug = POSTACIE_Z_DIALOGU[nazwa];
+    assert.ok(slug, `brak rozpoznania mówcy: ${nazwa}`);
+    if (POJECIA.includes(slug)) {
+      assert.ok(scena.pojecia.includes(slug), `${nazwa}: relacja pojęcia sceny`);
+      const strona = bySlug.get(slug);
+      assert.equal(strona.typ, 'pojecie', `${nazwa}: postać spoza obsady gry jest hasłem wiki`);
+      assert.ok(strona.gry.includes('srw-y'), `${nazwa}: powiązanie z grą`);
+    } else if (KAMEE_Z_INNYCH_GIER.includes(slug)) {
+      assert.match(scena.body, new RegExp(`\\[\\[${slug}(?:\\|[^\\]]*)?\\]\\]`), `${nazwa}: wikilink do istniejącego wpisu`);
+    } else {
+      assert.ok(scena.postacie.includes(slug), `${nazwa}: relacja postaci sceny`);
+    }
+  }
 });
 
 test('SRW Y: opisy encyklopedyczne są widoczne w Markdown, a brakujące pozostają puste', () => {
