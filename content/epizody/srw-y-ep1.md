@@ -30,7 +30,7 @@ Po wojnie rewolucyjnej świat próbuje utrzymać pokój, lecz dziedzictwo dawnyc
 
 ## Komentarz
 
-Otwarcie ustawia *Super Robot Wars Y* po zakończeniu wielkiej wojny, ale nie traktuje pokoju jako rozwiązania wszystkich problemów. Rozmowy Echiki i Anniny pokazują koszt odpowiedzialności odziedziczonej po Tetsuro Yagamim, a Cross przyjmuje rolę opiekuna dziewczyny, zanim sam pozna pełną naturę A. Adventu. Prolog przeplata też głosy [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[quatre-raberba-winner|Quatre]], [[trowa-barton|Trowy]], [[nunnally-vi-britannia|Nunnally]], [[tetsuya-tsurugi|Tetsuyi]], [[chizuru-nambara|Chizuru]] i [[hyoma-aoi|Hyomy]]; ich uwagi odsłaniają, jak różne grupy postrzegają kruchy pokój.
+Otwarcie ustawia *Super Robot Wars Y* po zakończeniu wielkiej wojny, ale nie traktuje pokoju jako rozwiązania wszystkich problemów. Rozmowy Echiki i Anniny pokazują koszt odpowiedzialności odziedziczonej po Tetsuro Yagamim, a Cross przyjmuje rolę opiekuna dziewczyny, zanim sam pozna pełną naturę A. Adventu. Prolog przeplata też głosy [[koji-kabuto|Kojiego]], [[tetsuya-tsurugi|Tetsuyi]], [[chizuru-nambara|Chizuru]], [[hyoma-aoi|Hyomy]], [[amuro-ray|Amuro]], [[bright-noa|Brighta Noi]], [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[quatre-raberba-winner|Quatre]], [[trowa-barton|Trowy]] i [[nunnally-vi-britannia|Nunnally]]; ich słowa z parady pokazują, jak różne grupy patrzą na wojnę, którą kończy dopiero zamach na cesarza.
 
 Przy rdzeniu Nira-Kana-I otwiera się pytanie, jakie decyzje podejmie Echika i czym okaże się pamięć STG.
 }}

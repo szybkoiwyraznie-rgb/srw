@@ -476,7 +476,7 @@ Minął rok od zamachu na cesarza Leloucha. Ja… Echika Y. Franburnett, kończ�
 
 Otwarcie ustanawia powojenny porządek świata. Śmierć [[lelouch-vi-britannia|Leloucha]] kończy bezpośrednią groźbę ostatniej wojny Ziemi z kosmosem, ale reakcje bohaterów pokazują, że pokój wymaga jeszcze decyzji i odpowiedzialności.
 
-Parada jest oglądana przez głosy z kilku innych światów: [[koji-kabuto|Koji]] i [[tetsuya-tsurugi|Tetsuya]] mówią o niedokończonej wojnie, [[chizuru-nambara|Chizuru]] i [[hyoma-aoi|Hyoma]] przypominają o cesarzu [[barao|Barao]] z [[imperium-yoma|Imperium Yoma]] i poległym [[chikara-jinguji|Jingujim]], a Hyoma w myślach zwraca się do [[akira-hibiki|Akiry]], a [[amuro-ray|Amuro]] i [[bright-noa|Bright Noa]] zastanawiają się nad kolejnym starciem. Wypowiadają się też [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[quatre-raberba-winner|Quatre]], [[trowa-barton|Trowa]] i [[chang-wufei|Wufei]]; po śmierci [[lelouch-vi-britannia|Leloucha]] odzywa się [[nunnally-vi-britannia|Nunnally]].
+Paradę oglądają bohaterowie innych wojen: [[koji-kabuto|Koji]] i [[tetsuya-tsurugi|Tetsuya]] mówią o wojnie, która wciąż trwa, [[chizuru-nambara|Chizuru]] i [[hyoma-aoi|Hyoma]] przypominają o cesarzu [[barao|Barao]] z [[imperium-yoma|Imperium Yoma]] i poległym [[chikara-jinguji|Jingujim]], Hyoma w myślach zwraca się do [[akira-hibiki|Akiry]], a [[amuro-ray|Amuro]] i [[bright-noa|Bright Noa]] zastanawiają się nad kolejnym starciem. Wypowiadają się też [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[quatre-raberba-winner|Quatre]], [[trowa-barton|Trowa]] i [[chang-wufei|Wufei]]; gdy [[zero|Zero]] dokonuje zamachu na [[lelouch-vi-britannia|Leloucha]], brata woła [[nunnally-vi-britannia|Nunnally]].
 
 ### Atak na miasto Yagami
 
