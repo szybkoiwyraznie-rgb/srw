@@ -19,6 +19,13 @@ utworzono: 2026-11-09
 
 Władca kaiju z [[ssss-dynazenon|SSSS.DYNAZENON]], który trafia w pobliże miasta Yagami razem z drużyną Gettera. Jego reakcja na wstrząsy zapowiada, że atak odsłania większą tajemnicę.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Gauma — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Gauma.png)
+}}
 {{menu gra=srw-y
 
 ## Charakterystyka

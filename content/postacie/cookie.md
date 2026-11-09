@@ -16,6 +16,13 @@ utworzono: 2026-11-09
 
 Pokojówka odpowiedzialna za sekcję gospodarczą A. Adventu. Po starcie fortecy kieruje opieką nad mieszkańcami miasta.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Cookie — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Cookie.png)
+}}
 {{menu gra=srw-y
 
 ## Charakterystyka

@@ -24,6 +24,15 @@ Prototypowy mobile armor [[mobile-suit-gundam-seed-destiny|Sojuszu Ziemskiego]].
 
 Prototypowy mobile armor Sojuszu Ziemskiego. Mimo ogromnych rozmiarów jest bardzo mobilny, a szpony i działa wiązkowe pozwalają mu walczyć na każdym dystansie. Z przodu rozpościera reflektor pozytonowy, który zatrzymuje nawet Tannhausera Minervy. Aby wykorzystać jego możliwości, potrzeba trzech pilotów: dowódcy, sternika i działonowego.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Zamza-Zah — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Zamza-Zah.png)
+}}
 {{menu gra=srw-y
 
 ## Parametry

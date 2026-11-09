@@ -272,11 +272,11 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 182 pliki przy 138 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 206 plików przy 162 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 138);
-  assert.equal(Object.values(manifest.encje).flat().length, 182);
+  assert.equal(Object.keys(manifest.encje).length, 162);
+  assert.equal(Object.values(manifest.encje).flat().length, 206);
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   const portrety = wszystkie.filter((f) => f.startsWith('characters/')).length;
@@ -409,7 +409,9 @@ test('ilustracje właściciela: 182 pliki przy 138 encjach, w tym postacie bez d
     const { html, problemy } = renderMarkdown(body, { wymagajPoziomu: true });
     assert.deepEqual(problemy, []);
     assert.equal((html.match(/<img /g) ?? []).length, files.length, slug);
-    assert.match(body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria z zakresem gry (ADR 0020)`);
+    const graGalerii = bySlug.get(slug).gry[0];
+    assert.match(body, new RegExp(`\\{\\{menu gra=${graGalerii}\\n\\n## Ilustracje`),
+      `${slug}: galeria z zakresem gry (ADR 0020)`);
     for (const file of files) {
       assert.ok(html.includes(`src="${adres(file)}"`), `${slug}: podgląd ${file}`);
     }
@@ -506,7 +508,7 @@ test('ilustracje 2-2 i 2-3: osiem dokładnych kluczy R2 przy czterech właściwy
   }
   assert.deepEqual(manifest.encje.brocken, ['Brocken.png', 'Brocken 2.png']);
   assert.equal(manifest.weryfikacjaZdalna, false);
-  assert.equal(manifest.dostarczono, '2026-11-08');
+  assert.equal(manifest.dostarczono, '2026-11-09');
 });
 
 
@@ -529,4 +531,60 @@ test('pięć portretów Cyber Beast Force ma dokładne klucze characters/ i wła
     assert.ok(page.body.indexOf('## Ilustracje') < page.body.indexOf('## Parametry'));
   }
   assert.equal(manifest.weryfikacjaZdalna, false);
+});
+
+
+test('dostawa ilustracji SRW Y (2026-11-09): osiem jednostek i szesnaście portretów', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const jednostki = {
+    'a-advent': ['A. Advent.png'],
+    'amx-003-gaza-c': ['AMX-003 Gaza C.png'],
+    'altron-gundam': ['Altron Gundam.png'],
+    'lancelot-albion-zero': ['Lancelot Albion Zero.png'],
+    'lumenus': ['Lumenus.png'],
+    'taurus': ['Taurus.png'],
+    'lunedrache': ['X-Lunedrache.png'],
+    'zamza-zah': ['Zamza-Zah.png'],
+  };
+  for (const [slug, files] of Object.entries(jednostki)) {
+    assert.deepEqual(manifest.encje[slug], files, slug);
+    const body = bySlug.get(slug).body;
+    assert.equal((body.match(/^## Ilustracje$/gm) ?? []).length, 1, `${slug}: galeria`);
+    assert.equal((body.match(/^### Ilustracja \d+$/gm) ?? []).length, 1, `${slug}: jedna podsekcja`);
+    assert.ok(body.indexOf('## Ilustracje') < body.indexOf('## Parametry'), `${slug}: kolejność`);
+    assert.match(body, /\{\{menu gra=srw-y\n\n## Ilustracje/, `${slug}: zakres gry`);
+  }
+  // X-Lunedrache to nazwa obecnej maszyny przywódcy Haze — plik należy do Lunedrache.
+  assert.match(bySlug.get('lunedrache').body, /X \(Cross\)-Lunedrache/);
+  const portrety = {
+    'mikumo-guynemer': 'Mikumo Guynemer', 'takuma-nagare': 'Takuma Nagare',
+    'cross-tsukinowa': 'Tsukinowa Cross', 'wren': 'Wren', 'yomogi-asanaka': 'Yomogi',
+    'zero': 'Zero', 'annina-servania': 'Annina Servania', 'aytie': 'Aytie',
+    'baku-yamagishi': 'Baku Yamagishi', 'chang-wufei': 'Chang Wufei', 'cookie': 'Cookie',
+    'echika-y-franburnett': 'Echika Y. Franburnett', 'forte-tsukinowa': 'Forte Tsukinowa',
+    'freyja-wion': 'Freyja Wion', 'gauma': 'Gauma', 'kaname-buccaneer': 'Kaname Buccaneer',
+  };
+  for (const [slug, name] of Object.entries(portrety)) {
+    assert.deepEqual(manifest.encje[slug], [`characters/${name}.png`], slug);
+    const body = bySlug.get(slug).body;
+    assert.equal((body.match(/^## Ilustracje$/gm) ?? []).length, 1, `${slug}: galeria`);
+    assert.match(body, /\{\{menu gra=srw-y\n\n## Ilustracje/, `${slug}: zakres gry`);
+    assert.ok(body.includes(`${manifest.baseUrl}/characters/${encodeURIComponent(name)}.png`),
+      `${slug}: adres portretu`);
+  }
+  // Postacie z samej dostawy ilustracyjnej (ADR 0017) — opisy z kwerendy, nie z gry.
+  for (const slug of ['mikumo-guynemer', 'freyja-wion', 'kaname-buccaneer']) {
+    const page = bySlug.get(slug);
+    assert.equal(page.typ, 'postac', slug);
+    assert.equal(page.seria, 'macross-delta', slug);
+    assert.equal(page.rola, 'wsparcie', slug);
+    assert.deepEqual(page.gry, ['srw-y'], slug);
+    assert.equal(page.pochodzenie, 'zrodlo', slug);
+    for (const url of page.zrodla) assert.ok(page.body.includes(url), `${slug}: adres w treści`);
+    assert.match(page.body, /sprawdzono 2026-11-09/, slug);
+  }
+  assert.equal(bySlug.get('macross-delta').rodzaj, 'tv');
+  assert.equal(manifest.dostarczono, '2026-11-09');
+  assert.equal(manifest.weryfikacjaZdalna, false);
+  assert.deepEqual(manifest.nieprzypisane, []);
 });

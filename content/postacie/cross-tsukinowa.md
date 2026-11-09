@@ -16,6 +16,13 @@ utworzono: 2026-11-09
 
 Przywódca oddziału Haze z Tajnych Sił Specjalnych. Otrzymał od doktora Yagamiego zadanie ochrony [[echika-y-franburnett|Echiki]] i przybywa w [[lunedrache|Lunedrache]], by osłonić ją przed VAL-X.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Cross Tsukinowa — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Tsukinowa%20Cross.png)
+}}
 {{menu gra=srw-y
 
 ## Charakterystyka

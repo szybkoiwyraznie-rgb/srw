@@ -51,6 +51,7 @@ const TAG_SERII = {
   'ssss-dynazenon': 'dynazenon',
   'code-geass-lelouch-of-the-re-surrection': 'code-geass',
   'code-geass-lelouch-of-the-rebellion-iii-glorification': 'code-geass',
+  'macross-delta': 'macross',
 };
 
 test('pole kategoria zniknęło z całej bazy', () => {

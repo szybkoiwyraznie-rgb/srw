@@ -16,6 +16,13 @@ utworzono: 2026-11-09
 
 Zamaskowany doradca Czarnych Rycerzy. W tej historii jest Suzaku Kururugim, który po śmierci Leloucha chroni pokój i przybywa do Japonii, by zbadać ślady [[logos|Logosu]].
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Zero — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Zero.png)
+}}
 {{menu gra=srw-y
 
 ## Charakterystyka

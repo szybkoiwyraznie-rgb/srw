@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-09 16:50
+
+- Wśród maszyn [[srw-y|SRW Y]] walczą [[a-advent|A. Advent]] — dzieło [[tetsuro-yagami|Tetsuro Yagamiego]], maszyna [[echika-y-franburnett|Echiki]] — a także [[amx-003-gaza-c|AMX-003 Gaza C]], [[altron-gundam|Altron Gundam]], [[taurus|Taurus]], [[lancelot-albion-zero|Lancelot Albion Zero]], [[zamza-zah|Zamza-Zah]] i [[lumenus|Lumenus]].
+- [[lunedrache|X-Lunedrache]] to dawna Lunedrache — maszyna przywódcy Haze przywrócona pod nazwą „X (Cross)-Lunedrache”.
+- Ze świata [[macross-delta|Macross Delta]] przychodzą śpiewaczki taktycznego zespołu Walküre: [[mikumo-guynemer|Mikumo Guynemer]], [[freyja-wion|Freyja Wion]] i [[kaname-buccaneer|Kaname Buccaneer]].
+
 ## 2026-11-09 15:40
 
 - Premiera [[srw-y|Super Robot Wars Y]]: 28 sierpnia 2025 na PlayStation 5, Nintendo Switch i PC.

@@ -16,6 +16,13 @@ utworzono: 2026-11-09
 
 Guwernantka [[echika-y-franburnett|Echiki]] i dawna asystentka doktora Yagamiego. Przygotowuje dziewczynę do odpowiedzialności za miasto Yagami i pomaga jej przejąć dowodzenie [[a-advent|A. Adventem]].
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Annina Servania — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Annina%20Servania.png)
+}}
 {{menu gra=srw-y
 
 ## Charakterystyka

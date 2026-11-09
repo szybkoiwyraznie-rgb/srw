@@ -16,6 +16,13 @@ utworzono: 2026-11-09
 
 Towarzysz [[takuma-nagare|Takumy]] z [[getter-robo-arc|Getter Robo Arc]]. Wraz z nim trafia do miasta Yagami i z entuzjazmem obserwuje uruchomienie A. Adventu.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Baku Yamagishi — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Baku%20Yamagishi.png)
+}}
 {{menu gra=srw-y
 
 ## Charakterystyka

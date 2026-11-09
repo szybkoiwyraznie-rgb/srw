@@ -16,6 +16,13 @@ utworzono: 2026-11-09
 
 Pokojówka odpowiedzialna za sekcję techniczną A. Adventu. Po uruchomieniu systemów potwierdza stan infrastruktury.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Wren — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Wren.png)
+}}
 {{menu gra=srw-y
 
 ## Charakterystyka

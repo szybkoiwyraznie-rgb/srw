@@ -16,6 +16,13 @@ utworzono: 2026-11-09
 
 Pokojówka odpowiedzialna za sekcję informacyjną A. Adventu. Po uruchomieniu fortecy zajmuje stanowisko i przekazuje Echice meldunki.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Aytie — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Aytie.png)
+}}
 {{menu gra=srw-y
 
 ## Charakterystyka

@@ -16,6 +16,13 @@ utworzono: 2026-11-09
 
 Młoda NINJA z oddziału Haze i podwładna [[cross-tsukinowa|Crossa]]. Dostarcza mu wsparcie podczas ataku na miasto Yagami i zwraca się do niego jak do przywódcy.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Forte Tsukinowa — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Forte%20Tsukinowa.png)
+}}
 {{menu gra=srw-y
 
 ## Charakterystyka

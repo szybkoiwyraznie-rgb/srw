@@ -16,6 +16,13 @@ utworzono: 2026-11-09
 
 Czternastoletnia dziedziczka miasta Yagami. W dniu urodzin dowiaduje się, że odziedziczyła [[a-advent|A. Advent]] i odpowiedzialność za jego mieszkańców; pierwszy raz wydaje rozkaz obrony miasta.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Echika Y. Franburnett — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Echika%20Y.%20Franburnett.png)
+}}
 {{menu gra=srw-y
 
 ## Charakterystyka

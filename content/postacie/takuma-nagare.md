@@ -18,6 +18,13 @@ utworzono: 2026-11-09
 
 Pilot z [[getter-robo-arc|Getter Robo Arc]], który przybywa do miasta Yagami z [[baku-yamagishi|Bakum]]. Zamiast uciekać przed niezwykłym wydarzeniem, chce zobaczyć je z bliska.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Takuma Nagare — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Takuma%20Nagare.png)
+}}
 {{menu gra=srw-y
 
 ## Charakterystyka

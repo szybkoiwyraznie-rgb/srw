@@ -16,6 +16,13 @@ utworzono: 2026-11-09
 
 Pilot z [[ssss-dynazenon|SSSS.DYNAZENON]], który razem z Takumą i Bakum obserwuje atak na miasto. Jako pierwszy reaguje na pojawienie się A. Adventu.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Yomogi Asanaka — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Yomogi.png)
+}}
 {{menu gra=srw-y
 
 ## Charakterystyka

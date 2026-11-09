@@ -18,6 +18,13 @@ utworzono: 2026-11-09
 
 Pilot [[altron-gundam|Altrona Gundama]] i były uczestnik wojny rewolucyjnej. Nie akceptuje świata zbudowanego przez Leloucha i Chara, ale sprzeciwia się wciąganiu słabszych do kolejnej wojny.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+![Chang Wufei — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Chang%20Wufei.png)
+}}
 {{menu gra=srw-y
 
 ## Charakterystyka

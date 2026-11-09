@@ -22,6 +22,15 @@ Mobilny pancerz ninja [[cross-tsukinowa|Crossa Tsukinowy]], przywódcy grupy Haz
 
 Mobilny pancerz ninja przywódcy Tajnych Sił Specjalnych Haze. Elastyczna rama i napęd ze sztucznymi mięśniami dają mu niespotykaną zwrotność. Sterowanie odbywa się w systemie półpodporządkowanym, łączącym ruchy ciała pilota z obsługą różnych manipulatorów, co czyni maszynę niezwykle delikatną. Maszyna i pilot są połączeni nerwowo, więc pilot odczuwa też uszkodzenia; kto nie przeszedł szkolenia NINJA, z trudem zdoła nią choćby chodzić. Szal na plecach to rój nanomaszyn, służący nie tylko do ataku, ale też, zależnie od taktyki, do maskowania i zwodzenia. Lunedrache, maszyna na zamówienie dla przywódcy, ma inny silnik niż seryjny Mond i dysponuje wybuchową mocą. Nazwę “Lunedrache” nosi każda maszyna kolejnych przywódców Haze; maszyna obecnego przywódcy, od jego kryptonimu, nazywa się oficjalnie “X (Cross)-Lunedrache”.
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Lunedrache — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/X-Lunedrache.png)
+}}
 {{menu gra=srw-y
 
 ## Parametry
