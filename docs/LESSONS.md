@@ -142,3 +142,19 @@ razem z treścią, w tym samym commicie — to naprawa bazy, nie zmiana wymagaj�
 Zanim rozbieżność trafi do „propozycji”, sprawdź, skąd wzięła się asercja (`git log -S`):
 lista przepisana z ówczesnego stanu bazy niczego nie rozstrzyga. Tam, gdzie się da, test
 powinien wyprowadzać oczekiwanie z dostawy (tu: mówcy ze skryptu), a nie z listy w kodzie.
+
+## L16 — Wyliczenie pisane ręcznie obok listy z pól starzeje się po cichu (2026-11-10)
+
+Strona serii *Matchless Raijin-Oh* wymieniała w zdaniu „W Super Robot Wars OE serię
+reprezentują…” dziesięcioro uczniów. Sesja, która dodała czworo kolejnych (Hidenori Kondo,
+Hiroshi Takamori, Miki Mano, Yu Izumi), ustawiła im pole `seria`, więc lista „Z tej serii”
+urosła sama — ale zdania nikt nie dopisał. „Powiązania” zbierały wikilinki z tego zdania,
+więc strona pokazywała dwie różne listy tych samych postaci (15 i 11). Tak samo strona
+*Mobile Police Patlabor* nie wymieniała żołnierza JSDF ani Brockena/Cannon. Żaden test tego nie
+widział: pole było poprawne, zdanie było prawdziwe, tylko niepełne.
+
+Zasada: lista budowana z pól jest jedynym kompletnym wykazem (ADR 0036) i silnik nie pokazuje
+jej drugi raz w kolumnie bocznej. Zdanie w treści serii mówi, kto i co ją reprezentuje, ale to
+ręczna robota — dodając stronę z polem `seria`, otwórz stronę tej serii i dopisz nową pozycję,
+jeśli opis gry wymienia obsadę albo maszyny. Szybka kontrola: na stronie serii każda pozycja
+„Z tej serii” powinna dać się znaleźć w opisie albo opis nie powinien udawać pełnej listy.

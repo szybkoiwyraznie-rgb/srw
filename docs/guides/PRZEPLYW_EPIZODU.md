@@ -109,6 +109,10 @@ Encja `seria` to nie streszczenie anime — to węzeł grafu: rok, rodzaj, liczb
 i powód, dla którego ta seria jest w bazie (kto i co z niej pochodzi). Analiza konkretnych
 odcinków i różnic wobec gry żyje w wpisie epizodu, w tabeli wątków.
 
+Lista „Z tej serii” na stronie serii układa się sama z pola `seria` postaci i mechów (ADR 0036).
+Zdanie w opisie („W … serię reprezentują…”) pisze się ręcznie: każda nowa strona z polem
+`seria` to powód, by otworzyć stronę tej serii i dopisać pozycję do opisu (LESSONS L16).
+
 ## 5. Linkowanie
 
 - Pola frontmattera dla relacji strukturalnych (obsada, sprzęt, seria, gra).

@@ -16,7 +16,9 @@ utworzono: 2026-10-19
 
 W [[srw-oe|Super Robot Wars OE]] z Mobile Police Patlabor pochodzą [[brocken|Brocken]] sterowany przez [[control-ai|Control AI]], ekipa Drugiego Plutonu [[sv2|SV2]] — [[noa-izumi|Noa Izumi]], [[isao-ota|Isao Ota]], [[kanuka-clancy|Kanuka Clancy]], [[asuma-shinohara|Asuma Shinohara]], [[mikiyasu-shinshi|Mikiyasu Shinshi]], [[hiromi-yamazaki|Hiromi Yamazaki]], kapitan [[kiichi-goto|Kiichi Goto]] oraz mechanicy [[seitaro-sakaki|Seitaro Sakaki]] i [[shigeo-shiba|Shigeo Shiba]] — kapitan Pierwszego Plutonu [[shinobu-nagumo|Shinobu Nagumo]], a także obserwujący walkę Ingramów [[utsumi|Utsumi]], [[kurosaki|Kurosaki]] i [[badrinath-harchand|Badrinath Harchand]]. Policyjne Labory [[ingram-nr-1|Ingram nr 1]] i [[ingram-nr-2|Ingram nr 2]] stają do walki z wojskowymi [[hal-x10-green|HAL-X10]], bezzałogowymi [[brocken|Brockenami]] oraz [[helldiver|Helldiverami]] [[sily-samoobrony-japonii|Sił Samoobrony]].
 
-W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] pojawia się [[griffon|Griffon]] [[shaft-enterprises|Shaft Enterprises]] pilotowany przez [[badrinath-harchand|Buda]]. [[utsumi|Utsumi]] kieruje testem, [[kurosaki|Kurosaki]] występuje jako doradca [[hss|HSS]], a policjanci mierzą się także z [[brocken-dzialko-automatyczne|Brockenami z działkiem automatycznym]].
+W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] pojawia się [[griffon|Griffon]] [[shaft-enterprises|Shaft Enterprises]] pilotowany przez [[badrinath-harchand|Buda]]. [[utsumi|Utsumi]] kieruje testem, [[kurosaki|Kurosaki]] występuje jako doradca [[hss|HSS]], a policjanci mierzą się także z [[brocken-dzialko-automatyczne|Brockenami z działkiem automatycznym]]. Z pomocą przybywa im [[zolnierz-jsdf|żołnierz JSDF]] w HAL-X10, lecz Griffon w mgnieniu oka unieszkodliwia jego maszynę.
+
+W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|Morzu Drzew u stóp Fuji]] Brockeny walczą u boku [[mechabestia|mechabestii]] — wśród nich artyleryjski [[brocken-cannon|Brocken/Cannon]].
 }}
 
 {{zrodlo gra=wspolne
