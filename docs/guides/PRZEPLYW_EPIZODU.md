@@ -101,8 +101,12 @@ jako mówców skryptu i na liście uczestników — tam każda nazwa ma na tward
   na liście uczestników tej samej dostawy (dodatek postaci niebojowych wymienia dokładnie
   mówiących w scenie) i wpisz etykietę w pole `pseudonim` — nie zakładaj strony „Potato”.
   Gdy sama dostawa nie rozstrzyga, kto jest kim, parę potwierdza źródło w bloku `{{zrodlo}}`.
+- Załogę przepisz z wiersza jednostki w całości: `pilot główny` **i** `piloci wspierający`
+  trafiają do pola `piloci` mecha (także jego formy połączonej), a mech do pola `mechy`
+  każdego z nich — również pilota zbiorowego w rodzaju „Żołnierz Zeonu”.
 - Po założeniu stron uruchom `node tools/uczestnicy-dostaw.mjs`: wypisuje każdą nazwę z dostaw
-  bez strony i każdą stronę z inną serią niż w dostawie. Ma nie wypisać nic.
+  bez strony, każdą stronę z inną serią niż w dostawie i każdą parę „jednostka — pilot”,
+  której brakuje w polu `piloci` albo `mechy`. Ma nie wypisać żadnej rozbieżności.
 
 Uwaga na poziom szczegółu: **statystyki i uzbrojenie opisują parę (mech, gra)**, nie mecha.
 Wiedza o późniejszych epizodach i losach postaci do wpisu nie trafia (ADR 0012).

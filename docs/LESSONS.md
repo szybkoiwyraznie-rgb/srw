@@ -173,3 +173,16 @@ Zasada: zanim powstanie strona mówcy, znajdź go na liście uczestników tej sa
 tam jest nazwa strony i jej seria (ADR 0037). Przezwisko trafia do pola `pseudonim`. Gdy test
 nie pozwala wpisać tego, co mówi dostawa, usterką jest test (L15), nie dostawa. Kontrola:
 `node tools/uczestnicy-dostaw.mjs` — ma wypisać same zgodne przypisania.
+
+## L18 — Załoga to cały wiersz jednostki, a test pisany ze stanu bazy utrwala brak (2026-11-10)
+
+Dostawa misji 2-8 SRW OE podaje „Daiteioh — pilot główny: Taro Omomo — piloci wspierający
+w misji: Mai Ozora, Kakeru Daichi”. Do pola `piloci` trafił sam pilot główny, a test misji
+zapisał to jako oczekiwany stan (`deepEqual(piloci, ['taro-omomo'])`) — od tej chwili pilnował
+błędu. Podobnie testy starszych misji wymagały dokładnej listy maszyn Żołnierza Zeonu, więc
+każda nowa dostawa z kolejną jego maszyną musiała albo złamać test, albo pominąć wpis;
+pominięto sześć.
+
+Zasada: oczekiwaną załogę test bierze z dostawy, nie z bazy (ADR 0037 pkt 7). Test jednej
+misji sprawdza „zawiera”, nie „jest dokładnie”, gdy lista rośnie z kolejnymi dostawami;
+komplet pilnuje jeden test czytający wszystkie dostawy naraz.

@@ -106,8 +106,11 @@ test('obsada jednostek misji 2 zachowuje kolejność pilotów i domyślną zało
   assert.deepEqual(bySlug.get('guntank').piloci, ['hayato-kobayashi']);
   assert.deepEqual(bySlug.get('dopp').piloci, ['zolnierz-zeonu']);
   assert.deepEqual(bySlug.get('turret').piloci, [], 'wieżyczka jest niepilotowanym celem');
-  assert.deepEqual(bySlug.get('zolnierz-zeonu').mechy,
-    ['dom-zolnierz-zeonu', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']);
+  // Lista maszyn pilota zbiorowego rośnie z każdą dostawą; komplet pilnuje
+  // test/seria-z-dostawy.test.js, tutaj liczą się maszyny z pierwszych misji.
+  for (const mech of ['dom-zolnierz-zeonu', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']) {
+    assert.ok(bySlug.get('zolnierz-zeonu').mechy.includes(mech), `Żołnierz Zeonu: ${mech}`);
+  }
   assert.deepEqual(bySlug.get('sayla-mass').mechy, ['g-fighter']);
 });
 

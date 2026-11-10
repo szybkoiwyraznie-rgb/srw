@@ -37,7 +37,9 @@ postaci/mechów podana w wiadomości). Wynik pracy:
    nowe wystąpienie (pole `gry`, `mechy`) i uzupełniasz treść, jeśli skrypt wniósł coś nowego.
    **Seria i nazwa strony pochodzą z listy uczestników dostawy** (ADR 0037): seria wpisana tam
    na twardo jest serią strony, a przezwisko, pod którym postać mówi w skrypcie, to pole
-   `pseudonim` strony pod imieniem i nazwiskiem — nie osobna strona.
+   `pseudonim` strony pod imieniem i nazwiskiem — nie osobna strona. Z tej samej listy pochodzi
+   załoga: pilot główny i piloci wspierający stoją w polu `piloci` mecha, a mech w polu `mechy`
+   każdego z nich.
 3. **Relacje** — pola frontmattera (`postacie`, `mechy`, `serie`, `gra`) plus wikilinki
    w treści. Bez nich wpis jest wyspą: nie pojawi się w „Powiązaniach" na stronie encji.
 4. **Analiza i komentarz** — gdzie wątek pochodzi z anime (seria + odcinek, jeśli wiadomo),

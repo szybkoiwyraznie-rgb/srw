@@ -181,8 +181,11 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
   }
   // Żołnierz Zeonu wraca do bazy z dostawą misji 2 (ADR 0025, adnotacja 2026-10-22).
   assert.ok(bySlug.has('zolnierz-zeonu'), 'Żołnierz Zeonu ma własną stronę');
-  assert.deepEqual(bySlug.get('zolnierz-zeonu').mechy,
-    ['dom-zolnierz-zeonu', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']);
+  // Lista maszyn pilota zbiorowego rośnie z każdą dostawą; komplet pilnuje
+  // test/seria-z-dostawy.test.js, tutaj liczą się maszyny z pierwszych misji.
+  for (const mech of ['dom-zolnierz-zeonu', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']) {
+    assert.ok(bySlug.get('zolnierz-zeonu').mechy.includes(mech), `Żołnierz Zeonu: ${mech}`);
+  }
   assert.deepEqual(bySlug.get('turret').piloci, [], 'Turret nie jest pilotowanym mechem');
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka']) {
     assert.ok(bySlug.get(slug).piloci.includes('zolnierz-zeonu'), `${slug}: domyślna załoga`);
@@ -219,7 +222,10 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
 test('profile załogi i transformacje są powiązane, ale nie udają sceny fabularnej', () => {
   assert.deepEqual(bySlug.get('exart').piloci, ['seishiro', 'himari-yaegaki']);
   assert.deepEqual(bySlug.get('masaki-andoh').mechy, ['cybuster', 'cybird']);
-  assert.deepEqual(bySlug.get('control-ai').mechy, ['brocken', 'helldiver', 'brocken-dzialko-automatyczne']);
+  // Komplet maszyn Control AI pilnuje test/seria-z-dostawy.test.js (dostawa 2-8 dołożyła Brocken/Cannon).
+  for (const mech of ['brocken', 'helldiver', 'brocken-dzialko-automatyczne']) {
+    assert.ok(bySlug.get('control-ai').mechy.includes(mech), `Control AI: ${mech}`);
+  }
   assert.equal(bySlug.get('control-ai').seria, undefined, 'Control AI nie ma wpisu w słowniku postaci');
   assert.deepEqual(bySlug.get('real-pg-gundam').piloci, []);
   assert.match(bySlug.get('cybuster').body, /\[\[cybird\|Cybird\]\]/);

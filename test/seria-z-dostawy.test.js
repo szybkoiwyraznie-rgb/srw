@@ -7,6 +7,8 @@
  *
  * - każdy uczestnik ma stronę o nazwie z dostawy, a jej pole `seria` jest tym,
  *   co wpisała dostawa — także wtedy, gdy dostawa serii nie podaje,
+ * - załoga z listy jednostek misji (pilot główny i piloci wspierający) stoi
+ *   w polu `piloci` mecha, a mech w polu `mechy` każdego z nich,
  * - każdy mówca skryptu prowadzi do strony postaci: przez tytuł, przez imię
  *   albo nazwisko z tytułu, albo przez pole `pseudonim`,
  * - przezwisko jest polem strony pod imieniem i nazwiskiem, a nie osobną stroną.
@@ -25,6 +27,7 @@ import { wczytajStrony, wczytajSkrypty } from '../tools/content-loader.mjs';
 import { zbudujDane } from '../tools/build.mjs';
 import {
   porownajZBaza, przypisaniaDostaw, przypisaniaZPliku, normalizujNazwe, RODZAJE_ROZBIEZNOSCI,
+  porownajZalogi, zalogiZPliku, RODZAJE_ROZBIEZNOSCI_ZALOG,
 } from '../tools/uczestnicy-dostaw.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -93,6 +96,66 @@ test('seria wpisana w dostawie jest serią strony — dla każdego uczestnika', 
     assert.deepEqual(raport[rodzaj], [], `${opisy[rodzaj]} (ADR 0037)`);
   }
   assert.equal(raport.zgodnych, raport.przypisan);
+});
+
+test('parser dostaw czyta załogę z każdego wiersza „pilot główny”', () => {
+  const katalog = path.join(ROOT, 'dostawy');
+  let wierszy = 0;
+  let wspierajacych = 0;
+  for (const gra of fs.readdirSync(katalog)) {
+    for (const plik of fs.readdirSync(path.join(katalog, gra))) {
+      const sciezka = path.join(katalog, gra, plik);
+      const linie = fs.readFileSync(sciezka, 'utf8').replace(/\r/g, '').split('\n');
+      const zalogi = zalogiZPliku(sciezka);
+      linie.forEach((linia, i) => {
+        if (!/pilot główny:/.test(linia)) return;
+        wierszy += 1;
+        const zWiersza = zalogi.filter((z) => z.wiersz === i + 1);
+        // Wiersz bez osoby („brak”, „???”) nie daje pary; każdy inny daje pilota głównego.
+        const bezOsoby = /pilot główny: (?:brak|Brak przypisanego klucza pilota[^—]*|\?+)\s*(?:—|$)/.test(linia);
+        assert.equal(zWiersza.filter((z) => z.rola === 'główny').length, bezOsoby ? 0 : 1,
+          `${gra}/${plik}:${i + 1}: pilot główny`);
+        const lista = linia.match(/piloci wspierający w (?:misji|presecie): ([^—]+)/)?.[1];
+        const oczekiwani = lista
+          ? lista.split(',').map((x) => x.trim()).filter((x) => x && !/^brak$/i.test(x))
+          : [];
+        assert.deepEqual(zWiersza.filter((z) => z.rola === 'wspierający').map((z) => z.pilot), oczekiwani,
+          `${gra}/${plik}:${i + 1}: piloci wspierający`);
+        wspierajacych += oczekiwani.length;
+      });
+    }
+  }
+  assert.ok(wierszy > 0, 'dostawy mają listy jednostek z pilotami');
+  assert.ok(wspierajacych > 0, 'dostawy mają pilotów wspierających');
+});
+
+test('załoga z listy jednostek misji jest załogą strony — pilot główny i piloci wspierający', () => {
+  const raport = porownajZalogi({ root: ROOT, strony });
+  const opisy = {
+    nieznanaJednostka: 'jednostka z listy misji nie ma (jednej) strony mecha',
+    nieznanyPilot: 'pilot z listy misji nie ma (jednej) strony postaci',
+    brakWPilotach: 'pole `piloci` mecha pomija pilota z dostawy — dopisz także pilotów wspierających',
+    brakWMechach: 'pole `mechy` postaci pomija maszynę, którą dostawa jej przypisuje',
+    zalogaCelu: 'cel skryptowy („nie jest pilotowanym mechem”) nie ma załogi',
+  };
+  for (const rodzaj of RODZAJE_ROZBIEZNOSCI_ZALOG) {
+    assert.deepEqual(raport[rodzaj], [], `${opisy[rodzaj]} (ADR 0037 pkt 7)`);
+  }
+  assert.ok(raport.par > 0);
+  assert.equal(raport.zgodnych, raport.par);
+});
+
+test('pilot wpisany w polu piloci ma tę maszynę w polu mechy', () => {
+  // Kierunek bez wyjątków: skoro strona mecha podaje pilota, strona pilota podaje mecha.
+  // (Odwrotnie nie zawsze: Kuro, Shiro i Bakuryu-Oh wiążą się z maszyną, nie będąc jej załogą.)
+  const poSlugu = new Map(strony.map((s) => [s.slug, s]));
+  const braki = [];
+  for (const mech of strony.filter((s) => s.typ === 'mech')) {
+    for (const pilot of mech.piloci ?? []) {
+      if (!(poSlugu.get(pilot)?.mechy ?? []).includes(mech.slug)) braki.push(`${pilot}: pole mechy pomija ${mech.slug}`);
+    }
+  }
+  assert.deepEqual(braki, []);
 });
 
 test('każdy mówca skryptu prowadzi do strony postaci swojej gry', () => {

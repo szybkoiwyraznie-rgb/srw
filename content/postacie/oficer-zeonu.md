@@ -4,7 +4,7 @@ slug: oficer-zeonu
 tytul: Oficer Zeonu
 rola: dowodztwo
 gry: [srw-oe]
-mechy: [zanzibar]
+mechy: [zanzibar, musai]
 pochodzenie: menu
 tagi: [one-year-war, dowodztwo, zeon]
 utworzono: 2026-10-22

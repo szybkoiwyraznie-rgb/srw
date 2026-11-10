@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-10 22:45
+
+- Załogę [[daiteioh|Daiteioha]] i [[perfect-daiteioh|Perfect Daiteioha]] tworzą [[taro-omomo|Taro Omomo]], [[mai-ozora|Mai Ozora]], [[kakeru-daichi|Kakeru Daichi]] i [[hiryu-tsukishiro|Hiryu Tsukishiro]].
+- [[ganbaruger|Ganbarugera]] i [[great-ganbaruger|Great Ganbarugera]] pilotują razem [[kotaro-kirigakure|Kotaro Kirigakure]], [[yosuke-kazamatsuri|Yosuke Kazamatsuri]] i [[rikiya-ryuzaki|Rikiya Ryuzaki]].
+- [[harumi-sato|Harumi Sato]], czyli „Two”, to dziewczynka — młodsza z bliźniąt Sato wśród [[saurersi|Saurersów]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] to ona śledzi radar.
+
 ## 2026-11-10 22:09
 
 - „Potato” z narady w [[akademia-hinobori|Akademii Hinobori]] to [[orie-ishizuka|Orie Ishizuka]] z [[klasa-obrony-ziemi|Klasy Obrony Ziemi]], bohaterka [[matchless-raijin-oh|*Matchless Raijin-Oh*]].

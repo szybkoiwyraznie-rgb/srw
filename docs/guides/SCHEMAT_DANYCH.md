@@ -73,7 +73,9 @@ Słowo „wariant” zarezerwowane jest dla tej samej maszyny w różnych grach 
 Profil sterujący zbiorczą obsadą (np. **Control AI** przy Brockenie) może być wpisem
 `postac`. Bezimienny ogół żołnierzy nie dostaje osobnego wpisu — opisują go strony maszyn.
 `piloci` wymienia nazwanych pilotów w kolejności znaczącej dla obsady misji
-(np. `[char-aznable, slender, crown]`; ADR 0024).
+(np. `[char-aznable, slender, crown]`; ADR 0024). To **cała załoga** z listy jednostek
+dostawy — pilot główny i piloci wspierający — a każda z tych osób ma tę maszynę w swoim polu
+`mechy` (ADR 0037 pkt 7–8).
 
 **`w_gre`** to mapa „slug gry → parametry pary (mech, gra)” (ADR 0020, 0023, 0024).
 Wartość zapisujemy jako JSON w jednej linii:

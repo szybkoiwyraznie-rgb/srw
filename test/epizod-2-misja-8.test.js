@@ -70,10 +70,19 @@ test('obsada sceny obejmuje drużyny Eldrana, Gurren Team i pilotów wroga', () 
     for (const slug of scene[key]) assert.ok(episode[key].includes(slug), `${key}: ${slug}`);
   }
   // Nowe strony tej dostawy i odwrotne przypisania.
-  assert.deepEqual(bySlug.get('daiteioh').piloci, ['taro-omomo']);
-  assert.deepEqual(bySlug.get('perfect-daiteioh').piloci, ['taro-omomo']);
-  assert.deepEqual(bySlug.get('ganbaruger').piloci, ['kotaro-kirigakure']);
-  assert.deepEqual(bySlug.get('great-ganbaruger').piloci, ['kotaro-kirigakure']);
+  // Załoga z listy jednostek misji: pilot główny i piloci wspierający (ADR 0037 pkt 7).
+  // Hiryu Tsukishiro ma w dostawie kartę podpilota serii Daiteioh, ale nie stoi przy
+  // żadnej jednostce — do załogi Daiteioha przypisał go właściciel (2026-11-10).
+  const zalogaDaiteioha = ['taro-omomo', 'mai-ozora', 'kakeru-daichi', 'hiryu-tsukishiro'];
+  const zalogaGanbarugera = ['kotaro-kirigakure', 'yosuke-kazamatsuri', 'rikiya-ryuzaki'];
+  assert.deepEqual(bySlug.get('daiteioh').piloci, zalogaDaiteioha);
+  assert.deepEqual(bySlug.get('perfect-daiteioh').piloci, zalogaDaiteioha, 'forma połączona ma tę samą załogę');
+  assert.deepEqual(bySlug.get('ganbaruger').piloci, zalogaGanbarugera);
+  assert.deepEqual(bySlug.get('great-ganbaruger').piloci, zalogaGanbarugera, 'forma połączona ma tę samą załogę');
+  for (const pilot of zalogaDaiteioha) {
+    assert.deepEqual(bySlug.get(pilot).mechy, ['daiteioh', 'perfect-daiteioh'], pilot);
+  }
+  assert.match(bySlug.get('daiteioh').body, /\[\[hiryu-tsukishiro\|/, 'strona Daiteioha wymienia Hiryu');
   assert.deepEqual(bySlug.get('taro-omomo').mechy, ['daiteioh', 'perfect-daiteioh']);
   assert.deepEqual(bySlug.get('kotaro-kirigakure').mechy, ['ganbaruger', 'great-ganbaruger']);
   assert.equal(bySlug.get('taro-omomo').rola, 'pilot');

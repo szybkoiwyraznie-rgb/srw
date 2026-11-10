@@ -75,3 +75,34 @@ pseudonim, Orie Ishizuka to imię i nazwisko.
   przezwisko nie miało własnej strony. `test/tagi.test.js` pilnuje pkt 6.
 - Mówcy, których lista uczestników nie obejmuje (prolog SRW Y), nie mają serii z dostawy;
   ta decyzja ich nie dotyczy.
+
+## Adnotacja 2026-11-10 — załoga z listy jednostek misji też wiąże
+
+Ta sama lista podaje przy każdej jednostce załogę: `pilot główny: X — piloci wspierający
+w misji: A, B`. Po misji 2-8 SRW OE strony Daiteioha i Ganbarugera miały w polu `piloci`
+tylko pilota głównego, choć dostawa wymienia przy nich po dwóch pilotów wspierających,
+a czterej piloci zbiorowi (Żołnierz Zeonu, Oficer Zeonu, Mechabestia, Control AI) nie mieli
+w polu `mechy` sześciu maszyn, które dostawy im przypisują. Testy tego nie widziały —
+sprawdzały pole `piloci` tylko pod kątem pilota głównego albo zapisywały stan bazy.
+
+7. **Załoga z dostawy jest załogą strony.** Każda osoba z wiersza jednostki — pilot główny
+   i piloci wspierający — stoi w polu `piloci` strony mecha, a ten mech w polu `mechy`
+   strony każdej z nich; dotyczy to także pilotów zbiorowych. Wiersz oznaczony „cel/obiekt
+   skryptowy; nie jest pilotowanym mechem” załogi nie daje (ADR 0025), tak samo wiersz bez
+   osoby („brak”, „???”). Forma połączona ma załogę maszyny, z której powstaje.
+8. **Kierunek bez wyjątków:** pilot wpisany w `piloci` ma tę maszynę w `mechy`. Odwrotnie
+   nie zawsze — Kuro i Shiro wiążą się z Cybusterem, a Bakuryu-Oh z God Raijin-Oh, nie
+   będąc ich załogą.
+
+`tools/uczestnicy-dostaw.mjs` czyta teraz także załogi (`zalogiDostaw`, `porownajZalogi`)
+i kończy pracę kodem 1, gdy cokolwiek się nie zgadza; `test/seria-z-dostawy.test.js` wymaga
+zera rozbieżności i pilnuje pkt 8.
+
+Rozstrzygnięcia właściciela z tego samego dnia, których dostawy nie podają wprost:
+
+- **Harumi Sato („Two”) to dziewczynka**, **Yu Izumi to dziewczyna** — strony opisują je
+  w rodzaju żeńskim. Polszczyzna wymusza rodzaj; gdy ani dostawa, ani źródło go nie podają,
+  pytanie trafia do właściciela, a opis nie udaje neutralnego.
+- **Hiryu Tsukishiro należy do załogi Daiteioha.** Dostawa daje mu kartę podpilota z serią
+  *Kanzen Shouri Daiteioh*, ale nie wymienia go przy żadnej jednostce, więc pkt 7 sam by go
+  nie objął; `daiteioh` i `perfect-daiteioh` mają go w polu `piloci` na mocy tej decyzji.
