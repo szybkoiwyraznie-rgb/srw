@@ -281,3 +281,23 @@ test('maszyny z misji 2-8 mają sprawdzone tło pierwowzoru (ADR 0008, ADR 0013)
     for (const url of page.zrodla) assert.ok(blok[1].includes(url), `${slug}: link w treści`);
   }
 });
+
+test('piloci Daiteioh i Ganbaruger z misji 2-8 mają sprawdzone tło pierwowzoru (ADR 0008, ADR 0013)', () => {
+  for (const [slug, wzorzec] of [
+    ['taro-omomo', /大桃 タロウ/],
+    ['mai-ozora', /大空 マイ/],
+    ['kakeru-daichi', /大地 カケル/],
+    ['hiryu-tsukishiro', /月城 ヒリュウ/],
+    ['kotaro-kirigakure', /霧隠 虎太郎/],
+    ['yosuke-kazamatsuri', /風祭 鷹介/],
+    ['rikiya-ryuzaki', /流崎 力哉/],
+  ]) {
+    const page = bySlug.get(slug);
+    assert.ok(page.zrodla.length >= 1, `${slug}: zrodla`);
+    const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
+    assert.ok(blok, `${slug}: blok zrodlo`);
+    assert.match(blok[1], /sprawdzono 2026-11-10/, `${slug}: data sprawdzenia`);
+    assert.match(blok[1], wzorzec, `${slug}: zapis oryginalny`);
+    for (const url of page.zrodla) assert.ok(blok[1].includes(url), `${slug}: link w treści`);
+  }
+});

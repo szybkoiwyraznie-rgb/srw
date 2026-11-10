@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-10 23:57
+
+- [[taro-omomo|Taro Omomo]], [[mai-ozora|Mai Ozora]] i [[kakeru-daichi|Kakeru Daichi]] pochodzą z klasy 5-3 Szkoły Podstawowej Gokuraku, do której dołącza [[hiryu-tsukishiro|Hiryu Tsukishiro]] — kuzyn [[asuka-tsukishiro|Asuki Tsukishiro]].
+- [[kotaro-kirigakure|Kotaro Kirigakure]], [[yosuke-kazamatsuri|Yosuke Kazamatsuri]] i [[rikiya-ryuzaki|Rikiya Ryuzaki]] uczą się w klasie 4-1 Szkoły Podstawowej Aozora, a po przejęciu mocy [[eldran|Eldrana]] walczą w kombinezonach Yellow, Blue i Red Ganbar.
+
 ## 2026-11-10 23:55
 
 - [[daiteioh|Daiteioh]] powstaje ze Zwycięskiego Połączenia Teioha, Kuuoha i Rikuoha, a w parze z Dairyuoh [[hiryu-tsukishiro|Hiryu Tsukishiro]] tworzy [[perfect-daiteioh|Perfect Daiteioha]].
