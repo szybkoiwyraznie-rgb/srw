@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-10 23:55
+
+- [[daiteioh|Daiteioh]] powstaje ze Zwycięskiego Połączenia Teioha, Kuuoha i Rikuoha, a w parze z Dairyuoh [[hiryu-tsukishiro|Hiryu Tsukishiro]] tworzy [[perfect-daiteioh|Perfect Daiteioha]].
+- [[ganbaruger|Ganbaruger]] składa się z Go Tigera, Mach Eagle’a i King Elephanta, a z Revolgerem i Gekiryugerem łączy się w [[great-ganbaruger|Great Ganbarugera]].
+- [[gandoppler|Gandoppler]] przemienia się między myśliwcem a formą bojową, a ciężkie działo 105 mm znane z wariantu [[brocken-cannon|Brocken/Cannon]] należy do opcjonalnego uzbrojenia jednoosobowego [[brocken|Brockena]].
+
 ## 2026-11-10 23:50
 
 - [[oficer-zeonu|Oficer Zeonu]] dowodzi okrętami [[zanzibar|Zanzibar]] w [[srw-oe-ep2-bitwa-o-jaburo|bitwie o Jaburo]] i [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu za Zanzibarem]] oraz dwoma krążownikami [[musai|Musai]] [[patrolowa-flota-camel|Patrolowej Floty Camel]].

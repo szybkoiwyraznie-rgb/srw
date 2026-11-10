@@ -261,3 +261,23 @@ test('serie Eldrana i Macross Delta mają komplet metadanych i tło pierwowzoru 
   assert.equal(macross.odcinki, 26);
   assert.match(macross.body, /\{\{zrodlo gra=wspolne[\s\S]*sprawdzono 2026-11-10/);
 });
+
+test('maszyny z misji 2-8 mają sprawdzone tło pierwowzoru (ADR 0008, ADR 0013)', () => {
+  for (const [slug, wzorzec] of [
+    ['bolt-robo-anti-air', /Hyper Bolt Robo/],
+    ['brocken-cannon', /105mm Cannon/],
+    ['gandoppler', /dziewiętnastym odcinku/],
+    ['daiteioh', /Shōri Gattai/],
+    ['perfect-daiteioh', /Dairyuoha/],
+    ['ganbaruger', /Miracle Gattai/],
+    ['great-ganbaruger', /Revolgerem/],
+  ]) {
+    const page = bySlug.get(slug);
+    assert.ok(page.zrodla.length >= 1, `${slug}: zrodla`);
+    const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
+    assert.ok(blok, `${slug}: blok zrodlo`);
+    assert.match(blok[1], /sprawdzono 2026-11-10/, `${slug}: data sprawdzenia`);
+    assert.match(blok[1], wzorzec, `${slug}: wyróżnik pierwowzoru`);
+    for (const url of page.zrodla) assert.ok(blok[1].includes(url), `${slug}: link w treści`);
+  }
+});
