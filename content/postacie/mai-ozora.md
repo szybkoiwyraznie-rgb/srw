@@ -13,7 +13,7 @@ utworzono: 2026-11-09
 
 {{skrypt gra=srw-oe
 
-Podpilot [[daiteioh|Daiteioha]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] wątpi w prostotę nadchodzącej walki, a w lesie cieszy się, że wróg nie wyskoczył w mieście, a w naradzie o locie w kosmos popiera pomysł jednego reprezentanta; zauważa też, że [[gurren-lagann|Gurren Lagann]] nie jest robotem [[eldran|Eldrana]].
+Podpilot [[daiteioh|Daiteioha]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] wątpi w prostotę nadchodzącej walki, w lesie cieszy się, że wróg nie wyskoczył w mieście, a w naradzie o locie w kosmos popiera pomysł jednego reprezentanta; zauważa też, że [[gurren-lagann|Gurren Lagann]] nie jest robotem [[eldran|Eldrana]].
 }}
 
 {{menu gra=srw-oe

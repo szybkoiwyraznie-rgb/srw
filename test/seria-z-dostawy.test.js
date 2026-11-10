@@ -221,7 +221,8 @@ test('pseudonim widać na stronie i na liście postaci, a wyszukiwarka prowadzi 
   globalThis.SRW_DATA = await zbudujDane({ root: ROOT });
   const { renderEncja } = await import('../src/srw/render-entity.js');
   const { renderListe } = await import('../src/srw/render-lists.js');
-  const { szukaj } = await import('../src/srw/render-search.js');
+  const { szukaj, renderSzukanie } = await import('../src/srw/render-search.js');
+  const escapeRe = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   // Galeria postaci pokazuje karty dopiero po wybraniu filtra, więc pytamy o grę.
   const listy = new Map();
   const listaGry = (gra) => listy.get(gra) ?? listy.set(gra, renderListe('postac', { gra })).get(gra);
@@ -230,12 +231,14 @@ test('pseudonim widać na stronie i na liście postaci, a wyszukiwarka prowadzi 
     const html = renderEncja(p.slug);
     const cytat = `„${p.pseudonim}”`;
     assert.ok(html.slice(0, html.indexOf('uklad-strona')).includes(cytat), `${p.slug}: pseudonim w podtytule`);
-    assert.match(html, new RegExp(`<dt>Pseudonim</dt>\\s*<dd>${p.pseudonim}</dd>`), `${p.slug}: pseudonim w metryce`);
+    assert.match(html, new RegExp(`<dt>Pseudonim</dt>\\s*<dd>${escapeRe(p.pseudonim)}</dd>`), `${p.slug}: pseudonim w metryce`);
     const karta = listaGry(p.gry[0]).split('<article').find((k) => k.includes(`href="#/postac/${p.slug}"`));
     assert.ok(karta, `${p.slug}: karta na liście postaci gry ${p.gry[0]}`);
     assert.ok(karta.includes(cytat), `${p.slug}: pseudonim na karcie listy postaci`);
     const wyniki = szukaj(p.pseudonim);
     const pierwszy = wyniki[0]?.strona?.slug ?? wyniki[0]?.slug;
     assert.equal(pierwszy, p.slug, `szukanie „${p.pseudonim}” zaczyna się od strony ${p.slug}`);
+    assert.match(renderSzukanie(p.pseudonim), new RegExp(`„<mark>${escapeRe(p.pseudonim)}</mark>”`),
+      `${p.slug}: pseudonim w wynikach wyszukiwania`);
   }
 });
