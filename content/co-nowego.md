@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-10 23:45
+
+- [[kanzen-shouri-daiteioh|*Kanzen Shouri Daiteioh*]] (完全勝利ダイテイオー) powstał jako manga w magazynie *Dengeki Hobby Magazine* i jednoodcinkowy film pilotażowy OVA z grudnia 2001 roku — planowany serial telewizyjny nigdy nie trafił na antenę.
+- [[genki-bakuhatsu-ganbaruger|*Genki Bakuhatsu Ganbaruger*]] (元気爆発ガンバルガー) liczy 47 odcinków z lat 1992–1993 i stanowi drugą odsłonę cyklu Eldrana z miasta Aozora, rok po wydarzeniach z [[matchless-raijin-oh|*Matchless Raijin-Oh*]].
+- [[macross-delta|*Macross Delta*]] to 26-odcinkowy serial z 2016 roku osadzony w roku 2067 w gromadzie Brísingr, gdzie śpiewaczki Walküre wspierają lotnictwo Delta Flight przeciwko syndromowi Vár.
+
 ## 2026-11-10 23:05
 
 - [[harumi-sato|Harumi Sato]] jest młodszą z bliźniaczek Sato — starsza, Akemi, to „One”. W Thunder Brachio Harumi obsługuje radar, i to ona śledzi go w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]].

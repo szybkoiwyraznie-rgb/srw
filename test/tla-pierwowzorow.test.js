@@ -238,3 +238,26 @@ test('encje bez pierwowzoru poza bazą źródeł nie dostają zmyślonego tła (
     assert.ok(!page.zrodla || page.zrodla.length === 0, `${slug}: brak adresów w zrodla`);
   }
 });
+
+test('serie Eldrana i Macross Delta mają komplet metadanych i tło pierwowzoru (ADR 0008, ADR 0012)', () => {
+  const daiteioh = bySlug.get('kanzen-shouri-daiteioh');
+  assert.equal(daiteioh.tytul_ja, '完全勝利ダイテイオー');
+  assert.equal(daiteioh.rodzaj, 'ova');
+  assert.equal(daiteioh.rok, 2001);
+  assert.equal(daiteioh.odcinki, 1);
+  assert.ok(daiteioh.tagi.includes('ova'));
+  assert.ok(!daiteioh.tagi.includes('serial-tv'));
+  assert.match(daiteioh.body, /\{\{zrodlo gra=wspolne[\s\S]*sprawdzono 2026-11-10/);
+
+  const ganbaruger = bySlug.get('genki-bakuhatsu-ganbaruger');
+  assert.equal(ganbaruger.tytul_ja, '元気爆発ガンバルガー');
+  assert.equal(ganbaruger.rodzaj, 'tv');
+  assert.equal(ganbaruger.rok, 1992);
+  assert.equal(ganbaruger.odcinki, 47);
+  assert.match(ganbaruger.body, /\{\{zrodlo gra=wspolne[\s\S]*sprawdzono 2026-11-10/);
+
+  const macross = bySlug.get('macross-delta');
+  assert.equal(macross.rok, 2016);
+  assert.equal(macross.odcinki, 26);
+  assert.match(macross.body, /\{\{zrodlo gra=wspolne[\s\S]*sprawdzono 2026-11-10/);
+});
