@@ -18,6 +18,15 @@ Podpilot [[ganbaruger|Ganbarugera]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|s
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Rikiya Ryuzaki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Rikiya%20Ryusaki.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Rikiya

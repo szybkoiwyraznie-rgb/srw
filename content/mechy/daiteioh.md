@@ -19,6 +19,19 @@ Robot [[kanzen-shouri-daiteioh|drużyny Daiteioh]] pilotowany przez [[taro-omomo
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Daiteioh — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Daiteioh.png)
+
+### Ilustracja 2
+
+![Daiteioh — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Daiteioh%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 ### Macierzyste zdolności maszyny

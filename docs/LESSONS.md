@@ -197,3 +197,16 @@ trafiło dwa razy do właściciela. Tymczasem SRW Wiki ma w metryce każdej post
 Zasada: brak informacji w pierwszym źródle to powód, by otworzyć drugie (dla postaci
 z gier SRW — japońską SRW Wiki), nie by pisać naokoło ani pytać. Do właściciela trafia
 dopiero to, czego nie rozstrzyga żadne dostępne źródło — z podaniem, gdzie szukano.
+
+## L20 — Stan bieżący przypinaj w jednym teście, nie w teście każdej dostawy (2026-11-10)
+
+Dostawa 34 ilustracji zmieniła trzy liczby w manifeście (pliki, encje, data). Te same
+liczby stały w sześciu miejscach czterech plików testowych: testy misji 2-5, 2-6 i 2-7
+sprawdzały nie tylko własne klucze, ale i to, że manifest ma dokładnie 206 plików
+i datę 2026-11-09 — czyli stan z dnia, w którym je pisano. Każda następna dostawa
+musiałaby je wszystkie poprawiać, a poprawianie cudzego testu „żeby przeszedł” to
+dokładnie ten odruch, przed którym test ma chronić.
+
+Zasada: test dostawy pilnuje tego, co do niej należy i co się już nie zmieni (jej klucze,
+jej numer odczytu, „manifest nie jest starszy ode mnie”). Sumy i datę bieżącą trzyma
+jeden test stanu, wyprowadzający liczby z danych wszędzie, gdzie się da (L15).

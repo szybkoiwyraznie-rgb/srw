@@ -242,30 +242,57 @@ function uporzadkuj(typ, lista) {
   return wstepnie.sort((a, b) => miejsce(a) - miejsce(b));
 }
 
-/** Boks „Powiązania" w kolumnie bocznej: grupy po typie, przy każdej liczba stron. */
-function boksPowiazan(grupy) {
+/** Tyle pozycji boks „Powiązania" pokazuje od razu; resztę odsłania przycisk „Rozwiń" (ADR 0039). */
+export const LIMIT_POWIAZAN = 50;
+
+/** Klasa pozycji, grupy albo podpisu, które czekają na „Rozwiń"; ukrywa je CSS, nie skrypt. */
+const PONAD_LIMIT = 'ponad-limit';
+
+/**
+ * Boks „Powiązania" w kolumnie bocznej: grupy po typie, przy każdej liczba stron.
+ *
+ * Długi boks jest zwinięty do `LIMIT_POWIAZAN` pozycji liczonych w kolejności
+ * wyświetlania, przez wszystkie grupy. Pozostałe są w HTML-u od razu (odsyłacze
+ * nie znikają ze strony), tylko niewidoczne do kliknięcia „Rozwiń". Licznik przy
+ * nagłówku grupy zawsze podaje pełną liczbę stron.
+ */
+export function boksPowiazan(grupy) {
   const wpisy = [...grupy.entries()]
     .filter(([, lista]) => lista.length > 0)
     .sort((a, b) => KOLEJNOSC_TYPOW.indexOf(a[0]) - KOLEJNOSC_TYPOW.indexOf(b[0]));
   if (wpisy.length === 0) return '';
-  return `<section class="blok-powiazan">
-    <h2>Powiązania</h2>
-    ${wpisy.map(([typ, lista]) => `
-      <div class="grupa-powiazan">
+
+  const razem = wpisy.reduce((suma, [, lista]) => suma + lista.length, 0);
+  const ukrytych = Math.max(0, razem - LIMIT_POWIAZAN);
+  let wolnych = LIMIT_POWIAZAN;
+  const grupyHtml = wpisy.map(([typ, lista]) => {
+    const widocznych = Math.min(wolnych, lista.length);
+    wolnych -= widocznych;
+    return `
+      <div class="grupa-powiazan${widocznych === 0 ? ` ${PONAD_LIMIT}` : ''}">
         <h3>${nazwaTypu(typ, 'wiele')} <span class="licznik">${lista.length}</span></h3>
-        ${typ === 'epizod' || typ === 'scena' ? listaFabuly(typ, lista) : `<ul class="lista-horyzontalna">
-          ${lista.map((p) => `<li>${linkStrony(p)}</li>`).join('')}
+        ${typ === 'epizod' || typ === 'scena' ? listaFabuly(typ, lista, widocznych) : `<ul class="lista-horyzontalna">
+          ${lista.map((p, i) => `<li${i >= widocznych ? ` class="${PONAD_LIMIT}"` : ''}>${linkStrony(p)}</li>`).join('')}
         </ul>`}
-      </div>`).join('')}
+      </div>`;
+  }).join('');
+
+  return `<section class="blok-powiazan"${ukrytych ? ' data-zwiniety' : ''}>
+    <h2>Powiązania</h2>
+    ${grupyHtml}${ukrytych ? `
+    <button type="button" class="rozwin-powiazania" data-rozwin-powiazania aria-expanded="false">
+      <span data-etykieta>Rozwiń</span> <span class="licznik">jeszcze ${ukrytych}</span>
+    </button>` : ''}
   </section>`;
 }
 
 /**
  * Sceny i epizody: jedna pozycja w wierszu, z numerem — tytuły są długie,
  * a kolejność znaczy. Gdy lista obejmuje więcej niż jedną grę, każda gra
- * dostaje podpis: „01 Epizod 1" istnieje w każdej z nich.
+ * dostaje podpis: „01 Epizod 1" istnieje w każdej z nich. `widocznych` to
+ * liczba pozycji mieszczących się w limicie boksu; dalsze czekają na „Rozwiń".
  */
-function listaFabuly(typ, lista) {
+function listaFabuly(typ, lista, widocznych = lista.length) {
   const graPozycji = (p) => (typ === 'scena' ? dajStrone(p.epizod)?.gra : p.gra) ?? null;
   const gry = new Map();
   for (const p of lista) {
@@ -273,14 +300,20 @@ function listaFabuly(typ, lista) {
     if (!gry.has(gra)) gry.set(gra, []);
     gry.get(gra).push(p);
   }
+  // Numer pozycji w kolejności wyświetlania — grupowanie po grze mogło ją zmienić.
+  let pokazanych = 0;
   const wiersz = (p) => {
+    const ukryta = pokazanych >= widocznych;
+    pokazanych += 1;
     const numer = typ === 'epizod' ? numerEpizodu(p.numer) : String(p.numer_sceny ?? '');
     return `
-          <li><a class="link-strony" href="${hrefDlaSlug(p.slug, p.typ)}">${numer ? `<span class="mono">${escapeHtml(numer)}</span> ` : ''}${escapeHtml(p.tytul)}</a></li>`;
+          <li${ukryta ? ` class="${PONAD_LIMIT}"` : ''}><a class="link-strony" href="${hrefDlaSlug(p.slug, p.typ)}">${numer ? `<span class="mono">${escapeHtml(numer)}</span> ` : ''}${escapeHtml(p.tytul)}</a></li>`;
   };
   return [...gry.entries()].map(([slugGry, pozycje]) => {
     const gra = slugGry ? dajStrone(slugGry) : null;
-    const podpis = gry.size > 1 && gra ? `<p class="gra-fabuly">${escapeHtml(gra.tytul)}</p>` : '';
-    return `${podpis}<ul class="lista-fabuly">${pozycje.map(wiersz).join('')}</ul>`;
+    // Gra, której żadna pozycja nie mieści się w limicie, chowa się razem z podpisem.
+    const ukryta = pokazanych >= widocznych ? ` ${PONAD_LIMIT}` : '';
+    const podpis = gry.size > 1 && gra ? `<p class="gra-fabuly${ukryta}">${escapeHtml(gra.tytul)}</p>` : '';
+    return `${podpis}<ul class="lista-fabuly${ukryta}">${pozycje.map(wiersz).join('')}</ul>`;
   }).join('\n        ');
 }

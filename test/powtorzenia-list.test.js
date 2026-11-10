@@ -45,10 +45,11 @@ function miejsca(strona) {
     .map((m) => ({ tytul: m[1], slugi: slugi(m[2]) }));
 
   const metryka = boczna.match(/<dl class="infoboks-lista">([\s\S]*?)<\/dl>/)?.[1] ?? '';
-  const boksy = [...boczna.matchAll(/<section class="blok-powiazan[^"]*">\s*<h2>([^<]*)<\/h2>([\s\S]*?)<\/section>/g)];
+  // Zwinięty boks ma atrybut `data-zwiniety`, a grupa ponad limit — dodatkową klasę (ADR 0039).
+  const boksy = [...boczna.matchAll(/<section class="blok-powiazan[^"]*"[^>]*>\s*<h2>([^<]*)<\/h2>([\s\S]*?)<\/section>/g)];
   const powiazania = boksy.find((b) => b[1] === 'Powiązania')?.[2] ?? '';
   // Grupy boksu: nazwa typu, liczba z nagłówka i slugi w kolejności wyświetlania.
-  const grupy = powiazania.split('<div class="grupa-powiazan">').slice(1).map((g) => {
+  const grupy = powiazania.split(/<div class="grupa-powiazan[^"]*">/).slice(1).map((g) => {
     const naglowek = g.match(/<h3>([^<]*?)\s*<span class="licznik">(\d+)<\/span><\/h3>/);
     return {
       nazwa: naglowek?.[1] ?? null,

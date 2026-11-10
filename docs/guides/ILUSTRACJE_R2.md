@@ -101,6 +101,21 @@ jest jedynym wyjściem do oryginału.
 Spacje w nazwach kodujemy jako `%20`; wielkość liter pozostaje bez zmian. Test porównuje
 manifest z odnośnikami stron. Nowa ilustracja tej samej maszyny nie tworzy nowej jednostki.
 
+**Klucz przepisuj z odczytu listy R2, nie z listy w wiadomości.** Lista właściciela bywa
+zrzutem ekranu, a ten nie pokaże podwójnej spacji: plik widoczny jako
+`Bolt Robo - karabin Gatlinga.png` ma w buckecie dwie spacje po „Robo”, czyli w adresie
+dwa kolejne `%20`. Adres złożony z nazwy przepisanej z obrazka dałby błąd 404, którego
+sandbox nie zobaczy (nie ma dostępu do `r2.dev`). Klucz zachowuje też pisownię właściciela,
+gdy różni się od tytułu strony (`Grandoppler.png` → strona *Gandoppler*,
+`characters/Rikiya Ryusaki.png` → *Rikiya Ryuzaki*) — tytuł bierze się z dostawy tekstowej,
+a pliku w buckecie agent nie przemianowuje.
+
+Bieżące liczby manifestu (pliki, encje, data `dostarczono`) przypina jeden test:
+„ilustracje właściciela…” w `test/dostawa-pl.test.js`. Test pojedynczej dostawy sprawdza
+własne klucze, wzmiankę w `podstawa`, numer odczytu w `uwaga` i to, że manifest nie jest
+starszy od tej dostawy — nie powtarza sum, żeby kolejna dostawa nie wymagała poprawiania
+testów poprzednich.
+
 Nowa jednostka powstaje z odrębnego rekordu w dostawie, nie z nowego zdjęcia (ADR 0023);
 zdjęcia jednostki trafiają na jej własną stronę, a „wariant” oznacza tę samą maszynę w innej grze.
 

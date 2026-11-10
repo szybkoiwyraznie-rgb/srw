@@ -25,3 +25,12 @@ W rozmowach występuje pod przezwiskiem „Kuko”. W [[srw-oe-ep2-klasa-obrony-
 
 W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Kumiko Tanabe (田辺 久美子), nazywana „Kuko”, należy do [[saurersi|Saurersów]] i do pomocniczej załogi Land Stego; wśród dzieci pełni rolę pielęgniarki ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); sprawdzono 2026-11-10).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Kumiko Tanabe — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kumiko%20Tanabe.png)
+}}

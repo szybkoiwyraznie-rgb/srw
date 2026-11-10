@@ -18,6 +18,15 @@ Podpilot [[ganbaruger|Ganbarugera]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|s
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Yosuke Kazamatsuri — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Yosuke%20Kazamatsuri.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Yosuke

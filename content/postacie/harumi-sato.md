@@ -28,3 +28,12 @@ W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Harumi Sato (佐藤 晴美), nazywa
 
 W Thunder Brachio obsługuje radar. Siostry są do siebie tak podobne, że nie odróżniają ich nawet pozostali Saurersi ([SRW Wiki, „佐藤晴美”](https://srw.wiki.cre.jp/wiki/%E4%BD%90%E8%97%A4%E6%99%B4%E7%BE%8E); sprawdzono 2026-11-10).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Harumi Sato — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Harumi%20Sato.png)
+}}

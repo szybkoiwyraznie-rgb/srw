@@ -25,3 +25,12 @@ W rozmowach występuje pod przezwiskiem „Chobi”. W [[srw-oe-ep2-klasa-obrony
 
 W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Kazutaka Seki (関 和孝), nazywany „Chobi”, należy do [[saurersi|Saurersów]] i do pomocniczej załogi Thunder Brachio. Niski urwis z klubu piłkarskiego, często z piłką w ręku, jest trzecim z trójki [[kenichi-minezaki|Kenichiego]] — obok [[saneyasu-mushanokoji|Saneyasu]] ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); sprawdzono 2026-11-10).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Kazutaka Seki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kazutaka%20Seki.png)
+}}

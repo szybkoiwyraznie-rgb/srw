@@ -348,6 +348,16 @@ blockquote {
 .lista-fabuly .mono { color: var(--tusz-3); font-size: .86em; margin-right: 2px; }
 .gra-fabuly { margin: 10px 0 4px; font-size: .8rem; color: var(--tusz-3); }
 .grupa-powiazan h3 + .gra-fabuly { margin-top: 0; }
+/* Długi boks pokazuje 50 pozycji; reszta jest w HTML-u i czeka na „Rozwiń” (ADR 0039). */
+.blok-powiazan[data-zwiniety] .ponad-limit { display: none; }
+.rozwin-powiazania {
+  display: block; width: 100%; margin-top: 12px; padding: 6px 10px; cursor: pointer;
+  font: inherit; font-size: .9rem; color: var(--akcent);
+  background: transparent; border: 1px solid var(--ramka-2); border-radius: 8px;
+}
+.rozwin-powiazania:hover { border-color: var(--akcent); }
+.rozwin-powiazania:focus-visible { outline: 3px solid var(--akcent); outline-offset: 2px; }
+.blok-powiazan:not([data-zwiniety]) .rozwin-powiazania .licznik { display: none; }
 
 /* ── Epizod ────────────────────────────────────────────────────── */
 

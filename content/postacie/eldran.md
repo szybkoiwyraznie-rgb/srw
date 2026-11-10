@@ -26,3 +26,12 @@ W samej scenie uczniowie mówią o sobie jako o czterech drużynach wybranych pr
 
 W [[matchless-raijin-oh|*Matchless Raijin-Oh*]] Eldran to „strażnik światła” — istota, która przysięgła chronić wszechświat, a zwłaszcza Ziemię. Próbuje powstrzymać pocisk [[jaku-empire|Imperium Jaku]], kierując [[raijin-oh|Raijin-Oh]]; pocisk wybucha, a robot spada na szkołę w Hinobori. Ponieważ Eldran musi dalej strzec Ziemi, zostawia Raijin-Oh piątoklasistom ze szkoły, na którą spadł, przydziela każdemu dziecku zadanie i przemienia sam budynek w centrum dowodzenia ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-11-10).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Eldran — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Eldran.png)
+}}

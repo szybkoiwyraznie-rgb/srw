@@ -51,3 +51,4 @@ Zasady:
 | [0036](0036-jedna-pozycja-jedno-miejsce.md) | Jedna pozycja, jedno miejsce: kolumna boczna nie powtarza metryki ani własnych list strony |
 | [0037](0037-seria-z-dostawy-i-pseudonim.md) | Seria z listy uczestników jest wiążąca; przezwisko to pole `pseudonim`, nie osobna strona |
 | [0038](0038-powiazania-jeden-boks.md) | „Powiązania” to wszystkie relacje strony w jednym boksie; „Wymienione w” znika |
+| [0039](0039-powiazania-zwiniete-do-50.md) | „Powiązania” pokazują 50 pozycji; resztę odsłania przycisk „Rozwiń” |

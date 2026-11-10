@@ -18,6 +18,15 @@ Podpilot [[daiteioh|Daiteioha]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|sceni
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Mai Ozora — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Mai%20Ozora.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Mai

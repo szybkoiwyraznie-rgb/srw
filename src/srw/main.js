@@ -5,6 +5,7 @@
 
 import { uruchomRouter } from './router.js';
 import { podepnijPodglad } from './podglad.js';
+import { podepnijZwijanie } from './zwijanie.js';
 import { wlaczLeniweObrazy } from './leniwe-obrazy.js';
 import { rama, tytulStrony, nieZnalesc, nazwaTypu } from './render.js';
 import { czasStrony, coNowegoCzas, czasBazy } from './data.js';
@@ -115,8 +116,10 @@ function podepnijSkokiWStronie() {
   });
 }
 
-// Podgląd ilustracji działa przez delegację zdarzeń, więc wystarczy podpiąć go raz.
+// Podgląd ilustracji i „Rozwiń” w „Powiązaniach” działają przez delegację zdarzeń,
+// więc wystarczy podpiąć je raz.
 podepnijPodglad();
+podepnijZwijanie();
 podepnijSkokiWStronie();
 
 const stop = uruchomRouter(renderuj);

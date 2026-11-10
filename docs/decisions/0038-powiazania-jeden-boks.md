@@ -60,6 +60,7 @@ zostaje dla list „Z tej serii…” i „W tym epizodzie”.
   ta sama — nic nie zginęło, zmieniła się tylko liczba list.
 - Boks ma 311 stron z 316. Najdłuższy jest na stronie gry (*Super Robot Wars OE*: 248 pozycji —
   wszystko, co w tej grze występuje; tyle samo stało wcześniej w „Wymienione w”).
+  Od ADR 0039 boks dłuższy niż 50 pozycji startuje zwinięty.
 - Wikilink albo pole na jednej stronie wystarcza, by obie strony pokazały się nawzajem
   w „Powiązaniach”. Strona, do której nic nie odsyła i która nigdzie nie odsyła, nie ma boksu.
 - `test/powtorzenia-list.test.js` wyprowadza oczekiwania z danych: jeden boks, brak powtórzeń,

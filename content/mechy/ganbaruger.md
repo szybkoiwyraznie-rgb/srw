@@ -19,6 +19,19 @@ Robot [[genki-bakuhatsu-ganbaruger|drużyny Ganbaruger]] pilotowany przez [[kota
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Ganbaruger — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Ganbaruger.png)
+
+### Ilustracja 2
+
+![Ganbaruger — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Ganbaruger%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 ### Macierzyste zdolności maszyny

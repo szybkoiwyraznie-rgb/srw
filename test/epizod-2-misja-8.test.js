@@ -199,3 +199,73 @@ test('strony misji nie ujawniają etykiet technicznych ani przyszłych walk', ()
   assert.match(bySlug.get('mechabestia').body, /Aokigahara/);
   assert.match(bySlug.get('mucus').body, /zmechanizować Mucus/);
 });
+
+test('ilustracje misji 2-8: pięć jednostek po dwa pliki i 24 portrety, z dokładnymi kluczami R2', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const jednostki = {
+    // W buckecie po „Robo” stoją dwie spacje — klucz zostaje taki, jaki jest w R2.
+    'bolt-robo-anti-air': ['Bolt Robo  - karabin Gatlinga.png', 'Bolt Robo  - karabin Gatlinga 2.png'],
+    'brocken-cannon': ['Brocken - cannon.png', 'Brocken - cannon 2.png'],
+    daiteioh: ['Daiteioh.png', 'Daiteioh 2.png'],
+    ganbaruger: ['Ganbaruger.png', 'Ganbaruger 2.png'],
+    // Klucz ma pisownię właściciela, strona — nazwę z dostawy tekstowej.
+    gandoppler: ['Grandoppler.png', 'Grandoppler 2.png'],
+  };
+  // Portret nazywa się jak postać; dwa klucze różnią się od tytułu strony jedną literą.
+  const innaPisowniaKlucza = { 'hiroshi-takamori': 'Hiroshi Takemori', 'rikiya-ryuzaki': 'Rikiya Ryusaki' };
+  const portrety = ['aiko-shimada', 'akira-imamura', 'daisuke-sato', 'eldran', 'harumi-sato', 'hidenori-kondo',
+    'hiroshi-takamori', 'hiryu-tsukishiro', 'ikuyo-oyama', 'kakeru-daichi', 'kazutaka-seki', 'kotaro-kirigakure',
+    'kumiko-tanabe', 'mai-ozora', 'masao-fujiyoshi', 'miki-mano', 'orie-ishizuka', 'rikiya-ryuzaki',
+    'saneyasu-mushanokoji', 'shuzo-osada', 'taro-omomo', 'yosuke-kazamatsuri', 'yu-izumi', 'yuka-mizuhara'];
+  assert.equal(portrety.length, 24);
+  const dostawa = { ...jednostki };
+  for (const slug of portrety) {
+    const page = bySlug.get(slug);
+    assert.equal(page.typ, 'postac', slug);
+    dostawa[slug] = [`characters/${innaPisowniaKlucza[slug] ?? page.tytul}.png`];
+  }
+  assert.equal(Object.values(dostawa).flat().length, 34, 'dostawa to 34 pliki');
+
+  // Jedna postać z dostawy nie występuje w misji 2-8: Daisuke Sato jest w obsadzie misji 2-1.
+  const scenaStrony = (slug) => (slug === 'daisuke-sato' ? bySlug.get('srw-oe-ep2-grozba-pod-ziemia') : scene);
+  for (const [slug, pliki] of Object.entries(dostawa)) {
+    assert.deepEqual(manifest.encje[slug], pliki, slug);
+    const page = bySlug.get(slug);
+    assert.deepEqual(page.gry, ['srw-oe'], `${slug}: strona tej gry`);
+    assert.equal((page.body.match(/^## Ilustracje$/gm) ?? []).length, 1, `${slug}: jedna galeria`);
+    assert.equal((page.body.match(/^### Ilustracja \d+$/gm) ?? []).length, pliki.length, slug);
+    assert.equal((page.body.match(/!\[/g) ?? []).length, pliki.length, slug);
+    assert.match(page.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria z zakresem gry`);
+    if (page.body.includes('## Parametry')) {
+      assert.ok(page.body.indexOf('## Ilustracje') < page.body.indexOf('## Parametry'), `${slug}: galeria przed parametrami`);
+    }
+    pliki.forEach((plik, i) => {
+      const podpis = `${page.tytul} — ilustracja ${i + 1} z ${pliki.length}`;
+      const adres = plik.split('/').map(encodeURIComponent).join('/');
+      assert.ok(page.body.includes(`![${podpis}](${manifest.baseUrl}/${adres})`), `${slug}: ${plik}`);
+    });
+    // Ilustracja nie dopisuje nikogo do sceny: każda z tych stron jest w obsadzie swojej misji z dostawy tekstowej.
+    const obsada = scenaStrony(slug)[page.typ === 'postac' ? 'postacie' : 'mechy'] ?? [];
+    assert.ok(obsada.includes(slug), `${slug}: strona z obsady sceny ${scenaStrony(slug).numer_sceny}`);
+  }
+  assert.ok(!(scene.postacie ?? []).includes('daisuke-sato'), 'portret nie dopisał Daisuke Sato do misji 2-8');
+  // Dwie spacje w kluczu to w adresie dwa kolejne %20, nie jedno.
+  assert.ok(bySlug.get('bolt-robo-anti-air').body.includes('/Bolt%20Robo%20%20-%20karabin%20Gatlinga.png)'));
+
+  // Sąsiednie strony zachowują własne pliki — nowe zdjęcia nie trafiły do innej odmiany.
+  assert.deepEqual(manifest.encje.brocken, ['Brocken.png', 'Brocken 2.png']);
+  assert.deepEqual(manifest.encje['brocken-dzialko-automatyczne'], ['Brocken Działko.png', 'Brocken Działko 2.png']);
+  for (const slug of ['bolt-robo-standard', 'bolt-robo-melee', 'bolt-robo-long-range']) {
+    assert.ok(manifest.encje[slug].every((plik) => !plik.includes('karabin Gatlinga')), slug);
+  }
+  // Formy połączone nie dostały zdjęć maszyn bazowych.
+  for (const slug of ['perfect-daiteioh', 'great-ganbaruger']) {
+    assert.equal(manifest.encje[slug], undefined, `${slug}: bez własnego pliku w tej dostawie`);
+  }
+
+  assert.equal(manifest.weryfikacjaZdalna, false, 'lista R2 nie jest obejrzeniem obrazów');
+  assert.ok(manifest.dostarczono >= '2026-11-10', 'manifest nie jest starszy od tej dostawy');
+  assert.match(manifest.podstawa, /Dostawa ilustracji misji 2-8 \(2026-11-10\)/);
+  assert.match(manifest.uwaga, /Actions 42909697708, check-run 130156783395/);
+  assert.match(manifest.uwaga, /zgodność całego manifestu z 240 obiektami/);
+});

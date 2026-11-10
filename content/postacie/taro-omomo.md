@@ -19,6 +19,15 @@ Główny pilot [[daiteioh|Daiteioha]] z [[kanzen-shouri-daiteioh|drużyny Daitei
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Taro Omomo — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Taro%20Omomo.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Momotaro
