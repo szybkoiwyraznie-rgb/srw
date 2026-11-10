@@ -144,13 +144,15 @@ test('God Raijin-Oh ma odrębne parametry i załogę, ale nie jest osobną jedno
   const god = bySlug.get('god-raijin-oh');
   assert.equal(god.typ, 'mech');
   assert.equal(god.seria, 'matchless-raijin-oh');
-  assert.deepEqual(god.piloci, ['jin-hyuga', 'asuka-tsukishiro', 'koji-hoshiyama'],
-    'źródło nie zmienia załogi z menu (ADR 0017)');
+  // Troje pilotów Raijin-Oha z dostawy; Bakuryu-Oh dochodzi do załogi formy połączonej
+  // decyzją właściciela z 2026-11-10 (ADR 0037, adnotacja) — wcześniej test tego zabraniał.
+  assert.deepEqual(god.piloci, ['jin-hyuga', 'asuka-tsukishiro', 'koji-hoshiyama', 'bakuryu-oh']);
   for (const slug of ['jin-hyuga', 'asuka-tsukishiro', 'koji-hoshiyama']) {
     assert.deepEqual(bySlug.get(slug).mechy, ['raijin-oh', 'god-raijin-oh'], slug);
   }
-  // Bakuryu-Oh jest podpilotem wyłącznie formy God Raijin-Oh; relacja siedzi na jego stronie postaci.
+  // Bakuryu-Oh jest podpilotem wyłącznie formy God Raijin-Oh, nie samego Raijin-Oha.
   assert.deepEqual(bySlug.get('bakuryu-oh').mechy, ['god-raijin-oh']);
+  assert.ok(!bySlug.get('raijin-oh').piloci.includes('bakuryu-oh'));
   assert.match(god.body, /\[\[raijin-oh\|Raijin-Oh\]\]/);
   assert.match(bySlug.get('raijin-oh').body, /\[\[god-raijin-oh\|God Raijin-Oh\]\]/);
   assert.ok(!scena.mechy.includes('god-raijin-oh'), 'transformacja nie jest osobną jednostką sceny');

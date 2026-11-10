@@ -2,6 +2,7 @@
 typ: postac
 slug: suol
 tytul: Suol Douglas
+pseudonim: Szef Suol
 seria: super-robot-wars-original
 rola: dowodztwo
 gry: [srw-oe]

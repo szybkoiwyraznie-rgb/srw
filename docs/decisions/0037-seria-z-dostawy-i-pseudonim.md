@@ -89,10 +89,10 @@ sprawdzały pole `piloci` tylko pod kątem pilota głównego albo zapisywały st
    i piloci wspierający — stoi w polu `piloci` strony mecha, a ten mech w polu `mechy`
    strony każdej z nich; dotyczy to także pilotów zbiorowych. Wiersz oznaczony „cel/obiekt
    skryptowy; nie jest pilotowanym mechem” załogi nie daje (ADR 0025), tak samo wiersz bez
-   osoby („brak”, „???”). Forma połączona ma załogę maszyny, z której powstaje.
+   osoby („brak”, „???”). Forma połączona ma załogę maszyny, z której powstaje; w God
+   Raijin-Ohu dochodzi do niej Bakuryu-Oh.
 8. **Kierunek bez wyjątków:** pilot wpisany w `piloci` ma tę maszynę w `mechy`. Odwrotnie
-   nie zawsze — Kuro i Shiro wiążą się z Cybusterem, a Bakuryu-Oh z God Raijin-Oh, nie
-   będąc ich załogą.
+   nie zawsze — Kuro i Shiro wiążą się z Cybusterem, nie będąc jego załogą.
 
 `tools/uczestnicy-dostaw.mjs` czyta teraz także załogi (`zalogiDostaw`, `porownajZalogi`)
 i kończy pracę kodem 1, gdy cokolwiek się nie zgadza; `test/seria-z-dostawy.test.js` wymaga
@@ -101,8 +101,22 @@ zera rozbieżności i pilnuje pkt 8.
 Rozstrzygnięcia właściciela z tego samego dnia, których dostawy nie podają wprost:
 
 - **Harumi Sato („Two”) to dziewczynka**, **Yu Izumi to dziewczyna** — strony opisują je
-  w rodzaju żeńskim. Polszczyzna wymusza rodzaj; gdy ani dostawa, ani źródło go nie podają,
-  pytanie trafia do właściciela, a opis nie udaje neutralnego.
+  w rodzaju żeńskim. Polszczyzna wymusza rodzaj, więc opis nie udaje neutralnego. Gdy
+  dostawa i pierwsze otwarte źródło płci nie podają, szuka się dalej (SRW Wiki ma w metryce
+  postaci pole „性別”); pytanie do właściciela jest ostatnim krokiem, nie pierwszym.
+- **Akemi Sato („One”) to też dziewczynka** — Harumi jest młodszą z bliźniaczek. Potwierdza
+  to SRW Wiki („双子姉妹”, 性別: 女 u obu sióstr; sprawdzono 2026-11-10).
 - **Hiryu Tsukishiro należy do załogi Daiteioha.** Dostawa daje mu kartę podpilota z serią
   *Kanzen Shouri Daiteioh*, ale nie wymienia go przy żadnej jednostce, więc pkt 7 sam by go
   nie objął; `daiteioh` i `perfect-daiteioh` mają go w polu `piloci` na mocy tej decyzji.
+- **Formy połączone mają załogę maszyny bazowej**, z jednym wyjątkiem: w **God
+  Raijin-Ohu dochodzi Bakuryu-Oh**. Dostawy nie dają formom połączonym własnego wiersza
+  na liście jednostek, a Bakuryu-Oha nie wymieniają wcale — jego miejsce w polu `piloci`
+  God Raijin-Oha wynika z tej decyzji (wcześniej `test/tla-pierwowzorow.test.js` tego
+  zabraniał, bo podpilota podawało tylko źródło).
+- **„Kuko”, nie „Kuuko”** — przezwisko Kumiko Tanabe ma w całej bazie zapis z gry, także
+  w bloku źródłowym.
+- **„Szef Suol” to pseudonim Suola Douglasa** — pole `pseudonim` strony `suol`; test mówców
+  nie potrzebuje już osobnej tablicy etykiet „funkcja i imię”.
+- **Mówcy prologu SRW Y czekają z serią na własną dostawę.** Seria nie jest im dopisywana
+  z wiedzy ogólnej (pkt 2 i ostatni punkt „Konsekwencji”).

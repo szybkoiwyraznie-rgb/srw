@@ -38,9 +38,6 @@ const epizody = strony.filter((s) => s.typ === 'epizod');
 /** Głosy bez imienia: nie są postaciami i nie mają stron (ADR 0013). */
 const GLOSY_BEZIMIENNE = new Set(['???', 'Łączność / Głośnik', 'Prezenter']);
 
-/** Etykieta mówcy złożona z funkcji i imienia. */
-const MOWCY_Z_FUNKCJA = { 'Szef Suol': 'suol' };
-
 /** Mówcy jednego skryptu: etykiety `**Imię:**`, także w dialogach warunkowych (`> **Imię:**`). */
 function mowcySkryptu(tekst) {
   return new Set([...tekst.matchAll(/^\s*>?\s*\*\*([^*\n]+?):\*\*/gm)].map((m) => m[1].trim()));
@@ -48,7 +45,6 @@ function mowcySkryptu(tekst) {
 
 /** Strony postaci danej gry, do których prowadzi etykieta mówcy. */
 function stronyMowcy(etykieta, gra) {
-  if (MOWCY_Z_FUNKCJA[etykieta]) return postacie.filter((p) => p.slug === MOWCY_Z_FUNKCJA[etykieta]);
   const szukana = normalizujNazwe(etykieta);
   const wGrze = postacie.filter((p) => (p.gry ?? []).includes(gra));
   const poTytule = wGrze.filter((p) => normalizujNazwe(p.tytul) === szukana);
@@ -147,7 +143,7 @@ test('załoga z listy jednostek misji jest załogą strony — pilot główny i 
 
 test('pilot wpisany w polu piloci ma tę maszynę w polu mechy', () => {
   // Kierunek bez wyjątków: skoro strona mecha podaje pilota, strona pilota podaje mecha.
-  // (Odwrotnie nie zawsze: Kuro, Shiro i Bakuryu-Oh wiążą się z maszyną, nie będąc jej załogą.)
+  // (Odwrotnie nie zawsze: Kuro i Shiro wiążą się z Cybusterem, nie będąc jego załogą.)
   const poSlugu = new Map(strony.map((s) => [s.slug, s]));
   const braki = [];
   for (const mech of strony.filter((s) => s.typ === 'mech')) {
@@ -156,6 +152,37 @@ test('pilot wpisany w polu piloci ma tę maszynę w polu mechy', () => {
     }
   }
   assert.deepEqual(braki, []);
+});
+
+test('forma połączona ma załogę maszyny, z której powstaje', () => {
+  // Właściciel (2026-11-10): formy połączone mają tę samą załogę, z wyjątkiem
+  // God Raijin-Oha, gdzie dochodzi jeszcze Bakuryu-Oh.
+  const poSlugu = new Map(strony.map((s) => [s.slug, s]));
+  const formy = {
+    'god-raijin-oh': { baza: 'raijin-oh', dochodzi: ['bakuryu-oh'] },
+    'king-go-saurer': { baza: 'go-saurer', dochodzi: [] },
+    'perfect-daiteioh': { baza: 'daiteioh', dochodzi: [] },
+    'great-ganbaruger': { baza: 'ganbaruger', dochodzi: [] },
+  };
+  for (const [forma, { baza, dochodzi }] of Object.entries(formy)) {
+    assert.ok(poSlugu.get(baza).piloci.length > 0, `${baza}: załoga`);
+    assert.deepEqual(poSlugu.get(forma).piloci, [...poSlugu.get(baza).piloci, ...dochodzi], forma);
+  }
+  // Każda maszyna ze zdolnością „Połączenie” (nazwa z gry, wielką literą) jest na liście powyżej.
+  const zPolaczeniem = strony
+    .filter((s) => s.typ === 'mech' && /Połączeni[ae]/.test(`${s.body} ${JSON.stringify(s.w_gre ?? {})}`))
+    .map((s) => s.slug);
+  const znane = new Set([...Object.keys(formy), ...Object.values(formy).map((f) => f.baza)]);
+  assert.ok(zPolaczeniem.length >= 4, 'test rozpoznaje maszyny ze zdolnością Połączenia');
+  assert.deepEqual(zPolaczeniem.filter((slug) => !znane.has(slug)), [],
+    'maszyna ze zdolnością Połączenia spoza listy form — dopisz ją do testu');
+});
+
+test('Szef Suol to pseudonim Suola Douglasa, nie osobna etykieta w teście', () => {
+  const suol = postacie.find((p) => p.slug === 'suol');
+  assert.equal(suol.tytul, 'Suol Douglas');
+  assert.equal(suol.pseudonim, 'Szef Suol');
+  assert.deepEqual(stronyMowcy('Szef Suol', 'srw-oe').map((p) => p.slug), ['suol']);
 });
 
 test('każdy mówca skryptu prowadzi do strony postaci swojej gry', () => {

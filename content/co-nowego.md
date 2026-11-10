@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-10 23:05
+
+- [[harumi-sato|Harumi Sato]] jest młodszą z bliźniaczek Sato — starsza, Akemi, to „One”. W Thunder Brachio Harumi obsługuje radar, i to ona śledzi go w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]].
+- Po połączeniu [[raijin-oh|Raijin-Oha]] w [[god-raijin-oh|God Raijin-Oha]] do trójki pilotów dołącza [[bakuryu-oh|Bakuryu-Oh]].
+- „Szef Suol” to [[suol|Suol Douglas]], szef [[connect-force|Connect]].
+
 ## 2026-11-10 22:45
 
 - Załogę [[daiteioh|Daiteioha]] i [[perfect-daiteioh|Perfect Daiteioha]] tworzą [[taro-omomo|Taro Omomo]], [[mai-ozora|Mai Ozora]], [[kakeru-daichi|Kakeru Daichi]] i [[hiryu-tsukishiro|Hiryu Tsukishiro]].

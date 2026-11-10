@@ -166,8 +166,11 @@ test('God Raijin-Oh i Real PG Gundam mają sprawdzone tło pierwowzoru (ADR 0008
   assert.equal(bakuryu.pochodzenie, 'zrodlo');
   assert.equal(bakuryu.seria, 'matchless-raijin-oh');
   assert.deepEqual(bakuryu.mechy, ['god-raijin-oh']);
-  assert.ok(!bySlug.get('god-raijin-oh').piloci.includes('bakuryu-oh'),
-    'źródło nie zmienia załogi z menu (ADR 0017)');
+  // Właściciel (2026-11-10): forma połączona ma załogę maszyny bazowej, a w God Raijin-Ohu
+  // dochodzi do niej Bakuryu-Oh. Wcześniej test tego zabraniał, bo podpilota podawało
+  // tylko źródło — decyzja właściciela to rozstrzyga (ADR 0037, adnotacja).
+  assert.deepEqual(bySlug.get('god-raijin-oh').piloci,
+    [...bySlug.get('raijin-oh').piloci, 'bakuryu-oh']);
   assert.doesNotMatch(bakuryu.body, /Super Robot Wars GC|sub-pilot|na ekranie załogi/i);
   assert.doesNotMatch(bySlug.get('devil-gundam-incident').body, /Master Asia|zgładzenia ludzkości|Kasshu|Kyoji/i);
   for (const adres of [

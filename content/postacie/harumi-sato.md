@@ -10,6 +10,7 @@ mechy: []
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer
+  - https://srw.wiki.cre.jp/wiki/%E4%BD%90%E8%97%A4%E6%99%B4%E7%BE%8E
 tagi: [eldran, wsparcie, saurersi]
 utworzono: 2026-11-09
 ---
@@ -23,5 +24,7 @@ W rozmowach występuje pod przezwiskiem „Two”. W [[srw-oe-ep2-klasa-obrony-l
 
 ## Postać w oryginale
 
-W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Harumi Sato (佐藤 晴美), nazywana „Two”, to młodsza z bliźniąt Sato — starsze z nich, Akemi, nosi przezwisko „One”. Należy do [[saurersi|Saurersów]] i razem z Akemi wchodzi w skład pomocniczej załogi Thunder Brachio ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); sprawdzono 2026-11-10).
+W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Harumi Sato (佐藤 晴美), nazywana „Two”, to młodsza z bliźniaczek Sato — starsza, Akemi, nosi przezwisko „One”. Należy do [[saurersi|Saurersów]] i razem z siostrą wchodzi w skład pomocniczej załogi Thunder Brachio ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); sprawdzono 2026-11-10).
+
+W Thunder Brachio obsługuje radar. Siostry są do siebie tak podobne, że nie odróżniają ich nawet pozostali Saurersi ([SRW Wiki, „佐藤晴美”](https://srw.wiki.cre.jp/wiki/%E4%BD%90%E8%97%A4%E6%99%B4%E7%BE%8E); sprawdzono 2026-11-10).
 }}

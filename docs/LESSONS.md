@@ -186,3 +186,14 @@ pominięto sześć.
 Zasada: oczekiwaną załogę test bierze z dostawy, nie z bazy (ADR 0037 pkt 7). Test jednej
 misji sprawdza „zawiera”, nie „jest dokładnie”, gdy lista rośnie z kolejnymi dostawami;
 komplet pilnuje jeden test czytający wszystkie dostawy naraz.
+
+## L19 — Jedno źródło milczy? Otwórz następne, zanim zapytasz właściciela (2026-11-10)
+
+Angielska Wikipedia nie podaje płci bliźniąt Sato z *Go-Saurera*. Strona Harumi dostała
+więc opis bez rodzaju gramatycznego, a pytanie o płeć — najpierw jej, potem siostry —
+trafiło dwa razy do właściciela. Tymczasem SRW Wiki ma w metryce każdej postaci pole
+„性別” i pisze wprost „双子姉妹”; jedno wyszukiwanie zamykało sprawę.
+
+Zasada: brak informacji w pierwszym źródle to powód, by otworzyć drugie (dla postaci
+z gier SRW — japońską SRW Wiki), nie by pisać naokoło ani pytać. Do właściciela trafia
+dopiero to, czego nie rozstrzyga żadne dostępne źródło — z podaniem, gdzie szukano.
