@@ -5,6 +5,10 @@
  * kształt: metryka u góry, opis w treści, powiązania pod spodem. Sekcje
  * „Powiązania" i „Wymienione w" NIE są pisane ręcznie w treści — powstają
  * z odsyłaczy, więc nie da się ich rozjechać z resztą bazy.
+ *
+ * Jedna pozycja — jedno miejsce (ADR 0036): to, co strona pokazuje już
+ * w metryce albo na własnej liście („Rozegrane epizody", „Z tej serii…"),
+ * nie wraca drugi raz w kolumnie bocznej.
  */
 
 import { escapeHtml } from './markdown.js';
@@ -19,8 +23,16 @@ export function renderEncja(slug) {
   const strona = dajStrone(slug);
   if (!strona) return nieZnalesc(slug);
 
-  const wychodzace = odsylaczeWychodzace(strona);
-  const przychodzace = backlinkiStrony(slug);
+  const listy = wlasneListy(strona);
+  const naListach = new Set(listy.flatMap((l) => l.pozycje.map((p) => p.slug)));
+  const pokazane = new Set([...naListach, ...slugiMetryki(strona)]);
+
+  // „Powiązania": bez tego, co stoi już w metryce albo na liście w treści.
+  const wychodzace = new Map([...odsylaczeWychodzace(strona)]
+    .map(([typ, lista]) => [typ, lista.filter((p) => !pokazane.has(p.slug))]));
+  // „Wymienione w": pozycja z własnej listy odsyła tu tym samym polem
+  // (`seria`, `gra`), z którego lista powstała — to ten sam fakt, nie drugi.
+  const przychodzace = backlinkiStrony(slug).filter((p) => !naListach.has(p.slug));
 
   return `
 ${naglowekStrony({
@@ -32,7 +44,7 @@ ${strona.obraz ? `<figure class="obraz"><button type="button" class="ilustracja-
 <div class="uklad-strona">
   <div class="kolumna-glowna tresc-encja">
     ${strona.html}
-    ${sekcjaListy(strona)}
+    ${sekcjaListy(strona, listy)}
   </div>
   <aside class="kolumna-boczna" aria-label="Informacje o ${escapeHtml(nazwaTypu(strona.typ).toLowerCase())}">
     <div class="panel-boczny">
@@ -106,6 +118,18 @@ function infoboks(s) {
   return `<dl class="infoboks-lista">${wiersze.join('')}</dl>`;
 }
 
+/**
+ * Strony, do których odsyła już metryka — te same pola, które `infoboks`
+ * pokazuje jako odsyłacze (Gra/Gry, Seria, Piloci).
+ */
+function slugiMetryki(s) {
+  const slugi = [];
+  if (s.typ !== 'gra' && Array.isArray(s.gry)) slugi.push(...s.gry);
+  if ((s.typ === 'postac' || s.typ === 'mech') && s.seria) slugi.push(s.seria);
+  if (s.typ === 'mech' && Array.isArray(s.piloci)) slugi.push(...s.piloci);
+  return slugi.filter((slug) => dajStrone(slug));
+}
+
 function linkListy(slugi) {
   if (!Array.isArray(slugi) || slugi.length === 0) return '';
   return slugi.map((x) => {
@@ -114,16 +138,35 @@ function linkListy(slugi) {
   }).join('<br>');
 }
 
-/** Listy zależne od typu: epizody gry, obsada serii, arsenał mecha. */
-function sekcjaListy(s) {
-  const czesci = [];
-
+/**
+ * Listy, które strona składa z pól innych stron: epizody gry (pole `gra`)
+ * oraz postacie i mechy serii (pole `seria`). Jedno źródło dla sekcji
+ * w treści i dla pomijania powtórzeń w kolumnie bocznej.
+ */
+function wlasneListy(s) {
   if (s.typ === 'gra') {
-    const epizody = listaStron('epizod').filter((e) => e.gra === s.slug).sort((a, b) => (a.numer ?? 0) - (b.numer ?? 0));
-    if (epizody.length) {
-      czesci.push(`<section class="blok-lista">
-        <h2>Rozegrane epizody (${epizody.length})</h2>
-        <ol class="lista-epizodow">${epizody.map((e) => `
+    const epizody = listaStron('epizod').filter((e) => e.gra === s.slug).sort((x, y) => (x.numer ?? 0) - (y.numer ?? 0));
+    return epizody.length ? [{ typ: 'epizod', pozycje: epizody }] : [];
+  }
+  if (s.typ === 'seria') {
+    return ['postac', 'mech']
+      .map((typ) => ({
+        typ,
+        pozycje: listaStron(typ).filter((p) => p.seria === s.slug)
+          .sort((x, y) => String(x.tytul).localeCompare(String(y.tytul), 'pl')),
+      }))
+      .filter((l) => l.pozycje.length > 0);
+  }
+  return [];
+}
+
+/** Listy zależne od typu: epizody gry, postacie i mechy serii. */
+function sekcjaListy(s, listy) {
+  return listy.map(({ typ, pozycje }) => {
+    if (s.typ === 'gra') {
+      return `<section class="blok-lista">
+        <h2>Rozegrane epizody (${pozycje.length})</h2>
+        <ol class="lista-epizodow">${pozycje.map((e) => `
           <li>
             <a href="${hrefDlaSlug(e.slug, 'epizod')}">
               <span class="mono">${numerEpizodu(e.numer)}</span> ${escapeHtml(e.tytul)}
@@ -131,20 +174,10 @@ function sekcjaListy(s) {
             </a>
             ${e.rozegrano ? `<span class="meta">${escapeHtml(e.rozegrano)}</span>` : ''}
           </li>`).join('')}</ol>
-      </section>`);
+      </section>`;
     }
-  }
-
-  if (s.typ === 'seria') {
-    for (const typ of ['postac', 'mech']) {
-      const pozycje = listaStron(typ).filter((p) => p.seria === s.slug);
-      if (pozycje.length) {
-        czesci.push(sekcjaPowiazan(`Z tej serii: ${nazwaTypu(typ, 'wiele').toLowerCase()}`, new Map([[typ, pozycje.sort((a, b) => String(a.tytul).localeCompare(String(b.tytul), 'pl'))]]), { pomijaj: [] }));
-      }
-    }
-  }
-
-  return czesci.join('');
+    return sekcjaPowiazan(`Z tej serii: ${nazwaTypu(typ, 'wiele').toLowerCase()}`, new Map([[typ, pozycje]]), { pomijaj: [] });
+  }).join('');
 }
 
 /**

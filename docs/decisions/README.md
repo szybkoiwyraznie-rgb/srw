@@ -47,3 +47,5 @@ Zasady:
 | [0032](0032-leniwe-ilustracje-i-pamiec.md) | Ilustracje żyją tylko w polu widzenia (leniwe ładowanie i zwalnianie pamięci) |
 | [0033](0033-rodzaj-tresci-jest-tagiem.md) | Rodzaj treści jest tagiem; pole `kategoria` znika, tagi mają warstwy |
 | [0034](0034-strona-epizodu-i-filtry-list-fabularnych.md) | Strona epizodu prowadzi scenami, plakietka w wierszu tytułu, filtry list scen i epizodów |
+| [0035](0035-uklad-boksow-strony-encji.md) | Układ boksów strony encji: opisy gier bez tytułów, potem źródła, ilustracje i parametry |
+| [0036](0036-jedna-pozycja-jedno-miejsce.md) | Jedna pozycja, jedno miejsce: kolumna boczna nie powtarza metryki ani własnych list strony |
