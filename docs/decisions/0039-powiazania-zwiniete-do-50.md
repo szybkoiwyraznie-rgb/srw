@@ -41,8 +41,8 @@ reguły w `src/srw/style.css`.
 - **Dociąganie reszty po kliknięciu** — witryna jest jednym plikiem HTML bez serwera; dane
   i tak są w przeglądarce, więc osobne renderowanie „drugiej strony” listy niczego nie oszczędza.
 - **Próg tolerancji** (nie zwijać, gdy ponad limit są tylko 2–3 pozycje) — dwie strony mają
-  dziś 52 pozycje i przycisk „jeszcze 2”. Zostaje dosłownie 50, tak jak ustalił właściciel;
-  próg to osobna decyzja.
+  dziś 52 pozycje i przycisk „jeszcze 2”. Zostaje dosłownie 50, tak jak ustalił właściciel.
+  Zapytany o te dwie strony, właściciel potwierdził: bez progu, zostaje jak jest.
 
 ## Konsekwencje
 

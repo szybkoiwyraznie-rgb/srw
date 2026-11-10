@@ -109,6 +109,8 @@ sandbox nie zobaczy (nie ma dostępu do `r2.dev`). Klucz zachowuje też pisowni�
 gdy różni się od tytułu strony (`Grandoppler.png` → strona *Gandoppler*,
 `characters/Rikiya Ryusaki.png` → *Rikiya Ryuzaki*) — tytuł bierze się z dostawy tekstowej,
 a pliku w buckecie agent nie przemianowuje.
+Właściciel potwierdził oba przypadki (2026-11-10): dwie spacje w kluczach Bolt Robo zostają,
+a tytuły *Gandoppler*, *Hiroshi Takamori* i *Rikiya Ryuzaki* nie zmieniają się pod pisownię plików.
 
 Bieżące liczby manifestu (pliki, encje, data `dostarczono`) przypina jeden test:
 „ilustracje właściciela…” w `test/dostawa-pl.test.js`. Test pojedynczej dostawy sprawdza
