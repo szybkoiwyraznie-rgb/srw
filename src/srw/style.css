@@ -343,7 +343,11 @@ blockquote {
 .grupa-powiazan { margin: 12px 0; }
 .licznik { color: var(--tusz-3); font-weight: 400; font-size: .8rem; }
 .blok-braki { border-top-style: dashed; }
-.blok-przychodzacych .lista li { justify-content: space-between; }
+/* Sceny i epizody w „Powiązaniach”: jedna pozycja w wierszu, numer przed tytułem. */
+.lista-fabuly { list-style: none; padding: 0; margin: 0; display: grid; gap: 5px; }
+.lista-fabuly .mono { color: var(--tusz-3); font-size: .86em; margin-right: 2px; }
+.gra-fabuly { margin: 10px 0 4px; font-size: .8rem; color: var(--tusz-3); }
+.grupa-powiazan h3 + .gra-fabuly { margin-top: 0; }
 
 /* ── Epizod ────────────────────────────────────────────────────── */
 

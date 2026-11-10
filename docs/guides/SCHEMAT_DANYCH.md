@@ -37,7 +37,10 @@ prowadzi do złego typu.
 | `pojecia` | `pojecie` | epizod, scena |
 
 Relacje można też wyrażać wikilinkami w treści (`[[slug]]`, `[[slug|etykieta]]`). Oba kanały
-liczą się do grafu i do sekcji „Powiązania" / „Wymienione w".
+liczą się do grafu i do boksu „Powiązania". Boks pokazuje relację z obu stron: odsyłacz
+z jednej strony wystarcza, by każda z dwóch wymieniała drugą (ADR 0038). Strona widoczna już
+w metryce albo na własnej liście („Z tej serii…", „Rozegrane epizody") w boksie się nie powtarza
+(ADR 0036).
 
 ## Pola specyficzne
 

@@ -2,6 +2,9 @@
 
 Data: 2026-11-10
 Status: obowiązujący; uzupełnia ADR 0034 (układ dwukolumnowy) i ADR 0035 (układ boksów strony encji).
+Pkt 2 i odrzuconą alternatywę „scalenie” zastąpił [ADR 0038](0038-powiazania-jeden-boks.md):
+„Powiązania” i „Wymienione w” są od niego jednym boksem „Powiązania”. Tekst poniżej opisuje stan
+z dnia decyzji.
 
 ## Kontekst
 
@@ -23,7 +26,7 @@ uczniowie stali też trzeci raz w „Wymienione w”, bo pole `seria` jest odsy�
 
 Pomiar całej bazy przed zmianą (316 stron encji):
 
-- 168 pozycji własnych list wracało w „Powiązaniach” (18 serii i jedna gra),
+- 168 pozycji własnych list wracało w „Powiązaniach” (17 serii i jedna gra),
 - wszystkie 195 pozycji własnych list wracało w „Wymienione w” (każda seria z obsadą, obie gry),
 - 624 pozycje „Powiązań” na 314 stronach powtarzały metrykę stojącą kilka wierszy wyżej
   (gra, seria, piloci).

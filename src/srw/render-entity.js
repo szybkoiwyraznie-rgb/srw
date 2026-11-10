@@ -2,9 +2,13 @@
  * Strona dowolnej encji (gra, postać, mech, hasło, seria).
  *
  * Jedna wspólna rama, różne infoboksy — bo wszystkie te encje mają ten sam
- * kształt: metryka u góry, opis w treści, powiązania pod spodem. Sekcje
- * „Powiązania" i „Wymienione w" NIE są pisane ręcznie w treści — powstają
- * z odsyłaczy, więc nie da się ich rozjechać z resztą bazy.
+ * kształt: metryka u góry, opis w treści, powiązania pod spodem. Boks
+ * „Powiązania" NIE jest pisany ręcznie w treści — powstaje z odsyłaczy,
+ * więc nie da się go rozjechać z resztą bazy.
+ *
+ * „Powiązania" to wszystkie relacje strony w jednym boksie (ADR 0038):
+ * strony, do których ta odsyła, i strony, które odsyłają tutaj. Kierunek
+ * odsyłacza nie tworzy drugiej listy — każda powiązana strona stoi raz.
  *
  * Jedna pozycja — jedno miejsce (ADR 0036): to, co strona pokazuje już
  * w metryce albo na własnej liście („Rozegrane epizody", „Z tej serii…"),
@@ -13,7 +17,8 @@
 
 import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefFiltru, hrefListy } from './links.js';
-import { dajStrone, listaStron, backlinkiStrony, odsylaczeWychodzace, dajDane } from './data.js';
+import { dajStrone, listaStron, listaEpizodow, backlinkiStrony, odsylaczeWychodzace, dajDane } from './data.js';
+import { sortujSceny } from './registry.js';
 import {
   nazwaTypu, chipsyTagow, linkStrony,
   stanPusty, nieZnalesc, naglowekStrony, numerEpizodu, KOLEJNOSC_TYPOW, odmiana,
@@ -24,15 +29,11 @@ export function renderEncja(slug) {
   if (!strona) return nieZnalesc(slug);
 
   const listy = wlasneListy(strona);
-  const naListach = new Set(listy.flatMap((l) => l.pozycje.map((p) => p.slug)));
-  const pokazane = new Set([...naListach, ...slugiMetryki(strona)]);
-
-  // „Powiązania": bez tego, co stoi już w metryce albo na liście w treści.
-  const wychodzace = new Map([...odsylaczeWychodzace(strona)]
-    .map(([typ, lista]) => [typ, lista.filter((p) => !pokazane.has(p.slug))]));
-  // „Wymienione w": pozycja z własnej listy odsyła tu tym samym polem
-  // (`seria`, `gra`), z którego lista powstała — to ten sam fakt, nie drugi.
-  const przychodzace = backlinkiStrony(slug).filter((p) => !naListach.has(p.slug));
+  // To, co stoi już w metryce albo na liście w treści, nie wraca w „Powiązaniach".
+  const pokazane = new Set([
+    ...listy.flatMap((l) => l.pozycje.map((p) => p.slug)),
+    ...slugiMetryki(strona),
+  ]);
 
   return `
 ${naglowekStrony({
@@ -51,8 +52,7 @@ ${strona.obraz ? `<figure class="obraz"><button type="button" class="ilustracja-
       ${infoboks(strona)}
       ${chipsyTagow(strona.tagi)}
     </div>
-    ${sekcjaPowiazan('Powiązania', wychodzace, { pomijaj: [] })}
-    ${sekcjaPrzychodzacych(przychodzace)}
+    ${boksPowiazan(powiazaniaStrony(strona, pokazane))}
   </aside>
 </div>`;
 }
@@ -186,8 +186,8 @@ function sekcjaListy(s, listy) {
 }
 
 /**
- * Sekcja „Powiązania" — odsyłacze wychodzące pogrupowane po typie.
- * `pomijaj` pozwala nie dublować listy (np. arsenału mecha).
+ * Lista odsyłaczy pogrupowana po typie — „Z tej serii…" na stronie serii
+ * i „W tym epizodzie" na stronie epizodu. `pomijaj` wyłącza całe grupy.
  */
 export function sekcjaPowiazan(tytul, grupy, { pomijaj = [] } = {}) {
   const wpisy = [...grupy.entries()]
@@ -206,29 +206,81 @@ export function sekcjaPowiazan(tytul, grupy, { pomijaj = [] } = {}) {
   </section>`;
 }
 
-/** Sekcja „Wymienione w" — z czego ta strona jest osiągalna (backlinki). */
-function sekcjaPrzychodzacych(przychodzace) {
-  if (!przychodzace || przychodzace.length === 0) return '';
+/**
+ * Wszystkie strony powiązane z tą, pogrupowane po typie (ADR 0038).
+ *
+ * Relacja to odsyłacz w którąkolwiek stronę: pole albo wikilink stąd
+ * (`linki`) albo skądś tutaj (`backlinki`). Para stron, które odsyłają do
+ * siebie nawzajem, jest jedną relacją, więc strona trafia na listę raz.
+ * `pokazane` to strony, które widać już w metryce albo na własnej liście.
+ */
+export function powiazaniaStrony(strona, pokazane = new Set()) {
+  const zajete = new Set([strona.slug, ...pokazane]);
   const grupy = new Map();
-  for (const p of przychodzace) {
+  const dodaj = (p) => {
+    if (zajete.has(p.slug)) return;
+    zajete.add(p.slug);
     if (!grupy.has(p.typ)) grupy.set(p.typ, []);
     grupy.get(p.typ).push(p);
-  }
-  const sortuj = (lista) => lista.sort((a, b) => (a.numer ?? 0) - (b.numer ?? 0) || String(a.tytul).localeCompare(String(b.tytul), 'pl'));
-  const wpisy = [...grupy.entries()]
-    .sort((a, b) => KOLEJNOSC_TYPOW.indexOf(a[0]) - KOLEJNOSC_TYPOW.indexOf(b[0]))
-    .map(([typ, lista]) => [typ, sortuj(lista)]);
+  };
+  for (const lista of odsylaczeWychodzace(strona).values()) lista.forEach(dodaj);
+  backlinkiStrony(strona.slug).forEach(dodaj);
 
-  return `<section class="blok-powiazan blok-przychodzacych">
-    <h2>Wymienione w</h2>
+  for (const [typ, lista] of grupy) grupy.set(typ, uporzadkuj(typ, lista));
+  return grupy;
+}
+
+/** Fabuła idzie w kolejności rozgrywki (gra, epizod, scena), reszta alfabetycznie. */
+function uporzadkuj(typ, lista) {
+  const alfabetycznie = (a, b) => String(a.tytul).localeCompare(String(b.tytul), 'pl');
+  if (typ !== 'epizod' && typ !== 'scena') return [...lista].sort(alfabetycznie);
+
+  const kolejnosc = new Map(listaEpizodow().map((e, i) => [e.slug, i]));
+  const miejsce = (p) => kolejnosc.get(typ === 'epizod' ? p.slug : p.epizod) ?? Number.MAX_SAFE_INTEGER;
+  // Sceny jednego epizodu porządkuje numer sceny (1-2 przed 1-10), stąd najpierw sortujSceny.
+  const wstepnie = typ === 'scena' ? sortujSceny(lista) : [...lista];
+  return wstepnie.sort((a, b) => miejsce(a) - miejsce(b));
+}
+
+/** Boks „Powiązania" w kolumnie bocznej: grupy po typie, przy każdej liczba stron. */
+function boksPowiazan(grupy) {
+  const wpisy = [...grupy.entries()]
+    .filter(([, lista]) => lista.length > 0)
+    .sort((a, b) => KOLEJNOSC_TYPOW.indexOf(a[0]) - KOLEJNOSC_TYPOW.indexOf(b[0]));
+  if (wpisy.length === 0) return '';
+  return `<section class="blok-powiazan">
+    <h2>Powiązania</h2>
     ${wpisy.map(([typ, lista]) => `
       <div class="grupa-powiazan">
         <h3>${nazwaTypu(typ, 'wiele')} <span class="licznik">${lista.length}</span></h3>
-        <ul class="lista">${lista.map((p) => `
-          <li>
-            <a href="${hrefDlaSlug(p.slug, p.typ)}">${typ === 'epizod' ? `<span class="mono">${numerEpizodu(p.numer)}</span> ` : ''}${escapeHtml(p.tytul)}</a>
-            ${p.rozegrano ? `<span class="meta">${escapeHtml(p.rozegrano)}</span>` : ''}
-          </li>`).join('')}</ul>
+        ${typ === 'epizod' || typ === 'scena' ? listaFabuly(typ, lista) : `<ul class="lista-horyzontalna">
+          ${lista.map((p) => `<li>${linkStrony(p)}</li>`).join('')}
+        </ul>`}
       </div>`).join('')}
   </section>`;
+}
+
+/**
+ * Sceny i epizody: jedna pozycja w wierszu, z numerem — tytuły są długie,
+ * a kolejność znaczy. Gdy lista obejmuje więcej niż jedną grę, każda gra
+ * dostaje podpis: „01 Epizod 1" istnieje w każdej z nich.
+ */
+function listaFabuly(typ, lista) {
+  const graPozycji = (p) => (typ === 'scena' ? dajStrone(p.epizod)?.gra : p.gra) ?? null;
+  const gry = new Map();
+  for (const p of lista) {
+    const gra = graPozycji(p);
+    if (!gry.has(gra)) gry.set(gra, []);
+    gry.get(gra).push(p);
+  }
+  const wiersz = (p) => {
+    const numer = typ === 'epizod' ? numerEpizodu(p.numer) : String(p.numer_sceny ?? '');
+    return `
+          <li><a class="link-strony" href="${hrefDlaSlug(p.slug, p.typ)}">${numer ? `<span class="mono">${escapeHtml(numer)}</span> ` : ''}${escapeHtml(p.tytul)}</a></li>`;
+  };
+  return [...gry.entries()].map(([slugGry, pozycje]) => {
+    const gra = slugGry ? dajStrone(slugGry) : null;
+    const podpis = gry.size > 1 && gra ? `<p class="gra-fabuly">${escapeHtml(gra.tytul)}</p>` : '';
+    return `${podpis}<ul class="lista-fabuly">${pozycje.map(wiersz).join('')}</ul>`;
+  }).join('\n        ');
 }

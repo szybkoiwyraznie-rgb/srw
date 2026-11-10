@@ -128,8 +128,9 @@ Zdanie w opisie („W … serię reprezentują…”) pisze się ręcznie: każd
 ## 5. Linkowanie
 
 - Pola frontmattera dla relacji strukturalnych (obsada, sprzęt, seria, gra).
-- Wikilinki w treści dla wszystkiego, co naturalnie pojawia się w zdaniu — wtedy w „Wymienione w"
-  na stronie encji widać, w których epizodach postać się przewinęła.
+- Wikilinki w treści dla wszystkiego, co naturalnie pojawia się w zdaniu — odsyłacz z jednej
+  strony wystarcza, by obie pokazały się nawzajem w „Powiązaniach" (ADR 0038): na stronie postaci
+  widać wtedy, w których scenach i epizodach się przewinęła.
 - Nie linkuj na zapas: `[[slug]]` do wpisu, który nie istnieje, **wywala build**.
 
 ## 6. Dziennik zmian
