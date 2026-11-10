@@ -120,3 +120,14 @@ Rozstrzygnięcia właściciela z tego samego dnia, których dostawy nie podają 
   nie potrzebuje już osobnej tablicy etykiet „funkcja i imię”.
 - **Mówcy prologu SRW Y czekają z serią na własną dostawę.** Seria nie jest im dopisywana
   z wiedzy ogólnej (pkt 2 i ostatni punkt „Konsekwencji”).
+
+Właściciel potwierdził też trzy rozstrzygnięcia przyjęte przy wdrażaniu tej decyzji — przestają
+być pytaniami otwartymi:
+
+- **Stare adresy przezwisk nie mają przekierowań.** `#/postac/potato`, `bon`, `chobi`, `kuko`,
+  `two` i `mabo` nie istnieją; do osoby prowadzi wyszukiwarka po polu `pseudonim`. Mechanizmu
+  przekierowań baza nie dostaje.
+- **Angielska Wikipedia wystarcza jako źródło par przezwisko–nazwisko z *Go-Saurera*** (pkt 5),
+  mimo banera o brakujących przypisach. Skład potwierdza sama dostawa, pary — artykuł.
+- **Wyjątek tagu dla Eldrana zostaje** (pkt 6): strona `eldran` jest jedyną zwolnioną z tagu
+  świata własnej serii, bo ten tag jest jej slugiem.
