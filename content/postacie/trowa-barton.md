@@ -12,7 +12,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Trowa Barton podczas parady przewiduje, że po śmierci Leloucha ponownie poleje się krew.
+Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]], gdy [[quatre-raberba-winner|Quatre]] mówi, że cesarz chce raz na zawsze rozprawić się ze Spacenoidami, Trowa Barton odpowiada: „Znów poleje się krew…”.
 }}
 
 {{zrodlo gra=wspolne

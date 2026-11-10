@@ -3,7 +3,6 @@ typ: postac
 slug: zolnierz-jsdf
 tytul: Żołnierz JSDF
 rola: pilot
-seria: mobile-police-patlabor
 gry: [srw-oe]
 mechy: [medea, helldiver, hal-x10-green]
 pochodzenie: skrypt

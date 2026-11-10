@@ -7,13 +7,22 @@ seria: kanzen-shouri-daiteioh
 gry: [srw-oe]
 mechy: [daiteioh, perfect-daiteioh]
 pochodzenie: skrypt
-tagi: [eldran, super-robot-wars, pilot]
+tagi: [eldran, pilot]
 utworzono: 2026-11-09
 ---
 
 {{skrypt gra=srw-oe
 
-Podpilot [[daiteioh|Daiteioha]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] przestrzega przed pożarem wywołanym w lesie Aokigahara i przypuszcza, że wróg, tak jak jego zdaniem [[jaku-empire|Kikaishin]], mógł przygotować kopię zapasową danych.
+Podpilot [[daiteioh|Daiteioha]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] przypuszcza, że Kikaishin, władca [[mechanization-empire|Imperium Mechanizacji]], zrobił przed zniszczeniem przynajmniej kopię zapasową danych, a w lesie przestrzega, że pożar skończyłby się źle.
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Kakeru Daichi — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kakeru%20Daichi.png)
 }}
 
 {{menu gra=srw-oe

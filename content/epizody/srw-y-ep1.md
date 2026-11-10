@@ -3,7 +3,7 @@ typ: epizod
 slug: srw-y-ep1
 tytul: Epizod 1
 gra: srw-y
-postacie: [agent, annina-servania, baku-yamagishi, echika-y-franburnett, forte-tsukinowa, gauma, zaawansowana-si, cross-tsukinowa, mobile-doll, takuma-nagare, chang-wufei, yomogi-asanaka, zero, aytie, cookie, wren, heero-yuy, duo-maxwell, quatre-raberba-winner, trowa-barton, nunnally-vi-britannia, tetsuya-tsurugi, chizuru-nambara, hyoma-aoi]
+postacie: [agent, annina-servania, baku-yamagishi, echika-y-franburnett, forte-tsukinowa, gauma, zaawansowana-si, cross-tsukinowa, mobile-doll, takuma-nagare, chang-wufei, yomogi-asanaka, zero, aytie, cookie, wren, heero-yuy, duo-maxwell, quatre-raberba-winner, trowa-barton, nunnally-vi-britannia, tetsuya-tsurugi, chizuru-nambara, hyoma-aoi, koji-kabuto, amuro-ray, bright-noa]
 mechy: [altron-gundam, amx-003-gaza-c, a-advent, lunedrache, lancelot-albion-zero, lumenus, taurus, zamza-zah]
 serie: [super-robot-wars-original, mobile-suit-gundam-wing-endless-waltz, mobile-suit-z-gundam, mobile-suit-gundam-seed-destiny, getter-robo-arc, ssss-dynazenon, code-geass-lelouch-of-the-re-surrection, code-geass-lelouch-of-the-rebellion-iii-glorification]
 pojecia: [wojna-rewolucyjna, nowa-federacja-ziemska, val-x, logos, czarni-rycerze, ninja, statek-emigracyjny, nira-kana-i, pamiec-stg, teoria-y, miasto-yagami, mechaniczne-marionetki, kamille-bidan, haman-karn, gilbert-dullindal, milliardo-peacecraft, treize-khushrenada, lelouch-vi-britannia, chikara-jinguji, akira-hibiki, barao, imperium-yoma]
@@ -30,7 +30,7 @@ Po wojnie rewolucyjnej świat próbuje utrzymać pokój, lecz dziedzictwo dawnyc
 
 ## Komentarz
 
-Otwarcie ustawia *Super Robot Wars Y* po zakończeniu wielkiej wojny, ale nie traktuje pokoju jako rozwiązania wszystkich problemów. Rozmowy Echiki i Anniny pokazują koszt odpowiedzialności odziedziczonej po Tetsuro Yagamim, a Cross przyjmuje rolę opiekuna dziewczyny, zanim sam pozna pełną naturę A. Adventu. Prolog przeplata też głosy [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[quatre-raberba-winner|Quatre]], [[trowa-barton|Trowy]], [[nunnally-vi-britannia|Nunnally]], [[tetsuya-tsurugi|Tetsuyi]], [[chizuru-nambara|Chizuru]] i [[hyoma-aoi|Hyomy]]; ich uwagi odsłaniają, jak różne grupy postrzegają kruchy pokój.
+Otwarcie ustawia *Super Robot Wars Y* po zakończeniu wielkiej wojny, ale nie traktuje pokoju jako rozwiązania wszystkich problemów. Rozmowy Echiki i Anniny pokazują koszt odpowiedzialności odziedziczonej po Tetsuro Yagamim, a Cross przyjmuje rolę opiekuna dziewczyny, zanim sam pozna pełną naturę A. Adventu. Prolog przeplata też głosy [[koji-kabuto|Kojiego]], [[tetsuya-tsurugi|Tetsuyi]], [[chizuru-nambara|Chizuru]], [[hyoma-aoi|Hyomy]], [[amuro-ray|Amuro]], [[bright-noa|Brighta Noi]], [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[quatre-raberba-winner|Quatre]], [[trowa-barton|Trowy]] i [[nunnally-vi-britannia|Nunnally]]; ich słowa z parady pokazują, jak różne grupy patrzą na wojnę, którą kończy dopiero zamach na cesarza.
 
 Przy rdzeniu Nira-Kana-I otwiera się pytanie, jakie decyzje podejmie Echika i czym okaże się pamięć STG.
 }}

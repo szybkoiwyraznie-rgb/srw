@@ -35,8 +35,13 @@ postaci/mechów podana w wiadomości). Wynik pracy:
    wpisu. Przy braku tekstu uzupełniasz opis kwerendą lub pamięcią modelu, z właściwym
    poziomem pochodzenia. Nie zakładasz encji wynikającej wyłącznie z opisu innej encji. Encja już istniejąca **nie jest duplikowana**: dopisujesz jej
    nowe wystąpienie (pole `gry`, `mechy`) i uzupełniasz treść, jeśli skrypt wniósł coś nowego.
+   **Seria i nazwa strony pochodzą z listy uczestników dostawy** (ADR 0037): seria wpisana tam
+   na twardo jest serią strony, a przezwisko, pod którym postać mówi w skrypcie, to pole
+   `pseudonim` strony pod imieniem i nazwiskiem — nie osobna strona. Z tej samej listy pochodzi
+   załoga: pilot główny i piloci wspierający stoją w polu `piloci` mecha, a mech w polu `mechy`
+   każdego z nich.
 3. **Relacje** — pola frontmattera (`postacie`, `mechy`, `serie`, `gra`) plus wikilinki
-   w treści. Bez nich wpis jest wyspą: nie pojawi się w „Wymienione w" na stronie encji.
+   w treści. Bez nich wpis jest wyspą: nie pojawi się w „Powiązaniach" na stronie encji.
 4. **Analiza i komentarz** — gdzie wątek pochodzi z anime (seria + odcinek, jeśli wiadomo),
    co dodano, co zmieniono, czego zabrakło. Tabela `## Wątki fabularne` w treści epizodu.
 5. **Dziennik zmian** — nowy wpis na górze `content/co-nowego.md`, nagłówek `## RRRR-MM-DD GG:MM` (godzina publikacji, Europa/Warszawa).

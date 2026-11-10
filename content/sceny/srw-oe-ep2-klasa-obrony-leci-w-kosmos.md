@@ -5,9 +5,9 @@ tytul: Klasa Obrony leci w kosmos
 epizod: srw-oe-ep2
 numer_sceny: "2-8"
 streszczenie: "Po ataku mechabestii w lesie Aokigahara wszystkie drużyny Eldrana i Gurren Team walczą z siłami Imperium Mechanizacji sterującymi Laborami i niszczą drugą bramę Mucus; po bitwie zapada decyzja, że do Connect Force w kosmos lecą Klasa Obrony Ziemi i Gurren Lagann, a Saurersi zostają bronić Ziemi."
-postacie: [takako-kojima, kenichi-minezaki, hiromi-tachibana, shinobu-asaoka, jin-hyuga, maria-shiratori, erika-kozu, asuka-tsukishiro, goro-ishida, tsutomu-kojima, shuzo-osada, yoji-hiyama, kakeru-daichi, taro-shirogane, kotaro-kirigakure, rikiya-ryuzaki, yosuke-kazamatsuri, taro-omomo, hiryu-tsukishiro, mai-ozora, koji-hoshiyama, potato, kirara-haruno, akira-imamura, yoko-kuriki, hiroshi-takamori, bon, kuko, two, yuka-mizuhara, kamina, simon, yoko, boota, mabo, chobi, ikuyo-oyama, aiko-shimada, miki-mano, hidenori-kondo, yu-izumi, eldran, mechabestia, mucus, control-ai]
+postacie: [takako-kojima, kenichi-minezaki, hiromi-tachibana, shinobu-asaoka, jin-hyuga, maria-shiratori, erika-kozu, asuka-tsukishiro, goro-ishida, tsutomu-kojima, shuzo-osada, yoji-hiyama, kakeru-daichi, taro-shirogane, kotaro-kirigakure, rikiya-ryuzaki, yosuke-kazamatsuri, taro-omomo, hiryu-tsukishiro, mai-ozora, koji-hoshiyama, orie-ishizuka, kirara-haruno, akira-imamura, yoko-kuriki, hiroshi-takamori, saneyasu-mushanokoji, kumiko-tanabe, harumi-sato, yuka-mizuhara, kamina, simon, yoko, boota, masao-fujiyoshi, kazutaka-seki, ikuyo-oyama, aiko-shimada, miki-mano, hidenori-kondo, yu-izumi, eldran, mechabestia, mucus, control-ai]
 mechy: [daiteioh, ganbaruger, go-saurer, gurren-lagann, raijin-oh, bolt-robo-anti-air, bolt-robo-long-range, bolt-robo-melee, bolt-robo-standard, brocken-cannon, brocken-dzialko-automatyczne, brocken, gandoppler, mucus-gate-s-mc, perfect-daiteioh, great-ganbaruger]
-pojecia: [akademia-hinobori, klasa-obrony-ziemi, saurersi, mechanization-empire, jaku-empire, connect-force, gurren-team, gunmen, labor]
+pojecia: [akademia-hinobori, klasa-obrony-ziemi, saurersi, mechanization-empire, connect-force, gurren-team, gunmen, labor]
 pochodzenie: skrypt
 sekcje_analizy:
   - Odrodzenie Imperium Mechanizacji → Klasa Obrony leci w kosmos
@@ -584,7 +584,7 @@ Eldran, odwieczny strażnik Ziemi, powierzył niegdyś dzieciom [[raijin-oh|Raij
 
 ### Narada o powrocie Imperium
 
-[[takako-kojima|Profesor]] przypomina, że poprzednie Imperium atakowało z bazy na Księżycu, a teraz korzysta z bram Mucus. Uczniowie spierają się, czy pokonany [[jaku-empire|Kikaishin]] naprawdę zakończył zagrożenie; [[shuzo-osada|Shuzo]] i [[kakeru-daichi|Kakeru]] zauważają, że maszyny i dane można kopiować, więc wróg mógł przygotować kopię zapasową. Zgodnie uznają, że trzeba poznać siły przeciwnika i znaleźć jego bazę, zanim uderzy ponownie.
+[[takako-kojima|Profesor]] przypomina, że poprzednie Imperium atakowało z bazy na Księżycu, a teraz korzysta z bram Mucus. Uczniowie spierają się, czy pokonanie Kikaishina naprawdę zakończyło zagrożenie; [[shuzo-osada|Shuzo]] i [[kakeru-daichi|Kakeru]] zauważają, że maszyny i dane można kopiować, więc wróg mógł przygotować kopię zapasową. Zgodnie uznają, że trzeba poznać siły przeciwnika i znaleźć jego bazę, zanim uderzy ponownie.
 
 ### Drużyna Gurren na powierzchni
 
@@ -608,7 +608,7 @@ W gęstym lesie obok mechabestii walczą [[labor|Labory]], co dziwi obrońców �
 
 ### Kolejne fale wroga
 
-[[two|Two]] i [[yuka-mizuhara|Yuka]] wykrywają na radarze kolejne fale przeciwników, a gęstwina utrudnia ich wypatrzenie. [[kenichi-minezaki|Kenichi]] zamierza rozprawiać się z nimi po kolei, lecz [[shinobu-asaoka|Shinobu]] ponagla go, by nie tracił czujności.
+[[harumi-sato|Two]] i [[yuka-mizuhara|Yuka]] wykrywają na radarze kolejne fale przeciwników, a gęstwina utrudnia ich wypatrzenie. [[kenichi-minezaki|Kenichi]] zamierza rozprawiać się z nimi po kolei, lecz [[shinobu-asaoka|Shinobu]] ponagla go, by nie tracił czujności.
 
 ### Wiertło pod ziemię
 

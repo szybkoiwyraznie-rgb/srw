@@ -4,7 +4,7 @@ slug: ganbaruger
 tytul: "Ganbaruger"
 seria: genki-bakuhatsu-ganbaruger
 gry: [srw-oe]
-piloci: [kotaro-kirigakure]
+piloci: [kotaro-kirigakure, yosuke-kazamatsuri, rikiya-ryuzaki]
 typ_mecha: super robot
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_2_8.txt", "profil": "Ganbaruger", "dane": "**Seria:** Genki Bakuhatsu Ganbaruger\n### Macierzyste zdolności maszyny\n\n- **Połączenie (bez poziomu):** Morale 120 lub więcej Pełne HP/EN po połączeniu  \n  Łączy się w inną jedn.  \n  (Great Ganbaruger)\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n\n### Uzbrojenie i wymienione działania\n\n#### Broń i działania z niezerowym selektorem\n\n| Miejsce | Nazwa              | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                            |\n| ------: | ------------------ | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------- |\n|       0 | Ganba Slugger      |       2200 |  3–5   |       +30 |   0 |      — | Brak w tym polu | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód             |\n|       1 | Ganba Missile      |       2900 |  1–4   |       +15 |   5 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                         |\n|       2 | Ganba Sword        |       3000 |  1–2   |       +35 |   0 |      — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |\n|       3 | Ganba Flare        |       3500 |  1–3   |        +0 |  15 |      — | Brak w tym polu | **Ogień (poziom bazowy 1):** Dodatk. Obraż.1500 Szansa 30%          |\n|       4 | Last Fire          |       4600 |  2–5   |       +10 |  35 |    110 | Brak w tym polu | **Namiar (poziom bazowy 1):** Kryt+10%, Kryt Obraż.+20% bez Osłony  |\n|         |                    |            |        |           |     |        |                 |   (Ignoruje Osłonę)                                                 |\n|       5 | Ganba Final Attack |       5200 |  1–1   |       +25 |  50 |    115 | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                         |\n\n---"}'
@@ -15,6 +15,19 @@ utworzono: 2026-11-09
 {{skrypt gra=srw-oe
 
 Robot [[genki-bakuhatsu-ganbaruger|drużyny Ganbaruger]] pilotowany przez [[kotaro-kirigakure|Kotaro Kirigakure]], z [[yosuke-kazamatsuri|Yosuke Kazamatsurim]] i [[rikiya-ryuzaki|Rikiyą Ryuzakim]] jako pilotami wspierającymi. Łączy się w [[great-ganbaruger|Great Ganbarugera]] przy Morale 120 z pełnym HP i EN; uzbrojenie obejmuje Ganba Slugger, Ganba Missile, Ganba Sword i Ganba Flare, a atakiem specjalnym jest Ganba Final Attack.
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Ganbaruger — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Ganbaruger.png)
+
+### Ilustracja 2
+
+![Ganbaruger — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Ganbaruger%202.png)
 }}
 
 {{menu gra=srw-oe

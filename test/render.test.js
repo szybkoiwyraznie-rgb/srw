@@ -35,11 +35,11 @@ test('strona główna pokazuje liczby i nie udaje już bazy demonstracyjnej', ()
   assert.ok(!/baner-demo/.test(html), 'po dostawie baza nie jest demonstracyjna');
 });
 
-test('strona postaci składa infoboks, powiązania i backlinki', () => {
+test('strona postaci składa infoboks i jeden boks powiązań, także ze stron odsyłających tutaj', () => {
   const html = renderEncja('seishiro');
   assert.match(html, /Seishiro/);
-  assert.match(html, /Powiązania/);
-  assert.match(html, /Wymienione w/);
+  assert.equal((html.match(/<h2>Powiązania<\/h2>/g) ?? []).length, 1, 'jeden boks „Powiązania”');
+  assert.doesNotMatch(html, /Wymienione w/, 'osobnego boksu „Wymienione w” już nie ma (ADR 0038)');
   assert.match(html, /#\/epizod\/srw-oe-ep0/, 'postać ma być podlinkowana do epizodu z treści');
   assert.match(html, /poziom-skrypt/, 'poziom wiarygodności ma być widoczny jako kolor tła fragmentu');
   assert.ok(!/class="tresc-encja poziom/.test(html), 'kolor nie może wisieć na stronie (ADR 0011)');

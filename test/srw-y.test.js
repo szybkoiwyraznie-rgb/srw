@@ -35,9 +35,12 @@ const SERIE = [
   'ssss-dynazenon', 'code-geass-lelouch-of-the-re-surrection',
   'code-geass-lelouch-of-the-rebellion-iii-glorification',
 ];
+// Mówca w skrypcie to postać epizodu i sceny (ADR 0013, adnotacja 2026-11-09) —
+// także wtedy, gdy ma już stronę z innej gry (Koji, Amuro, Bright z SRW OE).
 const POSTACIE_Z_PROLOGU = [
   'heero-yuy', 'duo-maxwell', 'quatre-raberba-winner', 'trowa-barton',
   'nunnally-vi-britannia', 'tetsuya-tsurugi', 'chizuru-nambara', 'hyoma-aoi',
+  'koji-kabuto', 'amuro-ray', 'bright-noa',
 ];
 const POJECIA = [
   'wojna-rewolucyjna', 'nowa-federacja-ziemska', 'val-x', 'logos',
@@ -71,7 +74,6 @@ const POSTACIE_Z_DIALOGU = {
   'Yomogi Asanaka': 'yomogi-asanaka',
   Zero: 'zero',
 };
-const KAMEE_Z_INNYCH_GIER = ['koji-kabuto', 'amuro-ray', 'bright-noa'];
 const SCENA = 'srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny';
 const STARE_SCENY = [
   'srw-y-ep1-parada-cesarza-leloucha',
@@ -155,24 +157,20 @@ test('SRW Y: relacje encji prowadzą do epizodu, scen i serii', () => {
   assert.ok(Array.isArray(scena.pojecia), `${SCENA}: pojęcia`);
 });
 
-test('SRW Y: wszyscy mówcy sceny 1-1C są rozliczeni w obsadzie, hasłach wiki albo istniejących profilach', () => {
+test('SRW Y: każdy nazwany mówca sceny 1-1C jest postacią w obsadzie sceny i epizodu', () => {
   const scena = bySlug.get(SCENA);
   const mowiacy = [...skrypt.matchAll(/^\s*>?\s*\*\*([^*]+):\*\*/gm)].map((match) => match[1]);
   assert.ok(mowiacy.length > 0, 'skrypt zawiera nazwanych mówców');
-  for (const nazwa of mowiacy) {
+  for (const nazwa of new Set(mowiacy)) {
+    // Bezimienny głos z transmisji — bez własnej strony.
     if (nazwa === 'Prezenter') continue;
     const slug = POSTACIE_Z_DIALOGU[nazwa];
     assert.ok(slug, `brak rozpoznania mówcy: ${nazwa}`);
-    if (POJECIA.includes(slug)) {
-      assert.ok(scena.pojecia.includes(slug), `${nazwa}: relacja pojęcia sceny`);
-      const strona = bySlug.get(slug);
-      assert.equal(strona.typ, 'pojecie', `${nazwa}: postać spoza obsady gry jest hasłem wiki`);
-      assert.ok(strona.gry.includes('srw-y'), `${nazwa}: powiązanie z grą`);
-    } else if (KAMEE_Z_INNYCH_GIER.includes(slug)) {
-      assert.match(scena.body, new RegExp(`\\[\\[${slug}(?:\\|[^\\]]*)?\\]\\]`), `${nazwa}: wikilink do istniejącego wpisu`);
-    } else {
-      assert.ok(scena.postacie.includes(slug), `${nazwa}: relacja postaci sceny`);
-    }
+    const strona = bySlug.get(slug);
+    assert.equal(strona?.typ, 'postac', `${nazwa}: mówca jest postacią (ADR 0013)`);
+    assert.ok(strona.gry.includes('srw-y'), `${nazwa}: powiązanie z grą`);
+    assert.ok(scena.postacie.includes(slug), `${nazwa}: relacja postaci sceny`);
+    assert.ok(epizod.postacie.includes(slug), `${nazwa}: relacja postaci epizodu`);
   }
 });
 

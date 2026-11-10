@@ -18,6 +18,19 @@ Przeciwlotnicza odmiana szeregowych automatów [[mechabestia|mechabestii]] [[mec
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Bolt Robo/Anti-Air — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Bolt%20Robo%20%20-%20karabin%20Gatlinga.png)
+
+### Ilustracja 2
+
+![Bolt Robo/Anti-Air — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Bolt%20Robo%20%20-%20karabin%20Gatlinga%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 ### Uzbrojenie i wymienione działania

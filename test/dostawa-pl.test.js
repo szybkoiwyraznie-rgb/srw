@@ -181,8 +181,11 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
   }
   // Żołnierz Zeonu wraca do bazy z dostawą misji 2 (ADR 0025, adnotacja 2026-10-22).
   assert.ok(bySlug.has('zolnierz-zeonu'), 'Żołnierz Zeonu ma własną stronę');
-  assert.deepEqual(bySlug.get('zolnierz-zeonu').mechy,
-    ['dom-zolnierz-zeonu', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']);
+  // Lista maszyn pilota zbiorowego rośnie z każdą dostawą; komplet pilnuje
+  // test/seria-z-dostawy.test.js, tutaj liczą się maszyny z pierwszych misji.
+  for (const mech of ['dom-zolnierz-zeonu', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']) {
+    assert.ok(bySlug.get('zolnierz-zeonu').mechy.includes(mech), `Żołnierz Zeonu: ${mech}`);
+  }
   assert.deepEqual(bySlug.get('turret').piloci, [], 'Turret nie jest pilotowanym mechem');
   for (const slug of ['zaku-ii-karabin-maszynowy', 'zaku-ii-bazooka']) {
     assert.ok(bySlug.get(slug).piloci.includes('zolnierz-zeonu'), `${slug}: domyślna załoga`);
@@ -219,7 +222,10 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
 test('profile załogi i transformacje są powiązane, ale nie udają sceny fabularnej', () => {
   assert.deepEqual(bySlug.get('exart').piloci, ['seishiro', 'himari-yaegaki']);
   assert.deepEqual(bySlug.get('masaki-andoh').mechy, ['cybuster', 'cybird']);
-  assert.deepEqual(bySlug.get('control-ai').mechy, ['brocken', 'helldiver', 'brocken-dzialko-automatyczne']);
+  // Komplet maszyn Control AI pilnuje test/seria-z-dostawy.test.js (dostawa 2-8 dołożyła Brocken/Cannon).
+  for (const mech of ['brocken', 'helldiver', 'brocken-dzialko-automatyczne']) {
+    assert.ok(bySlug.get('control-ai').mechy.includes(mech), `Control AI: ${mech}`);
+  }
   assert.equal(bySlug.get('control-ai').seria, undefined, 'Control AI nie ma wpisu w słowniku postaci');
   assert.deepEqual(bySlug.get('real-pg-gundam').piloci, []);
   assert.match(bySlug.get('cybuster').body, /\[\[cybird\|Cybird\]\]/);
@@ -277,17 +283,22 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 206 plików przy 162 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 240 plików przy 191 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
-  assert.equal(Object.keys(manifest.encje).length, 162);
-  assert.equal(Object.values(manifest.encje).flat().length, 206);
+  // Bieżący stan manifestu jest przypięty tylko tutaj. Testy poszczególnych dostaw sprawdzają
+  // własne klucze i to, że manifest nie jest starszy od nich — kolejna dostawa zmienia ten jeden test.
+  assert.equal(Object.keys(manifest.encje).length, 191);
+  assert.equal(Object.values(manifest.encje).flat().length, 240);
+  assert.equal(manifest.dostarczono, '2026-11-10', 'data ostatniej dostawy ilustracji');
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
+  assert.equal(new Set(wszystkie).size, wszystkie.length, 'plik należy do jednej encji');
   const portrety = wszystkie.filter((f) => f.startsWith('characters/')).length;
   const jednostki = wszystkie.filter((f) => !f.includes('/')).length;
-  assert.match(manifest.uwaga, new RegExp(`${portrety} portret[a-ząćęłńóśźż]* w characters/`), 'liczba portretów w uwadze');
-  assert.match(manifest.uwaga, new RegExp(`${jednostki} plik[a-ząćęłńóśźż]* jednostek`), 'liczba plików jednostek w uwadze');
+  assert.equal(portrety + jednostki, wszystkie.length, 'plik leży w characters/ albo w korzeniu');
+  assert.match(manifest.uwaga, new RegExp(`^Stan manifestu: ${portrety} portret[a-ząćęłńóśźż]* w characters/ i ${jednostki} plik[a-ząćęłńóśźż]* jednostek w korzeniu, razem ${wszystkie.length} obraz[a-ząćęłńóśźż]* przy ${Object.keys(manifest.encje).length} encjach\\.`),
+    'uwaga zaczyna się od bieżących liczb');
   // Dostawa ilustracji jednostek misji 2 (2026-10-22): sześć maszyn, dziewięć plików.
   assert.deepEqual(manifest.encje.dom, ['Dom.png', 'Dom 2.png']);
   assert.deepEqual(manifest.encje.dopp, ['Dopp.png']);
@@ -513,7 +524,7 @@ test('ilustracje 2-2 i 2-3: osiem dokładnych kluczy R2 przy czterech właściwy
   }
   assert.deepEqual(manifest.encje.brocken, ['Brocken.png', 'Brocken 2.png']);
   assert.equal(manifest.weryfikacjaZdalna, false);
-  assert.equal(manifest.dostarczono, '2026-11-09');
+  assert.ok(manifest.dostarczono >= '2026-11-02', 'manifest nie jest starszy od tej dostawy');
 });
 
 
@@ -589,7 +600,7 @@ test('dostawa ilustracji SRW Y (2026-11-09): osiem jednostek i szesnaście portr
     assert.match(page.body, /sprawdzono 2026-11-09/, slug);
   }
   assert.equal(bySlug.get('macross-delta').rodzaj, 'tv');
-  assert.equal(manifest.dostarczono, '2026-11-09');
+  assert.ok(manifest.dostarczono >= '2026-11-09', 'manifest nie jest starszy od tej dostawy');
   assert.equal(manifest.weryfikacjaZdalna, false);
   assert.deepEqual(manifest.nieprzypisane, []);
 });

@@ -2,6 +2,7 @@
 typ: postac
 slug: mikhail-kaminsky
 tytul: Mikhail Kaminsky
+pseudonim: Misza
 rola: pilot
 seria: mobile-suit-gundam-0080
 gry: [srw-oe]

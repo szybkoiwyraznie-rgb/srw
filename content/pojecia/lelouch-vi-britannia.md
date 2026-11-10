@@ -11,7 +11,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Cesarz Świętego Imperium Britannii, który po obaleniu [[logos|Logosu]] i upadku [[treize-khushrenada|Treize'a Khushrenady]] staje na czele Ziemi i zapowiada ostateczne rozstrzygnięcie z kosmosem. [[annina-servania|Annina]] tłumaczy [[echika-y-franburnett|Echice]], że przyszłość Ziemi zależy teraz od cesarza Leloucha, a Spacenoidzi zjednoczą się pod sztandarem [[char-aznable|Chara Aznable'a]]. Na paradzie [[zero|Zero]] odbiera mu życie na oczach świata; głosy z innych światów — [[heero-yuy|Heero]], [[duo-maxwell|Duo]], [[amuro-ray|Amuro]], [[bright-noa|Bright Noa]] — komentują zamach, a [[nunnally-vi-britannia|Nunnally]] żegna brata.
+Cesarz Świętego Imperium Britannii, który po obaleniu [[logos|Logosu]] i upadku [[treize-khushrenada|Treize'a Khushrenady]] staje na czele Ziemi i zapowiada ostateczne rozstrzygnięcie z kosmosem. [[annina-servania|Annina]] tłumaczy [[echika-y-franburnett|Echice]], że przyszłość Ziemi zależy teraz od cesarza Leloucha, a Spacenoidzi zjednoczą się pod sztandarem [[char-aznable|Chara Aznable'a]]. Na paradzie [[zero|Zero]] odbiera mu życie na oczach świata. Przejazd cesarza obserwują [[koji-kabuto|Koji]] i [[tetsuya-tsurugi|Tetsuya]], [[amuro-ray|Amuro]] i [[bright-noa|Bright Noa]] oraz piloci gundamów z [[heero-yuy|Heero]] i [[duo-maxwell|Duo]]; gdy pojawia się Zero, [[nunnally-vi-britannia|Nunnally]] woła brata.
 }}
 
 {{zrodlo gra=wspolne

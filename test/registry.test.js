@@ -86,3 +86,12 @@ test('backlinki zbierają strony linkujące bez duplikatów', () => {
   assert.deepEqual(b.x.map((s) => s.slug), ['a', 'b', 'c']);
   assert.deepEqual(b.y.map((s) => s.slug), ['a']);
 });
+
+test('pseudonim przysługuje tylko postaci i nie powtarza tytułu (ADR 0037)', () => {
+  const ctx = ctxZ([]);
+  assert.deepEqual(walidujStrone(strona({ tytul: 'Orie Ishizuka', pseudonim: 'Potato' }), ctx), []);
+  assert.ok(walidujStrone(strona({ pseudonim: 'Amuro Ray' }), ctx).some((p) => /powtarza tytuł/.test(p)));
+  assert.ok(walidujStrone(strona({ pseudonim: '  ' }), ctx).some((p) => /niepustym tekstem/.test(p)));
+  assert.ok(walidujStrone(strona({ typ: 'mech', pseudonim: 'Biały Diabeł' }), ctx)
+    .some((p) => /tylko postaci/.test(p)));
+});

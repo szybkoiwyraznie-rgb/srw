@@ -7,13 +7,22 @@ seria: genki-bakuhatsu-ganbaruger
 gry: [srw-oe]
 mechy: [ganbaruger, great-ganbaruger]
 pochodzenie: skrypt
-tagi: [eldran, super-robot-wars, pilot]
+tagi: [eldran, pilot]
 utworzono: 2026-11-09
 ---
 
 {{skrypt gra=srw-oe
 
-Główny pilot [[ganbaruger|Ganbarugera]] z [[genki-bakuhatsu-ganbaruger|drużyny Ganbaruger]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] entuzjastycznie zgłasza wymarsz [[gurren-team|drużyny Ganba]], po bitwie żartobliwie domaga się „roboty” dla siebie, a po decyzji o locie w kosmos przyjmuje zadanie wzmocnienia obrony Ziemi wraz z [[taro-omomo|Momotaro]].
+Główny pilot [[ganbaruger|Ganbarugera]] z [[genki-bakuhatsu-ganbaruger|drużyny Ganbaruger]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] entuzjastycznie zgłasza wymarsz drużyny Ganba, po bitwie żartobliwie domaga się „roboty” dla siebie, a po decyzji o locie w kosmos przyjmuje zadanie wzmocnienia obrony Ziemi wraz z [[taro-omomo|Momotaro]].
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Kotaro Kirigakure — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kotaro%20Kirigakure.png)
 }}
 
 {{menu gra=srw-oe

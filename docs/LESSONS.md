@@ -126,3 +126,87 @@ Drugi rodzaj zakazu dotyczy pojedynczych słów. `test/epizod-2-misja-3.test.js`
 nazwy „Black Wing” ani losów Alana na stronach obsady treningu, bo gra prowadzi tę obsadę
 inaczej niż serial. Zanim dopiszesz tło postaci z dodatkowej serii, przeszukaj `test/`
 po slugu strony — zakaz bywa zapisany w teście konkretnej misji, nie w ADR.
+
+## L15 — Lista wpisana w test to stan z dnia napisania, nie reguła (2026-11-10)
+
+`test/srw-y.test.js` porównywał `postacie` epizodu SRW Y z listą wpisaną na sztywno, a Kojiego,
+Amuro i Brighta — mówców prologu — rozliczał osobną gałęzią „kameo z innych gier”, której
+wystarczał odsyłacz w analizie sceny. Gałąź pochodziła z wcześniejszego modelu (obsada = rekordy
+uczestników misji) i przetrwała adnotację do ADR 0013, według której mówca w skrypcie jest
+postacią. Trzy osoby prowadzące dialog nie były więc w obsadzie epizodu, a agent zgłosił to jako
+„propozycję wymagającą zmiany testu”, zamiast naprawić. Właściciel: „jeśli zabrania, to znaczy,
+że test jest błędny i trzeba go zmienić”.
+
+Zasada: gdy test stoi w sprzeczności z ADR albo z dostawą, usterką jest test. Poprawiamy go
+razem z treścią, w tym samym commicie — to naprawa bazy, nie zmiana wymagająca osobnej zgody.
+Zanim rozbieżność trafi do „propozycji”, sprawdź, skąd wzięła się asercja (`git log -S`):
+lista przepisana z ówczesnego stanu bazy niczego nie rozstrzyga. Tam, gdzie się da, test
+powinien wyprowadzać oczekiwanie z dostawy (tu: mówcy ze skryptu), a nie z listy w kodzie.
+
+## L16 — Wyliczenie pisane ręcznie obok listy z pól starzeje się po cichu (2026-11-10)
+
+Strona serii *Matchless Raijin-Oh* wymieniała w zdaniu „W Super Robot Wars OE serię
+reprezentują…” dziesięcioro uczniów. Sesja, która dodała czworo kolejnych (Hidenori Kondo,
+Hiroshi Takamori, Miki Mano, Yu Izumi), ustawiła im pole `seria`, więc lista „Z tej serii”
+urosła sama — ale zdania nikt nie dopisał. „Powiązania” zbierały wikilinki z tego zdania,
+więc strona pokazywała dwie różne listy tych samych postaci (15 i 11). Tak samo strona
+*Mobile Police Patlabor* nie wymieniała żołnierza JSDF ani Brockena/Cannon. Żaden test tego nie
+widział: pole było poprawne, zdanie było prawdziwe, tylko niepełne.
+
+Zasada: lista budowana z pól jest jedynym kompletnym wykazem (ADR 0036) i silnik nie pokazuje
+jej drugi raz w kolumnie bocznej. Zdanie w treści serii mówi, kto i co ją reprezentuje, ale to
+ręczna robota — dodając stronę z polem `seria`, otwórz stronę tej serii i dopisz nową pozycję,
+jeśli opis gry wymienia obsadę albo maszyny. Szybka kontrola: na stronie serii każda pozycja
+„Z tej serii” powinna dać się znaleźć w opisie albo opis nie powinien udawać pełnej listy.
+
+## L17 — Mówca i uczestnik to ta sama osoba: skrypt zna przezwisko, lista zna nazwisko i serię (2026-11-10)
+
+W misji 2-8 SRW OE mówią „Potato”, „Bon”, „Chobi”, „Kuko”, „Two” i „Mabo”. Sesja założyła
+im strony pod przezwiskami, bez serii, z opisem „uczeń z towarzystwa Akademii Hinobori” —
+a dodatek tej samej dostawy wymienia z nazwiska i z serią dokładnie tylu uczniów, ilu
+mówców zostało bez pary. Eldran dostał stronę bez serii, bo `test/tagi.test.js` wymagał od
+każdej strony *Raijin-Oh* tagu `eldran`, a strona `eldran` nie może tagować samej siebie:
+test dało się uciszyć tylko przez pominięcie serii. Żołnierz JSDF miał odwrotnie — serię,
+której dostawa mu nie daje. Żaden test tego nie widział, bo żaden nie czytał listy uczestników.
+
+Zasada: zanim powstanie strona mówcy, znajdź go na liście uczestników tej samej dostawy —
+tam jest nazwa strony i jej seria (ADR 0037). Przezwisko trafia do pola `pseudonim`. Gdy test
+nie pozwala wpisać tego, co mówi dostawa, usterką jest test (L15), nie dostawa. Kontrola:
+`node tools/uczestnicy-dostaw.mjs` — ma wypisać same zgodne przypisania.
+
+## L18 — Załoga to cały wiersz jednostki, a test pisany ze stanu bazy utrwala brak (2026-11-10)
+
+Dostawa misji 2-8 SRW OE podaje „Daiteioh — pilot główny: Taro Omomo — piloci wspierający
+w misji: Mai Ozora, Kakeru Daichi”. Do pola `piloci` trafił sam pilot główny, a test misji
+zapisał to jako oczekiwany stan (`deepEqual(piloci, ['taro-omomo'])`) — od tej chwili pilnował
+błędu. Podobnie testy starszych misji wymagały dokładnej listy maszyn Żołnierza Zeonu, więc
+każda nowa dostawa z kolejną jego maszyną musiała albo złamać test, albo pominąć wpis;
+pominięto sześć.
+
+Zasada: oczekiwaną załogę test bierze z dostawy, nie z bazy (ADR 0037 pkt 7). Test jednej
+misji sprawdza „zawiera”, nie „jest dokładnie”, gdy lista rośnie z kolejnymi dostawami;
+komplet pilnuje jeden test czytający wszystkie dostawy naraz.
+
+## L19 — Jedno źródło milczy? Otwórz następne, zanim zapytasz właściciela (2026-11-10)
+
+Angielska Wikipedia nie podaje płci bliźniąt Sato z *Go-Saurera*. Strona Harumi dostała
+więc opis bez rodzaju gramatycznego, a pytanie o płeć — najpierw jej, potem siostry —
+trafiło dwa razy do właściciela. Tymczasem SRW Wiki ma w metryce każdej postaci pole
+„性別” i pisze wprost „双子姉妹”; jedno wyszukiwanie zamykało sprawę.
+
+Zasada: brak informacji w pierwszym źródle to powód, by otworzyć drugie (dla postaci
+z gier SRW — japońską SRW Wiki), nie by pisać naokoło ani pytać. Do właściciela trafia
+dopiero to, czego nie rozstrzyga żadne dostępne źródło — z podaniem, gdzie szukano.
+
+## L20 — Stan bieżący przypinaj w jednym teście, nie w teście każdej dostawy (2026-11-10)
+
+Dostawa 34 ilustracji zmieniła trzy liczby w manifeście (pliki, encje, data). Te same
+liczby stały w sześciu miejscach czterech plików testowych: testy misji 2-5, 2-6 i 2-7
+sprawdzały nie tylko własne klucze, ale i to, że manifest ma dokładnie 206 plików
+i datę 2026-11-09 — czyli stan z dnia, w którym je pisano. Każda następna dostawa
+musiałaby je wszystkie poprawiać, a poprawianie cudzego testu „żeby przeszedł” to
+dokładnie ten odruch, przed którym test ma chronić.
+
+Zasada: test dostawy pilnuje tego, co do niej należy i co się już nie zmieni (jej klucze,
+jej numer odczytu, „manifest nie jest starszy ode mnie”). Sumy i datę bieżącą trzyma
+jeden test stanu, wyprowadzający liczby z danych wszędzie, gdzie się da (L15).

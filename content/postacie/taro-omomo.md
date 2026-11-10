@@ -2,18 +2,28 @@
 typ: postac
 slug: taro-omomo
 tytul: Taro Omomo
+pseudonim: Momotaro
 rola: pilot
 seria: kanzen-shouri-daiteioh
 gry: [srw-oe]
 mechy: [daiteioh, perfect-daiteioh]
 pochodzenie: skrypt
-tagi: [eldran, super-robot-wars, pilot]
+tagi: [eldran, pilot]
 utworzono: 2026-11-09
 ---
 
 {{skrypt gra=srw-oe
 
 Główny pilot [[daiteioh|Daiteioha]] z [[kanzen-shouri-daiteioh|drużyny Daiteioh]], nazywany Momotaro. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] cieszy się walką i pewnie typuje zwycięstwo, a gdy zapada decyzja o wyprawie kosmicznej, deklaruje razem z [[kotaro-kirigakure|Kotaro]] wzmocnienie obrony Ziemi.
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Taro Omomo — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Taro%20Omomo.png)
 }}
 
 {{menu gra=srw-oe

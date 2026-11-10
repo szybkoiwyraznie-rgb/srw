@@ -4,7 +4,7 @@ slug: zolnierz-zeonu
 tytul: Żołnierz Zeonu
 rola: pilot
 gry: [srw-oe]
-mechy: [dom-zolnierz-zeonu, dopp, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
+mechy: [dom-zolnierz-zeonu, dopp, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, zaku-ii-kai, rick-dom]
 pochodzenie: menu
 tagi: [one-year-war, pilot, zeon]
 utworzono: 2026-10-22
@@ -14,6 +14,8 @@ utworzono: 2026-10-22
 Zbiorcze określenie szeregowych żołnierzy Księstwa [[zeon|Zeonu]], którzy pilotują [[dom-zolnierz-zeonu|Domy]], myśliwce [[dopp|Dopp]] oraz [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]]. Bronią baz Zeonu w drodze ku [[operacja-odessa|Odessie]], gdzie stają obok trzech [[dom|Domów]] [[black-tri-stars|Black Tri-Stars]]. Obsługują też baterie [[turret|Turret]], ale nieruchome wieżyczki nie są pilotowanymi maszynami.
 
 W walkach z [[white-base|White Base]] dwa Zaku II prowadzą nazwani piloci: maszynę z karabinem [[slender|Slender]], a wersję z bazooką [[crown|Crown]].
+
+Od [[srw-oe-ep2-szturm-apsalusa|sceny „Szturm Apsalusa”]] szeregowi żołnierze prowadzą też [[zaku-ii-kai|Zaku II Kai]], a w scenach [[srw-oe-ep2-przebicie-sila|„Przebicie się siłą”]] i [[srw-oe-ep2-w-poscigu-za-zanzibarem|„W pościgu za Zanzibarem”]] — [[rick-dom|Rick Domy]].
 
 Umiejętność „Szeregowy” pozwala żołnierzom tego samego typu walczyć w grupie, której wytrzymałość jest sumą wytrzymałości maszyn.
 }}

@@ -92,6 +92,22 @@ Dla każdej postaci i mecha obecnej w skrypcie (ADR 0012):
   opis tylko tym, co wnosi nowy materiał.
 - **bronie** → w treści wpisu mecha, w sekcji o uzbrojeniu. Osobnych wpisów broni nie tworzymy.
 
+**Najpierw lista uczestników, potem strony (ADR 0037).** Dostawa podaje postacie dwa razy:
+jako mówców skryptu i na liście uczestników — tam każda nazwa ma na twardo wpisaną serię.
+
+- Tytuł strony to nazwa z listy uczestników (imię i nazwisko), a pole `seria` to seria z tej
+  listy. Gdy dostawa pisze „Brak wpisu w słowniku postaci”, strona nie ma pola `seria`.
+- Mówca, którego etykieta nie pasuje do żadnego tytułu, mówi pod przezwiskiem. Znajdź go
+  na liście uczestników tej samej dostawy (dodatek postaci niebojowych wymienia dokładnie
+  mówiących w scenie) i wpisz etykietę w pole `pseudonim` — nie zakładaj strony „Potato”.
+  Gdy sama dostawa nie rozstrzyga, kto jest kim, parę potwierdza źródło w bloku `{{zrodlo}}`.
+- Załogę przepisz z wiersza jednostki w całości: `pilot główny` **i** `piloci wspierający`
+  trafiają do pola `piloci` mecha (także jego formy połączonej), a mech do pola `mechy`
+  każdego z nich — również pilota zbiorowego w rodzaju „Żołnierz Zeonu”.
+- Po założeniu stron uruchom `node tools/uczestnicy-dostaw.mjs`: wypisuje każdą nazwę z dostaw
+  bez strony, każdą stronę z inną serią niż w dostawie i każdą parę „jednostka — pilot”,
+  której brakuje w polu `piloci` albo `mechy`. Ma nie wypisać żadnej rozbieżności.
+
 Uwaga na poziom szczegółu: **statystyki i uzbrojenie opisują parę (mech, gra)**, nie mecha.
 Wiedza o późniejszych epizodach i losach postaci do wpisu nie trafia (ADR 0012).
 Jeśli menu gry podało parametry, zapisz je w `w_gre`, nie w opisie ogólnym.
@@ -109,11 +125,16 @@ Encja `seria` to nie streszczenie anime — to węzeł grafu: rok, rodzaj, liczb
 i powód, dla którego ta seria jest w bazie (kto i co z niej pochodzi). Analiza konkretnych
 odcinków i różnic wobec gry żyje w wpisie epizodu, w tabeli wątków.
 
+Lista „Z tej serii” na stronie serii układa się sama z pola `seria` postaci i mechów (ADR 0036).
+Zdanie w opisie („W … serię reprezentują…”) pisze się ręcznie: każda nowa strona z polem
+`seria` to powód, by otworzyć stronę tej serii i dopisać pozycję do opisu (LESSONS L16).
+
 ## 5. Linkowanie
 
 - Pola frontmattera dla relacji strukturalnych (obsada, sprzęt, seria, gra).
-- Wikilinki w treści dla wszystkiego, co naturalnie pojawia się w zdaniu — wtedy w „Wymienione w"
-  na stronie encji widać, w których epizodach postać się przewinęła.
+- Wikilinki w treści dla wszystkiego, co naturalnie pojawia się w zdaniu — odsyłacz z jednej
+  strony wystarcza, by obie pokazały się nawzajem w „Powiązaniach" (ADR 0038): na stronie postaci
+  widać wtedy, w których scenach i epizodach się przewinęła.
 - Nie linkuj na zapas: `[[slug]]` do wpisu, który nie istnieje, **wywala build**.
 
 ## 6. Dziennik zmian

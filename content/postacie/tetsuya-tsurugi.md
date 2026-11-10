@@ -12,7 +12,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Tetsuya zabiera głos w rozmowie o kruchym pokoju po wojnie rewolucyjnej. Zauważa, że Ziemia i kosmos wciąż tkwią w wojnie bez końca.
+Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] Tetsuya mówi [[koji-kabuto|Kojiemu]], że do pokoju wciąż daleko: Ziemia i kosmos ugrzęzły w wojnie bez końca.
 }}
 
 {{zrodlo gra=wspolne

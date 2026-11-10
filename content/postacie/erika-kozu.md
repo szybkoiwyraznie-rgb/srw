@@ -2,6 +2,7 @@
 typ: postac
 slug: erika-kozu
 tytul: Erika Kozu
+pseudonim: Elly
 rola: dowodztwo
 seria: nekketsu-saikyo-go-saurer
 gry: [srw-oe]

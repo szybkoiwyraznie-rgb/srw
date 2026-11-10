@@ -2,6 +2,7 @@
 typ: postac
 slug: badrinath-harchand
 tytul: Badrinath Harchand
+pseudonim: Bud
 rola: pilot
 seria: mobile-police-patlabor
 gry: [srw-oe]

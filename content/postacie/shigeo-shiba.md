@@ -2,6 +2,7 @@
 typ: postac
 slug: shigeo-shiba
 tytul: Shigeo Shiba
+pseudonim: Shige
 rola: wsparcie
 seria: mobile-police-patlabor
 gry: [srw-oe]

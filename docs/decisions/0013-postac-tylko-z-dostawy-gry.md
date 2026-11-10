@@ -37,3 +37,15 @@ hasłami wiki.
   gilbert-dullindal, milliardo-peacecraft, treize-khushrenada, tetsuro-yagami,
   general-takeda, komendant-igor) to hasła w `content/pojecia/`; osoby obecne w materiale
   wyłącznie jako wspomniane dostają rodzaj treści tagiem `postac-wspominana` (ADR 0033).
+
+## Doprecyzowanie (2026-11-10)
+
+Właściciel: skoro Koji, Amuro i Bright mówią w prologu SRW Y, mają być na liście postaci,
+a test, który tego zabrania, jest błędny i trzeba go zmienić.
+
+- **Mówca należy do pola `postacie` epizodu i sceny, w których mówi** — także wtedy, gdy jego
+  strona powstała przy innej grze (Koji Kabuto, Amuro Ray i Bright Noa mają strony z SRW OE).
+  Odsyłacz w prozie nie zastępuje relacji w obsadzie.
+- Wyjątek „kameo z innych gier” w `test/srw-y.test.js` został usunięty: test wyprowadza
+  obsadę ze skryptu i wymaga, by każdy nazwany mówca sceny 1-1C był stroną typu `postac`
+  z grą `srw-y`, obecną w `postacie` sceny i epizodu. Bezimienny „Prezenter” nie ma strony.

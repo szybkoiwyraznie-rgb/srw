@@ -18,6 +18,19 @@ Artyleryjska odmiana bezzałogowego [[brocken|Brockena]] kierowanego przez [[con
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Brocken/Cannon — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Brocken%20-%20cannon.png)
+
+### Ilustracja 2
+
+![Brocken/Cannon — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Brocken%20-%20cannon%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 ### Uzbrojenie i wymienione działania

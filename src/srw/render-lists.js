@@ -391,6 +391,7 @@ function kartaKafelka(p, typ) {
   const obraz = ilustracjaEncji(p);
   const seria = p.seria ? dajStrone(p.seria) : null;
   const metaCzesci = [];
+  if (typ === 'postac' && p.pseudonim) metaCzesci.push(`„${escapeHtml(p.pseudonim)}”`);
   if (seria) metaCzesci.push(escapeHtml(seria.tytul));
   if (typ === 'postac' && p.rola) metaCzesci.push(escapeHtml(p.rola));
   if (typ === 'mech' && Array.isArray(p.piloci) && p.piloci.length) {
@@ -681,9 +682,10 @@ function porownajSceny(a, b) {
   return new Intl.Collator('pl', { numeric: true, sensitivity: 'base' }).compare(String(a.numer_sceny ?? ''), String(b.numer_sceny ?? ''));
 }
 
-/** Opis wiersza listy: seria, rola i liczba maszyn. Rodzaj hasła niesie tag (ADR 0033). */
+/** Opis wiersza listy: pseudonim, seria, rola i liczba maszyn. Rodzaj hasła niesie tag (ADR 0033). */
 function metaEncji(p) {
   const czesci = [];
+  if (p.typ === 'postac' && p.pseudonim) czesci.push(`„${escapeHtml(p.pseudonim)}”`);
   if (p.seria) {
     const s = dajStrone(p.seria);
     if (s) czesci.push(escapeHtml(s.tytul));

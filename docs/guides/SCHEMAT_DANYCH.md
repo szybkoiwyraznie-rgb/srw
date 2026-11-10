@@ -37,7 +37,11 @@ prowadzi do złego typu.
 | `pojecia` | `pojecie` | epizod, scena |
 
 Relacje można też wyrażać wikilinkami w treści (`[[slug]]`, `[[slug|etykieta]]`). Oba kanały
-liczą się do grafu i do sekcji „Powiązania" / „Wymienione w".
+liczą się do grafu i do boksu „Powiązania". Boks pokazuje relację z obu stron: odsyłacz
+z jednej strony wystarcza, by każda z dwóch wymieniała drugą (ADR 0038). Strona widoczna już
+w metryce albo na własnej liście („Z tej serii…", „Rozegrane epizody") w boksie się nie powtarza
+(ADR 0036). Boks pokazuje 50 pozycji; pozostałe są na stronie od razu i odsłania je przycisk
+„Rozwiń" (ADR 0039).
 
 ## Pola specyficzne
 
@@ -49,7 +53,14 @@ Pole `skrypt` jest wiążące w obie strony: plik musi istnieć, a każdy plik w
 mieć swój wpis epizodu.
 
 **postac** (tylko postać z dostawy gry, także ilustracyjnej bez opisu tekstowego — ADR 0017; postać z innej serii pojawiająca się jako nawiązanie to `pojecie`, ADR 0013): `seria` (opcjonalne — oryginalne postacie gry nie mają serii), `rola` (`pilot` / `wsparcie` / `dowodztwo` / `antagonista` /
-`postac` / `inne`), `seiyuu`, `mechy`, `gry`.
+`postac` / `inne`), `seiyuu`, `mechy`, `gry`, `pseudonim`.
+
+`seria` postaci i mecha jest **dokładnie tym, co wpisała lista uczestników dostawy** — także
+wtedy, gdy dostawa serii nie podaje („Brak wpisu w słowniku postaci” → strona bez pola `seria`).
+`tytul` to nazwa z listy uczestników, czyli imię i nazwisko. `pseudonim` to etykieta, pod którą
+postać mówi w skrypcie, gdy nie jest nią imię ani nazwisko (`pseudonim: Potato` na stronie
+Orie Ishizuki); strony pod samym przezwiskiem nie zakładamy. Pilnują tego
+`tools/uczestnicy-dostaw.mjs` i `test/seria-z-dostawy.test.js` (ADR 0037).
 
 **pojecie** (hasło wiki: organizacja, państwo, era, miejsce, wydarzenie, technologia,
 postać z innej serii — ADR 0013): `gry`. Rodzaj treści niesie **tag**, nie osobne pole —
@@ -63,7 +74,9 @@ Słowo „wariant” zarezerwowane jest dla tej samej maszyny w różnych grach 
 Profil sterujący zbiorczą obsadą (np. **Control AI** przy Brockenie) może być wpisem
 `postac`. Bezimienny ogół żołnierzy nie dostaje osobnego wpisu — opisują go strony maszyn.
 `piloci` wymienia nazwanych pilotów w kolejności znaczącej dla obsady misji
-(np. `[char-aznable, slender, crown]`; ADR 0024).
+(np. `[char-aznable, slender, crown]`; ADR 0024). To **cała załoga** z listy jednostek
+dostawy — pilot główny i piloci wspierający — a każda z tych osób ma tę maszynę w swoim polu
+`mechy` (ADR 0037 pkt 7–8).
 
 **`w_gre`** to mapa „slug gry → parametry pary (mech, gra)” (ADR 0020, 0023, 0024).
 Wartość zapisujemy jako JSON w jednej linii:

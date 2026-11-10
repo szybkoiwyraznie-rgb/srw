@@ -2,7 +2,7 @@
 typ: gra
 slug: srw-y
 tytul: Super Robot Wars Y
-titul_ja: スーパーロボット大戦Y
+tytul_ja: スーパーロボット大戦Y
 platforma: PlayStation 5 / Nintendo Switch / PC
 rok: 2025
 status: w-toku

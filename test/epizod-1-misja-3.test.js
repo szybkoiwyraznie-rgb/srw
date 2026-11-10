@@ -80,8 +80,11 @@ test('zwykły Dom jest odrębną jednostką od Domów Black Tri-Stars', () => {
   assert.match(zwykly.body, /\| 0 \| Heat Saber \| 1500 \| 1–2 \| \+50 \| 5 \|/);
   assert.match(zwykly.body, /\| 1 \| Wielka bazooka \| 1800 \| 1–4 \| \+10 \| 10 \|/);
   assert.match(triStars.body, /\|\s+0 \| Heat Saber\s+\|\s+1900 \|\s+1–2\s+\|\s+\+60 \|/);
-  assert.deepEqual(bySlug.get('zolnierz-zeonu').mechy,
-    ['dom-zolnierz-zeonu', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']);
+  // Lista maszyn pilota zbiorowego rośnie z każdą dostawą; komplet pilnuje
+  // test/seria-z-dostawy.test.js, tutaj liczą się maszyny z pierwszych misji.
+  for (const mech of ['dom-zolnierz-zeonu', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']) {
+    assert.ok(bySlug.get('zolnierz-zeonu').mechy.includes(mech), `Żołnierz Zeonu: ${mech}`);
+  }
 });
 
 test('H-Bomb Missile jest niepilotowanym celem z parametrami dostawy', () => {

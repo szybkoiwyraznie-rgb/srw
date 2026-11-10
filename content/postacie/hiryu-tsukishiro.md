@@ -7,13 +7,22 @@ seria: kanzen-shouri-daiteioh
 gry: [srw-oe]
 mechy: [daiteioh, perfect-daiteioh]
 pochodzenie: skrypt
-tagi: [eldran, super-robot-wars, pilot]
+tagi: [eldran, pilot]
 utworzono: 2026-11-09
 ---
 
 {{skrypt gra=srw-oe
 
 Podpilot [[daiteioh|Daiteioha]] z [[kanzen-shouri-daiteioh|drużyny Daiteioh]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] studzi zapał [[taro-omomo|Momotaro]], przypominając, że bez rozpoznania sił wroga i planu wygrana nie przyjdzie łatwo; po bitwie przyjmuje nazwę Gurren Team, a w naradzie kosmicznej opowiada się za podziałem sił między kosmos i Ziemię dla wymiany danych.
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Hiryu Tsukishiro — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Hiryu%20Tsukishiro.png)
 }}
 
 {{menu gra=srw-oe

@@ -131,7 +131,10 @@ test('nowe postacie i Shinohara Heavy Industries mają czyste profile bez spoile
   assert.match(shi.body, /MIT/);
 
   assert.deepEqual(bySlug.get('helldiver').piloci, ['control-ai', 'zolnierz-jsdf']);
-  assert.deepEqual(bySlug.get('control-ai').mechy, ['brocken', 'helldiver', 'brocken-dzialko-automatyczne']);
+  // Komplet maszyn Control AI pilnuje test/seria-z-dostawy.test.js (dostawa 2-8 dołożyła Brocken/Cannon).
+  for (const mech of ['brocken', 'helldiver', 'brocken-dzialko-automatyczne']) {
+    assert.ok(bySlug.get('control-ai').mechy.includes(mech), `Control AI: ${mech}`);
+  }
 
   for (const slug of ['shinobu-nagumo', 'shigeo-shiba']) {
     assert.ok(scena.postacie.includes(slug), `scena postacie: ${slug}`);

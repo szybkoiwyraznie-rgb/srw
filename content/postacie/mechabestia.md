@@ -4,7 +4,7 @@ slug: mechabestia
 tytul: Mechabestia
 rola: pilot
 gry: [srw-oe]
-mechy: [bolt-robo-standard, bolt-robo-melee, bolt-robo-long-range]
+mechy: [bolt-robo-standard, bolt-robo-melee, bolt-robo-long-range, bolt-robo-anti-air, gandoppler]
 pochodzenie: skrypt
 tagi: [eldran, imperium-mechanizacji, pilot]
 utworzono: 2026-10-27

@@ -7,13 +7,22 @@ seria: genki-bakuhatsu-ganbaruger
 gry: [srw-oe]
 mechy: [ganbaruger, great-ganbaruger]
 pochodzenie: skrypt
-tagi: [eldran, super-robot-wars, pilot]
+tagi: [eldran, pilot]
 utworzono: 2026-11-09
 ---
 
 {{skrypt gra=srw-oe
 
 Podpilot [[ganbaruger|Ganbarugera]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] potwierdza [[kotaro-kirigakure|Kotaro]] gotowość walki wszystkich czterech drużyn, a po bitwie wnioskuje, że [[mechanization-empire|Imperium Mechanizacji]] chce teraz sterować także [[labor|Laborami]].
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Rikiya Ryuzaki — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Rikiya%20Ryusaki.png)
 }}
 
 {{menu gra=srw-oe

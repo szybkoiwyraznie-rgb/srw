@@ -1,5 +1,36 @@
 # Co nowego
 
+## 2026-11-10 23:05
+
+- [[harumi-sato|Harumi Sato]] jest młodszą z bliźniaczek Sato — starsza, Akemi, to „One”. W Thunder Brachio Harumi obsługuje radar, i to ona śledzi go w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]].
+- Po połączeniu [[raijin-oh|Raijin-Oha]] w [[god-raijin-oh|God Raijin-Oha]] do trójki pilotów dołącza [[bakuryu-oh|Bakuryu-Oh]].
+- „Szef Suol” to [[suol|Suol Douglas]], szef [[connect-force|Connect]].
+
+## 2026-11-10 22:45
+
+- Załogę [[daiteioh|Daiteioha]] i [[perfect-daiteioh|Perfect Daiteioha]] tworzą [[taro-omomo|Taro Omomo]], [[mai-ozora|Mai Ozora]], [[kakeru-daichi|Kakeru Daichi]] i [[hiryu-tsukishiro|Hiryu Tsukishiro]].
+- [[ganbaruger|Ganbarugera]] i [[great-ganbaruger|Great Ganbarugera]] pilotują razem [[kotaro-kirigakure|Kotaro Kirigakure]], [[yosuke-kazamatsuri|Yosuke Kazamatsuri]] i [[rikiya-ryuzaki|Rikiya Ryuzaki]].
+- [[harumi-sato|Harumi Sato]], czyli „Two”, to dziewczynka — młodsza z bliźniąt Sato wśród [[saurersi|Saurersów]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] to ona śledzi radar.
+
+## 2026-11-10 22:09
+
+- „Potato” z narady w [[akademia-hinobori|Akademii Hinobori]] to [[orie-ishizuka|Orie Ishizuka]] z [[klasa-obrony-ziemi|Klasy Obrony Ziemi]], bohaterka [[matchless-raijin-oh|*Matchless Raijin-Oh*]].
+- Pod przezwiskami Bon, Chobi, Kuko, Two i Mabo mówią [[saurersi|Saurersi]]: [[saneyasu-mushanokoji|Saneyasu Mushanokoji]], [[kazutaka-seki|Kazutaka Seki]], [[kumiko-tanabe|Kumiko Tanabe]], [[harumi-sato|Harumi Sato]] i [[masao-fujiyoshi|Masao Fujiyoshi]].
+- [[eldran|Eldran]], wojownik światła i strażnik Ziemi, należy do świata *Matchless Raijin-Oh*. To on powierzył dzieciom [[raijin-oh|Raijin-Oh]], [[ganbaruger|Ganbarugera]], [[go-saurer|Go-Saurera]] i [[daiteioh|Daiteioha]]; cztery wybrane przez niego drużyny to Klasa Obrony Ziemi, drużyna Ganba, Saurersi i Danketsi.
+- Na naradzie przed lotem w kosmos Bon i Kuko zauważają, że w ostatniej walce wróg chyba dowodził [[mucus|Mucus]]. Kikaishin, którego wspominają uczniowie, to pokonany przez Saurersów przeciwnik z [[mechanization-empire|Imperium Mechanizacji]].
+
+## 2026-11-10 00:34
+
+- Rozmowy [[koji-kabuto|Kojiego]] z [[tetsuya-tsurugi|Tetsuyą]] oraz [[chizuru-nambara|Chizuru]] z [[hyoma-aoi|Hyomą]] toczą się podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] — jeszcze w trakcie [[wojna-rewolucyjna|wojny rewolucyjnej]], którą kończy dopiero zamach [[zero|Zero]]. Wtedy też Chizuru mówi, że w [[imperium-yoma|Imperium Yoma]] wciąż pozostał cesarz [[barao|Barao]].
+- [[trowa-barton|Trowa]] zapowiada nowy rozlew krwi przed zamachem, w odpowiedzi na słowa [[quatre-raberba-winner|Quatre'a]], że cesarz chce rozprawić się ze Spacenoidami; [[heero-yuy|Heero]] ucina rozmowę z [[duo-maxwell|Duo]], zanim zjawia się Zero, a potem myśli o obietnicy Suzaku Kururugiego.
+- [[treize-khushrenada|Treize Khushrenada]] przewodził Ziemianom w wojnie rewolucyjnej obok Leloucha; [[chang-wufei|Wufei]] odchodzi z parady, nie uznając „ani jego, ani Chara, ani Treize'a”.
+- O [[kamille-bidan|Kamille]] pyta [[amuro-ray|Amuro]], a [[bright-noa|Bright]] odpowiada, że ten wciąż się nie odezwał.
+
+## 2026-11-10 00:31
+
+- Dzieje [[lelouch-vi-britannia|Leloucha]] sprzed prologu [[srw-y|SRW Y]] — pakt z C.C. i moc Geass, bunt Czarnych Rycerzy pod maską Zero, tron Britannii i plan Zero Requiem — należą do świata [[code-geass-lelouch-of-the-re-surrection|Code Geass Lelouch of the Re;surrection]]; rok po Zero Requiem świat przebudowany wokół Zjednoczonej Federacji Narodów cieszy się pokojem.
+- Film *Re;surrection* kontynuuje kinową trylogię, którą zamyka [[code-geass-lelouch-of-the-rebellion-iii-glorification|III Glorification]].
+
 ## 2026-11-09 18:30
 
 - [[mechanization-empire|Imperium Mechanizacji]] odrodziło się: [[mechabestia|mechabestie]] w lesie Aokigahara sterują [[labor|Laborami]] i przechodzą przez nową bramę [[mucus-gate-s-mc|Mucus Gate]].

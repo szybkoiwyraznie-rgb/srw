@@ -2,6 +2,7 @@
 typ: postac
 slug: taro-shirogane
 tytul: Taro Shirogane
+pseudonim: Kinta
 rola: wsparcie
 seria: nekketsu-saikyo-go-saurer
 gry: [srw-oe]

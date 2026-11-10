@@ -22,3 +22,12 @@ Uczeń klasy 5-3 [[akademia-hinobori|Akademii Hinobori]] wspierający [[klasa-ob
 
 W [[matchless-raijin-oh|pierwowzorze]] Akira Imamura (今村 あきら) to hałaśliwy miłośnik rocka marzący o karierze gwiazdy muzycznej i rywalizujący o uwagę koleżanek z [[jin-hyuga|Jinem]]. W centrum dowodzenia [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] odpowiada za rozruch jednostek z bazy oraz obsługę uzbrojenia [[bakuryu-oh|Bakuryu-Oha]] ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-27).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Akira Imamura — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Akira%20Imamura.png)
+}}

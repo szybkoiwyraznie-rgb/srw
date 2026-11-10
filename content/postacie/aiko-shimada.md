@@ -2,6 +2,7 @@
 typ: postac
 slug: aiko-shimada
 tytul: Aiko Shimada
+pseudonim: Love
 rola: wsparcie
 seria: matchless-raijin-oh
 gry: [srw-oe]
@@ -21,4 +22,13 @@ Członkini [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] w [[akademia-hinobori|Akade
 ## Postać w oryginale
 
 W [[matchless-raijin-oh|pierwowzorze]] Aiko Shimada (島田 愛子), przezywana „Love” (ラブ) od czytania pierwszego znaku jej imienia, należy do szkolnego komitetu wychowania fizycznego, świetnie biega i gra w koszykówkę. W sali dowodzenia [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] odpowiada za czujniki Ken-Oh, analizę wroga oraz obsługę impulsu elektrycznego [[bakuryu-oh|Bakuryu-Oha]] ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-27).
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Aiko Shimada — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Aiko%20Shimada.png)
 }}

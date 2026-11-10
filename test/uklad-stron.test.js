@@ -200,8 +200,8 @@ test('encje i epizody mają ten sam układ dwukolumnowy', () => {
   const [glowna, boczna] = kolejnosc(postac, ['class="kolumna-glowna', 'class="kolumna-boczna']);
   assert.ok(glowna < boczna);
   assert.match(postac, /class="panel-boczny"/, 'metryka w prawym boksie');
-  assert.match(postac.slice(boczna), /Powiązania/);
-  assert.match(postac.slice(boczna), /Wymienione w/);
+  assert.match(postac.slice(boczna), /<h2>Powiązania<\/h2>/);
+  assert.doesNotMatch(postac, /Wymienione w/, 'relacje stoją w jednym boksie (ADR 0038)');
   assert.doesNotMatch(postac.slice(0, boczna), /<h2>Powiązania<\/h2>/, 'powiązania nie dublują się w treści');
 
   const epizod = renderEpizod('srw-oe-ep1');
