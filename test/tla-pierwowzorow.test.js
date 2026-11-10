@@ -301,3 +301,18 @@ test('piloci Daiteioh i Ganbaruger z misji 2-8 mają sprawdzone tło pierwowzoru
     for (const url of page.zrodla) assert.ok(blok[1].includes(url), `${slug}: link w treści`);
   }
 });
+
+test('serie z pochodzeniem skrypt mają opis udziału w SRW OE i tytuł japoński', () => {
+  for (const [slug, tytulJa] of [
+    ['getter-robo-armageddon', '真(チェンジ!!)ゲッターロボ 世界最後の日'],
+    ['mazinger-edition-z-the-impact', '真マジンガー 衝撃! Z編'],
+    ['nekketsu-saikyo-go-saurer', '熱血最強ゴウザウラー'],
+    ['tengen-toppa-gurren-lagann', '天元突破グレンラガン'],
+  ]) {
+    const seria = bySlug.get(slug);
+    assert.equal(seria.pochodzenie, 'skrypt', slug);
+    assert.equal(seria.tytul_ja, tytulJa, `${slug}: tytul_ja`);
+    assert.match(seria.body, /^\{\{skrypt gra=srw-oe\n/m, `${slug}: blok skrypt`);
+    assert.match(seria.body, /^\{\{zrodlo gra=wspolne\n/m, `${slug}: blok zrodlo`);
+  }
+});

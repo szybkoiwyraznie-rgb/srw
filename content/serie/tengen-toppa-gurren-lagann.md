@@ -2,6 +2,7 @@
 typ: seria
 slug: tengen-toppa-gurren-lagann
 tytul: Tengen Toppa Gurren Lagann
+tytul_ja: 天元突破グレンラガン
 rodzaj: tv
 rok: 2007
 odcinki: 27
@@ -14,6 +15,11 @@ zrodla:
 tagi: [tengen-toppa, serial-tv]
 utworzono: 2026-10-27
 ---
+{{skrypt gra=srw-oe
+
+W [[srw-oe|Super Robot Wars OE]] serię reprezentuje [[gurren-team|drużyna Gurren]] — [[simon|Simon]], [[kamina|Kamina]], [[yoko|Yoko]] oraz [[boota|Boota]] — za sterami [[gunmen|Gunmena]] [[gurren-lagann|Gurren Lagann]]. Po przebiciu skalnej ściany z innego świata w [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] załoga poznaje [[connect-force|Connect]] i drużyny [[eldran|Eldrana]], pozostając początkowo na Ziemi, a po wspólnej bitwie w lesie Aokigahara w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] odlatuje z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] na [[stacja-connect|Stację Connect]] przed dalszym pościgiem w kosmosie.
+}}
+
 {{zrodlo gra=wspolne
 
 *Tengen Toppa Gurren Lagann* (天元突破グレンラガン, w wydaniach anglojęzycznych *Gurren Lagann*) to dwudziestosiedmioodcinkowy serial telewizyjny anime studia Gainax, emitowany w sieci TV Tokyo od 1 kwietnia do 30 września 2007 roku. Za reżyserię odpowiadał Hiroyuki Imaishi, kompozycję serii przygotował dramaturg Kazuki Nakashima, a ścieżkę dźwiękową skomponował Taku Iwasaki ([Wikipedia, *Gurren Lagann*](https://en.wikipedia.org/wiki/Gurren_Lagann); sprawdzono 2026-10-27).

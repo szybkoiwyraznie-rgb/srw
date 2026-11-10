@@ -2,6 +2,7 @@
 typ: seria
 slug: mazinger-edition-z-the-impact
 tytul: "Mazinger Edition Z: The Impact!"
+tytul_ja: "真マジンガー 衝撃! Z編"
 rodzaj: tv
 rok: 2009
 odcinki: 26
@@ -13,6 +14,11 @@ zrodla:
 tagi: [mazinger, serial-tv]
 utworzono: 2026-10-27
 ---
+{{skrypt gra=srw-oe
+
+W [[srw-oe|Super Robot Wars OE]] serię reprezentują [[koji-kabuto|Koji Kabuto]] i [[mazinger-z|Mazinger Z]] z [[instytut-energii-fotonowej|Instytutu Energii Fotonowej]]; już w [[srw-oe-ep0|Epizodzie 0]] przypomniany zostaje także [[dr-hell|Dr Hell]] jako jeden z dawnych przeciwników zagrażających Ziemi. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Koji przybywa na odsiecz w podziemnej pieczarze, po czym przystępuje do współpracy z [[connect-force|Connect]] i wraca transportowcem na [[stacja-connect|Stację Connect]] razem z załogą [[shin-getter-1|Shin Gettera-1]].
+}}
+
 {{zrodlo gra=wspolne
 
 *Mazinger Edition Z: The Impact!* — emitowany w Japonii pod tytułem *Shin Mazinger Shōgeki! Z-hen* (真マジンガー 衝撃! Z編) — to dwudziestosześcioodcinkowy serial telewizyjny anime z 2009 roku wyreżyserowany i napisany przez Yasuhiro Imagawę, zrealizowany przez studia Bee Media oraz Code i nadawany na antenie TV Tokyo od 4 kwietnia do 26 września 2009 roku. Produkcja stanowi autorską reinterpretację klasycznego cyklu *Mazinger Z* Go Nagaia z 1972 roku: zachowuje głównych bohaterów i konflikt o energię fotonową, lecz wplata w fabułę motywy z mang *Z Mazinger*, *Violence Jack*, *Mao Dante* oraz innych dzieł Nagaia i Kena Ishikawy ([Wikipedia, *Mazinger Edition Z: The Impact!*](https://en.wikipedia.org/wiki/Mazinger_Edition_Z:_The_Impact!); sprawdzono 2026-10-27).

@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-10 23:58
+
+- Załoga z [[getter-robo-armageddon|*Getter Robo Armageddon*]] ([[go|Go]], [[kei|Kei]] i [[gai|Gai]] w [[shin-getter-1|Shin Getterze]]) oraz [[koji-kabuto|Koji Kabuto]] ze świata [[mazinger-edition-z-the-impact|*Mazinger Edition Z: The Impact!*]] dołączyli w [[srw-oe-ep2-grozba-pod-ziemia|podziemnej bitwie]] do [[connect-force|Connect Force]] na [[stacja-connect|Stacji Connect]].
+- Z innego świata przez skalną ścianę przebiła się [[gurren-team|drużyna Gurren]] z [[tengen-toppa-gurren-lagann|*Tengen Toppa Gurren Lagann*]], która po walce w lesie Aokigahara wyruszyła na orbitę, podczas gdy Ziemi przeciw [[mechanization-empire|Imperium Mechanizacji]] ponownie bronili [[saurersi|Saurersi]] z [[nekketsu-saikyo-go-saurer|*Nekketsu Saikyo Go-Saurer*]].
+
 ## 2026-11-10 23:57
 
 - [[taro-omomo|Taro Omomo]], [[mai-ozora|Mai Ozora]] i [[kakeru-daichi|Kakeru Daichi]] pochodzą z klasy 5-3 Szkoły Podstawowej Gokuraku, do której dołącza [[hiryu-tsukishiro|Hiryu Tsukishiro]] — kuzyn [[asuka-tsukishiro|Asuki Tsukishiro]].

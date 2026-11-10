@@ -2,6 +2,7 @@
 typ: seria
 slug: nekketsu-saikyo-go-saurer
 tytul: Nekketsu Saikyo Go-Saurer
+tytul_ja: 熱血最強ゴウザウラー
 rodzaj: tv
 rok: 1993
 odcinki: 51
@@ -14,6 +15,11 @@ zrodla:
 tagi: [eldran, serial-tv]
 utworzono: 2026-10-27
 ---
+{{skrypt gra=srw-oe
+
+W [[srw-oe|Super Robot Wars OE]] serię reprezentują uczniowie zespołu [[saurersi|Saurersów]] z maszyną [[go-saurer|Go-Saurer]] i jej superpołączeniem [[king-go-saurer|King Go-Saurer]]: [[kenichi-minezaki|Kenichi Minezaki]], [[hiromi-tachibana|Hiromi Tachibana]], [[shinobu-asaoka|Shinobu Asaoka]], [[taro-shirogane|Taro Shirogane]] oraz [[yoji-hiyama|Yoji Hiyama]], a po stronie wsparcia [[erika-kozu|Erika Kozu]], [[goro-ishida|Goro Ishida]], [[takako-kojima|Takako Kojima]], [[masao-fujiyoshi|Masao Fujiyoshi]], [[saneyasu-mushanokoji|Saneyasu Mushanokoji]], [[kumiko-tanabe|Kumiko Tanabe]], [[kazutaka-seki|Kazutaka Seki]], [[harumi-sato|Harumi Sato]], [[shuzo-osada|Shuzo Osada]], [[ikuyo-oyama|Ikuyo Oyama]] i [[yuka-mizuhara|Yuka Mizuhara]]. Po wspomnieniu [[mechanization-empire|Imperium Mechanizacji]] w [[srw-oe-ep0|Epizodzie 0]] drużyna staje do walki w [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] oraz [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasa Obrony leci w kosmos”]] przeciw [[mechabestia|mechabestiom]] w maszynach [[bolt-robo-standard|Bolt Robo/Standard]], [[bolt-robo-melee|Bolt Robo/Melee]], [[bolt-robo-long-range|Bolt Robo/Long-Range]], [[bolt-robo-anti-air|Bolt Robo/Anti-Air]] i [[gandoppler|Gandoppler]].
+}}
+
 {{zrodlo gra=wspolne
 
 *Nekketsu Saikyō Go-Saurer* (熱血最強ゴウザウラー, ang. *Matchless Passion Go-Saurer*) to pięćdziesięciojednoodcinkowy telewizyjny serial anime studia Sunrise z lat 1993–1994, wyreżyserowany przez Toshifumiego Kawase z muzyką Tomokiego Hasegawy i emitowany na antenie TV Tokyo od 3 marca 1993 do 23 lutego 1994 roku. Stanowi trzecią odsłonę szkolnego cyklu Eldrana finansowanego przez firmę Tomy — po [[matchless-raijin-oh|*Matchless Raijin-Oh*]] oraz [[genki-bakuhatsu-ganbaruger|*Genki Bakuhatsu Ganbaruger*]] — osadzoną we wspólnym świecie sąsiadujących ze sobą japońskich miast ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); sprawdzono 2026-10-27).

@@ -2,6 +2,7 @@
 typ: seria
 slug: getter-robo-armageddon
 tytul: Getter Robo Armageddon
+tytul_ja: "真(チェンジ!!)ゲッターロボ 世界最後の日"
 rodzaj: ova
 rok: 1998
 odcinki: 13
@@ -13,6 +14,11 @@ zrodla:
 tagi: [getter-robo, ova]
 utworzono: 2026-10-27
 ---
+{{skrypt gra=srw-oe
+
+W [[srw-oe|Super Robot Wars OE]] serię reprezentują piloci [[go|Go]], [[kei|Kei]] i [[gai|Gai]] w trzech konfiguracjach maszyny Shin Getter Robo: [[shin-getter-1|Shin Getterze-1]], [[shin-getter-2|Shin Getterze-2]] oraz [[shin-getter-3|Shin Getterze-3]]. W [[srw-oe-ep0|Epizodzie 0]] wymienieni zostają [[invaderzy|Invaderzy]], których jednostki [[invader-ground|Invader/Ground]] kierowane zbiorczym instynktem [[invader|Invaderów]] pojawiają się w [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]]; po walce zespół Gettera dołącza do [[connect-force|Connect]] i odlatuje na [[stacja-connect|Stację Connect]] razem z [[koji-kabuto|Kojim Kabuto]].
+}}
+
 {{zrodlo gra=wspolne
 
 *Getter Robo Armageddon* — wydane w Japonii pod pełnym tytułem *Change!! Getter Robo: Sekai Saigo no Hi* (真(チェンジ!!)ゲッターロボ 世界最後の日, dosł. „Ostatni dzień świata”) — to trzynastoodcinkowa seria OVA z lat 1998–1999 wyprodukowana przez studio Brain's Base we współpracy z Dynamic Planning i Bandai Visual na podstawie cyklu *Getter Robo* stworzonego przez Go Nagaia i Kena Ishikawę. Pierwsze trzy odcinki wyreżyserował Yasuhiro Imagawa, a od czwartego reżyserię przejął Jun Kawagoe ([Wikipedia, *Getter Robo Armageddon*](https://en.wikipedia.org/wiki/Getter_Robo_Armageddon); sprawdzono 2026-10-27).
