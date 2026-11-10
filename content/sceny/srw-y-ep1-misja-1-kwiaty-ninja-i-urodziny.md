@@ -5,7 +5,7 @@ tytul: "Kwiaty, ninja i urodziny"
 epizod: srw-y-ep1
 numer_sceny: 1-1C
 streszczenie: Prolog i pierwsza scena gry łączą paradę kończącą wojnę rewolucyjną, atak VAL-X na miasto Yagami, start A. Adventu, ujawnienie NINJA oraz pierwsze wyjaśnienie Systemu Nira-Kana-I.
-postacie: [agent, annina-servania, baku-yamagishi, echika-y-franburnett, forte-tsukinowa, gauma, zaawansowana-si, cross-tsukinowa, mobile-doll, takuma-nagare, chang-wufei, yomogi-asanaka, zero, aytie, cookie, wren, heero-yuy, duo-maxwell, quatre-raberba-winner, trowa-barton, nunnally-vi-britannia, tetsuya-tsurugi, chizuru-nambara, hyoma-aoi]
+postacie: [agent, annina-servania, baku-yamagishi, echika-y-franburnett, forte-tsukinowa, gauma, zaawansowana-si, cross-tsukinowa, mobile-doll, takuma-nagare, chang-wufei, yomogi-asanaka, zero, aytie, cookie, wren, heero-yuy, duo-maxwell, quatre-raberba-winner, trowa-barton, nunnally-vi-britannia, tetsuya-tsurugi, chizuru-nambara, hyoma-aoi, koji-kabuto, amuro-ray, bright-noa]
 mechy: [altron-gundam, amx-003-gaza-c, a-advent, lunedrache, lancelot-albion-zero, lumenus, taurus, zamza-zah]
 pojecia: [wojna-rewolucyjna, nowa-federacja-ziemska, val-x, logos, czarni-rycerze, ninja, statek-emigracyjny, nira-kana-i, pamiec-stg, teoria-y, miasto-yagami, mechaniczne-marionetki, kamille-bidan, haman-karn, gilbert-dullindal, milliardo-peacecraft, treize-khushrenada, lelouch-vi-britannia, chikara-jinguji, akira-hibiki, barao, imperium-yoma]
 sekcje_analizy:

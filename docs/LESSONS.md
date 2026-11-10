@@ -126,3 +126,19 @@ Drugi rodzaj zakazu dotyczy pojedynczych słów. `test/epizod-2-misja-3.test.js`
 nazwy „Black Wing” ani losów Alana na stronach obsady treningu, bo gra prowadzi tę obsadę
 inaczej niż serial. Zanim dopiszesz tło postaci z dodatkowej serii, przeszukaj `test/`
 po slugu strony — zakaz bywa zapisany w teście konkretnej misji, nie w ADR.
+
+## L15 — Lista wpisana w test to stan z dnia napisania, nie reguła (2026-11-10)
+
+`test/srw-y.test.js` porównywał `postacie` epizodu SRW Y z listą wpisaną na sztywno, a Kojiego,
+Amuro i Brighta — mówców prologu — rozliczał osobną gałęzią „kameo z innych gier”, której
+wystarczał odsyłacz w analizie sceny. Gałąź pochodziła z wcześniejszego modelu (obsada = rekordy
+uczestników misji) i przetrwała adnotację do ADR 0013, według której mówca w skrypcie jest
+postacią. Trzy osoby prowadzące dialog nie były więc w obsadzie epizodu, a agent zgłosił to jako
+„propozycję wymagającą zmiany testu”, zamiast naprawić. Właściciel: „jeśli zabrania, to znaczy,
+że test jest błędny i trzeba go zmienić”.
+
+Zasada: gdy test stoi w sprzeczności z ADR albo z dostawą, usterką jest test. Poprawiamy go
+razem z treścią, w tym samym commicie — to naprawa bazy, nie zmiana wymagająca osobnej zgody.
+Zanim rozbieżność trafi do „propozycji”, sprawdź, skąd wzięła się asercja (`git log -S`):
+lista przepisana z ówczesnego stanu bazy niczego nie rozstrzyga. Tam, gdzie się da, test
+powinien wyprowadzać oczekiwanie z dostawy (tu: mówcy ze skryptu), a nie z listy w kodzie.
