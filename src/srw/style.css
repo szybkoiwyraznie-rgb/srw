@@ -168,6 +168,8 @@ p { margin: .8em 0; }
 }
 /* Odstępy ustala kolumna — bloki nie dokładają własnych marginesów. */
 .kolumna-glowna > * { margin-block: 0; }
+.kolumna-glowna > .blok-powiazan,
+.kolumna-glowna > .fragment { margin-block: 0; }
 .kolumna-boczna {
   min-width: 0; display: flex; flex-direction: column; gap: 16px;
   font-size: .92rem;
@@ -200,6 +202,8 @@ p { margin: .8em 0; }
 .infoboks-lista dd { margin: 0; }
 
 .tresc-encja li, .tresc-dluga li { margin: .3em 0; }
+.tresc-encja .lista-horyzontalna li,
+.lista-horyzontalna li { margin: 0; }
 
 /* ── Zakres gry we fragmencie (ADR 0020) ───────────────────────── */
 
@@ -339,14 +343,17 @@ blockquote {
 
 /* ── Powiązania ────────────────────────────────────────────────── */
 
-.blok-powiazan { margin: 30px 0; border-top: 1px solid var(--ramka); padding-top: 6px; }
+.blok-powiazan { margin: 24px 0; border-top: 1px solid var(--ramka); padding-top: 14px; }
+.blok-powiazan h2 { margin: 0 0 .5em; }
 .grupa-powiazan { margin: 12px 0; }
+.blok-powiazan .grupa-powiazan:first-of-type { margin-top: 0; }
+.blok-powiazan .grupa-powiazan:last-child { margin-bottom: 0; }
 .licznik { color: var(--tusz-3); font-weight: 400; font-size: .8rem; }
 .blok-braki { border-top-style: dashed; }
 /* Sceny i epizody w „Powiązaniach”: jedna pozycja w wierszu, numer przed tytułem. */
 .lista-fabuly { list-style: none; padding: 0; margin: 0; display: grid; gap: 5px; }
 .lista-fabuly .mono { color: var(--tusz-3); font-size: .86em; margin-right: 2px; }
-.gra-fabuly { margin: 10px 0 4px; font-size: .8rem; color: var(--tusz-3); }
+.gra-fabuly { margin: 10px 0 4px; font-size: .8rem; font-weight: 600; color: var(--tusz-2); }
 .grupa-powiazan h3 + .gra-fabuly { margin-top: 0; }
 /* Długi boks pokazuje 50 pozycji; reszta jest w HTML-u i czeka na „Rozwiń” (ADR 0039). */
 .blok-powiazan[data-zwiniety] .ponad-limit { display: none; }

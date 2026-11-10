@@ -23,7 +23,7 @@ Podpilot [[ganbaruger|Ganbarugera]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|s
 
 ## Postać w oryginale
 
-W [[genki-bakuhatsu-ganbaruger|pierwowzorze]] Rikiya Ryuzaki (流崎 力哉) jest dziewięcioletnim przewodniczącym klasy 4-1 Szkoły Podstawowej Aozora, synem właścicieli baru z ramenem i zapalonym baseballistą. Jako Red Ganbar nosi kombinezon zwiększający siłę fizyczną, pilotuje King Elephanta oraz Revolgera i współtworzy załogę [[ganbaruger|Ganbarugera]] ([SRW Wiki, „流崎力哉”](https://srw.wiki.cre.jp/wiki/%E6%B5%81%E5%B4%8E%E5%8A%9B%E5%93%89); [Wikipedia, *Genki Bakuhatsu Ganbaruger*](https://en.wikipedia.org/wiki/Genki_Bakuhatsu_Ganbaruger); sprawdzono 2026-11-10).
+W [[genki-bakuhatsu-ganbaruger|pierwowzorze]] Rikiya Ryuzaki (流崎 力哉) jest dziewięcioletnim przewodniczącym klasy 4-1 Szkoły Podstawowej Aozora, synem właścicieli baru z ramenem i zapalonym baseballistą. Jako Red Ganbar nosi kombinezon zwiększający siłę fizyczną, pilotuje King Elephanta oraz Revolgera powierzonych przez [[eldran|Eldrana]] przeciw [[daimakai|Daimakai]] i współtworzy załogę [[ganbaruger|Ganbarugera]] ([SRW Wiki, „流崎力哉”](https://srw.wiki.cre.jp/wiki/%E6%B5%81%E5%B4%8E%E5%8A%9B%E5%93%89); [Wikipedia, *Genki Bakuhatsu Ganbaruger*](https://en.wikipedia.org/wiki/Genki_Bakuhatsu_Ganbaruger); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-oe

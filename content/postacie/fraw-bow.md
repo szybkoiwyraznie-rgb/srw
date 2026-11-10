@@ -23,7 +23,7 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatniej misji epizodu]] odczytuje na mo
 
 {{zrodlo gra=wspolne
 
-Fraw Bow jest postacią serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
+Fraw Bow jest postacią serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, osadzonego w [[uc-0079|U.C. 0079]], należącą do załogi [[earth-federation|Federacji]] na [[white-base|White Base]] ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
 }}
 
 {{menu gra=srw-oe

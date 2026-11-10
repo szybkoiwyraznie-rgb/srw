@@ -26,9 +26,9 @@ Wyprowadza do walki własny oddział: [[acous|Acousa]] i [[cozun-graham|Cozuna]]
 
 ## Pierwowzór
 
-Ramba Ral to as Księstwa Zeonu z serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]]: weteran bitwy o [[loum|Loum]], gdzie niebieski Zaku przyniósł mu przydomek Błękitnego Olbrzyma, mistrz wojny partyzanckiej i dowódca doborowego oddziału pościgowego ([Gundam Wiki, „Ramba Ral”](https://gundam.fandom.com/wiki/Ramba_Ral); sprawdzono 2026-11-07).
+Ramba Ral to as Księstwa [[zeon|Zeonu]] z serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]]: weteran bitwy o [[loum|Loum]], gdzie niebieski Zaku przyniósł mu przydomek Błękitnego Olbrzyma, mistrz wojny partyzanckiej i dowódca doborowego oddziału pościgowego ([Gundam Wiki, „Ramba Ral”](https://gundam.fandom.com/wiki/Ramba_Ral); sprawdzono 2026-11-07).
 
-Po śmierci Garmy Zabiego zostaje wysłany na Ziemię na pokładzie krążownika typu [[zanzibar|Zanzibar]], dostaje prototypowy [[gouf-ramba-ral|Gouf]] i wraz z towarzyszką [[crowley-hamon|Hamon]] oraz podwładnymi [[acous|Acousem]] i [[cozun-graham|Cozunem]] nęka [[white-base|White Base]] w Azji Środkowej; ginie 5 listopada UC 0079 ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-11-07). Gra przenosi go pod [[jaburo|Jaburo]] i czyni świadkiem finału [[ginias-sahalin|Giniasa]] — zakończenia, którego w serialu nie ma.
+Po śmierci Garmy Zabiego zostaje wysłany na Ziemię na pokładzie krążownika typu [[zanzibar|Zanzibar]], dostaje prototypowy [[gouf-ramba-ral|Gouf]] i wraz z towarzyszką [[crowley-hamon|Hamon]] oraz podwładnymi [[acous|Acousem]] i [[cozun-graham|Cozunem]] nęka [[white-base|White Base]] w Azji Środkowej; ginie 5 listopada [[uc-0079|UC 0079]] ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-11-07). Gra przenosi go pod [[jaburo|Jaburo]] i czyni świadkiem finału [[ginias-sahalin|Giniasa]] — zakończenia, którego w serialu nie ma.
 }}
 
 {{menu gra=srw-oe

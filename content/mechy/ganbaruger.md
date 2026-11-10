@@ -24,7 +24,7 @@ Robot [[genki-bakuhatsu-ganbaruger|drużyny Ganbaruger]] pilotowany przez [[kota
 
 ## Pierwowzór
 
-W [[genki-bakuhatsu-ganbaruger|pierwowzorze]] Ganbaruger (ガンバルガー, 28,4 m wysokości, 65,7 t masy, moc 380 000 KM) jest głównym super robotem drużyny Ganba ze Szkoły Podstawowej Aozora. Powstaje w „Cudownym Połączeniu” (*Miracle Gattai*) trzech maszyn przyzywanych kartami: tygrysiego Go Tigera ([[kotaro-kirigakure|Kotaro]]), orlego Mach Eagle’a ([[yosuke-kazamatsuri|Yosuke]]) oraz słoniowego King Elephanta ([[rikiya-ryuzaki|Rikiya]]), a po zwycięskiej bitwie rozprasza się w cząsteczkach światła, przywracając uszkodzenia w mieście ([SRW Wiki, „ガンバルガー”](https://srw.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%90%E3%83%AB%E3%82%AC%E3%83%BC); [Wikipedia, *Genki Bakuhatsu Ganbaruger*](https://en.wikipedia.org/wiki/Genki_Bakuhatsu_Ganbaruger); sprawdzono 2026-11-10).
+W [[genki-bakuhatsu-ganbaruger|pierwowzorze]] Ganbaruger (ガンバルガー, 28,4 m wysokości, 65,7 t masy, moc 380 000 KM) jest głównym super robotem powierzonym przez [[eldran|Eldrana]] drużynie Ganba ze Szkoły Podstawowej Aozora do walki z bestiami [[daimakai|Daimakai]]. Powstaje w „Cudownym Połączeniu” (*Miracle Gattai*) trzech maszyn przyzywanych kartami: tygrysiego Go Tigera ([[kotaro-kirigakure|Kotaro]]), orlego Mach Eagle’a ([[yosuke-kazamatsuri|Yosuke]]) oraz słoniowego King Elephanta ([[rikiya-ryuzaki|Rikiya]]), a po zwycięskiej bitwie rozprasza się w cząsteczkach światła, przywracając uszkodzenia w mieście ([SRW Wiki, „ガンバルガー”](https://srw.wiki.cre.jp/wiki/%E3%82%AC%E3%83%B3%E3%83%90%E3%83%AB%E3%82%AC%E3%83%BC); [Wikipedia, *Genki Bakuhatsu Ganbaruger*](https://en.wikipedia.org/wiki/Genki_Bakuhatsu_Ganbaruger); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-oe

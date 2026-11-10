@@ -15,7 +15,7 @@ utworzono: 2026-11-09
 
 {{skrypt gra=srw-oe
 
-Podpilot [[daiteioh|Daiteioha]] z [[kanzen-shouri-daiteioh|drużyny Daiteioh]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] studzi zapał [[taro-omomo|Momotaro]], przypominając, że bez rozpoznania sił wroga i planu wygrana nie przyjdzie łatwo; po bitwie przyjmuje nazwę Gurren Team, a w naradzie kosmicznej opowiada się za podziałem sił między kosmos i Ziemię dla wymiany danych.
+Podpilot [[daiteioh|Daiteioha]] z [[kanzen-shouri-daiteioh|drużyny Daiteioh]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] studzi zapał [[taro-omomo|Momotaro]], przypominając, że bez rozpoznania sił wroga i planu wygrana nie przyjdzie łatwo; po bitwie przyjmuje nazwę [[gurren-team|Gurren Team]], a w naradzie kosmicznej opowiada się za podziałem sił między kosmos i Ziemię dla wymiany danych.
 }}
 
 {{zrodlo gra=wspolne

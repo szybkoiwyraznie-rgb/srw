@@ -14,7 +14,7 @@ utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe
 
-Operator wozu dowodzenia Drugiego Plutonu [[sv2|SV2]]. Prowadzi łączność plutonu z centralą i koordynuje ćwiczenia na poligonie Fuji.
+Operator wozu dowodzenia Drugiego Plutonu [[sv2|SV2]]. Prowadzi łączność plutonu z centralą i koordynuje ćwiczenia na [[poligon-fuji|poligonie Fuji]].
 
 Kiedy cele ćwiczebne zaczynają strzelać ostrą amunicją, jako pierwszy rozpoznaje, że [[hal-x10|HAL-X10]] wymknęły się spod kontroli. Po ćwiczeniach pomaga [[noa-izumi|Noie]] uporać się z papierkową robotą.
 

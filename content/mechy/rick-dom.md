@@ -25,7 +25,7 @@ W tej misji Rick Domy trzymają się blisko krążowników i atakują falami, li
 
 ## Pierwowzór
 
-MS-09R Rick Dom powstał w firmie Zimmad jako kosmiczny wariant naziemnego Doma i jeden z kandydatów na następcę Zaku II w drugiej połowie Wojny Jednorocznej. Wersja R straciła wyposażenie lądowe: zwiększono zapas paliwa i ciąg wernierów, a silniki odrzutowe w stopach zastąpiono rakietowymi. Zachowała uzbrojenie Doma — Heat Saber i 360-milimetrową wielką bazookę — oraz charakterystyczne osłony „spódniczki”, chroniące dysze od tyłu, za które piloci Federacji przezywali ją „spódniczką” ([Gundam Wiki, „MS-09R Rick Dom”](https://gundam.fandom.com/wiki/MS-09R_Rick_Dom); sprawdzono 2026-11-07).
+MS-09R Rick Dom powstał w firmie Zimmad jako kosmiczny [[mobile-suit|mobile suit]] [[zeon|Zeonu]] — wariant naziemnego Doma i jeden z kandydatów na następcę Zaku II w drugiej połowie Wojny Jednorocznej ([[uc-0079|U.C. 0079]]). Wersja R straciła wyposażenie lądowe: zwiększono zapas paliwa i ciąg wernierów, a silniki odrzutowe w stopach zastąpiono rakietowymi. Zachowała uzbrojenie Doma — Heat Saber i 360-milimetrową wielką bazookę — oraz charakterystyczne osłony „spódniczki”, chroniące dysze od tyłu, za które piloci Federacji przezywali ją „spódniczką” ([Gundam Wiki, „MS-09R Rick Dom”](https://gundam.fandom.com/wiki/MS-09R_Rick_Dom); sprawdzono 2026-11-07).
 }}
 
 {{menu gra=srw-oe

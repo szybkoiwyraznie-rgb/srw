@@ -16,7 +16,7 @@ utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe
 
-Konfiguracja Kampfera pilotowana przez [[andy-strauss|Andy’ego Straussa]] podczas szturmu [[pluton-cyclops|plutonu Cyclops]] na bazę Federacji. Andy wykrywa ciepło mobile suitów obrońców, a potem dostrzega wahadłowiec i kontener. Mimo ostrzeżenia [[hardy-steiner|Steinera]] rusza naprzód; po trafieniu silników melduje odwrót.
+Konfiguracja Kampfera pilotowana przez [[andy-strauss|Andy’ego Straussa]] podczas szturmu [[pluton-cyclops|plutonu Cyclops]] na bazę [[earth-federation|Federacji]]. Andy wykrywa ciepło [[mobile-suit|mobile suitów]] obrońców, a potem dostrzega wahadłowiec i kontener. Mimo ostrzeżenia [[hardy-steiner|Steinera]] rusza naprzód; po trafieniu silników melduje odwrót.
 
 Strzelba przebija się przez wrogów w zasięgu i pozwala ruszyć dalej, a wielka bazooka wyróżnia tę konfigurację.
 
@@ -27,7 +27,7 @@ Strzelba przebija się przez wrogów w zasięgu i pozwala ruszyć dalej, a wielk
 
 {{zrodlo gra=wspolne
 
-W pierwowzorze Kampfer powstał u schyłku wojny jako maszyna szturmowa: konstruktorzy [[zeon|Zeonu]] poświęcili opancerzenie na rzecz silników, więc jednostka biegnie 215 km/h i obraca się o 180 stopni w 1,2 sekundy. Pomysł na walkę jest prosty — podejść szybko, wystrzelać wielkie bazooki, strzelby i panzerfausty, po czym natychmiast się wycofać, bo paliwa starcza na krótko. Seryjnej produkcji nigdy nie uruchomiono ([MAHQ, „MS-18E Kämpfer”](https://www.mahq.net/ms-18e/); sprawdzono 2026-10-24).
+W pierwowzorze z [[uc-0079|U.C. 0079]] Kampfer powstał u schyłku wojny jako maszyna szturmowa: konstruktorzy [[zeon|Zeonu]] poświęcili opancerzenie na rzecz silników, więc jednostka biegnie 215 km/h i obraca się o 180 stopni w 1,2 sekundy. Pomysł na walkę jest prosty — podejść szybko, wystrzelać wielkie bazooki, strzelby i panzerfausty, po czym natychmiast się wycofać, bo paliwa starcza na krótko. Seryjnej produkcji nigdy nie uruchomiono ([MAHQ, „MS-18E Kämpfer”](https://www.mahq.net/ms-18e/); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe

@@ -27,7 +27,7 @@ Względem [[kampfer-bazooka|konfiguracji z bazooką]] strzelba ma wyższe trafie
 
 {{zrodlo gra=wspolne
 
-W pierwowzorze cała konstrukcja Kampfera służy szybkości: osiem silników głównych o łącznym ciągu 159 ton i szesnaście sterów strumieniowych kosztem opancerzenia dają 215 km/h w biegu i zwrot o 180 stopni w 1,2 sekundy. Za tę zwrotność płaci się czasem — zbiorniki pustoszeją szybko, więc maszyna nadaje się do krótkich uderzeń, a nie do długiej walki. [[zeon|Zeon]] nie zdążył uruchomić jej seryjnej produkcji ([MAHQ, „MS-18E Kämpfer”](https://www.mahq.net/ms-18e/); sprawdzono 2026-10-24).
+W pierwowzorze z [[uc-0079|U.C. 0079]] cała konstrukcja [[mobile-suit|mobile suita]] Kampfer służy szybkości: osiem silników głównych o łącznym ciągu 159 ton i szesnaście sterów strumieniowych kosztem opancerzenia dają 215 km/h w biegu i zwrot o 180 stopni w 1,2 sekundy. Za tę zwrotność płaci się czasem — zbiorniki pustoszeją szybko, więc maszyna nadaje się do krótkich uderzeń, a nie do długiej walki. [[zeon|Zeon]] nie zdążył uruchomić jej seryjnej produkcji ([MAHQ, „MS-18E Kämpfer”](https://www.mahq.net/ms-18e/); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe

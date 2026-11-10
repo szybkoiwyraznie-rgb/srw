@@ -12,7 +12,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Chizuru Nambara przypomina w rozmowie podczas parady, że Imperium Yoma nie zostało pokonane, a cesarz Barao nadal pozostaje zagrożeniem.
+Chizuru Nambara przypomina w rozmowie podczas parady, że [[imperium-yoma|Imperium Yoma]] nie zostało pokonane, a cesarz [[barao|Barao]] nadal pozostaje zagrożeniem.
 }}
 
 {{zrodlo gra=wspolne

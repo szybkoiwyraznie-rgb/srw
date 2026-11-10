@@ -12,7 +12,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Duo Maxwell uczestniczy w rozmowie podczas parady cesarza Leloucha. Żałuje, że nie udało się go powstrzymać, i próbuje przemówić do Heero.
+Duo Maxwell uczestniczy w rozmowie podczas parady cesarza [[lelouch-vi-britannia|Leloucha]]. Żałuje, że nie udało się go powstrzymać, i próbuje przemówić do Heero.
 }}
 
 {{zrodlo gra=wspolne

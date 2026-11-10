@@ -17,7 +17,7 @@ utworzono: 2026-11-01
 
 Członkini [[cyber-beast-force|Cyber Beast Force]] i podpilotka [[final-dancouga|Final Dancougi]]. Przy pierwszym [[srw-oe-ep2-ryk-dziczy|spotkaniu z Drugim Plutonem]] odpłaca Ocie uwagą o reputacji policjantów: niszczeniu mienia i niesubordynacji. Jednocześnie studzi zapędy [[shinobu-fujiwara|Shinobu]], gdy jego kłótnie opóźniają rozpoczęcie zajęć.
 
-W ćwiczeniach dostrzega sens podziału ról z Laborami. Po pokazie mocy tłumaczy, że tak silnej techniki nie można używać często, a po zakończeniu treningu dziękuje policjantom za uzupełnianie niedostatków własnego zespołu. Zapowiada, że cieszy ją perspektywa oficjalnego dołączenia do [[connect-force|Connect Force]].
+W ćwiczeniach dostrzega sens podziału ról z [[labor|Laborami]]. Po pokazie mocy tłumaczy, że tak silnej techniki nie można używać często, a po zakończeniu treningu dziękuje policjantom za uzupełnianie niedostatków własnego zespołu. Zapowiada, że cieszy ją perspektywa oficjalnego dołączenia do [[connect-force|Connect Force]].
 }}
 
 {{zrodlo gra=wspolne

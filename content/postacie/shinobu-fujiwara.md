@@ -17,7 +17,7 @@ utworzono: 2026-11-01
 
 Główny pilot [[final-dancouga|Final Dancougi]] z [[cyber-beast-force|Cyber Beast Force]]. Podczas [[srw-oe-ep2-ryk-dziczy|wspólnych ćwiczeń]] ściera się słownie z [[isao-ota|Otą]], a następnie prowokuje [[seishiro|Seishira]], by walczył z prawdziwym zapałem zamiast zasłaniać się ograniczeniami maszyny. Wspólnie z załogą demonstruje moc wykraczającą poza teoretyczne wartości Dancougi.
 
-Po treningu chwali Drugi Pluton za walkę. Seishirowi podsuwa myśl, że najwięcej siły daje połączenie spokoju i zapału. Wracając z oddziałem do bazy na regulację Dancougi, liczy na ponowne spotkanie z silniejszym już Seishirem.
+Po treningu chwali [[sv2|Drugi Pluton]] za walkę. Seishirowi podsuwa myśl, że najwięcej siły daje połączenie spokoju i zapału. Wracając z oddziałem do bazy na regulację Dancougi, liczy na ponowne spotkanie z silniejszym już Seishirem.
 }}
 
 {{zrodlo gra=wspolne

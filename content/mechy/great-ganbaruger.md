@@ -24,7 +24,7 @@ Połączona forma [[ganbaruger|Ganbarugera]]. Walczy Ganba Bolt z ogłuszeniem, 
 
 ## Pierwowzór
 
-W [[genki-bakuhatsu-ganbaruger|pierwowzorze]] Great Ganbaruger (グレートガンバルガー, 43,8 m wysokości, 168,5 t masy, moc 1 600 000 KM) debiutuje w dwudziestym trzecim odcinku serialu jako „Super Cudowne Połączenie” (*Chō Miracle Gattai*) [[ganbaruger|Ganbarugera]] z robotami wsparcia Revolgerem ([[rikiya-ryuzaki|Rikiya]]) i Gekiryugerem ([[yosuke-kazamatsuri|Yosuke]]). Program ukrytej transformacji wymagał od [[kotaro-kirigakure|Kotaro]] ułożenia przestrzennej układanki z hasłem ([SRW Wiki, „グレートガンバルガー”](https://srw.wiki.cre.jp/wiki/%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%88%E3%82%AC%E3%83%B3%E3%83%90%E3%83%AB%E3%82%AC%E3%83%BC); [Wikipedia, *Genki Bakuhatsu Ganbaruger*](https://en.wikipedia.org/wiki/Genki_Bakuhatsu_Ganbaruger); sprawdzono 2026-11-10).
+W [[genki-bakuhatsu-ganbaruger|pierwowzorze]] Great Ganbaruger (グレートガンバルガー, 43,8 m wysokości, 168,5 t masy, moc 1 600 000 KM) debiutuje w dwudziestym trzecim odcinku serialu przeciw siłom [[daimakai|Daimakai]] jako „Super Cudowne Połączenie” (*Chō Miracle Gattai*) powierzonego przez [[eldran|Eldrana]] [[ganbaruger|Ganbarugera]] z robotami wsparcia Revolgerem ([[rikiya-ryuzaki|Rikiya]]) i Gekiryugerem ([[yosuke-kazamatsuri|Yosuke]]). Program ukrytej transformacji wymagał od [[kotaro-kirigakure|Kotaro]] ułożenia przestrzennej układanki z hasłem ([SRW Wiki, „グレートガンバルガー”](https://srw.wiki.cre.jp/wiki/%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%88%E3%82%AC%E3%83%B3%E3%83%90%E3%83%AB%E3%82%AC%E3%83%BC); [Wikipedia, *Genki Bakuhatsu Ganbaruger*](https://en.wikipedia.org/wiki/Genki_Bakuhatsu_Ganbaruger); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-oe

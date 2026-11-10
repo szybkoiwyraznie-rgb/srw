@@ -16,7 +16,7 @@ utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe
 
-Mobile suit używany przez dwóch członków [[pluton-cyclops|plutonu Cyclops]]: [[gabriel-ramirez-garcia|Gabriela Ramireza Garcię]] i dowódcę [[hardy-steiner|Hardy’ego Steinera]]. Steiner z Garcią niszczy wieżę obserwacyjną, a następnie dowódca osłania natarcie i zarządza odwrót, gdy dalsze przebijanie się siłą nie przynosi rezultatu.
+[[mobile-suit|Mobile suit]] używany przez dwóch członków [[pluton-cyclops|plutonu Cyclops]]: [[gabriel-ramirez-garcia|Gabriela Ramireza Garcię]] i dowódcę [[hardy-steiner|Hardy’ego Steinera]]. Steiner z Garcią niszczy wieżę obserwacyjną, a następnie dowódca osłania natarcie i zarządza odwrót, gdy dalsze przebijanie się siłą nie przynosi rezultatu.
 
 Zaku II Kai blokuje ciosy tarczą. Heat Hawk korzysta z Gardy, a Sturm Faust otrzymuje premię przeciw okrętom.
 
@@ -29,7 +29,7 @@ Zaku II Kai blokuje ciosy tarczą. Heat Hawk korzysta z Gardy, a Sturm Faust otr
 
 {{zrodlo gra=wspolne
 
-W pierwowzorze Zaku II Kai to wersja MS-06FZ, owoc późnowojennego programu [[zeon|Zeonu]] (United Maintenance Plan), w którym ujednolicano podzespoły starszych konstrukcji. Względem typu F maszyna dostała lepszy kokpit i znacznie mocniejsze silniki, co dało wyraźny skok prędkości i zwrotności, ale paliwo zużywa dwa razy szybciej, więc czas pracy spadł o połowę. Do służby weszła tak późno, że powstało jej niewiele ([MAHQ, „MS-06FZ Zaku II FZ”](https://www.mahq.net/ms-06fz/); sprawdzono 2026-10-24).
+W pierwowzorze Zaku II Kai to wersja MS-06FZ, owoc późnowojennego programu [[zeon|Zeonu]] z [[uc-0079|U.C. 0079]] (United Maintenance Plan), w którym ujednolicano podzespoły starszych konstrukcji. Względem typu F maszyna dostała lepszy kokpit i znacznie mocniejsze silniki, co dało wyraźny skok prędkości i zwrotności, ale paliwo zużywa dwa razy szybciej, więc czas pracy spadł o połowę. Do służby weszła tak późno, że powstało jej niewiele ([MAHQ, „MS-06FZ Zaku II FZ”](https://www.mahq.net/ms-06fz/); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe

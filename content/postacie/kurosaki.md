@@ -25,7 +25,7 @@ Po teście [[griffon|Griffona]] w [[shaft-enterprises|Shaft Enterprises]] ostrze
 
 W [[mobile-police-patlabor|pierwowzorze]] Kurosaki jest prawą ręką Utsumiego i ma poważniejsze usposobienie niż on ([Wikipedia, „List of Patlabor characters”](https://en.wikipedia.org/wiki/List_of_Patlabor_characters); sprawdzono 2026-10-24).
 
-Cudzy szyld to jego stały sposób działania. W dwudziestym odcinku serialu pojawia się incognito jako negocjator firmy ochroniarskiej [[hss|HSS]] i właśnie to zlecenie daje mu alibi na czas prób kolejnej wersji czarnego Labora; w grze przedstawia się [[kiichi-goto|Gotowi]] jako doradca działu Laborów tej samej firmy ([Wikipedia, „List of Patlabor episodes”](https://en.wikipedia.org/wiki/List_of_Patlabor_episodes); sprawdzono 2026-11-07).
+Cudzy szyld to jego stały sposób działania. W dwudziestym odcinku serialu pojawia się incognito jako negocjator firmy ochroniarskiej [[hss|HSS]] i właśnie to zlecenie daje mu alibi na czas prób kolejnej wersji czarnego [[labor|Labora]]; w grze przedstawia się [[kiichi-goto|Gotowi]] jako doradca działu Laborów tej samej firmy ([Wikipedia, „List of Patlabor episodes”](https://en.wikipedia.org/wiki/List_of_Patlabor_episodes); sprawdzono 2026-11-07).
 }}
 
 {{menu gra=srw-oe

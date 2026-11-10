@@ -24,7 +24,7 @@ Gdy przewaga obrońców staje się oczywista, melduje, że dłużej nie wytrzyma
 
 ## Pierwowzór
 
-Acous jest jednym z dwóch skrzydłowych [[ramba-ral|Ramby Rala]] w serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]]; w drugim ataku na [[white-base|White Base]] zostaje zabity, a jego miejsce w szyku zajmuje [[cozun-graham|Cozun]] ([Gundam Wiki, „Ramba Ral”](https://gundam.fandom.com/wiki/Ramba_Ral); sprawdzono 2026-11-07).
+Acous jest jednym z dwóch skrzydłowych [[ramba-ral|Ramby Rala]] z oddziału [[zeon|Zeonu]] w serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] ([[uc-0079|U.C. 0079]]); w drugim ataku na [[white-base|White Base]] zostaje zabity, a jego miejsce w szyku zajmuje [[cozun-graham|Cozun]] ([Gundam Wiki, „Ramba Ral”](https://gundam.fandom.com/wiki/Ramba_Ral); sprawdzono 2026-11-07).
 
 Angielskie opracowania podają też zapis imienia jako „Akos” ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-11-07). Gra przenosi go pod [[jaburo|Jaburo]] i pozwala mu przeżyć bitwę — w oryginale ginie wcześniej.
 }}

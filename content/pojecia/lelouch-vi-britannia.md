@@ -16,5 +16,5 @@ Cesarz Świętego Imperium Britannii, który po obaleniu [[logos|Logosu]] i upad
 
 {{zrodlo gra=wspolne
 
-Oficjalne streszczenie *Code Geass* w serwisie Super Robot Wars Y przedstawia Leloucha vi Britannia jako geniusza, który jako Zero zakłada Czarnych Rycerzy, potem obejmuje tron cesarski a na paradzie życie odbiera mu Zero w planie Zero Requiem ([34.suparobo.jp, „Character”](https://34.suparobo.jp/character/chara16/); sprawdzono 2026-11-09).
+Oficjalne streszczenie *Code Geass* w serwisie Super Robot Wars Y przedstawia Leloucha vi Britannia jako geniusza, który jako [[zero|Zero]] zakłada [[czarni-rycerze|Czarnych Rycerzy]], potem obejmuje tron cesarski a na paradzie życie odbiera mu Zero w planie Zero Requiem ([34.suparobo.jp, „Character”](https://34.suparobo.jp/character/chara16/); sprawdzono 2026-11-09).
 }}

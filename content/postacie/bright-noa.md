@@ -27,12 +27,12 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu przed spotkaniem z Connect]] nie
 
 {{skrypt gra=srw-y
 
-W prologu [[srw-y|SRW Y]] ogląda paradę cesarza Leloucha razem z [[amuro-ray|Amuro]]: gdy cesarz wypowiada wojnę do ostatniego tchu, zastanawia się, co wtedy zrobią oni — a na pytanie Amuro o [[kamille-bidan|Kamille]] odpowiada, że ten wciąż się nie odezwał.
+W prologu [[srw-y|SRW Y]] ogląda paradę cesarza [[lelouch-vi-britannia|Leloucha]] razem z [[amuro-ray|Amuro]]: gdy cesarz wypowiada wojnę do ostatniego tchu, zastanawia się, co wtedy zrobią oni — a na pytanie Amuro o [[kamille-bidan|Kamille]] odpowiada, że ten wciąż się nie odezwał.
 }}
 
 {{zrodlo gra=wspolne
 
-Bright Noa jest oficerem Federacji Ziemskiej na pokładzie White Base w [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-10-20).
+Bright Noa jest oficerem [[earth-federation|Federacji Ziemskiej]] na pokładzie [[white-base|White Base]] w [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-10-20).
 }}
 
 {{menu gra=srw-oe

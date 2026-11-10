@@ -16,16 +16,16 @@ utworzono: 2026-10-23
 ---
 {{menu gra=srw-oe
 
-Wóz wsparcia [[08-pluton-ms|08. Plutonu MS]] z [[michel-ninorich|Michelem Ninorichem]] jako głównym pilotem i [[eledore-massis|Eledore Massisem]] jako pilotem wspierającym. Podczas patrolu Eledore rozpoznaje cząstki Minovsky’ego i dźwięk nieznanego typu maszyny, a później przypomina dowódcy, że wóz nie powinien zostać ściągnięty na linię ognia.
+Wóz wsparcia [[08-pluton-ms|08. Plutonu MS]] z [[michel-ninorich|Michelem Ninorichem]] jako głównym pilotem i [[eledore-massis|Eledore Massisem]] jako pilotem wspierającym. Podczas patrolu Eledore rozpoznaje [[minovsky-particles|cząstki Minovsky’ego]] i dźwięk nieznanego typu maszyny, a później przypomina dowódcy, że wóz nie powinien zostać ściągnięty na linię ognia.
 
-Podczas eskorty [[medea|Medei]] Eledore wykrywa z wozu dźwięk wrogich mobile suitów. Na polecenie Shiro załoga ma prowadzić klucz tak, żeby nie wszedł w ogień przeciwlotniczy nieprzyjaciela.
+Podczas eskorty [[medea|Medei]] Eledore wykrywa z wozu dźwięk wrogich [[mobile-suit|mobile suitów]]. Na polecenie Shiro załoga ma prowadzić klucz tak, żeby nie wszedł w ogień przeciwlotniczy nieprzyjaciela.
 
 Sonar pasywny obniża celność i unik wrogów, Zaopatrzenie EN odnawia energię sojusznika, a Naprawa przywraca HP. Wezw. Osłony pozwala wybrać wóz do osłony odpowiedniej grupy; jednocześnie jednostka może walczyć w wybranych składach 08. Plutonu MS.
 }}
 
 {{zrodlo gra=wspolne
 
-W pierwowzorze wóz nosi oznaczenie M353A4 Bloodhound, a jego główną rolą jest nasłuch: podziemny sonar wyłapuje drgania gruntu i pozwala ocenić liczbę, typ i kierunek marszu nieprzyjaciela. Poza tym pośredniczy w łączności z dowództwem i wozi zaopatrzenie, a poduszkowe silniki zamiast kół pozwalają mu nadążyć za mobile suitami w górach, na rzekach i jeziorach. Etatowa załoga liczy cztery osoby — kierowcę, nawigatora, celowniczego i operatora sonaru — ale przy brakach kadrowych jedna osoba bierze na siebie kilka funkcji. Jedyne uzbrojenie to działko 20 mm, bezużyteczne wobec mobile suitów. Batalion, do którego należy [[08-pluton-ms|08. Pluton MS]], dostał po jednym takim wozie na każdy ze swoich ośmiu plutonów ([Gundam Wiki, „Hover Truck”](https://gundam.fandom.com/wiki/Hover_Truck); sprawdzono 2026-10-24).
+W pierwowzorze wóz nosi oznaczenie M353A4 Bloodhound, a jego główną rolą jest nasłuch: podziemny sonar wyłapuje drgania gruntu i pozwala ocenić liczbę, typ i kierunek marszu nieprzyjaciela. Poza tym pośredniczy w łączności z dowództwem i wozi zaopatrzenie, a poduszkowe silniki zamiast kół pozwalają mu nadążyć za mobile suitami w górach, na rzekach i jeziorach. Etatowa załoga liczy cztery osoby — kierowcę, nawigatora, celowniczego i operatora sonaru — ale przy brakach kadrowych jedna osoba bierze na siebie kilka funkcji. Jedyne uzbrojenie to działko 20 mm, bezużyteczne wobec mobile suitów. Batalion [[earth-federation|Federacji]] z [[uc-0079|U.C. 0079]], do którego należy [[08-pluton-ms|08. Pluton MS]], dostał po jednym takim wozie na każdy ze swoich ośmiu plutonów ([Gundam Wiki, „Hover Truck”](https://gundam.fandom.com/wiki/Hover_Truck); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe

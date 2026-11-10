@@ -11,7 +11,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Jeden z przywódców kosmosu wymienionych przez [[annina-servania|Anninę]] — obok [[haman-karn|Haman Karn]] i [[milliardo-peacecraft|Milliardo Peacecrafta]] — jako ten, który upadł w wojnie rewolucyjnej.
+Jeden z przywódców kosmosu wymienionych przez [[annina-servania|Anninę]] — obok [[haman-karn|Haman Karn]] i [[milliardo-peacecraft|Milliardo Peacecrafta]] — jako ten, który upadł w [[wojna-rewolucyjna|wojnie rewolucyjnej]].
 }}
 
 {{zrodlo gra=wspolne

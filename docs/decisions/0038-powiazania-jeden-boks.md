@@ -1,8 +1,10 @@
 # 0038 — „Powiązania” to wszystkie relacje strony w jednym boksie
 
 Data: 2026-11-10
-Status: obowiązujący; zastępuje pkt 2 ADR 0036 i uchyla zapisaną tam odrzuconą alternatywę
-„scalenie »Powiązań« i »Wymienione w«”. Pozostałe punkty ADR 0036 obowiązują.
+Status: obowiązujący w zakresie jednego boksu i braku powtórzeń; w zakresie typów na stronach
+encji zmieniony przez [ADR 0040](0040-powiazania-tylko-sceny-i-hasla.md) (`Powiązania` encji
+ograniczone do `scena` i `pojecie`). Zastępuje pkt 2 ADR 0036 i uchyla zapisaną tam odrzuconą
+alternatywę „scalenie »Powiązań« i »Wymienione w«”. Pozostałe punkty ADR 0036 obowiązują.
 
 ## Kontekst
 

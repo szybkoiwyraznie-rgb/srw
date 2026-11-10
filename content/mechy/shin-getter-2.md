@@ -24,7 +24,7 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]], gdy [[gurre
 
 {{zrodlo gra=wspolne
 
-W [[getter-robo-armageddon|pierwowzorze]] Shin Getter-2 (真ゲッター2, 55 m wysokości, 290 ton masy) powstaje z połączenia odrzutowców w kolejności Shin Jaguar, Shin Bear i Shin Eagle, wysuwając na czoło biały pojazd [[kei|Kei]]. Maszyna ma smukłą sylwetkę z potężnym świdrem zamiast prawego przedramienia i szczypcami w lewej dłoni; specjalizuje się w walce naziemnej i podziemnej, rozrywaniu formacji wroga szarżami na dopalaczach oraz myleniu przeciwników powidokami wywoływanymi ekstremalną prędkością ruchu ([Wikipedia, *Getter Robo Armageddon*](https://en.wikipedia.org/wiki/Getter_Robo_Armageddon); [SRW Wiki, „Shin Getter Robo”](https://superrobotwars.fandom.com/wiki/Shin_Getter_Robo); sprawdzono 2026-10-27).
+W [[getter-robo-armageddon|pierwowzorze]] Shin Getter-2 (真ゲッター2, 55 m wysokości, 290 ton masy) powstaje z połączenia odrzutowców w kolejności Shin Jaguar, Shin Bear i Shin Eagle, wysuwając na czoło biały pojazd [[kei|Kei]]. Maszyna ma smukłą sylwetkę z potężnym świdrem zamiast prawego przedramienia i szczypcami w lewej dłoni; specjalizuje się w walce naziemnej i podziemnej, rozrywaniu formacji wroga (także [[invaderzy|Invaderów]]) szarżami na dopalaczach oraz myleniu przeciwników powidokami wywoływanymi ekstremalną prędkością ruchu ([Wikipedia, *Getter Robo Armageddon*](https://en.wikipedia.org/wiki/Getter_Robo_Armageddon); [SRW Wiki, „Shin Getter Robo”](https://superrobotwars.fandom.com/wiki/Shin_Getter_Robo); sprawdzono 2026-10-27).
 }}
 
 {{menu gra=srw-oe

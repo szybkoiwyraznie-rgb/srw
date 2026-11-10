@@ -15,7 +15,7 @@ utworzono: 2026-11-09
 ---
 {{menu gra=srw-y
 
-Główny doradca Czarnych Rycerzy. W czarnym Knightmare Frame walczy, by wykorzenić terroryzm i konflikty. Naprawdę to Suzaku, który spełnia życzenie Leloucha.
+Główny doradca [[czarni-rycerze|Czarnych Rycerzy]]. W czarnym Knightmare Frame walczy, by wykorzenić terroryzm i konflikty. Naprawdę to Suzaku, który spełnia życzenie [[lelouch-vi-britannia|Leloucha]].
 }}
 
 {{zrodlo gra=wspolne

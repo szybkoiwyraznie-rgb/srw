@@ -21,7 +21,7 @@ Gundam pilotowany przez Wufeia. Wyspecjalizowany w walce wręcz, ma znakomitą z
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-wing-endless-waltz|pierwowzorze]] *Endless Waltz* XXXG-01S2 Altron Gundam (nazywany przez [[chang-wufei|Changa Wufeia]] także „Nataku”, od chińskiego *ertou long* — „dwugłowy smok”) jest ulepszeniem Shenlonga wyposażonym w parę dalekosiężnych Dragon Fang na przedramionach oraz dwustronny Twin Beam Trident ([Gundam Wiki, „XXXG-01S2 Altron Gundam” (EW)](https://gundam.fandom.com/wiki/XXXG-01S2_Altron_Gundam_EW); sprawdzono 2026-11-10).
+W [[mobile-suit-gundam-wing-endless-waltz|pierwowzorze]] *Endless Waltz* XXXG-01S2 Altron Gundam (nazywany przez [[chang-wufei|Changa Wufeia]] także „Nataku”, od chińskiego *ertou long* — „dwugłowy smok”) jest [[mobile-suit|mobile suitem]] stanowiącym ulepszenie Shenlonga i wyposażonym w parę dalekosiężnych Dragon Fang na przedramionach oraz dwustronny Twin Beam Trident ([Gundam Wiki, „XXXG-01S2 Altron Gundam” (EW)](https://gundam.fandom.com/wiki/XXXG-01S2_Altron_Gundam_EW); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-y

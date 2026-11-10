@@ -12,7 +12,7 @@ utworzono: 2026-11-09
 ---
 {{menu gra=srw-y
 
-Guwernantka Echiki. Ma 27 lat. Kobieta. Od trzech lat mieszka w rezydencji i uczy Echikę wszystkiego, czego potrzeba do rządzenia. Była asystentką ojca Echiki, naukowca Tetsuro Yagamiego; po jego śmierci w wypadku, zgodnie z jego ostatnią wolą, została guwernantką Echiki. Wykształcona i rozważna, zawsze łagodnie uśmiechnięta, nie wyczuwa jednak atmosfery i czasem mówi lub robi coś zupełnie nie w porę. Mimo to rozumie Echikę lepiej niż ktokolwiek i cieszy się jej bezgranicznym zaufaniem.
+Guwernantka Echiki. Ma 27 lat. Kobieta. Od trzech lat mieszka w rezydencji i uczy Echikę wszystkiego, czego potrzeba do rządzenia. Była asystentką ojca Echiki, naukowca [[tetsuro-yagami|Tetsuro Yagamiego]]; po jego śmierci w wypadku, zgodnie z jego ostatnią wolą, została guwernantką Echiki. Wykształcona i rozważna, zawsze łagodnie uśmiechnięta, nie wyczuwa jednak atmosfery i czasem mówi lub robi coś zupełnie nie w porę. Mimo to rozumie Echikę lepiej niż ktokolwiek i cieszy się jej bezgranicznym zaufaniem.
 }}
 
 {{menu gra=srw-y

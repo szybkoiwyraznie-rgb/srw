@@ -16,7 +16,7 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-Masowo produkowany transformowalny mobile suit Axis. Opracowany na bazie maszyn roboczych Gaza A i Gaza B jako transformowalna jednostka bojowa. W formie mobile armor ostrzeliwuje cele z Knuckle Bustera i atakuje okręty szponami nóg. Ma słabą zwrotność i kiepsko radzi sobie w zwarciu, dlatego podstawową taktyką jest zmasowany ostrzał z dystansu. Łatwo go za to produkować i fabryki Axis wytwarzały go w ogromnych ilościach. Ponieważ Axis i Siły Federacji Ziemskiej przez pewien czas współpracowały, ma oznaczenia obu armii: Axis (AMX-003) i Federacji (MMT-1). Poza wymienioną bronią ma też pistolet wiązkowy i szablę wiązkową.
+Masowo produkowany transformowalny [[mobile-suit|mobile suit]] Axis. Opracowany na bazie maszyn roboczych Gaza A i Gaza B jako transformowalna jednostka bojowa. W formie [[mobile-armor|mobile armor]] ostrzeliwuje cele z Knuckle Bustera i atakuje okręty szponami nóg. Ma słabą zwrotność i kiepsko radzi sobie w zwarciu, dlatego podstawową taktyką jest zmasowany ostrzał z dystansu. Łatwo go za to produkować i fabryki Axis wytwarzały go w ogromnych ilościach. Ponieważ Axis i Siły [[earth-federation|Federacji Ziemskiej]] przez pewien czas współpracowały, ma oznaczenia obu armii: Axis (AMX-003) i Federacji (MMT-1). Poza wymienioną bronią ma też pistolet wiązkowy i szablę wiązkową.
 }}
 
 {{zrodlo gra=wspolne

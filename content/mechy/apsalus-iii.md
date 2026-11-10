@@ -27,7 +27,7 @@ W misji Apsalus jest głównym celem obrońców: dopóki stoi, [[white-base|Whit
 
 ## Pierwowzór
 
-Apsalus III (zapisywany też jako *Apsaras III*) jest mobile armorem z OVA [[mobile-suit-gundam-08th-ms-team|*Mobile Suit Gundam: The 08th MS Team*]] — finalną wersją projektu Apsalusa, w której problem z zasilaniem działa megacząsteczkowego rozwiązano, montując generatory trzech [[dom|Rick Domów]] i drugi układ Minovsky Craft. Działo może ogniskować wiązkę pod różnymi kątami i przy pełnej mocy przepala górę ([Gundam Wiki, „Apsaras III”](https://gundam.fandom.com/wiki/Apsaras_III); sprawdzono 2026-11-07).
+Apsalus III (zapisywany też jako *Apsaras III*) jest [[mobile-armor|mobile armorem]] z OVA [[mobile-suit-gundam-08th-ms-team|*Mobile Suit Gundam: The 08th MS Team*]] ([[uc-0079|U.C. 0079]]) — finalną wersją projektu Apsalusa, w której problem z zasilaniem działa megacząsteczkowego rozwiązano, montując generatory trzech [[dom|Rick Domów]] i drugi układ Minovsky Craft. Działo może ogniskować wiązkę pod różnymi kątami i przy pełnej mocy przepala górę ([Gundam Wiki, „Apsaras III”](https://gundam.fandom.com/wiki/Apsaras_III); sprawdzono 2026-11-07).
 
 W oryginale maszyna startuje z górskiej bazy Zeonu i walczy w ostatnich dwóch odcinkach OVA; gra przenosi ją pod [[jaburo|Jaburo]] i czyni z niej narzędzie samobójczego ataku [[ginias-sahalin|Giniasa]] na kwaterę [[earth-federation|Federacji]].
 }}

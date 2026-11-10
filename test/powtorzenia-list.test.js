@@ -1,12 +1,11 @@
 /**
- * Jedna pozycja — jedno miejsce na stronie encji (ADR 0036 i 0038).
+ * Jedna pozycja — jedno miejsce na stronie encji (ADR 0036, 0038 i 0040).
  *
  * Strona encji pokazuje odsyłacze w trzech miejscach: w metryce (Gra, Seria,
  * Piloci), na własnej liście w treści („Rozegrane epizody", „Z tej serii…")
- * i w boksie „Powiązania". „Powiązania" zbierają wszystkie relacje strony —
- * to, do czego odsyła, i to, co odsyła do niej — w jednej liście (ADR 0038).
- * Powiązana strona stoi dokładnie w jednym z tych miejsc: ani razu mniej
- * (nic nie ginie), ani razu więcej (czytelnik nie dostaje dwóch list tego samego).
+ * i w boksie „Powiązania". Na stronie encji „Powiązania” pokazują wyłącznie
+ * powiązane sceny i hasła (`TYPY_POWIAZAN`, ADR 0040) z obu kierunków — bez
+ * powtarzania metryki ani własnych list strony.
  *
  * Oczekiwania są wyprowadzane z danych bazy i z wyrenderowanej strony, nie
  * z list wpisanych w test (L15).
@@ -22,7 +21,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 globalThis.SRW_DATA = await zbudujDane({ root: ROOT });
 const DANE = globalThis.SRW_DATA;
 
-const { renderEncja } = await import('../src/srw/render-entity.js');
+const { renderEncja, TYPY_POWIAZAN } = await import('../src/srw/render-entity.js');
 
 const TYPY_ENCJI = ['gra', 'postac', 'mech', 'pojecie', 'seria'];
 const ENCJE = Object.values(DANE.strony).filter((s) => TYPY_ENCJI.includes(s.typ));
@@ -77,7 +76,9 @@ const przychodzace = (strona) => (DANE.backlinki[strona.slug] ?? []).map((b) => 
 const posortowane = (lista) => [...new Set(lista)].sort();
 
 /** Wszystkie strony powiązane z daną: odsyłacz stąd albo odsyłacz tutaj. */
-const powiazane = (strona) => posortowane([...wychodzace(strona), ...przychodzace(strona)].filter((slug) => slug !== strona.slug));
+const wszystkieRelacje = (strona) => posortowane([...wychodzace(strona), ...przychodzace(strona)].filter((slug) => slug !== strona.slug));
+/** Relacje wyświetlane w „Powiązaniach” strony encji (ADR 0040: tylko sceny i hasła). */
+const powiazane = (strona) => wszystkieRelacje(strona).filter((slug) => TYPY_POWIAZAN.includes(DANE.strony[slug].typ));
 
 test('kolumna boczna ma jeden boks relacji: „Powiązania”', () => {
   let zBoksem = 0;
@@ -92,24 +93,28 @@ test('kolumna boczna ma jeden boks relacji: „Powiązania”', () => {
 });
 
 test('„Powiązania” nie powtarzają metryki ani własnych list strony', () => {
-  let pominiete = 0;
+  let wMetryceLubListach = 0;
+  let pozaTypamiPowiazan = 0;
   for (const strona of ENCJE) {
     const m = miejsca(strona);
     const pokazane = new Set([...m.metryka, ...m.naListach]);
 
     assert.deepEqual(m.powiazania.filter((slug) => pokazane.has(slug)), [],
       `${strona.slug}: „Powiązania” powtarzają metrykę albo własną listę strony`);
+    assert.deepEqual(m.powiazania.filter((slug) => !TYPY_POWIAZAN.includes(DANE.strony[slug]?.typ)), [],
+      `${strona.slug}: „Powiązania” pokazują wyłącznie typy ${TYPY_POWIAZAN.join(', ')} (ADR 0040)`);
     assert.ok(!m.powiazania.includes(strona.slug), `${strona.slug}: strona nie jest powiązana sama ze sobą`);
     for (const [nazwa, lista] of [['Powiązania', m.powiazania], ['własne listy', m.naListach]]) {
       assert.equal(new Set(lista).size, lista.length, `${strona.slug}: ${nazwa} — pozycja stoi dwa razy`);
     }
-    pominiete += powiazane(strona).filter((slug) => pokazane.has(slug)).length;
+    wMetryceLubListach += wszystkieRelacje(strona).filter((slug) => pokazane.has(slug)).length;
+    pozaTypamiPowiazan += wszystkieRelacje(strona).filter((slug) => !TYPY_POWIAZAN.includes(DANE.strony[slug].typ)).length;
   }
-  // Test nie może przechodzić „na pusto”: baza ma powtórzenia do pominięcia.
-  assert.ok(pominiete > 0, 'żadna strona nie miała odsyłacza do pominięcia — test niczego nie sprawdza');
+  assert.ok(wMetryceLubListach > 0, 'żadna strona nie miała odsyłacza w metryce albo własnej liście — test niczego nie sprawdza');
+  assert.ok(pozaTypamiPowiazan > 0, 'żadna strona nie miała relacji poza scenami i hasłami — test niczego nie sprawdza');
 });
 
-test('„Powiązania” to wszystkie relacje strony: każda powiązana strona stoi dokładnie w jednym miejscu', () => {
+test('„Powiązania” pokazują komplet powiązanych scen i haseł, łącząc oba kierunki', () => {
   let tylkoStad = 0;
   let tylkoTutaj = 0;
   let wObieStrony = 0;
@@ -118,10 +123,9 @@ test('„Powiązania” to wszystkie relacje strony: każda powiązana strona st
     const pokazane = new Set([...m.metryka, ...m.naListach]);
 
     assert.deepEqual(posortowane(m.powiazania), powiazane(strona).filter((slug) => !pokazane.has(slug)),
-      `${strona.slug}: „Powiązania” = strony, do których ta odsyła, i strony odsyłające tutaj, bez metryki i własnych list`);
-    // Nic nie ginie: metryka, własne listy i „Powiązania” razem obejmują każdą relację.
+      `${strona.slug}: „Powiązania” = powiązane sceny i hasła z obu kierunków, bez metryki i własnych list`);
     assert.deepEqual(posortowane([...m.metryka, ...m.naListach, ...m.powiazania].filter((slug) => powiazane(strona).includes(slug))),
-      powiazane(strona), `${strona.slug}: każda powiązana strona jest osiągalna ze strony`);
+      powiazane(strona), `${strona.slug}: każda powiązana scena i hasło są osiągalne ze strony`);
 
     const stad = new Set(wychodzace(strona));
     const tutaj = new Set(przychodzace(strona));
@@ -138,7 +142,7 @@ test('„Powiązania” to wszystkie relacje strony: każda powiązana strona st
 });
 
 test('„Powiązania”: grupy w stałej kolejności typów, licznik zgodny z listą, fabuła w kolejności rozgrywki', () => {
-  const KOLEJNOSC = ['Sceny', 'Epizody', 'Gry', 'Postacie', 'Mechy', 'Hasła', 'Serie'];
+  const KOLEJNOSC = ['Sceny', 'Hasła'];
   const epizody = Object.values(DANE.strony).filter((p) => p.typ === 'epizod')
     .sort((a, b) => String(a.gra ?? '').localeCompare(String(b.gra ?? ''), 'pl') || (a.numer ?? 0) - (b.numer ?? 0))
     .map((p) => p.slug);
@@ -157,9 +161,7 @@ test('„Powiązania”: grupy w stałej kolejności typów, licznik zgodny z li
       assert.equal(g.licznik, g.slugi.length, `${strona.slug}: licznik grupy „${g.nazwa}”`);
       const strony = g.slugi.map((slug) => DANE.strony[slug]);
       let oczekiwane;
-      if (g.nazwa === 'Epizody') {
-        oczekiwane = [...strony].sort((a, b) => epizody.indexOf(a.slug) - epizody.indexOf(b.slug));
-      } else if (g.nazwa === 'Sceny') {
+      if (g.nazwa === 'Sceny') {
         oczekiwane = [...strony].sort((a, b) => epizody.indexOf(a.epizod) - epizody.indexOf(b.epizod)
           || numery(String(a.numer_sceny ?? ''), String(b.numer_sceny ?? '')));
       } else {
@@ -167,10 +169,9 @@ test('„Powiązania”: grupy w stałej kolejności typów, licznik zgodny z li
       }
       assert.deepEqual(g.slugi, oczekiwane.map((p) => p.slug), `${strona.slug}: porządek grupy „${g.nazwa}”`);
 
-      // „01 Epizod 1” istnieje w każdej grze: lista z kilku gier podpisuje każdą, z jednej — żadnej.
-      const fabula = g.nazwa === 'Epizody' || g.nazwa === 'Sceny';
+      const fabula = g.nazwa === 'Sceny';
       const gry = fabula
-        ? [...new Set(strony.map((p) => (p.typ === 'scena' ? DANE.strony[p.epizod]?.gra : p.gra)))]
+        ? [...new Set(strony.map((p) => DANE.strony[p.epizod]?.gra))]
         : [];
       assert.deepEqual(g.podpisyGier, gry.length > 1 ? gry.map((slug) => DANE.strony[slug].tytul) : [],
         `${strona.slug}: podpisy gier w grupie „${g.nazwa}”`);
@@ -178,11 +179,11 @@ test('„Powiązania”: grupy w stałej kolejności typów, licznik zgodny z li
       if (gry.length > 1) zKilkuGier += 1;
     }
   }
-  assert.ok(fabularnych > 0, 'żadna strona nie ma w „Powiązaniach” scen ani epizodów');
-  assert.ok(zKilkuGier > 0, 'żadna lista fabularna nie obejmuje dwóch gier — podpisy nie są sprawdzone');
+  assert.ok(fabularnych > 0, 'żadna strona nie ma w „Powiązaniach” scen');
+  assert.ok(zKilkuGier > 0, 'żadna lista scen nie obejmuje dwóch gier — podpisy nie są sprawdzone');
 });
 
-test('lista „Z tej serii” pochodzi z pola seria i jest jedynym miejscem dla postaci i mechów serii', () => {
+test('lista „Z tej serii” pochodzi z pola seria, nie powtarza podnagłówków i nie trafia do „Powiązań”', () => {
   const serie = ENCJE.filter((s) => s.typ === 'seria');
   let zObsada = 0;
   let spozaSerii = 0;
@@ -194,12 +195,16 @@ test('lista „Z tej serii” pochodzi z pola seria i jest jedynym miejscem dla 
 
     assert.deepEqual(posortowane(m.naListach), posortowane(zPola),
       `${seria.slug}: „Z tej serii” wymienia każdą stronę z polem seria i tylko takie`);
-    if (zPola.length > 0) zObsada += 1;
+    if (zPola.length > 0) {
+      zObsada += 1;
+      const blokSerii = m.html.match(/<section class="blok-powiazan">\s*<h2>Z tej serii:[^<]*<\/h2>([\s\S]*?)<\/section>/)?.[1] ?? '';
+      assert.doesNotMatch(blokSerii, /<h3>/, `${seria.slug}: lista „Z tej serii” nie dubluje nagłówka podtypu`);
+    }
 
-    // Odsyłacz do postaci albo mecha spoza serii zostaje w „Powiązaniach”.
+    // Odsyłacz do postaci albo mecha spoza serii nie trafia do „Powiązań” (ADR 0040).
     const obce = wychodzace(seria).filter((slug) => ['postac', 'mech'].includes(DANE.strony[slug].typ) && !zPola.includes(slug));
     for (const slug of obce) {
-      assert.ok(m.powiazania.includes(slug), `${seria.slug}: ${slug} jest spoza serii — zostaje w „Powiązaniach”`);
+      assert.ok(!m.powiazania.includes(slug), `${seria.slug}: ${slug} jest postacią/mechem — nie trafia do „Powiązań”`);
     }
     spozaSerii += obce.length;
   }

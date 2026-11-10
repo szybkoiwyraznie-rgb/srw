@@ -28,7 +28,7 @@ W misji nad Azją Środkową baterie wieżyczek biorą udział w ostrzale [[whit
 
 ## Parametry
 
-Turret jest stałą baterią ogniową: nie zmienia pozycji, nie może unikać ataków i prowadzi ostrzał z dystansu 3–8. W misji jest niepilotowanym, nieruchomym celem. Szeregowi [[zolnierz-zeonu|żołnierze Zeonu]] obsługują baterie, ale nie są pilotami wieżyczek.
+Turret jest stałą baterią ogniową: nie zmienia pozycji, nie może unikać ataków i prowadzi ostrzał z dystansu 3–8. W misji jest niepilotowanym, nieruchomym celem. Szeregowi [[zolnierz-zeonu|żołnierze]] [[zeon|Zeonu]] obsługują baterie, ale nie są pilotami wieżyczek.
 
 ### Macierzyste zdolności maszyny
 

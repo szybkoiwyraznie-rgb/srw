@@ -25,7 +25,7 @@ Blok tarczą zwiększa ochronę, gdy maszyna broni się zamiast atakować, a Hea
 
 ## Pierwowzór
 
-Gouf to prototypowy naziemny mobile suit Zeonu, który [[ramba-ral|Ramba Ral]] otrzymuje w serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] po przeniesieniu na Ziemię; maszyna w barwach Rala jest niebieska, podobnie jak jego wcześniejszy Zaku ([Gundam Wiki, „Ramba Ral”](https://gundam.fandom.com/wiki/Ramba_Ral); sprawdzono 2026-11-07).
+Gouf to prototypowy naziemny mobile suit [[zeon|Zeonu]], który [[ramba-ral|Ramba Ral]] otrzymuje w serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] ([[uc-0079|U.C. 0079]]) po przeniesieniu na Ziemię; maszyna w barwach Rala jest niebieska, podobnie jak jego wcześniejszy Zaku ([Gundam Wiki, „Ramba Ral”](https://gundam.fandom.com/wiki/Ramba_Ral); sprawdzono 2026-11-07).
 
 W oryginale Gouf nęka [[white-base|White Base]] w Azji Środkowej i zostaje zniszczony w pojedynku z [[rx-78-2-gundam|Gundamem]]. Gra przenosi tę maszynę pod [[jaburo|Jaburo]], gdzie walczy u boku [[apsalus-iii|Apsalusa III]] — zestawienia, którego serial nie zna.
 }}

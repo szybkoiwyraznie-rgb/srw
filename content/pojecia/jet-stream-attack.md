@@ -18,5 +18,5 @@ W walce o [[white-base|White Base]] zespół okrętu prześlizguje się przez at
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] trzy mobile suity zbliżają się w linii, sprawiając wrażenie jednej maszyny; prowadzący atakuje pierwszy, a dwa pozostałe wchodzą w lukę, gdy cel unika lub kontruje. Po przesiadce na [[dom|Domy]] [[gaia|Gaia]] otwiera atak działem rozpraszającym, żeby oślepić przeciwnika ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-22).
+W [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] trzy [[mobile-suit|mobile suity]] zbliżają się w linii, sprawiając wrażenie jednej maszyny; prowadzący atakuje pierwszy, a dwa pozostałe wchodzą w lukę, gdy cel unika lub kontruje. Po przesiadce na [[dom|Domy]] [[gaia|Gaia]] otwiera atak działem rozpraszającym, żeby oślepić przeciwnika ([Gundam Wiki, „Black Tri-Stars”](https://gundam.fandom.com/wiki/Black_Tri-Stars); sprawdzono 2026-10-22).
 }}

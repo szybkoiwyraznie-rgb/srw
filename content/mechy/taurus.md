@@ -16,7 +16,7 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-Masowo produkowany transformowalny mobile suit. Może mieć pilota, ale jako pierwszy otrzymał też bezzałogowy system bojowy Mobile Doll. Maszyny z tym systemem reagują szybciej niż przeciętny pilot, są bardzo mobilne i celnie strzelają, lecz doświadczeni piloci łatwo odczytują ich schematy działania.
+Masowo produkowany transformowalny [[mobile-suit|mobile suit]]. Może mieć pilota, ale jako pierwszy otrzymał też bezzałogowy system bojowy Mobile Doll. Maszyny z tym systemem reagują szybciej niż przeciętny pilot, są bardzo mobilne i celnie strzelają, lecz doświadczeni piloci łatwo odczytują ich schematy działania.
 }}
 
 {{zrodlo gra=wspolne

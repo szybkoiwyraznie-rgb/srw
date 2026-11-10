@@ -14,7 +14,7 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-Broń mobilna ukończona po wojnie rewolucyjnej. Stabilna moc, dobre prowadzenie, łatwa obsługa i produkcja sprawiły, że przyjęło ją wiele instytucji i w krótkim czasie upowszechniła się. To malowanie Sił Nowej Federacji Ziemskiej i współpracujących z nimi instytucji; maszyny te służą na całym świecie.
+Broń mobilna ukończona po [[wojna-rewolucyjna|wojnie rewolucyjnej]]. Stabilna moc, dobre prowadzenie, łatwa obsługa i produkcja sprawiły, że przyjęło ją wiele instytucji i w krótkim czasie upowszechniła się. To malowanie Sił [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]] i współpracujących z nimi instytucji; maszyny te służą na całym świecie.
 }}
 
 {{menu gra=srw-y

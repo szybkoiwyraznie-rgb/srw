@@ -12,7 +12,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Bezimienny agent VAL-X, który próbuje uprowadzić [[echika-y-franburnett|Echikę]] w rezydencji Franburnettów. Cross rozpoznaje w nim mechaniczną marionetkę, a nie zwykłego człowieka.
+Bezimienny agent [[val-x|VAL-X]], który próbuje uprowadzić [[echika-y-franburnett|Echikę]] w rezydencji Franburnettów. Cross rozpoznaje w nim [[mechaniczne-marionetki|mechaniczną marionetkę]], a nie zwykłego człowieka.
 }}
 
 {{menu gra=srw-y

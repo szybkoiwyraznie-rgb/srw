@@ -37,6 +37,6 @@ W tej misji Alex pozostaje w kontenerze transportowym i nie zostaje wystawiony j
 
 ## Pierwowzór
 
-Pierwszy odcinek *Mobile Suit Gundam 0080: War in the Pocket* również pokazuje transport nowego Gundama do kolonii Libot na Side 6. W oryginale wahadłowiec startuje z bazy na obszarze arktycznym, a nie z górskiej bazy w Azji Środkowej ([MAHQ, „Gundam 0080 Ep. 1: How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); sprawdzono 2026-10-23).
+Pierwszy odcinek *Mobile Suit Gundam 0080: War in the Pocket* z końcówki [[uc-0079|U.C. 0079]] również pokazuje transport nowego [[mobile-suit|mobile suita]] Gundam do kolonii Libot na Side 6. W oryginale wahadłowiec startuje z bazy na obszarze arktycznym, a nie z górskiej bazy w Azji Środkowej ([MAHQ, „Gundam 0080 Ep. 1: How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); sprawdzono 2026-10-23).
 }}
 

@@ -11,7 +11,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Jeden z przywódców kosmosu wymienionych przez [[annina-servania|Anninę]] jako ten, który upadł w wojnie rewolucyjnej. [[amuro-ray|Amuro]] mówi, że [[char-aznable|Char]] rozumie, co znaczyło to, czego dokonali Milliardo i [[treize-khushrenada|Treize]].
+Jeden z przywódców kosmosu wymienionych przez [[annina-servania|Anninę]] jako ten, który upadł w [[wojna-rewolucyjna|wojnie rewolucyjnej]]. [[amuro-ray|Amuro]] mówi, że [[char-aznable|Char]] rozumie, co znaczyło to, czego dokonali Milliardo i [[treize-khushrenada|Treize]].
 }}
 
 {{zrodlo gra=wspolne

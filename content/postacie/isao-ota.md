@@ -31,7 +31,7 @@ W [[srw-oe-ep2-ryk-dziczy|spotkaniu na stacji]] początkowy zachwyt widokiem Zie
 
 {{zrodlo gra=wspolne
 
-Sam zgłosił się do przeniesienia do [[sv2|SV2]] i trafił do niedoborowego Drugiego Plutonu. Ma silne poczucie odpowiedzialności i angażuje się w pracę bardziej niż ktokolwiek w zespole, ale często przesadza i przysparza kłopotów. Należy do najlepszych pilotów Laborów, choć zbyt chętnie sięga po siłę; poza pracą niewiele go interesuje. Swój [[ingram-nr-2|Ingram nr 2]] osobiście zmodyfikował ([Patlabor Wiki, „Isao Ohta”](https://patlabor.fandom.com/wiki/Isao_Ohta); sprawdzono 2026-10-22).
+Sam zgłosił się do przeniesienia do [[sv2|SV2]] i trafił do niedoborowego Drugiego Plutonu. Ma silne poczucie odpowiedzialności i angażuje się w pracę bardziej niż ktokolwiek w zespole, ale często przesadza i przysparza kłopotów. Należy do najlepszych pilotów [[labor|Laborów]], choć zbyt chętnie sięga po siłę; poza pracą niewiele go interesuje. Swój [[ingram-nr-2|Ingram nr 2]] osobiście zmodyfikował ([Patlabor Wiki, „Isao Ohta”](https://patlabor.fandom.com/wiki/Isao_Ohta); sprawdzono 2026-10-22).
 }}
 
 {{menu gra=srw-oe

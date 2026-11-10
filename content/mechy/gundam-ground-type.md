@@ -28,7 +28,7 @@ Obie maszyny blokują ciosy tarczą i należą do składu grupy plutonu. Wyrzutn
 
 {{zrodlo gra=wspolne
 
-W pierwowzorze te maszyny powstały w [[jaburo|Jaburo]] równolegle do prac nad [[rx-78-2-gundam|Gundamem]]: inżynierowie [[earth-federation|Federacji]] sięgnęli po części zapasowe wyprodukowane dla prototypu i zbudowali około dwudziestu egzemplarzy przeznaczonych wyłącznie do walki na Ziemi ([MAHQ, „Gundam Ground Type”](https://www.mahq.net/rx-79g/); sprawdzono 2026-10-24). Improwizacja miała swoją cenę — skoro jednostki powstały z nadwyżek, dla uszkodzonych nie zostawało już nic i polowe warsztaty musiały radzić sobie same ([MAHQ, „Gundam Ez8”](https://www.mahq.net/rx-79gez-8/); sprawdzono 2026-10-24).
+W pierwowzorze z [[uc-0079|U.C. 0079]] te [[mobile-suit|mobile suity]] powstały w [[jaburo|Jaburo]] równolegle do prac nad [[rx-78-2-gundam|Gundamem]]: inżynierowie [[earth-federation|Federacji]] sięgnęli po części zapasowe wyprodukowane dla prototypu i zbudowali około dwudziestu egzemplarzy przeznaczonych wyłącznie do walki na Ziemi ([MAHQ, „Gundam Ground Type”](https://www.mahq.net/rx-79g/); sprawdzono 2026-10-24). Improwizacja miała swoją cenę — skoro jednostki powstały z nadwyżek, dla uszkodzonych nie zostawało już nic i polowe warsztaty musiały radzić sobie same ([MAHQ, „Gundam Ez8”](https://www.mahq.net/rx-79gez-8/); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe
