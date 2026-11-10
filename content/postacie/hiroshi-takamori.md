@@ -7,7 +7,7 @@ seria: matchless-raijin-oh
 gry: [srw-oe]
 mechy: []
 pochodzenie: skrypt
-tagi: [eldran, super-robot-wars, wsparcie]
+tagi: [eldran, wsparcie]
 utworzono: 2026-11-09
 ---
 

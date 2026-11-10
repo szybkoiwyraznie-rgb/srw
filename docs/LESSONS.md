@@ -158,3 +158,18 @@ jej drugi raz w kolumnie bocznej. Zdanie w treści serii mówi, kto i co ją rep
 ręczna robota — dodając stronę z polem `seria`, otwórz stronę tej serii i dopisz nową pozycję,
 jeśli opis gry wymienia obsadę albo maszyny. Szybka kontrola: na stronie serii każda pozycja
 „Z tej serii” powinna dać się znaleźć w opisie albo opis nie powinien udawać pełnej listy.
+
+## L17 — Mówca i uczestnik to ta sama osoba: skrypt zna przezwisko, lista zna nazwisko i serię (2026-11-10)
+
+W misji 2-8 SRW OE mówią „Potato”, „Bon”, „Chobi”, „Kuko”, „Two” i „Mabo”. Sesja założyła
+im strony pod przezwiskami, bez serii, z opisem „uczeń z towarzystwa Akademii Hinobori” —
+a dodatek tej samej dostawy wymienia z nazwiska i z serią dokładnie tylu uczniów, ilu
+mówców zostało bez pary. Eldran dostał stronę bez serii, bo `test/tagi.test.js` wymagał od
+każdej strony *Raijin-Oh* tagu `eldran`, a strona `eldran` nie może tagować samej siebie:
+test dało się uciszyć tylko przez pominięcie serii. Żołnierz JSDF miał odwrotnie — serię,
+której dostawa mu nie daje. Żaden test tego nie widział, bo żaden nie czytał listy uczestników.
+
+Zasada: zanim powstanie strona mówcy, znajdź go na liście uczestników tej samej dostawy —
+tam jest nazwa strony i jej seria (ADR 0037). Przezwisko trafia do pola `pseudonim`. Gdy test
+nie pozwala wpisać tego, co mówi dostawa, usterką jest test (L15), nie dostawa. Kontrola:
+`node tools/uczestnicy-dostaw.mjs` — ma wypisać same zgodne przypisania.

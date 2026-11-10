@@ -2,6 +2,7 @@
 typ: postac
 slug: christina-mackenzie
 tytul: Christina Mackenzie
+pseudonim: Chris
 rola: pilot
 seria: mobile-suit-gundam-0080
 gry: [srw-oe]

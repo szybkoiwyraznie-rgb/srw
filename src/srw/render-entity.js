@@ -60,7 +60,11 @@ ${strona.obraz ? `<figure class="obraz"><button type="button" class="ilustracja-
 function podtytul(s) {
   if (s.typ === 'mech' || s.typ === 'postac') {
     const seria = s.seria ? dajStrone(s.seria) : null;
-    return seria ? `z serii ${linkStrony(seria)}` : '';
+    const czesci = [];
+    // Pseudonim (ADR 0037): pod nim postać mówi w skrypcie, więc stoi tuż przy tytule.
+    if (s.typ === 'postac' && s.pseudonim) czesci.push(`„${escapeHtml(s.pseudonim)}”`);
+    if (seria) czesci.push(`z serii ${linkStrony(seria)}`);
+    return czesci.join(' · ');
   }
   if (s.typ === 'seria') {
     const czesci = [];
@@ -99,6 +103,7 @@ function infoboks(s) {
   }
   if (s.typ === 'postac') {
     dodaj('Seria', s.seria ? linkStrony(dajStrone(s.seria)) : '');
+    dodaj('Pseudonim', s.pseudonim ? escapeHtml(s.pseudonim) : '');
     dodaj('Rola', s.rola ? escapeHtml(s.rola) : '');
     dodaj('Seiyū', s.seiyuu ? escapeHtml(s.seiyuu) : '');
   }

@@ -2,6 +2,7 @@
 typ: postac
 slug: yoko-kuriki
 tytul: Yoko Kuriki
+pseudonim: Cookie
 rola: wsparcie
 seria: matchless-raijin-oh
 gry: [srw-oe]

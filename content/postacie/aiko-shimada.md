@@ -2,6 +2,7 @@
 typ: postac
 slug: aiko-shimada
 tytul: Aiko Shimada
+pseudonim: Love
 rola: wsparcie
 seria: matchless-raijin-oh
 gry: [srw-oe]

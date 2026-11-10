@@ -2,6 +2,7 @@
 typ: postac
 slug: takako-kojima
 tytul: Takako Kojima
+pseudonim: Profesor
 rola: wsparcie
 seria: nekketsu-saikyo-go-saurer
 gry: [srw-oe]

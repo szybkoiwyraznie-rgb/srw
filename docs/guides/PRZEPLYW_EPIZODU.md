@@ -92,6 +92,18 @@ Dla każdej postaci i mecha obecnej w skrypcie (ADR 0012):
   opis tylko tym, co wnosi nowy materiał.
 - **bronie** → w treści wpisu mecha, w sekcji o uzbrojeniu. Osobnych wpisów broni nie tworzymy.
 
+**Najpierw lista uczestników, potem strony (ADR 0037).** Dostawa podaje postacie dwa razy:
+jako mówców skryptu i na liście uczestników — tam każda nazwa ma na twardo wpisaną serię.
+
+- Tytuł strony to nazwa z listy uczestników (imię i nazwisko), a pole `seria` to seria z tej
+  listy. Gdy dostawa pisze „Brak wpisu w słowniku postaci”, strona nie ma pola `seria`.
+- Mówca, którego etykieta nie pasuje do żadnego tytułu, mówi pod przezwiskiem. Znajdź go
+  na liście uczestników tej samej dostawy (dodatek postaci niebojowych wymienia dokładnie
+  mówiących w scenie) i wpisz etykietę w pole `pseudonim` — nie zakładaj strony „Potato”.
+  Gdy sama dostawa nie rozstrzyga, kto jest kim, parę potwierdza źródło w bloku `{{zrodlo}}`.
+- Po założeniu stron uruchom `node tools/uczestnicy-dostaw.mjs`: wypisuje każdą nazwę z dostaw
+  bez strony i każdą stronę z inną serią niż w dostawie. Ma nie wypisać nic.
+
 Uwaga na poziom szczegółu: **statystyki i uzbrojenie opisują parę (mech, gra)**, nie mecha.
 Wiedza o późniejszych epizodach i losach postaci do wpisu nie trafia (ADR 0012).
 Jeśli menu gry podało parametry, zapisz je w `w_gre`, nie w opisie ogólnym.

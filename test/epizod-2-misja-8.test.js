@@ -55,9 +55,10 @@ test('obsada sceny obejmuje drużyny Eldrana, Gurren Team i pilotów wroga', () 
     'jin-hyuga', 'maria-shiratori', 'erika-kozu', 'asuka-tsukishiro', 'goro-ishida',
     'tsutomu-kojima', 'shuzo-osada', 'yoji-hiyama', 'kakeru-daichi', 'taro-shirogane',
     'kotaro-kirigakure', 'rikiya-ryuzaki', 'yosuke-kazamatsuri', 'taro-omomo', 'hiryu-tsukishiro',
-    'mai-ozora', 'koji-hoshiyama', 'potato', 'kirara-haruno', 'akira-imamura', 'yoko-kuriki',
-    'hiroshi-takamori', 'bon', 'kuko', 'two', 'yuka-mizuhara', 'kamina', 'simon', 'yoko', 'boota',
-    'mabo', 'chobi', 'ikuyo-oyama', 'aiko-shimada', 'miki-mano', 'hidenori-kondo', 'yu-izumi',
+    'mai-ozora', 'koji-hoshiyama', 'orie-ishizuka', 'kirara-haruno', 'akira-imamura', 'yoko-kuriki',
+    'hiroshi-takamori', 'saneyasu-mushanokoji', 'kumiko-tanabe', 'harumi-sato', 'yuka-mizuhara',
+    'kamina', 'simon', 'yoko', 'boota', 'masao-fujiyoshi', 'kazutaka-seki', 'ikuyo-oyama',
+    'aiko-shimada', 'miki-mano', 'hidenori-kondo', 'yu-izumi',
     'eldran', 'mechabestia', 'mucus', 'control-ai'];
   assert.deepEqual(scene.postacie, obsada);
   const jednostki = ['daiteioh', 'ganbaruger', 'go-saurer', 'gurren-lagann', 'raijin-oh',

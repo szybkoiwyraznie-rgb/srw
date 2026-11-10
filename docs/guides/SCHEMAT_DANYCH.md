@@ -49,7 +49,14 @@ Pole `skrypt` jest wiążące w obie strony: plik musi istnieć, a każdy plik w
 mieć swój wpis epizodu.
 
 **postac** (tylko postać z dostawy gry, także ilustracyjnej bez opisu tekstowego — ADR 0017; postać z innej serii pojawiająca się jako nawiązanie to `pojecie`, ADR 0013): `seria` (opcjonalne — oryginalne postacie gry nie mają serii), `rola` (`pilot` / `wsparcie` / `dowodztwo` / `antagonista` /
-`postac` / `inne`), `seiyuu`, `mechy`, `gry`.
+`postac` / `inne`), `seiyuu`, `mechy`, `gry`, `pseudonim`.
+
+`seria` postaci i mecha jest **dokładnie tym, co wpisała lista uczestników dostawy** — także
+wtedy, gdy dostawa serii nie podaje („Brak wpisu w słowniku postaci” → strona bez pola `seria`).
+`tytul` to nazwa z listy uczestników, czyli imię i nazwisko. `pseudonim` to etykieta, pod którą
+postać mówi w skrypcie, gdy nie jest nią imię ani nazwisko (`pseudonim: Potato` na stronie
+Orie Ishizuki); strony pod samym przezwiskiem nie zakładamy. Pilnują tego
+`tools/uczestnicy-dostaw.mjs` i `test/seria-z-dostawy.test.js` (ADR 0037).
 
 **pojecie** (hasło wiki: organizacja, państwo, era, miejsce, wydarzenie, technologia,
 postać z innej serii — ADR 0013): `gry`. Rodzaj treści niesie **tag**, nie osobne pole —

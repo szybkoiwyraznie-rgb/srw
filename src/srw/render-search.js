@@ -1,5 +1,5 @@
 /**
- * Szukanie: proste dopasowanie tekstowe po tytułach, tagach i treści stron.
+ * Szukanie: proste dopasowanie tekstowe po tytułach, pseudonimach, tagach i treści stron.
  *
  * Bez indeksu i bez zależności — baza jest mała (rośnie o epizod na jakiś
  * czas), więc przeszukanie całości po stronie przeglądarki jest natychmiastowe
@@ -15,7 +15,7 @@ export function renderSzukanie(q) {
   const fraza = String(q ?? '').trim();
   if (fraza === '') {
     return `<div class="naglowek-strony"><h1>Szukaj</h1>
-      <p class="podtytul">Wpisz frazę w polu u góry — szukamy w tytułach, tagach i treści wszystkich stron.</p></div>`;
+      <p class="podtytul">Wpisz frazę w polu u góry — szukamy w tytułach, pseudonimach, tagach i treści wszystkich stron.</p></div>`;
   }
 
   const wyniki = szukaj(fraza);
@@ -52,8 +52,10 @@ export function szukaj(fraza) {
     const tagi = (strona.tagi ?? []).join(' ');
     const tekst = String(strona.tekst ?? '');
 
-    let waga = 0;
-    if (tytul.toLowerCase().includes(igła)) waga += 100;
+    // Pseudonim (ADR 0037) szuka się jak tytułu: „Potato" ma znaleźć Orie Ishizukę.
+    // Cała nazwa i całe słowo ważą więcej niż środek wyrazu — inaczej „Two"
+    // prowadzi najpierw do „Księstwa Zeonu", a nie do osoby o tym przezwisku.
+    let waga = Math.max(wagaNazwy(tytul, igła), wagaNazwy(String(strona.pseudonim ?? ''), igła));
     if (tagi.toLowerCase().includes(igła)) waga += 30;
     const indeks = tekst.toLowerCase().indexOf(igła);
     if (indeks >= 0) waga += 10;
@@ -68,6 +70,15 @@ export function szukaj(fraza) {
   return wyniki
     .sort((a, b) => b.waga - a.waga || String(a.strona.tytul).localeCompare(String(b.strona.tytul), 'pl'))
     .slice(0, 60);
+}
+
+/** Waga trafienia w nazwie: cała nazwa 200, całe słowo 150, część wyrazu 100, brak 0. */
+function wagaNazwy(nazwa, igła) {
+  const n = nazwa.toLowerCase();
+  if (!n || !n.includes(igła)) return 0;
+  if (n === igła) return 200;
+  if (n.split(/[^\p{L}\p{N}]+/u).includes(igła)) return 150;
+  return 100;
 }
 
 function fragment(tekst, indeks, dlugosc) {

@@ -7,7 +7,7 @@ seria: kanzen-shouri-daiteioh
 gry: [srw-oe]
 mechy: [daiteioh, perfect-daiteioh]
 pochodzenie: skrypt
-tagi: [eldran, super-robot-wars, pilot]
+tagi: [eldran, pilot]
 utworzono: 2026-11-09
 ---
 

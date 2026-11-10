@@ -86,7 +86,22 @@ test('strona z serią nosi tag swojego świata', () => {
     if (!s.seria) continue;
     const oczekiwany = TAG_SERII[s.seria];
     assert.ok(oczekiwany, `${s.slug}: seria ${s.seria} bez tagu w tabeli (ADR 0033)`);
+    // Strona nie taguje samej siebie (ADR 0033 pkt 5) — a ta zasada nie może
+    // odbierać stronie serii: Eldran należy do Matchless Raijin-Oh, choć tag
+    // świata tej serii brzmi tak samo jak jego slug (ADR 0037).
+    if (oczekiwany === s.slug) continue;
     assert.ok(tagi(s).includes(oczekiwany), `${s.slug}: brak tagu serii ${oczekiwany}`);
+  }
+});
+
+test('strona z serią nie nosi tagu świata innej serii', () => {
+  // Seria przypisana przez dostawę jest wiążąca (ADR 0037): uczeń z Raijin-Oh
+  // z tagiem `super-robot-wars` wyglądałby w dziale tagów jak postać oryginalna gry.
+  const swiaty = new Set(Object.values(TAG_SERII));
+  for (const s of strony) {
+    if (!s.seria) continue;
+    const obce = tagi(s).filter((t) => swiaty.has(t) && t !== TAG_SERII[s.seria]);
+    assert.deepEqual(obce, [], `${s.slug}: seria ${s.seria}, a tag świata ${obce.join(', ')}`);
   }
 });
 

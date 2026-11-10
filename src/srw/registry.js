@@ -271,6 +271,17 @@ export function walidujStrone(strona, ctx) {
     }
   }
 
+  // Pseudonim (ADR 0037): przezwisko, pod którym postać mówi w skrypcie. To pole
+  // strony o pełnym imieniu i nazwisku — nigdy osobna strona pod samym przezwiskiem.
+  if (strona.pseudonim !== undefined) {
+    if (strona.typ !== 'postac') p.push(`${gdzie}: "pseudonim" przysługuje tylko postaci`);
+    if (typeof strona.pseudonim !== 'string' || strona.pseudonim.trim() === '') {
+      p.push(`${gdzie}: "pseudonim" musi być niepustym tekstem`);
+    } else if (strona.pseudonim.trim() === String(strona.tytul ?? '').trim()) {
+      p.push(`${gdzie}: "pseudonim" powtarza tytuł — tytułem ma być imię i nazwisko (ADR 0037)`);
+    }
+  }
+
   return p;
 }
 

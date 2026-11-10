@@ -7,7 +7,7 @@ seria: genki-bakuhatsu-ganbaruger
 gry: [srw-oe]
 mechy: [ganbaruger, great-ganbaruger]
 pochodzenie: skrypt
-tagi: [eldran, super-robot-wars, pilot]
+tagi: [eldran, pilot]
 utworzono: 2026-11-09
 ---
 

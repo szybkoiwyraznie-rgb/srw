@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-11-10 22:09
+
+- „Potato” z narady w [[akademia-hinobori|Akademii Hinobori]] to [[orie-ishizuka|Orie Ishizuka]] z [[klasa-obrony-ziemi|Klasy Obrony Ziemi]], bohaterka [[matchless-raijin-oh|*Matchless Raijin-Oh*]].
+- Pod przezwiskami Bon, Chobi, Kuko, Two i Mabo mówią [[saurersi|Saurersi]]: [[saneyasu-mushanokoji|Saneyasu Mushanokoji]], [[kazutaka-seki|Kazutaka Seki]], [[kumiko-tanabe|Kumiko Tanabe]], [[harumi-sato|Harumi Sato]] i [[masao-fujiyoshi|Masao Fujiyoshi]].
+- [[eldran|Eldran]], wojownik światła i strażnik Ziemi, należy do świata *Matchless Raijin-Oh*. To on powierzył dzieciom [[raijin-oh|Raijin-Oh]], [[ganbaruger|Ganbarugera]], [[go-saurer|Go-Saurera]] i [[daiteioh|Daiteioha]]; cztery wybrane przez niego drużyny to Klasa Obrony Ziemi, drużyna Ganba, Saurersi i Danketsi.
+- Na naradzie przed lotem w kosmos Bon i Kuko zauważają, że w ostatniej walce wróg chyba dowodził [[mucus|Mucus]]. Kikaishin, którego wspominają uczniowie, to pokonany przez Saurersów przeciwnik z [[mechanization-empire|Imperium Mechanizacji]].
+
 ## 2026-11-10 00:34
 
 - Rozmowy [[koji-kabuto|Kojiego]] z [[tetsuya-tsurugi|Tetsuyą]] oraz [[chizuru-nambara|Chizuru]] z [[hyoma-aoi|Hyomą]] toczą się podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] — jeszcze w trakcie [[wojna-rewolucyjna|wojny rewolucyjnej]], którą kończy dopiero zamach [[zero|Zero]]. Wtedy też Chizuru mówi, że w [[imperium-yoma|Imperium Yoma]] wciąż pozostał cesarz [[barao|Barao]].
