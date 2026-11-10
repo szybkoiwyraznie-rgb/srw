@@ -7,6 +7,8 @@ typ_mecha: mobile suit
 gry: [srw-y]
 piloci: [mobile-doll]
 pochodzenie: menu
+zrodla:
+  - https://gundam.fandom.com/wiki/OZ-12SMS_Taurus
 tagi: [srw-y, mobile-suit, gundam-wing]
 utworzono: 2026-11-09
 w_gre:
@@ -15,6 +17,11 @@ w_gre:
 {{menu gra=srw-y
 
 Masowo produkowany transformowalny mobile suit. Może mieć pilota, ale jako pierwszy otrzymał też bezzałogowy system bojowy Mobile Doll. Maszyny z tym systemem reagują szybciej niż przeciętny pilot, są bardzo mobilne i celnie strzelają, lecz doświadczeni piloci łatwo odczytują ich schematy działania.
+}}
+
+{{zrodlo gra=wspolne
+
+W uniwersum [[mobile-suit-gundam-wing-endless-waltz|pierwowzoru]] OZ-12SMS Taurus to seryjny kosmiczny mobile suit transformujący się do trybu lotu i pierwsza maszyna z wbudowanym systemem bezzałogowego sterowania [[mobile-doll|Mobile Doll]]; pozwala on wykonywać manewry ponad ludzką wytrzymałość na przeciążenia, ale kosztem schematyczności ruchów ([Gundam Wiki, „OZ-12SMS Taurus”](https://gundam.fandom.com/wiki/OZ-12SMS_Taurus); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-y

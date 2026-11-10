@@ -7,12 +7,20 @@ rola: pilot
 mechy: []
 gry: [srw-y]
 pochodzenie: menu
+zrodla:
+  - https://en.wikipedia.org/wiki/Getter_Robo_Arc
+  - https://getterrobo.fandom.com/wiki/Baku_Yamagishi
 tagi: [srw-y, pilot, getter-robo]
 utworzono: 2026-11-09
 ---
 {{menu gra=srw-y
 
 Pilot Getter Khana. Ma 22 lata. Młodszy brat Tahira, założyciela religii Zielonej Ziemi, który niegdyś pilotował Shin Getter Robota. Ma słaby dar przewidywania, lecz wie, że daleko mu do brata, i gnębi go to. Dobroduszny olbrzym. Wspiera Takumę, z którym podróżuje od dziecka, a przyjmując los związanych z Getterem, postanawia walczyć jako członek drużyny Gettera.
+}}
+
+{{zrodlo gra=wspolne
+
+W [[getter-robo-arc|pierwowzorze]] Baku Yamagishi (山岸 獏) to 22-letni mnich zen, młodszy brat Messiaha Tyra i towarzysz [[takuma-nagare|Takumy Nagare]], który wyczuwa promienie Gettera, zna się na elektronice i pilotuje nastawionego na obronę Getter Khana ([Wikipedia, *Getter Robo Arc*](https://en.wikipedia.org/wiki/Getter_Robo_Arc); [Getter Robo Wiki, „Baku Yamagishi”](https://getterrobo.fandom.com/wiki/Baku_Yamagishi); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-y

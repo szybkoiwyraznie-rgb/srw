@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-10 23:59
+
+- W [[klasa-obrony-ziemi|Klasie Obrony Ziemi]] [[hidenori-kondo|Hidenori Kondo]] obsługuje radar [[raijin-oh|Raijin-Oha]], [[hiroshi-takamori|Hiroshi Takamori]] czuwa nad zabezpieczeniami broni i bywa drugim pilotem [[bakuryu-oh|Bakuryu-Oha]], [[yu-izumi|Yu Izumi]] monitoruje połączenie maszyn, a [[miki-mano|Miki Mano]] nadzoruje energię oraz wyrzutnię Bakuryu Cuttera; w [[saurersi|Saurersach]] [[shuzo-osada|Shuzo Osada]] opiekuje się mechaniką, [[ikuyo-oyama|Ikuyo Oyama]] obsługuje pierwszą maszynownię, a [[yuka-mizuhara|Yuka Mizuhara]] śledzi radar.
+- [[general-takeda|Generał Takeda]] przewodzi Siłom Obrony we wszystkich czterech odsłonach cyklu [[eldran|Eldran]], a w [[srw-y|Super Robot Wars Y]] [[baku-yamagishi|Baku Yamagishi]], [[yomogi-asanaka|Yomogi Asanaka]] i [[zero|Zero]] (w [[lancelot-albion-zero|Lancelocie Albion Zero]]) walczą w świecie [[altron-gundam|Altron Gundama]] i bezzałogowych [[taurus|Taurusów]].
+
 ## 2026-11-10 23:58
 
 - Załoga z [[getter-robo-armageddon|*Getter Robo Armageddon*]] ([[go|Go]], [[kei|Kei]] i [[gai|Gai]] w [[shin-getter-1|Shin Getterze]]) oraz [[koji-kabuto|Koji Kabuto]] ze świata [[mazinger-edition-z-the-impact|*Mazinger Edition Z: The Impact!*]] dołączyli w [[srw-oe-ep2-grozba-pod-ziemia|podziemnej bitwie]] do [[connect-force|Connect Force]] na [[stacja-connect|Stacji Connect]].

@@ -7,6 +7,8 @@ typ_mecha: mobile suit
 gry: [srw-y]
 piloci: [chang-wufei]
 pochodzenie: menu
+zrodla:
+  - https://gundam.fandom.com/wiki/XXXG-01S2_Altron_Gundam_EW
 tagi: [srw-y, mobile-suit, gundam-wing]
 utworzono: 2026-11-09
 w_gre:
@@ -15,6 +17,11 @@ w_gre:
 {{menu gra=srw-y
 
 Gundam pilotowany przez Wufeia. Wyspecjalizowany w walce wręcz, ma znakomitą zwrotność. Jedyną bronią ręczną jest podwójny trójząb wiązkowy, co czyni go skrajnie nastawionym na zwarcie, ale Dragon Fang na obu ramionach pozwalają mu walczyć też na średnim dystansie. Broń ta, oddająca jego miano “dwugłowego smoka”, wysuwa się i chowa dowolnie, a wielostawowa budowa z połączonych kwadratowych segmentów umożliwia wyjątkowo elastyczne ataki.
+}}
+
+{{zrodlo gra=wspolne
+
+W [[mobile-suit-gundam-wing-endless-waltz|pierwowzorze]] *Endless Waltz* XXXG-01S2 Altron Gundam (nazywany przez [[chang-wufei|Changa Wufeia]] także „Nataku”, od chińskiego *ertou long* — „dwugłowy smok”) jest ulepszeniem Shenlonga wyposażonym w parę dalekosiężnych Dragon Fang na przedramionach oraz dwustronny Twin Beam Trident ([Gundam Wiki, „XXXG-01S2 Altron Gundam” (EW)](https://gundam.fandom.com/wiki/XXXG-01S2_Altron_Gundam_EW); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-y

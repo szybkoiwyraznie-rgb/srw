@@ -7,12 +7,20 @@ rola: pilot
 mechy: [lancelot-albion-zero]
 gry: [srw-y]
 pochodzenie: menu
+zrodla:
+  - https://geass.jp/R-geass/character.php
+  - https://34.suparobo.jp/character/chara16/
 tagi: [srw-y, pilot, code-geass]
 utworzono: 2026-11-09
 ---
 {{menu gra=srw-y
 
 Główny doradca Czarnych Rycerzy. W czarnym Knightmare Frame walczy, by wykorzenić terroryzm i konflikty. Naprawdę to Suzaku, który spełnia życzenie Leloucha.
+}}
+
+{{zrodlo gra=wspolne
+
+W pierwowzorze z linii filmów [[code-geass-lelouch-of-the-rebellion-iii-glorification|*Glorification*]] i [[code-geass-lelouch-of-the-re-surrection|*Lelouch of the Re;surrection*]] Zero (ゼロ) to zamaskowana rola głównego doradcy [[czarni-rycerze|Czarnych Rycerzy]], którą po upadku cesarza Leloucha pełni Suzaku Kururugi ([Code Geass Official — *Lelouch of the Re;surrection*, Character](https://geass.jp/R-geass/character.php); [Super Robot Wars Y Official — Character](https://34.suparobo.jp/character/chara16/); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-y

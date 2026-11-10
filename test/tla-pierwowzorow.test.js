@@ -316,3 +316,31 @@ test('serie z pochodzeniem skrypt mają opis udziału w SRW OE i tytuł japońsk
     assert.match(seria.body, /^\{\{zrodlo gra=wspolne\n/m, `${slug}: blok zrodlo`);
   }
 });
+
+test('pozostała obsada wsparcia Eldrana, Generał Takeda i nazwane encje SRW Y mają tło ze źródeł (ADR 0008, ADR 0013)', () => {
+  for (const [slug, wzorzec] of [
+    ['hidenori-kondo', /近藤 ひでのり/],
+    ['hiroshi-takamori', /高森 ひろし/],
+    ['miki-mano', /真野 美紀/],
+    ['yu-izumi', /泉 ゆう/],
+    ['shuzo-osada', /長田 秀三/],
+    ['ikuyo-oyama', /大山 育代/],
+    ['yuka-mizuhara', /水原 結花/],
+    ['general-takeda', /武田長官/],
+    ['zero', /Suzaku Kururugi/],
+    ['yomogi-asanaka', /麻中 蓬/],
+    ['baku-yamagishi', /山岸 獏/],
+    ['altron-gundam', /XXXG-01S2 Altron Gundam/],
+    ['lancelot-albion-zero', /ランスロット・アルビオンゼロ/],
+    ['taurus', /OZ-12SMS Taurus/],
+  ]) {
+    const page = bySlug.get(slug);
+    assert.ok(page, `${slug}: strona istnieje`);
+    assert.ok(Array.isArray(page.zrodla) && page.zrodla.length >= 1, `${slug}: zrodla`);
+    const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
+    assert.ok(blok, `${slug}: blok zrodlo`);
+    assert.match(blok[1], /sprawdzono 2026-11-10/, `${slug}: data sprawdzenia`);
+    assert.match(blok[1], wzorzec, `${slug}: zapis lub wyróżnik ze źródła`);
+    for (const url of page.zrodla) assert.ok(blok[1].includes(url), `${slug}: link w treści`);
+  }
+});
