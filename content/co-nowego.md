@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-10 23:50
+
+- [[oficer-zeonu|Oficer Zeonu]] dowodzi okrętami [[zanzibar|Zanzibar]] w [[srw-oe-ep2-bitwa-o-jaburo|bitwie o Jaburo]] i [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu za Zanzibarem]] oraz dwoma krążownikami [[musai|Musai]] [[patrolowa-flota-camel|Patrolowej Floty Camel]].
+
 ## 2026-11-10 23:45
 
 - [[kanzen-shouri-daiteioh|*Kanzen Shouri Daiteioh*]] (完全勝利ダイテイオー) powstał jako manga w magazynie *Dengeki Hobby Magazine* i jednoodcinkowy film pilotażowy OVA z grudnia 2001 roku — planowany serial telewizyjny nigdy nie trafił na antenę.

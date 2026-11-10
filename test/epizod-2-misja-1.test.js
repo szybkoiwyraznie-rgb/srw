@@ -204,6 +204,8 @@ test('dwadzieścia jeden nowych postaci ma właściwe role, parametry i brak spo
     const p = bySlug.get(slug);
     assert.equal(p.rola, 'pilot', slug);
     assert.equal(p.seria, undefined, `${slug}: brak wpisu serii w słowniku postaci`);
+    assert.match(p.body, /\{\{skrypt gra=srw-oe/, `${slug}: narracja ze skryptu ma poziom skrypt`);
+    assert.doesNotMatch(p.body, /\{\{wiedza/, `${slug}: bez niezweryfikowanego bloku wiedzy`);
     assert.match(p.body, /\*\*Rój\*\*/, `${slug}: umiejętność Rój`);
   }
 

@@ -118,6 +118,13 @@ test('nowe profile dowódcze zachowują wartości z dostawy', () => {
   assert.equal(bySlug.get('general-revil').seria, 'mobile-suit-gundam-1979');
   assert.equal(bySlug.get('general-revil').rola, 'dowodztwo');
   assert.match(bySlug.get('general-revil').body, /niebezpieczny precedens/);
+
+  const oficerZeonu = bySlug.get('oficer-zeonu');
+  assert.equal(oficerZeonu.pochodzenie, 'skrypt');
+  for (const link of ['zanzibar', 'musai', 'srw-oe-ep1-powstrzymaj-pocisk-termojadrowy',
+    'srw-oe-ep2-bitwa-o-jaburo', 'srw-oe-ep2-przebicie-sila', 'srw-oe-ep2-w-poscigu-za-zanzibarem']) {
+    assert.ok(oficerZeonu.body.includes(`[[${link}|`), `oficer-zeonu linkuje ${link}`);
+  }
 });
 
 test('odcinek 25 i Traktat Antarktyczny mają sprawdzone źródła, bez surowych etykiet w treści', () => {
