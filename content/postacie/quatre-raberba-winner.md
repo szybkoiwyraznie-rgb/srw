@@ -6,6 +6,7 @@ rola: pilot
 gry: [srw-y]
 pochodzenie: skrypt
 zrodla:
+  - https://mechabay.com/operation-meteor
   - https://en.gundam-official.com/character/qfbulwbqzj4wit2jqoe154qf
 tagi: [gundam-wing, pilot]
 utworzono: 2026-11-09
@@ -18,4 +19,6 @@ Na widok cesarza [[lelouch-vi-britannia|Leloucha]] podczas parady Quatre Raberba
 {{zrodlo gra=wspolne
 
 Oficjalny profil *Mobile Suit Gundam Wing: Endless Waltz* identyfikuje Quatre Raberbę Winnera jako jedną z postaci tej produkcji ([GUNDAM Official — Quatre Raberba Winner](https://en.gundam-official.com/character/qfbulwbqzj4wit2jqoe154qf); sprawdzono 2026-11-09).
+
+W [[mobile-suit-gundam-wing-endless-waltz|pierwowzorze]] Quatre pochodzi z rodu właścicieli kolonii Winnerów i wyznaje pacyfizm, a mimo to Instructor H namówił go do przyjęcia Gundama Sandrocka i udziału w operacji Meteor. Jego oddział Maganac Corps towarzyszy mu przez całą wojnę ([MechaBay, „Operation Meteor”](https://mechabay.com/operation-meteor); sprawdzono 2026-11-11).
 }}

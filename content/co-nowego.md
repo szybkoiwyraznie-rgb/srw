@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-11-11 19:02
+
+- [[heero-yuy|Heero Yuy]], wychowany przez Doctora J na żołnierza bez emocji, przyjął pseudonim po zamordowanym pacyfiście i w 195 roku Kalendarza Kolonii zszedł na Ziemię w Wing Gundamie, żeby uderzać w instalacje OZ.
+- [[duo-maxwell|Duo Maxwell]], zwany „Bogiem Śmierci”, wyszedł z sierocińca klastra L2 do grupy Sweeperów i odmówił udziału w pierwotnym planie operacji Meteor, ruszając z Gundamem Deathscythe’em przeciw OZ.
+- [[trowa-barton|Trowa Barton]] przyjął tożsamość syna Dekima Bartona po jego śmierci i jako pilot Heavyarmsa udawał artystę cyrkowego, uchodząc za najspokojniejszego z piątki.
+- [[quatre-raberba-winner|Quatre Raberba Winner]] pochodzi z rodu, który dał nazwę kolonii Winnerów; choć wyznaje pacyfizm, przyjął Gundama Sandrocka i walczył u boku oddziału Maganac Corps.
+
 ## 2026-11-11 18:44
 
 - [[haman-karn|Haman Karn]] jako córka Maharadży Karny dorastała na asteroidzie Axis wśród niedobitków Księstwa [[zeon|Zeonu]] i w 0087 roku wprowadziła siły Axis do wojny jako trzecia siła konfliktu, prowadząc własną maszynę Qubeley.
