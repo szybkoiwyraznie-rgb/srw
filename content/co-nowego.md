@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-11 17:52
+
+- [[mobile-doll|Mobile Doll]] to komputerowy system sterowania [[mobile-suit|mobile suitami]], który pozwala maszynie walczyć bez człowieka w kabinie; pierwszym seryjnym modelem przystosowanym do tego trybu był [[taurus|OZ-12SMS Taurus]], a późniejszy OZ-02MD Virgo nie miał już kabiny w ogóle.
+
 ## 2026-11-11 17:30
 
 - W *Endless Waltz* nazwę [[altron-gundam|Altron]] wywodzi się z chińskiego *ertou long* — „dwugłowy smok” — od pary smoczych szponów Dragon Fang; „Nataku” to imię, którym [[chang-wufei|Chang Wufei]] nazywa swoją maszynę.
