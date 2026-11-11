@@ -628,7 +628,7 @@ Kamina ogłasza, że odtąd wszyscy są członkami Gurren Teamu; uczniowie wytyk
 
 ### Szczątki Laborów
 
-Po omówieniu [[shuzo-osada|Shuzo]] i [[takako-kojima|Profesor]] donoszą, że zniszczone Labory nie zostały po prostu zmechanizowane, a miejsce ukrycia zmechanizowanych Laborów pozostaje nieznane. [[aiko-shimada|Love]] i [[miki-mano|Miki]] zwracają uwagę, że sam pojawienie się Laborów wśród mechabestii jest nowością; [[hidenori-kondo|Hidenori]] pyta, jak znaleźć bazę Imperium.
+Po omówieniu [[shuzo-osada|Shuzo]] i [[takako-kojima|Profesor]] donoszą, że zniszczone Labory nie zostały po prostu zmechanizowane, a miejsce ukrycia zmechanizowanych Laborów pozostaje nieznane. [[aiko-shimada|Love]] i [[miki-mano|Miki]] zwracają uwagę, że samo pojawienie się Laborów wśród mechabestii jest nowością; [[hidenori-kondo|Hidenori]] pyta, jak znaleźć bazę Imperium.
 
 ### Kto poleci w kosmos
 

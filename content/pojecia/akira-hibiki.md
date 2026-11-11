@@ -16,5 +16,5 @@ Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] [[hyoma-aoi|Hyoma]] zwr
 
 {{zrodlo gra=wspolne
 
-Oficjalne streszczenie *Yūsha Reideen* w serwisie Super Robot Wars Y identyfikuje Akirę Hibiki (ひびき洸) jako kapitana szkolnej drużyny piłkarskiej, który wsiada do Reideena i staje do walki z Imperium Yoma ([34.suparobo.jp, „Character”](https://34.suparobo.jp/character/chara01/); sprawdzono 2026-11-09).
+Oficjalne streszczenie *Yūsha Reideen* w serwisie Super Robot Wars Y identyfikuje Akirę Hibiki (ひびき洸) jako kapitana szkolnej drużyny piłkarskiej, który wsiada do Reideena i staje do walki z [[imperium-yoma|Imperium Yoma]] ([34.suparobo.jp, „Character”](https://34.suparobo.jp/character/chara01/); sprawdzono 2026-11-09).
 }}

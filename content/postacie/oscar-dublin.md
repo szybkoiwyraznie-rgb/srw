@@ -21,7 +21,7 @@ Podczas startu z [[white-base|White Base]] wykrywa przechwytujące siły wroga, 
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-1979|pierwowzorze]] Oscar Dublin jest jednym z dwóch operatorów [[white-base|White Base]]: pracuje przy konsoli zwróconej na prawą burtę, a przy drugiej, lewoburtowej, siedzi [[marker|Marker Clan]] ([Gundam Wiki, „Oscar Dublin”](https://gundam.fandom.com/wiki/Oscar_Dublin); sprawdzono 2026-10-24).
+W [[mobile-suit-gundam-1979|pierwowzorze]] z [[uc-0079|U.C. 0079]] Oscar Dublin jest jednym z dwóch operatorów [[white-base|White Base]] w siłach [[earth-federation|Federacji]]: pracuje przy konsoli zwróconej na prawą burtę, a przy drugiej, lewoburtowej, siedzi [[marker|Marker Clan]] ([Gundam Wiki, „Oscar Dublin”](https://gundam.fandom.com/wiki/Oscar_Dublin); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe

@@ -18,5 +18,5 @@ Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]]
 
 {{zrodlo gra=wspolne
 
-W serialu *Genki Bakuhatsu Ganbaruger* (1992), drugiej odsłonie cyklu Eldran rozgrywającej się rok po wydarzeniach z [[matchless-raijin-oh|*Matchless Raijin-Oh*]] w sąsiadującym z Hinobori mieście Aozora, Daimakai (大魔界, Świat Demonów) jest krainą demonów, której władcę Gokuarka Eldran utrzymywał w zamknięciu ([Wikipedia, *Genki Bakuhatsu Ganbaruger*](https://en.wikipedia.org/wiki/Genki_Bakuhatsu_Ganbaruger); sprawdzono 2026-10-24).
+W serialu [[genki-bakuhatsu-ganbaruger|*Genki Bakuhatsu Ganbaruger*]] (1992), drugiej odsłonie cyklu Eldran rozgrywającej się rok po wydarzeniach z [[matchless-raijin-oh|*Matchless Raijin-Oh*]] w sąsiadującym z Hinobori mieście Aozora, Daimakai (大魔界, Świat Demonów) jest krainą demonów, której władcę Gokuarka [[eldran|Eldran]] utrzymywał w zamknięciu ([Wikipedia, *Genki Bakuhatsu Ganbaruger*](https://en.wikipedia.org/wiki/Genki_Bakuhatsu_Ganbaruger); sprawdzono 2026-10-24).
 }}

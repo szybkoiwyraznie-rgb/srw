@@ -15,7 +15,7 @@ utworzono: 2026-11-01
 
 Jednostka [[mucus|Mucus]] o uzbrojeniu obejmującym Spark, Breakthrough i Crash. Breakthrough pozwala przebić się przez obszar działania ataku, a Crash odpycha przeciwnika.
 
-W [[srw-oe-ep2-ryk-dziczy|treningu na stacji Connect]] Nekton Creek występuje jako holograficzny przeciwnik wyświetlany przez drony ćwiczebne, obok [[nekton-assault|Nekton Assault]]. [[suol|Suol]] ustawia siłę pozornych wrogów powyżej ostatnich odczytów bojowych, by przygotować pilotów na przyszłe zagrożenia. Nie jest to wtargnięcie żywych Mucus na stację.
+W [[srw-oe-ep2-ryk-dziczy|treningu na stacji Connect]] Nekton Creek występuje jako holograficzny przeciwnik wyświetlany przez drony ćwiczebne, obok [[nekton-assault|Nekton Assault]]. [[suol|Suol]] ustawia siłę pozornych wrogów powyżej ostatnich odczytów bojowych, by przygotować pilotów na przyszłe zagrożenia. Nie jest to wtargnięcie żywych [[mucus|Mucus]] na [[stacja-connect|stację]].
 }}
 
 {{menu gra=srw-oe

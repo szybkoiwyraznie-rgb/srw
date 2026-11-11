@@ -1,7 +1,9 @@
 # 0039 — „Powiązania” pokazują 50 pozycji; resztę odsłania „Rozwiń”
 
 Data: 2026-11-10
-Status: obowiązujący; uzupełnia ADR 0038 (skład i układ boksu bez zmian).
+Status: obowiązujący; uzupełnia ADR 0038 i współpracuje z [ADR 0040](0040-powiazania-tylko-sceny-i-hasla.md)
+(po ograniczeniu typów w „Powiązaniach” encji mechanizm zwijania ponad 50 pozycji zostaje gotowy
+na dalszy rozrost scen i haseł).
 
 ## Kontekst
 

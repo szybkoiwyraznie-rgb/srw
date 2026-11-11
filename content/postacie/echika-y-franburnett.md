@@ -12,7 +12,7 @@ utworzono: 2026-11-09
 ---
 {{menu gra=srw-y
 
-Córka właściciela ziemskiego z miasta Yagami. Ma 14 lat. Dziewczyna. Straciła oboje rodziców; mieszkała w ogromnej rezydencji w mieście Yagami z guwernantką, Anniną, i 99 pokojówkami. Nie chodziła do szkoły, lecz Annina przygotowywała ją do roli przyszłej władczyni, ucząc nie tylko polityki i ekonomii, ale nawet sztuki wojennej. Sumienna, we wszystko angażuje się całym sercem i nie znosi przegrywać. Mało obcowała z ludźmi, więc niezgrabnie nawiązuje kontakty, lecz przy bliskich bywa dziecinna, jak przystało na jej wiek.
+Córka właściciela ziemskiego z [[miasto-yagami|miasta Yagami]]. Ma 14 lat. Dziewczyna. Straciła oboje rodziców; mieszkała w ogromnej rezydencji w mieście Yagami z guwernantką, Anniną, i 99 pokojówkami. Nie chodziła do szkoły, lecz Annina przygotowywała ją do roli przyszłej władczyni, ucząc nie tylko polityki i ekonomii, ale nawet sztuki wojennej. Sumienna, we wszystko angażuje się całym sercem i nie znosi przegrywać. Mało obcowała z ludźmi, więc niezgrabnie nawiązuje kontakty, lecz przy bliskich bywa dziecinna, jak przystało na jej wiek.
 }}
 
 {{menu gra=srw-y

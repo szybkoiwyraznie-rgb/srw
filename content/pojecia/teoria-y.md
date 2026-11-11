@@ -9,5 +9,5 @@ utworzono: 2026-11-09
 ---
 {{menu gra=srw-y
 
-Koncepcja, z której doktor Yagami wyprowadził trzy kierunki pamięci STG. Łączy dwa przeciwstawne bieguny z dodatkowym wektorem, tworząc figurę Y i otwierając wiele możliwości.
+Koncepcja, z której [[tetsuro-yagami|doktor Yagami]] wyprowadził trzy kierunki [[pamiec-stg|pamięci STG]]. Łączy dwa przeciwstawne bieguny z dodatkowym wektorem, tworząc figurę Y i otwierając wiele możliwości.
 }}

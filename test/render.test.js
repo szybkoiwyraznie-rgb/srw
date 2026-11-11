@@ -102,6 +102,11 @@ test('wyszukiwanie znajduje po tytule i po treści', () => {
   const poTresci = renderSzukanie('Exart');
   assert.match(poTresci, /Prolog i trening/);
 
+  // szukanie po pseudonimie pokazuje przezwisko w metadanych wyniku
+  const poPseudonimie = renderSzukanie('Potato');
+  assert.match(poPseudonimie, /Orie Ishizuka/);
+  assert.match(poPseudonimie, /„<mark>Potato<\/mark>” · Postać/);
+
   assert.match(renderSzukanie(''), /Wpisz frazę/);
   assert.match(renderSzukanie('zzznie-ma-takiego'), /Nic nie znaleziono/);
 });

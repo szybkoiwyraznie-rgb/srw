@@ -22,7 +22,7 @@ W dialogu odwrotu melduje, że to koniec, i wycofuje się zgodnie z rozkazem.
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-0080|pierwowzorze]] Garcia odpowiada w [[pluton-cyclops|plutonie Cyclops]] za broń strzelecką i materiały wybuchowe ([Gundam Wiki, „Cyclops Team”](https://gundam.fandom.com/wiki/Cyclops_Team); sprawdzono 2026-10-24). W ataku na arktyczną bazę — tak jak [[mikhail-kaminsky|Misza]] i [[andy-strauss|Andy]] — pilotuje amfibijnego Hy-Gogga ([MAHQ, „Gundam 0080 Ep. 1: How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); sprawdzono 2026-10-23).
+W [[mobile-suit-gundam-0080|pierwowzorze]] z [[uc-0079|U.C. 0079]] Garcia odpowiada w [[pluton-cyclops|plutonie Cyclops]] sił [[zeon|Zeonu]] za broń strzelecką i materiały wybuchowe ([Gundam Wiki, „Cyclops Team”](https://gundam.fandom.com/wiki/Cyclops_Team); sprawdzono 2026-10-24). W ataku na arktyczną bazę — tak jak [[mikhail-kaminsky|Misza]] i [[andy-strauss|Andy]] — pilotuje amfibijnego Hy-Gogga ([MAHQ, „Gundam 0080 Ep. 1: How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); sprawdzono 2026-10-23).
 }}
 
 {{menu gra=srw-oe

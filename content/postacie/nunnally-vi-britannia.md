@@ -12,7 +12,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Nunnally vi Britannia zwraca się do brata podczas parady, gdy Zero zabija cesarza Leloucha. Po raz drugi woła go jeszcze rozpaczliwiej.
+Nunnally vi Britannia zwraca się do brata podczas parady, gdy Zero zabija cesarza [[lelouch-vi-britannia|Leloucha]]. Po raz drugi woła go jeszcze rozpaczliwiej.
 }}
 
 {{zrodlo gra=wspolne

@@ -14,7 +14,7 @@ utworzono: 2026-11-09
 ---
 {{menu gra=srw-y
 
-*Super Robot Wars Y* otwiera opowieść po wojnie rewolucyjnej, gdy Ziemia i kolonie próbują zbudować pokój, a nowa fala terroryzmu oraz nieznane zagrożenia ponownie wciągają bohaterów różnych światów do walki. Historia prowadzi od parady cesarza Leloucha do miasta Yagami, gdzie Echika Y. Franburnett dziedziczy A. Advent i tajemnicę systemu Nira-Kana-I.
+*Super Robot Wars Y* otwiera opowieść po [[wojna-rewolucyjna|wojnie rewolucyjnej]], gdy Ziemia i kolonie próbują zbudować pokój, a nowa fala terroryzmu oraz nieznane zagrożenia ponownie wciągają bohaterów różnych światów do walki. Historia prowadzi od parady cesarza [[lelouch-vi-britannia|Leloucha]] do [[miasto-yagami|miasta Yagami]], gdzie Echika Y. Franburnett dziedziczy A. Advent i tajemnicę [[nira-kana-i|systemu Nira-Kana-I]].
 }}
 
 {{zrodlo gra=wspolne

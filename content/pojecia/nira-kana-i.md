@@ -9,5 +9,5 @@ utworzono: 2026-11-09
 ---
 {{menu gra=srw-y
 
-Rdzeń napędowy [[a-advent|A. Adventu]], opracowany przez doktora Yagamiego. Wytwarza energię potrzebną do poruszania mobilnej fortecy-miasta i ma służyć do wydobywania [[pamiec-stg|pamięci STG]].
+Rdzeń napędowy [[a-advent|A. Adventu]], opracowany przez [[tetsuro-yagami|doktora Yagamiego]]. Wytwarza energię potrzebną do poruszania mobilnej fortecy-miasta i ma służyć do wydobywania [[pamiec-stg|pamięci STG]].
 }}

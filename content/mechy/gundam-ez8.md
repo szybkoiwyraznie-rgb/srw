@@ -23,7 +23,7 @@ Shiro wycofuje uszkodzoną maszynę [[karen-joshua|Karen]] do hangaru, a następ
 
 {{zrodlo gra=wspolne
 
-W pierwowzorze Ez8 nigdy nie wyjechał z fabryki. W ostatnich miesiącach wojny [[earth-federation|Federacja]] przestawiła produkcję na seryjne GM-y, a [[gundam-ground-type|Ground Type’ów]] — samych złożonych z nadwyżek po prototypie [[rx-78-2-gundam|Gundama]] — nie było już czym naprawiać. Gdy maszyna [[shiro-amada|Shiro]] została rozbita, mechanicy batalionu poskładali ją od nowa z tego, co mieli pod ręką: zamiast charakterystycznego „V-fina” pojawiła się solidniejsza antena łączności, w głowie dwa karabiny 35 mm, a w torsie obrotowe działko 12,7 mm do obrony przed piechotą. Sama nazwa to skrót od „extra zero-eight” ([MAHQ, „Gundam Ez8”](https://www.mahq.net/rx-79gez-8/); sprawdzono 2026-10-24).
+W pierwowzorze z [[uc-0079|U.C. 0079]] Ez8 nigdy nie wyjechał z fabryki. W ostatnich miesiącach wojny [[earth-federation|Federacja]] przestawiła produkcję na seryjne [[mobile-suit|mobile suity]] GM, a [[gundam-ground-type|Ground Type’ów]] — samych złożonych z nadwyżek po prototypie [[rx-78-2-gundam|Gundama]] — nie było już czym naprawiać. Gdy maszyna [[shiro-amada|Shiro]] została rozbita, mechanicy batalionu poskładali ją od nowa z tego, co mieli pod ręką: zamiast charakterystycznego „V-fina” pojawiła się solidniejsza antena łączności, w głowie dwa karabiny 35 mm, a w torsie obrotowe działko 12,7 mm do obrony przed piechotą. Sama nazwa to skrót od „extra zero-eight” ([MAHQ, „Gundam Ez8”](https://www.mahq.net/rx-79gez-8/); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe

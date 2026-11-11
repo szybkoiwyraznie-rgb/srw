@@ -12,7 +12,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Heero Yuy ogląda paradę kończącą wojnę rewolucyjną. Gdy pojawia się cesarz [[lelouch-vi-britannia|Lelouch]], ucina słowa [[duo-maxwell|Duo]] — „Nic nie mów…” — i pyta odchodzącego [[chang-wufei|Wufeia]], dokąd idzie. Kiedy na trasie zjawia się [[zero|Zero]], myśli o Suzaku Kururugim, który dotrzymał obietnicy, a potem o Lelouchu: jeśli takiego zakończenia chciał, Heero mu tego nie wybaczy.
+Heero Yuy ogląda paradę kończącą [[wojna-rewolucyjna|wojnę rewolucyjną]]. Gdy pojawia się cesarz [[lelouch-vi-britannia|Lelouch]], ucina słowa [[duo-maxwell|Duo]] — „Nic nie mów…” — i pyta odchodzącego [[chang-wufei|Wufeia]], dokąd idzie. Kiedy na trasie zjawia się [[zero|Zero]], myśli o Suzaku Kururugim, który dotrzymał obietnicy, a potem o Lelouchu: jeśli takiego zakończenia chciał, Heero mu tego nie wybaczy.
 }}
 
 {{zrodlo gra=wspolne

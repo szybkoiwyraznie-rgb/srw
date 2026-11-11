@@ -1,5 +1,42 @@
 # Co nowego
 
+## 2026-11-10 23:59
+
+- [[wojna-rewolucyjna|Wojna rewolucyjna]] w [[srw-y|Super Robot Wars Y]] połączyła siły [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]], [[czarni-rycerze|Czarnych Rycerzy]] i zwalczanego przez [[logos|Logos]] [[gilbert-dullindal|Gilberta Dullindala]], podczas gdy rok po jej zakończeniu [[tetsuro-yagami|Tetsuro Yagami]] powierzył [[echika-y-franburnett|Echice]] [[a-advent|A. Advent]], [[miasto-yagami|miasto Yagami]], [[nira-kana-i|System Nira-Kana-I]] oraz opiekę wynikającą z [[teoria-y|teorii Y]] i [[pamiec-stg|pamięci STG]].
+- Podczas Wojny Jednorocznej ([[uc-0079|U.C. 0079]]) załoga [[white-base|White Base]] z [[13-samodzielny-oddzial|13. Samodzielnego Oddziału]], oddziały [[earth-federation|Federacji Ziemskiej]] (w tym [[08-pluton-ms|08. Pluton MS]]) i [[pluton-cyclops|pluton Cyclops]] Księstwa [[zeon|Zeonu]] ścierały się o [[mobile-suit|mobile suity]] i [[mobile-armor|mobile armory]] w rejonie [[loum|Loum]] oraz przy zakazie broni jądrowej ustanowionym przez [[traktat-antarktyczny|Traktat Antarktyczny]].
+- Drużyny [[eldran|Eldrana]] — [[klasa-obrony-ziemi|Klasa Obrony Ziemi]], [[saurersi|Saurersi]] i drużyna Ganba z [[genki-bakuhatsu-ganbaruger|*Genki Bakuhatsu Ganbarugera*]] — walczą kolejno z siłami [[jaku-empire|Imperium Jaku]], [[mechanization-empire|Imperium Mechanizacji]] oraz [[daimakai|Daimakai]], podczas gdy [[sv2|SV2]], [[sily-samoobrony-japonii|Siły Samoobrony Japonii]] i [[cyber-beast-force|Cyber Beast Force]] współpracują na [[poligon-fuji|poligonie Fuji]] oraz przeciw [[hss|HSS]] w świecie [[labor|Laborów]].
+
+## 2026-11-10 23:58
+
+- W [[klasa-obrony-ziemi|Klasie Obrony Ziemi]] [[hidenori-kondo|Hidenori Kondo]] obsługuje radar [[raijin-oh|Raijin-Oha]], [[hiroshi-takamori|Hiroshi Takamori]] czuwa nad zabezpieczeniami broni i bywa drugim pilotem [[bakuryu-oh|Bakuryu-Oha]], [[yu-izumi|Yu Izumi]] monitoruje połączenie maszyn, a [[miki-mano|Miki Mano]] nadzoruje energię oraz wyrzutnię Bakuryu Cuttera; w [[saurersi|Saurersach]] [[shuzo-osada|Shuzo Osada]] opiekuje się mechaniką, [[ikuyo-oyama|Ikuyo Oyama]] obsługuje pierwszą maszynownię, a [[yuka-mizuhara|Yuka Mizuhara]] śledzi radar.
+- [[general-takeda|Generał Takeda]] przewodzi Siłom Obrony we wszystkich czterech odsłonach cyklu [[eldran|Eldran]], a w [[srw-y|Super Robot Wars Y]] [[baku-yamagishi|Baku Yamagishi]], [[yomogi-asanaka|Yomogi Asanaka]] i [[zero|Zero]] (w [[lancelot-albion-zero|Lancelocie Albion Zero]]) walczą w świecie [[altron-gundam|Altron Gundama]] i bezzałogowych [[taurus|Taurusów]].
+
+## 2026-11-10 23:56
+
+- Załoga z [[getter-robo-armageddon|*Getter Robo Armageddon*]] ([[go|Go]], [[kei|Kei]] i [[gai|Gai]] w [[shin-getter-1|Shin Getterze]]) oraz [[koji-kabuto|Koji Kabuto]] ze świata [[mazinger-edition-z-the-impact|*Mazinger Edition Z: The Impact!*]] dołączyli w [[srw-oe-ep2-grozba-pod-ziemia|podziemnej bitwie]] do [[connect-force|Connect Force]] na [[stacja-connect|Stacji Connect]].
+- Z innego świata przez skalną ścianę przebiła się [[gurren-team|drużyna Gurren]] z [[tengen-toppa-gurren-lagann|*Tengen Toppa Gurren Lagann*]], która po walce w lesie Aokigahara wyruszyła na orbitę, podczas gdy Ziemi przeciw [[mechanization-empire|Imperium Mechanizacji]] ponownie bronili [[saurersi|Saurersi]] z [[nekketsu-saikyo-go-saurer|*Nekketsu Saikyo Go-Saurer*]].
+
+## 2026-11-10 23:54
+
+- [[taro-omomo|Taro Omomo]], [[mai-ozora|Mai Ozora]] i [[kakeru-daichi|Kakeru Daichi]] pochodzą z klasy 5-3 Szkoły Podstawowej Gokuraku, do której dołącza [[hiryu-tsukishiro|Hiryu Tsukishiro]] — kuzyn [[asuka-tsukishiro|Asuki Tsukishiro]].
+- [[kotaro-kirigakure|Kotaro Kirigakure]], [[yosuke-kazamatsuri|Yosuke Kazamatsuri]] i [[rikiya-ryuzaki|Rikiya Ryuzaki]] uczą się w klasie 4-1 Szkoły Podstawowej Aozora, a po przejęciu mocy [[eldran|Eldrana]] walczą w kombinezonach Yellow, Blue i Red Ganbar.
+
+## 2026-11-10 23:52
+
+- [[daiteioh|Daiteioh]] powstaje ze Zwycięskiego Połączenia Teioha, Kuuoha i Rikuoha, a w parze z Dairyuoh [[hiryu-tsukishiro|Hiryu Tsukishiro]] tworzy [[perfect-daiteioh|Perfect Daiteioha]].
+- [[ganbaruger|Ganbaruger]] składa się z Go Tigera, Mach Eagle’a i King Elephanta, a z Revolgerem i Gekiryugerem łączy się w [[great-ganbaruger|Great Ganbarugera]].
+- [[gandoppler|Gandoppler]] przemienia się między myśliwcem a formą bojową, a ciężkie działo 105 mm znane z wariantu [[brocken-cannon|Brocken/Cannon]] należy do opcjonalnego uzbrojenia jednoosobowego [[brocken|Brockena]].
+
+## 2026-11-10 23:50
+
+- [[oficer-zeonu|Oficer Zeonu]] dowodzi okrętami [[zanzibar|Zanzibar]] w [[srw-oe-ep2-bitwa-o-jaburo|bitwie o Jaburo]] i [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu za Zanzibarem]] oraz dwoma krążownikami [[musai|Musai]] [[patrolowa-flota-camel|Patrolowej Floty Camel]].
+
+## 2026-11-10 23:45
+
+- [[kanzen-shouri-daiteioh|*Kanzen Shouri Daiteioh*]] (完全勝利ダイテイオー) powstał jako manga w magazynie *Dengeki Hobby Magazine* i jednoodcinkowy film pilotażowy OVA z grudnia 2001 roku — planowany serial telewizyjny nigdy nie trafił na antenę.
+- [[genki-bakuhatsu-ganbaruger|*Genki Bakuhatsu Ganbaruger*]] (元気爆発ガンバルガー) liczy 47 odcinków z lat 1992–1993 i stanowi drugą odsłonę cyklu Eldrana z miasta Aozora, rok po wydarzeniach z [[matchless-raijin-oh|*Matchless Raijin-Oh*]].
+- [[macross-delta|*Macross Delta*]] to 26-odcinkowy serial z 2016 roku osadzony w roku 2067 w gromadzie Brísingr, gdzie śpiewaczki Walküre wspierają lotnictwo Delta Flight przeciwko syndromowi Vár.
+
 ## 2026-11-10 23:05
 
 - [[harumi-sato|Harumi Sato]] jest młodszą z bliźniaczek Sato — starsza, Akemi, to „One”. W Thunder Brachio Harumi obsługuje radar, i to ona śledzi go w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]].

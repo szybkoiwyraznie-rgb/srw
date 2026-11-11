@@ -9,12 +9,22 @@ typ_mecha: super robot
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_2_8.txt", "profil": "Daiteioh", "dane": "**Seria:** Kanzen Shouri Daiteioh\n### Macierzyste zdolności maszyny\n\n- **Połączenie (bez poziomu):** Morale 120 lub więcej Pełne HP/EN po połączeniu  \n  Łączy się w inną jedn.  \n  (Perfect Daiteioh)\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n\n### Uzbrojenie i wymienione działania\n\n#### Broń i działania z niezerowym selektorem\n\n| Miejsce | Nazwa             | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                            |\n| ------: | ----------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------- |\n|       0 | Dai Saucer        |       2300 |  3–5   |       +30 |   0 |      — | Brak w tym polu | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód             |\n|       1 | Dai Hammer        |       3400 |  1–2   |       +10 |  15 |      — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole             |\n|         |                   |            |        |           |     |        |                 |   Zderzenie Obraż.500 Obraż. od upadku 1000                         |\n|         |                   |            |        |           |     |        |                 |   Ignoruje Osłonę; bez wsparcia                                     |\n|       2 | Dai Launcher      |       2900 |  4–5   |       +15 |   5 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                         |\n|       3 | Daitei Sword      |       3100 |  1–2   |       +35 |   5 |      — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |\n|       4 | Dai Shine         |       3700 |  1–3   |        +0 |  20 |    105 | Brak w tym polu | **Ogień (poziom bazowy 1):** Dodatk. Obraż.1500 Szansa 30%          |\n|       5 | Kaiser Daidan End |       5400 |  1–1   |       +25 |  50 |    115 | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                         |\n\n---"}'
 pochodzenie: skrypt
+zrodla:
+  - https://srw.wiki.cre.jp/wiki/%E3%83%80%E3%82%A4%E3%83%86%E3%82%A4%E3%82%AA%E3%83%BC
+  - https://en.wikipedia.org/wiki/Kanzen_Shouri_Daiteioh
 tagi: [eldran, super-robot]
 utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-oe
 
 Robot [[kanzen-shouri-daiteioh|drużyny Daiteioh]] pilotowany przez [[taro-omomo|Taro Omomo]], z [[mai-ozora|Mai Ozorą]] i [[kakeru-daichi|Kakeru Daichim]] jako pilotami wspierającymi; do załogi należy też podpilot [[hiryu-tsukishiro|Hiryu Tsukishiro]]. Dysponuje tarczą (Blok tarczą: Broniąc Obraż.-20%) i zdolnością Połączenia w [[perfect-daiteioh|Perfect Daiteioha]] przy Morale 120 z pełnym HP i EN; uzbrojenie obejmuje Dai Saucer, Dai Hammer, Dai Launcher, Daitei Sword i Dai Shine, a atakiem specjalnym jest Kaiser Daidan End.
+}}
+
+{{zrodlo gra=wspolne
+
+## Pierwowzór
+
+W [[kanzen-shouri-daiteioh|pierwowzorze]] Daiteioh (ダイテイオー, 32,8 m wysokości, 76,2 t masy, moc 680 000 KM) jest robotem powierzonym przez [[eldran|Eldrana]] uczniom klasy 5-3 ze Szkoły Podstawowej Gokuraku. Powstaje ze „Zwycięskiego Połączenia” (*Shōri Gattai*) trzech maszyn nawiązujących do baśni o Momotarō — małpiego Teioha ([[taro-omomo|Taro]]), bażantowego Kuuoha ([[mai-ozora|Mai]]) oraz psiego Rikuoha ([[kakeru-daichi|Kakeru]]) — i wyróżnia się asymetryczną sylwetką nieprojektowaną pod masową sprzedaż zabawek; głowowy kokpit mieści trójkę głównych pilotów, a połączenie wymaga pola generowanego z przekształconego budynku szkoły ([SRW Wiki, „ダイテイオー”](https://srw.wiki.cre.jp/wiki/%E3%83%80%E3%82%A4%E3%83%86%E3%82%A4%E3%82%AA%E3%83%BC); [Wikipedia, *Kanzen Shouri Daiteioh*](https://en.wikipedia.org/wiki/Kanzen_Shouri_Daiteioh); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-oe

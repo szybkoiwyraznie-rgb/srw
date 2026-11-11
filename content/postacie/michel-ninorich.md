@@ -23,7 +23,7 @@ Podczas eskorty [[medea|Medei]] podejrzewa, że wróg przewidział trasę lotu. 
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] Michel trafia do [[08-pluton-ms|08. Plutonu MS]] w tym samym czasie co [[shiro-amada|Shiro]]. W wozie wsparcia jest partnerem [[eledore-massis|Eledore]]: prowadzi nawigację i obsługuje działko, a między walkami pisze listy do dziewczyny, która została w koloniach ([Wikipedia, „Mobile Suit Gundam: The 08th MS Team”](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
+W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] z [[uc-0079|U.C. 0079]] Michel trafia do [[08-pluton-ms|08. Plutonu MS]] sił [[earth-federation|Federacji]] w tym samym czasie co [[shiro-amada|Shiro]]. W wozie wsparcia jest partnerem [[eledore-massis|Eledore]]: prowadzi nawigację i obsługuje działko, a między walkami pisze listy do dziewczyny, która została w koloniach ([Wikipedia, „Mobile Suit Gundam: The 08th MS Team”](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
 }}
 
 {{menu gra=srw-oe

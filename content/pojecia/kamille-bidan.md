@@ -16,5 +16,5 @@ Pilot, o którego pyta [[amuro-ray|Amuro]], gdy z [[bright-noa|Brightem]] ogląd
 
 {{zrodlo gra=wspolne
 
-Gundam Wiki identyfikuje Kamille'a Bidana jako pilota *Mobile Suit Gundam Zeta* (カミーユ・ビダン), nowotypa z kolonii Gryps ([Gundam Wiki, „Kamille Bidan”](https://gundam.fandom.com/wiki/Kamille_Bidan); sprawdzono 2026-11-09).
+Gundam Wiki identyfikuje Kamille'a Bidana jako pilota [[mobile-suit-z-gundam|*Mobile Suit Gundam Zeta*]] (カミーユ・ビダン), [[newtype|nowotypa]] z kolonii Gryps ([Gundam Wiki, „Kamille Bidan”](https://gundam.fandom.com/wiki/Kamille_Bidan); sprawdzono 2026-11-09).
 }}

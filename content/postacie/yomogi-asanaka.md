@@ -7,12 +7,20 @@ rola: pilot
 mechy: []
 gry: [srw-y]
 pochodzenie: menu
+zrodla:
+  - https://dynazenon.net/en/character/#/yomogi
+  - https://dynazenon.net/en/staff/
 tagi: [srw-y, pilot, dynazenon]
 utworzono: 2026-11-09
 ---
 {{menu gra=srw-y
 
 Uczeń pierwszej klasy publicznego liceum Fujiyokidai. Łagodny, ma wielu przyjaciół. Mieszka z mamą i babcią, ale chce się usamodzielnić, więc dorabia w supermarkecie Yuri Mart. Gdy pod mostem nad rzeką pomaga Gaumie, który padł z głodu, zostaje wciągnięty w walkę z kaiju. Po rozłączeniu Dynazenona steruje smoczym humanoidem Dyna Soldier.
+}}
+
+{{zrodlo gra=wspolne
+
+Oficjalne zestawienie postaci i obsady [[ssss-dynazenon|*SSSS.DYNAZENON*]] wymienia Yomogiego Asanakę (麻中 蓬; głos: Junya Enoki) w gronie głównych pilotów serii ([*SSSS.DYNAZENON* Official — Character](https://dynazenon.net/en/character/#/yomogi); [*SSSS.DYNAZENON* Official — Staff & Cast](https://dynazenon.net/en/staff/); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-y

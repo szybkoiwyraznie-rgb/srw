@@ -18,12 +18,12 @@ Pilot wspierający [[hover-truck|Hover Trucka]] z [[michel-ninorich|Michelem Nin
 
 Gdy walka zbliża się do wozu, przypomina [[shiro-amada|Shiro]], że załoga wsparcia prawie nie ma uzbrojenia. Po misji wolałby zjeść coś lepszego niż racje, ale musi czekać razem z resztą oddziału.
 
-Podczas eskorty [[medea|Medei]] wykrywa dźwięk wrogich mobile suitów na ziemi. Wraz z Michelem odpowiada za prowadzenie klucza tak, by nie znalazł się pod ogniem przeciwlotniczym, a po walce melduje, że dźwięki maszyn bojowych ucichły.
+Podczas eskorty [[medea|Medei]] wykrywa dźwięk wrogich [[mobile-suit|mobile suitów]] na ziemi. Wraz z Michelem odpowiada za prowadzenie klucza tak, by nie znalazł się pod ogniem przeciwlotniczym, a po walce melduje, że dźwięki maszyn bojowych ucichły.
 }}
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] Eledore jest weteranem [[08-pluton-ms|08. Plutonu MS]] i to on siedzi za sterami wozu wsparcia. Nie uchodzi za odważnego i sam przyznaje, że nie nadaje się na żołnierza, ale gdy trzeba, naraża się mimo wszystko — zwłaszcza kiedy w grę wchodzi [[karen-joshua|Karen]] ([Wikipedia, „Mobile Suit Gundam: The 08th MS Team”](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
+W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] z [[uc-0079|U.C. 0079]] Eledore jest weteranem [[08-pluton-ms|08. Plutonu MS]] sił [[earth-federation|Federacji]] i to on siedzi za sterami wozu wsparcia. Nie uchodzi za odważnego i sam przyznaje, że nie nadaje się na żołnierza, ale gdy trzeba, naraża się mimo wszystko — zwłaszcza kiedy w grę wchodzi [[karen-joshua|Karen]] ([Wikipedia, „Mobile Suit Gundam: The 08th MS Team”](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
 }}
 
 {{menu gra=srw-oe

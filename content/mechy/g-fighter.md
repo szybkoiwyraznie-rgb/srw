@@ -20,7 +20,7 @@ Maszyna wsparcia [[white-base|White Base]], którą [[sayla-mass|Sayla]] po raz 
 
 {{zrodlo gra=wspolne
 
-G-Fighter to ciężki myśliwiec wsparcia RX-78-2 Gundama z *Mobile Suit Gundam*, zbudowany z dwóch modułów (G-Parts) i zdolny do lotu w atmosferze oraz w kosmosie. Jednym z jego pilotów była [[sayla-mass|Sayla Mass]] ([Gundam Wiki, „G-Fighter”](https://gundam.fandom.com/wiki/G-Fighter); sprawdzono 2026-10-22).
+G-Fighter to ciężki myśliwiec wsparcia RX-78-2 Gundama sił [[earth-federation|Federacji]] z *Mobile Suit Gundam* ([[uc-0079|U.C. 0079]]), zbudowany z dwóch modułów (G-Parts) i zdolny do lotu w atmosferze oraz w kosmosie. Jednym z jego pilotów była [[sayla-mass|Sayla Mass]] ([Gundam Wiki, „G-Fighter”](https://gundam.fandom.com/wiki/G-Fighter); sprawdzono 2026-10-22).
 }}
 
 {{menu gra=srw-oe

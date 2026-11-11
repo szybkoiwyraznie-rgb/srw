@@ -9,16 +9,16 @@ pochodzenie: skrypt
 tagi: [getter-robo, invaderzy, pilot]
 utworzono: 2026-10-27
 ---
-{{menu gra=srw-oe
+{{skrypt gra=srw-oe
 
 Zbiorcze określenie obcych organizmów z rasy [[invaderzy|Invaderów]] kierujących naziemnymi formami bojowymi [[invader-ground|Invader/Ground]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] piętnaście oddziałów tych istot naciera w podziemnej pieczarze na [[shin-getter-1|Shin Gettera-1]] i przybywających mu z pomocą sojuszników, przedostając się na pole bitwy przez [[mucus-gate-s-in|bramę Mucus Gate S IN]] aż do chwili jej zniszczenia.
-
-Umiejętność „Rój” łączy jednakowe jednostki Invaderów w grupy o wspólnej sumie HP i wzajemnym wsparciu.
 }}
 
 {{menu gra=srw-oe
 
 ## Parametry
+
+Umiejętność „Rój” łączy jednakowe jednostki Invaderów w grupy o wspólnej sumie HP i wzajemnym wsparciu.
 
 | Parametr | Wartość bazowa |
 |---|---:|

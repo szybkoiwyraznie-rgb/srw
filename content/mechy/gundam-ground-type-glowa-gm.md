@@ -29,7 +29,7 @@ Ta konfiguracja ma własne wartości: słabsze piersiowe działko Vulcan, mocnie
 
 {{zrodlo gra=wspolne
 
-Braki części to w pierwowzorze stały motyw. [[gundam-ground-type|Ground Type’y]] zbudowano z nadwyżek po prototypie [[rx-78-2-gundam|Gundama]], więc nie miały zapasowych podzespołów na późniejsze naprawy. Gdy uszkodzono maszynę [[karen-joshua|Karen]], mechanicy zastąpili jej głowę głową RGM-79[G] GM Ground Type. To właśnie od tej polowej naprawy jednostka dostała przydomek „GM Head” ([MAHQ, „Gundam Ground Type”](https://www.mahq.net/rx-79g/); sprawdzono 2026-10-24).
+Braki części to w pierwowzorze stały motyw w walkach [[earth-federation|Federacji]] w [[uc-0079|U.C. 0079]]. [[gundam-ground-type|Ground Type’y]] [[08-pluton-ms|08. Plutonu MS]] zbudowano jako [[mobile-suit|mobile suity]] z nadwyżek po prototypie [[rx-78-2-gundam|Gundama]], więc nie miały zapasowych podzespołów na późniejsze naprawy. Gdy uszkodzono maszynę [[karen-joshua|Karen]], mechanicy zastąpili jej głowę głową RGM-79[G] GM Ground Type. To właśnie od tej polowej naprawy jednostka dostała przydomek „GM Head” ([MAHQ, „Gundam Ground Type”](https://www.mahq.net/rx-79g/); sprawdzono 2026-10-24).
 }}
 
 {{menu gra=srw-oe

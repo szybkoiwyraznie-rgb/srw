@@ -19,7 +19,7 @@ Bud obserwuje w [[srw-oe-ep1-szalejacy-labor-powraca|okolicy wielkiego placu bud
 
 Rozwój policjantów traktuje jak element dobrej zabawy. Kiedy Kurosaki przyznaje, że Drugi Pluton może być groźniejszy niż sądzono, Bud odpowiada, że inaczej nie byłoby zabawy.
 
-W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] pilotuje czarnego [[griffon|Griffona]] [[shaft-enterprises|Shaft Enterprises]]. Po rozbiciu wojskowych Laborów wyzywa do walki [[noa-izumi|Noę]]; [[isao-ota|Otę]] odprawia jako nieinteresującego przeciwnika, a [[exart|Exarta]] porównuje do ukrytej postaci z gry. Chce walczyć dalej, lecz słucha rozkazu [[utsumi|Utsumiego]] i odlatuje, przekonany, że w dłuższym starciu by wygrał.
+W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] pilotuje czarnego [[griffon|Griffona]] [[shaft-enterprises|Shaft Enterprises]]. Po rozbiciu wojskowych [[labor|Laborów]] wyzywa do walki [[noa-izumi|Noę]]; [[isao-ota|Otę]] odprawia jako nieinteresującego przeciwnika, a [[exart|Exarta]] porównuje do ukrytej postaci z gry. Chce walczyć dalej, lecz słucha rozkazu [[utsumi|Utsumiego]] i odlatuje, przekonany, że w dłuższym starciu by wygrał.
 }}
 
 {{zrodlo gra=wspolne

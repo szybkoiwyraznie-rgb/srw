@@ -82,29 +82,39 @@ test('boks do 50 pozycji stoi w całości: bez przycisku i bez schowanych pozycj
 });
 
 test('boks ponad 50 pozycji pokazuje pierwsze 50, a resztę odsłania „Rozwiń”', () => {
-  const dlugie = [];
-  for (const strona of ENCJE) {
-    const boks = rozbierz(renderEncja(strona.slug));
-    if (!boks || boks.pozycje.length <= LIMIT_POWIAZAN) continue;
-    dlugie.push(strona.slug);
+  // Sprawdzamy wszystkie strony z bazy przekraczające limit (gdy baza przekroczy 50 scen/haseł)
+  // oraz przypadek ponad limit z dwiema grupami na `boksPowiazan`, żeby warunek nie działał „na pusto” (ADR 0040).
+  const sprawdz = (etykieta, html) => {
+    const boks = rozbierz(html);
+    assert.ok(boks && boks.pozycje.length > LIMIT_POWIAZAN, `${etykieta}: długi boks ma ponad ${LIMIT_POWIAZAN} pozycji`);
     const { pozycje } = boks;
 
-    assert.equal(boks.zwiniety, true, `${strona.slug}: długi boks startuje zwinięty`);
-    assert.equal(pozycje.filter((ukryta) => !ukryta).length, LIMIT_POWIAZAN, `${strona.slug}: widać dokładnie ${LIMIT_POWIAZAN} pozycji`);
-    assert.deepEqual(pozycje.slice(0, LIMIT_POWIAZAN), Array(LIMIT_POWIAZAN).fill(false), `${strona.slug}: widoczne są pierwsze pozycje, w kolejności wyświetlania`);
-    assert.ok(pozycje.slice(LIMIT_POWIAZAN).every(Boolean), `${strona.slug}: każda pozycja ponad limit czeka na „Rozwiń”`);
+    assert.equal(boks.zwiniety, true, `${etykieta}: długi boks startuje zwinięty`);
+    assert.equal(pozycje.filter((ukryta) => !ukryta).length, LIMIT_POWIAZAN, `${etykieta}: widać dokładnie ${LIMIT_POWIAZAN} pozycji`);
+    assert.deepEqual(pozycje.slice(0, LIMIT_POWIAZAN), Array(LIMIT_POWIAZAN).fill(false), `${etykieta}: widoczne są pierwsze pozycje, w kolejności wyświetlania`);
+    assert.ok(pozycje.slice(LIMIT_POWIAZAN).every(Boolean), `${etykieta}: każda pozycja ponad limit czeka na „Rozwiń”`);
 
-    assert.equal(boks.przyciskow, 1, `${strona.slug}: boks ma jeden przycisk`);
-    assert.equal(boks.etykieta, 'Rozwiń', `${strona.slug}: przycisk nazywa się „Rozwiń”`);
-    assert.equal(boks.jeszcze, pozycje.length - LIMIT_POWIAZAN, `${strona.slug}: przycisk podaje liczbę schowanych pozycji`);
+    assert.equal(boks.przyciskow, 1, `${etykieta}: boks ma jeden przycisk`);
+    assert.equal(boks.etykieta, 'Rozwiń', `${etykieta}: przycisk nazywa się „Rozwiń”`);
+    assert.equal(boks.jeszcze, pozycje.length - LIMIT_POWIAZAN, `${etykieta}: przycisk podaje liczbę schowanych pozycji`);
 
     for (const grupa of boks.grupy) {
-      assert.equal(grupa.licznik, grupa.pozycje.length, `${strona.slug}: licznik grupy podaje pełną liczbę stron, nie liczbę widocznych`);
-      assert.equal(grupa.ukryta, grupa.pozycje.every(Boolean), `${strona.slug}: nagłówek grupy znika wtedy i tylko wtedy, gdy nie widać żadnej jej pozycji`);
+      assert.equal(grupa.licznik, grupa.pozycje.length, `${etykieta}: licznik grupy podaje pełną liczbę stron, nie liczbę widocznych`);
+      assert.equal(grupa.ukryta, grupa.pozycje.every(Boolean), `${etykieta}: nagłówek grupy znika wtedy i tylko wtedy, gdy nie widać żadnej jej pozycji`);
     }
+  };
+
+  for (const strona of ENCJE) {
+    const html = renderEncja(strona.slug);
+    const boks = rozbierz(html);
+    if (boks && boks.pozycje.length > LIMIT_POWIAZAN) sprawdz(strona.slug, html);
   }
-  // Baza ma dziś strony z długim boksem (gra srw-oe); bez nich test byłby pusty.
-  assert.ok(dlugie.includes('srw-oe'), `strona gry srw-oe ma długi boks; długie boksy: ${dlugie.join(', ')}`);
+  const epizod = Object.values(DANE.strony).find((s) => s.typ === 'epizod');
+  const sceny = Array.from({ length: 25 }, (_, i) => ({
+    slug: `scena-${i + 1}`, typ: 'scena', tytul: `Scena ${i + 1}`, numer_sceny: `1-${i + 1}`, epizod: epizod.slug,
+  }));
+  const hasla = sztuczneGrupy({ pojecie: 40 }).get('pojecie');
+  sprawdz('ponad-50-sceny-i-hasla', boksPowiazan(new Map([['scena', sceny], ['pojecie', hasla]])));
 });
 
 test('granica limitu: 50 pozycji stoi w całości, 51 chowa jedną', () => {
@@ -164,7 +174,11 @@ test('lista fabuły dzielona na gry chowa grę razem z jej podpisem', () => {
 });
 
 test('schowane pozycje są w HTML-u od razu — „Rozwiń” niczego nie dociąga', () => {
-  const html = renderEncja('srw-oe');
+  const boksDlugi = boksPowiazan(sztuczneGrupy({ pojecie: 65 }));
+  const html = ENCJE.map((s) => renderEncja(s.slug)).find((h) => {
+    const b = rozbierz(h);
+    return b && b.pozycje.length > LIMIT_POWIAZAN;
+  }) ?? boksDlugi;
   const boks = html.match(/<section class="blok-powiazan"[^>]*>\s*<h2>Powiązania<\/h2>([\s\S]*?)<\/section>/)[1];
   const pozycji = (boks.match(/<li[ >]/g) ?? []).length;
   const odsylaczy = (boks.match(/<a class="link-strony" href="#\//g) ?? []).length;

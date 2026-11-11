@@ -181,7 +181,10 @@ function sekcjaListy(s, listy) {
           </li>`).join('')}</ol>
       </section>`;
     }
-    return sekcjaPowiazan(`Z tej serii: ${nazwaTypu(typ, 'wiele').toLowerCase()}`, new Map([[typ, pozycje]]), { pomijaj: [] });
+    return sekcjaPowiazan(`Z tej serii: ${nazwaTypu(typ, 'wiele').toLowerCase()}`, new Map([[typ, pozycje]]), {
+      pomijaj: [],
+      naglowkiGrup: false,
+    });
   }).join('');
 }
 
@@ -189,7 +192,7 @@ function sekcjaListy(s, listy) {
  * Lista odsyłaczy pogrupowana po typie — „Z tej serii…" na stronie serii
  * i „W tym epizodzie" na stronie epizodu. `pomijaj` wyłącza całe grupy.
  */
-export function sekcjaPowiazan(tytul, grupy, { pomijaj = [] } = {}) {
+export function sekcjaPowiazan(tytul, grupy, { pomijaj = [], naglowkiGrup = true } = {}) {
   const wpisy = [...grupy.entries()]
     .filter(([typ, lista]) => lista.length > 0 && !pomijaj.includes(typ))
     .sort((a, b) => KOLEJNOSC_TYPOW.indexOf(a[0]) - KOLEJNOSC_TYPOW.indexOf(b[0]));
@@ -198,7 +201,7 @@ export function sekcjaPowiazan(tytul, grupy, { pomijaj = [] } = {}) {
     <h2>${tytul}</h2>
     ${wpisy.map(([typ, lista]) => `
       <div class="grupa-powiazan">
-        <h3>${nazwaTypu(typ, 'wiele')}</h3>
+        ${naglowkiGrup ? `<h3>${nazwaTypu(typ, 'wiele')}</h3>` : ''}
         <ul class="lista-horyzontalna">
           ${lista.map((p) => `<li>${linkStrony(p)}</li>`).join('')}
         </ul>
@@ -207,9 +210,16 @@ export function sekcjaPowiazan(tytul, grupy, { pomijaj = [] } = {}) {
 }
 
 /**
- * Wszystkie strony powiązane z tą, pogrupowane po typie (ADR 0038).
+ * Boks „Powiązania" w kolumnie bocznej pokazuje wyłącznie sceny z udziałem
+ * encji oraz powiązane hasła/pojęcia (ADR 0040); pozostałe relacje widać już
+ * w metryce, na własnych listach albo na samych stronach scen i epizodów.
+ */
+export const TYPY_POWIAZAN = ['scena', 'pojecie'];
+
+/**
+ * Sceny i hasła powiązane z tą stroną, pogrupowane po typie (ADR 0038, 0040).
  *
- * Relacja to odsyłacz w którąkolwiek stronę: pole albo wikilink stąd
+ * Relacją jest odsyłacz w którąkolwiek stronę: pole albo wikilink stąd
  * (`linki`) albo skądś tutaj (`backlinki`). Para stron, które odsyłają do
  * siebie nawzajem, jest jedną relacją, więc strona trafia na listę raz.
  * `pokazane` to strony, które widać już w metryce albo na własnej liście.
@@ -218,7 +228,7 @@ export function powiazaniaStrony(strona, pokazane = new Set()) {
   const zajete = new Set([strona.slug, ...pokazane]);
   const grupy = new Map();
   const dodaj = (p) => {
-    if (zajete.has(p.slug)) return;
+    if (!TYPY_POWIAZAN.includes(p.typ) || zajete.has(p.slug)) return;
     zajete.add(p.slug);
     if (!grupy.has(p.typ)) grupy.set(p.typ, []);
     grupy.get(p.typ).push(p);

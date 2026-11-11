@@ -11,10 +11,10 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Jedna z liderek Spacenoidów wymienionych przez [[annina-servania|Anninę]] — obok [[gilbert-dullindal|Gilberta Dullindala]] i [[milliardo-peacecraft|Milliardo Peacecrafta]] — jako tych, którzy upadli w wojnie rewolucyjnej.
+Jedna z liderek Spacenoidów wymienionych przez [[annina-servania|Anninę]] — obok [[gilbert-dullindal|Gilberta Dullindala]] i [[milliardo-peacecraft|Milliardo Peacecrafta]] — jako tych, którzy upadli w [[wojna-rewolucyjna|wojnie rewolucyjnej]].
 }}
 
 {{zrodlo gra=wspolne
 
-Wikipedia identyfikuje Haman Karn (ハマーン・カーン) jako przywódczynię Axis, pozostałości Księstwa Zeonu, z *Mobile Suit Gundam Zeta* ([Wikipedia, „Haman Karn”](https://en.wikipedia.org/wiki/Haman_Karn); sprawdzono 2026-11-09).
+Wikipedia identyfikuje Haman Karn (ハマーン・カーン) jako przywódczynię Axis, pozostałości Księstwa [[zeon|Zeonu]], z [[mobile-suit-z-gundam|*Mobile Suit Gundam Zeta*]] ([Wikipedia, „Haman Karn”](https://en.wikipedia.org/wiki/Haman_Karn); sprawdzono 2026-11-09).
 }}

@@ -23,7 +23,7 @@ Podczas eskorty [[medea|Medei]] chwali części od GM-a za wytrzymałość i dos
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] Karen służy w [[08-pluton-ms|08. Plutonie MS]] najdłużej ze wszystkich pilotów i początkowo przyjmuje bez entuzjazmu wiadomość, że dowództwo obejmuje [[shiro-amada|Shiro]], a ona zostaje jego zastępczynią. Studiowała medycynę i jest wdową po lekarzu wojskowym, więc w razie potrzeby potrafi zastąpić sanitariusza ([Wikipedia, „Mobile Suit Gundam: The 08th MS Team”](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
+W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] z [[uc-0079|U.C. 0079]] Karen służy w [[08-pluton-ms|08. Plutonie MS]] sił [[earth-federation|Federacji]] najdłużej ze wszystkich pilotów i początkowo przyjmuje bez entuzjazmu wiadomość, że dowództwo obejmuje [[shiro-amada|Shiro]], a ona zostaje jego zastępczynią. Studiowała medycynę i jest wdową po lekarzu wojskowym, więc w razie potrzeby potrafi zastąpić sanitariusza ([Wikipedia, „Mobile Suit Gundam: The 08th MS Team”](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
 }}
 
 {{menu gra=srw-oe

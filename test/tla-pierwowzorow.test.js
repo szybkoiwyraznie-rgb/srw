@@ -238,3 +238,109 @@ test('encje bez pierwowzoru poza bazą źródeł nie dostają zmyślonego tła (
     assert.ok(!page.zrodla || page.zrodla.length === 0, `${slug}: brak adresów w zrodla`);
   }
 });
+
+test('serie Eldrana i Macross Delta mają komplet metadanych i tło pierwowzoru (ADR 0008, ADR 0012)', () => {
+  const daiteioh = bySlug.get('kanzen-shouri-daiteioh');
+  assert.equal(daiteioh.tytul_ja, '完全勝利ダイテイオー');
+  assert.equal(daiteioh.rodzaj, 'ova');
+  assert.equal(daiteioh.rok, 2001);
+  assert.equal(daiteioh.odcinki, 1);
+  assert.ok(daiteioh.tagi.includes('ova'));
+  assert.ok(!daiteioh.tagi.includes('serial-tv'));
+  assert.match(daiteioh.body, /\{\{zrodlo gra=wspolne[\s\S]*sprawdzono 2026-11-10/);
+
+  const ganbaruger = bySlug.get('genki-bakuhatsu-ganbaruger');
+  assert.equal(ganbaruger.tytul_ja, '元気爆発ガンバルガー');
+  assert.equal(ganbaruger.rodzaj, 'tv');
+  assert.equal(ganbaruger.rok, 1992);
+  assert.equal(ganbaruger.odcinki, 47);
+  assert.match(ganbaruger.body, /\{\{zrodlo gra=wspolne[\s\S]*sprawdzono 2026-11-10/);
+
+  const macross = bySlug.get('macross-delta');
+  assert.equal(macross.rok, 2016);
+  assert.equal(macross.odcinki, 26);
+  assert.match(macross.body, /\{\{zrodlo gra=wspolne[\s\S]*sprawdzono 2026-11-10/);
+});
+
+test('maszyny z misji 2-8 mają sprawdzone tło pierwowzoru (ADR 0008, ADR 0013)', () => {
+  for (const [slug, wzorzec] of [
+    ['bolt-robo-anti-air', /Hyper Bolt Robo/],
+    ['brocken-cannon', /105mm Cannon/],
+    ['gandoppler', /dziewiętnastym odcinku/],
+    ['daiteioh', /Shōri Gattai/],
+    ['perfect-daiteioh', /Dairyuoha/],
+    ['ganbaruger', /Miracle Gattai/],
+    ['great-ganbaruger', /Revolgerem/],
+  ]) {
+    const page = bySlug.get(slug);
+    assert.ok(page.zrodla.length >= 1, `${slug}: zrodla`);
+    const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
+    assert.ok(blok, `${slug}: blok zrodlo`);
+    assert.match(blok[1], /sprawdzono 2026-11-10/, `${slug}: data sprawdzenia`);
+    assert.match(blok[1], wzorzec, `${slug}: wyróżnik pierwowzoru`);
+    for (const url of page.zrodla) assert.ok(blok[1].includes(url), `${slug}: link w treści`);
+  }
+});
+
+test('piloci Daiteioh i Ganbaruger z misji 2-8 mają sprawdzone tło pierwowzoru (ADR 0008, ADR 0013)', () => {
+  for (const [slug, wzorzec] of [
+    ['taro-omomo', /大桃 タロウ/],
+    ['mai-ozora', /大空 マイ/],
+    ['kakeru-daichi', /大地 カケル/],
+    ['hiryu-tsukishiro', /月城 ヒリュウ/],
+    ['kotaro-kirigakure', /霧隠 虎太郎/],
+    ['yosuke-kazamatsuri', /風祭 鷹介/],
+    ['rikiya-ryuzaki', /流崎 力哉/],
+  ]) {
+    const page = bySlug.get(slug);
+    assert.ok(page.zrodla.length >= 1, `${slug}: zrodla`);
+    const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
+    assert.ok(blok, `${slug}: blok zrodlo`);
+    assert.match(blok[1], /sprawdzono 2026-11-10/, `${slug}: data sprawdzenia`);
+    assert.match(blok[1], wzorzec, `${slug}: zapis oryginalny`);
+    for (const url of page.zrodla) assert.ok(blok[1].includes(url), `${slug}: link w treści`);
+  }
+});
+
+test('serie z pochodzeniem skrypt mają opis udziału w SRW OE i tytuł japoński', () => {
+  for (const [slug, tytulJa] of [
+    ['getter-robo-armageddon', '真(チェンジ!!)ゲッターロボ 世界最後の日'],
+    ['mazinger-edition-z-the-impact', '真マジンガー 衝撃! Z編'],
+    ['nekketsu-saikyo-go-saurer', '熱血最強ゴウザウラー'],
+    ['tengen-toppa-gurren-lagann', '天元突破グレンラガン'],
+  ]) {
+    const seria = bySlug.get(slug);
+    assert.equal(seria.pochodzenie, 'skrypt', slug);
+    assert.equal(seria.tytul_ja, tytulJa, `${slug}: tytul_ja`);
+    assert.match(seria.body, /^\{\{skrypt gra=srw-oe\n/m, `${slug}: blok skrypt`);
+    assert.match(seria.body, /^\{\{zrodlo gra=wspolne\n/m, `${slug}: blok zrodlo`);
+  }
+});
+
+test('pozostała obsada wsparcia Eldrana, Generał Takeda i nazwane encje SRW Y mają tło ze źródeł (ADR 0008, ADR 0013)', () => {
+  for (const [slug, wzorzec] of [
+    ['hidenori-kondo', /近藤 ひでのり/],
+    ['hiroshi-takamori', /高森 ひろし/],
+    ['miki-mano', /真野 美紀/],
+    ['yu-izumi', /泉 ゆう/],
+    ['shuzo-osada', /長田 秀三/],
+    ['ikuyo-oyama', /大山 育代/],
+    ['yuka-mizuhara', /水原 結花/],
+    ['general-takeda', /武田長官/],
+    ['zero', /Suzaku Kururugi/],
+    ['yomogi-asanaka', /麻中 蓬/],
+    ['baku-yamagishi', /山岸 獏/],
+    ['altron-gundam', /XXXG-01S2 Altron Gundam/],
+    ['lancelot-albion-zero', /ランスロット・アルビオンゼロ/],
+    ['taurus', /OZ-12SMS Taurus/],
+  ]) {
+    const page = bySlug.get(slug);
+    assert.ok(page, `${slug}: strona istnieje`);
+    assert.ok(Array.isArray(page.zrodla) && page.zrodla.length >= 1, `${slug}: zrodla`);
+    const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
+    assert.ok(blok, `${slug}: blok zrodlo`);
+    assert.match(blok[1], /sprawdzono 2026-11-10/, `${slug}: data sprawdzenia`);
+    assert.match(blok[1], wzorzec, `${slug}: zapis lub wyróżnik ze źródła`);
+    for (const url of page.zrodla) assert.ok(blok[1].includes(url), `${slug}: link w treści`);
+  }
+});

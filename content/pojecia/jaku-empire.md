@@ -21,5 +21,5 @@ W [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] [[himari-yaegaki|Him
 
 {{zrodlo gra=wspolne
 
-W [[matchless-raijin-oh|pierwowzorze]] Imperium Jaku (ジャーク帝国, *Jāku Teikoku*) to najeźdźcy z Piątego Wymiaru dowodzeni przez cesarza Warusę, w którego imieniu na Ziemi działają Belzeb, Falzeb i Taida ([Eldran Wiki, „Jaku Empire”](https://eldran.fandom.com/wiki/Jaku_Empire); sprawdzono 2026-10-24). Przeciw ich bestiom wykluwającym się z jaj ciemności (Akudama) staje piąta klasa szkoły w Hinobori z powierzonym jej przez Eldrana [[raijin-oh|Raijin-Ohem]] ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-24).
+W [[matchless-raijin-oh|pierwowzorze]] Imperium Jaku (ジャーク帝国, *Jāku Teikoku*) to najeźdźcy z Piątego Wymiaru dowodzeni przez cesarza Warusę, w którego imieniu na Ziemi działają Belzeb, Falzeb i Taida ([Eldran Wiki, „Jaku Empire”](https://eldran.fandom.com/wiki/Jaku_Empire); sprawdzono 2026-10-24). Przeciw ich bestiom wykluwającym się z jaj ciemności (Akudama) staje piąta klasa szkoły w Hinobori z powierzonym jej przez [[eldran|Eldrana]] [[raijin-oh|Raijin-Ohem]] ([Wikipedia, *Matchless Raijin-Oh*](https://en.wikipedia.org/wiki/Matchless_Raijin-Oh); sprawdzono 2026-10-24).
 }}

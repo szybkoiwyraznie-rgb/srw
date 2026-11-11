@@ -12,7 +12,7 @@ utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe
 
-Wojsko Japonii, które na poligonie Fuji prowadzi wspólne ćwiczenia z policyjnym [[sv2|SV2]] i [[connect-force|Connect]].
+Wojsko Japonii, które na [[poligon-fuji|poligonie Fuji]] prowadzi wspólne ćwiczenia z policyjnym [[sv2|SV2]] i [[connect-force|Connect]].
 
 Żołnierze narzekają, że ograniczenia technologiczne każą im polegać na superrobotach [[cyber-beast-force|Cyber Beast Force]] czy Laboratorium Saotome, i widzą w tym cenę neutralności kraju. W razie zagrożenia to oni wzywają pomoc i ustępują miejsca wyspecjalizowanym jednostkom.
 

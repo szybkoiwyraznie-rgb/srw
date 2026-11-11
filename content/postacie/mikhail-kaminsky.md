@@ -23,7 +23,7 @@ Ceni możliwości Kampfera w szturmie, a jego zwrotność zaskakuje [[shiro-amad
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-0080|pierwowzorze]] Misza jest faktycznym zastępcą [[hardy-steiner|Steinera]] w [[pluton-cyclops|plutonie Cyclops]] ([Gundam Wiki, „Cyclops Team”](https://gundam.fandom.com/wiki/Cyclops_Team); sprawdzono 2026-10-24). Podczas ataku na arktyczną bazę pilotuje amfibijnego Hy-Gogga, a przed ogniem obrońców zasłania się przejętym GM-em ([MAHQ, „Gundam 0080 Ep. 1: How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); sprawdzono 2026-10-23).
+W [[mobile-suit-gundam-0080|pierwowzorze]] z [[uc-0079|U.C. 0079]] Misza jest faktycznym zastępcą [[hardy-steiner|Steinera]] w [[pluton-cyclops|plutonie Cyclops]] sił [[zeon|Zeonu]] ([Gundam Wiki, „Cyclops Team”](https://gundam.fandom.com/wiki/Cyclops_Team); sprawdzono 2026-10-24). Podczas ataku na arktyczną bazę pilotuje amfibijnego Hy-Gogga, a przed ogniem obrońców zasłania się przejętym GM-em ([MAHQ, „Gundam 0080 Ep. 1: How Many Miles to the Battlefield?”](https://www.mahq.net/gundam0080ep1/); sprawdzono 2026-10-23).
 }}
 
 {{menu gra=srw-oe

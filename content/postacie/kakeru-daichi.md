@@ -7,6 +7,8 @@ seria: kanzen-shouri-daiteioh
 gry: [srw-oe]
 mechy: [daiteioh, perfect-daiteioh]
 pochodzenie: skrypt
+zrodla:
+  - https://srw.wiki.cre.jp/wiki/%E5%A4%A7%E5%9C%B0%E3%82%AB%E3%82%B1%E3%83%AB
 tagi: [eldran, pilot]
 utworzono: 2026-11-09
 ---
@@ -14,6 +16,13 @@ utworzono: 2026-11-09
 {{skrypt gra=srw-oe
 
 Podpilot [[daiteioh|Daiteioha]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] przypuszcza, że Kikaishin, władca [[mechanization-empire|Imperium Mechanizacji]], zrobił przed zniszczeniem przynajmniej kopię zapasową danych, a w lesie przestrzega, że pożar skończyłby się źle.
+}}
+
+{{zrodlo gra=wspolne
+
+## Postać w oryginale
+
+W [[kanzen-shouri-daiteioh|pierwowzorze]] Kakeru Daichi (大地 カケル) to uczeń klasy 5-3 Szkoły Podstawowej Gokuraku i członek grupy [[kanzen-shouri-daiteioh|Danketsu]]. Pasjonat sztuk walki i kibic [[saurersi|Saurersów]], chętnie mierzy się w sparingach z [[taro-omomo|Taro]], a w walce pilotuje Rikuoha — naziemny moduł tworzący [[daiteioh|Daiteioha]] ([SRW Wiki, „大地カケル”](https://srw.wiki.cre.jp/wiki/%E5%A4%A7%E5%9C%B0%E3%82%AB%E3%82%B1%E3%83%AB); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-oe

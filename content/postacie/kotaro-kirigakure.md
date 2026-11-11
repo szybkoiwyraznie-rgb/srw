@@ -7,6 +7,9 @@ seria: genki-bakuhatsu-ganbaruger
 gry: [srw-oe]
 mechy: [ganbaruger, great-ganbaruger]
 pochodzenie: skrypt
+zrodla:
+  - https://srw.wiki.cre.jp/wiki/%E9%9C%A7%E9%9A%A0%E8%99%8E%E5%A4%AA%E9%83%8E
+  - https://en.wikipedia.org/wiki/Genki_Bakuhatsu_Ganbaruger
 tagi: [eldran, pilot]
 utworzono: 2026-11-09
 ---
@@ -14,6 +17,13 @@ utworzono: 2026-11-09
 {{skrypt gra=srw-oe
 
 Główny pilot [[ganbaruger|Ganbarugera]] z [[genki-bakuhatsu-ganbaruger|drużyny Ganbaruger]]. W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] entuzjastycznie zgłasza wymarsz drużyny Ganba, po bitwie żartobliwie domaga się „roboty” dla siebie, a po decyzji o locie w kosmos przyjmuje zadanie wzmocnienia obrony Ziemi wraz z [[taro-omomo|Momotaro]].
+}}
+
+{{zrodlo gra=wspolne
+
+## Postać w oryginale
+
+W [[genki-bakuhatsu-ganbaruger|pierwowzorze]] Kotaro Kirigakure (霧隠 虎太郎) jest dziewięcioletnim uczniem klasy 4-1 Szkoły Podstawowej Aozora i potomkiem rodu ninja o 400-letniej tradycji. Jako Yellow Ganbar walczy w kombinezonie dającym nadludzką szybkość oraz pilotuje powierzonego przez [[eldran|Eldrana]] Go Tigera i główną jednostkę [[ganbaruger|Ganbarugera]]; z powodu klątwy rzuconej przez siły zła z [[daimakai|Daimakai]] musi ukrywać tożsamość pod groźbą przemiany w psa ([SRW Wiki, „霧隠虎太郎”](https://srw.wiki.cre.jp/wiki/%E9%9C%A7%E9%9A%A0%E8%99%8E%E5%A4%AA%E9%83%8E); [Wikipedia, *Genki Bakuhatsu Ganbaruger*](https://en.wikipedia.org/wiki/Genki_Bakuhatsu_Ganbaruger); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-oe

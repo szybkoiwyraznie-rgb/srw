@@ -7,6 +7,9 @@ typ_mecha: mobile suit
 gry: [srw-y]
 piloci: [zero]
 pochodzenie: menu
+zrodla:
+  - https://geass.miraheze.org/wiki/Lancelot_Albion_Zero
+  - https://codegeass.fandom.com/wiki/Lancelot_Albion_Zero
 tagi: [srw-y, mobile-suit, code-geass]
 utworzono: 2026-11-09
 w_gre:
@@ -15,6 +18,11 @@ w_gre:
 {{menu gra=srw-y
 
 Osobisty KMF Zero (czyli Suzaku Kururugiego). Zbudowała go Pearl Party, prywatny instytut badawczy kierowany przez Rakshatę, w ramach Programu Zintegrowanych Rycerzy Uderzeniowych. Odtworzono go na podstawie materiałów pozostawionych przez Lloyda do badań nad technologią Knightmare Świętego Imperium Britannii, a dzięki dodaniu technologii Rakshaty osiągnął parametry równe Gurenowi S.E.I.T.E.N. Eight Elements. Z woli Schneizela, jako maszyna Zero, otrzymał czarno-fioletowe malowanie. Nazwę nadał mu sam Zero na podstawie kodu projektu. Ma ogromną siłę bojową, ale ze względu na nadmierną potęgę ograniczono jego użycie.
+}}
+
+{{zrodlo gra=wspolne
+
+W [[code-geass-lelouch-of-the-rebellion-iii-glorification|pierwowzorze]] i materiałach pobocznych *Code Geass* Lancelot Albion Zero (ランスロット・アルビオンゼロ) został potajemnie opracowany przez instytut Pearl Party Rakshaty Chawli na polecenie Schneizela na podstawie danych Lancelota Albiona i utrzymany w czarnym malowaniu jako maszyna dla [[zero|Zero]]; po raz pierwszy wystąpił w rozdziale *Black Albion* historii *Lancelot & Guren* oraz w zapowiedzi *Re;surrection* ([Geass Wiki, „Lancelot Albion Zero”](https://geass.miraheze.org/wiki/Lancelot_Albion_Zero); [Code Geass Wiki, „Lancelot Albion Zero”](https://codegeass.fandom.com/wiki/Lancelot_Albion_Zero); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-y

@@ -17,7 +17,7 @@ utworzono: 2026-11-01
 
 Maszyna [[cyber-beast-force|Cyber Beast Force]], którą prowadzi [[shinobu-fujiwara|Shinobu Fujiwara]] przy wsparciu [[sara-yuki|Sary]], [[ryo-shiba|Ryo]], [[masato-shikibu|Masato]] i [[alan-igor|Alana]]. W [[srw-oe-ep2-ryk-dziczy|ćwiczeniach na stacji Connect]] demonstruje moc, którą [[seishiro|Seishiro]] i [[himari-yaegaki|Himari]] odbierają jako przekroczenie zwykłych granic maszyny. Alan wiąże rezultat z pilotami, a Ryo z siłą Morale.
 
-Siła pokazu budzi respekt [[sv2|Drugiego Plutonu]], ale załoga podkreśla także wartość wsparcia słabszych Laborów. Po ćwiczeniach Dancouga wraca z oddziałem do bazy na regulację.
+Siła pokazu budzi respekt [[sv2|Drugiego Plutonu]], ale załoga podkreśla także wartość wsparcia słabszych [[labor|Laborów]]. Po ćwiczeniach Dancouga wraca z oddziałem do bazy na regulację.
 }}
 
 {{zrodlo gra=wspolne

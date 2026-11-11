@@ -33,7 +33,7 @@ Armia Zeonu używa Zaku II w kilku zestawach uzbrojenia. Obok tej maszyny wystę
 
 {{zrodlo gra=wspolne
 
-Zaku II (MS-06) to seria mobile suitów Księstwa [[zeon|Zeonu]] i podstawowa masowo produkowana maszyna tej armii w Wojnie Jednorocznej ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-10-20).
+Zaku II (MS-06) to seria [[mobile-suit|mobile suitów]] Księstwa [[zeon|Zeonu]] i podstawowa masowo produkowana maszyna tej armii w Wojnie Jednorocznej ([[uc-0079|U.C. 0079]]) ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-10-20).
 
 Wariant dowódcy MS-06S był malowany na czerwono — to właśnie nim [[char-aznable|Char Aznable]] zniszczył pięć pancerników w bitwie o [[loum|Loum]], zdobywając przydomek Czerwonej Komety ([Gundam Wiki, „Battle of Loum”](https://gundam.fandom.com/wiki/Battle_of_Loum); sprawdzono 2026-10-20).
 }}

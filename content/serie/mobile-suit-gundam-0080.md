@@ -23,5 +23,5 @@ Pierwsza misja z udziałem tych postaci łączy ich atak na transport Alexa z ob
 
 {{zrodlo gra=wspolne
 
-*Mobile Suit Gundam 0080: War in the Pocket* (機動戦士ガンダム0080 ポケットの中の戦争) to sześcioodcinkowa seria OVA z 1989 roku. Jej pierwszy odcinek nosi tytuł „How Many Miles to the Battlefield?” i rozpoczyna się atakiem plutonu Cyclops na bazę Federacji, który ma zniszczyć prototypowy Gundam przed jego wystrzeleniem w kosmos ([Gundam Wiki, *Mobile Suit Gundam 0080: War in the Pocket*](https://gundam.fandom.com/wiki/Mobile_Suit_Gundam_0080:_War_in_the_Pocket); sprawdzono 2026-10-23).
+*Mobile Suit Gundam 0080: War in the Pocket* (機動戦士ガンダム0080 ポケットの中の戦争) to sześcioodcinkowa seria OVA z 1989 roku. Jej pierwszy odcinek nosi tytuł „How Many Miles to the Battlefield?” i rozpoczyna się atakiem plutonu Cyclops na bazę [[earth-federation|Federacji]], który ma zniszczyć prototypowy Gundam przed jego wystrzeleniem w kosmos ([Gundam Wiki, *Mobile Suit Gundam 0080: War in the Pocket*](https://gundam.fandom.com/wiki/Mobile_Suit_Gundam_0080:_War_in_the_Pocket); sprawdzono 2026-10-23).
 }}

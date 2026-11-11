@@ -37,7 +37,7 @@ export function renderSzukanie(q) {
         ${strona.typ === 'epizod' ? `<span class="mono">${numerEpizodu(strona.numer)}</span> ` : ''}
         ${podkresl(strona.tytul, fraza)}
       </a>
-      <span class="meta">${nazwaTypu(strona.typ)}${strona.seria ? '' : ''}</span>
+      <span class="meta">${strona.pseudonim ? `„${podkresl(strona.pseudonim, fraza)}” · ` : ''}${nazwaTypu(strona.typ)}</span>
       ${trafienie ? `<p class="fragment">…${podkresl(trafienie, fraza)}…</p>` : ''}
     </li>`).join('')}
 </ul>`;

@@ -19,7 +19,7 @@ Nowy [[mobile-suit|mobile suit]] do walki lądowej, w którym [[black-tri-stars|
 
 W walce zespół stawia na szybkość: [[gaia|Gaia]] liczy, że Domy zmylą przeciwnika prędkością i pozwolą szybko zakończyć starcie.
 
-Regularne oddziały Zeonu używają podczas końca operacji Odessa odrębnej jednostki [[dom-zolnierz-zeonu|Dom (Żołnierz Zeonu)]] o innych parametrach uzbrojenia.
+Regularne oddziały [[zeon|Zeonu]] używają podczas końca operacji Odessa odrębnej jednostki [[dom-zolnierz-zeonu|Dom (Żołnierz Zeonu)]] o innych parametrach uzbrojenia.
 }}
 
 {{zrodlo gra=wspolne
