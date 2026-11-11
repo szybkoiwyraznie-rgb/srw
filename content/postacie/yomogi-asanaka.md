@@ -10,6 +10,8 @@ pochodzenie: menu
 zrodla:
   - https://dynazenon.net/en/character/#/yomogi
   - https://dynazenon.net/en/staff/
+  - https://ultra.fandom.com/wiki/Dynazenon
+  - https://mechabay.com/yomogi-asanaka
 tagi: [srw-y, pilot, dynazenon]
 utworzono: 2026-11-09
 ---
@@ -21,6 +23,8 @@ Uczeń pierwszej klasy publicznego liceum Fujiyokidai. Łagodny, ma wielu przyja
 {{zrodlo gra=wspolne
 
 Oficjalne zestawienie postaci i obsady [[ssss-dynazenon|*SSSS.DYNAZENON*]] wymienia Yomogiego Asanakę (麻中 蓬; głos: Junya Enoki) w gronie głównych pilotów serii ([*SSSS.DYNAZENON* Official — Character](https://dynazenon.net/en/character/#/yomogi); [*SSSS.DYNAZENON* Official — Staff & Cast](https://dynazenon.net/en/staff/); sprawdzono 2026-11-10).
+
+W pierwowzorze Dyna Soldier to humanoidalny, smoczy rdzeń Dynazenona: tworzy jego korpus i głowę, a w połączeniu Dyna Rex także ramiona. Robot potrzebuje czterech pilotów, żeby się zmaterializować, i nie złoży się w całość, dopóki jego załoga nie zgra się co do jednego celu — dlatego Yomogi, [[gauma|Gauma]], Yume i Koyomi uczą się walczyć razem, a każdy z nich odpowiada za własny człon maszyny ([Ultra Wiki, „Dynazenon”](https://ultra.fandom.com/wiki/Dynazenon); [MechaBay, „Yomogi Asanaka”](https://mechabay.com/yomogi-asanaka); sprawdzono 2026-11-11).
 }}
 
 {{menu gra=srw-y

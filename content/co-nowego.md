@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-11 19:52
+
+- [[zanzibar|Zanzibar]] pełnił dla [[zeon|Zeonu]] rolę odpowiednika federacyjnych lotniskowców typu *Pegasus* i jako jedyna klasa okrętów Zeonu potrafił wejść w atmosferę i wrócić w kosmos; mobile suity wychodziły z niego przez boczne luki, bez katapulty.
+- [[yomogi-asanaka|Yomogi]] steruje smoczym rdzeniem Dynazenona — tworzy korpus i głowę robota, który potrzebuje czterech pilotów i złoży się dopiero wtedy, gdy cała załoga zgra się co do jednego celu.
+
 ## 2026-11-11 19:38
 
 - Wczesne [[zaku-ii-bazooka|Zaku II z bazooką]] w wersji MS-06C nosiły 240 mm broń z głowicami jądrowymi i osłonę przed własnym promieniowaniem; po Traktacie Antarktycznym maszynę odchudzono do wersji MS-06F.
