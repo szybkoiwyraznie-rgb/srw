@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-11 18:16
+
+- [[zamza-zah|Zamza-Zah]] to pierwsza maszyna [[mobile-suit-gundam-seed-destiny|Sojuszu Ziemskiego]], która otrzymała reflektor pozytonowy — osłaniała nim siebie i towarzyszące okręty przed działem „Tannhäuser” pancernika *Minerva*; technologia trafiła potem do Gells-Ghe, seryjnego Euclida i Destroy Gundama.
+
 ## 2026-11-11 18:04
 
 - [[amx-003-gaza-c|AMX-003 Gaza C]] powstała w Axis z maszyn roboczych Gaza A i Gaza B; uproszczony układ transformacji czynił ją tanią w produkcji, w trybie [[mobile-armor|mobile armor]] jej nogi służyły jako szpony do chwytania wrogich jednostek, a uzbrojenie stanowiły działa i szable wiązkowe z opcjonalnym Knuckle Busterem.
