@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-11 20:18
+
+- [[general-takeda|Generał Takeda]] w *Ganbarugerze* ma czterdzieści lat i córkę Katsurę; w ostatnim odcinku OVA *Raijin-Oha* walczy z odrodzonymi bestiami na czele czołgu, a w końcówce *Go-Saurera* ratuje sytuację urządzeniem przywracającym maszynom pierwotną postać.
+
 ## 2026-11-11 20:05
 
 - Dyna Soldier to smoczy rdzeń Dynazenona, którym po rozłączeniu robota steruje [[yomogi-asanaka|Yomogi]]; jest to człon jego maszyny, a nie odrębna jednostka.
