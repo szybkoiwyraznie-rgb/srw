@@ -339,7 +339,7 @@ test('pozostała obsada wsparcia Eldrana, Generał Takeda i nazwane encje SRW Y 
     assert.ok(Array.isArray(page.zrodla) && page.zrodla.length >= 1, `${slug}: zrodla`);
     const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
     assert.ok(blok, `${slug}: blok zrodlo`);
-    assert.match(blok[1], /sprawdzono 2026-11-10/, `${slug}: data sprawdzenia`);
+    assert.match(blok[1], /sprawdzono 2026-11-1[01]/, `${slug}: data sprawdzenia`);
     assert.match(blok[1], wzorzec, `${slug}: zapis lub wyróżnik ze źródła`);
     for (const url of page.zrodla) assert.ok(blok[1].includes(url), `${slug}: link w treści`);
   }

@@ -19,5 +19,7 @@ Yomogi Asanaka, uczeń publicznego liceum Fujiyokidai, w drodze ze szkoły spoty
 
 {{zrodlo gra=wspolne
 
+W [[srw-y|Super Robot Wars Y]] serię reprezentują [[gauma|Gauma]], który nazywa siebie „władcą kaiju”, i [[yomogi-asanaka|Yomogi Asanaka]], wciągnięty w walkę po spotkaniu z nim pod mostem.
+
 *SSSS.Dynazenon* to serial telewizyjny z 2021 roku, liczący 12 odcinków, produkcji Studio Trigger ([Wikipedia, „SSSS.Dynazenon”](https://en.wikipedia.org/wiki/SSSS.Dynazenon); sprawdzono 2026-11-09).
 }}

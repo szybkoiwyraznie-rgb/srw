@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-11 17:30
+
+- W *Endless Waltz* nazwę [[altron-gundam|Altron]] wywodzi się z chińskiego *ertou long* — „dwugłowy smok” — od pary smoczych szponów Dragon Fang; „Nataku” to imię, którym [[chang-wufei|Chang Wufei]] nazywa swoją maszynę.
+- [[srw-y|Super Robot Wars Y]] reprezentują w bazie [[chang-wufei|Chang Wufei]] z [[altron-gundam|Altronem Gundamem]] i [[mobile-doll|Mobile Dollami]] na [[taurus|Taurusach]], [[takuma-nagare|Takuma Nagare]] z [[baku-yamagishi|Baku Yamagishim]] ze świata [[getter-robo-arc|*Getter Robo Arc*]], [[gauma|Gauma]] i [[yomogi-asanaka|Yomogi Asanaka]] z [[ssss-dynazenon|*SSSS.DYNAZENON*]] oraz prowadzone przez [[zaawansowana-si|Zaawansowaną SI]] [[amx-003-gaza-c|AMX-003 Gaza C]] z [[mobile-suit-z-gundam|*Zeta Gundam*]] i [[zamza-zah|Zamza-Zah]] z [[mobile-suit-gundam-seed-destiny|*SEED Destiny*]].
+
 ## 2026-11-10 23:59
 
 - [[wojna-rewolucyjna|Wojna rewolucyjna]] w [[srw-y|Super Robot Wars Y]] połączyła siły [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]], [[czarni-rycerze|Czarnych Rycerzy]] i zwalczanego przez [[logos|Logos]] [[gilbert-dullindal|Gilberta Dullindala]], podczas gdy rok po jej zakończeniu [[tetsuro-yagami|Tetsuro Yagami]] powierzył [[echika-y-franburnett|Echice]] [[a-advent|A. Advent]], [[miasto-yagami|miasto Yagami]], [[nira-kana-i|System Nira-Kana-I]] oraz opiekę wynikającą z [[teoria-y|teorii Y]] i [[pamiec-stg|pamięci STG]].

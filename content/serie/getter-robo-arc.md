@@ -19,5 +19,7 @@ utworzono: 2026-11-09
 
 {{zrodlo gra=wspolne
 
+W [[srw-y|Super Robot Wars Y]] serię reprezentują [[takuma-nagare|Takuma Nagare]] i [[baku-yamagishi|Baku Yamagishi]], którzy razem przyjeżdżają do [[miasto-yagami|miasta Yagami]] i patrzą, jak unosi się w powietrze.
+
 *Getter Robo Arc* to serial telewizyjny z 2021 roku, liczący 13 odcinków, zrealizowany przez Bee Media i Studio A-Cat ([Wikipedia, „Getter Robo Arc”](https://en.wikipedia.org/wiki/Getter_Robo_Arc); sprawdzono 2026-11-09).
 }}
