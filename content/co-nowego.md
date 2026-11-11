@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-11 20:05
+
+- Dyna Soldier to smoczy rdzeń Dynazenona, którym po rozłączeniu robota steruje [[yomogi-asanaka|Yomogi]]; jest to człon jego maszyny, a nie odrębna jednostka.
+
 ## 2026-11-11 19:52
 
 - [[zanzibar|Zanzibar]] pełnił dla [[zeon|Zeonu]] rolę odpowiednika federacyjnych lotniskowców typu *Pegasus* i jako jedyna klasa okrętów Zeonu potrafił wejść w atmosferę i wrócić w kosmos; mobile suity wychodziły z niego przez boczne luki, bez katapulty.

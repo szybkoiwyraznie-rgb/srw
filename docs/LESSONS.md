@@ -210,3 +210,17 @@ dokładnie ten odruch, przed którym test ma chronić.
 Zasada: test dostawy pilnuje tego, co do niej należy i co się już nie zmieni (jej klucze,
 jej numer odczytu, „manifest nie jest starszy ode mnie”). Sumy i datę bieżącą trzyma
 jeden test stanu, wyprowadzający liczby z danych wszędzie, gdzie się da (L15).
+
+## L21 — Nazwa członu w opisie pilota nie czyni zeń jednostki (2026-11-11)
+
+Profil Yomogiego w dostawie SRW Y mówi, że „po rozłączeniu Dynazenona steruje smoczym
+humanoidem Dyna Soldier”, a profil Gaumy wymienia Dyna Diver tworzący nogi robota. To opisy
+członów jednej maszyny, nie rekordy jednostek. Próba założenia strony `dyna-soldier` przeszła
+build, ale wywróciła trzy testy: brak karty w `w_gre`, brak zakresu w danych menu i — przede
+wszystkim — brak jakiegokolwiek udziału w grze (nie mówi, nie ma ilustracji, nie stoi w obsadzie
+misji). Słusznie: dostawa nie daje tej maszynie ani parametrów, ani wystąpienia.
+
+Zasada: wzmianka o członie lub podzespole w cudzym profilu to nie rekord jednostki
+(ADR 0029 pkt 1). Maszyna dostaje stronę, gdy ma własny wpis w menu, kartę w dostawie
+albo występuje w scenie — a jeśli żaden z tych warunków nie zachodzi, zostaje opisem
+w treści postaci, do której należy.
