@@ -33,6 +33,8 @@ Armia Zeonu używa Zaku II w kilku zestawach uzbrojenia. Obok tej maszyny wystę
 {{zrodlo gra=wspolne
 
 Zaku II (MS-06) to seria [[mobile-suit|mobile suitów]] Księstwa [[zeon|Zeonu]] i podstawowa masowo produkowana maszyna tej armii w Wojnie Jednorocznej ([[uc-0079|U.C. 0079]]) ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-10-20).
+
+W [[mobile-suit-gundam-1979|pierwowzorze]] linię Zaku II rozwinięto z MS-05 Zaku I: prototyp MS-06A wycofano z produkcji, gdy Kycilia Zabi uznała brak broni do walki wręcz za słabość, i zastąpiono go wersją MS-06C z kolcami na barku, tarczą i heat hawkiem. Po zakazie broni jądrowej podstawową maszyną wojny została lżejsza MS-06F, a na jej bazie powstały warianty do walki w różnych warunkach ([Gundam Wiki, „MS-06 Zaku II”](https://gundam.fandom.com/wiki/MS-06_Zaku_II); sprawdzono 2026-11-11).
 }}
 
 {{menu gra=srw-oe

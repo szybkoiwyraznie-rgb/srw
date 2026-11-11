@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-11 19:38
+
+- Wczesne [[zaku-ii-bazooka|Zaku II z bazooką]] w wersji MS-06C nosiły 240 mm broń z głowicami jądrowymi i osłonę przed własnym promieniowaniem; po Traktacie Antarktycznym maszynę odchudzono do wersji MS-06F.
+- Linię [[zaku-ii-karabin-maszynowy|Zaku II]] rozwinięto z MS-05 Zaku I — prototyp MS-06A zastąpiła wersja MS-06C z kolcami na barku, tarczą i heat hawkiem, a po zakazie broni jądrowej podstawową maszyną wojny została lżejsza MS-06F.
+
 ## 2026-11-11 19:26
 
 - Maska [[zero|Zero]] powstała jako przebranie [[lelouch-vi-britannia|Leloucha]]; po planie Zero Requiem rolę doradcy Czarnych Rycerzy przejmuje Suzaku i nosi ją dalej.
