@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-11 18:31
+
+- [[treize-khushrenada|Treize Khushrenada]] dowodził OZ i stanął na czele Romefeller Foundation, a jego imieniem nazwano zbuntowany odłam OZ; uchodził za człowieka rycerskiego i bezwzględnego zarazem, sam projektował maszyny dla przeciwników i prowadził rachunek poległych.
+- [[milliardo-peacecraft|Milliardo Peacecraft]] to książę Królestwa Sanc, który po zniszczeniu ojczyzny przybrał nazwisko Zechs Merquise; w OZ zyskał przydomek „Błyskawicy”, a Treize uważał go za najlepszego przyjaciela nawet po przeciwnych stronach.
+
 ## 2026-11-11 18:16
 
 - [[zamza-zah|Zamza-Zah]] to pierwsza maszyna [[mobile-suit-gundam-seed-destiny|Sojuszu Ziemskiego]], która otrzymała reflektor pozytonowy — osłaniała nim siebie i towarzyszące okręty przed działem „Tannhäuser” pancernika *Minerva*; technologia trafiła potem do Gells-Ghe, seryjnego Euclida i Destroy Gundama.
