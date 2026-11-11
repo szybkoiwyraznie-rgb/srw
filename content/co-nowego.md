@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-11 18:04
+
+- [[amx-003-gaza-c|AMX-003 Gaza C]] powstała w Axis z maszyn roboczych Gaza A i Gaza B; uproszczony układ transformacji czynił ją tanią w produkcji, w trybie [[mobile-armor|mobile armor]] jej nogi służyły jako szpony do chwytania wrogich jednostek, a uzbrojenie stanowiły działa i szable wiązkowe z opcjonalnym Knuckle Busterem.
+
 ## 2026-11-11 17:52
 
 - [[mobile-doll|Mobile Doll]] to komputerowy system sterowania [[mobile-suit|mobile suitami]], który pozwala maszynie walczyć bez człowieka w kabinie; pierwszym seryjnym modelem przystosowanym do tego trybu był [[taurus|OZ-12SMS Taurus]], a późniejszy OZ-02MD Virgo nie miał już kabiny w ogóle.
