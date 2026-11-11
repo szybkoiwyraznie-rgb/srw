@@ -1,9 +1,14 @@
 # Co nowego
 
+## 2026-11-11 18:44
+
+- [[haman-karn|Haman Karn]] jako córka Maharadży Karny dorastała na asteroidzie Axis wśród niedobitków Księstwa [[zeon|Zeonu]] i w 0087 roku wprowadziła siły Axis do wojny jako trzecia siła konfliktu, prowadząc własną maszynę Qubeley.
+- [[gilbert-dullindal|Gilbert Dullindal]] objął przewodnictwo Rady Najwyższej PLANT po pierwszej wojnie i prowadził odbudowę potencjału ZAFT, uchodząc za mówcę potrafiącego przekonać słuchaczy do własnej wizji porządku świata.
+
 ## 2026-11-11 18:31
 
 - [[treize-khushrenada|Treize Khushrenada]] dowodził OZ i stanął na czele Romefeller Foundation, a jego imieniem nazwano zbuntowany odłam OZ; uchodził za człowieka rycerskiego i bezwzględnego zarazem, sam projektował maszyny dla przeciwników i prowadził rachunek poległych.
-- [[milliardo-peacecraft|Milliardo Peacecraft]] to książę Królestwa Sanc, który po zniszczeniu ojczyzny przybrał nazwisko Zechs Merquise; w OZ zyskał przydomek „Błyskawicy”, a Treize uważał go za najlepszego przyjaciela nawet po przeciwnych stronach.
+- [[milliardo-peacecraft|Milliardo Peacecraft]] to książę Królestwa Sanc, który po zniszczeniu ojczyzny przybrał nazwisko Zechs Merquise; w OZ zyskał przydomek „Błyskawicy”, a [[treize-khushrenada|Treize]] uważał go za najlepszego przyjaciela nawet wtedy, gdy przyszło im walczyć przeciw sobie.
 
 ## 2026-11-11 18:16
 
