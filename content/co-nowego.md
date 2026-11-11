@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-11 19:14
+
+- [[kamille-bidan|Kamille Bidan]] dorastał na kolonii Gryps i po bójce z Jeridem Messą trafił w ręce Titanów, a podczas rajdu AEUG pomógł wykraść trzy prototypy Gundama Mk-II a następnie przesiał się na Zeta Gundama.
+- [[lelouch-vi-britannia|Lelouch]] jako jedenasty syn cesarza popadł w niełaskę po zamachu na matkę i trafił do Japonii jako zakładnik; Geass od C.C. i maska [[zero|Zero]] pozwoliły mu stanąć na czele Czarnych Rycerzy.
+
 ## 2026-11-11 19:02
 
 - [[heero-yuy|Heero Yuy]], wychowany przez Doctora J na żołnierza bez emocji, przyjął pseudonim po zamordowanym pacyfiście i w 195 roku Kalendarza Kolonii zszedł na Ziemię w Wing Gundamie, żeby uderzać w instalacje OZ.

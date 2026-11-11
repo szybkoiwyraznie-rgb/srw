@@ -5,6 +5,7 @@ tytul: "Lelouch vi Britannia"
 gry: [srw-y]
 pochodzenie: skrypt
 zrodla:
+  - https://mechabay.com/lelouch-vi-britannia
   - https://34.suparobo.jp/character/chara16/
 tagi: [postac-z-innej-serii, code-geass]
 utworzono: 2026-11-09
@@ -17,4 +18,6 @@ Cesarz Świętego Imperium Britannii, który po obaleniu [[logos|Logosu]] i upad
 {{zrodlo gra=wspolne
 
 Oficjalne streszczenie *Code Geass* w serwisie Super Robot Wars Y przedstawia Leloucha vi Britannia jako geniusza, który jako [[zero|Zero]] zakłada [[czarni-rycerze|Czarnych Rycerzy]], potem obejmuje tron cesarski a na paradzie życie odbiera mu Zero w planie Zero Requiem ([34.suparobo.jp, „Character”](https://34.suparobo.jp/character/chara16/); sprawdzono 2026-11-09).
+
+W pierwowzorze jest jedenastym synem cesarza Charlesa zi Britannii i Marianne; po zamachu na matkę i kalectwie siostry [[nunnally-vi-britannia|Nunnally]] popadł w niełaskę i trafił do Japonii jako polityczny zakładnik, gdzie ukrywał się pod nazwiskiem Lamperouge. Od C.C. otrzymał Geass — moc rozkazu absolutnego — i pod maską [[zero|Zero]] stanął na czele [[czarni-rycerze|Czarnych Rycerzy]] walczących z Britannią ([MechaBay, „Lelouch vi Britannia”](https://mechabay.com/lelouch-vi-britannia); sprawdzono 2026-11-11).
 }}
