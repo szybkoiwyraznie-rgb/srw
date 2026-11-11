@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-11 19:26
+
+- Maska [[zero|Zero]] powstała jako przebranie [[lelouch-vi-britannia|Leloucha]]; po planie Zero Requiem rolę doradcy Czarnych Rycerzy przejmuje Suzaku i nosi ją dalej.
+- [[tetsuro-yagami|Tetsuro Yagami]] zbudował pod [[miasto-yagami|miastem Yagami]] twierdzę [[a-advent|A. Advent]], której mechanizmy pozostają czarną skrzynką; po jego śmierci w wypadku [[annina-servania|Annina]] została nauczycielką [[echika-y-franburnett|Echiki]] zgodnie z jego ostatnią wolą.
+
 ## 2026-11-11 19:14
 
 - [[kamille-bidan|Kamille Bidan]] dorastał na kolonii Gryps i po bójce z Jeridem Messą trafił w ręce Titanów, a podczas rajdu AEUG pomógł wykraść trzy prototypy Gundama Mk-II a następnie przesiał się na Zeta Gundama.

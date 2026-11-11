@@ -17,4 +17,6 @@ Ojciec [[echika-y-franburnett|Echiki]], doktor Yagami — naukowiec, który skon
 {{zrodlo gra=wspolne
 
 Tetsuro Yagami (八神テツロウ) był ojcem [[echika-y-franburnett|Echiki]] i naukowcem, którego asystentką i uczennicą była [[annina-servania|Annina]], zanim została nauczycielką dziewczyny ([34.suparobo.jp, „Original”](https://34.suparobo.jp/original/); sprawdzono 2026-11-09).
+
+Oficjalny profil gry podaje, że Annina mieszkała w posiadłości od trzech lat, a po śmierci Yagamiego w wypadku objęła posadę nauczycielki na mocy jego ostatniej woli; sam Yagami zbudował pod miastem [[miasto-yagami|Yagami]] [[a-advent|A. Advent]], którego kluczowe mechanizmy pozostają dla załogi czarną skrzynką, a sterowanie nadal nie jest w pełni opanowane ([34.suparobo.jp, „Original”](https://34.suparobo.jp/original/); sprawdzono 2026-11-11).
 }}

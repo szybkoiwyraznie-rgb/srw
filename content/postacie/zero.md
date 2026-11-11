@@ -8,6 +8,8 @@ mechy: [lancelot-albion-zero]
 gry: [srw-y]
 pochodzenie: menu
 zrodla:
+  - https://codegeass.fandom.com/wiki/Lancelot_Albion_Zero
+  - https://mechabay.com/lelouch-vi-britannia
   - https://geass.jp/R-geass/character.php
   - https://34.suparobo.jp/character/chara16/
 tagi: [srw-y, pilot, code-geass]
@@ -21,6 +23,8 @@ Główny doradca [[czarni-rycerze|Czarnych Rycerzy]]. W czarnym Knightmare Frame
 {{zrodlo gra=wspolne
 
 W pierwowzorze z linii filmów [[code-geass-lelouch-of-the-rebellion-iii-glorification|*Glorification*]] i [[code-geass-lelouch-of-the-re-surrection|*Lelouch of the Re;surrection*]] Zero (ゼロ) to zamaskowana rola głównego doradcy [[czarni-rycerze|Czarnych Rycerzy]], którą po upadku cesarza Leloucha pełni Suzaku Kururugi ([Code Geass Official — *Lelouch of the Re;surrection*, Character](https://geass.jp/R-geass/character.php); [Super Robot Wars Y Official — Character](https://34.suparobo.jp/character/chara16/); sprawdzono 2026-11-10).
+
+Maska Zero powstała w pierwszej serii jako przebranie Leloucha; w planie Zero Requiem to on ginie na paradzie, a rolę doradcy Czarnych Rycerzy przejmuje Suzaku, który nosi ją dalej, gdy cesarza już nie ma ([MechaBay, „Lelouch vi Britannia”](https://mechabay.com/lelouch-vi-britannia); [Code Geass Wiki, „Lancelot Albion Zero”](https://codegeass.fandom.com/wiki/Lancelot_Albion_Zero); sprawdzono 2026-11-11).
 }}
 
 {{menu gra=srw-y
