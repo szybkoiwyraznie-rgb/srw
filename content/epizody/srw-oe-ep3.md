@@ -5,7 +5,7 @@ tytul: Epizod 3
 gra: srw-oe
 numer: 3
 skrypt: episodes/srw-oe/ep003.md
-postacie: [bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, seishiro, himari-yaegaki, go, kei, gai, koji-kabuto, shinobu-fujiwara, sara-yuki, ryo-shiba, masato-shikibu, alan-igor, shiro-amada, noa-izumi, amuro-ray, garma-zabi, char-aznable, mquve, uragan, oficer-zeonu, zolnierz-zeonu, gaia, mash, ortega, setsuna-f-seiei, heero-yuy, killy-gagley]
+postacie: [bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, seishiro, himari-yaegaki, go, kei, gai, koji-kabuto, shinobu-fujiwara, sara-yuki, ryo-shiba, masato-shikibu, alan-igor, shiro-amada, noa-izumi, amuro-ray, garma-zabi, char-aznable, mquve, uragan, oficer-zeonu, zolnierz-zeonu, gaia, mash, ortega, setsuna-f-seiei, heero-yuy]
 mechy: [exart, final-dancouga, mazinger-z, shin-getter-1, white-base, gundam-exia, wing-gundam-zero, dom, gelgoog-char, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, zanzibar]
 pojecia: [connect-force, cyber-beast-force, 13-samodzielny-oddzial, black-tri-stars, zeon, earth-federation, mobile-suit, newtype, krzyz-zeonu, uc-0079, sily-samoobrony-japonii]
 pochodzenie: skrypt

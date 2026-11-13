@@ -49,7 +49,6 @@ const TAG_SERII = {
   'mobile-suit-gundam-wing-endless-waltz': 'gundam-wing',
   'mobile-suit-gundam-wing': 'gundam-wing',
   'mobile-suit-gundam-00': 'gundam-00',
-  'goshogun': 'goshogun',
   'mobile-suit-z-gundam': 'gundam-z',
   'mobile-suit-gundam-seed-destiny': 'gundam-seed',
   'getter-robo-arc': 'getter-robo',

@@ -6,7 +6,7 @@
 - [[garma-zabi|Garma Zabi]] atakuje placówkę, żeby ujawnić złamanie traktatu przez Federację i zdobyć uznanie siostry Kycilii; [[char-aznable|Char]] podsuwa mu uzasadnienie, a sam liczy na jego koneksje.
 - Odsiecz przyprowadza [[mquve|M'Quve]] na [[zanzibar|Zanzibarze]], razem z [[black-tri-stars|Black Tri-Stars]]; [[uragan|Uragan]] doradza wycofanie okrętu, gdy ten zaczyna się rozpadać.
 - Po odwrocie Zeonu placówkę niszczą [[setsuna-f-seiei|Setsuna F. Seiei]] w [[gundam-exia|Gundam Exia]] i [[heero-yuy|Heero Yuy]] w [[wing-gundam-zero|Wing Gundam Zero/NB]] — dwie maszyny spoza wojny Federacji i Zeonu.
-- Do bazy wchodzą nowe serie: [[mobile-suit-gundam-00|Mobile Suit Gundam 00]], [[mobile-suit-gundam-wing|Mobile Suit Gundam Wing]] i [[goshogun|GoShogun]] z [[killy-gagley|Killy Gagley]].
+- Do bazy wchodzą dwie nowe serie: [[mobile-suit-gundam-00|Mobile Suit Gundam 00]] i [[mobile-suit-gundam-wing|Mobile Suit Gundam Wing]].
 
 ## 2026-11-13 22:16
 
