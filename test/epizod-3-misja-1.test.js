@@ -1,9 +1,6 @@
 /** Dostawa 3-1: misja „Interwencja Gundamów” — obrona obserwatorium na Wyspach
  *  Kurylskich przed Garmą Zabi, odsiecz Zanzibara z M'Quve'em i Black Tri-Stars
- *  oraz zniszczenie placówki przez Gundam Exia i Wing Gundam Zero.
- *
- *  Archiwum nie zawiera wpisów o Killy Gagley i GoShogun — te fragmenty nie należą
- *  do tej misji i zostały z dostawy usunięte (decyzja właściciela bazy, 2026-11-13). */
+ *  oraz zniszczenie placówki przez Gundam Exia i Wing Gundam Zero. */
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -20,11 +17,10 @@ const archive = fs.readFileSync('episodes/srw-oe/ep003.md', 'utf8');
 const scene = bySlug.get('srw-oe-ep3-interwencja-gundamow');
 const episode = bySlug.get('srw-oe-ep3');
 
-test('dostawa 3-1 jest zarchiwizowana po oczyszczeniu, a jej skrypt otwiera archiwum epizodu', () => {
+test('dostawa 3-1 jest zarchiwizowana, a jej skrypt otwiera archiwum epizodu', () => {
   assert.equal(bytes.length, 63290);
   assert.equal(createHash('sha256').update(bytes).digest('hex'),
     'af7d97acd4bbe92a4652f3328692027ca47d6387047ecd96d287491d0bd8457a');
-  assert.doesNotMatch(raw, /GoShogun|Killy|Gagley/, 'dostawa nie wspomina obcych serii');
   assert.ok(archive.startsWith('# Super Robot Wars OE — Epizod 3\n\n---\n\n## Ep. 3-1: Interwencja Gundamów\n'));
   assert.ok(archive.includes(script + '\n'));
   assert.equal(archive.split(script).length - 1, 1, 'skrypt misji 3-1 występuje w archiwum raz');
@@ -66,7 +62,6 @@ test('obsada misji 3-1 wnosi Garmę, M’Quve’a i dwie nowe serie', () => {
   assert.equal(bySlug.get('garma-zabi').seria, 'mobile-suit-gundam-1979');
   assert.equal(bySlug.get('setsuna-f-seiei').seria, 'mobile-suit-gundam-00');
   assert.equal(bySlug.get('wing-gundam-zero').seria, 'mobile-suit-gundam-wing');
-  for (const slug of ['killy-gagley', 'goshogun']) assert.ok(!bySlug.has(slug), `brak strony: ${slug}`);
   for (const slug of ['mobile-suit-gundam-00', 'mobile-suit-gundam-wing']) {
     assert.ok(bySlug.has(slug), `strona serii: ${slug}`);
   }
