@@ -18,5 +18,5 @@ Pilot, o którego pyta [[amuro-ray|Amuro]], gdy z [[bright-noa|Brightem]] ogląd
 
 Gundam Wiki identyfikuje Kamille'a Bidana jako pilota [[mobile-suit-z-gundam|*Mobile Suit Gundam Zeta*]] (カミーユ・ビダン), [[newtype|nowotypa]] z kolonii Gryps ([Gundam Wiki, „Kamille Bidan”](https://gundam.fandom.com/wiki/Kamille_Bidan); sprawdzono 2026-11-09).
 
-W pierwowzorze jest synem inżyniera Titanów Franklina Bidana i wychował się na kolonii Gryps, gdzie jego imię — wybrane przez ojca, który spodziewał się córki — stało się powodem kpin. Po bójce z Jeridem Messą trafił w ręce Titanów i w trakcie rajdu AEUG pomógł wykraść trzy prototypowe Gundamy Mk-II; pod okiem Quattro Bajeeny i Emmy Sheen został jednym z asów AEUG a następnie przesiał się na Zeta Gundama ([Gundam Wiki, „Kamille Bidan”](https://gundam.fandom.com/wiki/Kamille_Bidan); sprawdzono 2026-11-11).
+W pierwowzorze jest synem inżyniera Titanów Franklina Bidana i wychował się na kolonii Gryps, gdzie jego imię — wybrane przez ojca, który spodziewał się córki — stało się powodem kpin. Po bójce z Jeridem Messą trafił w ręce Titanów i w trakcie rajdu AEUG pomógł wykraść trzy prototypowe Gundamy Mk-II; pod okiem Quattro Bajeena i Emmy Sheen został jednym z asów AEUG a następnie przesiadł się na Zeta Gundama ([Gundam Wiki, „Kamille Bidan”](https://gundam.fandom.com/wiki/Kamille_Bidan); sprawdzono 2026-11-11).
 }}

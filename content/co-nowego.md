@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-13 22:16
+
+- [[amuro-ray|Amuro Ray]] jest synem Tema Reya i wychował się na kolonii [[side-7|Side 7]]; do Gundama wsiadł jako piętnastoletni cywil, a wojna ujawniła u niego zdolności nowotypa — Zeon nazywał jego maszynę „Białym Diabłem”.
+- [[bright-noa|Bright Noa]] urodził się w U.C. 0060 i w wieku dziewiętnastu lat przejął dowodzenie [[white-base|White Base]] po ciężkim zranieniu kapitana [[paolo-cassius|Paola Cassiusa]]; Zeon nazwał okręt „Trojan Horse”.
+
 ## 2026-11-13 22:12
 
 - [[amx-003-gaza-c|AMX-003 Gaza C]] nosi oznaczenia obu armii — Axis (AMX-003) i Federacji Ziemskiej (MMT-1); starsze opracowania przypisują te numery odwrotnie.

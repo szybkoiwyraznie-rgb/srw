@@ -9,6 +9,7 @@ mechy: [rx-78-2-gundam]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Amuro_Ray
+  - https://gundam.fandom.com/wiki/Amuro_Ray
 tagi: [one-year-war, pilot, gundam-1979, federacja, white-base]
 utworzono: 2026-10-20
 ---
@@ -30,7 +31,9 @@ W prologu [[srw-y|SRW Y]] ogląda paradę cesarza Leloucha razem z [[bright-noa|
 
 {{zrodlo gra=wspolne
 
-Amuro Ray jest bohaterem serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku i pilotem RX-78-2 Gundama ([Wikipedia, „Amuro Ray”](https://en.wikipedia.org/wiki/Amuro_Ray); sprawdzono 2026-10-20).
+Amuro Ray (アムロ・レイ) jest bohaterem serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku i synem inżyniera Tema Reya; dorastał w kolonii Side 7, dokąd rodzina przeniosła się z Ziemi. Gdy [[char-aznable|Char]] zaatakował kolonię, piętnastoletni cywil wsiadł do [[rx-78-2-gundam|RX-78-2 Gundama]] i odparł pierwszy atak, a wkrótce potem został pilotem [[white-base|White Base]] ([Wikipedia, „Amuro Ray”](https://en.wikipedia.org/wiki/Amuro_Ray); sprawdzono 2026-11-13).
+
+Wojna ujawniła u niego zdolności [[newtype|nowotypa]] — rosnącą wrażliwość na obecność innych ludzi i coraz lepsze wyczucie walki — a [[zeon|Zeon]] nazywał jego maszynę „Białym Diabłem” ([Gundam Wiki, „Amuro Ray”](https://gundam.fandom.com/wiki/Amuro_Ray); sprawdzono 2026-11-13).
 }}
 
 {{menu gra=srw-oe

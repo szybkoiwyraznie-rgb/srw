@@ -9,6 +9,7 @@ mechy: [white-base]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/White_Base
+  - https://mechabay.com/bright-noa
 tagi: [one-year-war, dowodztwo, gundam-1979, federacja, white-base]
 utworzono: 2026-10-20
 ---
@@ -32,7 +33,9 @@ W prologu [[srw-y|SRW Y]] ogląda paradę cesarza [[lelouch-vi-britannia|Lelouch
 
 {{zrodlo gra=wspolne
 
-Bright Noa jest oficerem [[earth-federation|Federacji Ziemskiej]] na pokładzie [[white-base|White Base]] w [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku ([Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-10-20).
+Bright Noa (ブライト・ノア) jest oficerem [[earth-federation|Federacji Ziemskiej]] w [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku; urodził się w U.C. 0060 i trafił na [[white-base|White Base]] jako chorąży, pół roku po wstąpieniu do wojska ([Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-11-13).
+
+Gdy podczas ataku na Side 7 kapitan [[paolo-cassius|Paolo Cassius]] został ciężko ranny, dziewiętnastoletni Bright przejął dowodzenie okrętem i jego cywilną załogą. Dowodził twardo i wymagająco — to on egzekwował regulamin wobec [[amuro-ray|Amura]] — a [[zeon|Zeon]] nazwał White Base „Trojan Horse” za skuteczność, z jaką okręt wymykał się zasadzkom ([MechaBay, „Bright Noa”](https://mechabay.com/bright-noa); sprawdzono 2026-11-13).
 }}
 
 {{menu gra=srw-oe
