@@ -10,6 +10,7 @@ pochodzenie: menu
 zrodla:
   - https://en.gundam-official.com/series/z/mecha
   - https://www.mahq.net/amx-003/
+  - https://gundam.fandom.com/wiki/AMX-003_Gaza-C
 tagi: [srw-y, mobile-suit, gundam-z]
 utworzono: 2026-11-09
 w_gre:
@@ -24,7 +25,7 @@ Masowo produkowany transformowalny [[mobile-suit|mobile suit]] Axis. Opracowany 
 
 Oficjalna lista mechów *Mobile Suit Z Gundam* wymienia AMX-003 Gaza C ([Gundam Official — Z Gundam, mecha](https://en.gundam-official.com/series/z/mecha); sprawdzono 2026-11-09).
 
-W [[mobile-suit-z-gundam|pierwowzorze]] Axis zbudowało Gazę C z maszyn roboczych Gaza A i Gaza B, upraszczając układ transformacji, żeby maszyna była tania i łatwa w produkcji; pierwsze egzemplarze weszły do służby w U.C. 0086, a do późnego 0087 roku powstało ich ponad sto. Oznaczenie MMT-1 pochodziło od wewnętrznej nomenklatury Axis, a AMX-003 nadała maszynie Federacja. W trybie [[mobile-armor|mobile armor]] nogi służyły jako szpony do chwytania wrogich jednostek, a uzbrojenie stanowiły dwa działa wiązkowe i dwie szable wiązkowe, z opcjonalnym Knuckle Busterem ([MAHQ, „AMX-003 Gaza-C”](https://www.mahq.net/amx-003/); sprawdzono 2026-11-11).
+W [[mobile-suit-z-gundam|pierwowzorze]] Axis zbudowało Gazę C z maszyn roboczych Gaza A i Gaza B, upraszczając układ transformacji, żeby maszyna była tania i łatwa w produkcji; pierwsze egzemplarze weszły do służby w U.C. 0086, a do późnego 0087 roku powstało ich ponad sto. Oznaczenia maszyny źródła podają niejednolicie: AMX-003 wywodzi się z numeracji Axis („Axis mobile weapon”), a MMT-1 z pierwotnego oznaczenia seryjnej, transformowalnej maszyny, przy czym starsze opracowania odwracają przypisanie i oddają AMX-003 Federacji. W grze obowiązuje podział z opisu maszyny: Axis (AMX-003) i Federacja Ziemska (MMT-1) ([MAHQ, „AMX-003 Gaza-C”](https://www.mahq.net/amx-003/); [Gundam Wiki, „AMX-003 Gaza-C”](https://gundam.fandom.com/wiki/AMX-003_Gaza-C); sprawdzono 2026-11-13). W trybie [[mobile-armor|mobile armor]] nogi służyły jako szpony do chwytania wrogich jednostek, a uzbrojenie stanowiły dwa działa wiązkowe i dwie szable wiązkowe, z opcjonalnym Knuckle Busterem ([MAHQ, „AMX-003 Gaza-C”](https://www.mahq.net/amx-003/); sprawdzono 2026-11-11).
 }}
 
 {{menu gra=srw-y

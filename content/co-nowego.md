@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-11-13 22:12
+
+- [[amx-003-gaza-c|AMX-003 Gaza C]] nosi oznaczenia obu armii — Axis (AMX-003) i Federacji Ziemskiej (MMT-1); starsze opracowania przypisują te numery odwrotnie.
+- [[quatre-raberba-winner|Quatre Raberba Winner]] przyjął Gundama Sandrocka i zszedł na Ziemię do Maganac Corps, gdy Instructor H odrzucił pierwotny plan operacji Meteor.
+- Prawdziwy [[trowa-barton|Trowa Barton]], syn Dekima Bartona, zginął z rąk ludzi Doktora S, którzy nie chcieli dopuścić do pierwotnego planu operacji Meteor; jego tożsamość i Heavyarmsa przejął mechanik bez nazwiska.
+- [[heero-yuy|Heero Yuy]] dostał imię po zamordowanym pacyfiście od Doctora J, a [[milliardo-peacecraft|Milliardo Peacecraft]] przydomek „Błyskawicznego Hrabiego” w OZ.
+
 ## 2026-11-11 20:18
 
 - [[general-takeda|Generał Takeda]] w *Ganbarugerze* ma czterdzieści lat i córkę Katsurę; w ostatnim odcinku OVA *Raijin-Oha* walczy z odrodzonymi bestiami na czele czołgu, a w końcówce *Go-Saurera* ratuje sytuację urządzeniem przywracającym maszynom pierwotną postać.
