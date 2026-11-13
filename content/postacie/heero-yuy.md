@@ -2,8 +2,10 @@
 typ: postac
 slug: heero-yuy
 tytul: "Heero Yuy"
+seria: mobile-suit-gundam-wing
 rola: pilot
-gry: [srw-y]
+gry: [srw-y, srw-oe]
+mechy: [wing-gundam-zero]
 pochodzenie: skrypt
 zrodla:
   - https://mechabay.com/heero-yuy

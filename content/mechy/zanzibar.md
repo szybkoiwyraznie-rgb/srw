@@ -4,7 +4,7 @@ slug: zanzibar
 tytul: Zanzibar
 seria: mobile-suit-gundam-1979
 gry: [srw-oe]
-piloci: [oficer-zeonu, crowley-hamon]
+piloci: [oficer-zeonu, crowley-hamon, garma-zabi, mquve]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_2_4.txt", "profil": "Zanzibar", "dane": "**Seria:** Mobile Suit Gundam\n### Macierzyste zdolności maszyny\n- **Okręt (poziom bazowy 1):** \"Okręt\" \"Okręt-matka\": Atk x1.2\n  Odporn.: \"Przebicie\" \" Pchnięcie\", \"Rzut\"\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |\n|---:|---|---:|:---:|---:|---:|---:|---|---|\n| 0 | Podwójne działko automatyczne | 1900 | 1–2 | +40 | 20 | — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |\n| 1 | Podwójne działo główne | 1500 | 1–4 | +5 | 25 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** „Okręt-matka” „Okręt”: Cel+70% Atk x1.8; **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |\n| 2 | Stałe działo megacząsteczkowe | 2100 | 2–5 | +10 | 30 | — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia; **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4% |\n| 3 | Rakiety typu J | 3200 | 3–6 | +0 | 35 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** „Okręt-matka” „Okręt”: Cel+70% Atk x1.8 |"}'
 pochodzenie: menu
@@ -20,6 +20,8 @@ Okręt desantowy [[zeon|Zeonu]], który bierze udział w ataku na [[jaburo|Jabur
 Uzbrojenie okrętowe obejmuje podwójne działko automatyczne, podwójne działo główne, stałe działo megacząsteczkowe i rakiety typu J — działa główne oraz rakiety mają premię przeciw celom okrętowym.
 
 W [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu za White Base]] okręt dogania przynętę tuż przed punktem spotkania z [[connect-force|Connect]] i wypuszcza [[mobile-suit|mobile suity]] [[char-aznable|Chara]]. Po ogłoszonym rozejmie startuje z niego bez rozkazu [[bigro|Bigro]] [[tokwan|Tokwana]]; gdy maszyna ginie, z Zanzibara przychodzi depesza z przeprosinami i zapowiedzią natychmiastowego opuszczenia pola walki.
+
+W pierwszej misji trzeciego epizodu okręt wchodzi do strefy walki nad Wyspami Kurylskimi jako odsiecz: jednym Zanzibarem dowodzi [[garma-zabi|Garma Zabi]], a drugi przyprowadza [[mquve|M'Quve]], wysłany przez lady Kycilię. Gdy jednostka zbiera trafienia, [[uragan|Uragan]] proponuje wycofanie, a [[mquve|M'Quve]] każe opuścić strefę pełną prędkością.
 }}
 
 {{zrodlo gra=wspolne
