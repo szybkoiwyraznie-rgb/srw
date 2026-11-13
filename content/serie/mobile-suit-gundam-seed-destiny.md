@@ -19,5 +19,7 @@ Rok 71 Ery Kosmicznej. W wojnie między siłami Sojuszu Ziemskiego a PLANT, zrod
 
 {{zrodlo gra=wspolne
 
+W [[srw-y|Super Robot Wars Y]] serię reprezentuje prototypowy [[mobile-armor|mobile armor]] [[zamza-zah|Zamza-Zah]] Sojuszu Ziemskiego z reflektorem pozytonowym, prowadzony przez [[zaawansowana-si|Zaawansowaną SI]] w szeregach wrogiej grupy atakującej miasto Yagami.
+
 *Mobile Suit Gundam SEED Destiny* to serial telewizyjny z lat 2004–2005, liczący 50 odcinków ([Wikipedia, „Mobile Suit Gundam SEED Destiny”](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam_SEED_Destiny); sprawdzono 2026-11-09).
 }}

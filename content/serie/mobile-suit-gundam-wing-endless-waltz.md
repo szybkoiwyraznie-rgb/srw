@@ -19,5 +19,7 @@ Rok 196 Kalendarza Kolonii. Minął rok od końca wojny, którą rozpoczęła op
 
 {{zrodlo gra=wspolne
 
+W [[srw-y|Super Robot Wars Y]] serię reprezentują [[chang-wufei|Chang Wufei]] w [[altron-gundam|Altronie Gundamie]] oraz bezzałogowe [[taurus|Taurusy]] prowadzone przez system [[mobile-doll|Mobile Doll]].
+
 *Mobile Suit Gundam Wing: Endless Waltz* to trzyodcinkowa OVA z 1997 roku, osadzona w kalendarzu After Colony ([Gundam Official, „Mobile Suit Gundam Wing: Endless Waltz”](https://en.gundam-official.com/series/wing-endless-waltz); sprawdzono 2026-11-09).
 }}

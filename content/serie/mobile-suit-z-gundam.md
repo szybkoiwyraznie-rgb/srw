@@ -19,5 +19,7 @@ Rok 0087 Ery Uniwersalnej. Minęło siedem lat od wojny jednorocznej, w której 
 
 {{zrodlo gra=wspolne
 
+W [[srw-y|Super Robot Wars Y]] serię reprezentuje [[amx-003-gaza-c|AMX-003 Gaza C]] — masowo produkowany transformowalny mobile suit Axis — który [[zaawansowana-si|Zaawansowana SI]] prowadzi w szeregach wrogiej grupy atakującej miasto Yagami.
+
 *Mobile Suit Zeta Gundam* to serial telewizyjny z lat 1985–1986, liczący 50 odcinków ([Wikipedia, „Mobile Suit Zeta Gundam”](https://en.wikipedia.org/wiki/Mobile_Suit_Zeta_Gundam); sprawdzono 2026-11-09).
 }}

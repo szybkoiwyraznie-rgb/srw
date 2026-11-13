@@ -6,6 +6,7 @@ rola: pilot
 gry: [srw-y]
 pochodzenie: skrypt
 zrodla:
+  - https://mechabay.com/trowa-barton
   - https://en.gundam-official.com/character/v2o96dzcz82h8ccvykdpkw06
 tagi: [gundam-wing, pilot]
 utworzono: 2026-11-09
@@ -18,4 +19,6 @@ Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]], gdy [[quatre-raberba-w
 {{zrodlo gra=wspolne
 
 Oficjalny profil *Mobile Suit Gundam Wing: Endless Waltz* identyfikuje Trowę Bartona jako jedną z postaci tej produkcji ([GUNDAM Official — Trowa Barton](https://en.gundam-official.com/character/v2o96dzcz82h8ccvykdpkw06); sprawdzono 2026-11-09).
+
+W [[mobile-suit-gundam-wing-endless-waltz|pierwowzorze]] Trowa przyjął tożsamość prawdziwego Trowy Bartona, syna Dekima Bartona, po tym jak tamten zginął, nim zdążył donieść ojcu o sprzeciwie naukowców wobec pierwotnego planu operacji Meteor. Jako pilot Gundama Heavyarmsa udawał artystę cyrkowego, a poza kokpitem uchodził za najspokojniejszego i najbardziej doświadczonego z piątki pilotów ([MechaBay, „Trowa Barton”](https://mechabay.com/trowa-barton); sprawdzono 2026-11-11).
 }}

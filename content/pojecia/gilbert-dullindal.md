@@ -17,4 +17,6 @@ Jeden z przywódców kosmosu wymienionych przez [[annina-servania|Anninę]] — 
 {{zrodlo gra=wspolne
 
 Gundam Wiki identyfikuje Gilberta Durandala (ギルバート・デュランダル) jako przewodniczącego Rady Najwyższej PLANT i antagonistę *Mobile Suit Gundam SEED Destiny*; gra zapisuje jego nazwisko jako „Dullindal” ([Gundam Wiki, „Gilbert Durandal”](https://gundam.fandom.com/wiki/Gilbert_Durandal); sprawdzono 2026-11-09).
+
+W [[mobile-suit-gundam-seed-destiny|pierwowzorze]] Dullindal obejmuje przewodnictwo Rady Najwyższej PLANT po zakończeniu pierwszej wojny i prowadzi politykę odbudowy potencjału ZAFT. Uchodzi za mówcę, który potrafi przekonać słuchaczy do własnej wizji porządku świata ([Gundam Wiki, „Gilbert Durandal”](https://gundam.fandom.com/wiki/Gilbert_Durandal); sprawdzono 2026-11-11).
 }}

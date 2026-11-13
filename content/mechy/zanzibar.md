@@ -27,6 +27,8 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu za White Base]] okręt dogania p
 ## Pierwowzór
 
 W [[mobile-suit-gundam-1979|pierwowzorze]] Zanzibar to klasa mobilnych krążowników szturmowych wprowadzona w serialu *Mobile Suit Gundam* ([Gundam Wiki, „Zanzibar-class”](https://gundam.fandom.com/wiki/Zanzibar-class); sprawdzono 2026-11-05).
+
+Okręt pełnił dla Zeonu rolę odpowiednika federacyjnych lotniskowców uderzeniowych typu *Pegasus* i był jedyną klasą okrętów wojennych Zeonu zdolną wejść w atmosferę i wrócić w kosmos; bez systemu Minovsky Crafta latał na skrzydłach jak samolot, a do startu w kosmos brano na pokład odrzucany booster. Nie miał katapulty dla mobile suitów — maszyny wychodziły przez boczne i dolne luki. Uzbrojenie stanowiły obrotowa dwulufowa wieża dział megacząsteczkowych, cztery działa megacząsteczkowe strzelające tylko do przodu, po jednej wyrzutni rakiety J na każdą burtę dziobu i pięć dwulufowych działek przeciwlotniczych ([Gundam Wiki, „Zanzibar-class”](https://gundam.fandom.com/wiki/Zanzibar-class); sprawdzono 2026-11-11).
 }}
 
 {{menu gra=srw-oe

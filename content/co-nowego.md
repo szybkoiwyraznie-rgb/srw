@@ -1,5 +1,67 @@
 # Co nowego
 
+## 2026-11-11 20:18
+
+- [[general-takeda|Generał Takeda]] w *Ganbarugerze* ma czterdzieści lat i córkę Katsurę; w ostatnim odcinku OVA *Raijin-Oha* walczy z odrodzonymi bestiami na czele czołgu, a w końcówce *Go-Saurera* ratuje sytuację urządzeniem przywracającym maszynom pierwotną postać.
+
+## 2026-11-11 20:05
+
+- Dyna Soldier to smoczy rdzeń Dynazenona, którym po rozłączeniu robota steruje [[yomogi-asanaka|Yomogi]]; jest to człon jego maszyny, a nie odrębna jednostka.
+
+## 2026-11-11 19:52
+
+- [[zanzibar|Zanzibar]] pełnił dla [[zeon|Zeonu]] rolę odpowiednika federacyjnych lotniskowców typu *Pegasus* i jako jedyna klasa okrętów Zeonu potrafił wejść w atmosferę i wrócić w kosmos; mobile suity wychodziły z niego przez boczne luki, bez katapulty.
+- [[yomogi-asanaka|Yomogi]] steruje smoczym rdzeniem Dynazenona — tworzy korpus i głowę robota, który potrzebuje czterech pilotów i złoży się dopiero wtedy, gdy cała załoga zgra się co do jednego celu.
+
+## 2026-11-11 19:38
+
+- Wczesne [[zaku-ii-bazooka|Zaku II z bazooką]] w wersji MS-06C nosiły 240 mm broń z głowicami jądrowymi i osłonę przed własnym promieniowaniem; po Traktacie Antarktycznym maszynę odchudzono do wersji MS-06F.
+- Linię [[zaku-ii-karabin-maszynowy|Zaku II]] rozwinięto z MS-05 Zaku I — prototyp MS-06A zastąpiła wersja MS-06C z kolcami na barku, tarczą i heat hawkiem, a po zakazie broni jądrowej podstawową maszyną wojny została lżejsza MS-06F.
+
+## 2026-11-11 19:26
+
+- Maska [[zero|Zero]] powstała jako przebranie [[lelouch-vi-britannia|Leloucha]]; po planie Zero Requiem rolę doradcy Czarnych Rycerzy przejmuje Suzaku i nosi ją dalej.
+- [[tetsuro-yagami|Tetsuro Yagami]] zbudował pod [[miasto-yagami|miastem Yagami]] twierdzę [[a-advent|A. Advent]], której mechanizmy pozostają czarną skrzynką; po jego śmierci w wypadku [[annina-servania|Annina]] została nauczycielką [[echika-y-franburnett|Echiki]] zgodnie z jego ostatnią wolą.
+
+## 2026-11-11 19:14
+
+- [[kamille-bidan|Kamille Bidan]] dorastał na kolonii Gryps i po bójce z Jeridem Messą trafił w ręce Titanów, a podczas rajdu AEUG pomógł wykraść trzy prototypy Gundama Mk-II a następnie przesiał się na Zeta Gundama.
+- [[lelouch-vi-britannia|Lelouch]] jako jedenasty syn cesarza popadł w niełaskę po zamachu na matkę i trafił do Japonii jako zakładnik; Geass od C.C. i maska [[zero|Zero]] pozwoliły mu stanąć na czele Czarnych Rycerzy.
+
+## 2026-11-11 19:02
+
+- [[heero-yuy|Heero Yuy]], wychowany przez Doctora J na żołnierza bez emocji, przyjął pseudonim po zamordowanym pacyfiście i w 195 roku Kalendarza Kolonii zszedł na Ziemię w Wing Gundamie, żeby uderzać w instalacje OZ.
+- [[duo-maxwell|Duo Maxwell]], zwany „Bogiem Śmierci”, wyszedł z sierocińca klastra L2 do grupy Sweeperów i odmówił udziału w pierwotnym planie operacji Meteor, ruszając z Gundamem Deathscythe’em przeciw OZ.
+- [[trowa-barton|Trowa Barton]] przyjął tożsamość syna Dekima Bartona po jego śmierci i jako pilot Heavyarmsa udawał artystę cyrkowego, uchodząc za najspokojniejszego z piątki.
+- [[quatre-raberba-winner|Quatre Raberba Winner]] pochodzi z rodu, który dał nazwę kolonii Winnerów; choć wyznaje pacyfizm, przyjął Gundama Sandrocka i walczył u boku oddziału Maganac Corps.
+
+## 2026-11-11 18:44
+
+- [[haman-karn|Haman Karn]] jako córka Maharadży Karny dorastała na asteroidzie Axis wśród niedobitków Księstwa [[zeon|Zeonu]] i w 0087 roku wprowadziła siły Axis do wojny jako trzecia siła konfliktu, prowadząc własną maszynę Qubeley.
+- [[gilbert-dullindal|Gilbert Dullindal]] objął przewodnictwo Rady Najwyższej PLANT po pierwszej wojnie i prowadził odbudowę potencjału ZAFT, uchodząc za mówcę potrafiącego przekonać słuchaczy do własnej wizji porządku świata.
+
+## 2026-11-11 18:31
+
+- [[treize-khushrenada|Treize Khushrenada]] dowodził OZ i stanął na czele Romefeller Foundation, a jego imieniem nazwano zbuntowany odłam OZ; uchodził za człowieka rycerskiego i bezwzględnego zarazem, sam projektował maszyny dla przeciwników i prowadził rachunek poległych.
+- [[milliardo-peacecraft|Milliardo Peacecraft]] to książę Królestwa Sanc, który po zniszczeniu ojczyzny przybrał nazwisko Zechs Merquise; w OZ zyskał przydomek „Błyskawicy”, a [[treize-khushrenada|Treize]] uważał go za najlepszego przyjaciela nawet wtedy, gdy przyszło im walczyć przeciw sobie.
+
+## 2026-11-11 18:16
+
+- [[zamza-zah|Zamza-Zah]] to pierwsza maszyna [[mobile-suit-gundam-seed-destiny|Sojuszu Ziemskiego]], która otrzymała reflektor pozytonowy — osłaniała nim siebie i towarzyszące okręty przed działem „Tannhäuser” pancernika *Minerva*; technologia trafiła potem do Gells-Ghe, seryjnego Euclida i Destroy Gundama.
+
+## 2026-11-11 18:04
+
+- [[amx-003-gaza-c|AMX-003 Gaza C]] powstała w Axis z maszyn roboczych Gaza A i Gaza B; uproszczony układ transformacji czynił ją tanią w produkcji, w trybie [[mobile-armor|mobile armor]] jej nogi służyły jako szpony do chwytania wrogich jednostek, a uzbrojenie stanowiły działa i szable wiązkowe z opcjonalnym Knuckle Busterem.
+
+## 2026-11-11 17:52
+
+- [[mobile-doll|Mobile Doll]] to komputerowy system sterowania [[mobile-suit|mobile suitami]], który pozwala maszynie walczyć bez człowieka w kabinie; pierwszym seryjnym modelem przystosowanym do tego trybu był [[taurus|OZ-12SMS Taurus]], a późniejszy OZ-02MD Virgo nie miał już kabiny w ogóle.
+
+## 2026-11-11 17:30
+
+- W *Endless Waltz* nazwę [[altron-gundam|Altron]] wywodzi się z chińskiego *ertou long* — „dwugłowy smok” — od pary smoczych szponów Dragon Fang; „Nataku” to imię, którym [[chang-wufei|Chang Wufei]] nazywa swoją maszynę.
+- [[srw-y|Super Robot Wars Y]] reprezentują w bazie [[chang-wufei|Chang Wufei]] z [[altron-gundam|Altronem Gundamem]] i [[mobile-doll|Mobile Dollami]] na [[taurus|Taurusach]], [[takuma-nagare|Takuma Nagare]] z [[baku-yamagishi|Baku Yamagishim]] ze świata [[getter-robo-arc|*Getter Robo Arc*]], [[gauma|Gauma]] i [[yomogi-asanaka|Yomogi Asanaka]] z [[ssss-dynazenon|*SSSS.DYNAZENON*]] oraz prowadzone przez [[zaawansowana-si|Zaawansowaną SI]] [[amx-003-gaza-c|AMX-003 Gaza C]] z [[mobile-suit-z-gundam|*Zeta Gundam*]] i [[zamza-zah|Zamza-Zah]] z [[mobile-suit-gundam-seed-destiny|*SEED Destiny*]].
+
 ## 2026-11-10 23:59
 
 - [[wojna-rewolucyjna|Wojna rewolucyjna]] w [[srw-y|Super Robot Wars Y]] połączyła siły [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]], [[czarni-rycerze|Czarnych Rycerzy]] i zwalczanego przez [[logos|Logos]] [[gilbert-dullindal|Gilberta Dullindala]], podczas gdy rok po jej zakończeniu [[tetsuro-yagami|Tetsuro Yagami]] powierzył [[echika-y-franburnett|Echice]] [[a-advent|A. Advent]], [[miasto-yagami|miasto Yagami]], [[nira-kana-i|System Nira-Kana-I]] oraz opiekę wynikającą z [[teoria-y|teorii Y]] i [[pamiec-stg|pamięci STG]].

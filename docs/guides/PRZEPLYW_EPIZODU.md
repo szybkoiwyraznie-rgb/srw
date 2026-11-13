@@ -136,6 +136,9 @@ Zdanie w opisie („W … serię reprezentują…”) pisze się ręcznie: każd
   strony wystarcza, by obie pokazały się nawzajem w „Powiązaniach" (ADR 0038): na stronie postaci
   widać wtedy, w których scenach i epizodach się przewinęła.
 - Nie linkuj na zapas: `[[slug]]` do wpisu, który nie istnieje, **wywala build**.
+- Link ma sens tylko wtedy, gdy coś wnosi: boks „Powiązania” zbiera wyłącznie sceny i hasła,
+  a postacie, mechy i serie widnieją na własnych listach metryki (ADR 0040). Wikilink do postaci
+  w zdaniu zostaje, bo jest odsyłaczem w treści — nie dlatego, że dopisze pozycję do boksu.
 
 ## 6. Dziennik zmian
 

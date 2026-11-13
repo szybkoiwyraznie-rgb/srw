@@ -16,5 +16,7 @@ Jeden z przywódców Ziemian w [[wojna-rewolucyjna|wojnie rewolucyjnej]], obok [
 
 {{zrodlo gra=wspolne
 
-Gundam Wiki identyfikuje Treize'a Khushrenadę (トレーズ・クシュリナーダ) jako postać *Mobile Suit Gundam Wing* — dowódcę OZ i rywala pilotów gundamów ([Gundam Wiki, „Treize Khushrenada”](https://gundam.fandom.com/wiki/Treize_Khushrenada); sprawdzono 2026-11-09).
+Gundam Wiki identyfikuje Treize'a Khushrenady (トレーズ・クシュリナーダ) jako postać *Mobile Suit Gundam Wing* — dowódcę OZ i rywala pilotów gundamów ([Gundam Wiki, „Treize Khushrenada”](https://gundam.fandom.com/wiki/Treize_Khushrenada); sprawdzono 2026-11-09).
+
+W pierwowzorze Treize dowodzi OZ i staje na czele Romefeller Foundation, gdy ta przejmuje kontrolę nad Ziemią, a jego imieniem nazwano odłam OZ, który zbuntował się przeciw fundacji. Uchodzi za człowieka rycerskiego i bezwzględnego zarazem; sam projektuje maszyny dla swoich przeciwników, a o wartości człowieka sądzi po tym, jak walczy. Prowadzi własny rachunek poległych w wojnie, a na jego nagrobku zapisano, że zginął tak, jak wierzył ([Gundam Wiki, „Treize Khushrenada”](https://gundam.fandom.com/wiki/Treize_Khushrenada); sprawdzono 2026-11-11).
 }}

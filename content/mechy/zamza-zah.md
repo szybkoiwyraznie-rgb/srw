@@ -9,6 +9,8 @@ piloci: [zaawansowana-si]
 pochodzenie: menu
 zrodla:
   - https://en.gundam-official.com/series/seed-destiny/mecha
+  - https://gundam.fandom.com/wiki/Positron_Reflector
+  - https://gundam.fandom.com/wiki/Cosmic_Era_Mobile_Weapons
 tagi: [srw-y, mobile-armor, gundam-seed]
 utworzono: 2026-11-09
 w_gre:
@@ -16,14 +18,18 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-Prototypowy [[mobile-armor|mobile armor]] [[mobile-suit-gundam-seed-destiny|Sojuszu Ziemskiego]]. Wielka, bardzo mobilna maszyna ma reflektor pozytonowy i wymaga trzech osób do pełnej obsługi, lecz w tej historii służy jako ciężka jednostka wroga.
-
-Prototypowy mobile armor Sojuszu Ziemskiego. Mimo ogromnych rozmiarów jest bardzo mobilny, a szpony i działa wiązkowe pozwalają mu walczyć na każdym dystansie. Z przodu rozpościera reflektor pozytonowy, który zatrzymuje nawet Tannhausera Minervy. Aby wykorzystać jego możliwości, potrzeba trzech pilotów: dowódcy, sternika i działonowego.
+Prototypowy [[mobile-armor|mobile armor]] [[mobile-suit-gundam-seed-destiny|Sojuszu Ziemskiego]]. Mimo ogromnych rozmiarów jest bardzo mobilny, a szpony i działa wiązkowe pozwalają mu walczyć na każdym dystansie. Z przodu rozpościera reflektor pozytonowy, który zatrzymuje nawet Tannhausera Minervy. Aby wykorzystać jego możliwości, potrzeba trzech pilotów: dowódcy, sternika i działonowego.
 }}
 
 {{zrodlo gra=wspolne
 
 Oficjalna lista mechów *Mobile Suit Gundam SEED Destiny* wymienia Zamza-Zah ([Gundam Official — SEED Destiny, mecha](https://en.gundam-official.com/series/seed-destiny/mecha); sprawdzono 2026-11-09).
+
+## Pierwowzór
+
+W [[mobile-suit-gundam-seed-destiny|pierwowzorze]] YMAF-X6BD Zamza-Zah to prototypowy latający [[mobile-armor|mobile armor]] [[earth-federation|Sojuszu Ziemskiego]] o sylwetce przypominającej kraba, obsługiwany przez trzech ludzi — dowódcę, sternika i działonowego. Jako pierwsza maszyna otrzymała **reflektor pozytonowy**, którym osłaniała siebie i towarzyszące okręty przed ogniem działa pozytonowego „Tannhäuser” pancernika *Minerva* ([Gundam Wiki, „Cosmic Era Mobile Weapons”](https://gundam.fandom.com/wiki/Cosmic_Era_Mobile_Weapons); [Gundam Wiki, „Positron Reflector”](https://gundam.fandom.com/wiki/Positron_Reflector); sprawdzono 2026-11-11).
+
+Technologia reflektora trafiła następnie do maszyny obrony baz Gells-Ghe oraz do seryjnego Euclida, a dane z obu prototypów wykorzystano przy budowie Destroy Gundama ([Gundam Wiki, „Positron Reflector”](https://gundam.fandom.com/wiki/Positron_Reflector); sprawdzono 2026-11-11).
 }}
 
 {{menu gra=srw-y

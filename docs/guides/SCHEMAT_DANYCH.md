@@ -41,7 +41,10 @@ liczą się do grafu i do boksu „Powiązania". Boks pokazuje relację z obu st
 z jednej strony wystarcza, by każda z dwóch wymieniała drugą (ADR 0038). Strona widoczna już
 w metryce albo na własnej liście („Z tej serii…", „Rozegrane epizody") w boksie się nie powtarza
 (ADR 0036). Boks pokazuje 50 pozycji; pozostałe są na stronie od razu i odsłania je przycisk
-„Rozwiń" (ADR 0039).
+„Rozwiń" (ADR 0039). Boks zbiera wyłącznie kontekst fabularny (`Sceny`) i pojęciowy (`Hasła`) —
+postacie, mechy, serie i gry mają własne listy w metryce, więc w „Powiązaniach” się nie powtarzają
+(ADR 0040). Encja bez żadnej sceny i bez powiązanego hasła boksu nie dostaje; to nie brak danych,
+tylko brak kontekstu w zapisanej fabule.
 
 ## Pola specyficzne
 
