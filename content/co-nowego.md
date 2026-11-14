@@ -117,7 +117,6 @@
 
 - [[kanzen-shouri-daiteioh|*Kanzen Shouri Daiteioh*]] (完全勝利ダイテイオー) powstał jako manga w magazynie *Dengeki Hobby Magazine* i jednoodcinkowy film pilotażowy OVA z grudnia 2001 roku — planowany serial telewizyjny nigdy nie trafił na antenę.
 - [[genki-bakuhatsu-ganbaruger|*Genki Bakuhatsu Ganbaruger*]] (元気爆発ガンバルガー) liczy 47 odcinków z lat 1992–1993 i stanowi drugą odsłonę cyklu Eldrana z miasta Aozora, rok po wydarzeniach z [[matchless-raijin-oh|*Matchless Raijin-Oh*]].
-- [[macross-delta|*Macross Delta*]] to 26-odcinkowy serial z 2016 roku osadzony w roku 2067 w gromadzie Brísingr, gdzie śpiewaczki Walküre wspierają lotnictwo Delta Flight przeciwko syndromowi Vár.
 
 ## 2026-11-10 23:05
 
@@ -160,7 +159,6 @@
 
 - Wśród maszyn [[srw-y|SRW Y]] walczą [[a-advent|A. Advent]] — dzieło [[tetsuro-yagami|Tetsuro Yagamiego]], maszyna [[echika-y-franburnett|Echiki]] — a także [[amx-003-gaza-c|AMX-003 Gaza C]], [[altron-gundam|Altron Gundam]], [[taurus|Taurus]], [[lancelot-albion-zero|Lancelot Albion Zero]], [[zamza-zah|Zamza-Zah]] i [[lumenus|Lumenus]].
 - [[lunedrache|X-Lunedrache]] to dawna Lunedrache — maszyna przywódcy Haze przywrócona pod nazwą „X (Cross)-Lunedrache”.
-- Ze świata [[macross-delta|Macross Delta]] przychodzą śpiewaczki taktycznego zespołu Walküre: [[mikumo-guynemer|Mikumo Guynemer]], [[freyja-wion|Freyja Wion]] i [[kaname-buccaneer|Kaname Buccaneer]].
 
 ## 2026-11-09 15:40
 

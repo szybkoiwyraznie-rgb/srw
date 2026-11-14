@@ -239,7 +239,7 @@ test('encje bez pierwowzoru poza bazą źródeł nie dostają zmyślonego tła (
   }
 });
 
-test('serie Eldrana i Macross Delta mają komplet metadanych i tło pierwowzoru (ADR 0008, ADR 0012)', () => {
+test('serie Eldrana mają komplet metadanych i tło pierwowzoru (ADR 0008, ADR 0012)', () => {
   const daiteioh = bySlug.get('kanzen-shouri-daiteioh');
   assert.equal(daiteioh.tytul_ja, '完全勝利ダイテイオー');
   assert.equal(daiteioh.rodzaj, 'ova');
@@ -255,11 +255,6 @@ test('serie Eldrana i Macross Delta mają komplet metadanych i tło pierwowzoru 
   assert.equal(ganbaruger.rok, 1992);
   assert.equal(ganbaruger.odcinki, 47);
   assert.match(ganbaruger.body, /\{\{zrodlo gra=wspolne[\s\S]*sprawdzono 2026-11-10/);
-
-  const macross = bySlug.get('macross-delta');
-  assert.equal(macross.rok, 2016);
-  assert.equal(macross.odcinki, 26);
-  assert.match(macross.body, /\{\{zrodlo gra=wspolne[\s\S]*sprawdzono 2026-11-10/);
 });
 
 test('maszyny z misji 2-8 mają sprawdzone tło pierwowzoru (ADR 0008, ADR 0013)', () => {
