@@ -3,7 +3,7 @@
 ## 2026-11-14 13:24
 
 - [[nunnally-vi-britannia|Nunnally vi Britannia]] jest córką cesarza Charlesa zi Britannii i Marianne; po zamachu na matkę straciła wzrok i władzę w nogach, a po śmierci brata wstąpiła na tron Britannii jako jej setna władczyni.
-- Gdy [[zero|Zero]] zabija cesarza [[lelouch-vi-britannia|Leloucha]], brata woła [[nunnally-vi-britannia|Nunnally]], a [[chang-wufei|Chang Wufei]] pierwszy staje do walki, bo nie daruje nikomu, kto wciąga słabych w wojnę.
+- Gdy [[zero|Zero]] zabija cesarza [[lelouch-vi-britannia|Leloucha]], brata woła [[nunnally-vi-britannia|Nunnally]], a [[chang-wufei|Chang Wufei]] pierwszy staje do walki: nie uznaje świata, do którego doprowadzili go Treize i Lelouch, i chce wywalczyć miejsce dla żołnierzy.
 - [[chang-wufei|Wufei]] pochodzi z rodu Longów z klastra L5; imię poległej towarzyszki Long Meilan, „Nataku”, przeniósł na własną maszynę — stąd Shenlong, a potem [[altron-gundam|Altron]], który wysadził, gdy upadła Armia Mariemai.
 - [[tetsuya-tsurugi|Tetsuya Tsurugi]] trafił jako siedmiolatek do Kenzo Kabuto i ćwiczył na pilota Great Mazingera, by bronić Ziemi przed Imperium Mykenów u boku Jun Hono i adoptowanego brata [[koji-kabuto|Kojiego]].
 - [[hyoma-aoi|Hyoma Aoi]] prowadzi drużynę z Nanbara Connection jako pilot Battle Jet — maszyny, która przy kombinacji tworzy głowę Combattlera V; to wychowany w sierocińcu motocyklista, który wchodzi do walki pierwszy.
@@ -648,7 +648,7 @@
 
 ## 2026-10-19 19:10
 
-- [[kuro|Kuro]] i [[shiro|Shiro]] towarzyszą [[masaki-andoh|Masakiemu Andoh]] i [[cybuster|Cybusterowi]].
+- [[kuro|Kuro]] i [[shiro-kot|Shiro]] towarzyszą [[masaki-andoh|Masakiemu Andoh]] i [[cybuster|Cybusterowi]].
 
 ## 2026-10-17 23:55
 

@@ -449,7 +449,7 @@ test('ilustracje właściciela: 237 plików przy 188 encjach, w tym postacie bez
 
 
 test('ilustracja jest dostawą: Kuro i Shiro mają opisy, źródła i powiązania bez dopisywania fabuły', () => {
-  for (const slug of ['kuro', 'shiro']) {
+  for (const slug of ['kuro', 'shiro-kot']) {
     const page = bySlug.get(slug);
     assert.equal(page.typ, 'postac');
     assert.deepEqual(page.gry, ['srw-oe']);

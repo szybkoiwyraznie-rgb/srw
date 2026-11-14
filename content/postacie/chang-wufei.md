@@ -16,6 +16,8 @@ utworzono: 2026-11-09
 {{menu gra=srw-y
 
 Agent operacji Meteor ze skupiska kolonii L5, wysłany na Ziemię. Ma 16 lat. Pochodzi w prostej linii z rodu wojowników sięgającego starożytnych Chin. Wychowano go na wojownika w przekonaniu, że siła to sprawiedliwość. Deptanie słabych przez OZ uważa za zło i wierzy, że sprawiedliwość to pokonać je jeszcze większą siłą. Dlatego gdy przegrał z [[treize-khushrenada|Treize'em]] w walce wręcz, poczuł się bezsilny i stracił wolę walki. Odzyskał ją, widząc, jak Sally Po przyznaje się do słabości, a mimo to walczy dalej; uznał, że świat zmienia właśnie wytrwałość w walce. W ostatniej bitwie pokonał Treize'a w rewanżu, lecz zwycięstwo okazało się niejasne, jakby Treize odszedł niepokonany. Po wojnie zwątpił, czy jest sprawiedliwość w świecie, gdzie ludzie w czasach pokoju zapomnieli o walce, a żołnierze nie mają dokąd pójść. W odpowiedzi celowo stał się złem i przyłączył się do Armii Mariemai.
+
+Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] Wufei milczy — dopytany przez [[heero-yuy|Heero]], dokąd idzie, odpowiada, że nie uznaje „tego” ani Chara, ani Treize'a, niczego. Do walki włącza się, gdy [[zero|Zero]] dokonuje zamachu: wojny nie znikną ze świata, ale nie daruje nikomu, kto wciąga słabych w wojnę. Rozpoznaje w ruchu [[ninja|NINJA]] technikę widzianą podczas wojny rewolucyjnej i recytuje własną zasadę — w spoczynku cichy jak blask księżyca, w ruchu gwałtowny jak grom. W myślach nie uznaje świata, do którego doprowadzili go Treize i Lelouch, i przysięga walczyć o świat, w którym jest miejsce dla żołnierzy; na końcu zatrzymuje Zero i pyta wprost, kim jest.
 }}
 
 {{zrodlo gra=wspolne
