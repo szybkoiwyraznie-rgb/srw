@@ -32,7 +32,7 @@
 - Trzeci epizod otwiera misja [[srw-oe-ep3-interwencja-gundamow|Interwencja Gundamów]]: [[white-base|White Base]] i [[connect-force|Connect Force]] bronią obserwatorium na Wyspach Kurylskich w strefie neutralnej.
 - [[garma-zabi|Garma Zabi]] atakuje placówkę, żeby ujawnić złamanie traktatu przez Federację i zdobyć uznanie siostry Kycilii; [[char-aznable|Char]] podsuwa mu uzasadnienie, a sam liczy na jego koneksje.
 - Odsiecz przyprowadza [[mquve|M'Quve]] na [[zanzibar|Zanzibarze]], razem z [[black-tri-stars|Black Tri-Stars]]; [[uragan|Uragan]] doradza wycofanie okrętu, gdy ten zaczyna się rozpadać.
-- Po odwrocie Zeonu placówkę niszczą [[setsuna-f-seiei|Setsuna F. Seiei]] w [[gundam-exia|Gundam Exia]] i [[heero-yuy|Heero Yuy]] w [[wing-gundam-zero|Wing Gundam Zero/NB]] — dwie maszyny spoza wojny Federacji i Zeonu.
+- Po odwrocie Zeonu placówkę niszczą [[setsuna-f-seiei|Setsuna F. Seiei]] w [[gundam-exia|Gundam Exia]] i [[heero-yuy|Heero Yuy]] w [[wing-gundam-zero|Wing Gundam Zero]], który nadlatuje w skrzydlatej formie [[wing-gundam-zero-nb|Wing Zero NB]] — dwie maszyny spoza wojny Federacji i Zeonu.
 - Do bazy wchodzą dwie nowe serie: [[mobile-suit-gundam-00|Mobile Suit Gundam 00]] i [[mobile-suit-gundam-wing|Mobile Suit Gundam Wing]].
 
 ## 2026-11-13 22:16
