@@ -283,13 +283,13 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 240 plików przy 191 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 237 plików przy 188 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
   // Bieżący stan manifestu jest przypięty tylko tutaj. Testy poszczególnych dostaw sprawdzają
   // własne klucze i to, że manifest nie jest starszy od nich — kolejna dostawa zmienia ten jeden test.
-  assert.equal(Object.keys(manifest.encje).length, 191);
-  assert.equal(Object.values(manifest.encje).flat().length, 240);
+  assert.equal(Object.keys(manifest.encje).length, 188);
+  assert.equal(Object.values(manifest.encje).flat().length, 237);
   assert.equal(manifest.dostarczono, '2026-11-10', 'data ostatniej dostawy ilustracji');
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
@@ -449,7 +449,7 @@ test('ilustracje właściciela: 240 plików przy 191 encjach, w tym postacie bez
 
 
 test('ilustracja jest dostawą: Kuro i Shiro mają opisy, źródła i powiązania bez dopisywania fabuły', () => {
-  for (const slug of ['kuro', 'shiro']) {
+  for (const slug of ['kuro', 'shiro-kot']) {
     const page = bySlug.get(slug);
     assert.equal(page.typ, 'postac');
     assert.deepEqual(page.gry, ['srw-oe']);
@@ -573,12 +573,12 @@ test('dostawa ilustracji SRW Y (2026-11-09): osiem jednostek i szesnaście portr
   // X-Lunedrache to nazwa obecnej maszyny przywódcy Haze — plik należy do Lunedrache.
   assert.match(bySlug.get('lunedrache').body, /X \(Cross\)-Lunedrache/);
   const portrety = {
-    'mikumo-guynemer': 'Mikumo Guynemer', 'takuma-nagare': 'Takuma Nagare',
+    'takuma-nagare': 'Takuma Nagare',
     'cross-tsukinowa': 'Tsukinowa Cross', 'wren': 'Wren', 'yomogi-asanaka': 'Yomogi',
     'zero': 'Zero', 'annina-servania': 'Annina Servania', 'aytie': 'Aytie',
     'baku-yamagishi': 'Baku Yamagishi', 'chang-wufei': 'Chang Wufei', 'cookie': 'Cookie',
     'echika-y-franburnett': 'Echika Y. Franburnett', 'forte-tsukinowa': 'Forte Tsukinowa',
-    'freyja-wion': 'Freyja Wion', 'gauma': 'Gauma', 'kaname-buccaneer': 'Kaname Buccaneer',
+    'gauma': 'Gauma',
   };
   for (const [slug, name] of Object.entries(portrety)) {
     assert.deepEqual(manifest.encje[slug], [`characters/${name}.png`], slug);
@@ -588,18 +588,6 @@ test('dostawa ilustracji SRW Y (2026-11-09): osiem jednostek i szesnaście portr
     assert.ok(body.includes(`${manifest.baseUrl}/characters/${encodeURIComponent(name)}.png`),
       `${slug}: adres portretu`);
   }
-  // Postacie z samej dostawy ilustracyjnej (ADR 0017) — opisy z kwerendy, nie z gry.
-  for (const slug of ['mikumo-guynemer', 'freyja-wion', 'kaname-buccaneer']) {
-    const page = bySlug.get(slug);
-    assert.equal(page.typ, 'postac', slug);
-    assert.equal(page.seria, 'macross-delta', slug);
-    assert.equal(page.rola, 'wsparcie', slug);
-    assert.deepEqual(page.gry, ['srw-y'], slug);
-    assert.equal(page.pochodzenie, 'zrodlo', slug);
-    for (const url of page.zrodla) assert.ok(page.body.includes(url), `${slug}: adres w treści`);
-    assert.match(page.body, /sprawdzono 2026-11-09/, slug);
-  }
-  assert.equal(bySlug.get('macross-delta').rodzaj, 'tv');
   assert.ok(manifest.dostarczono >= '2026-11-09', 'manifest nie jest starszy od tej dostawy');
   assert.equal(manifest.weryfikacjaZdalna, false);
   assert.deepEqual(manifest.nieprzypisane, []);

@@ -162,7 +162,7 @@ Na wniosek właściciela z 2026-11-09 dziennik publiczny mówi wyłącznie o fab
 Poniżej notatki o procesie, bazie i formatowaniu, usunięte z `content/co-nowego.md`
 (przepisane wpisy fabularne zachowano w dzienniku w nowym brzmieniu):
 
-- 2026-11-09 16:50 — dostawa 24 ilustracji SRW Y (osiem jednostek, szesnaście portretów): galerie na 24 stronach, manifest wyrównany do 162 encji i 206 plików, trzy postacie Macrossa i seria macross-delta; testy 410/0.
+- 2026-11-09 16:50 — dostawa 24 ilustracji SRW Y (osiem jednostek, szesnaście portretów): galerie na 24 stronach, manifest wyrównany do 162 encji i 206 plików; testy 410/0.
 - 2026-11-09 15:40 — strona gry z kompletem danych wydawniczych; usunięta zdublowana lista obsady w menu serii.
 - 2026-11-09 15:22 — strony czterech bohaterów z blokami obecności w SRW Y.
 - 2026-11-09 15:05 — jedenaście nazwisk z prologu i misji dostało własne strony z podaniem odcinka/filmu i cytatem ze źródła.

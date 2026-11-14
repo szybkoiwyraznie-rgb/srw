@@ -224,3 +224,18 @@ Zasada: wzmianka o członie lub podzespole w cudzym profilu to nie rekord jednos
 (ADR 0029 pkt 1). Maszyna dostaje stronę, gdy ma własny wpis w menu, kartę w dostawie
 albo występuje w scenie — a jeśli żaden z tych warunków nie zachodzi, zostaje opisem
 w treści postaci, do której należy.
+
+## L22 — Źródło zewnętrzne nie może przeczyć dostawie po cichu (2026-11-13)
+
+Audyt PR #35 trafił na zdanie o Gazie C: „Oznaczenie MMT-1 pochodziło od wewnętrznej nomenklatury
+Axis, a AMX-003 nadała maszynie Federacja”. Stało ono trzy akapity pod zdaniem z dostawy, według
+którego maszyna „ma oznaczenia obu armii: Axis (AMX-003) i Federacji (MMT-1)” — czyli dokładnie
+odwrotnie. Oba porządki mają źródła: Gundam Wiki wywodzi AMX z „Axis mobile weapon”, a MMT-1
+z pierwotnego oznaczenia seryjnej transformowalnej maszyny, starsze opracowania (i część forów)
+oddają AMX-003 Federacji. Sesja wybrała wersję zewnętrzną, nie zauważając, że przeczy ona
+materiałowi, na którym stoi reszta strony.
+
+Zasada: gdy źródło zewnętrzne mówi co innego niż dostawa, rozbieżność opisuje się wprost
+(„źródła podają niejednolicie…”), a nie rozstrzyga po cichu na korzyść tego, co wygodniejsze.
+Dostawa jest rozstrzygnięciem dla danych gry; źródło zewnętrzne tłumaczy tylko tło. Test tego nie
+widzi — czyta pola, nie akapity — więc sprzeczność wyłapuje dopiero audyt następnej sesji.
