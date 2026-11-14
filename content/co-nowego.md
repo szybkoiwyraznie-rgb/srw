@@ -2,7 +2,7 @@
 
 ## 2026-11-14 21:20
 
-- [[gundam-exia|Gundam Exia]] ma dwa własne ujęcia, a [[wing-gundam-zero|Wing Gundam Zero/NB]] trzy — w tym jedno opatrzone dopiskiem „NB”, tym samym, który nosi nazwa jednostki.
+- [[gundam-exia|Gundam Exia]] ma dwa własne ujęcia, [[wing-gundam-zero|Wing Gundam Zero]] dwa, a jego skrzydlata forma [[wing-gundam-zero-nb|Wing Zero NB]] jedno — opatrzone tym samym dopiskiem, który nosi wspólna nazwa obu maszyn.
 - Portrety mają [[garma-zabi|Garma Zabi]], [[heero-yuy|Heero Yuy]], [[setsuna-f-seiei|Setsuna F. Seiei]] i [[uragan|Uragan]] — czterej świadkowie kurylskiej zasadzki, od atakującego obserwatorium Garmy po dowódcę odsieczy.
 
 ## 2026-11-14 14:22
@@ -15,7 +15,7 @@
 
 - W [[srw-y|Super Robot Wars Y]] [[amuro-ray|Amuro Ray]] i [[bright-noa|Bright Noa]] występują w wersji z filmu *Char's Counterattack* z 1988 roku: Amuro dosiada ν Gundama, a Bright dowodzi okrętem Ra Cailum oddziału Londo Bell. W [[srw-oe|Super Robot Wars OE]] obaj reprezentują jeszcze serial z 1979 roku, więc na paradzie u [[lelouch-vi-britannia|Leloucha]] stoją już jako weterani wojny sprzed lat.
 - [[char-aznable|Char Aznable]] w tym samym filmie staje na czele Neo Zeonu i walczy w Sazabim; w opowieści Y jego rozrachunek z Lelouchem dopiero ma wybuchnąć.
-- [[wing-gundam-zero|Wing Gundam Zero]] przechodzi w tryb Neo-Bird — skrzydlatą formę, w której leci w atmosferze i samodzielnie w nią wchodzi. Dopisek „NB” w nazwie jednostki pasuje do skrótu tej formy, ale żadne omówienie nie łączy ich wprost, więc pozostaje przypuszczeniem.
+- [[wing-gundam-zero|Wing Gundam Zero]] przechodzi w tryb Neo-Bird — skrzydlatą formę, w której leci w atmosferze i samodzielnie w nią wchodzi. Pod wspólną nazwą „Wing Zero/NB” kryją się obie maszyny: humanoidalny Gundam i ta forma, opisana jako [[wing-gundam-zero-nb|Wing Zero NB]].
 
 ## 2026-11-14 13:24
 

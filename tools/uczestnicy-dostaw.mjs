@@ -39,7 +39,13 @@ const INNE_NAZWY_SERII = { Original: 'super-robot-wars-original' };
  * Nazwy z dostaw, które w bazie noszą inny tytuł, bo dostawa je tłumaczy.
  * „SI sterująca” to polskie brzmienie profilu Control AI (ADR 0025 pkt 6).
  */
-const INNE_ZAPISY_NAZW = { 'SI sterująca': 'control-ai' };
+const INNE_ZAPISY_NAZW = {
+  'SI sterująca': 'control-ai',
+  // Dostawa OE trzyma obie maszyny pod jednym rekordem „Wing Zero/NB”: bazowa strona
+  // Wing Gundam Zero niesie ten rekord, a skrzydlata forma ma osobną stronę (wing-gundam-zero-nb).
+  'Wing Zero/NB (Wing Gundam Zero/NB)': 'wing-gundam-zero',
+  'Wing Gundam Zero/NB': 'wing-gundam-zero',
+};
 
 /** Wpisy w miejscu pilota, które nie są osobą: rekord bez pilota albo głos bez imienia. */
 const BRAK_PILOTA = [/^brak$/i, /^Brak przypisanego klucza pilota\b/i, /^\?+$/];
