@@ -13,7 +13,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Na widok cesarza [[lelouch-vi-britannia|Leloucha]] podczas parady Quatre Raberba Winner mówi, że ten chce raz na zawsze rozprawić się ze Spacenoidami; [[trowa-barton|Trowa]] dodaje, że znów poleje się krew.
+Na widok cesarza [[lelouch-vi-britannia|Leloucha]] podczas parady Quatre Raberba Winner mówi, że ten chce raz na zawsze rozprawić się ze Spacenoidami. Jego słowa podejmuje [[trowa-barton|Trowa]] uwagą, że znów poleje się krew. Quatre patrzy na paradę obok [[heero-yuy|Heero]] i [[duo-maxwell|Duo]] i nie kryje, że rozumie intencję cesarza.
 }}
 
 {{zrodlo gra=wspolne

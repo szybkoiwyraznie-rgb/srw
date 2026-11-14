@@ -13,7 +13,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]], gdy [[quatre-raberba-winner|Quatre]] mówi, że cesarz chce raz na zawsze rozprawić się ze Spacenoidami, Trowa Barton odpowiada: „Znów poleje się krew…”.
+Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]], gdy [[quatre-raberba-winner|Quatre]] mówi, że cesarz chce raz na zawsze rozprawić się ze Spacenoidami, Trowa Barton odpowiada krótko: „Znów poleje się krew…”. Stoi w tłumie razem z [[heero-yuy|Heero]] i [[duo-maxwell|Duo]] i poza tą jedną kwestią nie zabiera głosu.
 }}
 
 {{zrodlo gra=wspolne

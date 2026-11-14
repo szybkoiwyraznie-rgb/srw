@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-14 14:22
+
+- Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] [[duo-maxwell|Duo Maxwell]] mówi, że nie udało się cesarza powstrzymać, a jego próbę rozmowy z [[heero-yuy|Heero]] ucina krótkie „Nic nie mów…”; gdy na trasie pojawia się [[zero|Zero]], Duo woła jego imię.
+- [[quatre-raberba-winner|Quatre Raberba Winner]] odczytuje intencję cesarza — raz na zawsze rozprawić się ze Spacenoidami — a [[trowa-barton|Trowa Barton]] odpowiada, że znów poleje się krew.
+- [[chang-wufei|Chang Wufei]] nie uznaje ani cesarza, ani [[char-aznable|Chara]], ani [[treize-khushrenada|Treize'a]] i odchodzi w milczeniu, pytany przez Heero, dokąd idzie.
+
 ## 2026-11-14 14:12
 
 - W [[srw-y|Super Robot Wars Y]] [[amuro-ray|Amuro Ray]] i [[bright-noa|Bright Noa]] występują w wersji z filmu *Char's Counterattack* z 1988 roku: Amuro dosiada ν Gundama, a Bright dowodzi okrętem Ra Cailum oddziału Londo Bell. W [[srw-oe|Super Robot Wars OE]] obaj reprezentują jeszcze serial z 1979 roku, więc na paradzie u [[lelouch-vi-britannia|Leloucha]] stoją już jako weterani wojny sprzed lat.
