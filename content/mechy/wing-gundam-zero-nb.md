@@ -14,13 +14,13 @@ utworzono: 2026-11-14
 ---
 {{skrypt gra=srw-oe
 
-Druga maszyna tej samej konstrukcji co [[wing-gundam-zero|Wing Gundam Zero]] — skrzydlata forma, w którą ten przechodzi w locie. Dzieli z nim nazwę „Wing Zero/NB” i pilota, [[heero-yuy|Heero Yuya]]; w ataku na obserwatorium na Wyspach Kurylskich placówkę niszczy jednak humanoidalne [[wing-gundam-zero|Wing Zero]].
+Druga maszyna tej samej konstrukcji co [[wing-gundam-zero|Wing Gundam Zero]] — skrzydlata forma, w którą ten przechodzi w locie. Dzieli z nim nazwę „Wing Zero/NB” i pilota, [[heero-yuy|Heero Yuya]]; w ataku na obserwatorium na Wyspach Kurylskich placówkę niszczy humanoidalne [[wing-gundam-zero|Wing Zero]].
 
 }}
 
 {{wiedza gra=wspolne
 
-Dopisek „NB” odpowiada trybowi Neo-Bird: formie skrzydlatego samolotu, w której [[wing-gundam-zero|Wing Gundam Zero]] leci w atmosferze i samodzielnie w nią wchodzi. Baza prowadzi obie maszyny jako osobne strony — dzielą konstrukcję i pilota, ale różnią się sylwetką i zastosowaniem.
+Dopisek „NB” odpowiada trybowi Neo-Bird: formie skrzydlatego samolotu, w której [[wing-gundam-zero|Wing Gundam Zero]] leci w atmosferze i samodzielnie w nią wchodzi. Obie maszyny dzielą konstrukcję i pilota, ale różnią się sylwetką i zastosowaniem: jedna staje do boju w ludzkiej postaci, druga służy do przelotu.
 
 }}
 

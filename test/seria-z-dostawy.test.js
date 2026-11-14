@@ -232,9 +232,13 @@ test('pseudonim widać na stronie i na liście postaci, a wyszukiwarka prowadzi 
     const cytat = `„${p.pseudonim}”`;
     assert.ok(html.slice(0, html.indexOf('uklad-strona')).includes(cytat), `${p.slug}: pseudonim w podtytule`);
     assert.match(html, new RegExp(`<dt>Pseudonim</dt>\\s*<dd>${escapeRe(p.pseudonim)}</dd>`), `${p.slug}: pseudonim w metryce`);
-    const karta = listaGry(p.gry[0]).split('<article').find((k) => k.includes(`href="#/postac/${p.slug}"`));
-    assert.ok(karta, `${p.slug}: karta na liście postaci gry ${p.gry[0]}`);
-    assert.ok(karta.includes(cytat), `${p.slug}: pseudonim na karcie listy postaci`);
+    // Kolejność pola `gry` jest przypadkowa, więc karta musi się pojawić na liście
+    // każdego tytułu, w którym postać występuje — nie tylko pod pierwszym wpisem.
+    for (const gra of p.gry) {
+      const karta = listaGry(gra).split('<article').find((k) => k.includes(`href="#/postac/${p.slug}"`));
+      assert.ok(karta, `${p.slug}: karta na liście postaci gry ${gra}`);
+      assert.ok(karta.includes(cytat), `${p.slug}: pseudonim na karcie listy postaci (${gra})`);
+    }
     const wyniki = szukaj(p.pseudonim);
     const pierwszy = wyniki[0]?.strona?.slug ?? wyniki[0]?.slug;
     assert.equal(pierwszy, p.slug, `szukanie „${p.pseudonim}” zaczyna się od strony ${p.slug}`);

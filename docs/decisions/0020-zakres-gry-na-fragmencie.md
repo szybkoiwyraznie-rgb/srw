@@ -95,3 +95,13 @@ Testy sprawdzają składnię atrybutu, widoczną etykietę i odsyłacz, obsług�
 zakresu na stronie wielotytułowej, odrzucanie gier spoza pola `gry` oraz obecność tytułu
 w podglądzie ilustracji. Dziś baza opisuje jeden tytuł, więc wymóg z punktu 5 jeszcze nie
 występuje w treści — obowiązuje od pierwszego wpisu obejmującego drugą grę.
+
+## Adnotacja (2026-11-14)
+
+Punkt 4 w części „w kolejności gier z pola `gry`” **uchylony**: kolejność listy `gry`
+jest przypadkowa i nie ma znaczenia — nie może wyznaczać etykiety galerii ani niczego
+innego. Etykieta bloku ilustracji bierze się z tytułu, z którego pochodzą pliki, i musi
+należeć do pola `gry` strony; kolejność bloków na stronie też nie musi odwzorowywać
+kolejności gier. Test dostawy sprawdza przynależność etykiety do listy gier, a nie jej
+pozycję, tak samo jak test kart listy sprawdza obecność postaci na liście każdego
+zadeklarowanego tytułu.

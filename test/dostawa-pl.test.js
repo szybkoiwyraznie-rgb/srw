@@ -253,8 +253,12 @@ test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że 
   assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /wsiada do Exert razem|wysyła dane do zespołu/);
 });
 
-test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
-  const zakazane = /\bw grze\b|\bprofilu?\b|\bobsad[a-ząćęłńóśźż]*\b|\broster\b|\bwłasną stroną\b|standardow/i;
+test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () => {
+  const zakazane = /\bw grze\b|\bprofilu?\b|\bobsad[a-ząćęłńóśźż]*\b|\broster\b|\bwłasną stron|standardow/i;
+  // Meta-komentarze o samej bazie są zabronione w każdej warstwie treści — także w boksach
+  // {{zrodlo}} i {{wiedza}}, gdzie wcześniej umykały. Wpis opisuje świat gry, nie strony,
+  // boksy ani pliki (decyzja właściciela, 2026-11-14).
+  const zakazaneMeta = /\bbaz(?:a|y|ie|ę|ą)\s+(?:prowadzi|trzyma|gromadzi|zbiera)\b|\bw bazie\s+(?:reprezent\w*|obejmuj\w*|prowadzi|mamy|znajdziesz)|\b(?:osobn|własn)[a-ząćęłńóśźż]*\s+stron[a-ząćęłńóśźż]*|\bna tej stronie\b|\bmanife[sx]t\w*|\bboks[a-ząćęłńóśźż]*\b/i;
   const typy = ['postac', 'mech', 'pojecie', 'seria'];
   // Boks opisowy to po ADR 0035 fragment bez tytułu (po plakietce gry). Badamy wszystkie
   // takie fragmenty strony — dawniej wzorzec wycinał tylko sekcję „## Opis”.
@@ -269,6 +273,10 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
       .map((t) => t.trim())
       .filter(Boolean);
     const tekst = opisy.join('\n\n');
+    const calaTresc = [...page.body.matchAll(/^\{\{(skrypt|menu|zrodlo|wiedza)[^\n]*\n\n([\s\S]*?)^\}\}/gm)]
+      .map((m) => m[2])
+      .join('\n\n');
+    assert.doesNotMatch(calaTresc, zakazaneMeta, `${page.slug}: meta-komentarz o bazie w treści (ADR 0018)`);
     if (!tekst) continue;
     zbadane += 1;
     assert.ok(tekst.length > 40, `${page.slug}: sekcja Opis wczytana w całości`);
@@ -435,9 +443,17 @@ test('ilustracje właściciela: 246 plików przy 195 encjach, w tym postacie bez
     const { html, problemy } = renderMarkdown(body, { wymagajPoziomu: true });
     assert.deepEqual(problemy, []);
     assert.equal((html.match(/<img /g) ?? []).length, files.length, slug);
-    const graGalerii = bySlug.get(slug).gry[0];
-    assert.match(body, new RegExp(`\\{\\{menu gra=${graGalerii}\\n\\n## Ilustracje`),
-      `${slug}: galeria z zakresem gry (ADR 0020)`);
+    // Galeria nosi etykietę gry, z której pochodzą pliki. Kolejność pola `gry` jest
+    // przypadkowa i nie wyznacza etykiety, więc sprawdzamy przynależność etykiety do
+    // listy gier strony, a nie jej miejsce na liście (ADR 0020, adnotacja 2026-11-14).
+    const gryStrony = bySlug.get(slug).gry ?? [];
+    const etykietyGalerii = [...body.matchAll(/\{\{(?:menu|skrypt) gra=([a-z0-9-]+)\n\n## Ilustracje/g)]
+      .map((m) => m[1]);
+    assert.ok(etykietyGalerii.length > 0, `${slug}: galeria z zakresem gry (ADR 0020)`);
+    for (const etykieta of etykietyGalerii) {
+      assert.ok(gryStrony.includes(etykieta),
+        `${slug}: etykieta galerii „${etykieta}” spoza pola gry [${gryStrony.join(', ')}]`);
+    }
     for (const file of files) {
       assert.ok(html.includes(`src="${adres(file)}"`), `${slug}: podgląd ${file}`);
     }
