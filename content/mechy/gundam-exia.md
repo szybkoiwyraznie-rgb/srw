@@ -46,3 +46,16 @@ Uzbrojenie obejmuje działko Vulcan GN, szablę wiązkową GN, GN Sword w trybie
 - **Blok tarczą (poziom bazowy 1):** broniąc: obrażenia −20%
 - **Odnowa EN (poziom bazowy 1):** EN co turę +4%
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Gundam Exia — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Gundam%20Exia.png)
+
+### Ilustracja 2
+
+![Gundam Exia — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Gundam%20Exia%202.png)
+}}

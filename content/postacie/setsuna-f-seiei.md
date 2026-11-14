@@ -23,3 +23,12 @@ Obrońcy nie zdążą się dowiedzieć, kim jest: na pytania [[koji-kabuto|Kojie
 [[setsuna-f-seiei|Setsuna F. Seiei]] to przybrane imię Sorana Ibrahima, byłego dziecięcego żołnierza z ogarniętego wojną domową regionu, przyjęty w szeregi Celestial Being i wyznaczony na pilota [[gundam-exia|Gundam Exia]]. W bazie ma [[mobile-suit-gundam-00|*Mobile Suit Gundam 00*]] jako pozycję z tej serii; dalsze losy bohatera wykraczają poza materiał rozegrany w grze, więc strona ich nie opisuje.
 
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Setsuna F. Seiei — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Setsuna%20F.%20Seisei.png)
+}}

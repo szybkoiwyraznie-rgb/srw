@@ -44,3 +44,20 @@ Wing Gundam Zero przechodzi w tryb Neo-Bird — formę skrzydlatego samolotu, w 
 - **Transformacja (bez poziomu):** maszyna może się przekształcać
 - **System Zero (poziom bazowy 1):** morale 140 lub więcej — statystyki +20
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Wing Gundam Zero/NB — ilustracja 1 z 3](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Wing%20Zero.png)
+
+### Ilustracja 2
+
+![Wing Gundam Zero/NB — ilustracja 2 z 3](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Wing%20Zero%202.png)
+
+### Ilustracja 3
+
+![Wing Gundam Zero/NB — ilustracja 3 z 3](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Wing%20Zero%20NB.png)
+}}

@@ -24,3 +24,12 @@ Oficjalny profil *Mobile Suit Gundam Wing: Endless Waltz* identyfikuje Heero Yuy
 
 W [[mobile-suit-gundam-wing-endless-waltz|pierwowzorze]] Heero jest jednym z pięciu pilotów operacji Meteor, wychowanym przez Doctora J na żołnierza pozbawionego emocji; imię i pseudonim zamordowanego pacyfisty nadał mu Doctor J. W 195 roku Kalendarza Kolonii zszedł na Ziemię w Wing Gundamie, żeby uderzać w instalacje OZ zamiast w cywilów, i już w pierwszych starciach trafił na Zechsa Merquise’a ([MechaBay, „Heero Yuy”](https://mechabay.com/heero-yuy); sprawdzono 2026-11-13).
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Heero Yuy — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Heero%20Yuy.png)
+}}

@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-14 21:20
+
+- [[gundam-exia|Gundam Exia]] ma dwa własne ujęcia, a [[wing-gundam-zero|Wing Gundam Zero/NB]] trzy — w tym jedno opatrzone dopiskiem „NB”, tym samym, który nosi nazwa jednostki.
+- Portrety mają [[garma-zabi|Garma Zabi]], [[heero-yuy|Heero Yuy]], [[setsuna-f-seiei|Setsuna F. Seiei]] i [[uragan|Uragan]] — czterej świadkowie kurylskiej zasadzki, od atakującego obserwatorium Garmy po dowódcę odsieczy.
+
 ## 2026-11-14 14:22
 
 - Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] [[duo-maxwell|Duo Maxwell]] mówi, że nie udało się cesarza powstrzymać, a jego próbę rozmowy z [[heero-yuy|Heero]] ucina krótkie „Nic nie mów…”; gdy na trasie pojawia się [[zero|Zero]], Duo woła jego imię.

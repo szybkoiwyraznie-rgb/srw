@@ -16,3 +16,12 @@ Oficer [[zeon|Zeonu]] na pokładzie [[zanzibar|Zanzibara]], który melduje wejś
 
 Jego meldunek jest ostatnim głosem załogi przed decyzją dowódcy: [[mquve|M'Quve]] pyta, czy okręt naprawdę nie wytrzyma, i wydaje rozkaz opuszczenia strefy pełną prędkością. Poza tą sceną [[uragan|Uragan]] nie występuje.
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Uragan — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Uragan.png)
+}}

@@ -30,6 +30,15 @@ Na polu walki grozi obrońcom zdobyciem [[krzyz-zeonu|Krzyża Zeonu]], a [[white
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Garma Zabi — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Garma%20Zabi.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 | Parametr | Wartość bazowa |

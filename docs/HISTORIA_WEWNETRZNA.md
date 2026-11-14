@@ -3,6 +3,7 @@
 Przeniesiono z witryny 2026-10-19 (ADR 0018). Historyczne notatki opisują stan
 w chwili zapisu; nie zastępują aktualnych decyzji i zasad.
 
+- 2026-11-14 21:20 — dostawa dziewięciu ilustracji misji 3-1: pięć plików jednostek (dwa ujęcia Gundam Exia, trzy Wing Zero z wariantem „NB”) i cztery portrety (Garma Zabi, Heero Yuy, Setsuna F. Seisei, Uragan); galerie na sześciu stronach, manifest wyrównany do 194 encji i 246 plików, odczyt listy R2: Actions 43641769280 (249 obiektów). Klucz „Setsuna F. Seisei.png” zachowuje pisownię właściciela, a „Wing Zero NB.png” należy do strony Wing Gundam Zero/NB.
 - 2026-11-10 23:15 — dostawa 34 ilustracji misji 2-8: po dwa pliki pięciu jednostek (Bolt Robo/Anti-Air, Brocken/Cannon, Daiteioh, Ganbaruger, Gandoppler) i 24 portrety (Eldran, uczniowie klasy Obrony Ziemi i z Go-Saurera, piloci Ganbarugera i Daiteioha); galerie na 29 stronach, manifest wyrównany do 191 encji i 240 plików, odczyt listy R2: Actions 42909697708. Klucze Bolt Robo mają w buckecie dwie spacje po „Robo”. Boks „Powiązania” zwinięty do 50 pozycji z przyciskiem „Rozwiń” (ADR 0039).
 - 2026-11-09 12:05–13:40 — układ boksów stron encji bez tytułów opisowych (ADR 0035), kryterium udziału w grze i hasła dla osób wspominanych (ADR 0013), mówcy prologu SRW Y w Postaciach, ciaśniejsze odstępy między boksami.
 - 2026-11-09 18:20–18:55 — jeden boks opisowy na grę na stronach encji: usunięte agentowe parafrazy dublujące opisy z dostawy (20 stron), pary kanonicznych opisów scalone w jeden boks (zamza-zah, invader, mechabestia, mucus); reguła dopisana do ADR 0035.
