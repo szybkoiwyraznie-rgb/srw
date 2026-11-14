@@ -7,6 +7,7 @@ gry: [srw-y]
 pochodzenie: skrypt
 zrodla:
   - https://34.suparobo.jp/character/chara02/
+  - https://tropedia.fandom.com/wiki/Combattler_V/Characters
 tagi: [combattler-v, pilot]
 utworzono: 2026-11-09
 ---
@@ -18,4 +19,6 @@ Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]], gdy [[chizuru-nambara|
 {{zrodlo gra=wspolne
 
 Oficjalna strona *Super Robot Wars Y* o *Chōdenji Robo Combattler V* wymienia Hyomę Aoi w drużynie walczącej maszyną Combattler V ([Super Robot Wars Y — Character: Combattler V](https://34.suparobo.jp/character/chara02/); sprawdzono 2026-11-09).
+
+Hyoma Aoi stoi na czele drużyny z Nanbara Connection jako pilot Battle Jet — maszyny, która przy kombinacji tworzy głowę Combattlera V. Porywczy motocyklista, wychowany w sierocińcu po śmierci rodziców, wchodzi do walki pierwszy i własnym krzykiem prowadzi pozostałych przez kolejne ataki ([Tropedia, „Combattler V/Characters”](https://tropedia.fandom.com/wiki/Combattler_V/Characters); sprawdzono 2026-11-14).
 }}

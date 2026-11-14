@@ -1,5 +1,15 @@
 # Co nowego
 
+## 2026-11-14 13:24
+
+- [[nunnally-vi-britannia|Nunnally vi Britannia]] jest córką cesarza Charlesa zi Britannii i Marianne; po zamachu na matkę straciła wzrok i władzę w nogach, a po śmierci brata wstąpiła na tron Britannii jako jej setna władczyni.
+- Gdy [[zero|Zero]] zabija cesarza [[lelouch-vi-britannia|Leloucha]], brata woła [[nunnally-vi-britannia|Nunnally]], a [[chang-wufei|Chang Wufei]] pierwszy staje do walki, bo nie daruje nikomu, kto wciąga słabych w wojnę.
+- [[chang-wufei|Wufei]] pochodzi z rodu Longów z klastra L5; imię poległej towarzyszki Long Meilan, „Nataku”, przeniósł na własną maszynę — stąd Shenlong, a potem [[altron-gundam|Altron]], który wysadził, gdy upadła Armia Mariemai.
+- [[tetsuya-tsurugi|Tetsuya Tsurugi]] trafił jako siedmiolatek do Kenzo Kabuto i ćwiczył na pilota Great Mazingera, by bronić Ziemi przed Imperium Mykenów u boku Jun Hono i adoptowanego brata [[koji-kabuto|Kojiego]].
+- [[hyoma-aoi|Hyoma Aoi]] prowadzi drużynę z Nanbara Connection jako pilot Battle Jet — maszyny, która przy kombinacji tworzy głowę Combattlera V; to wychowany w sierocińcu motocyklista, który wchodzi do walki pierwszy.
+- [[chizuru-nambara|Chizuru Nambara]], wnuczka doktora Nanbary i jedyna kobieta w drużynie, prowadzi Battle Marine i łagodzi spory między towarzyszami.
+- [[white-base|White Base]] powstał w stoczni [[jaburo|Jaburo]] jako pierwszy okręt Federacji budowany pod mobilne zbrojenia: kadłub z siedmiu odłączanych członów, pancerz ze stopu Lunar Titanium i hangar na sześć maszyn.
+
 ## 2026-11-13 22:33
 
 - Trzeci epizod otwiera misja [[srw-oe-ep3-interwencja-gundamow|Interwencja Gundamów]]: [[white-base|White Base]] i [[connect-force|Connect Force]] bronią obserwatorium na Wyspach Kurylskich w strefie neutralnej.

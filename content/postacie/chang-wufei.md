@@ -9,6 +9,7 @@ gry: [srw-y]
 pochodzenie: menu
 zrodla:
   - https://en.gundam-official.com/series/wing-endless-waltz-movie/character
+  - https://mechabay.com/chang-wufei
 tagi: [srw-y, pilot, gundam-wing]
 utworzono: 2026-11-09
 ---
@@ -20,6 +21,9 @@ Agent operacji Meteor ze skupiska kolonii L5, wysłany na Ziemię. Ma 16 lat. Po
 {{zrodlo gra=wspolne
 
 Oficjalna lista postaci *Mobile Suit Gundam Wing: Endless Waltz* wymienia Changa Wufeia ([Gundam Official — Wing: Endless Waltz, character](https://en.gundam-official.com/series/wing-endless-waltz-movie/character); sprawdzono 2026-11-09).
+
+Wufei pochodzi z rodu Longów, wojowników z kolonii w klastrze L5, i jako czternastolatek został w patriarchalnym obrządku mężem Long Meilan, która nosiła przydomek „Nataku”. Meilan zginęła, broniąc kolonii A0206 przed bronią biologiczną, a imię towarzyszki Wufei przeniósł na własną maszynę — stąd Shenlong, a po jego zniszczeniu Altron. Po wojnie nie znalazł dla siebie miejsca w świecie bez walki: przyłączył się do Armii Mariemai, by stać się złem, które trzeba pokonać, a po upadku rebelii wysadził Altrona i wstąpił do Preventers ([MechaBay — Chang Wufei](https://mechabay.com/chang-wufei); sprawdzono 2026-11-14).
+
 }}
 
 {{menu gra=srw-y
