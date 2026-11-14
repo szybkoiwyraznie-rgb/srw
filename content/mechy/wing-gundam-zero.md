@@ -16,7 +16,7 @@ utworzono: 2026-11-13
 
 [[mobile-suit|Mobile suit]] pilotowany przez [[heero-yuy|Heero Yuy]], który razem z [[gundam-exia|Gundam Exia]] niszczy obserwatorium na Wyspach Kurylskich już po odwrocie sił [[zeon|Zeonu]]. Obrońcy rozpoznają tylko, że spadają z nieba dwa nowe Gundamy, a [[heero-yuy|Heero]] ogranicza się do potwierdzenia celu i meldunku, że niszczy go natychmiast.
 
-Maszyna nosi w danych gry nazwę „Wing Gundam Zero/NB”, a skrót „NB” nie został tam objaśniony, więc strona nie rozstrzyga, co oznacza. Wiadomo natomiast, że jednostka może się przekształcać i że po osiągnięciu wysokiego morale uruchamia System Zero, podnoszący jej statystyki.
+Maszyna nosi nazwę „Wing Gundam Zero/NB”, a skrótu „NB” gra nie objaśnia. Wiadomo natomiast, że jednostka może się przekształcać i że po osiągnięciu wysokiego morale uruchamia System Zero, podnoszący jej statystyki.
 
 Uzbrojenie obejmuje skrzydłowe działko Vulcan i Twin Buster Rifle — działo wiązkowe o największym zasięgu wśród maszyn sojuszniczych tej misji. Maszynę pilotuje [[heero-yuy|Heero]] i poza tą jedną sceną nie bierze ona udziału w walce epizodu.
 
@@ -25,6 +25,8 @@ Uzbrojenie obejmuje skrzydłowe działko Vulcan i Twin Buster Rifle — działo 
 {{wiedza gra=wspolne
 
 [[wing-gundam-zero|Wing Gundam Zero]] należy do rodziny gundamów z [[mobile-suit-gundam-wing|*Mobile Suit Gundam Wing*]] i jest maszyną wyposażoną w System Zero — interfejs, który przekazuje pilotowi dane o przewidywanych ruchach wroga i wymaga od niego ogromnej odporności psychicznej. Ten opis obejmuje wyłącznie konstrukcję maszyny; wydarzenia serialu poza rozegraną misją nie są tu opisywane.
+
+Wing Gundam Zero przechodzi w tryb Neo-Bird — formę skrzydlatego samolotu, w której może lecieć w atmosferze i samodzielnie w nią wchodzić. Dopisek „NB” w nazwie jednostki pasuje do skrótu tej formy, ale żadne z przejrzanych omówień nie łączy ich wprost, dlatego pozostaje prawdopodobnym wyjaśnieniem, a nie ustalonym faktem.
 
 }}
 

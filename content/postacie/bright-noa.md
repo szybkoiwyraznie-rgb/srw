@@ -10,6 +10,8 @@ pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/White_Base
   - https://mechabay.com/bright-noa
+  - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_Char%27s_Counterattack
+  - https://gundam-official.com/news/i/news/games/01_17220
 tagi: [one-year-war, dowodztwo, gundam-1979, federacja, white-base]
 utworzono: 2026-10-20
 ---
@@ -36,6 +38,8 @@ W prologu [[srw-y|SRW Y]] ogląda paradę cesarza [[lelouch-vi-britannia|Lelouch
 Bright Noa (ブライト・ノア) jest oficerem [[earth-federation|Federacji Ziemskiej]] w [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku; urodził się w U.C. 0060 i trafił na [[white-base|White Base]] jako chorąży, pół roku po wstąpieniu do wojska ([Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-11-13).
 
 Gdy podczas ataku na Side 7 kapitan [[paolo-cassius|Paolo Cassius]] został ciężko ranny, dziewiętnastoletni Bright przejął dowodzenie okrętem i jego cywilną załogą. Dowodził twardo i wymagająco — to on egzekwował regulamin wobec [[amuro-ray|Amura]] — a [[zeon|Zeon]] nazwał White Base „Trojan Horse” za skuteczność, z jaką okręt wymykał się zasadzkom ([MechaBay, „Bright Noa”](https://mechabay.com/bright-noa); sprawdzono 2026-11-13).
+
+W [[srw-y|Super Robot Wars Y]] Bright występuje w wersji z filmu *Mobile Suit Gundam: Char's Counterattack* z 1988 roku, gdzie dowodzi okrętem Ra Cailum, flagową jednostką oddziału Londo Bell, do którego należą też [[amuro-ray|Amuro]] i [[char-aznable|Char]] po przeciwnych stronach; oficjalna zapowiedź gry wymienia ten film wśród dzieł, z których czerpie ([Wikipedia, *Char's Counterattack*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_Char%27s_Counterattack); [Gundam Official, zapowiedź *Super Robot Wars Y*](https://gundam-official.com/news/i/news/games/01_17220); sprawdzono 2026-11-14).
 }}
 
 {{menu gra=srw-oe
