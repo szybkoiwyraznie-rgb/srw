@@ -14,7 +14,7 @@ utworzono: 2026-11-13
 ---
 {{skrypt gra=srw-oe
 
-[[mobile-suit|Mobile suit]] pilotowany przez [[setsuna-f-seiei|Setsunę F. Seieia]], który pojawia się nad Wyspami Kurylskimi po odwrocie sił [[zeon|Zeonu]]. Maszyna schodzi z nieba z ogromną prędkością, a [[himari-yaegaki|Himari]] bierze ją najpierw za spadający pocisk; dopiero meldunek pilota o dotarciu do punktu docelowego i wejściu w drugą fazę pokazuje, że to [[mobile-suit|mobile suit]].
+[[mobile-suit|Mobile suit]] pilotowany przez [[setsuna-f-seiei|Setsunę F. Seieia]], który pojawia się nad [[wyspy-kurylskie|Wyspami Kurylskimi]] po odwrocie sił [[zeon|Zeonu]]. Maszyna schodzi z nieba z ogromną prędkością, a [[himari-yaegaki|Himari]] bierze ją najpierw za spadający pocisk; dopiero meldunek pilota o dotarciu do punktu docelowego i wejściu w drugą fazę pokazuje, że to [[mobile-suit|mobile suit]].
 
 Wraz z drugim, równie nieznanym Gundamem niszczy obserwatorium, którego bronił [[connect-force|Connect Force]] — jednym atakiem, zanim obrońcy zdążą zareagować. [[alan-igor|Alan]] ocenia szybkość i siłę zniszczenia jako coś zupełnie innego niż dotychczasowe starcia, a [[gai|Gai]] zauważa, że napastnicy raczej nie należą do [[zeon|Zeonu]].
 

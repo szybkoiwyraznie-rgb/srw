@@ -14,7 +14,7 @@ utworzono: 2026-11-15
 ---
 {{skrypt gra=srw-oe
 
-Córka rodu Zabi, dowodząca własnym pionem wywiadu i wojsk [[zeon|Zeonu]]. Za placówką na Wyspach Kurylskich wysłała [[zanzibar|Zanzibar]] z [[mquve|M'Quve'em]] i [[black-tri-stars|Black Tri-Stars]], bo uważała ją za ośrodek badań nad [[newtype|Newtype'ami]] [[earth-federation|Federacji]].
+Córka rodu Zabi, dowodząca własnym pionem wywiadu i wojsk [[zeon|Zeonu]]. Za placówką na [[wyspy-kurylskie|Wyspach Kurylskich]] wysłała [[zanzibar|Zanzibar]] z [[mquve|M'Quve'em]] i [[black-tri-stars|Black Tri-Stars]], bo uważała ją za ośrodek badań nad [[newtype|Newtype'ami]] [[earth-federation|Federacji]].
 
 W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] przyjmuje od brata wiadomość, że operacja się nie powiodła, a laboratorium zniszczyły maszyny sił kolonii. Prosi o karę za samowolny ruch [[mquve|M'Quve'a]], a w zamian zgadza się użyczyć [[cyber-beast-force|sił]], które mają związać [[connect-force|Connect]] z [[zeon|Zeonem]] — i przyznaje, że nad badaniami nad Newtype'ami pracuje właśnie z myślą o grze na czas.
 }}

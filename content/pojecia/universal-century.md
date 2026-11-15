@@ -6,7 +6,6 @@ gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Gundam
-  - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam
   - https://gundam.fandom.com/wiki/Universal_Century
 tagi: [era]
 utworzono: 2026-10-17
@@ -20,8 +19,8 @@ Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]]
 
 {{zrodlo gra=wspolne
 
-- Universal Century to kalendarz osi czasu serii Gundam. Rok 0079 to rok akcji [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-24).
-- Gundam to franczyza zapoczątkowana przez Yoshiyukiego Tomino i studio Sunrise w 1979 roku ([Wikipedia, *Gundam*](https://en.wikipedia.org/wiki/Gundam); sprawdzono 2026-10-24).
+- Universal Century to kalendarz osi czasu serii Gundam. Rok 0079 to rok akcji [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] — pierwszej serii osadzonej w Universal Century ([Wikipedia, „Gundam”, sekcja *Timelines*](https://en.wikipedia.org/wiki/Gundam); sprawdzono 2026-11-15).
+- Gundam to franczyza zapoczątkowana przez Yoshiyukiego Tomino i studio Sunrise w 1979 roku; największą z jej osi czasu jest Universal Century ([Wikipedia, *Gundam*](https://en.wikipedia.org/wiki/Gundam); sprawdzono 2026-11-15).
 
 Universal Century (宇宙世紀) liczy się od przeprowadzki ludzkości w kosmos. W roku pierwszym tej rachuby liczba mieszkańców Ziemi przekracza dziewięć miliardów, zaczyna się zasiedlanie kolonii i zmienia się kalendarz: dotychczasowe lata ustępują nowej erze. Pierwsza kolonia jest gotowa w U.C. 0010, w U.C. 0022 [[earth-federation|Federacja]] ogłasza koniec wojen na powierzchni Ziemi, a w U.C. 0027 powstaje Von Braun — pierwsza stała osada na Księżycu ([Gundam Wiki, „Universal Century”](https://gundam.fandom.com/wiki/Universal_Century); sprawdzono 2026-11-07).
 

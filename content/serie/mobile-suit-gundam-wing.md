@@ -14,6 +14,6 @@ utworzono: 2026-11-13
 
 *Mobile Suit Gundam Wing* to czterdziestodziewięcioodcinkowy serial z lat 1995–1996, rozgrywający się w kalendarzu After Colony, gdzie konflikt między Ziemią a koloniami toczą pięciu pilotów gundamów wysłanych na Ziemię w ramach operacji Meteor.
 
-W [[srw-oe|Super Robot Wars OE]] serię reprezentują [[heero-yuy|Heero Yuy]], jego [[wing-gundam-zero|Wing Gundam Zero]] i skrzydlata forma [[wing-gundam-zero-nb|Wing Zero NB]], które razem z [[gundam-exia|Gundam Exia]] niszczą obserwatorium na Wyspach Kurylskich w pierwszej misji trzeciego epizodu. To inna pozycja niż [[mobile-suit-gundam-wing-endless-waltz|*Mobile Suit Gundam Wing: Endless Waltz*]], którą w [[srw-y|Super Robot Wars Y]] reprezentują [[chang-wufei|Chang Wufei]] i maszyny [[mobile-doll|Mobile Doll]]. Obie serie dzieli czas akcji i obsada.
+W [[srw-oe|Super Robot Wars OE]] serię reprezentują [[heero-yuy|Heero Yuy]], jego [[wing-gundam-zero|Wing Gundam Zero]] i skrzydlata forma [[wing-gundam-zero-nb|Wing Zero NB]], które razem z [[gundam-exia|Gundam Exia]] niszczą obserwatorium na [[wyspy-kurylskie|Wyspach Kurylskich]] w pierwszej misji trzeciego epizodu. To inna pozycja niż [[mobile-suit-gundam-wing-endless-waltz|*Mobile Suit Gundam Wing: Endless Waltz*]], którą w [[srw-y|Super Robot Wars Y]] reprezentują [[chang-wufei|Chang Wufei]] i maszyny [[mobile-doll|Mobile Doll]]. Obie serie dzieli czas akcji i obsada.
 
 }}

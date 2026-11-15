@@ -14,7 +14,7 @@ utworzono: 2026-11-15
 ---
 {{skrypt gra=srw-oe
 
-Najstarszy syn rodu Zabi i zwierzchnik [[zeon|Zeonu]]. W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] przyjmuje raport siostry o nieudanej operacji na Wyspach Kurylskich i ocenia ją jako zwycięstwo strategiczne: ważny obiekt wojskowy Federacji zniszczono, a do tego Zeon zyskał kartę w dyplomacji.
+Najstarszy syn rodu Zabi i zwierzchnik [[zeon|Zeonu]]. W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] przyjmuje raport siostry o nieudanej operacji na [[wyspy-kurylskie|Wyspach Kurylskich]] i ocenia ją jako zwycięstwo strategiczne: ważny obiekt wojskowy Federacji zniszczono, a do tego Zeon zyskał kartę w dyplomacji.
 
 Mówi wprost, że liczy na [[kycilia-zabi|Kycilię]] w dyplomacji i zostawia jej decyzję o użyczeniu sił, które mają zbliżyć [[connect-force|Connect]] do [[zeon|Zeonu]]. Przyjmuje też jej prośbę o karę za samowolny ruch [[mquve|M'Quve'a]] bez sprzeciwu — uspokaja go to, że siostra ma na oku [[garma-zabi|Garmę]], który „wyrywa się po chwałę”.
 }}

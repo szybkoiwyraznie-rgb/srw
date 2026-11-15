@@ -14,7 +14,7 @@ utworzono: 2026-11-13
 ---
 {{skrypt gra=srw-oe
 
-Dowódca [[zeon|Zeonu]] w siłach lądowych na Ziemi i syn rodu Zabi; prowadzi operację przeciw obserwatorium na Wyspach Kurylskich. Uważa placówkę za tajną bazę [[earth-federation|Federacji]] i chce ją zająć, żeby ujawnić złamanie traktatu o strefie neutralnej i zjednać sobie opinię publiczną — północny Pacyfik i Ameryka Północna należą przecież do strefy wpływów [[zeon|Zeonu]].
+Dowódca [[zeon|Zeonu]] w siłach lądowych na Ziemi i syn rodu Zabi; prowadzi operację przeciw obserwatorium na [[wyspy-kurylskie|Wyspach Kurylskich]]. Uważa placówkę za tajną bazę [[earth-federation|Federacji]] i chce ją zająć, żeby ujawnić złamanie traktatu o strefie neutralnej i zjednać sobie opinię publiczną — północny Pacyfik i Ameryka Północna należą przecież do strefy wpływów [[zeon|Zeonu]].
 
 Drugim motywem jest rodzina. [[garma-zabi|Garma]] chce stanąć przed siostrą Kycilią z podniesionym czołem i wprost mówi, że zestrzelenie „białego [[mobile-suit|mobile suita]] Federacji” mu to umożliwi. Gdy [[char-aznable|Char]] przekonuje go, że zajęcie bazy uzasadni walkę w strefie neutralnej i ujawni powiązania [[connect-force|Connect Force]] z Federacją, [[garma-zabi|Garma]] kontynuuje operację i przyjmuje plan dywersji.
 

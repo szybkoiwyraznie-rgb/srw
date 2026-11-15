@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-16 00:20
+
+- [[wyspy-kurylskie|Wyspy Kurylskie]]: archipelag na północnym Pacyfiku, który wojna między [[earth-federation|Federacją]] a [[zeon|Zeonem]] objęła strefą neutralną, a potem uczyniła terenem walki o obserwatorium [[garma-zabi|Garmy]] i o laboratorium [[cyber-newtype|Cyber-Newtype'ów]].
+
 ## 2026-11-15 23:50
 
 - Archipelag Wysp Kurylskich należy do strefy neutralnej nad Pacyfikiem, a jego obserwatorium — do [[earth-federation|Federacji]]; w [[cyber-newtype|historii Cyber-Newtype'ów]] i w losach [[gihren-zabi|Gihrena]] oraz [[kycilia-zabi|Kycilii]] archipelag nie jest już mieszany z wydarzeniami z [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
