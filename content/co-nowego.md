@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-15 23:30
+
+- [[sayla-mass|Sayla]], [[fraw-bow|Fraw Bow]] i [[mirai-yashima|Mirai]] mają w bazie własne tło z pierwowzoru: Sayla trafia na [[white-base|White Base]] jako studentka medycyny i z braku doświadczonej załogi zostaje oficerem łączności, a potem pilotką; Mirai obejmuje ster dzięki szkoleniu na pilota szybowców i staje się zastępczynią [[bright-noa|Brighta]]; Fraw Bow opiekuje się [[amuro-ray|Amurem]] i trójką dzieci z [[side-7|Side 7]], a wojnę kończy jako oficer łączności okrętu.
+
 ## 2026-11-15 23:10
 
 - [[setsuna-f-seiei|Setsuna]] mówi wprost, że [[earth-federation|Federacja]] wykorzystuje walczących dla niej, a [[alan-igor|Alan]] wskazuje frakcję w wojsku i producentów broni jako tych, którzy finansują eksperymenty [[cyber-newtype|Cyber-Newtype'ów]]. [[kei|Kei]] podsumowuje, że [[connect-force|Connect Force]] dał się oszukać, a [[himari-yaegaki|Himari]] chce szukać ocalałych w gruzach laboratorium na Wyspach Kurylskich.

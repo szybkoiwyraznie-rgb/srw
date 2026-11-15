@@ -8,7 +8,7 @@ gry: [srw-oe]
 mechy: [white-base]
 pochodzenie: skrypt
 zrodla:
-  - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam
+  - https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters
 tagi: [one-year-war, wsparcie, gundam-1979, federacja, white-base]
 utworzono: 2026-10-20
 ---
@@ -21,7 +21,7 @@ Na mostku [[white-base|White Base]] melduje gotowość okrętu do startu. Po ode
 
 {{zrodlo gra=wspolne
 
-Mirai Yashima jest postacią serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, osadzonego w [[uc-0079|U.C. 0079]], służącą w siłach [[earth-federation|Federacji]] na pokładzie [[white-base|White Base]] ([Wikipedia, *Mobile Suit Gundam*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam); sprawdzono 2026-10-20).
+W [[mobile-suit-gundam-1979|pierwowzorze]] Mirai Yashima (ミライ・ヤシマ) jest cywilką, która po ataku na Side 7 trafia do załogi [[white-base|White Base]]. Szkolenie na pilota szybowców kosmicznych czyni ją najlepszą kandydatką na sternika okrętu, więc obejmuje ster i szybko staje się zaufaną zastępczynią [[bright-noa|Brighta]] oraz opiekunką najmłodszej części załogi ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-11-15).
 }}
 
 {{menu gra=srw-oe
