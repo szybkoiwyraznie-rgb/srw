@@ -7,7 +7,10 @@ import { uruchomRouter } from './router.js';
 import { podepnijPodglad } from './podglad.js';
 import { podepnijZwijanie } from './zwijanie.js';
 import { wlaczLeniweObrazy } from './leniwe-obrazy.js';
-import { rama, tytulStrony, nieZnalesc, nazwaTypu } from './render.js';
+import { rama, tytulStrony, nieZnalesc, nazwaTypu, stanPusty } from './render.js';
+import {
+  zaladujDane, dociagnijStrone, dociagnijTeksty, dociagnijCoNowego, czyTrybPlikow,
+} from './ladowanie.js';
 import { czasStrony, coNowegoCzas, czasBazy } from './data.js';
 import { renderGlowna } from './render-home.js';
 import { renderEncja } from './render-entity.js';
@@ -24,9 +27,35 @@ const LISTA_TRAS = {
   mech: 'mechy', pojecie: 'pojecia', seria: 'serie',
 };
 
-function renderuj(trasa) {
+/**
+ * Trasy, których ciało trzeba dociągnąć przed renderem (ADR 0041). Listy, tagi,
+ * strona główna i wyszukiwarka pracują na indeksie — nie czekają na sieć.
+ */
+const TRASY_STRONY = new Set(['gra', 'epizod', 'scena', 'postac', 'mech', 'pojecie', 'seria']);
+
+/** Token renderu: szybka nawigacja nie może pozwolić starszemu widokowi nadpisać nowszego. */
+let tokenRenderu = 0;
+
+async function renderuj(trasa) {
   const app = globalThis.document?.getElementById('app');
   if (!app) return;
+  const moj = ++tokenRenderu;
+
+  if (trasa.nazwa === 'szukaj' && trasa.query?.q) await dociagnijTeksty();
+  if (trasa.nazwa === 'co-nowego') await dociagnijCoNowego();
+  if (TRASY_STRONY.has(trasa.nazwa) && trasa.param) {
+    try {
+      await dociagnijStrone(trasa.param);
+    } catch (blad) {
+      if (moj !== tokenRenderu) return;
+      app.innerHTML = rama(trasa.nazwa, 'Nie udało się wczytać strony', stanPusty(
+        `Nie udało się wczytać treści: ${blad.message}`,
+        'Witryna z podziałem danych wymaga serwera HTTP. Otwierana z dysku wymaga wersji jednoplikowej (`npm run build:single`).',
+      ));
+      return;
+    }
+  }
+  if (moj !== tokenRenderu) return;
 
   let aktywna = trasa.nazwa;
   let tytul = 'SRW Database';
@@ -122,5 +151,24 @@ podepnijPodglad();
 podepnijZwijanie();
 podepnijSkokiWStronie();
 
-const stop = uruchomRouter(renderuj);
-if (globalThis.__SRW_TEST__) globalThis.__SRW_STOP__ = stop;
+/** Start: dane (indeks + dziennik), potem router. Błąd startu jest widoczny, nie cichy. */
+async function start() {
+  try {
+    await zaladujDane();
+  } catch (blad) {
+    const app = globalThis.document?.getElementById('app');
+    if (app) {
+      app.innerHTML = stanPusty(
+        `Nie udało się wczytać bazy: ${blad.message}`,
+        'Jeśli otwierasz plik bezpośrednio z dysku, potrzebna jest wersja jednoplikowa (`npm run build:single`); podgląd wymaga `npm run serve`.',
+      );
+    }
+    return;
+  }
+  const stop = uruchomRouter(renderuj);
+  if (globalThis.__SRW_TEST__) globalThis.__SRW_STOP__ = stop;
+  // Tryb plików jest widoczny w DOM — łatwo sprawdzić w podglądzie, który artefakt działa.
+  if (czyTrybPlikow()) globalThis.document?.documentElement?.setAttribute('data-tryb', 'pliki');
+}
+
+start();

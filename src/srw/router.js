@@ -39,9 +39,20 @@ export function aktualnaTrasa() {
   return parsujHash(globalThis.location?.hash ?? '');
 }
 
-/** Rejestruje nasłuch zmian hasha + start; zwraca funkcję stopu (testy). */
+/**
+ * Rejestruje nasłuch zmian hasha + start; zwraca funkcję stopu (testy).
+ * Render może być asynchroniczny (dociąganie ciała strony), więc błąd widoku
+ * nie może wywrócić routera — ląduje w konsoli, a strona zostaje klikalna.
+ */
 export function uruchomRouter(obejrz) {
-  const zmiana = () => obejrz(aktualnaTrasa());
+  const zmiana = () => {
+    try {
+      const wynik = obejrz(aktualnaTrasa());
+      if (wynik && typeof wynik.catch === 'function') wynik.catch((e) => globalThis.console?.error?.('render:', e));
+    } catch (e) {
+      globalThis.console?.error?.('render:', e);
+    }
+  };
   globalThis.addEventListener?.('hashchange', zmiana);
   zmiana();
   return () => globalThis.removeEventListener?.('hashchange', zmiana);
