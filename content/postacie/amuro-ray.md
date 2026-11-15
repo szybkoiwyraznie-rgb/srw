@@ -9,6 +9,9 @@ mechy: [rx-78-2-gundam]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Amuro_Ray
+  - https://gundam.fandom.com/wiki/Amuro_Ray
+  - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_Char%27s_Counterattack
+  - https://gundam-official.com/news/i/news/games/01_17220
 tagi: [one-year-war, pilot, gundam-1979, federacja, white-base]
 utworzono: 2026-10-20
 ---
@@ -30,7 +33,11 @@ W prologu [[srw-y|SRW Y]] ogląda paradę cesarza Leloucha razem z [[bright-noa|
 
 {{zrodlo gra=wspolne
 
-Amuro Ray jest bohaterem serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku i pilotem RX-78-2 Gundama ([Wikipedia, „Amuro Ray”](https://en.wikipedia.org/wiki/Amuro_Ray); sprawdzono 2026-10-20).
+Amuro Ray (アムロ・レイ) jest bohaterem serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku i synem inżyniera Tema Reya; dorastał w kolonii Side 7, dokąd rodzina przeniosła się z Ziemi. Gdy [[char-aznable|Char]] zaatakował kolonię, piętnastoletni cywil wsiadł do [[rx-78-2-gundam|RX-78-2 Gundama]] i odparł pierwszy atak, a wkrótce potem został pilotem [[white-base|White Base]] ([Wikipedia, „Amuro Ray”](https://en.wikipedia.org/wiki/Amuro_Ray); sprawdzono 2026-11-13).
+
+Wojna ujawniła u niego zdolności [[newtype|nowotypa]] — rosnącą wrażliwość na obecność innych ludzi i coraz lepsze wyczucie walki — a [[zeon|Zeon]] nazywał jego maszynę „Białym Diabłem” ([Gundam Wiki, „Amuro Ray”](https://gundam.fandom.com/wiki/Amuro_Ray); sprawdzono 2026-11-13).
+
+W [[srw-y|Super Robot Wars Y]] Amuro występuje w wersji z filmu *Mobile Suit Gundam: Char's Counterattack* z 1988 roku, w którym Char staje na czele Neo Zeonu, a Amuro i [[bright-noa|Bright]] służą w oddziale Londo Bell; oficjalna zapowiedź gry wymienia ten film wśród dzieł, z których czerpie ([Wikipedia, *Char's Counterattack*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_Char%27s_Counterattack); [Gundam Official, zapowiedź *Super Robot Wars Y*](https://gundam-official.com/news/i/news/games/01_17220); sprawdzono 2026-11-14). W filmie Amuro dosiada ν Gundama, a w [[srw-oe|Super Robot Wars OE]] reprezentuje jeszcze serial z 1979 roku.
 }}
 
 {{menu gra=srw-oe

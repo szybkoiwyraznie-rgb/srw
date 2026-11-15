@@ -31,5 +31,6 @@ jobs:
         run: npm run build
       - name: Podsumowanie
         run: |
-          echo "Zbudowano dist/index.html: $(du -h dist/index.html | cut -f1)"
+          echo "Zbudowano powłokę dist/index.html: $(du -h dist/index.html | cut -f1)"
+          echo "Ciała stron w dist/data/: $(ls -1 dist/data/*.json | wc -l) plików, $(du -sh dist/data | cut -f1)"
           echo "Stron w bazie: $(ls -1 content/*/*.md | grep -v README | wc -l)"

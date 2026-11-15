@@ -14,7 +14,7 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-Mobilna forteca-miasto zbudowana pod [[miasto-yagami|miastem Yagami]] w Tokio. W kopule na pokładzie mieści się miasto Yagami wraz z okolicą. Ma mechanizmy jak [[statek-emigracyjny|statek emigracyjny]] ultradalekiego zasięgu, a dzielnice mieszkalne funkcjonują jak całkowicie samodzielne miasto. Główny silnik, [[nira-kana-i|System Nira-Kana-I]], wytwarza ogrom energii, daleko przekraczający potrzeby miasta, ale jego działanie to czarna skrzynka i trudno mówić o pełnej kontroli. Ma też różnorodne uzbrojenie, któremu moc Nira-Kana-I zapewnia dużą siłę ognia, lecz jako okręt jest mało mobilny, a jego siła bojowa niewielka. Kopuła chroniąca miasto jest za to wyjątkowo wytrzymała: przy projektowaniu najważniejsze było bezpieczeństwo mieszkańców.
+Mobilna forteca-miasto zbudowana pod [[miasto-yagami|miastem Yagami]] w Tokio. W kopule na pokładzie mieści się miasto Yagami wraz z okolicą. Ma mechanizmy jak [[statek-emigracyjny|statek emigracyjny]] ultradalekiego zasięgu, a dzielnice mieszkalne funkcjonują jak całkowicie samodzielne miasto. Główny silnik, [[nira-kana-i|System Nira-Kana-I]], wytwarza ogrom energii, daleko przekraczający potrzeby miasta, ale jego działanie to czarna skrzynka i trudno mówić o pełnej kontroli. Ma też różnorodne uzbrojenie, któremu moc Nira-Kana-I zapewnia dużą siłę ognia, lecz jako okręt jest mało mobilny, a jego siła bojowa niewielka. Kopuła chroniąca miasto jest za to wyjątkowo wytrzymała: przy projektowaniu najważniejsze było bezpieczeństwo mieszkańców. W walce wspiera go [[zaloga-asysty|załoga asysty]] — ludzie z pokładu, wśród nich pokojówki i [[wren|Wren]] — a im lepiej okręt sobie radzi, tym więcej osób można wyznaczyć do tej roli.
 }}
 
 {{menu gra=srw-y

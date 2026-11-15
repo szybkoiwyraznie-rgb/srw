@@ -60,11 +60,11 @@ Realizacja: `TYPY_POWIAZAN`, `powiazaniaStrony`, `boksPowiazan` i `sekcjaListy` 
 - Boks „Powiązania” na stronach encji pokazuje wyłącznie kontekst fabularny (`Sceny`) i pojęciowy
   (`Hasła`); po uzupełnieniu wikilinków encje gry, serii, pojęć, postaci i mechów mają bezpośrednie
   odniesienia do właściwych pojęć świata.
-- W bazie z 2026-11-11 boks „Powiązania” ma 304 z 316 encji; pozostałe 12 to debiuty z zapowiedzi
-  lub postacie/jednostki nieuczestniczące jeszcze w żadnej zapisanej scenie ani opisanym haśle
-  (`freyja-wion`, `kaname-buccaneer`, `kuro`, `masaki-andoh`, `mikumo-guynemer`, `shiro`, `cybird`,
-  `cybuster`, `real-pg-gundam`, `macross-delta`, `sgt-frog`, `ssss-dynazenon`). Liczba rośnie razem
-  z każdą sceną i hasłem, więc traktuj ją jako pomiar, nie stałą.
+- W bazie z 2026-11-11 boks „Powiązania” ma 304 z 316 encji; pozostałe to debiuty z zapowiedzi
+  lub postacie/jednostki nieuczestniczące jeszcze w żadnej zapisanej scenie ani opisanym haśle.
+  To pomiar, nie stała: liczba rośnie z każdą sceną i hasłem, a wykaz brakujących stron wylicza się
+  z bieżącego builda na czas sesji i trafia do opisu jej PR-a — tutaj wypisana lista starzałaby się
+  po cichu (L16).
 - `test/powtorzenia-list.test.js` i `test/zwijanie-powiazan.test.js` sprawdzają filtrowanie typów
   `TYPY_POWIAZAN`, komplet scen i haseł z obu kierunków, brak podnagłówków `<h3>` w „Z tej serii:”
   oraz zwijanie ponad 50 pozycji zarówno na bazie, jak i na sztucznych grupach.

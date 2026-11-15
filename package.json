@@ -7,6 +7,7 @@
   "scripts": {
     "test": "node tools/run-tests.mjs",
     "build": "node tools/build.mjs",
+    "build:single": "node tools/build.mjs --single",
     "serve": "node tools/serve.mjs",
     "start": "node tools/serve.mjs"
   },

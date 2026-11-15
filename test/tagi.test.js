@@ -47,13 +47,14 @@ const TAG_SERII = {
   'sgt-frog': 'sgt-frog',
   'super-robot-wars-original': 'super-robot-wars',
   'mobile-suit-gundam-wing-endless-waltz': 'gundam-wing',
+  'mobile-suit-gundam-wing': 'gundam-wing',
+  'mobile-suit-gundam-00': 'gundam-00',
   'mobile-suit-z-gundam': 'gundam-z',
   'mobile-suit-gundam-seed-destiny': 'gundam-seed',
   'getter-robo-arc': 'getter-robo',
   'ssss-dynazenon': 'dynazenon',
   'code-geass-lelouch-of-the-re-surrection': 'code-geass',
   'code-geass-lelouch-of-the-rebellion-iii-glorification': 'code-geass',
-  'macross-delta': 'macross',
 };
 
 test('pole kategoria zniknęło z całej bazy', () => {
@@ -125,7 +126,7 @@ test('maszyny bez podanej klasy świadomie nie dostają tagu rodzaju jednostki',
   assert.deepEqual(bezKlasy, [
     'bolt-robo-anti-air', 'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
     'cybird', 'cybuster', 'exart', 'gandoppler', 'guntank',
-    'invader-ground', 'nekton-assault', 'nekton-creek', 'real-pg-gundam',
+    'invader-air', 'invader-ground', 'metal-beast-muszla', 'nekton-assault', 'nekton-creek', 'real-pg-gundam',
   ]);
 });
 

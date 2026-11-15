@@ -19,6 +19,9 @@ Członkini załogi [[white-base|White Base]]. Opiekuje się rannym [[paolo-cassi
 W misji nad Azją Środkową po raz pierwszy prowadzi do walki [[g-fighter|G-Fighter]]. [[kai-shiden|Kai]] pyta, czy da radę, a [[amuro-ray|Amuro]] ostrzega ją przed artylerią przeciwlotniczą. Sama przyznaje, że jej maszyna jest dla niej łatwym celem.
 
 Gdy pojawia się groźba bomby wodorowej, Sayla pyta, czy [[h-bomb-missile|pocisk]] można zatrzymać przed detonacją. Po udanym cięciu zapalnika przez [[amuro-ray|Amura]] reaguje krótkim uznaniem dla jego precyzji.
+
+W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] słucha na mostku [[white-base|White Base]] wyjaśnień [[suol|Szefa Suola]] o siłach kolonii i zauważa, że przy niewielkich zasobach samodzielne zbrojenie się jest jedynym wyjściem — „nasza Federacja też taka była na początku”.
+
 }}
 
 {{zrodlo gra=wspolne

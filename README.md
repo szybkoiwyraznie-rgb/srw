@@ -15,20 +15,23 @@ skąd wzięte są poszczególne wątki. Witryna jest interfejsem do oglądania t
 
 ## Status
 
-Fundamenty: struktura repozytorium, silnik witryny, walidacja integralności, build do jednego
-pliku HTML, CI i publikacja na GitHub Pages. Baza zawiera pierwszą prawdziwą dostawę
+Fundamenty: struktura repozytorium, silnik witryny, walidacja integralności, build do powłoki
+z indeksem i leniwie dociąganych ciał stron (ADR 0041), CI i publikacja na GitHub Pages. Baza zawiera pierwszą prawdziwą dostawę
 (Super Robot Wars OE, Episode 0). Demo zostało usunięte w całości.
 
 ## Szybki start
 
 ```bash
 npm test          # testy integralności bazy i dokumentacji
-npm run build     # → dist/index.html (jeden samowystarczalny plik)
+npm run build     # → dist/index.html (powłoka) + dist/data/ (ciała stron)
 npm run serve     # podgląd na http://0.0.0.0:3000
 ```
 
-Artefakt otwiera się też bezpośrednio z dysku (`file://`) — routing jest po hashu, wyszukiwanie
-działa po stronie przeglądarki, zero zależności runtime. Zewnętrzne ilustracje z R2
+Domyślny artefakt to **powłoka + `dist/data/`**: `index.html` niesie styl, kod i spakowany indeks,
+a treść strony dociąga się przy wejściu w nią (ADR 0041). Skopiowanie witryny oznacza więc oba
+elementy; potrzebny jest serwer HTTP — tak publikuje Pages. Do otwarcia z dysku (`file://`)
+służy `npm run build:single`, które pakuje wszystko w jeden plik. Routing jest po hashu,
+wyszukiwanie działa po stronie przeglądarki, zero zależności runtime. Zewnętrzne ilustracje z R2
 wymagają sieci; ich brak nie blokuje czytania tekstu (ADR 0016). Kliknięcie ilustracji
 powiększa ją do pełnego ekranu (ADR 0019).
 

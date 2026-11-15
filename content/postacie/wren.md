@@ -12,7 +12,7 @@ utworzono: 2026-11-09
 ---
 {{menu gra=srw-y
 
-Pokojówka w rezydencji Franburnettów. Kieruje zespołem mechaników, który dba o infrastrukturę rezydencji. Opiekuńcza starsza siostra, trzyma w ryzach wszystkie 99 pokojówek.
+Pokojówka w rezydencji Franburnettów. Kieruje zespołem mechaników, który dba o infrastrukturę rezydencji. Opiekuńcza starsza siostra, trzyma w ryzach wszystkie 99 pokojówek. Wchodzi w skład [[zaloga-asysty|załogi asysty]] [[a-advent|A. Adventu]].
 }}
 
 {{menu gra=srw-y

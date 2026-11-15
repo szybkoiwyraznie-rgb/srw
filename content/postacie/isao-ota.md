@@ -27,6 +27,9 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] rusza już j
 Na [[srw-oe-ep2-czarny-labor|poligonie Sił Samoobrony]] oburza go uzbrojenie napotkanych Brockenów. Gdy [[griffon|Griffon]] unieszkodliwia wojskowego HAL-X10, wzywa pilota do katapultowania się i obiecuje go pomścić. [[badrinath-harchand|Bud]] lekceważy jednak Otę, chcąc przede wszystkim walczyć z Noą.
 
 W [[srw-oe-ep2-ryk-dziczy|spotkaniu na stacji]] początkowy zachwyt widokiem Ziemi ustępuje kłótni z [[shinobu-fujiwara|Shinobu]] i [[masato-shikibu|Masato]]. Ota nie chce, by traktowano go jak „wujka” i bagatelizowano pracę policji. Po wspólnym treningu przyznaje jednak, że wielkość Dancougi idzie w parze z jej siłą, a Shinobu chwali walkę policjantów.
+
+W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] oburza się, że nieznane maszyny wywinęły „takie wybryki na progu Japonii”, i zapowiada, że jako policjant nie puści tego płazem; [[asuma-shinohara|Shinohara]] kwituje, że w jego ustach brzmi to mało przekonująco.
+
 }}
 
 {{zrodlo gra=wspolne

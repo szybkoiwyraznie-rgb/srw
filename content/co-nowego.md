@@ -1,5 +1,68 @@
 # Co nowego
 
+## 2026-11-15 22:05
+
+- [[gihren-zabi|Gihren Zabi]] i [[kycilia-zabi|Kycilia Zabi]] mają własne portrety, a [[invader-air|Invader/Air]] i [[metal-beast-muszla|Metalowa Bestia]] — ujęcia w walce: latający [[invader|Invader]] jedno, Bestia dwa, w tym wariant ze skorupą widzianą z bliska.
+
+## 2026-11-15 21:40
+
+- Zniszczone obserwatorium na Wyspach Kurylskich było laboratorium [[cyber-newtype|Cyber-Newtype'ów]] [[earth-federation|Federacji]] — ośrodkiem nieoficjalnych eksperymentów na ludziach. Ujawnia to [[heero-yuy|Heero]] przed odlotem [[gundam-exia|Exii]].
+- Z wnętrza placówki wychodzą [[invaderzy|Invaderzy]]: formy powietrzne [[invader-air|Invader/Air]] i naziemne [[invader-ground|Invader/Ground]], a po nich pokryta skorupą [[metal-beast-muszla|Metalowa Bestia]]. W walce biorą udział także [[final-dancouga|Dancouga]], [[mazinger-z|Mazinger Z]], [[shin-getter-1|Shin Getter-1]] i [[raijin-oh|Raijin-Oh]].
+- [[suol|Szef Suol]] wyjaśnia, że tajemnicze Gundamy należą do sił kolonii — niezależnych grup zbrojnych, które budują własną obronę poza Federacją i [[zeon|Zeonem]]; [[cyber-beast-force|Cyber Beast Force]] dołącza do [[connect-force|Connect]] i leci w kosmos na pokładzie [[white-base|White Base]].
+- Do bazy dochodzą [[gihren-zabi|Gihren Zabi]] i [[kycilia-zabi|Kycilia Zabi]], a Drugi Pluton [[sv2|SV2]] zyskuje trzy nowe twarze: [[isao-ota|Isao Otę]], [[kanuka-clancy|Kanukę Clancy]] i [[mikiyasu-shinshi|Mikiyasu Shinshiego]].
+
+## 2026-11-15 15:05
+
+- [[zaloga-asysty|Załoga asysty]] [[a-advent|A. Adventu]] to ludzie z pokładu — między innymi pokojówki i [[wren|Wren]] — którzy zamiast stawać w pierwszej linii wspierają walczących swoimi specjalnościami; w walce może asystować najwyżej dziewięć osób, a skład wyznacza [[echika-y-franburnett|Echika]].
+- [[pamiec-stg|Pamięć STG]] odblokowuje się siłą, którą [[annina-servania|Annina]] nazywa MXP — [[a-advent|doświadczeniami okrętu]] zamienionymi w dane. Pamięć dzieli się na trzy ścieżki, a moc odblokowana u końca każdej z nich daje okrętowi ogromne wsparcie; to [[echika-y-franburnett|Echika]] wybiera, którą ścieżką postępować.
+
+## 2026-11-14 21:20
+
+- [[gundam-exia|Gundam Exia]] ma dwa własne ujęcia, [[wing-gundam-zero|Wing Gundam Zero]] dwa, a jego skrzydlata forma [[wing-gundam-zero-nb|Wing Zero NB]] jedno — opatrzone tym samym dopiskiem, który nosi wspólna nazwa obu maszyn.
+- Portrety mają [[garma-zabi|Garma Zabi]], [[heero-yuy|Heero Yuy]], [[setsuna-f-seiei|Setsuna F. Seiei]] i [[uragan|Uragan]] — czterej świadkowie kurylskiej zasadzki, od atakującego obserwatorium Garmy po dowódcę odsieczy.
+
+## 2026-11-14 14:22
+
+- Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] [[duo-maxwell|Duo Maxwell]] mówi, że nie udało się cesarza powstrzymać, a jego próbę rozmowy z [[heero-yuy|Heero]] ucina krótkie „Nic nie mów…”; gdy na trasie pojawia się [[zero|Zero]], Duo woła jego imię.
+- [[quatre-raberba-winner|Quatre Raberba Winner]] odczytuje intencję cesarza — raz na zawsze rozprawić się ze Spacenoidami — a [[trowa-barton|Trowa Barton]] odpowiada, że znów poleje się krew.
+- [[chang-wufei|Chang Wufei]] nie uznaje ani cesarza, ani [[char-aznable|Chara]], ani [[treize-khushrenada|Treize'a]] i odchodzi w milczeniu, pytany przez Heero, dokąd idzie.
+
+## 2026-11-14 14:12
+
+- W [[srw-y|Super Robot Wars Y]] [[amuro-ray|Amuro Ray]] i [[bright-noa|Bright Noa]] występują w wersji z filmu *Char's Counterattack* z 1988 roku: Amuro dosiada ν Gundama, a Bright dowodzi okrętem Ra Cailum oddziału Londo Bell. W [[srw-oe|Super Robot Wars OE]] obaj reprezentują jeszcze serial z 1979 roku, więc na paradzie u [[lelouch-vi-britannia|Leloucha]] stoją już jako weterani wojny sprzed lat.
+- [[char-aznable|Char Aznable]] w tym samym filmie staje na czele Neo Zeonu i walczy w Sazabim; w opowieści Y jego rozrachunek z Lelouchem dopiero ma wybuchnąć.
+- [[wing-gundam-zero|Wing Gundam Zero]] przechodzi w tryb Neo-Bird — skrzydlatą formę, w której leci w atmosferze i samodzielnie w nią wchodzi. Pod wspólną nazwą „Wing Zero/NB” kryją się obie maszyny: humanoidalny Gundam i ta forma, opisana jako [[wing-gundam-zero-nb|Wing Zero NB]].
+
+## 2026-11-14 13:24
+
+- [[nunnally-vi-britannia|Nunnally vi Britannia]] jest córką cesarza Charlesa zi Britannii i Marianne; po zamachu na matkę straciła wzrok i władzę w nogach, a po śmierci brata wstąpiła na tron Britannii jako jej setna władczyni.
+- Gdy [[zero|Zero]] zabija cesarza [[lelouch-vi-britannia|Leloucha]], brata woła [[nunnally-vi-britannia|Nunnally]], a [[chang-wufei|Chang Wufei]] pierwszy staje do walki: nie uznaje świata, do którego doprowadzili go Treize i Lelouch, i chce wywalczyć miejsce dla żołnierzy.
+- [[chang-wufei|Wufei]] pochodzi z rodu Longów z klastra L5; imię poległej towarzyszki Long Meilan, „Nataku”, przeniósł na własną maszynę — stąd Shenlong, a potem [[altron-gundam|Altron]], który wysadził, gdy upadła Armia Mariemai.
+- [[tetsuya-tsurugi|Tetsuya Tsurugi]] trafił jako siedmiolatek do Kenzo Kabuto i ćwiczył na pilota Great Mazingera, by bronić Ziemi przed Imperium Mykenów u boku Jun Hono i adoptowanego brata [[koji-kabuto|Kojiego]].
+- [[hyoma-aoi|Hyoma Aoi]] prowadzi drużynę z Nanbara Connection jako pilot Battle Jet — maszyny, która przy kombinacji tworzy głowę Combattlera V; to wychowany w sierocińcu motocyklista, który wchodzi do walki pierwszy.
+- [[chizuru-nambara|Chizuru Nambara]], wnuczka doktora Nanbary i jedyna kobieta w drużynie, prowadzi Battle Marine i łagodzi spory między towarzyszami.
+- [[white-base|White Base]] powstał w stoczni [[jaburo|Jaburo]] jako pierwszy okręt Federacji budowany pod mobilne zbrojenia: kadłub z siedmiu odłączanych członów, pancerz ze stopu Lunar Titanium i hangar na sześć maszyn.
+
+## 2026-11-13 22:33
+
+- Trzeci epizod otwiera misja [[srw-oe-ep3-interwencja-gundamow|Interwencja Gundamów]]: [[white-base|White Base]] i [[connect-force|Connect Force]] bronią obserwatorium na Wyspach Kurylskich w strefie neutralnej.
+- [[garma-zabi|Garma Zabi]] atakuje placówkę, żeby ujawnić złamanie traktatu przez Federację i zdobyć uznanie siostry Kycilii; [[char-aznable|Char]] podsuwa mu uzasadnienie, a sam liczy na jego koneksje.
+- Odsiecz przyprowadza [[mquve|M'Quve]] na [[zanzibar|Zanzibarze]], razem z [[black-tri-stars|Black Tri-Stars]]; [[uragan|Uragan]] doradza wycofanie okrętu, gdy ten zaczyna się rozpadać.
+- Po odwrocie Zeonu placówkę niszczą [[setsuna-f-seiei|Setsuna F. Seiei]] w [[gundam-exia|Gundam Exia]] i [[heero-yuy|Heero Yuy]] w [[wing-gundam-zero|Wing Gundam Zero]], który nadlatuje w skrzydlatej formie [[wing-gundam-zero-nb|Wing Zero NB]] — dwie maszyny spoza wojny Federacji i Zeonu.
+- Do bazy wchodzą dwie nowe serie: [[mobile-suit-gundam-00|Mobile Suit Gundam 00]] i [[mobile-suit-gundam-wing|Mobile Suit Gundam Wing]].
+
+## 2026-11-13 22:16
+
+- [[amuro-ray|Amuro Ray]] jest synem Tema Reya i wychował się na kolonii [[side-7|Side 7]]; do Gundama wsiadł jako piętnastoletni cywil, a wojna ujawniła u niego zdolności nowotypa — Zeon nazywał jego maszynę „Białym Diabłem”.
+- [[bright-noa|Bright Noa]] urodził się w U.C. 0060 i w wieku dziewiętnastu lat przejął dowodzenie [[white-base|White Base]] po ciężkim zranieniu kapitana [[paolo-cassius|Paola Cassiusa]]; Zeon nazwał okręt „Trojan Horse”.
+
+## 2026-11-13 22:12
+
+- [[amx-003-gaza-c|AMX-003 Gaza C]] nosi oznaczenia obu armii — Axis (AMX-003) i Federacji Ziemskiej (MMT-1); starsze opracowania przypisują te numery odwrotnie.
+- [[quatre-raberba-winner|Quatre Raberba Winner]] przyjął Gundama Sandrocka i zszedł na Ziemię do Maganac Corps, gdy Instructor H odrzucił pierwotny plan operacji Meteor.
+- Prawdziwy [[trowa-barton|Trowa Barton]], syn Dekima Bartona, zginął z rąk ludzi Doktora S, którzy nie chcieli dopuścić do pierwotnego planu operacji Meteor; jego tożsamość i Heavyarmsa przejął mechanik bez nazwiska.
+- [[heero-yuy|Heero Yuy]] dostał imię po zamordowanym pacyfiście od Doctora J, a [[milliardo-peacecraft|Milliardo Peacecraft]] przydomek „Błyskawicznego Hrabiego” w OZ.
+
 ## 2026-11-11 20:18
 
 - [[general-takeda|Generał Takeda]] w *Ganbarugerze* ma czterdzieści lat i córkę Katsurę; w ostatnim odcinku OVA *Raijin-Oha* walczy z odrodzonymi bestiami na czele czołgu, a w końcówce *Go-Saurera* ratuje sytuację urządzeniem przywracającym maszynom pierwotną postać.
@@ -97,7 +160,6 @@
 
 - [[kanzen-shouri-daiteioh|*Kanzen Shouri Daiteioh*]] (完全勝利ダイテイオー) powstał jako manga w magazynie *Dengeki Hobby Magazine* i jednoodcinkowy film pilotażowy OVA z grudnia 2001 roku — planowany serial telewizyjny nigdy nie trafił na antenę.
 - [[genki-bakuhatsu-ganbaruger|*Genki Bakuhatsu Ganbaruger*]] (元気爆発ガンバルガー) liczy 47 odcinków z lat 1992–1993 i stanowi drugą odsłonę cyklu Eldrana z miasta Aozora, rok po wydarzeniach z [[matchless-raijin-oh|*Matchless Raijin-Oh*]].
-- [[macross-delta|*Macross Delta*]] to 26-odcinkowy serial z 2016 roku osadzony w roku 2067 w gromadzie Brísingr, gdzie śpiewaczki Walküre wspierają lotnictwo Delta Flight przeciwko syndromowi Vár.
 
 ## 2026-11-10 23:05
 
@@ -140,7 +202,6 @@
 
 - Wśród maszyn [[srw-y|SRW Y]] walczą [[a-advent|A. Advent]] — dzieło [[tetsuro-yagami|Tetsuro Yagamiego]], maszyna [[echika-y-franburnett|Echiki]] — a także [[amx-003-gaza-c|AMX-003 Gaza C]], [[altron-gundam|Altron Gundam]], [[taurus|Taurus]], [[lancelot-albion-zero|Lancelot Albion Zero]], [[zamza-zah|Zamza-Zah]] i [[lumenus|Lumenus]].
 - [[lunedrache|X-Lunedrache]] to dawna Lunedrache — maszyna przywódcy Haze przywrócona pod nazwą „X (Cross)-Lunedrache”.
-- Ze świata [[macross-delta|Macross Delta]] przychodzą śpiewaczki taktycznego zespołu Walküre: [[mikumo-guynemer|Mikumo Guynemer]], [[freyja-wion|Freyja Wion]] i [[kaname-buccaneer|Kaname Buccaneer]].
 
 ## 2026-11-09 15:40
 
@@ -620,7 +681,7 @@
 
 ## 2026-10-19 19:10
 
-- [[kuro|Kuro]] i [[shiro|Shiro]] towarzyszą [[masaki-andoh|Masakiemu Andoh]] i [[cybuster|Cybusterowi]].
+- [[kuro|Kuro]] i [[shiro-kot|Shiro]] towarzyszą [[masaki-andoh|Masakiemu Andoh]] i [[cybuster|Cybusterowi]].
 
 ## 2026-10-17 23:55
 

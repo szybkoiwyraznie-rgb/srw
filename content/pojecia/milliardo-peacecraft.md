@@ -18,5 +18,5 @@ Jeden z przywódców kosmosu wymienionych przez [[annina-servania|Anninę]] jako
 
 Gundam Wiki identyfikuje Milliardo Peacecrafta (ミリアルド・ピースクラフト) — księcia Królestwa Sanc, który pod nazwiskiem Zechs Merquise służył w OZ, a potem stanął na czele White Fang — jako postać *Mobile Suit Gundam Wing* ([Gundam Wiki, „Zechs Merquise”](https://gundam.fandom.com/wiki/Zechs_Merquise); sprawdzono 2026-11-09).
 
-W pierwowzorze Milliardo jest synem ostatniego władcy Sanc i bratem Releny, a nazwisko Zechs Merquise przybiera po zniszczeniu rodzinnego królestwa. W OZ zyskuje przydomek „Błyskawicy”, a Treize uznaje go za najlepszego przyjaciela nawet wtedy, gdy stają po przeciwnych stronach ([Gundam Wiki, „Zechs Merquise”](https://gundam.fandom.com/wiki/Zechs_Merquise); sprawdzono 2026-11-11).
+W pierwowzorze Milliardo jest synem ostatniego władcy Sanc i bratem Releny, a nazwisko Zechs Merquise przybiera po zniszczeniu rodzinnego królestwa. W OZ zyskuje przydomek „Błyskawicznego Hrabiego”, a Treize uznaje go za najlepszego przyjaciela nawet wtedy, gdy stają po przeciwnych stronach ([Gundam Wiki, „Zechs Merquise”](https://gundam.fandom.com/wiki/Zechs_Merquise); sprawdzono 2026-11-13).
 }}

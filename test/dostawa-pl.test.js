@@ -253,8 +253,12 @@ test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że 
   assert.doesNotMatch(bySlug.get('himari-yaegaki').body, /wsiada do Exert razem|wysyła dane do zespołu/);
 });
 
-test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
-  const zakazane = /\bw grze\b|\bprofilu?\b|\bobsad[a-ząćęłńóśźż]*\b|\broster\b|\bwłasną stroną\b|standardow/i;
+test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () => {
+  const zakazane = /\bw grze\b|\bprofilu?\b|\bobsad[a-ząćęłńóśźż]*\b|\broster\b|\bwłasną stron|standardow/i;
+  // Meta-komentarze o samej bazie są zabronione w każdej warstwie treści — także w boksach
+  // {{zrodlo}} i {{wiedza}}, gdzie wcześniej umykały. Wpis opisuje świat gry, nie strony,
+  // boksy ani pliki (decyzja właściciela, 2026-11-14).
+  const zakazaneMeta = /\bbaz(?:a|y|ie|ę|ą)\s+(?:prowadzi|trzyma|gromadzi|zbiera)\b|\bw bazie\s+(?:reprezent\w*|obejmuj\w*|prowadzi|mamy|znajdziesz)|\b(?:osobn|własn)[a-ząćęłńóśźż]*\s+stron[a-ząćęłńóśźż]*|\bna tej stronie\b|\bmanife[sx]t\w*|\bboks[a-ząćęłńóśźż]*\b/i;
   const typy = ['postac', 'mech', 'pojecie', 'seria'];
   // Boks opisowy to po ADR 0035 fragment bez tytułu (po plakietce gry). Badamy wszystkie
   // takie fragmenty strony — dawniej wzorzec wycinał tylko sekcję „## Opis”.
@@ -269,6 +273,10 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
       .map((t) => t.trim())
       .filter(Boolean);
     const tekst = opisy.join('\n\n');
+    const calaTresc = [...page.body.matchAll(/^\{\{(skrypt|menu|zrodlo|wiedza)[^\n]*\n\n([\s\S]*?)^\}\}/gm)]
+      .map((m) => m[2])
+      .join('\n\n');
+    assert.doesNotMatch(calaTresc, zakazaneMeta, `${page.slug}: meta-komentarz o bazie w treści (ADR 0018)`);
     if (!tekst) continue;
     zbadane += 1;
     assert.ok(tekst.length > 40, `${page.slug}: sekcja Opis wczytana w całości`);
@@ -283,14 +291,14 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018)', () => {
   }
 });
 
-test('ilustracje właściciela: 240 plików przy 191 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 246 plików przy 195 encjach, w tym postacie bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
   // Bieżący stan manifestu jest przypięty tylko tutaj. Testy poszczególnych dostaw sprawdzają
   // własne klucze i to, że manifest nie jest starszy od nich — kolejna dostawa zmienia ten jeden test.
-  assert.equal(Object.keys(manifest.encje).length, 191);
-  assert.equal(Object.values(manifest.encje).flat().length, 240);
-  assert.equal(manifest.dostarczono, '2026-11-10', 'data ostatniej dostawy ilustracji');
+  assert.equal(Object.keys(manifest.encje).length, 195);
+  assert.equal(Object.values(manifest.encje).flat().length, 246);
+  assert.equal(manifest.dostarczono, '2026-11-14', 'data ostatniej dostawy ilustracji');
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   assert.equal(new Set(wszystkie).size, wszystkie.length, 'plik należy do jednej encji');
@@ -319,6 +327,16 @@ test('ilustracje właściciela: 240 plików przy 191 encjach, w tym postacie bez
   assert.deepEqual(manifest.encje['general-revil'], ['characters/Revil.png']);
   // Dostawa ilustracji misji 4 (2026-10-23): dwa obrazy Raijin-Oha i siedem portretów obsady.
   assert.deepEqual(manifest.encje['raijin-oh'], ['Raijin-Oh.png', 'Raijin-Oh 2.png']);
+  // Dostawa ilustracji misji 3-1 (2026-11-14): pięć plików jednostek i cztery portrety.
+  assert.deepEqual(manifest.encje['gundam-exia'], ['Gundam Exia.png', 'Gundam Exia 2.png']);
+  assert.deepEqual(manifest.encje['wing-gundam-zero'], ['Wing Zero.png', 'Wing Zero 2.png']);
+  assert.deepEqual(manifest.encje['wing-gundam-zero-nb'], ['Wing Zero NB.png']);
+  for (const [slug, plik] of Object.entries({
+    'garma-zabi': 'Garma Zabi', 'heero-yuy': 'Heero Yuy',
+    'setsuna-f-seiei': 'Setsuna F. Seisei', uragan: 'Uragan',
+  })) {
+    assert.deepEqual(manifest.encje[slug], [`characters/${plik}.png`], slug);
+  }
   for (const [slug, plik] of Object.entries({
     'jin-hyuga': 'Jin Hyuga', 'asuka-tsukishiro': 'Asuka Tsukishiro', 'koji-hoshiyama': 'Koji Hoshiyama',
     'maria-shiratori': 'Maria Shiratori', 'tsutomu-kojima': 'Tsutomu Kojima',
@@ -425,9 +443,17 @@ test('ilustracje właściciela: 240 plików przy 191 encjach, w tym postacie bez
     const { html, problemy } = renderMarkdown(body, { wymagajPoziomu: true });
     assert.deepEqual(problemy, []);
     assert.equal((html.match(/<img /g) ?? []).length, files.length, slug);
-    const graGalerii = bySlug.get(slug).gry[0];
-    assert.match(body, new RegExp(`\\{\\{menu gra=${graGalerii}\\n\\n## Ilustracje`),
-      `${slug}: galeria z zakresem gry (ADR 0020)`);
+    // Galeria nosi etykietę gry, z której pochodzą pliki. Kolejność pola `gry` jest
+    // przypadkowa i nie wyznacza etykiety, więc sprawdzamy przynależność etykiety do
+    // listy gier strony, a nie jej miejsce na liście (ADR 0020, adnotacja 2026-11-14).
+    const gryStrony = bySlug.get(slug).gry ?? [];
+    const etykietyGalerii = [...body.matchAll(/\{\{(?:menu|skrypt) gra=([a-z0-9-]+)\n\n## Ilustracje/g)]
+      .map((m) => m[1]);
+    assert.ok(etykietyGalerii.length > 0, `${slug}: galeria z zakresem gry (ADR 0020)`);
+    for (const etykieta of etykietyGalerii) {
+      assert.ok(gryStrony.includes(etykieta),
+        `${slug}: etykieta galerii „${etykieta}” spoza pola gry [${gryStrony.join(', ')}]`);
+    }
     for (const file of files) {
       assert.ok(html.includes(`src="${adres(file)}"`), `${slug}: podgląd ${file}`);
     }
@@ -449,7 +475,7 @@ test('ilustracje właściciela: 240 plików przy 191 encjach, w tym postacie bez
 
 
 test('ilustracja jest dostawą: Kuro i Shiro mają opisy, źródła i powiązania bez dopisywania fabuły', () => {
-  for (const slug of ['kuro', 'shiro']) {
+  for (const slug of ['kuro', 'shiro-kot']) {
     const page = bySlug.get(slug);
     assert.equal(page.typ, 'postac');
     assert.deepEqual(page.gry, ['srw-oe']);
@@ -573,12 +599,12 @@ test('dostawa ilustracji SRW Y (2026-11-09): osiem jednostek i szesnaście portr
   // X-Lunedrache to nazwa obecnej maszyny przywódcy Haze — plik należy do Lunedrache.
   assert.match(bySlug.get('lunedrache').body, /X \(Cross\)-Lunedrache/);
   const portrety = {
-    'mikumo-guynemer': 'Mikumo Guynemer', 'takuma-nagare': 'Takuma Nagare',
+    'takuma-nagare': 'Takuma Nagare',
     'cross-tsukinowa': 'Tsukinowa Cross', 'wren': 'Wren', 'yomogi-asanaka': 'Yomogi',
     'zero': 'Zero', 'annina-servania': 'Annina Servania', 'aytie': 'Aytie',
     'baku-yamagishi': 'Baku Yamagishi', 'chang-wufei': 'Chang Wufei', 'cookie': 'Cookie',
     'echika-y-franburnett': 'Echika Y. Franburnett', 'forte-tsukinowa': 'Forte Tsukinowa',
-    'freyja-wion': 'Freyja Wion', 'gauma': 'Gauma', 'kaname-buccaneer': 'Kaname Buccaneer',
+    'gauma': 'Gauma',
   };
   for (const [slug, name] of Object.entries(portrety)) {
     assert.deepEqual(manifest.encje[slug], [`characters/${name}.png`], slug);
@@ -588,18 +614,6 @@ test('dostawa ilustracji SRW Y (2026-11-09): osiem jednostek i szesnaście portr
     assert.ok(body.includes(`${manifest.baseUrl}/characters/${encodeURIComponent(name)}.png`),
       `${slug}: adres portretu`);
   }
-  // Postacie z samej dostawy ilustracyjnej (ADR 0017) — opisy z kwerendy, nie z gry.
-  for (const slug of ['mikumo-guynemer', 'freyja-wion', 'kaname-buccaneer']) {
-    const page = bySlug.get(slug);
-    assert.equal(page.typ, 'postac', slug);
-    assert.equal(page.seria, 'macross-delta', slug);
-    assert.equal(page.rola, 'wsparcie', slug);
-    assert.deepEqual(page.gry, ['srw-y'], slug);
-    assert.equal(page.pochodzenie, 'zrodlo', slug);
-    for (const url of page.zrodla) assert.ok(page.body.includes(url), `${slug}: adres w treści`);
-    assert.match(page.body, /sprawdzono 2026-11-09/, slug);
-  }
-  assert.equal(bySlug.get('macross-delta').rodzaj, 'tv');
   assert.ok(manifest.dostarczono >= '2026-11-09', 'manifest nie jest starszy od tej dostawy');
   assert.equal(manifest.weryfikacjaZdalna, false);
   assert.deepEqual(manifest.nieprzypisane, []);

@@ -10,6 +10,8 @@ pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Char_Aznable
   - https://gundam.fandom.com/wiki/Battle_of_Loum
+  - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_Char%27s_Counterattack
+  - https://gundam-official.com/news/i/news/games/01_17220
 tagi: [one-year-war, antagonista, gundam-1979, zeon]
 utworzono: 2026-10-20
 ---
@@ -32,6 +34,8 @@ W prologu [[srw-y|SRW Y]] [[annina-servania|Annina]] wróży, że po upadku [[ha
 Char Aznable to antagonista [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, as Księstwa Zeonu nazywany Czerwoną Kometą ([Wikipedia, „Char Aznable”](https://en.wikipedia.org/wiki/Char_Aznable); sprawdzono 2026-10-20).
 
 Przydomek zawdzięcza bitwie o [[loum|Loum]], w której zniszczył swym Zaku pięć pancerników ([Gundam Wiki, „Battle of Loum”](https://gundam.fandom.com/wiki/Battle_of_Loum); sprawdzono 2026-10-20).
+
+W [[srw-y|Super Robot Wars Y]] Char występuje w wersji z filmu *Mobile Suit Gundam: Char's Counterattack* z 1988 roku: staje tam na czele Neo Zeonu i walczy w Sazabim przeciw [[amuro-ray|Amurowi]] w ν Gundamie, a [[bright-noa|Bright]] dowodzi po stronie Federacji ([Wikipedia, *Char's Counterattack*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_Char%27s_Counterattack); [Gundam Official, zapowiedź *Super Robot Wars Y*](https://gundam-official.com/news/i/news/games/01_17220); sprawdzono 2026-11-14). W [[srw-oe|Super Robot Wars OE]] ta sama postać reprezentuje jeszcze serial z 1979 roku.
 }}
 
 {{menu gra=srw-oe

@@ -207,14 +207,15 @@ Jedyne, czego naprawdę pilnujemy: **graf się nie rozjeżdża, a czytelnik wie,
 
 ```bash
 npm test          # testy integralności (node --test)
-npm run build     # dist/index.html — jeden samowystarczalny plik
+npm run build     # dist/index.html (powłoka) + dist/data/ (ciała stron, ADR 0041)
+npm run build:single  # wszystko w jednym pliku — archiwum offline, file://
 npm run serve     # podgląd na http://0.0.0.0:3000
 ```
 
 `npm run serve` uruchamiaj jako długotrwały proces przez `start_process`, nigdy przez krótkotrwały
-proces powłoki. Serwer odczytuje bieżący `dist/index.html` przy każdym żądaniu, dlatego po każdej
-zmianie przeznaczonej do oceny w podglądzie wykonaj ponownie `npm run build` bez restartowania
-serwera. Reguły odzyskiwania i checklista: `docs/guides/ENVIRONMENT.md`, ADR 0028.
+proces powłoki. Serwer odczytuje bieżący `dist/` przy każdym żądaniu (powłoka i `data/`, ADR 0041),
+dlatego po każdej zmianie przeznaczonej do oceny w podglądzie wykonaj ponownie `npm run build`
+bez restartowania serwera. Kopia witryny to zawsze `index.html` **i** `data/`. Reguły odzyskiwania i checklista: `docs/guides/ENVIRONMENT.md`, ADR 0028.
 
 Publikacja dzieje się sama: push do `main` → workflow `pages.yml` → nowa wersja witryny.
 

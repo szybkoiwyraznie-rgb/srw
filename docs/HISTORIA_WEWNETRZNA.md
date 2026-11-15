@@ -3,6 +3,10 @@
 Przeniesiono z witryny 2026-10-19 (ADR 0018). Historyczne notatki opisują stan
 w chwili zapisu; nie zastępują aktualnych decyzji i zasad.
 
+- 2026-11-15 16:20 — powłoka z indeksem i leniwe ciała stron (ADR 0041, na wzór `wwm` ADR 0017): `npm run build` daje `dist/index.html` (268 kB: styl, kod, indeks gzip+base64) i `dist/data/` (346 ciał, 1769 kB; teksty do wyszukiwarki 657 kB, dziennik 161 kB — osobne pliki). `npm run build:single` zachowuje dawny artefakt jednoplikowy dla `file://`. Uchylony punkt 4 ADR 0001; nowy `src/srw/ladowanie.js`, asynchroniczny router z tokenem renderu, komunikat błędu przy braku pliku, `obraz` w indeksie dla miniatur list. Testy: `build`, `ladowanie`, `powloka` (dymny start prawdziwego skryptu w vm). 474/474.
+- 2026-11-15 15:05 — dostawa rozmów niebojowych z A. Adventu (SRW Y, plik `dostawy/srw-y/Y_dostawa_1_1C_Advent_chats.txt`, trzy rozmowy: pamięć STG, załoga asysty, DLC). Nowe hasło `zaloga-asysty` (pochodzenie: skrypt); uzupełnione `pamiec-stg` (MXP, trzy ścieżki, wybór Echiki), `nira-kana-i` (serce okrętu), `a-advent` (załoga asysty), `wren` i `echika-y-franburnett`. Rozmowa o DLC pominięta — to informacja o dodatku, nie o świecie. Testy 461/461, build 346 stron.
+- 2026-11-14 21:45 — etykieta galerii odczepiona od kolejności pola `gry`: test dostawy sprawdza, że etykieta należy do listy gier strony (a nie że jest pierwsza), test kart listy sprawdza obecność postaci na liście każdego zadeklarowanego tytułu; adnotacja w ADR 0020 uchyla „kolejność gier z pola `gry`”. Usunięte meta-komentarze o bazie i stronach z treści (wing-gundam-zero, wing-gundam-zero-nb, serie Gundam 00 i Gundam Wing, mobile-armor, uc-0079); zakaz rozciągnięty testem na boksy `{{zrodlo}}` i `{{wiedza}}`.
+- 2026-11-14 21:20 — dostawa dziewięciu ilustracji misji 3-1: pięć plików jednostek (dwa ujęcia Gundam Exia, trzy Wing Zero z wariantem „NB”) i cztery portrety (Garma Zabi, Heero Yuy, Setsuna F. Seisei, Uragan); galerie na siedmiu stronach, manifest wyrównany do 195 encji i 246 plików, odczyt listy R2: Actions 43641769280 (249 obiektów). Klucz „Setsuna F. Seisei.png” zachowuje pisownię właściciela. Wing Zero i Wing Zero NB to w bazie dwie maszyny (jak Cybuster i Cybird): „Wing Zero NB.png” dostała nowa strona wing-gundam-zero-nb, a rekord „Wing Zero/NB” z dostawy obsługuje obie strony; mapowanie nazwy w tools/uczestnicy-dostaw.mjs wskazuje stronę bazową. Galeria Heero ma etykietę OE, bo stamtąd pochodzą ilustracje; kolejność pola gry jest przypadkowa i nie wyznacza etykiet.
 - 2026-11-10 23:15 — dostawa 34 ilustracji misji 2-8: po dwa pliki pięciu jednostek (Bolt Robo/Anti-Air, Brocken/Cannon, Daiteioh, Ganbaruger, Gandoppler) i 24 portrety (Eldran, uczniowie klasy Obrony Ziemi i z Go-Saurera, piloci Ganbarugera i Daiteioha); galerie na 29 stronach, manifest wyrównany do 191 encji i 240 plików, odczyt listy R2: Actions 42909697708. Klucze Bolt Robo mają w buckecie dwie spacje po „Robo”. Boks „Powiązania” zwinięty do 50 pozycji z przyciskiem „Rozwiń” (ADR 0039).
 - 2026-11-09 12:05–13:40 — układ boksów stron encji bez tytułów opisowych (ADR 0035), kryterium udziału w grze i hasła dla osób wspominanych (ADR 0013), mówcy prologu SRW Y w Postaciach, ciaśniejsze odstępy między boksami.
 - 2026-11-09 18:20–18:55 — jeden boks opisowy na grę na stronach encji: usunięte agentowe parafrazy dublujące opisy z dostawy (20 stron), pary kanonicznych opisów scalone w jeden boks (zamza-zah, invader, mechabestia, mucus); reguła dopisana do ADR 0035.
@@ -12,6 +16,17 @@ w chwili zapisu; nie zastępują aktualnych decyzji i zasad.
 
 Dziennik zmian widoczny w witrynie pod `#/co-nowego`. Prowadzi go agent przy każdym PR:
 dopisuje nowy wpis na górze, z datą i godziną publikacji (czas Europa/Warszawa, moment commita).
+
+## 2026-11-15 22:05
+
+- Dostawa ilustracji do wpisów z epizodu 3-2 (ADR 0017): portrety `characters/Gihren Zabi.png` i `characters/Kycilia Zabi.png`, ujęcia maszyn `Invader - latający.png` oraz `Metal Beast.png` + `Metal Beast 2.png`. Trafiły do bloków `{{menu gra=srw-oe}}` → „Ilustracje” w `gihren-zabi`, `kycilia-zabi`, `invader-air` i `metal-beast-muszla`; `metal-beast-muszla` ma dwa ujęcia z licznikiem „1 z 2”/„2 z 2”. Wpis w dzienniku zmian dopisany, testy ADR 0018 zielone.
+
+## 2026-11-15 21:40
+
+- Dostawa `dostawa_3_2.txt` (epizod 3-2, `DL103_12`) wprowadzona do bazy: archiwum `episodes/srw-oe/ep003.md` (dopisany skrypt 3-2), scena `srw-oe-ep3-skradajacy-sie-cien` (11 bloków `:::skrypt`, mapa `sekcje_analizy` 11 par), epizod `srw-oe-ep3` (druga misja w streszczeniu, pięć nowych wierszy proweniencji, trzy akapity komentarza).
+- Nowe encje: mechy `invader-air`, `metal-beast-muszla` (parametry z dostawy w `w_gre`), postacie `gihren-zabi`, `kycilia-zabi` (parametry z menu), hasła `cyber-newtype`, `sily-kolonii`. Dopisane wystąpienia: `invader`, `suol`, `sayla-mass`, `michel-ninorich`, `asuka-tsukishiro`, `isao-ota`, `kanuka-clancy`, `mikiyasu-shinshi`.
+- Surowa dostawa w `dostawy/srw-oe/dostawa_3_2.txt` (bajt w bajt); katalog roboczy `google_drive/` usunięty, bo testy pilnują jego braku.
+- `node tools/uczestnicy-dostaw.mjs` bez rozbieżności (218/218 przypisań, 393/393 par jednostka–pilot); `npm test` 474/474.
 
 ## 2026-10-19 19:20
 
@@ -162,7 +177,7 @@ Na wniosek właściciela z 2026-11-09 dziennik publiczny mówi wyłącznie o fab
 Poniżej notatki o procesie, bazie i formatowaniu, usunięte z `content/co-nowego.md`
 (przepisane wpisy fabularne zachowano w dzienniku w nowym brzmieniu):
 
-- 2026-11-09 16:50 — dostawa 24 ilustracji SRW Y (osiem jednostek, szesnaście portretów): galerie na 24 stronach, manifest wyrównany do 162 encji i 206 plików, trzy postacie Macrossa i seria macross-delta; testy 410/0.
+- 2026-11-09 16:50 — dostawa 24 ilustracji SRW Y (osiem jednostek, szesnaście portretów): galerie na 24 stronach, manifest wyrównany do 162 encji i 206 plików; testy 410/0.
 - 2026-11-09 15:40 — strona gry z kompletem danych wydawniczych; usunięta zdublowana lista obsady w menu serii.
 - 2026-11-09 15:22 — strony czterech bohaterów z blokami obecności w SRW Y.
 - 2026-11-09 15:05 — jedenaście nazwisk z prologu i misji dostało własne strony z podaniem odcinka/filmu i cytatem ze źródła.

@@ -1,6 +1,6 @@
 ---
 typ: postac
-slug: shiro
+slug: shiro-kot
 tytul: Shiro
 rola: wsparcie
 seria: super-robot-wars-original

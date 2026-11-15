@@ -149,16 +149,18 @@ stałym procesem każdej sesji (ADR 0028):
 3. pozostaw ten sam proces aktywny przez cały czas trwania sesji, także podczas testów,
    edycji, commitów i pushów; nie zatrzymuj go w celu oszczędzenia zasobów;
 4. po każdej zmianie źródeł, danych lub mediów wpływającej na witrynę wykonaj ponownie
-   `npm run build`. Serwer odczytuje aktualny `dist/index.html` przy każdym żądaniu,
-   więc nie wymaga restartu po udanym buildzie;
+   `npm run build`. Serwer odczytuje aktualny `dist/` (powłokę i `data/`, ADR 0041) przy
+   każdym żądaniu, więc nie wymaga restartu po udanym buildzie;
 5. po resecie workspace'u, awarii albo zniknięciu procesu odbuduj `dist`, natychmiast
    uruchom podgląd ponownie i dopiero wtedy kontynuuj zwykłą pracę;
 6. przed zakończeniem każdej tury sprawdź, że proces nadal działa i port nadal nasłuchuje.
 
 Port staje się widoczny jako live preview pod `https://3000-<sandbox>.e2b.app`. Kontrola
 podglądu obejmuje co najmniej stronę główną i jedną starszą stronę (data utworzenia sprzed
-dni, nie z dziś). Artefakt `dist/index.html` ma pozostać w granicach pojedynczych
-megabajtów; winne wzrostowi są zwykle osadzone obrazy — te trzymamy poza repozytorium.
+dni, nie z dziś) oraz jedną stronę spoza pamięci podręcznej przeglądarki — dowód, że `data/`
+się dociąga. Powłoka `dist/index.html` ma pozostać mała (dziś ~270 kB); treść rośnie w
+`dist/data/` (ADR 0041), a winne wzrostowi obrazów są zwykle osadzone pliki — te trzymamy
+poza repozytorium.
 Preview umiera razem z sandboxem; trwałość zmian daje tylko commit i push.
 
 ## 7. Czas wykonania (orientacyjnie, baza 16 stron)

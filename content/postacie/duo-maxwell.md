@@ -13,7 +13,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Duo Maxwell uczestniczy w rozmowie podczas parady cesarza [[lelouch-vi-britannia|Leloucha]]. Żałuje, że nie udało się go powstrzymać, i próbuje przemówić do Heero.
+Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] Duo Maxwell mówi, że ostatecznie nie udało się cesarza powstrzymać, i próbuje zagadać do [[heero-yuy|Heero]] — ten ucina rozmowę krótkim „Nic nie mów…”. Gdy na trasie pojawia się [[zero|Zero]], Duo rozpoznaje zamaskowanego przywódcę Czarnych Rycerzy i woła jego imię.
 }}
 
 {{zrodlo gra=wspolne

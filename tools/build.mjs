@@ -1,21 +1,24 @@
 /**
- * Build SRW Database — jeden samowystarczalny plik HTML (ADR 0001).
+ * Build SRW Database — powłoka z indeksem i drzewo ciał stron (ADR 0041).
  *
  * 1. Ładuje treść (content-loader) i WALIDUJE ją (registry) — build nie
  *    wypuszcza artefaktu z martwymi wikilinkami ani złym schematem.
  * 2. Renderuje markdown stron z resolverem wikilinków.
  * 3. Skleja moduły ESM z src/srw w jeden zasięg (tools/module-graph.mjs).
- * 4. Wstrzykuje styl, dane (SRW_DATA) i kod do szkieletu index.html.
+ * 4. Dzieli dane na **indeks** (metadane, graf, słowniki) i **ciała stron**
+ *    (ADR 0041). Powłoka zawiera styl, kod i indeks spakowany gzip+base64;
+ *    ciała leżą w `dist/data/<slug>.json` i są dociągane przy wejściu w stronę.
  *
- * Uruchomienie: node tools/build.mjs [--out dist/index.html]
+ * Uruchomienie: node tools/build.mjs [--out dist/index.html] [--single]
  *
- * Artefakt działa identycznie z file:// i przez HTTPS — dlatego routing
- * jest po hashu, a wyszukiwanie po stronie przeglądarki.
+ * `--single` pakuje całość w jeden plik (archiwum offline, działa z file://).
+ * Tryb domyślny wymaga serwera HTTP — tak publikuje Pages.
  */
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
+import zlib from 'node:zlib';
 import { fileURLToPath } from 'node:url';
 import { collectModules, assertNoNameCollisions, stripModuleSyntax } from './module-graph.mjs';
 import { wczytajStrony, wczytajSkrypty, wczytajCoNowego } from './content-loader.mjs';
@@ -212,6 +215,9 @@ export async function zbudujDane({ root = ROOT } = {}) {
     const { problem, body, ...pola } = s;
     const maSekcje = Array.isArray(r.sekcje) && r.sekcje.length > 0;
     const maBoksy = Array.isArray(r.boksy) && r.boksy.length > 0;
+    // Miniatura karty listy musi być w indeksie (ADR 0041): lista nie dociąga
+    // ciał stron, więc pierwszy obraz treści wyciągamy raz, w buildzie.
+    const obraz = pola.obraz ?? (r.html.match(/<img[^>]+src="([^"]+)"/)?.[1] ?? null);
     // Sceny i epizody renderują się ze struktur `sekcje` / `boksy`. Pełny
     // `html` jest dla nich tą samą treścią po raz drugi, więc do artefaktu
     // trafia tylko jedna reprezentacja. Pusty podział zachowuje stary fallback.
@@ -220,6 +226,7 @@ export async function zbudujDane({ root = ROOT } = {}) {
       ...(!maSekcje && !maBoksy ? { html: r.html } : {}),
       linki: r.linki,
       tekst: naTekst(body),
+      ...(obraz ? { obraz } : {}),
       czas: datyGit(s.plik),
       ...(maSekcje ? { sekcje: r.sekcje } : {}),
       ...(maBoksy ? { boksy: r.boksy } : {}),
@@ -243,7 +250,40 @@ export async function zbudujDane({ root = ROOT } = {}) {
   return dane;
 }
 
-export async function zbuduj({ out, root = ROOT } = {}) {
+/**
+ * Dzieli dane na indeks i ciała stron (ADR 0041).
+ *
+ * Indeks to wszystko, czego potrzebują listy, tagi, graf i strona główna:
+ * typ, tytuł, odsyłacze, daty, miniatura, statystyki. Ciało (`html`, `boksy`,
+ * `sekcje`) jedzie osobno — czytelnik otwiera jedną stronę, a nie całą bazę.
+ * Tekst do wyszukiwarki i dziennik też są osobnymi plikami, bo rosną najszybciej.
+ */
+export function podzielDane(dane) {
+  const POLA_CIALA = ['html', 'boksy', 'sekcje'];
+  const indeksStron = {};
+  const ciala = {};
+  const teksty = {};
+
+  for (const [slug, strona] of Object.entries(dane.strony)) {
+    const indeks = { ...strona };
+    const cialo = {};
+    for (const pole of POLA_CIALA) {
+      if (indeks[pole] !== undefined) { cialo[pole] = indeks[pole]; delete indeks[pole]; }
+    }
+    if (strona.tekst !== undefined) { teksty[slug] = strona.tekst; delete indeks.tekst; }
+    indeksStron[slug] = indeks;
+    if (Object.keys(cialo).length > 0) ciala[slug] = cialo;
+  }
+
+  return {
+    indeks: { ...dane, strony: indeksStron, coNowego: [] },
+    ciala,
+    teksty,
+    coNowego: dane.coNowego ?? [],
+  };
+}
+
+export async function zbuduj({ out, root = ROOT, single = false } = {}) {
   out = out ?? path.join(root, 'dist/index.html');
   const dane = await zbudujDane({ root });
 
@@ -258,7 +298,13 @@ export async function zbuduj({ out, root = ROOT } = {}) {
     })
     .join('\n\n');
 
-  const daneJs = `// ===== SRW_DATA (wstrzyknięte przez build) =====\nglobalThis.SRW_DATA = ${JSON.stringify(dane, null, 2)};`;
+  // Powłoka: indeks spakowany. Tryb jednoplikowy: całość w SRW_DATA.
+  const podzial = single ? null : podzielDane(dane);
+  const daneJs = single
+    ? `// ===== SRW_DATA (tryb jednoplikowy) =====\nglobalThis.SRW_DATA = ${JSON.stringify(dane, null, 2)};`
+    : `// ===== SRW_TRYB + indeks (gzip/base64, ADR 0041) =====\n`
+      + `globalThis.SRW_TRYB = 'pliki';\n`
+      + `globalThis.SRW_B64 = ${JSON.stringify(zlib.gzipSync(JSON.stringify(podzial.indeks)).toString('base64'))};`;
 
   const shell = fs.readFileSync(path.join(ROOT, 'src/srw/index.html'), 'utf8');
   for (const znacznik of ['<!--STYL-->', '<!--BUNDLE-->']) {
@@ -278,7 +324,29 @@ export async function zbuduj({ out, root = ROOT } = {}) {
   const cel = path.resolve(out);
   fs.mkdirSync(path.dirname(cel), { recursive: true });
   fs.writeFileSync(cel, html);
-  console.log(`Zbudowano ${path.relative(ROOT, cel)} (${(html.length / 1024).toFixed(1)} kB, ${moduly.length} modułów)`);
+
+  if (!single) {
+    const katalog = path.join(path.dirname(cel), 'data');
+    fs.rmSync(katalog, { recursive: true, force: true });
+    fs.mkdirSync(katalog, { recursive: true });
+    const zapisz = (nazwa, wartosc) => fs.writeFileSync(path.join(katalog, nazwa), JSON.stringify(wartosc));
+    for (const [slug, cialo] of Object.entries(podzial.ciala)) zapisz(`${slug}.json`, cialo);
+    zapisz('teksty.json', podzial.teksty);
+    zapisz('co-nowego.json', podzial.coNowego);
+    const rozmiar = (p) => fs.statSync(p).size;
+    const bajtyCial = Object.keys(podzial.ciala)
+      .reduce((n, s) => n + rozmiar(path.join(katalog, `${s}.json`)), 0);
+    const najwieksze = Object.entries(podzial.ciala)
+      .map(([s, c]) => [s, rozmiar(path.join(katalog, `${s}.json`))])
+      .sort((a, b) => b[1] - a[1])[0];
+    console.log(`Zbudowano ${path.relative(ROOT, cel)} (powłoka ${(html.length / 1024).toFixed(1)} kB, ${moduly.length} modułów)`);
+    console.log(`  data/: ${Object.keys(podzial.ciala).length} ciał stron (${(bajtyCial / 1024).toFixed(1)} kB), `
+      + `teksty ${(rozmiar(path.join(katalog, 'teksty.json')) / 1024).toFixed(1)} kB, `
+      + `dziennik ${(rozmiar(path.join(katalog, 'co-nowego.json')) / 1024).toFixed(1)} kB`
+      + (najwieksze ? `; największe ciało: ${najwieksze[0]} (${(najwieksze[1] / 1024).toFixed(1)} kB)` : ''));
+  } else {
+    console.log(`Zbudowano ${path.relative(ROOT, cel)} (${(html.length / 1024).toFixed(1)} kB, ${moduly.length} modułów)`);
+  }
   return cel;
 }
 
@@ -286,5 +354,6 @@ const jestMain = process.argv[1] && path.resolve(process.argv[1]) === fileURLToP
 if (jestMain) {
   const i = process.argv.indexOf('--out');
   const out = i >= 0 ? process.argv[i + 1] : undefined;
-  zbuduj({ out }).catch((e) => { console.error(e.message); process.exit(1); });
+  const single = process.argv.includes('--single');
+  zbuduj({ out, single }).catch((e) => { console.error(e.message); process.exit(1); });
 }

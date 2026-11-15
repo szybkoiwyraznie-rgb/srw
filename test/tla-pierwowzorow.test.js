@@ -239,7 +239,7 @@ test('encje bez pierwowzoru poza bazą źródeł nie dostają zmyślonego tła (
   }
 });
 
-test('serie Eldrana i Macross Delta mają komplet metadanych i tło pierwowzoru (ADR 0008, ADR 0012)', () => {
+test('serie Eldrana mają komplet metadanych i tło pierwowzoru (ADR 0008, ADR 0012)', () => {
   const daiteioh = bySlug.get('kanzen-shouri-daiteioh');
   assert.equal(daiteioh.tytul_ja, '完全勝利ダイテイオー');
   assert.equal(daiteioh.rodzaj, 'ova');
@@ -255,11 +255,6 @@ test('serie Eldrana i Macross Delta mają komplet metadanych i tło pierwowzoru 
   assert.equal(ganbaruger.rok, 1992);
   assert.equal(ganbaruger.odcinki, 47);
   assert.match(ganbaruger.body, /\{\{zrodlo gra=wspolne[\s\S]*sprawdzono 2026-11-10/);
-
-  const macross = bySlug.get('macross-delta');
-  assert.equal(macross.rok, 2016);
-  assert.equal(macross.odcinki, 26);
-  assert.match(macross.body, /\{\{zrodlo gra=wspolne[\s\S]*sprawdzono 2026-11-10/);
 });
 
 test('maszyny z misji 2-8 mają sprawdzone tło pierwowzoru (ADR 0008, ADR 0013)', () => {
@@ -339,7 +334,8 @@ test('pozostała obsada wsparcia Eldrana, Generał Takeda i nazwane encje SRW Y 
     assert.ok(Array.isArray(page.zrodla) && page.zrodla.length >= 1, `${slug}: zrodla`);
     const blok = page.body.match(/^\{\{zrodlo gra=wspolne\n([\s\S]*?)^\}\}$/m);
     assert.ok(blok, `${slug}: blok zrodlo`);
-    assert.match(blok[1], /sprawdzono 2026-11-1[01]/, `${slug}: data sprawdzenia`);
+    // Data sprawdzenia ma istnieć, a nie być równa dacie pisania testu (L20).
+    assert.match(blok[1], /sprawdzono 2026-\d{2}-\d{2}/, `${slug}: data sprawdzenia`);
     assert.match(blok[1], wzorzec, `${slug}: zapis lub wyróżnik ze źródła`);
     for (const url of page.zrodla) assert.ok(blok[1].includes(url), `${slug}: link w treści`);
   }

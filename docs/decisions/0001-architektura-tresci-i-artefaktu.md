@@ -16,7 +16,9 @@ plikiem, a każda zmiana wyglądu wymaga dotknięcia treści.
 3. **Build jest bramką jakości**: waliduje odsyłacze, typy, pochodzenie i źródła; przy problemie
    nie wypuszcza artefaktu.
 4. **Witryna to jeden samowystarczalny plik HTML**, który działa identycznie przez HTTPS
-   i z dysku (`file://`).
+   i z dysku (`file://`). *Adnotacja 2026-11-15:* punkt **uchylony przez ADR 0041** — domyślny
+   build daje powłokę z indeksem i osobne ciała stron w `dist/data/`; jeden plik zostaje jako
+   `npm run build:single` (archiwum offline, `file://`, testy rendererów).
 
 ## Konsekwencje
 

@@ -10,6 +10,7 @@ w_gre:
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/White_Base
+  - https://mechabay.com/white-base
 tagi: [one-year-war, gundam-1979, federacja, okret]
 utworzono: 2026-10-20
 ---
@@ -29,6 +30,8 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatnim pościgu epizodu]] okręt docier
 {{zrodlo gra=wspolne
 
 White Base (SCV-70) to okręt szturmowy typu Pegasus należący do Sił Federacji, znany też jako „koń trojański”. W *Mobile Suit Gundam* z 1979 roku jest bazą macierzystą RX-78-2 Gundama ([Wikipedia, „White Base”](https://en.wikipedia.org/wiki/White_Base); sprawdzono 2026-10-20).
+
+Okręt powstawał w stoczni [[jaburo|Jaburo]] jako pierwsza jednostka Federacji projektowana od początku pod mobilne zbrojenia. Kadłub długości 262 m zbudowano z siedmiu bloków, które po trafieniu można odłączać, pancerz wykonano ze stopu Lunar Titanium, a napęd stanowi osiem silników termonuklearnych z Minovsky Craftem pozwalającym okrętowi lecieć w atmosferze. Hangar mieści do sześciu maszyn, a załogę powiększono do rozmiarów dwukrotnie większych niż na wcześniejszych okrętach ([Gundam Wiki, „White Base”](https://mechabay.com/white-base); sprawdzono 2026-11-14).
 }}
 
 {{menu gra=srw-oe
