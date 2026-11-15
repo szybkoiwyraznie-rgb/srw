@@ -19,6 +19,9 @@ Główny pilot [[hover-truck|Hover Trucka]] w tej misji, z [[eledore-massis|Eled
 W hangarze żartuje z Eledore o wykwintnym jedzeniu i wygląda na nie po dotarciu do [[jaburo|Jaburo]], choć na razie oddział czeka na transportowiec.
 
 Podczas eskorty [[medea|Medei]] podejrzewa, że wróg przewidział trasę lotu. Na polecenie [[shiro-amada|Shiro]] ma wraz z Eledore prowadzić klucz z dala od ognia przeciwlotniczego, a po akcji przypomina o konieczności uzupełnienia zapasów.
+
+W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] pyta na mostku, czy znana jest nazwa organizacji, do której należą tajemnicze Gundamy — i nie dostaje odpowiedzi.
+
 }}
 
 {{zrodlo gra=wspolne

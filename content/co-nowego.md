@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-11-15 21:40
+
+- Zniszczone obserwatorium na Wyspach Kurylskich było laboratorium [[cyber-newtype|Cyber-Newtype'ów]] [[earth-federation|Federacji]] — ośrodkiem nieoficjalnych eksperymentów na ludziach. Ujawnia to [[heero-yuy|Heero]] przed odlotem [[gundam-exia|Exii]].
+- Z wnętrza placówki wychodzą [[invaderzy|Invaderzy]]: formy powietrzne [[invader-air|Invader/Air]] i naziemne [[invader-ground|Invader/Ground]], a po nich pokryta skorupą [[metal-beast-muszla|Metalowa Bestia]]. W walce biorą udział także [[final-dancouga|Dancouga]], [[mazinger-z|Mazinger Z]], [[shin-getter-1|Shin Getter-1]] i [[raijin-oh|Raijin-Oh]].
+- [[suol|Szef Suol]] wyjaśnia, że tajemnicze Gundamy należą do sił kolonii — niezależnych grup zbrojnych, które budują własną obronę poza Federacją i [[zeon|Zeonem]]; [[cyber-beast-force|Cyber Beast Force]] dołącza do [[connect-force|Connect]] i leci w kosmos na pokładzie [[white-base|White Base]].
+- Do bazy dochodzą [[gihren-zabi|Gihren Zabi]] i [[kycilia-zabi|Kycilia Zabi]], a Drugi Pluton [[sv2|SV2]] zyskuje trzy nowe twarze: [[isao-ota|Isao Otę]], [[kanuka-clancy|Kanukę Clancy]] i [[mikiyasu-shinshi|Mikiyasu Shinshiego]].
+
 ## 2026-11-15 15:05
 
 - [[zaloga-asysty|Załoga asysty]] [[a-advent|A. Adventu]] to ludzie z pokładu — między innymi pokojówki i [[wren|Wren]] — którzy zamiast stawać w pierwszej linii wspierają walczących swoimi specjalnościami; w walce może asystować najwyżej dziewięć osób, a skład wyznacza [[echika-y-franburnett|Echika]].

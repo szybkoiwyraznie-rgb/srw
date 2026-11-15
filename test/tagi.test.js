@@ -126,7 +126,7 @@ test('maszyny bez podanej klasy świadomie nie dostają tagu rodzaju jednostki',
   assert.deepEqual(bezKlasy, [
     'bolt-robo-anti-air', 'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
     'cybird', 'cybuster', 'exart', 'gandoppler', 'guntank',
-    'invader-ground', 'nekton-assault', 'nekton-creek', 'real-pg-gundam',
+    'invader-air', 'invader-ground', 'metal-beast-muszla', 'nekton-assault', 'nekton-creek', 'real-pg-gundam',
   ]);
 });
 

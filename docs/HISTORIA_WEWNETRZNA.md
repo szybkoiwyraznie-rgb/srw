@@ -17,6 +17,13 @@ w chwili zapisu; nie zastępują aktualnych decyzji i zasad.
 Dziennik zmian widoczny w witrynie pod `#/co-nowego`. Prowadzi go agent przy każdym PR:
 dopisuje nowy wpis na górze, z datą i godziną publikacji (czas Europa/Warszawa, moment commita).
 
+## 2026-11-15 21:40
+
+- Dostawa `dostawa_3_2.txt` (epizod 3-2, `DL103_12`) wprowadzona do bazy: archiwum `episodes/srw-oe/ep003.md` (dopisany skrypt 3-2), scena `srw-oe-ep3-skradajacy-sie-cien` (11 bloków `:::skrypt`, mapa `sekcje_analizy` 11 par), epizod `srw-oe-ep3` (druga misja w streszczeniu, pięć nowych wierszy proweniencji, trzy akapity komentarza).
+- Nowe encje: mechy `invader-air`, `metal-beast-muszla` (parametry z dostawy w `w_gre`), postacie `gihren-zabi`, `kycilia-zabi` (parametry z menu), hasła `cyber-newtype`, `sily-kolonii`. Dopisane wystąpienia: `invader`, `suol`, `sayla-mass`, `michel-ninorich`, `asuka-tsukishiro`, `isao-ota`, `kanuka-clancy`, `mikiyasu-shinshi`.
+- Surowa dostawa w `dostawy/srw-oe/dostawa_3_2.txt` (bajt w bajt); katalog roboczy `google_drive/` usunięty, bo testy pilnują jego braku.
+- `node tools/uczestnicy-dostaw.mjs` bez rozbieżności (218/218 przypisań, 393/393 par jednostka–pilot); `npm test` 474/474.
+
 ## 2026-10-19 19:20
 
 - Szablon epizodu nie przypomina o brakującej dacie rozegrania. Podana data nadal jest wyświetlana; brak daty nie tworzy sekcji „Do uzupełnienia” ani pustego podtytułu.

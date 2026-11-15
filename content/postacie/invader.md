@@ -4,7 +4,7 @@ slug: invader
 tytul: Invader
 rola: pilot
 gry: [srw-oe]
-mechy: [invader-ground]
+mechy: [invader-ground, invader-air, metal-beast-muszla]
 pochodzenie: skrypt
 tagi: [getter-robo, invaderzy, pilot]
 utworzono: 2026-10-27
@@ -12,6 +12,9 @@ utworzono: 2026-10-27
 {{skrypt gra=srw-oe
 
 Zbiorcze określenie obcych organizmów z rasy [[invaderzy|Invaderów]] kierujących naziemnymi formami bojowymi [[invader-ground|Invader/Ground]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] piętnaście oddziałów tych istot naciera w podziemnej pieczarze na [[shin-getter-1|Shin Gettera-1]] i przybywających mu z pomocą sojuszników, przedostając się na pole bitwy przez [[mucus-gate-s-in|bramę Mucus Gate S IN]] aż do chwili jej zniszczenia.
+
+W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] formy powietrzne i naziemne wychodzą z wnętrza laboratorium Cyber-Newtype'ów, a po nich wyłazi pokryta skorupą [[metal-beast-muszla|Metalowa Bestia]]; tenor tej fali jest tak duży, że [[kei|Kei]] mówi o zagrożeniu dla całej Ziemi.
+
 }}
 
 {{menu gra=srw-oe

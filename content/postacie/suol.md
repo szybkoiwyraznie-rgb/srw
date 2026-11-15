@@ -26,6 +26,9 @@ W drodze powrotnej na Stację Connect chwali [[seishiro|Seishira]] za ćwiczenia
 Po [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] [[seishiro|Seishiro]] podejrzewa, że szef wysłał go na ćwiczenia także po to, żeby zobaczył uczniów z [[akademia-hinobori|Akademii Hinobori]] — i uznaje, że była to dobra inspiracja.
 
 W [[srw-oe-ep2-ryk-dziczy|„Ryku dziczy”]] prowadzi na [[stacja-connect|stacji]] ćwiczenia z [[cyber-beast-force|Cyber Beast Force]] i Drugim Plutonem. Cele to hologramy Mucus wyświetlane przez drony; Suol zwiększa ich siłę ponad ostatnie dane bojowe. Pozwala pilotom ścierać się charakterami, wierząc, że ułatwi im to wzajemne zaufanie. Zachęca też Seishira do przyjęcia uwag Ryo o koncentracji i złości.
+
+W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] wyjaśnia na mostku [[white-base|White Base]], że dwa tajemnicze Gundamy należą do sił kolonii — niezależnych grup zbrojnych, które budują własną obronę poza [[earth-federation|Federacją]] i [[zeon|Zeonem]] — i że trwają rozmowy o ich ograniczonym udziale w [[connect-force|Connect Force]]. Przyznaje też, że część informacji o placówce zatrzymał dla siebie, żeby wykurzyć „czarne owce” z wojska, i liczy na to, że [[cyber-beast-force|Cyber Beast Force]] towarzyszy [[seishiro|Seishirowi]] nie tylko jako siła, ale także jako świeże spojrzenie.
+
 }}
 
 {{zrodlo gra=wspolne

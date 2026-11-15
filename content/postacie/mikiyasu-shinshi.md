@@ -27,6 +27,9 @@ Podczas starcia z uzbrojonymi maszynami wojskowymi w [[srw-oe-ep1-sledztwo-pod-p
 W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] pomaga analizować odczyty czujników z wozu dowodzenia. Bezskutecznie wzywa Brockeny na kanale ochrony i stwierdza zakłócenia łączności odcinające pluton od centrali.
 
 Na [[srw-oe-ep2-ryk-dziczy|orbicie Ziemi]] rozmyśla o długiej rozłące z domem. Wyjaśnia, że kolonie i satelity surowcowe Układu Słonecznego zapewnią Laborom zajęcie, mimo że nie mogą walczyć w otwartej przestrzeni.
+
+W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] przyznaje, że nie wie, czy przyjmowanie do [[connect-force|Connect Force]] każdego sojusznika „jak leci” to dobry pomysł.
+
 }}
 
 {{zrodlo gra=wspolne

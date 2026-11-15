@@ -27,6 +27,9 @@ Po walce pod zakładem w Hachioji w [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie 
 Na [[srw-oe-ep2-czarny-labor|poligonie]] kieruje poszukiwaniami i wspiera Otę z wozu dowodzenia. Rozpoznaje w zagłuszaniu dowód celowego działania, a nie zwykłego szału maszyn; nakazuje utrzymywać szyk i ograniczać straty.
 
 Przed [[srw-oe-ep2-ryk-dziczy|treningiem na stacji]] tłumaczy Noi, że przystosowanie Laborów do próżni i nieważkości nie czyni ich jednostkami do walki w otwartym kosmosie. Rozpoznaje też [[alan-igor|Alana]] jako syna [[komendant-igor|komendanta Igora]].
+
+W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] przyznaje, że nie bardzo wierzy w plan rozmów z siłami kolonii: „na razie nie mamy nic poza pięknymi słowami”.
+
 }}
 
 {{zrodlo gra=wspolne
