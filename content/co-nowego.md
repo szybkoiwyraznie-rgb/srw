@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-15 23:10
+
+- [[setsuna-f-seiei|Setsuna]] mówi wprost, że [[earth-federation|Federacja]] wykorzystuje walczących dla niej, a [[alan-igor|Alan]] wskazuje frakcję w wojsku i producentów broni jako tych, którzy finansują eksperymenty [[cyber-newtype|Cyber-Newtype'ów]]. [[kei|Kei]] podsumowuje, że [[connect-force|Connect Force]] dał się oszukać, a [[himari-yaegaki|Himari]] chce szukać ocalałych w gruzach laboratorium na Wyspach Kurylskich.
+- [[sily-kolonii|Siły kolonii]] rozważą ograniczony udział w Connect Force pod warunkiem, że nikt nie będzie ingerował w ich działania; bez entuzjazmu przyjmują to [[himari-yaegaki|Himari]] i policjanci Drugiego Plutonu.
+- Rozmowa [[gihren-zabi|Gihrena]] z [[kycilia-zabi|Kycilią]] o karze za samowolny ruch [[mquve|M'Quve'a]] i o użyczeniu sił, które mają zbliżyć Connect do [[zeon|Zeonu]], należy do scenariusza gry — serial nie zna sojuszu z neutralną organizacją.
+
 ## 2026-11-15 22:05
 
 - [[gihren-zabi|Gihren Zabi]] i [[kycilia-zabi|Kycilia Zabi]] mają własne portrety, a [[invader-air|Invader/Air]] i [[metal-beast-muszla|Metalowa Bestia]] — ujęcia w walce: latający [[invader|Invader]] jedno, Bestia dwa, w tym wariant ze skorupą widzianą z bliska.

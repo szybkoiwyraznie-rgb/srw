@@ -18,7 +18,7 @@ utworzono: 2026-11-13
 
 Wraz z drugim, równie nieznanym Gundamem niszczy obserwatorium, którego bronił [[connect-force|Connect Force]] — jednym atakiem, zanim obrońcy zdążą zareagować. [[alan-igor|Alan]] ocenia szybkość i siłę zniszczenia jako coś zupełnie innego niż dotychczasowe starcia, a [[gai|Gai]] zauważa, że napastnicy raczej nie należą do [[zeon|Zeonu]].
 
-Uzbrojenie obejmuje działko Vulcan GN, szablę wiązkową GN, GN Sword w trybie karabinu i w walce wręcz oraz ataki Trans-Am — jeden z nich pozwala przechodzić przez wrogów w zasięgu, drugi kończy się odskokiem. Maszyna ma blok tarczą i odnawianie EN w każdej turze.
+Uzbrojenie obejmuje działko Vulcan GN, szablę wiązkową GN, GN Sword w trybie karabinu i w walce wręcz oraz ataki Trans-Am: seria przebić razi wszystkich wrogów w zasięgu i pozwala po niej ruszyć o dwa pola, a zwykły Trans-Am umożliwia po ataku odskok na resztę ruchu. Maszyna ma blok tarczą i odnawianie EN w każdej turze.
 
 }}
 

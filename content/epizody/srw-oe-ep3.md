@@ -56,7 +56,7 @@ Na mostku [[suol|Szef Suol]] wyjaśnia, że dwa Gundamy należą do sił kolonii
 | [[invaderzy\|Invaderzy]] przejmujący obiekt Federacji | [[getter-robo-armageddon\|Getter Robo Armageddon]] | cała seria | W OVA Invaderzy atakują Ziemię; przejęcie laboratorium i wspólna walka z obrońcami to rozwiązanie gry. |
 | Dwa Gundamy należące do sił kolonii | [[mobile-suit-gundam-00\|Mobile Suit Gundam 00]] i [[mobile-suit-gundam-wing\|Mobile Suit Gundam Wing]] | cała seria | W serialach nie ma wspólnej organizacji łączącej Celestial Being i pilotów Wing; „siły kolonii” jako niezależne grupy zbrojne to pojęcie gry. |
 | Dołączenie [[cyber-beast-force\|Cyber Beast Force]] do [[connect-force\|Connect Force]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Decyzja zapada w grze i otwiera dalszą wspólną trasę. |
-| Rywalizacja [[gihren-zabi\|Gihrena]] i [[kycilia-zabi\|Kycilii]] | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 14 „Time, Be Still” | Gra kładzie nacisk na dyplomację wobec sił kolonii; w serialu rozmowa dotyczy polityki wewnętrznej Zeonu i badań. |
+| Rywalizacja [[gihren-zabi\|Gihrena]] i [[kycilia-zabi\|Kycilii]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa o karze za ruch [[mquve\|M'Quve'a]] i o użyczeniu sił, które mają zbliżyć Connect do Zeonu, należy do scenariusza gry; gra kładzie nacisk na dyplomację wobec sił kolonii. |
 
 ## Komentarz
 

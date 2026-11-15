@@ -9,8 +9,6 @@ postacie: [bright-noa, mirai-yashima, sayla-mass, michel-ninorich, seishiro, him
 mechy: [exart, final-dancouga, gundam-exia, mazinger-z, shin-getter-1, white-base, wing-gundam-zero, invader-air, invader-ground, metal-beast-muszla]
 pojecia: [connect-force, cyber-beast-force, cyber-newtype, sily-kolonii, zeon, earth-federation, mobile-suit, newtype, invaderzy, uc-0079, sily-samoobrony-japonii]
 pochodzenie: skrypt
-zrodla:
-  - https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_episodes
 sekcje_analizy:
   - "Cień po bitwie → Ep. 3-2: Skradający się cień"
   - "Laboratorium Cyber-Newtype'ów → Go wyczuwa kolejnego wroga"
@@ -339,14 +337,6 @@ Ostatnia scena przenosi akcję do sztabu [[zeon|Zeonu]]. [[gihren-zabi|Gihren]] 
 
 }}
 
-{{zrodlo gra=wspolne
-
-## Nawiązania do oryginalnych odcinków
-
-Wydarzenia z tej sceny — odkrycie, że placówka na Wyspach Kurylskich była laboratorium [[cyber-newtype|Cyber-Newtype'ów]] [[earth-federation|Federacji]], i rozmowa [[gihren-zabi|Gihrena]] z [[kycilia-zabi|Kycilią]] o karze za nieudaną operację — nawiązują do **czternastego odcinka** serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]], „Time, Be Still” (時間よ、とまれ, emisja 6 lipca 1979), w którym [[zeon|Zeon]] rozwija badania nad [[newtype|Newtype'ami]], a ród Zabi rozgrywa własne porachunki ([Wikipedia, „List of Mobile Suit Gundam episodes”, odc. 14](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_episodes); sprawdzono 2026-11-15).
-
-Gra zachowuje sam motyw: laboratorium prowadzi nieoficjalne eksperymenty, a politycy traktują ludzi w nich użytych jak zasób. Zmienia natomiast wszystko wokół — placówka na Kurylach, [[invaderzy|Invaderzy]] przejmujący obiekt Federacji, wspólna walka z [[gundam-exia|Exią]] i [[wing-gundam-zero|Wing Zero]] oraz pojęcie sił kolonii należą wyłącznie do scenariusza gry, a wątek [[cyber-newtype|Cyber-Newtype'ów]] jest tu zapożyczony szerzej niż z jednego odcinka.
-}}
 
 {{skrypt gra=srw-oe
 
@@ -358,6 +348,6 @@ Gra zachowuje sam motyw: laboratorium prowadzi nieoficjalne eksperymenty, a poli
 | [[invaderzy\|Invaderzy]] przejmujący laboratorium | [[getter-robo-armageddon\|Getter Robo Armageddon]] | cała seria | W OVA Invaderzy atakują Ziemię; tutaj przejmują opuszczony obiekt Federacji, co jest rozwiązaniem gry. |
 | Tajemnicze Gundamy należące do sił kolonii | [[mobile-suit-gundam-00\|Mobile Suit Gundam 00]] i [[mobile-suit-gundam-wing\|Mobile Suit Gundam Wing]] | cała seria | Ani Celestial Being, ani pilotów Wing nie łączy w serialach wspólna organizacja; pojęcie „sił kolonii” i ich udział w Connect Force to konstrukcja gry. |
 | Dołączenie [[cyber-beast-force\|Cyber Beast Force]] do [[connect-force\|Connect Force]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Decyzja zapada w grze i jest zapowiedzią dalszej wspólnej trasy. |
-| Rywalizacja [[gihren-zabi\|Gihrena]] i [[kycilia-zabi\|Kycylii]] | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 14 „Time, Be Still” | Gra przenosi akcent na dyplomację wobec sił kolonii; w serialu rozmowa dotyczy przede wszystkim badań i polityki wewnętrznej Zeonu. |
+| Rywalizacja [[gihren-zabi\|Gihrena]] i [[kycilia-zabi\|Kycilii]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa rodzeństwa o karze za samowolny ruch [[mquve\|M'Quve'a]] i o użyczeniu sił, które mają zbliżyć Connect do Zeonu, należy do scenariusza gry. W serialu Gihren i Kycilia rywalizują o wpływy, ale nie prowadzą rozmowy o sojuszu z neutralną organizacją. |
 
 }}

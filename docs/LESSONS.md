@@ -239,3 +239,34 @@ Zasada: gdy źródło zewnętrzne mówi co innego niż dostawa, rozbieżność o
 („źródła podają niejednolicie…”), a nie rozstrzyga po cichu na korzyść tego, co wygodniejsze.
 Dostawa jest rozstrzygnięciem dla danych gry; źródło zewnętrzne tłumaczy tylko tło. Test tego nie
 widzi — czyta pola, nie akapity — więc sprzeczność wyłapuje dopiero audyt następnej sesji.
+
+## L23 — Cytat w prozie i nawiązanie do odcinka wymagają sprawdzenia w materiale (2026-11-15)
+
+Audyt PR #36 znalazł dwa błędy tej samej rodziny, oba pod poziomem `skrypt`.
+
+**Cytat bez pokrycia.** Strona `cyber-newtype` podawała w cudzysłowie zdanie „na siłę dało się
+stworzyć takiego człowieka" oraz twierdziła, że Kei „chce szukać dowodów w gruzach", a Himari
+„odmawia zgody na eksperymenty". Żadne z tych zdań nie występuje w `dostawa_3_2.txt`; Kei mówi,
+że Connect dał się oszukać, a Himari chce szukać ocalałych. Hasło `sily-kolonii` miało podobny
+cytat („Jeśli chcieli się zbroić…"), którego w skrypcie nie ma. Fragment z poziomem `skrypt`
+brzmi wtedy jak dostawa, choć jest parafrazą albo dopiskiem modelu — najgorszy możliwy wariant,
+bo czytelnik nie ma powodu go kwestionować.
+
+**Nawiązanie do odcinka bez pokrycia w źródle.** Blok „Nawiązania do oryginalnych odcinków" sceny
+3-2 wiązał rozmowę Gihrena z Kycilią z **czternastym** odcinkiem *Mobile Suit Gundam*, twierdząc,
+że „Zeon rozwija w nim badania nad Newtype'ami". Odc. 14 „Time, Be Still" opowiada o bombach
+zegarowych podłożonych w Gundamie; nic z tego nie dotyczy rozmowy rodzeństwa Zabi. Adres
+w `zrodla` był poprawny i otwierał się — ale nie potwierdzał twierdzenia, co jest naruszeniem
+ADR 0009 i L11 w drugim wariancie: nie „nieotwarty adres", tylko „adres, który mówi coś innego".
+
+Zasady:
+
+- **Zanim wstawisz cytat, znajdź go w pliku dostawy albo skrypcie** (`grep` po kilku słowach).
+  Jeżeli w materiale go nie ma, nie ma też cudzysłowu — zdanie opisuje świat, a nie udaje dialogu.
+- **Nawiązanie do odcinka to twierdzenie o treści tego odcinka.** Sam numer i tytuł nie wystarczą:
+  przeczytaj streszczenie w otwartym źródle i sprawdź, czy opowiada o tym, do czego je przypinasz.
+  Jeśli nie — nawiązania nie ma (scena bez odcinka nie dostaje bloku, `PRZEPLYW_EPIZODU.md` §1a).
+- Po usunięciu jedynego użycia adresu **usuń go z `zrodla`** — test integralności pilnuje, by
+  każde zadeklarowane źródło było linkiem przy informacji w treści, i słusznie czerwienieje.
+- Test tego nie widzi: blok `{{zrodlo}}` przechodzi walidację poziomów i adresów. Rozbieżność
+  wyłapuje dopiero kwerenda audytu — dlatego cytaty i numery odcinków są pierwszym celem 3a.
