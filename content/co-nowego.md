@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-15 15:05
+
+- [[zaloga-asysty|Załoga asysty]] [[a-advent|A. Adventu]] to ludzie z pokładu — między innymi pokojówki i [[wren|Wren]] — którzy zamiast stawać w pierwszej linii wspierają walczących swoimi specjalnościami; w walce może asystować najwyżej dziewięć osób, a skład wyznacza [[echika-y-franburnett|Echika]].
+- [[pamiec-stg|Pamięć STG]] odblokowuje się siłą, którą [[annina-servania|Annina]] nazywa MXP — [[a-advent|doświadczeniami okrętu]] zamienionymi w dane. Pamięć dzieli się na trzy ścieżki, a moc odblokowana u końca każdej z nich daje okrętowi ogromne wsparcie; to [[echika-y-franburnett|Echika]] wybiera, którą ścieżką postępować.
+
 ## 2026-11-14 21:20
 
 - [[gundam-exia|Gundam Exia]] ma dwa własne ujęcia, [[wing-gundam-zero|Wing Gundam Zero]] dwa, a jego skrzydlata forma [[wing-gundam-zero-nb|Wing Zero NB]] jedno — opatrzone tym samym dopiskiem, który nosi wspólna nazwa obu maszyn.
