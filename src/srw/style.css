@@ -233,9 +233,6 @@ p { margin: .8em 0; }
 .zakres-gry a:hover { color: var(--akcent); border-color: var(--akcent); text-decoration: none; }
 
 
-.obraz { margin: 0 0 20px; }
-.obraz img { max-width: 100%; border-radius: 10px; border: 1px solid var(--ramka); }
-.obraz figcaption { color: var(--tusz-3); font-size: .82rem; margin-top: 6px; }
 /* Ilustracje zewnętrzne w treści: podgląd nie rozpycha strony ani małego ekranu. */
 .tresc-encja img {
   display: block;
@@ -255,7 +252,6 @@ p { margin: .8em 0; }
   background: none; cursor: zoom-in; -webkit-tap-highlight-color: transparent;
 }
 .tresc-encja .ilustracja-otworz img { margin: 0 auto; }
-.obraz .ilustracja-otworz { margin: 0; }
 .ilustracja-otworz:hover img, .ilustracja-otworz:focus-visible img { border-color: var(--akcent); }
 .ilustracja-otworz:focus-visible { outline: 3px solid var(--akcent); outline-offset: 3px; }
 

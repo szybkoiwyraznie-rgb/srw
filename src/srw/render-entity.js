@@ -41,7 +41,6 @@ ${naglowekStrony({
   typ: strona.typ,
   podtytul: podtytul(strona),
 })}
-${strona.obraz ? `<figure class="obraz"><button type="button" class="ilustracja-otworz" data-pelny-ekran><img src="${escapeHtml(strona.obraz)}" alt="${escapeHtml(strona.tytul)}" loading="lazy"></button><figcaption>${escapeHtml(strona.tytul)}${strona.obraz_zrodlo ? ` — ${escapeHtml(strona.obraz_zrodlo)}` : ''}</figcaption></figure>` : ''}
 <div class="uklad-strona">
   <div class="kolumna-glowna tresc-encja">
     ${strona.html}

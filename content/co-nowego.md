@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-15 23:50
+
+- Archipelag Wysp Kurylskich należy do strefy neutralnej nad Pacyfikiem, a jego obserwatorium — do [[earth-federation|Federacji]]; w [[cyber-newtype|historii Cyber-Newtype'ów]] i w losach [[gihren-zabi|Gihrena]] oraz [[kycilia-zabi|Kycilii]] archipelag nie jest już mieszany z wydarzeniami z [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
+
 ## 2026-11-15 23:30
 
 - [[sayla-mass|Sayla]], [[fraw-bow|Fraw Bow]] i [[mirai-yashima|Mirai]] mają w bazie własne tło z pierwowzoru: Sayla trafia na [[white-base|White Base]] jako studentka medycyny i z braku doświadczonej załogi zostaje oficerem łączności, a potem pilotką; Mirai obejmuje ster dzięki szkoleniu na pilota szybowców i staje się zastępczynią [[bright-noa|Brighta]]; Fraw Bow opiekuje się [[amuro-ray|Amurem]] i trójką dzieci z [[side-7|Side 7]], a wojnę kończy jako oficer łączności okrętu.

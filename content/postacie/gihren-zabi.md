@@ -8,20 +8,20 @@ gry: [srw-oe]
 mechy: []
 pochodzenie: skrypt
 zrodla:
-  - https://en.wikipedia.org/wiki/Gihren_Zabi
+  - https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters
 tagi: [one-year-war, dowodztwo, zeon, zabi, gundam-1979]
 utworzono: 2026-11-15
 ---
 {{skrypt gra=srw-oe
 
-Najstarszy syn rodu Zabi i zwierzchnik [[zeon|Zeonu]]. W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] przyjmuje raport siostry o nieudanej operacji na [[mobile-suit-gundam-1979|Wyspach Kurylskich]] i ocenia ją jako zwycięstwo strategiczne: ważny obiekt wojskowy Federacji zniszczono, a do tego Zeon zyskał kartę w dyplomacji.
+Najstarszy syn rodu Zabi i zwierzchnik [[zeon|Zeonu]]. W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] przyjmuje raport siostry o nieudanej operacji na Wyspach Kurylskich i ocenia ją jako zwycięstwo strategiczne: ważny obiekt wojskowy Federacji zniszczono, a do tego Zeon zyskał kartę w dyplomacji.
 
 Mówi wprost, że liczy na [[kycilia-zabi|Kycilię]] w dyplomacji i zostawia jej decyzję o użyczeniu sił, które mają zbliżyć [[connect-force|Connect]] do [[zeon|Zeonu]]. Przyjmuje też jej prośbę o karę za samowolny ruch [[mquve|M'Quve'a]] bez sprzeciwu — uspokaja go to, że siostra ma na oku [[garma-zabi|Garmę]], który „wyrywa się po chwałę”.
 }}
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-1979|pierwowzorze]] Gihren Zabi jest głównodowodzącym sił Zeonu i najstarszym synem Degwina; uchodzi za sprawnego i bezwzględnego polityka, który własną rodzinę traktuje jak narzędzie władzy ([Wikipedia, „Gihren Zabi”](https://en.wikipedia.org/wiki/Gihren_Zabi); sprawdzono 2026-11-15).
+W [[mobile-suit-gundam-1979|pierwowzorze]] Gihren Zabi (ギレン・ザビ) jest najstarszym synem Degwina i głównodowodzącym sił zbrojnych Zeonu. Po wycofaniu się ojca z rządzenia obejmuje faktyczną władzę nad Księstwem i umacnia ją, każąc ludności wierzyć we własną wyższość ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-11-15).
 }}
 
 {{menu gra=srw-oe
