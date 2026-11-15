@@ -17,6 +17,10 @@ w chwili zapisu; nie zastępują aktualnych decyzji i zasad.
 Dziennik zmian widoczny w witrynie pod `#/co-nowego`. Prowadzi go agent przy każdym PR:
 dopisuje nowy wpis na górze, z datą i godziną publikacji (czas Europa/Warszawa, moment commita).
 
+## 2026-11-15 22:05
+
+- Dostawa ilustracji do wpisów z epizodu 3-2 (ADR 0017): portrety `characters/Gihren Zabi.png` i `characters/Kycilia Zabi.png`, ujęcia maszyn `Invader - latający.png` oraz `Metal Beast.png` + `Metal Beast 2.png`. Trafiły do bloków `{{menu gra=srw-oe}}` → „Ilustracje” w `gihren-zabi`, `kycilia-zabi`, `invader-air` i `metal-beast-muszla`; `metal-beast-muszla` ma dwa ujęcia z licznikiem „1 z 2”/„2 z 2”. Wpis w dzienniku zmian dopisany, testy ADR 0018 zielone.
+
 ## 2026-11-15 21:40
 
 - Dostawa `dostawa_3_2.txt` (epizod 3-2, `DL103_12`) wprowadzona do bazy: archiwum `episodes/srw-oe/ep003.md` (dopisany skrypt 3-2), scena `srw-oe-ep3-skradajacy-sie-cien` (11 bloków `:::skrypt`, mapa `sekcje_analizy` 11 par), epizod `srw-oe-ep3` (druga misja w streszczeniu, pięć nowych wierszy proweniencji, trzy akapity komentarza).

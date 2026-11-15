@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-15 22:05
+
+- [[gihren-zabi|Gihren Zabi]] i [[kycilia-zabi|Kycilia Zabi]] mają własne portrety, a [[invader-air|Invader/Air]] i [[metal-beast-muszla|Metalowa Bestia]] — ujęcia w walce: latający [[invader|Invader]] jedno, Bestia dwa, w tym wariant ze skorupą widzianą z bliska.
+
 ## 2026-11-15 21:40
 
 - Zniszczone obserwatorium na Wyspach Kurylskich było laboratorium [[cyber-newtype|Cyber-Newtype'ów]] [[earth-federation|Federacji]] — ośrodkiem nieoficjalnych eksperymentów na ludziach. Ujawnia to [[heero-yuy|Heero]] przed odlotem [[gundam-exia|Exii]].

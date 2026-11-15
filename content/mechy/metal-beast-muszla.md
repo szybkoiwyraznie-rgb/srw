@@ -24,3 +24,16 @@ W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] wyłazi
 
 W [[getter-robo-armageddon|pierwowzorze]] „metalowe bestie” to najcięższe formy [[invaderzy|Invaderów]], w których obcy zamykają się w pancernej skorupie i atakują taranem. Skorupa jest odporna na zwykłe uderzenia, ale pęka pod skoncentrowanym promieniowaniem Gettera ([Wikipedia, *Getter Robo Armageddon*](https://en.wikipedia.org/wiki/Getter_Robo_Armageddon); sprawdzono 2026-11-15).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Metal Beast (Muszla) — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Metal%20Beast.png)
+
+### Ilustracja 2
+
+![Metal Beast (Muszla) — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Metal%20Beast%202.png)
+}}

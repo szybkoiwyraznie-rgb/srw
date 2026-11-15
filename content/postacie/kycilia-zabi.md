@@ -23,3 +23,12 @@ W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] przyjmu
 
 W [[mobile-suit-gundam-1979|pierwowzorze]] Kycilia Zabi dowodzi wywiadem i siłami specjalnymi Zeonu, rywalizując z bratem Gihrenem o wpływy na dworze; to ona stoi za ośrodkiem badawczym Newtype'ów i za losem [[garma-zabi|Garmy]] ([Wikipedia, „Kycilia Zabi”](https://en.wikipedia.org/wiki/Kycilia_Zabi); sprawdzono 2026-11-15).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Kycilia Zabi — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kycilia%20Zabi.png)
+}}

@@ -23,3 +23,12 @@ Mówi wprost, że liczy na [[kycilia-zabi|Kycilię]] w dyplomacji i zostawia jej
 
 W [[mobile-suit-gundam-1979|pierwowzorze]] Gihren Zabi jest głównodowodzącym sił Zeonu i najstarszym synem Degwina; uchodzi za sprawnego i bezwzględnego polityka, który własną rodzinę traktuje jak narzędzie władzy ([Wikipedia, „Gihren Zabi”](https://en.wikipedia.org/wiki/Gihren_Zabi); sprawdzono 2026-11-15).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Gihren Zabi — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Gihren%20Zabi.png)
+}}

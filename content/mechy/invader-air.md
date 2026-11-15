@@ -24,3 +24,12 @@ W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] osobnik
 
 W [[getter-robo-armageddon|pierwowzorze]] [[invaderzy|Invaderzy]] (インベーダー) przybierają rozmaite formy zależnie od tego, gdzie się poruszają; powietrzne osobniki atakują w locie, oplatając cel mackami i miotając kwas. Dopiero skumulowane promieniowanie Gettera wywołuje u nich gwałtowne przeciążenie ewolucyjne i rozpad ([Wikipedia, *Getter Robo Armageddon*](https://en.wikipedia.org/wiki/Getter_Robo_Armageddon); sprawdzono 2026-11-15).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Invader/Air — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Invader%20-%20lataj%C4%85cy.png)
+}}
