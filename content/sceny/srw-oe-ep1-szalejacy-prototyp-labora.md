@@ -345,14 +345,15 @@ W oryginale [[hal-x10-green|HAL-X10]] jest prototypem [[labor|Labora]] badanym p
 
 ## Wątki w scenie
 
-- **Nowy skład załogi.** [[himari-yaegaki|Himari]] zostaje podpilotem [[exart|Exarta]] i po raz pierwszy leci w terenie; [[seishiro|Seishiro]] ma jej oddać stery, gdy sam zajmie się taktyką.
-- **Świat Laborów.** Wtrącenie o [[labor|Laborach]] i [[sv2|SV2]] wprowadza czytelnika w realia *Patlabor*.
-- **Cena neutralności.** Ograniczenia technologiczne każą [[sily-samoobrony-japonii|Siłom Samoobrony]] polegać na superrobotach innych organizacji.
-- **Trzy ekipy na jednym poligonie.** Wojsko, policyjny pluton i prototyp Connect uczą się działać obok siebie.
-- **Ostra amunicja.** Ktoś podmienił ładunki albo zmienił ustawienia celów — bezzałogowe HAL-X10 otwierają ogień.
-- **Himari za sterami.** Pierwsza prawdziwa walka podpilotki, z Seishirem jako wsparciem i Asumą podającym cel.
-- **Cel w stawy.** [[noa-izumi|Noa]] unieruchamia maszynę dzięki wskazówce [[asuma-shinohara|Asumy]].
-- **Plotki o Connect.** Po walce pluton zastanawia się, skąd firma handlowa ma tak silny sprzęt.
-- **Otwarte pytanie.** Sprawca sabotażu pozostaje nieznany, a sprawę przejmuje Ministerstwo Obrony.
-
+| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| **Nowy skład załogi.** [[himari-yaegaki\|Himari]] zostaje podpilotem [[exart\|Exarta]] i po raz pierwszy leci w terenie; [[seishiro\|Seishiro]] ma jej oddać stery, gdy sam zajmie się taktyką. | [[srw-oe\|Super Robot Wars OE]] | n/d | Podział ról w kokpicie Exarta jest rozwiązaniem gry; w „Runaway Labor X-10!” nie ma dwuosobowej załogi prototypu. |
+| **Świat Laborów.** Wtrącenie o [[labor\|Laborach]] i [[sv2\|SV2]] wprowadza czytelnika w realia *Patlabor*. | [[srw-oe\|Super Robot Wars OE]] | n/d | Objaśnienie dla gracza, który nie zna serialu; samo pojęcie Laborów pochodzi z *Patlabor*, ale wtrącenie narratora należy do gry. |
+| **Cena neutralności.** Ograniczenia technologiczne każą [[sily-samoobrony-japonii\|Siłom Samoobrony]] polegać na superrobotach innych organizacji. | [[srw-oe\|Super Robot Wars OE]] | n/d | W serialu wojsko dysponuje własnymi Laborami; zależność od Connect i superrobotów to założenie scenariusza gry. |
+| **Trzy ekipy na jednym poligonie.** Wojsko, policyjny pluton i prototyp Connect uczą się działać obok siebie. | [[srw-oe\|Super Robot Wars OE]] | n/d | Wspólne ćwiczenia trzech organizacji to konstrukcja gry — w odcinku na poligonie Fuji ćwiczy wyłącznie wojsko z HAL-X10. |
+| **Ostra amunicja.** Ktoś podmienił ładunki albo zmienił ustawienia celów — bezzałogowe HAL-X10 otwierają ogień. | [[mobile-police-patlabor\|Mobile Police Patlabor]] | odc. 5 „Runaway Labor X-10!” | W oryginale HAL-X10 wariuje podczas testu wojskowego; gra dodaje podmianę ładunków i obecność policyjnego plutonu oraz Exarta. |
+| **Himari za sterami.** Pierwsza prawdziwa walka podpilotki, z Seishirem jako wsparciem i Asumą podającym cel. | [[srw-oe\|Super Robot Wars OE]] | n/d | Pierwszy lot Himari i współpraca z Asumą nie mają odpowiednika w serialu. |
+| **Cel w stawy.** [[noa-izumi\|Noa]] unieruchamia maszynę dzięki wskazówce [[asuma-shinohara\|Asumy]]. | [[mobile-police-patlabor\|Mobile Police Patlabor]] | odc. 5 „Runaway Labor X-10!” | W serialu to Noa w Ingramie zatrzymuje szalejącego HAL-X10; gra zachowuje ten moment, ale dodaje wskazówkę Asumy. |
+| **Plotki o Connect.** Po walce pluton zastanawia się, skąd firma handlowa ma tak silny sprzęt. | [[srw-oe\|Super Robot Wars OE]] | n/d | Spekulacje o Connect to element fabuły gry; w serialu nie ma firmy handlowej z superrobotami. |
+| **Otwarte pytanie.** Sprawca sabotażu pozostaje nieznany, a sprawę przejmuje Ministerstwo Obrony. | [[srw-oe\|Super Robot Wars OE]] | n/d | Gra celowo nie zamyka wątku sabotażu; w odcinku sprawa kończy się wraz z unieruchomieniem maszyny. |
 }}

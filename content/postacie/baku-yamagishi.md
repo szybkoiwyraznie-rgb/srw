@@ -4,7 +4,7 @@ slug: baku-yamagishi
 tytul: "Baku Yamagishi"
 seria: getter-robo-arc
 rola: pilot
-mechy: []
+mechy: [getter-arc]
 gry: [srw-y]
 pochodzenie: menu
 zrodla:

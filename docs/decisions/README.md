@@ -54,3 +54,5 @@ Zasady:
 | [0039](0039-powiazania-zwiniete-do-50.md) | „Powiązania” pokazują 50 pozycji; resztę odsłania przycisk „Rozwiń” *(uzupełniony przez [0040](0040-powiazania-tylko-sceny-i-hasla.md))* |
 | [0040](0040-powiazania-tylko-sceny-i-hasla.md) | „Powiązania” na stronie encji pokazują tylko sceny i hasła; bez podnagłówków w „Z tej serii” |
 | [0041](0041-powloka-i-leniwe-dane.md) | Powłoka z indeksem i leniwe dociąganie ciał stron (uchyla pkt 4 ADR 0001) |
+| [0042](0042-quick-menu-spis-boksow.md) | Quick menu: spis boksów u szczytu kolumny bocznej |
+| [0043](0043-druga-dostawa-odswieza-pare.md) | Druga dostawa tej samej gry odświeża parę (mech, gra) w miejscu |

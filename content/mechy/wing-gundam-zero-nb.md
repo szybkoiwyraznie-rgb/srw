@@ -14,7 +14,7 @@ utworzono: 2026-11-14
 ---
 {{skrypt gra=srw-oe
 
-Druga maszyna tej samej konstrukcji co [[wing-gundam-zero|Wing Gundam Zero]] — skrzydlata forma, w którą ten przechodzi w locie. Dzieli z nim nazwę „Wing Zero/NB” i pilota, [[heero-yuy|Heero Yuya]]; w ataku na obserwatorium na Wyspach Kurylskich placówkę niszczy humanoidalne [[wing-gundam-zero|Wing Zero]].
+Druga maszyna tej samej konstrukcji co [[wing-gundam-zero|Wing Gundam Zero]] — forma, w którą ten przechodzi w locie. Dzieli z nim nazwę „Wing Zero/NB” i pilota, [[heero-yuy|Heero Yuy]]; w ataku na obserwatorium na Wyspach Kurylskich placówkę niszczy [[wing-gundam-zero|Wing Zero]] w ludzkiej postaci.
 
 }}
 

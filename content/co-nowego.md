@@ -1,5 +1,38 @@
 # Co nowego
 
+## 2026-11-16 14:20
+
+- Druga misja [[srw-y-ep1|epizodu 1]] SRW Y — [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|„Przebudzenie niebiańskiego demona”]] — zaczyna się od przejęcia warty nad [[a-advent|A. Adventem]], prowadzi przez upadek [[getter-d2|Gettera D2]] na zboczu góry Asama i walkę z wielkim potworem, który nadciąga z góry, a kończy przeniesieniem na pokład okrętu. [[takuma-nagare|Takuma Nagare]] słyszy tam od [[hayato-jin|Hayato Jina]], kim był jego ojciec, [[ryoma-nagare|Ryoma]], a [[show-kamui|Show Kamui]] przyprowadza [[getter-arc|Gettera Arca]].
+- [[getter-arc|Getter Arc]], [[insector|Insector]] i [[zordo-xx|Zordo XX]] wchodzą do wspólnej historii z własnym uzbrojeniem i osiągami; [[a-advent|A. Advent]] i [[lunedrache|Lunedrache]] pokazują przy tym, czego nabrały w tej walce — kolejne działo i zdolność „Łącze energii”.
+- W mieście i na placu stają obok siebie uczniowie z Fujiyokidai: [[yume-minami|Yume Minami]], [[koyomi-yamanaka|Koyomi Yamanaka]] i [[chise-asukagawa|Chise Asukagawa]] z [[ssss-dynazenon|SSSS.DYNAZENON]]. Świat wokół Getterów domykają [[laboratorium-saotome|Laboratorium Saotome]], [[getter-d2|Getter D2]], [[promienie-gettera|promienie Gettera]], [[insectorzy|Insectorzy]], [[n-u-n-g|N-U-N-G]], [[ryoma-nagare|Ryoma Nagare]] i [[doktor-saotome|doktor Saotome]].
+
+
+## 2026-11-16 10:40
+
+- Ćwiczenia wojska, policji i Connect na [[poligon-fuji|poligonie Fuji]] należą do [[mobile-police-patlabor|Patlabora]], a nie do autorskiego wkładu gry — podobnie desant [[zeon|Zeonu]] na [[jaburo|Jaburo]] trzeba czytać razem z [[mobile-suit-gundam-08th-ms-team|08. Plutonem MS]] i [[mobile-suit-gundam-1979|pierwszym Gundamem]], bo każde z tych źródeł mówi o tym starciu co innego.
+
+## 2026-11-16 09:05
+
+- Dwa nieznane Gundamy niszczą obserwatorium [[earth-federation|Federacji]] na Wyspach Kurylskich — archipelagu, który [[srw-oe-ep3-interwencja-gundamow|interwencja Gundamów]] i [[srw-oe-ep3-skradajacy-sie-cien|„Skradający się cień”]] pokazują z dwóch stron, a hasło [[wyspy-kurylskie|Wyspy Kurylskie]] opisuje jako całość.
+
+## 2026-11-16 00:20
+
+- [[wyspy-kurylskie|Wyspy Kurylskie]]: archipelag na północnym Pacyfiku, który wojna między [[earth-federation|Federacją]] a [[zeon|Zeonem]] objęła strefą neutralną, a potem uczyniła terenem walki o obserwatorium [[garma-zabi|Garmy]] i o laboratorium [[cyber-newtype|Cyber-Newtype'ów]].
+
+## 2026-11-15 23:50
+
+- Archipelag Wysp Kurylskich należy do strefy neutralnej nad Pacyfikiem, a jego obserwatorium — do [[earth-federation|Federacji]]; w [[cyber-newtype|historii Cyber-Newtype'ów]] i w losach [[gihren-zabi|Gihrena]] oraz [[kycilia-zabi|Kycilii]] archipelag nie jest już mieszany z wydarzeniami z [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
+
+## 2026-11-15 23:30
+
+- [[sayla-mass|Sayla]], [[fraw-bow|Fraw Bow]] i [[mirai-yashima|Mirai]] zyskują tło z pierwowzoru: Sayla trafia na [[white-base|White Base]] jako studentka medycyny i z braku doświadczonej załogi zostaje oficerem łączności, a potem pilotką; Mirai obejmuje ster dzięki szkoleniu na pilota szybowców i staje się zastępczynią [[bright-noa|Brighta]]; Fraw Bow opiekuje się [[amuro-ray|Amurem]] i trójką dzieci z [[side-7|Side 7]], a wojnę kończy jako oficer łączności okrętu.
+
+## 2026-11-15 23:10
+
+- [[setsuna-f-seiei|Setsuna]] mówi wprost, że [[earth-federation|Federacja]] wykorzystuje walczących dla niej, a [[alan-igor|Alan]] wskazuje frakcję w wojsku i producentów broni jako tych, którzy finansują eksperymenty [[cyber-newtype|Cyber-Newtype'ów]]. [[kei|Kei]] podsumowuje, że [[connect-force|Connect Force]] dał się oszukać, a [[himari-yaegaki|Himari]] chce szukać ocalałych w gruzach laboratorium na Wyspach Kurylskich.
+- [[sily-kolonii|Siły kolonii]] rozważą ograniczony udział w Connect Force pod warunkiem, że nikt nie będzie ingerował w ich działania; bez entuzjazmu przyjmują to [[himari-yaegaki|Himari]] i policjanci Drugiego Plutonu.
+- Rozmowa [[gihren-zabi|Gihrena]] z [[kycilia-zabi|Kycilią]] o karze za samowolny ruch [[mquve|M'Quve'a]] i o użyczeniu sił, które mają zbliżyć Connect do [[zeon|Zeonu]], należy do scenariusza gry — serial nie zna sojuszu z neutralną organizacją.
+
 ## 2026-11-15 22:05
 
 - [[gihren-zabi|Gihren Zabi]] i [[kycilia-zabi|Kycilia Zabi]] mają własne portrety, a [[invader-air|Invader/Air]] i [[metal-beast-muszla|Metalowa Bestia]] — ujęcia w walce: latający [[invader|Invader]] jedno, Bestia dwa, w tym wariant ze skorupą widzianą z bliska.
@@ -123,7 +156,7 @@
 ## 2026-11-11 17:30
 
 - W *Endless Waltz* nazwę [[altron-gundam|Altron]] wywodzi się z chińskiego *ertou long* — „dwugłowy smok” — od pary smoczych szponów Dragon Fang; „Nataku” to imię, którym [[chang-wufei|Chang Wufei]] nazywa swoją maszynę.
-- [[srw-y|Super Robot Wars Y]] reprezentują w bazie [[chang-wufei|Chang Wufei]] z [[altron-gundam|Altronem Gundamem]] i [[mobile-doll|Mobile Dollami]] na [[taurus|Taurusach]], [[takuma-nagare|Takuma Nagare]] z [[baku-yamagishi|Baku Yamagishim]] ze świata [[getter-robo-arc|*Getter Robo Arc*]], [[gauma|Gauma]] i [[yomogi-asanaka|Yomogi Asanaka]] z [[ssss-dynazenon|*SSSS.DYNAZENON*]] oraz prowadzone przez [[zaawansowana-si|Zaawansowaną SI]] [[amx-003-gaza-c|AMX-003 Gaza C]] z [[mobile-suit-z-gundam|*Zeta Gundam*]] i [[zamza-zah|Zamza-Zah]] z [[mobile-suit-gundam-seed-destiny|*SEED Destiny*]].
+- [[srw-y|Super Robot Wars Y]] reprezentują [[chang-wufei|Chang Wufei]] z [[altron-gundam|Altronem Gundamem]] i [[mobile-doll|Mobile Dollami]] na [[taurus|Taurusach]], [[takuma-nagare|Takuma Nagare]] z [[baku-yamagishi|Baku Yamagishim]] ze świata [[getter-robo-arc|*Getter Robo Arc*]], [[gauma|Gauma]] i [[yomogi-asanaka|Yomogi Asanaka]] z [[ssss-dynazenon|*SSSS.DYNAZENON*]] oraz prowadzone przez [[zaawansowana-si|Zaawansowaną SI]] [[amx-003-gaza-c|AMX-003 Gaza C]] z [[mobile-suit-z-gundam|*Zeta Gundam*]] i [[zamza-zah|Zamza-Zah]] z [[mobile-suit-gundam-seed-destiny|*SEED Destiny*]].
 
 ## 2026-11-10 23:59
 

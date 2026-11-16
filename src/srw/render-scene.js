@@ -2,10 +2,11 @@
  * Strona sceny (ADR 0008): analiza i treść sceny w lewej kolumnie,
  * nawigacja i materiały poboczne w prawej.
  *
- * Układ jest dwukolumnowy (3/4 + 1/4), bo scena ma dwa poziomy czytania:
- * najpierw analiza i dosłowny skrypt, obok — obsada, nawiązania do oryginału
- * i wątki. Podsekcje analizy prowadzą do odpowiadających im miejsc treści,
- * więc czytelnik nie szuka ich przewijaniem.
+ * Kolumna główna niesie całą treść sceny w kolejności czytania: analiza,
+ * dosłowny skrypt, tabela wątków, nawiązania do oryginalnych odcinków.
+ * Podsekcje analizy prowadzą do odpowiadających im miejsc treści, więc
+ * czytelnik nie szuka ich przewijaniem. Tabele i bloki nawiązań stoją
+ * w kolumnie 3/4, bo w wąskim pasie 1/4 przewijały się w poziomie.
  *
  * Scena należy do epizodu — okruszki i nawigacja prowadzą wewnątrz epizodu
  * (poprzednia / następna scena), a lista scen na stronie epizodu powstaje
@@ -17,6 +18,7 @@ import { hrefDlaSlug, slugify } from './links.js';
 import { dajStrone, dajDane } from './data.js';
 import { linkStrony, nieZnalesc, numerEpizodu } from './render.js';
 import { sortujSceny } from './registry.js';
+import { quickMenu } from './spis-boksow.js';
 
 /** Sceny jednego epizodu w kolejności numerycznej. */
 export function scenyEpizodu(slugEpizodu) {
@@ -62,17 +64,17 @@ export function renderScena(slug) {
     .map((x) => `<section class="sekcja-strony" id="${x.id}">${x.html ?? ''}</section>`)
     .join('');
 
-  const glowneTytuly = new Set(['Analiza', 'Treść sceny']);
-  const boczneTytuly = new Set(['Nawiązania do oryginalnych odcinków', 'Wątki w scenie']);
+  // Wszystkie cztery sekcje sceny stoją w kolumnie głównej: „Wątki w scenie”
+  // to tabela z czterema kolumnami, a „Nawiązania do oryginalnych odcinków”
+  // równie szeroki blok — w pasie 1/4 przewijały się w poziomie i były
+  // nieczytelne (decyzja właściciela 2026-11-16). Kolumna boczna zostaje
+  // przy metryce i nawigacji między scenami.
+  const kolejnoscGlowna = ['Analiza', 'Treść sceny', 'Wątki w scenie', 'Nawiązania do oryginalnych odcinków'];
   const glowneSekcje = [
-    ...oTytule('Analiza'),
-    ...oTytule('Treść sceny'),
-    ...sekcje.filter((x) => !glowneTytuly.has(x.tytul) && !boczneTytuly.has(x.tytul)),
+    ...kolejnoscGlowna.flatMap((tytul) => oTytule(tytul)),
+    ...sekcje.filter((x) => !kolejnoscGlowna.includes(x.tytul)),
   ];
-  const boczneSekcje = [
-    ...oTytule('Nawiązania do oryginalnych odcinków'),
-    ...oTytule('Wątki w scenie'),
-  ];
+  const boczneSekcje = [];
 
   // Strona bez podziału na sekcje (starsze dane) nie może zniknąć — pokazujemy
   // całą treść w kolumnie głównej.
@@ -80,6 +82,15 @@ export function renderScena(slug) {
     ? renderujSekcje(glowneSekcje)
     : `<div class="tresc-encja">${s.html ?? ''}</div>`;
   const boczna = renderujSekcje(boczneSekcje);
+
+  // Spis boksu u szczytu kolumny bocznej: scena ma cztery sekcje w kolumnie
+  // głównej, więc czytelnik wybiera, do której chce przeskoczyć, zamiast
+  // przewijać całą treść. Stałe sekcje idą w kolejności czytania, nie
+  // w kolejności wystąpienia w pliku.
+  const spis = quickMenu(
+    glowneSekcje.map((x) => ({ tytul: x.tytul, id: x.id })),
+    { hrefStrony: hrefDlaSlug(s.slug, 'scena'), etykieta: 'Sekcje sceny' },
+  );
 
   return `
 <div class="naglowek-epizodu">
@@ -99,6 +110,7 @@ export function renderScena(slug) {
     ${glowna}
   </div>
   <aside class="kolumna-boczna" aria-label="Informacje o scenie">
+    ${spis}
     <div class="panel-boczny">
       ${infoPozycje.length ? `<dl class="infoboks-lista">${infoPozycje.join('')}</dl>` : ''}
       <nav class="nawigacja-epizodow">

@@ -182,11 +182,12 @@ Gra zachowuje rdzeń finału Odessy, lecz upraszcza drogę do niego. W oryginale
 
 ## Wątki w scenie
 
-- **Szantaż zakazaną bronią.** [[mquve|M'Quve]] próbuje odwrócić wynik bitwy groźbą, która łamie [[traktat-antarktyczny|Traktat Antarktyczny]].
-- **Brak uległości.** [[general-revil|Revil]] przyjmuje ryzyko i nakazuje dalsze natarcie, by groźba nie stała się precedensem.
-- **Wiedza zamiast siły ognia.** Załoga nie może po prostu zestrzelić bomby; wykorzystuje dane konstrukcyjne i precyzyjne cięcie [[rx-78-2-gundam|Gundama]].
-- **Jedna próba.** [[amuro-ray|Amuro]] dostaje pojedynczą szansę na oddzielenie zapalnika nad górami.
-- **Koniec operacji Odessa.** Federacja odbiera kopalnie, a wojska Zeonu rozpraszają się lub wycofują w kosmos.
-- **Surowce na dalszą wojnę.** [[mquve|M'Quve]] opuszcza Ziemię z przekonaniem, że wcześniejsze transporty pozwolą Zeonowi walczyć jeszcze dziesięć lat.
-
+| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| **Szantaż zakazaną bronią.** [[mquve\|M'Quve]] próbuje odwrócić wynik bitwy groźbą, która łamie [[traktat-antarktyczny\|Traktat Antarktyczny]]. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 25 „The Fierce Battle for Odessa” | Oryginał potwierdza groźbę broni zakazanej traktatem; w grze M'Quve sięga po nią w tym samym starciu, w którym broni kopalni. |
+| **Brak uległości.** [[general-revil\|Revil]] przyjmuje ryzyko i nakazuje dalsze natarcie, by groźba nie stała się precedensem. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 25 „The Fierce Battle for Odessa” | Decyzja Revila o kontynuowaniu marszu odpowiada odcinkowi; gra przenosi ją na chwilę przed odpaleniem pocisku. |
+| **Wiedza zamiast siły ognia.** Załoga nie może po prostu zestrzelić bomby; wykorzystuje dane konstrukcyjne i precyzyjne cięcie [[rx-78-2-gundam\|Gundama]]. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 25 „The Fierce Battle for Odessa” | Przecięcie głowicy szablą wiązkową Gundama jest w oryginale i w grze, ale w grze poprzedza je analiza dokumentacji technicznej przez Connect. |
+| **Jedna próba.** [[amuro-ray\|Amuro]] dostaje pojedynczą szansę na oddzielenie zapalnika nad górami. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 25 „The Fierce Battle for Odessa” | Motyw jednej próby nad górami pochodzi z odcinka; gra dodaje presję czasu i obecność Drugiego Plutonu. |
+| **Koniec operacji Odessa.** Federacja odbiera kopalnie, a wojska Zeonu rozpraszają się lub wycofują w kosmos. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 25 „The Fierce Battle for Odessa” | Skutek operacji jest ten sam; w grze wycofanie się Zeonu otwiera drogę do kolejnych misji na Ziemi. |
+| **Surowce na dalszą wojnę.** [[mquve\|M'Quve]] opuszcza Ziemię z przekonaniem, że wcześniejsze transporty pozwolą Zeonowi walczyć jeszcze dziesięć lat. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 25 „The Fierce Battle for Odessa” | Kalkulacja M'Quve'a o dziesięciu latach wojny pochodzi z odcinka; gra czyni z niej zapowiedź dalszego konfliktu. |
 }}

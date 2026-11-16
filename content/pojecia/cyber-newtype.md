@@ -11,9 +11,9 @@ utworzono: 2026-11-15
 ---
 {{skrypt gra=srw-oe
 
-Określenie użyte przez [[heero-yuy|Heero]] w [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]]: wzmocniony żołnierz, którego zdolności nie wynikają z natury, tylko z inżynierii — „na siłę dało się stworzyć takiego człowieka”. Zniszczona placówka na [[mobile-suit-gundam-1979|Wyspach Kurylskich]] była laboratorium [[earth-federation|Federacji]], w którym prowadzono nieoficjalne eksperymenty na ludziach, a [[alan-igor|Alan]] dodaje, że skoro są jednostki robiące rzeczy poza schematem, muszą być też ludzie, którzy je finansują.
+Określenie użyte przez [[heero-yuy|Heero]] w [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]]: wzmocniony żołnierz stworzony sztucznie, a nie z natury. Zniszczona placówka na [[wyspy-kurylskie|Wyspach Kurylskich]] była laboratorium [[earth-federation|Federacji]], w którym prowadzono nieoficjalne eksperymenty na ludziach, by tworzyć takich ludzi. [[setsuna-f-seiei|Setsuna]] dodaje, że [[earth-federation|Federacja]] „po prostu wykorzystuje” walczących po jej stronie, a [[alan-igor|Alan]] wskazuje odpowiedzialnych: frakcję w wojsku i producentów broni, o czym do wywiadu obrońców docierały mroczne plotki.
 
-Wieść o laboratorium wywołuje różne reakcje: [[bright-noa|Bright]] nie dowierza, żeby Federacja robiła coś takiego, [[kei|Kei]] chce szukać dowodów w gruzach i obiecuje, że doprowadzi sprawę do końca, a [[himari-yaegaki|Himari]] odmawia zgody na eksperymenty na ludziach.
+Wieść o laboratorium wywołuje różne reakcje: [[bright-noa|Bright]] nie dowierza, żeby Federacja robiła coś takiego, [[kei|Kei]] podsumowuje, że [[connect-force|Connect Force]] i [[cyber-beast-force|Cyber Beast Force]] dały się oszukać, a [[himari-yaegaki|Himari]] uznaje strzelanie bez wezwania do poddania się za okrucieństwo i chce szukać ocalałych w gruzach.
 }}
 
 {{zrodlo gra=wspolne

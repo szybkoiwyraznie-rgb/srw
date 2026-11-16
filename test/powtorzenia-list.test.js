@@ -40,7 +40,9 @@ function miejsca(strona) {
   const boczna = html.slice(granica);
 
   // Własne listy stoją w treści za opisem strony; poznajemy je po nagłówku.
-  const listy = [...glowna.matchAll(/<section class="blok-(?:lista|powiazan)">\s*<h2>((?:Rozegrane epizody|Z tej serii:)[^<]*)<\/h2>([\s\S]*?)<\/section>/g)]
+  // Nagłówek boksy może nieść kotwicę `id="boks-…"` — spis boksu prowadzi do niej
+  // odsyłaczem z kolumny bocznej, więc atrybut jest częścią kontraktu strony.
+  const listy = [...glowna.matchAll(/<section class="blok-(?:lista|powiazan)"[^>]*>\s*<h2[^>]*>((?:Rozegrane epizody|Z tej serii:)[^<]*)<\/h2>([\s\S]*?)<\/section>/g)]
     .map((m) => ({ tytul: m[1], slugi: slugi(m[2]) }));
 
   const metryka = boczna.match(/<dl class="infoboks-lista">([\s\S]*?)<\/dl>/)?.[1] ?? '';
@@ -197,7 +199,7 @@ test('lista „Z tej serii” pochodzi z pola seria, nie powtarza podnagłówkó
       `${seria.slug}: „Z tej serii” wymienia każdą stronę z polem seria i tylko takie`);
     if (zPola.length > 0) {
       zObsada += 1;
-      const blokSerii = m.html.match(/<section class="blok-powiazan">\s*<h2>Z tej serii:[^<]*<\/h2>([\s\S]*?)<\/section>/)?.[1] ?? '';
+      const blokSerii = m.html.match(/<section class="blok-powiazan"[^>]*>\s*<h2[^>]*>Z tej serii:[^<]*<\/h2>([\s\S]*?)<\/section>/)?.[1] ?? '';
       assert.doesNotMatch(blokSerii, /<h3>/, `${seria.slug}: lista „Z tej serii” nie dubluje nagłówka podtypu`);
     }
 

@@ -509,8 +509,10 @@ Gra przenosi punkt widzenia na [[echika-y-franburnett|Echikę]] oglądającą pa
 
 ## Wątki w scenie
 
-- **Pokój po wojnie.** Śmierć Leloucha powstrzymuje ostateczne starcie Ziemi z kosmosem, lecz nie usuwa żalu ani nie odpowiada na pytanie o dalszą walkę.
-- **Atak i ochrona cywilów.** VAL-X pozostaje niejasnym przeciwnikiem, a A. Advent staje się schronieniem dla miasta Yagami i części Ayanashi.
-- **Dziedzictwo Echiki.** Dziewczyna przejmuje odpowiedzialność za ludzi, zanim pozna pełną naturę A. Adventu i Nira-Kana-I.
-- **NINJA i nowi sojusznicy.** Cross, Zero, Wufei i obsada fortecy działają razem mimo odmiennych celów; wspólna drużyna dopiero się kształtuje.
+| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| **Pokój po wojnie.** Śmierć Leloucha powstrzymuje ostateczne starcie Ziemi z kosmosem, lecz nie usuwa żalu ani nie odpowiada na pytanie o dalszą walkę. | [[code-geass-lelouch-of-the-rebellion-iii-glorification\|Code Geass: Lelouch of the Rebellion III Glorification]] | cała seria | Zamach na paradzie zamyka plan Zero Requiem w finale odcinka 25 *R2* i w filmie obejmującym odcinki 17–25; gra czyni z niego prolog własnej historii. |
+| **Atak i ochrona cywilów.** VAL-X pozostaje niejasnym przeciwnikiem, a A. Advent staje się schronieniem dla miasta Yagami i części Ayanashi. | [[srw-y\|Super Robot Wars Y]] | n/d | Napastnicy, ich cel i związek z Nira-Kana-I należą do autorskiej osi gry. |
+| **Dziedzictwo Echiki.** Dziewczyna przejmuje odpowiedzialność za ludzi, zanim pozna pełną naturę A. Adventu i Nira-Kana-I. | [[srw-y\|Super Robot Wars Y]] | n/d | Echika poznaje okręt i system Nira-Kana-I w dniu urodzin; scena nie rozstrzyga jeszcze ich dalszego zastosowania. |
+| **NINJA i nowi sojusznicy.** Cross, Zero, Wufei i obsada fortecy działają razem mimo odmiennych celów; wspólna drużyna dopiero się kształtuje. | [[srw-y\|Super Robot Wars Y]] | n/d | Skład sojuszu i role Crossa, Zero oraz Wufeia w fortecy są ustalone przez scenariusz gry. |
 }}

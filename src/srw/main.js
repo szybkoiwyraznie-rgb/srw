@@ -6,6 +6,7 @@
 import { uruchomRouter } from './router.js';
 import { podepnijPodglad } from './podglad.js';
 import { podepnijZwijanie } from './zwijanie.js';
+import { podepnijSkokiWStronie } from './skoki-w-stronie.js';
 import { wlaczLeniweObrazy } from './leniwe-obrazy.js';
 import { rama, tytulStrony, nieZnalesc, nazwaTypu, stanPusty } from './render.js';
 import {
@@ -124,26 +125,6 @@ function domknijInterakcje(app) {
   odepnijObrazy = wlaczLeniweObrazy(app, globalThis);
 }
 
-/**
- * Odsyłacze wewnątrz strony (podsekcja analizy → miejsce w treści sceny) nie
- * mogą zmieniać trasy hashowej, więc przechwytujemy kliknięcie i przewijamy
- * ręcznie. Delegacja na dokumencie działa dla każdej wyrenderowanej strony.
- */
-function podepnijSkokiWStronie() {
-  const d = globalThis.document;
-  if (!d?.addEventListener) return;
-  d.addEventListener('click', (e) => {
-    const link = e.target?.closest?.('[data-cel]');
-    if (!link) return;
-    const cel = d.getElementById(link.dataset.cel);
-    if (!cel) return;
-    e.preventDefault();
-    cel.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    cel.classList.remove('podswietlenie');
-    void cel.offsetWidth;
-    cel.classList.add('podswietlenie');
-  });
-}
 
 // Podgląd ilustracji i „Rozwiń” w „Powiązaniach” działają przez delegację zdarzeń,
 // więc wystarczy podpiąć je raz.

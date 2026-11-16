@@ -239,3 +239,68 @@ Zasada: gdy źródło zewnętrzne mówi co innego niż dostawa, rozbieżność o
 („źródła podają niejednolicie…”), a nie rozstrzyga po cichu na korzyść tego, co wygodniejsze.
 Dostawa jest rozstrzygnięciem dla danych gry; źródło zewnętrzne tłumaczy tylko tło. Test tego nie
 widzi — czyta pola, nie akapity — więc sprzeczność wyłapuje dopiero audyt następnej sesji.
+
+## L23 — Cytat w prozie i nawiązanie do odcinka wymagają sprawdzenia w materiale (2026-11-15)
+
+Audyt PR #36 znalazł dwa błędy tej samej rodziny, oba pod poziomem `skrypt`.
+
+**Cytat bez pokrycia.** Strona `cyber-newtype` podawała w cudzysłowie zdanie „na siłę dało się
+stworzyć takiego człowieka" oraz twierdziła, że Kei „chce szukać dowodów w gruzach", a Himari
+„odmawia zgody na eksperymenty". Żadne z tych zdań nie występuje w `dostawa_3_2.txt`; Kei mówi,
+że Connect dał się oszukać, a Himari chce szukać ocalałych. Hasło `sily-kolonii` miało podobny
+cytat („Jeśli chcieli się zbroić…"), którego w skrypcie nie ma. Fragment z poziomem `skrypt`
+brzmi wtedy jak dostawa, choć jest parafrazą albo dopiskiem modelu — najgorszy możliwy wariant,
+bo czytelnik nie ma powodu go kwestionować.
+
+**Nawiązanie do odcinka bez pokrycia w źródle.** Blok „Nawiązania do oryginalnych odcinków" sceny
+3-2 wiązał rozmowę Gihrena z Kycilią z **czternastym** odcinkiem *Mobile Suit Gundam*, twierdząc,
+że „Zeon rozwija w nim badania nad Newtype'ami". Odc. 14 „Time, Be Still" opowiada o bombach
+zegarowych podłożonych w Gundamie; nic z tego nie dotyczy rozmowy rodzeństwa Zabi. Adres
+w `zrodla` był poprawny i otwierał się — ale nie potwierdzał twierdzenia, co jest naruszeniem
+ADR 0009 i L11 w drugim wariancie: nie „nieotwarty adres", tylko „adres, który mówi coś innego".
+
+Zasady:
+
+- **Zanim wstawisz cytat, znajdź go w pliku dostawy albo skrypcie** (`grep` po kilku słowach).
+  Jeżeli w materiale go nie ma, nie ma też cudzysłowu — zdanie opisuje świat, a nie udaje dialogu.
+- **Nawiązanie do odcinka to twierdzenie o treści tego odcinka.** Sam numer i tytuł nie wystarczą:
+  przeczytaj streszczenie w otwartym źródle i sprawdź, czy opowiada o tym, do czego je przypinasz.
+  Jeśli nie — nawiązania nie ma (scena bez odcinka nie dostaje bloku, `PRZEPLYW_EPIZODU.md` §1a).
+- Po usunięciu jedynego użycia adresu **usuń go z `zrodla`** — test integralności pilnuje, by
+  każde zadeklarowane źródło było linkiem przy informacji w treści, i słusznie czerwienieje.
+- Test tego nie widzi: blok `{{zrodlo}}` przechodzi walidację poziomów i adresów. Rozbieżność
+  wyłapuje dopiero kwerenda audytu — dlatego cytaty i numery odcinków są pierwszym celem 3a.
+
+## L24 — Proza o grze nie może opowiadać pierwowzoru (2026-11-16)
+
+Właściciel wskazał kartę Zordo XX: „Pancerz jest tak wytrzymały, że nie imają się go ani
+Getter Tomahawk, ani Getter Beam. W misji <<…>> zwraca się przeciw Getterowi D2 i Getter
+Arcowi; pokonuje go dopiero wspólny atak obu maszyn.” Pierwsze zdanie jest prawdziwe i pochodzi
+z encyklopedii gry. Drugie opisuje **mangę**: tam Getter D2 i Getter Arc rzeczywiście kończą
+potwora dwoma jednoczesnymi Getter Beamami. W grze Takuma przesiada się do Arca, bo D2 jest
+„na granicy wytrzymałości”, a o wspólnym ataku nie ma ani słowa — a samej nazwy „Zordo XX”
+skrypt nie wymienia nigdy (Takuma mówi „ten wielki”).
+
+Ten sam błąd w tej samej dostawie w trzech innych miejscach: Insectorzy „nie przypominają
+Imperium Yoma ani Imperium Dinozaurów” (skrypt mówi o Hyakki i Dinozaurach — Yoma to inna
+seria), laboratorium „kryje coś, czego nie wolno odkryć wrogowi” (skrypt: nie wolno pozwolić,
+by odkryli, co jest **pod** laboratorium), a karta Show Kamuia zaczynała się od „Pilot Getter
+Kirika” — to poprawna nazwa maszyny z tej samej serii, ale nie ta, którą pilotuje w tej misji.
+
+Do tego dwa błędy w samych testach: `assert.deepEqual(piloci, [], 'Insector to broń bez załogi')`
+i to samo dla Zordo XX. Gra daje obu jednostkom własne karty pilota (SP, Duch „Skup.”, Potencjał
+L3), więc zdanie w komunikacie było nieprawdą — test pilnował pustej tablicy i przy okazji
+utrwalał fałszywy opis w kodzie.
+
+Zasady:
+
+- **Zdanie o zachowaniu maszyny w misji musi mieć zaczepienie w skrypcie.** Jeśli skrypt mówi
+  tylko „przesiadajcie się tutaj”, to jest cała prawda o finale walki — reszta pochodzi
+  z pierwowzoru i idzie do bloku `{{zrodlo}}` z własną etykietą.
+- **Nazwa, której nie ma w dialogach, nie jest nazwą z gry.** Wolno jej użyć, ale trzeba
+  powiedzieć wprost, skąd pochodzi („w mandze i serialu to Zordo XX”) i nie przypisywać jej
+  wypowiedziom.
+- **Komunikat asercji to też twierdzenie.** `'broń bez załogi'` w `assert` jest zdaniem
+  opublikowanym w kodzie i w raporcie testów; musi być prawdziwy tak samo jak proza.
+- Test `proza o wydarzeniach gry trzyma się tego, co mówi skrypt` w `test/epizod-y-misja-2a.test.js`
+  pilnuje finału walki i nazwy potwora. Kolejna dostawa powinna dostać własny odpowiednik.

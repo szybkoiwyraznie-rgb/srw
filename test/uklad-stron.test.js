@@ -64,25 +64,31 @@ test('renderery scen i epizodów zachowują zgodność ze starszym pełnym HTML'
   assert.match(renderEpizod(epizodSlug), /Starsza treść epizodu/);
 });
 
-test('scena: analiza i treść w lewej kolumnie, obsada i nawiązania w prawej', () => {
+test('scena: cała treść w lewej kolumnie, obsada w prawej', () => {
   const html = scena('srw-oe-ep1-black-tri-stars');
   assert.match(html, /class="uklad-strona"/);
   assert.match(html, /class="kolumna-glowna/);
   assert.match(html, /class="kolumna-boczna"/);
 
-  const [glowna, analiza, trescS, boczna, obsada, nawiazania, watki] = kolejnosc(html, [
+  const [glowna, analiza, trescS, watki, nawiazania, boczna, obsada] = kolejnosc(html, [
     'class="kolumna-glowna', 'id="sekcja-analiza"', 'id="sekcja-tresc"',
-    'class="kolumna-boczna"', 'class="panel-boczny"', 'id="sekcja-nawiazania"', 'id="sekcja-watki"',
+    'id="sekcja-watki"', 'id="sekcja-nawiazania"',
+    'class="kolumna-boczna"', 'class="panel-boczny"',
   ]);
   assert.ok(glowna < analiza && analiza < trescS, 'w lewej kolumnie analiza przed treścią');
-  assert.ok(trescS < boczna, 'prawa kolumna zaczyna się po lewej');
-  assert.ok(boczna < obsada && obsada < nawiazania && nawiazania < watki,
-    'w prawej kolumnie: obsada, nawiązania, wątki');
+  // Tabela wątków i blok nawiązań są za szerokie na pas 1/4 — przewijały się
+  // w poziomie, więc oba stoją w kolumnie głównej (decyzja 2026-11-16).
+  assert.ok(trescS < watki, 'w lewej kolumnie wątki po treści sceny');
+  assert.ok(watki < nawiazania, 'w lewej kolumnie nawiązania po wątkach');
+  assert.ok(nawiazania < boczna, 'cała treść kończy się przed prawą kolumną');
+  assert.ok(boczna < obsada, 'w prawej kolumnie metryka i obsada');
 
-  // Obsada to lista linków, tak jak wcześniej na górze strony.
-  assert.match(html.slice(obsada, nawiazania), /<dt>Postacie<\/dt>/);
-  assert.match(html.slice(obsada, nawiazania), /<dt>Mechy<\/dt>/);
-  assert.match(html.slice(obsada, nawiazania), /<dt>Hasła<\/dt>/);
+  // Obsada to lista linków — jedyna rzecz w prawej kolumnie sceny.
+  const prawa = html.slice(boczna);
+  assert.match(prawa, /<dt>Postacie<\/dt>/);
+  assert.match(prawa, /<dt>Mechy<\/dt>/);
+  assert.match(prawa, /<dt>Hasła<\/dt>/);
+  assert.doesNotMatch(prawa, /id="sekcja-/, 'żadna sekcja treści nie stoi w kolumnie bocznej');
 });
 
 test('scena: każda podsekcja analizy linkuje do istniejącej kotwicy w treści', () => {
@@ -113,7 +119,7 @@ test('scena: podsekcje treści mają własne nagłówki-kotwice', () => {
 });
 
 test('scena z podsekcją analizy wymaga kompletnej mapy', () => {
-  const ciało = `{{skrypt gra=srw-oe\n\n## Treść sceny\n\n### Alfa\n\ntekst\n\n## Analiza\n\n### Beta\n\nopis\n\n## Wątki w scenie\n\n- x\n}}\n`;
+  const ciało = `{{skrypt gra=srw-oe\n\n## Treść sceny\n\n### Alfa\n\ntekst\n\n## Analiza\n\n### Beta\n\nopis\n\n## Wątki w scenie\n\n| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |\n|---|---|---|---|\n| **Alfa.** Wątek. | [[srw-oe\\|Super Robot Wars OE]] | n/d | Opis. |\n}}\n`;
   const plan = zaplanujScene(podzielScene(ciało));
   assert.equal(plan.problemy.length, 1);
   assert.match(plan.problemy[0], /„Beta”.*nie ma mapowania/);
@@ -183,7 +189,7 @@ test('podział sceny: nagłówki wewnątrz bloku skryptu nie zaczynają sekcji',
 });
 
 test('plan kotwic zgłasza nieistniejący cel i nadmiar mapowań zamiast je zgadywać', () => {
-  const ciało = `{{skrypt gra=srw-oe\n\n## Treść sceny\n\n### Alfa\n\ntekst\n\n## Analiza\n\n### Beta\n\nopis\n\n## Wątki w scenie\n\n- x\n}}\n`;
+  const ciało = `{{skrypt gra=srw-oe\n\n## Treść sceny\n\n### Alfa\n\ntekst\n\n## Analiza\n\n### Beta\n\nopis\n\n## Wątki w scenie\n\n| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |\n|---|---|---|---|\n| **Alfa.** Wątek. | [[srw-oe\\|Super Robot Wars OE]] | n/d | Opis. |\n}}\n`;
   const czesci = podzielScene(ciało);
   const zlyCel = zaplanujScene(czesci, ['Beta → Gamma']);
   assert.equal(zlyCel.problemy.length, 1);
@@ -244,12 +250,16 @@ test('epizod 1: nagłówki misji prowadzą do stron scen', () => {
 
 test('epizod: streszczenie, wątki i komentarz mają osobne boksy', () => {
   const html = renderEpizod('srw-oe-ep0');
-  const boksy = [...html.matchAll(/<section class="sekcja-strony">\s*<div class="fragment[^"]*"[^>]*>\s*<div class="naglowek-fragmentu"><h2>([^<]+)<\/h2>/g)]
+  // Boks z nagłówkiem ma kotwicę `boks-epizodu-N` — spis w kolumnie bocznej
+  // prowadzi do niej odsyłaczem, więc identyfikator jest częścią kontraktu.
+  const boksy = [...html.matchAll(/<section class="sekcja-strony" id="boks-epizodu-\d+">\s*<div class="fragment[^"]*"[^>]*>\s*<div class="naglowek-fragmentu"><h2>([^<]+)<\/h2>/g)]
     .map((m) => m[1]);
   assert.deepEqual(boksy, ['Streszczenie', 'Wątki fabularne', 'Komentarz', 'Postacie i maszyny', 'Inne źródła i rozbieżności']);
 
   // Blok wiedzy bez nagłówka też jest własnym boksem — nie dokleja się do sąsiada.
   assert.equal((html.match(/class="sekcja-strony"/g) ?? []).length, 6);
+  // Boks bez tytułu nie dostaje kotwicy: nie ma czego pokazać w spisie.
+  assert.equal((html.match(/<section class="sekcja-strony" id="boks-epizodu-/g) ?? []).length, 5);
 
   // Tabela wątków ma cztery kolumny, tak jak nagłówek — pionek w wikilinku nie dzieli wiersza.
   const tabela = html.slice(html.indexOf('<table'), html.indexOf('</table>'));
@@ -278,7 +288,7 @@ test('encje: opisy gier, opis neutralny, ilustracje i parametry — w tej kolejn
     let maOpis = false;
     for (const k of kawalki) {
       const poziomGry = /poziom-(skrypt|menu)/.test(k.slice(0, 120));
-      const h2 = k.match(/<h2>([^<]+)<\/h2>/)?.[1]?.trim() ?? null;
+      const h2 = k.match(/<h2[^>]*>([^<]+)<\/h2>/)?.[1]?.trim() ?? null;
       assert.ok(!h2 || !opisowe.test(h2),
         `${p.slug}: tytuł boksu opisowego „${h2}” zastąp plakietką gry`);
       let ranga;

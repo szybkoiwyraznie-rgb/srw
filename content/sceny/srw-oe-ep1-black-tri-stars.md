@@ -293,13 +293,14 @@ W oryginale trójka przybywa na front na pokładzie okrętu kosmicznego i odbier
 
 ## Wątki w scenie
 
-- **Powrót do domu i cień śledztwa.** Rozmowa z [[suol|szefem Suolem]] zamyka wątek japońskich ćwiczeń, ale nie odpowiada, kto stoi za awarią [[hal-x10|HAL-X10]].
-- **Nowi przeciwnicy.** [[black-tri-stars|Black Tri-Stars]] przybywają z trzema [[dom|Domami]] i od razu trafiają na „konia trojańskiego”.
-- **Polityka ponad polem walki.** [[mquve|M'Quve]] najpierw myśli o froncie [[general-revil|Revila]] i odwleka walkę z [[white-base|White Base]], a po porażce wspomina o dyplomatycznej karcie.
-- **Pierwszy wylot Sayli.** [[sayla-mass|Sayla]] prowadzi [[g-fighter|G-Fighter]] i uczy się, że jej maszyna jest łatwym celem dla artylerii.
-- **Szybkość Domów.** Trzy nowe mobile suity zaskakują załogę tempem, a ich atak zmusza Federację do walki w powietrzu i na ziemi jednocześnie.
-- **Jet Stream Attack.** Zespół okrętu wymyka się [[jet-stream-attack|atakowi Jet Stream]], co przesądza o odwrocie [[black-tri-stars|Black Tri-Stars]].
-- **Przetrwanie ponad dumę.** [[gaia|Gaia]] wybiera odwrót i raport dla [[mquve|M'Quve'a]] zamiast walki do końca.
-- **Zaufanie załogi.** [[mirai-yashima|Mirai]] dodaje [[bright-noa|Brightowi]] odwagi przed dalszą drogą ku [[operacja-odessa|Odessie]].
-
+| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| **Powrót do domu i cień śledztwa.** Rozmowa z [[suol\|szefem Suolem]] zamyka wątek japońskich ćwiczeń, ale nie odpowiada, kto stoi za awarią [[hal-x10\|HAL-X10]]. | [[srw-oe\|Super Robot Wars OE]] | n/d | Connect i Suol nie występują w serialu; nierozwiązana awaria HAL-X10 to wątek prowadzony przez grę. |
+| **Nowi przeciwnicy.** [[black-tri-stars\|Black Tri-Stars]] przybywają z trzema [[dom\|Domami]] i od razu trafiają na „konia trojańskiego”. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” | W oryginale trójka przybywa na front okrętem i odbiera Domy od M'Quve'a; gra wiąże zespół z zadaniem wschodniej kopalni i „koniem trojańskim”. |
+| **Polityka ponad polem walki.** [[mquve\|M'Quve]] najpierw myśli o froncie [[general-revil\|Revila]] i odwleka walkę z [[white-base\|White Base]], a po porażce wspomina o dyplomatycznej karcie. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” | Serial pokazuje odprawę przed nocnym starciem w czasie przygotowań do Odessy; motyw dyplomatycznej karty po porażce jest dodany przez grę. |
+| **Pierwszy wylot Sayli.** [[sayla-mass\|Sayla]] prowadzi [[g-fighter\|G-Fighter]] i uczy się, że jej maszyna jest łatwym celem dla artylerii. | [[srw-oe\|Super Robot Wars OE]] | n/d | W odcinku 24 Sayla nie ma jeszcze bojowego wylotu w G-Fighterze; ten epizod należy do gry. |
+| **Szybkość Domów.** Trzy nowe mobile suity zaskakują załogę tempem, a ich atak zmusza Federację do walki w powietrzu i na ziemi jednocześnie. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” | Tempo i skoordynowany atak Domów odpowiadają oryginałowi; w grze starcie toczy się wokół kopalni, a nie w drodze ku Odessie. |
+| **Jet Stream Attack.** Zespół okrętu wymyka się [[jet-stream-attack\|atakowi Jet Stream]], co przesądza o odwrocie [[black-tri-stars\|Black Tri-Stars]]. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 24 „Black Tri-Star” | W serialu formacja Jet Stream jest groźna, ale zostaje rozbita; w grze to właśnie nieudany atak przesądza o odwrocie trójki. |
+| **Przetrwanie ponad dumę.** [[gaia\|Gaia]] wybiera odwrót i raport dla [[mquve\|M'Quve'a]] zamiast walki do końca. | [[srw-oe\|Super Robot Wars OE]] | n/d | Motyw odznaczenia i wyboru odwrotu pochodzi z dialogów warunkowych gry, nie z odcinka. |
+| **Zaufanie załogi.** [[mirai-yashima\|Mirai]] dodaje [[bright-noa\|Brightowi]] odwagi przed dalszą drogą ku [[operacja-odessa\|Odessie]]. | [[srw-oe\|Super Robot Wars OE]] | n/d | Krótka scena załogowa po walce jest dodatkiem gry; w odcinku narracja kończy się na starciu. |
 }}

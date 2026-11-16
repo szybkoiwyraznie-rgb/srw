@@ -8,20 +8,20 @@ gry: [srw-oe]
 mechy: []
 pochodzenie: skrypt
 zrodla:
-  - https://en.wikipedia.org/wiki/Kycilia_Zabi
+  - https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters
 tagi: [one-year-war, dowodztwo, zeon, zabi, gundam-1979]
 utworzono: 2026-11-15
 ---
 {{skrypt gra=srw-oe
 
-Córka rodu Zabi, dowodząca własnym pionem wywiadu i wojsk [[zeon|Zeonu]]. Za placówką na [[mobile-suit-gundam-1979|Wyspach Kurylskich]] wysłała [[zanzibar|Zanzibar]] z [[mquve|M'Quve'em]] i [[black-tri-stars|Black Tri-Stars]], bo uważała ją za ośrodek badań nad [[newtype|Newtype'ami]] [[earth-federation|Federacji]].
+Córka rodu Zabi, dowodząca własnym pionem wywiadu i wojsk [[zeon|Zeonu]]. Za placówką na [[wyspy-kurylskie|Wyspach Kurylskich]] wysłała [[zanzibar|Zanzibar]] z [[mquve|M'Quve'em]] i [[black-tri-stars|Black Tri-Stars]], bo uważała ją za ośrodek badań nad [[newtype|Newtype'ami]] [[earth-federation|Federacji]].
 
 W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] przyjmuje od brata wiadomość, że operacja się nie powiodła, a laboratorium zniszczyły maszyny sił kolonii. Prosi o karę za samowolny ruch [[mquve|M'Quve'a]], a w zamian zgadza się użyczyć [[cyber-beast-force|sił]], które mają związać [[connect-force|Connect]] z [[zeon|Zeonem]] — i przyznaje, że nad badaniami nad Newtype'ami pracuje właśnie z myślą o grze na czas.
 }}
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-1979|pierwowzorze]] Kycilia Zabi dowodzi wywiadem i siłami specjalnymi Zeonu, rywalizując z bratem Gihrenem o wpływy na dworze; to ona stoi za ośrodkiem badawczym Newtype'ów i za losem [[garma-zabi|Garmy]] ([Wikipedia, „Kycilia Zabi”](https://en.wikipedia.org/wiki/Kycilia_Zabi); sprawdzono 2026-11-15).
+W [[mobile-suit-gundam-1979|pierwowzorze]] Kycilia Zabi (キシリア・ザビ) jest jedyną córką Degwina. W czasie wojny stoi na czele sił mobile suitów Zeonu, równie sprawnie zajmuje się wywiadem i tworzy elitarne jednostki ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-11-15).
 }}
 
 {{menu gra=srw-oe

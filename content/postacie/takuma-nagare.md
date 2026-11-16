@@ -4,7 +4,7 @@ slug: takuma-nagare
 tytul: "Takuma Nagare"
 seria: getter-robo-arc
 rola: pilot
-mechy: []
+mechy: [getter-arc]
 gry: [srw-y]
 pochodzenie: menu
 zrodla:

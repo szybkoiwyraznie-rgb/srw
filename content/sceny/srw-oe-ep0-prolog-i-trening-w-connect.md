@@ -213,9 +213,10 @@ Po ćwiczeniach okazuje się, że nikt nie nauczył Himari przesyłania danych d
 
 ## Wątki w scenie
 
-- **Szkolenie i zasoby.** Ruch kosztuje EN, zaopatrzenie je odnawia, a części służą doraźnej naprawie. Kontenery trzeba zebrać przed zniszczeniem wszystkich celów ćwiczebnych.
-- **Retrospekcja.** Himari przedstawia się jako absolwentka inżynierii z magisterką i osoba w pierwszym roku pracy. Przy przenosinach z 44. Działu Administracji nie poznała zadań oddziału bojowego.
-- **Odpowiedzialność operatorki.** Seishiro chwali postępy Himari, lecz w hangarze odkrywa, że nie nauczono jej przesyłania danych. Oferuje pomoc, zamiast twierdzić, że dane zostały już wysłane.
-- **Niewyjaśniony wybór.** Wybrano Himari spośród setek tysięcy kandydatów. Seishiro uznaje ją za niezbędną dla projektu, ale cel projektu nadal pozostaje poza ujawnionymi informacjami.
-
+| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| **Szkolenie i zasoby.** Ruch kosztuje EN, zaopatrzenie je odnawia, a części służą doraźnej naprawie. Kontenery trzeba zebrać przed zniszczeniem wszystkich celów ćwiczebnych. | [[srw-oe\|Super Robot Wars OE]] | n/d | Zasady rozgrywki i układ planszy ćwiczeniowej są własnością gry; prolog nie ma odpowiednika w żadnym odcinku źródłowym. |
+| **Retrospekcja.** Himari przedstawia się jako absolwentka inżynierii z magisterką i osoba w pierwszym roku pracy. Przy przenosinach z 44. Działu Administracji nie poznała zadań oddziału bojowego. | [[srw-oe\|Super Robot Wars OE]] | n/d | Biografia Himari i jej przeniesienie z 44. Działu Administracji należą do scenariusza gry — nie pochodzą z żadnej serii. |
+| **Odpowiedzialność operatorki.** Seishiro chwali postępy Himari, lecz w hangarze odkrywa, że nie nauczono jej przesyłania danych. Oferuje pomoc, zamiast twierdzić, że dane zostały już wysłane. | [[srw-oe\|Super Robot Wars OE]] | n/d | Scena wprowadza relację przełożony–operatorka po raz pierwszy w grze; w seriach źródłowych nie ma odpowiednika. |
+| **Niewyjaśniony wybór.** Wybrano Himari spośród setek tysięcy kandydatów. Seishiro uznaje ją za niezbędną dla projektu, ale cel projektu nadal pozostaje poza ujawnionymi informacjami. | [[srw-oe\|Super Robot Wars OE]] | n/d | Wybór Himari i tajemnica projektu to autorska oś fabuły gry, świadomie nierozwiązana w prologu. |
 }}

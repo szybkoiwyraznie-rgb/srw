@@ -18,7 +18,7 @@ utworzono: 2026-11-13
 
 Jednostka może się przekształcać; jej skrzydlata forma to [[wing-gundam-zero-nb|Wing Zero NB]]. Po osiągnięciu wysokiego morale uruchamia System Zero, podnoszący jej statystyki.
 
-Uzbrojenie obejmuje skrzydłowe działko Vulcan i Twin Buster Rifle — działo wiązkowe o największym zasięgu wśród maszyn sojuszniczych tej misji. Maszynę pilotuje [[heero-yuy|Heero]] i poza tą jedną sceną nie bierze ona udziału w walce epizodu.
+Uzbrojenie obejmuje skrzydłowe działko Vulcan do walki z bliska i Twin Buster Rifle, działo wiązkowe rażące na średnim dystansie, za to z dużą mocą. Maszynę pilotuje [[heero-yuy|Heero]] i poza tą jedną sceną nie bierze ona udziału w walce epizodu.
 
 }}
 

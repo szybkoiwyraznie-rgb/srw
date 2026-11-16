@@ -9,7 +9,7 @@ utworzono: 2026-11-15
 ---
 {{skrypt gra=srw-oe
 
-Określenie, którym [[suol|Szef Suol]] opisuje w [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] niezależne grupy zbrojne działające w koloniach i bazach surowcowych: „Jeśli chcieli się zbroić tak, jak im się podobało, nie mogli polegać na kimś innym”. Zamiast czekać na [[earth-federation|Federację]] albo [[zeon|Zeon]], budują własną obronę i własne [[mobile-suit|mobile suity]] — a dwa Gundamy, które zniszczyły laboratorium, są ich maszynami.
+Określenie, którym [[suol|Szef Suol]] opisuje w [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] niezależne grupy zbrojne w koloniach kosmicznych i na planetach surowcowych. Cele mają różne, ale wiele z nich próbuje zbudować własną obronę, nie polegając ani na [[earth-federation|Federacji]], ani na [[zeon|Zeon]]. Dwa Gundamy, które zniszczyły laboratorium na [[wyspy-kurylskie|Wyspach Kurylskich]], należą właśnie do sił kolonii.
 
-Siły kolonii same skontaktowały się z [[connect-force|Connect]], choć w scenie nie pada ich nazwa, a [[suol|Suol]] przyznaje, że to „na razie rozmowy”. [[amuro-ray|Amuro]] dziwi się, że Gundamy ma nie tylko Federacja, a [[kycilia-zabi|Kycilia]] ocenia, że przybliżenie się do Connect oznacza zbliżenie do [[zeon|Zeonu]].
+Siły kolonii same skontaktowały się z [[connect-force|Connect]], choć w scenie nie pada ich nazwa. [[suol|Suol]] przyznaje, że rozważą ograniczony udział w Connect Force pod warunkiem, że nikt nie będzie ingerować w ich działania, a [[himari-yaegaki|Himari]] i policjanci z drugiego plutonu przyjmują tę zapowiedź bez entuzjazmu. [[amuro-ray|Amuro]] dziwi się, że Gundamy ma nie tylko Federacja, a [[kycilia-zabi|Kycilia]] ocenia, że przybliżenie się do Zeonu oznacza dla Connect grę na czas.
 }}

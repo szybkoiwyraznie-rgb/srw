@@ -640,8 +640,10 @@ Eldran, odwieczny strażnik Ziemi, powierza dzieciom dalszą walkę, licząc na 
 
 ## Wątki w scenie
 
-- **Wróg korzysta z cudzych maszyn.** Mechabestie sterują Laborami bez pełnej mechanizacji — Profesor i Shuzo badają szczątki, ale odpowiedź nie pada.
-- **Wyprawa kosmiczna jako wspólny cel.** Oferta Connect Force dzieli siły: Klasa Obrony Ziemi i drużyna Gurren lecą w kosmos, Saurersi z mechabestiami zostają na Ziemi.
-- **Drużyny Eldrana i Gurren Team.** Kamina przywłaszcza nazwę wszystkim; spór kończy się ugodą, że nazwa obejmuje sojusz wszystkich drużyn.
-- **Bazy wroga wciąż nieznane.** Rozmowy o kopiowaniu danych i Mucus Gate budują plan dalszego śledztwa, zanim Imperium uderzy ponownie.
+| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| **Wróg korzysta z cudzych maszyn.** Mechabestie sterują Laborami bez pełnej mechanizacji — Profesor i Shuzo badają szczątki, ale odpowiedź nie pada. | [[srw-oe\|Super Robot Wars OE]] | n/d | Mechanizacja cudzych maszyn przez mechabestie i nierozstrzygnięte dochodzenie Profesor i Shuzo to wątek gry. |
+| **Wyprawa kosmiczna jako wspólny cel.** Oferta Connect Force dzieli siły: Klasa Obrony Ziemi i drużyna Gurren lecą w kosmos, Saurersi z mechabestiami zostają na Ziemi. | [[srw-oe\|Super Robot Wars OE]] | n/d | Podział drużyn między Ziemię i kosmos zależy od decyzji gracza i należy do scenariusza gry. |
+| **Drużyny Eldrana i Gurren Team.** Kamina przywłaszcza nazwę wszystkim; spór kończy się ugodą, że nazwa obejmuje sojusz wszystkich drużyn. | [[tengen-toppa-gurren-lagann\|Tengen Toppa Gurren Lagann]] | cała seria | Drużyna Gurren i jej nazwa pochodzą z serialu; spór z Klasą Obrony o wspólną nazwę jest sceną gry łączącą dwa światy. |
+| **Bazy wroga wciąż nieznane.** Rozmowy o kopiowaniu danych i Mucus Gate budują plan dalszego śledztwa, zanim Imperium uderzy ponownie. | [[srw-oe\|Super Robot Wars OE]] | n/d | Kopiowanie danych i Mucus Gate są elementami autorskiej osi fabuły gry. |
 }}

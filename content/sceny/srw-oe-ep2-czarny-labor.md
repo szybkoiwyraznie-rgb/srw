@@ -347,9 +347,11 @@ Motyw samodzielnego lotu Labora i wycofania Buda na rozkaz Utsumiego występuje 
 
 ## Wątki w scenie
 
-- **Kontrolowany test.** Dla Utsumiego atak jest reklamą Griffona i sposobem zebrania danych.
-- **Ochrona jako zasłona.** Kurosaki występuje jako doradca HSS, a bezzałogowe Brockeny i zagłuszanie odcinają pluton od dowództwa.
-- **Ograniczenia przewagi technicznej.** Exart wykrywa brak życia w Laborach, ale nie identyfikuje Griffona i traci go podczas odwrotu.
-- **Nierozstrzygnięte starcie.** Bud odlatuje na rozkaz, nie zostaje schwytany. Goto cieszy się przede wszystkim z ocalenia plutonu.
-- **Powiązanie z Connect.** Zadanie SV2 odbywa się przed odlotem do kosmosu, a Himari traktuje funkcjonariuszy jako towarzyszy [[connect-force|Connect Force]].
+| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| **Kontrolowany test.** Dla Utsumiego atak jest reklamą Griffona i sposobem zebrania danych. | [[mobile-police-patlabor\|Mobile Police Patlabor]] | odc. 30 „Griffin was Here!” | W oryginale Utsumi chce sprawdzić Griffona przeciw Drugiemu Plutonowi; w grze test odbywa się na poligonie, gdzie czekają bezzałogowe Brockeny. |
+| **Ochrona jako zasłona.** Kurosaki występuje jako doradca HSS, a bezzałogowe Brockeny i zagłuszanie odcinają pluton od dowództwa. | [[mobile-police-patlabor\|Mobile Police Patlabor]] | odc. 30 „Griffin was Here!” | Rozmowa Utsumiego z Kurosakim odpowiada odcinkowi; bezzałogowe Brockeny i zagłuszanie czujników to dodatek gry. |
+| **Ograniczenia przewagi technicznej.** Exart wykrywa brak życia w Laborach, ale nie identyfikuje Griffona i traci go podczas odwrotu. | [[srw-oe\|Super Robot Wars OE]] | n/d | Udział Exarta i jego ograniczenia w rozpoznaniu to scena gry; w serialu pluton walczy sam. |
+| **Nierozstrzygnięte starcie.** Bud odlatuje na rozkaz, nie zostaje schwytany. Goto cieszy się przede wszystkim z ocalenia plutonu. | [[mobile-police-patlabor\|Mobile Police Patlabor]] | odc. 31 „Tragedy in Rain” | W serialu lot zamyka starcie na targach Laborów; tutaj Bud wycofuje się z poligonu, by dostarczyć dane z testu. |
+| **Powiązanie z Connect.** Zadanie SV2 odbywa się przed odlotem do kosmosu, a Himari traktuje funkcjonariuszy jako towarzyszy [[connect-force\|Connect Force]]. | [[srw-oe\|Super Robot Wars OE]] | n/d | Umieszczenie misji SV2 przed oddelegowaniem do Connect i reakcja Himari są fabułą gry. |
 }}

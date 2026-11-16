@@ -265,10 +265,12 @@ Gra zmienia też obsadę Hover Trucka względem serialu: Michel jest głównym p
 
 ## Wątki w scenie
 
-- **Symulator i pole bitwy.** [[shiro-amada|Shiro]] i [[christina-mackenzie|Chris]] porównują wyniki prób z odpowiedzialnością pilota za własne życie.
-- **Start pod osłoną.** Celem obu stron jest wahadłowiec z [[rx-78nt-1-gundam-alex|Alexem]], a nie samo zwycięstwo w walce mobile suitów.
-- **Improwizowana naprawa.** [[karen-joshua|Karen]] wraca z głową GM-a, bo sprawność maszyny jest ważniejsza niż wygląd.
-- **Dowódca i jego ludzie.** [[hardy-steiner|Steiner]] mierzy ryzyko misji życiem własnego oddziału i zarządza odwrót, gdy szturm się zatrzymuje.
-- **Wsparcie z tyłu.** [[michel-ninorich|Michel]] i [[eledore-massis|Eledore]] zabezpieczają patrol i wykrywają zagrożenie, ale nie mają uczestniczyć w bezpośrednim starciu.
-- **Chwila przed drogą.** Po starcie rozmowa o jedzeniu ustępuje ostrożności: [[jaburo|Jaburo]] jest celem, lecz droga pozostaje niebezpieczna.
+| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| **Symulator i pole bitwy.** [[shiro-amada\|Shiro]] i [[christina-mackenzie\|Chris]] porównują wyniki prób z odpowiedzialnością pilota za własne życie. | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa Shiro z Chris o symulatorze należy do gry; bohaterowie pochodzą z różnych serii i w źródłach się nie spotykają. |
+| **Start pod osłoną.** Celem obu stron jest wahadłowiec z [[rx-78nt-1-gundam-alex\|Alexem]], a nie samo zwycięstwo w walce mobile suitów. | [[mobile-suit-gundam-0080\|Mobile Suit Gundam 0080]] | odc. 1 „How Many Miles to the Battlefield?” | Oryginał również kończy się udanym startem transportu mimo ataku plutonu Cyclops; w grze dochodzi eskorta Connect i walka w przestrzeni. |
+| **Improwizowana naprawa.** [[karen-joshua\|Karen]] wraca z głową GM-a, bo sprawność maszyny jest ważniejsza niż wygląd. | [[mobile-suit-gundam-08th-ms-team\|Mobile Suit Gundam: The 08th MS Team]] | cała seria | Motyw doraźnych napraw i nieestetycznych części jest stały w OVA; konkretna scena z głową GM-a jest dopisana przez grę. |
+| **Dowódca i jego ludzie.** [[hardy-steiner\|Steiner]] mierzy ryzyko misji życiem własnego oddziału i zarządza odwrót, gdy szturm się zatrzymuje. | [[mobile-suit-gundam-0080\|Mobile Suit Gundam 0080]] | odc. 1 „How Many Miles to the Battlefield?” | Steiner dowodzi plutonem Cyclops w odcinku; w grze jego odwrót jest skutkiem wspólnej obrony Connect, a nie porażki samego szturmu. |
+| **Wsparcie z tyłu.** [[michel-ninorich\|Michel]] i [[eledore-massis\|Eledore]] zabezpieczają patrol i wykrywają zagrożenie, ale nie mają uczestniczyć w bezpośrednim starciu. | [[mobile-suit-gundam-08th-ms-team\|Mobile Suit Gundam: The 08th MS Team]] | cała seria | Podział na zwiad i walkę odpowiada rolom Michelem i Eledorego w OVA; ich udział w obronie wahadłowca to połączenie dwóch serii przez grę. |
+| **Chwila przed drogą.** Po starcie rozmowa o jedzeniu ustępuje ostrożności: [[jaburo\|Jaburo]] jest celem, lecz droga pozostaje niebezpieczna. | [[srw-oe\|Super Robot Wars OE]] | n/d | Scena załogowa po starcie i wzmianka o drodze do Jaburo należą do gry. |
 }}

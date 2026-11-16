@@ -207,3 +207,11 @@ Poniżej notatki o procesie, bazie i formatowaniu, usunięte z `content/co-noweg
 - 2026-10-20 23:50–17:08 — strony, wpisy obsady, ilustracje, parametry.
 - 2026-10-19 23:15–19:10 — dane pozyskane kwerendą, opisy potwierdzone źródłami, galerie, parametry.
 - 2026-10-17 23:55–23:28 — hasła i powiązania scen.
+
+## 2026-11-16 — wpisy usunięte z dziennika (interfejs i układ tabel)
+
+Na wniosek właściciela z 2026-11-16 publiczny dziennik mówi wyłącznie o fabule.
+Poniżej notatki o interfejsie i formacie, usunięte z `content/co-nowego.md`:
+
+- 2026-11-16 12:15 — quick menu ze spisem boksów u szczytu prawej kolumny na każdej podstronie z co najmniej dwoma boksami (ADR 0042); nowy `src/srw/skoki-w-stronie.js`, test `test/spis-boksow.test.js`.
+- 2026-11-16 10:40 — wątki scen w jednym czterokolumnowym kształcie tabeli we wszystkich scenach; motyw, pochodzenie, odcinek pierwowzoru i różnice w jednym wierszu (ADR 0031); nowy `test/watki-scen.test.js`. Rozdzielenie zbiorczych wątków na Patlabor i wkład gry oraz na Zeon, 08. Pluton MS i pierwszego Gundama zostało opisane w samych scenach.

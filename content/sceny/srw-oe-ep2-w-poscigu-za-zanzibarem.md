@@ -291,10 +291,12 @@ Reszta sceny należy już do gry. W serialu nikt nie przerywa pościgu: nie ma [
 
 ## Wątki w scenie
 
-- **Spotkanie zamiast zwycięstwa.** O wyniku pościgu decyduje nie siła ognia, tylko to, czy [[white-base|White Base]] zdąży do punktu spotkania z [[connect-force|Connect]] przed [[zanzibar|Zanzibarem]].
-- **Jurysdykcja jako broń.** [[seishiro|Seishiro]] zatrzymuje bitwę komunikatem, a nie strzałem; [[char-aznable|Char]] uznaje to za rozegraną partię [[general-revil|Revila]] i przerywa ogień.
-- **Granice nowej formacji.** Samowolny start [[tokwan|Tokwana]] pokazuje, że świeżo ogłoszona jurysdykcja [[connect-force|Connect Force]] nie ma jeszcze siły rozkazu — „prywatna firma nie będzie rządzić na polu bitwy”.
-- **Prywatny rachunek.** Pilot [[bigro|Bigro]] mści się za [[patrolowa-flota-camel|flotę Camel]] i za [[dren|Drena]], a nie wykonuje zadania; [[char-aznable|Char]] żałuje przy tym maszyny i życzy mu ucieczki.
-- **Sprzęt nie na tę wojnę.** [[shiro-amada|Shiro]], [[terry-sanders-jr|Sanders]], [[michel-ninorich|Michel]], [[karen-joshua|Karen]] i [[eledore-massis|Eledore]] pozostają widzami, bo maszyny [[08-pluton-ms|08. Plutonu MS]] nie walczą w kosmosie.
-- **Koniec rozdziału.** [[13-samodzielny-oddzial|13. Samodzielny Oddział]] wchodzi do [[connect-force|Connect Force]] z [[bright-noa|Brightem]] jako dowódcą okrętu-matki, a zadaniem formacji stają się zagrożenia dla całej ludzkości.
+| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| **Spotkanie zamiast zwycięstwa.** O wyniku pościgu decyduje nie siła ognia, tylko to, czy [[white-base\|White Base]] zdąży do punktu spotkania z [[connect-force\|Connect]] przed [[zanzibar\|Zanzibarem]]. | [[srw-oe\|Super Robot Wars OE]] | n/d | Punkt spotkania z Connect i cel przetrwania zamiast zwycięstwa to założenia misji w grze. |
+| **Jurysdykcja jako broń.** [[seishiro\|Seishiro]] zatrzymuje bitwę komunikatem, a nie strzałem; [[char-aznable\|Char]] uznaje to za rozegraną partię [[general-revil\|Revila]] i przerywa ogień. | [[srw-oe\|Super Robot Wars OE]] | n/d | Wezwanie Seishira i uznanie jurysdykcji Connect przez Chara należą do autorskiego scenariusza gry; w serialu nikt nie przerywa pościgu. |
+| **Granice nowej formacji.** Samowolny start [[tokwan\|Tokwana]] pokazuje, że świeżo ogłoszona jurysdykcja [[connect-force\|Connect Force]] nie ma jeszcze siły rozkazu — „prywatna firma nie będzie rządzić na polu bitwy”. | [[srw-oe\|Super Robot Wars OE]] | n/d | Złamanie rozejmu przez pilota Bigro jest rozwiązaniem gry; w odcinku 31 Tokwan wykonuje rozkaz Chara. |
+| **Prywatny rachunek.** Pilot [[bigro\|Bigro]] mści się za [[patrolowa-flota-camel\|flotę Camel]] i za [[dren\|Drena]], a nie wykonuje zadania; [[char-aznable\|Char]] żałuje przy tym maszyny i życzy mu ucieczki. | [[srw-oe\|Super Robot Wars OE]] | n/d | Motyw zemsty za rozbitą flotę Camel jest odwróceniem kolejności odcinków 31 i 32 przez grę; depesza z przeprosinami od Chara również należy do gry. |
+| **Sprzęt nie na tę wojnę.** [[shiro-amada\|Shiro]], [[terry-sanders-jr\|Sanders]], [[michel-ninorich\|Michel]], [[karen-joshua\|Karen]] i [[eledore-massis\|Eledore]] pozostają widzami, bo maszyny [[08-pluton-ms\|08. Plutonu MS]] nie walczą w kosmosie. | [[srw-oe\|Super Robot Wars OE]] | n/d | Ograniczenie maszyn lądowych do walki na Ziemi jest konsekwencją składu gry. |
+| **Koniec rozdziału.** [[13-samodzielny-oddzial\|13. Samodzielny Oddział]] wchodzi do [[connect-force\|Connect Force]] z [[bright-noa\|Brightem]] jako dowódcą okrętu-matki, a zadaniem formacji stają się zagrożenia dla całej ludzkości. | [[srw-oe\|Super Robot Wars OE]] | n/d | Przejście 13. Samodzielnego Oddziału pod nową formację jest zamknięciem rozdziału w grze. |
 }}
