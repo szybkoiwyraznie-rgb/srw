@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-16 18:04
+
+- **Losy załogi i mieszkańców [[miasto-yagami|miasta Yagami]] w [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|„Przebudzeniu niebiańskiego demona”]]** — [[echika-y-franburnett|Echika Y. Franburnett]] u boku [[annina-servania|Anniny Servanii]] ogłasza trzy gwarancje i odrzuca żądanie wydania [[a-advent|A. Adventu]]; [[cross-tsukinowa|Cross Tsukinowa]] podejmuje współpracę z [[wren|Wren]], [[aytie|Aytie]] i [[cookie|Cookie]], a na placu pod kopułą pojawiają się [[gauma|Gauma]], [[yomogi-asanaka|Yomogi Asanaka]], [[matka-yomogiego|jego matka]], [[yume-minami|Yume Minami]], [[mei|Mei]], [[koyomi-yamanaka|Koyomi Yamanaka]] i [[chise-asukagawa|Chise Asukagawa]].
+- **Debiut drużyny [[getter-arc|Getter Arca]] i [[laboratorium-saotome|Laboratorium Saotome]]** — [[takuma-nagare|Takuma Nagare]] i [[baku-yamagishi|Baku Yamagishi]] przejmują zestrzelonego [[getter-d2|Gettera D2]] pod górą Asama, przesiadają się do [[getter-arc|Getter Arca]] i za wezwaniem [[promienie-gettera|promieni Gettera]] zostają wysłani na [[a-advent|A. Advent]] decyzją [[hayato-jin|Hayato Jina]] przy udziale [[shikishima|Shikishimy]] i [[igari|Igariego]].
+
 ## 2026-11-16 17:53
 
 - [[historia-ziemi|Sześćdziesiąt lat Nowej Ery Uniwersalnej]] układa w jedną oś dzieje świata przed [[wojna-rewolucyjna|wojną rewolucyjną]]: od Nowej Wojny Galaktycznej i powstania [[n-u-n-g|N.U.N.G.]] w roku NUC 000, przez pierwszy Gundam Fight, walki z Imperium Dinozaurów i Imperium Hyakki oraz wojnę jednoroczną w NUC 048, po narodziny [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]] w NUC 058.

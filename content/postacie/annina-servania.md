@@ -13,6 +13,8 @@ utworzono: 2026-11-09
 {{menu gra=srw-y
 
 Guwernantka Echiki. Ma 27 lat. Kobieta. Od trzech lat mieszka w rezydencji i uczy Echikę wszystkiego, czego potrzeba do rządzenia. Była asystentką ojca Echiki, naukowca [[tetsuro-yagami|Tetsuro Yagamiego]]; po jego śmierci w wypadku, zgodnie z jego ostatnią wolą, została guwernantką Echiki. Wykształcona i rozważna, zawsze łagodnie uśmiechnięta, nie wyczuwa jednak atmosfery i czasem mówi lub robi coś zupełnie nie w porę. Mimo to rozumie Echikę lepiej niż ktokolwiek i cieszy się jej bezgranicznym zaufaniem.
+
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] towarzyszy [[echika-y-franburnett|Echice]] przed przemówieniem na placu [[miasto-yagami|miasta Yagami]], żałując, że jako zwykła guwernantka nie może jej wyręczyć. Gdy w pobliżu góry Asama pojawiają się [[insector|Insectorzy]], przekazuje z sekcji informacyjnej ich kryptonim oraz meldunki o wystąpieniach na całym świecie, koordynuje obronę [[a-advent|A. Adventu]], a po walce pyta, czy rozsądnie jest przyjmować ofertę ochrony ze strony [[laboratorium-saotome|Laboratorium Saotome]].
 }}
 
 {{menu gra=srw-y

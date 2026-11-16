@@ -13,6 +13,8 @@ utworzono: 2026-11-09
 {{menu gra=srw-y
 
 Pokojówka w rezydencji Franburnettów. Kieruje zespołem mechaników, który dba o infrastrukturę rezydencji. Opiekuńcza starsza siostra, trzyma w ryzach wszystkie 99 pokojówek. Wchodzi w skład [[zaloga-asysty|załogi asysty]] [[a-advent|A. Adventu]].
+
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] z zapałem przyjmuje od [[cross-tsukinowa|Crossa Tsukinowy]] pieczę nad [[lunedrache|Lunedrache]] — choć dowiaduje się, że napęd i układy sterowania stanowią czarną skrzynkę — i pierwsza zwraca uwagę [[aytie|Aytie]] oraz [[cookie|Cookie]], że Cross znał ich imiona, sekcje i liczbę pokojówek, zanim zdążyły mu się przedstawić.
 }}
 
 {{menu gra=srw-y

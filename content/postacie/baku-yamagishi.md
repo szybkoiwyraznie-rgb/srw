@@ -16,6 +16,8 @@ utworzono: 2026-11-09
 {{menu gra=srw-y
 
 Pilot Getter Khana. Ma 22 lata. Młodszy brat Tahira, założyciela religii Zielonej Ziemi, który niegdyś pilotował Shin Getter Robota. Ma słaby dar przewidywania, lecz wie, że daleko mu do brata, i gnębi go to. Dobroduszny olbrzym. Wspiera Takumę, z którym podróżuje od dziecka, a przyjmując los związanych z Getterem, postanawia walczyć jako członek drużyny Gettera.
+
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] na placu [[miasto-yagami|miasta Yagami]] ostrzega [[takuma-nagare|Takumę]], że szósty zmysł podpowiada mu kłopoty wokół trzech gwarancji [[echika-y-franburnett|Echiki]], a potem pomaga mu zgubić [[cross-tsukinowa|Crossa Tsukinowę]] i wymknąć się pod górę Asama. Podczas ataku [[insector|Insectorów]] odnajduje lukę w sieci neuronowej zestrzelonego [[getter-d2|Gettera D2]], przełamuje jego zabezpieczenia i wsiada z Takumą do kabiny, po czym obaj przesiadają się do [[getter-arc|Getter Arca]] sprowadzonego przez [[show-kamui|Show Kamuia]], ledwie znosząc przeciążenia bez kombinezonu. Gdy w [[laboratorium-saotome|Laboratorium Saotome]] wyczuwa energię [[promienie-gettera|promieni Gettera]] wzbierającą z głębi ziemi, pierwszy postanawia zostać — i to jego decyzja przekonuje Takumę do dołączenia do drużyny przeniesionej na [[a-advent|A. Advent]].
 }}
 
 {{zrodlo gra=wspolne

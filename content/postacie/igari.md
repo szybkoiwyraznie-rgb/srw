@@ -13,4 +13,6 @@ utworzono: 2026-11-16
 {{menu gra=srw-y
 
 Dowódca zespołu obsługującego [[getter-d2|Getter D2]]. Troskliwy, cieszy się zaufaniem członków zespołu. Był pilotem rezerwowym Getter Robota, potem instruktorem, aż objął obecne stanowisko.
+
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] alarmuje [[hayato-jin|Hayato Jina]] w centrum dowodzenia [[laboratorium-saotome|Laboratorium Saotome]], by natychmiast zszedł do hangaru, gdzie [[show-kamui|Show Kamui]] i [[takuma-nagare|Takuma Nagare]] zdążyli się już pobić.
 }}

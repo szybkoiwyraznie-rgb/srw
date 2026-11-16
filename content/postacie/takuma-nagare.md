@@ -15,6 +15,8 @@ utworzono: 2026-11-09
 {{menu gra=srw-y
 
 Pilot Getter Arca. Ma 19 lat. Syn Ryomy Nagarego z pierwszej drużyny Gettera, w gorącej wodzie kąpany. Od urodzenia ma wyjątkowo wytrzymałe ciało: znosi przeciążenia przy pilotowaniu Gettera bez kombinezonu, a rany goją się na nim szybciej niż na innych. Uwielbia onigiri ze sklepu całodobowego. W dzieciństwie stracił matkę, zamordowaną przez nieznanego sprawcę; by go odnaleźć, przybywa z Baku Yamagishim do Laboratorium Saotome. Jakby wiedziony przeznaczeniem, wsiada do Getter Robota i staje do walki z wrogiem ludzkości.
+
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] ucieka z [[baku-yamagishi|Baku]] przed [[cross-tsukinowa|Crossem Tsukinową]] na placu [[miasto-yagami|miasta Yagami]], kupuje onigiri w Yuri Marcie wskazanym przez [[yomogi-asanaka|Yomogiego Asanakę]] i wymyka się pod górę Asama. Gdy Baku otwiera właz zestrzelonego [[getter-d2|Gettera D2]], Takuma zajmuje miejsce po poległym pilocie, bez kombinezonu wzmacniającego walczy z [[insector|Insectorami]], a przez monitor wykrzykuje [[hayato-jin|Hayato Jinowi]], że jest synem [[ryoma-nagare|Ryomy]]. Pod naporem [[zordo-xx|Zordo XX]] przesiada się do [[getter-arc|Getter Arca]] sprowadzonego przez [[show-kamui|Show Kamuia]] i instynktownie go prowadzi. W hangarze [[laboratorium-saotome|Laboratorium Saotome]] bije się z Kamuiem, w centrum dowodzenia pyta Jina o zabójców matki sprzed dziesięciu lat, a gdy Baku postanawia zostać za wezwaniem [[promienie-gettera|promieni Gettera]], przyjmuje stery Arca i wraz z drużyną przenosi się na [[a-advent|A. Advent]].
 }}
 
 {{zrodlo gra=wspolne
