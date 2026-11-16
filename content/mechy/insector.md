@@ -7,6 +7,8 @@ typ_mecha: inne
 gry: [srw-y]
 piloci: []
 pochodzenie: menu
+zrodla:
+  - https://en.wikipedia.org/wiki/Getter_Robo_Arc
 tagi: [srw-y, getter-robo, antagonista]
 utworzono: 2026-11-16
 w_gre:
@@ -17,6 +19,11 @@ w_gre:
 Broń wysyłana przez tajemniczego wroga Gettera. Wyłania się w niezliczonych ilościach z podprzestrzeni zwanej Stoker.
 
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] Insectorzy wyłaniają się z zakrzywionej przestrzeni w pobliżu góry Asama i uderzają prosto na [[a-advent|A. Advent]], omijając [[laboratorium-saotome|Laboratorium Saotome]]. [[annina-servania|Annina Servania]] podaje, że sekcja informacyjna odnotowała ich pojawienie się w wielu miejscach na świecie, a [[hayato-jin|Hayato Jin]] wyjaśnia później, że nadciągają z dalekich głębin kosmosu dzięki przeskokowi czasoprzestrzennemu, celują w [[getter-arc|Gettera]] i nie ma o nich żadnych danych nawet w rejestrach [[n-u-n-g|N.U.N.G.]].
+}}
+
+{{zrodlo gra=wspolne
+
+W pierwowzorze [[getter-robo-arc|*Getter Robo Arc*]] Insectorzy występują jako roje technoorganicznych, owadopodobnych najeźdźców, którzy dziewiętnaście lat po odlocie [[ryoma-nagare|Ryomy Nagare]] w Shin Getterze pustoszą Ziemię i przypuszczają kolejne ataki na [[laboratorium-saotome|Laboratorium Saotome]] ([Wikipedia, *Getter Robo Arc*](https://en.wikipedia.org/wiki/Getter_Robo_Arc); sprawdzono 2026-11-16).
 }}
 
 {{menu gra=srw-y

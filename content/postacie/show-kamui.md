@@ -7,6 +7,8 @@ rola: pilot
 mechy: [getter-arc]
 gry: [srw-y]
 pochodzenie: menu
+zrodla:
+  - https://en.wikipedia.org/wiki/Getter_Robo_Arc
 tagi: [srw-y, getter-robo, pilot]
 utworzono: 2026-11-16
 ---
@@ -15,6 +17,11 @@ utworzono: 2026-11-16
 Pilot Getter Kirika. Ma 19 lat. Pół człowiek, pół Saurianin z Imperium Dinozaurów, pokonanego niegdyś przez Getter Robota; nie wybacza nikomu drwin na ten temat. Wyglądem różni się od ludzi, a przy tym ma wytrzymałe ciało i niezwykłą sprawność. Od dziecka wychowywał go [[hayato-jin|Hayato Jin]] z [[laboratorium-saotome|Laboratorium Saotome]], szkoląc na pilota Getter Robota.
 
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] startuje z [[laboratorium-saotome|Laboratorium Saotome]] w [[getter-arc|Getter Arcu]] na rozkaz [[hayato-jin|Hayato Jina]], każe [[takuma-nagare|Takumie Nagare]] i [[baku-yamagishi|Baku Yamagishiemu]] przesiąść się z uszkodzonego [[getter-d2|Gettera D2]] i oddaje Takumie stery, ostrzegając, że bez kombinezonów wzmacniających wytrzymają najwyżej trzy minuty. Po bitwie ściera się z Takumą na pięści w hangarze, gdy ten gapi się na jego twarz, a potem zostaje wyznaczony przez Hayato na dowódcę obu chłopców przy przeniesieniu Getter Arca na [[a-advent|A. Advent]]. Na pokładzie pyta [[echika-y-franburnett|Echikę]], czy się go nie boi, i słysząc, że wita każdego bez złych zamiarów, przeprasza za napastliwość.
+}}
+
+{{zrodlo gra=wspolne
+
+W serialu [[getter-robo-arc|*Getter Robo Arc*]] głosu Sho Kamuiowi (カムイ・ショウ) użycza Arimaro Mukaino; jako hybryda człowieka i przedstawiciela Imperium Dinozaurów odznacza się wielokrotnie większą od ludzkiej siłą fizyczną oraz odpornością na [[promienie-gettera|promieniowanie Gettera]], a w trzyosobowej załodze odpowiada za nastawioną na szybkość konfigurację Getter Kirik ([Wikipedia, *Getter Robo Arc*](https://en.wikipedia.org/wiki/Getter_Robo_Arc); sprawdzono 2026-11-16).
 }}
 
 {{menu gra=srw-y

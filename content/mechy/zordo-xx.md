@@ -7,6 +7,8 @@ typ_mecha: inne
 gry: [srw-y]
 piloci: []
 pochodzenie: menu
+zrodla:
+  - https://getterrobo.fandom.com/wiki/Zordo_XX
 tagi: [srw-y, getter-robo, antagonista]
 utworzono: 2026-11-16
 w_gre:
@@ -17,6 +19,11 @@ w_gre:
 Gigantyczna broń wysłana przez tajemniczego wroga. Dolną część ciała pokrywają niezliczone macki, którymi przebija przeciwników, a z jedynego oka w górnej części strzela wiązkami. Ma tak wytrzymały pancerz, że nie imają się go ani Getter Tomahawk, ani Getter Beam.
 
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] spada z góry w pobliżu góry Asama — [[takuma-nagare|Takuma Nagare]] mówi o nim „ten wielki” — i spycha do obrony [[getter-d2|Gettera D2]], którego pilotuje Takuma z [[baku-yamagishi|Baku Yamagishim]]. Dopiero gdy [[show-kamui|Show Kamui]] przyprowadza [[getter-arc|Getter Arca]], a chłopcy przesiadają się z D2 będącego na granicy wytrzymałości, trójka pilotów wraz z [[a-advent|A. Adventem]] i [[lunedrache|Lunedrache]] rozbija napastnika.
+}}
+
+{{zrodlo gra=wspolne
+
+W mandze [[getter-robo-arc|*Getter Robo Arc*]] Zordo XX pojawia się jako pierwsza wielka broń biologiczna rzucona do szturmu na [[laboratorium-saotome|Laboratorium Saotome]]: przytłacza broniące ośrodka [[getter-d2|Gettery D2]], po czym zostaje zniszczony połączonym ogniem promieni Gettera z przejętego przez [[takuma-nagare|Takumę]] i [[baku-yamagishi|Baku]] D2 oraz nadlatującego [[getter-arc|Getter Arca]] ([Getter Robo Wiki, *Zordo XX*](https://getterrobo.fandom.com/wiki/Zordo_XX); sprawdzono 2026-11-16).
 }}
 
 {{menu gra=srw-y

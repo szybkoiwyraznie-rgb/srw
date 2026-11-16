@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-16 18:12
+
+- **Rodowód [[mobile-suit-gundam-00|*Mobile Suit Gundam 00*]], [[mobile-suit-gundam-wing|*Mobile Suit Gundam Wing*]] i [[uragan|Uragana]]** — [[setsuna-f-seiei|Setsuna F. Seiei]] nosi kryptonim nadany Soranowi Ibrahimowi z Republiki Krugis i prowadzi trzeciej generacji [[gundam-exia|Gundam Exia]] o siedmiu ostrzach i napędzie GN; [[wing-gundam-zero|XXXG-00W0 Wing Gundam Zero]] z układem ZERO System i trybem przelotowym [[wing-gundam-zero-nb|Neo Bird Mode]] wywodzi się z prac twórców Tallgeese, a [[uragan|Uragan]] służy w Assault Mobile Force [[zeon|Zeonu]] jako stały adiutant [[mquve|M'Quve'a]].
+- **Korzenie [[getter-robo-arc|*Getter Robo Arc*]] i [[ssss-dynazenon|*SSSS.Dynazenon*]]** — nazwy trzech konfiguracji [[getter-arc|Getter Arca]] wywodzą się od sanskryckich sylab nasiennych bóstw buddyjskich, [[insector|Insectorzy]] i [[zordo-xx|Zordo XX]] szturmują [[laboratorium-saotome|Laboratorium Saotome]] bronione przez [[hayato-jin|Hayato Jina]], [[shikishima|Shikishimę]], [[igari|Igariego]] i [[show-kamui|Show Kamuia]], a w [[ssss-dynazenon|*SSSS.Dynazenon*]] wokół drużyny [[gauma|Gaumy]] skupiają się [[yume-minami|Yume Minami]], [[koyomi-yamanaka|Koyomi Yamanaka]], [[chise-asukagawa|Chise Asukagawa]], [[mei|Mei]] i [[matka-yomogiego|matka Yomogiego]].
+
 ## 2026-11-16 18:04
 
 - **Losy załogi i mieszkańców [[miasto-yagami|miasta Yagami]] w [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|„Przebudzeniu niebiańskiego demona”]]** — [[echika-y-franburnett|Echika Y. Franburnett]] u boku [[annina-servania|Anniny Servanii]] ogłasza trzy gwarancje i odrzuca żądanie wydania [[a-advent|A. Adventu]]; [[cross-tsukinowa|Cross Tsukinowa]] podejmuje współpracę z [[wren|Wren]], [[aytie|Aytie]] i [[cookie|Cookie]], a na placu pod kopułą pojawiają się [[gauma|Gauma]], [[yomogi-asanaka|Yomogi Asanaka]], [[matka-yomogiego|jego matka]], [[yume-minami|Yume Minami]], [[mei|Mei]], [[koyomi-yamanaka|Koyomi Yamanaka]] i [[chise-asukagawa|Chise Asukagawa]].
