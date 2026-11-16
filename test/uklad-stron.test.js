@@ -64,27 +64,31 @@ test('renderery scen i epizodów zachowują zgodność ze starszym pełnym HTML'
   assert.match(renderEpizod(epizodSlug), /Starsza treść epizodu/);
 });
 
-test('scena: analiza, treść i wątki w lewej kolumnie, obsada i nawiązania w prawej', () => {
+test('scena: cała treść w lewej kolumnie, obsada w prawej', () => {
   const html = scena('srw-oe-ep1-black-tri-stars');
   assert.match(html, /class="uklad-strona"/);
   assert.match(html, /class="kolumna-glowna/);
   assert.match(html, /class="kolumna-boczna"/);
 
-  const [glowna, analiza, trescS, boczna, obsada, nawiazania, watki] = kolejnosc(html, [
+  const [glowna, analiza, trescS, watki, nawiazania, boczna, obsada] = kolejnosc(html, [
     'class="kolumna-glowna', 'id="sekcja-analiza"', 'id="sekcja-tresc"',
-    'class="kolumna-boczna"', 'class="panel-boczny"', 'id="sekcja-nawiazania"', 'id="sekcja-watki"',
+    'id="sekcja-watki"', 'id="sekcja-nawiazania"',
+    'class="kolumna-boczna"', 'class="panel-boczny"',
   ]);
   assert.ok(glowna < analiza && analiza < trescS, 'w lewej kolumnie analiza przed treścią');
-  // Tabela wątków ma cztery kolumny — w kolumnie bocznej przewijała się
-  // w poziomie, więc stoi w głównej, pod treścią sceny i analizą.
+  // Tabela wątków i blok nawiązań są za szerokie na pas 1/4 — przewijały się
+  // w poziomie, więc oba stoją w kolumnie głównej (decyzja 2026-11-16).
   assert.ok(trescS < watki, 'w lewej kolumnie wątki po treści sceny');
-  assert.ok(watki < boczna, 'wątki kończą lewą kolumnę, przed prawą kolumną');
-  assert.ok(boczna < obsada && obsada < nawiazania, 'w prawej kolumnie: obsada, nawiązania');
+  assert.ok(watki < nawiazania, 'w lewej kolumnie nawiązania po wątkach');
+  assert.ok(nawiazania < boczna, 'cała treść kończy się przed prawą kolumną');
+  assert.ok(boczna < obsada, 'w prawej kolumnie metryka i obsada');
 
-  // Obsada to lista linków, tak jak wcześniej na górze strony.
-  assert.match(html.slice(obsada, nawiazania), /<dt>Postacie<\/dt>/);
-  assert.match(html.slice(obsada, nawiazania), /<dt>Mechy<\/dt>/);
-  assert.match(html.slice(obsada, nawiazania), /<dt>Hasła<\/dt>/);
+  // Obsada to lista linków — jedyna rzecz w prawej kolumnie sceny.
+  const prawa = html.slice(boczna);
+  assert.match(prawa, /<dt>Postacie<\/dt>/);
+  assert.match(prawa, /<dt>Mechy<\/dt>/);
+  assert.match(prawa, /<dt>Hasła<\/dt>/);
+  assert.doesNotMatch(prawa, /id="sekcja-/, 'żadna sekcja treści nie stoi w kolumnie bocznej');
 });
 
 test('scena: każda podsekcja analizy linkuje do istniejącej kotwicy w treści', () => {

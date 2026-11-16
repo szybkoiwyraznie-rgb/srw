@@ -2,11 +2,11 @@
  * Strona sceny (ADR 0008): analiza i treść sceny w lewej kolumnie,
  * nawigacja i materiały poboczne w prawej.
  *
- * Układ jest dwukolumnowy (3/4 + 1/4), bo scena ma dwa poziomy czytania:
- * najpierw analiza, dosłowny skrypt i tabela wątków, obok — obsada i nawiązania
- * do oryginału. Podsekcje analizy prowadzą do odpowiadających im miejsc treści,
- * więc czytelnik nie szuka ich przewijaniem. Tabela wątków stoi w kolumnie
- * głównej, bo w wąskiej kolumnie bocznej przewijała się w poziomie.
+ * Kolumna główna niesie całą treść sceny w kolejności czytania: analiza,
+ * dosłowny skrypt, tabela wątków, nawiązania do oryginalnych odcinków.
+ * Podsekcje analizy prowadzą do odpowiadających im miejsc treści, więc
+ * czytelnik nie szuka ich przewijaniem. Tabele i bloki nawiązań stoją
+ * w kolumnie 3/4, bo w wąskim pasie 1/4 przewijały się w poziomie.
  *
  * Scena należy do epizodu — okruszki i nawigacja prowadzą wewnątrz epizodu
  * (poprzednia / następna scena), a lista scen na stronie epizodu powstaje
@@ -63,20 +63,17 @@ export function renderScena(slug) {
     .map((x) => `<section class="sekcja-strony" id="${x.id}">${x.html ?? ''}</section>`)
     .join('');
 
-  // „Wątki w scenie” to tabela z czterema kolumnami — w wąskiej kolumnie
-  // bocznej przewijała się w poziomie i była praktycznie nieczytelna. Od
-  // 2026-11-16 stoi w kolumnie głównej pod treścią sceny i analizą.
-  const glowneTytuly = new Set(['Treść sceny', 'Analiza', 'Wątki w scenie']);
-  const boczneTytuly = new Set(['Nawiązania do oryginalnych odcinków']);
+  // Wszystkie cztery sekcje sceny stoją w kolumnie głównej: „Wątki w scenie”
+  // to tabela z czterema kolumnami, a „Nawiązania do oryginalnych odcinków”
+  // równie szeroki blok — w pasie 1/4 przewijały się w poziomie i były
+  // nieczytelne (decyzja właściciela 2026-11-16). Kolumna boczna zostaje
+  // przy metryce i nawigacji między scenami.
+  const kolejnoscGlowna = ['Analiza', 'Treść sceny', 'Wątki w scenie', 'Nawiązania do oryginalnych odcinków'];
   const glowneSekcje = [
-    ...oTytule('Analiza'),
-    ...oTytule('Treść sceny'),
-    ...oTytule('Wątki w scenie'),
-    ...sekcje.filter((x) => !glowneTytuly.has(x.tytul) && !boczneTytuly.has(x.tytul)),
+    ...kolejnoscGlowna.flatMap((tytul) => oTytule(tytul)),
+    ...sekcje.filter((x) => !kolejnoscGlowna.includes(x.tytul)),
   ];
-  const boczneSekcje = [
-    ...oTytule('Nawiązania do oryginalnych odcinków'),
-  ];
+  const boczneSekcje = [];
 
   // Strona bez podziału na sekcje (starsze dane) nie może zniknąć — pokazujemy
   // całą treść w kolumnie głównej.
