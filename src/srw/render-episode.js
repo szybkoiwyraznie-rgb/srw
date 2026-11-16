@@ -19,6 +19,7 @@ import {
 } from './render.js';
 import { sekcjaPowiazan } from './render-entity.js';
 import { sekcjaScen } from './render-scene.js';
+import { quickMenu } from './spis-boksow.js';
 
 export function renderEpizod(slug) {
   const e = dajStrone(slug);
@@ -36,9 +37,16 @@ export function renderEpizod(slug) {
 
   // Każdy boks to własny fragment treści — streszczenie, wątki i komentarz
   // nie dzielą już jednego wspólnego tła.
-  const boksy = (e.boksy ?? []).map((b) => `<section class="sekcja-strony">
-    ${b.html}
-  </section>`).join('\n');
+  // Kotwice boksu epizodu i spis u szczytu kolumny bocznej. Boks bez nagłówka
+  // nie ma czego pokazać w spisie, więc nie dostaje sztucznego tytułu.
+  const indeksBoksow = (e.boksy ?? []).map((b, i) => ({ ...b, id: b.tytul ? `boks-epizodu-${i + 1}` : null }));
+  const sekcjeBoksow = indeksBoksow.map((b) => (b.id
+    ? `<section class="sekcja-strony" id="${b.id}">\n    ${b.html}\n  </section>`
+    : `<section class="sekcja-strony">\n    ${b.html}\n  </section>`)).join('\n');
+  const spis = quickMenu(
+    indeksBoksow.map((b) => ({ tytul: b.tytul, id: b.id })),
+    { hrefStrony: hrefDlaSlug(e.slug, 'epizod'), etykieta: 'Boksy epizodu' },
+  );
 
   return `
 <div class="naglowek-epizodu">
@@ -57,9 +65,10 @@ ${sekcjaScen(e.slug, { pelna: true })}
 
 <div class="uklad-strona">
   <div class="kolumna-glowna tresc-encja">
-    ${boksy || e.html}
+    ${sekcjeBoksow || e.html}
   </div>
   <aside class="kolumna-boczna" aria-label="Informacje o epizodzie">
+    ${spis}
     <div class="panel-boczny">
       <dl class="infoboks-lista">
         ${gra ? `<dt>Gra</dt><dd><a href="${hrefDlaSlug(gra.slug, 'gra')}">${escapeHtml(gra.tytul)}</a></dd>` : ''}

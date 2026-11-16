@@ -45,7 +45,8 @@ w grze (ADR 0012).
 ### Kotwice analizy (układ strony sceny)
 
 Strona sceny ma dwie kolumny: w lewej analiza, treść sceny, wątki i nawiązania (w tej kolejności),
-w prawej wyłącznie obsada oraz przejścia do scen sąsiednich. Aby podsekcja analizy prowadziła
+w prawej spis tych sekcji, obsada oraz przejścia do scen sąsiednich. Spis (ADR 0042) powstaje sam
+z sekcji strony — nie dopisuje się go w treści, a jego pozycje celują w gotowe kotwice. Aby podsekcja analizy prowadziła
 do swojego miejsca w treści, dopisz w frontmatterze mapę:
 
 ```yaml

@@ -178,6 +178,22 @@ p { margin: .8em 0; }
 .sekcja-strony { min-width: 0; }
 .sekcja-strony:last-child { margin-bottom: 0; }
 
+/* Quick menu: odsyłacze do boksów kolumny głównej u szczytu kolumny bocznej.
+   Wąska kolumna mieści tytuły sekcji sceny w dwóch–trzech liniach, więc lista
+   nie rozpycha układu; na telefonie kolumna boczna idzie pod treść i menu
+   zostaje tym, co prowadzi do boksu — dlatego nie chowa się przy przewijaniu. */
+.quick-menu {
+  background: var(--panel); border: 1px solid var(--ramka); border-radius: 10px;
+  padding: 12px 16px; box-shadow: var(--cien);
+}
+.quick-menu h2 {
+  margin: 0 0 .5em; font-size: .78rem; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--tusz-2);
+}
+.quick-menu ol { margin: 0; padding-left: 1.15em; display: flex; flex-direction: column; gap: 4px; }
+.quick-menu li::marker { color: var(--tusz-2); font-size: .85em; }
+.quick-menu a { font-size: .88rem; line-height: 1.35; }
+
 .panel-boczny {
   background: var(--panel); border: 1px solid var(--ramka); border-radius: 10px;
   padding: 14px 16px; box-shadow: var(--cien);
@@ -629,7 +645,9 @@ blockquote {
 /* ── Kotwice podsekcji sceny ───────────────────────────────────── */
 
 /* Nagłówek treści bywa zasłonięty przez przyklejony pasek — zostaw margines. */
-h2[id], h3[id], h4[id] { scroll-margin-top: 84px; }
+/* Kotwice boksu: nagłówki encji, sekcje sceny i boksy epizodu. Bez tego
+   sticky nagłówek zasłania tytuł boksu po przeskoku z quick menu. */
+h2[id], h3[id], h4[id], section[id] { scroll-margin-top: 84px; }
 .skok-do-tresci { color: inherit; }
 .skok-do-tresci:hover { color: var(--akcent); text-decoration: none; }
 .skok-do-tresci::after {

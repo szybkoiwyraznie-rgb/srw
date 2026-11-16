@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-16 12:15
+
+- Każda scena, [[srw-oe-ep0|epizod]] i hasło mają teraz u góry prawego pasa skróty do swoich sekcji — [[srw-oe-ep1-black-tri-stars|do analizy]], treści, wątków i nawiązań dochodzi się jednym kliknięciem, bez przewijania całej treści.
+
+
 ## 2026-11-16 10:40
 
 - Wątki scen układają się teraz w jeden porządek we wszystkich [[prolog-i-trening-w-connect|scenach prologu]], [[srw-oe-ep1-black-tri-stars|epizodu 1]], [[srw-oe-ep2-grozba-pod-ziemia|epizodu 2]] i [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|pierwszej misji Y]]: każdy motyw ma obok siebie swoje pochodzenie i odcinek pierwowzoru, a rozbieżność między grą a serialem stoi w tym samym miejscu co motyw, którego dotyczy.

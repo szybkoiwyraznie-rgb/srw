@@ -250,12 +250,16 @@ test('epizod 1: nagłówki misji prowadzą do stron scen', () => {
 
 test('epizod: streszczenie, wątki i komentarz mają osobne boksy', () => {
   const html = renderEpizod('srw-oe-ep0');
-  const boksy = [...html.matchAll(/<section class="sekcja-strony">\s*<div class="fragment[^"]*"[^>]*>\s*<div class="naglowek-fragmentu"><h2>([^<]+)<\/h2>/g)]
+  // Boks z nagłówkiem ma kotwicę `boks-epizodu-N` — spis w kolumnie bocznej
+  // prowadzi do niej odsyłaczem, więc identyfikator jest częścią kontraktu.
+  const boksy = [...html.matchAll(/<section class="sekcja-strony" id="boks-epizodu-\d+">\s*<div class="fragment[^"]*"[^>]*>\s*<div class="naglowek-fragmentu"><h2>([^<]+)<\/h2>/g)]
     .map((m) => m[1]);
   assert.deepEqual(boksy, ['Streszczenie', 'Wątki fabularne', 'Komentarz', 'Postacie i maszyny', 'Inne źródła i rozbieżności']);
 
   // Blok wiedzy bez nagłówka też jest własnym boksem — nie dokleja się do sąsiada.
   assert.equal((html.match(/class="sekcja-strony"/g) ?? []).length, 6);
+  // Boks bez tytułu nie dostaje kotwicy: nie ma czego pokazać w spisie.
+  assert.equal((html.match(/<section class="sekcja-strony" id="boks-epizodu-/g) ?? []).length, 5);
 
   // Tabela wątków ma cztery kolumny, tak jak nagłówek — pionek w wikilinku nie dzieli wiersza.
   const tabela = html.slice(html.indexOf('<table'), html.indexOf('</table>'));
@@ -284,7 +288,7 @@ test('encje: opisy gier, opis neutralny, ilustracje i parametry — w tej kolejn
     let maOpis = false;
     for (const k of kawalki) {
       const poziomGry = /poziom-(skrypt|menu)/.test(k.slice(0, 120));
-      const h2 = k.match(/<h2>([^<]+)<\/h2>/)?.[1]?.trim() ?? null;
+      const h2 = k.match(/<h2[^>]*>([^<]+)<\/h2>/)?.[1]?.trim() ?? null;
       assert.ok(!h2 || !opisowe.test(h2),
         `${p.slug}: tytuł boksu opisowego „${h2}” zastąp plakietką gry`);
       let ranga;

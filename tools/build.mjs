@@ -24,6 +24,7 @@ import { collectModules, assertNoNameCollisions, stripModuleSyntax } from './mod
 import { wczytajStrony, wczytajSkrypty, wczytajCoNowego } from './content-loader.mjs';
 import { renderMarkdown } from '../src/srw/markdown.js';
 import { podzielScene, podzielNaBoksy, zaplanujScene, kotwiceSekcji } from '../src/srw/scena-sekcje.js';
+import { kotwiceBoksow } from '../src/srw/spis-boksow.js';
 import { parseWikilinks } from '../src/srw/links.js';
 import {
   zbudujRejestr, resolverLinkow, walidujStrone, policzBacklinki, policzTagi, policzStatystyki,
@@ -125,7 +126,14 @@ export async function zbudujDane({ root = ROOT } = {}) {
   const uzyteSkrypty = new Set();
 
   for (const s of strony) {
-    const { html, problemy: mdProblemy } = renderMarkdown(s.body, { resolveLink: resolver, wymagajPoziomu: true });
+    // Nagłówki `##` dostają kotwice `boks-…`, bo spis boksu w kolumnie bocznej
+    // prowadzi do nich odsyłaczem (quick menu). Scena i epizod mają własne
+    // schematy identyfikatorów, więc ta reguła ich nie dotyczy.
+    const { html, problemy: mdProblemy } = renderMarkdown(s.body, {
+      resolveLink: resolver,
+      wymagajPoziomu: true,
+      atrybutyNaglowka: kotwiceBoksow(),
+    });
     for (const pr of mdProblemy) problemy.push(`${s.slug}: ${pr}`);
 
     const linki = new Set(parseWikilinks(s.body).map((w) => w.slug));

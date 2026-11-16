@@ -18,6 +18,7 @@ import { hrefDlaSlug, slugify } from './links.js';
 import { dajStrone, dajDane } from './data.js';
 import { linkStrony, nieZnalesc, numerEpizodu } from './render.js';
 import { sortujSceny } from './registry.js';
+import { quickMenu } from './spis-boksow.js';
 
 /** Sceny jednego epizodu w kolejności numerycznej. */
 export function scenyEpizodu(slugEpizodu) {
@@ -82,6 +83,15 @@ export function renderScena(slug) {
     : `<div class="tresc-encja">${s.html ?? ''}</div>`;
   const boczna = renderujSekcje(boczneSekcje);
 
+  // Spis boksu u szczytu kolumny bocznej: scena ma cztery sekcje w kolumnie
+  // głównej, więc czytelnik wybiera, do której chce przeskoczyć, zamiast
+  // przewijać całą treść. Stałe sekcje idą w kolejności czytania, nie
+  // w kolejności wystąpienia w pliku.
+  const spis = quickMenu(
+    glowneSekcje.map((x) => ({ tytul: x.tytul, id: x.id })),
+    { hrefStrony: hrefDlaSlug(s.slug, 'scena'), etykieta: 'Sekcje sceny' },
+  );
+
   return `
 <div class="naglowek-epizodu">
   <div class="okruszki">
@@ -100,6 +110,7 @@ export function renderScena(slug) {
     ${glowna}
   </div>
   <aside class="kolumna-boczna" aria-label="Informacje o scenie">
+    ${spis}
     <div class="panel-boczny">
       ${infoPozycje.length ? `<dl class="infoboks-lista">${infoPozycje.join('')}</dl>` : ''}
       <nav class="nawigacja-epizodow">

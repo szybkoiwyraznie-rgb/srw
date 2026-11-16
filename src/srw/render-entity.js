@@ -18,11 +18,29 @@
 import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefFiltru, hrefListy } from './links.js';
 import { dajStrone, listaStron, listaEpizodow, backlinkiStrony, odsylaczeWychodzace, dajDane } from './data.js';
+import { boksyZHtmliu, quickMenu } from './spis-boksow.js';
 import { sortujSceny } from './registry.js';
 import {
   nazwaTypu, chipsyTagow, linkStrony,
   stanPusty, nieZnalesc, naglowekStrony, numerEpizodu, KOLEJNOSC_TYPOW, odmiana,
 } from './render.js';
+
+/**
+ * Spis boksu strony encji: nagłówki `##` z treści plus listy zależne od typu
+ * („Rozegrane epizody”, „Z tej serii…”), które renderują się pod treścią jako
+ * osobne boksy. Prowadzi do nich quick menu u szczytu kolumny bocznej —
+ * o ile jest do czego prowadzić (dwa boksy i więcej).
+ */
+function spisBoksow(strona, listy) {
+  const pozycje = [
+    ...boksyZHtmliu(strona.html),
+    ...listy.map(({ typ, pozycje: p }) => ({
+      tytul: strona.typ === 'gra' ? `Rozegrane epizody (${p.length})` : `Z tej serii: ${nazwaTypu(typ, 'wiele').toLowerCase()}`,
+      id: strona.typ === 'gra' ? 'boks-epizody' : `boks-seria-${typ}`,
+    })),
+  ];
+  return quickMenu(pozycje, { hrefStrony: hrefDlaSlug(strona.slug, strona.typ) });
+}
 
 export function renderEncja(slug) {
   const strona = dajStrone(slug);
@@ -47,6 +65,7 @@ ${naglowekStrony({
     ${sekcjaListy(strona, listy)}
   </div>
   <aside class="kolumna-boczna" aria-label="Informacje o ${escapeHtml(nazwaTypu(strona.typ).toLowerCase())}">
+    ${spisBoksow(strona, listy)}
     <div class="panel-boczny">
       ${infoboks(strona)}
       ${chipsyTagow(strona.tagi)}
@@ -168,7 +187,7 @@ function wlasneListy(s) {
 function sekcjaListy(s, listy) {
   return listy.map(({ typ, pozycje }) => {
     if (s.typ === 'gra') {
-      return `<section class="blok-lista">
+      return `<section class="blok-lista" id="boks-epizody">
         <h2>Rozegrane epizody (${pozycje.length})</h2>
         <ol class="lista-epizodow">${pozycje.map((e) => `
           <li>
@@ -180,10 +199,11 @@ function sekcjaListy(s, listy) {
           </li>`).join('')}</ol>
       </section>`;
     }
-    return sekcjaPowiazan(`Z tej serii: ${nazwaTypu(typ, 'wiele').toLowerCase()}`, new Map([[typ, pozycje]]), {
-      pomijaj: [],
-      naglowkiGrup: false,
-    });
+    return `<div id="boks-seria-${typ}">${sekcjaPowiazan(
+      `Z tej serii: ${nazwaTypu(typ, 'wiele').toLowerCase()}`,
+      new Map([[typ, pozycje]]),
+      { pomijaj: [], naglowkiGrup: false },
+    )}</div>`;
   }).join('');
 }
 
