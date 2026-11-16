@@ -64,7 +64,7 @@ test('renderery scen i epizodów zachowują zgodność ze starszym pełnym HTML'
   assert.match(renderEpizod(epizodSlug), /Starsza treść epizodu/);
 });
 
-test('scena: analiza i treść w lewej kolumnie, obsada i nawiązania w prawej', () => {
+test('scena: analiza, treść i wątki w lewej kolumnie, obsada i nawiązania w prawej', () => {
   const html = scena('srw-oe-ep1-black-tri-stars');
   assert.match(html, /class="uklad-strona"/);
   assert.match(html, /class="kolumna-glowna/);
@@ -75,9 +75,11 @@ test('scena: analiza i treść w lewej kolumnie, obsada i nawiązania w prawej',
     'class="kolumna-boczna"', 'class="panel-boczny"', 'id="sekcja-nawiazania"', 'id="sekcja-watki"',
   ]);
   assert.ok(glowna < analiza && analiza < trescS, 'w lewej kolumnie analiza przed treścią');
-  assert.ok(trescS < boczna, 'prawa kolumna zaczyna się po lewej');
-  assert.ok(boczna < obsada && obsada < nawiazania && nawiazania < watki,
-    'w prawej kolumnie: obsada, nawiązania, wątki');
+  // Tabela wątków ma cztery kolumny — w kolumnie bocznej przewijała się
+  // w poziomie, więc stoi w głównej, pod treścią sceny i analizą.
+  assert.ok(trescS < watki, 'w lewej kolumnie wątki po treści sceny');
+  assert.ok(watki < boczna, 'wątki kończą lewą kolumnę, przed prawą kolumną');
+  assert.ok(boczna < obsada && obsada < nawiazania, 'w prawej kolumnie: obsada, nawiązania');
 
   // Obsada to lista linków, tak jak wcześniej na górze strony.
   assert.match(html.slice(obsada, nawiazania), /<dt>Postacie<\/dt>/);

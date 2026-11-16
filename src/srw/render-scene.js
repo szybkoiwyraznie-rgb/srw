@@ -3,9 +3,10 @@
  * nawigacja i materiały poboczne w prawej.
  *
  * Układ jest dwukolumnowy (3/4 + 1/4), bo scena ma dwa poziomy czytania:
- * najpierw analiza i dosłowny skrypt, obok — obsada, nawiązania do oryginału
- * i wątki. Podsekcje analizy prowadzą do odpowiadających im miejsc treści,
- * więc czytelnik nie szuka ich przewijaniem.
+ * najpierw analiza, dosłowny skrypt i tabela wątków, obok — obsada i nawiązania
+ * do oryginału. Podsekcje analizy prowadzą do odpowiadających im miejsc treści,
+ * więc czytelnik nie szuka ich przewijaniem. Tabela wątków stoi w kolumnie
+ * głównej, bo w wąskiej kolumnie bocznej przewijała się w poziomie.
  *
  * Scena należy do epizodu — okruszki i nawigacja prowadzą wewnątrz epizodu
  * (poprzednia / następna scena), a lista scen na stronie epizodu powstaje
@@ -62,16 +63,19 @@ export function renderScena(slug) {
     .map((x) => `<section class="sekcja-strony" id="${x.id}">${x.html ?? ''}</section>`)
     .join('');
 
-  const glowneTytuly = new Set(['Analiza', 'Treść sceny']);
-  const boczneTytuly = new Set(['Nawiązania do oryginalnych odcinków', 'Wątki w scenie']);
+  // „Wątki w scenie” to tabela z czterema kolumnami — w wąskiej kolumnie
+  // bocznej przewijała się w poziomie i była praktycznie nieczytelna. Od
+  // 2026-11-16 stoi w kolumnie głównej pod treścią sceny i analizą.
+  const glowneTytuly = new Set(['Treść sceny', 'Analiza', 'Wątki w scenie']);
+  const boczneTytuly = new Set(['Nawiązania do oryginalnych odcinków']);
   const glowneSekcje = [
     ...oTytule('Analiza'),
     ...oTytule('Treść sceny'),
+    ...oTytule('Wątki w scenie'),
     ...sekcje.filter((x) => !glowneTytuly.has(x.tytul) && !boczneTytuly.has(x.tytul)),
   ];
   const boczneSekcje = [
     ...oTytule('Nawiązania do oryginalnych odcinków'),
-    ...oTytule('Wątki w scenie'),
   ];
 
   // Strona bez podziału na sekcje (starsze dane) nie może zniknąć — pokazujemy

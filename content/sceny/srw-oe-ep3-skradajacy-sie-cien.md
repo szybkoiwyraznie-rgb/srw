@@ -293,7 +293,7 @@ Wciąż w gotowości bojowej, mobile suity stały teraz naprzeciw Connect Force.
 
 ### Cień po bitwie
 
-Misja zaczyna się tam, gdzie skończyła się poprzednia: obserwatorium na Wyspach Kurylskich jest już zniszczone, a stojące naprzeciw siebie maszyny wciąż pozostają w gotowości bojowej. [[shinobu-fujiwara|Shinobu]] chce natychmiast atakować, [[ryo-shiba|Ryo]] szuka powodu, [[sara-yuki|Sara]] odpowiada, że bez słowa nikt nie zaczyna strzelać, a [[masato-shikibu|Masato]] i [[alan-igor|Alan]] zastanawiają się, czym właściwie była placówka. [[seishiro|Seishiro]] woła przez radio i dostaje odpowiedź wykrętami.
+Misja zaczyna się tam, gdzie skończyła się poprzednia: obserwatorium na [[wyspy-kurylskie|Wyspach Kurylskich]] jest już zniszczone, a stojące naprzeciw siebie maszyny wciąż pozostają w gotowości bojowej. [[shinobu-fujiwara|Shinobu]] chce natychmiast atakować, [[ryo-shiba|Ryo]] szuka powodu, [[sara-yuki|Sara]] odpowiada, że bez słowa nikt nie zaczyna strzelać, a [[masato-shikibu|Masato]] i [[alan-igor|Alan]] zastanawiają się, czym właściwie była placówka. [[seishiro|Seishiro]] woła przez radio i dostaje odpowiedź wykrętami.
 
 ### Laboratorium Cyber-Newtype'ów
 

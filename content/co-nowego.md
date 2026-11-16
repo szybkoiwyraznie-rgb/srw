@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-16 09:05
+
+- Archipelag, na którym stoi obserwatorium [[earth-federation|Federacji]], wraca w analizie obu misji epizodu 3: [[srw-oe-ep3-interwencja-gundamow|interwencji Gundamów]] i [[srw-oe-ep3-skradajacy-sie-cien|„Skradającego się cienia”]] wiedzie stamtąd do [[wyspy-kurylskie|hasła o Wyspach Kurylskich]], wraz z losami placówki, którą zniszczyły dwa nieznane Gundamy.
+
 ## 2026-11-16 00:20
 
 - [[wyspy-kurylskie|Wyspy Kurylskie]]: archipelag na północnym Pacyfiku, który wojna między [[earth-federation|Federacją]] a [[zeon|Zeonem]] objęła strefą neutralną, a potem uczyniła terenem walki o obserwatorium [[garma-zabi|Garmy]] i o laboratorium [[cyber-newtype|Cyber-Newtype'ów]].

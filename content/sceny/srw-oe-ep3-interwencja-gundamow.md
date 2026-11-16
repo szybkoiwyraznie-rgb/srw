@@ -318,7 +318,7 @@ Kim są tajemnicze mobile suity? Przez zamarznięte śnieżne pole przebiega dre
 
 ### Neutralna strefa i obserwatorium
 
-Prolog misji wykłada sytuację prawną, w której rozegra się cała bitwa. Po wybuchu wojny między [[earth-federation|Federacją]] a [[zeon|Zeonem]] Archipelag Japoński ogłoszono strefą neutralną razem z Wyspami Kurylskimi, a na jednej z bezludnych wysp działa obserwatorium podległe bezpośrednio rządowi Federacji. Wywiad Zeonu uważa je za tajną bazę wojskową, więc [[garma-zabi|Garma Zabi]] chce uderzyć krążownikiem, ujawnić złamanie traktatu i zjednać sobie opinię publiczną — Ameryka Północna i północny Pacyfik należą przecież do strefy wpływów Zeonu, a wyspa leży w zasięgu.
+Prolog misji wykłada sytuację prawną, w której rozegra się cała bitwa. Po wybuchu wojny między [[earth-federation|Federacją]] a [[zeon|Zeonem]] Archipelag Japoński ogłoszono strefą neutralną razem z [[wyspy-kurylskie|Wyspami Kurylskimi]], a na jednej z bezludnych wysp działa obserwatorium podległe bezpośrednio rządowi Federacji. Wywiad Zeonu uważa je za tajną bazę wojskową, więc [[garma-zabi|Garma Zabi]] chce uderzyć krążownikiem, ujawnić złamanie traktatu i zjednać sobie opinię publiczną — Ameryka Północna i północny Pacyfik należą przecież do strefy wpływów Zeonu, a wyspa leży w zasięgu.
 
 Federacja przewidziała atak i poprosiła rząd Japonii o ochronę, dlatego na miejsce wysłano [[cyber-beast-force|Cyber Beast Force]] i [[connect-force|Connect Force]]. Misja zaczyna się więc od zderzenia dwóch porządków: Zeon gra prawem i propagandą, a obrońcy mają za zadanie nie dopuścić do walki w miejscu, w którym każdy strzał jest argumentem politycznym.
 
@@ -380,7 +380,7 @@ Po walce [[shinobu-fujiwara|Shinobu]] stwierdza, że wszystko się skończyło, 
 
 [[garma-zabi|Garma]] i jego okręty już się wycofały, więc obrońcy nie mają z kim walczyć — i właśnie wtedy placówka, której bronili, zostaje zniszczona w jednym ataku. [[bright-noa|Bright]] i [[alan-igor|Alan]] rozpoznają nowe Gundamy, [[himari-yaegaki|Himari]] widzi gruzy, [[kei|Kei]] i [[sara-yuki|Sara]] mówią o bezsilności, a [[gai|Gai]] zauważa, że to raczej nie [[zeon|Zeon]]. [[setsuna-f-seiei|Setsuna]] i [[heero-yuy|Heero]] nie odpowiadają na pytania, a [[alan-igor|Alan]] ostrzega, że ci dwaj są zupełnie inną ligą.
 
-Narracja zamyka misję pytaniem, kim są tajemnicze [[mobile-suit|mobile suity]], i zdaniem, że zniszczenie placówki dowodzi, iż nie było to zwykłe obserwatorium. Tym samym pierwsza misja epizodu zostawia dwie otwarte sprawy: prawdziwe przeznaczenie ośrodka na Kurylach i nowych graczy, którzy nie należą do żadnej ze stron dotychczasowej wojny.
+Narracja zamyka misję pytaniem, kim są tajemnicze [[mobile-suit|mobile suity]], i zdaniem, że zniszczenie placówki dowodzi, iż nie było to zwykłe obserwatorium. Tym samym pierwsza misja epizodu zostawia dwie otwarte sprawy: prawdziwe przeznaczenie ośrodka na [[wyspy-kurylskie|Kurylach]] i nowych graczy, którzy nie należą do żadnej ze stron dotychczasowej wojny.
 
 }}
 
