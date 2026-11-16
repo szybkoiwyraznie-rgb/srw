@@ -14,9 +14,9 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-Broń wysyłana przez tajemniczego wroga Gettera. Wyłania się w niezliczonych ilościach z podprzestrzeni zwanej Stoker. Insectorzy atakują w grupach, walczą włócznią i mieczem, a ich pojawienie się poprzedza zakrzywienie przestrzeni.
+Broń wysyłana przez tajemniczego wroga Gettera. Wyłania się w niezliczonych ilościach z podprzestrzeni zwanej Stoker. Insectorzy atakują w grupach, walczą włócznią i mieczem, a ich pojawienie się poprzedza zakrzywienie przestrzeni. Gra ma ich wśród jednostek grywalnych i daje im własną kartę pilota z Duchen „Skup.”, więc pojedynczy Insector bywa prowadzony jak każda inna maszyna.
 
-W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] pojawiają się nad [[miasto-yagami|miastem Yagami]] i nad Laboratorium Saotome; [[hayato-jin|Hayato Jin]] mówi, że celują w Gettera i że nie zna ich pochodzenia nawet N.U.N.G.
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] pojawiają się nad [[miasto-yagami|miastem Yagami]] i nad [[laboratorium-saotome|Laboratorium Saotome]]; [[hayato-jin|Hayato Jin]] mówi, że celują w Gettera i że nie zna ich pochodzenia nawet N.U.N.G.
 }}
 
 {{menu gra=srw-y

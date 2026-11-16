@@ -107,8 +107,15 @@ test('nowe jednostki zachowują parametry i uzbrojenie z dostawy', () => {
       `${slug}: parametry widoczne w treści`);
   }
   assert.deepEqual(bySlug.get('getter-arc').piloci, ['takuma-nagare', 'baku-yamagishi', 'show-kamui']);
-  assert.deepEqual(bySlug.get('insector').piloci, [], 'Insector to broń bez załogi');
-  assert.deepEqual(bySlug.get('zordo-xx').piloci, [], 'Zordo XX to broń bez załogi');
+  // Insector i Zordo XX mają w grze własne karty pilota — nie mają stałej załogi
+  // z fabuły, więc pole `piloci` zostaje puste, ale nie wolno ich nazywać
+  // „bronią bez załogi”: gra pozwala nimi dowodzić jak każdą jednostką.
+  for (const [slug, profil] of [['insector', 'Insector'], ['zordo-xx', 'Zordo XX']]) {
+    const karta = dostawa.split(`#### ${profil}\n`)[1];
+    assert.ok(karta, `${slug}: karta pilota w dostawie`);
+    assert.match(karta.slice(0, 1200), /\| SP\s+\|\s*\d+ \|/, `${slug}: karta pilota z SP`);
+    assert.deepEqual(bySlug.get(slug).piloci, [], `${slug}: brak stałej załogi`);
+  }
 });
 
 test('odświeżony rekord pary (mech, gra) obejmuje tylko maszyny z tej misji', () => {
@@ -149,4 +156,24 @@ test('nowe postacie i hasła świata trafiają do grafu epizodu', () => {
     assert.ok(bySlug.get(pilot).mechy.includes('getter-arc'), `${pilot}: Getter Arc`);
   }
   assert.ok(bySlug.get('show-kamui').mechy.includes('getter-arc'), 'show-kamui: Getter Arc');
+});
+
+test('proza o wydarzeniach gry trzyma się tego, co mówi skrypt', () => {
+  // Błąd z tej dostawy: karta Zordo XX opisywała finał walki tak, jak w mandze
+  // („wspólny atak obu maszyn”), choć gra mówi tylko, że D2 jest „na granicy
+  // wytrzymałości”, a Takuma przesiada się do Arca. Proza o grze musi mieć
+  // zaczepienie w skrypcie — inaczej opisuje pierwowzór pod etykietą gry.
+  const proza = ['insector', 'zordo-xx', 'getter-arc', 'getter-d2', 'insectorzy']
+    .map((slug) => bySlug.get(slug).body);
+  for (const fragment of proza) {
+    assert.doesNotMatch(fragment, /wspólny atak obu maszyn|oba Gettery|wspólnie niszczą/,
+      'finał walki spoza skryptu');
+    assert.doesNotMatch(fragment, /w mandze i serialu jest pierwszym potworem/,
+      'pierwowzór nie może udawać wydarzeń gry');
+  }
+  // Nazwy, których skrypt nie wymienia, wolno podać tylko z zaznaczeniem, że są spoza gry.
+  const skryptBezNazw = skrypt.replace(/\s+/g, ' ');
+  assert.ok(!skryptBezNazw.includes('Zordo'), 'skrypt nie nazywa potwora — test ma sens');
+  assert.match(bySlug.get('zordo-xx').body, /Gra ma go wśród jednostek grywalnych/,
+    'nazwa maszyny podana jako informacja o grze, nie o dialogach');
 });

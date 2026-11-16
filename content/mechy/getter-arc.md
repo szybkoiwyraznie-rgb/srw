@@ -16,7 +16,7 @@ w_gre:
 
 Czwarta generacja [[getter-robo-arc|Gettera Robo]], złożona z trzech Get Machine: Arc, Kirik i Khan. Nazywany ostatnią spuścizną doktora Saotome, byłego dyrektora Laboratorium Saotome. W porównaniu z wcześniejszymi Getterami jest stabilniejszy, oszczędniej gospodaruje energią i ma większą siłę bojową; potrafi latać z ogromną prędkością, choć przeciążenia dają się we znaki pilotom.
 
-Uzbrojenie łączy wysuwane ostrza ramion (Battle Shot Cutter), promień [[getter-robo-arc|promieni Gettera]] (Getter Beam), topór (Getter Tomahawk) i Thunder Bomber, rażący piorunami we wszystkie strony. Polecenie „Transformacja” zmienia formę maszyny i głównego pilota, nie zużywając akcji.
+Uzbrojenie łączy wysuwane ostrza ramion (Battle Shot Cutter), Getter Beam, czyli promień [[promienie-gettera|promieni Gettera]], topór (Getter Tomahawk) i Thunder Bomber, rażący piorunami we wszystkie strony. Polecenie „Transformacja” zmienia formę maszyny i głównego pilota, nie zużywając akcji.
 
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] [[takuma-nagare|Takuma Nagare]] i [[baku-yamagishi|Baku Yamagishi]] przejmują porzucony Getter D2, a potem przesiadają się do Arca pod dowództwem [[show-kamui|Kamuia]], wysłanego przez [[hayato-jin|Hayato Jina]].
 }}

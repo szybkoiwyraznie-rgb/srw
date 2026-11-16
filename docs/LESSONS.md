@@ -270,3 +270,37 @@ Zasady:
   każde zadeklarowane źródło było linkiem przy informacji w treści, i słusznie czerwienieje.
 - Test tego nie widzi: blok `{{zrodlo}}` przechodzi walidację poziomów i adresów. Rozbieżność
   wyłapuje dopiero kwerenda audytu — dlatego cytaty i numery odcinków są pierwszym celem 3a.
+
+## L24 — Proza o grze nie może opowiadać pierwowzoru (2026-11-16)
+
+Właściciel wskazał kartę Zordo XX: „Pancerz jest tak wytrzymały, że nie imają się go ani
+Getter Tomahawk, ani Getter Beam. W misji <<…>> zwraca się przeciw Getterowi D2 i Getter
+Arcowi; pokonuje go dopiero wspólny atak obu maszyn.” Pierwsze zdanie jest prawdziwe i pochodzi
+z encyklopedii gry. Drugie opisuje **mangę**: tam Getter D2 i Getter Arc rzeczywiście kończą
+potwora dwoma jednoczesnymi Getter Beamami. W grze Takuma przesiada się do Arca, bo D2 jest
+„na granicy wytrzymałości”, a o wspólnym ataku nie ma ani słowa — a samej nazwy „Zordo XX”
+skrypt nie wymienia nigdy (Takuma mówi „ten wielki”).
+
+Ten sam błąd w tej samej dostawie w trzech innych miejscach: Insectorzy „nie przypominają
+Imperium Yoma ani Imperium Dinozaurów” (skrypt mówi o Hyakki i Dinozaurach — Yoma to inna
+seria), laboratorium „kryje coś, czego nie wolno odkryć wrogowi” (skrypt: nie wolno pozwolić,
+by odkryli, co jest **pod** laboratorium), a karta Show Kamuia zaczynała się od „Pilot Getter
+Kirika” — to poprawna nazwa maszyny z tej samej serii, ale nie ta, którą pilotuje w tej misji.
+
+Do tego dwa błędy w samych testach: `assert.deepEqual(piloci, [], 'Insector to broń bez załogi')`
+i to samo dla Zordo XX. Gra daje obu jednostkom własne karty pilota (SP, Duch „Skup.”, Potencjał
+L3), więc zdanie w komunikacie było nieprawdą — test pilnował pustej tablicy i przy okazji
+utrwalał fałszywy opis w kodzie.
+
+Zasady:
+
+- **Zdanie o zachowaniu maszyny w misji musi mieć zaczepienie w skrypcie.** Jeśli skrypt mówi
+  tylko „przesiadajcie się tutaj”, to jest cała prawda o finale walki — reszta pochodzi
+  z pierwowzoru i idzie do bloku `{{zrodlo}}` z własną etykietą.
+- **Nazwa, której nie ma w dialogach, nie jest nazwą z gry.** Wolno jej użyć, ale trzeba
+  powiedzieć wprost, skąd pochodzi („w mandze i serialu to Zordo XX”) i nie przypisywać jej
+  wypowiedziom.
+- **Komunikat asercji to też twierdzenie.** `'broń bez załogi'` w `assert` jest zdaniem
+  opublikowanym w kodzie i w raporcie testów; musi być prawdziwy tak samo jak proza.
+- Test `proza o wydarzeniach gry trzyma się tego, co mówi skrypt` w `test/epizod-y-misja-2a.test.js`
+  pilnuje finału walki i nazwy potwora. Kolejna dostawa powinna dostać własny odpowiednik.

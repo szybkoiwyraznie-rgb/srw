@@ -12,7 +12,7 @@ utworzono: 2026-11-16
 ---
 {{menu gra=srw-y
 
-Pilot [[getter-arc|Getter Kirika]]. Ma 19 lat. Pół człowiek, pół Saurianin z Imperium Dinozaurów, pokonanego niegdyś przez Getter Robota; nie wybacza nikomu drwin na ten temat. Wyglądem różni się od ludzi, a przy tym ma wytrzymałe ciało i niezwykłą sprawność. Od dziecka wychowywał go [[hayato-jin|Hayato Jin]] z [[laboratorium-saotome|Laboratorium Saotome]], szkoląc na pilota Getter Robota.
+Pilot [[getter-arc|Getter Arca]], maszyny, którą w misji „Przebudzenie niebiańskiego demona” sprowadza do walki na rozkaz [[hayato-jin|Hayato Jina]]. Ma 19 lat. Pół człowiek, pół Saurianin z Imperium Dinozaurów, pokonanego niegdyś przez Getter Robota; nie wybacza nikomu drwin na ten temat. Wyglądem różni się od ludzi, a przy tym ma wytrzymałe ciało i niezwykłą sprawność. Od dziecka wychowywał go Hayato z [[laboratorium-saotome|Laboratorium Saotome]], szkoląc na pilota Getter Robota.
 }}
 
 {{menu gra=srw-y

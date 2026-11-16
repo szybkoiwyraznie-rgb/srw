@@ -4,7 +4,7 @@ slug: srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona
 tytul: "Przebudzenie niebiańskiego demona"
 epizod: srw-y-ep1
 numer_sceny: 1-2A
-streszczenie: "Druga misja epizodu: Cross przejmuje opiekę nad Echiką i jej Lunedrache, Echika ogłasza mieszkańcom miasta Yagami trzy gwarancje, a Takuma Nagare z Baku Yamagishim wsiadają do Getter Arca, którego broni Laboratorium Saotome przed Insectorami i Zordo XX."
+streszczenie: "Druga misja epizodu: Cross przejmuje opiekę nad Echiką i jej Lunedrache, Echika ogłasza mieszkańcom miasta Yagami trzy gwarancje, a Takuma Nagare z Baku Yamagishim przejmują porzuconego Gettera D2 i wsiadają do Getter Arca, którym odpierają atak Insectorów i wielkiego potwora na Laboratorium Saotome."
 postacie: [annina-servania, baku-yamagishi, chise-asukagawa, echika-y-franburnett, gauma, cross-tsukinowa, takuma-nagare, yomogi-asanaka, yume-minami, aytie, cookie, wren, show-kamui, koyomi-yamanaka, hayato-jin, shikishima, igari, mei, matka-yomogiego]
 mechy: [a-advent, getter-arc, insector, lunedrache, zordo-xx]
 sekcje_analizy:
@@ -650,7 +650,7 @@ Gra zachowuje kolejność wydarzeń: Takuma i Baku docierają do laboratorium, p
 
 Drugim pierwowzorem są postacie z *[[ssss-dynazenon|SSSS.DYNAZENON]]*: [[yomogi-asanaka|Yomogi]], [[yume-minami|Yume]], [[koyomi-yamanaka|Koyomi]] i [[chise-asukagawa|Chise]] stoją w tłumie na placu miejskim i rozmawiają o mieście tak, jak w **pierwszym odcinku** serialu „Co to za poskramiacz kaiju?” (怪獣使いって、なに？, emisja 2 kwietnia 2021) mówili o zagrożeniu kaiju ([Wikipedia, „List of SSSS.Dynazenon episodes”](https://en.wikipedia.org/wiki/List_of_SSSS.Dynazenon_episodes); sprawdzono 2026-11-16). [[mei|Mei]] wypomina [[yume-minami|Yume]] chłopaka z drugiej klasy, [[gauma|Gauma]] wpada na Crossa na placu, a [[yomogi-asanaka|Yomogi]] wspomina matce wojnę rewolucyjną — w serialu te postaci dopiero poznają się w dniu pojawienia się kaiju. Gra przenosi je więc do świata po wojnie rewolucyjnej, a walkę z kaiju zastępuje walka z Insectorami.
 
-[[zordo-xx|Zordo XX]] należy do wątku Gettera, nie Dynazenona: w mandze i serialu jest pierwszym potworem Wyspy Andromedy, który atakuje Laboratorium Saotome i którego pancerz wytrzymuje wiązki Gettera ([Getter Robo Wiki, „Zordo XX”](https://getterrobo.fandom.com/wiki/Zordo_XX); sprawdzono 2026-11-16). Gra zachowuje ten opis, ale wstawia go w miejsce kaiju z Dynazenona.
+[[zordo-xx|Zordo XX]] należy do wątku Gettera, nie Dynazenona: w mandze i serialu jest pierwszym potworem Wyspy Andromedy, który atakuje Laboratorium Saotome i którego pancerz wytrzymuje wiązki Gettera ([Getter Robo Wiki, „Zordo XX”](https://getterrobo.fandom.com/wiki/Zordo_XX); sprawdzono 2026-11-16). Gra bierze potwora z tego wątku w miejsce kaiju z Dynazenona, ale nie nazywa go w dialogach — Takuma mówi o nim „ten wielki”, choć jego pancerz zachowuje się tak, jak opisuje encyklopedia gry.
 
 }}
 
@@ -661,7 +661,7 @@ Drugim pierwowzorem są postacie z *[[ssss-dynazenon|SSSS.DYNAZENON]]*: [[yomogi
 | Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
 |---|---|---|---|
 | **Porzucony Getter D2 i przejęcie Getter Arca.** [[takuma-nagare\|Takuma]] i [[baku-yamagishi\|Baku]] przełamują zabezpieczenia D2, walczą z robactwem i przesiadają się do Arca pod dowództwem [[show-kamui\|Kamuia]]. | [[getter-robo-arc\|Getter Robo Arc]] | odc. 1 „The Demon on High” | Gra zachowuje kolejność wydarzeń odcinka, ale rozgrywa je po spotkaniu z załogą A. Adventu i wplata wątek rządu Japonii. |
-| **Zordo XX atakuje Laboratorium Saotome.** Pancerz potwora wytrzymuje Getter Tomahawk i Getter Beam, a walkę kończą dwie maszyny Gettera. | [[getter-robo-arc\|Getter Robo Arc]] | odc. 1 „The Demon on High” | Potwór jest w scenie jednym z celów misji; gra nie pokazuje zniszczenia laboratorium z oryginału. |
+| **Wielki potwór nadciąga z góry.** Pancerz wytrzymuje Getter Tomahawk i Getter Beam, a pokonuje go dopiero [[getter-arc\|Getter Arc]] po przesiadce [[takuma-nagare\|Takumy]] z uszkodzonego D2. | [[getter-robo-arc\|Getter Robo Arc]] | odc. 1 „The Demon on High” | W mandze i serialu to Zordo XX, pierwszy potwór Wyspy Andromedy; gra nie wymienia jego nazwy w dialogach i nie pokazuje zniszczenia laboratorium. |
 | **Krew Ryomy i promienie Gettera.** [[hayato-jin\|Hayato]] rozpoznaje w Takumie syna dawnego towarzysza, a [[shikishima\|Shikishima]] tłumaczy, dlaczego chłopiec interesował nieznanych napastników. | [[getter-robo-arc\|Getter Robo Arc]] | odc. 1 „The Demon on High” | Serial prowadzi ten wątek przez całą serię; gra zamyka go w jednej rozmowie i czyni z niego powód, dla którego Takuma zostaje. |
 | **Miasto w kopule i trzy gwarancje.** [[echika-y-franburnett\|Echika]] odmawia rządowi Japonii i obiecuje mieszkańcom mieszkanie, bezpieczeństwo i energię. | [[srw-y\|Super Robot Wars Y]] | n/d | Autorska oś gry; wątek przejęcia okrętu i losu burmistrza nie mają odpowiednika w żadnej z serii. |
 | **Bohaterowie Dynazenona w tłumie.** [[yomogi-asanaka\|Yomogi]], [[yume-minami\|Yume]], [[mei\|Mei]], [[koyomi-yamanaka\|Koyomi]] i [[chise-asukagawa\|Chise]] rozmawiają o mieście przed własną walką. | [[ssss-dynazenon\|SSSS.DYNAZENON]] | odc. 1 „What Is a Kaiju User?” | W serialu postaci poznają się w dniu pojawienia się kaiju; gra stawia je w tłumie po wojnie rewolucyjnej i zamienia kaiju na Insectorów. |

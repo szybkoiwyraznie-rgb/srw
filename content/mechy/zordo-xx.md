@@ -14,9 +14,9 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-Gigantyczna broń wysłana przez tajemniczego wroga. Dolną część ciała pokrywają niezliczone macki, którymi przebija przeciwników, a z jedynego oka w górnej części strzela wiązkami. Pancerz jest tak wytrzymały, że nie imają się go ani Getter Tomahawk, ani Getter Beam.
+Gigantyczna broń wysłana przez tajemniczego wroga. Dolną część ciała pokrywają niezliczone macki, którymi przebija przeciwników, a z jedynego oka w górnej części strzela wiązkami. Ma tak wytrzymały pancerz, że nie imają się go ani Getter Tomahawk, ani Getter Beam.
 
-W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] zwraca się przeciw Getterowi D2 i Getter Arcowi; pokonuje go dopiero wspólny atak obu maszyn.
+W [[srw-y|Super Robot Wars Y]] walczy w misji „Przebudzenie niebiańskiego demona” jako „ten wielki”: spada z góry na Gettera D2, którym pilotuje [[takuma-nagare|Takuma]], i bierze górę, dopóki [[show-kamui|Kamui]] nie sprowadza [[getter-arc|Getter Arca]]. Gra ma go wśród jednostek grywalnych i daje mu własną kartę pilota, więc nie jest wyłącznie wrogim celem na mapie.
 }}
 
 {{menu gra=srw-y
