@@ -2,25 +2,18 @@
 
 ## 2026-11-16 14:20
 
-- Druga misja [[srw-y-ep1|epizodu 1]] SRW Y — [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|„Przebudzenie niebiańskiego demona”]] — rozgrywa się od przejęcia warty nad [[a-advent|A. Adventem]], przez upadek [[getter-d2|Gettera D2]] w [[miasto-yagami|mieście Yagami]], po przeniesienie na pokład okrętu. [[takuma-nagare|Takuma Nagare]] dowiaduje się tam, kim był jego ojciec [[ryoma-nagare|Ryoma]], a [[show-kamui|Show Kamui]] przyprowadza [[getter-arc|Gettera Arca]].
-- [[getter-arc|Getter Arc]], [[insector|Insector]] i [[zordo-xx|Zordo XX]] mają teraz swoje miejsce w bazie, z uzbrojeniem i osiągami wprost z gry; [[a-advent|A. Advent]] i [[lunedrache|Lunedrache]] zyskują to, co przyniosła nowa misja — kolejną broń i zdolność „Łącze energii”.
-- Do obsady dochodzi dziewiątka twarzy, wśród nich [[yume-minami|Yume Minami]], [[koyomi-yamanaka|Koyomi Yamanaka]] i [[chise-asukagawa|Chise Asukagawa]] z [[ssss-dynazenon|SSSS.DYNAZENON]], a świat wokół Getterów opisują [[laboratorium-saotome|Laboratorium Saotome]], [[getter-d2|Getter D2]], [[promienie-gettera|promienie Gettera]], [[insectorzy|Insectorzy]], [[n-u-n-g|N-U-N-G]], [[ryoma-nagare|Ryoma Nagare]] i [[doktor-saotome|doktor Saotome]].
-
-
-## 2026-11-16 12:15
-
-- Każda scena, [[srw-oe-ep0|epizod]] i hasło mają teraz u góry prawego pasa skróty do swoich sekcji — [[srw-oe-ep1-black-tri-stars|do analizy]], treści, wątków i nawiązań dochodzi się jednym kliknięciem, bez przewijania całej treści.
+- Druga misja [[srw-y-ep1|epizodu 1]] SRW Y — [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|„Przebudzenie niebiańskiego demona”]] — zaczyna się od przejęcia warty nad [[a-advent|A. Adventem]], prowadzi przez upadek [[getter-d2|Gettera D2]] na zboczu góry Asama i walkę z [[zordo-xx|Zordo XX]], a kończy przeniesieniem na pokład okrętu. [[takuma-nagare|Takuma Nagare]] słyszy tam od [[hayato-jin|Hayato Jina]], kim był jego ojciec, [[ryoma-nagare|Ryoma]], a [[show-kamui|Show Kamui]] przyprowadza [[getter-arc|Gettera Arca]].
+- [[getter-arc|Getter Arc]], [[insector|Insector]] i [[zordo-xx|Zordo XX]] wchodzą do wspólnej historii z własnym uzbrojeniem i osiągami; [[a-advent|A. Advent]] i [[lunedrache|Lunedrache]] pokazują przy tym, czego nabrały w tej walce — kolejne działo i zdolność „Łącze energii”.
+- W mieście i na placu stają obok siebie uczniowie z Fujiyokidai: [[yume-minami|Yume Minami]], [[koyomi-yamanaka|Koyomi Yamanaka]] i [[chise-asukagawa|Chise Asukagawa]] z [[ssss-dynazenon|SSSS.DYNAZENON]]. Świat wokół Getterów domykają [[laboratorium-saotome|Laboratorium Saotome]], [[getter-d2|Getter D2]], [[promienie-gettera|promienie Gettera]], [[insectorzy|Insectorzy]], [[n-u-n-g|N-U-N-G]], [[ryoma-nagare|Ryoma Nagare]] i [[doktor-saotome|doktor Saotome]].
 
 
 ## 2026-11-16 10:40
 
-- Wątki scen układają się teraz w jeden porządek we wszystkich [[prolog-i-trening-w-connect|scenach prologu]], [[srw-oe-ep1-black-tri-stars|epizodu 1]], [[srw-oe-ep2-grozba-pod-ziemia|epizodu 2]] i [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|pierwszej misji Y]]: każdy motyw ma obok siebie swoje pochodzenie i odcinek pierwowzoru, a rozbieżność między grą a serialem stoi w tym samym miejscu co motyw, którego dotyczy.
-- Rozdzielone zostały wątki, które wcześniej trafiały pod jedno zbiorcze zdanie: ćwiczenia wojska, policji i Connect na [[poligon-fuji|poligonie Fuji]] należą teraz osobno do [[mobile-police-patlabor|Patlabora]] i osobno do autorskiego wkładu gry, podobnie desant [[zeon|Zeonu]] na [[jaburo|Jaburo]] wobec [[mobile-suit-gundam-08th-ms-team|08. Plutonu MS]] i [[mobile-suit-gundam-1979|pierwszego Gundama]].
-
+- Ćwiczenia wojska, policji i Connect na [[poligon-fuji|poligonie Fuji]] należą do [[mobile-police-patlabor|Patlabora]], a nie do autorskiego wkładu gry — podobnie desant [[zeon|Zeonu]] na [[jaburo|Jaburo]] trzeba czytać razem z [[mobile-suit-gundam-08th-ms-team|08. Plutonem MS]] i [[mobile-suit-gundam-1979|pierwszym Gundamem]], bo każde z tych źródeł mówi o tym starciu co innego.
 
 ## 2026-11-16 09:05
 
-- Archipelag, na którym stoi obserwatorium [[earth-federation|Federacji]], wraca w analizie obu misji epizodu 3: [[srw-oe-ep3-interwencja-gundamow|interwencji Gundamów]] i [[srw-oe-ep3-skradajacy-sie-cien|„Skradającego się cienia”]] wiedzie stamtąd do [[wyspy-kurylskie|hasła o Wyspach Kurylskich]], wraz z losami placówki, którą zniszczyły dwa nieznane Gundamy.
+- Dwa nieznane Gundamy niszczą obserwatorium [[earth-federation|Federacji]] na Wyspach Kurylskich — archipelagu, który [[srw-oe-ep3-interwencja-gundamow|interwencja Gundamów]] i [[srw-oe-ep3-skradajacy-sie-cien|„Skradający się cień”]] pokazują z dwóch stron, a hasło [[wyspy-kurylskie|Wyspy Kurylskie]] opisuje jako całość.
 
 ## 2026-11-16 00:20
 
@@ -32,7 +25,7 @@
 
 ## 2026-11-15 23:30
 
-- [[sayla-mass|Sayla]], [[fraw-bow|Fraw Bow]] i [[mirai-yashima|Mirai]] mają w bazie własne tło z pierwowzoru: Sayla trafia na [[white-base|White Base]] jako studentka medycyny i z braku doświadczonej załogi zostaje oficerem łączności, a potem pilotką; Mirai obejmuje ster dzięki szkoleniu na pilota szybowców i staje się zastępczynią [[bright-noa|Brighta]]; Fraw Bow opiekuje się [[amuro-ray|Amurem]] i trójką dzieci z [[side-7|Side 7]], a wojnę kończy jako oficer łączności okrętu.
+- [[sayla-mass|Sayla]], [[fraw-bow|Fraw Bow]] i [[mirai-yashima|Mirai]] zyskują tło z pierwowzoru: Sayla trafia na [[white-base|White Base]] jako studentka medycyny i z braku doświadczonej załogi zostaje oficerem łączności, a potem pilotką; Mirai obejmuje ster dzięki szkoleniu na pilota szybowców i staje się zastępczynią [[bright-noa|Brighta]]; Fraw Bow opiekuje się [[amuro-ray|Amurem]] i trójką dzieci z [[side-7|Side 7]], a wojnę kończy jako oficer łączności okrętu.
 
 ## 2026-11-15 23:10
 
@@ -163,7 +156,7 @@
 ## 2026-11-11 17:30
 
 - W *Endless Waltz* nazwę [[altron-gundam|Altron]] wywodzi się z chińskiego *ertou long* — „dwugłowy smok” — od pary smoczych szponów Dragon Fang; „Nataku” to imię, którym [[chang-wufei|Chang Wufei]] nazywa swoją maszynę.
-- [[srw-y|Super Robot Wars Y]] reprezentują w bazie [[chang-wufei|Chang Wufei]] z [[altron-gundam|Altronem Gundamem]] i [[mobile-doll|Mobile Dollami]] na [[taurus|Taurusach]], [[takuma-nagare|Takuma Nagare]] z [[baku-yamagishi|Baku Yamagishim]] ze świata [[getter-robo-arc|*Getter Robo Arc*]], [[gauma|Gauma]] i [[yomogi-asanaka|Yomogi Asanaka]] z [[ssss-dynazenon|*SSSS.DYNAZENON*]] oraz prowadzone przez [[zaawansowana-si|Zaawansowaną SI]] [[amx-003-gaza-c|AMX-003 Gaza C]] z [[mobile-suit-z-gundam|*Zeta Gundam*]] i [[zamza-zah|Zamza-Zah]] z [[mobile-suit-gundam-seed-destiny|*SEED Destiny*]].
+- [[srw-y|Super Robot Wars Y]] reprezentują [[chang-wufei|Chang Wufei]] z [[altron-gundam|Altronem Gundamem]] i [[mobile-doll|Mobile Dollami]] na [[taurus|Taurusach]], [[takuma-nagare|Takuma Nagare]] z [[baku-yamagishi|Baku Yamagishim]] ze świata [[getter-robo-arc|*Getter Robo Arc*]], [[gauma|Gauma]] i [[yomogi-asanaka|Yomogi Asanaka]] z [[ssss-dynazenon|*SSSS.DYNAZENON*]] oraz prowadzone przez [[zaawansowana-si|Zaawansowaną SI]] [[amx-003-gaza-c|AMX-003 Gaza C]] z [[mobile-suit-z-gundam|*Zeta Gundam*]] i [[zamza-zah|Zamza-Zah]] z [[mobile-suit-gundam-seed-destiny|*SEED Destiny*]].
 
 ## 2026-11-10 23:59
 

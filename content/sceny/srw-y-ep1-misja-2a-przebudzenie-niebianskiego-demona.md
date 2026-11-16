@@ -612,7 +612,7 @@ W Yuri Marcie poznajemy [[takuma-nagare|Takumę]] od strony, którą zapowiedzia
 
 W Laboratorium Saotome [[hayato-jin|Hayato]] i [[shikishima|Shikishima]] prowadzą walkę w ciemno: oddział D2 melduje kontakt, ale celem robactwa jest okręt, nie laboratorium. Hayato wysyła D2 do walki, choć w strefie są cywile.
 
-[[takuma-nagare|Takuma]] i [[baku-yamagishi|Baku]] przejmują porzuconego Gettera D2, przełamując zabezpieczenia przez sieć neuronową, która stawia dopasowanie do pilota ponad wszystko inne. To pierwszy raz, gdy [[getter-arc|Getter Arc]] pojawia się jako maszyna, którą można zdobyć siłą — i pierwszy, gdy Takuma nazywa się synem [[takuma-nagare|Ryomy]].
+[[takuma-nagare|Takuma]] i [[baku-yamagishi|Baku]] przejmują porzuconego Gettera D2, przełamując zabezpieczenia przez sieć neuronową, która stawia dopasowanie do pilota ponad wszystko inne. To pierwszy raz, gdy [[getter-arc|Getter Arc]] pojawia się jako maszyna, którą można zdobyć siłą — i pierwszy, gdy Takuma nazywa się synem [[ryoma-nagare|Ryomy]].
 
 ### Syn Ryomy
 
@@ -644,7 +644,7 @@ Scena domyka obieg zaufania: [[echika-y-franburnett|Echika]] dziękuje za pomoc,
 
 ## Nawiązania do oryginalnych odcinków
 
-Wydarzenia z tej sceny — porzucony [[getter-arc|Getter D2]] na zboczu, walka z [[zordo-xx|Zordo XX]], przełamanie zabezpieczeń D2 przez [[baku-yamagishi|Baku]], przesiadka do [[getter-arc|Getter Arca]] i [[show-kamui|Kamui]] w roli pilota wysłanego przez [[hayato-jin|Hayato Jina]] — nawiązują do **pierwszego odcinka** serialu *[[getter-robo-arc|Getter Robo Arc]]* z 2021 roku, zatytułowanego 天の鬼 („The Demon on High”, emisja 4 lipca 2021). Tytuł misji „Przebudzenie niebiańskiego demona” jest przekładem tego tytułu, a wymienione wydarzenia to trzon odcinka ([Getter Robo Wiki, „The Demon on High”](https://getterrobo.fandom.com/wiki/The_Demon_on_High); sprawdzono 2026-11-16).
+Wydarzenia z tej sceny — porzucony [[getter-d2|Getter D2]] na zboczu, walka z [[zordo-xx|Zordo XX]], przełamanie zabezpieczeń D2 przez [[baku-yamagishi|Baku]], przesiadka do [[getter-arc|Getter Arca]] i [[show-kamui|Kamui]] w roli pilota wysłanego przez [[hayato-jin|Hayato Jina]] — nawiązują do **pierwszego odcinka** serialu *[[getter-robo-arc|Getter Robo Arc]]* z 2021 roku, zatytułowanego 天の鬼 („The Demon on High”, emisja 4 lipca 2021). Tytuł misji „Przebudzenie niebiańskiego demona” jest przekładem tego tytułu, a wymienione wydarzenia to trzon odcinka ([Getter Robo Wiki, „The Demon on High”](https://getterrobo.fandom.com/wiki/The_Demon_on_High); sprawdzono 2026-11-16).
 
 Gra zachowuje kolejność wydarzeń: Takuma i Baku docierają do laboratorium, przejmują D2, walczą z potworem i otrzymują Arc. Zmienia natomiast okoliczności: w serialu Jina poznajemy w laboratorium na górze Asama w chwili, gdy walka z nowym wrogiem toczy się w tajemnicy, a cały odcinek rozgrywa się w drodze do laboratorium i w nim samym. W grze [[takuma-nagare|Takuma]] i Baku najpierw trafiają na pokład A. Adventu i do miasta Yagami, gdzie słuchają trzech gwarancji [[echika-y-franburnett|Echiki]], a [[cross-tsukinowa|Cross]], [[wren|Wren]], [[aytie|Aytie]] i [[cookie|Cookie]] dostają własne sceny na okręcie. Gra dodaje też wątek rządu Japonii, który chce przejąć A. Advent, i powierza Getter Arc załodze okrętu, czego w serialu nie ma.
 
