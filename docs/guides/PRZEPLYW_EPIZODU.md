@@ -44,8 +44,9 @@ w grze (ADR 0012).
 
 ### Kotwice analizy (układ strony sceny)
 
-Strona sceny ma dwie kolumny: w lewej analiza i treść sceny, w prawej obsada, nawiązania i wątki.
-Aby podsekcja analizy prowadziła do swojego miejsca w treści, dopisz w frontmatterze mapę:
+Strona sceny ma dwie kolumny: w lewej analiza, treść sceny, wątki i nawiązania (w tej kolejności),
+w prawej wyłącznie obsada oraz przejścia do scen sąsiednich. Aby podsekcja analizy prowadziła
+do swojego miejsca w treści, dopisz w frontmatterze mapę:
 
 ```yaml
 sekcje_analizy:
@@ -60,8 +61,14 @@ build — mapa nie zgaduje. Scena bez podsekcji w analizie mapy nie potrzebuje.
 Każda scena ma w analizie tyle podsekcji, ile jest etapów w jej treści — także scena z prologu,
 której treść stoi w całości w bloku `:::skrypt`. Dzięki temu czytelnik przechodzi z analizy wprost
 do opisywanego miejsca skryptu. Dodatkowe sekcje `##` są dozwolone zgodnie z ADR 0006: renderer
-zachowuje wszystkie wystąpienia, a sekcje inne niż boczne nawiązania i wątki pokazuje w kolumnie
-głównej.
+zachowuje wszystkie wystąpienia i pokazuje je w kolumnie głównej, pod czterema stałymi sekcjami.
+
+### Wątki w scenie
+
+„Wątki w scenie” mają w każdej scenie ten sam kształt: tabelę o czterech kolumnach — `Motyw w scenie`,
+`Źródło`, `Odcinek w źródle`, `Różnice`. Kolumna `Odcinek w źródle` przyjmuje `odc. N „Tytuł”`,
+`cała seria` albo `n/d`; przy `n/d` źródłem jest sama gra. Układ jest zgodny z tabelą „Wątki
+fabularne” epizodu (ADR 0031), a pilnuje go `test/watki-scen.test.js`.
 
 ### Boksy strony epizodu
 

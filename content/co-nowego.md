@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-16 10:40
+
+- Wątki scen układają się teraz w jeden porządek we wszystkich [[prolog-i-trening-w-connect|scenach prologu]], [[srw-oe-ep1-black-tri-stars|epizodu 1]], [[srw-oe-ep2-grozba-pod-ziemia|epizodu 2]] i [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|pierwszej misji Y]]: każdy motyw ma obok siebie swoje pochodzenie i odcinek pierwowzoru, a rozbieżność między grą a serialem stoi w tym samym miejscu co motyw, którego dotyczy.
+- Rozdzielone zostały wątki, które wcześniej trafiały pod jedno zbiorcze zdanie: ćwiczenia wojska, policji i Connect na [[poligon-fuji|poligonie Fuji]] należą teraz osobno do [[mobile-police-patlabor|Patlabora]] i osobno do autorskiego wkładu gry, podobnie desant [[zeon|Zeonu]] na [[jaburo|Jaburo]] wobec [[mobile-suit-gundam-08th-ms-team|08. Plutonu MS]] i [[mobile-suit-gundam-1979|pierwszego Gundama]].
+
+
 ## 2026-11-16 09:05
 
 - Archipelag, na którym stoi obserwatorium [[earth-federation|Federacji]], wraca w analizie obu misji epizodu 3: [[srw-oe-ep3-interwencja-gundamow|interwencji Gundamów]] i [[srw-oe-ep3-skradajacy-sie-cien|„Skradającego się cienia”]] wiedzie stamtąd do [[wyspy-kurylskie|hasła o Wyspach Kurylskich]], wraz z losami placówki, którą zniszczyły dwa nieznane Gundamy.

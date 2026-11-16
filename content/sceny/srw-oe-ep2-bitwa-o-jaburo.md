@@ -285,10 +285,12 @@ W oryginale [[white-base|White Base]] dociera do kwatery głównej w Jaburo, a [
 
 ## Wątki w scenie
 
-- **Obrona wąskiego gardła.** Cała bitwa rozgrywa się wokół bram portu: dopóki stoją, doki [[white-base|White Base]] są bezpieczne.
-- **Współdziałanie dwóch oddziałów.** Załoga okrętu i [[08-pluton-ms|08. Pluton MS]] poznają się dopiero w walce; [[shiro-amada|Shiro]] dowodzi, a [[bright-noa|Bright]] tylko zatwierdza jego decyzje.
-- **Char jako probierz siły.** Kolejne wymiany zdań pokazują, że [[earth-federation|Federacja]] wystawia już maszyny seryjne zdolne stawić czoła asowi [[zeon|Zeonu]].
-- **Odpowiedzialność za ludzi.** Shiro walczy, by chronić towarzyszy, a nie dla sławy; ten sam motyw wraca w jego dialogu z [[char-aznable|Charem]].
-- **Następny etap wojny.** Ocalony port przesądza, że główne siły Federacji będą mogły ruszyć w kosmos — misja kończy się przygotowaniem do dalszych operacji.
-- **Zeon zmienia strategię.** Po nieudanym desancie Zeon porzuca obronę linii na Ziemi na rzecz wojny partyzanckiej i przestawia wysiłek na kosmos, gdzie szykuje odpowiedź na przewagę materiałową Federacji.
+| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| **Obrona wąskiego gardła.** Cała bitwa rozgrywa się wokół bram portu: dopóki stoją, doki [[white-base\|White Base]] są bezpieczne. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 29 „Tragedy in Jaburo” | Oryginał pokazuje zmasowany atak Zeonu na kwaterę główną; gra przenosi ciężar walki na obronę bram portu kosmicznego. |
+| **Współdziałanie dwóch oddziałów.** Załoga okrętu i [[08-pluton-ms\|08. Pluton MS]] poznają się dopiero w walce; [[shiro-amada\|Shiro]] dowodzi, a [[bright-noa\|Bright]] tylko zatwierdza jego decyzje. | [[mobile-suit-gundam-08th-ms-team\|Mobile Suit Gundam: The 08th MS Team]] | cała seria | W OVA pluton Shiro Amady działa osobno; gra spotyka oba oddziały po raz pierwszy dopiero pod Jaburo. |
+| **Char jako probierz siły.** Kolejne wymiany zdań pokazują, że [[earth-federation\|Federacja]] wystawia już maszyny seryjne zdolne stawić czoła asowi [[zeon\|Zeonu]]. | [[srw-oe\|Super Robot Wars OE]] | n/d | Wymiany zdań Amura, Shiro, Karen, Sandersa, Sayli i Kaia z Charem należą do autorskiego scenariusza gry. |
+| **Odpowiedzialność za ludzi.** Shiro walczy, by chronić towarzyszy, a nie dla sławy; ten sam motyw wraca w jego dialogu z [[char-aznable\|Charem]]. | [[mobile-suit-gundam-08th-ms-team\|Mobile Suit Gundam: The 08th MS Team]] | cała seria | Motyw odpowiedzialności za podwładnych jest stały w OVA; rozmowę z Charem dopisuje gra. |
+| **Następny etap wojny.** Ocalony port przesądza, że główne siły Federacji będą mogły ruszyć w kosmos — misja kończy się przygotowaniem do dalszych operacji. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 29 „Tragedy in Jaburo” | Skutek strategiczny jest wspólny; w grze obrona portu jest warunkiem przejścia do kolejnych misji. |
+| **Zeon zmienia strategię.** Po nieudanym desancie Zeon porzuca obronę linii na Ziemi na rzecz wojny partyzanckiej i przestawia wysiłek na kosmos, gdzie szykuje odpowiedź na przewagę materiałową Federacji. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 29 „Tragedy in Jaburo” | Zmiana strategii Zeonu odpowiada oryginałowi; w grze jest zapowiedzią dalszych starć w przestrzeni. |
 }}

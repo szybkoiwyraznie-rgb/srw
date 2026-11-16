@@ -253,11 +253,12 @@ Bohaterowie rozmawiają o przeszłości klasy tylko ogólnie: uczniowie pokonali
 
 ## Wątki w scenie
 
-- **Pierwsze stery.** [[himari-yaegaki|Himari]] pierwszy raz leci za sterami [[exart|Exarta]] i przekonuje się, że presja jest częścią nauki.
-- **Niespodzianka zamiast wroga.** [[maria-shiratori|Maria]] sprawdza czujność klasy, wystawiając Labory treningowe bez ostrzeżenia.
-- **Teren zamiast siły ognia.** [[tsutomu-kojima|Tsutomu]] i [[seishiro|Seishiro]] pokazują, że zrzucenie celu z wysokości oszczędza energię i zadaje dodatkowe obrażenia.
-- **Dzieci-weterani.** [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] pokonała już [[jaku-empire|Imperium Piątego Wymiaru]], choć jej członkowie chodzą do podstawówki.
-- **Granice ciekawości.** Rozmowa o [[connect-force|Connect]] kończy się, gdy [[tsutomu-kojima|Tsutomu]] ucina pytania o powody współpracy dorosłych.
-- **Dzieciństwo Seishira.** Widok uczniów skłania [[seishiro|Seishira]] do refleksji nad własnym dzieciństwem i decyzją [[suol|Szefa]], który wysłał go na trening.
-
+| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| **Pierwsze stery.** [[himari-yaegaki\|Himari]] pierwszy raz leci za sterami [[exart\|Exarta]] i przekonuje się, że presja jest częścią nauki. | [[srw-oe\|Super Robot Wars OE]] | n/d | Pierwszy samodzielny lot Himari to wątek gry; w *Raijin-Oh* nie ma Exarta ani Connect. |
+| **Niespodzianka zamiast wroga.** [[maria-shiratori\|Maria]] sprawdza czujność klasy, wystawiając Labory treningowe bez ostrzeżenia. | [[srw-oe\|Super Robot Wars OE]] | n/d | Autorskie ćwiczenie gry; w serialu zajęcia prowadzą nauczyciele Akademii Hinobori, a nie instruktorka Connect. |
+| **Teren zamiast siły ognia.** [[tsutomu-kojima\|Tsutomu]] i [[seishiro\|Seishiro]] pokazują, że zrzucenie celu z wysokości oszczędza energię i zadaje dodatkowe obrażenia. | [[srw-oe\|Super Robot Wars OE]] | n/d | Taktyka zrzucania celu jest regułą rozgrywki i scenką szkoleniową gry, nie wydarzeniem z odcinka. |
+| **Dzieci-weterani.** [[klasa-obrony-ziemi\|Klasa Obrony Ziemi]] pokonała już [[jaku-empire\|Imperium Piątego Wymiaru]], choć jej członkowie chodzą do podstawówki. | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | cała seria | W serialu Klasa Obrony Ziemi rzeczywiście walczy jako uczniowie podstawówki z Imperium Jaku; gra osadza ich po zakończeniu tej wojny. |
+| **Granice ciekawości.** Rozmowa o [[connect-force\|Connect]] kończy się, gdy [[tsutomu-kojima\|Tsutomu]] ucina pytania o powody współpracy dorosłych. | [[srw-oe\|Super Robot Wars OE]] | n/d | Powody współpracy i rola Connect w tym treningu są pomysłem gry; seria źródłowa nie zna tej organizacji. |
+| **Dzieciństwo Seishira.** Widok uczniów skłania [[seishiro\|Seishira]] do refleksji nad własnym dzieciństwem i decyzją [[suol\|Szefa]], który wysłał go na trening. | [[srw-oe\|Super Robot Wars OE]] | n/d | Refleksja nad dzieciństwem Seishira to materiał autorski gry. |
 }}

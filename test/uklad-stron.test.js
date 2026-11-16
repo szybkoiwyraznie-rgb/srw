@@ -119,7 +119,7 @@ test('scena: podsekcje treści mają własne nagłówki-kotwice', () => {
 });
 
 test('scena z podsekcją analizy wymaga kompletnej mapy', () => {
-  const ciało = `{{skrypt gra=srw-oe\n\n## Treść sceny\n\n### Alfa\n\ntekst\n\n## Analiza\n\n### Beta\n\nopis\n\n## Wątki w scenie\n\n- x\n}}\n`;
+  const ciało = `{{skrypt gra=srw-oe\n\n## Treść sceny\n\n### Alfa\n\ntekst\n\n## Analiza\n\n### Beta\n\nopis\n\n## Wątki w scenie\n\n| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |\n|---|---|---|---|\n| **Alfa.** Wątek. | [[srw-oe\\|Super Robot Wars OE]] | n/d | Opis. |\n}}\n`;
   const plan = zaplanujScene(podzielScene(ciało));
   assert.equal(plan.problemy.length, 1);
   assert.match(plan.problemy[0], /„Beta”.*nie ma mapowania/);
@@ -189,7 +189,7 @@ test('podział sceny: nagłówki wewnątrz bloku skryptu nie zaczynają sekcji',
 });
 
 test('plan kotwic zgłasza nieistniejący cel i nadmiar mapowań zamiast je zgadywać', () => {
-  const ciało = `{{skrypt gra=srw-oe\n\n## Treść sceny\n\n### Alfa\n\ntekst\n\n## Analiza\n\n### Beta\n\nopis\n\n## Wątki w scenie\n\n- x\n}}\n`;
+  const ciało = `{{skrypt gra=srw-oe\n\n## Treść sceny\n\n### Alfa\n\ntekst\n\n## Analiza\n\n### Beta\n\nopis\n\n## Wątki w scenie\n\n| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |\n|---|---|---|---|\n| **Alfa.** Wątek. | [[srw-oe\\|Super Robot Wars OE]] | n/d | Opis. |\n}}\n`;
   const czesci = podzielScene(ciało);
   const zlyCel = zaplanujScene(czesci, ['Beta → Gamma']);
   assert.equal(zlyCel.problemy.length, 1);

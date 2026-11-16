@@ -496,9 +496,11 @@ Wątek [[ramba-ral|Ramby Rala]] pochodzi z innego miejsca: w serialu [[mobile-su
 
 ## Wątki w scenie
 
-- **Dywersja zamiast obrony.** [[white-base|White Base]] dostaje zadanie, które nie przynosi chwały: ma być przynętą i zniknąć z pola widzenia floty, żeby główne siły mogły ruszyć w kosmos.
-- **Ród Sahalinów.** [[ginias-sahalin|Ginias]] walczy o honor rodu i o pamięć po sobie, a nie o wynik wojny; jego choroba i samobójczy plan są równie ważne jak samo działo Apsalusa.
-- **Dwie lojalności.** [[shiro-amada|Shiro]] musi wybierać między bazą, drużyną i człowiekiem, którego zna; [[ramba-ral|Ramba Ral]] wybiera dowódcę, a [[crowley-hamon|Crowley Hamon]] — męża.
-- **Mit asa i jego cena.** Rozmowa o szesnastoletnim pilocie i prośba o nie trafianie w kokpit pokazują, że zwycięstwo nad Apsalusem jest pyrrusowe nawet dla tych, którzy je odnoszą.
-- **Ziemia zostaje za plecami.** Scena kończy się startem w kosmos i zapowiedzią pościgu [[zanzibar|Zanzibara]] z [[char-aznable|Charem]] — od tego momentu wojna toczy się już poza planetą.
+| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| **Dywersja zamiast obrony.** [[white-base\|White Base]] dostaje zadanie, które nie przynosi chwały: ma być przynętą i zniknąć z pola widzenia floty, żeby główne siły mogły ruszyć w kosmos. | [[srw-oe\|Super Robot Wars OE]] | n/d | Rola przynęty i koordynacja z flotą to rozwiązanie gry; w OVA White Base nie pełni takiej funkcji. |
+| **Ród Sahalinów.** [[ginias-sahalin\|Ginias]] walczy o honor rodu i o pamięć po sobie, a nie o wynik wojny; jego choroba i samobójczy plan są równie ważne jak samo działo Apsalusa. | [[mobile-suit-gundam-08th-ms-team\|Mobile Suit Gundam: The 08th MS Team]] | odc. 11 „The Shuddering Mountain, Part 2” | W OVA finał projektu rozgrywa się w odcinkach 10–11: Apsalus III startuje z górskiej bazy, w kabinie siedzi najpierw Aina, a Ginias przejmuje maszynę po jej odmowie walki i ginie w starciu z Ez8 Shiro. |
+| **Dwie lojalności.** [[shiro-amada\|Shiro]] musi wybierać między bazą, drużyną i człowiekiem, którego zna; [[ramba-ral\|Ramba Ral]] wybiera dowódcę, a [[crowley-hamon\|Crowley Hamon]] — męża. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 20 „Hand-to-Hand Combat” | Wątek Ramby Rala pochodzi z innego miejsca niż finał Apsalusa: w serialu Ral ginie w odcinku 20, a jego skrzydłowi Acous i Cozun kończą odmiennie; w grze cały oddział walczy pod Jaburo i wycofuje się bez strat. |
+| **Mit asa i jego cena.** Rozmowa o szesnastoletnim pilocie i prośba o nie trafianie w kokpit pokazują, że zwycięstwo nad Apsalusem jest pyrrusowe nawet dla tych, którzy je odnoszą. | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa o młodym pilocie i humanitarne ograniczenia w walce są dopisane przez grę. |
+| **Ziemia zostaje za plecami.** Scena kończy się startem w kosmos i zapowiedzią pościgu [[zanzibar\|Zanzibara]] z [[char-aznable\|Charem]] — od tego momentu wojna toczy się już poza planetą. | [[srw-oe\|Super Robot Wars OE]] | n/d | Przejście do walki w kosmosie i zapowiedź pościgu porządkują fabułę gry po finale projektu Apsalusa. |
 }}

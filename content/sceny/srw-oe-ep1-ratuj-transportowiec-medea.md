@@ -152,11 +152,12 @@ Gra ponownie zamienia funkcje załogi wozu wsparcia: głównym pilotem jest [[mi
 
 ## Wątki w scenie
 
-- **Transport jako cel misji.** [[08-pluton-ms|08. Pluton MS]] nie rusza na zwykły patrol, lecz odpowiada na bezpośrednie wezwanie załogi [[medea|Medei]].
-- **Doppy i siły lądowe.** Ścigający klucz samoloty nie są jedynym zagrożeniem: [[eledore-massis|Eledore]] wykrywa również wrogie mobile suity na ziemi.
-- **Nasłuch i prowadzenie klucza.** Eledore rozpoznaje dźwięki maszyn, a wraz z [[michel-ninorich|Michelem]] ma kierować [[medea|Medeę]] poza ogień przeciwlotniczy.
-- **Ograniczenia logistyczne.** Medea nie wiezie części zamiennych, a pierwszeństwo przy zaopatrzeniu mają oddziały pozostające w bazie.
-- **Droga do Jaburo.** Uratowana Medea staje się transportem do [[jaburo|Jaburo]], a narracja potwierdza, że oddział wsiada na pokład i odlatuje.
-- **Prowizorka, która działa.** [[karen-joshua|Karen]] początkowo broni się przed żartami o głowie GM-a, ale w walce i po misji chwali wytrzymałość części, ich dostępność oraz łatwy serwis.
-
+| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| **Transport jako cel misji.** [[08-pluton-ms\|08. Pluton MS]] nie rusza na zwykły patrol, lecz odpowiada na bezpośrednie wezwanie załogi [[medea\|Medei]]. | [[srw-oe\|Super Robot Wars OE]] | n/d | Obrona klucza Medei i wezwanie załogi należą do rozgrywkowego wątku gry; odcinek 08. Plutonu nie zawiera tej misji. |
+| **Doppy i siły lądowe.** Ścigający klucz samoloty nie są jedynym zagrożeniem: [[eledore-massis\|Eledore]] wykrywa również wrogie mobile suity na ziemi. | [[srw-oe\|Super Robot Wars OE]] | n/d | Zestaw przeciwników w tej misji jest dobrany przez grę; w OVA zagrożenia rozkładają się inaczej. |
+| **Nasłuch i prowadzenie klucza.** Eledore rozpoznaje dźwięki maszyn, a wraz z [[michel-ninorich\|Michelem]] ma kierować [[medea\|Medeę]] poza ogień przeciwlotniczy. | [[srw-oe\|Super Robot Wars OE]] | n/d | Rola nasłuchu Eledorego jest wierna jego specjalności z OVA, lecz samo prowadzenie klucza Medei to zadanie z gry. |
+| **Ograniczenia logistyczne.** Medea nie wiezie części zamiennych, a pierwszeństwo przy zaopatrzeniu mają oddziały pozostające w bazie. | [[srw-oe\|Super Robot Wars OE]] | n/d | Brak części i kolejność zaopatrzenia to mechanika i fabuła gry; w serialu transportowiec nie staje przed takim wyborem. |
+| **Droga do Jaburo.** Uratowana Medea staje się transportem do [[jaburo\|Jaburo]], a narracja potwierdza, że oddział wsiada na pokład i odlatuje. | [[srw-oe\|Super Robot Wars OE]] | n/d | Przelot do Jaburo domyka misję gry; w OVA oddział przemieszcza się inaczej. |
+| **Prowizorka, która działa.** [[karen-joshua\|Karen]] początkowo broni się przed żartami o głowie GM-a, ale w walce i po misji chwali wytrzymałość części, ich dostępność oraz łatwy serwis. | [[mobile-suit-gundam-08th-ms-team\|Mobile Suit Gundam: The 08th MS Team]] | cała seria | Karen i jej stosunek do prowizorycznych napraw pochodzą z OVA, gdzie seria pokazuje kolejne doraźne remonty; konkretna wymiana zdań o głowie GM-a jest dopisana przez grę. |
 }}

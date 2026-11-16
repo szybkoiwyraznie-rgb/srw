@@ -17,10 +17,11 @@ Właściciel zatwierdził wdrożenie pełnego zakresu zmian silnika 2026-10-22.
 
 1. **Sekcje sceny pozostają uporządkowaną listą.** Renderer nie zamienia ich na mapę po tytule
    i nie odrzuca nazw spoza zamkniętej listy. Wszystkie wystąpienia są renderowane.
-2. **Układ zachowuje cztery szczególne miejsca, ale nie ogranicza formy.** „Analiza” i „Treść
-   sceny” stoją w kolumnie głównej, „Nawiązania do oryginalnych odcinków” i „Wątki w scenie”
-   w bocznej. Każda pozostała sekcja trafia do kolumny głównej. Powtórki dostają kolejne,
-   unikalne identyfikatory.
+2. **Układ zachowuje cztery szczególne miejsca, ale nie ogranicza formy.** Wszystkie cztery
+   stałe sekcje sceny — „Analiza”, „Treść sceny”, „Wątki w scenie” i „Nawiązania do oryginalnych
+   odcinków” — stoją w kolumnie głównej, w tej kolejności; kolumna boczna zawiera wyłącznie obsadę
+   i przejścia do scen sąsiednich. Każda pozostała sekcja trafia do kolumny głównej, pod nimi.
+   Powtórki dostają kolejne, unikalne identyfikatory.
 3. **Mapa analizy jest kompletna.** Każda podsekcja `###` z `## Analiza` wymaga dokładnie
    jednej pary w `sekcje_analizy`. Brak, nadmiar, nieistniejący tytuł albo zbyt wiele użyć
    celu zatrzymują build. Scena bez podsekcji `###` nie potrzebuje mapy.
@@ -46,6 +47,11 @@ Właściciel zatwierdził wdrożenie pełnego zakresu zmian silnika 2026-10-22.
   renderer, nie duplikowanie bieżących danych w każdym artefakcie.
 
 ## Konsekwencje
+
+Punkt 2 zmieniono decyzją właściciela z 2026-11-16: „Wątki w scenie” i „Nawiązania do
+oryginalnych odcinków” przeniesiono z kolumny bocznej do głównej, bo w wąskiej kolumnie
+przewijały się w poziomie i przestawały być czytelne. Kolumna boczna sceny zawiera odtąd
+wyłącznie obsadę i przejścia do scen sąsiednich.
 
 Testy pilnują dodatkowych i powtórzonych sekcji, kompletności mapy, unikalności kotwic,
 pojedynczej reprezentacji HTML oraz fallbacku dla starszych danych. Kontrole poziomów

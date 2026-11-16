@@ -263,11 +263,11 @@ W „Destroy Gundam” pociski okrętu [[char-aznable|Chara]] ranią [[paolo-cas
 
 ## Wątki w scenie
 
-- **Neutralność a pomoc.** Connect nie przystępuje do wojny, lecz podejmuje eskortę cywilów do [[luna-ii|Luny II]]; Seishiro zapowiada, że osłona potrwa tylko do tej bazy.
-- **Łączność pod presją.** [[minovsky-particles|Cząstki Minovsky’ego]] przerywają przekaz, a Himari uczy się, że na polu walki nie zawsze może wesprzeć pilota z centrali.
-- **Ostrożność Chara.** Czerwona Kometa nie podejmuje walki dla samej walki; ocenia siłę Gundama i Exarta, a potem zarządza odwrót.
-- **Doświadczenie i brak rutyny.** Bright zatrzymuje Amura, zanim ten startuje, a Char wskazuje, że przewaga maszyny nie zastąpi umiejętności pilota.
-- **Prywatne tło Himari.** W hangarze wyjawia, że dorastała w domu dziecka i nie pamięta rodziców; Seishiro zapewnia ją, że Connect nie porzuca swoich ludzi.
-
+| Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
+|---|---|---|---|
+| **Neutralność a pomoc.** Connect nie przystępuje do wojny, lecz podejmuje eskortę cywilów do [[luna-ii\|Luny II]]; Seishiro zapowiada, że osłona potrwa tylko do tej bazy. | [[srw-oe\|Super Robot Wars OE]] | n/d | W Wojnie Jednorocznej żadna firma nie eskortuje White Base; neutralna organizacja i jej ograniczony mandat są pomysłem gry. |
+| **Łączność pod presją.** [[minovsky-particles\|Cząstki Minovsky’ego]] przerywają przekaz, a Himari uczy się, że na polu walki nie zawsze może wesprzeć pilota z centrali. | [[srw-oe\|Super Robot Wars OE]] | n/d | Same cząstki Minovsky’ego pochodzą z uniwersum Gundama, lecz rola operatorki z Connect i utrata przekazu należą do sceny gry. |
+| **Ostrożność Chara.** Czerwona Kometa nie podejmuje walki dla samej walki; ocenia siłę Gundama i Exarta, a potem zarządza odwrót. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 2 „Destroy Gundam” | W oryginale Char wycofuje się po pierwszym bezpośrednim starciu z Gundamem; gra dodaje do walki Exarta i odsiecz Connect, przez co odwrót obejmuje wszystkie trzy Zaku. |
+| **Doświadczenie i brak rutyny.** Bright zatrzymuje Amura, zanim ten startuje, a Char wskazuje, że przewaga maszyny nie zastąpi umiejętności pilota. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 2 „Destroy Gundam” | Serial pokazuje improwizowaną obsadę stanowisk na White Base po ranach Paola; w grze dochodzi wymiana zdań o wartości pilota i maszyny, której w odcinku nie ma. |
+| **Prywatne tło Himari.** W hangarze wyjawia, że dorastała w domu dziecka i nie pamięta rodziców; Seishiro zapewnia ją, że Connect nie porzuca swoich ludzi. | [[srw-oe\|Super Robot Wars OE]] | n/d | Wątek domu dziecka należy wyłącznie do gry; w „Destroy Gundam” nie ma bohaterki z Connect. |
 }}
-
