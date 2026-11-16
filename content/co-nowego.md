@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-11-16 14:20
+
+- Druga misja [[srw-y-ep1|epizodu 1]] SRW Y — [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|„Przebudzenie niebiańskiego demona”]] — rozgrywa się od przejęcia warty nad [[a-advent|A. Adventem]], przez upadek [[getter-d2|Gettera D2]] w [[miasto-yagami|mieście Yagami]], po przeniesienie na pokład okrętu. [[takuma-nagare|Takuma Nagare]] dowiaduje się tam, kim był jego ojciec [[ryoma-nagare|Ryoma]], a [[show-kamui|Show Kamui]] przyprowadza [[getter-arc|Gettera Arca]].
+- [[getter-arc|Getter Arc]], [[insector|Insector]] i [[zordo-xx|Zordo XX]] mają teraz swoje miejsce w bazie, z uzbrojeniem i osiągami wprost z gry; [[a-advent|A. Advent]] i [[lunedrache|Lunedrache]] zyskują to, co przyniosła nowa misja — kolejną broń i zdolność „Łącze energii”.
+- Do obsady dochodzi dziewiątka twarzy, wśród nich [[yume-minami|Yume Minami]], [[koyomi-yamanaka|Koyomi Yamanaka]] i [[chise-asukagawa|Chise Asukagawa]] z [[ssss-dynazenon|SSSS.DYNAZENON]], a świat wokół Getterów opisują [[laboratorium-saotome|Laboratorium Saotome]], [[getter-d2|Getter D2]], [[promienie-gettera|promienie Gettera]], [[insectorzy|Insectorzy]], [[n-u-n-g|N-U-N-G]], [[ryoma-nagare|Ryoma Nagare]] i [[doktor-saotome|doktor Saotome]].
+
+
 ## 2026-11-16 12:15
 
 - Każda scena, [[srw-oe-ep0|epizod]] i hasło mają teraz u góry prawego pasa skróty do swoich sekcji — [[srw-oe-ep1-black-tri-stars|do analizy]], treści, wątków i nawiązań dochodzi się jednym kliknięciem, bez przewijania całej treści.

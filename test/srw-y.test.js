@@ -28,6 +28,17 @@ const POSTACIE = [
 const MECHY = [
   'altron-gundam', 'amx-003-gaza-c', 'a-advent', 'lunedrache',
   'lancelot-albion-zero', 'lumenus', 'taurus', 'zamza-zah',
+  'getter-arc', 'insector', 'zordo-xx',
+];
+// Druga misja epizodu (1-2A) dopisuje do obsady postacie Getter Robo Arc
+// i SSSS.DYNAZENON — mówców, którzy nie występowali w prologu.
+const POSTACIE_Z_MISJI_2A = [
+  'chise-asukagawa', 'yume-minami', 'show-kamui', 'koyomi-yamanaka', 'hayato-jin',
+  'shikishima', 'igari', 'mei', 'matka-yomogiego',
+];
+const POJECIA_Z_MISJI_2A = [
+  'laboratorium-saotome', 'getter-d2', 'promienie-gettera', 'insectorzy', 'n-u-n-g',
+  'ryoma-nagare', 'doktor-saotome',
 ];
 const SERIE = [
   'super-robot-wars-original', 'mobile-suit-gundam-wing-endless-waltz',
@@ -73,7 +84,20 @@ const POSTACIE_Z_DIALOGU = {
   Wren: 'wren',
   'Yomogi Asanaka': 'yomogi-asanaka',
   Zero: 'zero',
+  // Misja 2A dopisuje mówców Getter Robo Arc i SSSS.DYNAZENON.
+  'Show Kamui': 'show-kamui',
+  Hayato: 'hayato-jin',
+  Shikishima: 'shikishima',
+  Igari: 'igari',
+  Mei: 'mei',
+  'Matka Yomogiego': 'matka-yomogiego',
+  'Chise Asukagawa': 'chise-asukagawa',
+  'Yume Minami': 'yume-minami',
+  'Koyomi Yamanaka': 'koyomi-yamanaka',
 };
+// Głosy zbiorowe: „Obywatel” i „Żołnierz oddziału D2” to nie osoby, więc nie mają
+// stron (ADR 0013 — bezimienny ogół nie dostaje wpisu); „Prezenter” to głos z transmisji.
+const GLOSY_ZBIOROWE = new Set(['Prezenter', 'Obywatel', 'Żołnierz oddziału D2']);
 const SCENA = 'srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny';
 const STARE_SCENY = [
   'srw-y-ep1-parada-cesarza-leloucha',
@@ -102,9 +126,11 @@ test('SRW Y: epizod wskazuje grę, skrypt i komplet dostarczonych relacji', () =
   assert.equal(epizod.gra, 'srw-y');
   assert.equal(epizod.numer, 1);
   assert.equal(epizod.skrypt, 'episodes/srw-y/ep001.md');
-  assert.deepEqual(epizod.postacie, [...POSTACIE, ...POSTACIE_Z_PROLOGU]);
+  assert.deepEqual(epizod.postacie, [...POSTACIE, ...POSTACIE_Z_PROLOGU, ...POSTACIE_Z_MISJI_2A]);
   assert.deepEqual(epizod.mechy, MECHY);
-  for (const slug of [...SERIE, ...POJECIA]) assert.ok(epizod.serie?.includes(slug) || epizod.pojecia?.includes(slug), slug);
+  for (const slug of [...SERIE, ...POJECIA, ...POJECIA_Z_MISJI_2A]) {
+    assert.ok(epizod.serie?.includes(slug) || epizod.pojecia?.includes(slug), slug);
+  }
   assert.doesNotMatch(skrypt, /UCZESTNICY/);
   assert.match(skrypt, /\*\*Cross Tsukinowa:\*\* \*\(Starszy brat cię obroni/);
 });
@@ -123,18 +149,23 @@ test('SRW Y: dostawa ma jedną scenę 1-1C z dosłownym, pełnym fragmentem skry
   assert.match(scena.body, /### A\. Advent - rdzeń Systemu Nira-Kana-I/);
   assert.match(scena.body, /\*\*Cross Tsukinowa:\*\* \*\(Starszy brat cię obroni/);
   assert.doesNotMatch(scena.body, /UCZESTNICY/);
-  assert.equal(strony.filter((s) => s.typ === 'scena' && s.epizod === 'srw-y-ep1').length, 1);
+  assert.equal(strony.filter((s) => s.typ === 'scena' && s.epizod === 'srw-y-ep1').length, 2);
   for (const slug of STARE_SCENY) assert.ok(!bySlug.has(slug), `${slug}: usunięty podział nie jest sceną`);
 });
 
 test('SRW Y: wszystkie profile mechów zachowują dane menu pod zakresem srw-y', () => {
+  // Kolejna misja uzupełnia albo odświeża rekord tej samej pary (mech, gra),
+  // więc źródłem bywa późniejsze archiwum — A. Advent i Lunedrache mają dane
+  // z misji 2A, a nie z prologu.
+  const POZNIEJSZE = Object.fromEntries(['a-advent', 'lunedrache', 'getter-arc', 'insector', 'zordo-xx']
+    .map((s) => [s, 'dostawy/srw-y/dostawa_1_2a.txt']));
   for (const slug of MECHY) {
     const mech = bySlug.get(slug);
     assert.deepEqual(mech.gry, ['srw-y'], slug);
     const wpis = mech.w_gre?.['srw-y'];
     assert.equal(typeof wpis, 'string', `${slug}: w_gre.srw-y`);
     const dane = JSON.parse(wpis);
-    assert.equal(dane.dostawa, 'dostawy/srw-y/Y_dostawa_1_1C.txt', slug);
+    assert.equal(dane.dostawa, POZNIEJSZE[slug] ?? 'dostawy/srw-y/Y_dostawa_1_1C.txt', slug);
     assert.equal(dane.profil, mech.tytul, slug);
     assert.match(mech.body, /\{\{menu gra=srw-y/, slug);
   }
@@ -157,19 +188,20 @@ test('SRW Y: relacje encji prowadzą do epizodu, scen i serii', () => {
   assert.ok(Array.isArray(scena.pojecia), `${SCENA}: pojęcia`);
 });
 
-test('SRW Y: każdy nazwany mówca sceny 1-1C jest postacią w obsadzie sceny i epizodu', () => {
+test('SRW Y: każdy nazwany mówca scen 1-1C i 1-2A jest postacią w obsadzie swojej sceny i epizodu', () => {
   const scena = bySlug.get(SCENA);
+  const scena2a = bySlug.get('srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona');
   const mowiacy = [...skrypt.matchAll(/^\s*>?\s*\*\*([^*]+):\*\*/gm)].map((match) => match[1]);
   assert.ok(mowiacy.length > 0, 'skrypt zawiera nazwanych mówców');
   for (const nazwa of new Set(mowiacy)) {
-    // Bezimienny głos z transmisji — bez własnej strony.
-    if (nazwa === 'Prezenter') continue;
+    if (GLOSY_ZBIOROWE.has(nazwa)) continue;
     const slug = POSTACIE_Z_DIALOGU[nazwa];
     assert.ok(slug, `brak rozpoznania mówcy: ${nazwa}`);
     const strona = bySlug.get(slug);
     assert.equal(strona?.typ, 'postac', `${nazwa}: mówca jest postacią (ADR 0013)`);
     assert.ok(strona.gry.includes('srw-y'), `${nazwa}: powiązanie z grą`);
-    assert.ok(scena.postacie.includes(slug), `${nazwa}: relacja postaci sceny`);
+    const wScenie = scena.postacie.includes(slug) || scena2a.postacie.includes(slug);
+    assert.ok(wScenie, `${nazwa}: relacja postaci sceny`);
     assert.ok(epizod.postacie.includes(slug), `${nazwa}: relacja postaci epizodu`);
   }
 });

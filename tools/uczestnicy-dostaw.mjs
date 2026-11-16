@@ -50,6 +50,13 @@ const INNE_ZAPISY_NAZW = {
 /** Wpisy w miejscu pilota, które nie są osobą: rekord bez pilota albo głos bez imienia. */
 const BRAK_PILOTA = [/^brak$/i, /^Brak przypisanego klucza pilota\b/i, /^\?+$/];
 
+/**
+ * Maszyna bez załogi: dostawa wpisuje w miejscu pilota nazwę samej jednostki
+ * („**Insector** — pilot główny: Insector”). To broń kierowana bez człowieka,
+ * więc para „jednostka — pilot” nie powstaje i strona mecha ma puste `piloci`.
+ */
+const samJestPilotem = (jednostka, pilot) => normalizujNazwe(jednostka) === normalizujNazwe(pilot);
+
 /** Dopisek, którym dostawa oznacza cel albo obiekt skryptowy zamiast pilotowanej maszyny. */
 const NIEPILOTOWANA = /nie jest pilotowanym mechem/;
 
@@ -163,6 +170,14 @@ export function stronyUczestnika(nazwa, gra, strony, { typ = null } = {}) {
   const szukana = normalizujNazwe(nazwa);
   const poTytule = encje.filter((s) => normalizujNazwe(s.tytul) === szukana);
   if (poTytule.length) return poTytule;
+
+  // „Show Kamui — wariant danych 1” to ten sam Kamui; dopisek rozróżnia dwa zestawy
+  // danych tej samej osoby, a tytuł strony zostaje imieniem i nazwiskiem (ADR 0037).
+  if (bezWariantuDanych(nazwa) !== nazwa) {
+    const bezDopisku = normalizujNazwe(bezWariantuDanych(nazwa));
+    const poTytuleBezDopisku = encje.filter((s) => normalizujNazwe(s.tytul) === bezDopisku);
+    if (poTytuleBezDopisku.length) return poTytuleBezDopisku;
+  }
 
   const wariant = wariantNazwy(nazwa);
   if (wariant) {
@@ -285,6 +300,13 @@ export function porownajZalogi({ root = '.', strony = wczytajStrony({ root }) } 
     const mechy = stronyUczestnika(z.jednostka, z.gra, strony, { typ: 'mech' });
     if (mechy.length !== 1) {
       zglos(raport.nieznanaJednostka, `${z.gra}: jednostka „${z.jednostka}”`, `${mechy.length ? `pasuje do kilku stron: ${mechy.map((s) => s.slug).join(', ')}` : 'nie ma strony'} (${gdzie})`);
+      continue;
+    }
+    // Jednostka bez człowieka za sterami: dostawa powtarza jej nazwę w miejscu pilota.
+    if (samJestPilotem(z.jednostka, z.pilot)) {
+      if ((mechy[0].piloci ?? []).length) {
+        zglos(raport.zalogaCelu, `${mechy[0].slug}: pole piloci nie jest puste,`, `a dostawa podaje jako pilota samą jednostkę (${gdzie})`);
+      } else raport.zgodnych += 1;
       continue;
     }
     const osoby = stronyUczestnika(z.pilot, z.gra, strony, { typ: 'postac' });

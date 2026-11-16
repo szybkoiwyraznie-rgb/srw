@@ -36,7 +36,11 @@ const postacie = strony.filter((s) => s.typ === 'postac');
 const epizody = strony.filter((s) => s.typ === 'epizod');
 
 /** Głosy bez imienia: nie są postaciami i nie mają stron (ADR 0013). */
-const GLOSY_BEZIMIENNE = new Set(['???', 'Łączność / Głośnik', 'Prezenter']);
+// Głosy bez imienia: nie są postaciami i nie mają stron (ADR 0013).
+// „Obywatel” i „Żołnierz oddziału D2” to zbiorowe role w tłumie i w armii —
+// tak samo bezimienne jak transmisja prezenterki.
+const GLOSY_BEZIMIENNE = new Set(['???', 'Łączność / Głośnik', 'Prezenter',
+  'Obywatel', 'Żołnierz oddziału D2']);
 
 /** Mówcy jednego skryptu: etykiety `**Imię:**`, także w dialogach warunkowych (`> **Imię:**`). */
 function mowcySkryptu(tekst) {

@@ -202,7 +202,7 @@ test('sceny: grupują się najpierw po grze w domyślnie zwiniętych details', (
   assert.equal(grupy.length, 2, 'dwie gry mają osobne grupy');
   assert.doesNotMatch(html, /<details class="grupa-scen-gry"[^>]*open/);
   assert.match(grupy[0], /Super Robot Wars OE[\s\S]*(20 scen)/, 'pierwsza jest gra z pierwszymi scenami');
-  assert.match(grupy[1], /Super Robot Wars Y[\s\S]*\(1 scena\)/, 'druga jest gra z nową sceną');
+  assert.match(grupy[1], /Super Robot Wars Y[\s\S]*\(2 sceny\)/, 'druga jest gra z nowymi scenami');
   assert.match(grupy[0], /href="#\/epizod\/srw-oe-ep1"/, 'rozwinięta grupa pokazuje epizod');
   assert.match(grupy[0], /href="#\/scena\/srw-oe-ep1-szalejacy-prototyp-labora"/, 'rozwinięta grupa pokazuje scenę');
   assert.match(grupy[1], /href="#\/epizod\/srw-y-ep1"/);
@@ -216,8 +216,9 @@ test('sceny: grupują się najpierw po grze w domyślnie zwiniętych details', (
 test('sceny: filtr gry zachowuje licznik i grupowanie epizodów', () => {
   const html = renderListe('scena', { gra: 'srw-y' });
   assert.equal((html.match(/class="grupa-scen-gry"/g) ?? []).length, 1);
-  assert.match(html, /Super Robot Wars Y[\s\S]*\(1 scena\)/);
+  assert.match(html, /Super Robot Wars Y[\s\S]*\(2 sceny\)/);
   assert.match(html, /href="#\/scena\/srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny"/);
+  assert.match(html, /href="#\/scena\/srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona"/);
   assert.doesNotMatch(html, /srw-oe-ep1-szalejacy-prototyp-labora/);
 });
 
