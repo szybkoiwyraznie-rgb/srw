@@ -3,13 +3,15 @@ typ: pojecie
 slug: getter-d2
 tytul: "Getter D2"
 gry: [srw-y]
-pochodzenie: menu
+pochodzenie: skrypt
 tagi: [technologia, getter-robo]
 utworzono: 2026-11-16
 ---
-{{menu gra=srw-y
+{{skrypt gra=srw-y
 
-Maszyna Gettera z [[laboratorium-saotome|Laboratorium Saotome]], którą oddział D2 wysyła do walki z wrogiem pojawiającym się w różnych miejscach Ziemi. Ma kabinę i zabezpieczenia oparte na sieci neuronowej, która stawia dopasowanie do pilota ponad wszystko inne — i właśnie dlatego daje się przełamać.
+Maszyna Gettera wystawiana przez oddział D2 z [[laboratorium-saotome|Laboratorium Saotome]]. Ma kabinę chronioną zabezpieczeniami najwyższego poziomu, opartymi na sieci neuronowej, która na pierwszym miejscu stawia dopasowanie do pilota — co pozwala [[baku-yamagishi|Baku Yamagishiemu]] znaleźć furtkę i otworzyć właz.
 
-W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] D2 spada w pobliżu góry Asama, tuż obok miasta Yagami, i staje samotnie przeciw robactwu, zanim ktokolwiek zdąży zająć miejsce w kabinie. Porzuconą maszynę przejmują [[takuma-nagare|Takuma Nagare]] i [[baku-yamagishi|Baku Yamagishi]]: Baku łamie zabezpieczenia przez sieć neuronową, a Takuma wsiada do środka i pilotuje Gettera bez kombinezonu wzmacniającego. Gdy D2 jest już na granicy wytrzymałości, [[show-kamui|Show Kamui]] sprowadza [[getter-arc|Getter Arca]] i chłopcy przesiadają się do nowszej maszyny. Walka z [[zordo-xx|Zordo XX]] pokazuje, że D2 nie dorównuje Arcowi.
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] [[hayato-jin|Hayato Jin]] rzuca oddział D2 przeciw [[insector|Insectorom]] atakującym [[a-advent|A. Advent]] w pobliżu góry Asama. Jeden z D2 zostaje zestrzelony, a jego pilot ginie w kabinie; zestrzeloną maszynę przejmują [[takuma-nagare|Takuma Nagare]] i Baku, po czym Takuma walczy nią bez kombinezonu wzmacniającego. Gdy pod naporem [[zordo-xx|Zordo XX]] D2 dociera do granicy wytrzymałości, [[show-kamui|Show Kamui]] przyprowadza [[getter-arc|Getter Arca]] i chłopcy przesiadają się do nowszej maszyny.
+
+Oddziałem Getter D2, walczącym z nieznanym wrogiem pojawiającym się w różnych miejscach Ziemi, dowodzi [[hayato-jin|Hayato Jin]], a zespołem obsługującym te maszyny kieruje [[igari|Igari]].
 }}

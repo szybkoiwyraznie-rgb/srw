@@ -11,7 +11,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Cesarz [[imperium-yoma|Imperium Yoma]]. Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] [[chizuru-nambara|Chizuru]] przypomina, że Campbellian odparto, ale „w Imperium Yoma wciąż pozostał cesarz Barao”.
+Cesarz [[imperium-yoma|Imperium Yoma]]. Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] [[chizuru-nambara|Chizuru]] przypomina, że [[campbellianie|Campbellian]] odparto, ale „w Imperium Yoma wciąż pozostał cesarz Barao”.
 }}
 
 {{zrodlo gra=wspolne

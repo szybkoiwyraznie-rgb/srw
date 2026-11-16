@@ -54,7 +54,7 @@ const ODŚWIEŻONE = { 'a-advent': 'A. Advent', lunedrache: 'Lunedrache' };
 const NOWE_POSTACIE = ['show-kamui', 'yume-minami', 'koyomi-yamanaka', 'chise-asukagawa',
   'hayato-jin', 'shikishima', 'igari', 'mei', 'matka-yomogiego'];
 const NOWE_HASLA = ['laboratorium-saotome', 'getter-d2', 'promienie-gettera', 'insectorzy',
-  'n-u-n-g', 'ryoma-nagare', 'doktor-saotome'];
+  'n-u-n-g', 'ryoma-nagare', 'doktor-saotome', 'campbellianie', 'historia-ziemi'];
 
 test('archiwum misji 2A jest kompletne, a jej skrypt kończy epizod', () => {
   assert.ok(fs.existsSync(ARCHIWUM), 'dostawa leży w dostawy/srw-y');
@@ -107,14 +107,15 @@ test('nowe jednostki zachowują parametry i uzbrojenie z dostawy', () => {
       `${slug}: parametry widoczne w treści`);
   }
   assert.deepEqual(bySlug.get('getter-arc').piloci, ['takuma-nagare', 'baku-yamagishi', 'show-kamui']);
-  // Insector i Zordo XX mają w grze własne karty pilota — nie mają stałej załogi
-  // z fabuły, więc pole `piloci` zostaje puste, ale nie wolno ich nazywać
-  // „bronią bez załogi”: gra pozwala nimi dowodzić jak każdą jednostką.
+  // Insector i Zordo XX należą w dostawie do wrogiej „grupy czerwonej 1” i nie mają
+  // osobowego pilota — w silniku SRW Y mają techniczny rekord pilota o nazwie maszyny,
+  // więc pole `piloci` zostaje puste, a treść nie może ich nazywać jednostkami grywalnymi.
   for (const [slug, profil] of [['insector', 'Insector'], ['zordo-xx', 'Zordo XX']]) {
-    const karta = dostawa.split(`#### ${profil}\n`)[1];
-    assert.ok(karta, `${slug}: karta pilota w dostawie`);
-    assert.match(karta.slice(0, 1200), /\| SP\s+\|\s*\d+ \|/, `${slug}: karta pilota z SP`);
-    assert.deepEqual(bySlug.get(slug).piloci, [], `${slug}: brak stałej załogi`);
+    assert.match(dostawa, new RegExp(`\\*\\*${profil}\\*\\* — pilot główny: ${profil} — grupa czerwona 1`),
+      `${slug}: przeciwnik w grupie czerwonej 1`);
+    assert.deepEqual(bySlug.get(slug).piloci, [], `${slug}: brak osobowego pilota`);
+    assert.doesNotMatch(bySlug.get(slug).body, /jednost(?:ek|ka|ki) grywaln/i,
+      `${slug}: wróg z grupy czerwonej nie jest opisany jako jednostka grywalna`);
   }
 });
 
@@ -171,9 +172,12 @@ test('proza o wydarzeniach gry trzyma się tego, co mówi skrypt', () => {
     assert.doesNotMatch(fragment, /w mandze i serialu jest pierwszym potworem/,
       'pierwowzór nie może udawać wydarzeń gry');
   }
-  // Nazwy, których skrypt nie wymienia, wolno podać tylko z zaznaczeniem, że są spoza gry.
+  // W dialogach potwór pada wyłącznie jako „ten wielki”, bez dopisywania faktów spoza skryptu
+  // i bez ujawniania niewystępującej w misji nazwy frakcji z pierwowzoru.
   const skryptBezNazw = skrypt.replace(/\s+/g, ' ');
   assert.ok(!skryptBezNazw.includes('Zordo'), 'skrypt nie nazywa potwora — test ma sens');
-  assert.match(bySlug.get('zordo-xx').body, /Gra ma go wśród jednostek grywalnych/,
-    'nazwa maszyny podana jako informacja o grze, nie o dialogach');
+  assert.match(bySlug.get('zordo-xx').body, /„ten wielki”/,
+    'opis z misji trzyma się określenia z dialogu');
+  assert.doesNotMatch(scena.body, /Andromed/i,
+    'scena nie ujawnia nazwy frakcji nieobecnej w rozegranych misjach');
 });

@@ -16,7 +16,7 @@ w_gre:
 
 Mobilna forteca-miasto zbudowana pod [[miasto-yagami|miastem Yagami]] w Tokio. W kopule na pokładzie mieści się miasto Yagami wraz z okolicą. Ma mechanizmy jak [[statek-emigracyjny|statek emigracyjny]] ultradalekiego zasięgu, a dzielnice mieszkalne funkcjonują jak całkowicie samodzielne miasto. Główny silnik, [[nira-kana-i|System Nira-Kana-I]], wytwarza ogrom energii, daleko przekraczający potrzeby miasta, ale jego działanie to czarna skrzynka i trudno mówić o pełnej kontroli. Ma też różnorodne uzbrojenie, któremu moc Nira-Kana-I zapewnia dużą siłę ognia, lecz jako okręt jest mało mobilny, a jego siła bojowa niewielka. Kopuła chroniąca miasto jest za to wyjątkowo wytrzymała: przy projektowaniu najważniejsze było bezpieczeństwo mieszkańców. W walce wspiera go [[zaloga-asysty|załoga asysty]] — ludzie z pokładu, wśród nich pokojówki i [[wren|Wren]] — a im lepiej okręt sobie radzi, tym więcej osób można wyznaczyć do tej roli.
 
-W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] okręt staje się przedmiotem sporu: rząd Japonii żąda jego przejęcia, a [[echika-y-franburnett|Echika]] odmawia i obiecuje mieszkańcom miasta Yagami trzy gwarancje — zamieszkania, bezpieczeństwa i energii. [[hayato-jin|Hayato Jin]] powierza wtedy załodze Getter Arc jako siłę odstraszającą, licząc, że okręt odciągnie [[insector|Insectorów]] od Laboratorium Saotome.
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] okręt omija gęsto zaludnione rejony i kieruje się w stronę prefektury Gunma. Po ucieczce burmistrza rząd Japonii przysyła pismo z żądaniem przejęcia jednostki, lecz [[echika-y-franburnett|Echika]] odmawia i ogłasza mieszkańcom [[miasto-yagami|miasta Yagami]] trzy gwarancje: zamieszkania, bezpieczeństwa i energii. Gdy w pobliżu góry Asama okręt atakują [[insector|Insectorzy]] i [[zordo-xx|Zordo XX]], [[hayato-jin|Hayato Jin]] obejmuje go ochroną, zaopatruje w amunicję i powierza załodze [[getter-arc|Getter Arca]] jako środek odstraszający wobec rządu Japonii — licząc zarazem, że A. Advent odciągnie Insectorów od [[laboratorium-saotome|Laboratorium Saotome]].
 }}
 
 {{menu gra=srw-y
@@ -60,6 +60,4 @@ W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie n
 |         |                                        |            |        |           |     |          |        |         | **Broń MAP:** Ochrona sojuszników                                                                     |
 |         |                                        |            |        |           |     |          |        |         | **Ochrona sojuszników:** Tryb                                                                         |
 |       3 | Podwójne działo energetyczne           |       3800 | 2–7    |         0 |  20 |        0 |      0 | —       | **Wiązka:** Typ obrażeń. Niektóre bariery mogą je zmniejszyć lub zablokować.                          |
-
----
 }}

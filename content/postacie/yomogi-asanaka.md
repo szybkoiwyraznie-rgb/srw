@@ -53,4 +53,5 @@ W pierwowzorze Dyna Soldier to humanoidalny, smoczy rdzeń Dynazenona: tworzy je
 | Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                                       |
 | ---: | -------- | ---------: | -------: | ---------------------------------------------------------------------------------- |
 |    1 | Błysk    |          1 |       15 | Na 1 walkę pełny unik wszystkich ataków.                                           |
+|    2 | Dop.     |          5 |       30 | Daje wybranemu sojusznikowi Ducha 'Wysiłek': PD za następne zestrzelenie wroga x2. |
 }}

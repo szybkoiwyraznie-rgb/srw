@@ -58,4 +58,5 @@ Lista obsady *SSSS.DYNAZENON* wymienia Gaumę, Yomogiego Asanakę, Yume Minami i
 | Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                                     |
 | ---: | -------- | ---------: | -------: | -------------------------------------------------------------------------------- |
 |    1 | Hart     |          1 |       30 | Odnawia 50% maks. HP maszyny.                                                    |
+|    2 | Cel.str. |          5 |       20 | Na 1 turę celność 100%.                                                          |
 }}

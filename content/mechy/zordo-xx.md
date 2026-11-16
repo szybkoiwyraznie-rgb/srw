@@ -16,7 +16,7 @@ w_gre:
 
 Gigantyczna broń wysłana przez tajemniczego wroga. Dolną część ciała pokrywają niezliczone macki, którymi przebija przeciwników, a z jedynego oka w górnej części strzela wiązkami. Ma tak wytrzymały pancerz, że nie imają się go ani Getter Tomahawk, ani Getter Beam.
 
-W [[srw-y|Super Robot Wars Y]] walczy w misji „Przebudzenie niebiańskiego demona” jako „ten wielki”: spada z góry na Gettera D2, którym pilotuje [[takuma-nagare|Takuma]], i bierze górę, dopóki [[show-kamui|Kamui]] nie sprowadza [[getter-arc|Getter Arca]]. Gra ma go wśród jednostek grywalnych i daje mu własną kartę pilota, więc nie jest wyłącznie wrogim celem na mapie.
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] spada z góry w pobliżu góry Asama — [[takuma-nagare|Takuma Nagare]] mówi o nim „ten wielki” — i spycha do obrony [[getter-d2|Gettera D2]], którego pilotuje Takuma z [[baku-yamagishi|Baku Yamagishim]]. Dopiero gdy [[show-kamui|Show Kamui]] przyprowadza [[getter-arc|Getter Arca]], a chłopcy przesiadają się z D2 będącego na granicy wytrzymałości, trójka pilotów wraz z [[a-advent|A. Adventem]] i [[lunedrache|Lunedrache]] rozbija napastnika.
 }}
 
 {{menu gra=srw-y
@@ -40,6 +40,4 @@ W [[srw-y|Super Robot Wars Y]] walczy w misji „Przebudzenie niebiańskiego dem
 | ------: | ------ | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------- |
 |       0 | Macki  |       3000 | 1–3    |        10 |   5 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
 |       1 | Wiązka |       3100 | 2–6    |         0 |  10 |        0 |      0 | —       | —                                                                |
-
----
 }}

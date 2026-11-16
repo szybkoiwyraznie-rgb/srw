@@ -16,7 +16,7 @@ w_gre:
 
 Mobilny pancerz ninja przywódcy Tajnych Sił Specjalnych Haze. Elastyczna rama i napęd ze sztucznymi mięśniami dają mu niespotykaną zwrotność. Sterowanie odbywa się w systemie półpodporządkowanym, łączącym ruchy ciała pilota z obsługą różnych manipulatorów, co czyni maszynę niezwykle delikatną. Maszyna i pilot są połączeni nerwowo, więc pilot odczuwa też uszkodzenia; kto nie przeszedł szkolenia [[ninja|NINJA]], z trudem zdoła nią choćby chodzić. Szal na plecach to rój nanomaszyn, służący nie tylko do ataku, ale też, zależnie od taktyki, do maskowania i zwodzenia. Lunedrache, maszyna na zamówienie dla przywódcy, ma inny silnik niż seryjny Mond i dysponuje wybuchową mocą. Nazwę “Lunedrache” nosi każda maszyna kolejnych przywódców Haze; maszyna obecnego przywódcy, od jego kryptonimu, nazywa się oficjalnie “X (Cross)-Lunedrache”.
 
-W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] [[cross-tsukinowa|Cross]] oddaje maszynę pod opiekę [[wren|Wren]], a sam obejmuje wartę nad [[echika-y-franburnett|Echiką]]; zdradza przy tym, że nie zna ani napędu, ani układów sterowania — dostęp do nich ma tylko ten, kto go zbudował.
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] [[cross-tsukinowa|Cross]] powierza obsługę maszyny [[wren|Wren]], zastrzegając jednak, że napęd i układy sterowania stanowią czarną skrzynkę, w której porządnie grzebać może chyba tylko konstruktor. Gdy w pobliżu góry Asama pojawiają się [[insector|Insectorzy]], startuje z [[a-advent|A. Adventu]] na prośbę [[echika-y-franburnett|Echiki]] i broni okrętu u boku przejętego [[getter-d2|Gettera D2]], a następnie [[getter-arc|Getter Arca]].
 }}
 
 {{menu gra=srw-y
@@ -61,6 +61,4 @@ W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie n
 |       2 | Ninja Art: Yojinbu   |       3900 | 1–2    |        15 |  10 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                                        |
 |       3 | Ninja Art: Tenraiken |       4600 | 2–3    |         0 |  40 |        0 |    120 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                                        |
 |         |                      |            |        |           |     |          |        |         | **Celownik-:** Celownik jednostki wroga -30 na 1 turę. Nie działa, gdy bariera itp. zeruje obrażenia.   |
-
----
 }}

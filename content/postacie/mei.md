@@ -13,6 +13,4 @@ utworzono: 2026-11-16
 {{menu gra=srw-y
 
 Przyjaciółka [[yume-minami|Yume]]. Łagodna; [[yume-minami|Yume]] nazywa ją “mamą”. Hobby: fotografia.
-
----
 }}

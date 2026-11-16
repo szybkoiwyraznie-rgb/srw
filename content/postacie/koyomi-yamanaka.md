@@ -34,6 +34,4 @@ Młody mężczyzna od dawna bez pracy. Nie ma żadnych celów i wiedzie leniwe �
 | Slot | Duch    | Poz. nauki | Koszt SP | Efekt bazowy                                         |
 | ---: | ------- | ---------: | -------: | ---------------------------------------------------- |
 |    1 | Osł.    |          1 |       40 | Morale wybranego wroga -10.                          |
-
----
 }}

@@ -12,7 +12,5 @@ utworzono: 2026-11-16
 ---
 {{menu gra=srw-y
 
-Dowódca zespołu obsługującego [[getter-d2|Getter D2]]. Troskliwy, cieszy się zaufaniem członków zespołu. Był pilotem rezerwowym [[getter-robo-arc|Gettera Robota]], potem instruktorem, aż objął obecne stanowisko.
-
----
+Dowódca zespołu obsługującego [[getter-d2|Getter D2]]. Troskliwy, cieszy się zaufaniem członków zespołu. Był pilotem rezerwowym Getter Robota, potem instruktorem, aż objął obecne stanowisko.
 }}

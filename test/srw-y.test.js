@@ -189,20 +189,32 @@ test('SRW Y: relacje encji prowadzą do epizodu, scen i serii', () => {
 });
 
 test('SRW Y: każdy nazwany mówca scen 1-1C i 1-2A jest postacią w obsadzie swojej sceny i epizodu', () => {
-  const scena = bySlug.get(SCENA);
-  const scena2a = bySlug.get('srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona');
-  const mowiacy = [...skrypt.matchAll(/^\s*>?\s*\*\*([^*]+):\*\*/gm)].map((match) => match[1]);
-  assert.ok(mowiacy.length > 0, 'skrypt zawiera nazwanych mówców');
-  for (const nazwa of new Set(mowiacy)) {
-    if (GLOSY_ZBIOROWE.has(nazwa)) continue;
-    const slug = POSTACIE_Z_DIALOGU[nazwa];
-    assert.ok(slug, `brak rozpoznania mówcy: ${nazwa}`);
-    const strona = bySlug.get(slug);
-    assert.equal(strona?.typ, 'postac', `${nazwa}: mówca jest postacią (ADR 0013)`);
-    assert.ok(strona.gry.includes('srw-y'), `${nazwa}: powiązanie z grą`);
-    const wScenie = scena.postacie.includes(slug) || scena2a.postacie.includes(slug);
-    assert.ok(wScenie, `${nazwa}: relacja postaci sceny`);
-    assert.ok(epizod.postacie.includes(slug), `${nazwa}: relacja postaci epizodu`);
+  const sceny = [
+    bySlug.get(SCENA),
+    bySlug.get('srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona'),
+  ];
+  const widzialni = new Set();
+  for (const sc of sceny) {
+    const blok = sc.body.match(/:::skrypt\n([\s\S]*?)\n:::/)?.[1] ?? '';
+    const mowiacy = [...blok.matchAll(/^\s*>?\s*\*\*([^*]+):\*\*/gm)].map((match) => match[1]);
+    assert.ok(mowiacy.length > 0, `${sc.slug}: skrypt zawiera nazwanych mówców`);
+    for (const nazwa of new Set(mowiacy)) {
+      if (GLOSY_ZBIOROWE.has(nazwa)) continue;
+      widzialni.add(nazwa);
+      const slug = POSTACIE_Z_DIALOGU[nazwa];
+      assert.ok(slug, `${sc.slug}: brak rozpoznania mówcy: ${nazwa}`);
+      const strona = bySlug.get(slug);
+      assert.equal(strona?.typ, 'postac', `${nazwa}: mówca jest postacią (ADR 0013)`);
+      assert.ok(strona.gry.includes('srw-y'), `${nazwa}: powiązanie z grą`);
+      assert.ok(sc.postacie.includes(slug), `${sc.slug}: ${nazwa} w obsadzie sceny`);
+      assert.ok(epizod.postacie.includes(slug), `${nazwa}: relacja postaci epizodu`);
+    }
+  }
+  const wszyscyZEpizodu = [...skrypt.matchAll(/^\s*>?\s*\*\*([^*]+):\*\*/gm)]
+    .map((m) => m[1])
+    .filter((n) => !GLOSY_ZBIOROWE.has(n));
+  for (const nazwa of new Set(wszyscyZEpizodu)) {
+    assert.ok(widzialni.has(nazwa), `${nazwa}: mówca z ep001.md obecny w jednej ze scen`);
   }
 });
 
