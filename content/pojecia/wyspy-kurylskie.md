@@ -4,7 +4,6 @@ slug: wyspy-kurylskie
 tytul: Wyspy Kurylskie
 gry: [srw-oe]
 pochodzenie: skrypt
-zrodla: []
 tagi: [srw-oe, miejsce, pacyfik]
 utworzono: 2026-11-15
 ---
@@ -19,5 +18,5 @@ W [[srw-oe-ep3-interwencja-gundamow|misji „Interwencja Gundamów”]] placówk
 
 {{wiedza gra=wspolne
 
-Wyspy Kurylskie to realny archipelag między Hokkaido a Kamczatką, dziś należący do Rosji; w grze jest wyłącznie miejscem akcji fikcyjnego epizodu o neutralnej strefie nad Pacyfikiem.
+Wyspy Kurylskie to łańcuch wysp wulkanicznych między Hokkaido a Kamczatką, oddzielający Morze Ochockie od otwartego Pacyfiku.
 }}

@@ -16,7 +16,7 @@ utworzono: 2026-11-15
 
 Córka rodu Zabi, dowodząca własnym pionem wywiadu i wojsk [[zeon|Zeonu]]. Za placówką na [[wyspy-kurylskie|Wyspach Kurylskich]] wysłała [[zanzibar|Zanzibar]] z [[mquve|M'Quve'em]] i [[black-tri-stars|Black Tri-Stars]], bo uważała ją za ośrodek badań nad [[newtype|Newtype'ami]] [[earth-federation|Federacji]].
 
-W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] przyjmuje od brata wiadomość, że operacja się nie powiodła, a laboratorium zniszczyły maszyny sił kolonii. Prosi o karę za samowolny ruch [[mquve|M'Quve'a]], a w zamian zgadza się użyczyć [[cyber-beast-force|sił]], które mają związać [[connect-force|Connect]] z [[zeon|Zeonem]] — i przyznaje, że nad badaniami nad Newtype'ami pracuje właśnie z myślą o grze na czas.
+W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] przyjmuje od [[gihren-zabi|brata]] ocenę, że operacja mimo taktycznej porażki stała się zwycięstwem strategicznym, bo maszyny [[sily-kolonii|sił kolonii]] zniszczyły placówkę Federacji. Prosi o ukaranie samowolnego ruchu [[mquve|M'Quve'a]], ma na oku [[garma-zabi|Garmę]] i przyjmuje pełnomocnictwo do rozmów o użyczeniu wojsk [[zeon|Zeonu]], które mają zbliżyć [[connect-force|Connect]] do Księstwa. Przyznaje przy tym, że wobec skuteczności małej grupy zbrojnej trzeba poważnie podejść do badań nad Newtype'ami, do których od dawna przygotowuje grunt, i przestrzega Gihrena, że przy ogromnej przewadze materialnej Federacji gra na czas grozi pogłębieniem różnicy sił.
 }}
 
 {{zrodlo gra=wspolne

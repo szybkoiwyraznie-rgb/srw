@@ -15,29 +15,29 @@
 
 ## 2026-11-16 10:40
 
-- Ćwiczenia wojska, policji i Connect na [[poligon-fuji|poligonie Fuji]] należą do [[mobile-police-patlabor|Patlabora]], a nie do autorskiego wkładu gry — podobnie desant [[zeon|Zeonu]] na [[jaburo|Jaburo]] trzeba czytać razem z [[mobile-suit-gundam-08th-ms-team|08. Plutonem MS]] i [[mobile-suit-gundam-1979|pierwszym Gundamem]], bo każde z tych źródeł mówi o tym starciu co innego.
+- Ćwiczenia wojska, policji i [[connect-force|Connect]] na [[poligon-fuji|poligonie Fuji]] wyrastają z incydentu prototypu [[hal-x10|HAL-X10]] w [[mobile-police-patlabor|Patlaborze]], a obrona [[jaburo|Jaburo]] przed desantem [[zeon|Zeonu]] splata uderzenie [[apsalus-iii|Apsalusa III]] z [[mobile-suit-gundam-08th-ms-team|*08th MS Team*]] z natarciem [[char-aznable|Chara]] z [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
 
 ## 2026-11-16 09:05
 
-- Dwa nieznane Gundamy niszczą obserwatorium [[earth-federation|Federacji]] na Wyspach Kurylskich — archipelagu, który [[srw-oe-ep3-interwencja-gundamow|interwencja Gundamów]] i [[srw-oe-ep3-skradajacy-sie-cien|„Skradający się cień”]] pokazują z dwóch stron, a hasło [[wyspy-kurylskie|Wyspy Kurylskie]] opisuje jako całość.
+- Po odwrocie [[zeon|Zeonu]] dwa nieznane Gundamy obracają w gruzy obserwatorium [[earth-federation|Federacji]] na [[wyspy-kurylskie|Wyspach Kurylskich]] — tajne laboratorium [[cyber-newtype|Cyber-Newtype'ów]] ukryte na bezludnej wyspie strefy neutralnej, z którego ruin wychodzą później [[invaderzy|Invaderzy]].
 
 ## 2026-11-16 00:20
 
-- [[wyspy-kurylskie|Wyspy Kurylskie]]: archipelag na północnym Pacyfiku, który wojna między [[earth-federation|Federacją]] a [[zeon|Zeonem]] objęła strefą neutralną, a potem uczyniła terenem walki o obserwatorium [[garma-zabi|Garmy]] i o laboratorium [[cyber-newtype|Cyber-Newtype'ów]].
+- [[wyspy-kurylskie|Wyspy Kurylskie]]: archipelag na północnym Pacyfiku, który wojna między [[earth-federation|Federacją]] a [[zeon|Zeonem]] objęła strefą neutralną, a potem uczyniła terenem uderzenia [[garma-zabi|Garmy]] na obserwatorium Federacji i walki o ukryte w nim laboratorium [[cyber-newtype|Cyber-Newtype'ów]].
 
 ## 2026-11-15 23:50
 
-- Archipelag Wysp Kurylskich należy do strefy neutralnej nad Pacyfikiem, a jego obserwatorium — do [[earth-federation|Federacji]]; w [[cyber-newtype|historii Cyber-Newtype'ów]] i w losach [[gihren-zabi|Gihrena]] oraz [[kycilia-zabi|Kycilii]] archipelag nie jest już mieszany z wydarzeniami z [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
+- Archipelag [[wyspy-kurylskie|Wysp Kurylskich]] leży w ogłoszonej na czas wojny strefie neutralnej nad północnym Pacyfikiem, a stojące na nim obserwatorium podlega bezpośrednio rządowi [[earth-federation|Federacji]]; po jego zniszczeniu [[gihren-zabi|Gihren]] i [[kycilia-zabi|Kycilia]] ważą dalszą grę dyplomatyczną [[zeon|Zeonu]] wobec [[connect-force|Connect]].
 
 ## 2026-11-15 23:30
 
-- [[sayla-mass|Sayla]], [[fraw-bow|Fraw Bow]] i [[mirai-yashima|Mirai]] zyskują tło z pierwowzoru: Sayla trafia na [[white-base|White Base]] jako studentka medycyny i z braku doświadczonej załogi zostaje oficerem łączności, a potem pilotką; Mirai obejmuje ster dzięki szkoleniu na pilota szybowców i staje się zastępczynią [[bright-noa|Brighta]]; Fraw Bow opiekuje się [[amuro-ray|Amurem]] i trójką dzieci z [[side-7|Side 7]], a wojnę kończy jako oficer łączności okrętu.
+- Na pokładzie [[white-base|White Base]] [[sayla-mass|Sayla Mass]], studentka medycyny, obejmuje z braku doświadczonej załogi łączność, a potem także stery myśliwca; [[mirai-yashima|Mirai Yashima]] prowadzi okręt dzięki szkoleniu na pilotkę szybowców i zostaje zastępczynią [[bright-noa|Brighta]]; [[fraw-bow|Fraw Bow]] dba o [[amuro-ray|Amura]], opiekuje się trójką osieroconych dzieci z [[side-7|Side 7]] i wspiera mostek jako łącznościowiec.
 
 ## 2026-11-15 23:10
 
 - [[setsuna-f-seiei|Setsuna]] mówi wprost, że [[earth-federation|Federacja]] wykorzystuje walczących dla niej, a [[alan-igor|Alan]] wskazuje frakcję w wojsku i producentów broni jako tych, którzy finansują eksperymenty [[cyber-newtype|Cyber-Newtype'ów]]. [[kei|Kei]] podsumowuje, że [[connect-force|Connect Force]] dał się oszukać, a [[himari-yaegaki|Himari]] chce szukać ocalałych w gruzach laboratorium na Wyspach Kurylskich.
 - [[sily-kolonii|Siły kolonii]] rozważą ograniczony udział w Connect Force pod warunkiem, że nikt nie będzie ingerował w ich działania; bez entuzjazmu przyjmują to [[himari-yaegaki|Himari]] i policjanci Drugiego Plutonu.
-- Rozmowa [[gihren-zabi|Gihrena]] z [[kycilia-zabi|Kycilią]] o karze za samowolny ruch [[mquve|M'Quve'a]] i o użyczeniu sił, które mają zbliżyć Connect do [[zeon|Zeonu]], należy do scenariusza gry — serial nie zna sojuszu z neutralną organizacją.
+- [[gihren-zabi|Gihren]] i [[kycilia-zabi|Kycilia]] uzgadniają karę za samowolny ruch [[mquve|M'Quve'a]] oraz plan użyczenia wojsk [[zeon|Zeonu]], które mają zbliżyć [[connect-force|Connect]] do Księstwa, choć Kycilia przestrzega brata przed grą na czas wobec przewagi materialnej Federacji.
 
 ## 2026-11-15 22:05
 

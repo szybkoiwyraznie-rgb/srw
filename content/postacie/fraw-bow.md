@@ -23,7 +23,7 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatniej misji epizodu]] odczytuje na mo
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-1979|pierwowzorze]] Fraw Bow (フラウ・ボゥ) jest najbliższą przyjaciółką [[amuro-ray|Amura]] i to ona dba o to, żeby zapracowany konstruktor jadł, spał i po sobie sprzątał. Po ataku na Side 7 trafia z nim na [[white-base|White Base]] i oprócz Amura opiekuje się trójką osieroconych dzieci z kolonii. Wojnę kończy na mostku okrętu jako oficer łączności ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-11-15).
+W [[mobile-suit-gundam-1979|pierwowzorze]] Fraw Bow (フラウ・ボゥ) jest najbliższą przyjaciółką [[amuro-ray|Amura]] i to ona dba o to, żeby zapracowany konstruktor jadł, spał i po sobie sprzątał. Po ataku na [[side-7|Side 7]] trafia z nim na [[white-base|White Base]], opiekuje się trójką osieroconych dzieci z kolonii — Katzem, Letzem i Kikką — i wspiera załogę mostka jako łącznościowiec ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-11-16).
 }}
 
 {{menu gra=srw-oe
