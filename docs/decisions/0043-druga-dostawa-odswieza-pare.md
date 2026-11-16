@@ -50,3 +50,18 @@ duplikatów treści i łamały strażników unikalności slugów.
   `node tools/uczestnicy-dostaw.mjs` pokrywa 218 par bez zmian w narzędziu.
 - Gdyby kiedyś trzeba było pokazać oba warianty równocześnie, trzeba będzie
   wprowadzić wersjonowanie etapu w `w_gre` i osobną decyzję — dziś tego nie ma.
+
+## Adnotacja (2026-11-16)
+
+Sprostowania faktyczne po audycie PR #37:
+
+- W `dostawa_1_2a.txt` A. Advent **nie traci** jednopojedynkowego wariantu „Rakiet MWCT” —
+  zachowuje oba warianty z prologu (miejsce 1 i miejsce 2 MAP), a dostaje nowe miejsce 3
+  „Podwójne działo energetyczne”. Sama zasada z pkt 3 (gdyby przyszła dostawa pominęła
+  wcześniejszą broń, nie gubimy jej po cichu) pozostaje w mocy.
+- Ta sama reguła odświeżania w miejscu dotyczy kart parametrów pilotów w `## Parametry`:
+  kolejna dostawa może odsłonić nowe Komendy Ducha lub umiejętności istniejących postaci
+  (w `dostawa_1_2a.txt` drugi slot Ducha u Anniny Servanii, Gaumy i Yomogiego Asanaki).
+- `tools/uczestnicy-dostaw.mjs` zostało w PR #37 rozszerzone o rozpoznawanie nagłówka
+  sekcji pilotów z `dostawa_1_2a.txt` i obejmuje 230 przypisań „nazwa → seria” oraz
+  400 par „jednostka — pilot”.

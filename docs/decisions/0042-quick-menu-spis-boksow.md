@@ -58,3 +58,8 @@ czy każda pozycja celuje w istniejącą kotwicę w kolumnie głównej, czy nie
 ma powtórzeń i pustych tytułów oraz że przy jednym boksie menu znika.
 Nagłówki encji mają odtąd atrybut `id`, więc testy dopasowujące `<h2>`
 literalnie musiały dostać `[^>]*` — to konsekwencja kotwic, nie zmiana układu.
+
+## Adnotacja (2026-11-16)
+
+W pkt 5 odesłanie dotyczące routera opartego na hashu wskazuje ADR 0002
+(architektura witryny i router hash), a nie ADR 0001.

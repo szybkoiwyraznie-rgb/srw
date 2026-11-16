@@ -76,7 +76,8 @@ fabularne” epizodu (ADR 0031), a pilnuje go `test/watki-scen.test.js`.
 Strona epizodu dzieli się na osobne boksy: streszczenie, wątki fabularne i komentarz mają własne tło,
 podobnie jak „Postacie i maszyny” (wraz z podsekcją „Nawiązania”) i „Inne źródła i rozbieżności”.
 Nowy nagłówek `##` w treści epizodu otwiera nowy boks, a zmiana bloku poziomu bez nagłówka zamyka
-poprzedni. Lista scen stoi na dole prawej kolumny, pod obsadą epizodu.
+poprzedni. Lista scen stoi na górze strony na pełną szerokość, nad obiema kolumnami, a u szczytu
+prawej kolumny pojawia się spis boksów (ADR 0042).
 
 ## 2. Wpis epizodu (agregacja scen)
 
