@@ -7,6 +7,8 @@ typ_mecha: inne
 gry: [srw-y]
 piloci: []
 pochodzenie: menu
+zrodla:
+  - https://getterrobo.fandom.com/wiki/Zordo_XX
 tagi: [srw-y, getter-robo, antagonista]
 utworzono: 2026-11-16
 w_gre:
@@ -16,7 +18,21 @@ w_gre:
 
 Gigantyczna broń wysłana przez tajemniczego wroga. Dolną część ciała pokrywają niezliczone macki, którymi przebija przeciwników, a z jedynego oka w górnej części strzela wiązkami. Ma tak wytrzymały pancerz, że nie imają się go ani Getter Tomahawk, ani Getter Beam.
 
-W [[srw-y|Super Robot Wars Y]] walczy w misji „Przebudzenie niebiańskiego demona” jako „ten wielki”: spada z góry na Gettera D2, którym pilotuje [[takuma-nagare|Takuma]], i bierze górę, dopóki [[show-kamui|Kamui]] nie sprowadza [[getter-arc|Getter Arca]]. Gra ma go wśród jednostek grywalnych i daje mu własną kartę pilota, więc nie jest wyłącznie wrogim celem na mapie.
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] spada z góry w pobliżu góry Asama — [[takuma-nagare|Takuma Nagare]] mówi o nim „ten wielki” — i spycha do obrony [[getter-d2|Gettera D2]], którego pilotuje Takuma z [[baku-yamagishi|Baku Yamagishim]]. Dopiero gdy [[show-kamui|Show Kamui]] przyprowadza [[getter-arc|Getter Arca]], a chłopcy przesiadają się z D2 będącego na granicy wytrzymałości, trójka pilotów wraz z [[a-advent|A. Adventem]] i [[lunedrache|Lunedrache]] rozbija napastnika.
+}}
+
+{{zrodlo gra=wspolne
+
+W mandze [[getter-robo-arc|*Getter Robo Arc*]] Zordo XX pojawia się jako pierwsza wielka broń biologiczna rzucona do szturmu na [[laboratorium-saotome|Laboratorium Saotome]]: przytłacza broniące ośrodka [[getter-d2|Gettery D2]], po czym zostaje zniszczony połączonym ogniem promieni Gettera z przejętego przez [[takuma-nagare|Takumę]] i [[baku-yamagishi|Baku]] D2 oraz nadlatującego [[getter-arc|Getter Arca]] ([Getter Robo Wiki, *Zordo XX*](https://getterrobo.fandom.com/wiki/Zordo_XX); sprawdzono 2026-11-16).
+}}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Zordo XX — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Zordo%20XX.png)
 }}
 
 {{menu gra=srw-y
@@ -40,6 +56,4 @@ W [[srw-y|Super Robot Wars Y]] walczy w misji „Przebudzenie niebiańskiego dem
 | ------: | ------ | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------- |
 |       0 | Macki  |       3000 | 1–3    |        10 |   5 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
 |       1 | Wiązka |       3100 | 2–6    |         0 |  10 |        0 |      0 | —       | —                                                                |
-
----
 }}

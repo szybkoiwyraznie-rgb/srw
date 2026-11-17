@@ -49,7 +49,7 @@ W [[kanzen-shouri-daiteioh|pierwowzorze]] Taro Omomo (大桃 タロウ) to dzies
 | **Celność** |            133 |
 | **Unik**    |             65 |
 
-**Komendy Ducha (*Spirit Commands*):**
+**Komendy Ducha (Spirit Commands):**
 
 | Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                    |
 | ---: | ------------- | ---------: | -------: | ----------------------------------------------- |

@@ -43,7 +43,7 @@ W [[genki-bakuhatsu-ganbaruger|pierwowzorze]] Rikiya Ryuzaki (流崎 力哉) jes
 
 **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
 
-**Komendy Ducha (*Spirit Commands*):**
+**Komendy Ducha (Spirit Commands):**
 
 | Slot | Duch      | Poz. nauki | Koszt SP | Efekt bazowy                                     |
 | ---: | --------- | ---------: | -------: | ------------------------------------------------ |

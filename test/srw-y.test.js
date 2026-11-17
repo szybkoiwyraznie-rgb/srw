@@ -30,6 +30,9 @@ const MECHY = [
   'lancelot-albion-zero', 'lumenus', 'taurus', 'zamza-zah',
   'getter-arc', 'insector', 'zordo-xx',
 ];
+// Formy po transformacji z dodatku do misji 1-2A żyją w grafie gry i załogi,
+// dopóki dialog sceny ich nie użyje (ADR 0023 pkt 4).
+const FORMY_PO_TRANSFORMACJI = ['getter-kirik', 'getter-khan'];
 // Druga misja epizodu (1-2A) dopisuje do obsady postacie Getter Robo Arc
 // i SSSS.DYNAZENON — mówców, którzy nie występowali w prologu.
 const POSTACIE_Z_MISJI_2A = [
@@ -157,9 +160,13 @@ test('SRW Y: wszystkie profile mechów zachowują dane menu pod zakresem srw-y',
   // Kolejna misja uzupełnia albo odświeża rekord tej samej pary (mech, gra),
   // więc źródłem bywa późniejsze archiwum — A. Advent i Lunedrache mają dane
   // z misji 2A, a nie z prologu.
-  const POZNIEJSZE = Object.fromEntries(['a-advent', 'lunedrache', 'getter-arc', 'insector', 'zordo-xx']
-    .map((s) => [s, 'dostawy/srw-y/dostawa_1_2a.txt']));
-  for (const slug of MECHY) {
+  const POZNIEJSZE = {
+    ...Object.fromEntries(['a-advent', 'lunedrache', 'getter-arc', 'insector', 'zordo-xx']
+      .map((s) => [s, 'dostawy/srw-y/dostawa_1_2a.txt'])),
+    'getter-kirik': 'dostawy/srw-y/Y_dostawa_1_2a_dodatek.txt',
+    'getter-khan': 'dostawy/srw-y/Y_dostawa_1_2a_dodatek.txt',
+  };
+  for (const slug of [...MECHY, ...FORMY_PO_TRANSFORMACJI]) {
     const mech = bySlug.get(slug);
     assert.deepEqual(mech.gry, ['srw-y'], slug);
     const wpis = mech.w_gre?.['srw-y'];
@@ -172,7 +179,7 @@ test('SRW Y: wszystkie profile mechów zachowują dane menu pod zakresem srw-y',
 });
 
 test('SRW Y: relacje encji prowadzą do epizodu, scen i serii', () => {
-  for (const slug of [...POSTACIE, ...POSTACIE_Z_PROLOGU, ...MECHY]) {
+  for (const slug of [...POSTACIE, ...POSTACIE_Z_PROLOGU, ...MECHY, ...FORMY_PO_TRANSFORMACJI]) {
     const strona = bySlug.get(slug);
     assert.ok(strona.gry.includes('srw-y'), `${slug}: gra`);
     assert.ok(strona.body.includes('gra=srw-y'), `${slug}: zakres bloków`);
@@ -189,25 +196,37 @@ test('SRW Y: relacje encji prowadzą do epizodu, scen i serii', () => {
 });
 
 test('SRW Y: każdy nazwany mówca scen 1-1C i 1-2A jest postacią w obsadzie swojej sceny i epizodu', () => {
-  const scena = bySlug.get(SCENA);
-  const scena2a = bySlug.get('srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona');
-  const mowiacy = [...skrypt.matchAll(/^\s*>?\s*\*\*([^*]+):\*\*/gm)].map((match) => match[1]);
-  assert.ok(mowiacy.length > 0, 'skrypt zawiera nazwanych mówców');
-  for (const nazwa of new Set(mowiacy)) {
-    if (GLOSY_ZBIOROWE.has(nazwa)) continue;
-    const slug = POSTACIE_Z_DIALOGU[nazwa];
-    assert.ok(slug, `brak rozpoznania mówcy: ${nazwa}`);
-    const strona = bySlug.get(slug);
-    assert.equal(strona?.typ, 'postac', `${nazwa}: mówca jest postacią (ADR 0013)`);
-    assert.ok(strona.gry.includes('srw-y'), `${nazwa}: powiązanie z grą`);
-    const wScenie = scena.postacie.includes(slug) || scena2a.postacie.includes(slug);
-    assert.ok(wScenie, `${nazwa}: relacja postaci sceny`);
-    assert.ok(epizod.postacie.includes(slug), `${nazwa}: relacja postaci epizodu`);
+  const sceny = [
+    bySlug.get(SCENA),
+    bySlug.get('srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona'),
+  ];
+  const widzialni = new Set();
+  for (const sc of sceny) {
+    const blok = sc.body.match(/:::skrypt\n([\s\S]*?)\n:::/)?.[1] ?? '';
+    const mowiacy = [...blok.matchAll(/^\s*>?\s*\*\*([^*]+):\*\*/gm)].map((match) => match[1]);
+    assert.ok(mowiacy.length > 0, `${sc.slug}: skrypt zawiera nazwanych mówców`);
+    for (const nazwa of new Set(mowiacy)) {
+      if (GLOSY_ZBIOROWE.has(nazwa)) continue;
+      widzialni.add(nazwa);
+      const slug = POSTACIE_Z_DIALOGU[nazwa];
+      assert.ok(slug, `${sc.slug}: brak rozpoznania mówcy: ${nazwa}`);
+      const strona = bySlug.get(slug);
+      assert.equal(strona?.typ, 'postac', `${nazwa}: mówca jest postacią (ADR 0013)`);
+      assert.ok(strona.gry.includes('srw-y'), `${nazwa}: powiązanie z grą`);
+      assert.ok(sc.postacie.includes(slug), `${sc.slug}: ${nazwa} w obsadzie sceny`);
+      assert.ok(epizod.postacie.includes(slug), `${nazwa}: relacja postaci epizodu`);
+    }
+  }
+  const wszyscyZEpizodu = [...skrypt.matchAll(/^\s*>?\s*\*\*([^*]+):\*\*/gm)]
+    .map((m) => m[1])
+    .filter((n) => !GLOSY_ZBIOROWE.has(n));
+  for (const nazwa of new Set(wszyscyZEpizodu)) {
+    assert.ok(widzialni.has(nazwa), `${nazwa}: mówca z ep001.md obecny w jednej ze scen`);
   }
 });
 
 test('SRW Y: opisy encyklopedyczne są widoczne w Markdown, a brakujące pozostają puste', () => {
-  for (const slug of MECHY) {
+  for (const slug of [...MECHY, ...FORMY_PO_TRANSFORMACJI]) {
     assert.match(bySlug.get(slug).body, /\{\{menu gra=srw-y\n\n(?!## )\S/, `${slug}: opis mecha`);
   }
   for (const slug of POSTACIE.filter((x) => !['agent', 'zaawansowana-si', 'mobile-doll'].includes(x))) {

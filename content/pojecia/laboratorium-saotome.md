@@ -3,13 +3,15 @@ typ: pojecie
 slug: laboratorium-saotome
 tytul: "Laboratorium Saotome"
 gry: [srw-y]
-pochodzenie: menu
+pochodzenie: skrypt
 tagi: [miejsce, getter-robo]
 utworzono: 2026-11-16
 ---
-{{menu gra=srw-y
+{{skrypt gra=srw-y
 
-Ośrodek badawczy na zboczu góry Asama, kierowany przez [[hayato-jin|Hayato Jina]]. Prowadzi badania nad [[promienie-gettera|promieniami Gettera]], buduje maszyny z nimi współpracujące i wystawia oddział Getter D2 do walki z nieznanym wrogiem, który pojawia się w różnych miejscach Ziemi. W dziale uzbrojenia pracuje [[shikishima|doktor Shikishima]], a zespołem obsługi D2 dowodzi [[igari|Igari]].
+Ośrodek badawczy na górze Asama, kierowany przez [[hayato-jin|Hayato Jina]]; od pierwszych dni jego istnienia za konstrukcję broni odpowiada [[shikishima|doktor Shikishima]], a w hangarze pracuje [[igari|Igari]]. Dziesięć lat wcześniej laboratorium było zamknięte w czasie usuwania skutków poprzedniej wojny.
 
-W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] laboratorium prowadzi walkę w tajemnicy przed światem: [[insector|Insectorzy]] atakują [[a-advent|A. Advent]] zamiast ośrodka, a [[hayato-jin|Hayato]] wysyła przeciw nim Getter D2 i użycza Getter Arc załodze okrętu. [[hayato-jin|Hayato]] nie chce jednak dopuścić, by wróg odkrył, co kryje się pod laboratorium: A. Advent ma odciągnąć Insectorów, a [[getter-arc|Getter Arc]] jest przygotowaną na to przynętą, na której chłopcy nabiorą bojowego doświadczenia.
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] ośrodek toczy nieogłoszoną publicznie wojnę z [[insectorzy|Insectorami]]. Gdy w pobliżu góry Asama wróg uderza na [[a-advent|A. Advent]] zamiast na laboratorium, Hayato wysyła oddział [[getter-d2|Getter D2]], a po rozpoznaniu w [[takuma-nagare|Takumie Nagare]] syna [[ryoma-nagare|Ryomy]] każe wystartować [[getter-arc|Getter Arcowi]]. Po bitwie obejmuje okręt ochroną, dostarcza mu amunicję i powierza Getter Arca jako siłę odstraszającą wobec rządu Japonii — w rozmowie z Shikishimą przyznaje jednak, że A. Advent ma odciągnąć Insectorów jako wabik, by nie odkryli, co kryje się pod laboratorium, a Arc służy za przynętę i poligon dla młodych pilotów.
+
+Pod kierunkiem [[hayato-jin|Hayato Jina]] — następcy zmarłego [[doktor-saotome|doktora Saotome]] — laboratorium prowadzi badania nad [[promienie-gettera|promieniami Gettera]], utrzymuje oddział [[getter-d2|Getter D2]] z zespołem obsługi [[igari|Igariego]] i posiada dział rozwoju uzbrojenia kierowany przez [[shikishima|Shikishimę]], konstruującego również systemy obronne całego ośrodka; to tutaj wychował się i szkolił na pilota [[show-kamui|Show Kamui]].
 }}

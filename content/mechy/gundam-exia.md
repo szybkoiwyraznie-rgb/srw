@@ -9,6 +9,8 @@ piloci: [setsuna-f-seiei]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_3_1.txt", "profil": "Gundam Exia", "dane": "**Seria:** Mobile Suit Gundam 00\n### Macierzyste zdolności maszyny\n- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%\n- **Odnowa EN (poziom bazowy 1):** EN co turę+4%\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale |\n|---:|---|---:|:---:|---:|---:|---:|\n| 0 | Działko Vulcan GN | 2000 | 1–3 | +35 | 0 | — |\n| 1 | Szabla wiązkowa GN | 3300 | 1–1 | +60 | 5 | — |\n| 2 | GN Sword (tryb karabinu) | 2500 | 1–4 | +0 | 10 | — |\n| 3 | GN Sword | 3700 | 1–1 | +40 | 15 | — |\n| 4 | Trans-Am/Przebicie | 3500 | 1–9 | +20 | 60 | 130 |\n| 5 | Trans-Am | 5400 | 1–3 | +15 | 40 | 120 |"}'
 pochodzenie: skrypt
+zrodla:
+  - https://gundam.fandom.com/wiki/GN-001_Gundam_Exia
 tagi: [gundam-00, mobile-suit, gundam]
 utworzono: 2026-11-13
 ---
@@ -22,9 +24,9 @@ Uzbrojenie obejmuje działko Vulcan GN, szablę wiązkową GN, GN Sword w trybie
 
 }}
 
-{{wiedza gra=wspolne
+{{zrodlo gra=wspolne
 
-[[gundam-exia|Gundam Exia]] to maszyna typu GN-001 z [[mobile-suit-gundam-00|*Mobile Suit Gundam 00*]], zbudowana w ramach projektu Celestial Being i zasilana generatorem GN. Jej konstrukcja jest nastawiona na walkę wręcz, a GN Sword łączy ostrze z bronią palną. Ten opis ogranicza się do cech maszyny; wydarzenia z serialu wykraczające poza rozegraną misję nie są tu opisywane.
+W pierwowzorze [[mobile-suit-gundam-00|*Mobile Suit Gundam 00*]] GN-001 Gundam Exia to [[mobile-suit|mobile suit]] trzeciej generacji organizacji Celestial Being z roku 2307 n.e., wywodzący się z prototypu GNY-001 Gundam Astraea, opancerzony E-Carbonem i zasilany półwiecznym napędem GN. Emitowane przez napęd cząsteczki GN zapewniają samodzielny lot, zmniejszają masę maszyny i zakłócają konwencjonalną łączność oraz radary, a nadmiar cząsteczek gromadzą kondensatory GN. Od kryptonimu rozwojowego „Seven Swords” Exia przenosi siedem ostrzy — trzy fizyczne (składany GN Sword z trybem karabinu, GN Long Blade i GN Short Blade) oraz po dwie szable i sztylety wiązkowe GN — uzupełnione rozkładaną tarczą GN i parą działek Vulcan GN w przedramionach ([Gundam Wiki, *GN-001 Gundam Exia*](https://gundam.fandom.com/wiki/GN-001_Gundam_Exia); sprawdzono 2026-11-16).
 
 }}
 

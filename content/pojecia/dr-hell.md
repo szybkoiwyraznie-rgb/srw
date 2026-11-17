@@ -2,7 +2,7 @@
 typ: pojecie
 slug: dr-hell
 tytul: Dr Hell
-gry: [srw-oe]
+gry: [srw-oe, srw-y]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Mazinger_Z
@@ -16,6 +16,13 @@ Dr Hell jest wymieniony wśród zagrożeń związanych ze wzrostem siły terrory
 Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] obawa przed jego kolejnymi machinacjami skłania [[instytut-energii-fotonowej|Instytut Energii Fotonowej]] do wysłania [[koji-kabuto|Kojiego Kabuto]] w [[mazinger-z|Mazingerze Z]] na zbadanie podziemnych wstrząsów, choć na miejscu okazuje się, że za atakiem stoją [[mucus|Mucus]], [[invaderzy|Invaderzy]] i [[mechanization-empire|Imperium Mechanizacji]].
+}}
+
+{{skrypt gra=srw-y
+
+Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] [[koji-kabuto|Koji Kabuto]] wspomina, że pokonano już siły doktora Hella, a rok później w [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|hangarze A. Adventu]] [[wren|Wren]] wymienia zakończoną wojnę z doktorem Hellem obok odparcia [[campbellianie|Campbellian]] i wygasłej inwazji [[imperium-yoma|Imperium Yoma]].
+
+Wielkie zamachy terrorystyczne Dr. Hella należały do kryzysów towarzyszących [[wojna-rewolucyjna|wojnie rewolucyjnej]] w roku NUC 058.
 }}
 
 {{zrodlo gra=wspolne

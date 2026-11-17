@@ -95,12 +95,7 @@ test('menu ma sens tylko od dwóch boksów: przy jednym znika', () => {
   let zMenu = 0;
   let bezMenu = 0;
   for (const s of Object.values(DANE)) {
-    const html = rysuj(s);
-    const c = czesci(html);
-    const kotwiceGlownej = [...c.glowna.matchAll(/<h2[^>]*\bid="([^"]+)"/g)].map((m) => m[1]);
-    // Kotwice boksu epizodu i sekcji sceny to `<section id="…">`, nie nagłówki.
-    const sekcjeStrony = [...c.glowna.matchAll(/<section class="sekcja-strony" id="([^"]+)"/g)].map((m) => m[1]);
-    const boksy = new Set([...kotwiceGlownej, ...sekcjeStrony]);
+    const c = czesci(rysuj(s));
     if (c.menu) {
       zMenu += 1;
       assert.ok(cele(c.menu).length >= 2, `${s.slug}: menu z mniej niż dwiema pozycjami`);
@@ -126,7 +121,7 @@ test('spis nie powtarza pozycji i nie pokazuje pustych tytułów', () => {
 test('menu pojawia się dokładnie od dwóch boksów, nie wcześniej', () => {
   // Boksy kolumny głównej: sekcje sceny i epizodu oraz nagłówki i własne listy encji.
   const korzenie = (glowna) => [
-    ...glowna.matchAll(/<(?:section|div)[^>]*\bid="(sekcja-[^"]+|boks-[^"]+|boks-epizodu-[^"]+)"/g),
+    ...glowna.matchAll(/<(?:section|div)[^>]*\bid="(sekcja-[^"]+|boks-[^"]+)"/g),
     ...glowna.matchAll(/<h2[^>]*\bid="(boks-[^"]+)"/g),
   ].length;
 

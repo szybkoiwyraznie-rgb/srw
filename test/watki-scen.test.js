@@ -14,21 +14,22 @@ import assert from 'node:assert/strict';
 import { wczytajStrony } from '../tools/content-loader.mjs';
 
 const strony = wczytajStrony();
+const bySlug = new Map(strony.map((p) => [p.slug, p]));
 const sceny = strony.filter((p) => p.typ === 'scena');
 const NAGLOWEK = '## Wątki w scenie';
 const KOLUMNY = ['Motyw w scenie', 'Źródło', 'Odcinek w źródle', 'Różnice'];
 
 /**
- * Surowa treść sekcji „Wątki w scenie” z ciała strony, bez zamykającego `}}`
- * bloku poziomu wiarygodności (sekcja jest ostatnia w pliku sceny).
+ * Surowa treść sekcji „Wątki w scenie” z ciała strony, bez znaczników bloku
+ * poziomu wiarygodności przed ewentualnym następnym nagłówkiem `##`.
  */
 function sekcja(page) {
   const start = page.body.indexOf(NAGLOWEK);
   if (start < 0) return null;
   const reszta = page.body.slice(start + NAGLOWEK.length);
-  const koniec = reszta.search(/^## /m);
+  const koniec = reszta.search(/^(?:## |\{\{[a-z]+)/m);
   const tresc = koniec < 0 ? reszta : reszta.slice(0, koniec);
-  return tresc.replace(/^\s*\}\}\s*$/m, '');
+  return tresc.replace(/^\s*\}\}\s*$/gm, '');
 }
 
 /** Komórki wiersza tabeli bez skrajnych pionków; `\|` w wikilinkach nie dzieli komórek. */
@@ -74,12 +75,17 @@ test('każdy wątek sceny ma wypełnione źródło i odcinek w źródle', () => 
   for (const page of sceny) {
     const tresc = sekcja(page);
     if (tresc === null) continue;
+    const gra = bySlug.get(page.epizod)?.gra;
     const wiersze = tresc.split('\n').map((l) => l.trim()).filter((l) => l.startsWith('|')).slice(2);
     for (const wiersz of wiersze) {
       const [, zrodlo, odcinek] = komorki(wiersz);
       assert.ok(zrodlo && zrodlo.length > 0, `${page.slug}: wątek bez źródła — ${wiersz}`);
       assert.match(odcinek, /^(?:odc\.\s*\d|cała seria$|n\/d$)/,
         `${page.slug}: „Odcinek w źródle” musi być odcinkiem, całą serią lub n/d — ${odcinek}`);
+      if (odcinek === 'n/d' && gra) {
+        assert.ok(zrodlo.includes(`[[${gra}`),
+          `${page.slug}: przy „n/d” źródłem musi być gra ${gra}, nie ${zrodlo}`);
+      }
     }
   }
 });

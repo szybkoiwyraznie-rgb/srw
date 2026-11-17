@@ -3,13 +3,15 @@ typ: pojecie
 slug: promienie-gettera
 tytul: "Promienie Gettera"
 gry: [srw-y]
-pochodzenie: menu
+pochodzenie: skrypt
 tagi: [technologia, zjawisko, getter-robo]
 utworzono: 2026-11-16
 ---
-{{menu gra=srw-y
+{{skrypt gra=srw-y
 
-Energia, na której pracują maszyny Gettera i którą bada [[laboratorium-saotome|Laboratorium Saotome]]. Długotrwałe nasiąknięcie nią zmienia ciało: [[shikishima|Shikishima]] mówi, że dziecko [[ryoma-nagare|Ryomy Nagarego]] mogło przyjść na świat z promieniami w szpiku, a [[takuma-nagare|Takuma]] znosi przeciążenia, które zwykłego człowieka dawno by zmiażdżyły.
+Energia związana z maszynami Gettera, kłębiąca się w [[laboratorium-saotome|Laboratorium Saotome]]. Dziesięć lat wcześniej do dojo [[takuma-nagare|Takumy Nagare]] przyszli nieznani ludzie podający się za wysłanników laboratorium, którzy zażądali jego ciała do badań nad promieniami Gettera i zabili jego matkę, gdy odmówiła. [[shikishima|Shikishima]] nazywa Takumę dzieckiem promieni Gettera — synem [[ryoma-nagare|Ryomy]], który latami nimi nasiąkał, więc chłopiec mógł przyjść na świat przesiąknięty nimi do szpiku kości.
 
-W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] promienie Gettera są celem [[insector|Insectorów]]: wróg atakuje wyłącznie Gettera i znika, jakby coś sprawdzał. Kiedy Takuma i [[baku-yamagishi|Baku]] czują wzbierającą z głębi ziemi energię, [[hayato-jin|Hayato]] uznaje to za wezwanie samego Gettera.
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] kiedy Takuma i [[baku-yamagishi|Baku Yamagishi]] wyczuwają energię wzbierającą z głębi ziemi pod laboratorium, Shikishima i [[hayato-jin|Hayato Jin]] uznają to za wezwanie i wolę samego Gettera. Takuma decyduje się przyjąć stery [[getter-arc|Getter Arca]], licząc, że zabójcy matki — polujący na promienie Gettera i jego ciało — sami po niego przyjdą.
+
+Badania nad promieniami Gettera kontynuuje w [[laboratorium-saotome|Laboratorium Saotome]] [[hayato-jin|Hayato Jin]], wierny spuściźnie zmarłego [[doktor-saotome|doktora Saotome]].
 }}

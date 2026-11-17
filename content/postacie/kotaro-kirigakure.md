@@ -49,7 +49,7 @@ W [[genki-bakuhatsu-ganbaruger|pierwowzorze]] Kotaro Kirigakure (霧隠 虎太�
 | **Celność** |            124 |
 | **Unik**    |             81 |
 
-**Komendy Ducha (*Spirit Commands*):**
+**Komendy Ducha (Spirit Commands):**
 
 | Slot | Duch      | Poz. nauki | Koszt SP | Efekt bazowy                                    |
 | ---: | --------- | ---------: | -------: | ----------------------------------------------- |

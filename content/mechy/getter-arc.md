@@ -7,6 +7,9 @@ typ_mecha: getter
 gry: [srw-y]
 piloci: [takuma-nagare, baku-yamagishi, show-kamui]
 pochodzenie: menu
+zrodla:
+  - https://en.wikipedia.org/wiki/Getter_Robo_Arc
+  - https://getterrobo.fandom.com/wiki/Getter_Robo_Arc_(Mecha)
 tagi: [srw-y, getter-robo, super-robot]
 utworzono: 2026-11-16
 w_gre:
@@ -14,11 +17,23 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-Czwarta generacja [[getter-robo-arc|Gettera Robo]], złożona z trzech Get Machine: Arc, Kirik i Khan. Nazywany ostatnią spuścizną doktora Saotome, byłego dyrektora Laboratorium Saotome. W porównaniu z wcześniejszymi Getterami jest stabilniejszy, oszczędniej gospodaruje energią i ma większą siłę bojową; potrafi latać z ogromną prędkością, choć przeciążenia dają się we znaki pilotom.
+Getter Robo powstały z połączenia trzech Get Machine w kolejności Arc, Kirik i Khan — podstawowa konfiguracja obok [[getter-kirik|Getter Kirika]] i [[getter-khan|Getter Khana]]. To Getter Robo czwartej generacji, nazywany ostatnią spuścizną [[doktor-saotome|doktora Saotome]], byłego dyrektora [[laboratorium-saotome|Laboratorium Saotome]]. W porównaniu z wcześniejszymi Getter Robo jest znacznie stabilniejszy, oszczędniej gospodaruje energią i ma większą siłę bojową. Potrafi latać z ogromną prędkością, choć poddaje pilotów wielkim przeciążeniom. Uzbrojenie obejmuje m.in. Battle Shot Cutter, tnący wysuwanymi ostrzami na ramionach, oraz Thunder Bomber, rażący piorunami we wszystkie strony, a także Getter Beam i Getter Tomahawk.
 
-Uzbrojenie łączy wysuwane ostrza ramion (Battle Shot Cutter), Getter Beam, czyli promień [[promienie-gettera|promieni Gettera]], topór (Getter Tomahawk) i Thunder Bomber, rażący piorunami we wszystkie strony. Polecenie „Transformacja” zmienia formę maszyny i głównego pilota, nie zużywając akcji.
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] [[hayato-jin|Hayato Jin]] wysyła Getter Arca pod sterami [[show-kamui|Show Kamuia]], gdy [[takuma-nagare|Takuma Nagare]] i [[baku-yamagishi|Baku Yamagishi]] walczą w przejętym po poległym pilocie [[getter-d2|Getterze D2]]. Gdy D2 dociera do granicy wytrzymałości, Takuma i Baku przesiadają się do Arca — bez kombinezonów wzmacniających jego moc pozostaje ograniczona, a ciało wytrzymuje przeciążenia ledwie kilka minut — i razem z Kamuiem, [[lunedrache|Lunedrache]] oraz [[a-advent|A. Adventem]] niszczą [[zordo-xx|Zordo XX]] i [[insector|Insectorów]]. Po bitwie Hayato przenosi maszynę z trójką pilotów na A. Advent jako siłę odstraszającą wobec zabiegów rządu Japonii i obronę mieszkańców [[miasto-yagami|miasta Yagami]], a prywatnie także jako przynętę mającą odciągnąć Insectorów od tego, co kryje się pod [[laboratorium-saotome|Laboratorium Saotome]].
+}}
 
-W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] [[takuma-nagare|Takuma Nagare]] i [[baku-yamagishi|Baku Yamagishi]] przejmują porzucony Getter D2, a potem przesiadają się do Arca pod dowództwem [[show-kamui|Kamuia]], wysłanego przez [[hayato-jin|Hayato Jina]].
+{{zrodlo gra=wspolne
+
+W pierwowzorze [[getter-robo-arc|*Getter Robo Arc*]] tytułowy super robot stanowi ostatnie dziedzictwo [[doktor-saotome|doktora Saotome]] w [[laboratorium-saotome|Laboratorium Saotome]], kierowanym przez [[hayato-jin|Hayato Jina]] ([Wikipedia, *Getter Robo Arc*](https://en.wikipedia.org/wiki/Getter_Robo_Arc); sprawdzono 2026-11-16). Nazwy jego trzech konfiguracji pochodzą od sanskryckich sylab nasiennych bóstw buddyjskich — Arc od Wajroczany, [[getter-kirik|Kirik]] od Amitabhy i [[getter-khan|Khan]] od Aćali — a podstawowa forma Getter Arc walczy podwójnymi toporami Getter Tomahawk (łączonymi też w dwustronny Double Labyrinthus), pazurami i uzębioną paszczą Getter Crush, promieniem Gettera z czoła oraz obszarowym wyładowaniem Thunder Bomber z dziewięciu rozkładanych segmentów skrzydeł ([Getter Robo Wiki, *Getter Robo Arc (Mecha)*](https://getterrobo.fandom.com/wiki/Getter_Robo_Arc_(Mecha)); sprawdzono 2026-11-16).
+}}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Getter Arc — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Getter%20Arc.png)
 }}
 
 {{menu gra=srw-y
@@ -52,6 +67,4 @@ W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie n
 |         |                    |            |        |           |     |          |        |         | **Ochrona sojuszników:** Tryb                                                            |
 |       4 | Thunder Bomber     |       6000 | 2–4    |        15 |  70 |        0 |    120 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                         |
 |         |                    |            |        |           |     |          |        |         | **Ignoruje rozmiar:** Ignoruje spadek obrażeń przy ataku na jednostkę większą od twojej. |
-
----
 }}

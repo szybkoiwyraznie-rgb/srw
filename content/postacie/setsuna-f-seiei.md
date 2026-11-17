@@ -7,20 +7,22 @@ rola: pilot
 gry: [srw-oe]
 mechy: [gundam-exia]
 pochodzenie: skrypt
+zrodla:
+  - https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_00_characters
 tagi: [gundam-00, pilot]
 utworzono: 2026-11-13
 ---
 {{skrypt gra=srw-oe
 
-Pilot [[gundam-exia|Gundam Exia]], który pojawia się nad Wyspami Kurylskimi już po odwrocie sił [[zeon|Zeonu]]. Melduje, że maszyna dotarła do punktu docelowego, i przechodzi do drugiej fazy — po czym obserwatorium, którego bronił [[connect-force|Connect Force]], zostaje zniszczone w jednym ataku.
+Pilot [[gundam-exia|Gundam Exia]], który pojawia się nad [[wyspy-kurylskie|Wyspami Kurylskimi]] już po odwrocie sił [[zeon|Zeonu]] w misji [[srw-oe-ep3-skradajacy-sie-cien|„Skradający się cień”]]. Melduje, że maszyna dotarła do punktu docelowego, i przechodzi do drugiej fazy — po czym obserwatorium, którego bronił [[connect-force|Connect Force]], zostaje zniszczone w jednym ataku.
 
 Obrońcy nie zdążą się dowiedzieć, kim jest: na pytania [[koji-kabuto|Kojiego]] i [[seishiro|Seishira]] [[setsuna-f-seiei|Setsuna]] nie odpowiada ani słowem. [[alan-igor|Alan]] ocenia, że on i drugi pilot są zupełnie inną ligą niż wszystko, co dotąd widzieli na tym polu bitwy.
 
 }}
 
-{{wiedza gra=wspolne
+{{zrodlo gra=wspolne
 
-[[setsuna-f-seiei|Setsuna F. Seiei]] to przybrane imię Sorana Ibrahima, byłego dziecięcego żołnierza z ogarniętego wojną domową regionu, przyjęty w szeregi Celestial Being i wyznaczony na pilota [[gundam-exia|Gundam Exia]]. W bazie ma [[mobile-suit-gundam-00|*Mobile Suit Gundam 00*]] jako pozycję z tej serii; dalsze losy bohatera wykraczają poza materiał rozegrany w grze, więc strona ich nie opisuje.
+W pierwowzorze [[mobile-suit-gundam-00|*Mobile Suit Gundam 00*]] Setsuna F. Seiei (刹那・F・セイエイ; głos Mamoru Miyano) to kryptonim Sorana Ibrahima — byłego dziecięcego żołnierza pochodzenia kurdyjskiego z ogarniętej wojną Republiki Krugis, zwerbowanego w wieku szesnastu lat przez paramilitarną organizację Celestial Being na Gundam Meistera i pilota wyspecjalizowanego w walce wręcz [[gundam-exia|Gundam Exia]] ([Wikipedia, *List of Mobile Suit Gundam 00 characters*](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_00_characters); sprawdzono 2026-11-16).
 
 }}
 

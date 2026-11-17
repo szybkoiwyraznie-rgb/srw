@@ -11,7 +11,9 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Imperium, w którym — jak podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] przypomina [[chizuru-nambara|Chizuru]] — wciąż pozostał cesarz [[barao|Barao]], choć Campbellian już odparto. [[hyoma-aoi|Hyoma]] odpowiada, że nie mają wyjścia: w tej walce oddał życie [[chikara-jinguji|Jinguji]].
+Imperium, w którym — jak podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] przypomina [[chizuru-nambara|Chizuru]] — wciąż pozostał cesarz [[barao|Barao]], choć [[campbellianie|Campbellian]] już odparto. [[hyoma-aoi|Hyoma]] odpowiada, że nie mają wyjścia: w tej walce oddał życie [[chikara-jinguji|Jinguji]]. W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] [[wren|Wren]] wspomina, że rok później inwazja Imperium Yoma chyba ustała.
+
+Imperium Yoma to imperium demonów, które przespało 12 000 lat. Upadło niegdyś wraz z kwitnącym Imperium Mu, lecz odrodziło się w czasach współczesnych, by zaprowadzić Erę Demonów.
 }}
 
 {{zrodlo gra=wspolne

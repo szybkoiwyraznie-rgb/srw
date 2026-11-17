@@ -42,7 +42,7 @@ W [[kanzen-shouri-daiteioh|pierwowzorze]] Kakeru Daichi (大地 カケル) to uc
 
 **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
 
-**Komendy Ducha (*Spirit Commands*):**
+**Komendy Ducha (Spirit Commands):**
 
 | Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                  |
 | ---: | -------- | ---------: | -------: | --------------------------------------------- |

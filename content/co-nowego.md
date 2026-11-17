@@ -1,37 +1,62 @@
 # Co nowego
 
+## 2026-11-17 18:27
+
+- **Uzbrojenie [[getter-kirik|Getter Kirika]], [[getter-khan|Getter Khana]] i więź drużyny Gettera** — [[getter-kirik|Getter Kirik]] (łączony w kolejności Kirik, Khan, Arc pod sterami [[show-kamui|Show Kamuia]]) polega na unikach Getter Vision oraz atakach Getter Arm i przebijających bariery Getter Drill i Double Drill Storm, [[getter-khan|Getter Khan]] (łączony w kolejności Khan, Arc, Kirik pod sterami [[baku-yamagishi|Baku Yamagishiego]]) walczy pod wysokim ciśnieniem przy użyciu Getter Punch, Getter Missile i przebijającego bariery Spine Crusher w formie opony Khan Rover (zdolnej wywoływać podwodny wir Maelstrom), a pełna trójka z [[takuma-nagare|Takumą Nagare]] dzieli umiejętność „Dzieci Gettera”.
+
+## 2026-11-17 15:52
+
+- **[[getter-kirik|Getter Kirik]] i [[getter-khan|Getter Khan]] u boku [[getter-arc|Getter Arca]]** — czwartej generacji Getter Robo z [[laboratorium-saotome|Laboratorium Saotome]] dopełniają dwie pozostałe konfiguracje trzech Get Machine: zwinny, wiertłowy [[getter-kirik|Getter Kirik]] pod sterami [[show-kamui|Show Kamuia]] (ze świdrem Drill Arm i szczypcami Pincer Arm, zdolny do szybkiego drążenia pod ziemią i lotu) oraz ciężki, kolczasty [[getter-khan|Getter Khan]] prowadzony przez [[baku-yamagishi|Baku Yamagishiego]] u boku [[takuma-nagare|Takumy Nagare]] (składający się w kolczaste koło Spine Crusher).
+- **Wizerunki obsady i maszyn z [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|„Przebudzenia niebiańskiego demona”]]** — własne portrety mają [[show-kamui|Show Kamui]], [[hayato-jin|Hayato Jin]], [[shikishima|Shikishima]] i [[igari|Igari]] z [[laboratorium-saotome|Laboratorium Saotome]] oraz [[yume-minami|Yume Minami]], [[koyomi-yamanaka|Koyomi Yamanaka]], [[chise-asukagawa|Chise Asukagawa]], [[mei|Mei]] i [[matka-yomogiego|matka Yomogiego]] z [[miasto-yagami|miasta Yagami]], a sylwetki bojowe prezentują [[getter-arc|Getter Arc]], [[getter-kirik|Getter Kirik]], [[getter-khan|Getter Khan]], [[insector|Insector]] i [[zordo-xx|Zordo XX]].
+
+## 2026-11-16 18:12
+
+- **Rodowód [[mobile-suit-gundam-00|Mobile Suit Gundam 00]], [[mobile-suit-gundam-wing|Mobile Suit Gundam Wing]] i [[uragan|Uragana]]** — [[setsuna-f-seiei|Setsuna F. Seiei]] nosi kryptonim nadany Soranowi Ibrahimowi z Republiki Krugis i prowadzi trzeciej generacji [[gundam-exia|Gundam Exia]] o siedmiu ostrzach i napędzie GN; [[wing-gundam-zero|XXXG-00W0 Wing Gundam Zero]] z układem ZERO System i trybem przelotowym [[wing-gundam-zero-nb|Neo Bird Mode]] wywodzi się z prac twórców Tallgeese, a [[uragan|Uragan]] służy w Assault Mobile Force [[zeon|Zeonu]] jako stały adiutant [[mquve|M'Quve'a]].
+- **Korzenie [[getter-robo-arc|Getter Robo Arc]] i [[ssss-dynazenon|SSSS.Dynazenon]]** — nazwy trzech konfiguracji [[getter-arc|Getter Arca]] wywodzą się od sanskryckich sylab nasiennych bóstw buddyjskich, [[insector|Insectorzy]] i [[zordo-xx|Zordo XX]] szturmują [[laboratorium-saotome|Laboratorium Saotome]] bronione przez [[hayato-jin|Hayato Jina]], [[shikishima|Shikishimę]], [[igari|Igariego]] i [[show-kamui|Show Kamuia]], a w [[ssss-dynazenon|*SSSS.Dynazenon*]] wokół drużyny [[gauma|Gaumy]] skupiają się [[yume-minami|Yume Minami]], [[koyomi-yamanaka|Koyomi Yamanaka]], [[chise-asukagawa|Chise Asukagawa]], [[mei|Mei]] i [[matka-yomogiego|matka Yomogiego]].
+
+## 2026-11-16 18:04
+
+- **Losy załogi i mieszkańców [[miasto-yagami|miasta Yagami]] w [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|„Przebudzeniu niebiańskiego demona”]]** — [[echika-y-franburnett|Echika Y. Franburnett]] u boku [[annina-servania|Anniny Servanii]] ogłasza trzy gwarancje i odrzuca żądanie wydania [[a-advent|A. Adventu]]; [[cross-tsukinowa|Cross Tsukinowa]] podejmuje współpracę z [[wren|Wren]], [[aytie|Aytie]] i [[cookie|Cookie]], a na placu pod kopułą pojawiają się [[gauma|Gauma]], [[yomogi-asanaka|Yomogi Asanaka]], [[matka-yomogiego|jego matka]], [[yume-minami|Yume Minami]], [[mei|Mei]], [[koyomi-yamanaka|Koyomi Yamanaka]] i [[chise-asukagawa|Chise Asukagawa]].
+- **Debiut drużyny [[getter-arc|Getter Arca]] i [[laboratorium-saotome|Laboratorium Saotome]]** — [[takuma-nagare|Takuma Nagare]] i [[baku-yamagishi|Baku Yamagishi]] przejmują zestrzelonego [[getter-d2|Gettera D2]] pod górą Asama, przesiadają się do [[getter-arc|Getter Arca]] i za wezwaniem [[promienie-gettera|promieni Gettera]] zostają wysłani na [[a-advent|A. Advent]] decyzją [[hayato-jin|Hayato Jina]] przy udziale [[shikishima|Shikishimy]] i [[igari|Igariego]].
+
+## 2026-11-16 17:53
+
+- [[historia-ziemi|Sześćdziesiąt lat Nowej Ery Uniwersalnej]] układa w jedną oś dzieje świata przed [[wojna-rewolucyjna|wojną rewolucyjną]]: od Nowej Wojny Galaktycznej i powstania [[n-u-n-g|N.U.N.G.]] w roku NUC 000, przez pierwszy Gundam Fight, walki z Imperium Dinozaurów i Imperium Hyakki oraz wojnę jednoroczną w NUC 048, po narodziny [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]] w NUC 058.
+- Wśród dawnych wrogów ludzkości stają [[campbellianie|Campbellianie]] — najeźdźcy wysyłający na Ziemię bestie magmowe pod wodzą Garudy i cesarzowej Janery, odparci przez Combattlera V, zanim na ich planecie władzę przejęli pacyfiści — oraz [[imperium-yoma|Imperium Yoma]], które upadło niegdyś razem z Imperium Mu i po dwunastu tysiącach lat snu wróciło, by zaprowadzić Erę Demonów.
+- W pobliżu góry Asama [[insector|Insectorzy]] i spadający z góry [[zordo-xx|Zordo XX]] uderzają jako wrogie siły prosto na [[a-advent|A. Advent]]; [[takuma-nagare|Takuma]] i [[baku-yamagishi|Baku]] przejmują zestrzelonego po śmierci pilota [[getter-d2|Gettera D2]], zanim [[show-kamui|Show Kamui]] — pilot Getter Kirika — sprowadzi [[getter-arc|Getter Arca]]. U [[annina-servania|Anniny]], [[gauma|Gaumy]] i [[yomogi-asanaka|Yomogiego]] budzą się kolejne Komendy Ducha: „Błog.”, „Cel.str.” i „Dop.”.
+
 ## 2026-11-16 14:20
 
-- Druga misja [[srw-y-ep1|epizodu 1]] SRW Y — [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|„Przebudzenie niebiańskiego demona”]] — zaczyna się od przejęcia warty nad [[a-advent|A. Adventem]], prowadzi przez upadek [[getter-d2|Gettera D2]] na zboczu góry Asama i walkę z wielkim potworem, który nadciąga z góry, a kończy przeniesieniem na pokład okrętu. [[takuma-nagare|Takuma Nagare]] słyszy tam od [[hayato-jin|Hayato Jina]], kim był jego ojciec, [[ryoma-nagare|Ryoma]], a [[show-kamui|Show Kamui]] przyprowadza [[getter-arc|Gettera Arca]].
+- Druga misja [[srw-y-ep1|epizodu 1]] SRW Y — [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|„Przebudzenie niebiańskiego demona”]] — zaczyna się od przejęcia warty nad [[a-advent|A. Adventem]], prowadzi przez upadek [[getter-d2|Gettera D2]] w pobliżu góry Asama i walkę z wielkim potworem, który nadciąga z góry, a kończy przeniesieniem na pokład okrętu. [[takuma-nagare|Takuma Nagare]] słyszy tam od [[hayato-jin|Hayato Jina]], kim był jego ojciec, [[ryoma-nagare|Ryoma]], a [[show-kamui|Show Kamui]] przyprowadza [[getter-arc|Getter Arca]].
 - [[getter-arc|Getter Arc]], [[insector|Insector]] i [[zordo-xx|Zordo XX]] wchodzą do wspólnej historii z własnym uzbrojeniem i osiągami; [[a-advent|A. Advent]] i [[lunedrache|Lunedrache]] pokazują przy tym, czego nabrały w tej walce — kolejne działo i zdolność „Łącze energii”.
-- W mieście i na placu stają obok siebie uczniowie z Fujiyokidai: [[yume-minami|Yume Minami]], [[koyomi-yamanaka|Koyomi Yamanaka]] i [[chise-asukagawa|Chise Asukagawa]] z [[ssss-dynazenon|SSSS.DYNAZENON]]. Świat wokół Getterów domykają [[laboratorium-saotome|Laboratorium Saotome]], [[getter-d2|Getter D2]], [[promienie-gettera|promienie Gettera]], [[insectorzy|Insectorzy]], [[n-u-n-g|N-U-N-G]], [[ryoma-nagare|Ryoma Nagare]] i [[doktor-saotome|doktor Saotome]].
+- Na placu [[miasto-yagami|miasta Yagami]] pojawiają się kolejni bohaterowie [[ssss-dynazenon|SSSS.DYNAZENON]]: licealistka z Fujiyokidai [[yume-minami|Yume Minami]] z przyjaciółką [[mei|Mei]], bezrobotny [[koyomi-yamanaka|Koyomi Yamanaka]] z kuzynką [[chise-asukagawa|Chise Asukagawą]] oraz [[matka-yomogiego|matka Yomogiego]]. Świat wokół Getterów domykają [[laboratorium-saotome|Laboratorium Saotome]], [[getter-d2|Getter D2]], [[promienie-gettera|promienie Gettera]], [[insectorzy|Insectorzy]], [[n-u-n-g|N.U.N.G.]], [[ryoma-nagare|Ryoma Nagare]] i [[doktor-saotome|doktor Saotome]].
 
 
 ## 2026-11-16 10:40
 
-- Ćwiczenia wojska, policji i Connect na [[poligon-fuji|poligonie Fuji]] należą do [[mobile-police-patlabor|Patlabora]], a nie do autorskiego wkładu gry — podobnie desant [[zeon|Zeonu]] na [[jaburo|Jaburo]] trzeba czytać razem z [[mobile-suit-gundam-08th-ms-team|08. Plutonem MS]] i [[mobile-suit-gundam-1979|pierwszym Gundamem]], bo każde z tych źródeł mówi o tym starciu co innego.
+- Ćwiczenia wojska, policji i [[connect-force|Connect]] na [[poligon-fuji|poligonie Fuji]] wyrastają z incydentu prototypu [[hal-x10|HAL-X10]] w [[mobile-police-patlabor|Patlaborze]], a obrona [[jaburo|Jaburo]] przed desantem [[zeon|Zeonu]] splata uderzenie [[apsalus-iii|Apsalusa III]] z [[mobile-suit-gundam-08th-ms-team|*08th MS Team*]] z natarciem [[char-aznable|Chara]] z [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
 
 ## 2026-11-16 09:05
 
-- Dwa nieznane Gundamy niszczą obserwatorium [[earth-federation|Federacji]] na Wyspach Kurylskich — archipelagu, który [[srw-oe-ep3-interwencja-gundamow|interwencja Gundamów]] i [[srw-oe-ep3-skradajacy-sie-cien|„Skradający się cień”]] pokazują z dwóch stron, a hasło [[wyspy-kurylskie|Wyspy Kurylskie]] opisuje jako całość.
+- Po odwrocie [[zeon|Zeonu]] dwa nieznane Gundamy obracają w gruzy obserwatorium [[earth-federation|Federacji]] na [[wyspy-kurylskie|Wyspach Kurylskich]] — tajne laboratorium [[cyber-newtype|Cyber-Newtype'ów]] ukryte na bezludnej wyspie strefy neutralnej, z którego ruin wychodzą później [[invaderzy|Invaderzy]].
 
 ## 2026-11-16 00:20
 
-- [[wyspy-kurylskie|Wyspy Kurylskie]]: archipelag na północnym Pacyfiku, który wojna między [[earth-federation|Federacją]] a [[zeon|Zeonem]] objęła strefą neutralną, a potem uczyniła terenem walki o obserwatorium [[garma-zabi|Garmy]] i o laboratorium [[cyber-newtype|Cyber-Newtype'ów]].
+- [[wyspy-kurylskie|Wyspy Kurylskie]]: archipelag na północnym Pacyfiku, który wojna między [[earth-federation|Federacją]] a [[zeon|Zeonem]] objęła strefą neutralną, a potem uczyniła terenem uderzenia [[garma-zabi|Garmy]] na obserwatorium Federacji i walki o ukryte w nim laboratorium [[cyber-newtype|Cyber-Newtype'ów]].
 
 ## 2026-11-15 23:50
 
-- Archipelag Wysp Kurylskich należy do strefy neutralnej nad Pacyfikiem, a jego obserwatorium — do [[earth-federation|Federacji]]; w [[cyber-newtype|historii Cyber-Newtype'ów]] i w losach [[gihren-zabi|Gihrena]] oraz [[kycilia-zabi|Kycilii]] archipelag nie jest już mieszany z wydarzeniami z [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]].
+- Archipelag [[wyspy-kurylskie|Wysp Kurylskich]] leży w ogłoszonej na czas wojny strefie neutralnej nad północnym Pacyfikiem, a stojące na nim obserwatorium podlega bezpośrednio rządowi [[earth-federation|Federacji]]; po jego zniszczeniu [[gihren-zabi|Gihren]] i [[kycilia-zabi|Kycilia]] ważą dalszą grę dyplomatyczną [[zeon|Zeonu]] wobec [[connect-force|Connect]].
 
 ## 2026-11-15 23:30
 
-- [[sayla-mass|Sayla]], [[fraw-bow|Fraw Bow]] i [[mirai-yashima|Mirai]] zyskują tło z pierwowzoru: Sayla trafia na [[white-base|White Base]] jako studentka medycyny i z braku doświadczonej załogi zostaje oficerem łączności, a potem pilotką; Mirai obejmuje ster dzięki szkoleniu na pilota szybowców i staje się zastępczynią [[bright-noa|Brighta]]; Fraw Bow opiekuje się [[amuro-ray|Amurem]] i trójką dzieci z [[side-7|Side 7]], a wojnę kończy jako oficer łączności okrętu.
+- Na pokładzie [[white-base|White Base]] [[sayla-mass|Sayla Mass]], studentka medycyny, obejmuje z braku doświadczonej załogi łączność, a potem także stery myśliwca; [[mirai-yashima|Mirai Yashima]] prowadzi okręt dzięki szkoleniu na pilotkę szybowców i zostaje zastępczynią [[bright-noa|Brighta]]; [[fraw-bow|Fraw Bow]] dba o [[amuro-ray|Amura]], opiekuje się trójką osieroconych dzieci z [[side-7|Side 7]] i wspiera mostek jako łącznościowiec.
 
 ## 2026-11-15 23:10
 
 - [[setsuna-f-seiei|Setsuna]] mówi wprost, że [[earth-federation|Federacja]] wykorzystuje walczących dla niej, a [[alan-igor|Alan]] wskazuje frakcję w wojsku i producentów broni jako tych, którzy finansują eksperymenty [[cyber-newtype|Cyber-Newtype'ów]]. [[kei|Kei]] podsumowuje, że [[connect-force|Connect Force]] dał się oszukać, a [[himari-yaegaki|Himari]] chce szukać ocalałych w gruzach laboratorium na Wyspach Kurylskich.
 - [[sily-kolonii|Siły kolonii]] rozważą ograniczony udział w Connect Force pod warunkiem, że nikt nie będzie ingerował w ich działania; bez entuzjazmu przyjmują to [[himari-yaegaki|Himari]] i policjanci Drugiego Plutonu.
-- Rozmowa [[gihren-zabi|Gihrena]] z [[kycilia-zabi|Kycilią]] o karze za samowolny ruch [[mquve|M'Quve'a]] i o użyczeniu sił, które mają zbliżyć Connect do [[zeon|Zeonu]], należy do scenariusza gry — serial nie zna sojuszu z neutralną organizacją.
+- [[gihren-zabi|Gihren]] i [[kycilia-zabi|Kycilia]] uzgadniają karę za samowolny ruch [[mquve|M'Quve'a]] oraz plan użyczenia wojsk [[zeon|Zeonu]], które mają zbliżyć [[connect-force|Connect]] do Księstwa, choć Kycilia przestrzega brata przed grą na czas wobec przewagi materialnej Federacji.
 
 ## 2026-11-15 22:05
 

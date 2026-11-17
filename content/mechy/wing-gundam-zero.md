@@ -9,6 +9,8 @@ piloci: [heero-yuy]
 w_gre:
   srw-oe: '{"dostawa": "dostawy/srw-oe/dostawa_3_1.txt", "profil": "Wing Zero/NB (Wing Gundam Zero/NB)", "dane": "**Seria:** Mobile Suit Gundam Wing\n### Macierzyste zdolności maszyny\n- **Transf. (bez poziomu):** Może się transf.\n- **Zero System (poziom bazowy 1):** Morale 140 lub więcej — statystyki+20\n### Uzbrojenie i wymienione działania\n#### Broń i działania z niezerowym selektorem\n| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale |\n|---:|---|---:|:---:|---:|---:|---:|\n| 0 | Skrzydłowe działko Vulcan | 2300 | 1–4 | +40 | 0 | — |\n| 1 | Twin Buster Rifle | 3200 | 2–5 | +10 | 15 | — |"}'
 pochodzenie: skrypt
+zrodla:
+  - https://gundam.fandom.com/wiki/XXXG-00W0_Wing_Gundam_Zero
 tagi: [gundam-wing, mobile-suit, gundam]
 utworzono: 2026-11-13
 ---
@@ -22,11 +24,9 @@ Uzbrojenie obejmuje skrzydłowe działko Vulcan do walki z bliska i Twin Buster 
 
 }}
 
-{{wiedza gra=wspolne
+{{zrodlo gra=wspolne
 
-[[wing-gundam-zero|Wing Gundam Zero]] należy do rodziny gundamów z [[mobile-suit-gundam-wing|*Mobile Suit Gundam Wing*]] i jest maszyną wyposażoną w System Zero — interfejs, który przekazuje pilotowi dane o przewidywanych ruchach wroga i wymaga od niego ogromnej odporności psychicznej. Ten opis obejmuje wyłącznie konstrukcję maszyny; wydarzenia serialu poza rozegraną misją nie są tu opisywane.
-
-Wing Gundam Zero przechodzi w tryb Neo-Bird — formę skrzydlatego samolotu, w której leci w atmosferze i samodzielnie w nią wchodzi. W tej formie maszyna nosi nazwę [[wing-gundam-zero-nb|Wing Zero NB]].
+W pierwowzorze [[mobile-suit-gundam-wing|*Mobile Suit Gundam Wing*]] XXXG-00W0 Wing Gundam Zero to pierwszy Gundam zaprojektowany przez pięciu inżynierów po opracowaniu OZ-00MS Tallgeese — pierwowzór pięciu późniejszych Gundamów operacji Meteor, zbudowany ze stopu Gundanium, od którego pochodzi jego kryptonim. W kokpicie ma wbudowany interfejs ZERO System, wymuszający dążenie do „doskonałego zwycięstwa” i silnie obciążający ciało oraz psychikę pilota. Uzbrojenie tworzą dwulufowy Twin Buster Rifle zasilany bezpośrednio z generatora, dwie szable wiązkowe w naramiennikach, para działek maszynowych na obojczykach oraz tarcza ze stopu Gundanium ze skrzydłowymi działkami Vulcan; do szybkiego przelotu maszyna składa się w tryb Neo Bird Mode ([[wing-gundam-zero-nb|Wing Zero NB]]) ([Gundam Wiki, *XXXG-00W0 Wing Gundam Zero*](https://gundam.fandom.com/wiki/XXXG-00W0_Wing_Gundam_Zero); sprawdzono 2026-11-16).
 
 }}
 

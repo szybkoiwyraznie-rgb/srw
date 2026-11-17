@@ -55,7 +55,7 @@ const zNawiazaniami = sceny.filter((s) => s.body.includes(NAGLOWEK));
 test('nawiązania stoją w osobnym bloku źródła między analizą a wątkami sceny', () => {
   assert.ok(zNawiazaniami.length >= 6, 'sceny odwołujące się do odcinków mają blok nawiązań');
   // Żadna scena nie może użyć wariantowego nagłówka (np. „Nawiązania do pierwowzoru”),
-  // bo render-scene.js przenosi do prawej kolumny wyłącznie dokładny tytuł sekcji.
+  // bo render-scene.js układa i kotwiczy sekcje według dokładnego tytułu.
   for (const s of sceny) {
     for (const sekcja of sekcje(s.body)) {
       if (sekcja.poziom === 'zrodlo' || /^Nawiązania\b/i.test(sekcja.tytul)) {

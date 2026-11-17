@@ -7,12 +7,30 @@ rola: wsparcie
 mechy: []
 gry: [srw-y]
 pochodzenie: menu
-tagi: [srw-y, wsparcie, dynazenon, zalogaa]
+zrodla:
+  - https://en.wikipedia.org/wiki/List_of_Gridman_Universe_characters
+tagi: [srw-y, wsparcie, dynazenon, zaloga]
 utworzono: 2026-11-16
 ---
 {{menu gra=srw-y
 
-Kuzynka [[koyomi-yamanaka|Koyomiego]], uczennica gimnazjum. Nie chodzi do szkoły, tylko przesiaduje w pokoju [[koyomi-yamanaka|Koyomiego]]. Nie pilotuje [[ssss-dynazenon|Dynazenona]], ale ze wszystkich najmocniej czuje się członkinią drużyny [[gauma|Gaumy]]. Po pierwszej walce z kaiju znajduje coś jakby biały kamyk.
+Kuzynka [[koyomi-yamanaka|Koyomiego]], uczennica gimnazjum. Nie chodzi do szkoły, tylko przesiaduje w pokoju [[koyomi-yamanaka|Koyomiego]]. Nie pilotuje Dynazenona, ale ze wszystkich najmocniej czuje się członkinią drużyny [[gauma|Gaumy]]. Po pierwszej walce z kaiju znajduje coś jakby biały kamyk.
+
+W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] towarzyszy [[koyomi-yamanaka|Koyomiemu]] na placu [[miasto-yagami|miasta Yagami]] podczas wystąpienia [[echika-y-franburnett|Echiki]] i nie kryje zdumienia, gdy kuzyn wspomina, że mógłby poszukać pracy.
+}}
+
+{{zrodlo gra=wspolne
+
+W serialu [[ssss-dynazenon|*SSSS.Dynazenon*]] Chise Asukagawa (飛鳥川 ちせ; głos Chika Anzai) jest młodszą kuzynką [[koyomi-yamanaka|Koyomiego Yamanaki]], zwracającą się do niego jak do starszego kolegi; choć na stałe nie zasiada za sterami Dynazenona, stale towarzyszy drużynie [[gauma|Gaumy]], a po pierwszym starciu z kaiju podnosi tajemniczy jasny przedmiot przypominający perłę barokową ([Wikipedia, *List of Gridman Universe characters*](https://en.wikipedia.org/wiki/List_of_Gridman_Universe_characters); sprawdzono 2026-11-16).
+}}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Chise Asukagawa — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Chise%20Asukagawa.png)
 }}
 
 {{menu gra=srw-y

@@ -58,3 +58,10 @@ czasach, gdy powiększenia nie było. Właściciel uznał je za zbędne: wystarc
 pełnoekranowe. Odnośniki usunięto ze wszystkich 22 galerii, a test pilnuje, że pod obrazem nie
 ma już linku do R2. Oryginał nadal jest dostępny — przez samo kliknięcie obrazu i przycisk
 „Pełny ekran”.
+
+## Adnotacja (2026-11-16)
+
+Na polecenie właściciela z widoku strony encji (`src/srw/render-entity.js`) usunięto osobny
+portret `<figure class="obraz">` w metryce, gdy strona ma już galerię `## Ilustracje`. Pole
+`obraz` w indeksie pozostaje dla kart na listach encji, a wszystkie obrazy w `## Ilustracje`
+nadal otwierają się w oknie pełnoekranowym według zasad powyżej.

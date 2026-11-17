@@ -3,13 +3,13 @@ typ: pojecie
 slug: ryoma-nagare
 tytul: "Ryoma Nagare"
 gry: [srw-y]
-pochodzenie: menu
+pochodzenie: skrypt
 tagi: [srw-y, getter-robo, postac-wspominana]
 utworzono: 2026-11-16
 ---
-{{menu gra=srw-y
+{{skrypt gra=srw-y
 
-Pilot Gettera z pierwszego składu, ojciec [[takuma-nagare|Takumy]]. Dziewiętnaście lat przed akcją gry jako ostatni pilotował Shin Gettera w bitwie, a jego ciało latami nasiąkało [[promienie-gettera|promieniami Gettera]] — dlatego [[hayato-jin|Hayato Jin]] rozpoznaje w Takumie „krew Ryomy” i mówi, że syn jest tak samo głupi jak ojciec.
+Ojciec [[takuma-nagare|Takumy Nagare]], który dziewiętnaście lat wcześniej jako ostatni pilotował Shin Gettera w bitwie. W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] [[hayato-jin|Hayato Jin]] rozpoznaje w Takumie „krew Ryomy Nagare” i kwituje, że syn jest tak samo głupi jak ojciec, a [[shikishima|doktor Shikishima]] — znający Ryomę osobiście — wyjaśnia, że ciało dawnego pilota latami nasiąkało [[promienie-gettera|promieniami Gettera]], dlatego nieznani napastnicy polowali na ciało jego syna.
 
-[[shikishima|Shikishima]] znał go osobiście. Kiedy okazuje się, że ktoś polował na ciało Takumy, wyjaśnia to właśnie krwią Ryomy. W scenie nie pojawia się ani razu osobiście — mówią o nim inni.
+Dziewiętnaście lat wcześniej Ryoma Nagare wraz z Go Ichimonjim i towarzyszami zakończył wojnę ludzkości z potężnym wrogiem i ocalił świat; jego syn [[takuma-nagare|Takuma]] odziedziczył po nim nadludzką sprawność fizyczną, lecz nie wiedział, jak żył ojciec.
 }}

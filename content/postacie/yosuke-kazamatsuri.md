@@ -43,7 +43,7 @@ W [[genki-bakuhatsu-ganbaruger|pierwowzorze]] Yosuke Kazamatsuri (風祭 鷹介)
 
 **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
 
-**Komendy Ducha (*Spirit Commands*):**
+**Komendy Ducha (Spirit Commands):**
 
 | Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                 |
 | ---: | ------------- | ---------: | -------: | -------------------------------------------- |

@@ -281,26 +281,34 @@ potwora dwoma jednoczesnymi Getter Beamami. W grze Takuma przesiada się do Arca
 „na granicy wytrzymałości”, a o wspólnym ataku nie ma ani słowa — a samej nazwy „Zordo XX”
 skrypt nie wymienia nigdy (Takuma mówi „ten wielki”).
 
-Ten sam błąd w tej samej dostawie w trzech innych miejscach: Insectorzy „nie przypominają
+Ten sam błąd w tej samej dostawie w innych miejscach: Insectorzy „nie przypominają
 Imperium Yoma ani Imperium Dinozaurów” (skrypt mówi o Hyakki i Dinozaurach — Yoma to inna
-seria), laboratorium „kryje coś, czego nie wolno odkryć wrogowi” (skrypt: nie wolno pozwolić,
-by odkryli, co jest **pod** laboratorium), a karta Show Kamuia zaczynała się od „Pilot Getter
-Kirika” — to poprawna nazwa maszyny z tej samej serii, ale nie ta, którą pilotuje w tej misji.
+seria), a laboratorium „kryje coś, czego nie wolno odkryć wrogowi” (skrypt: nie wolno pozwolić,
+by odkryli, co jest **pod** laboratorium). Odwrotny błąd zdarzył się przy karcie Show Kamuia:
+dosłowne zdanie z encyklopedii gry „Pilot Getter Kirika.” (`dostawa_1_2a.txt`) omyłkowo uznano
+za dopisek spoza gry i nadpisano parafrazą, zamiast zachować tekst encyklopedii.
 
-Do tego dwa błędy w samych testach: `assert.deepEqual(piloci, [], 'Insector to broń bez załogi')`
-i to samo dla Zordo XX. Gra daje obu jednostkom własne karty pilota (SP, Duch „Skup.”, Potencjał
-L3), więc zdanie w komunikacie było nieprawdą — test pilnował pustej tablicy i przy okazji
-utrwalał fałszywy opis w kodzie.
+W drugą stronę poszła też korekta kart Insectora i Zordo XX: w `dostawa_1_2a.txt` obie maszyny
+należą do sekcji „Pozostałe grupy” jako `grupa czerwona 1` (przeciwnicy sterowani przez SI),
+a ich karty pilota z SP i Duchem „Skup.” są technicznymi rekordami silnika SRW Y do obliczeń
+walki — tymczasem na stronach i w teście opisano je błędnie jako „jednostki grywalne”.
 
 Zasady:
 
-- **Zdanie o zachowaniu maszyny w misji musi mieć zaczepienie w skrypcie.** Jeśli skrypt mówi
-  tylko „przesiadajcie się tutaj”, to jest cała prawda o finale walki — reszta pochodzi
-  z pierwowzoru i idzie do bloku `{{zrodlo}}` z własną etykietą.
-- **Nazwa, której nie ma w dialogach, nie jest nazwą z gry.** Wolno jej użyć, ale trzeba
-  powiedzieć wprost, skąd pochodzi („w mandze i serialu to Zordo XX”) i nie przypisywać jej
-  wypowiedziom.
-- **Komunikat asercji to też twierdzenie.** `'broń bez załogi'` w `assert` jest zdaniem
-  opublikowanym w kodzie i w raporcie testów; musi być prawdziwy tak samo jak proza.
+- **Zdanie o zachowaniu maszyny w misji musi mieć zaczepienie w skrypcie, a opis z menu —
+  w encyklopedii dostawy.** Jeśli skrypt mówi tylko „przesiadajcie się tutaj”, to jest cała
+  prawda o finale walki; reszta z pierwowzoru idzie do `{{zrodlo}}`. I odwrotnie: nie kasuj
+  dosłownego zdania z sekcji `Encyklopedia` dostawy w przekonaniu, że pochodzi z anime.
+- **Karta pilota w dostawie nie czyni jednostki grywalną.** O przynależności rozstrzyga lista
+  uczestników misji (`Jednostki gracza` kontra `grupa czerwona` w `Pozostałe grupy`). Wrogie
+  maszyny i potwory w SRW Y mają techniczne rekordy pilota o nazwie jednostki — `piloci` zostaje
+  wtedy `[]`, bez nazywania ich ani „jednostkami grywalnymi”, ani „bronią bez załogi”, jeśli
+  materiał tego nie przesądza.
+- **Nazw z encyklopedii nie wkładaj w usta postaci, jeśli nie padają w dialogach.** Nazwa
+  jednostki z sekcji `UCZESTNICY` („Zordo XX”) jest kanoniczną nazwą z gry, ale jeśli dialog
+  mówi wyłącznie „ten wielki”, zaznacz to wiernie i nie ujawniaj przy tym nazw frakcji z anime,
+  których rozegrane misje jeszcze nie wprowadziły (ADR 0012).
+- **Komunikat asercji i sam test muszą być prawdziwe (L15).** Test wymuszający fałszywe zdanie
+  w treści utrwala błąd merytoryczny zamiast przed nim chronić.
 - Test `proza o wydarzeniach gry trzyma się tego, co mówi skrypt` w `test/epizod-y-misja-2a.test.js`
-  pilnuje finału walki i nazwy potwora. Kolejna dostawa powinna dostać własny odpowiednik.
+  pilnuje finału walki, braku fałszywej grywalności wrogów i braku spoilerów frakcji.

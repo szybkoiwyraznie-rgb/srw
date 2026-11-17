@@ -1,0 +1,188 @@
+## Getter Kirik — forma po transformacji
+
+**Seria:** Getter Robo Arc
+
+**Encyklopedia:**
+
+Getter Robo powstały z połączenia trzech Get Machine w kolejności Kirik, Khan i Arc. Specjalizuje się w szybkiej walce, posługując się na zmianę lewym ramieniem chwytnym i prawym ramieniem-świdrem. W razie potrzeby może zmienić oba ramiona w świdry; jego ciosem specjalnym jest Double Drill Storm, w którym cały zamienia się w świder i taranuje wroga.
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |           7200 |
+| EN                 |            220 |
+| Pancerz            |           1700 |
+| Mobilność          |            125 |
+| Celność            |            155 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 7 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+- **Zm. Gettera:** Polecenie 'Transformacja' zmienia formę maszyny i głównego pilota. 'Transformacja' nie zużywa akcji i działa także po jej wykonaniu.
+
+- **Getter Vision:** Przy Morale 130+: 30％ szansy na pełny unik ataku wroga.
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa              | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                         |
+| ------: | ------------------ | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------- |
+|       0 | Getter Arm         |       3400 | 1–4    |        15 |  10 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
+|       1 | Getter Drill       |       3900 | 1–3    |        15 |  20 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
+|         |                    |            |        |           |     |          |        |         | **Penetr. barier:** Ignoruje bariery jednostki wroga.            |
+|       2 | Double Drill Storm |       5200 | 2–3    |        20 |  40 |        0 |    110 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
+|         |                    |            |        |           |     |          |        |         | **Penetr. barier:** Ignoruje bariery jednostki wroga.            |
+
+---
+
+**Forma jednostki:** Getter Arc → Getter Khan — po transformacji (pilot: Baku Yamagishi)
+
+## Getter Khan — forma po transformacji
+
+**Seria:** Getter Robo Arc
+
+**Encyklopedia:**
+
+Getter Robo powstały z połączenia trzech Get Machine w kolejności Khan, Arc i Kirik. Wyróżnia się siłą i świetnie walczy pod wysokim ciśnieniem, np. w głębinach morskich. Jego ciosem specjalnym jest Spine Crusher: zmienia się w gigantyczną oponę, Khan Rover, i rozrywa wroga od środka na pół. Pod wodą w formie Khan Rover może też wirować, wywołując wir Maelstrom.
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |           7200 |
+| EN                 |            220 |
+| Pancerz            |           2100 |
+| Mobilność          |             85 |
+| Celność            |            155 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 5 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+- **Zm. Gettera:** Polecenie 'Transformacja' zmienia formę maszyny i głównego pilota. 'Transformacja' nie zużywa akcji i działa także po jej wykonaniu.
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa          | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                         |
+| ------: | -------------- | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------- |
+|       0 | Getter Punch   |       3900 | 1–3    |        10 |  15 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
+|       1 | Getter Missile |       4100 | 2–6    |         0 |   0 |       10 |      0 | —       | —                                                                |
+|       2 | Spine Crusher  |       5700 | 1–2    |        15 |  50 |        0 |    110 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
+|         |                |            |        |           |     |          |        |         | **Penetr. barier:** Ignoruje bariery jednostki wroga.            |
+
+---
+
+Piloci:
+
+---
+
+#### Baku Yamagishi
+
+**Seria:** Getter Robo Arc
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            153 |
+| Strzelectwo |            148 |
+| Obrona      |            120 |
+| Technika    |            171 |
+| Unik        |            139 |
+| Celność     |            144 |
+| SP          |             52 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność    | Poz. nauki | Opis                                                                  |
+| ---: | -------------- | ---------: | --------------------------------------------------------------------- |
+|    1 | Dzieci Gettera |         99 | Aktywna, gdy na pokładzie są 3 piloci i każdy ma Morale               |
+|      |                |            | 140+. Początek fazy gracza: Morale +5. Gdy wszyscy 3                  |
+|      |                |            | mają Morale 160+: końcowe zadawane obrażenia x1.2.                    |
+|    2 | Potencjał L7   |          1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa              |
+|      |                |            | kryt. i obrona. Maks. efekt przy HP do 10％: celność i                |
+|      |                |            | unik +35％, szansa kryt. +42％, otrzymywane obrażenia x0.5.           |
+|    3 | Blok L1        |          1 | Przy Morale 130+: otrzymywane obrażenia x0.9.                         |
+|    4 | Osłona L1      |          1 | Przyjmuje atak wymierzony w sąsiadującego sojusznika. Obrażenia x1.00 |
+|      |                |            | zwykłej obrony, 1 raz na turę. Szczegóły w Pomocy ('Baza danych').    |
+
+**Komendy Ducha:**
+
+| Slot | Duch  | Poz. nauki | Koszt SP | Efekt bazowy                                        |
+| ---: | ----- | ---------: | -------: | --------------------------------------------------- |
+|    1 | Hart  |          1 |       30 | Odnawia 50% maks. HP maszyny.                       |
+
+---
+
+---
+
+#### Show Kamui
+
+**Seria:** Getter Robo Arc
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            152 |
+| Strzelectwo |            151 |
+| Obrona      |            114 |
+| Technika    |            173 |
+| Unik        |            148 |
+| Celność     |            144 |
+| SP          |             53 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność       | Poz. nauki | Opis                                                         |
+| ---: | ----------------- | ---------: | ------------------------------------------------------------ |
+|    1 | Dzieci Gettera    |         99 | Aktywna, gdy na pokładzie są 3 piloci i każdy ma Morale      |
+|      |                   |            | 140+. Początek fazy gracza: Morale +5. Gdy wszyscy 3         |
+|      |                   |            | mają Morale 160+: końcowe zadawane obrażenia x1.2.           |
+|    2 | Potencjał L7      |          1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa     |
+|      |                   |            | kryt. i obrona. Maks. efekt przy HP do 10％: celność i       |
+|      |                   |            | unik +35％, szansa kryt. +42％, otrzymywane obrażenia x0.5.  |
+|    3 | Instynkt L1       |          1 | Przy Morale 130+: końcowa celność i unik +5％. Trafienie     |
+|      |                   |            | od wroga z celnością do 30％: otrzymywane obrażenia x0.5.    |
+|    4 | Wsparcie ataku L1 |          1 | Atakuje po sąsiadującym sojuszniku. Obrażenia x0.60 zwykłego |
+|      |                   |            | ataku, 1 raz na turę. Szczegóły w Pomocy ('Baza danych').    |
+
+**Komendy Ducha:**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                    |
+| ---: | -------- | ---------: | -------: | --------------------------------------------------------------- |
+|    1 | Pęd      |          1 |       20 | Jednorazowo Ruch +3. Działa do najbliższego ruchu.              |
+|    2 | Błysk    |          5 |       15 | Na 1 walkę pełny unik wszystkich ataków.                        |
+
+---
+
+#### Takuma Nagare
+
+**Seria:** Getter Robo Arc
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            154 |
+| Strzelectwo |            150 |
+| Obrona      |            118 |
+| Technika    |            171 |
+| Unik        |            140 |
+| Celność     |            146 |
+| SP          |             52 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność           | Poz. nauki | Opis                                                        |
+| ---: | --------------------- | ---------: | ----------------------------------------------------------- |
+|    1 | Dzieci Gettera        |         99 | Aktywna, gdy na pokładzie są 3 piloci i każdy ma Morale     |
+|      |                       |            | 140+. Początek fazy gracza: Morale +5. Gdy wszyscy 3        |
+|      |                       |            | mają Morale 160+: końcowe zadawane obrażenia x1.2.          |
+|    2 | Potencjał L7          |          1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa    |
+|      |                       |            | kryt. i obrona. Maks. efekt przy HP do 10％: celność i      |
+|      |                       |            | unik +35％, szansa kryt. +42％, otrzymywane obrażenia x0.5. |
+|    3 | Wola walki L2         |          1 | Morale startowe +5.                                         |
+|    4 | Przełamanie Morale L2 |          1 | Limit Morale (150) +10. Kumuluje się z                      |
+|      |                       |            | częściami itp. podnoszącymi limit Morale.                   |
+
+**Komendy Ducha:**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                               |
+| ---: | -------- | ---------: | -------: | ------------------------------------------ |
+|    1 | Cel.str. |          1 |       20 | Na 1 turę celność 100%.                    |
+
+---

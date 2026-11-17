@@ -260,6 +260,17 @@ test('strony pomocnicze, dziennik i legendy nie ujawniają procesu redakcyjnego'
   assert.match(text, /niezweryfikowany kontekst/i, 'legenda nadal odróżnia treść niepotwierdzoną');
 });
 
+test('proza stron i dziennika nie zostawia surowych gwiazdek z rozbitego pogrubienia lub kursywy', () => {
+  const bezKodu = (html) => tekstWidoczny(html.replace(/<code>[\s\S]*?<\/code>/g, ' '));
+  for (const page of Object.values(globalThis.SRW_DATA.strony)) {
+    const html = page.typ === 'epizod'
+      ? renderEpizod(page.slug)
+      : page.typ === 'scena' ? renderScena(page.slug) : renderEncja(page.slug);
+    assert.doesNotMatch(bezKodu(html), /\*/, `${page.slug}: surowa gwiazdka w tekście widocznym`);
+  }
+  assert.doesNotMatch(bezKodu(renderCoNowego()), /\*/, 'co-nowego: surowa gwiazdka w tekście widocznym');
+});
+
 test('pełna treść epizodu jest dostępna przez sceny, bez ujawniania ścieżki archiwum', () => {
   const html = renderEpizod('srw-oe-ep0');
   assert.doesNotMatch(html, /episodes\/|ep000\.md|<dt>Skrypt/);
