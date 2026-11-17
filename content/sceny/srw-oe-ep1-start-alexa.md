@@ -229,7 +229,7 @@ Po wykryciu wroga [[oficer-federacji|oficer]] każe Chris iść do wahadłowca i
 
 ### Obrona wahadłowca
 
-Andy rozpoznaje wahadłowiec i kontener, a Steiner zezwala na użycie całego uzbrojenia. Po uszkodzeniu kamery maszyny Karen Shiro odsyła ją do hangaru i porządkuje obronę pozostałych sektorów. Dialogi warunkowe przewidują jej szybki powrót z głową GM-a, odwrót poszczególnych członków Cyclops oraz ochronę transportu własnymi maszynami. Eledore przypomina z kolei, że wóz wsparcia nie nadaje się do bezpośredniego starcia. Misza chwali zwrotność Kampfera, a Shiro potwierdza ją po stronie przeciwnej.
+Andy rozpoznaje wahadłowiec i kontener, a Steiner zezwala na użycie całego uzbrojenia. Po uszkodzeniu kamery maszyny Karen Shiro odsyła ją do hangaru i porządkuje obronę pozostałych sektorów. Karen wraca jednak szybko, w [[gundam-ground-type-glowa-gm|konfiguracji z głową GM-a]], żeby dalej osłaniać wahadłowiec; [[hardy-steiner|Steiner]] pozwala swoim ludziom na użycie pełnego uzbrojenia, a piloci Cyclops wycofują się po kolei, gdy ostrzał przestaje przynosić efekt. Eledore przypomina z kolei, że wóz wsparcia nie nadaje się do bezpośredniego starcia. Misza chwali zwrotność Kampfera, a Shiro potwierdza ją po stronie przeciwnej.
 
 ### Wariant przed patrolem
 

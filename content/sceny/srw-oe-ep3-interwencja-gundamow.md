@@ -320,7 +320,7 @@ Kim są tajemnicze mobile suity? Przez zamarznięte śnieżne pole przebiega dre
 
 Prolog misji wykłada sytuację prawną, w której rozegra się cała bitwa. Po wybuchu wojny między [[earth-federation|Federacją]] a [[zeon|Zeonem]] Archipelag Japoński ogłoszono strefą neutralną razem z [[wyspy-kurylskie|Wyspami Kurylskimi]], a na jednej z bezludnych wysp działa obserwatorium podległe bezpośrednio rządowi Federacji. Wywiad Zeonu uważa je za tajną bazę wojskową, więc [[garma-zabi|Garma Zabi]] chce uderzyć krążownikiem, ujawnić złamanie traktatu i zjednać sobie opinię publiczną — Ameryka Północna i północny Pacyfik należą przecież do strefy wpływów Zeonu, a wyspa leży w zasięgu.
 
-Federacja przewidziała atak i poprosiła rząd Japonii o ochronę, dlatego na miejsce wysłano [[cyber-beast-force|Cyber Beast Force]] i [[connect-force|Connect Force]]. Misja zaczyna się więc od zderzenia dwóch porządków: Zeon gra prawem i propagandą, a obrońcy mają za zadanie nie dopuścić do walki w miejscu, w którym każdy strzał jest argumentem politycznym.
+Federacja przewidziała atak i poprosiła rząd Japonii o ochronę, dlatego na miejsce wysłano [[cyber-beast-force|Cyber Beast Force]] i [[connect-force|Connect Force]]. Zadanie zaczyna się więc od zderzenia dwóch porządków: Zeon gra prawem i propagandą, a obrońcy mają za zadanie nie dopuścić do walki w miejscu, w którym każdy strzał jest argumentem politycznym.
 
 ### Milcząca placówka
 
@@ -346,7 +346,7 @@ Wraz z okrętem schodzą do lądowania [[mobile-suit|mobile suity]], które pęd
 
 ### Garma przeciw obrońcom
 
-Dialogi warunkowe pokazują, jak każdy z obrońców widzi ten sam cel inaczej. [[amuro-ray|Amuro]] liczy na siłę ognia Gundama, a [[garma-zabi|Garma]] rozpoznaje w nim „biały mobile suit Federacji” i wiąże z nim nadzieję na uznanie siostry. [[seishiro|Seishiro]] występuje jako [[connect-force|Connect Force]] i przypomina o zakazie działań zbrojnych w strefie neutralnej, na co [[garma-zabi|Garma]] odpowiada oskarżeniem o oszustwo i zapowiada ujawnienie powiązań Connect z Federacją.
+Każdy z obrońców widzi ten sam cel inaczej. [[amuro-ray|Amuro]] liczy na siłę ognia Gundama, a [[garma-zabi|Garma]] rozpoznaje w nim „biały mobile suit Federacji” i wiąże z nim nadzieję na uznanie siostry. [[seishiro|Seishiro]] występuje jako [[connect-force|Connect Force]] i przypomina o zakazie działań zbrojnych w strefie neutralnej, na co [[garma-zabi|Garma]] odpowiada oskarżeniem o oszustwo i zapowiada ujawnienie powiązań Connect z Federacją.
 
 Reszta wymian dotyczy skali walki. [[koji-kabuto|Koji]] traktuje okręty jak duże cele, [[shinobu-fujiwara|Shinobu]] i [[sara-yuki|Sara]] przekomarza się o zapał, [[ryo-shiba|Ryo]] i [[gai|Gai]] pilnują szyku, a [[kei|Kei]] mówi wprost, że obrońcy hamują się, bo przeciwnikiem są ludzie. [[shiro-amada|Shiro]] ustawia obronę na ziemi, [[noa-izumi|Noa]] zagradza drogę [[labor|Laborowi]] i słyszy, że dla [[zanzibar|Zanzibara]] siła ognia Labora jest jak dziecięca proca. [[bright-noa|Bright]] odbiera od [[garma-zabi|Garmy]] groźbę zdobycia [[krzyz-zeonu|Krzyża Zeonu]] argumentem, że obrońcy nie są już siłami Federacji.
 

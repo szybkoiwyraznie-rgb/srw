@@ -10,19 +10,19 @@ mechy: [white-base, exart, ingram-nr-1, ingram-nr-2, keroro-robo-mk-ii, brocken,
 pojecia: [connect-force, labor, sv2, minovsky-particles, mobile-suit]
 pochodzenie: skrypt
 sekcje_analizy:
-  - "Zbliżenie do kolonii kosmicznej → Zbliżenie do kolonii kosmicznej"
-  - "White Base / Hangar → White Base / Hangar"
-  - "Zielony gość → Zielony gość"
-  - "Zabezpieczenie porzuconych Laborów → Zabezpieczenie porzuconych Laborów"
-  - "Rezonansowe wezwanie Keroro → Rezonansowe wezwanie Keroro"
-  - "Przybycie posiłków → Przybycie posiłków"
-  - "Dialogi warunkowe — Keroro widzi Gundama → Dialogi warunkowe — Keroro widzi Gundama"
-  - "Dialogi warunkowe — Keroro widzi inny mobilny skafander → Dialogi warunkowe — Keroro widzi inny mobilny skafander"
+  - "Przybycie na kolonię → Zbliżenie do kolonii kosmicznej"
+  - "Odprawa na White Base → White Base / Hangar"
+  - "Obcy w kolonii → Zielony gość"
+  - "Bezzałogowe Labory do przejęcia → Zabezpieczenie porzuconych Laborów"
+  - "Rezonans, który budzi Labory → Rezonansowe wezwanie Keroro"
+  - "Posiłki nad sektorem → Przybycie posiłków"
+  - "Gundam w oczach Keronianina → Dialogi warunkowe — Keroro widzi Gundama"
+  - "Potwierdzenie obcego świata → Dialogi warunkowe — Keroro widzi inny mobilny skafander"
   - "Drugie wezwanie rezonansowe → Drugie wezwanie rezonansowe"
-  - "Dialogi warunkowe i sytuacyjne — obezwładnianie szalejących Laborów → Dialogi warunkowe i sytuacyjne — obezwładnianie szalejących Laborów"
-  - "Labory obezwładnione → Labory obezwładnione"
-  - "Rozmowa z sierżantem Keroro → Rozmowa z sierżantem Keroro"
-  - "Śledztwo w sprawie Laborów → Śledztwo w sprawie Laborów"
+  - "Powściągliwość wewnątrz kolonii → Dialogi warunkowe i sytuacyjne — obezwładnianie szalejących Laborów"
+  - "Ostatnia maszyna unieruchomiona → Labory obezwładnione"
+  - "Rozmowa na pokładzie → Rozmowa z sierżantem Keroro"
+  - "Nowy program ochronny → Śledztwo w sprawie Laborów"
 tagi: [scena, srw-oe, patlabor, sgt-frog, connect, labor, kosmos]
 utworzono: 2026-11-17
 ---
@@ -272,57 +272,59 @@ Gdy incydenty zostały w dużej mierze opanowane, Connect Force wyruszył ku now
 
 ## Analiza
 
-### Zbliżenie do kolonii kosmicznej
+### Przybycie na kolonię
 
-Shige i Sakaki docierają do kolonii. Sakaki wyjaśnia, że próżniowe Labory do czyszczenia luster są szczelnie powlekane, a Ingramy również przygotowano do lotu.
+[[shigeo-shiba|Shige]] i [[seitaro-sakaki|Sakaki]] po raz pierwszy widzą kolonię kosmiczną z bliska: dla majstra, który nigdy nie był w kosmosie, sam widok jest zaskoczeniem. Przy lustrach pracuje [[labor|Labor]] z hermetyczną powłoką, więc obsługuje je w próżni, a delikatne czyszczenie powierza się maszynie, nie ludziom. Sakaki upewnia się, że [[ingram-nr-1|Ingramy]] dostały taką powłokę przed przylotem — w kabinach mają siedzieć policjantki, więc nie wolno niczego zostawić przypadkowi.
 
-### White Base / Hangar
+### Odprawa na White Base
 
-Seishiro odprawia Connect Force i SV2 do kolejnych przypadków szalejących Laborów. Zespół omawia wcześniejsze problemy HOS-u i ryzyko, że zainfekowane komputery rozprzestrzenią wirusa przez sieć.
+[[seishiro|Seishiro]] przekazuje rozkaz zarządu kolonii: [[connect-force|Connect Force]] ma obezwładnić szalejące Labory, a [[sv2|SV2]] ma współpracować bez dyskusji. [[himari-yaegaki|Himari]] zauważa, że szał ogarnia już maszyny bez [[shinohara-hos|HOS-a]], a Seishiro dodaje, że wirus ukryty w systemie zaraża inne podłączone komputery — wystarczy łącze po dane o położeniu. [[mikiyasu-shinshi|Shinshi]] pyta więc, który system Labora obywa się dziś bez sieci; [[shigeo-shiba|Shige]] odpowiada, że tylko ich maszyny. [[kiichi-goto|Goto]] przyjmuje zadanie, bo wojsko w kolonii nie może strzelać swobodnie, a on chce znać przyczynę, nie tylko sprzątać skutki.
 
-### Zielony gość
+### Obcy w kolonii
 
-Keroro ląduje w kolonii i rozpoznaje, że znalazł się w obcym świecie. Nie wie jeszcze, jak wrócić ani dlaczego trafił do Universal Century.
+[[sergeant-keroro|Keroro]] ląduje we wnętrzu kolonii i od razu rozpoznaje, że to nie jest miasto, które zna. Nazywa sytuację „światem równoległym” i zastanawia się, czy trafił na Pekopon z [[universal-century|Universal Century]]. Na widok nadjeżdżających maszyn chowa się, przekonany, że obcy świat jest równie groźny jak własny. Jest sam: pluton nie odpowiada na wezwania, a on nie wie jeszcze, czy zawiodła łączność, czy rzeczywiście został tu przeniesiony bez towarzyszy.
 
-### Zabezpieczenie porzuconych Laborów
+### Bezzałogowe Labory do przejęcia
 
-Connect Force ma zabezpieczyć pozostawione bezzałogowe Labory zamiast je niszczyć. Keroro ukrywa się w pobliżu i podejrzewa, że cząstki Minovsky’ego blokują kontakt z jego oddziałem.
+Firma ochroniarska prosi o ostrożne przejęcie bezzałogowych Laborów z sektora: po wypadku maszyny tego samego typu operatorzy boją się do nich podchodzić, a wojsko najchętniej rozstrzelałoby je dla wygody. [[isao-ota|Ota]] chce iść z wyciągniętym rewolwerem, [[kanuka-clancy|Kanuka]] i [[mikiyasu-shinshi|Shinshi]] przypominają, że chodzi o zabezpieczenie, nie o zniszczenie. Keroro bierze nadchodzących za pościg za sobą i tłumaczy brak łączności [[minovsky-particles|cząstkami Minovsky'ego]], które w tym świecie zakłócają fale radiowe.
 
-### Rezonansowe wezwanie Keroro
+### Rezonans, który budzi Labory
 
-Rezonans Keroro uruchamia czujniki i doprowadza pobliskie Labory do szału. Gdy maszyny atakują Keroro, Seishiro decyduje się go ratować; Keroro Robo Mk-II walczy obok Connect Force, a Seishiro przyjmuje jego wyjaśnienie o przybyciu z innego świata.
+Osamotniony Keroro woła oddział własnym głosem — rezonansem, który w jego plutonie podnosi morale. [[himari-yaegaki|Himari]] pierwsza słyszy falę, której nie ma w żadnych zapisach, a czujniki [[exart|Exarta]] pokazują odczyty poza skalą. W tym samym momencie wszystkie Labory w sektorze szaleją. [[kanuka-clancy|Kanuka]] wiąże szał z dźwiękiem, [[hiromi-yamazaki|Yamazaki]] wątpi, by miał on coś wspólnego z wcześniejszymi wypadkami, ale Ota postanawia aresztować pilota jako sprawcę. Nim zapada decyzja, oszalałe maszyny atakują Keroro — i wtedy [[seishiro|Seishiro]] rusza na ratunek.
 
-### Przybycie posiłków
+Pilotowana przez Keronianina maszyna wychodzi z opresji lepiej niż ona sama: [[keroro-robo-mk-ii|Keroro Robo Mk-II]] rozbija Labora strzałem z karabinu wiązkowego, czym zaskakuje policjantów przyzwyczajonych do policyjnych Laborów. Seishiro podlatuje i nawiązuje kontakt; Keroro przedstawia się i mówi, że wyrzuciło go tu nieznane zjawisko z Pekoponu. Zamiast odesłać nieznajomego do zarządu kolonii, Seishiro wierzy mu i proponuje wspólne przebicie się przez szalejące maszyny.
 
-Do sektora docierają posiłki. Seishiro rozdziela siły, by zatrzymać szalejące Labory wewnątrz kolonii.
+### Posiłki nad sektorem
 
-### Dialogi warunkowe — Keroro widzi Gundama
+[[himari-yaegaki|Himari]] melduje przybycie wsparcia, a [[seishiro|Seishiro]] od razu wyznacza zadanie: Labory trzeba zatrzymać w samym sektorze, żeby nie rozeszły się po całej kolonii. Do walki wchodzą [[amuro-ray|Amuro]] w [[rx-78-2-gundam|RX-78-2]] i [[kai-shiden|Kai]] w [[guncannon|Guncannonie]], a [[white-base|White Base]] zostaje punktem dowodzenia i schronieniem dla cywilów z zagrożonej części kolonii.
 
-W warunkowym dialogu Keroro rozpoznaje RX-78-2, a Amuro odpowiada na jego okrzyk podczas meldunku do Seishira.
+### Gundam w oczach Keronianina
 
-### Dialogi warunkowe — Keroro widzi inny mobilny skafander
+Na widok [[rx-78-2-gundam|RX-78-2]] Keroro wykrzykuje pełną nazwę maszyny — dla przybysza z Pekoponu to znak rozpoznawczy, że trafił do świata, który zna z modeli i opowieści. [[amuro-ray|Amuro]] melduje się Seishirowi z przeprosinami za spóźnienie, a dowódca prosi go tylko o jedno: żeby walka nie wybiła dziury w płaszczu kolonii, bo od niego zależy życie wszystkich mieszkańców.
 
-Jeśli Keroro spotyka inny mobile suit, Seishiro wyjaśnia, że jest po ich stronie; Keroro uznaje to za potwierdzenie, że trafił do świata Gundama.
+### Potwierdzenie obcego świata
+
+Kiedy Keroro pyta o kolejną maszynę, [[seishiro|Seishiro]] odpowiada, że [[mobile-suit]] jest po ich stronie. Dla Keronianina to ostatni dowód: skoro po jednej stronie stoją Gundam i mobile suity, naprawdę jest w [[universal-century|Universal Century]]. Przestaje się kryć i przyjmuje rolę sojusznika, choć wciąż nie wie, jak wrócić do domu.
 
 ### Drugie wezwanie rezonansowe
 
-Po zakończeniu starcia Himari prosi Keroro o ponowienie głosu, aby zbadać nietypowe odczyty. Wezwanie przyciąga kolejne szalejące Labory, a nie jego towarzyszy.
+Po zakończeniu starcia [[himari-yaegaki|Himari]] prosi o powtórzenie dźwięku, który tak dziwnie działał na czujniki. Keroro wyjaśnia, że to nie sygnał maszyny, tylko jego własny głos, i ponawia zew — licząc, że usłyszy go pluton. Zamiast towarzyszy przyciąga kolejną falę szalejących Laborów, co [[kanuka-clancy|Kanuka]] kwituje krótko: wezwanie działa, tylko nie na tych, na których powinno.
 
-### Dialogi warunkowe i sytuacyjne — obezwładnianie szalejących Laborów
+### Powściągliwość wewnątrz kolonii
 
-Wypowiedzi pilotów pokazują, że walka w ciasnej kolonii wymaga powściągliwości: Izumi i Shinohara chronią Labory, Himari obawia się uszkodzenia konstrukcji, a Amuro i Kai szukają sposobu na schwytanie maszyn.
+Walka w zabudowie mieszkalnej zmusza wszystkich do hamowania siły. [[noa-izumi|Noa]] i [[asuma-shinohara|Asuma]] przejmują Labory bez rozbijania ich, [[isao-ota|Ota]] narzeka, że nie może użyć amunicji wybuchowej „hurtem”, a [[mikiyasu-shinshi|Shinshi]] błaga, żeby tego nie robił. Himari boi się, że jedno chybione trafienie uszkodzi płaszcz kolonii, więc Seishiro każe jej zachować spokój i celować pewnie. [[amuro-ray|Amuro]] liczy ruchy bezzałogowych maszyn, a [[kai-shiden|Kai]] próbuje schwytać je żywcem, bez rysy na [[guncannon|Guncannonie]].
 
-### Labory obezwładnione
+### Ostatnia maszyna unieruchomiona
 
-Po unieruchomieniu wszystkich maszyn Seishiro zaprasza Keroro na White Base, by poznać okoliczności jego przybycia.
+[[himari-yaegaki|Himari]] potwierdza, że żaden Labor nie jest już aktywny; [[noa-izumi|Noa]] i [[isao-ota|Ota]] przyznają, że oszalałe maszyny nie zostawiły innego wyjścia. [[seishiro|Seishiro]] zaprasza Keroro na pokład [[white-base|White Base]], bo chce usłyszeć dokładnie, jak nieznajomy znalazł się w kolonii. Keronianin przyjmuje zaproszenie bez wahania — okręt jest dla niego jedynym bezpiecznym miejscem w obcym świecie.
 
-### Rozmowa z sierżantem Keroro
+### Rozmowa na pokładzie
 
-Keroro opowiada o zagubieniu na zewnętrznej ścianie kolonii, swojej obcości i zamiłowaniu do Gundamów. Zgadza się pomóc w badaniach, a Seishiro obiecuje szukać sposobu na jego powrót.
+Keroro opowiada, że błąkał się głodny po zewnętrznych ścianach kolonii, bo Keronianin nie może pokazać się ludziom w takim kształcie. [[seishiro|Seishiro]] wyjaśnia, że jego głos pobudza czułe czujniki [[labor|Laborów]], i prosi o zgodę na badania; w zamian obiecuje szukać drogi powrotu. Rozmowa schodzi na hobby gościa: [[sergeant-keroro|Keroro]] składa modele Gundamów, a na okręcie widzi pełny skład maszyn z pierwszej serii — [[rx-78-2-gundam|Gundama]], [[guncannon|Guncannona]] i [[guntank|Guntanka]] — i dlatego chce zostać. [[himari-yaegaki|Himari]] wita go na pokładzie.
 
-### Śledztwo w sprawie Laborów
+### Nowy program ochronny
 
-Późniejsze próby wykazują, że niska częstotliwość rezonansu może uruchamiać czujniki Laborów z HOS-em. Samo przepisanie systemu nie wystarcza, więc Connect Force planuje nowy program ochronny i przyjmuje Keroro, odsuwając go od stref pracy Laborów.
+Badania potwierdzają, że niska częstotliwość głosu Keronianina uruchamia czujniki [[shinohara-hos|HOS-a]]. Seria wcześniejszych wypadków miała tę samą przyczynę: dźwięk o niskiej częstotliwości powstawał w rezonansie wysokich budowli podczas silnego wiatru. Przepisanie systemu nie wystarcza, więc powstaje nowy program zabezpieczający, który ma odcinać czujniki od takich drgań. [[sergeant-keroro|Keroro]] wchodzi w skład [[connect-force|Connect Force]] i zostaje na razie trzymany z dala od stref pracy Laborów, a zespół wyrusza do kolejnego zadania.
 
 ## Wątki w scenie
 

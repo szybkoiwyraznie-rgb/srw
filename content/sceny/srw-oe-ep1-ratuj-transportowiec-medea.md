@@ -130,7 +130,7 @@ Załoga Medei prosi o osłonę i niezgubienie ścigających ją Doppów. [[eledo
 
 ### Dwa warianty zakończenia
 
-Oba warunkowe przebiegi opisują tę samą pomyślną konkluzję, lecz zmieniają kolejność komunikatów. Eledore melduje ciszę po walce, Michel potwierdza odpartie przeciwnika, Oficer dziękuje za ratunek i zgłasza zabezpieczony kurs, a Shiro kończy misję rozkazem powrotu. Warianty różnią się więc układem wypowiedzi, nie rozstrzygnięciem wydarzeń.
+Oba warianty zakończenia kończą się tak samo, choć inaczej rozkładają komunikaty. Eledore melduje ciszę po walce, Michel potwierdza odpartie przeciwnika, Oficer dziękuje za ratunek i zgłasza zabezpieczony kurs, a Shiro kończy misję rozkazem powrotu. Warianty różnią się więc układem wypowiedzi, nie rozstrzygnięciem wydarzeń.
 
 ### Po akcji
 

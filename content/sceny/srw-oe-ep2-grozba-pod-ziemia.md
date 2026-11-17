@@ -560,7 +560,7 @@ Krótkie kwestie bojowe podczas otwarcia wymiany ognia podkreślają dezorientac
 
 ### Poszukiwania Gurren Laganna za skalną przegrodą
 
-Warunkowy wariant dialogu pokazuje moment, w którym [[gurren-lagann|Gurren Lagann]] przedostaje się za kamienną ścianę i natrafia na dwie pulsujące struktury — [[mucus-gate-s-in|Mucus Gate S IN]] oraz [[mucus-gate-s-mc|Mucus Gate S MC]] — z których nieprzerwanie wyskakują wrogie jednostki. [[seishiro|Seishiro]] natychmiast nakazuje ich zniszczenie jako jedyny sposób na odcięcie posiłków.
+W środku bitwy [[gurren-lagann|Gurren Lagann]] przedostaje się za kamienną ścianę i natrafia na dwie pulsujące struktury — [[mucus-gate-s-in|Mucus Gate S IN]] oraz [[mucus-gate-s-mc|Mucus Gate S MC]] — z których nieprzerwanie wyskakują wrogie jednostki. [[seishiro|Seishiro]] natychmiast nakazuje ich zniszczenie jako jedyny sposób na odcięcie posiłków.
 
 ### Ocena nowych sojuszników przez załogę Gettera
 
@@ -572,7 +572,7 @@ Gdy zza skalnej ściany wyłaniają się następne grupy przeciwników, [[himari
 
 ### Odkrycie bram przez załogę Gettera
 
-Drugi wariant warunkowy przedstawia odkrycie obu bram przez [[shin-getter-1|Shin Gettera]]: [[go|Go]], [[kei|Kei]] i [[gai|Gai]] dostrzegają [[invader-ground|Invaderów]] oraz [[mechabestia|mechabestie]] wychodzące wprost z portali i na wezwanie [[seishiro|Seishira]] przystępują do ich rozbicia.
+Równocześnie obie bramy odkrywa [[shin-getter-1|Shin Getter]]: [[go|Go]], [[kei|Kei]] i [[gai|Gai]] dostrzegają [[invader-ground|Invaderów]] oraz [[mechabestia|mechabestie]] wychodzące wprost z portali i na wezwanie [[seishiro|Seishira]] przystępują do ich rozbicia.
 
 ### Zlokalizowanie źródła posiłków przez Connect
 
@@ -580,7 +580,7 @@ Niezależnie od wybranego skrzydła natarcia napływ wrogów zmusza sojuszników
 
 ### Uderzenie na bramy Mucus i zakończenie bitwy
 
-Dialogi warunkowe pokazują inicjatywę obu drużyn osobno. [[kamina|Kamina]] poleca [[simon|Simonowi]] przebić ścianę, a [[gurren-team|drużyna Gurren]] odkrywa za nią obiekt wypuszczający potwory. Dopiero w reakcji na ich przejście [[gai|Gai]] pyta [[kei|Kei]] o pomoc przy użyciu [[shin-getter-2|Gettera-2]], zaś [[go|Go]] zapowiada zmianę formy, jeśli nowi sojusznicy wpadną w tarapaty. W dialogach odkrycia bramy przez Gettera Gai rozsyła obraz celu, a [[seishiro|Seishiro]] nakazuje jego zniszczenie. Gdy nadciągają kolejne posiłki, Seishiro powierza tamtą stronę Getterowi i drużynie Gurren, a pozostałym jednostkom poleca oczyścić ich część pola walki. Po bitwie rozmowa przechodzi do natury [[mucus-gate-s-in|Mucus Gate]] i przybycia wrogów.
+Obie drużyny działają tu z własnej inicjatywy: [[kamina|Kamina]] poleca [[simon|Simonowi]] przebić ścianę, a [[gurren-team|drużyna Gurren]] odkrywa za nią obiekt wypuszczający potwory. Dopiero w reakcji na ich przejście [[gai|Gai]] pyta [[kei|Kei]] o pomoc przy użyciu [[shin-getter-2|Gettera-2]], zaś [[go|Go]] zapowiada zmianę formy, jeśli nowi sojusznicy wpadną w tarapaty. Gdy Getter odkrywa bramę, [[gai|Gai]] rozsyła obraz celu, a [[seishiro|Seishiro]] nakazuje jego zniszczenie. Gdy nadciągają kolejne posiłki, Seishiro powierza tamtą stronę Getterowi i drużynie Gurren, a pozostałym jednostkom poleca oczyścić ich część pola walki. Po bitwie rozmowa przechodzi do natury [[mucus-gate-s-in|Mucus Gate]] i przybycia wrogów.
 
 ### Tajemnica Mucus i splecenie światów
 

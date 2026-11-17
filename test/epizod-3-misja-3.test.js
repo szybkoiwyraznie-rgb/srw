@@ -33,8 +33,10 @@ test('scena 3-3 cytuje cały skrypt dosłownie i wskazuje epizod oraz kolejny nu
   assert.equal(blocks.length, 13, 'każdy etap sceny ma osobny blok skryptu');
   assert.equal(normalizujTekst(blocks.join('\n')), normalizujTekst(script));
   assert.equal(scene.sekcje_analizy.length, 13);
-  assert.equal(scene.sekcje_analizy[0], 'Zbliżenie do kolonii kosmicznej → Zbliżenie do kolonii kosmicznej');
-  assert.equal(scene.sekcje_analizy.at(-1), 'Śledztwo w sprawie Laborów → Śledztwo w sprawie Laborów');
+  assert.equal(scene.sekcje_analizy[0], 'Przybycie na kolonię → Zbliżenie do kolonii kosmicznej');
+  assert.equal(scene.sekcje_analizy.at(-1), 'Nowy program ochronny → Śledztwo w sprawie Laborów');
+  // Analiza nie wymienia nagłówków skryptu jako tematów — opisuje świat.
+  assert.doesNotMatch(scene.body.split('## Analiza')[1].split('\n## ')[0], /^###\s+(?:Dialogi|Warunkowe dialogi)/m);
   assert.match(scene.body, /## Analiza[\s\S]*## Wątki w scenie/);
   assert.ok(episode.body.includes('[[srw-oe-ep3-zielony-najezdzca|Misja 3: Zielony najeźdźca]]'));
 });

@@ -223,7 +223,7 @@ Druga połowa rozmowy dotyczy tego, czym właściwie jest [[connect-force|Connec
 
 ### Nowa maszyna Czerwonej Komety
 
-Dialogi warunkowe pokazują [[char-aznable|Chara]] w maszynie, której załoga okrętu jeszcze nie zna. [[amuro-ray|Amuro]] melduje „nowy mobile suit?!”, a Char zapowiada, że [[gelgoog-char|Gelgoog]] przebije pancerz [[rx-78-2-gundam|Gundama]]. To pierwszy raz, kiedy Czerwona Kometa nie ma przewagi wyłącznie z pilotażu, lecz także ze sprzętu.
+[[char-aznable|Char]] wychodzi do walki w maszynie, której załoga okrętu jeszcze nie zna. [[amuro-ray|Amuro]] melduje „nowy mobile suit?!”, a Char zapowiada, że [[gelgoog-char|Gelgoog]] przebije pancerz [[rx-78-2-gundam|Gundama]]. To pierwszy raz, kiedy Czerwona Kometa nie ma przewagi wyłącznie z pilotażu, lecz także ze sprzętu.
 
 Reszta kwestii mierzy postęp przeciwnika: [[sayla-mass|Sayla]] nie chce wierzyć, że pościg to przeznaczenie, Char odnotowuje, że myśliwiec z [[jaburo|Jaburo]] radzi sobie i w kosmosie, i przyznaje, że „piloci konia trojańskiego nabierają wprawy”. Pochwała z jego ust jest zarazem ostrzeżeniem dla jego własnej strony.
 
@@ -231,7 +231,7 @@ Reszta kwestii mierzy postęp przeciwnika: [[sayla-mass|Sayla]] nie chce wierzy�
 
 Zbliżenie Chara do okrętu rozgrywa się w kilku zdaniach meldunków. [[oscar-dublin|Oscar]] zgłasza [[mobile-suit|mobile suit]] na kursie, [[bright-noa|Bright]] pyta o obronę przeciwlotniczą, [[marker|Marker]] krzyczy, że maszyna nie zwalnia — a sam Char tłumaczy swoją taktykę jednym zdaniem: „szarża jest bezpieczniejsza niż bezładne uniki”.
 
-Bright rozpoznaje przeciwnika po samym sposobie walki: „To Char! Tylko Char tak walczy!”. Gra używa tu dialogu zamiast cutscenki — legenda Czerwonej Komety działa, zanim padnie choć jeden celny strzał.
+Bright rozpoznaje przeciwnika po samym sposobie walki: „To Char! Tylko Char tak walczy!”. Sama legenda Czerwonej Komety działa tu wcześniej niż broń — zanim padnie choć jeden celny strzał.
 
 ### Odwrót bez kapitulacji
 
@@ -249,7 +249,7 @@ Rozstanie jest wyjątkowo kurtuazyjne. Char życzy Seishirowi powodzenia i zapow
 
 ### Złość w hangarze
 
-Jedno zdanie w hangarze [[zanzibar|Zanzibara]] wystarcza za całą scenę: [[tokwan|Tokwan]] nie godzi się z rozejmem, bo zabójcy porucznika [[dren|Drena]] są „na wyciągnięcie ręki”. Gra nie tłumaczy go ani nie potępia — pokazuje tylko, że rozkaz nie unieważnia rachunku, który pilot ma do wyrównania.
+Jedno zdanie w hangarze [[zanzibar|Zanzibara]] wystarcza za całą scenę: [[tokwan|Tokwan]] nie godzi się z rozejmem, bo zabójcy porucznika [[dren|Drena]] są „na wyciągnięcie ręki”. Opowieść go nie tłumaczy ani nie potępia — pokazuje tylko, że rozkaz nie unieważnia rachunku, który pilot ma do wyrównania.
 
 ### Samowolny start
 

@@ -310,7 +310,7 @@ utworzono: 2026-11-01
 
 ### HAL-X10 i wyzwanie Buda
 
-[[zolnierz-jsdf|Żołnierz Sił Samoobrony]] przybywa z pomocą, tłumacząc zwłokę rozkazami przełożonych. [[badrinath-harchand|Bud]] natychmiast unieszkodliwia jego [[hal-x10-green|HAL-X10/Green]] w [[griffon|Griffonie]]. Żołnierz przeżywa, ale systemy maszyny przestają działać. Bud szczególnie chce zmierzyć się z Noą i traktuje pozostałych jak dodatkowych przeciwników w grze. Noa wzywa go do wyjścia z kabiny i poddania się; odpowiedzią jest okrzyk rozpoczynający „rundę”.
+[[zolnierz-jsdf|Żołnierz Sił Samoobrony]] przybywa z pomocą, tłumacząc zwłokę rozkazami przełożonych. [[badrinath-harchand|Bud]] natychmiast unieszkodliwia jego [[hal-x10-green|HAL-X10/Green]] w [[griffon|Griffonie]]. Żołnierz przeżywa, ale systemy maszyny przestają działać. Bud szczególnie chce zmierzyć się z Noą i traktuje pozostałych jak kolejnych przeciwników do zaliczenia. Noa wzywa go do wyjścia z kabiny i poddania się; odpowiedzią jest okrzyk rozpoczynający „rundę”.
 
 ### Współpraca Ingramów
 

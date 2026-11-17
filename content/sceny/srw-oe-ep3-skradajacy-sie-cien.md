@@ -309,7 +309,7 @@ Krótka wymiana w kabinie [[exart|Exarta]] pokazuje, jak blisko siebie pracują 
 
 ### Zespół Raijin-Oh
 
-Dialogi warunkowe pokazują szkolny ton drużyny [[matchless-raijin-oh|Raijin-Oh]]: [[maria-shiratori|Maria]] brzydzi się wijącym stworem, [[jin-hyuga|Jin]] odpowiada jej docinkiem o „dziewczyńskim” strachu, a [[asuka-tsukishiro|Asuka]] ucisza oboje.
+W walce słychać szkolny ton drużyny [[matchless-raijin-oh|Raijin-Oh]]: [[maria-shiratori|Maria]] brzydzi się wijącym stworem, [[jin-hyuga|Jin]] odpowiada jej docinkiem o „dziewczyńskim” strachu, a [[asuka-tsukishiro|Asuka]] ucisza oboje.
 
 ### Zespół Shin Gettera
 

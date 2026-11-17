@@ -268,7 +268,7 @@ Baza poniosła minimalne straty, a port kosmiczny ocalał — to warunek przysz�
 
 ### Zmiana strategii po Jaburo
 
-Narracja po bitwie zamyka epizod ziemski: desant na [[jaburo|Jaburo]] nie dotarł do doków, a rozpoznanie siły [[mobile-suit|mobile suitów]] [[earth-federation|Federacji]] przekonuje [[zeon|Zeon]], że kontrofensywa jest bliska. Zeon zmienia więc strategię — siły lądowe przechodzą do wojny partyzanckiej i działań opóźniających, a siły kosmiczne w pośpiechu wprowadzają nowe mobile suity i mobile armory. Zapowiedź tajnego planu Najwyższego Wodza Zeonu zostaje zapowiedzią: gra nie zdradza jeszcze, na czym ma polegać.
+Narracja po bitwie zamyka epizod ziemski: desant na [[jaburo|Jaburo]] nie dotarł do doków, a rozpoznanie siły [[mobile-suit|mobile suitów]] [[earth-federation|Federacji]] przekonuje [[zeon|Zeon]], że kontrofensywa jest bliska. Zeon zmienia więc strategię — siły lądowe przechodzą do wojny partyzanckiej i działań opóźniających, a siły kosmiczne w pośpiechu wprowadzają nowe mobile suity i mobile armory. Tajny plan Najwyższego Wodza Zeonu pozostaje na razie zapowiedzią — nikt nie mówi, na czym ma polegać.
 
 }}
 

@@ -11,7 +11,7 @@ sekcje_analizy:
   - Na poligonie Fuji → Siły Samoobrony, poligon Fuji
   - SV2 dołącza do ćwiczeń → SV2 dołącza do ćwiczeń
   - Ostra amunicja → Ostra amunicja
-  - Warunkowe dialogi bitewne → Dialogi bojowe — warunkowe i sytuacyjne
+  - Głosy w walce z HAL-X10 → Dialogi bojowe — warunkowe i sytuacyjne
   - Po ćwiczeniach → Po ćwiczeniach
   - Następstwa → Następstwa
 pochodzenie: skrypt
@@ -265,7 +265,7 @@ Zdarzył się jednak podczas wspólnych ćwiczeń, więc Ministerstwo Obrony nie
 
 ## Analiza
 
-„Szalejący prototyp Labora” to cała misja 1 epizodu 1 — jedna scena, której kolejne części wyznaczają nagłówki scenariusza. Każda zmienia miejsce, obsadę albo stawkę:
+„Szalejący prototyp Labora” to cała pierwsza misja epizodu — jedno starcie rozpisane na kolejne odsłony, z których każda zmienia miejsce, obsadę albo stawkę:
 
 ### Odprawa na stacji Connect
 
@@ -279,7 +279,7 @@ Scena nie zdradza, czym zajmuje się Connect poza handlem. Wątki z prologu — 
 
 Krótki komentarz od narratora wyjaśnia świat [[labor|Laborów]]: maszyny trafiły najpierw do budownictwa, a razem z nimi przyszła przestępczość z użyciem robotów. Odpowiedzią było utworzenie w [[sv2|SV2]] kompanii patrolowych Laborów podległej Policji Metropolitalnej Tokio.
 
-Scena pełni rolę wprowadzenia dla czytelnika, który zna grę, ale nie zna *Patlabor*. Nie ma tu dialogów ani akcji — to jedyny fragment epizodu bez obsady.
+Opowieść zatrzymuje się tu na chwilę, żeby pokazać świat, w którym [[labor|Labory]] są codziennością: maszyny budowlane, patrol policyjny i przestępcy, którzy nauczyli się ich używać.
 
 ### Na poligonie Fuji
 
@@ -305,9 +305,7 @@ Seishiro wchodzi do walki razem z [[himari-yaegaki|Himari]] i od razu oddaje jej
 
 Starcie ujawnia przewagę bezzałogowych maszyn: odpowiadają ogniem na każdy strzał i nie mają martwego pola z tyłu. Dopiero celny strzał w stawy pozwala je unieruchomić. Kto zmienił amunicję i dlaczego, pozostaje otwarte.
 
-### Warunkowe dialogi bitewne
-
-Fragment zbiera kwestie, które w grze padają tylko w określonych warunkach — to nie osobna scenka, lecz zestaw komentarzy do walki z [[hal-x10|HAL-X10]].
+### Głosy w walce z HAL-X10
 
 [[himari-yaegaki|Himari]] gubi się w sterowaniu [[exart|Exartem]] i przyznaje, że ma mętlik w głowie; [[seishiro|Seishiro]] uspokaja ją i przypomina, że to jej pierwsza prawdziwa walka. [[isao-ota|Ota]] nie zamierza się wycofać mimo polecenia wojska, a [[mikiyasu-shinshi|Shinshi]] przypomina mu o własnym życiu.
 
@@ -348,7 +346,7 @@ W oryginale [[hal-x10-green|HAL-X10]] jest prototypem [[labor|Labora]] badanym p
 | Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
 |---|---|---|---|
 | **Nowy skład załogi.** [[himari-yaegaki\|Himari]] zostaje podpilotem [[exart\|Exarta]] i po raz pierwszy leci w terenie; [[seishiro\|Seishiro]] ma jej oddać stery, gdy sam zajmie się taktyką. | [[srw-oe\|Super Robot Wars OE]] | n/d | Podział ról w kokpicie Exarta jest rozwiązaniem gry; w „Runaway Labor X-10!” nie ma dwuosobowej załogi prototypu. |
-| **Świat Laborów.** Wtrącenie o [[labor\|Laborach]] i [[sv2\|SV2]] wprowadza czytelnika w realia *Patlabor*. | [[srw-oe\|Super Robot Wars OE]] | n/d | Objaśnienie dla gracza, który nie zna serialu; samo pojęcie Laborów pochodzi z *Patlabor*, ale wtrącenie narratora należy do gry. |
+| **Świat Laborów.** Wtrącenie o [[labor\|Laborach]] i [[sv2\|SV2]] wprowadza czytelnika w realia *Patlabor*. | [[srw-oe\|Super Robot Wars OE]] | n/d | Samo pojęcie Laborów pochodzi z *Patlabor*, ale wprowadzenie ich realiów w tym miejscu należy do gry. |
 | **Cena neutralności.** Ograniczenia technologiczne każą [[sily-samoobrony-japonii\|Siłom Samoobrony]] polegać na superrobotach innych organizacji. | [[srw-oe\|Super Robot Wars OE]] | n/d | W serialu wojsko dysponuje własnymi Laborami; zależność od Connect i superrobotów to założenie scenariusza gry. |
 | **Trzy ekipy na jednym poligonie.** Wojsko, policyjny pluton i prototyp Connect uczą się działać obok siebie. | [[srw-oe\|Super Robot Wars OE]] | n/d | Wspólne ćwiczenia trzech organizacji to konstrukcja gry — w odcinku na poligonie Fuji ćwiczy wyłącznie wojsko z HAL-X10. |
 | **Ostra amunicja.** Ktoś podmienił ładunki albo zmienił ustawienia celów — bezzałogowe HAL-X10 otwierają ogień. | [[mobile-police-patlabor\|Mobile Police Patlabor]] | odc. 5 „Runaway Labor X-10!” | W oryginale HAL-X10 wariuje podczas testu wojskowego; gra dodaje podmianę ładunków i obecność policyjnego plutonu oraz Exarta. |

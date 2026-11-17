@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-17 21:39
+
+- **[[srw-oe-ep3-zielony-najezdzca|Analiza „Zielonego najeźdźcy” opowiada o świecie]]** — trzynaście części analizy opisuje teraz wydarzenia sceny własnymi słowami: pierwsze zetknięcie [[shigeo-shiba|Shigego]] i [[seitaro-sakaki|Sakakiego]] z kolonią, odprawę [[seishiro|Seishira]] na [[white-base|White Base]], samotność [[sergeant-keroro|Keroro]] w obcym mieście, zabezpieczanie bezzałogowych [[labor|Laborów]], rezonans, który je budzi, przybycie [[amuro-ray|Amura]] i [[kai-shiden|Kaia]], powściągliwość walki w zabudowie oraz śledztwo kończące się nowym programem ochronnym.
+- **Język warsztatu zniknął z analiz scen** — w analizach i wątkach pozostałych scen nie ma już zwrotów o graczu, dialogach ani scenariuszu; mowa jest o postaciach, maszynach i zdarzeniach.
+
 ## 2026-11-17 20:57
 
 - **Drużyna Danketsu i Ganba u [[eldran|Eldrana]]** — [[kanzen-shouri-daiteioh|*Kanzen Shouri Daiteioh*]] opowiada o czwórce uczniów klasy 5-3 ze Szkoły Podstawowej Gokuraku, którzy dostają od Eldrana [[daiteioh|Daiteioha]] i [[perfect-daiteioh|Perfect Daiteioha]]: główne stery obejmuje [[taro-omomo|Taro Omomo]], a [[mai-ozora|Mai Ozora]], [[kakeru-daichi|Kakeru Daichi]] i [[hiryu-tsukishiro|Hiryu Tsukishiro]] wspierają go w walce. Własną trójkę pilotów ma też [[genki-bakuhatsu-ganbaruger|*Genki Bakuhatsu Ganbaruger*]] — [[kotaro-kirigakure|Kotaro Kirigakure]] prowadzi [[ganbaruger|Ganbarugera]] i [[great-ganbaruger|Great Ganbarugera]], a [[yosuke-kazamatsuri|Yosuke Kazamatsuri]] i [[rikiya-ryuzaki|Rikiya Ryuzaki]] latają z nim jako podpiloci.

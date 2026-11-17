@@ -159,7 +159,7 @@ Mostek [[white-base|White Base]] rozpoznaje układ sił w kilka chwil: potwierdz
 
 ### Głosy załogi w ogniu
 
-Dialogi warunkowe rozkładają starcie na pojedyncze zadania. [[dren|Dren]] próbuje dotrwać do przybycia Chara i ustawia ostrzał tak, by zmusić okręt do zwolnienia; [[amuro-ray|Amuro]] odpowiada, że zatrzymanie tutaj oznacza kleszcze, i atakuje bez zwłoki.
+Każdy z pilotów dostaje w tym starciu własne zadanie. [[dren|Dren]] próbuje dotrwać do przybycia Chara i ustawia ostrzał tak, by zmusić okręt do zwolnienia; [[amuro-ray|Amuro]] odpowiada, że zatrzymanie tutaj oznacza kleszcze, i atakuje bez zwłoki.
 
 [[bright-noa|Bright]] wskazuje silniki i mostek jako cele, a prowadzenie uników powierza [[mirai-yashima|Mirai]]. [[kai-shiden|Kai]] narzeka na „przeklętą spódniczkę” i czeka, aż wróg podleci bliżej, [[hayato-kobayashi|Hayato]] chce udowodnić, że [[guntank|Guntank]] poradzi sobie także w kosmosie, a [[sayla-mass|Sayla]] po raz pierwszy walczy w przestrzeni i sama ostrzega, że łatwo zgubić skrzydłowych.
 

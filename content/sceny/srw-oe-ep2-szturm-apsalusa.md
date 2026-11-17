@@ -390,7 +390,7 @@ Epizod otwiera się w środku przygotowań: [[earth-federation|Federacja]] szyku
 
 ### Ez8 i dług u Gundama
 
-Oględziny [[gundam-ez8|Ez8]] zamieniają się w wykład o realiach frontu: maszyna jest składana z tego, co udało się znaleźć, a płyta na piersi pochodzi z tarczy zestrzelonego [[zaku-ii-karabin-maszynowy|Zaku]]. Wątek domyka wzmianka o [[rx-78nt-1-gundam-alex|Alexie]] — prototypie, który nie walczył i reaguje szybciej niż wszystko, czym dysponują obrońcy. Gra pokazuje w ten sposób, że przewaga techniczna Federacji jest skutkiem wcześniejszych walk, a nie gotowym prezentem.
+Oględziny [[gundam-ez8|Ez8]] zamieniają się w wykład o realiach frontu: maszyna jest składana z tego, co udało się znaleźć, a płyta na piersi pochodzi z tarczy zestrzelonego [[zaku-ii-karabin-maszynowy|Zaku]]. Wątek domyka wzmianka o [[rx-78nt-1-gundam-alex|Alexie]] — prototypie, który nie walczył i reaguje szybciej niż wszystko, czym dysponują obrońcy. Ta przewaga techniczna Federacji jest skutkiem wcześniejszych walk, a nie gotowym prezentem.
 
 ### Alarm i decyzja o zwarciu
 
@@ -406,11 +406,11 @@ Dialog [[shiro-amada|Shiro]] z [[ginias-sahalin|Giniasem]] to najostrzejszy mome
 
 ### Działo megacząsteczkowe
 
-Pierwszy strzał Apsalusa zmienia obraz bitwy: [[fraw-bow|Fraw]], [[marker|Marker]] i [[oscar-dublin|Oscar]] meldują zniszczenia na linii ognia i poważne uszkodzenia stanowisk przeciwlotniczych. [[mirai-yashima|Mirai]] zauważa, że strzał oddany prosto w dół zagrozi portowi i dowództwu, a [[bright-noa|Bright]] wydaje jedyny możliwy rozkaz — nie dopuścić maszyny bliżej. Gra pokazuje, że obrona bramy nie jest już kwestią taktyki, lecz przetrwania bazy.
+Pierwszy strzał Apsalusa zmienia obraz bitwy: [[fraw-bow|Fraw]], [[marker|Marker]] i [[oscar-dublin|Oscar]] meldują zniszczenia na linii ognia i poważne uszkodzenia stanowisk przeciwlotniczych. [[mirai-yashima|Mirai]] zauważa, że strzał oddany prosto w dół zagrozi portowi i dowództwu, a [[bright-noa|Bright]] wydaje jedyny możliwy rozkaz — nie dopuścić maszyny bliżej. Od tej chwili obrona bramy przestaje być kwestią taktyki, a staje się sprawą przetrwania bazy.
 
 ### Ładowanie działa
 
-Krótka sekwencja warunkowa przypomina, że Apsalus nie strzela od razu: [[ginias-sahalin|Ginias]] zapowiada ładowanie działa megacząsteczkowego i zapowiada, że „skróci cierpienia” obrońców. To jedyne miejsce, w którym gra daje graczowi chwilę na reakcję przed kolejnym uderzeniem.
+Apsalus nie strzela od razu: [[ginias-sahalin|Ginias]] zapowiada ładowanie działa megacząsteczkowego i zapowiada, że „skróci cierpienia” obrońców. Obrońcy dostają chwilę na reakcję przed kolejnym uderzeniem.
 
 ### Pojedynek z Ralem
 
@@ -426,7 +426,7 @@ Krótka sekwencja warunkowa przypomina, że Apsalus nie strzela od razu: [[ginia
 
 ### Wybór Shiro
 
-W dialogu decyzyjnym [[shiro-amada|Shiro]] nazywa po imieniu dylemat: chronić bazę, zatrzymać maszynę i oszczędzić pilota naraz się nie da. Zwrot „Wybacz mi, Aino… twój brat… muszę…!” pokazuje, że wybiera bunt wobec osoby, którą zna, i że zdaje sobie sprawę z ceny.
+[[shiro-amada|Shiro]] nazywa po imieniu swój dylemat: chronić bazę, zatrzymać maszynę i oszczędzić pilota naraz się nie da. Zwrot „Wybacz mi, Aino… twój brat… muszę…!” pokazuje, że wybiera bunt wobec osoby, którą zna, i że zdaje sobie sprawę z ceny.
 
 ### Shiro i Ral
 
@@ -458,7 +458,7 @@ W dialogu decyzyjnym [[shiro-amada|Shiro]] nazywa po imieniu dylemat: chronić b
 
 ### Odwrót oddziału Rala
 
-Sekwencja odwrotów domyka wątek [[ramba-ral|Rala]]: dowódca mówi „więc to koniec”, wzywa [[crowley-hamon|Hamon]] na punkt zbiórki, a [[acous|Acous]] i [[cozun-graham|Cozun]] meldują uszkodzenia i odrywają się od walki. Gra pozwala oddziałowi przeżyć — odwrót jest tu decyzją, nie porażką.
+Odwrót domyka wątek [[ramba-ral|Rala]]: dowódca mówi „więc to koniec”, wzywa [[crowley-hamon|Hamon]] na punkt zbiórki, a [[acous|Acous]] i [[cozun-graham|Cozun]] meldują uszkodzenia i odrywają się od walki. Oddział wychodzi z bitwy cało — odwrót jest tu decyzją, nie porażką.
 
 ### Upadek Apsalusa
 
