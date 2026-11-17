@@ -23,6 +23,8 @@ W [[srw-oe-ep1-sledztwo-pod-przykrywka|scenie „Śledztwo pod przykrywką”]] 
 
 W [[srw-oe-ep2-czarny-labor|zasadzce na poligonie]] SI sterująca kieruje bezzałogowymi [[brocken|Brockenami/Melee]] oraz [[brocken-dzialko-automatyczne|Brockenami z działkiem automatycznym]]. Brak oznak życia w kabinach potwierdza skan [[exart|Exarta]].
 
+W [[srw-oe-ep3-zielony-najezdzca|incydencie na kolonii]] bezzałogowe Brockeny w dwóch wariantach walczą wśród Laborów wprawionych w szał przez rezonans Keroro.
+
 W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] SI sterująca kieruje Brockenami w trzech wariantach: [[brocken|Melee]], [[brocken-dzialko-automatyczne|z działkiem automatycznym]] i [[brocken-cannon|Cannon]].
 }}
 

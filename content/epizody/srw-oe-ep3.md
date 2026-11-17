@@ -5,9 +5,10 @@ tytul: Epizod 3
 gra: srw-oe
 numer: 3
 skrypt: episodes/srw-oe/ep003.md
-postacie: [bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, seishiro, himari-yaegaki, go, kei, gai, koji-kabuto, shinobu-fujiwara, sara-yuki, ryo-shiba, masato-shikibu, alan-igor, shiro-amada, noa-izumi, amuro-ray, garma-zabi, char-aznable, mquve, uragan, oficer-zeonu, zolnierz-zeonu, gaia, mash, ortega, setsuna-f-seiei, heero-yuy, sayla-mass, michel-ninorich, isao-ota, kanuka-clancy, asuka-tsukishiro, jin-hyuga, maria-shiratori, kiichi-goto, asuma-shinohara, mikiyasu-shinshi, invader, suol, gihren-zabi, kycilia-zabi]
-mechy: [exart, final-dancouga, mazinger-z, shin-getter-1, white-base, gundam-exia, wing-gundam-zero, dom, gelgoog-char, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, zanzibar, invader-air, invader-ground, metal-beast-muszla]
-pojecia: [connect-force, cyber-beast-force, 13-samodzielny-oddzial, black-tri-stars, zeon, earth-federation, mobile-suit, newtype, krzyz-zeonu, uc-0079, sily-samoobrony-japonii, cyber-newtype, sily-kolonii, invaderzy]
+postacie: [control-ai, bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, seishiro, himari-yaegaki, go, kei, gai, koji-kabuto, shinobu-fujiwara, sara-yuki, ryo-shiba, masato-shikibu, alan-igor, shiro-amada, noa-izumi, amuro-ray, garma-zabi, char-aznable, mquve, uragan, oficer-zeonu, zolnierz-zeonu, gaia, mash, ortega, setsuna-f-seiei, heero-yuy, sayla-mass, michel-ninorich, isao-ota, kanuka-clancy, asuka-tsukishiro, jin-hyuga, maria-shiratori, kiichi-goto, asuma-shinohara, mikiyasu-shinshi, invader, suol, gihren-zabi, kycilia-zabi, seitaro-sakaki, shigeo-shiba, hiromi-yamazaki, shinohara-hos, sergeant-keroro, kai-shiden]
+mechy: [exart, final-dancouga, mazinger-z, shin-getter-1, white-base, gundam-exia, wing-gundam-zero, dom, gelgoog-char, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, zanzibar, invader-air, invader-ground, metal-beast-muszla, ingram-nr-1, ingram-nr-2, keroro-robo-mk-ii, brocken, brocken-dzialko-automatyczne]
+pojecia: [connect-force, cyber-beast-force, 13-samodzielny-oddzial, black-tri-stars, zeon, earth-federation, mobile-suit, newtype, krzyz-zeonu, uc-0079, sily-samoobrony-japonii, cyber-newtype, sily-kolonii, invaderzy, labor, sv2, minovsky-particles]
+serie: [sgt-frog]
 pochodzenie: skrypt
 tagi: [srw-oe, universal-century, connect, zeon, gundam, zimna-wyspa]
 utworzono: 2026-11-13
@@ -38,6 +39,10 @@ Po walce nieznane maszyny znikają, a [[bright-noa|Bright]] rozkazuje powrót i 
 
 Na mostku [[suol|Szef Suol]] wyjaśnia, że dwa Gundamy należą do sił kolonii — niezależnych grup zbrojnych, które budują własną obronę poza [[earth-federation|Federacją]] i [[zeon|Zeonem]] — i że rozważają ograniczony udział w Connect Force. Ostatnia scena przenosi się do sztabu Zeonu: [[gihren-zabi|Gihren]] ocenia operację jako zwycięstwo strategiczne, a [[kycilia-zabi|Kycilia]] prosi o karę za niepowodzenie i zgadza się użyczyć sił, które mają zbliżyć Connect do Zeonu.
 
+### [[srw-oe-ep3-zielony-najezdzca|Misja 3: Zielony najeźdźca]]
+
+Na kolonii kosmicznej Connect Force i SV2 badają szalejące Labory, w tym przypadki maszyn bez HOS-u. Sierżant Keroro, zagubiony w tym świecie, nieświadomie wywołuje ich szał rezonansem głosu z [[keroro-robo-mk-ii|Keroro Robo Mk-II]]. Seishiro i Himari ratują Keroro, po czym razem odpierają bezzałogowe Labory z pomocą posiłków. Analiza łączy incydenty z niską częstotliwością, którą wykrywają czułe czujniki Laborów z HOS-em; Connect Force postanawia opracować nowy program ochronny, a Keroro dołącza do załogi i zostaje odsunięty od stref pracy Laborów.
+
 ## Wątki fabularne
 
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
@@ -56,6 +61,7 @@ Na mostku [[suol|Szef Suol]] wyjaśnia, że dwa Gundamy należą do sił kolonii
 | [[invaderzy\|Invaderzy]] przejmujący obiekt Federacji | [[getter-robo-armageddon\|Getter Robo Armageddon]] | cała seria | W OVA Invaderzy atakują Ziemię; przejęcie laboratorium i wspólna walka z obrońcami to rozwiązanie gry. |
 | Dwa Gundamy należące do sił kolonii | [[mobile-suit-gundam-00\|Mobile Suit Gundam 00]] i [[mobile-suit-gundam-wing\|Mobile Suit Gundam Wing]] | cała seria | W serialach nie ma wspólnej organizacji łączącej Celestial Being i pilotów Wing; „siły kolonii” jako niezależne grupy zbrojne to pojęcie gry. |
 | Dołączenie [[cyber-beast-force\|Cyber Beast Force]] do [[connect-force\|Connect Force]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Decyzja zapada w grze i otwiera dalszą wspólną trasę. |
+| Rezonansowy głos Keroro, incydenty Laborów i poprawka HOS-u | [[srw-oe\|Super Robot Wars OE]] | n/d | Związek głosu Keroro z czułymi czujnikami Laborów, opracowanie zabezpieczenia oraz przyjęcie Keroro do Connect Force wynikają ze scenariusza gry. |
 | Rywalizacja [[gihren-zabi\|Gihrena]] i [[kycilia-zabi\|Kycilii]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa o karze za ruch [[mquve\|M'Quve'a]] i o użyczeniu sił, które mają zbliżyć Connect do Zeonu, należy do scenariusza gry; gra kładzie nacisk na dyplomację wobec sił kolonii. |
 
 ## Komentarz
@@ -73,4 +79,6 @@ Druga misja odwraca układ sił z pierwszej. Tam obrońcy walczyli z [[zeon|Zeon
 Starcie z Invaderami zestawia zespoły, które dotąd działały osobno: [[shin-getter-1|Shin Getter]] rozpoznaje własnego wroga, [[final-dancouga|Dancouga]] sprawdza twardą skorupę [[metal-beast-muszla|Metalowej Bestii]], a [[matchless-raijin-oh|Raijin-Oh]] wnosi szkolny ton, który rozładowuje napięcie. [[gundam-exia|Exia]] i [[wing-gundam-zero|Wing Zero]] walczą u ich boku, choć ich piloci nie odpowiadają na pytania — gra pokazuje w ten sposób wspólny cel bez wspólnej lojalności.
 
 Finał przenosi ciężar z pola bitwy na politykę. [[suol|Szef Suol]] przyznaje, że część informacji zatrzymał dla siebie, żeby wykurzyć „czarne owce” z wojska, i zapowiada rozmowy z siłami kolonii; [[gihren-zabi|Gihren]] i [[kycilia-zabi|Kycilia]] oceniają tę samą operację jako zwycięstwo strategiczne. Nikt nie wygrał bitwy, a wszyscy przygotowują następną.
+
+Trzecia misja przenosi drużynę do kolonii i wiąże śledztwo w sprawie szalejących Laborów z przybyciem [[sergeant-keroro|sierżanta Keroro]]. Jego rezonansowy głos uruchamia czujniki, które doprowadzają maszyny do szału; Keroro nie jest wrogiem, lecz kolejnym przybyszem z obcego świata, który po wspólnej walce dołącza do Connect Force. Wątek zamyka się rozwiązaniem technicznym — nowym programem ochronnym dla HOS-u — i lekkim, komediowym tonem kontrastującym z politycznym ciężarem pierwszych dwóch misji.
 }}

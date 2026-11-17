@@ -17,6 +17,8 @@ utworzono: 2026-11-01
 
 Uzbrojony w szybkostrzelne działko automatyczne [[labor|Labor]] z rodziny Brocken. W [[srw-oe-ep2-czarny-labor|zasadzce na poligonie]] działa bez pilota pod kontrolą [[control-ai|SI sterującej]], obok [[brocken|Brockenów/Melee]]. Pozornie przypomina maszyny ochrony, ale nie odpowiada na wezwania; [[seishiro|Seishiro]] potwierdza brak oznak życia w kabinach.
 
+W [[srw-oe-ep3-zielony-najezdzca|incydencie na kolonii]] bezzałogowe Brockeny z działkiem automatycznym pojawiają się wśród maszyn, które rezonans Keroro wprawia w szał.
+
 Szarża odpycha przeciwnika, a działko ma premię do walki z celami powietrznymi. Uzbrojone maszyny wiążą policjantów walką, podczas gdy [[griffon|Griffon]] czeka na sposobność do ataku.
 
 ## Pozostałe jednostki Brocken

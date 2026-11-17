@@ -24,6 +24,8 @@ Podczas [[srw-oe-ep1-trening-klasy-obrony|treningu Klasy Obrony]] cztery Brocken
 
 Na [[srw-oe-ep1-szalejacy-labor-powraca|wielkim placu budowy]] pięć Brockenów firmy ochroniarskiej szaleje bez pilotów pod kontrolą [[control-ai|Control AI]]. Drugi Pluton i [[raijin-oh|Raijin-Oh]] powstrzymują je tak, by żaden Labor ani pocisk nie opuścił wyznaczonego kwartału.
 
+W [[srw-oe-ep3-zielony-najezdzca|incydencie na kolonii]] bezzałogowe Brockeny w wariantach Melee i z działkiem automatycznym dołączają do kolejnej fali szalejących Laborów; Connect Force obezwładnia je razem z pozostałymi maszynami.
+
 W [[srw-oe-ep2-czarny-labor|zasadzce na poligonie]] bezzałogowe Brockeny/Melee atakują [[sv2|Drugi Pluton]] obok [[brocken-dzialko-automatyczne|Brockenów z działkiem automatycznym]]. [[kanuka-clancy|Kanuka]] podejrzewa, że ich atak służy za kamuflaż prawdziwego celu.
 
 ## Pozostałe jednostki Brocken
