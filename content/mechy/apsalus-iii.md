@@ -18,7 +18,7 @@ utworzono: 2026-11-07
 
 [[mobile-armor|Mobile armor]] [[zeon|Zeonu]], który [[ginias-sahalin|Ginias Sahalin]] osobiście prowadzi do ataku na [[jaburo|Jaburo]]. To maszyna zbudowana wokół działa megacząsteczkowego: rozpraszające działo megacząsteczkowe pozwala razić kilku wrogów naraz, a duże działo megacząsteczkowe sięga na osiem pól i przebija skałę bazy.
 
-Konstrukcja jest ciężka i odporna — wzmocniony pancerz i stabilizacja pozwalają przetrwać ostrzał, zanim działo zdąży wystrzelić. Gra odtwarza to jako zdolności „Niewzrusz.” i „Ciężki panc.”, a oba działa megacząsteczkowe jako ataki obszarowe.
+Konstrukcja jest ciężka i odporna — wzmocniony pancerz i stabilizacja pozwalają przetrwać ostrzał, zanim działo zdąży wystrzelić, a kadłub znosi trafienia, które rozbiłyby zwykłego mobile suita. Oba działa megacząsteczkowe biją w cały obszar naraz: rozproszona wiązka obejmuje kilku przeciwników, a strzał z dużego działa przechodzi przez skałę i sięga celów ustawionych w linii.
 
 W misji Apsalus jest głównym celem obrońców: dopóki stoi, [[white-base|White Base]] i port kosmiczny są zagrożone. Po ostrzale z bliska maszyna zostaje zestrzelona.
 }}
@@ -29,7 +29,7 @@ W misji Apsalus jest głównym celem obrońców: dopóki stoi, [[white-base|Whit
 
 Apsalus III (zapisywany też jako *Apsaras III*) jest [[mobile-armor|mobile armorem]] z OVA [[mobile-suit-gundam-08th-ms-team|*Mobile Suit Gundam: The 08th MS Team*]] ([[uc-0079|U.C. 0079]]) — finalną wersją projektu Apsalusa, w której problem z zasilaniem działa megacząsteczkowego rozwiązano, montując generatory trzech [[dom|Rick Domów]] i drugi układ Minovsky Craft. Działo może ogniskować wiązkę pod różnymi kątami i przy pełnej mocy przepala górę ([Gundam Wiki, „Apsaras III”](https://gundam.fandom.com/wiki/Apsaras_III); sprawdzono 2026-11-07).
 
-W oryginale maszyna startuje z górskiej bazy Zeonu i walczy w ostatnich dwóch odcinkach OVA; gra przenosi ją pod [[jaburo|Jaburo]] i czyni z niej narzędzie samobójczego ataku [[ginias-sahalin|Giniasa]] na kwaterę [[earth-federation|Federacji]].
+W oryginale maszyna startuje z górskiej bazy Zeonu i walczy w ostatnich dwóch odcinkach OVA. W [[srw-oe|Super Robot Wars OE]] od razu uderza na [[jaburo|Jaburo]], jako narzędzie samobójczego ataku [[ginias-sahalin|Giniasa]] na kwaterę [[earth-federation|Federacji]].
 }}
 
 {{menu gra=srw-oe

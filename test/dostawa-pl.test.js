@@ -254,6 +254,11 @@ test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że 
 });
 
 test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () => {
+  // Zdanie, którego podmiotem jest gra („Gra przenosi go pod Jaburo”, „Do gry należą…”)
+  // opisuje zawartość tytułu, nie świat — niezależnie od tego, czy stoi w boksie
+  // opisowym, czy w {{zrodlo}}. Porównanie z pierwowzorem jest dozwolone, ale nie
+  // kosztem opowiadania o rekordzie (decyzja właściciela, 2026-11-17).
+  const zakazaneGra = /\bdo gry\b|\btej gr(?:y|ze)\b|\bopis gry\b|\bprofil gry\b|\bscenariusz gry\b|\bgra\s+(?:przenosi|odtwarza|układa|powtarza|używa|zapisuje|nazywa|podaje|czyni|zamienia|dodaje|traktuje|pokazuje|wprowadza|łączy|wybiera|każe|pozwala|zostawia|rezygnuje|pomija|przedstawia|rozstrzyga|obsadza|przypisuje|zmienia|zachowuje|daje|zatrzymuje)\b/i;
   const zakazane = /\bw grze\b|\bprofilu?\b|\bobsad[a-ząćęłńóśźż]*\b|\broster\b|\bwłasną stron|standardow/i;
   // Meta-komentarze o samej bazie są zabronione w każdej warstwie treści — także w boksach
   // {{zrodlo}} i {{wiedza}}, gdzie wcześniej umykały. Wpis opisuje świat gry, nie strony,
@@ -277,6 +282,8 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
       .map((m) => m[2])
       .join('\n\n');
     assert.doesNotMatch(calaTresc, zakazaneMeta, `${page.slug}: meta-komentarz o bazie w treści (ADR 0018)`);
+    assert.doesNotMatch(calaTresc, zakazaneGra,
+      `${page.slug}: zdanie opowiada o zawartości gry zamiast o świecie (ADR 0018)`);
     if (!tekst) continue;
     zbadane += 1;
     assert.ok(tekst.length > 40, `${page.slug}: sekcja Opis wczytana w całości`);

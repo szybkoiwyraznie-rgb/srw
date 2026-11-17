@@ -33,7 +33,7 @@ W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] wyjaśn
 
 {{zrodlo gra=wspolne
 
-Connect jest oryginalną organizacją tej gry, a nie nawiązaniem do innej serii ([TV Tropes, *Characters in Super Robot Wars OE*](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-20).
+[[connect-force|Connect]] jest oryginalną organizacją [[srw-oe|Super Robot Wars OE]], a nie nawiązaniem do innej serii ([TV Tropes, *Characters in Super Robot Wars OE*](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-20).
 }}
 
 {{menu gra=srw-oe

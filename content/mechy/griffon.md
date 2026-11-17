@@ -27,7 +27,7 @@ W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] błyskawicznie unieszkodliwia
 
 W [[mobile-police-patlabor|pierwowzorze]] Type-J9 Griffon to eksperymentalny [[labor|Labor]] walki wręcz zbudowany przez Schaft Enterprises Japan — źródła opisują go jako maszynę stworzoną wyłącznie do pokonania Labora Drugiego Plutonu, której celem było też zdobycie danych Ingrama. Napęd stanowi turbina gazowa współpracująca z baterią litowo-jonową, skrzydła z dopalaczami pozwalają na samodzielny lot, a system ASURA dopasowuje sterowanie do nawyków pilota i doskonali się wraz z doświadczeniem ([Patlabor Wiki, „Type-J9 Griffon”](https://patlabor.fandom.com/wiki/Type-J9_Griffon); [Patlabor Wiki, „Griffin was Here!”](https://patlabor.fandom.com/wiki/Griffin_was_Here!); sprawdzono 2026-11-02).
 
-Nazwa firmy ma w źródłach zapis „Schaft Enterprises”, natomiast gra używa formy „Shaft Enterprises”.
+Nazwa firmy ma w źródłach zapis „Schaft Enterprises”, natomiast w [[srw-oe|Super Robot Wars OE]] obowiązuje forma „Shaft Enterprises”.
 }}
 
 {{menu gra=srw-oe

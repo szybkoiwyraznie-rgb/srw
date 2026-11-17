@@ -28,7 +28,7 @@ Jako pierwsza zauważa, że [[ginias-sahalin|Ginias]] jest chory, i pyta wprost,
 
 Crowley Hamon jest postacią serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]]: nie jest formalnie żołnierzem, ale jako towarzyszka życia [[ramba-ral|Ramby Rala]] dowodzi jego ludźmi z mostku i cieszy się ich szacunkiem ([Gundam Wiki, „Crowley Hamon”](https://gundam.fandom.com/wiki/Crowley_Hamon); sprawdzono 2026-11-07).
 
-W oryginale schodzi z Ralem na Ziemię na pokładzie krążownika typu [[zanzibar|Zanzibar]] i koordynuje jego ataki; po jego śmierci przejmuje resztki oddziału i sama przypuszcza atak na [[white-base|White Base]] ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-11-07). Gra daje jej osobną maszynę do dowodzenia — okręt jest tu jednostką bojową, a nie tylko kwaterą dowodzenia.
+W oryginale schodzi z Ralem na Ziemię na pokładzie krążownika typu [[zanzibar|Zanzibar]] i koordynuje jego ataki; po jego śmierci przejmuje resztki oddziału i sama przypuszcza atak na [[white-base|White Base]] ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-11-07). W [[srw-oe|Super Robot Wars OE]] Hamon ma własną maszynę do dowodzenia — okręt jest tu jednostką bojową, a nie tylko kwaterą dowodzenia.
 }}
 
 {{menu gra=srw-oe

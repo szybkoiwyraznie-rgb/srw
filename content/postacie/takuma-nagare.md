@@ -25,7 +25,7 @@ W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie n
 
 Oficjalna strona *Getter Robo Arc* podaje, że Takuma Nagare ma 19 lat, pilotuje Getter Arca, jest synem Ryomy, ma nadzwyczajną zdolność regeneracji ciała, lubi onigiri ze sklepu całodobowego i szuka zabójcy matki; przedstawia też [[baku-yamagishi|Baku Yamagishiego]] i [[show-kamui|Kamuia]] jako pilotów pozostałych form Gettera ([Getter Robo Arc — strona oficjalna](https://getterrobot-arc.com/); sprawdzono 2026-11-09).
 
-Strona mówi o „niezwykłej zdolności regeneracji ciała” i o wsiadaniu do Getter Arca, natomiast opis gry — o wyjątkowo wytrzymałym ciele, szybszym gojeniu ran i o wsiadaniu do Getter Robota. Opis gry rozstrzyga te różnice na korzyść własnego tekstu.
+Oficjalna strona podaje „niezwykłą zdolność regeneracji ciała” i wsiadanie do Getter Arca, natomiast w [[srw-y|Super Robot Wars Y]] Takuma ma wyjątkowo wytrzymałe ciało, szybsze gojenie ran i wsiada do Getter Robota. Świat gry rozstrzyga te różnice na korzyść własnej wersji.
 }}
 
 {{menu gra=srw-y

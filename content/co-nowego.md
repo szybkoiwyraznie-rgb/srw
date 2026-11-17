@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-17 20:57
+
+- **Drużyna Danketsu i Ganba u [[eldran|Eldrana]]** — [[kanzen-shouri-daiteioh|*Kanzen Shouri Daiteioh*]] opowiada o czwórce uczniów klasy 5-3 ze Szkoły Podstawowej Gokuraku, którzy dostają od Eldrana [[daiteioh|Daiteioha]] i [[perfect-daiteioh|Perfect Daiteioha]]: główne stery obejmuje [[taro-omomo|Taro Omomo]], a [[mai-ozora|Mai Ozora]], [[kakeru-daichi|Kakeru Daichi]] i [[hiryu-tsukishiro|Hiryu Tsukishiro]] wspierają go w walce. Własną trójkę pilotów ma też [[genki-bakuhatsu-ganbaruger|*Genki Bakuhatsu Ganbaruger*]] — [[kotaro-kirigakure|Kotaro Kirigakure]] prowadzi [[ganbaruger|Ganbarugera]] i [[great-ganbaruger|Great Ganbarugera]], a [[yosuke-kazamatsuri|Yosuke Kazamatsuri]] i [[rikiya-ryuzaki|Rikiya Ryuzaki]] latają z nim jako podpiloci.
+- **[[apsalus-iii|Apsalus III]] pod [[jaburo|Jaburo]]** — ciężki pancerz i stabilizacja pozwalają maszynie przetrwać ostrzał, zanim działo zdąży wystrzelić, a oba działa megacząsteczkowe rażą cały obszar naraz: rozproszona wiązka obejmuje kilku przeciwników, a strzał z dużego działa przechodzi przez skałę.
+
 ## 2026-11-17 20:35
 
 - **[[keroro-robo-mk-ii|Keroro Robo Mk-II]] i jego lotnicza forma** — maszyna sierżanta [[sergeant-keroro|Keroro]] należy w pierwowzorze do drugiej generacji robotów plutonu i przechodzi z trybu robota w odrzutowiec, zachowując karabin wiązkowy i tarczę.

@@ -30,7 +30,7 @@ Szarża odpycha przeciwnika, a działko ma premię do walki z celami powietrznym
 
 ## Pierwowzór
 
-Szybkostrzelne działko automatyczne to standardowe uzbrojenie wojskowego [[labor|Labora]] Type-7B Brocken, opracowanego przez Schaft Enterprises Europe dla armii RFN i NATO; maszynę przewidziano dla jednego pilota ([Patlabor Wiki, „Type-7B Brocken”](https://patlabor.fandom.com/wiki/Type-7B_Brocken); sprawdzono 2026-11-02). Bezzałogowy wariant z [[control-ai|Control AI]] jest rozwiązaniem gry — pierwowzór nie przewidywał autonomicznych Brockenów.
+Szybkostrzelne działko automatyczne to standardowe uzbrojenie wojskowego [[labor|Labora]] Type-7B Brocken, opracowanego przez Schaft Enterprises Europe dla armii RFN i NATO; maszynę przewidziano dla jednego pilota ([Patlabor Wiki, „Type-7B Brocken”](https://patlabor.fandom.com/wiki/Type-7B_Brocken); sprawdzono 2026-11-02). W [[srw-oe|Super Robot Wars OE]] ten wariant jest bezzałogowy — kieruje nim [[control-ai|Control AI]], którego pierwowzór nie znał.
 }}
 
 {{menu gra=srw-oe

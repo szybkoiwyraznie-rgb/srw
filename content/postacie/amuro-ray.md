@@ -37,7 +37,7 @@ Amuro Ray (アムロ・レイ) jest bohaterem serialu [[mobile-suit-gundam-1979|
 
 Wojna ujawniła u niego zdolności [[newtype|nowotypa]] — rosnącą wrażliwość na obecność innych ludzi i coraz lepsze wyczucie walki — a [[zeon|Zeon]] nazywał jego maszynę „Białym Diabłem” ([Gundam Wiki, „Amuro Ray”](https://gundam.fandom.com/wiki/Amuro_Ray); sprawdzono 2026-11-13).
 
-W [[srw-y|Super Robot Wars Y]] Amuro występuje w wersji z filmu *Mobile Suit Gundam: Char's Counterattack* z 1988 roku, w którym Char staje na czele Neo Zeonu, a Amuro i [[bright-noa|Bright]] służą w oddziale Londo Bell; oficjalna zapowiedź gry wymienia ten film wśród dzieł, z których czerpie ([Wikipedia, *Char's Counterattack*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_Char%27s_Counterattack); [Gundam Official, zapowiedź *Super Robot Wars Y*](https://gundam-official.com/news/i/news/games/01_17220); sprawdzono 2026-11-14). W filmie Amuro dosiada ν Gundama, a w [[srw-oe|Super Robot Wars OE]] reprezentuje jeszcze serial z 1979 roku.
+W [[srw-y|Super Robot Wars Y]] Amuro występuje w wersji z filmu *Mobile Suit Gundam: Char's Counterattack* z 1988 roku, w którym Char staje na czele Neo Zeonu, a Amuro i [[bright-noa|Bright]] służą w oddziale Londo Bell, na którym opiera się ta odsłona ([Wikipedia, *Char's Counterattack*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_Char%27s_Counterattack); [Gundam Official, zapowiedź *Super Robot Wars Y*](https://gundam-official.com/news/i/news/games/01_17220); sprawdzono 2026-11-14). W filmie Amuro dosiada ν Gundama, a w [[srw-oe|Super Robot Wars OE]] reprezentuje jeszcze serial z 1979 roku.
 }}
 
 {{menu gra=srw-oe

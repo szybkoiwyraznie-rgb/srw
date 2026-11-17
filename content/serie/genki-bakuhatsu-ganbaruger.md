@@ -15,7 +15,9 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-oe
 
-Jedna z drużyn [[eldran|Eldrana]] w [[srw-oe|SRW OE]]. Do gry należą [[ganbaruger|Ganbaruger]] i jego połączona forma [[great-ganbaruger|Great Ganbaruger]], pilotowane przez [[kotaro-kirigakure|Kotaro Kirigakure]], [[yosuke-kazamatsuri|Yosuke Kazamatsuriego]] i [[rikiya-ryuzaki|Rikiyę Ryuzakiego]].
+W [[srw-oe|Super Robot Wars OE]] drużynę Ganba tworzą [[kotaro-kirigakure|Kotaro Kirigakure]], [[yosuke-kazamatsuri|Yosuke Kazamatsuri]] i [[rikiya-ryuzaki|Rikiya Ryuzaki]]. [[eldran|Eldran]] powierzył im [[ganbaruger|Ganbarugera]] oraz jego połączoną formę [[great-ganbaruger|Great Ganbaruger]]: Kotaro prowadzi maszynę główną, pozostali dwaj wspierają go jako podpiloci.
+
+W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] drużyna walczy u boku pozostałych zespołów Eldrana w lesie Aokigahara, a podczas narady o wyprawie kosmicznej zostaje na Ziemi, żeby pilnować planety przed [[mechanization-empire|Imperium Mechanizacji]].
 }}
 
 {{zrodlo gra=wspolne

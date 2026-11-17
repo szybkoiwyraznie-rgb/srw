@@ -22,5 +22,5 @@ Rozbicie floty wraca w [[srw-oe-ep2-w-poscigu-za-zanzibarem|następnej misji]] j
 
 {{zrodlo gra=wspolne
 
-W serialu nazwę *Camel* nosi krążownik Musai, którym po awansie dowodzi Dren, patrolujący zeonowskie terytorium kosmiczne ([Gundam Wiki, „Dren”](https://gundam.fandom.com/wiki/Dren); sprawdzono 2026-11-07). Nazwa i skład floty w tej misji należą do scenariusza gry.
+W serialu nazwę *Camel* nosi krążownik Musai, którym po awansie dowodzi Dren, patrolujący zeonowskie terytorium kosmiczne ([Gundam Wiki, „Dren”](https://gundam.fandom.com/wiki/Dren); sprawdzono 2026-11-07). W [[srw-oe|Super Robot Wars OE]] *Camel* to nazwa całej floty trzech krążowników Musai, a nie pojedynczego okrętu.
 }}
