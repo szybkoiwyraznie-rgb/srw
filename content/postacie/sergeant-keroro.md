@@ -17,6 +17,15 @@ Sierżant Keroro trafia do kolonii kosmicznej w obcym świecie i nieświadomie w
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Sierżant Keroro — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Sier%C5%BCant%20Keroro.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[sgt-frog|Sgt. Frog]]

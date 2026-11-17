@@ -19,6 +19,15 @@ Forma lotnicza [[keroro-robo-mk-ii|Keroro Robo Mk-II]], pilotowana przez [[serge
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Keroro Jet — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Keroro%20Jet.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Sgt. Frog
