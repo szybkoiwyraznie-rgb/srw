@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-17 20:32
+
+- **[[sergeant-keroro|Keroro]] w [[universal-century|Universal Century]]** — przybysz z planety Keron dowodzi plutonem, który miał podbić Pekopon, a zamiast tego oddaje się składaniu modeli Gundamów, na które wydaje wojskowy budżet; w grze jego rezonansowy głos budzi szalejące [[labor|Labory]], a on sam rozpoznaje maszyny pierwszej serii i zostaje na okręcie [[white-base|White Base]].
+
 ## 2026-11-17 19:52
 
 - **Wizerunki [[sergeant-keroro|sierżanta Keroro]] i jego maszyn** — portret [[sergeant-keroro|sierżanta Keroro]], dwa obrazy [[keroro-robo-mk-ii|Keroro Robo Mk-II]] i jeden wizerunek jego lotniczej formy [[keroro-jet|Keroro Jet]].

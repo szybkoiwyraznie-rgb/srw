@@ -7,12 +7,20 @@ rola: pilot
 gry: [srw-oe]
 mechy: [keroro-robo-mk-ii, keroro-jet]
 pochodzenie: skrypt
+zrodla:
+  - https://en.wikipedia.org/wiki/Sgt._Frog
+  - https://en.wikipedia.org/wiki/List_of_Sgt._Frog_characters
 tagi: [pilot, sgt-frog, srw-oe]
 utworzono: 2026-11-17
 ---
 {{skrypt gra=srw-oe
 
 Sierżant Keroro trafia do kolonii kosmicznej w obcym świecie i nieświadomie wywołuje rezonansowym głosem szał Laborów. Connect Force ratuje go podczas walki, po czym Keroro dołącza do załogi White Base. W misji pilotuje [[keroro-robo-mk-ii|Keroro Robo Mk-II]], który może przekształcić się w [[keroro-jet|Keroro Jet]].
+}}
+
+{{zrodlo gra=wspolne
+
+Sierżant Keroro pochodzi z planety Keron i dowodzi plutonem żabopodobnych kosmitów, który ma podbić Ziemię nazywaną przez nich Pekoponem. Na Ziemi traci jednak zapał do inwazji: jego pasją są plastikowe modele Gundamów — gunpla — na które wydaje wojskowy budżet, a powód, dla którego nie chce zniszczenia planety, bywa całkiem praktyczny, bo razem z nią zniknęłyby wszystkie modele ([Wikipedia, *Sgt. Frog*](https://en.wikipedia.org/wiki/Sgt._Frog); [Wikipedia, *List of Sgt. Frog characters*](https://en.wikipedia.org/wiki/List_of_Sgt._Frog_characters); sprawdzono 2026-11-17).
 }}
 
 {{menu gra=srw-oe
