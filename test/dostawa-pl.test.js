@@ -682,12 +682,13 @@ test('dostawa ilustracji SRW Y 1-2A (2026-11-17): pięć jednostek (w tym Getter
       assert.ok(strona.body.indexOf('## Ilustracje') < iParam, `${slug}: Ilustracje przed Parametrami`);
     }
   }
-  // Getter Kirik i Getter Khan powstają z dostawy ilustracji (ADR 0017): mają pełne tło i załogę,
-  // ale nie wchodzą do obsady sceny 1-2A ani nie dostają zmyślonych parametrów.
+  // Getter Kirik i Getter Khan mają własne strony z załogą, tłem i parametrami z dodatku 1-2A,
+  // ale nie wchodzą do obsady fabularnej sceny 1-2A (ADR 0023 pkt 4).
   assert.deepEqual(bySlug.get('getter-kirik').piloci, ['show-kamui', 'takuma-nagare', 'baku-yamagishi']);
   assert.deepEqual(bySlug.get('getter-khan').piloci, ['baku-yamagishi', 'takuma-nagare', 'show-kamui']);
   for (const slug of ['getter-kirik', 'getter-khan']) {
-    assert.equal(bySlug.get(slug).w_gre, undefined, `${slug}: bez zmyślonych parametrów`);
+    assert.ok(bySlug.get(slug).body.indexOf('## Ilustracje') < bySlug.get(slug).body.indexOf('## Parametry'),
+      `${slug}: Ilustracje przed Parametrami`);
     assert.ok(!bySlug.get('srw-y-ep1').mechy.includes(slug), `${slug}: poza obsadą fabularną 1-2A`);
     assert.ok(!bySlug.get('srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona').mechy.includes(slug),
       `${slug}: poza obsadą sceny 1-2A`);

@@ -148,8 +148,9 @@ function profilWGrze(strona, gra) {
 /** Wariant z zapisu „Rodzina (Wariant)”; wariant sam może mieć nawias: „Gurren Lagann (Gurren Lagann (Simon))”. */
 const wariantNazwy = (nazwa) => String(nazwa ?? '').match(/^.*?\s*\((.*)\)$/)?.[1] ?? null;
 
-/** Nazwa bez dopisku, którym dostawa rozróżnia zestawy danych tej samej jednostki. */
-const bezWariantuDanych = (nazwa) => String(nazwa ?? '').replace(/\s+—\s+wariant danych \d+$/, '');
+/** Nazwa bez dopisku, którym dostawa rozróżnia zestawy danych albo formy transformacji. */
+const bezWariantuDanych = (nazwa) => String(nazwa ?? '')
+  .replace(/\s+—\s+(?:wariant danych \d+|forma po transformacji)$/, '');
 
 /**
  * Strony postaci i mechów odpowiadające nazwie z dostawy. Kolejno:

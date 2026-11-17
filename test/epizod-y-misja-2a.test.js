@@ -10,6 +10,7 @@
  */
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -19,6 +20,8 @@ import { zbudujRejestr, sprawdzWiernoscSceny } from '../src/srw/registry.js';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ARCHIWUM = path.join(ROOT, 'dostawy/srw-y/dostawa_1_2a.txt');
 const DOSTAWA = 'dostawy/srw-y/dostawa_1_2a.txt';
+const DODATEK = 'dostawy/srw-y/Y_dostawa_1_2a_dodatek.txt';
+const ARCHIWUM_DODATKU = path.join(ROOT, DODATEK);
 const SCENA = 'srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona';
 
 const strony = wczytajStrony({ root: ROOT }).filter((s) => !s.problem);
@@ -180,4 +183,52 @@ test('proza o wydarzeniach gry trzyma się tego, co mówi skrypt', () => {
     'opis z misji trzyma się określenia z dialogu');
   assert.doesNotMatch(scena.body, /Andromed/i,
     'scena nie ujawnia nazwy frakcji nieobecnej w rozegranych misjach');
+});
+
+test('dodatek 1-2A (Y_dostawa_1_2a_dodatek.txt): Getter Kirik, Getter Khan i Dzieci Gettera', () => {
+  const surowe = fs.readFileSync(ARCHIWUM_DODATKU);
+  assert.equal(surowe.length, 10758, 'dokładny rozmiar pliku z Google Drive');
+  assert.equal(
+    crypto.createHash('sha256').update(surowe).digest('hex'),
+    '2d484ae04f06259b646184803ac69375640c9b0839f5de6f52c19e35e0625df6',
+    'skrót SHA-256 zgodny z Google Drive',
+  );
+  const dodatek = surowe.toString('utf8').replace(/\r\n/g, '\n');
+
+  const formy = {
+    'getter-kirik': {
+      profil: 'Getter Kirik',
+      encyklopedia: 'Getter Robo powstały z połączenia trzech Get Machine w kolejności Kirik, Khan i Arc.',
+    },
+    'getter-khan': {
+      profil: 'Getter Khan',
+      encyklopedia: 'Getter Robo powstały z połączenia trzech Get Machine w kolejności Khan, Arc i Kirik.',
+    },
+  };
+  for (const [slug, { profil, encyklopedia }] of Object.entries(formy)) {
+    const sekcja = dodatek.split(`## ${profil} — forma po transformacji\n`)[1];
+    assert.ok(sekcja, `${slug}: sekcja w dodatku`);
+    const poczatek = sekcja.indexOf('| Parametr');
+    const oczekiwane = sekcja.slice(poczatek, sekcja.indexOf('\n---\n', poczatek) + 4);
+
+    const mech = bySlug.get(slug);
+    assert.ok(mech.body.includes(encyklopedia), `${slug}: dosłowny opis z Encyklopedii`);
+    const wpis = JSON.parse(mech.w_gre['srw-y']);
+    assert.equal(wpis.dostawa, DODATEK, `${slug}: źródło parametrów`);
+    assert.equal(wpis.profil, profil, `${slug}: profil`);
+    assert.equal(normalizujApostrofy(wpis.dane), oczekiwane, `${slug}: dane dosłownie z dodatku`);
+    const wTresci = normalizujApostrofy(mech.body.slice(mech.body.indexOf('## Parametry')));
+    assert.ok(wTresci.includes(oczekiwane.replace(/\n\n---$/, '')), `${slug}: parametry widoczne w treści`);
+  }
+  assert.match(bySlug.get('getter-khan').body, /Khan Rover/, 'Getter Khan: nazwa formy z Encyklopedii');
+
+  // Cała trójka pilotów Gettera dostaje w slocie 1 umiejętność „Dzieci Gettera” (poz. nauki 99).
+  for (const slug of ['baku-yamagishi', 'show-kamui', 'takuma-nagare']) {
+    const body = bySlug.get(slug).body;
+    assert.match(
+      body,
+      /\|\s*1\s*\|\s*Dzieci Gettera\s*\|\s*99\s*\|\s*Aktywna, gdy na pokładzie są 3 piloci i każdy ma Morale 140\+\. Początek fazy gracza: Morale \+5\. Gdy wszyscy 3 mają Morale 160\+: końcowe zadawane obrażenia x1\.2\.\s*\|/,
+      `${slug}: umiejętność Dzieci Gettera w slocie 1`,
+    );
+  }
 });
