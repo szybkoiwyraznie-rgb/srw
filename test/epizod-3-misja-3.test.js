@@ -56,6 +56,13 @@ test('Keroro, formy robota i piloci misji mają właściwe serie, składy i dane
     assert.match(data.dane, /Działko Vulcan/);
     assert.equal(unit.seria, 'sgt-frog');
   }
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  assert.deepEqual(manifest.encje['keroro-robo-mk-ii'], ['Keroro Robo II.png', 'Keroro Robo II 2.png']);
+  assert.deepEqual(manifest.encje['keroro-jet'], ['Keroro Jet.png']);
+  assert.deepEqual(manifest.encje['sergeant-keroro'], ['characters/Sierżant Keroro.png']);
+  assert.match(robot.body, /## Ilustracje[\s\S]*Keroro%20Robo%20II\.png[\s\S]*Keroro%20Robo%20II%202\.png/);
+  assert.match(jet.body, /## Ilustracje[\s\S]*Keroro%20Jet\.png/);
+  assert.match(keroro.body, /## Ilustracje[\s\S]*characters\/Sier%C5%BCant%20Keroro\.png/);
   assert.ok(scene.postacie.includes('sergeant-keroro'));
   assert.ok(scene.postacie.includes('control-ai'));
   assert.ok(scene.mechy.includes('keroro-robo-mk-ii'));

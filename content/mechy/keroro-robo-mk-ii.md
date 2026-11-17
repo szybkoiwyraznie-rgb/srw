@@ -19,6 +19,19 @@ Maszyna pilotowana przez [[sergeant-keroro|sierżanta Keroro]], który trafia ni
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Keroro Robo Mk-II — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Keroro%20Robo%20II.png)
+
+### Ilustracja 2
+
+![Keroro Robo Mk-II — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Keroro%20Robo%20II%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Sgt. Frog

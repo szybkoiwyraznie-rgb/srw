@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-17 19:52
+
+- **Wizerunki [[sergeant-keroro|sierżanta Keroro]] i jego maszyn** — [[sergeant-keroro|sierżant Keroro]] ma własny portret, [[keroro-robo-mk-ii|Keroro Robo Mk-II]] prezentuje dwa ujęcia bojowe, a jego lotnicza forma [[keroro-jet|Keroro Jet]] — sylwetkę w locie.
+
 ## 2026-11-17 18:27
 
 - **Uzbrojenie [[getter-kirik|Getter Kirika]], [[getter-khan|Getter Khana]] i więź drużyny Gettera** — [[getter-kirik|Getter Kirik]] (łączony w kolejności Kirik, Khan, Arc pod sterami [[show-kamui|Show Kamuia]]) polega na unikach Getter Vision oraz atakach Getter Arm i przebijających bariery Getter Drill i Double Drill Storm, [[getter-khan|Getter Khan]] (łączony w kolejności Khan, Arc, Kirik pod sterami [[baku-yamagishi|Baku Yamagishiego]]) walczy pod wysokim ciśnieniem przy użyciu Getter Punch, Getter Missile i przebijającego bariery Spine Crusher w formie opony Khan Rover (zdolnej wywoływać podwodny wir Maelstrom), a pełna trójka z [[takuma-nagare|Takumą Nagare]] dzieli umiejętność „Dzieci Gettera”.
