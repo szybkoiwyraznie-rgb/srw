@@ -26,6 +26,15 @@ W serialu [[ssss-dynazenon|*SSSS.Dynazenon*]] Chise Asukagawa (飛鳥川 ちせ;
 
 {{menu gra=srw-y
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Chise Asukagawa — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Chise%20Asukagawa.png)
+}}
+
+{{menu gra=srw-y
+
 ## Parametry
 
 | Parametr    | Wartość bazowa |

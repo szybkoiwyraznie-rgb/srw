@@ -23,3 +23,12 @@ W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie n
 
 W serialu [[getter-robo-arc|*Getter Robo Arc*]] doktor Shikishima (敷島; głos Yōhei Tadano) jest bliskim przyjacielem [[doktor-saotome|doktora Saotome]] i głównym badaczem [[laboratorium-saotome|Laboratorium Saotome]] — ekscentrycznym i nieprzewidywalnym naukowcem, którego prace rozwinęły badania ośrodka nad [[promienie-gettera|promieniami Gettera]] ([Wikipedia, *Getter Robo Arc*](https://en.wikipedia.org/wiki/Getter_Robo_Arc); sprawdzono 2026-11-16).
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Shikishima — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Shikishima.png)
+}}

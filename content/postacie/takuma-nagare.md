@@ -4,7 +4,7 @@ slug: takuma-nagare
 tytul: "Takuma Nagare"
 seria: getter-robo-arc
 rola: pilot
-mechy: [getter-arc]
+mechy: [getter-arc, getter-kirik, getter-khan]
 gry: [srw-y]
 pochodzenie: menu
 zrodla:
@@ -14,7 +14,7 @@ utworzono: 2026-11-09
 ---
 {{menu gra=srw-y
 
-Pilot Getter Arca. Ma 19 lat. Syn Ryomy Nagarego z pierwszej drużyny Gettera, w gorącej wodzie kąpany. Od urodzenia ma wyjątkowo wytrzymałe ciało: znosi przeciążenia przy pilotowaniu Gettera bez kombinezonu, a rany goją się na nim szybciej niż na innych. Uwielbia onigiri ze sklepu całodobowego. W dzieciństwie stracił matkę, zamordowaną przez nieznanego sprawcę; by go odnaleźć, przybywa z Baku Yamagishim do Laboratorium Saotome. Jakby wiedziony przeznaczeniem, wsiada do Getter Robota i staje do walki z wrogiem ludzkości.
+Pilot [[getter-arc|Getter Arca]]. Ma 19 lat. Syn Ryomy Nagarego z pierwszej drużyny Gettera, w gorącej wodzie kąpany. Od urodzenia ma wyjątkowo wytrzymałe ciało: znosi przeciążenia przy pilotowaniu Gettera bez kombinezonu, a rany goją się na nim szybciej niż na innych. Uwielbia onigiri ze sklepu całodobowego. W dzieciństwie stracił matkę, zamordowaną przez nieznanego sprawcę; by go odnaleźć, przybywa z Baku Yamagishim do Laboratorium Saotome. Jakby wiedziony przeznaczeniem, wsiada do Getter Robota i staje do walki z wrogiem ludzkości.
 
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] ucieka z [[baku-yamagishi|Baku]] przed [[cross-tsukinowa|Crossem Tsukinową]] na placu [[miasto-yagami|miasta Yagami]], kupuje onigiri w Yuri Marcie wskazanym przez [[yomogi-asanaka|Yomogiego Asanakę]] i wymyka się pod górę Asama. Gdy Baku otwiera właz zestrzelonego [[getter-d2|Gettera D2]], Takuma zajmuje miejsce po poległym pilocie, bez kombinezonu wzmacniającego walczy z [[insector|Insectorami]], a przez monitor wykrzykuje [[hayato-jin|Hayato Jinowi]], że jest synem [[ryoma-nagare|Ryomy]]. Pod naporem [[zordo-xx|Zordo XX]] przesiada się do [[getter-arc|Getter Arca]] sprowadzonego przez [[show-kamui|Show Kamuia]] i instynktownie go prowadzi. W hangarze [[laboratorium-saotome|Laboratorium Saotome]] bije się z Kamuiem, w centrum dowodzenia pyta Jina o zabójców matki sprzed dziesięciu lat, a gdy Baku postanawia zostać za wezwaniem [[promienie-gettera|promieni Gettera]], przyjmuje stery Arca i wraz z drużyną przenosi się na [[a-advent|A. Advent]].
 }}
@@ -23,7 +23,7 @@ W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie n
 
 ## Inne źródła i rozbieżności
 
-Oficjalna strona *Getter Robo Arc* podaje, że Takuma Nagare ma 19 lat, pilotuje Getter Arca, jest synem Ryomy, ma nadzwyczajną zdolność regeneracji ciała, lubi onigiri ze sklepu całodobowego i szuka zabójcy matki; przedstawia też Baku Yamagishiego i Kamuia jako pilotów pozostałych form Gettera ([Getter Robo Arc — strona oficjalna](https://getterrobot-arc.com/); sprawdzono 2026-11-09).
+Oficjalna strona *Getter Robo Arc* podaje, że Takuma Nagare ma 19 lat, pilotuje Getter Arca, jest synem Ryomy, ma nadzwyczajną zdolność regeneracji ciała, lubi onigiri ze sklepu całodobowego i szuka zabójcy matki; przedstawia też [[baku-yamagishi|Baku Yamagishiego]] i [[show-kamui|Kamuia]] jako pilotów pozostałych form Gettera ([Getter Robo Arc — strona oficjalna](https://getterrobot-arc.com/); sprawdzono 2026-11-09).
 
 Strona mówi o „niezwykłej zdolności regeneracji ciała” i o wsiadaniu do Getter Arca, natomiast opis gry — o wyjątkowo wytrzymałym ciele, szybszym gojeniu ran i o wsiadaniu do Getter Robota. Opis gry rozstrzyga te różnice na korzyść własnego tekstu.
 }}

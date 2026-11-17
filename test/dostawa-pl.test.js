@@ -291,14 +291,14 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
   }
 });
 
-test('ilustracje właściciela: 246 plików przy 195 encjach, w tym postacie bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 265 plików przy 213 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
   // Bieżący stan manifestu jest przypięty tylko tutaj. Testy poszczególnych dostaw sprawdzają
   // własne klucze i to, że manifest nie jest starszy od nich — kolejna dostawa zmienia ten jeden test.
-  assert.equal(Object.keys(manifest.encje).length, 195);
-  assert.equal(Object.values(manifest.encje).flat().length, 246);
-  assert.equal(manifest.dostarczono, '2026-11-14', 'data ostatniej dostawy ilustracji');
+  assert.equal(Object.keys(manifest.encje).length, 213);
+  assert.equal(Object.values(manifest.encje).flat().length, 265);
+  assert.equal(manifest.dostarczono, '2026-11-17', 'data ostatniej dostawy ilustracji');
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   assert.equal(new Set(wszystkie).size, wszystkie.length, 'plik należy do jednej encji');
@@ -617,4 +617,110 @@ test('dostawa ilustracji SRW Y (2026-11-09): osiem jednostek i szesnaście portr
   assert.ok(manifest.dostarczono >= '2026-11-09', 'manifest nie jest starszy od tej dostawy');
   assert.equal(manifest.weryfikacjaZdalna, false);
   assert.deepEqual(manifest.nieprzypisane, []);
+});
+
+
+test('manifest ilustracji i adresy R2 na stronach są wzajemnie kompletne', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const prefiks = `${manifest.baseUrl}/`;
+  const kluczeWManifescie = new Map();
+  for (const [slug, files] of Object.entries(manifest.encje)) {
+    const strona = bySlug.get(slug);
+    assert.ok(strona, `${slug}: encja z manifestu ma stronę`);
+    for (const file of files) {
+      kluczeWManifescie.set(file, slug);
+      const encoded = file.split('/').map(encodeURIComponent).join('/');
+      assert.ok(strona.body.includes(`${prefiks}${encoded}`),
+        `${slug}: strona zawiera dokładny adres ${encoded}`);
+    }
+  }
+  const wzorzec = new RegExp(`${prefiks.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^\\s)]+)`, 'g');
+  const brakWManifescie = [];
+  for (const strona of pages) {
+    for (const m of strona.body.matchAll(wzorzec)) {
+      const klucz = m[1].split('/').map(decodeURIComponent).join('/');
+      const wlasciciel = kluczeWManifescie.get(klucz);
+      if (!wlasciciel) brakWManifescie.push(`${strona.slug}: ${klucz}`);
+      else assert.equal(wlasciciel, strona.slug, `${klucz}: przypisany do ${wlasciciel}, użyty na ${strona.slug}`);
+    }
+  }
+  assert.deepEqual(brakWManifescie, [], 'każdy obraz R2 użyty w treści jest zapisany w media/ilustracje.json');
+});
+
+
+test('dostawa ilustracji misji 3-2 SRW OE (2026-11-15): dwie jednostki i dwa portrety w manifeście', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  assert.deepEqual(manifest.encje['invader-air'], ['Invader - latający.png']);
+  assert.deepEqual(manifest.encje['metal-beast-muszla'], ['Metal Beast.png', 'Metal Beast 2.png']);
+  assert.deepEqual(manifest.encje['gihren-zabi'], ['characters/Gihren Zabi.png']);
+  assert.deepEqual(manifest.encje['kycilia-zabi'], ['characters/Kycilia Zabi.png']);
+  assert.ok(manifest.dostarczono >= '2026-11-15', 'manifest nie jest starszy od tej dostawy');
+});
+
+
+test('dostawa ilustracji SRW Y 1-2A (2026-11-17): pięć jednostek (w tym Getter Kirik i Getter Khan) i dziewięć portretów', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const jednostki = {
+    'getter-arc': 'Getter Arc.png',
+    'getter-khan': 'Getter Khan.png',
+    'getter-kirik': 'Getter Kirik.png',
+    insector: 'Insector.png',
+    'zordo-xx': 'Zordo XX.png',
+  };
+  for (const [slug, file] of Object.entries(jednostki)) {
+    assert.deepEqual(manifest.encje[slug], [file], slug);
+    const strona = bySlug.get(slug);
+    assert.equal(strona?.typ, 'mech', `${slug}: strona mecha`);
+    assert.equal(strona.seria, 'getter-robo-arc', `${slug}: seria`);
+    assert.deepEqual(strona.gry, ['srw-y'], `${slug}: gra`);
+    assert.equal((strona.body.match(/^## Ilustracje$/gm) ?? []).length, 1, `${slug}: galeria`);
+    assert.equal((strona.body.match(/^### Ilustracja \d+$/gm) ?? []).length, 1, `${slug}: jedna podsekcja`);
+    assert.match(strona.body, /\{\{menu gra=srw-y\n\n## Ilustracje/, `${slug}: zakres gry`);
+    assert.ok(strona.body.includes(`${manifest.baseUrl}/${encodeURIComponent(file)}`), `${slug}: adres`);
+    const iParam = strona.body.indexOf('## Parametry');
+    if (iParam !== -1) {
+      assert.ok(strona.body.indexOf('## Ilustracje') < iParam, `${slug}: Ilustracje przed Parametrami`);
+    }
+  }
+  // Getter Kirik i Getter Khan powstają z dostawy ilustracji (ADR 0017): mają pełne tło i załogę,
+  // ale nie wchodzą do obsady sceny 1-2A ani nie dostają zmyślonych parametrów.
+  assert.deepEqual(bySlug.get('getter-kirik').piloci, ['show-kamui', 'takuma-nagare', 'baku-yamagishi']);
+  assert.deepEqual(bySlug.get('getter-khan').piloci, ['baku-yamagishi', 'takuma-nagare', 'show-kamui']);
+  for (const slug of ['getter-kirik', 'getter-khan']) {
+    assert.equal(bySlug.get(slug).w_gre, undefined, `${slug}: bez zmyślonych parametrów`);
+    assert.ok(!bySlug.get('srw-y-ep1').mechy.includes(slug), `${slug}: poza obsadą fabularną 1-2A`);
+    assert.ok(!bySlug.get('srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona').mechy.includes(slug),
+      `${slug}: poza obsadą sceny 1-2A`);
+    assert.match(bySlug.get(slug).body, /\{\{zrodlo gra=wspolne[\s\S]*?sprawdzono 2026-11-17/, `${slug}: tło ze źródeł`);
+  }
+
+  const portrety = {
+    'chise-asukagawa': 'Chise Asukagawa',
+    'hayato-jin': 'Hayato Jin',
+    igari: 'Igari',
+    'koyomi-yamanaka': 'Koyomi Yamanaka',
+    'matka-yomogiego': 'matka Yomogiego',
+    mei: 'Mei',
+    shikishima: 'Shikishima',
+    'show-kamui': 'Show Kamui',
+    'yume-minami': 'Yuma Minami',
+  };
+  for (const [slug, name] of Object.entries(portrety)) {
+    assert.deepEqual(manifest.encje[slug], [`characters/${name}.png`], slug);
+    const strona = bySlug.get(slug);
+    assert.equal((strona.body.match(/^## Ilustracje$/gm) ?? []).length, 1, `${slug}: galeria`);
+    assert.equal((strona.body.match(/^### Ilustracja \d+$/gm) ?? []).length, 1, `${slug}: jedna podsekcja`);
+    assert.match(strona.body, /\{\{menu gra=srw-y\n\n## Ilustracje/, `${slug}: zakres gry`);
+    assert.ok(strona.body.includes(`${manifest.baseUrl}/characters/${encodeURIComponent(name)}.png`),
+      `${slug}: dokładny adres portretu z zachowaniem pisowni i wielkości liter`);
+    const iParam = strona.body.indexOf('## Parametry');
+    if (iParam !== -1) {
+      assert.ok(strona.body.indexOf('## Ilustracje') < iParam, `${slug}: Ilustracje przed Parametrami`);
+    }
+  }
+  // Tytuły stron zachowują pisownię z gry, nawet gdy klucz R2 różni się literą lub wielkością znaku.
+  assert.equal(bySlug.get('yume-minami').tytul, 'Yume Minami');
+  assert.equal(bySlug.get('matka-yomogiego').tytul, 'Matka Yomogiego');
+  assert.ok(manifest.dostarczono >= '2026-11-17', 'manifest nie jest starszy od tej dostawy');
+  assert.equal(manifest.weryfikacjaZdalna, false);
 });

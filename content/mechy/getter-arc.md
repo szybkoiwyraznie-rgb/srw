@@ -17,14 +17,23 @@ w_gre:
 ---
 {{menu gra=srw-y
 
-Getter Robo powstały z połączenia trzech Get Machine w kolejności Arc, Kirik i Khan. To Getter Robo czwartej generacji, nazywany ostatnią spuścizną [[doktor-saotome|doktora Saotome]], byłego dyrektora [[laboratorium-saotome|Laboratorium Saotome]]. W porównaniu z wcześniejszymi Getter Robo jest znacznie stabilniejszy, oszczędniej gospodaruje energią i ma większą siłę bojową. Potrafi latać z ogromną prędkością, choć poddaje pilotów wielkim przeciążeniom. Uzbrojenie obejmuje m.in. Battle Shot Cutter, tnący wysuwanymi ostrzami na ramionach, oraz Thunder Bomber, rażący piorunami we wszystkie strony, a także Getter Beam i Getter Tomahawk.
+Getter Robo powstały z połączenia trzech Get Machine w kolejności Arc, Kirik i Khan — podstawowa konfiguracja obok [[getter-kirik|Getter Kirika]] i [[getter-khan|Getter Khana]]. To Getter Robo czwartej generacji, nazywany ostatnią spuścizną [[doktor-saotome|doktora Saotome]], byłego dyrektora [[laboratorium-saotome|Laboratorium Saotome]]. W porównaniu z wcześniejszymi Getter Robo jest znacznie stabilniejszy, oszczędniej gospodaruje energią i ma większą siłę bojową. Potrafi latać z ogromną prędkością, choć poddaje pilotów wielkim przeciążeniom. Uzbrojenie obejmuje m.in. Battle Shot Cutter, tnący wysuwanymi ostrzami na ramionach, oraz Thunder Bomber, rażący piorunami we wszystkie strony, a także Getter Beam i Getter Tomahawk.
 
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] [[hayato-jin|Hayato Jin]] wysyła Getter Arca pod sterami [[show-kamui|Show Kamuia]], gdy [[takuma-nagare|Takuma Nagare]] i [[baku-yamagishi|Baku Yamagishi]] walczą w przejętym po poległym pilocie [[getter-d2|Getterze D2]]. Gdy D2 dociera do granicy wytrzymałości, Takuma i Baku przesiadają się do Arca — bez kombinezonów wzmacniających jego moc pozostaje ograniczona, a ciało wytrzymuje przeciążenia ledwie kilka minut — i razem z Kamuiem, [[lunedrache|Lunedrache]] oraz [[a-advent|A. Adventem]] niszczą [[zordo-xx|Zordo XX]] i [[insector|Insectorów]]. Po bitwie Hayato przenosi maszynę z trójką pilotów na A. Advent jako siłę odstraszającą wobec zabiegów rządu Japonii i obronę mieszkańców [[miasto-yagami|miasta Yagami]], a prywatnie także jako przynętę mającą odciągnąć Insectorów od tego, co kryje się pod [[laboratorium-saotome|Laboratorium Saotome]].
 }}
 
 {{zrodlo gra=wspolne
 
-W pierwowzorze [[getter-robo-arc|*Getter Robo Arc*]] tytułowy super robot stanowi ostatnie dziedzictwo [[doktor-saotome|doktora Saotome]] w [[laboratorium-saotome|Laboratorium Saotome]], kierowanym przez [[hayato-jin|Hayato Jina]] ([Wikipedia, *Getter Robo Arc*](https://en.wikipedia.org/wiki/Getter_Robo_Arc); sprawdzono 2026-11-16). Nazwy jego trzech konfiguracji pochodzą od sanskryckich sylab nasiennych bóstw buddyjskich — Arc od Wajroczany, Kirik od Amitabhy i Khan od Aćali — a podstawowa forma Getter Arc walczy podwójnymi toporami Getter Tomahawk (łączonymi też w dwustronny Double Labyrinthus), pazurami i uzębioną paszczą Getter Crush, promieniem Gettera z czoła oraz obszarowym wyładowaniem Thunder Bomber z dziewięciu rozkładanych segmentów skrzydeł ([Getter Robo Wiki, *Getter Robo Arc (Mecha)*](https://getterrobo.fandom.com/wiki/Getter_Robo_Arc_(Mecha)); sprawdzono 2026-11-16).
+W pierwowzorze [[getter-robo-arc|*Getter Robo Arc*]] tytułowy super robot stanowi ostatnie dziedzictwo [[doktor-saotome|doktora Saotome]] w [[laboratorium-saotome|Laboratorium Saotome]], kierowanym przez [[hayato-jin|Hayato Jina]] ([Wikipedia, *Getter Robo Arc*](https://en.wikipedia.org/wiki/Getter_Robo_Arc); sprawdzono 2026-11-16). Nazwy jego trzech konfiguracji pochodzą od sanskryckich sylab nasiennych bóstw buddyjskich — Arc od Wajroczany, [[getter-kirik|Kirik]] od Amitabhy i [[getter-khan|Khan]] od Aćali — a podstawowa forma Getter Arc walczy podwójnymi toporami Getter Tomahawk (łączonymi też w dwustronny Double Labyrinthus), pazurami i uzębioną paszczą Getter Crush, promieniem Gettera z czoła oraz obszarowym wyładowaniem Thunder Bomber z dziewięciu rozkładanych segmentów skrzydeł ([Getter Robo Wiki, *Getter Robo Arc (Mecha)*](https://getterrobo.fandom.com/wiki/Getter_Robo_Arc_(Mecha)); sprawdzono 2026-11-16).
+}}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Getter Arc — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Getter%20Arc.png)
 }}
 
 {{menu gra=srw-y

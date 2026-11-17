@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-17 15:52
+
+- **[[getter-kirik|Getter Kirik]] i [[getter-khan|Getter Khan]] u boku [[getter-arc|Getter Arca]]** — czwartej generacji Getter Robo z [[laboratorium-saotome|Laboratorium Saotome]] dopełniają dwie pozostałe konfiguracje trzech Get Machine: zwinny, wiertłowy [[getter-kirik|Getter Kirik]] pod sterami [[show-kamui|Show Kamuia]] (ze świdrem Drill Arm i szczypcami Pincer Arm, zdolny do szybkiego drążenia pod ziemią i lotu) oraz ciężki, kolczasty [[getter-khan|Getter Khan]] prowadzony przez [[baku-yamagishi|Baku Yamagishiego]] u boku [[takuma-nagare|Takumy Nagare]] (składający się w kolczaste koło Spine Crusher).
+- **Wizerunki obsady i maszyn z [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|„Przebudzenia niebiańskiego demona”]]** — własne portrety mają [[show-kamui|Show Kamui]], [[hayato-jin|Hayato Jin]], [[shikishima|Shikishima]] i [[igari|Igari]] z [[laboratorium-saotome|Laboratorium Saotome]] oraz [[yume-minami|Yume Minami]], [[koyomi-yamanaka|Koyomi Yamanaka]], [[chise-asukagawa|Chise Asukagawa]], [[mei|Mei]] i [[matka-yomogiego|matka Yomogiego]] z [[miasto-yagami|miasta Yagami]], a sylwetki bojowe prezentują [[getter-arc|Getter Arc]], [[getter-kirik|Getter Kirik]], [[getter-khan|Getter Khan]], [[insector|Insector]] i [[zordo-xx|Zordo XX]].
+
 ## 2026-11-16 18:12
 
 - **Rodowód [[mobile-suit-gundam-00|Mobile Suit Gundam 00]], [[mobile-suit-gundam-wing|Mobile Suit Gundam Wing]] i [[uragan|Uragana]]** — [[setsuna-f-seiei|Setsuna F. Seiei]] nosi kryptonim nadany Soranowi Ibrahimowi z Republiki Krugis i prowadzi trzeciej generacji [[gundam-exia|Gundam Exia]] o siedmiu ostrzach i napędzie GN; [[wing-gundam-zero|XXXG-00W0 Wing Gundam Zero]] z układem ZERO System i trybem przelotowym [[wing-gundam-zero-nb|Neo Bird Mode]] wywodzi się z prac twórców Tallgeese, a [[uragan|Uragan]] służy w Assault Mobile Force [[zeon|Zeonu]] jako stały adiutant [[mquve|M'Quve'a]].

@@ -23,3 +23,12 @@ W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie n
 
 W pierwowzorze [[ssss-dynazenon|*SSSS.Dynazenon*]] rozwód matki [[yomogi-asanaka|Yomogiego Asanaki]] i pojawienie się u jej boku nowego partnera należą do powodów, dla których syn podejmuje dorywczą pracę w sklepie i szuka samodzielności poza domem ([Wikipedia, *List of Gridman Universe characters*](https://en.wikipedia.org/wiki/List_of_Gridman_Universe_characters); sprawdzono 2026-11-16).
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Matka Yomogiego — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/matka%20Yomogiego.png)
+}}

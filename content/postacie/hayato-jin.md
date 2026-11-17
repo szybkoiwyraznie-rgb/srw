@@ -23,3 +23,12 @@ W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie n
 
 W serialu [[getter-robo-arc|*Getter Robo Arc*]] Hayato Jin (神隼人; głos Naoya Uchida) jest jednym z trzech pierwotnych pilotów Getter Robota, który po wydarzeniach sprzed dziewiętnastu lat wycofał się z kokpitu, stanął na czele [[laboratorium-saotome|Laboratorium Saotome]] i przyjął pod opiekę [[show-kamui|Sho Kamuia]], szkoląc nowe pokolenie pilotów do prowadzenia [[getter-arc|Getter Arca]] ([Wikipedia, *Getter Robo Arc*](https://en.wikipedia.org/wiki/Getter_Robo_Arc); sprawdzono 2026-11-16).
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Hayato Jin — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Hayato%20Jin.png)
+}}

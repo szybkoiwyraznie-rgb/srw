@@ -26,6 +26,15 @@ W serialu [[ssss-dynazenon|*SSSS.Dynazenon*]] Yume Minami (南 夢芽; głos Shi
 
 {{menu gra=srw-y
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Yume Minami — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Yuma%20Minami.png)
+}}
+
+{{menu gra=srw-y
+
 ## Parametry
 
 | Parametr    | Wartość bazowa |

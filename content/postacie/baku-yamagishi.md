@@ -4,7 +4,7 @@ slug: baku-yamagishi
 tytul: "Baku Yamagishi"
 seria: getter-robo-arc
 rola: pilot
-mechy: [getter-arc]
+mechy: [getter-khan, getter-arc, getter-kirik]
 gry: [srw-y]
 pochodzenie: menu
 zrodla:
@@ -15,14 +15,14 @@ utworzono: 2026-11-09
 ---
 {{menu gra=srw-y
 
-Pilot Getter Khana. Ma 22 lata. Młodszy brat Tahira, założyciela religii Zielonej Ziemi, który niegdyś pilotował Shin Getter Robota. Ma słaby dar przewidywania, lecz wie, że daleko mu do brata, i gnębi go to. Dobroduszny olbrzym. Wspiera Takumę, z którym podróżuje od dziecka, a przyjmując los związanych z Getterem, postanawia walczyć jako członek drużyny Gettera.
+Pilot [[getter-khan|Getter Khana]]. Ma 22 lata. Młodszy brat Tahira, założyciela religii Zielonej Ziemi, który niegdyś pilotował Shin Getter Robota. Ma słaby dar przewidywania, lecz wie, że daleko mu do brata, i gnębi go to. Dobroduszny olbrzym. Wspiera Takumę, z którym podróżuje od dziecka, a przyjmując los związanych z Getterem, postanawia walczyć jako członek drużyny Gettera.
 
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] na placu [[miasto-yagami|miasta Yagami]] ostrzega [[takuma-nagare|Takumę]], że szósty zmysł podpowiada mu kłopoty wokół trzech gwarancji [[echika-y-franburnett|Echiki]], a potem pomaga mu zgubić [[cross-tsukinowa|Crossa Tsukinowę]] i wymknąć się pod górę Asama. Podczas ataku [[insector|Insectorów]] odnajduje lukę w sieci neuronowej zestrzelonego [[getter-d2|Gettera D2]], przełamuje jego zabezpieczenia i wsiada z Takumą do kabiny, po czym obaj przesiadają się do [[getter-arc|Getter Arca]] sprowadzonego przez [[show-kamui|Show Kamuia]], ledwie znosząc przeciążenia bez kombinezonu. Gdy w [[laboratorium-saotome|Laboratorium Saotome]] wyczuwa energię [[promienie-gettera|promieni Gettera]] wzbierającą z głębi ziemi, pierwszy postanawia zostać — i to jego decyzja przekonuje Takumę do dołączenia do drużyny przeniesionej na [[a-advent|A. Advent]].
 }}
 
 {{zrodlo gra=wspolne
 
-W [[getter-robo-arc|pierwowzorze]] Baku Yamagishi (山岸 獏) to 22-letni mnich zen, młodszy brat Messiaha Tyra i towarzysz [[takuma-nagare|Takumy Nagare]], który wyczuwa promienie Gettera, zna się na elektronice i pilotuje nastawionego na obronę Getter Khana ([Wikipedia, *Getter Robo Arc*](https://en.wikipedia.org/wiki/Getter_Robo_Arc); [Getter Robo Wiki, „Baku Yamagishi”](https://getterrobo.fandom.com/wiki/Baku_Yamagishi); sprawdzono 2026-11-10).
+W [[getter-robo-arc|pierwowzorze]] Baku Yamagishi (山岸 獏) to 22-letni mnich zen, młodszy brat Messiaha Tyra i towarzysz [[takuma-nagare|Takumy Nagare]], który wyczuwa promienie Gettera, zna się na elektronice i pilotuje nastawionego na obronę [[getter-khan|Getter Khana]] ([Wikipedia, *Getter Robo Arc*](https://en.wikipedia.org/wiki/Getter_Robo_Arc); [Getter Robo Wiki, „Baku Yamagishi”](https://getterrobo.fandom.com/wiki/Baku_Yamagishi); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-y

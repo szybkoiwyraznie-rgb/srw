@@ -28,6 +28,15 @@ W pierwowzorze [[getter-robo-arc|*Getter Robo Arc*]] Insectorzy występują jako
 
 {{menu gra=srw-y
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Insector — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Insector.png)
+}}
+
+{{menu gra=srw-y
+
 ## Parametry
 
 | Parametr           | Wartość bazowa |

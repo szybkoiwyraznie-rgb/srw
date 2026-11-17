@@ -26,6 +26,15 @@ W serialu [[ssss-dynazenon|*SSSS.Dynazenon*]] Koyomi Yamanaka (山中 暦; głos
 
 {{menu gra=srw-y
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Koyomi Yamanaka — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Koyomi%20Yamanaka.png)
+}}
+
+{{menu gra=srw-y
+
 ## Parametry
 
 | Parametr    | Wartość bazowa |
