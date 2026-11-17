@@ -2,7 +2,7 @@
 
 ## 2026-11-17 19:52
 
-- **Wizerunki [[sergeant-keroro|sierżanta Keroro]] i jego maszyn** — [[sergeant-keroro|sierżant Keroro]] ma własny portret, [[keroro-robo-mk-ii|Keroro Robo Mk-II]] prezentuje dwa ujęcia bojowe, a jego lotnicza forma [[keroro-jet|Keroro Jet]] — sylwetkę w locie.
+- **Wizerunki [[sergeant-keroro|sierżanta Keroro]] i jego maszyn** — portret [[sergeant-keroro|sierżanta Keroro]], dwa obrazy [[keroro-robo-mk-ii|Keroro Robo Mk-II]] i jeden wizerunek jego lotniczej formy [[keroro-jet|Keroro Jet]].
 
 ## 2026-11-17 18:27
 
