@@ -4,6 +4,10 @@
 
 - **Uzbrojenie [[getter-kirik|Getter Kirika]], [[getter-khan|Getter Khana]] i więź drużyny Gettera** — [[getter-kirik|Getter Kirik]] (łączony w kolejności Kirik, Khan, Arc pod sterami [[show-kamui|Show Kamuia]]) polega na unikach Getter Vision oraz atakach Getter Arm i przebijających bariery Getter Drill i Double Drill Storm, [[getter-khan|Getter Khan]] (łączony w kolejności Khan, Arc, Kirik pod sterami [[baku-yamagishi|Baku Yamagishiego]]) walczy pod wysokim ciśnieniem przy użyciu Getter Punch, Getter Missile i przebijającego bariery Spine Crusher w formie opony Khan Rover (zdolnej wywoływać podwodny wir Maelstrom), a pełna trójka z [[takuma-nagare|Takumą Nagare]] dzieli umiejętność „Dzieci Gettera”.
 
+## 2026-11-17 18:05
+
+- **[[srw-oe-ep3-zielony-najezdzca|Keroro dołącza do Connect Force]]** — [[sergeant-keroro|sierżant Keroro]] przypadkowo wywołuje rezonansem szał [[labor|Laborów]] w kolonii, a późniejsze badania łączą incydenty z czujnikami [[shinohara-hos|HOS-u]] i prowadzą do nowego programu ochronnego.
+
 ## 2026-11-17 15:52
 
 - **[[getter-kirik|Getter Kirik]] i [[getter-khan|Getter Khan]] u boku [[getter-arc|Getter Arca]]** — czwartej generacji Getter Robo z [[laboratorium-saotome|Laboratorium Saotome]] dopełniają dwie pozostałe konfiguracje trzech Get Machine: zwinny, wiertłowy [[getter-kirik|Getter Kirik]] pod sterami [[show-kamui|Show Kamuia]] (ze świdrem Drill Arm i szczypcami Pincer Arm, zdolny do szybkiego drążenia pod ziemią i lotu) oraz ciężki, kolczasty [[getter-khan|Getter Khan]] prowadzony przez [[baku-yamagishi|Baku Yamagishiego]] u boku [[takuma-nagare|Takumy Nagare]] (składający się w kolczaste koło Spine Crusher).

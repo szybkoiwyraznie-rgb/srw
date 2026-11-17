@@ -14,7 +14,7 @@ utworzono: 2026-10-19
 ---
 {{menu gra=srw-oe
 
-W [[srw-oe|Super Robot Wars OE]] serię Sgt. Frog reprezentuje [[real-pg-gundam|Real PG Gundam]].
+W [[srw-oe|Super Robot Wars OE]] serię Sgt. Frog reprezentują [[real-pg-gundam|Real PG Gundam]], [[keroro-robo-mk-ii|Keroro Robo Mk-II]] i [[keroro-jet|Keroro Jet]], pilotowane przez [[sergeant-keroro|sierżanta Keroro]].
 }}
 
 {{zrodlo gra=wspolne
