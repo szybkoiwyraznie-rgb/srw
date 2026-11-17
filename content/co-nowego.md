@@ -3,6 +3,7 @@
 ## 2026-11-17 20:32
 
 - **[[sergeant-keroro|Keroro]] w [[universal-century|Universal Century]]** — przybysz z planety Keron dowodzi plutonem, który miał podbić Pekopon, a zamiast tego oddaje się składaniu modeli Gundamów, na które wydaje wojskowy budżet; w grze jego rezonansowy głos budzi szalejące [[labor|Labory]], a on sam rozpoznaje maszyny pierwszej serii i zostaje na okręcie [[white-base|White Base]].
+- **Rywalizacja [[gihren-zabi|Gihrena]] i [[kycilia-zabi|Kycilii]]** — rodzeństwo Zabi rozstrzyga w sztabie [[zeon|Zeonu]] losy operacji na [[wyspy-kurylskie|Wyspach Kurylskich]]: brat uznaje zniszczenie placówki za zwycięstwo strategiczne, a siostra prosi o karę za samowolny ruch dowódcy i przyjmuje pełnomocnictwo do rozmów o użyczeniu sił, które mają zbliżyć [[connect-force|Connect]] do Zeonu.
 
 ## 2026-11-17 19:52
 

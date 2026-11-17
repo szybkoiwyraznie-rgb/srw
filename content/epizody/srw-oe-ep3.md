@@ -61,10 +61,10 @@ Na kolonii kosmicznej Connect Force i SV2 badają szalejące Labory, w tym przyp
 | [[invaderzy\|Invaderzy]] przejmujący obiekt Federacji | [[getter-robo-armageddon\|Getter Robo Armageddon]] | cała seria | W OVA Invaderzy atakują Ziemię; przejęcie laboratorium i wspólna walka z obrońcami to rozwiązanie gry. |
 | Dwa Gundamy należące do sił kolonii | [[mobile-suit-gundam-00\|Mobile Suit Gundam 00]] i [[mobile-suit-gundam-wing\|Mobile Suit Gundam Wing]] | cała seria | W serialach nie ma wspólnej organizacji łączącej Celestial Being i pilotów Wing; „siły kolonii” jako niezależne grupy zbrojne to pojęcie gry. |
 | Dołączenie [[cyber-beast-force\|Cyber Beast Force]] do [[connect-force\|Connect Force]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Decyzja zapada w grze i otwiera dalszą wspólną trasę. |
+| Rywalizacja [[gihren-zabi\|Gihrena]] i [[kycilia-zabi\|Kycilii]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa o karze za ruch [[mquve\|M'Quve'a]] i o użyczeniu sił, które mają zbliżyć Connect do Zeonu, należy do scenariusza gry; gra kładzie nacisk na dyplomację wobec sił kolonii. |
 | Keronianin zagubiony w świecie [[universal-century\|Universal Century]] | [[sgt-frog\|Sgt. Frog]] | cała seria | W mandze i serialu pluton Keroro trafia na Ziemię Pekoponu i tam zostaje po nieudanej inwazji; w grze przenosi go nieznane zjawisko prosto do uniwersum Gundama, gdzie rozpoznaje maszyny pierwszej serii. |
 | Gunpla jako hobby Keroro | [[sgt-frog\|Sgt. Frog]] | cała seria | Zamiłowanie do modeli Gundamów jest w pierwowzorze stałym motywem bohatera; w grze służy do przedstawienia go załodze [[white-base\|White Base]] i uzasadnia chęć pozostania na okręcie. |
 | Rezonansowy głos Keroro, incydenty Laborów i poprawka HOS-u | [[srw-oe\|Super Robot Wars OE]] | n/d | Związek głosu Keroro z czułymi czujnikami Laborów, opracowanie zabezpieczenia oraz przyjęcie Keroro do Connect Force wynikają ze scenariusza gry. |
-| Rywalizacja [[gihren-zabi\|Gihrena]] i [[kycilia-zabi\|Kycilii]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa o karze za ruch [[mquve\|M'Quve'a]] i o użyczeniu sił, które mają zbliżyć Connect do Zeonu, należy do scenariusza gry; gra kładzie nacisk na dyplomację wobec sił kolonii. |
 
 ## Komentarz
 
