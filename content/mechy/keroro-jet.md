@@ -16,13 +16,13 @@ utworzono: 2026-11-17
 ---
 {{menu gra=srw-oe
 
-Forma lotnicza [[keroro-robo-mk-ii|Keroro Robo Mk-II]], pilotowana przez [[sergeant-keroro|sierżanta Keroro]]. Zachowuje działko Vulcan i karabin wiązkowy na wydłużonym zasięgu, rezygnuje natomiast z walki wręcz i bloku tarczą; zdolność „Na powietrze” zwiększa jej celność i atak przeciw celom w powietrzu.
+Forma lotnicza [[keroro-robo-mk-ii|Keroro Robo Mk-II]], pilotowana przez [[sergeant-keroro|sierżanta Keroro]]. W [[srw-oe|Super Robot Wars OE]] działko Vulcan sięga czterech pól (w formie robotycznej trzech), a karabin wiązkowy pięciu (w robotycznej czterech). Tylko karabin dostaje zdolność „Na powietrze” — premia przeciw celom w powietrzu; Vulcan jej nie ma. W tej formie nie ma walki wręcz ani zdolności bloku tarczą.
 
 }}
 
 {{zrodlo gra=wspolne
 
-Tryb lotniczy Keroro Jet (ケロロジェット) odróżnia [[keroro-robo-mk-ii|Keroro Robo Mk-II]] od pierwszej wersji maszyny [[sergeant-keroro|Keroro]] w [[sgt-frog|*Sgt. Frog*]]: robot składa się w sylwetkę samolotu o wysokiej prędkości przelotowej, zachowując działko Vulcan i karabin wiązkowy do ostrzału z dystansu, bez osłony tarczą dostępnej w postaci humanoidalnej ([Bandai Hobby Site, „ケロロ軍曹プラモコレクション ケロロロボMk-II”](https://bandai-hobby.net/item/01_2105/); [SRW Wiki, „ケロロロボMk-II”](https://srw.wiki.cre.jp/wiki/%E3%82%B1%E3%83%AD%E3%83%AD%E3%83%AD%E3%83%9CMk-II); sprawdzono 2026-11-18).
+Keroro Jet (ケロロジェット) to forma lotnicza [[keroro-robo-mk-ii|Keroro Robo Mk-II]] z [[sgt-frog|*Sgt. Frog*]]: robot składa się w sylwetkę samolotu, a latający spodek służy jako kokpit. Zestaw modelarski Bandai zawiera karabin wiązkowy i tarczę ([Bandai Hobby Site, „ケロロ軍曹プラモコレクション ケロロロボMk-II”](https://bandai-hobby.net/item/01_2105/); sprawdzono 2026-11-18). W [[srw-oe|Super Robot Wars OE]] działko Vulcan w głowie pozostaje użyteczne także w locie, karabin zyskuje atrybut przeciwpowietrzny, a zdolność obrony tarczą przestaje się aktywować po transformacji ([SRW Wiki, „ケロロロボMk-II”](https://srw.wiki.cre.jp/wiki/%E3%82%B1%E3%83%AD%E3%83%AD%E3%83%AD%E3%83%9CMk-II); sprawdzono 2026-11-18).
 }}
 
 {{menu gra=srw-oe

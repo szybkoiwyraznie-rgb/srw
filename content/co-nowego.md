@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-18 15:40
+
+- W [[srw-oe|Super Robot Wars OE]] [[keroro-robo-mk-ii|Keroro Robo Mk-II]] walczy karabinem wiązkowym z premią „Na dużych”, a po transformacji w [[keroro-jet|Keroro Jet]] tylko ten karabin dostaje premię „Na powietrze”. Osłona tarczą zmniejszająca obrażenia działa wyłącznie w formie robotycznej.
+
 ## 2026-11-18 15:39
 
 - Kiedy w październiku [[uc-0079|U.C. 0079]] asy [[zeon|Zeonu]] rozpoczynają próby Gelgoogów, jeden z wczesnych egzemplarzy trafia do [[char-aznable|Chara]]. [[gelgoog-char|Jego czerwony MS-14S]] poprzedza [[gelgoog|seryjnego MS-14A]], który wchodzi do służby 8 grudnia.
@@ -36,7 +40,7 @@
 
 ## 2026-11-17 20:35
 
-- **[[keroro-robo-mk-ii|Keroro Robo Mk-II]] i jego lotnicza forma** — ulepszona maszyna [[sergeant-keroro|sierżanta Keroro]] z drugiej generacji robotów jego plutonu ma kokpit w zadokowanym spodku, a przy przejściu w odrzutowiec [[keroro-jet|Keroro Jet]] rezygnuje z walki wręcz i osłony tarczą na rzecz lotu oraz dłuższego zasięgu działka Vulcan i karabinu wiązkowego.
+- **[[keroro-robo-mk-ii|Keroro Robo Mk-II]] i jego lotnicza forma** — ulepszona maszyna [[sergeant-keroro|sierżanta Keroro]] z drugiej generacji robotów jego plutonu ma kokpit w zadokowanym spodku. W formie robotycznej karabin wiązkowy ma premię „Na dużych” przeciw większym wrogom; po transformacji w [[keroro-jet|Keroro Jet]] Vulcan i karabin zyskują po jednym polu zasięgu, a tylko karabin dostaje premię „Na powietrze”. Osłona tarczą działa wyłącznie w formie robotycznej.
 
 ## 2026-11-17 20:32
 
