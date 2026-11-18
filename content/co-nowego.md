@@ -3,7 +3,6 @@
 ## 2026-11-18 14:20
 
 - **Kto broni Ziemi, a kto rusza ku gwiazdom?** Po bitwie w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|lesie Aokigahara]] [[saurersi|Saurersi]] z [[go-saurer|Go-Saurerem]] zostają na Ziemi przeciw mechabestiom. [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] i [[gurren-lagann|Gurren Lagann]] zgłaszają się do wyprawy [[connect-force|Connect Force]], a drużyny [[ganbaruger|Ganbarugera]] i [[daiteioh|Daiteioha]] wzmacniają obronę planety.
-- **[[hiromi-yamazaki|Hiromi Yamazaki]] w kryjówce piratów** — członek [[sv2|Drugiego Plutonu]] pyta o maszyny piratów podczas [[srw-oe-ep3-kryjowka-piratow|szturmu na asteroidę]].
 
 ## 2026-11-18 14:15
 

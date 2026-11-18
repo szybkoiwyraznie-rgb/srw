@@ -202,11 +202,8 @@ test('każdy mówca skryptu prowadzi do strony postaci swojej gry', () => {
 });
 
 test('każdy mówca w scenie należy do jej obsady i obsady epizodu', () => {
-  // Etykieta z katalogu pilota nie rozstrzyga tożsamości imienników w każdej
-  // scenie. Jawne rozstrzygnięcia uwzględniają kontekst i decyzję właściciela.
-  const rozstrzygniecia = {
-    'srw-oe-ep3-kryjowka-piratow': { Hiromi: 'hiromi-yamazaki' },
-  };
+  // Etykieta z katalogu pilota sama nie rozstrzyga tożsamości imienników;
+  // przypisanie w obsadzie trzeba także sprawdzić w kontekście sceny.
   const poSlugu = new Map(strony.map((s) => [s.slug, s]));
   const nazwaSkrocona = (p) => {
     const m = p.body.match(/\*\*Nazwa skrócona:\*\*\s*([^\n]+)/);
@@ -231,8 +228,7 @@ test('każdy mówca w scenie należy do jej obsady i obsady epizodu', () => {
     const mowcy = new Set([...tekst.matchAll(/^(?:>\s*)?\*\*([^*\n:]+):\*\*/gm)].map((m) => m[1].trim()));
     for (const etykieta of mowcy) {
       if (GLOSY_BEZIMIENNE.has(etykieta)) continue;
-      const wskazany = rozstrzygniecia[scena.slug]?.[etykieta];
-      const kandydaci = wskazany ? [poSlugu.get(wskazany)].filter(Boolean) : dopasuj(etykieta, epizod.gra);
+      const kandydaci = dopasuj(etykieta, epizod.gra);
       if (!kandydaci.some((k) => obsadaSceny.has(k.slug))) {
         problemy.push(`${scena.slug}: mówca „${etykieta}” poza postacie sceny (${kandydaci.map((k) => k.slug).join(', ')})`);
       }

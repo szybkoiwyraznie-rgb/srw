@@ -28,7 +28,6 @@ W [[srw-oe-ep2-czarny-labor|poszukiwaniach na poligonie]] przypomina [[noa-izumi
 
 Podczas [[srw-oe-ep2-ryk-dziczy|pierwszego pobytu Drugiego Plutonu w kosmosie]] widok całej Ziemi skłania go do refleksji, że żyjący na niej ludzie są ze sobą połączeni. [[kiichi-goto|Goto]] chwali jego słowa.
 
-W [[srw-oe-ep3-kryjowka-piratow|„Szturmie na kryjówkę piratów”]] Hiromi pyta, czy piraci latają takimi robotami, gdy załoga [[white-base|White Base]] staje do walki z obrońcami bazy w asteroidzie.
 }}
 
 {{zrodlo gra=wspolne

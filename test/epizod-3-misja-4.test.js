@@ -21,9 +21,10 @@ const episode = bySlug.get('srw-oe-ep3');
 const scene = bySlug.get('srw-oe-ep3-kryjowka-piratow');
 
 test('dostawa 3-4 jest archiwizowana w całości jako czwarta misja epizodu 3', () => {
-  assert.equal(bytes.length, 33608);
+  // Po wyjątkowej korekcie dostawy na wyraźne polecenie właściciela.
+  assert.equal(bytes.length, 33560);
   assert.equal(createHash('sha256').update(bytes).digest('hex'),
-    'f1ca4f3c7169b108f8df47d62d44813c10ecfac814352957bf9f98234515f5ff');
+    '562a3f09c7287acd3f04eb560ebe5da0c353c3a054bf7753df6608b3c8776cd5');
   assert.ok(archive.includes('## Ep. 3-4: Szturm na kryjówkę piratów\n'));
   assert.equal(archive.split(script).length - 1, 1, 'pełny skrypt misji znajduje się w archiwum dokładnie raz');
   assert.ok(archive.endsWith(script + '\n'), 'misja 3-4 kończy archiwum epizodu');
@@ -55,22 +56,25 @@ test('pusta stopka wariantu DLC nie wycieka do archiwum ani do prozy witryny (AD
   assert.doesNotMatch(scene.body, /wariant tekstu z dodatku|Wariant tekstu DLC|wspólnych ustępów/i);
 });
 
-test('obsada misji 3-4 obejmuje Hiromiego Yamazakiego, piratów i bazę Connect na Marsie', () => {
+test('obsada misji 3-4 obejmuje piratów i bazę Connect na Marsie', () => {
   assert.equal(episode.gra, 'srw-oe');
   assert.equal(episode.numer, 3);
-  for (const slug of ['kamina', 'simon', 'hiromi-yamazaki', 'terry-sanders-jr', 'pilot-ms']) {
+  for (const slug of ['kamina', 'simon', 'terry-sanders-jr', 'pilot-ms']) {
     assert.ok(episode.postacie.includes(slug), `obsada epizodu: ${slug}`);
     assert.ok(bySlug.has(slug), `strona istnieje: ${slug}`);
     assert.ok(scene.postacie.includes(slug), `obsada sceny: ${slug}`);
   }
-  // Właściciel potwierdził Hiromiego Yamazakiego; Saurersi pozostali na Ziemi po scenie 2-8.
-  assert.ok(!scene.postacie.includes('hiromi-tachibana'), 'Tachibana nie jest w obsadzie misji 3-4');
+  // Właściciel nakazał usunąć kwestię z dostawy i wszystkich jej kopii.
+  assert.doesNotMatch(coreScript, /\*\*Hiromi:\*\*/);
+  assert.doesNotMatch(scene.body, /\*\*Hiromi:\*\*/);
+  for (const slug of ['hiromi-yamazaki', 'hiromi-tachibana']) {
+    assert.ok(!scene.postacie.includes(slug), `${slug}: brak w obsadzie sceny`);
+    assert.ok(!scene.body.includes(`[[${slug}|`), `${slug}: brak w opisie sceny`);
+    assert.ok(!bySlug.get(slug).body.includes('[[srw-oe-ep3-kryjowka-piratow|'), `${slug}: brak powiązania ze sceną`);
+  }
+  assert.ok(episode.postacie.includes('hiromi-yamazaki'), 'Yamazaki występuje w scenie 3-3');
   assert.ok(!episode.postacie.includes('hiromi-tachibana'), 'Tachibana nie jest w obsadzie epizodu 3');
   assert.ok(!episode.serie.includes('nekketsu-saikyo-go-saurer'), 'seria nie dołącza przez błędne przypisanie');
-  const analiza = scene.body.split('## Analiza')[1];
-  assert.match(analiza, /\[\[hiromi-yamazaki\|Hiromi Yamazaki\]\] dziwi się/);
-  assert.doesNotMatch(analiza, /\[\[hiromi-tachibana\|/);
-  assert.match(bySlug.get('hiromi-yamazaki').body, /\[\[srw-oe-ep3-kryjowka-piratow\|/);
   for (const slug of ['gelgoog', 'rick-dom', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']) {
     assert.ok(episode.mechy.includes(slug), `sprzęt epizodu: ${slug}`);
     assert.ok(scene.mechy.includes(slug), `sprzęt sceny: ${slug}`);

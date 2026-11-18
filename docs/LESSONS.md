@@ -327,20 +327,14 @@ Zasady:
   słowo „gra”. Weryfikacja idzie po prozie, nie po tabelach hurtowo: w kolumnie „Różnice”
   część zdań to legalne porównania z pierwowzorem, więc każdy wiersz kwalifikuje się ręcznie.
 
-## L26. Imienników rozróżnia kontekst sceny, nie sam katalog pilota
+## L26. Sprawdzaj imienników i chronologię scen
 
-W audycie 3-4 błędnie przypisano etykietę „Hiromi” Hiromiemu Tachibanie,
-ponieważ karta Saurersów podaje taką nazwę skróconą i zewnętrzna lista zawiera
-warunkowe kwestie drużyny Go-Saurera. Pominięto decyzję z rozegranej sceny 2-8:
-Saurersi zostają na Ziemi, a z drużyn Eldrana leci Klasa Obrony Ziemi. Właściciel
-sprostował, że w scenie 3-4 chodzi o Hiromiego Yamazakiego z SV2. Zielony test,
-który wymagał Tachibany, utrwalił pomyłkę.
+Nazwa skrócona z katalogu pilota nie rozstrzyga automatycznie tożsamości
+mówcy o tym samym imieniu. Przed przypisaniem sprawdź miejsce, chronologię,
+obsadę oraz różnicę między opcjonalnymi dialogami a przebiegiem wyprawy.
+Nie przedstawiaj hipotezy jako potwierdzonego faktu; test nie może jej utrwalać.
 
-- Nie przenoś nazwy skróconej z katalogu automatycznie na każdego imiennika.
-  Sprawdź miejsce, chronologię, obsadę i odróżniaj opcjonalne warunki walki od
-  ustaleń o aktualnej wyprawie; przy rozbieżności nie przedstawiaj hipotezy jako faktu.
-- Korekta obejmuje scenę, epizod, obie postacie i błędne testy; cytowany skrypt
-  i oryginalna dostawa pozostają nietknięte. W `test/seria-z-dostawy.test.js`
-  rozstrzygnięcie jest przypisane do konkretnej sceny, nie wszystkich wystąpień imienia.
-- Decyzja o podziale sił powinna być dostępna na stronach drużyn i maszyn, nie
-  tylko w długim zapisie sceny, żeby powiązania nie fałszowały dalszej chronologii.
+Podział drużyn z misji 2-8 powinien być dostępny na stronach drużyn i maszyn,
+nie tylko w długim zapisie sceny. Zgodnie z późniejszą decyzją właściciela
+usunięto jedną nienależącą do misji 3-4 kwestię również z dostawy i archiwum;
+był to konkretny wyjątek, a nie ogólne pozwolenie na edycję źródeł.
