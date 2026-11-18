@@ -39,7 +39,7 @@ test('scena 2-3 ma pełne dialogi i jedenaście działających powiązań analiz
   globalThis.SRW_DATA = await zbudujDane();
   const { renderScena } = await import('../src/srw/render-scene.js');
   assert.equal((renderScena(scene.slug).match(/class="skok-do-tresci"/g) ?? []).length, 11);
-  assert.match(scene.body, /wariant rozmowy dotyczy krytycznych uszkodzeń/);
+  assert.match(scene.body, /Gdy Exart zostaje poważnie uszkodzony/);
   assert.match(scene.body, /hologramami wyświetlanymi przez drony/);
   assert.match(scene.body, /oficjalne dołączenie pozostaje przyszłością/);
   // Ogólnego tła anime nie przedstawiamy jako potwierdzonego odcinka.

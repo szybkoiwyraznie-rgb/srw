@@ -74,7 +74,7 @@ test('pięć etapów analizy ma kotwice i opisuje prawdziwe warianty zakończeni
     assert.ok(analiza.includes(lewa), `analiza: ${lewa}`);
     assert.ok(scena.body.includes(prawa), `treść: ${prawa}`);
   }
-  assert.match(blokAnalizy, /zmieniają kolejność komunikatów/);
+  assert.match(blokAnalizy, /inaczej rozkładają komunikaty/);
   assert.match(blokAnalizy, /nie rozstrzygnięciem wydarzeń/);
   assert.match(scena.body, /\*\*Oficer Federacji:\*\* Tu Medea\. Kurs zabezpieczony\.\.\. Dzięki za ratunek!/);
 });

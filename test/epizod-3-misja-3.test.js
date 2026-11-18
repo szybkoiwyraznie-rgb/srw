@@ -21,7 +21,9 @@ test('dostawa 3-3 jest archiwizowana w całości jako trzecia misja epizodu 3', 
     'c2958e91adf4174caa3b6d275d4e403e2a8ed68902c410613e1edede5d3bbace');
   assert.ok(archive.includes('## Ep. 3-3: Zielony najeźdźca\n'));
   assert.equal(archive.split(script).length - 1, 1, 'pełny skrypt misji znajduje się w archiwum dokładnie raz');
-  assert.ok(archive.endsWith(script + '\n'), 'misja 3-3 kończy archiwum epizodu');
+  assert.ok(archive.includes(script + '\n'), 'misja 3-3 stoi w archiwum epizodu w całości');
+  assert.ok(archive.indexOf(script) < archive.indexOf('## Ep. 3-4:'),
+    'misja 3-3 poprzedza kolejną misję epizodu');
   assert.doesNotMatch(archive, /UCZESTNICY|Entry ID|DL103_20|eventP01/);
 });
 
@@ -33,8 +35,10 @@ test('scena 3-3 cytuje cały skrypt dosłownie i wskazuje epizod oraz kolejny nu
   assert.equal(blocks.length, 13, 'każdy etap sceny ma osobny blok skryptu');
   assert.equal(normalizujTekst(blocks.join('\n')), normalizujTekst(script));
   assert.equal(scene.sekcje_analizy.length, 13);
-  assert.equal(scene.sekcje_analizy[0], 'Zbliżenie do kolonii kosmicznej → Zbliżenie do kolonii kosmicznej');
-  assert.equal(scene.sekcje_analizy.at(-1), 'Śledztwo w sprawie Laborów → Śledztwo w sprawie Laborów');
+  assert.equal(scene.sekcje_analizy[0], 'Przybycie na kolonię → Zbliżenie do kolonii kosmicznej');
+  assert.equal(scene.sekcje_analizy.at(-1), 'Nowy program ochronny → Śledztwo w sprawie Laborów');
+  // Analiza nie wymienia nagłówków skryptu jako tematów — opisuje świat.
+  assert.doesNotMatch(scene.body.split('## Analiza')[1].split('\n## ')[0], /^###\s+(?:Dialogi|Warunkowe dialogi)/m);
   assert.match(scene.body, /## Analiza[\s\S]*## Wątki w scenie/);
   assert.ok(episode.body.includes('[[srw-oe-ep3-zielony-najezdzca|Misja 3: Zielony najeźdźca]]'));
 });

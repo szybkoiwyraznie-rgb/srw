@@ -26,7 +26,7 @@ Podobnie jak towarzysz nie wytrwa do końca: melduje ciężkie uszkodzenia maszy
 
 Cozun Graham należy do oddziału [[zeon|Zeonu]] pod dowództwem [[ramba-ral|Ramby Rala]] w serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] ([[uc-0079|U.C. 0079]]). W drugim ataku na [[white-base|White Base]] jego Zaku zostaje unieruchomiony i trafia na pokład okrętu jako jeniec; podczas próby ucieczki ginie ([Gundam Wiki, „Ramba Ral”](https://gundam.fandom.com/wiki/Ramba_Ral); sprawdzono 2026-11-07). Angielskie opracowania podają też zapis „Cozun” obok „Cozun Graham” ([Wikipedia, „List of Mobile Suit Gundam characters”](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_characters); sprawdzono 2026-11-07).
 
-Gra przenosi go pod [[jaburo|Jaburo]] i pozwala mu się wycofać — wątek niewoli i śmierci na pokładzie okrętu nie zostaje rozegrany.
+W [[srw-oe|Super Robot Wars OE]] trafia pod [[jaburo|Jaburo]] i wycofuje się z walki; wątku niewoli i śmierci na pokładzie okrętu tu nie ma.
 }}
 
 {{menu gra=srw-oe

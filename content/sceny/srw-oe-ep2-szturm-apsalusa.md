@@ -390,7 +390,7 @@ Epizod otwiera się w środku przygotowań: [[earth-federation|Federacja]] szyku
 
 ### Ez8 i dług u Gundama
 
-Oględziny [[gundam-ez8|Ez8]] zamieniają się w wykład o realiach frontu: maszyna jest składana z tego, co udało się znaleźć, a płyta na piersi pochodzi z tarczy zestrzelonego [[zaku-ii-karabin-maszynowy|Zaku]]. Wątek domyka wzmianka o [[rx-78nt-1-gundam-alex|Alexie]] — prototypie, który nie walczył i reaguje szybciej niż wszystko, czym dysponują obrońcy. Gra pokazuje w ten sposób, że przewaga techniczna Federacji jest skutkiem wcześniejszych walk, a nie gotowym prezentem.
+Oględziny [[gundam-ez8|Ez8]] zamieniają się w wykład o realiach frontu: maszyna jest składana z tego, co udało się znaleźć, a płyta na piersi pochodzi z tarczy zestrzelonego [[zaku-ii-karabin-maszynowy|Zaku]]. Wątek domyka wzmianka o [[rx-78nt-1-gundam-alex|Alexie]] — prototypie, który nie walczył i reaguje szybciej niż wszystko, czym dysponują obrońcy. Ta przewaga techniczna Federacji jest skutkiem wcześniejszych walk, a nie gotowym prezentem.
 
 ### Alarm i decyzja o zwarciu
 
@@ -406,11 +406,11 @@ Dialog [[shiro-amada|Shiro]] z [[ginias-sahalin|Giniasem]] to najostrzejszy mome
 
 ### Działo megacząsteczkowe
 
-Pierwszy strzał Apsalusa zmienia obraz bitwy: [[fraw-bow|Fraw]], [[marker|Marker]] i [[oscar-dublin|Oscar]] meldują zniszczenia na linii ognia i poważne uszkodzenia stanowisk przeciwlotniczych. [[mirai-yashima|Mirai]] zauważa, że strzał oddany prosto w dół zagrozi portowi i dowództwu, a [[bright-noa|Bright]] wydaje jedyny możliwy rozkaz — nie dopuścić maszyny bliżej. Gra pokazuje, że obrona bramy nie jest już kwestią taktyki, lecz przetrwania bazy.
+Pierwszy strzał Apsalusa zmienia obraz bitwy: [[fraw-bow|Fraw]], [[marker|Marker]] i [[oscar-dublin|Oscar]] meldują zniszczenia na linii ognia i poważne uszkodzenia stanowisk przeciwlotniczych. [[mirai-yashima|Mirai]] zauważa, że strzał oddany prosto w dół zagrozi portowi i dowództwu, a [[bright-noa|Bright]] wydaje jedyny możliwy rozkaz — nie dopuścić maszyny bliżej. Od tej chwili obrona bramy przestaje być kwestią taktyki, a staje się sprawą przetrwania bazy.
 
 ### Ładowanie działa
 
-Krótka sekwencja warunkowa przypomina, że Apsalus nie strzela od razu: [[ginias-sahalin|Ginias]] zapowiada ładowanie działa megacząsteczkowego i zapowiada, że „skróci cierpienia” obrońców. To jedyne miejsce, w którym gra daje graczowi chwilę na reakcję przed kolejnym uderzeniem.
+Apsalus nie strzela od razu: [[ginias-sahalin|Ginias]] zapowiada ładowanie działa megacząsteczkowego i zapowiada, że „skróci cierpienia” obrońców. Obrońcy dostają chwilę na reakcję przed kolejnym uderzeniem.
 
 ### Pojedynek z Ralem
 
@@ -426,7 +426,7 @@ Krótka sekwencja warunkowa przypomina, że Apsalus nie strzela od razu: [[ginia
 
 ### Wybór Shiro
 
-W dialogu decyzyjnym [[shiro-amada|Shiro]] nazywa po imieniu dylemat: chronić bazę, zatrzymać maszynę i oszczędzić pilota naraz się nie da. Zwrot „Wybacz mi, Aino… twój brat… muszę…!” pokazuje, że wybiera bunt wobec osoby, którą zna, i że zdaje sobie sprawę z ceny.
+[[shiro-amada|Shiro]] nazywa po imieniu swój dylemat: chronić bazę, zatrzymać maszynę i oszczędzić pilota naraz się nie da. Zwrot „Wybacz mi, Aino… twój brat… muszę…!” pokazuje, że wybiera bunt wobec osoby, którą zna, i że zdaje sobie sprawę z ceny.
 
 ### Shiro i Ral
 
@@ -458,7 +458,7 @@ W dialogu decyzyjnym [[shiro-amada|Shiro]] nazywa po imieniu dylemat: chronić b
 
 ### Odwrót oddziału Rala
 
-Sekwencja odwrotów domyka wątek [[ramba-ral|Rala]]: dowódca mówi „więc to koniec”, wzywa [[crowley-hamon|Hamon]] na punkt zbiórki, a [[acous|Acous]] i [[cozun-graham|Cozun]] meldują uszkodzenia i odrywają się od walki. Gra pozwala oddziałowi przeżyć — odwrót jest tu decyzją, nie porażką.
+Odwrót domyka wątek [[ramba-ral|Rala]]: dowódca mówi „więc to koniec”, wzywa [[crowley-hamon|Hamon]] na punkt zbiórki, a [[acous|Acous]] i [[cozun-graham|Cozun]] meldują uszkodzenia i odrywają się od walki. Oddział wychodzi z bitwy cało — odwrót jest tu decyzją, nie porażką.
 
 ### Upadek Apsalusa
 
@@ -474,7 +474,7 @@ Odprawa na mostku zamyka ziemski rozdział: dowództwo i flota kosmiczna ocalał
 
 ### Shiro w hangarze
 
-[[shiro-amada|Shiro]] zostaje sam przy maszynie i myśli o Ainie: chce wierzyć, że ona żyje, i że nie była stworzona do walki. [[karen-joshua|Karen]] i [[eledore-massis|Eledore]] wyrywają go z zadumy — dowódca wraca do obowiązków, ale scena pokazuje, ile kosztowało go to zwycięstwo.
+[[shiro-amada|Shiro]] zostaje sam przy maszynie i myśli o Ainie: chce wierzyć, że ona żyje, i że nie była stworzona do walki. [[karen-joshua|Karen]] i [[eledore-massis|Eledore]] wyrywają go z zadumy — dowódca wraca do obowiązków, choć zwycięstwo kosztowało go więcej, niż pokazuje meldunek.
 
 ### Opuszczenie Ziemi
 
@@ -487,9 +487,9 @@ Narracja przenosi front w kosmos: główna flota startuje z [[jaburo|Jaburo]] i 
 
 Wydarzenia z tej sceny — finał projektu Apsalusa, [[ginias-sahalin|Ginias Sahalin]] w kabinie mobile armora i desperacka próba zniszczenia bazy [[earth-federation|Federacji]] — nawiązują do **dziesiątego i jedenastego odcinka** OVA [[mobile-suit-gundam-08th-ms-team|*Mobile Suit Gundam: The 08th MS Team*]] z lat 1996–1999, zatytułowanych „The Shuddering Mountain, Part 1” i „The Shuddering Mountain, Part 2” ([Gundam Wiki, „Apsaras III”, przypisy do odc. 10–11](https://gundam.fandom.com/wiki/Apsaras_III); sprawdzono 2026-11-07).
 
-W oryginale [[apsalus-iii|Apsalus III]] startuje z górskiej bazy Zeonu, a za jego sterami siedzi najpierw Aina Sahalin, siostra Giniasa; Ginias przejmuje maszynę po tym, jak Aina odmawia walki, i ginie w starciu z [[gundam-ez8|Ez8]] [[shiro-amada|Shiro]] ([Gundam Wiki, „Ginias Sahalin”](https://gundam.fandom.com/wiki/Ginias_Sahalin); sprawdzono 2026-11-07). Gra przenosi finał pod [[jaburo|Jaburo]], sadza w kabinie wyłącznie Giniasa i nie rozgrywa wątku Ainy — zostaje on w dialogach jako nieobecna.
+W oryginale [[apsalus-iii|Apsalus III]] startuje z górskiej bazy Zeonu, a za jego sterami siedzi najpierw Aina Sahalin, siostra Giniasa; Ginias przejmuje maszynę po tym, jak Aina odmawia walki, i ginie w starciu z [[gundam-ez8|Ez8]] [[shiro-amada|Shiro]] ([Gundam Wiki, „Ginias Sahalin”](https://gundam.fandom.com/wiki/Ginias_Sahalin); sprawdzono 2026-11-07). Finał rozgrywa się pod [[jaburo|Jaburo]], w kabinie siedzi wyłącznie Ginias, a wątek Ainy nie zostaje rozegrany — pozostaje nieobecna, wspominana tylko słowem.
 
-Wątek [[ramba-ral|Ramby Rala]] pochodzi z innego miejsca: w serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] Ral dowodzi oddziałem pościgowym wysłanym na Ziemię po śmierci Garmy i ginie w dwudziestym odcinku „Hand-to-Hand Combat”, 5 listopada [[uc-0079|U.C. 0079]], a jego skrzydłowi [[acous|Acous]] i [[cozun-graham|Cozun]] kończą wówczas odmiennie niż tutaj ([Gundam Wiki, „Ramba Ral”](https://gundam.fandom.com/wiki/Ramba_Ral); [Gundam Wiki, „Hand-to-Hand Combat”](https://gundam.fandom.com/wiki/Hand-to-Hand_Combat); sprawdzono 2026-11-07). Zestawienie Rala z rodem Sahalinów, wspólny atak na [[jaburo|Jaburo]] i ocalenie całego oddziału należą do scenariusza gry.
+Wątek [[ramba-ral|Ramby Rala]] pochodzi z innego miejsca: w serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] Ral dowodzi oddziałem pościgowym wysłanym na Ziemię po śmierci Garmy i ginie w dwudziestym odcinku „Hand-to-Hand Combat”, 5 listopada [[uc-0079|U.C. 0079]], a jego skrzydłowi [[acous|Acous]] i [[cozun-graham|Cozun]] kończą wówczas odmiennie niż tutaj ([Gundam Wiki, „Ramba Ral”](https://gundam.fandom.com/wiki/Ramba_Ral); [Gundam Wiki, „Hand-to-Hand Combat”](https://gundam.fandom.com/wiki/Hand-to-Hand_Combat); sprawdzono 2026-11-07). Zestawienie Rala z rodem Sahalinów, wspólny atak na [[jaburo|Jaburo]] i ocalenie całego oddziału nie mają odpowiednika w serialu.
 }}
 
 {{skrypt gra=srw-oe
@@ -500,7 +500,7 @@ Wątek [[ramba-ral|Ramby Rala]] pochodzi z innego miejsca: w serialu [[mobile-su
 |---|---|---|---|
 | **Dywersja zamiast obrony.** [[white-base\|White Base]] dostaje zadanie, które nie przynosi chwały: ma być przynętą i zniknąć z pola widzenia floty, żeby główne siły mogły ruszyć w kosmos. | [[srw-oe\|Super Robot Wars OE]] | n/d | Rola przynęty i koordynacja z flotą to rozwiązanie gry; w OVA White Base nie pełni takiej funkcji. |
 | **Ród Sahalinów.** [[ginias-sahalin\|Ginias]] walczy o honor rodu i o pamięć po sobie, a nie o wynik wojny; jego choroba i samobójczy plan są równie ważne jak samo działo Apsalusa. | [[mobile-suit-gundam-08th-ms-team\|Mobile Suit Gundam: The 08th MS Team]] | odc. 11 „The Shuddering Mountain, Part 2” | W OVA finał projektu rozgrywa się w odcinkach 10–11: Apsalus III startuje z górskiej bazy, w kabinie siedzi najpierw Aina, a Ginias przejmuje maszynę po jej odmowie walki i ginie w starciu z Ez8 Shiro. |
-| **Dwie lojalności.** [[shiro-amada\|Shiro]] musi wybierać między bazą, drużyną i człowiekiem, którego zna; [[ramba-ral\|Ramba Ral]] wybiera dowódcę, a [[crowley-hamon\|Crowley Hamon]] — męża. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 20 „Hand-to-Hand Combat” | Wątek Ramby Rala pochodzi z innego miejsca niż finał Apsalusa: w serialu Ral ginie w odcinku 20, a jego skrzydłowi Acous i Cozun kończą odmiennie; w grze cały oddział walczy pod Jaburo i wycofuje się bez strat. |
+| **Dwie lojalności.** [[shiro-amada\|Shiro]] musi wybierać między bazą, drużyną i człowiekiem, którego zna; [[ramba-ral\|Ramba Ral]] wybiera dowódcę, a [[crowley-hamon\|Crowley Hamon]] — męża. | [[mobile-suit-gundam-1979\|Mobile Suit Gundam]] | odc. 20 „Hand-to-Hand Combat” | Wątek Ramby Rala pochodzi z innego miejsca niż finał Apsalusa: w serialu Ral ginie w odcinku 20, a jego skrzydłowi Acous i Cozun kończą odmiennie; pod Jaburo cały oddział walczy i wycofuje się bez strat. |
 | **Mit asa i jego cena.** Rozmowa o szesnastoletnim pilocie i prośba o nie trafianie w kokpit pokazują, że zwycięstwo nad Apsalusem jest pyrrusowe nawet dla tych, którzy je odnoszą. | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa o młodym pilocie i humanitarne ograniczenia w walce są dopisane przez grę. |
-| **Ziemia zostaje za plecami.** Scena kończy się startem w kosmos i zapowiedzią pościgu [[zanzibar\|Zanzibara]] z [[char-aznable\|Charem]] — od tego momentu wojna toczy się już poza planetą. | [[srw-oe\|Super Robot Wars OE]] | n/d | Przejście do walki w kosmosie i zapowiedź pościgu porządkują fabułę gry po finale projektu Apsalusa. |
+| **Ziemia zostaje za plecami.** Scena kończy się startem w kosmos i zapowiedzią pościgu [[zanzibar\|Zanzibara]] z [[char-aznable\|Charem]] — od tego momentu wojna toczy się już poza planetą. | [[srw-oe\|Super Robot Wars OE]] | n/d | Przejście do walki w kosmosie i zapowiedź pościgu porządkują fabułę po finale projektu Apsalusa. |
 }}

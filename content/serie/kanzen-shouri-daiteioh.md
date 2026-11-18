@@ -17,7 +17,9 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-oe
 
-Jedna z drużyn [[eldran|Eldrana]] w [[srw-oe|SRW OE]]. Do gry należą [[daiteioh|Daiteioh]] i jego połączona forma [[perfect-daiteioh|Perfect Daiteioh]], pilotowane przez [[taro-omomo|Taro Omomo]], [[mai-ozora|Mai Ozorę]], [[kakeru-daichi|Kakeru Daichiego]] i [[hiryu-tsukishiro|Hiryu Tsukishiro]].
+W [[srw-oe|Super Robot Wars OE]] drużynę Danketsu tworzą [[taro-omomo|Taro Omomo]], [[mai-ozora|Mai Ozora]], [[kakeru-daichi|Kakeru Daichi]] i [[hiryu-tsukishiro|Hiryu Tsukishiro]]. [[eldran|Eldran]] powierzył im [[daiteioh|Daiteioha]] oraz jego połączoną formę [[perfect-daiteioh|Perfect Daiteioh]]: Taro zasiada za głównymi sterami, Mai i Kakeru wspierają go jako podpiloci, a Hiryu dopełnia załogę jako czwarty pilot.
+
+W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] Danketsi walczą razem z pozostałymi drużynami Eldrana w lesie Aokigahara, a gdy zapada decyzja o wyprawie kosmicznej, zostają na Ziemi na straży przed [[mechanization-empire|Imperium Mechanizacji]].
 }}
 
 {{zrodlo gra=wspolne

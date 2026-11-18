@@ -18,7 +18,7 @@ sekcje_analizy:
   - Hologramy i różne reakcje na gniew → Wspólne ćwiczenia
   - Teoretyczna granica jako wymówka → Ograniczenia Exarta
   - Pokaz mocy i niewykorzystany potencjał → Final Dancouga
-  - Wytrwałość w warunkowym kryzysie → Dialogi treningowe — sytuacyjne — na granicy możliwości
+  - Walka do granicy możliwości → Dialogi treningowe — sytuacyjne — na granicy możliwości
   - Zakończenie walki pozorowanej → Koniec ćwiczeń
   - Spokój i zapał oraz oczekiwanie na oddział → Stacja Connect
 tagi: [scena, srw-oe, dancouga, patlabor, connect]
@@ -296,9 +296,9 @@ Seishiro ma trudności z przebiciem obrony celów i odwołuje się do ogranicze�
 
 Za zgodą Suola pięcioro pilotów demonstruje siłę [[final-dancouga|Final Dancougi]]. Himari odczytuje energię poza skalą, a Alan i Ryo wiążą przekroczenie teoretycznych granic z załogą oraz Morale. Alan i Ryo wyczuwają ukrytą moc Exarta; Seishiro i Himari uznają, że muszą się dalej rozwijać. Po demonstracji Suol rozpoczyna drugi etap.
 
-### Wytrwałość w warunkowym kryzysie
+### Walka do granicy możliwości
 
-Ten wariant rozmowy dotyczy krytycznych uszkodzeń Exarta, a nie obowiązkowego przebiegu ćwiczeń. Himari ostrzega przed kolejnym trafieniem, Shinobu proponuje katapultowanie, ale Seishiro postanawia walczyć dalej wraz z nią. Zaangażowanie obojga zyskuje uznanie Shinobu i Ryo.
+Gdy Exart zostaje poważnie uszkodzony, Himari ostrzega przed kolejnym trafieniem, Shinobu proponuje katapultowanie, ale Seishiro postanawia walczyć dalej wraz z nią. Zaangażowanie obojga zyskuje uznanie Shinobu i Ryo.
 
 ### Zakończenie walki pozorowanej
 
@@ -312,8 +312,8 @@ Oba zespoły wymieniają pochwały: policjanci doceniają siłę Dancougi, a jej
 
 | Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
 |---|---|---|---|
-| **Siła załogi.** Morale i opanowanie nie są przeciwieństwami: Seishiro uczy się łączyć obie postawy. | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozwój Seishira jako dowódcy to wątek gry prowadzony przez kolejne treningi. |
-| **Wzajemne uzupełnianie.** Potężna Dancouga i słabsze Labory mają różne zadania; dobre wsparcie działa w obie strony. | [[super-beast-machine-god-dancouga\|Super Beast Machine God Dancouga]] | cała seria | Załoga Dancougi i jej wojna z Muge stanowią tło OVA; trening na stacji Connect i wspólne ćwiczenia z Laborami należą do fabuły gry. |
-| **Trening bez inwazji.** Drony i hologramy pozwalają przygotować się na Mucus, nie narażając stacji na rzeczywisty atak. | [[srw-oe\|Super Robot Wars OE]] | n/d | Hologramy Mucus i ćwiczenia na stacji to autorskie rozwiązanie gry. |
-| **Przyszła współpraca.** Oddział Dancougi wraca do bazy, a Connect czeka na przybycie nowej formacji Federacji. | [[srw-oe\|Super Robot Wars OE]] | n/d | Zapowiedź nowego przydziału jest zapowiedzią kolejnych misji gry, nie wydarzeniem z serialu. |
+| **Siła załogi.** Morale i opanowanie nie są przeciwieństwami: Seishiro uczy się łączyć obie postawy. | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozwój Seishira jako dowódcy prowadzą kolejne treningi; w OVA nie ma takiego ciągu. |
+| **Wzajemne uzupełnianie.** Potężna Dancouga i słabsze Labory mają różne zadania; dobre wsparcie działa w obie strony. | [[super-beast-machine-god-dancouga\|Super Beast Machine God Dancouga]] | cała seria | Załoga Dancougi i jej wojna z Muge stanowią tło OVA; trening na stacji Connect i wspólne ćwiczenia z Laborami nie mają odpowiednika w OVA. |
+| **Trening bez inwazji.** Drony i hologramy pozwalają przygotować się na Mucus, nie narażając stacji na rzeczywisty atak. | [[srw-oe\|Super Robot Wars OE]] | n/d | Hologramy Mucus i ćwiczenia na stacji nie mają odpowiednika w serialu. |
+| **Przyszła współpraca.** Oddział Dancougi wraca do bazy, a Connect czeka na przybycie nowej formacji Federacji. | [[srw-oe\|Super Robot Wars OE]] | n/d | Nowy przydział jest zapowiedzią dalszych walk, a nie wydarzeniem z serialu. |
 }}

@@ -310,7 +310,7 @@ utworzono: 2026-11-01
 
 ### HAL-X10 i wyzwanie Buda
 
-[[zolnierz-jsdf|Żołnierz Sił Samoobrony]] przybywa z pomocą, tłumacząc zwłokę rozkazami przełożonych. [[badrinath-harchand|Bud]] natychmiast unieszkodliwia jego [[hal-x10-green|HAL-X10/Green]] w [[griffon|Griffonie]]. Żołnierz przeżywa, ale systemy maszyny przestają działać. Bud szczególnie chce zmierzyć się z Noą i traktuje pozostałych jak dodatkowych przeciwników w grze. Noa wzywa go do wyjścia z kabiny i poddania się; odpowiedzią jest okrzyk rozpoczynający „rundę”.
+[[zolnierz-jsdf|Żołnierz Sił Samoobrony]] przybywa z pomocą, tłumacząc zwłokę rozkazami przełożonych. [[badrinath-harchand|Bud]] natychmiast unieszkodliwia jego [[hal-x10-green|HAL-X10/Green]] w [[griffon|Griffonie]]. Żołnierz przeżywa, ale systemy maszyny przestają działać. Bud szczególnie chce zmierzyć się z Noą i traktuje pozostałych jak kolejnych przeciwników do zaliczenia. Noa wzywa go do wyjścia z kabiny i poddania się; odpowiedzią jest okrzyk rozpoczynający „rundę”.
 
 ### Współpraca Ingramów
 
@@ -349,7 +349,7 @@ Motyw samodzielnego lotu Labora i wycofania Buda na rozkaz Utsumiego występuje 
 
 | Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
 |---|---|---|---|
-| **Kontrolowany test.** Dla Utsumiego atak jest reklamą Griffona i sposobem zebrania danych. | [[mobile-police-patlabor\|Mobile Police Patlabor]] | odc. 30 „Griffin was Here!” | W oryginale Utsumi chce sprawdzić Griffona przeciw Drugiemu Plutonowi; w grze test odbywa się na poligonie, gdzie czekają bezzałogowe Brockeny. |
+| **Kontrolowany test.** Dla Utsumiego atak jest reklamą Griffona i sposobem zebrania danych. | [[mobile-police-patlabor\|Mobile Police Patlabor]] | odc. 30 „Griffin was Here!” | W oryginale Utsumi chce sprawdzić Griffona przeciw Drugiemu Plutonowi; tutaj test odbywa się na poligonie, gdzie czekają bezzałogowe Brockeny. |
 | **Ochrona jako zasłona.** Kurosaki występuje jako doradca HSS, a bezzałogowe Brockeny i zagłuszanie odcinają pluton od dowództwa. | [[mobile-police-patlabor\|Mobile Police Patlabor]] | odc. 30 „Griffin was Here!” | Rozmowa Utsumiego z Kurosakim odpowiada odcinkowi; bezzałogowe Brockeny i zagłuszanie czujników to dodatek gry. |
 | **Ograniczenia przewagi technicznej.** Exart wykrywa brak życia w Laborach, ale nie identyfikuje Griffona i traci go podczas odwrotu. | [[srw-oe\|Super Robot Wars OE]] | n/d | Udział Exarta i jego ograniczenia w rozpoznaniu to scena gry; w serialu pluton walczy sam. |
 | **Nierozstrzygnięte starcie.** Bud odlatuje na rozkaz, nie zostaje schwytany. Goto cieszy się przede wszystkim z ocalenia plutonu. | [[mobile-police-patlabor\|Mobile Police Patlabor]] | odc. 31 „Tragedy in Rain” | W serialu lot zamyka starcie na targach Laborów; tutaj Bud wycofuje się z poligonu, by dostarczyć dane z testu. |

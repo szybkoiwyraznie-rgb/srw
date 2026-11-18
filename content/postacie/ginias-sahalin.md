@@ -27,7 +27,7 @@ Na wieść o wymarszu Apsalusa przybywa do niego [[ramba-ral|Ramba Ral]]; Ginias
 
 Ginias Sahalin jest antagonistą OVA [[mobile-suit-gundam-08th-ms-team|*Mobile Suit Gundam: The 08th MS Team*]]: kieruje projektem Apsalusa w górskiej bazie Zeonu i po klęsce pod [[operacja-odessa|Odessą]] nie zgadza się na wstrzymanie prac, gdy dowództwo nakazuje przerzucić środki w kosmos — usuwa nadzorującego ewakuację Yuri Kellernę i naukowców projektu ([Gundam Wiki, „Ginias Sahalin”](https://gundam.fandom.com/wiki/Ginias_Sahalin); sprawdzono 2026-11-07).
 
-W oryginale jego siostra Aina siada za sterami [[apsalus-iii|Apsalusa III]] wbrew woli brata i ostatecznie staje po stronie [[shiro-amada|Shiro]]; Ginias ginie w walce w jedenastym odcinku „The Shuddering Mountain, Part 2” ([Gundam Wiki, „Ginias Sahalin”, przypis do odc. 11](https://gundam.fandom.com/wiki/Ginias_Sahalin); sprawdzono 2026-11-07). Gra przenosi ten finał pod [[jaburo|Jaburo]] i obsadza go wyłącznie po stronie wroga — bez wątku Ainy w kabinie.
+W oryginale jego siostra Aina siada za sterami [[apsalus-iii|Apsalusa III]] wbrew woli brata i ostatecznie staje po stronie [[shiro-amada|Shiro]]; Ginias ginie w walce w jedenastym odcinku „The Shuddering Mountain, Part 2” ([Gundam Wiki, „Ginias Sahalin”, przypis do odc. 11](https://gundam.fandom.com/wiki/Ginias_Sahalin); sprawdzono 2026-11-07). W [[srw-oe|Super Robot Wars OE]] ten finał rozgrywa się pod [[jaburo|Jaburo]], wyłącznie po stronie wroga — bez wątku Ainy w kabinie.
 }}
 
 {{menu gra=srw-oe

@@ -100,8 +100,9 @@ test('parametry mechów nie powtarzają domyślnej załogi — piloci zostają w
     brocken: ['control-ai'],
     'rx-78-2-gundam': ['amuro-ray'],
     'white-base': ['bright-noa', 'mirai-yashima'],
-    'zaku-ii-karabin-maszynowy': ['slender', 'acous', 'zolnierz-zeonu'],
-    'zaku-ii-bazooka': ['crown', 'zolnierz-zeonu'],
+    // Dostawa 3-4 podstawia pod te maszyny zbiorczego Pilota MS, więc lista rośnie.
+    'zaku-ii-karabin-maszynowy': ['slender', 'acous', 'zolnierz-zeonu', 'pilot-ms'],
+    'zaku-ii-bazooka': ['crown', 'zolnierz-zeonu', 'pilot-ms'],
     'zaku-ii-char': ['char-aznable'],
     cybuster: ['masaki-andoh'],
     cybird: ['masaki-andoh'],
@@ -152,8 +153,8 @@ test('profile pilotów z nowej dostawy: statystyki, komendy Ducha i umiejętnoś
 
 test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji', () => {
   const warianty = [
-    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], ['slender', 'acous', 'zolnierz-zeonu']],
-    ['zaku-ii-bazooka', 2, ['Bazooka Zaku', 'Heat Hawk'], ['crown', 'zolnierz-zeonu']],
+    ['zaku-ii-karabin-maszynowy', 2, ['Karabin maszynowy Zaku', 'Heat Hawk'], ['slender', 'acous', 'zolnierz-zeonu', 'pilot-ms']],
+    ['zaku-ii-bazooka', 2, ['Bazooka Zaku', 'Heat Hawk'], ['crown', 'zolnierz-zeonu', 'pilot-ms']],
     ['zaku-ii-char', 4, ['Karabin maszynowy Zaku', 'Bazooka Zaku', 'Heat Hawk', 'Szarża barkiem'], ['char-aznable']],
   ];
   for (const [slug, count, bronie, piloci] of warianty) {
@@ -254,6 +255,11 @@ test('aktualny materiał nie ujawnia poprzednich spoilerów i nie twierdzi, że 
 });
 
 test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () => {
+  // Zdanie, którego podmiotem jest gra („Gra przenosi go pod Jaburo”, „Do gry należą…”)
+  // opisuje zawartość tytułu, nie świat — niezależnie od tego, czy stoi w boksie
+  // opisowym, czy w {{zrodlo}}. Porównanie z pierwowzorem jest dozwolone, ale nie
+  // kosztem opowiadania o rekordzie (decyzja właściciela, 2026-11-17).
+  const zakazaneGra = /\bdo gry\b|\btej gr(?:y|ze)\b|\bopis gry\b|\bprofil gry\b|\bscenariusz gry\b|\bgra\s+(?:przenosi|odtwarza|układa|powtarza|używa|zapisuje|nazywa|podaje|czyni|zamienia|dodaje|traktuje|pokazuje|wprowadza|łączy|wybiera|każe|pozwala|zostawia|rezygnuje|pomija|przedstawia|rozstrzyga|obsadza|przypisuje|zmienia|zachowuje|daje|zatrzymuje)\b/i;
   const zakazane = /\bw grze\b|\bprofilu?\b|\bobsad[a-ząćęłńóśźż]*\b|\broster\b|\bwłasną stron|standardow/i;
   // Meta-komentarze o samej bazie są zabronione w każdej warstwie treści — także w boksach
   // {{zrodlo}} i {{wiedza}}, gdzie wcześniej umykały. Wpis opisuje świat gry, nie strony,
@@ -277,6 +283,8 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
       .map((m) => m[2])
       .join('\n\n');
     assert.doesNotMatch(calaTresc, zakazaneMeta, `${page.slug}: meta-komentarz o bazie w treści (ADR 0018)`);
+    assert.doesNotMatch(calaTresc, zakazaneGra,
+      `${page.slug}: zdanie opowiada o zawartości gry zamiast o świecie (ADR 0018)`);
     if (!tekst) continue;
     zbadane += 1;
     assert.ok(tekst.length > 40, `${page.slug}: sekcja Opis wczytana w całości`);
@@ -291,14 +299,14 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
   }
 });
 
-test('ilustracje właściciela: 269 plików przy 216 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 271 plików przy 217 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
   // Bieżący stan manifestu jest przypięty tylko tutaj. Testy poszczególnych dostaw sprawdzają
   // własne klucze i to, że manifest nie jest starszy od nich — kolejna dostawa zmienia ten jeden test.
-  assert.equal(Object.keys(manifest.encje).length, 216);
-  assert.equal(Object.values(manifest.encje).flat().length, 269);
-  assert.equal(manifest.dostarczono, '2026-11-17', 'data ostatniej dostawy ilustracji');
+  assert.equal(Object.keys(manifest.encje).length, 217);
+  assert.equal(Object.values(manifest.encje).flat().length, 271);
+  assert.equal(manifest.dostarczono, '2026-11-18', 'data ostatniej dostawy ilustracji');
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   assert.equal(new Set(wszystkie).size, wszystkie.length, 'plik należy do jednej encji');
@@ -655,6 +663,27 @@ test('dostawa ilustracji misji 3-2 SRW OE (2026-11-15): dwie jednostki i dwa por
   assert.deepEqual(manifest.encje['gihren-zabi'], ['characters/Gihren Zabi.png']);
   assert.deepEqual(manifest.encje['kycilia-zabi'], ['characters/Kycilia Zabi.png']);
   assert.ok(manifest.dostarczono >= '2026-11-15', 'manifest nie jest starszy od tej dostawy');
+});
+
+
+test('dostawa ilustracji SRW OE 3-4 (2026-11-18): dwa pliki seryjnego Gelgooga', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  // Klucze zachowują pisownię właściciela („Geloog”), tytuł strony — nazwę z dostawy tekstowej.
+  assert.deepEqual(manifest.encje.gelgoog, ['Geloog Standard.png', 'Geloog Standard 2.png']);
+  assert.ok(manifest.dostarczono >= '2026-11-18', 'manifest nie jest starszy od tej dostawy');
+  const strona = bySlug.get('gelgoog');
+  assert.equal(strona?.typ, 'mech', 'gelgoog: strona mecha');
+  // Seryjny Gelgoog z misji 3-4 to inna maszyna niż dowódczy Gelgoog Chara — własna galeria.
+  assert.equal((strona.body.match(/^## Ilustracje$/gm) ?? []).length, 1, 'gelgoog: galeria');
+  assert.equal((strona.body.match(/^### Ilustracja \d+$/gm) ?? []).length, 2, 'gelgoog: dwie podsekcje');
+  assert.match(strona.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, 'gelgoog: zakres gry');
+  for (const plik of ['Geloog Standard.png', 'Geloog Standard 2.png']) {
+    assert.ok(strona.body.includes(`${manifest.baseUrl}/${encodeURIComponent(plik)}`), `gelgoog: adres ${plik}`);
+  }
+  const iIlustracje = strona.body.indexOf('## Ilustracje');
+  assert.ok(iIlustracje < strona.body.indexOf('## Parametry'), 'gelgoog: Ilustracje przed Parametrami');
+  assert.deepEqual(bySlug.get('gelgoog-char').piloci, ['char-aznable'], 'dowódcza odmiana zostaje przy Charze');
+  assert.deepEqual(strona.piloci, ['pilot-ms'], 'seryjna odmiana ma bezimiennych pilotów');
 });
 
 

@@ -309,7 +309,7 @@ Krótka wymiana w kabinie [[exart|Exarta]] pokazuje, jak blisko siebie pracują 
 
 ### Zespół Raijin-Oh
 
-Dialogi warunkowe pokazują szkolny ton drużyny [[matchless-raijin-oh|Raijin-Oh]]: [[maria-shiratori|Maria]] brzydzi się wijącym stworem, [[jin-hyuga|Jin]] odpowiada jej docinkiem o „dziewczyńskim” strachu, a [[asuka-tsukishiro|Asuka]] ucisza oboje.
+W walce słychać szkolny ton drużyny [[matchless-raijin-oh|Raijin-Oh]]: [[maria-shiratori|Maria]] brzydzi się wijącym stworem, [[jin-hyuga|Jin]] odpowiada jej docinkiem o „dziewczyńskim” strachu, a [[asuka-tsukishiro|Asuka]] ucisza oboje.
 
 ### Zespół Shin Gettera
 
@@ -344,10 +344,10 @@ Ostatnia scena przenosi akcję do sztabu [[zeon|Zeonu]]. [[gihren-zabi|Gihren]] 
 
 | Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
 |---|---|---|---|
-| Laboratorium Cyber-Newtype'ów [[earth-federation\|Federacji]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Placówka na Kurylach jako ośrodek eksperymentów na ludziach należy do scenariusza gry; motyw ośrodków Newtype'ów jest zapożyczony z uniwersum Gundama. |
+| Laboratorium Cyber-Newtype'ów [[earth-federation\|Federacji]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Placówka na Kurylach jako ośrodek eksperymentów na ludziach nie ma odpowiednika w serialach; motyw ośrodków Newtype'ów jest zapożyczony z uniwersum Gundama. |
 | [[invaderzy\|Invaderzy]] przejmujący laboratorium | [[getter-robo-armageddon\|Getter Robo Armageddon]] | cała seria | W OVA Invaderzy atakują Ziemię; tutaj przejmują opuszczony obiekt Federacji, co jest rozwiązaniem gry. |
 | Tajemnicze Gundamy należące do [[sily-kolonii\|sił kolonii]] | [[mobile-suit-gundam-00\|Mobile Suit Gundam 00]] i [[mobile-suit-gundam-wing\|Mobile Suit Gundam Wing]] | cała seria | Ani Celestial Being, ani pilotów z *Gundam Wing* nie łączy w serialach wspólna organizacja; pojęcie „sił kolonii” i ich warunkowa zapowiedź rozważenia ograniczonej współpracy z [[connect-force\|Connect Force]] to konstrukcja gry. |
-| Dołączenie [[cyber-beast-force\|Cyber Beast Force]] do [[connect-force\|Connect Force]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Decyzja zapada w grze i jest zapowiedzią dalszej wspólnej trasy. |
-| Rywalizacja [[gihren-zabi\|Gihrena]] i [[kycilia-zabi\|Kycilii]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa rodzeństwa o karze za samowolny ruch [[mquve\|M'Quve'a]] i o użyczeniu sił, które mają zbliżyć Connect do Zeonu, należy do scenariusza gry. W serialu Gihren i Kycilia rywalizują o wpływy, ale nie prowadzą rozmowy o sojuszu z neutralną organizacją. |
+| Dołączenie [[cyber-beast-force\|Cyber Beast Force]] do [[connect-force\|Connect Force]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Decyzja zapada na pokładzie [[white-base\|White Base]] i zapowiada dalszą wspólną trasę. |
+| Rywalizacja [[gihren-zabi\|Gihrena]] i [[kycilia-zabi\|Kycilii]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa rodzeństwa o karze za samowolny ruch [[mquve\|M'Quve'a]] i o użyczeniu sił, które mają zbliżyć Connect do Zeonu, nie ma odpowiednika w serialu. Tam Gihren i Kycilia rywalizują o wpływy, ale nie prowadzą rozmowy o sojuszu z neutralną organizacją. |
 
 }}

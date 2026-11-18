@@ -23,5 +23,5 @@ W [[mobile-police-patlabor|pierwowzorze]] Shaft Enterprises to międzynarodowy k
 
 Koncern rzadko występuje pod własnym szyldem. W siódmym odcinku serialu Pierwszy Pluton dostaje do prób prototypowego Labora SRX-70 od firmy Toyohata, która przysyła przy nim własnych mechaników; Toyohata okazuje się podstawiona przez Schafta, a celem jest przechwycenie danych o ruchach policyjnych maszyn na potrzeby Labora wojskowego. W dwudziestym odcinku tę samą rolę gra firma ochroniarska [[hss|HSS]]. Projekt [[griffon|Griffona]], prowadzony przez [[utsumi|Utsumiego]] i [[kurosaki|Kurosakiego]], idzie o krok dalej: kolejne starcia mają zdobyć dysk ruchu Ingrama ([Wikipedia, „List of Patlabor episodes”](https://en.wikipedia.org/wiki/List_of_Patlabor_episodes); sprawdzono 2026-11-07).
 
-Dlatego walka na poligonie w grze nie jest dla Schafta bitwą, tylko kolejnym pomiarem: Utsumi przerywa ją, gdy ma dość danych, a nie wtedy, gdy przegrywa.
+Dlatego walka na poligonie w [[srw-oe|Super Robot Wars OE]] nie jest dla Schafta bitwą, tylko kolejnym pomiarem: Utsumi przerywa ją, gdy ma dość danych, a nie wtedy, gdy przegrywa.
 }}

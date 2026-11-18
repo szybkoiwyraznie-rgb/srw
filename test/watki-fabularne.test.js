@@ -161,6 +161,33 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Przerwanie ognia przez Connect Force',
       'Samowolny start i prywatna zemsta Tokwana',
     ],
+    'srw-oe-ep3': [
+      // scena 3-1: Interwencja Gundamów
+      'Obserwatorium w strefie neutralnej i prowokacja Garmy',
+      'Garma chce zaimponować Kycilii i uderza na White Base',
+      'Char jako doradca, który rozgrywa Garmę',
+      'Posiłki lady Kycilii: Zanzibar, M\'Quve i Black Tri-Stars',
+      'Ośrodek badań nad Newtype\'ami jako cel Zeonu',
+      'Obrońcy hamują się, bo przeciwnikiem są ludzie',
+      'Noa Izumi i Labor przeciw okrętowi Zeonu',
+      'Shiro i maszyny lądowe na śniegu',
+      'Koji i Mazinger Z w walce z okrętami',
+      'Nocny atak Exii i Wing Zero na placówkę',
+      // scena 3-2: Skradający się cień
+      'Laboratorium Cyber-Newtype\'ów w zniszczonej placówce',
+      'Invaderzy przejmujący obiekt Federacji',
+      'Dwa Gundamy należące do sił kolonii',
+      'Dołączenie Cyber Beast Force do Connect Force',
+      'Rywalizacja Gihrena i Kycilii',
+      // scena 3-3: Zielony najeźdźca
+      'Keronianin zagubiony w świecie Universal Century',
+      'Gunpla jako hobby Keroro',
+      'Rezonansowy głos Keroro, incydenty Laborów i poprawka HOS-u',
+      // scena 3-4: Szturm na kryjówkę piratów
+      'Podróż na Marsa przez bramę warp',
+      'Piraci na międzyplanetarnych szlakach handlowych',
+      'Byli żołnierze Zeonu wśród piratów',
+    ],
   };
 
   for (const [slug, kolejnosc] of Object.entries(oczekiwane)) {

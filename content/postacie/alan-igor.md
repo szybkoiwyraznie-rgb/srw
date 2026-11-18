@@ -25,7 +25,7 @@ W serialu [[super-beast-machine-god-dancouga|*Dancouga*]] Alan Igor (アラン�
 
 Osobna jest też jego maszyna: zbudował ją sam, a nie profesor Hazuki, więc jako jedyna z tego zestawu nie ma Aggressive System — bariery otwieranej gniewem pilota ([Wikipedia, „Dancouga – Super Beast Machine God”](https://en.wikipedia.org/wiki/Dancouga_%E2%80%93_Super_Beast_Machine_God); sprawdzono 2026-11-07).
 
-Gra układa to inaczej: tutaj Alan lata z [[cyber-beast-force|Cyber Beast Force]] jako jeden z nich, ręczy przed gospodarzami ćwiczeń za umiejętności zespołu i bez ociągania potwierdza, czyim jest synem.
+W [[srw-oe|Super Robot Wars OE]] Alan należy do [[cyber-beast-force|Cyber Beast Force]] i lata z zespołem jako jeden z nich; ręczy przed gospodarzami ćwiczeń za umiejętności drużyny i bez ociągania potwierdza, czyim jest synem.
 }}
 
 {{menu gra=srw-oe

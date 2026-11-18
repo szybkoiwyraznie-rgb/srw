@@ -22,7 +22,7 @@ Artyleryjska odmiana bezzałogowego [[brocken|Brockena]] kierowanego przez [[con
 
 ## Pierwowzór
 
-Wojskowy [[labor|Labor]] Type-7B Brocken — opracowany przez Schaft Enterprises Europe dla zachodnioniemieckiej straży granicznej i sił NATO — obok standardowego działka 40 mm może przenosić także opcjonalne ciężkie działo 105 mm (*105mm Cannon*). Tak jak w pozostałych wariantach z [[srw-oe|SRW OE]], bezzałogowe sterowanie przez [[control-ai|Control AI]] jest rozwiązaniem gry, bo oryginał przewiduje kabinę dla jednego pilota ([Patlabor Wiki, „Type-7B Brocken”](https://patlabor.fandom.com/wiki/Type-7B_Brocken); sprawdzono 2026-11-10).
+Wojskowy [[labor|Labor]] Type-7B Brocken — opracowany przez Schaft Enterprises Europe dla zachodnioniemieckiej straży granicznej i sił NATO — obok standardowego działka 40 mm może przenosić także opcjonalne ciężkie działo 105 mm (*105mm Cannon*). Jak w pozostałych wariantach tej maszyny w [[srw-oe|Super Robot Wars OE]], Brocken nie ma tu kabiny i kieruje nim [[control-ai|Control AI]]; w pierwowzorze przewidziano miejsce dla jednego pilota ([Patlabor Wiki, „Type-7B Brocken”](https://patlabor.fandom.com/wiki/Type-7B_Brocken); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-oe
