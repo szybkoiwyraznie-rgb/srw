@@ -299,14 +299,14 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
   }
 });
 
-test('ilustracje właściciela: 269 plików przy 216 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 271 plików przy 217 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
   // Bieżący stan manifestu jest przypięty tylko tutaj. Testy poszczególnych dostaw sprawdzają
   // własne klucze i to, że manifest nie jest starszy od nich — kolejna dostawa zmienia ten jeden test.
-  assert.equal(Object.keys(manifest.encje).length, 216);
-  assert.equal(Object.values(manifest.encje).flat().length, 269);
-  assert.equal(manifest.dostarczono, '2026-11-17', 'data ostatniej dostawy ilustracji');
+  assert.equal(Object.keys(manifest.encje).length, 217);
+  assert.equal(Object.values(manifest.encje).flat().length, 271);
+  assert.equal(manifest.dostarczono, '2026-11-18', 'data ostatniej dostawy ilustracji');
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   assert.equal(new Set(wszystkie).size, wszystkie.length, 'plik należy do jednej encji');
@@ -663,6 +663,27 @@ test('dostawa ilustracji misji 3-2 SRW OE (2026-11-15): dwie jednostki i dwa por
   assert.deepEqual(manifest.encje['gihren-zabi'], ['characters/Gihren Zabi.png']);
   assert.deepEqual(manifest.encje['kycilia-zabi'], ['characters/Kycilia Zabi.png']);
   assert.ok(manifest.dostarczono >= '2026-11-15', 'manifest nie jest starszy od tej dostawy');
+});
+
+
+test('dostawa ilustracji SRW OE 3-4 (2026-11-18): dwa pliki seryjnego Gelgooga', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  // Klucze zachowują pisownię właściciela („Geloog”), tytuł strony — nazwę z dostawy tekstowej.
+  assert.deepEqual(manifest.encje.gelgoog, ['Geloog Standard.png', 'Geloog Standard 2.png']);
+  assert.ok(manifest.dostarczono >= '2026-11-18', 'manifest nie jest starszy od tej dostawy');
+  const strona = bySlug.get('gelgoog');
+  assert.equal(strona?.typ, 'mech', 'gelgoog: strona mecha');
+  // Seryjny Gelgoog z misji 3-4 to inna maszyna niż dowódczy Gelgoog Chara — własna galeria.
+  assert.equal((strona.body.match(/^## Ilustracje$/gm) ?? []).length, 1, 'gelgoog: galeria');
+  assert.equal((strona.body.match(/^### Ilustracja \d+$/gm) ?? []).length, 2, 'gelgoog: dwie podsekcje');
+  assert.match(strona.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, 'gelgoog: zakres gry');
+  for (const plik of ['Geloog Standard.png', 'Geloog Standard 2.png']) {
+    assert.ok(strona.body.includes(`${manifest.baseUrl}/${encodeURIComponent(plik)}`), `gelgoog: adres ${plik}`);
+  }
+  const iIlustracje = strona.body.indexOf('## Ilustracje');
+  assert.ok(iIlustracje < strona.body.indexOf('## Parametry'), 'gelgoog: Ilustracje przed Parametrami');
+  assert.deepEqual(bySlug.get('gelgoog-char').piloci, ['char-aznable'], 'dowódcza odmiana zostaje przy Charze');
+  assert.deepEqual(strona.piloci, ['pilot-ms'], 'seryjna odmiana ma bezimiennych pilotów');
 });
 
 

@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-18 11:22
+
+- **Dwie sylwetki seryjnego [[gelgoog|Gelgooga]]** — maszyna, którą w kryjówce piratów latają bezimienni piloci: karabin wiązkowy sięga pięciu pól, a naginata wiązkowa rozstrzyga zwarcie, gdzie tarcza tłumi przyjmowane obrażenia. Obok niej stoi dowódczy [[gelgoog-char|Gelgoog Chara]] z mocniejszym generatorem i cięższym uzbrojeniem.
+
 ## 2026-11-18 08:30
 
 - **Kryjówka piratów w asteroidzie** — [[srw-oe-ep3-kryjowka-piratow|„Szturm na kryjówkę piratów”]] prowadzi [[connect-force|Connect Force]] poza Sferę Ziemską, ku [[stacja-mars|Stacji Mars]], skąd gigantyczna brama warp ma otworzyć drogę w daleki kosmos. Po drodze załoga namierza bazę piratów ukrytą w skale, wchodzi do jej portu i staje naprzeciw większej liczby [[mobile-suit|mobile suitów]], niż się spodziewała.

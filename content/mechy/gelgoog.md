@@ -25,6 +25,19 @@ Odmianą dowódczą lata [[char-aznable|Char]] i to ona nosi jego barwy: [[gelgo
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Gelgoog — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Geloog%20Standard.png)
+
+### Ilustracja 2
+
+![Gelgoog — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Geloog%20Standard%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Mobile Suit Gundam
