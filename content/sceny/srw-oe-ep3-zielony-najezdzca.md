@@ -330,8 +330,8 @@ Badania potwierdzają, że niska częstotliwość głosu Keronianina uruchamia c
 
 | Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
 |---|---|---|---|
-| Keronianin wyrzucony do świata [[universal-century\|Universal Century]] i rozpoznający RX-78-2 | [[sgt-frog\|Sgt. Frog]] | cała seria | Bohater mangi i serialu trafia na Ziemię Pekoponu i tam utyka po nieudanej inwazji; w grze przenosi go nieznane zjawisko do uniwersum Gundama, a on sam rozpoznaje Gundama, Guncannona i Guntanka jako „pełen skład MS z pierwszego Gundama”. |
-| Gunpla jako hobby Keroro | [[sgt-frog\|Sgt. Frog]] | cała seria | W pierwowzorze zamiłowanie do modeli Gundamów odwraca uwagę Keroro od inwazji; w grze mówi o nim wprost, przedstawiając się załodze [[white-base\|White Base]] i deklarując chęć pozostania na okręcie. |
-| Rezonansowy głos Keroro uruchamiający Labory i śledztwo prowadzące do poprawki HOS-u | [[srw-oe\|Super Robot Wars OE]] | n/d | Związek między głosem Keroro, czułymi czujnikami Laborów i incydentami oraz dołączenie Keroro do Connect Force wynikają wprost ze scenariusza gry. |
+| Keronianin wyrzucony do świata [[universal-century\|Universal Century]] i rozpoznający RX-78-2 | [[sgt-frog\|Sgt. Frog]] | cała seria | Bohater mangi i serialu trafia na Ziemię Pekoponu i tam utyka po nieudanej inwazji; tutaj przenosi go nieznane zjawisko do uniwersum Gundama, a on sam rozpoznaje Gundama, Guncannona i Guntanka jako „pełen skład MS z pierwszego Gundama”. |
+| Gunpla jako hobby Keroro | [[sgt-frog\|Sgt. Frog]] | cała seria | W pierwowzorze zamiłowanie do modeli Gundamów odwraca uwagę Keroro od inwazji; na okręcie mówi o nim wprost, przedstawiając się załodze [[white-base\|White Base]] i deklarując chęć pozostania na pokładzie. |
+| Rezonansowy głos Keroro uruchamiający Labory i śledztwo prowadzące do poprawki HOS-u | [[srw-oe\|Super Robot Wars OE]] | n/d | Związek między głosem Keroro, czułymi czujnikami Laborów i incydentami oraz dołączenie Keroro do Connect Force nie mają odpowiednika w mandze ani w serialu. |
 
 }}

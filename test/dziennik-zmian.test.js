@@ -70,6 +70,17 @@ test('dziennik nie opisuje interfejsu ani technikaliów (ADR 0018)', () => {
     'audyt', 'dostaw[ay]\\b', 'właściciel', 'poprawki językowe', 'składni[aęi]', 'literówk',
     'wikipedi', 'odsyła linkiem', 'potwierdzon[aey] źródłowo', 'sprawdzone źródło',
     'dawny domysł', 'sub-pilot',
+    // nazwy części witryny i mowa o pisaniu zamiast o świecie (ADR 0018 pkt 3,
+    // adnotacja właściciela 2026-11-17: także wpis opisujący samą zasadę)
+    'analiz[a-ząćęłńóśźż]*', 'komentarz[a-ząćęłńóśźż]*', 'streszczeni[a-ząćęłńóśźż]*',
+    'własnymi słowami', 'język[a-ząćęłńóśźż]* warsztatu', 'scenariusz[a-ząćęłńóśźż]*',
+    'dialog[a-ząćęłńóśźż]* warunkow[a-ząćęłńóśźż]*', 'redakcyjn[a-ząćęłńóśźż]*',
+    'zredagowan[a-ząćęłńóśźż]*', 'przepisan[a-ząćęłńóśźż]*',
+    // podmiotem zdania jest gra, a nie świat (por. `zakazaneGra` w test/dostawa-pl.test.js)
+    '\\bw grze\\b', '\\bdo gry\\b', '\\btej gr(?:y|ze)\\b',
+    '\\bgr[aey]\\s+(?:pokazuje|przenosi|dodaje|zmienia|zachowuje|łączy|osadza|czyni|obsadza'
+      + '|zastępuje|pomija|wprowadza|każe|traktuje|rozstrzyga|przypisuje|zestawia|powtarza|nazywa'
+      + '|podaje|kładzie|zapowiada|rozgrywa|zarysowuje|odwraca|spotyka|wiąże|pozostawia)\\b',
   ].join('|'), 'i');
   // „Bloku” w znaczeniu struktury strony pilnuje osobny wzorzec bez flagi i —
   // nazwa umiejętności „Blok” z gry jest częścią fabuły i zostaje.

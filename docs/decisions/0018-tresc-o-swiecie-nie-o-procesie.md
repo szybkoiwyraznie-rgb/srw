@@ -90,3 +90,22 @@ nawet bez słów technicznych (np. „dostaje własne strony”, „ma pełne st
   przeniesiono tam cały zapas wpisów o procesie z dziennika publicznego.
 - Test dziennika rozszerzono o słowa struktury i formatowania, ale lista nie zastępuje
   przeglądu stylu.
+
+## Adnotacja 2026-11-18 — zasada obowiązuje także wtedy, gdy opisuje samą siebie
+
+Wpis dziennika z 2026-11-17 21:39 chwalił wykonanie tej reguły: mówił, że analiza sceny
+„opisuje teraz wydarzenia sceny własnymi słowami” i że „język warsztatu zniknął z analiz scen”.
+Właściciel uznał to za szczególnie rażące naruszenie punktu 3: zdanie o redagowaniu analiz jest
+opisem procesu nawet wtedy, gdy dotyczy usuwania opisów procesu. Doprecyzowanie:
+
+- **Dziennik nie relacjonuje pracy nad prozą.** Nie mówi, co „opisuje teraz”, co „zniknęło
+  z analiz”, czego „nie ma już w komentarzach”. Mówi o postaciach, maszynach, miejscach
+  i wydarzeniach — także wtedy, gdy wpis podsumowuje większą zmianę treści.
+- **Reguła dotyczy każdej prozy widocznej w witrynie**, nie tylko boksów opisowych: analiz scen,
+  komentarzy epizodów, kolumny „Różnice” w wątkach i opisów encji. Podmiotem zdania jest świat,
+  a nie gra („Gra przenosi”, „W grze pluton czeka”, „scenariusz gry pomija”).
+- **Porównanie z pierwowzorem zostaje dozwolone.** Zdanie o różnicy wobec anime jest treścią
+  merytoryczną; warsztatowe jest wskazanie autora tej różnicy („gra”, „scenariusz gry”).
+- Strażnicy: rozszerzona lista `test/dziennik-zmian.test.js` oraz test
+  `proza scen i epizodów mówi o świecie, nie o grze jako autorze` w `test/sceny.test.js`.
+  Wyjątki: „gra polityczna”, „gra w piłkę”, „świat gry” jako nazwa uniwersum.

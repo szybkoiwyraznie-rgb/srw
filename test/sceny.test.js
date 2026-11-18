@@ -79,3 +79,46 @@ test('sceny z bazy są wierne skryptowi i mają poprawny schemat', () => {
     assert.deepEqual(walidujStrone(s, { bySlug }), [], s.slug);
   }
 });
+
+test('proza scen i epizodów mówi o świecie, nie o grze jako autorze (ADR 0018 pkt 3)', () => {
+  // Zdanie, którego podmiotem jest gra („Gra przenosi”, „W grze pluton czeka”,
+  // „scenariusz gry pomija”) opisuje warsztat, nie fabułę — niezależnie od tego,
+  // czy stoi w opisie, w komentarzu, w analizie, czy w kolumnie „Różnice”.
+  // Porównanie z pierwowzorem zostaje; autor zdania ma być świat.
+  const zakazane = new RegExp([
+    '\\bdo gry\\b', '\\btej gr(?:y|ze)\\b', '\\bwłasnymi słowami\\b',
+    '\\bscenariusz\\w*\\s+(?:gry|sceny)\\b', '\\bdialogi warunkowe\\b',
+    '\\b[Jj]ęzyk\\w*\\s+warsztatu\\b',
+    '\\b[Gg]r[aey]\\s+(?:pokazuje|przenosi|dodaje|zmienia|zachowuje|łączy|osadza|czyni|obsadza'
+      + '|zastępuje|pomija|wprowadza|każe|traktuje|rozstrzyga|przypisuje|zestawia|powtarza|nazywa'
+      + '|podaje|kładzie|zapowiada|rozgrywa|zarysowuje|odwraca|spotyka|wiąże|pozostawia)\\b',
+    '\\b[Ww] grze\\b',
+  ].join('|'));
+  // Sekcje „W grze”/„W scenie” parametrów to surowe dane jednostki — reguła ich nie dotyczy.
+  const dozwolone = /^(?:\|\s*)?(?:\*\*)?(?:W grze|W scenie)\b/;
+  const problemy = [];
+  for (const katalog of ['content/sceny', 'content/epizody']) {
+    for (const plik of fs.readdirSync(path.join(ROOT, katalog))) {
+      if (!plik.endsWith('.md')) continue;
+      const linie = fs.readFileSync(path.join(ROOT, katalog, plik), 'utf8').split('\n');
+      let wFrontmatterze = linie[0].trim() === '---';
+      let wSkrypcie = false;
+      linie.forEach((linia, i) => {
+        if (wFrontmatterze) {
+          if (i > 0 && linia.trim() === '---') wFrontmatterze = false;
+          return;
+        }
+        if (linia.startsWith(':::skrypt')) wSkrypcie = true;
+        if (wSkrypcie) {
+          if (linia.trim() === ':::') wSkrypcie = false;
+          return;
+        }
+        if (dozwolone.test(linia)) return;
+        const trafienie = linia.match(zakazane);
+        if (trafienie) problemy.push(`${katalog}/${plik}:${i + 1} „${trafienie[0]}”`);
+      });
+    }
+  }
+  assert.deepEqual(problemy, [],
+    'proza opisuje grę zamiast świata — napisz o postaciach, maszynach i wydarzeniach');
+});

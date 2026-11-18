@@ -312,8 +312,8 @@ Oba zespoły wymieniają pochwały: policjanci doceniają siłę Dancougi, a jej
 
 | Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
 |---|---|---|---|
-| **Siła załogi.** Morale i opanowanie nie są przeciwieństwami: Seishiro uczy się łączyć obie postawy. | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozwój Seishira jako dowódcy to wątek gry prowadzony przez kolejne treningi. |
-| **Wzajemne uzupełnianie.** Potężna Dancouga i słabsze Labory mają różne zadania; dobre wsparcie działa w obie strony. | [[super-beast-machine-god-dancouga\|Super Beast Machine God Dancouga]] | cała seria | Załoga Dancougi i jej wojna z Muge stanowią tło OVA; trening na stacji Connect i wspólne ćwiczenia z Laborami należą do fabuły gry. |
-| **Trening bez inwazji.** Drony i hologramy pozwalają przygotować się na Mucus, nie narażając stacji na rzeczywisty atak. | [[srw-oe\|Super Robot Wars OE]] | n/d | Hologramy Mucus i ćwiczenia na stacji to autorskie rozwiązanie gry. |
-| **Przyszła współpraca.** Oddział Dancougi wraca do bazy, a Connect czeka na przybycie nowej formacji Federacji. | [[srw-oe\|Super Robot Wars OE]] | n/d | Zapowiedź nowego przydziału jest zapowiedzią kolejnych misji gry, nie wydarzeniem z serialu. |
+| **Siła załogi.** Morale i opanowanie nie są przeciwieństwami: Seishiro uczy się łączyć obie postawy. | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozwój Seishira jako dowódcy prowadzą kolejne treningi; w OVA nie ma takiego ciągu. |
+| **Wzajemne uzupełnianie.** Potężna Dancouga i słabsze Labory mają różne zadania; dobre wsparcie działa w obie strony. | [[super-beast-machine-god-dancouga\|Super Beast Machine God Dancouga]] | cała seria | Załoga Dancougi i jej wojna z Muge stanowią tło OVA; trening na stacji Connect i wspólne ćwiczenia z Laborami nie mają odpowiednika w OVA. |
+| **Trening bez inwazji.** Drony i hologramy pozwalają przygotować się na Mucus, nie narażając stacji na rzeczywisty atak. | [[srw-oe\|Super Robot Wars OE]] | n/d | Hologramy Mucus i ćwiczenia na stacji nie mają odpowiednika w serialu. |
+| **Przyszła współpraca.** Oddział Dancougi wraca do bazy, a Connect czeka na przybycie nowej formacji Federacji. | [[srw-oe\|Super Robot Wars OE]] | n/d | Nowy przydział jest zapowiedzią dalszych walk, a nie wydarzeniem z serialu. |
 }}

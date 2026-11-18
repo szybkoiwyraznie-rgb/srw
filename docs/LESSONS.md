@@ -312,3 +312,17 @@ Zasady:
   w treści utrwala błąd merytoryczny zamiast przed nim chronić.
 - Test `proza o wydarzeniach gry trzyma się tego, co mówi skrypt` w `test/epizod-y-misja-2a.test.js`
   pilnuje finału walki, braku fałszywej grywalności wrogów i braku spoilerów frakcji.
+- **Zasada, która opisuje samą siebie, jest naruszeniem (ADR 0018 pkt 3).** Wpis dziennika
+  o tym, że „analiza opisuje teraz wydarzenia sceny własnymi słowami” albo że „język warsztatu
+  zniknął z analiz”, mówi o redagowaniu, nie o świecie — nawet jeśli chwali wykonanie zasady.
+  O pracy nad bazą pisze `docs/HISTORIA_WEWNĘTRZNA.md`; dziennik dostaje treść merytoryczną
+  (kto, czym, gdzie, z jakim skutkiem). Strażnicy: `test/dziennik-zmian.test.js` (słowa
+  „analiza”, „komentarz”, „streszczenie”, „scenariusz”, „własnymi słowami”, podmiot „gra …”)
+  oraz nowy test w `test/sceny.test.js` dla prozy scen i epizodów.
+- **Podmiotem zdania w prozie jest świat, nie gra.** „Gra przenosi”, „W grze pluton czeka”,
+  „scenariusz gry pomija” opisują rekord, nie wydarzenie. Naturalne zastępstwa: „tutaj”,
+  „tym razem”, „ta wersja”, „starcie toczy się”, „obaj są sojusznikami”. Wyjątki zostają:
+  „gra polityczna”, „gra w piłkę”, „świat gry” jako nazwa uniwersum w zdaniu o świecie —
+  dlatego testy celują w czasowniki i przyimki („w grze”, „do gry”, „tej gry”), a nie w samo
+  słowo „gra”. Weryfikacja idzie po prozie, nie po tabelach hurtowo: w kolumnie „Różnice”
+  część zdań to legalne porównania z pierwowzorem, więc każdy wiersz kwalifikuje się ręcznie.

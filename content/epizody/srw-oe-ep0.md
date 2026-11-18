@@ -45,16 +45,16 @@ W [[uc-0079|U.C. 0079]] trwa wojna. [[suol|Szef Suol]] wysyła Seishira na pomoc
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
 |---|---|---|---|
 | Wspomnienie dawnych zagrożeń | Prolog [[srw-oe\|Super Robot Wars OE]] | n/d | Wymienia nazwy, ale nie odtwarza konkretnych odcinków anime. |
-| Kryzys jedności politycznej i nieznane energie | Prolog [[srw-oe\|Super Robot Wars OE]] | n/d | Różne kryzysy są częścią wspólnej historii świata gry. |
+| Kryzys jedności politycznej i nieznane energie | Prolog [[srw-oe\|Super Robot Wars OE]] | n/d | Różne kryzysy są częścią wspólnej historii tego świata. |
 | Szkolenie w [[connect-force\|Connect Force]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Walka z symulowanymi przeciwnikami służy nauce sterowania, zaopatrzenia i atakowania. |
-| Wybuch wojny, śmierć połowy ludzkości i pierwszy pilotaż Gundama | *Mobile Suit Gundam* (1979) | odc. 1 „Gundam Rising” | Gra powtarza interludium U.C. 0079 i pokazuje niedoświadczonego [[amuro-ray\|Amura]] za sterami Gundama, po czym łączy ten materiał z kolejnym odcinkiem. |
+| Wybuch wojny, śmierć połowy ludzkości i pierwszy pilotaż Gundama | *Mobile Suit Gundam* (1979) | odc. 1 „Gundam Rising” | Interludium U.C. 0079 wraca tu wraz z niedoświadczonym [[amuro-ray\|Amurem]] za sterami Gundama, a oba odcinki zostają spięte w jedną opowieść. |
 | Ranny kapitan, prowizoryczna załoga i starcie z Charem | *Mobile Suit Gundam* (1979) | odc. 2 „Destroy Gundam” | [[paolo-cassius\|Paolo]] pozostaje na stanowisku, [[bright-noa\|Bright]] wydaje rozkazy, a do walki włącza się [[connect-force\|Connect]], którego w anime nie ma. |
 
 ## Komentarz
 
-Scena pokazuje pracę pilota i operatorki: Seishiro pilotuje Exarta, a Himari prowadzi ćwiczenia i może sterować jednostką zdalnie.
+Tym razem praca pilota i operatorki idzie w parze: Seishiro prowadzi Exarta, a Himari kieruje ćwiczeniami i może przejąć stery jednostki zdalnie.
 
-Druga scena zmienia ton: szkolenie ustępuje miejsca wojnie, a neutralna organizacja musi wybrać między zasadą a ochroną cywilów. Walka nie kończy się rozstrzygnięciem — obie strony zachowują siły, a Char rezygnuje z pościgu. Epizod łączy w ten sposób prolog gry z wydarzeniami *Mobile Suit Gundam*, zachowując własny punkt widzenia Connect.
+Druga scena zmienia ton: szkolenie ustępuje miejsca wojnie, a neutralna organizacja musi wybrać między zasadą a ochroną cywilów. Walka nie kończy się rozstrzygnięciem — obie strony zachowują siły, a Char rezygnuje z pościgu. Epizod łączy w ten sposób prolog z wydarzeniami *Mobile Suit Gundam*, zachowując własny punkt widzenia Connect.
 }}
 {{zrodlo gra=srw-oe
 
@@ -75,7 +75,7 @@ Druga scena zmienia ton: szkolenie ustępuje miejsca wojnie, a neutralna organiz
 - **Devil Gundam Incident** to wydarzenie z *Mobile Fighter G Gundam*, w którym eksperymentalny Devil Gundam (pierwotnie Ultimate Gundam)
   wymknął się spod kontroli ([en.wikipedia.org, *Mobile Fighter G Gundam*](https://en.wikipedia.org/wiki/Mobile_Fighter_G_Gundam); sprawdzono 2026-10-25).
   Patrz [[devil-gundam-incident|hasło]] i rozbieżność niżej.
-- **Connect Force** jest oryginalną jednostką tej gry, a nie nawiązaniem do innej serii
+- **Connect Force** jest oryginalną jednostką tej opowieści, a nie nawiązaniem do innej serii
   ([TV Tropes, *Characters in Super Robot Wars OE*](https://tvtropes.org/pmwiki/pmwiki.php/Characters/SuperRobotWarsOE); sprawdzono 2026-10-25).
 }}
 {{wiedza gra=srw-oe

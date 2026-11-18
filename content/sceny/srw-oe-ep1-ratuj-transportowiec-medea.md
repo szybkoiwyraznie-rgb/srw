@@ -143,9 +143,9 @@ Karen dopiero po walce dowiaduje się, że Medea nie wiozła części zamiennych
 
 Wydarzenia z tej sceny nie przenoszą konkretnego odcinka — obrona klucza Medei i dalszy lot do Jaburo należą do rozgrywkowego wątku gry. Bohaterowie oraz maszyny pochodzą natomiast z **[[mobile-suit-gundam-08th-ms-team|Mobile Suit Gundam: The 08th MS Team]]**, serialu o naziemnym oddziale Federacji walczącym w czasie Wojny Jednorocznej ([Wikipedia, „Mobile Suit Gundam: The 08th MS Team”](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-24).
 
-[[medea|Medea]] jest znanym z oryginału samolotem transportowym Federacji, wykorzystywanym do przewozu zaopatrzenia i mobile suitów. Jej ograniczone uzbrojenie obronne to karabiny przeciwlotnicze; gra zachowuje to lekkie uzbrojenie, ale sama przedstawiona tutaj akcja ratunkowa nie jest przypisana żadnemu odcinkowi ([Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24).
+[[medea|Medea]] jest znanym z oryginału samolotem transportowym Federacji, wykorzystywanym do przewozu zaopatrzenia i mobile suitów. Jej ograniczone uzbrojenie obronne to karabiny przeciwlotnicze; lekkie uzbrojenie zostaje zachowane, ale sama przedstawiona tutaj akcja ratunkowa nie jest przypisana żadnemu odcinkowi ([Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24).
 
-Gra ponownie zamienia funkcje załogi wozu wsparcia: głównym pilotem jest [[michel-ninorich|Michel]], a [[eledore-massis|Eledore]] pełni rolę wspierającą. W anime to Eledore prowadzi wóz, natomiast Michel nawiguje i obsługuje działko (Wikipedia, „Mobile Suit Gundam: The 08th MS Team”, tamże).
+Funkcje załogi wozu wsparcia są tu znowu zamienione: głównym pilotem jest [[michel-ninorich|Michel]], a [[eledore-massis|Eledore]] pełni rolę wspierającą. W anime to Eledore prowadzi wóz, natomiast Michel nawiguje i obsługuje działko (Wikipedia, „Mobile Suit Gundam: The 08th MS Team”, tamże).
 }}
 
 {{skrypt gra=srw-oe

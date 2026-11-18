@@ -8,11 +8,6 @@
 - **Dezerterzy, którzy nie mieli dokąd pójść** — po walce [[seishiro|Seishiro]] pyta, dlaczego w bazie było tylu byłych żołnierzy [[zeon|Zeonu]]; [[terry-sanders-jr|Sanders]] i [[michel-ninorich|Michel]] tłumaczą, że po dezercji zostaje niewola u [[earth-federation|Federacji]] albo sąd w ojczyźnie, a [[alan-igor|Alan]] i [[ryo-shiba|Ryo]] wskazują na syndykat, który daje piratom pracę i nie pozwala odejść.
 - **[[himari-yaegaki|Himari]] nad notatkami o bramach warp** — zamiast iść na posiłek, podpilotka [[exart|Exarta]] zostaje przy nauce o [[stacja-mars|Stacji Mars]], korzystając z szerszego dostępu do danych, jaki daje jej miejsce w kokpicie.
 
-## 2026-11-17 21:39
-
-- **[[srw-oe-ep3-zielony-najezdzca|Analiza „Zielonego najeźdźcy” opowiada o świecie]]** — trzynaście części analizy opisuje teraz wydarzenia sceny własnymi słowami: pierwsze zetknięcie [[shigeo-shiba|Shigego]] i [[seitaro-sakaki|Sakakiego]] z kolonią, odprawę [[seishiro|Seishira]] na [[white-base|White Base]], samotność [[sergeant-keroro|Keroro]] w obcym mieście, zabezpieczanie bezzałogowych [[labor|Laborów]], rezonans, który je budzi, przybycie [[amuro-ray|Amura]] i [[kai-shiden|Kaia]], powściągliwość walki w zabudowie oraz śledztwo kończące się nowym programem ochronnym.
-- **Język warsztatu zniknął z analiz scen** — w analizach i wątkach pozostałych scen nie ma już zwrotów o graczu, dialogach ani scenariuszu; mowa jest o postaciach, maszynach i zdarzeniach.
-
 ## 2026-11-17 20:57
 
 - **Drużyna Danketsu i Ganba u [[eldran|Eldrana]]** — [[kanzen-shouri-daiteioh|*Kanzen Shouri Daiteioh*]] opowiada o czwórce uczniów klasy 5-3 ze Szkoły Podstawowej Gokuraku, którzy dostają od Eldrana [[daiteioh|Daiteioha]] i [[perfect-daiteioh|Perfect Daiteioha]]: główne stery obejmuje [[taro-omomo|Taro Omomo]], a [[mai-ozora|Mai Ozora]], [[kakeru-daichi|Kakeru Daichi]] i [[hiryu-tsukishiro|Hiryu Tsukishiro]] wspierają go w walce. Własną trójkę pilotów ma też [[genki-bakuhatsu-ganbaruger|*Genki Bakuhatsu Ganbaruger*]] — [[kotaro-kirigakure|Kotaro Kirigakure]] prowadzi [[ganbaruger|Ganbarugera]] i [[great-ganbaruger|Great Ganbarugera]], a [[yosuke-kazamatsuri|Yosuke Kazamatsuri]] i [[rikiya-ryuzaki|Rikiya Ryuzaki]] latają z nim jako podpiloci.
@@ -24,7 +19,7 @@
 
 ## 2026-11-17 20:32
 
-- **[[sergeant-keroro|Keroro]] w [[universal-century|Universal Century]]** — przybysz z planety Keron dowodzi plutonem, który miał podbić Pekopon, a zamiast tego oddaje się składaniu modeli Gundamów, na które wydaje wojskowy budżet; w grze jego rezonansowy głos budzi szalejące [[labor|Labory]], a on sam rozpoznaje maszyny pierwszej serii i zostaje na okręcie [[white-base|White Base]].
+- **[[sergeant-keroro|Keroro]] w [[universal-century|Universal Century]]** — przybysz z planety Keron dowodzi plutonem, który miał podbić Pekopon, a zamiast tego oddaje się składaniu modeli Gundamów, na które wydaje wojskowy budżet; tam jego rezonansowy głos budzi szalejące [[labor|Labory]], a on sam rozpoznaje maszyny pierwszej serii i zostaje na okręcie [[white-base|White Base]].
 - **Rywalizacja [[gihren-zabi|Gihrena]] i [[kycilia-zabi|Kycilii]]** — rodzeństwo Zabi rozstrzyga w sztabie [[zeon|Zeonu]] losy operacji na [[wyspy-kurylskie|Wyspach Kurylskich]]: brat uznaje zniszczenie placówki za zwycięstwo strategiczne, a siostra prosi o karę za samowolny ruch dowódcy i przyjmuje pełnomocnictwo do rozmów o użyczeniu sił, które mają zbliżyć [[connect-force|Connect]] do Zeonu.
 
 ## 2026-11-17 19:52
@@ -310,7 +305,7 @@
 
 ## 2026-11-09 13:58
 
-- Parada cesarza [[lelouch-vi-britannia|Leloucha]], na której [[zero|Zero]] odbiera mu życie, to w pierwowzorze finał planu Zero Requiem — dwudziesty piąty odcinek „Re;” serialu *Code Geass: Lelouch of the Rebellion R2* i finał filmu [[code-geass-lelouch-of-the-rebellion-iii-glorification|III Glorification]]; gra pokazuje ją z balkonu [[echika-y-franburnett|Echiki]].
+- Parada cesarza [[lelouch-vi-britannia|Leloucha]], na której [[zero|Zero]] odbiera mu życie, to w pierwowzorze finał planu Zero Requiem — dwudziesty piąty odcinek „Re;” serialu *Code Geass: Lelouch of the Rebellion R2* i finał filmu [[code-geass-lelouch-of-the-rebellion-iii-glorification|III Glorification]]; na paradzie patrzy na nią z balkonu [[echika-y-franburnett|Echika]].
 
 ## 2026-11-09 13:45
 
@@ -364,8 +359,8 @@
 - W pierwowzorze [[13-samodzielny-oddzial|13. Samodzielny Oddział]] to flota złożona z jednego okrętu, a jej zadaniem jest być widoczną. Sława [[white-base|White Base]] ma ściągnąć uwagę [[zeon|Księstwa]] i odciągnąć ją od szykowanego szturmu na Solomon.
 - [[universal-century|Universal Century]]: rachuba zaczyna się, gdy Ziemię zamieszkuje ponad dziewięć miliardów ludzi i rusza zasiedlanie kolonii, a pół wieku później w kosmosie żyje dziewięć z jedenastu miliardów. Stąd biorą się idee, które doprowadzą do wojny — żądanie samodzielności kolonii i przekonanie, że ludzkość powinna zejść Ziemi z drogi.
 - Kapitan [[white-base|White Base]] [[paolo-cassius|Paolo Cassius]] odniósł rany podczas ataku [[char-aznable|Chara]] na [[side-7|Side 7]]; z łóżka wymógł jeszcze na komendancie [[luna-ii|Luny II]], by pozwolił załodze walczyć, a umarł w drodze ku Ziemi — i tak dowodzenie przeszło na [[bright-noa|Brighta Nou]].
-- W pierwowzorze [[alan-igor|Alan Igor]] jest Czarnym Rycerzem, który sprzeciwia się ojcu, [[komendant-igor|generałowi Rossowi Igorowi]], i zbiera własny elitarny korpus zamiast latać z [[cyber-beast-force|Cyber Beast Force]]. Jego maszyna, zbudowana poza warsztatem profesora Hazukiego, nie ma bariery otwieranej gniewem. W grze obaj Igorowie są sojusznikami, a Alan ręczy za zespół przed gospodarzami ćwiczeń.
-- [[hss|HSS]] okazuje się fasadą [[shaft-enterprises|Schafta]]. W pierwowzorze ta sama firma ochroniarska wystawia przeciw [[sily-samoobrony-japonii|Siłom Samoobrony]] Labora przerobionego z zakładowego prototypu, a [[kurosaki|Kurosaki]] zjawia się przy tym jako jej negocjator — co daje mu alibi na czas prób czarnego Labora. W grze układ się powtarza: HSS pilnuje poligonu, na którym giną wojskowe maszyny.
+- W pierwowzorze [[alan-igor|Alan Igor]] jest Czarnym Rycerzem, który sprzeciwia się ojcu, [[komendant-igor|generałowi Rossowi Igorowi]], i zbiera własny elitarny korpus zamiast latać z [[cyber-beast-force|Cyber Beast Force]]. Jego maszyna, zbudowana poza warsztatem profesora Hazukiego, nie ma bariery otwieranej gniewem. Tutaj obaj Igorowie są sojusznikami, a Alan ręczy za zespół przed gospodarzami ćwiczeń.
+- [[hss|HSS]] okazuje się fasadą [[shaft-enterprises|Schafta]]. W pierwowzorze ta sama firma ochroniarska wystawia przeciw [[sily-samoobrony-japonii|Siłom Samoobrony]] Labora przerobionego z zakładowego prototypu, a [[kurosaki|Kurosaki]] zjawia się przy tym jako jej negocjator — co daje mu alibi na czas prób czarnego Labora. Układ się tu powtarza: HSS pilnuje poligonu, na którym giną wojskowe maszyny.
 - Obserwatorzy walki Ingramów w [[srw-oe-ep1-szalejacy-labor-powraca|„Szalejącym Labor powraca”]] — [[utsumi|Utsumi]], [[badrinath-harchand|Bud]] i [[kurosaki|Kurosaki]] — komentują starcie.
 - W 28. odcinku *Patlabora* [[utsumi|Utsumi]] i [[badrinath-harchand|Bud]] poznają [[noa-izumi|Noę]] i [[asuma-shinohara|Asumę]] w salonie gier; [[kurosaki|Kurosaki]] pojawił się osiem odcinków wcześniej.
 - [[shaft-enterprises|Schaft]] rzadko działa pod własnym szyldem: raz podstawia firmę, która wypożycza policji prototyp, raz ochroniarzy pilnujących poligonu, a za każdym razem chodzi o dane o ruchach cudzych maszyn. Projekt [[griffon|Griffona]] idzie dalej i poluje już na dysk ruchu [[ingram-nr-1|Ingrama]] — dlatego starcie na poligonie [[utsumi|Utsumi]] przerywa wtedy, gdy ma dość pomiarów, a nie gdy przegrywa.
@@ -405,7 +400,7 @@
 ## 2026-11-02 13:14
 
 - 40 mm działko to standardowe uzbrojenie [[brocken|Brockena]] Type-7B; maszyny ochrony Schaft Enterprises Japan nosiły je, zanim obiekty przejęła [[hss|HSS]].
-- Działko [[brocken-dzialko-automatyczne|Brockena z działkiem automatycznym]] jest standardowym uzbrojeniem załogowego Type-7B, a bezzałogowy wariant z [[control-ai|Control AI]] należy do gry.
+- Działko [[brocken-dzialko-automatyczne|Brockena z działkiem automatycznym]] jest standardowym uzbrojeniem załogowego Type-7B, a bezzałogowy wariant z [[control-ai|Control AI]] powstał na potrzeby tej opowieści.
 
 ## 2026-11-02 12:52
 
@@ -488,7 +483,7 @@
 
 ## 2026-10-24 22:50
 
-- [[evil-god-drago|Zły Bóg Drago]] z prologu [[srw-oe|Super Robot Wars OE]] to pradawne bóstwo, z którym walczył bóg Agama, i dążenia Imperium Drago pod wodzą cesarzowej Zary w serialu *Jushin Liger*, należącym do zestawienia serii obecnych w grze.
+- [[evil-god-drago|Zły Bóg Drago]] z prologu [[srw-oe|Super Robot Wars OE]] to pradawne bóstwo, z którym walczył bóg Agama, i dążenia Imperium Drago pod wodzą cesarzowej Zary w serialu *Jushin Liger*, należącym do zestawienia serii tej opowieści.
 
 ## 2026-10-24 22:25
 
@@ -507,7 +502,7 @@
 
 ## 2026-10-24 21:48
 
-- Obserwacja walki Ingramów przez [[utsumi|Utsumiego]], [[kurosaki|Kurosakiego]] i [[badrinath-harchand|Buda]] pochodzi z 28. odcinka [[mobile-police-patlabor|*Mobile Police Patlabor*]] („Suspicious Duo”), połączonego w grze z motywem bezzałogowych incydentów z otwarcia [[patlabor-the-movie|*Patlabor: The Movie*]].
+- Obserwacja walki Ingramów przez [[utsumi|Utsumiego]], [[kurosaki|Kurosakiego]] i [[badrinath-harchand|Buda]] pochodzi z 28. odcinka [[mobile-police-patlabor|*Mobile Police Patlabor*]] („Suspicious Duo”), połączonego tu z motywem bezzałogowych incydentów z otwarcia [[patlabor-the-movie|*Patlabor: The Movie*]].
 
 ## 2026-10-24 21:26
 
@@ -778,7 +773,7 @@
 
 ## 2026-10-17 23:55
 
-- Prolog [[srw-oe|Super Robot Wars OE]] nawiązuje do [[mazinger-z|Mazingera Z]] i *Mobile Fighter G Gundam*; chronologia [[devil-gundam-incident|incydentu Devil Gundam]] różni się od przyjętej w grze.
+- Prolog [[srw-oe|Super Robot Wars OE]] nawiązuje do [[mazinger-z|Mazingera Z]] i *Mobile Fighter G Gundam*; chronologia [[devil-gundam-incident|incydentu Devil Gundam]] różni się od przyjętej tu.
 
 ## 2026-10-17 23:28
 

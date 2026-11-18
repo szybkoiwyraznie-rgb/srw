@@ -160,8 +160,8 @@ Na mostku [[seishiro|Seishiro]] nie potrafi zapomnieć, że w bazie było wielu 
 
 | Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
 |---|---|---|---|
-| Mars, brama warp i wyprawa w daleki kosmos | [[srw-oe\|Super Robot Wars OE]] | n/d | [[stacja-mars\|Stacja Mars]] z gigantyczną bramą warp i plan wyprawy poza Układ Słoneczny należą do autorskiego scenariusza gry; żadna z obecnych w bazie serii nie prowadzi załogi w ten rejon. |
-| Piraci zagrażający szlakom handlowym poza Sferą Ziemską | [[srw-oe\|Super Robot Wars OE]] | n/d | Słabnąca obecność [[earth-federation\|Federacji]] na odległych trasach i kryjówka piratów na asteroidzie to założenie misji w grze. |
-| Byli żołnierze [[zeon\|Zeonu]] w załodze piratów | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa [[terry-sanders-jr\|Sandersa]], [[michel-ninorich\|Michela]] i [[alan-igor\|Alana]] o powodach, dla których dezerterzy zostają piratami, oraz wzmianka o syndykacie czerpiącym z nich zyski pochodzą ze scenariusza gry. |
-| [[himari-yaegaki\|Himari]] uczy się o bramach warp i [[stacja-mars\|Stacji Mars]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Szerszy dostęp do bazy danych, który Himari zawdzięcza fotelowi podpilotki [[exart\|Exarta]], jest wątkiem gry i zapowiada dalszą trasę. |
+| Mars, brama warp i wyprawa w daleki kosmos | [[srw-oe\|Super Robot Wars OE]] | n/d | [[stacja-mars\|Stacja Mars]] z gigantyczną bramą warp i plan wyprawy poza Układ Słoneczny nie mają odpowiednika w żadnej z obecnych serii — żadna nie prowadzi załogi w ten rejon. |
+| Piraci zagrażający szlakom handlowym poza Sferą Ziemską | [[srw-oe\|Super Robot Wars OE]] | n/d | Słabą obecność [[earth-federation\|Federacji]] na odległych trasach i kryjówka piratów na asteroidzie widać w tej misji po raz pierwszy. |
+| Byli żołnierze [[zeon\|Zeonu]] w załodze piratów | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa [[terry-sanders-jr\|Sandersa]], [[michel-ninorich\|Michela]] i [[alan-igor\|Alana]] o powodach, dla których dezerterzy zostają piratami, oraz wzmianka o syndykacie czerpiącym z nich zyski nie mają odpowiednika w żadnej z serii. |
+| [[himari-yaegaki\|Himari]] uczy się o bramach warp i [[stacja-mars\|Stacji Mars]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Szerszy dostęp do danych, który Himari zawdzięcza fotelowi podpilotki [[exart\|Exarta]], otwiera dalszą trasę. |
 }}
