@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-18 14:15
+
+- **Dwie postacie [[wing-gundam-zero|Wing Gundama Zero]]** — [[heero-yuy|Heero]] przechodzi od nalotu w [[wing-gundam-zero-nb|formie lotniczej]] do walki u boku [[connect-force|Connect Force]] przeciw [[invader-ground|Invaderom]]; w postaci humanoidalnej jego maszyna korzysta z tarczy, szabli wiązkowej i kilku trybów Twin Buster Rifle.
+- **Siły na Wyspach Kurylskich i pod ziemią** — [[gundam-exia|Gundam Exia]], trzy formy [[shin-getter-1|Shin Gettera]], [[go-saurer|Go-Saurer]] i inne maszyny pokazują zdolności oraz pełne uzbrojenie, a [[setsuna-f-seiei|Setsuna]], [[gihren-zabi|Gihren]] i [[kycilia-zabi|Kycilia]] — swoje umiejętności.
+
 ## 2026-11-18 11:22
 
 - **Dwie sylwetki seryjnego [[gelgoog|Gelgooga]]** — maszyna, którą w kryjówce piratów latają bezimienni [[pilot-ms|piloci MS]]: karabin wiązkowy sięga pięciu pól, a naginata wiązkowa rozstrzyga zwarcie, gdzie tarcza tłumi przyjmowane obrażenia. Obok niej stoi dowódczy [[gelgoog-char|Gelgoog Chara]] o większej sile ognia i z dodatkową szarżą przebijającą.

@@ -37,3 +37,25 @@ W [[getter-robo-armageddon|pierwowzorze]] „metalowe bestie” to najcięższe 
 
 ![Metal Beast (Muszla) — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Metal%20Beast%202.png)
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Seria:** Getter Robo Armageddon
+
+### Macierzyste zdolności maszyny
+
+- **Odtwórz (poziom bazowy 1):** HP co turę+2% EN co turę+2%
+- **Hart (poziom bazowy 1):** Odp.: Odepch./Rzut Obraż.-4%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Macki | 2700 | 1–4 | +25 | 5 | — | Brak w tym polu | **Wyssanie EN (poziom bazowy 1):** Wysysa 10 EN wroga Szansa 20% |
+| 1 | Obrotowy taran/Przebicie | 2000 | 1–8 | +15 | 25 | — | Brak w tym polu | **Taran (bez poziomu):** Atakuje wrogów w Zasięg i wlecze ich; Potem odpycha o 3 pola dalej; Bez dodatk. Obraż. z odepchn., wsparcia i kontry |
+| 2 | Obrotowy taran | 3200 | 1–3 | +35 | 20 | — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia |
+}}

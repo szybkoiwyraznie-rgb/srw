@@ -20,7 +20,7 @@ Prototypowy Gundam [[earth-federation|Federacji Ziemskiej]], przygotowywany w ta
 
 [[christina-mackenzie|Christina Mackenzie]] jest pilotką testową Alexa. Przyznaje [[shiro-amada|Shiro]], że reakcje maszyny są tak szybkie, iż budzą jej obawy przed użyciem w walce. Ostateczne strojenie ma odbyć się na [[side-6|Side 6]], w kolonii [[libot|Libot]].
 
-W tej misji Alex pozostaje w kontenerze transportowym i nie zostaje wystawiony jako jednostka bojowa, dlatego strona nie ma tabeli parametrów ani uzbrojenia.
+Podczas ataku [[pluton-cyclops|plutonu Cyclops]] Alex pozostaje w kontenerze transportowym na pokładzie wahadłowca i nie bierze bezpośredniego udziału w walce.
 
 ## Dane z misji
 

@@ -39,3 +39,25 @@ W [[getter-robo-armageddon|pierwowzorze]] Shin Getter-1 (真ゲッター1, 55 m 
 
 ![Shin Getter-1 — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Shin-Getter%201%202.png)
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Seria:** Getter Robo Armageddon
+
+### Macierzyste zdolności maszyny
+
+- **Transf. (bez poziomu):** Może się transf.; (Shin Getter 2, 3)
+- **Open Get (poziom bazowy 1):** Morale 130 lub więcej Szansa 20%; W walce: po aktyw. pełny unik
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Head Getter Beam | 2400 | 1–4 | +0 | 20 | — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |
+| 2 | Getter Scythe | 3000 | 1–3 | +40 | 5 | — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+| 3 | Getter Beam | 4300 | 1–4 | +15 | 20 | 105 | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+}}

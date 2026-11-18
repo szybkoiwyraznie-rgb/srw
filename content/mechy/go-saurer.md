@@ -38,3 +38,29 @@ W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Go-Saurer (ゴウザウラー, 44,8
 
 ![Go-Saurer — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Go-Saurer%202.png)
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Seria:** Nekketsu Saikyo Go-Saurer
+
+### Macierzyste zdolności maszyny
+
+- **Połączenie (bez poziomu):** Morale 120 lub więcej Pełne HP/EN po połączeniu; Łączy się w inną jedn.; (King Go-Saurer)
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Saurer Bunker | 2000 | 1–1 | +40 | 0 | — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia |
+| 1 | Saurer Cannon | 2400 | 4–5 | +20 | 5 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+| 2 | Saurer Blade | 3200 | 1–2 | +35 | 5 | — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+| 3 | Spin Boomerang | 2700 | 3–5 | +15 | 10 | — | Brak w tym polu | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód |
+| 4 | Saurer Bomber | 3800 | 1–4 | +5 | 20 | 105 | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+| 5 | Saurer Magma Finish | 4900 | 1–1 | +20 | 50 | 115 | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+| 7 | Saurer Big Buster | 4800 | 3–5 | +0 | 40 | 110 | Brak w tym polu | **Namiar (poziom bazowy 1):** Kryt+10%, Kryt Obraż.+20% bez Osłony; (Ignoruje Osłonę) |
+}}

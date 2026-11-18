@@ -33,3 +33,23 @@ W [[getter-robo-armageddon|pierwowzorze]] [[invaderzy|Invaderzy]] (インベー�
 
 ![Invader/Air — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Invader%20-%20lataj%C4%85cy.png)
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Seria:** Getter Robo Armageddon
+
+### Macierzyste zdolności maszyny
+
+- **Odtwórz (poziom bazowy 1):** HP co turę+2% EN co turę+2%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Macki | 1300 | 1–3 | +15 | 5 | — | Brak w tym polu | **Wyssanie EN (poziom bazowy 1):** Wysysa 10 EN wroga Szansa 20% |
+| 1 | Venom | 2000 | 3–5 | +25 | 0 | — | Brak w tym polu | **Spowoln. (poziom bazowy 1):** Obraż.400, 1t: Unik-20% Szansa 30% |
+}}

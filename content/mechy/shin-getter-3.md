@@ -37,3 +37,26 @@ W [[getter-robo-armageddon|pierwowzorze]] Shin Getter-3 (真ゲッター3, 30 m 
 
 ![Shin Getter-3 — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Shin-Getter%203%202.png)
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Seria:** Getter Robo Armageddon
+
+### Macierzyste zdolności maszyny
+
+- **Transf. (bez poziomu):** Może się transf.; (Shin Getter 1, 2)
+- **Niewzrusz. (poziom bazowy 1):** Odp.: Przeb./Odep./Rzut; Obraż.-8%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Getter Homing Missile | 2200 | 3–5 | +20 | 10 | — | Brak w tym polu | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód; **Na ląd (poziom bazowy 1):** Teren "Ląd": Cel+40% Atk x1.3 |
+| 1 | Hammer Punch | 2800 | 1–1 | +35 | 5 | — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia |
+| 2 | Missile Storm | 2400 | 1–5 | +10 | 30 | 110 | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |
+| 3 | Daisetsuzan Oroshi | 4300 | 1–2 | +0 | 50 | 135 | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4 |
+}}

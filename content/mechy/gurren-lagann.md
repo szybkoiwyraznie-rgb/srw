@@ -39,3 +39,28 @@ W [[tengen-toppa-gurren-lagann|pierwowzorze]] Gurren Lagann (グレンラガン)
 
 ![Gurren Lagann — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Gurren%20Lagann%202.png)
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Seria:** Tengen Toppa Gurren Lagann
+
+### Macierzyste zdolności maszyny
+
+- **Drążenie (bez poziomu):** Ruch przez teren i jedn.
+- **Zm. pilota (bez poziomu):** Zmiana głównego pilota
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Walka wręcz | 2600 | 1–1 | +35 | 0 | — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu; **Ogień (poziom bazowy 1):** Dodatk. Obraż.1500 Szansa 30% |
+| 1 | Karabin nadprzewodzący | 2300 | 4–6 | +40 | 15 | — | Brak w tym polu | **Namiar (poziom bazowy 1):** Kryt+10%, Kryt Obraż.+20% bez Osłony; (Ignoruje Osłonę) |
+| 2 | Gurren Boomerang | 3000 | 3–5 | +5 | 5 | — | Brak w tym polu | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód |
+| 3 | Shades Cutter | 3500 | 1–2 | +20 | 10 | — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18% |
+| 4 | Toroidal Burst | 2500 | 1–5 | +0 | 35 | 110 | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry; **Na dużych (poziom bazowy 1):** Na dużych: Atk x1.1 Obr wroga-20%; (więksi od siebie) |
+| 5 | Skull Break | 4300 | 1–1 | +25 | 30 | 105 | Brak w tym polu | **Penetr. barier (poziom bazowy 1):** Obr wroga-20% Ignoruje bariery; **Wstrząs (poziom bazowy 1):** Obraż.600, 1 tura: Obr wroga-20% Szansa 30% |
+}}

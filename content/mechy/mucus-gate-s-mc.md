@@ -31,3 +31,23 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] [[himari-yae
 ![Mucus Gate S MC — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Mucus%20Gate%20S%20MC.png)
 }}
 
+{{menu gra=srw-oe
+
+## Parametry
+
+**Seria:** Super Robot Wars Original
+
+### Macierzyste zdolności maszyny
+
+- **Obiekt stały (bez poziomu):** Odporn.: "Przebicie" " Pchnięcie", " Rzut"; Nie może unikać ataków
+- **Odnowa EN (poziom bazowy 1):** EN co turę+4%
+- **Odtwórz (poziom bazowy 1):** HP co turę+2%; EN co turę+2%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Bez uzbrojenia | 0 | 0–0 | +0 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+}}

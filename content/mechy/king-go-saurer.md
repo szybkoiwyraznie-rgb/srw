@@ -36,3 +36,27 @@ W [[nekketsu-saikyo-go-saurer|pierwowzorze]] King Go-Saurer (キングゴウザ�
 
 ![King Go-Saurer — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/King%20Go-Saurer%202.png)
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Seria:** Nekketsu Saikyo Go-Saurer
+
+### Macierzyste zdolności maszyny
+
+- **Hart (poziom bazowy 1):** Odp.: Odepch./Rzut; Obraż.-4%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | King Bazooka | 2500 | 1–4 | +40 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+| 1 | King Launcher | 3200 | 3–5 | +15 | 10 | — | Brak w tym polu | **Namiar (poziom bazowy 1):** Kryt+10%, Kryt Obraż.+20% bez Osłony; (Ignoruje Osłonę) |
+| 2 | King Blade | 3400 | 1–2 | +35 | 5 | — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu; **Garda (poziom bazowy 1):** Obr+20% |
+| 3 | King Titan | 4100 | 1–4 | +5 | 30 | — | Brak w tym polu | **Ogień (poziom bazowy 1):** Dodatk. Obraż.1500 Szansa 30% |
+| 4 | King Spartan | 3200 | 1–5 | +0 | 50 | — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry |
+| 5 | Saurer King Finish | 6100 | 1–2 | +20 | 60 | 140 | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+}}

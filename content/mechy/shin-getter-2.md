@@ -39,3 +39,26 @@ W [[getter-robo-armageddon|pierwowzorze]] Shin Getter-2 (真ゲッター2, 55 m 
 
 ![Shin Getter-2 — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Shin-Getter%202%202.png)
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Seria:** Getter Robo Armageddon
+
+### Macierzyste zdolności maszyny
+
+- **Transf. (bez poziomu):** Może się transf.; (Shin Getter 1, 3)
+- **Drążenie (bez poziomu):** Ruch przez teren i jedn.
+- **Shin G-Vision (poziom bazowy 1):** Morale 130 lub więcej Szansa 28%; W walce: po aktyw. pełny unik
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Drill Missile | 2100 | 1–4 | +25 | 5 | — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu; **Ucieczka (poziom bazowy 1):** Unik+18% |
+| 1 | Drill Hurricane | 3200 | 1–8 | +10 | 30 | 105 | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej; Bez kontry; Nie do wsparcia ani kontry |
+| 2 | Plasma Drill Hurricane | 4200 | 1–3 | +0 | 40 | 120 | Brak w tym polu | **Penetracja (poziom bazowy 1):** Obr-30%; **Ogłuszenie (poziom bazowy 1):** Bez kontry, +Obraż.500 Szansa 30% |
+}}

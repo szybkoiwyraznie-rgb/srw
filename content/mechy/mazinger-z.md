@@ -39,3 +39,26 @@ W [[mazinger-edition-z-the-impact|pierwowzorze]] Mazinger Z (マジンガーZ) j
 
 ![Mazinger Z — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Mazinger%20Z%202.png)
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Seria:** Mazinger Edition Z: The Impact!
+
+### Macierzyste zdolności maszyny
+
+- **Odnowa EN (poziom bazowy 1):** EN co turę+4%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Walka wręcz | 2400 | 1–1 | +40 | 0 | — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia; **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+| 1 | Rocket Punch | 3100 | 1–5 | +20 | 5 | — | Brak w tym polu | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód |
+| 2 | Rust Hurricane | 3200 | 1–4 | +5 | 20 | — | Brak w tym polu | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4 |
+| 3 | Breast Fire | 4300 | 1–2 | +15 | 30 | 105 | Brak w tym polu | **Ogień (poziom bazowy 1):** Dodatk. Obraż.1500 Szansa 30% |
+| 5 | Photon Beam | 5000 | 3–5 | +10 | 50 | 130 | Brak w tym polu | **Namiar (poziom bazowy 1):** Kryt+10%, Kryt Obraż.+20% bez Osłony; (Ignoruje Osłonę) |
+}}

@@ -9,6 +9,7 @@ mechy: [go-saurer, king-go-saurer]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer
+  - https://srw.wiki.cre.jp/wiki/%E7%AB%8B%E8%8A%B1%E6%B5%A9%E7%BE%8E
 tagi: [eldran, wsparcie, saurersi]
 utworzono: 2026-10-27
 ---
@@ -23,7 +24,7 @@ Po bitwie, gdy [[kamina|Kamina]] prosi, by ktoś pokazał okolicę, odpowiada: �
 
 ## Postać w oryginale
 
-W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Hiromi Tachibana (立花 浩美) to szóstoklasista pilotujący naziemnego Land Stego, który po połączeniu tworzy korpus [[go-saurer|Go-Saurera]]. W wolnym czasie rysuje własną mangę i dobrze gotuje, a wychowuje go roztargniona matka lekarka Sayoko Tachibana ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); sprawdzono 2026-10-27).
+W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Hiromi Tachibana (立花 浩美) to szóstoklasista pilotujący naziemnego Land Stego, który po połączeniu tworzy korpus [[go-saurer|Go-Saurera]]. W wolnym czasie rysuje własną mangę i dobrze gotuje, a wychowuje go roztargniona matka lekarka Sayoko Tachibana ([Wikipedia, *Nekketsu Saikyō Go-Saurer*](https://en.wikipedia.org/wiki/Nekketsu_Saiky%C5%8D_Go-Saurer); [SRW Wiki, „立花浩美”](https://srw.wiki.cre.jp/wiki/%E7%AB%8B%E8%8A%B1%E6%B5%A9%E7%BE%8E); sprawdzono 2026-11-18).
 }}
 
 {{menu gra=srw-oe

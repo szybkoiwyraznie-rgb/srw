@@ -52,3 +52,44 @@ test('nie ma strony generycznej dla rodziny maszyn', () => {
     assert.ok(mechy.some((m) => m.slug === slug), `${slug}: strona wersji z dostawy`);
   }
 });
+
+test('bojowe maszyny OE pokazują uzbrojenie w parametrach po ilustracjach', () => {
+  for (const mech of mechy.filter((m) => m.w_gre?.['srw-oe'])) {
+    const wpis = JSON.parse(mech.w_gre['srw-oe']);
+    if (!wpis.dane?.includes('| Miejsce')) continue;
+    const galeria = mech.body.indexOf('## Ilustracje');
+    const parametry = mech.body.indexOf('## Parametry');
+    assert.ok(parametry >= 0 && (galeria < 0 || parametry > galeria), `${mech.slug}: parametry po ilustracjach, jeśli są dostępne`);
+    const sekcja = mech.body.slice(parametry);
+    for (const nazwa of [...wpis.dane.matchAll(/^\|\s*\d+\s*\|\s*([^|]+?)\s*\|/gm)].map((m) => m[1].trim())) {
+      assert.ok(sekcja.includes(nazwa), `${mech.slug}: brak ${nazwa}`);
+    }
+    if (wpis.dane.includes('Zdolności — opisy bazowe')) {
+      assert.match(sekcja, /Warunek\s*\|\s*Zdolności — opisy bazowe/);
+    }
+    assert.doesNotMatch(mech.body, /^## Uzbrojenie$/m, `${mech.slug}: uzbrojenie poza parametrami`);
+  }
+});
+
+test('Wing Zero i jego forma NB mają odrębne profile z właściwych dostaw', () => {
+  const zero = mechy.find((m) => m.slug === 'wing-gundam-zero');
+  const nb = mechy.find((m) => m.slug === 'wing-gundam-zero-nb');
+  const profil = JSON.parse(zero.w_gre['srw-oe']);
+  assert.equal(profil.profil, 'Wing Zero (Wing Gundam Zero)');
+  assert.equal(profil.dostawa, 'dostawy/srw-oe/dostawa_3_2.txt');
+  assert.match(zero.body, /Rolling Buster Rifle/);
+  assert.match(zero.body, /Twin Buster Rifle \(maks\. moc\)/);
+  assert.match(nb.body, /Skrzydłowe działko Vulcan/);
+  assert.doesNotMatch(nb.body.slice(nb.body.indexOf('## Parametry')), /Rolling Buster Rifle/);
+});
+
+test('nowe profile pilotów i nazwy skrócone są widoczne po ilustracjach', () => {
+  const wymagane = new Map([['heero-yuy', 'Heero'], ['setsuna-f-seiei', 'Setsuna'], ['gihren-zabi', 'Gihren'], ['kycilia-zabi', 'Kycilia'], ['asuka-tsukishiro', 'Asuka'], ['garma-zabi', 'Garma']]);
+  for (const [slug, nazwa] of wymagane) {
+    const p = pages.find((s) => s.slug === slug && s.typ === 'postac');
+    const il = p.body.indexOf('## Ilustracje');
+    const par = p.body.indexOf('## Parametry');
+    assert.ok(il >= 0 && par > il, `${slug}: parametry po ilustracjach`);
+    assert.ok(p.body.slice(par).includes(`**Nazwa skrócona:** ${nazwa}`), slug);
+  }
+});
