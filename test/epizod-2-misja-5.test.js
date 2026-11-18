@@ -86,7 +86,8 @@ test('obsada sceny obejmuje załogę White Base, ród Sahalinów i oddział Ramb
   assert.deepEqual(bySlug.get('zanzibar').piloci, ['oficer-zeonu', 'crowley-hamon', 'garma-zabi', 'mquve']);
   assert.deepEqual(bySlug.get('zaku-ii-kai').piloci,
     ['gabriel-ramirez-garcia', 'hardy-steiner', 'cozun-graham', 'zolnierz-zeonu']);
-  assert.deepEqual(bySlug.get('zaku-ii-karabin-maszynowy').piloci, ['slender', 'acous', 'zolnierz-zeonu']);
+  // Dostawa 3-4 dosadziła do maszyny zbiorczego Pilota MS — imienna załoga zostaje na czele.
+  assert.deepEqual(bySlug.get('zaku-ii-karabin-maszynowy').piloci, ['slender', 'acous', 'zolnierz-zeonu', 'pilot-ms']);
   assert.equal(bySlug.get('apsalus-iii').pochodzenie, 'menu');
   assert.equal(bySlug.get('ginias-sahalin').pochodzenie, 'skrypt');
 });

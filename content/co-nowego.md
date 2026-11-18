@@ -1,5 +1,13 @@
 # Co nowego
 
+## 2026-11-18 08:30
+
+- **Kryjówka piratów w asteroidzie** — [[srw-oe-ep3-kryjowka-piratow|„Szturm na kryjówkę piratów”]] prowadzi [[connect-force|Connect Force]] poza Sferę Ziemską, ku [[stacja-mars|Stacji Mars]], skąd gigantyczna brama warp ma otworzyć drogę w daleki kosmos. Po drodze załoga namierza bazę piratów ukrytą w skale, wchodzi do jej portu i staje naprzeciw większej liczby [[mobile-suit|mobile suitów]], niż się spodziewała.
+- **[[gelgoog|Gelgoog]] w rękach bezimiennych pilotów** — seryjna maszyna [[zeon|Zeonu]] trafia do kryjówki obok [[rick-dom|Rick Domów]] i dwóch wersji [[zaku-ii-bazooka|Zaku II]]; w odróżnieniu od dowódczego [[gelgoog-char|Gelgooga Chara]] nosi karabin wiązkowy i naginatę wiązkową, a tarcza zmniejsza przyjmowane obrażenia w zwarciu.
+- **[[pilot-ms|Pilot MS]] jako zbiorowa załoga** — w bazie piratów za sterami siedzą szeregowi żołnierze bez nazwisk: w grupie wspierają się nawzajem, a ich wytrzymałość jest sumą siły całej formacji.
+- **Dezerterzy, którzy nie mieli dokąd pójść** — po walce [[seishiro|Seishiro]] pyta, dlaczego w bazie było tylu byłych żołnierzy [[zeon|Zeonu]]; [[terry-sanders-jr|Sanders]] i [[michel-ninorich|Michel]] tłumaczą, że po dezercji zostaje niewola u [[earth-federation|Federacji]] albo sąd w ojczyźnie, a [[alan-igor|Alan]] i [[ryo-shiba|Ryo]] wskazują na syndykat, który daje piratom pracę i nie pozwala odejść.
+- **[[himari-yaegaki|Himari]] nad notatkami o bramach warp** — zamiast iść na posiłek, podpilotka [[exart|Exarta]] zostaje przy nauce o [[stacja-mars|Stacji Mars]], korzystając z szerszego dostępu do danych, jaki daje jej miejsce w kokpicie.
+
 ## 2026-11-17 21:39
 
 - **[[srw-oe-ep3-zielony-najezdzca|Analiza „Zielonego najeźdźcy” opowiada o świecie]]** — trzynaście części analizy opisuje teraz wydarzenia sceny własnymi słowami: pierwsze zetknięcie [[shigeo-shiba|Shigego]] i [[seitaro-sakaki|Sakakiego]] z kolonią, odprawę [[seishiro|Seishira]] na [[white-base|White Base]], samotność [[sergeant-keroro|Keroro]] w obcym mieście, zabezpieczanie bezzałogowych [[labor|Laborów]], rezonans, który je budzi, przybycie [[amuro-ray|Amura]] i [[kai-shiden|Kaia]], powściągliwość walki w zabudowie oraz śledztwo kończące się nowym programem ochronnym.

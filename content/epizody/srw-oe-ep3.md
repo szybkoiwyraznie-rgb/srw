@@ -5,9 +5,9 @@ tytul: Epizod 3
 gra: srw-oe
 numer: 3
 skrypt: episodes/srw-oe/ep003.md
-postacie: [control-ai, bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, seishiro, himari-yaegaki, go, kei, gai, koji-kabuto, shinobu-fujiwara, sara-yuki, ryo-shiba, masato-shikibu, alan-igor, shiro-amada, noa-izumi, amuro-ray, garma-zabi, char-aznable, mquve, uragan, oficer-zeonu, zolnierz-zeonu, gaia, mash, ortega, setsuna-f-seiei, heero-yuy, sayla-mass, michel-ninorich, isao-ota, kanuka-clancy, asuka-tsukishiro, jin-hyuga, maria-shiratori, kiichi-goto, asuma-shinohara, mikiyasu-shinshi, invader, suol, gihren-zabi, kycilia-zabi, seitaro-sakaki, shigeo-shiba, hiromi-yamazaki, shinohara-hos, sergeant-keroro, kai-shiden]
-mechy: [exart, final-dancouga, mazinger-z, shin-getter-1, white-base, gundam-exia, wing-gundam-zero, dom, gelgoog-char, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, zanzibar, invader-air, invader-ground, metal-beast-muszla, ingram-nr-1, ingram-nr-2, keroro-robo-mk-ii, brocken, brocken-dzialko-automatyczne]
-pojecia: [connect-force, cyber-beast-force, 13-samodzielny-oddzial, black-tri-stars, zeon, earth-federation, mobile-suit, newtype, krzyz-zeonu, uc-0079, sily-samoobrony-japonii, cyber-newtype, sily-kolonii, invaderzy, labor, sv2, minovsky-particles]
+postacie: [control-ai, bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, seishiro, himari-yaegaki, go, kei, gai, koji-kabuto, shinobu-fujiwara, sara-yuki, ryo-shiba, masato-shikibu, alan-igor, shiro-amada, noa-izumi, amuro-ray, garma-zabi, char-aznable, mquve, uragan, oficer-zeonu, zolnierz-zeonu, gaia, mash, ortega, setsuna-f-seiei, heero-yuy, sayla-mass, michel-ninorich, isao-ota, kanuka-clancy, asuka-tsukishiro, jin-hyuga, maria-shiratori, kiichi-goto, asuma-shinohara, mikiyasu-shinshi, invader, suol, gihren-zabi, kycilia-zabi, seitaro-sakaki, shigeo-shiba, hiromi-yamazaki, shinohara-hos, sergeant-keroro, kai-shiden, kamina, simon, terry-sanders-jr, pilot-ms]
+mechy: [exart, final-dancouga, mazinger-z, shin-getter-1, white-base, gundam-exia, wing-gundam-zero, dom, gelgoog, gelgoog-char, rick-dom, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, zanzibar, invader-air, invader-ground, metal-beast-muszla, ingram-nr-1, ingram-nr-2, keroro-robo-mk-ii, brocken, brocken-dzialko-automatyczne]
+pojecia: [connect-force, cyber-beast-force, 13-samodzielny-oddzial, black-tri-stars, zeon, earth-federation, mobile-suit, newtype, krzyz-zeonu, uc-0079, sily-samoobrony-japonii, cyber-newtype, sily-kolonii, invaderzy, labor, sv2, minovsky-particles, stacja-mars]
 serie: [sgt-frog]
 pochodzenie: skrypt
 tagi: [srw-oe, universal-century, connect, zeon, gundam, zimna-wyspa]
@@ -43,6 +43,14 @@ Na mostku [[suol|Szef Suol]] wyjaśnia, że dwa Gundamy należą do sił kolonii
 
 Na kolonii kosmicznej Connect Force i SV2 badają szalejące Labory, w tym przypadki maszyn bez HOS-u. Sierżant Keroro, zagubiony w tym świecie, nieświadomie wywołuje ich szał rezonansem głosu z [[keroro-robo-mk-ii|Keroro Robo Mk-II]]. Seishiro i Himari ratują Keroro, po czym razem odpierają bezzałogowe Labory z pomocą posiłków. Analiza łączy incydenty z niską częstotliwością, którą wykrywają czułe czujniki Laborów z HOS-em; Connect Force postanawia opracować nowy program ochronny, a Keroro dołącza do załogi i zostaje odsunięty od stref pracy Laborów.
 
+### [[srw-oe-ep3-kryjowka-piratow|Misja 4: Szturm na kryjówkę piratów]]
+
+[[connect-force|Connect Force]] opuszcza Sferę Ziemską i leci ku największej bazie Connect w Układzie Słonecznym — [[stacja-mars|Stacji Mars]], skąd gigantyczna brama warp ma otworzyć drogę w daleki kosmos. Po latach wojen międzyplanetarne szlaki handlowe pustoszą piraci, a [[earth-federation|Federacja]] nie sięga tam swoją władzą. Wywiad Connect namierza jedną z ich kryjówek w sektorze leżącym niedaleko kursu [[white-base|White Base]]; [[bright-noa|Bright]] pyta załogę o zdanie i po słowach [[shinobu-fujiwara|Shinobu]] oraz [[isao-ota|Oty]] ogłasza szturm.
+
+Okręt wchodzi do portu wydrążonego w asteroidzie i staje naprzeciw większej liczby [[mobile-suit|mobile suitów]], niż ktokolwiek się spodziewał. W walce załoga przekonuje się, że naprzeciw niej stają nie zwykli przestępcy, lecz ludzie, dla których piractwo jest ostatnim sposobem na przeżycie. Patrol z sąsiedniego sektora przejmuje aresztowania, a [[white-base|White Base]] wraca na kurs.
+
+Na mostku [[seishiro|Seishiro]] pyta, dlaczego w bazie było tak wielu byłych żołnierzy [[zeon|Zeonu]]. [[terry-sanders-jr|Sanders]] i [[michel-ninorich|Michel]] tłumaczą, że po dezercji nie zostaje im nic innego: niewola u Federacji albo ciężkie przestępstwo w ojczyźnie, a [[alan-igor|Alan]] i [[ryo-shiba|Ryo]] wskazują na syndykat, który w zamian za pomoc czerpie z nich zyski i nie pozwala odejść. Zajęta baza zapoczątkowuje szybkie śledztwo w sprawie finansowania piratów, a [[himari-yaegaki|Himari]] zostaje nad notatkami o bramach warp i [[stacja-mars|Stacji Mars]], do których ma teraz szerszy dostęp jako pilotka [[exart|Exarta]].
+
 ## Wątki fabularne
 
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
@@ -65,6 +73,9 @@ Na kolonii kosmicznej Connect Force i SV2 badają szalejące Labory, w tym przyp
 | Keronianin zagubiony w świecie [[universal-century\|Universal Century]] | [[sgt-frog\|Sgt. Frog]] | cała seria | W mandze i serialu pluton Keroro trafia na Ziemię Pekoponu i tam zostaje po nieudanej inwazji; w grze przenosi go nieznane zjawisko prosto do uniwersum Gundama, gdzie rozpoznaje maszyny pierwszej serii. |
 | Gunpla jako hobby Keroro | [[sgt-frog\|Sgt. Frog]] | cała seria | Zamiłowanie do modeli Gundamów jest w pierwowzorze stałym motywem bohatera; w grze służy do przedstawienia go załodze [[white-base\|White Base]] i uzasadnia chęć pozostania na okręcie. |
 | Rezonansowy głos Keroro, incydenty Laborów i poprawka HOS-u | [[srw-oe\|Super Robot Wars OE]] | n/d | Związek głosu Keroro z czułymi czujnikami Laborów, opracowanie zabezpieczenia oraz przyjęcie Keroro do Connect Force wynikają ze scenariusza gry. |
+| Podróż na Marsa przez bramę warp | [[srw-oe\|Super Robot Wars OE]] | n/d | [[stacja-mars\|Stacja Mars]], gigantyczna brama warp i plan wyprawy poza Układ Słoneczny należą do autorskiego scenariusza gry; żadna z obecnych w bazie serii nie prowadzi załogi w ten rejon. |
+| Piraci na międzyplanetarnych szlakach handlowych | [[srw-oe\|Super Robot Wars OE]] | n/d | Słabnąca obecność [[earth-federation\|Federacji]] na odległych trasach i kryjówka piratów wydrążona w asteroidzie to założenie misji w grze. |
+| Byli żołnierze [[zeon\|Zeonu]] wśród piratów | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa [[terry-sanders-jr\|Sandersa]], [[michel-ninorich\|Michela]], [[alan-igor\|Alana]] i [[ryo-shiba\|Ryo]] o powodach, dla których dezerterzy zostają piratami, oraz wzmianka o syndykacie czerpiącym z nich zyski pochodzą ze scenariusza gry. |
 
 ## Komentarz
 
@@ -83,4 +94,12 @@ Starcie z Invaderami zestawia zespoły, które dotąd działały osobno: [[shin-
 Finał przenosi ciężar z pola bitwy na politykę. [[suol|Szef Suol]] przyznaje, że część informacji zatrzymał dla siebie, żeby wykurzyć „czarne owce” z wojska, i zapowiada rozmowy z siłami kolonii; [[gihren-zabi|Gihren]] i [[kycilia-zabi|Kycilia]] oceniają tę samą operację jako zwycięstwo strategiczne. Nikt nie wygrał bitwy, a wszyscy przygotowują następną.
 
 Trzecia misja przenosi drużynę do kolonii i wiąże śledztwo w sprawie szalejących Laborów z przybyciem [[sergeant-keroro|sierżanta Keroro]]. Jego rezonansowy głos uruchamia czujniki, które doprowadzają maszyny do szału; Keroro nie jest wrogiem, lecz kolejnym przybyszem z obcego świata, który po wspólnej walce dołącza do Connect Force. Wątek zamyka się rozwiązaniem technicznym — nowym programem ochronnym dla HOS-u — i lekkim, komediowym tonem kontrastującym z politycznym ciężarem pierwszych dwóch misji.
+
+Czwarta misja wyprowadza opowieść poza Sferę Ziemską i po raz pierwszy stawia załodze cel, który nie jest obroną ani odwetem: dotarcie do bramy warp na [[stacja-mars|Stacji Mars]]. Po drodze trzeba jednak rozstrzygnąć sprawę, która nie dotyczy ani [[zeon|Zeonu]], ani Federacji — piratów z asteroidy. [[bright-noa|Bright]] nie narzuca decyzji, tylko pyta załogę o zdanie, i to ona wybiera szturm, choć lot bez zbaczania z kursu byłby usprawiedliwiony.
+
+Właściwy ciężar misji leży po walce. W zdobytej bazie [[seishiro|Seishiro]] dostrzega, że piratami byli byli żołnierze [[zeon|Zeonu]], i nie potrafi tego zostawić. Wyjaśnienia [[terry-sanders-jr|Sandersa]], [[michel-ninorich|Michela]], [[alan-igor|Alana]] i [[ryo-shiba|Ryo]] nie tworzą usprawiedliwienia, tylko obraz świata, w którym po wojnie zostają ludzie bez miejsca: dla jednych obóz jeniecki, dla innych sąd za dezercję, a dla wszystkich syndykat, który daje pracę i nie pozwala odejść. Załoga wygrywa bitwę i nie potrafi wygrać tej rozmowy.
+
+Ostatnia scena przenosi uwagę na [[himari-yaegaki|Himari]], która zostaje nad notatkami o bramach warp i [[stacja-mars|Stacji Mars]]. Jej szerszy dostęp do danych jest skutkiem miejsca w kokpicie [[exart|Exarta]] — wiedza o następnym etapie podróży przychodzi więc od najmłodszej załogi, a nie od dowództwa. Epizod kończy się zapowiedzią, że sprawa piratów nie zamyka się w bazie na asteroidzie i że śledztwo ruszy dalej bez udziału tych, którzy ją zdobyli.
+
+Do tej misji dołączono osobny wariant tekstu z dodatku. Jest to odmienna wersja tych samych wydarzeń, nie dalszy ciąg: powtarza wyłącznie zmienione fragmenty wraz z bezpośrednim kontekstem, a wspólnych ustępów nie powtarza. Bieg opowieści pozostaje ten sam — kurs na Marsa, baza piratów w asteroidzie, przejęcie aresztowań przez patrol z sąsiedniego sektora i rozmowa na mostku o losach dezerterów [[zeon|Zeonu]].
 }}

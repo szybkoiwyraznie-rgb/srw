@@ -183,6 +183,10 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Keronianin zagubiony w świecie Universal Century',
       'Gunpla jako hobby Keroro',
       'Rezonansowy głos Keroro, incydenty Laborów i poprawka HOS-u',
+      // scena 3-4: Szturm na kryjówkę piratów
+      'Podróż na Marsa przez bramę warp',
+      'Piraci na międzyplanetarnych szlakach handlowych',
+      'Byli żołnierze Zeonu wśród piratów',
     ],
   };
 

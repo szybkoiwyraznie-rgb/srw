@@ -21,7 +21,9 @@ test('dostawa 3-3 jest archiwizowana w całości jako trzecia misja epizodu 3', 
     'c2958e91adf4174caa3b6d275d4e403e2a8ed68902c410613e1edede5d3bbace');
   assert.ok(archive.includes('## Ep. 3-3: Zielony najeźdźca\n'));
   assert.equal(archive.split(script).length - 1, 1, 'pełny skrypt misji znajduje się w archiwum dokładnie raz');
-  assert.ok(archive.endsWith(script + '\n'), 'misja 3-3 kończy archiwum epizodu');
+  assert.ok(archive.includes(script + '\n'), 'misja 3-3 stoi w archiwum epizodu w całości');
+  assert.ok(archive.indexOf(script) < archive.indexOf('## Ep. 3-4:'),
+    'misja 3-3 poprzedza kolejną misję epizodu');
   assert.doesNotMatch(archive, /UCZESTNICY|Entry ID|DL103_20|eventP01/);
 });
 
