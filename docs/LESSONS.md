@@ -315,7 +315,7 @@ Zasady:
 - **Zasada, która opisuje samą siebie, jest naruszeniem (ADR 0018 pkt 3).** Wpis dziennika
   o tym, że „analiza opisuje teraz wydarzenia sceny własnymi słowami” albo że „język warsztatu
   zniknął z analiz”, mówi o redagowaniu, nie o świecie — nawet jeśli chwali wykonanie zasady.
-  O pracy nad bazą pisze `docs/HISTORIA_WEWNĘTRZNA.md`; dziennik dostaje treść merytoryczną
+  O pracy nad bazą pisze `docs/HISTORIA_WEWNETRZNA.md`; dziennik dostaje treść merytoryczną
   (kto, czym, gdzie, z jakim skutkiem). Strażnicy: `test/dziennik-zmian.test.js` (słowa
   „analiza”, „komentarz”, „streszczenie”, „scenariusz”, „własnymi słowami”, podmiot „gra …”)
   oraz nowy test w `test/sceny.test.js` dla prozy scen i epizodów.

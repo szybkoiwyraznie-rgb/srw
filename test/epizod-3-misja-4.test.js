@@ -47,21 +47,25 @@ test('scena 3-4 cytuje cały skrypt dosłownie i wskazuje epizod oraz kolejny nu
   assert.ok(episode.body.includes('[[srw-oe-ep3-kryjowka-piratow|Misja 4: Szturm na kryjówkę piratów]]'));
 });
 
-test('wariant tekstu z dodatku jest odmienną wersją tej samej misji, nie dalszym ciągiem', () => {
+test('pusta stopka wariantu DLC nie wycieka do archiwum ani do prozy witryny (ADR 0018)', () => {
   const wariant = deliveredScript.split('\n\n## Wariant tekstu DLC').at(-1);
   assert.ok(wariant.includes('alternatywny tekst tej samej misji, nie dalszy ciąg wydarzeń'));
-  // Relacja o wariancie stoi w komentarzu epizodu, poza archiwum rozegrania.
-  assert.match(episode.body, /## Komentarz[\s\S]*wariant tekstu z dodatku[\s\S]*nie dalszy ciąg/);
+  // Stopka opisuje strukturę ekstraktu dostawy, nie świat gry — zostaje wyłącznie w dostawie i historii wewnętrznej.
+  assert.doesNotMatch(episode.body, /wariant tekstu z dodatku|Wariant tekstu DLC|wspólnych ustępów/i);
+  assert.doesNotMatch(scene.body, /wariant tekstu z dodatku|Wariant tekstu DLC|wspólnych ustępów/i);
 });
 
-test('obsada misji 3-4 wnosi piratów z byłych żołnierzy Zeonu i bazę Connect na Marsie', () => {
+test('obsada misji 3-4 wnosi piratów z byłych żołnierzy Zeonu, Hiromiego Tachibanę i bazę Connect na Marsie', () => {
   assert.equal(episode.gra, 'srw-oe');
   assert.equal(episode.numer, 3);
-  for (const slug of ['kamina', 'simon', 'terry-sanders-jr', 'pilot-ms']) {
+  for (const slug of ['kamina', 'simon', 'hiromi-tachibana', 'terry-sanders-jr', 'pilot-ms']) {
     assert.ok(episode.postacie.includes(slug), `obsada epizodu: ${slug}`);
     assert.ok(bySlug.has(slug), `strona istnieje: ${slug}`);
     assert.ok(scene.postacie.includes(slug), `obsada sceny: ${slug}`);
   }
+  // Kwestię „Hiromi:” w 3-4 wypowiada Hiromi Tachibana (Go-Saurer), nie Hiromi Yamazaki z SV2.
+  assert.ok(!scene.postacie.includes('hiromi-yamazaki'), 'Yamazaki nie występuje w misji 3-4');
+  assert.ok(episode.serie.includes('nekketsu-saikyo-go-saurer'), 'seria Go-Saurer w epizodzie 3');
   for (const slug of ['gelgoog', 'rick-dom', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']) {
     assert.ok(episode.mechy.includes(slug), `sprzęt epizodu: ${slug}`);
     assert.ok(scene.mechy.includes(slug), `sprzęt sceny: ${slug}`);
@@ -70,5 +74,6 @@ test('obsada misji 3-4 wnosi piratów z byłych żołnierzy Zeonu i bazę Connec
   assert.ok(bySlug.get('pilot-ms').mechy.includes('gelgoog'));
   assert.ok(bySlug.get('stacja-mars'), 'baza Connect w Układzie Słonecznym ma własne hasło');
   assert.ok(scene.pojecia.includes('stacja-mars'));
+  assert.ok(scene.pojecia.includes('earth-federation'));
   assert.ok(episode.pojecia.includes('stacja-mars'));
 });

@@ -72,8 +72,7 @@ test('obsada sceny obejmuje załogę White Base, Chara i flotę Drena', () => {
   }
   // Nowe strony tej dostawy i odwrotne przypisania.
   assert.deepEqual(bySlug.get('musai').piloci, ['dren', 'oficer-zeonu']);
-  // W misji 2-7 Rick Domy dostają imiennych pilotów (Slender i Crown), więc lista rośnie.
-  // Dostawa 3-4 dosadziła do maszyny zbiorczego Pilota MS — imienna załoga zostaje na czele.
+  // W misji 2-7 Rick Domy dostają imiennych pilotów (Slender i Crown), a w 3-4 zbiorczego Pilota MS.
   assert.deepEqual(bySlug.get('rick-dom').piloci, ['zolnierz-zeonu', 'slender', 'crown', 'pilot-ms']);
   assert.deepEqual(bySlug.get('dren').mechy, ['musai']);
   assert.equal(bySlug.get('dren').rola, 'dowodztwo');

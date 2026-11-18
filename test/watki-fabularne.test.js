@@ -146,7 +146,7 @@ test('wiersze idą w kolejności scen epizodu', () => {
       // scena 2-4: bitwa o Jaburo
       'Desant Zeonu na Jaburo i obrona bram portu kosmicznego',
       'Współdziałanie załogi White Base z 08. Plutonem MS',
-      'Pojedynek słowny z Charim i rozpoznanie asa',
+      'Pojedynek słowny z Charem i rozpoznanie asa',
       // scena 2-5: szturm Apsalusa
       'Finał projektu Apsalusa i atak na Jaburo',
       'Oddział Ramby Rala u boku rodu Sahalinów',
@@ -187,6 +187,17 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Podróż na Marsa przez bramę warp',
       'Piraci na międzyplanetarnych szlakach handlowych',
       'Byli żołnierze Zeonu wśród piratów',
+    ],
+    'srw-y-ep1': [
+      // scena 1-1C: Kwiaty, ninja i urodziny
+      'Wojna rewolucyjna i nowy porządek Ziemi',
+      'Parada cesarza Leloucha i zamach Zero',
+      'Atak VAL-X na miasto Yagami',
+      'Dziedzictwo A. Adventu',
+      // scena 1-2A: Przebudzenie niebiańskiego demona
+      'Getter Arc i zestrzelony Getter D2',
+      'Trzy gwarancje Echiki',
+      'Mieszkańcy z *Dynazenona* w mieście Yagami',
     ],
   };
 

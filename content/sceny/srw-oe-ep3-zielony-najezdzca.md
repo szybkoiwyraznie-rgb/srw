@@ -6,8 +6,8 @@ epizod: srw-oe-ep3
 numer_sceny: "3-3"
 streszczenie: "Na kolonii kosmicznej Connect Force bada kolejne przypadki szalejących Laborów. Sierżant Keroro, zagubiony w obcym świecie, nieświadomie wywołuje ich szał rezonansowym głosem z Keroro Robo Mk-II; po wspólnej walce zostaje przyjęty do Connect Force, a przyczyna incydentów prowadzi do nowego programu ochronnego dla HOS-u."
 postacie: [control-ai, seishiro, himari-yaegaki, seitaro-sakaki, shigeo-shiba, kiichi-goto, asuma-shinohara, noa-izumi, isao-ota, kanuka-clancy, mikiyasu-shinshi, hiromi-yamazaki, shinohara-hos, sergeant-keroro, amuro-ray, kai-shiden]
-mechy: [white-base, exart, ingram-nr-1, ingram-nr-2, keroro-robo-mk-ii, brocken, brocken-dzialko-automatyczne]
-pojecia: [connect-force, labor, sv2, minovsky-particles, mobile-suit]
+mechy: [white-base, exart, ingram-nr-1, ingram-nr-2, keroro-robo-mk-ii, rx-78-2-gundam, guncannon, brocken, brocken-dzialko-automatyczne]
+pojecia: [connect-force, labor, sv2, minovsky-particles, mobile-suit, universal-century]
 pochodzenie: skrypt
 sekcje_analizy:
   - "Przybycie na kolonię → Zbliżenie do kolonii kosmicznej"
@@ -292,11 +292,11 @@ Firma ochroniarska prosi o ostrożne przejęcie bezzałogowych Laborów z sektor
 
 Osamotniony Keroro woła oddział własnym głosem — rezonansem, który w jego plutonie podnosi morale. [[himari-yaegaki|Himari]] pierwsza słyszy falę, której nie ma w żadnych zapisach, a czujniki [[exart|Exarta]] pokazują odczyty poza skalą. W tym samym momencie wszystkie Labory w sektorze szaleją. [[kanuka-clancy|Kanuka]] wiąże szał z dźwiękiem, [[hiromi-yamazaki|Yamazaki]] wątpi, by miał on coś wspólnego z wcześniejszymi wypadkami, ale Ota postanawia aresztować pilota jako sprawcę. Nim zapada decyzja, oszalałe maszyny atakują Keroro — i wtedy [[seishiro|Seishiro]] rusza na ratunek.
 
-Pilotowana przez Keronianina maszyna wychodzi z opresji lepiej niż ona sama: [[keroro-robo-mk-ii|Keroro Robo Mk-II]] rozbija Labora strzałem z karabinu wiązkowego, czym zaskakuje policjantów przyzwyczajonych do policyjnych Laborów. Seishiro podlatuje i nawiązuje kontakt; Keroro przedstawia się i mówi, że wyrzuciło go tu nieznane zjawisko z Pekoponu. Zamiast odesłać nieznajomego do zarządu kolonii, Seishiro wierzy mu i proponuje wspólne przebicie się przez szalejące maszyny.
+Nieznana maszyna radzi sobie z napastnikami bez trudu: [[keroro-robo-mk-ii|Keroro Robo Mk-II]] rozbija Labora jednym strzałem z karabinu wiązkowego, czym zaskakuje [[noa-izumi|Noę]], [[seishiro|Seishira]] i [[himari-yaegaki|Himari]], bo wcale nie wygląda na [[mobile-suit|mobile suita]]. Seishiro podlatuje i nawiązuje kontakt; Keroro przedstawia się i mówi, że nieznane zjawisko wyrzuciło go tu z Pekoponu. Seishiro od razu mu wierzy i proponuje wspólne przebicie się przez szalejące maszyny.
 
 ### Posiłki nad sektorem
 
-[[himari-yaegaki|Himari]] melduje przybycie wsparcia, a [[seishiro|Seishiro]] od razu wyznacza zadanie: Labory trzeba zatrzymać w samym sektorze, żeby nie rozeszły się po całej kolonii. Do walki wchodzą [[amuro-ray|Amuro]] w [[rx-78-2-gundam|RX-78-2]] i [[kai-shiden|Kai]] w [[guncannon|Guncannonie]], a [[white-base|White Base]] zostaje punktem dowodzenia i schronieniem dla cywilów z zagrożonej części kolonii.
+Gdy wokół ruszają kolejne oszalałe maszyny, [[himari-yaegaki|Himari]] melduje nadejście wsparcia z [[connect-force|Connect Force]]. [[seishiro|Seishiro]] wyznacza cel: odciąć sektor i zatrzymać w nim wszystkie Labory, zanim rozbiegną się po dalszej części kolonii.
 
 ### Gundam w oczach Keronianina
 
@@ -312,7 +312,7 @@ Po zakończeniu starcia [[himari-yaegaki|Himari]] prosi o powtórzenie dźwięku
 
 ### Powściągliwość wewnątrz kolonii
 
-Walka w zabudowie mieszkalnej zmusza wszystkich do hamowania siły. [[noa-izumi|Noa]] i [[asuma-shinohara|Asuma]] przejmują Labory bez rozbijania ich, [[isao-ota|Ota]] narzeka, że nie może użyć amunicji wybuchowej „hurtem”, a [[mikiyasu-shinshi|Shinshi]] błaga, żeby tego nie robił. Himari boi się, że jedno chybione trafienie uszkodzi płaszcz kolonii, więc Seishiro każe jej zachować spokój i celować pewnie. [[amuro-ray|Amuro]] liczy ruchy bezzałogowych maszyn, a [[kai-shiden|Kai]] próbuje schwytać je żywcem, bez rysy na [[guncannon|Guncannonie]].
+Walka w zabudowie mieszkalnej zmusza wszystkich do ostrożności. [[noa-izumi|Noa]] i [[asuma-shinohara|Asuma]] chcą pokazać, że z oszalałymi Laborami poradzą sobie w kosmosie tak samo jak na Ziemi, [[isao-ota|Ota]] narzeka, że nie może użyć eksperymentalnej amunicji wybuchowej i załatwić ich hurtem, a [[mikiyasu-shinshi|Shinshi]] błaga, żeby tego nie robił. Himari boi się, że jedno chybione trafienie uszkodzi płaszcz kolonii, więc Seishiro każe jej zachować spokój i celować pewnie. [[amuro-ray|Amuro]] zdaje się na komputer pokładowy przewidujący ruchy bezzałogowych maszyn, a [[kai-shiden|Kai]] nie traci zapału, choć schwytać Labora żywcem i bez rysy [[guncannon|Guncannonem]] to karkołomne zadanie.
 
 ### Ostatnia maszyna unieruchomiona
 

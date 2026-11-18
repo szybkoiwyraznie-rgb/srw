@@ -11,7 +11,7 @@ utworzono: 2026-11-18
 ---
 {{menu gra=srw-oe
 
-Bezimienni piloci [[mobile-suit|mobile suitów]], którymi w kryjówce piratów latają [[gelgoog|Gelgoog]], [[rick-dom|Rick Dom]] oraz dwie wersje [[zaku-ii-bazooka|Zaku II]]. Nie noszą nazwisk ani barw żadnej armii: to byli żołnierze [[zeon|Zeonu]], którzy po wojnie znaleźli schronienie w bazie na asteroidzie i utrzymują się z napadów na szlaki handlowe.
+Bezimienni piloci [[mobile-suit|mobile suitów]] broniący kryjówki piratów na asteroidzie w [[srw-oe-ep3-kryjowka-piratow|scenie „Szturm na kryjówkę piratów”]]: prowadzą tam [[gelgoog|Gelgoogi]], [[rick-dom|Rick Domy]], [[zaku-ii-bazooka|Zaku II z bazooką]] oraz [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]]. Nie noszą nazwisk ani barw żadnej armii — wśród nich jest wielu dawnych żołnierzy [[zeon|Zeonu]], dezerterów i maruderów, którzy z obawy przed obozem jenieckim [[earth-federation|Federacji]] i karą za dezercję szukają przetrwania w napadach na międzyplanetarne szlaki handlowe.
 
 Umiejętność „Szeregowy” sprawia, że jednakowe jednostki walczą w grupie, a jej wytrzymałość jest sumą wytrzymałości poszczególnych maszyn — obrona piratów opiera się na liczbie, nie na kunszcie pojedynczego pilota.
 }}
@@ -19,8 +19,6 @@ Umiejętność „Szeregowy” sprawia, że jednakowe jednostki walczą w grupie
 {{menu gra=srw-oe
 
 ## Parametry
-
-**Nazwa skrócona:** Pilot MS
 
 | Parametr | Wartość bazowa |
 |---|---:|

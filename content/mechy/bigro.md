@@ -31,7 +31,7 @@ W [[mobile-suit-gundam-1979|pierwowzorze]] MA-05 Bigro powstał z przegranego pr
 
 Uzbrojenie Bigro także pochodzi z pierwowzoru: działo megacząsteczkowe w dziobie jest bronią główną i chowa się pod dziobową osłoną, po bokach kadłuba siedzą czterolufowe wyrzutnie rakiet, którymi przy dużych prędkościach blokuje się ruch przeciwnika, a dwa wielkie ramiona pełnią funkcję stabilizatorów AMBAC i kończą się trójpalczastymi szponami zdolnymi przebić stop Luna Titanium albo pochwycić cudzą maszynę. Bigro ma też rozsiewacz [[minovsky-particles|cząstek Minovsky'ego]], który zagłusza czujniki i czyni go niewidocznym ([Gundam Wiki, „MA-05 Bigro”](https://gundam.fandom.com/wiki/MA-05_Bigro); sprawdzono 2026-11-08).
 
-Jeden Bigro — ten pilotowany przez [[tokwan|Tokwana]] ze [[zanzibar|Zanzibara]] [[char-aznable|Chara]] — zaatakował [[white-base|White Base]] i został zestrzelony przez [[amuro-ray|Amura]] w [[rx-78-2-gundam|Gundamie]]; po drodze jego szpon pochwycił [[g-fighter|G-Fightera]]. W [[srw-oe|Super Robot Wars OE]] układ zostaje ten sam, zmienia się jednak powód wylotu, a los pilota pozostaje nierozstrzygnięty ([Gundam Wiki, „MA-05 Bigro”](https://gundam.fandom.com/wiki/MA-05_Bigro); sprawdzono 2026-11-08).
+Jeden Bigro — ten pilotowany przez [[tokwan|Tokwana]] ze [[zanzibar|Zanzibara]] [[char-aznable|Chara]] — zaatakował [[white-base|White Base]] i został zestrzelony przez [[amuro-ray|Amura]] w [[rx-78-2-gundam|Gundamie]]; po drodze jego szpon pochwycił [[g-fighter|G-Fightera]] ([Gundam Wiki, „MA-05 Bigro”](https://gundam.fandom.com/wiki/MA-05_Bigro); sprawdzono 2026-11-08). W [[srw-oe|Super Robot Wars OE]] układ stron zostaje ten sam, zmienia się jednak powód wylotu, a los pilota pozostaje nierozstrzygnięty.
 }}
 
 {{menu gra=srw-oe

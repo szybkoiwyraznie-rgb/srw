@@ -24,12 +24,12 @@ Po [[wojna-rewolucyjna|wojnie rewolucyjnej]] świat próbuje utrzymać pokój, l
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
 |---|---|---|---|
 | Wojna rewolucyjna i nowy porządek Ziemi | [[srw-y\|Super Robot Wars Y]] | n/d | Wspólna historia świata po wielu wojnach; brak odpowiednika w jednym odcinku źródłowym. |
-| Parada cesarza [[lelouch-vi-britannia\|Leloucha]] i zamach [[zero\|Zero]] | [[code-geass-lelouch-of-the-rebellion-iii-glorification\|Code Geass: Lelouch of the Rebellion III Glorification]] | cała seria | Zamach na paradzie to w pierwowzorze finał planu Zero Requiem — scenę zamykającą film, a w serialu *Code Geass: Lelouch of the Rebellion R2* dwudziesty piąty odcinek „Re;”; tutaj widać ją z balkonu Echiki, a własna historia zaczyna się rok później, w dniu jej urodzin (jak *Code Geass Lelouch of the Re;surrection*, [[code-geass-lelouch-of-the-re-surrection\|strona serii]]). |
-| Atak VAL-X na miasto Yagami | [[srw-y\|Super Robot Wars Y]] | n/d | Napastnicy, ich cel i związek z Nira-Kana-I należą do autorskiej osi gry. |
-| Dziedzictwo A. Adventu | [[srw-y\|Super Robot Wars Y]] | n/d | Echika poznaje okręt i system Nira-Kana-I w dniu urodzin; scena nie rozstrzyga jeszcze ich dalszego zastosowania. |
+| Parada cesarza [[lelouch-vi-britannia\|Leloucha]] i zamach [[zero\|Zero]] | [[code-geass-lelouch-of-the-rebellion-iii-glorification\|Code Geass: Lelouch of the Rebellion III Glorification]] | cała seria | Zamach na paradzie to w pierwowzorze finał planu Zero Requiem — scena zamykająca film, a w serialu *Code Geass: Lelouch of the Rebellion R2* dwudziesty piąty odcinek „Re;”; tutaj widać ją z balkonu Echiki, a dalsze wydarzenia ruszają rok później, w dniu jej urodzin (jak [[code-geass-lelouch-of-the-re-surrection\|*Code Geass Lelouch of the Re;surrection*]]). |
+| Atak VAL-X na miasto Yagami | [[srw-y\|Super Robot Wars Y]] | n/d | Napastnicy, ich cel i związek z Nira-Kana-I nie mają odpowiednika w seriach źródłowych. |
+| Dziedzictwo A. Adventu | [[srw-y\|Super Robot Wars Y]] | n/d | Echika poznaje okręt i system Nira-Kana-I w dniu urodzin; ich dalsze przeznaczenie pozostaje jeszcze otwarte. |
 | Getter Arc i zestrzelony Getter D2 | [[getter-robo-arc\|Getter Robo Arc]] | odc. 1 „The Demon on High” | [[takuma-nagare\|Takuma]] i [[baku-yamagishi\|Baku]] łamią zabezpieczenia rozbitego po śmierci pilota [[getter-d2\|D2]] i przesiadają się do [[getter-arc\|Getter Arca]]; tutaj wróg uderza na A. Advent, a po bitwie drużyna przenosi się na okręt. |
-| Trzy gwarancje Echiki | [[srw-y\|Super Robot Wars Y]] | n/d | Autorska oś gry: odmowa wobec rządu Japonii i obietnica zamieszkania, bezpieczeństwa i energii nie mają odpowiednika w seriach źródłowych. |
-| Mieszkańcy z *Dynazenona* w mieście Yagami | [[ssss-dynazenon\|SSSS.DYNAZENON]] | odc. 1 „What Is a Kaiju User?” | W serialu bohaterów łączy atak kaiju i przyzwanie Dynazenona; w mieście Yagami pojawiają się osobno, w uniesionym mieście po wojnie rewolucyjnej, jeszcze bez walki z kaiju. |
+| Trzy gwarancje Echiki | [[srw-y\|Super Robot Wars Y]] | n/d | Odmowa wobec rządu Japonii i obietnica zamieszkania, bezpieczeństwa oraz energii nie mają odpowiednika w seriach źródłowych. |
+| Mieszkańcy z *Dynazenona* w mieście Yagami | [[ssss-dynazenon\|SSSS.DYNAZENON]] | odc. 1 „What Is a Kaiju User?” | W serialu bohaterów łączy atak kaiju i przyzwanie Dynazenona; tutaj spotykają się osobno w uniesionym [[miasto-yagami\|mieście Yagami]] po wojnie rewolucyjnej, jeszcze bez walki z kaiju. |
 
 ## Komentarz
 
