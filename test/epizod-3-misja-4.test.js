@@ -55,17 +55,22 @@ test('pusta stopka wariantu DLC nie wycieka do archiwum ani do prozy witryny (AD
   assert.doesNotMatch(scene.body, /wariant tekstu z dodatku|Wariant tekstu DLC|wspólnych ustępów/i);
 });
 
-test('obsada misji 3-4 wnosi piratów z byłych żołnierzy Zeonu, Hiromiego Tachibanę i bazę Connect na Marsie', () => {
+test('obsada misji 3-4 obejmuje Hiromiego Yamazakiego, piratów i bazę Connect na Marsie', () => {
   assert.equal(episode.gra, 'srw-oe');
   assert.equal(episode.numer, 3);
-  for (const slug of ['kamina', 'simon', 'hiromi-tachibana', 'terry-sanders-jr', 'pilot-ms']) {
+  for (const slug of ['kamina', 'simon', 'hiromi-yamazaki', 'terry-sanders-jr', 'pilot-ms']) {
     assert.ok(episode.postacie.includes(slug), `obsada epizodu: ${slug}`);
     assert.ok(bySlug.has(slug), `strona istnieje: ${slug}`);
     assert.ok(scene.postacie.includes(slug), `obsada sceny: ${slug}`);
   }
-  // Kwestię „Hiromi:” w 3-4 wypowiada Hiromi Tachibana (Go-Saurer), nie Hiromi Yamazaki z SV2.
-  assert.ok(!scene.postacie.includes('hiromi-yamazaki'), 'Yamazaki nie występuje w misji 3-4');
-  assert.ok(episode.serie.includes('nekketsu-saikyo-go-saurer'), 'seria Go-Saurer w epizodzie 3');
+  // Właściciel potwierdził Hiromiego Yamazakiego; Saurersi pozostali na Ziemi po scenie 2-8.
+  assert.ok(!scene.postacie.includes('hiromi-tachibana'), 'Tachibana nie jest w obsadzie misji 3-4');
+  assert.ok(!episode.postacie.includes('hiromi-tachibana'), 'Tachibana nie jest w obsadzie epizodu 3');
+  assert.ok(!episode.serie.includes('nekketsu-saikyo-go-saurer'), 'seria nie dołącza przez błędne przypisanie');
+  const analiza = scene.body.split('## Analiza')[1];
+  assert.match(analiza, /\[\[hiromi-yamazaki\|Hiromi Yamazaki\]\] dziwi się/);
+  assert.doesNotMatch(analiza, /\[\[hiromi-tachibana\|/);
+  assert.match(bySlug.get('hiromi-yamazaki').body, /\[\[srw-oe-ep3-kryjowka-piratow\|/);
   for (const slug of ['gelgoog', 'rick-dom', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']) {
     assert.ok(episode.mechy.includes(slug), `sprzęt epizodu: ${slug}`);
     assert.ok(scene.mechy.includes(slug), `sprzęt sceny: ${slug}`);

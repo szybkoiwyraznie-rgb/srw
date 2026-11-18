@@ -18,6 +18,8 @@ utworzono: 2026-10-27
 Podpilot [[go-saurer|Go-Saurera]] i [[king-go-saurer|King Go-Saurera]] z zespołu [[saurersi|Saurersów]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podczas wizyty w [[akademia-hinobori|Akademii Hinobori]] próbuje studzić emocje kłócących się kolegów z [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] i własnej drużyny, przestrzegając przed przeciążaniem się zbyt intensywnym treningiem.
 
 Po bitwie, gdy [[kamina|Kamina]] prosi, by ktoś pokazał okolicę, odpowiada: „Chodźcie, pokażemy wam wszystko!” i zabiera przybyszów z [[gurren-team|drużyny Gurren]] na spacer po okolicy.
+
+W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] [[saurersi|Saurersi]], w tym Hiromi, pozostają na Ziemi, by bronić jej przed [[mechabestia|mechabestiami]], podczas gdy [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] i [[gurren-lagann|Gurren Lagann]] mają lecieć w kosmos.
 }}
 
 {{zrodlo gra=wspolne

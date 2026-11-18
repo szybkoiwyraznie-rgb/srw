@@ -18,6 +18,8 @@ utworzono: 2026-11-09
 {{skrypt gra=srw-oe
 
 Robot [[kanzen-shouri-daiteioh|drużyny Daiteioh]] pilotowany przez [[taro-omomo|Taro Omomo]], z [[mai-ozora|Mai Ozorą]] i [[kakeru-daichi|Kakeru Daichim]] jako pilotami wspierającymi; do załogi należy też podpilot [[hiryu-tsukishiro|Hiryu Tsukishiro]]. Dysponuje tarczą (Blok tarczą: Broniąc Obraż.-20%) i zdolnością Połączenia w [[perfect-daiteioh|Perfect Daiteioha]] przy Morale 120 z pełnym HP i EN; uzbrojenie obejmuje Dai Saucer, Dai Hammer, Dai Launcher, Daitei Sword i Dai Shine, a atakiem specjalnym jest Kaiser Daidan End.
+
+Po bitwie w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] [[taro-omomo|Momotaro]] zgłasza swoją drużynę do wzmocnienia obrony Ziemi. W kosmos wyruszają [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] i [[gurren-lagann|Gurren Lagann]].
 }}
 
 {{zrodlo gra=wspolne

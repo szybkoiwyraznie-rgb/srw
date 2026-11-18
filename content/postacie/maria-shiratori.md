@@ -20,6 +20,8 @@ Prowadzi też odprawę po treningu i prosi [[seishiro|Seishira]], by dołączył
 Po [[srw-oe-ep1-szalejacy-labor-powraca|unieruchomieniu Brockenów na placu budowy]] uznaje sprawę za zakończoną i odwołuje uczniów.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podejmuje w [[akademia-hinobori|Akademii Hinobori]] drużynę [[saurersi|Saurersów]], ostrym słowem ucina sprzeczkę chłopców o formę wspólnych ćwiczeń, a na sygnał o wykryciu [[mechabestia|mechabestii]] wydaje rozkaz startu [[raijin-oh|Raijin-Oha]]. Po walce zaprasza załogę [[gurren-lagann|Gurren Laganna]] do szkoły na wyjaśnienia [[seishiro|Seishira]] i wyraża gotowość [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] do dalszego wspierania [[connect-force|Connect]] na Ziemi.
+
+Po walce w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] Maria proponuje współpracę z [[connect-force|Connect Force]]. Jej klasa i [[gurren-lagann|Gurren Lagann]] zgłaszają się do lotu w kosmos, podczas gdy [[saurersi|Saurersi]] mają bronić Ziemi.
 }}
 
 {{zrodlo gra=wspolne

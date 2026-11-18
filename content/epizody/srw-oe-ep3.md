@@ -5,10 +5,10 @@ tytul: Epizod 3
 gra: srw-oe
 numer: 3
 skrypt: episodes/srw-oe/ep003.md
-postacie: [control-ai, bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, seishiro, himari-yaegaki, go, kei, gai, koji-kabuto, shinobu-fujiwara, sara-yuki, ryo-shiba, masato-shikibu, alan-igor, shiro-amada, noa-izumi, amuro-ray, garma-zabi, char-aznable, mquve, uragan, oficer-zeonu, zolnierz-zeonu, gaia, mash, ortega, setsuna-f-seiei, heero-yuy, sayla-mass, michel-ninorich, isao-ota, kanuka-clancy, asuka-tsukishiro, jin-hyuga, maria-shiratori, kiichi-goto, asuma-shinohara, mikiyasu-shinshi, invader, suol, gihren-zabi, kycilia-zabi, seitaro-sakaki, shigeo-shiba, hiromi-yamazaki, shinohara-hos, sergeant-keroro, kai-shiden, kamina, simon, hiromi-tachibana, terry-sanders-jr, pilot-ms]
+postacie: [control-ai, bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, seishiro, himari-yaegaki, go, kei, gai, koji-kabuto, shinobu-fujiwara, sara-yuki, ryo-shiba, masato-shikibu, alan-igor, shiro-amada, noa-izumi, amuro-ray, garma-zabi, char-aznable, mquve, uragan, oficer-zeonu, zolnierz-zeonu, gaia, mash, ortega, setsuna-f-seiei, heero-yuy, sayla-mass, michel-ninorich, isao-ota, kanuka-clancy, asuka-tsukishiro, jin-hyuga, maria-shiratori, kiichi-goto, asuma-shinohara, mikiyasu-shinshi, invader, suol, gihren-zabi, kycilia-zabi, seitaro-sakaki, shigeo-shiba, hiromi-yamazaki, shinohara-hos, sergeant-keroro, kai-shiden, kamina, simon, terry-sanders-jr, pilot-ms]
 mechy: [exart, final-dancouga, mazinger-z, shin-getter-1, white-base, rx-78-2-gundam, guncannon, gundam-exia, wing-gundam-zero, dom, gelgoog, gelgoog-char, rick-dom, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, zanzibar, invader-air, invader-ground, metal-beast-muszla, ingram-nr-1, ingram-nr-2, keroro-robo-mk-ii, brocken, brocken-dzialko-automatyczne]
 pojecia: [connect-force, cyber-beast-force, 13-samodzielny-oddzial, black-tri-stars, zeon, earth-federation, mobile-suit, newtype, krzyz-zeonu, uc-0079, universal-century, sily-samoobrony-japonii, cyber-newtype, sily-kolonii, invaderzy, labor, sv2, minovsky-particles, stacja-mars]
-serie: [sgt-frog, nekketsu-saikyo-go-saurer]
+serie: [sgt-frog]
 pochodzenie: skrypt
 tagi: [srw-oe, universal-century, connect, zeon, gundam, zimna-wyspa]
 utworzono: 2026-11-13

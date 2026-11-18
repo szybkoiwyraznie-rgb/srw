@@ -201,9 +201,12 @@ test('każdy mówca skryptu prowadzi do strony postaci swojej gry', () => {
   }
 });
 
-test('każdy mówca w scenie należy do jej obsady i obsady epizodu (z pierwszeństwem nazwy skróconej)', () => {
-  // Rozróżnia imienników: np. „Hiromi” ma pierwszeństwo dla Hiromiego Tachibany
-  // (`Nazwa skrócona: Hiromi`) przed Hiromim Yamazakim, który mówi jako „Yamazaki”.
+test('każdy mówca w scenie należy do jej obsady i obsady epizodu', () => {
+  // Etykieta z katalogu pilota nie rozstrzyga tożsamości imienników w każdej
+  // scenie. Jawne rozstrzygnięcia uwzględniają kontekst i decyzję właściciela.
+  const rozstrzygniecia = {
+    'srw-oe-ep3-kryjowka-piratow': { Hiromi: 'hiromi-yamazaki' },
+  };
   const poSlugu = new Map(strony.map((s) => [s.slug, s]));
   const nazwaSkrocona = (p) => {
     const m = p.body.match(/\*\*Nazwa skrócona:\*\*\s*([^\n]+)/);
@@ -228,7 +231,8 @@ test('każdy mówca w scenie należy do jej obsady i obsady epizodu (z pierwsze�
     const mowcy = new Set([...tekst.matchAll(/^(?:>\s*)?\*\*([^*\n:]+):\*\*/gm)].map((m) => m[1].trim()));
     for (const etykieta of mowcy) {
       if (GLOSY_BEZIMIENNE.has(etykieta)) continue;
-      const kandydaci = dopasuj(etykieta, epizod.gra);
+      const wskazany = rozstrzygniecia[scena.slug]?.[etykieta];
+      const kandydaci = wskazany ? [poSlugu.get(wskazany)].filter(Boolean) : dopasuj(etykieta, epizod.gra);
       if (!kandydaci.some((k) => obsadaSceny.has(k.slug))) {
         problemy.push(`${scena.slug}: mówca „${etykieta}” poza postacie sceny (${kandydaci.map((k) => k.slug).join(', ')})`);
       }

@@ -25,6 +25,8 @@ Raijin Claw przebija się przez wrogów w zasięgu i rusza dalej, Raijin Boomera
 Podczas [[srw-oe-ep1-szalejacy-labor-powraca|obrony wielkiego placu budowy]] przybywa na pomoc dwóm Ingramom. [[kanuka-clancy|Kanuka]] mobilizuje policjantów, by nie dali się wyprzedzić Klasie Obrony, a [[asuka-tsukishiro|Asuka]] ostrzega [[jin-hyuga|Jina]], by nie zaatakował policyjnych Laborów przez pomyłkę.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] startuje razem z [[go-saurer|Go-Saurerem]], gdy naradę o wspólnych ćwiczeniach z [[saurersi|Saurersami]] w [[akademia-hinobori|Akademii Hinobori]] przerywa alarm o wykryciu [[mechabestia|mechabestii]], i u boku [[connect-force|Connect]], [[shin-getter-1|Shin Gettera-1]], [[mazinger-z|Mazingera Z]] oraz [[gurren-lagann|Gurren Laganna]] niszczy podziemne bramy [[mucus|Mucus]].
+
+W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] [[jin-hyuga|Jin]] zgłasza Klasę Obrony i Raijin-Oha do wyprawy [[connect-force|Connect Force]] wraz z [[gurren-lagann|Gurren Lagannem]]. [[saurersi|Saurersi]] z [[go-saurer|Go-Saurerem]] pozostają na Ziemi do walki z mechabestiami.
 }}
 
 {{zrodlo gra=wspolne

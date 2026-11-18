@@ -23,6 +23,8 @@ W szkole pyta wprost, czy dorośli są z tego [[connect-force|Connect]], który 
 Podczas [[srw-oe-ep1-szalejacy-labor-powraca|obrony placu budowy]] przybywa z [[raijin-oh|Raijin-Ohem]] na pomoc policjantom i od razu przechwala się, że mogą być spokojni. Po ostrzeżeniu [[asuka-tsukishiro|Asuki]] potwierdza, że nie zaatakuje policyjnych Laborów przez pomyłkę.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] razem z [[kenichi-minezaki|Kenichim Minezakim]] sprzeciwia się planowi częstych wspólnych ćwiczeń, obstając przy grze w piłkę, po czym wyprowadza [[raijin-oh|Raijin-Oha]] pod ziemię przeciw [[mechabestia|mechabestiom]], [[invader-ground|Invaderom]] oraz [[nekton-assault|Nekton Assault]]. Z uznaniem wita pojawienie się [[mazinger-z|Mazingera Z]] i [[gurren-lagann|Gurren Laganna]], a po bitwie w klasie stwierdza, że [[kamina|Kamina]] i reszta muszą być z innego świata.
+
+W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] Jin zgłasza [[klasa-obrony-ziemi|Klasę Obrony Ziemi]] do wyprawy [[connect-force|Connect Force]] obok [[gurren-lagann|Gurren Laganna]]. [[saurersi|Saurersi]] zostają na Ziemi, by walczyć z mechabestiami.
 }}
 
 {{zrodlo gra=wspolne

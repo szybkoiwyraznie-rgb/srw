@@ -20,6 +20,8 @@ Za sterami maszyny siedzą [[jin-hyuga|Jin Hyuga]], [[asuka-tsukishiro|Asuka Tsu
 Podczas [[srw-oe-ep1-szalejacy-labor-powraca|obrony wielkiego placu budowy]] klasa przybywa z [[raijin-oh|Raijin-Ohem]] na pomoc Drugiemu Plutonowi [[sv2|SV2]]. Jej obecność mobilizuje policjantów do rywalizacji, ale [[asuka-tsukishiro|Asuka]] pilnuje, by [[jin-hyuga|Jin]] nie pomylił sojuszniczych Ingramów z wrogimi Laborami.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] klasa podejmuje w [[akademia-hinobori|Akademii Hinobori]] [[saurersi|Saurersów]] (w dyskusji obok stałych uczestników biorą udział [[akira-imamura|Akira Imamura]], [[aiko-shimada|Aiko Shimada]] i [[daisuke-sato|Daisuke Sato]]), wysyła [[raijin-oh|Raijin-Oha]] pod ziemię przeciw [[mechabestia|mechabestiom]], [[invader-ground|Invaderom]] i [[nekton-assault|Nekton Assault]], a po bitwie poznaje tajemnicę [[mucus|Mucus]] oraz przybyłą z innego wszechświata [[gurren-team|drużynę Gurren]], obiecując dalszą pomoc [[connect-force|Connect]] na Ziemi.
+
+Po walce w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] [[jin-hyuga|Jin]] zgłasza klasę do wyprawy [[connect-force|Connect Force]] w imieniu drużyn Eldrana, obok [[gurren-lagann|Gurren Laganna]]. [[saurersi|Saurersi]] zostają tymczasem na Ziemi, aby bronić jej przed [[mechabestia|mechabestiami]], a klasa ma przesyłać im dane z kosmosu. Drużyny [[ganbaruger|Ganbarugera]] i [[daiteioh|Daiteioha]] także wzmacniają obronę planety.
 }}
 
 {{zrodlo gra=wspolne

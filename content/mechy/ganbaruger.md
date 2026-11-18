@@ -18,6 +18,8 @@ utworzono: 2026-11-09
 {{skrypt gra=srw-oe
 
 Robot [[genki-bakuhatsu-ganbaruger|drużyny Ganbaruger]] pilotowany przez [[kotaro-kirigakure|Kotaro Kirigakure]], z [[yosuke-kazamatsuri|Yosuke Kazamatsurim]] i [[rikiya-ryuzaki|Rikiyą Ryuzakim]] jako pilotami wspierającymi. Łączy się w [[great-ganbaruger|Great Ganbarugera]] przy Morale 120 z pełnym HP i EN; uzbrojenie obejmuje Ganba Slugger, Ganba Missile, Ganba Sword i Ganba Flare, a atakiem specjalnym jest Ganba Final Attack.
+
+Po bitwie w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] [[kotaro-kirigakure|Kotaro]] przyjmuje zadanie wzmocnienia obrony Ziemi razem z drużyną [[daiteioh|Daiteioha]]. W kosmos wyruszają [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] i [[gurren-lagann|Gurren Lagann]].
 }}
 
 {{zrodlo gra=wspolne

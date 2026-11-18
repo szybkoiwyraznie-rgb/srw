@@ -20,6 +20,8 @@ utworzono: 2026-10-27
 Połączony [[gunmen|Gunmen]] [[gurren-team|drużyny Gurren]] dysponujący macierzystą zdolnością „Drążenie” (pozwalającą przemieszczać się pod ziemią przez przeszkody terenowe i inne jednostki) oraz funkcją zamiany głównego pilota między [[simon|Simonem]] a [[kamina|Kaminą]], wspieranymi przez [[yoko|Yoko]] (obsługującą dalekosiężny karabin nadprzewodzący) oraz [[boota|Bootę]]. Na uzbrojenie składają się również miotane okulary piersiowe Gurren Boomerang, cięcie Shades Cutter, obszarowy Toroidal Burst i przebijający bariery Skull Break.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Gurren Lagann przebija się wiertłem od dołu do podziemnej pieczary po tym, jak podczas starcia z Viralem w rodzimym świecie zapadła się pod nim ziemia. [[gai|Gai]] i [[go|Go]] z podziwem porównują jego drążenie w skale do możliwości [[shin-getter-2|Gettera-2]], a Kamina i Simon przekopują się przez skalną ścianę, odkrywając po drugiej stronie ukrywające się bramy [[mucus|Mucus]].
+
+W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] [[kamina|Kamina]] zgłasza Gurren Laganna do wyprawy [[connect-force|Connect Force]]; dołącza do niej także [[klasa-obrony-ziemi|Klasa Obrony Ziemi]]. [[saurersi|Saurersi]] z [[go-saurer|Go-Saurerem]] zostają na Ziemi, by bronić jej przed [[mechabestia|mechabestiami]].
 }}
 
 {{zrodlo gra=wspolne

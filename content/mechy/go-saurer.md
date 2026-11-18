@@ -19,6 +19,8 @@ utworzono: 2026-10-27
 Superrobot zespołu [[saurersi|Saurersów]], powierzony uczniom przez Eldrana do walki z [[mechanization-empire|Imperium Mechanizacji]]. Głównym pilotem maszyny jest [[kenichi-minezaki|Kenichi Minezaki]], a wspierają go [[hiromi-tachibana|Hiromi Tachibana]], [[shinobu-asaoka|Shinobu Asaoka]], [[taro-shirogane|Taro Shirogane]] („Kinta”) oraz [[yoji-hiyama|Yoji Hiyama]]. Po osiągnięciu odpowiedniego morale jednostka potrafi połączyć się w [[king-go-saurer|King Go-Saurera]].
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Go-Saurer wyrusza na rozkaz [[erika-kozu|Elly]] z [[akademia-hinobori|Akademii Hinobori]] razem z [[raijin-oh|Raijin-Ohem]], gdy naradę o wspólnych ćwiczeniach z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]] przerywa alarm o pojawieniu się [[mechabestia|mechabestii]]. Pod ziemią wspiera osaczonego [[shin-getter-1|Shin Gettera-1]] u boku [[exart|Exarta]] i Laborów [[sv2|SV2]], a gdy kolejne potwory atakują załogę z bliska, na odsiecz nadlatuje [[mazinger-z|Mazinger Z]] [[koji-kabuto|Kojiego Kabuto]]. W dalszej fazie bitwy Go-Saurer odpiera fale [[bolt-robo-standard|Bolt Robo]], [[invader-ground|Invaderów]] i jednostek [[nekton-assault|Nekton Assault]], pomagając zniszczyć podziemne bramy [[mucus|Mucus]].
+
+Po bitwie w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] [[saurersi|Saurersi]] pozostają z Go-Saurerem na Ziemi, by chronić ją przed powracającymi [[mechabestia|mechabestiami]]. W kosmos lecą [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] i [[gurren-lagann|Gurren Lagann]], a [[tsutomu-kojima|Tsutomu]] zamierza przekazywać Saurersom zbierane tam dane.
 }}
 
 {{zrodlo gra=wspolne

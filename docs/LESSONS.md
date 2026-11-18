@@ -326,3 +326,21 @@ Zasady:
   dlatego testy celują w czasowniki i przyimki („w grze”, „do gry”, „tej gry”), a nie w samo
   słowo „gra”. Weryfikacja idzie po prozie, nie po tabelach hurtowo: w kolumnie „Różnice”
   część zdań to legalne porównania z pierwowzorem, więc każdy wiersz kwalifikuje się ręcznie.
+
+## L26. Imienników rozróżnia kontekst sceny, nie sam katalog pilota
+
+W audycie 3-4 błędnie przypisano etykietę „Hiromi” Hiromiemu Tachibanie,
+ponieważ karta Saurersów podaje taką nazwę skróconą i zewnętrzna lista zawiera
+warunkowe kwestie drużyny Go-Saurera. Pominięto decyzję z rozegranej sceny 2-8:
+Saurersi zostają na Ziemi, a z drużyn Eldrana leci Klasa Obrony Ziemi. Właściciel
+sprostował, że w scenie 3-4 chodzi o Hiromiego Yamazakiego z SV2. Zielony test,
+który wymagał Tachibany, utrwalił pomyłkę.
+
+- Nie przenoś nazwy skróconej z katalogu automatycznie na każdego imiennika.
+  Sprawdź miejsce, chronologię, obsadę i odróżniaj opcjonalne warunki walki od
+  ustaleń o aktualnej wyprawie; przy rozbieżności nie przedstawiaj hipotezy jako faktu.
+- Korekta obejmuje scenę, epizod, obie postacie i błędne testy; cytowany skrypt
+  i oryginalna dostawa pozostają nietknięte. W `test/seria-z-dostawy.test.js`
+  rozstrzygnięcie jest przypisane do konkretnej sceny, nie wszystkich wystąpień imienia.
+- Decyzja o podziale sił powinna być dostępna na stronach drużyn i maszyn, nie
+  tylko w długim zapisie sceny, żeby powiązania nie fałszowały dalszej chronologii.
