@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-18 15:39
+
+- Kiedy w październiku [[uc-0079|U.C. 0079]] asy [[zeon|Zeonu]] rozpoczynają próby Gelgoogów, jeden z wczesnych egzemplarzy trafia do [[char-aznable|Chara]]. [[gelgoog-char|Jego czerwony MS-14S]] poprzedza [[gelgoog|seryjnego MS-14A]], który wchodzi do służby 8 grudnia.
+
 ## 2026-11-18 15:37
 
 - Nad [[wyspy-kurylskie|Kurylami]] [[heero-yuy|Heero]] w [[wing-gundam-zero-nb|Wing Zero NB]] i [[setsuna-f-seiei|Setsuna]] w [[gundam-exia|Exii]] niszczą obserwatorium po odwrocie Zeonu. W [[srw-oe-ep3-skradajacy-sie-cien|następnym starciu]] [[wing-gundam-zero|Wing Gundam Zero]] walczy już w postaci humanoidalnej. Obrońcy poznają cel nalotu, ale nie nazwę grupy, do której należą obaj piloci.
@@ -15,12 +19,12 @@
 
 ## 2026-11-18 11:22
 
-- **Dwie sylwetki seryjnego [[gelgoog|Gelgooga]]** — maszyna, którą w kryjówce piratów latają bezimienni [[pilot-ms|piloci MS]]: karabin wiązkowy sięga pięciu pól, a naginata wiązkowa rozstrzyga zwarcie, gdzie tarcza tłumi przyjmowane obrażenia. Obok niej stoi dowódczy [[gelgoog-char|Gelgoog Chara]] o większej sile ognia i z dodatkową szarżą przebijającą.
+- [[pilot-ms|Piloci MS]] w kryjówce piratów mają [[gelgoog|seryjne Gelgoogi]] z karabinem wiązkowym o zasięgu pięciu pól i naginatą do walki z bliska. Podczas obrony tarcza zmniejsza przyjmowane obrażenia.
 
 ## 2026-11-18 08:30
 
 - **Kryjówka piratów w asteroidzie** — [[srw-oe-ep3-kryjowka-piratow|„Szturm na kryjówkę piratów”]] prowadzi [[connect-force|Connect Force]] poza Sferę Ziemską, ku [[stacja-mars|Stacji Mars]], skąd gigantyczna brama warp ma otworzyć drogę w daleki kosmos. Po drodze załoga namierza bazę piratów ukrytą w skale, wchodzi do jej portu i staje naprzeciw większej liczby [[mobile-suit|mobile suitów]], niż się spodziewała.
-- **[[gelgoog|Gelgoog]] w rękach bezimiennych pilotów** — seryjna maszyna [[zeon|Zeonu]] broni kryjówki obok [[rick-dom|Rick Domów]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]]; podobnie jak dowódczy [[gelgoog-char|Gelgoog Chara]] nosi karabin wiązkowy, naginatę wiązkową i tarczę, ustępuje mu jednak siłą ognia, zasięgiem i brakiem ataku przebijającego.
+- **[[gelgoog|Gelgoog]] w rękach bezimiennych pilotów** — seryjna maszyna [[zeon|Zeonu]] broni kryjówki obok [[rick-dom|Rick Domów]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]]; podobnie jak dowódczy [[gelgoog-char|Gelgoog Chara]] nosi karabin wiązkowy, naginatę wiązkową i tarczę, ma jednak krótszy zasięg karabinu i mniejszą moc obu broni. Szarżę z przebiciem wykonuje tylko maszyna Chara.
 - **[[pilot-ms|Pilot MS]] jako zbiorowa załoga** — w bazie piratów za sterami siedzą szeregowi żołnierze bez nazwisk: w grupie wspierają się nawzajem, a ich wytrzymałość jest sumą siły całej formacji.
 - **Dezerterzy, którzy nie mieli dokąd pójść** — po walce [[seishiro|Seishiro]] pyta, dlaczego w bazie było tylu byłych żołnierzy [[zeon|Zeonu]]; [[terry-sanders-jr|Sanders]] i [[michel-ninorich|Michel]] tłumaczą, że po dezercji zostaje niewola u [[earth-federation|Federacji]] albo sąd w ojczyźnie, a [[alan-igor|Alan]] i [[ryo-shiba|Ryo]] wskazują na syndykat, który daje piratom pracę i nie pozwala odejść.
 - **[[himari-yaegaki|Himari]] nad notatkami o bramach warp** — zamiast iść na posiłek, podpilotka [[exart|Exarta]] zostaje przy nauce o [[stacja-mars|Stacji Mars]], korzystając z szerszego dostępu do danych, jaki daje jej miejsce w kokpicie.
