@@ -32,3 +32,28 @@ W [[mobile-suit-gundam-1979|pierwowzorze]] Gihren Zabi (ギレン・ザビ) jest
 
 ![Gihren Zabi — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Gihren%20Zabi.png)
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Gihren
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            118 |
+| **Obrona**  |             88 |
+| **Celność** |            137 |
+| **Unik**    |             53 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                           |
+| ---: | ---------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**    |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+|    2 | **Dow. Atk/Cel** |          3 | Zasięg 3 - sojusznicy: Atk/Cel+4%      |
+|    3 | **Geniusz**      |          3 | Cel/Unik+14                            |
+|    4 | **Zapał**        |          3 | Co turę Morale+1                       |
+}}

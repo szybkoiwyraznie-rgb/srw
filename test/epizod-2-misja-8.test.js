@@ -269,3 +269,22 @@ test('ilustracje misji 2-8: pięć jednostek po dwa pliki i 24 portrety, z dokł
   assert.match(manifest.uwaga, /Actions 42909697708, check-run 130156783395/);
   assert.match(manifest.uwaga, /zgodność całego manifestu z 240 obiektami/);
 });
+
+test('podział wyprawy i obrony Ziemi pozostaje widoczny w hasłach uczestników', () => {
+  assert.match(script, /Saurersi najlepiej poradzą sobie z mechabestiami na Ziemi/);
+  assert.match(script, /W kosmos lecą Gurren Lagann i Klasa Obrony Ziemi/);
+  assert.match(script, /na bieżąco przesyłać je Saurersom/);
+  for (const slug of ['saurersi', 'klasa-obrony-ziemi', 'raijin-oh', 'go-saurer',
+    'gurren-lagann', 'gurren-team', 'hiromi-tachibana', 'kenichi-minezaki']) {
+    const body = bySlug.get(slug).body;
+    assert.ok(body.includes('[[srw-oe-ep2-klasa-obrony-leci-w-kosmos|'), `${slug}: powiązanie z decyzją`);
+    assert.match(body, /Ziemi/, `${slug}: obrona Ziemi`);
+    assert.match(body, /kosmos/i, `${slug}: wyprawa kosmiczna`);
+    assert.match(body, /Saurers/, `${slug}: Saurersi`);
+  }
+  for (const slug of ['daiteioh', 'ganbaruger']) {
+    const body = bySlug.get(slug).body;
+    assert.ok(body.includes('[[srw-oe-ep2-klasa-obrony-leci-w-kosmos|'), slug);
+    assert.match(body, /wzmocnieni[ae] obrony Ziemi/, slug);
+  }
+});

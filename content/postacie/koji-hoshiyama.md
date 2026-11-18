@@ -43,6 +43,8 @@ Koji Hoshiyama (星山 吼児) w oryginale odpowiada za moc Raijin-Oh i wszystki
 
 ## Parametry
 
+**Nazwa skrócona:** Koji
+
 **Pula SP:** 50 *(podpilot korzysta ze statystyk bojowych głównego pilota)*
 
 ### Komendy Ducha

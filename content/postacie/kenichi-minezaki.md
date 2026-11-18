@@ -15,6 +15,8 @@ utworzono: 2026-10-27
 {{skrypt gra=srw-oe
 
 Główny pilot [[go-saurer|Go-Saurera]] oraz formy superpołączenia [[king-go-saurer|King Go-Saurer]] z drużyny [[saurersi|Saurersów]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] odwiedza z kolegami salę klasy 5-3 [[akademia-hinobori|Akademii Hinobori]] na wspólne ćwiczenia z [[klasa-obrony-ziemi|Klasą Obrony Ziemi]]. Jako pierwszy protestuje przeciw propozycji [[takako-kojima|Profesor]] dwóch treningów w tygodniu — woli grać w piłkę i przy wsparciu [[jin-hyuga|Jina]] obstaje przy swoim wobec wyrzutów [[shinobu-asaoka|Shinobu]]. Gdy naradę przerywa alarm o pojawieniu się [[mechabestia|mechabestii]], rusza z [[go-saurer|Go-Saurerem]] pod ziemię, gdzie dziękuje [[koji-kabuto|Kojiemu Kabuto]] za odsiecz w [[mazinger-z|Mazingerze Z]], a w ogniu nieustających posiłków wroga alarmuje sojuszników, że nadciągające potwory nie mają końca. Po walce w klasie wita się z przybyszami z [[gurren-team|drużyny Gurren]].
+
+W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] Kenichi chce walczyć z mechabestiami w kosmosie, lecz [[takako-kojima|Profesor]] wskazuje, że [[saurersi|Saurersi]] są najbardziej potrzebni w obronie Ziemi. Do wyprawy zgłaszają się [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] i [[gurren-lagann|Gurren Lagann]].
 }}
 
 {{zrodlo gra=wspolne

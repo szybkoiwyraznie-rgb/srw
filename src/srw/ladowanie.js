@@ -51,7 +51,10 @@ async function rozpakuj(b64) {
 function adresDanych(nazwa) {
   const baza = globalThis.location?.href ?? globalThis.document?.baseURI ?? '';
   try {
-    return new URL(KATALOG_DANYCH + nazwa, baza).href;
+    const adres = new URL(KATALOG_DANYCH + nazwa, baza);
+    const wersja = globalThis.SRW_DATA?.wersjaDanych;
+    if (wersja) adres.searchParams.set('v', wersja);
+    return adres.href;
   } catch {
     return KATALOG_DANYCH + nazwa;
   }
@@ -91,7 +94,12 @@ export async function dociagnijStrone(slug) {
   const strona = dane?.strony?.[slug] ?? null;
   if (!strona || !czyTrybPlikow() || wczytaneStrony.has(slug)) return strona;
   const cialo = await pobierzJson(`${slug}.json`);
-  Object.assign(strona, cialo);
+  const pole = strona.typ === 'scena' ? 'sekcje' : strona.typ === 'epizod' ? 'boksy' : 'html';
+  if (!cialo || typeof cialo !== 'object' || Array.isArray(cialo)
+      || (pole === 'html' ? typeof cialo.html !== 'string' : !Array.isArray(cialo[pole]))) {
+    throw new Error(`nieprawidłowe dane strony ${slug}`);
+  }
+  strona[pole] = cialo[pole];
   wczytaneStrony.add(slug);
   return strona;
 }

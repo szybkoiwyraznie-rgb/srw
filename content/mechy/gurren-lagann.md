@@ -20,6 +20,8 @@ utworzono: 2026-10-27
 Połączony [[gunmen|Gunmen]] [[gurren-team|drużyny Gurren]] dysponujący macierzystą zdolnością „Drążenie” (pozwalającą przemieszczać się pod ziemią przez przeszkody terenowe i inne jednostki) oraz funkcją zamiany głównego pilota między [[simon|Simonem]] a [[kamina|Kaminą]], wspieranymi przez [[yoko|Yoko]] (obsługującą dalekosiężny karabin nadprzewodzący) oraz [[boota|Bootę]]. Na uzbrojenie składają się również miotane okulary piersiowe Gurren Boomerang, cięcie Shades Cutter, obszarowy Toroidal Burst i przebijający bariery Skull Break.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] Gurren Lagann przebija się wiertłem od dołu do podziemnej pieczary po tym, jak podczas starcia z Viralem w rodzimym świecie zapadła się pod nim ziemia. [[gai|Gai]] i [[go|Go]] z podziwem porównują jego drążenie w skale do możliwości [[shin-getter-2|Gettera-2]], a Kamina i Simon przekopują się przez skalną ścianę, odkrywając po drugiej stronie ukrywające się bramy [[mucus|Mucus]].
+
+W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] [[kamina|Kamina]] zgłasza Gurren Laganna do wyprawy [[connect-force|Connect Force]]; dołącza do niej także [[klasa-obrony-ziemi|Klasa Obrony Ziemi]]. [[saurersi|Saurersi]] z [[go-saurer|Go-Saurerem]] zostają na Ziemi, by bronić jej przed [[mechabestia|mechabestiami]].
 }}
 
 {{zrodlo gra=wspolne
@@ -38,4 +40,29 @@ W [[tengen-toppa-gurren-lagann|pierwowzorze]] Gurren Lagann (グレンラガン)
 ### Ilustracja 2
 
 ![Gurren Lagann — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Gurren%20Lagann%202.png)
+}}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Seria:** Tengen Toppa Gurren Lagann
+
+### Macierzyste zdolności maszyny
+
+- **Drążenie (bez poziomu):** Ruch przez teren i jedn.
+- **Zm. pilota (bez poziomu):** Zmiana głównego pilota
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Walka wręcz | 2600 | 1–1 | +35 | 0 | — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu; **Ogień (poziom bazowy 1):** Dodatk. Obraż.1500 Szansa 30% |
+| 1 | Karabin nadprzewodzący | 2300 | 4–6 | +40 | 15 | — | Brak w tym polu | **Namiar (poziom bazowy 1):** Kryt+10%, Kryt Obraż.+20% bez Osłony; (Ignoruje Osłonę) |
+| 2 | Gurren Boomerang | 3000 | 3–5 | +5 | 5 | — | Brak w tym polu | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód |
+| 3 | Shades Cutter | 3500 | 1–2 | +20 | 10 | — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18% |
+| 4 | Toroidal Burst | 2500 | 1–5 | +0 | 35 | 110 | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg; Bez kontry; Nie do wsparcia ani kontry; **Na dużych (poziom bazowy 1):** Na dużych: Atk x1.1 Obr wroga-20%; (więksi od siebie) |
+| 5 | Skull Break | 4300 | 1–1 | +25 | 30 | 105 | Brak w tym polu | **Penetr. barier (poziom bazowy 1):** Obr wroga-20% Ignoruje bariery; **Wstrząs (poziom bazowy 1):** Obraż.600, 1 tura: Obr wroga-20% Szansa 30% |
 }}

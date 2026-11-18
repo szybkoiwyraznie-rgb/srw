@@ -21,9 +21,10 @@ const episode = bySlug.get('srw-oe-ep3');
 const scene = bySlug.get('srw-oe-ep3-kryjowka-piratow');
 
 test('dostawa 3-4 jest archiwizowana w całości jako czwarta misja epizodu 3', () => {
-  assert.equal(bytes.length, 33608);
+  // Po wyjątkowej korekcie dostawy na wyraźne polecenie właściciela.
+  assert.equal(bytes.length, 33560);
   assert.equal(createHash('sha256').update(bytes).digest('hex'),
-    'f1ca4f3c7169b108f8df47d62d44813c10ecfac814352957bf9f98234515f5ff');
+    '562a3f09c7287acd3f04eb560ebe5da0c353c3a054bf7753df6608b3c8776cd5');
   assert.ok(archive.includes('## Ep. 3-4: Szturm na kryjówkę piratów\n'));
   assert.equal(archive.split(script).length - 1, 1, 'pełny skrypt misji znajduje się w archiwum dokładnie raz');
   assert.ok(archive.endsWith(script + '\n'), 'misja 3-4 kończy archiwum epizodu');
@@ -47,14 +48,15 @@ test('scena 3-4 cytuje cały skrypt dosłownie i wskazuje epizod oraz kolejny nu
   assert.ok(episode.body.includes('[[srw-oe-ep3-kryjowka-piratow|Misja 4: Szturm na kryjówkę piratów]]'));
 });
 
-test('wariant tekstu z dodatku jest odmienną wersją tej samej misji, nie dalszym ciągiem', () => {
+test('pusta stopka wariantu DLC nie wycieka do archiwum ani do prozy witryny (ADR 0018)', () => {
   const wariant = deliveredScript.split('\n\n## Wariant tekstu DLC').at(-1);
   assert.ok(wariant.includes('alternatywny tekst tej samej misji, nie dalszy ciąg wydarzeń'));
-  // Relacja o wariancie stoi w komentarzu epizodu, poza archiwum rozegrania.
-  assert.match(episode.body, /## Komentarz[\s\S]*wariant tekstu z dodatku[\s\S]*nie dalszy ciąg/);
+  // Stopka opisuje strukturę ekstraktu dostawy, nie świat gry — zostaje wyłącznie w dostawie i historii wewnętrznej.
+  assert.doesNotMatch(episode.body, /wariant tekstu z dodatku|Wariant tekstu DLC|wspólnych ustępów/i);
+  assert.doesNotMatch(scene.body, /wariant tekstu z dodatku|Wariant tekstu DLC|wspólnych ustępów/i);
 });
 
-test('obsada misji 3-4 wnosi piratów z byłych żołnierzy Zeonu i bazę Connect na Marsie', () => {
+test('obsada misji 3-4 obejmuje piratów i bazę Connect na Marsie', () => {
   assert.equal(episode.gra, 'srw-oe');
   assert.equal(episode.numer, 3);
   for (const slug of ['kamina', 'simon', 'terry-sanders-jr', 'pilot-ms']) {
@@ -62,6 +64,17 @@ test('obsada misji 3-4 wnosi piratów z byłych żołnierzy Zeonu i bazę Connec
     assert.ok(bySlug.has(slug), `strona istnieje: ${slug}`);
     assert.ok(scene.postacie.includes(slug), `obsada sceny: ${slug}`);
   }
+  // Właściciel nakazał usunąć kwestię z dostawy i wszystkich jej kopii.
+  assert.doesNotMatch(coreScript, /\*\*Hiromi:\*\*/);
+  assert.doesNotMatch(scene.body, /\*\*Hiromi:\*\*/);
+  for (const slug of ['hiromi-yamazaki', 'hiromi-tachibana']) {
+    assert.ok(!scene.postacie.includes(slug), `${slug}: brak w obsadzie sceny`);
+    assert.ok(!scene.body.includes(`[[${slug}|`), `${slug}: brak w opisie sceny`);
+    assert.ok(!bySlug.get(slug).body.includes('[[srw-oe-ep3-kryjowka-piratow|'), `${slug}: brak powiązania ze sceną`);
+  }
+  assert.ok(episode.postacie.includes('hiromi-yamazaki'), 'Yamazaki występuje w scenie 3-3');
+  assert.ok(!episode.postacie.includes('hiromi-tachibana'), 'Tachibana nie jest w obsadzie epizodu 3');
+  assert.ok(!episode.serie.includes('nekketsu-saikyo-go-saurer'), 'seria nie dołącza przez błędne przypisanie');
   for (const slug of ['gelgoog', 'rick-dom', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']) {
     assert.ok(episode.mechy.includes(slug), `sprzęt epizodu: ${slug}`);
     assert.ok(scene.mechy.includes(slug), `sprzęt sceny: ${slug}`);
@@ -70,5 +83,6 @@ test('obsada misji 3-4 wnosi piratów z byłych żołnierzy Zeonu i bazę Connec
   assert.ok(bySlug.get('pilot-ms').mechy.includes('gelgoog'));
   assert.ok(bySlug.get('stacja-mars'), 'baza Connect w Układzie Słonecznym ma własne hasło');
   assert.ok(scene.pojecia.includes('stacja-mars'));
+  assert.ok(scene.pojecia.includes('earth-federation'));
   assert.ok(episode.pojecia.includes('stacja-mars'));
 });

@@ -19,6 +19,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import zlib from 'node:zlib';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import { collectModules, assertNoNameCollisions, stripModuleSyntax } from './module-graph.mjs';
 import { wczytajStrony, wczytajSkrypty, wczytajCoNowego } from './content-loader.mjs';
@@ -283,11 +284,16 @@ export function podzielDane(dane) {
     if (Object.keys(cialo).length > 0) ciala[slug] = cialo;
   }
 
+  // Po publikacji nowe JSON-y nie mogą zostać pomieszane z pamięcią podręczną
+  // poprzedniego wydania (Pages/CDN); wersja zależy od faktycznej treści.
+  const coNowego = dane.coNowego ?? [];
+  const wersjaDanych = createHash('sha256')
+    .update(JSON.stringify({ ciala, teksty, coNowego })).digest('hex').slice(0, 16);
   return {
-    indeks: { ...dane, strony: indeksStron, coNowego: [] },
+    indeks: { ...dane, strony: indeksStron, coNowego: [], wersjaDanych },
     ciala,
     teksty,
-    coNowego: dane.coNowego ?? [],
+    coNowego,
   };
 }
 

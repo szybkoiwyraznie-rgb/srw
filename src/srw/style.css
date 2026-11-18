@@ -273,6 +273,9 @@ p { margin: .8em 0; }
 
 /* ── Podgląd ilustracji ────────────────────────────────────────── */
 
+/* Zamknięty podgląd jest ukryty także w przeglądarkach bez obsługi <dialog>. */
+dialog.podglad:not([open]) { display: none; }
+
 /* Okno wypełnia ekran niezależnie od uprawnień do Fullscreen API. */
 dialog.podglad {
   width: 100vw; max-width: 100vw;

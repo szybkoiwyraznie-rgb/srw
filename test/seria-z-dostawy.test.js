@@ -201,6 +201,57 @@ test('każdy mówca skryptu prowadzi do strony postaci swojej gry', () => {
   }
 });
 
+test('każdy mówca w scenie należy do jej obsady i obsady epizodu', () => {
+  // Etykieta z katalogu pilota sama nie rozstrzyga tożsamości imienników;
+  // przypisanie w obsadzie trzeba także sprawdzić w kontekście sceny.
+  const poSlugu = new Map(strony.map((s) => [s.slug, s]));
+  const nazwaSkrocona = (p) => {
+    const m = p.body.match(/\*\*Nazwa skrócona:\*\*\s*([^\n]+)/);
+    return m ? normalizujNazwe(m[1].trim()) : null;
+  };
+  const dopasuj = (etykieta, gra) => {
+    const cel = normalizujNazwe(etykieta);
+    const zGry = postacie.filter((p) => (p.gry ?? []).includes(gra));
+    const dokladne = zGry.filter((p) =>
+      [p.tytul, p.pseudonim].some((n) => n && normalizujNazwe(n) === cel)
+      || nazwaSkrocona(p) === cel);
+    return dokladne.length > 0
+      ? dokladne
+      : zGry.filter((p) => normalizujNazwe(p.tytul).split(' ').includes(cel));
+  };
+  const problemy = [];
+  for (const scena of strony.filter((s) => s.typ === 'scena')) {
+    const epizod = poSlugu.get(scena.epizod);
+    const obsadaSceny = new Set(scena.postacie ?? []);
+    const obsadaEpizodu = new Set(epizod.postacie ?? []);
+    const tekst = [...scena.body.matchAll(/:::skrypt\n([\s\S]*?)\n:::/g)].map((m) => m[1]).join('\n');
+    const mowcy = new Set([...tekst.matchAll(/^(?:>\s*)?\*\*([^*\n:]+):\*\*/gm)].map((m) => m[1].trim()));
+    for (const etykieta of mowcy) {
+      if (GLOSY_BEZIMIENNE.has(etykieta)) continue;
+      const kandydaci = dopasuj(etykieta, epizod.gra);
+      if (!kandydaci.some((k) => obsadaSceny.has(k.slug))) {
+        problemy.push(`${scena.slug}: mówca „${etykieta}” poza postacie sceny (${kandydaci.map((k) => k.slug).join(', ')})`);
+      }
+      if (!kandydaci.some((k) => obsadaEpizodu.has(k.slug))) {
+        problemy.push(`${epizod.slug}: mówca „${etykieta}” ze sceny ${scena.slug} poza postacie epizodu`);
+      }
+    }
+  }
+  assert.deepEqual(problemy, []);
+});
+
+test('strona serii linkuje każdą przypisaną do niej encję w prozie (L16)', () => {
+  const braki = [];
+  for (const seria of strony.filter((s) => s.typ === 'seria')) {
+    for (const encja of strony.filter((s) => s.seria === seria.slug && s.slug !== seria.slug)) {
+      if (!seria.body.includes(`[[${encja.slug}|`) && !seria.body.includes(`[[${encja.slug}]]`)) {
+        braki.push(`${seria.slug}: brak wzmianki o ${encja.typ} „${encja.slug}”`);
+      }
+    }
+  }
+  assert.deepEqual(braki, []);
+});
+
 test('pseudonim jest polem strony pod imieniem i nazwiskiem, nie osobną stroną', () => {
   const zPseudonimem = postacie.filter((p) => p.pseudonim !== undefined);
   assert.ok(zPseudonimem.length > 0);

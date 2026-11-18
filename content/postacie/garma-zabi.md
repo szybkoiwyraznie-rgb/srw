@@ -41,6 +41,8 @@ Na polu walki grozi obrońcom zdobyciem [[krzyz-zeonu|Krzyża Zeonu]], a [[white
 
 ## Parametry
 
+**Nazwa skrócona:** Garma
+
 | Parametr | Wartość bazowa |
 |---|---:|
 | SP | 50 |

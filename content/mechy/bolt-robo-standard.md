@@ -41,3 +41,18 @@ W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Bolt Robo (ボルトロボ) to maso
 ![Bolt Robo/Standard — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Bolt%20Robo%20Standard%201.png)
 }}
 
+{{menu gra=srw-oe
+
+## Parametry
+
+**Seria:** Nekketsu Saikyo Go-Saurer
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Walka wręcz | 1100 | 1–1 | +60 | 0 | — | Brak w tym polu | **Mechaniz. (poziom bazowy 1):** 1 tura: Obr wroga-20% Unik-20% Szansa 10% |
+| 1 | Działo | 1400 | 1–4 | +35 | 5 | — | Brak w tym polu | **Na dużych (poziom bazowy 1):** Na dużych: Atk x1.1 Obr wroga-20%; (więksi od siebie) |
+}}

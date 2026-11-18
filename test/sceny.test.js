@@ -87,13 +87,13 @@ test('proza scen i epizodów mówi o świecie, nie o grze jako autorze (ADR 0018
   // Porównanie z pierwowzorem zostaje; autor zdania ma być świat.
   const zakazane = new RegExp([
     '\\bdo gry\\b', '\\btej gr(?:y|ze)\\b', '\\bwłasnymi słowami\\b',
-    '\\bscenariusz\\w*\\s+(?:gry|sceny)\\b', '\\bdialogi warunkowe\\b',
-    '\\b[Jj]ęzyk\\w*\\s+warsztatu\\b',
-    '\\b[Gg]r[aey]\\s+(?:pokazuje|przenosi|dodaje|zmienia|zachowuje|łączy|osadza|czyni|obsadza'
+    '\\bscenariusz[a-ząćęłńóśźż]*\\s+(?:gry|sceny)\\b', '\\bdialogi warunkowe\\b',
+    '\\bjęzyk[a-ząćęłńóśźż]*\\s+warsztatu\\b',
+    '\\bgr[aey]\\s+(?:pokazuje|przenosi|dodaje|zmienia|zachowuje|łączy|osadza|czyni|obsadza'
       + '|zastępuje|pomija|wprowadza|każe|traktuje|rozstrzyga|przypisuje|zestawia|powtarza|nazywa'
       + '|podaje|kładzie|zapowiada|rozgrywa|zarysowuje|odwraca|spotyka|wiąże|pozostawia)\\b',
-    '\\b[Ww] grze\\b',
-  ].join('|'));
+    '\\bw grze\\b',
+  ].join('|'), 'i');
   // Sekcje „W grze”/„W scenie” parametrów to surowe dane jednostki — reguła ich nie dotyczy.
   const dozwolone = /^(?:\|\s*)?(?:\*\*)?(?:W grze|W scenie)\b/;
   const problemy = [];

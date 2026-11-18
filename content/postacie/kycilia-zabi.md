@@ -32,3 +32,28 @@ W [[mobile-suit-gundam-1979|pierwowzorze]] Kycilia Zabi (キシリア・ザビ) 
 
 ![Kycilia Zabi — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Kycilia%20Zabi.png)
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Kycilia
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            112 |
+| **Obrona**  |             86 |
+| **Celność** |            131 |
+| **Unik**    |             67 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność       | Poz. nauki | Efekt bazowy                           |
+| ---: | ----------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**     |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+|    2 | **Dow. Obr/Unik** |          3 | Zasięg 3 - sojusznicy: Obr/Unik+4%     |
+|    3 | **Wsparcie**      |          3 | Wsparcie: Atk/Obr+20%                  |
+|    4 | **Blok**          |          3 | Obraż.-16% Sz. 12% *(1.08)*            |
+}}

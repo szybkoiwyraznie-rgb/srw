@@ -11,5 +11,5 @@ utworzono: 2026-11-18
 
 Największa baza [[connect-force|Connect]] w Układzie Słonecznym, do której [[white-base|White Base]] zmierza w [[srw-oe-ep3-kryjowka-piratow|scenie „Szturm na kryjówkę piratów”]] ([[srw-oe-ep3|Epizod 3]]). Stacja zarządza gigantyczną bramą warp, przez którą załoga ma wyruszyć w daleki kosmos.
 
-[[himari-yaegaki|Himari]] uczy się o bramach warp i o Stacji Mars po zdobyciu piratów; szerszy dostęp do bazy danych zawdzięcza fotelowi podpilotki [[exart|Exarta]]. Załodze pozostaje jeszcze droga przez sektor Marsa, gdzie mieści się siedziba Connect.
+[[himari-yaegaki|Himari]] uczy się o bramach warp i o Stacji Mars po zdobyciu bazy piratów; szerszy dostęp do bazy danych zawdzięcza fotelowi podpilotki [[exart|Exarta]]. Załodze pozostaje jeszcze droga przez sektor Marsa, gdzie mieści się siedziba Connect.
 }}

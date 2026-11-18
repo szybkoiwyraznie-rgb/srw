@@ -41,3 +41,18 @@ W [[nekketsu-saikyo-go-saurer|pierwowzorze]] prawe ramię Bolt Robo zakończone 
 ![Bolt Robo/Melee — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Bolt%20Robo%20Melee%202.png)
 }}
 
+{{menu gra=srw-oe
+
+## Parametry
+
+**Seria:** Nekketsu Saikyo Go-Saurer
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Walka wręcz | 1300 | 1–1 | +80 | 0 | — | Brak w tym polu | **Mechaniz. (poziom bazowy 1):** 1 tura: Obr wroga-20% Unik-20% Szansa 10% |
+| 1 | Driver Attack | 2200 | 1–2 | +70 | 10 | — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole; Zderzenie Obraż.500 Obraż. od upadku 1000; Ignoruje Osłonę; bez wsparcia; **Mechaniz. (poziom bazowy 1):** 1 tura: Obr wroga-20% Unik-20% Szansa 10% |
+}}

@@ -39,7 +39,7 @@ function wczytajPowłokę() {
 /** `fetch` czytający z katalogu `data/`, jak serwer statyczny. */
 function podstawFetch() {
   globalThis.fetch = async (adres) => {
-    const nazwa = String(adres).split('/data/').at(-1).replace(/^data\//, '');
+    const nazwa = String(adres).split('/data/').at(-1).replace(/^data\//, '').split('?')[0];
     const plik = path.join(DANE, nazwa);
     if (!fs.existsSync(plik)) return new Response('brak', { status: 404 });
     return new Response(fs.readFileSync(plik, 'utf8'), { status: 200 });

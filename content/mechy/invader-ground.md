@@ -37,3 +37,23 @@ W [[getter-robo-armageddon|pierwowzorze]] [[invaderzy|Invaderzy]] (インベー�
 
 ![Invader/Ground — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Invader%20Ground%202.png)
 }}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+**Seria:** Getter Robo Armageddon
+
+### Macierzyste zdolności maszyny
+
+- **Odtwórz (poziom bazowy 1):** HP co turę+2%; EN co turę+2%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+|---:|---|---:|:---:|---:|---:|---:|---|---|
+| 0 | Macki | 1400 | 1–3 | +10 | 5 | — | Brak w tym polu | **Wyssanie EN (poziom bazowy 1):** Wysysa 10 EN wroga Szansa 20% |
+| 1 | Miecz | 2100 | 1–2 | +40 | 0 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+}}

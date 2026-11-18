@@ -572,7 +572,7 @@ Gdy zza skalnej ściany wyłaniają się następne grupy przeciwników, [[himari
 
 ### Odkrycie bram przez załogę Gettera
 
-Równocześnie obie bramy odkrywa [[shin-getter-1|Shin Getter]]: [[go|Go]], [[kei|Kei]] i [[gai|Gai]] dostrzegają [[invader-ground|Invaderów]] oraz [[mechabestia|mechabestie]] wychodzące wprost z portali i na wezwanie [[seishiro|Seishira]] przystępują do ich rozbicia.
+W drugim wariancie natarcia obie bramy odkrywa [[shin-getter-1|Shin Getter]]: [[go|Go]], [[kei|Kei]] i [[gai|Gai]] dostrzegają [[invader-ground|Invaderów]] oraz [[mechabestia|mechabestie]] wychodzące wprost z portali i na wezwanie [[seishiro|Seishira]] przystępują do ich rozbicia.
 
 ### Zlokalizowanie źródła posiłków przez Connect
 

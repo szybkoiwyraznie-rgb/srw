@@ -27,6 +27,7 @@ Po akcji pod zakładem [[shinohara-heavy-industries|Shinohara Heavy Industries]]
 W [[srw-oe-ep2-czarny-labor|poszukiwaniach na poligonie]] przypomina [[noa-izumi|Noi]], że kołowe wozy dowodzenia nie mogą jechać wszędzie tam, gdzie dwunożne Labory, i muszą objeżdżać część terenu.
 
 Podczas [[srw-oe-ep2-ryk-dziczy|pierwszego pobytu Drugiego Plutonu w kosmosie]] widok całej Ziemi skłania go do refleksji, że żyjący na niej ludzie są ze sobą połączeni. [[kiichi-goto|Goto]] chwali jego słowa.
+
 }}
 
 {{zrodlo gra=wspolne

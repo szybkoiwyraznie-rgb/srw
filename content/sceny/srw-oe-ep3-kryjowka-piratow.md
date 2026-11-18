@@ -5,9 +5,9 @@ tytul: Szturm na kryjówkę piratów
 epizod: srw-oe-ep3
 numer_sceny: "3-4"
 streszczenie: "W drodze na Marsa Connect Force wykrywa bazę piratów ukrytą na asteroidzie i zdobywa ją w walce. Po bitwie załoga rozmawia o byłych żołnierzach Zeonu, którzy zostali piratami, a Himari zostaje nad notatkami o bramach warp i Stacji Mars."
-postacie: [himari-yaegaki, maria-shiratori, jin-hyuga, kamina, bright-noa, shiro-amada, seishiro, alan-igor, shinobu-fujiwara, isao-ota, marker, simon, oscar-dublin, mirai-yashima, koji-kabuto, amuro-ray, masato-shikibu, sara-yuki, asuka-tsukishiro, hiromi-yamazaki, noa-izumi, terry-sanders-jr, michel-ninorich, ryo-shiba, kiichi-goto, fraw-bow, pilot-ms]
+postacie: [himari-yaegaki, maria-shiratori, jin-hyuga, kamina, bright-noa, shiro-amada, seishiro, alan-igor, shinobu-fujiwara, isao-ota, marker, simon, oscar-dublin, mirai-yashima, koji-kabuto, amuro-ray, masato-shikibu, sara-yuki, asuka-tsukishiro, noa-izumi, terry-sanders-jr, michel-ninorich, ryo-shiba, kiichi-goto, fraw-bow, pilot-ms]
 mechy: [white-base, gelgoog, rick-dom, zaku-ii-bazooka, zaku-ii-karabin-maszynowy]
-pojecia: [connect-force, stacja-mars, mobile-suit, zeon]
+pojecia: [connect-force, stacja-mars, mobile-suit, zeon, earth-federation]
 pochodzenie: skrypt
 sekcje_analizy:
   - "Kurs na Marsa → Ep. 3-4: Szturm na kryjówkę piratów"
@@ -85,7 +85,6 @@ Jednak po latach wojen międzyplanetarnym szlakom handlowym bezustannie zagraża
 **Maria:** Jin, szybko pokonaj tych piratów!
 **Jin:** Jasne, zostaw to mi! Rozwalę wszystkich tych łobuzów naraz!
 **Asuka:** Nie pędź sam przed siebie.
-**Hiromi:** To takimi robotami latają piraci?
 **Koji Kabuto:** Już ja dopilnuję, żeby wam się odechciało piractwa raz na zawsze!
 **Shiro:** Kiedy zostajecie piratami, żeby się ratować, cierpią przez to inni ludzie!
 **Shiro:** Dlatego zatrzymam was tutaj!
@@ -146,7 +145,7 @@ Na mostku [[bright-noa|Bright]] czeka na spóźnionych [[jin-hyuga|Jina]] i [[ma
 
 ### Piraci w walce
 
-Starcie pokazuje, z kim załoga ma do czynienia. [[bright-noa|Bright]] każe zestrzelić nadlatujące maszyny, [[shinobu-fujiwara|Shinobu]] i [[masato-shikibu|Masato]] narzekają na same drobne potyczki, a [[sara-yuki|Sara]] radzi rozładować złość porządnym trafieniem. [[hiromi-yamazaki|Hiromi]] pyta, czy piratami naprawdę latają takie roboty, [[koji-kabuto|Koji]] zapowiada, że oduczy ich piractwa raz na zawsze, a [[shiro-amada|Shiro]] mówi wprost, że ratowanie się piractwem krzywdzi innych ludzi. [[noa-izumi|Noa]] zamyka wymianę policyjnym wezwaniem do poddania się.
+Starcie pokazuje, z kim załoga ma do czynienia. [[bright-noa|Bright]] każe zestrzelić nadlatujące maszyny, [[shinobu-fujiwara|Shinobu]] i [[masato-shikibu|Masato]] narzekają na same drobne potyczki, a [[sara-yuki|Sara]] radzi rozładować złość porządnym trafieniem. [[maria-shiratori|Maria]] dopinguje [[jin-hyuga|Jina]], którego studzi [[asuka-tsukishiro|Asuka]], a [[koji-kabuto|Koji]] zapowiada, że oduczy ich piractwa raz na zawsze, a [[shiro-amada|Shiro]] mówi wprost, że ratowanie się piractwem krzywdzi innych ludzi. [[noa-izumi|Noa]] zamyka wymianę policyjnym wezwaniem do poddania się.
 
 ### Baza zdobyta
 
@@ -161,7 +160,7 @@ Na mostku [[seishiro|Seishiro]] nie potrafi zapomnieć, że w bazie było wielu 
 | Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
 |---|---|---|---|
 | Mars, brama warp i wyprawa w daleki kosmos | [[srw-oe\|Super Robot Wars OE]] | n/d | [[stacja-mars\|Stacja Mars]] z gigantyczną bramą warp i plan wyprawy poza Układ Słoneczny nie mają odpowiednika w żadnej z obecnych serii — żadna nie prowadzi załogi w ten rejon. |
-| Piraci zagrażający szlakom handlowym poza Sferą Ziemską | [[srw-oe\|Super Robot Wars OE]] | n/d | Słabą obecność [[earth-federation\|Federacji]] na odległych trasach i kryjówka piratów na asteroidzie widać w tej misji po raz pierwszy. |
+| Piraci zagrażający szlakom handlowym poza Sferą Ziemską | [[srw-oe\|Super Robot Wars OE]] | n/d | Słaba obecność [[earth-federation\|Federacji]] na odległych trasach i kryjówka piratów wydrążona w asteroidzie pojawiają się w tej wyprawie po raz pierwszy. |
 | Byli żołnierze [[zeon\|Zeonu]] w załodze piratów | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa [[terry-sanders-jr\|Sandersa]], [[michel-ninorich\|Michela]] i [[alan-igor\|Alana]] o powodach, dla których dezerterzy zostają piratami, oraz wzmianka o syndykacie czerpiącym z nich zyski nie mają odpowiednika w żadnej z serii. |
 | [[himari-yaegaki\|Himari]] uczy się o bramach warp i [[stacja-mars\|Stacji Mars]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Szerszy dostęp do danych, który Himari zawdzięcza fotelowi podpilotki [[exart\|Exarta]], otwiera dalszą trasę. |
 }}

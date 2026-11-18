@@ -46,6 +46,8 @@ Asuka Tsukishiro (月城 飛鳥) w oryginale kieruje lotem i wysokością Raijin
 
 ## Parametry
 
+**Nazwa skrócona:** Asuka
+
 **Pula SP:** 50 *(podpilot korzysta ze statystyk bojowych głównego pilota)*
 
 ### Komendy Ducha

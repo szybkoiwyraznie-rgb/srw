@@ -10,7 +10,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { zbuduj } from '../tools/build.mjs';
+import { zbuduj, podzielDane } from '../tools/build.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const katalog = fs.mkdtempSync(path.join(os.tmpdir(), 'srw-build-'));
@@ -95,4 +95,35 @@ test('artefakt jest samowystarczalny (bez zewnętrznych zasobów)', () => {
   assert.ok(!/<link[^>]+rel="stylesheet"/.test(powloka), 'styl jest wstrzykiwany, nie linkowany');
   assert.ok(!/<script[^>]+src=/.test(powloka), 'skrypt jest wstrzykiwany, nie linkowany');
   assert.match(powloka, /<style>/);
+});
+
+test('wszystkie ilustracje postaci i mechów są we fragmentach Ilustracje', () => {
+  const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, 'media/ilustracje.json'), 'utf8'));
+  for (const slug of Object.keys(manifest.encje)) {
+    const { html } = JSON.parse(fs.readFileSync(path.join(katalog, 'data', `${slug}.json`), 'utf8'));
+    const fragmenty = html.split('<div class="fragment').filter((f) => f.includes('<img '));
+    assert.ok(fragmenty.length, `${slug}: brak ilustracji`);
+    for (const fragment of fragmenty) {
+      assert.match(fragment, /id="boks-ilustracje/, `${slug}: obraz poza Ilustracjami`);
+      assert.equal((fragment.match(/<img /g) ?? []).length,
+        (fragment.match(/<button[^>]*data-pelny-ekran[^>]*><img /g) ?? []).length,
+        `${slug}: wszystkie obrazy w przyciskach podglądu`);
+    }
+  }
+});
+
+test('wersja adresów danych jest stabilna i zmienia się z treścią', () => {
+  const dane = { strony: { gelgoog: { typ: 'mech', html: 'a', tekst: 'tekst' } }, coNowego: [] };
+  const wersja = (d) => podzielDane(d).indeks.wersjaDanych;
+  assert.match(wersja(dane), /^[0-9a-f]{16}$/);
+  assert.equal(wersja(dane), wersja(structuredClone(dane)));
+  for (const zmien of [
+    (d) => { d.strony.gelgoog.html = 'b'; },
+    (d) => { d.strony.gelgoog.tekst = 'nowy tekst'; },
+    (d) => { d.coNowego.push({ tresc: 'nowy wpis' }); },
+  ]) {
+    const kopia = structuredClone(dane);
+    zmien(kopia);
+    assert.notEqual(wersja(kopia), wersja(dane));
+  }
 });

@@ -1,13 +1,22 @@
 # Co nowego
 
+## 2026-11-18 14:20
+
+- **Kto broni Ziemi, a kto rusza ku gwiazdom?** Po bitwie w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|lesie Aokigahara]] [[saurersi|Saurersi]] z [[go-saurer|Go-Saurerem]] zostają na Ziemi przeciw mechabestiom. [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] i [[gurren-lagann|Gurren Lagann]] zgłaszają się do wyprawy [[connect-force|Connect Force]], a drużyny [[ganbaruger|Ganbarugera]] i [[daiteioh|Daiteioha]] wzmacniają obronę planety.
+
+## 2026-11-18 14:15
+
+- **Dwie postacie [[wing-gundam-zero|Wing Gundama Zero]]** — [[heero-yuy|Heero]] przechodzi od nalotu w [[wing-gundam-zero-nb|formie lotniczej]] do walki u boku [[connect-force|Connect Force]] przeciw [[invader-ground|Invaderom]]; w postaci humanoidalnej jego maszyna korzysta z tarczy, szabli wiązkowej i kilku trybów Twin Buster Rifle.
+- **Siły na Wyspach Kurylskich i pod ziemią** — [[gundam-exia|Gundam Exia]], trzy formy [[shin-getter-1|Shin Gettera]], [[go-saurer|Go-Saurer]] i inne maszyny pokazują zdolności oraz pełne uzbrojenie, a [[setsuna-f-seiei|Setsuna]], [[gihren-zabi|Gihren]] i [[kycilia-zabi|Kycilia]] — swoje umiejętności.
+
 ## 2026-11-18 11:22
 
-- **Dwie sylwetki seryjnego [[gelgoog|Gelgooga]]** — maszyna, którą w kryjówce piratów latają bezimienni piloci: karabin wiązkowy sięga pięciu pól, a naginata wiązkowa rozstrzyga zwarcie, gdzie tarcza tłumi przyjmowane obrażenia. Obok niej stoi dowódczy [[gelgoog-char|Gelgoog Chara]] z mocniejszym generatorem i cięższym uzbrojeniem.
+- **Dwie sylwetki seryjnego [[gelgoog|Gelgooga]]** — maszyna, którą w kryjówce piratów latają bezimienni [[pilot-ms|piloci MS]]: karabin wiązkowy sięga pięciu pól, a naginata wiązkowa rozstrzyga zwarcie, gdzie tarcza tłumi przyjmowane obrażenia. Obok niej stoi dowódczy [[gelgoog-char|Gelgoog Chara]] o większej sile ognia i z dodatkową szarżą przebijającą.
 
 ## 2026-11-18 08:30
 
 - **Kryjówka piratów w asteroidzie** — [[srw-oe-ep3-kryjowka-piratow|„Szturm na kryjówkę piratów”]] prowadzi [[connect-force|Connect Force]] poza Sferę Ziemską, ku [[stacja-mars|Stacji Mars]], skąd gigantyczna brama warp ma otworzyć drogę w daleki kosmos. Po drodze załoga namierza bazę piratów ukrytą w skale, wchodzi do jej portu i staje naprzeciw większej liczby [[mobile-suit|mobile suitów]], niż się spodziewała.
-- **[[gelgoog|Gelgoog]] w rękach bezimiennych pilotów** — seryjna maszyna [[zeon|Zeonu]] trafia do kryjówki obok [[rick-dom|Rick Domów]] i dwóch wersji [[zaku-ii-bazooka|Zaku II]]; w odróżnieniu od dowódczego [[gelgoog-char|Gelgooga Chara]] nosi karabin wiązkowy i naginatę wiązkową, a tarcza zmniejsza przyjmowane obrażenia w zwarciu.
+- **[[gelgoog|Gelgoog]] w rękach bezimiennych pilotów** — seryjna maszyna [[zeon|Zeonu]] broni kryjówki obok [[rick-dom|Rick Domów]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]]; podobnie jak dowódczy [[gelgoog-char|Gelgoog Chara]] nosi karabin wiązkowy, naginatę wiązkową i tarczę, ustępuje mu jednak siłą ognia, zasięgiem i brakiem ataku przebijającego.
 - **[[pilot-ms|Pilot MS]] jako zbiorowa załoga** — w bazie piratów za sterami siedzą szeregowi żołnierze bez nazwisk: w grupie wspierają się nawzajem, a ich wytrzymałość jest sumą siły całej formacji.
 - **Dezerterzy, którzy nie mieli dokąd pójść** — po walce [[seishiro|Seishiro]] pyta, dlaczego w bazie było tylu byłych żołnierzy [[zeon|Zeonu]]; [[terry-sanders-jr|Sanders]] i [[michel-ninorich|Michel]] tłumaczą, że po dezercji zostaje niewola u [[earth-federation|Federacji]] albo sąd w ojczyźnie, a [[alan-igor|Alan]] i [[ryo-shiba|Ryo]] wskazują na syndykat, który daje piratom pracę i nie pozwala odejść.
 - **[[himari-yaegaki|Himari]] nad notatkami o bramach warp** — zamiast iść na posiłek, podpilotka [[exart|Exarta]] zostaje przy nauce o [[stacja-mars|Stacji Mars]], korzystając z szerszego dostępu do danych, jaki daje jej miejsce w kokpicie.
@@ -19,11 +28,11 @@
 
 ## 2026-11-17 20:35
 
-- **[[keroro-robo-mk-ii|Keroro Robo Mk-II]] i jego lotnicza forma** — maszyna sierżanta [[sergeant-keroro|Keroro]] należy w pierwowzorze do drugiej generacji robotów plutonu i przechodzi z trybu robota w odrzutowiec, zachowując karabin wiązkowy i tarczę.
+- **[[keroro-robo-mk-ii|Keroro Robo Mk-II]] i jego lotnicza forma** — ulepszona maszyna [[sergeant-keroro|sierżanta Keroro]] z drugiej generacji robotów jego plutonu ma kokpit w zadokowanym spodku, a przy przejściu w odrzutowiec [[keroro-jet|Keroro Jet]] rezygnuje z walki wręcz i osłony tarczą na rzecz lotu oraz dłuższego zasięgu działka Vulcan i karabinu wiązkowego.
 
 ## 2026-11-17 20:32
 
-- **[[sergeant-keroro|Keroro]] w [[universal-century|Universal Century]]** — przybysz z planety Keron dowodzi plutonem, który miał podbić Pekopon, a zamiast tego oddaje się składaniu modeli Gundamów, na które wydaje wojskowy budżet; tam jego rezonansowy głos budzi szalejące [[labor|Labory]], a on sam rozpoznaje maszyny pierwszej serii i zostaje na okręcie [[white-base|White Base]].
+- **[[sergeant-keroro|Keroro]] w [[universal-century|Universal Century]]** — przybysz z planety Keron dowodzi plutonem, który miał podbić Pekopon, a zamiast tego oddaje się składaniu modeli Gundamów, na które wydaje wojskowy budżet; po przeniesieniu na kolonię kosmiczną jego rezonansowy głos budzi szalejące [[labor|Labory]], a on sam rozpoznaje maszyny pierwszej serii i zostaje na okręcie [[white-base|White Base]].
 - **Rywalizacja [[gihren-zabi|Gihrena]] i [[kycilia-zabi|Kycilii]]** — rodzeństwo Zabi rozstrzyga w sztabie [[zeon|Zeonu]] losy operacji na [[wyspy-kurylskie|Wyspach Kurylskich]]: brat uznaje zniszczenie placówki za zwycięstwo strategiczne, a siostra prosi o karę za samowolny ruch dowódcy i przyjmuje pełnomocnictwo do rozmów o użyczeniu sił, które mają zbliżyć [[connect-force|Connect]] do Zeonu.
 
 ## 2026-11-17 19:52
