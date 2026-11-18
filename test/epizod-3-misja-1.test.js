@@ -6,6 +6,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
 import { wczytajStrony } from '../tools/content-loader.mjs';
+import { stronyUczestnika, zalogiZPliku } from '../tools/uczestnicy-dostaw.mjs';
 import { sprawdzWiernoscSceny, normalizujTekst } from '../src/srw/registry.js';
 
 const pages = wczytajStrony();
@@ -50,7 +51,7 @@ test('obsada misji 3-1 wnosi Garmę, M’Quve’a i dwie nowe serie', () => {
     assert.ok(episode.postacie.includes(slug), `obsada epizodu: ${slug}`);
     assert.ok(bySlug.has(slug), `strona istnieje: ${slug}`);
   }
-  for (const slug of ['gundam-exia', 'wing-gundam-zero', 'zanzibar', 'dom', 'gelgoog-char']) {
+  for (const slug of ['gundam-exia', 'wing-gundam-zero-nb', 'zanzibar', 'dom', 'gelgoog-char']) {
     assert.ok(episode.mechy.includes(slug), `sprzęt epizodu: ${slug}`);
     assert.ok(bySlug.has(slug), `strona istnieje: ${slug}`);
   }
@@ -61,10 +62,26 @@ test('obsada misji 3-1 wnosi Garmę, M’Quve’a i dwie nowe serie', () => {
   }
   assert.equal(bySlug.get('garma-zabi').seria, 'mobile-suit-gundam-1979');
   assert.equal(bySlug.get('setsuna-f-seiei').seria, 'mobile-suit-gundam-00');
-  assert.equal(bySlug.get('wing-gundam-zero').seria, 'mobile-suit-gundam-wing');
+  assert.equal(bySlug.get('wing-gundam-zero-nb').seria, 'mobile-suit-gundam-wing');
   for (const slug of ['mobile-suit-gundam-00', 'mobile-suit-gundam-wing']) {
     assert.ok(bySlug.has(slug), `strona serii: ${slug}`);
   }
   assert.deepEqual(bySlug.get('gundam-exia').piloci, ['setsuna-f-seiei']);
-  assert.deepEqual(bySlug.get('wing-gundam-zero').piloci, ['heero-yuy']);
+  assert.deepEqual(bySlug.get('wing-gundam-zero-nb').piloci, ['heero-yuy']);
+});
+
+test('Heero nadlatuje w NB w 3-1, a przeciw Invaderom walczy w postaci MS w 3-2', () => {
+  const nb = 'wing-gundam-zero-nb';
+  const ms = 'wing-gundam-zero';
+  for (const [plik, scena, forma, druga] of [
+    ['dostawa_3_1.txt', scene, nb, ms],
+    ['dostawa_3_2.txt', bySlug.get('srw-oe-ep3-skradajacy-sie-cien'), ms, nb],
+  ]) {
+    const wiersz = zalogiZPliku(`dostawy/srw-oe/${plik}`).find((z) => z.pilot === 'Heero Yuy');
+    assert.ok(wiersz, `Heero w załodze z ${plik}`);
+    const trafienia = stronyUczestnika(wiersz.jednostka, 'srw-oe', pages, { typ: 'mech' });
+    assert.deepEqual(trafienia.map((s) => s.slug), [forma], `jednostka z ${plik}`);
+    assert.ok(scena.mechy.includes(forma) && !scena.mechy.includes(druga), scena.slug);
+    assert.ok(episode.mechy.includes(forma), `obsada całego epizodu: ${forma}`);
+  }
 });
