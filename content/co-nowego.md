@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-18 15:43
+
+- W OVA [[michel-ninorich|Michel Ninorich]] jest pilotem [[hover-truck|Hover Trucka]] i obsługuje działko, a [[eledore-massis|Eledore Mathis]] pilotem i operatorem sonaru. W [[srw-oe|Super Robot Wars OE]] Michel występuje jako pilot główny, a Eledore jako wspierający — to podział ról z gry, nie zamiana stanowisk z serialu.
+
 ## 2026-11-18 15:40
 
 - W [[srw-oe|Super Robot Wars OE]] [[keroro-robo-mk-ii|Keroro Robo Mk-II]] walczy karabinem wiązkowym z premią „Na dużych”, a po transformacji w [[keroro-jet|Keroro Jet]] tylko ten karabin dostaje premię „Na powietrze”. Osłona tarczą zmniejszająca obrażenia działa wyłącznie w formie robotycznej.
@@ -597,7 +601,7 @@
 ## 2026-10-24 00:45
 
 - [[shiro-amada|Shiro]] obejmuje [[08-pluton-ms|08. Pluton MS]] w dżunglach Azji Południowo-Wschodniej, [[karen-joshua|Karen]] jest wdową po lekarzu wojskowym i w razie potrzeby zastępuje sanitariusza, a [[terry-sanders-jr|Sandersa]] prześladuje pech trzeciej misji, który przyniósł mu przezwisko „Shinigami Sanders”.
-- [[michel-ninorich|Michel]] nawiguje i strzela, [[eledore-massis|Eledore]] prowadzi wóz wsparcia, a [[christina-mackenzie|Chris]] idzie od akademii i pracy przy komputerze uczącym do stałego fotela w [[rx-78nt-1-gundam-alex|Alexie]].
+- [[michel-ninorich|Michel]] jest pilotem i celowniczym wozu, [[eledore-massis|Eledore]] pilotem i operatorem sonaru, a [[christina-mackenzie|Chris]] idzie od akademii i pracy przy komputerze uczącym do stałego fotela w [[rx-78nt-1-gundam-alex|Alexie]].
 - [[pluton-cyclops|Pluton Cyclops]] ma podział zadań: [[hardy-steiner|Steiner]] dowodzi, [[mikhail-kaminsky|Misza]] jest jego zastępcą, [[gabriel-ramirez-garcia|Garcia]] odpowiada za broń i materiały wybuchowe, a [[andy-strauss|Andy]] za pojazdy.
 
 ## 2026-10-24 00:40

@@ -226,7 +226,7 @@ test('Eledore jest podpilotem Hover Trucka, a relacje załogi nie są przypadkow
   assert.deepEqual(bySlug.get('michel-ninorich').mechy, ['hover-truck']);
   assert.equal(bySlug.get('michel-ninorich').rola, 'pilot');
   assert.deepEqual(bySlug.get('hover-truck').piloci, ['michel-ninorich', 'eledore-massis']);
-  assert.match(scena.body, /W anime Eledore prowadzi wóz, a Michel pełni rolę nawigatora i celowniczego/);
+  assert.match(scena.body, /W OVA obaj są pilotami wozu: Michel obsługuje działko, Eledore sonar/);
 });
 
 test('Oficer zachowuje obie role, a Żołnierz Federacji ma własny profil bez przypisanej maszyny', () => {
@@ -343,8 +343,8 @@ test('obsada misji 1-5 ma tło z pierwowzorów w blokach zrodlo (ADR 0008, ADR 0
   assert.match(bySlug.get('karen-joshua').body, /wdową po lekarzu\s*\n?\s*wojskowym/);
   assert.match(bySlug.get('christina-mackenzie').body, /shoe-fitter/);
   assert.match(bySlug.get('andy-strauss').body, /ginie w kokpicie/);
-  assert.match(bySlug.get('eledore-massis').body, /za sterami wozu wsparcia/);
-  assert.match(bySlug.get('michel-ninorich').body, /nawigację i obsługuje działko/);
+  assert.match(bySlug.get('eledore-massis').body, /pilotem wozu wsparcia oraz operatorem sonaru/);
+  assert.match(bySlug.get('michel-ninorich').body, /jest pilotem i obsługuje działko/);
 });
 
 test('jednostki misji 1-5 mają tło techniczne z pierwowzorów (ADR 0008, ADR 0013)', () => {

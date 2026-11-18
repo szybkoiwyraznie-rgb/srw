@@ -5,7 +5,8 @@ tytul: 08. Pluton MS
 gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
-  - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team
+  - https://en.gundam-official.com/character/kv9z08e8kv869tgsmrigbaqz
+  - https://en.gundam-official.com/character/xlwzvd8nzsynd05g9wwkpit9
 tagi: [one-year-war, jednostka-wojskowa, federacja, 08th-ms-team]
 utworzono: 2026-10-23
 ---
@@ -20,5 +21,5 @@ Następnie odpowiada na wezwanie klucza [[medea|Medei]] i osłania go przed atak
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-08th-ms-team|*Mobile Suit Gundam: The 08th MS Team*]] jest to naziemny oddział Federacji stacjonujący w Azji Południowo-Wschodniej. Shiro obejmuje dowodzenie, Karen i Sanders są doświadczonymi pilotami, Eledore prowadzi wóz wsparcia, a Michel pełni funkcję nawigatora i celowniczego ([Wikipedia, *Mobile Suit Gundam: The 08th MS Team*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
+W [[mobile-suit-gundam-08th-ms-team|*Mobile Suit Gundam: The 08th MS Team*]] jest to naziemny oddział Federacji stacjonujący w Azji Południowo-Wschodniej. Shiro obejmuje dowodzenie, Karen i Sanders są doświadczonymi pilotami, Eledore jest pilotem wozu wsparcia i obsługuje sonar, a Michel pilotem i celowniczym ([GUNDAM Official, „Michel Ninorich”](https://en.gundam-official.com/character/kv9z08e8kv869tgsmrigbaqz); [GUNDAM Official, „Eledore Mathis”](https://en.gundam-official.com/character/xlwzvd8nzsynd05g9wwkpit9); sprawdzono 2026-11-18).
 }}
