@@ -64,13 +64,14 @@ function zbudujSrodowisko() {
     removeEventListener() {},
     atob: (s) => Buffer.from(s, 'base64').toString('binary'),
     URL,
+    URLSearchParams,
     Blob,
     Response,
     DecompressionStream,
     setTimeout,
     clearTimeout,
     fetch: async (adres) => {
-      const nazwa = String(adres).split('/data/').at(-1).replace(/^data\//, '');
+      const nazwa = String(adres).split('/data/').at(-1).replace(/^data\//, '').split('?')[0];
       const plik = path.join(DANE, nazwa);
       if (!fs.existsSync(plik)) return new Response('brak', { status: 404 });
       return new Response(fs.readFileSync(plik, 'utf8'), { status: 200 });
@@ -132,4 +133,69 @@ test('brak pliku ciała daje komunikat, nie pustą stronę', async () => {
   } finally {
     fs.writeFileSync(path.join(DANE, 'cybuster.json'), zapas);
   }
+});
+
+test('Gelgoog z Co nowego czeka na treść i renderuje obie ilustracje w galerii', async () => {
+  const { srodowisko, app, nasluchy } = zbudujSrodowisko();
+  const fetch = srodowisko.fetch;
+  let zakonczPobieranie;
+  let url;
+  srodowisko.fetch = async (adres) => {
+    if (String(adres).includes('/gelgoog.json')) {
+      url = new URL(adres);
+      await new Promise((r) => { zakonczPobieranie = r; });
+    }
+    return fetch(adres);
+  };
+  vm.runInContext(skrypt, vm.createContext(srodowisko));
+  await czekajNa(() => app.innerHTML.includes('#/mech/gelgoog'), 'link Gelgoog na stronie głównej');
+  srodowisko.location.hash = '#/mech/gelgoog';
+  nasluchy.get('hashchange')();
+  assert.match(app.innerHTML, /Wczytywanie treści/);
+  assert.ok(url.searchParams.get('v'), 'wersja danych zabezpiecza przed starym JSON-em z cache');
+  zakonczPobieranie();
+  await czekajNa(() => app.innerHTML.includes('boks-ilustracje'), 'galeria Gelgooga');
+  const galeria = app.innerHTML.split('id="boks-ilustracje"')[1].split('<div class="fragment')[0];
+  assert.equal((galeria.match(/<img /g) ?? []).length, 2);
+  assert.match(galeria, /Geloog%20Standard\.png/);
+  assert.match(galeria, /Geloog%20Standard%202\.png/);
+});
+
+test('wadliwy JSON i błąd wyszukiwania pokazują komunikat zamiast pustego widoku', async () => {
+  const { srodowisko, app, nasluchy } = zbudujSrodowisko();
+  const fetch = srodowisko.fetch;
+  srodowisko.fetch = async (adres) => {
+    if (String(adres).includes('/gelgoog.json')) return new Response('{}');
+    if (String(adres).includes('/teksty.json')) return new Response('', { status: 503 });
+    return fetch(adres);
+  };
+  vm.runInContext(skrypt, vm.createContext(srodowisko));
+  await czekajNa(() => app.innerHTML.includes('#/mech/gelgoog'), 'strona główna');
+  srodowisko.location.hash = '#/mech/gelgoog';
+  nasluchy.get('hashchange')();
+  await czekajNa(() => app.innerHTML.includes('nieprawidłowe dane strony'), 'błąd danych');
+  srodowisko.location.hash = '#/szukaj?q=Gelgoog';
+  nasluchy.get('hashchange')();
+  await czekajNa(() => app.innerHTML.includes('HTTP 503'), 'błąd wyszukiwania');
+  assert.match(app.innerHTML, /Odśwież stronę/);
+});
+
+test('opóźniona odpowiedź nie nadpisuje nowej trasy', async () => {
+  const { srodowisko, app, nasluchy } = zbudujSrodowisko();
+  const fetch = srodowisko.fetch;
+  let zwolnij;
+  srodowisko.fetch = async (adres) => {
+    if (String(adres).includes('/gelgoog.json')) await new Promise((r) => { zwolnij = r; });
+    return fetch(adres);
+  };
+  vm.runInContext(skrypt, vm.createContext(srodowisko));
+  await czekajNa(() => app.innerHTML.includes('#/mech/gelgoog'), 'strona główna');
+  srodowisko.location.hash = '#/mech/gelgoog';
+  nasluchy.get('hashchange')();
+  srodowisko.location.hash = '#/o-bazie';
+  nasluchy.get('hashchange')();
+  await czekajNa(() => app.innerHTML.includes('O bazie'), 'nowa trasa');
+  zwolnij();
+  await new Promise((r) => setTimeout(r, 30));
+  assert.doesNotMatch(app.innerHTML, /id="boks-ilustracje"/);
 });

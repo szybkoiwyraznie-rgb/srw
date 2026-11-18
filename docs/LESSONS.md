@@ -338,3 +338,18 @@ Podział drużyn z misji 2-8 powinien być dostępny na stronach drużyn i maszy
 nie tylko w długim zapisie sceny. Zgodnie z późniejszą decyzją właściciela
 usunięto jedną nienależącą do misji 3-4 kwestię również z dostawy i archiwum;
 był to konkretny wyjątek, a nie ogólne pozwolenie na edycję źródeł.
+
+## L27. Sprawdzaj podgląd i powłokę jak użytkownik
+
+Sama obecność znaczników galerii nie dowodzi, że kliknięcie działa: podgląd
+rzucił błąd niezdefiniowanej zmiennej dopiero po otwarciu dialogu. Testuj
+również zdarzenia, fokus i zamknięcie oraz jawnie ukrywaj nieotwarty dialog
+w przeglądarkach bez natywnej obsługi. Sprawdzaj położenie obrazów we
+wszystkich zbudowanych ciałach, nie tylko na jednej przykładowej stronie.
+
+Nawigacja asynchroniczna musi pokazać stan ładowania i czytelny błąd, również
+przy uszkodzonym JSON-ie lub błędzie renderowania; opóźniona odpowiedź nie
+może nadpisać późniejszej trasy. Wersjonowanie adresów danych skrótem treści
+ogranicza mieszanie nowej powłoki z przestarzałymi plikami z cache po wdrożeniu.
+Nie uznawaj tych zabezpieczeń za dowód przyczyny błędu, którego nie udało się
+odtworzyć w konkretnym środowisku czytelnika.

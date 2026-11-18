@@ -80,3 +80,48 @@ test('podpięcie podglądu jest bezpieczne bez dokumentu i bez okna', () => {
   assert.equal(podepnijPodglad(null), null);
   assert.equal(podepnijPodglad({ getElementById: () => null }), null);
 });
+
+test('klik ilustracji otwiera dialog, blokuje tło i oddaje fokus po zamknięciu', () => {
+  const zdarzenia = new Map();
+  const klasy = new Set();
+  const obraz = { removeAttribute(n) { if (n === 'src') delete this.src; } };
+  const zamknij = { addEventListener() {}, focus() { this.fokus = true; } };
+  const oknoZdarzenia = new Map();
+  const okno = {
+    open: false,
+    querySelector(s) { return s === '[data-obraz]' ? obraz : s === '[data-zamknij]' ? zamknij : null; },
+    addEventListener(t, fn) { oknoZdarzenia.set(t, fn); },
+    removeEventListener() {},
+    showModal() { this.open = true; },
+    close() { this.open = false; oknoZdarzenia.get('close')(); },
+  };
+  const dokument = {
+    getElementById: () => okno,
+    documentElement: { classList: { add: (k) => klasy.add(k), remove: (k) => klasy.delete(k) } },
+    addEventListener: (t, fn) => zdarzenia.set(t, fn),
+    removeEventListener() {},
+  };
+  const miniatura = { currentSrc: 'https://example.com/a.png', alt: 'Gelgoog' };
+  const przycisk = {
+    isConnected: true,
+    querySelector: () => miniatura,
+    closest: () => null,
+    focus() { this.fokus = true; },
+  };
+  const odepnij = podepnijPodglad(dokument);
+  zdarzenia.get('click')({ target: { closest: () => przycisk }, preventDefault() {} });
+  assert.equal(okno.open, true);
+  assert.equal(obraz.src, miniatura.currentSrc);
+  assert.ok(klasy.has('podglad-otwarty'));
+  assert.equal(zamknij.fokus, true);
+  okno.close();
+  assert.equal(obraz.src, undefined);
+  assert.equal(klasy.has('podglad-otwarty'), false);
+  assert.equal(przycisk.fokus, true);
+  odepnij();
+});
+
+test('zamknięty dialog jest ukryty także bez natywnej obsługi', () => {
+  const css = fs.readFileSync(path.join(ROOT, 'src/srw/style.css'), 'utf8');
+  assert.match(css, /dialog\.podglad:not\(\[open\]\)\s*\{\s*display:\s*none/);
+});

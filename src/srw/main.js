@@ -9,8 +9,10 @@ import { podepnijZwijanie } from './zwijanie.js';
 import { podepnijSkokiWStronie } from './skoki-w-stronie.js';
 import { wlaczLeniweObrazy } from './leniwe-obrazy.js';
 import { rama, tytulStrony, nieZnalesc, nazwaTypu, stanPusty } from './render.js';
+import { escapeHtml } from './markdown.js';
 import {
   zaladujDane, dociagnijStrone, dociagnijTeksty, dociagnijCoNowego, czyTrybPlikow,
+  czyStronaWczytana, czyTekstyWczytane,
 } from './ladowanie.js';
 import { czasStrony, coNowegoCzas, czasBazy } from './data.js';
 import { renderGlowna } from './render-home.js';
@@ -42,21 +44,28 @@ async function renderuj(trasa) {
   if (!app) return;
   const moj = ++tokenRenderu;
 
-  if (trasa.nazwa === 'szukaj' && trasa.query?.q) await dociagnijTeksty();
-  if (trasa.nazwa === 'co-nowego') await dociagnijCoNowego();
-  if (TRASY_STRONY.has(trasa.nazwa) && trasa.param) {
-    try {
-      await dociagnijStrone(trasa.param);
-    } catch (blad) {
-      if (moj !== tokenRenderu) return;
-      app.innerHTML = rama(trasa.nazwa, 'Nie udało się wczytać strony', stanPusty(
-        `Nie udało się wczytać treści: ${blad.message}`,
-        'Witryna z podziałem danych wymaga serwera HTTP. Otwierana z dysku wymaga wersji jednoplikowej (`npm run build:single`).',
-      ));
-      return;
+  try {
+    const czekaNaStrone = TRASY_STRONY.has(trasa.nazwa) && trasa.param && !czyStronaWczytana(trasa.param);
+    const czekaNaTeksty = trasa.nazwa === 'szukaj' && trasa.query?.q && !czyTekstyWczytane();
+    if (czekaNaStrone || czekaNaTeksty) {
+      app.innerHTML = rama(trasa.nazwa, 'Wczytywanie', stanPusty('Wczytywanie treści…'));
     }
+    if (trasa.nazwa === 'szukaj' && trasa.query?.q) await dociagnijTeksty();
+    if (trasa.nazwa === 'co-nowego') await dociagnijCoNowego();
+    if (TRASY_STRONY.has(trasa.nazwa) && trasa.param) await dociagnijStrone(trasa.param);
+    if (moj !== tokenRenderu) return;
+    renderujGotowaTrase(trasa, app);
+  } catch (blad) {
+    if (moj !== tokenRenderu) return;
+    globalThis.console?.error?.('render:', blad);
+    app.innerHTML = rama(trasa.nazwa, 'Nie udało się wczytać strony', stanPusty(
+      `Nie udało się wczytać treści: ${escapeHtml(blad?.message ?? String(blad))}`,
+      'Odśwież stronę i spróbuj ponownie. Plik otwierany bezpośrednio z dysku wymaga wersji jednoplikowej (`npm run build:single`).',
+    ));
   }
-  if (moj !== tokenRenderu) return;
+}
+
+function renderujGotowaTrase(trasa, app) {
 
   let aktywna = trasa.nazwa;
   let tytul = 'SRW Database';

@@ -165,7 +165,7 @@ export function podepnijPodglad(dokument = globalThis.document) {
 }
 
 /** Otwiera podgląd dla wskazanego przycisku ilustracji. */
-function otworzPodglad(przycisk) {
+function otworzPodglad(przycisk, dokument) {
   const miniatura = przycisk.querySelector('img');
   if (!miniatura) return;
   const adres = miniatura.currentSrc || adresObrazu(miniatura);
