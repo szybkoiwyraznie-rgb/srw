@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-19 20:55
+
+- Cała obsada [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoka z połączenia”]] prowadzi teraz do samej sceny: [[takuma-nagare|Takuma]] dowodzi pierwszą prawdziwą walką [[getter-arc|Gettera Arca]] i przekazuje szybkiego [[getter-kirik|Kirika]] [[show-kamui|Kamuiowi]], [[yume-minami|Yume]] mówi w kokpicie [[dynazenon|Dynazenona]], że bez nich miasto ucierpi, a [[cross-tsukinowa|Cross]] bierze na siebie całą walkę z kaiju. [[annina-servania|Annina]] jako pierwsza łączy potwory z unoszeniem samochodów i budynków.
+
 ## 2026-11-19 20:30
 
 - W [[srw-oe-ep1|pierwszym epizodzie Super Robot Wars OE]] [[medea|Medea]] prowadzi ogień z wieży karabinem przeciwlotniczym, a [[ingram-nr-1|Ingram nr 1]] chwyta wroga linką i odbiera mu celność, zanim ten zdąży odpowiedzieć.

@@ -17,6 +17,8 @@ w_gre:
 Mobilny pancerz ninja przywódcy Tajnych Sił Specjalnych Haze. Elastyczna rama i napęd ze sztucznymi mięśniami dają mu niespotykaną zwrotność. Sterowanie odbywa się w systemie półpodporządkowanym, łączącym ruchy ciała pilota z obsługą różnych manipulatorów, co czyni maszynę niezwykle delikatną. Maszyna i pilot są połączeni nerwowo, więc pilot odczuwa też uszkodzenia; kto nie przeszedł szkolenia [[ninja|NINJA]], z trudem zdoła nią choćby chodzić. Szal na plecach to rój nanomaszyn, służący nie tylko do ataku, ale też, zależnie od taktyki, do maskowania i zwodzenia. Lunedrache, maszyna na zamówienie dla przywódcy, ma inny silnik niż seryjny Mond i dysponuje wybuchową mocą. Nazwę “Lunedrache” nosi każda maszyna kolejnych przywódców Haze; maszyna obecnego przywódcy, od jego kryptonimu, nazywa się oficjalnie “X (Cross)-Lunedrache”.
 
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] [[cross-tsukinowa|Cross]] powierza obsługę maszyny [[wren|Wren]], zastrzegając jednak, że napęd i układy sterowania stanowią czarną skrzynkę, w której porządnie grzebać może chyba tylko konstruktor. Gdy w pobliżu góry Asama pojawiają się [[insector|Insectorzy]], startuje z [[a-advent|A. Adventu]] na prośbę [[echika-y-franburnett|Echiki]] i broni okrętu u boku przejętego [[getter-d2|Gettera D2]], a następnie [[getter-arc|Getter Arca]].
+
+W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] [[cross-tsukinowa|Cross]] bierze nią całą walkę z kaiju („Kaiju zostawcie nam!”), prosi [[echika-y-franburnett|Echikę]] o otwarcie części kopuły i wyznacza kierunek, którym trzeba wypchnąć potwory na zewnątrz.
 }}
 
 {{menu gra=srw-y

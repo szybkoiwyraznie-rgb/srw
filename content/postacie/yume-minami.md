@@ -18,6 +18,8 @@ Koleżanka [[yomogi-asanaka|Yomogiego]] z klasy. Umawia się z chłopcami, a pot
 
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] przychodzi na zebranie na placu [[miasto-yagami|miasta Yagami]] z przyjaciółką [[mei|Mei]]: tłumaczy nieobecność rodziców chłodem panującym w domu i przyznaje, że przed chwilą wściekł się na nią kolejny wystawiony chłopak z drugiej klasy.
 
+W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] trafia do kokpitu [[dynazenon|Dynazenona]] razem z [[yomogi-asanaka|Yomogim]] i [[koyomi-yamanaka|Koyomim]], gdy figurka smoka zamienia się w maszynę. Przed rozdzieleniem sił mówi, że jeśli oni tego nie zrobią, miasto ucierpi, i razem z resztą rusza do walki z kaiju.
+
 Gdy po drugiej stronie kopuły piloci zastanawiają się nad odwrotem, Yume chce zostać: jeśli nie będą walczyć, ucierpi miasto. Później jako pierwsza z trójki odpowiada na pytanie Gaumy o współpracę z Echiką.
 }}
 

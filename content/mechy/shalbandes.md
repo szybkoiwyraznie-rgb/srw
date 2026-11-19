@@ -6,7 +6,7 @@ seria: ssss-dynazenon
 typ_mecha: kaiju
 piloci: []
 gry: [srw-y]
-pochodzenie: menu
+pochodzenie: skrypt
 zrodla:
   - https://ultra.fandom.com/wiki/Shalbandes
 tagi: [srw-y, kaiju, dynazenon]
@@ -18,7 +18,7 @@ w_gre:
 
 Pierwszy kaiju, z którym mierzy się [[dynazenon|Dynazenon]]. Jego pojawienie się poprzedza unoszenie samochodów i budynków w [[miasto-yagami|mieście Yagami]] — piszą o tym w sieci i mówią mieszkańcy, a [[annina-servania|Annina]] wiąże potem to zjawisko z pojawieniem się potworów wewnątrz kopuły.
 
-W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] pojawia się w mieście, gdy [[koyomi-yamanaka|Koyomi]] i [[chise-asukagawa|Chise]] idą obejrzeć latające samochody. [[gauma|Gauma]] próbuje przejąć nad nim władzę, ale traci moc i nie potrafi go „złapać”; wtedy jego figurka smoka zamienia się w Dynazenona i zabiera do kokpitu czworo przypadkowych ludzi. Potwory atakują kopułę od środka, więc [[cross-tsukinowa|Cross]] każe otworzyć jej część i wypchnąć je na zewnątrz, gdzie walkę kończą Dynazenon i drużyna [[getter-arc|Gettera]]. Po starciu [[juuga|Juuga]] przyznaje, że jego grupa straciła wszystkie kaiju, którymi sterowała.
+W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] pojawia się w mieście, gdy [[koyomi-yamanaka|Koyomi]] i [[chise-asukagawa|Chise]] idą obejrzeć latające samochody. [[gauma|Gauma]] próbuje przejąć nad nim władzę, ale traci moc i nie potrafi go „złapać”; wtedy jego figurka smoka zamienia się w Dynazenona i zabiera do kokpitu czworo przypadkowych ludzi. Potwory atakują kopułę od środka, więc [[cross-tsukinowa|Cross]] każe otworzyć jej część i wypchnąć je na zewnątrz, gdzie walkę kończą Dynazenon i drużyna [[getter-arc|Gettera]]. Po starciu [[onija|Onija]] złorzeczy, że mieli w garści tyle kaiju i wszystkie przepadły, a [[juuga|Juuga]] proponuje, żeby właśnie to miasto uczynić bazą — rodzi się w nim wyjątkowo wiele potworów.
 }}
 
 {{zrodlo gra=wspolne

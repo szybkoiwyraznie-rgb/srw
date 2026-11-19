@@ -12,5 +12,5 @@ utworzono: 2026-11-19
 ---
 {{skrypt gra=srw-y
 
-Po walce nad [[a-advent|A. Adventem]] złości się, że jego grupa straciła wszystkie kaiju, którymi sterowała. [[gauma|Gauma]] nazywa tę bandę [[klub-kaiju|Klubem Kaiju]].
+Po walce nad [[a-advent|A. Adventem]] w [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] złości się, że jego grupa straciła wszystkie kaiju, którymi sterowała. [[gauma|Gauma]] nazywa tę bandę [[klub-kaiju|Klubem Kaiju]].
 }}
