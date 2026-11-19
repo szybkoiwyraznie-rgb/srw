@@ -8,8 +8,6 @@ streszczenie: "Szósta misja epizodu 1: 08. Pluton MS odpowiada na wezwanie kluc
 sekcje_analizy:
   - Serwis i wezwanie → Baza Federacji / Hangar
   - Priorytet osłony → Medea pod ostrzałem
-  - Części od GM-a w walce → Dialogi bojowe — sytuacyjne
-  - Dwa warianty zakończenia → Warunkowe rozstrzygnięcie — jeden przebieg wydarzeń
   - Po akcji → Po akcji ratunkowej
 pochodzenie: skrypt
 zrodla:
@@ -75,28 +73,13 @@ Po zakończeniu misji w Azji Środkowej 08. Pluton MS dostał rozkaz przenosin d
 **Michel:** S-spróbujemy!
 **Michel:** Eledore, mów mi, jak porusza się wróg!
 **Eledore:** Zostaw to mi!
-:::
-
-:::skrypt
-#### Dialogi bojowe — sytuacyjne
 
 > **Sanders:** Mają gdzieś, że jest eskorta... Najwyraźniej nas lekceważą.
 > **Karen:** Te części od GM-a są całkiem niezłe. Wytrzymałe, a zapasowych jest pod dostatkiem.
-:::
-
-:::skrypt
-#### Warunkowe rozstrzygnięcie — jeden przebieg wydarzeń
 
 > **Oficer Federacji:** Tu Medea. Kurs zabezpieczony... Dzięki za ratunek!
 > **Eledore:** Dźwięki maszyn bojowych ucichły...!
 > **Michel:** Jakoś udało się ich odeprzeć.
-> **Shiro:** Dobra, misja zakończona. Wracamy.
-
-#### Warunkowe rozstrzygnięcie — alternatywny przebieg wydarzeń
-
-> **Eledore:** Dźwięki maszyn bojowych ucichły...!
-> **Michel:** Jakoś udało się ich odeprzeć.
-> **Oficer Federacji:** Tu Medea. Kurs zabezpieczony... Dzięki za ratunek!
 > **Shiro:** Dobra, misja zakończona. Wracamy.
 :::
 
@@ -124,15 +107,11 @@ Rozmowa w hangarze zestawia brak właściwych części z praktycznymi zaletami g
 
 ### Priorytet osłony
 
-Załoga Medei prosi o osłonę i niezgubienie ścigających ją Doppów. [[eledore-massis|Eledore]] wykrywa jednak także dźwięk wrogich mobile suitów na ziemi, więc zagrożenie nie ogranicza się do powietrza. Shiro nadaje osłonie klucza najwyższy priorytet: najpierw trzeba zdjąć zwrotne Doppy, a [[michel-ninorich|Michel]] i Eledore mają prowadzić Medeę tak, aby nie znalazła się pod ogniem przeciwlotniczym pozostałych maszyn.
-
-### Części od GM-a w walce
+Załoga Medei nie może zgubić ścigających ją Doppów i prosi o osłonę. [[eledore-massis|Eledore]] wykrywa jednak także dźwięk wrogich mobile suitów na ziemi, więc zagrożenie nie ogranicza się do powietrza. Shiro nadaje osłonie klucza najwyższy priorytet: najpierw trzeba zdjąć zwrotne Doppy, a [[michel-ninorich|Michel]] i Eledore mają prowadzić Medeę tak, aby nie znalazła się pod ogniem przeciwlotniczym pozostałych maszyn.
 
 [[terry-sanders-jr|Sanders]] zauważa, że przeciwnik lekceważy eskortę. Karen natomiast wraca do tematu z hangaru i już w walce chwali części od GM-a za wytrzymałość oraz dostępność zapasów. To, co początkowo wyglądało na prowizoryczną naprawę, okazuje się praktyczną zaletą jej konfiguracji.
 
-### Dwa warianty zakończenia
-
-Oba warianty zakończenia kończą się tak samo, choć inaczej rozkładają komunikaty. Eledore melduje ciszę po walce, Michel potwierdza odparcie przeciwnika, Oficer dziękuje za ratunek i zgłasza zabezpieczony kurs, a Shiro kończy misję rozkazem powrotu. Warianty różnią się więc układem wypowiedzi, nie rozstrzygnięciem wydarzeń.
+Oficer Federacji dziękuje za zabezpieczenie kursu. Eledore melduje, że dźwięki walki ucichły, Michel potwierdza odparcie wroga, a Shiro zarządza powrót.
 
 ### Po akcji
 

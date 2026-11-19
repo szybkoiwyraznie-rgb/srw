@@ -2,7 +2,7 @@
  * Misja 6 epizodu 1 „Ratuj transportowiec Medea”: dostawa z 2026-10-24
  * (dostawa_1_6.txt).
  *
- * Regresje pilnują archiwum, dosłownej sceny 1-6, rzeczywistych wariantów
+ * Regresje pilnują archiwum, dosłownej sceny 1-6, jednokrotnego
  * zakończenia, powiązań obsady oraz nowych danych Medei i pilotów.
  */
 import test from 'node:test';
@@ -39,7 +39,15 @@ test('dostawa 1-6 jest zachowana bajt w bajt, a cała misja pozostaje w skrypcie
   assert.match(delivery, /^## Medea$/m);
   assert.match(delivery, /^#### Terry Sanders Jr\.$/m);
   const expected = delivery.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
-  assert.ok(script.includes(expected), 'misja z obiema wariantami i narracją pozostaje w epizodzie');
+  // Korekta właściciela: dostawa zostaje surowa, log pomija tylko trzy etykiety i drugi meldunek.
+  const poprawiony = expected.replace('#### Dialogi bojowe — sytuacyjne\n\n', '')
+    .replace('#### Warunkowe rozstrzygnięcie — jeden przebieg wydarzeń\n\n', '')
+    .replace(/#### Warunkowe rozstrzygnięcie — alternatywny przebieg wydarzeń[\s\S]*?(?=### Po akcji ratunkowej)/, '');
+  const misja = script.slice(script.indexOf('## Ratuj transportowiec Medea'), script.indexOf('## Szalejący Labor powraca')).trim();
+  assert.equal(misja, poprawiony);
+  const cytaty = [...scena.body.matchAll(/:::skrypt\n([\s\S]+?)\n:::/g)].map(m => m[1]).join('\n');
+  const linie = s => s.split('\n').filter(l => l.trim());
+  assert.deepEqual(linie(cytaty), linie(poprawiony), 'strona pokazuje cały poprawiony log raz, w tej samej kolejności');
   assert.ok(!script.includes('UCZESTNICY'));
   assert.ok(!script.includes('DL101_60'));
 });
@@ -50,10 +58,8 @@ test('scena 1-6 jest dosłowna i poprzedza misję 1-7 w epizodzie 1', () => {
   assert.equal(scena.numer_sceny, '1-6');
   assert.equal(scena.tytul, 'Ratuj transportowiec Medea');
   assert.deepEqual(sprawdzWiernoscSceny(scena, script), []);
-  assert.equal((scena.body.match(/:::skrypt/g) ?? []).length, 5);
+  assert.equal((scena.body.match(/:::skrypt/g) ?? []).length, 3);
   for (const fragment of ['### Baza Federacji / Hangar', '### Medea pod ostrzałem',
-    '#### Warunkowe rozstrzygnięcie — jeden przebieg wydarzeń',
-    '#### Warunkowe rozstrzygnięcie — alternatywny przebieg wydarzeń',
     'Po krótkim odpoczynku 08. Pluton MS wsiadł na pokład Medei i odleciał do Jaburo.']) {
     assert.ok(scena.body.includes(fragment), fragment);
   }
@@ -62,20 +68,18 @@ test('scena 1-6 jest dosłowna i poprzedza misję 1-7 w epizodzie 1', () => {
   assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6', '1-7', '1-8']);
 });
 
-test('pięć etapów analizy ma kotwice i opisuje prawdziwe warianty zakończenia', () => {
+test('analiza ma kotwice do trzech etapów i nie sugeruje drugiego zakończenia', () => {
   const blokAnalizy = scena.body.split('## Analiza')[1].split('\n## ')[0];
   const analiza = [...blokAnalizy.matchAll(/^### (.+)$/gm)].map((m) => m[1]);
-  assert.deepEqual(analiza, ['Serwis i wezwanie', 'Priorytet osłony', 'Części od GM-a w walce',
-    'Dwa warianty zakończenia', 'Po akcji']);
+  assert.deepEqual(analiza, ['Serwis i wezwanie', 'Priorytet osłony', 'Po akcji']);
   const mapa = scena.sekcje_analizy ?? [];
-  assert.equal(mapa.length, 5);
+  assert.equal(mapa.length, 3);
   for (const wpis of mapa) {
     const [lewa, prawa] = String(wpis).split('→').map((s) => s.trim());
     assert.ok(analiza.includes(lewa), `analiza: ${lewa}`);
     assert.ok(scena.body.includes(prawa), `treść: ${prawa}`);
   }
-  assert.match(blokAnalizy, /inaczej rozkładają komunikaty/);
-  assert.match(blokAnalizy, /nie rozstrzygnięciem wydarzeń/);
+  assert.doesNotMatch(blokAnalizy, /wariant|alternatywn/i);
   assert.match(scena.body, /\*\*Oficer Federacji:\*\* Tu Medea\. Kurs zabezpieczony\.\.\. Dzięki za ratunek!/);
 });
 

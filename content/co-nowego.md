@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-19 15:50
+
+- W [[srw-oe-ep1-ratuj-transportowiec-medea|eskorcie Medei]] to załoga transportowca pierwsza melduje, że kurs jest bezpieczny. Po meldunkach [[eledore-massis|Eledore’a]] i [[michel-ninorich|Michela]] [[shiro-amada|Shiro]] zarządza powrót.
+
 ## 2026-11-19 15:36
 
 - [[srw-y-ep1-misja-3a-smok-z-polaczenia|Smok z połączenia]]: kiedy kaiju pojawiają się pod kopułą, [[gauma|Gauma]] przyzywa [[dynazenon|Dynazenona]]. Czworo pilotów dostają od Crossa jedno zadanie: przenieść walkę poza miasto, zanim ucierpią mieszkańcy.
