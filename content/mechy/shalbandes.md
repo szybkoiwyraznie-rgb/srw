@@ -19,6 +19,15 @@ Kaiju, przeciw któremu w obronie miasta Yagami występuje [[dynazenon|Dynazenon
 
 {{menu gra=srw-y
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Shalbandes — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Hard%20Fall%20Kaiju%20Shalbandes.png)
+}}
+
+{{menu gra=srw-y
+
 ## Parametry
 
 | Parametr           | Wartość bazowa |

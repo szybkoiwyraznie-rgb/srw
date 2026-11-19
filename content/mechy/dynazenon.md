@@ -19,6 +19,15 @@ Gdy Gauma nie może zapanować nad kaiju, odpowiada mu figurka smoka. Czerwony r
 
 {{menu gra=srw-y
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Dynazenon — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Combine%20Dragon%20Dynazenon.png)
+}}
+
+{{menu gra=srw-y
+
 ## Parametry
 
 | Parametr           | Wartość bazowa |

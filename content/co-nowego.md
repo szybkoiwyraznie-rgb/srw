@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-19 16:12
+
+- W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] czerwony [[dynazenon|Dynazenon]] staje do obrony miasta przed kaiju. Jednym z przeciwników jest [[shalbandes|Shalbandes]], który wprawia przedmioty w lewitację.
+
 ## 2026-11-19 16:04
 
 - W [[srw-oe-ep1-start-alexa|„Starcie Alexa”]] [[shiro-amada|Shiro]] żegna się z [[christina-mackenzie|Chris]] przed powrotem na patrol. Chris chciałaby zobaczyć go w akcji, ale woli, żeby tym razem nie pojawił się wróg.

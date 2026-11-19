@@ -299,14 +299,14 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
   }
 });
 
-test('ilustracje właściciela: 271 plików przy 217 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 273 pliki przy 219 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
   // Bieżący stan manifestu jest przypięty tylko tutaj. Testy poszczególnych dostaw sprawdzają
   // własne klucze i to, że manifest nie jest starszy od nich — kolejna dostawa zmienia ten jeden test.
-  assert.equal(Object.keys(manifest.encje).length, 217);
-  assert.equal(Object.values(manifest.encje).flat().length, 271);
-  assert.equal(manifest.dostarczono, '2026-11-18', 'data ostatniej dostawy ilustracji');
+  assert.equal(Object.keys(manifest.encje).length, 219);
+  assert.equal(Object.values(manifest.encje).flat().length, 273);
+  assert.equal(manifest.dostarczono, '2026-11-19', 'data ostatniej dostawy ilustracji');
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   assert.equal(new Set(wszystkie).size, wszystkie.length, 'plik należy do jednej encji');
@@ -753,4 +753,15 @@ test('dostawa ilustracji SRW Y 1-2A (2026-11-17): pięć jednostek (w tym Getter
   assert.equal(bySlug.get('matka-yomogiego').tytul, 'Matka Yomogiego');
   assert.ok(manifest.dostarczono >= '2026-11-17', 'manifest nie jest starszy od tej dostawy');
   assert.equal(manifest.weryfikacjaZdalna, false);
+});
+
+test('SRW Y 1-3A: ilustracje Dynazenona i Shalbandesa należą do jednostek', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  for (const [slug, plik] of [['dynazenon', 'Combine Dragon Dynazenon.png'], ['shalbandes', 'Hard Fall Kaiju Shalbandes.png']]) {
+    assert.deepEqual(manifest.encje[slug], [plik]);
+    const strona = bySlug.get(slug);
+    assert.equal(strona.typ, 'mech');
+    const galeria = strona.body.match(/\{\{menu gra=srw-y\n\n## Ilustracje\n([\s\S]*?)\n\}\}/);
+    assert.ok(galeria?.[1].includes(`${manifest.baseUrl}/${encodeURIComponent(plik)}`), slug);
+  }
 });
