@@ -27,7 +27,7 @@ import { wczytajStrony, wczytajSkrypty } from '../tools/content-loader.mjs';
 import { zbudujDane } from '../tools/build.mjs';
 import {
   porownajZBaza, przypisaniaDostaw, przypisaniaZPliku, normalizujNazwe, RODZAJE_ROZBIEZNOSCI,
-  porownajZalogi, zalogiZPliku, RODZAJE_ROZBIEZNOSCI_ZALOG,
+  porownajZalogi, zalogiZPliku, zalogiDostaw, rekordBezOsoby, RODZAJE_ROZBIEZNOSCI_ZALOG,
 } from '../tools/uczestnicy-dostaw.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -143,6 +143,26 @@ test('załoga z listy jednostek misji jest załogą strony — pilot główny i 
   }
   assert.ok(raport.par > 0);
   assert.equal(raport.zgodnych, raport.par);
+});
+
+test('rekord pilota o nazwie jednostki (także z przydomkiem) nie daje strony pilota', () => {
+  // W SRW Y wrogie maszyny mają w silniku techniczny rekord pilota, którego nazwa
+  // powtarza jednostkę: „Insector — pilot główny: Insector”, a dla kaiju podtytuł
+  // dokłada się do nazwy — „Shalbandes — pilot główny: Hard Fall Kaiju Shalbandes”.
+  // Takie wpisy nie są osobami: mech zostaje z pustym `piloci`, a strona postaci
+  // o nazwie rekordu nie powstaje (ADR 0037 pkt 7, L24).
+  const rekordy = zalogiDostaw({ root: ROOT }).filter((z) => rekordBezOsoby(z.jednostka, z.pilot));
+  assert.ok(rekordy.length > 0, 'dostawy mają rekordy pilota o nazwie jednostki');
+  const zPrzydomkiem = rekordy.filter((z) => normalizujNazwe(z.jednostka) !== normalizujNazwe(z.pilot));
+  assert.ok(zPrzydomkiem.length > 0, 'wśród nich jest rekord „jednostka + przydomek”');
+  for (const rekord of rekordy) {
+    const trafione = strony.filter((s) => s.typ === 'postac'
+      && normalizujNazwe(s.tytul) === normalizujNazwe(rekord.pilot));
+    assert.deepEqual(trafione.map((s) => s.slug), [],
+      `„${rekord.pilot}” (${rekord.plik}:${rekord.wiersz}) to techniczny rekord pilota, nie osoba — strony postaci nie zakładamy`);
+  }
+  assert.deepEqual(strony.find((s) => s.slug === 'shalbandes').piloci, [],
+    'Shalbandes: kaiju bez osobowego pilota');
 });
 
 test('pilot wpisany w polu piloci ma tę maszynę w polu mechy', () => {

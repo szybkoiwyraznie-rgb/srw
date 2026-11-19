@@ -4,9 +4,11 @@ slug: shalbandes
 tytul: "Shalbandes"
 seria: ssss-dynazenon
 typ_mecha: kaiju
-piloci: [hard-fall-kaiju-shalbandes]
+piloci: []
 gry: [srw-y]
 pochodzenie: menu
+zrodla:
+  - https://ultra.fandom.com/wiki/Shalbandes
 tagi: [srw-y, kaiju, dynazenon]
 utworzono: 2026-11-19
 w_gre:
@@ -15,6 +17,11 @@ w_gre:
 {{menu gra=srw-y
 
 Kaiju, przeciw któremu w obronie miasta Yagami występuje [[dynazenon|Dynazenon]]. Na początku fazy gracza odzyskuje jedną dziesiątą maksymalnych HP.
+}}
+
+{{zrodlo gra=wspolne
+
+W serialu [[ssss-dynazenon|*SSSS.DYNAZENON*]] Shalbandes jest pierwszym kaiju, z którym mierzy się [[dynazenon|Dynazenon]]. Nosi podtytuł „Hard Fall Kaiju” (急転直下怪獣, *kyūtenchokka kaijū* — „potwór nagłego zwrotu wydarzeń”), a jego nazwa pochodzi od nazwiska Augustina Charpentiera, fizyka badającego złudzenie rozmiaru i ciężaru ([Ultra Wiki, *Shalbandes*](https://ultra.fandom.com/wiki/Shalbandes); sprawdzono 2026-11-19).
 }}
 
 {{menu gra=srw-y

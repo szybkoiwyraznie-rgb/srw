@@ -5,7 +5,7 @@ tytul: "Smok z połączenia"
 epizod: srw-y-ep1
 numer_sceny: 1-3A
 streszczenie: "Gauma przyzywa Dynazenona, gdy kaiju pojawiają się pod kopułą miasta Yagami. Razem z Yomogim, Yume i Koyomim wypiera je poza miasto, gdzie do walki włącza się drużyna Gettera. Po bitwie Echika prosi czwórkę o pomoc w obronie A. Adventu."
-postacie: [annina-servania, baku-yamagishi, chise-asukagawa, cross-tsukinowa, echika-y-franburnett, gauma, juuga, koyomi-yamanaka, mujina, onija, show-kamui, sizumu, takuma-nagare, yomogi-asanaka, yume-minami, hard-fall-kaiju-shalbandes]
+postacie: [annina-servania, baku-yamagishi, chise-asukagawa, cross-tsukinowa, echika-y-franburnett, gauma, juuga, koyomi-yamanaka, mujina, onija, show-kamui, sizumu, takuma-nagare, yomogi-asanaka, yume-minami]
 mechy: [dynazenon, getter-arc, getter-kirik, getter-khan, a-advent, lunedrache, shalbandes]
 pojecia: [miasto-yagami, ninja, statek-emigracyjny, ultradaleka-flota-emigracyjna, klub-kaiju]
 sekcje_analizy:

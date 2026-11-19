@@ -46,12 +46,7 @@ const INNE_ZAPISY_NAZW = {
 /** Wpisy w miejscu pilota, które nie są osobą: rekord bez pilota albo głos bez imienia. */
 const BRAK_PILOTA = [/^brak$/i, /^Brak przypisanego klucza pilota\b/i, /^\?+$/];
 
-/**
- * Maszyna bez załogi: dostawa wpisuje w miejscu pilota nazwę samej jednostki
- * („**Insector** — pilot główny: Insector”). To broń kierowana bez człowieka,
- * więc para „jednostka — pilot” nie powstaje i strona mecha ma puste `piloci`.
- */
-const samJestPilotem = (jednostka, pilot) => normalizujNazwe(jednostka) === normalizujNazwe(pilot);
+
 
 /** Dopisek, którym dostawa oznacza cel albo obiekt skryptowy zamiast pilotowanej maszyny. */
 const NIEPILOTOWANA = /nie jest pilotowanym mechem/;
@@ -148,6 +143,36 @@ const wariantNazwy = (nazwa) => String(nazwa ?? '').match(/^.*?\s*\((.*)\)$/)?.[
 const bezWariantuDanych = (nazwa) => String(nazwa ?? '')
   .replace(/\s+—\s+(?:wariant danych \d+|forma po transformacji)$/, '');
 
+/** Słowa jednostki w kolejności — porównywanie nazw bez względu na przydomek. */
+const slowaNazwy = (nazwa) => normalizujNazwe(nazwa).split(' ').filter(Boolean);
+
+/**
+ * Nazwa pilota zawiera całą nazwę jednostki jako ciąg słów
+ * („Hard Fall Kaiju Shalbandes” wobec „Shalbandes”).
+ */
+const zawieraNazwe = (pilot, jednostka) => {
+  const p = slowaNazwy(pilot);
+  const j = slowaNazwy(jednostka);
+  if (!j.length || j.length > p.length) return false;
+  for (let i = 0; i + j.length <= p.length; i++) {
+    if (j.every((slowo, k) => p[i + k] === slowo)) return true;
+  }
+  return false;
+};
+
+/**
+ * Maszyna bez osobowego pilota: dostawa wpisuje w miejscu pilota rekord
+ * o nazwie samej jednostki („**Insector** — pilot główny: Insector”) albo
+ * o nazwie jednostki z przydomkiem jej typu („**Shalbandes** — pilot główny:
+ * Hard Fall Kaiju Shalbandes”, gdzie „Hard Fall Kaiju” to podtytuł kaiju).
+ * W obu razach to techniczny rekord silnika, nie osoba — para „jednostka —
+ * pilot” nie powstaje, a strona mecha ma puste `piloci`.
+ */
+const samJestPilotem = (jednostka, pilot) => zawieraNazwe(pilot, jednostka);
+
+/** Czy wiersz listy misji podaje w miejscu pilota samą jednostkę, nie osobę. */
+export const rekordBezOsoby = samJestPilotem;
+
 /**
  * Strony postaci i mechów odpowiadające nazwie z dostawy. Kolejno:
  * jawny inny zapis, profil jednostki w `w_gre`, tytuł strony, dla zapisu
@@ -187,6 +212,11 @@ export function stronyUczestnika(nazwa, gra, strony, { typ = null } = {}) {
     return profil && normalizujNazwe(wariantNazwy(profil)) === szukana;
   });
   if (poWariancieProfilu.length) return poWariancieProfilu;
+  // Rekord pilota o nazwie jednostki z przydomkiem typu („Hard Fall Kaiju Shalbandes”
+  // dla kaiju „Shalbandes”) opisuje tę samą maszynę — strony pod nazwą rekordu nie ma.
+  const taJednostka = encje.filter((s) => s.typ === 'mech' && zawieraNazwe(nazwa, s.tytul));
+  if (taJednostka.length === 1) return taJednostka;
+
 
   return encje.filter((s) => (s.gry ?? []).includes(gra)
     && [s.tytul, profilWGrze(s, gra)].some((n) => n && n !== bezWariantuDanych(n) && normalizujNazwe(bezWariantuDanych(n)) === szukana));
