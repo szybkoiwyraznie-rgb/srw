@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-19 18:05
+
+- [[shalbandes|Shalbandes]], pierwszy kaiju, z którym mierzy się [[dynazenon|Dynazenon]] w [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]], nosi podtytuł „Hard Fall Kaiju” — *kyūtenchokka kaijū*, „potwór nagłego zwrotu wydarzeń”. W [[srw-y|Super Robot Wars Y]] walczy jako kaiju bez osobnej załogi i odzyskuje część HP na początku każdej fazy.
+
 ## 2026-11-19 16:12
 
 - W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] czerwony [[dynazenon|Dynazenon]] staje do obrony miasta przed kaiju. Jednym z przeciwników jest [[shalbandes|Shalbandes]], który wprawia przedmioty w lewitację.
