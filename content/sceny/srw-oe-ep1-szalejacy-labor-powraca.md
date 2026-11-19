@@ -9,7 +9,6 @@ sekcje_analizy:
   - Koszt stałej gotowości → SV2, Drugi Pluton / Hangar
   - Kod 205 → Zgłoszenie z 7. okręgu
   - Granice działania → Wielki plac budowy
-  - Utrzymanie pozycji → Dialogi bojowe — sytuacyjne — utrzymanie pozycji
   - Pomoc Raijin-Oh → Przybycie Raijin-Oh
   - Nierozwiązana przyczyna → Po bitwie
   - Ocena obserwatorów → Wielki plac budowy / Okolica
@@ -82,10 +81,6 @@ Drugi Pluton [[sv2|SV2]] otrzymuje zgłoszenie o bezzałogowych [[brocken|Brocke
 **Goto:** No i tak to wygląda. Wolno trochę poszaleć, ale ani Labory, ani kule nie mogą wyjść poza ten kwartał.
 **Ota:** Zrozumiałem! Proszę to nam zostawić!
 **Izumi:** No to jazda!
-:::
-
-:::skrypt
-#### Dialogi bojowe — sytuacyjne — utrzymanie pozycji
 
 > **Izumi:** Jest ich tyle, nie zatrzymam wszystkich!
 > **Ota:** Cholera! Przestańcie się tak kręcić!
@@ -166,8 +161,6 @@ Komunikat o kodzie 205 w Shin-Shinagawa Seaside zmienia narzekanie w natychmiast
 ### Granice działania
 
 Kanuka rozpoznaje przeciwnika jako SEE Type-7, czyli [[brocken|Brockena]]. [[kiichi-goto|Goto]] przekazuje, że bezzałogowe Labory firmy ochroniarskiej szaleją w hangarze, a Shinohara ostrzega przed wojskowym przeznaczeniem konstrukcji, choć przewiduje brak broni palnej w modelu ochroniarskim. Ewakuacja mieszkańców zmniejsza ryzyko dla ludzi, lecz nie zdejmuje ograniczeń: Goto pozwala „trochę poszaleć”, pod warunkiem że ani Labory, ani kule nie opuszczą wyznaczonego kwartału. Shinshi i [[hiromi-yamazaki|Yamazaki]] obawiają się przy tym reakcji Oty, który może zbyt szybko użyć broni.
-
-### Utrzymanie pozycji
 
 Noa przyznaje, że przy tej liczbie przeciwników nie zatrzyma wszystkich, a Ota ma trudność z wycelowaniem w poruszające się maszyny. Te krótkie wypowiedzi pokazują, że zadaniem nie jest swobodny pościg: piloci muszą powstrzymywać Brockeny na wyznaczonym obszarze.
 

@@ -85,12 +85,6 @@ sekcje_analizy:
   - Przeczucia Himari przed wskazaniami czujników → Szósty zmysł Himari
   - Wejście Kojiego Kabuto w Mazingerze Z → Mazinger Z
   - Przebicie ściany przez drużynę Gurren → Wiertło z innego świata
-  - Pierwsze starcie z nieznanymi potworami → Dialogi bojowe — sytuacyjne — starcie z nowymi wrogami
-  - Poszukiwania Gurren Laganna za skalną przegrodą → Dialogi warunkowe — drużyna Gurren szuka za ścianą
-  - Ocena nowych sojuszników przez załogę Gettera → Dialogi sytuacyjne — reakcja zespołu Getter
-  - Kolejne fale posiłków zza skały → Dialogi warunkowe — kolejny odczyt za ścianą
-  - Odkrycie bram przez załogę Gettera → Dialogi warunkowe — zespół Getter odnajduje bramę
-  - Zlokalizowanie źródła posiłków przez Connect → Dialogi sytuacyjne — posiłki
   - Uderzenie na bramy Mucus i zakończenie bitwy → Brama Mucus
   - Tajemnica Mucus i splecenie światów → Akademia Hinobori / Klasa
   - Nowi rekruci w drodze na orbitę → Connect / Samolot transportowy
@@ -321,20 +315,12 @@ Saurersi to również dzieci wybrane przez Eldrana, które ocaliły Ziemię prze
 **Kamina:** Spokojnie, dasz radę! Ja w to wierzę!
 **Kamina:** Więc uwierz... Wierz we mnie, wierzącego w ciebie!
 **Simon:** Bracie... Dobra, spróbuję!
-:::
-
-:::skrypt
-#### Dialogi bojowe — sytuacyjne — starcie z nowymi wrogami
 
 > **Gai:** Invaderzy czy mechabestie, wszystko jedno, i tak zagrażają Ziemi.
 > **Go:** Kimkolwiek są, wroga trzeba zmiażdżyć...! I tyle.
 > **Yoko:** Nie wiem, co to jest, ale to chyba coś w rodzaju gniazda wroga!
 > **Kamina:** Słuchaj, Simon! Zasada bójki numer jeden: rozwal łeb przeciwnika!
 > **Simon:** Dobra, Bracie! Spróbuję!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — drużyna Gurren szuka za ścianą
 
 > **Kamina:** Hm...?
 > **Kamina:** Hej, Simon! Czujesz coś za tą ścianą?
@@ -348,10 +334,6 @@ Saurersi to również dzieci wybrane przez Eldrana, które ocaliły Ziemię prze
 > **Simon:** Wyłażą kolejne potwory!
 > **Yoko:** To z tego wyłażą te potwory!
 > **Kamina:** Skoro tak, trzeba to rozwalić!
-:::
-
-:::skrypt
-#### Dialogi sytuacyjne — reakcja zespołu Getter
 
 > **Gai:** Przeszli na drugą stronę ściany?
 > **Go:** Najwyraźniej wyczuli wroga.
@@ -363,10 +345,6 @@ Saurersi to również dzieci wybrane przez Eldrana, które ocaliły Ziemię prze
 > **Go:** Mają instynkt, który pozwala zwęszyć wroga...
 > **Gai:** Może są trochę jak my.
 > **Kei:** No nie wiem.
-:::
-
-:::skrypt
-#### Dialogi warunkowe — kolejny odczyt za ścianą
 
 > **Go:** Nowi wrogowie...
 > **Ota:** Końca nie widać!
@@ -375,10 +353,6 @@ Saurersi to również dzieci wybrane przez Eldrana, które ocaliły Ziemię prze
 > **Himari:** Za tą ścianą czuję silną energię!
 > **Seishiro:** Dobrze, sprawdźmy to!
 > **Seishiro:** Rzeczywiście... Czujniki też wykrywają słaby odczyt energii.
-:::
-
-:::skrypt
-#### Dialogi warunkowe — zespół Getter odnajduje bramę
 
 > **Kei:** Zostawcie to mi!
 > **Go:** To jest...
@@ -393,10 +367,6 @@ Saurersi to również dzieci wybrane przez Eldrana, które ocaliły Ziemię prze
 > **Kei:** Spokojnie. Zostawcie to drużynie Gettera.
 > **Simon:** Bracie!
 > **Kamina:** Jasne! My też działamy, Simon!
-:::
-
-:::skrypt
-#### Dialogi sytuacyjne — posiłki
 
 > **Ota:** Hm, posiłki wroga!
 > **Seishiro:** Tamtą stronę zostawmy Getterowi i Gurren Teamowi, a my oczyśćmy tę stronę z wrogów!
@@ -554,27 +524,15 @@ Kolejna fala [[nekton-assault|Nekton Assault]] ujawnia niezwykłą cechę [[hima
 
 Równoległa przebitka ukazuje [[simon|Simona]], [[kamina|Kaminę]], [[yoko|Yoko]] i [[boota|Bootę]] przemierzających podziemia w [[gurren-lagann|Gurren Lagannie]] w poszukiwaniu punktu zbornego zwierzoludzi. Wyczuwając wrogów za skalną ścianą, Simon na rozkaz Kaminy przewierca ją wiertłem i wpada w sam środek bitwy na Ziemi. Nim ktokolwiek zdąży wyjaśnić nieporozumienie, Kamina bierze nieznane stwory za nowe [[gunmen|Gunmeny]] i z charakterystyczną brawurą włącza [[gurren-team|drużynę Gurren]] do wspólnej obrony pieczary.
 
-### Pierwsze starcie z nieznanymi potworami
-
 Krótkie kwestie bojowe podczas otwarcia wymiany ognia podkreślają dezorientację załogi [[gurren-lagann|Gurren Laganna]] wobec istot innych niż [[gunmen|Gunmeny]] oraz determinację [[seishiro|Seishira]] i [[himari-yaegaki|Himari]], by powstrzymać napór [[nekton-assault|Nekton Assault]].
-
-### Poszukiwania Gurren Laganna za skalną przegrodą
 
 W środku bitwy [[gurren-lagann|Gurren Lagann]] przedostaje się za kamienną ścianę i natrafia na dwie pulsujące struktury — [[mucus-gate-s-in|Mucus Gate S IN]] oraz [[mucus-gate-s-mc|Mucus Gate S MC]] — z których nieprzerwanie wyskakują wrogie jednostki. [[seishiro|Seishiro]] natychmiast nakazuje ich zniszczenie jako jedyny sposób na odcięcie posiłków.
 
-### Ocena nowych sojuszników przez załogę Gettera
-
 W sytuacyjnych wymianach zdań [[gai|Gai]], [[kei|Kei]] i [[go|Go]] komentują niespodziewane pojawienie się [[gurren-lagann|Gurren Laganna]]: mimo szorstkiego dystansu doceniają siłę przebicia nowej maszyny w walce z przeważającą liczbą wrogów.
-
-### Kolejne fale posiłków zza skały
 
 Gdy zza skalnej ściany wyłaniają się następne grupy przeciwników, [[himari-yaegaki|Himari]] znów wyprzedza czujniki [[exart|Exarta]], utwierdzając [[seishiro|Seishira]] w przekonaniu, że za przegrodą kryje się aktywne źródło przerzutu.
 
-### Odkrycie bram przez załogę Gettera
-
 W drugim wariancie natarcia obie bramy odkrywa [[shin-getter-1|Shin Getter]]: [[go|Go]], [[kei|Kei]] i [[gai|Gai]] dostrzegają [[invader-ground|Invaderów]] oraz [[mechabestia|mechabestie]] wychodzące wprost z portali i na wezwanie [[seishiro|Seishira]] przystępują do ich rozbicia.
-
-### Zlokalizowanie źródła posiłków przez Connect
 
 Niezależnie od wybranego skrzydła natarcia napływ wrogów zmusza sojuszników do znalezienia przyczyny anomalii — [[himari-yaegaki|Himari]] wskazuje obszar za kamienną ścianą jako punkt, z którego wyłaniają się potwory.
 

@@ -16,13 +16,9 @@ sekcje_analizy:
   - Ostatnie minuty pościgu → W pościgu za Zanzibarem
   - Tokwan prosi o start → Na pokładzie Zanzibara
   - Widzowie własnej bitwy → White Base / Mostek
-  - Nowa maszyna Czerwonej Komety → Dialogi warunkowe — Char i piloci White Base
-  - Szarża zamiast uników → Dialogi sytuacyjne — zbliżenie do White Base
-  - Odwrót bez kapitulacji → Dialogi warunkowe — odwrót pilotów Zeonu
   - Connect przerywa ogień → Spotkanie z Connect
   - Złość w hangarze → Zanzibar / Hangar
   - Samowolny start → Samowolny wylot
-  - Pojedynek z mobile armorem → Dialogi warunkowe — starcie z Bigro
   - Koniec Bigro i depesza z Zanzibara → Bigro pokonany
   - Okręt wchodzi do Connect Force → White Base / Mostek
 tagi: [scena, srw-oe, gundam, white-base, connect, kosmos]
@@ -75,10 +71,6 @@ Nie zdołał jednak zgubić Zanzibara Chara, a oba okręty zbliżały się do si
 **Marker:** Nadlatuje Zanzibar!
 **Char:** Zablokować drogę konia trojańskiego! Wyprzedzić go jednym zrywem!
 **Bright:** Zaraz spotkamy się z Connect! Za wszelką cenę odpierajcie atak wroga!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Char i piloci White Base
 
 > **Amuro:** Nowy mobile suit?!
 > **Char:** Ten Gelgoog powinien przebić jego pancerz.
@@ -86,20 +78,12 @@ Nie zdołał jednak zgubić Zanzibara Chara, a oba okręty zbliżały się do si
 > **Sayla:** Nawet w kosmosie ściga nas Czerwona Kometa...! Nie chcę wierzyć, że to przeznaczenie, ale...
 > **Char:** Hmpf, myśliwiec z Jaburo. Więc może działać także w kosmosie.
 > **Char:** Piloci konia trojańskiego nabierają wprawy.
-:::
-
-:::skrypt
-#### Dialogi sytuacyjne — zbliżenie do White Base
 
 > **Oscar:** Zbliża się mobile suit!
 > **Bright:** Co robi obrona przeciwlotnicza?! Nie dopuśćcie go do okrętu!
 > **Char:** Hmpf. Szarża jest bezpieczniejsza niż bezładne uniki.
 > **Marker:** Nie zatrzymuje się! L-leci prosto na nas!
 > **Bright:** To Char! Tylko Char tak walczy!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — odwrót pilotów Zeonu
 
 > **Char:** Ugh... Niedobrze. Wracam na okręt-matkę.
 > **Slender:** Tch, nie zginę, zanim nie zdobędę chwały!
@@ -149,10 +133,6 @@ Nie zdołał jednak zgubić Zanzibara Chara, a oba okręty zbliżały się do si
 **Seishiro:** Czyli świeżo utworzony Connect Force nie ma dość wpływów, żeby tak łatwo przerwać walkę...
 **Seishiro:** Himari, wchodzimy do walki!
 **Himari:** Tak jest! Aktywuję całe uzbrojenie!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — starcie z Bigro
 
 > **Tokwan:** Szybkość tego Bigro... Nie myśl, że to jakiś zwykły mobile suit!
 > **Amuro:** Co za przyspieszenie! Czy Gundam w ogóle za nim nadąży?!
@@ -221,19 +201,13 @@ Na mostku [[white-base|White Base]] najgorzej znoszą pościg ci, którzy nie mo
 
 Druga połowa rozmowy dotyczy tego, czym właściwie jest [[connect-force|Connect]]. [[bright-noa|Bright]] nie ukrywa wątpliwości: to organizacja cywilna i nie wiadomo, jak zachowa się w starciu z Zeonem. [[kai-shiden|Kai]] przypomina, że przy ucieczce z [[side-7|Side 7]] pomogła im maszyna Connect, [[amuro-ray|Amuro]] dopowiada, że chodziło wtedy o ratowanie cywilów. Pytanie zostaje bez odpowiedzi — rozstrzygnie je dopiero to, co Connect zrobi za chwilę.
 
-### Nowa maszyna Czerwonej Komety
-
 [[char-aznable|Char]] wychodzi do walki w maszynie, której załoga okrętu jeszcze nie zna. [[amuro-ray|Amuro]] melduje „nowy mobile suit?!”, a Char zapowiada, że [[gelgoog-char|Gelgoog]] przebije pancerz [[rx-78-2-gundam|Gundama]]. To pierwszy raz, kiedy Czerwona Kometa nie ma przewagi wyłącznie z pilotażu, lecz także ze sprzętu.
 
 Reszta kwestii mierzy postęp przeciwnika: [[sayla-mass|Sayla]] nie chce wierzyć, że pościg to przeznaczenie, Char odnotowuje, że myśliwiec z [[jaburo|Jaburo]] radzi sobie i w kosmosie, i przyznaje, że „piloci konia trojańskiego nabierają wprawy”. Pochwała z jego ust jest zarazem ostrzeżeniem dla jego własnej strony.
 
-### Szarża zamiast uników
-
 Zbliżenie Chara do okrętu rozgrywa się w kilku zdaniach meldunków. [[oscar-dublin|Oscar]] zgłasza [[mobile-suit|mobile suit]] na kursie, [[bright-noa|Bright]] pyta o obronę przeciwlotniczą, [[marker|Marker]] krzyczy, że maszyna nie zwalnia — a sam Char tłumaczy swoją taktykę jednym zdaniem: „szarża jest bezpieczniejsza niż bezładne uniki”.
 
 Bright rozpoznaje przeciwnika po samym sposobie walki: „To Char! Tylko Char tak walczy!”. Sama legenda Czerwonej Komety działa tu wcześniej niż broń — zanim padnie choć jeden celny strzał.
-
-### Odwrót bez kapitulacji
 
 Trzy kwestie odwrotu pokazują, że dla pilotów Zeonu to nie jest ta sama bitwa. [[char-aznable|Char]] wraca na okręt-matkę rzeczowo, [[slender|Slender]] zapowiada, że nie zginie, zanim nie zdobędzie chwały, a [[crown|Crown]] odmawia śmierci „w takim miejscu”, bo komandor uratował mu życie.
 
@@ -256,8 +230,6 @@ Jedno zdanie w hangarze [[zanzibar|Zanzibara]] wystarcza za całą scenę: [[tok
 [[bigro|Bigro]] startuje bez rozkazu i cała kurtuazja sprzed chwili przestaje obowiązywać. [[char-aznable|Char]] reaguje złością na własnego oficera, [[marker|Marker]] melduje [[mobile-armor|mobile armora]], a [[shiro-amada|Shiro]] trzeźwo ocenia sytuację: to samowola kogoś, kto nie uznaje rozejmu, a jeśli maszyna zignoruje wezwania, [[zanzibar|Zanzibar]] i tak się nie wycofa.
 
 Dla [[connect-force|Connect]] to pierwszy sprawdzian świeżo ogłoszonej jurysdykcji. [[seishiro|Seishiro]] mówi wprost, że nowa formacja nie ma jeszcze dość wpływów, żeby tak po prostu przerwać walkę, i razem z [[himari-yaegaki|Himari]] wchodzi do akcji — tym razem nie jako rozjemca, lecz jako jednostka bojowa.
-
-### Pojedynek z mobile armorem
 
 Starcie z [[bigro|Bigro]] jest pojedynkiem z przewagą techniczną po stronie wroga. [[tokwan|Tokwan]] ostrzega, żeby nie brać jego maszyny za zwykły [[mobile-suit|mobile suit]], [[amuro-ray|Amuro]] nie dowierza przyspieszeniu, [[kai-shiden|Kai]] nie rozumie, dlaczego jeden przeciwnik atakuje sam, a [[hayato-kobayashi|Hayato]] przyznaje, że siła ognia i szybkość armora to „inna liga”.
 

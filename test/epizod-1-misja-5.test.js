@@ -5,6 +5,7 @@
  * konfiguracji jednostek, profili pilotów oraz różnic wobec odcinka 1 Gundam 0080.
  */
 import test from 'node:test';
+import { bezEtykietDialogow } from './helpers/skrypt-oe.js';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -37,7 +38,7 @@ test('dostawa 1-5 jest zachowana bajt w bajt, a jej scena trafia do epizodu bez 
   assert.match(delivery, /^### Odcinek 1 — Start Alexa \(`DL101_50`\)$/m);
   assert.match(delivery, /^## Gundam Ez8$/m);
   assert.match(delivery, /^#### Christina Mackenzie$/m);
-  const expected = delivery.split('---\nSKRYPT\n---\n\n')[1].split('\n---\nUCZESTNICY\n---')[0]
+  const expected = bezEtykietDialogow(delivery.split('---\nSKRYPT\n---\n\n')[1].split('\n---\nUCZESTNICY\n---')[0])
     .replace('### Fragment alternatywny 1\n\n', '')
     .replace(/### Fragment alternatywny 2\n[\s\S]*?(?=### Start wahadłowca)/, '').trim();
   const przedMisja6 = script.split('\n\n---\n\n## Ratuj transportowiec Medea')[0];
@@ -52,8 +53,7 @@ test('scena 1-5 jest dosłowna i poprzedza misję 1-6 w kolejności epizodu', ()
   assert.equal(scena.numer_sceny, '1-5');
   assert.equal(scena.tytul, 'Start Alexa');
   assert.deepEqual(sprawdzWiernoscSceny(scena, script), []);
-  for (const fragment of ['#### Dialogi warunkowe — obwód obronny',
-    '#### Dialogi bojowe — sytuacyjne — powrót Karen', '**Shiro:** No to wracam do patrolu. Pani porucznik, proszę spokojnie wsiadać.',
+  for (const fragment of ['**Shiro:** No to wracam do patrolu. Pani porucznik, proszę spokojnie wsiadać.',
     '**Żołnierz Federacji:** Wahadłowiec startuje!']) {
     assert.ok(scena.body.includes(fragment), fragment);
   }

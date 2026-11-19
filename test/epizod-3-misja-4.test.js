@@ -1,6 +1,7 @@
 /** Dostawa 3-4: „Szturm na kryjówkę piratów” — kurs na Marsa, baza piratów
  *  wydrążona w asteroidzie i rozmowa na mostku o losach dezerterów Zeonu. */
 import test from 'node:test';
+import { bezEtykietDialogow } from './helpers/skrypt-oe.js';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -11,7 +12,7 @@ const pages = wczytajStrony();
 const bySlug = new Map(pages.map((p) => [p.slug, p]));
 const bytes = fs.readFileSync('dostawy/srw-oe/dostawa_3_4.txt');
 const raw = bytes.toString('utf8').replace(/\r\n/g, '\n');
-const deliveredScript = raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
+const deliveredScript = bezEtykietDialogow(raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0]).trim();
 // Misja kończy się przed wariantem tekstu z dodatku — ten jest odmienną wersją
 // tych samych wydarzeń, nie dalszym ciągiem, i nie wchodzi do archiwum rozegrania.
 const coreScript = deliveredScript.split('\n\n## Wariant tekstu DLC')[0].trim();
@@ -37,9 +38,9 @@ test('scena 3-4 cytuje cały skrypt dosłownie i wskazuje epizod oraz kolejny nu
   assert.equal(scene.epizod, 'srw-oe-ep3');
   assert.deepEqual(sprawdzWiernoscSceny(scene, archive), []);
   const blocks = [...scene.body.matchAll(/:::skrypt\n([\s\S]*?)\n:::/g)].map((m) => m[1]);
-  assert.equal(blocks.length, 6, 'każdy etap sceny ma osobny blok skryptu');
+  assert.equal(blocks.length, 5, 'każdy etap sceny ma osobny blok skryptu');
   assert.equal(normalizujTekst(blocks.join('\n')), normalizujTekst(script));
-  assert.equal(scene.sekcje_analizy.length, 6);
+  assert.equal(scene.sekcje_analizy.length, 5);
   assert.equal(scene.sekcje_analizy[0], 'Kurs na Marsa → Ep. 3-4: Szturm na kryjówkę piratów');
   assert.equal(scene.sekcje_analizy.at(-1), 'Los dezerterów → White Base / Mostek');
   // Analiza nie wymienia nagłówków skryptu jako tematów — opisuje świat.

@@ -12,11 +12,7 @@ pochodzenie: skrypt
 sekcje_analizy:
   - "Cień po bitwie → Ep. 3-2: Skradający się cień"
   - "Laboratorium Cyber-Newtype'ów → Go wyczuwa kolejnego wroga"
-  - "Exart w ogniu → Dialogi sytuacyjne — Exart w niebezpieczeństwie"
   - "Metalowa Bestia → Metalowa Bestia"
-  - "Zespół Raijin-Oh → Dialogi warunkowe — Raijin-Oh"
-  - "Zespół Shin Gettera → Dialogi warunkowe — zespół Shin Getter"
-  - "Dancouga → Dialogi warunkowe — Dancouga"
   - "Po bitwie → Po bitwie"
   - "Hangar White Base → White Base / Hangar"
   - "Siły kolonii → Siły kolonii"
@@ -84,10 +80,6 @@ Wciąż w gotowości bojowej, mobile suity stały teraz naprzeciw Connect Force.
 **Himari:** Co robimy?
 **Seishiro:** To chyba oczywiste. Zniszczenie Invaderów ma pierwszeństwo.
 **Seishiro:** Ruszamy!
-:::
-
-:::skrypt
-#### Dialogi sytuacyjne — Exart w niebezpieczeństwie
 
 **Seishiro:** Ngh... Nieźle oberwaliśmy.
 **Seishiro:** Himari, sprawdź, gdzie jest dźwignia katapultowania. Wtedy w razie czego ciało samo zareaguje.
@@ -108,29 +100,17 @@ Wciąż w gotowości bojowej, mobile suity stały teraz naprzeciw Connect Force.
 **Go:** Tak...
 **Koji Kabuto:** Pewnie to ich herszt.
 **Invader:** Gisziaaach!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Raijin-Oh
 
 **Maria:** Fuuuj, wije się i jest obrzydliwe! Jin, szybko to pokonaj!
 **Jin:** Daj spokój, Mario! Boisz się czegoś takiego? Zachowujesz się jak dziewczyna, przestań.
 **Maria:** Słucham, Jin?! Żebyś wiedział, że ja...!
 **Asuka:** ...Wy dwoje. Nie kłóćcie się w środku walki.
-:::
-
-:::skrypt
-#### Dialogi warunkowe — zespół Shin Getter
 
 **Go:** Invader...!
 **Invader:** Kisziaaach!
 **Gai:** Przeczucie Go było trafne...! Placówkę przejęły te stwory!
 **Kei:** Nie wierzę, że wdarło się tu tylu Invaderów! Jak tak dalej pójdzie, Ziemia...!
 **Invader:** Kisziaaach!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Dancouga
 
 **Masato:** Ten jest inny niż reszta! Pokrywa go jakaś twarda skorupa!
 **Sara:** Wygląda na to, że na niego półśrodki nic nie dadzą...!
@@ -299,23 +279,15 @@ Misja zaczyna się tam, gdzie skończyła się poprzednia: obserwatorium na [[wy
 
 [[setsuna-f-seiei|Setsuna]] mówi, że walka z Connect Force nie należy do ich misji, a [[heero-yuy|Heero]] melduje jej zakończenie i wycofuje się. Zanim to zrobi, wyjaśnia, że placówka była laboratorium [[cyber-newtype|Cyber-Newtype'ów]] [[earth-federation|Federacji]] — ośrodkiem nieoficjalnych eksperymentów na ludziach, w których tworzono wzmocnionych żołnierzy. [[bright-noa|Bright]] nie dowierza, że Federacja robiła coś takiego, [[alan-igor|Alan]] wskazuje na frakcję w wojsku i producentów broni, a [[kei|Kei]] podsumowuje, że Connect i Cyber Beast Force dały się oszukać. [[himari-yaegaki|Himari]] nie przyjmuje tego do wiadomości i chce iść szukać ocalałych.
 
-### Exart w ogniu
-
 Krótka wymiana w kabinie [[exart|Exarta]] pokazuje, jak blisko siebie pracują oboje piloci: [[seishiro|Seishiro]] każe [[himari-yaegaki|Himari]] znaleźć dźwignię katapultowania, żeby ciało zareagowało samo, a ona protestuje, że na zewnątrz zamarznie. Wniosek jest prosty — ma wspierać go tak dobrze, żeby nie zostali zestrzeleni.
 
 ### Metalowa Bestia
 
 [[go|Go]] wyczuwa kolejną falę wrogów, którą są [[invaderzy|Invaderzy]] — dowód, że placówka nie należała już do Federacji. [[koji-kabuto|Koji]] zakłada, że wielki osobnik to ich herszt, a walka przenosi się na nowego przeciwnika; [[heero-yuy|Heero]] i [[setsuna-f-seiei|Setsuna]] walczą u boku obrońców, bo Invaderzy są wrogiem także dla nich.
 
-### Zespół Raijin-Oh
-
 W walce słychać szkolny ton drużyny [[matchless-raijin-oh|Raijin-Oh]]: [[maria-shiratori|Maria]] brzydzi się wijącym stworem, [[jin-hyuga|Jin]] odpowiada jej docinkiem o „dziewczyńskim” strachu, a [[asuka-tsukishiro|Asuka]] ucisza oboje.
 
-### Zespół Shin Gettera
-
 [[go|Go]], [[gai|Gai]] i [[kei|Kei]] potwierdzają własne przeczucia: placówkę przejęły stwory, których wdarło się tak wiele, że zagrożona jest cała Ziemia.
-
-### Dancouga
 
 [[masato-shikibu|Masato]] i [[sara-yuki|Sara]] zauważają, że nowy osobnik ma twardą skorupę, więc [[shinobu-fujiwara|Shinobu]] zapowiada uderzenie [[final-dancouga|Dancougi]], a [[ryo-shiba|Ryo]] dodaje, że to tylko rozzuchwaliło przeciwnika.
 

@@ -13,7 +13,6 @@ sekcje_analizy:
   - "Kurs na Marsa → Ep. 3-4: Szturm na kryjówkę piratów"
   - "Odprawa na mostku → White Base / Mostek"
   - "Kryjówka na asteroidzie → Baza na asteroidzie"
-  - "Piraci w walce → Dialogi warunkowe i sytuacyjne — starcie z piratami"
   - "Baza zdobyta → Baza piratów opanowana"
   - "Los dezerterów → White Base / Mostek"
 tagi: [scena, srw-oe, gundam, connect, zeon, kosmos]
@@ -71,10 +70,6 @@ Jednak po latach wojen międzyplanetarnym szlakom handlowym bezustannie zagraża
 **Koji Kabuto:** No i są!
 **Amuro:** Tyle mobile suitów...
 **Shiro:** Lepiej ich nie lekceważyć.
-:::
-
-:::skrypt
-#### Dialogi warunkowe i sytuacyjne — starcie z piratami
 
 **Bright:** Piraci lecą w naszą stronę! Zestrzelcie ich, zanim się do nas przyczepią!
 **Shinobu Fujiwara:** Kurczę, same drobne potyczki. Zaraz zardzewieję.
@@ -142,8 +137,6 @@ Na mostku [[bright-noa|Bright]] czeka na spóźnionych [[jin-hyuga|Jina]] i [[ma
 ### Kryjówka na asteroidzie
 
 [[marker|Marker]] wyłapuje bardzo słabe źródła ciepła i wskazuje asteroidę, na której ukryła się baza; [[alan-igor|Alan]] przypisuje zasługę czułym czujnikom Connect, a [[seishiro|Seishiro]] wnioskuje z braku startujących jednostek, że piraci liczą na to, iż zostaną minięci. [[simon|Simon]] dostrzega w dole asteroidy otwór, skan powierzchni [[oscar-dublin|Oscara]] potwierdza, że to port, i [[mirai-yashima|Mirai]] wprowadza [[white-base|White Base]] do wnętrza skały. W środku czeka więcej [[mobile-suit|mobile suitów]], niż załoga się spodziewała.
-
-### Piraci w walce
 
 Starcie pokazuje, z kim załoga ma do czynienia. [[bright-noa|Bright]] każe zestrzelić nadlatujące maszyny, [[shinobu-fujiwara|Shinobu]] i [[masato-shikibu|Masato]] narzekają na same drobne potyczki, a [[sara-yuki|Sara]] radzi rozładować złość porządnym trafieniem. [[maria-shiratori|Maria]] dopinguje [[jin-hyuga|Jina]], którego studzi [[asuka-tsukishiro|Asuka]], a [[koji-kabuto|Koji]] zapowiada, że oduczy ich piractwa raz na zawsze, a [[shiro-amada|Shiro]] mówi wprost, że ratowanie się piractwem krzywdzi innych ludzi. [[noa-izumi|Noa]] zamyka wymianę policyjnym wezwaniem do poddania się.
 

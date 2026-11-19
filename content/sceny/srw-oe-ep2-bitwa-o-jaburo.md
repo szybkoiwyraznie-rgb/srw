@@ -15,14 +15,6 @@ sekcje_analizy:
   - Jaburo jako cel → Bitwa o Jaburo
   - Odprawa na moście → White Base / Mostek
   - Desant przez ogień przeciwlotniczy → Desant Zeonu
-  - Amuro rozpoznaje Chara → Dialogi warunkowe — Amuro i Char
-  - Shiro przeciw Czerwonej Komecie → Dialogi warunkowe — Shiro i Char
-  - Karen i zapał bez pokory → Dialogi warunkowe — Karen i Char
-  - Sanders ocenia asa → Dialogi warunkowe — Sanders i Char
-  - Sayla wobec Czerwonej Komety → Dialogi warunkowe — Sayla i Char
-  - Kai i wierchuszka Federacji → Dialogi warunkowe — Kai
-  - Odwrót Chara → Dialogi warunkowe — odwrót Chara
-  - Nowe fale desantu → Dialogi sytuacyjne — nowo przybyli
   - Atak odparty → Atak odparty
   - Bilans i następny kierunek → White Base / Mostek
   - Zmiana strategii po Jaburo → Wojna przenosi się w kosmos
@@ -91,69 +83,29 @@ Cele: doki White Base i innych głównych okrętów oraz fabryki mobile suitów.
 **Shiro:** Z czasem przewaga będzie po naszej stronie. Bez szarżowania. Eliminujcie ich po kolei!
 **Amuro:** Przyjąłem!
 **Shiro:** Tylko mi nie zginąć, słyszycie?!
-:::
-
-
-:::skrypt
-#### Dialogi warunkowe — Amuro i Char
 
 > **Amuro:** Nie ma wątpliwości... To Char!
 > **Char:** Jeszcze się poprawiłeś, Gundamie!
-:::
-
-
-:::skrypt
-#### Dialogi warunkowe — Shiro i Char
 
 > **Shiro:** Nawet jeśli to sama Czerwona Kometa, żeby chronić towarzyszy... będę walczył!
 > **Char:** Podróbka Gundama?! Więc Federacja wystawia już i takie maszyny.
 > **Char:** To chyba maszyna dowódcy. Gdyby pozwolić mu działać, byłby kłopot. Uciszę go tutaj...!
-:::
-
-
-:::skrypt
-#### Dialogi warunkowe — Karen i Char
 
 > **Karen:** Raaach! Nie zadzieraj nosa tylko dlatego, że masz customa! Spadaj! Spadaaaj!
 > **Char:** Heh. Podziwiam zapał, ale sam zapał mnie nie zestrzeli!
-:::
-
-
-:::skrypt
-#### Dialogi warunkowe — Sanders i Char
 
 > **Sanders:** Ten styl... Groźny! Prawdziwy as!
 > **Char:** Czyli Gundamy z produkcji seryjnej. Sprawdzę tutaj, na co je stać!
-:::
-
-
-:::skrypt
-#### Dialogi warunkowe — Sayla i Char
 
 > **Char:** Myśliwiec?! Więc koń trojański wystawia i coś takiego.
 > **Sayla:** Chyba nie jestem gotowa na Czerwoną Kometę... Ale z tej wysokości mogę go przynajmniej zająć!
 > **Char:** Maszyny konia trojańskiego... Nie tylko Gundam nabrał doświadczenia...!
-:::
-
-
-:::skrypt
-#### Dialogi warunkowe — Kai
 
 > **Kai:** O kurczę, Czerwona Kometa!
 > **Kai:** No bez jaj... Nie zginę tu, broniąc wierchuszki Federacji!
-:::
-
-
-:::skrypt
-#### Dialogi warunkowe — odwrót Chara
 
 > **Char:** Ugh... Żebym to ja, właśnie ja, dawał się tak wodzić wrogowi za nos!
 > **Char:** Czyli mobile suity Federacji systematycznie rosną w siłę...
-:::
-
-
-:::skrypt
-#### Dialogi sytuacyjne — nowo przybyli
 
 > **Fraw:** W pobliżu wylądowały nowe wrogie mobile suity. Wszystkie jednostki, proszę uważać.
 > **Kai:** Już tu są.
@@ -216,42 +168,26 @@ Wprowadzenie stawia [[jaburo|Jaburo]] jako główną bazę [[earth-federation|Fe
 Ogień przeciwlotniczy Jaburo zestrzeliwuje jeden z okrętów, lecz [[char-aznable|Char]] prowadzi pozostałe maszyny bliżej bram portu. [[shiro-amada|Shiro]] przejmuje dowodzenie obroną: bez szarżowania, po jednym celu. [[karen-joshua|Karen]], [[terry-sanders-jr|Sanders]], [[eledore-massis|Eledore]] i [[michel-ninorich|Michel]] rozpoznają w czerwonym Zaku asa [[zeon|Zeonu]], a mostek [[white-base|White Base]] przypomina, co znaczy utrata bramy.
 
 
-### Amuro rozpoznaje Chara
-
 [[amuro-ray|Amuro]] rozpoznaje styl walki przeciwnika i potwierdza, że naprzeciw niemu stoi Char. [[char-aznable|Char]] odpowiada z uznaniem dla rosnących umiejętności Gundama — to wymiana zdań między dwoma asami, nie rozstrzygnięcie pojedynku.
 
-
-### Shiro przeciw Czerwonej Komecie
 
 [[shiro-amada|Shiro]] deklaruje walkę nawet z Czerwoną Kometą, bo broni towarzyszy. [[char-aznable|Char]] bierze [[gundam-ez8|Gundam Ez8]] za podróbkę Gundama i uznaje go za maszynę dowódcy, którą trzeba wyeliminować, zanim zbierze siły.
 
 
-### Karen i zapał bez pokory
-
 [[karen-joshua|Karen]] odpowiada na wyższość przeciwnika wyzwiskiem i zapałem, a [[char-aznable|Char]] studzi jej pewność: podziwia energię, ale sam zapał nie wystarcza, by go zestrzelić.
 
-
-### Sanders ocenia asa
 
 [[terry-sanders-jr|Sanders]] ocenia styl przeciwnika jako groźny i rozpoznaje w nim prawdziwego asa. [[char-aznable|Char]] traktuje starcie z seryjnymi [[gundam-ground-type|Gundamami Ground Type]] jako okazję, by sprawdzić, na co stać te maszyny.
 
 
-### Sayla wobec Czerwonej Komety
-
 [[sayla-mass|Sayla]] przyznaje, że nie jest gotowa na walkę z Czerwoną Kometą, ale z powietrza próbuje zająć przeciwnika. [[char-aznable|Char]] dostrzega w niej pilota [[g-fighter|G-Fightera]] i odnotowuje, że doświadczenie zdobył nie tylko Gundam.
 
-
-### Kai i wierchuszka Federacji
 
 [[kai-shiden|Kai]] komentuje starcie z przekąsem: nie zamierza zginąć w obronie „wierchuszki Federacji”. Humor nie zmienia jego miejsca w szyku — [[guncannon|Guncannon]] pozostaje w obronie bramy.
 
 
-### Odwrót Chara
-
 [[char-aznable|Char]] wycofuje się, złorzecząc, że dał się wodzić wrogowi za nos. Jego obserwacja, że [[mobile-suit|mobile suity]] [[earth-federation|Federacji]] systematycznie rosną w siłę, zamyka wątek bitwy z jego strony.
 
-
-### Nowe fale desantu
 
 [[fraw-bow|Fraw]] melduje o nowych wrogich maszynach, a [[eledore-massis|Eledore]] ostrzega, że kilka nadciąga z innego kierunku i trudno je namierzyć. [[shiro-amada|Shiro]] zakazuje oddalania się od bramy, bo kierunek kolejnego uderzenia pozostaje nieznany.
 

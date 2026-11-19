@@ -92,16 +92,12 @@ Potem front utknął w martwym punkcie i minęło już ponad osiem miesięcy...
 **Bright:** Stój, Amuro! Ty jeszcze nie...!
 **Amuro:** Zrobię to!
 
-#### Dialogi warunkowe — Fraw i Amuro
-
 > **Fraw:** Amuro, słyszysz mnie?
 > **Amuro:** Fraw, nie teraz, walczę!
 > **Fraw:** Na okręcie czeka ekipa naprawcza. Wróć, jeśli zrobi się niebezpiecznie.
 > **Amuro:** Wiem, ale nie mogę tak po prostu się wycofać!
 > **Fraw:** Podobno zbliża się odsiecz. Wytrzymaj do tego czasu!
 > **Amuro:** Odsiecz...? Zdążą na czas...?
-
-#### Dialogi warunkowe — ocena Chara
 
 > **Char:** Pilot wydaje się niedoświadczony, ale maszyny Federacji... nie wolno lekceważyć.
 
@@ -137,37 +133,23 @@ Potem front utknął w martwym punkcie i minęło już ponad osiem miesięcy...
 **Char:** Naszym celem jest mobile suit Federacji. Nie szarżujcie, w porę się wycofamy.
 **Crown:** Tak jest!
 
-### Warunkowe dialogi bitewne
-
-#### Char i Amuro
-
 > **Char:** Mobile suit Federacji... Choćby najlepszy, nic nie znaczy bez umiejętności pilota!
 > **Amuro:** N-nie zbliżaj się!
 > **Amuro:** Strzelę... Strzelę... Strzelęęęę!
-
-#### Seishiro i Char
 
 > **Seishiro:** Czerwona Kometo Zeonu! To nie czas, by ludzie walczyli z ludźmi!
 > **Seishiro:** Kto wie, co przyniesie dłuższa wojna... Ktoś taki jak ty powinien to przewidzieć!
 > **Char:** Jeśli każesz mi zatrzymać wojnę, to mnie przeceniasz.
 > **Char:** Nie jestem tak zarozumiały, by sądzić, że jeden pilot odmieni losy wojny, ani nie jestem takim marzycielem.
 
-#### Amuro i Char — kolejna wymiana zdań
-
 > **Amuro:** Nic mi nie jest. Wszystko w porządku. Z tym Gundamem pokonam nawet Chara!
 > **Char:** Tyle ciosów, a on wciąż się trzyma... Cóż to za mobile suit zbudowała Federacja...
 > **Char:** Pozwól jednak, że cię czegoś nauczę. Przewaga maszyny to za mało, by wygrać. Pole bitwy nie jest tak łaskawe!
 
-#### Char i Bright
-
 > **Char:** A więc to jest nowy okręt Federacji. Zupełnie jak koń trojański...
 > **Bright:** Działka! Nie dopuścić Czerwonej Komety! Amuro ma osłaniać White Base!
 
-#### Slender
-
 > **Slender:** To rozkaz komandora Chara... Nie ryzykujmy. Wycofujemy się.
-
-#### Crown
 
 > **Crown:** Tu Crown! Wycofuję się!
 

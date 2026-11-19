@@ -2,6 +2,7 @@
  *  Kurylskich przed Garmą Zabi, odsiecz Zanzibara z M'Quve'em i Black Tri-Stars
  *  oraz zniszczenie placówki przez Gundam Exia i Wing Gundam Zero. */
 import test from 'node:test';
+import { bezEtykietDialogow } from './helpers/skrypt-oe.js';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -13,7 +14,7 @@ const pages = wczytajStrony();
 const bySlug = new Map(pages.map((p) => [p.slug, p]));
 const bytes = fs.readFileSync('dostawy/srw-oe/dostawa_3_1.txt');
 const raw = bytes.toString('utf8').replace(/\r\n/g, '\n');
-const script = raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
+const script = bezEtykietDialogow(raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0]).trim();
 const archive = fs.readFileSync('episodes/srw-oe/ep003.md', 'utf8');
 const scene = bySlug.get('srw-oe-ep3-interwencja-gundamow');
 const episode = bySlug.get('srw-oe-ep3');
@@ -30,14 +31,14 @@ test('dostawa 3-1 jest zarchiwizowana, a jej skrypt otwiera archiwum epizodu', (
   assert.doesNotMatch(archive, /UCZESTNICY|Entry ID|DL103_11|eventP01/);
 });
 
-test('scena 3-1 cytuje jedenaście bloków skryptu i ma tyle samo kotwic analizy', () => {
+test('scena 3-1 cytuje pełne bloki skryptu i ma tyle samo kotwic analizy', () => {
   assert.equal(scene.numer_sceny, '3-1');
   assert.equal(scene.epizod, 'srw-oe-ep3');
   assert.deepEqual(sprawdzWiernoscSceny(scene, archive), []);
   const bloki = [...scene.body.matchAll(/:::skrypt\n([\s\S]*?)\n:::/g)].map((m) => m[1]);
-  assert.equal(bloki.length, 11);
+  assert.equal(bloki.length, 7);
   assert.equal(normalizujTekst(bloki.join('\n')), normalizujTekst(script));
-  assert.equal(scene.sekcje_analizy.length, 11);
+  assert.equal(scene.sekcje_analizy.length, 7);
   assert.equal(scene.sekcje_analizy[0], 'Neutralna strefa i obserwatorium → Ep. 3-1: Interwencja Gundamów');
   assert.equal(scene.sekcje_analizy.at(-1), 'Dwa Gundamy z nieba → Dwa niezidentyfikowane Gundamy');
   // Blok nawiązań stoi w osobnym źródle między analizą a wątkami sceny.

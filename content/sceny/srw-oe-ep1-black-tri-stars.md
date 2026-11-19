@@ -138,31 +138,21 @@ Tymczasem White Base, który zszedł na Ziemię, odpierając kolejne ataki Zeonu
 **Mash:** Pokażemy im, czym jest prawdziwy strach!
 **Gaia:** Pilot białego mobile suita Federacji... Podobno Newtype. Nie wolno go lekceważyć.
 
-#### Dialogi warunkowe — Amuro i Gaia
-
 > **Amuro:** Ten pilot jest dobry...!
 > **Gaia:** A więc biały mobile suit raczył się pokazać. Zmierzysz się z nami!
-
-#### Dialogi warunkowe — piloci Federacji
 
 > **Gaia:** Hmf, mobile suit Federacji! Wcale nie taki groźny, jak mówią!
 > **Ortega:** Te ruchy... Żółtodziób? Chyba jeszcze nie oswoił się z mobile suitem.
 > **Gaia:** Dooobra! Zmylimy go szybkością Domów i wykończymy!
 > **Kai:** S-szybcy są! Jak mamy ich niby zatrzymać?!
 
-#### Dialogi warunkowe — G-Fighter
-
 > **Sayla:** Gdybym tylko odcięła drogę temu czarnemu...!
 > **Mash:** Myśliwiec...?! Według raportu ten okręt miał trzy mobile suity!
 > **Gaia:** Zapomnij o raporcie! Federacja też nie siedzi z założonymi rękami.
 
-#### Dialogi sytuacyjne — obrona powietrzna i naziemna
-
 > **Kai:** U-uaaa! Ja też umiem strzelać do samolotów... Ja też!
 > **Bright:** Jeśli przygwożdżą nas ostrzałem, będzie źle...! Hayato, trafisz stamtąd w ich baterie?!
 > **Hayato:** Dam radę! Ostrzał umocnień proszę zostawić Guntankowi!
-
-#### Dialogi warunkowe — zbliżenie do White Base
 
 > **Mash:** To prawda, że za zniszczenie tego okrętu dostaje się Krzyż Zeonu?
 > **Ortega:** He-he-he, a wtedy nasze imiona staną się jeszcze bardziej legendarne...!

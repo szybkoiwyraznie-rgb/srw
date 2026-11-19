@@ -1,5 +1,6 @@
 /** Dostawa 3-3: „Zielony najeźdźca” — incydenty szalejących Laborów na kolonii i dołączenie Keroro do Connect Force. */
 import test from 'node:test';
+import { bezEtykietDialogow } from './helpers/skrypt-oe.js';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -10,7 +11,7 @@ const pages = wczytajStrony();
 const bySlug = new Map(pages.map((p) => [p.slug, p]));
 const bytes = fs.readFileSync('dostawy/srw-oe/dostawa_3_3.txt');
 const raw = bytes.toString('utf8').replace(/\r\n/g, '\n');
-const deliveredScript = raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
+const deliveredScript = bezEtykietDialogow(raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0]).trim();
 const script = deliveredScript.replace('## Zielony najeźdźca', '## Ep. 3-3: Zielony najeźdźca');
 const archive = fs.readFileSync('episodes/srw-oe/ep003.md', 'utf8');
 const episode = bySlug.get('srw-oe-ep3');
@@ -32,9 +33,9 @@ test('scena 3-3 cytuje cały skrypt dosłownie i wskazuje epizod oraz kolejny nu
   assert.equal(scene.epizod, 'srw-oe-ep3');
   assert.deepEqual(sprawdzWiernoscSceny(scene, archive), []);
   const blocks = [...scene.body.matchAll(/:::skrypt\n([\s\S]*?)\n:::/g)].map((m) => m[1]);
-  assert.equal(blocks.length, 13, 'każdy etap sceny ma osobny blok skryptu');
+  assert.equal(blocks.length, 10, 'każdy etap sceny ma osobny blok skryptu');
   assert.equal(normalizujTekst(blocks.join('\n')), normalizujTekst(script));
-  assert.equal(scene.sekcje_analizy.length, 13);
+  assert.equal(scene.sekcje_analizy.length, 10);
   assert.equal(scene.sekcje_analizy[0], 'Przybycie na kolonię → Zbliżenie do kolonii kosmicznej');
   assert.equal(scene.sekcje_analizy.at(-1), 'Nowy program ochronny → Śledztwo w sprawie Laborów');
   // Analiza nie wymienia nagłówków skryptu jako tematów — opisuje świat.

@@ -1,5 +1,6 @@
 /** Dostawa 2-4: desant Zeonu na Jaburo, pełne dialogi i dane jednostek. */
 import test from 'node:test';
+import { bezEtykietDialogow } from './helpers/skrypt-oe.js';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -11,7 +12,7 @@ const pages = wczytajStrony();
 const bySlug = new Map(pages.map((p) => [p.slug, p]));
 const bytes = fs.readFileSync('dostawy/srw-oe/dostawa_2_4.txt');
 const raw = bytes.toString('utf8').replace(/\r\n/g, '\n');
-const script = raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
+const script = bezEtykietDialogow(raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0]).trim();
 const archive = fs.readFileSync('episodes/srw-oe/ep002.md', 'utf8');
 const scene = bySlug.get('srw-oe-ep2-bitwa-o-jaburo');
 const episode = bySlug.get('srw-oe-ep2');
@@ -29,17 +30,17 @@ test('dostawa 2-4 zachowuje wszystkie bajty, a skrypt jest dopisany dokładnie r
   assert.ok(script.trimEnd().endsWith('Federacji...'), 'narracja zamyka skrypt misji');
 });
 
-test('scena 2-4 cytuje czternaście bloków skryptu i ma tyle samo kotwic analizy', async () => {
+test('scena 2-4 cytuje pełne bloki skryptu i ma tyle samo kotwic analizy', async () => {
   assert.equal(scene.numer_sceny, '2-4');
   assert.equal(scene.epizod, 'srw-oe-ep2');
   assert.deepEqual(sprawdzWiernoscSceny(scene, archive), []);
   const blocks = [...scene.body.matchAll(/:::skrypt\n([\s\S]*?)\n:::/g)].map((m) => m[1]);
-  assert.equal(blocks.length, 14);
+  assert.equal(blocks.length, 6);
   assert.equal(normalizujTekst(blocks.join('\n')), normalizujTekst(script));
-  assert.equal(scene.sekcje_analizy.length, 14);
+  assert.equal(scene.sekcje_analizy.length, 6);
   globalThis.SRW_DATA = await zbudujDane();
   const { renderScena } = await import('../src/srw/render-scene.js');
-  assert.equal((renderScena(scene.slug).match(/class="skok-do-tresci"/g) ?? []).length, 14);
+  assert.equal((renderScena(scene.slug).match(/class="skok-do-tresci"/g) ?? []).length, 6);
   for (const tytul of ['White Base / Mostek', 'Desant Zeonu', 'Atak odparty', 'Wojna przenosi się w kosmos']) {
     assert.ok(scene.body.includes(tytul), tytul);
   }

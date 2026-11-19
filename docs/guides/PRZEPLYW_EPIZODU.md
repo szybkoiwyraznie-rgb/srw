@@ -26,6 +26,8 @@ Najpierw sceny, bo są nośnikiem treści: `content/sceny/<slug-epizodu>-<tytul-
 pliku na scenę skryptu. Treść sceny to dosłowny fragment skryptu w bloku `:::skrypt`, a `## Analiza`
 opisuje wątki i nawiązania. Numer sceny przepisz tak, jak podaje skrypt (numeracja zależy od gry).
 
+W logach i na stronach scen **SRW OE** pomijaj redakcyjne nagłówki grupujące dialogi (np. „Dialogi warunkowe — Shiro i Misha”, „Warunkowe dialogi bitewne” i podrzędne etykiety rozmówców). Zachowaj kwestie, kolejność, lokalizacje i etapy fabuły. Surowy plik w `dostawy/` pozostaje bez zmian.
+
 ### Nawiązania do oryginalnych odcinków
 
 Częścią sceny jest osobny blok `## Nawiązania do oryginalnych odcinków`, umieszczony po `## Analiza`

@@ -59,9 +59,9 @@ test('każda podsekcja analizy ma własną kotwicę w treści sceny', () => {
   // Podsekcje analizy to tylko blok „## Analiza” — nagłówki skryptu mają własne `###`.
   const blokAnalizy = scena.body.split('## Analiza')[1].split('\n## ')[0];
   const analiza = [...blokAnalizy.matchAll(/^### (.+)$/gm)].map((m) => m[1]);
-  assert.equal(analiza.length, 6, 'sześć etapów treningu');
+  assert.equal(analiza.length, 5, 'pięć etapów treningu');
   const mapa = scena.sekcje_analizy ?? [];
-  assert.equal(mapa.length, 6, 'mapa kotwic pokrywa wszystkie podsekcje');
+  assert.equal(mapa.length, 5, 'mapa kotwic pokrywa wszystkie podsekcje');
   for (const wpis of mapa) {
     const [lewa, prawa] = String(wpis).split('→').map((s) => s.trim());
     assert.ok(analiza.includes(lewa), `analiza: ${lewa}`);

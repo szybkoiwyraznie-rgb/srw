@@ -2,6 +2,7 @@
  *  Mechanizacji, bitwa w lesie Aokigahara z Laborami pod kontrolą mechabestii, druga
  *  brama Mucus i decyzja o locie Klasy Obrony Ziemi z Gurren Lagannem do Connect Force. */
 import test from 'node:test';
+import { bezEtykietDialogow } from './helpers/skrypt-oe.js';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -12,7 +13,7 @@ const pages = wczytajStrony();
 const bySlug = new Map(pages.map((p) => [p.slug, p]));
 const bytes = fs.readFileSync('dostawy/srw-oe/dostawa_2_8.txt');
 const raw = bytes.toString('utf8').replace(/\r\n/g, '\n');
-const script = raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
+const script = bezEtykietDialogow(raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0]).trim();
 const archive = fs.readFileSync('episodes/srw-oe/ep002.md', 'utf8');
 const scene = bySlug.get('srw-oe-ep2-klasa-obrony-leci-w-kosmos');
 const episode = bySlug.get('srw-oe-ep2');
@@ -29,20 +30,18 @@ test('dostawa 2-8 zachowuje wszystkie bajty, a skrypt zamyka archiwum epizodu', 
   assert.ok(script.endsWith('**Eldran:** Liczę na was... dzieci Ziemi...'));
 });
 
-test('scena 2-8 cytuje piętnaście bloków skryptu i ma tyle samo kotwic analizy', () => {
+test('scena 2-8 cytuje pełne bloki skryptu i ma tyle samo kotwic analizy', () => {
   assert.equal(scene.numer_sceny, '2-8');
   assert.equal(scene.epizod, 'srw-oe-ep2');
   assert.deepEqual(sprawdzWiernoscSceny(scene, archive), []);
   const bloki = [...scene.body.matchAll(/:::skrypt\n([\s\S]*?)\n:::/g)].map((m) => m[1]);
-  assert.equal(bloki.length, 15);
+  assert.equal(bloki.length, 11);
   assert.equal(normalizujTekst(bloki.join('\n')), normalizujTekst(script));
-  assert.equal(scene.sekcje_analizy.length, 15);
+  assert.equal(scene.sekcje_analizy.length, 11);
   // „Akademia Hinobori / Sala klasy 5-3” występuje trzy razy: mapa zużywa kolejne wystąpienia.
   assert.equal((scene.body.match(/^### Akademia Hinobori \/ Sala klasy 5-3$/gm) ?? []).length, 3);
   for (const tytul of ['Klasa Obrony leci w kosmos', 'Akademia Hinobori / Boisko',
-    'Morze Drzew u stóp Fuji', 'Dialogi warunkowe — starcie z Laborami',
-    'Dialogi sytuacyjne — ochrona lasu', 'Dialogi sytuacyjne — kolejni wrogowie',
-    'Dialogi warunkowe — Gurren Lagann szuka pod ziemią', 'Kolejna Brama Mucus',
+    'Morze Drzew u stóp Fuji', 'Kolejna Brama Mucus',
     'Po bitwie', 'Drużyna Gurren i zespoły Eldrana', 'Kto poleci w kosmos?',
     'W Akademii Hinobori']) {
     assert.ok(scene.body.includes(tytul), tytul);

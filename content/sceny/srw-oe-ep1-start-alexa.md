@@ -125,11 +125,7 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 **Shiro:** Eledore, Michel, Sanders! Jeśli się tu przebiją, koniec z nami! Nie przepuśćcie ani jednego!
 **Sanders:** Przyjąłem!
 
-#### Dialogi warunkowe — obwód obronny
-
 > **Shiro:** Cholera, przebili się...
-
-#### Dialogi bojowe — sytuacyjne — powrót Karen
 
 > **Karen:** Wybaczcie... Spóźniłam się na imprezę!
 > **Shiro:** Karen, dobrze, że tak szybko wróciłaś.
@@ -138,15 +134,11 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 > **Eledore:** Wróg wciąż tu jest. Kogo teraz obchodzi wygląd!
 > **Shiro:** Właśnie. Nie dajcie się przełamać!
 
-#### Dialogi warunkowe — odwrót oddziału Cyclops
-
 > **Steiner:** Ngh... Siłą dalej się nie przebijemy... Wycofać się do punktu zbornego!
 > **Andy:** Trafili mi silniki! Wycofuję się!
 > **Garcia:** To koniec...
 > **Garcia:** Wycofuję się!
 > **Misza:** Tch, że też akurat ja dałem plamę...!
-
-#### Dialogi warunkowe — obrona wahadłowca
 
 > **Shiro:** Przeklęty Zeon... Nikt nie tknie wahadłowca porucznik Mackenzie!
 > **Steiner:** Biały mobile suit Federacji... Ale ten biały, który odparł Black Tri-Stars, powinien być pod Odessą.
@@ -156,12 +148,8 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 > **Steiner:** Hoo... Co za zaciekłość. Osłania towarzyszy własnym ciałem...
 > **Steiner:** Ale na szali jest też życie moich ludzi. Nie mogę zawieść w tej misji!
 
-#### Dialogi warunkowe — oddział wsparcia
-
 > **Eledore:** Łoaaa! My tu prawie nie mamy uzbrojenia!
 > **Eledore:** Hej, dowódco! Nie kieruj wroga w naszą stronę!
-
-#### Dialogi warunkowe — Shiro i Misha
 
 > **Misza:** He-he-he... W szturmie ten Kampfer pokazuje, co potrafi.
 > **Misza:** Nadchodzę! Mobile suicie Federacji!
