@@ -62,6 +62,7 @@ const POJECIA = [
   'pamiec-stg', 'teoria-y', 'miasto-yagami', 'mechaniczne-marionetki',
 ];
 const POSTACIE_Z_DIALOGU = {
+  Kamui: 'show-kamui', Juuga: 'juuga', Mujina: 'mujina', Onija: 'onija', Sizumu: 'sizumu',
   Agent: 'agent',
   Amuro: 'amuro-ray',
   'Annina Servania': 'annina-servania',
@@ -129,8 +130,8 @@ test('SRW Y: epizod wskazuje grę, skrypt i komplet dostarczonych relacji', () =
   assert.equal(epizod.gra, 'srw-y');
   assert.equal(epizod.numer, 1);
   assert.equal(epizod.skrypt, 'episodes/srw-y/ep001.md');
-  assert.deepEqual(epizod.postacie, [...POSTACIE, ...POSTACIE_Z_PROLOGU, ...POSTACIE_Z_MISJI_2A]);
-  assert.deepEqual(epizod.mechy, MECHY);
+  assert.deepEqual(epizod.postacie, [...POSTACIE, ...POSTACIE_Z_PROLOGU, ...POSTACIE_Z_MISJI_2A, 'juuga', 'mujina', 'onija', 'sizumu', 'hard-fall-kaiju-shalbandes']);
+  assert.deepEqual(epizod.mechy, [...MECHY, 'dynazenon', ...FORMY_PO_TRANSFORMACJI, 'shalbandes']);
   for (const slug of [...SERIE, ...POJECIA, ...POJECIA_Z_MISJI_2A]) {
     assert.ok(epizod.serie?.includes(slug) || epizod.pojecia?.includes(slug), slug);
   }
@@ -152,19 +153,19 @@ test('SRW Y: dostawa ma jedną scenę 1-1C z dosłownym, pełnym fragmentem skry
   assert.match(scena.body, /### A\. Advent - rdzeń Systemu Nira-Kana-I/);
   assert.match(scena.body, /\*\*Cross Tsukinowa:\*\* \*\(Starszy brat cię obroni/);
   assert.doesNotMatch(scena.body, /UCZESTNICY/);
-  assert.equal(strony.filter((s) => s.typ === 'scena' && s.epizod === 'srw-y-ep1').length, 2);
+  assert.equal(strony.filter((s) => s.typ === 'scena' && s.epizod === 'srw-y-ep1').length, 3);
   for (const slug of STARE_SCENY) assert.ok(!bySlug.has(slug), `${slug}: usunięty podział nie jest sceną`);
 });
 
 test('SRW Y: wszystkie profile mechów zachowują dane menu pod zakresem srw-y', () => {
   // Kolejna misja uzupełnia albo odświeża rekord tej samej pary (mech, gra),
   // więc źródłem bywa późniejsze archiwum — A. Advent i Lunedrache mają dane
-  // z misji 2A, a nie z prologu.
+  // z misji 3A, a nie z prologu.
   const POZNIEJSZE = {
-    ...Object.fromEntries(['a-advent', 'lunedrache', 'getter-arc', 'insector', 'zordo-xx']
+    ...Object.fromEntries(['insector', 'zordo-xx']
       .map((s) => [s, 'dostawy/srw-y/dostawa_1_2a.txt'])),
-    'getter-kirik': 'dostawy/srw-y/Y_dostawa_1_2a_dodatek.txt',
-    'getter-khan': 'dostawy/srw-y/Y_dostawa_1_2a_dodatek.txt',
+    ...Object.fromEntries(['a-advent', 'lunedrache', 'getter-arc', ...FORMY_PO_TRANSFORMACJI]
+      .map((s) => [s, 'dostawy/srw-y/dostawa_1_3a.txt'])),
   };
   for (const slug of [...MECHY, ...FORMY_PO_TRANSFORMACJI]) {
     const mech = bySlug.get(slug);
@@ -195,10 +196,11 @@ test('SRW Y: relacje encji prowadzą do epizodu, scen i serii', () => {
   assert.ok(Array.isArray(scena.pojecia), `${SCENA}: pojęcia`);
 });
 
-test('SRW Y: każdy nazwany mówca scen 1-1C i 1-2A jest postacią w obsadzie swojej sceny i epizodu', () => {
+test('SRW Y: każdy nazwany mówca scen epizodu 1 jest postacią w obsadzie swojej sceny i epizodu', () => {
   const sceny = [
     bySlug.get(SCENA),
     bySlug.get('srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona'),
+    bySlug.get('srw-y-ep1-misja-3a-smok-z-polaczenia'),
   ];
   const widzialni = new Set();
   for (const sc of sceny) {

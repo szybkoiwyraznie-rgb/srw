@@ -127,7 +127,7 @@ test('maszyny bez podanej klasy świadomie nie dostają tagu rodzaju jednostki',
     'bolt-robo-anti-air', 'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
     'cybird', 'cybuster', 'exart', 'gandoppler', 'guntank', 'insector',
     'invader-air', 'invader-ground', 'keroro-jet', 'keroro-robo-mk-ii', 'metal-beast-muszla',
-    'nekton-assault', 'nekton-creek', 'real-pg-gundam', 'zordo-xx',
+    'nekton-assault', 'nekton-creek', 'real-pg-gundam', 'shalbandes', 'zordo-xx',
   ]);
 });
 

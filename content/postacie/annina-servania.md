@@ -40,8 +40,9 @@ W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie n
 
 **Komendy Ducha:**
 
-| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                                             |
-| ---: | -------- | ---------: | -------: | ---------------------------------------------------------------------------------------- |
-|    1 | Pęd      |          1 |       20 | Jednorazowo Ruch +3. Działa do najbliższego ruchu.                                       |
-|    2 | Błog.    |          5 |       50 | Daje wybranemu sojusznikowi Ducha 'Fortuna': fundusze za następne zestrzelenie wroga x2. |
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                               |
+| ---: | -------- | ---------: | -------: | -------------------------------------------------------------------------- |
+|    1 | Pęd      |          1 |       20 | Jednorazowo Ruch +3. Działa do najbliższego ruchu.                         |
+|    2 | Błog.    |          5 |       50 | Daje wybranemu sojusznikowi Ducha 'Fortuna':                               |
+|      |          |            |          | fundusze za następne zestrzelenie wroga x2.                                |
 }}

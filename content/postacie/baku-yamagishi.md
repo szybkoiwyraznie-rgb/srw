@@ -48,12 +48,17 @@ W [[getter-robo-arc|pierwowzorze]] Baku Yamagishi (山岸 獏) to 22-letni mnich
 
 **Umiejętności pilota:**
 
-| Slot | Umiejętność    | Poz. nauki | Opis                                                                                                                                                                         |
-| ---: | -------------- | ---------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    1 | Dzieci Gettera |         99 | Aktywna, gdy na pokładzie są 3 piloci i każdy ma Morale 140+. Początek fazy gracza: Morale +5. Gdy wszyscy 3 mają Morale 160+: końcowe zadawane obrażenia x1.2.              |
-|    2 | Potencjał L7   |          1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa kryt. i obrona. Maks. efekt przy HP do 10％: celność i unik +35％, szansa kryt. +42％, otrzymywane obrażenia x0.5.  |
-|    3 | Blok L1        |          1 | Przy Morale 130+: otrzymywane obrażenia x0.9.                                                                                                                               |
-|    4 | Osłona L1      |          1 | Przyjmuje atak wymierzony w sąsiadującego sojusznika. Obrażenia x1.00 zwykłej obrony, 1 raz na turę. Szczegóły w Pomocy ('Baza danych').                                    |
+| Slot | Umiejętność    | Poz. nauki | Opis                                                                  |
+| ---: | -------------- | ---------: | --------------------------------------------------------------------- |
+|    1 | Dzieci Gettera |          1 | Aktywna, gdy na pokładzie są 3 piloci i każdy ma Morale               |
+|      |                |            | 140+. Początek fazy gracza: Morale +5. Gdy wszyscy 3                  |
+|      |                |            | mają Morale 160+: końcowe zadawane obrażenia x1.2.                    |
+|    2 | Potencjał L7   |          1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa              |
+|      |                |            | kryt. i obrona. Maks. efekt przy HP do 10％: celność i                |
+|      |                |            | unik +35％, szansa kryt. +42％, otrzymywane obrażenia x0.5.           |
+|    3 | Blok L1        |          1 | Przy Morale 130+: otrzymywane obrażenia x0.9.                         |
+|    4 | Osłona L1      |          1 | Przyjmuje atak wymierzony w sąsiadującego sojusznika. Obrażenia x1.00 |
+|      |                |            | zwykłej obrony, 1 raz na turę. Szczegóły w Pomocy ('Baza danych').    |
 
 **Komendy Ducha:**
 

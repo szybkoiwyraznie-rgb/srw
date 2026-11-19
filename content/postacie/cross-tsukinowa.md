@@ -40,16 +40,19 @@ W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie n
 
 **Umiejętności pilota:**
 
-| Slot | Umiejętność       | Poz. nauki | Opis                                                                                                                                        |
-| ---: | ----------------- | ---------: | ------------------------------------------------------------------------------------------------------------------------------------------- |
-|    1 | NINJA             |          1 | Im wyższe Morale, tym wyższe parametry i obrażenia. Maks. efekt przy Morale 150+: wszystkie parametry +10, końcowe zadawane obrażenia x1.2. |
-|    2 | Wsparcie ataku L2 |          1 | Atakuje po sąsiadującym sojuszniku. Obrażenia x0.65 zwykłego ataku, 2 razy na turę. Szczegóły w Pomocy ('Baza danych').                     |
-|    3 | Silne wsparcie    |          1 | Wsparcie ataku zawsze trafia krytycznie (nie dotyczy 'Drugi atak').                                                                         |
-|    4 | Odporność ducha   |          1 | Odporność na efekty broni 'Param. -50%', 'Paraliż', 'Morale-' i 'SP-'. Przy Morale do 100: odporność na Ducha 'Osłabienie'.                 |
+| Slot | Umiejętność       | Poz. nauki | Opis                                                                   |
+| ---: | ----------------- | ---------: | ---------------------------------------------------------------------- |
+|    1 | NINJA             |          1 | Im wyższe Morale, tym wyższe parametry i obrażenia. Maks. efekt przy   |
+|      |                   |            | Morale 150+: wszystkie parametry +10, końcowe zadawane obrażenia x1.2. |
+|    2 | Wsparcie ataku L2 |          1 | Atakuje po sąsiadującym sojuszniku. Obrażenia x0.65 zwykłego           |
+|      |                   |            | ataku, 2 razy na turę. Szczegóły w Pomocy ('Baza danych').             |
+|    3 | Silne wsparcie    |          1 | Wsparcie ataku zawsze trafia krytycznie (nie dotyczy 'Drugi atak').    |
+|    4 | Odporność ducha   |          1 | Odporność na efekty broni 'Param. -50%', 'Paraliż', 'Morale-'          |
+|      |                   |            | i 'SP-'. Przy Morale do 100: odporność na Ducha 'Osłabienie'.          |
 
 **Komendy Ducha:**
 
-| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                                                                                                                      |
-| ---: | -------- | ---------: | -------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    1 | Skup.    |          1 |       15 | Na 1 turę końcowa celność i unik +30%.                                                                                                                            |
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                       |
+| ---: | -------- | ---------: | -------: | ------------------------------------------------------------------ |
+|    1 | Skup.    |          1 |       15 | Na 1 turę końcowa celność i unik +30%.                             |
 }}

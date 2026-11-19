@@ -718,7 +718,7 @@ test('dostawa ilustracji SRW Y 1-2A (2026-11-17): pięć jednostek (w tym Getter
   for (const slug of ['getter-kirik', 'getter-khan']) {
     assert.ok(bySlug.get(slug).body.indexOf('## Ilustracje') < bySlug.get(slug).body.indexOf('## Parametry'),
       `${slug}: Ilustracje przed Parametrami`);
-    assert.ok(!bySlug.get('srw-y-ep1').mechy.includes(slug), `${slug}: poza obsadą fabularną 1-2A`);
+    assert.ok(bySlug.get('srw-y-ep1').mechy.includes(slug), `${slug}: pojawia się w późniejszej misji 1-3A`);
     assert.ok(!bySlug.get('srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona').mechy.includes(slug),
       `${slug}: poza obsadą sceny 1-2A`);
     assert.match(bySlug.get(slug).body, /\{\{zrodlo gra=wspolne[\s\S]*?sprawdzono 2026-11-17/, `${slug}: tło ze źródeł`);

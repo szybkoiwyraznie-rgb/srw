@@ -4,7 +4,7 @@ slug: koyomi-yamanaka
 tytul: "Koyomi Yamanaka"
 seria: ssss-dynazenon
 rola: pilot
-mechy: []
+mechy: [dynazenon]
 gry: [srw-y]
 pochodzenie: menu
 zrodla:
@@ -17,6 +17,8 @@ utworzono: 2026-11-16
 Młody mężczyzna od dawna bez pracy. Nie ma żadnych celów i wiedzie leniwe życie. Małomówny i cichy. Gdy z kuzynką, [[chise-asukagawa|Chise]], która przesiaduje w jego pokoju, przychodzi popatrzeć na zamieszanie z kaiju, [[gauma|Gauma]] wciąga go w walkę.
 
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] słucha na placu [[miasto-yagami|miasta Yagami]] trzech gwarancji [[echika-y-franburnett|Echiki]] i ku zaskoczeniu [[chise-asukagawa|Chise]] odpowiada, że może zostać na [[a-advent|A. Advencie]], jeśli pomogą mu znaleźć pracę.
+
+W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] idzie z Chise zobaczyć unoszące się samochody, choć sam wolałby zostać. Kiedy [[dynazenon|Dynazenon]] wciąga go do środka, pozostaje w kontakcie z kuzynką.
 }}
 
 {{zrodlo gra=wspolne

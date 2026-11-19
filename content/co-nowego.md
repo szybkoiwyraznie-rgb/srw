@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-19 15:36
+
+- [[srw-y-ep1-misja-3a-smok-z-polaczenia|Smok z połączenia]]: kiedy kaiju pojawiają się pod kopułą, [[gauma|Gauma]] przyzywa [[dynazenon|Dynazenona]]. Czworo pilotów dostają od Crossa jedno zadanie: przenieść walkę poza miasto, zanim ucierpią mieszkańcy.
+
 ## 2026-11-19 15:19
 
 - Podczas [[srw-oe-ep1-ratuj-transportowiec-medea|eskorty Medei]] [[eledore-massis|Eledore]] słyszy nie tylko pościg w powietrzu, ale i zasadzkę na ziemi. Jego meldunki z [[hover-truck|Hover Trucka]] pomagają [[michel-ninorich|Michelowi]] prowadzić klucz poza zasięgiem ognia przeciwlotniczego.

@@ -4,7 +4,7 @@ slug: yomogi-asanaka
 tytul: "Yomogi Asanaka"
 seria: ssss-dynazenon
 rola: pilot
-mechy: []
+mechy: [dynazenon]
 gry: [srw-y]
 pochodzenie: menu
 zrodla:
@@ -20,6 +20,8 @@ utworzono: 2026-11-09
 Uczeń pierwszej klasy publicznego liceum Fujiyokidai. Łagodny, ma wielu przyjaciół. Mieszka z mamą i babcią, ale chce się usamodzielnić, więc dorabia w supermarkecie Yuri Mart. Gdy pod mostem nad rzeką pomaga Gaumie, który padł z głodu, zostaje wciągnięty w walkę z kaiju. Po rozłączeniu Dynazenona steruje smoczym humanoidem Dyna Soldier.
 
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] słucha na placu [[miasto-yagami|miasta Yagami]] wystąpienia [[echika-y-franburnett|Echiki]] u boku [[matka-yomogiego|matki]], zdziwiony spokojem mieszkańców, a później pod sklepem Yuri Mart, w którym dorabia, wskazuje [[takuma-nagare|Takumie Nagare]] przecenione onigiri tuż przed wybuchem wywołanym przez [[insector|Insectorów]] poza kopułą.
+
+W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] czeka na [[yume-minami|Yume]] przy śluzie Shidenotaosa. Po walce to on próbuje odwieść Gaumę od żądania przeprosin: sprawa kaiju wydaje mu się pilniejsza.
 }}
 
 {{zrodlo gra=wspolne
@@ -52,8 +54,9 @@ W pierwowzorze Dyna Soldier to humanoidalny, smoczy rdzeń Dynazenona: tworzy je
 
 **Komendy Ducha:**
 
-| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                                       |
-| ---: | -------- | ---------: | -------: | ---------------------------------------------------------------------------------- |
-|    1 | Błysk    |          1 |       15 | Na 1 walkę pełny unik wszystkich ataków.                                           |
-|    2 | Dop.     |          5 |       30 | Daje wybranemu sojusznikowi Ducha 'Wysiłek': PD za następne zestrzelenie wroga x2. |
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                               |
+| ---: | -------- | ---------: | -------: | -------------------------------------------------------------------------- |
+|    1 | Błysk    |          1 |       15 | Na 1 walkę pełny unik wszystkich ataków.                                   |
+|    2 | Dop.     |          5 |       30 | Daje wybranemu sojusznikowi Ducha 'Wysiłek':                               |
+|      |          |            |          | PD za następne zestrzelenie wroga x2.                                      |
 }}
