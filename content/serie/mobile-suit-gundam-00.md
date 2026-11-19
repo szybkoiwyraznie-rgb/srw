@@ -16,7 +16,7 @@ utworzono: 2026-11-13
 ---
 {{skrypt gra=srw-oe
 
-W [[srw-oe|Super Robot Wars OE]] serię reprezentują [[setsuna-f-seiei|Setsuna F. Seiei]] i jego [[gundam-exia|Gundam Exia]], które pojawiają się pod koniec misji [[srw-oe-ep3-skradajacy-sie-cien|„Skradający się cień”]] i wspólnie z [[wing-gundam-zero|Wing Gundamem Zero]] jednym uderzeniem niszczą obserwatorium na [[wyspy-kurylskie|Wyspach Kurylskich]].
+Pod koniec [[srw-oe-ep3-interwencja-gundamow|„Interwencji Gundamów”]] [[setsuna-f-seiei|Setsuna F. Seiei]] melduje, że jego [[gundam-exia|Exia]] dotarła do celu. Razem z [[wing-gundam-zero-nb|Wing Zero NB]] niszczy obserwatorium na [[wyspy-kurylskie|Kurylach]]. Dopiero w [[srw-oe-ep3-skradajacy-sie-cien|„Skradającym się cieniu”]] wyjaśnia obrońcom, jakie eksperymenty prowadzono w placówce. Gdy pojawiają się [[invaderzy|Invaderzy]], Exia walczy po tej samej stronie co [[connect-force|Connect Force]], a po bitwie wraca do bazy.
 }}
 
 {{zrodlo gra=wspolne

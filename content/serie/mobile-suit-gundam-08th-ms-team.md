@@ -11,6 +11,8 @@ gry: [srw-oe]
 pochodzenie: menu
 zrodla:
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team
+  - https://en.gundam-official.com/character/kv9z08e8kv869tgsmrigbaqz
+  - https://en.gundam-official.com/character/xlwzvd8nzsynd05g9wwkpit9
 tagi: [universal-century, one-year-war, ova, 08th-ms-team]
 utworzono: 2026-10-23
 ---
@@ -27,5 +29,5 @@ Po stronie [[zeon|Zeonu]] serię reprezentuje ród Sahalinów: [[ginias-sahalin|
 
 *Mobile Suit Gundam: The 08th MS Team* (機動戦士ガンダム 第08MS小隊) to 12-odcinkowa seria OVA studia Sunrise, wydawana od 25 stycznia 1996 do 25 lipca 1999 roku. Jej akcja toczy się w [[uc-0079|U.C. 0079]] w Azji Południowo-Wschodniej i koncentruje się na naziemnym oddziale [[earth-federation|Federacji]] dowodzonym przez Shiro Amadę ([Wikipedia, *Mobile Suit Gundam: The 08th MS Team*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
 
-W serialu Eledore prowadzi wóz wsparcia, a Michel jest jego nawigatorem i celowniczym (tamże); w [[srw-oe|Super Robot Wars OE]] kierowcą [[hover-truck|Hover Trucka]] jest Michel, a Eledore wspiera go jako drugi pilot.
+W OVA obaj są pilotami wozu: Michel obsługuje działko, Eledore sonar ([GUNDAM Official, „Michel Ninorich”](https://en.gundam-official.com/character/kv9z08e8kv869tgsmrigbaqz); [GUNDAM Official, „Eledore Mathis”](https://en.gundam-official.com/character/xlwzvd8nzsynd05g9wwkpit9); sprawdzono 2026-11-18); w [[srw-oe|Super Robot Wars OE]] Michel występuje jako pilot główny, a Eledore jako wspierający.
 }}

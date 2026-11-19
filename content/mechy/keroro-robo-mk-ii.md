@@ -16,7 +16,7 @@ utworzono: 2026-11-17
 ---
 {{menu gra=srw-oe
 
-Maszyna pilotowana przez [[sergeant-keroro|sierżanta Keroro]], który trafia nią na kolonię kosmiczną w [[srw-oe-ep3-zielony-najezdzca|scenie „Zielony najeźdźca”]]. [[keroro-robo-mk-ii|Keroro Robo Mk-II]] korzysta z działka Vulcan, walki wręcz, karabinu wiązkowego i bloku tarczą; może też zmienić formę w [[keroro-jet|Keroro Jet]].
+Maszyna pilotowana przez [[sergeant-keroro|sierżanta Keroro]], który trafia nią na kolonię kosmiczną w [[srw-oe-ep3-zielony-najezdzca|scenie „Zielony najeźdźca”]]. W [[srw-oe|Super Robot Wars OE]] [[keroro-robo-mk-ii|Keroro Robo Mk-II]] walczy działkiem Vulcan (zasięg 1–3), walką wręcz i karabinem wiązkowym (zasięg 1–4, premia „Na dużych” przeciw większym wrogom). Podczas obrony działa blok tarczą zmniejszający obrażenia o 20%. Maszyna może się przekształcić w [[keroro-jet|Keroro Jet]].
 
 }}
 

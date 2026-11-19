@@ -9,6 +9,7 @@ mechy: [hover-truck]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team
+  - https://en.gundam-official.com/character/xlwzvd8nzsynd05g9wwkpit9
 tagi: [one-year-war, wsparcie, 08th-ms-team, federacja, 08-pluton-ms]
 utworzono: 2026-10-23
 ---
@@ -23,7 +24,7 @@ Podczas eskorty [[medea|Medei]] wykrywa dźwięk wrogich [[mobile-suit|mobile su
 
 {{zrodlo gra=wspolne
 
-W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] z [[uc-0079|U.C. 0079]] Eledore jest weteranem [[08-pluton-ms|08. Plutonu MS]] sił [[earth-federation|Federacji]] i to on siedzi za sterami wozu wsparcia. Nie uchodzi za odważnego i sam przyznaje, że nie nadaje się na żołnierza, ale gdy trzeba, naraża się mimo wszystko — zwłaszcza kiedy w grę wchodzi [[karen-joshua|Karen]] ([Wikipedia, „Mobile Suit Gundam: The 08th MS Team”](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
+W [[mobile-suit-gundam-08th-ms-team|pierwowzorze]] z [[uc-0079|U.C. 0079]] Eledore jest weteranem [[08-pluton-ms|08. Plutonu MS]] sił [[earth-federation|Federacji]] i jest pilotem wozu wsparcia oraz operatorem sonaru — ma wyjątkowo czuły słuch ([GUNDAM Official, „Eledore Mathis”](https://en.gundam-official.com/character/xlwzvd8nzsynd05g9wwkpit9); sprawdzono 2026-11-18). Nie uchodzi za odważnego i sam przyznaje, że nie nadaje się na żołnierza, ale gdy trzeba, naraża się mimo wszystko — zwłaszcza kiedy w grę wchodzi [[karen-joshua|Karen]] ([Wikipedia, „Mobile Suit Gundam: The 08th MS Team”](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
 }}
 
 {{menu gra=srw-oe

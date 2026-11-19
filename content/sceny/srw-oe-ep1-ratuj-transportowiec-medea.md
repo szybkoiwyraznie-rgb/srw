@@ -14,6 +14,8 @@ sekcje_analizy:
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team
+  - https://en.gundam-official.com/character/kv9z08e8kv869tgsmrigbaqz
+  - https://en.gundam-official.com/character/xlwzvd8nzsynd05g9wwkpit9
   - https://gundam.fandom.com/wiki/Medea
 postacie: [shiro-amada, terry-sanders-jr, karen-joshua, michel-ninorich, eledore-massis, zolnierz-federacji, oficer-federacji, zolnierz-zeonu]
 mechy: [gundam-ez8, gundam-ground-type, gundam-ground-type-glowa-gm, hover-truck, medea, dopp, zaku-ii-karabin-maszynowy, zaku-ii-bazooka]
@@ -145,7 +147,7 @@ Wydarzenia z tej sceny nie przenoszą konkretnego odcinka — obrona klucza Mede
 
 [[medea|Medea]] jest znanym z oryginału samolotem transportowym Federacji, wykorzystywanym do przewozu zaopatrzenia i mobile suitów. Jej ograniczone uzbrojenie obronne to karabiny przeciwlotnicze; lekkie uzbrojenie zostaje zachowane, ale sama przedstawiona tutaj akcja ratunkowa nie jest przypisana żadnemu odcinkowi ([Gundam Wiki, „Medea”](https://gundam.fandom.com/wiki/Medea); sprawdzono 2026-10-24).
 
-Funkcje załogi wozu wsparcia są tu znowu zamienione: głównym pilotem jest [[michel-ninorich|Michel]], a [[eledore-massis|Eledore]] pełni rolę wspierającą. W anime to Eledore prowadzi wóz, natomiast Michel nawiguje i obsługuje działko (Wikipedia, „Mobile Suit Gundam: The 08th MS Team”, tamże).
+W OE głównym pilotem wozu jest [[michel-ninorich|Michel]], a [[eledore-massis|Eledore]] pełni rolę wspierającą. W OVA obaj są pilotami wozu: Michel obsługuje działko, Eledore sonar ([GUNDAM Official, „Michel Ninorich”](https://en.gundam-official.com/character/kv9z08e8kv869tgsmrigbaqz); [GUNDAM Official, „Eledore Mathis”](https://en.gundam-official.com/character/xlwzvd8nzsynd05g9wwkpit9); sprawdzono 2026-11-18).
 }}
 
 {{skrypt gra=srw-oe

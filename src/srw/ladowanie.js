@@ -9,7 +9,8 @@
  *
  * Powłoka rośnie razem z liczbą stron tylko przez indeks; treść rośnie w plikach.
  * Renderery zostają synchroniczne: ciało strony pojawia się w `SRW_DATA.strony[slug]`
- * po `Object.assign`, w tym samym kształcie co wcześniej.
+ * pod polem `html`/`sekcje`/`boksy` (sprawdzanym przed wstawieniem), bez nadpisywania
+ * metadanych z indeksu.
  *
  * Tryb jednoplikowy (`globalThis.SRW_DATA` wstrzyknięte w całości, `npm run build:single`)
  * zostaje dla testów, archiwum offline i otwierania z dysku: wtedy `czyTrybPlikow()`

@@ -16,7 +16,7 @@ utworzono: 2026-11-13
 ---
 {{skrypt gra=srw-oe
 
-W [[srw-oe|Super Robot Wars OE]] serię reprezentują [[heero-yuy|Heero Yuy]], jego [[wing-gundam-zero|Wing Gundam Zero]] i skrzydlata forma [[wing-gundam-zero-nb|Wing Zero NB]], które razem z [[gundam-exia|Gundamem Exia]] niszczą obserwatorium na [[wyspy-kurylskie|Wyspach Kurylskich]] pod koniec misji [[srw-oe-ep3-skradajacy-sie-cien|„Skradający się cień”]].
+W [[srw-oe-ep3-interwencja-gundamow|„Interwencji Gundamów”]] [[heero-yuy|Heero Yuy]] nadlatuje nad [[wyspy-kurylskie|Kuryle]] w skrzydlatej formie [[wing-gundam-zero-nb|Wing Zero NB]]. Razem z [[gundam-exia|Exią]] niszczy obserwatorium, którego broniło [[connect-force|Connect Force]]. W [[srw-oe-ep3-skradajacy-sie-cien|„Skradającym się cieniu”]] Heero ujawnia, że było to laboratorium [[cyber-newtype|Cyber-Newtype’ów]]. Jego [[wing-gundam-zero|Wing Gundam Zero]] w postaci humanoidalnej staje u boku obrońców przeciw [[invaderzy|Invaderom]].
 }}
 
 {{zrodlo gra=wspolne

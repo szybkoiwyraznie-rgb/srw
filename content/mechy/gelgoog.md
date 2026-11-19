@@ -12,27 +12,31 @@ pochodzenie: menu
 zrodla:
   - https://www.mahq.net/ms-14a/
   - https://gundam.fandom.com/wiki/MS-14A_Gelgoog
+  - https://gundam.fandom.com/wiki/MS-14S_Gelgoog_Commander_Type
+  - https://www.mahq.net/ms-14s/
 tagi: [one-year-war, mobile-suit, gundam-1979, zeon]
 utworzono: 2026-11-18
 ---
 {{skrypt gra=srw-oe
 
-Seryjny [[mobile-suit|mobile suit]] [[zeon|Zeonu]], którym w kryjówce piratów na asteroidzie w [[srw-oe-ep3-kryjowka-piratow|scenie „Szturm na kryjówkę piratów”]] latają bezimienni [[pilot-ms|piloci MS]]. Podobnie jak dowódcza maszyna [[char-aznable|Chara]] dysponuje karabinem wiązkowym, naginatą wiązkową i blokiem tarczą zmniejszającym przyjmowane obrażenia, ma jednak mniejszą siłę ognia i krótszy zasięg karabinu oraz nie wykonuje szarży przebijającej.
+Seryjny [[mobile-suit|mobile suit]] [[zeon|Zeonu]]. W [[srw-oe-ep3-kryjowka-piratow|kryjówce na asteroidzie]] za jego sterami siedzą bezimienni [[pilot-ms|piloci MS]].
 
-W bazie na asteroidzie cztery Gelgoogi walczą obok [[rick-dom|Rick Domów]], [[zaku-ii-bazooka|Zaku II z bazooką]] oraz [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]] — siła obrony piratów tkwi w liczbie maszyn, nie w pojedynczym asie.
+Dopiero po wpłynięciu [[white-base|White Base]] do portu [[amuro-ray|Amuro]] widzi, ile maszyn czeka w środku. Oprócz Gelgoogów piraci mają [[rick-dom|Rick Domy]] oraz Zaku II uzbrojone w [[zaku-ii-bazooka|bazooki]] lub [[zaku-ii-karabin-maszynowy|karabiny maszynowe]].
 
 ### Pozostałe jednostki Gelgoog
 
-Odmianą dowódczą lata [[char-aznable|Char]]: [[gelgoog-char|Gelgoog (Char)]].
+W [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu za White Base]] [[char-aznable|Char Aznable]] walczy w [[gelgoog-char|odmianie dowódczej]].
 }}
 
 {{zrodlo gra=wspolne
 
 ## Pierwowzór
 
-W [[mobile-suit-gundam-1979|pierwowzorze]] MS-14A Gelgoog to seryjna maszyna ogólnego przeznaczenia Księstwa [[zeon|Zeonu]] o wysokości 19,2 metra, napędzana ultrakompaktowym reaktorem Minovsky'ego o mocy 1440 kW. Projekt firmy Zeonic wywodził się z anulowanego modelu MS-11 o uzbrojeniu balistycznym i został przebudowany po przełomie w pracach nad przenośnym karabinem wiązkowym; w jego powstaniu uczestniczyły także Zimmad (silniki rakietowe) i MIP (karabin wiązkowy), a seryjne egzemplarze wytwarzano w zakładach na Księżycu w Granadzie oraz w kosmicznej fortecy A Baoa Qu ([MAHQ, „MS-14A Gelgoog”](https://www.mahq.net/ms-14a/); [Gundam Wiki, „MS-14A Gelgoog”](https://gundam.fandom.com/wiki/MS-14A_Gelgoog); sprawdzono 2026-11-18).
+MS-14A Gelgoog z [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] mierzy 19,2 m do szczytu głowy i ma reaktor Minovsky’ego o mocy 1440 kW. Kiedy [[zeon|Zeon]] zażądał maszyny zdolnej do użycia przenośnego karabinu wiązkowego, projekt MS-11 ustąpił miejsca MS-14 ([MAHQ, „MS-14A Gelgoog”](https://www.mahq.net/ms-14a/); sprawdzono 2026-11-18).
 
-W odróżnieniu od wcześniejszych konstrukcji Zeonu Gelgoog nie nosi klasycznego plecaka napędowego — główne dysze marszowe ukryto pod tylnym fartuchem pancerza, a dodatkowe silniczki manewrowe rozmieszczono na przedramionach i nogach. Seryjny wariant MS-14A wszedł do produkcji w grudniu [[uc-0079|U.C. 0079]], dwa miesiące po wczesnej partii dowódczej [[gelgoog-char|MS-14S]], od której odróżniało go cięższe opancerzenie kosztem niewielkiego spadku prędkości; dzięki opóźnieniom przy wdrażaniu karabinu wiązkowego trafił na front dopiero w końcowej fazie wojny ([MAHQ, „MS-14A Gelgoog”](https://www.mahq.net/ms-14a/); [Gundam Wiki, „MS-14A Gelgoog”](https://gundam.fandom.com/wiki/MS-14A_Gelgoog); sprawdzono 2026-11-18).
+Za konstrukcję odpowiadała firma Zeonic, za silniki — Zimmad, a za karabin — MIP. Główne dysze znalazły się pod tylną osłoną bioder, więc w standardowym wyposażeniu Gelgoog nie potrzebował plecaka napędowego; dodatkowe silniki w przedramionach służyły do lotu w atmosferze. Seryjne maszyny powstawały przede wszystkim w Granadzie i A Baoa Qu ([Gundam Wiki, „MS-14A Gelgoog”](https://gundam.fandom.com/wiki/MS-14A_Gelgoog); sprawdzono 2026-11-18).
+
+Próby wcześniejszych [[gelgoog-char|MS-14S]] rozpoczęły się w październiku [[uc-0079|U.C. 0079]]. Po uwagach pilotów dołożono pancerza, co zwiększyło wytrzymałość seryjnego MS-14A kosztem prędkości ([Gundam Wiki, „MS-14S Gelgoog Commander Type”, część „History”](https://gundam.fandom.com/wiki/MS-14S_Gelgoog_Commander_Type); sprawdzono 2026-11-18). Pierwsze MS-14A trafiły do służby 8 grudnia, gdy Zeon miał już niewielu doświadczonych pilotów ([MAHQ, MS-14S](https://www.mahq.net/ms-14s/); [MAHQ, MS-14A](https://www.mahq.net/ms-14a/); sprawdzono 2026-11-18).
 }}
 
 {{menu gra=srw-oe
@@ -51,6 +55,8 @@ W odróżnieniu od wcześniejszych konstrukcji Zeonu Gelgoog nie nosi klasyczneg
 {{menu gra=srw-oe
 
 ## Parametry
+
+Karabin wiązkowy sięga pięciu pól, o jedno mniej niż w [[gelgoog-char|maszynie Chara]]. Naginata ma efekt „Garda”, który zwiększa obronę. Osobną zdolnością jest blok tarczą: kiedy pilot się broni, otrzymuje o 20% mniej obrażeń.
 
 **Seria:** Mobile Suit Gundam
 

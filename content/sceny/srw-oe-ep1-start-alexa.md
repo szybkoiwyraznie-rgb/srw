@@ -20,6 +20,8 @@ zrodla:
   - https://www.mahq.net/gundam0080ep1/
   - https://gundam.fandom.com/wiki/How_Many_Miles_to_the_Battlefield%3F
   - https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team
+  - https://en.gundam-official.com/character/kv9z08e8kv869tgsmrigbaqz
+  - https://en.gundam-official.com/character/xlwzvd8nzsynd05g9wwkpit9
 postacie: [oficer-federacji, christina-mackenzie, shiro-amada, terry-sanders-jr, karen-joshua, eledore-massis, michel-ninorich, mikhail-kaminsky, hardy-steiner, gabriel-ramirez-garcia, andy-strauss, zolnierz-federacji]
 mechy: [rx-78nt-1-gundam-alex, gundam-ez8, gundam-ground-type, gundam-ground-type-glowa-gm, hover-truck, kampfer-bazooka, kampfer-high-mobility, zaku-ii-kai]
 pojecia: [08-pluton-ms, pluton-cyclops, earth-federation, zeon, operacja-odessa, minovsky-particles, mobile-suit, newtype, side-6, libot, jaburo, black-tri-stars]
@@ -258,7 +260,7 @@ Miejsce i obsada starcia są tu inne. Odcinek pokazuje bazę na obszarze arktycz
 
 Rozmowa Chris z Shiro przed startem jest elementem gry. W odcinku Chris pojawia się po przybyciu transportu na [[libot|Libot]], natomiast tutaj uczestniczy w przygotowaniach i dyskusji o symulatorze. Samo spotkanie łączy *Gundam 0080* z *The 08th MS Team*: Shiro, Karen, Sanders, Michel i Eledore pochodzą z tej drugiej serii, której oryginał nie zna misji ochrony Alexa ([Wikipedia, *Mobile Suit Gundam: The 08th MS Team*](https://en.wikipedia.org/wiki/Mobile_Suit_Gundam:_The_08th_MS_Team); sprawdzono 2026-10-23).
 
-Obsada Hover Trucka też jest inna niż w serialu: Michel jest głównym pilotem, a Eledore wspierającym. W anime Eledore prowadzi wóz, a Michel pełni rolę nawigatora i celowniczego (tamże).
+W OE Michel występuje jako pilot główny, a Eledore jako wspierający. W OVA obaj są pilotami wozu: Michel obsługuje działko, Eledore sonar ([GUNDAM Official, „Michel Ninorich”](https://en.gundam-official.com/character/kv9z08e8kv869tgsmrigbaqz); [GUNDAM Official, „Eledore Mathis”](https://en.gundam-official.com/character/xlwzvd8nzsynd05g9wwkpit9); sprawdzono 2026-11-18).
 }}
 
 {{skrypt gra=srw-oe
@@ -270,7 +272,7 @@ Obsada Hover Trucka też jest inna niż w serialu: Michel jest głównym pilotem
 | **Symulator i pole bitwy.** [[shiro-amada\|Shiro]] i [[christina-mackenzie\|Chris]] porównują wyniki prób z odpowiedzialnością pilota za własne życie. | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa Shiro z Chris o symulatorze nie ma odpowiednika w seriach; bohaterowie pochodzą z różnych opowieści i w źródłach się nie spotykają. |
 | **Start pod osłoną.** Celem obu stron jest wahadłowiec z [[rx-78nt-1-gundam-alex\|Alexem]], a nie samo zwycięstwo w walce mobile suitów. | [[mobile-suit-gundam-0080\|Mobile Suit Gundam 0080]] | odc. 1 „How Many Miles to the Battlefield?” | Oryginał również kończy się udanym startem wahadłowca z bazy arktycznej w kosmos mimo rajdu plutonu Cyclops; tutaj lądową osłonę startu zapewnia [[08-pluton-ms\|08. Pluton MS]]. |
 | **Improwizowana naprawa.** [[karen-joshua\|Karen]] wraca z głową GM-a, bo sprawność maszyny jest ważniejsza niż wygląd. | [[mobile-suit-gundam-08th-ms-team\|Mobile Suit Gundam: The 08th MS Team]] | cała seria | Motyw doraźnych napraw i nieestetycznych części jest stały w OVA; konkretna scena z głową GM-a jest dopisana przez grę. |
-| **Dowódca i jego ludzie.** [[hardy-steiner\|Steiner]] mierzy ryzyko misji życiem własnego oddziału i zarządza odwrót, gdy szturm się zatrzymuje. | [[mobile-suit-gundam-0080\|Mobile Suit Gundam 0080]] | odc. 1 „How Many Miles to the Battlefield?” | Steiner dowodzi plutonem Cyclops w odcinku; tutaj zarządza odwrót po nieudanym szturmie i udanym starcie wahadłowca. |
+| **Dowódca i jego ludzie.** [[hardy-steiner\|Steiner]] mierzy ryzyko misji życiem własnego oddziału i zarządza odwrót, gdy szturm się zatrzymuje. | [[mobile-suit-gundam-0080\|Mobile Suit Gundam 0080]] | odc. 1 „How Many Miles to the Battlefield?” | Steiner dowodzi plutonem Cyclops w odcinku; tutaj zarządza odwrót przed startem wahadłowca, a start następuje po potwierdzeniu odwrotu. |
 | **Wsparcie z tyłu.** [[michel-ninorich\|Michel]] i [[eledore-massis\|Eledore]] zabezpieczają patrol i wykrywają zagrożenie, ale nie mają uczestniczyć w bezpośrednim starciu. | [[mobile-suit-gundam-08th-ms-team\|Mobile Suit Gundam: The 08th MS Team]] | cała seria | Podział na zwiad i walkę odpowiada rolom Michela i Eledore'a w OVA; ich udział w obronie wahadłowca to połączenie dwóch serii przez grę. |
 | **Chwila przed drogą.** Po starcie rozmowa o jedzeniu ustępuje ostrożności: [[jaburo\|Jaburo]] jest celem, lecz droga pozostaje niebezpieczna. | [[srw-oe\|Super Robot Wars OE]] | n/d | Scena załogowa po starcie i wzmianka o drodze do Jaburo nie mają odpowiednika w odcinku. |
 }}

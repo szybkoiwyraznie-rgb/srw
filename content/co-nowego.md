@@ -1,5 +1,21 @@
 # Co nowego
 
+## 2026-11-18 15:43
+
+- W OVA [[michel-ninorich|Michel Ninorich]] jest pilotem [[hover-truck|Hover Trucka]] i obsługuje działko, a [[eledore-massis|Eledore Mathis]] pilotem i operatorem sonaru. W [[srw-oe|Super Robot Wars OE]] Michel występuje jako pilot główny, a Eledore jako wspierający — to podział ról z gry, nie zamiana stanowisk z serialu.
+
+## 2026-11-18 15:40
+
+- W [[srw-oe|Super Robot Wars OE]] [[keroro-robo-mk-ii|Keroro Robo Mk-II]] walczy karabinem wiązkowym z premią „Na dużych”, a po transformacji w [[keroro-jet|Keroro Jet]] tylko ten karabin dostaje premię „Na powietrze”. Osłona tarczą zmniejszająca obrażenia działa wyłącznie w formie robotycznej.
+
+## 2026-11-18 15:39
+
+- Kiedy w październiku [[uc-0079|U.C. 0079]] asy [[zeon|Zeonu]] rozpoczynają próby Gelgoogów, jeden z wczesnych egzemplarzy trafia do [[char-aznable|Chara]]. [[gelgoog-char|Jego czerwony MS-14S]] poprzedza [[gelgoog|seryjnego MS-14A]], który wchodzi do służby 8 grudnia.
+
+## 2026-11-18 15:37
+
+- Nad [[wyspy-kurylskie|Kurylami]] [[heero-yuy|Heero]] w [[wing-gundam-zero-nb|Wing Zero NB]] i [[setsuna-f-seiei|Setsuna]] w [[gundam-exia|Exii]] niszczą obserwatorium po odwrocie Zeonu. W [[srw-oe-ep3-skradajacy-sie-cien|następnym starciu]] [[wing-gundam-zero|Wing Gundam Zero]] walczy już w postaci humanoidalnej. Obrońcy poznają cel nalotu, ale nie nazwę grupy, do której należą obaj piloci.
+
 ## 2026-11-18 14:20
 
 - **Kto broni Ziemi, a kto rusza ku gwiazdom?** Po bitwie w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|lesie Aokigahara]] [[saurersi|Saurersi]] z [[go-saurer|Go-Saurerem]] zostają na Ziemi przeciw mechabestiom. [[klasa-obrony-ziemi|Klasa Obrony Ziemi]] i [[gurren-lagann|Gurren Lagann]] zgłaszają się do wyprawy [[connect-force|Connect Force]], a drużyny [[ganbaruger|Ganbarugera]] i [[daiteioh|Daiteioha]] wzmacniają obronę planety.
@@ -11,12 +27,12 @@
 
 ## 2026-11-18 11:22
 
-- **Dwie sylwetki seryjnego [[gelgoog|Gelgooga]]** — maszyna, którą w kryjówce piratów latają bezimienni [[pilot-ms|piloci MS]]: karabin wiązkowy sięga pięciu pól, a naginata wiązkowa rozstrzyga zwarcie, gdzie tarcza tłumi przyjmowane obrażenia. Obok niej stoi dowódczy [[gelgoog-char|Gelgoog Chara]] o większej sile ognia i z dodatkową szarżą przebijającą.
+- [[pilot-ms|Piloci MS]] w kryjówce piratów mają [[gelgoog|seryjne Gelgoogi]] z karabinem wiązkowym o zasięgu pięciu pól i naginatą do walki z bliska. Podczas obrony tarcza zmniejsza przyjmowane obrażenia.
 
 ## 2026-11-18 08:30
 
 - **Kryjówka piratów w asteroidzie** — [[srw-oe-ep3-kryjowka-piratow|„Szturm na kryjówkę piratów”]] prowadzi [[connect-force|Connect Force]] poza Sferę Ziemską, ku [[stacja-mars|Stacji Mars]], skąd gigantyczna brama warp ma otworzyć drogę w daleki kosmos. Po drodze załoga namierza bazę piratów ukrytą w skale, wchodzi do jej portu i staje naprzeciw większej liczby [[mobile-suit|mobile suitów]], niż się spodziewała.
-- **[[gelgoog|Gelgoog]] w rękach bezimiennych pilotów** — seryjna maszyna [[zeon|Zeonu]] broni kryjówki obok [[rick-dom|Rick Domów]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]]; podobnie jak dowódczy [[gelgoog-char|Gelgoog Chara]] nosi karabin wiązkowy, naginatę wiązkową i tarczę, ustępuje mu jednak siłą ognia, zasięgiem i brakiem ataku przebijającego.
+- **[[gelgoog|Gelgoog]] w rękach bezimiennych pilotów** — seryjna maszyna [[zeon|Zeonu]] broni kryjówki obok [[rick-dom|Rick Domów]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]]; podobnie jak dowódczy [[gelgoog-char|Gelgoog Chara]] nosi karabin wiązkowy, naginatę wiązkową i tarczę, ma jednak krótszy zasięg karabinu i mniejszą moc obu broni. Szarżę z przebiciem wykonuje tylko maszyna Chara.
 - **[[pilot-ms|Pilot MS]] jako zbiorowa załoga** — w bazie piratów za sterami siedzą szeregowi żołnierze bez nazwisk: w grupie wspierają się nawzajem, a ich wytrzymałość jest sumą siły całej formacji.
 - **Dezerterzy, którzy nie mieli dokąd pójść** — po walce [[seishiro|Seishiro]] pyta, dlaczego w bazie było tylu byłych żołnierzy [[zeon|Zeonu]]; [[terry-sanders-jr|Sanders]] i [[michel-ninorich|Michel]] tłumaczą, że po dezercji zostaje niewola u [[earth-federation|Federacji]] albo sąd w ojczyźnie, a [[alan-igor|Alan]] i [[ryo-shiba|Ryo]] wskazują na syndykat, który daje piratom pracę i nie pozwala odejść.
 - **[[himari-yaegaki|Himari]] nad notatkami o bramach warp** — zamiast iść na posiłek, podpilotka [[exart|Exarta]] zostaje przy nauce o [[stacja-mars|Stacji Mars]], korzystając z szerszego dostępu do danych, jaki daje jej miejsce w kokpicie.
@@ -28,7 +44,7 @@
 
 ## 2026-11-17 20:35
 
-- **[[keroro-robo-mk-ii|Keroro Robo Mk-II]] i jego lotnicza forma** — ulepszona maszyna [[sergeant-keroro|sierżanta Keroro]] z drugiej generacji robotów jego plutonu ma kokpit w zadokowanym spodku, a przy przejściu w odrzutowiec [[keroro-jet|Keroro Jet]] rezygnuje z walki wręcz i osłony tarczą na rzecz lotu oraz dłuższego zasięgu działka Vulcan i karabinu wiązkowego.
+- **[[keroro-robo-mk-ii|Keroro Robo Mk-II]] i jego lotnicza forma** — ulepszona maszyna [[sergeant-keroro|sierżanta Keroro]] z drugiej generacji robotów jego plutonu ma kokpit w zadokowanym spodku. W formie robotycznej karabin wiązkowy ma premię „Na dużych” przeciw większym wrogom; po transformacji w [[keroro-jet|Keroro Jet]] Vulcan i karabin zyskują po jednym polu zasięgu, a tylko karabin dostaje premię „Na powietrze”. Osłona tarczą działa wyłącznie w formie robotycznej.
 
 ## 2026-11-17 20:32
 
@@ -119,7 +135,7 @@
 
 ## 2026-11-14 21:20
 
-- [[gundam-exia|Gundam Exia]] ma dwa własne ujęcia, [[wing-gundam-zero|Wing Gundam Zero]] dwa, a jego skrzydlata forma [[wing-gundam-zero-nb|Wing Zero NB]] jedno — opatrzone tym samym dopiskiem, który nosi wspólna nazwa obu maszyn.
+- [[gundam-exia|Gundam Exia]] ma dwa własne ujęcia, [[wing-gundam-zero|Wing Gundam Zero]] dwa, a jego skrzydlata forma [[wing-gundam-zero-nb|Wing Zero NB]] jedno.
 - Portrety mają [[garma-zabi|Garma Zabi]], [[heero-yuy|Heero Yuy]], [[setsuna-f-seiei|Setsuna F. Seiei]] i [[uragan|Uragan]] — czterej świadkowie kurylskiej zasadzki, od atakującego obserwatorium Garmy po dowódcę odsieczy.
 
 ## 2026-11-14 14:22
@@ -132,7 +148,7 @@
 
 - W [[srw-y|Super Robot Wars Y]] [[amuro-ray|Amuro Ray]] i [[bright-noa|Bright Noa]] występują w wersji z filmu *Char's Counterattack* z 1988 roku: Amuro dosiada ν Gundama, a Bright dowodzi okrętem Ra Cailum oddziału Londo Bell. W [[srw-oe|Super Robot Wars OE]] obaj reprezentują jeszcze serial z 1979 roku, więc na paradzie u [[lelouch-vi-britannia|Leloucha]] stoją już jako weterani wojny sprzed lat.
 - [[char-aznable|Char Aznable]] w tym samym filmie staje na czele Neo Zeonu i walczy w Sazabim; w opowieści Y jego rozrachunek z Lelouchem dopiero ma wybuchnąć.
-- [[wing-gundam-zero|Wing Gundam Zero]] przechodzi w tryb Neo-Bird — skrzydlatą formę, w której leci w atmosferze i samodzielnie w nią wchodzi. Pod wspólną nazwą „Wing Zero/NB” kryją się obie maszyny: humanoidalny Gundam i ta forma, opisana jako [[wing-gundam-zero-nb|Wing Zero NB]].
+- [[wing-gundam-zero-nb|Wing Zero NB]] to skrzydlata forma przelotowa [[wing-gundam-zero|Wing Gundama Zero]]. Obie postacie maszyny mają Twin Buster Rifle, ale tylko w humanoidalnej [[heero-yuy|Heero]] może sięgnąć po szablę wiązkową.
 
 ## 2026-11-14 13:24
 
@@ -585,7 +601,7 @@
 ## 2026-10-24 00:45
 
 - [[shiro-amada|Shiro]] obejmuje [[08-pluton-ms|08. Pluton MS]] w dżunglach Azji Południowo-Wschodniej, [[karen-joshua|Karen]] jest wdową po lekarzu wojskowym i w razie potrzeby zastępuje sanitariusza, a [[terry-sanders-jr|Sandersa]] prześladuje pech trzeciej misji, który przyniósł mu przezwisko „Shinigami Sanders”.
-- [[michel-ninorich|Michel]] nawiguje i strzela, [[eledore-massis|Eledore]] prowadzi wóz wsparcia, a [[christina-mackenzie|Chris]] idzie od akademii i pracy przy komputerze uczącym do stałego fotela w [[rx-78nt-1-gundam-alex|Alexie]].
+- [[michel-ninorich|Michel]] jest pilotem i celowniczym wozu, [[eledore-massis|Eledore]] pilotem i operatorem sonaru, a [[christina-mackenzie|Chris]] idzie od akademii i pracy przy komputerze uczącym do stałego fotela w [[rx-78nt-1-gundam-alex|Alexie]].
 - [[pluton-cyclops|Pluton Cyclops]] ma podział zadań: [[hardy-steiner|Steiner]] dowodzi, [[mikhail-kaminsky|Misza]] jest jego zastępcą, [[gabriel-ramirez-garcia|Garcia]] odpowiada za broń i materiały wybuchowe, a [[andy-strauss|Andy]] za pojazdy.
 
 ## 2026-10-24 00:40

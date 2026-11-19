@@ -41,10 +41,6 @@ const INNE_NAZWY_SERII = { Original: 'super-robot-wars-original' };
  */
 const INNE_ZAPISY_NAZW = {
   'SI sterująca': 'control-ai',
-  // Dostawa OE trzyma obie maszyny pod jednym rekordem „Wing Zero/NB”: bazowa strona
-  // Wing Gundam Zero niesie ten rekord, a skrzydlata forma ma osobną stronę (wing-gundam-zero-nb).
-  'Wing Zero/NB (Wing Gundam Zero/NB)': 'wing-gundam-zero',
-  'Wing Gundam Zero/NB': 'wing-gundam-zero',
 };
 
 /** Wpisy w miejscu pilota, które nie są osobą: rekord bez pilota albo głos bez imienia. */

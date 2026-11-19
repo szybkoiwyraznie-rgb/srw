@@ -172,7 +172,7 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Noa Izumi i Labor przeciw okrętowi Zeonu',
       'Shiro i maszyny lądowe na śniegu',
       'Koji i Mazinger Z w walce z okrętami',
-      'Nocny atak Exii i Wing Zero na placówkę',
+      'Nalot Exii i Wing Zero NB na placówkę',
       // scena 3-2: Skradający się cień
       'Laboratorium Cyber-Newtype\'ów w zniszczonej placówce',
       'Invaderzy przejmujący obiekt Federacji',
