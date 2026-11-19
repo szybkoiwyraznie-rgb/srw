@@ -56,3 +56,4 @@ Zasady:
 | [0041](0041-powloka-i-leniwe-dane.md) | Powłoka z indeksem i leniwe dociąganie ciał stron (uchyla pkt 4 ADR 0001) |
 | [0042](0042-quick-menu-spis-boksow.md) | Quick menu: spis boksów u szczytu kolumny bocznej |
 | [0043](0043-druga-dostawa-odswieza-pare.md) | Druga dostawa tej samej gry odświeża parę (mech, gra) w miejscu |
+| [0044](0044-ostatnia-dostawa-ma-racje.md) | Ostatnia dostawa ma rację, a domysł z materiału jest dopuszczalny |

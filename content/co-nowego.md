@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-19 20:30
+
+- W [[srw-oe-ep1|pierwszym epizodzie Super Robot Wars OE]] [[medea|Medea]] prowadzi ogień z wieży karabinem przeciwlotniczym, a [[ingram-nr-1|Ingram nr 1]] chwyta wroga linką i odbiera mu celność, zanim ten zdąży odpowiedzieć.
+
 ## 2026-11-19 20:00
 
 - [[gauma|Gauma]] bezskutecznie próbuje przejąć władzę nad kaiju i dopiero figurka smoka zamienia się w [[dynazenon|Dynazenona]]. Okazuje się, że do sterowania potrzeba czterech osób — [[yomogi-asanaka|Yomogi]], [[yume-minami|Yume]] i [[koyomi-yamanaka|Koyomi]] trafiają do kokpitu, a Gauma w trakcie walki pyta sam siebie, kim właściwie jest Dynazenon.
