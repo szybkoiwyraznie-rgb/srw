@@ -20,6 +20,8 @@ Mężczyzna, który nazywa siebie “władcą kaiju”. Szuka pewnej osoby i nie
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] na placu [[miasto-yagami|miasta Yagami]] wpada na niego [[cross-tsukinowa|Cross Tsukinowa]] ścigający [[takuma-nagare|Takumę]] i [[baku-yamagishi|Baku]]; Gauma oburza się na zdawkowe „wybacz”, ale po uprzejmych przeprosinach od razu puszcza sprawę w niepamięć.
 
 Kiedy [[yomogi-asanaka|Yomogi]] dzieli się z nim bułką, Gauma obiecuje spłacić dług. W obronie miasta po raz pierwszy przyzywa [[dynazenon|Dynazenona]].
+
+W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] próbuje przejąć nad kaiju władzę, którą stracił, i bezskutecznie go „łapie”; dopiero świetlista figurka smoka zamienia się w robotę. Gauma odkrywa, że do sterowania Dynazenonem trzeba czterech osób, i wciąga do kokpitu [[yomogi-asanaka|Yomogiego]], [[yume-minami|Yume]] i [[koyomi-yamanaka|Koyomiego]]. Gdy walka przenosi się pod kopułę, wypycha potwory na zewnątrz, a po starciu wskazuje jako winnych [[klub-kaiju|Klub Kaiju]] i rozdaje towarzyszom części maszyny. W trakcie walki pyta sam siebie, kim Dynazenon właściwie jest. Po bitwie bez wahania zgadza się użyczyć siły [[a-advent|A. Adventowi]] — bo, jak mówi, zrobił to, bo chciał.
 }}
 
 {{zrodlo gra=wspolne

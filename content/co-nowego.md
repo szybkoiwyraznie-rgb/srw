@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-19 20:00
+
+- [[gauma|Gauma]] bezskutecznie próbuje przejąć władzę nad kaiju i dopiero figurka smoka zamienia się w [[dynazenon|Dynazenona]]. Okazuje się, że do sterowania potrzeba czterech osób — [[yomogi-asanaka|Yomogi]], [[yume-minami|Yume]] i [[koyomi-yamanaka|Koyomi]] trafiają do kokpitu, a Gauma w trakcie walki pyta sam siebie, kim właściwie jest Dynazenon.
+
 ## 2026-11-19 19:35
 
 - Po obronie [[miasto-yagami|miasta Yagami]] [[echika-y-franburnett|Echika]] prosi czwórkę pilotów [[dynazenon|Dynazenona]] o użyczenie siły [[a-advent|A. Adventowi]]. [[gauma|Gauma]] zgadza się od razu, a [[chise-asukagawa|Chise]] dołącza jako rezerwowa — przy jednym stole spotykają się władca kaiju, drużyna [[getter-arc|Gettera]] i [[ninja|NINJA]].
