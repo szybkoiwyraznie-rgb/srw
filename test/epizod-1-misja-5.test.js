@@ -5,6 +5,7 @@
  * konfiguracji jednostek, profili pilotów oraz różnic wobec odcinka 1 Gundam 0080.
  */
 import test from 'node:test';
+import { bezEtykietDialogow } from './helpers/skrypt-oe.js';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -37,9 +38,11 @@ test('dostawa 1-5 jest zachowana bajt w bajt, a jej scena trafia do epizodu bez 
   assert.match(delivery, /^### Odcinek 1 — Start Alexa \(`DL101_50`\)$/m);
   assert.match(delivery, /^## Gundam Ez8$/m);
   assert.match(delivery, /^#### Christina Mackenzie$/m);
-  const expected = delivery.split('---\nSKRYPT\n---\n\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
+  const expected = bezEtykietDialogow(delivery.split('---\nSKRYPT\n---\n\n')[1].split('\n---\nUCZESTNICY\n---')[0])
+    .replace('### Fragment alternatywny 1\n\n', '')
+    .replace(/### Fragment alternatywny 2\n[\s\S]*?(?=### Start wahadłowca)/, '').trim();
   const przedMisja6 = script.split('\n\n---\n\n## Ratuj transportowiec Medea')[0];
-  assert.ok(przedMisja6.trimEnd().endsWith(expected), 'cała misja, z wariantami, bezpośrednio przed misją 1-6');
+  assert.ok(przedMisja6.trimEnd().endsWith(expected), 'cała misja, po korekcie właściciela, bezpośrednio przed misją 1-6');
   assert.ok(!script.includes('UCZESTNICY'));
   assert.ok(!script.includes('DL101_50'));
 });
@@ -50,9 +53,8 @@ test('scena 1-5 jest dosłowna i poprzedza misję 1-6 w kolejności epizodu', ()
   assert.equal(scena.numer_sceny, '1-5');
   assert.equal(scena.tytul, 'Start Alexa');
   assert.deepEqual(sprawdzWiernoscSceny(scena, script), []);
-  for (const fragment of ['#### Dialogi warunkowe — obwód obronny',
-    '#### Dialogi bojowe — sytuacyjne — powrót Karen', '### Fragment alternatywny 1',
-    '### Fragment alternatywny 2', '**Żołnierz Federacji:** Wahadłowiec startuje!']) {
+  for (const fragment of ['**Shiro:** No to wracam do patrolu. Pani porucznik, proszę spokojnie wsiadać.',
+    '**Żołnierz Federacji:** Wahadłowiec startuje!']) {
     assert.ok(scena.body.includes(fragment), fragment);
   }
   const sceny = pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-oe-ep1')
@@ -60,12 +62,12 @@ test('scena 1-5 jest dosłowna i poprzedza misję 1-6 w kolejności epizodu', ()
   assert.deepEqual(sceny.map((s) => s.numer_sceny), ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6', '1-7', '1-8']);
 });
 
-test('dziewięć etapów analizy ma dokładnie dziewięć kotwic, także przy powtórzonej nazwie miejsca', () => {
+test('siedem etapów analizy ma dokładnie siedem kotwic, także przy powtórzonej nazwie miejsca', () => {
   const blokAnalizy = scena.body.split('## Analiza')[1].split('\n## ')[0];
   const analiza = [...blokAnalizy.matchAll(/^### (.+)$/gm)].map((m) => m[1]);
   const mapa = scena.sekcje_analizy ?? [];
-  assert.equal(analiza.length, 9);
-  assert.equal(mapa.length, 9);
+  assert.equal(analiza.length, 7);
+  assert.equal(mapa.length, 7);
   assert.equal(mapa.filter((wpis) => wpis.endsWith('Baza Federacji / Centrum kontroli startów')).length, 2);
   for (const wpis of mapa) {
     const [lewa, prawa] = String(wpis).split('→').map((s) => s.trim());
@@ -357,7 +359,7 @@ test('jednostki misji 1-5 mają tło techniczne z pierwowzorów (ADR 0008, ADR 0
     'gundam-ez8': [ez8],
     'gundam-ground-type': [rx79, ez8],
     'gundam-ground-type-glowa-gm': [rx79],
-    'hover-truck': [hover],
+    'hover-truck': [hover, 'https://en.gundam-official.com/mecha/nq894fc9e8o52ixsqvdcdt1a'],
     'kampfer-bazooka': [kampfer],
     'kampfer-high-mobility': [kampfer],
     'zaku-ii-kai': [fz],
@@ -372,7 +374,8 @@ test('jednostki misji 1-5 mają tło techniczne z pierwowzorów (ADR 0008, ADR 0
       assert.ok(page.zrodla.includes(adres), `${slug}: ${adres} w frontmatterze`);
       assert.ok(blok[1].includes(adres), `${slug}: ${adres} przy informacji`);
     }
-    assert.ok(page.body.indexOf('{{menu') < page.body.indexOf('{{zrodlo'),
+    const opisGry = page.body.indexOf(slug === 'hover-truck' ? '{{skrypt gra=srw-oe' : '{{menu gra=srw-oe');
+    assert.ok(opisGry >= 0 && opisGry < page.body.indexOf('{{zrodlo'),
       `${slug}: dane z gry przed tłem z pierwowzoru`);
   }
   // Alex ma własny blok tła od misji 1-5, więc wszystkie osiem jednostek jest opisanych.

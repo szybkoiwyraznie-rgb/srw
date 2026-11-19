@@ -20,6 +20,7 @@ import { zbudujRejestr, sprawdzWiernoscSceny } from '../src/srw/registry.js';
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ARCHIWUM = path.join(ROOT, 'dostawy/srw-y/dostawa_1_2a.txt');
 const DOSTAWA = 'dostawy/srw-y/dostawa_1_2a.txt';
+const NASTEPNY_ETAP = 'dostawy/srw-y/dostawa_1_3a.txt';
 const DODATEK = 'dostawy/srw-y/Y_dostawa_1_2a_dodatek.txt';
 const ARCHIWUM_DODATKU = path.join(ROOT, DODATEK);
 const SCENA = 'srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona';
@@ -59,7 +60,7 @@ const NOWE_POSTACIE = ['show-kamui', 'yume-minami', 'koyomi-yamanaka', 'chise-as
 const NOWE_HASLA = ['laboratorium-saotome', 'getter-d2', 'promienie-gettera', 'insectorzy',
   'n-u-n-g', 'ryoma-nagare', 'doktor-saotome', 'campbellianie', 'historia-ziemi'];
 
-test('archiwum misji 2A jest kompletne, a jej skrypt kończy epizod', () => {
+test('archiwum misji 2A jest kompletne, a jej skrypt pozostaje w epizodzie', () => {
   assert.ok(fs.existsSync(ARCHIWUM), 'dostawa leży w dostawy/srw-y');
   assert.match(dostawa, /^### A\. Advent - hangar$/m);
   assert.match(dostawa, /^### Misja 3 — Przebudzenie niebiańskiego demona$/m);
@@ -71,7 +72,7 @@ test('archiwum misji 2A jest kompletne, a jej skrypt kończy epizod', () => {
   // tytuł, więc w archiwum skryptu zostaje sama treść misji (od pierwszego `###`).
   const oczekiwany = dostawa.split('---\nSKRYPT\n---')[1].split('\n---\nUCZESTNICY\n---')[0]
     .trim().replace(/^# .*\n\n/, '').trim();
-  assert.ok(skrypt.trimEnd().endsWith(oczekiwany), 'cała misja 2A na końcu skryptu epizodu');
+  assert.ok(skrypt.includes(oczekiwany), 'cała misja 2A bez przerwy w skrypcie epizodu');
   assert.equal(skrypt.split('### A. Advent - hangar').length - 1, 1, 'bez duplikatu sceny');
   assert.ok(!skrypt.includes('UCZESTNICY'), 'dane uczestników nie trafiają do archiwum skryptu');
 });
@@ -102,7 +103,7 @@ test('nowe jednostki zachowują parametry i uzbrojenie z dostawy', () => {
     assert.equal(mech.seria, 'getter-robo-arc', slug);
     assert.deepEqual(mech.gry, ['srw-y'], slug);
     const wpis = JSON.parse(mech.w_gre['srw-y']);
-    assert.equal(wpis.dostawa, DOSTAWA, slug);
+    assert.equal(wpis.dostawa, slug === 'getter-arc' ? NASTEPNY_ETAP : DOSTAWA, slug);
     assert.equal(wpis.profil, profil, slug);
     assert.equal(normalizujApostrofy(wpis.dane), blokJednostki(profil), `${slug}: dane dosłownie z dostawy`);
     const wTresci = normalizujApostrofy(mech.body.slice(mech.body.indexOf('## Parametry')));
@@ -126,7 +127,7 @@ test('odświeżony rekord pary (mech, gra) obejmuje tylko maszyny z tej misji', 
   for (const [slug, profil] of Object.entries(ODŚWIEŻONE)) {
     const mech = bySlug.get(slug);
     const wpis = JSON.parse(mech.w_gre['srw-y']);
-    assert.equal(wpis.dostawa, DOSTAWA, `${slug}: nowe źródło parametrów`);
+    assert.equal(wpis.dostawa, NASTEPNY_ETAP, `${slug}: nowe źródło parametrów`);
     assert.equal(wpis.profil, profil, slug);
     assert.equal(normalizujApostrofy(wpis.dane), blokJednostki(profil), `${slug}: dane dosłownie z dostawy`);
   }
@@ -214,7 +215,7 @@ test('dodatek 1-2A (Y_dostawa_1_2a_dodatek.txt): Getter Kirik, Getter Khan i Dzi
     const mech = bySlug.get(slug);
     assert.ok(mech.body.includes(encyklopedia), `${slug}: dosłowny opis z Encyklopedii`);
     const wpis = JSON.parse(mech.w_gre['srw-y']);
-    assert.equal(wpis.dostawa, DODATEK, `${slug}: źródło parametrów`);
+    assert.equal(wpis.dostawa, NASTEPNY_ETAP, `${slug}: źródło parametrów`);
     assert.equal(wpis.profil, profil, `${slug}: profil`);
     assert.equal(normalizujApostrofy(wpis.dane), oczekiwane, `${slug}: dane dosłownie z dodatku`);
     const wTresci = normalizujApostrofy(mech.body.slice(mech.body.indexOf('## Parametry')));
@@ -222,13 +223,6 @@ test('dodatek 1-2A (Y_dostawa_1_2a_dodatek.txt): Getter Kirik, Getter Khan i Dzi
   }
   assert.match(bySlug.get('getter-khan').body, /Khan Rover/, 'Getter Khan: nazwa formy z Encyklopedii');
 
-  // Cała trójka pilotów Gettera dostaje w slocie 1 umiejętność „Dzieci Gettera” (poz. nauki 99).
-  for (const slug of ['baku-yamagishi', 'show-kamui', 'takuma-nagare']) {
-    const body = bySlug.get(slug).body;
-    assert.match(
-      body,
-      /\|\s*1\s*\|\s*Dzieci Gettera\s*\|\s*99\s*\|\s*Aktywna, gdy na pokładzie są 3 piloci i każdy ma Morale 140\+\. Początek fazy gracza: Morale \+5\. Gdy wszyscy 3 mają Morale 160\+: końcowe zadawane obrażenia x1\.2\.\s*\|/,
-      `${slug}: umiejętność Dzieci Gettera w slocie 1`,
-    );
-  }
+  // Dodatek opisywał poziom 99; misja 3A odświeża parametry załogi.
+  assert.match(dodatek, /Dzieci Gettera\s*\|\s*99\s*\|/);
 });

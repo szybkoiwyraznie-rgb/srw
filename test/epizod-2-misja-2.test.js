@@ -1,5 +1,6 @@
 /** Dostawa 2-2: archiwum, pełna scena, obsada i parametry bez spoilerów. */
 import test from 'node:test';
+import { bezEtykietDialogow } from './helpers/skrypt-oe.js';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -10,7 +11,7 @@ const pages = wczytajStrony();
 const bySlug = new Map(pages.map((p) => [p.slug, p]));
 const bytes = fs.readFileSync('dostawy/srw-oe/dostawa_2_2.txt');
 const raw = bytes.toString('utf8').replace(/\r\n/g, '\n');
-const script = raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
+const script = bezEtykietDialogow(raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0]).trim();
 const archive = fs.readFileSync('episodes/srw-oe/ep002.md', 'utf8');
 const scena = bySlug.get('srw-oe-ep2-czarny-labor');
 const epizod = bySlug.get('srw-oe-ep2');
@@ -24,18 +25,18 @@ test('oryginał 2-2 jest zachowany bajt w bajt, a misja dopisana bez danych tech
   assert.doesNotMatch(archive, /UCZESTNICY|DL102_20|Entry ID|\(Ally\)/);
 });
 
-test('scena 2-2 zachowuje wszystkie dialogi, kolejność i mapę 13 sekcji', async () => {
+test('scena 2-2 zachowuje wszystkie dialogi, kolejność i mapę 9 sekcji', async () => {
   assert.equal(scena.numer_sceny, '2-2');
   assert.equal(scena.epizod, 'srw-oe-ep2');
   assert.deepEqual(sprawdzWiernoscSceny(scena, archive), []);
   const quoted = [...scena.body.matchAll(/:::skrypt\n([\s\S]*?)\n:::/g)].map((m) => m[1]);
   assert.equal(quoted.length, 10);
   assert.equal(normalizujTekst(quoted.join('\n')), normalizujTekst(script));
-  assert.equal(scena.sekcje_analizy.length, 13);
+  assert.equal(scena.sekcje_analizy.length, 9);
   globalThis.SRW_DATA = await zbudujDane();
   const { renderScena } = await import('../src/srw/render-scene.js');
   const html = renderScena(scena.slug);
-  assert.equal((html.match(/class="skok-do-tresci"/g) ?? []).length, 13);
+  assert.equal((html.match(/class="skok-do-tresci"/g) ?? []).length, 9);
   assert.match(html, /Nawiązania do oryginalnych odcinków/);
   for (const title of ['Griffin was Here!', 'Tragedy in Rain']) assert.ok(scena.body.includes(title));
   const sceneOrder = pages.filter((p) => p.epizod === 'srw-oe-ep2').map((p) => p.numer_sceny).sort();

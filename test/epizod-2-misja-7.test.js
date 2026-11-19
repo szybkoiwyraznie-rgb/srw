@@ -1,5 +1,6 @@
 /** Dostawa 2-7: pościg Zanzibara, przerwanie ognia przez Connect i start Bigro. */
 import test from 'node:test';
+import { bezEtykietDialogow } from './helpers/skrypt-oe.js';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -11,7 +12,7 @@ const pages = wczytajStrony();
 const bySlug = new Map(pages.map((p) => [p.slug, p]));
 const bytes = fs.readFileSync('dostawy/srw-oe/dostawa_2_7.txt');
 const raw = bytes.toString('utf8').replace(/\r\n/g, '\n');
-const script = raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
+const script = bezEtykietDialogow(raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0]).trim();
 const archive = fs.readFileSync('episodes/srw-oe/ep002.md', 'utf8');
 const scene = bySlug.get('srw-oe-ep2-w-poscigu-za-zanzibarem');
 const episode = bySlug.get('srw-oe-ep2');
@@ -29,23 +30,21 @@ test('dostawa 2-7 zachowuje wszystkie bajty, a skrypt zamyka archiwum epizodu', 
   assert.ok(script.endsWith('Rdzeń oddziału specjalnego, który miał stawić czoła nadchodzącym zagrożeniom, zaczynał nabierać kształtu.'));
 });
 
-test('scena 2-7 cytuje dwanaście bloków skryptu i ma tyle samo kotwic analizy', async () => {
+test('scena 2-7 cytuje pełne bloki skryptu i ma tyle samo kotwic analizy', async () => {
   assert.equal(scene.numer_sceny, '2-7');
   assert.equal(scene.epizod, 'srw-oe-ep2');
   assert.deepEqual(sprawdzWiernoscSceny(scene, archive), []);
   const bloki = [...scene.body.matchAll(/:::skrypt\n([\s\S]*?)\n:::/g)].map((m) => m[1]);
-  assert.equal(bloki.length, 12);
+  assert.equal(bloki.length, 8);
   assert.equal(normalizujTekst(bloki.join('\n')), normalizujTekst(script));
-  assert.equal(scene.sekcje_analizy.length, 12);
+  assert.equal(scene.sekcje_analizy.length, 8);
   globalThis.SRW_DATA = await zbudujDane();
   const { renderScena } = await import('../src/srw/render-scene.js');
-  assert.equal((renderScena(scene.slug).match(/class="skok-do-tresci"/g) ?? []).length, 12);
+  assert.equal((renderScena(scene.slug).match(/class="skok-do-tresci"/g) ?? []).length, 8);
   // „White Base / Mostek” występuje dwa razy: mapa zużywa kolejne wystąpienia.
   assert.equal((scene.body.match(/^### White Base \/ Mostek$/gm) ?? []).length, 2);
-  for (const tytul of ['Na pokładzie Zanzibara', 'Dialogi warunkowe — Char i piloci White Base',
-    'Dialogi sytuacyjne — zbliżenie do White Base', 'Dialogi warunkowe — odwrót pilotów Zeonu',
-    'Spotkanie z Connect', 'Zanzibar / Hangar', 'Samowolny wylot',
-    'Dialogi warunkowe — starcie z Bigro', 'Bigro pokonany']) {
+  for (const tytul of ['Na pokładzie Zanzibara', 'Spotkanie z Connect', 'Zanzibar / Hangar', 'Samowolny wylot',
+    'Bigro pokonany']) {
     assert.ok(scene.body.includes(tytul), tytul);
   }
 });

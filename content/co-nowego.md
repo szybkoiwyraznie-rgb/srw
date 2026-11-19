@@ -1,5 +1,25 @@
 # Co nowego
 
+## 2026-11-19 16:12
+
+- W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] czerwony [[dynazenon|Dynazenon]] staje do obrony miasta przed kaiju. Jednym z przeciwników jest [[shalbandes|Shalbandes]], który wprawia przedmioty w lewitację.
+
+## 2026-11-19 16:04
+
+- W [[srw-oe-ep1-start-alexa|„Starcie Alexa”]] [[shiro-amada|Shiro]] żegna się z [[christina-mackenzie|Chris]] przed powrotem na patrol. Chris chciałaby zobaczyć go w akcji, ale woli, żeby tym razem nie pojawił się wróg.
+
+## 2026-11-19 15:50
+
+- W [[srw-oe-ep1-ratuj-transportowiec-medea|eskorcie Medei]] to załoga transportowca pierwsza melduje, że kurs jest bezpieczny. Po meldunkach [[eledore-massis|Eledore’a]] i [[michel-ninorich|Michela]] [[shiro-amada|Shiro]] zarządza powrót.
+
+## 2026-11-19 15:36
+
+- [[srw-y-ep1-misja-3a-smok-z-polaczenia|Smok z połączenia]]: kiedy kaiju pojawiają się pod kopułą, [[gauma|Gauma]] przyzywa [[dynazenon|Dynazenona]]. Czworo pilotów dostają od Crossa jedno zadanie: przenieść walkę poza miasto, zanim ucierpią mieszkańcy.
+
+## 2026-11-19 15:19
+
+- Podczas [[srw-oe-ep1-ratuj-transportowiec-medea|eskorty Medei]] [[eledore-massis|Eledore]] słyszy nie tylko pościg w powietrzu, ale i zasadzkę na ziemi. Jego meldunki z [[hover-truck|Hover Trucka]] pomagają [[michel-ninorich|Michelowi]] prowadzić klucz poza zasięgiem ognia przeciwlotniczego.
+
 ## 2026-11-18 15:43
 
 - W OVA [[michel-ninorich|Michel Ninorich]] jest pilotem [[hover-truck|Hover Trucka]] i obsługuje działko, a [[eledore-massis|Eledore Mathis]] pilotem i operatorem sonaru. W [[srw-oe|Super Robot Wars OE]] Michel występuje jako pilot główny, a Eledore jako wspierający — to podział ról z gry, nie zamiana stanowisk z serialu.

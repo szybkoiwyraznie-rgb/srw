@@ -11,8 +11,6 @@ sekcje_analizy:
   - Szturm plutonu Cyclops → Oddział Cyclops
   - Chris schodzi z linii ognia → Baza Federacji / Centrum kontroli startów
   - Obrona wahadłowca → Początek ataku
-  - Wariant przed patrolem → Fragment alternatywny 1
-  - Wariant starcia i odwrotu → Fragment alternatywny 2
   - Udany start → Start wahadłowca
   - Oczekiwanie na transport → Baza Federacji / Hangar
 pochodzenie: skrypt
@@ -127,11 +125,7 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 **Shiro:** Eledore, Michel, Sanders! Jeśli się tu przebiją, koniec z nami! Nie przepuśćcie ani jednego!
 **Sanders:** Przyjąłem!
 
-#### Dialogi warunkowe — obwód obronny
-
 > **Shiro:** Cholera, przebili się...
-
-#### Dialogi bojowe — sytuacyjne — powrót Karen
 
 > **Karen:** Wybaczcie... Spóźniłam się na imprezę!
 > **Shiro:** Karen, dobrze, że tak szybko wróciłaś.
@@ -140,15 +134,11 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 > **Eledore:** Wróg wciąż tu jest. Kogo teraz obchodzi wygląd!
 > **Shiro:** Właśnie. Nie dajcie się przełamać!
 
-#### Dialogi warunkowe — odwrót oddziału Cyclops
-
 > **Steiner:** Ngh... Siłą dalej się nie przebijemy... Wycofać się do punktu zbornego!
 > **Andy:** Trafili mi silniki! Wycofuję się!
 > **Garcia:** To koniec...
 > **Garcia:** Wycofuję się!
 > **Misza:** Tch, że też akurat ja dałem plamę...!
-
-#### Dialogi warunkowe — obrona wahadłowca
 
 > **Shiro:** Przeklęty Zeon... Nikt nie tknie wahadłowca porucznik Mackenzie!
 > **Steiner:** Biały mobile suit Federacji... Ale ten biały, który odparł Black Tri-Stars, powinien być pod Odessą.
@@ -158,28 +148,16 @@ Start osłaniał 08. Pluton MS, oddział oparty na Gundamach Ground Type.
 > **Steiner:** Hoo... Co za zaciekłość. Osłania towarzyszy własnym ciałem...
 > **Steiner:** Ale na szali jest też życie moich ludzi. Nie mogę zawieść w tej misji!
 
-#### Dialogi warunkowe — oddział wsparcia
-
 > **Eledore:** Łoaaa! My tu prawie nie mamy uzbrojenia!
 > **Eledore:** Hej, dowódco! Nie kieruj wroga w naszą stronę!
-
-#### Dialogi warunkowe — Shiro i Misha
 
 > **Misza:** He-he-he... W szturmie ten Kampfer pokazuje, co potrafi.
 > **Misza:** Nadchodzę! Mobile suicie Federacji!
 > **Shiro:** Ngh...! Ta niebieska maszyna... Ależ jest zwinna!
 
-### Fragment alternatywny 1
-
 > **Shiro:** Rozumiem... Szkoda.
 > **Shiro:** No to wracam do patrolu. Pani porucznik, proszę spokojnie wsiadać.
 > **Chris:** Chętnie zobaczyłabym, co pan potrafi, ale oby tym razem wróg się nie pojawił.
-
-### Fragment alternatywny 2
-
-> **Misza:** Tch, że też akurat ja dałem plamę...!
-> **Shiro:** Przeklęty Zeon... Nikt nie tknie wahadłowca pani porucznik!
-> **Steiner:** Biały mobile suit Federacji... Ale ten biały, który odparł Black Tri-Stars, powinien być pod Odessą.
 
 ### Start wahadłowca
 
@@ -232,14 +210,6 @@ Po wykryciu wroga [[oficer-federacji|oficer]] każe Chris iść do wahadłowca i
 ### Obrona wahadłowca
 
 Andy rozpoznaje wahadłowiec i kontener, a Steiner zezwala na użycie całego uzbrojenia. Po uszkodzeniu kamery maszyny Karen Shiro odsyła ją do hangaru i porządkuje obronę pozostałych sektorów. Karen wraca jednak szybko, w [[gundam-ground-type-glowa-gm|konfiguracji z głową GM-a]], żeby dalej osłaniać wahadłowiec; [[hardy-steiner|Steiner]] pozwala swoim ludziom na użycie pełnego uzbrojenia, a piloci Cyclops wycofują się po kolei, gdy ostrzał przestaje przynosić efekt. Eledore przypomina z kolei, że wóz wsparcia nie nadaje się do bezpośredniego starcia. Misza chwali zwrotność Kampfera, a Shiro potwierdza ją po stronie przeciwnej.
-
-### Wariant przed patrolem
-
-Pierwszy fragment alternatywny zachowuje pożegnanie Shiro i Chris przed powrotem na patrol, ale skraca zwrot Shiro do „pani porucznik” bez powtórzenia imienia. Reakcja Chris pozostaje taka sama: oboje wolą, żeby tym razem wróg się nie pojawił.
-
-### Wariant starcia i odwrotu
-
-Drugi fragment zestawia wycofanie Miszy z obroną wahadłowca przez Shiro i pierwszą reakcją Steinera na białego mobile suita. Wariant skraca dalsze domysły dowódcy Cyclops i usuwa imię Chris ze zwrotu Shiro, ale zachowuje sedno sytuacji: obrońca nie dopuszcza wroga do transportu, a Steiner próbuje zrozumieć, z jaką maszyną przyszło mu walczyć.
 
 ### Udany start
 

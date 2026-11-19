@@ -198,6 +198,9 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Getter Arc i zestrzelony Getter D2',
       'Trzy gwarancje Echiki',
       'Mieszkańcy z *Dynazenona* w mieście Yagami',
+      // scena 1-3A: Smok z połączenia
+      'Spotkanie przy śluzie',
+      'Wyrzucenie kaiju poza kopułę',
     ],
   };
 

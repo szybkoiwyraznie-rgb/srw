@@ -17,12 +17,8 @@ sekcje_analizy:
   - Ostatnie zadanie przed kosmosem → SV2 / Hangar
   - Kurtuazja Kurosakiego i pytania Goto → Poligon Sił Samoobrony / Stanowisko dowodzenia
   - Brockeny i odcięcie od dowództwa → Przeszukiwanie poligonu
-  - Broń palna zamiast śladów walki wręcz → Dialogi sytuacyjne — uzbrojone Labory
   - Odsiecz i hipoteza kamuflażu → Przybycie Connect
   - HAL-X10 i wyzwanie Buda → Czarny Labor
-  - Współpraca Ingramów → Dialogi warunkowe — Noa i Asuma
-  - Niechciany przeciwnik → Dialogi warunkowe — Ota i Bud
-  - Exart jako ukryta postać → Dialogi warunkowe — Exart i Griffon
   - Odwrót na rozkaz, nie rozstrzygnięty pojedynek → Odwrót Griffona
   - Zaawansowane zagłuszanie i odwrót SV2 → Po starciu
 tagi: [scena, srw-oe, patlabor, sv2, connect]
@@ -149,8 +145,6 @@ utworzono: 2026-11-01
 **Shinohara:** Uważajcie! Coś knują!
 **Izumi:** Przyjęłam.
 
-#### Dialogi sytuacyjne — uzbrojone Labory
-
 > **Ota:** Co, te łobuzy mają broń palną?!
 > **Izumi:** Co jest?!
 > **Ota:** To jacyś ekstremiści!
@@ -212,18 +206,12 @@ utworzono: 2026-11-01
 **Bud:** Hehe! Spróbuj, jak umiesz!
 **Bud:** No to jazda! Ruuunda pierwsza... WALKA!
 
-#### Dialogi warunkowe — Noa i Asuma
-
 > **Izumi:** Ugh, ty mały...!
 > **Shinohara:** Uważaj, Noa! Ten, kto rozbił Siły Samoobrony, jest groźny. Działaj razem z jednostką nr 2!
-
-#### Dialogi warunkowe — Ota i Bud
 
 > **Ota:** Raaaach! Ty przestępco! Poddaj się grzecznie!
 > **Bud:** Ja się cieszyłem na walkę z tamtą panią. Ty mnie nie interesujesz, wujku.
 > **Bud:** Ale jak będziesz przeszkadzał, to trudno. Szykuj się. Załatwię cię jednym ciosem!
-
-#### Dialogi warunkowe — Exart i Griffon
 
 > **Bud:** Oho, tę maszynę też chyba fajnie będzie pokonać. Co to, jakaś ukryta postać?
 > **Himari:** Taka siła, że pokonał Siły Samoobrony... Czy to na pewno jest Labor?!
@@ -300,8 +288,6 @@ utworzono: 2026-11-01
 
 [[noa-izumi|Noa]] i [[isao-ota|Ota]] przeszukują teren w Ingramach, wspierani przez kołowe wozy dowodzenia. [[hiromi-yamazaki|Yamazaki]] przypomina o różnicach przejezdności pojazdów, a [[kanuka-clancy|Kanuka]] każe utrzymywać odstęp. Napotkane Brockeny nie odpowiadają na kanale ochrony. Goto zdąża poinformować, że ochrona opuściła teren, po czym zagłuszanie odcina pluton od centrali.
 
-### Broń palna zamiast śladów walki wręcz
-
 [[isao-ota|Ota]] bierze uzbrojonych napastników za ekstremistów. [[mikiyasu-shinshi|Shinshi]] zauważa niezwykłą siłę ich broni, a [[hiromi-yamazaki|Yamazaki]] zastanawia się, czy to ona zniszczyła wojskowe maszyny. [[asuma-shinohara|Asuma]] przypomina, że ostrzał pozostawiłby ślady po kulach. Te Brockeny nie wyjaśniają więc wcześniejszego ataku wręcz.
 
 ### Odsiecz i hipoteza kamuflażu
@@ -312,15 +298,9 @@ utworzono: 2026-11-01
 
 [[zolnierz-jsdf|Żołnierz Sił Samoobrony]] przybywa z pomocą, tłumacząc zwłokę rozkazami przełożonych. [[badrinath-harchand|Bud]] natychmiast unieszkodliwia jego [[hal-x10-green|HAL-X10/Green]] w [[griffon|Griffonie]]. Żołnierz przeżywa, ale systemy maszyny przestają działać. Bud szczególnie chce zmierzyć się z Noą i traktuje pozostałych jak kolejnych przeciwników do zaliczenia. Noa wzywa go do wyjścia z kabiny i poddania się; odpowiedzią jest okrzyk rozpoczynający „rundę”.
 
-### Współpraca Ingramów
-
 [[asuma-shinohara|Asuma]] ostrzega Noę przed przeciwnikiem, który rozbił wojskowe maszyny. Radzi jej współpracować z jednostką nr 2, zamiast przyjmować wyzwanie jako samotny pojedynek.
 
-### Niechciany przeciwnik
-
 [[isao-ota|Ota]] żąda poddania się, ale [[badrinath-harchand|Bud]] chce walczyć z Noą, nie z nim. Grozi, że przeszkadzającego mu Otę pokona jednym ciosem; pewność siebie pilota ma tu postać dziecięcej rywalizacji.
-
-### Exart jako ukryta postać
 
 [[badrinath-harchand|Bud]] porównuje [[exart|Exarta]] do ukrytej postaci z gry. [[himari-yaegaki|Himari]] kwestionuje, czy tak potężny przeciwnik jest jeszcze Laborem, a [[seishiro|Seishiro]] nie znajduje pasującego modelu w bazie Connect. Zamierza zbierać dane podczas walki.
 

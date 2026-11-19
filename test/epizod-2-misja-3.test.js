@@ -1,5 +1,6 @@
 /** Dostawa 2-3: pełne dialogi, parametry i granica między treningiem a fabułą. */
 import test from 'node:test';
+import { bezEtykietDialogow } from './helpers/skrypt-oe.js';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -10,7 +11,7 @@ const pages = wczytajStrony();
 const bySlug = new Map(pages.map(p => [p.slug, p]));
 const bytes = fs.readFileSync('dostawy/srw-oe/dostawa_2_3.txt');
 const raw = bytes.toString('utf8').replace(/\r\n/g, '\n');
-const script = raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
+const script = bezEtykietDialogow(raw.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0]).trim();
 const archive = fs.readFileSync('episodes/srw-oe/ep002.md', 'utf8');
 const scene = bySlug.get('srw-oe-ep2-ryk-dziczy');
 const episode = bySlug.get('srw-oe-ep2');
@@ -29,16 +30,16 @@ test('dostawa 2-3 zachowuje wszystkie bajty, a skrypt jest dopisany dokładnie r
   assert.ok(fs.existsSync('dostawy/srw-oe/epizod-2-misja-3-pl.md'));
 });
 
-test('scena 2-3 ma pełne dialogi i jedenaście działających powiązań analizy', async () => {
+test('scena 2-3 ma pełne dialogi i działające powiązania analizy', async () => {
   assert.equal(scene.numer_sceny, '2-3');
   assert.deepEqual(sprawdzWiernoscSceny(scene, archive), []);
   const blocks = [...scene.body.matchAll(/:::skrypt\n([\s\S]*?)\n:::/g)].map(m => m[1]);
-  assert.equal(blocks.length, 11);
+  assert.equal(blocks.length, 10);
   assert.equal(normalizujTekst(blocks.join('\n')), normalizujTekst(script));
-  assert.equal(scene.sekcje_analizy.length, 11);
+  assert.equal(scene.sekcje_analizy.length, 10);
   globalThis.SRW_DATA = await zbudujDane();
   const { renderScena } = await import('../src/srw/render-scene.js');
-  assert.equal((renderScena(scene.slug).match(/class="skok-do-tresci"/g) ?? []).length, 11);
+  assert.equal((renderScena(scene.slug).match(/class="skok-do-tresci"/g) ?? []).length, 10);
   assert.match(scene.body, /Gdy Exart zostaje poważnie uszkodzony/);
   assert.match(scene.body, /hologramami wyświetlanymi przez drony/);
   assert.match(scene.body, /oficjalne dołączenie pozostaje przyszłością/);

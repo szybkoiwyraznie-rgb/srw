@@ -49,12 +49,18 @@ W serialu [[getter-robo-arc|*Getter Robo Arc*]] głosu Sho Kamuiowi (カムイ�
 
 **Umiejętności pilota:**
 
-| Slot | Umiejętność       | Poz. nauki | Opis                                                                                                                                                                         |
-| ---: | ----------------- | ---------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    1 | Dzieci Gettera    |         99 | Aktywna, gdy na pokładzie są 3 piloci i każdy ma Morale 140+. Początek fazy gracza: Morale +5. Gdy wszyscy 3 mają Morale 160+: końcowe zadawane obrażenia x1.2.              |
-|    2 | Potencjał L7      |          1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa kryt. i obrona. Maks. efekt przy HP do 10％: celność i unik +35％, szansa kryt. +42％, otrzymywane obrażenia x0.5.  |
-|    3 | Instynkt L1       |          1 | Przy Morale 130+: końcowa celność i unik +5％. Trafienie od wroga z celnością do 30％: otrzymywane obrażenia x0.5.                                                          |
-|    4 | Wsparcie ataku L1 |          1 | Atakuje po sąsiadującym sojuszniku. Obrażenia x0.60 zwykłego ataku, 1 raz na turę. Szczegóły w Pomocy ('Baza danych').                                                      |
+| Slot | Umiejętność       | Poz. nauki | Opis                                                         |
+| ---: | ----------------- | ---------: | ------------------------------------------------------------ |
+|    1 | Dzieci Gettera    |          1 | Aktywna, gdy na pokładzie są 3 piloci i każdy ma Morale      |
+|      |                   |            | 140+. Początek fazy gracza: Morale +5. Gdy wszyscy 3         |
+|      |                   |            | mają Morale 160+: końcowe zadawane obrażenia x1.2.           |
+|    2 | Potencjał L7      |          1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa     |
+|      |                   |            | kryt. i obrona. Maks. efekt przy HP do 10％: celność i       |
+|      |                   |            | unik +35％, szansa kryt. +42％, otrzymywane obrażenia x0.5.  |
+|    3 | Instynkt L1       |          1 | Przy Morale 130+: końcowa celność i unik +5％. Trafienie     |
+|      |                   |            | od wroga z celnością do 30％: otrzymywane obrażenia x0.5.    |
+|    4 | Wsparcie ataku L1 |          1 | Atakuje po sąsiadującym sojuszniku. Obrażenia x0.60 zwykłego |
+|      |                   |            | ataku, 1 raz na turę. Szczegóły w Pomocy ('Baza danych').    |
 
 **Komendy Ducha:**
 

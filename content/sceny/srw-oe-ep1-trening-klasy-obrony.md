@@ -9,7 +9,6 @@ sekcje_analizy:
   - Ćwiczenia na pustej działce → Pusta działka
   - Rozkaz wymarszu → Akademia Hinobori / Sala klasy 5-3
   - Spotkanie z Raijin-Oh → Spotkanie z Klasą Obrony Ziemi
-  - Wykorzystanie terenu → Dialogi treningowe — sytuacyjne — wykorzystanie terenu
   - Po ćwiczeniach → Po ćwiczeniach
   - Odprawa w szkole → Akademia Hinobori / Klasa
 pochodzenie: skrypt
@@ -116,8 +115,6 @@ Kusanagi i reszta z Connect mają teraz wziąć udział w treningu Klasy Obrony 
 **Seishiro:** Haha, za bardzo się denerwujesz. Himari, to dzieci z podstawówki, ale weterani. Nie możemy dać plamy.
 **Himari:** Uuu... to jeszcze większa presja...
 
-#### Dialogi treningowe — sytuacyjne — wykorzystanie terenu
-
 > **Maria:** Dzisiejszy trening to nie tylko pokonanie wroga. Tsutomu, wyjaśnij, proszę.
 > **Tsutomu:** Ten trening ma urozmaicić wasz sposób walki.
 > **Tsutomu:** Zepchnijcie Labory stojące na wyższym poziomie, żeby spadły na ziemię.
@@ -214,8 +211,6 @@ Maria ogłasza rozkaz wymarszu, a [[tsutomu-kojima|Tsutomu]] zagania klasę na m
 [[himari-yaegaki|Himari]] wykrywa szybko zbliżający się obiekt — to klasa, z którą Connect ma ćwiczyć. Na miejscu nie ma jednak wroga, tylko Labory treningowe — cztery [[brocken|Brockeny]] w wariancie Melee pod kontrolą [[control-ai|Control AI]]: [[kirara-haruno|Kirara]] rozpoznaje maszyny, z którymi klasa zawsze walczy, a [[koji-hoshiyama|Koji]] zaczyna domyślać się, że to tylko trening. [[maria-shiratori|Maria]] przyznaje, że urządziła ćwiczenia z zaskoczenia, żeby [[jin-hyuga|Jin]] się nie obijał.
 
 [[seishiro|Seishiro]] wyjaśnia [[himari-yaegaki|Himari]], że będą dziś ćwiczyć z [[raijin-oh|Raijin-Ohem]] i [[klasa-obrony-ziemi|Klasą Obrony Ziemi]], która pokonała [[jaku-empire|Imperium Piątego Wymiaru]]. Himari przedstawia się przez radio, a Seishiro studzi jej emocje: to dzieci z podstawówki, ale weterani, więc nie można dać plamy.
-
-### Wykorzystanie terenu
 
 [[tsutomu-kojima|Tsutomu]] stawia zadanie: zepchnąć Labory stojące na wyższym poziomie, żeby spadły na ziemię. [[jin-hyuga|Jin]] uważa to za zawracanie głowy, ale [[seishiro|Seishiro]] odpowiada, że sama siła ognia nie wygrywa bitew — chodzi o mądre wykorzystanie terenu. Tsutomu dodaje, że walka z uwzględnieniem terenu nie marnuje energii. Jin wykonuje Raijin Flash, a upadek celu potwierdzają [[yoko-kuriki|Cookie]] i [[himari-yaegaki|Himari]].
 

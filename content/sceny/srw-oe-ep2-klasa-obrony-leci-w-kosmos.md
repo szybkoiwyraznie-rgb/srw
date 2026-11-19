@@ -15,10 +15,6 @@ sekcje_analizy:
   - Drużyna Gurren na powierzchni → Akademia Hinobori / Boisko
   - Alarm w lesie Aokigahara → Akademia Hinobori / Sala klasy 5-3
   - Labory wśród mechabestii → Morze Drzew u stóp Fuji
-  - Starcie z Laborami → Dialogi warunkowe — starcie z Laborami
-  - Ochrona lasu → Dialogi sytuacyjne — ochrona lasu
-  - Kolejne fale wroga → Dialogi sytuacyjne — kolejni wrogowie
-  - Wiertło pod ziemię → Dialogi warunkowe — Gurren Lagann szuka pod ziemią
   - Druga brama Mucus i dane dla Connect → Kolejna Brama Mucus
   - Po bitwie → Po bitwie
   - Gurren Team dla wszystkich → Drużyna Gurren i zespoły Eldrana
@@ -286,10 +282,6 @@ Odrodzenie Imperium Mechanizacji... W obliczu tej strasznej możliwości dzieci 
 **Kenichi:** Kamina ma rację!
 
 **Kotaro:** Dobra! Jazda!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — starcie z Laborami
 
 > **Yoko:** Więc to jest taki "Labor".
 
@@ -298,20 +290,12 @@ Odrodzenie Imperium Mechanizacji... W obliczu tej strasznej możliwości dzieci 
 > **Kamina:** Ha-ha-ha-ha! Właśnie tak, partnerze!
 
 > **Kamina:** My mamy tylko rozwalić, rozbić i zgnieść wszystko, co stoi przed nami!
-:::
-
-:::skrypt
-#### Dialogi sytuacyjne — ochrona lasu
 
 > **Mai:** Dobrze, że wróg pojawił się w lesie. Gdyby tyle ich wyskoczyło w mieście, nie dalibyśmy rady walczyć.
 
 > **Kakeru:** Ale las czy nie las, jeśli wywołamy pożar, będzie niewesoło.
 
 > **Momotaro:** Nie pozwolimy dalej niszczyć przyrody! Najlepiej szybko ich załatwić!
-:::
-
-:::skrypt
-#### Dialogi sytuacyjne — kolejni wrogowie
 
 > **Two:** Ach, coś jest na radarze!
 
@@ -326,10 +310,6 @@ Odrodzenie Imperium Mechanizacji... W obliczu tej strasznej możliwości dzieci 
 > **Kenichi:** Nie mam czasu się wszystkim przejmować! Rozwalę ich jednego po drugim!
 
 > **Shinobu Asaoka:** Właśnie o takiej nieuwadze mówię, Kenichi! No dalej, ruszamy!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Gurren Lagann szuka pod ziemią
 
 > **Kamina:** Znowu wyleźli! Coś tam jest!
 
@@ -598,19 +578,11 @@ Wieść o [[mechabestia|mechabestiach]] w lesie Aokigahara wywołuje natychmiast
 
 W gęstym lesie obok mechabestii walczą [[labor|Labory]], co dziwi obrońców — [[yoji-hiyama|Yoji]] przypuszcza, że wróg steruje Laborami bez pełnej mechanizacji, a [[erika-kozu|Elly]] zastanawia się, po co zadawać sobie tyle trudu. [[kamina|Kamina]] ucina rozważania: trzeba rozprawić się z wrogami, którzy stoją przed nimi.
 
-### Starcie z Laborami
-
 [[yoko|Yoko]] po raz pierwszy widzi z bliska [[labor|Labora]], a [[simon|Simon]] stwierdza, że skoro nie zna ani Laborów, ani mechabestii, to nie ma się czym przejmować. Kamina kwituje to swoim hasłem: rozwałka, rozbicie i zgniecenie wszystkiego, co staje na drodze.
-
-### Ochrona lasu
 
 [[mai-ozora|Mai]] cieszy się, że wróg pojawił się w lesie, a nie w mieście, lecz [[kakeru-daichi|Kakeru]] przestrzega przed pożarem. [[taro-omomo|Momotaro]] obiecuje nie pozwolić dalej niszczyć przyrody i jak najszybciej zakończyć walkę.
 
-### Kolejne fale wroga
-
 [[harumi-sato|Two]] i [[yuka-mizuhara|Yuka]] wykrywają na radarze kolejne fale przeciwników, a gęstwina utrudnia ich wypatrzenie. [[kenichi-minezaki|Kenichi]] zamierza rozprawiać się z nimi po kolei, lecz [[shinobu-asaoka|Shinobu]] ponagla go, by nie tracił czujności.
-
-### Wiertło pod ziemię
 
 Kamina każe [[simon|Simonowi]] wiercić wprost w środek wrogów; Simon wjeżdża [[gurren-lagann|Gurren Lagannem]] pod ziemię i wyczuwa pod spodem obiekt, który okazuje się kolejną bramą.
 

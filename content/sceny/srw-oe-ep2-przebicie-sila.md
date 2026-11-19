@@ -15,7 +15,6 @@ sekcje_analizy:
   - Kurs przynęty → Przebicie się siłą
   - Char rozszyfrowuje podstęp i wzywa Drena → Zanzibar — po opuszczeniu atmosfery
   - Rozpoznanie na mostku i decyzja Brighta → White Base / Mostek
-  - Głosy załogi w ogniu → Dialogi bojowe — warunkowe i sytuacyjne
   - Przełamanie floty Camel → Przebicie przez flotę Camel
   - Pościg bez końca → Zanzibar — w pościgu
   - Ku Connect → White Base — w drodze
@@ -80,10 +79,6 @@ Plan zakładał zwabienie patroli Zeonu, a potem połączenie się z Connect i z
 **Bright:** Mamy pięć minut! Jeśli do tego czasu ich nie zniszczymy, Zanzibar weźmie nas w kleszcze!
 **Bright:** White Base podejdzie bliżej i otworzy ogień! Mobile suity startują według własnego uznania!
 **Amuro:** Kosmos... Wróciłem...
-:::
-
-:::skrypt
-#### Dialogi bojowe — warunkowe i sytuacyjne
 
 > **Dren:** Przeklęty Gundam...! Nie przejdziesz, zanim nie zjawi się komandor Char!
 > **Amuro:** Jeśli nas tu zatrzymają, White Base wpadnie w kleszcze...! Muszę ich zestrzelić, choćby nie wiem co!
@@ -156,8 +151,6 @@ Dylemat jest taktyczny, nie emocjonalny. Zawrócić znaczy odsłonić plecy na u
 Mostek [[white-base|White Base]] rozpoznaje układ sił w kilka chwil: potwierdzony [[zanzibar|Zanzibar]] za rufą, trzy [[musai|Musai]] przed dziobem. [[shiro-amada|Shiro]] przypomina, że [[gundam-ez8|Ez8]] i [[gundam-ground-type|Gundamy Ground Type]] nie nadają się do walki w kosmosie, więc obrona obu stron naraz byłaby ponad siły załogi.
 
 [[mirai-yashima|Mirai]] proponuje najpierw połączyć się z Connect, a [[bright-noa|Bright]] wybiera wariant twardszy: przebić się przez flotę przed sobą, zanim Zanzibar zamknie tyły. Rozkaz „mamy pięć minut” zamienia scenę w wyścig z czasem — nie o zwycięstwo, lecz o wyrwanie się z okrążenia.
-
-### Głosy załogi w ogniu
 
 Każdy z pilotów dostaje w tym starciu własne zadanie. [[dren|Dren]] próbuje dotrwać do przybycia Chara i ustawia ostrzał tak, by zmusić okręt do zwolnienia; [[amuro-ray|Amuro]] odpowiada, że zatrzymanie tutaj oznacza kleszcze, i atakuje bez zwłoki.
 

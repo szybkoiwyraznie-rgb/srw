@@ -42,7 +42,8 @@ test('dostawa 1-8 jest zachowana bajt w bajt, a cały jej skrypt kończy epizod'
   assert.match(delivery, /HAL-X10\/Green.*×4 rekordy źródłowe Entry ID/);
   assert.match(delivery, /Helldiver.*×4 rekordy źródłowe Entry ID/);
 
-  const expected = delivery.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
+  const expected = delivery.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0]
+    .replace('#### Dialogi bojowe — warunkowe i sytuacyjne\n\n', '').trim();
   assert.ok(script.trimEnd().endsWith(expected), 'pełna misja 1-8 na końcu epizodu');
   assert.equal(script.split('## Śledztwo pod przykrywką').length - 1, 1, 'bez duplikatu sceny');
   assert.ok(!script.includes('UCZESTNICY'));
@@ -56,7 +57,7 @@ test('scena 1-8 jest dosłowna i domyka kolejność ośmiu misji epizodu 1', () 
   assert.equal(scena.numer_sceny, '1-8');
   assert.equal(scena.tytul, 'Śledztwo pod przykrywką');
   assert.deepEqual(sprawdzWiernoscSceny(scena, script), []);
-  assert.equal((scena.body.match(/:::skrypt/g) ?? []).length, 12, '12 bloków skryptu');
+  assert.equal((scena.body.match(/:::skrypt/g) ?? []).length, 11, '11 bloków skryptu');
 
   for (const fragment of [
     '### SV2, Drugi Pluton / Hangar Laborów',
@@ -66,7 +67,6 @@ test('scena 1-8 jest dosłowna i domyka kolejność ośmiu misji epizodu 1', () 
     '### Alarm w zakładzie',
     '### Ulice miasta',
     '### SV2 dołącza do walki',
-    '#### Dialogi bojowe — warunkowe i sytuacyjne',
     '**Shinohara:** Przeklinam paaana!',
   ]) {
     assert.ok(scena.body.includes(fragment), fragment);
@@ -80,7 +80,7 @@ test('scena 1-8 jest dosłowna i domyka kolejność ośmiu misji epizodu 1', () 
     ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6', '1-7', '1-8']);
 });
 
-test('dwanaście etapów analizy mapuje kolejno oba wystąpienia SV2 / Biuro w widoku sceny', () => {
+test('jedenaście etapów analizy mapuje kolejno oba wystąpienia SV2 / Biuro w widoku sceny', () => {
   const blokAnalizy = scena.body.split('## Analiza')[1].split('\n## ')[0];
   const analiza = [...blokAnalizy.matchAll(/^### (.+)$/gm)].map((m) => m[1]);
   assert.deepEqual(analiza, [
@@ -93,11 +93,10 @@ test('dwanaście etapów analizy mapuje kolejno oba wystąpienia SV2 / Biuro w w
     'Alarm i ostra amunicja',
     'Szyfr dziadka i program w oryginale',
     'Wspólne zatrzymanie Laborów',
-    'Walka pod ostrzałem',
     'Zakończenie starcia',
     'Delegacja do Connect i atrapa Shige',
   ]);
-  assert.equal(scena.sekcje_analizy.length, 12);
+  assert.equal(scena.sekcje_analizy.length, 11);
 
   const html = renderScena('srw-oe-ep1-sledztwo-pod-przykrywka');
   assert.match(html, /data-cel="tresc-sv2-biuro"/, 'kotwica analizy do pierwszej sekcji SV2 / Biuro');

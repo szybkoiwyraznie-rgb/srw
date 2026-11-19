@@ -40,11 +40,15 @@ W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie n
 
 **Umiejętności pilota:**
 
-| Slot | Umiejętność   |    Poz. nauki | Opis                                                                                                                                                                        |
-| ---: | ------------- | ------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    1 | Dowódca L1    | 1, 20, 40, 60 | Sojusznicy w promieniu 2 pól: wyższa końcowa celność i unik. W odległości 2 pól +12％, obok dowódcy +15％. Nie kumuluje się, działa tylko najwyższa premia.                 |
-|    2 | Potencjał L2  |             1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa kryt. i obrona. Maks. efekt przy HP do 10％: celność i unik +10％, szansa kryt. +12％, otrzymywane obrażenia x0.9. |
-|    3 | Morale+ (Obr) |             1 | Otrzymanie obrażeń, unik lub zablokowanie ataku barierą, specjalnym pancerzem albo specjalnym unikiem: Morale dodatkowo +1.                                                 |
+| Slot | Umiejętność   |    Poz. nauki | Opis                                                                            |
+| ---: | ------------- | ------------: | ------------------------------------------------------------------------------- |
+|    1 | Dowódca L1    | 1, 20, 40, 60 | Sojusznicy w promieniu 2 pól: wyższa końcowa celność i unik. W odległości 2     |
+|      |               |               | pól +12％, obok dowódcy +15％. Nie kumuluje się, działa tylko najwyższa premia. |
+|    2 | Potencjał L2  |             1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa                        |
+|      |               |               | kryt. i obrona. Maks. efekt przy HP do 10％: celność i                          |
+|      |               |               | unik +10％, szansa kryt. +12％, otrzymywane obrażenia x0.9.                     |
+|    3 | Morale+ (Obr) |             1 | Otrzymanie obrażeń, unik lub zablokowanie ataku barierą,                        |
+|      |               |               | specjalnym pancerzem albo specjalnym unikiem: Morale dodatkowo +1.              |
 
 **Komendy Ducha:**
 

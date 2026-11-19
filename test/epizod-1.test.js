@@ -77,14 +77,13 @@ test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () =
   // Każda część ma własny nagłówek i własny blok skryptu — nagłówki zostają widoczne na stronie.
   const czesci = [...scena.body.matchAll(/^(#{3,4} .+)\n\n:::skrypt\n([\s\S]*?)\n:::/gm)]
     .map((m) => ({ naglowek: m[1], tekst: m[2] }));
-  assert.equal(czesci.length, 8);
+  assert.equal(czesci.length, 7);
   assert.deepEqual(czesci.map((c) => c.naglowek), [
     '### Stacja Connect / Okolice Ziemi',
     '### Patlabor',
     '### Siły Samoobrony, poligon Fuji',
     '### SV2 dołącza do ćwiczeń',
     '### Ostra amunicja',
-    '#### Dialogi bojowe — warunkowe i sytuacyjne',
     '### Po ćwiczeniach',
     '### Następstwa',
   ]);
@@ -98,8 +97,8 @@ test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () =
     .replace(/\n\n---\n?$/, '');
   assert.equal(normalizujTekst(odtworzone), normalizujTekst(oczekiwane));
   for (const czesc of czesci) assert.ok(normalizujTekst(script).includes(normalizujTekst(czesc.tekst)), czesc.naglowek);
-  assert.equal(pages.filter((p) => p.typ === 'scena').length, 24, 'dwie sceny epizodu 0, osiem epizodu 1, osiem epizodu 2, cztery sceny epizodu 3 i dwie sceny SRW Y');
-  assert.equal(pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-y-ep1').length, 2, 'SRW Y ma sceny 1-1C i 1-2A');
+  assert.equal(pages.filter((p) => p.typ === 'scena').length, 25, 'dwie sceny epizodu 0, osiem epizodu 1, osiem epizodu 2, cztery sceny epizodu 3 i trzy sceny SRW Y');
+  assert.equal(pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-y-ep1').length, 3, 'SRW Y ma sceny 1-1C, 1-2A i 1-3A');
 });
 
 test('obsada epizodu i sceny obejmuje wszystkie postacie i jednostki z misji', () => {

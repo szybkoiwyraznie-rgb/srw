@@ -16,10 +16,7 @@ sekcje_analizy:
   - "Bezzałogowe Labory do przejęcia → Zabezpieczenie porzuconych Laborów"
   - "Rezonans, który budzi Labory → Rezonansowe wezwanie Keroro"
   - "Posiłki nad sektorem → Przybycie posiłków"
-  - "Gundam w oczach Keronianina → Dialogi warunkowe — Keroro widzi Gundama"
-  - "Potwierdzenie obcego świata → Dialogi warunkowe — Keroro widzi inny mobilny skafander"
   - "Drugie wezwanie rezonansowe → Drugie wezwanie rezonansowe"
-  - "Powściągliwość wewnątrz kolonii → Dialogi warunkowe i sytuacyjne — obezwładnianie szalejących Laborów"
   - "Ostatnia maszyna unieruchomiona → Labory obezwładnione"
   - "Rozmowa na pokładzie → Rozmowa z sierżantem Keroro"
   - "Nowy program ochronny → Śledztwo w sprawie Laborów"
@@ -158,20 +155,12 @@ utworzono: 2026-11-17
 **Seishiro:** Znowu szalejące Labory, co... Ale nasze posiłki zaraz powinny tu być.
 **Himari:** Są! Dołączają do nas.
 **Seishiro:** Dobrze, zablokujmy szalejące Labory, żeby nie wydostały się z sektora.
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Keroro widzi Gundama
 
 **Keroro:** Kerooo?! To przecież RX-78-2... Gundam!
 **Amuro:** Seishiro, przepraszamy za spóźnienie.
 **Seishiro:** Nie, w samą porę.
 **Seishiro:** Co ważniejsze, uważaj, żeby nie wybić wielkiej dziury w kolonii.
 **Amuro:** Zrozumiałem.
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Keroro widzi inny mobilny skafander
 
 **Keroro:** Kerooo?! Czy to nie mobile suit?!
 **Seishiro:** Tak, ten mobile suit jest po naszej stronie.
@@ -197,10 +186,6 @@ utworzono: 2026-11-17
 **Himari:** Ooo, udało się! Pana towarzysze się zbierają!
 **Keroro:** Kerooo?! To nie oni, melduję!
 **Kanuka:** Wygląda na to, że zamiast towarzyszy przywołał pan szalejące Labory.
-:::
-
-:::skrypt
-#### Dialogi warunkowe i sytuacyjne — obezwładnianie szalejących Laborów
 
 **Izumi:** Nawet w kosmosie walczymy z szalejącymi Laborami...!
 **Shinohara:** Noa, w kosmosie czy na Ziemi, pokażmy im, że Labory mogą spokojnie zostawić nam!
@@ -298,19 +283,13 @@ Nieznana maszyna radzi sobie z napastnikami bez trudu: [[keroro-robo-mk-ii|Keror
 
 Gdy wokół ruszają kolejne oszalałe maszyny, [[himari-yaegaki|Himari]] melduje nadejście wsparcia z [[connect-force|Connect Force]]. [[seishiro|Seishiro]] wyznacza cel: odciąć sektor i zatrzymać w nim wszystkie Labory, zanim rozbiegną się po dalszej części kolonii.
 
-### Gundam w oczach Keronianina
-
 Na widok [[rx-78-2-gundam|RX-78-2]] Keroro wykrzykuje pełną nazwę maszyny — dla przybysza z Pekoponu to znak rozpoznawczy, że trafił do świata, który zna z modeli i opowieści. [[amuro-ray|Amuro]] melduje się Seishirowi z przeprosinami za spóźnienie, a dowódca prosi go tylko o jedno: żeby walka nie wybiła dziury w płaszczu kolonii, bo od niego zależy życie wszystkich mieszkańców.
-
-### Potwierdzenie obcego świata
 
 Kiedy Keroro pyta o kolejną maszynę, [[seishiro|Seishiro]] odpowiada, że [[mobile-suit]] jest po ich stronie. Dla Keronianina to ostatni dowód: skoro po jednej stronie stoją Gundam i mobile suity, naprawdę jest w [[universal-century|Universal Century]]. Przestaje się kryć i przyjmuje rolę sojusznika, choć wciąż nie wie, jak wrócić do domu.
 
 ### Drugie wezwanie rezonansowe
 
 Po zakończeniu starcia [[himari-yaegaki|Himari]] prosi o powtórzenie dźwięku, który tak dziwnie działał na czujniki. Keroro wyjaśnia, że to nie sygnał maszyny, tylko jego własny głos, i ponawia zew — licząc, że usłyszy go pluton. Zamiast towarzyszy przyciąga kolejną falę szalejących Laborów, co [[kanuka-clancy|Kanuka]] kwituje krótko: wezwanie działa, tylko nie na tych, na których powinno.
-
-### Powściągliwość wewnątrz kolonii
 
 Walka w zabudowie mieszkalnej zmusza wszystkich do ostrożności. [[noa-izumi|Noa]] i [[asuma-shinohara|Asuma]] chcą pokazać, że z oszalałymi Laborami poradzą sobie w kosmosie tak samo jak na Ziemi, [[isao-ota|Ota]] narzeka, że nie może użyć eksperymentalnej amunicji wybuchowej i załatwić ich hurtem, a [[mikiyasu-shinshi|Shinshi]] błaga, żeby tego nie robił. Himari boi się, że jedno chybione trafienie uszkodzi płaszcz kolonii, więc Seishiro każe jej zachować spokój i celować pewnie. [[amuro-ray|Amuro]] zdaje się na komputer pokładowy przewidujący ruchy bezzałogowych maszyn, a [[kai-shiden|Kai]] nie traci zapału, choć schwytać Labora żywcem i bez rysy [[guncannon|Guncannonem]] to karkołomne zadanie.
 

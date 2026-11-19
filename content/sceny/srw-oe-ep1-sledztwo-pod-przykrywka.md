@@ -49,7 +49,6 @@ sekcje_analizy:
   - Alarm i ostra amunicja → Alarm w zakładzie
   - Szyfr dziadka i program w oryginale → Ulice miasta
   - Wspólne zatrzymanie Laborów → SV2 dołącza do walki
-  - Walka pod ostrzałem → Dialogi bojowe — warunkowe i sytuacyjne
   - Zakończenie starcia → Po bitwie
   - Delegacja do Connect i atrapa Shige → SV2 / Biuro
 tagi: [scena, srw-oe, patlabor, patlabor-the-movie, connect-force, sv2, hachioji]
@@ -244,10 +243,6 @@ Dzięki świetnie zorganizowanym Siłom Obrony ewakuacje przebiegały sprawnie i
 **Shinohara:** Ale najpierw trzeba zatrzymać te Labory!
 **Goto:** Oczywiście. Macie je obezwładnić za wszelką cenę.
 **Shinohara:** Przyjąłem!
-:::
-
-:::skrypt
-#### Dialogi bojowe — warunkowe i sytuacyjne
 
 > **Ota:** A niech cię! Oko za oko, ząb za ząb, kula za kulę!
 > **Shinshi:** Panie Ota, spokojnie! Strzelanie ostrą amunicją obciąża Labora...!
@@ -389,8 +384,6 @@ Podczas ucieczki samochodem z Sakakim Asuma ujawnia dwa kluczowe fakty. Po pierw
 ### Wspólne zatrzymanie Laborów
 
 [[noa-izumi|Noa]], [[isao-ota|Ota]], [[kanuka-clancy|Kanuka]] i [[asuma-shinohara|Asuma]] dołączają w [[ingram-nr-1|Ingramach]] do [[exart|Exarta]], a Goto kwituje samowolny wypad podwładnego potrąceniem z pensji. Współpraca policji i najemników [[connect-force|Connect]] zawiązuje się naturalnie w ogniu walki, zanim jeszcze padnie formalna decyzja o delegacji.
-
-### Walka pod ostrzałem
 
 Krótkie kwestie bojowe podkreślają stawkę starcia: szalejące jednostki wojskowe dysponują ostrą amunicją, przez co Asuma ostrzega Noę przed brawurą, a [[mikiyasu-shinshi|Shinshi]] jak zwykle przypłaca stres bólem brzucha. Seishiro i Himari wiążą natomiast nadzieję na koniec całej serii incydentów ze zbadaniem kopii wzorcowej HOS-a.
 

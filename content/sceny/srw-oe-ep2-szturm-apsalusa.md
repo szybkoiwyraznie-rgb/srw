@@ -21,21 +21,7 @@ sekcje_analizy:
   - Ez8 i dług u Gundama → Pokład mobile suitów
   - Alarm i decyzja o zwarciu → Nadciąga olbrzymi mobilny pancerz
   - Ginias, Ral i Błękitny Olbrzym → Determinacja Giniasa
-  - Brat Ainy → Dialogi warunkowe — Shiro i Ginias
   - Działo megacząsteczkowe → Apsalus otwiera ogień
-  - Ładowanie działa → Dialogi sytuacyjne — działo megacząsteczkowe
-  - Pojedynek z Ralem → Dialogi warunkowe — Amuro i Ramba Ral
-  - Sanders mierzy olbrzyma → Dialogi warunkowe — Sanders i Apsalus
-  - Karen nie ustępuje → Dialogi warunkowe — Karen i Ginias
-  - Wybór Shiro → Dialogi warunkowe — decyzja Shiro
-  - Shiro i Ral → Dialogi warunkowe — Shiro i Ramba Ral
-  - Amuro kontra Ginias → Dialogi warunkowe — Amuro i Ginias
-  - Sayla i logika przegranej → Dialogi warunkowe — Sayla i Ginias
-  - Hayato szuka słabego punktu → Dialogi warunkowe — Hayato i Ginias
-  - Kai liczy koszty → Dialogi warunkowe — Kai i Ginias
-  - Hamon na drodze → Dialogi warunkowe — Amuro i Hamon
-  - Sayla i honor Rala → Dialogi warunkowe — Sayla i Ramba Ral
-  - Odwrót oddziału Rala → Dialogi warunkowe — odwroty sił Zeonu
   - Upadek Apsalusa → Upadek Apsalusa
   - Koniec operacji → Operacja zakończona
   - Wylot w kosmos → White Base / Mostek
@@ -165,10 +151,6 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 **Ramba Ral:** Acous, Cozun! Oddział Ramby Rala, naprzód!
 **Acous:** Przyjąłem!
 **Cozun:** Przyjąłem!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Shiro i Ginias
 
 > **Shiro:** Pilocie mobile armora! Jeśli mnie słyszysz, odpowiedz!
 > **Ginias:** ...
@@ -208,106 +190,54 @@ Jaburo znosiło nieustanne regularne bombardowania i szturmy oddziałów MS, ale
 **Oscar:** Stanowiska przeciwlotnicze poważnie uszkodzone!
 **Mirai:** Jeśli wystrzeli tym prosto w dół, port i dowództwo też będą zagrożone...
 **Bright:** Nie pozwólcie mu podejść bliżej! Za wszelką cenę zniszczcie ten mobile armor!
-:::
-
-:::skrypt
-#### Dialogi sytuacyjne — działo megacząsteczkowe
 
 > **Ginias:** Ładowanie działa megacząsteczkowego!
 > **Ginias:** Zaraz skrócę wasze cierpienia...!
 > **Ginias:** Działo megacząsteczkowe, ognia!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Amuro i Ramba Ral
 
 > **Ramba Ral:** A więc przeżyłeś, chłopcze!
 > **Amuro:** Ty... Ramba Ral!
 > **Ramba Ral:** Nie powiem już, że to zasługa maszyny. Zmierzę się z tobą jak wojownik z wojownikiem.
 > **Amuro:** Ngh...!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Sanders i Apsalus
 
 > **Sanders:** Ugh! Jest znacznie większy niż ten z poligonu!
 > **Sanders:** Czyli razem z rozmiarem rośnie też siła jego uzbrojenia...!
 > **Ginias:** Działo główne Apsalusa przebija nawet skałę Jaburo.
 > **Ginias:** Wobec jego potęgi mobile suity to papierowe lalki!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Karen i Ginias
 
 > **Ginias:** Z drogi! Przed Apsalusem wszelki opór jest daremny.
 > **Karen:** Daremny czy nie, przekonamy się, jak spróbujemy!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — decyzja Shiro
 
 > **Shiro:** Cholera, on naprawdę chce zabrać ze sobą Jaburo...!
 > **Shiro:** Chronić bazę i drużynę, zatrzymać go, oszczędzić pilota... Wszystkiego naraz teraz nie zdołam.
 > **Shiro:** Wybacz mi, Aino... Twój brat... muszę...!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Shiro i Ramba Ral
 
 > **Ramba Ral:** Nie pozwolę ci zniweczyć woli lorda Giniasa!
 > **Shiro:** Przepuść mnie! Chcę go zatrzymać!
 > **Ramba Ral:** Błagasz wroga? I ty nazywasz się żołnierzem?!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Amuro i Ginias
 
 > **Amuro:** T-to przytłaczające...! Nie mogę pozwolić takiej broni zaatakować bazy...!
 > **Ginias:** Śmiesz stawać mi na drodze, Gundamie?!
 > **Ginias:** Biały Diabeł Federacji! Własnymi rękami położę ci kres!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Sayla i Ginias
 
 > **Sayla:** Przestańcie!
 > **Sayla:** Nawet jeśli zdobędziecie Jaburo, nie odwrócicie przegranej Zeonu na Ziemi!
 > **Ginias:** Lecz uderzając w serce Federacji, opóźnimy jej natarcie w kosmosie. A wtedy ojczyzna zyska czas na obronę...
 > **Ginias:** Za to nie żal mi własnego życia! To jedyny godny koniec dla syna rodu Sahalin!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Hayato i Ginias
 
 > **Hayato:** Cel jest duży, ale... gdzie trzeba trafić, żeby zestrzelić coś takiego?!
 > **Ginias:** Nie rozśmieszaj mnie...
 > **Ginias:** Pociski słabowitej Federacji nawet nie zarysują mojego Apsalusa!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Kai i Ginias
 
 > **Ginias:** Hehehe... Skoro i tak mam zginąć, zabiorę ze sobą jak najwięcej z was.
 > **Kai:** Zatrzymać takiego potwora bez zabijania pilota? Nie ma mowy! Ledwo unikam bezpośrednich trafień!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Amuro i Hamon
 
 > **Amuro:** Pani Hamon, to pani?! Proszę się wycofać, pani Hamon! Nie chcę z panią walczyć!
 > **Hamon:** Hehe... A więc chłopiec z pustyni był pilotem Gundama...
 > **Hamon:** Lubię silnych chłopców, ale nie pozwolę, byś przeszkadzał mojemu mężowi...!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Sayla i Ramba Ral
 
 > **Sayla:** Wycofajcie się! Atakować tymi siłami kwaterę Federacji? Samobójstwo!
 > **Ramba Ral:** Od początku wiedzieliśmy, że szanse są przeciw nam! Lecz porzucić lorda Giniasa, gdy ten stawia życie na szali swej sprawy? Hańba dla mężczyzny!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — odwroty sił Zeonu
 
 > **Ramba Ral:** Więc to koniec...
 > **Ramba Ral:** Niech Hamon zabierze mnie z punktu zbiórki.
@@ -400,63 +330,35 @@ Oględziny [[gundam-ez8|Ez8]] zamieniają się w wykład o realiach frontu: masz
 
 [[ginias-sahalin|Ginias Sahalin]] ogłasza, że nadszedł czas, by Apsalus obrócił [[jaburo|Jaburo]] w ruinę — i zaraz potem kaszle, a [[crowley-hamon|Hamon]] pyta wprost, czy jest chory. Umierający dowódca projektu chce, by ostatni płomień jego życia pociągnął [[earth-federation|Federację]] w otchłań. Na to wchodzi [[ramba-ral|Ramba Ral]], który przybył „w te pędy”, by być świadkiem bitwy rodu Sahalinów; wypuszcza swoje maszyny i wyznacza punkt zbiórki z Hamon.
 
-### Brat Ainy
-
 Dialog [[shiro-amada|Shiro]] z [[ginias-sahalin|Giniasem]] to najostrzejszy moment sceny: Ginias rozpoznaje w przeciwniku człowieka, który „uwiódł” jego siostrę, i oskarża go o to, że Aina odeszła z wojska. Shiro przyjmuje tę wiadomość z ulgą, a potem deklaruje, że pokochał Ainę jako człowieka, niezależnie od barw. Ginias nie potrafi tego przyjąć — jego odpowiedź to deklaracja samobójczego ataku i zapowiedź zemsty na „prostym żołdaku”, który ośmiela się oceniać walkę.
 
 ### Działo megacząsteczkowe
 
 Pierwszy strzał Apsalusa zmienia obraz bitwy: [[fraw-bow|Fraw]], [[marker|Marker]] i [[oscar-dublin|Oscar]] meldują zniszczenia na linii ognia i poważne uszkodzenia stanowisk przeciwlotniczych. [[mirai-yashima|Mirai]] zauważa, że strzał oddany prosto w dół zagrozi portowi i dowództwu, a [[bright-noa|Bright]] wydaje jedyny możliwy rozkaz — nie dopuścić maszyny bliżej. Od tej chwili obrona bramy przestaje być kwestią taktyki, a staje się sprawą przetrwania bazy.
 
-### Ładowanie działa
-
 Apsalus nie strzela od razu: [[ginias-sahalin|Ginias]] zapowiada ładowanie działa megacząsteczkowego i zapowiada, że „skróci cierpienia” obrońców. Obrońcy dostają chwilę na reakcję przed kolejnym uderzeniem.
-
-### Pojedynek z Ralem
 
 [[ramba-ral|Ramba Ral]] wita [[amuro-ray|Amura]] słowami „a więc przeżyłeś, chłopcze” i rezygnuje z tłumaczenia wyniku starcia siłą maszyny. Deklaracja „zmierzę się z tobą jak wojownik z wojownikiem” ustawia ten wątek jako pojedynek honorowy, a nie kolejną wymianę ognia.
 
-### Sanders mierzy olbrzyma
-
 [[terry-sanders-jr|Sanders]] porównuje Apsalusa z maszyną widzianą na poligonie i dochodzi do wniosku, że razem z rozmiarem rosła też siła uzbrojenia. [[ginias-sahalin|Ginias]] odpowiada chełpliwie, że działo główne przebija skałę [[jaburo|Jaburo]], a mobile suity są przy nim papierowymi lalkami.
-
-### Karen nie ustępuje
 
 [[karen-joshua|Karen]] odpowiada na pogardę [[ginias-sahalin|Giniasa]] krótko: daremny czy nie, opór przekona się w praktyce. To charakterystyczny dla niej gest — bez patosu, za to z gotowością sprawdzenia słów przeciwnika.
 
-### Wybór Shiro
-
 [[shiro-amada|Shiro]] nazywa po imieniu swój dylemat: chronić bazę, zatrzymać maszynę i oszczędzić pilota naraz się nie da. Zwrot „Wybacz mi, Aino… twój brat… muszę…!” pokazuje, że wybiera bunt wobec osoby, którą zna, i że zdaje sobie sprawę z ceny.
-
-### Shiro i Ral
 
 [[ramba-ral|Ramba Ral]] nie zamierza pozwolić na zniweczenie woli [[ginias-sahalin|Giniasa]] i gardzi błaganiem przeciwnika o przepustkę. Zderzenie dwóch pojęć żołnierskiego obowiązku — wobec dowódcy i wobec ludzi — zostaje nierozstrzygnięte.
 
-### Amuro kontra Ginias
-
 [[amuro-ray|Amuro]] przyznaje, że skala maszyny go przytłacza, ale nie może dopuścić, by takiej broni pozwolono zaatakować bazy. [[ginias-sahalin|Ginias]] nazywa go Białym Diabłem [[earth-federation|Federacji]] i zapowiada, że własnymi rękami położy mu kres.
-
-### Sayla i logika przegranej
 
 [[sayla-mass|Sayla]] próbuje zatrzymać walkę argumentem strategicznym: nawet zdobycie [[jaburo|Jaburo]] nie odwróci przegranej [[zeon|Zeonu]] na Ziemi. [[ginias-sahalin|Ginias]] odpowiada logiką opóźnienia — uderzenie w serce Federacji kupi jego ojczyźnie czas na obronę w kosmosie, a własne życie uważa za godziwą cenę.
 
-### Hayato szuka słabego punktu
-
 [[hayato-kobayashi|Hayato]] pyta, gdzie trafić, żeby zestrzelić coś tak dużego; [[ginias-sahalin|Ginias]] kpi, że pociski Federacji nawet nie zarysują pancerza. Pytanie pozostaje otwarte i wraca w scenie upadku maszyny.
-
-### Kai liczy koszty
 
 [[kai-shiden|Kai]] mówi to, czego nikt inny nie chce powiedzieć: zatrzymanie takiej maszyny bez zabicia pilota jest niemożliwe. Jego sceptycyzm równoważy bohaterską retorykę i przypomina, że prośba [[shiro-amada|Shiro]] jest życzeniem, a nie planem.
 
-### Hamon na drodze
-
 [[amuro-ray|Amuro]] rozpoznaje w walce [[crowley-hamon|Hamon]] i prosi ją o wycofanie się, bo nie chce z nią walczyć. Hamon odpowiada, że lubi silnych chłopców, ale nie pozwoli przeszkodzić mężowi — jej lojalność wobec [[ramba-ral|Rala]] jest tu silniejsza niż rozsądek.
 
-### Sayla i honor Rala
-
 [[sayla-mass|Sayla]] nazywa atak samobójstwem i wzywa do odwrotu. [[ramba-ral|Ramba Ral]] tłumaczy, że jego ludzie od początku wiedzieli, iż szanse są przeciw nim, ale porzucenie [[ginias-sahalin|Giniasa]] w chwili, gdy ten stawia życie na szali, byłoby hańbą.
-
-### Odwrót oddziału Rala
 
 Odwrót domyka wątek [[ramba-ral|Rala]]: dowódca mówi „więc to koniec”, wzywa [[crowley-hamon|Hamon]] na punkt zbiórki, a [[acous|Acous]] i [[cozun-graham|Cozun]] meldują uszkodzenia i odrywają się od walki. Oddział wychodzi z bitwy cało — odwrót jest tu decyzją, nie porażką.
 

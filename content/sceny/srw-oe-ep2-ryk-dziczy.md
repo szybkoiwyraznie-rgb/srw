@@ -18,7 +18,6 @@ sekcje_analizy:
   - Hologramy i różne reakcje na gniew → Wspólne ćwiczenia
   - Teoretyczna granica jako wymówka → Ograniczenia Exarta
   - Pokaz mocy i niewykorzystany potencjał → Final Dancouga
-  - Walka do granicy możliwości → Dialogi treningowe — sytuacyjne — na granicy możliwości
   - Zakończenie walki pozorowanej → Koniec ćwiczeń
   - Spokój i zapał oraz oczekiwanie na oddział → Stacja Connect
 tagi: [scena, srw-oe, dancouga, patlabor, connect]
@@ -197,10 +196,6 @@ W ramach przygotowań na stacji miały się właśnie rozpocząć wspólne ćwic
 **Szef Suol:** No to mnie zagięli. Przejrzeli nawet potencjał Exarta.
 **Shinobu Fujiwara:** Takie ćwiczenia to nuda. Same płotki, nawet się nie najadłem!
 **Szef Suol:** To nie będę się hamował. Przechodzimy do etapu 2.
-:::
-
-:::skrypt
-#### Dialogi treningowe — sytuacyjne — na granicy możliwości
 
 > **Seishiro:** Ugh... Za dużo obrażeń!
 > **Himari:** Jeszcze jedno trafienie i maszyna nie wytrzyma!
@@ -295,8 +290,6 @@ Seishiro ma trudności z przebiciem obrony celów i odwołuje się do ogranicze�
 ### Pokaz mocy i niewykorzystany potencjał
 
 Za zgodą Suola pięcioro pilotów demonstruje siłę [[final-dancouga|Final Dancougi]]. Himari odczytuje energię poza skalą, a Alan i Ryo wiążą przekroczenie teoretycznych granic z załogą oraz Morale. Alan i Ryo wyczuwają ukrytą moc Exarta; Seishiro i Himari uznają, że muszą się dalej rozwijać. Po demonstracji Suol rozpoczyna drugi etap.
-
-### Walka do granicy możliwości
 
 Gdy Exart zostaje poważnie uszkodzony, Himari ostrzega przed kolejnym trafieniem, Shinobu proponuje katapultowanie, ale Seishiro postanawia walczyć dalej wraz z nią. Zaangażowanie obojga zyskuje uznanie Shinobu i Ryo.
 

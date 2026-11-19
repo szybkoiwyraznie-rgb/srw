@@ -78,15 +78,11 @@ Nie wiedząc, kiedy uderzy następne zagrożenie, ludzie żyją w niepokoju - al
 **Himari:** Wyświetlam wyznaczony obszar.
 **Seishiro:** Cel potwierdzony! Rozpoczynam 'Ruch'.
 
-#### Dialogi warunkowe — korekty kursu
-
 > **Himari:** Oddalasz się od celu. Kieruj się od razu do wyznaczonego obszaru.
 > **Seishiro:** Żadnego zwiedzania, co?
 > **Himari:** Poruszanie się zużywa 'EN'. Bez 'EN' nie będzie ani ruchu, ani walki.
 > **Seishiro:** Zaraz potem czekają mnie manewry bojowe. Oszczędzę 'EN' i polecę najkrótszą trasą.
 > **Himari:** Świetnie, liczę na to.
-
-#### Dialogi warunkowe — zdalne wskazówki
 
 > **Himari:** To nie jest najkrótsza trasa. Przejmuję zdalne sterowanie, przenoszę cię.
 > **Seishiro:** Dobrze, Himari. Trafna decyzja.

@@ -4,7 +4,7 @@ slug: yume-minami
 tytul: "Yume Minami"
 seria: ssss-dynazenon
 rola: pilot
-mechy: []
+mechy: [dynazenon]
 gry: [srw-y]
 pochodzenie: menu
 zrodla:
@@ -17,6 +17,8 @@ utworzono: 2026-11-16
 Koleżanka [[yomogi-asanaka|Yomogiego]] z klasy. Umawia się z chłopcami, a potem nie przychodzi na spotkania. W podstawówce straciła siostrę, Kano; zawsze nosi przy sobie jej łamigłówkę z metalowych kółek. Umówiła się też z Yomogim, zamierzając go wystawić, lecz [[gauma|Gauma]] ją za to zbeształ, a pojawienie się kaiju wciągnęło ją w walkę. Po rozłączeniu Dynazenona steruje Dyna Wingiem, który tworzy jego tors i skrzydła.
 
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] przychodzi na zebranie na placu [[miasto-yagami|miasta Yagami]] z przyjaciółką [[mei|Mei]]: tłumaczy nieobecność rodziców chłodem panującym w domu i przyznaje, że przed chwilą wściekł się na nią kolejny wystawiony chłopak z drugiej klasy.
+
+Gdy po drugiej stronie kopuły piloci zastanawiają się nad odwrotem, Yume chce zostać: jeśli nie będą walczyć, ucierpi miasto. Później jako pierwsza z trójki odpowiada na pytanie Gaumy o współpracę z Echiką.
 }}
 
 {{zrodlo gra=wspolne

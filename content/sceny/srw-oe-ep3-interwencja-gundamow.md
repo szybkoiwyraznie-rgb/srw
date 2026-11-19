@@ -17,10 +17,6 @@ sekcje_analizy:
   - "Alarm nad wyspą → Nadciąga Zeon"
   - "Rozmowa na pokładzie → Garma i Char"
   - "Posiłki lady Kycilii → Przybycie Zanzibara"
-  - "Garma przeciw obrońcom → Dialogi warunkowe — Garma i piloci obrońców"
-  - "Starcia z Czerwoną Kometą → Dialogi warunkowe — pozostałe spotkania z Charem"
-  - "Rachunek M'Quve'a → Dialogi warunkowe — M'Quve i piloci obrońców"
-  - "Odwrót sił Zeonu → Dialogi warunkowe — odwroty sił Zeonu"
   - "Zbiórka po bitwie → Odwrót napastników"
   - "Dwa Gundamy z nieba → Dwa niezidentyfikowane Gundamy"
 tagi: [scena, srw-oe, gundam, connect, zeon, ziemia]
@@ -156,10 +152,6 @@ W rezultacie do obrony obserwatorium wysłano Cyber Beast Force i Connect Force.
 **Marker:** Mobile suity schodzą do lądowania!
 **Oscar:** Pędzą przez śnieżne pole, szybko się zbliżają!
 **Bright:** Przechwycić ich! Nie dopuścić do placówki!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — Garma i piloci obrońców
 
 **Amuro:** Okręt czy nie, siła ognia Gundama wystarczy!
 **Garma:** Więc to jest ten biały mobile suit Federacji...
@@ -193,10 +185,6 @@ W rezultacie do obrony obserwatorium wysłano Cyber Beast Force i Connect Force.
 **Garma:** Zestrzelę cię tutaj i zdobędę Krzyż Zeonu...!
 **Bright:** Nie jesteśmy teraz siłami Federacji. Pokonanie nas nie przyniesie ci chwały!
 **Garma:** Sofizmat...!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — pozostałe spotkania z Charem
 
 **Shinobu Fujiwara:** Czerwony, niebieski czy żółty, jak jesteś wrogiem, to dostaniesz łupnia!
 **Char:** Temu pilotowi z pewnością nie brakuje animuszu.
@@ -220,10 +208,6 @@ W rezultacie do obrony obserwatorium wysłano Cyber Beast Force i Connect Force.
 **Bright:** Czerwona Kometa... groźny jak zawsze...!
 **Char:** Nawet koń trojański z tej odległości nie nadąży za moją szybkością!
 **Bright:** Mimo to będziemy bronić tego miejsca do końca!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — M'Quve i piloci obrońców
 
 **Kei:** Uwaga! To okręt-matka wroga!
 **Gai:** Przytaszczyli tu nawet okręt! Co, do diabła, jest w tej placówce?!
@@ -246,10 +230,6 @@ W rezultacie do obrony obserwatorium wysłano Cyber Beast Force i Connect Force.
 
 **M'Quve:** Koń trojański... Rarytas zbyt cenny, by zostawić go Federacji.
 **Bright:** Na tym okręcie jest M'Quve, który użył bomby H! Nie wiadomo, co jeszcze wymyśli!
-:::
-
-:::skrypt
-#### Dialogi warunkowe — odwroty sił Zeonu
 
 **Oficer Zeonu:** Lordzie Garmo, okręt jest zbyt uszkodzony! Jeśli tak dalej pójdzie, nie wydostaniemy się!
 **Garma:** Ngh... Resztę zostawiam mobile suitom! Przerwać wsparcie i wycofać się do punktu zbiórki!
@@ -344,25 +324,17 @@ Do strefy walki wchodzi [[zanzibar|Zanzibar]], a [[mquve|M'Quve]] od razu tłuma
 
 Wraz z okrętem schodzą do lądowania [[mobile-suit|mobile suity]], które pędzą przez śnieżne pole w stronę placówki. [[black-tri-stars|Black Tri-Stars]] startują z Zanzibara z rachunkami do wyrównania za [[white-base|„konia trojańskiego”]], a [[bright-noa|Bright]] rozkazuje przechwycenie — walka przenosi się w śnieg i przestaje być wymianą ognia między okrętami.
 
-### Garma przeciw obrońcom
-
 Każdy z obrońców widzi ten sam cel inaczej. [[amuro-ray|Amuro]] liczy na siłę ognia Gundama, a [[garma-zabi|Garma]] rozpoznaje w nim „biały mobile suit Federacji” i wiąże z nim nadzieję na uznanie siostry. [[seishiro|Seishiro]] występuje jako [[connect-force|Connect Force]] i przypomina o zakazie działań zbrojnych w strefie neutralnej, na co [[garma-zabi|Garma]] odpowiada oskarżeniem o oszustwo i zapowiada ujawnienie powiązań Connect z Federacją.
 
 Reszta wymian dotyczy skali walki. [[koji-kabuto|Koji]] traktuje okręty jak duże cele, [[shinobu-fujiwara|Shinobu]] i [[sara-yuki|Sara]] przekomarza się o zapał, [[ryo-shiba|Ryo]] i [[gai|Gai]] pilnują szyku, a [[kei|Kei]] mówi wprost, że obrońcy hamują się, bo przeciwnikiem są ludzie. [[shiro-amada|Shiro]] ustawia obronę na ziemi, [[noa-izumi|Noa]] zagradza drogę [[labor|Laborowi]] i słyszy, że dla [[zanzibar|Zanzibara]] siła ognia Labora jest jak dziecięca proca. [[bright-noa|Bright]] odbiera od [[garma-zabi|Garmy]] groźbę zdobycia [[krzyz-zeonu|Krzyża Zeonu]] argumentem, że obrońcy nie są już siłami Federacji.
-
-### Starcia z Czerwoną Kometą
 
 Spotkania z [[char-aznable|Charem]] służą pokazaniu różnicy poziomów. [[shinobu-fujiwara|Shinobu]] zapowiada łupnia niezależnie od koloru maszyny, a [[char-aznable|Char]] chwali jego animusz; [[ryo-shiba|Ryo]], [[sara-yuki|Sara]] i [[masato-shikibu|Masato]] odpowiadają, że to ich styl, a [[alan-igor|Alan]] wzywa do odparcia Czerwonej Komety.
 
 Przy drugim spotkaniu [[kei|Kei]], [[gai|Gai]] i [[go|Go]] walczą z [[gelgoog-char|Gelgoogiem]] na całego, a [[char-aznable|Char]] rozpoznaje [[shin-getter-1|Getter Robo]] i przyznaje, że musi dać z siebie wszystko. [[shiro-amada|Shiro]] pyta, czego tu chce [[zeon|Zeon]], [[noa-izumi|Noa]] chwali się „swoim Alphonsem”, a [[bright-noa|Bright]] mierzy się ze słowami [[char-aznable|Chara]], że nawet [[white-base|koń trojański]] nie nadąży za jego szybkością.
 
-### Rachunek M'Quve'a
-
 [[mquve|M'Quve]] najpierw odbiera komplement od [[kei|Kei]], [[gai|Gai]] i [[go|Go]], którzy nie spodziewali się okrętu-matki nad placówką, a potem sam komentuje nieprzewidywalne ruchy [[shin-getter-1|Gettera]]. Jego zdanie, że to Federacja pierwsza dopuściła się poważnego złamania traktatu, niepokoi [[alan-igor|Alana]] — sposób, w jaki to zostało powiedziane, każe mu wątpić, czy placówka jest zwykłą bazą.
 
 Dalej [[mquve|M'Quve]] ocenia przeciwników po sprzęcie: seryjną wersję [[mobile-suit|mobile suita]] Federacji i „małą maszynkę w sam raz dla wyspiarskiego kraju”, którą [[noa-izumi|Noa]] kwituje przypowieścią o małej myszy. Na końcu nazywa [[white-base|White Base]] zbyt cennym rarytasem, by zostawić go Federacji, a [[bright-noa|Bright]] przypomina, że na pokładzie jest [[mquve|M'Quve]], który wcześniej użył bomby wodorowej.
-
-### Odwrót sił Zeonu
 
 Bitwę kończy nie rozstrzygnięcie, tylko uszkodzenia. Oficer melduje [[garma-zabi|Garmie]], że okręt nie wydostanie się, jeśli walka potrwa dłużej, więc dowódca przerywa wsparcie i każe wycofać się do punktu zbiórki. [[char-aznable|Char]] uznaje, że został zmuszony do odwrotu, i zastanawia się, czy [[connect-force|Connect Force]] zdołał już zgromadzić taką siłę; [[black-tri-stars|Black Tri-Stars]] wycofują się z wstydem, a [[uragan|Uragan]] proponuje [[mquve|M'Quve'owi]] wyprowadzenie okrętu z walki.
 

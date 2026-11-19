@@ -94,7 +94,7 @@ test('scena: cała treść w lewej kolumnie, obsada w prawej', () => {
 test('scena: każda podsekcja analizy linkuje do istniejącej kotwicy w treści', () => {
   const oczekiwane = [
     ['srw-oe-ep1-black-tri-stars', 8],
-    ['srw-oe-ep1-szalejacy-prototyp-labora', 8],
+    ['srw-oe-ep1-szalejacy-prototyp-labora', 7],
     ['prolog-i-trening-w-connect', 5],
     ['srw-oe-ep0-na-ratunek-white-base', 6],
   ];

@@ -11,7 +11,6 @@ sekcje_analizy:
   - Na poligonie Fuji → Siły Samoobrony, poligon Fuji
   - SV2 dołącza do ćwiczeń → SV2 dołącza do ćwiczeń
   - Ostra amunicja → Ostra amunicja
-  - Głosy w walce z HAL-X10 → Dialogi bojowe — warunkowe i sytuacyjne
   - Po ćwiczeniach → Po ćwiczeniach
   - Następstwa → Następstwa
 pochodzenie: skrypt
@@ -27,8 +26,6 @@ utworzono: 2026-10-21
 {{skrypt gra=srw-oe
 
 ## Treść sceny
-
-Misja to jedna scena, ale scenariusz dzieli ją na osiem części. Poniżej cały tekst w kolejności, część po części, z nagłówkami z materiału.
 
 ### Stacja Connect / Okolice Ziemi
 
@@ -204,11 +201,7 @@ Tak narodził się Patlabor.
 **Himari:** Przyjęłam!
 **Ota:** Dawaj! Zmierzysz się ze mną!
 **Izumi:** Ota! Nie w pojedynkę!
-:::
 
-#### Dialogi bojowe — warunkowe i sytuacyjne
-
-:::skrypt
 > **Himari:** Ugh... to jest to, a to, eee... a to tutaj...
 > **Himari:** Uuu... hmmm...
 > **Himari:** Aaach, nie mogę! Mam mętlik w głowie!
@@ -304,8 +297,6 @@ Pierwsze strzały pokazują, że to nie ćwiczenia: [[seishiro|Seishiro]] rozpoz
 Seishiro wchodzi do walki razem z [[himari-yaegaki|Himari]] i od razu oddaje jej stery, choć sam prowadzi taktykę. [[isao-ota|Ota]] atakuje bez namysłu, [[noa-izumi|Noa]] próbuje go powstrzymać, a [[asuma-shinohara|Asuma]] i [[mikiyasu-shinshi|Shinshi]] koordynują pluton z wozu dowodzenia.
 
 Starcie ujawnia przewagę bezzałogowych maszyn: odpowiadają ogniem na każdy strzał i nie mają martwego pola z tyłu. Dopiero celny strzał w stawy pozwala je unieruchomić. Kto zmienił amunicję i dlaczego, pozostaje otwarte.
-
-### Głosy w walce z HAL-X10
 
 [[himari-yaegaki|Himari]] gubi się w sterowaniu [[exart|Exartem]] i przyznaje, że ma mętlik w głowie; [[seishiro|Seishiro]] uspokaja ją i przypomina, że to jej pierwsza prawdziwa walka. [[isao-ota|Ota]] nie zamierza się wycofać mimo polecenia wojska, a [[mikiyasu-shinshi|Shinshi]] przypomina mu o własnym życiu.
 
