@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-19 15:19
+
+- Podczas [[srw-oe-ep1-ratuj-transportowiec-medea|eskorty Medei]] [[eledore-massis|Eledore]] słyszy nie tylko pościg w powietrzu, ale i zasadzkę na ziemi. Jego meldunki z [[hover-truck|Hover Trucka]] pomagają [[michel-ninorich|Michelowi]] prowadzić klucz poza zasięgiem ognia przeciwlotniczego.
+
 ## 2026-11-18 15:43
 
 - W OVA [[michel-ninorich|Michel Ninorich]] jest pilotem [[hover-truck|Hover Trucka]] i obsługuje działko, a [[eledore-massis|Eledore Mathis]] pilotem i operatorem sonaru. W [[srw-oe|Super Robot Wars OE]] Michel występuje jako pilot główny, a Eledore jako wspierający — to podział ról z gry, nie zamiana stanowisk z serialu.

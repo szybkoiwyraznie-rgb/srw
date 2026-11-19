@@ -357,7 +357,7 @@ test('jednostki misji 1-5 mają tło techniczne z pierwowzorów (ADR 0008, ADR 0
     'gundam-ez8': [ez8],
     'gundam-ground-type': [rx79, ez8],
     'gundam-ground-type-glowa-gm': [rx79],
-    'hover-truck': [hover],
+    'hover-truck': [hover, 'https://en.gundam-official.com/mecha/nq894fc9e8o52ixsqvdcdt1a'],
     'kampfer-bazooka': [kampfer],
     'kampfer-high-mobility': [kampfer],
     'zaku-ii-kai': [fz],
@@ -372,7 +372,8 @@ test('jednostki misji 1-5 mają tło techniczne z pierwowzorów (ADR 0008, ADR 0
       assert.ok(page.zrodla.includes(adres), `${slug}: ${adres} w frontmatterze`);
       assert.ok(blok[1].includes(adres), `${slug}: ${adres} przy informacji`);
     }
-    assert.ok(page.body.indexOf('{{menu') < page.body.indexOf('{{zrodlo'),
+    const opisGry = page.body.indexOf(slug === 'hover-truck' ? '{{skrypt gra=srw-oe' : '{{menu gra=srw-oe');
+    assert.ok(opisGry >= 0 && opisGry < page.body.indexOf('{{zrodlo'),
       `${slug}: dane z gry przed tłem z pierwowzoru`);
   }
   // Alex ma własny blok tła od misji 1-5, więc wszystkie osiem jednostek jest opisanych.
