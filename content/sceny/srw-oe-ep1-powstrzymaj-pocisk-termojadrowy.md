@@ -78,8 +78,6 @@ Atut łamiący Traktat Antarktyczny...
 **Amuro:** Nie, nie możemy tracić czujności. Przyparci do muru będą walczyć do upadłego.
 **Sayla:** Nie mamy wyboru...
 
-#### Dialogi bojowe — sytuacyjne
-
 > **Hayato:** Nie pozwolimy im użyć bomby wodorowej! Przerzedzę ich szeregi, póki mogę...!
 > **Kai:** Jak tu walną atomówką, będzie po nas wszystkich. Amuro, stawiam na ciebie i na Gundama.
 

@@ -11,7 +11,6 @@ sekcje_analizy:
   - Granice działania → Wielki plac budowy
   - Utrzymanie pozycji → Dialogi bojowe — sytuacyjne — utrzymanie pozycji
   - Pomoc Raijin-Oh → Przybycie Raijin-Oh
-  - Rywalizacja i ostrożność → Dialogi bojowe — warunkowe i sytuacyjne
   - Nierozwiązana przyczyna → Po bitwie
   - Ocena obserwatorów → Wielki plac budowy / Okolica
 pochodzenie: skrypt
@@ -107,10 +106,6 @@ Drugi Pluton [[sv2|SV2]] otrzymuje zgłoszenie o bezzałogowych [[brocken|Brocke
 **Kanuka:** My też odwalimy profesjonalną robotę. Nie dajcie się wyprzedzić Klasie Obrony!
 **Izumi:** Przyjęłam!
 **Ota:** Przyjąłem! Nie dam sobie odebrać chwały!
-:::
-
-:::skrypt
-#### Dialogi bojowe — warunkowe i sytuacyjne
 
 > **Izumi:** Postarajmy się, żeby nie przegrać z Klasą Obrony!
 > **Izumi:** Do dzieła, Alphonse!
@@ -179,8 +174,6 @@ Noa przyznaje, że przy tej liczbie przeciwników nie zatrzyma wszystkich, a Ota
 ### Pomoc Raijin-Oh
 
 [[raijin-oh|Raijin-Oh]] przybywa z [[jin-hyuga|Jinem]], [[asuka-tsukishiro|Asuką]] i [[koji-hoshiyama|Kojim]] jako niezapowiedziana pomoc. Koji od razu ustala, że celem jest zatrzymanie Laborów, a Asuka prosi o pozwolenie na współdziałanie. Goto i Yamazaki przyjmują wsparcie z ulgą, natomiast Kanuka zamienia je w mobilizację plutonu: policjanci mają wykonać profesjonalną robotę i nie dać się wyprzedzić [[klasa-obrony-ziemi|Klasie Obrony]].
-
-### Rywalizacja i ostrożność
 
 Noa i Ota reagują na pomoc jak na współzawodnictwo — oboje chcą wykonać zadanie co najmniej równie dobrze jak Klasa Obrony. Noa dodaje sobie otuchy, zwracając się do Alphonse’a, a Ota nie chce zostać prześcignięty przez bezzałogowe maszyny. Asuka hamuje jednak entuzjazm Jina konkretnym ostrzeżeniem: podczas walki nie wolno przez pomyłkę zaatakować policyjnych Laborów. Wspólny przeciwnik nie znosi więc konieczności rozróżniania sojuszniczych Ingramów od Brockenów.
 

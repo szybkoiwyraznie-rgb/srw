@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-19 16:04
+
+- W [[srw-oe-ep1-start-alexa|„Starcie Alexa”]] [[shiro-amada|Shiro]] żegna się z [[christina-mackenzie|Chris]] przed powrotem na patrol. Chris chciałaby zobaczyć go w akcji, ale woli, żeby tym razem nie pojawił się wróg.
+
 ## 2026-11-19 15:50
 
 - W [[srw-oe-ep1-ratuj-transportowiec-medea|eskorcie Medei]] to załoga transportowca pierwsza melduje, że kurs jest bezpieczny. Po meldunkach [[eledore-massis|Eledore’a]] i [[michel-ninorich|Michela]] [[shiro-amada|Shiro]] zarządza powrót.

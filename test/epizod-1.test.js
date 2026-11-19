@@ -77,14 +77,13 @@ test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () =
   // Każda część ma własny nagłówek i własny blok skryptu — nagłówki zostają widoczne na stronie.
   const czesci = [...scena.body.matchAll(/^(#{3,4} .+)\n\n:::skrypt\n([\s\S]*?)\n:::/gm)]
     .map((m) => ({ naglowek: m[1], tekst: m[2] }));
-  assert.equal(czesci.length, 8);
+  assert.equal(czesci.length, 7);
   assert.deepEqual(czesci.map((c) => c.naglowek), [
     '### Stacja Connect / Okolice Ziemi',
     '### Patlabor',
     '### Siły Samoobrony, poligon Fuji',
     '### SV2 dołącza do ćwiczeń',
     '### Ostra amunicja',
-    '#### Dialogi bojowe — warunkowe i sytuacyjne',
     '### Po ćwiczeniach',
     '### Następstwa',
   ]);

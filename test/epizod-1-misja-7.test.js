@@ -44,7 +44,8 @@ test('dostawa 1-7 jest zachowana bajt w bajt, a cały jej skrypt poprzedza misj�
   assert.match(delivery, /^## God Raijin-Oh$/m);
   assert.match(delivery, /^#### Badrinath Harchand$/m);
   assert.match(delivery, /Brocken\/Melee.*×5 rekordów źródłowych Entry ID/);
-  const expected = delivery.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0].trim();
+  const expected = delivery.split('---\nSKRYPT\n---\n')[1].split('\n---\nUCZESTNICY\n---')[0]
+    .replace('#### Dialogi bojowe — warunkowe i sytuacyjne\n\n', '').trim();
   assert.ok(script.includes(expected), 'pełna misja 1-7 w skrypcie epizodu');
   assert.ok(script.includes('**Bud:** No!\n\n## Śledztwo pod przykrywką'));
   assert.ok(!script.includes('UCZESTNICY'));
@@ -57,7 +58,7 @@ test('scena 1-7 jest dosłowna i poprzedza misję 1-8 w epizodzie 1', () => {
   assert.equal(scena.numer_sceny, '1-7');
   assert.equal(scena.tytul, 'Szalejący Labor powraca');
   assert.deepEqual(sprawdzWiernoscSceny(scena, script), []);
-  assert.equal((scena.body.match(/:::skrypt/g) ?? []).length, 8);
+  assert.equal((scena.body.match(/:::skrypt/g) ?? []).length, 7);
   for (const fragment of ['### SV2, Drugi Pluton / Hangar', '### Zgłoszenie z 7. okręgu',
     '### Wielki plac budowy', '### Przybycie Raijin-Oh', '### Po bitwie',
     '### Wielki plac budowy / Okolica', '**Bud:** No!']) {
@@ -69,14 +70,14 @@ test('scena 1-7 jest dosłowna i poprzedza misję 1-8 w epizodzie 1', () => {
     ['1-1', '1-2', '1-3', '1-4', '1-5', '1-6', '1-7', '1-8']);
 });
 
-test('osiem etapów analizy ma kotwice i zachowuje ograniczenia oraz nierozstrzygniętą przyczynę', () => {
+test('siedem etapów analizy ma kotwice i zachowuje ograniczenia oraz nierozstrzygniętą przyczynę', () => {
   const blokAnalizy = scena.body.split('## Analiza')[1].split('\n## ')[0];
   const analiza = [...blokAnalizy.matchAll(/^### (.+)$/gm)].map((m) => m[1]);
   assert.deepEqual(analiza, ['Koszt stałej gotowości', 'Kod 205', 'Granice działania',
-    'Utrzymanie pozycji', 'Pomoc Raijin-Oh', 'Rywalizacja i ostrożność',
+    'Utrzymanie pozycji', 'Pomoc Raijin-Oh',
     'Nierozwiązana przyczyna', 'Ocena obserwatorów']);
   const mapa = scena.sekcje_analizy ?? [];
-  assert.equal(mapa.length, 8);
+  assert.equal(mapa.length, 7);
   for (const wpis of mapa) {
     const [lewa, prawa] = String(wpis).split('→').map((s) => s.trim());
     assert.ok(analiza.includes(lewa), `analiza: ${lewa}`);
