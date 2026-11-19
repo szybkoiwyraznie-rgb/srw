@@ -221,6 +221,41 @@ test('każdy mówca skryptu prowadzi do strony postaci swojej gry', () => {
   }
 });
 
+/** Mówcy, którzy w tej samej dostawie mają też pełną etykietę („Kamui” obok „Show Kamui”). */
+function skrotyImion(mowcy) {
+  return [...mowcy].filter((etykieta) => !etykieta.includes(' ')
+    && [...mowcy].some((inna) => inna !== etykieta && inna.split(' ').includes(etykieta)));
+}
+
+test('skrót imienia w skrypcie należy do tej samej postaci co pełna etykieta', () => {
+  // L29: w misji 1-3A ta sama osoba mówi jako „Show Kamui” (17 kwestii) i „Kamui” (18).
+  // Skrót nie jest pseudonimem ani nową postacią — musi wskazywać tę samą stronę.
+  let sprawdzone = 0;
+  for (const { plik, gra, mowcy } of skrypty) {
+    for (const skrot of skrotyImion(mowcy)) {
+      const pelne = [...mowcy].filter((inna) => inna.split(' ').includes(skrot));
+      const celSkrotu = stronyMowcy(skrot, gra);
+      assert.ok(celSkrotu.length > 0, `${plik}: skrót „${skrot}” nie prowadzi do strony postaci`);
+      for (const etykieta of pelne) {
+        const cel = stronyMowcy(etykieta, gra);
+        assert.deepEqual(cel.map((p) => p.slug), celSkrotu.map((p) => p.slug),
+          `${plik}: „${skrot}” i „${etykieta}” muszą wskazywać tę samą postać (L29)`);
+        sprawdzone += 1;
+      }
+    }
+  }
+  assert.ok(sprawdzone > 0, 'test musi realnie sprawdzać skróty imion');
+});
+
+test('bezosobowa rola zbiorowa nie dostaje strony postaci', () => {
+  // ADR 0013: „Obywatel” to głos tłumu, nie osoba — mówi w scenach, ale nie ma wpisu.
+  for (const etykieta of GLOSY_BEZIMIENNE) {
+    const strony = postacie.filter((p) => normalizujNazwe(p.tytul) === normalizujNazwe(etykieta));
+    assert.deepEqual(strony.map((p) => p.slug), [],
+      `„${etykieta}” to rola zbiorowa — bez strony i bez pseudonimu`);
+  }
+});
+
 test('każdy mówca w scenie należy do jej obsady i obsady epizodu', () => {
   // Etykieta z katalogu pilota sama nie rozstrzyga tożsamości imienników;
   // przypisanie w obsadzie trzeba także sprawdzić w kontekście sceny.

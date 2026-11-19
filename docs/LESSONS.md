@@ -381,3 +381,27 @@ Zasady:
 - **Opis z podtytułem wymaga źródła przy informacji.** Nazwa „Hard Fall Kaiju” i jej znaczenie
   weszły do bloku `{{zrodlo}}` na stronie kaiju — bez linku przy zdaniu test integralności
   odrzuca zadeklarowany adres (L23).
+
+## L29 — Skrót imienia w skrypcie to ta sama osoba, a rola zbiorowa nie jest postacią (2026-11-19)
+
+W skrypcie misji 1-3A SRW Y ta sama postać mówi raz jako `**Show Kamui:**`, a raz jako
+`**Kamui:**` — 17 i 18 kwestii. Skrót pojawia się w scenach zbiorowych, gdy w dialogu bierze
+udział kilka osób naraz. To nie pseudonim, nie druga postać i nie „nierozstrzygnięta
+tożsamość”: kwestie podpisane krótko należą do tej samej osoby co pełna etykieta i tak samo
+wchodzą do jej strony, obsady sceny i epizodu. Podobnie `**Obywatel:**` (i `**Żołnierz
+oddziału D2:**`, `**Prezenter:**`) to bezosobowy, zbiorowy głos miasta albo armii — nie
+potrzebuje strony, choć mówi w scenie nieraz kilkanaście razy.
+
+Zasady:
+
+- **Tożsamość mówcy ustalaj z treści dialogu, nie z etykiety.** Skrót jest tą samą osobą,
+  jeśli rozmowa i otoczenie na to wskazują; nie zakładaj nowej postaci tylko dlatego, że
+  etykieta jest krótsza.
+- **Skrót trafia do prozy jak zwykła wypowiedź.** Jeśli dana kwestia jest ważna (np. Kamui
+  wypytuje Anninę o cel A. Adventu), opisujemy ją na stronie postaci bez komentarza
+  o „innej etykiecie" — czytelnik ma widzieć wydarzenie, nie redakcyjną uwagę.
+- **Cytat w scenie zostaje dosłowny.** Sekcja `:::skrypt` powtarza etykietę z dostawy
+  (`**Kamui:**`), bo scena jest wiernym zapisem materiału; ujednolicenie dotyczy prozy
+  i powiązań, nie cytatu.
+- **Rola zbiorowa nie dostaje strony, ale zostaje w obsadzie skryptu.** `Obywatel` nie jest
+  wpisem w `postacie` sceny — inaczej powstałaby pseudoosoba bez imienia (ADR 0013).
