@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-19 19:05
+
+- Po obronie [[miasto-yagami|miasta Yagami]] [[gauma|Gauma]] nazywa przeciwników [[klub-kaiju|Klubem Kaiju]] — bandą innych władców kaiju, która jeszcze uderzy. Tymczasem [[juuga|Juuga]] chce obrać to miasto za bazę, bo rodzi się w nim wyjątkowo wiele potworów.
+
 ## 2026-11-19 18:40
 
 - Podniesione [[miasto-yagami|miasto Yagami]] staje się w [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] celem kaiju, które przedostają się do jego wnętrza. Dzięki własnej infrastrukturze kopuła działa jak samowystarczalne miasto; walka przenosi się poza dzielnicę mieszkalną, a [[juuga|Juuga]] chce właśnie tu obrać bazę.

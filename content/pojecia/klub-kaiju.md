@@ -9,5 +9,7 @@ utworzono: 2026-11-19
 ---
 {{skrypt gra=srw-y
 
-Po obronie [[miasto-yagami|miasta Yagami]] [[gauma|Gauma]] przypisuje atak innym władcom kaiju. Ostrzega towarzyszy, że klub może ponownie uderzyć, i rozdaje im części [[dynazenon|Dynazenona]].
+Grupa, którą [[gauma|Gauma]] obwinia o sterowanie kaiju atakującymi [[a-advent|A. Advent]]. Według niego należą do niej inni władcy kaiju — tacy jak on — i to ich robota stoi za pojawieniem się potworów w [[miasto-yagami|mieście Yagami]].
+
+Po obronie miasta Gauma ostrzega towarzyszy, że klub na pewno jeszcze uderzy, i rozdaje im części [[dynazenon|Dynazenona]], żeby mieli czym walczyć. Po drugiej stronie [[onija|Onija]] złości się, że jego grupa straciła wszystkie kaiju, [[sizumu|Sizumu]] zauważa, że w jednym mieście rodzi się ich wyjątkowo wiele, a [[juuga|Juuga]] proponuje obrać właśnie to miasto za bazę — chce też spotkać kogoś, kogo tu szuka. [[mujina|Mujina]] przysłuchuje się tej rozmowie.
 }}
