@@ -353,3 +353,31 @@ może nadpisać późniejszej trasy. Wersjonowanie adresów danych skrótem tre�
 ogranicza mieszanie nowej powłoki z przestarzałymi plikami z cache po wdrożeniu.
 Nie uznawaj tych zabezpieczeń za dowód przyczyny błędu, którego nie udało się
 odtworzyć w konkretnym środowisku czytelnika.
+
+## L28 — „Pilot” o nazwie jednostki to rekord silnika, nie osoba (2026-11-19)
+
+Wiersz listy jednostek misji 1-3A SRW Y brzmi `**Shalbandes** — pilot główny: Hard Fall
+Kaiju Shalbandes — grupa czerwona 1`. Poprzednia sesja rozpoznała wzorzec „brak osobowego
+pilota” dla rekordów **równych** nazwie jednostki (Insector, Zordo XX), ale nie dla rekordu
+o nazwie jednostki z doklejonym podtytułem typu. „Hard Fall Kaiju” to podtytuł kaiju
+(急転直下怪獣), więc ten sam techniczny rekord przeszedł jako osoba: powstała strona postaci
+z `rola: pilot`, a `piloci` kaiju nie było puste — wbrew regule z L24 i wbrew testowi, który
+dla Insectora wymagał czegoś odwrotnego.
+
+Zasady:
+
+- **Porównuj nazwę pilota z nazwą jednostki po słowach, nie po równości znaków.** Rekord
+  techniczny to taki, w którym cała nazwa jednostki występuje jako ciąg słów w nazwie pilota
+  (`rekordBezOsoby` w `tools/uczestnicy-dostaw.mjs`). Wtedy `piloci: []`, a dane pilota idą
+  na stronę jednostki.
+- **Wzorzec sprawdzaj na wszystkich dostawach, nie na jednej.** Kontrola po całym `dostawy/`
+  pokazała dokładnie jeden taki wiersz załogi (`dostawa_1_3a.txt:625`) — pozostałe trafienia
+  to nagłówki dialogów OE, które nie są wierszami listy jednostek. Bez tego sprawdzenia
+  poprawka mogła objąć nagłówki redakcyjne.
+- **Narzędzie i treść poprawiaj jednym krokiem, z testem regresyjnym.** Sama zmiana danych
+  (usunięcie strony) uruchamia `brakStrony` w `przypisaniaDostaw`, bo dostawa ma też sekcję
+  pilota o tej nazwie; rekord bez osoby musi być rozliczany przez stronę jednostki w obu
+  raportach.
+- **Opis z podtytułem wymaga źródła przy informacji.** Nazwa „Hard Fall Kaiju” i jej znaczenie
+  weszły do bloku `{{zrodlo}}` na stronie kaiju — bez linku przy zdaniu test integralności
+  odrzuca zadeklarowany adres (L23).
