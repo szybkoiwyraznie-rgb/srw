@@ -458,3 +458,22 @@ Zasady:
   Regex `/undefined|null/` w quick-menu dopasował `null` wewnątrz sluga postaci
   `albatro-null-eiji-asuka` w atrybucie `href`. Sprawdzaj tekst pozycji `>\s*(undefined|null)\s*<`
   oraz atrybut `data-cel="(undefined|null)"`.
+
+## L33 — Blok źródła bez nagłówka wypada z testów nawigacji scen (2026-11-20)
+
+Scena 3-5 dostała blok `{{zrodlo}}` z dwoma akapitami nawiązań, ale bez nagłówka
+`## Nawiązania do oryginalnych odcinków` i bez zdania „Wydarzenia z tej sceny…”.
+`test/nawiazania-scen.test.js` zbierał wyłącznie sceny zawierające ten nagłówek, więc nowy
+blok w ogóle nie trafił pod kontrolę: testy były zielone, build poprawny, a sekcja nie
+pojawiła się w spisie sceny. Dopiero audyt porównujący scenę z wzorcem pozostałych scen
+pokazał brak.
+
+Zasady:
+
+- **Każdy blok `{{zrodlo}}` w scenie zaczyna się sekcją `## Nawiązania do oryginalnych
+  odcinków` i zdaniem wiążącym wydarzenia z odcinkiem.** To nie ozdoba: bez nagłówka
+  renderer nie zbuduje osobnej sekcji, a testy nawigacji nie widzą treści.
+- **Test zbierający po nagłówku musi dodatkowo sprawdzać, że blok źródła ma nagłówek.**
+  Inaczej nowy plik omija kontrolę, zamiast ją oblewać (L15).
+- **Porównuj nową scenę ze sceną wzorcową, nie tylko z listą testów.** Zielony `npm test`
+  nie dowodzi, że wszystkie sekcje sceny są na miejscu.
