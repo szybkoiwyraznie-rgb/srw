@@ -7,12 +7,19 @@ seria: macross-frontier
 gry: [srw-oe]
 mechy: [macross-quarter, macross-quarter-attack-mode]
 pochodzenie: skrypt
+zrodla:
+  - https://macross.fandom.com/wiki/Catherine_Glass
 tagi: [macross, frontier, podpilot, wsparcie]
 utworzono: 2026-11-19
 ---
 {{skrypt gra=srw-oe
 
 Załoga [[macross-quarter|Macross Quartera]]. W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] eskadra i okręt wchodzą do walki razem, a po odparciu ataku kapitan [[jeffrey-wilder|Jeffrey]] rozkazuje wszystkim jednostkom lądować na pokładzie.
+}}
+
+{{zrodlo gra=wspolne
+
+W *Macross Frontier* Catherine Glass jest porucznikiem kwatery głównej New United Nations Spacy oraz oficerem mostka Macross Quartera w S.M.S. Jest córką prezydenta Frontier, Howarda Glassa, i byłą uczestniczką konkursu piękności, która chce udowodnić, że nie jest tylko córką prezydenta ([Macross Wiki, „Catherine Glass”](https://macross.fandom.com/wiki/Catherine_Glass); sprawdzono 2026-11-20).
 }}
 
 {{menu gra=srw-oe

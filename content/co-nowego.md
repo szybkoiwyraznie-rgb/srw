@@ -1,5 +1,12 @@
 # Co nowego
 
+## 2026-11-20 22:35
+
+- [[bobby-margot|Bobby Margot]] z [[macross-quarter|Macross Quartera]] jest sternikiem w firmie S.M.S.; na mostku chętnie śpiewa karaoke i doradza załodze w sprawach sercowych.
+- [[catherine-glass|Catherine Glass]] to porucznik kwatery głównej New United Nations Spacy i oficer mostka Macross Quartera, córka prezydenta Frontier, Howarda Glassa; chce udowodnić, że nie jest tylko córką prezydenta.
+- [[daljan|Daljan]] to gradosiański SPT typu Multiple Form MF-DJ-91U, maszyna dowódcza o wysokości 11,55 m, masie 18,34 t i pancerzu 13,5 cm.
+- Okręty emigracyjne klasy New Macross powstawały od 2030 roku, zastąpiły klasę Megaroad i mogą pomieścić około 350 tys. ludzi; składają się z wojskowego lotniskowca klasy Battle i cywilnego miasta w kopule klasy City.
+
 ## 2026-11-20 22:10
 
 - [[stacja-mars|Stacja Mars]] leży w sektorze Marsa, a nie na samej planecie; wiązka naprowadzająca prowadzi do niej [[white-base|White Base]]. [[albatro-null-eiji-asuka|Eiji Asuka]] w armii [[grados|Gradosu]] występuje jako Albatro Null.
