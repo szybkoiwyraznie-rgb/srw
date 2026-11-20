@@ -405,3 +405,38 @@ Zasady:
   i powiązań, nie cytatu.
 - **Rola zbiorowa nie dostaje strony, ale zostaje w obsadzie skryptu.** `Obywatel` nie jest
   wpisem w `postacie` sceny — inaczej powstałaby pseudoosoba bez imienia (ADR 0013).
+
+## L30 — Etapy o tym samym tytule w jednej misji mylą wycinanie skryptu (2026-11-19)
+
+W dostawie 3-5 dwie sceny noszą nagłówek `### White Base / Mostek`. Wycinanie etapów
+po samym tytule (`find(x => x.startsWith('### White Base / Mostek'))`) podstawiło pod drugi
+etap pierwszy — a test wierności tego nie wykrył, bo porównuje tylko **pierwszy** blok
+`:::skrypt` (intro), nie całość. Skrypt sceny rozjechał się z archiwum dopiero przy ręcznym
+porównaniu `normalizujTekst` całości.
+
+Zasady:
+
+- **Etapy bierz w kolejności wystąpienia, nie po tytule.** Przy podziale archiwum na bloki
+  iteruj linie i tnij na każdym `### `, zachowując kolejność; nie mapuj tytułów na listę.
+- **Po każdej scenie porównaj całość, nie tylko pierwszy blok.** Dodatkowa asercja
+  `normalizujTekst(bloki.join('\n')) === normalizujTekst(skrypt)` chroni przed cichym
+  zgubieniem albo zdublowaniem etapu (test `epizod-3-misja-5`).
+- **Powtórzony tytuł musi mieć osobne mapowanie w `sekcje_analizy`.** Liczba par musi
+  równać się liczbie unikalnych wystąpień, inaczej build zgłasza brak mapowania.
+
+## L31 — Blok `{{zrodlo}}` w scenie to osobny boks, nie podsekcja analizy (2026-11-19)
+
+W scenach z nawiązaniami `{{zrodlo}}` otwiera się **po zamknięciu** bloku `{{skrypt}}`
+z analizą i ma własny nagłówek `## Nawiązania do oryginalnych odcinków`; tabela Wątków
+wraca do nowego bloku `{{skrypt}}`. Wstawienie `{{zrodlo}}` w środku analizy kończy się
+komunikatami „zagnieżdżony blok” i „niezamknięty blok”.
+
+Zasady:
+
+- **Nie umieszczaj nagłówków `###` w boksie `{{zrodlo}}`** — walidator `sekcje_analizy`
+  traktuje każdy `###` w sekcji „Analiza” jako podsekcję i żąda dla niej pary. Dziel
+  nawiązania akapitami z pogrubionym wstępem (`**Layzner — …**`).
+- **Każdy URL z frontmattera `zrodla` musi stać w treści** — inaczej `integralnosc.test.js`
+  zgłasza źródło bez pokrycia. Dotyczy to także stron serii.
+- **Data `sprawdzono` przy cytowanym źródle idzie zgodnie z dniem sprawdzenia**, a nie
+  z dniem edycji pliku.

@@ -5,10 +5,10 @@ tytul: Epizod 3
 gra: srw-oe
 numer: 3
 skrypt: episodes/srw-oe/ep003.md
-postacie: [control-ai, bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, seishiro, himari-yaegaki, go, kei, gai, koji-kabuto, shinobu-fujiwara, sara-yuki, ryo-shiba, masato-shikibu, alan-igor, shiro-amada, noa-izumi, amuro-ray, garma-zabi, char-aznable, mquve, uragan, oficer-zeonu, zolnierz-zeonu, gaia, mash, ortega, setsuna-f-seiei, heero-yuy, sayla-mass, michel-ninorich, isao-ota, kanuka-clancy, asuka-tsukishiro, jin-hyuga, maria-shiratori, kiichi-goto, asuma-shinohara, mikiyasu-shinshi, invader, suol, gihren-zabi, kycilia-zabi, seitaro-sakaki, shigeo-shiba, hiromi-yamazaki, shinohara-hos, sergeant-keroro, kai-shiden, kamina, simon, terry-sanders-jr, pilot-ms]
-mechy: [exart, final-dancouga, mazinger-z, shin-getter-1, white-base, rx-78-2-gundam, guncannon, gundam-exia, wing-gundam-zero-nb, wing-gundam-zero, dom, gelgoog, gelgoog-char, rick-dom, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, zanzibar, invader-air, invader-ground, metal-beast-muszla, ingram-nr-1, ingram-nr-2, keroro-robo-mk-ii, brocken, brocken-dzialko-automatyczne]
-pojecia: [connect-force, cyber-beast-force, 13-samodzielny-oddzial, black-tri-stars, zeon, earth-federation, mobile-suit, newtype, krzyz-zeonu, uc-0079, universal-century, sily-samoobrony-japonii, cyber-newtype, sily-kolonii, invaderzy, labor, sv2, minovsky-particles, stacja-mars]
-serie: [sgt-frog]
+postacie: [control-ai, bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, seishiro, himari-yaegaki, go, kei, gai, koji-kabuto, shinobu-fujiwara, sara-yuki, ryo-shiba, masato-shikibu, alan-igor, shiro-amada, noa-izumi, amuro-ray, garma-zabi, char-aznable, mquve, uragan, oficer-zeonu, zolnierz-zeonu, gaia, mash, ortega, setsuna-f-seiei, heero-yuy, sayla-mass, michel-ninorich, isao-ota, kanuka-clancy, asuka-tsukishiro, jin-hyuga, maria-shiratori, kiichi-goto, asuma-shinohara, mikiyasu-shinshi, invader, suol, gihren-zabi, kycilia-zabi, seitaro-sakaki, shigeo-shiba, hiromi-yamazaki, shinohara-hos, sergeant-keroro, kai-shiden, kamina, simon, terry-sanders-jr, pilot-ms, karen-joshua, masaki-andoh, albatro-null-eiji-asuka, gosterro, alto-saotome, michael-blanc, luca-angeloni, jeffrey-wilder, catherine-glass, bobby-margot, oficer-federacji, zolnierz-federacji, zolnierz-gradosu]
+mechy: [exart, final-dancouga, mazinger-z, shin-getter-1, white-base, rx-78-2-gundam, guncannon, gundam-exia, wing-gundam-zero-nb, wing-gundam-zero, dom, gelgoog, gelgoog-char, rick-dom, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, zanzibar, invader-air, invader-ground, metal-beast-muszla, ingram-nr-1, ingram-nr-2, keroro-robo-mk-ii, brocken, brocken-dzialko-automatyczne, enh-layzner, braver, daljan, macross-quarter, vf-25f-messiah, vf-25g-messiah, rvf-25-messiah, cybuster]
+pojecia: [connect-force, cyber-beast-force, 13-samodzielny-oddzial, black-tri-stars, zeon, earth-federation, mobile-suit, newtype, krzyz-zeonu, uc-0079, universal-century, sily-samoobrony-japonii, cyber-newtype, sily-kolonii, invaderzy, labor, sv2, minovsky-particles, stacja-mars, brama-warp, ark-ship, grados, eskadra-skull]
+serie: [sgt-frog, blue-comet-spt-layzner, macross-frontier]
 pochodzenie: skrypt
 tagi: [srw-oe, universal-century, connect, zeon, gundam, zimna-wyspa]
 utworzono: 2026-11-13
@@ -50,6 +50,16 @@ Na kolonii kosmicznej Connect Force i SV2 badają szalejące Labory, w tym przyp
 Okręt wchodzi do portu wydrążonego w asteroidzie i staje naprzeciw większej liczby [[mobile-suit|mobile suitów]], niż ktokolwiek się spodziewał. W walce załoga przekonuje się, że naprzeciw niej stają nie zwykli przestępcy, lecz ludzie, dla których piractwo jest ostatnim sposobem na przeżycie. Patrol z sąsiedniego sektora przejmuje aresztowania, a [[white-base|White Base]] wraca na kurs.
 
 Na mostku [[seishiro|Seishiro]] pyta, dlaczego w bazie było tak wielu byłych żołnierzy [[zeon|Zeonu]]. [[terry-sanders-jr|Sanders]] i [[michel-ninorich|Michel]] tłumaczą, że po dezercji nie zostaje im nic innego: niewola u Federacji albo ciężkie przestępstwo w ojczyźnie, a [[alan-igor|Alan]] i [[ryo-shiba|Ryo]] wskazują na syndykat, który w zamian za pomoc czerpie z nich zyski i nie pozwala odejść. Zajęta baza zapoczątkowuje szybkie śledztwo w sprawie finansowania piratów, a [[himari-yaegaki|Himari]] zostaje nad notatkami o bramach warp i [[stacja-mars|Stacji Mars]], do których ma teraz szerszy dostęp jako pilotka [[exart|Exarta]].
+
+### [[srw-oe-ep3-napasc-na-baze-marsjanska|Misja 5: Napaść na bazę marsjańską]]
+
+[[white-base|White Base]] zbliża się do siedziby [[connect-force|Connect]] w Układzie Słonecznym, prowadzona wiązką naprowadzającą ze [[stacja-mars|Stacji Mars]]. Po drodze [[seishiro|Seishiro]] tłumaczy [[himari-yaegaki|Himari]], jak działa [[brama-warp|brama warp]]: urządzenie odtwarza zdolność [[mucus|Mucus]] do przenoszenia się między czasoprzestrzeniami, celu nie da się zmieniać dowolnie, a przez przekrój przeprowadza tylko [[ark-ship|Ark Ship]]. Nagrania pokazują statek-kontener i pierścień warp wielkości kolonii kosmicznej.
+
+Zamiast przybycia na stację mostek odbiera wezwanie pomocy: baza naziemna na Marsie, podległa jurysdykcji Connect, jest atakowana przez niezidentyfikowane maszyny. [[oficer-federacji|Oficer Federacji]] broni jej resztkami sił, a [[gosterro|Gosterro]] rozkazuje zrównać wszystko z ziemią. Wtedy nad bazą pojawia się [[enh-layzner|Enhanced Layzner]] [[albatro-null-eiji-asuka|Eijiego Asuki]] — nieznana maszyna, którą obsługa bierze najpierw za drugi rzut wroga.
+
+Pomocy udziela [[eskadra-skull|Eskadra Skull]]: pierwszy strzał [[alto-saotome|Alta]] ratuje Eijiego, a [[luca-angeloni|Luca]] rozpoznaje, że niebieska maszyna nie jest wroga. Eiji przedstawia się jako przybysz z [[grados|Gradosu]], który chce ostrzec Ziemię — Luca od razu wnioskuje, że musiał zdezerterować. [[macross-quarter|Macross Quarter]] [[jeffrey-wilder|Jeffreya]] wchodzi do walki i ostrzałem odrzuca [[daljan|Daljana]]; Gosterro wycofuje się z pogróżką pod adresem Eijiego, a kapitan każe lądować.
+
+Na [[stacja-mars|Stacji Mars]] Eiji wyjawia, że Grados zamierza podbić Ziemię, a w jego żyłach płynie w połowie krew Ziemian. Na odprawie [[suol|szef Suol]] przyjmuje go do oddziału i zapowiada powstrzymanie agresji rządu Gradosu; Macross Quarter i Eskadra Skull wchodzą w skład floty Connect Force razem z White Base.
 
 ## Wątki fabularne
 

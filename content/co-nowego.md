@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-19 22:10
+
+- Baza Federacji na Marsie broni się przed [[braver|Braverami]] i [[daljan|Daljanem]] [[gosterro|Gosterra]] do chwili, gdy nad jej dachem pojawia się [[enh-layzner|Enhanced Layzner]] [[albatro-null-eiji-asuka|Eijiego Asuki]] — dezertera z [[grados|Gradosu]], który przybywa ostrzec Ziemię przed inwazją. Pierwszy strzał [[alto-saotome|Alta]] ratuje go przed śmiercią, a [[luca-angeloni|Luca]] rozpoznaje w niebieskiej maszynie sojusznika.
+- [[macross-quarter|Macross Quarter]] [[jeffrey-wilder|Jeffreya Wildera]] wchodzi do walki i ostrzałem odrzuca [[daljan|Daljana]]; po bitwie flota Frontier, z [[eskadra-skull|Eskadrą Skull]] i załogą mostka, wstępuje do [[connect-force|Connect Force]] razem z [[white-base|White Base]].
+- [[suol|Szef Suol]] przyjmuje [[albatro-null-eiji-asuka|Eijiego]] do oddziału, bo chce powstrzymać agresję rządu [[grados|Gradosu]] i zawrzeć pokój — Eiji wyjawia przy tym, że w jego żyłach płynie w połowie krew Ziemian.
+
 ## 2026-11-19 21:20
 
 - [[show-kamui|Kamui]] wypytuje w sali odpraw o cel [[a-advent|A. Adventu]] i naciska [[annina-servania|Anninę]] w sprawie [[tetsuro-yagami|doktora Yagamiego]] — mówi też wprost, że kosmos go nie interesuje, bo ma coś do zrobienia na Ziemi.

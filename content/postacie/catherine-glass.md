@@ -1,0 +1,28 @@
+---
+typ: postac
+slug: catherine-glass
+tytul: Catherine Glass
+rola: wsparcie
+seria: macross-frontier
+gry: [srw-oe]
+mechy: [macross-quarter]
+pochodzenie: skrypt
+tagi: [macross, frontier, podpilot, wsparcie]
+utworzono: 2026-11-19
+---
+{{skrypt gra=srw-oe
+
+Załoga [[macross-quarter|Macross Quartera]]. W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] eskadra i okręt wchodzą do walki razem, a po odparciu ataku kapitan [[jeffrey-wilder|Jeffrey]] rozkazuje wszystkim jednostkom lądować na pokładzie.
+}}
+
+{{menu gra=srw-oe
+
+## Parametry
+
+### Komendy Ducha
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                     |
+| ---: | ------------- | ---------: | -------: | ------------------------------------------------ |
+|    1 | **Zauf.**     |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
+|    2 | **Skupienie** |          6 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%     |
+}}

@@ -1,0 +1,1290 @@
+---
+SKRYPT
+---
+
+## Napaść na bazę marsjańską
+
+Stacja kosmiczna w sektorze Marsa. Tu Connect miał główną siedzibę Układu Słonecznego.
+
+Kolonie na Księżycu i na orbicie geostacjonarnej rozkwitały, lecz odległy i trudno osiągalny z Ziemi Mars był przez Federację zaniedbany.
+
+Chcąc uniknąć ingerencji z zewnątrz, Connect wybrał na swoją siedzibę niezagospodarowany Mars.
+
+Zbudowano tam gigantyczną bramę warp, umożliwiającą podróże do innych wszechświatów.
+
+A teraz zmierzała tam flota Connect Force pod przewodnictwem okrętu flagowego White Base.
+
+### White Base / Mostek
+
+**Himari:** Hmm... Rozumiem. Więc tak to działa.
+**Fraw:** Ale z ciebie pilna uczennica, Himari.
+**Himari:** Ach, przepraszam, Fraw. Zajęłam ci miejsce.
+**Fraw:** Nie szkodzi. Ten terminal jest wygodny, prawda?
+**Himari:** Tak! Twoje ustawienia są strasznie wygodne.
+**Himari:** Pokażesz mi kiedyś, jak ustawić mój?
+**Fraw:** Jasne. Z przyjemnością.
+**Sara:** Niedługo dotrzemy do siedziby Connect.
+**Alan:** Ściśle mówiąc, do siedziby Układu Słonecznego.
+**Masato:** Naprawdę, Himari?
+**Himari:** Ach, na to wygląda. Główna siedziba jest gdzie indziej.
+**Kei:** Ojej, ale ten Connect jest potężny.
+**Himari:** Wciąż nie wiem, jak duża jest firma, w której pracuję... Co to o mnie mówi?
+**Ryo:** Czyli jedyny, kto to tu wie, to Seishiro.
+**Masato:** A właśnie, gdzie jest Seishiro?
+**Himari:** Trenuje. Pewnie jest na siłowni.
+**Shinobu Fujiwara:** Woli siłownię niż swoją uroczą podopieczną? Ale z niego stoik.
+**Himari:** No, zaprasza mnie, ale wolałabym nie skończyć z wielkimi mięśniami...
+**Sara:** No właśnie. Ale jesteście partnerami, więc dotrzymuj mu czasem towarzystwa.
+**Himari:** Gdyby tylko "czasem" wystarczało...
+**Seishiro:** Himari, tu jesteś. Ucz się, ile chcesz, ale nie przeszkadzaj w pracy.
+**Himari:** Ach, tak jest!
+**Sara:** O wilku mowa...
+**Seishiro:** Hm...?
+**Himari:** Już skończyłeś trening?
+**Seishiro:** Tak, dziś skończyłem wcześniej. Niedługo dotrzemy do sektora Marsa.
+**Shiro:** Właśnie. Zaraz zrobi się gorąco.
+**Michel Ninorich:** O, dowódco, pan też trenował?
+**Shiro:** Tak, Seishiro uczył mnie władania mieczem. Pomyślałem, że przyda się w walce mobile suitów.
+**Shinobu Fujiwara:** Ach tak. Czyli to nie było pakowanie.
+**Alan:** Seishiro, podobno znasz japońską szermierkę?
+**Seishiro:** Nauczył mnie ojciec. To własna szkoła rodu Kusanagi.
+**Seishiro:** Choć do mistrzostwa wciąż mi daleko...
+**Bright:** Mirai, w tym tempie dotrzemy znacznie przed czasem.
+**Mirai:** Tak. Więc dzięki szlakom handlowym Connect podróż na Marsa jest aż tak krótka.
+**Oscar:** Wiązka naprowadzająca ze stacji przyspiesza okręt.
+**Marker:** Wiązka naprowadzająca ze Stacji Mars jest coraz silniejsza, więc jeszcze przyspieszymy.
+**Shinshi:** Nie sądziłem, że na Marsa dotrę jak na delegację samolotem za granicę...
+**Kanuka:** Tak by to odczuł ktoś, kto mieszka w Japonii.
+**Goto:** No, kolonie kosmiczne może są teraz blisko, ale do Marsa jest kawał drogi, i to jaki.
+**Izumi:** Stacja kosmiczna przy Marsie... Nie do wyobrażenia.
+**Shinohara:** Myślałem, że jesteśmy zwykłymi urzędnikami. Jak wpakowaliśmy się w coś tak wielkiego?
+**Ota:** Jak mnie oddelegowali do Connect Force, myślałem, że to zesłanie.
+**Karen:** Zesłanie na Marsa? To już przesada.
+**Seishiro:** Kiedyś nawet Mars będzie się wydawał blisko. Od teraz polecimy znacznie dalej.
+
+### Brama nadprzestrzenna
+
+**Himari:** Ach, słuchaj! Chciałam cię o coś zapytać!
+**Himari:** Czytałam, że brama warp, do której lecimy, łączy się z inną czasoprzestrzenią. Czy warp nie polega po prostu na przeskoczeniu odległości?
+**Seishiro:** Tak, zgadza się.
+**Seishiro:** Bramy warp zarządzane przez Connect to urządzenia sztucznie odtwarzające cechę Mucus. Po drugiej stronie nie zawsze jest nasz wszechświat.
+**Shige:** Można trafić do innego wszechświata?! No to ci dopiero maszynka!
+**Himari:** To czy nie dałoby się odesłać ludzi z innych światów tam, skąd przyszli?
+**Seishiro:** Nie, to nie takie proste.
+**Seishiro:** Nie można dowolnie zmieniać celu, a użycie wymaga ogromnej ilości energii. Do przejścia trzeba też specjalnego statku.
+**Seishiro:** Mam materiały filmowe. Zobaczmy na monitorze.
+
+### Nagranie: Ark Ship
+
+**Himari:** Ten statek-kontener nazywa się "Ark Ship", prawda?
+**Seishiro:** Zgadza się. Chroniona polem Ark Shipa materia może przejść nietknięta przez przekrój czasoprzestrzeni.
+**Amuro:** Niesamowite. Nie sądziłem, że technologia zaszła tak daleko... Jak duże są mniej więcej te urządzenia?
+**Seishiro:** Niech pomyślę...
+
+### Nagranie: Warp Ring
+
+**Seishiro:** Największe urządzenie to ten pierścień warp. Wyobraźcie sobie coś wielkości kolonii kosmicznej.
+**Shinobu Fujiwara:** No, to jest wielkie!
+**Himari:** Pewnie jest taki wielki, bo jest wypełniony marzeniami i nadzieją...
+
+### White Base / Mostek
+
+**Masato:** Himari, podobno nie możesz się doczekać warpu?
+**Himari:** Tak! Przecież warp to marzenie ludzkości!
+**Himari:** Jak sobie wyobrażę, że naprawdę przejdę przez warp, to aż... cała płonę!
+**Shige:** Rozumiem! Doskonale cię rozumiem! Warp to jest coś!
+**Himari:** No właśnie!
+**Masato:** Co jest?
+**Himari:** Hm? Już jesteśmy przy stacji?
+**Seishiro:** Ten alarm nie oznacza przybycia.
+**Himari:** Przepraszam... Za bardzo się rozmarzyłam o warpie.
+
+### SOS z bazy na Marsie
+
+**Fraw:** Skompresowana transmisja ze Stacji Mars. Rozpakowuję.
+**Szef Suol:** Właśnie otrzymaliśmy wezwanie SOS z bazy naziemnej na Marsie.
+**Szef Suol:** Baza na Marsie jest najwyraźniej atakowana przez niezidentyfikowane maszyny bojowe.
+**Szef Suol:** Zmieńcie kurs i spieszcie do bazy naziemnej! My też wyślemy posiłki. To wszystko!
+**Bright:** SOS z bazy na Marsie?
+**Seishiro:** Baza naziemna na Marsie należy do Federacji, ale siły Federacji są tam skromne...
+**Seishiro:** Jeśli atakują ją mobile suity, nie wyobrażam sobie, żeby się utrzymała...
+**Bright:** Ale Mars podlega teraz jurysdykcji Connect. Prawo międzynarodowe zabrania tu walk. Czy ktoś naprawdę śmiałby go zaatakować?
+**Alan:** Pozostaje tylko polecieć i sprawdzić. Gdy tylko przebijemy się przez atmosferę, wysyłamy jednostki i pędzimy na miejsce.
+
+### Baza naziemna na Marsie
+
+**Oficer Federacji:** Ngh... Jak wygląda sytuacja?!
+**Żołnierz Federacji:** Wróg ma niewiarygodną zwrotność i siłę ognia! Myśliwce i wozy przeciwlotnicze rozbite!
+**Gosterro:** Hahahaha, tak jest, tak! Rozwalić wszystko w drobny mak!
+**Żołnierz Federacji:** Uaaaaach! Jeśli tak dalej pójdzie, baza zostanie zniszczona!
+**Oficer Federacji:** Cholera, co za koszmar! Gdzie te posiłki?!
+**Eiji:** Przestaaań!
+**Żołnierz Federacji:** Pojawił się jeszcze jeden!
+**Oficer Federacji:** Posiłki wroga?!
+**Eiji:** Gosterro, przestań natychmiast!
+**Gosterro:** Niech cię, Eiji! Jak na marnego zdrajcę, za bardzo się rozbrykałeś!
+**Oficer Federacji:** Zaatakował swoich... Rozłam w szeregach?
+**Żołnierz Federacji:** Ta maszyna przesyła nam wiadomość.
+**Eiji:** Tu Albatro Null Eiji Asuka. Nie jestem waszym wrogiem!
+**Oficer Federacji:** Ale twoja maszyna jest niezidentyfikowana. Kim właściwie jesteś?
+**Eiji:** Porozmawiamy później! Teraz będę bronił bazy!
+**Oficer Federacji:** ...Dobrze. Liczymy na ciebie.
+**Gosterro:** Cholera! Eiji... Zmiażdżę cię!
+
+**Eiji:** Cholera, jeśli tak dalej pójdzie, baza Ziemian zostanie zniszczona!
+**Gosterro:** He-he-he! Wciąż taki miękki, co, Eiji?!
+**Gosterro:** No dalej, zabij mnie wreszcie! Hiaaaha-ha-ha-ha-ha!
+**Eiji:** Jeśli tak dalej pójdzie...
+
+### Eskadra Skull
+
+**Gosterro:** Uoch?!
+**Alto:** Nie pozwolę!
+**Gosterro:** Cholera jasna, kto to był?! Kto do mnie strzelił?!
+**Alto:** Eskadra Skull, wspieramy bazę na Marsie!
+**Eiji:** Co to?! Sojusznicy z Ziemi?
+**Michael Blanc:** Alto, za bardzo się wysuwasz! Pomyśl o tym, kto cię osłania, no naprawdę.
+**Luca:** Alto, transmisja z bazy na Marsie. Ta niebieska maszyna nie jest wroga.
+**Eiji:** Słyszycie mnie? Mam na imię Eiji. Nie jestem wrogiem.
+**Alto:** Tu Alto z Eskadry Skull. Twoja maszyna wygląda bardzo podobnie do ich...?
+**Eiji:** To SPT, maszyny armii Gradosu. Przybyłem z Gradosu, by ostrzec Ziemię.
+**Michael Blanc:** Zagrożenie dla Ziemi? Kim on jest...?
+**Luca:** Czy to nie znaczy, że zdezerterował z armii Gradosu?
+**Gosterro:** Aaaaach, ale z was gaduły! Zmiażdżę was wszystkich naraz!
+**Alto:** Chyba nie ma czasu na pogawędki!
+**Luca:** Teraz najważniejsza jest obrona bazy!
+**Michael Blanc:** Zgadzam się!
+**Eiji:** Ta maszyna... Uważajcie na Gosterra! To okrutny i brutalny człowiek!
+**Alto:** Zrozumiałem!
+
+### Gosterro walczy dalej
+
+**Gosterro:** Cholera, przegrać z takimi?!
+**Luca:** Ta maszyna... wciąż może walczyć?
+**Alto:** Ale uparty!
+**Eiji:** Gosterro, wycofaj się! I przekonaj armię Gradosu, by całkowicie wycofała się z tego układu słonecznego!
+**Gosterro:** Zamknij się! Zdrajca będzie mi wydawał rozkazy?!
+**Gosterro:** Eiji, nie dam ci zginąć łatwo. Wywlokę cię z kokpitu i zmiażdżę!
+**Alto:** Posiłki!
+**Michael Blanc:** Ciężko, kiedy nie wiadomo, ilu ich jest...
+**Gosterro:** He-he-he, teraz zaczyna się prawdziwa walka!
+**Eiji:** Ngh... Drugi rzut. W takim razie muszę uderzyć w okręt Gradosu...
+**Gosterro:** Haaaha-ha-ha! No dalej, zabawmy się powoli. Prawda, Eijiii?!
+
+### Przybycie Connect Force
+
+**Seishiro:** Tu Seishiro z Connect Force! Przybyliśmy na odsiecz bazie!
+**Eiji:** Kto to?
+**Luca:** Nowa maszyna Connect Force. To sojusznicy!
+**Alto:** Tu Eskadra Skull. My też zostaliśmy przydzieleni do Connect Force.
+**Himari:** Miło was poznać, Eskadro Skull!
+**Luca:** Mieliśmy się spotkać dopiero na stacji.
+**Michael Blanc:** Zobaczmy, co potrafią.
+**Alto:** Wrogiem jest armia Gradosu. Ty pewnie coś o nich wiesz, Seishiro?
+**Seishiro:** Tak... Choć nie spodziewałem się ich na Marsie.
+**Eiji:** Wyjaśnię później. Teraz musimy odeprzeć armię Gradosu!
+**Seishiro:** Więc jesteś po naszej stronie...
+**Seishiro:** Zrozumiałem! Razem odeprzyjmy armię Gradosu!
+**Gosterro:** Connect Force? Czyli naprawdę mieszają się w sprawy Ziemi.
+**Gosterro:** Nieważne... Ilu by was nie było, zmiażdżę was!
+
+**Eiji:** Przestań, Gosterro! Inwazja Gradosu na Ziemię to błąd!
+**Eiji:** Ziemianie to też ludzie! Możemy się porozumieć!
+**Gosterro:** Stul pysk, zdrajco Gradosu! Jak trzymasz stronę ziemskich małp, to zdechniesz tu razem z nimi!
+**Eiji:** Ngh! To przez takich jak ty...!
+
+**Alto:** Więc to jest SPT armii Gradosu...! Pierwsze starcie, ale jak go wymanewruję...!
+**Gosterro:** Ho, nieźle jak na maszynę małp.
+
+**Gosterro:** Maszyna małpy lata? A to bezczelność! Ge-he-he...! Wyrwę ci te skrzydła i będziesz się żałośnie tarzał po ziemi!
+**Masaki:** Heh, spróbuj tą swoją maszynką, jeśli dasz radę! Posmakuj mocy Masoukishina!
+
+**Seishiro:** Jeśli podejdziemy do tego właściwie, Exart powinien sobie z nimi poradzić!
+**Seishiro:** Himari, gotowa?
+**Himari:** Tak!
+**Gosterro:** Uczycie się na polu bitwy, co? Jak was rozwalą przez te popisy, to bez płaczu mi tu!
+
+### Macross Quarter
+
+**Gosterro:** Gyh...!
+**Eiji:** Gosterro, poddaj się!
+**Gosterro:** Zamknij się, Eiji! Nie ma mowy, żebym przegrał z takimi jak wy!
+**Seishiro:** On wciąż nie zamierza się wycofać...
+**Himari:** Patrz!
+**Seishiro:** Hm? To...
+**Gosterro:** Wrogi okręt?!
+**Alto:** Macross Quarter, przylecieliście.
+**Jeffrey:** Rozpocząć atak! Odeprzeć wrogie maszyny bojowe!
+**Gosterro:** Nnngwoooooch!
+**Gosterro:** Tch, pionki Connect... Nieźli są...!
+**Gosterro:** Eiji, zapamiętaj to sobie! Następnym razem na pewno cię wykończę!
+**Eiji:** Nieważne, ile razy wróci, obronię ją.
+**Michael Blanc:** Alto, nie ruszasz za nim w pościg?
+**Alto:** Nie. Dopóki nie znamy sił wroga, pościg jest zbyt niebezpieczny.
+**Luca:** No nie, Michel! Przestań w kółko traktować dowódcę Alto jak żółtodzioba i się z nim drażnić!
+**Alto:** Michel... Ty mnie sprawdzałeś!
+**Michael Blanc:** Ha-ha-ha. Sorki, sorki.
+**Jeffrey:** Wam wszystkim brak czujności. Eskadra Skull i Connect Force, wszystkie jednostki lądować na okręcie!
+**Seishiro:** Przyjąłem!
+**Jeffrey:** I jeszcze ty, Eiji. Wylądujesz u nas na pokładzie?
+**Eiji:** Oczywiście! Dziękuję za zgodę na lądowanie.
+
+### Connect / Stacja Mars
+
+**Bright:** ...Czyli przybyłeś sam z Gradosu, żeby ostrzec nas przed niebezpieczeństwem?
+**Eiji:** Ziemia jest celem ataku.
+**Eiji:** Grados zamierza podbić Ziemię i zrobić z niej kolonię.
+**Eiji:** Chcę to powstrzymać, za wszelką cenę!
+**Shiro:** Dlaczego posuwasz się aż tak daleko? Odejście z armii wymaga chyba sporej odwagi?
+**Eiji:** Bo... w moich żyłach płynie w połowie krew Ziemian...
+**Alto:** Pół Ziemianin, pół Gradosjanin?
+**Seishiro:** Rozumiem... Więc Ziemia to twój drugi dom...
+
+### Sala odpraw
+
+**Szef Suol:** Hej! Wszyscy są?
+**Seishiro:** Tak, Szefie. Zebrali się tu jedni z najsilniejszych wojowników Ziemi!
+**Szef Suol:** Oto najsilniejszy oddział Układu Słonecznego. Dziękuję wam wszystkim za współpracę!
+**Szef Suol:** No to od razu przedstawię. Kapitan Jeffrey, dowódca Macrossa Quartera.
+**Jeffrey:** W imieniu układu Frontier Macross Quarter i Eskadra Skull będą działać w ramach Connect Force.
+**Jeffrey:** Odtąd będziemy tworzyć flotę razem z White Base. Liczę na owocną współpracę.
+**Bright:** Z wzajemnością, panie kapitanie. To zaszczyt.
+**Jeffrey:** Heh... Ciągle się nam drogi krzyżują, Szefie.
+**Seishiro:** Znaliście się już wcześniej?
+**Szef Suol:** Można tak powiedzieć. Pomaga nam, odkąd budowaliśmy bramę warp w układzie Frontier.
+**Szef Suol:** A tak przy okazji... Eiji, tak?
+**Eiji:** Tak.
+**Szef Suol:** Dzięki informacjom, które przyniosłeś, wiemy, co knuje Grados.
+**Szef Suol:** Czy nadal będziesz nam pomagał? Chcemy powstrzymać agresję obecnego rządu Gradosu i ostatecznie zawrzeć pokój.
+**Eiji:** Z przyjemnością.
+**Alan:** Szefie Suol, na Ziemi nikt nie wie nic o tym Gradosie, który się pojawił...
+**Szef Suol:** Grados to kolejna siła, z którą Connect ma kontakt. Ale obecnie nasze stosunki nie są przyjazne. W końcu planowali wkroczyć do Układu Słonecznego.
+**Szef Suol:** Jak pewnie już się domyśliliście, Connect ma powiązania z siłami w innych układach. Tak samo jak tutaj, w Sferze Ziemskiej.
+**Eiji:** Jeśli to możliwe, chciałbym walczyć razem z wami jako członek Connect Force.
+**Eiji:** Słyszałem, że Connect chce zjednoczyć ludzkość przeciw zagrożeniom z kosmosu. I że Connect Force to jego jednostka bojowa...
+**Szef Suol:** Oczywiście. Taki był mój zamiar. Przydadzą nam się też twoje umiejętności pilota.
+**Seishiro:** Witaj wśród nas, Eiji.
+
+Po odparciu SPT Gradosu, które zaatakowały bazę na Marsie, Connect Force zawinął do stacji.
+
+Tam do oddziału oficjalnie włączono duży okręt Macross Quarter oraz Eskadrę Skull.
+
+Dzięki temu siły głównego zgrupowania Connect Force znacznie urosły.
+
+Lecz jeśli zeznania Eijiego Asuki były prawdą, na wspólne ćwiczenia nie było czasu.
+
+Trzeba było jak najszybciej zniszczyć okręt-matkę awangardy armii Gradosu.
+
+---
+UCZESTNICY
+---
+
+
+### Odcinek 3 — Napaść na bazę marsjańską (`DL103_40`)
+
+**Źródło:** `eventP01.EDAT/DL103_40_Entry.dat`
+**Fale i moment wejścia:** nieokreślone w nocie misji; zależne od wyzwalaczy skryptu `.bin`.
+
+**Jednostki sojusznicze (gracza):**
+  - **Enhanced Layzner** — pilot główny: Albatro Null Eiji Asuka
+  - **Exart** — pilot główny: Seishiro Kusanagi — piloci wspierający w misji: Himari Yaegaki
+  - **Macross Quarter (forteca)** — pilot główny: Jeffrey Wilder — piloci wspierający w misji: Bobby Margot, Catherine Glass
+  - **RVF-25 Messiah/Fighter** — pilot główny: Luca Angeloni
+  - **VF-25F Messiah/Fighter** — pilot główny: Alto Saotome
+  - **VF-25G Messiah/Fighter** — pilot główny: Michael Blanc
+
+**Jednostki wrogie:**
+  - **Braver** — pilot główny: Żołnierz Gradosu — ×6 rekordów źródłowych Entry ID
+  - **Braver** — pilot główny: Żołnierz Gradosu — ×6 rekordów źródłowych Entry ID
+  - **Daljan** — pilot główny: Gosterro
+
+---
+
+#### Domyślne mechy i jednostki w misji (sekcje z `srwoe_mech_catalog_v4_PL.md`)
+
+## Braver
+
+**Seria:** Blue Comet SPT Layzner
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa        | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                |
+| ------: | ------------ | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------- |
+|       0 | Knuckle Shot |       1400 |  1–1   |       +50 |   0 |      — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole |
+|         |              |            |        |           |     |        |                 |   Zderzenie Obraż.500 Obraż. od upadku 1000             |
+|         |              |            |        |           |     |        |                 |   Ignoruje Osłonę; bez wsparcia                         |
+|       1 | Laserd Rifle |       1600 |  1–4   |       +20 |  10 |      — | Brak w tym polu | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%    |
+
+---
+
+## Daljan
+
+**Seria:** Blue Comet SPT Layzner
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                    | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                   |
+| ------: | ------------------------ | ---------: | :----: | --------: | --: | -----: | --------------- | -------------------------------------------------------------------------- |
+|       0 | Metalowy szpon           |       2500 |  1–2   |       +50 |   0 |      — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole                    |
+|         |                          |            |        |           |     |        |                 |   Zderzenie Obraż.500 Obraż. od upadku 1000                                |
+|         |                          |            |        |           |     |        |                 |   Ignoruje Osłonę; bez wsparcia                                            |
+|       1 | Laserd Gun               |       2300 |  1–4   |       +20 |   5 |      — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18%                                   |
+|         |                          |            |        |           |     |        |                 | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                       |
+|       2 | Laserd Buzzsaw/Przebicie |       2400 |  1–8   |       +25 |  30 |      — | Brak w tym polu | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej         |
+|         |                          |            |        |           |     |        |                 |   Bez kontry                                                               |
+|         |                          |            |        |           |     |        |                 |   Nie do wsparcia ani kontry                                               |
+|       3 | Laserd Buzzsaw           |       3700 |  1–3   |       +35 |  15 |      — | Brak w tym polu | **Wstrząs (poziom bazowy 1):** Obraż.600, 1 tura: Obr wroga-20% Szansa 30% |
+
+---
+
+## Enh. Layzner (Enhanced Layzner)
+
+**Seria:** Blue Comet SPT Layzner
+
+### Macierzyste zdolności maszyny
+
+- **Powidok (poziom bazowy 1):** Morale 130 lub więcej Szansa 20%  
+  W walce: po aktyw. pełny unik
+- **Rei (poziom bazowy 1):** Cel/Unik+3
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                |
+| ------: | -------------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ----------------------------------------------------------------------- |
+|       0 | Knuckle Shot         |       2800 |  1–2   |       +60 |   0 |      — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole                 |
+|         |                      |            |        |           |     |        |                 |   Zderzenie Obraż.500 Obraż. od upadku 1000                             |
+|         |                      |            |        |           |     |        |                 |   Ignoruje Osłonę; bez wsparcia                                         |
+|         |                      |            |        |           |     |        |                 | **Ucieczka (poziom bazowy 1):** Unik+18%                                |
+|       1 | Laserd Rifle (seria) |       2900 |  1–4   |       +40 |   5 |      — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu     |
+|         |                      |            |        |           |     |        |                 | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                    |
+|       2 | Calf Missile         |       2100 |  3–5   |       +20 |  10 |      — | Brak w tym polu | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód                 |
+|       3 | V-MAX/Przebicie      |       4000 |  1–9   |        +0 |  70 |    130 | Brak w tym polu | **Seria przebić (bez poziomu):** Atakuje wrogów w Zasięg, ruch o 2 pola |
+|         |                      |            |        |           |     |        |                 |   Bez kontry                                                            |
+|         |                      |            |        |           |     |        |                 |   Nie do wsparcia ani kontry                                            |
+|       4 | V-MAX                |       5200 |  1–3   |       +30 |  50 |    120 | Brak w tym polu | **V-MAX (poziom bazowy 1):** Obr/Unik+4%                                |
+
+---
+
+## Exart
+
+**Seria:** Super Robot Wars Original
+
+### Macierzyste zdolności maszyny
+
+- **Pole naprężeń (poziom bazowy 1):** Obr.: Obraż.-24%  
+  EN-5
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                 | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek              | Zdolności — opisy bazowe                                             |
+| ------: | --------------------- | ---------: | :----: | --------: | --: | -----: | -------------------- | -------------------------------------------------------------------- |
+|       0 | Multi Launcher        |       2000 |  1–5   |       +35 |   5 |      — | Brak w tym polu      | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód              |
+|         |                       |            |        |           |     |        |                      | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu  |
+|       1 | Raiko Blade           |       3300 |  1–1   |       +40 |   5 |      — | Brak w tym polu      | **Ucieczka (poziom bazowy 1):** Unik+18%                             |
+|       2 | Waver Gun             |       3000 |  1–4   |       +20 |  10 |      — | Brak w tym polu      | **Penetracja (poziom bazowy 1):** Obr-30%                            |
+|       3 | Raiko Blade/Przebicie |       2500 |  1–7   |        +5 |  30 |    105 | Brak w tym polu      | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej   |
+|         |                       |            |        |           |     |        |                      |   Bez kontry                                                         |
+|         |                       |            |        |           |     |        |                      |   Nie do wsparcia ani kontry                                         |
+|       4 | Excess Blast          |       4200 |  1–6   |       +10 |  40 |    120 | Brak w tym polu      | **Penetr. barier (poziom bazowy 1):** Obr wroga-20% Ignoruje bariery |
+|         |                       |            |        |           |     |        |                      | **Namiar (poziom bazowy 1):** Kryt+10%, Kryt Obraż.+20% bez Osłony   |
+|         |                       |            |        |           |     |        |                      |   (Ignoruje Osłonę)                                                  |
+
+---
+
+## M.Quarter/Fort (Macross Quarter (forteca))
+
+**Seria:** Macross Frontier
+
+### Macierzyste zdolności maszyny
+
+- **Transf. (bez poziomu):** Może się transf.  
+  (Macross Quarter Attack Mode)
+- **Okręt-matka (poziom bazowy 1):** Sojusznicy: przewóz i start  
+  HP/EN przewoż.+20%; SP/Morale pilota+2  
+  Odporn.: "Przebicie" "Pchnięcie" "Rzut"
+- **Bariera punktowa (poziom bazowy 1):** Trafiony: Po aktyw.: Obraż.-800 i Obraż.-16%  
+  Szansa 30%  
+  EN-5
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                                   | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek              | Zdolności — opisy bazowe                                                 |
+| ------: | --------------------------------------- | ---------: | :----: | --------: | --: | -----: | -------------------- | ------------------------------------------------------------------------ |
+|       0 | Ogień przeciwlotniczy                   |       2000 |  1–3   |       +25 |  40 |      — | Brak w tym polu      | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg                      |
+|         |                                         |            |        |           |     |        |                      |   Bez kontry                                                             |
+|         |                                         |            |        |           |     |        |                      |   Nie do wsparcia ani kontry                                             |
+|         |                                         |            |        |           |     |        |                      | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                     |
+|       1 | Ciężkie działo wiązkowe przeciwokrętowe |       3200 |  1–5   |       +30 |  20 |      — | Brak w tym polu      | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+|         |                                         |            |        |           |     |        |                      | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                     |
+|       2 | Macross Cannon                          |       4800 |  3–6   |        +0 |  60 |    120 | Brak w tym polu      | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+|         |                                         |            |        |           |     |        |                      | **Namiar (poziom bazowy 1):** Kryt+10%, Kryt Obraż.+20% bez Osłony       |
+|         |                                         |            |        |           |     |        |                      |   (Ignoruje Osłonę)                                                      |
+
+---
+
+## M.Quarter/Atk (Macross Quarter Attack Mode)
+
+**Seria:** Macross Frontier
+
+### Macierzyste zdolności maszyny
+
+- **Transf. (bez poziomu):** Może się transf.  
+  (Macross Quarter Fortress Mode)
+- **Okręt-matka (poziom bazowy 1):** Sojusznicy: przewóz i start  
+  HP/EN przewoż.+20%; SP/Morale pilota+2  
+  Odporn.: "Przebicie" "Pchnięcie" "Rzut"
+- **Bariera punktowa (poziom bazowy 1):** Trafiony: Po aktyw.: Obraż.-800 i Obraż.-16%  
+  Szansa 30%  
+  EN-5
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                                   | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek              | Zdolności — opisy bazowe                                                 |
+| ------: | --------------------------------------- | ---------: | :----: | --------: | --: | -----: | -------------------- | ------------------------------------------------------------------------ |
+|       0 | Działo przeciwlotnicze                  |       2000 |  1–3   |       +25 |  40 |      — | Brak w tym polu      | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg                      |
+|         |                                         |            |        |           |     |        |                      |   Bez kontry                                                             |
+|         |                                         |            |        |           |     |        |                      |   Nie do wsparcia ani kontry                                             |
+|         |                                         |            |        |           |     |        |                      | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                     |
+|       1 | Ciężkie działo wiązkowe przeciwokrętowe |       3300 |  1–4   |       +30 |  30 |      — | Brak w tym polu      | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+|         |                                         |            |        |           |     |        |                      | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                     |
+|       2 | Buster Cannon                           |       3700 |  3–6   |       +10 |  40 |      — | Brak w tym polu      | **Na kosmos (poziom bazowy 1):** Teren "Kos": Cel+30% Atk x1.1           |
+|         |                                         |            |        |           |     |        |                      | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                     |
+|       3 | Macross Cannon                          |       4400 |  1–6   |        +0 |  80 |    130 | Brak w tym polu      | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg                      |
+|         |                                         |            |        |           |     |        |                      |   Bez kontry                                                             |
+|         |                                         |            |        |           |     |        |                      |   Nie do wsparcia ani kontry                                             |
+|       4 | Sword Macross Cannon                    |       5800 |  1–2   |        +5 |  90 |    140 | Brak w tym polu      | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+|         |                                         |            |        |           |     |        |                      | **Na dużych (poziom bazowy 1):** Na dużych: Atk x1.1 Obr wroga-20%       |
+|         |                                         |            |        |           |     |        |                      |   (więksi od siebie)                                                     |
+
+---
+
+## RVF-25 (F) (RVF-25 Messiah/Fighter)
+
+**Seria:** Macross Frontier
+
+### Macierzyste zdolności maszyny
+
+- **Transf. (bez poziomu):** Może się transf.  
+  (RVF-25 Messiah/Battroid)
+- **Zakłócanie (poziom bazowy 1):** Zasięg 5 - wrogowie:  
+  Cel/Unik-16%
+
+**Składy grup zapisane w tabeli:** Eskadra Skull / F; Eskadra Skull / Kosmos / F.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                         | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek              | Zdolności — opisy bazowe                                            |
+| ------: | ----------------------------- | ---------: | :----: | --------: | --: | -----: | -------------------- | ------------------------------------------------------------------- |
+|       0 | Wiązkowe działko autom. 25 mm |       2200 |  1–3   |       +50 |   0 |      — | Brak w tym polu      | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|         |                               |            |        |           |     |        |                      | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                |
+|       1 | Działko gondolowe             |       2300 |  1–8   |       +10 |  20 |      — | Brak w tym polu      | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej  |
+|         |                               |            |        |           |     |        |                      |   Bez kontry                                                        |
+|         |                               |            |        |           |     |        |                      |   Nie do wsparcia ani kontry                                        |
+|       2 | Rakiety samonaprowadzające    |       3000 |  3–5   |       +35 |  15 |      — | Brak w tym polu      | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód             |
+|         |                               |            |        |           |     |        |                      | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4   |
+|       5 | Zaopatrzenie EN               |          0 |  1–2   |        +0 |   0 |      — | Brak w tym polu      | **Zaopatrz. (poziom bazowy 1):** Sojusznicy 1 jedn.: EN+50          |
+
+---
+
+## RVF-25 (B) (RVF-25 Messiah/Battroid)
+
+**Seria:** Macross Frontier
+
+### Macierzyste zdolności maszyny
+
+- **Transf. (bez poziomu):** Może się transf.  
+  (RVF-25 Messiah/Fighter)
+- **Zakłócanie (poziom bazowy 1):** Zasięg 5 - wrogowie:  
+  Cel/Unik-16%
+- **Gerwalk (bez poziomu):** Ruch+1 na lądzie
+
+**Składy grup zapisane w tabeli:** Eskadra Skull / B; Eskadra Skull / Kosmos / B.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa             | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek              | Zdolności — opisy bazowe                                            |
+| ------: | ----------------- | ---------: | :----: | --------: | --: | -----: | -------------------- | ------------------------------------------------------------------- |
+|       0 | Nóż szturmowy     |       2500 |  1–2   |       +70 |   5 |      — | Brak w tym polu      | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|         |                   |            |        |           |     |        |                      | **Garda (poziom bazowy 1):** Obr+20%                                |
+|       1 | Działko gondolowe |       3000 |  1–4   |       +30 |  10 |      — | Brak w tym polu      | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4   |
+|       4 | Zaopatrzenie EN   |          0 |  1–2   |        +0 |   0 |      — | Brak w tym polu      | **Zaopatrz. (poziom bazowy 1):** Sojusznicy 1 jedn.: EN+50          |
+
+---
+
+## VF-25F (F) (VF-25F Messiah/Fighter)
+
+**Seria:** Macross Frontier
+
+### Macierzyste zdolności maszyny
+
+- **Transf. (bez poziomu):** Może się transf.  
+  (VF-25 F Messiah/Battroid)
+
+**Składy grup zapisane w tabeli:** Eskadra Skull / F.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                         | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                            |
+| ------: | ----------------------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |
+|       0 | Wiązkowe działko autom. 25 mm |       2300 |  1–3   |       +50 |   0 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|         |                               |            |        |           |     |        |                    | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                |
+|       1 | Działko gondolowe             |       2400 |  1–8   |       +20 |  20 |      — | Brak w tym polu    | **Przebicie (bez poziomu):** Atakuje wrogów w Zasięg i rusza dalej  |
+|         |                               |            |        |           |     |        |                    |   Bez kontry                                                        |
+|         |                               |            |        |           |     |        |                    |   Nie do wsparcia ani kontry                                        |
+|       2 | Rakiety samonaprowadzające    |       3000 |  3–5   |       +35 |  15 |      — | Brak w tym polu    | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód             |
+|         |                               |            |        |           |     |        |                    | **Ucieczka (poziom bazowy 1):** Unik+18%                            |
+|       3 | ISC Maneuver                  |       4900 |  1–4   |       +10 |  30 |    120 | Brak w tym polu    | **Penetracja (poziom bazowy 1):** Obr-30%                           |
+|         |                               |            |        |           |     |        |                    | **Ucieczka (poziom bazowy 1):** Unik+18%                            |
+
+---
+
+## VF-25F (B) (VF-25F Messiah/Battroid)
+
+**Seria:** Macross Frontier
+
+### Macierzyste zdolności maszyny
+
+- **Transf. (bez poziomu):** Może się transf.  
+  (VF-25 F Messiah/Fighter)
+- **Bariera punktowa (poziom bazowy 1):** Trafiony: Po aktyw.: Obraż.-800 i Obraż.-16%  
+  Szansa 30%  
+  EN-5
+- **Gerwalk (bez poziomu):** Ruch+1 na lądzie
+
+**Składy grup zapisane w tabeli:** Eskadra Skull / B.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                      | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                            |
+| ------: | -------------------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |
+|       0 | Wiązkowy karabin maszynowy |       2400 |  1–3   |       +60 |   0 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|         |                            |            |        |           |     |        |                    | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                |
+|       1 | Nóż szturmowy              |       2800 |  1–2   |       +80 |   5 |      — | Brak w tym polu    | **Ucieczka (poziom bazowy 1):** Unik+18%                            |
+|         |                            |            |        |           |     |        |                    | **Garda (poziom bazowy 1):** Obr+20%                                |
+|       2 | Działko gondolowe          |       3300 |  1–4   |       +40 |  10 |      — | Brak w tym polu    | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4   |
+|         |                            |            |        |           |     |        |                    | **Na kosmos (poziom bazowy 1):** Teren "Kos": Cel+30% Atk x1.1      |
+|       3 | ISC Maneuver               |       4900 |  1–4   |       +10 |  30 |    120 | Brak w tym polu    | **Penetracja (poziom bazowy 1):** Obr-30%                           |
+|         |                            |            |        |           |     |        |                    | **Namiar (poziom bazowy 1):** Kryt+10%, Kryt Obraż.+20% bez Osłony  |
+|         |                            |            |        |           |     |        |                    |   (Ignoruje Osłonę)                                                 |
+
+---
+
+## VF-25G (F) (VF-25G Messiah/Fighter)
+
+**Seria:** Macross Frontier
+
+### Macierzyste zdolności maszyny
+
+- **Transf. (bez poziomu):** Może się transf.  
+  (VF-25 G Messiah/Battroid)
+
+**Składy grup zapisane w tabeli:** Eskadra Skull / F; Eskadra Skull / Kosmos / F.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                         | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                            |
+| ------: | ----------------------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |
+|       0 | Wiązkowe działko autom. 25 mm |       2300 |  1–3   |       +50 |   0 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|         |                               |            |        |           |     |        |                    | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                |
+|       1 | Karabin snajperski            |       3100 |  2–6   |       +70 |  10 |      — | Brak w tym polu    | **Na kosmos (poziom bazowy 1):** Teren "Kos": Cel+30% Atk x1.1      |
+|       2 | Rakiety samonaprowadzające    |       3400 |  3–5   |       +35 |  20 |      — | Brak w tym polu    | **Ostrzał pośr. (bez poziomu):** Atakuje mimo przeszkód             |
+|         |                               |            |        |           |     |        |                    | **Ucieczka (poziom bazowy 1):** Unik+18%                            |
+
+---
+
+## VF-25G (B) (VF-25G Messiah/Battroid)
+
+**Seria:** Macross Frontier
+
+### Macierzyste zdolności maszyny
+
+- **Transf. (bez poziomu):** Może się transf.  
+  (VF-25 G Messiah/Fighter)
+- **Bariera punktowa (poziom bazowy 1):** Trafiony: Po aktyw.: Obraż.-800 i Obraż.-16%  
+  Szansa 30%  
+  EN-5
+- **Gerwalk (bez poziomu):** Ruch+1 na lądzie
+
+**Składy grup zapisane w tabeli:** Eskadra Skull / B; Eskadra Skull / Kosmos / B.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                           | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                            |
+| ------: | ------------------------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |
+|       0 | Nóż szturmowy                   |       2400 |  1–2   |       +60 |   5 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|       1 | Karabin snajperski              |       3100 |  2–6   |       +70 |  10 |      — | Brak w tym polu    | **Na kosmos (poziom bazowy 1):** Teren "Kos": Cel+30% Atk x1.1      |
+|       2 | Karabin snajperski (precyzyjny) |       4700 |  3–7   |       +80 |  40 |    110 | Brak w tym polu    | **Penetracja (poziom bazowy 1):** Obr-30%                           |
+|         |                                 |            |        |           |     |        |                    | **Namiar (poziom bazowy 1):** Kryt+10%, Kryt Obraż.+20% bez Osłony  |
+|         |                                 |            |        |           |     |        |                    |   (Ignoruje Osłonę)                                                 |
+
+---
+
+#### Piloci i postacie w misji oraz skrypcie sceny (sekcje z `srwoe_pilot_catalog_PL.md`)
+
+#### Bright Noa
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Bright
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            110 |
+| **Obrona**  |             87 |
+| **Celność** |            126 |
+| **Unik**    |             63 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                            |
+| ---: | ---------- | ---------: | -------: | ------------------------------------------------------- |
+|    1 | **Wiatr**  |          1 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
+|    2 | **Mur**    |          7 |       20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30%           |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność       | Poz. nauki | Efekt bazowy                           |
+| ---: | ----------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**     |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+|    2 | **Dow. Cel/Unik** |          3 | Zasięg 3 - sojusznicy: Cel/Unik+4%     |
+
+---
+
+#### Kei
+
+- **Seria:** Getter Robo Armageddon
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             60 |
+| **Atak**    |            112 |
+| **Obrona**  |             59 |
+| **Celność** |            140 |
+| **Unik**    |             80 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch        | Poz. nauki | Koszt SP | Efekt bazowy                                                         |
+| ---: | ----------- | ---------: | -------: | -------------------------------------------------------------------- |
+|    1 | **Pęd**     |          1 |       20 | Cel: ty Efekt: 1 razy — Ruch+3                                       |
+|    2 | **Przebł.** |          6 |       10 | Cel: ty Efekt: 1 razy — Unik+30%                                     |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Unik** |          1 | Pozostałe HP 10%: Obr/Cel/Kryt+4% Unik+5% |
+|    2 | **Precyzja**     |          3 | Kryt/Kryt Obraż.+15%                      |
+
+---
+
+#### Noa Izumi
+
+- **Seria:** Mobile Police Patlabor
+- **Nazwa skrócona:** Izumi
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            116 |
+| **Obrona**  |             66 |
+| **Celność** |            134 |
+| **Unik**    |             76 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                    |
+| ---: | ------------- | ---------: | -------: | ----------------------------------------------- |
+|    1 | **Hart**      |          1 |       20 | Cel: ty — Odnawia 25% HP                        |
+|    2 | **Skupienie** |          6 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%    |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                                |
+| ---: | ------------- | ---------: | ------------------------------------------- |
+|    1 | **Upór**      |          1 | Pozostałe HP 10%: Atk/Obr/Cel/Unik/Kryt+10% |
+|    2 | **Policjant** |          3 | Zadawane Obraż. x1.1 / Obr+4%               |
+
+---
+
+#### Isao Ota
+
+- **Seria:** Mobile Police Patlabor
+- **Nazwa skrócona:** Ota
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            120 |
+| **Obrona**  |             72 |
+| **Celność** |            139 |
+| **Unik**    |             61 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                  |
+| ---: | ---------- | ---------: | -------: | --------------------------------------------- |
+|    1 | **Niezł.** |          1 |       15 | Cel: ty Efekt: 1 razy — Otrzym. obrażenia-50% |
+|    2 | **Hart**   |          8 |       20 | Cel: ty — Odnawia 25% HP                      |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność     | Poz. nauki | Efekt bazowy                              |
+| ---: | --------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Atk** |          1 | Pozostałe HP 10%: Obr/Unik+4% Atk/Kryt+5% |
+|    2 | **Policjant**   |          3 | Zadawane Obraż. x1.1 / Obr+4%             |
+
+---
+
+#### Kanuka Clancy
+
+- **Seria:** Mobile Police Patlabor
+- **Nazwa skrócona:** Kanuka
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            112 |
+| **Obrona**  |             64 |
+| **Celność** |            146 |
+| **Unik**    |             72 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch      | Poz. nauki | Koszt SP | Efekt bazowy                                                            |
+| ---: | --------- | ---------: | -------: | ----------------------------------------------------------------------- |
+|    1 | **Wiatr** |          1 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd'                 |
+|    2 | **Mur**   |          7 |       20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30%                           |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Kryt** |          1 | Pozostałe HP 10%: Obr/Unik+4% Cel/Kryt+5% |
+|    2 | **Policjant**    |          3 | Zadawane Obraż. x1.1 / Obr+4%             |
+
+---
+
+#### Seishiro Kusanagi
+
+- **Seria:** Super Robot Wars Original
+- **Nazwa skrócona:** Seishiro
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            120 |
+| **Obrona**  |             59 |
+| **Celność** |            137 |
+| **Unik**    |             75 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                    |
+| ---: | ------------- | ---------: | -------: | ----------------------------------------------- |
+|    1 | **Skupienie** |          1 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%    |
+|    2 | **Pęd**       |          6 |       20 | Cel: ty Efekt: 1 razy — Ruch+3                  |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                           |
+| ---: | ---------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**    |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+|    2 | **Precyzja**     |          3 | Kryt/Kryt Obraż.+15%                   |
+
+---
+
+#### Masaki Andoh
+
+- **Seria:** Super Robot Wars Original
+- **Nazwa skrócona:** Masaki
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             60 |
+| **Atak**    |            140 |
+| **Obrona**  |             55 |
+| **Celność** |            128 |
+| **Unik**    |             72 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                    |
+| ---: | ------------- | ---------: | -------: | ----------------------------------------------- |
+|    1 | **Skupienie** |          1 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%    |
+|    2 | **Przebł.**   |          6 |       10 | Cel: ty Efekt: 1 razy — Unik+30%                |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Unik** |          1 | Pozostałe HP 10%: Obr/Cel/Kryt+4% Unik+5% |
+|    2 | **Bojowość**     |          3 | Pocz. Morale+1                            |
+
+---
+
+#### Alto Saotome
+
+- **Seria:** Macross Frontier
+- **Nazwa skrócona:** Alto
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            112 |
+| **Obrona**  |             57 |
+| **Celność** |            137 |
+| **Unik**    |             88 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                                         |
+| ---: | ------------- | ---------: | -------: | -------------------------------------------------------------------- |
+|    1 | **Pęd**       |          1 |       20 | Cel: ty Efekt: 1 razy — Ruch+3                                       |
+|    2 | **Skupienie** |          8 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%                         |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Unik** |          1 | Pozostałe HP 10%: Obr/Cel/Kryt+4% Unik+5% |
+|    2 | **Fart**         |          3 | Fundusze+4% Kryt+6%                       |
+
+---
+
+#### Michael Blanc
+
+- **Seria:** Macross Frontier
+- **Nazwa skrócona:** Michel
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            108 |
+| **Obrona**  |             59 |
+| **Celność** |            152 |
+| **Unik**    |             75 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                |
+| ---: | ---------- | ---------: | -------: | ------------------------------------------- |
+|    1 | **Celny**  |          1 |       10 | Cel: ty Efekt: 1 razy — Celność+30%         |
+|    2 | **Zagrz.** |          6 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 Morale+5 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Kryt** |          1 | Pozostałe HP 10%: Obr/Unik+4% Cel/Kryt+5% |
+|    2 | **Pewny strzał** |          3 | Zawsze trafia Szansa 10%                  |
+
+---
+
+#### Luca Angeloni
+
+- **Seria:** Macross Frontier
+- **Nazwa skrócona:** Luca
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            110 |
+| **Obrona**  |             68 |
+| **Celność** |            131 |
+| **Unik**    |             85 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch      | Poz. nauki | Koszt SP | Efekt bazowy                                                 |
+| ---: | --------- | ---------: | -------: | ------------------------------------------------------------ |
+|    1 | **Zauf.** |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP             |
+|    2 | **Zamęt** |          6 |       15 | Cel: wrogowie w zasięgu Efekt: 1 tura — Zasięg 3 Celność-30% |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+|    2 | **Wsparcie**  |          3 | Wsparcie: Atk/Obr+20%                  |
+
+---
+
+#### Jeffrey Wilder
+
+- **Seria:** Macross Frontier
+- **Nazwa skrócona:** Jeffrey
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            109 |
+| **Obrona**  |             90 |
+| **Celność** |            126 |
+| **Unik**    |             63 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                            |
+| ---: | ---------- | ---------: | -------: | ------------------------------------------------------- |
+|    1 | **Mur**    |          1 |       20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30%           |
+|    2 | **Zagrz.** |          7 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 Morale+5             |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność       | Poz. nauki | Efekt bazowy                           |
+| ---: | ----------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**     |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+|    2 | **Dow. Cel/Unik** |          3 | Zasięg 3 - sojusznicy: Cel/Unik+4%     |
+
+---
+
+#### Albatro Null Eiji Asuka
+
+- **Seria:** Blue Comet SPT Layzner
+- **Nazwa skrócona:** Eiji
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            110 |
+| **Obrona**  |             57 |
+| **Celność** |            136 |
+| **Unik**    |             88 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                    |
+| ---: | ------------- | ---------: | -------: | ----------------------------------------------- |
+|    1 | **Pęd**       |          1 |       20 | Cel: ty Efekt: 1 razy — Ruch+3                  |
+|    2 | **Skupienie** |          6 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%    |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+|    2 | **Precyzja**  |          3 | Kryt/Kryt Obraż.+15%                   |
+
+---
+
+#### Shinobu Fujiwara
+
+- **Seria:** Super Beast Machine God Dancouga
+- **Nazwa skrócona:** Shinobu
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             60 |
+| **Atak**    |            130 |
+| **Obrona**  |             70 |
+| **Celność** |            130 |
+| **Unik**    |             59 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                    |
+| ---: | ---------- | ---------: | -------: | ----------------------------------------------- |
+|    1 | **Duch**   |          1 |       15 | Cel: ty — Morale+5                              |
+|    2 | **Zapał**  |          8 |       20 | Cel: ty Efekt: 1 razy — Zadawane obrażenia x1,5 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Dzikość**   |          1 | Morale 125 lub więcej Atk+20%          |
+|    2 | **Potencjał** |          3 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Mirai Yashima
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Mirai
+
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                     |
+| ---: | ------------- | ---------: | -------: | ------------------------------------------------ |
+|    1 | **Zauf.**     |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
+|    2 | **Skupienie** |          6 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%     |
+
+---
+
+#### Himari Yaegaki
+
+- **Seria:** Super Robot Wars Original
+- **Nazwa skrócona:** Himari
+
+- **Pula SP:** **60** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch        | Poz. nauki | Koszt SP | Efekt bazowy                                                         |
+| ---: | ----------- | ---------: | -------: | -------------------------------------------------------------------- |
+|    1 | **Zauf.**   |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP                     |
+|    2 | **Przebł.** |          8 |       10 | Cel: ty Efekt: 1 razy — Unik+30%                                     |
+
+---
+
+#### Catherine Glass
+
+- **Seria:** Macross Frontier
+- **Nazwa skrócona:** Cathy
+
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                     |
+| ---: | ------------- | ---------: | -------: | ------------------------------------------------ |
+|    1 | **Zauf.**     |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
+|    2 | **Skupienie** |          6 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%     |
+
+---
+
+#### Bobby Margot
+
+- **Seria:** Macross Frontier
+- **Nazwa skrócona:** Bobby
+
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch      | Poz. nauki | Koszt SP | Efekt bazowy                                            |
+| ---: | --------- | ---------: | -------: | ------------------------------------------------------- |
+|    1 | **Wiatr** |          1 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
+|    2 | **Hart**  |          8 |       20 | Cel: ty — Odnawia 25% HP                                |
+
+---
+
+#### Sara Yuki
+
+- **Seria:** Super Beast Machine God Dancouga
+- **Nazwa skrócona:** Sara
+
+- **Pula SP:** **60** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                 |
+| ---: | ------------- | ---------: | -------: | -------------------------------------------- |
+|    1 | **Skupienie** |          1 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
+|    2 | **Zagrz.**    |          6 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 Morale+5  |
+
+---
+
+#### Ryo Shiba
+
+- **Seria:** Super Beast Machine God Dancouga
+- **Nazwa skrócona:** Ryo
+
+- **Pula SP:** **60** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch        | Poz. nauki | Koszt SP | Efekt bazowy                        |
+| ---: | ----------- | ---------: | -------: | ----------------------------------- |
+|    1 | **Przebł.** |          1 |       10 | Cel: ty Efekt: 1 razy — Unik+30%    |
+|    2 | **Celny**   |          7 |       10 | Cel: ty Efekt: 1 razy — Celność+30% |
+
+---
+
+#### Masato Shikibu
+
+- **Seria:** Super Beast Machine God Dancouga
+- **Nazwa skrócona:** Masato
+
+- **Pula SP:** **60** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch        | Poz. nauki | Koszt SP | Efekt bazowy                                                         |
+| ---: | ----------- | ---------: | -------: | -------------------------------------------------------------------- |
+|    1 | **Zauf.**   |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP                     |
+|    2 | **Fortuna** |          7 |       40 | Cel: ty Efekt: 1 razy — Zestrzelenie: Fundusze x2, szansa na łup +5% |
+
+---
+
+#### Alan Igor
+
+- **Seria:** Super Beast Machine God Dancouga
+- **Nazwa skrócona:** Alan
+
+- **Pula SP:** **60** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch      | Poz. nauki | Koszt SP | Efekt bazowy                                            |
+| ---: | --------- | ---------: | -------: | ------------------------------------------------------- |
+|    1 | **Mur**   |          1 |       20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30%           |
+|    2 | **Wiatr** |          8 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
+
+---
+
+#### Oficer Federacji
+
+- **Seria:** Brak wpisu w słowniku postaci
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             10 |
+| **Atak**    |            102 |
+| **Obrona**  |             70 |
+| **Celność** |            124 |
+| **Unik**    |             54 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Żołnierz Federacji
+
+- **Seria:** Brak wpisu w słowniku postaci
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             10 |
+| **Atak**    |            103 |
+| **Obrona**  |             58 |
+| **Celność** |            123 |
+| **Unik**    |             57 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+
+---
+
+#### Żołnierz Gradosu
+
+- **Seria:** Brak wpisu w słowniku postaci
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             10 |
+| **Atak**    |            102 |
+| **Obrona**  |             58 |
+| **Celność** |            126 |
+| **Unik**    |             75 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                                                  |
+| ---: | ------------- | ---------: | ------------------------------------------------------------- |
+|    1 | **Szeregowy** |          1 | Zbiorcza z tą samą jedn.; wsparcie w grupie / HP = suma grupy |
+
+---
+
+#### Gosterro
+
+- **Seria:** Blue Comet SPT Layzner
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            120 |
+| **Obrona**  |             68 |
+| **Celność** |            134 |
+| **Unik**    |             76 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność     | Poz. nauki | Efekt bazowy                              |
+| ---: | --------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Obr** |          1 | Pozostałe HP 10%: Obr+5% Cel/Unik/Kryt+4% |
+|    2 | **Dwa ataki**   |          3 | Atakuje 2 razy w 1 turę                   |
+
+---
+
+##### Postacie niebojowe, portretowe i systemowe (`Dodatek A`)
+
+| Nazwa (PL)                   | Seria                                          | Kontener / plik                 | Uwagi                                            |
+| ---------------------------- | ---------------------------------------------- | ------------------------------- | ------------------------------------------------ |
+| Fraw Bow                     | Mobile Suit Gundam                             | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Oscar Dublin                 | Mobile Suit Gundam                             | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Marker Clan                  | Mobile Suit Gundam                             | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Asuma Shinohara              | Mobile Police Patlabor                         | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Mikiyasu Shinshi             | Mobile Police Patlabor                         | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Kiichi Goto                  | Mobile Police Patlabor                         | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Shigeo Shiba                 | Mobile Police Patlabor                         | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Suol Douglas                 | Super Robot Wars Original                      | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+
+---
