@@ -440,3 +440,21 @@ Zasady:
   zgłasza źródło bez pokrycia. Dotyczy to także stron serii.
 - **Data `sprawdzono` przy cytowanym źródle idzie zgodnie z dniem sprawdzenia**, a nie
   z dniem edycji pliku.
+
+## L32 — Nawiasy w nazwach plików Markdown wymagają zbalansowanego wzorca (2026-11-19)
+
+Pliki ilustracji wariantów i form transformacji, np. `RVF-25 (B).png` czy `VF-25F (F).png`,
+zawierają nawiasy. Standardowy wzorzec Markdown `/!\[([^\]]*)\]\(([^)\s]+)\)/g` urywa URL
+na pierwszym zamykającym nawiasie `)`, zostawiając `.png)` jako resztkę w tekście.
+Podobnie wzorce w testach sprawdzające obecność linków w treści muszą używać
+`((?:\([^)]*\)|[^)\s])+)` zamiast `([^)\s]+)`.
+
+Zasady:
+
+- **Wzorce linków i obrazów Markdown muszą obsługiwać nawiasy w URL.** Dopasowanie
+  musi dopuszczać zbalansowaną parę `\([^)]*\)` wewnątrz URL, bo nazwy plików w buckecie R2
+  mogą legalnie zawierać nawiasy (ADR 0015).
+- **Asercje testów sprawdzające brak błędów JavaScriptu nie mogą używać surowego `null`.**
+  Regex `/undefined|null/` w quick-menu dopasował `null` wewnątrz sluga postaci
+  `albatro-null-eiji-asuka` w atrybucie `href`. Sprawdzaj tekst pozycji `>\s*(undefined|null)\s*<`
+  oraz atrybut `data-cel="(undefined|null)"`.

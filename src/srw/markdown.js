@@ -225,12 +225,12 @@ export function renderMarkdown(md, {
 
     // obrazy ![alt](src) — kliknięcie otwiera podgląd na pełnym ekranie (podglad.js).
     // Przycisk zamiast samego <img>: obsługa klawiatury i czytnika ekranu bez JS-owych atrap.
-    t = t.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (cały, alt, src) =>
+    t = t.replace(/!\[([^\]]*)\]\(((?:\([^)]*\)|[^)\s])+)\)/g, (cały, alt, src) =>
       `<button type="button" class="ilustracja-otworz" data-pelny-ekran>` +
       `<img src="${src}" alt="${alt}" loading="lazy" decoding="async"></button>`);
 
     // linki [tekst](url) — tylko http(s) i # (blokujemy javascript: itp.)
-    t = t.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (cały, tekst, url) => {
+    t = t.replace(/\[([^\]]+)\]\(((?:\([^)]*\)|[^)\s])+)\)/g, (cały, tekst, url) => {
       if (!/^(https?:\/\/|[#/])/.test(url)) return tekst;
       const zewnetrzny = url.startsWith('http');
       const atrybuty = zewnetrzny ? ' target="_blank" rel="noopener"' : '';

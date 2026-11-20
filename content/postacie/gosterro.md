@@ -19,6 +19,15 @@ Gdy nadciąga [[macross-quarter|Macross Quarter]], uznaje, że „pionki Connect
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Gosterro — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Gosterro.png)
+
+}}
+{{menu gra=srw-oe
+
 ## Parametry
 
 | Parametr    | Wartość bazowa |

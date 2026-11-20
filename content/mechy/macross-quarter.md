@@ -20,6 +20,19 @@ Na odprawie na [[stacja-mars|Stacji Mars]] kapitan zapowiada, że okręt razem z
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Macross Quarter — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Macross%20Quarter%20Atack%20Mode.png)
+
+### Ilustracja 2
+
+![Macross Quarter — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Macross%20Quarter%20Fortress%20Mode.png)
+
+}}
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[macross-frontier|Macross Frontier]]

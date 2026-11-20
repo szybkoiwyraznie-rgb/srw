@@ -17,6 +17,15 @@ Załoga [[macross-quarter|Macross Quartera]], pełni służbę przy boku kapitan
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Bobby Margot — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Bobby%20Margot.png)
+
+}}
+{{menu gra=srw-oe
+
 ## Parametry
 
 ### Komendy Ducha

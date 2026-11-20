@@ -18,6 +18,27 @@ Myśliwiec zmienny [[alto-saotome|Alta Saotome]], dowódcy [[eskadra-skull|Eskad
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![VF-25F Messiah — ilustracja 1 z 4](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/VF-25F%20(B).png)
+
+### Ilustracja 2
+
+![VF-25F Messiah — ilustracja 2 z 4](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/VF-25F%20(B)%202.png)
+
+### Ilustracja 3
+
+![VF-25F Messiah — ilustracja 3 z 4](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/VF-25F%20(F).png)
+
+### Ilustracja 4
+
+![VF-25F Messiah — ilustracja 4 z 4](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/VF-25F%20(F)%202.png)
+
+}}
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[macross-frontier|Macross Frontier]]

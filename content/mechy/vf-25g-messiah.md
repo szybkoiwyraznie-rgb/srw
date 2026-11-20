@@ -18,6 +18,27 @@ Myśliwiec zmienny [[michael-blanc|Michaela Blanca]], snajpera [[eskadra-skull|E
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![VF-25G Messiah — ilustracja 1 z 4](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/VF-25G%20(B).png)
+
+### Ilustracja 2
+
+![VF-25G Messiah — ilustracja 2 z 4](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/VF-25G%20(B)%202.png)
+
+### Ilustracja 3
+
+![VF-25G Messiah — ilustracja 3 z 4](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/VF-25G%20(F).png)
+
+### Ilustracja 4
+
+![VF-25G Messiah — ilustracja 4 z 4](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/VF-25G%20(F)%202.png)
+
+}}
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[macross-frontier|Macross Frontier]]

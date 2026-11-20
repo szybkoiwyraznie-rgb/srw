@@ -20,6 +20,19 @@ W walce korzysta z trybu V-MAX — przyspieszenia, które pozwala atakować z du
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Enhanced Layzner — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Enhanced%20Layzner.png)
+
+### Ilustracja 2
+
+![Enhanced Layzner — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Enhanced%20Layzner%202.png)
+
+}}
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[blue-comet-spt-layzner|Blue Comet SPT Layzner]]

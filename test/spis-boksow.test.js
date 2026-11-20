@@ -114,7 +114,7 @@ test('spis nie powtarza pozycji i nie pokazuje pustych tytułów', () => {
     assert.equal(new Set(lista).size, lista.length, `${s.slug}: kotwica powtórzona w spisie`);
     const tytuly = [...c.menu.matchAll(/<li><a href="[^"]*" data-cel="[^"]+">([^<]*)</g)].map((m) => m[1].trim());
     assert.deepEqual(tytuly.filter((t) => t === ''), [], `${s.slug}: pusta pozycja w spisie`);
-    assert.doesNotMatch(c.menu, /undefined|null/, `${s.slug}: do spisu trafiła pusta wartość`);
+    assert.doesNotMatch(c.menu, />\s*(?:undefined|null)\s*<|data-cel="(?:undefined|null)"/, `${s.slug}: do spisu trafiła pusta wartość`);
   }
 });
 

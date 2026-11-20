@@ -17,6 +17,15 @@ Załoga [[macross-quarter|Macross Quartera]]. W [[srw-oe-ep3-napasc-na-baze-mars
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Catherine Glass — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Cathering%20Glass.png)
+
+}}
+{{menu gra=srw-oe
+
 ## Parametry
 
 ### Komendy Ducha

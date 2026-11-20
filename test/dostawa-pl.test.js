@@ -299,13 +299,13 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
   }
 });
 
-test('ilustracje właściciela: 273 pliki przy 219 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 303 pliki przy 236 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
   // Bieżący stan manifestu jest przypięty tylko tutaj. Testy poszczególnych dostaw sprawdzają
   // własne klucze i to, że manifest nie jest starszy od nich — kolejna dostawa zmienia ten jeden test.
-  assert.equal(Object.keys(manifest.encje).length, 219);
-  assert.equal(Object.values(manifest.encje).flat().length, 273);
+  assert.equal(Object.keys(manifest.encje).length, 236);
+  assert.equal(Object.values(manifest.encje).flat().length, 303);
   assert.equal(manifest.dostarczono, '2026-11-19', 'data ostatniej dostawy ilustracji');
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
@@ -642,7 +642,7 @@ test('manifest ilustracji i adresy R2 na stronach są wzajemnie kompletne', () =
         `${slug}: strona zawiera dokładny adres ${encoded}`);
     }
   }
-  const wzorzec = new RegExp(`${prefiks.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}([^\\s)]+)`, 'g');
+  const wzorzec = new RegExp(`${prefiks.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}((?:\\([^)]*\\)|[^\\s)])+)`, 'g');
   const brakWManifescie = [];
   for (const strona of pages) {
     for (const m of strona.body.matchAll(wzorzec)) {
@@ -764,4 +764,62 @@ test('SRW Y 1-3A: ilustracje Dynazenona i Shalbandesa należą do jednostek', ()
     const galeria = strona.body.match(/\{\{menu gra=srw-y\n\n## Ilustracje\n([\s\S]*?)\n\}\}/);
     assert.ok(galeria?.[1].includes(`${manifest.baseUrl}/${encodeURIComponent(plik)}`), slug);
   }
+});
+
+test('dostawa ilustracji misji 3-5 SRW OE (2026-11-20): 20 plików jednostek i 10 portretów postaci', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const jednostki = {
+    braver: ['Braver.png', 'Braver 2.png'],
+    daljan: ['Daljan.png', 'Daljan 2.png'],
+    'enh-layzner': ['Enhanced Layzner.png', 'Enhanced Layzner 2.png'],
+    'macross-quarter': ['Macross Quarter Atack Mode.png', 'Macross Quarter Fortress Mode.png'],
+    'rvf-25-messiah': ['RVF-25 (B).png', 'RVF-25 (B) 2.png', 'RVF-25 (F).png', 'RVF-25 (F) 2.png'],
+    'vf-25f-messiah': ['VF-25F (B).png', 'VF-25F (B) 2.png', 'VF-25F (F).png', 'VF-25F (F) 2.png'],
+    'vf-25g-messiah': ['VF-25G (B).png', 'VF-25G (B) 2.png', 'VF-25G (F).png', 'VF-25G (F) 2.png'],
+  };
+  for (const [slug, files] of Object.entries(jednostki)) {
+    assert.deepEqual(manifest.encje[slug], files, slug);
+    const strona = bySlug.get(slug);
+    assert.equal(strona?.typ, 'mech', slug);
+    assert.equal((strona.body.match(/^## Ilustracje$/gm) ?? []).length, 1, `${slug}: nagłówek ilustracji`);
+    assert.equal((strona.body.match(/^### Ilustracja \d+$/gm) ?? []).length, files.length, `${slug}: podsekcje`);
+    assert.match(strona.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: zakres gry`);
+    for (const plik of files) {
+      const encoded = plik.split('/').map(encodeURIComponent).join('/');
+      assert.ok(strona.body.includes(`${manifest.baseUrl}/${encoded}`), `${slug}: adres ${encoded}`);
+    }
+    const iIlustracje = strona.body.indexOf('## Ilustracje');
+    assert.ok(iIlustracje < strona.body.indexOf('## Parametry'), `${slug}: Ilustracje przed Parametrami`);
+  }
+
+  const postacie = {
+    'albatro-null-eiji-asuka': 'Albatro Null Eiji Asuka',
+    'alto-saotome': 'Alto Saotome',
+    'bobby-margot': 'Bobby Margot',
+    'catherine-glass': 'Cathering Glass',
+    gosterro: 'Gosterro',
+    'jeffrey-wilder': 'Jeffrey Wilder',
+    'luca-angeloni': 'Luca Angeloni',
+    'michael-blanc': 'Michael Blanc',
+    'monica-lang': 'Monica Lang',
+    rei: 'Rei',
+  };
+  for (const [slug, nazwaPliku] of Object.entries(postacie)) {
+    const plik = `characters/${nazwaPliku}.png`;
+    assert.deepEqual(manifest.encje[slug], [plik], slug);
+    const strona = bySlug.get(slug);
+    assert.equal(strona?.typ, 'postac', slug);
+    assert.equal((strona.body.match(/^## Ilustracje$/gm) ?? []).length, 1, `${slug}: nagłówek ilustracji`);
+    assert.match(strona.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: zakres gry`);
+    const encoded = plik.split('/').map(encodeURIComponent).join('/');
+    assert.ok(strona.body.includes(`${manifest.baseUrl}/${encoded}`), `${slug}: adres ${encoded}`);
+  }
+  // Catherine Glass zachowuje literówkę właściciela w kluczu R2
+  assert.equal(bySlug.get('catherine-glass').tytul, 'Catherine Glass');
+  assert.equal(manifest.encje['catherine-glass'][0], 'characters/Cathering Glass.png');
+  // Monica Lang i Rei to nowe postacie z ADR 0017
+  assert.equal(bySlug.get('monica-lang').pochodzenie, 'zrodlo');
+  assert.equal(bySlug.get('rei').pochodzenie, 'zrodlo');
+  assert.ok(manifest.dostarczono >= '2026-11-19');
+  assert.equal(manifest.weryfikacjaZdalna, false);
 });

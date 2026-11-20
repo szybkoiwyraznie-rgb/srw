@@ -18,6 +18,27 @@ Maszyna rozpoznawcza [[luca-angeloni|Luki Angeloniego]] z [[eskadra-skull|Eskadr
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![RVF-25 Messiah — ilustracja 1 z 4](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/RVF-25%20(B).png)
+
+### Ilustracja 2
+
+![RVF-25 Messiah — ilustracja 2 z 4](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/RVF-25%20(B)%202.png)
+
+### Ilustracja 3
+
+![RVF-25 Messiah — ilustracja 3 z 4](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/RVF-25%20(F).png)
+
+### Ilustracja 4
+
+![RVF-25 Messiah — ilustracja 4 z 4](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/RVF-25%20(F)%202.png)
+
+}}
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[macross-frontier|Macross Frontier]]

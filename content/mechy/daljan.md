@@ -18,6 +18,19 @@ SPT [[grados|Gradosu]], maszyna dowódcy [[gosterro|Gosterra]]. W [[srw-oe-ep3-n
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Daljan — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Daljan.png)
+
+### Ilustracja 2
+
+![Daljan — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Daljan%202.png)
+
+}}
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** [[blue-comet-spt-layzner|Blue Comet SPT Layzner]]

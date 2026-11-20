@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-19 22:45
+
+- Sztuczna inteligencja [[rei|Rei]] wspiera [[albatro-null-eiji-asuka|Eijiego Asukę]] w sterowaniu [[enh-layzner|Enhanced Layznerem]], badając sytuację taktyczną i podnosząc celność oraz uniki niebieskiego robota.
+- Na pokładzie [[macross-quarter|Macross Quartera]] obok [[catherine-glass|Catherine Glass]] i [[bobby-margot|Bobby'ego Margota]] służbę pełni [[monica-lang|Monica Lang]], odpowiadając za radar, sensory i wczesne ostrzeganie przed atakiem wrogich sił.
+
 ## 2026-11-19 22:10
 
 - Baza Federacji na Marsie broni się przed [[braver|Braverami]] i [[daljan|Daljanem]] [[gosterro|Gosterra]] do chwili, gdy nad jej dachem pojawia się [[enh-layzner|Enhanced Layzner]] [[albatro-null-eiji-asuka|Eijiego Asuki]] — dezertera z [[grados|Gradosu]], który przybywa ostrzec Ziemię przed inwazją. Pierwszy strzał [[alto-saotome|Alta]] ratuje go przed śmiercią, a [[luca-angeloni|Luca]] rozpoznaje w niebieskiej maszynie sojusznika.
