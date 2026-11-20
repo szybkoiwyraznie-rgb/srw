@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-20 22:55
+
+- [[campbellianie|Campbellianie]] pochodzą z planety Campbell; tysiące lat temu opuścili ją w poszukiwaniu nowych światów, a grupa naukowca Oreany osiadła na Ziemi i obudziła się w XXI wieku, aby ją podbić.
+- 55. długodystansowa flota kolonizacyjna z [[macross-frontier|*Macross Frontier*]] ma na czele Macross 25 wystrzelony z Ziemi w 2041 roku; w jej skład wchodzą między innymi [[macross-quarter|Macross Quarter]], lotniskowce klasy Guantanamo i Uraga oraz fregaty klasy Northampton.
+
 ## 2026-11-20 22:45
 
 - [[jeffrey-wilder|Jeffrey Wilder]] był żołnierzem i pilotem Valkyrie w U.N. Spacy, w walce stracił rękę, a przed służbą wojskową był zapalonym surferem; jako kapitan [[macross-quarter|Macross Quartera]] łączy szorstki ton z troską o podwładnych.
