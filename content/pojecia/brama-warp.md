@@ -13,5 +13,5 @@ Urządzenie [[connect-force|Connect]] sztucznie odtwarzające zdolność [[mucus
 
 Materiały, które pokazuje załodze, wyjaśniają rolę dwóch elementów: chroniony polem [[ark-ship|Ark Ship]] przenosi ładunek nietknięty przez przekrój czasoprzestrzeni, a największym urządzeniem jest pierścień warp wielkości kolonii kosmicznej. Gigantyczna brama stoi na [[stacja-mars|Stacji Mars]] — to właśnie tam Connect Force ma wyruszyć w daleki kosmos po odparciu ataku [[grados|Gradosu]].
 
-Himari pyta, czy przez bramę dałoby się odesłać ludzi z innych światów tam, skąd przyszli; odpowiedź brzmi, że nie jest to takie proste. Ten sam problem dotyczy [[gurren-team|drużyny Gurren]] i innych załóg splecionych z Ziemią.
+Himari pyta, czy przez bramę dałoby się odesłać ludzi z innych światów tam, skąd przyszli; odpowiedź brzmi, że nie jest to takie proste.
 }}

@@ -13,7 +13,7 @@ utworzono: 2026-11-19
 ---
 {{skrypt gra=srw-oe
 
-Okręt flagowy floty Frontier w trybie fortecy, dowodzony przez kapitana [[jeffrey-wilder|Jeffreya Wildera]] z załogą mostka ([[bobby-margot|Bobby Margot]], [[catherine-glass|Catherine Glass]]). W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] wchodzi w środek walki nad Marsem i ostrzałem odrzuca [[daljan|Daljana]] [[gosterro|Gosterra]], ratując bazę [[earth-federation|Federacji]]. Pełni funkcję okrętu-matki: wszystkie jednostki — [[eskadra-skull|Eskadra Skull]] i [[connect-force|Connect Force]] — lądują na jego pokładzie, zyskując przewóz, start oraz regenerację HP i EN. W walce może przekształcić się w szturmowy [[macross-quarter-attack-mode|Macross Quarter Attack Mode]], a jego kadłub osłania bariera punktowa.
+Okręt flagowy floty Frontier w trybie fortecy, dowodzony przez kapitana [[jeffrey-wilder|Jeffreya Wildera]]; w misji towarzyszą mu [[bobby-margot|Bobby Margot]] i [[catherine-glass|Catherine Glass]]. W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] wchodzi w środek walki nad Marsem i ostrzałem odrzuca [[daljan|Daljana]] [[gosterro|Gosterra]], ratując bazę [[earth-federation|Federacji]]. Pełni funkcję okrętu-matki: wszystkie jednostki — [[eskadra-skull|Eskadra Skull]] i [[connect-force|Connect Force]] — lądują na jego pokładzie. W walce może przekształcić się w szturmowy [[macross-quarter-attack-mode|Macross Quarter Attack Mode]], a jego kadłub osłania bariera punktowa.
 
 Na odprawie na [[stacja-mars|Stacji Mars]] kapitan zapowiada, że okręt razem z [[white-base|White Base]] utworzy połączoną flotę Connect Force.
 }}

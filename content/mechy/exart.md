@@ -28,6 +28,8 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] schodzi do p
 W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] Exart przybywa na odsiecz Drugiemu Plutonowi. Jego skan z góry wykazuje brak pilotów w Brockenach, lecz rozpoznanie zawodzi wobec [[griffon|Griffona]] i wspierającego jego odwrót zagłuszania.
 
 W [[srw-oe-ep2-ryk-dziczy|ćwiczeniach na stacji]] Exart ma trudności z silniejszymi niż rzeczywiste odczyty celami pozornymi. [[seishiro|Seishiro]] widzi w tym granicę maszyny, ale piloci [[final-dancouga|Final Dancougi]] wyczuwają w niej ukrytą siłę i wskazują na rolę umiejętności oraz nastawienia załogi.
+
+W [[srw-oe-ep3-napasc-na-baze-marsjanska|misji na Marsie]] Seishiro przyprowadza Exarta na odsiecz naziemnej bazie Federacji, a Himari wita [[eskadra-skull|Eskadrę Skull]] i razem z nią włącza się do walki z [[grados|Gradosem]].
 }}
 
 {{menu gra=srw-oe

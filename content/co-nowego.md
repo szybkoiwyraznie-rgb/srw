@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-20 21:58
+
+- [[white-base|White Base]] dociera w sektor Marsa, gdzie [[seishiro|Seishiro]] tłumaczy [[himari-yaegaki|Himari]] działanie [[brama-warp|bramy warp]]: brama odtwarza zdolność [[mucus|Mucus]], nie pozwala dowolnie zmieniać celu i wymaga specjalnego statku, jakim jest [[ark-ship|Ark Ship]]. Zamiast przybycia na stację mostek odbiera SOS z naziemnej bazy [[earth-federation|Federacji]], atakowanej przez [[braver|Bravery]] i [[daljan|Daljan]] [[gosterro|Gosterra]].
+- Nad bazą pojawia się [[enh-layzner|Enhanced Layzner]] [[albatro-null-eiji-asuka|Eijiego Asuki]]; pierwszy strzał [[alto-saotome|Alta]] z [[eskadra-skull|Eskadry Skull]] ratuje go przed [[daljan|Daljanem]], a [[macross-quarter|Macross Quarter]] ostrzałem odrzuca wroga. Po walce Eiji wyjawia, że [[grados|Grados]] chce podbić Ziemię, i wstępuje do [[connect-force|Connect Force]] razem z [[macross-quarter|Macross Quarterem]] i [[eskadra-skull|Eskadrą Skull]].
+- [[rei|Rei]] jest sztuczną inteligencją pokładową Layznera, obdarzoną osobowością i głosem Eriko Hary; na pokładzie Macross Quartera służbę pełni główna operatorka mostka [[monica-lang|Monica Lang]].
+
 ## 2026-11-20 00:20
 
 - Zmienne myśliwce [[eskadra-skull|Eskadry Skull]] — [[vf-25f-messiah|VF-25F Messiah]] [[alto-saotome|Alta Saotome]], [[vf-25g-messiah|VF-25G Messiah]] [[michael-blanc|Michaela Blanca]] oraz [[rvf-25-messiah|RVF-25 Messiah]] [[luca-angeloni|Luki Angeloniego]] — potrafią w toku starcia przejść z konfiguracji myśliwca w humanoidalne formy bojowe [[vf-25f-messiah-battroid|Battroid]], walcząc nożami szturmowymi i manewrując na lądzie dzięki konfiguracji Gerwalk.
@@ -8,7 +14,7 @@
 ## 2026-11-19 22:45
 
 - Sztuczna inteligencja [[rei|Rei]] wspiera [[albatro-null-eiji-asuka|Eijiego Asukę]] w sterowaniu [[enh-layzner|Enhanced Layznerem]], badając sytuację taktyczną i podnosząc celność oraz uniki niebieskiego robota.
-- Na pokładzie [[macross-quarter|Macross Quartera]] obok [[catherine-glass|Catherine Glass]] i [[bobby-margot|Bobby'ego Margota]] służbę pełni [[monica-lang|Monica Lang]], odpowiadając za radar, sensory i wczesne ostrzeganie przed atakiem wrogich sił.
+- Na pokładzie [[macross-quarter|Macross Quartera]] obok [[catherine-glass|Catherine Glass]] i [[bobby-margot|Bobby'ego Margota]] służbę jako główna operatorka mostka pełni [[monica-lang|Monica Lang]].
 
 ## 2026-11-19 22:10
 
