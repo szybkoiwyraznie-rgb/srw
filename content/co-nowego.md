@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-20 23:05
+
+- [[cybuster|Cybuster]] jest jedynym z czterech Masou Kishin Królestwa Langranu, który potrafi się przekształcać; w ptasiej formie [[cybird|Cybird]] porusza się szybciej niż w postaci humanoidalnej, a w niektórych grach taranuje nią cel w ataku Akashic Buster.
+- [[doktor-saotome|Doktor Saotome]] był założycielem Instytutu Badawczego Promieni Gettera i twórcą Getter Robo oraz późniejszych modeli; [[hayato-jin|Hayato Jin]] nazwał [[getter-arc|Getter Arc]] „ostatnią z maszyn Saotome”.
+
 ## 2026-11-20 22:55
 
 - [[campbellianie|Campbellianie]] pochodzą z planety Campbell; tysiące lat temu opuścili ją w poszukiwaniu nowych światów, a grupa naukowca Oreany osiadła na Ziemi i obudziła się w XXI wieku, aby ją podbić.
