@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-20 22:45
+
+- [[jeffrey-wilder|Jeffrey Wilder]] był żołnierzem i pilotem Valkyrie w U.N. Spacy, w walce stracił rękę, a przed służbą wojskową był zapalonym surferem; jako kapitan [[macross-quarter|Macross Quartera]] łączy szorstki ton z troską o podwładnych.
+
 ## 2026-11-20 22:40
 
 - [[braver|Braver]] to gradosiański SPT o oznaczeniu SPT-BV-15C; w wykazie maszyn [[blue-comet-spt-layzner|*Blue Comet SPT Layzner*]] stoi obok innych SPT armii [[grados|Gradosu]].
