@@ -5,7 +5,7 @@ tytul: Bobby Margot
 rola: wsparcie
 seria: macross-frontier
 gry: [srw-oe]
-mechy: [macross-quarter]
+mechy: [macross-quarter, macross-quarter-attack-mode]
 pochodzenie: skrypt
 tagi: [macross, frontier, podpilot, wsparcie]
 utworzono: 2026-11-19

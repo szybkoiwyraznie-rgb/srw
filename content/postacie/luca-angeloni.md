@@ -5,7 +5,7 @@ tytul: Luca Angeloni
 rola: pilot
 seria: macross-frontier
 gry: [srw-oe]
-mechy: [rvf-25-messiah]
+mechy: [rvf-25-messiah, rvf-25-messiah-battroid]
 pochodzenie: skrypt
 tagi: [macross, frontier, skull, pilot]
 utworzono: 2026-11-19

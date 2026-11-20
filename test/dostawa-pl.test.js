@@ -299,12 +299,12 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
   }
 });
 
-test('ilustracje właściciela: 303 pliki przy 236 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 303 pliki przy 240 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
   // Bieżący stan manifestu jest przypięty tylko tutaj. Testy poszczególnych dostaw sprawdzają
   // własne klucze i to, że manifest nie jest starszy od nich — kolejna dostawa zmienia ten jeden test.
-  assert.equal(Object.keys(manifest.encje).length, 236);
+  assert.equal(Object.keys(manifest.encje).length, 240);
   assert.equal(Object.values(manifest.encje).flat().length, 303);
   assert.equal(manifest.dostarczono, '2026-11-19', 'data ostatniej dostawy ilustracji');
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
@@ -772,10 +772,14 @@ test('dostawa ilustracji misji 3-5 SRW OE (2026-11-20): 20 plików jednostek i 1
     braver: ['Braver.png', 'Braver 2.png'],
     daljan: ['Daljan.png', 'Daljan 2.png'],
     'enh-layzner': ['Enhanced Layzner.png', 'Enhanced Layzner 2.png'],
-    'macross-quarter': ['Macross Quarter Atack Mode.png', 'Macross Quarter Fortress Mode.png'],
-    'rvf-25-messiah': ['RVF-25 (B).png', 'RVF-25 (B) 2.png', 'RVF-25 (F).png', 'RVF-25 (F) 2.png'],
-    'vf-25f-messiah': ['VF-25F (B).png', 'VF-25F (B) 2.png', 'VF-25F (F).png', 'VF-25F (F) 2.png'],
-    'vf-25g-messiah': ['VF-25G (B).png', 'VF-25G (B) 2.png', 'VF-25G (F).png', 'VF-25G (F) 2.png'],
+    'macross-quarter': ['Macross Quarter Fortress Mode.png'],
+    'macross-quarter-attack-mode': ['Macross Quarter Atack Mode.png'],
+    'rvf-25-messiah': ['RVF-25 (F).png', 'RVF-25 (F) 2.png'],
+    'rvf-25-messiah-battroid': ['RVF-25 (B).png', 'RVF-25 (B) 2.png'],
+    'vf-25f-messiah': ['VF-25F (F).png', 'VF-25F (F) 2.png'],
+    'vf-25f-messiah-battroid': ['VF-25F (B).png', 'VF-25F (B) 2.png'],
+    'vf-25g-messiah': ['VF-25G (F).png', 'VF-25G (F) 2.png'],
+    'vf-25g-messiah-battroid': ['VF-25G (B).png', 'VF-25G (B) 2.png'],
   };
   for (const [slug, files] of Object.entries(jednostki)) {
     assert.deepEqual(manifest.encje[slug], files, slug);

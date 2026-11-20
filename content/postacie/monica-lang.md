@@ -5,7 +5,7 @@ tytul: Monica Lang
 rola: wsparcie
 seria: macross-frontier
 gry: [srw-oe]
-mechy: [macross-quarter]
+mechy: [macross-quarter, macross-quarter-attack-mode]
 pochodzenie: zrodlo
 zrodla:
   - https://macross.fandom.com/wiki/Monica_Lang

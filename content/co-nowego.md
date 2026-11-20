@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-20 00:20
+
+- Zmienne myśliwce [[eskadra-skull|Eskadry Skull]] — [[vf-25f-messiah|VF-25F Messiah]] [[alto-saotome|Alta Saotome]], [[vf-25g-messiah|VF-25G Messiah]] [[michael-blanc|Michaela Blanca]] oraz [[rvf-25-messiah|RVF-25 Messiah]] [[luca-angeloni|Luki Angeloniego]] — potrafią w toku starcia przejść z konfiguracji myśliwca w humanoidalne formy bojowe [[vf-25f-messiah-battroid|Battroid]], walcząc nożami szturmowymi i manewrując na lądzie dzięki konfiguracji Gerwalk.
+- Okręt flagowy [[macross-quarter|Macross Quarter]] poza konfiguracją fortecy przyjmuje w bitwie humanoidalny tryb szturmowy [[macross-quarter-attack-mode|Attack Mode]], zyskując możliwość wyprowadzenia potężnego uderzenia Sword Macross Cannon.
+
 ## 2026-11-19 22:45
 
 - Sztuczna inteligencja [[rei|Rei]] wspiera [[albatro-null-eiji-asuka|Eijiego Asukę]] w sterowaniu [[enh-layzner|Enhanced Layznerem]], badając sytuację taktyczną i podnosząc celność oraz uniki niebieskiego robota.

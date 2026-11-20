@@ -5,7 +5,7 @@ tytul: Michael Blanc
 rola: pilot
 seria: macross-frontier
 gry: [srw-oe]
-mechy: [vf-25g-messiah]
+mechy: [vf-25g-messiah, vf-25g-messiah-battroid]
 pochodzenie: skrypt
 tagi: [macross, frontier, skull, pilot]
 utworzono: 2026-11-19

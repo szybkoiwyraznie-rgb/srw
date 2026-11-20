@@ -5,7 +5,7 @@ tytul: Jeffrey Wilder
 rola: dowodztwo
 seria: macross-frontier
 gry: [srw-oe]
-mechy: [macross-quarter]
+mechy: [macross-quarter, macross-quarter-attack-mode]
 pochodzenie: skrypt
 tagi: [macross, frontier, connect, dowodztwo]
 utworzono: 2026-11-19

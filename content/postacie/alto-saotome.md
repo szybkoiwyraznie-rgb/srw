@@ -5,7 +5,7 @@ tytul: Alto Saotome
 rola: pilot
 seria: macross-frontier
 gry: [srw-oe]
-mechy: [vf-25f-messiah]
+mechy: [vf-25f-messiah, vf-25f-messiah-battroid]
 pochodzenie: skrypt
 tagi: [macross, frontier, skull, pilot]
 utworzono: 2026-11-19
