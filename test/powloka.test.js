@@ -148,7 +148,10 @@ test('Gelgoog z Co nowego czeka na treść i renderuje obie ilustracje w galerii
     return fetch(adres);
   };
   vm.runInContext(skrypt, vm.createContext(srodowisko));
-  await czekajNa(() => app.innerHTML.includes('#/mech/gelgoog'), 'link Gelgoog na stronie głównej');
+  // Strona główna pokazuje tylko osiem najnowszych wpisów dziennika, więc link
+  // do Gelgooga bywa poza nią po każdym nowym wpisie. Czekamy na sam start
+  // powłoki, a trasę ustawiamy hashem — test dotyczy leniwego wczytywania ciała.
+  await czekajNa(() => app.innerHTML.includes('SRW Database'), 'strona główna');
   srodowisko.location.hash = '#/mech/gelgoog';
   nasluchy.get('hashchange')();
   assert.match(app.innerHTML, /Wczytywanie treści/);
@@ -170,7 +173,7 @@ test('wadliwy JSON i błąd wyszukiwania pokazują komunikat zamiast pustego wid
     return fetch(adres);
   };
   vm.runInContext(skrypt, vm.createContext(srodowisko));
-  await czekajNa(() => app.innerHTML.includes('#/mech/gelgoog'), 'strona główna');
+  await czekajNa(() => app.innerHTML.includes('SRW Database'), 'strona główna');
   srodowisko.location.hash = '#/mech/gelgoog';
   nasluchy.get('hashchange')();
   await czekajNa(() => app.innerHTML.includes('nieprawidłowe dane strony'), 'błąd danych');
@@ -189,7 +192,7 @@ test('opóźniona odpowiedź nie nadpisuje nowej trasy', async () => {
     return fetch(adres);
   };
   vm.runInContext(skrypt, vm.createContext(srodowisko));
-  await czekajNa(() => app.innerHTML.includes('#/mech/gelgoog'), 'strona główna');
+  await czekajNa(() => app.innerHTML.includes('SRW Database'), 'strona główna');
   srodowisko.location.hash = '#/mech/gelgoog';
   nasluchy.get('hashchange')();
   srodowisko.location.hash = '#/o-bazie';

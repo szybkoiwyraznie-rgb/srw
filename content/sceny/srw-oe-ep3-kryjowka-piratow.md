@@ -148,6 +148,8 @@ Po walce [[marker|Marker]] melduje brak sygnałów wroga, a [[fraw-bow|Fraw]] pr
 
 Na mostku [[seishiro|Seishiro]] nie potrafi zapomnieć, że w bazie było wielu byłych żołnierzy [[zeon|Zeonu]]. [[terry-sanders-jr|Sanders]] tłumaczy, że tak kończą dezerterzy i maruderzy: oddanie się [[earth-federation|Federacji]] oznacza obóz jeniecki, a powrót do Zeonu — ciężkie przestępstwo, więc piractwo bywa jedynym sposobem na przeżycie. [[michel-ninorich|Michel]] dodaje, że gdy jedynym oparciem zostaje własny [[mobile-suit|mobile suit]], niewiele innych dróg zostaje, a [[alan-igor|Alan]] i [[ryo-shiba|Ryo]] wskazują na syndykat, który w zamian za pomoc czerpie z nich zyski i niełatwo pozwala odejść. [[kiichi-goto|Goto]] przypomina, że w terenie zrobić można tylko tyle, i załoga rozchodzi się na posiłek. [[himari-yaegaki|Himari]] zostaje nad notatkami o bramach warp i [[stacja-mars|Stacji Mars]], do których ma teraz szerszy dostęp jako pilotka [[exart|Exarta]].
 
+Rozmowa o [[stacja-mars|Stacji Mars]] i bramie warp nie kończy się na nauce: gdy tylko [[white-base|White Base]] wejdzie w sektor Marsa, na mostek trafi wezwanie pomocy z bazy naziemnej, a [[srw-oe-ep3-napasc-na-baze-marsjanska|następna scena]] otworzy się atakiem na nią.
+
 ## Wątki w scenie
 
 | Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
@@ -156,4 +158,5 @@ Na mostku [[seishiro|Seishiro]] nie potrafi zapomnieć, że w bazie było wielu 
 | Piraci zagrażający szlakom handlowym poza Sferą Ziemską | [[srw-oe\|Super Robot Wars OE]] | n/d | Słaba obecność [[earth-federation\|Federacji]] na odległych trasach i kryjówka piratów wydrążona w asteroidzie pojawiają się w tej wyprawie po raz pierwszy. |
 | Byli żołnierze [[zeon\|Zeonu]] w załodze piratów | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa [[terry-sanders-jr\|Sandersa]], [[michel-ninorich\|Michela]] i [[alan-igor\|Alana]] o powodach, dla których dezerterzy zostają piratami, oraz wzmianka o syndykacie czerpiącym z nich zyski nie mają odpowiednika w żadnej z serii. |
 | [[himari-yaegaki\|Himari]] uczy się o bramach warp i [[stacja-mars\|Stacji Mars]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Szerszy dostęp do danych, który Himari zawdzięcza fotelowi podpilotki [[exart\|Exarta]], otwiera dalszą trasę. |
+| Statek zdolny przejść przez przekrój czasoprzestrzeni | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa o bramie warp, w której lecą [[srw-oe-ep3-napasc-na-baze-marsjanska\|dalej]], ustawia Ark Ship i pierścień warp jako warunki podróży między wszechświatami. |
 }}

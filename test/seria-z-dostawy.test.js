@@ -27,7 +27,7 @@ import { wczytajStrony, wczytajSkrypty } from '../tools/content-loader.mjs';
 import { zbudujDane } from '../tools/build.mjs';
 import {
   porownajZBaza, przypisaniaDostaw, przypisaniaZPliku, normalizujNazwe, RODZAJE_ROZBIEZNOSCI,
-  porownajZalogi, zalogiZPliku, RODZAJE_ROZBIEZNOSCI_ZALOG,
+  porownajZalogi, zalogiZPliku, zalogiDostaw, rekordBezOsoby, RODZAJE_ROZBIEZNOSCI_ZALOG,
 } from '../tools/uczestnicy-dostaw.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -145,6 +145,26 @@ test('załoga z listy jednostek misji jest załogą strony — pilot główny i 
   assert.equal(raport.zgodnych, raport.par);
 });
 
+test('rekord pilota o nazwie jednostki (także z przydomkiem) nie daje strony pilota', () => {
+  // W SRW Y wrogie maszyny mają w silniku techniczny rekord pilota, którego nazwa
+  // powtarza jednostkę: „Insector — pilot główny: Insector”, a dla kaiju podtytuł
+  // dokłada się do nazwy — „Shalbandes — pilot główny: Hard Fall Kaiju Shalbandes”.
+  // Takie wpisy nie są osobami: mech zostaje z pustym `piloci`, a strona postaci
+  // o nazwie rekordu nie powstaje (ADR 0037 pkt 7, L24).
+  const rekordy = zalogiDostaw({ root: ROOT }).filter((z) => rekordBezOsoby(z.jednostka, z.pilot));
+  assert.ok(rekordy.length > 0, 'dostawy mają rekordy pilota o nazwie jednostki');
+  const zPrzydomkiem = rekordy.filter((z) => normalizujNazwe(z.jednostka) !== normalizujNazwe(z.pilot));
+  assert.ok(zPrzydomkiem.length > 0, 'wśród nich jest rekord „jednostka + przydomek”');
+  for (const rekord of rekordy) {
+    const trafione = strony.filter((s) => s.typ === 'postac'
+      && normalizujNazwe(s.tytul) === normalizujNazwe(rekord.pilot));
+    assert.deepEqual(trafione.map((s) => s.slug), [],
+      `„${rekord.pilot}” (${rekord.plik}:${rekord.wiersz}) to techniczny rekord pilota, nie osoba — strony postaci nie zakładamy`);
+  }
+  assert.deepEqual(strony.find((s) => s.slug === 'shalbandes').piloci, [],
+    'Shalbandes: kaiju bez osobowego pilota');
+});
+
 test('pilot wpisany w polu piloci ma tę maszynę w polu mechy', () => {
   // Kierunek bez wyjątków: skoro strona mecha podaje pilota, strona pilota podaje mecha.
   // (Odwrotnie nie zawsze: Kuro i Shiro wiążą się z Cybusterem, nie będąc jego załogą.)
@@ -198,6 +218,41 @@ test('każdy mówca skryptu prowadzi do strony postaci swojej gry', () => {
       assert.ok(stronyMowcy(etykieta, gra).length > 0,
         `${plik}: mówca „${etykieta}” nie prowadzi do żadnej strony postaci — strona ma nosić imię i nazwisko z listy uczestników, a przezwisko pole \`pseudonim\` (ADR 0037)`);
     }
+  }
+});
+
+/** Mówcy, którzy w tej samej dostawie mają też pełną etykietę („Kamui” obok „Show Kamui”). */
+function skrotyImion(mowcy) {
+  return [...mowcy].filter((etykieta) => !etykieta.includes(' ')
+    && [...mowcy].some((inna) => inna !== etykieta && inna.split(' ').includes(etykieta)));
+}
+
+test('skrót imienia w skrypcie należy do tej samej postaci co pełna etykieta', () => {
+  // L29: w misji 1-3A ta sama osoba mówi jako „Show Kamui” (17 kwestii) i „Kamui” (18).
+  // Skrót nie jest pseudonimem ani nową postacią — musi wskazywać tę samą stronę.
+  let sprawdzone = 0;
+  for (const { plik, gra, mowcy } of skrypty) {
+    for (const skrot of skrotyImion(mowcy)) {
+      const pelne = [...mowcy].filter((inna) => inna.split(' ').includes(skrot));
+      const celSkrotu = stronyMowcy(skrot, gra);
+      assert.ok(celSkrotu.length > 0, `${plik}: skrót „${skrot}” nie prowadzi do strony postaci`);
+      for (const etykieta of pelne) {
+        const cel = stronyMowcy(etykieta, gra);
+        assert.deepEqual(cel.map((p) => p.slug), celSkrotu.map((p) => p.slug),
+          `${plik}: „${skrot}” i „${etykieta}” muszą wskazywać tę samą postać (L29)`);
+        sprawdzone += 1;
+      }
+    }
+  }
+  assert.ok(sprawdzone > 0, 'test musi realnie sprawdzać skróty imion');
+});
+
+test('bezosobowa rola zbiorowa nie dostaje strony postaci', () => {
+  // ADR 0013: „Obywatel” to głos tłumu, nie osoba — mówi w scenach, ale nie ma wpisu.
+  for (const etykieta of GLOSY_BEZIMIENNE) {
+    const strony = postacie.filter((p) => normalizujNazwe(p.tytul) === normalizujNazwe(etykieta));
+    assert.deepEqual(strony.map((p) => p.slug), [],
+      `„${etykieta}” to rola zbiorowa — bez strony i bez pseudonimu`);
   }
 });
 

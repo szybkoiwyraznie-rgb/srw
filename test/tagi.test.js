@@ -55,6 +55,8 @@ const TAG_SERII = {
   'ssss-dynazenon': 'dynazenon',
   'code-geass-lelouch-of-the-re-surrection': 'code-geass',
   'code-geass-lelouch-of-the-rebellion-iii-glorification': 'code-geass',
+  'blue-comet-spt-layzner': 'layzner',
+  'macross-frontier': 'macross',
 };
 
 test('pole kategoria zniknęło z całej bazy', () => {
@@ -125,9 +127,11 @@ test('maszyny bez podanej klasy świadomie nie dostają tagu rodzaju jednostki',
     .sort();
   assert.deepEqual(bezKlasy, [
     'bolt-robo-anti-air', 'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
-    'cybird', 'cybuster', 'exart', 'gandoppler', 'guntank', 'insector',
+    // SPT Layznera to maszyny własne serii, nie klasa z katalogu OE.
+    'braver', 'cybird', 'cybuster', 'daljan', 'enh-layzner', 'exart', 'gandoppler', 'guntank', 'insector',
     'invader-air', 'invader-ground', 'keroro-jet', 'keroro-robo-mk-ii', 'metal-beast-muszla',
-    'nekton-assault', 'nekton-creek', 'real-pg-gundam', 'shalbandes', 'zordo-xx',
+    'nekton-assault', 'nekton-creek', 'real-pg-gundam', 'rvf-25-messiah-battroid', 'shalbandes',
+    'vf-25f-messiah-battroid', 'vf-25g-messiah-battroid', 'zordo-xx',
   ]);
 });
 

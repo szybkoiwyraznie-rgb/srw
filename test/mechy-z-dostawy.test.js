@@ -93,3 +93,26 @@ test('nowe profile pilotów i nazwy skrócone są widoczne po ilustracjach', () 
     assert.ok(p.body.slice(par).includes(`**Nazwa skrócona:** ${nazwa}`), slug);
   }
 });
+
+test('mechy Macross Frontier mają odrębne strony dla formy myśliwca/fortecy i formy battroida/ataku', () => {
+  const pary = [
+    { fighter: 'vf-25f-messiah', battroid: 'vf-25f-messiah-battroid', fNazwa: 'VF-25F Messiah/Fighter', bNazwa: 'VF-25F Messiah/Battroid' },
+    { fighter: 'vf-25g-messiah', battroid: 'vf-25g-messiah-battroid', fNazwa: 'VF-25G Messiah/Fighter', bNazwa: 'VF-25G Messiah/Battroid' },
+    { fighter: 'rvf-25-messiah', battroid: 'rvf-25-messiah-battroid', fNazwa: 'RVF-25 Messiah/Fighter', bNazwa: 'RVF-25 Messiah/Battroid' },
+    { fighter: 'macross-quarter', battroid: 'macross-quarter-attack-mode', fNazwa: 'Macross Quarter (forteca)', bNazwa: 'Macross Quarter Attack Mode' },
+  ];
+  for (const { fighter, battroid, fNazwa, bNazwa } of pary) {
+    const f = mechy.find((m) => m.slug === fighter);
+    const b = mechy.find((m) => m.slug === battroid);
+    assert.ok(f, `forma ${fighter} istnieje`);
+    assert.ok(b, `forma ${battroid} istnieje`);
+    assert.equal(f.tytul, fNazwa);
+    assert.equal(b.tytul, bNazwa);
+    const fWpis = JSON.parse(f.w_gre['srw-oe']);
+    const bWpis = JSON.parse(b.w_gre['srw-oe']);
+    assert.ok(fWpis.profil, `${fighter}: profil w_gre`);
+    assert.ok(bWpis.profil, `${battroid}: profil w_gre`);
+    assert.ok(f.body.includes(`[[${battroid}|`), `${fighter} linkuje ${battroid}`);
+    assert.ok(b.body.includes(`[[${fighter}|`), `${battroid} linkuje ${fighter}`);
+  }
+});

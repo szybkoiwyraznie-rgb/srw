@@ -15,6 +15,8 @@ w_gre:
 {{skrypt gra=srw-y
 
 Gdy Gauma nie może zapanować nad kaiju, odpowiada mu figurka smoka. Czerwony robot zabiera na pokład również Yomogiego, Yume i Koyomiego. Gauma po raz pierwszy próbuje nim sterować; na wezwanie Crossa wyrzuca potwory przez otwartą część kopuły. Po bitwie cztery części maszyny mieszczą się w rękach jej pilotów.
+
+W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] walczy wewnątrz kopuły [[miasto-yagami|miasta Yagami]] z kaiju wywołującymi lewitację. [[gauma|Gauma]] wzywa go do walki okrzykiem „Dynazenon! Battle, Go!!” i pyta po cichu, kim maszyna właściwie jest; po starciu [[onija|Onija]] przyznaje, że grupa antagonistów straciła wszystkie swoje kaiju.
 }}
 
 {{menu gra=srw-y

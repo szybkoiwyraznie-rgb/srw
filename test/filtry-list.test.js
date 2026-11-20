@@ -165,12 +165,12 @@ test('filtr listy scen zawęża po maszynie, postaci i serii obsady', () => {
   assert.deepEqual(sceny(renderListe('scena', { postac: 'noa-izumi' })),
     ['srw-oe-ep1-szalejacy-prototyp-labora', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep1-sledztwo-pod-przykrywka', 'srw-oe-ep2-grozba-pod-ziemia', 'srw-oe-ep2-czarny-labor', 'srw-oe-ep2-ryk-dziczy',
       'srw-oe-ep3-interwencja-gundamow', 'srw-oe-ep3-skradajacy-sie-cien', 'srw-oe-ep3-zielony-najezdzca',
-      'srw-oe-ep3-kryjowka-piratow']);
+      'srw-oe-ep3-kryjowka-piratow', 'srw-oe-ep3-napasc-na-baze-marsjanska']);
   // Scena nie ma pola `seria` — świat bierze z obsady.
   assert.deepEqual(sceny(renderListe('scena', { seria: 'matchless-raijin-oh' })),
     ['srw-oe-ep1-trening-klasy-obrony', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep2-grozba-pod-ziemia', 'srw-oe-ep2-klasa-obrony-leci-w-kosmos',
       'srw-oe-ep3-skradajacy-sie-cien', 'srw-oe-ep3-kryjowka-piratow']);
-  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 22, 'wszystkie sceny są z jednej gry');
+  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 23, 'wszystkie sceny są z jednej gry');
 
   const epizody = (html) => [...new Set([...html.matchAll(/href="#\/epizod\/([^"]+)"/g)].map((m) => m[1]))];
   assert.deepEqual(epizody(renderListe('epizod', { mech: 'raijin-oh' })), ['srw-oe-ep1', 'srw-oe-ep2']);
@@ -202,7 +202,7 @@ test('sceny: grupują się najpierw po grze w domyślnie zwiniętych details', (
   const grupy = [...html.matchAll(/<details class="grupa-scen-gry">([\s\S]*?)<\/details>/g)].map((m) => m[1]);
   assert.equal(grupy.length, 2, 'dwie gry mają osobne grupy');
   assert.doesNotMatch(html, /<details class="grupa-scen-gry"[^>]*open/);
-  assert.match(grupy[0], /Super Robot Wars OE[\s\S]*(22 sceny)/, 'pierwsza jest gra z pierwszymi scenami');
+  assert.match(grupy[0], /Super Robot Wars OE[\s\S]*(23 sceny)/, 'pierwsza jest gra z pierwszymi scenami');
   assert.match(grupy[1], /Super Robot Wars Y[\s\S]*\(3 sceny\)/, 'druga jest gra z nowymi scenami');
   assert.match(grupy[0], /href="#\/epizod\/srw-oe-ep1"/, 'rozwinięta grupa pokazuje epizod');
   assert.match(grupy[0], /href="#\/scena\/srw-oe-ep1-szalejacy-prototyp-labora"/, 'rozwinięta grupa pokazuje scenę');

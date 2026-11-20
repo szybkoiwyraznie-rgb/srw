@@ -115,6 +115,14 @@ jako mówców skryptu i na liście uczestników — tam każda nazwa ma na tward
 - Załogę przepisz z wiersza jednostki w całości: `pilot główny` **i** `piloci wspierający`
   trafiają do pola `piloci` mecha (także jego formy połączonej), a mech do pola `mechy`
   każdego z nich — również pilota zbiorowego w rodzaju „Żołnierz Zeonu”.
+- **Wiersz „pilot główny” z nazwą samej jednostki nie jest osobą.** Gdy dostawa powtarza
+  nazwę maszyny w miejscu pilota („Insector — pilot główny: Insector”) albo dokleja do niej
+  podtytuł typu („Shalbandes — pilot główny: Hard Fall Kaiju Shalbandes”, gdzie „Hard Fall
+  Kaiju” to podtytuł kaiju), to techniczny rekord silnika do obliczeń walki. Mech zostaje
+  z pustym `piloci`, a strony postaci pod nazwą rekordu nie zakładamy — dane pilota
+  (parametry, umiejętności, Komendy Ducha) idą na stronę jednostki. Nie nazywaj takiej
+  maszyny „jednostką grywalną” ani „bronią bez załogi”, jeśli materiał tego nie przesądza
+  (L24).
 - Po założeniu stron uruchom `node tools/uczestnicy-dostaw.mjs`: wypisuje każdą nazwę z dostaw
   bez strony, każdą stronę z inną serią niż w dostawie i każdą parę „jednostka — pilot”,
   której brakuje w polu `piloci` albo `mechy`. Ma nie wypisać żadnej rozbieżności.

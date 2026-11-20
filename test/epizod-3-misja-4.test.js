@@ -28,7 +28,9 @@ test('dostawa 3-4 jest archiwizowana w całości jako czwarta misja epizodu 3', 
     '562a3f09c7287acd3f04eb560ebe5da0c353c3a054bf7753df6608b3c8776cd5');
   assert.ok(archive.includes('## Ep. 3-4: Szturm na kryjówkę piratów\n'));
   assert.equal(archive.split(script).length - 1, 1, 'pełny skrypt misji znajduje się w archiwum dokładnie raz');
-  assert.ok(archive.endsWith(script + '\n'), 'misja 3-4 kończy archiwum epizodu');
+  // Od dostawy 3-5 archiwum epizodu zamyka piąta misja, więc 3-4 tylko poprzedza swoją następcę.
+  const poMisji34 = archive.slice(archive.indexOf(script) + script.length);
+  assert.match(poMisji34, /^\n+#{2} Ep\. 3-5: Napaść na bazę marsjańską/, 'misja 3-4 stoi w archiwum przed misją 3-5');
   assert.ok(script.endsWith('w Układzie Słonecznym...'));
   assert.doesNotMatch(archive, /UCZESTNICY|Entry ID|DL103_30|Wariant tekstu DLC/);
 });

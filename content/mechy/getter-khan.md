@@ -20,6 +20,8 @@ w_gre:
 Getter Robo powstały z połączenia trzech Get Machine w kolejności Khan, Arc i Kirik. Wyróżnia się siłą i świetnie walczy pod wysokim ciśnieniem, np. w głębinach morskich. Jego ciosem specjalnym jest Spine Crusher: zmienia się w gigantyczną oponę, Khan Rover, i rozrywa wroga od środka na pół. Pod wodą w formie Khan Rover może też wirować, wywołując wir Maelstrom.
 
 Forma transformacji dostępna z [[getter-arc|Getter Arca]] i [[getter-kirik|Getter Kirika]] dzięki zdolności „Zm. Gettera”, pod głównymi sterami [[baku-yamagishi|Baku Yamagishiego]] ze wsparciem [[takuma-nagare|Takumy Nagare]] i [[show-kamui|Show Kamuia]]. Spośród trzech konfiguracji ma najgrubszy pancerz, a jej uzbrojenie stanowią Getter Punch, dalekosiężne pociski Getter Missile oraz przebijający bariery Spine Crusher.
+
+W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] [[baku-yamagishi|Baku]] walczy w tej formie z kaiju w [[miasto-yagami|mieście Yagami]] i zapewnia, że z mocą Khana nawet kaiju go nie przepchnie.
 }}
 
 {{zrodlo gra=wspolne

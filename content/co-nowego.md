@@ -1,5 +1,53 @@
 # Co nowego
 
+## 2026-11-20 00:20
+
+- Zmienne myśliwce [[eskadra-skull|Eskadry Skull]] — [[vf-25f-messiah|VF-25F Messiah]] [[alto-saotome|Alta Saotome]], [[vf-25g-messiah|VF-25G Messiah]] [[michael-blanc|Michaela Blanca]] oraz [[rvf-25-messiah|RVF-25 Messiah]] [[luca-angeloni|Luki Angeloniego]] — potrafią w toku starcia przejść z konfiguracji myśliwca w humanoidalne formy bojowe [[vf-25f-messiah-battroid|Battroid]], walcząc nożami szturmowymi i manewrując na lądzie dzięki konfiguracji Gerwalk.
+- Okręt flagowy [[macross-quarter|Macross Quarter]] poza konfiguracją fortecy przyjmuje w bitwie humanoidalny tryb szturmowy [[macross-quarter-attack-mode|Attack Mode]], zyskując możliwość wyprowadzenia potężnego uderzenia Sword Macross Cannon.
+
+## 2026-11-19 22:45
+
+- Sztuczna inteligencja [[rei|Rei]] wspiera [[albatro-null-eiji-asuka|Eijiego Asukę]] w sterowaniu [[enh-layzner|Enhanced Layznerem]], badając sytuację taktyczną i podnosząc celność oraz uniki niebieskiego robota.
+- Na pokładzie [[macross-quarter|Macross Quartera]] obok [[catherine-glass|Catherine Glass]] i [[bobby-margot|Bobby'ego Margota]] służbę pełni [[monica-lang|Monica Lang]], odpowiadając za radar, sensory i wczesne ostrzeganie przed atakiem wrogich sił.
+
+## 2026-11-19 22:10
+
+- Baza Federacji na Marsie broni się przed [[braver|Braverami]] i [[daljan|Daljanem]] [[gosterro|Gosterra]] do chwili, gdy nad jej dachem pojawia się [[enh-layzner|Enhanced Layzner]] [[albatro-null-eiji-asuka|Eijiego Asuki]] — dezertera z [[grados|Gradosu]], który przybywa ostrzec Ziemię przed inwazją. Pierwszy strzał [[alto-saotome|Alta]] ratuje go przed śmiercią, a [[luca-angeloni|Luca]] rozpoznaje w niebieskiej maszynie sojusznika.
+- [[macross-quarter|Macross Quarter]] [[jeffrey-wilder|Jeffreya Wildera]] wchodzi do walki i ostrzałem odrzuca [[daljan|Daljana]]; po bitwie flota Frontier, z [[eskadra-skull|Eskadrą Skull]] i załogą mostka, wstępuje do [[connect-force|Connect Force]] razem z [[white-base|White Base]].
+- [[suol|Szef Suol]] przyjmuje [[albatro-null-eiji-asuka|Eijiego]] do oddziału, bo chce powstrzymać agresję rządu [[grados|Gradosu]] i zawrzeć pokój — Eiji wyjawia przy tym, że w jego żyłach płynie w połowie krew Ziemian.
+
+## 2026-11-19 21:20
+
+- [[show-kamui|Kamui]] wypytuje w sali odpraw o cel [[a-advent|A. Adventu]] i naciska [[annina-servania|Anninę]] w sprawie [[tetsuro-yagami|doktora Yagamiego]] — mówi też wprost, że kosmos go nie interesuje, bo ma coś do zrobienia na Ziemi.
+
+## 2026-11-19 20:55
+
+- Cała obsada [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoka z połączenia”]] prowadzi teraz do samej sceny: [[takuma-nagare|Takuma]] dowodzi pierwszą prawdziwą walką [[getter-arc|Gettera Arca]] i przekazuje szybkiego [[getter-kirik|Kirika]] [[show-kamui|Kamuiowi]], [[yume-minami|Yume]] mówi w kokpicie [[dynazenon|Dynazenona]], że bez nich miasto ucierpi, a [[cross-tsukinowa|Cross]] bierze na siebie całą walkę z kaiju. [[annina-servania|Annina]] jako pierwsza łączy potwory z unoszeniem samochodów i budynków.
+
+## 2026-11-19 20:30
+
+- W [[srw-oe-ep1|pierwszym epizodzie Super Robot Wars OE]] [[medea|Medea]] prowadzi ogień z wieży karabinem przeciwlotniczym, a [[ingram-nr-1|Ingram nr 1]] chwyta wroga linką i odbiera mu celność, zanim ten zdąży odpowiedzieć.
+
+## 2026-11-19 20:00
+
+- [[gauma|Gauma]] bezskutecznie próbuje przejąć władzę nad kaiju i dopiero figurka smoka zamienia się w [[dynazenon|Dynazenona]]. Okazuje się, że do sterowania potrzeba czterech osób — [[yomogi-asanaka|Yomogi]], [[yume-minami|Yume]] i [[koyomi-yamanaka|Koyomi]] trafiają do kokpitu, a Gauma w trakcie walki pyta sam siebie, kim właściwie jest Dynazenon.
+
+## 2026-11-19 19:35
+
+- Po obronie [[miasto-yagami|miasta Yagami]] [[echika-y-franburnett|Echika]] prosi czwórkę pilotów [[dynazenon|Dynazenona]] o użyczenie siły [[a-advent|A. Adventowi]]. [[gauma|Gauma]] zgadza się od razu, a [[chise-asukagawa|Chise]] dołącza jako rezerwowa — przy jednym stole spotykają się władca kaiju, drużyna [[getter-arc|Gettera]] i [[ninja|NINJA]].
+
+## 2026-11-19 19:05
+
+- Po obronie [[miasto-yagami|miasta Yagami]] [[gauma|Gauma]] nazywa przeciwników [[klub-kaiju|Klubem Kaiju]] — bandą innych władców kaiju, która jeszcze uderzy. Tymczasem [[juuga|Juuga]] chce obrać to miasto za bazę, bo rodzi się w nim wyjątkowo wiele potworów.
+
+## 2026-11-19 18:40
+
+- Podniesione [[miasto-yagami|miasto Yagami]] staje się w [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] celem kaiju, które przedostają się do jego wnętrza. Dzięki własnej infrastrukturze kopuła działa jak samowystarczalne miasto; walka przenosi się poza dzielnicę mieszkalną, a [[juuga|Juuga]] chce właśnie tu obrać bazę.
+
+## 2026-11-19 18:05
+
+- [[shalbandes|Shalbandes]], pierwszy kaiju, z którym mierzy się [[dynazenon|Dynazenon]] w [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]], nosi podtytuł „Hard Fall Kaiju” — *kyūtenchokka kaijū*, „potwór nagłego zwrotu wydarzeń”. W [[srw-y|Super Robot Wars Y]] walczy jako kaiju bez osobnej załogi i odzyskuje część HP na początku każdej fazy.
+
 ## 2026-11-19 16:12
 
 - W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] czerwony [[dynazenon|Dynazenon]] staje do obrony miasta przed kaiju. Jednym z przeciwników jest [[shalbandes|Shalbandes]], który wprawia przedmioty w lewitację.

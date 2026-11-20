@@ -18,6 +18,8 @@ Kuzynka [[koyomi-yamanaka|Koyomiego]], uczennica gimnazjum. Nie chodzi do szkoł
 
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] towarzyszy [[koyomi-yamanaka|Koyomiemu]] na placu [[miasto-yagami|miasta Yagami]] podczas wystąpienia [[echika-y-franburnett|Echiki]] i nie kryje zdumienia, gdy kuzyn wspomina, że mógłby poszukać pracy.
 
+W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] idzie z [[koyomi-yamanaka|Koyomim]] obejrzeć latające samochody i budynki, a po walce odkopuje go żywego i wypytuje, gdzie podział się robot. Wcześniej, w tej samej misji, zauważa, że kopuła nad miastem jest od środka przezroczysta i że wielu ludzi się wyprowadziło.
+
 Po obronie kopuły zgłasza się do drużyny jako rezerwowa. Podczas walki pozostaje w kontakcie z Koyomim, ale nie zasiada za sterami [[dynazenon|Dynazenona]].
 }}
 

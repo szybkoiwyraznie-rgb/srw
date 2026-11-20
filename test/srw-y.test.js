@@ -130,7 +130,7 @@ test('SRW Y: epizod wskazuje grę, skrypt i komplet dostarczonych relacji', () =
   assert.equal(epizod.gra, 'srw-y');
   assert.equal(epizod.numer, 1);
   assert.equal(epizod.skrypt, 'episodes/srw-y/ep001.md');
-  assert.deepEqual(epizod.postacie, [...POSTACIE, ...POSTACIE_Z_PROLOGU, ...POSTACIE_Z_MISJI_2A, 'juuga', 'mujina', 'onija', 'sizumu', 'hard-fall-kaiju-shalbandes']);
+  assert.deepEqual(epizod.postacie, [...POSTACIE, ...POSTACIE_Z_PROLOGU, ...POSTACIE_Z_MISJI_2A, 'juuga', 'mujina', 'onija', 'sizumu']);
   assert.deepEqual(epizod.mechy, [...MECHY, 'dynazenon', ...FORMY_PO_TRANSFORMACJI, 'shalbandes']);
   for (const slug of [...SERIE, ...POJECIA, ...POJECIA_Z_MISJI_2A]) {
     assert.ok(epizod.serie?.includes(slug) || epizod.pojecia?.includes(slug), slug);

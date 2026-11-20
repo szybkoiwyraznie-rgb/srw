@@ -20,6 +20,8 @@ w_gre:
 Getter Robo powstały z połączenia trzech Get Machine w kolejności Kirik, Khan i Arc. Specjalizuje się w szybkiej walce, posługując się na zmianę lewym ramieniem chwytnym i prawym ramieniem-świdrem. W razie potrzeby może zmienić oba ramiona w świdry; jego ciosem specjalnym jest Double Drill Storm, w którym cały zamienia się w świder i taranuje wroga.
 
 Forma transformacji dostępna z [[getter-arc|Getter Arca]] i [[getter-khan|Getter Khana]] dzięki zdolności „Zm. Gettera”, pod głównymi sterami [[show-kamui|Show Kamuia]] ze wsparciem [[takuma-nagare|Takumy Nagare]] i [[baku-yamagishi|Baku Yamagishiego]]. Spośród trzech konfiguracji wyróżnia się największą mobilnością i ruchem oraz zdolnością „Getter Vision” dającą szansę pełnego uniku przy wysokim morale; w walce używa Getter Arm, a także przebijających bariery wroga ataków Getter Drill i Double Drill Storm.
+
+W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] [[show-kamui|Kamui]] obejmuje tę formę na czas walki z kaiju w [[miasto-yagami|mieście Yagami]] i zapowiada, że pokaże [[takuma-nagare|Takumie]], jak walczy się szybciej niż dźwięk.
 }}
 
 {{zrodlo gra=wspolne

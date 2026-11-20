@@ -353,3 +353,108 @@ może nadpisać późniejszej trasy. Wersjonowanie adresów danych skrótem tre�
 ogranicza mieszanie nowej powłoki z przestarzałymi plikami z cache po wdrożeniu.
 Nie uznawaj tych zabezpieczeń za dowód przyczyny błędu, którego nie udało się
 odtworzyć w konkretnym środowisku czytelnika.
+
+## L28 — „Pilot” o nazwie jednostki to rekord silnika, nie osoba (2026-11-19)
+
+Wiersz listy jednostek misji 1-3A SRW Y brzmi `**Shalbandes** — pilot główny: Hard Fall
+Kaiju Shalbandes — grupa czerwona 1`. Poprzednia sesja rozpoznała wzorzec „brak osobowego
+pilota” dla rekordów **równych** nazwie jednostki (Insector, Zordo XX), ale nie dla rekordu
+o nazwie jednostki z doklejonym podtytułem typu. „Hard Fall Kaiju” to podtytuł kaiju
+(急転直下怪獣), więc ten sam techniczny rekord przeszedł jako osoba: powstała strona postaci
+z `rola: pilot`, a `piloci` kaiju nie było puste — wbrew regule z L24 i wbrew testowi, który
+dla Insectora wymagał czegoś odwrotnego.
+
+Zasady:
+
+- **Porównuj nazwę pilota z nazwą jednostki po słowach, nie po równości znaków.** Rekord
+  techniczny to taki, w którym cała nazwa jednostki występuje jako ciąg słów w nazwie pilota
+  (`rekordBezOsoby` w `tools/uczestnicy-dostaw.mjs`). Wtedy `piloci: []`, a dane pilota idą
+  na stronę jednostki.
+- **Wzorzec sprawdzaj na wszystkich dostawach, nie na jednej.** Kontrola po całym `dostawy/`
+  pokazała dokładnie jeden taki wiersz załogi (`dostawa_1_3a.txt:625`) — pozostałe trafienia
+  to nagłówki dialogów OE, które nie są wierszami listy jednostek. Bez tego sprawdzenia
+  poprawka mogła objąć nagłówki redakcyjne.
+- **Narzędzie i treść poprawiaj jednym krokiem, z testem regresyjnym.** Sama zmiana danych
+  (usunięcie strony) uruchamia `brakStrony` w `przypisaniaDostaw`, bo dostawa ma też sekcję
+  pilota o tej nazwie; rekord bez osoby musi być rozliczany przez stronę jednostki w obu
+  raportach.
+- **Opis z podtytułem wymaga źródła przy informacji.** Nazwa „Hard Fall Kaiju” i jej znaczenie
+  weszły do bloku `{{zrodlo}}` na stronie kaiju — bez linku przy zdaniu test integralności
+  odrzuca zadeklarowany adres (L23).
+
+## L29 — Skrót imienia w skrypcie to ta sama osoba, a rola zbiorowa nie jest postacią (2026-11-19)
+
+W skrypcie misji 1-3A SRW Y ta sama postać mówi raz jako `**Show Kamui:**`, a raz jako
+`**Kamui:**` — 17 i 18 kwestii. Skrót pojawia się w scenach zbiorowych, gdy w dialogu bierze
+udział kilka osób naraz. To nie pseudonim, nie druga postać i nie „nierozstrzygnięta
+tożsamość”: kwestie podpisane krótko należą do tej samej osoby co pełna etykieta i tak samo
+wchodzą do jej strony, obsady sceny i epizodu. Podobnie `**Obywatel:**` (i `**Żołnierz
+oddziału D2:**`, `**Prezenter:**`) to bezosobowy, zbiorowy głos miasta albo armii — nie
+potrzebuje strony, choć mówi w scenie nieraz kilkanaście razy.
+
+Zasady:
+
+- **Tożsamość mówcy ustalaj z treści dialogu, nie z etykiety.** Skrót jest tą samą osobą,
+  jeśli rozmowa i otoczenie na to wskazują; nie zakładaj nowej postaci tylko dlatego, że
+  etykieta jest krótsza.
+- **Skrót trafia do prozy jak zwykła wypowiedź.** Jeśli dana kwestia jest ważna (np. Kamui
+  wypytuje Anninę o cel A. Adventu), opisujemy ją na stronie postaci bez komentarza
+  o „innej etykiecie" — czytelnik ma widzieć wydarzenie, nie redakcyjną uwagę.
+- **Cytat w scenie zostaje dosłowny.** Sekcja `:::skrypt` powtarza etykietę z dostawy
+  (`**Kamui:**`), bo scena jest wiernym zapisem materiału; ujednolicenie dotyczy prozy
+  i powiązań, nie cytatu.
+- **Rola zbiorowa nie dostaje strony, ale zostaje w obsadzie skryptu.** `Obywatel` nie jest
+  wpisem w `postacie` sceny — inaczej powstałaby pseudoosoba bez imienia (ADR 0013).
+
+## L30 — Etapy o tym samym tytule w jednej misji mylą wycinanie skryptu (2026-11-19)
+
+W dostawie 3-5 dwie sceny noszą nagłówek `### White Base / Mostek`. Wycinanie etapów
+po samym tytule (`find(x => x.startsWith('### White Base / Mostek'))`) podstawiło pod drugi
+etap pierwszy — a test wierności tego nie wykrył, bo porównuje tylko **pierwszy** blok
+`:::skrypt` (intro), nie całość. Skrypt sceny rozjechał się z archiwum dopiero przy ręcznym
+porównaniu `normalizujTekst` całości.
+
+Zasady:
+
+- **Etapy bierz w kolejności wystąpienia, nie po tytule.** Przy podziale archiwum na bloki
+  iteruj linie i tnij na każdym `### `, zachowując kolejność; nie mapuj tytułów na listę.
+- **Po każdej scenie porównaj całość, nie tylko pierwszy blok.** Dodatkowa asercja
+  `normalizujTekst(bloki.join('\n')) === normalizujTekst(skrypt)` chroni przed cichym
+  zgubieniem albo zdublowaniem etapu (test `epizod-3-misja-5`).
+- **Powtórzony tytuł musi mieć osobne mapowanie w `sekcje_analizy`.** Liczba par musi
+  równać się liczbie unikalnych wystąpień, inaczej build zgłasza brak mapowania.
+
+## L31 — Blok `{{zrodlo}}` w scenie to osobny boks, nie podsekcja analizy (2026-11-19)
+
+W scenach z nawiązaniami `{{zrodlo}}` otwiera się **po zamknięciu** bloku `{{skrypt}}`
+z analizą i ma własny nagłówek `## Nawiązania do oryginalnych odcinków`; tabela Wątków
+wraca do nowego bloku `{{skrypt}}`. Wstawienie `{{zrodlo}}` w środku analizy kończy się
+komunikatami „zagnieżdżony blok” i „niezamknięty blok”.
+
+Zasady:
+
+- **Nie umieszczaj nagłówków `###` w boksie `{{zrodlo}}`** — walidator `sekcje_analizy`
+  traktuje każdy `###` w sekcji „Analiza” jako podsekcję i żąda dla niej pary. Dziel
+  nawiązania akapitami z pogrubionym wstępem (`**Layzner — …**`).
+- **Każdy URL z frontmattera `zrodla` musi stać w treści** — inaczej `integralnosc.test.js`
+  zgłasza źródło bez pokrycia. Dotyczy to także stron serii.
+- **Data `sprawdzono` przy cytowanym źródle idzie zgodnie z dniem sprawdzenia**, a nie
+  z dniem edycji pliku.
+
+## L32 — Nawiasy w nazwach plików Markdown wymagają zbalansowanego wzorca (2026-11-19)
+
+Pliki ilustracji wariantów i form transformacji, np. `RVF-25 (B).png` czy `VF-25F (F).png`,
+zawierają nawiasy. Standardowy wzorzec Markdown `/!\[([^\]]*)\]\(([^)\s]+)\)/g` urywa URL
+na pierwszym zamykającym nawiasie `)`, zostawiając `.png)` jako resztkę w tekście.
+Podobnie wzorce w testach sprawdzające obecność linków w treści muszą używać
+`((?:\([^)]*\)|[^)\s])+)` zamiast `([^)\s]+)`.
+
+Zasady:
+
+- **Wzorce linków i obrazów Markdown muszą obsługiwać nawiasy w URL.** Dopasowanie
+  musi dopuszczać zbalansowaną parę `\([^)]*\)` wewnątrz URL, bo nazwy plików w buckecie R2
+  mogą legalnie zawierać nawiasy (ADR 0015).
+- **Asercje testów sprawdzające brak błędów JavaScriptu nie mogą używać surowego `null`.**
+  Regex `/undefined|null/` w quick-menu dopasował `null` wewnątrz sluga postaci
+  `albatro-null-eiji-asuka` w atrybucie `href`. Sprawdzaj tekst pozycji `>\s*(undefined|null)\s*<`
+  oraz atrybut `data-cel="(undefined|null)"`.
