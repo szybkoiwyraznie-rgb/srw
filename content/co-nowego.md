@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-20 22:40
+
+- [[braver|Braver]] to gradosiański SPT o oznaczeniu SPT-BV-15C; w wykazie maszyn [[blue-comet-spt-layzner|*Blue Comet SPT Layzner*]] stoi obok innych SPT armii [[grados|Gradosu]].
+
 ## 2026-11-20 22:35
 
 - [[bobby-margot|Bobby Margot]] z [[macross-quarter|Macross Quartera]] jest sternikiem w firmie S.M.S.; na mostku chętnie śpiewa karaoke i doradza załodze w sprawach sercowych.
