@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-20 22:10
+
+- [[stacja-mars|Stacja Mars]] leży w sektorze Marsa, a nie na samej planecie; wiązka naprowadzająca prowadzi do niej [[white-base|White Base]]. [[albatro-null-eiji-asuka|Eiji Asuka]] w armii [[grados|Gradosu]] występuje jako Albatro Null.
+
 ## 2026-11-20 21:58
 
 - [[white-base|White Base]] dociera w sektor Marsa, gdzie [[seishiro|Seishiro]] tłumaczy [[himari-yaegaki|Himari]] działanie [[brama-warp|bramy warp]]: brama odtwarza zdolność [[mucus|Mucus]], nie pozwala dowolnie zmieniać celu i wymaga specjalnego statku, jakim jest [[ark-ship|Ark Ship]]. Zamiast przybycia na stację mostek odbiera SOS z naziemnej bazy [[earth-federation|Federacji]], atakowanej przez [[braver|Bravery]] i [[daljan|Daljan]] [[gosterro|Gosterra]].
