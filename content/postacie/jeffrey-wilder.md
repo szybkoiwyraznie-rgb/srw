@@ -7,14 +7,21 @@ seria: macross-frontier
 gry: [srw-oe]
 mechy: [macross-quarter, macross-quarter-attack-mode]
 pochodzenie: skrypt
+zrodla:
+  - https://macross.fandom.com/wiki/Jeffery_Wilder
 tagi: [macross, frontier, connect, dowodztwo]
 utworzono: 2026-11-19
 ---
 {{skrypt gra=srw-oe
 
-Kapitan [[macross-quarter|Macross Quartera]] i dowódca floty Frontier. W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] jego okręt wchodzi w środek walki i ostrzałem odrzuca [[daljan|Daljana]] [[gosterro|Gosterra]], ratując bazę. Potem rozkazuje wszystkim jednostkom — [[eskadra-skull|Eskadrze Skull]] i [[connect-force|Connect Force]] — lądować na pokładzie, a [[albatro-null-eiji-asuka|Eijiemu]] pozwala dołączyć jako gościowi.
+Kapitan [[macross-quarter|Macross Quartera]] i dowódca floty Frontier. W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] jego okręt wchodzi w środek walki i ostrzałem odrzuca [[daljan|Daljana]] [[gosterro|Gosterra]], ratując bazę. Potem rozkazuje wszystkim jednostkom — [[eskadra-skull|Eskadrze Skull]] i [[connect-force|Connect Force]] — lądować na pokładzie, a [[albatro-null-eiji-asuka|Eijiemu]] pozwala wylądować na pokładzie.
 
 Na odprawie na [[stacja-mars|Stacji Mars]] zapowiada, że Macross Quarter i Eskadra Skull będą odtąd działać w ramach Connect Force i razem z [[white-base|White Base]] utworzą jedną flotę. [[suol|Szef Suol]] przypomina, że kapitan pomagał Connect już przy budowie bramy warp w układzie Frontier.
+}}
+
+{{zrodlo gra=wspolne
+
+W *Macross Frontier* Jeffrey Wilder jest kapitanem Macross Quartera w S.M.S. Był żołnierzem i pilotem Valkyrie w U.N. Spacy; w walce stracił rękę. Przed służbą wojskową był zapalonym surferem, a na mostku łączy szorstki ton z poczuciem humoru i troską o podwładnych ([Macross Wiki, „Jeffrey Wilder”](https://macross.fandom.com/wiki/Jeffery_Wilder); sprawdzono 2026-11-20).
 }}
 
 {{menu gra=srw-oe

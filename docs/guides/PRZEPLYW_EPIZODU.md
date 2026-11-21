@@ -101,6 +101,10 @@ Dla każdej postaci i mecha obecnej w skrypcie (ADR 0012):
   w skrypcie lub dostawie, z odsyłaczem do serii i do pozycji powiązanych,
 - **encja istniejąca** → dopisujesz wystąpienie (pole `gry`, `mechy`) i pogłębiasz
   opis tylko tym, co wnosi nowy materiał.
+- **sprzeczne dane tej samej pary (mech, gra) albo umiejętności pilota rozstrzyga ostatnia
+  dostawa** (ADR 0044): nowsza wartość zastępuje starszą, a starsza zostaje w archiwum jako
+  stan historyczny. Tożsamość encji ustalaj z przebiegu sceny, nie z samego powtórzenia nazwy
+  (ADR 0044 pkt 2).
 - **bronie** → w treści wpisu mecha, w sekcji o uzbrojeniu. Osobnych wpisów broni nie tworzymy.
 
 **Najpierw lista uczestników, potem strony (ADR 0037).** Dostawa podaje postacie dwa razy:

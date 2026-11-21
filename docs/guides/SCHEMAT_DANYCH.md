@@ -73,6 +73,10 @@ pole `kategoria` zniknęło (ADR 0033). Hasło powstaje wyłącznie z dostawy (A
 Jednostka bojowa to także okręt z załogą i uzbrojeniem (ADR 0022), nie hasło.
 Odrębny rekord jednostki w dostawie dostaje własny slug `<jednostka>-<wyróżnik>`, własne
 `w_gre` i galerię; strona bazowa linkuje je w sekcji „Pozostałe jednostki” (ADR 0023).
+Wyjątkiem jest ta sama maszyna różniąca się **tylko pilotem albo parametrami**: wtedy zostaje
+jeden wpis, `w_gre` trzyma profil podstawowy, a każdy dodatkowy profil trafia do
+`w_gre_dodatkowe` (ADR 0045). Inny kolor (Gelgoog Char, Zaku II Char) albo inne uzbrojenie
+(Bolt Robo, Zaku II, Kämpfer) to nadal osobne strony.
 Słowo „wariant” zarezerwowane jest dla tej samej maszyny w różnych grach (ADR 0020).
 Profil sterujący zbiorczą obsadą (np. **Control AI** przy Brockenie) może być wpisem
 `postac`. Bezimienny ogół żołnierzy nie dostaje osobnego wpisu — opisują go strony maszyn.
@@ -94,6 +98,18 @@ w_gre:
   w repozytorium,
 - `profil` — nazwa profilu jednostki w menu gry,
 - `dane` — dosłowny blok parametrów (markdown) z poziomu 1.
+
+**`w_gre_dodatkowe`** to płaska lista profili tej samej maszyny pod innym pilotem (ADR 0045).
+Każdy element to JSON w jednej linii, z dodatkowym polem `gra`:
+
+```yaml
+w_gre_dodatkowe:
+  - '{"gra": "srw-oe", "dostawa": "dostawy/srw-oe/OE_Mechy.txt", "profil": "Dom", "dane": "…"}'
+```
+
+Lista jest płaska, bo parser frontmattera przyjmuje tylko jeden poziom wcięcia. Każdy profil
+ma w treści własną sekcję `## Parametry — <pilot albo oddział>` w osobnym bloku
+`{{menu gra=…}}`; liczba tych sekcji równa się liczbie profili (`test/scalenie-modeli.test.js`).
 
 Bronie nie są osobnym typem (ADR 0012). Uzbrojenie mecha opisujesz w jego treści.
 

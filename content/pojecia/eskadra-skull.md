@@ -11,5 +11,5 @@ utworzono: 2026-11-19
 
 Eskadra myśliwska floty Frontier, którą w [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] tworzą [[alto-saotome|Alto Saotome]] w [[vf-25f-messiah|VF-25F Messiah]], [[michael-blanc|Michael Blanc]] w [[vf-25g-messiah|VF-25G Messiah]] i [[luca-angeloni|Luca Angeloni]] w [[rvf-25-messiah|RVF-25 Messiah]]. Eskadra zjawia się nad marsjańską bazą w chwili, gdy ta jest bliska zniszczenia: pierwszy strzał Alta ratuje [[albatro-null-eiji-asuka|Eijiego Asukę]], a Luca rozpoznaje, że niebieska maszyna nie jest wrogiem.
 
-Po walce eskadra ląduje na pokładzie [[macross-quarter|Macross Quartera]]. Na odprawie na [[stacja-mars|Stacji Mars]] zostaje przydzielona do [[connect-force|Connect Force]] razem z okrętem i całą flotą Frontier. Trzy maszyny walczą w grupie jako Eskadra Skull, a ich zestaw dopełnia rozpoznanie: [[rvf-25-messiah|RVF-25]] zakłóca celność i unik wrogów w zasięgu.
+Po walce eskadra ląduje na pokładzie [[macross-quarter|Macross Quartera]]. Na odprawie na [[stacja-mars|Stacji Mars]] zostaje przydzielona do [[connect-force|Connect Force]] razem z [[macross-quarter|Macross Quarterem]]. Trzy maszyny walczą w grupie jako Eskadra Skull, a ich zestaw dopełnia rozpoznanie: [[rvf-25-messiah|RVF-25]] zakłóca celność i unik wrogów w zasięgu.
 }}

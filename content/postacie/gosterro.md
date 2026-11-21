@@ -12,7 +12,7 @@ utworzono: 2026-11-19
 ---
 {{skrypt gra=srw-oe
 
-Dowódca [[grados|armii Gradosu]] w [[daljan|Daljanie]]. W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] rozkazuje rozbić wszystko w drobny mak i zrównuje z ziemią myśliwce oraz wozy przeciwlotnicze broniące bazy. Na widok [[albatro-null-eiji-asuka|Eijiego]] wpada w szał: „Jak na marnego zdrajcę, za bardzo się rozbrykałeś!”. Nie przyjmuje wezwania do odwrotu, wyzywa Ziemian od małp i zapowiada, że następnym razem wykończy dezertera.
+Dowódca ataku [[grados|armii Gradosu]] na bazę w [[daljan|Daljanie]]. W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] rozkazuje rozbić wszystko w drobny mak i zrównuje z ziemią myśliwce oraz wozy przeciwlotnicze broniące bazy. Na widok [[albatro-null-eiji-asuka|Eijiego]] wpada w szał: „Jak na marnego zdrajcę, za bardzo się rozbrykałeś!”. Nie przyjmuje wezwania do odwrotu, wyzywa Ziemian od małp i zapowiada, że następnym razem wykończy dezertera.
 
 Gdy nadciąga [[macross-quarter|Macross Quarter]], uznaje, że „pionki Connect” nie są takie słabe, i wycofuje się z pogróżką. [[alto-saotome|Alto]] nie rusza w pościg, bo siły wroga są nieznane.
 }}

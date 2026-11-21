@@ -71,7 +71,7 @@ test('obsada sceny obejmuje załogę White Base, ród Sahalinów i oddział Ramb
   assert.deepEqual(scene.postacie, obsada);
   const jednostki = ['white-base', 'g-fighter', 'guncannon', 'rx-78-2-gundam', 'gundam-ez8',
     'gundam-ground-type', 'gundam-ground-type-glowa-gm', 'guntank', 'hover-truck',
-    'rx-78nt-1-gundam-alex', 'apsalus-iii', 'gouf-ramba-ral', 'dom-zolnierz-zeonu',
+    'rx-78nt-1-gundam-alex', 'apsalus-iii', 'gouf-ramba-ral', 'dom',
     'zaku-ii-kai', 'zaku-ii-karabin-maszynowy', 'zanzibar'];
   assert.deepEqual(scene.mechy, jednostki);
   for (const key of ['postacie', 'mechy', 'pojecia']) {
@@ -111,7 +111,7 @@ function attacks(text) {
 
 test('piętnaście profili maszyn zachowuje wartości uzbrojenia z dostawy', () => {
   const names = {
-    'Apsalus III': 'apsalus-iii', 'Dom': 'dom-zolnierz-zeonu', 'G-Fighter': 'g-fighter',
+    'Apsalus III': 'apsalus-iii', 'Dom': 'dom', 'G-Fighter': 'g-fighter',
     'Gouf (Gouf (Ramba Ral))': 'gouf-ramba-ral', 'Guncannon': 'guncannon',
     'Gundam': 'rx-78-2-gundam', 'Gundam Ez8': 'gundam-ez8',
     'Ground Gundam (Gundam Ground Type)': 'gundam-ground-type',
@@ -126,9 +126,13 @@ test('piętnaście profili maszyn zachowuje wartości uzbrojenia z dostawy', () 
     count++;
     const unit = bySlug.get(names[m[1]]);
     assert.ok(unit, m[1]);
-    const data = JSON.parse(unit.w_gre['srw-oe']);
+    const profile = [unit.w_gre['srw-oe'], ...(unit.w_gre_dodatkowe ?? [])].map((w) => JSON.parse(w));
+    const data = profile.find((x) => x.profil === m[1]) ?? profile[0];
     assert.deepEqual(attacks(data.dane), attacks(m[2]), unit.slug);
-    assert.deepEqual(attacks(unit.body), attacks(m[2]), `${unit.slug}: tabela widoczna`);
+    const widoczne = attacks(unit.body);
+    for (const row of attacks(m[2])) {
+      assert.ok(widoczne.includes(row), `${unit.slug}: tabela widoczna ${row}`);
+    }
   }
   assert.equal(count, 15);
   assert.equal(attacks(bySlug.get('apsalus-iii').body).length, 3);

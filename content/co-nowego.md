@@ -1,5 +1,45 @@
 # Co nowego
 
+## 2026-11-20 23:45
+
+- [[gurren-lagann|Gurren Lagann]] pod [[simon|Simonem]] bije walką wręcz za 2600 i wyprowadza Toroidal Burst oraz Skull Break; gdy głównym pilotem zostaje [[kamina|Kamina]], cios wręcz sięga 2800, Gurren Boomerang i Shades Cutter są mocniejsze, a w miejsce Toroidal Burst wchodzi Full Drillize.
+- [[dom|Dom]] w rękach [[black-tri-stars|Black Tri-Stars]] ma Heat Saber o mocy 1900 i wielką bazookę o zasięgu pięciu pól; seryjne maszyny [[zolnierz-zeonu|Żołnierza Zeonu]] biją słabiej — 1500 — i sięgają czterech pól.
+
+## 2026-11-20 23:05
+
+- [[cybuster|Cybuster]] jest jedynym z czterech Masou Kishin Królestwa Langranu, który potrafi się przekształcać; w ptasiej formie [[cybird|Cybird]] porusza się szybciej niż w postaci humanoidalnej, a w niektórych grach taranuje nią cel w ataku Akashic Buster.
+- [[doktor-saotome|Doktor Saotome]] był założycielem Instytutu Badawczego Promieni Gettera i twórcą Getter Robo oraz późniejszych modeli; [[hayato-jin|Hayato Jin]] nazwał [[getter-arc|Getter Arc]] „ostatnią z maszyn Saotome”.
+
+## 2026-11-20 22:55
+
+- [[campbellianie|Campbellianie]] pochodzą z planety Campbell; tysiące lat temu opuścili ją w poszukiwaniu nowych światów, a grupa naukowca Oreany osiadła na Ziemi i obudziła się w XXI wieku, aby ją podbić.
+- 55. długodystansowa flota kolonizacyjna z [[macross-frontier|*Macross Frontier*]] ma na czele Macross 25 wystrzelony z Ziemi w 2041 roku; w jej skład wchodzą między innymi [[macross-quarter|Macross Quarter]], lotniskowce klasy Guantanamo i Uraga oraz fregaty klasy Northampton.
+
+## 2026-11-20 22:45
+
+- [[jeffrey-wilder|Jeffrey Wilder]] był żołnierzem i pilotem Valkyrie w U.N. Spacy, w walce stracił rękę, a przed służbą wojskową był zapalonym surferem; jako kapitan [[macross-quarter|Macross Quartera]] łączy szorstki ton z troską o podwładnych.
+
+## 2026-11-20 22:40
+
+- [[braver|Braver]] to gradosiański SPT o oznaczeniu SPT-BV-15C; w wykazie maszyn [[blue-comet-spt-layzner|*Blue Comet SPT Layzner*]] stoi obok innych SPT armii [[grados|Gradosu]].
+
+## 2026-11-20 22:35
+
+- [[bobby-margot|Bobby Margot]] z [[macross-quarter|Macross Quartera]] jest sternikiem w firmie S.M.S.; na mostku chętnie śpiewa karaoke i doradza załodze w sprawach sercowych.
+- [[catherine-glass|Catherine Glass]] to porucznik kwatery głównej New United Nations Spacy i oficer mostka Macross Quartera, córka prezydenta Frontier, Howarda Glassa; chce udowodnić, że nie jest tylko córką prezydenta.
+- [[daljan|Daljan]] to gradosiański SPT typu Multiple Form MF-DJ-91U, maszyna dowódcza o wysokości 11,55 m, masie 18,34 t i pancerzu 13,5 cm.
+- Okręty emigracyjne klasy New Macross powstawały od 2030 roku, zastąpiły klasę Megaroad i mogą pomieścić około 350 tys. ludzi; składają się z wojskowego lotniskowca klasy Battle i cywilnego miasta w kopule klasy City.
+
+## 2026-11-20 22:10
+
+- [[stacja-mars|Stacja Mars]] leży w sektorze Marsa, a nie na samej planecie; wiązka naprowadzająca prowadzi do niej [[white-base|White Base]]. [[albatro-null-eiji-asuka|Eiji Asuka]] w armii [[grados|Gradosu]] występuje jako Albatro Null.
+
+## 2026-11-20 21:58
+
+- [[white-base|White Base]] dociera w sektor Marsa, gdzie [[seishiro|Seishiro]] tłumaczy [[himari-yaegaki|Himari]] działanie [[brama-warp|bramy warp]]: brama odtwarza zdolność [[mucus|Mucus]], nie pozwala dowolnie zmieniać celu i wymaga specjalnego statku, jakim jest [[ark-ship|Ark Ship]]. Zamiast przybycia na stację mostek odbiera SOS z naziemnej bazy [[earth-federation|Federacji]], atakowanej przez [[braver|Bravery]] i [[daljan|Daljan]] [[gosterro|Gosterra]].
+- Nad bazą pojawia się [[enh-layzner|Enhanced Layzner]] [[albatro-null-eiji-asuka|Eijiego Asuki]]; pierwszy strzał [[alto-saotome|Alta]] z [[eskadra-skull|Eskadry Skull]] ratuje go przed [[daljan|Daljanem]], a [[macross-quarter|Macross Quarter]] ostrzałem odrzuca wroga. Po walce Eiji wyjawia, że [[grados|Grados]] chce podbić Ziemię, i wstępuje do [[connect-force|Connect Force]] razem z [[macross-quarter|Macross Quarterem]] i [[eskadra-skull|Eskadrą Skull]].
+- [[rei|Rei]] jest sztuczną inteligencją pokładową Layznera, obdarzoną osobowością i głosem Eriko Hary; na pokładzie Macross Quartera służbę pełni główna operatorka mostka [[monica-lang|Monica Lang]].
+
 ## 2026-11-20 00:20
 
 - Zmienne myśliwce [[eskadra-skull|Eskadry Skull]] — [[vf-25f-messiah|VF-25F Messiah]] [[alto-saotome|Alta Saotome]], [[vf-25g-messiah|VF-25G Messiah]] [[michael-blanc|Michaela Blanca]] oraz [[rvf-25-messiah|RVF-25 Messiah]] [[luca-angeloni|Luki Angeloniego]] — potrafią w toku starcia przejść z konfiguracji myśliwca w humanoidalne formy bojowe [[vf-25f-messiah-battroid|Battroid]], walcząc nożami szturmowymi i manewrując na lądzie dzięki konfiguracji Gerwalk.
@@ -8,7 +48,7 @@
 ## 2026-11-19 22:45
 
 - Sztuczna inteligencja [[rei|Rei]] wspiera [[albatro-null-eiji-asuka|Eijiego Asukę]] w sterowaniu [[enh-layzner|Enhanced Layznerem]], badając sytuację taktyczną i podnosząc celność oraz uniki niebieskiego robota.
-- Na pokładzie [[macross-quarter|Macross Quartera]] obok [[catherine-glass|Catherine Glass]] i [[bobby-margot|Bobby'ego Margota]] służbę pełni [[monica-lang|Monica Lang]], odpowiadając za radar, sensory i wczesne ostrzeganie przed atakiem wrogich sił.
+- Na pokładzie [[macross-quarter|Macross Quartera]] obok [[catherine-glass|Catherine Glass]] i [[bobby-margot|Bobby'ego Margota]] służbę jako główna operatorka mostka pełni [[monica-lang|Monica Lang]].
 
 ## 2026-11-19 22:10
 
@@ -648,7 +688,7 @@
 - Załoga [[white-base|White Base]]: [[kai-shiden|Kai]] siadł za sterami [[guncannon|Guncannona]], bo okrętowi brakowało ludzi, [[hayato-kobayashi|Hayato]] zgłosił się do [[guntank|Guntanka]] z rywalizacji z [[amuro-ray|Amurem]], a [[oscar-dublin|Oscar]] i [[marker|Marker]] obsługują dwie konsole mostka — prawo- i lewoburtową.
 - [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] latali w batalionie szkolenia mobilnego, gdy Zeon dopiero uczył się walki [[mobile-suit|mobile suitami]], a rozgłos przyniosła im bitwa pod [[loum|Loum]].
 - [[slender|Slender]] pilnował wyjścia z [[side-7|Side 7]] podczas zwiadu, a [[crown|Crown]] atakował [[white-base|White Base]] przed wejściem w atmosferę.
-- [[dom-zolnierz-zeonu|Dom]] sunie nad gruntem na silnikach odrzutowych z prędkością do 380 km/h, a [[dopp|Doppa]] projektowano na symulacjach, bo inżynierowie [[zeon|Zeonu]] nie mieli gdzie próbować samolotów.
+- [[dom|Dom]] sunie nad gruntem na silnikach odrzutowych z prędkością do 380 km/h, a [[dopp|Doppa]] projektowano na symulacjach, bo inżynierowie [[zeon|Zeonu]] nie mieli gdzie próbować samolotów.
 
 ## 2026-10-24 09:37
 
@@ -675,7 +715,7 @@
 ## 2026-10-24 00:40
 
 - [[zolnierz-federacji|Żołnierz Federacji]] pracuje w placówce przejętej na [[zeon|Zeonie]] podczas [[operacja-odessa|operacji Odessa]]; to jego meldunek zamyka przygotowania do startu wahadłowca.
-- [[dom-zolnierz-zeonu|Dom szeregowych oddziałów]] ustępuje maszynom [[dom|Black Tri-Stars]] słabszym Heat Saberem i bazooką o krótszym zasięgu.
+- [[dom|Dom]] szeregowych oddziałów ustępuje maszynom [[black-tri-stars|Black Tri-Stars]] słabszym Heat Saberem i bazooką o krótszym zasięgu.
 
 ## 2026-10-23 20:13
 
@@ -726,7 +766,7 @@
 ## 2026-10-22 18:14
 
 - [[srw-oe-ep1-powstrzymaj-pocisk-termojadrowy|„Powstrzymaj pocisk termojądrowy”]] kończy [[operacja-odessa|operację Odessa]]: [[general-revil|generał Revil]] odrzuca ultimatum [[mquve|M'Quve'a]], a [[amuro-ray|Amuro]] odcina zapalnik bomby szablą wiązkową Gundama.
-- Niepilotowany [[h-bomb-missile|H-Bomb Missile]] to cel misji, a [[dom-zolnierz-zeonu|Dom regularnych oddziałów Zeonu]] jest odrębny od maszyn [[black-tri-stars|Black Tri-Stars]].
+- Niepilotowany [[h-bomb-missile|H-Bomb Missile]] to cel misji, a [[dom|Dom regularnych oddziałów Zeonu]] ma inny zestaw parametrów niż maszyny [[black-tri-stars|Black Tri-Stars]].
 - [[general-revil|Generał Revil]], [[oficer-federacji|Oficer Federacji]] i [[oficer-zeonu|Oficer Zeonu]] stają naprzeciw siebie, a spór sięga [[traktat-antarktyczny|Traktatu Antarktycznego]].
 - Wydarzenia odpowiadają dwudziestemu piątemu odcinkowi [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] — „The Fierce Battle for Odessa” — z elementami pominiętymi w wersji gry.
 

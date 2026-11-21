@@ -14,7 +14,7 @@ utworzono: 2026-11-19
 
 Operator rozpoznania [[eskadra-skull|Eskadry Skull]], prowadzi [[rvf-25-messiah|RVF-25 Messiah]]. W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] odbiera transmisję z bazy i jako pierwszy mówi [[alto-saotome|Altowi]], że niebieska maszyna nie jest wrogiem; rozpoznaje też, że przybysz musiał zdezerterować z armii [[grados|Gradosu]]. Gdy [[gosterro|Gosterro]] atakuje raz po raz, przypomina, że najważniejsza jest obrona bazy.
 
-Po bitwie staje w obronie Alta, gdy [[michael-blanc|Michael]] znowu go drażni, i podkreśla, że dołączenie do [[connect-force|Connect Force]] było przydziałem, nie przypadkiem.
+Po bitwie staje w obronie Alta, gdy [[michael-blanc|Michael]] znowu go drażni, i przypomina mu, że to Alto dowodzi eskadrą.
 }}
 
 {{menu gra=srw-oe

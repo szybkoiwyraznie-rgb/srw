@@ -187,6 +187,10 @@ test('wiersze idą w kolejności scen epizodu', () => {
       'Podróż na Marsa przez bramę warp',
       'Piraci na międzyplanetarnych szlakach handlowych',
       'Byli żołnierze Zeonu wśród piratów',
+      // scena 3-5: Napaść na bazę marsjańską
+      'Dezerter z Gradosu ostrzega Ziemię i staje w obronie bazy',
+      'Eskadra Skull i Macross Quarter dołączają do Connect Force',
+      'Brama warp, Ark Ship i pierścień warp',
     ],
     'srw-y-ep1': [
       // scena 1-1C: Kwiaty, ninja i urodziny

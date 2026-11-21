@@ -6,7 +6,7 @@ epizod: srw-oe-ep2
 numer_sceny: "2-4"
 streszczenie: "Czwarta misja epizodu 2: [[zeon|Zeon]] desantuje na [[jaburo|Jaburo]], a [[white-base|White Base]] i [[08-pluton-ms|08. Pluton MS]] bronią bram portu kosmicznego. [[char-aznable|Char]] prowadzi natarcie w czerwonym Zaku, [[shiro-amada|Shiro]] dowodzi obroną, a po odparciu ataku okręt zostaje w bazie na naprawy, a Zeon przechodzi do wojny partyzanckiej i przenosi ciężar walki w kosmos."
 postacie: [bright-noa, kai-shiden, hayato-kobayashi, amuro-ray, mirai-yashima, sayla-mass, shiro-amada, terry-sanders-jr, karen-joshua, michel-ninorich, eledore-massis, fraw-bow, char-aznable, oficer-zeonu, zolnierz-zeonu, slender, crown]
-mechy: [white-base, g-fighter, guncannon, rx-78-2-gundam, gundam-ez8, gundam-ground-type, gundam-ground-type-glowa-gm, guntank, hover-truck, zaku-ii-char, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, dom-zolnierz-zeonu, zanzibar]
+mechy: [white-base, g-fighter, guncannon, rx-78-2-gundam, gundam-ez8, gundam-ground-type, gundam-ground-type-glowa-gm, guntank, hover-truck, zaku-ii-char, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, dom, zanzibar]
 pojecia: [jaburo, zeon, earth-federation, mobile-suit, 08-pluton-ms, uc-0079]
 pochodzenie: skrypt
 zrodla:
@@ -214,7 +214,7 @@ Narracja po bitwie zamyka epizod ziemski: desant na [[jaburo|Jaburo]] nie dotar�
 
 Wydarzenia z tej sceny — dotarcie [[white-base|White Base]] do [[jaburo|Jaburo]] i masowy desant [[zeon|Zeonu]] na główną bazę [[earth-federation|Federacji]] — nawiązują do **dwudziestego dziewiątego odcinka** serialu [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] z 1979 roku, zatytułowanego „Tragedy in Jaburo” (ジャブローに散る!; [Wikipedia, „List of Mobile Suit Gundam episodes”, odc. 29](https://en.wikipedia.org/wiki/List_of_Mobile_Suit_Gundam_episodes); sprawdzono 2026-11-05).
 
-W oryginale [[white-base|White Base]] dociera do kwatery głównej w Jaburo, a [[zeon|Zeon]] przypuszcza na bazę zmasowany atak prowadzony przez [[char-aznable|Chara]] w jego wodnej maszynie. Sam szturm na bazę i obrona jej portu kosmicznego zostają zachowane, lecz skład sił desantu jest inny: [[char-aznable|Char]] występuje tu w czerwonym [[zaku-ii-char|Zaku II]], obok seryjnych [[zaku-ii-karabin-maszynowy|Zaku II]] i [[dom-zolnierz-zeonu|Domów]], a wraz z nimi nadciąga okręt [[zanzibar|Zanzibar]].
+W oryginale [[white-base|White Base]] dociera do kwatery głównej w Jaburo, a [[zeon|Zeon]] przypuszcza na bazę zmasowany atak prowadzony przez [[char-aznable|Chara]] w jego wodnej maszynie. Sam szturm na bazę i obrona jej portu kosmicznego zostają zachowane, lecz skład sił desantu jest inny: [[char-aznable|Char]] występuje tu w czerwonym [[zaku-ii-char|Zaku II]], obok seryjnych [[zaku-ii-karabin-maszynowy|Zaku II]] i [[dom|Domów]], a wraz z nimi nadciąga okręt [[zanzibar|Zanzibar]].
 }}
 
 {{skrypt gra=srw-oe

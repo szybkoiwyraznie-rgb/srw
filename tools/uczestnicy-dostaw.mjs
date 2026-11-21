@@ -130,10 +130,24 @@ export function slugSerii(nazwa, strony) {
   return strony.find((s) => s.typ === 'seria' && normalizujNazwe(s.tytul) === szukana)?.slug;
 }
 
-function profilWGrze(strona, gra) {
-  const surowy = strona.w_gre?.[gra];
-  if (!surowy) return null;
-  try { return (typeof surowy === 'string' ? JSON.parse(surowy) : surowy).profil ?? null; } catch { return null; }
+/**
+ * Profile jednostki w danej grze. Strona scalonego modelu ma jeden profil
+ * główny w `w_gre` i dodatkowe zestawy parametrów w `w_gre_dodatkowe`
+ * (ADR 0045), każdy z własnym polem `gra`. Dostawa wymieniająca dowolny
+ * z tych profili prowadzi do tej samej strony.
+ */
+export function profileWGrze(strona, gra) {
+  const odczytaj = (w) => {
+    try { return typeof w === 'string' ? JSON.parse(w) : w; } catch { return null; }
+  };
+  const profile = [];
+  const glowny = odczytaj(strona.w_gre?.[gra]);
+  if (glowny?.profil) profile.push(glowny.profil);
+  for (const dodatkowy of strona.w_gre_dodatkowe ?? []) {
+    const wpis = odczytaj(dodatkowy);
+    if (wpis?.profil && (wpis.gra ?? gra) === gra) profile.push(wpis.profil);
+  }
+  return profile;
 }
 
 /** Wariant z zapisu „Rodzina (Wariant)”; wariant sam może mieć nawias: „Gurren Lagann (Gurren Lagann (Simon))”. */
@@ -186,7 +200,7 @@ export function stronyUczestnika(nazwa, gra, strony, { typ = null } = {}) {
   const encje = strony.filter((s) => (typ ? s.typ === typ : s.typ === 'postac' || s.typ === 'mech'));
   if (INNE_ZAPISY_NAZW[nazwa]) return encje.filter((s) => s.slug === INNE_ZAPISY_NAZW[nazwa]);
 
-  const poProfilu = encje.filter((s) => profilWGrze(s, gra) === nazwa);
+  const poProfilu = encje.filter((s) => profileWGrze(s, gra).includes(nazwa));
   if (poProfilu.length) return poProfilu;
 
   const szukana = normalizujNazwe(nazwa);
@@ -207,10 +221,8 @@ export function stronyUczestnika(nazwa, gra, strony, { typ = null } = {}) {
     if (poWariancie.length) return poWariancie;
   }
 
-  const poWariancieProfilu = encje.filter((s) => {
-    const profil = profilWGrze(s, gra);
-    return profil && normalizujNazwe(wariantNazwy(profil)) === szukana;
-  });
+  const poWariancieProfilu = encje.filter((s) => profileWGrze(s, gra)
+    .some((profil) => normalizujNazwe(wariantNazwy(profil)) === szukana));
   if (poWariancieProfilu.length) return poWariancieProfilu;
   // Rekord pilota o nazwie jednostki z przydomkiem typu („Hard Fall Kaiju Shalbandes”
   // dla kaiju „Shalbandes”) opisuje tę samą maszynę — strony pod nazwą rekordu nie ma.
@@ -219,7 +231,7 @@ export function stronyUczestnika(nazwa, gra, strony, { typ = null } = {}) {
 
 
   return encje.filter((s) => (s.gry ?? []).includes(gra)
-    && [s.tytul, profilWGrze(s, gra)].some((n) => n && n !== bezWariantuDanych(n) && normalizujNazwe(bezWariantuDanych(n)) === szukana));
+    && [s.tytul, ...profileWGrze(s, gra)].some((n) => n && n !== bezWariantuDanych(n) && normalizujNazwe(bezWariantuDanych(n)) === szukana));
 }
 
 /**
