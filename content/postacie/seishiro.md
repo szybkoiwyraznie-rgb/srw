@@ -75,8 +75,6 @@ W [[srw-oe-ep2-w-poscigu-za-zanzibarem|„W pościgu za Zanzibarem”]] zdąża 
 |---:|---|---:|---:|---|
 | 1 | **Skupienie** | 1 | 15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
 | 2 | **Pęd** | 6 | 20 | Cel: ty Efekt: 1 razy — Ruch+3 |
-| 3 | **Duch** | 13 | 15 | Cel: ty — Morale+5 |
-| 4 | **Zapał** | 22 | 20 | Cel: ty Efekt: 1 razy — Zadawane obrażenia x1,5 |
 
 ### Umiejętności pilota
 

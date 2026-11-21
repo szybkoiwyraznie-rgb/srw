@@ -105,9 +105,16 @@ test('pierwsza misja epizodu 4 dokłada drugie Komendy Ducha pilotom z dostawy',
     assert.match(strona.body, new RegExp(`\\|\\s*2\\s*\\|\\s*\\*\\*${duch.replace('.', '\\.')}\\*\\*\\s*\\|`),
       `${slug}: druga Komenda Ducha z dostawy 4-1`);
   }
-  // Seishiro miał już dwie komendy — dostawa dopisuje trzecią i czwartą.
-  assert.match(bySlug.get('seishiro').body, /\|\s*3\s*\|\s*\*\*Duch\*\*\s*\|\s*13\s*\|/);
-  assert.match(bySlug.get('seishiro').body, /\|\s*4\s*\|\s*\*\*Zapał\*\*\s*\|\s*22\s*\|/);
+});
+
+test('Seishiro zostaje przy dwóch Komendach Ducha z dostawy', () => {
+  // Dostawa 2-7 pokazała mu kiedyś cztery komendy (Duch, Zapał), ale każda
+  // późniejsza — 3-1 do 4-1 — podaje tylko Skupienie i Pęd (ADR 0044).
+  const seishiro = bySlug.get('seishiro');
+  assert.match(seishiro.body, /\|\s*1\s*\|\s*\*\*Skupienie\*\*\s*\|\s*1\s*\|/);
+  assert.match(seishiro.body, /\|\s*2\s*\|\s*\*\*Pęd\*\*\s*\|\s*6\s*\|/);
+  assert.doesNotMatch(seishiro.body, /\|\s*\*\*Duch\*\*\s*\|/);
+  assert.doesNotMatch(seishiro.body, /\|\s*\*\*Zapał\*\*\s*\|/);
 });
 
 test('hasła misji 4-1 oddzielają materiał scen od pierwowzorów', () => {

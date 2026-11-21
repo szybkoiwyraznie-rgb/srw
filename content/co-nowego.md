@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-21 01:10
+
+- [[seishiro|Seishiro Kusanagi]] włada dwiema komendami Ducha: **Skupieniem** (Unik+20%, Celność+25%) i **Pędem** (Ruch+3). Za sterami [[exart|Exarta]] wystarcza mu to, żeby prowadzić [[himari-yaegaki|Himari]] przez pierwsze starcia.
+
 ## 2026-11-21 00:45
 
 - [[albatro-null-eiji-asuka|Eiji]] prowadzi [[connect-force|Connect Force]] do okrętu awangardy [[grados|Gradosu]] i wyjawia, że to jego ojciec odkrył marsjańskie ruiny w ramach projektu [[apollo-x|Apollo X]]; po zwycięstwie myśli już o planecie cierpiącej jako kolonia Gradosu.

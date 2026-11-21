@@ -58,10 +58,10 @@ Jin Hyuga (日向 仁) jest głównym pilotem Raijin-Oh i przywódcą trójki bo
 | Unik | 63 |
 
 ### Komendy Ducha
-
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Skupienie** | 1 | 15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
+| 2 | **Zapał** | 8 | 20 | Cel: ty Efekt: 1 razy — Zadawane obrażenia x1,5 |
 
 ### Umiejętności pilota
 

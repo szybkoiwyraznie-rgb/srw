@@ -145,6 +145,10 @@ test('dziewiętnastu pilotów ma statystyki z dostawy, w tym nowy pilot Bigro', 
     'Żołnierz Zeonu': 'zolnierz-zeonu', 'Char Aznable': 'char-aznable',
     Slender: 'slender', Crown: 'crown', Tokwan: 'tokwan',
   };
+  // Dostawa 2-7 dawała Seishirowi cztery komendy Ducha, ale każda późniejsza —
+  // od 3-1 po 4-1 — podaje znów tylko Skupienie i Pęd. Wiąże stan najnowszy
+  // (ADR 0044), więc trzeci i czwarty wiersz tego bloku są historyczne.
+  const nieaktualne = new Map([['seishiro', [/^\|\s*3\s*\|/, /^\|\s*4\s*\|/]]]);
   const tekst = raw.split('#### Piloci i postacie w misji oraz skrypcie sceny')[1].split('##### Postacie niebojowe')[0];
   let ile = 0;
   for (const m of tekst.matchAll(/^#### ([^\n]+)\n([\s\S]*?)(?=^#### |$(?![\s\S]))/gm)) {
@@ -155,6 +159,7 @@ test('dziewiętnastu pilotów ma statystyki z dostawy, w tym nowy pilot Bigro', 
     const wiersze = pilot.body.split('\n').filter((l) => l.startsWith('|'))
       .map((l) => l.split('|').slice(1, -1).map(czysc).join('|'));
     for (const wiersz of m[2].split('\n').filter((l) => /^\|\s*(\d+|\*\*(SP|Atak|Obrona|Celność|Unik)\*\*)\s*\|/.test(l))) {
+      if ((nieaktualne.get(pilot.slug) ?? []).some((wzorzec) => wzorzec.test(wiersz))) continue;
       assert.ok(wiersze.includes(wiersz.split('|').slice(1, -1).map(czysc).join('|')), `${pilot.slug}: ${wiersz}`);
     }
   }
