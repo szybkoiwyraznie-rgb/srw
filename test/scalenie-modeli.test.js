@@ -10,6 +10,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { wczytajStrony } from '../tools/content-loader.mjs';
+import { renderMarkdown } from '../src/srw/markdown.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const strony = wczytajStrony({ root: ROOT });
@@ -78,6 +79,19 @@ test('modele różniące się kolorem albo uzbrojeniem zostają osobnymi stronam
     assert.equal((bySlug.get(slug).w_gre_dodatkowe ?? []).length, 0, `${slug}: bez scalania`);
   }
   assert.notEqual(bySlug.get('gelgoog').tytul, bySlug.get('gelgoog-char').tytul);
+});
+
+test('każdy zestaw parametrów renderuje się jako tabelę z wierszami dostawy', () => {
+  for (const slug of ['dom', 'gurren-lagann']) {
+    const strona = bySlug.get(slug);
+    const { html } = renderMarkdown(strona.body);
+    const zestawy = profile(strona);
+    assert.equal((html.match(/<table>/g) ?? []).length, zestawy.length, `${slug}: tyle tabel, ile profili`);
+    for (const wariant of zestawy) {
+      const bronie = [...wariant.dane.matchAll(/^\|\s*\d+\s*\|\s*([^|]+?)\s*\|/gm)].map((m) => m[1].trim());
+      for (const bron of bronie) assert.ok(html.includes(`<td>${bron}</td>`), `${slug}: wiersz ${bron}`);
+    }
+  }
 });
 
 test('każdy dodatkowy profil ma dostawę, źródło i sekcję w treści', () => {

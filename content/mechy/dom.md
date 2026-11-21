@@ -57,7 +57,7 @@ W październiku [[uc-0079|U.C. 0079]] [[black-tri-stars|Black Tri-Stars]] otrzym
 
 ## Parametry — Black Tri-Stars
 
-{| Miejsce | Nazwa          | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| Miejsce | Nazwa          | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
 | ------: | -------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
 |       0 | Heat Saber     |       1900 |  1–2   |       +60 |   5 |      — | Brak w tym polu | **Ucieczka (poziom bazowy 1):** Unik+18%                                 |
 |       1 | Wielka bazooka |       3000 |  1–5   |       +20 |  10 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
@@ -71,7 +71,7 @@ Heat Saber atakuje z zasięgu 1–2 i zwiększa unik, a wielka bazooka sięga pi
 
 ## Parametry — Żołnierz Zeonu
 
-{| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie | EN | Morale | Warunek | Zdolności — opisy bazowe |
 |---:|---|---:|:---:|---:|---:|---:|---|---|
 | 0 | Heat Saber | 1500 | 1–2 | +50 | 5 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
 | 1 | Wielka bazooka | 1800 | 1–4 | +10 | 10 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
