@@ -477,3 +477,23 @@ Zasady:
   Inaczej nowy plik omija kontrolę, zamiast ją oblewać (L15).
 - **Porównuj nową scenę ze sceną wzorcową, nie tylko z listą testów.** Zielony `npm test`
   nie dowodzi, że wszystkie sekcje sceny są na miejscu.
+
+## L34 — Dziennik zmian nie przepisuje tabel mechaniki (2026-11-21)
+
+Wpis o Seishirowie brzmiał „włada dwiema komendami Ducha: **Skupieniem**
+(Unik+20%, Celność+25%) i **Pędem** (Ruch+3)”. To nie metajęzyk o pracy nad bazą,
+ale wciąż nie treść o świecie: czytelnik dostaje wyciąg z tabeli parametrów w miejscu,
+w którym dziennik ma mówić, co nowego dzieje się na stronach — i co z tego wynika
+dla postaci. Test `test/dziennik-zmian.test.js` przepuszczał taki wpis, bo pilnował
+wyłącznie słów o procesie.
+
+Zasady:
+
+- **Liczby z tabel zostają w tabelach.** W dzienniku piszemy o zjawisku („gdy wróg
+  bierze go na cel, zbiera myśli i nie daje się trafić”), nie o wartościach
+  (`Unik+20%`, `x1,5`, `Ruch+3`).
+- **Test pilnuje kształtu, nie tylko słownika.** Nowe wzorce: procenty, mnożniki
+  `×`/`x` z liczbą i przyrosty statystyk (`Unik+20`). Nazwy własne typu `HAL-X10`
+  i daty muszą zostać dopuszczone — inaczej strażnik karze za fikcję.
+- **Poprawiając wpis, popraw też jego sens.** Skrócenie do „ma dwie komendy” nadal
+  mówi o rekordzie; opis musi powiedzieć, co te komendy znaczą w walce.

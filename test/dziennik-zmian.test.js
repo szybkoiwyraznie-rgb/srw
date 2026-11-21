@@ -86,6 +86,11 @@ test('dziennik nie opisuje interfejsu ani technikaliów (ADR 0018)', () => {
     '\\bstron[ay]\\b|\\bstronie\\b|\\bstronach\\b|\\bstronom\\b|\\bstronami\\b',
     'nowe strony', 'nowe hasła', 'nowe opisy', 'nowe profile', 'nowi piloci', 'nowe postacie',
     'nowe jednostki',
+    // liczby z tabel mechaniki zamiast zjawiska w świecie (ADR 0018 pkt 1,
+    // adnotacja właściciela 2026-11-21: „włada dwiema komendami Ducha:
+    // Skupieniem (Unik+20%, Celność+25%) i Pędem (Ruch+3)” to opis tabeli)
+    '\\d+\\s?%', '(?<![A-Za-z0-9-])[x×]\\s?\\d',
+    '\\b(?:Unik|Atak|Obrona|Celność|Kryt|Ruch|Morale|HP|EN|SP)\\s*[+\\-]\\s*\\d',
     // praca nad bazą zamiast treści bazy
     'audyt', 'dostaw[ay]\\b', 'właściciel', 'poprawki językowe', 'składni[aęi]', 'literówk',
     'wikipedi', 'odsyła linkiem', 'potwierdzon[aey] źródłowo', 'sprawdzone źródło',

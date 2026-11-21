@@ -2,7 +2,7 @@
 
 ## 2026-11-21 01:10
 
-- [[seishiro|Seishiro Kusanagi]] włada dwiema komendami Ducha: **Skupieniem** (Unik+20%, Celność+25%) i **Pędem** (Ruch+3). Za sterami [[exart|Exarta]] wystarcza mu to, żeby prowadzić [[himari-yaegaki|Himari]] przez pierwsze starcia.
+- [[seishiro|Seishiro Kusanagi]] prowadzi [[exart|Exarta]] pewnie i bez pośpiechu: gdy wróg bierze go na cel, zbiera myśli i nie daje się trafić, a kiedy trzeba, rusza przez pole walki, żeby osłonić [[himari-yaegaki|Himari]].
 
 ## 2026-11-21 00:45
 
