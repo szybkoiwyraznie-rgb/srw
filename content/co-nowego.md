@@ -2,8 +2,8 @@
 
 ## 2026-11-20 23:45
 
-- [[gurren-lagann|Gurren Lagann]] pod [[simon|Simonem]] bije walką wręcz za 2600 i wyprowadza Toroidal Burst oraz Skull Break; gdy głównym pilotem zostaje [[kamina|Kamina]], cios wręcz sięga 2800, Gurren Boomerang i Shades Cutter są mocniejsze, a w miejsce Toroidal Burst wchodzi Full Drillize.
-- [[dom|Dom]] w rękach [[black-tri-stars|Black Tri-Stars]] ma Heat Saber o mocy 1900 i wielką bazookę o zasięgu pięciu pól; seryjne maszyny [[zolnierz-zeonu|Żołnierza Zeonu]] biją słabiej — 1500 — i sięgają czterech pól.
+- [[gurren-lagann|Gurren Lagann]] zmienia charakter walki wraz z głównym pilotem: pod [[simon|Simonem]] wyprowadza obszarowy Toroidal Burst i przebijający bariery Skull Break, a gdy ster przejmuje [[kamina|Kamina]], maszyna mocniej bije wręcz, miota cięższy Gurren Boomerang, rozcina wrogów Shades Cutterem i w miejsce Toroidal Burst wyprowadza Full Drillize wymierzony w mniejsze jednostki.
+- [[dom|Dom]] [[black-tri-stars|Black Tri-Stars]] tnie Heat Saberem i sięga wielką bazooką dalej niż seryjne maszyny [[zolnierz-zeonu|Żołnierza Zeonu]], których Heat Saber i bazooka są słabsze i krótsze — a asy trafiają nimi celniej.
 
 ## 2026-11-20 23:05
 

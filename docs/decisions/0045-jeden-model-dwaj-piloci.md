@@ -28,24 +28,29 @@ dostaje własną stronę — bez rozróżnienia, czy różnica jest widoczna, cz
 2. **Parametry dzielą się na sekcje.** Ciało strony ma osobne bloki
    `{{menu gra=…}}` z nagłówkami `## Parametry — <pilot albo oddział>`, w kolejności
    od profilu podstawowego do dodatkowego. Każda sekcja powtarza pełną tabelę uzbrojenia
-   i zdolności własnego wariantu; nie ujednolicamy wartości i nie dopisujemy różnic poza tabelą.
+   i zdolności własnego wariantu; nie ujednolicamy wartości.
 3. **Profil podstawowy zostaje w `w_gre`, dodatkowe w `w_gre_dodatkowe`.** `w_gre` zachowuje
    dotychczasowy kształt (mapa gra → JSON z polami `dostawa`, `profil`, `dane`), żeby nie
    zmieniać istniejących odczytów. `w_gre_dodatkowe` to **płaska lista** takich samych
    rekordów JSON, każdy z dodatkowym polem `gra`. Płaska lista wynika z parsera frontmattera
    (ADR 0002), który obsługuje tylko jeden poziom zagnieżdżenia.
-4. **Galeria i manifest scalają się pod slugiem modelu.** Pliki obu wariantów trafiają do
+4. **Opis mówi językiem świata, a tabela mówi liczbami.** Sekcja parametrów przenosi
+   wartości z dostawy, ale proza przy niej (i wpis w `content/co-nowego.md`) opisuje
+   różnicę tak, jak zobaczyłby ją obserwator maszyny: inny cios, dłuższy zasięg, mocniejsza
+   broń. Nazwy ataków zostają, bo to nazwy własne uzbrojenia. Zdania w rodzaju „cios za 2800”
+   albo „bazooka o mocy 1900” są błędem redakcyjnym: liczby należą do tabeli, nie do prozy.
+5. **Galeria i manifest scalają się pod slugiem modelu.** Pliki obu wariantów trafiają do
    jednej sekcji `## Ilustracje`, a `media/ilustracje.json` ma jeden klucz i wszystkie pliki.
-5. **Różnica widoczna albo w uzbrojeniu = osobne strony.** Inny kolor (Gelgoog/Gelgoog Char,
+6. **Różnica widoczna albo w uzbrojeniu = osobne strony.** Inny kolor (Gelgoog/Gelgoog Char,
    Zaku II/Zaku II Char) albo inny zestaw broni (Bolt Robo, Zaku II, Kämpfer) zostają
    osobnymi wpisami, bo użytkownik widzi je jako różne maszyny, a nie dwie konfiguracje
    tej samej. Osobne strony zachowują także formy transformacji (Cybuster/Cybird,
    VF-25F/Fighter i /Battroid).
-6. **Stary slug znika, a nie przekierowuje.** Baza nie ma mechanizmu przekierowań, więc
+7. **Stary slug znika, a nie przekierowuje.** Baza nie ma mechanizmu przekierowań, więc
    scena, epizod, postać i dziennik zmieniają odsyłacze na slug modelu. Wpisów dziennika
    nie przepisujemy historycznie — poprawiamy w nich tylko to, co po scaleniu byłoby
    nieprawdą (np. zdanie o „odrębnej jednostce”).
-7. **Dostawa wskazuje każdy profil osobno.** `tools/uczestnicy-dostaw.mjs` czyta profile
+8. **Dostawa wskazuje każdy profil osobno.** `tools/uczestnicy-dostaw.mjs` czyta profile
    z `w_gre` i `w_gre_dodatkowe`, więc rekord „Dom” i „Dom (Black Tri-Stars)” prowadzą
    do tej samej strony.
 
@@ -75,6 +80,8 @@ Poza Domem i Gurren Laganniem baza nie ma już par różniących się wyłączni
 
 - **Osobne strony dla każdego pilota** — dublują opis modelu, dzielą galerię i pokazują
   użytkownikowi dwie maszyny tam, gdzie jest jedna.
+- **Proza z liczbami z tabeli** — „cios za 2800” nie mówi czytelnikowi nic o samej maszynie
+  i brzmi jak instrukcja do gry; wartości zostają w tabeli, a opis tłumaczy ich sens.
 - **Strona zbiorcza z jedną tabelą i przypisami** — gubi różnice w uzbrojeniu; parametry
   muszą być czytelne w całości dla każdego wariantu.
 - **Zagnieżdżona mapa `w_gre_dodatkowe: srw-oe: [...]`** — parser frontmattera przyjmuje

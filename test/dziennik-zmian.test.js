@@ -49,6 +49,26 @@ test('wpisy idą od najnowszego i mają unikalne znaczniki czasu', () => {
   assert.deepEqual(naglowki, posortowane, 'kolejność wpisów musi być malejąca');
 });
 
+test('dziennik nie mówi liczbami parametrów (ADR 0045 pkt 4)', () => {
+  // Liczby z tabel uzbrojenia należą do tabeli; wpis opisuje różnicę językiem świata
+  // („mocniejszy cios”, „dłuższy zasięg”), a nie „cios za 2800”.
+  const liczbyParametrow = new RegExp([
+    '\\bza\\s+[+-]?\\d{3,4}\\b',
+    '\\bo mocy\\s+[+-]?\\d{3,4}\\b',
+    '\\bmoc(?:y|ą)?\\s+(?:bazowa\\s+)?[+-]?\\d{3,4}\\b',
+    '\\btrafienie\\s+[+-]?\\d{1,4}\\b',
+    '\\bzasi[ęe]g\\w*\\s+\\d',
+    '\\d{3,4}\\s*(?:obrażeń|obrażeń|pól|pola)',
+    '\\b(?:cios|atak|strzał)\\w*\\s+[+-]?\\d{3,4}\\b',
+    '\\b(?:sięga|sięgają|biją|bije|zadaje|zadają|wynosi|wynoszą)\\s+[+-]?\\d{3,4}\\b',
+  ].join('|'), 'iu');
+  for (const wpis of wpisy()) {
+    for (const linia of wpis.tresc) {
+      assert.doesNotMatch(linia, liczbyParametrow, `wpis ${wpis.naglowek} mówi liczbami parametrów`);
+    }
+  }
+});
+
 test('dziennik nie opisuje interfejsu ani technikaliów (ADR 0018)', () => {
   const technikalia = new RegExp([
     // interfejs i sposób wyświetlania

@@ -16,7 +16,7 @@ utworzono: 2026-10-21
 ---
 {{skrypt gra=srw-oe
 
-Odmiana [[hal-x10|HAL-X10]] oznaczona jako Green, obecna na poligonie Fuji w trzech egzemplarzach obok maszyny podstawowej. Ma nieco słabsze uzbrojenie: minigun o mocy 1100, wyrzutnię rakiet o mocy 800 i wyrzutnię ATM o mocy 1900.
+Odmiana [[hal-x10|HAL-X10]] oznaczona jako Green, obecna na poligonie Fuji w trzech egzemplarzach obok maszyny podstawowej. Nosi nieco słabsze uzbrojenie niż wersja podstawowa: lżejszy minigun, słabszą wyrzutnię rakiet i wyrzutnię ATM o mniejszej sile rażenia.
 
 Podobnie jak podstawowy HAL-X10 walczy bez załogi, a jej poczynaniami kieruje system [[shinohara-hos|HOS]].
 
