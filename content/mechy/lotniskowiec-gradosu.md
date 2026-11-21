@@ -27,7 +27,17 @@ W *Blue Comet SPT Layzner* (1985–1986) armia Gradosu dysponuje własnymi okrę
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Lotniskowiec Gradosu — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Lotniskowiec%20Grados.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
+
 
 **Seria:** [[blue-comet-spt-layzner|Blue Comet SPT Layzner]]
 
