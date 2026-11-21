@@ -49,6 +49,28 @@ dostaje własną stronę — bez rozróżnienia, czy różnica jest widoczna, cz
    z `w_gre` i `w_gre_dodatkowe`, więc rekord „Dom” i „Dom (Black Tri-Stars)” prowadzą
    do tej samej strony.
 
+## Przegląd par w bazie (2026-11-20)
+
+Przejrzano wszystkie 99 stron mechów pod kątem par „ten sam model, inny pilot”:
+
+| Para | Werdykt |
+|---|---|
+| `dom` + `dom-zolnierz-zeonu` | **scalone** — ten sam MS-09, inna załoga i parametry |
+| `gurren-lagann` (Simon) + profil Kaminy | **scalone** — jedna strona, dwa zestawy parametrów |
+| `ingram-nr-1` + `ingram-nr-2` | osobne — nr 2 ma działo rewolwerowe i strzelbę zamiast linki |
+| `gelgoog` + `gelgoog-char`, `zaku-ii-char` | osobne — inny kolor |
+| `zaku-ii-bazooka` / `-karabin-maszynowy` / `-kai` | osobne — inne uzbrojenie |
+| `bolt-robo-*` (4), `kampfer-*` (2), `brocken-*` (3) | osobne — inne uzbrojenie |
+| `hal-x10` + `hal-x10-green` | osobne — inny kolor |
+| `gundam-ground-type` + `…-glowa-gm` | osobne — inna głowa i uzbrojenie |
+| `wing-gundam-zero` + `wing-gundam-zero-nb` | osobne — forma transformacji |
+| `vf-25f/rvf-25/vf-25g` + wersje `-battroid` | osobne — formy transformacji |
+| `macross-quarter` + `-attack-mode` | osobne — forma transformacji |
+| `shin-getter-1/2/3`, `getter-arc/khan/kirik` | osobne — różne maszyny zespołowe |
+| `mucus-gate-s-in` + `mucus-gate-s-mc` | osobne — dwie różne bramy różnych frakcji, nie jedna maszyna |
+
+Poza Domem i Gurren Laganniem baza nie ma już par różniących się wyłącznie pilotem.
+
 ## Odrzucone alternatywy
 
 - **Osobne strony dla każdego pilota** — dublują opis modelu, dzielą galerię i pokazują
