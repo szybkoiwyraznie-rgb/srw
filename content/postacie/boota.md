@@ -44,4 +44,5 @@ W [[tengen-toppa-gurren-lagann|pierwowzorze]] Boota (ブータ) jest oswojonym k
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Wiatr** | 1 | 20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
+| 2 | **Więź** | 8 | 15 | Cel: sojusznicy 1 jedn. (Celność w górę) — Zasięg 4+'Celny strzał Lv 1' |
 }}

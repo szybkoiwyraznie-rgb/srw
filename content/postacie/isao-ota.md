@@ -65,6 +65,7 @@ Sam zgłosił się do przeniesienia do [[sv2|SV2]] i trafił do niedoborowego Dr
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Niezł.** | 1 | 15 | Cel: ty Efekt: 1 razy — Otrzym. obrażenia-50% |
+| 2 | **Hart** | 8 | 20 | Cel: ty — Odnawia 25% HP |
 
 ### Umiejętności pilota
 

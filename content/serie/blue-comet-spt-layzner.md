@@ -16,7 +16,7 @@ utworzono: 2026-11-19
 
 Serial telewizyjny z lat 1985–1986 o inwazji armii Gradosu na Układ Słoneczny i o chłopcu wychowanym w Gradosie, który staje po stronie Ziemi.
 
-W *Super Robot Wars OE* serię reprezentują [[enh-layzner|Enhanced Layzner]] ze sztuczną inteligencją [[rei|Rei]], jednostki [[braver|Braver]] i [[daljan|Daljan]] oraz ich pilot [[albatro-null-eiji-asuka|Eiji Asuka]] i dowódca wroga [[gosterro|Gosterro]]. Z tej serii pochodzi też armia [[grados|Gradosu]], która w [[srw-oe-ep3-napasc-na-baze-marsjanska|misji na Marsie]] atakuje bazę [[earth-federation|Federacji]].
+W *Super Robot Wars OE* serię reprezentują [[enh-layzner|Enhanced Layzner]] ze sztuczną inteligencją [[rei|Rei]], jednostki [[braver|Braver]] i [[daljan|Daljan]], [[lotniskowiec-gradosu|nowy gigantyczny lotniskowiec Gradosu]] oraz ich piloci: [[albatro-null-eiji-asuka|Eiji Asuka]], dowódca [[gosterro|Gosterro]], [[zolnierz-gradosu|Żołnierz Gradosu]] i [[oficer-gradosu|Oficer Gradosu]]. Z tej serii pochodzi też armia [[grados|Gradosu]], która w [[srw-oe-ep3-napasc-na-baze-marsjanska|misji na Marsie]] atakuje bazę [[earth-federation|Federacji]].
 }}
 
 {{zrodlo gra=wspolne

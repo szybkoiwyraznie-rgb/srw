@@ -48,4 +48,5 @@ W [[srw-oe|Super Robot Wars OE]] Alan należy do [[cyber-beast-force|Cyber Beast
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 | ---: | --------- | ---------: | -------: | ------------------------------------------------------- |
 | 1 | **Mur** | 1 | 20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30% |
+| 2 | **Wiatr** | 8 | 20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
 }}

@@ -53,6 +53,7 @@ W [[getter-robo-armageddon|pierwowzorze]] Gai (凱) jest pogodnym i opanowanym m
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Hart** | 1 | 20 | Cel: ty — Odnawia 25% HP |
+| 2 | **Mur** | 7 | 20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30% |
 
 ### Umiejętności pilota
 

@@ -53,6 +53,7 @@ W [[getter-robo-armageddon|pierwowzorze]] Kei Kuruma (車 渓) to zadziorna, zde
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Pęd** | 1 | 20 | Cel: ty Efekt: 1 razy — Ruch+3 |
+| 2 | **Przebł.** | 6 | 10 | Cel: ty Efekt: 1 razy — Unik+30% |
 
 ### Umiejętności pilota
 

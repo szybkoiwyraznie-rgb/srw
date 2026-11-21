@@ -2,6 +2,7 @@
 typ: postac
 slug: catherine-glass
 tytul: Catherine Glass
+pseudonim: Cathy
 rola: wsparcie
 seria: macross-frontier
 gry: [srw-oe]

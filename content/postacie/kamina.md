@@ -54,6 +54,7 @@ W [[tengen-toppa-gurren-lagann|pierwowzorze]] Kamina (カミナ) to charyzmatycz
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Zapał** | 1 | 20 | Cel: ty Efekt: 1 razy — Zadawane obrażenia x1,5 |
+| 2 | **Hart** | 8 | 20 | Cel: ty — Odnawia 25% HP |
 
 ### Umiejętności pilota
 

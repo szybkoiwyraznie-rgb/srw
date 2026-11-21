@@ -1,5 +1,13 @@
 # Co nowego
 
+## 2026-11-21 00:20
+
+- [[lotniskowiec-gradosu|Nowy gigantyczny lotniskowiec Gradosu]] wyłania się z marsjańskiej doliny i osłania własne SPT ogniem przeciwlotniczym oraz rakietami; jego działo wiązkowe najdotkliwiej razi okręty i okręty-matki, a rakiety — maszyny w powietrzu.
+- [[oficer-gradosu|Oficer Gradosu]] woli zniszczyć własną jednostkę, niż oddać ją wrogowi: po ewakuacji załogi w kapsułach wysadza okręt, żeby wybuch odciął [[connect-force|Connect Force]] drogę do ruin.
+- [[balarant|Sojusz Balarantu]] zbudował potęgę [[connect-force|Connect]], a potem ukradł zarządzaną przez nią [[brama-warp|bramę warp]]; skradziony model jest stary i przerzuca ograniczony ładunek, dlatego Balarant szuka potęg za bramą i zawiera układy z [[grados|Gradosem]] i [[pentagona|Pentagoną]].
+- [[pentagona|Pentagona]] jest trzecim z sojuszy najeżdżających sąsiednie przestrzenie, a równowagę wobec [[balarant|Balarantu]] utrzymuje [[zwiazek-gilgamesh|Związek Gilgamesh]], od stu lat tkwiący z nim w martwym punkcie.
+- [[apollo-x|Apollo X]] był programem badań cywilizacji Marsa; po zaginięciu jednej z grup badawczych projekt przerwano, a doktor Asuka — ojciec [[albatro-null-eiji-asuka|Eijiego]] — dotarł przez kosmos aż na [[grados|Gradosa]].
+
 ## 2026-11-20 23:45
 
 - [[gurren-lagann|Gurren Lagann]] zmienia charakter walki wraz z głównym pilotem: pod [[simon|Simonem]] wyprowadza obszarowy Toroidal Burst i przebijający bariery Skull Break, a gdy ster przejmuje [[kamina|Kamina]], maszyna mocniej bije wręcz, miota cięższy Gurren Boomerang, rozcina wrogów Shades Cutterem i w miejsce Toroidal Burst wyprowadza Full Drillize wymierzony w mniejsze jednostki.

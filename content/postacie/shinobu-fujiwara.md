@@ -53,6 +53,7 @@ W [[super-beast-machine-god-dancouga|pierwowzorze]] Shinobu Fujiwara jest głów
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 | ---: | ---------- | ---------: | -------: | ----------------------------------------------- |
 | 1 | **Duch** | 1 | 15 | Cel: ty — Morale+5 |
+| 2 | **Zapał** | 8 | 20 | Cel: ty Efekt: 1 razy — Zadawane obrażenia x1,5 |
 
 ### Umiejętności pilota
 
