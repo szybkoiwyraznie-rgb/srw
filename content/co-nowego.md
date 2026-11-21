@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-21 00:45
+
+- [[albatro-null-eiji-asuka|Eiji]] prowadzi [[connect-force|Connect Force]] do okrętu awangardy [[grados|Gradosu]] i wyjawia, że to jego ojciec odkrył marsjańskie ruiny w ramach projektu [[apollo-x|Apollo X]]; po zwycięstwie myśli już o planecie cierpiącej jako kolonia Gradosu.
+- [[gosterro|Gosterro]] nie obchodzi, czy najazd jest słuszny — chce się wyszaleć; wycofuje się z pogróżkami, że przywiezie głowę [[albatro-null-eiji-asuka|Eijiego]] na Gradosa, a [[alto-saotome|Alto]] przyznaje, że nie chce pociągać za spust z nienawiści.
+- Na [[stacja-mars|Stacji Connect]] załoga dowiaduje się, że [[balarant|Sojusz Balarantu]] udawał przyjaźń, żeby ukraść [[brama-warp|bramę warp]], i że zniszczyli inwazję Gradosu, zanim dotarła do Ziemi.
+
 ## 2026-11-21 00:20
 
 - [[lotniskowiec-gradosu|Nowy gigantyczny lotniskowiec Gradosu]] wyłania się z marsjańskiej doliny i osłania własne SPT ogniem przeciwlotniczym oraz rakietami; jego działo wiązkowe najdotkliwiej razi okręty i okręty-matki, a rakiety — maszyny w powietrzu.

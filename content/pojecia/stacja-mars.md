@@ -14,4 +14,6 @@ Największa baza [[connect-force|Connect]] w Układzie Słonecznym, do której [
 [[himari-yaegaki|Himari]] uczy się o bramach warp i o Stacji Mars po zdobyciu bazy piratów; szerszy dostęp do bazy danych zawdzięcza fotelowi podpilotki [[exart|Exarta]]. W sektorze Marsa stacja jest punktem, do którego prowadzi wiązka naprowadzająca okręt.
 
 W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] załoga nie dociera jednak od razu na stację: najpierw odbiera SOS z naziemnej bazy Federacji i razem z [[eskadra-skull|Eskadrą Skull]] oraz [[macross-quarter|Macross Quarterem]] odpiera atak [[grados|Gradosu]]. Dopiero po walce okręty lądują, a na stacji [[albatro-null-eiji-asuka|Eiji Asuka]] zeznaje, że Grados zamierza podbić Ziemię. Na odprawie [[suol|szef Suol]] przyjmuje go do Connect Force, a Macross Quarter i Eskadra Skull wchodzą w skład floty.
+
+W [[srw-oe-ep4-atak-na-okret-gradosu|„Ataku na okręt Gradosu”]] stacja jest miejscem odpraw po zajęciu ruin: [[suol|Szef Suol]] przyznaje tam, że stacjonowanie Connect Force na Marsie było błędem w rachubach Gradosu, i zapowiada badanie oraz obronę zdobytych ruin. Z tarasu widokowego [[himari-yaegaki|Himari]] patrzy na [[brama-warp|bramę warp]], a w centrum dowodzenia załoga dowiaduje się o [[balarant|Sojuszu Balarantu]], [[pentagona|Pentagonie]] i [[zwiazek-gilgamesh|Związku Gilgamesh]].
 }}

@@ -16,6 +16,8 @@ utworzono: 2026-11-19
 SPT zbudowany przez armię [[grados|Gradosu]] i prowadzony przez [[albatro-null-eiji-asuka|Eijiego Asukę]]. W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] pojawia się nad marsjańską bazą [[earth-federation|Federacji]] jak wróg: obsługa bazy bierze go za drugi rzut napastników, dopóki Eiji nie prześle komunikatu, że nie jest wrogiem, i nie staje w jej obronie. Maszyna jest spokrewniona z [[braver|Braverami]] i [[daljan|Daljanem]] [[gosterro|Gosterra]], więc [[alto-saotome|Alto]] od razu rozpoznaje w niej „SPT, maszyny armii Gradosu”.
 
 W walce korzysta z trybu V-MAX — przyspieszenia, które pozwala atakować z dużej odległości i przebijać szyk wroga — a jego macierzyste zdolności, Powidok i Rei, zwiększają szansę uniku i celność. Gdy [[macross-quarter|Macross Quarter]] nadciąga z odsieczą, Eiji ląduje na jego pokładzie, a po walce wstępuje do [[connect-force|Connect Force]].
+
+W [[srw-oe-ep4-atak-na-okret-gradosu|„Ataku na okręt Gradosu”]] maszyna prowadzi natarcie na okręt awangardy [[grados|Gradosu]]: czujniki Layznera potwierdzają, że po walce w okolicy nie ma już wrogich SPT, i to otwiera [[connect-force|Connect Force]] drogę do ruin. W starciu z [[daljan|Daljanem]] [[gosterro|Gosterra]] Eiji odpowiada [[rei|Rei]] „Naprzód!”, a sztuczna inteligencja potwierdza gotowość.
 }}
 
 {{menu gra=srw-oe

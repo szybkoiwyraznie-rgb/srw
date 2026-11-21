@@ -16,6 +16,8 @@ utworzono: 2026-11-19
 {{skrypt gra=srw-oe
 
 SPT armii [[grados|Gradosu]], podstawowa maszyna jej żołnierzy. W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] Bravery uderzają na bazę [[earth-federation|Federacji]] na Marsie falami — pierwsza liczy sześć maszyn — i rozbijają myśliwce oraz wozy przeciwlotnicze obrońców, zanim nad bazą pojawiają się [[enh-layzner|Enhanced Layzner]] i [[eskadra-skull|Eskadra Skull]]. Kolejne maszyny wchodzą do walki jako posiłki, gdy [[albatro-null-eiji-asuka|Eiji]] próbuje zmusić [[gosterro|Gosterra]] do odwrotu. Maszyna walczy w grupie: jej uzbrojenie to Knuckle Shot i karabin laserowy, a pilot wspiera sąsiednie jednostki dzięki umiejętności Szeregowy.
+
+W [[srw-oe-ep4-atak-na-okret-gradosu|„Ataku na okręt Gradosu”]] Bravery bronią podejścia do ruin po wysadzeniu własnego okrętu przez [[oficer-gradosu|Oficera Gradosu]] — [[bright-noa|Bright]] nie pozwala iść prosto do doliny, dopóki reszta maszyn bojowych nie zostanie rozbita.
 }}
 
 {{zrodlo gra=wspolne
