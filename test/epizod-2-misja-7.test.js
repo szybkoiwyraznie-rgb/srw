@@ -1,6 +1,7 @@
 /** Dostawa 2-7: pościg Zanzibara, przerwanie ognia przez Connect i start Bigro. */
 import test from 'node:test';
 import { bezEtykietDialogow } from './helpers/skrypt-oe.js';
+import { ostatnieBlokiDuchow, kluczKomendy } from './helpers/komendy.js';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import { createHash } from 'node:crypto';
@@ -145,10 +146,20 @@ test('dziewiętnastu pilotów ma statystyki z dostawy, w tym nowy pilot Bigro', 
     'Żołnierz Zeonu': 'zolnierz-zeonu', 'Char Aznable': 'char-aznable',
     Slender: 'slender', Crown: 'crown', Tokwan: 'tokwan',
   };
-  // Dostawa 2-7 dawała Seishirowi cztery komendy Ducha, ale każda późniejsza —
-  // od 3-1 po 4-1 — podaje znów tylko Skupienie i Pęd. Wiąże stan najnowszy
-  // (ADR 0044), więc trzeci i czwarty wiersz tego bloku są historyczne.
-  const nieaktualne = new Map([['seishiro', [/^\|\s*3\s*\|/, /^\|\s*4\s*\|/]]]);
+  // Wiersz Komendy Ducha liczy się tylko wtedy, gdy zgadza się z ostatnim
+  // blokiem, który postać opisuje (ADR 0044). Dostawa 2-7 dawała Seishirowi
+  // cztery komendy, ale późniejsze podają dwie — a gdy kolejna dostawa dopisze
+  // mu nowe, ten warunek sam zacznie ich wymagać, bez zmiany testu.
+  const ostatnie = new Map([...ostatnieBlokiDuchow()].map(([n, d]) => [n, d.wiersze]));
+  const czyscKomende = (l) => kluczKomendy(l.split('|').slice(1, -1).map(czysc).join('|'));
+  const aktualna = (slug, wiersz) => {
+    // Wiersze parametrów (SP, Atak…) nie są Komendami Ducha — zawsze obowiązują.
+    if (!/^\|\s*\d+\s*\|/.test(wiersz)) return true;
+    const nazwa = Object.keys(nazwy).find((n) => nazwy[n] === slug);
+    const blok = ostatnie.get(nazwa);
+    if (!blok) return true; // brak bloku w dostawach — wymagamy jak dotąd
+    return blok.map(czyscKomende).includes(czyscKomende(wiersz));
+  };
   const tekst = raw.split('#### Piloci i postacie w misji oraz skrypcie sceny')[1].split('##### Postacie niebojowe')[0];
   let ile = 0;
   for (const m of tekst.matchAll(/^#### ([^\n]+)\n([\s\S]*?)(?=^#### |$(?![\s\S]))/gm)) {
@@ -159,7 +170,7 @@ test('dziewiętnastu pilotów ma statystyki z dostawy, w tym nowy pilot Bigro', 
     const wiersze = pilot.body.split('\n').filter((l) => l.startsWith('|'))
       .map((l) => l.split('|').slice(1, -1).map(czysc).join('|'));
     for (const wiersz of m[2].split('\n').filter((l) => /^\|\s*(\d+|\*\*(SP|Atak|Obrona|Celność|Unik)\*\*)\s*\|/.test(l))) {
-      if ((nieaktualne.get(pilot.slug) ?? []).some((wzorzec) => wzorzec.test(wiersz))) continue;
+      if (!aktualna(pilot.slug, wiersz)) continue; // wiersz historyczny — patrz wyżej
       assert.ok(wiersze.includes(wiersz.split('|').slice(1, -1).map(czysc).join('|')), `${pilot.slug}: ${wiersz}`);
     }
   }

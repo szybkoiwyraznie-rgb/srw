@@ -107,14 +107,14 @@ test('pierwsza misja epizodu 4 dokłada drugie Komendy Ducha pilotom z dostawy',
   }
 });
 
-test('Seishiro zostaje przy dwóch Komendach Ducha z dostawy', () => {
-  // Dostawa 2-7 pokazała mu kiedyś cztery komendy (Duch, Zapał), ale każda
-  // późniejsza — 3-1 do 4-1 — podaje tylko Skupienie i Pęd (ADR 0044).
-  const seishiro = bySlug.get('seishiro');
-  assert.match(seishiro.body, /\|\s*1\s*\|\s*\*\*Skupienie\*\*\s*\|\s*1\s*\|/);
-  assert.match(seishiro.body, /\|\s*2\s*\|\s*\*\*Pęd\*\*\s*\|\s*6\s*\|/);
-  assert.doesNotMatch(seishiro.body, /\|\s*\*\*Duch\*\*\s*\|/);
-  assert.doesNotMatch(seishiro.body, /\|\s*\*\*Zapał\*\*\s*\|/);
+test('Seishiro dostaje komendy Ducha z bieżącego bloku dostawy 4-1', () => {
+  // Dostawa 4-1 podaje mu Skupienie i Pęd. Wcześniejsza 2-7 miała cztery
+  // komendy (Duch, Zapał), ale stan opisuje blok najnowszy (ADR 0044);
+  // gdy kolejna dostawa dopisze mu nowe komendy, ten test zmienia się razem
+  // ze stroną — nie blokuje przyszłego rozwoju postaci.
+  const sekcja = /### Komendy Ducha\n([\s\S]*?)\n\n/.exec(bySlug.get('seishiro').body)[1];
+  assert.match(sekcja, /\|\s*1\s*\|\s*\*\*Skupienie\*\*\s*\|\s*1\s*\|/);
+  assert.match(sekcja, /\|\s*2\s*\|\s*\*\*Pęd\*\*\s*\|\s*6\s*\|/);
 });
 
 test('hasła misji 4-1 oddzielają materiał scen od pierwowzorów', () => {
