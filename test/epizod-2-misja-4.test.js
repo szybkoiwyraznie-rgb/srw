@@ -69,7 +69,7 @@ test('obsada sceny to załoga White Base, 08. Pluton MS i siły desantu Zeonu', 
   assert.deepEqual(scene.postacie, obsada);
   const jednostki = ['white-base', 'g-fighter', 'guncannon', 'rx-78-2-gundam', 'gundam-ez8',
     'gundam-ground-type', 'gundam-ground-type-glowa-gm', 'guntank', 'hover-truck',
-    'zaku-ii-char', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy', 'dom-zolnierz-zeonu', 'zanzibar'];
+    'zaku-ii-char', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy', 'dom', 'zanzibar'];
   assert.deepEqual(scene.mechy, jednostki);
   for (const key of ['postacie', 'mechy', 'pojecia']) {
     for (const slug of scene[key]) assert.ok(episode[key].includes(slug), `${key}: ${slug}`);
@@ -89,7 +89,7 @@ function attacks(text) {
 
 test('trzynaście profili maszyn zachowuje wartości uzbrojenia z dostawy', () => {
   const names = {
-    'Dom': 'dom-zolnierz-zeonu', 'G-Fighter': 'g-fighter', 'Guncannon': 'guncannon',
+    'Dom': 'dom', 'G-Fighter': 'g-fighter', 'Guncannon': 'guncannon',
     'Gundam': 'rx-78-2-gundam', 'Gundam Ez8': 'gundam-ez8',
     'Ground Gundam (Gundam Ground Type)': 'gundam-ground-type',
     'Grd Gundam/GM (Gundam Ground Type/głowa GM)': 'gundam-ground-type-glowa-gm',
@@ -105,9 +105,16 @@ test('trzynaście profili maszyn zachowuje wartości uzbrojenia z dostawy', () =
     count++;
     const unit = bySlug.get(names[m[1]]);
     assert.ok(unit, m[1]);
-    const data = JSON.parse(unit.w_gre['srw-oe']);
+    // Strona scalonego modelu ma kilka zestawów parametrów (ADR 0045);
+    // porównujemy ten, którego nazwę podaje dostawa.
+    const profile = [unit.w_gre['srw-oe'], ...(unit.w_gre_dodatkowe ?? [])].map((w) => JSON.parse(w));
+    const data = profile.find((x) => x.profil === m[1]) ?? profile[0];
     assert.deepEqual(attacks(data.dane), attacks(m[2]), unit.slug);
-    assert.deepEqual(attacks(unit.body), attacks(m[2]), `${unit.slug}: tabela widoczna`);
+    const widoczne = attacks(unit.body);
+    for (const row of attacks(m[2])) {
+      assert.ok(widoczne.some((r) => JSON.stringify(r) === JSON.stringify(row)),
+        `${unit.slug}: tabela widoczna ${row[1]}`);
+    }
   }
   assert.equal(count, 13);
   assert.equal(attacks(bySlug.get('zanzibar').body).length, 4);

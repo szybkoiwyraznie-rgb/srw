@@ -46,7 +46,7 @@ test('obsada, jednostki i pojęcia misji 3 są spięte ze sceną i epizodem', ()
     'amuro-ray', 'kai-shiden', 'hayato-kobayashi', 'sayla-mass', 'mirai-yashima', 'fraw-bow',
     'oscar-dublin', 'marker', 'zolnierz-zeonu'];
   const mechy = ['g-fighter', 'guncannon', 'rx-78-2-gundam', 'guntank', 'white-base',
-    'dom-zolnierz-zeonu', 'dopp', 'h-bomb-missile', 'zaku-ii-bazooka',
+    'dom', 'dopp', 'h-bomb-missile', 'zaku-ii-bazooka',
     'zaku-ii-karabin-maszynowy'];
   const pojecia = ['operacja-odessa', 'traktat-antarktyczny', 'black-tri-stars', 'zeon',
     'earth-federation', 'mobile-suit'];
@@ -67,22 +67,27 @@ test('obsada, jednostki i pojęcia misji 3 są spięte ze sceną i epizodem', ()
   }
 });
 
-test('zwykły Dom jest odrębną jednostką od Domów Black Tri-Stars', () => {
-  const zwykly = bySlug.get('dom-zolnierz-zeonu');
-  const triStars = bySlug.get('dom');
-  assert.equal(zwykly.typ, 'mech');
-  assert.equal(zwykly.seria, 'mobile-suit-gundam-1979');
-  assert.deepEqual(zwykly.piloci, ['zolnierz-zeonu']);
-  assert.deepEqual(triStars.piloci, ['gaia', 'ortega', 'mash']);
-  const stats = JSON.parse(zwykly.w_gre['srw-oe']);
-  assert.equal(stats.dostawa, 'dostawy/srw-oe/dostawa_1_3.txt');
-  assert.equal(stats.profil, 'Dom');
-  assert.match(zwykly.body, /\| 0 \| Heat Saber \| 1500 \| 1–2 \| \+50 \| 5 \|/);
-  assert.match(zwykly.body, /\| 1 \| Wielka bazooka \| 1800 \| 1–4 \| \+10 \| 10 \|/);
-  assert.match(triStars.body, /\|\s+0 \| Heat Saber\s+\|\s+1900 \|\s+1–2\s+\|\s+\+60 \|/);
+test('Dom ma jeden wpis i dwa zestawy parametrów zależne od pilota', () => {
+  const dom = bySlug.get('dom');
+  assert.equal(dom.typ, 'mech');
+  assert.equal(dom.seria, 'mobile-suit-gundam-1979');
+  assert.deepEqual(dom.piloci, ['gaia', 'ortega', 'mash', 'zolnierz-zeonu']);
+  const profil = JSON.parse(dom.w_gre['srw-oe']);
+  const dodatkowy = (dom.w_gre_dodatkowe ?? []).map((w) => JSON.parse(w));
+  assert.equal(profil.profil, 'Dom (Black Tri-Stars)');
+  assert.equal(profil.dostawa, 'dostawy/srw-oe/dostawa_1_2.txt');
+  assert.equal(dodatkowy.length, 1);
+  assert.equal(dodatkowy[0].gra, 'srw-oe');
+  assert.equal(dodatkowy[0].profil, 'Dom');
+  assert.equal(dodatkowy[0].dostawa, 'dostawy/srw-oe/dostawa_1_3.txt');
+  assert.match(dom.body, /## Parametry — Black Tri-Stars/);
+  assert.match(dom.body, /## Parametry — Żołnierz Zeonu/);
+  assert.match(dom.body, /\|\s+0 \| Heat Saber\s+\|\s+1900 \|\s+1–2\s+\|\s+\+60 \|/);
+  assert.match(dom.body, /\|\s+0 \| Heat Saber\s+\|\s+1500 \|\s+1–2\s+\|\s+\+50 \|/);
+  assert.match(dom.body, /\|\s+1 \| Wielka bazooka\s+\|\s+1800 \|\s+1–4\s+\|\s+\+10 \|/);
   // Lista maszyn pilota zbiorowego rośnie z każdą dostawą; komplet pilnuje
   // test/seria-z-dostawy.test.js, tutaj liczą się maszyny z pierwszych misji.
-  for (const mech of ['dom-zolnierz-zeonu', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']) {
+  for (const mech of ['dom', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']) {
     assert.ok(bySlug.get('zolnierz-zeonu').mechy.includes(mech), `Żołnierz Zeonu: ${mech}`);
   }
 });
@@ -138,12 +143,12 @@ test('odcinek 25 i Traktat Antarktyczny mają sprawdzone źródła, bez surowych
   assert.match(scena.body, /dwudziestego piątego odcinka/);
   assert.match(epizod.body, /odc\. 25 „The Fierce Battle for Odessa”/);
   for (const page of [scena, epizod, bySlug.get('general-revil'), bySlug.get('oficer-federacji'),
-    bySlug.get('oficer-zeonu'), bySlug.get('dom-zolnierz-zeonu'), bySlug.get('h-bomb-missile')]) {
+    bySlug.get('oficer-zeonu'), bySlug.get('dom'), bySlug.get('h-bomb-missile')]) {
     assert.doesNotMatch(page.body, /DL101_30|Entry ID|eventP00/, page.slug);
   }
 });
 
-test('Revil i Dom (Żołnierz Zeonu) mają dostarczone ilustracje, pozostałe nowe strony bez pustych galerii', () => {
+test('Revil i Dom mają dostarczone ilustracje, pozostałe nowe strony bez pustych galerii', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   const revil = bySlug.get('general-revil');
   assert.deepEqual(manifest.encje['general-revil'], ['characters/Revil.png']);
@@ -151,11 +156,12 @@ test('Revil i Dom (Żołnierz Zeonu) mają dostarczone ilustracje, pozostałe no
   assert.match(revil.body, /https:\/\/pub-f065608b5a964f3fb44480d8c9df01de\.r2\.dev\/characters\/Revil\.png/);
   assert.equal((revil.body.match(/^!\[/gm) ?? []).length, 1, 'Revil: jeden portret');
 
-  // Druga dostawa 2026-10-22: dwa obrazy zwykłego Doma (nazwy plików od właściciela).
-  const dom = bySlug.get('dom-zolnierz-zeonu');
-  assert.deepEqual(manifest.encje['dom-zolnierz-zeonu'], ['Dom Generic.png', 'Dom Generic 2.png']);
+  // Druga dostawa 2026-10-22: dwa obrazy zwykłego Doma dołączają do galerii
+  // scalonej strony Dom (ADR 0045).
+  const dom = bySlug.get('dom');
+  assert.deepEqual(manifest.encje['dom'], ['Dom.png', 'Dom 2.png', 'Dom Generic.png', 'Dom Generic 2.png']);
   assert.match(dom.body, /\{\{menu gra=srw-oe\n\n## Ilustracje/);
-  assert.equal((dom.body.match(/^!\[/gm) ?? []).length, 2, 'Dom: dwie ilustracje');
+  assert.equal((dom.body.match(/^!\[/gm) ?? []).length, 4, 'Dom: cztery ilustracje');
   assert.ok(dom.body.includes('https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dom%20Generic.png'));
   assert.ok(dom.body.includes('https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dom%20Generic%202.png'));
 

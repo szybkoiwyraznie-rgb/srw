@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-20 23:45
+
+- [[gurren-lagann|Gurren Lagann]] pod [[simon|Simonem]] bije walką wręcz za 2600 i wyprowadza Toroidal Burst oraz Skull Break; gdy głównym pilotem zostaje [[kamina|Kamina]], cios wręcz sięga 2800, Gurren Boomerang i Shades Cutter są mocniejsze, a w miejsce Toroidal Burst wchodzi Full Drillize.
+- [[dom|Dom]] w rękach [[black-tri-stars|Black Tri-Stars]] ma Heat Saber o mocy 1900 i wielką bazookę o zasięgu pięciu pól; seryjne maszyny [[zolnierz-zeonu|Żołnierza Zeonu]] biją słabiej — 1500 — i sięgają czterech pól.
+
 ## 2026-11-20 23:05
 
 - [[cybuster|Cybuster]] jest jedynym z czterech Masou Kishin Królestwa Langranu, który potrafi się przekształcać; w ptasiej formie [[cybird|Cybird]] porusza się szybciej niż w postaci humanoidalnej, a w niektórych grach taranuje nią cel w ataku Akashic Buster.
@@ -683,7 +688,7 @@
 - Załoga [[white-base|White Base]]: [[kai-shiden|Kai]] siadł za sterami [[guncannon|Guncannona]], bo okrętowi brakowało ludzi, [[hayato-kobayashi|Hayato]] zgłosił się do [[guntank|Guntanka]] z rywalizacji z [[amuro-ray|Amurem]], a [[oscar-dublin|Oscar]] i [[marker|Marker]] obsługują dwie konsole mostka — prawo- i lewoburtową.
 - [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] latali w batalionie szkolenia mobilnego, gdy Zeon dopiero uczył się walki [[mobile-suit|mobile suitami]], a rozgłos przyniosła im bitwa pod [[loum|Loum]].
 - [[slender|Slender]] pilnował wyjścia z [[side-7|Side 7]] podczas zwiadu, a [[crown|Crown]] atakował [[white-base|White Base]] przed wejściem w atmosferę.
-- [[dom-zolnierz-zeonu|Dom]] sunie nad gruntem na silnikach odrzutowych z prędkością do 380 km/h, a [[dopp|Doppa]] projektowano na symulacjach, bo inżynierowie [[zeon|Zeonu]] nie mieli gdzie próbować samolotów.
+- [[dom|Dom]] sunie nad gruntem na silnikach odrzutowych z prędkością do 380 km/h, a [[dopp|Doppa]] projektowano na symulacjach, bo inżynierowie [[zeon|Zeonu]] nie mieli gdzie próbować samolotów.
 
 ## 2026-10-24 09:37
 
@@ -710,7 +715,7 @@
 ## 2026-10-24 00:40
 
 - [[zolnierz-federacji|Żołnierz Federacji]] pracuje w placówce przejętej na [[zeon|Zeonie]] podczas [[operacja-odessa|operacji Odessa]]; to jego meldunek zamyka przygotowania do startu wahadłowca.
-- [[dom-zolnierz-zeonu|Dom szeregowych oddziałów]] ustępuje maszynom [[dom|Black Tri-Stars]] słabszym Heat Saberem i bazooką o krótszym zasięgu.
+- [[dom|Dom]] szeregowych oddziałów ustępuje maszynom [[black-tri-stars|Black Tri-Stars]] słabszym Heat Saberem i bazooką o krótszym zasięgu.
 
 ## 2026-10-23 20:13
 
@@ -761,7 +766,7 @@
 ## 2026-10-22 18:14
 
 - [[srw-oe-ep1-powstrzymaj-pocisk-termojadrowy|„Powstrzymaj pocisk termojądrowy”]] kończy [[operacja-odessa|operację Odessa]]: [[general-revil|generał Revil]] odrzuca ultimatum [[mquve|M'Quve'a]], a [[amuro-ray|Amuro]] odcina zapalnik bomby szablą wiązkową Gundama.
-- Niepilotowany [[h-bomb-missile|H-Bomb Missile]] to cel misji, a [[dom-zolnierz-zeonu|Dom regularnych oddziałów Zeonu]] jest odrębny od maszyn [[black-tri-stars|Black Tri-Stars]].
+- Niepilotowany [[h-bomb-missile|H-Bomb Missile]] to cel misji, a [[dom|Dom regularnych oddziałów Zeonu]] ma inny zestaw parametrów niż maszyny [[black-tri-stars|Black Tri-Stars]].
 - [[general-revil|Generał Revil]], [[oficer-federacji|Oficer Federacji]] i [[oficer-zeonu|Oficer Zeonu]] stają naprzeciw siebie, a spór sięga [[traktat-antarktyczny|Traktatu Antarktycznego]].
 - Wydarzenia odpowiadają dwudziestemu piątemu odcinkowi [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] — „The Fierce Battle for Odessa” — z elementami pominiętymi w wersji gry.
 
