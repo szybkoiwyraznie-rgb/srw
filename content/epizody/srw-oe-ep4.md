@@ -5,15 +5,16 @@ tytul: Epizod 4
 gra: srw-oe
 numer: 4
 skrypt: episodes/srw-oe/ep004.md
-postacie: [albatro-null-eiji-asuka, gosterro, oficer-gradosu, zolnierz-gradosu, bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, amuro-ray, suol, seishiro, himari-yaegaki, jeffrey-wilder, catherine-glass, alto-saotome, simon, kamina, yoko, boota, koji-kabuto, ryo-shiba, masato-shikibu, alan-igor, kei, gai, shinobu-fujiwara, rei]
-mechy: [enh-layzner, braver, daljan, lotniskowiec-gradosu, white-base, macross-quarter]
-pojecia: [connect-force, stacja-mars, brama-warp, ark-ship, grados, earth-federation, eskadra-skull, balarant, pentagona, apollo-x, zwiazek-gilgamesh]
-serie: [blue-comet-spt-layzner, mobile-suit-gundam-1979, macross-frontier, tengen-toppa-gurren-lagann, mazinger-edition-z-the-impact, super-beast-machine-god-dancouga, getter-robo-armageddon, super-robot-wars-original]
+postacie: [albatro-null-eiji-asuka, gosterro, oficer-gradosu, zolnierz-gradosu, bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, amuro-ray, suol, seishiro, himari-yaegaki, jeffrey-wilder, catherine-glass, alto-saotome, simon, kamina, yoko, boota, koji-kabuto, ryo-shiba, masato-shikibu, alan-igor, kei, gai, shinobu-fujiwara, rei, sergeant-keroro, kai-shiden, hayato-kobayashi, go, tsutomu-kojima, maria-shiratori, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, akira-imamura, bobby-margot, monica-lang, mucus]
+mechy: [enh-layzner, braver, daljan, lotniskowiec-gradosu, white-base, macross-quarter, shin-getter-1, invader-air, invader-ground, mucus-gate-s-in]
+pojecia: [connect-force, stacja-mars, brama-warp, ark-ship, grados, earth-federation, eskadra-skull, balarant, pentagona, apollo-x, zwiazek-gilgamesh, invaderzy, promienie-gettera, stacja-connect, mobile-suit, zeon]
+serie: [blue-comet-spt-layzner, mobile-suit-gundam-1979, macross-frontier, tengen-toppa-gurren-lagann, mazinger-edition-z-the-impact, super-beast-machine-god-dancouga, getter-robo-armageddon, super-robot-wars-original, sgt-frog]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner
   - https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS
-tagi: [srw-oe, mars, grados, layzner, connect]
+  - https://en.wikipedia.org/wiki/Sgt._Frog
+tagi: [srw-oe, mars, grados, layzner, getter-robo, sgt-frog, connect]
 utworzono: 2026-11-21
 ---
 
@@ -33,6 +34,14 @@ Po walce czujniki [[enh-layzner|Layznera]] potwierdzają brak wrogich SPT, [[fra
 
 Na taras widokowy [[himari-yaegaki|Himari]] wyciąga [[seishiro|Seishira]] i nie może doczekać się skoku przez bramę, a on przyznaje, że sam nie umie odpoczywać. W centrum dowodzenia Eiji wiąże przyspieszoną ekspansję Gradosu z kontaktem z [[balarant|Sojuszem Balarantu]], a Suol opowiada przeszłość Connect: organizacja rozwijała się dzięki wsparciu Balarantu, największej potęgi Galaktyki Astragius, i nie dostrzegła, że sojusznik udawał przyjaźń, żeby ukraść bramę warp. Skradziony model przerzuca ograniczony ładunek, więc Balarant musiał szukać potęg po drugiej stronie — stąd układy z Gradosem i [[pentagona|Pentagoną]]. [[catherine-glass|Cathy]] pyta o odbicie bramy, ale strzegą jej dziesiątki tysięcy okrętów, a równowagę utrzymuje stupoletnia wojna Balarantu ze [[zwiazek-gilgamesh|Związkiem Gilgamesh]]. Eiji przypomina, że planety skolonizowane przez trzy sojusze cierpią, i to jest cel, którego nie wolno porzucić.
 
+### [[srw-oe-ep4-szpony-invaderow|Misja 2: Szpony Invaderów]]
+
+Druga misja odrywa załogę od zwycięstwa w marsjańskiej dolinie. W hangarze [[white-base|White Base]] [[sergeant-keroro|Keroro]] ogląda [[guntank|Guntanka]] i chwali się wiedzą o [[mobile-suit|mobile suitach]], dopóki [[kai-shiden|Kai]] nie wyciąga z niego nazwy prototypu [[zeon|Zeonu]]; w kajucie Keronianin uznaje, że mówienie o Gundamie mogłoby zmienić rodowód maszyn, i postanawia milczeć.
+
+W sterowni [[stacja-connect|Stacji Connect]] [[himari-yaegaki|Himari]] wykrywa [[promienie-gettera|promienie Gettera]] na Marsie o wzorcu [[invaderzy|Invaderów]]. [[gai|Gai]] nie dowierza sonarowi, ale [[suol|Szef Suol]] wyjaśnia, że połączony z biosensorami Connect rozpoznaje wroga pewniej niż dawniej — i że ta technologia jest potrzebna, bo bramy [[mucus|Mucus]] dryfują w czasoprzestrzeni i rozsiewają się jak pyłki. [[maria-shiratori|Maria]] obawia się o samą stację, [[jin-hyuga|Jin]] proponuje wyprawę przez [[brama-warp|bramę warp]] do kryjówki Mucus, a [[go|Go]] tłumaczy, że Invaderzy mogą celować właśnie w bramę Connect. Suol dzieli siły: [[white-base|White Base]] z oddziałem desantowym leci na powierzchnię, [[macross-quarter|Macross Quarter]] zostaje przy stacji.
+
+Na Marsie [[oscar-dublin|Oscar]] rozpoznaje anomalię przed okrętem i załoga Gettera wita Invaderów. Po walce [[kei|Kei]] melduje, że nowych już nie przybędzie, Oscar potwierdza zniszczenie bramy, a [[bright-noa|Bright]] zostawia zbieranie próbek Connect. Na mostku Macross Quartera [[monica-lang|Monica]] przekazuje wiadomość o sukcesie, a [[jeffrey-wilder|Jeffrey]] przyznaje, że flota może działać bez wspólnych ćwiczeń.
+
 ## Wątki fabularne
 
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
@@ -44,6 +53,10 @@ Na taras widokowy [[himari-yaegaki|Himari]] wyciąga [[seishiro|Seishira]] i nie
 | Sojusz Balarantu, Pentagona i Galaktyka Astragius | *Armored Trooper Votoms* | cała seria | Balarant i Związek Gilgamesh pochodzą z innej serii; ukazanie Balarantu jako dawnego protektora [[connect-force\|Connect]], który ukradł bramę, oraz dołączenie [[pentagona\|Pentagony]] do układu sił nie mają odpowiednika w żadnej z obecnych serii. |
 | Skradziona brama warp i ograniczony ładunek skoku | [[srw-oe\|Super Robot Wars OE]] | n/d | Wytłumaczenie, dlaczego Balarant musiał szukać sojuszników po drugiej stronie bramy, jest autorskie — nie ma go w żadnej z obecnych serii. |
 | Zajęcie ruin i rozmowy załogi na Stacji Connect | [[srw-oe\|Super Robot Wars OE]] | n/d | Podsumowanie zwycięstwa, zapowiedź następnej planety i odmowa wysłania oddziału przez [[suol\|Suola]] ustawiają kolejne misje i nie mają odpowiednika w serialach. |
+| Keroro chroni historię mobile suitów | [[sgt-frog\|Sgt. Frog]] | cała seria | W mandze i anime Keroro jest żabim najeźdźcą rozłożonym przez własne hobby: zamiast podbijać Pekopon, składa modele Gundamów. Tutaj jego wiedza o prawdziwych maszynach staje się zagrożeniem — mówienie o Gundamie mogłoby zmienić rodowód MS i MA, więc Keronianin sam nakłada na siebie milczenie. |
+| Invaderzy rozsiewający się przez bramy Mucus | [[getter-robo-armageddon\|Getter Robo Armageddon]] | cała seria | W OVA najeźdźcy atakują zniszczoną Ziemię; tutaj [[suol\|Szef Suol]] opisuje bramy [[mucus\|Mucus]] jako dryfujące w czasoprzestrzeni struktury rozsiewające się jak pyłki, a atak trafia na Marsa. Wyjaśnienie rozsiewania i zakorzeniania się bram jest autorskie. |
+| Podział floty: desant na Marsa i osłona stacji | [[srw-oe\|Super Robot Wars OE]] | n/d | Podział zadań między [[white-base\|White Base]] i [[macross-quarter\|Macross Quarter]] wynika z układu floty zbudowanego w tym epizodzie i nie ma odpowiednika w żadnej z serii. |
+| Raport po operacji i gotowość floty | [[srw-oe\|Super Robot Wars OE]] | n/d | Ocena, że flota działa sprawnie bez wspólnych ćwiczeń, domyka wątek przerwanych ćwiczeń z Eskadrą Skull i jest rozwiązaniem autorskim. |
 
 ## Komentarz
 
@@ -54,6 +67,11 @@ Siłą sceny jest rozmowa, nie bitwa. [[himari-yaegaki|Himari]] pyta [[seishiro|
 Ruiny robią z bitwy sprawę większą niż jedna planeta. Przypominają obcą technologię, której armia Gradosu nie zbudowała, tylko użyła — i którą [[connect-force|Connect]] chce zamknąć, zanim ktokolwiek przejdzie przez nią na Ziemię. [[suol|Szef Suol]] rozpoznaje w Eijim syna doktora Asuki, którego poznał w federalnej agencji badań kosmosu, więc prywatna historia chłopca wchodzi w oficjalną kalkulację dowództwa. Zwycięstwo smakuje jednak połowicznie: okręt wroga wysadzono, ruiny zajęto, ale dowódca Gradosu uciekł, żeby złożyć raport, a [[gosterro|Gosterro]] obiecuje wrócić.
 
 Zakończenie przenosi ciężar z Marsa na cały układ sił. [[balarant|Balarant]], dawny sojusznik [[connect-force|Connect]], ukradł bramę, którą sam pomagał budować; [[pentagona|Pentagona]] i [[zwiazek-gilgamesh|Związek Gilgamesh]] dopełniają obrazu świata, w którym nikt nie jest do końca sojusznikiem, a równowagę utrzymuje cudza wojna. Eiji chce wyzwolić planetę cierpiącą jako kolonia Gradosu, Suol odpowiada, że woli dyplomację — i to napięcie między odruchem a rachubą jest właściwym dziedzictwem tego epizodu.
+Druga misja pokazuje, co się dzieje, gdy zwycięstwo nie kończy sprawy. [[sergeant-keroro|Keroro]] jest tu najbliżej własnego pierwowzoru i zarazem najbardziej samotny: w hangarze popisuje się wiedzą o [[mobile-suit|mobile suitach]], żeby kupić sobie miejsce w załodze, a chwilę później w kajucie przyznaje, że każde takie zdanie jest ryzykiem. Jego Gunota nie jest już tylko żartem — to postać, która wie o świecie więcej, niż wolno jej powiedzieć.
+
+Zagrożenie wraca z innej strony niż Grados. [[invaderzy|Invaderzy]] nie negocjują i nie mają planu politycznego: rozsiewają się przez bramy [[mucus|Mucus]] jak zarodniki, a [[go|Go]] mówi o najeździe na kolejne wszechświaty. Connect odpowiada na to nauką — sonar sprzężony z biosensorami, próbki z pola walki, badania, które [[suol|Szef Suol]] stawia na równi z walką. To on wyznacza ton epizodu: wygrana bez wiedzy o wrogu jest tylko odroczeniem.
+
+Podział floty jest pierwszą decyzją podjętą wspólnie, a nie narzuconą z góry. [[white-base|White Base]] leci na powierzchnię, Macross Quarter zostaje przy stacji, a raport [[jeffrey-wilder|Jeffreya]] po operacji brzmi jak zamknięcie rachunku: flota, która miała ćwiczyć, okazała się gotowa bez ćwiczeń. Epizod kończy się więc nie zwycięstwem, ale zdaniem o zaufaniu między okrętami.
 }}
 
 {{zrodlo gra=wspolne
@@ -61,6 +79,8 @@ Zakończenie przenosi ciężar z Marsa na cały układ sił. [[balarant|Balarant
 ## Pierwowzory
 
 *Blue Comet SPT Layzner* (蒼き流星SPTレイズナー) emitowano od 3 października 1985 do 26 czerwca 1986 roku; serial liczy 38 odcinków i powstał w studiu Nippon Sunrise. Reżyserował go Ryōsuke Takahashi ([Wikipedia, *Blue Comet SPT Layzner*](https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner); sprawdzono 2026-11-21). Armia Gradosu i maszyny SPT — [[enh-layzner|Enhanced Layzner]], [[braver|Bravery]] i [[daljan|Daljan]] — pochodzą z tego serialu.
+
+[[sgt-frog|*Sgt. Frog*]] (ケロロ軍曹, *Keroro Gunsō*) to manga Mine'a Yoshizakiego publikowana od kwietnia 1999 roku w *Monthly Shōnen Ace* wydawnictwa Kadokawa Shoten; opowiada o plutonie żabich kosmitów z planety Keron, który bez powodzenia próbuje podbić Ziemię, a jego przywódca, sierżant Keroro, woli składać modele Gundamów ([Wikipedia, *Sgt. Frog*](https://en.wikipedia.org/wiki/Sgt._Frog); sprawdzono 2026-11-22). W *Super Robot Wars OE* Keroro trafia do świata [[universal-century|Universal Century]] i walczy po stronie [[connect-force|Connect]] — w tej misji jego hobby okazuje się wiedzą o maszynach, o których nie wolno mu mówić.
 
 Sojusz Balarantu i Związek Gilgamesh to dwa mocarstwa Galaktyki Astragius z *Armored Trooper VOTOMS* (1983–1984), które przez sto lat toczyły wojnę o zapomnianej przyczynie, aż nastało między nimi kruche zawieszenie broni ([Wikipedia, *Armored Trooper VOTOMS*](https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS); sprawdzono 2026-11-21). Tutaj oba państwa są częścią przeszłości [[connect-force|Connect]], a nie stroną walki.
 }}

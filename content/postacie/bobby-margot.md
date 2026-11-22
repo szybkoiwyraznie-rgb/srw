@@ -29,7 +29,6 @@ W *Macross Frontier* Bobby Margot jest sternikiem [[macross-quarter|Macross Quar
 ### Ilustracja 1
 
 ![Bobby Margot — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Bobby%20Margot.png)
-
 }}
 {{menu gra=srw-oe
 
@@ -37,8 +36,8 @@ W *Macross Frontier* Bobby Margot jest sternikiem [[macross-quarter|Macross Quar
 
 ### Komendy Ducha
 
-| Slot | Duch      | Poz. nauki | Koszt SP | Efekt bazowy                                            |
-| ---: | --------- | ---------: | -------: | ------------------------------------------------------- |
-|    1 | **Wiatr** |          1 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
-|    2 | **Hart**  |          8 |       20 | Cel: ty — Odnawia 25% HP                                |
+| Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
+|---:|---|---:|---:|---|
+| 1 | **Wiatr** | 1 | 20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
+| 2 | **Hart** | 8 | 20 | Cel: ty — Odnawia 25% HP |
 }}

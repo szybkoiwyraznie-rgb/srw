@@ -15,6 +15,8 @@ Zbiorcze określenie obcych organizmów z rasy [[invaderzy|Invaderów]] kierują
 
 W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] formy powietrzne i naziemne wychodzą z wnętrza laboratorium Cyber-Newtype'ów, a po nich wyłazi pokryta skorupą [[metal-beast-muszla|Metalowa Bestia]]; tenor tej fali jest tak duży, że [[kei|Kei]] mówi o zagrożeniu dla całej Ziemi.
 
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] formy powietrzne i naziemne bronią bramy Mucus Gate na Marsie; [[go|Go]], [[kei|Kei]] i [[gai|Gai]] nie zostawiają im drogi odwrotu, a [[oscar-dublin|Oscar]] i [[marker|Marker]] potwierdzają zniszczenie bramy i brak nowych sygnałów wroga.
+
 }}
 
 {{menu gra=srw-oe

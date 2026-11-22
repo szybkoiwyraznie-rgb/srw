@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-22 20:10
+
+- [[sergeant-keroro|Keroro]] popisuje się w hangarze [[white-base|White Base]] wiedzą o [[mobile-suit|mobile suitach]] i wpada na nazwę prototypu [[zeon|Zeonu]], po czym sam nakłada na siebie milczenie: zdrada rodowodu maszyn odebrałaby mu szansę zobaczenia prawdziwych Gundamów.
+- [[invaderzy|Invaderzy]] docierają na Marsa przez bramy [[mucus|Mucus]], które dryfują w czasoprzestrzeni i rozsiewają się jak pyłki; [[suol|Szef Suol]] stawia badania nad nimi na równi z walką.
+- [[white-base|White Base]] ląduje na powierzchni i rozbija bramę [[mucus-gate-s-in|Mucus Gate]], a [[macross-quarter|Macross Quarter]] zostaje przy [[stacja-connect|Stacji Connect]]; po operacji [[jeffrey-wilder|Jeffrey]] przyznaje, że flota działa sprawnie bez wspólnych ćwiczeń.
+
 ## 2026-11-21 01:10
 
 - [[seishiro|Seishiro Kusanagi]] prowadzi [[exart|Exarta]] pewnie i bez pośpiechu: gdy wróg bierze go na cel, zbiera myśli i nie daje się trafić, a kiedy trzeba, rusza przez pole walki, żeby osłonić [[himari-yaegaki|Himari]].

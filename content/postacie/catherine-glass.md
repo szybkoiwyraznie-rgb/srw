@@ -30,7 +30,6 @@ W *Macross Frontier* Catherine Glass jest porucznikiem kwatery głównej New Uni
 ### Ilustracja 1
 
 ![Catherine Glass — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Cathering%20Glass.png)
-
 }}
 {{menu gra=srw-oe
 
@@ -38,8 +37,8 @@ W *Macross Frontier* Catherine Glass jest porucznikiem kwatery głównej New Uni
 
 ### Komendy Ducha
 
-| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                     |
-| ---: | ------------- | ---------: | -------: | ------------------------------------------------ |
-|    1 | **Zauf.**     |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
-|    2 | **Skupienie** |          6 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%     |
+| Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
+|---:|---|---:|---:|---|
+| 1 | **Zauf.** | 1 | 20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
+| 2 | **Skupienie** | 6 | 15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
 }}

@@ -52,4 +52,5 @@ Koji Hoshiyama (星山 吼児) w oryginale odpowiada za moc Raijin-Oh i wszystki
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Zauf.** | 1 | 20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
+| 2 | **Doping** | 7 | 30 | Cel: sojusznicy 1 jedn. (Zestrzelenie: PD x2 itd.) — Zasięg 3 +'Wysiłek Lv1' |
 }}

@@ -1,0 +1,739 @@
+---
+SKRYPT
+---
+## Szpony Invaderów
+
+### White Base / Hangar
+
+**Keroro:** No, no, widok prawdziwego Guntanka z bliska... Ta masywność robi wrażenie!
+**Keroro:** Chciałem zobaczyć jego starcie z Zakrello, ale łącząc siły z Connect, uciekliśmy komandorowi Charowi. Szanse marne, melduję.
+**Hayato Kobayashi:** Sierżancie, dzięki, że zawsze pomagasz w naprawach.
+**Keroro:** To zaszczyt móc się przydać, melduję! Drobne szczegóły proszę zostawić mi!
+**Kai:** Ty to dziwnie dużo wiesz o mobile suitach. Naprawdę przybyłeś z innego świata?
+**Keroro:** Ile razy mam powtarzać? W moim świecie Gunpla to szał, melduję!
+**Kai:** No, słyszałem to już sto razy. Jak na zabawkę dla dzieci, to nie za dużo detali?
+**Keroro:** Nic nie rozumiecie... Dla gundamowego otaku, zwanego Gunotą, wiek nie ma żadnego znaczenia, melduję!
+**Keroro:** Przedszkolak Gunota zna nawet kaliber Zaku Machine Guna, melduję!
+**Hayato Kobayashi:** Co za upiorny świat.
+**Keroro:** Skąd! Taka kultura rozkwita tylko w pokoju, melduję!
+**Keroro:** W tym świecie są prawdziwe mobile suity, a nikt nie sprzedaje Gunpla. Prawdziwa tragedia...
+**Keroro:** No, ale skoro wiele MS i MA jeszcze nie powstało, to nie czas na modele plastikowe, melduję.
+**Kai:** Wiesz też o mobile suitach, których jeszcze nie ma?
+**Keroro:** Ależ oczywiście! Znam nawet prototypy Zeonu. Na przykład Juaggu, melduję...
+**Kai:** O, to pachnie sensacją. Opowiedz coś więcej.
+**Keroro:** Ups! To tajemnica wojskowa, melduję.
+**Keroro:** Proszę udawać, że nic nie słyszeliście!
+**Kai:** Też mi tajemnica. Nawet gdybyś powiedział, że szpiegujesz dla Zeonu, nikt by ci nie uwierzył.
+**Hayato Kobayashi:** Zeon na pewno nie ma takich żołnierzy.
+**Kai:** Spokojnie. Po prostu interesują mnie takie miejskie legendy, i tyle.
+**Keroro:** Ależ, ależ, Kai, na odkrycie w sobie powołania dziennikarza za wcześnie, melduję!
+**Kai:** Ty mały...!
+**Hayato Kobayashi:** Hahaha! Zabawny z ciebie gość, sierżancie.
+
+### White Base / Kajuta
+
+**Keroro:** Uff... Hangar White Base to idealne miejsce, żeby zapomnieć o moim obecnym położeniu.
+**Keroro:** Ale muszę uważać... Nieopatrzne wspominanie o Gundamie może zmienić historię, melduję...
+**Keroro:** Gdyby zmienił się rodowód mobile suitów, niektóre MS i MA mogłyby w ogóle nie powstać...
+**Keroro:** A wtedy moja wyjątkowa szansa na zobaczenie prawdziwych maszyn przepadnie, melduję!
+**Keroro:** Odtąd muszę za wszelką cenę unikać tematu Gundama, melduję.
+
+### Stacja Connect / Sterownia
+
+**Szef Suol:** O? Moduł monitorujący coś wykrył?
+**Himari:** Wykryliśmy promienie Gettera na Marsie. Wzorzec pasuje do Invaderów.
+**Go:** Invaderzy na Marsie...
+**Kei:** Czyli na Marsie też jest ta cała Mucus Gate?
+**Seishiro:** Najprawdopodobniej...
+**Gai:** Chwila. Sonar promieni Gettera nie jest na tyle dokładny, żeby rozpoznać Invaderów.
+**Szef Suol:** Łączymy go z biosensorami Connect. Ostatni atak Invaderów pozwolił nam przeanalizować ich wzorzec. Dokładność jest dużo wyższa niż kiedyś.
+**Tsutomu:** Wygląda na to, że Connect jest daleko w badaniach nad biosensorami.
+**Szef Suol:** To technologia niezbędna do badania Mucus.
+**Maria:** Szefie, czy to znaczy, że Mucus Gate celują w Stację Connect?
+**Szef Suol:** Nie... raczej nie o to chodzi. Wiemy już, że Mucus Gate dryfują w czasoprzestrzeni i rozsiewają się jak pyłki albo zarodniki.
+**Szef Suol:** Szacuje się, że uwalniane są w astronomicznych ilościach. Na razie nie da się ich powstrzymać.
+**Maria:** Nie...
+**Seishiro:** Na razie niewiele z nich się zakorzenia, więc możemy je niszczyć po kolei. Ale Mucus muszą się mnożyć w zawrotnym tempie.
+**Jin:** Czyli musimy polecieć przez bramę warp i rozwalić kryjówkę Mucus, tak?
+**Szef Suol:** Ha! Prosto i do rzeczy. Dokładnie tak.
+**Szef Suol:** Ale żeby wygrać, najpierw potrzeba nam sojuszników. Sama walka nie wystarczy. Trzeba też wielu badań.
+**Jin:** Aha. To sporo roboty.
+**Asuka:** Dziękuję za tak jasne wyjaśnienie, Szefie. A mówiąc o badaniach, chodzi o ludzi i dane?
+**Szef Suol:** Tak, właśnie.
+**Koji Hoshiyama:** Asuka, o co chodzi?
+**Asuka:** Pamiętasz, przed chwilą była mowa o radarze do wykrywania Invaderów, prawda? Dane z naszych walk też w tym pomagają.
+**Asuka:** To dzięki ludziom, którzy prowadzą badania, możemy znaleźć wroga i z nim walczyć.
+**Tsutomu:** To jak z nauką! Wyznaczamy sobie cele po kolei i krok po kroku idziemy naprzód!
+**Akira:** To badania zostawiamy Tsutomu. A my lećmy wreszcie tłuc Invaderów!
+**Maria:** Chwileczkę. Iść bez planu to niebezpieczne.
+**Alan:** Invaderzy to groźny przeciwnik. Albo uderzymy całą siłą, albo się podzielimy...
+**Go:** Invaderzy łączą się z Mucus Gate, które zakorzeniają się na planetach, i wysyłają swoją awangardę.
+**Go:** Nawet jeśli Mucus nie mają takiego zamiaru, Invaderzy mogą celować w bramę warp Connect.
+**Seishiro:** Racja. Ale czy Invaderzy naprawdę są aż tak inteligentni?
+**Gai:** Jeśli chodzi o Invaderów, Go nigdy się nie myli.
+**Kei:** Inteligentni czy nie, ta stacja na pewno jest w niebezpieczeństwie.
+**Szef Suol:** Obrona stacji to warunek konieczny. W takim razie musimy podzielić siły.
+**Jeffrey:** Najlepiej wysłać White Base na powierzchnię. Macross Quarter zajmie się ochroną stacji.
+**Bright:** Zrozumiałem. Sformujemy oddział desantowy i polecimy na Marsa.
+
+### White Base dociera na powierzchnię
+
+**Mirai:** White Base dotarł do miejsca wykrycia sygnału.
+**Bright:** Wszystkie jednostki, gotowość do startu!
+**Oscar:** Anomalia przed nami! Prawdopodobnie Mucus Gate!
+**Go:** Uwaga! Nadchodzą!
+**Kei:** Jesteście, Invaderzy!
+**Bright:** Wszystkie jednostki, niszczyć Invaderów i rozbić Mucus Gate!
+**Gai:** Dobraaa! Do roboty!
+
+#### Dialogi warunkowe — walka z Inwaderami
+
+**Go:** Przeklęci Invaderzy... Nie dość im jednego wszechświata, chcą najechać kolejne...
+**Kei:** Nie pozwolimy na to, póki żyjemy!
+**Gai:** Nie odpuścimy, póki nie padnie ostatni Invader! Prawda?
+**Go:** Tak...!
+**Kei:** Jasne!
+
+**Keroro:** To rasa nieznana nawet mnie... Muszę przyznać, że nazwa "Invader" brzmi dla mnie dziwnie swojsko, melduję...
+**Keroro:** Ale wyglądają zbyt złowrogo, melduję! Walka z nimi pomoże mi zdobyć zaufanie w tym świecie!
+
+**Alto:** Walczyliśmy z Vajra i Zentradi i przeżyliśmy!
+**Alto:** Nie możemy tu przegrać z Invaderami...!
+
+### Brama Mucus zniszczona
+
+**Kei:** Nowych Invaderów już nie przybędzie.
+**Gai:** Dobraaa! Teraz tylko posprzątać resztę!
+**Go:** Nie traćcie czujności do samego końca!
+**Oscar:** Potwierdzam zniszczenie Mucus Gate.
+**Marker:** Brak też sygnałów Invaderów.
+**Bright:** Wszystkie jednostki, wracać na okręt. Zbieranie próbek zostawimy Connect, a sami wracamy na stację.
+
+### Macross Quarter / Mostek
+
+**Monica:** Wiadomość z White Base. Operacja zakończyła się sukcesem.
+**Jeffrey:** Udało im się.
+**Bobby:** Cóż, to asy Connect Force.
+**Jeffrey:** Są bardziej zaprawieni w boju, niż sądziłem. Możemy działać jako flota bez wspólnych ćwiczeń.
+**Cathy:** Flota potrzebuje okrętów, na których może polegać. To da nam więcej opcji przy planowaniu operacji.
+**Jeffrey:** Owszem.
+
+---
+UCZESTNICY
+---
+
+### Odcinek 4 — Szpony Invaderów (`DL104_20`)
+
+**Źródło:** `eventP01.EDAT/DL104_20_Entry.dat`
+**Fale i moment wejścia:** nieokreślone w nocie misji; zależne od wyzwalaczy skryptu `.bin`.
+
+**Jednostki sojusznicze (gracza):**
+  - **Shin Getter-1 (Go)** — pilot główny: Go — piloci wspierający w misji: Kei, Gai
+  - **White Base** — pilot główny: Bright Noa — piloci wspierający w misji: Mirai Yashima
+
+**Jednostki wrogie:**
+  - **Invader/Air** — pilot główny: Invader — ×8 rekordów źródłowych Entry ID
+  - **Invader/Ground** — pilot główny: Invader — ×8 rekordów źródłowych Entry ID
+  - **Mucus Gate S IN** — pilot główny: Mucus — cel/obiekt skryptowy; nie jest pilotowanym mechem
+
+---
+
+#### Domyślne mechy i jednostki w misji (sekcje z `srwoe_mech_catalog_v4_PL.md`)
+
+## Invader (Invader/Air)
+
+**Seria:** Getter Robo Armageddon
+
+### Macierzyste zdolności maszyny
+
+- **Odtwórz (poziom bazowy 1):** HP co turę+2%  
+  EN co turę+2%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                           |
+| ------: | ----- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------ |
+|       0 | Macki |       1300 |  1–3   |       +15 |   5 |      — | Brak w tym polu | **Wyssanie EN (poziom bazowy 1):** Wysysa 10 EN wroga Szansa 20%   |
+|       1 | Venom |       2000 |  3–5   |       +25 |   0 |      — | Brak w tym polu | **Spowoln. (poziom bazowy 1):** Obraż.400, 1t: Unik-20% Szansa 30% |
+
+---
+
+## Invader (Invader/Ground)
+
+**Seria:** Getter Robo Armageddon
+
+### Macierzyste zdolności maszyny
+
+- **Odtwórz (poziom bazowy 1):** HP co turę+2%  
+  EN co turę+2%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                         |
+| ------: | ----- | ---------: | :----: | --------: | --: | -----: | --------------- | ---------------------------------------------------------------- |
+|       0 | Macki |       1400 |  1–3   |       +10 |   5 |      — | Brak w tym polu | **Wyssanie EN (poziom bazowy 1):** Wysysa 10 EN wroga Szansa 20% |
+|       1 | Miecz |       2100 |  1–2   |       +40 |   0 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                      |
+
+---
+
+## Mucus Gate (Mucus Gate S IN)
+
+**Seria:** Super Robot Wars Original
+
+### Macierzyste zdolności maszyny
+
+- **Obiekt stały (bez poziomu):** Odporn.: "Przebicie" " Pchnięcie", " Rzut"  
+  Nie może unikać ataków
+- **Odnowa EN (poziom bazowy 1):** EN co turę+4%
+- **Odtwórz (poziom bazowy 1):** HP co turę+2%  
+  EN co turę+2%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa          | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                    |
+| ------: | -------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------- |
+|       0 | Bez uzbrojenia |          0 |  0–0   |        +0 |   0 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
+
+---
+
+## Shin Getter-1 (Shin Getter-1 (Go))
+
+**Seria:** Getter Robo Armageddon
+
+### Macierzyste zdolności maszyny
+
+- **Transf. (bez poziomu):** Może się transf.  
+  (Shin Getter 2, 3)
+- **Open Get (poziom bazowy 1):** Morale 130 lub więcej Szansa 20%  
+  W walce: po aktyw. pełny unik
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa            | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek              | Zdolności — opisy bazowe                                            |
+| ------: | ---------------- | ---------: | :----: | --------: | --: | -----: | -------------------- | ------------------------------------------------------------------- |
+|       0 | Head Getter Beam |       2400 |  1–4   |        +0 |  20 |      — | Brak w tym polu      | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg                 |
+|         |                  |            |        |           |     |        |                      |   Bez kontry                                                        |
+|         |                  |            |        |           |     |        |                      |   Nie do wsparcia ani kontry                                        |
+|       2 | Getter Scythe    |       3000 |  1–3   |       +40 |   5 |      — | Brak w tym polu      | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|       3 | Getter Beam      |       4300 |  1–4   |       +15 |  20 |    105 | Brak w tym polu      | Brak odwołania w dwóch polach efektów broni                         |
+
+---
+
+## White Base
+
+**Seria:** Mobile Suit Gundam
+
+### Macierzyste zdolności maszyny
+
+- **Okręt-matka (poziom bazowy 1):** Sojusznicy: przewóz i start  
+  HP/EN przewoż.+20%; SP/Morale pilota+2  
+  Odporn.: "Przebicie" "Pchnięcie" "Rzut"
+- **Ciężki panc. (poziom bazowy 1):** Obraż.-12%
+- **Odnowa EN (poziom bazowy 1):** EN co turę+4%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                   | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | ----------------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Karabin przeciwlotniczy |       1800 |  1–3   |       +30 |  40 |      — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg                      |
+|         |                         |            |        |           |     |        |                 |   Bez kontry                                                             |
+|         |                         |            |        |           |     |        |                 |   Nie do wsparcia ani kontry                                             |
+|       1 | Duże rakiety            |       2200 |  1–4   |       +20 |  30 |      — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni                              |
+|       2 | Podwójne działo główne  |       2800 |  1–6   |       +30 |  60 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+|         |                         |            |        |           |     |        |                 | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                     |
+|       3 | Działo megacząsteczkowe |       3200 |  3–5   |        +0 |  80 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+|         |                         |            |        |           |     |        |                 | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                     |
+
+---
+
+#### Piloci i postacie w misji oraz skrypcie sceny (sekcje z `srwoe_pilot_catalog_PL.md`)
+
+#### Jin Hyuga
+
+- **Seria:** Matchless Raijin-Oh
+- **Nazwa skrócona:** Jin
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            120 |
+| **Obrona**  |             77 |
+| **Celność** |            126 |
+| **Unik**    |             63 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                    |
+| ---: | ------------- | ---------: | -------: | ----------------------------------------------- |
+|    1 | **Skupienie** |          1 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%    |
+|    2 | **Zapał**     |          8 |       20 | Cel: ty Efekt: 1 razy — Zadawane obrażenia x1,5 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność     | Poz. nauki | Efekt bazowy                              |
+| ---: | --------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Atk** |          1 | Pozostałe HP 10%: Obr/Unik+4% Atk/Kryt+5% |
+|    2 | **Blok**        |          3 | Obraż.-16% Sz. 12% *(1.08)*               |
+
+---
+
+#### Kai Shiden
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Kai
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            113 |
+| **Obrona**  |             78 |
+| **Celność** |            132 |
+| **Unik**    |             65 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                  |
+| ---: | ---------- | ---------: | -------: | --------------------------------------------- |
+|    1 | **Niezł.** |          1 |       15 | Cel: ty Efekt: 1 razy — Otrzym. obrażenia-50% |
+|    2 | **Duch**   |          8 |       15 | Cel: ty — Morale+5                            |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                           |
+| ---: | ------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+|    2 | **Wsparcie**  |          3 | Wsparcie: Atk/Obr+20%                  |
+
+---
+
+#### Hayato Kobayashi
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Hayato
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            109 |
+| **Obrona**  |             90 |
+| **Celność** |            131 |
+| **Unik**    |             58 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                  |
+| ---: | -------- | ---------: | -------: | --------------------------------------------- |
+|    1 | **Hart** |          1 |       20 | Cel: ty — Odnawia 25% HP                      |
+|    2 | **Mur**  |          7 |       20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30% |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność     | Poz. nauki | Efekt bazowy                              |
+| ---: | --------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Obr** |          1 | Pozostałe HP 10%: Obr+5% Cel/Unik/Kryt+4% |
+|    2 | **Wsparcie**    |          3 | Wsparcie: Atk/Obr+20%                     |
+
+---
+
+#### Bright Noa
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Bright
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            110 |
+| **Obrona**  |             87 |
+| **Celność** |            126 |
+| **Unik**    |             63 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                            |
+| ---: | ---------- | ---------: | -------: | ------------------------------------------------------- |
+|    1 | **Wiatr**  |          1 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
+|    2 | **Mur**    |          7 |       20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30%           |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność       | Poz. nauki | Efekt bazowy                           |
+| ---: | ----------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**     |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+|    2 | **Dow. Cel/Unik** |          3 | Zasięg 3 - sojusznicy: Cel/Unik+4%     |
+
+---
+
+#### Go
+
+- **Seria:** Getter Robo Armageddon
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             60 |
+| **Atak**    |            127 |
+| **Obrona**  |             68 |
+| **Celność** |            130 |
+| **Unik**    |             66 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch      | Poz. nauki | Koszt SP | Efekt bazowy                                                            |
+| ---: | --------- | ---------: | -------: | ----------------------------------------------------------------------- |
+|    1 | **Duch**  |          1 |       15 | Cel: ty — Morale+5                                                      |
+|    2 | **Zapał** |          8 |       20 | Cel: ty Efekt: 1 razy — Zadawane obrażenia x1,5                         |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność     | Poz. nauki | Efekt bazowy                              |
+| ---: | --------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Atk** |          1 | Pozostałe HP 10%: Obr/Unik+4% Atk/Kryt+5% |
+|    2 | **Siła woli**   |          3 | Maks. SP+4 W walce: SP+1                  |
+
+---
+
+#### Kei
+
+- **Seria:** Getter Robo Armageddon
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             60 |
+| **Atak**    |            112 |
+| **Obrona**  |             59 |
+| **Celność** |            140 |
+| **Unik**    |             80 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch        | Poz. nauki | Koszt SP | Efekt bazowy                                                         |
+| ---: | ----------- | ---------: | -------: | -------------------------------------------------------------------- |
+|    1 | **Pęd**     |          1 |       20 | Cel: ty Efekt: 1 razy — Ruch+3                                       |
+|    2 | **Przebł.** |          6 |       10 | Cel: ty Efekt: 1 razy — Unik+30%                                     |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Unik** |          1 | Pozostałe HP 10%: Obr/Cel/Kryt+4% Unik+5% |
+|    2 | **Precyzja**     |          3 | Kryt/Kryt Obraż.+15%                      |
+
+---
+
+#### Gai
+
+- **Seria:** Getter Robo Armageddon
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             60 |
+| **Atak**    |            115 |
+| **Obrona**  |             96 |
+| **Celność** |            124 |
+| **Unik**    |             56 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch        | Poz. nauki | Koszt SP | Efekt bazowy                                                                   |
+| ---: | ----------- | ---------: | -------: | ------------------------------------------------------------------------------ |
+|    1 | **Hart**    |          1 |       20 | Cel: ty — Odnawia 25% HP                                                       |
+|    2 | **Mur**     |          7 |       20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30%                                  |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność     | Poz. nauki | Efekt bazowy                              |
+| ---: | --------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Obr** |          1 | Pozostałe HP 10%: Obr+5% Cel/Unik/Kryt+4% |
+|    2 | **Wsparcie**    |          3 | Wsparcie: Atk/Obr+20%                     |
+
+---
+
+#### Sierżant Keroro
+
+- **Seria:** Sgt. Frog
+- **Nazwa skrócona:** Keroro
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            118 |
+| **Obrona**  |             71 |
+| **Celność** |            131 |
+| **Unik**    |             71 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                                                 |
+| ---: | ---------- | ---------: | -------: | ---------------------------------------------------------------------------- |
+|    1 | **Niezł.** |          1 |       15 | Cel: ty Efekt: 1 razy — Otrzym. obrażenia-50%                                |
+|    2 | **Duch**   |          6 |       15 | Cel: ty — Morale+5                                                           |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność    | Poz. nauki | Efekt bazowy                           |
+| ---: | -------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**  |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+|    2 | **Keronianin** |          3 | Po uniku: SP+1                         |
+
+---
+
+#### Seishiro Kusanagi
+
+- **Seria:** Super Robot Wars Original
+- **Nazwa skrócona:** Seishiro
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            120 |
+| **Obrona**  |             59 |
+| **Celność** |            137 |
+| **Unik**    |             75 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                    |
+| ---: | ------------- | ---------: | -------: | ----------------------------------------------- |
+|    1 | **Skupienie** |          1 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%    |
+|    2 | **Pęd**       |          6 |       20 | Cel: ty Efekt: 1 razy — Ruch+3                  |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                           |
+| ---: | ---------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**    |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+|    2 | **Precyzja**     |          3 | Kryt/Kryt Obraż.+15%                   |
+
+---
+
+#### Alto Saotome
+
+- **Seria:** Macross Frontier
+- **Nazwa skrócona:** Alto
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            112 |
+| **Obrona**  |             57 |
+| **Celność** |            137 |
+| **Unik**    |             88 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                                         |
+| ---: | ------------- | ---------: | -------: | -------------------------------------------------------------------- |
+|    1 | **Pęd**       |          1 |       20 | Cel: ty Efekt: 1 razy — Ruch+3                                       |
+|    2 | **Skupienie** |          8 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%                         |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                              |
+| ---: | ---------------- | ---------: | ----------------------------------------- |
+|    1 | **Potenc. Unik** |          1 | Pozostałe HP 10%: Obr/Cel/Kryt+4% Unik+5% |
+|    2 | **Fart**         |          3 | Fundusze+4% Kryt+6%                       |
+
+---
+
+#### Jeffrey Wilder
+
+- **Seria:** Macross Frontier
+- **Nazwa skrócona:** Jeffrey
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            109 |
+| **Obrona**  |             90 |
+| **Celność** |            126 |
+| **Unik**    |             63 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                            |
+| ---: | ---------- | ---------: | -------: | ------------------------------------------------------- |
+|    1 | **Mur**    |          1 |       20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30%           |
+|    2 | **Zagrz.** |          7 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 Morale+5             |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność       | Poz. nauki | Efekt bazowy                           |
+| ---: | ----------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**     |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+|    2 | **Dow. Cel/Unik** |          3 | Zasięg 3 - sojusznicy: Cel/Unik+4%     |
+
+---
+
+#### Asuka Tsukishiro
+
+- **Seria:** Matchless Raijin-Oh
+- **Nazwa skrócona:** Asuka
+
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch        | Poz. nauki | Koszt SP | Efekt bazowy                     |
+| ---: | ----------- | ---------: | -------: | -------------------------------- |
+|    1 | **Pęd**     |          1 |       20 | Cel: ty Efekt: 1 razy — Ruch+3   |
+|    2 | **Przebł.** |          6 |       10 | Cel: ty Efekt: 1 razy — Unik+30% |
+
+---
+
+#### Koji Hoshiyama
+
+- **Seria:** Matchless Raijin-Oh
+- **Nazwa skrócona:** Koji
+
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                                                 |
+| ---: | ---------- | ---------: | -------: | ---------------------------------------------------------------------------- |
+|    1 | **Zauf.**  |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP                             |
+|    2 | **Doping** |          7 |       30 | Cel: sojusznicy 1 jedn. (Zestrzelenie: PD x2 itd.) — Zasięg 3 +'Wysiłek Lv1' |
+
+---
+
+#### Mirai Yashima
+
+- **Seria:** Mobile Suit Gundam
+- **Nazwa skrócona:** Mirai
+
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                     |
+| ---: | ------------- | ---------: | -------: | ------------------------------------------------ |
+|    1 | **Zauf.**     |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
+|    2 | **Skupienie** |          6 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%     |
+
+---
+
+#### Himari Yaegaki
+
+- **Seria:** Super Robot Wars Original
+- **Nazwa skrócona:** Himari
+
+- **Pula SP:** **60** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch        | Poz. nauki | Koszt SP | Efekt bazowy                                                         |
+| ---: | ----------- | ---------: | -------: | -------------------------------------------------------------------- |
+|    1 | **Zauf.**   |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP                     |
+|    2 | **Przebł.** |          8 |       10 | Cel: ty Efekt: 1 razy — Unik+30%                                     |
+
+---
+
+#### Catherine Glass
+
+- **Seria:** Macross Frontier
+- **Nazwa skrócona:** Cathy
+
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                     |
+| ---: | ------------- | ---------: | -------: | ------------------------------------------------ |
+|    1 | **Zauf.**     |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
+|    2 | **Skupienie** |          6 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%     |
+
+---
+
+#### Bobby Margot
+
+- **Seria:** Macross Frontier
+- **Nazwa skrócona:** Bobby
+
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch      | Poz. nauki | Koszt SP | Efekt bazowy                                            |
+| ---: | --------- | ---------: | -------: | ------------------------------------------------------- |
+|    1 | **Wiatr** |          1 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
+|    2 | **Hart**  |          8 |       20 | Cel: ty — Odnawia 25% HP                                |
+
+---
+
+#### Alan Igor
+
+- **Seria:** Super Beast Machine God Dancouga
+- **Nazwa skrócona:** Alan
+
+- **Pula SP:** **60** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch      | Poz. nauki | Koszt SP | Efekt bazowy                                            |
+| ---: | --------- | ---------: | -------: | ------------------------------------------------------- |
+|    1 | **Mur**   |          1 |       20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30%           |
+|    2 | **Wiatr** |          8 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
+
+---
+
+#### Invader
+
+- **Seria:** Brak wpisu w słowniku postaci
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             10 |
+| **Atak**    |            106 |
+| **Obrona**  |             70 |
+| **Celność** |            121 |
+| **Unik**    |             59 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy                                                  |
+| ---: | ----------- | ---------: | ------------------------------------------------------------- |
+|    1 | **Rój**     |          1 | Zbiorcza z tą samą jedn.; wsparcie w grupie / HP = suma grupy |
+
+---
+
+#### Mucus
+
+- **Seria:** Brak wpisu w słowniku postaci
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             10 |
+| **Atak**    |            102 |
+| **Obrona**  |             67 |
+| **Celność** |            124 |
+| **Unik**    |             63 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność | Poz. nauki | Efekt bazowy                                                  |
+| ---: | ----------- | ---------: | ------------------------------------------------------------- |
+|    1 | **Rój**     |          1 | Zbiorcza z tą samą jedn.; wsparcie w grupie / HP = suma grupy |
+
+---
+
+##### Postacie niebojowe, portretowe i systemowe (`Dodatek A`)
+
+| Nazwa (PL)                   | Seria                                          | Kontener / plik                 | Uwagi                                            |
+| ---------------------------- | ---------------------------------------------- | ------------------------------- | ------------------------------------------------ |
+| Maria Shiratori              | Matchless Raijin-Oh                            | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Tsutomu Kojima               | Matchless Raijin-Oh                            | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Akira Imamura                | Matchless Raijin-Oh                            | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Oscar Dublin                 | Mobile Suit Gundam                             | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Marker Clan                  | Mobile Suit Gundam                             | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Suol Douglas                 | Super Robot Wars Original                      | `config00.cpk/charalist00.bin`  | Wpis dialogowy / portretowy                      |
+| Monica Lang                  | Macross Frontier                               | `config01.EDAT/charalist01.bin` | Wpis dialogowy / portretowy                      |

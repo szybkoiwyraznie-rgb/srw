@@ -28,8 +28,10 @@ test('dostawa 4-1 jest zachowana w archiwum i otwiera epizod 4', () => {
   assert.equal(bytes.length, 50564);
   assert.equal(createHash('md5').update(bytes).digest('hex'), 'bc2014260ec5b4797675af20de42d5c8');
   assert.ok(archive.includes(delivered), 'skrypt misji jest w archiwum epizodu');
-  assert.ok(archive.endsWith(`${delivered}\n`), 'misja zamyka archiwum epizodu 4');
+  assert.ok(archive.includes(`${delivered}\n`), 'skrypt misji w całości trafia do archiwum');
   assert.ok(delivered.endsWith('Właśnie tak. To trudna droga, ale musimy dojść do celu.'));
+  // Misja 4-1 otwiera epizod; kolejne misje dopisuje się pod nią (ADR: archiwum rośnie).
+  assert.ok(archive.indexOf('## Ep. 4-1:') < archive.indexOf('## Ep. 4-2:'), 'misje w kolejności');
   assert.doesNotMatch(archive, /UCZESTNICY|Entry ID|DL104/);
   assert.equal(episode.numer, 4);
   assert.equal(episode.skrypt, 'episodes/srw-oe/ep004.md');
