@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-22 20:40
+
+- [[white-base|White Base]] schodzi nad Marsa jako oddział desantowy i rozbija bramę [[mucus-gate-s-in|Mucus Gate]], a [[macross-quarter|Macross Quarter]] zostaje przy [[stacja-connect|Stacji Connect]] jako jej osłona — pierwszy raz flota dzieli zadania zamiast ćwiczyć razem.
+- [[shin-getter-1|Shin Getter-1]] rozpoznaje w [[promienie-gettera|promieniach Gettera]] wzorzec [[invaderzy|Invaderów]] i walczy u bramy do ostatniego z nich; powietrzne i naziemne formy wroga padają, zanim [[oscar-dublin|Oscar]] i [[marker|Marker]] potwierdzają ciszę.
+
 ## 2026-11-22 20:10
 
 - [[sergeant-keroro|Keroro]] popisuje się w hangarze [[white-base|White Base]] wiedzą o [[mobile-suit|mobile suitach]] i wpada na nazwę prototypu [[zeon|Zeonu]], po czym sam nakłada na siebie milczenie: zdrada rodowodu maszyn odebrałaby mu szansę zobaczenia prawdziwych Gundamów.
