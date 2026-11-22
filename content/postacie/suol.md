@@ -30,7 +30,7 @@ W [[srw-oe-ep2-ryk-dziczy|„Ryku dziczy”]] prowadzi na [[stacja-connect|stacj
 W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] wyjaśnia na mostku [[white-base|White Base]], że dwa tajemnicze Gundamy należą do sił kolonii — niezależnych grup zbrojnych, które budują własną obronę poza [[earth-federation|Federacją]] i [[zeon|Zeonem]] — i że trwają rozmowy o ich ograniczonym udziale w [[connect-force|Connect Force]]. Przyznaje też, że część informacji o placówce zatrzymał dla siebie, żeby wykurzyć „czarne owce” z wojska, i liczy na to, że [[cyber-beast-force|Cyber Beast Force]] towarzyszy [[seishiro|Seishirowi]] nie tylko jako siła, ale także jako świeże spojrzenie.
 
 
-W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Suol prowadzi odprawę w sterowni [[stacja-connect|Stacji Connect]]: wyjaśnia, że sonar sprzężony z biosensorami rozpoznaje [[invaderzy|Invaderów]] po wzorcu z ostatniego ataku, i prostuje obawę [[maria-shiratori|Marii]] — bramy [[mucus|Mucus]] nie celują w stację, tylko dryfują w czasoprzestrzeni i rozsiewają się jak pyłki. Dzieli potem siły: desant [[white-base|White Base]] na Marsa i [[macross-quarter|Macross Quarter]] przy stacji.
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Suol prowadzi odprawę w sterowni [[stacja-mars|Stacji Connect w sektorze Marsa]]: wyjaśnia, że sonar sprzężony z biosensorami rozpoznaje [[invaderzy|Invaderów]] po wzorcu z ostatniego ataku, i prostuje obawę [[maria-shiratori|Marii]] — bramy [[mucus|Mucus]] nie celują w stację, tylko dryfują w czasoprzestrzeni i rozsiewają się jak pyłki. Dzieli potem siły: desant [[white-base|White Base]] na Marsa i [[macross-quarter|Macross Quarter]] przy stacji.
 }}
 
 {{zrodlo gra=wspolne

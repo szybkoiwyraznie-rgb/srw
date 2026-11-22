@@ -23,7 +23,7 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podejmuje w 
 
 Po walce w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] Maria proponuje współpracę z [[connect-force|Connect Force]]. Jej klasa i [[gurren-lagann|Gurren Lagann]] zgłaszają się do lotu w kosmos, podczas gdy [[saurersi|Saurersi]] mają bronić Ziemi.
 
-W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Maria jako pierwsza nazywa najgorszy scenariusz: pyta, czy bramy [[mucus|Mucus]] celują właśnie w [[stacja-connect|Stację Connect]]. Gdy [[suol|Szef Suol]] zaprzecza, nie kryje ulgi, a potem ostrzega, że wejście do walki bez planu jest niebezpieczne.
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Maria jako pierwsza nazywa najgorszy scenariusz: pyta, czy bramy [[mucus|Mucus]] celują właśnie w [[stacja-mars|Stację Connect w sektorze Marsa]]. Gdy [[suol|Szef Suol]] odpowiada, że bramy rozsiewają się w astronomicznych ilościach i na razie nie da się ich powstrzymać, reaguje z przerażeniem, a po wezwaniu [[jin-hyuga|Jina]] do natarcia ostrzega, że walka bez planu jest niebezpieczna.
 }}
 
 {{zrodlo gra=wspolne

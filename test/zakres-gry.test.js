@@ -167,3 +167,40 @@ test('każdy blok na każdej stronie bazy ma widoczną etykietę zakresu', async
   }
   assert.ok(bloki > 60, `baza ma ${bloki} bloków — sprawdzenie ma sens`);
 });
+
+test('odsyłacze do scen nie trafiają do bloków obcej gry ani do bloków zrodlo na encjach', async () => {
+  const { wczytajStrony } = await import('../tools/content-loader.mjs');
+  const strony = wczytajStrony();
+  const graSceny = new Map();
+  const epizodGra = new Map(strony.filter((s) => s.typ === 'epizod').map((e) => [e.slug, e.gra]));
+  for (const s of strony) {
+    if (s.typ === 'scena') graSceny.set(s.slug, epizodGra.get(s.epizod));
+  }
+
+  const problemy = [];
+  for (const s of strony) {
+    let wSkrypcie = false;
+    let biezacy = null;
+    for (const linia of String(s.body ?? '').split('\n')) {
+      const przycieta = linia.trim();
+      if (/^:::/.test(przycieta)) { wSkrypcie = !wSkrypcie; continue; }
+      if (wSkrypcie) continue;
+      const otw = przycieta.match(/^\{\{(skrypt|menu|zrodlo)(\s+.*)?$/);
+      if (otw) { biezacy = { poziom: otw[1], gra: parsujAtrybutyBloku(otw[2] ?? '').get('gra') }; continue; }
+      if (przycieta === '}}') { biezacy = null; continue; }
+      if (!biezacy) continue;
+      for (const m of linia.matchAll(/\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g)) {
+        const cel = m[1];
+        const graCelu = graSceny.get(cel);
+        if (!graCelu) continue;
+        if (biezacy.gra && biezacy.gra !== 'wspolne' && biezacy.gra !== graCelu) {
+          problemy.push(`${s.slug}: blok {{${biezacy.poziom} gra=${biezacy.gra}}} linkuje do sceny ${cel} (${graCelu})`);
+        }
+        if (biezacy.poziom === 'zrodlo' && s.typ !== 'scena' && s.typ !== 'epizod') {
+          problemy.push(`${s.slug}: blok {{zrodlo gra=${biezacy.gra}}} na encji zawiera link do sceny ${cel}`);
+        }
+      }
+    }
+  }
+  assert.deepEqual(problemy, []);
+});

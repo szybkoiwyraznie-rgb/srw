@@ -17,7 +17,7 @@ Okręt flagowy floty Frontier w trybie fortecy, dowodzony przez kapitana [[jeffr
 
 Na odprawie na [[stacja-mars|Stacji Mars]] kapitan zapowiada, że okręt razem z [[white-base|White Base]] utworzy połączoną flotę Connect Force.
 
-W [[srw-oe-ep4-szpony-invaderow|„Szponach Invaderów”]] okręt zostaje przy [[stacja-connect|Stacji Connect]] jako jej osłona, gdy [[white-base|White Base]] ląduje na Marsie. Po operacji [[monica-lang|Monica]] przekazuje na mostek wiadomość o sukcesie, a [[jeffrey-wilder|Jeffrey]] uznaje, że flota może działać bez wspólnych ćwiczeń.
+W [[srw-oe-ep4-szpony-invaderow|„Szponach Invaderów”]] okręt zostaje przy [[stacja-mars|Stacji Connect w sektorze Marsa]] jako jej osłona, gdy [[white-base|White Base]] ląduje na Marsie. Po operacji [[monica-lang|Monica]] przekazuje na mostek wiadomość o sukcesie, a [[jeffrey-wilder|Jeffrey]] uznaje, że flota może działać bez wspólnych ćwiczeń.
 }}
 
 {{menu gra=srw-oe

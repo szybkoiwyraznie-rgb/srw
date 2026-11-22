@@ -820,8 +820,8 @@ test('dostawa ilustracji misji 3-5 SRW OE (2026-11-20): 20 plików jednostek i 1
   // Catherine Glass zachowuje literówkę właściciela w kluczu R2
   assert.equal(bySlug.get('catherine-glass').tytul, 'Catherine Glass');
   assert.equal(manifest.encje['catherine-glass'][0], 'characters/Cathering Glass.png');
-  // Monica Lang i Rei to nowe postacie z ADR 0017
-  assert.equal(bySlug.get('monica-lang').pochodzenie, 'zrodlo');
+  // Monica Lang i Rei to nowe postacie z ADR 0017; Monica weszła potem do skryptu misji 4-2
+  assert.equal(bySlug.get('monica-lang').pochodzenie, 'skrypt');
   assert.equal(bySlug.get('rei').pochodzenie, 'zrodlo');
   assert.ok(manifest.dostarczono >= '2026-11-19');
   assert.equal(manifest.weryfikacjaZdalna, false);
