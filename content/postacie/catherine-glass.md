@@ -33,9 +33,13 @@ W *Macross Frontier* Catherine Glass jest porucznikiem kwatery głównej New Uni
 
 ![Catherine Glass — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Cathering%20Glass.png)
 }}
+
 {{menu gra=srw-oe
 
 ## Parametry
+
+- **Nazwa skrócona:** Cathy
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
 
 ### Komendy Ducha
 

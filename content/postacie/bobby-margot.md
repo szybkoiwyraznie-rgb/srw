@@ -32,9 +32,13 @@ W *Macross Frontier* Bobby Margot jest sternikiem [[macross-quarter|Macross Quar
 
 ![Bobby Margot — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Bobby%20Margot.png)
 }}
+
 {{menu gra=srw-oe
 
 ## Parametry
+
+- **Nazwa skrócona:** Bobby
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
 
 ### Komendy Ducha
 

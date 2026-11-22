@@ -51,4 +51,5 @@ W [[nekketsu-saikyo-go-saurer|pierwowzorze]] Hiromi Tachibana (立花 浩美) to
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Przebł.** | 1 | 10 | Cel: ty Efekt: 1 razy — Unik+30% |
+| 2 | **Doping** | 6 | 30 | Cel: sojusznicy 1 jedn. (Zestrzelenie: PD x2 itd.) — Zasięg 3 +'Wysiłek Lv1' |
 }}

@@ -17,7 +17,7 @@ const KATALOG = 'dostawy/srw-oe';
 export function plikiDostaw() {
   return fs.readdirSync(KATALOG)
     .filter((p) => /^dostawa_.*\.txt$/.test(p))
-    .sort((a, b) => (a.includes('epizod_0') ? -1 : b.includes('epizod_0') ? 1 : a.localeCompare(b)));
+    .sort((a, b) => (a.includes('epizod_0') ? -1 : b.includes('epizod_0') ? 1 : a.localeCompare(b, 'pl', { numeric: true })));
 }
 
 /** Wiersze tabeli markdown zaczynające się od numeru slotu, bez skrajnych rurek. */
@@ -62,6 +62,44 @@ export function ostatnieBlokiDuchow() {
     for (const m of tekst.matchAll(/^#{3,4} ([^\n]+)\n([\s\S]*?)(?=^#{3,4} |$(?![\s\S]))/gm)) {
       const wiersze = blokDuchow(m[2]);
       if (wiersze) ostatnie.set(m[1].trim(), { plik, wiersze });
+    }
+  }
+  return ostatnie;
+}
+
+/** Blok umiejętności pilota z jednego fragmentu tekstu (albo null). */
+export function blokUmiejetnosci(fragment) {
+  const sekcja = /(?:### Umiejętności|\*\*Umiejętności)[^\n]*\n([\s\S]*?)(?:\n\n|\n---|\n###|\n\}\}|$)/.exec(fragment);
+  if (!sekcja) return null;
+  const wiersze = wierszeTabeli(sekcja[1]);
+  return wiersze.length ? wiersze : null;
+}
+
+/**
+ * Mapa „nazwa postaci → { plik, wiersze }” z ostatnim blokiem umiejętności pilota.
+ */
+export function ostatnieBlokiUmiejetnosci() {
+  const ostatnie = new Map();
+  for (const plik of plikiDostaw()) {
+    const tekst = fs.readFileSync(path.join(KATALOG, plik), 'utf8').replace(/\r/g, '');
+    for (const m of tekst.matchAll(/^#{3,4} ([^\n]+)\n([\s\S]*?)(?=^#{3,4} |$(?![\s\S]))/gm)) {
+      const wiersze = blokUmiejetnosci(m[2]);
+      if (wiersze) ostatnie.set(m[1].trim(), { plik, wiersze });
+    }
+  }
+  return ostatnie;
+}
+
+/**
+ * Mapa „nazwa postaci → { plik, sp }” z ostatnią deklaracją puli SP podpilota.
+ */
+export function ostatniePuleSP() {
+  const ostatnie = new Map();
+  for (const plik of plikiDostaw()) {
+    const tekst = fs.readFileSync(path.join(KATALOG, plik), 'utf8').replace(/\r/g, '');
+    for (const m of tekst.matchAll(/^#{3,4} ([^\n]+)\n([\s\S]*?)(?=^#{3,4} |$(?![\s\S]))/gm)) {
+      const sp = /Pula SP:\*?\*?\s*\*?\*?(\d+)/.exec(m[2]);
+      if (sp) ostatnie.set(m[1].trim(), { plik, sp: Number(sp[1]) });
     }
   }
   return ostatnie;

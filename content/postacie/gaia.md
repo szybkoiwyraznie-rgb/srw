@@ -50,4 +50,5 @@ W [[mobile-suit-gundam-1979|pierwowzorze]] Gaia należy do najstarszych stażem 
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Potenc. Atk** | 1 | Pozostałe HP 10%: Obr/Unik+4% Atk/Kryt+5% |
+| 2 | **Postrach** | 3 | Bez kontry Szansa 20% |
 }}

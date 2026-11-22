@@ -63,5 +63,6 @@ Masaki Andoh był pierwszą oryginalną postacią stworzoną przez Banpresto dla
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Potenc. Unik** | 1 | Pozostałe HP 10%: Obr/Cel/Kryt+4% Unik+5% |
+| 2 | **Bojowość** | 3 | Pocz. Morale+1 |
 }}
 
