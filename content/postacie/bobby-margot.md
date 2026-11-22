@@ -20,6 +20,8 @@ Załoga [[macross-quarter|Macross Quartera]], pełni służbę przy boku kapitan
 {{zrodlo gra=wspolne
 
 W *Macross Frontier* Bobby Margot jest sternikiem [[macross-quarter|Macross Quartera]] w prywatnej firmie wojskowej S.M.S. To barwna postać: chętnie śpiewa karaoke na mostku i doradza załodze w sprawach sercowych ([Macross Wiki, „Bobby Margot”](https://macross.fandom.com/wiki/Bobby_Margot); sprawdzono 2026-11-20).
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Bobby nazywa załogę [[shin-getter-1|Gettera]] i [[white-base|White Base]] asami [[connect-force|Connect Force]], gdy na mostek dociera wiadomość o sukcesie operacji.
 }}
 
 {{menu gra=srw-oe

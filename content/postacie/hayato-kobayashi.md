@@ -19,6 +19,8 @@ Pilot [[guntank|Guntanka]] na pokładzie [[white-base|White Base]]. W kolejce do
 Po starciu z [[black-tri-stars|Black Tri-Stars]] szuka z [[amuro-ray|Amurem]] części zamiennej nr 133 i tłumaczy, że brakuje ludzi do obsługi technicznej. To on doradza użycie uzbrojenia przeciwlotniczego przeciw [[dopp|Doppom]].
 
 Podczas ostatniego natarcia na Odessę pyta, czy można zestrzelić [[h-bomb-missile|pocisk termojądrowy]] w powietrzu. Gdy [[bright-noa|Bright]] wyjaśnia ryzyko wybuchu, Hayato skupia się na przerzedzeniu obrony [[zeon|Zeonu]] przed odpaleniem bomby.
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Hayato dziękuje [[sergeant-keroro|Keroro]] za stałą pomoc przy naprawach, dziwi się jego wiedzy o [[mobile-suit|mobile suitach]] i kończy rozmowę śmiechem, gdy [[kai-shiden|Kai]] daje się wyprowadzić Keronianinowi.
 }}
 
 {{zrodlo gra=wspolne

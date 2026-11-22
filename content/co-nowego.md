@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-22 21:05
+
+- [[go|Go]], [[kei|Kei]] i [[gai|Gai]] rozpoznają w marsjańskich [[promienie-gettera|promieniach Gettera]] zapowiedź [[invaderzy|Invaderów]]; [[go|Go]] ostrzega, że najeźdźcy mogą celować w bramę warp [[connect-force|Connect]], a [[gai|Gai]] przypomina, że w tej sprawie Go nigdy się nie myli.
+- [[suol|Szef Suol]] tłumaczy na odprawie, że bramy [[mucus|Mucus]] nie celują w stację, tylko dryfują w czasoprzestrzeni i rozsiewają się jak pyłki, a [[maria-shiratori|Maria]], [[tsutomu-kojima|Tsutomu]] i [[akira-imamura|Akira]] przekładają to na własne zadania: ostrzeżenie, badania i wreszcie walkę.
+- [[jeffrey-wilder|Jeffrey]], [[bobby-margot|Bobby]], [[catherine-glass|Cathy]] i [[monica-lang|Monica]] przyjmują raport z Marsa na mostku Macross Quartera; [[sergeant-keroro|Keroro]] wchodzi w tę misję jako znawca maszyn i wychodzi z niej jako ktoś, kto musi pilnować własnej wiedzy.
+
 ## 2026-11-22 20:40
 
 - [[white-base|White Base]] schodzi nad Marsa jako oddział desantowy i rozbija bramę [[mucus-gate-s-in|Mucus Gate]], a [[macross-quarter|Macross Quarter]] zostaje przy [[stacja-connect|Stacji Connect]] jako jej osłona — pierwszy raz flota dzieli zadania zamiast ćwiczyć razem.

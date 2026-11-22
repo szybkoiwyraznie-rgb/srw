@@ -36,6 +36,8 @@ W [[srw-oe-ep2-czarny-labor|starciu na poligonie]] cieszy się, że cały Drugi 
 Na [[srw-oe-ep2-ryk-dziczy|stacji Connect]] dzieli zachwyt Drugiego Plutonu widokiem Ziemi. Podczas ćwiczeń rejestruje energię [[final-dancouga|Final Dancougi]] poza skalą, a w trudnym momencie wspiera Seishira, gotowa wykrzesać ostatnie siły. Po zajęciach cieszy się, że piloci się zaprzyjaźnili, i zachęca Seishira do większego zapału. Zapowiada przydział do [[13-samodzielny-oddzial|13. Samodzielnego Oddziału]].
 
 W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatniej misji epizodu]] to ona potwierdza [[white-base|White Base]] na czujnikach tuż przed spotkaniem, a po samowolnym starcie [[bigro|Bigro]] aktywuje całe uzbrojenie [[exart|Exarta]]. Przy powitaniu załogi okrętu przypomina, że w [[connect-force|Connect Force]] służą już drużyna [[shin-getter-1|Gettera]] i [[mazinger-z|Mazinger Z]].
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Himari melduje w sterowni [[stacja-connect|Stacji Connect]] [[promienie-gettera|promienie Gettera]] na Marsie o wzorcu pasującym do [[invaderzy|Invaderów]] — pierwszy sygnał, że brama [[mucus|Mucus]] osadziła się na planecie.
 }}
 
 {{zrodlo gra=srw-oe

@@ -17,6 +17,8 @@ utworzono: 2026-10-27
 {{skrypt gra=srw-oe
 
 W [[srw-oe|Super Robot Wars OE]] serię reprezentują piloci [[go|Go]], [[kei|Kei]] i [[gai|Gai]] w trzech konfiguracjach maszyny Shin Getter Robo: [[shin-getter-1|Shin Getterze-1]], [[shin-getter-2|Shin Getterze-2]] oraz [[shin-getter-3|Shin Getterze-3]]. Przeciwko nim stają [[invader-air|Invader/Air]] i cięższe formy Invaderów, w tym skorupowa [[metal-beast-muszla|Metalowa Bestia]]. W [[srw-oe-ep0|Epizodzie 0]] wymienieni zostają [[invaderzy|Invaderzy]], których jednostki [[invader-ground|Invader/Ground]] kierowane zbiorczym instynktem [[invader|Invaderów]] pojawiają się w [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]]; po walce zespół Gettera dołącza do [[connect-force|Connect]] i odlatuje na [[stacja-connect|Stację Connect]] razem z [[koji-kabuto|Kojim Kabuto]].
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] załoga Gettera broni przed nimi Marsa: [[himari-yaegaki|Himari]] rozpoznaje wzorzec [[invaderzy|Invaderów]] w [[promienie-gettera|promieniach Gettera]], a [[shin-getter-1|Shin Getter-1]] niszczy bramę [[mucus-gate-s-in|Mucus Gate]] razem z desantem [[white-base|White Base]].
 }}
 
 {{zrodlo gra=wspolne

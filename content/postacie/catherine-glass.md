@@ -21,6 +21,8 @@ Załoga [[macross-quarter|Macross Quartera]]. W [[srw-oe-ep3-napasc-na-baze-mars
 {{zrodlo gra=wspolne
 
 W *Macross Frontier* Catherine Glass jest porucznikiem kwatery głównej New United Nations Spacy oraz oficerem mostka Macross Quartera w S.M.S. Jest córką prezydenta Frontier, Howarda Glassa, i byłą uczestniczką konkursu piękności, która chce udowodnić, że nie jest tylko córką prezydenta ([Macross Wiki, „Catherine Glass”](https://macross.fandom.com/wiki/Catherine_Glass); sprawdzono 2026-11-20).
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Cathy przekłada raport z Marsa na planowanie: flota potrzebuje okrętów, na których można polegać, bo to daje więcej możliwości przy kolejnych operacjach.
 }}
 
 {{menu gra=srw-oe

@@ -14,6 +14,8 @@ utworzono: 2026-10-27
 {{skrypt gra=srw-oe
 
 Uczeń klasy 5-3 [[akademia-hinobori|Akademii Hinobori]] wspierający [[klasa-obrony-ziemi|Klasę Obrony Ziemi]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] staje murem za [[jin-hyuga|Jinem]] w dyskusji z [[saurersi|Saurersami]], przypominając gościom, że klasa 5-3 pokonała [[jaku-empire|Imperium Jaku]] dzięki własnej odwadze i działaniu na żywioł, a po powrocie z podziemnej bitwy przysłuchuje się opowieści [[kamina|Kaminy]] i [[simon|Simona]] o ich świecie.
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Akira chce zostawić badania [[tsutomu-kojima|Tsutomu]] i wreszcie ruszyć do walki z [[invaderzy|Invaderami]].
 }}
 
 {{zrodlo gra=wspolne

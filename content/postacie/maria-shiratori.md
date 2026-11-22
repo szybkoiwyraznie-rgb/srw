@@ -22,6 +22,8 @@ Po [[srw-oe-ep1-szalejacy-labor-powraca|unieruchomieniu Brockenów na placu budo
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podejmuje w [[akademia-hinobori|Akademii Hinobori]] drużynę [[saurersi|Saurersów]], ostrym słowem ucina sprzeczkę chłopców o formę wspólnych ćwiczeń, a na sygnał o wykryciu [[mechabestia|mechabestii]] wydaje rozkaz startu [[raijin-oh|Raijin-Oha]]. Po walce zaprasza załogę [[gurren-lagann|Gurren Laganna]] do szkoły na wyjaśnienia [[seishiro|Seishira]] i wyraża gotowość [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] do dalszego wspierania [[connect-force|Connect]] na Ziemi.
 
 Po walce w [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] Maria proponuje współpracę z [[connect-force|Connect Force]]. Jej klasa i [[gurren-lagann|Gurren Lagann]] zgłaszają się do lotu w kosmos, podczas gdy [[saurersi|Saurersi]] mają bronić Ziemi.
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Maria jako pierwsza nazywa najgorszy scenariusz: pyta, czy bramy [[mucus|Mucus]] celują właśnie w [[stacja-connect|Stację Connect]]. Gdy [[suol|Szef Suol]] zaprzecza, nie kryje ulgi, a potem ostrzega, że wejście do walki bez planu jest niebezpieczne.
 }}
 
 {{zrodlo gra=wspolne

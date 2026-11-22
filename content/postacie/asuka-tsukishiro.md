@@ -23,6 +23,8 @@ W [[srw-oe-ep1-szalejacy-labor-powraca|misji przeciw szalejącym Brockenom]] pro
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] komentuje gorący spór Jina z [[saurersi|Saurersami]], wspiera go w kokpicie [[raijin-oh|Raijin-Oha]] podczas podziemnego starcia z [[mechabestia|mechabestiami]], [[invader-ground|Invaderami]] i [[nekton-assault|Nekton Assault]], a po powrocie do szkoły dziwi się wyjaśnieniom [[seishiro|Seishira]], że dwa różne wszechświaty uległy fizycznemu spleceniu.
 
 W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] ucisza [[jin-hyuga|Jina]] i [[maria-shiratori|Marię]], gdy ci kłócą się w środku walki z [[invaderzy|Invaderami]] — jedyna osoba w kokpicie [[raijin-oh|Raijin-Oha]], która w tej wymianie zachowuje spokój.
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Asuka dziękuje [[suol|Szefowi Suolowi]] za wyjaśnienie i przekłada je na własne słowa: za wykrywaniem wroga stoją ludzie i dane z walk, a nie sama technologia.
 }}
 
 {{zrodlo gra=wspolne

@@ -22,6 +22,8 @@ Na odprawie na [[stacja-mars|Stacji Mars]] zapowiada, że Macross Quarter i Eska
 {{zrodlo gra=wspolne
 
 W *Macross Frontier* Jeffrey Wilder jest kapitanem Macross Quartera w S.M.S. Był żołnierzem i pilotem Valkyrie w U.N. Spacy; w walce stracił rękę. Przed służbą wojskową był zapalonym surferem, a na mostku łączy szorstki ton z poczuciem humoru i troską o podwładnych ([Macross Wiki, „Jeffrey Wilder”](https://macross.fandom.com/wiki/Jeffery_Wilder); sprawdzono 2026-11-20).
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] proponuje podział sił — desant [[white-base|White Base]] na Marsa i osłonę [[stacja-connect|Stacji Connect]] przez [[macross-quarter|Macross Quarter]] — a po operacji przyznaje na mostku, że [[connect-force|Connect Force]] okazał się bardziej zaprawiony w boju, niż sądził, i że flota może działać bez wspólnych ćwiczeń.
 }}
 
 {{menu gra=srw-oe

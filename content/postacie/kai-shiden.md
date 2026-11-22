@@ -19,6 +19,8 @@ Pilot [[guncannon|Guncannona]] na pokładzie [[white-base|White Base]]. Przed st
 W walce z [[black-tri-stars|Black Tri-Stars]] pierwszy zauważa tempo [[dom|Domów]] i pyta, jak ma je zatrzymać. Narzeka na przeglądy po walce, ale gdy trzeba osłonić okręt przed samolotami, zgłasza gotowość.
 
 Po groźbie użycia bomby wodorowej chce opuścić zagrożony obszar, lecz pozostaje w walce. W dialogu bojowym ostrzega, że eksplozja zniszczy wszystkich, i powierza zatrzymanie [[h-bomb-missile|pocisku]] [[amuro-ray|Amurowi]] oraz Gundamowi.
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Kai wypytuje [[sergeant-keroro|Keroro]] o jego świat i wiedzę o [[mobile-suit|mobile suitach]], a usłyszawszy nazwę prototypu [[zeon|Zeonu]], próbuje pociągnąć Keronianina za język — traktuje to jak miejską legendę, nie sensację.
 }}
 
 {{zrodlo gra=wspolne
