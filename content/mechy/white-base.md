@@ -27,6 +27,8 @@ W finałowej fazie bitwy mostek rozpoznaje start [[h-bomb-missile|pocisku termoj
 W [[srw-oe-ep2-w-poscigu-za-zanzibarem|ostatnim pościgu epizodu]] okręt dociera do punktu spotkania z [[connect-force|Connect]] z [[zanzibar|Zanzibarem]] na ogonie. Obronę prowadzą piloci przywykli do przestrzeni, bo maszyny [[08-pluton-ms|08. Plutonu MS]] zostają w hangarze. Po przerwaniu ognia i zniszczeniu [[bigro|Bigro]] okręt wchodzi w skład [[connect-force|Connect Force]] jako [[13-samodzielny-oddzial|13. Samodzielny Oddział]].
 
 W [[srw-oe-ep4-atak-na-okret-gradosu|„Ataku na okręt Gradosu”]] okręt jest miejscem odprawy przed wyprawą do marsjańskiej doliny: [[bright-noa|Bright]], [[mirai-yashima|Mirai]], [[oscar-dublin|Oscar]] i [[marker|Marker]] śledzą pojawienie się wrogiego okrętu i jego eksplozję, a [[fraw-bow|Fraw]] zbiera meldunki z pola walki. Bright decyduje o ataku na okręt i o kolejności działań przy ruinach.
+
+W [[srw-oe-ep4-szpony-invaderow|„Szponach Invaderów”]] okręt schodzi nad powierzchnię Marsa jako oddział desantowy: [[mirai-yashima|Mirai]] naprowadza go na miejsce wykrycia sygnału, [[oscar-dublin|Oscar]] rozpoznaje przed dziobem bramę [[mucus-gate-s-in|Mucus Gate]], a po jej zniszczeniu [[bright-noa|Bright]] odsyła wszystkie jednostki na pokład i zostawia zbieranie próbek [[connect-force|Connect]].
 }}
 
 {{zrodlo gra=wspolne

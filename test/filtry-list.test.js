@@ -239,7 +239,9 @@ test('selektory list fabularnych zawężają się nawzajem', () => {
     'brocken', 'brocken-cannon', 'brocken-dzialko-automatyczne',
     'daiteioh', 'exart', 'final-dancouga', 'ganbaruger', 'gandoppler', 'gelgoog',
     'go-saurer', 'great-ganbaruger', 'gundam-exia', 'gurren-lagann',
-    'ingram-nr-1', 'ingram-nr-2', 'invader-air', 'invader-ground', 'macross-quarter', 'mazinger-z',
+    'ingram-nr-1', 'ingram-nr-2', 'invader-air', 'invader-ground',
+    // Misja 4-2 ma w obsadzie pilotów Raijin-Oha i mostek Macross Quartera.
+    'macross-quarter', 'mazinger-z',
     'metal-beast-muszla',
     'mucus-gate-s-in', 'mucus-gate-s-mc', 'nekton-assault',
     'perfect-daiteioh', 'raijin-oh', 'rick-dom', 'shin-getter-1', 'white-base', 'wing-gundam-zero',

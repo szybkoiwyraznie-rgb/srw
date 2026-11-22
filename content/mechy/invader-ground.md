@@ -18,6 +18,8 @@ utworzono: 2026-10-27
 Naziemna postać bojowa pozaziemskich [[invaderzy|Invaderów]], kierowana instynktem zbiorczym [[invader|Invadera]]. Dzięki macierzystej zdolności „Odtwórz” co turę samoczynnie regeneruje punkty wytrzymałości oraz energię, a w walce posługuje się wysysającymi energię mackami o zasięgu 1–3 i uformowanym z ciała ostrzem o zasięgu 1–2.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] osobniki te pojawiają się w głębi jaskini obok [[mechabestia|mechabestii]] i istot [[mucus|Mucus]], potwierdzając podejrzenia [[go|Go]], [[kei|Kei]] i [[gai|Gaia]], że na Ziemi wciąż kryją się niedobitki obcych. Jak wyjaśnia po bitwie [[seishiro|Seishiro]], dzięki zdolności rozkładania i ponownego składania własnych ciał Invaderzy przedostają się pod ziemię przez małą bramę podprzestrzenną [[mucus-gate-s-in|Mucus Gate S IN]].
+
+W [[srw-oe-ep4-szpony-invaderow|„Szponach Invaderów”]] naziemne formy wychodzą na marsjańską powierzchnię u bramy [[mucus-gate-s-in|Mucus Gate]] i walczą z [[go|Go]], [[kei|Kei]] i [[gai|Gaiem]] do chwili, gdy [[oscar-dublin|Oscar]] i [[marker|Marker]] potwierdzają brak nowych sygnałów wroga.
 }}
 
 {{zrodlo gra=wspolne
