@@ -18,6 +18,8 @@ utworzono: 2026-11-15
 Powietrzna postać bojowa pozaziemskich [[invaderzy|Invaderów]], kierowana instynktem zbiorczym [[invader|Invadera]]. Jak naziemny [[invader-ground|Invader/Ground]] samoczynnie odtwarza wytrzymałość i energię, ale walczy inaczej: wysysającymi energię mackami na bliskim dystansie i pociskiem „Venom” miotanym z odległości 3–5 pól, który spowalnia trafionego wroga.
 
 W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] osobniki powietrzne wchodzą do walki razem z naziemnymi, gdy okazuje się, że zniszczone laboratorium Cyber-Newtype'ów przejęły [[invaderzy|Invadery]]. Sześć rekordów źródłowych odpowiada kilku falom wrogów w misji.
+
+W [[srw-oe-ep4-szpony-invaderow|„Szponach Invaderów”]] formy powietrzne bronią bramy [[mucus-gate-s-in|Mucus Gate]] na Marsie razem z naziemnymi i padają pod ostrzałem [[shin-getter-1|Shin Gettera-1]] oraz desantu [[white-base|White Base]].
 }}
 
 {{zrodlo gra=wspolne

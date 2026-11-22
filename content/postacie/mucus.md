@@ -18,6 +18,8 @@ W [[srw-oe-ep2-ryk-dziczy|ćwiczeniach na stacji Connect]] przeciwnicy przypomin
 Mucus kieruje błękitnymi jednostkami szturmowymi [[nekton-assault|Nekton Assault]] oraz odpowiada za bramy [[mucus-gate-s-in|Mucus Gate S IN]] i [[mucus-gate-s-mc|Mucus Gate S MC]], które same w sobie są niepilotowanymi strukturami przerzutowymi.
 
 W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] [[takako-kojima|Profesor]] ostrzega, że [[mechanization-empire|Imperium Mechanizacji]] potrafi zmechanizować Mucus i wykorzystać ich zdolności, a [[erika-kozu|Elly]] dodaje, że jako słudzy Imperium czynią je silniejszym niż ostatnio.
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] [[suol|Szef Suol]] opisuje bramy Mucus jako struktury dryfujące w czasoprzestrzeni, które rozsiewają się jak pyłki albo zarodniki w astronomicznych ilościach; zakorzenia się z nich niewiele, ale mnożą się w zawrotnym tempie. Jedna z takich bram osadza się na Marsie i razem z [[invaderzy|Invaderami]] pada pod ostrzałem oddziału desantowego [[white-base|White Base]].
 }}
 
 {{menu gra=srw-oe

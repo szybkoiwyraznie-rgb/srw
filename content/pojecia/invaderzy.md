@@ -17,6 +17,8 @@ Invaderzy są wymienieni w prologu wśród dawnych nadludzkich ataków. Ich naja
 Pojawia się podczas [[prolog-i-trening-w-connect|prologu i treningu w Connect]] ([[srw-oe-ep0|Epizod 0]]).
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] liczne stada naziemnych [[invader-ground|Invader/Ground]] ścierają się w podziemnej pieczarze z [[shin-getter-1|Shin Getterem-1]] pilotowanym przez [[go|Go]], [[kei|Kei]] i [[gai|Gaia]], przedostając się na pole bitwy przez [[mucus-gate-s-in|bramę Mucus Gate S IN]] u boku [[mechabestia|mechabestii]] oraz [[nekton-assault|Nekton Assault]]. Załoga Gettera zwraca uwagę na ich narastającą aktywność i z tego powodu przystępuje do [[connect-force|Connect]].
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] [[promienie-gettera|promienie Gettera]] o wzorcu Invaderów zdradzają na Marsie kolejną bramę [[mucus-gate-s-in|Mucus Gate]]. [[go|Go]] tłumaczy, że Invaderzy rozsiewają się przez te bramy i mogą celować w bramę warp [[connect-force|Connect]] — nie dość im jednego wszechświata, chcą najechać kolejne. Desant [[white-base|White Base]] niszczy bramę, a [[oscar-dublin|Oscar]] i [[marker|Marker]] potwierdzają, że nowych form wroga już nie przybędzie.
 }}
 
 {{zrodlo gra=wspolne

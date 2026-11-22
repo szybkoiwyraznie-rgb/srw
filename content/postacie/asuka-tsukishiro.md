@@ -24,6 +24,7 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] komentuje go
 
 W [[srw-oe-ep3-skradajacy-sie-cien|scenie „Skradający się cień”]] ucisza [[jin-hyuga|Jina]] i [[maria-shiratori|Marię]], gdy ci kłócą się w środku walki z [[invaderzy|Invaderami]] — jedyna osoba w kokpicie [[raijin-oh|Raijin-Oha]], która w tej wymianie zachowuje spokój.
 
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Asuka dziękuje [[suol|Szefowi Suolowi]] za wyjaśnienie i przekłada je na własne słowa: za wykrywaniem wroga stoją ludzie i dane z walk, a nie sama technologia.
 }}
 
 {{zrodlo gra=wspolne
@@ -55,4 +56,5 @@ Asuka Tsukishiro (月城 飛鳥) w oryginale kieruje lotem i wysokością Raijin
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Pęd** | 1 | 20 | Cel: ty Efekt: 1 razy — Ruch+3 |
+| 2 | **Przebł.** | 6 | 10 | Cel: ty Efekt: 1 razy — Unik+30% |
 }}

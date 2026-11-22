@@ -184,7 +184,7 @@ test('trzy Zaku II: odrębne strony z danymi dostawy, galeriami i obsadą misji'
   assert.ok(bySlug.has('zolnierz-zeonu'), 'Żołnierz Zeonu ma własną stronę');
   // Lista maszyn pilota zbiorowego rośnie z każdą dostawą; komplet pilnuje
   // test/seria-z-dostawy.test.js, tutaj liczą się maszyny z pierwszych misji.
-  for (const mech of ['dom-zolnierz-zeonu', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']) {
+  for (const mech of ['dom', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']) {
     assert.ok(bySlug.get('zolnierz-zeonu').mechy.includes(mech), `Żołnierz Zeonu: ${mech}`);
   }
   assert.deepEqual(bySlug.get('turret').piloci, [], 'Turret nie jest pilotowanym mechem');
@@ -299,14 +299,14 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
   }
 });
 
-test('ilustracje właściciela: 303 pliki przy 240 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 304 pliki przy 240 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
   // Bieżący stan manifestu jest przypięty tylko tutaj. Testy poszczególnych dostaw sprawdzają
   // własne klucze i to, że manifest nie jest starszy od nich — kolejna dostawa zmienia ten jeden test.
   assert.equal(Object.keys(manifest.encje).length, 240);
-  assert.equal(Object.values(manifest.encje).flat().length, 303);
-  assert.equal(manifest.dostarczono, '2026-11-19', 'data ostatniej dostawy ilustracji');
+  assert.equal(Object.values(manifest.encje).flat().length, 304);
+  assert.equal(manifest.dostarczono, '2026-11-21', 'data ostatniej dostawy ilustracji');
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   assert.equal(new Set(wszystkie).size, wszystkie.length, 'plik należy do jednej encji');
@@ -316,14 +316,13 @@ test('ilustracje właściciela: 303 pliki przy 240 encjach, w tym postacie i mec
   assert.match(manifest.uwaga, new RegExp(`^Stan manifestu: ${portrety} portret[a-ząćęłńóśźż]* w characters/ i ${jednostki} plik[a-ząćęłńóśźż]* jednostek w korzeniu, razem ${wszystkie.length} obraz[a-ząćęłńóśźż]* przy ${Object.keys(manifest.encje).length} encjach\\.`),
     'uwaga zaczyna się od bieżących liczb');
   // Dostawa ilustracji jednostek misji 2 (2026-10-22): sześć maszyn, dziewięć plików.
-  assert.deepEqual(manifest.encje.dom, ['Dom.png', 'Dom 2.png']);
+  assert.deepEqual(manifest.encje.dom, ['Dom.png', 'Dom 2.png', 'Dom Generic.png', 'Dom Generic 2.png']);
   assert.deepEqual(manifest.encje.dopp, ['Dopp.png']);
   assert.deepEqual(manifest.encje['g-fighter'], ['G-Fighter.png']);
   assert.deepEqual(manifest.encje.guncannon, ['Guncannon.png', 'Guncannon 2.png']);
   assert.deepEqual(manifest.encje.guntank, ['Guntank.png', 'Guntank 2.png']);
   assert.deepEqual(manifest.encje.turret, ['Turret.png']);
   // Druga dostawa zwykłego Doma (2026-10-22): dwa pliki dla odrębnego profilu z misji 3.
-  assert.deepEqual(manifest.encje['dom-zolnierz-zeonu'], ['Dom Generic.png', 'Dom Generic 2.png']);
   // Portrety obsady misji 2 (2026-10-22): sześć postaci, sześć plików w characters/.
   assert.deepEqual(manifest.encje.gaia, ['characters/Gaia.png']);
   assert.deepEqual(manifest.encje['hayato-kobayashi'], ['characters/Hayato Kobayashi.png']);

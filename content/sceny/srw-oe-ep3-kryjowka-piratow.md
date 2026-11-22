@@ -158,5 +158,4 @@ Rozmowa o [[stacja-mars|Stacji Mars]] i bramie warp nie kończy się na nauce: g
 | Piraci zagrażający szlakom handlowym poza Sferą Ziemską | [[srw-oe\|Super Robot Wars OE]] | n/d | Słaba obecność [[earth-federation\|Federacji]] na odległych trasach i kryjówka piratów wydrążona w asteroidzie pojawiają się w tej wyprawie po raz pierwszy. |
 | Byli żołnierze [[zeon\|Zeonu]] w załodze piratów | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa [[terry-sanders-jr\|Sandersa]], [[michel-ninorich\|Michela]] i [[alan-igor\|Alana]] o powodach, dla których dezerterzy zostają piratami, oraz wzmianka o syndykacie czerpiącym z nich zyski nie mają odpowiednika w żadnej z serii. |
 | [[himari-yaegaki\|Himari]] uczy się o bramach warp i [[stacja-mars\|Stacji Mars]] | [[srw-oe\|Super Robot Wars OE]] | n/d | Szerszy dostęp do danych, który Himari zawdzięcza fotelowi podpilotki [[exart\|Exarta]], otwiera dalszą trasę. |
-| Statek zdolny przejść przez przekrój czasoprzestrzeni | [[srw-oe\|Super Robot Wars OE]] | n/d | Rozmowa o bramie warp, w której lecą [[srw-oe-ep3-napasc-na-baze-marsjanska\|dalej]], ustawia Ark Ship i pierścień warp jako warunki podróży między wszechświatami. |
 }}

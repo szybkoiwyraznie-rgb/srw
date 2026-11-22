@@ -15,6 +15,8 @@ utworzono: 2026-10-19
 {{menu gra=srw-oe
 
 W [[srw-oe|Super Robot Wars OE]] serię Sgt. Frog reprezentują [[real-pg-gundam|Real PG Gundam]], [[keroro-robo-mk-ii|Keroro Robo Mk-II]] i [[keroro-jet|Keroro Jet]], pilotowane przez [[sergeant-keroro|sierżanta Keroro]].
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] [[sergeant-keroro|Keroro]] pomaga przy naprawach w hangarze [[white-base|White Base]], popisuje się wiedzą o [[mobile-suit|mobile suitach]] przed [[kai-shiden|Kaiem]] i [[hayato-kobayashi|Hayato]], a potem sam pilnuje, żeby nie powiedzieć o Gundamie nic, co mogłoby zmienić rodowód maszyn.
 }}
 
 {{zrodlo gra=wspolne

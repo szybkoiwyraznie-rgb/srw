@@ -16,6 +16,8 @@ utworzono: 2026-11-17
 {{skrypt gra=srw-oe
 
 Sierżant Keroro trafia do kolonii kosmicznej w obcym świecie i nieświadomie wywołuje rezonansowym głosem szał Laborów. Connect Force ratuje go podczas walki, po czym Keroro dołącza do załogi White Base. W misji pilotuje [[keroro-robo-mk-ii|Keroro Robo Mk-II]], który może przekształcić się w [[keroro-jet|Keroro Jet]].
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] pomaga [[hayato-kobayashi|Hayato]] przy naprawach w hangarze [[white-base|White Base]] i popisuje się przed [[kai-shiden|Kaiem]] wiedzą o [[mobile-suit|mobile suitach]], od Gunpli po kaliber Zaku Machine Guna. Gdy Kai wyciąga z niego nazwę prototypu [[zeon|Zeonu]], Keroro wycofuje się w tajemnicę wojskową, a w kajucie przyznaje, że mówienie o Gundamie mogłoby zmienić rodowód maszyn — i odebrać mu szansę zobaczenia prawdziwych MS i MA.
 }}
 
 {{zrodlo gra=wspolne

@@ -46,4 +46,5 @@ W [[tengen-toppa-gurren-lagann|pierwowzorze]] Yoko Littner (ヨーコ・リッ�
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Celny** | 1 | 10 | Cel: ty Efekt: 1 razy — Celność+30% |
+| 2 | **Zagrz.** | 7 | 20 | Cel: sojusznicy 1 jedn. — Zasięg 3 Morale+5 |
 }}

@@ -78,21 +78,24 @@ test('opis Loum rozróżnia założenie Federacji od skutecznego odbicia Revila'
 });
 
 test('pięć nowych jednostek ma uzbrojenie z dostawy i parametry pary (mech, gra)', () => {
-  const jednostki = [['dom', 2], ['dopp', 2], ['g-fighter', 3], ['guncannon', 3], ['guntank', 2]];
+  // Dom jest jedną stroną z dwoma zestawami parametrów (ADR 0045): dwa ataki
+  // Black Tri-Stars i dwa seryjnej maszyny.
+  const jednostki = [['dom', 4], ['dopp', 2], ['g-fighter', 3], ['guncannon', 3], ['guntank', 2]];
   for (const [slug, count] of jednostki) {
     const mech = bySlug.get(slug);
     assert.equal(mech.typ, 'mech', slug);
     assert.deepEqual(mech.gry, ['srw-oe'], slug);
     assert.equal(mech.seria, 'mobile-suit-gundam-1979', slug);
-    const stats = JSON.parse(mech.w_gre['srw-oe']);
-    assert.equal(stats.dostawa, 'dostawy/srw-oe/dostawa_1_2.txt', slug);
-    assert.ok(delivery.includes(stats.profil), `${slug}: profil w dostawie`);
+    const profile = [mech.w_gre['srw-oe'], ...(mech.w_gre_dodatkowe ?? [])].map((w) => JSON.parse(w));
+    assert.ok(profile.some((x) => x.dostawa === 'dostawy/srw-oe/dostawa_1_2.txt'), slug);
+    assert.ok(profile.some((x) => delivery.includes(x.profil)), `${slug}: profil w dostawie`);
     const rows = mech.body.split('\n').filter((line) => /^\|\s+\d+\s+\|/.test(line));
     assert.equal(rows.length, count, `${slug}: liczba ataków`);
     for (const row of rows) {
       const cells = row.split('|').slice(1, -1).map((c) => c.trim());
       assert.equal(cells.length, 9, `${slug}: kolumny tabeli`);
-      for (const cell of cells) assert.ok(stats.dane.includes(cell), `${slug}: dane w w_gre: ${cell}`);
+      assert.ok(profile.some((x) => x.dane.includes(cells[0]) && x.dane.includes(cells[1])),
+        `${slug}: wiersz w jednym z zestawów parametrów: ${cells[1]}`);
       assert.ok(delivery.includes(cells[1]), `${slug}: broń z dostawy`);
     }
     assert.doesNotMatch(mech.body, /&lt;br&gt;/, slug);
@@ -100,7 +103,7 @@ test('pięć nowych jednostek ma uzbrojenie z dostawy i parametry pary (mech, gr
 });
 
 test('obsada jednostek misji 2 zachowuje kolejność pilotów i domyślną załogę', () => {
-  assert.deepEqual(bySlug.get('dom').piloci, ['gaia', 'ortega', 'mash']);
+  assert.deepEqual(bySlug.get('dom').piloci, ['gaia', 'ortega', 'mash', 'zolnierz-zeonu']);
   assert.deepEqual(bySlug.get('g-fighter').piloci, ['sayla-mass']);
   assert.deepEqual(bySlug.get('guncannon').piloci, ['kai-shiden']);
   assert.deepEqual(bySlug.get('guntank').piloci, ['hayato-kobayashi']);
@@ -108,7 +111,7 @@ test('obsada jednostek misji 2 zachowuje kolejność pilotów i domyślną zało
   assert.deepEqual(bySlug.get('turret').piloci, [], 'wieżyczka jest niepilotowanym celem');
   // Lista maszyn pilota zbiorowego rośnie z każdą dostawą; komplet pilnuje
   // test/seria-z-dostawy.test.js, tutaj liczą się maszyny z pierwszych misji.
-  for (const mech of ['dom-zolnierz-zeonu', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']) {
+  for (const mech of ['dom', 'dopp', 'zaku-ii-bazooka', 'zaku-ii-karabin-maszynowy']) {
     assert.ok(bySlug.get('zolnierz-zeonu').mechy.includes(mech), `Żołnierz Zeonu: ${mech}`);
   }
   assert.deepEqual(bySlug.get('sayla-mass').mechy, ['g-fighter']);
@@ -171,7 +174,7 @@ test('wieżyczka uniwersalna i Żołnierz Zeonu mają własne strony z danymi do
 test('jednostki i obsada misji 2 mają galerie z dostaw ilustracji, pozostałe strony bez grafik', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   const jednostki = {
-    dom: ['Dom.png', 'Dom 2.png'],
+    dom: ['Dom.png', 'Dom 2.png', 'Dom Generic.png', 'Dom Generic 2.png'],
     dopp: ['Dopp.png'],
     'g-fighter': ['G-Fighter.png'],
     guncannon: ['Guncannon.png', 'Guncannon 2.png'],

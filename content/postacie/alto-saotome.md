@@ -15,6 +15,8 @@ utworzono: 2026-11-19
 Dowódca [[eskadra-skull|Eskadry Skull]], prowadzi [[vf-25f-messiah|VF-25F Messiah]]. W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] jego eskadra zjawia się nad bazą w chwili, gdy ta jest bliska zniszczenia, i pierwszy strzał ratuje [[albatro-null-eiji-asuka|Eijiego]]. Alto nawiązuje kontakt z nieznaną maszyną, a potem razem z [[michael-blanc|Michaelem]] i [[luca-angeloni|Lucą]] wstrzymuje się z osądami do czasu rozpoznania przeciwnika.
 
 Po walce nie rusza w pościg za [[gosterro|Gosterrem]], bo nie zna sił wroga — czym ściąga na siebie docinki Michaela, że wciąż traktuje dowódcę jak żółtodzioba. Na odprawie potwierdza, że Eskadra Skull została przydzielona do [[connect-force|Connect Force]].
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Alto przypomina, że jego eskadra przeżyła walki z Vajrą i Zentradi, i nie zamierza przegrać z [[invaderzy|Invaderami]] na Marsie.
 }}
 
 {{menu gra=srw-oe

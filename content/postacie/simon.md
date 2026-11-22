@@ -54,6 +54,7 @@ W [[tengen-toppa-gurren-lagann|pierwowzorze]] Simon (シモン) jest nieśmiały
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Niezł.** | 1 | 15 | Cel: ty Efekt: 1 razy — Otrzym. obrażenia-50% |
+| 2 | **Mur** | 8 | 20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30% |
 
 ### Umiejętności pilota
 

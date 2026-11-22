@@ -6,7 +6,7 @@ gra: srw-oe
 numer: 1
 skrypt: episodes/srw-oe/ep001.md
 postacie: [seishiro, himari-yaegaki, suol, noa-izumi, isao-ota, kanuka-clancy, asuma-shinohara, kiichi-goto, mikiyasu-shinshi, hiromi-yamazaki, zolnierz-jsdf, shinohara-hos, amuro-ray, kai-shiden, hayato-kobayashi, bright-noa, sayla-mass, mirai-yashima, fraw-bow, oscar-dublin, marker, gaia, ortega, mash, mquve, zolnierz-zeonu, general-revil, oficer-federacji, oficer-zeonu, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, maria-shiratori, tsutomu-kojima, kirara-haruno, yoko-kuriki, control-ai, christina-mackenzie, shiro-amada, terry-sanders-jr, karen-joshua, michel-ninorich, eledore-massis, zolnierz-federacji, hardy-steiner, mikhail-kaminsky, gabriel-ramirez-garcia, andy-strauss, seitaro-sakaki, badrinath-harchand, utsumi, kurosaki, shigeo-shiba, shinobu-nagumo]
-mechy: [exart, ingram-nr-1, ingram-nr-2, medea, hal-x10, hal-x10-green, helldiver, rx-78-2-gundam, guncannon, guntank, g-fighter, white-base, dom, dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, dom-zolnierz-zeonu, h-bomb-missile, raijin-oh, brocken, rx-78nt-1-gundam-alex, gundam-ez8, gundam-ground-type, gundam-ground-type-glowa-gm, hover-truck, kampfer-bazooka, kampfer-high-mobility, zaku-ii-kai]
+mechy: [exart, ingram-nr-1, ingram-nr-2, medea, hal-x10, hal-x10-green, helldiver, rx-78-2-gundam, guncannon, guntank, g-fighter, white-base, dom, dopp, turret, zaku-ii-bazooka, zaku-ii-karabin-maszynowy, h-bomb-missile, raijin-oh, brocken, rx-78nt-1-gundam-alex, gundam-ez8, gundam-ground-type, gundam-ground-type-glowa-gm, hover-truck, kampfer-bazooka, kampfer-high-mobility, zaku-ii-kai]
 pojecia: [connect-force, labor, sv2, sily-samoobrony-japonii, poligon-fuji, black-tri-stars, operacja-odessa, jet-stream-attack, zeon, earth-federation, minovsky-particles, mobile-suit, newtype, jaburo, krzyz-zeonu, stacja-connect, traktat-antarktyczny, klasa-obrony-ziemi, akademia-hinobori, jaku-empire, 08-pluton-ms, pluton-cyclops, side-6, libot, shinohara-heavy-industries]
 pochodzenie: skrypt
 zrodla:
@@ -60,7 +60,7 @@ Okręt rozpyla [[minovsky-particles|cząstki Minovsky’ego]] i wysyła do walki
 
 ### [[srw-oe-ep1-powstrzymaj-pocisk-termojadrowy|Misja 3: Powstrzymaj pocisk termojądrowy]]
 
-Federacja przełamuje ostatnią linię obrony Odessy. [[mquve|M'Quve]] żąda odwrotu wojsk pod groźbą użycia bomby wodorowej, ale [[general-revil|generał Revil]] nie ulega szantażowi i utrzymuje natarcie. Zwykłe oddziały Zeonu w [[dom-zolnierz-zeonu|Domach]], [[dopp|Doppach]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]] próbują osłonić drogę ku kosmodromowi.
+Federacja przełamuje ostatnią linię obrony Odessy. [[mquve|M'Quve]] żąda odwrotu wojsk pod groźbą użycia bomby wodorowej, ale [[general-revil|generał Revil]] nie ulega szantażowi i utrzymuje natarcie. Zwykłe oddziały Zeonu w [[dom|Domach]], [[dopp|Doppach]], [[zaku-ii-bazooka|Zaku II z bazooką]] i [[zaku-ii-karabin-maszynowy|Zaku II z karabinem maszynowym]] próbują osłonić drogę ku kosmodromowi.
 
 M'Quve odpala [[h-bomb-missile|pocisk termojądrowy]], łamiąc [[traktat-antarktyczny|Traktat Antarktyczny]]. [[bright-noa|Bright]] przesyła [[amuro-ray|Amurowi]] kurs oraz dane zapalnika, a [[rx-78-2-gundam|Gundam]] przecina go szablą wiązkową. Brak reakcji jądrowej potwierdza powodzenie, operacja Odessa kończy się zwycięstwem Federacji, a M'Quve wycofuje się z przekonaniem, że wysłane wcześniej surowce pozwolą Zeonowi walczyć jeszcze dziesięć lat.
 

@@ -25,6 +25,7 @@ sekcje_analizy:
   - "Nowa flota → Sala odpraw"
 zrodla:
   - https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner
+  - https://www.animenewsnetwork.com/encyclopedia/anime.php?id=1161&page=25
   - https://en.wikipedia.org/wiki/Macross_Frontier
 tagi: [scena, srw-oe, mars, connect, layzner, macross]
 utworzono: 2026-11-19
@@ -338,7 +339,7 @@ Trzeba było jak najszybciej zniszczyć okręt-matkę awangardy armii Gradosu.
 
 ### Mostek White Base
 
-[[masato-shikibu|Masato]] wypytuje [[himari-yaegaki|Himari]] o [[brama-warp|warp]], a ona przyznaje, że na samą myśl o przejściu „cała płonie”. Alarm przerywa rozmowę — to nie przybycie na stację, lecz wezwanie.
+[[himari-yaegaki|Himari]] uczy się przy terminalu [[fraw-bow|Fraw]], gdy rozmowa schodzi na siedzibę [[connect-force|Connect]]: główna mieści się gdzie indziej, a marsjańska stacja jest tylko ośrodkiem Układu Słonecznego. [[seishiro|Seishiro]] wraca z treningu i wyjaśnia, że [[shiro-amada|Shiro]] uczył się od niego japońskiej szermierki rodu Kusanagi. Na mostku [[bright-noa|Bright]], [[mirai-yashima|Mirai]], [[oscar-dublin|Oscar]] i [[marker]] śledzą wiązkę naprowadzającą ze [[stacja-mars|Stacji Mars]], która skraca drogę [[white-base|White Base]] do sektora Marsa.
 
 ### Brama nadprzestrzenna
 
@@ -354,7 +355,7 @@ Największym urządzeniem jest pierścień warp wielkości kolonii kosmicznej. [
 
 ### Alarm zamiast przybycia
 
-[[masato-shikibu|Masato]] wypytuje [[himari-yaegaki|Himari]] o [[brama-warp|warp]], a ona przyznaje, że na samą myśl o przejściu „cała płonie”. Alarm przerywa rozmowę — to nie przybycie na stację, lecz wezwanie.
+[[masato-shikibu|Masato]] pyta [[himari-yaegaki|Himari]], czy nie może się doczekać [[brama-warp|warpu]]; ona odpowiada, że na myśl o przejściu „cała płonie”, a [[shigeo-shiba|Shigeo]] podziela entuzjazm. Gdy Himari bierze sygnał za przybycie na stację, [[seishiro|Seishiro]] studzi ją: „Ten alarm nie oznacza przybycia”. Zapowiedź skoku zostaje przerwana, zanim ktokolwiek zobaczy bramę.
 
 ### Wezwanie pomocy
 
@@ -378,7 +379,7 @@ Baza broni się resztkami sił: myśliwce i wozy przeciwlotnicze są rozbite, a 
 
 ### Macross Quarter
 
-[[macross-quarter|Macross Quarter]] wchodzi w walkę i ostrzałem odrzuca [[daljan|Daljana]]; [[jeffrey-wilder|Jeffrey]] rozkazuje odeprzeć wrogie maszyny. [[gosterro|Gosterro]] wycofuje się z pogróżką pod adresem [[albatro-null-eiji-asuka|Eijiego]], a [[alto-saotome|Alto]] nie rusza w pościg, bo nie zna sił wroga. [[luca-angeloni|Luca]] staje w obronie dowódcy przed docinkami [[michael-blanc|Michaela]], który przyznaje, że tylko sprawdzał Alta. Załogę mostka tworzą obok kapitana [[catherine-glass|Catherine Glass]] i [[bobby-margot|Bobby Margot]]. Kapitan każe wszystkim lądować, a Eiji przyjmuje zaproszenie na pokład.
+[[macross-quarter|Macross Quarter]] wchodzi w walkę i ostrzałem odrzuca [[daljan|Daljana]]; [[jeffrey-wilder|Jeffrey]] rozkazuje odeprzeć wrogie maszyny. [[gosterro|Gosterro]] wycofuje się z pogróżką pod adresem [[albatro-null-eiji-asuka|Eijiego]], a [[alto-saotome|Alto]] nie rusza w pościg, bo nie zna sił wroga. [[luca-angeloni|Luca]] staje w obronie dowódcy przed docinkami [[michael-blanc|Michaela]], który przyznaje, że tylko sprawdzał Alta. W misji obecni są też [[catherine-glass|Catherine Glass]] i [[bobby-margot|Bobby Margot]]. Kapitan każe wszystkim lądować, a Eiji przyjmuje zaproszenie na pokład.
 
 ### Zeznanie Eijiego
 
@@ -391,7 +392,10 @@ Na odprawie [[suol|szef Suol]] przedstawia najsilniejszy oddział Układu Słone
 }}
 
 {{zrodlo gra=srw-oe
-**Layzner — baza na Marsie i przybycie Eijiego.** Atak [[grados|Gradosu]] na bazę w sektorze Marsa i pojawienie się [[albatro-null-eiji-asuka|Eijiego]] w [[enh-layzner|Enhanced Layznerze]] nawiązują do pierwszego odcinka *Blue Comet SPT Layzner* (蒼き流星SPTレイズナー, „On the Red Planet”, あかい星にて, 3 października 1985) — https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner (sprawdzono 2026-11-19). W obu wypadkach niebieski SPT ratuje zagrożoną bazę, a jego pilot musi najpierw udowodnić, że nie jest wrogiem. Inna jest obsada i skala — bazą dowodzą [[oficer-federacji|oficer]] i [[zolnierz-federacji|żołnierze]] [[earth-federation|Federacji]], a do walki włączają się [[eskadra-skull|Eskadra Skull]] i [[connect-force|Connect Force]].
+
+## Nawiązania do oryginalnych odcinków
+
+Wydarzenia z tej sceny — atak [[grados|Gradosu]] na bazę w sektorze Marsa i pojawienie się [[albatro-null-eiji-asuka|Eijiego]] w [[enh-layzner|Enhanced Layznerze]] — nawiązują do pierwszego odcinka *Blue Comet SPT Layzner* (蒼き流星SPTレイズナー, „On the Red Planet”, あかい星にて, 3 października 1985) — [Wikipedia, *Blue Comet SPT Layzner*](https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner) i [ANN, *Blue Comet SPT Layzner* — tytuły odcinków](https://www.animenewsnetwork.com/encyclopedia/anime.php?id=1161&page=25) (sprawdzono 2026-11-20). W obu wypadkach niebieski SPT pojawia się w środku ataku na bazę, a jego pilot musi najpierw udowodnić, że nie jest wrogiem. Inna jest obsada i skala — bazą dowodzą [[oficer-federacji|oficer]] i [[zolnierz-federacji|żołnierze]] [[earth-federation|Federacji]], a do walki włączają się [[eskadra-skull|Eskadra Skull]] i [[connect-force|Connect Force]].
 
 **Frontier — Eskadra Skull i Macross Quarter.** [[eskadra-skull|Eskadrę Skull]], [[macross-quarter|Macross Quarter]] i trójka pilotów w maszynach Messiah pochodzi z *Macross Frontier* (2008) — https://en.wikipedia.org/wiki/Macross_Frontier (sprawdzono 2026-11-19). W serialu działają w ramach floty Frontier i prywatnej firmy S.M.S.; tutaj trafiają do Układu Słonecznego i na [[stacja-mars|Stacji Mars]] wchodzą w skład floty [[connect-force|Connect]].
 }}
@@ -402,8 +406,8 @@ Na odprawie [[suol|szef Suol]] przedstawia najsilniejszy oddział Układu Słone
 
 | Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
 |---|---|---|---|
-| Dezerter z Gradosu ostrzega Ziemię i staje w obronie bazy | [[blue-comet-spt-layzner\|Blue Comet SPT Layzner]] | odc. 1 „On the Red Planet” | W obu wersjach [[albatro-null-eiji-asuka\|Eiji]] przybywa w środku ataku na bazę, ale obsadą bazy są żołnierze [[earth-federation\|Federacji]], a nie nastoletni członkowie klubu kosmicznego; po bitwie Eiji od razu trafia do [[connect-force\|Connect Force]]. |
-| [[gosterro\|Gosterro]] jako dowódca awangardy Gradosu | [[blue-comet-spt-layzner\|Blue Comet SPT Layzner]] | cała seria | Tu jest przeciwnikiem jednej misji i źródłem wiedzy o skali inwazji, bez rozwinięcia jego późniejszych losów. |
+| Dezerter z Gradosu ostrzega Ziemię i staje w obronie bazy | [[blue-comet-spt-layzner\|Blue Comet SPT Layzner]] | odc. 1 „On the Red Planet” | W obu wersjach [[albatro-null-eiji-asuka\|Eiji]] przybywa w środku ataku na bazę, ale obsadą bazy są żołnierze [[earth-federation\|Federacji]], a nie nastoletni członkowie klubu kosmicznego; tutaj po bitwie Eiji od razu trafia do [[connect-force\|Connect Force]]. |
+| [[gosterro\|Gosterro]] jako dowódca ataku na bazę | [[blue-comet-spt-layzner\|Blue Comet SPT Layzner]] | cała seria | Dowodzi atakiem na bazę i zapowiada kolejne starcie; jego dalsze losy nie są tu rozwijane. |
 | [[eskadra-skull\|Eskadra Skull]] i [[macross-quarter\|Macross Quarter]] dołączają do Connect Force | [[macross-frontier\|Macross Frontier]] | cała seria | W serialu działają w ramach floty Frontier i S.M.S.; tutaj zostają przeniesieni do Układu Słonecznego i włączeni do floty Connect na [[stacja-mars\|Stacji Mars]]. |
 | [[brama-warp\|Brama warp]], [[ark-ship\|Ark Ship]] i pierścień warp | [[srw-oe\|Super Robot Wars OE]] | n/d | Wytłumaczenie podróży między wszechświatami nie ma odpowiednika w żadnej z obecnych serii; opiera się na zdolności [[mucus\|Mucus]] do skoków podprzestrzennych. |
 | Siedziba Connect w Układzie Słonecznym na Marsie i jurysdykcja nad planetą | [[srw-oe\|Super Robot Wars OE]] | n/d | Wybór zaniedbanego Marsa na siedzibę Connect i zakaz walk obowiązujący na planecie to elementy własne gry. |

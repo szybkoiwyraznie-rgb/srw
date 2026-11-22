@@ -60,6 +60,7 @@ W [[mazinger-edition-z-the-impact|pierwowzorze]] Koji Kabuto (兜 甲児) jest w
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Hart** | 1 | 20 | Cel: ty — Odnawia 25% HP |
+| 2 | **Pęd** | 6 | 20 | Cel: ty Efekt: 1 razy — Ruch+3 |
 
 ### Umiejętności pilota
 

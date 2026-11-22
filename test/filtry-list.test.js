@@ -162,6 +162,7 @@ test('filtr listy scen zawęża po maszynie, postaci i serii obsady', () => {
 
   assert.deepEqual(sceny(renderListe('scena', { mech: 'raijin-oh' })),
     ['srw-oe-ep1-trening-klasy-obrony', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep2-grozba-pod-ziemia', 'srw-oe-ep2-klasa-obrony-leci-w-kosmos']);
+  // Scena 4-2 ma w obsadzie pilotów Raijin-Oha, ale sama maszyna w niej nie występuje.
   assert.deepEqual(sceny(renderListe('scena', { postac: 'noa-izumi' })),
     ['srw-oe-ep1-szalejacy-prototyp-labora', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep1-sledztwo-pod-przykrywka', 'srw-oe-ep2-grozba-pod-ziemia', 'srw-oe-ep2-czarny-labor', 'srw-oe-ep2-ryk-dziczy',
       'srw-oe-ep3-interwencja-gundamow', 'srw-oe-ep3-skradajacy-sie-cien', 'srw-oe-ep3-zielony-najezdzca',
@@ -169,8 +170,8 @@ test('filtr listy scen zawęża po maszynie, postaci i serii obsady', () => {
   // Scena nie ma pola `seria` — świat bierze z obsady.
   assert.deepEqual(sceny(renderListe('scena', { seria: 'matchless-raijin-oh' })),
     ['srw-oe-ep1-trening-klasy-obrony', 'srw-oe-ep1-szalejacy-labor-powraca', 'srw-oe-ep2-grozba-pod-ziemia', 'srw-oe-ep2-klasa-obrony-leci-w-kosmos',
-      'srw-oe-ep3-skradajacy-sie-cien', 'srw-oe-ep3-kryjowka-piratow']);
-  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 23, 'wszystkie sceny są z jednej gry');
+      'srw-oe-ep3-skradajacy-sie-cien', 'srw-oe-ep3-kryjowka-piratow', 'srw-oe-ep4-szpony-invaderow']);
+  assert.equal(sceny(renderListe('scena', { gra: 'srw-oe' })).length, 25, 'wszystkie sceny są z jednej gry');
 
   const epizody = (html) => [...new Set([...html.matchAll(/href="#\/epizod\/([^"]+)"/g)].map((m) => m[1]))];
   assert.deepEqual(epizody(renderListe('epizod', { mech: 'raijin-oh' })), ['srw-oe-ep1', 'srw-oe-ep2']);
@@ -189,7 +190,7 @@ test('epizody: grupują się po grze w domyślnie zwiniętych details', () => {
   const grupy = [...html.matchAll(/<details class="grupa-epizodow-gry">([\s\S]*?)<\/details>/g)].map((m) => m[1]);
   assert.equal(grupy.length, 2, 'dwie gry mają osobne grupy epizodów');
   assert.doesNotMatch(html, /<details class="grupa-epizodow-gry"[^>]*open/);
-  assert.match(grupy[0], /Super Robot Wars OE[\s\S]*(4 epizody)/);
+  assert.match(grupy[0], /Super Robot Wars OE[\s\S]*(5 epizodów)/);
   assert.match(grupy[1], /Super Robot Wars Y[\s\S]*\(1 epizod\)/);
   assert.match(grupy[0], /href="#\/epizod\/srw-oe-ep0"/);
   assert.match(grupy[1], /href="#\/epizod\/srw-y-ep1"/);
@@ -202,7 +203,7 @@ test('sceny: grupują się najpierw po grze w domyślnie zwiniętych details', (
   const grupy = [...html.matchAll(/<details class="grupa-scen-gry">([\s\S]*?)<\/details>/g)].map((m) => m[1]);
   assert.equal(grupy.length, 2, 'dwie gry mają osobne grupy');
   assert.doesNotMatch(html, /<details class="grupa-scen-gry"[^>]*open/);
-  assert.match(grupy[0], /Super Robot Wars OE[\s\S]*(23 sceny)/, 'pierwsza jest gra z pierwszymi scenami');
+  assert.match(grupy[0], /Super Robot Wars OE[\s\S]*(25 scen)/, 'pierwsza jest gra z pierwszymi scenami');
   assert.match(grupy[1], /Super Robot Wars Y[\s\S]*\(3 sceny\)/, 'druga jest gra z nowymi scenami');
   assert.match(grupy[0], /href="#\/epizod\/srw-oe-ep1"/, 'rozwinięta grupa pokazuje epizod');
   assert.match(grupy[0], /href="#\/scena\/srw-oe-ep1-szalejacy-prototyp-labora"/, 'rozwinięta grupa pokazuje scenę');
@@ -238,7 +239,9 @@ test('selektory list fabularnych zawężają się nawzajem', () => {
     'brocken', 'brocken-cannon', 'brocken-dzialko-automatyczne',
     'daiteioh', 'exart', 'final-dancouga', 'ganbaruger', 'gandoppler', 'gelgoog',
     'go-saurer', 'great-ganbaruger', 'gundam-exia', 'gurren-lagann',
-    'ingram-nr-1', 'ingram-nr-2', 'invader-air', 'invader-ground', 'mazinger-z',
+    'ingram-nr-1', 'ingram-nr-2', 'invader-air', 'invader-ground',
+    // Misja 4-2 ma w obsadzie pilotów Raijin-Oha i mostek Macross Quartera.
+    'macross-quarter', 'mazinger-z',
     'metal-beast-muszla',
     'mucus-gate-s-in', 'mucus-gate-s-mc', 'nekton-assault',
     'perfect-daiteioh', 'raijin-oh', 'rick-dom', 'shin-getter-1', 'white-base', 'wing-gundam-zero',

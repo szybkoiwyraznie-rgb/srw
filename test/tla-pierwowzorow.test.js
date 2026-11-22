@@ -102,14 +102,16 @@ test('załoga White Base i piloci Zeonu mają tło z pierwowzoru (ADR 0008, ADR 
 });
 
 test('maszyny Zeonu mają tło techniczne z pierwowzoru (ADR 0008, ADR 0013)', () => {
-  sprawdzBlok('dom-zolnierz-zeonu', ['https://www.mahq.net/ms-09/']);
+  sprawdzBlok('dom', ['https://www.mahq.net/ms-09/']);
   sprawdzBlok('dopp', ['https://gundam.fandom.com/wiki/Dopp']);
-  assert.match(bySlug.get('dom-zolnierz-zeonu').body, /380 km\/h/);
+  assert.match(bySlug.get('dom').body, /380 km\/h/);
   assert.match(bySlug.get('dopp').body, /symulacjach komputerowych/);
-  // Tło maszyny nie powtarza bloku z pokrewnej strony (ADR 0013).
-  const tloDoma = bySlug.get('dom-zolnierz-zeonu').body.match(/^\{\{zrodlo[\s\S]*?^\}\}$/m)[0];
-  const tloTriStars = bySlug.get('dom').body.match(/^\{\{zrodlo[\s\S]*?^\}\}$/m)[0];
-  assert.notEqual(tloDoma, tloTriStars);
+  // Scalona strona Dom łączy tło techniczne z historią Black Tri-Stars w jednym
+  // bloku (ADR 0045), więc oba wątki muszą być w nim widoczne.
+  const tloDoma = bySlug.get('dom').body.match(/^\{\{zrodlo[\s\S]*?^\}\}$/m)[0];
+  assert.match(tloDoma, /380 km\/h/);
+  assert.match(tloDoma, /Black Tri-Stars/);
+  assert.match(tloDoma, /dostawy\/srw-oe\/dostawa_1_2\.txt|gundam\.fandom\.com\/wiki\/Black_Tri-Stars/);
 });
 
 test('hasła świata Patlabora mają tło z pierwowzoru (ADR 0008, ADR 0013)', () => {

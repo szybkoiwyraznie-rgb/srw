@@ -58,10 +58,10 @@ Pochodzi z rodziny prowadzącej sklep monopolowy. Po szkole średniej ukończył
 | Unik | 76 |
 
 ### Komendy Ducha
-
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Hart** | 1 | 20 | Cel: ty — Odnawia 25% HP |
+| 2 | **Skupienie** | 6 | 15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
 
 ### Umiejętności pilota
 

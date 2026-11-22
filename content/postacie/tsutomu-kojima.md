@@ -18,6 +18,8 @@ Doradca i operator klasy [[klasa-obrony-ziemi|Obrony Ziemi]] w [[akademia-hinobo
 Po treningu uspokaja [[himari-yaegaki|Himari]], że choć jest nowa, nikt nie ucierpiał. Kiedy [[jin-hyuga|Jin]] dopisuje sobie, że dorośli ćwiczą z takimi wyjadaczami jak klasa, Tsutomu odpowiada, że dorośli mają bardziej skomplikowane powody, i ucina dalsze wypytywanie, żeby nie stawiać gości w niezręcznej sytuacji. Zauważa również, że Siły Obrony same posprzątają po ćwiczeniach.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] współpracuje z [[takako-kojima|Takako Kojimą]] przy organizacji wspólnych ćwiczeń z [[saurersi|Saurersami]], a naradę o ich formie przerywa alarm o pojawieniu się [[mechabestia|mechabestii]]. Po bitwie przysłuchuje się odprawie w klasie, na której [[seishiro|Seishiro]] wyjaśnia pochodzenie [[gurren-team|drużyny Gurren]] i gatunku [[mucus|Mucus]].
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Tsutomu ocenia, że [[connect-force|Connect]] zaszedł daleko w badaniach nad biosensorami, i porównuje pracę sztabu do nauki: cele wyznacza się po kolei, krok po kroku.
 }}
 
 {{zrodlo gra=wspolne

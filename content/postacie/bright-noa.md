@@ -26,6 +26,8 @@ Podczas [[operacja-odessa|operacji Odessa]] dowodzi startem [[white-base|White B
 Gdy [[mquve|M'Quve]] odpala [[h-bomb-missile|pocisk termojądrowy]], Bright wykorzystuje dane ujawnione na mocy [[traktat-antarktyczny|Traktatu Antarktycznego]]. Przesyła [[amuro-ray|Amurowi]] kurs i położenie zapalnika, a następnie rozkazuje przeciąć go szablą wiązkową.
 
 W [[srw-oe-ep2-w-poscigu-za-zanzibarem|pościgu przed spotkaniem z Connect]] nie ukrywa wątpliwości: [[connect-force|Connect]] to organizacja cywilna i nie wiadomo, jak zachowa się w starciu z [[zeon|Zeonem]]. Gdy [[tokwan|Tokwan]] łamie rozejm, rozkazuje przechwycić [[bigro|mobile armora]], a po walce przyjmuje od [[seishiro|Seishira]] przydział okrętu do [[connect-force|Connect Force]] i zachowuje dowodzenie [[13-samodzielny-oddzial|13. Samodzielnym Oddziałem]].
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Bright przyjmuje podział sił zaproponowany przez [[jeffrey-wilder|Jeffreya]]: sam formuje oddział desantowy i ląduje na Marsie, a po zniszczeniu bramy [[mucus-gate-s-in|Mucus Gate]] odsyła jednostki na okręt i zostawia zbieranie próbek [[connect-force|Connect]].
 }}
 
 {{skrypt gra=srw-y

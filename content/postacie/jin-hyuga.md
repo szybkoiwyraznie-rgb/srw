@@ -25,6 +25,8 @@ Podczas [[srw-oe-ep1-szalejacy-labor-powraca|obrony placu budowy]] przybywa z [[
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] razem z [[kenichi-minezaki|Kenichim Minezakim]] sprzeciwia się planowi częstych wspólnych ćwiczeń, obstając przy grze w piłkę, po czym wyprowadza [[raijin-oh|Raijin-Oha]] pod ziemię przeciw [[mechabestia|mechabestiom]], [[invader-ground|Invaderom]] oraz [[nekton-assault|Nekton Assault]]. Z uznaniem wita pojawienie się [[mazinger-z|Mazingera Z]] i [[gurren-lagann|Gurren Laganna]], a po bitwie w klasie stwierdza, że [[kamina|Kamina]] i reszta muszą być z innego świata.
 
 W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] Jin zgłasza [[klasa-obrony-ziemi|Klasę Obrony Ziemi]] do wyprawy [[connect-force|Connect Force]] obok [[gurren-lagann|Gurren Laganna]]. [[saurersi|Saurersi]] zostają na Ziemi, by walczyć z mechabestiami.
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Jin proponuje prosto i do rzeczy: skoro [[invaderzy|Invaderzy]] zakorzeniają się przez bramy, trzeba polecieć przez [[brama-warp|bramę warp]] i rozwalić kryjówkę [[mucus|Mucus]]. [[suol|Szef Suol]] przyjmuje ten plan bez zastrzeżeń.
 }}
 
 {{zrodlo gra=wspolne
@@ -58,10 +60,10 @@ Jin Hyuga (日向 仁) jest głównym pilotem Raijin-Oh i przywódcą trójki bo
 | Unik | 63 |
 
 ### Komendy Ducha
-
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Skupienie** | 1 | 15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
+| 2 | **Zapał** | 8 | 20 | Cel: ty Efekt: 1 razy — Zadawane obrażenia x1,5 |
 
 ### Umiejętności pilota
 

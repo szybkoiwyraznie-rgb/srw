@@ -17,7 +17,8 @@ utworzono: 2026-10-27
 
 Pilot [[shin-getter-3|Shin Gettera-3]] współtworzący z [[go|Go]] i [[kei|Kei]] załogę [[shin-getter-1|Shin Gettera-1]] oraz [[shin-getter-2|Shin Gettera-2]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] podczas walki w podziemnej pieczarze jako pierwszy łączy powrót [[mechabestia|mechabestii]] z odrodzeniem [[mechanization-empire|Imperium Mechanizacji]] („Czyli Imperium Mechanizacji wróciło?”), łączy się radiem z przybywającymi posiłkami i po przejściu [[gurren-team|drużyny Gurren]] przez ścianę pyta [[kei|Kei]], czy ruszą im z pomocą, przypominając o zdolności [[shin-getter-2|Gettera-2]] do drążenia tuneli; [[go|Go]] uzależnia zmianę formy i interwencję od tego, czy nowi sojusznicy wpadną w tarapaty; gdy [[himari-yaegaki|Himari]] lokalizuje źródło posiłków, rozsyła obraz celu wszystkim jednostkom.
 
-W hangarze samolotu transportowego [[connect-force|Connect]] wyjaśnia [[koji-kabuto|Kojiemu Kabuto]], że wobec zagrożenia kolejną ofensywą Invaderów i innych wrogów ludzkości powstaje wspólny oddział obronny. Reaguje też z niedowierzaniem na lakoniczne przywitanie [[go|Go]].
+W hangarze samolotu transportowego [[connect-force|Connect]] wyjaśnia [[koji-kabuto|Kojiemu Kabuto]], że wobec zagrożenia kolejną ofensywą Invaderów i innych wrogów ludzkości powstaje wspólny oddział obronny. W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Gai nie dowierza sonarowi, który rozpoznał [[invaderzy|Invaderów]] na Marsie, i to on przypomina, że w sprawach Invaderów [[go|Go]] nigdy się nie myli. Po zniszczeniu bramy [[mucus-gate-s-in|Mucus Gate]] każe sprzątać resztę wroga.
+Reaguje też z niedowierzaniem na lakoniczne przywitanie [[go|Go]].
 }}
 
 {{zrodlo gra=wspolne
@@ -53,6 +54,7 @@ W [[getter-robo-armageddon|pierwowzorze]] Gai (凱) jest pogodnym i opanowanym m
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Hart** | 1 | 20 | Cel: ty — Odnawia 25% HP |
+| 2 | **Mur** | 7 | 20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30% |
 
 ### Umiejętności pilota
 

@@ -14,7 +14,9 @@ utworzono: 2026-11-19
 ---
 {{zrodlo gra=wspolne
 
-Główna operatorka mostka na pokładzie [[macross-quarter|Macross Quartera]] w [[macross-frontier|*Macross Frontier*]] ([Macross Wiki, „Monica Lang”](https://macross.fandom.com/wiki/Monica_Lang); sprawdzono 2026-11-19). Służy w oddziale S.M.S. pod dowództwem kapitana [[jeffrey-wilder|Jeffreya Wildera]], odpowiadając za radar, sensory i wczesne wykrywanie zagrożeń ([Macross Wiki, „Monica Lang”](https://macross.fandom.com/wiki/Monica_Lang); sprawdzono 2026-11-19).
+Główna operatorka mostka na pokładzie [[macross-quarter|Macross Quartera]] w [[macross-frontier|*Macross Frontier*]], członkini załogi dowodzonej przez kapitana [[jeffrey-wilder|Jeffreya Wildera]] ([Macross Wiki, „Monica Lang”](https://macross.fandom.com/wiki/Monica_Lang); sprawdzono 2026-11-20).
+
+Na [[srw-oe-ep4-szpony-invaderow|„Szpony Invaderów”]] czeka przy stanowisku, gdy [[macross-quarter|Macross Quarter]] osłania [[stacja-connect|Stację Connect]], i przekazuje na mostek wiadomość z [[white-base|White Base]] o sukcesie operacji na Marsie.
 }}
 
 {{menu gra=srw-oe

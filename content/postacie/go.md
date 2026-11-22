@@ -17,7 +17,8 @@ utworzono: 2026-10-27
 
 Główny pilot [[shin-getter-1|Shin Gettera-1]] współpracujący z [[kei|Kei]] i [[gai|Gaiem]] w maszynie zdolnej do przejścia w [[shin-getter-2|Shin Gettera-2]] oraz [[shin-getter-3|Shin Gettera-3]]. W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] schodzi z załogą do rozległej podziemnej pieczary tropem [[invaderzy|Invaderów]], gdzie oprócz kosmitów [[invader-ground|Invader/Ground]] napotyka [[mechabestia|mechabestie]] [[bolt-robo-standard|Bolt Robo]] oraz nieznane istoty [[nekton-assault|Nekton Assault]]. Zgadza się z propozycją Gai, by przebić skalną przegrodę wiertłem [[shin-getter-2|Gettera-2]], a wsparty przez [[raijin-oh|Raijin-Oha]], [[go-saurer|Go-Saurera]], [[connect-force|Connect]], [[mazinger-z|Mazingera Z]] i [[gurren-lagann|Gurren Laganna]] niszczy po drugiej stronie ściany bramy [[mucus|Mucus]].
 
-Po walce wraz z [[kei|Kei]] i [[gai|Gaiem]] przystępuje na zaproszenie [[seishiro|Seishira]] do [[connect-force|Connect]]. W hangarze samolotu transportowego niechętnie odpowiada na przywitanie załogi Gettera („...Miło mi.”), co prowokuje reakcję [[gai|Gaia]], [[kei|Kei]] i [[koji-kabuto|Kojiego]], a na wieść, że koledzy cieszą się z jego obecności, odpowiada krótkim „Tak...”.
+Po walce wraz z [[kei|Kei]] i [[gai|Gaiem]] przystępuje na zaproszenie [[seishiro|Seishira]] do [[connect-force|Connect]]. W hangarze samolotu transportowego niechętnie odpowiada na przywitanie załogi Gettera („...Miło mi.”), co prowokuje reakcję [[gai|Gaia]], [[kei|Kei]] i [[koji-kabuto|Kojiego]], a na wieść, że koledzy cieszą się z jego obecności, W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Go rozpoznaje w [[promienie-gettera|promieniach Gettera]] na Marsie zapowiedź [[invaderzy|Invaderów]] i ostrzega, że najeźdźcy mogą celować w bramę warp [[connect-force|Connect]] — nie dość im jednego wszechświata. W walce u bramy [[mucus-gate-s-in|Mucus Gate]] każe towarzyszom nie tracić czujności do samego końca.
+odpowiada krótkim „Tak...”.
 }}
 
 {{zrodlo gra=wspolne
@@ -49,10 +50,10 @@ W [[getter-robo-armageddon|pierwowzorze]] Go (號) jest małomównym, obdarzonym
 | Unik | 66 |
 
 ### Komendy Ducha
-
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Duch** | 1 | 15 | Cel: ty — Morale+5 |
+| 2 | **Zapał** | 8 | 20 | Cel: ty Efekt: 1 razy — Zadawane obrażenia x1,5 |
 
 ### Umiejętności pilota
 

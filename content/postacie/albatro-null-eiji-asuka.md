@@ -12,9 +12,11 @@ utworzono: 2026-11-19
 ---
 {{skrypt gra=srw-oe
 
-Pół Ziemianin, pół Gradosjanin, dezerter z armii [[grados|Gradosu]]. Przybiera nazwisko Albatro Null i przylatuje na Marsa, żeby ostrzec Ziemię przed inwazją. W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] wchodzi nad bazę [[earth-federation|Federacji]] w środku ataku [[gosterro|Gosterra]] i najpierw musi przekonać jej obsługę, że nie jest wrogiem: „Tu Albatro Null Eiji Asuka. Nie jestem waszym wrogiem!”. Staje w obronie bazy i dopiero potem wyjaśnia, że w jego żyłach płynie w połowie krew Ziemian.
+Pół Ziemianin, pół Gradosjanin, dezerter z armii [[grados|Gradosu]]. W armii [[grados|Gradosu]] występuje jako Albatro Null; przylatuje na Marsa, żeby ostrzec Ziemię przed inwazją. W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] wchodzi nad bazę [[earth-federation|Federacji]] w środku ataku [[gosterro|Gosterra]] i najpierw musi przekonać jej obsługę, że nie jest wrogiem: „Tu Albatro Null Eiji Asuka. Nie jestem waszym wrogiem!”. Staje w obronie bazy i dopiero potem wyjaśnia, że w jego żyłach płynie w połowie krew Ziemian.
 
 [[gosterro|Gosterro]] nazywa go zdrajcą i obiecuje, że wywlecze go z kokpitu; Eiji odpowiada, że niezależnie od liczby powrotów wroga będzie bronił bazy. Po odparciu ataku przyjmuje propozycję [[suol|szefa Suola]] i wstępuje do [[connect-force|Connect Force]], licząc na pokój z Gradosem.
+
+W [[srw-oe-ep4-atak-na-okret-gradosu|„Ataku na okręt Gradosu”]] prowadzi [[connect-force|Connect Force]] do okrętu awangardy [[grados|Gradosu]], ukrytego w marsjańskiej dolinie. Na odprawie ujawnia, że to jego ojciec odkrył ruiny pradawnej cywilizacji podczas badań Marsa w ramach projektu [[apollo-x|Apollo X]] i że to dzięki nim Grados przeskoczył czasoprzestrzeń. [[suol|Szef Suol]] rozpoznaje w nim syna doktora Asuki, a Eiji w starciu z [[gosterro|Gosterrem]] mówi, że nie może przegrać dla przyjaciół, którzy mu zaufali. Po zwycięstwie myśli już o planecie cierpiącej jako kolonia Gradosu i przyjmuje odmowę Suola bez pretensji, czekając na właściwy moment.
 }}
 
 {{menu gra=srw-oe

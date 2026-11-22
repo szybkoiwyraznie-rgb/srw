@@ -47,4 +47,5 @@ W [[super-beast-machine-god-dancouga|pierwowzorze]] Ryo Shiba pilotuje Big Moth 
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 | ---: | ----------- | ---------: | -------: | ----------------------------------- |
 | 1 | **Przebł.** | 1 | 10 | Cel: ty Efekt: 1 razy — Unik+30% |
+| 2 | **Celny** | 7 | 10 | Cel: ty Efekt: 1 razy — Celność+30% |
 }}

@@ -17,6 +17,8 @@ utworzono: 2026-11-01
 Członek [[cyber-beast-force|Cyber Beast Force]], podpilot [[final-dancouga|Final Dancougi]] i syn [[komendant-igor|komendanta Igora]]. Podczas [[srw-oe-ep2-ryk-dziczy|spotkania na stacji Connect]] przerywa kłótnię Shinobu z Otą i ręczy za umiejętności własnego zespołu mimo jego trudnych charakterów.
 
 W trakcie demonstracji tłumaczy, że moc techniki wykracza poza teoretyczny potencjał maszyny, i wskazuje na ukrytą siłę Exarta. Po treningu chwali wsparcie udzielane przez policjantów: uważa, że jego oddział powinien uczyć się od nich zgrania. Na koniec pilnuje czasu odlotu do bazy.
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Alan ostrzega, że [[invaderzy|Invaderzy]] są groźnym przeciwnikiem, i stawia sprawę jasno: albo uderzenie całą siłą, albo podział sił — bez półśrodków.
 }}
 
 {{zrodlo gra=wspolne
@@ -46,6 +48,7 @@ W [[srw-oe|Super Robot Wars OE]] Alan należy do [[cyber-beast-force|Cyber Beast
 ### Komendy Ducha
 
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
-| ---: | --------- | ---------: | -------: | ------------------------------------------------------- |
+|---:|---|---:|---:|---|
 | 1 | **Mur** | 1 | 20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30% |
+| 2 | **Wiatr** | 8 | 20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
 }}

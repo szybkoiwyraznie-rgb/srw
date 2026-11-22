@@ -17,6 +17,8 @@ Mała podziemna brama podprzestrzenna gatunku [[mucus|Mucus]] powiązana z [[inv
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] silne źródło energii bramy za ścianą jaskini wyczuwa [[himari-yaegaki|Himari]], zanim słaby odczyt potwierdzają czujniki [[exart|Exarta]]. Po przebiciu skały przez [[gurren-lagann|Gurren Laganna]] i dotarciu na miejsce [[shin-getter-1|Shin Gettera-1]] załogi niszczą obiekt, a [[seishiro|Seishiro]] wyjaśnia, że Invaderzy potrafią rozkładać i ponownie składać własne ciała, dzięki czemu wykorzystują Mucus Gate jako bramę skokową.
 
+W [[srw-oe-ep4-szpony-invaderow|„Szponach Invaderów”]] brama wyrasta na Marsie, zdradzona przez [[promienie-gettera|promienie Gettera]] o wzorcu [[invaderzy|Invaderów]]. [[suol|Szef Suol]] tłumaczy, że takie bramy dryfują w czasoprzestrzeni i rozsiewają się jak pyłki, a [[oscar-dublin|Oscar]] potwierdza jej zniszczenie po walce z powietrznymi i naziemnymi formami wroga.
+
 ## Pozostałe jednostki Mucus Gate
 
 - [[mucus-gate-s-mc|Mucus Gate S MC]] — bliźniacza mała brama podprzestrzenna sprowadzająca [[mechabestia|mechabestie]] [[mechanization-empire|Imperium Mechanizacji]].

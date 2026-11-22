@@ -21,6 +21,8 @@ Podczas ćwiczeń z [[connect-force|Connect]] pierwszy domyśla się, co oznacza
 Po [[srw-oe-ep1-szalejacy-labor-powraca|przybyciu na plac budowy]] ustala, że wystarczy zatrzymać szalejące Labory. Po walce zostawia policjantom dalsze czynności i wraca z pozostałymi.
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] broni podejścia [[klasa-obrony-ziemi|Klasy Obrony Ziemi]] przed krytyką [[taro-shirogane|Taro Shirogane]], w podziemnej jaskini od razu rozpoznaje w nadlatującej maszynie słynnego [[mazinger-z|Mazingera Z]] oraz [[shin-getter-1|Gettera]], a po bitwie w sali szkolnej z ożywieniem reaguje na wieść o obcym gatunku [[mucus|Mucus]] i pyta [[simon|Simona]] o życie w podziemnej wiosce.
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Koji dopytuje [[asuka-tsukishiro|Asukę]], o czym mówi, gdy ta wiąże badania nad radarem z ludźmi i danymi z pola walki.
 }}
 
 {{zrodlo gra=wspolne
@@ -52,4 +54,5 @@ Koji Hoshiyama (星山 吼児) w oryginale odpowiada za moc Raijin-Oh i wszystki
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 |---:|---|---:|---:|---|
 | 1 | **Zauf.** | 1 | 20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
+| 2 | **Doping** | 7 | 30 | Cel: sojusznicy 1 jedn. (Zestrzelenie: PD x2 itd.) — Zasięg 3 +'Wysiłek Lv1' |
 }}

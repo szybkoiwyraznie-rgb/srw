@@ -17,6 +17,8 @@ utworzono: 2026-10-20
 Członek załogi [[white-base|White Base]] obsługujący stanowisko wykrywania. Odnotowuje zbliżające się obiekty i zwraca uwagę, że żaden Zaku nie nadlatywałby z taką prędkością.
 
 Podczas startu z [[white-base|White Base]] wykrywa przechwytujące siły wroga, a po walce potwierdza na mostku, że dane o [[black-tri-stars|Black Tri-Stars]] pochodzą z [[jaburo|Jaburo]]. Gdy [[amuro-ray|Amuro]] przecina zapalnik [[h-bomb-missile|pocisku termojądrowego]], Oscar obserwuje spadek jego temperatury.
+
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Oscar rozpoznaje przed [[white-base|White Base]] anomalię, która okazuje się bramą [[mucus-gate-s-in|Mucus Gate]], a po walce jako pierwszy potwierdza jej zniszczenie.
 }}
 
 {{zrodlo gra=wspolne

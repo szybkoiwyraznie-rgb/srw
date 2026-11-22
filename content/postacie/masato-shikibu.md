@@ -47,4 +47,5 @@ W [[super-beast-machine-god-dancouga|pierwowzorze]] Masato Shikibu jest najmłod
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 | ---: | ----------- | ---------: | -------: | -------------------------------------------------------------------- |
 | 1 | **Zauf.** | 1 | 20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP |
+| 2 | **Fortuna** | 7 | 40 | Cel: ty Efekt: 1 razy — Zestrzelenie: Fundusze x2, szansa na łup +5% |
 }}

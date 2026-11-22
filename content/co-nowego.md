@@ -1,5 +1,80 @@
 # Co nowego
 
+## 2026-11-22 21:05
+
+- [[go|Go]], [[kei|Kei]] i [[gai|Gai]] rozpoznają w marsjańskich [[promienie-gettera|promieniach Gettera]] zapowiedź [[invaderzy|Invaderów]]; [[go|Go]] ostrzega, że najeźdźcy mogą celować w bramę warp [[connect-force|Connect]], a [[gai|Gai]] przypomina, że w tej sprawie Go nigdy się nie myli.
+- [[suol|Szef Suol]] tłumaczy na odprawie, że bramy [[mucus|Mucus]] nie celują w stację, tylko dryfują w czasoprzestrzeni i rozsiewają się jak pyłki, a [[maria-shiratori|Maria]], [[tsutomu-kojima|Tsutomu]] i [[akira-imamura|Akira]] przekładają to na własne zadania: ostrzeżenie, badania i wreszcie walkę.
+- [[jeffrey-wilder|Jeffrey]], [[bobby-margot|Bobby]], [[catherine-glass|Cathy]] i [[monica-lang|Monica]] przyjmują raport z Marsa na mostku Macross Quartera; [[sergeant-keroro|Keroro]] wchodzi w tę misję jako znawca maszyn i wychodzi z niej jako ktoś, kto musi pilnować własnej wiedzy.
+
+## 2026-11-22 20:40
+
+- [[white-base|White Base]] schodzi nad Marsa jako oddział desantowy i rozbija bramę [[mucus-gate-s-in|Mucus Gate]], a [[macross-quarter|Macross Quarter]] zostaje przy [[stacja-connect|Stacji Connect]] jako jej osłona — pierwszy raz flota dzieli zadania zamiast ćwiczyć razem.
+- [[shin-getter-1|Shin Getter-1]] rozpoznaje w [[promienie-gettera|promieniach Gettera]] wzorzec [[invaderzy|Invaderów]] i walczy u bramy do ostatniego z nich; powietrzne i naziemne formy wroga padają, zanim [[oscar-dublin|Oscar]] i [[marker|Marker]] potwierdzają ciszę.
+
+## 2026-11-22 20:10
+
+- [[sergeant-keroro|Keroro]] popisuje się w hangarze [[white-base|White Base]] wiedzą o [[mobile-suit|mobile suitach]] i wpada na nazwę prototypu [[zeon|Zeonu]], po czym sam nakłada na siebie milczenie: zdrada rodowodu maszyn odebrałaby mu szansę zobaczenia prawdziwych Gundamów.
+- [[invaderzy|Invaderzy]] docierają na Marsa przez bramy [[mucus|Mucus]], które dryfują w czasoprzestrzeni i rozsiewają się jak pyłki; [[suol|Szef Suol]] stawia badania nad nimi na równi z walką.
+- [[white-base|White Base]] ląduje na powierzchni i rozbija bramę [[mucus-gate-s-in|Mucus Gate]], a [[macross-quarter|Macross Quarter]] zostaje przy [[stacja-connect|Stacji Connect]]; po operacji [[jeffrey-wilder|Jeffrey]] przyznaje, że flota działa sprawnie bez wspólnych ćwiczeń.
+
+## 2026-11-21 01:10
+
+- [[seishiro|Seishiro Kusanagi]] prowadzi [[exart|Exarta]] pewnie i bez pośpiechu: gdy wróg bierze go na cel, zbiera myśli i nie daje się trafić, a kiedy trzeba, rusza przez pole walki, żeby osłonić [[himari-yaegaki|Himari]].
+
+## 2026-11-21 00:45
+
+- [[albatro-null-eiji-asuka|Eiji]] prowadzi [[connect-force|Connect Force]] do okrętu awangardy [[grados|Gradosu]] i wyjawia, że to jego ojciec odkrył marsjańskie ruiny w ramach projektu [[apollo-x|Apollo X]]; po zwycięstwie myśli już o planecie cierpiącej jako kolonia Gradosu.
+- [[gosterro|Gosterro]] nie obchodzi, czy najazd jest słuszny — chce się wyszaleć; wycofuje się z pogróżkami, że przywiezie głowę [[albatro-null-eiji-asuka|Eijiego]] na Gradosa, a [[alto-saotome|Alto]] przyznaje, że nie chce pociągać za spust z nienawiści.
+- Na [[stacja-mars|Stacji Connect]] załoga dowiaduje się, że [[balarant|Sojusz Balarantu]] udawał przyjaźń, żeby ukraść [[brama-warp|bramę warp]], i że zniszczyli inwazję Gradosu, zanim dotarła do Ziemi.
+
+## 2026-11-21 00:20
+
+- [[lotniskowiec-gradosu|Nowy gigantyczny lotniskowiec Gradosu]] wyłania się z marsjańskiej doliny i osłania własne SPT ogniem przeciwlotniczym oraz rakietami; jego działo wiązkowe najdotkliwiej razi okręty i okręty-matki, a rakiety — maszyny w powietrzu.
+- [[oficer-gradosu|Oficer Gradosu]] woli zniszczyć własną jednostkę, niż oddać ją wrogowi: po ewakuacji załogi w kapsułach wysadza okręt, żeby wybuch odciął [[connect-force|Connect Force]] drogę do ruin.
+- [[balarant|Sojusz Balarantu]] zbudował potęgę [[connect-force|Connect]], a potem ukradł zarządzaną przez nią [[brama-warp|bramę warp]]; skradziony model jest stary i przerzuca ograniczony ładunek, dlatego Balarant szuka potęg za bramą i zawiera układy z [[grados|Gradosem]] i [[pentagona|Pentagoną]].
+- [[pentagona|Pentagona]] jest trzecim z sojuszy najeżdżających sąsiednie przestrzenie, a równowagę wobec [[balarant|Balarantu]] utrzymuje [[zwiazek-gilgamesh|Związek Gilgamesh]], od stu lat tkwiący z nim w martwym punkcie.
+- [[apollo-x|Apollo X]] był programem badań cywilizacji Marsa; po zaginięciu jednej z grup badawczych projekt przerwano, a doktor Asuka — ojciec [[albatro-null-eiji-asuka|Eijiego]] — dotarł przez kosmos aż na [[grados|Gradosa]].
+
+## 2026-11-20 23:45
+
+- [[gurren-lagann|Gurren Lagann]] zmienia charakter walki wraz z głównym pilotem: pod [[simon|Simonem]] wyprowadza obszarowy Toroidal Burst i przebijający bariery Skull Break, a gdy ster przejmuje [[kamina|Kamina]], maszyna mocniej bije wręcz, miota cięższy Gurren Boomerang, rozcina wrogów Shades Cutterem i w miejsce Toroidal Burst wyprowadza Full Drillize wymierzony w mniejsze jednostki.
+- [[dom|Dom]] [[black-tri-stars|Black Tri-Stars]] tnie Heat Saberem i sięga wielką bazooką dalej niż seryjne maszyny [[zolnierz-zeonu|Żołnierza Zeonu]], których Heat Saber i bazooka są słabsze i krótsze — a asy trafiają nimi celniej.
+
+## 2026-11-20 23:05
+
+- [[cybuster|Cybuster]] jest jedynym z czterech Masou Kishin Królestwa Langranu, który potrafi się przekształcać; w ptasiej formie [[cybird|Cybird]] porusza się szybciej niż w postaci humanoidalnej, a w niektórych grach taranuje nią cel w ataku Akashic Buster.
+- [[doktor-saotome|Doktor Saotome]] był założycielem Instytutu Badawczego Promieni Gettera i twórcą Getter Robo oraz późniejszych modeli; [[hayato-jin|Hayato Jin]] nazwał [[getter-arc|Getter Arc]] „ostatnią z maszyn Saotome”.
+
+## 2026-11-20 22:55
+
+- [[campbellianie|Campbellianie]] pochodzą z planety Campbell; tysiące lat temu opuścili ją w poszukiwaniu nowych światów, a grupa naukowca Oreany osiadła na Ziemi i obudziła się w XXI wieku, aby ją podbić.
+- 55. długodystansowa flota kolonizacyjna z [[macross-frontier|*Macross Frontier*]] ma na czele Macross 25 wystrzelony z Ziemi w 2041 roku; w jej skład wchodzą między innymi [[macross-quarter|Macross Quarter]], lotniskowce klasy Guantanamo i Uraga oraz fregaty klasy Northampton.
+
+## 2026-11-20 22:45
+
+- [[jeffrey-wilder|Jeffrey Wilder]] był żołnierzem i pilotem Valkyrie w U.N. Spacy, w walce stracił rękę, a przed służbą wojskową był zapalonym surferem; jako kapitan [[macross-quarter|Macross Quartera]] łączy szorstki ton z troską o podwładnych.
+
+## 2026-11-20 22:40
+
+- [[braver|Braver]] to gradosiański SPT o oznaczeniu SPT-BV-15C; w wykazie maszyn [[blue-comet-spt-layzner|*Blue Comet SPT Layzner*]] stoi obok innych SPT armii [[grados|Gradosu]].
+
+## 2026-11-20 22:35
+
+- [[bobby-margot|Bobby Margot]] z [[macross-quarter|Macross Quartera]] jest sternikiem w firmie S.M.S.; na mostku chętnie śpiewa karaoke i doradza załodze w sprawach sercowych.
+- [[catherine-glass|Catherine Glass]] to porucznik kwatery głównej New United Nations Spacy i oficer mostka Macross Quartera, córka prezydenta Frontier, Howarda Glassa; chce udowodnić, że nie jest tylko córką prezydenta.
+- [[daljan|Daljan]] to gradosiański SPT typu Multiple Form MF-DJ-91U, maszyna dowódcza o wysokości 11,55 m, masie 18,34 t i pancerzu 13,5 cm.
+- Okręty emigracyjne klasy New Macross powstawały od 2030 roku, zastąpiły klasę Megaroad i mogą pomieścić około 350 tys. ludzi; składają się z wojskowego lotniskowca klasy Battle i cywilnego miasta w kopule klasy City.
+
+## 2026-11-20 22:10
+
+- [[stacja-mars|Stacja Mars]] leży w sektorze Marsa, a nie na samej planecie; wiązka naprowadzająca prowadzi do niej [[white-base|White Base]]. [[albatro-null-eiji-asuka|Eiji Asuka]] w armii [[grados|Gradosu]] występuje jako Albatro Null.
+
+## 2026-11-20 21:58
+
+- [[white-base|White Base]] dociera w sektor Marsa, gdzie [[seishiro|Seishiro]] tłumaczy [[himari-yaegaki|Himari]] działanie [[brama-warp|bramy warp]]: brama odtwarza zdolność [[mucus|Mucus]], nie pozwala dowolnie zmieniać celu i wymaga specjalnego statku, jakim jest [[ark-ship|Ark Ship]]. Zamiast przybycia na stację mostek odbiera SOS z naziemnej bazy [[earth-federation|Federacji]], atakowanej przez [[braver|Bravery]] i [[daljan|Daljan]] [[gosterro|Gosterra]].
+- Nad bazą pojawia się [[enh-layzner|Enhanced Layzner]] [[albatro-null-eiji-asuka|Eijiego Asuki]]; pierwszy strzał [[alto-saotome|Alta]] z [[eskadra-skull|Eskadry Skull]] ratuje go przed [[daljan|Daljanem]], a [[macross-quarter|Macross Quarter]] ostrzałem odrzuca wroga. Po walce Eiji wyjawia, że [[grados|Grados]] chce podbić Ziemię, i wstępuje do [[connect-force|Connect Force]] razem z [[macross-quarter|Macross Quarterem]] i [[eskadra-skull|Eskadrą Skull]].
+- [[rei|Rei]] jest sztuczną inteligencją pokładową Layznera, obdarzoną osobowością i głosem Eriko Hary; na pokładzie Macross Quartera służbę pełni główna operatorka mostka [[monica-lang|Monica Lang]].
+
 ## 2026-11-20 00:20
 
 - Zmienne myśliwce [[eskadra-skull|Eskadry Skull]] — [[vf-25f-messiah|VF-25F Messiah]] [[alto-saotome|Alta Saotome]], [[vf-25g-messiah|VF-25G Messiah]] [[michael-blanc|Michaela Blanca]] oraz [[rvf-25-messiah|RVF-25 Messiah]] [[luca-angeloni|Luki Angeloniego]] — potrafią w toku starcia przejść z konfiguracji myśliwca w humanoidalne formy bojowe [[vf-25f-messiah-battroid|Battroid]], walcząc nożami szturmowymi i manewrując na lądzie dzięki konfiguracji Gerwalk.
@@ -8,7 +83,7 @@
 ## 2026-11-19 22:45
 
 - Sztuczna inteligencja [[rei|Rei]] wspiera [[albatro-null-eiji-asuka|Eijiego Asukę]] w sterowaniu [[enh-layzner|Enhanced Layznerem]], badając sytuację taktyczną i podnosząc celność oraz uniki niebieskiego robota.
-- Na pokładzie [[macross-quarter|Macross Quartera]] obok [[catherine-glass|Catherine Glass]] i [[bobby-margot|Bobby'ego Margota]] służbę pełni [[monica-lang|Monica Lang]], odpowiadając za radar, sensory i wczesne ostrzeganie przed atakiem wrogich sił.
+- Na pokładzie [[macross-quarter|Macross Quartera]] obok [[catherine-glass|Catherine Glass]] i [[bobby-margot|Bobby'ego Margota]] służbę jako główna operatorka mostka pełni [[monica-lang|Monica Lang]].
 
 ## 2026-11-19 22:10
 
@@ -648,7 +723,7 @@
 - Załoga [[white-base|White Base]]: [[kai-shiden|Kai]] siadł za sterami [[guncannon|Guncannona]], bo okrętowi brakowało ludzi, [[hayato-kobayashi|Hayato]] zgłosił się do [[guntank|Guntanka]] z rywalizacji z [[amuro-ray|Amurem]], a [[oscar-dublin|Oscar]] i [[marker|Marker]] obsługują dwie konsole mostka — prawo- i lewoburtową.
 - [[gaia|Gaia]], [[ortega|Ortega]] i [[mash|Mash]] latali w batalionie szkolenia mobilnego, gdy Zeon dopiero uczył się walki [[mobile-suit|mobile suitami]], a rozgłos przyniosła im bitwa pod [[loum|Loum]].
 - [[slender|Slender]] pilnował wyjścia z [[side-7|Side 7]] podczas zwiadu, a [[crown|Crown]] atakował [[white-base|White Base]] przed wejściem w atmosferę.
-- [[dom-zolnierz-zeonu|Dom]] sunie nad gruntem na silnikach odrzutowych z prędkością do 380 km/h, a [[dopp|Doppa]] projektowano na symulacjach, bo inżynierowie [[zeon|Zeonu]] nie mieli gdzie próbować samolotów.
+- [[dom|Dom]] sunie nad gruntem na silnikach odrzutowych z prędkością do 380 km/h, a [[dopp|Doppa]] projektowano na symulacjach, bo inżynierowie [[zeon|Zeonu]] nie mieli gdzie próbować samolotów.
 
 ## 2026-10-24 09:37
 
@@ -675,7 +750,7 @@
 ## 2026-10-24 00:40
 
 - [[zolnierz-federacji|Żołnierz Federacji]] pracuje w placówce przejętej na [[zeon|Zeonie]] podczas [[operacja-odessa|operacji Odessa]]; to jego meldunek zamyka przygotowania do startu wahadłowca.
-- [[dom-zolnierz-zeonu|Dom szeregowych oddziałów]] ustępuje maszynom [[dom|Black Tri-Stars]] słabszym Heat Saberem i bazooką o krótszym zasięgu.
+- [[dom|Dom]] szeregowych oddziałów ustępuje maszynom [[black-tri-stars|Black Tri-Stars]] słabszym Heat Saberem i bazooką o krótszym zasięgu.
 
 ## 2026-10-23 20:13
 
@@ -726,7 +801,7 @@
 ## 2026-10-22 18:14
 
 - [[srw-oe-ep1-powstrzymaj-pocisk-termojadrowy|„Powstrzymaj pocisk termojądrowy”]] kończy [[operacja-odessa|operację Odessa]]: [[general-revil|generał Revil]] odrzuca ultimatum [[mquve|M'Quve'a]], a [[amuro-ray|Amuro]] odcina zapalnik bomby szablą wiązkową Gundama.
-- Niepilotowany [[h-bomb-missile|H-Bomb Missile]] to cel misji, a [[dom-zolnierz-zeonu|Dom regularnych oddziałów Zeonu]] jest odrębny od maszyn [[black-tri-stars|Black Tri-Stars]].
+- Niepilotowany [[h-bomb-missile|H-Bomb Missile]] to cel misji, a [[dom|Dom regularnych oddziałów Zeonu]] ma inny zestaw parametrów niż maszyny [[black-tri-stars|Black Tri-Stars]].
 - [[general-revil|Generał Revil]], [[oficer-federacji|Oficer Federacji]] i [[oficer-zeonu|Oficer Zeonu]] stają naprzeciw siebie, a spór sięga [[traktat-antarktyczny|Traktatu Antarktycznego]].
 - Wydarzenia odpowiadają dwudziestemu piątemu odcinkowi [[mobile-suit-gundam-1979|*Mobile Suit Gundam*]] — „The Fierce Battle for Odessa” — z elementami pominiętymi w wersji gry.
 

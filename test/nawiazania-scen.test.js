@@ -79,6 +79,15 @@ test('nawiązania stoją w osobnym bloku źródła między analizą a wątkami s
   }
 });
 
+test('każdy blok źródła w scenie otwiera sekcja nawiązań', () => {
+  // Test zbierający sceny po nagłówku nie widzi bloku, w którym nagłówka brakuje —
+  // dlatego osobno pilnujemy samego otwarcia bloku (L33).
+  for (const s of sceny) {
+    if (!s.body.includes('{{zrodlo')) continue;
+    assert.ok(s.body.includes(NAGLOWEK), `${s.slug}: blok {{zrodlo}} bez nagłówka nawiązań`);
+  }
+});
+
 test('każdy adres z bloku nawiązań jest zadeklarowany w zrodla', () => {
   for (const s of zNawiazaniami) {
     const tresc = sekcje(s.body).find((x) => x.tytul === 'Nawiązania do oryginalnych odcinków').tresc.join('\n');
