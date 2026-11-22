@@ -18,7 +18,7 @@ Członkini załogi [[white-base|White Base]]. Melduje o starcie okrętu, a usły
 
 Na mostku [[white-base|White Base]] melduje gotowość okrętu do startu. Po odejściu [[black-tri-stars|Black Tri-Stars]] uspokaja [[bright-noa|Brighta]]: uważa, że w trakcie [[operacja-odessa|operacji Odessa]] przeciwnik nie wróci, i prosi, by załoga bardziej w siebie wierzyła.
 
-W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Mirai naprowadza [[white-base|White Base]] na miejsce wykrycia sygnału na Marsie i melduje gotowość okrętu do desantu.
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Mirai naprowadza [[white-base|White Base]] nad Marsa i melduje dotarcie okrętu do miejsca wykrycia sygnału, po czym [[bright-noa|Bright]] zarządza gotowość jednostek do startu.
 }}
 
 {{zrodlo gra=wspolne

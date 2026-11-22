@@ -20,7 +20,9 @@ sekcje_analizy:
   - "Cena za bramę warp → Stacja Connect / Centrum dowodzenia"
 zrodla:
   - https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner
-  - https://www.gundamplanet.com/collections/armored-trooper-votoms
+  - https://www.animenewsnetwork.com/encyclopedia/anime.php?id=1161&page=25
+  - https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS
+  - https://en.wikipedia.org/wiki/Heavy_Metal_L-Gaim
 tagi: [scena, srw-oe, mars, grados, layzner, connect]
 utworzono: 2026-11-21
 ---
@@ -246,7 +248,7 @@ W sali odpraw [[albatro-null-eiji-asuka|Eiji]] ujawnia, że armia Gradosu zamier
 
 ### Okręt Gradosu
 
-Nad doliną pojawiają się jednostki przechwytujące, a wkrótce także okręt wojenny Gradosu. [[bright-noa|Bright]] decyduje o ataku, a [[albatro-null-eiji-asuka|Eiji]] szuka maszyny, która wydała rozkaz. [[oficer-gradosu|Oficer Gradosu]] obwinia o fiasko planu zdradę Eijiego Asuki i każe niszczyć wroga za wszelką cenę. W starciu z [[gosterro|Gosterrem]] Eiji mówi, że nie może przegrać dla przyjaciół, którzy mu zaufali, i rusza do walki z [[rei|Rei]].
+Nad doliną pojawiają się jednostki przechwytujące, a wkrótce także okręt wojenny Gradosu. [[bright-noa|Bright]] decyduje o ataku, a [[albatro-null-eiji-asuka|Eiji]] wypatruje wrogiego okrętu. [[oficer-gradosu|Oficer Gradosu]] obwinia o fiasko planu zdradę Eijiego Asuki i każe niszczyć wroga za wszelką cenę. W starciu z [[gosterro|Gosterrem]] Eiji mówi, że nie może przegrać dla przyjaciół, którzy mu zaufali, i rusza do walki z [[rei|Rei]].
 
 ### Odwrót i wysadzenie okrętu
 
@@ -258,7 +260,7 @@ Czujniki [[enh-layzner|Layznera]] potwierdzają, że w okolicy nie ma już wrogi
 
 ### Skutki zwycięstwa
 
-Na [[stacja-mars|Stacji Connect]] załoga podsumowuje bitwę: okręt wroga zniszczony, ruiny zajęte, a inwazja zduszona w zarodku. [[suol|Szef Suol]] przyznaje, że stacjonowanie Connect Force na Marsie było błędem w rachubach Gradosu, a [[amuro-ray|Amuro]] mówi o zapobieżeniu wojnie przy minimum walki. [[albatro-null-eiji-asuka|Eiji]] myśli już o następnym celu — planecie cierpiącej jako kolonia Gradosu — i [[masato-shikibu|Masato]] oferuje pomoc. Suol zapowiada jednak, że Connect wolałby rozwiązać sprawę dyplomacją i na razie nie może wysłać oddziału; Eiji przyjmuje to ze zrozumieniem. Rozmowę przerywają [[simon|Simon]], [[kamina|Kamina]], [[boota|Boota]] i [[yoko|Yoko]], którzy zastanawiają się nad nieznanym wrogiem w kolejnych wszechświatach.
+Na [[stacja-mars|Stacji Connect]] załoga podsumowuje bitwę: okręt wroga zniszczony, ruiny zajęte, a inwazja zduszona w zarodku. [[suol|Szef Suol]] przyznaje, że stacjonowanie Connect Force na Marsie było błędem w rachubach Gradosu, a [[amuro-ray|Amuro]] mówi o zapobieżeniu wojnie przy minimum walki. [[albatro-null-eiji-asuka|Eiji]] myśli już o następnym celu — planecie cierpiącej jako kolonia Gradosu — i [[masato-shikibu|Masato]] oferuje pomoc. Suol zapowiada jednak, że Connect wolałby rozwiązać sprawę dyplomacją i na razie nie może wysłać oddziału; Eiji przyjmuje to ze zrozumieniem. Po zakończeniu narady głos zabierają [[koji-kabuto|Koji]] oraz [[simon|Simon]], [[kamina|Kamina]], [[boota|Boota]] i [[yoko|Yoko]], zastanawiając się nad nieznanym wrogiem w kolejnych wszechświatach.
 
 ### Taras widokowy
 
@@ -270,15 +272,15 @@ W centrum dowodzenia [[albatro-null-eiji-asuka|Eiji]] wiąże przyspieszoną eks
 
 }}
 
-{{zrodlo gra=srw-oe
+{{zrodlo gra=wspolne
 
 ## Nawiązania do oryginalnych odcinków
 
-Wydarzenia z tej sceny — atak na bazę [[grados|Gradosu]] ukrytą w ruinach na Marsie, zdrada [[albatro-null-eiji-asuka|Eijiego Asuki]] i wysadzenie wrogiego okrętu — nawiązują do pierwszego odcinka *Blue Comet SPT Layzner* (蒼き流星SPTレイズナー, „On the Red Planet”, あかい星にて, 3 października 1985) — [Wikipedia, *Blue Comet SPT Layzner*](https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner) (sprawdzono 2026-11-21). W obu wersjach Eiji przybywa w środku ataku na marsjańską bazę i musi udowodnić, że nie jest wrogiem; w serialu bazą dowodzą jednak wojskowi ONZ, a świadkami walki są nastoletni członkowie klubu kosmicznego, a nie żołnierze [[earth-federation|Federacji]].
+Wydarzenia z tej sceny — marsjański konflikt z armią [[grados|Gradosu]] i zdrada [[albatro-null-eiji-asuka|Eijiego Asuki]] — nawiązują do punktu wyjścia *Blue Comet SPT Layzner* (蒼き流星SPTレイズナー, odc. 1 „On the Red Planet”, あかい星にて, 3 października 1985) — [Wikipedia, *Blue Comet SPT Layzner*](https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner) i [ANN, *Blue Comet SPT Layzner* — tytuły odcinków](https://www.animenewsnetwork.com/encyclopedia/anime.php?id=1161&page=25) (sprawdzono 2026-11-22). W serialu Eiji ucieka z floty inwazyjnej i pojawia się na Marsie w trakcie ataku na bazę ONZ z nastoletnimi członkami klubu kosmicznego; tutaj jest już członkiem [[connect-force|Connect Force]] i sam prowadzi oddział na ukryty w dolinie okręt awangardy.
 
-**Ruiny i rodzina Eijiego.** Wątek ruin starszej cywilizacji, które Grados wykorzystuje jako bramę, oraz pochodzenie Eijiego nawiązują do młodzieńczej podróży jego ojca, astronauty Kena Asuki, który zaginął podczas misji kosmicznej i został odnaleziony przez Gradosjan ([Wikipedia, *Blue Comet SPT Layzner*](https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner); sprawdzono 2026-11-21). Tutaj to doktor Asuka odkrył marsjańskie ruiny w ramach projektu Apollo X — w serialu ruiny planety Grados są dziedzictwem jej przodków, a nie konstrukcją z Marsa.
+**Rodzina Eijiego.** Pochodzenie Eijiego i los jego ojca nawiązują do historii ziemskiego astronauty Kena Asuki, który zaginął podczas głębokiej misji kosmicznej i został odnaleziony przez Gradosjan ([Wikipedia, *Blue Comet SPT Layzner*](https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner); sprawdzono 2026-11-22). W *Operation Extend* jego zaginięcie powiązano z programem [[apollo-x|Apollo X]] i marsjańskimi ruinami, które służą Gradosowi za bramę inwazji.
 
-**Balarant i Związek Gilgamesh.** Nazwy dwóch mocarstw — Sojuszu Balarantu i Związku Gilgamesh — oraz Galaktyka Astragius pochodzą z *Armored Trooper Votoms* (1983), gdzie oba państwa toczą stupoletnią wojnę o panowanie nad galaktyką („A century of unrelenting war between the Gilgamesh Confederation and Balarant Union”) — [Gundam Planet, *Armored Trooper Votoms*](https://www.gundamplanet.com/collections/armored-trooper-votoms) (sprawdzono 2026-11-21). W tej scenie to [[suol|Szef Suol]] opowiada o nich jako o dawnych sojusznikach, którzy ukradli [[brama-warp|bramę warp]].
+**Balarant, Związek Gilgamesh i Pentagona.** Nazwy Sojuszu Balarantu, Związku Gilgamesh i Galaktyki Astragius pochodzą z *Armored Trooper VOTOMS* (1983–1984), gdzie oba mocarstwa przez sto lat toczyły wojnę o zapomnianej przyczynie, zakończoną kruchym zawieszeniem broni ([Wikipedia, *Armored Trooper VOTOMS*](https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS); sprawdzono 2026-11-22). Z kolei [[pentagona|Pentagona]] to nazwa pięcioplanetarnego układu z serialu *Heavy Metal L-Gaim* (1984–1985) ([Wikipedia, *Heavy Metal L-Gaim*](https://en.wikipedia.org/wiki/Heavy_Metal_L-Gaim); sprawdzono 2026-11-22). W tej scenie [[suol|Szef Suol]] i Eiji splatają te światy w przeszłość [[connect-force|Connect]] i sojusz potęg stojących za kradzieżą [[brama-warp|bramy warp]].
 }}
 
 {{skrypt gra=srw-oe
@@ -288,10 +290,10 @@ Wydarzenia z tej sceny — atak na bazę [[grados|Gradosu]] ukrytą w ruinach na
 | Motyw w scenie | Źródło | Odcinek w źródle | Różnice |
 |---|---|---|---|
 | Dezerter z [[grados\|Gradosu]] prowadzi Connect Force do ukrytego okrętu | [[blue-comet-spt-layzner\|Blue Comet SPT Layzner]] | odc. 1 „On the Red Planet” | W serialu walka toczy się wprost o bazę ONZ na Marsie; tutaj celem jest okręt awangardy ukryty w ruinach, a Eiji zna jego położenie z własnej służby w armii Gradosu. |
-| Ruiny pradawnej cywilizacji jako brama Gradosu | [[srw-oe\|Super Robot Wars OE]] | n/d | Motyw ruin i pochodzenia Eijiego pochodzi z serialu, ale włączenie ich w marsjańską dolinę, projekt Apollo X i wyprawę [[connect-force\|Connect]] nie mają odpowiednika w żadnym z pierwowzorów. |
-| [[albatro-null-eiji-asuka\|Eiji]] jako syn doktora Asuki i pół-Ziemianin | [[blue-comet-spt-layzner\|Blue Comet SPT Layzner]] | cała seria | W serialu jego ojciec Ken Asuka jest astronautą porwanym przez Grados; tutaj zaginięcie wiąże się z marsjańskimi badaniami i ze [[suol\|Szefem Suolem]], który znał doktora Asukę z federalnej agencji badań kosmosu. |
+| Ruiny pradawnej cywilizacji jako brama Gradosu | [[srw-oe\|Super Robot Wars OE]] | n/d | Włączenie marsjańskich ruin jako bramy inwazji, projekt [[apollo-x\|Apollo X]] i wyprawa [[connect-force\|Connect]] to rozwiązanie autorskie gry. |
+| [[albatro-null-eiji-asuka\|Eiji]] jako syn doktora Asuki i pół-Ziemianin | [[blue-comet-spt-layzner\|Blue Comet SPT Layzner]] | cała seria | W serialu jego ojciec Ken Asuka jest astronautą zaginionym w kosmosie i odnalezionym przez Grados; tutaj zaginięcie wiąże się z marsjańskimi badaniami i ze [[suol\|Szefem Suolem]], który znał doktora Asukę z federalnej agencji badań kosmosu. |
 | Wysadzenie własnego okrętu i odwrót [[gosterro\|Gosterra]] | [[blue-comet-spt-layzner\|Blue Comet SPT Layzner]] | cała seria | Motyw bezlitosnego dowódcy, który woli zniszczyć własną jednostkę, niż oddać ją wrogowi, pasuje do armii Gradosu z serialu; konkretna scena i kapsuły ratunkowe to rozwiązanie gry. |
-| Sojusz Balarantu, Pentagona i Galaktyka Astragius | *Armored Trooper Votoms* | cała seria | Balarant i Związek Gilgamesh pochodzą z innej serii i w tej scenie są częścią przeszłości [[connect-force\|Connect]]; Pentagona i połączenie obu światów w jeden układ sił nie mają odpowiednika w żadnym z pierwowzorów. |
+| Sojusz Balarantu, Pentagona i Galaktyka Astragius | *Armored Trooper VOTOMS* / *Heavy Metal L-Gaim* | cała seria | [[balarant\|Balarant]], [[zwiazek-gilgamesh\|Związek Gilgamesh]] i Galaktyka Astragius pochodzą z *Armored Trooper VOTOMS*, a [[pentagona\|Pentagona]] z *Heavy Metal L-Gaim*; ukazanie ich jako dawnego protektora [[connect-force\|Connect]] i sojuszu mocarstw po drugiej stronie bramy jest rozwiązaniem własnym gry. |
 | Skradziona [[brama-warp\|brama warp]] i ograniczony ładunek skoku | [[srw-oe\|Super Robot Wars OE]] | n/d | Wytłumaczenie, dlaczego potęgi z drugiej strony muszą zawierać sojusze, jest autorskie; nie ma go w żadnej z obecnych serii. |
 | Ćwiczenia zamienione w prawdziwą walkę i zajęcie ruin | [[srw-oe\|Super Robot Wars OE]] | n/d | Plan wspólnych ćwiczeń z Eskadrą Skull przed skokiem do układu Frontier jest elementem prowadzącym do kolejnych misji. |
 }}

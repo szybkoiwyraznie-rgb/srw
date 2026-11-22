@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-22 21:20
+
+- [[pentagona|Pentagona]] — trzecia z potęg sprzymierzonych za [[brama-warp|bramą warp]] obok [[balarant|Balarantu]] i [[grados|Gradosu]] — wywodzi się z pięcioplanetarnego układu słonecznego z *Heavy Metal L-Gaim*, a gigantyczny [[lotniskowiec-gradosu|lotniskowiec Gradosu]] z marsjańskiej doliny należy do ciężkich okrętów tej armii z [[blue-comet-spt-layzner|*Blue Comet SPT Layzner*]].
+- [[cybuster|Cybuster]] jest jednym z czterech Masou Kishin Świętego Królestwa Langranu, związanym paktem z duchem wiatru Syphisem, i potrafi samodzielnie otworzyć bramę między Ziemią a La Gius.
+- W marsjańskiej dolinie [[gosterro|Gosterro]] ponownie wchodzi do walki w [[daljan|Daljanie]] u boku okrętu Gradosu, a w sterowni [[stacja-mars|Stacji Mars]] to [[himari-yaegaki|Himari]] wykrywa na Marsie [[promienie-gettera|promienie Gettera]] o wzorcu [[invaderzy|Invaderów]], podczas gdy [[macross-quarter|Macross Quarter]] osłania stację z mostkiem [[jeffrey-wilder|Jeffreya]], [[bobby-margot|Bobby’ego]], [[catherine-glass|Cathy]] i [[monica-lang|Moniki]].
+
 ## 2026-11-22 21:05
 
 - [[go|Go]], [[kei|Kei]] i [[gai|Gai]] rozpoznają w marsjańskich [[promienie-gettera|promieniach Gettera]] zapowiedź [[invaderzy|Invaderów]]; [[go|Go]] ostrzega, że najeźdźcy mogą celować w bramę warp [[connect-force|Connect]], a [[gai|Gai]] przypomina, że w tej sprawie Go nigdy się nie myli.

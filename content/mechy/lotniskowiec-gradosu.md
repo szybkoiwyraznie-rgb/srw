@@ -10,7 +10,8 @@ w_gre:
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner
-tagi: [layzner, spt, grados, okret]
+  - https://akurasu.net/wiki/Blue_Comet_SPT_Layzner
+tagi: [layzner, grados, okret]
 utworzono: 2026-11-21
 ---
 {{skrypt gra=srw-oe
@@ -22,7 +23,7 @@ Okręt jest przystosowany do walki z jednostkami tej samej klasy: działo wiązk
 
 {{zrodlo gra=wspolne
 
-W *Blue Comet SPT Layzner* (1985–1986) armia Gradosu dysponuje własnymi okrętami kosmicznymi, z których startują jej maszyny SPT ([Wikipedia, *Blue Comet SPT Layzner*](https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner); sprawdzono 2026-11-21). Opisany tu „nowy gigantyczny lotniskowiec Gradosu” jest jednostką wskazaną w materiale misji gry i nie odpowiada jednemu konkretnemu okrętowi z serialu.
+W [[blue-comet-spt-layzner|*Blue Comet SPT Layzner*]] (1985–1986) armia Gradosu dysponuje własnymi okrętami kosmicznymi, z których startują jej maszyny SPT ([Wikipedia, *Blue Comet SPT Layzner*](https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner); sprawdzono 2026-11-22). W wykazie maszyn tej serii figuruje również ciężki lotniskowiec Gradosu (*Grados New Huge Carrier*), odpowiadający nowemu gigantycznemu lotniskowcowi wystawionemu w dolinie na Marsie ([Akurasu Wiki, *Blue Comet SPT Layzner*](https://akurasu.net/wiki/Blue_Comet_SPT_Layzner); sprawdzono 2026-11-22).
 }}
 
 {{menu gra=srw-oe

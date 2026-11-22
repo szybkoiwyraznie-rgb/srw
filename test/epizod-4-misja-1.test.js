@@ -127,8 +127,10 @@ test('hasła misji 4-1 oddzielają materiał scen od pierwowzorów', () => {
   assert.doesNotMatch(balarant.body, /Fyana|Chirico|Scopedog/, 'postacie z VOTOMS poza rozegranym materiałem');
 
   const pentagona = bySlug.get('pentagona');
-  assert.equal(pentagona.zrodla, undefined, 'Pentagona jest autorska — bez źródeł zewnętrznych');
-  assert.match(pentagona.body, /sojuszu, który zmusza/);
+  assert.ok(pentagona.zrodla?.includes('https://en.wikipedia.org/wiki/Heavy_Metal_L-Gaim'),
+    'Pentagona pochodzi z Heavy Metal L-Gaim');
+  assert.match(pentagona.body, /sojuszu zmusza/);
+  assert.doesNotMatch(pentagona.body, /Daba|Poseidal|Gavlet/, 'postacie z L-Gaim poza rozegranym materiałem');
 
   const apollo = bySlug.get('apollo-x');
   assert.ok(apollo.tagi.includes('wydarzenie'), 'rodzaj treści jest tagiem (ADR 0033)');

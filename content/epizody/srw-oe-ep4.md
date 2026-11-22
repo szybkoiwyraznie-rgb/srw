@@ -13,6 +13,7 @@ pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner
   - https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS
+  - https://en.wikipedia.org/wiki/Heavy_Metal_L-Gaim
   - https://en.wikipedia.org/wiki/Sgt._Frog
 tagi: [srw-oe, mars, grados, layzner, getter-robo, sgt-frog, connect]
 utworzono: 2026-11-21
@@ -50,7 +51,7 @@ Na Marsie [[oscar-dublin|Oscar]] rozpoznaje anomalię przed okrętem i załoga G
 | Ruiny pradawnej cywilizacji jako brama Gradosu | [[srw-oe\|Super Robot Wars OE]] | n/d | Motyw ruin pochodzi z serialu, ale włączenie ich w marsjańską dolinę, projekt [[apollo-x\|Apollo X]] i plan zamknięcia bramy nie mają odpowiednika w żadnym z pierwowzorów. |
 | Ojciec Eijiego, doktor Asuka, zaginiony w badaniach Marsa | [[blue-comet-spt-layzner\|Blue Comet SPT Layzner]] | cała seria | W serialu Ken Asuka jest astronautą porwanym przez Grados; tutaj zaginięcie wiąże się z programem badań cywilizacji Marsa i ze [[suol\|Szefem Suolem]], który znał go z federalnej agencji badań kosmosu. |
 | Ewakuacja załogi i wysadzenie własnego okrętu | [[srw-oe\|Super Robot Wars OE]] | n/d | Motyw bezlitosnego dowódcy pasuje do armii Gradosu z serialu, ale decyzja o zniszczeniu okrętu, żeby wybuch odciął drogę do ruin, jest rozwiązaniem spoza pierwowzorów. |
-| Sojusz Balarantu, Pentagona i Galaktyka Astragius | *Armored Trooper Votoms* | cała seria | Balarant i Związek Gilgamesh pochodzą z innej serii; ukazanie Balarantu jako dawnego protektora [[connect-force\|Connect]], który ukradł bramę, oraz dołączenie [[pentagona\|Pentagony]] do układu sił nie mają odpowiednika w żadnej z obecnych serii. |
+| Sojusz Balarantu, Pentagona i Galaktyka Astragius | *Armored Trooper VOTOMS* / *Heavy Metal L-Gaim* | cała seria | [[balarant\|Balarant]], [[zwiazek-gilgamesh\|Związek Gilgamesh]] i Galaktyka Astragius pochodzą z *Armored Trooper VOTOMS*, a [[pentagona\|Pentagona]] to pięcioplanetarny układ z *Heavy Metal L-Gaim*; ukazanie Balarantu jako dawnego protektora [[connect-force\|Connect]], kradzież bramy i splecenie tych potęg z [[grados\|Gradosem]] w jeden układ sił to rozwiązanie własne *Operation Extend*. |
 | Skradziona brama warp i ograniczony ładunek skoku | [[srw-oe\|Super Robot Wars OE]] | n/d | Wytłumaczenie, dlaczego Balarant musiał szukać sojuszników po drugiej stronie bramy, jest autorskie — nie ma go w żadnej z obecnych serii. |
 | Zajęcie ruin i rozmowy załogi na Stacji Connect | [[srw-oe\|Super Robot Wars OE]] | n/d | Podsumowanie zwycięstwa, zapowiedź następnej planety i odmowa wysłania oddziału przez [[suol\|Suola]] ustawiają kolejne misje i nie mają odpowiednika w serialach. |
 | Keroro chroni historię mobile suitów | [[sgt-frog\|Sgt. Frog]] | cała seria | W mandze i anime Keroro jest żabim najeźdźcą rozłożonym przez własne hobby: zamiast podbijać Pekopon, składa modele Gundamów. Tutaj jego wiedza o prawdziwych maszynach staje się zagrożeniem — mówienie o Gundamie mogłoby zmienić rodowód MS i MA, więc Keronianin sam nakłada na siebie milczenie. |
@@ -84,4 +85,6 @@ Podział floty jest pierwszą decyzją podjętą wspólnie, a nie narzuconą z g
 [[sgt-frog|*Sgt. Frog*]] (ケロロ軍曹, *Keroro Gunsō*) to manga Mine'a Yoshizakiego publikowana od kwietnia 1999 roku w *Monthly Shōnen Ace* wydawnictwa Kadokawa Shoten; opowiada o plutonie żabich kosmitów z planety Keron, który bez powodzenia próbuje podbić Ziemię, a jego przywódca, sierżant Keroro, woli składać modele Gundamów ([Wikipedia, *Sgt. Frog*](https://en.wikipedia.org/wiki/Sgt._Frog); sprawdzono 2026-11-22). W *Super Robot Wars OE* Keroro trafia do świata [[universal-century|Universal Century]] i walczy po stronie [[connect-force|Connect]] — w tej misji jego hobby okazuje się wiedzą o maszynach, o których nie wolno mu mówić.
 
 Sojusz Balarantu i Związek Gilgamesh to dwa mocarstwa Galaktyki Astragius z *Armored Trooper VOTOMS* (1983–1984), które przez sto lat toczyły wojnę o zapomnianej przyczynie, aż nastało między nimi kruche zawieszenie broni ([Wikipedia, *Armored Trooper VOTOMS*](https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS); sprawdzono 2026-11-21). Tutaj oba państwa są częścią przeszłości [[connect-force|Connect]], a nie stroną walki.
+
+[[pentagona|Pentagona]] wywodzi się z *Heavy Metal L-Gaim* (重戦機エルガイム, 1984–1985, 54 odcinki, Nippon Sunrise, reż. Yoshiyuki Tomino, projekty Mamoru Nagano) — serialu rozgrywającego się w pięcioplanetarnym układzie słonecznym Pentagona ([Wikipedia, *Heavy Metal L-Gaim*](https://en.wikipedia.org/wiki/Heavy_Metal_L-Gaim); sprawdzono 2026-11-22). W epizodzie nazwa ta pojawia się na razie jako jedna z potęg sprzymierzonych za bramą warp obok Balarantu i Gradosu.
 }}
