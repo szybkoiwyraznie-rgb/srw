@@ -76,8 +76,7 @@ Heat Saber atakuje z zasięgu 1–2 i zwiększa unik, a wielka bazooka sięga pi
 | 0 | Heat Saber | 1500 | 1–2 | +50 | 5 | — | Brak w tym polu | Brak odwołania w dwóch polach efektów broni |
 | 1 | Wielka bazooka | 1800 | 1–4 | +10 | 10 | — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
 
-Seryjny Dom strzela z bazooki na cztery pola zamiast pięciu i słabiej tnie Heat Saberem, zachowując tę samą premię przeciw okrętom; oba działa mają dziesięć punktów niższe trafienie niż maszyny asów.
-}}}
-
 **Seria:** [[mobile-suit-gundam-1979|Mobile Suit Gundam]]
+
+Seryjny Dom strzela z bazooki na cztery pola zamiast pięciu i słabiej tnie Heat Saberem, zachowując tę samą premię przeciw okrętom; oba działa mają dziesięć punktów niższe trafienie niż maszyny asów.
 }}

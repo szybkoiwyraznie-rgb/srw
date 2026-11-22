@@ -264,7 +264,7 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
   // Meta-komentarze o samej bazie są zabronione w każdej warstwie treści — także w boksach
   // {{zrodlo}} i {{wiedza}}, gdzie wcześniej umykały. Wpis opisuje świat gry, nie strony,
   // boksy ani pliki (decyzja właściciela, 2026-11-14).
-  const zakazaneMeta = /\bbaz(?:a|y|ie|ę|ą)\s+(?:prowadzi|trzyma|gromadzi|zbiera)\b|\bw bazie\s+(?:reprezent\w*|obejmuj\w*|prowadzi|mamy|znajdziesz)|\b(?:osobn|własn)[a-ząćęłńóśźż]*\s+stron[a-ząćęłńóśźż]*|\bna tej stronie\b|\bmanife[sx]t\w*|\bboks[a-ząćęłńóśźż]*\b/i;
+  const zakazaneMeta = /\bbaz(?:a|y|ie|ę|ą)\s+(?:prowadzi|trzyma|gromadzi|zbiera)\b|\bw bazie\s+(?:reprezent\w*|obejmuj\w*|prowadzi|mamy|znajdziesz)|\b(?:osobn|własn)[a-ząćęłńóśźż]*\s+stron[a-ząćęłńóśźż]*|\bna tej stronie\b|\bmanife[sx]t\w*|\bboks[a-ząćęłńóśźż]*\b|\brekord[a-ząćęłńóśźż]*\s+(?:źródłow|gry|dostaw)|\bw\s+dostaw(?:ie|ach|y|ę)\b/i;
   const typy = ['postac', 'mech', 'pojecie', 'seria'];
   // Boks opisowy to po ADR 0035 fragment bez tytułu (po plakietce gry). Badamy wszystkie
   // takie fragmenty strony — dawniej wzorzec wycinał tylko sekcję „## Opis”.

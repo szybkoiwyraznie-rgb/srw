@@ -204,3 +204,23 @@ test('odsyłacze do scen nie trafiają do bloków obcej gry ani do bloków zrodl
   }
   assert.deepEqual(problemy, []);
 });
+
+test('wyrenderowane strony nie zawierają surowych znaczników bloków, wikilinków ani niesparsowanych tabel', async () => {
+  const { wczytajStrony } = await import('../tools/content-loader.mjs');
+  const strony = wczytajStrony();
+  const bySlug = new Map(strony.map((s) => [s.slug, s]));
+  const resolveLink = (slug) => {
+    const cel = bySlug.get(slug);
+    return cel ? { href: `#/${cel.typ}/${cel.slug}`, tytul: cel.tytul, typ: cel.typ } : null;
+  };
+  const problemy = [];
+  for (const s of strony) {
+    const { html } = renderMarkdown(s.body ?? '', { resolveLink, wymagajPoziomu: true });
+    const tekst = html.replace(/<[^>]+>/g, ' ');
+    if (/\{\{|\}\}/.test(tekst)) problemy.push(`${s.slug}: surowe {{ lub }} w tekście`);
+    if (/\[\[|\]\]/.test(tekst)) problemy.push(`${s.slug}: surowe [[ lub ]] w tekście`);
+    if (/\*\*/.test(tekst)) problemy.push(`${s.slug}: surowe ** w tekście`);
+    if (/<p>\s*\|/.test(html)) problemy.push(`${s.slug}: niesparsowana tabela markdown w <p>`);
+  }
+  assert.deepEqual(problemy, []);
+});
