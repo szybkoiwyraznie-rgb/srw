@@ -43,10 +43,19 @@ test('Misja 1-4: wszystkie nowe encje (seria, mechy, postacie, pojęcia) są w b
   assert.deepEqual(devil.gry, ['srw-oe', 'srw-y'], 'incydent Devil/Dark Gundam łączy obie gry (ADR 0020)');
 });
 
-test('Misja 1-4: Lumenus zyskuje pilota Zaawansowana SI i źródło z Y_dostawa_1_4.txt', () => {
+test('Misja 1-4: Lumenus Yellow Version jest osobnym mechem z pilotem Zaawansowana SI, a Lumenus zachowuje profil z 1-1', () => {
   const lumenus = bySlug.get('lumenus');
-  assert.ok(lumenus.piloci.includes('zaawansowana-si'));
-  assert.equal(JSON.parse(lumenus.w_gre['srw-y']).dostawa, 'dostawy/srw-y/Y_dostawa_1_4.txt');
+  assert.deepEqual(lumenus.piloci, ['cross-tsukinowa']);
+  assert.equal(JSON.parse(lumenus.w_gre['srw-y']).dostawa, 'dostawy/srw-y/Y_dostawa_1_1C.txt');
+
+  const yellow = bySlug.get('lumenus-yellow-version');
+  assert.equal(yellow?.typ, 'mech');
+  assert.equal(yellow.tytul, 'Lumenus Yellow Version');
+  assert.deepEqual(yellow.piloci, ['zaawansowana-si']);
+  assert.equal(JSON.parse(yellow.w_gre['srw-y']).dostawa, 'dostawy/srw-y/Y_dostawa_1_4.txt');
+  assert.ok(yellow.body.includes('[[lumenus|'));
+  assert.ok(lumenus.body.includes('[[lumenus-yellow-version|'));
+
   const aAdvent = bySlug.get('a-advent');
   assert.ok(aAdvent.piloci.includes('novey-dickens'));
   assert.ok(aAdvent.piloci.includes('mina-narive'));
@@ -73,16 +82,17 @@ test('ADR 0046: seria_w_grze przypisuje Heero Yuya i Wing Gundama Zero do właś
   assert.match(htmlEw, /href="#\/mech\/wing-gundam-zero"/);
 });
 
-test('Misja 1-4: dostawa ilustracji (2026-11-23) przypisuje cztery pliki jednostek i sześć portretów', () => {
+test('Misja 1-4: dostawa ilustracji (2026-11-23) przypisuje cztery pliki jednostek i portrety (w tym osobne OE/Y dla Heero Yuya)', () => {
   const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, 'media/ilustracje.json'), 'utf8'));
   const oczekiwane = {
     'burning-gundam': ['Burning Gundam.png'],
     'rising-gundam': ['Rising Gundam.png'],
-    'lumenus': ['Lumenus.png', 'Lumenus Yellow Version.png'],
+    'lumenus': ['Lumenus.png'],
+    'lumenus-yellow-version': ['Lumenus Yellow Version.png'],
     'wing-gundam-zero': ['Wing Zero.png', 'Wing Zero 2.png', 'Wing Gundam Zero.png'],
     'ade-stradio': ['characters/Ade Stradio.png'],
     'domon-kasshu': ['characters/Domon Kasshu.png'],
-    'heero-yuy': ['characters/Heero Yuy.png'],
+    'heero-yuy': ['characters/Heero Yuy OE.png', 'characters/Heero Yuy.png'],
     'mina-narive': ['characters/Mina Narive.png'],
     'novey-dickens': ['characters/Novey Dickens.png'],
     'rain-mikamura': ['characters/Rain Mikamura.png'],
@@ -96,4 +106,5 @@ test('Misja 1-4: dostawa ilustracji (2026-11-23) przypisuje cztery pliki jednost
       assert.ok(body.includes(`${manifest.baseUrl}/${encoded}`), `${slug}: brak URL dla ${plik}`);
     }
   }
+  assert.match(bySlug.get('heero-yuy').body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, 'heero-yuy: galeria srw-oe');
 });

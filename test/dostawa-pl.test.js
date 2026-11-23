@@ -301,13 +301,13 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
   }
 });
 
-test('ilustracje właściciela: 313 plików przy 247 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 314 plików przy 248 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
   // Bieżący stan manifestu jest przypięty tylko tutaj. Testy poszczególnych dostaw sprawdzają
   // własne klucze i to, że manifest nie jest starszy od nich — kolejna dostawa zmienia ten jeden test.
-  assert.equal(Object.keys(manifest.encje).length, 247);
-  assert.equal(Object.values(manifest.encje).flat().length, 313);
+  assert.equal(Object.keys(manifest.encje).length, 248);
+  assert.equal(Object.values(manifest.encje).flat().length, 314);
   assert.equal(manifest.dostarczono, '2026-11-23', 'data ostatniej dostawy ilustracji');
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
@@ -340,8 +340,9 @@ test('ilustracje właściciela: 313 plików przy 247 encjach, w tym postacie i m
   assert.deepEqual(manifest.encje['gundam-exia'], ['Gundam Exia.png', 'Gundam Exia 2.png']);
   assert.deepEqual(manifest.encje['wing-gundam-zero'], ['Wing Zero.png', 'Wing Zero 2.png', 'Wing Gundam Zero.png']);
   assert.deepEqual(manifest.encje['wing-gundam-zero-nb'], ['Wing Zero NB.png']);
+  assert.deepEqual(manifest.encje['heero-yuy'], ['characters/Heero Yuy OE.png', 'characters/Heero Yuy.png']);
   for (const [slug, plik] of Object.entries({
-    'garma-zabi': 'Garma Zabi', 'heero-yuy': 'Heero Yuy',
+    'garma-zabi': 'Garma Zabi',
     'setsuna-f-seiei': 'Setsuna F. Seisei', uragan: 'Uragan',
   })) {
     assert.deepEqual(manifest.encje[slug], [`characters/${plik}.png`], slug);
@@ -592,7 +593,7 @@ test('dostawa ilustracji SRW Y (2026-11-09): osiem jednostek i szesnaście portr
     'amx-003-gaza-c': ['AMX-003 Gaza C.png'],
     'altron-gundam': ['Altron Gundam.png'],
     'lancelot-albion-zero': ['Lancelot Albion Zero.png'],
-    'lumenus': ['Lumenus.png', 'Lumenus Yellow Version.png'],
+    'lumenus': ['Lumenus.png'],
     'taurus': ['Taurus.png'],
     'lunedrache': ['X-Lunedrache.png'],
     'zamza-zah': ['Zamza-Zah.png'],
@@ -601,7 +602,7 @@ test('dostawa ilustracji SRW Y (2026-11-09): osiem jednostek i szesnaście portr
     assert.deepEqual(manifest.encje[slug], files, slug);
     const body = bySlug.get(slug).body;
     assert.equal((body.match(/^## Ilustracje$/gm) ?? []).length, 1, `${slug}: galeria`);
-    assert.equal((body.match(/^### Ilustracja \d+$/gm) ?? []).length, files.length, `${slug}: liczba podsekcji`);
+    assert.equal((body.match(/^### Ilustracja \d+$/gm) ?? []).length, 1, `${slug}: jedna podsekcja`);
     assert.ok(body.indexOf('## Ilustracje') < body.indexOf('## Parametry'), `${slug}: kolejność`);
     assert.match(body, /\{\{menu gra=srw-y\n\n## Ilustracje/, `${slug}: zakres gry`);
   }

@@ -43,6 +43,15 @@ const INNE_ZAPISY_NAZW = {
   'SI sterująca': 'control-ai',
 };
 
+/**
+ * Jednostki, które w konkretnej dostawie noszą tę samą nazwę co model bazowy,
+ * ale w bazie są osobnym mechem (jak odmiany kolorystyczne / malowania
+ * z odrębną kartą i ilustracją). Klucz: `gra/plik|Nazwa` → slug strony.
+ */
+export const INNE_ZAPISY_W_DOSTAWIE = {
+  'srw-y/Y_dostawa_1_4.txt|Lumenus': 'lumenus-yellow-version',
+};
+
 /** Wpisy w miejscu pilota, które nie są osobą: rekord bez pilota albo głos bez imienia. */
 const BRAK_PILOTA = [/^brak$/i, /^Brak przypisanego klucza pilota\b/i, /^\?+$/];
 
@@ -107,8 +116,9 @@ export function przypisaniaDostaw({ root = '.' } = {}) {
     for (const plik of fs.readdirSync(katalogGry).sort()) {
       if (!/\.(txt|md)$/.test(plik)) continue;
       for (const u of przypisaniaZPliku(path.join(katalogGry, plik))) {
-        const klucz = `${gra}|${u.nazwa}`;
-        if (!zebrane.has(klucz)) zebrane.set(klucz, { gra, nazwa: u.nazwa, serie: new Map(), skroty: new Set() });
+        const wariant = INNE_ZAPISY_W_DOSTAWIE[`${gra}/${plik}|${u.nazwa}`] ?? null;
+        const klucz = wariant ? `${gra}|${u.nazwa}|${wariant}` : `${gra}|${u.nazwa}`;
+        if (!zebrane.has(klucz)) zebrane.set(klucz, { gra, nazwa: u.nazwa, wariant, serie: new Map(), skroty: new Set() });
         const wpis = zebrane.get(klucz);
         if (!wpis.serie.has(u.seria)) wpis.serie.set(u.seria, []);
         wpis.serie.get(u.seria).push(`dostawy/${gra}/${plik}:${u.wiersz}`);
@@ -196,8 +206,11 @@ export const rekordBezOsoby = samJestPilotem;
  * `typ` zawęża szukanie do postaci albo mechów — w „Gurren Lagann (Simon)”
  * wariantem jest imię pilota, a chodzi o maszynę.
  */
-export function stronyUczestnika(nazwa, gra, strony, { typ = null } = {}) {
+export function stronyUczestnika(nazwa, gra, strony, { typ = null, plik = null } = {}) {
   const encje = strony.filter((s) => (typ ? s.typ === typ : s.typ === 'postac' || s.typ === 'mech'));
+  if (plik && INNE_ZAPISY_W_DOSTAWIE[`${plik}|${nazwa}`]) {
+    return encje.filter((s) => s.slug === INNE_ZAPISY_W_DOSTAWIE[`${plik}|${nazwa}`]);
+  }
   if (INNE_ZAPISY_NAZW[nazwa]) return encje.filter((s) => s.slug === INNE_ZAPISY_NAZW[nazwa]);
 
   const poProfilu = encje.filter((s) => profileWGrze(s, gra).includes(nazwa));
@@ -253,7 +266,9 @@ export function porownajZBaza({ root = '.', strony = wczytajStrony({ root }) } =
       raport.nieznanaSeria.push(`${wpis.gra}: seria „${nazwaSerii}” („${wpis.nazwa}”, ${gdzie[0]}) nie ma strony w content/serie`);
       continue;
     }
-    const trafione = stronyUczestnika(wpis.nazwa, wpis.gra, strony);
+    const trafione = wpis.wariant
+      ? strony.filter((s) => s.slug === wpis.wariant)
+      : stronyUczestnika(wpis.nazwa, wpis.gra, strony);
     if (trafione.length === 0) {
       raport.brakStrony.push(`${wpis.gra}: „${wpis.nazwa}” (${nazwaSerii}; ${gdzie[0]}) nie ma strony o tej nazwie`);
       continue;
@@ -336,7 +351,7 @@ export function porownajZalogi({ root = '.', strony = wczytajStrony({ root }) } 
   for (const z of zalogiDostaw({ root })) {
     raport.par += 1;
     const gdzie = `${z.plik}:${z.wiersz}`;
-    const mechy = stronyUczestnika(z.jednostka, z.gra, strony, { typ: 'mech' });
+    const mechy = stronyUczestnika(z.jednostka, z.gra, strony, { typ: 'mech', plik: z.plik });
     if (mechy.length !== 1) {
       zglos(raport.nieznanaJednostka, `${z.gra}: jednostka „${z.jednostka}”`, `${mechy.length ? `pasuje do kilku stron: ${mechy.map((s) => s.slug).join(', ')}` : 'nie ma strony'} (${gdzie})`);
       continue;

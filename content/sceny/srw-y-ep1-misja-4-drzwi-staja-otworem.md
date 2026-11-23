@@ -6,7 +6,7 @@ epizod: srw-y-ep1
 numer_sceny: 1-4
 streszczenie: "Rząd Japonii wzywa A. Advent do bezwarunkowego wydania okrętu, a w głębi miasta Cross eliminuje ósmego androida-szpiega i spotyka Domona Kasshu. Podczas ataku VAL-X pod Tokio na pomoc ruszają Domon, Rain i Heero Yuy, zaś stery okrętu przejmują Novey Dickens i Mina Narive. Nadzwyczajne oświadczenie Ade Stradio o rozwiązaniu Nowej Federacji Ziemskiej skłania Echikę do ogłoszenia niepodległości A. Adventu i powołania Yz-Next."
 postacie: [ade-stradio, agent, annina-servania, aytie, baku-yamagishi, chise-asukagawa, cross-tsukinowa, domon-kasshu, echika-y-franburnett, gauma, heero-yuy, koyomi-yamanaka, mina-narive, mobile-doll, novey-dickens, rain-mikamura, ru-negsis, show-kamui, takuma-nagare, yomogi-asanaka, yume-minami, zaawansowana-si]
-mechy: [a-advent, amx-003-gaza-c, burning-gundam, dynazenon, getter-arc, getter-khan, getter-kirik, lumenus, lunedrache, rising-gundam, taurus, wing-gundam-zero, zamza-zah]
+mechy: [a-advent, amx-003-gaza-c, burning-gundam, dynazenon, getter-arc, getter-khan, getter-kirik, lumenus-yellow-version, lunedrache, rising-gundam, taurus, wing-gundam-zero, zamza-zah]
 pojecia: [nowa-federacja-ziemska, wojna-rewolucyjna, gundam-fight, swiete-imperium-britannii, czarni-rycerze, aeug, krol-kier, wyznanie-stulecia, ninja, sojusz-shuffle, val-x, devil-gundam-incident, nowa-liga-narodow, 31-samodzielny-korpus, wszechgwiezdne-imperium-ra-val, yz-next]
 sekcje_analizy:
   - Codzienność, wyznanie Yume i wezwanie rządu → Mapa taktyczna
@@ -697,7 +697,7 @@ W sali konferencyjnej [[echika-y-franburnett|Echika]] tłumaczy młodym pilotom 
 
 ### Atak VAL-X pod Tokio i odsiecz Gundamów
 
-Podczas kursu ku Tokio A. Advent zostaje zaatakowany przez siły [[val-x|VAL-X]] złożone z bezzałogowych [[amx-003-gaza-c|Gaz C]], [[zamza-zah|Zamza-Zahów]] i [[taurus|Taurusów]]. Na pomoc miastu i okrętowi natychmiast ruszają [[domon-kasshu|Domon]] w [[burning-gundam|Burning Gundamie]] oraz [[rain-mikamura|Rain]] w [[rising-gundam|Rising Gundamie]], udostępniając obrońcom układ naprawczy. Sytuacja zaostrza się, gdy na tyły wchodzi druga fala — cywilnie malowane [[lumenus|Lumenusy]] prowadzone przez [[zaawansowana-si|Zaawansowaną SI]], które [[annina-servania|Annina]] w pierwszej chwili bierze za odsiecz Sił Federacji.
+Podczas kursu ku Tokio A. Advent zostaje zaatakowany przez siły [[val-x|VAL-X]] złożone z bezzałogowych [[amx-003-gaza-c|Gaz C]], [[zamza-zah|Zamza-Zahów]] i [[taurus|Taurusów]]. Na pomoc miastu i okrętowi natychmiast ruszają [[domon-kasshu|Domon]] w [[burning-gundam|Burning Gundamie]] oraz [[rain-mikamura|Rain]] w [[rising-gundam|Rising Gundamie]], udostępniając obrońcom układ naprawczy. Sytuacja zaostrza się, gdy na tyły wchodzi druga fala — cywilnie malowane [[lumenus-yellow-version|Lumenusy Yellow Version]] prowadzone przez [[zaawansowana-si|Zaawansowaną SI]], które [[annina-servania|Annina]] w pierwszej chwili bierze za odsiecz Sił Federacji.
 
 ### Kapitan Novey i Mina na mostku
 

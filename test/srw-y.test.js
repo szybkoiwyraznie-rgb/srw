@@ -146,7 +146,7 @@ test('SRW Y: epizod wskazuje grę, skrypt i komplet dostarczonych relacji', () =
   ]);
   assert.deepEqual(epizod.mechy, [
     ...MECHY, 'dynazenon', ...FORMY_PO_TRANSFORMACJI, 'shalbandes',
-    'burning-gundam', 'rising-gundam', 'wing-gundam-zero',
+    'burning-gundam', 'rising-gundam', 'wing-gundam-zero', 'lumenus-yellow-version',
   ]);
   for (const slug of [...SERIE, ...POJECIA, ...POJECIA_Z_MISJI_2A]) {
     assert.ok(epizod.serie?.includes(slug) || epizod.pojecia?.includes(slug), slug);
@@ -182,7 +182,6 @@ test('SRW Y: wszystkie profile mechów zachowują dane menu pod zakresem srw-y',
       .map((s) => [s, 'dostawy/srw-y/dostawa_1_2a.txt'])),
     ...Object.fromEntries(['a-advent', 'lunedrache', 'getter-arc', ...FORMY_PO_TRANSFORMACJI]
       .map((s) => [s, 'dostawy/srw-y/dostawa_1_3a.txt'])),
-    lumenus: 'dostawy/srw-y/Y_dostawa_1_4.txt',
   };
   for (const slug of [...MECHY, ...FORMY_PO_TRANSFORMACJI]) {
     const mech = bySlug.get(slug);

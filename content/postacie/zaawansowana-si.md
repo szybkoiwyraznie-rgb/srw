@@ -4,7 +4,7 @@ slug: zaawansowana-si
 tytul: "Zaawansowana SI"
 seria: super-robot-wars-original
 rola: inne
-mechy: [amx-003-gaza-c, zamza-zah, lumenus]
+mechy: [amx-003-gaza-c, zamza-zah, lumenus-yellow-version]
 gry: [srw-y]
 pochodzenie: menu
 tagi: [srw-y, inne, super-robot-wars-original, super-robot-wars]
@@ -12,7 +12,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-System sterujący wrogimi jednostkami. W profilach misji prowadzi [[amx-003-gaza-c|Gazę C]], [[zamza-zah|Zamza-Zaha]] oraz — w [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji „Drzwi stają otworem”]] w szeregach [[val-x|VAL-X]] pod Tokio — bezzałogowe [[lumenus|Lumenusy]], pozostając bezimiennym przeciwnikiem mieszkańców Yagami.
+System sterujący wrogimi jednostkami. W profilach misji prowadzi [[amx-003-gaza-c|Gazę C]], [[zamza-zah|Zamza-Zaha]] oraz — w [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji „Drzwi stają otworem”]] w szeregach [[val-x|VAL-X]] pod Tokio — bezzałogowe [[lumenus-yellow-version|Lumenusy Yellow Version]], pozostając bezimiennym przeciwnikiem mieszkańców Yagami.
 }}
 
 {{menu gra=srw-y

@@ -15,6 +15,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { wczytajStrony } from '../tools/content-loader.mjs';
+import { INNE_ZAPISY_W_DOSTAWIE } from '../tools/uczestnicy-dostaw.mjs';
 
 /**
  * Kolejność chronologiczna dostaw jednej gry po numerze epizodu i misji
@@ -109,6 +110,8 @@ test('para (mech, gra) ma dane z najpóźniejszej dostawy, która podaje INNE da
       const kolejnosc = dostawyGry(gra);
       const pozycja = kolejnosc.indexOf(path.basename(uzyta));
       for (const plik of pozycja >= 0 ? kolejnosc.slice(pozycja + 1) : []) {
+        const wariantWPliku = INNE_ZAPISY_W_DOSTAWIE[`${gra}/${plik}|${profil}`];
+        if (wariantWPliku && wariantWPliku !== mech.slug) continue;
         const inny = blokJednostki(wczytaj(gra, plik), profil);
         if (!inny) continue;
         porownan += 1;
