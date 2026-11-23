@@ -24,6 +24,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { wczytajStrony, wczytajSkrypty } from '../tools/content-loader.mjs';
+import { serieStrony } from '../src/srw/registry.js';
 import { zbudujDane } from '../tools/build.mjs';
 import {
   porownajZBaza, przypisaniaDostaw, przypisaniaZPliku, normalizujNazwe, RODZAJE_ROZBIEZNOSCI,
@@ -298,7 +299,7 @@ test('każdy mówca w scenie należy do jej obsady i obsady epizodu', () => {
 test('strona serii linkuje każdą przypisaną do niej encję w prozie (L16)', () => {
   const braki = [];
   for (const seria of strony.filter((s) => s.typ === 'seria')) {
-    for (const encja of strony.filter((s) => s.seria === seria.slug && s.slug !== seria.slug)) {
+    for (const encja of strony.filter((s) => serieStrony(s).includes(seria.slug) && s.slug !== seria.slug)) {
       if (!seria.body.includes(`[[${encja.slug}|`) && !seria.body.includes(`[[${encja.slug}]]`)) {
         braki.push(`${seria.slug}: brak wzmianki o ${encja.typ} „${encja.slug}”`);
       }

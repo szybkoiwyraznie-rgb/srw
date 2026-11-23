@@ -143,6 +143,9 @@ export async function zbudujDane({ root = ROOT } = {}) {
       if (Array.isArray(wartosc)) for (const cel of wartosc) linki.add(cel);
       else if (typeof wartosc === 'string' && wartosc !== '') linki.add(wartosc);
     }
+    if (s.seria_w_grze && typeof s.seria_w_grze === 'object' && !Array.isArray(s.seria_w_grze)) {
+      for (const cel of Object.values(s.seria_w_grze)) if (typeof cel === 'string' && cel !== '') linki.add(cel);
+    }
     linki.delete(s.slug);
 
     // Skrypt epizodu zostaje archiwum w `episodes/` i wzorcem wierności scen.

@@ -60,7 +60,9 @@ mieć swój wpis epizodu.
 
 `seria` postaci i mecha jest **dokładnie tym, co wpisała lista uczestników dostawy** — także
 wtedy, gdy dostawa serii nie podaje („Brak wpisu w słowniku postaci” → strona bez pola `seria`).
-`tytul` to nazwa z listy uczestników, czyli imię i nazwisko. `pseudonim` to etykieta, pod którą
+Gdy ta sama encja występuje w różnych grach pod różnymi seriami pierwowzoru (np. *Mobile Suit
+Gundam Wing* w OE i *Endless Waltz* w Y), zostaje jedną stroną z mapą `seria_w_grze` (`gra: seria`;
+ADR 0046). `tytul` to nazwa z listy uczestników, czyli imię i nazwisko. `pseudonim` to etykieta, pod którą
 postać mówi w skrypcie, gdy nie jest nią imię ani nazwisko (`pseudonim: Potato` na stronie
 Orie Ishizuki); strony pod samym przezwiskiem nie zakładamy. Pilnują tego
 `tools/uczestnicy-dostaw.mjs` i `test/seria-z-dostawy.test.js` (ADR 0037).

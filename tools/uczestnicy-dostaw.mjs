@@ -263,7 +263,7 @@ export function porownajZBaza({ root = '.', strony = wczytajStrony({ root }) } =
       continue;
     }
     const [strona] = trafione;
-    const jest = strona.seria ?? null;
+    const jest = strona.seria_w_grze?.[wpis.gra] ?? strona.seria ?? null;
     if (jest !== oczekiwana) {
       raport.zlaSeria.push(`${strona.slug}: dostawa podaje ${oczekiwana ? `serię „${nazwaSerii}” (${oczekiwana})` : `brak serii („${nazwaSerii}”)`}, strona ma ${jest ?? 'brak serii'} (${gdzie[0]})`);
       continue;

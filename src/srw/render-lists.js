@@ -12,7 +12,7 @@ import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefListy } from './links.js';
 import { dajStrone, listaStron, listaPosortowana, listaEpizodow, listaFiltrowana, tagiMap, statystyki } from './data.js';
 import { nazwaTypu, numerEpizodu, stanPusty, odmiana } from './render.js';
-import { sortujSceny } from './registry.js';
+import { sortujSceny, serieStrony } from './registry.js';
 import { elementSceny } from './render-scene.js';
 
 /** Wymiary kafelka w galerii (px). Suwak reguluje wartość w UI. */
@@ -215,8 +215,8 @@ function filtrujPoPolu(lista, typ, pole, wartosc) {
     });
   }
   if (pole === 'seria') {
-    if (wartosc === BEZ_SERII) return lista.filter((p) => !p.seria);
-    return lista.filter((p) => p.seria === wartosc);
+    if (wartosc === BEZ_SERII) return lista.filter((p) => serieStrony(p).length === 0);
+    return lista.filter((p) => serieStrony(p).includes(wartosc));
   }
   if (pole === 'epizod') {
     const epizod = dajStrone(wartosc);
@@ -257,8 +257,8 @@ function filtrujFabule(lista, typ, pole, wartosc) {
   if (pole === 'mech') return lista.filter((p) => (p.mechy ?? []).includes(wartosc));
   if (pole === 'postac') return lista.filter((p) => (p.postacie ?? []).includes(wartosc));
   if (pole === 'seria') {
-    if (wartosc === BEZ_SERII) return lista.filter((p) => encjeWpisu(p).some((e) => !e.seria));
-    return lista.filter((p) => encjeWpisu(p).some((e) => e.seria === wartosc));
+    if (wartosc === BEZ_SERII) return lista.filter((p) => encjeWpisu(p).some((e) => serieStrony(e).length === 0));
+    return lista.filter((p) => encjeWpisu(p).some((e) => serieStrony(e).includes(wartosc)));
   }
   return lista;
 }
@@ -516,10 +516,10 @@ function renderFiltryKrokowe(typ, query) {
   }
 
   const kandydaciSerii = encjePoFiltrach(typ, { ...query, seria: undefined }, 'seria');
-  const liczbaBezSerii = kandydaciSerii.filter((p) => !p.seria).length;
+  const liczbaBezSerii = kandydaciSerii.filter((p) => serieStrony(p).length === 0).length;
   const serie = kandydaciSerii
-    .filter((p) => p.seria)
-    .map((p) => dajStrone(p.seria))
+    .flatMap((p) => serieStrony(p))
+    .map((slug) => dajStrone(slug))
     .filter(Boolean);
   // unikalne serie, posortowane
   const serieUnikalne = Array.from(new Map(serie.map((s) => [s.slug, s])).values())
@@ -634,10 +634,10 @@ function renderFiltryFabuly(typ, query) {
 
   const gry = zWyborem(poPozostalych('gra').map(graWpisu).map(dajStrone).filter(Boolean), query.gra);
   const encjeSerii = poPozostalych('seria').flatMap(encjeWpisu);
-  const serie = zWyborem(encjeSerii.map((e) => e.seria).filter(Boolean).map(dajStrone).filter(Boolean), query.seria);
+  const serie = zWyborem(encjeSerii.flatMap((e) => serieStrony(e)).map(dajStrone).filter(Boolean), query.seria);
   const mechy = zWyborem(poPozostalych('mech').flatMap((p) => (p.mechy ?? []).map(dajStrone)).filter(Boolean), query.mech);
   const postacie = zWyborem(poPozostalych('postac').flatMap((p) => (p.postacie ?? []).map(dajStrone)).filter(Boolean), query.postac);
-  const bezSerii = encjeSerii.some((e) => !e.seria);
+  const bezSerii = encjeSerii.some((e) => serieStrony(e).length === 0);
 
   const selekt = (pole, etykieta, pusta, opcje, dodatkowe = '') => selektFiltru(pole, etykieta, pusta, opcje, query[pole] ?? '', dodatkowe);
 
@@ -698,8 +698,8 @@ function metaEncji(p) {
 }
 
 function kartaSerii(s) {
-  const postacie = listaStron('postac').filter((p) => p.seria === s.slug).length;
-  const mechy = listaStron('mech').filter((p) => p.seria === s.slug).length;
+  const postacie = listaStron('postac').filter((p) => serieStrony(p).includes(s.slug)).length;
+  const mechy = listaStron('mech').filter((p) => serieStrony(p).includes(s.slug)).length;
   return `<article class="karta-serie">
     <h3><a href="${hrefDlaSlug(s.slug, 'seria')}">${escapeHtml(s.tytul)}</a></h3>
     <p class="meta">${[s.rodzaj ? String(s.rodzaj).toUpperCase() : '', s.rok, s.odcinki ? `${s.odcinki} odc.` : ''].filter(Boolean).map(escapeHtml).join(' · ')}</p>
