@@ -11,7 +11,7 @@ utworzono: 2026-10-19
 ---
 {{menu gra=srw-y
 
-W *Super Robot Wars Y* do oryginalnych elementów świata należą [[echika-y-franburnett|Echika Y. Franburnett]], [[annina-servania|Annina Servania]], [[cross-tsukinowa|Cross Tsukinowa]], grupa [[ninja|NINJA]], a także [[agent|Agent]], [[aytie|Aytie]], [[cookie|Cookie]], [[forte-tsukinowa|Forte Tsukinowa]], [[wren|Wren]] i [[zaawansowana-si|Zaawansowana SI]]. Ich historię splatają [[a-advent|A. Advent]], [[lunedrache|Lunedrache]], [[lumenus|Lumenus]] oraz [[nira-kana-i|System Nira-Kana-I]].
+W *Super Robot Wars Y* do oryginalnych elementów świata należą [[echika-y-franburnett|Echika Y. Franburnett]], [[annina-servania|Annina Servania]], [[cross-tsukinowa|Cross Tsukinowa]], grupa [[ninja|NINJA]], a także [[novey-dickens|Novey Dickens]], [[mina-narive|Mina Narive]], [[ru-negsis|Ru Negsis]], [[ade-stradio|Ade Stradio]], [[agent|Agent]], [[aytie|Aytie]], [[cookie|Cookie]], [[forte-tsukinowa|Forte Tsukinowa]], [[wren|Wren]] i [[zaawansowana-si|Zaawansowana SI]]. Ich historię splatają [[a-advent|A. Advent]], [[lunedrache|Lunedrache]], [[lumenus|Lumenus]] oraz [[nira-kana-i|System Nira-Kana-I]].
 }}
 
 {{menu gra=wspolne

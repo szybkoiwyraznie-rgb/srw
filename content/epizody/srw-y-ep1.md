@@ -3,10 +3,10 @@ typ: epizod
 slug: srw-y-ep1
 tytul: Epizod 1
 gra: srw-y
-postacie: [agent, annina-servania, baku-yamagishi, echika-y-franburnett, forte-tsukinowa, gauma, zaawansowana-si, cross-tsukinowa, mobile-doll, takuma-nagare, chang-wufei, yomogi-asanaka, zero, aytie, cookie, wren, heero-yuy, duo-maxwell, quatre-raberba-winner, trowa-barton, nunnally-vi-britannia, tetsuya-tsurugi, chizuru-nambara, hyoma-aoi, koji-kabuto, amuro-ray, bright-noa, chise-asukagawa, yume-minami, show-kamui, koyomi-yamanaka, hayato-jin, shikishima, igari, mei, matka-yomogiego, juuga, mujina, onija, sizumu]
-mechy: [altron-gundam, amx-003-gaza-c, a-advent, lunedrache, lancelot-albion-zero, lumenus, taurus, zamza-zah, getter-arc, insector, zordo-xx, dynazenon, getter-kirik, getter-khan, shalbandes]
-serie: [super-robot-wars-original, mobile-suit-gundam-wing-endless-waltz, mobile-suit-z-gundam, mobile-suit-gundam-seed-destiny, getter-robo-arc, ssss-dynazenon, code-geass-lelouch-of-the-re-surrection, code-geass-lelouch-of-the-rebellion-iii-glorification]
-pojecia: [wojna-rewolucyjna, nowa-federacja-ziemska, val-x, logos, czarni-rycerze, ninja, statek-emigracyjny, nira-kana-i, pamiec-stg, teoria-y, miasto-yagami, mechaniczne-marionetki, kamille-bidan, haman-karn, gilbert-dullindal, milliardo-peacecraft, treize-khushrenada, lelouch-vi-britannia, chikara-jinguji, akira-hibiki, barao, imperium-yoma, campbellianie, dr-hell, historia-ziemi, laboratorium-saotome, getter-d2, promienie-gettera, insectorzy, n-u-n-g, ryoma-nagare, doktor-saotome, ultradaleka-flota-emigracyjna, klub-kaiju]
+postacie: [agent, annina-servania, baku-yamagishi, echika-y-franburnett, forte-tsukinowa, gauma, zaawansowana-si, cross-tsukinowa, mobile-doll, takuma-nagare, chang-wufei, yomogi-asanaka, zero, aytie, cookie, wren, heero-yuy, duo-maxwell, quatre-raberba-winner, trowa-barton, nunnally-vi-britannia, tetsuya-tsurugi, chizuru-nambara, hyoma-aoi, koji-kabuto, amuro-ray, bright-noa, chise-asukagawa, yume-minami, show-kamui, koyomi-yamanaka, hayato-jin, shikishima, igari, mei, matka-yomogiego, juuga, mujina, onija, sizumu, domon-kasshu, rain-mikamura, novey-dickens, mina-narive, ru-negsis, ade-stradio]
+mechy: [altron-gundam, amx-003-gaza-c, a-advent, lunedrache, lancelot-albion-zero, lumenus, taurus, zamza-zah, getter-arc, insector, zordo-xx, dynazenon, getter-kirik, getter-khan, shalbandes, burning-gundam, rising-gundam, wing-gundam-zero]
+serie: [super-robot-wars-original, mobile-suit-gundam-wing-endless-waltz, mobile-suit-z-gundam, mobile-suit-gundam-seed-destiny, getter-robo-arc, ssss-dynazenon, code-geass-lelouch-of-the-re-surrection, code-geass-lelouch-of-the-rebellion-iii-glorification, mobile-fighter-g-gundam]
+pojecia: [wojna-rewolucyjna, nowa-federacja-ziemska, val-x, logos, czarni-rycerze, ninja, statek-emigracyjny, nira-kana-i, pamiec-stg, teoria-y, miasto-yagami, mechaniczne-marionetki, kamille-bidan, haman-karn, gilbert-dullindal, milliardo-peacecraft, treize-khushrenada, lelouch-vi-britannia, chikara-jinguji, akira-hibiki, barao, imperium-yoma, campbellianie, dr-hell, historia-ziemi, laboratorium-saotome, getter-d2, promienie-gettera, insectorzy, n-u-n-g, ryoma-nagare, doktor-saotome, ultradaleka-flota-emigracyjna, klub-kaiju, gundam-fight, swiete-imperium-britannii, aeug, krol-kier, wyznanie-stulecia, sojusz-shuffle, devil-gundam-incident, nowa-liga-narodow, 31-samodzielny-korpus, wszechgwiezdne-imperium-ra-val, yz-next]
 numer: 1
 skrypt: episodes/srw-y/ep001.md
 pochodzenie: skrypt
@@ -21,6 +21,8 @@ Po [[wojna-rewolucyjna|wojnie rewolucyjnej]] świat próbuje utrzymać pokój, l
 
 W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] kaiju pojawiają się wewnątrz kopuły. [[gauma|Gauma]] wyprowadza walkę poza miasto w [[dynazenon|Dynazenonie]], a po zwycięstwie przyjmuje propozycję współpracy od Echiki.
 
+W [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji „Drzwi stają otworem”]] rząd Japonii żąda bezwarunkowego wydania A. Adventu, a podczas ataku [[val-x|VAL-X]] pod Tokio na pomoc ruszają [[domon-kasshu|Domon Kasshu]], [[rain-mikamura|Rain Mikamura]] oraz [[heero-yuy|Heero Yuy]] w [[wing-gundam-zero|Wing Gundamie Zero]], podczas gdy stery okrętu przejmują [[novey-dickens|Novey Dickens]] i [[mina-narive|Mina Narive]]. Gdy prezydent [[ade-stradio|Ade Stradio]] ogłasza rozwiązanie [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]], Echika wybiera drogę niezależnego miasta-państwa i powołuje straż obywatelską [[yz-next|Yz-Next]].
+
 ## Wątki fabularne
 
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
@@ -34,6 +36,10 @@ W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] kaiju poja
 | Mieszkańcy z *Dynazenona* w mieście Yagami | [[ssss-dynazenon\|SSSS.DYNAZENON]] | odc. 1 „What Is a Kaiju User?” | W serialu bohaterów łączy atak kaiju i przyzwanie Dynazenona; tutaj spotykają się osobno w uniesionym [[miasto-yagami\|mieście Yagami]] po wojnie rewolucyjnej, jeszcze bez walki z kaiju. |
 | Spotkanie przy śluzie | [[ssss-dynazenon\|SSSS.DYNAZENON]] | odc. 1 „What Is a Kaiju User?” | Yomogi czeka na Yume po pracy; zamiast niej spotyka Gaumę. Tutaj śluza leży w dzielnicy latającego miasta. |
 | Wyrzucenie kaiju poza kopułę | [[srw-y\|Super Robot Wars Y]] | n/d | Cross i Echika otwierają drogę Dynazenonowi. Na zewnątrz dołącza Getter, a w mieście ratownicy mogą dotrzeć do zniszczonej dzielnicy. |
+| Wyznanie Yume o śmierci starszej siostry | [[ssss-dynazenon\|SSSS.DYNAZENON]] | odc. 2 „What's Your Reason for Fighting?” | W serialu Yume opowiada Yomogiemu o siostrze w drodze ze szkoły (wątek rozwija też odc. 3 „What Is a Traitor?”); tutaj rozmowa toczy się na pokładzie A. Adventu obok treningu drużyny Gettera. |
+| Powrót Domona i Rain po 13. Gundam Fight | [[mobile-fighter-g-gundam\|Mobile Fighter G Gundam]] | cała seria | Zamiast przygotowań do 14. turnieju Gundam Fight został zawieszony po wojnie rewolucyjnej, a Domon z Rain zostają wysłani do zbadania A. Adventu i znają Crossa z czasów walki z Dark Gundamem. |
+| Interwencja Heero Yuya w Wing Gundamie Zero (EW) | [[mobile-suit-gundam-wing-endless-waltz\|Mobile Suit Gundam Wing: Endless Waltz]] | cała seria | Heero działa samodzielnie z uwagi na ostrzeżenie Zero Systemu i ślad Wufeia ścigającego Zero, zamiast wprost walczyć z Armią Mariemai. |
+| Zaciąg Noveya i Miny, nagły skok mocy A. Adventu, obserwacja Ru Negsisa oraz rozpad Nowej Federacji Ziemskiej i powołanie Yz-Next | [[srw-y\|Super Robot Wars Y]] | n/d | Oryginalny punkt zwrotny Epizodu 1: zamyka krótki okres Nowej Federacji Ziemskiej, zawiązuje drużynę Yz-Next i ujawnia zainteresowanie Imperium Ra Val tajemnicą okrętu. |
 
 ## Komentarz
 

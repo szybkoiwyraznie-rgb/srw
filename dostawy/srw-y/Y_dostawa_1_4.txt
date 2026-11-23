@@ -1,0 +1,1742 @@
+---
+SKRYPT
+---
+
+# Misja 1-4: Drzwi stają otworem
+
+---
+
+### Mapa taktyczna
+
+**Takuma Nagare:** Jazda! Że to trening, to nie znaczy, że wolno się obijać!
+
+**Gauma:** Nieźle, drużyno Gettera! Nie możemy być gorsi, Koyomi!
+**Koyomi Yamanaka:** Eee… z nimi to nie ma porównania…
+**Gauma:** Po to właśnie trenujemy, żeby to zmienić!
+**Chise Asukagawa:** Koyomiii! Dawaaaj!
+**Echika Y. Franburnett:** Drużyna Gaumy i drużyna Gettera bardzo się przykładają.
+**Chise Asukagawa:** Panienka przyszła na inspekcję treningu straży? Dziękujemy za fatygę!
+**Echika Y. Franburnett:** To nie żadna inspekcja. Teraz mam czas prywatny…
+**Echika Y. Franburnett:** Coś mnie trochę niepokoi, więc chciałam się oderwać.
+**Chise Asukagawa:** Czyli panienka chce się trochę oderwać?
+**Echika Y. Franburnett:** Tak… Coś mi chodzi po głowie i próbuję to sobie poukładać…
+**Chise Asukagawa:** To dlatego panienka co rano obchodzi dzielnicę mieszkalną? Żeby się oderwać?
+**Echika Y. Franburnett:** Co…
+**Chise Asukagawa:** Ludzie w mieście gadają. Że panienkę Franburnett, co to wcześniej nosa z rezydencji nie wystawiała, ostatnio widać na każdym kroku.
+**Echika Y. Franburnett:** To… to znaczy…
+**Chise Asukagawa:** Ale spoko, w prywatne sprawy panienki nosa nie wtykam. Niech się panienka rozgląda do woli.
+**Echika Y. Franburnett:** Prawdę mówiąc…
+**Echika Y. Franburnett:** …przyszłam tu również dlatego, że chciałam posłuchać, jak to jest w szkole.
+**Chise Asukagawa:** Nie mówiłam? Ja… nie chodzę do szkoły.
+**Echika Y. Franburnett:** Och…
+**Chise Asukagawa:** To nie przez żadne prześladowania ani nic. Po prostu… jakoś mi się nie chciało.
+**Echika Y. Franburnett:** …Tak jak ja…
+**Chise Asukagawa:** Panienka też olewa szkołę?
+**Echika Y. Franburnett:** Nie tyle olewam… co nigdy nie zostałam do żadnej zapisana…
+**Chise Asukagawa:** Hę…?
+**Echika Y. Franburnett:** Ojciec zapewnił mi warunki do nauki, a przez ostatnie trzy lata uczyła mnie osobiście pani Annina.
+**Chise Asukagawa:** Czyli tak to wygląda u panienek z dobrego domu…
+**Echika Y. Franburnett:** Ale zawsze marzyłam o szkole… Dlatego chciałam ciebie…
+**Chise Asukagawa:** Sorki. Na nic się nie przydam.
+**Echika Y. Franburnett:** N-nie, skąd…! To ja najmocniej przepraszam, panno Chise!
+**Chise Asukagawa:** Jaka tam “panna”. Wystarczy Chise.
+**Echika Y. Franburnett:** Co…
+**Chise Asukagawa:** Panienka sponsoruje drużynę Gaumy, a do tego jesteśmy prawie rówieśniczkami.
+**Echika Y. Franburnett:** W takim razie proszę i do mnie mówić po prostu Echika.
+**Chise Asukagawa:** ………
+**Echika Y. Franburnett:** Czy to niemożliwe?
+**Chise Asukagawa:** Mam jeden warunek…
+**Echika Y. Franburnett:** Jaki?
+**Chise Asukagawa:** Skoro jesteśmy na “ty”, to obie zero grzeczności! Żadnych “proszę uprzejmie” i “czy mogłabym”!
+**Echika Y. Franburnett:** …Dobrze, przyjmuję ten warunek.
+**Chise Asukagawa:** I już wpadka!
+**Echika Y. Franburnett:** D-dobra, Chise.
+**Chise Asukagawa:** Okej! To co, kumpelki, Echika!
+**Echika Y. Franburnett:** Mhm…
+**Yume Minami:** ………
+
+**Yomogi Asanaka:** Przepraszam… spóźniłem się.
+**Yume Minami:** Nieważne, że późno. Ważne, że jesteś.
+**Yomogi Asanaka:** …Ty nie ćwiczysz, Minami?
+**Yume Minami:** …Z tamtym? Nie, dzięki.
+**Show Kamui:** Zostajesz w tyle, Baku! Takuma, więcej precyzji w ruchach!
+**Baku Yamagishi:** Łatwo ci mówić! Więcej z siebie nie wycisnę!
+**Takuma Nagare:** Kamui! Jak się tak mądrzysz, to pokaż, jak to się robi!
+**Show Kamui:** Dobrze. Uciszę cię tym, co potrafię.
+
+**Yomogi Asanaka:** No tak…
+**Yume Minami:** …Przepraszam za tamto. Że złamałam obietnicę.
+**Yomogi Asanaka:** …Czemu to zrobiłaś?
+**Yume Minami:** ………
+**Yomogi Asanaka:** Albo nie, nieważne…
+**Yume Minami:** …Jesteś zły?
+**Yomogi Asanaka:** …Nie. Po prostu… przegapiłem moment.
+**Yume Minami:** Przepraszam…
+**Yomogi Asanaka:** ………
+**Yume Minami:** ………
+**Yomogi Asanaka:** ………
+**Yume Minami:** Wiesz… kiedy byłam w podstawówce, umarła mi siostra…
+**Yomogi Asanaka:** Co…
+**Yume Minami:** W wypadku… Zginęła przy tamtej śluzie…
+**Yomogi Asanaka:** *(Minami często przesiaduje sama przy śluzie… Może właśnie dlatego…)*
+**Yume Minami:** Przepraszam… Nagle wyskoczyłam z takim dziwnym tematem…
+**Yomogi Asanaka:** Słuchaj, Minami…
+**Yume Minami:** Co?
+**Yomogi Asanaka:** Lubiłaś ją…? Swoją siostrę?
+**Yume Minami:** …Nie. Nie przepadałam za nią.
+**Yume Minami:** …Ale teraz… sama nie wiem…
+**Yomogi Asanaka:** ………
+
+**Echika Y. Franburnett:** …Słucham.
+**Annina Servania:** Przepraszam, że przeszkadzam panience w odpoczynku! Mamy sytuację alarmową!
+**Annina Servania:** Rząd Japonii wystosował wezwanie do bezwarunkowego udostępnienia A. Adventu!
+**Chise Asukagawa:** Czyli mamy im oddać A. Advent?!
+**Echika Y. Franburnett:** A więc ta chwila w końcu nadeszła…
+**Echika Y. Franburnett:** *(Chyba będę musiała podjąć decyzję szybciej, niż myślałam…)*
+
+### A. Advent - sala konferencyjna
+
+**Annina Servania:** …Tak brzmi wezwanie rządu Japonii.
+**Echika Y. Franburnett:** Przekazać A. Advent rządowi w ciągu 48 godzin…
+**Echika Y. Franburnett:** Bezpieczeństwo mieszkańców gwarantują, ale mieszkania i reszta warunków życia… nic nie ustalono…
+**Takuma Nagare:** Żarty sobie stroją?! To zwykłe wymuszenie!
+**Koyomi Yamanaka:** Pani przewodnicząca mówiła kiedyś… że dopóki coś nie godzi w dobro publiczne, własności prywatnej nie można przejąć…
+**Echika Y. Franburnett:** Tak… Sądząc po dotychczasowych przypadkach, tak właśnie powinno być.
+**Echika Y. Franburnett:** Walczyliśmy z terrorystami i wrogami ludzkości, ale wyłącznie w samoobronie. To nie były działania wymierzone w społeczeństwo.
+**Echika Y. Franburnett:** Komendant Jin z Laboratorium Saotome również się za nami wstawił.
+**Kamui:** Słowo komendanta powinno się liczyć także dla rządu…
+**Baku Yamagishi:** A jednak rząd chce odebrać nam A. Advent.
+**Takuma Nagare:** Mają przed nosem taki skarb. Nie wytrzymali i pokazali prawdziwą twarz.
+**Chise Asukagawa:** Echika… mogę o coś zapytać?
+**Koyomi Yamanaka:** Chise… “Pani przewodnicząca”, dobrze?
+**Echika Y. Franburnett:** Nic nie szkodzi, panie Koyomi. …Proszę, Chise.
+**Chise Asukagawa:** To nie będę się krępować.
+**Chise Asukagawa:** Słuchaj… nie do końca łapię. To nie rząd Nowej Federacji Ziemskiej, tylko japoński tego żąda?
+**Yomogi Asanaka:** Też się nad tym zastanawiałem.
+**Yomogi Asanaka:** Bo jak się mówi “rząd”, to chodzi chyba o Nową Federację Ziemską, która ma jednoczyć ludzkość…?
+**Echika Y. Franburnett:** Minęło pół roku, odkąd po wojnie rewolucyjnej Federację Ziemską przekształcono w Nową Federację Ziemską…
+**Echika Y. Franburnett:** Rząd Nowej Federacji Ziemskiej wyciągnął wnioski z przeszłości: osłabił scentralizowane struktury, skłonne do samowoli, podzielił kraj na mniejsze jednostki administracyjne i dał im uprawnienia.
+**Echika Y. Franburnett:** To tak zwane jednostki administracyjne drugiego szczebla… odpowiedniki dawnych państw.
+**Koyomi Yamanaka:** I tym właśnie jest rząd Japonii, tak…?
+**Echika Y. Franburnett:** Ten podział miał znaczenie już w dawnej Federacji Ziemskiej.
+**Chise Asukagawa:** Wiem. Gundam Fight, nie?
+**Echika Y. Franburnett:** Właśnie. Wojna zastępcza dawnych państw o liczbę miejsc w Zgromadzeniu Federacji Ziemskiej…
+**Echika Y. Franburnett:** To właśnie turnieje Gundam Fight pozwalały Federacji Ziemskiej równoważyć wewnętrzne rozgrywki polityczne.
+**Echika Y. Franburnett:** Oprócz tego istniały też potężne państwa, takie jak Święte Imperium Britannii…
+**Yume Minami:** Ale ten Gundam Fight…
+**Echika Y. Franburnett:** Tak… Po serii incydentów, do których doszło przy okazji 13. turnieju, postanowiono poddać przegląd same zawody.
+**Kamui:** Chodzi o tak zwany incydent z Dark Gundamem.
+**Echika Y. Franburnett:** Dlatego wszystkie prawa, które przysługiwały zwycięskiemu państwu, również unieważniono.
+**Takuma Nagare:** Najgorzej musiał to przełknąć rząd Japonii. Wygrali Gundam Fight, wszystko miało się dopiero zacząć…
+**Baku Yamagishi:** A wcześniej Święte Imperium Britannii ciągle wtrącało się im w sprawy wewnętrzne.
+**Yomogi Asanaka:** I właśnie przeciw temu walczyli Czarni Rycerze.
+**Echika Y. Franburnett:** Wojna britannijskich Titans z przeciwnymi im AEUG i Czarnymi Rycerzami…
+**Echika Y. Franburnett:** Wojna domowa w Federacji Ziemskiej przerodziła się w końcu w wojnę rewolucyjną i świat się odmienił.
+**Baku Yamagishi:** Japonia miała przewodzić nowemu światu, a tu nagle unieważniają Gundam Fight.
+**Annina Servania:** Z tych względów nie można wykluczyć, że chcą zdobyć A. Advent jako siłę, która zastąpi to, co stracili.
+**Yomogi Asanaka:** Siłę…? Znowu będzie wojna…?
+**Chise Asukagawa:** Eee tam. Wszyscy mają już wojen powyżej uszu.
+**Chise Asukagawa:** Wielkie starcie Ziemi z kosmosem też przepadło, odkąd Cesarza Tyrana sprzątnięto w zamachu.
+**Echika Y. Franburnett:** W kosmosie Neo Zeon skupił wokół siebie kolonie i pokojowo zabiega o szerszą autonomię.
+**Echika Y. Franburnett:** Zważywszy na dotychczasową historię, zapewne nie wszystko pójdzie gładko, ale…
+**Echika Y. Franburnett:** …faktem jest, że wojna rewolucyjna odmieniła ludzkie myślenie.
+**Chise Asukagawa:** Treize Khushrenada i Milliardo Peacecraft…
+**Echika Y. Franburnett:** Obecny pokój zawdzięczamy im oraz wielu innym, którzy na różne sposoby próbowali zmienić świat.
+**Takuma Nagare:** Jakoś mi nie leży, że o tych, co rozpętali wojnę, mówi się jak o wielkich ludziach…
+**Baku Yamagishi:** Zgadzam się. Pokój pokojem, ale zmarli od tego nie wrócą.
+**Echika Y. Franburnett:** Tak…
+**Gauma:** Co było, minęło. Teraz liczy się to, co dalej.
+**Echika Y. Franburnett:** Obecnie A. Advent płynie do Tokio na rozmowy.
+**Echika Y. Franburnett:** Zebrałam was, żeby naradzić się, jak odpowiedzieć rządowi.
+**Takuma Nagare:** Sprawa jasna! Olać ich!
+**Gauma:** A jak będą się rzucać, to im pokażemy!
+**Annina Servania:** …Tak też myślałam, że do tego dojdzie…
+**Yomogi Asanaka:** Jak się pyta o radę taką ekipę, to tak się to kończy…
+**Echika Y. Franburnett:** ………
+**Chise Asukagawa:** Echika… ty już chyba wiesz, co zrobisz, co?
+**Echika Y. Franburnett:** Widać…?
+**Chise Asukagawa:** Masz to wypisane na twarzy.
+**Echika Y. Franburnett:** …Jeszcze się waham.
+**Yomogi Asanaka:** A właśnie, gdzie jest Cross…?
+**Yume Minami:** Na treningu też nie było…
+**Annina Servania:** Podobno ma coś do załatwienia i nie bierze udziału w tym spotkaniu.
+**Gauma:** Ważą się losy A. Adventu, a ten gdzieś się szwenda…
+**Agent:** …?!
+**Agent:** To ty!
+**Cross Tsukinowa:** Kiedy się zorientujesz, będzie już za późno…
+**Cross Tsukinowa:** Ninja Art: Yumihari. Jednym cięciem.
+**Cross Tsukinowa:** *(Wbudowali samozniszczenie, żeby zatrzeć ślady…)*
+**Cross Tsukinowa:** *(To już ósmy podejrzany… Albo raczej, skoro to androidy, ósma sztuka.)*
+**Cross Tsukinowa:** *(Wkradają się na A. Advent razem z nowymi mieszkańcami…)*
+**Cross Tsukinowa:** *(Czego oni tu, do diabła, szukają…?)*
+**Cross Tsukinowa:** Ani kroku…!
+**Domon:** …Nie jestem twoim wrogiem.
+**Cross Tsukinowa:** Domon… Domon Kasshu?
+**Domon:** Kopę lat, Cross Tsukinowa. Przy incydencie z Dark Gundamem wiele ci zawdzięczam.
+**Cross Tsukinowa:** Daruj sobie. Wykonywałem tylko misję.
+**Domon:** Mimo to dzięki tobie i Haze udało się zapobiec najgorszemu.
+**Cross Tsukinowa:** Daj spokój… Dark Gundama pokonaliście wy dwoje.
+**Cross Tsukinowa:** Wie o tym cały świat.
+**Domon:** Ale żeby spotkać cię na tym okręcie… Misja?
+**Cross Tsukinowa:** Tylko dla misji się ruszam.
+**Cross Tsukinowa:** Choć tym razem to coś zupełnie innego niż zadania, które Haze dostawało do tej pory.
+**Cross Tsukinowa:** A ty, jak widzę, przychodzisz na zlecenie japońskiego rządu.
+**Domon:** Przed tobą nic się nie ukryje… Zgadza się.
+**Domon:** Rząd zlecił mi zbadać, co się dzieje na tym okręcie.
+**Cross Tsukinowa:** Przysyłać na przeszpiegi gościa, którego zna cały świat? Ktoś tam chyba postradał zmysły.
+**Cross Tsukinowa:** A w razie potrzeby masz przejąć okręt od środka…
+**Domon:** ………
+**Chise Asukagawa:** Co, serio?! Domon Kasshu!
+**Koyomi Yamanaka:** Zwycięzca 13. turnieju Gundam Fight! Sam Król Kier!
+**Chise Asukagawa:** I facet od Wyznania Miłości Stulecia!
+**Domon:** Hm, hmm…
+**Cross Tsukinowa:** No widzisz? Mogłeś się chociaż przebrać.
+**Yomogi Asanaka:** Cross… ty znasz Domona Kasshu?
+**Cross Tsukinowa:** A jakże. Może nie wyglądam, ale znam masę ludzi.
+**Cross Tsukinowa:** Domon to kumpel… Ziomal nad ziomale, kumpel na sto dwa!
+**Domon:** *(Ty… zmieniłeś się jakoś?)*
+**Cross Tsukinowa:** *(Nie pytaj.)*
+**Cross Tsukinowa:** No to co was tu sprowadza, Yomogi?
+**Yomogi Asanaka:** Przyszliśmy po ciebie, Cross. Echika chce się z tobą naradzić.
+**Cross Tsukinowa:** Wybaczcie. Chciałem coś przemyśleć, więc wyłączyłem łączność.
+**Cross Tsukinowa:** Nadajnik zostawiłem włączony, więc nie marudźcie.
+**Chise Asukagawa:** Gdyby nie on, nigdy byśmy cię nie znaleźli.
+**Cross Tsukinowa:** Przekażcie Echice, że jak załatwię swoje sprawy, przyjdę do sztabu.
+**Koyomi Yamanaka:** Jasne, przekażemy.
+**Chise Asukagawa:** Domon…
+**Domon:** Co?
+**Chise Asukagawa:** Jestem twoją wielką fanką! Czekam na dzień, kiedy znowu zobaczę walkę!
+**Domon:** Aha…
+**Chise Asukagawa:** No to szczęścia z Rain!
+**Domon:** ………
+**Cross Tsukinowa:** Pogódź się z tym. Dla całego świata jesteś facetem od Wyznania Miłości Stulecia.
+**Domon:** Chwila…! To nie…!
+**Cross Tsukinowa:** Dość gadania. Jeśli zagrażasz A. Adventowi, przetnę nawet ciebie.
+**Domon:** Cross…
+**Cross Tsukinowa:** Nie liczę na łatwe zwycięstwo… Ale NINJA nie zna porażki.
+**Domon:** Zaczekaj. Ja… nie przyjąłem zlecenia od rządu.
+**Cross Tsukinowa:** …Mów dalej.
+**Domon:** Z tym, jak rząd teraz działa, coś jest nie tak.
+**Domon:** Nie… nie tylko w Japonii. Powoli, ale coś zaczyna się wypaczać.
+**Cross Tsukinowa:** No proszę, Sojusz Shuffle, strażnik światowego pokoju… Nosa ci nie brakuje.
+**Cross Tsukinowa:** Skoro to rozumiesz, chyba nie mamy powodu się bić.
+**Domon:** Miałem chwilę, żeby przyjrzeć się temu miastu.
+**Cross Tsukinowa:** ………
+**Domon:** Ludzie żyją tu pełnią życia… Do spokoju może jeszcze daleko, ale te uśmiechy trzeba chronić.
+**Domon:** Ktoś, z kim tu przyszedłem, chyba czuje to samo.
+**Cross Tsukinowa:** Ktoś jeszcze się tu wkradł?
+**Rain:** Dawno się nie widzieliśmy, Cross Tsukinowa.
+**Cross Tsukinowa:** Rain Mikamura… Ty też tutaj?
+**Cross Tsukinowa:** Masz szczęście, Domon! Gdyby zobaczyli cię z Rain, nie skończyłoby się na takim zamieszaniu!
+**Rain:** Cross…?
+**Domon:** Nie przejmuj się, Rain. Ten tu to chyba nie do końca ten Przywódca Haze, którego znamy.
+**Rain:** Aha…
+**Novey Dickens:** Jest, jest…! Panna Rain Mikamura!
+**Domon:** A to kto…?
+**Rain:** Zaczepił mnie przed chwilą w mieście… Myślałam, że go zgubiłam…
+**Novey Dickens:** Oj, niech pani nie będzie taka oziębła. Skoro znów na siebie wpadliśmy, to chyba zrządzenie losu.
+**Novey Dickens:** Więc przepraszam, że chodzę za panią krok w krok… ale to nie ja, to los mnie prowadzi!
+**Mina Narive:** Kapitanie, niech pan przestanie! Podrywać kobiety, co za wstyd!
+**Novey Dickens:** Przecież nie jestem już kapitanem. Daruj sobie ten tytuł, Mina.
+**Novey Dickens:** A to nie podryw, tylko wywiad…! Muszę się dowiedzieć, jak bije serce kobiety, która słyszy takie gorące wyznanie!
+**Novey Dickens:** A przy okazji może jakieś kulisy incydentu z Dark Gundamem…
+**Domon:** Podziękujemy.
+**Mina Narive:** Domon Kasshu…!
+**Novey Dickens:** A to ci gratka! Zrobimy wywiad z zaskoczenia z panem Domonem i panną Rain naraz!
+**Rain:** Ten płaszcz… to płaszcz kapitana Sił Federacji Ziemskiej, prawda? Co pan tu robi?
+**Novey Dickens:** A, to…
+**Novey Dickens:** Odszedłem z wojska, ale lubię ten materiał, więc go noszę. Widzi pani? Żadnych dystynkcji.
+**Mina Narive:** Bez tego płaszcza wygląda jak zwykły nieudacznik w średnim wieku, więc trudno, toleruję.
+**Rain:** Aha…
+**Domon:** Wojna się skończyła, a ludzie, którzy odeszli z wojska, szukają nowego życia… To dobrze.
+**Cross Tsukinowa:** *(Ten emblemat oddziału…)*
+**Domon:** Cross…?
+**Cross Tsukinowa:** Ej, ty.
+**Novey Dickens:** Słucham…?
+**Cross Tsukinowa:** Po co wszedłeś na pokład A. Adventu?
+**Novey Dickens:** A, no… Słyszałem, że tu kto chce, niech przychodzi…
+**Novey Dickens:** Ale niedługo wysiadam, więc proszę sobie mną głowy nie zawracać.
+**Mina Narive:** Dlaczego, kapitanie?! Przecież tu na pewno znalazłby pan pracę!
+**Novey Dickens:** No cóż… Skoro raz udało mi się ocalić skórę, szkoda by ją tu stracić…
+**Cross Tsukinowa:** Co masz na myśli?
+**Novey Dickens:** Widziałem, jak tu się walczy. Ten okręt… długo nie pociągnie.
+**Novey Dickens:** Dobrze radzę, młody człowieku: jeśli życie ci miłe, też zmykaj stąd, póki czas.
+**Rain:** Wybuch…?!
+**Domon:** Atak spoza kopuły…!
+**Novey Dickens:** Ojoj… Chyba za późno na ucieczkę…
+
+### Mapa taktyczna
+
+**Annina Servania:** Nadciąga niezidentyfikowany oddział wroga! Sądząc po składzie, to organizacja terrorystyczna, która zaatakowała miasto Yagami… zapewne VAL-X!
+**Echika Y. Franburnett:** Ostatecznie ich tożsamość i cel pozostały zagadką…
+**Annina Servania:** Panienko, proszę o rozkazy.
+**Echika Y. Franburnett:** Y-yyy… ja…
+**Annina Servania:** …Wiem, że panienkę niepokoi dowodzenie w walce.
+**Echika Y. Franburnett:** Symulacja to nie prawdziwa walka… Boleśnie się o tym przekonuję…
+**Annina Servania:** Mimo to A. Advent słucha słów panienki Echiki. Proszę zdecydować.
+**Echika Y. Franburnett:** …Przechwycimy ich, żeby miasto nie ucierpiało.
+
+**Gauma:** Spokojnie, Echika! Obronimy A. Advent!
+**Echika Y. Franburnett:** To za mało, panie Gaumo! Proszę chronić także Tokio!
+**Takuma Nagare:** Hojnie! Tak ma gadać prawdziwa panienka!
+
+**Chise Asukagawa:** To Burning Gundam!!
+**Koyomi Yamanaka:** Czyli…!
+**Yomogi Asanaka:** Domon Kasshu przybył nam na pomoc…!
+**Domon Kasshu:** A. Advent, pomogę wam.
+**Echika Y. Franburnett:** Dziękuję bardzo, panie Kasshu.
+**Domon Kasshu:** Mówię to tak, do siebie…
+**Domon Kasshu:** Jeśli obronicie tu Tokio, rząd może zmienić zdanie…
+**Echika Y. Franburnett:** Dziękuję za troskę.
+**Takuma Nagare:** To jest Król Kier… Domon Kasshu…
+**Baku Yamagishi:** Ciekawi cię?
+**Takuma Nagare:** Jak słyszę o silnym gościu, to mnie ciągnie…! Pokażę mu moc Arc!
+**Show Kamui:** Nie mieszaj nas w swoje żałosne popisy.
+**Takuma Nagare:** Co powiedziałeś?
+**Show Kamui:** Ale nie pozwolę, by lekceważono moc Gettera.
+**Takuma Nagare:** Czyli po prostu “zrób to”. Mogłeś tak od razu powiedzieć!
+
+**Koyomi Yamanaka:** Ale mają zapał…
+**Gauma:** Nie damy się!
+
+**Echika Y. Franburnett:** Wszystkie jednostki: przechwycić siły, prawdopodobnie VAL-X! Obrońcie miasto!
+**Rain Mikamura:** Mój Rising Gundam ma na pokładzie układ naprawczy.
+**Rain Mikamura:** Uszkodzone maszyny mogę doraźnie naprawić.
+**Gauma:** Super! Będziemy na ciebie liczyć!
+**Domon Kasshu:** Nie wiem, skąd się wzięliście, ale kto zakłóca spokój świata, ten ma do czynienia ze mną!
+
+**Takuma Nagare:** Jazda, Kamui, Baku! Pierwsza prawdziwa walka Gettera Arc!
+**Show Kamui:** Ostatni Getter Robo, zaprojektowany i zbudowany przez doktora Saotome, któremu udało się zamienić w energię niekończący się deszcz promieni Gettera…
+**Show Kamui:** Oto Getter Arc.
+**Show Kamui:** Cechą Getter Robo jest to, że w walce błyskawicznie zmienia specjalizację zależnie od sytuacji.
+**Show Kamui:** Arc, forma zrównoważona…
+**Takuma Nagare:** Główny pilot to ja!
+**Show Kamui:** Szybkim Kirikiem zajmę się ja. Silny Khan przypada tobie, Baku.
+**Baku Yamagishi:** Załatwione!
+**Takuma Nagare:** Baku! Pokażmy im, czego się nauczyliśmy!
+**Show Kamui:** Jeśli zrobi się źle, wycofujemy się. Na razie jesteście tylko obietnicą.
+**Baku Yamagishi:** Nie… coś nas tu przyprowadziło.
+**Takuma Nagare:** Kamui! Ty lepiej sam nie bądź kulą u nogi!
+**Show Kamui:** Nie przynieś wstydu.
+**Takuma Nagare:** Nie gadaj jak komendant Jin!
+**Show Kamui:** W żargonie pilotów Gettera “przynieść wstyd” znaczy zginąć.
+**Takuma Nagare:** Heh… Czyli komendant na swój sposób się o mnie martwił…
+**Takuma Nagare:** Ale słuchaj, Kamui! Jeśli ja przyniosę wstyd, to ty i Baku razem ze mną!
+**Show Kamui:** Co…?
+**Takuma Nagare:** Szykuj się, Kamui! Od teraz żyjemy razem i giniemy razem!
+
+**Yume Minami:** Ale ich dużo…
+**Yomogi Asanaka:** Co Cross w takiej chwili wyprawia…
+
+**Yume Minami:** Ale ich dużo…
+**Yomogi Asanaka:** W takiej chwili… Co Cross w ogóle robi…
+
+**Echika Y. Franburnett:** *(Im więcej walk, tym większy niepokój…)*
+**Echika Y. Franburnett:** *(Pod moim dowództwem A. Advent nie pokaże pełni swoich możliwości… Jeśli tak dalej pójdzie…)*
+
+**Annina Servania:** Wrogie posiłki za A. Adventem!
+
+**Annina Servania:** Ach!
+**Takuma Nagare:** Trzymaj się, Echika! Zaraz wracamy!
+**Echika Y. Franburnett:** Nie wolno! Jeśli na oślep rozbijecie linię frontu, dacie wrogowi okazję!
+**Baku Yamagishi:** Racja, ale…
+**Echika Y. Franburnett:** A. Advent wytrzyma! Skupcie się na rozbiciu wroga na pierwszej linii!
+**Gauma:** Dobra! Ale nie szarżuj!
+**Echika Y. Franburnett:** Nie szarżować…
+**Echika Y. Franburnett:** Mimo wszystko muszę to zrobić…!
+**Annina Servania:** Panienko…
+
+**Echika Y. Franburnett:** Odciągniemy wroga! A. Advent, naprzód!
+
+**Annina Servania:** Siły Federacji przysłały pomoc…?!
+**Echika Y. Franburnett:** Nie! To są…!
+
+**Gauma:** Ci też są wrogami?!
+**Annina Servania:** Po wojnie rewolucyjnej Lumenusy bardzo się rozpowszechniły, więc zdarza się, że używają ich terroryści…!
+**Domon Kasshu:** Niedobrze! Przyczepili się!
+**Rain Mikamura:** Jeśli tak dalej pójdzie, A. Advent…!
+
+### A. Advent - mostek
+
+**Echika Y. Franburnett:** Aaaach!!
+**Cross Tsukinowa:** Echika, nic ci nie jest?!
+**Echika Y. Franburnett:** Cross…!
+**Novey Dickens:** Oj, oj… Okręt może mieć nie wiem jak gruby pancerz, a i tak nie wolno dopuszczać do niego wrogich maszyn.
+**Novey Dickens:** Właśnie dlatego trzeba stale współdziałać z własnymi maszynami.
+**Annina Servania:** Kto to w ogóle jest…?
+**Cross Tsukinowa:** Zbawca A. Adventu.
+**Novey Dickens:** …Ja tu zostałem przyprowadzony siłą, jakby co…
+**Cross Tsukinowa:** Przejmij dowodzenie A. Adventem.
+**Novey Dickens:** Ależ skąd…! Jestem tylko przechodzącym tędy facetem w średnim wieku!
+**Cross Tsukinowa:** 31. Samodzielny Korpus…
+**Novey Dickens:** ………
+**Cross Tsukinowa:** Boisz się, że znowu stracisz okręt?
+**Novey Dickens:** …Nie żeby od razu…
+**Cross Tsukinowa:** To się pospiesz. Chyba nie chcesz zginąć.
+**Novey Dickens:** ………
+**Echika Y. Franburnett:** Cross…
+**Cross Tsukinowa:** Echika… Starasz się, to pewne. Przyznaję.
+**Cross Tsukinowa:** Ale kiedy jest ciężko, oprzyj się na innych. Nie dźwigaj wszystkiego sama.
+**Echika Y. Franburnett:** Dobrze…
+**Novey Dickens:** No wie panienka… Nie chodzi o to, że panienka źle dowodzi. Po prostu na polu bitwy rzadko bywa jak w podręczniku.
+**Novey Dickens:** Normalnie człowiek uczy się tego latami, ale w dzisiejszych czasach nikt mu na to nie da czasu…
+**Echika Y. Franburnett:** W takim razie… czy pan obejmie dowodzenie?
+**Novey Dickens:** To…
+**Echika Y. Franburnett:** ………
+**Novey Dickens:** …A pensja będzie?
+**Echika Y. Franburnett:** Będzie!
+**Novey Dickens:** Na to czekałem! …Mina!
+**Mina Narive:** Tak jest…!
+**Novey Dickens:** Okręt jest zautomatyzowany, ale… dasz radę go obsługiwać?
+**Mina Narive:** Jeśli taki pana rozkaz, kapitanie, to dam radę!
+**Novey Dickens:** Liczę na ciebie.
+**Cross Tsukinowa:** No to reszta należy do ciebie!
+**Novey Dickens:** Ha, ha… Tylko proszę nie oczekiwać cudów.
+
+### Mapa taktyczna
+
+**Cross Tsukinowa:** Trzeba grać na zwłokę, dopóki staruszek się nie przygotuje!
+
+**Cross Tsukinowa:** To…!
+
+**Domon Kasshu:** Jesteś, Heero Yuy!
+**Heero Yuy:** ………
+
+**Cross Tsukinowa:** Czyli to jego przysłali oprócz ciebie…
+**Domon Kasshu:** Widzę, że wciąż nie dogadujesz się z Heero.
+**Cross Tsukinowa:** Nie znoszę typów, po których nie wiadomo, co myślą.
+**Domon Kasshu:** Bo jesteście do siebie podobni.
+
+**Heero Yuy:** Nie chcę narażać miasta. Nie użyję Buster Rifle.
+**Domon Kasshu:** Dobrze. Zostawiam to tobie.
+
+**Cross Tsukinowa:** Dzięki, Heero. Chyba dzięki tobie zdążyliśmy się przygotować.
+**Heero Yuy:** Przygotować…?
+**Cross Tsukinowa:** Patrz.
+
+**Mina Narive:** Sterowanie poszczególnymi systemami… z grubsza opanowane!
+**Novey Dickens:** Dobra robota. Jak zawsze niezawodna, Mina.
+**Novey Dickens:** A zatem, panienko… proszę przekazać dowodzenie mnie, Noveyowi Dickensowi.
+**Echika Y. Franburnett:** …Dobrze…
+**Novey Dickens:** A, jeszcze słówko…
+**Novey Dickens:** Jestem tu tylko najemnikiem, więc tak zwanej odpowiedzialności brać na siebie nie zamierzam.
+**Novey Dickens:** Toteż walką się zajmę, ale decyzje taktyczne zostawiam panience.
+**Echika Y. Franburnett:** Zgoda.
+**Echika Y. Franburnett:** W takim razie przekazuję dowodzenie bojowe A. Adventem Noveyowi Dickensowi.
+
+**Mina Narive:** Co…? Co jest…?
+**Novey Dickens:** Coś się stało, Mina?
+**Mina Narive:** Moc okrętu… nagle wzrosła o 20％…
+**Annina Servania:** Funkcje Systemu Nira-Kana-I, rdzenia A. Adventu, nie zostały w pełni poznane.
+**Annina Servania:** Należy więc przypuszczać, że i coś takiego może się zdarzyć.
+**Novey Dickens:** Gdyby spadła o 20％, wpadłbym w panikę, ale skoro wzrosła, po prostu się cieszę.
+**Mina Narive:** Do tego uruchamia się uzbrojenie, którego dotąd nie używano.
+**Novey Dickens:** Bez próby generalnej, ale co tam, spróbujmy na luzie.
+**Echika Y. Franburnett:** Proszę, kapitanie Novey.
+**Annina Servania:** *(Czyżby Nira-Kana-I ustabilizował się dlatego, że uspokoiła się panienka, którą niepokoiło dowodzenie w walce…?)*
+
+**Cross Tsukinowa:** *(Moc A. Adventu się ustabilizowała…)*
+**Cross Tsukinowa:** *(Teraz zadziała też łącze energetyczne z Lunedrache.)*
+
+**Echika Y. Franburnett:** Wszystkie jednostki: bronić A. Adventu i wspólnie przechwycić wroga!
+**Novey Dickens:** No to tyle. Liczę na was.
+**Novey Dickens:** Aha, i proszę z całych sił chronić panienkę i mnie.
+**Gauma:** Jasne! Zostawcie to nam!
+**Takuma Nagare:** Ej, skrzydlaty Gundamie! Wrogowie przy A. Advencie są twoi!
+**Heero Yuy:** ………
+**Takuma Nagare:** Ale mruk. Taki sam jak Kamui.
+**Show Kamui:** Słyszę cię, Takuma.
+**Echika Y. Franburnett:** Nie ma czasu na pogawędki! Wszystkie jednostki, rozpocząć atak!
+
+**Cross Tsukinowa:** Przyjąłem! Jazda, wszyscy!
+
+**Cross Tsukinowa:** Jak zwykle ani słowa o swoich sprawach…
+**Domon Kasshu:** Ty, z Tajnych Sił Specjalnych, nie jesteś lepszy.
+**Cross Tsukinowa:** Trafiony.
+**Cross Tsukinowa:** Zaprowadzę cię na A. Advent, Domon. Chcę, żebyś poznał naszą panienkę Echikę.
+**Domon Kasshu:** Dobrze. Chcę też pomówić o tym, co dalej.
+**Cross Tsukinowa:** *(Nadal nie wiadomo, czego chce VAL-X, ale najpierw trzeba się zająć rządem…)*
+
+**Gauma:** Coście za jedni?! Przedstawcie się!
+**Yomogi Asanaka:** Na nic, Gauma. To bezzałogowce.
+**Gauma:** Tym bardziej wkurza mnie ten, kto przysłał takich gburów…!
+**Gauma:** Jazda, ekipa! Jak to nieme maszyny, to po prostu je rozwalimy!
+
+**Takuma Nagare:** Świetna okazja! Rozwalimy terrorystów i rząd będzie musiał uznać A. Advent!
+**Baku Yamagishi:** Ty, Takuma, jeszcze przesadzisz i wpiszą cię na listę groźnych typów.
+**Takuma Nagare:** To nawet lepiej! Dwa razy się zastanowią, zanim nas tkną!
+
+**Domon Kasshu:** *(Wypaczenie rozlewa się po świecie… Czy zdołam je powstrzymać…?)*
+**Domon Kasshu:** *(Wahanie tępi pięść…! Teraz tylko naprzód!)*
+**Domon Kasshu:** *(Patrz, Mistrzu…! Będę walczył godnie miana Króla Kier!)*
+
+**Rain Mikamura:** *(Stracił Mistrza, Gundam Fight zawieszono… Domon błądzi w wątpliwościach…)*
+**Rain Mikamura:** *(Będę walczyć u boku Domona…! Razem powstrzymamy wypaczenie świata!)*
+
+**Echika Y. Franburnett:** *(Symulacja to nie prawdziwa walka… Nie potrafię wydobyć z A. Adventu jego mocy…)*
+**Echika Y. Franburnett:** *(Ale muszę to zrobić… To misja, którą mi powierzono…)*
+
+**Novey Dickens:** Jakie rozkazy, panienko?
+**Echika Y. Franburnett:** Proszę odpowiedzieć ogniem na wrogie maszyny przed nami.
+**Novey Dickens:** Przyjąłem. W takim razie broń i resztę dobiorę sam.
+**Novey Dickens:** Uff, ile roboty… Najchętniej zostawiłbym wszystko maszynom…
+**Mina Narive:** Kapitanie!
+**Novey Dickens:** Wiem, wiem, Mina. Przed negocjacjami płacowymi nie mogę się tu obijać!
+
+**Cross Tsukinowa:** *(Czyli o to chodziło, że funkcje Lunedrache są powiązane z urodzinowym prezentem dla Echiki…)*
+**Cross Tsukinowa:** *(Ten stary drań…! Jak już kogoś o coś prosi, mógłby porządnie wytłumaczyć…!)*
+
+**Heero Yuy:** *(Zero System ostrzega… Ale sytuacja jest zbyt niepewna…)*
+**Heero Yuy:** *(Co ma się wydarzyć…? I w samym środku tego jest…)*
+**Heero Yuy:** *(…ten okręt?)*
+
+**Cross Tsukinowa:** Ach!
+
+**Ru Negsis:** Rozumiem… rozumiem…
+**Ru Negsis:** A więc to jednak jest klucz…
+**Mina Narive:** Potwierdzam zniszczenie wszystkich wrogich jednostek.
+**Novey Dickens:** Na wszelki wypadek proszę utrzymać stan gotowości.
+**Mina Narive:** Tak jest.
+**Gauma:** Tak jest! Obroniliśmy i A. Advent, i Tokio!
+**Takuma Nagare:** Jak dalej będą mieli do nas pretensje, to się z nimi rozprawimy do samego końca!
+**Yomogi Asanaka:** Takie podejście… chyba nie jest najlepsze…
+**Takuma Nagare:** Zamknij się, Yomogi! Jak będziesz marudził, wyżrę wszystkie onigiri z Yuri Martu!
+**Yomogi Asanaka:** Jak zapłacisz, to proszę bardzo.
+**Gauma:** W każdym razie! Pierwsza walka straży obywatelskiej A. Adventu to wielkie zwycięstwo!
+**Show Kamui:** Straż obywatelska A. Adventu…
+**Yume Minami:** Obciach…
+**Novey Dickens:** Ha, ha… Zebrała się tu niezła galeria osobowości, nie powiem.
+**Echika Y. Franburnett:** Znakomite dowodzenie, kapitanie Novey.
+**Novey Dickens:** Ależ skąd! Takim wspaniałym okrętem każdy by dowodził tak samo!
+**Novey Dickens:** …Ojej, to zabrzmiało jak przytyk do panienki…
+**Mina Narive:** Kapitanie! Czy pan nie ma za grosz taktu?!
+**Novey Dickens:** Ha, ha… Już nie mogę zabronić Minie mówić do mnie “kapitanie”…
+**Novey Dickens:** Przepraszam panienkę. Lata swoje mam, a człowiekiem wciąż jestem niedojrzałym…
+**Echika Y. Franburnett:** Nie przejmuję się. To fakt, że nie mam talentu do dowodzenia w walce.
+**Echika Y. Franburnett:** Dlatego chcę się wykazać w innych dziedzinach.
+**Novey Dickens:** Wspaniale! Ale decyzje taktyczne zostawiam panience, więc proszę stale przebywać na mostku.
+**Echika Y. Franburnett:** Oczywiście. Liczę na dalszą współpracę.
+**Novey Dickens:** Choć jak długo z wami pobędę, to już tylko Pan Bóg wie…
+**Heero Yuy:** ………
+
+**Domon Kasshu:** Zaczekaj, Heero. Chcę, żebyś dalej z nami współpracował.
+**Heero Yuy:** Działam według własnego osądu.
+**Domon Kasshu:** Co…?
+**Cross Tsukinowa:** Daj spokój, Domon. Nikt go nie powstrzyma.
+**Heero Yuy:** Cross Tsukinowa…
+**Cross Tsukinowa:** Co jest? Jak chcesz na A. Advent, to szepnę Echice słówko.
+**Heero Yuy:** Słyszałem, że przy tym okręcie pojawił się Wufei.
+**Cross Tsukinowa:** A… Chyba kogoś ścigał. Zero.
+**Cross Tsukinowa:** Pokłóciliście się czy co?
+**Heero Yuy:** ………
+
+### A. Advent - sala odpraw
+
+**Echika Y. Franburnett:** Dziękuję bardzo, panie Domonie, pani Rain. Dzięki państwa pomocy A. Advent jest bezpieczny.
+**Domon:** Jeśli pani pozwoli, chcielibyśmy dalej wspierać ten okręt.
+**Echika Y. Franburnett:** To propozycja ponad moje najśmielsze oczekiwania, ale…
+**Rain:** Działamy z Domonem na zlecenie rządu, który chce przejąć ten okręt.
+**Rain:** Ale my sami mamy wątpliwości co do jego metod.
+**Domon:** Dlatego jeśli z wami zostaniemy, możemy meldować, że śledztwo trwa, i pomóc wam zyskać na czasie.
+**Echika Y. Franburnett:** Dziękuję bardzo. Jestem państwu ogromnie wdzięczna za tę życzliwość.
+**Takuma Nagare:** Kto by pomyślał, że będę walczył u boku samego Domona Kasshu.
+**Domon:** Od teraz walczymy razem. Daruj sobie ceregiele.
+**Takuma Nagare:** To opowiedz o swoim mistrzu… o Master Asia.
+**Domon:** O Mistrzu?
+**Takuma Nagare:** Tak jakoś mnie to ciekawi… Nie można?
+**Domon:** Można. Rozmowa o zmarłym Mistrzu to dla mnie radość.
+**Gauma:** Straż obywatelska A. Adventu ma mocne wsparcie!
+**Chise Asukagawa:** Serio zostajemy przy tej nazwie?
+**Gauma:** A co, dziwna?
+**Yume Minami:** Raczej… po prostu słaba.
+**Novey Dickens:** No proszę, jak tak patrzę na wszystkich, to aż dziw bierze, jaki tu przekrój ludzi.
+**Echika Y. Franburnett:** Panie kapitanie, Mina… po zebraniu chciałabym omówić z wami warunki umowy.
+**Echika Y. Franburnett:** Co do zakwaterowania, chciałabym przygotować dla was pokoje w mojej rezydencji…
+**Mina Narive:** Czyli jako pracodawczyni chce pani kontrolować także nasze życie prywatne?
+**Echika Y. Franburnett:** Nie o to mi chodzi, ale…
+**Mina Narive:** W takim razie pozwoli pani, że się zastanowimy.
+**Novey Dickens:** Co się z tobą dzieje, Mina…? Tak zbywać uprzejmość panienki…
+**Mina Narive:** Nic…
+**Cross Tsukinowa:** Co cię łączy z tą małą, staruszku?
+**Mina Narive:** Nazywam się Mina Narive. Mógłbyś nie mówić o mnie “ta mała”?
+**Cross Tsukinowa:** Przyjąłem. W takim razie liczę na dobrą współpracę, Mina.
+**Mina Narive:** J-jeśli rozumiesz, to w porządku…
+**Novey Dickens:** Mina jest moją podwładną jeszcze z czasów wojska.
+**Novey Dickens:** Była świetną operatorką, ale odeszła z wojska razem ze mną i od tamtej pory ma ze mną same kłopoty…
+**Chise Asukagawa:** Czyżby… coś was łączyło?
+**Mina Narive:** Wykluczone.
+**Chise Asukagawa:** No, tak myślałam.
+**Cross Tsukinowa:** *(Czyli to dwoje z garstki ocalałych z 31. Samodzielnego Korpusu…)*
+**Novey Dickens:** *(No… mniej więcej.)*
+**Novey Dickens:** *(Ale muszę przyznać, niespodzianka. Nie sądziłem, że spotkam kogoś, kto wie o 31. Samodzielnym Korpusie…)*
+**Cross Tsukinowa:** *(Obiło mi się o uszy.)*
+**Cross Tsukinowa:** *(Ale spokojna głowa. Nie zamierzam tego rozpowiadać.)*
+**Novey Dickens:** *(Byłbym wdzięczny. Nikt nie chciałby powierzać życia nieudolnemu kapitanowi, który zatopił swój okręt…)*
+**Novey Dickens:** *(A przede wszystkim, gdyby to usłyszała panienka, zbiłaby mi stawkę przy negocjacjach płacowych.)*
+**Cross Tsukinowa:** *(Jasne, jasne…)*
+**Echika Y. Franburnett:** Co się stało, Aytie?
+**Aytie:** Rząd Nowej Federacji Ziemskiej wydaje nadzwyczajne oświadczenie.
+**Aytie:** Przełączam obraz na tamten monitor.
+**Annina Servania:** Nadzwyczajne oświadczenie…
+**Koyomi Yamanaka:** Może… Neo Zeon wypowiada wojnę…?
+**Yomogi Asanaka:** Znowu będzie wojna…?
+**Domon:** Spokojnie. Najpierw wysłuchajmy.
+**Echika Y. Franburnett:** Co takiego ma się wydarzyć…
+
+### Nowa Federacja Ziemska - sala konferencyjna
+
+**Ade:** …Do wszystkich, którzy oglądają tę transmisję. Ja, prezydent Nowej Federacji Ziemskiej Ade Stradio, pragnę wygłosić ważne oświadczenie.
+**Ade:** Od powołania Nowej Federacji Ziemskiej minęło około pół roku…
+**Ade:** …jednak rany wojny rewolucyjnej i ataki istot spoza ludzkości sprawiły, że utrzymanie jej ustroju stało się niemożliwe.
+**Ade:** W związku z tym z dniem dzisiejszym, z tą chwilą, Nowa Federacja Ziemska zostaje rozwiązana.
+**Ade:** Odtąd władza sądownicza, wykonawcza i ustawodawcza przechodzi na jednostki administracyjne drugiego szczebla… dawne państwa.
+**Ade:** Jednocześnie Siły Nowej Federacji Ziemskiej ulegają rozwiązaniu, a ich zasoby zostaną rozdzielone proporcjonalnie do wkładu finansowego każdej z jednostek.
+**Ade:** Ponadto, jako mediator między państwami, powołana zostaje Nowa Liga Narodów.
+**Ade:** Wyłącznie z powodu nieudolności polityków, ze mną na czele, nowy świat już po pół roku musi ponownie zmieniać swój ustrój.
+**Ade:** Nie uważam jednak, by był to krok wstecz ludzkości.
+**Ade:** Gorąco pragnę i zarazem wierzę, że wszyscy, którzy przetrwali wojnę rewolucyjną, przejdą przez drzwi, które właśnie stanęły otworem, i staną się siłą, która zbuduje nowy świat.
+**Ade:** Szczegóły przekażą rządy poszczególnych państw.
+**Ade:** Na zakończenie z całego serca życzę państwu i całemu światu pomyślnego rozwoju.
+**Echika Y. Franburnett:** Nowa Federacja Ziemska… rozwiązana…
+**Kamui:** Rozumiem… To dlatego rząd Japonii tak się spieszył z przejęciem A. Adventu.
+**Yomogi Asanaka:** C-co…? Co teraz z nami będzie…?
+**Cross Tsukinowa:** To już zależy od japońskiego rządu.
+**Annina Servania:** Panienko! Na całym świecie państwo za państwem ogłasza niepodległość!
+**Rain:** Kraje, które kiedyś wcielono do Świętego Imperium Britannii, pewnie skorzystają z okazji, żeby odzyskać autonomię.
+**Koyomi Yamanaka:** Oby któreś nie zaczęło nagle wojny…
+**Takuma Nagare:** No to… zaraz będzie każdy na każdego, jak w epoce Sengoku.
+**Domon:** Chcę wierzyć, że do tego nie dojdzie.
+**Novey Dickens:** A co w tym złego? Wolność!
+**Echika Y. Franburnett:** Wolność…
+**Novey Dickens:** Skoro Nowej Federacji Ziemskiej już nie ma, od teraz każdy sam decyduje o sobie… Wspaniała rzecz, nie ma co.
+**Mina Narive:** Kapitanie…! Takie nieodpowiedzialne gadanie…
+**Novey Dickens:** Mnie wolno być nieodpowiedzialnym. Przecież nic nie mam.
+**Novey Dickens:** Ale ludzie z krajów, które ogłosiły niepodległość, w zamian za wolność wzięli na siebie odpowiedzialność… Należy im się szacunek, ot co.
+**Echika Y. Franburnett:** …Postanowiłam.
+**Annina Servania:** Panienko…
+**Echika Y. Franburnett:** Od dawna rozważałam to w głębi serca. Teraz jestem pewna…
+**Echika Y. Franburnett:** Ja również ogłaszam niepodległość.
+**Yomogi Asanaka:** Co?!
+**Echika Y. Franburnett:** Od dziś ten okręt jest niepodległym państwem… mobilnym miastem-państwem A. Advent.
+**Echika Y. Franburnett:** A straż obywatelska A. Adventu będzie odtąd działać pod nazwą Yz-Next.
+**Yomogi Asanaka:** Yz… Next…?
+**Echika Y. Franburnett:** Świat sprzed wojny rewolucyjnej był wypaczony: silni… zwycięzcy brali wszystko.
+**Echika Y. Franburnett:** Jednak nasza epoka wykracza poza ów “świat zwycięstwa”… To coś zupełnie nowego: świat niewiadomej.
+**Chise Asukagawa:** Victory i World… a do tego niewiadoma, czyli iks. Wychodzi V, W i X!
+**Echika Y. Franburnett:** Dalej w alfabecie są Y i Z… ale na nich nie koniec. Chcę sięgać jeszcze dalej.
+**Yomogi Asanaka:** Stąd “Next”…!
+**Echika Y. Franburnett:** A poza tym przez całe życie szukałam mądrości i uczyłam się.
+**Rain:** Mądrość… Po angielsku “wise”.
+**Echika Y. Franburnett:** Wymowa nie jest ścisła, ale “Yz” niesie właśnie to znaczenie. Chcę zobaczyć, co jest dalej… dokąd prowadzi mądrość.
+**Echika Y. Franburnett:** Nazwa Yz-Next wyraża to postanowienie.
+**Cross Tsukinowa:** Y… rozwidlenie drogi. Pasuje do nas, skoro przyjdzie nam wybierać…
+**Echika Y. Franburnett:** Czy ktoś ma inną propozycję nazwy?
+**Echika Y. Franburnett:** W takim razie… od teraz proszę was o obronę A. Adventu pod nazwą Cross.
+**Yume Minami:** Cross…
+**Gauma:** Dobra nazwa…!
+**Cross Tsukinowa:** Mówisz poważnie, Echika?
+**Echika Y. Franburnett:** Chodziło mi to po głowie, odkąd zażądano przejęcia A. Adventu.
+**Echika Y. Franburnett:** Jeśli ktoś zagraża mojej wolności, stawię mu czoła. Na własną odpowiedzialność.
+**Cross Tsukinowa:** …Dobra. Jestem tu, żeby cię chronić.
+**Cross Tsukinowa:** Więc pójdę za twoją decyzją.
+**Echika Y. Franburnett:** Dziękuję, Cross.
+**Echika Y. Franburnett:** Pani Annino… Proszę przygotować miejsce, gdzie ogłoszę to mieszkańcom.
+**Annina Servania:** Oczywiście.
+**Echika Y. Franburnett:** Posłuchajcie…
+**Gauma:** ………
+**Takuma Nagare:** ………
+**Domon:** ………
+**Echika Y. Franburnett:** Wybieram tę drogę, by chronić własną wolność i to, co mi powierzono.
+**Echika Y. Franburnett:** To moja ostatnia prośba. Użyczcie mi swojej siły.
+**Cross Tsukinowa:** ………
+**Echika Y. Franburnett:** Przysięgam, że dam z siebie wszystko, by uczynić A. Advent krajem dostatku.
+**Echika Y. Franburnett:** Proszę was wszystkich… użyczcie siły mnie i A. Adventowi.
+
+Nowa Federacja Ziemska, która miała dać światu nową nadzieję, rozpadła się zaledwie po pół roku. Zarazem jednak otworzyły się nowe drzwi.
+
+Mobilne miasto-państwo A. Advent… Wybór Echiki pcha ten świat naprzód coraz szybciej. Nikt nie wie, dokąd prowadzi ta droga. Bo przyszłość nie jest przecież przesądzona…
+
+---
+UCZESTNICY
+---
+
+
+### Misja 1-4 — Drzwi stają otworem
+
+**Jednostki gracza:**
+
+  - **Dynazenon** — pilot główny: Gauma
+  - **Burning Gundam** — pilot główny: Domon Kasshu — po przebudzeniu: Burning Gundam
+  - **Getter Arc** — pilot główny: Takuma Nagare — po transformacji: Getter Kirik (pilot: Show Kamui), Getter Khan (pilot: Baku Yamagishi)
+  - **A. Advent** — pilot główny: Echika Y. Franburnett
+  - **Lunedrache** — pilot główny: Cross Tsukinowa
+  - **Rising Gundam** — pilot główny: Rain Mikamura
+  - **Wing Gundam Zero** — pilot główny: Heero Yuy
+
+**Pozostałe grupy:**
+
+  - **AMX-003 Gaza C** — pilot główny: Zaawansowana SI — grupa czerwona 1
+  - **Lumenus** — pilot główny: Zaawansowana SI — grupa czerwona 1
+  - **Taurus** — pilot główny: Mobile doll — grupa czerwona 1
+  - **Zamza-Zah** — pilot główny: Zaawansowana SI — grupa czerwona 1
+
+---
+
+## Dynazenon
+
+**Seria:** SSSS.DYNAZENON
+
+**Encyklopedia:** opis przy pierwszym wystąpieniu w tym dokumencie.
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |           7600 |
+| EN                 |            220 |
+| Pancerz            |           2000 |
+| Mobilność          |             95 |
+| Celność            |            155 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 6 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+- **Combine Dragon:** Morale głównego pilota zmienia Pancerz, Zwrotność i Celownik. Poniżej Morale 100 kara, maks. premia przy Morale 170+.
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa                         | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                         |
+| ------: | ----------------------------- | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------- |
+|       0 | Dyna Saber                    |       3800 | 1–3    |        10 |  10 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
+|       1 | Penetrator Gun                |       3500 | 2–6    |         5 |   0 |        6 |      0 | —       | —                                                                |
+|       2 | Burst Missile Attack          |       4400 | 1–2    |        10 |  25 |        0 |    110 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
+|       3 | Dynazenon Full Burst          |       5500 | 2–5    |        15 |   0 |        3 |    120 | —       | —                                                                |
+|       4 | Great Conflagration: Rex Roar |       6800 | 1–3    |        20 |  90 |        0 |    130 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
+|         |                               |            |        |           |     |          |        |         | **Penetr. barier:** Ignoruje bariery jednostki wroga.            |
+
+---
+
+## Burning Gundam
+
+**Seria:** Mobile Fighter G Gundam
+
+**Encyklopedia:**
+
+Najnowocześniejszy mobile fighter, którego Neo-Japonia wystawiła do finałów 13. Gundam Fight. Przeniesiono do niego wszystkie dane Shining Gundama, więc już w trybie normalnym przewyższa Shining Gundama w Super Mode. Odpowiednikiem Super Mode jest Hyper Mode, uruchamiany, gdy w Domonie wzbiera duch walki: rozkładają się wtedy generatory pola na plecach i otwiera mnożnik energii w piersi. Gdy Domon osiąga stan Meikyou-Shisui, całe ciało maszyny lśni złotem, a jej siła staje się przytłaczająca. Wiernie odwzorowuje techniki Domona i wyprowadza wiele ciosów. Erupting Burning Finger ma niszczycielską moc zdolną pokonać wrogiego mobile fightera jednym uderzeniem, a ostateczna technika szkoły Master Asia, Sekiha Tenkyoken, pogrzebała nawet Dark Gundama.
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |           6000 |
+| EN                 |            220 |
+| Pancerz            |           1700 |
+| Mobilność          |            115 |
+| Celność            |            155 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 6 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+- **Hyper Mode:** Aktywna przy Morale 120+: wzmacnia maszynę do końca misji.
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa                | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                                                                |
+| ------: | -------------------- | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ------------------------------------------------------------------------------------------------------- |
+|       0 | Działo Vulcan        |       2400 | 1–3    |         5 |   0 |       10 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                                        |
+|         |                      |            |        |           |     |          |        |         | **Zwrotność-:** Zwrotność jednostki wroga -30 na 1 turę. Nie działa, gdy bariera itp. zeruje obrażenia. |
+|       1 | Działko automatyczne |       3000 | 1–5    |         5 |   0 |        8 |      0 | —       | —                                                                                                       |
+|       2 | Burning Slash        |       3400 | 1–3    |        10 |  10 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                                        |
+|       3 | Burning Strike       |       3700 | 1–2    |        10 |  15 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                                        |
+
+---
+
+## Getter Arc
+
+**Seria:** Getter Robo Arc
+
+**Encyklopedia:** opis przy pierwszym wystąpieniu w tym dokumencie.
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |           7200 |
+| EN                 |            220 |
+| Pancerz            |           1900 |
+| Mobilność          |            100 |
+| Celność            |            155 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 6 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+- **Zm. Gettera:** Polecenie 'Transformacja' zmienia formę maszyny i głównego pilota. 'Transformacja' nie zużywa akcji i działa także po jej wykonaniu.
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa              | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                                                 |
+| ------: | ------------------ | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------------------------------- |
+|       0 | Battle Shot Cutter |       3300 | 1–3    |         5 |   5 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                         |
+|       1 | Getter Beam        |       4000 | 2–5    |         0 |  20 |        0 |      0 | —       | —                                                                                        |
+|       2 | Getter Tomahawk    |       4300 | 1–2    |        10 |  20 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                         |
+|       3 | Thunder Bomber     |       4400 | 1–2    |        15 |  80 |        0 |    130 | —       | **Ignoruje rozmiar:** Ignoruje spadek obrażeń przy ataku na jednostkę większą od twojej. |
+|         |                    |            |        |           |     |          |        |         | **Broń MAP:** Ochrona sojuszników                                                        |
+|         |                    |            |        |           |     |          |        |         | **Ochrona sojuszników:** Tryb                                                            |
+|       4 | Thunder Bomber     |       6000 | 2–4    |        15 |  70 |        0 |    120 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                         |
+|         |                    |            |        |           |     |          |        |         | **Ignoruje rozmiar:** Ignoruje spadek obrażeń przy ataku na jednostkę większą od twojej. |
+
+---
+
+**Forma jednostki:** Getter Arc → Getter Kirik — po transformacji (pilot: Show Kamui)
+
+## Getter Kirik — forma po transformacji
+
+**Seria:** Getter Robo Arc
+
+**Encyklopedia:** opis przy pierwszym wystąpieniu w tym dokumencie.
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |           7200 |
+| EN                 |            220 |
+| Pancerz            |           1700 |
+| Mobilność          |            125 |
+| Celność            |            155 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 7 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+- **Zm. Gettera:** Polecenie 'Transformacja' zmienia formę maszyny i głównego pilota. 'Transformacja' nie zużywa akcji i działa także po jej wykonaniu.
+
+- **Getter Vision:** Przy Morale 130+: 30％ szansy na pełny unik ataku wroga.
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa              | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                         |
+| ------: | ------------------ | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------- |
+|       0 | Getter Arm         |       3400 | 1–4    |        15 |  10 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
+|       1 | Getter Drill       |       3900 | 1–3    |        15 |  20 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
+|         |                    |            |        |           |     |          |        |         | **Penetr. barier:** Ignoruje bariery jednostki wroga.            |
+|       2 | Double Drill Storm |       5200 | 2–3    |        20 |  40 |        0 |    110 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
+|         |                    |            |        |           |     |          |        |         | **Penetr. barier:** Ignoruje bariery jednostki wroga.            |
+
+---
+
+**Forma jednostki:** Getter Arc → Getter Khan — po transformacji (pilot: Baku Yamagishi)
+
+## Getter Khan — forma po transformacji
+
+**Seria:** Getter Robo Arc
+
+**Encyklopedia:** opis przy pierwszym wystąpieniu w tym dokumencie.
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |           7200 |
+| EN                 |            220 |
+| Pancerz            |           2100 |
+| Mobilność          |             85 |
+| Celność            |            155 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 5 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+- **Zm. Gettera:** Polecenie 'Transformacja' zmienia formę maszyny i głównego pilota. 'Transformacja' nie zużywa akcji i działa także po jej wykonaniu.
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa          | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                         |
+| ------: | -------------- | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------- |
+|       0 | Getter Punch   |       3900 | 1–3    |        10 |  15 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
+|       1 | Getter Missile |       4100 | 2–6    |         0 |   0 |       10 |      0 | —       | —                                                                |
+|       2 | Spine Crusher  |       5700 | 1–2    |        15 |  50 |        0 |    110 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'. |
+|         |                |            |        |           |     |          |        |         | **Penetr. barier:** Ignoruje bariery jednostki wroga.            |
+
+---
+
+## AMX-003 Gaza C
+
+**Seria:** Mobile Suit Z Gundam
+
+**Encyklopedia:** opis przy pierwszym wystąpieniu w tym dokumencie.
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |           3000 |
+| EN                 |            160 |
+| Pancerz            |           1200 |
+| Mobilność          |             80 |
+| Celność            |            130 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 5 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+Brak zdolności w danych rekordu.
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa          | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                                     |
+| ------: | -------------- | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------------------- |
+|       0 | Knuckle Buster |       2700 | 1–4    |         0 |  10 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.             |
+|         |                |            |        |           |     |          |        |         | **Wiązka:** Typ obrażeń. Niektóre bariery mogą je zmniejszyć lub zablokować. |
+
+---
+
+## A. Advent
+
+**Seria:** Original
+
+**Encyklopedia:** opis przy pierwszym wystąpieniu w tym dokumencie.
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |          12000 |
+| EN                 |            200 |
+| Pancerz            |           1500 |
+| Mobilność          |             70 |
+| Celność            |            155 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 4 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+- **System Nira-Kana-I:** Początek fazy gracza: odnowa EN. Wartość: (liczba jednostek gracza na mapie)％ maks. EN.
+
+- **Zaopatrzenie:** Polecenie 'Zaopatrzenie': w pełni odnawia EN i amunicję 1 sąsiadującego sojusznika (nie działa po ruchu). Wszyscy piloci zaopatrzonej maszyny: Morale -10.
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa                                  | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                                                              |
+| ------: | -------------------------------------- | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ----------------------------------------------------------------------------------------------------- |
+|       0 | Wielokierunkowa obrona przeciwlotnicza |       3200 | 1–4    |        10 |   0 |       30 |      0 | —       | **Wiązka:** Typ obrażeń. Niektóre bariery mogą je zmniejszyć lub zablokować.                          |
+|         |                                        |            |        |           |     |          |        |         | **Celownik-:** Celownik jednostki wroga -30 na 1 turę. Nie działa, gdy bariera itp. zeruje obrażenia. |
+|       1 | Rakiety MWCT                           |       3400 | 2–5    |        15 |   0 |       16 |      0 | —       | —                                                                                                     |
+|       2 | Rakiety MWCT                           |       3000 | 1–6    |        15 |   0 |        2 |    120 | —       | **Ignoruje rozmiar:** Ignoruje spadek obrażeń przy ataku na jednostkę większą od twojej.              |
+|         |                                        |            |        |           |     |          |        |         | **Broń MAP:** Ochrona sojuszników                                                                     |
+|         |                                        |            |        |           |     |          |        |         | **Ochrona sojuszników:** Tryb                                                                         |
+|       3 | Podwójne działo energetyczne           |       3800 | 2–7    |         0 |  20 |        0 |      0 | —       | **Wiązka:** Typ obrażeń. Niektóre bariery mogą je zmniejszyć lub zablokować.                          |
+
+---
+
+## Lunedrache
+
+**Seria:** Original
+
+**Encyklopedia:** opis przy pierwszym wystąpieniu w tym dokumencie.
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |           5200 |
+| EN                 |            200 |
+| Pancerz            |           1500 |
+| Mobilność          |            120 |
+| Celność            |            155 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 6 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+- **Mystic Moon:** Przy Morale 120+: 20％ szansy na pełny unik ataku wroga.
+
+- **Łącze energii:** Gdy pilot ma Morale 130+ i jest w promieniu 5 pól od A. Adventu: początek fazy gracza, odnowa 30％ maks. EN.
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa                | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                                                                |
+| ------: | -------------------- | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ------------------------------------------------------------------------------------------------------- |
+|       0 | Koryudan             |       3000 | 1–4    |        10 |   0 |        8 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                                        |
+|         |                      |            |        |           |     |          |        |         | **Wiązka:** Typ obrażeń. Niektóre bariery mogą je zmniejszyć lub zablokować.                            |
+|         |                      |            |        |           |     |          |        |         | **Kontra:** Gdy wróg atakuje, może zajść Kontra, dzięki której uderzasz pierwszy.                       |
+|         |                      |            |        |           |     |          |        |         | **Zwrotność-:** Zwrotność jednostki wroga -30 na 1 turę. Nie działa, gdy bariera itp. zeruje obrażenia. |
+|       1 | Soryuga              |       3200 | 2–5    |         0 |   0 |        6 |      0 | —       | —                                                                                                       |
+|       2 | Ninja Art: Yojinbu   |       3900 | 1–2    |        15 |  10 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                                        |
+|       3 | Ninja Art: Tenraiken |       4600 | 2–3    |         0 |  40 |        0 |    120 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                                        |
+|         |                      |            |        |           |     |          |        |         | **Celownik-:** Celownik jednostki wroga -30 na 1 turę. Nie działa, gdy bariera itp. zeruje obrażenia.   |
+
+---
+
+## Rising Gundam
+
+**Seria:** Mobile Fighter G Gundam
+
+**Encyklopedia:**
+
+Mobile fighter zbudowany jako prototyp Shining Gundama, przygotowany przez Ulubego do walki z Dark Gundamem. Jego bronią są m.in. Beam Naginata i łuk wiązkowy. Osiągami dorównuje Shining Gundamowi, lecz nie może użyć Super Mode; dla odchudzenia usunięto z niego część podzespołów. Odłączone naramienniki łączą się z lewym przedramieniem w Rising Shield.
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |           5500 |
+| EN                 |            200 |
+| Pancerz            |           1800 |
+| Mobilność          |            110 |
+| Celność            |            150 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 6 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+- **Naprawa:** Polecenie 'Naprawa': odnawia HP własnej maszyny lub 1 sąsiadującego sojusznika (działa po ruchu). Im wyższy poziom pilota, tym więcej HP.
+
+- **Tarcza:** Wybranie 'Obrony' zwykle zmniejsza obrażenia do x0.6, a z tą zdolnością do x0.4. Czasem efekt działa też bez wybrania 'Obrony'.
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa                          | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                                                                |
+| ------: | ------------------------------ | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ------------------------------------------------------------------------------------------------------- |
+|       0 | Działo Vulcan                  |       2300 | 1–3    |         5 |   0 |       10 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                                        |
+|         |                                |            |        |           |     |          |        |         | **Zwrotność-:** Zwrotność jednostki wroga -30 na 1 turę. Nie działa, gdy bariera itp. zeruje obrażenia. |
+|       1 | Działko automatyczne           |       2900 | 1–5    |         5 |   0 |        8 |      0 | —       | —                                                                                                       |
+|       2 | Beam Naginata                  |       3200 | 1–3    |        10 |  15 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                                        |
+|       3 | Ultimate Bullseye Rising Arrow |       4300 | 2–5    |        15 |   0 |        6 |    120 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.                                        |
+|         |                                |            |        |           |     |          |        |         | **Penetr. barier:** Ignoruje bariery jednostki wroga.                                                   |
+
+---
+
+## Lumenus
+
+**Seria:** Original
+
+**Encyklopedia:**
+
+Broń mobilna ukończona po wojnie rewolucyjnej. Stabilna moc, dobre prowadzenie, łatwa obsługa i produkcja sprawiły, że przyjęło ją wiele instytucji i w krótkim czasie upowszechniła się. To malowanie maszyn sprzedawanych cywilom, używanych m.in. przez prywatne formacje zbrojne.
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |           6500 |
+| EN                 |            180 |
+| Pancerz            |           1700 |
+| Mobilność          |             90 |
+| Celność            |            155 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 6 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+Brak zdolności w danych rekordu.
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa              | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                                     |
+| ------: | ------------------ | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------------------- |
+|       0 | Wyrzutnia wiązkowa |       3000 | 1–3    |        20 |   0 |       12 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.             |
+|         |                    |            |        |           |     |          |        |         | **Wiązka:** Typ obrażeń. Niektóre bariery mogą je zmniejszyć lub zablokować. |
+|       1 | Mega Cannon        |       3300 | 2–6    |        10 |  10 |        0 |      0 | —       | **Wiązka:** Typ obrażeń. Niektóre bariery mogą je zmniejszyć lub zablokować. |
+
+---
+
+## Taurus
+
+**Seria:** Mobile Suit Gundam Wing: Endless Waltz
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |           3200 |
+| EN                 |            170 |
+| Pancerz            |           1500 |
+| Mobilność          |             80 |
+| Celność            |            130 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 5 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+Brak zdolności w danych rekordu.
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa            | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                                     |
+| ------: | ---------------- | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------------------- |
+|       0 | Karabin wiązkowy |       2600 | 1–5    |         0 |   0 |       12 |      0 | —       | **Wiązka:** Typ obrażeń. Niektóre bariery mogą je zmniejszyć lub zablokować. |
+
+---
+
+## Wing Gundam Zero
+
+**Seria:** Mobile Suit Gundam Wing: Endless Waltz
+
+**Encyklopedia:**
+
+Gundam pilotowany przez Heero Yuya. Wyróżniają go ptasie skrzydła na plecach, tzw. Wing Binder, które dają mu niezwykłą mobilność i zwrotność. Pełnią też wiele innych funkcji: chronią przed żarem przy wejściu w atmosferę i amortyzują odrzut przy strzale z Buster Rifle. Zaprojektowano go do samodzielnego zdobywania baz, więc poza mobilnością ma miażdżącą siłę ognia; główna broń, Twin Buster Rifle, potrafi jednym strzałem zniszczyć kolonię. Dzięki wysokiej zwrotności świetnie walczy też wręcz szablą wiązkową. W kokpicie zainstalowano Zero System, który przez konsolę przekazuje do mózgu pilota działania potrzebne do zwycięstwa. W walce jest bardzo przydatny, ale ogromnie obciąża psychikę pilota i często wymyka się spod kontroli. Heero przezwyciężył go jednak w poprzedniej wojnie i całkowicie nad nim panuje. Po wojnie miał zostać wyrzucony w Słońce, lecz wrócił do Heero, by stłumić rebelię Armii Mariemai, i stoczył walkę z Altron Gundamem na granicy atmosfery.
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |           5800 |
+| EN                 |            210 |
+| Pancerz            |           1800 |
+| Mobilność          |            120 |
+| Celność            |            155 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 7 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+- **Zero System:** Aktywna przy Morale 130+: wzmacnia parametry pilota. Walka wręcz, Strzelanie, Celność i Unik +((obecne Morale - 90) / 5), Obrona i Technika +((obecne Morale - 90) / 3).
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa                | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                                     |
+| ------: | -------------------- | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------------------- |
+|       0 | Działko automatyczne |       3000 | 1–3    |         5 |   0 |       10 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.             |
+|       1 | Szabla wiązkowa      |       3600 | 1–2    |        10 |   5 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.             |
+|         |                      |            |        |           |     |          |        |         | **Wiązka:** Typ obrażeń. Niektóre bariery mogą je zmniejszyć lub zablokować. |
+
+---
+
+## Zamza-Zah
+
+**Seria:** Mobile Suit Gundam SEED Destiny
+
+**Encyklopedia:** opis przy pierwszym wystąpieniu w tym dokumencie.
+
+| Parametr           | Wartość bazowa |
+| ------------------ | -------------: |
+| HP                 |           7600 |
+| EN                 |            210 |
+| Pancerz            |           1800 |
+| Mobilność          |             90 |
+| Celność            |            160 |
+| Broń (pole danych) |              0 |
+
+**Ruch:** 6 · **Sloty części:** 2
+
+### Macierzyste zdolności maszyny
+
+- **Reflektor pozyt.:** Neutralizuje obrażenia każdego typu do 1500. Aktywacja: 10 EN.
+
+### Uzbrojenie i wymienione działania
+
+| Miejsce | Nazwa                           | Moc bazowa | Zasięg | Trafienie |  EN | Amunicja | Morale | Warunek | Zdolności — opisy bazowe                                                     |
+| ------: | ------------------------------- | ---------: | ------ | --------: | --: | -------: | -----: | ------- | ---------------------------------------------------------------------------- |
+|       0 | Wielofazowe działo energetyczne |       3000 | 2–6    |         0 |  10 |        0 |      0 | —       | **Wiązka:** Typ obrażeń. Niektóre bariery mogą je zmniejszyć lub zablokować. |
+|       1 | Hyper Oscillation Crusher       |       3300 | 1–3    |        10 |  10 |        0 |      0 | —       | **Użycie po ruchu:** Broni można użyć także po poleceniu 'Ruch'.             |
+
+---
+
+#### Piloci i postacie występujące w misji
+
+---
+
+#### Agent
+
+**Seria:** Original
+
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            151 |
+| Strzelectwo |            151 |
+| Obrona      |            113 |
+| Technika    |            177 |
+| Unik        |             87 |
+| Celność     |            115 |
+| SP          |             52 |
+
+---
+
+#### Annina Servania
+
+**Seria:** Original
+
+**Komendy Ducha:**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                               |
+| ---: | -------- | ---------: | -------: | -------------------------------------------------------------------------- |
+|    1 | Pęd      |          1 |       20 | Jednorazowo Ruch +3. Działa do najbliższego ruchu.                         |
+|    2 | Błog.    |          5 |       50 | Daje wybranemu sojusznikowi Ducha 'Fortuna':                               |
+|      |          |            |          | fundusze za następne zestrzelenie wroga x2.                                |
+
+---
+
+#### Baku Yamagishi
+
+**Seria:** Getter Robo Arc
+
+**Encyklopedia:** opis przy pierwszym wystąpieniu w tym dokumencie.
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            153 |
+| Strzelectwo |            148 |
+| Obrona      |            120 |
+| Technika    |            171 |
+| Unik        |            139 |
+| Celność     |            144 |
+| SP          |             52 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność    | Poz. nauki | Opis                                                                  |
+| ---: | -------------- | ---------: | --------------------------------------------------------------------- |
+|    1 | Dzieci Gettera |          1 | Aktywna, gdy na pokładzie są 3 piloci i każdy ma Morale               |
+|      |                |            | 140+. Początek fazy gracza: Morale +5. Gdy wszyscy 3                  |
+|      |                |            | mają Morale 160+: końcowe zadawane obrażenia x1.2.                    |
+|    2 | Potencjał L7   |          1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa              |
+|      |                |            | kryt. i obrona. Maks. efekt przy HP do 10％: celność i                |
+|      |                |            | unik +35％, szansa kryt. +42％, otrzymywane obrażenia x0.5.           |
+|    3 | Blok L1        |          1 | Przy Morale 130+: otrzymywane obrażenia x0.9.                         |
+|    4 | Osłona L1      |          1 | Przyjmuje atak wymierzony w sąsiadującego sojusznika. Obrażenia x1.00 |
+|      |                |            | zwykłej obrony, 1 raz na turę. Szczegóły w Pomocy ('Baza danych').    |
+
+**Komendy Ducha:**
+
+| Slot | Duch  | Poz. nauki | Koszt SP | Efekt bazowy                                        |
+| ---: | ----- | ---------: | -------: | --------------------------------------------------- |
+|    1 | Hart  |          1 |       30 | Odnawia 50% maks. HP maszyny.                       |
+
+---
+
+#### Chise Asukagawa
+
+**Seria:** SSSS.DYNAZENON
+
+---
+
+#### Domon Kasshu
+
+**Seria:** Mobile Fighter G Gundam
+
+**Encyklopedia:**
+
+Mistrz kolonijnych sztuk walki i Gundam Fighter reprezentujący Neo-Japonię. Po dziesięciu latach nauki u Master Asii, Niepokonanego ze Wschodu, przejął tytuł Króla Kier. Startuje w 13. Gundam Fight, by uwolnić ojca, doktora Kasshu, skazanego za zdradę na bezterminowe zamrożenie, i odnaleźć brata, Kyojiego, który ukradł Ultimate Gundama i uciekł na Ziemię. Wydaje się mrukliwy i chłodny, ale skrywa gorące serce i dobroć. W trakcie Gundam Fight dojrzewa dzięki przyjaźni z Sojuszem Shuffle, zaciętym walkom z mistrzem, Master Asią, i prawdzie o bracie. Gdy jego partnerka Rain staje się biologicznym rdzeniem Dark Gundama, Domon wyznaniem miłości otwiera jej zamknięte serce i uwalnia ją. Razem pokonują Dark Gundama ciosem Sekiha Love Love Tenkyoken i triumfalnie wracają na Ziemię.
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            156 |
+| Strzelectwo |            148 |
+| Obrona      |            118 |
+| Technika    |            179 |
+| Unik        |            136 |
+| Celność     |            147 |
+| SP          |             60 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Opis                                                        |
+| ---: | ------------- | ---------: | ----------------------------------------------------------- |
+|    1 | ???           |          1 | ???                                                         |
+|    2 | Potencjał L7  |          1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa    |
+|      |               |            | kryt. i obrona. Maks. efekt przy HP do 10％: celność i      |
+|      |               |            | unik +35％, szansa kryt. +42％, otrzymywane obrażenia x0.5. |
+|    3 | Wola walki L2 |          1 | Morale startowe +5.                                         |
+|    4 | Instynkt L2   |          1 | Przy Morale 130+: końcowa celność i unik +10％. Trafienie   |
+|      |               |            | od wroga z celnością do 30％: otrzymywane obrażenia x0.5.   |
+
+**Komendy Ducha:**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                               |
+| ---: | -------- | ---------: | -------: | -------------------------------------------------------------------------- |
+|    1 | Niezł.   |          1 |       15 | Na 1 walkę otrzymywane obrażenia 1/8.                                      |
+|    2 | Cel.str. |          5 |       10 | Na 1 turę celność 100%.                                                    |
+
+---
+
+#### Echika Y. Franburnett
+
+**Seria:** Original
+
+**Encyklopedia:** opis przy pierwszym wystąpieniu w tym dokumencie.
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            125 |
+| Strzelectwo |            125 |
+| Obrona      |             78 |
+| Technika    |            166 |
+| Unik        |            121 |
+| Celność     |            130 |
+| SP          |             45 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   |    Poz. nauki | Opis                                                                            |
+| ---: | ------------- | ------------: | ------------------------------------------------------------------------------- |
+|    1 | Dowódca L1    | 1, 20, 40, 60 | Sojusznicy w promieniu 2 pól: wyższa końcowa celność i unik. W odległości 2     |
+|      |               |               | pól +12％, obok dowódcy +15％. Nie kumuluje się, działa tylko najwyższa premia. |
+|    2 | Potencjał L2  |             1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa                        |
+|      |               |               | kryt. i obrona. Maks. efekt przy HP do 10％: celność i                          |
+|      |               |               | unik +10％, szansa kryt. +12％, otrzymywane obrażenia x0.9.                     |
+|    3 | Morale+ (Obr) |             1 | Otrzymanie obrażeń, unik lub zablokowanie ataku barierą,                        |
+|      |               |               | specjalnym pancerzem albo specjalnym unikiem: Morale dodatkowo +1.              |
+
+**Komendy Ducha:**
+
+| Slot | Duch  | Poz. nauki | Koszt SP | Efekt bazowy                                                               |
+| ---: | ----- | ---------: | -------: | -------------------------------------------------------------------------- |
+|    1 | Wys.  |          1 |       20 | PD za następne zestrzelenie wroga x2.                                      |
+|    2 | Więź  |          1 |       30 | Na 1 turę celność wybranego sojusznika 100%.                               |
+|    3 | Zauf. |          1 |       30 | Odnawia 3000 HP wybranemu sojusznikowi.                                    |
+
+---
+
+#### Gauma
+
+**Seria:** SSSS.DYNAZENON
+
+**Encyklopedia:** opis przy pierwszym wystąpieniu w tym dokumencie.
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            154 |
+| Strzelectwo |            146 |
+| Obrona      |            123 |
+| Technika    |            173 |
+| Unik        |            142 |
+| Celność     |            146 |
+| SP          |             56 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność           | Poz. nauki | Opis                                                                  |
+| ---: | --------------------- | ---------: | --------------------------------------------------------------------- |
+|    1 | Potencjał L7          |          1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa              |
+|      |                       |            | kryt. i obrona. Maks. efekt przy HP do 10％: celność i                |
+|      |                       |            | unik +35％, szansa kryt. +42％, otrzymywane obrażenia x0.5.           |
+|    2 | Wola walki L2         |          1 | Morale startowe +5.                                                   |
+|    3 | Osłona L1             |          1 | Przyjmuje atak wymierzony w sąsiadującego sojusznika. Obrażenia x1.00 |
+|      |                       |            | zwykłej obrony, 1 raz na turę. Szczegóły w Pomocy ('Baza danych').    |
+|    4 | Przełamanie Morale L2 |          1 | Limit Morale (150) +10. Kumuluje się z                                |
+|      |                       |            | częściami itp. podnoszącymi limit Morale.                             |
+
+**Komendy Ducha:**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                               |
+| ---: | -------- | ---------: | -------: | -------------------------------------------------------------------------- |
+|    1 | Hart     |          1 |       30 | Odnawia 50% maks. HP maszyny.                                              |
+|    2 | Cel.str. |          5 |       20 | Na 1 turę celność 100%.                                                    |
+
+---
+
+#### Heero Yuy
+
+**Seria:** Mobile Suit Gundam Wing: Endless Waltz
+
+**Encyklopedia:**
+
+Agent operacji Meteor przysłany ze skupiska kolonii L1. Ma 16 lat. Od dziecka przechodził surowe szkolenie bojowe i ma niezwykłą sprawność fizyczną. Jego ciało jest wytrzymalsze niż u zwykłego człowieka: przeżył upadek z 50. piętra, a złamania nastawia sobie sam. Prócz walki świetnie radzi sobie z sabotażem i naprawą mobile suitów. Małomówny, unikał kontaktów z ludźmi, choć w głębi duszy jest dobrym chłopakiem; dzięki Relenie i innym pilotom gundamów stopniowo odzyskiwał ludzkie uczucia. Opanował Zero System Wing Gundama Zero i, wierząc w przyszłość, którą mu ukazał, oraz we własne uczucia, walczył z White Fang pod wodzą Zechsa. W ostatniej bitwie uratował Relenę uwięzioną w Librze i rozstrzygnął pojedynek z Zechsem. Zniszczył też spadającą Librę i ocalił Ziemię przed zimą nuklearną. Gdy zbuntowała się Armia Mariemai, zareagował jako jeden z pierwszych: odzyskał Wing Gundama Zero, wysłanego wcześniej ku Słońcu, i stoczył zaciekłą walkę z Wufeiem, który stał się wrogiem świata.
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            152 |
+| Strzelectwo |            155 |
+| Obrona      |            121 |
+| Technika    |            176 |
+| Unik        |            150 |
+| Celność     |            148 |
+| SP          |             70 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Opis                                                        |
+| ---: | ------------- | ---------: | ----------------------------------------------------------- |
+|    1 | Agent         |          1 | Aktywna, gdy maszyna ma HP do 80％: otrzymywane obrażenia   |
+|      |               |            | x0.8, końcowy unik +20％, obrażenia z kontrataku x1.2.      |
+|    2 | Potencjał L7  |          1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa    |
+|      |               |            | kryt. i obrona. Maks. efekt przy HP do 10％: celność i      |
+|      |               |            | unik +35％, szansa kryt. +42％, otrzymywane obrażenia x0.5. |
+|    3 | Blok L2       |          1 | Przy Morale 130+: otrzymywane obrażenia x0.85.              |
+|    4 | Wola walki L2 |          1 | Morale startowe +5.                                         |
+
+**Komendy Ducha:**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                |
+| ---: | -------- | ---------: | -------: | ----------------------------------------------------------- |
+|    1 | Skup.    |          1 |       15 | Na 1 turę końcowa celność i unik +30%.                      |
+|    2 | Intuicja |          5 |       20 | Aktywuje 2 Duchy naraz. 'Celny strzał': na 1 turę celność   |
+|      |          |            |          | 100%. 'Przebłysk': na 1 walkę pełny unik wszystkich ataków. |
+
+---
+
+#### Zaawansowana SI
+
+**Seria:** Original
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            142 |
+| Strzelectwo |            144 |
+| Obrona      |            106 |
+| Technika    |            168 |
+| Unik        |            135 |
+| Celność     |            138 |
+| SP          |             10 |
+
+**Komendy Ducha:**
+
+| Slot | Duch  | Poz. nauki | Koszt SP | Efekt bazowy                           |
+| ---: | ----- | ---------: | -------: | -------------------------------------- |
+|    1 | Skup. |          1 |       40 | Na 1 turę końcowa celność i unik +30%. |
+
+---
+
+#### Show Kamui
+
+**Seria:** Getter Robo Arc
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            152 |
+| Strzelectwo |            151 |
+| Obrona      |            114 |
+| Technika    |            173 |
+| Unik        |            148 |
+| Celność     |            144 |
+| SP          |             53 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność       | Poz. nauki | Opis                                                         |
+| ---: | ----------------- | ---------: | ------------------------------------------------------------ |
+|    1 | Dzieci Gettera    |          1 | Aktywna, gdy na pokładzie są 3 piloci i każdy ma Morale      |
+|      |                   |            | 140+. Początek fazy gracza: Morale +5. Gdy wszyscy 3         |
+|      |                   |            | mają Morale 160+: końcowe zadawane obrażenia x1.2.           |
+|    2 | Potencjał L7      |          1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa     |
+|      |                   |            | kryt. i obrona. Maks. efekt przy HP do 10％: celność i       |
+|      |                   |            | unik +35％, szansa kryt. +42％, otrzymywane obrażenia x0.5.  |
+|    3 | Instynkt L1       |          1 | Przy Morale 130+: końcowa celność i unik +5％. Trafienie     |
+|      |                   |            | od wroga z celnością do 30％: otrzymywane obrażenia x0.5.    |
+|    4 | Wsparcie ataku L1 |          1 | Atakuje po sąsiadującym sojuszniku. Obrażenia x0.60 zwykłego |
+|      |                   |            | ataku, 1 raz na turę. Szczegóły w Pomocy ('Baza danych').    |
+
+**Komendy Ducha:**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                    |
+| ---: | -------- | ---------: | -------: | --------------------------------------------------------------- |
+|    1 | Pęd      |          1 |       20 | Jednorazowo Ruch +3. Działa do najbliższego ruchu.              |
+|    2 | Błysk    |          5 |       15 | Na 1 walkę pełny unik wszystkich ataków.                        |
+
+---
+
+#### Koyomi Yamanaka
+
+**Seria:** SSSS.DYNAZENON
+
+**Komendy Ducha:**
+
+| Slot | Duch    | Poz. nauki | Koszt SP | Efekt bazowy                                         |
+| ---: | ------- | ---------: | -------: | ---------------------------------------------------- |
+|    1 | Osł.    |          1 |       40 | Morale wybranego wroga -10.                          |
+
+---
+
+#### Cross Tsukinowa
+
+**Seria:** Original
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            155 |
+| Strzelectwo |            155 |
+| Obrona      |            116 |
+| Technika    |            179 |
+| Unik        |            155 |
+| Celność     |            150 |
+| SP          |             60 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność       | Poz. nauki | Opis                                                                   |
+| ---: | ----------------- | ---------: | ---------------------------------------------------------------------- |
+|    1 | NINJA             |          1 | Im wyższe Morale, tym wyższe parametry i obrażenia. Maks. efekt przy   |
+|      |                   |            | Morale 150+: wszystkie parametry +10, końcowe zadawane obrażenia x1.2. |
+|    2 | Wsparcie ataku L2 |          1 | Atakuje po sąsiadującym sojuszniku. Obrażenia x0.65 zwykłego           |
+|      |                   |            | ataku, 2 razy na turę. Szczegóły w Pomocy ('Baza danych').             |
+|    3 | Silne wsparcie    |          1 | Wsparcie ataku zawsze trafia krytycznie (nie dotyczy 'Drugi atak').    |
+|    4 | Odporność ducha   |          1 | Odporność na efekty broni 'Param. -50%', 'Paraliż', 'Morale-'          |
+|      |                   |            | i 'SP-'. Przy Morale do 100: odporność na Ducha 'Osłabienie'.          |
+
+**Komendy Ducha:**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                       |
+| ---: | -------- | ---------: | -------: | ------------------------------------------------------------------ |
+|    1 | Skup.    |          1 |       15 | Na 1 turę końcowa celność i unik +30%.                             |
+
+---
+
+#### Mina Narive
+
+**Seria:** Original
+
+**Encyklopedia:**
+
+Była żołnierka Sił Nowej Federacji Ziemskiej. Ma 18 lat. Kobieta. Już w wojsku była podwładną Noveya i świetną operatorką okrętu pod jego dowództwem. Gdy Novey odszedł ze służby, poszła w jego ślady i dba o jego niechlujne życie prywatne. Sumienna, nie znosi nieuczciwości, a dawne doświadczenia sprawiają, że surowo traktuje ludzi u władzy.
+
+**Komendy Ducha:**
+
+| Slot | Duch   | Poz. nauki | Koszt SP | Efekt bazowy                                 |
+| ---: | ------ | ---------: | -------: | -------------------------------------------- |
+|    1 | Skup.  |          1 |       20 | Na 1 turę końcowa celność i unik +30%.       |
+
+---
+
+#### Mobile doll
+
+**Seria:** Mobile Suit Gundam Wing: Endless Waltz
+
+**Encyklopedia:** gra nie zawiera osobnego opisu dla tego rekordu.
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            140 |
+| Strzelectwo |            140 |
+| Obrona      |            105 |
+| Technika    |            168 |
+| Unik        |            132 |
+| Celność     |            140 |
+| SP          |             10 |
+
+**Komendy Ducha:**
+
+| Slot | Duch    | Poz. nauki | Koszt SP | Efekt bazowy                               |
+| ---: | ------- | ---------: | -------: | ------------------------------------------ |
+|    1 | Analiza |          1 |       30 | Na 1 turę obrażenia zadawane wybranemu     |
+|      |         |            |          | wrogowi x1.1, a otrzymywane od niego x0.9. |
+
+---
+
+#### Ru Negsis
+
+**Seria:** Original
+
+**Encyklopedia:**
+
+Niebiański Mędrzec, główny strateg Wszechgwiezdnego Imperium Ra Val. Ma 48 lat. Mężczyzna. Najbliższy doradca Niebiańskiego Cesarza Valbelma, jego strateg jeszcze z czasów sprzed koronacji. Ma bystry umysł i zmysł strategiczny, lecz jego wyniosła uprzejmość zraża do niego wielu w Ra Val. Zarazem wszyscy cenią jego intelekt i czują przed nim respekt. Przemawia w imieniu Valbelma i prowadzi wszelkie negocjacje z innymi organizacjami.
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            148 |
+| Strzelectwo |            154 |
+| Obrona      |            118 |
+| Technika    |            179 |
+| Unik        |             89 |
+| Celność     |            120 |
+| SP          |             50 |
+
+**Umiejętności pilota:**
+
+Brak umiejętności w danych rekordu.
+
+**Komendy Ducha:**
+
+Brak rozkazów ducha w danych rekordu.
+
+---
+
+#### Novey Dickens
+
+**Seria:** Original
+
+**Encyklopedia:**
+
+Były żołnierz Sił Nowej Federacji Ziemskiej. Ma 48 lat. Mężczyzna. W wojsku był komandorem porucznikiem i kapitanem okrętu, lecz sam odszedł ze służby i wiódł beztroskie życie. Swobodny, unika odpowiedzialności i na pierwszy rzut oka wydaje się nicponiem, ale ma podstawowe zasady moralne. Twierdzi, że liczy się dla niego zapłata, choć tak naprawdę nie przywiązuje wagi do pieniędzy. Był namiętnym palaczem, lecz po odejściu z wojska, na prośbę Miny, ogranicza papierosy.
+
+**Umiejętności pilota:**
+
+Brak umiejętności w danych rekordu.
+
+**Komendy Ducha:**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                         |
+| ---: | -------- | ---------: | -------: | ---------------------------------------------------- |
+|    1 | Analiza  |          1 |       20 | Na 1 turę obrażenia zadawane wybranemu               |
+|      |          |            |          | wrogowi x1.1, a otrzymywane od niego x0.9.           |
+
+---
+
+#### Rain Mikamura
+
+**Seria:** Mobile Fighter G Gundam
+
+**Encyklopedia:**
+
+Przyjaciółka Domona Kasshu z dzieciństwa, członkini ekipy Gundam Team Neo-Japonii. Domon nie chce załogi, więc sama jest mechanikiem i lekarką: od konserwacji gundama po dbanie o jego zdrowie. Córka doktora Mikamury, autorytetu w dziedzinie gundamów; sama studiowała medycynę. Pogodna i oddana, wspiera Domona rozumem i czynem, jawnie i w cieniu. Pod koniec 13. Gundam Fight nieporozumienia i wina jej ojca oddalają ją od Domona. Wróg to wykorzystuje i Rain staje się biologicznym rdzeniem Dark Gundama, lecz ratuje ją wyznanie miłości Domona, który przybywa jej na pomoc. Razem pokonują Dark Gundama ciosem Sekiha Love Love Tenkyoken i triumfalnie wracają na Ziemię.
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            142 |
+| Strzelectwo |            143 |
+| Obrona      |            120 |
+| Technika    |            170 |
+| Unik        |            139 |
+| Celność     |            140 |
+| SP          |             57 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność       | Poz. nauki | Opis                                                                  |
+| ---: | ----------------- | ---------: | --------------------------------------------------------------------- |
+|    1 | Potencjał L4      |          1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa              |
+|      |                   |            | kryt. i obrona. Maks. efekt przy HP do 10％: celność i                |
+|      |                   |            | unik +20％, szansa kryt. +24％, otrzymywane obrażenia x0.8.           |
+|    2 | Wsparcie ataku L2 |          1 | Atakuje po sąsiadującym sojuszniku. Obrażenia x0.65 zwykłego          |
+|      |                   |            | ataku, 2 razy na turę. Szczegóły w Pomocy ('Baza danych').            |
+|    3 | Osłona L1         |          1 | Przyjmuje atak wymierzony w sąsiadującego sojusznika. Obrażenia x1.00 |
+|      |                   |            | zwykłej obrony, 1 raz na turę. Szczegóły w Pomocy ('Baza danych').    |
+
+**Komendy Ducha:**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                               |
+| ---: | -------- | ---------: | -------: | -------------------------------------------------------------------------- |
+|    1 | Skup.    |          1 |       20 | Na 1 turę końcowa celność i unik +30%.                                     |
+|    2 | Zauf.    |          5 |       30 | Odnawia 3000 HP wybranemu sojusznikowi.                                    |
+
+---
+
+#### Takuma Nagare
+
+**Seria:** Getter Robo Arc
+
+**Encyklopedia:** opis przy pierwszym wystąpieniu w tym dokumencie.
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| Walka wręcz |            154 |
+| Strzelectwo |            150 |
+| Obrona      |            118 |
+| Technika    |            171 |
+| Unik        |            140 |
+| Celność     |            146 |
+| SP          |             52 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność           | Poz. nauki | Opis                                                        |
+| ---: | --------------------- | ---------: | ----------------------------------------------------------- |
+|    1 | Dzieci Gettera        |          1 | Aktywna, gdy na pokładzie są 3 piloci i każdy ma Morale     |
+|      |                       |            | 140+. Początek fazy gracza: Morale +5. Gdy wszyscy 3        |
+|      |                       |            | mają Morale 160+: końcowe zadawane obrażenia x1.2.          |
+|    2 | Potencjał L7          |          1 | Im mniej HP ma maszyna, tym wyższe celność, unik, szansa    |
+|      |                       |            | kryt. i obrona. Maks. efekt przy HP do 10％: celność i      |
+|      |                       |            | unik +35％, szansa kryt. +42％, otrzymywane obrażenia x0.5. |
+|    3 | Wola walki L2         |          1 | Morale startowe +5.                                         |
+|    4 | Przełamanie Morale L2 |          1 | Limit Morale (150) +10. Kumuluje się z                      |
+|      |                       |            | częściami itp. podnoszącymi limit Morale.                   |
+
+**Komendy Ducha:**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                               |
+| ---: | -------- | ---------: | -------: | ------------------------------------------ |
+|    1 | Cel.str. |          1 |       20 | Na 1 turę celność 100%.                    |
+
+---
+
+#### Yomogi Asanaka
+
+**Seria:** SSSS.DYNAZENON
+
+**Umiejętności pilota:**
+
+Brak umiejętności w danych rekordu.
+
+**Komendy Ducha:**
+
+| Slot | Duch     | Poz. nauki | Koszt SP | Efekt bazowy                                                               |
+| ---: | -------- | ---------: | -------: | -------------------------------------------------------------------------- |
+|    1 | Błysk    |          1 |       15 | Na 1 walkę pełny unik wszystkich ataków.                                   |
+|    2 | Dop.     |          5 |       30 | Daje wybranemu sojusznikowi Ducha 'Wysiłek':                               |
+|      |          |            |          | PD za następne zestrzelenie wroga x2.                                      |
+
+---
+
+#### Yume Minami
+
+**Seria:** SSSS.DYNAZENON
+
+**Komendy Ducha:**
+
+| Slot | Duch   | Poz. nauki | Koszt SP | Efekt bazowy                                                    |
+| ---: | ------ | ---------: | -------: | --------------------------------------------------------------- |
+|    1 | Litość |          1 |       10 | Na 1 walkę wróg nie zostaje zestrzelony, lecz zostaje mu 10 HP. |
+|    2 | Skup.  |          5 |       20 | Na 1 turę końcowa celność i unik +30%.                          |
+
+---
+
+#### Ade Stradio
+
+**Seria:** Original
+
+**Encyklopedia:**
+
+Pierwszy i zarazem ostatni prezydent Nowej Federacji Ziemskiej. Po rozwiązaniu Nowej Federacji Ziemskiej został sekretarzem generalnym Nowej Ligi Narodów, organu rozjemczego między państwami, i służy światu w czasach przemian.
+
+---
+
+#### Hasła encyklopedii w dialogach tej misji
+
+**Nowa Fed. Ziemska**
+
+Organ wyrażający wspólną wolę ludzkości, utworzony po wojnie rewolucyjnej. Wyrósł z Federacji Ziemskiej, ale stawia na pojednanie mieszkańców Ziemi i kosmosu oraz pokojowe rozwiązywanie sporów. Wyciągając wnioski z problemów scentralizowanej Federacji, daje szerokie uprawnienia dawnym państwom i koloniom kosmicznym, zwanym jednostkami administracyjnymi drugiego szczebla. To jednak ogranicza władzę Nowej Federacji i budzi wątpliwości, czy zdoła ona przewodzić światu odmienionemu przez wojnę rewolucyjną.
+
+**Wojna rewolucyjna**
+
+Wielka wojna, która wybuchła w NUC 058. Jednocześnie wybuchły konflikty na wielu frontach: Ziemian ze Spacenoidami, Naturalnych z Koordynatorami, starej władzy z nowymi siłami. Była to największa wojna od czasów Nowej Wojny Galaktycznej. Do tego doszły walki wywołane przez przybyszów z innego świata, Byston Well, szał Dark Gundama i wielkie zamachy terrorystyczne Dr. Hella, a przez pewien czas ważyło się samo przetrwanie ludzkości. W zaciekłych walkach polegli przywódcy wszystkich stron: Jamitov Hymem, Paptimus Scirocco, Gilbert Dullindal, Haman Karn, Milliardo Peacecraft, Charles zi Britannia, Schneizel el Britannia i Treize Khushrenada. Ostatecznie pozostali Lelouch vi Britannia jako przywódca Ziemi i Char Aznable jako przywódca kosmosu. Gdy zbliżało się ich ostateczne starcie, cesarz Lelouch został zamordowany na oczach tłumów i wojna dobiegła końca. Uważa się, że sprawiła to nie tylko śmierć przywódców pragnących wojny, ale też to, że wielu ludzi, widząc okropieństwa walk, porzuciło nienawiść i zapragnęło pokoju. Ponieważ odmieniła ona ludzką świadomość, tę serię konfliktów nazwano wojną rewolucyjną (Revol War); świat przebudowano i powstała Nowa Federacja Ziemska.
+
+**Gundam Fight**
+
+Turniej o przywództwo polityczne w Sferze Ziemskiej, w którym Gundam Fighterzy wybrani przez państwa-kolonie walczą w mobile fighterach zwanych “Gundamami”. Raz na cztery lata cała Ziemia staje się ringiem eliminacji, a zwycięzcy przechodzą do finału. Dotąd odbyło się 13 turniejów. Zwycięski Gundam Fighter otrzymuje tytuł “Gundama nad Gundamami”, a jego państwo przez następne cztery lata sprawuje władzę polityczną. Turniej pomyślano jako sposób na uniknięcie wojen między ludźmi, dlatego nazywa się go “idealną wojną”.
+
+**Św. Imperium Britannii**
+
+Święte Imperium Britannii: potężne imperium łączące dawny ustrój arystokratyczny z najnowszą techniką i wielką siłą militarną. W latach 2000. kalendarza imperialnego 98. cesarz Charles rozpoczął zbrojny podbój świata. Podbite kraje traciły nazwy i otrzymywały numery jako “Strefa nr”, a podbitych ludzi nazywano “Numerami”. Inwazje i bezwzględna polityka dyskryminacji zrodziły liczne ruchy oporu. 99. cesarzem został Lelouch vi Britannia, a po zamachu na niego imperium przekształcono w Księstwo Britannii, które przystąpiło do Zjednoczonej Federacji Narodów.
+
+**Czarni Rycerze**
+
+Organizacja założona przez zamaskowanego Zero. Jako ruch oporu walczyła z panowaniem Świętego Imperium Britannii, a jako obrońca sprawiedliwości karała bezprawie w Strefie 11, zyskując poparcie ludzi. Wchłaniając ruchy oporu z całego świata, wyrosła na wielką siłę zbrojną i walczyła do końca nawet po wstąpieniu Lelouch na tron. Po zamachu na cesarza Lelouch stała się siłą zbrojną Zjednoczonej Federacji Narodów i strzeże porządku na całym świecie.
+
+**AEUG**
+
+Organizacja powołana do walki z Titans, którzy zawłaszczyli Siły Federacji Ziemskiej. Pełna nazwa: Anti Earth Union Group. Współpracuje z korporacjami takimi jak Anaheim Electronics i Luio &amp; Co., a kieruje nią komodor Sił Federacji Blex Forer, mający rozległe wpływy w polityce i biznesie, dzięki czemu AEUG ma znaczną siłę militarną i polityczną. Jako dawna część Sił Federacji, tak jak Titans, składa się głównie z żołnierzy Federacji, ale służą w niej też byli żołnierze Zeonu, jak porucznik Quattro Bajeena. Po kradzieży Gundama Mk-II w Gryps drobne utarczki z Titans przerodziły się w otwartą wojnę. Po konflikcie Gryps AEUG walczyła jako część Sił Federacji z Neo Zeonem pod wodzą Haman.
+
+**Król Kier**
+
+Jeden z tytułów Sojuszu Shuffle przekazywanych z pokolenia na pokolenie. Na grzbiecie prawej dłoni jego posiadacza pojawia się szkarłatny herb serca. Domon przejął go od swojego mistrza, Master Asii.
+
+**Wyznanie stulecia**
+
+Żarliwy okrzyk Domona, który chciał uratować Rain, przemienioną w jednostkę biologiczną Dark Gundama. Rain, dręczona winą za zbrodnie ojca, doktora Mikamury, uparcie odtrącała Domona, lecz gdy wykrzyczał jej swoją miłość, jej zamknięte serce stopniało i wyrwała się spod władzy Dark Gundama. Siła ich miłości zrodziła potem Sekiha Love Love Tenkyoken, który unicestwił Dark Gundama.
+
+**NINJA**
+
+Żołnierze sił specjalnych wywodzący się od dawnych japońskich ninja. Nazwa pochodzi od “New Infinity Neuron - Japanese Assassin”. Treningiem budzą obwody nerwowe niedostępne zwykłym ludziom, co pozwala im choć na chwilę wyzwolić ukryty potencjał człowieka. Badania nad tą zdolnością mają długą historię, a grup NINJA zwanych Tajnymi Siłami Specjalnymi, każda z własnymi metodami treningu, jest kilka. Wynajmowane przez rządy i różne instytucje, działają jako agenci.
+
+**Sojusz Shuffle**
+
+Grupa, która od niepamiętnych czasów strzeże porządku walki i z cienia historii chroni ludzkość przed zagładą. Ma pięć tytułów: Król Kier, Dama Pik, Walet Karo, As Trefl i Czarny Joker. Na dowód tytułu na grzbiecie dłoni członka pojawia się herb Shuffle. W czasie walki z Dark Gundamem pięciu fighterów, w tym Domon, przejęło tytuły od poprzedników.
+
+**VAL-X**
+
+Organizacja terrorystyczna działająca od czasów po wojnie rewolucyjnej. Jej nazwa podobno pochodzi od “Victory, Anarchy, Liberation - X”, lecz jej ideologia i postulaty są mgliste, więc niektórzy uważają ją nie za terrorystów, a za niezadowolonych z porządku buntowników. Używa jako bezzałogowców broni wyprzedanej po wojnie rewolucyjnej, co sugeruje, że ktoś ją wspiera.
+
+#### Serie reprezentowane w misji
+
+**SSSS.DYNAZENON**
+
+Yomogi Asanaka, uczeń publicznego liceum Fujiyokidai, w drodze ze szkoły spotyka mężczyznę, który padł z głodu i nazywa siebie “władcą kaiju”: Gaumę. Nazajutrz w mieście nagle pojawia się kaiju, a Gauma przyzywa olbrzymiego robota, Dynazenona. Yomogi, jego koleżanka z klasy, Yume Minami, i bezrobotny Koyomi Yamanaka, który przyszedł popatrzeć na zamieszanie, zostają wciągnięci do Dynazenona razem z Gaumą; wraz z kuzynką Koyomiego, Chise Asukagawą, piątka staje do walki z kaiju.
+
+**Mobile Fighter G Gundam**
+
+Wiek Przyszłości. Ludzkość, która porzuciła zrujnowaną Ziemię, żyje w kosmicznych państwach-koloniach. By uniknąć wojny totalnej, państwa organizują Gundam Fight: na ringu, którym jest Ziemia, walczą gundamy reprezentujące poszczególne kraje, a zwycięzca zyskuje na cztery lata przywództwo polityczne. W roku 60 Wieku Przyszłości Neo-Japonia wysyła do 13. Gundam Fight Gundam Fightera Domona Kasshu. Podróżując po świecie z przyjaciółką z dzieciństwa i członkinią ekipy, Rain, Domon walczy z gundamami innych krajów i ściga brata, Kyojiego, który uciekł na Ziemię w najpotężniejszej i najstraszliwszej broni, Dark Gundamie. W tej podróży, krzyżując pięści z rywalami, Domon zyskuje ich uznanie i buduje bezcenne przyjaźnie. Spotyka też swego mistrza, zwycięzcę poprzedniego turnieju, Master Asię, lecz ten sprzymierzył się z Dark Gundamem i staje przeciw niemu jako wróg ludzkości. Po morderczych walkach Domon pokonuje wreszcie Dark Gundama, wygrywa zacięty pojedynek z Master Asią i zostaje mistrzem 13. Gundam Fight. Wydaje się, że to koniec, lecz intryga Urubego z Neo-Japonii wskrzesza Dark Gundama z Rain jako biologicznym rdzeniem. Dark Gundam wchłania nawet okoliczne kolonie i rośnie w siłę bardziej niż kiedykolwiek, lecz Domon ratuje ukochaną Rain, a Dark Gundam z rozbitym rdzeniem przestaje istnieć. Gundam Fighterzy, którzy przywrócili światu pokój, ślubują spotkać się za cztery lata na 14. Gundam Fight.
+
+**Getter Robo Arc**
+
+19 lat temu Ryoma Nagare, Go Ichimonji i ich towarzysze zakończyli wojnę ludzkości z potężnym wrogiem i ocalili świat. Czas płynie, a syn Ryomy, Takuma Nagare, przybywa z przyjacielem, Baku Yamagishim, do Laboratorium Saotome, by odnaleźć zabójcę matki. W laboratorium Hayato Jin, członek dawnej drużyny Gettera, szykuje się do walki z nowym wrogiem. Jakby wiedziony przeznaczeniem, Takuma wsiada do Getter Arca i z Kamuiem i Baku rzuca się w wir walki.
+
+**Mobile Suit Gundam Wing: Endless Waltz**
+
+Rok 196 Kalendarza Kolonii. Minął rok od końca wojny, którą rozpoczęła operacja Meteor, zejście pięciu gundamów na Ziemię; świat zmierza ku pokojowi. Dawni piloci gundamów, członkowie agencji wywiadowczej Preventers założonej przez Lady Une, śledzą poczynania tak zwanej Armii Mariemai. Jej przywódczyni, dziewczynka Mariemaia, podaje się za córkę Treize'a Khushrenady, przywódcy światowego państwa, który zginął w ostatniej wojnie, i razem z Dekimem Bartonem, przewodniczącym Fundacji Barton, potajemnie gromadzi siły. Jest wśród nich także pilot gundama, Wufei. Armia Mariemai porywa symbol pokoju, wiceminister spraw zagranicznych Relenę Darlian, wypowiada wojnę światu i przystępuje do “prawdziwej operacji Meteor”, czyli zrzucenia kolonii na Ziemię.
+
+**Mobile Suit Z Gundam**
+
+Rok 0087 Ery Uniwersalnej. Minęło siedem lat od wojny jednorocznej, w której siły Federacji Ziemskiej pokonały armię Księstwa Zeonu. Titans, nowa elitarna formacja w siłach Federacji, brutalnie gnębią Spacenoidów żyjących w koloniach i na Księżycu. Przeciwnicy rosnących w siłę Titans zakładają ruch oporu przeciw Federacji, AEUG. Wśród nich jest Char Aznable, dawny as Księstwa Zeonu, którego Federacja bała się jako “Czerwonej Komety”, teraz pod imieniem Quattro Bajeena. Gdy AEUG atakuje kolonię Green Oasis, bazę Titans, wciągnięty w walkę chłopak, Kamille Bidan, z niechęci do Titans przyłącza się do AEUG. Rzuciwszy się w wir walki jako pilot, rozwija talent Newtype'a. Do wojny AEUG z Titans włącza się Axis, niedobitki Zeonu, i konflikt staje się trójstronny. By przełamać impas, AEUG planuje użyć zdobytego Działa Laserowego Kolonii. Kamille i Quattro toczą zaciętą walkę z Paptimusem Sciroccą z Titans i Haman Karn z Axis, którzy chcą powstrzymać strzał. Działo zostaje odpalone, a wojna, nazwana później konfliktem Gryps, kończy się zwycięstwem AEUG okupionym ogromnymi ofiarami. Quattro przepada jednak w walce z Haman, a Kamille, choć wygrywa zacięty pojedynek z Sciroccą, pod ostatnim ciosem jego zaciekłej woli doznaje załamania psychicznego.
+

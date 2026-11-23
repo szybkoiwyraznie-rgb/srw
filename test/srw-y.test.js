@@ -98,6 +98,15 @@ const POSTACIE_Z_DIALOGU = {
   'Chise Asukagawa': 'chise-asukagawa',
   'Yume Minami': 'yume-minami',
   'Koyomi Yamanaka': 'koyomi-yamanaka',
+  // Misja 1-4: Drzwi stają otworem
+  Domon: 'domon-kasshu',
+  'Domon Kasshu': 'domon-kasshu',
+  Rain: 'rain-mikamura',
+  'Rain Mikamura': 'rain-mikamura',
+  'Novey Dickens': 'novey-dickens',
+  'Mina Narive': 'mina-narive',
+  'Ru Negsis': 'ru-negsis',
+  Ade: 'ade-stradio',
 };
 // Głosy zbiorowe: „Obywatel” i „Żołnierz oddziału D2” to nie osoby, więc nie mają
 // stron (ADR 0013 — bezimienny ogół nie dostaje wpisu); „Prezenter” to głos z transmisji.
@@ -130,8 +139,15 @@ test('SRW Y: epizod wskazuje grę, skrypt i komplet dostarczonych relacji', () =
   assert.equal(epizod.gra, 'srw-y');
   assert.equal(epizod.numer, 1);
   assert.equal(epizod.skrypt, 'episodes/srw-y/ep001.md');
-  assert.deepEqual(epizod.postacie, [...POSTACIE, ...POSTACIE_Z_PROLOGU, ...POSTACIE_Z_MISJI_2A, 'juuga', 'mujina', 'onija', 'sizumu']);
-  assert.deepEqual(epizod.mechy, [...MECHY, 'dynazenon', ...FORMY_PO_TRANSFORMACJI, 'shalbandes']);
+  assert.deepEqual(epizod.postacie, [
+    ...POSTACIE, ...POSTACIE_Z_PROLOGU, ...POSTACIE_Z_MISJI_2A,
+    'juuga', 'mujina', 'onija', 'sizumu',
+    'domon-kasshu', 'rain-mikamura', 'novey-dickens', 'mina-narive', 'ru-negsis', 'ade-stradio',
+  ]);
+  assert.deepEqual(epizod.mechy, [
+    ...MECHY, 'dynazenon', ...FORMY_PO_TRANSFORMACJI, 'shalbandes',
+    'burning-gundam', 'rising-gundam', 'wing-gundam-zero',
+  ]);
   for (const slug of [...SERIE, ...POJECIA, ...POJECIA_Z_MISJI_2A]) {
     assert.ok(epizod.serie?.includes(slug) || epizod.pojecia?.includes(slug), slug);
   }
@@ -153,7 +169,7 @@ test('SRW Y: dostawa ma jedną scenę 1-1C z dosłownym, pełnym fragmentem skry
   assert.match(scena.body, /### A\. Advent - rdzeń Systemu Nira-Kana-I/);
   assert.match(scena.body, /\*\*Cross Tsukinowa:\*\* \*\(Starszy brat cię obroni/);
   assert.doesNotMatch(scena.body, /UCZESTNICY/);
-  assert.equal(strony.filter((s) => s.typ === 'scena' && s.epizod === 'srw-y-ep1').length, 3);
+  assert.equal(strony.filter((s) => s.typ === 'scena' && s.epizod === 'srw-y-ep1').length, 4);
   for (const slug of STARE_SCENY) assert.ok(!bySlug.has(slug), `${slug}: usunięty podział nie jest sceną`);
 });
 
@@ -166,6 +182,7 @@ test('SRW Y: wszystkie profile mechów zachowują dane menu pod zakresem srw-y',
       .map((s) => [s, 'dostawy/srw-y/dostawa_1_2a.txt'])),
     ...Object.fromEntries(['a-advent', 'lunedrache', 'getter-arc', ...FORMY_PO_TRANSFORMACJI]
       .map((s) => [s, 'dostawy/srw-y/dostawa_1_3a.txt'])),
+    lumenus: 'dostawy/srw-y/Y_dostawa_1_4.txt',
   };
   for (const slug of [...MECHY, ...FORMY_PO_TRANSFORMACJI]) {
     const mech = bySlug.get(slug);
@@ -201,6 +218,7 @@ test('SRW Y: każdy nazwany mówca scen epizodu 1 jest postacią w obsadzie swoj
     bySlug.get(SCENA),
     bySlug.get('srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona'),
     bySlug.get('srw-y-ep1-misja-3a-smok-z-polaczenia'),
+    bySlug.get('srw-y-ep1-misja-4-drzwi-staja-otworem'),
   ];
   const widzialni = new Set();
   for (const sc of sceny) {

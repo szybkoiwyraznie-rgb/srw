@@ -5,7 +5,7 @@ tytul: "A. Advent"
 seria: super-robot-wars-original
 typ_mecha: okret
 gry: [srw-y]
-piloci: [echika-y-franburnett, annina-servania]
+piloci: [echika-y-franburnett, annina-servania, novey-dickens, mina-narive]
 pochodzenie: menu
 tagi: [srw-y, okret, super-robot-wars]
 utworzono: 2026-11-09
@@ -19,6 +19,8 @@ Mobilna forteca-miasto zbudowana pod [[miasto-yagami|miastem Yagami]] w Tokio. W
 W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie niebiańskiego demona”]] okręt omija gęsto zaludnione rejony i kieruje się w stronę prefektury Gunma. Po ucieczce burmistrza rząd Japonii przysyła pismo z żądaniem przejęcia jednostki, lecz [[echika-y-franburnett|Echika]] odmawia i ogłasza mieszkańcom [[miasto-yagami|miasta Yagami]] trzy gwarancje: zamieszkania, bezpieczeństwa i energii. Gdy w pobliżu góry Asama okręt atakują [[insector|Insectorzy]] i [[zordo-xx|Zordo XX]], [[hayato-jin|Hayato Jin]] obejmuje go ochroną, zaopatruje w amunicję i powierza załodze [[getter-arc|Getter Arca]] jako środek odstraszający wobec rządu Japonii — licząc zarazem, że A. Advent odciągnie Insectorów od [[laboratorium-saotome|Laboratorium Saotome]].
 
 W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] kopuła zatrzymuje kaiju, które przedostały się do wnętrza miasta. [[cross-tsukinowa|Cross]] każe [[echika-y-franburnett|Echice]] otworzyć jej część, żeby [[dynazenon|Dynazenon]] mógł wyrzucić potwory na zewnątrz, a do zniszczonej dzielnicy mieszkalnej rusza sekcja techniczna i ratownicy. Po walce Echika dziękuje obrońcom i prosi czwórkę pilotów Dynazenona o użyczenie siły okrętowi; [[gauma|Gauma]] zgadza się od razu, a [[chise-asukagawa|Chise]] dołącza jako rezerwowa. Wtedy też po raz pierwszy spotykają się przy jednym stole władca kaiju, drużyna [[getter-arc|Gettera]] i [[ninja|NINJA]].
+
+W [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji „Drzwi stają otworem”]] A. Advent płynie ku Tokio na rozmowy po wezwaniu rządu Japonii do bezwarunkowego udostępnienia okrętu. Podczas ataku [[val-x|VAL-X]] dowodzenie bojowe przejmuje sprowadzony przez Crossa były komandor porucznik [[novey-dickens|Novey Dickens]], a stery systemów obejmuje [[mina-narive|Mina Narive]] — wtedy moc okrętu nagle rośnie o 20% i odblokowuje się wcześniej nieużywane uzbrojenie, a [[heero-yuy|Heero]] słyszy ostrzeżenie Zero Systemu wskazujące okręt jako centrum nadchodzących wydarzeń. Po ogłoszeniu rozpadu [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]] Echika wybiera drogę niezależnego mobilnego miasta-państwa i powołuje straż obywatelską [[yz-next|Yz-Next]].
 }}
 
 {{menu gra=srw-y
