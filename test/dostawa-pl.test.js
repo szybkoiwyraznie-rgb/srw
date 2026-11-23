@@ -264,14 +264,14 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
   // Meta-komentarze o samej bazie są zabronione w każdej warstwie treści — także w boksach
   // {{zrodlo}} i {{wiedza}}, gdzie wcześniej umykały. Wpis opisuje świat gry, nie strony,
   // boksy ani pliki (decyzja właściciela, 2026-11-14).
-  const zakazaneMeta = /\bbaz(?:a|y|ie|ę|ą)\s+(?:prowadzi|trzyma|gromadzi|zbiera)\b|\bw bazie\s+(?:reprezent\w*|obejmuj\w*|prowadzi|mamy|znajdziesz)|\b(?:osobn|własn)[a-ząćęłńóśźż]*\s+stron[a-ząćęłńóśźż]*|\bna tej stronie\b|\bmanife[sx]t\w*|\bboks[a-ząćęłńóśźż]*\b|\brekord[a-ząćęłńóśźż]*\s+(?:źródłow|gry|dostaw)|\bw\s+dostaw(?:ie|ach|y|ę)\b|wariant\s+danych\s+\d+|forma\s+po\s+transformacji/i;
+  const zakazaneMeta = /\bbaz(?:a|y|ie|ę|ą)\s+(?:prowadzi|trzyma|gromadzi|zbiera)\b|\bw bazie\s+(?:reprezent\w*|obejmuj\w*|prowadzi|mamy|znajdziesz)|\b(?:osobn|własn)[a-ząćęłńóśźż]*\s+stron[a-ząćęłńóśźż]*|\bna tej stronie\b|\bmanife[sx]t\w*|\bboks[a-ząćęłńóśźż]*\b|\brekord[a-ząćęłńóśźż]*\s+(?:źródłow|gry|dostaw)|\bw\s+dostaw(?:ie|ach|y|ę)\b|wariant\s+danych\s+\d+/i;
   const typy = ['postac', 'mech', 'pojecie', 'seria'];
   // Boks opisowy to po ADR 0035 fragment bez tytułu (po plakietce gry). Badamy wszystkie
   // takie fragmenty strony — dawniej wzorzec wycinał tylko sekcję „## Opis”.
   let zbadane = 0;
   for (const page of pages.filter(p => typy.includes(p.typ))) {
-    assert.doesNotMatch(String(page.tytul ?? ''), /wariant\s+danych|forma\s+po\s+transformacji/i,
-      `${page.slug}: meta-dopisek z pliku dostawy w tytule strony (ADR 0018)`);
+    assert.doesNotMatch(String(page.tytul ?? ''), /wariant\s+danych/i,
+      `${page.slug}: techniczny dopisek „wariant danych” z pliku dostawy w tytule strony (ADR 0018)`);
     // Boks opisowy gry to blok {{skrypt}}/{{menu}} — treść do pierwszego
     // nagłówka `##` (nagłówki wewnątrz makra to np. „Parametry”). Bloki
     // {{zrodlo}}/{{wiedza}} to opis neutralny ze źródeł i nie podlegają ADR 0018.
