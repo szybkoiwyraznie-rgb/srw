@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-23 23:36
+
+- [[lumenus|Lumenus]] pozostaje w barwach Sił [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]], a cywilny wariant [[lumenus-yellow-version|Lumenus Yellow Version]] jest opisany osobno wraz z użyciem przez [[val-x|VAL-X]] pod Tokio.
+- W [[mobile-suit-gundam-wing-endless-waltz|*Mobile Suit Gundam Wing: Endless Waltz*]] uwzględniono reprezentację [[srw-y|*Super Robot Wars Y*]]: [[heero-yuy|Heero Yuy]] w [[wing-gundam-zero|Wing Gundamie Zero]], obok [[chang-wufei|Chang Wufeia]] w [[altron-gundam|Altronie Gundamie]] i [[taurus|Taurusów]].
+
 ## 2026-11-22 22:30
 
 - W [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji „Drzwi stają otworem”]] prezydent [[ade-stradio|Ade Stradio]] ogłasza rozwiązanie [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]] po zaledwie pół roku i powołanie [[nowa-liga-narodow|Nowej Ligi Narodów]], a [[echika-y-franburnett|Echika]] wybiera drogę niezależnego miasta-państwa i nadaje jego straży obywatelskiej nazwę [[yz-next|Yz-Next]].
