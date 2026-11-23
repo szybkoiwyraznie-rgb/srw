@@ -89,6 +89,16 @@ test('ADR 0046: seria_w_grze przypisuje Heero Yuya i Wing Gundama Zero do właś
   const fullMap = heero.seria_w_grze;
   heero.seria_w_grze = { 'srw-y': 'mobile-suit-gundam-wing-endless-waltz' };
   try {
+    assert.deepEqual(serieDlaGry(heero, 'srw-oe'), ['mobile-suit-gundam-wing']);
+    const srwOeWithDefaultSeries = renderListe('postac', {
+      gra: 'srw-oe', seria: 'mobile-suit-gundam-wing',
+    });
+    assert.match(srwOeWithDefaultSeries, /href="#\/postac\/heero-yuy"/);
+    const srwOeWithOtherSeries = renderListe('postac', {
+      gra: 'srw-oe', seria: 'mobile-suit-gundam-wing-endless-waltz',
+    });
+    assert.doesNotMatch(srwOeWithOtherSeries, /href="#\/postac\/heero-yuy"/);
+
     const htmlSparse = renderEncja('heero-yuy');
     assert.match(htmlSparse, /Mobile Suit Gundam Wing<\/a> \(Super Robot Wars OE\)/);
     assert.match(htmlSparse, /Mobile Suit Gundam Wing: Endless Waltz<\/a> \(Super Robot Wars Y\)/);
@@ -110,6 +120,33 @@ test('ADR 0046: seria_w_grze przypisuje Heero Yuya i Wing Gundama Zero do właś
       gra: 'srw-y', seria: 'mobile-suit-gundam-wing-endless-waltz',
     });
     assert.match(srwYWithEwSeries, /href="#\/postac\/heero-yuy"/);
+
+    const mechList = renderListe('mech', { gra: 'srw-y' });
+    const wingZeroCard = [...mechList.matchAll(/<article class="kafelek-encji"[\s\S]*?<\/article>/g)]
+      .map((match) => match[0])
+      .find((card) => card.includes('href="#/mech/wing-gundam-zero"'));
+    assert.ok(wingZeroCard, 'Wing Gundam Zero appears in the SRW Y mech gallery');
+    assert.match(wingZeroCard, /Mobile Suit Gundam Wing \/ Mobile Suit Gundam Wing: Endless Waltz/);
+    assert.match(mechList, /<option value="mobile-suit-gundam-wing-endless-waltz"/);
+    assert.doesNotMatch(mechList, /<option value="mobile-suit-gundam-wing"/);
+
+    const srwYMechWithTvSeries = renderListe('mech', {
+      gra: 'srw-y', seria: 'mobile-suit-gundam-wing',
+    });
+    assert.doesNotMatch(srwYMechWithTvSeries, /href="#\/mech\/wing-gundam-zero"/);
+    const srwYMechWithEwSeries = renderListe('mech', {
+      gra: 'srw-y', seria: 'mobile-suit-gundam-wing-endless-waltz',
+    });
+    assert.match(srwYMechWithEwSeries, /href="#\/mech\/wing-gundam-zero"/);
+
+    const srwYEpisodeWithTvSeries = renderListe('epizod', {
+      gra: 'srw-y', seria: 'mobile-suit-gundam-wing',
+    });
+    assert.doesNotMatch(srwYEpisodeWithTvSeries, /href="#\/epizod\/srw-y-ep1"/);
+    const srwYEpisodeWithEwSeries = renderListe('epizod', {
+      gra: 'srw-y', seria: 'mobile-suit-gundam-wing-endless-waltz',
+    });
+    assert.match(srwYEpisodeWithEwSeries, /href="#\/epizod\/srw-y-ep1"/);
 
     const srwYSceneWithTvSeries = renderListe('scena', {
       gra: 'srw-y', seria: 'mobile-suit-gundam-wing',
