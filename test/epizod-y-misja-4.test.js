@@ -7,7 +7,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { wczytajStrony, wczytajSkrypty } from '../tools/content-loader.mjs';
-import { zbudujRejestr, sprawdzWiernoscSceny, serieStrony } from '../src/srw/registry.js';
+import { zbudujRejestr, sprawdzWiernoscSceny, serieDlaGry, serieStrony } from '../src/srw/registry.js';
 import { zbudujDane } from '../tools/build.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -68,10 +68,13 @@ test('ADR 0046: seria_w_grze przypisuje Heero Yuya i Wing Gundama Zero do właś
     assert.equal(s.seria_w_grze?.['srw-oe'], 'mobile-suit-gundam-wing', `${slug}: OE`);
     assert.equal(s.seria_w_grze?.['srw-y'], 'mobile-suit-gundam-wing-endless-waltz', `${slug}: Y`);
     assert.deepEqual(serieStrony(s), ['mobile-suit-gundam-wing', 'mobile-suit-gundam-wing-endless-waltz']);
+    assert.deepEqual(serieDlaGry(s, 'srw-oe'), ['mobile-suit-gundam-wing']);
+    assert.deepEqual(serieDlaGry(s, 'srw-y'), ['mobile-suit-gundam-wing-endless-waltz']);
   }
 
   globalThis.SRW_DATA = await zbudujDane({ root: ROOT });
   const { renderEncja } = await import('../src/srw/render-entity.js');
+  const { renderListe } = await import('../src/srw/render-lists.js');
   const htmlHeero = renderEncja('heero-yuy');
   assert.match(htmlHeero, /<dt>Serie<\/dt>/);
   assert.match(htmlHeero, /Mobile Suit Gundam Wing<\/a> \(Super Robot Wars OE\)/);
@@ -80,6 +83,45 @@ test('ADR 0046: seria_w_grze przypisuje Heero Yuya i Wing Gundama Zero do właś
   const htmlEw = renderEncja('mobile-suit-gundam-wing-endless-waltz');
   assert.match(htmlEw, /href="#\/postac\/heero-yuy"/);
   assert.match(htmlEw, /href="#\/mech\/wing-gundam-zero"/);
+
+  // `seria_w_grze` nadpisuje serię dla wskazanej gry; pozostałe dziedziczą `seria`.
+  const heero = globalThis.SRW_DATA.strony['heero-yuy'];
+  const fullMap = heero.seria_w_grze;
+  heero.seria_w_grze = { 'srw-y': 'mobile-suit-gundam-wing-endless-waltz' };
+  try {
+    const htmlSparse = renderEncja('heero-yuy');
+    assert.match(htmlSparse, /Mobile Suit Gundam Wing<\/a> \(Super Robot Wars OE\)/);
+    assert.match(htmlSparse, /Mobile Suit Gundam Wing: Endless Waltz<\/a> \(Super Robot Wars Y\)/);
+
+    const htmlList = renderListe('postac', { gra: 'srw-y' });
+    const heeroCard = [...htmlList.matchAll(/<article class="kafelek-encji"[\s\S]*?<\/article>/g)]
+      .map((match) => match[0])
+      .find((card) => card.includes('href="#/postac/heero-yuy"'));
+    assert.ok(heeroCard, 'Heero Yuy appears in the SRW Y character gallery');
+    assert.match(heeroCard, /Mobile Suit Gundam Wing \/ Mobile Suit Gundam Wing: Endless Waltz/);
+    assert.match(htmlList, /<option value="mobile-suit-gundam-wing-endless-waltz"/);
+    assert.doesNotMatch(htmlList, /<option value="mobile-suit-gundam-wing"/);
+
+    const srwYWithTvSeries = renderListe('postac', {
+      gra: 'srw-y', seria: 'mobile-suit-gundam-wing',
+    });
+    assert.doesNotMatch(srwYWithTvSeries, /href="#\/postac\/heero-yuy"/);
+    const srwYWithEwSeries = renderListe('postac', {
+      gra: 'srw-y', seria: 'mobile-suit-gundam-wing-endless-waltz',
+    });
+    assert.match(srwYWithEwSeries, /href="#\/postac\/heero-yuy"/);
+
+    const srwYSceneWithTvSeries = renderListe('scena', {
+      gra: 'srw-y', seria: 'mobile-suit-gundam-wing',
+    });
+    assert.doesNotMatch(srwYSceneWithTvSeries, new RegExp(`href="#\\/scena\\/${SCENA_SLUG}"`));
+    const srwYSceneWithEwSeries = renderListe('scena', {
+      gra: 'srw-y', seria: 'mobile-suit-gundam-wing-endless-waltz',
+    });
+    assert.match(srwYSceneWithEwSeries, new RegExp(`href="#\\/scena\\/${SCENA_SLUG}"`));
+  } finally {
+    heero.seria_w_grze = fullMap;
+  }
 });
 
 test('Misja 1-4: dostawa ilustracji (2026-11-23) przypisuje cztery pliki jednostek i portrety (w tym osobne OE/Y dla Heero Yuya)', () => {

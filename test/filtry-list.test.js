@@ -10,6 +10,7 @@ import assert from 'node:assert/strict';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { zbudujDane } from '../tools/build.mjs';
+import { serieStrony } from '../src/srw/registry.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 globalThis.SRW_DATA = await zbudujDane({ root: ROOT });
@@ -24,7 +25,7 @@ const linkiHasel = (html) => [...html.matchAll(/href="#\/pojecie\/([^"]+)"/g)].m
 const suroweQuery = (html) => html.match(/data-query='([^']*)'/)?.[1] ?? '';
 
 test('mechy: seria ma opcję „Nieokreślona”, która wybiera maszyny bez serii', () => {
-  const bezSerii = mechy.filter((p) => !p.seria).map((p) => p.slug).sort();
+  const bezSerii = mechy.filter((p) => serieStrony(p).length === 0).map((p) => p.slug).sort();
   assert.ok(bezSerii.length > 0, 'baza ma mechy bez przypisanej serii');
 
   const wszystkie = renderListe('mech');

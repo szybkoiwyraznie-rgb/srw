@@ -10,7 +10,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { wczytajSkrypty, wczytajStrony } from '../tools/content-loader.mjs';
-import { zbudujRejestr, sprawdzWiernoscSceny } from '../src/srw/registry.js';
+import { zbudujRejestr, sprawdzWiernoscSceny, serieStrony } from '../src/srw/registry.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const ARCHIWUM = path.join(ROOT, 'dostawy/srw-y/Y_dostawa_1_1C.txt');
@@ -204,7 +204,7 @@ test('SRW Y: relacje encji prowadzą do epizodu, scen i serii', () => {
   for (const slug of SERIE) {
     const seria = bySlug.get(slug);
     assert.ok(seria.gry.includes('srw-y'), `${slug}: gra`);
-    const encjeSerii = strony.filter((strona) => strona.seria === slug);
+    const encjeSerii = strony.filter((strona) => serieStrony(strona).includes(slug));
     assert.ok(encjeSerii.length > 0, `${slug}: relacje encji z frontmattera`);
   }
   const scena = bySlug.get(SCENA);

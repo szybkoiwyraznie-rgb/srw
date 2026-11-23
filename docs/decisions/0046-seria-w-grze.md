@@ -21,7 +21,8 @@ wielogrowych (np. Amuro Ray i Char Aznable między *Mobile Suit Gundam* w OE a *
 1. **Opcjonalna mapa `seria_w_grze` na stronach `postac` i `mech`.** Pole `seria` zostaje
    głównym (domyślnym) przypisaniem serii; gdy gra przypisuje tę samą encję do innej serii
    niż pozostałe tytuły, strona deklaruje płaską mapę `seria_w_grze` (`gra: slug-serii`),
-   zgodną z jednopoziomowym parserem frontmattera (jak `w_gre`).
+   zgodną z jednopoziomowym parserem frontmattera (jak `w_gre`). Mapa może zawierać tylko
+   nadpisania; gry bez własnego klucza dziedziczą `seria`.
 2. **Walidacja i graf.** Każdy klucz w `seria_w_grze` musi być stroną gry z pola `gry` tej
    encji, a każda wartość — istniejącą stroną typu `seria`. Wszystkie serie z `seria` oraz
    `seria_w_grze` (bez powtórzeń) wchodzą do grafu odsyłaczy, list filtrów i sekcji

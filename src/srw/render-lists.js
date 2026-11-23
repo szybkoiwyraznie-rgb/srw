@@ -12,7 +12,7 @@ import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefListy } from './links.js';
 import { dajStrone, listaStron, listaPosortowana, listaEpizodow, listaFiltrowana, tagiMap, statystyki } from './data.js';
 import { nazwaTypu, numerEpizodu, stanPusty, odmiana } from './render.js';
-import { sortujSceny, serieStrony } from './registry.js';
+import { sortujSceny, serieDlaGry, serieStrony } from './registry.js';
 import { elementSceny } from './render-scene.js';
 
 /** Wymiary kafelka w galerii (px). Suwak reguluje wartość w UI. */
@@ -119,7 +119,7 @@ export function renderListe(typ, query = {}) {
   for (const pole of polaFiltru(typ)) {
     const wartosc = q[pole];
     if (!wartosc) continue;
-    lista = filtrujPoPolu(lista, typ, pole, wartosc);
+    lista = filtrujPoPolu(lista, typ, pole, wartosc, q);
   }
   // Hasła zawężamy też wybranymi tagami — wystarczy jeden z nich (suma wyboru).
   const wybraneTagi = typ === 'pojecie' ? tagiZZapytania(q.tagi) : [];
@@ -206,7 +206,7 @@ function wybierzFiltr(typ, query) {
 }
 
 /** Filtruje listę encji po jednym polu. Wszystkie filtry są stosowane razem (intersection). */
-function filtrujPoPolu(lista, typ, pole, wartosc) {
+function filtrujPoPolu(lista, typ, pole, wartosc, query = {}) {
   if (czyFabula(typ)) return filtrujFabule(lista, typ, pole, wartosc);
   if (pole === 'gra') {
     return lista.filter((p) => {
@@ -215,8 +215,8 @@ function filtrujPoPolu(lista, typ, pole, wartosc) {
     });
   }
   if (pole === 'seria') {
-    if (wartosc === BEZ_SERII) return lista.filter((p) => serieStrony(p).length === 0);
-    return lista.filter((p) => serieStrony(p).includes(wartosc));
+    if (wartosc === BEZ_SERII) return lista.filter((p) => serieDlaGry(p, query.gra).length === 0);
+    return lista.filter((p) => serieDlaGry(p, query.gra).includes(wartosc));
   }
   if (pole === 'epizod') {
     const epizod = dajStrone(wartosc);
@@ -246,19 +246,28 @@ function encjeWpisu(wpis) {
   return [...(wpis.postacie ?? []), ...(wpis.mechy ?? [])].map(dajStrone).filter(Boolean);
 }
 
+/** Serie obsady przypisane do gry, której należy epizod albo scena. */
+function serieEncjiWpisu(wpis) {
+  const gra = graWpisu(wpis);
+  return encjeWpisu(wpis).flatMap((encja) => serieDlaGry(encja, gra));
+}
+
 /**
  * Filtr listy epizodów i scen (ADR 0034).
  *
  * Epizod i scena nie mają pola `seria` — świat biorą z obsady, więc filtr serii
- * pyta, czy występuje w nich choć jedna postać albo maszyna z tej serii.
+ * pyta, czy występuje w nich choć jedna postać albo maszyna przypisana do tej
+ * serii w grze danego epizodu (ADR 0046).
  */
 function filtrujFabule(lista, typ, pole, wartosc) {
   if (pole === 'gra') return lista.filter((p) => graWpisu(p) === wartosc);
   if (pole === 'mech') return lista.filter((p) => (p.mechy ?? []).includes(wartosc));
   if (pole === 'postac') return lista.filter((p) => (p.postacie ?? []).includes(wartosc));
   if (pole === 'seria') {
-    if (wartosc === BEZ_SERII) return lista.filter((p) => encjeWpisu(p).some((e) => serieStrony(e).length === 0));
-    return lista.filter((p) => encjeWpisu(p).some((e) => serieStrony(e).includes(wartosc)));
+    if (wartosc === BEZ_SERII) {
+      return lista.filter((p) => encjeWpisu(p).some((e) => serieDlaGry(e, graWpisu(p)).length === 0));
+    }
+    return lista.filter((p) => serieEncjiWpisu(p).includes(wartosc));
   }
   return lista;
 }
@@ -273,7 +282,7 @@ function encjePoFiltrach(typ, query, pomijajPole) {
         : listaPosortowana(typ);
   for (const [pole, wartosc] of Object.entries(query ?? {})) {
     if (pole === pomijajPole || !wartosc) continue;
-    lista = filtrujPoPolu(lista, typ, pole, wartosc);
+    lista = filtrujPoPolu(lista, typ, pole, wartosc, query);
   }
   return lista;
 }
@@ -389,10 +398,10 @@ function galeriaEncji(lista, typ) {
 /** Jeden kafelek encji w galerii. */
 function kartaKafelka(p, typ) {
   const obraz = ilustracjaEncji(p);
-  const seria = p.seria ? dajStrone(p.seria) : null;
+  const serie = etykietySerii(p);
   const metaCzesci = [];
   if (typ === 'postac' && p.pseudonim) metaCzesci.push(`„${escapeHtml(p.pseudonim)}”`);
-  if (seria) metaCzesci.push(escapeHtml(seria.tytul));
+  if (serie) metaCzesci.push(serie);
   if (typ === 'postac' && p.rola) metaCzesci.push(escapeHtml(p.rola));
   if (typ === 'mech' && Array.isArray(p.piloci) && p.piloci.length) {
     const piloci = p.piloci.map((s) => { const x = dajStrone(s); return x ? escapeHtml(x.tytul) : s; }).join(', ');
@@ -496,8 +505,8 @@ function renderFiltryKrokowe(typ, query) {
       : typ === 'scena' ? listaSceneWszystkie()
         : (typ === 'postac' || typ === 'mech') ? listaGalerii(typ)
           : listaPosortowana(typ);
-    if (query.seria) kandydaci = filtrujPoPolu(kandydaci, typ, 'seria', query.seria);
-    if (query.scena) kandydaci = filtrujPoPolu(kandydaci, typ, 'scena', query.scena);
+    if (query.seria) kandydaci = filtrujPoPolu(kandydaci, typ, 'seria', query.seria, query);
+    if (query.scena) kandydaci = filtrujPoPolu(kandydaci, typ, 'scena', query.scena, query);
     if (kandydaci.length === 0) return false;
     const poleEncji = typ === 'mech' ? 'mechy' : 'postacie';
     const slugi = new Set(e[poleEncji] ?? []);
@@ -516,9 +525,9 @@ function renderFiltryKrokowe(typ, query) {
   }
 
   const kandydaciSerii = encjePoFiltrach(typ, { ...query, seria: undefined }, 'seria');
-  const liczbaBezSerii = kandydaciSerii.filter((p) => serieStrony(p).length === 0).length;
+  const liczbaBezSerii = kandydaciSerii.filter((p) => serieDlaGry(p, query.gra).length === 0).length;
   const serie = kandydaciSerii
-    .flatMap((p) => serieStrony(p))
+    .flatMap((p) => serieDlaGry(p, query.gra))
     .map((slug) => dajStrone(slug))
     .filter(Boolean);
   // unikalne serie, posortowane
@@ -633,11 +642,12 @@ function renderFiltryFabuly(typ, query) {
   };
 
   const gry = zWyborem(poPozostalych('gra').map(graWpisu).map(dajStrone).filter(Boolean), query.gra);
-  const encjeSerii = poPozostalych('seria').flatMap(encjeWpisu);
-  const serie = zWyborem(encjeSerii.flatMap((e) => serieStrony(e)).map(dajStrone).filter(Boolean), query.seria);
+  const encjeSerii = poPozostalych('seria');
+  const serie = zWyborem(encjeSerii.flatMap(serieEncjiWpisu).map(dajStrone).filter(Boolean), query.seria);
   const mechy = zWyborem(poPozostalych('mech').flatMap((p) => (p.mechy ?? []).map(dajStrone)).filter(Boolean), query.mech);
   const postacie = zWyborem(poPozostalych('postac').flatMap((p) => (p.postacie ?? []).map(dajStrone)).filter(Boolean), query.postac);
-  const bezSerii = encjeSerii.some((e) => serieStrony(e).length === 0);
+  const bezSerii = encjeSerii.some((p) => encjeWpisu(p)
+    .some((e) => serieDlaGry(e, graWpisu(p)).length === 0));
 
   const selekt = (pole, etykieta, pusta, opcje, dodatkowe = '') => selektFiltru(pole, etykieta, pusta, opcje, query[pole] ?? '', dodatkowe);
 
@@ -682,14 +692,21 @@ function porownajSceny(a, b) {
   return new Intl.Collator('pl', { numeric: true, sensitivity: 'base' }).compare(String(a.numer_sceny ?? ''), String(b.numer_sceny ?? ''));
 }
 
-/** Opis wiersza listy: pseudonim, seria, rola i liczba maszyn. Rodzaj hasła niesie tag (ADR 0033). */
+/** Nazwy wszystkich serii encji, w tym przypisań zależnych od gry (ADR 0046). */
+function etykietySerii(p) {
+  return serieStrony(p)
+    .map((slug) => dajStrone(slug))
+    .filter(Boolean)
+    .map((s) => escapeHtml(s.tytul))
+    .join(' / ');
+}
+
+/** Opis wiersza listy: pseudonim, serie, rola i liczba maszyn. Rodzaj hasła niesie tag (ADR 0033). */
 function metaEncji(p) {
   const czesci = [];
   if (p.typ === 'postac' && p.pseudonim) czesci.push(`„${escapeHtml(p.pseudonim)}”`);
-  if (p.seria) {
-    const s = dajStrone(p.seria);
-    if (s) czesci.push(escapeHtml(s.tytul));
-  }
+  const serie = etykietySerii(p);
+  if (serie) czesci.push(serie);
   if (p.typ === 'postac' && p.rola) czesci.push(escapeHtml(p.rola));
   if (p.typ === 'postac' && Array.isArray(p.mechy) && p.mechy.length) {
     czesci.push(`${p.mechy.length} ${odmiana(p.mechy.length, ['mech', 'mechy', 'mechów'])}`);

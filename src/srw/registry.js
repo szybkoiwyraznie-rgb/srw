@@ -409,6 +409,13 @@ export function serieStrony(strona) {
   return wynik;
 }
 
+/** Efektywna seria strony dla jednej gry; brak wpisu w mapie dziedziczy `seria` (ADR 0046). */
+export function serieDlaGry(strona, gra) {
+  if (!gra) return serieStrony(strona);
+  const seria = strona?.seria_w_grze?.[gra] ?? strona?.seria;
+  return typeof seria === 'string' && seria !== '' ? [seria] : [];
+}
+
 /** Wszystkie odsyłacze strony (pola-relacje + wikilinki z treści) bez duplikatów. */
 export function odsylaczeStrony(strona) {
   const zbior = new Set();
