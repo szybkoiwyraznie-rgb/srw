@@ -20,7 +20,7 @@ W walce z [[black-tri-stars|Black Tri-Stars]] pierwszy zauważa tempo [[dom|Dom�
 
 Po groźbie użycia bomby wodorowej chce opuścić zagrożony obszar, lecz pozostaje w walce. W dialogu bojowym ostrzega, że eksplozja zniszczy wszystkich, i powierza zatrzymanie [[h-bomb-missile|pocisku]] [[amuro-ray|Amurowi]] oraz Gundamowi.
 
-W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Kai wypytuje [[sergeant-keroro|Keroro]] o jego świat i wiedzę o [[mobile-suit|mobile suitach]], a usłyszawszy nazwę prototypu [[zeon|Zeonu]], próbuje pociągnąć Keronianina za język — traktuje to jak miejską legendę, nie sensację.
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Kai wypytuje [[sergeant-keroro|Keroro]] o jego świat i wiedzę o [[mobile-suit|mobile suitach]]; zwietrzywszy sensację przy wzmiance o prototypie [[zeon|Zeonu]], próbuje pociągnąć Keronianina za język i uspokaja go, że po prostu interesują go takie miejskie legendy.
 }}
 
 {{zrodlo gra=wspolne

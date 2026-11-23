@@ -50,4 +50,5 @@ W [[mobile-suit-gundam-1979|pierwowzorze]] Mash służył w stopniu sierżanta s
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Potenc. Kryt** | 1 | Pozostałe HP 10%: Obr/Unik+4% Cel/Kryt+5% |
+| 2 | **Instynkt** | 3 | Cel,Unik+8 *(1.08)* |
 }}

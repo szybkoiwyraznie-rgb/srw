@@ -264,12 +264,14 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
   // Meta-komentarze o samej bazie są zabronione w każdej warstwie treści — także w boksach
   // {{zrodlo}} i {{wiedza}}, gdzie wcześniej umykały. Wpis opisuje świat gry, nie strony,
   // boksy ani pliki (decyzja właściciela, 2026-11-14).
-  const zakazaneMeta = /\bbaz(?:a|y|ie|ę|ą)\s+(?:prowadzi|trzyma|gromadzi|zbiera)\b|\bw bazie\s+(?:reprezent\w*|obejmuj\w*|prowadzi|mamy|znajdziesz)|\b(?:osobn|własn)[a-ząćęłńóśźż]*\s+stron[a-ząćęłńóśźż]*|\bna tej stronie\b|\bmanife[sx]t\w*|\bboks[a-ząćęłńóśźż]*\b/i;
+  const zakazaneMeta = /\bbaz(?:a|y|ie|ę|ą)\s+(?:prowadzi|trzyma|gromadzi|zbiera)\b|\bw bazie\s+(?:reprezent\w*|obejmuj\w*|prowadzi|mamy|znajdziesz)|\b(?:osobn|własn)[a-ząćęłńóśźż]*\s+stron[a-ząćęłńóśźż]*|\bna tej stronie\b|\bmanife[sx]t\w*|\bboks[a-ząćęłńóśźż]*\b|\brekord[a-ząćęłńóśźż]*\s+(?:źródłow|gry|dostaw)|\bw\s+dostaw(?:ie|ach|y|ę)\b|wariant\s+danych\s+\d+/i;
   const typy = ['postac', 'mech', 'pojecie', 'seria'];
   // Boks opisowy to po ADR 0035 fragment bez tytułu (po plakietce gry). Badamy wszystkie
   // takie fragmenty strony — dawniej wzorzec wycinał tylko sekcję „## Opis”.
   let zbadane = 0;
   for (const page of pages.filter(p => typy.includes(p.typ))) {
+    assert.doesNotMatch(String(page.tytul ?? ''), /wariant\s+danych/i,
+      `${page.slug}: techniczny dopisek „wariant danych” z pliku dostawy w tytule strony (ADR 0018)`);
     // Boks opisowy gry to blok {{skrypt}}/{{menu}} — treść do pierwszego
     // nagłówka `##` (nagłówki wewnątrz makra to np. „Parametry”). Bloki
     // {{zrodlo}}/{{wiedza}} to opis neutralny ze źródeł i nie podlegają ADR 0018.
@@ -299,14 +301,14 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
   }
 });
 
-test('ilustracje właściciela: 304 pliki przy 240 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 314 plików przy 248 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
   // Bieżący stan manifestu jest przypięty tylko tutaj. Testy poszczególnych dostaw sprawdzają
   // własne klucze i to, że manifest nie jest starszy od nich — kolejna dostawa zmienia ten jeden test.
-  assert.equal(Object.keys(manifest.encje).length, 240);
-  assert.equal(Object.values(manifest.encje).flat().length, 304);
-  assert.equal(manifest.dostarczono, '2026-11-21', 'data ostatniej dostawy ilustracji');
+  assert.equal(Object.keys(manifest.encje).length, 248);
+  assert.equal(Object.values(manifest.encje).flat().length, 314);
+  assert.equal(manifest.dostarczono, '2026-11-23', 'data ostatniej dostawy ilustracji');
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   assert.equal(new Set(wszystkie).size, wszystkie.length, 'plik należy do jednej encji');
@@ -336,10 +338,11 @@ test('ilustracje właściciela: 304 pliki przy 240 encjach, w tym postacie i mec
   assert.deepEqual(manifest.encje['raijin-oh'], ['Raijin-Oh.png', 'Raijin-Oh 2.png']);
   // Dostawa ilustracji misji 3-1 (2026-11-14): pięć plików jednostek i cztery portrety.
   assert.deepEqual(manifest.encje['gundam-exia'], ['Gundam Exia.png', 'Gundam Exia 2.png']);
-  assert.deepEqual(manifest.encje['wing-gundam-zero'], ['Wing Zero.png', 'Wing Zero 2.png']);
+  assert.deepEqual(manifest.encje['wing-gundam-zero'], ['Wing Zero.png', 'Wing Zero 2.png', 'Wing Gundam Zero.png']);
   assert.deepEqual(manifest.encje['wing-gundam-zero-nb'], ['Wing Zero NB.png']);
+  assert.deepEqual(manifest.encje['heero-yuy'], ['characters/Heero Yuy OE.png', 'characters/Heero Yuy.png']);
   for (const [slug, plik] of Object.entries({
-    'garma-zabi': 'Garma Zabi', 'heero-yuy': 'Heero Yuy',
+    'garma-zabi': 'Garma Zabi',
     'setsuna-f-seiei': 'Setsuna F. Seisei', uragan: 'Uragan',
   })) {
     assert.deepEqual(manifest.encje[slug], [`characters/${plik}.png`], slug);
@@ -820,8 +823,8 @@ test('dostawa ilustracji misji 3-5 SRW OE (2026-11-20): 20 plików jednostek i 1
   // Catherine Glass zachowuje literówkę właściciela w kluczu R2
   assert.equal(bySlug.get('catherine-glass').tytul, 'Catherine Glass');
   assert.equal(manifest.encje['catherine-glass'][0], 'characters/Cathering Glass.png');
-  // Monica Lang i Rei to nowe postacie z ADR 0017
-  assert.equal(bySlug.get('monica-lang').pochodzenie, 'zrodlo');
+  // Monica Lang i Rei to nowe postacie z ADR 0017; Monica weszła potem do skryptu misji 4-2
+  assert.equal(bySlug.get('monica-lang').pochodzenie, 'skrypt');
   assert.equal(bySlug.get('rei').pochodzenie, 'zrodlo');
   assert.ok(manifest.dostarczono >= '2026-11-19');
   assert.equal(manifest.weryfikacjaZdalna, false);

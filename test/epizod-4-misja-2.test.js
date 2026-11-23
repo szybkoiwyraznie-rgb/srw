@@ -61,8 +61,8 @@ test('scena 4-2 cytuje cały skrypt i mapuje każdy etap analizy', () => {
 test('obsada misji 4-2 obejmuje Getter, Gundam, Keroro, Raijin-Oh i flotę Frontier', () => {
   for (const slug of ['sergeant-keroro', 'kai-shiden', 'hayato-kobayashi', 'himari-yaegaki', 'suol',
     'go', 'kei', 'gai', 'seishiro', 'tsutomu-kojima', 'maria-shiratori', 'jin-hyuga',
-    'asuka-tsukishiro', 'koji-hoshiyama', 'akira-imamura', 'alan-igor', 'bright-noa',
-    'mirai-yashima', 'oscar-dublin', 'marker', 'alto-saotome', 'bobby-margot',
+    'asuka-tsukishiro', 'koji-hoshiyama', 'akira-imamura', 'alan-igor', 'jeffrey-wilder',
+    'bright-noa', 'mirai-yashima', 'oscar-dublin', 'marker', 'alto-saotome', 'bobby-margot',
     'catherine-glass', 'monica-lang', 'mucus']) {
     assert.ok(bySlug.has(slug), `brak postaci ${slug}`);
     assert.ok(scene.postacie.includes(slug), `obsada sceny: ${slug}`);
@@ -73,13 +73,14 @@ test('obsada misji 4-2 obejmuje Getter, Gundam, Keroro, Raijin-Oh i flotę Front
     assert.ok(scene.mechy.includes(slug), `sprzęt sceny: ${slug}`);
     assert.ok(episode.mechy.includes(slug), `sprzęt epizodu: ${slug}`);
   }
-  for (const slug of ['invaderzy', 'promienie-gettera', 'stacja-connect', 'brama-warp', 'connect-force']) {
+  for (const slug of ['invaderzy', 'promienie-gettera', 'stacja-mars', 'brama-warp', 'connect-force']) {
     assert.ok(scene.pojecia.includes(slug), `hasło sceny: ${slug}`);
     assert.ok(episode.pojecia.includes(slug), `hasło epizodu: ${slug}`);
   }
   assert.equal(bySlug.get('mucus').typ, 'postac', 'Mucus jest pilotem, nie pojęciem');
   assert.ok(episode.serie.includes('sgt-frog'));
   assert.ok(episode.serie.includes('getter-robo-armageddon'));
+  assert.ok(episode.serie.includes('matchless-raijin-oh'));
   assert.ok(episode.zrodla.includes('https://en.wikipedia.org/wiki/Sgt._Frog'));
 });
 

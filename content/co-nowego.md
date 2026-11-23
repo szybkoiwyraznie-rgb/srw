@@ -1,5 +1,17 @@
 # Co nowego
 
+## 2026-11-22 22:30
+
+- W [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji „Drzwi stają otworem”]] prezydent [[ade-stradio|Ade Stradio]] ogłasza rozwiązanie [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]] po zaledwie pół roku i powołanie [[nowa-liga-narodow|Nowej Ligi Narodów]], a [[echika-y-franburnett|Echika]] wybiera drogę niezależnego miasta-państwa i nadaje jego straży obywatelskiej nazwę [[yz-next|Yz-Next]].
+- Do załogi [[a-advent|A. Adventu]] dołączają mistrz 13. [[gundam-fight|Gundam Fight]] [[domon-kasshu|Domon Kasshu]] w [[burning-gundam|Burning Gundamie]], [[rain-mikamura|Rain Mikamura]] w [[rising-gundam|Rising Gundamie]] oraz byli żołnierze [[31-samodzielny-korpus|31. Samodzielnego Korpusu]] [[novey-dickens|Novey Dickens]] i [[mina-narive|Mina Narive]]; na polu bitwy pod Tokio pojawia się także [[heero-yuy|Heero Yuy]] w skrzydlatym [[wing-gundam-zero|Wing Gundamie Zero]], siły [[val-x|VAL-X]] rzucają do walki cywilnie malowane [[lumenus-yellow-version|Lumenusy Yellow Version]], a z ukrycia obserwuje okręt [[ru-negsis|Ru Negsis]] z [[wszechgwiezdne-imperium-ra-val|Wszechgwiezdnego Imperium Ra Val]].
+- W głębi okrętu [[cross-tsukinowa|Cross]] likwiduje ósmego androida-szpiega ([[agent|Agenta]]) i zdradza wspólną przeszłość z [[domon-kasshu|Domonem]] z czasów [[devil-gundam-incident|incydentu z Dark Gundamem]], zaś [[yume-minami|Yume Minami]] po raz pierwszy wyznaje [[yomogi-asanaka|Yomogiemu]] historię śmierci swojej starszej siostry przy śluzie.
+
+## 2026-11-22 21:20
+
+- [[pentagona|Pentagona]] — trzecia z potęg sprzymierzonych za [[brama-warp|bramą warp]] obok [[balarant|Balarantu]] i [[grados|Gradosu]] — wywodzi się z pięcioplanetarnego układu słonecznego z *Heavy Metal L-Gaim*, a gigantyczny [[lotniskowiec-gradosu|lotniskowiec Gradosu]] z marsjańskiej doliny należy do ciężkich okrętów tej armii z [[blue-comet-spt-layzner|*Blue Comet SPT Layzner*]].
+- [[cybuster|Cybuster]] jest jednym z czterech Masou Kishin Świętego Królestwa Langranu, związanym paktem z duchem wiatru Syphisem, i potrafi samodzielnie otworzyć bramę między Ziemią a La Gius.
+- W marsjańskiej dolinie [[gosterro|Gosterro]] ponownie wchodzi do walki w [[daljan|Daljanie]] u boku okrętu Gradosu, a w sterowni [[stacja-mars|Stacji Mars]] to [[himari-yaegaki|Himari]] wykrywa na Marsie [[promienie-gettera|promienie Gettera]] o wzorcu [[invaderzy|Invaderów]], podczas gdy [[macross-quarter|Macross Quarter]] osłania stację z mostkiem [[jeffrey-wilder|Jeffreya]], [[bobby-margot|Bobby’ego]], [[catherine-glass|Cathy]] i [[monica-lang|Moniki]].
+
 ## 2026-11-22 21:05
 
 - [[go|Go]], [[kei|Kei]] i [[gai|Gai]] rozpoznają w marsjańskich [[promienie-gettera|promieniach Gettera]] zapowiedź [[invaderzy|Invaderów]]; [[go|Go]] ostrzega, że najeźdźcy mogą celować w bramę warp [[connect-force|Connect]], a [[gai|Gai]] przypomina, że w tej sprawie Go nigdy się nie myli.
@@ -223,7 +235,7 @@
 
 ## 2026-11-16 17:53
 
-- [[historia-ziemi|Sześćdziesiąt lat Nowej Ery Uniwersalnej]] układa w jedną oś dzieje świata przed [[wojna-rewolucyjna|wojną rewolucyjną]]: od Nowej Wojny Galaktycznej i powstania [[n-u-n-g|N.U.N.G.]] w roku NUC 000, przez pierwszy Gundam Fight, walki z Imperium Dinozaurów i Imperium Hyakki oraz wojnę jednoroczną w NUC 048, po narodziny [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]] w NUC 058.
+- [[historia-ziemi|Sześćdziesiąt lat Nowej Ery Uniwersalnej]] układa w jedną oś dzieje świata przed [[wojna-rewolucyjna|wojną rewolucyjną]]: od Nowej Wojny Galaktycznej i powstania [[n-u-n-g|N.U.N.G.]] w roku NUC 000, przez pierwszy [[gundam-fight|Gundam Fight]], walki z Imperium Dinozaurów i Imperium Hyakki oraz wojnę jednoroczną w NUC 048, po narodziny [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]] w NUC 058.
 - Wśród dawnych wrogów ludzkości stają [[campbellianie|Campbellianie]] — najeźdźcy wysyłający na Ziemię bestie magmowe pod wodzą Garudy i cesarzowej Janery, odparci przez Combattlera V, zanim na ich planecie władzę przejęli pacyfiści — oraz [[imperium-yoma|Imperium Yoma]], które upadło niegdyś razem z Imperium Mu i po dwunastu tysiącach lat snu wróciło, by zaprowadzić Erę Demonów.
 - W pobliżu góry Asama [[insector|Insectorzy]] i spadający z góry [[zordo-xx|Zordo XX]] uderzają jako wrogie siły prosto na [[a-advent|A. Advent]]; [[takuma-nagare|Takuma]] i [[baku-yamagishi|Baku]] przejmują zestrzelonego po śmierci pilota [[getter-d2|Gettera D2]], zanim [[show-kamui|Show Kamui]] — pilot Getter Kirika — sprowadzi [[getter-arc|Getter Arca]]. U [[annina-servania|Anniny]], [[gauma|Gaumy]] i [[yomogi-asanaka|Yomogiego]] budzą się kolejne Komendy Ducha: „Błog.”, „Cel.str.” i „Dop.”.
 
@@ -647,7 +659,7 @@
 
 ## 2026-10-25 00:37
 
-- [[devil-gundam-incident|Incydent Devil Gundam]]: Devil Gundam (pierwotnie Ultimate Gundam) potrafi się regenerować, namnażać i ewoluować, a pierwowzór *Mobile Fighter G Gundam* osadza go w roku 60 ery Future Century.
+- [[devil-gundam-incident|Incydent Devil Gundam]]: Devil Gundam (pierwotnie Ultimate Gundam) potrafi się regenerować, namnażać i ewoluować, a pierwowzór [[mobile-fighter-g-gundam|*Mobile Fighter G Gundam*]] osadza go w roku 60 ery Future Century.
 
 ## 2026-10-25 00:30
 
@@ -945,7 +957,7 @@
 
 ## 2026-10-17 23:55
 
-- Prolog [[srw-oe|Super Robot Wars OE]] nawiązuje do [[mazinger-z|Mazingera Z]] i *Mobile Fighter G Gundam*; chronologia [[devil-gundam-incident|incydentu Devil Gundam]] różni się od przyjętej tu.
+- Prolog [[srw-oe|Super Robot Wars OE]] nawiązuje do [[mazinger-z|Mazingera Z]] i [[mobile-fighter-g-gundam|*Mobile Fighter G Gundam*]]; chronologia [[devil-gundam-incident|incydentu Devil Gundam]] różni się od przyjętej tu.
 
 ## 2026-10-17 23:28
 

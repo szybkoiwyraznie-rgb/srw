@@ -265,6 +265,27 @@ export function walidujStrone(strona, ctx) {
     else if (seria.typ !== 'seria') p.push(`${gdzie}: "seria" → "${strona.seria}" ma typ "${seria.typ}"`);
   }
 
+  // Per-game series mapping (ADR 0046): ta sama postać albo maszyna może
+  // należeć w kolejnej grze do innej serii pierwowzoru (np. Gundam Wing w OE,
+  // Gundam Wing: Endless Waltz w Y).
+  if (strona.seria_w_grze !== undefined) {
+    if (strona.typ !== 'postac' && strona.typ !== 'mech') {
+      p.push(`${gdzie}: "seria_w_grze" przysługuje tylko postaci albo mechowi`);
+    } else if (!strona.seria_w_grze || typeof strona.seria_w_grze !== 'object' || Array.isArray(strona.seria_w_grze)) {
+      p.push(`${gdzie}: "seria_w_grze" musi być mapą gra → seria`);
+    } else {
+      const gryStrony = new Set(Array.isArray(strona.gry) ? strona.gry : []);
+      for (const [gra, slugSerii] of Object.entries(strona.seria_w_grze)) {
+        const g = ctx.bySlug.get(gra);
+        if (!g || g.typ !== 'gra') p.push(`${gdzie}: "seria_w_grze.${gra}" nie jest stroną gry`);
+        else if (!gryStrony.has(gra)) p.push(`${gdzie}: "seria_w_grze.${gra}" spoza pola "gry" strony`);
+        const sr = ctx.bySlug.get(slugSerii);
+        if (!sr) p.push(`${gdzie}: "seria_w_grze.${gra}" → "${slugSerii}" nie istnieje w bazie`);
+        else if (sr.typ !== 'seria') p.push(`${gdzie}: "seria_w_grze.${gra}" → "${slugSerii}" ma typ "${sr.typ}"`);
+      }
+    }
+  }
+
   if (strona.typ === 'postac') {
     if (strona.rola !== undefined && !ROLE_POSTACI.includes(strona.rola)) {
       p.push(`${gdzie}: rola "${strona.rola}" poza ${ROLE_POSTACI.join('/')}`);
@@ -377,6 +398,17 @@ export function policzStatystyki(strony) {
   return s;
 }
 
+/** Wszystkie serie strony: `seria` oraz wartości `seria_w_grze`, bez duplikatów (ADR 0046). */
+export function serieStrony(strona) {
+  const wynik = [];
+  const dodaj = (s) => { if (typeof s === 'string' && s !== '' && !wynik.includes(s)) wynik.push(s); };
+  dodaj(strona?.seria);
+  if (strona?.seria_w_grze && typeof strona.seria_w_grze === 'object' && !Array.isArray(strona.seria_w_grze)) {
+    for (const s of Object.values(strona.seria_w_grze)) dodaj(s);
+  }
+  return wynik;
+}
+
 /** Wszystkie odsyłacze strony (pola-relacje + wikilinki z treści) bez duplikatów. */
 export function odsylaczeStrony(strona) {
   const zbior = new Set();
@@ -385,6 +417,7 @@ export function odsylaczeStrony(strona) {
     if (wiele && Array.isArray(wartosc)) for (const cel of wartosc) zbior.add(cel);
     if (!wiele && typeof wartosc === 'string' && wartosc !== '') zbior.add(wartosc);
   }
+  for (const cel of serieStrony(strona)) zbior.add(cel);
   for (const cel of strona.linki ?? []) zbior.add(cel);
   zbior.delete(strona.slug);
   return [...zbior];

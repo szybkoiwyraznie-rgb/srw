@@ -21,6 +21,8 @@ W [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|misji „Przebudzenie n
 W [[srw-y-ep1-misja-3a-smok-z-polaczenia|„Smoku z połączenia”]] trafia do kokpitu [[dynazenon|Dynazenona]] razem z [[yomogi-asanaka|Yomogim]] i [[koyomi-yamanaka|Koyomim]], gdy figurka smoka zamienia się w maszynę. Przed rozdzieleniem sił mówi, że jeśli oni tego nie zrobią, miasto ucierpi, i razem z resztą rusza do walki z kaiju.
 
 Gdy po drugiej stronie kopuły piloci zastanawiają się nad odwrotem, Yume chce zostać: jeśli nie będą walczyć, ucierpi miasto. Później jako pierwsza z trójki odpowiada na pytanie Gaumy o współpracę z Echiką.
+
+W [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji „Drzwi stają otworem”]] w spokojnej rozmowie z [[yomogi-asanaka|Yomogim]] przeprasza za złamaną obietnicę i wyznaje mu, że gdy była w podstawówce, jej starsza siostra zginęła w wypadku przy śluzie — co tłumaczy, dlaczego Yume często przesiaduje tam sama. Bierze udział w obronie [[a-advent|A. Adventu]] i Tokio przed [[val-x|VAL-X]], choć nazwę „straż obywatelska A. Adventu” kwituje krótkim „Obciach…”.
 }}
 
 {{zrodlo gra=wspolne

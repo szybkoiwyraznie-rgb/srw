@@ -21,7 +21,7 @@ Podstawowa, skrzydlata konfiguracja Shin Getter Robo dowodzona przez [[go|Go]] z
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] załoga schodzi w Shin Getterze-1 pod ziemię w poszukiwaniu ocalałych [[invaderzy|Invaderów]] i zostaje zaskoczona przez rój [[mechabestia|mechabestii]] [[bolt-robo-standard|Bolt Robo]]. Po przybyciu [[connect-force|Connect]], [[klasa-obrony-ziemi|Klasy Obrony Ziemi]], [[saurersi|Saurersów]], [[mazinger-z|Mazingera Z]] i [[gurren-lagann|Gurren Laganna]] zespół Gettera przedziera się na drugą stronę skalnej ściany, namierza bramę wypluwającą potwory i przekazuje jej obraz pozostałym jednostkom, po czym wraca z [[seishiro|Seishirem]] na pokład samolotu transportowego Connect jako awangarda wspólnych sił obrony Ziemi.
 
-W [[srw-oe-ep4-szpony-invaderow|„Szponach Invaderów”]] załoga Gettera broni Marsa: [[go|Go]], [[kei|Kei]] i [[gai|Gai]] rozpoznają w [[promienie-gettera|promieniach Gettera]] wzorzec [[invaderzy|Invaderów]], wchodzą do walki u bramy [[mucus-gate-s-in|Mucus Gate]] razem z desantem [[white-base|White Base]] i nie odpuszczają, póki nie padnie ostatni Invader.
+W [[srw-oe-ep4-szpony-invaderow|„Szponach Invaderów”]] załoga Gettera broni Marsa: gdy [[himari-yaegaki|Himari]] wykrywa [[promienie-gettera|promienie Gettera]] o wzorcu [[invaderzy|Invaderów]], [[go|Go]], [[kei|Kei]] i [[gai|Gai]] schodzą na powierzchnię z desantem [[white-base|White Base]], walczą u bramy [[mucus-gate-s-in|Mucus Gate]] i nie odpuszczają, póki nie padnie ostatni Invader.
 }}
 
 {{zrodlo gra=wspolne

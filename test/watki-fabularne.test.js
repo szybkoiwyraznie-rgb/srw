@@ -205,6 +205,11 @@ test('wiersze idą w kolejności scen epizodu', () => {
       // scena 1-3A: Smok z połączenia
       'Spotkanie przy śluzie',
       'Wyrzucenie kaiju poza kopułę',
+      // scena 1-4: Drzwi stają otworem
+      'Wyznanie Yume o śmierci starszej siostry',
+      'Powrót Domona i Rain po 13. Gundam Fight',
+      'Interwencja Heero Yuya w Wing Gundamie Zero (EW)',
+      'Zaciąg Noveya i Miny, nagły skok mocy A. Adventu, obserwacja Ru Negsisa oraz rozpad Nowej Federacji Ziemskiej i powołanie Yz-Next',
     ],
   };
 

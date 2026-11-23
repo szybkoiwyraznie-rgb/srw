@@ -15,10 +15,23 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { wczytajStrony } from '../tools/content-loader.mjs';
+import { INNE_ZAPISY_W_DOSTAWIE } from '../tools/uczestnicy-dostaw.mjs';
 
-/** Pliki dostaw jednej gry w kolejności nazw (`dostawa_1_2a`, `dostawa_1_3a`, dodatek…). */
+/**
+ * Kolejność chronologiczna dostaw jednej gry po numerze epizodu i misji
+ * (np. `Y_dostawa_1_1C` < `dostawa_1_2a` < `dostawa_1_3a` < `Y_dostawa_1_4`),
+ * niezależna od prefiksu nazwy pliku (`Y_`, `OE_`, `dostawa_`).
+ */
+const kluczDostawy = (plik) => {
+  const m = plik.match(/(\d+)_(\d+)([a-z]*)/i);
+  if (!m) return `0000_${plik.toLowerCase()}`;
+  const dodatek = /dodatek|chats/i.test(plik) ? '1' : '0';
+  return `${m[1].padStart(4, '0')}_${m[2].padStart(4, '0')}_${m[3].toLowerCase()}_${dodatek}_${plik.toLowerCase()}`;
+};
+
 const dostawyGry = (gra) => fs.readdirSync(path.join('dostawy', gra))
-  .filter((p) => p.endsWith('.txt')).sort();
+  .filter((p) => p.endsWith('.txt'))
+  .sort((a, b) => kluczDostawy(a).localeCompare(kluczDostawy(b)));
 
 const wczytaj = (gra, plik) => fs.readFileSync(path.join('dostawy', gra, plik), 'utf8').replace(/\r/g, '');
 
@@ -54,11 +67,22 @@ function blokJednostki(tekst, profil) {
     ?? trafienia[0];
   if (!wybrany) return null;
   const koniec = tekst.indexOf('\n---', wybrany.indeks);
-  // Szerokość kolumn, przecinki i inne znaki interpunkcyjne nie są danymi —
-  // porównujemy wartości (liczby i słowa), nie zapis.
-  return tekst.slice(wybrany.indeks, koniec < 0 ? undefined : koniec)
-    .split('\n').map((l) => l.replace(/[\s|,.;:]+/g, ' ').trim())
+  // Pomijamy sam wiersz nagłówka (`## Dynazenon — wariant danych 1` vs `## Dynazenon`),
+  // bo nie jest daną jednostki. Szerokość kolumn, przecinki i inne znaki
+  // interpunkcyjne też nie są danymi — porównujemy wartości (liczby i słowa).
+  const startTresc = tekst.indexOf('\n', wybrany.indeks);
+  const surowy = startTresc < 0 ? '' : tekst.slice(startTresc + 1, koniec < 0 ? undefined : koniec);
+  // Gdy dostawa pomija opis encyklopedyczny albo skraca go do „opis przy pierwszym
+  // wystąpieniu…”, porównujemy parametry/zdolności/broń — sam skrót nie zmienia danych.
+  const bezEnc = !/\*\*Encyklopedia:\*\*/.test(surowy)
+    || /\*\*Encyklopedia:\*\*[^\n]*opis przy pierwszym wystąpieniu/.test(surowy);
+  const normalizuj = (s) => s.split('\n').map((l) => l.replace(/[\s|,.;:]+/g, ' ').trim())
     .filter((l) => l && !/^[-\s|:]+$/.test(l)).join('\n');
+  return {
+    pelny: normalizuj(surowy),
+    bezEncyklopedii: normalizuj(surowy.replace(/\*\*Encyklopedia:\*\*[\s\S]*?(?=\n\| |\n### |$)/, '')),
+    maSkrotEncyklopedii: bezEnc,
+  };
 }
 
 /**
@@ -83,11 +107,18 @@ test('para (mech, gra) ma dane z najpóźniejszej dostawy, która podaje INNE da
       if (profileBezRekordu.has(profil)) continue;
       const biezacy = blokJednostki(wczytaj(gra, path.basename(uzyta)), profil);
       if (!biezacy) continue;
-      for (const plik of dostawyGry(gra).filter((p) => p > path.basename(uzyta))) {
+      const kolejnosc = dostawyGry(gra);
+      const pozycja = kolejnosc.indexOf(path.basename(uzyta));
+      for (const plik of pozycja >= 0 ? kolejnosc.slice(pozycja + 1) : []) {
+        const wariantWPliku = INNE_ZAPISY_W_DOSTAWIE[`${gra}/${plik}|${profil}`];
+        if (wariantWPliku && wariantWPliku !== mech.slug) continue;
         const inny = blokJednostki(wczytaj(gra, plik), profil);
         if (!inny) continue;
         porownan += 1;
-        if (inny === biezacy) continue;
+        const rozne = (biezacy.maSkrotEncyklopedii || inny.maSkrotEncyklopedii)
+          ? inny.bezEncyklopedii !== biezacy.bezEncyklopedii
+          : inny.pelny !== biezacy.pelny;
+        if (!rozne) continue;
         problemy.push(`${mech.slug}: dane z ${gra}/${path.basename(uzyta)}, a późniejsza ${gra}/${plik} podaje inny blok „${profil}”`);
       }
     }

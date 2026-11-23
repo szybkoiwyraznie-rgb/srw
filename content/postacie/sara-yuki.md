@@ -47,4 +47,5 @@ W [[super-beast-machine-god-dancouga|pierwowzorze]] Sara Yuki jest jedyną kobie
 | Slot | Duch | Poz. nauki | Koszt SP | Efekt bazowy |
 | ---: | ------------- | ---------: | -------: | -------------------------------------------- |
 | 1 | **Skupienie** | 1 | 15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25% |
+| 2 | **Zagrz.** | 6 | 20 | Cel: sojusznicy 1 jedn. — Zasięg 3 Morale+5 |
 }}

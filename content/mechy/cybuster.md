@@ -32,7 +32,7 @@ Cybuster był pierwszym oryginalnym mechem Banpresto i zadebiutował w *Super Ro
 [[kuro|Kuro]] i [[shiro-kot|Shiro]] to magiczni towarzysze [[masaki-andoh|Masakiego Andoh]], wspierający go przy obsłudze Cybustera. ([Super Robot Wars Wiki, „Cybuster”, opis wprowadzający](https://superrobotwars.fandom.com/wiki/Cybuster); sprawdzono 2026-10-19).
 
 
-Cybuster jest jedynym z czterech Masou Kishin Królestwa Langranu, który potrafi się przekształcać: przyjmuje wtedy ptasią formę lotną [[cybird|Cybird]], szybszą niż postać humanoidalna ([Siliconera, „Super Robot Taisen’s Mechas Mix It Up In Masou Kishin III: Pride of Justice”](https://www.siliconera.com/super-robot-taisens-mechas-mixing-it-up-in-masou-kishin-iii-pride-of-justice/); sprawdzono 2026-11-20). W niektórych grach cyklu tryb Cybirda jest też częścią ataku Akashic Buster: maszyna taranuje nim cel z ogromną prędkością ([TV Tropes, „Masou Kishin”](https://tvtropes.org/pmwiki/pmwiki.php/Characters/MasouKishin); sprawdzono 2026-11-20).
+Cybuster jest jednym z czterech Masou Kishin Świętego Królestwa Langranu, związanym paktem z duchem wiatru Syphisem; potrafi samodzielnie otworzyć bramę między Ziemią a La Gius oraz przekształcić się w ptasią formę lotną [[cybird|Cybird]] ([Siliconera, „Super Robot Taisen’s Mechas Mix It Up In Masou Kishin III: Pride of Justice”](https://www.siliconera.com/super-robot-taisens-mechas-mixing-it-up-in-masou-kishin-iii-pride-of-justice/); sprawdzono 2026-11-22). W niektórych grach cyklu tryb Cybirda jest też częścią ataku Akashic Buster: maszyna taranuje nim cel z ogromną prędkością ([TV Tropes, „Masou Kishin”](https://tvtropes.org/pmwiki/pmwiki.php/Characters/MasouKishin); sprawdzono 2026-11-20).
 }}
 
 {{menu gra=srw-oe

@@ -16,6 +16,8 @@ utworzono: 2026-11-19
 {{skrypt gra=srw-oe
 
 SPT [[grados|Gradosu]], maszyna dowódcy [[gosterro|Gosterra]]. W [[srw-oe-ep3-napasc-na-baze-marsjanska|„Napaści na bazę marsjańską”]] prowadzi atak na bazę [[earth-federation|Federacji]] na Marsie i nie wycofuje się nawet wtedy, gdy [[albatro-null-eiji-asuka|Eiji]] i [[eskadra-skull|Eskadra Skull]] przechodzą do kontrataku. Dopiero ostrzał [[macross-quarter|Macross Quartera]] zmusza go do odwrotu z pogróżkami pod adresem dezertera.
+
+W [[srw-oe-ep4-atak-na-okret-gradosu|„Ataku na okręt Gradosu”]] Gosterro ponownie wychodzi w Daljanie do walki nad marsjańską doliną u boku [[lotniskowiec-gradosu|lotniskowca Gradosu]], wyzywa Eijiego na pojedynek i po wysadzeniu okrętu wycofuje się z kolejnymi pogróżkami.
 }}
 
 {{zrodlo gra=wspolne

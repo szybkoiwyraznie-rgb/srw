@@ -26,7 +26,7 @@ W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] razem z [[ke
 
 W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|„Klasie Obrony leci w kosmos”]] Jin zgłasza [[klasa-obrony-ziemi|Klasę Obrony Ziemi]] do wyprawy [[connect-force|Connect Force]] obok [[gurren-lagann|Gurren Laganna]]. [[saurersi|Saurersi]] zostają na Ziemi, by walczyć z mechabestiami.
 
-W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Jin proponuje prosto i do rzeczy: skoro [[invaderzy|Invaderzy]] zakorzeniają się przez bramy, trzeba polecieć przez [[brama-warp|bramę warp]] i rozwalić kryjówkę [[mucus|Mucus]]. [[suol|Szef Suol]] przyjmuje ten plan bez zastrzeżeń.
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] Jin proponuje prosto i do rzeczy: skoro [[invaderzy|Invaderzy]] zakorzeniają się przez bramy, trzeba polecieć przez [[brama-warp|bramę warp]] i rozwalić kryjówkę [[mucus|Mucus]]. [[suol|Szef Suol]] chwali jego bezpośredniość i potwierdza ten kierunek, ale od razu zastrzega, że sama walka nie wystarczy — najpierw potrzeba sojuszników i wielu badań.
 }}
 
 {{zrodlo gra=wspolne

@@ -19,7 +19,7 @@ import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefFiltru, hrefListy } from './links.js';
 import { dajStrone, listaStron, listaEpizodow, backlinkiStrony, odsylaczeWychodzace, dajDane } from './data.js';
 import { boksyZHtmliu, quickMenu } from './spis-boksow.js';
-import { sortujSceny } from './registry.js';
+import { sortujSceny, serieStrony } from './registry.js';
 import {
   nazwaTypu, chipsyTagow, linkStrony,
   stanPusty, nieZnalesc, naglowekStrony, numerEpizodu, KOLEJNOSC_TYPOW, odmiana,
@@ -77,11 +77,12 @@ ${naglowekStrony({
 
 function podtytul(s) {
   if (s.typ === 'mech' || s.typ === 'postac') {
-    const seria = s.seria ? dajStrone(s.seria) : null;
+    const serie = serieStrony(s).map((slug) => dajStrone(slug)).filter(Boolean);
     const czesci = [];
     // Pseudonim (ADR 0037): pod nim postać mówi w skrypcie, więc stoi tuż przy tytule.
     if (s.typ === 'postac' && s.pseudonim) czesci.push(`„${escapeHtml(s.pseudonim)}”`);
-    if (seria) czesci.push(`z serii ${linkStrony(seria)}`);
+    if (serie.length === 1) czesci.push(`z serii ${linkStrony(serie[0])}`);
+    else if (serie.length > 1) czesci.push(`z serii ${serie.map(linkStrony).join(' / ')}`);
     return czesci.join(' · ');
   }
   if (s.typ === 'seria') {
@@ -92,6 +93,24 @@ function podtytul(s) {
     return czesci.join(' · ');
   }
   return '';
+}
+
+function wierszSerii(s) {
+  const serie = serieStrony(s).map((slug) => dajStrone(slug)).filter(Boolean);
+  if (serie.length === 0) return null;
+  if (serie.length === 1 || !s.seria_w_grze) {
+    return [serie.length === 1 ? 'Seria' : 'Serie', serie.map(linkStrony).join('<br>')];
+  }
+  // Gdy różne gry przypisują encję do różnych serii (ADR 0046), opisujemy każdą grę.
+  const wpisy = Object.entries(s.seria_w_grze)
+    .map(([graSlug, seriaSlug]) => {
+      const sr = dajStrone(seriaSlug);
+      const gr = dajStrone(graSlug);
+      if (!sr) return null;
+      return gr ? `${linkStrony(sr)} (${escapeHtml(gr.tytul)})` : linkStrony(sr);
+    })
+    .filter(Boolean);
+  return ['Serie', wpisy.length ? wpisy.join('<br>') : serie.map(linkStrony).join('<br>')];
 }
 
 /** Pola infoboksu per typ — metryka, nie narracja. */
@@ -120,13 +139,15 @@ function infoboks(s) {
     dodaj('Odcinki', s.odcinki ? escapeHtml(String(s.odcinki)) : '');
   }
   if (s.typ === 'postac') {
-    dodaj('Seria', s.seria ? linkStrony(dajStrone(s.seria)) : '');
+    const sr = wierszSerii(s);
+    if (sr) dodaj(sr[0], sr[1]);
     dodaj('Pseudonim', s.pseudonim ? escapeHtml(s.pseudonim) : '');
     dodaj('Rola', s.rola ? escapeHtml(s.rola) : '');
     dodaj('Seiyū', s.seiyuu ? escapeHtml(s.seiyuu) : '');
   }
   if (s.typ === 'mech') {
-    dodaj('Seria', s.seria ? linkStrony(dajStrone(s.seria)) : '');
+    const sr = wierszSerii(s);
+    if (sr) dodaj(sr[0], sr[1]);
     dodaj('Typ', s.typ_mecha ? escapeHtml(s.typ_mecha) : '');
     dodaj('Piloci', linkListy(s.piloci));
   }
@@ -148,7 +169,7 @@ function infoboks(s) {
 function slugiMetryki(s) {
   const slugi = [];
   if (s.typ !== 'gra' && Array.isArray(s.gry)) slugi.push(...s.gry);
-  if ((s.typ === 'postac' || s.typ === 'mech') && s.seria) slugi.push(s.seria);
+  if (s.typ === 'postac' || s.typ === 'mech') slugi.push(...serieStrony(s));
   if (s.typ === 'mech' && Array.isArray(s.piloci)) slugi.push(...s.piloci);
   return slugi.filter((slug) => dajStrone(slug));
 }
@@ -163,8 +184,8 @@ function linkListy(slugi) {
 
 /**
  * Listy, które strona składa z pól innych stron: epizody gry (pole `gra`)
- * oraz postacie i mechy serii (pole `seria`). Jedno źródło dla sekcji
- * w treści i dla pomijania powtórzeń w kolumnie bocznej.
+ * oraz postacie i mechy serii (pole `seria` i `seria_w_grze`). Jedno źródło
+ * dla sekcji w treści i dla pomijania powtórzeń w kolumnie bocznej.
  */
 function wlasneListy(s) {
   if (s.typ === 'gra') {
@@ -175,7 +196,7 @@ function wlasneListy(s) {
     return ['postac', 'mech']
       .map((typ) => ({
         typ,
-        pozycje: listaStron(typ).filter((p) => p.seria === s.slug)
+        pozycje: listaStron(typ).filter((p) => serieStrony(p).includes(s.slug))
           .sort((x, y) => String(x.tytul).localeCompare(String(y.tytul), 'pl')),
       }))
       .filter((l) => l.pozycje.length > 0);

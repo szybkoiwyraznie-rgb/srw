@@ -19,7 +19,7 @@ Mucus kieruje błękitnymi jednostkami szturmowymi [[nekton-assault|Nekton Assau
 
 W [[srw-oe-ep2-klasa-obrony-leci-w-kosmos|scenie „Klasa Obrony leci w kosmos”]] [[takako-kojima|Profesor]] ostrzega, że [[mechanization-empire|Imperium Mechanizacji]] potrafi zmechanizować Mucus i wykorzystać ich zdolności, a [[erika-kozu|Elly]] dodaje, że jako słudzy Imperium czynią je silniejszym niż ostatnio.
 
-W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] [[suol|Szef Suol]] opisuje bramy Mucus jako struktury dryfujące w czasoprzestrzeni, które rozsiewają się jak pyłki albo zarodniki w astronomicznych ilościach; zakorzenia się z nich niewiele, ale mnożą się w zawrotnym tempie. Jedna z takich bram osadza się na Marsie i razem z [[invaderzy|Invaderami]] pada pod ostrzałem oddziału desantowego [[white-base|White Base]].
+W [[srw-oe-ep4-szpony-invaderow|scenie „Szpony Invaderów”]] [[suol|Szef Suol]] opisuje bramy Mucus jako struktury dryfujące w czasoprzestrzeni, które rozsiewają się jak pyłki albo zarodniki w astronomicznych ilościach i których na razie nie da się powstrzymać; [[seishiro|Seishiro]] dopowiada, że niewiele z nich się zakorzenia, lecz Mucus muszą się mnożyć w zawrotnym tempie. Jedna z takich bram osadza się na Marsie i razem z [[invaderzy|Invaderami]] pada pod ostrzałem oddziału desantowego [[white-base|White Base]].
 }}
 
 {{menu gra=srw-oe

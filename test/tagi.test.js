@@ -48,6 +48,7 @@ const TAG_SERII = {
   'super-robot-wars-original': 'super-robot-wars',
   'mobile-suit-gundam-wing-endless-waltz': 'gundam-wing',
   'mobile-suit-gundam-wing': 'gundam-wing',
+  'mobile-fighter-g-gundam': 'g-gundam',
   'mobile-suit-gundam-00': 'gundam-00',
   'mobile-suit-z-gundam': 'gundam-z',
   'mobile-suit-gundam-seed-destiny': 'gundam-seed',

@@ -50,4 +50,5 @@ W [[mobile-suit-gundam-1979|pierwowzorze]] Ortega zaczynał jako sierżant sztab
 | Slot | Umiejętność | Poz. nauki | Efekt bazowy |
 |---:|---|---:|---|
 | 1 | **Potenc. Obr** | 1 | Pozostałe HP 10%: Obr+5% Cel/Unik/Kryt+4% |
+| 2 | **Blok** | 3 | Obraż.-16% Sz. 12% *(1.08)* |
 }}

@@ -174,7 +174,10 @@ test('God Raijin-Oh i Real PG Gundam mają sprawdzone tło pierwowzoru (ADR 0008
   assert.deepEqual(bySlug.get('god-raijin-oh').piloci,
     [...bySlug.get('raijin-oh').piloci, 'bakuryu-oh']);
   assert.doesNotMatch(bakuryu.body, /Super Robot Wars GC|sub-pilot|na ekranie załogi/i);
-  assert.doesNotMatch(bySlug.get('devil-gundam-incident').body, /Master Asia|zgładzenia ludzkości|Kasshu|Kyoji/i);
+  // Tło zewnętrzne incydentu Devil Gundam nie zdradza fabuły G Gundama;
+  // blok `gra=srw-y` opisuje wyłącznie to, co sama gra SRW Y (1-4) ujawnia.
+  const zrodloDevil = bySlug.get('devil-gundam-incident').body.match(/\{\{zrodlo[^\n]*\n([\s\S]*?)\n\}\}/)?.[1] ?? '';
+  assert.doesNotMatch(zrodloDevil, /Master Asia|zgładzenia ludzkości|Kasshu|Kyoji/i);
   for (const adres of [
     'https://srw.wiki.cre.jp/wiki/%E3%83%90%E3%82%AF%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%AA%E3%83%BC',
     'https://eldran.fandom.com/wiki/Bakury%C5%AB-Oh',

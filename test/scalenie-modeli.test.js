@@ -16,7 +16,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const strony = wczytajStrony({ root: ROOT });
 const bySlug = new Map(strony.map((s) => [s.slug, s]));
 
-const profile = (strona) => [strona.w_gre?.['srw-oe'], ...(strona.w_gre_dodatkowe ?? [])]
+const profile = (strona) => [...Object.values(strona.w_gre ?? {}), ...(strona.w_gre_dodatkowe ?? [])]
   .filter(Boolean).map((w) => JSON.parse(w));
 
 /** Sekcja parametrów wskazana nazwą po myślniku, do zamknięcia bloku `}}`. */

@@ -17,6 +17,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { zbudujDane } from '../tools/build.mjs';
 
+import { serieStrony } from '../src/srw/registry.js';
+
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 globalThis.SRW_DATA = await zbudujDane({ root: ROOT });
 const DANE = globalThis.SRW_DATA;
@@ -192,7 +194,7 @@ test('lista „Z tej serii” pochodzi z pola seria, nie powtarza podnagłówkó
   for (const seria of serie) {
     const m = miejsca(seria);
     const zPola = Object.values(DANE.strony)
-      .filter((p) => (p.typ === 'postac' || p.typ === 'mech') && p.seria === seria.slug)
+      .filter((p) => (p.typ === 'postac' || p.typ === 'mech') && serieStrony(p).includes(seria.slug))
       .map((p) => p.slug);
 
     assert.deepEqual(posortowane(m.naListach), posortowane(zPola),

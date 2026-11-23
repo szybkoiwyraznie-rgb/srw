@@ -16,7 +16,7 @@ Dowódca ataku [[grados|armii Gradosu]] na bazę w [[daljan|Daljanie]]. W [[srw-
 
 Gdy nadciąga [[macross-quarter|Macross Quarter]], uznaje, że „pionki Connect” nie są takie słabe, i wycofuje się z pogróżką. [[alto-saotome|Alto]] nie rusza w pościg, bo siły wroga są nieznane.
 
-W [[srw-oe-ep4-atak-na-okret-gradosu|„Ataku na okręt Gradosu”]] wychodzi do walki z [[daljan|Daljanem]] na rozkaz [[oficer-gradosu|Oficera Gradosu]], który chce zyskać czas na odwrót. Gdy [[alto-saotome|Alto]] pyta go, czy najazd na Ziemię jest słuszny, odpowiada śmiechem, że nie obchodzi go słuszność — liczy się tylko okazja, żeby się wyszaleć. Wycofuje się z pogróżkami pod adresem [[albatro-null-eiji-asuka|Eijiego]] i zapowiada, że przywiezie jego głowę na Gradosa.
+W [[srw-oe-ep4-atak-na-okret-gradosu|„Ataku na okręt Gradosu”]] rusza do walki w [[daljan|Daljanie]], gdy nad marsjańską doliną pojawia się [[lotniskowiec-gradosu|okręt wojenny Gradosu]], i wyzywa [[albatro-null-eiji-asuka|Eijiego]] na pojedynek. Gdy [[alto-saotome|Alto]] pyta go, czy najazd [[grados|Gradosu]] jest słuszny, odpowiada śmiechem, że nie obchodzi go słuszność — liczy się tylko okazja, żeby się wyszaleć. Wycofuje się z pogróżkami pod adresem Eijiego i zapowiada, że przywiezie jego głowę na Gradosa.
 }}
 
 {{menu gra=srw-oe
