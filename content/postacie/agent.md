@@ -1,7 +1,7 @@
 ---
 typ: postac
 slug: agent
-tytul: "Agent — wariant danych 1"
+tytul: "Agent"
 seria: super-robot-wars-original
 rola: inne
 mechy: []
