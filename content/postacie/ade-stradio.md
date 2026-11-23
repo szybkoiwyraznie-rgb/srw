@@ -17,3 +17,12 @@ Pierwszy i ostatni prezydent [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]
 
 Ogłasza w nim natychmiastowe rozwiązanie Nowej Federacji Ziemskiej oraz jej sił zbrojnych zaledwie pół roku po ich powołaniu, tłumacząc tę decyzję ranami po [[wojna-rewolucyjna|wojnie rewolucyjnej]] i atakami istot spoza ludzkości. Przekazuje pełnię władzy jednostkom administracyjnym drugiego szczebla — dawnym państwom — zapowiada proporcjonalny podział zasobów armii oraz powołanie [[nowa-liga-narodow|Nowej Ligi Narodów]] jako mediatora. Choć bierze winę na nieudolność polityków ze sobą na czele, wyraża nadzieję, że ludzkość przejdzie przez „drzwi, które właśnie stanęły otworem” i zbuduje nowy świat. Jego przemówienie bezpośrednio skłania [[echika-y-franburnett|Echikę Y. Franburnett]] do ogłoszenia niepodległości A. Adventu i powołania straży obywatelskiej [[yz-next|Yz-Next]].
 }}
+
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Ade Stradio — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Ade%20Stradio.png)
+}}

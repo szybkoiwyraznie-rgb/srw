@@ -25,7 +25,11 @@ W [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji „Drzwi stają otworem”]] bez
 
 ### Ilustracja 1
 
-![Lumenus — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Lumenus.png)
+![Lumenus — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Lumenus.png)
+
+### Ilustracja 2
+
+![Lumenus (malowanie żółte) — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Lumenus%20Yellow%20Version.png)
 }}
 
 {{menu gra=srw-y

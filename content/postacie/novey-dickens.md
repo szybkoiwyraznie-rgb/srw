@@ -21,6 +21,15 @@ Wspólnie ze swoją byłą podwładną [[mina-narive|Miną Narive]] natychmiast 
 
 {{menu gra=srw-y
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Novey Dickens — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Novey%20Dickens.png)
+}}
+
+{{menu gra=srw-y
+
 ## Parametry
 
 **Komendy Ducha:**

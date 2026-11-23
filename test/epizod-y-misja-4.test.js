@@ -72,3 +72,28 @@ test('ADR 0046: seria_w_grze przypisuje Heero Yuya i Wing Gundama Zero do właś
   assert.match(htmlEw, /href="#\/postac\/heero-yuy"/);
   assert.match(htmlEw, /href="#\/mech\/wing-gundam-zero"/);
 });
+
+test('Misja 1-4: dostawa ilustracji (2026-11-23) przypisuje cztery pliki jednostek i sześć portretów', () => {
+  const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, 'media/ilustracje.json'), 'utf8'));
+  const oczekiwane = {
+    'burning-gundam': ['Burning Gundam.png'],
+    'rising-gundam': ['Rising Gundam.png'],
+    'lumenus': ['Lumenus.png', 'Lumenus Yellow Version.png'],
+    'wing-gundam-zero': ['Wing Zero.png', 'Wing Zero 2.png', 'Wing Gundam Zero.png'],
+    'ade-stradio': ['characters/Ade Stradio.png'],
+    'domon-kasshu': ['characters/Domon Kasshu.png'],
+    'heero-yuy': ['characters/Heero Yuy.png'],
+    'mina-narive': ['characters/Mina Narive.png'],
+    'novey-dickens': ['characters/Novey Dickens.png'],
+    'rain-mikamura': ['characters/Rain Mikamura.png'],
+  };
+  for (const [slug, pliki] of Object.entries(oczekiwane)) {
+    assert.deepEqual(manifest.encje[slug], pliki, `${slug}: manifest`);
+    const body = bySlug.get(slug).body;
+    assert.match(body, /\{\{menu gra=srw-y\n\n## Ilustracje/, `${slug}: galeria srw-y`);
+    for (const plik of pliki) {
+      const encoded = plik.split('/').map(encodeURIComponent).join('/');
+      assert.ok(body.includes(`${manifest.baseUrl}/${encoded}`), `${slug}: brak URL dla ${plik}`);
+    }
+  }
+});

@@ -28,6 +28,15 @@ W pierwowzorze [[mobile-fighter-g-gundam|*Mobile Fighter G Gundam*]] JMF1336R Ri
 
 {{menu gra=srw-y
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Rising Gundam — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Rising%20Gundam.png)
+}}
+
+{{menu gra=srw-y
+
 ## Parametry
 
 | Parametr           | Wartość bazowa |

@@ -29,6 +29,15 @@ W serialu [[mobile-fighter-g-gundam|*Mobile Fighter G Gundam*]] (1994–1995) Ra
 
 {{menu gra=srw-y
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Rain Mikamura — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Rain%20Mikamura.png)
+}}
+
+{{menu gra=srw-y
+
 ## Parametry
 
 | Parametr    | Wartość bazowa |

@@ -21,6 +21,15 @@ W sali odpraw reaguje z wyczuwalną rezerwą na próbę omówienia warunków umo
 
 {{menu gra=srw-y
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Mina Narive — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Mina%20Narive.png)
+}}
+
+{{menu gra=srw-y
+
 ## Parametry
 
 **Komendy Ducha:**

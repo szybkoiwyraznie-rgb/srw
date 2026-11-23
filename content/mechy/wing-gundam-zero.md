@@ -55,6 +55,15 @@ W OVA i filmie [[mobile-suit-gundam-wing-endless-waltz|*Mobile Suit Gundam Wing:
 ![Wing Gundam Zero — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Wing%20Zero%202.png)
 }}
 
+{{menu gra=srw-y
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Wing Gundam Zero — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Wing%20Gundam%20Zero.png)
+}}
+
 {{menu gra=srw-oe
 
 ## Parametry
