@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-23 23:55
+
+- Przy rdzeniu [[nira-kana-i|Systemu Nira-Kana-I]] [[annina-servania|Annina]] wyjaśnia [[teoria-y|Teorię Y]]: dwa przeciwstawne bieguny tworzą odcinek, a trzeci wektor zmienia go w układ trójramienny, na którym opiera się [[pamiec-stg|pamięć STG]].
+
 ## 2026-11-23 23:50
 
 - W [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|rezydencji Franburnettów]] Cross rozpoznaje androidy jako [[mechaniczne-marionetki|mechaniczne marionetki]] po ich oczach; w [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji „Drzwi stają otworem”]] unieszkodliwia już ósmy egzemplarz, który ma mechanizm samozniszczenia do zatarcia śladów.
