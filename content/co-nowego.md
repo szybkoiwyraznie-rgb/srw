@@ -2,8 +2,8 @@
 
 ## 2026-11-24 00:10
 
-- Przy rdzeniu [[nira-kana-i|Systemu Nira-Kana-I]] Annina wyjaśnia, że jest głównym napędem [[a-advent|A. Adventu]] i kluczem do wydobywania [[pamiec-stg|pamięci STG]].
-- W [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji 1-4]] moc A. Adventu nagle wzrasta; Annina zaznacza, że funkcje Systemu Nira-Kana-I nie zostały w pełni poznane, więc przyczyna pozostaje niejasna.
+- W [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|scenie przy rdzeniu]] Annina przedstawia [[nira-kana-i|System Nira-Kana-I]] jako źródło napędu A. Adventu i klucz do wydobywania [[pamiec-stg|pamięci STG]].
+- W [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji 1-4]] moc A. Adventu nagle wzrasta o 20%; Annina zaznacza, że funkcje Systemu Nira-Kana-I nie zostały w pełni poznane, więc przyczyna pozostaje niejasna.
 
 ## 2026-11-23 23:55
 
