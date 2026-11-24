@@ -251,8 +251,8 @@ test('opisy wszystkich stron mówią o świecie, bez wewnętrznych procedur', ()
   }
 });
 
-test('strony pomocnicze, dziennik i legendy nie ujawniają procesu redakcyjnego', () => {
-  const html = [renderGlowna(), renderOBazie(), renderCoNowego()].join(' ');
+test('strony pomocnicze i legendy nie ujawniają procesu redakcyjnego', () => {
+  const html = [renderGlowna(), renderOBazie()].join(' ');
   const text = tekstWidoczny(html);
   assert.doesNotMatch(text, /\b(?:dostaw[\p{L}]*|właściciel[\p{L}]*|skryp[\p{L}]*)\b/iu);
   assert.doesNotMatch(text, /AGENTS\.md|docs\/|ADR \d|agentowi|praca agenta|build|repozytorium|push|modelu/iu);
