@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-24 00:10
+
+- Przy rdzeniu [[nira-kana-i|Systemu Nira-Kana-I]] Annina wyjaśnia, że jest głównym napędem [[a-advent|A. Adventu]] i kluczem do wydobywania [[pamiec-stg|pamięci STG]].
+- W [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji 1-4]] moc A. Adventu nagle wzrasta; Annina zaznacza, że funkcje Systemu Nira-Kana-I nie zostały w pełni poznane, więc przyczyna pozostaje niejasna.
+
 ## 2026-11-23 23:55
 
 - Przy rdzeniu [[nira-kana-i|Systemu Nira-Kana-I]] [[annina-servania|Annina]] wyjaśnia [[teoria-y|Teorię Y]]: dwa przeciwstawne bieguny tworzą odcinek, a trzeci wektor zmienia go w układ trójramienny, na którym opiera się [[pamiec-stg|pamięć STG]].
