@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-23 23:50
+
+- W [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|rezydencji Franburnettów]] Cross rozpoznaje androidy jako [[mechaniczne-marionetki|mechaniczne marionetki]] po ich oczach; w [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji „Drzwi stają otworem”]] unieszkodliwia już ósmy egzemplarz, który ma mechanizm samozniszczenia do zatarcia śladów.
+
 ## 2026-11-23 23:36
 
 - [[lumenus|Lumenus]] pozostaje w barwach Sił [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]], a cywilny wariant [[lumenus-yellow-version|Lumenus Yellow Version]] jest opisany osobno wraz z użyciem przez [[val-x|VAL-X]] pod Tokio.
