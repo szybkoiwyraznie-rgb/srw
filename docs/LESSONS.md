@@ -532,5 +532,8 @@ Zasady:
   portret, wpis albo seria jako pozycja w bazie — przepisz albo nie pisz.
 - **Dostawa samych ilustracji nie ma wpisu w dzienniku.** Notatka idzie do
   `docs/HISTORIA_WEWNETRZNA.md` i opisu PR.
-- **Słowa ostrzegawcze:** ma/zyskał(a) opis, tło, portret, ujęcie, wizerunek, nawiązanie,
-  odsyła, prowadzi do odcinka, reprezentuje, uwzględniono, opisany osobno, nabiera wyrazu.
+- **Zwroty, przy których warto przeczytać zdanie drugi raz:** ma/zyskał(a) opis, tło,
+  portret, ujęcie, nawiązanie, prowadzi do odcinka, reprezentuje, uwzględniono, opisany
+  osobno. To podpowiedź dla czytającego, nie lista zakazów: te same słowa bywają częścią
+  fabuły. Właściciel odrzucił testy blokujące słowa (2026-11-25) — o wpisie rozstrzyga sens
+  całego zdania.

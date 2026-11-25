@@ -126,3 +126,7 @@ Doprecyzowanie, uchylające w tym zakresie punkt 6 i adnotację z 2026-10-22:
   odcinka 23” — kto, co i w którym odcinku pierwowzoru zrobił.
 - Regexowe testy stylu dziennika usunięto na polecenie właściciela (PR #51), więc zasady
   pilnuje przegląd przed każdym wpisem (lekcja L36).
+- **Bez testów blokujących słowa** (decyzja właściciela z 2026-11-25): to samo słowo może
+  należeć do fabuły („portret” na ścianie, „ujęcie” wroga, „opis” wydarzeń w dialogu), więc
+  lista zakazanych słów blokowałaby zwykłe zdania o świecie. O tym, czy wpis mówi o świecie,
+  rozstrzyga lektura całego zdania, nie pojedyncze słowo.
