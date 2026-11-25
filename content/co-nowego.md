@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-25 19:55
+
+- Seria [[goshogun|GoShogun]] zyskała tło z pierwowzoru z 1981 roku: forteca Good Thunder, energia Beamler i organizacja Dokuga, w grze nazywana Docougarem. [[goshogun-robo|GoShogun]] ma opis trzech myśliwców — King Arrow, Queen Rose i Jack Knight — oraz broni z serialu.
+- [[shingo-hojo|Shingo Hojo]], [[killy-gagley|Killy Gagley]] i [[remy-shimada|Remy Shimada]] mają pełniejsze opisy przybycia w okolice Marsa i portrety z serialu, a [[karen-joshua|Karen Joshua]] na pokładzie [[macross-quarter|Macross Quartera]] wzdycha nad czyszczeniem GoShoguna.
+
 ## 2026-11-25 18:20
 
 - W [[srw-oe-ep4-przybysz-z-innego-czasu|misji 4-3 „Przybysz z innego czasu”]] drużyna Good Thunder z [[goshogun-robo|GoShogunem]] walczy u boku [[connect-force|Connect Force]] z mechabestiami i [[dark-go-saurer|Dark Go-Saurerem]], a następnie niszczy [[mucus-gate-s-mc|Mucus Gate S MC]]. [[shingo-hojo|Shingo Hojo]], [[killy-gagley|Killy Gagley]] i [[remy-shimada|Remy Shimada]] przyjmują zaproszenie do współpracy; [[yoko-kuriki|Yoko Kuriki]] ostrzega o mechabestiach.
