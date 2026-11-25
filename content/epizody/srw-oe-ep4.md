@@ -68,6 +68,7 @@ Po bitwie Shingo, Killy i Remy przyjmują propozycję dołączenia do Connect Fo
 | Raport po operacji i gotowość floty | [[srw-oe\|Super Robot Wars OE]] | n/d | Ocena, że flota działa sprawnie bez wspólnych ćwiczeń, domyka wątek przerwanych ćwiczeń z Eskadrą Skull i jest rozwiązaniem autorskim. |
 | Przybycie drużyny Good Thunder do pasa asteroid Marsa | [[srw-oe\|Super Robot Wars OE]] | n/d | GoShogun i jego załoga trafiają do świata, którego nie potrafią rozpoznać; rozważają skok w przyszłość lub do innej rzeczywistości. |
 | Dark Go-Saurer oraz Mucus Gate S MC | [[srw-oe\|Super Robot Wars OE]] | n/d | Dark Go-Saurer jest wrogą imitacją rozpoznaną przez Saurersów, a Mucus Gate S MC pełni rolę celu misji, nie pilotowanej jednostki. |
+| Podróbka GoShoguna jako miara dla Dark Go-Saurera | [[goshogun\|GoShogun]] | odc. 23 „Good Thunder on the Loose” | W serialu Go-Naghoul to podróbka GoShoguna zbudowana przez Dokugę; w misji 4-3 [[remy-shimada\|Remy]] przywołuje go na widok kopii King Go-Saurera z innego świata. |
 | Dołączenie GoShoguna do Connect Force | [[srw-oe\|Super Robot Wars OE]] | n/d | Po bitwie Shingo Hojo, Killy Gagley i Remy Shimada przyjmują zaproszenie, ale zaznaczają, że zachowają własne zasady. |
 | Wsparcie organizacji dla ekspedycji Connect | [[srw-oe\|Super Robot Wars OE]] | n/d | Zakończenie zakłada zaangażowanie dodatkowych sił, sprzętu i ludzi; powodzenie ekspedycji ma dopiero dowieść partnerom wartości współpracy. |
 

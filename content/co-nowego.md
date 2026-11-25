@@ -1,5 +1,10 @@
 # Co nowego
 
+## 2026-11-25 20:10
+
+- [[srw-oe-ep4-przybysz-z-innego-czasu|Misja 4-3]] ma nawiązanie do 23. odcinka *GoShoguna*: porównując [[dark-go-saurer|Dark Go-Saurera]] do Go-Naghoula, [[remy-shimada|Remy]] przywołuje podróbkę GoShoguna zbudowaną przez Dokugę.
+- [[dark-go-saurer|Dark Go-Saurer]] ma opis z serialu [[nekketsu-saikyo-go-saurer|*Nekketsu Saikyō Go-Saurer*]] — mroczna kopia [[king-go-saurer|King Go-Saurera]] zbudowana przez [[mechanization-empire|Imperium Mechanizacji]] — oraz pełniejszy przebieg starcia z [[connect-force|Connect Force]].
+
 ## 2026-11-25 19:55
 
 - Seria [[goshogun|GoShogun]] zyskała tło z pierwowzoru z 1981 roku: forteca Good Thunder, energia Beamler i organizacja Dokuga, w grze nazywana Docougarem. [[goshogun-robo|GoShogun]] ma opis trzech myśliwców — King Arrow, Queen Rose i Jack Knight — oraz broni z serialu.
