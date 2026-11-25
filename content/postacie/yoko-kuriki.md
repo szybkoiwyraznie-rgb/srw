@@ -17,6 +17,8 @@ utworzono: 2026-10-23
 Uczennica klasy [[klasa-obrony-ziemi|Obrony Ziemi]] z [[akademia-hinobori|Akademii Hinobori]], wołana zdrobnieniem Cookie. Podczas ćwiczeń z [[connect-force|Connect]] jako pierwsza zgłasza, że udało się zrzucić Labora z wyższego poziomu.
 
 Na jej słowa [[seishiro|Seishiro]] wyjaśnia [[himari-yaegaki|Himari]], że upadek z wysokości zadaje celowi dodatkowe obrażenia, i prosi ją, żeby to zapamiętała.
+
+W [[srw-oe-ep4-przybysz-z-innego-czasu|misji „Przybysz z innego czasu”]] występuje pod swoim przydomkiem Cookie i ostrzega, że Connect Force otaczają mechabestie.
 }}
 
 {{zrodlo gra=wspolne
