@@ -28,6 +28,15 @@ W serialu *GoShogun* Killy Gagley pilotuje trzeci myśliwiec, Jack Knight, któr
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Killy Gagley — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Killy%20Gagley.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Killy

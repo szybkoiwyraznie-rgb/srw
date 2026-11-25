@@ -29,6 +29,19 @@ W serialu [[nekketsu-saikyo-go-saurer|*Nekketsu Saikyō Go-Saurer*]] Dark Go-Sau
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Dark Go-Saurer — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dark%20Go-Saurer.png)
+
+### Ilustracja 2
+
+![Dark Go-Saurer — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Dark%20Go-Saurer%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Nekketsu Saikyo Go-Saurer

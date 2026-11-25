@@ -28,6 +28,15 @@ W serialu *GoShogun* Remy Shimada pilotuje myśliwiec Queen Rose, który dokuje 
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Remy Shimada — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Remy%20Shimada.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Remy

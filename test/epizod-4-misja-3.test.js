@@ -148,3 +148,27 @@ test('nowe profile GoShoguna i Dark Go-Saurera pochodzą z dostawy 4-3', () => {
   assert.match(profileDark.dane, /Dark Launcher/);
   assert.match(profileDark.dane, /Dark Spartan/);
 });
+
+test('Misja 4-3: dostawa ilustracji (2026-11-25) przypisuje cztery pliki jednostek i pięć portretów', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const oczekiwane = {
+    'goshogun-robo': ['GoShogun.png', 'GoShogun 2.png'],
+    'dark-go-saurer': ['Dark Go-Saurer.png', 'Dark Go-Saurer 2.png'],
+    'killy-gagley': ['characters/Killy Gagley.png'],
+    'mina-roshan': ['characters/Mina Roshan.png'],
+    'ram-hoa': ['characters/Ram Hoa.png'],
+    'remy-shimada': ['characters/Remy Shimada.png'],
+    'shingo-hojo': ['characters/Shingo Hojo.png'],
+  };
+  assert.ok(manifest.dostarczono >= '2026-11-25', 'manifest nie jest starszy od tej dostawy');
+  for (const [slug, pliki] of Object.entries(oczekiwane)) {
+    assert.deepEqual(manifest.encje[slug], pliki, `${slug}: manifest`);
+    const body = bySlug.get(slug).body;
+    assert.match(body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria srw-oe`);
+    pliki.forEach((plik, i) => {
+      const encoded = plik.split('/').map(encodeURIComponent).join('/');
+      assert.ok(body.includes(`${manifest.baseUrl}/${encoded}`), `${slug}: brak URL dla ${plik}`);
+      assert.ok(body.includes(`ilustracja ${i + 1} z ${pliki.length}`), `${slug}: podpis ilustracji ${i + 1}`);
+    });
+  }
+});
