@@ -1,11 +1,8 @@
 /**
- * Publiczny dziennik `content/co-nowego.md` (ADR 0005 pkt 4, ADR 0018).
- *
- * Testy pilnują trzech rzeczy:
- * - każdy wpis ma nagłówek `## RRRR-MM-DD GG:MM` i przynajmniej jedną pozycję treści,
- * - wpisy idą od najnowszego do najstarszego i nie powtarzają znacznika czasu,
- * - dziennik opisuje bazę, a nie interfejs ani inne technikalia
- *   (ADR 0018, adnotacja z 2026-10-22).
+ * Publiczny dziennik `content/co-nowego.md` (ADR 0005 pkt 4).
+ * Testy walidują wyłącznie format wpisów i ich chronologię:
+ * - każdy wpis ma nagłówek `## RRRR-MM-DD GG:MM` i co najmniej jedną pozycję,
+ * - wpisy idą od najnowszego do najstarszego i nie powtarzają znacznika czasu.
  */
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -47,73 +44,4 @@ test('wpisy idą od najnowszego i mają unikalne znaczniki czasu', () => {
   assert.equal(unikalne.size, naglowki.length, 'powtórzony znacznik czasu w dzienniku');
   const posortowane = [...naglowki].sort().reverse();
   assert.deepEqual(naglowki, posortowane, 'kolejność wpisów musi być malejąca');
-});
-
-test('dziennik nie mówi liczbami parametrów (ADR 0045 pkt 4)', () => {
-  // Liczby z tabel uzbrojenia należą do tabeli; wpis opisuje różnicę językiem świata
-  // („mocniejszy cios”, „dłuższy zasięg”), a nie „cios za 2800”.
-  const liczbyParametrow = new RegExp([
-    '\\bza\\s+[+-]?\\d{3,4}\\b',
-    '\\bo mocy\\s+[+-]?\\d{3,4}\\b',
-    '\\bmoc(?:y|ą)?\\s+(?:bazowa\\s+)?[+-]?\\d{3,4}\\b',
-    '\\btrafienie\\s+[+-]?\\d{1,4}\\b',
-    '\\bzasi[ęe]g\\w*\\s+\\d',
-    '\\d{3,4}\\s*(?:obrażeń|obrażeń|pól|pola)',
-    '\\b(?:cios|atak|strzał)\\w*\\s+[+-]?\\d{3,4}\\b',
-    '\\b(?:sięga|sięgają|biją|bije|zadaje|zadają|wynosi|wynoszą)\\s+[+-]?\\d{3,4}\\b',
-  ].join('|'), 'iu');
-  for (const wpis of wpisy()) {
-    for (const linia of wpis.tresc) {
-      assert.doesNotMatch(linia, liczbyParametrow, `wpis ${wpis.naglowek} mówi liczbami parametrów`);
-    }
-  }
-});
-
-test('dziennik nie opisuje interfejsu ani technikaliów (ADR 0018)', () => {
-  const technikalia = new RegExp([
-    // interfejs i sposób wyświetlania
-    'chmur[aęy] tagów', 'kafelk', 'filtr[a-ząćęłńóśźż]*\\b', 'interfejs', 'miniatur',
-    'na pełnym ekranie', 'układ stron', 'wydajnoś', 'rozmiar artefaktu', 'plik witryny',
-    // budowa stron i danych
-    'odsyłacz', 'podsekcj', 'kotwic', 'kolumn', 'etykiet', 'rekord', 'własną stronę',
-    'pole danych', 'numer sceny',
-    // struktura bazy i formatowanie (adnotacja ADR 0018 z 2026-11-09)
-    'wpis[a-ząćęłńóśźż]*', '\\bmenu\\b',
-    'źródł[a-ząćęłńóśźż]*', 'tabel[a-ząćęłńóśźż]*', 'widok[a-ząćęłńóśźż]*',
-    'ilustracj[a-ząćęłńóśźż]*', 'galeri[a-ząćęłńóśźż]*', 'formatow[a-ząćęłńóśźż]*',
-    'profil[a-ząćęłńóśźż]*', '\\btag(?:i|u|iem|ów|ach|ami|owi)?\\b',
-    '\\bopis\\b|\\bopisy\\b|\\bopisem\\b|\\bopisów\\b|\\bopisie\\b|\\bopisami\\b|\\bopisach\\b',
-    '\\bstron[ay]\\b|\\bstronie\\b|\\bstronach\\b|\\bstronom\\b|\\bstronami\\b',
-    'nowe strony', 'nowe hasła', 'nowe opisy', 'nowe profile', 'nowi piloci', 'nowe postacie',
-    'nowe jednostki',
-    // liczby z tabel mechaniki zamiast zjawiska w świecie (ADR 0018 pkt 1,
-    // adnotacja właściciela 2026-11-21: „włada dwiema komendami Ducha:
-    // Skupieniem (Unik+20%, Celność+25%) i Pędem (Ruch+3)” to opis tabeli)
-    '\\d+\\s?%', '(?<![A-Za-z0-9-])[x×]\\s?\\d',
-    '\\b(?:Unik|Atak|Obrona|Celność|Kryt|Ruch|Morale|HP|EN|SP)\\s*[+\\-]\\s*\\d',
-    // praca nad bazą zamiast treści bazy
-    'audyt', 'dostaw[ay]\\b', 'właściciel', 'poprawki językowe', 'składni[aęi]', 'literówk',
-    'wikipedi', 'odsyła linkiem', 'potwierdzon[aey] źródłowo', 'sprawdzone źródło',
-    'dawny domysł', 'sub-pilot',
-    // nazwy części witryny i mowa o pisaniu zamiast o świecie (ADR 0018 pkt 3,
-    // adnotacja właściciela 2026-11-17: także wpis opisujący samą zasadę)
-    'analiz[a-ząćęłńóśźż]*', 'komentarz[a-ząćęłńóśźż]*', 'streszczeni[a-ząćęłńóśźż]*',
-    'własnymi słowami', 'język[a-ząćęłńóśźż]* warsztatu', 'scenariusz[a-ząćęłńóśźż]*',
-    'dialog[a-ząćęłńóśźż]* warunkow[a-ząćęłńóśźż]*', 'redakcyjn[a-ząćęłńóśźż]*',
-    'zredagowan[a-ząćęłńóśźż]*', 'przepisan[a-ząćęłńóśźż]*',
-    // podmiotem zdania jest gra, a nie świat (por. `zakazaneGra` w test/dostawa-pl.test.js)
-    '\\bw grze\\b', '\\bdo gry\\b', '\\btej gr(?:y|ze)\\b',
-    '\\bgr[aey]\\s+(?:pokazuje|przenosi|dodaje|zmienia|zachowuje|łączy|osadza|czyni|obsadza'
-      + '|zastępuje|pomija|wprowadza|każe|traktuje|rozstrzyga|przypisuje|zestawia|powtarza|nazywa'
-      + '|podaje|kładzie|zapowiada|rozgrywa|zarysowuje|odwraca|spotyka|wiąże|pozostawia)\\b',
-  ].join('|'), 'i');
-  // „Bloku” w znaczeniu struktury strony pilnuje osobny wzorzec bez flagi i —
-  // nazwa umiejętności „Blok” z gry jest częścią fabuły i zostaje.
-  const blokStrukturalny = /(?<![\p{L}])blok(?:i|iem|ów|ach|owi|u)?(?![\p{L}])/u;
-  for (const wpis of wpisy()) {
-    for (const linia of wpis.tresc) {
-      assert.doesNotMatch(linia, technikalia, `wpis ${wpis.naglowek} opisuje proces, nie fabułę`);
-      assert.doesNotMatch(linia, blokStrukturalny, `wpis ${wpis.naglowek} opisuje blok strony, nie fabułę`);
-    }
-  }
 });

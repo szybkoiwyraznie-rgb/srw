@@ -101,8 +101,13 @@ function wierszSerii(s) {
   if (serie.length === 1 || !s.seria_w_grze) {
     return [serie.length === 1 ? 'Seria' : 'Serie', serie.map(linkStrony).join('<br>')];
   }
-  // Gdy różne gry przypisują encję do różnych serii (ADR 0046), opisujemy każdą grę.
-  const wpisy = Object.entries(s.seria_w_grze)
+  // Gdy różne gry przypisują encję do różnych serii (ADR 0046), opisujemy
+  // każde efektywne przypisanie. Gry bez jawnego wpisu dziedziczą serię domyślną.
+  const mapa = s.seria_w_grze;
+  const gry = Array.isArray(s.gry) ? s.gry : Object.keys(mapa);
+  const wpisy = gry
+    .map((graSlug) => [graSlug, mapa[graSlug] ?? s.seria])
+    .filter(([, seriaSlug]) => typeof seriaSlug === 'string' && seriaSlug !== '')
     .map(([graSlug, seriaSlug]) => {
       const sr = dajStrone(seriaSlug);
       const gr = dajStrone(graSlug);

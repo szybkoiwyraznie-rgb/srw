@@ -5,17 +5,17 @@ tytul: Epizod 4
 gra: srw-oe
 numer: 4
 skrypt: episodes/srw-oe/ep004.md
-postacie: [albatro-null-eiji-asuka, gosterro, oficer-gradosu, zolnierz-gradosu, bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, amuro-ray, suol, seishiro, himari-yaegaki, jeffrey-wilder, catherine-glass, alto-saotome, simon, kamina, yoko, boota, koji-kabuto, ryo-shiba, masato-shikibu, alan-igor, kei, gai, shinobu-fujiwara, rei, sergeant-keroro, kai-shiden, hayato-kobayashi, go, tsutomu-kojima, maria-shiratori, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, akira-imamura, bobby-margot, monica-lang, mucus]
-mechy: [enh-layzner, braver, daljan, lotniskowiec-gradosu, white-base, macross-quarter, shin-getter-1, invader-air, invader-ground, mucus-gate-s-in]
-pojecia: [connect-force, stacja-mars, brama-warp, ark-ship, grados, earth-federation, eskadra-skull, balarant, pentagona, apollo-x, zwiazek-gilgamesh, invaderzy, promienie-gettera, mobile-suit, zeon]
-serie: [blue-comet-spt-layzner, mobile-suit-gundam-1979, macross-frontier, tengen-toppa-gurren-lagann, mazinger-edition-z-the-impact, super-beast-machine-god-dancouga, getter-robo-armageddon, matchless-raijin-oh, super-robot-wars-original, sgt-frog]
+postacie: [albatro-null-eiji-asuka, gosterro, oficer-gradosu, zolnierz-gradosu, bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, amuro-ray, suol, seishiro, himari-yaegaki, jeffrey-wilder, catherine-glass, alto-saotome, simon, kamina, yoko, boota, koji-kabuto, ryo-shiba, masato-shikibu, alan-igor, kei, gai, shinobu-fujiwara, rei, sergeant-keroro, kai-shiden, hayato-kobayashi, go, tsutomu-kojima, maria-shiratori, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, akira-imamura, bobby-margot, monica-lang, mucus, shingo-hojo, killy-gagley, remy-shimada, yoko-kuriki, mina-roshan, ram-hoa, karen-joshua, mechabestia]
+mechy: [enh-layzner, braver, daljan, lotniskowiec-gradosu, white-base, macross-quarter, shin-getter-1, invader-air, invader-ground, mucus-gate-s-in, exart, goshogun-robo, raijin-oh, bolt-robo-anti-air, bolt-robo-long-range, bolt-robo-melee, bolt-robo-standard, dark-go-saurer, mucus-gate-s-mc, keroro-robo-mk-ii, go-saurer, king-go-saurer]
+pojecia: [connect-force, stacja-mars, brama-warp, ark-ship, grados, earth-federation, eskadra-skull, balarant, pentagona, apollo-x, zwiazek-gilgamesh, invaderzy, promienie-gettera, mobile-suit, zeon, mechanization-empire]
+serie: [blue-comet-spt-layzner, mobile-suit-gundam-1979, macross-frontier, tengen-toppa-gurren-lagann, mazinger-edition-z-the-impact, super-beast-machine-god-dancouga, getter-robo-armageddon, matchless-raijin-oh, super-robot-wars-original, sgt-frog, goshogun, nekketsu-saikyo-go-saurer]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner
   - https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS
   - https://en.wikipedia.org/wiki/Heavy_Metal_L-Gaim
   - https://en.wikipedia.org/wiki/Sgt._Frog
-tagi: [srw-oe, mars, grados, layzner, getter-robo, sgt-frog, connect]
+tagi: [srw-oe, mars, grados, layzner, getter-robo, sgt-frog, connect, goshogun, eldran, macross, frontier, mucus]
 utworzono: 2026-11-21
 ---
 
@@ -43,6 +43,14 @@ W sterowni [[stacja-mars|Stacji Connect w sektorze Marsa]] [[himari-yaegaki|Hima
 
 Na Marsie [[oscar-dublin|Oscar]] rozpoznaje anomalię przed okrętem i załoga Gettera wita Invaderów. Po walce [[kei|Kei]] melduje, że nowych już nie przybędzie, Oscar potwierdza zniszczenie bramy, a [[bright-noa|Bright]] zostawia zbieranie próbek Connect. Na mostku Macross Quartera [[monica-lang|Monica]] przekazuje wiadomość o sukcesie, a [[jeffrey-wilder|Jeffrey]] przyznaje, że flota może działać bez wspólnych ćwiczeń.
 
+### [[srw-oe-ep4-przybysz-z-innego-czasu|Misja 3: Przybysz z innego czasu]]
+
+W stołówce Stacji Connect [[seishiro|Seishiro]] ponownie próbuje uzyskać od [[sergeant-keroro|Keroro]] dane o Keroro Robo Mk-II, potrzebne do planowania i zaopatrzenia; [[himari-yaegaki|Himari]] łagodzi spór, zanim alarm o mechabestiach przerywa rozmowę. Gdy [[white-base|White Base]] przechodzi przebudowę, [[jeffrey-wilder|Jeffrey]] wysyła na Marsa Macross Quarter. Załoga obserwuje, że mechabestie już walczą z nieznaną jednostką.
+
+To [[goshogun-robo|GoShogun]] z drużyny Good Thunder. [[shingo-hojo|Shingo Hojo]], [[killy-gagley|Killy Gagley]] i [[remy-shimada|Remy Shimada]] nie rozpoznają okolic Marsa i zastanawiają się, czy trafili do przyszłości albo innego świata. Wspólnie z Connect Force, [[exart|Exartem]], [[raijin-oh|Raijin-Ohem]] i [[macross-quarter|Macross Quarterem]] odpierają fale czterech odmian Bolt Robo — Anti-Air ×7, Long-Range ×8, Melee ×4 i Standard ×7 — oraz Dark Go-Saurera, wrogą imitację podobną do [[king-go-saurer|King Go-Saurera]], pilotowaną przez [[mechabestia|mechabestię]]. [[yoko-kuriki|Yoko Kuriki]], znana jako Cookie, ostrzega o mechabestiach, a Himari lokalizuje [[mucus-gate-s-mc|Mucus Gate S MC]], którą oddział niszczy jako cel misji.
+
+Po bitwie Shingo, Killy i Remy przyjmują propozycję dołączenia do Connect Force, choć zachowują własne zasady. Ostatni komentarz rozszerza stawkę: sama siła bojowa Connect nie wystarczy do obrony rozległego kosmosu, dlatego organizacje wspierające zaczynają angażować własnych ludzi i sprzęt. Powodzenie ekspedycji przez bramę warp ma przekonać je, że warto dalej współpracować.
+
 ## Wątki fabularne
 
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
@@ -58,6 +66,10 @@ Na Marsie [[oscar-dublin|Oscar]] rozpoznaje anomalię przed okrętem i załoga G
 | Invaderzy rozsiewający się przez bramy Mucus | [[getter-robo-armageddon\|Getter Robo Armageddon]] | cała seria | W OVA najeźdźcy atakują zniszczoną Ziemię; tutaj [[suol\|Szef Suol]] opisuje bramy [[mucus\|Mucus]] jako dryfujące w czasoprzestrzeni struktury rozsiewające się jak pyłki, a atak trafia na Marsa. Wyjaśnienie rozsiewania i zakorzeniania się bram jest autorskie. |
 | Podział floty: desant na Marsa i osłona stacji | [[srw-oe\|Super Robot Wars OE]] | n/d | Podział zadań między [[white-base\|White Base]] i [[macross-quarter\|Macross Quarter]] wynika z układu floty zbudowanego w tym epizodzie i nie ma odpowiednika w żadnej z serii. |
 | Raport po operacji i gotowość floty | [[srw-oe\|Super Robot Wars OE]] | n/d | Ocena, że flota działa sprawnie bez wspólnych ćwiczeń, domyka wątek przerwanych ćwiczeń z Eskadrą Skull i jest rozwiązaniem autorskim. |
+| Przybycie drużyny Good Thunder do pasa asteroid Marsa | [[srw-oe\|Super Robot Wars OE]] | n/d | GoShogun i jego załoga trafiają do świata, którego nie potrafią rozpoznać; rozważają skok w przyszłość lub do innej rzeczywistości. |
+| Dark Go-Saurer oraz Mucus Gate S MC | [[srw-oe\|Super Robot Wars OE]] | n/d | Dark Go-Saurer jest wrogą imitacją rozpoznaną przez Saurersów, a Mucus Gate S MC pełni rolę celu misji, nie pilotowanej jednostki. |
+| Dołączenie GoShoguna do Connect Force | [[srw-oe\|Super Robot Wars OE]] | n/d | Po bitwie Shingo Hojo, Killy Gagley i Remy Shimada przyjmują zaproszenie, ale zaznaczają, że zachowają własne zasady. |
+| Wsparcie organizacji dla ekspedycji Connect | [[srw-oe\|Super Robot Wars OE]] | n/d | Zakończenie zakłada zaangażowanie dodatkowych sił, sprzętu i ludzi; powodzenie ekspedycji ma dopiero dowieść partnerom wartości współpracy. |
 
 ## Komentarz
 
@@ -74,7 +86,11 @@ Druga misja pokazuje, co się dzieje, gdy zwycięstwo nie kończy sprawy. [[serg
 Zagrożenie wraca z innej strony niż Grados. [[invaderzy|Invaderzy]] nie negocjują i nie mają planu politycznego: rozsiewają się przez bramy [[mucus|Mucus]] jak zarodniki, a [[go|Go]] mówi o najeździe na kolejne wszechświaty. Connect odpowiada na to nauką — sonar sprzężony z biosensorami, próbki z pola walki, badania, które [[suol|Szef Suol]] stawia na równi z walką. To on wyznacza ton epizodu: wygrana bez wiedzy o wrogu jest tylko odroczeniem.
 
 Podział floty jest pierwszą decyzją podjętą wspólnie, a nie narzuconą z góry. [[white-base|White Base]] leci na powierzchnię, Macross Quarter zostaje przy stacji, a raport [[jeffrey-wilder|Jeffreya]] po operacji brzmi jak zamknięcie rachunku: flota, która miała ćwiczyć, okazała się gotowa bez ćwiczeń. Epizod kończy się więc nie zwycięstwem, ale zdaniem o zaufaniu między okrętami.
+
+Trzecia misja przenosi ten problem ze współpracy flot na przyjmowanie nowych załóg. [[seishiro|Seishiro]] potrzebuje danych, by zapewnić bezpieczeństwo jednostki, ale [[sergeant-keroro|Keroro]] nie chce odsłaniać tajników swojego robota; dopiero spokojne podejście [[himari-yaegaki|Himari]] rozbraja napięcie. Drużyna Good Thunder z kolei pomaga Connect Force, lecz nie oddaje własnej niezależności: Shingo, Killy i Remy wybierają współpracę na własnych warunkach. Końcowe przygotowania do ekspedycji pokazują, że takie porozumienia — i zaufanie organizacji wspierających — będą równie ważne jak kolejne zwycięstwa.
+
 }}
+
 
 {{zrodlo gra=wspolne
 

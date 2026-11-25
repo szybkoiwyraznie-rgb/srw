@@ -17,6 +17,8 @@ Mała brama podprzestrzenna gatunku [[mucus|Mucus]] powiązana z [[mechanization
 
 W [[srw-oe-ep2-grozba-pod-ziemia|scenie „Groźba pod ziemią”]] [[himari-yaegaki|Himari]] wyczuwa jej energię za skalną ścianą, a po przebiciu tunelu przez [[gurren-lagann|Gurren Laganna]] i rozpoznaniu celu przez [[shin-getter-1|Shin Gettera-1]] połączone siły rozbijają bramę. Po walce [[seishiro|Seishiro]] wnioskuje, że [[mechabestia|mechabestie]] rozkładają i składają swoje ciała, aby wykonać skok przez Mucus Gate — co oznacza, że rozbite wcześniej na Ziemi Imperium Mechanizacji może odbudowywać siły w przestrzeni kosmicznej.
 
+W [[srw-oe-ep4-przybysz-z-innego-czasu|misji „Przybysz z innego czasu”]] Mucus Gate S MC pojawia się w przestrzeni Marsa jako cel do zniszczenia. Jest nieruchomą bramą bez załogi, a nie mechą pilotowaną przez Mucus.
+
 ## Pozostałe jednostki Mucus Gate
 
 - [[mucus-gate-s-in|Mucus Gate S IN]] — bliźniacza mała brama podprzestrzenna wykorzystywana przez [[invaderzy|Invaderów]].

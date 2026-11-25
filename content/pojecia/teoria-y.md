@@ -3,11 +3,11 @@ typ: pojecie
 slug: teoria-y
 tytul: "Teoria Y"
 gry: [srw-y]
-pochodzenie: menu
+pochodzenie: skrypt
 tagi: [technologia, super-robot-wars-original, super-robot-wars]
 utworzono: 2026-11-09
 ---
-{{menu gra=srw-y
+{{skrypt gra=srw-y
 
-Koncepcja, z której [[tetsuro-yagami|doktor Yagami]] wyprowadził trzy kierunki [[pamiec-stg|pamięci STG]]. Łączy dwa przeciwstawne bieguny z dodatkowym wektorem, tworząc figurę Y i otwierając wiele możliwości.
+Teoria Y jest koncepcją, z której [[tetsuro-yagami|doktor Yagami]] wyprowadził trzy kierunki [[pamiec-stg|pamięci STG]]. Przy rdzeniu [[nira-kana-i|Systemu Nira-Kana-I]] [[annina-servania|Annina]] tłumaczy, że dwa przeciwstawne bieguny — na przykład dobro i zło, yin i yang albo biel i czerń — tworzą odcinek. Trzeci wektor, skierowany inaczej, zmienia go w trójramienną literę Y i otwiera nieskończenie wiele możliwości. Według Anniny na tym modelu opiera się pamięć STG wydobywana przez system; zastrzega przy tym, że sama nie rozumie teorii w pełni.
 }}

@@ -33,7 +33,9 @@ test('dostawa 4-2 jest zachowana bajt w bajt i zamyka archiwum epizodu 4', () =>
   assert.match(raw, /^### Odcinek 4 — Szpony Invaderów \(`DL104_20`\)$/m);
   assert.match(raw, /eventP01\.EDAT\/DL104_20_Entry\.dat/);
   assert.ok(archive.includes(delivered), 'skrypt misji jest w archiwum epizodu');
-  assert.ok(archive.endsWith(`${delivered}\n`), 'misja 4-2 zamyka archiwum epizodu 4');
+  const koniecMisji = archive.indexOf(delivered) + delivered.length;
+  assert.match(archive.slice(koniecMisji).trimStart(), /^## Ep\. 4-3:/,
+    'misja 4-2 pozostaje przed nowo dopisaną misją 4-3');
   assert.ok(delivered.endsWith('**Jeffrey:** Owszem.'), 'ostatnia kwestia misji');
   assert.ok(archive.indexOf('## Ep. 4-1:') < archive.indexOf('## Ep. 4-2:'), 'misje w kolejności');
   assert.doesNotMatch(archive, /UCZESTNICY|Entry ID|DL104/);

@@ -97,7 +97,7 @@ test('epizod 1 ma scenę 1-1, a skrypt jest w niej podzielony na części', () =
     .replace(/\n\n---\n?$/, '');
   assert.equal(normalizujTekst(odtworzone), normalizujTekst(oczekiwane));
   for (const czesc of czesci) assert.ok(normalizujTekst(script).includes(normalizujTekst(czesc.tekst)), czesc.naglowek);
-  assert.equal(pages.filter((p) => p.typ === 'scena').length, 29, 'dwie sceny epizodu 0, osiem epizodu 1, osiem epizodu 2, pięć scen epizodu 3, dwie sceny epizodu 4 i cztery sceny SRW Y');
+  assert.equal(pages.filter((p) => p.typ === 'scena').length, 30, 'dwie sceny epizodu 0, osiem epizodu 1, osiem epizodu 2, pięć scen epizodu 3, trzy sceny epizodu 4 i cztery sceny SRW Y');
   assert.equal(pages.filter((p) => p.typ === 'scena' && p.epizod === 'srw-y-ep1').length, 4, 'SRW Y ma sceny 1-1C, 1-2A, 1-3A i 1-4');
 });
 

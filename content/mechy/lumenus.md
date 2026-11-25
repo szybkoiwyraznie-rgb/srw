@@ -20,7 +20,7 @@ W [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|prologu]] [[cross-tsukinowa|Cross 
 
 ### Pozostałe warianty
 
-Odmianą sprzedawaną cywilom i używaną przez prywatne formacje zbrojne — występującą w szeregach [[val-x|VAL-X]] pod Tokio — jest [[lumenus-yellow-version|Lumenus Yellow Version]].
+Odmianą sprzedawaną cywilom i używaną przez prywatne formacje zbrojne jest [[lumenus-yellow-version|Lumenus Yellow Version]].
 }}
 
 {{menu gra=srw-y

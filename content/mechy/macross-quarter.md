@@ -18,6 +18,8 @@ Okręt flagowy floty Frontier w trybie fortecy, dowodzony przez kapitana [[jeffr
 Na odprawie na [[stacja-mars|Stacji Mars]] kapitan zapowiada, że okręt razem z [[white-base|White Base]] utworzy połączoną flotę Connect Force.
 
 W [[srw-oe-ep4-szpony-invaderow|„Szponach Invaderów”]] okręt zostaje przy [[stacja-mars|Stacji Connect w sektorze Marsa]] jako jej osłona, gdy [[white-base|White Base]] ląduje na Marsie. Po operacji [[monica-lang|Monica]] przekazuje na mostek wiadomość o sukcesie, a [[jeffrey-wilder|Jeffrey]] uznaje, że flota może działać bez wspólnych ćwiczeń.
+
+W [[srw-oe-ep4-przybysz-z-innego-czasu|misji „Przybysz z innego czasu”]] Macross Quarter wyrusza na Mars, gdy White Base przechodzi przebudowę. Okręt nawiązuje łączność z drużyną Good Thunder i po walce zbiera jej pilotów na odprawę; z mostka [[mina-roshan|Mina Roshan]] i [[ram-hoa|Ram Hoa]] meldują o nieznanej jednostce oraz licznych źródłach ciepła.
 }}
 
 {{menu gra=srw-oe

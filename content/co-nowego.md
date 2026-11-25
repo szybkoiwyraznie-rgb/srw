@@ -1,5 +1,27 @@
 # Co nowego
 
+## 2026-11-25 18:20
+
+- W [[srw-oe-ep4-przybysz-z-innego-czasu|misji 4-3 „Przybysz z innego czasu”]] drużyna Good Thunder z [[goshogun-robo|GoShogunem]] walczy u boku [[connect-force|Connect Force]] z mechabestiami i [[dark-go-saurer|Dark Go-Saurerem]], a następnie niszczy [[mucus-gate-s-mc|Mucus Gate S MC]]. [[shingo-hojo|Shingo Hojo]], [[killy-gagley|Killy Gagley]] i [[remy-shimada|Remy Shimada]] przyjmują zaproszenie do współpracy; [[yoko-kuriki|Yoko Kuriki]] ostrzega o mechabestiach.
+
+## 2026-11-24 00:10
+
+- W [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|scenie przy rdzeniu]] Annina przedstawia [[nira-kana-i|System Nira-Kana-I]] jako źródło napędu A. Adventu i klucz do wydobywania [[pamiec-stg|pamięci STG]].
+- W [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji 1-4]] moc A. Adventu nagle wzrasta o 20%; Annina zaznacza, że funkcje Systemu Nira-Kana-I nie zostały w pełni poznane, więc przyczyna pozostaje niejasna.
+
+## 2026-11-23 23:55
+
+- Przy rdzeniu [[nira-kana-i|Systemu Nira-Kana-I]] [[annina-servania|Annina]] wyjaśnia [[teoria-y|Teorię Y]]: dwa przeciwstawne bieguny tworzą odcinek, a trzeci wektor zmienia go w układ trójramienny, na którym opiera się [[pamiec-stg|pamięć STG]].
+
+## 2026-11-23 23:50
+
+- W [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|rezydencji Franburnettów]] Cross rozpoznaje androidy jako [[mechaniczne-marionetki|mechaniczne marionetki]] po ich oczach; w [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji „Drzwi stają otworem”]] unieszkodliwia już ósmy egzemplarz, który ma mechanizm samozniszczenia do zatarcia śladów.
+
+## 2026-11-23 23:36
+
+- [[lumenus|Lumenus]] pozostaje w barwach Sił [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]], a cywilny wariant [[lumenus-yellow-version|Lumenus Yellow Version]] jest opisany osobno wraz z użyciem przez [[val-x|VAL-X]] pod Tokio.
+- W [[mobile-suit-gundam-wing-endless-waltz|*Mobile Suit Gundam Wing: Endless Waltz*]] uwzględniono reprezentację [[srw-y|*Super Robot Wars Y*]]: [[heero-yuy|Heero Yuy]] w [[wing-gundam-zero|Wing Gundamie Zero]], obok [[chang-wufei|Chang Wufeia]] w [[altron-gundam|Altronie Gundamie]] i [[taurus|Taurusów]].
+
 ## 2026-11-22 22:30
 
 - W [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji „Drzwi stają otworem”]] prezydent [[ade-stradio|Ade Stradio]] ogłasza rozwiązanie [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]] po zaledwie pół roku i powołanie [[nowa-liga-narodow|Nowej Ligi Narodów]], a [[echika-y-franburnett|Echika]] wybiera drogę niezależnego miasta-państwa i nadaje jego straży obywatelskiej nazwę [[yz-next|Yz-Next]].
