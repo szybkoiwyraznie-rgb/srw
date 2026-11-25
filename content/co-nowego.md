@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-25 20:21
+
+- Czwórka z [[klub-kaiju|Klubu Kaiju]] z serialu [[ssss-dynazenon|*SSSS.Dynazenon*]] nabiera wyrazu: spostrzegawczy [[juuga|Juuga]] darzy [[gauma|Gaumę]] szacunkiem i ciekawi go [[dynazenon|Dynazenon]], porywczy [[onija|Onija]] nienawidzi ludzi i zwykle obrywa gruzem pokonanych potworów, [[mujina|Mujina]] z początku idzie za resztą, a najmłodszy [[sizumu|Sizumu]] słyszy głosy kaiju i wierzy, że więzi między ludźmi odbierają im wolność.
+
 ## 2026-11-25 20:18
 
 - [[beamler|Beamler]], energia, która według [[shingo-hojo|Shingo]] znów przerzuciła drużynę Good Thunder w nieznane, w serialu [[goshogun|*GoShogun*]] zasila [[goshogun-robo|GoShoguna]] i z czasem rośnie, zyskując nowe moce. Poluje na nią [[docougar|Docougar]] — w serialu Dokuga, tajna organizacja z kwaterą pod bankiem nad Jeziorem Genewskim, której trzej dowódcy raz po raz stają przeciw Good Thunder.
