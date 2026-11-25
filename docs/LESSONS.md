@@ -497,3 +497,22 @@ Zasady:
   i daty muszą zostać dopuszczone — inaczej strażnik karze za fikcję.
 - **Poprawiając wpis, popraw też jego sens.** Skrócenie do „ma dwie komendy” nadal
   mówi o rekordzie; opis musi powiedzieć, co te komendy znaczą w walce.
+
+## L35 — Uszkodzony znacznik mówcy naprawia renderer, nie archiwum (2026-11-25)
+
+Dostawa OE 4-3 ma w skrypcie samotną gwiazdkę w osobnym wierszu, a pod nią
+`*Killy:** Coś tu śmierdzi...` zamiast `**Killy:** …`. Scena cytuje skrypt
+dosłownie (ADR 0008), a archiwa `episodes/**` i `dostawy/**` są nietykalne, więc
+poprawka tekstu sceny rozjechałaby ją ze skryptem i złamała test wierności.
+Właściciel zdecydował: naprawa w silniku.
+
+Zasady:
+
+- **Źródło zostaje dosłowne, poprawia się widok.** `naprawZnacznikiMowcow`
+  w `src/srw/markdown.js` działa tylko w bloku `:::skrypt`: wiersz zaczynający się
+  od `*Imię:**` dostaje pełne `**Imię:**`, a samotna gwiazdka tuż nad nim znika.
+- **Wzorzec jest wąski.** Kursywa myśli (`*(…)*`), poprawne znaczniki i samotna
+  gwiazdka bez uszkodzonego mówcy pod spodem zostają bez zmian — test
+  w `test/markdown.test.js` pilnuje obu stron.
+- **Nowy rodzaj usterki w dostawie = nowy przypadek w naprawie**, nie edycja
+  archiwum ani sceny.

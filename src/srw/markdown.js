@@ -22,6 +22,28 @@ import { SLUG_RE, WIKILINK_RE } from './links.js';
 /** Poziomy wiarygodności dozwolone w bloku {{...}} (ADR 0010, 0011). */
 export const POZIOMY_BLOKU = ['skrypt', 'menu', 'zrodlo', 'wiedza'];
 
+/**
+ * Naprawia przy wyświetlaniu uszkodzone znaczniki mówcy w dosłownym skrypcie.
+ *
+ * Dostawy bywają przepisane z błędem: zamiast `**Killy:** …` stoi samotna gwiazdka
+ * w osobnym wierszu, a pod nią `*Killy:** …` (dostawa OE 4-3). Bez naprawy
+ * renderer pokazuje zabłąkaną gwiazdkę i kursywę zamiast pogrubionego mówcy.
+ * Źródło sceny pozostaje dosłowne (wierność sprawdza surowy tekst) — zmienia się
+ * tylko widok: wiersz `*Imię:**` dostaje pełne `**Imię:**`, a samotna gwiazdka
+ * tuż nad nim znika.
+ */
+const USZKODZONY_MOWCA = /^\*([^*\s][^*\n]*?:)\*\*(?=\s|$)/;
+
+export function naprawZnacznikiMowcow(linie) {
+  const out = [];
+  for (let i = 0; i < linie.length; i += 1) {
+    const linia = linie[i];
+    if (linia.trim() === '*' && USZKODZONY_MOWCA.test(linie[i + 1] ?? '')) continue;
+    out.push(linia.replace(USZKODZONY_MOWCA, '**$1**'));
+  }
+  return out;
+}
+
 /** Atrybuty dozwolone w otwarciu bloku poziomu (ADR 0020). */
 export const ATRYBUTY_BLOKU = ['gra'];
 
@@ -101,7 +123,7 @@ export function renderMarkdown(md, {
       i += 1; // zamknięcie
       // Dosłowny tekst skryptu wyświetlany jako formatowanie wizualne (znaczniki md → nagłówki, pogrubienia, cytaty).
       // Źródło pozostaje dosłowne: wierność sprawdza wytnijBlokSkryptu na surowym tekście.
-      const wewn = renderMarkdown(buf.join('\n'), {
+      const wewn = renderMarkdown(naprawZnacznikiMowcow(buf).join('\n'), {
         resolveLink, wymagajPoziomu, wPoziomie, wZagniezdzeniu: true, atrybutyNaglowka,
         zachowajLamania: true,
       });
