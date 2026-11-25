@@ -516,3 +516,21 @@ Zasady:
   w `test/markdown.test.js` pilnuje obu stron.
 - **Nowy rodzaj usterki w dostawie = nowy przypadek w naprawie**, nie edycja
   archiwum ani sceny.
+
+## L36 — Dziennik to wiadomości ze świata, nie z warsztatu (2026-11-25)
+
+W jednej sesji trafiły do dziennika: zapowiedź portretów i ujęć z dostawy ilustracji,
+„seria zyskała tło z pierwowzoru”, „misja ma nawiązanie do odcinka”, „postacie mają
+pełniejsze opisy”, „czwórka nabiera wyrazu”. Właściciel przerwał pracę: to opis procesu
+i mediów, a baza jest o fabule. Zasada była zapisana (ADR 0018), ale od usunięcia testów
+stylu nikt jej nie sprawdzał przed zapisem.
+
+Zasady:
+
+- **Test jednego zdania:** czy wpis da się przeczytać jako wiadomość z wnętrza świata
+  („Koji wspomina…”, „Dokuga poluje…”)? Jeśli podmiotem jest strona, opis, tło, galeria,
+  portret, wpis albo seria jako pozycja w bazie — przepisz albo nie pisz.
+- **Dostawa samych ilustracji nie ma wpisu w dzienniku.** Notatka idzie do
+  `docs/HISTORIA_WEWNETRZNA.md` i opisu PR.
+- **Słowa ostrzegawcze:** ma/zyskał(a) opis, tło, portret, ujęcie, wizerunek, nawiązanie,
+  odsyła, prowadzi do odcinka, reprezentuje, uwzględniono, opisany osobno, nabiera wyrazu.
