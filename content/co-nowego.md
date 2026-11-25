@@ -1,5 +1,9 @@
 # Co nowego
 
+## 2026-11-25 20:18
+
+- [[beamler|Beamler]], energia, która według [[shingo-hojo|Shingo]] znów przerzuciła drużynę Good Thunder w nieznane, w serialu [[goshogun|*GoShogun*]] zasila [[goshogun-robo|GoShoguna]] i z czasem rośnie, zyskując nowe moce. Poluje na nią [[docougar|Docougar]] — w serialu Dokuga, tajna organizacja z kwaterą pod bankiem nad Jeziorem Genewskim, której trzej dowódcy raz po raz stają przeciw Good Thunder.
+
 ## 2026-11-25 20:14
 
 - Portrety mają piloci drużyny Good Thunder — [[shingo-hojo|Shingo Hojo]], [[killy-gagley|Killy Gagley]] i [[remy-shimada|Remy Shimada]] — oraz [[mina-roshan|Mina Roshan]] i [[ram-hoa|Ram Hoa]] z mostka [[macross-quarter|Macross Quartera]]; [[goshogun-robo|GoShogun]] i jego mroczny przeciwnik [[dark-go-saurer|Dark Go-Saurer]] pokazują się w dwóch ujęciach każdy.
@@ -15,7 +19,7 @@
 
 ## 2026-11-25 19:55
 
-- Seria [[goshogun|GoShogun]] zyskała tło z pierwowzoru z 1981 roku: forteca Good Thunder, energia Beamler i organizacja Dokuga, w grze nazywana Docougarem. [[goshogun-robo|GoShogun]] ma opis trzech myśliwców — King Arrow, Queen Rose i Jack Knight — oraz broni z serialu.
+- Seria [[goshogun|GoShogun]] zyskała tło z pierwowzoru z 1981 roku: forteca Good Thunder, energia [[beamler|Beamler]] i organizacja Dokuga, w grze nazywana [[docougar|Docougarem]]. [[goshogun-robo|GoShogun]] ma opis trzech myśliwców — King Arrow, Queen Rose i Jack Knight — oraz broni z serialu.
 - [[shingo-hojo|Shingo Hojo]], [[killy-gagley|Killy Gagley]] i [[remy-shimada|Remy Shimada]] mają pełniejsze opisy przybycia w okolice Marsa, a [[karen-joshua|Karen Joshua]] na pokładzie [[macross-quarter|Macross Quartera]] wzdycha nad czyszczeniem GoShoguna.
 
 ## 2026-11-25 18:20

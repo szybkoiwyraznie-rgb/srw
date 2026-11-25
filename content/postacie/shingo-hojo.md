@@ -14,7 +14,7 @@ utworzono: 2026-11-23
 ---
 {{skrypt gra=srw-oe
 
-Główny pilot GoShoguna i głos drużyny Good Thunder. Po kolejnym przeskoku przyjmuje, że znów poprowadził ich Beamler, a pierwsze fale mechabestii kwituje pewnością, że wróg i tak nie ma szans z GoShogunem. To on nawiązuje łączność z [[macross-quarter|Macross Quarterem]], przedstawia się [[jeffrey-wilder|Jeffreyowi]] jako pilot GoShoguna i przyznaje, że ten świat chyba różni się od tego, który zna. Gdy Remy porównuje [[dark-go-saurer|Dark Go-Saurera]] do podróbki znanej z ich świata, uznaje, że nie ma się czego bać.
+Główny pilot GoShoguna i głos drużyny Good Thunder. Po kolejnym przeskoku przyjmuje, że znów poprowadził ich [[beamler|Beamler]], a pierwsze fale mechabestii kwituje pewnością, że wróg i tak nie ma szans z GoShogunem. To on nawiązuje łączność z [[macross-quarter|Macross Quarterem]], przedstawia się [[jeffrey-wilder|Jeffreyowi]] jako pilot GoShoguna i przyznaje, że ten świat chyba różni się od tego, który zna. Gdy Remy porównuje [[dark-go-saurer|Dark Go-Saurera]] do podróbki znanej z ich świata, uznaje, że nie ma się czego bać.
 
 Po bitwie na pokładzie okrętu żartem pyta [[karen-joshua|Karen]], czy to ona wyczyści im maszynę, a [[sergeant-keroro|Keroro]] bierze za robota-zwierzątko w kształcie żaby. Wraz z Killym Gagleyem i Remy Shimadą przyjmuje propozycję współpracy z [[connect-force|Connect Force]].
 }}

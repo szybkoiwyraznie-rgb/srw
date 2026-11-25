@@ -25,7 +25,7 @@ Robot bojowy drużyny Good Thunder, pilotowany przez [[shingo-hojo|Shingo Hojo]]
 
 W serialu *GoShogun* tytułowy robot powstaje z trzech myśliwców: King Arrow Shingo dokuje w piersi, Queen Rose Remy w lewej nodze, a Jack Knight Killy'ego w prawej. W walce dowodzi nim Shingo, który głosem wywołuje start, połączenie myśliwców i kolejne ataki. Te same trzy maszyny składają się także w mniejszego robota TriThree, którym kieruje Remy. Arsenał GoShoguna obejmuje gigantyczny topór, miecz energetyczny i bazookę fotonową, a najsilniejszą bronią jest Go Flasher — pięć pocisków energetycznych wystrzeliwanych z górnej części pleców ([Wikipedia, *GoShogun*](https://en.wikipedia.org/wiki/GoShogun); sprawdzono 2026-11-25).
 
-Robota zaprojektował doktor Sanada, by chronić energię Beamler i fortecę Good Thunder przed Dokugą; Beamler jest też jego źródłem zasilania. Według przewodnika serii mierzy 52,5 m i waży 720 t, a uzbrojenie przesyła mu na bieżąco Good Thunder ([Super Robot Wars Wiki, „ゴーショーグン”](https://srw.wiki.cre.jp/wiki/%E3%82%B4%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%BC%E3%82%B0%E3%83%B3); sprawdzono 2026-11-25).
+Robota zaprojektował doktor Sanada, by chronić energię [[beamler|Beamler]] i fortecę Good Thunder przed [[docougar|Dokugą]]; Beamler jest też jego źródłem zasilania. Według przewodnika serii mierzy 52,5 m i waży 720 t, a uzbrojenie przesyła mu na bieżąco Good Thunder ([Super Robot Wars Wiki, „ゴーショーグン”](https://srw.wiki.cre.jp/wiki/%E3%82%B4%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%BC%E3%82%B0%E3%83%B3); sprawdzono 2026-11-25).
 }}
 
 {{menu gra=srw-oe
