@@ -1,13 +1,13 @@
 # Co nowego
 
+## 2026-11-25 18:20
+
+- W [[srw-oe-ep4-przybysz-z-innego-czasu|misji 4-3 „Przybysz z innego czasu”]] drużyna Good Thunder z [[goshogun-robo|GoShogunem]] walczy u boku [[connect-force|Connect Force]] z mechabestiami i [[dark-go-saurer|Dark Go-Saurerem]], a następnie niszczy [[mucus-gate-s-mc|Mucus Gate S MC]]. [[shingo-hojo|Shingo Hojo]], [[killy-gagley|Killy Gagley]] i [[remy-shimada|Remy Shimada]] przyjmują zaproszenie do współpracy; [[yoko-kuriki|Yoko Kuriki]] ostrzega o mechabestiach.
+
 ## 2026-11-24 00:10
 
 - W [[srw-y-ep1-misja-1-kwiaty-ninja-i-urodziny|scenie przy rdzeniu]] Annina przedstawia [[nira-kana-i|System Nira-Kana-I]] jako źródło napędu A. Adventu i klucz do wydobywania [[pamiec-stg|pamięci STG]].
 - W [[srw-y-ep1-misja-4-drzwi-staja-otworem|misji 1-4]] moc A. Adventu nagle wzrasta o 20%; Annina zaznacza, że funkcje Systemu Nira-Kana-I nie zostały w pełni poznane, więc przyczyna pozostaje niejasna.
-
-## 2026-11-23 23:56
-
-- W [[srw-oe-ep4-przybysz-z-innego-czasu|misji 4-3 „Przybysz z innego czasu”]] drużyna Good Thunder z [[goshogun-robo|GoShogunem]] walczy u boku [[connect-force|Connect Force]] z mechabestiami i [[dark-go-saurer|Dark Go-Saurerem]], a następnie niszczy [[mucus-gate-s-mc|Mucus Gate S MC]]. [[shingo-hojo|Shingo Hojo]], [[killy-gagley|Killy Gagley]] i [[remy-shimada|Remy Shimada]] przyjmują zaproszenie do współpracy; [[yoko-kuriki|Yoko Kuriki]] ostrzega o mechabestiach.
 
 ## 2026-11-23 23:55
 
