@@ -1,6 +1,10 @@
 # Co nowego
 
-## 2026-11-25 20:10
+## 2026-11-25 20:04
+
+- Wspomnienie [[koji-hoshiyama|Kojiego Hoshiyamy]] z [[srw-oe-ep4-przybysz-z-innego-czasu|misji 4-3]] prowadzi do 21. odcinka [[matchless-raijin-oh|*Matchless Raijin-Oh*]]: Jaku Raijin-Oh to bestia [[jaku-empire|Imperium Jaku]] łudząco podobna do [[raijin-oh|Raijin-Oha]], która ściąga winę na klasę obrony.
+
+## 2026-11-25 19:59
 
 - [[srw-oe-ep4-przybysz-z-innego-czasu|Misja 4-3]] ma nawiązanie do 23. odcinka *GoShoguna*: porównując [[dark-go-saurer|Dark Go-Saurera]] do Go-Naghoula, [[remy-shimada|Remy]] przywołuje podróbkę GoShoguna zbudowaną przez Dokugę.
 - [[dark-go-saurer|Dark Go-Saurer]] ma opis z serialu [[nekketsu-saikyo-go-saurer|*Nekketsu Saikyō Go-Saurer*]] — mroczna kopia [[king-go-saurer|King Go-Saurera]] zbudowana przez [[mechanization-empire|Imperium Mechanizacji]] — oraz pełniejszy przebieg starcia z [[connect-force|Connect Force]].

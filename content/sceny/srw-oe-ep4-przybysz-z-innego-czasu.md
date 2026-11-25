@@ -12,6 +12,7 @@ pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/GoShogun
   - https://dic.pixiv.net/a/%E3%82%B4%E3%83%BC%E3%83%8A%E3%82%B0%E3%83%BC%E3%83%AB
+  - https://srw.wiki.cre.jp/wiki/%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%B8%E3%83%B3%E3%82%AA%E3%83%BC
 sekcje_analizy:
   - "Stacja Connect / Stołówka → Stacja Connect / Stołówka"
   - "Stacja Connect / Sala operacyjna → Stacja Connect / Sala operacyjna"
@@ -284,7 +285,9 @@ Końcowy komentarz rozszerza znaczenie zwycięstwa: obecność Mucus Gate w prze
 
 Wydarzenia z tej sceny — uwaga [[remy-shimada|Remy]], że [[dark-go-saurer|Dark Go-Saurer]] „pachnie jak Go-Naghoul, podróbka od Docougaru” — nawiązują do **dwudziestego trzeciego odcinka** serialu *Sengoku Majin GoShogun* (odc. 23 „Good Thunder on the Loose”, 暴走グッドサンダー, 7 grudnia 1981) — [Wikipedia, *GoShogun*](https://en.wikipedia.org/wiki/GoShogun) (sprawdzono 2026-11-25). W tym odcinku Yatter La Kernagul, jeden z trzech dowódców Dokugi, wystawia przeciw drużynie Go-Naghoula (戦国恐神ゴーナグール): robota zbudowanego na wzór GoShoguna, z rogiem przypominającym chrząszcza i znakiem Good Thunder przerobionym na literę Y, uzbrojonego w szablę i bazookę. Na jego widok Remy rzuca do wszystkich przestrogę przed podróbkami ([pixiv百科事典, „ゴーナグール”](https://dic.pixiv.net/a/%E3%82%B4%E3%83%BC%E3%83%8A%E3%82%B0%E3%83%BC%E3%83%AB); sprawdzono 2026-11-25).
 
-W *Operation Extend* to samo skojarzenie trafia na maszynę z innego serialu: Dark Go-Saurer jest kopią King Go-Saurera z [[nekketsu-saikyo-go-saurer|*Nekketsu Saikyō Go-Saurer*]], a nie robotem Dokugi.
+Tutaj to samo skojarzenie trafia na maszynę z innego serialu: Dark Go-Saurer jest kopią King Go-Saurera z [[nekketsu-saikyo-go-saurer|*Nekketsu Saikyō Go-Saurer*]], a nie robotem Dokugi.
+
+**Jaku Raijin-Oh.** Wspomnienie [[koji-hoshiyama|Kojiego Hoshiyamy]] na widok Dark Go-Saurera prowadzi do **dwudziestego pierwszego odcinka** *Zettai Muteki Raijin-Oh* (odc. 21 „敵はライジンオー!?”). Jaku Raijin-Oh (ジャークライジンオー) jest tam bestią [[jaku-empire|Imperium Jaku]], którą Belzeb tworzy z jaja ciemności przyniesionego przez Taidę. Wygląda niemal jak [[raijin-oh|Raijin-Oh]], ale ma złowrogą twarz, zamienione kolory rogu i kryształu na piersi oraz odwrócony chwyt — tarczę trzyma w prawej ręce, a miecz w lewej. Swoimi drobnymi wybrykami ściąga winę na klasę obrony ([Super Robot Wars Wiki, „ジャークライジンオー”](https://srw.wiki.cre.jp/wiki/%E3%82%B8%E3%83%A3%E3%83%BC%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%B8%E3%83%B3%E3%82%AA%E3%83%BC); sprawdzono 2026-11-25). Teraz to doświadczenie pozwala [[jin-hyuga|Jinowi]] zbagatelizować kolejną podróbkę: klasa trenuje przecież z oryginałem.
 }}
 
 {{skrypt gra=srw-oe
@@ -296,6 +299,7 @@ W *Operation Extend* to samo skojarzenie trafia na maszynę z innego serialu: Da
 | Keroro chroni tajemnice Keroro Robo Mk-II, choć Connect potrzebuje danych do zaopatrzenia | [[srw-oe\|Super Robot Wars OE]] | n/d | Spór o parametry maszyny łączy komediowy upór Keroro z praktyczną potrzebą planowania operacji przez Seishira. |
 | Drużyna Good Thunder trafia do obcego świata w rejonie Marsa | [[srw-oe\|Super Robot Wars OE]] | n/d | Załoga nie potrafi ustalić, czy skoczyła w przyszłość, czy do innej rzeczywistości; jej pochodzenie i przybycie są elementem crossoverowej fabuły gry. |
 | Dark Go-Saurer jako imitacja robota znanego Saurersom | [[srw-oe\|Super Robot Wars OE]] | n/d | Connect rozpoznaje maszynę z danych Saurersów i zestawia jej wygląd z King Go-Saurerem; gra przedstawia ją jako wrogą podróbkę. |
+| Koji wspomina walkę z Jaku Raijin-Ohem | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | odc. 21 „敵はライジンオー!?” | W serialu podróbka Raijin-Oha jest bestią Imperium Jaku, która ściąga winę na klasę; tutaj wspomnienie tej walki służy uczniom do oceny Dark Go-Saurera, kopii robota z innej serii. |
 | Remy porównuje Dark Go-Saurera do Go-Naghoula | [[goshogun\|GoShogun]] | odc. 23 „Good Thunder on the Loose” | W serialu Go-Naghoul jest podróbką GoShoguna zbudowaną przez Dokugę; tutaj Remy przenosi to skojarzenie na kopię King Go-Saurera, z którą drużyna Good Thunder nigdy wcześniej się nie zetknęła. |
 | Mucus Gate S MC jako cel misji, nie pilotowany mech | [[srw-oe\|Super Robot Wars OE]] | n/d | Brama jest obiektem do zniszczenia, a nie maszyną bojową z własną załogą. |
 | Dołączenie Good Thunder do Connect Force i przygotowanie wyprawy | [[srw-oe\|Super Robot Wars OE]] | n/d | Po bitwie sojusz zostaje sformalizowany, a zakończenie wiąże dalszą ekspedycję z koniecznością zdobycia wsparcia wielu organizacji. |
