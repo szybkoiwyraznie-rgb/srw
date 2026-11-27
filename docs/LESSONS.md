@@ -537,3 +537,18 @@ Zasady:
   osobno. To podpowiedź dla czytającego, nie lista zakazów: te same słowa bywają częścią
   fabuły. Właściciel odrzucił testy blokujące słowa (2026-11-25) — o wpisie rozstrzyga sens
   całego zdania.
+
+## L37 — Jedna maska, dwie osoby (2026-11-27)
+
+Dostawa 4-4 przyniosła mówcę „Zero”, a baza miała już stronę `zero` — dla Suzaku z SRW Y.
+Odruch „mówca o tej nazwie ma stronę, więc dopisz grę” połączyłby Leloucha i Suzaku w jedną
+osobę. Właściciel rozstrzygnął: dwie strony pod imionami, Zero jako pseudonim w konkretnej grze
+(ADR 0047).
+
+Zasady:
+
+- **Przed dopisaniem gry do istniejącej strony sprawdź, czy to ta sama osoba,** a nie tylko
+  ta sama nazwa w skrypcie. Skrypt zwykle mówi to wprost (tu: C.C. zwraca się do Zero „Lelouchu”).
+- **Pseudonim, który zmienia właściciela między grami, idzie do `pseudonim_w_grze`.**
+- **Zamiana sluga to też tabele:** w komórkach tabel odsyłacz ma postać `[[slug\|…]]`, więc
+  szukaj obu form — `[[slug|` i `[[slug\|`.

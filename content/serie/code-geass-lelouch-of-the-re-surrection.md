@@ -22,5 +22,5 @@ Rok 2010 kalendarza imperialnego. Supermocarstwo, Święte Imperium Britannii, n
 
 *Code Geass Lelouch of the Re;surrection* to japoński film animowany z 2019 roku — bezpośrednia kontynuacja kinowej trylogii *Code Geass: Lelouch of the Rebellion*, którą zamyka [[code-geass-lelouch-of-the-rebellion-iii-glorification|III Glorification]]. Premiera w Japonii odbyła się 9 lutego 2019 roku ([Wikipedia, „Code Geass Lelouch of the Re;surrection”](https://en.wikipedia.org/wiki/Code_Geass_Lelouch_of_the_Re;surrection); [Anime News Network — Code Geass: Lelouch of the Re;surrection](https://www.animenewsnetwork.com/encyclopedia/anime.php?id=21251); sprawdzono 2026-11-09).
 
-Oficjalny serwis filmu przedstawia [[zero|Zero]] jako obrońcę sprawiedliwości, który pokonał „tyrańskiego cesarza” Leloucha, oraz wymienia [[nunnally-vi-britannia|Nunnally]] wśród bohaterów ([oficjalna strona Code Geass: Lelouch of the Re;surrection](https://geass.jp/R-geass/character.php); sprawdzono 2026-11-09).
+Oficjalny serwis filmu przedstawia [[suzaku-kururugi|Zero]] jako obrońcę sprawiedliwości, który pokonał „tyrańskiego cesarza” Leloucha, oraz wymienia [[nunnally-vi-britannia|Nunnally]] wśród bohaterów ([oficjalna strona Code Geass: Lelouch of the Re;surrection](https://geass.jp/R-geass/character.php); sprawdzono 2026-11-09).
 }}

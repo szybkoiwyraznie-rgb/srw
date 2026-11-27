@@ -5,7 +5,7 @@ tytul: "Lancelot Albion Zero"
 seria: code-geass-lelouch-of-the-rebellion-iii-glorification
 typ_mecha: mobile suit
 gry: [srw-y]
-piloci: [zero]
+piloci: [suzaku-kururugi]
 pochodzenie: menu
 zrodla:
   - https://geass.miraheze.org/wiki/Lancelot_Albion_Zero
@@ -22,7 +22,7 @@ Osobisty KMF Zero (czyli Suzaku Kururugiego). Zbudowała go Pearl Party, prywatn
 
 {{zrodlo gra=wspolne
 
-W [[code-geass-lelouch-of-the-rebellion-iii-glorification|pierwowzorze]] i materiałach pobocznych *Code Geass* Lancelot Albion Zero (ランスロット・アルビオンゼロ) został potajemnie opracowany przez instytut Pearl Party Rakshaty Chawli na polecenie Schneizela na podstawie danych Lancelota Albiona i utrzymany w czarnym malowaniu jako maszyna dla [[zero|Zero]]; po raz pierwszy wystąpił w rozdziale *Black Albion* historii *Lancelot & Guren* oraz w zapowiedzi *Re;surrection* ([Geass Wiki, „Lancelot Albion Zero”](https://geass.miraheze.org/wiki/Lancelot_Albion_Zero); [Code Geass Wiki, „Lancelot Albion Zero”](https://codegeass.fandom.com/wiki/Lancelot_Albion_Zero); sprawdzono 2026-11-10).
+W [[code-geass-lelouch-of-the-rebellion-iii-glorification|pierwowzorze]] i materiałach pobocznych *Code Geass* Lancelot Albion Zero (ランスロット・アルビオンゼロ) został potajemnie opracowany przez instytut Pearl Party Rakshaty Chawli na polecenie Schneizela na podstawie danych Lancelota Albiona i utrzymany w czarnym malowaniu jako maszyna dla [[suzaku-kururugi|Zero]]; po raz pierwszy wystąpił w rozdziale *Black Albion* historii *Lancelot & Guren* oraz w zapowiedzi *Re;surrection* ([Geass Wiki, „Lancelot Albion Zero”](https://geass.miraheze.org/wiki/Lancelot_Albion_Zero); [Code Geass Wiki, „Lancelot Albion Zero”](https://codegeass.fandom.com/wiki/Lancelot_Albion_Zero); sprawdzono 2026-11-10).
 }}
 
 {{menu gra=srw-y

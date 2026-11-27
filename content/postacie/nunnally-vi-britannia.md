@@ -14,7 +14,7 @@ utworzono: 2026-11-09
 ---
 {{skrypt gra=srw-y
 
-Nunnally vi Britannia jest obecna przy paradzie cesarza [[lelouch-vi-britannia|Leloucha]]. Gdy [[zero|Zero]] zabija cesarza, dziewczyna woła brata raz — a potem drugi raz, coraz rozpaczliwiej. Jej głos jest jedynym, który w tej scenie próbuje zatrzymać to, co już się stało.
+Nunnally vi Britannia jest obecna przy paradzie cesarza [[lelouch-vi-britannia|Leloucha]]. Gdy [[suzaku-kururugi|Zero]] zabija cesarza, dziewczyna woła brata raz — a potem drugi raz, coraz rozpaczliwiej. Jej głos jest jedynym, który w tej scenie próbuje zatrzymać to, co już się stało.
 
 }}
 

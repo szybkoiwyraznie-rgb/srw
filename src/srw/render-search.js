@@ -10,6 +10,7 @@ import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug } from './links.js';
 import { dajDane } from './data.js';
 import { nazwaTypu, stanPusty, numerEpizodu } from './render.js';
+import { pseudonimyStrony } from './registry.js';
 
 export function renderSzukanie(q) {
   const fraza = String(q ?? '').trim();
@@ -37,7 +38,7 @@ export function renderSzukanie(q) {
         ${strona.typ === 'epizod' ? `<span class="mono">${numerEpizodu(strona.numer)}</span> ` : ''}
         ${podkresl(strona.tytul, fraza)}
       </a>
-      <span class="meta">${strona.pseudonim ? `„${podkresl(strona.pseudonim, fraza)}” · ` : ''}${nazwaTypu(strona.typ)}</span>
+      <span class="meta">${pseudonimyStrony(strona).map((ps) => `„${podkresl(ps.nazwa, fraza)}” · `).join('')}${nazwaTypu(strona.typ)}</span>
       ${trafienie ? `<p class="fragment">…${podkresl(trafienie, fraza)}…</p>` : ''}
     </li>`).join('')}
 </ul>`;
@@ -55,7 +56,8 @@ export function szukaj(fraza) {
     // Pseudonim (ADR 0037) szuka się jak tytułu: „Potato" ma znaleźć Orie Ishizukę.
     // Cała nazwa i całe słowo ważą więcej niż środek wyrazu — inaczej „Two"
     // prowadzi najpierw do „Księstwa Zeonu", a nie do osoby o tym przezwisku.
-    let waga = Math.max(wagaNazwy(tytul, igła), wagaNazwy(String(strona.pseudonim ?? ''), igła));
+    // Pseudonim z jednej gry (ADR 0047) waży tak samo: „Zero” prowadzi do Leloucha i Suzaku.
+    let waga = Math.max(wagaNazwy(tytul, igła), ...pseudonimyStrony(strona).map((ps) => wagaNazwy(ps.nazwa, igła)));
     if (tagi.toLowerCase().includes(igła)) waga += 30;
     const indeks = tekst.toLowerCase().indexOf(igła);
     if (indeks >= 0) waga += 10;

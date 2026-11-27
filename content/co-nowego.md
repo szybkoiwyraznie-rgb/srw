@@ -1,5 +1,11 @@
 # Co nowego
 
+## 2026-11-27 18:22
+
+- Na planecie [[mizun|Mizun]] w układzie [[pentagona|Pentagona]], dawnej siedzibie dynastii Yaman, regularna armia [[oldna-posaydal|Oldny Posaydala]] otacza bazę rebeliantów Little Sei. W [[srw-oe-ep4-lelouch-buntownik|misji 4-4]] [[daba-myroad|Daba Myroad]] z [[lilis-faw|Lilis Faw]] w [[l-gaim|L-Gaimie]] oraz [[gaw-ha-leccee|Gaw Ha Leccee]], dawniej z [[trzynastka-posaydala|Trzynastki Posaydala]], w [[novel-d-sserd|Novel D-Sserdzie]] ściągają na siebie [[bat-shu|Bat-Shu]] [[zolnierz-posaydala|żołnierzy Posaydala]]. W tym czasie [[mirawoo-kyao|Mirawoo Kyao]] i [[fannaria-amm|Fannaria Amm]] ładują rebeliantów na [[turner|Turnera]].
+- [[lelouch-vi-britannia|Lelouch]] budzi się na pustkowiu Mizunu, gdzie [[c-c|C.C.]] odnajduje go w [[gawain|Gawainie]]. Nie ma tu [[czarni-rycerze|Czarnych Rycerzy]] ani Knightmare'ów. Jako Zero przejmuje dowodzenie nad rebeliantami. C.C. prosi go, by nie używał [[geass|Geass]], a on już wie z czujników Gawaina, że to nie Ziemia. Wróg mierzy Gawaina miarą własnych [[heavy-metal|Heavy Metali]] i przegrywa. Zero i C.C. zostają przy Dabie, a gdy poznają [[connect-force|Connect]], zaczynają zbliżać do niego rebeliantów.
+- Rebelianci Daby pochodzą z serialu [[heavy-metal-l-gaim|*Heavy Metal L-Gaim*]] (1984–1985), w którym Daba buntuje się przeciw cesarzowi Posaydalowi. Lelouch, C.C. i Gawain przybywają z [[code-geass|*Code Geass*]] (2006–2008), gdzie Lelouch jako Zero prowadzi bunt przeciw Britannii.
+
 ## 2026-11-25 20:24
 
 - [[rising-gundam|Rising Gundam]] z serialu [[mobile-fighter-g-gundam|*Mobile Fighter G Gundam*]] to wojskowa maszyna Neo-Japonii, którą doktor Mikamura przerobił z prototypu Shining Gundama z myślą o prawdziwej walce z Dark Gundamem; walczy naginatą, łukiem wiązkowym i tarczą z naramienników.
@@ -56,7 +62,7 @@
 
 ## 2026-11-22 21:20
 
-- [[pentagona|Pentagona]] — trzecia z potęg sprzymierzonych za [[brama-warp|bramą warp]] obok [[balarant|Balarantu]] i [[grados|Gradosu]] — wywodzi się z pięcioplanetarnego układu słonecznego z *Heavy Metal L-Gaim*, a gigantyczny [[lotniskowiec-gradosu|lotniskowiec Gradosu]] z marsjańskiej doliny należy do ciężkich okrętów tej armii z [[blue-comet-spt-layzner|*Blue Comet SPT Layzner*]].
+- [[pentagona|Pentagona]] — trzecia z potęg sprzymierzonych za [[brama-warp|bramą warp]] obok [[balarant|Balarantu]] i [[grados|Gradosu]] — wywodzi się z pięcioplanetarnego układu słonecznego z [[heavy-metal-l-gaim|*Heavy Metal L-Gaim*]], a gigantyczny [[lotniskowiec-gradosu|lotniskowiec Gradosu]] z marsjańskiej doliny należy do ciężkich okrętów tej armii z [[blue-comet-spt-layzner|*Blue Comet SPT Layzner*]].
 - [[cybuster|Cybuster]] jest jednym z czterech Masou Kishin Świętego Królestwa Langranu, związanym paktem z duchem wiatru Syphisem, i potrafi samodzielnie otworzyć bramę między Ziemią a La Gius.
 - W marsjańskiej dolinie [[gosterro|Gosterro]] ponownie wchodzi do walki w [[daljan|Daljanie]] u boku okrętu Gradosu, a w sterowni [[stacja-mars|Stacji Mars]] to [[himari-yaegaki|Himari]] wykrywa na Marsie [[promienie-gettera|promienie Gettera]] o wzorcu [[invaderzy|Invaderów]], podczas gdy [[macross-quarter|Macross Quarter]] osłania stację z mostkiem [[jeffrey-wilder|Jeffreya]], [[bobby-margot|Bobby’ego]], [[catherine-glass|Cathy]] i [[monica-lang|Moniki]].
 
@@ -329,7 +335,7 @@
 
 ## 2026-11-14 14:22
 
-- Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] [[duo-maxwell|Duo Maxwell]] mówi, że nie udało się cesarza powstrzymać, a jego próbę rozmowy z [[heero-yuy|Heero]] ucina krótkie „Nic nie mów…”; gdy na trasie pojawia się [[zero|Zero]], Duo woła jego imię.
+- Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] [[duo-maxwell|Duo Maxwell]] mówi, że nie udało się cesarza powstrzymać, a jego próbę rozmowy z [[heero-yuy|Heero]] ucina krótkie „Nic nie mów…”; gdy na trasie pojawia się [[suzaku-kururugi|Zero]], Duo woła jego imię.
 - [[quatre-raberba-winner|Quatre Raberba Winner]] odczytuje intencję cesarza — raz na zawsze rozprawić się ze Spacenoidami — a [[trowa-barton|Trowa Barton]] odpowiada, że znów poleje się krew.
 - [[chang-wufei|Chang Wufei]] nie uznaje ani cesarza, ani [[char-aznable|Chara]], ani [[treize-khushrenada|Treize'a]] i odchodzi w milczeniu, pytany przez Heero, dokąd idzie.
 
@@ -342,7 +348,7 @@
 ## 2026-11-14 13:24
 
 - [[nunnally-vi-britannia|Nunnally vi Britannia]] jest córką cesarza Charlesa zi Britannii i Marianne; po zamachu na matkę straciła wzrok i władzę w nogach, a po śmierci brata wstąpiła na tron Britannii jako jej setna władczyni.
-- Gdy [[zero|Zero]] zabija cesarza [[lelouch-vi-britannia|Leloucha]], brata woła [[nunnally-vi-britannia|Nunnally]], a [[chang-wufei|Chang Wufei]] pierwszy staje do walki: nie uznaje świata, do którego doprowadzili go Treize i Lelouch, i chce wywalczyć miejsce dla żołnierzy.
+- Gdy [[suzaku-kururugi|Zero]] zabija cesarza [[lelouch-vi-britannia|Leloucha]], brata woła [[nunnally-vi-britannia|Nunnally]], a [[chang-wufei|Chang Wufei]] pierwszy staje do walki: nie uznaje świata, do którego doprowadzili go Treize i Lelouch, i chce wywalczyć miejsce dla żołnierzy.
 - [[chang-wufei|Wufei]] pochodzi z rodu Longów z klastra L5; imię poległej towarzyszki Long Meilan, „Nataku”, przeniósł na własną maszynę — stąd Shenlong, a potem [[altron-gundam|Altron]], który wysadził, gdy upadła Armia Mariemai.
 - [[tetsuya-tsurugi|Tetsuya Tsurugi]] trafił jako siedmiolatek do Kenzo Kabuto i ćwiczył na pilota Great Mazingera, by bronić Ziemi przed Imperium Mykenów u boku Jun Hono i adoptowanego brata [[koji-kabuto|Kojiego]].
 - [[hyoma-aoi|Hyoma Aoi]] prowadzi drużynę z Nanbara Connection jako pilot Battle Jet — maszyny, która przy kombinacji tworzy głowę Combattlera V; to wychowany w sierocińcu motocyklista, który wchodzi do walki pierwszy.
@@ -389,13 +395,13 @@
 
 ## 2026-11-11 19:26
 
-- Maska [[zero|Zero]] powstała jako przebranie [[lelouch-vi-britannia|Leloucha]]; po planie Zero Requiem rolę doradcy Czarnych Rycerzy przejmuje Suzaku i nosi ją dalej.
+- Maska Zero powstała jako przebranie [[lelouch-vi-britannia|Leloucha]]; po planie Zero Requiem rolę doradcy Czarnych Rycerzy przejmuje [[suzaku-kururugi|Suzaku]] i nosi ją dalej.
 - [[tetsuro-yagami|Tetsuro Yagami]] zbudował pod [[miasto-yagami|miastem Yagami]] twierdzę [[a-advent|A. Advent]], której mechanizmy pozostają czarną skrzynką; po jego śmierci w wypadku [[annina-servania|Annina]] została nauczycielką [[echika-y-franburnett|Echiki]] zgodnie z jego ostatnią wolą.
 
 ## 2026-11-11 19:14
 
 - [[kamille-bidan|Kamille Bidan]] dorastał na kolonii Gryps i po bójce z Jeridem Messą trafił w ręce Titanów, a podczas rajdu AEUG pomógł wykraść trzy prototypy Gundama Mk-II a następnie przesiał się na Zeta Gundama.
-- [[lelouch-vi-britannia|Lelouch]] jako jedenasty syn cesarza popadł w niełaskę po zamachu na matkę i trafił do Japonii jako zakładnik; Geass od C.C. i maska [[zero|Zero]] pozwoliły mu stanąć na czele Czarnych Rycerzy.
+- [[lelouch-vi-britannia|Lelouch]] jako jedenasty syn cesarza popadł w niełaskę po zamachu na matkę i trafił do Japonii jako zakładnik; [[geass|Geass]] od [[c-c|C.C.]] i maska Zero pozwoliły mu stanąć na czele Czarnych Rycerzy.
 
 ## 2026-11-11 19:02
 
@@ -440,7 +446,7 @@
 ## 2026-11-10 23:58
 
 - W [[klasa-obrony-ziemi|Klasie Obrony Ziemi]] [[hidenori-kondo|Hidenori Kondo]] obsługuje radar [[raijin-oh|Raijin-Oha]], [[hiroshi-takamori|Hiroshi Takamori]] czuwa nad zabezpieczeniami broni i bywa drugim pilotem [[bakuryu-oh|Bakuryu-Oha]], [[yu-izumi|Yu Izumi]] monitoruje połączenie maszyn, a [[miki-mano|Miki Mano]] nadzoruje energię oraz wyrzutnię Bakuryu Cuttera; w [[saurersi|Saurersach]] [[shuzo-osada|Shuzo Osada]] opiekuje się mechaniką, [[ikuyo-oyama|Ikuyo Oyama]] obsługuje pierwszą maszynownię, a [[yuka-mizuhara|Yuka Mizuhara]] śledzi radar.
-- [[general-takeda|Generał Takeda]] przewodzi Siłom Obrony we wszystkich czterech odsłonach cyklu [[eldran|Eldran]], a w [[srw-y|Super Robot Wars Y]] [[baku-yamagishi|Baku Yamagishi]], [[yomogi-asanaka|Yomogi Asanaka]] i [[zero|Zero]] (w [[lancelot-albion-zero|Lancelocie Albion Zero]]) walczą w świecie [[altron-gundam|Altron Gundama]] i bezzałogowych [[taurus|Taurusów]].
+- [[general-takeda|Generał Takeda]] przewodzi Siłom Obrony we wszystkich czterech odsłonach cyklu [[eldran|Eldran]], a w [[srw-y|Super Robot Wars Y]] [[baku-yamagishi|Baku Yamagishi]], [[yomogi-asanaka|Yomogi Asanaka]] i [[suzaku-kururugi|Zero]] (w [[lancelot-albion-zero|Lancelocie Albion Zero]]) walczą w świecie [[altron-gundam|Altron Gundama]] i bezzałogowych [[taurus|Taurusów]].
 
 ## 2026-11-10 23:56
 
@@ -488,14 +494,14 @@
 
 ## 2026-11-10 00:34
 
-- Rozmowy [[koji-kabuto|Kojiego]] z [[tetsuya-tsurugi|Tetsuyą]] oraz [[chizuru-nambara|Chizuru]] z [[hyoma-aoi|Hyomą]] toczą się podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] — jeszcze w trakcie [[wojna-rewolucyjna|wojny rewolucyjnej]], którą kończy dopiero zamach [[zero|Zero]]. Wtedy też Chizuru mówi, że w [[imperium-yoma|Imperium Yoma]] wciąż pozostał cesarz [[barao|Barao]].
+- Rozmowy [[koji-kabuto|Kojiego]] z [[tetsuya-tsurugi|Tetsuyą]] oraz [[chizuru-nambara|Chizuru]] z [[hyoma-aoi|Hyomą]] toczą się podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] — jeszcze w trakcie [[wojna-rewolucyjna|wojny rewolucyjnej]], którą kończy dopiero zamach [[suzaku-kururugi|Zero]]. Wtedy też Chizuru mówi, że w [[imperium-yoma|Imperium Yoma]] wciąż pozostał cesarz [[barao|Barao]].
 - [[trowa-barton|Trowa]] zapowiada nowy rozlew krwi przed zamachem, w odpowiedzi na słowa [[quatre-raberba-winner|Quatre'a]], że cesarz chce rozprawić się ze Spacenoidami; [[heero-yuy|Heero]] ucina rozmowę z [[duo-maxwell|Duo]], zanim zjawia się Zero, a potem myśli o obietnicy Suzaku Kururugiego.
 - [[treize-khushrenada|Treize Khushrenada]] przewodził Ziemianom w wojnie rewolucyjnej obok Leloucha; [[chang-wufei|Wufei]] odchodzi z parady, nie uznając „ani jego, ani Chara, ani Treize'a”.
 - O [[kamille-bidan|Kamille]] pyta [[amuro-ray|Amuro]], a [[bright-noa|Bright]] odpowiada, że ten wciąż się nie odezwał.
 
 ## 2026-11-10 00:31
 
-- Dzieje [[lelouch-vi-britannia|Leloucha]] sprzed prologu [[srw-y|SRW Y]] — pakt z C.C. i moc Geass, bunt Czarnych Rycerzy pod maską Zero, tron Britannii i plan Zero Requiem — należą do świata [[code-geass-lelouch-of-the-re-surrection|Code Geass Lelouch of the Re;surrection]]; rok po Zero Requiem świat przebudowany wokół Zjednoczonej Federacji Narodów cieszy się pokojem.
+- Dzieje [[lelouch-vi-britannia|Leloucha]] sprzed prologu [[srw-y|SRW Y]] — pakt z [[c-c|C.C.]] i moc [[geass|Geass]], bunt Czarnych Rycerzy pod maską Zero, tron Britannii i plan Zero Requiem — należą do świata [[code-geass-lelouch-of-the-re-surrection|Code Geass Lelouch of the Re;surrection]]; rok po Zero Requiem świat przebudowany wokół Zjednoczonej Federacji Narodów cieszy się pokojem.
 - Film *Re;surrection* kontynuuje kinową trylogię, którą zamyka [[code-geass-lelouch-of-the-rebellion-iii-glorification|III Glorification]].
 
 ## 2026-11-09 18:30
@@ -523,7 +529,7 @@
 
 ## 2026-11-09 13:58
 
-- Parada cesarza [[lelouch-vi-britannia|Leloucha]], na której [[zero|Zero]] odbiera mu życie, to w pierwowzorze finał planu Zero Requiem — dwudziesty piąty odcinek „Re;” serialu *Code Geass: Lelouch of the Rebellion R2* i finał filmu [[code-geass-lelouch-of-the-rebellion-iii-glorification|III Glorification]]; na paradzie patrzy na nią z balkonu [[echika-y-franburnett|Echika]].
+- Parada cesarza [[lelouch-vi-britannia|Leloucha]], na której [[suzaku-kururugi|Zero]] odbiera mu życie, to w pierwowzorze finał planu Zero Requiem — dwudziesty piąty odcinek „Re;” serialu [[code-geass|*Code Geass: Lelouch of the Rebellion R2*]] i finał filmu [[code-geass-lelouch-of-the-rebellion-iii-glorification|III Glorification]]; na paradzie patrzy na nią z balkonu [[echika-y-franburnett|Echika]].
 
 ## 2026-11-09 13:45
 

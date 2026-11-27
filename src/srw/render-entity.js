@@ -19,7 +19,7 @@ import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefFiltru, hrefListy } from './links.js';
 import { dajStrone, listaStron, listaEpizodow, backlinkiStrony, odsylaczeWychodzace, dajDane } from './data.js';
 import { boksyZHtmliu, quickMenu } from './spis-boksow.js';
-import { sortujSceny, serieStrony } from './registry.js';
+import { sortujSceny, serieStrony, pseudonimyStrony } from './registry.js';
 import {
   nazwaTypu, chipsyTagow, linkStrony,
   stanPusty, nieZnalesc, naglowekStrony, numerEpizodu, KOLEJNOSC_TYPOW, odmiana,
@@ -80,7 +80,7 @@ function podtytul(s) {
     const serie = serieStrony(s).map((slug) => dajStrone(slug)).filter(Boolean);
     const czesci = [];
     // Pseudonim (ADR 0037): pod nim postać mówi w skrypcie, więc stoi tuż przy tytule.
-    if (s.typ === 'postac' && s.pseudonim) czesci.push(`„${escapeHtml(s.pseudonim)}”`);
+    if (s.typ === 'postac') for (const ps of pseudonimyStrony(s)) czesci.push(`„${escapeHtml(ps.nazwa)}”`);
     if (serie.length === 1) czesci.push(`z serii ${linkStrony(serie[0])}`);
     else if (serie.length > 1) czesci.push(`z serii ${serie.map(linkStrony).join(' / ')}`);
     return czesci.join(' · ');
@@ -118,6 +118,17 @@ function wierszSerii(s) {
   return ['Serie', wpisy.length ? wpisy.join('<br>') : serie.map(linkStrony).join('<br>')];
 }
 
+/**
+ * Wiersz „Pseudonim”: ogólny pseudonim bez dopisku, a pseudonim z jednej gry
+ * (ADR 0047) z nazwą tej gry — Zero Leloucha i Zero Suzaku to dwie różne maski.
+ */
+function wierszPseudonimu(s) {
+  return pseudonimyStrony(s).map(({ nazwa, gry }) => {
+    const tytuly = gry.map((g) => dajStrone(g)?.tytul).filter(Boolean);
+    return tytuly.length ? `${escapeHtml(nazwa)} (${escapeHtml(tytuly.join(', '))})` : escapeHtml(nazwa);
+  }).join('<br>');
+}
+
 /** Pola infoboksu per typ — metryka, nie narracja. */
 function infoboks(s) {
   const wiersze = [];
@@ -146,7 +157,7 @@ function infoboks(s) {
   if (s.typ === 'postac') {
     const sr = wierszSerii(s);
     if (sr) dodaj(sr[0], sr[1]);
-    dodaj('Pseudonim', s.pseudonim ? escapeHtml(s.pseudonim) : '');
+    dodaj('Pseudonim', wierszPseudonimu(s));
     dodaj('Rola', s.rola ? escapeHtml(s.rola) : '');
     dodaj('Seiyū', s.seiyuu ? escapeHtml(s.seiyuu) : '');
   }

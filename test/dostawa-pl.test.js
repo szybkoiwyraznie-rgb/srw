@@ -611,7 +611,7 @@ test('dostawa ilustracji SRW Y (2026-11-09): osiem jednostek i szesnaście portr
   const portrety = {
     'takuma-nagare': 'Takuma Nagare',
     'cross-tsukinowa': 'Tsukinowa Cross', 'wren': 'Wren', 'yomogi-asanaka': 'Yomogi',
-    'zero': 'Zero', 'annina-servania': 'Annina Servania', 'aytie': 'Aytie',
+    'suzaku-kururugi': 'Zero', 'annina-servania': 'Annina Servania', 'aytie': 'Aytie',
     'baku-yamagishi': 'Baku Yamagishi', 'chang-wufei': 'Chang Wufei', 'cookie': 'Cookie',
     'echika-y-franburnett': 'Echika Y. Franburnett', 'forte-tsukinowa': 'Forte Tsukinowa',
     'gauma': 'Gauma',

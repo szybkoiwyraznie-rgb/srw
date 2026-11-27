@@ -6,12 +6,14 @@ gry: [srw-oe]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Heavy_Metal_L-Gaim
-tagi: [organizacja, kosmos, sojusz]
+tagi: [organizacja, kosmos, sojusz, l-gaim]
 utworzono: 2026-11-21
 ---
 {{skrypt gra=srw-oe
 
 Trzeci z sojuszy, obok [[grados|Gradosu]] i [[balarant|Balarantu]], które według [[albatro-null-eiji-asuka|Eijiego]] najeżdżają i kolonizują planety w sąsiednich przestrzeniach. W [[srw-oe-ep4-atak-na-okret-gradosu|„Ataku na okręt Gradosu”]] Eiji wymienia Pentagonę, gdy wyjaśnia [[suol|Szefowi Suolowi]], że ekspansja Gradosu przyspieszyła po zawarciu układów między trzema potęgami: „Grados zawarł układy z Balarantem i Pentagoną i zamierza dalej najeżdżać sąsiednie przestrzenie”. Jako ogniwo tego sojuszu zmusza [[connect-force|Connect Force]] do obrony planet skolonizowanych przez trzy mocarstwa.
+
+Od środka Pentagonę pokazuje [[srw-oe-ep4-lelouch-buntownik|misja „Lelouch buntownik”]]. To układ pięciu planet krążących wokół podwójnego słońca Sans: Gastogalu, Tridetoalu, Fa, Coamu i [[mizun|Mizunu]]. Zamieszkane są wszystkie poza Fa. Na każdej kwitła niegdyś własna dynastia, dopóki Posaydal z Gastogalu nie zjednoczył ich w Federację Pentagony. [[oldna-posaydal|Oldna Posaydal]] rządzi nią dzięki miażdżącej przewadze militarnej, ale na każdej planecie zrodziły się ruchy oporu. Są jednak podzielone i nie tworzą jednej armii. Najwięcej rebeliantów działa na Mizunie, gdzie rebeliantom [[daba-myroad|Daby]] pomaga Zero, a potem zaczyna zbliżać ich do [[connect-force|Connect]].
 }}
 
 {{zrodlo gra=wspolne

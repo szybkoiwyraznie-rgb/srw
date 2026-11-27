@@ -59,6 +59,8 @@ const TAG_SERII = {
   'blue-comet-spt-layzner': 'layzner',
   'macross-frontier': 'macross',
   'goshogun': 'goshogun',
+  'code-geass': 'code-geass',
+  'heavy-metal-l-gaim': 'l-gaim',
 };
 
 test('pole kategoria zniknęło z całej bazy', () => {
@@ -127,12 +129,15 @@ test('maszyny bez podanej klasy świadomie nie dostają tagu rodzaju jednostki',
     .filter((s) => !tagi(s).some((t) => RODZAJE_JEDNOSTEK.includes(t)))
     .map((s) => s.slug)
     .sort();
+  // Heavy Metale z L-Gaima (bat-shu, l-gaim, novel-d-sserd) i Knightmare Frame z Code Geass
+  // (gawain) to — jak SPT Layznera — klasy własne serii, nie klasa z katalogu OE.
   assert.deepEqual(bezKlasy, [
-    'bolt-robo-anti-air', 'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
+    'bat-shu', 'bolt-robo-anti-air', 'bolt-robo-long-range', 'bolt-robo-melee', 'bolt-robo-standard',
     // SPT Layznera to maszyny własne serii, nie klasa z katalogu OE.
-    'braver', 'cybird', 'cybuster', 'daljan', 'enh-layzner', 'exart', 'gandoppler', 'goshogun-robo', 'guntank', 'insector',
-    'invader-air', 'invader-ground', 'keroro-jet', 'keroro-robo-mk-ii', 'metal-beast-muszla',
-    'nekton-assault', 'nekton-creek', 'real-pg-gundam', 'rvf-25-messiah-battroid', 'shalbandes',
+    'braver', 'cybird', 'cybuster', 'daljan', 'enh-layzner', 'exart', 'gandoppler',
+    'gawain', 'goshogun-robo', 'guntank', 'insector',
+    'invader-air', 'invader-ground', 'keroro-jet', 'keroro-robo-mk-ii', 'l-gaim', 'metal-beast-muszla',
+    'nekton-assault', 'nekton-creek', 'novel-d-sserd', 'real-pg-gundam', 'rvf-25-messiah-battroid', 'shalbandes',
     'vf-25f-messiah-battroid', 'vf-25g-messiah-battroid', 'zordo-xx',
   ]);
 });
