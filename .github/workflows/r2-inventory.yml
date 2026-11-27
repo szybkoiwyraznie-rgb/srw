@@ -57,24 +57,39 @@ jobs:
           node --input-type=module -e '
             import { readFileSync } from "node:fs";
             const d = JSON.parse(readFileSync(`${process.env.RUNNER_TEMP}/r2-inventory/r2-inventory.json`, "utf8"));
-            const objects = d.objects.map(({ key, size, lastModified }) => ({ key, size, lastModified }));
-            const LIMIT = 3000;
-            const chunks = [];
-            let current = [];
-            for (const o of objects) {
-              if (current.length && JSON.stringify(current.concat([o])).length > LIMIT) {
-                chunks.push(current);
-                current = [];
+            // GitHub pokazuje najwyżej 10 adnotacji na krok, więc pełna lista idzie
+            // w zwartej postaci: same klucze (części „keys”), a rozmiary i daty tylko
+            // dla plików zmienionych w ostatnich 14 dniach (części „recent”).
+            const LIMIT = 3500;
+            const potnij = (items) => {
+              const chunks = [];
+              let current = [];
+              for (const o of items) {
+                if (current.length && JSON.stringify(current.concat([o])).length > LIMIT) {
+                  chunks.push(current);
+                  current = [];
+                }
+                current.push(o);
               }
-              current.push(o);
-            }
-            if (current.length) chunks.push(current);
-            chunks.forEach((part, index) => {
+              if (current.length) chunks.push(current);
+              return chunks;
+            };
+            const od = Date.now() - 14 * 24 * 3600 * 1000;
+            const recent = d.objects
+              .filter((o) => Date.parse(o.lastModified) >= od)
+              .map(({ key, size, lastModified }) => ({ key, size, lastModified }));
+            const czesci = [
+              ...potnij(d.objects.map((o) => o.key)).map((keys) => ({ keys })),
+              ...potnij(recent).map((objects) => ({ recent: objects })),
+            ];
+            if (czesci.length > 10) console.log(`::warning title=R2 inventory::${czesci.length} części — powyżej limitu 10 adnotacji`);
+            czesci.forEach((czesc, index) => {
               const payload = JSON.stringify({
+                format: 2,
                 part: index + 1,
-                total: chunks.length,
+                total: czesci.length,
                 ...(index === 0 ? { objectCount: d.objectCount } : {}),
-                objects: part,
+                ...czesc,
               });
               const safe = payload.replaceAll("%", "%25").replaceAll("\r", "%0D").replaceAll("\n", "%0A");
               console.log(`::notice title=R2 inventory::${safe}`);
