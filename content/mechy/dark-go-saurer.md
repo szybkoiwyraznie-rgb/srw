@@ -17,7 +17,7 @@ utworzono: 2026-11-23
 
 Wroga maszyna, którą w [[srw-oe-ep4-przybysz-z-innego-czasu|misji „Przybysz z innego czasu”]] pilotuje [[mechabestia|mechabestia]]. [[jin-hyuga|Jin]] w pierwszej chwili bierze ją za Go-Saurera, lecz [[asuka-tsukishiro|Asuka]] rozpoznaje Dark Go-Saurera z danych [[saurersi|Saurersów]], a [[maria-shiratori|Maria]] zauważa, że naprawdę wygląda jak [[king-go-saurer|King Go-Saurer]]. [[koji-hoshiyama|Koji Hoshiyama]] przypomina sobie walkę z Jaku Raijin-Ohem, a Jin uznaje, że to tylko kolejna podróbka, która nie ma szans z drużyną trenującą z oryginałem.
 
-Załoga [[goshogun-robo|GoShoguna]] też wyczuwa fałsz: [[killy-gagley|Killy]] mówi, że coś tu śmierdzi, a [[remy-shimada|Remy]] porównuje maszynę do Go-Naghoula, podróbki od [[docougar|Docougaru]]. [[seishiro|Seishiro]] przypomina, że mimo to jest to super robot i godny przeciwnik. Uzbrojenie obejmuje Dark Launcher, Dark Blade, Dark Titan i Dark Spartan.
+Załoga [[goshogun-robo|GoShoguna]] też wyczuwa fałsz: [[killy-gagley|Killy]] mówi, że coś tu śmierdzi, a [[remy-shimada|Remy]] porównuje maszynę do [[go-naghoul|Go-Naghoula]], podróbki od [[docougar|Docougaru]]. [[seishiro|Seishiro]] przypomina, że mimo to jest to super robot i godny przeciwnik. Uzbrojenie obejmuje Dark Launcher, Dark Blade, Dark Titan i Dark Spartan.
 }}
 
 {{zrodlo gra=wspolne

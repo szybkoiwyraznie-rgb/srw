@@ -24,7 +24,7 @@
 
 ## 2026-11-25 19:59
 
-- Porównując [[dark-go-saurer|Dark Go-Saurera]] do Go-Naghoula w [[srw-oe-ep4-przybysz-z-innego-czasu|misji 4-3]], [[remy-shimada|Remy]] przywołuje podróbkę GoShoguna, którą [[docougar|Dokuga]] wystawiła przeciw drużynie Good Thunder w 23. odcinku *GoShoguna*.
+- Porównując [[dark-go-saurer|Dark Go-Saurera]] do [[go-naghoul|Go-Naghoula]] w [[srw-oe-ep4-przybysz-z-innego-czasu|misji 4-3]], [[remy-shimada|Remy]] przywołuje podróbkę GoShoguna, którą [[docougar|Dokuga]] wystawiła przeciw drużynie Good Thunder w 23. odcinku *GoShoguna*.
 - [[dark-go-saurer|Dark Go-Saurer]] to mroczna kopia [[king-go-saurer|King Go-Saurera]] z serialu [[nekketsu-saikyo-go-saurer|*Nekketsu Saikyō Go-Saurer*]], zbudowana przez [[mechanization-empire|Imperium Mechanizacji]]; w starciu z [[connect-force|Connect Force]] [[killy-gagley|Killy]] wyczuwa w niej fałsz, a [[seishiro|Seishiro]] przestrzega, że to wciąż super robot i godny przeciwnik.
 
 ## 2026-11-25 19:55

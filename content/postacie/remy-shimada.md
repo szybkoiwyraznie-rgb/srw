@@ -14,7 +14,7 @@ utworzono: 2026-11-23
 ---
 {{skrypt gra=srw-oe
 
-Pilotka wspierająca GoShoguna z drużyny Good Thunder. Po przeskoku sprawdza mapy gwiezdne i ustala, że są w pobliżu Marsa, choć coś się nie zgadza; to ona pierwsza dostrzega nadciągający „komitet powitalny” mechabestii. O Connect Force nigdy nie słyszała, a szybką decyzję [[jeffrey-wilder|Jeffreya]] o wspólnej walce kwituje zachwytem nad dojrzałym kapitanem, który szybko łapie sytuację. [[dark-go-saurer|Dark Go-Saurer]] przypomina jej Go-Naghoula, podróbkę od [[docougar|Docougaru]].
+Pilotka wspierająca GoShoguna z drużyny Good Thunder. Po przeskoku sprawdza mapy gwiezdne i ustala, że są w pobliżu Marsa, choć coś się nie zgadza; to ona pierwsza dostrzega nadciągający „komitet powitalny” mechabestii. O Connect Force nigdy nie słyszała, a szybką decyzję [[jeffrey-wilder|Jeffreya]] o wspólnej walce kwituje zachwytem nad dojrzałym kapitanem, który szybko łapie sytuację. [[dark-go-saurer|Dark Go-Saurer]] przypomina jej [[go-naghoul|Go-Naghoula]], podróbkę od [[docougar|Docougaru]].
 
 Po bitwie zapewnia, że skoro Connect chce bronić Ziemi, drużyna nie poskąpi pomocy, niezależnie od tego, czy to inny świat. [[sergeant-keroro|Keroro]] pyta, czy on także jest z tego świata.
 }}

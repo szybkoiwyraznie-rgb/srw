@@ -7,7 +7,7 @@ numer_sceny: "4-3"
 streszczenie: "Drużyna Good Thunder trafia w okolice Marsa i wspiera Connect Force w walce z mechabestiami, Dark Go-Saurerem oraz Mucus Gate S MC. Po bitwie Shingo Hojo, Killy Gagley i Remy Shimada przyjmują zaproszenie do Connect Force, który szykuje ekspedycję przez bramę warp."
 postacie: [seishiro, sergeant-keroro, himari-yaegaki, jin-hyuga, koji-hoshiyama, asuka-tsukishiro, bright-noa, suol, catherine-glass, bobby-margot, jeffrey-wilder, alto-saotome, shingo-hojo, killy-gagley, remy-shimada, yoko-kuriki, akira-imamura, tsutomu-kojima, mina-roshan, ram-hoa, monica-lang, maria-shiratori, karen-joshua, mechabestia, mucus]
 mechy: [exart, goshogun-robo, macross-quarter, raijin-oh, bolt-robo-anti-air, bolt-robo-long-range, bolt-robo-melee, bolt-robo-standard, dark-go-saurer, mucus-gate-s-mc, keroro-robo-mk-ii, go-saurer, king-go-saurer]
-pojecia: [connect-force, stacja-mars, brama-warp, mechanization-empire, beamler, docougar]
+pojecia: [connect-force, stacja-mars, brama-warp, mechanization-empire, beamler, docougar, go-naghoul]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/GoShogun
@@ -264,7 +264,7 @@ Na pole walki docierają kolejne siły Connect. [[jin-hyuga|Jin]] i [[asuka-tsuk
 
 [[shingo-hojo|Shingo]] przedstawia się jako pilot GoShoguna i członek drużyny Good Thunder. [[jeffrey-wilder|Jeffrey]] proponuje wspólną walkę, choć nie zna ani nazwy drużyny, ani jej świata; Shingo potwierdza, że jego zespół broni Ziemi, lecz rzeczywistość wokół nich różni się od tej, którą znają. Remy zachwyca się kapitanem, który tak szybko pojmuje ich położenie, a Good Thunder przyjmuje pomoc Connect Force w walce z mechabestiami.
 
-W warunkowych dialogach przed starciem [[killy-gagley|Killy]] wyczuwa w Dark Go-Saurerze coś podejrzanego, [[remy-shimada|Remy]] porównuje go do Go-Naghoula — podróbki od [[docougar|Docougaru]] — a Shingo uznaje, że nie ma się czego bać; Seishiro zwraca jednak uwagę, że to wciąż super robot i godny przeciwnik. [[koji-hoshiyama|Koji Hoshiyama]] porównuje sytuację do walki z Jaku Raijin-Ohem, a Asuka wykorzystuje pochwałę Jina, by przypomnieć mu o treningach.
+W warunkowych dialogach przed starciem [[killy-gagley|Killy]] wyczuwa w Dark Go-Saurerze coś podejrzanego, [[remy-shimada|Remy]] porównuje go do [[go-naghoul|Go-Naghoula]] — podróbki od [[docougar|Docougaru]] — a Shingo uznaje, że nie ma się czego bać; Seishiro zwraca jednak uwagę, że to wciąż super robot i godny przeciwnik. [[koji-hoshiyama|Koji Hoshiyama]] porównuje sytuację do walki z Jaku Raijin-Ohem, a Asuka wykorzystuje pochwałę Jina, by przypomnieć mu o treningach.
 
 ### Po bitwie
 
@@ -283,7 +283,7 @@ Końcowy komentarz rozszerza znaczenie zwycięstwa: obecność Mucus Gate w prze
 
 ## Nawiązania do oryginalnych odcinków
 
-Wydarzenia z tej sceny — uwaga [[remy-shimada|Remy]], że [[dark-go-saurer|Dark Go-Saurer]] „pachnie jak Go-Naghoul, podróbka od Docougaru” — nawiązują do **dwudziestego trzeciego odcinka** serialu *Sengoku Majin GoShogun* (odc. 23 „Good Thunder on the Loose”, 暴走グッドサンダー, 7 grudnia 1981) — [Wikipedia, *GoShogun*](https://en.wikipedia.org/wiki/GoShogun) (sprawdzono 2026-11-25). W tym odcinku Yatter La Kernagul, jeden z trzech dowódców [[docougar|Dokugi]], wystawia Go-Naghoula (戦国恐神ゴーナグール): robota zbudowanego na wzór GoShoguna, z rogiem przypominającym chrząszcza i znakiem Good Thunder przerobionym na literę Y, uzbrojonego w szablę i bazookę. Na jego widok Remy rzuca do wszystkich przestrogę przed podróbkami ([pixiv百科事典, „ゴーナグール”](https://dic.pixiv.net/a/%E3%82%B4%E3%83%BC%E3%83%8A%E3%82%B0%E3%83%BC%E3%83%AB); sprawdzono 2026-11-25).
+Wydarzenia z tej sceny — uwaga [[remy-shimada|Remy]], że [[dark-go-saurer|Dark Go-Saurer]] „pachnie jak Go-Naghoul, podróbka od Docougaru” — nawiązują do **dwudziestego trzeciego odcinka** serialu *Sengoku Majin GoShogun* (odc. 23 „Good Thunder on the Loose”, 暴走グッドサンダー, 7 grudnia 1981) — [Wikipedia, *GoShogun*](https://en.wikipedia.org/wiki/GoShogun) (sprawdzono 2026-11-25). W tym odcinku Yatter La Kernagul, jeden z trzech dowódców [[docougar|Dokugi]], wystawia [[go-naghoul|Go-Naghoula]] (戦国恐神ゴーナグール): robota zbudowanego na wzór GoShoguna, z rogiem przypominającym chrząszcza i znakiem Good Thunder przerobionym na literę Y, uzbrojonego w szablę i bazookę. Na jego widok Remy rzuca do wszystkich przestrogę przed podróbkami ([pixiv百科事典, „ゴーナグール”](https://dic.pixiv.net/a/%E3%82%B4%E3%83%BC%E3%83%8A%E3%82%B0%E3%83%BC%E3%83%AB); sprawdzono 2026-11-25).
 
 Tutaj to samo skojarzenie trafia na maszynę z innego serialu: Dark Go-Saurer jest kopią King Go-Saurera z [[nekketsu-saikyo-go-saurer|*Nekketsu Saikyō Go-Saurer*]], a nie robotem Dokugi.
 
@@ -300,7 +300,7 @@ Tutaj to samo skojarzenie trafia na maszynę z innego serialu: Dark Go-Saurer je
 | Drużyna Good Thunder trafia do obcego świata w rejonie Marsa | [[srw-oe\|Super Robot Wars OE]] | n/d | Załoga nie potrafi ustalić, czy skoczyła w przyszłość, czy do innej rzeczywistości; jej pochodzenie i przybycie są elementem crossoverowej fabuły gry. |
 | Dark Go-Saurer jako imitacja robota znanego Saurersom | [[srw-oe\|Super Robot Wars OE]] | n/d | Connect rozpoznaje maszynę z danych Saurersów i zestawia jej wygląd z King Go-Saurerem; gra przedstawia ją jako wrogą podróbkę. |
 | Koji wspomina walkę z Jaku Raijin-Ohem | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | odc. 21 „敵はライジンオー!?” | W serialu podróbka Raijin-Oha jest bestią Imperium Jaku, która ściąga winę na klasę; tutaj wspomnienie tej walki służy uczniom do oceny Dark Go-Saurera, kopii robota z innej serii. |
-| Remy porównuje Dark Go-Saurera do Go-Naghoula | [[goshogun\|GoShogun]] | odc. 23 „Good Thunder on the Loose” | W serialu Go-Naghoul jest podróbką GoShoguna zbudowaną przez Dokugę; tutaj Remy przenosi to skojarzenie na kopię King Go-Saurera, z którą drużyna Good Thunder nigdy wcześniej się nie zetknęła. |
+| Remy porównuje Dark Go-Saurera do [[go-naghoul\|Go-Naghoula]] | [[goshogun\|GoShogun]] | odc. 23 „Good Thunder on the Loose” | W serialu [[go-naghoul\|Go-Naghoul]] jest podróbką GoShoguna zbudowaną przez Dokugę; tutaj Remy przenosi to skojarzenie na kopię King Go-Saurera, z którą drużyna Good Thunder nigdy wcześniej się nie zetknęła. |
 | Mucus Gate S MC jako cel misji, nie pilotowany mech | [[srw-oe\|Super Robot Wars OE]] | n/d | Brama jest obiektem do zniszczenia, a nie maszyną bojową z własną załogą. |
 | Dołączenie Good Thunder do Connect Force i przygotowanie wyprawy | [[srw-oe\|Super Robot Wars OE]] | n/d | Po bitwie sojusz zostaje sformalizowany, a zakończenie wiąże dalszą ekspedycję z koniecznością zdobycia wsparcia wielu organizacji. |
 }}
