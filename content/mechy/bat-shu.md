@@ -29,6 +29,19 @@ W serialu [[heavy-metal-l-gaim|*Heavy Metal L-Gaim*]] Bat-Shu (バッシュ) to 
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Bat-Shu — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Bat-Shu.png)
+
+### Ilustracja 2
+
+![Bat-Shu — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Bat-Shu%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Heavy Metal L-Gaim

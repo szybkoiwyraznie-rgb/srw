@@ -40,6 +40,15 @@ W pierwowzorze jest jedenastym synem cesarza Charlesa zi Britannii i Marianne; p
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Lelouch vi Britannia — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Lelouch%20Lamperouge.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 | Parametr | Wartość bazowa |

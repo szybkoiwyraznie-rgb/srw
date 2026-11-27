@@ -120,3 +120,40 @@ test('skład misji 4-4 trafia do sceny, epizodu i pól pilotów', () => {
     assert.ok(episode.serie.includes(slug), `seria epizodu: ${slug}`);
   }
 });
+
+test('Misja 4-4: dostawa ilustracji (2026-11-27) przypisuje dziewięć plików jednostek i siedem portretów', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  // Klucze zachowują pisownię właściciela: „C. C.” to C.C., a „Lelouch Lamperouge”
+  // (nazwisko, pod którym ukrywał się w Japonii) to strona Leloucha vi Britannii.
+  const oczekiwane = {
+    'bat-shu': ['Bat-Shu.png', 'Bat-Shu 2.png'],
+    gawain: ['Gawain.png', 'Gawain 2.png'],
+    'l-gaim': ['L-Gaim.png', 'L-Gaim 2.png'],
+    'novel-d-sserd': ['Novel D-Sserd.png', 'Novel D-Sserd 2.png'],
+    turner: ['Turner.png'],
+    'c-c': ['characters/C. C..png'],
+    'daba-myroad': ['characters/Daba Myroad.png'],
+    'fannaria-amm': ['characters/Fannaria Amm.png'],
+    'gaw-ha-leccee': ['characters/Gaw Ha Leccee.png'],
+    'lelouch-vi-britannia': ['characters/Lelouch Lamperouge.png'],
+    'lilis-faw': ['characters/Lilis Faw.png'],
+    'mirawoo-kyao': ['characters/Mirawoo Kyao.png'],
+  };
+  assert.ok(manifest.dostarczono >= '2026-11-27', 'manifest nie jest starszy od tej dostawy');
+  for (const [slug, pliki] of Object.entries(oczekiwane)) {
+    assert.deepEqual(manifest.encje[slug], pliki, `${slug}: manifest`);
+    const body = bySlug.get(slug).body;
+    assert.match(body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria srw-oe`);
+    pliki.forEach((plik, i) => {
+      const encoded = plik.split('/').map(encodeURIComponent).join('/');
+      assert.ok(body.includes(`${manifest.baseUrl}/${encoded}`), `${slug}: brak URL dla ${plik}`);
+      assert.ok(body.includes(`ilustracja ${i + 1} z ${pliki.length}`), `${slug}: podpis ilustracji ${i + 1}`);
+    });
+    // Galeria stoi przed parametrami (kolejność boksów strony).
+    if (body.includes('## Parametry')) {
+      assert.ok(body.indexOf('## Ilustracje') < body.indexOf('## Parametry'), `${slug}: galeria przed parametrami`);
+    }
+  }
+  // Żołnierz Posaydala nie ma portretu w tej dostawie.
+  assert.equal(manifest.encje['zolnierz-posaydala'], undefined);
+});

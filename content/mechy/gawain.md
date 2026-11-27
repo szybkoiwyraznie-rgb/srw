@@ -31,6 +31,19 @@ W pierwowzorze maszynę prowadzi C.C., a Zero obsługuje uzbrojenie i wydaje roz
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Gawain — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Gawain.png)
+
+### Ilustracja 2
+
+![Gawain — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Gawain%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Code Geass

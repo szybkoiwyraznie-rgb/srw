@@ -23,3 +23,12 @@ Członkini grupy [[daba-myroad|Daby]] wśród rebeliantów z bazy Little Sei. W 
 
 W serialu [[heavy-metal-l-gaim|*Heavy Metal L-Gaim*]] Fannaria Amm (ファンネリア・アム) to była aktorka, która została złodziejką i dołącza do Daby. W oryginale głosu użyczyła jej Chieko Honda ([Wikipedia, *List of Heavy Metal L-Gaim characters*](https://en.wikipedia.org/wiki/List_of_Heavy_Metal_L-Gaim_characters); [Wikipedia, *Heavy Metal L-Gaim*](https://en.wikipedia.org/wiki/Heavy_Metal_L-Gaim); sprawdzono 2026-11-27).
 }}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Fannaria Amm — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Fannaria%20Amm.png)
+}}

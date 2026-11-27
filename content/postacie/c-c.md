@@ -28,6 +28,15 @@ W serialu [[code-geass|*Code Geass*]] C.C. (シーツー) to pseudonim nieśmier
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![C.C. — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/C.%20C..png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 - **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*

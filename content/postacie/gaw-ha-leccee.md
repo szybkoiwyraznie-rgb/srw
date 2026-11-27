@@ -29,6 +29,15 @@ W serialu [[heavy-metal-l-gaim|*Heavy Metal L-Gaim*]] Gaw Ha Leccee (ガウ・�
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Gaw Ha Leccee — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Gaw%20Ha%20Leccee.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Leccee

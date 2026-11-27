@@ -29,6 +29,15 @@ W serialu [[heavy-metal-l-gaim|*Heavy Metal L-Gaim*]] Mirawoo Kyao (ミラウー
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Mirawoo Kyao — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Mirawoo%20Kyao.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Nazwa skrócona:** Kyao

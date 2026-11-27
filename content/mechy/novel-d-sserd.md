@@ -29,6 +29,19 @@ W serialu [[heavy-metal-l-gaim|*Heavy Metal L-Gaim*]] D-Sserd (ディザード) 
 
 {{menu gra=srw-oe
 
+## Ilustracje
+
+### Ilustracja 1
+
+![Novel D-Sserd — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Novel%20D-Sserd.png)
+
+### Ilustracja 2
+
+![Novel D-Sserd — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/Novel%20D-Sserd%202.png)
+}}
+
+{{menu gra=srw-oe
+
 ## Parametry
 
 **Seria:** Heavy Metal L-Gaim
