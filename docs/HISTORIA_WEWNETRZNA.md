@@ -3,6 +3,8 @@
 Przeniesiono z witryny 2026-10-19 (ADR 0018). Historyczne notatki opisują stan
 w chwili zapisu; nie zastępują aktualnych decyzji i zasad.
 
+- 2026-11-27 19:30 — poprawka dostawy 4-4: właściciel wskazał brakujący portret „Zero (Lelouch Lamperouge).png”. To był 343. obiekt bucketa — pierwszy odczyt R2 zwrócił 10 z 12 adnotacji (GitHub trzyma najwyżej 10 na krok), więc klucze od „characters/Mi…” wzwyż były niewidoczne. Workflow `r2-inventory.yml` wypisuje odtąd zwarte części (same klucze + szczegóły plików z 14 dni); drugi odczyt (Actions 46049710140, check-run 140677704970) objął 343/343 obiekty. Portret dołączono jako 2. ilustrację Leloucha; manifest 267 encji / 340 plików. Na stronie Leloucha blok pierwowzoru podaje teraz wprost nazwisko „Lelouch Lamperouge” z cytowaniem Geass Wiki (L38).
+- 2026-11-27 19:20 — dostawa ilustracji misji 4-4 SRW OE: dziewięć plików jednostek (Bat-Shu ×2, Gawain ×2, L-Gaim ×2, Novel D-Sserd ×2, Turner) i siedem portretów (C.C. — klucz „C. C..png”, Daba Myroad, Fannaria Amm, Gaw Ha Leccee, Lelouch vi Britannia — klucz „Lelouch Lamperouge.png”, Lilis Faw, Mirawoo Kyao). Galerie w blokach menu srw-oe przed parametrami; manifest 267 encji / 339 plików. Odczyt R2: Actions 46048452541, check-run 140673488206 — 16/16 kluczy, bucket 343 obiekty (jeden poza odczytanymi częściami 1–10 z 12, niezidentyfikowany). Bez wpisu w dzienniku (L36).
 - 2026-11-20 00:15 — rozdzielenie mechów z Macross Frontier na osobne strony dla każdej formy (zgodnie ze wzorcem Cybuster/Cybird oraz Wing Gundam Zero / Wing Zero NB): Macross Quarter w trybie fortecy (`macross-quarter`) i w trybie ataku (`macross-quarter-attack-mode`), a także pary Fighter i Battroid dla RVF-25 Messiah (`rvf-25-messiah` i `rvf-25-messiah-battroid`), VF-25F Messiah (`vf-25f-messiah` i `vf-25f-messiah-battroid`) oraz VF-25G Messiah (`vf-25g-messiah` i `vf-25g-messiah-battroid`). Każda z 8 form ma własną stronę, parametry uzbrojenia i macierzyste zdolności z dostawy 3-5, wzajemne powiązania transformacji oraz przypisane ilustracje z R2 w `media/ilustracje.json` (łącznie 240 encji, 303 obrazy). Piloci otrzymali powiązania do obu form, zaktualizowano powiązania w serii Macross Frontier. Testy 537/537 pass, build 424 stron / 6554 powiązania.
 - 2026-11-19 22:50 — dostawa ilustracji misji 3-5 SRW OE: 20 plików jednostek w korzeniu (Braver, Daljan, Enhanced Layzner, Macross Quarter w trybach Atack i Fortress oraz po cztery pliki w trybach Battroid i Fighter dla RVF-25 Messiah, VF-25F Messiah i VF-25G Messiah) oraz 10 portretów w characters/ (Albatro Null Eiji Asuka, Alto Saotome, Bobby Margot, Catherine Glass, Gosterro, Jeffrey Wilder, Luca Angeloni, Michael Blanc oraz Monica Lang i Rei — nowe strony postaci z ADR 0017); klucze potwierdza odczyt listy R2 z 2026-11-20 (Actions 44808040752, check-run 136537087021). Klucz „Cathering Glass.png” zachowuje pisownię właściciela, tytuł strony to Catherine Glass. Wszystkie 15 istniejących stron zyskało sekcję ## Ilustracje przed ## Parametry. W src/srw/markdown.js i test/dostawa-pl.test.js dodano obsługę zbalansowanych nawiasów w linkach Markdown (![]() i []()). Nowe strony monica-lang i rei powiązane w seriach (L16). Testy 536/536, build 420 stron / 6520 powiązań.
 - 2026-11-18 14:34 — na wyraźne, wyjątkowe polecenie właściciela usunięto jedną kwestię z dostawy 3-4, archiwum epizodu i sceny oraz wynikające z niej opisy i powiązania. Dostawa po korekcie: 33560 B, SHA-256 `562a3f09c7287acd3f04eb560ebe5da0c353c3a054bf7753df6608b3c8776cd5`; kontrola wierności i testy uwzględniają ten stan. Pozostała treść dostawy nie została zmieniona. Sprostowanie wcześniejszego błędnego przypisania mówcy uchylono; podział drużyn z 2-8 pozostaje bez zmian.
@@ -179,6 +181,28 @@ Konwencja: `## 2026-10-18 00:35
 - Powstała baza: struktura katalogów, silnik witryny, build i publikacja na GitHub Pages.
 - Dodano wpisy demonstracyjne (gra DEMO, przykładowy epizod 01 oraz sześć encji: trzy postacie, trzy mechy, pięć broni i trzy serie anime) — do zastąpienia realnymi danymi.
 - Ustalono znaczniki pochodzenia informacji (`skrypt` / `menu` / `wiedza`) i zasadę źródeł dla wiedzy spoza rozgrywki.
+
+## 2026-11-25 — wpisy usunięte z dziennika (ilustracje to media, nie fabuła)
+
+Polecenie właściciela z 2026-11-25 20:27: dziennik nie ogłasza portretów, ujęć ani innych mediów
+i nie relacjonuje uzupełniania opisów — baza jest o fabule (ADR 0018, adnotacja
+2026-11-25). Usunięte z `content/co-nowego.md`:
+
+- ## 2026-11-25 20:14
+- - Portrety mają piloci drużyny Good Thunder — [[shingo-hojo|Shingo Hojo]], [[killy-gagley|Killy Gagley]] i [[remy-shimada|Remy Shimada]] — oraz [[mina-roshan|Mina Roshan]] i [[ram-hoa|Ram Hoa]] z mostka [[macross-quarter|Macross Quartera]]; [[goshogun-robo|GoShogun]] i jego mroczny przeciwnik [[dark-go-saurer|Dark Go-Saurer]] pokazują się w dwóch ujęciach każdy.
+- ## 2026-11-17 19:52
+- - **Wizerunki [[sergeant-keroro|sierżanta Keroro]] i jego maszyn** — portret [[sergeant-keroro|sierżanta Keroro]], dwa obrazy [[keroro-robo-mk-ii|Keroro Robo Mk-II]] i jeden wizerunek jego lotniczej formy [[keroro-jet|Keroro Jet]].
+- - **Wizerunki obsady i maszyn z [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|„Przebudzenia niebiańskiego demona”]]** — własne portrety mają [[show-kamui|Show Kamui]], [[hayato-jin|Hayato Jin]], [[shikishima|Shikishima]] i [[igari|Igari]] z [[laboratorium-saotome|Laboratorium Saotome]] oraz [[yume-minami|Yume Minami]], [[koyomi-yamanaka|Koyomi Yamanaka]], [[chise-asukagawa|Chise Asukagawa]], [[mei|Mei]] i [[matka-yomogiego|matka Yomogiego]] z [[miasto-yagami|miasta Yagami]], a sylwetki bojowe prezentują [[getter-arc|Getter Arc]], [[getter-kirik|Getter Kirik]], [[getter-khan|Getter Khan]], [[insector|Insector]] i [[zordo-xx|Zordo XX]].
+- ## 2026-11-15 22:05
+- - [[gihren-zabi|Gihren Zabi]] i [[kycilia-zabi|Kycilia Zabi]] mają własne portrety, a [[invader-air|Invader/Air]] i [[metal-beast-muszla|Metalowa Bestia]] — ujęcia w walce: latający [[invader|Invader]] jedno, Bestia dwa, w tym wariant ze skorupą widzianą z bliska.
+- ## 2026-11-14 21:20
+- - [[gundam-exia|Gundam Exia]] ma dwa własne ujęcia, [[wing-gundam-zero|Wing Gundam Zero]] dwa, a jego skrzydlata forma [[wing-gundam-zero-nb|Wing Zero NB]] jedno. - Portrety mają [[garma-zabi|Garma Zabi]], [[heero-yuy|Heero Yuy]], [[setsuna-f-seiei|Setsuna F. Seiei]] i [[uragan|Uragan]] — czterej świadkowie kurylskiej zasadzki, od atakującego obserwatorium Garmy po dowódcę odsieczy.
+
+Przy tej samej okazji przepisano na zdania o świecie wpisy, które mówiły o samej bazie
+(„nabiera wyrazu”, „ma nawiązanie”, „prowadzi do odcinka”, „ma opis z serialu”, „zyskała
+tło”, „mają pełniejsze opisy”, „jest opisany osobno”, „uwzględniono reprezentację”,
+„w wykazie maszyn”, „reprezentują”): 2026-11-25 20:21, 20:04, 19:59, 19:55;
+2026-11-23 23:36; 2026-11-20 22:40; 2026-11-14 14:12; 2026-11-11 17:30. Treść merytoryczna bez zmian.
 
 ## 2026-11-09 — wpisy usunięte z dziennika (treść o procesie, nie o fabule)
 

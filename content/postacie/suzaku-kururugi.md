@@ -1,7 +1,9 @@
 ---
 typ: postac
-slug: zero
-tytul: "Zero"
+slug: suzaku-kururugi
+tytul: "Suzaku Kururugi"
+pseudonim_w_grze:
+  srw-y: Zero
 seria: code-geass-lelouch-of-the-re-surrection
 rola: pilot
 mechy: [lancelot-albion-zero]
@@ -17,7 +19,7 @@ utworzono: 2026-11-09
 ---
 {{menu gra=srw-y
 
-Główny doradca [[czarni-rycerze|Czarnych Rycerzy]]. W czarnym Knightmare Frame walczy, by wykorzenić terroryzm i konflikty. Naprawdę to Suzaku, który spełnia życzenie [[lelouch-vi-britannia|Leloucha]].
+Występuje pod maską Zero jako główny doradca [[czarni-rycerze|Czarnych Rycerzy]]. W czarnym Knightmare Frame [[lancelot-albion-zero|Lancelot Albion Zero]] walczy, by wykorzenić terroryzm i konflikty — spełniając życzenie [[lelouch-vi-britannia|Leloucha]]. Na paradzie kończącej [[wojna-rewolucyjna|wojnę rewolucyjną]] to on, jako Zero, odbiera życie cesarzowi Lelouchowi.
 }}
 
 {{zrodlo gra=wspolne
@@ -31,7 +33,7 @@ Maska Zero powstała w pierwszej serii jako przebranie Leloucha; w planie Zero R
 
 ## Ilustracje
 
-![Zero — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Zero.png)
+![Suzaku Kururugi jako Zero — portret](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Zero.png)
 }}
 
 {{menu gra=srw-y

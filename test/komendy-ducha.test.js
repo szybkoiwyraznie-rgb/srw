@@ -28,6 +28,13 @@ const ostatnie = ostatnieBlokiDuchow();
 const ostatnieUmiejetnosci = ostatnieBlokiUmiejetnosci();
 const ostatnieSP = ostatniePuleSP();
 
+/**
+ * Blok z dostaw SRW OE dla strony: po tytule albo po pseudonimie, pod którym postać
+ * figuruje w tej grze — profil „Zero” z dostawy 4-4 to strona Leloucha (decyzja
+ * właściciela o Zero, 2026-11-27).
+ */
+const dlaStrony = (mapa, strona) => mapa.get(strona.tytul) ?? mapa.get(strona.pseudonim_w_grze?.['srw-oe']);
+
 /** Sekcja Komend Ducha z ciała strony (albo null) — obejmuje też sekcje tuż przed `}}` i nagłówki pogrubione. */
 const sekcjaDuchow = (body) =>
   /(?:### Komendy Ducha|\*\*Komendy Ducha[^\n]*)\n([\s\S]*?)(?:\n\n|\n\}\}|$)/.exec(body)?.[1] ?? null;
@@ -39,7 +46,7 @@ const blokParametrowOE = (body) =>
 test('tabela Komend Ducha na stronie równa się ostatniemu blokowi z dostaw', () => {
   let porownane = 0;
   for (const strona of strony.filter((s) => s.typ === 'postac')) {
-    const dostawa = ostatnie.get(strona.tytul);
+    const dostawa = dlaStrony(ostatnie, strona);
     if (!dostawa) continue; // postacie bez bloku w dostawach (inne gry, opisy własne)
     const sekcja = sekcjaDuchow(strona.body);
     assert.ok(sekcja, `${strona.tytul}: brak sekcji Komend Ducha (ostatnia dostawa: ${dostawa.plik})`);
@@ -58,7 +65,7 @@ test('żadna komenda na stronie nie pochodzi ze starszego bloku niż ostatni', (
   for (const strona of strony.filter((s) => s.typ === 'postac')) {
     const sekcja = sekcjaDuchow(strona.body);
     if (!sekcja) continue;
-    const dostawa = ostatnie.get(strona.tytul);
+    const dostawa = dlaStrony(ostatnie, strona);
     if (!dostawa) continue;
     const dozwolone = new Set(dostawa.wiersze.map((w) => w.split('|')[1]));
     for (const wiersz of wierszeTabeli(sekcja)) {
@@ -75,7 +82,7 @@ test('tabela umiejętności pilota na stronie równa się ostatniemu blokowi z d
   };
   let porownane = 0;
   for (const strona of strony.filter((s) => s.typ === 'postac')) {
-    const dostawa = ostatnieUmiejetnosci.get(strona.tytul);
+    const dostawa = dlaStrony(ostatnieUmiejetnosci, strona);
     if (!dostawa) continue;
     const wiersze = blokUmiejetnosci(blokParametrowOE(strona.body));
     assert.ok(wiersze, `${strona.tytul}: brak tabeli umiejętności z ${dostawa.plik}`);
@@ -89,7 +96,7 @@ test('tabela umiejętności pilota na stronie równa się ostatniemu blokowi z d
 test('pula SP podpilota na stronie równa się ostatniemu blokowi z dostaw', () => {
   let porownane = 0;
   for (const strona of strony.filter((s) => s.typ === 'postac')) {
-    const dostawa = ostatnieSP.get(strona.tytul);
+    const dostawa = dlaStrony(ostatnieSP, strona);
     if (!dostawa) continue;
     const m = /Pula SP:\*?\*?\s*\*?\*?(\d+)/.exec(blokParametrowOE(strona.body));
     assert.ok(m, `${strona.tytul}: brak puli SP podpilota z ${dostawa.plik}`);

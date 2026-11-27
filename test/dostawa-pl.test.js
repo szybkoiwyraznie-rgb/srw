@@ -301,14 +301,14 @@ test('opisy encji mówią o świecie, nie o rekordach gry (ADR 0018, 0020)', () 
   }
 });
 
-test('ilustracje właściciela: 314 plików przy 248 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
+test('ilustracje właściciela: 340 plików przy 267 encjach, w tym postacie i mechy bez dostawy tekstowej', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   assert.equal(manifest.weryfikacjaZdalna, false, 'nie deklarujemy obejrzenia ilustracji');
   // Bieżący stan manifestu jest przypięty tylko tutaj. Testy poszczególnych dostaw sprawdzają
   // własne klucze i to, że manifest nie jest starszy od nich — kolejna dostawa zmienia ten jeden test.
-  assert.equal(Object.keys(manifest.encje).length, 248);
-  assert.equal(Object.values(manifest.encje).flat().length, 314);
-  assert.equal(manifest.dostarczono, '2026-11-23', 'data ostatniej dostawy ilustracji');
+  assert.equal(Object.keys(manifest.encje).length, 267);
+  assert.equal(Object.values(manifest.encje).flat().length, 340);
+  assert.equal(manifest.dostarczono, '2026-11-27', 'data ostatniej dostawy ilustracji');
   // Pole „uwaga” ma opisywać bieżący stan, a nie liczby sprzed kolejnych dostaw.
   const wszystkie = Object.values(manifest.encje).flat();
   assert.equal(new Set(wszystkie).size, wszystkie.length, 'plik należy do jednej encji');
@@ -611,7 +611,7 @@ test('dostawa ilustracji SRW Y (2026-11-09): osiem jednostek i szesnaście portr
   const portrety = {
     'takuma-nagare': 'Takuma Nagare',
     'cross-tsukinowa': 'Tsukinowa Cross', 'wren': 'Wren', 'yomogi-asanaka': 'Yomogi',
-    'zero': 'Zero', 'annina-servania': 'Annina Servania', 'aytie': 'Aytie',
+    'suzaku-kururugi': 'Zero', 'annina-servania': 'Annina Servania', 'aytie': 'Aytie',
     'baku-yamagishi': 'Baku Yamagishi', 'chang-wufei': 'Chang Wufei', 'cookie': 'Cookie',
     'echika-y-franburnett': 'Echika Y. Franburnett', 'forte-tsukinowa': 'Forte Tsukinowa',
     'gauma': 'Gauma',

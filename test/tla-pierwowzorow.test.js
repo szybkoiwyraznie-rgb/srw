@@ -327,7 +327,7 @@ test('pozostała obsada wsparcia Eldrana, Generał Takeda i nazwane encje SRW Y 
     ['ikuyo-oyama', /大山 育代/],
     ['yuka-mizuhara', /水原 結花/],
     ['general-takeda', /武田長官/],
-    ['zero', /Suzaku Kururugi/],
+    ['suzaku-kururugi', /Suzaku Kururugi/],
     ['yomogi-asanaka', /麻中 蓬/],
     ['baku-yamagishi', /山岸 獏/],
     ['altron-gundam', /XXXG-01S2 Altron Gundam/],

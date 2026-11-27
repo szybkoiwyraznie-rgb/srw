@@ -22,7 +22,7 @@ const archive = fs.readFileSync('episodes/srw-oe/ep004.md', 'utf8');
 const episode = bySlug.get('srw-oe-ep4');
 const scene = bySlug.get('srw-oe-ep4-przybysz-z-innego-czasu');
 
-test('dostawa 4-3 jest zachowana bajt w bajt i zamyka archiwum epizodu 4', () => {
+test('dostawa 4-3 jest zachowana bajt w bajt i stoi w archiwum epizodu 4 po misji 4-2', () => {
   assert.equal(bytes.length, 43462);
   assert.equal(createHash('md5').update(bytes).digest('hex'), 'db9917f6fc4ea60022221ffdb0399d01');
   assert.equal(createHash('sha256').update(bytes).digest('hex'),
@@ -30,10 +30,10 @@ test('dostawa 4-3 jest zachowana bajt w bajt i zamyka archiwum epizodu 4', () =>
   assert.equal(fs.existsSync('google_drive'), false, 'katalog roboczy z Drive usunięty');
   assert.match(raw, /^### Odcinek 4 — Przybysz z innego czasu \(`DL104_30`\)$/m);
   assert.ok(archive.includes(delivered), 'skrypt misji jest w archiwum epizodu');
-  assert.ok(archive.endsWith(`${delivered}\n`), 'misja 4-3 zamyka archiwum epizodu');
+  assert.ok(archive.includes(`${delivered}\n\n## Ep. 4-4:`), 'po misji 4-3 archiwum kontynuuje misja 4-4');
   assert.ok(delivered.endsWith('Aby poszerzyć współpracę z rozmaitymi siłami, Connect Force musiał doprowadzić ekspedycję do sukcesu i udowodnić im swoją wartość.'));
   assert.ok(archive.indexOf('## Ep. 4-1:') < archive.indexOf('## Ep. 4-2:'), 'misje 4-1 i 4-2 zachowują kolejność');
-  assert.ok(archive.indexOf('## Ep. 4-2:') < archive.indexOf('## Ep. 4-3:'), 'misja 4-3 jest ostatnia');
+  assert.ok(archive.indexOf('## Ep. 4-2:') < archive.indexOf('## Ep. 4-3:'), 'misja 4-3 następuje po 4-2');
   assert.doesNotMatch(archive, /UCZESTNICY|Entry ID|DL104/);
 });
 
@@ -147,4 +147,28 @@ test('nowe profile GoShoguna i Dark Go-Saurera pochodzą z dostawy 4-3', () => {
   assert.equal(profileDark.profil, 'Dark Go-Saurer');
   assert.match(profileDark.dane, /Dark Launcher/);
   assert.match(profileDark.dane, /Dark Spartan/);
+});
+
+test('Misja 4-3: dostawa ilustracji (2026-11-25) przypisuje cztery pliki jednostek i pięć portretów', () => {
+  const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
+  const oczekiwane = {
+    'goshogun-robo': ['GoShogun.png', 'GoShogun 2.png'],
+    'dark-go-saurer': ['Dark Go-Saurer.png', 'Dark Go-Saurer 2.png'],
+    'killy-gagley': ['characters/Killy Gagley.png'],
+    'mina-roshan': ['characters/Mina Roshan.png'],
+    'ram-hoa': ['characters/Ram Hoa.png'],
+    'remy-shimada': ['characters/Remy Shimada.png'],
+    'shingo-hojo': ['characters/Shingo Hojo.png'],
+  };
+  assert.ok(manifest.dostarczono >= '2026-11-25', 'manifest nie jest starszy od tej dostawy');
+  for (const [slug, pliki] of Object.entries(oczekiwane)) {
+    assert.deepEqual(manifest.encje[slug], pliki, `${slug}: manifest`);
+    const body = bySlug.get(slug).body;
+    assert.match(body, /\{\{menu gra=srw-oe\n\n## Ilustracje/, `${slug}: galeria srw-oe`);
+    pliki.forEach((plik, i) => {
+      const encoded = plik.split('/').map(encodeURIComponent).join('/');
+      assert.ok(body.includes(`${manifest.baseUrl}/${encoded}`), `${slug}: brak URL dla ${plik}`);
+      assert.ok(body.includes(`ilustracja ${i + 1} z ${pliki.length}`), `${slug}: podpis ilustracji ${i + 1}`);
+    });
+  }
 });

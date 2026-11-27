@@ -22,7 +22,7 @@ const skrypt = wczytajSkrypty({ root: ROOT }).get('episodes/srw-y/ep001.md');
 const POSTACIE = [
   'agent', 'annina-servania', 'baku-yamagishi', 'echika-y-franburnett',
   'forte-tsukinowa', 'gauma', 'zaawansowana-si', 'cross-tsukinowa',
-  'mobile-doll', 'takuma-nagare', 'chang-wufei', 'yomogi-asanaka', 'zero',
+  'mobile-doll', 'takuma-nagare', 'chang-wufei', 'yomogi-asanaka', 'suzaku-kururugi',
   'aytie', 'cookie', 'wren',
 ];
 const MECHY = [
@@ -87,7 +87,7 @@ const POSTACIE_Z_DIALOGU = {
   'Trowa Barton': 'trowa-barton',
   Wren: 'wren',
   'Yomogi Asanaka': 'yomogi-asanaka',
-  Zero: 'zero',
+  Zero: 'suzaku-kururugi',
   // Misja 2A dopisuje mówców Getter Robo Arc i SSSS.DYNAZENON.
   'Show Kamui': 'show-kamui',
   Hayato: 'hayato-jin',
@@ -143,6 +143,9 @@ test('SRW Y: epizod wskazuje grę, skrypt i komplet dostarczonych relacji', () =
     ...POSTACIE, ...POSTACIE_Z_PROLOGU, ...POSTACIE_Z_MISJI_2A,
     'juuga', 'mujina', 'onija', 'sizumu',
     'domon-kasshu', 'rain-mikamura', 'novey-dickens', 'mina-narive', 'ru-negsis', 'ade-stradio',
+    // Lelouch mówi w SRW OE (jako Zero), więc jego strona jest postacią i w SRW Y
+    // trafia do obsady, choć tu jest tylko wspominany (decyzja właściciela o Zero, 2026-11-27).
+    'lelouch-vi-britannia',
   ]);
   assert.deepEqual(epizod.mechy, [
     ...MECHY, 'dynazenon', ...FORMY_PO_TRANSFORMACJI, 'shalbandes',

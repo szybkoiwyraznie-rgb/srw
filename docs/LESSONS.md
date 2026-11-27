@@ -497,3 +497,76 @@ Zasady:
   i daty muszą zostać dopuszczone — inaczej strażnik karze za fikcję.
 - **Poprawiając wpis, popraw też jego sens.** Skrócenie do „ma dwie komendy” nadal
   mówi o rekordzie; opis musi powiedzieć, co te komendy znaczą w walce.
+
+## L35 — Uszkodzony znacznik mówcy naprawia renderer, nie archiwum (2026-11-25)
+
+Dostawa OE 4-3 ma w skrypcie samotną gwiazdkę w osobnym wierszu, a pod nią
+`*Killy:** Coś tu śmierdzi...` zamiast `**Killy:** …`. Scena cytuje skrypt
+dosłownie (ADR 0008), a archiwa `episodes/**` i `dostawy/**` są nietykalne, więc
+poprawka tekstu sceny rozjechałaby ją ze skryptem i złamała test wierności.
+Właściciel zdecydował: naprawa w silniku.
+
+Zasady:
+
+- **Źródło zostaje dosłowne, poprawia się widok.** `naprawZnacznikiMowcow`
+  w `src/srw/markdown.js` działa tylko w bloku `:::skrypt`: wiersz zaczynający się
+  od `*Imię:**` dostaje pełne `**Imię:**`, a samotna gwiazdka tuż nad nim znika.
+- **Wzorzec jest wąski.** Kursywa myśli (`*(…)*`), poprawne znaczniki i samotna
+  gwiazdka bez uszkodzonego mówcy pod spodem zostają bez zmian — test
+  w `test/markdown.test.js` pilnuje obu stron.
+- **Nowy rodzaj usterki w dostawie = nowy przypadek w naprawie**, nie edycja
+  archiwum ani sceny.
+
+## L36 — Dziennik to wiadomości ze świata, nie z warsztatu (2026-11-25)
+
+W jednej sesji trafiły do dziennika: zapowiedź portretów i ujęć z dostawy ilustracji,
+„seria zyskała tło z pierwowzoru”, „misja ma nawiązanie do odcinka”, „postacie mają
+pełniejsze opisy”, „czwórka nabiera wyrazu”. Właściciel przerwał pracę: to opis procesu
+i mediów, a baza jest o fabule. Zasada była zapisana (ADR 0018), ale od usunięcia testów
+stylu nikt jej nie sprawdzał przed zapisem.
+
+Zasady:
+
+- **Test jednego zdania:** czy wpis da się przeczytać jako wiadomość z wnętrza świata
+  („Koji wspomina…”, „Dokuga poluje…”)? Jeśli podmiotem jest strona, opis, tło, galeria,
+  portret, wpis albo seria jako pozycja w bazie — przepisz albo nie pisz.
+- **Dostawa samych ilustracji nie ma wpisu w dzienniku.** Notatka idzie do
+  `docs/HISTORIA_WEWNETRZNA.md` i opisu PR.
+- **Zwroty, przy których warto przeczytać zdanie drugi raz:** ma/zyskał(a) opis, tło,
+  portret, ujęcie, nawiązanie, prowadzi do odcinka, reprezentuje, uwzględniono, opisany
+  osobno. To podpowiedź dla czytającego, nie lista zakazów: te same słowa bywają częścią
+  fabuły. Właściciel odrzucił testy blokujące słowa (2026-11-25) — o wpisie rozstrzyga sens
+  całego zdania.
+
+## L37 — Jedna maska, dwie osoby (2026-11-27)
+
+Dostawa 4-4 przyniosła mówcę „Zero”, a baza miała już stronę `zero` — dla Suzaku z SRW Y.
+Odruch „mówca o tej nazwie ma stronę, więc dopisz grę” połączyłby Leloucha i Suzaku w jedną
+osobę. Właściciel rozstrzygnął: dwie strony pod imionami, Zero jako pseudonim w konkretnej grze
+(ADR 0047).
+
+Zasady:
+
+- **Przed dopisaniem gry do istniejącej strony sprawdź, czy to ta sama osoba,** a nie tylko
+  ta sama nazwa w skrypcie. Skrypt zwykle mówi to wprost (tu: C.C. zwraca się do Zero „Lelouchu”).
+- **Pseudonim, który zmienia właściciela między grami, idzie do `pseudonim_w_grze`.**
+- **Zamiana sluga to też tabele:** w komórkach tabel odsyłacz ma postać `[[slug\|…]]`, więc
+  szukaj obu form — `[[slug|` i `[[slug\|`.
+
+## L38 — Brakujące części listy to nie „obiekt niezidentyfikowany” (2026-11-27)
+
+Odczyt R2 po dostawie 4-4 zadeklarował 343 obiekty, ale z 12 adnotacji dotarło 10 — GitHub
+przechowuje najwyżej 10 adnotacji jednego kroku. Agent opisał brakujący obiekt jako
+niezidentyfikowany i uznał, że Lelouch ma jeden portret. Właściciel wgrał dwa; drugi,
+„Zero (Lelouch Lamperouge).png”, leżał właśnie w uciętej części listy.
+
+Zasady:
+
+- **Lista jest pełna dopiero wtedy, gdy masz części 1…`total`, a liczba kluczy równa się
+  `objectCount`.** Rozbieżność to błąd odczytu do naprawienia przed przypisaniem plików,
+  nie przypis w manifeście.
+- **Gdy narzędzie ucina wynik, napraw narzędzie** (tu: zwarty format adnotacji,
+  `docs/guides/ILUSTRACJE_R2.md`), zamiast pytać właściciela o to, co da się odczytać.
+- **Fakt podany tylko w nazwie pliku albo w manifeście nie jest jeszcze faktem strony.**
+  Nazwisko „Lamperouge” było w kluczu ilustracji i w uzasadnieniu manifestu, a na stronie
+  Leloucha tylko półsłówkiem — treść strony podaje je wprost, z cytowaniem.

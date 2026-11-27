@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { renderMarkdown, escapeHtml } from '../src/srw/markdown.js';
+import { renderMarkdown, escapeHtml, naprawZnacznikiMowcow } from '../src/srw/markdown.js';
 
 const resolver = (slug) => (slug === 'demo' ? { href: '#/gra/demo', tytul: 'Gra DEMO' } : null);
 
@@ -127,4 +127,16 @@ test('ADR 0011: nieznany poziom, zagnieżdżenie i niezamknięty blok są błęd
   assert.match(b.problemy.join(' '), /zagnieżdżony/);
   const c = renderMarkdown('{{zrodlo\nx\n', { resolveLink: resolver });
   assert.match(c.problemy.join(' '), /niezamknięty/);
+});
+
+test('uszkodzony znacznik mówcy w skrypcie renderuje się jak zwykły mówca (dostawa OE 4-3)', () => {
+  // Dostawa 4-3 ma „*” w osobnym wierszu i „*Killy:**” zamiast „**Killy:**”.
+  const zrodlo = ':::skrypt\n**Jin:** C-co?!\n*\n*Killy:** Coś tu śmierdzi...\n**Remy:** Pachnie jak Go-Naghoul.\n:::';
+  const { html } = renderMarkdown(`{{skrypt gra=srw-oe\n\n${zrodlo}\n}}`, { resolveLink: resolver });
+  assert.match(html, /<strong>Killy:<\/strong> Coś tu śmierdzi/);
+  assert.doesNotMatch(html, /<em>Killy:<\/em>/);
+  assert.doesNotMatch(html, /<br>\*<br>|\n\*\n|>\*</, 'samotna gwiazdka znika z widoku');
+  // Poprawne znaczniki, kursywa myśli i samotna gwiazdka bez mówcy pod spodem zostają bez zmian.
+  assert.deepEqual(naprawZnacznikiMowcow(['**Jin:** Hej', '*(myśl)*', '*', 'tekst']), ['**Jin:** Hej', '*(myśl)*', '*', 'tekst']);
+  assert.deepEqual(naprawZnacznikiMowcow(['*', '*Koji Hoshiyama:** Ej']), ['**Koji Hoshiyama:** Ej']);
 });

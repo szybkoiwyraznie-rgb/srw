@@ -7,12 +7,32 @@ seria: goshogun
 gry: [srw-oe]
 mechy: [goshogun-robo]
 pochodzenie: skrypt
+zrodla:
+  - https://en.wikipedia.org/wiki/GoShogun
 tagi: [pilot, goshogun, connect]
 utworzono: 2026-11-23
 ---
 {{skrypt gra=srw-oe
 
-Główny pilot GoShoguna i członek drużyny Good Thunder. Po przybyciu w okolice Marsa Shingo nawiązuje kontakt z Macross Quarterem i wraz z Killym Gagleyem oraz Remy Shimadą wspiera Connect Force w walce z mechabestiami. Po zwycięstwie cała trójka przyjmuje propozycję współpracy.
+Główny pilot GoShoguna i głos drużyny Good Thunder. Po kolejnym przeskoku przyjmuje, że znów poprowadził ich [[beamler|Beamler]], a pierwsze fale mechabestii kwituje pewnością, że wróg i tak nie ma szans z GoShogunem. To on nawiązuje łączność z [[macross-quarter|Macross Quarterem]], przedstawia się [[jeffrey-wilder|Jeffreyowi]] jako pilot GoShoguna i przyznaje, że ten świat chyba różni się od tego, który zna. Gdy Remy porównuje [[dark-go-saurer|Dark Go-Saurera]] do podróbki znanej z ich świata, uznaje, że nie ma się czego bać.
+
+Po bitwie na pokładzie okrętu żartem pyta [[karen-joshua|Karen]], czy to ona wyczyści im maszynę, a [[sergeant-keroro|Keroro]] bierze za robota-zwierzątko w kształcie żaby. Wraz z Killym Gagleyem i Remy Shimadą przyjmuje propozycję współpracy z [[connect-force|Connect Force]].
+}}
+
+{{zrodlo gra=wspolne
+
+## Postać w pierwowzorze
+
+W serialu *GoShogun* Shingo Hojo jest młodym przywódcą drużyny i strzelcem. Pilotuje myśliwiec King Arrow, który dokuje w piersi GoShoguna, i kieruje robotem w walce — to on głosem wywołuje start, połączenie trzech myśliwców i kolejne ataki. Jest stoicki, poważny i nieco sztywny, ale odważny i opanowany pod presją ([Wikipedia, *GoShogun*](https://en.wikipedia.org/wiki/GoShogun); sprawdzono 2026-11-25).
+}}
+
+{{menu gra=srw-oe
+
+## Ilustracje
+
+### Ilustracja 1
+
+![Shingo Hojo — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Shingo%20Hojo.png)
 }}
 
 {{menu gra=srw-oe

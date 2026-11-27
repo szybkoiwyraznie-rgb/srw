@@ -1,0 +1,578 @@
+---
+SKRYPT
+---
+
+## Lelouch buntownik
+
+Świat Pentagony to układ pięciu planet: Gastogal, Tridetoal, Fa, Coam i Mizun, krążących wokół podwójnego słońca Sans.
+
+Wszystkie poza Fa są zamieszkane, a na każdej kwitła niegdyś własna dynastia, póki Posaydal z Gastogalu nie zjednoczył ich w Federację Pentagony.
+
+Od tamtej pory Oldna Posaydal rządził układem dzięki miażdżącej przewadze militarnej, lecz ostatnio na każdej z planet zrodziły się ruchy oporu.
+
+Ruchy te były jednak podzielone między planety i nie tworzyły jednej armii rebeliantów...
+
+Najwięcej rebeliantów działało na planecie Mizun.
+
+Mizun, niegdyś siedziba potężnej dynastii Yaman, opierała się armii Posaydala do samego końca i za to poddano ją ludobójczej czystce, Polowaniu na Yaman.
+
+Być może dlatego nastroje antyposaydalowskie były tam silne, a wokół Little Sei, bazy odbitej regularnej armii Posaydala, powstała armia rebeliantów.
+
+Lecz regularna armia rozpoczęła zakrojoną na szeroką skalę pacyfikację i rebeliantom zabarykadowanym w Little Sei groziła zagłada...
+
+### Baza rebeliantów / Little Sei
+
+**Kyao:** Ej, ej, co teraz zrobimy, Daba?! Regularni są już tuż-tuż!
+**Daba:** Tak dalej rebelianci zginą co do jednego...
+**Kyao:** Kaaach! Właśnie dlatego nie chciałem zadzierać z regularną armią!
+**Amm:** Ej, Kyao! Ciszej!
+**Lilis:** No właśnie! Ciszej!
+**Kyao:** Jasne, że się drę! Nie zamierzam ginąć razem z rebeliantami!
+**Leccee:** Pora się zdecydować. Zbuntowaliśmy się przeciw Posaydalowi, tak jak oni.
+**Amm:** Daba, co robimy?
+**Leccee:** Masz jakiś plan, prawda?
+**Daba:** Porzucamy Little Sei i wycofujemy się. Nie ma innego wyjścia.
+**Kyao:** A jak niby mamy się wycofać?!
+**Daba:** Odciągnę wroga L-Gaimem.
+**Lilis:** Daba, lecę z tobą.
+**Daba:** Hmm... No dobrze. Jeśli L-Gaim zostanie trafiony, Lilis zawsze zdąży uciec.
+**Lilis:** Daba, nie mów tak!
+**Leccee:** Łatwo godzić się na śmierć, ale spójrz prawdzie w oczy. Sam L-Gaim nie da rady.
+**Leccee:** Wylecę też Novel D-Sserdem. Razem otworzymy drogę.
+**Daba:** Przepraszam, Leccee. Będziesz musiała przejść przez to ze mną do końca...
+**Leccee:** Byłam w Trzynastce Posaydala, pamiętasz? Mógłbyś trochę bardziej na mnie polegać.
+**Amm:** Daba, ja też...
+**Daba:** Amm, Kyao, załadujcie rebeliantów na Turnera i przygotujcie się do startu!
+**Kyao:** Chcesz uciekać statkiem? Turner nie ma szans z okrętami regularnej armii!
+**Daba:** Zrobię wyłom w ich szykach! W tym czasie przebijecie się przez okrążenie.
+**Amm:** Ach! Ej, Daba, zaczekaj!
+**Kyao:** Ten Daba...!
+**Kyao:** Kaaach, dobra, dobra! Jak już do tego doszło, zrobię, co się da!
+**Amm:** Proszę, ktokolwiek... Chrońcie Dabę...
+**Lilis:** Wrogowie! Całe chmary!
+**Daba:** Odciągnijcie jak najwięcej regularnych! Turner musi uciec za wszelką cenę!
+**Leccee:** Przyjęłam.
+**Daba:** Liczę na ciebie, L-Gaimie!
+
+#### Dialogi sytuacyjne — wytrwanie na pozycji
+
+**Leccee:** Posiłki...
+**Daba:** Dobrze. Dalej ściągajcie ich na siebie.
+**Lelouch:** Ngh... Co się właściwie stało...?
+
+### Mizun / Pustkowie
+
+**Lelouch:** Straciłem przytomność...?
+**Lelouch:** Gdzie ja... jestem?
+**Lelouch:** Chyba w pobliżu toczy się bitwa... Gdybym tylko mógł dołączyć do Czarnych Rycerzy...!
+**Lelouch:** ...! To...!
+**C.C.:** Znalazłam cię, Lelouchu.
+**Lelouch:** C.C., nic ci nie jest!
+**C.C.:** Wsiadaj, szybko! Tu też nie jest bezpiecznie.
+**Lelouch:** Zdaj mi relację. Gdzie jesteśmy? Czyje to siły tam walczą?!
+**C.C.:** Obawiam się, że nie walczą tu ani Czarni Rycerze, ani oddziały Cornelii.
+**C.C.:** Spójrz na te maszyny...
+**Lelouch:** Żadna strona nie używa Knightmare'ów? Co tu się dzieje?!
+**C.C.:** Nie wiem...
+**Lelouch:** ......
+**Lelouch:** C.C., Gawain jest sprawny?
+**C.C.:** Tak, z tym nie ma problemu.
+**Lelouch:** Dane bojowe, przechwycona łączność, skan terenu... Najpierw zbieramy informacje.
+**Lelouch:** Czyli to ta baza jest atakowana... A przewaga wroga jest miażdżąca.
+**C.C.:** No więc, jaki będzie twój ruch w takiej sytuacji?
+**Lelouch:** To oczywiste. Stanę po stronie tego, kto więcej zapłaci.
+
+### Armia regularna się przegrupowuje
+
+**Żołnierz Posaydala:** Mimo takiego natarcia wciąż się nie poddają...
+**Żołnierz Posaydala:** Hmph... Uparci są ci rebelianci!
+**Żołnierz Posaydala:** Uderzmy wszystkim naraz!
+**Żołnierz Posaydala:** Bez pośpiechu! Przegrupujemy się i wtedy przejdziemy do ofensywy!
+**Żołnierz Posaydala:** Dobra! Trzymać ich w szachu i na razie się wycofać.
+**Lilis:** Hę? Wróg się wycofuje?
+**Daba:** Tch... Nie dadzą się ponieść i nie zaszarżują...!
+**Leccee:** Wróg też nie jest głupi...
+**Leccee:** Daba, następnego natarcia nie wytrzymamy! Ja ich odciągnę, a ty uciekaj z Turnerem!
+**Daba:** Jedna maszyna nie da rady. Poza tym nie zostawię cię!
+**Leccee:** Daba, rebelianci potrzebują cię jako sztandaru! Dlatego nie wolno ci zginąć!
+**Daba:** Ale...
+**Leccee:** Zostaw to mi!
+**Daba:** Nie! Nie mogę cię stracić!
+**Leccee:** Daba! Zrozum to wreszcie!
+
+### Zero oferuje pomoc
+
+**Zero:** Heh. Widzę, że macie kłopoty.
+**Daba:** ...! Kim jesteś?!
+**Amm:** Wróg?!
+**Kyao:** Co to za cholerstwo?! Nigdy nie widziałem takiego Heavy Metalu!
+**Daba:** Niech to! Kiedy on się tu znalazł?!
+**Leccee:** Ngh... Nie zdążę!
+**Zero:** Zachowajcie spokój. Jestem waszym sojusznikiem.
+**Daba:** Co?! Ty też jesteś rebeliantem?!
+**Zero:** *(Heh, najwyraźniej mam wyjątkową słabość do rebelii...)*
+**Zero:** Nazywam się Zero. Przewodzę Czarnym Rycerzom.
+**Daba:** Czarni Rycerze...?
+**Zero:** Jak widzę, chcecie porzucić bazę i uciec?
+**Daba:** Zgadza się. Załadujemy ludzi z bazy na ten statek, Turnera, i przebijemy się przez okrążenie Posaydala!
+**Zero:** Słuszna decyzja. Widzę, że jesteście gotowi poświęcić bazę.
+**Leccee:** Choć szanse na przebicie się są marne... Ale nie mamy wyboru!
+**Zero:** W takim razie pozwólcie, że udzielę wam pomocy. Wówczas z pewnością przełamiecie okrążenie.
+**Daba:** Masz jakiś dobry plan?
+**Zero:** Rzecz jasna.
+**Zero:** Chciałbym przedstawić plan operacji. Wycofajcie się, póki jeszcze możecie.
+**Daba:** Dobrze.
+**Leccee:** ......
+
+### Baza rebeliantów
+
+**Zero:** ...Tak przedstawia się zarys operacji.
+**Daba:** Niesamowite... Taktyka w pełni wykorzystująca tutejszy teren...
+**Leccee:** Jestem pod wrażeniem. Przewidzieć rozmieszczenie sił Posaydala z taką dokładnością...
+**Lilis:** Serio? Ja nic z tego nie zrozumiałam.
+**Leccee:** Ale to tylko teoria na papierze... Bez wcześniejszych ćwiczeń to nie może się udać.
+**Zero:** Osobiście wyznaczę czas każdego ruchu i ataku. Widziałem waszą poprzednią walkę. Z waszymi umiejętnościami ta operacja się powiedzie.
+**C.C.:** Nie ma czasu na wahanie. Nie macie przecież innego wyjścia, prawda?
+**Amm:** Daba, zamierzasz im zaufać?!
+**Kyao:** To może być pułapka!
+**Daba:** Nie, w takiej sytuacji raczej nie. Ważniejsze jest co innego...
+**Daba:** Zero... powiedz mi jedno. Dlaczego pomagasz nam w tak groźnej sytuacji?
+**Zero:** Czarni Rycerze stoją po stronie słabych. Stajemy naprzeciw tych, którzy nadużywają władzy.
+**Daba:** Czyli waszym wrogiem jest nie tylko Posaydal?
+**Zero:** Dokładnie tak.
+**Daba:** ......
+**Daba:** Dobrze. Powierzam ci dowodzenie operacją.
+
+### Baza rebeliantów / Korytarz
+
+**C.C.:** Lelouchu...
+**Zero:** ......
+**C.C.:** Lelouchu, wysłuchaj mnie przez chwilę.
+**Zero:** C.C., kiedy noszę tę maskę, nie nazywaj mnie tym imieniem.
+**C.C.:** Spokojnie. Jesteśmy tu sami.
+**Zero:** ...Niech będzie. O co chodzi?
+**C.C.:** Posłuchaj, Lelouchu. Nie używaj tutaj Geass.
+**Zero:** Oczywiście, i tak nie zamierzałem. Coś się stało?
+**C.C.:** Nie umiem tego wyjaśnić, ale tutaj powietrze jest inne. Nie wiadomo, jak zadziała Geass...
+**C.C.:** Zwłaszcza twój. Twój Geass zmusza każdego do wykonania rozkazu wbrew jego woli. Jeśli zadziała tylko połowicznie...
+**Zero:** Może przynieść niezamierzone skutki?
+**C.C.:** Właśnie.
+**Zero:** Więc to dlatego miałaś tak niezwykle niespokojną minę.
+**C.C.:** Taki tępak jak ty tego nie zrozumie... Tej obcości, która napiera na wszystkie zmysły...
+**Zero:** Że to nie jest Ziemia, domyśliłem się już z danych, które zbierają czujniki Gawaina.
+**Zero:** Położenie gwiazd, inne pole magnetyczne. Pod żadnym względem to miejsce nie przypomina Ziemi.
+**C.C.:** Wiedziałeś to wszystko... i mimo to!
+**Zero:** Miałaś tak potulną minę, że milczałem, żeby cię nie niepokoić.
+**C.C.:** Kłamca! Dobrze się bawiłeś!
+**Zero:** Nie najeżaj się tak. Ja też nie rozumiem wszystkiego.
+**Zero:** Po prostu odkąd zetknąłem się z Geass, mało co mnie już dziwi.
+**Zero:** Nadal nie mam pojęcia, co to za miejsce. Ja też mogę polegać tylko na tobie.
+**C.C.:** Dobrze. W każdym razie nie używaj Geass.
+**Zero:** Tak, wiem.
+
+### Początek operacji Zero
+
+**Zero:** A zatem Daba i Leccee, zajmijcie pozycje według planu i czekajcie. Turner, naprzód w równym szyku.
+**Daba:** Przyjąłem.
+**Leccee:** Przyjęłam.
+**Kyao:** Turner naprawdę da radę bez osłony?
+**Amm:** Trochę za późno na takie gadanie! No już, lecimy!
+**Żołnierz Posaydala:** Statek rebeliantów leci prosto na nas? Postradali zmysły?
+**Żołnierz Posaydala:** Pewnie to ich ostatnia rozpaczliwa próba.
+**Zero:** C.C., my też ruszamy naprzód.
+**Żołnierz Posaydala:** To eskorta? Gdzie są pozostałe Heavy Metale?
+**Żołnierz Posaydala:** Nie przypomina tamtych Heavy Metali. Nie ma go w naszej bazie danych.
+**Żołnierz Posaydala:** Jak na Heavy Metal jest mały... Rozmiarami przypomina SPT Gradosu...
+**Żołnierz Posaydala:** Zmiażdżymy go liczebnością i siłą ognia. Otoczyć go i zestrzelić w pierwszej kolejności.
+**Zero:** Heh, tak jak przewidziałem. Myślą w kategoriach swojej broni, tych całych "Heavy Metali"...
+**Żołnierz Posaydala:** C-co za siła ognia! Buster Launcher... nie... To ma jeszcze większą moc rażenia!
+**Żołnierz Posaydala:** Z maszyny tej wielkości...? Nie do pomyślenia!
+**Żołnierz Posaydala:** Wprowadzamy odwody! Rozproszyć się i zasypać go ogniem!
+**Zero:** Leccee, salwa w punkt S8!
+**Leccee:** Przyjęłam!
+**Zero:** Daba, punkt N3!
+**Daba:** Przyjąłem!
+**Zero:** Dalsze rozkazy...!
+**Amm:** Niesamowite... Ich posiłki padają jeden po drugim...
+**Żołnierz Posaydala:** Hahaha! W co ty celujesz?!
+**Zero:** Nie... już trafiłem.
+**Żołnierz Posaydala:** S-skała! Uaaaaach!
+**Żołnierz Posaydala:** Niedobrze! Nie stawajcie przed tą maszyną!
+**Żołnierz Posaydala:** Co tu się dzieje?! Rebelianci oszczędzali siły?
+**Leccee:** Niesamowite... Przy dobrym dowodzeniu możemy tak współdziałać...
+**Zero:** Wróg jest w rozsypce. To nasza szansa. Przełamcie okrążenie jednym uderzeniem!
+**Daba:** Dobra! To otworzy nam drogę!
+
+#### Warunkowe rozstrzygnięcie — przełamanie
+
+**Daba:** Jest szansa! Nie przegapcie jej! Przebijamy się!
+**Leccee:** Muszę przyznać, że Zero ma do tego talent. Z nim po naszej stronie rebelianci pójdą jak burza. No, ale najpierw trzeba przeżyć tę walkę!
+**Zero:** Na obcej ziemi pokaz własnej siły to skuteczny sposób na znalezienie sojuszników. Niech ta bitwa ukaże mój strategiczny geniusz.
+**C.C.:** Heh. Miło widzieć, że dobrze się bawisz.
+
+### Przełamanie okrążenia
+
+**Amm:** Nie wierzę... Regularni rozbiegają się jak mrówki...
+**C.C.:** Wygląda na to, że wróg stracił wolę walki.
+**Leccee:** Po takich stratach nie mają innego wyjścia niż odwrót.
+**Kyao:** Nie wierzę. To nie sen, prawda?
+**Zero:** Armia pewna zwycięstwa najłatwiej się sypie.
+**Zero:** Liczyli na łatwe zwycięstwo, więc przegrana niweczy cały ich plan.
+**Daba:** Kyao, opuszczamy atmosferę. Zgubimy ich!
+**Kyao:** Przyjąłem! Zmywamy się!
+
+### Zero i rebelianci Pentagony
+
+Zero, który mienił się przywódcą Czarnych Rycerzy. I tajemnicza dziewczyna, C.C.
+
+Odtąd mieli towarzyszyć Dabie i pomagać siłom rebelianckim Pentagony rosnąć w siłę.
+
+Zero i jego towarzyszka stopniowo zyskiwali coraz większy wpływ w armii rebeliantów...
+
+Z czasem dowiedzieli się, że zostali przeniesieni do innego świata, i poznali istnienie Connect, po czym zaczęli coraz energiczniej zbliżać rebeliantów do Connect.
+
+---
+UCZESTNICY
+---
+
+
+### Odcinek 4 — Lelouch buntownik (`DL104_40`)
+
+**Jednostki sojusznicze (gracza):**
+  - **Gawain** — pilot główny: Zero — piloci wspierający w misji: C.C. 
+  - **L-Gaim** — pilot główny: Daba Myroad — piloci wspierający w misji: Lilis Faw
+  - **Novel D-Sserd** — pilot główny: Gaw Ha Leccee
+  - **Turner** — pilot główny: Mirawoo Kyao
+
+**Jednostki wrogie:**
+  - **Bat-Shu** — pilot główny: Żołnierz Posaydala — ×15 rekordów źródłowych Entry ID 
+  - **Bat-Shu** — pilot główny: Żołnierz Posaydala — ×11 rekordów źródłowych Entry ID 
+
+---
+
+#### Domyślne mechy i jednostki w misji (sekcje z `srwoe_mech_catalog_v4_PL.md`)
+
+## Bat-Shu
+
+**Seria:** Heavy Metal L-Gaim
+
+### Macierzyste zdolności maszyny
+
+- **Powł. Twin Merit (poziom bazowy 1):** "Broń wiązkowa": Obraż.-16%  
+  EN+4
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa           | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | --------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Energy Bomber   |       1500 |  1–4   |       +20 |   5 |      — | Brak w tym polu | **Ogłuszenie (poziom bazowy 1):** Bez kontry, +Obraż.500 Szansa 30%      |
+|       1 | Great Saber     |       1800 |  1–1   |       +35 |   0 |      — | Brak w tym polu | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole                  |
+|         |                 |            |        |           |     |        |                 |   Zderzenie Obraż.500 Obraż. od upadku 1000                              |
+|         |                 |            |        |           |     |        |                 |   Ignoruje Osłonę; bez wsparcia                                          |
+|       3 | Buster Launcher |       2900 |  3–5   |       +10 |  20 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+
+---
+
+## Gawain
+
+**Seria:** Code Geass
+
+### Macierzyste zdolności maszyny
+
+Brak niezerowego przypisania w trzech polach macierzystych umiejętności maszyny. Nie wyklucza to efektów grupy, stosu, wyposażenia ani skryptów.
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa                         | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | ----------------------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Slash Harken                  |       1700 |  1–3   |       +50 |   0 |      — | Brak w tym polu | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu      |
+|       1 | Działo hadronowe              |       4000 |  3–6   |       +25 |  30 |    105 | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+|         |                               |            |        |           |     |        |                 | **Penetracja (poziom bazowy 1):** Obr-30%                                |
+|       2 | Działo hadronowe/M            |       3700 |  1–5   |        +0 |  50 |    110 | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg                      |
+|         |                               |            |        |           |     |        |                 |   Bez kontry                                                             |
+|         |                               |            |        |           |     |        |                 |   Nie do wsparcia ani kontry                                             |
+|       3 | Działo hadronowe/M (dookolne) |       3900 |  1–3   |       +10 |  60 |    120 | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg                      |
+|         |                               |            |        |           |     |        |                 |   Bez kontry                                                             |
+|         |                               |            |        |           |     |        |                 |   Nie do wsparcia ani kontry                                             |
+|       4 | Druid System                  |          0 |  1–5   |       +60 |  20 |      — | Brak w tym polu | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg                      |
+|         |                               |            |        |           |     |        |                 |   Bez kontry                                                             |
+|         |                               |            |        |           |     |        |                 |   Nie do wsparcia ani kontry                                             |
+|         |                               |            |        |           |     |        |                 | **Druid System (poziom bazowy 1):** 1 tura: Obr wroga-20% Unik-20%       |
+
+---
+
+## L-Gaim
+
+**Seria:** Heavy Metal L-Gaim
+
+### Macierzyste zdolności maszyny
+
+- **Powł. Twin Merit (poziom bazowy 1):** "Broń wiązkowa": Obraż.-16%  
+  EN+4
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+**Składy grup zapisane w tabeli:** Oddział Heavy Metal.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa           | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                            |
+| ------: | --------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------- |
+|       0 | Acute           |       2400 |  1–1   |       +50 |   0 |      — | Brak w tym polu    | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole             |
+|         |                 |            |        |           |     |        |                    |   Zderzenie Obraż.500 Obraż. od upadku 1000                         |
+|         |                 |            |        |           |     |        |                    |   Ignoruje Osłonę; bez wsparcia                                     |
+|         |                 |            |        |           |     |        |                    | **Garda (poziom bazowy 1):** Obr+20%                                |
+|       1 | Power Launcher  |       3000 |  1–4   |       +20 |   5 |      — | Brak w tym polu    | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                |
+|       2 | Szabla          |       3200 |  1–2   |       +35 |   5 |      — | Brak w tym polu    | **Uderz-odskocz (bez poziomu):** Po ataku można ruszyć resztą Ruchu |
+|         |                 |            |        |           |     |        |                    | **Ucieczka (poziom bazowy 1):** Unik+18%                            |
+|       3 | Buster Launcher |       4900 |  3–6   |        +0 |  35 |    120 | Brak w tym polu    | **Namiar (poziom bazowy 1):** Kryt+10%, Kryt Obraż.+20% bez Osłony  |
+|         |                 |            |        |           |     |        |                    |   (Ignoruje Osłonę)                                                 |
+|         |                 |            |        |           |     |        |                    | **Na dużych (poziom bazowy 1):** Na dużych: Atk x1.1 Obr wroga-20%  |
+|         |                 |            |        |           |     |        |                    |   (więksi od siebie)                                                |
+
+---
+
+## Novel D-Sserd
+
+**Seria:** Heavy Metal L-Gaim
+
+### Macierzyste zdolności maszyny
+
+- **Powł. Twin Merit (poziom bazowy 1):** "Broń wiązkowa": Obraż.-16%  
+  EN+4
+- **Blok tarczą (poziom bazowy 1):** Broniąc: Obraż.-20%
+
+**Składy grup zapisane w tabeli:** Oddział Heavy Metal.
+
+**Zdolność stanu grupy (warunkowa, nie przypisanie macierzyste):**
+
+- **Grupa (GR) (bez poziomu):** Może walczyć w Grupa z wybranymi jedn.  
+  Może zamienić się z jedn. grupy  
+  Tylko w wybranych misjach
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa           | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek            | Zdolności — opisy bazowe                                           |
+| ------: | --------------- | ---------: | :----: | --------: | --: | -----: | ------------------ | ------------------------------------------------------------------ |
+|       0 | Hand Launcher   |       2300 |  1–3   |       +40 |   0 |      — | Brak w tym polu    | **Na powietrze (poziom bazowy 1):** Teren "Pow": Cel+50% Atk x1.4  |
+|         |                 |            |        |           |     |        |                    | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%               |
+|       1 | Szabla          |       3100 |  1–2   |       +35 |   5 |      — | Brak w tym polu    | **Pchnięcie (poziom bazowy 1):** Odpycha wroga o 1 pole            |
+|         |                 |            |        |           |     |        |                    |   Zderzenie Obraż.500 Obraż. od upadku 1000                        |
+|         |                 |            |        |           |     |        |                    |   Ignoruje Osłonę; bez wsparcia                                    |
+|       2 | Power Launcher  |       2800 |  1–4   |       +20 |   5 |      — | Brak w tym polu    | **Na kosmos (poziom bazowy 1):** Teren "Kos": Cel+30% Atk x1.1     |
+|         |                 |            |        |           |     |        |                    | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%               |
+|       3 | Buster Launcher |       3200 |  1–5   |        +5 |  40 |    120 | Brak w tym polu    | **Atak MAP (bez poziomu):** Atakuje wrogów w Zasięg                |
+|         |                 |            |        |           |     |        |                    |   Bez kontry                                                       |
+|         |                 |            |        |           |     |        |                    |   Nie do wsparcia ani kontry                                       |
+
+---
+
+## Turner
+
+**Seria:** Heavy Metal L-Gaim
+
+### Macierzyste zdolności maszyny
+
+- **Okręt-matka (poziom bazowy 1):** Sojusznicy: przewóz i start  
+  HP/EN przewoż.+20%; SP/Morale pilota+2  
+  Odporn.: "Przebicie" "Pchnięcie" "Rzut"
+- **Tarcza antylas. (poziom bazowy 1):** "Broń wiązkowa": Obraż.-400  
+  Obraż.-8%  
+  EN-5
+- **Odnowa EN (poziom bazowy 1):** EN co turę+4%
+
+### Uzbrojenie i wymienione działania
+
+#### Broń i działania z niezerowym selektorem
+
+| Miejsce | Nazwa           | Moc bazowa | Zasięg | Trafienie |  EN | Morale | Warunek         | Zdolności — opisy bazowe                                                 |
+| ------: | --------------- | ---------: | :----: | --------: | --: | -----: | --------------- | ------------------------------------------------------------------------ |
+|       0 | Rakiety         |       2200 |  1–4   |       +30 |  20 |      — | Brak w tym polu | **Na ląd (poziom bazowy 1):** Teren "Ląd": Cel+40% Atk x1.3              |
+|       1 | Działo laserowe |       3400 |  1–5   |        +0 |  40 |      — | Brak w tym polu | **Na okręty (poziom bazowy 1):** "Okręt-matka" "Okręt": Cel+70% Atk x1.8 |
+|         |                 |            |        |           |     |        |                 | **Broń wiązkowa (poziom bazowy 1):** Kryt+4% Unik-4%                     |
+
+---
+
+#### Piloci i postacie w misji (sekcje z `srwoe_pilot_catalog_PL.md`)
+
+#### Zero
+
+- **Seria:** Code Geass
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            102 |
+| **Obrona**  |             87 |
+| **Celność** |            125 |
+| **Unik**    |             76 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch      | Poz. nauki | Koszt SP | Efekt bazowy                                            |
+| ---: | --------- | ---------: | -------: | ------------------------------------------------------- |
+|    1 | **Mur**   |          1 |       20 | Cel: ty Efekt: 1 tura — Otrzym. obrażenia-30%           |
+|    2 | **Wiatr** |          6 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd' |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność      | Poz. nauki | Efekt bazowy                           |
+| ---: | ---------------- | ---------: | -------------------------------------- |
+|    1 | **Potencjał**    |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4% |
+|    2 | **Dow. Atk/Cel** |          3 | Zasięg 3 - sojusznicy: Atk/Cel+4%      |
+
+---
+
+#### Daba Myroad
+
+- **Seria:** Heavy Metal L-Gaim
+- **Nazwa skrócona:** Daba
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            117 |
+| **Obrona**  |             69 |
+| **Celność** |            136 |
+| **Unik**    |             71 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch          | Poz. nauki | Koszt SP | Efekt bazowy                                    |
+| ---: | ------------- | ---------: | -------: | ----------------------------------------------- |
+|    1 | **Skupienie** |          1 |       15 | Cel: ty Efekt: 1 tura — Unik+20% Celność+25%    |
+|    2 | **Duch**      |          6 |       15 | Cel: ty — Morale+5                              |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność    | Poz. nauki | Efekt bazowy                                                                                 |
+| ---: | -------------- | ---------: | -------------------------------------------------------------------------------------------- |
+|    1 | **Potencjał**  |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4%                                                       |
+|    2 | **Instynkt**   |          3 | Cel,Unik+8 *(1.08)*                                                                          |
+
+---
+
+#### Gaw Ha Leccee
+
+- **Seria:** Heavy Metal L-Gaim
+- **Nazwa skrócona:** Leccee
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            111 |
+| **Obrona**  |             66 |
+| **Celność** |            138 |
+| **Unik**    |             76 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch      | Poz. nauki | Koszt SP | Efekt bazowy                        |
+| ---: | --------- | ---------: | -------: | ----------------------------------- |
+|    1 | **Celny** |          1 |       10 | Cel: ty Efekt: 1 razy — Celność+30% |
+|    2 | **Pęd**   |          6 |       20 | Cel: ty Efekt: 1 razy — Ruch+3      |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność    | Poz. nauki | Efekt bazowy                            |
+| ---: | -------------- | ---------: | --------------------------------------- |
+|    1 | **Potencjał**  |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4%  |
+|    2 | **Rycerskość** |          3 | Morale 110 lub więcej / Cel+6% Kryt+10% |
+
+---
+
+#### Mirawoo Kyao
+
+- **Seria:** Heavy Metal L-Gaim
+- **Nazwa skrócona:** Kyao
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             50 |
+| **Atak**    |            107 |
+| **Obrona**  |             80 |
+| **Celność** |            126 |
+| **Unik**    |             73 |
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                                                 |
+| ---: | ---------- | ---------: | -------: | ---------------------------------------------------------------------------- |
+|    1 | **Wiatr**  |          1 |       20 | Cel: sojusznicy 1 jedn. (Ruch w górę) — Zasięg 3 +'Pęd'                      |
+|    2 | **Doping** |          6 |       30 | Cel: sojusznicy 1 jedn. (Zestrzelenie: PD x2 itd.) — Zasięg 3 +'Wysiłek Lv1' |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                                       |
+| ---: | ------------- | ---------: | -------------------------------------------------- |
+|    1 | **Potencjał** |          1 | Pozostałe HP 10%: Obr/Cel/Unik/Kryt+4%             |
+|    2 | **Serwis**    |          3 | Start tury: Zasięg 1 - sojusznicy: / HP+1% i EN+1% |
+
+---
+
+#### Lilis Faw
+
+- **Seria:** Heavy Metal L-Gaim
+- **Nazwa skrócona:** Lilis
+
+- **Pula SP:** **60** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch      | Poz. nauki | Koszt SP | Efekt bazowy                                                                       |
+| ---: | --------- | ---------: | -------: | ---------------------------------------------------------------------------------- |
+|    1 | **Zauf.** |          1 |       20 | Cel: sojusznicy 1 jedn. — Zasięg 3 1500 HP+5% HP                                   |
+|    2 | **Błog.** |          6 |       50 | Cel: sojusznicy 1 jedn. (Zestrzelenie: Fundusze x2 itd.) — Zasięg 3 +'Fortuna Lv1' |
+
+---
+
+#### C.C.
+
+- **Seria:** Code Geass
+
+- **Pula SP:** **50** *(podpilot korzysta ze statystyk bojowych głównego pilota)*
+
+**Komendy Ducha (*Spirit Commands*):**
+
+| Slot | Duch       | Poz. nauki | Koszt SP | Efekt bazowy                                                                       |
+| ---: | ---------- | ---------: | -------: | ---------------------------------------------------------------------------------- |
+|    1 | **Błog.**  |          1 |       50 | Cel: sojusznicy 1 jedn. (Zestrzelenie: Fundusze x2 itd.) — Zasięg 3 +'Fortuna Lv1' |
+|    2 | **Osłab.** |          6 |       20 | Cel: wrogowie w zasięgu — Zasięg 2 Morale-20                                       |
+
+---
+
+#### Żołnierz Posaydala
+
+- **Seria:** Brak wpisu w słowniku postaci
+
+| Parametr    | Wartość bazowa |
+| ----------- | -------------: |
+| **SP**      |             10 |
+| **Atak**    |            102 |
+| **Obrona**  |             66 |
+| **Celność** |            128 |
+| **Unik**    |             60 |
+
+**Umiejętności pilota:**
+
+| Slot | Umiejętność   | Poz. nauki | Efekt bazowy                                                  |
+| ---: | ------------- | ---------: | ------------------------------------------------------------- |
+|    1 | **Szeregowy** |          1 | Zbiorcza z tą samą jedn.; wsparcie w grupie / HP = suma grupy |
+
+---
+
+*Postać wypowiadająca się w skrypcie sceny (bez obecności w deployment — bez statystyk; przy nazwie podano serię pochodzenia):*
+- Fannaria Amm — seria: Heavy Metal L-Gaim

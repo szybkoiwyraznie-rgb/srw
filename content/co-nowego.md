@@ -1,5 +1,37 @@
 # Co nowego
 
+## 2026-11-27 18:22
+
+- Na planecie [[mizun|Mizun]] w układzie [[pentagona|Pentagona]], dawnej siedzibie dynastii Yaman, regularna armia [[oldna-posaydal|Oldny Posaydala]] otacza bazę rebeliantów Little Sei. W [[srw-oe-ep4-lelouch-buntownik|misji 4-4]] [[daba-myroad|Daba Myroad]] z [[lilis-faw|Lilis Faw]] w [[l-gaim|L-Gaimie]] oraz [[gaw-ha-leccee|Gaw Ha Leccee]], dawniej z [[trzynastka-posaydala|Trzynastki Posaydala]], w [[novel-d-sserd|Novel D-Sserdzie]] ściągają na siebie [[bat-shu|Bat-Shu]] [[zolnierz-posaydala|żołnierzy Posaydala]]. W tym czasie [[mirawoo-kyao|Mirawoo Kyao]] i [[fannaria-amm|Fannaria Amm]] ładują rebeliantów na [[turner|Turnera]].
+- [[lelouch-vi-britannia|Lelouch]] budzi się na pustkowiu Mizunu, gdzie [[c-c|C.C.]] odnajduje go w [[gawain|Gawainie]]. Nie ma tu [[czarni-rycerze|Czarnych Rycerzy]] ani Knightmare'ów. Jako Zero przejmuje dowodzenie nad rebeliantami. C.C. prosi go, by nie używał [[geass|Geass]], a on już wie z czujników Gawaina, że to nie Ziemia. Wróg mierzy Gawaina miarą własnych [[heavy-metal|Heavy Metali]] i przegrywa. Zero i C.C. zostają przy Dabie, a gdy poznają [[connect-force|Connect]], zaczynają zbliżać do niego rebeliantów.
+- Rebelianci Daby pochodzą z serialu [[heavy-metal-l-gaim|*Heavy Metal L-Gaim*]] (1984–1985), w którym Daba buntuje się przeciw cesarzowi Posaydalowi. Lelouch, C.C. i Gawain przybywają z [[code-geass|*Code Geass*]] (2006–2008), gdzie Lelouch jako Zero prowadzi bunt przeciw Britannii.
+
+## 2026-11-25 20:24
+
+- [[rising-gundam|Rising Gundam]] z serialu [[mobile-fighter-g-gundam|*Mobile Fighter G Gundam*]] to wojskowa maszyna Neo-Japonii, którą doktor Mikamura przerobił z prototypu Shining Gundama z myślą o prawdziwej walce z Dark Gundamem; walczy naginatą, łukiem wiązkowym i tarczą z naramienników.
+
+## 2026-11-25 20:21
+
+- W serialu [[ssss-dynazenon|*SSSS.Dynazenon*]] [[klub-kaiju|Klub Kaiju]] to czwórka władców kaiju: spostrzegawczy [[juuga|Juuga]] darzy [[gauma|Gaumę]] szacunkiem i ciekawi go [[dynazenon|Dynazenon]], porywczy [[onija|Onija]] nienawidzi ludzi i zwykle obrywa gruzem pokonanych potworów, [[mujina|Mujina]] z początku idzie za resztą, a najmłodszy [[sizumu|Sizumu]] słyszy głosy kaiju i wierzy, że więzi między ludźmi odbierają im wolność.
+
+## 2026-11-25 20:18
+
+- [[beamler|Beamler]], energia, która według [[shingo-hojo|Shingo]] znów przerzuciła drużynę Good Thunder w nieznane, w serialu [[goshogun|*GoShogun*]] zasila [[goshogun-robo|GoShoguna]] i z czasem rośnie, zyskując nowe moce. Poluje na nią [[docougar|Docougar]] — w serialu Dokuga, tajna organizacja z kwaterą pod bankiem nad Jeziorem Genewskim, której trzej dowódcy raz po raz stają przeciw Good Thunder.
+
+## 2026-11-25 20:04
+
+- Na widok [[dark-go-saurer|Dark Go-Saurera]] w [[srw-oe-ep4-przybysz-z-innego-czasu|misji 4-3]] [[koji-hoshiyama|Koji Hoshiyama]] wspomina Jaku Raijin-Oha — bestię [[jaku-empire|Imperium Jaku]], która w 21. odcinku [[matchless-raijin-oh|*Matchless Raijin-Oh*]] udawała [[raijin-oh|Raijin-Oha]] i drobnymi wybrykami ściągała winę na klasę obrony.
+
+## 2026-11-25 19:59
+
+- Porównując [[dark-go-saurer|Dark Go-Saurera]] do Go-Naghoula w [[srw-oe-ep4-przybysz-z-innego-czasu|misji 4-3]], [[remy-shimada|Remy]] przywołuje podróbkę GoShoguna, którą [[docougar|Dokuga]] wystawiła przeciw drużynie Good Thunder w 23. odcinku *GoShoguna*.
+- [[dark-go-saurer|Dark Go-Saurer]] to mroczna kopia [[king-go-saurer|King Go-Saurera]] z serialu [[nekketsu-saikyo-go-saurer|*Nekketsu Saikyō Go-Saurer*]], zbudowana przez [[mechanization-empire|Imperium Mechanizacji]]; w starciu z [[connect-force|Connect Force]] [[killy-gagley|Killy]] wyczuwa w niej fałsz, a [[seishiro|Seishiro]] przestrzega, że to wciąż super robot i godny przeciwnik.
+
+## 2026-11-25 19:55
+
+- [[goshogun-robo|GoShogun]] łączy się z trzech myśliwców — King Arrow, Queen Rose i Jack Knight — i czerpie moc z energii [[beamler|Beamler]]; w serialu [[goshogun|*GoShogun*]] z 1981 roku broni fortecy Good Thunder przed tajną organizacją Dokuga, którą [[remy-shimada|Remy]] nazywa [[docougar|Docougarem]].
+- Po przeskoku w okolice Marsa [[remy-shimada|Remy Shimada]] odkrywa, że mapy gwiezdne nie zgadzają się z położeniem asteroid, [[killy-gagley|Killy Gagley]] zastanawia się, czy trafili w przyszłość, a [[shingo-hojo|Shingo Hojo]] podejrzewa, że znów poprowadził ich Beamler; na pokładzie [[macross-quarter|Macross Quartera]] [[karen-joshua|Karen Joshua]] wzdycha nad czyszczeniem kolejnego robota.
+
 ## 2026-11-25 18:20
 
 - W [[srw-oe-ep4-przybysz-z-innego-czasu|misji 4-3 „Przybysz z innego czasu”]] drużyna Good Thunder z [[goshogun-robo|GoShogunem]] walczy u boku [[connect-force|Connect Force]] z mechabestiami i [[dark-go-saurer|Dark Go-Saurerem]], a następnie niszczy [[mucus-gate-s-mc|Mucus Gate S MC]]. [[shingo-hojo|Shingo Hojo]], [[killy-gagley|Killy Gagley]] i [[remy-shimada|Remy Shimada]] przyjmują zaproszenie do współpracy; [[yoko-kuriki|Yoko Kuriki]] ostrzega o mechabestiach.
@@ -19,8 +51,8 @@
 
 ## 2026-11-23 23:36
 
-- [[lumenus|Lumenus]] pozostaje w barwach Sił [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]], a cywilny wariant [[lumenus-yellow-version|Lumenus Yellow Version]] jest opisany osobno wraz z użyciem przez [[val-x|VAL-X]] pod Tokio.
-- W [[mobile-suit-gundam-wing-endless-waltz|*Mobile Suit Gundam Wing: Endless Waltz*]] uwzględniono reprezentację [[srw-y|*Super Robot Wars Y*]]: [[heero-yuy|Heero Yuy]] w [[wing-gundam-zero|Wing Gundamie Zero]], obok [[chang-wufei|Chang Wufeia]] w [[altron-gundam|Altronie Gundamie]] i [[taurus|Taurusów]].
+- [[lumenus|Lumenus]] nosi barwy Sił [[nowa-federacja-ziemska|Nowej Federacji Ziemskiej]], a żółto malowane [[lumenus-yellow-version|Lumenusy Yellow Version]], sprzedawane cywilom i prywatnym formacjom, pod Tokio rzuca do walki [[val-x|VAL-X]].
+- [[heero-yuy|Heero Yuy]] lata [[wing-gundam-zero|Wing Gundamem Zero]] z anielskimi skrzydłami znanymi z [[mobile-suit-gundam-wing-endless-waltz|*Endless Waltz*]] i pyta o [[chang-wufei|Chang Wufeia]], pilota [[altron-gundam|Altrona Gundama]]; w tym samym świecie walczą bezzałogowe [[taurus|Taurusy]].
 
 ## 2026-11-22 22:30
 
@@ -30,7 +62,7 @@
 
 ## 2026-11-22 21:20
 
-- [[pentagona|Pentagona]] — trzecia z potęg sprzymierzonych za [[brama-warp|bramą warp]] obok [[balarant|Balarantu]] i [[grados|Gradosu]] — wywodzi się z pięcioplanetarnego układu słonecznego z *Heavy Metal L-Gaim*, a gigantyczny [[lotniskowiec-gradosu|lotniskowiec Gradosu]] z marsjańskiej doliny należy do ciężkich okrętów tej armii z [[blue-comet-spt-layzner|*Blue Comet SPT Layzner*]].
+- [[pentagona|Pentagona]] — trzecia z potęg sprzymierzonych za [[brama-warp|bramą warp]] obok [[balarant|Balarantu]] i [[grados|Gradosu]] — wywodzi się z pięcioplanetarnego układu słonecznego z [[heavy-metal-l-gaim|*Heavy Metal L-Gaim*]], a gigantyczny [[lotniskowiec-gradosu|lotniskowiec Gradosu]] z marsjańskiej doliny należy do ciężkich okrętów tej armii z [[blue-comet-spt-layzner|*Blue Comet SPT Layzner*]].
 - [[cybuster|Cybuster]] jest jednym z czterech Masou Kishin Świętego Królestwa Langranu, związanym paktem z duchem wiatru Syphisem, i potrafi samodzielnie otworzyć bramę między Ziemią a La Gius.
 - W marsjańskiej dolinie [[gosterro|Gosterro]] ponownie wchodzi do walki w [[daljan|Daljanie]] u boku okrętu Gradosu, a w sterowni [[stacja-mars|Stacji Mars]] to [[himari-yaegaki|Himari]] wykrywa na Marsie [[promienie-gettera|promienie Gettera]] o wzorcu [[invaderzy|Invaderów]], podczas gdy [[macross-quarter|Macross Quarter]] osłania stację z mostkiem [[jeffrey-wilder|Jeffreya]], [[bobby-margot|Bobby’ego]], [[catherine-glass|Cathy]] i [[monica-lang|Moniki]].
 
@@ -90,7 +122,7 @@
 
 ## 2026-11-20 22:40
 
-- [[braver|Braver]] to gradosiański SPT o oznaczeniu SPT-BV-15C; w wykazie maszyn [[blue-comet-spt-layzner|*Blue Comet SPT Layzner*]] stoi obok innych SPT armii [[grados|Gradosu]].
+- [[braver|Braver]] to gradosiański SPT o oznaczeniu SPT-BV-15C, jedna z maszyn, którymi armia [[grados|Gradosu]] najeżdża Marsa w [[blue-comet-spt-layzner|*Blue Comet SPT Layzner*]].
 
 ## 2026-11-20 22:35
 
@@ -228,10 +260,6 @@
 - **[[sergeant-keroro|Keroro]] w [[universal-century|Universal Century]]** — przybysz z planety Keron dowodzi plutonem, który miał podbić Pekopon, a zamiast tego oddaje się składaniu modeli Gundamów, na które wydaje wojskowy budżet; po przeniesieniu na kolonię kosmiczną jego rezonansowy głos budzi szalejące [[labor|Labory]], a on sam rozpoznaje maszyny pierwszej serii i zostaje na okręcie [[white-base|White Base]].
 - **Rywalizacja [[gihren-zabi|Gihrena]] i [[kycilia-zabi|Kycilii]]** — rodzeństwo Zabi rozstrzyga w sztabie [[zeon|Zeonu]] losy operacji na [[wyspy-kurylskie|Wyspach Kurylskich]]: brat uznaje zniszczenie placówki za zwycięstwo strategiczne, a siostra prosi o karę za samowolny ruch dowódcy i przyjmuje pełnomocnictwo do rozmów o użyczeniu sił, które mają zbliżyć [[connect-force|Connect]] do Zeonu.
 
-## 2026-11-17 19:52
-
-- **Wizerunki [[sergeant-keroro|sierżanta Keroro]] i jego maszyn** — portret [[sergeant-keroro|sierżanta Keroro]], dwa obrazy [[keroro-robo-mk-ii|Keroro Robo Mk-II]] i jeden wizerunek jego lotniczej formy [[keroro-jet|Keroro Jet]].
-
 ## 2026-11-17 18:27
 
 - **Uzbrojenie [[getter-kirik|Getter Kirika]], [[getter-khan|Getter Khana]] i więź drużyny Gettera** — [[getter-kirik|Getter Kirik]] (łączony w kolejności Kirik, Khan, Arc pod sterami [[show-kamui|Show Kamuia]]) polega na unikach Getter Vision oraz atakach Getter Arm i przebijających bariery Getter Drill i Double Drill Storm, [[getter-khan|Getter Khan]] (łączony w kolejności Khan, Arc, Kirik pod sterami [[baku-yamagishi|Baku Yamagishiego]]) walczy pod wysokim ciśnieniem przy użyciu Getter Punch, Getter Missile i przebijającego bariery Spine Crusher w formie opony Khan Rover (zdolnej wywoływać podwodny wir Maelstrom), a pełna trójka z [[takuma-nagare|Takumą Nagare]] dzieli umiejętność „Dzieci Gettera”.
@@ -243,7 +271,6 @@
 ## 2026-11-17 15:52
 
 - **[[getter-kirik|Getter Kirik]] i [[getter-khan|Getter Khan]] u boku [[getter-arc|Getter Arca]]** — czwartej generacji Getter Robo z [[laboratorium-saotome|Laboratorium Saotome]] dopełniają dwie pozostałe konfiguracje trzech Get Machine: zwinny, wiertłowy [[getter-kirik|Getter Kirik]] pod sterami [[show-kamui|Show Kamuia]] (ze świdrem Drill Arm i szczypcami Pincer Arm, zdolny do szybkiego drążenia pod ziemią i lotu) oraz ciężki, kolczasty [[getter-khan|Getter Khan]] prowadzony przez [[baku-yamagishi|Baku Yamagishiego]] u boku [[takuma-nagare|Takumy Nagare]] (składający się w kolczaste koło Spine Crusher).
-- **Wizerunki obsady i maszyn z [[srw-y-ep1-misja-2a-przebudzenie-niebianskiego-demona|„Przebudzenia niebiańskiego demona”]]** — własne portrety mają [[show-kamui|Show Kamui]], [[hayato-jin|Hayato Jin]], [[shikishima|Shikishima]] i [[igari|Igari]] z [[laboratorium-saotome|Laboratorium Saotome]] oraz [[yume-minami|Yume Minami]], [[koyomi-yamanaka|Koyomi Yamanaka]], [[chise-asukagawa|Chise Asukagawa]], [[mei|Mei]] i [[matka-yomogiego|matka Yomogiego]] z [[miasto-yagami|miasta Yagami]], a sylwetki bojowe prezentują [[getter-arc|Getter Arc]], [[getter-kirik|Getter Kirik]], [[getter-khan|Getter Khan]], [[insector|Insector]] i [[zordo-xx|Zordo XX]].
 
 ## 2026-11-16 18:12
 
@@ -294,10 +321,6 @@
 - [[sily-kolonii|Siły kolonii]] rozważą ograniczony udział w Connect Force pod warunkiem, że nikt nie będzie ingerował w ich działania; bez entuzjazmu przyjmują to [[himari-yaegaki|Himari]] i policjanci Drugiego Plutonu.
 - [[gihren-zabi|Gihren]] i [[kycilia-zabi|Kycilia]] uzgadniają karę za samowolny ruch [[mquve|M'Quve'a]] oraz plan użyczenia wojsk [[zeon|Zeonu]], które mają zbliżyć [[connect-force|Connect]] do Księstwa, choć Kycilia przestrzega brata przed grą na czas wobec przewagi materialnej Federacji.
 
-## 2026-11-15 22:05
-
-- [[gihren-zabi|Gihren Zabi]] i [[kycilia-zabi|Kycilia Zabi]] mają własne portrety, a [[invader-air|Invader/Air]] i [[metal-beast-muszla|Metalowa Bestia]] — ujęcia w walce: latający [[invader|Invader]] jedno, Bestia dwa, w tym wariant ze skorupą widzianą z bliska.
-
 ## 2026-11-15 21:40
 
 - Zniszczone obserwatorium na Wyspach Kurylskich było laboratorium [[cyber-newtype|Cyber-Newtype'ów]] [[earth-federation|Federacji]] — ośrodkiem nieoficjalnych eksperymentów na ludziach. Ujawnia to [[heero-yuy|Heero]] przed odlotem [[gundam-exia|Exii]].
@@ -310,27 +333,22 @@
 - [[zaloga-asysty|Załoga asysty]] [[a-advent|A. Adventu]] to ludzie z pokładu — między innymi pokojówki i [[wren|Wren]] — którzy zamiast stawać w pierwszej linii wspierają walczących swoimi specjalnościami; w walce może asystować najwyżej dziewięć osób, a skład wyznacza [[echika-y-franburnett|Echika]].
 - [[pamiec-stg|Pamięć STG]] odblokowuje się siłą, którą [[annina-servania|Annina]] nazywa MXP — [[a-advent|doświadczeniami okrętu]] zamienionymi w dane. Pamięć dzieli się na trzy ścieżki, a moc odblokowana u końca każdej z nich daje okrętowi ogromne wsparcie; to [[echika-y-franburnett|Echika]] wybiera, którą ścieżką postępować.
 
-## 2026-11-14 21:20
-
-- [[gundam-exia|Gundam Exia]] ma dwa własne ujęcia, [[wing-gundam-zero|Wing Gundam Zero]] dwa, a jego skrzydlata forma [[wing-gundam-zero-nb|Wing Zero NB]] jedno.
-- Portrety mają [[garma-zabi|Garma Zabi]], [[heero-yuy|Heero Yuy]], [[setsuna-f-seiei|Setsuna F. Seiei]] i [[uragan|Uragan]] — czterej świadkowie kurylskiej zasadzki, od atakującego obserwatorium Garmy po dowódcę odsieczy.
-
 ## 2026-11-14 14:22
 
-- Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] [[duo-maxwell|Duo Maxwell]] mówi, że nie udało się cesarza powstrzymać, a jego próbę rozmowy z [[heero-yuy|Heero]] ucina krótkie „Nic nie mów…”; gdy na trasie pojawia się [[zero|Zero]], Duo woła jego imię.
+- Podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] [[duo-maxwell|Duo Maxwell]] mówi, że nie udało się cesarza powstrzymać, a jego próbę rozmowy z [[heero-yuy|Heero]] ucina krótkie „Nic nie mów…”; gdy na trasie pojawia się [[suzaku-kururugi|Zero]], Duo woła jego imię.
 - [[quatre-raberba-winner|Quatre Raberba Winner]] odczytuje intencję cesarza — raz na zawsze rozprawić się ze Spacenoidami — a [[trowa-barton|Trowa Barton]] odpowiada, że znów poleje się krew.
 - [[chang-wufei|Chang Wufei]] nie uznaje ani cesarza, ani [[char-aznable|Chara]], ani [[treize-khushrenada|Treize'a]] i odchodzi w milczeniu, pytany przez Heero, dokąd idzie.
 
 ## 2026-11-14 14:12
 
-- W [[srw-y|Super Robot Wars Y]] [[amuro-ray|Amuro Ray]] i [[bright-noa|Bright Noa]] występują w wersji z filmu *Char's Counterattack* z 1988 roku: Amuro dosiada ν Gundama, a Bright dowodzi okrętem Ra Cailum oddziału Londo Bell. W [[srw-oe|Super Robot Wars OE]] obaj reprezentują jeszcze serial z 1979 roku, więc na paradzie u [[lelouch-vi-britannia|Leloucha]] stoją już jako weterani wojny sprzed lat.
+- W świecie [[srw-y|Super Robot Wars Y]] [[amuro-ray|Amuro Ray]] i [[bright-noa|Bright Noa]] są tymi z filmu *Char's Counterattack* z 1988 roku: Amuro dosiada ν Gundama, a Bright dowodzi okrętem Ra Cailum oddziału Londo Bell. W świecie [[srw-oe|Super Robot Wars OE]] obaj wywodzą się z wojny znanej z serialu z 1979 roku i na paradzie u [[lelouch-vi-britannia|Leloucha]] stoją już jako jej weterani.
 - [[char-aznable|Char Aznable]] w tym samym filmie staje na czele Neo Zeonu i walczy w Sazabim; w opowieści Y jego rozrachunek z Lelouchem dopiero ma wybuchnąć.
 - [[wing-gundam-zero-nb|Wing Zero NB]] to skrzydlata forma przelotowa [[wing-gundam-zero|Wing Gundama Zero]]. Obie postacie maszyny mają Twin Buster Rifle, ale tylko w humanoidalnej [[heero-yuy|Heero]] może sięgnąć po szablę wiązkową.
 
 ## 2026-11-14 13:24
 
 - [[nunnally-vi-britannia|Nunnally vi Britannia]] jest córką cesarza Charlesa zi Britannii i Marianne; po zamachu na matkę straciła wzrok i władzę w nogach, a po śmierci brata wstąpiła na tron Britannii jako jej setna władczyni.
-- Gdy [[zero|Zero]] zabija cesarza [[lelouch-vi-britannia|Leloucha]], brata woła [[nunnally-vi-britannia|Nunnally]], a [[chang-wufei|Chang Wufei]] pierwszy staje do walki: nie uznaje świata, do którego doprowadzili go Treize i Lelouch, i chce wywalczyć miejsce dla żołnierzy.
+- Gdy [[suzaku-kururugi|Zero]] zabija cesarza [[lelouch-vi-britannia|Leloucha]], brata woła [[nunnally-vi-britannia|Nunnally]], a [[chang-wufei|Chang Wufei]] pierwszy staje do walki: nie uznaje świata, do którego doprowadzili go Treize i Lelouch, i chce wywalczyć miejsce dla żołnierzy.
 - [[chang-wufei|Wufei]] pochodzi z rodu Longów z klastra L5; imię poległej towarzyszki Long Meilan, „Nataku”, przeniósł na własną maszynę — stąd Shenlong, a potem [[altron-gundam|Altron]], który wysadził, gdy upadła Armia Mariemai.
 - [[tetsuya-tsurugi|Tetsuya Tsurugi]] trafił jako siedmiolatek do Kenzo Kabuto i ćwiczył na pilota Great Mazingera, by bronić Ziemi przed Imperium Mykenów u boku Jun Hono i adoptowanego brata [[koji-kabuto|Kojiego]].
 - [[hyoma-aoi|Hyoma Aoi]] prowadzi drużynę z Nanbara Connection jako pilot Battle Jet — maszyny, która przy kombinacji tworzy głowę Combattlera V; to wychowany w sierocińcu motocyklista, który wchodzi do walki pierwszy.
@@ -377,13 +395,13 @@
 
 ## 2026-11-11 19:26
 
-- Maska [[zero|Zero]] powstała jako przebranie [[lelouch-vi-britannia|Leloucha]]; po planie Zero Requiem rolę doradcy Czarnych Rycerzy przejmuje Suzaku i nosi ją dalej.
+- Maska Zero powstała jako przebranie [[lelouch-vi-britannia|Leloucha]]; po planie Zero Requiem rolę doradcy Czarnych Rycerzy przejmuje [[suzaku-kururugi|Suzaku]] i nosi ją dalej.
 - [[tetsuro-yagami|Tetsuro Yagami]] zbudował pod [[miasto-yagami|miastem Yagami]] twierdzę [[a-advent|A. Advent]], której mechanizmy pozostają czarną skrzynką; po jego śmierci w wypadku [[annina-servania|Annina]] została nauczycielką [[echika-y-franburnett|Echiki]] zgodnie z jego ostatnią wolą.
 
 ## 2026-11-11 19:14
 
 - [[kamille-bidan|Kamille Bidan]] dorastał na kolonii Gryps i po bójce z Jeridem Messą trafił w ręce Titanów, a podczas rajdu AEUG pomógł wykraść trzy prototypy Gundama Mk-II a następnie przesiał się na Zeta Gundama.
-- [[lelouch-vi-britannia|Lelouch]] jako jedenasty syn cesarza popadł w niełaskę po zamachu na matkę i trafił do Japonii jako zakładnik; Geass od C.C. i maska [[zero|Zero]] pozwoliły mu stanąć na czele Czarnych Rycerzy.
+- [[lelouch-vi-britannia|Lelouch]] jako jedenasty syn cesarza popadł w niełaskę po zamachu na matkę i trafił do Japonii jako zakładnik; [[geass|Geass]] od [[c-c|C.C.]] i maska Zero pozwoliły mu stanąć na czele Czarnych Rycerzy.
 
 ## 2026-11-11 19:02
 
@@ -417,7 +435,7 @@
 ## 2026-11-11 17:30
 
 - W *Endless Waltz* nazwę [[altron-gundam|Altron]] wywodzi się z chińskiego *ertou long* — „dwugłowy smok” — od pary smoczych szponów Dragon Fang; „Nataku” to imię, którym [[chang-wufei|Chang Wufei]] nazywa swoją maszynę.
-- [[srw-y|Super Robot Wars Y]] reprezentują [[chang-wufei|Chang Wufei]] z [[altron-gundam|Altronem Gundamem]] i [[mobile-doll|Mobile Dollami]] na [[taurus|Taurusach]], [[takuma-nagare|Takuma Nagare]] z [[baku-yamagishi|Baku Yamagishim]] ze świata [[getter-robo-arc|*Getter Robo Arc*]], [[gauma|Gauma]] i [[yomogi-asanaka|Yomogi Asanaka]] z [[ssss-dynazenon|*SSSS.DYNAZENON*]] oraz prowadzone przez [[zaawansowana-si|Zaawansowaną SI]] [[amx-003-gaza-c|AMX-003 Gaza C]] z [[mobile-suit-z-gundam|*Zeta Gundam*]] i [[zamza-zah|Zamza-Zah]] z [[mobile-suit-gundam-seed-destiny|*SEED Destiny*]].
+- W świecie [[srw-y|Super Robot Wars Y]] spotykają się [[chang-wufei|Chang Wufei]] z [[altron-gundam|Altronem Gundamem]] i [[mobile-doll|Mobile Dollami]] na [[taurus|Taurusach]], [[takuma-nagare|Takuma Nagare]] z [[baku-yamagishi|Baku Yamagishim]] ze świata [[getter-robo-arc|*Getter Robo Arc*]], [[gauma|Gauma]] i [[yomogi-asanaka|Yomogi Asanaka]] z [[ssss-dynazenon|*SSSS.DYNAZENON*]] oraz prowadzone przez [[zaawansowana-si|Zaawansowaną SI]] [[amx-003-gaza-c|AMX-003 Gaza C]] z [[mobile-suit-z-gundam|*Zeta Gundam*]] i [[zamza-zah|Zamza-Zah]] z [[mobile-suit-gundam-seed-destiny|*SEED Destiny*]].
 
 ## 2026-11-10 23:59
 
@@ -428,7 +446,7 @@
 ## 2026-11-10 23:58
 
 - W [[klasa-obrony-ziemi|Klasie Obrony Ziemi]] [[hidenori-kondo|Hidenori Kondo]] obsługuje radar [[raijin-oh|Raijin-Oha]], [[hiroshi-takamori|Hiroshi Takamori]] czuwa nad zabezpieczeniami broni i bywa drugim pilotem [[bakuryu-oh|Bakuryu-Oha]], [[yu-izumi|Yu Izumi]] monitoruje połączenie maszyn, a [[miki-mano|Miki Mano]] nadzoruje energię oraz wyrzutnię Bakuryu Cuttera; w [[saurersi|Saurersach]] [[shuzo-osada|Shuzo Osada]] opiekuje się mechaniką, [[ikuyo-oyama|Ikuyo Oyama]] obsługuje pierwszą maszynownię, a [[yuka-mizuhara|Yuka Mizuhara]] śledzi radar.
-- [[general-takeda|Generał Takeda]] przewodzi Siłom Obrony we wszystkich czterech odsłonach cyklu [[eldran|Eldran]], a w [[srw-y|Super Robot Wars Y]] [[baku-yamagishi|Baku Yamagishi]], [[yomogi-asanaka|Yomogi Asanaka]] i [[zero|Zero]] (w [[lancelot-albion-zero|Lancelocie Albion Zero]]) walczą w świecie [[altron-gundam|Altron Gundama]] i bezzałogowych [[taurus|Taurusów]].
+- [[general-takeda|Generał Takeda]] przewodzi Siłom Obrony we wszystkich czterech odsłonach cyklu [[eldran|Eldran]], a w [[srw-y|Super Robot Wars Y]] [[baku-yamagishi|Baku Yamagishi]], [[yomogi-asanaka|Yomogi Asanaka]] i [[suzaku-kururugi|Zero]] (w [[lancelot-albion-zero|Lancelocie Albion Zero]]) walczą w świecie [[altron-gundam|Altron Gundama]] i bezzałogowych [[taurus|Taurusów]].
 
 ## 2026-11-10 23:56
 
@@ -476,14 +494,14 @@
 
 ## 2026-11-10 00:34
 
-- Rozmowy [[koji-kabuto|Kojiego]] z [[tetsuya-tsurugi|Tetsuyą]] oraz [[chizuru-nambara|Chizuru]] z [[hyoma-aoi|Hyomą]] toczą się podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] — jeszcze w trakcie [[wojna-rewolucyjna|wojny rewolucyjnej]], którą kończy dopiero zamach [[zero|Zero]]. Wtedy też Chizuru mówi, że w [[imperium-yoma|Imperium Yoma]] wciąż pozostał cesarz [[barao|Barao]].
+- Rozmowy [[koji-kabuto|Kojiego]] z [[tetsuya-tsurugi|Tetsuyą]] oraz [[chizuru-nambara|Chizuru]] z [[hyoma-aoi|Hyomą]] toczą się podczas parady cesarza [[lelouch-vi-britannia|Leloucha]] — jeszcze w trakcie [[wojna-rewolucyjna|wojny rewolucyjnej]], którą kończy dopiero zamach [[suzaku-kururugi|Zero]]. Wtedy też Chizuru mówi, że w [[imperium-yoma|Imperium Yoma]] wciąż pozostał cesarz [[barao|Barao]].
 - [[trowa-barton|Trowa]] zapowiada nowy rozlew krwi przed zamachem, w odpowiedzi na słowa [[quatre-raberba-winner|Quatre'a]], że cesarz chce rozprawić się ze Spacenoidami; [[heero-yuy|Heero]] ucina rozmowę z [[duo-maxwell|Duo]], zanim zjawia się Zero, a potem myśli o obietnicy Suzaku Kururugiego.
 - [[treize-khushrenada|Treize Khushrenada]] przewodził Ziemianom w wojnie rewolucyjnej obok Leloucha; [[chang-wufei|Wufei]] odchodzi z parady, nie uznając „ani jego, ani Chara, ani Treize'a”.
 - O [[kamille-bidan|Kamille]] pyta [[amuro-ray|Amuro]], a [[bright-noa|Bright]] odpowiada, że ten wciąż się nie odezwał.
 
 ## 2026-11-10 00:31
 
-- Dzieje [[lelouch-vi-britannia|Leloucha]] sprzed prologu [[srw-y|SRW Y]] — pakt z C.C. i moc Geass, bunt Czarnych Rycerzy pod maską Zero, tron Britannii i plan Zero Requiem — należą do świata [[code-geass-lelouch-of-the-re-surrection|Code Geass Lelouch of the Re;surrection]]; rok po Zero Requiem świat przebudowany wokół Zjednoczonej Federacji Narodów cieszy się pokojem.
+- Dzieje [[lelouch-vi-britannia|Leloucha]] sprzed prologu [[srw-y|SRW Y]] — pakt z [[c-c|C.C.]] i moc [[geass|Geass]], bunt Czarnych Rycerzy pod maską Zero, tron Britannii i plan Zero Requiem — należą do świata [[code-geass-lelouch-of-the-re-surrection|Code Geass Lelouch of the Re;surrection]]; rok po Zero Requiem świat przebudowany wokół Zjednoczonej Federacji Narodów cieszy się pokojem.
 - Film *Re;surrection* kontynuuje kinową trylogię, którą zamyka [[code-geass-lelouch-of-the-rebellion-iii-glorification|III Glorification]].
 
 ## 2026-11-09 18:30
@@ -511,7 +529,7 @@
 
 ## 2026-11-09 13:58
 
-- Parada cesarza [[lelouch-vi-britannia|Leloucha]], na której [[zero|Zero]] odbiera mu życie, to w pierwowzorze finał planu Zero Requiem — dwudziesty piąty odcinek „Re;” serialu *Code Geass: Lelouch of the Rebellion R2* i finał filmu [[code-geass-lelouch-of-the-rebellion-iii-glorification|III Glorification]]; na paradzie patrzy na nią z balkonu [[echika-y-franburnett|Echika]].
+- Parada cesarza [[lelouch-vi-britannia|Leloucha]], na której [[suzaku-kururugi|Zero]] odbiera mu życie, to w pierwowzorze finał planu Zero Requiem — dwudziesty piąty odcinek „Re;” serialu [[code-geass|*Code Geass: Lelouch of the Rebellion R2*]] i finał filmu [[code-geass-lelouch-of-the-rebellion-iii-glorification|III Glorification]]; na paradzie patrzy na nią z balkonu [[echika-y-franburnett|Echika]].
 
 ## 2026-11-09 13:45
 

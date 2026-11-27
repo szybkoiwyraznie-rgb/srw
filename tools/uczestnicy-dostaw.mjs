@@ -199,7 +199,8 @@ export const rekordBezOsoby = samJestPilotem;
 
 /**
  * Strony postaci i mechów odpowiadające nazwie z dostawy. Kolejno:
- * jawny inny zapis, profil jednostki w `w_gre`, tytuł strony, dla zapisu
+ * jawny inny zapis, profil jednostki w `w_gre`, tytuł strony, pseudonim postaci
+ * w tej grze (`pseudonim_w_grze`, ADR 0047), dla zapisu
  * „Rodzina (Wariant)” — tytuł równy wariantowi, a na końcu nazwa z listy
  * jednostek misji: wariant profilu („Brocken/Melee” to profil
  * „Brocken (Brocken/Melee)”) albo tytuł bez dopisku „— wariant danych N”.
@@ -219,6 +220,13 @@ export function stronyUczestnika(nazwa, gra, strony, { typ = null, plik = null }
   const szukana = normalizujNazwe(nazwa);
   const poTytule = encje.filter((s) => normalizujNazwe(s.tytul) === szukana);
   if (poTytule.length) return poTytule;
+
+  // Rekord pod maską z jednej gry (ADR 0047): „Zero” z listy OE to Lelouch, a „Zero”
+  // z listy Y to Suzaku. Strona zostaje pod imieniem i nazwiskiem, a maskę niesie
+  // pole `pseudonim_w_grze` — tylko dla tej gry, w której dostawa jej używa.
+  const poPseudonimieWGrze = encje.filter((s) => s.typ === 'postac'
+    && typeof s.pseudonim_w_grze?.[gra] === 'string' && normalizujNazwe(s.pseudonim_w_grze[gra]) === szukana);
+  if (poPseudonimieWGrze.length) return poPseudonimieWGrze;
 
   // „Show Kamui — wariant danych 1” to ten sam Kamui; dopisek rozróżnia dwa zestawy
   // danych tej samej osoby, a tytuł strony zostaje imieniem i nazwiskiem (ADR 0037).

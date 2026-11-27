@@ -109,3 +109,24 @@ opisem procesu nawet wtedy, gdy dotyczy usuwania opisów procesu. Doprecyzowanie
 - Strażnicy: rozszerzona lista `test/dziennik-zmian.test.js` oraz test
   `proza scen i epizodów mówi o świecie, nie o grze jako autorze` w `test/sceny.test.js`.
   Wyjątki: „gra polityczna”, „gra w piłkę”, „świat gry” jako nazwa uniwersum.
+
+## Adnotacja 2026-11-25 — dziennik nie ogłasza mediów
+
+Właściciel: wpis „Portrety mają piloci drużyny Good Thunder… GoShogun i Dark Go-Saurer
+pokazują się w dwóch ujęciach każdy” to opis procesu, nie fabuły; tak samo wszystkie wpisy,
+które mówią, że coś „ma opis”, „zyskało tło”, „ma nawiązanie” albo „jest opisane osobno”.
+Doprecyzowanie, uchylające w tym zakresie punkt 6 i adnotację z 2026-10-22:
+
+- **Ilustracje nie trafiają do dziennika.** Dostawa portretów i ujęć maszyn jest zmianą
+  mediów, nie świata; zapis o niej należy do `docs/HISTORIA_WEWNETRZNA.md`. Jeśli przy
+  dostawie zmienia się też treść o świecie, wpis mówi tylko o tej treści.
+- **Tło z pierwowzoru opisuje się jak fakt świata.** Zamiast „seria zyskała tło” albo
+  „maszyna ma opis z serialu” — samo zdanie o maszynie, postaci czy organizacji.
+- **Nawiązanie do odcinka to wydarzenie, nie odsyłacz.** Zamiast „misja ma nawiązanie do
+  odcinka 23” — kto, co i w którym odcinku pierwowzoru zrobił.
+- Regexowe testy stylu dziennika usunięto na polecenie właściciela (PR #51), więc zasady
+  pilnuje przegląd przed każdym wpisem (lekcja L36).
+- **Bez testów blokujących słowa** (decyzja właściciela z 2026-11-25): to samo słowo może
+  należeć do fabuły („portret” na ścianie, „ujęcie” wroga, „opis” wydarzeń w dialogu), więc
+  lista zakazanych słów blokowałaby zwykłe zdania o świecie. O tym, czy wpis mówi o świecie,
+  rozstrzyga lektura całego zdania, nie pojedyncze słowo.

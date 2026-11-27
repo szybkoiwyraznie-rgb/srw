@@ -12,7 +12,7 @@ import { escapeHtml } from './markdown.js';
 import { hrefDlaSlug, hrefListy } from './links.js';
 import { dajStrone, listaStron, listaPosortowana, listaEpizodow, listaFiltrowana, tagiMap, statystyki } from './data.js';
 import { nazwaTypu, numerEpizodu, stanPusty, odmiana } from './render.js';
-import { sortujSceny, serieDlaGry, serieStrony } from './registry.js';
+import { sortujSceny, serieDlaGry, serieStrony, pseudonimyStrony } from './registry.js';
 import { elementSceny } from './render-scene.js';
 
 /** Wymiary kafelka w galerii (px). Suwak reguluje wartość w UI. */
@@ -400,7 +400,7 @@ function kartaKafelka(p, typ) {
   const obraz = ilustracjaEncji(p);
   const serie = etykietySerii(p);
   const metaCzesci = [];
-  if (typ === 'postac' && p.pseudonim) metaCzesci.push(`„${escapeHtml(p.pseudonim)}”`);
+  if (typ === 'postac') for (const ps of pseudonimyStrony(p)) metaCzesci.push(`„${escapeHtml(ps.nazwa)}”`);
   if (serie) metaCzesci.push(serie);
   if (typ === 'postac' && p.rola) metaCzesci.push(escapeHtml(p.rola));
   if (typ === 'mech' && Array.isArray(p.piloci) && p.piloci.length) {
@@ -704,7 +704,7 @@ function etykietySerii(p) {
 /** Opis wiersza listy: pseudonim, serie, rola i liczba maszyn. Rodzaj hasła niesie tag (ADR 0033). */
 function metaEncji(p) {
   const czesci = [];
-  if (p.typ === 'postac' && p.pseudonim) czesci.push(`„${escapeHtml(p.pseudonim)}”`);
+  if (p.typ === 'postac') for (const ps of pseudonimyStrony(p)) czesci.push(`„${escapeHtml(ps.nazwa)}”`);
   const serie = etykietySerii(p);
   if (serie) czesci.push(serie);
   if (p.typ === 'postac' && p.rola) czesci.push(escapeHtml(p.rola));

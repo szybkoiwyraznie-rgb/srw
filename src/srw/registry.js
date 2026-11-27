@@ -303,7 +303,58 @@ export function walidujStrone(strona, ctx) {
     }
   }
 
+  // Pseudonim w grze (ADR 0047): ta sama osoba występuje w jednej grze pod maską
+  // albo przydomkiem, którego nie nosi w innej (Lelouch jako Zero w OE, Suzaku
+  // jako Zero w Y). Mapa gra → pseudonim; strona zostaje pod imieniem i nazwiskiem.
+  if (strona.pseudonim_w_grze !== undefined) {
+    if (strona.typ !== 'postac') {
+      p.push(`${gdzie}: "pseudonim_w_grze" przysługuje tylko postaci`);
+    } else if (!strona.pseudonim_w_grze || typeof strona.pseudonim_w_grze !== 'object' || Array.isArray(strona.pseudonim_w_grze)) {
+      p.push(`${gdzie}: "pseudonim_w_grze" musi być mapą gra → pseudonim`);
+    } else {
+      const gryStrony = new Set(Array.isArray(strona.gry) ? strona.gry : []);
+      for (const [gra, nazwa] of Object.entries(strona.pseudonim_w_grze)) {
+        const g = ctx.bySlug.get(gra);
+        if (!g || g.typ !== 'gra') p.push(`${gdzie}: "pseudonim_w_grze.${gra}" nie jest stroną gry`);
+        else if (!gryStrony.has(gra)) p.push(`${gdzie}: "pseudonim_w_grze.${gra}" spoza pola "gry" strony`);
+        if (typeof nazwa !== 'string' || nazwa.trim() === '') {
+          p.push(`${gdzie}: "pseudonim_w_grze.${gra}" musi być niepustym tekstem`);
+        } else if (nazwa.trim() === String(strona.tytul ?? '').trim()) {
+          p.push(`${gdzie}: "pseudonim_w_grze.${gra}" powtarza tytuł — tytułem ma być imię i nazwisko (ADR 0037)`);
+        }
+      }
+    }
+  }
+
   return p;
+}
+
+/** Pseudonim postaci w danej grze: wpis z `pseudonim_w_grze`, a bez niego `pseudonim` (ADR 0047). */
+export function pseudonimWGrze(strona, gra) {
+  const mapa = strona?.pseudonim_w_grze;
+  const wGrze = mapa && typeof mapa === 'object' && !Array.isArray(mapa) ? mapa[gra] : undefined;
+  return (typeof wGrze === 'string' && wGrze.trim()) ? wGrze.trim() : (strona?.pseudonim ?? null);
+}
+
+/**
+ * Wszystkie pseudonimy postaci: `[{ nazwa, gry }]`, gdzie `gry` jest pustą listą
+ * dla pseudonimu ogólnego (`pseudonim`) albo listą gier z `pseudonim_w_grze`.
+ */
+export function pseudonimyStrony(strona) {
+  const wynik = [];
+  if (typeof strona?.pseudonim === 'string' && strona.pseudonim.trim()) {
+    wynik.push({ nazwa: strona.pseudonim.trim(), gry: [] });
+  }
+  const mapa = strona?.pseudonim_w_grze;
+  if (mapa && typeof mapa === 'object' && !Array.isArray(mapa)) {
+    for (const [gra, nazwa] of Object.entries(mapa)) {
+      if (typeof nazwa !== 'string' || !nazwa.trim()) continue;
+      const jest = wynik.find((w) => w.nazwa === nazwa.trim() && w.gry.length);
+      if (jest) jest.gry.push(gra);
+      else if (!wynik.some((w) => w.nazwa === nazwa.trim())) wynik.push({ nazwa: nazwa.trim(), gry: [gra] });
+    }
+  }
+  return wynik;
 }
 
 /** Wycina treść bloku `:::…:::` z ciała strony (pierwszy blok). */

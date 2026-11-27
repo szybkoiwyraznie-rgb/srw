@@ -24,7 +24,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { wczytajStrony, wczytajSkrypty } from '../tools/content-loader.mjs';
-import { serieStrony } from '../src/srw/registry.js';
+import { serieStrony, pseudonimWGrze, pseudonimyStrony } from '../src/srw/registry.js';
 import { zbudujDane } from '../tools/build.mjs';
 import {
   porownajZBaza, przypisaniaDostaw, przypisaniaZPliku, normalizujNazwe, RODZAJE_ROZBIEZNOSCI,
@@ -54,7 +54,10 @@ function stronyMowcy(etykieta, gra) {
   const wGrze = postacie.filter((p) => (p.gry ?? []).includes(gra));
   const poTytule = wGrze.filter((p) => normalizujNazwe(p.tytul) === szukana);
   if (poTytule.length) return poTytule;
-  const poPseudonimie = wGrze.filter((p) => p.pseudonim && normalizujNazwe(p.pseudonim) === szukana);
+  const poPseudonimie = wGrze.filter((p) => {
+    const pseudonim = pseudonimWGrze(p, gra);
+    return pseudonim && normalizujNazwe(pseudonim) === szukana;
+  });
   if (poPseudonimie.length) return poPseudonimie;
   return wGrze.filter((p) => normalizujNazwe(p.tytul).split(' ').includes(szukana));
 }
@@ -269,7 +272,7 @@ test('każdy mówca w scenie należy do jej obsady i obsady epizodu', () => {
     const cel = normalizujNazwe(etykieta);
     const zGry = postacie.filter((p) => (p.gry ?? []).includes(gra));
     const dokladne = zGry.filter((p) =>
-      [p.tytul, p.pseudonim].some((n) => n && normalizujNazwe(n) === cel)
+      [p.tytul, pseudonimWGrze(p, gra)].some((n) => n && normalizujNazwe(n) === cel)
       || nazwaSkrocona(p) === cel);
     return dokladne.length > 0
       ? dokladne
@@ -308,24 +311,47 @@ test('strona serii linkuje każdą przypisaną do niej encję w prozie (L16)', (
   assert.deepEqual(braki, []);
 });
 
+// Pary (gra, pseudonim) postaci: ogólny `pseudonim` obowiązuje we wszystkich grach
+// strony, `pseudonim_w_grze` tylko w swojej (decyzja właściciela o Zero, 2026-11-27).
+const parPseudonimow = (p) => (p.gry ?? []).map((gra) => [gra, pseudonimWGrze(p, gra)]).filter(([, n]) => n);
+
 test('pseudonim jest polem strony pod imieniem i nazwiskiem, nie osobną stroną', () => {
-  const zPseudonimem = postacie.filter((p) => p.pseudonim !== undefined);
+  const zPseudonimem = postacie.filter((p) => parPseudonimow(p).length > 0);
   assert.ok(zPseudonimem.length > 0);
   for (const p of zPseudonimem) {
     const gry = p.gry ?? [];
-    // Pseudonim pochodzi ze skryptu: pod nim postać mówi w którejś ze swoich gier.
-    assert.ok(skrypty.some((s) => gry.includes(s.gra) && s.mowcy.has(p.pseudonim)),
-      `${p.slug}: pseudonim „${p.pseudonim}” nie jest mówcą w żadnym skrypcie gier [${gry.join(', ')}]`);
-    // Tytułem jest pełna nazwa, więc pseudonim nie może być jej częścią ani nią samą.
-    assert.ok(!normalizujNazwe(p.tytul).split(' ').includes(normalizujNazwe(p.pseudonim)),
-      `${p.slug}: „${p.pseudonim}” to część tytułu „${p.tytul}”, nie pseudonim`);
-    for (const gra of gry) {
-      const sobowtory = postacie.filter((x) => x.slug !== p.slug && (x.gry ?? []).includes(gra)
-        && [x.tytul, x.pseudonim].some((n) => n && normalizujNazwe(n) === normalizujNazwe(p.pseudonim)));
-      assert.deepEqual(sobowtory.map((x) => x.slug), [],
-        `${p.slug}: „${p.pseudonim}” ma w grze ${gra} drugą stronę — jedna osoba, jedna strona`);
+    for (const nazwa of new Set(parPseudonimow(p).map(([, n]) => n))) {
+      // Pseudonim pochodzi ze skryptu: pod nim postać mówi w którejś ze swoich gier.
+      const gryPseudonimu = parPseudonimow(p).filter(([, n]) => n === nazwa).map(([g]) => g);
+      assert.ok(skrypty.some((s) => gryPseudonimu.includes(s.gra) && s.mowcy.has(nazwa)),
+        `${p.slug}: pseudonim „${nazwa}” nie jest mówcą w żadnym skrypcie gier [${gryPseudonimu.join(', ')}]`);
+      // Tytułem jest pełna nazwa, więc pseudonim nie może być jej częścią ani nią samą.
+      assert.ok(!normalizujNazwe(p.tytul).split(' ').includes(normalizujNazwe(nazwa)),
+        `${p.slug}: „${nazwa}” to część tytułu „${p.tytul}”, nie pseudonim`);
     }
+    // Ten sam pseudonim może nosić kilka osób, ale w jednej grze należy do jednej strony:
+    // Zero to Lelouch w SRW OE i Suzaku w SRW Y.
+    for (const [gra, nazwa] of parPseudonimow(p)) {
+      const sobowtory = postacie.filter((x) => x.slug !== p.slug && (x.gry ?? []).includes(gra)
+        && [x.tytul, pseudonimWGrze(x, gra)].some((n) => n && normalizujNazwe(n) === normalizujNazwe(nazwa)));
+      assert.deepEqual(sobowtory.map((x) => x.slug), [],
+        `${p.slug}: „${nazwa}” ma w grze ${gra} drugą stronę — jedna osoba, jedna strona`);
+    }
+    assert.ok(gry.length > 0, `${p.slug}: pseudonim bez gry`);
   }
+});
+
+test('Zero nie ma własnej strony: to pseudonim Leloucha w SRW OE i Suzaku w SRW Y', () => {
+  const bySlug = new Map(strony.map((s) => [s.slug, s]));
+  assert.equal(bySlug.has('zero'), false, 'brak osobnej strony Zero');
+  const lelouch = bySlug.get('lelouch-vi-britannia');
+  const suzaku = bySlug.get('suzaku-kururugi');
+  assert.equal(lelouch.typ, 'postac');
+  assert.equal(suzaku.typ, 'postac');
+  assert.equal(pseudonimWGrze(lelouch, 'srw-oe'), 'Zero');
+  assert.equal(pseudonimWGrze(lelouch, 'srw-y'), null, 'w SRW Y Zero to ktoś inny');
+  assert.equal(pseudonimWGrze(suzaku, 'srw-y'), 'Zero');
+  assert.equal(pseudonimWGrze(suzaku, 'srw-oe'), null);
 });
 
 test('pseudonim widać na stronie i na liście postaci, a wyszukiwarka prowadzi po nim do osoby', async () => {
@@ -337,23 +363,32 @@ test('pseudonim widać na stronie i na liście postaci, a wyszukiwarka prowadzi 
   // Galeria postaci pokazuje karty dopiero po wybraniu filtra, więc pytamy o grę.
   const listy = new Map();
   const listaGry = (gra) => listy.get(gra) ?? listy.set(gra, renderListe('postac', { gra })).get(gra);
+  const wlasciciele = (nazwa) => postacie.filter((x) => pseudonimyStrony(x).some((w) => w.nazwa === nazwa)).map((x) => x.slug);
 
-  for (const p of postacie.filter((x) => x.pseudonim !== undefined)) {
+  for (const p of postacie.filter((x) => pseudonimyStrony(x).length > 0)) {
     const html = renderEncja(p.slug);
-    const cytat = `„${p.pseudonim}”`;
-    assert.ok(html.slice(0, html.indexOf('uklad-strona')).includes(cytat), `${p.slug}: pseudonim w podtytule`);
-    assert.match(html, new RegExp(`<dt>Pseudonim</dt>\\s*<dd>${escapeRe(p.pseudonim)}</dd>`), `${p.slug}: pseudonim w metryce`);
-    // Kolejność pola `gry` jest przypadkowa, więc karta musi się pojawić na liście
-    // każdego tytułu, w którym postać występuje — nie tylko pod pierwszym wpisem.
-    for (const gra of p.gry) {
-      const karta = listaGry(gra).split('<article').find((k) => k.includes(`href="#/postac/${p.slug}"`));
-      assert.ok(karta, `${p.slug}: karta na liście postaci gry ${gra}`);
-      assert.ok(karta.includes(cytat), `${p.slug}: pseudonim na karcie listy postaci (${gra})`);
+    for (const { nazwa, gry } of pseudonimyStrony(p)) {
+      const cytat = `„${nazwa}”`;
+      assert.ok(html.slice(0, html.indexOf('uklad-strona')).includes(cytat), `${p.slug}: pseudonim w podtytule`);
+      assert.match(html, new RegExp(`<dt>Pseudonim</dt>\\s*<dd>[^<]*${escapeRe(nazwa)}`), `${p.slug}: pseudonim w metryce`);
+      for (const gra of gry) {
+        const tytulGry = strony.find((s) => s.slug === gra)?.tytul;
+        assert.ok(html.includes(`${nazwa} (${tytulGry}`), `${p.slug}: metryka mówi, w której grze obowiązuje „${nazwa}”`);
+      }
+      // Kolejność pola `gry` jest przypadkowa, więc karta musi się pojawić na liście
+      // każdego tytułu, w którym obowiązuje pseudonim — nie tylko pod pierwszym wpisem.
+      for (const gra of (gry.length ? gry : p.gry)) {
+        const karta = listaGry(gra).split('<article').find((k) => k.includes(`href="#/postac/${p.slug}"`));
+        assert.ok(karta, `${p.slug}: karta na liście postaci gry ${gra}`);
+        assert.ok(karta.includes(cytat), `${p.slug}: pseudonim na karcie listy postaci (${gra})`);
+      }
+      // Wspólny pseudonim (Zero) prowadzi do jednej z osób, które go noszą, a obie są w wynikach.
+      const wyniki = szukaj(nazwa).map((w) => w?.strona?.slug ?? w?.slug);
+      const nosiciele = wlasciciele(nazwa);
+      assert.ok(nosiciele.includes(wyniki[0]), `szukanie „${nazwa}” zaczyna się od osoby o tym pseudonimie (${nosiciele.join(', ')}), a nie od ${wyniki[0]}`);
+      assert.ok(wyniki.includes(p.slug), `szukanie „${nazwa}” znajduje ${p.slug}`);
+      assert.match(renderSzukanie(nazwa), new RegExp(`„<mark>${escapeRe(nazwa)}</mark>”`),
+        `${p.slug}: pseudonim w wynikach wyszukiwania`);
     }
-    const wyniki = szukaj(p.pseudonim);
-    const pierwszy = wyniki[0]?.strona?.slug ?? wyniki[0]?.slug;
-    assert.equal(pierwszy, p.slug, `szukanie „${p.pseudonim}” zaczyna się od strony ${p.slug}`);
-    assert.match(renderSzukanie(p.pseudonim), new RegExp(`„<mark>${escapeRe(p.pseudonim)}</mark>”`),
-      `${p.slug}: pseudonim w wynikach wyszukiwania`);
   }
 });

@@ -19,6 +19,8 @@ Pilotka [[gundam-ground-type|Gundama Ground Type]] w [[08-pluton-ms|08. Plutonie
 Do walki wraca w [[gundam-ground-type-glowa-gm|konfiguracji z głową GM-a]]. Nie przejmuje się uwagami o wyglądzie, bo w hangarze nie było już właściwych części, i ponownie włącza się do obrony.
 
 Podczas eskorty [[medea|Medei]] chwali części od GM-a za wytrzymałość i dostępność zapasów. Po akcji przyznaje, że polubiła nową głowę: maszyna dobrze reaguje, a serwis jest łatwy. Następnie odlatuje z oddziałem do [[jaburo|Jaburo]].
+
+W [[srw-oe-ep4-przybysz-z-innego-czasu|misji „Przybysz z innego czasu”]] na pokładzie [[macross-quarter|Macross Quartera]] ogląda [[goshogun-robo|GoShoguna]] i wzdycha, że samo jego czyszczenie będzie męką. Gdy [[shingo-hojo|Shingo]] pyta, czy to ona zajmie się ich maszyną, wyjaśnia, że na tym okręcie każdy w zasadzie sam dba o swoją maszynę, choć ludzie z Connect pomagają.
 }}
 
 {{zrodlo gra=wspolne

@@ -9,6 +9,7 @@ gry: [srw-y]
 pochodzenie: menu
 zrodla:
   - https://gundam.fandom.com/wiki/JMF1336R_Rising_Gundam
+  - https://srw.wiki.cre.jp/wiki/%E3%83%A9%E3%82%A4%E3%82%B8%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0
 tagi: [srw-y, mobile-suit, gundam, g-gundam]
 utworzono: 2026-11-22
 w_gre:
@@ -23,7 +24,7 @@ Mobile fighter pilotowany przez [[rain-mikamura|Rain Mikamurę]]. W [[srw-y-ep1-
 
 {{zrodlo gra=wspolne
 
-W pierwowzorze [[mobile-fighter-g-gundam|*Mobile Fighter G Gundam*]] JMF1336R Rising Gundam został skonstruowany przez doktora Mikamurę w Neo-Japonii z myślą o realnej walce z Dark Gundamem, a nie o turniejowych pojedynkach. Zaprojektowany przez Kunio Okawarę, korzysta z kokpitu Mobile Trace System w Core Landerze i zamiast widowiskowych technik pojedyńczych nosi praktyczne uzbrojenie: dwa działka Vulcan, dwa działka maszynowe, naginatę, składany łuk wiązkowy (Ultimate Bullseye Rising Arrow) na lewym przedramieniu oraz osłonę Rising Shield formowaną z opancerzenia naramienników ([Gundam Wiki, *JMF1336R Rising Gundam*](https://gundam.fandom.com/wiki/JMF1336R_Rising_Gundam); sprawdzono 2026-11-22).
+W pierwowzorze [[mobile-fighter-g-gundam|*Mobile Fighter G Gundam*]] JMF1336R Rising Gundam to wojskowy mobile fighter Neo-Japonii, przerobiony przez doktora Mikamurę z prototypu Shining Gundama ([Super Robot Wars Wiki, „ライジングガンダム”](https://srw.wiki.cre.jp/wiki/%E3%83%A9%E3%82%A4%E3%82%B8%E3%83%B3%E3%82%B0%E3%82%AC%E3%83%B3%E3%83%80%E3%83%A0); sprawdzono 2026-11-25). Powstał jeszcze w trakcie prac nad Shining Gundamem, a potem przekonstruowano go do realnej walki z Dark Gundamem zamiast turniejowych pojedynków. Zamiast widowiskowych technik nosi praktyczne uzbrojenie: dwa działka Vulcan w głowie, działka maszynowe na obojczykach, naginatę, łuk wiązkowy na lewym przedramieniu, z którego strzela Ultimate Bullseye Rising Arrow, oraz osłonę Rising Shield formowaną z opancerzenia naramienników ([Gundam Wiki, *JMF1336R Rising Gundam*](https://gundam.fandom.com/wiki/JMF1336R_Rising_Gundam); sprawdzono 2026-11-25).
 }}
 
 {{menu gra=srw-y

@@ -5,17 +5,18 @@ tytul: Epizod 4
 gra: srw-oe
 numer: 4
 skrypt: episodes/srw-oe/ep004.md
-postacie: [albatro-null-eiji-asuka, gosterro, oficer-gradosu, zolnierz-gradosu, bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, amuro-ray, suol, seishiro, himari-yaegaki, jeffrey-wilder, catherine-glass, alto-saotome, simon, kamina, yoko, boota, koji-kabuto, ryo-shiba, masato-shikibu, alan-igor, kei, gai, shinobu-fujiwara, rei, sergeant-keroro, kai-shiden, hayato-kobayashi, go, tsutomu-kojima, maria-shiratori, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, akira-imamura, bobby-margot, monica-lang, mucus, shingo-hojo, killy-gagley, remy-shimada, yoko-kuriki, mina-roshan, ram-hoa, karen-joshua, mechabestia]
-mechy: [enh-layzner, braver, daljan, lotniskowiec-gradosu, white-base, macross-quarter, shin-getter-1, invader-air, invader-ground, mucus-gate-s-in, exart, goshogun-robo, raijin-oh, bolt-robo-anti-air, bolt-robo-long-range, bolt-robo-melee, bolt-robo-standard, dark-go-saurer, mucus-gate-s-mc, keroro-robo-mk-ii, go-saurer, king-go-saurer]
-pojecia: [connect-force, stacja-mars, brama-warp, ark-ship, grados, earth-federation, eskadra-skull, balarant, pentagona, apollo-x, zwiazek-gilgamesh, invaderzy, promienie-gettera, mobile-suit, zeon, mechanization-empire]
-serie: [blue-comet-spt-layzner, mobile-suit-gundam-1979, macross-frontier, tengen-toppa-gurren-lagann, mazinger-edition-z-the-impact, super-beast-machine-god-dancouga, getter-robo-armageddon, matchless-raijin-oh, super-robot-wars-original, sgt-frog, goshogun, nekketsu-saikyo-go-saurer]
+postacie: [albatro-null-eiji-asuka, gosterro, oficer-gradosu, zolnierz-gradosu, bright-noa, mirai-yashima, fraw-bow, oscar-dublin, marker, amuro-ray, suol, seishiro, himari-yaegaki, jeffrey-wilder, catherine-glass, alto-saotome, simon, kamina, yoko, boota, koji-kabuto, ryo-shiba, masato-shikibu, alan-igor, kei, gai, shinobu-fujiwara, rei, sergeant-keroro, kai-shiden, hayato-kobayashi, go, tsutomu-kojima, maria-shiratori, jin-hyuga, asuka-tsukishiro, koji-hoshiyama, akira-imamura, bobby-margot, monica-lang, mucus, shingo-hojo, killy-gagley, remy-shimada, yoko-kuriki, mina-roshan, ram-hoa, karen-joshua, mechabestia, daba-myroad, mirawoo-kyao, fannaria-amm, lilis-faw, gaw-ha-leccee, lelouch-vi-britannia, c-c, zolnierz-posaydala]
+mechy: [enh-layzner, braver, daljan, lotniskowiec-gradosu, white-base, macross-quarter, shin-getter-1, invader-air, invader-ground, mucus-gate-s-in, exart, goshogun-robo, raijin-oh, bolt-robo-anti-air, bolt-robo-long-range, bolt-robo-melee, bolt-robo-standard, dark-go-saurer, mucus-gate-s-mc, keroro-robo-mk-ii, go-saurer, king-go-saurer, gawain, l-gaim, novel-d-sserd, turner, bat-shu]
+pojecia: [connect-force, stacja-mars, brama-warp, ark-ship, grados, earth-federation, eskadra-skull, balarant, pentagona, apollo-x, zwiazek-gilgamesh, invaderzy, promienie-gettera, mobile-suit, zeon, mechanization-empire, beamler, docougar, mizun, oldna-posaydal, trzynastka-posaydala, heavy-metal, geass, czarni-rycerze]
+serie: [blue-comet-spt-layzner, mobile-suit-gundam-1979, macross-frontier, tengen-toppa-gurren-lagann, mazinger-edition-z-the-impact, super-beast-machine-god-dancouga, getter-robo-armageddon, matchless-raijin-oh, super-robot-wars-original, sgt-frog, goshogun, nekketsu-saikyo-go-saurer, heavy-metal-l-gaim, code-geass]
 pochodzenie: skrypt
 zrodla:
   - https://en.wikipedia.org/wiki/Blue_Comet_SPT_Layzner
   - https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS
   - https://en.wikipedia.org/wiki/Heavy_Metal_L-Gaim
   - https://en.wikipedia.org/wiki/Sgt._Frog
-tagi: [srw-oe, mars, grados, layzner, getter-robo, sgt-frog, connect, goshogun, eldran, macross, frontier, mucus]
+  - https://en.wikipedia.org/wiki/Code_Geass
+tagi: [srw-oe, mars, grados, layzner, getter-robo, sgt-frog, connect, goshogun, eldran, macross, frontier, mucus, l-gaim, code-geass]
 utworzono: 2026-11-21
 ---
 
@@ -51,6 +52,12 @@ To [[goshogun-robo|GoShogun]] z drużyny Good Thunder. [[shingo-hojo|Shingo Hojo
 
 Po bitwie Shingo, Killy i Remy przyjmują propozycję dołączenia do Connect Force, choć zachowują własne zasady. Ostatni komentarz rozszerza stawkę: sama siła bojowa Connect nie wystarczy do obrony rozległego kosmosu, dlatego organizacje wspierające zaczynają angażować własnych ludzi i sprzęt. Powodzenie ekspedycji przez bramę warp ma przekonać je, że warto dalej współpracować.
 
+### [[srw-oe-ep4-lelouch-buntownik|Misja 4: Lelouch buntownik]]
+
+Akcja przenosi się do [[pentagona|Pentagony]], układu pięciu planet krążących wokół podwójnego słońca Sans, którym rządzi [[oldna-posaydal|Oldna Posaydal]]. Najwięcej rebeliantów działa na [[mizun|Mizunie]], dawnej siedzibie dynastii Yaman. Regularna armia otacza tam bazę Little Sei. [[daba-myroad|Daba Myroad]] porzuca bazę: z [[lilis-faw|Lilis Faw]] w [[l-gaim|L-Gaimie]] i z [[gaw-ha-leccee|Gaw Ha Leccee]] w [[novel-d-sserd|Novel D-Sserdzie]] odciąga [[bat-shu|Bat-Shu]] [[zolnierz-posaydala|żołnierzy Posaydala]], a [[mirawoo-kyao|Mirawoo Kyao]] i [[fannaria-amm|Fannaria Amm]] ładują rebeliantów na [[turner|Turnera]].
+
+Na pustkowiu Mizunu budzi się [[lelouch-vi-britannia|Lelouch]]. [[c-c|C.C.]] odnajduje go w [[gawain|Gawainie]], ale w pobliżu nie ma ani [[czarni-rycerze|Czarnych Rycerzy]], ani Knightmare'ów. Jako Zero Lelouch proponuje rebeliantom plan przełamania okrążenia, a Daba powierza mu dowodzenie. C.C. przestrzega go przed użyciem [[geass|Geass]] w tym dziwnym miejscu, a on już wie z czujników Gawaina, że to nie Ziemia. Wróg ocenia Gawaina miarą własnych [[heavy-metal|Heavy Metali]] i właśnie na tym przegrywa. Okrążenie pęka, Turner opuszcza atmosferę, a Zero i C.C. zostają przy Dabie. Z czasem dowiadują się, że trafili do innego świata, poznają [[connect-force|Connect]] i zaczynają zbliżać do niego rebeliantów.
+
 ## Wątki fabularne
 
 | Motyw w epizodzie | Źródło | Odcinek w źródle | Różnice |
@@ -68,8 +75,12 @@ Po bitwie Shingo, Killy i Remy przyjmują propozycję dołączenia do Connect Fo
 | Raport po operacji i gotowość floty | [[srw-oe\|Super Robot Wars OE]] | n/d | Ocena, że flota działa sprawnie bez wspólnych ćwiczeń, domyka wątek przerwanych ćwiczeń z Eskadrą Skull i jest rozwiązaniem autorskim. |
 | Przybycie drużyny Good Thunder do pasa asteroid Marsa | [[srw-oe\|Super Robot Wars OE]] | n/d | GoShogun i jego załoga trafiają do świata, którego nie potrafią rozpoznać; rozważają skok w przyszłość lub do innej rzeczywistości. |
 | Dark Go-Saurer oraz Mucus Gate S MC | [[srw-oe\|Super Robot Wars OE]] | n/d | Dark Go-Saurer jest wrogą imitacją rozpoznaną przez Saurersów, a Mucus Gate S MC pełni rolę celu misji, nie pilotowanej jednostki. |
+| Podróbka Raijin-Oha we wspomnieniach klasy | [[matchless-raijin-oh\|Matchless Raijin-Oh]] | odc. 21 „敵はライジンオー!?” | W serialu Jaku Raijin-Oh to bestia Imperium Jaku upodobniona do Raijin-Oha; w misji 4-3 [[koji-hoshiyama\|Koji Hoshiyama]] przywołuje tę walkę na widok Dark Go-Saurera. |
+| Podróbka GoShoguna jako miara dla Dark Go-Saurera | [[goshogun\|GoShogun]] | odc. 23 „Good Thunder on the Loose” | W serialu Go-Naghoul to podróbka GoShoguna zbudowana przez Dokugę; w misji 4-3 [[remy-shimada\|Remy]] przywołuje go na widok kopii King Go-Saurera z innego świata. |
 | Dołączenie GoShoguna do Connect Force | [[srw-oe\|Super Robot Wars OE]] | n/d | Po bitwie Shingo Hojo, Killy Gagley i Remy Shimada przyjmują zaproszenie, ale zaznaczają, że zachowają własne zasady. |
 | Wsparcie organizacji dla ekspedycji Connect | [[srw-oe\|Super Robot Wars OE]] | n/d | Zakończenie zakłada zaangażowanie dodatkowych sił, sprzętu i ludzi; powodzenie ekspedycji ma dopiero dowieść partnerom wartości współpracy. |
+| Rebelia Daby przeciw Posaydalowi | [[heavy-metal-l-gaim\|Heavy Metal L-Gaim]] | cała seria | W serialu Daba prowadzi bunt przeciw Oldnie Posaydalowi; w misji 4-4 rebelianci z Little Sei są już otoczeni i ratuje ich przybysz z innego świata. |
+| Zero na czele cudzej rebelii | [[code-geass\|Code Geass]] | cała seria | W serialu Zero dowodzi Czarnymi Rycerzami przeciw Britannii; w misji 4-4 [[lelouch-vi-britannia\|Lelouch]] bez swojej armii i bez [[geass\|Geass]] przejmuje dowodzenie nad rebeliantami [[pentagona\|Pentagony]]. |
 
 ## Komentarz
 
@@ -89,6 +100,8 @@ Podział floty jest pierwszą decyzją podjętą wspólnie, a nie narzuconą z g
 
 Trzecia misja przenosi ten problem ze współpracy flot na przyjmowanie nowych załóg. [[seishiro|Seishiro]] potrzebuje danych, by zapewnić bezpieczeństwo jednostki, ale [[sergeant-keroro|Keroro]] nie chce odsłaniać tajników swojego robota; dopiero spokojne podejście [[himari-yaegaki|Himari]] rozbraja napięcie. Drużyna Good Thunder z kolei pomaga Connect Force, lecz nie oddaje własnej niezależności: Shingo, Killy i Remy wybierają współpracę na własnych warunkach. Końcowe przygotowania do ekspedycji pokazują, że takie porozumienia — i zaufanie organizacji wspierających — będą równie ważne jak kolejne zwycięstwa.
 
+Czwarta misja po raz pierwszy pokazuje [[pentagona|Pentagonę]] od środka: potęga, wymieniana dotąd tylko obok Gradosu i Balarantu, okazuje się układem, w którym przeciw [[oldna-posaydal|Posaydalowi]] walczą rebelianci. [[lelouch-vi-britannia|Lelouch]] trafia do niej bez Czarnych Rycerzy i bez Geass, więc zostają mu maska, Gawain i talent strategiczny. Zaczyna od pytania, kto więcej zapłaci, a kończy u boku [[daba-myroad|Daby]], zbliżając rebeliantów do [[connect-force|Connect]].
+
 }}
 
 
@@ -102,5 +115,7 @@ Trzecia misja przenosi ten problem ze współpracy flot na przyjmowanie nowych z
 
 Sojusz Balarantu i Związek Gilgamesh to dwa mocarstwa Galaktyki Astragius z *Armored Trooper VOTOMS* (1983–1984), które przez sto lat toczyły wojnę o zapomnianej przyczynie, aż nastało między nimi kruche zawieszenie broni ([Wikipedia, *Armored Trooper VOTOMS*](https://en.wikipedia.org/wiki/Armored_Trooper_VOTOMS); sprawdzono 2026-11-21). Tutaj oba państwa są częścią przeszłości [[connect-force|Connect]], a nie stroną walki.
 
-[[pentagona|Pentagona]] wywodzi się z *Heavy Metal L-Gaim* (重戦機エルガイム, 1984–1985, 54 odcinki, Nippon Sunrise, reż. Yoshiyuki Tomino, projekty Mamoru Nagano) — serialu rozgrywającego się w pięcioplanetarnym układzie słonecznym Pentagona ([Wikipedia, *Heavy Metal L-Gaim*](https://en.wikipedia.org/wiki/Heavy_Metal_L-Gaim); sprawdzono 2026-11-22). W epizodzie nazwa ta pojawia się na razie jako jedna z potęg sprzymierzonych za bramą warp obok Balarantu i Gradosu.
+[[pentagona|Pentagona]] wywodzi się z *Heavy Metal L-Gaim* (重戦機エルガイム, 1984–1985, 54 odcinki, Nippon Sunrise, reż. Yoshiyuki Tomino, projekty Mamoru Nagano) — serialu rozgrywającego się w pięcioplanetarnym układzie słonecznym Pentagona ([Wikipedia, *Heavy Metal L-Gaim*](https://en.wikipedia.org/wiki/Heavy_Metal_L-Gaim); sprawdzono 2026-11-22). W pierwszej misji epizodu nazwa ta pojawia się jako jedna z potęg sprzymierzonych za bramą warp obok Balarantu i Gradosu, a w czwartej akcja przenosi się na planetę Mizun w tym układzie.
+
+[[code-geass|*Code Geass: Lelouch of the Rebellion*]] (コードギアス 反逆のルルーシュ) to serial studia Sunrise w reżyserii Gorō Taniguchiego. Pierwszą serię, liczącą 25 odcinków, emitowano w latach 2006–2007, a kontynuację *R2* w 2008 roku ([Wikipedia, *Code Geass*](https://en.wikipedia.org/wiki/Code_Geass); sprawdzono 2026-11-27). Stamtąd pochodzą [[lelouch-vi-britannia|Lelouch]] w masce Zero, [[c-c|C.C.]] i Knightmare Frame [[gawain|Gawain]], którzy w czwartej misji trafiają do Pentagony.
 }}
