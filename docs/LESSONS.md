@@ -552,3 +552,21 @@ Zasady:
 - **Pseudonim, który zmienia właściciela między grami, idzie do `pseudonim_w_grze`.**
 - **Zamiana sluga to też tabele:** w komórkach tabel odsyłacz ma postać `[[slug\|…]]`, więc
   szukaj obu form — `[[slug|` i `[[slug\|`.
+
+## L38 — Brakujące części listy to nie „obiekt niezidentyfikowany” (2026-11-27)
+
+Odczyt R2 po dostawie 4-4 zadeklarował 343 obiekty, ale z 12 adnotacji dotarło 10 — GitHub
+przechowuje najwyżej 10 adnotacji jednego kroku. Agent opisał brakujący obiekt jako
+niezidentyfikowany i uznał, że Lelouch ma jeden portret. Właściciel wgrał dwa; drugi,
+„Zero (Lelouch Lamperouge).png”, leżał właśnie w uciętej części listy.
+
+Zasady:
+
+- **Lista jest pełna dopiero wtedy, gdy masz części 1…`total`, a liczba kluczy równa się
+  `objectCount`.** Rozbieżność to błąd odczytu do naprawienia przed przypisaniem plików,
+  nie przypis w manifeście.
+- **Gdy narzędzie ucina wynik, napraw narzędzie** (tu: zwarty format adnotacji,
+  `docs/guides/ILUSTRACJE_R2.md`), zamiast pytać właściciela o to, co da się odczytać.
+- **Fakt podany tylko w nazwie pliku albo w manifeście nie jest jeszcze faktem strony.**
+  Nazwisko „Lamperouge” było w kluczu ilustracji i w uzasadnieniu manifestu, a na stronie
+  Leloucha tylko półsłówkiem — treść strony podaje je wprost, z cytowaniem.

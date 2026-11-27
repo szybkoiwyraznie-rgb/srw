@@ -76,6 +76,9 @@ test('obsada 4-4: Zero to Lelouch, a Amm mówi bez maszyny', () => {
   assert.equal(bySlug.has('zero'), false, 'Zero nie ma osobnej strony');
   const lelouch = bySlug.get('lelouch-vi-britannia');
   assert.equal(pseudonimWGrze(lelouch, 'srw-oe'), 'Zero');
+  // Nazwisko z pierwowzoru, pod którym ukrywał się w Japonii, stoi w bloku źródłowym z cytowaniem.
+  const zrodlo = lelouch.body.slice(lelouch.body.indexOf('{{zrodlo'), lelouch.body.indexOf('}}', lelouch.body.indexOf('{{zrodlo')));
+  assert.match(zrodlo, /Lelouch Lamperouge.*\(\[Geass Wiki, „Lelouch vi Britannia”\]\(https:\/\/geass\.miraheze\.org\/wiki\/Lelouch_Lamperouge\)/);
   assert.deepEqual(lelouch.gry, ['srw-oe', 'srw-y']);
   assert.equal(lelouch.seria, 'code-geass');
   assert.equal(bySlug.get('c-c').seria, 'code-geass');
@@ -124,7 +127,8 @@ test('skład misji 4-4 trafia do sceny, epizodu i pól pilotów', () => {
 test('Misja 4-4: dostawa ilustracji (2026-11-27) przypisuje dziewięć plików jednostek i siedem portretów', () => {
   const manifest = JSON.parse(fs.readFileSync('media/ilustracje.json', 'utf8'));
   // Klucze zachowują pisownię właściciela: „C. C.” to C.C., a „Lelouch Lamperouge”
-  // (nazwisko, pod którym ukrywał się w Japonii) to strona Leloucha vi Britannii.
+  // (nazwisko, pod którym ukrywał się w Japonii) i „Zero (Lelouch Lamperouge)” (portret
+  // w masce) to strona Leloucha vi Britannii; „characters/Zero.png” zostaje przy Suzaku.
   const oczekiwane = {
     'bat-shu': ['Bat-Shu.png', 'Bat-Shu 2.png'],
     gawain: ['Gawain.png', 'Gawain 2.png'],
@@ -135,7 +139,7 @@ test('Misja 4-4: dostawa ilustracji (2026-11-27) przypisuje dziewięć plików j
     'daba-myroad': ['characters/Daba Myroad.png'],
     'fannaria-amm': ['characters/Fannaria Amm.png'],
     'gaw-ha-leccee': ['characters/Gaw Ha Leccee.png'],
-    'lelouch-vi-britannia': ['characters/Lelouch Lamperouge.png'],
+    'lelouch-vi-britannia': ['characters/Lelouch Lamperouge.png', 'characters/Zero (Lelouch Lamperouge).png'],
     'lilis-faw': ['characters/Lilis Faw.png'],
     'mirawoo-kyao': ['characters/Mirawoo Kyao.png'],
   };
@@ -154,6 +158,7 @@ test('Misja 4-4: dostawa ilustracji (2026-11-27) przypisuje dziewięć plików j
       assert.ok(body.indexOf('## Ilustracje') < body.indexOf('## Parametry'), `${slug}: galeria przed parametrami`);
     }
   }
+  assert.deepEqual(manifest.encje['suzaku-kururugi'], ['characters/Zero.png'], 'Zero z SRW Y zostaje przy Suzaku');
   // Żołnierz Posaydala nie ma portretu w tej dostawie.
   assert.equal(manifest.encje['zolnierz-posaydala'], undefined);
 });

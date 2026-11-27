@@ -12,6 +12,7 @@ pochodzenie: skrypt
 zrodla:
   - https://mechabay.com/lelouch-vi-britannia
   - https://34.suparobo.jp/character/chara16/
+  - https://geass.miraheze.org/wiki/Lelouch_Lamperouge
 tagi: [pilot, code-geass, czarni-rycerze]
 utworzono: 2026-11-09
 ---
@@ -35,7 +36,9 @@ Cesarz Świętego Imperium Britannii, który po obaleniu [[logos|Logosu]] i upad
 
 Oficjalne streszczenie *Code Geass* w serwisie Super Robot Wars Y przedstawia Leloucha vi Britannia jako geniusza, który jako Zero zakłada [[czarni-rycerze|Czarnych Rycerzy]], potem obejmuje tron cesarski a na paradzie życie odbiera mu Zero w planie Zero Requiem ([34.suparobo.jp, „Character”](https://34.suparobo.jp/character/chara16/); sprawdzono 2026-11-09).
 
-W pierwowzorze jest jedenastym synem cesarza Charlesa zi Britannii i Marianne; po zamachu na matkę i kalectwie siostry [[nunnally-vi-britannia|Nunnally]] popadł w niełaskę i trafił do Japonii jako polityczny zakładnik, gdzie ukrywał się pod nazwiskiem Lamperouge. Od [[c-c|C.C.]] otrzymał [[geass|Geass]] — moc rozkazu absolutnego — i pod maską Zero stanął na czele [[czarni-rycerze|Czarnych Rycerzy]] walczących z Britannią ([MechaBay, „Lelouch vi Britannia”](https://mechabay.com/lelouch-vi-britannia); sprawdzono 2026-11-11).
+W pierwowzorze jest jedenastym synem cesarza Charlesa zi Britannii i Marianne; po zamachu na matkę i kalectwie siostry [[nunnally-vi-britannia|Nunnally]] popadł w niełaskę i trafił do Japonii jako polityczny zakładnik. Od [[c-c|C.C.]] otrzymał [[geass|Geass]] — moc rozkazu absolutnego — i pod maską Zero stanął na czele [[czarni-rycerze|Czarnych Rycerzy]] walczących z Britannią ([MechaBay, „Lelouch vi Britannia”](https://mechabay.com/lelouch-vi-britannia); sprawdzono 2026-11-11).
+
+Gdy Britannia najechała Japonię, oficjalne rejestry uznały rodzeństwo za zmarłe, a Lelouch z pomocą rodu Ashfordów, dawnych sojuszników matki, ukrył prawdziwą tożsamość. Odtąd żył jako **Lelouch Lamperouge**, uczeń i wiceprzewodniczący samorządu Akademii Ashford ([Geass Wiki, „Lelouch vi Britannia”](https://geass.miraheze.org/wiki/Lelouch_Lamperouge); sprawdzono 2026-11-27).
 }}
 
 {{menu gra=srw-oe
@@ -44,7 +47,11 @@ W pierwowzorze jest jedenastym synem cesarza Charlesa zi Britannii i Marianne; p
 
 ### Ilustracja 1
 
-![Lelouch vi Britannia — ilustracja 1 z 1](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Lelouch%20Lamperouge.png)
+![Lelouch vi Britannia — ilustracja 1 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Lelouch%20Lamperouge.png)
+
+### Ilustracja 2
+
+![Lelouch vi Britannia — ilustracja 2 z 2](https://pub-f065608b5a964f3fb44480d8c9df01de.r2.dev/characters/Zero%20(Lelouch%20Lamperouge).png)
 }}
 
 {{menu gra=srw-oe

@@ -56,6 +56,14 @@ gh api "repos/szybkoiwyraznie-rgb/srw/check-runs/$JOB/annotations" \
   --jq '.[] | select(.title == "R2 inventory") | .message' > /tmp/r2-annotations.json
 ```
 
+GitHub przechowuje **najwyżej 10 adnotacji jednego kroku** — nadmiarowe przepadają bez
+ostrzeżenia. Dlatego adnotacje mają zwarty format (`format: 2`): części `keys` zawierają
+same klucze całego bucketa, a części `recent` — klucz, rozmiar i datę tylko dla plików
+zmienionych w ostatnich 14 dniach. Każda część niesie `part` i `total`; pierwsza także
+`objectCount`. Zanim uznasz odczyt za pełny, sprawdź, że masz wszystkie części od 1 do
+`total` i że liczba kluczy równa się `objectCount`. Jeśli części jest więcej niż 10,
+workflow dopisuje ostrzeżenie — wtedy trzeba skrócić format, a nie zgadywać brakujące klucze.
+
 Przy równoległych uruchomieniach sprawdź gałąź, czas i autora, zamiast zakładać, że najnowszy
 run należy do tej sesji. Plik wynikowy to `r2-inventory.json`: czas wykonania, bucket,
 publiczny adres bazowy, liczba i łączny rozmiar plików oraz `objects` z polami:
